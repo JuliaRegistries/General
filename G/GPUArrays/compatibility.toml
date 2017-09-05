@@ -1,16 +1,31 @@
 ["0.0"]
 julia = "0.5-0.6"
-CLBLAS = "1.1"
-CLFFT = "0.4-0.5"
 Compat = "0.19-0.31"
 CUBLAS = "0.0-0.2"
 CUDArt = "0.0-0.4"
-CUFFT = "0.0"
 Matcha = "0.0-0.1"
 OpenCL = "0.5.2-0.6"
-StaticArrays = "0.0-0.6"
 Sugar = "0.0.3-0.3"
 Transpiler = "0.0-0.3"
 
-["0.0.2"]
+["0.0-0.1"]
+CLBLAS = "1.1"
+CLFFT = "0.4-0.5"
+CUFFT = "0.0"
+StaticArrays = "0.0-0.6"
+
+["0.0.2-0.1"]
 ColorTypes = "0.0-0.6"
+
+["0.1"]
+julia = "0.6"
+CUBLAS = "0.2"
+CUDAdrv = "0.5.1-0.5.2"
+CUDAnative = "0.4.1-0.5"
+CUDArt = "0.4"
+Interpolations = "0.0-0.6"
+IterTools = "0.1"
+Matcha = "0.0.2-0.1"
+OpenCL = "0.6"
+Sugar = "0.3"
+Transpiler = "0.3"

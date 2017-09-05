@@ -19,7 +19,7 @@ InplaceOps = "0.0.5-0.1"
 julia = "0.5-0.6"
 ForwardDiff = "0.2.4-0.5"
 
-["0.0-2.18"]
+["0.0-2.19"]
 GenericSVD = "0.0.2-0.1"
 Parameters = "0.5-0.7"
 
@@ -38,7 +38,7 @@ DiffEqBase = "0.1.2-0.6"
 ["0.1.1-0.6"]
 RecursiveArrayTools = "0.0.2-0.12"
 
-["0.1.1-2.18"]
+["0.1.1-2.19"]
 Juno = "0.2.5-0.3"
 
 ["0.2-0.5"]
@@ -56,7 +56,7 @@ DiffEqBase = "0.6-0.7"
 ["1.0-1.1"]
 RecursiveArrayTools = "0.1.2-0.12"
 
-["1.0-2.18"]
+["1.0-2.19"]
 DataStructures = "0.4.6-0.7"
 NLsolve = "0.9.1-0.11"
 Roots = "0.2.1-0.4"
@@ -88,7 +88,7 @@ DiffEqBase = "0.15-1.14"
 ["2.0.0-2.0.2"]
 DiffEqBase = "1.1-1.14"
 
-["2.0.2-2.18"]
+["2.0.2-2.19"]
 Compat = "0.18-0.31"
 
 ["2.0.3-2.1"]
@@ -109,14 +109,14 @@ StaticArrays = "0.0-0.6"
 ["2.5-2.16"]
 RecursiveArrayTools = "0.8-0.12"
 
-["2.5-2.18"]
+["2.5-2.19"]
 julia = "0.6"
 ForwardDiff = "0.5"
 
 ["2.6-2.7"]
 DiffEqBase = "1.10-1.14"
 
-["2.7-2.18"]
+["2.7-2.19"]
 Reexport = "0.0"
 
 ["2.8-2.9"]
@@ -130,10 +130,15 @@ DiffEqBase = "1.16-1.18"
 MuladdMacro = "0.0"
 
 ["2.14-2.18"]
-DiffEqBase = "1.20-1.22"
+DiffEqBase = "1.20-1.23"
+
+["2.14-2.19"]
 MuladdMacro = "0.0.2"
 StaticArrays = "0.0-0.6"
 
-["2.17-2.18"]
+["2.17-2.19"]
 DiffEqDiffTools = "0.0"
 RecursiveArrayTools = "0.12"
+
+["2.19"]
+DiffEqBase = "1.23"
