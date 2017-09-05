@@ -11,7 +11,13 @@ Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 
 ["0.4"]
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 GeoStatsBase = "323cb8eb-fbf6-51c0-afd0-f8fba70507b2"
 NamedTuples = "73a701b4-84e1-5df0-88ff-1968ee2ee8dc"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.4.0-0.4.1"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
+["0.4.2-0.4.3"]
+GeoStatsDevTools = "19e549d1-356f-5655-9f3d-c1d6136da705"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"

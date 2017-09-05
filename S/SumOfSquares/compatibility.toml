@@ -1,5 +1,14 @@
 ["0.0"]
 julia = "0.5-0.6"
-JuMP = "0.1-0.18"
 MultivariatePolynomials = "0.0"
 PolyJuMP = "0.0"
+
+["0.0-0.1"]
+JuMP = "0.1-0.18"
+
+["0.1"]
+julia = "0.6"
+MultivariateMoments = "0.0"
+MultivariatePolynomials = "0.1.1"
+PolyJuMP = "0.1"
+SemialgebraicSets = "0.0.2"

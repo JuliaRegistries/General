@@ -2,7 +2,7 @@
 julia = "0.4-0.6"
 
 ["0.0-0.1"]
-Plots = "0.0-0.12"
+Plots = "0.0-0.13"
 
 ["0.0-0.5"]
 DataFrames = "0.1-0.10"
@@ -15,20 +15,25 @@ StatsBase = "0.1-0.19"
 julia = "0.5-0.6"
 
 ["0.2-0.3"]
-Plots = "0.10-0.12"
+Plots = "0.10-0.13"
 
 ["0.3-0.5"]
 Loess = "0.0-0.3"
 
 ["0.4"]
-Plots = "0.12"
+Plots = "0.12-0.13"
 
 ["0.4-0.5"]
 julia = "0.6"
 
 ["0.5"]
-DataValues = "0.0-0.2"
+DataValues = "0.0-0.3"
 IterableTables = "0.5"
-Plots = "0.12.4"
 TableTraits = "0.0"
 TableTraitsUtils = "0.1"
+
+["0.5.0"]
+Plots = "0.12.4-0.13"
+
+["0.5.1"]
+Plots = "0.13"
