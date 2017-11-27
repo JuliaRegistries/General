@@ -5,11 +5,11 @@ julia = "0.5-0.6"
 DiffEqBase = "0.0-0.13"
 LossFunctions = "0.0-0.2"
 LsqFit = "0.0-0.3"
-OrdinaryDiffEq = "0.0-2.19"
+OrdinaryDiffEq = "0.0-2.30"
 RecursiveArrayTools = "0.0-0.12"
 
 ["0.0.2"]
-OrdinaryDiffEq = "0.1.1-2.19"
+OrdinaryDiffEq = "0.1.1-2.30"
 
 ["0.0.2-0.1"]
 DiffEqBase = "0.1.2-0.13"
@@ -17,27 +17,29 @@ DiffEqBase = "0.1.2-0.13"
 ["0.0.2-0.5"]
 RecursiveArrayTools = "0.0.2-0.12"
 
-["0.0.2-0.6"]
+["0.0.2-0.7"]
 LossFunctions = "0.0.2-0.2"
 LsqFit = "0.0.2-0.3"
 
-["0.1-0.6"]
+["0.1-0.7"]
 Calculus = "0.1-0.2"
-ForwardDiff = "0.0-0.6"
+ForwardDiff = "0.0-0.7"
 
 ["0.2-0.3"]
-DiffEqBase = "0.14-1.23"
+DiffEqBase = "0.14-2.6"
 
 ["0.2-0.6"]
-Compat = "0.17-0.33"
-Optim = "0.1-0.9"
+Compat = "0.17-0.37"
 
-["0.4-0.6"]
-DiffEqBase = "1.7-1.23"
+["0.2-0.7"]
+Optim = "0.1-0.10"
 
-["0.5-0.6"]
+["0.4-0.7"]
+DiffEqBase = "1.7-2.6"
+
+["0.5-0.7"]
 julia = "0.6"
 
-["0.6"]
+["0.6-0.7"]
 PenaltyFunctions = "0.0"
 RecursiveArrayTools = "0.10-0.12"

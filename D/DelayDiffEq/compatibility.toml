@@ -7,9 +7,9 @@ RecursiveArrayTools = "0.1.2-0.12"
 julia = "0.5-0.6"
 
 ["0.0-0.10"]
-Combinatorics = "0.0-0.4"
+Combinatorics = "0.0-0.5"
 
-["0.0-1.0"]
+["0.0-1.7"]
 DataStructures = "0.4.6-0.7"
 
 ["0.1"]
@@ -18,19 +18,19 @@ OrdinaryDiffEq = "1.2-2.14"
 ["0.1-0.2"]
 DiffEqBase = "0.8-0.14"
 
-["0.1-1.0"]
+["0.1-1.7"]
 RecursiveArrayTools = "0.2-0.12"
 
 ["0.2-0.4"]
 OrdinaryDiffEq = "1.6-2.14"
 
 ["0.3-0.5.0"]
-DiffEqBase = "0.15-1.23"
+DiffEqBase = "0.15-1.24"
 
 ["0.4-0.10"]
-Compat = "0.17-0.33"
+Compat = "0.17-0.37"
 
-["0.5-1.0"]
+["0.5-1.7"]
 julia = "0.6"
 Reexport = "0.0"
 
@@ -38,15 +38,15 @@ Reexport = "0.0"
 OrdinaryDiffEq = "2.9-2.14"
 
 ["0.5.1-0.5.2"]
-DiffEqBase = "1.15-1.23"
+DiffEqBase = "1.15-1.24"
 
 ["0.5.1-0.6"]
 OrdinaryDiffEq = "2.10-2.14"
 
 ["0.6-0.9"]
-DiffEqBase = "1.16-1.23"
+DiffEqBase = "1.16-1.24"
 
-["0.6-1.0"]
+["0.6-1.7"]
 MuladdMacro = "0.0"
 
 ["0.7-0.8"]
@@ -56,12 +56,29 @@ OrdinaryDiffEq = "2.13-2.14"
 OrdinaryDiffEq = "2.15-2.18"
 
 ["0.10"]
-DiffEqBase = "1.21-1.23"
+DiffEqBase = "1.21-1.24"
 OrdinaryDiffEq = "2.17-2.18"
 
 ["1.0"]
-DiffEqBase = "1.23"
-ForwardDiff = "0.0-0.6"
-NLsolve = "0.1-0.11"
+DiffEqBase = "1.23-1.24"
 OrdinaryDiffEq = "2.19"
+
+["1.0-1.7"]
+ForwardDiff = "0.0-0.7"
+NLsolve = "0.1-0.13"
 Roots = "0.1-0.4"
+
+["1.1-1.2"]
+OrdinaryDiffEq = "2.21-2.22"
+
+["1.1-1.7"]
+DiffEqBase = "2.0-2.6"
+
+["1.3"]
+OrdinaryDiffEq = "2.22-2.23"
+
+["1.4-1.7"]
+OrdinaryDiffEq = "2.24-2.30"
+
+["1.7"]
+DiffEqDiffTools = "0.2"

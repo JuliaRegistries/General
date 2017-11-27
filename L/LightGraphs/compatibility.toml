@@ -2,7 +2,7 @@
 julia = "0.3-0.6"
 
 ["0.1.0-0.1.10"]
-Compat = "0.2.6-0.33"
+Compat = "0.2.6-0.37"
 
 ["0.1.0-0.1.14"]
 DataStructures = "0.3-0.7"
@@ -10,8 +10,8 @@ GZip = "0.2-0.3"
 StatsBase = "0.6-0.8"
 
 ["0.1.11-0.1.14"]
-Compat = "0.4-0.33"
-Distributions = "0.6.6-0.14"
+Compat = "0.4-0.37"
+Distributions = "0.6.6-0.15"
 
 ["0.1.11-0.2"]
 LightXML = "0.1.10-0.5"
@@ -20,7 +20,7 @@ LightXML = "0.1.10-0.5"
 Docile = "0.5.3-0.5.23"
 
 ["0.1.15-0.3"]
-Compat = "0.4.9-0.33"
+Compat = "0.4.9-0.37"
 GZip = "0.2.16-0.3"
 StatsBase = "0.6.15-0.8"
 
@@ -50,7 +50,7 @@ LightXML = "0.2.1-0.5"
 Requires = "0.1-0.4"
 
 ["0.4.1-0.5.4"]
-Combinatorics = "0.0-0.4"
+Combinatorics = "0.0-0.5"
 
 ["0.4.1-0.7.0"]
 ParserCombinator = "1.7.3-1.7.11"
@@ -62,7 +62,7 @@ JLD = "0.5-0.8"
 julia = "0.4"
 
 ["0.5.6-0.7.0"]
-Distributions = "0.1-0.14"
+Distributions = "0.1-0.15"
 
 ["0.6.0-0.6.1"]
 GraphMatrices = "0.0-0.1"
@@ -79,7 +79,7 @@ StatsBase = "0.1-0.19"
 LightXML = "0.4-0.5"
 
 ["0.7.1-0.8"]
-Distributions = "0.10.2-0.14"
+Distributions = "0.10.2-0.15"
 JLD = "0.6.3-0.8"
 ParserCombinator = "1.7.11"
 
@@ -99,11 +99,14 @@ DataStructures = "0.5-0.7"
 julia = "0.6"
 SimpleTraits = "0.4-0.5"
 
-["0.9.5-0.11"]
-CodecZlib = "0.2-0.3"
+["0.9.5-0.11.0"]
+CodecZlib = "0.2-0.4"
 
 ["0.10.0-0.10.2"]
 DataStructures = "0.6-0.7"
 
 ["0.10.3-0.11"]
 DataStructures = "0.7"
+
+["0.11.1"]
+CodecZlib = "0.4"

@@ -1,5 +1,5 @@
 ["0.1-0.3"]
-Compat = "0.0-0.33"
+Compat = "0.0-0.37"
 Dates = "0.0-0.4"
 Docile = "0.0-0.5"
 Reexport = "0.0"
@@ -8,7 +8,7 @@ Reexport = "0.0"
 MultivariateStats = "0.0-0.4"
 
 ["0.1-0.9"]
-Distributions = "0.1-0.14"
+Distributions = "0.1-0.15"
 
 ["0.1-0.11"]
 StatsBase = "0.1-0.19"
@@ -47,23 +47,32 @@ julia = "0.5-0.6"
 ["0.7.1-0.11"]
 LearnBase = "0.0-0.1"
 
-["0.8-0.11"]
+["0.8-0.13"]
 julia = "0.6"
 
 ["0.9"]
-OnlineStatsBase = "0.0.3-0.0.8"
+OnlineStatsBase = "0.0.3-0.2"
 
-["0.9-0.11"]
+["0.9-0.13"]
 LossFunctions = "0.0-0.2"
 PenaltyFunctions = "0.0"
 RecipesBase = "0.0-0.2"
 SweepOperator = "0.0-0.1"
 
 ["0.10.0"]
-OnlineStatsBase = "0.0.5-0.0.8"
+OnlineStatsBase = "0.0.5-0.2"
 
 ["0.10.1-0.11.0"]
-OnlineStatsBase = "0.0.6-0.0.8"
+OnlineStatsBase = "0.0.6-0.2"
 
 ["0.11.1"]
-OnlineStatsBase = "0.0.8"
+OnlineStatsBase = "0.0.8-0.2"
+
+["0.12"]
+OnlineStatsBase = "0.1-0.2"
+
+["0.12-0.13"]
+Reexport = "0.0"
+
+["0.13"]
+OnlineStatsBase = "0.2"

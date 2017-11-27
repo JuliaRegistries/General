@@ -2,29 +2,39 @@
 julia = "0.4-0.6"
 
 ["0.0.3-0.4"]
-Combinatorics = "0.0-0.4"
+Combinatorics = "0.0-0.5"
 
 ["0.1-0.2"]
 julia = "0.5-0.6"
 
-["0.3-0.4"]
+["0.3-0.5"]
 julia = "0.6"
 SpecialFunctions = "0.0-0.3"
 
-["0.3.1-0.4"]
+["0.3.1-0.5"]
 Parameters = "0.0-0.8"
 
-["0.3.4-0.4"]
+["0.3.4-0.5"]
 RecipesBase = "0.0-0.2"
 
 ["0.4"]
 GeoStatsBase = "0.0"
+
+["0.4-0.5"]
 NamedTuples = "0.0-4.0"
 Reexport = "0.0"
 
 ["0.4.0-0.4.1"]
 DataFrames = "0.1-0.10"
 
-["0.4.2-0.4.3"]
+["0.4.2-0.4.4"]
 GeoStatsDevTools = "0.0"
+
+["0.4.2-0.5"]
 StatsBase = "0.1-0.19"
+
+["0.5"]
+Combinatorics = "0.5"
+Distances = "0.1-0.5"
+GeoStatsBase = "0.0.5"
+GeoStatsDevTools = "0.0.6"

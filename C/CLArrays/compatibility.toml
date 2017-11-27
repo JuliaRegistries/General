@@ -5,12 +5,18 @@ CLFFT = "0.4-0.5"
 ColorTypes = "0.0-0.6"
 GPUArrays = "0.2"
 Matcha = "0.1.1"
-OpenCL = "0.6.1"
 StaticArrays = "0.0-0.6"
 Sugar = "0.4.1"
 
 ["0.1.0"]
-Transpiler = "0.4.1-0.4.2"
+Transpiler = "0.4.1-0.4.3"
+
+["0.1.0-0.1.1"]
+OpenCL = "0.6.1-0.7"
 
 ["0.1.1"]
-Transpiler = "0.4.2"
+Transpiler = "0.4.2-0.4.3"
+
+["0.1.2"]
+OpenCL = "0.7"
+Transpiler = "0.4.3"

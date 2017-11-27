@@ -1,30 +1,31 @@
 ["0.0"]
-Sundials = "0.3-0.14"
+Sundials = "0.3-0.15"
 
 ["0.0-0.1.0"]
 DiffEqBase = "0.0-0.6"
 
 ["0.0-0.6"]
-NLsolve = "0.7.3-0.11"
+NLsolve = "0.7.3-0.13"
 Ranges = "0.0"
 RecipesBase = "0.1-0.2"
 
 ["0.0-1.4"]
-Compat = "0.8.8-0.33"
+Compat = "0.8.8-0.37"
 
 ["0.0-2.3.1"]
 InplaceOps = "0.0.5-0.1"
 
 ["0.0-2.4"]
 julia = "0.5-0.6"
+DiffEqDiffTools = "0.0"
 ForwardDiff = "0.2.4-0.4"
 
-["0.0-2.19"]
+["0.0-2.30"]
 GenericSVD = "0.0.2-0.1"
 Parameters = "0.5-0.8"
 
 ["0.0.2-0.0.3"]
-ParameterizedFunctions = "0.1-2.2"
+ParameterizedFunctions = "0.1-2.3"
 
 ["0.0.4-0.1.0"]
 RecursiveArrayTools = "0.0-0.12"
@@ -38,7 +39,7 @@ DiffEqBase = "0.1.2-0.6"
 ["0.1.1-0.6"]
 RecursiveArrayTools = "0.0.2-0.12"
 
-["0.1.1-2.19"]
+["0.1.1-2.30"]
 Juno = "0.2.5-0.3"
 
 ["0.2-0.5"]
@@ -56,9 +57,11 @@ DiffEqBase = "0.6-0.7"
 ["1.0-1.1"]
 RecursiveArrayTools = "0.1.2-0.12"
 
-["1.0-2.19"]
+["1.0-2.21"]
+NLsolve = "0.9.1-0.13"
+
+["1.0-2.30"]
 DataStructures = "0.4.6-0.7"
-NLsolve = "0.9.1-0.11"
 Roots = "0.2.1-0.4"
 
 ["1.1"]
@@ -77,7 +80,7 @@ RecursiveArrayTools = "0.2-0.12"
 DiffEqBase = "0.11-0.14"
 
 ["1.5-2.0.1"]
-Compat = "0.17-0.33"
+Compat = "0.17-0.37"
 
 ["1.6-1.7"]
 DiffEqBase = "0.13-0.14"
@@ -88,8 +91,8 @@ DiffEqBase = "0.15-1.14"
 ["2.0.0-2.0.2"]
 DiffEqBase = "1.1-1.14"
 
-["2.0.2-2.19"]
-Compat = "0.18-0.33"
+["2.0.2-2.30"]
+Compat = "0.18-0.37"
 
 ["2.0.3-2.1"]
 DiffEqBase = "1.3-1.14"
@@ -109,14 +112,19 @@ StaticArrays = "0.0-0.6"
 ["2.5-2.16"]
 RecursiveArrayTools = "0.8-0.12"
 
-["2.5-2.19"]
-julia = "0.6"
+["2.5-2.24"]
+DiffEqDiffTools = "0.0.2"
+
+["2.5-2.26"]
 ForwardDiff = "0.5"
+
+["2.5-2.30"]
+julia = "0.6"
 
 ["2.6-2.7"]
 DiffEqBase = "1.10-1.14"
 
-["2.7-2.19"]
+["2.7-2.30"]
 Reexport = "0.0"
 
 ["2.8-2.9"]
@@ -130,15 +138,38 @@ DiffEqBase = "1.16-1.18"
 MuladdMacro = "0.0"
 
 ["2.14-2.18"]
-DiffEqBase = "1.20-1.23"
+DiffEqBase = "1.20-1.24"
 
-["2.14-2.19"]
+["2.14-2.30"]
 MuladdMacro = "0.0.2"
 StaticArrays = "0.0-0.6"
 
-["2.17-2.19"]
-DiffEqDiffTools = "0.0"
+["2.17-2.30"]
 RecursiveArrayTools = "0.12"
 
 ["2.19"]
-DiffEqBase = "1.23"
+DiffEqBase = "1.23-1.24"
+
+["2.20"]
+DiffEqBase = "1.24.1"
+
+["2.21-2.25"]
+DiffEqBase = "2.0-2.6"
+
+["2.22-2.30"]
+NLsolve = "0.12.1-0.13"
+
+["2.25-2.28"]
+DiffEqDiffTools = "0.1"
+
+["2.26-2.29"]
+DiffEqBase = "2.4-2.6"
+
+["2.27-2.30"]
+ForwardDiff = "0.7"
+
+["2.29-2.30"]
+DiffEqDiffTools = "0.2"
+
+["2.30"]
+DiffEqBase = "2.6"
