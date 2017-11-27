@@ -1,8 +1,11 @@
-["0.0"]
+["0.0-0.1"]
 julia = "0.6"
-DiffEqBase = "1.15-1.23"
-ForwardDiff = "0.5-0.6"
-OrdinaryDiffEq = "2.11-2.19"
+DiffEqBase = "1.15-2.6"
+ForwardDiff = "0.5-0.7"
+OrdinaryDiffEq = "2.11-2.30"
 RecursiveArrayTools = "0.0-0.12"
 Reexport = "0.0"
 StaticArrays = "0.0-0.6"
+
+["0.1"]
+RecipesBase = "0.0-0.2"
