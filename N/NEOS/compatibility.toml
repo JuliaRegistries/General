@@ -4,7 +4,7 @@ FactCheck = "0.0-0.4"
 GZip = "0.1-0.3"
 MathProgBase = "0.1-0.7"
 
-["0.0-0.2"]
+["0.0-0.3"]
 Codecs = "0.1-0.4"
 LightXML = "0.1-0.5"
 Requests = "0.0-0.5"
@@ -13,10 +13,16 @@ Requests = "0.0-0.5"
 julia = "0.4-0.6"
 MathProgBase = "0.4-0.5"
 
-["0.1-0.2"]
+["0.1-0.3"]
 Libz = "0.0-0.2"
 
 ["0.2"]
 julia = "0.5-0.6"
-Compat = "0.9.5-0.37"
+Compat = "0.9.5-0.39"
 MathProgBase = "0.5-0.6"
+
+["0.3"]
+julia = "0.6"
+AmplNLWriter = "0.4"
+MathProgBase = "0.5-0.7"
+ZipFile = "0.1-0.4"
