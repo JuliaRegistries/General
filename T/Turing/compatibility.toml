@@ -4,16 +4,22 @@ ConjugatePriors = "0.1-0.2"
 Distributions = "0.1-0.15"
 
 ["0.1-0.2"]
-PDMats = "0.5.1-0.7"
+PDMats = "0.5.1-0.8"
 
 ["0.1-0.3"]
 julia = "0.5-0.6"
+
+["0.1-0.4"]
 Distributions = "0.11-0.15"
 ForwardDiff = "0.0-0.7"
 
 ["0.2"]
 Stats = "0.0-0.1"
 
-["0.2-0.3"]
+["0.2-0.4"]
 Mamba = "0.3-0.11"
 ProgressMeter = "0.0-0.5"
+
+["0.4"]
+julia = "0.6"
+Stan = "0.0-2.0"

@@ -17,13 +17,23 @@ YAML = "0.1-0.2"
 BuildExecutable = "0.0-0.1"
 
 ["0.2"]
-Compat = "0.0-0.39"
+Compat = "0.0-0.44"
 
 ["0.2-0.3"]
 Mocking = "0.0-0.4"
 
 ["0.3"]
 julia = "0.5-0.6"
-Compat = "0.17-0.39"
-FilePaths = "0.2-0.3"
-Memento = "0.0-0.3"
+FilePaths = "0.2-0.4"
+Memento = "0.0-0.5"
+
+["0.3-0.4"]
+Compat = "0.17-0.44"
+
+["0.4"]
+julia = "0.6"
+ArgParse = "0.5"
+FilePaths = "0.3-0.4"
+Memento = "0.2-0.5"
+Mocking = "0.3.4-0.4"
+YAML = "0.2.1"

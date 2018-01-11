@@ -4,8 +4,8 @@ ForwardDiff = "0.0-0.5"
 ["0.0-0.1"]
 julia = "0.5-0.6"
 
-["0.0-0.5"]
-DiffEqBase = "0.6-2.6"
+["0.0-0.6"]
+DiffEqBase = "0.6-2.10"
 
 ["0.1"]
 ForwardDiff = "0.3-0.5"
@@ -17,16 +17,23 @@ NLsolve = "0.1-0.13"
 ["0.2-0.4"]
 ForwardDiff = "0.5"
 
-["0.2-0.5"]
+["0.2-0.7"]
 julia = "0.6"
 
 ["0.3-0.4"]
-OrdinaryDiffEq = "0.0-2.31"
+OrdinaryDiffEq = "0.0-2.35"
 
-["0.4-0.5"]
+["0.4-0.7"]
 DataStructures = "0.2-0.7"
 RecipesBase = "0.0-0.2"
-RecursiveArrayTools = "0.0-0.13"
+RecursiveArrayTools = "0.0-0.14"
 
-["0.5"]
-OrdinaryDiffEq = "2.22-2.31"
+["0.5-0.6"]
+OrdinaryDiffEq = "2.22-2.35"
+
+["0.6.1-0.7"]
+StaticArrays = "0.0-0.6"
+
+["0.7"]
+DiffEqBase = "2.10"
+OrdinaryDiffEq = "2.34-2.35"
