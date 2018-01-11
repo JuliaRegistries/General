@@ -1,11 +1,16 @@
 ["0.0-0.1"]
+OrdinaryDiffEq = "2.11-2.35"
+
+["0.0-0.3"]
 julia = "0.6"
-DiffEqBase = "1.15-2.6"
+DiffEqBase = "1.15-2.10"
 ForwardDiff = "0.5-0.7"
-OrdinaryDiffEq = "2.11-2.31"
-RecursiveArrayTools = "0.0-0.13"
-Reexport = "0.0"
+RecursiveArrayTools = "0.0-0.14"
+Reexport = "0.0-0.1"
 StaticArrays = "0.0-0.6"
 
-["0.1"]
+["0.1-0.3"]
 RecipesBase = "0.0-0.2"
+
+["0.2-0.3"]
+OrdinaryDiffEq = "2.33-2.35"
