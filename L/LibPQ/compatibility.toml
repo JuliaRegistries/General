@@ -1,23 +1,34 @@
 ["0.0-0.1"]
-julia = "0.6"
+Memento = "0.3-0.5"
+
+["0.0-0.2"]
+julia = "0.6-0.7"
 DataStreams = "0.3.1-0.3.4"
 DocStringExtensions = "0.1-0.4"
-Memento = "0.3-0.5"
-Missings = "0.2.1-0.2.4"
+Missings = "0.2.1-0.2.5"
 
 ["0.0.1"]
-Compat = "0.26-0.44"
+Compat = "0.26-0.49"
 
 ["0.0.2"]
-Compat = "0.33-0.44"
+Compat = "0.33-0.49"
 
-["0.0.2-0.1"]
+["0.0.2-0.2"]
 BinDeps = "0.6-0.8"
 
 ["0.1"]
-Compat = "0.37-0.44"
+Compat = "0.37-0.49"
+
+["0.1-0.2"]
 Decimals = "0.2.1"
 IterTools = "0.1-0.2"
 LayerDicts = "0.1"
 OffsetArrays = "0.1-0.4"
-TimeZones = "0.0-0.5"
+TimeZones = "0.0-0.6"
+
+["0.2"]
+Compat = "0.41-0.49"
+Memento = "0.5.1"
+
+["0.2.1"]
+Homebrew = "0.0-0.6"
