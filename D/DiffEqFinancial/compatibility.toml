@@ -2,7 +2,7 @@
 DiffEqBase = "0.0-0.14"
 
 ["0.0-0.1"]
-StochasticDiffEq = "0.0-2.23"
+StochasticDiffEq = "0.0-3.0"
 
 ["0.0-0.2"]
 julia = "0.5-0.7"
@@ -12,10 +12,15 @@ DiffEqBase = "0.15-2.10"
 
 ["0.2"]
 DiffEqBase = "1.0-2.10"
-DiffEqNoiseProcess = "0.0-0.8"
+DiffEqNoiseProcess = "0.0-1.0"
 
 ["0.3"]
-julia = "0.6-0.7"
 DiffEqBase = "1.14-2.10"
-DiffEqNoiseProcess = "0.3.1-0.8"
+
+["0.3-1.0"]
+julia = "0.6-0.7"
+DiffEqNoiseProcess = "0.3.1-1.0"
 RandomNumbers = "0.0-0.1"
+
+["1.0"]
+DiffEqBase = "3.0"
