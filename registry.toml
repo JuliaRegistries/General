@@ -212,6 +212,7 @@ some amount of consideration when choosing package names.
 19ecbf4d-ef7c-5e4b-b54a-0a0ff23c5aed = { name = "Codecs", path = "C/Codecs" }
 1a029416-38b0-5245-b7ed-67249edcb994 = { name = "Arrowhead", path = "A/Arrowhead" }
 1a0d837d-f7ba-5e72-a8f8-b8273492ab4e = { name = "CVXOPT", path = "C/CVXOPT" }
+1a1bcaad-b889-5540-93fc-02c6735e0f5a = { name = "GroundMotion", path = "G/GroundMotion" }
 1a297f60-69ca-5386-bcde-b61e274b549b = { name = "FillArrays", path = "F/FillArrays" }
 1a62e0fc-b85c-5ca0-b1e8-6e77e6a3b884 = { name = "NOAAData", path = "N/NOAAData" }
 1a7fcfa4-7553-5727-a5d0-072824df3c21 = { name = "PathDistribution", path = "P/PathDistribution" }
@@ -575,6 +576,7 @@ some amount of consideration when choosing package names.
 505f98c9-085e-5b2c-8e89-488be7bf1f34 = { name = "InplaceOps", path = "I/InplaceOps" }
 5087d2c0-5ad2-51de-b1ef-eaf82f0743fd = { name = "IncGammaBeta", path = "I/IncGammaBeta" }
 509eaf56-8f8f-530b-95ce-37fd3147b88c = { name = "NaturalSelection", path = "N/NaturalSelection" }
+50ad52dc-2428-5a14-b1be-4c0d2fa9448f = { name = "DiffEqApproxFun", path = "D/DiffEqApproxFun" }
 50ceba7f-c3ee-5a84-a6e8-3ad40456ec97 = { name = "HyperDualNumbers", path = "H/HyperDualNumbers" }
 50d2b5c4-7a5e-59d5-8109-a42b560f39c0 = { name = "Lazy", path = "L/Lazy" }
 510215fc-4207-5dde-b226-833fc4488ee2 = { name = "Observables", path = "O/Observables" }
@@ -1039,6 +1041,7 @@ some amount of consideration when choosing package names.
 925886fa-5bf2-5e8e-b522-a9147a512338 = { name = "OnlineStatsBase", path = "O/OnlineStatsBase" }
 928aab9d-ef52-54ac-8ca1-acd7ca42c160 = { name = "SpecialMatrices", path = "S/SpecialMatrices" }
 92933f4c-e287-5a05-a399-4b506db050ca = { name = "ProgressMeter", path = "P/ProgressMeter" }
+929bd66a-55f3-5ff7-97f4-6857e71d06b8 = { name = "NetalignMeasures", path = "N/NetalignMeasures" }
 929cbde3-209d-540e-8aea-75f648917ca0 = { name = "LLVM", path = "L/LLVM" }
 92b13dbe-c966-51a2-8445-caca9f8a7d42 = { name = "TaylorIntegration", path = "T/TaylorIntegration" }
 92c85e6c-cbff-5e0c-80f7-495c94daaecd = { name = "GSL", path = "G/GSL" }
@@ -1095,6 +1098,7 @@ some amount of consideration when choosing package names.
 9a7e659c-8ee8-5706-894e-f68f43bc57ea = { name = "Proj4", path = "P/Proj4" }
 9a8bc11e-79be-5b39-94d7-1ccc349a1a85 = { name = "DataStreams", path = "D/DataStreams" }
 9a9c4646-d80d-55a4-af4c-84afa59d2e13 = { name = "ChaosCommunications", path = "C/ChaosCommunications" }
+9a9db56c-8f71-5460-add5-cb450131785e = { name = "Rectangle", path = "R/Rectangle" }
 9aa1b823-49e4-5ca5-8b0f-3971ec8bab6a = { name = "FastClosures", path = "F/FastClosures" }
 9ae72ec6-68ba-53e0-b5b5-d14fcaab5b43 = { name = "Drawing", path = "D/Drawing" }
 9b13fd28-a010-5f03-acff-a1bbcff69959 = { name = "IndirectArrays", path = "I/IndirectArrays" }
@@ -1451,6 +1455,7 @@ cea2fc95-2ef8-5908-991d-d86c75f38453 = { name = "Voting", path = "V/Voting" }
 cead932d-4c71-518b-b238-3d6b730c17f5 = { name = "Shannon", path = "S/Shannon" }
 cec144fc-5a64-5bc6-99fb-dde8f63e154c = { name = "OptimTestProblems", path = "O/OptimTestProblems" }
 cecf6091-0e4e-54ba-8cba-f0e96a51f282 = { name = "MicroLogging", path = "M/MicroLogging" }
+cee8b4bc-0221-51ea-99fd-cd13b9c49dcc = { name = "SparseMatrixLILs", path = "S/SparseMatrixLILs" }
 cf35fbd7-0cd7-5166-be24-54bfbe79505f = { name = "GeoInterface", path = "G/GeoInterface" }
 cf87cc76-4620-5dad-9f0a-7411b2d39d18 = { name = "DataAssim", path = "D/DataAssim" }
 cf8b7ac2-edfd-5d52-b105-178bb1715a45 = { name = "RobustStats", path = "R/RobustStats" }
@@ -1557,6 +1562,7 @@ df47a6cb-8c03-5eed-afd8-b6050d6c41da = { name = "RData", path = "R/RData" }
 df88083b-ffd0-5ec9-9f27-0a3b3d809c9f = { name = "Requests", path = "R/Requests" }
 df8f2f22-cfef-5733-af3f-96770d497d85 = { name = "SASLib", path = "S/SASLib" }
 dfba31c6-ed66-5d02-bd53-3eb16f72707f = { name = "QuantumBayesian", path = "Q/QuantumBayesian" }
+dfe93177-a0ea-5417-977a-ebc2ae938f81 = { name = "NetalignUtils", path = "N/NetalignUtils" }
 e04668b6-ddf2-5c09-b17b-50da0d2d0da2 = { name = "GeneralizedMetropolisHastings", path = "G/GeneralizedMetropolisHastings" }
 e094c991-5a90-5477-8896-c1e4c9552a1a = { name = "SingularIntegralEquations", path = "S/SingularIntegralEquations" }
 e0b4c2ea-889f-54df-a5e0-fe74b3c892fd = { name = "uCSV", path = "U/uCSV" }
@@ -1708,10 +1714,12 @@ f7cde340-81b8-519f-8cf7-a5da16e3ca5a = { name = "GeneralizedSampling", path = "G
 f7cf5433-e9a9-5c98-8d71-a3ee389f50ed = { name = "EconDatasets", path = "E/EconDatasets" }
 f7dbf8cf-5e5e-596a-b7ee-19a3f6d1dd5e = { name = "Whippet", path = "W/Whippet" }
 f7f18e0c-5ee9-5ccd-a5bf-e8befd85ed98 = { name = "GLFW", path = "G/GLFW" }
+f80583a2-2f03-5cf3-bf51-00b6f1fdf270 = { name = "IsoRank", path = "I/IsoRank" }
 f80590ac-b429-510a-8a99-e7c46989f22d = { name = "JuliaFEM", path = "J/JuliaFEM" }
 f86d3d12-fd5b-522c-99e9-61577282a1e9 = { name = "ExtractMacro", path = "E/ExtractMacro" }
 f8716d33-7c4a-5097-896f-ce0ecbd3ef6b = { name = "MultipleTesting", path = "M/MultipleTesting" }
 f92d4219-768d-571c-9f94-afc617fb7300 = { name = "FMIndexes", path = "F/FMIndexes" }
+f9630f5b-a116-5b0c-bd6c-4699aee17694 = { name = "ECharts", path = "E/ECharts" }
 f9640e96-87f6-5992-9c3b-0743c6a49ffa = { name = "MultiScaleArrays", path = "M/MultiScaleArrays" }
 f9b4ff27-07dc-5514-a2b4-022623d798a0 = { name = "SemidefiniteProgramming", path = "S/SemidefiniteProgramming" }
 f9d848e4-75a0-5321-a43a-fbaa97166838 = { name = "PDSampler", path = "P/PDSampler" }
