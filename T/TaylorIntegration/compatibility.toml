@@ -1,6 +1,6 @@
 ["0.0"]
 julia = "0.4-0.7"
-Compat = "0.9.1-0.49"
+Compat = "0.9.1-0.52"
 
 ["0.0-0.1.1"]
 FactCheck = "0.4.2-0.4.3"
@@ -22,4 +22,11 @@ TaylorSeries = "0.5.1-0.7"
 
 ["0.2"]
 julia = "0.6-0.7"
+
+["0.2.0"]
 TaylorSeries = "0.6-0.7"
+
+["0.2.1"]
+DiffEqBase = "0.0-3.2"
+Reexport = "0.0-0.1"
+TaylorSeries = "0.7"
