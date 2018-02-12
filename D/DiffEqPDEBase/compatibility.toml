@@ -1,5 +1,7 @@
 ["0.0-0.3"]
 julia = "0.5-0.7"
+
+["0.0-0.4"]
 ChunkedArrays = "0.0-0.1"
 RecipesBase = "0.0-0.3"
 VectorizedRoutines = "0.0"
@@ -10,11 +12,15 @@ DiffEqBase = "0.0-0.14"
 ["0.0.2-0.1"]
 DiffEqBase = "0.4.1-0.14"
 
-["0.1-0.3"]
-Compat = "0.17-0.49"
+["0.1-0.4"]
+Compat = "0.17-0.52"
 
 ["0.2"]
 DiffEqBase = "0.15"
 
 ["0.3"]
 DiffEqBase = "1.0-2.10"
+
+["0.4"]
+julia = "0.6-0.7"
+DiffEqBase = "3.0-3.2"
