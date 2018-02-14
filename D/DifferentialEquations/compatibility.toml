@@ -34,7 +34,7 @@ GenericSVD = "0.0-0.1"
 ForwardDiff = "0.0-0.7"
 
 ["0.3"]
-Compat = "0.0-0.52"
+Compat = "0.0-0.53"
 InplaceOps = "0.0-0.1"
 
 ["0.4"]
@@ -42,7 +42,7 @@ SIUnits = "0.0.6-0.1"
 
 ["0.4-0.5"]
 ChunkedArrays = "0.0.2-0.1"
-Compat = "0.8.8-0.52"
+Compat = "0.8.8-0.53"
 ForwardDiff = "0.2.4-0.7"
 GenericSVD = "0.0.2-0.1"
 InplaceOps = "0.0.5-0.1"
@@ -112,7 +112,7 @@ Sundials = "0.5-1.1"
 DiffEqPDEBase = "0.0-0.4"
 
 ["1.6"]
-DelayDiffEq = "0.0-2.0"
+DelayDiffEq = "0.0-2.1"
 
 ["1.6-1.10"]
 DiffEqCallbacks = "0.0-1.0"
@@ -122,27 +122,27 @@ DiffEqMonteCarlo = "0.0-0.10"
 DiffEqBase = "0.8-0.14"
 
 ["1.7-1.10"]
-DelayDiffEq = "0.1-2.0"
+DelayDiffEq = "0.1-2.1"
 OrdinaryDiffEq = "1.2-2.37"
 StochasticDiffEq = "1.0-3.0"
 
 ["1.8-1.10"]
 DiffEqFinancial = "0.0-1.0"
-DiffEqJump = "0.0-1.0"
+DiffEqJump = "0.0-1.1"
 MultiScaleArrays = "0.0-0.6"
 
 ["1.8-3.1"]
-DiffEqBiological = "0.0-1.0"
+DiffEqBiological = "0.0-2.0"
 
 ["1.9.0"]
-PyDSTool = "0.0-0.2"
+PyDSTool = "0.0-0.4"
 
 ["1.10"]
 DiffEqBase = "0.15-2.10"
 
 ["2.0-2.1"]
 ParameterizedFunctions = "1.3-3.0"
-PyDSTool = "0.1.2-0.2"
+PyDSTool = "0.1.2-0.4"
 
 ["2.0-2.2"]
 OrdinaryDiffEq = "2.0-2.37"
@@ -150,12 +150,12 @@ StochasticDiffEq = "2.0-3.0"
 
 ["2.0-3.1"]
 AlgebraicDiffEq = "0.1"
-DelayDiffEq = "0.3-2.0"
+DelayDiffEq = "0.3-2.1"
 DiffEqBase = "1.0-2.10"
 DiffEqCallbacks = "0.0.2-1.0"
 DiffEqDevTools = "0.8-1.0"
 DiffEqFinancial = "0.2-1.0"
-DiffEqJump = "0.3-1.0"
+DiffEqJump = "0.3-1.1"
 DiffEqMonteCarlo = "0.3-0.10"
 DiffEqNoiseProcess = "0.0-1.0"
 DiffEqParamEstim = "0.3-1.0"
@@ -189,13 +189,13 @@ DiffEqPhysics = "0.0-1.0"
 
 ["4.0"]
 BoundaryValueDiffEq = "1.0"
-DelayDiffEq = "2.0"
-DiffEqBase = "3.0-3.2"
-DiffEqBiological = "1.0"
+DelayDiffEq = "2.0-2.1"
+DiffEqBase = "3.0-3.4"
+DiffEqBiological = "1.0-2.0"
 DiffEqCallbacks = "1.0"
 DiffEqDevTools = "1.0"
 DiffEqFinancial = "1.0"
-DiffEqJump = "1.0"
+DiffEqJump = "1.0-1.1"
 DiffEqMonteCarlo = "0.10"
 DiffEqNoiseProcess = "1.0"
 DiffEqParamEstim = "1.0"
@@ -204,7 +204,7 @@ DiffEqPhysics = "1.0"
 DiffEqSensitivity = "1.0"
 DiffEqUncertainty = "0.1"
 MultiScaleArrays = "0.5-0.6"
-OrdinaryDiffEq = "3.0"
+OrdinaryDiffEq = "3.0-3.1"
 ParameterizedFunctions = "3.0"
 RecursiveArrayTools = "0.14"
 SteadyStateDiffEq = "0.2"

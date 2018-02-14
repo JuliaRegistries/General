@@ -5,7 +5,7 @@ julia = "0.4"
 Libz = "0.0-0.2"
 
 ["0.0.1-0.0.5"]
-Compat = "0.0-0.52"
+Compat = "0.0-0.53"
 DataStreams = "0.0.1-0.0.4"
 
 ["0.0.1-0.0.9"]
@@ -45,7 +45,7 @@ julia = "0.5-0.7"
 DataStreams = "0.1"
 
 ["0.1.4-0.1.5"]
-Compat = "0.9.5-0.52"
+Compat = "0.9.5-0.53"
 
 ["0.2"]
 julia = "0.6-0.7"
@@ -54,5 +54,10 @@ DataFrames = "0.11"
 DataStreams = "0.3"
 WeakRefStrings = "0.4"
 
+["0.2.0"]
+Mmap = "0.7"
+
 ["0.2.1"]
-Compat = "0.41-0.52"
+Compat = "0.41-0.53"
+Dates = "0.7"
+Test = "0.7"
