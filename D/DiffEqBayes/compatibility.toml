@@ -1,7 +1,7 @@
 ["0.0"]
 DiffEqBase = "1.7-2.10"
 
-["0.0-0.1"]
+["0.0-0.2"]
 julia = "0.6-0.7"
 Distributions = "0.1-0.15"
 MacroTools = "0.1-0.4"
@@ -9,5 +9,15 @@ Mamba = "0.3-0.11"
 Stan = "0.0-3.0"
 Turing = "0.0-0.4"
 
-["0.1"]
+["0.1-0.2"]
 DiffEqBase = "1.7-3.4"
+
+["0.2"]
+ContinuousTransformations = "0.0"
+DiffWrappers = "0.0"
+DynamicHMC = "0.0"
+Optim = "0.1-0.13"
+OrdinaryDiffEq = "0.0-3.1"
+ParameterizedFunctions = "0.0-3.0"
+Parameters = "0.0-0.8"
+RecursiveArrayTools = "0.0-0.14"
