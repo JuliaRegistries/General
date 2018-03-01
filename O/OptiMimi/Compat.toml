@@ -2,9 +2,20 @@
 julia = "0.4-0.7"
 DataFrames = "0.1-0.10"
 ForwardDiff = "0.0-0.7"
+
+["0.0-1.0"]
 Mimi = "0.0-0.4"
 NLopt = "0.0-0.3"
 
-["0.0.2"]
+["0.0.2-1.0"]
 Clp = "0.0-0.3"
 MathProgBase = "0.1-0.7"
+
+["1.0"]
+julia = "0.6-0.7"
+BlackBoxOptim = "0.0-0.3"
+DataFrames = "0.1-0.11"
+DiffBase = "0.0-0.3"
+Distributions = "0.1-0.15"
+ForwardDiff = "0.2.5-0.7"
+GeneticAlgorithms = "0.0"
