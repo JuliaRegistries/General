@@ -20,10 +20,16 @@ Compat = "0.17-0.56"
 DataFrames = "0.11"
 
 ["0.3-0.4"]
-julia = "0.6-0.7"
 Compat = "0.39-0.56"
 
-["0.4"]
+["0.3-0.5"]
+julia = "0.6-0.7"
+
+["0.4-0.5"]
 DataStreams = "0.0-0.3"
 DecFP = "0.1-0.4"
 Missings = "0.2"
+
+["0.5"]
+BinaryProvider = "0.1-0.2"
+Compat = "0.48-0.56"
