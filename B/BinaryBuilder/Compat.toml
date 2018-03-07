@@ -1,9 +1,6 @@
 ["0.0"]
 julia = "0.6-0.7"
-BinaryProvider = "0.1-0.2"
-Compat = "0.27-0.56"
 GitHub = "0.0-4.0"
-HTTP = "0.0-0.6"
 JSON = "0.1-0.17"
 MbedTLS = "0.1-0.5"
 ObjectFile = "0.1"
@@ -11,3 +8,14 @@ PkgDev = "0.1"
 ProgressMeter = "0.0-0.5"
 Reexport = "0.0-0.1"
 TerminalMenus = "0.0"
+
+["0.0.1"]
+BinaryProvider = "0.1-0.2"
+Compat = "0.27-0.57"
+HTTP = "0.0-0.6"
+
+["0.0.2"]
+BinaryProvider = "0.2"
+Compat = "0.55-0.57"
+HTTP = "0.6"
+Nullables = "0.0"
