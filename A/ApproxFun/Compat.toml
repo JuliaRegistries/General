@@ -20,7 +20,7 @@ julia = "0.4"
 ["0.1-0.3.0"]
 FastGaussQuadrature = "0.0.3-0.3"
 
-["0.2-0.7"]
+["0.2-0.8"]
 DualNumbers = "0.2.2-0.3"
 
 ["0.2.0"]
@@ -67,7 +67,7 @@ BandedMatrices = "0.1.1-0.1.2"
 julia = "0.4-0.5"
 BandedMatrices = "0.1.2"
 
-["0.4-0.7"]
+["0.4-0.8"]
 Calculus = "0.1.15-0.2"
 
 ["0.4.1-0.5"]
@@ -80,12 +80,14 @@ FixedSizeArrays = "0.2.5"
 ["0.5-0.6"]
 julia = "0.5-0.7"
 
-["0.5-0.7"]
+["0.5-0.8"]
 IntervalSets = "0.0.2-0.1"
 RecipesBase = "0.1-0.3"
 
 ["0.6-0.7"]
 Compat = "0.19-0.59"
+
+["0.6-0.8"]
 FastGaussQuadrature = "0.2.1-0.3"
 StaticArrays = "0.3-0.7"
 ToeplitzMatrices = "0.2-0.3"
@@ -97,9 +99,17 @@ FastTransforms = "0.1-0.3"
 ["0.6.1"]
 BandedMatrices = "0.2.3-0.3"
 
-["0.6.1-0.7"]
+["0.6.1-0.8"]
 FastTransforms = "0.2-0.3"
 
 ["0.7"]
-julia = "0.6-0.7"
 BandedMatrices = "0.3"
+
+["0.7-0.8"]
+julia = "0.6-0.7"
+
+["0.8"]
+BandedMatrices = "0.4"
+BlockArrays = "0.3.1"
+BlockBandedMatrices = "0.0"
+Compat = "0.39-0.59"
