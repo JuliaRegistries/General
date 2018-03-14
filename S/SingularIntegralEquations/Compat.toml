@@ -65,10 +65,16 @@ Compat = "0.18-0.60"
 
 ["0.3"]
 julia = "0.6-0.7"
-BandedMatrices = "0.3"
 
 ["0.3.0"]
 ApproxFun = "0.7.0"
 
+["0.3.0-0.3.1"]
+BandedMatrices = "0.3"
+
 ["0.3.1"]
 ApproxFun = "0.7.1"
+
+["0.3.2"]
+ApproxFun = "0.8"
+BandedMatrices = "0.4"
