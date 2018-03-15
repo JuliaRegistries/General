@@ -7,7 +7,7 @@ Requires = "0.4.3"
 StaticArrays = "0.5-0.7"
 StatsBase = "0.8.2-0.20"
 
-["0.1-0.11"]
+["0.1-0.12"]
 julia = "0.6-0.7"
 
 ["0.2-0.7"]
@@ -28,7 +28,7 @@ DynamicalSystemsBase = "0.1-0.8"
 ChaosTools = "0.4-0.7"
 DynamicalSystemsBase = "0.3.1-0.8"
 
-["0.9-0.11"]
+["0.9-0.12"]
 Reexport = "0.0-0.1"
 
 ["0.10"]
@@ -38,3 +38,8 @@ DynamicalSystemsBase = "0.5-0.8"
 ["0.11"]
 ChaosTools = "0.6-0.7"
 DynamicalSystemsBase = "0.6-0.8"
+
+["0.12"]
+ChaosTools = "0.7"
+DynamicalSystemsBase = "0.8"
+StaticArrays = "0.0-0.7"
