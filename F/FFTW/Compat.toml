@@ -3,7 +3,7 @@ julia = "0.6-0.7"
 Homebrew = "0.0-0.6"
 WinRPM = "0.1-0.3"
 
-["0.0-0.1"]
+["0.0-0.2"]
 BinDeps = "0.6-0.8"
 
 ["0.0.1-0.0.2"]
@@ -13,6 +13,10 @@ AbstractFFTs = "0.0-0.3"
 AbstractFFTs = "0.2-0.3"
 Compat = "0.27-0.60"
 
-["0.1"]
+["0.1-0.2"]
 julia = "0.7"
 Reexport = "0.0-0.1"
+
+["0.2"]
+AbstractFFTs = "0.3"
+Compat = "0.60"
