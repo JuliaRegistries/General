@@ -5,11 +5,13 @@ Optim = "0.1-0.14"
 julia = "0.5-0.7"
 
 ["0.0-0.2"]
+PyAMG = "0.0-0.2"
+PyCall = "0.0-1.15"
+
+["0.0-0.4"]
 Calculus = "0.1-0.2"
 FunctionWrappers = "0.0-0.1"
 JSON = "0.1-0.17"
-PyAMG = "0.0-0.2"
-PyCall = "0.0-1.15"
 Reexport = "0.0-0.1"
 StaticArrays = "0.0-0.7"
 
@@ -21,8 +23,10 @@ Optim = "0.7.5-0.14"
 LineSearches = "0.0-3.2"
 
 ["0.1.1-0.2"]
-ForwardDiff = "0.4-0.7"
 PositiveFactorizations = "0.0-0.1"
+
+["0.1.1-0.4"]
+ForwardDiff = "0.4-0.7"
 
 ["0.2"]
 Dierckx = "0.2.1-0.3"
@@ -32,5 +36,15 @@ julia = "0.6-0.7"
 Optim = "0.10-0.14"
 
 ["0.2.2"]
-julia = "0.6"
 Optim = "0.10"
+
+["0.2.2-0.4"]
+julia = "0.6"
+
+["0.4"]
+AMG = "0.0-0.1"
+Dierckx = "0.3"
+MacroTools = "0.1-0.4"
+NeighbourLists = "0.2"
+Optim = "0.14"
+Parameters = "0.0-0.8"
