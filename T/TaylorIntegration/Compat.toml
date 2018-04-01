@@ -20,7 +20,7 @@ TaylorSeries = "0.5-0.7"
 ["0.1.2"]
 TaylorSeries = "0.5.1-0.7"
 
-["0.2"]
+["0.2-0.3"]
 julia = "0.6-0.7"
 
 ["0.2.0"]
@@ -28,5 +28,11 @@ TaylorSeries = "0.6-0.7"
 
 ["0.2.1"]
 DiffEqBase = "0.0-3.8"
-Reexport = "0.0-0.1"
 TaylorSeries = "0.7"
+
+["0.2.1-0.3"]
+Reexport = "0.0-0.1"
+
+["0.3"]
+DiffEqBase = "3.8"
+TaylorSeries = "0.7.2"
