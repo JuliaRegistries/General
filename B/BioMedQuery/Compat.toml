@@ -33,19 +33,25 @@ julia = "0.5-0.7"
 DataStructures = "0.4.6-0.7"
 
 ["0.3"]
+DataFrames = "0.10.1-0.11"
+MySQL = "0.2-0.5"
+NullableArrays = "0.0-0.1"
+
+["0.3-0.4"]
 julia = "0.6-0.7"
 ArgParse = "0.2-0.5"
 BaseTestNext = "0.1-0.2"
 BioServices = "0.1"
-DataFrames = "0.10.1-0.11"
 DataStreams = "0.0-0.3"
 DataStructures = "0.2-0.7"
 Gumbo = "0.1-0.4"
 HttpCommon = "0.0-0.4"
 LightXML = "0.1-0.6"
-MySQL = "0.2-0.5"
-NullableArrays = "0.0-0.1"
 Requests = "0.0-0.5"
 SQLite = "0.1-0.5"
 XMLDict = "0.0-0.1"
 ZipFile = "0.1-0.5"
+
+["0.4"]
+DataFrames = "0.1-0.11"
+MySQL = "0.0-0.5"
