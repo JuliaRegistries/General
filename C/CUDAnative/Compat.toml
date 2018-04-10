@@ -58,7 +58,12 @@ CUDAapi = "0.4.2"
 MicroLogging = "0.1-0.2"
 
 ["0.7"]
+CUDAdrv = "0.8"
+
+["0.7-0.8"]
 julia = "0.7"
 CUDAapi = "0.4"
-CUDAdrv = "0.8"
 LLVM = "0.9.6-0.9.7"
+
+["0.8"]
+CUDAdrv = "0.8.2"
