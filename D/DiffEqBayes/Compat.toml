@@ -1,4 +1,4 @@
-["0.0-0.2"]
+["0.0-0.3"]
 julia = "0.6-0.7"
 DiffEqBase = "1.7-3.9"
 Distributions = "0.1-0.15"
@@ -7,7 +7,7 @@ Mamba = "0.3-0.11"
 Stan = "0.0-3.0"
 Turing = "0.0-0.4"
 
-["0.2"]
+["0.2-0.3"]
 ContinuousTransformations = "0.0"
 DiffWrappers = "0.0"
 DynamicHMC = "0.0"
@@ -16,3 +16,7 @@ OrdinaryDiffEq = "0.0-3.10"
 ParameterizedFunctions = "0.0-3.0"
 Parameters = "0.0-0.8"
 RecursiveArrayTools = "0.0-0.14"
+
+["0.3"]
+ApproxBayes = "0.0"
+Distances = "0.1-0.6"
