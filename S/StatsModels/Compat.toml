@@ -15,13 +15,20 @@ DataFrames = "0.1-0.10"
 DataTables = "0.0"
 
 ["0.1"]
-CategoricalArrays = "0.3"
 Missings = "0.2"
 
 ["0.1-0.2"]
 julia = "0.6-0.7"
+
+["0.1-0.2.2"]
+CategoricalArrays = "0.3.0-0.3.7"
 DataFrames = "0.11"
 
-["0.2"]
+["0.2.0-0.2.2"]
 Compat = "0.33-0.63"
 StatsBase = "0.19.2-0.21"
+
+["0.2.3"]
+Compat = "0.63"
+DataFrames = "0.11.5"
+StatsBase = "0.20.1-0.21"
