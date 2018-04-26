@@ -1,5 +1,11 @@
 ["0.0"]
 julia = "0.4-0.7"
 BinDeps = "0.0-0.8"
-FileIO = "0.0-0.7"
 Homebrew = "0.0-0.6"
+
+["0.0-0.1"]
+FileIO = "0.0-0.7"
+
+["0.1"]
+julia = "0.6-0.7"
+BinaryProvider = "0.3"
