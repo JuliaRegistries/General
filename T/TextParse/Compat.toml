@@ -3,8 +3,10 @@ julia = "0.5-0.7"
 NullableArrays = "0.0-0.1"
 
 ["0.1-0.4"]
-Compat = "0.17-0.64"
 PooledArrays = "0.0.2-0.1"
+
+["0.1-0.5"]
+Compat = "0.17-0.64"
 
 ["0.1.0-0.1.8"]
 WeakRefStrings = "0.1-0.2"
@@ -12,12 +14,16 @@ WeakRefStrings = "0.1-0.2"
 ["0.1.9-0.3.1"]
 WeakRefStrings = "0.1-0.4"
 
-["0.2-0.4"]
+["0.2-0.5"]
 DataStructures = "0.2-0.8"
 
-["0.3-0.4"]
+["0.3-0.5"]
 julia = "0.6-0.7"
 DataValues = "0.0-0.3"
 
-["0.4.1"]
+["0.4.1-0.5"]
 CodecZlib = "0.1-0.4"
+
+["0.5"]
+PooledArrays = "0.2"
+WeakRefStrings = "0.4.4-0.4.6"
