@@ -2,12 +2,26 @@
 IterableTables = "0.2-0.4"
 
 ["0.0-0.1"]
-julia = "0.6-0.7"
 DataTables = "0.0.3"
 DataValues = "0.1-0.3"
 Feather = "0.2.5-0.3"
+
+["0.0-0.2"]
+julia = "0.6-0.7"
 FileIO = "0.4-0.7"
 
 ["0.1"]
-IterableTables = "0.5-0.7"
 TableTraits = "0.0-0.2"
+
+["0.1-0.2"]
+IterableTables = "0.5-0.7"
+
+["0.2"]
+Arrow = "0.1"
+DataValues = "0.3.3"
+FeatherLib = "0.0"
+IteratorInterfaceExtensions = "0.0.2"
+Missings = "0.2"
+NamedTuples = "4.0"
+TableTraits = "0.0.3-0.2"
+TableTraitsUtils = "0.1.3"
