@@ -3,9 +3,20 @@ Compat = "0.7.15-0.64"
 
 ["0.0-0.2"]
 julia = "0.4-0.7"
+
+["0.0-0.3"]
 Combinatorics = "0.2.1-0.6"
 Primes = "0.1.1-0.3"
 PyCall = "1.7-1.16"
 
 ["0.2"]
 Compat = "0.8.4-0.64"
+
+["0.3"]
+julia = "0.6-0.7"
+Compat = "0.9.5-0.64"
+DataStructures = "0.2-0.8"
+Memoize = "0.0-0.2"
+Polynomials = "0.0-0.3"
+QuadGK = "0.1-0.2"
+Roots = "0.1-0.6"
