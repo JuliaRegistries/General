@@ -4,29 +4,34 @@ DiffEqBase = "0.0-3.12"
 ["0.0-0.4"]
 julia = "0.5-0.7"
 
-["0.1-4.3"]
+["0.1-4.4"]
 RecursiveArrayTools = "0.0-0.14"
 
 ["0.3-0.7"]
 DiffEqBase = "0.13-3.12"
 
-["0.3.1-4.3"]
+["0.3.1-4.4"]
 Compat = "0.19-0.65"
 
 ["0.4-0.6"]
 Juno = "0.1-0.4"
 
-["0.5-4.3"]
+["0.5-4.4"]
 julia = "0.6-0.7"
 
-["0.7-4.3"]
+["0.7-4.4"]
 Requires = "0.1-0.4"
 
 ["1.0-1.2"]
 DiffEqBase = "3.0-3.12"
 
 ["4.0-4.3"]
-DiffEqBase = "3.7-3.12"
 Distributions = "0.1-0.15"
+
+["4.0-4.4"]
+DiffEqBase = "3.7-3.12"
 FunctionWrappers = "0.1"
 RandomNumbers = "0.0-0.1"
+
+["4.4"]
+PoissonRandom = "0.0"
