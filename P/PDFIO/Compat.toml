@@ -1,20 +1,29 @@
 ["0.0"]
 julia = "0.6-0.7"
-BufferedStreams = "0.3-0.4"
 Compat = "0.0-0.65"
 Documenter = "0.1-0.18"
+
+["0.0.1-0.0.9"]
+BufferedStreams = "0.3-0.4"
 Libz = "0.2"
 
 ["0.0.6"]
 StringEncodings = "0.1-0.2"
 
 ["0.0.6-0.0.9"]
-LabelNumerals = "0.0"
 TimeZones = "0.0-0.6"
 
+["0.0.6-0.0.10"]
+LabelNumerals = "0.0"
+
 ["0.0.7-0.0.9"]
-AdobeGlyphList = "0.0"
 IntervalTrees = "0.0-0.4"
+
+["0.0.7-0.0.10"]
+AdobeGlyphList = "0.0"
 
 ["0.0.8-0.0.9"]
 DataStructures = "0.2-0.8"
+
+["0.0.10"]
+Rectangle = "0.0"
