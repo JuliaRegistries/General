@@ -10,10 +10,10 @@ DualNumbers = "fa6b7ba4-c1ee-5f82-b5fc-ecf0adba8f74"
 ["0.3.1-0.5"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
-["0.4-1.1"]
+["0.4-2.0"]
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 
-["0.6-1.1"]
+["0.6-2.0"]
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
 NLSolversBase = "d41bc354-129a-5804-8e4c-c37616107c6c"
@@ -21,8 +21,15 @@ NLSolversBase = "d41bc354-129a-5804-8e4c-c37616107c6c"
 ["0.7.1-0.9"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
-["0.9-1.1"]
+["0.9-2.0"]
 DiffBase = "c5cfe0b6-c10a-51a5-87e3-fd79235949f0"
 
-["0.14-1.1"]
+["0.14-2.0"]
 DiffEqDiffTools = "01453d9d-ee7c-5054-8395-0335cb756afa"
+
+["2.0"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
