@@ -8,10 +8,15 @@ PyCall = "0.0-1.16"
 PyPlot = "1.0-2.5"
 
 ["0.2-0.3"]
-Combinatorics = "0.0-0.6"
-Distributions = "0.1-0.15"
 NullableArrays = "0.0-0.1"
 SymmetricTensors = "0.1-0.3"
 
-["0.3"]
+["0.2-0.4"]
+Combinatorics = "0.0-0.6"
+Distributions = "0.1-0.15"
+
+["0.3-0.4"]
 julia = "0.6-0.7"
+
+["0.4"]
+SymmetricTensors = "0.3"
