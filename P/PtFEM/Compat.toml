@@ -1,11 +1,19 @@
 ["0.0"]
 julia = "0.5-0.7"
 Codecs = "0.1-0.4"
-Compat = "0.17-0.68"
 DataTables = "0.0"
+LightXML = "0.1-0.6"
+WriteVTK = "0.0-0.8"
+
+["0.0-0.1"]
+Compat = "0.17-0.68"
 Documenter = "0.1-0.18"
 Interpolations = "0.0-0.7"
-LightXML = "0.1-0.6"
 OffsetArrays = "0.1-0.5"
 QuadGK = "0.1-0.2"
-WriteVTK = "0.0-0.8"
+
+["0.1"]
+julia = "0.7"
+DataFrames = "0.1-0.11"
+GR = "0.1-0.31"
+Plots = "0.0-0.17"
