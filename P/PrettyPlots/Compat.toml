@@ -1,8 +1,16 @@
 ["0.0"]
 julia = "0.6-0.7"
 Colors = "0.4-0.8"
+Plots = "0.0-0.17"
+
+["0.0.1"]
 DataFrames = "0.1-0.10"
 GR = "0.1-0.31"
 NLOptControl = "0.1.3-0.1.6"
-Plots = "0.0-0.17"
 VehicleModels = "0.1.3-0.1.4"
+
+["0.0.3"]
+DataFrames = "0.11"
+NLOptControl = "0.1.6"
+PyPlot = "1.0-2.5"
+VehicleModels = "0.1.4"
