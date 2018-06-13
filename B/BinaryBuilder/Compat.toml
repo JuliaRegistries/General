@@ -3,7 +3,6 @@ julia = "0.6-0.7"
 GitHub = "0.0-4.0"
 JSON = "0.1-0.17"
 MbedTLS = "0.1-0.5"
-ObjectFile = "0.1-0.2"
 PkgDev = "0.1-0.2"
 ProgressMeter = "0.0-0.5"
 Reexport = "0.0-0.1"
@@ -14,8 +13,17 @@ BinaryProvider = "0.1-0.3"
 Compat = "0.27-0.68"
 HTTP = "0.0-0.6"
 
+["0.0.1-0.0.3"]
+ObjectFile = "0.1-0.2"
+
 ["0.0.2-0.0.3"]
+HTTP = "0.6"
+
+["0.0.2-0.0.4"]
 BinaryProvider = "0.2-0.3"
 Compat = "0.55-0.68"
-HTTP = "0.6"
 Nullables = "0.0"
+
+["0.0.4"]
+HTTP = "0.6.3-0.6.12"
+ObjectFile = "0.2"
