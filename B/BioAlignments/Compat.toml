@@ -13,8 +13,20 @@ BioSymbols = "1.0-1.2"
 GenomicFeatures = "0.1-0.2"
 
 ["0.2"]
-julia = "0.6-0.7"
 Automa = "0.1-0.6"
 BioSequences = "0.6-0.8"
 BufferedStreams = "0.3-0.4"
 IntervalTrees = "0.1-0.4"
+
+["0.2-0.3"]
+julia = "0.6-0.7"
+
+["0.3"]
+Automa = "0.6.1"
+BGZFStreams = "0.1.4"
+BioCore = "1.4"
+BioSequences = "0.8.3"
+BioSymbols = "2.0"
+BufferedStreams = "0.4"
+GenomicFeatures = "0.2.1"
+IntervalTrees = "0.4.1"
