@@ -109,7 +109,17 @@ BandedMatrices = "0.3"
 julia = "0.6-0.7"
 
 ["0.8"]
+Compat = "0.39-0.69"
+
+["0.8.0"]
 BandedMatrices = "0.4"
 BlockArrays = "0.3.1"
 BlockBandedMatrices = "0.0"
-Compat = "0.39-0.69"
+
+["0.8.1"]
+AbstractFFTs = "0.3.1"
+BandedMatrices = "0.4-0.5"
+BlockArrays = "0.3.1-0.4"
+BlockBandedMatrices = "0.0-0.1"
+FFTW = "0.0.4-0.2"
+SpecialFunctions = "0.5"
