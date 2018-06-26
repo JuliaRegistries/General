@@ -23,7 +23,15 @@ HttpCommon = "0.4"
 HttpServer = "0.3.1"
 JSON = "0.16.1-0.17"
 Libz = "0.2.4"
-MbedTLS = "0.5.11"
 Mustache = "0.3.2"
 Requests = "0.5.1"
+
+["0.2-0.3"]
+MbedTLS = "0.5.11"
 URIParser = "0.3.1"
+
+["0.3"]
+julia = "0.7"
+Documenter = "0.18"
+HTTP = "0.6.12"
+JSON2 = "0.1.3"
