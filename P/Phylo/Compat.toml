@@ -2,12 +2,19 @@
 julia = "0.5-0.7"
 Compat = "0.18-0.69"
 
-["0.1-0.2"]
+["0.1-0.3"]
 Distributions = "0.12.2-0.16"
 
-["0.1.1-0.2"]
+["0.1.1-0.3"]
 DataStructures = "0.4.3-0.9"
 
-["0.2"]
+["0.2-0.3"]
 julia = "0.6-0.7"
 Tokenize = "0.1-0.5"
+
+["0.3"]
+Compat = "0.41-0.69"
+IterableTables = "0.0-0.7"
+Missings = "0.2"
+NamedTuples = "0.0-4.0"
+Query = "0.0-0.9"
