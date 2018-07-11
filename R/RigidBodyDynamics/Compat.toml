@@ -2,7 +2,7 @@
 julia = "0.5-0.7"
 DataStructures = "0.4.6-0.9"
 
-["0.0-0.7"]
+["0.0-0.8"]
 LightXML = "0.4-0.6"
 
 ["0.0.1"]
@@ -51,13 +51,15 @@ StaticArrays = "0.6.2-0.8"
 ["0.4"]
 TypeSortedCollections = "0.1.1-0.5"
 
-["0.4-0.7"]
+["0.4-0.8"]
 Reexport = "0.0.3-0.1"
 
 ["0.5-0.7"]
+TypeSortedCollections = "0.4-0.5"
+
+["0.5-0.8"]
 DocStringExtensions = "0.4.1-0.4.5"
 LoopThrottle = "0.0"
-TypeSortedCollections = "0.4-0.5"
 
 ["0.6"]
 Nullables = "0.0"
@@ -67,3 +69,9 @@ Compat = "0.59-0.69"
 
 ["0.7"]
 Nullables = "0.0.5-0.0.6"
+
+["0.8"]
+julia = "0.7"
+Rotations = "0.7.1"
+StaticArrays = "0.8.2"
+TypeSortedCollections = "0.5"
