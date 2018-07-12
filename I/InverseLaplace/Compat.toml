@@ -1,4 +1,10 @@
-["0.0"]
+["0.0-0.1"]
 julia = "0.6-0.7"
 Compat = "0.17-0.69"
 Optim = "0.1-0.15"
+
+["0.2"]
+julia = "0.7"
+AbstractFFTs = "0.0-0.3"
+FFTW = "0.0-0.2"
+SpecialFunctions = "0.0-0.6"
