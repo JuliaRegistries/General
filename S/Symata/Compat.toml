@@ -4,7 +4,7 @@ Compat = "0.7.15-0.70"
 ["0.0-0.2"]
 julia = "0.4-0.7"
 
-["0.0-0.3"]
+["0.0-0.4"]
 Combinatorics = "0.2.1-0.6"
 Primes = "0.1.1-0.3"
 PyCall = "1.7-1.17"
@@ -20,3 +20,14 @@ Memoize = "0.0-0.2"
 Polynomials = "0.0-0.4"
 QuadGK = "0.1-2.0"
 Roots = "0.1-0.6"
+
+["0.4"]
+julia = "0.7"
+Compat = "0.0-0.70"
+DataStructures = "0.9"
+MacroTools = "0.4"
+Memoize = "0.2"
+Polynomials = "0.4"
+QuadGK = "2.0"
+Roots = "0.6"
+SpecialFunctions = "0.6"
