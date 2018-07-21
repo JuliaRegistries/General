@@ -9,7 +9,13 @@ Thrift = "0.0-0.5"
 Compat = "0.8-1.0"
 
 ["0.1"]
-julia = "0.6-0.7"
 Compat = "0.27-1.0"
 DataArrays = "0.0-0.7"
 DataFrames = "0.1-0.11"
+
+["0.1-0.2"]
+julia = "0.6-0.7"
+
+["0.2"]
+Compat = "0.70-1.0"
+Thrift = "0.5"
