@@ -1,7 +1,14 @@
 ["0.1"]
 julia = "0.6-0.7"
-Hiccup = "0.0-0.2"
-IterTools = "0.1-1.0"
 Requires = "0.1-0.5"
 StringDistances = "0.0-0.3"
+
+["0.1-0.2"]
+Hiccup = "0.0-0.2"
+IterTools = "0.1-1.0"
 URIParser = "0.0-0.3"
+
+["0.2"]
+julia = "0.7"
+Requires = "0.5.2"
+StringDistances = "0.3"
