@@ -42,7 +42,7 @@ Calculus = "0.2-0.4"
 Compat = "0.19-1.0"
 DiffBase = "0.0.3-0.2"
 
-["0.4-0.7"]
+["0.4-0.8"]
 NaNMath = "0.2.2-0.3"
 SpecialFunctions = "0.1-0.6"
 
@@ -52,19 +52,21 @@ RealInterface = "0.0.2-0.0.3"
 
 ["0.5-0.7"]
 julia = "0.6-0.7"
-StaticArrays = "0.5-0.8"
 
 ["0.5-0.7.4"]
 CommonSubexpressions = "0.0-0.2"
 
-["0.6-0.7"]
-DiffResults = "0.0"
+["0.5-0.8"]
+StaticArrays = "0.5-0.8"
 
 ["0.6-0.7.0"]
 Compat = "0.31-1.0"
 
 ["0.6-0.7.1"]
 DiffRules = "0.0"
+
+["0.6-0.8"]
+DiffResults = "0.0"
 
 ["0.7.1-0.7.2"]
 Compat = "0.45-1.0"
@@ -75,8 +77,11 @@ DiffRules = "0.0.3-0.0.6"
 ["0.7.3-0.7.5"]
 Compat = "0.47-1.0"
 
-["0.7.4-0.7.5"]
+["0.7.4-0.8"]
 DiffRules = "0.0.4-0.0.6"
 
-["0.7.5"]
+["0.7.5-0.8"]
 CommonSubexpressions = "0.1-0.2"
+
+["0.8"]
+julia = "0.7"
