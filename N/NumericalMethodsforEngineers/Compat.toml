@@ -1,11 +1,18 @@
 ["0.0"]
 julia = "0.6"
+Compat = "0.17-1.0"
+Symata = "0.3"
+
+["0.0-1.0"]
 BandedMatrices = "0.1.2-0.5"
 Calculus = "0.1-0.4"
-Compat = "0.17-1.0"
 DataFrames = "0.8.4-0.11"
 Documenter = "0.7-0.19"
 IterativeSolvers = "0.2.2-0.7"
 Plots = "0.9.4-0.17"
 QuadGK = "0.1.2-2.0"
-Symata = "0.3"
+
+["1.0"]
+julia = "0.7"
+Compat = "0.70-1.0"
+Symata = "0.4"
