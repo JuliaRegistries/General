@@ -5,12 +5,14 @@ RigidBodyDynamics = "0.4-0.8"
 RigidBodyTreeInspector = "0.3.2-0.4"
 
 ["0.0-0.2"]
+LoopThrottle = "0.0"
+Reexport = "0.1"
+
+["0.0-0.3"]
 julia = "0.6-0.7"
 DiffEqCallbacks = "1.0-2.1"
 DocStringExtensions = "0.4.1-0.4.5"
-LoopThrottle = "0.0"
 OrdinaryDiffEq = "3.0.1-4.7"
-Reexport = "0.1"
 
 ["0.1"]
 RigidBodyDynamics = "0.5-0.8"
@@ -18,5 +20,18 @@ RigidBodyDynamics = "0.5-0.8"
 ["0.2"]
 LCMCore = "0.2"
 MeshCatMechanisms = "0.0.3-0.1"
-RigidBodyDynamics = "0.6-0.8"
 RigidBodyTreeInspector = "0.4"
+
+["0.2-0.3"]
+RigidBodyDynamics = "0.6-0.8"
+
+["0.3"]
+Blink = "0.7"
+Compat = "0.0-1.0"
+DiffEqBase = "3.4.1-4.19"
+DiffEqDiffTools = "0.0-0.6"
+ForwardDiff = "0.0-0.8"
+InteractBase = "0.1-0.6"
+JSExpr = "0.1-0.2"
+MeshCatMechanisms = "0.1.1"
+Observables = "0.1.2"
