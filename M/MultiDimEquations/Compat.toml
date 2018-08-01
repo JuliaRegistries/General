@@ -1,6 +1,13 @@
 ["0.1"]
-julia = "0.6-0.7"
+julia = "0.6-1.0"
+
+["0.1.0-0.1.1"]
 DataFrames = "0.1-0.10"
 DataFramesMeta = "0.0-0.3"
 DataStructures = "0.2-0.10"
 MacroTools = "0.1-0.4"
+
+["0.1.2"]
+DataFrames = "0.11.3-0.12"
+IndexedTables = "0.1-0.7"
+Missings = "0.2"
