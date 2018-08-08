@@ -49,8 +49,10 @@ Compat = "0.9.5-1.0"
 
 ["0.2"]
 julia = "0.6-1.0"
+
+["0.2-0.3"]
 CategoricalArrays = "0.3"
-DataFrames = "0.11-0.12"
+DataFrames = "0.11-0.13"
 DataStreams = "0.3"
 
 ["0.2.0-0.2.4"]
@@ -61,8 +63,13 @@ Compat = "0.41-1.0"
 
 ["0.2.3-0.2.5"]
 Compat = "0.59-1.0"
+
+["0.2.3-0.3"]
 Missings = "0.2-0.3"
 
-["0.2.5"]
+["0.2.5-0.3"]
 InternedStrings = "0.6"
 WeakRefStrings = "0.4.1-0.4.7"
+
+["0.3"]
+julia = "0.7-1.0"
