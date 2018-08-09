@@ -6,10 +6,12 @@ IndexedArrays = "0.0-0.3"
 ArgParse = "0.2-0.6"
 AutoHashEquals = "0.0-0.2"
 DataStructures = "0.2-0.11"
-Formatting = "0.1-0.3"
-GZip = "0.1-0.4"
 LightXML = "0.1-0.7"
 PairwiseListMatrices = "0.0-0.6"
+
+["0.1-2.1.1"]
+Formatting = "0.1-0.3"
+GZip = "0.1-0.4"
 
 ["1.0-1.2.2"]
 ROCAnalysis = "0.0-0.2"
@@ -41,15 +43,23 @@ ROCAnalysis = "0.1-0.2"
 julia = "0.5-1.0"
 
 ["2.0-2.1"]
-JLD = "0.5-0.8"
 NamedArrays = "0.1-0.7"
 PkgBenchmark = "0.0-0.1"
 Requests = "0.0-0.5"
 ROCAnalysis = "0.0-0.2"
 
+["2.0-2.1.1"]
+JLD = "0.5-0.8"
+
 ["2.1"]
 julia = "0.6-1.0"
 StaticArrays = "0.0-0.8"
 
-["2.1.1"]
+["2.1.1-2.1.2"]
 ProgressMeter = "0.0-0.5"
+
+["2.1.2"]
+CodecZlib = "0.1-0.4"
+Formatting = "0.3.1-0.3.2"
+FTPClient = "0.0-0.4"
+TranscodingStreams = "0.1-0.6"
