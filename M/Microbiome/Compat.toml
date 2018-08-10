@@ -1,22 +1,33 @@
 ["0.1-0.2"]
 julia = "0.6-1.1"
-Clustering = "0.2-0.10"
 Colors = "0.4-0.9"
-Distances = "0.1-0.7"
 RecipesBase = "0.0-0.4"
+
+["0.1-0.3"]
+Clustering = "0.2-0.10"
+Distances = "0.1-0.7"
 
 ["0.1.0"]
 DataFrames = "0.1-0.10"
 
 ["0.1.2-0.2"]
-DataFrames = "0.1-0.13"
 StatPlots = "0.0-0.7"
 
+["0.1.2-0.3"]
+DataFrames = "0.1-0.13"
+
 ["0.2"]
-Reexport = "0.0-0.2"
 SpatialEcology = "0.3-0.4"
+
+["0.2-0.3"]
+Reexport = "0.0-0.2"
 
 ["0.2.1"]
 CSVFiles = "0.0-0.9"
 FileIO = "0.0-1.0"
 MicroLogging = "0.1-0.2"
+
+["0.3"]
+julia = "0.7-1.1"
+SpatialEcology = "0.4"
+StatsBase = "0.1-0.25"
