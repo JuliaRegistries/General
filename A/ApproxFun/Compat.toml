@@ -78,7 +78,7 @@ BandedMatrices = "0.2-0.3"
 FixedSizeArrays = "0.2.5"
 
 ["0.5-0.6"]
-julia = "0.5-1.1"
+julia = "0.5-0.6"
 
 ["0.5-0.8"]
 IntervalSets = "0.0.2-0.2"
@@ -99,14 +99,14 @@ FastTransforms = "0.1-0.4"
 ["0.6.1"]
 BandedMatrices = "0.2.3-0.3"
 
-["0.6.1-0.8"]
+["0.6.1-0.8.1"]
 FastTransforms = "0.2-0.4"
 
 ["0.7"]
 BandedMatrices = "0.3"
 
 ["0.7-0.8"]
-julia = "0.6-1.1"
+julia = "0.6"
 
 ["0.8"]
 Compat = "0.39-1.0"
@@ -117,9 +117,15 @@ BlockArrays = "0.3.1"
 BlockBandedMatrices = "0.0"
 
 ["0.8.1"]
+BlockBandedMatrices = "0.0-0.1"
+
+["0.8.1-0.8.2"]
 AbstractFFTs = "0.3.1-0.3.2"
 BandedMatrices = "0.4-0.5"
 BlockArrays = "0.3.1-0.4"
-BlockBandedMatrices = "0.0-0.1"
 FFTW = "0.0.4-0.2"
 SpecialFunctions = "0.5-0.7"
+
+["0.8.2"]
+BlockBandedMatrices = "0.1"
+FastTransforms = "0.4.1"
