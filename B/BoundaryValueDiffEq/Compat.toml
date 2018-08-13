@@ -8,20 +8,25 @@ NLsolve = "0.1-0.13"
 julia = "0.6-1.1"
 BandedMatrices = "0.3-0.4"
 
-["0.0-2.1"]
+["0.0-2.2"]
 DiffEqBase = "0.0-4.22"
 Reexport = "0.0-0.2"
 
 ["0.2"]
 DiffEqDiffTools = "0.1"
 
-["0.3-2.1"]
+["0.3-2.2"]
 DiffEqDiffTools = "0.2-0.6"
 
-["1.0-2.1"]
+["1.0-2.2"]
 NLsolve = "0.14-2.1"
 
 ["2.0-2.1"]
 julia = "0.7-1.1"
+
+["2.0-2.2"]
 BandedMatrices = "0.4-0.5"
 ForwardDiff = "0.0-0.8"
+
+["2.2"]
+julia = "1.0-1.1"
