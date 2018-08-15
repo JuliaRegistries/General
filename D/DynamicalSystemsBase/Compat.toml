@@ -27,10 +27,15 @@ OrdinaryDiffEq = "3.1-4.8"
 LsqFit = "0.3-0.6"
 
 ["0.11"]
+OrdinaryDiffEq = "4.5-4.8"
+
+["0.11-0.12"]
 julia = "0.7-1.1"
 DiffEqBase = "4.10-4.22"
 Distances = "0.7"
 ForwardDiff = "0.8"
 NearestNeighbors = "0.4"
-OrdinaryDiffEq = "4.5-4.8"
 StaticArrays = "0.8"
+
+["0.12"]
+OrdinaryDiffEq = "4.8"
