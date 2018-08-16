@@ -62,17 +62,24 @@ SpecialFunctions = "0.0-0.7"
 DynamicalSystemsBase = "0.10"
 
 ["0.12"]
+LsqFit = "0.5-0.6"
+OrdinaryDiffEq = "4.5-4.8"
+Roots = "0.6-0.7"
+
+["0.12-0.13"]
 julia = "0.7-1.1"
 Combinatorics = "0.6-0.7"
 DiffEqBase = "4.10-4.22"
 Distances = "0.7"
 DynamicalSystemsBase = "0.11-0.12"
 ForwardDiff = "0.8"
-LsqFit = "0.5-0.6"
 NearestNeighbors = "0.4"
-OrdinaryDiffEq = "4.5-4.8"
 Reexport = "0.1-0.2"
-Roots = "0.6-0.7"
 SpecialFunctions = "0.6-0.7"
 StaticArrays = "0.8"
 StatsBase = "0.24-0.25"
+
+["0.13"]
+LsqFit = "0.6"
+OrdinaryDiffEq = "4.8"
+Roots = "0.7"
