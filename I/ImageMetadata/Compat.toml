@@ -5,13 +5,15 @@ FixedPointNumbers = "0.0-0.2"
 julia = "0.5-1.1"
 
 ["0.0-0.4"]
+ImageCore = "0.0-0.7"
+
+["0.0-0.5"]
 Colors = "0.4-0.9"
 ColorVectorSpace = "0.1.11-0.6"
 ImageAxes = "0.0-0.5"
-ImageCore = "0.0-0.7"
 IndirectArrays = "0.0-0.5"
 
-["0.1-0.4"]
+["0.1-0.5"]
 FixedPointNumbers = "0.3-0.5"
 
 ["0.2.1-0.4"]
@@ -19,3 +21,8 @@ Compat = "0.19-1.0"
 
 ["0.3-0.4"]
 julia = "0.6-1.1"
+
+["0.5"]
+julia = "0.7-1.1"
+AxisArrays = "0.3"
+ImageCore = "0.7"
