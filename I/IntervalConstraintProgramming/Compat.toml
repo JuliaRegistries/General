@@ -5,7 +5,7 @@ ValidatedNumerics = "0.4.3-0.9"
 julia = "0.4-1.1"
 Compat = "0.7.14-1.0"
 
-["0.1-0.7"]
+["0.1-0.8"]
 MacroTools = "0.3-0.4"
 
 ["0.2-0.3"]
@@ -27,3 +27,9 @@ IntervalRootFinding = "0.1-0.2"
 
 ["0.7"]
 IntervalContractors = "0.1-0.2"
+
+["0.8"]
+julia = "0.6"
+IntervalArithmetic = "0.9-0.13"
+IntervalContractors = "0.2"
+IntervalRootFinding = "0.2"
