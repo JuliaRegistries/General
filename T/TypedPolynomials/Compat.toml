@@ -2,8 +2,13 @@
 julia = "0.6-1.1"
 
 ["0.0-0.1"]
-MacroTools = "0.3.6-0.4"
 MultivariatePolynomials = "0.1.2-0.2"
 
-["0.1"]
+["0.0-0.2"]
+MacroTools = "0.3.6-0.4"
+
+["0.1-0.2"]
 julia = "0.7-1.1"
+
+["0.2"]
+MultivariatePolynomials = "0.2.1"
