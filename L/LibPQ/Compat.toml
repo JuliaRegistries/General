@@ -1,7 +1,7 @@
 ["0.0-0.1"]
 Memento = "0.3-0.10"
 
-["0.0-0.3"]
+["0.0-0.4"]
 julia = "0.6-1.1"
 DataStreams = "0.3.1-0.4"
 DocStringExtensions = "0.1-0.4"
@@ -20,9 +20,11 @@ BinDeps = "0.6-0.8"
 Compat = "0.37-1.1"
 
 ["0.1-0.3"]
+LayerDicts = "0.1"
+
+["0.1-0.4"]
 Decimals = "0.2.1-0.3"
 IterTools = "0.1-1.0"
-LayerDicts = "0.1"
 OffsetArrays = "0.1-0.8"
 TimeZones = "0.0-0.8"
 
@@ -32,3 +34,9 @@ Memento = "0.5.1-0.10"
 
 ["0.2.1-0.3"]
 Homebrew = "0.0-0.7"
+
+["0.4"]
+BinaryProvider = "0.2.5-0.4"
+Compat = "0.70-1.1"
+LayerDicts = "0.1.2"
+Memento = "0.10"
