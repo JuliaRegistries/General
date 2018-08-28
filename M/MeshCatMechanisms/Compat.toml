@@ -1,5 +1,7 @@
 ["0.0-0.1"]
 julia = "0.6-1.1"
+
+["0.0-0.2"]
 ColorTypes = "0.2-0.7"
 CoordinateTransformations = "0.4.1-0.5"
 Interpolations = "0.3.6-0.8"
@@ -15,16 +17,16 @@ MeshIO = "0.1-0.3"
 ["0.0.1-0.0.2"]
 MeshCat = "0.0-0.3"
 
-["0.0.2-0.1"]
+["0.0.2-0.2"]
 MechanismGeometries = "0.0-0.1"
 
 ["0.0.3-0.0.6"]
 MeshCat = "0.0.2-0.3"
 
-["0.0.6-0.1"]
+["0.0.6-0.2"]
 GeometryTypes = "0.4-0.6"
 
-["0.1"]
+["0.1-0.2"]
 MeshCat = "0.2.1-0.3"
 
 ["0.1.0"]
@@ -32,5 +34,11 @@ InteractBase = "0.3-0.8"
 
 ["0.1.1"]
 Compat = "0.50-1.1"
-DataStructures = "0.7-0.11"
 InteractBase = "0.5-0.8"
+
+["0.1.1-0.2"]
+DataStructures = "0.7-0.11"
+
+["0.2"]
+julia = "0.7-1.1"
+InteractBase = "0.8"
