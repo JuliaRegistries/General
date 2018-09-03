@@ -45,7 +45,7 @@ Images = "0.5.2-0.15"
 ["1.4-1.7"]
 Colors = "0.6.7-0.9"
 
-["1.4-2.2"]
+["1.4-3.0"]
 ColorBrewer = "0.3"
 StatsBase = "0.9-0.25"
 
@@ -57,7 +57,7 @@ Reel = "0.1-1.0"
 julia = "0.5-1.1"
 Images = "0.6-0.15"
 
-["1.5-2.2"]
+["1.5-3.0"]
 ImageMagick = "0.2.3-0.7"
 IndirectArrays = "0.1.1-0.5"
 
@@ -69,14 +69,20 @@ Reel = "1.0.1"
 
 ["2.0-2.2"]
 julia = "0.6-1.1"
-Colors = "0.8-0.9"
-Contour = "0.4-0.5"
 Discretizers = "2.0-3.0"
-Images = "0.11-0.15"
-TikzPictures = "1.1-3.0"
 
 ["2.0-2.2.1"]
 DataFrames = "0.9-0.10"
 
-["2.2.2"]
+["2.0-3.0"]
+Colors = "0.8-0.9"
+Contour = "0.4-0.5"
+Images = "0.11-0.15"
+TikzPictures = "1.1-3.0"
+
+["2.2.2-3.0"]
 DataFrames = "0.11.2-0.13"
+
+["3.0"]
+julia = "0.7-1.1"
+Discretizers = "3.0"
