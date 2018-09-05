@@ -27,12 +27,18 @@ Compat = "0.17-1.1"
 ["0.6"]
 julia = "0.6-1.1"
 
-["0.6-1.0"]
+["0.6-1.0.0"]
 TableTraits = "0.0-0.3"
 TableTraitsUtils = "0.0-0.3"
 
-["0.6.1-1.0"]
+["0.6.1-1.0.0"]
 DataValues = "0.0-0.4"
 
 ["1.0"]
 julia = "1.0-1.1"
+
+["1.0.1"]
+DataValues = "0.4.4-0.4.5"
+IteratorInterfaceExtensions = "0.1.1"
+TableTraits = "0.3.1"
+TableTraitsUtils = "0.3"
