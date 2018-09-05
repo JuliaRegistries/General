@@ -3,18 +3,22 @@ julia = "0.5-1.1"
 POMDPs = "0.1-0.7"
 
 ["0.1-0.2"]
-Distributions = "0.1-0.16"
 TikzPictures = "0.0-3.0"
 
 ["0.1-0.2.1"]
 POMDPToolbox = "0.1-0.2"
 
+["0.1-0.3"]
+Distributions = "0.1-0.16"
+
 ["0.1.2-0.2"]
 AutoHashEquals = "0.0-0.2"
 
 ["0.1.3-0.2"]
-StaticArrays = "0.0-0.8"
 StatsBase = "0.15-0.25"
+
+["0.1.3-0.3"]
+StaticArrays = "0.0-0.8"
 
 ["0.2"]
 POMDPs = "0.6-0.7"
@@ -27,3 +31,11 @@ POMDPToolbox = "0.2.6-0.2.8"
 
 ["0.2.3"]
 julia = "0.6"
+
+["0.3"]
+julia = "0.7-1.1"
+BeliefUpdaters = "0.1"
+Parameters = "0.0-0.10"
+POMDPModelTools = "0.1"
+POMDPs = "0.1-0.7"
+StatsBase = "0.1-0.25"
