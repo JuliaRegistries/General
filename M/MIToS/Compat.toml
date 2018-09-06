@@ -2,21 +2,21 @@
 julia = "0.4-1.1"
 IndexedArrays = "0.0-0.3"
 
-["0.1-2.1"]
+["0.1-2.1.1"]
+Formatting = "0.1-0.3"
+GZip = "0.1-0.5"
+
+["0.1-2.2"]
 ArgParse = "0.2-0.6"
 AutoHashEquals = "0.0-0.2"
 DataStructures = "0.2-0.11"
 LightXML = "0.1-0.8"
 PairwiseListMatrices = "0.0-0.6"
 
-["0.1-2.1.1"]
-Formatting = "0.1-0.3"
-GZip = "0.1-0.5"
-
 ["1.0-1.2.2"]
 ROCAnalysis = "0.0-0.3"
 
-["1.0-2.1"]
+["1.0-2.2"]
 Clustering = "0.2-0.12"
 
 ["1.1"]
@@ -27,13 +27,13 @@ PlotRecipes = "0.0-0.3"
 ["1.2-2.0"]
 FixedSizeArrays = "0.2.3-0.2.5"
 
-["1.2-2.1"]
+["1.2-2.2"]
 RecipesBase = "0.0-0.6"
 
 ["1.2.0"]
 FastaIO = "0.2-0.4"
 
-["1.2.1-2.1"]
+["1.2.1-2.2"]
 FastaIO = "0.1-0.4"
 
 ["1.2.3"]
@@ -43,7 +43,6 @@ ROCAnalysis = "0.1-0.3"
 julia = "0.5-1.1"
 
 ["2.0-2.1"]
-NamedArrays = "0.1-0.9"
 PkgBenchmark = "0.0-0.1"
 Requests = "0.0-0.5"
 ROCAnalysis = "0.0-0.3"
@@ -51,15 +50,28 @@ ROCAnalysis = "0.0-0.3"
 ["2.0-2.1.1"]
 JLD = "0.5-0.8"
 
+["2.0-2.2"]
+NamedArrays = "0.1-0.9"
+
 ["2.1"]
 julia = "0.6-1.1"
+
+["2.1-2.2"]
 StaticArrays = "0.0-0.8"
 
-["2.1.1-2.1.2"]
+["2.1.1-2.2"]
 ProgressMeter = "0.0-0.6"
 
 ["2.1.2"]
-CodecZlib = "0.1-0.5"
 Formatting = "0.3.1-0.3.3"
 FTPClient = "0.0-0.5"
+
+["2.1.2-2.2"]
+CodecZlib = "0.1-0.5"
 TranscodingStreams = "0.1-0.8"
+
+["2.2"]
+julia = "0.6"
+Format = "0.6-0.7"
+HTTP = "0.0-0.6"
+Requires = "0.1-0.5"
