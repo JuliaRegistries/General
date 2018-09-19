@@ -10,10 +10,10 @@ WoodburyMatrices = "0.1-0.4"
 ["0.1.1-0.7"]
 AxisAlgorithms = "0.1-0.2"
 
-["0.1.1-0.8"]
+["0.1.1-0.9"]
 Ratios = "0.0-0.3"
 
-["0.3.5-0.8"]
+["0.3.5-0.9"]
 WoodburyMatrices = "0.1.5-0.4"
 
 ["0.3.6-0.3.7"]
@@ -35,6 +35,12 @@ ShowItLikeYouBuildIt = "0.0-0.2"
 julia = "0.6-1.1"
 
 ["0.8"]
-AxisAlgorithms = "0.3"
 Compat = "0.59-1.1"
+
+["0.8-0.9"]
+AxisAlgorithms = "0.3"
 OffsetArrays = "0.1-0.8"
+
+["0.9"]
+julia = "0.7-1.1"
+StaticArrays = "0.0-0.8"
