@@ -50,7 +50,7 @@ HTTP = "0.6.2-0.6.14"
 ["0.3.3-0.3.9"]
 Retry = "0.2-0.4"
 
-["0.3.3-0.5"]
+["0.3.3-0.5.0"]
 JSON = "0.5-0.19"
 
 ["0.3.4-0.3.9"]
@@ -70,8 +70,18 @@ XMLDict = "0.2-0.3"
 
 ["0.5"]
 julia = "1.0-1.1"
-DataStructures = "0.12"
 MbedTLS = "0.6"
+
+["0.5.0"]
+DataStructures = "0.12"
 Retry = "0.4"
 SymDict = "0.3"
 XMLDict = "0.3"
+
+["0.5.1"]
+DataStructures = "0.2-0.12"
+JSON = "0.1-0.19"
+LazyJSON = "0.0"
+Retry = "0.0-0.4"
+SymDict = "0.0-0.3"
+XMLDict = "0.0-0.3"
