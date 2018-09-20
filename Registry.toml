@@ -3,7 +3,7 @@ uuid = "23338594-aafe-5451-b93e-139f81909106"
 repo = "https://github.com/JuliaRegistries/General.git"
 
 description = """
-Official uncurated Julia package registry where people can
+Official general Julia package registry where people can
 register any package they want without too much debate about
 naming and without enforced standards on documentation or
 testing. We nevertheless encourage documentation, testing and
@@ -285,7 +285,6 @@ some amount of consideration when choosing package names.
 1d51b185-1a84-59cf-b84e-03b0e3da30b7 = { name = "DrawSimpleGraphs", path = "D/DrawSimpleGraphs" }
 1d72914e-1fed-50e5-8d1f-642a1f6dcbc8 = { name = "ReinforcementLearningEnvironmentAtari", path = "R/ReinforcementLearningEnvironmentAtari" }
 1d978283-2c37-5f34-9a8e-e9c0ece82495 = { name = "TensorFlow", path = "T/TensorFlow" }
-1dc74772-2f84-582f-a327-420d6c648a9d = { name = "SDL", path = "S/SDL" }
 1dd54a5c-ff30-55c3-9c22-2141a9b2792c = { name = "GadflyDiff", path = "G/GadflyDiff" }
 1dea7af3-3e70-54e6-95c3-0bf5283fa5ed = { name = "OrdinaryDiffEq", path = "O/OrdinaryDiffEq" }
 1e09ba94-8865-5af0-8cfd-6b3609c426e6 = { name = "SubMatrixSelectionSVD", path = "S/SubMatrixSelectionSVD" }
@@ -454,6 +453,7 @@ some amount of consideration when choosing package names.
 313cdc1a-70c2-5d6a-ae34-0150d3930a38 = { name = "Indexing", path = "I/Indexing" }
 315b5843-54e0-5281-b073-3e322808fa17 = { name = "SaveREPL", path = "S/SaveREPL" }
 31c24e10-a181-5473-b8eb-7969acd0382f = { name = "Distributions", path = "D/Distributions" }
+31df374a-5bce-54dc-914a-f687be069de8 = { name = "Getopt", path = "G/Getopt" }
 32113eaa-f34f-5b0d-bd6c-c81e245fc73d = { name = "PkgBenchmark", path = "P/PkgBenchmark" }
 323cb8eb-fbf6-51c0-afd0-f8fba70507b2 = { name = "GeoStatsBase", path = "G/GeoStatsBase" }
 324d217c-45ce-50fc-942e-d289b448e8cf = { name = "ReferenceTests", path = "R/ReferenceTests" }
@@ -531,7 +531,6 @@ some amount of consideration when choosing package names.
 3a865a2d-5b23-5a0f-bc46-62713ec82fae = { name = "CuArrays", path = "C/CuArrays" }
 3a9ba88e-79c2-56d1-8a6d-815ee8f38f0c = { name = "RandomFerns", path = "R/RandomFerns" }
 3b2b4ff1-bcff-5658-a3ee-dbcf1ce5ac09 = { name = "Multisets", path = "M/Multisets" }
-3b4f27f2-be6f-57b4-96e9-989d478c99d6 = { name = "GetC", path = "G/GetC" }
 3b74c4c8-83ac-59e6-af00-836933a3a159 = { name = "Loss", path = "L/Loss" }
 3b7a836e-365b-5785-a47d-02c71176b4aa = { name = "PGFPlots", path = "P/PGFPlots" }
 3b89720e-b86e-5936-9f69-824af742f89b = { name = "QDXML", path = "Q/QDXML" }
@@ -866,7 +865,6 @@ some amount of consideration when choosing package names.
 6310b701-1812-5374-a82f-9f6f2d54a40a = { name = "Yeppp", path = "Y/Yeppp" }
 631607c0-34d2-5d66-819e-eb0f9aa2061a = { name = "CMake", path = "C/CMake" }
 639c3291-70d9-5ea2-8c5b-839eba1ee399 = { name = "RecurrenceAnalysis", path = "R/RecurrenceAnalysis" }
-63ab32e2-8cbb-53a7-90e2-97c3cf4a3a0b = { name = "Arduino", path = "A/Arduino" }
 63bcc5cb-6a41-5765-9feb-b5d792dd5d92 = { name = "OpenGene", path = "O/OpenGene" }
 6405355b-0ac2-5fba-af84-adbd65488c0e = { name = "Mosek", path = "M/Mosek" }
 641c9d1b-7ac4-573a-b895-dc361a5cd6fd = { name = "VStatistic", path = "V/VStatistic" }
@@ -1379,7 +1377,6 @@ some amount of consideration when choosing package names.
 9dfd92bc-d910-594c-87bb-77ce028084cd = { name = "CombinatorialBandits", path = "C/CombinatorialBandits" }
 9e28174c-4ba2-5203-b857-d8d62c4213ee = { name = "BinDeps", path = "B/BinDeps" }
 9e3dc215-6440-5c97-bce1-76c03772f85e = { name = "TimeSeries", path = "T/TimeSeries" }
-9e511cdf-bcf0-5b3d-ab4e-3598940ff39c = { name = "DynamicalBilliardsPlotting", path = "D/DynamicalBilliardsPlotting" }
 9e70acf3-d6c9-5be6-b5bd-4e2c73e3e054 = { name = "Xpress", path = "X/Xpress" }
 9ea8cd13-fabe-5354-bade-922846b34814 = { name = "SPH", path = "S/SPH" }
 9ec21e9f-7406-57b0-a65e-294f80374cfd = { name = "Meddle", path = "M/Meddle" }
@@ -1755,7 +1752,6 @@ c928f85b-ad91-5714-a68c-509590f6e021 = { name = "Voronoi", path = "V/Voronoi" }
 c9310f65-a42c-5928-aca3-d34f64192029 = { name = "PCRE2", path = "P/PCRE2" }
 c946c3f1-0d1f-5ce8-9dea-7daa1f7e2d13 = { name = "SCS", path = "S/SCS" }
 c947b005-6f94-5690-8353-b90d48bfe02f = { name = "QNaNs", path = "Q/QNaNs" }
-c9763a09-61f1-541e-992e-141da33f6ebe = { name = "OpenGL", path = "O/OpenGL" }
 c9a035f4-d403-5e6b-8649-6be755bc4798 = { name = "JWAS", path = "J/JWAS" }
 c9a1755d-84d0-58e0-8f48-2f3129b1cb7a = { name = "ReadWriteLocks", path = "R/ReadWriteLocks" }
 c9c60de3-17f1-5915-80ae-85ba1dbe6bff = { name = "Expr2LaTeX", path = "E/Expr2LaTeX" }
@@ -2019,7 +2015,6 @@ e95a7839-07fb-532d-9a0e-071766bb5168 = { name = "ConicBenchmarkUtilities", path 
 e96904bf-1073-5077-9b57-b0ce0ff5555a = { name = "BioMedQuery", path = "B/BioMedQuery" }
 e993076c-0cfd-5d6b-a1ac-36489fdf7917 = { name = "DASSL", path = "D/DASSL" }
 e9a8cd0e-445b-5884-b692-2dce5a6b6c76 = { name = "Clockwork", path = "C/Clockwork" }
-e9eaa0be-409a-52d0-bdb5-a49ccf89ddf2 = { name = "ControlCore", path = "C/ControlCore" }
 ea10d353-3f73-51f8-a26c-33c1cb351aa5 = { name = "WeakRefStrings", path = "W/WeakRefStrings" }
 ea4eb333-db47-5fdf-b6ce-79c8b2b3edd3 = { name = "JuliaRunClient", path = "J/JuliaRunClient" }
 ea67d31e-a6bc-5fd8-9083-5881b0bfb289 = { name = "DiffEqPy", path = "D/DiffEqPy" }
@@ -2095,7 +2090,6 @@ f3015e33-6d2c-523b-bc4c-ccc92cdcd86b = { name = "FlexibleArrays", path = "F/Flex
 f306ff79-ba0f-5c52-9e7c-6e6505f53397 = { name = "UnalignedVectors", path = "U/UnalignedVectors" }
 f3117721-c1d3-5ff8-9230-e4dd1549a252 = { name = "CombineML", path = "C/CombineML" }
 f33766d7-c71b-538e-be72-a4170021497d = { name = "Crypto", path = "C/Crypto" }
-f3a2742c-0c51-564b-8b1b-8d3b3d057d99 = { name = "GLUT", path = "G/GLUT" }
 f3b72e0c-5b89-59e1-b016-84e28bfd966d = { name = "DiffEqDevTools", path = "D/DiffEqDevTools" }
 f3b833dc-6b2e-5b9c-b940-873ed6319979 = { name = "JUDI", path = "J/JUDI" }
 f40c8843-f8bc-5357-bc85-9c752695fa55 = { name = "EAGOIntervalArithmetic", path = "E/EAGOIntervalArithmetic" }
