@@ -2,6 +2,9 @@
 julia = "0.6"
 
 ["0.0-0.2"]
+PyCall = "0.0-1.18"
+
+["0.0-0.3"]
 Colors = "0.4-0.9"
 DataFrames = "0.1-0.13"
 DataStructures = "0.2-0.13"
@@ -10,10 +13,16 @@ Flux = "0.1-0.6"
 JLD2 = "0.0-0.1"
 Parameters = "0.0-0.10"
 PGFPlotsX = "0.1-0.3"
-PyCall = "0.0-1.18"
 StatsBase = "0.1-0.25"
 
 ["0.2"]
 julia = "0.6-1.1"
+
+["0.2-0.3"]
 Compat = "0.0-1.1"
 Requires = "0.1-0.5"
+
+["0.3"]
+julia = "1.0-1.1"
+ReinforcementLearningBase = "0.1-0.2"
+ReinforcementLearningEnvironmentDiscrete = "0.1-0.2"

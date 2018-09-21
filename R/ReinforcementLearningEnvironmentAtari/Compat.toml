@@ -1,8 +1,14 @@
 ["0.1"]
 julia = "0.6-1.1"
-ArcadeLearningEnvironment = "0.0-0.1"
 Compat = "0.0-1.1"
-GR = "0.1-0.34"
 Parameters = "0.0-0.10"
 Reexport = "0.0-0.2"
-ReinforcementLearning = "0.0-0.2"
+ReinforcementLearning = "0.0-0.3"
+
+["0.1-0.2"]
+ArcadeLearningEnvironment = "0.0-0.1"
+GR = "0.1-0.34"
+
+["0.2"]
+julia = "1.0-1.1"
+ReinforcementLearningBase = "0.1-0.2"

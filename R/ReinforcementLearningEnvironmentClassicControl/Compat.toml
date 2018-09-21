@@ -1,6 +1,11 @@
 ["0.1"]
+Reexport = "0.0-0.2"
+ReinforcementLearning = "0.0-0.3"
+
+["0.1-0.2"]
 julia = "0.6-1.1"
 Compat = "0.0-1.1"
 GR = "0.1-0.34"
-Reexport = "0.0-0.2"
-ReinforcementLearning = "0.0-0.2"
+
+["0.2"]
+ReinforcementLearningBase = "0.1-0.2"
