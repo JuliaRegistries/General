@@ -21,7 +21,7 @@ OnlineStats = "0.13-0.19"
 ["0.5.1-0.6"]
 OnlineStats = "0.15-0.19"
 
-["0.7"]
+["0.7-0.8"]
 OnlineStats = "0.17-0.19"
 
 ["0.7.0-0.7.1"]
@@ -29,7 +29,17 @@ PooledArrays = "0.0-0.4"
 
 ["0.7.2-0.7.4"]
 PooledArrays = "0.2-0.4"
+
+["0.7.2-0.8"]
 WeakRefStrings = "0.4.4-0.5"
 
 ["0.7.4"]
 julia = "0.6-1.1"
+
+["0.8"]
+julia = "0.7-1.1"
+DataValues = "0.0-0.4"
+IteratorInterfaceExtensions = "0.1"
+PooledArrays = "0.4.1"
+TableTraits = "0.3"
+TableTraitsUtils = "0.2-0.3"
