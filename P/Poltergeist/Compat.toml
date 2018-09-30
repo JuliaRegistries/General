@@ -3,12 +3,14 @@ julia = "0.5-0.6"
 ApproxFun = "0.6-0.7"
 
 ["0.0-0.1"]
-DualNumbers = "0.3-0.5"
 IntervalSets = "0.0.2-0.2"
-StaticArrays = "0.3-0.8"
 
 ["0.0-0.1.1"]
 BandedMatrices = "0.2-0.3"
+
+["0.0-0.2"]
+DualNumbers = "0.3-0.5"
+StaticArrays = "0.3-0.8"
 
 ["0.1"]
 Compat = "0.31-1.2"
@@ -19,5 +21,12 @@ ApproxFun = "0.7"
 
 ["0.1.2"]
 julia = "0.6-1.1"
+
+["0.1.2-0.2"]
 ApproxFun = "0.7-0.9"
 BandedMatrices = "0.2-0.6"
+
+["0.2"]
+julia = "0.7-1.1"
+Compat = "0.48-1.2"
+IntervalSets = "0.0.2-0.3"
