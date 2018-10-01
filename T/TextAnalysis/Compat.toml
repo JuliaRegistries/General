@@ -36,11 +36,17 @@ Compat = "0.0-1.2"
 
 ["0.3-0.4"]
 julia = "0.6-0.7"
+
+["0.3-0.5"]
 DataFrames = "0.1-0.14"
 
-["0.4"]
+["0.4-0.5"]
 BinaryProvider = "0.1-0.5"
 BSON = "0.1-0.2"
 Flux = "0.1-0.6"
 JSON = "0.1-0.19"
 WordTokenizers = "0.1-0.2"
+
+["0.5"]
+julia = "0.7-1.1"
+Languages = "0.4"
