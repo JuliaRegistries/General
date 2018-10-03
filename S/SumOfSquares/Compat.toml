@@ -11,11 +11,18 @@ MultivariateMoments = "0.0"
 PolyJuMP = "0.1"
 
 ["0.1-0.2"]
-julia = "0.6-0.7"
 MultivariatePolynomials = "0.1.1-0.2"
 SemialgebraicSets = "0.0.2-0.0.4"
+
+["0.1-0.2.0"]
+julia = "0.6-0.7"
 
 ["0.2"]
 JuMP = "0.18"
 MultivariateMoments = "0.1"
 PolyJuMP = "0.2"
+
+["0.2.1"]
+julia = "0.6-1.1"
+Compat = "1.0-1.2"
+Reexport = "0.0-0.2"
