@@ -5,7 +5,7 @@ ColorTypes = "0.0-0.7"
 Gadfly = "0.1-0.8"
 GeometryTypes = "0.0-0.6"
 
-["0.0-0.1"]
+["0.0-0.1.0"]
 CoordinateTransformations = "0.1-0.5"
 HDF5 = "0.1-0.10"
 JLD = "0.5-0.8"
@@ -26,7 +26,7 @@ TransformUtils = "0.0-0.2"
 MeshIO = "0.0-0.3"
 NLsolve = "0.1-0.13"
 
-["0.0.2-0.1"]
+["0.0.2-0.1.0"]
 FileIO = "0.0-1.0"
 
 ["0.0.3"]
@@ -38,7 +38,7 @@ RoME = "0.0.4-0.1"
 DrakeVisualizer = "0.1.2-0.4"
 Graphs = "0.7.1-0.10"
 
-["0.0.3-0.1"]
+["0.0.3-0.1.0"]
 DataStructures = "0.2-0.14"
 Distributions = "0.1-0.16"
 ProgressMeter = "0.0-0.6"
@@ -52,7 +52,7 @@ KernelDensityEstimate = "0.2.4-0.4"
 PyLCM = "0.0-0.2"
 TransformUtils = "0.0.6-0.2"
 
-["0.0.4-0.1"]
+["0.0.4-0.1.0"]
 ImageCore = "0.0-0.7"
 ImageMagick = "0.0-0.7"
 
@@ -62,11 +62,13 @@ RoME = "0.0.5-0.1"
 
 ["0.0.5-0.1"]
 CloudGraphs = "0.0"
-LibBSON = "0.0-0.3"
-Mongo = "0.2.3-0.3"
 Neo4j = "1.0"
 
-["0.1"]
+["0.0.5-0.1.0"]
+LibBSON = "0.0-0.3"
+Mongo = "0.2.3-0.3"
+
+["0.1.0"]
 julia = "0.6-0.7"
 DocStringExtensions = "0.4.1-0.5"
 Graphs = "0.9-0.10"
@@ -76,3 +78,28 @@ LCMCore = "0.0-0.5"
 NLsolve = "0.1-2.1"
 RoME = "0.1"
 TransformUtils = "0.1-0.2"
+
+["0.1.1"]
+julia = "0.6"
+CoordinateTransformations = "0.4-0.5"
+DataStructures = "0.7-0.8"
+Distributions = "0.14.2-0.15"
+DocStringExtensions = "0.4.1-0.4.6"
+FileIO = "0.4.2-0.9"
+Graphs = "0.9"
+HDF5 = "0.9"
+ImageCore = "0.5-0.6"
+ImageMagick = "0.5"
+IncrementalInference = "0.3.9"
+JLD = "0.8"
+JSON = "0.16-0.17"
+KernelDensityEstimate = "0.3.1"
+LCMCore = "0.1.1-0.3"
+LibBSON = "0.3"
+Mongo = "0.3"
+NLsolve = "0.14-1.1"
+ProgressMeter = "0.5"
+Reexport = "0.1"
+RoME = "0.1.8"
+Rotations = "0.7"
+TransformUtils = "0.1"
