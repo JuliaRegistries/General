@@ -1,11 +1,7 @@
 ["0.1"]
 DynamicalSystemsBase = "0.1"
 
-["0.1-0.4"]
-OrdinaryDiffEq = "2.17-4.16"
-
 ["0.1-0.11"]
-julia = "0.6-0.7"
 Combinatorics = "0.0-0.7"
 Distances = "0.1-0.7"
 ForwardDiff = "0.5-0.9"
@@ -16,6 +12,36 @@ Reexport = "0.0-0.2"
 Requires = "0.4.3-0.5"
 StaticArrays = "0.5-0.8"
 StatsBase = "0.8.2-0.25"
+julia = "0.6-0.7"
+
+["0.1-0.4"]
+OrdinaryDiffEq = "2.17-4.16"
+
+["0.10-0.11"]
+DynamicalSystemsBase = "0.10"
+
+["0.12"]
+LsqFit = "0.5-0.6"
+OrdinaryDiffEq = "4.5-4.16"
+Roots = "0.6-0.7"
+
+["0.12-1.2"]
+Combinatorics = "0.6-0.7"
+DiffEqBase = "4.10-4.29"
+Distances = "0.7"
+DynamicalSystemsBase = "0.11-1.0"
+ForwardDiff = "0.8-0.9"
+NearestNeighbors = "0.4"
+Reexport = "0.1-0.2"
+SpecialFunctions = "0.6-0.7"
+StaticArrays = "0.8"
+StatsBase = "0.24-0.25"
+julia = "0.7-1.1"
+
+["0.13-1.2"]
+LsqFit = "0.6"
+OrdinaryDiffEq = "4.8-4.16"
+Roots = "0.7"
 
 ["0.2"]
 DynamicalSystemsBase = "0.2.0"
@@ -52,34 +78,8 @@ DynamicalSystemsBase = "0.7"
 ["0.7"]
 DynamicalSystemsBase = "0.8.1-0.8.2"
 
-["0.8-0.9"]
-DynamicalSystemsBase = "0.9"
-
 ["0.8-0.11"]
 SpecialFunctions = "0.0-0.7"
 
-["0.10-0.11"]
-DynamicalSystemsBase = "0.10"
-
-["0.12"]
-LsqFit = "0.5-0.6"
-OrdinaryDiffEq = "4.5-4.16"
-Roots = "0.6-0.7"
-
-["0.12-1.2"]
-julia = "0.7-1.1"
-Combinatorics = "0.6-0.7"
-DiffEqBase = "4.10-4.29"
-Distances = "0.7"
-DynamicalSystemsBase = "0.11-1.0"
-ForwardDiff = "0.8-0.9"
-NearestNeighbors = "0.4"
-Reexport = "0.1-0.2"
-SpecialFunctions = "0.6-0.7"
-StaticArrays = "0.8"
-StatsBase = "0.24-0.25"
-
-["0.13-1.2"]
-LsqFit = "0.6"
-OrdinaryDiffEq = "4.8-4.16"
-Roots = "0.7"
+["0.8-0.9"]
+DynamicalSystemsBase = "0.9"

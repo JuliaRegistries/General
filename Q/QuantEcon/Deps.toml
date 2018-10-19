@@ -1,3 +1,7 @@
+["0.0-0.15"]
+DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
 ["0.0-0.3"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 FactCheck = "01605889-e1f3-5716-a155-5007402aa664"
@@ -8,10 +12,6 @@ MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
 Grid = "03512f2c-8e8a-5728-b518-32bdd82c6646"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 
-["0.0-0.15"]
-DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-
 ["0.1"]
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 
@@ -21,21 +21,6 @@ Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 ["0.1.1-0.3"]
 Docile = "e210f56a-9500-59e8-ae47-ce3a5fb1a75e"
 IterationManagers = "69680d3f-cf1d-5315-a21f-791b8226f004"
-
-["0.2-0.3"]
-JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
-
-["0.2-0.15"]
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
-
-["0.5-0.14"]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-
-["0.5-0.15"]
-Primes = "27ebfcd6-29c5-5fa9-bf4b-fb8fc14df3ae"
-
-["0.5.1-0.15"]
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 ["0.13-0.15"]
 NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
@@ -54,3 +39,18 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.2-0.15"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
+["0.2-0.3"]
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
+
+["0.5-0.14"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["0.5-0.15"]
+Primes = "27ebfcd6-29c5-5fa9-bf4b-fb8fc14df3ae"
+
+["0.5.1-0.15"]
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"

@@ -5,12 +5,12 @@ RecursiveArrayTools = "0.0-0.12"
 ["0.0-0.5"]
 ChunkedArrays = "0.1"
 
-["0.0-2.2"]
-julia = "0.5-0.7"
-ForwardDiff = "0.0-0.4"
-
 ["0.0-2.15"]
 DiffEqDiffTools = "0.0-0.6"
+
+["0.0-2.2"]
+ForwardDiff = "0.0-0.4"
+julia = "0.5-0.7"
 
 ["0.0-5.8"]
 Parameters = "0.5-0.10"
@@ -61,50 +61,17 @@ DiffEqBase = "0.13-0.14"
 ["1.4"]
 DiffEqBase = "0.15"
 
-["2.0-2.5"]
-DiffEqNoiseProcess = "0.0-2.3"
-
 ["2.0-2.23"]
 NLsolve = "0.1-0.13"
+
+["2.0-2.5"]
+DiffEqNoiseProcess = "0.0-2.3"
 
 ["2.0.0-2.0.1"]
 DiffEqBase = "1.1-1.14"
 
 ["2.0.2-2.3"]
 DiffEqBase = "1.2-1.14"
-
-["2.2-5.8"]
-StaticArrays = "0.0-0.8"
-
-["2.3-2.11"]
-ForwardDiff = "0.5"
-
-["2.3-2.19"]
-RecursiveArrayTools = "0.8-0.12"
-
-["2.3-4.4"]
-julia = "0.6-0.7"
-
-["2.4-2.6"]
-DiffEqBase = "1.10-1.14"
-
-["2.5-5.8"]
-Reexport = "0.0-0.2"
-
-["2.6"]
-DiffEqNoiseProcess = "0.2-2.3"
-
-["2.7"]
-DiffEqBase = "1.13-1.14"
-
-["2.7-2.11.0"]
-DiffEqNoiseProcess = "0.3-2.3"
-
-["2.7-5.8"]
-RandomNumbers = "0.0-1.0"
-
-["2.8-2.9"]
-DiffEqBase = "1.15"
 
 ["2.10-2.11"]
 DiffEqBase = "1.16-1.24"
@@ -139,6 +106,9 @@ DiffEqDiffTools = "0.2-0.6"
 ["2.19-2.21"]
 DiffEqBase = "2.6-4.29"
 
+["2.2-5.8"]
+StaticArrays = "0.0-0.8"
+
 ["2.20-5.8"]
 RecursiveArrayTools = "0.13-0.18"
 
@@ -147,6 +117,36 @@ DiffEqBase = "2.8-4.29"
 
 ["2.23.1-5.0"]
 DiffEqNoiseProcess = "0.8-2.3"
+
+["2.3-2.11"]
+ForwardDiff = "0.5"
+
+["2.3-2.19"]
+RecursiveArrayTools = "0.8-0.12"
+
+["2.3-4.4"]
+julia = "0.6-0.7"
+
+["2.4-2.6"]
+DiffEqBase = "1.10-1.14"
+
+["2.5-5.8"]
+Reexport = "0.0-0.2"
+
+["2.6"]
+DiffEqNoiseProcess = "0.2-2.3"
+
+["2.7"]
+DiffEqBase = "1.13-1.14"
+
+["2.7-2.11.0"]
+DiffEqNoiseProcess = "0.3-2.3"
+
+["2.7-5.8"]
+RandomNumbers = "0.0-1.0"
+
+["2.8-2.9"]
+DiffEqBase = "1.15"
 
 ["3.0-3.1"]
 DiffEqBase = "3.0-4.29"

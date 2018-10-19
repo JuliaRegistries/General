@@ -5,11 +5,20 @@ NamedTuples = "1.0"
 NullableArrays = "0.0.7-0.1"
 
 ["0.0-0.4"]
-julia = "0.5-0.6"
 Requires = "0.3-0.5"
+julia = "0.5-0.6"
 
 ["0.0-0.7"]
 DataStructures = "0.4.5-0.14"
+
+["0.10"]
+DataValues = "0.4.4-0.4.5"
+Documenter = "0.19.3-0.19.6"
+IterableTables = "0.8.2-0.9"
+MacroTools = "0.4.4"
+QueryOperators = "0.4"
+TableTraits = "0.3.1"
+julia = "0.7-1.1"
 
 ["0.4"]
 NamedTuples = "2.0-2.1"
@@ -30,9 +39,9 @@ IterableTables = "0.1-0.4"
 DataValues = "0.0.2-0.4"
 
 ["0.5-0.9"]
-julia = "0.6"
 NamedTuples = "3.0.2-4.0"
 Requires = "0.4.3-0.5"
+julia = "0.6"
 
 ["0.7-0.9"]
 IterableTables = "0.5-0.9"
@@ -44,12 +53,3 @@ QueryOperators = "0.0-0.4"
 
 ["0.9"]
 DataValues = "0.3.1-0.4"
-
-["0.10"]
-julia = "0.7-1.1"
-DataValues = "0.4.4-0.4.5"
-Documenter = "0.19.3-0.19.6"
-IterableTables = "0.8.2-0.9"
-MacroTools = "0.4.4"
-QueryOperators = "0.4"
-TableTraits = "0.3.1"

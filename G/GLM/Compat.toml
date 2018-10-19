@@ -1,3 +1,8 @@
+["0.11-1.0"]
+Reexport = "0.1-0.2"
+StatsBase = "0.22-0.25"
+StatsModels = "0.2-0.3"
+
 ["0.2"]
 Distributions = "0.2-0.16"
 
@@ -5,9 +10,9 @@ Distributions = "0.2-0.16"
 NumericExtensions = "0.2.12-0.6"
 
 ["0.2.0-0.2.2"]
-julia = "0.2-0.7"
 DataFrames = "0.3.6-0.10"
 StatsBase = "0.1-0.8.2"
+julia = "0.2-0.7"
 
 ["0.2.1-0.2.5"]
 NumericExtensions = "0.2.17-0.6"
@@ -16,8 +21,8 @@ NumericExtensions = "0.2.17-0.6"
 StatsBase = "0.3-0.8.2"
 
 ["0.2.3-0.2.5"]
-julia = "0.2"
 DataFrames = "0.3.6-0.5.0"
+julia = "0.2"
 
 ["0.2.4-0.2.5"]
 StatsBase = "0.2.10-0.8.2"
@@ -71,21 +76,21 @@ julia = "0.4-0.5"
 ["0.5.6-0.6"]
 StatsBase = "0.11-0.20"
 
-["0.6-0.7"]
-julia = "0.5-0.7"
-
 ["0.6-0.11"]
 Distributions = "0.10-0.16"
 
-["0.7-0.8"]
-Compat = "0.18-1.3"
+["0.6-0.7"]
+julia = "0.5-0.7"
 
 ["0.7-0.10"]
 StatsBase = "0.12-0.20"
 
+["0.7-0.8"]
+Compat = "0.18-1.3"
+
 ["0.8-0.11"]
-julia = "0.6-0.7"
 SpecialFunctions = "0.1-0.7"
+julia = "0.6-0.7"
 
 ["0.9-0.10"]
 StatsModels = "0.2.0-0.2.3"
@@ -93,13 +98,8 @@ StatsModels = "0.2.0-0.2.3"
 ["0.9-0.11"]
 Compat = "0.33-1.3"
 
-["0.11-1.0"]
-Reexport = "0.1-0.2"
-StatsBase = "0.22-0.25"
-StatsModels = "0.2-0.3"
-
 ["1.0"]
-julia = "0.7-1.1"
 Distributions = "0.16"
 SpecialFunctions = "0.6-0.7"
 StatsFuns = "0.6-0.7"
+julia = "0.7-1.1"
