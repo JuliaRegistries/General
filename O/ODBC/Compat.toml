@@ -62,7 +62,7 @@ DataStreams = "0.1"
 NullableArrays = "0.0.9-0.1"
 julia = "0.5-0.6"
 
-["0.5.2-0.7"]
+["0.5.2-0.8"]
 DecFP = "0.3-0.4"
 
 ["0.6"]
@@ -72,11 +72,19 @@ WeakRefStrings = "0.3-0.5"
 julia = "0.6-0.7"
 
 ["0.6-0.7"]
-CategoricalArrays = "0.2-0.4"
 DataFrames = "0.1-0.14"
 Missings = "0.2-0.3"
 
+["0.6-0.8"]
+CategoricalArrays = "0.2-0.4"
+
 ["0.7"]
 DataStreams = "0.3-0.4"
+
+["0.7-0.8"]
 WeakRefStrings = "0.4.1-0.5"
 julia = "0.7-1.1"
+
+["0.8"]
+DataFrames = "0.14"
+Tables = "0.1"
