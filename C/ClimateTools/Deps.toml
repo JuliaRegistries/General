@@ -1,14 +1,14 @@
-["0.0-0.8"]
+["0.0-0.9"]
 NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
 
 ["0.0.2-0.0.3"]
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 
-["0.0.4-0.8"]
+["0.0.4-0.9"]
 Shapefile = "8e980c4a-a4fe-5da2-b3a7-4b4b0353a2f4"
 
-["0.0.5-0.8"]
+["0.0.5-0.9"]
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
 AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
@@ -17,12 +17,21 @@ PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 ["0.1"]
 Lint = "d4b2101a-7710-563d-8e49-77b01dd33fad"
 
-["0.3-0.8"]
+["0.3-0.9"]
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 
-["0.5-0.8"]
+["0.5-0.9"]
 NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
-["0.8"]
+["0.8-0.9"]
 Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
+
+["0.9"]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
