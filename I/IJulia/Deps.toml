@@ -15,11 +15,13 @@ Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
 
 ["1.10-1.13"]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 SoftGlobalScope = "b85f4697-e234-5449-a836-ec8e2f98b302"
 
 ["1.11-1.13"]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
@@ -33,7 +35,3 @@ UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
 ["1.9.2-1.13"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-
-["1.9.3-1.13"]
-InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
