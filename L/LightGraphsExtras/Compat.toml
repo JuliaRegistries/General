@@ -14,10 +14,18 @@ Clustering = "0.2-0.12"
 LightGraphs = "0.7.2-1.2"
 julia = "0.5-0.7"
 
-["0.1-0.2"]
+["0.1-0.3"]
 MatrixDepot = "0.0-0.7"
 
 ["0.2"]
 GLPKMathProgInterface = "0.3.2-0.4"
 LightGraphs = "0.9-1.2"
 julia = "0.6-0.7"
+
+["0.3"]
+GLPKMathProgInterface = "0.4.4"
+JuMP = "0.18.3-0.18.4"
+LightGraphs = "1.1-1.2"
+LightGraphsFlows = "0.0-0.2"
+MathProgBase = "0.7.6-0.7.7"
+julia = "0.7-1.1"
