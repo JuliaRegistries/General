@@ -20,6 +20,17 @@ julia = "0.4"
 ["0.1-0.3.0"]
 FastGaussQuadrature = "0.0.3-0.3"
 
+["0.10"]
+BandedMatrices = "0.7.1"
+BlockArrays = "0.4.1-0.6"
+BlockBandedMatrices = "0.2"
+DSP = "0.5.1"
+DomainSets = "0.0"
+FillArrays = "0.3"
+InfiniteArrays = "0.0.2"
+IntervalSets = "0.3.1"
+LazyArrays = "0.3.2"
+
 ["0.2-0.8"]
 DualNumbers = "0.2.2-0.6"
 
@@ -67,7 +78,7 @@ BandedMatrices = "0.1.1-0.1.2"
 BandedMatrices = "0.1.2"
 julia = "0.4-0.5"
 
-["0.4-0.9"]
+["0.4-0.10"]
 Calculus = "0.1.15-0.4"
 
 ["0.4.1-0.5"]
@@ -119,26 +130,30 @@ BlockBandedMatrices = "0.0"
 ["0.8.1"]
 BlockBandedMatrices = "0.0-0.2"
 
+["0.8.1-0.10"]
+AbstractFFTs = "0.3.1-0.3.2"
+
 ["0.8.1-0.8.2"]
 BandedMatrices = "0.4-0.5"
 BlockArrays = "0.3.1-0.4"
 FFTW = "0.0.4-0.2"
 SpecialFunctions = "0.5-0.7"
 
-["0.8.1-0.9"]
-AbstractFFTs = "0.3.1-0.3.2"
+["0.8.2-0.10"]
+FastTransforms = "0.4.1"
 
 ["0.8.2-0.9"]
 BlockBandedMatrices = "0.1-0.2"
-FastTransforms = "0.4.1"
 
 ["0.9"]
 BandedMatrices = "0.5.1-0.5.2"
 BlockArrays = "0.4.1"
+IntervalSets = "0.2"
+
+["0.9-0.10"]
 DualNumbers = "0.4-0.6"
 FFTW = "0.2.4"
 FastGaussQuadrature = "0.3.2"
-IntervalSets = "0.2"
 LowRankApprox = "0.1.4-0.2"
 RecipesBase = "0.5-0.6"
 SpecialFunctions = "0.7"
