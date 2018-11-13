@@ -99,7 +99,6 @@ Distributions = "0.16.4"
 DocStringExtensions = "0.5"
 FileIO = "1.0.2"
 Graphs = "0.10.1"
-IncrementalInference = "0.4.2-0.4.4"
 JLD2 = "0.1.2"
 KernelDensityEstimate = "0.4.1"
 Optim = "0.16-0.17"
@@ -111,5 +110,11 @@ julia = "0.7-1.0"
 ["0.2.0"]
 TransformUtils = "0.2.1-0.2.2"
 
-["0.2.1"]
+["0.2.0-0.2.1"]
+IncrementalInference = "0.4.2-0.4.4"
+
+["0.2.1-0.2.2"]
 TransformUtils = "0.2.2"
+
+["0.2.2"]
+IncrementalInference = "0.4.4"
