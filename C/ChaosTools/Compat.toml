@@ -33,15 +33,19 @@ DynamicalSystemsBase = "0.11-1.1"
 ForwardDiff = "0.8-0.10"
 NearestNeighbors = "0.4"
 Reexport = "0.1-0.2"
-SpecialFunctions = "0.6-0.7"
 StaticArrays = "0.8-0.9"
 StatsBase = "0.24-0.25"
 julia = "0.7-1.1"
 
+["0.12-1.2.0"]
+SpecialFunctions = "0.6-0.7"
+
 ["0.13-1.2"]
-LsqFit = "0.6"
 OrdinaryDiffEq = "4.8-4.17"
 Roots = "0.7"
+
+["0.13-1.2.0"]
+LsqFit = "0.6"
 
 ["0.2"]
 DynamicalSystemsBase = "0.2.0"
