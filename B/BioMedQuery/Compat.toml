@@ -47,20 +47,27 @@ HttpCommon = "0.0-0.5"
 Requests = "0.0-0.5"
 
 ["0.3-0.5"]
+julia = "0.6-0.7"
+
+["0.3-0.6"]
 DataStreams = "0.0-0.4"
 LightXML = "0.1-0.8"
 SQLite = "0.1-0.7"
 XMLDict = "0.0-0.3"
 ZipFile = "0.1-0.8"
-julia = "0.6-0.7"
 
-["0.4-0.5"]
+["0.4-0.6"]
 DataFrames = "0.1-0.14"
 MySQL = "0.0-0.7"
 
 ["0.5"]
+Missings = "0.2-0.3"
+
+["0.5-0.6"]
 BioServices = "0.1.2-0.3"
 CSV = "0.0-0.4"
 FTPClient = "0.0-0.5"
 HTTP = "0.0-0.7"
-Missings = "0.2-0.3"
+
+["0.6"]
+julia = "0.7-1.0"
