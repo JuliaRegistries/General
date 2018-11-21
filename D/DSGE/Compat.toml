@@ -29,6 +29,8 @@ Optim = "0.7-0.11"
 
 ["0.2-0.4"]
 JLD = "0.5-0.9"
+
+["0.2-0.4.1"]
 StateSpaceRoutines = "0.0"
 
 ["0.3"]
@@ -38,10 +40,20 @@ julia = "0.5-0.7"
 Plots = "0.0-0.21"
 StatPlots = "0.0-0.8"
 StatsBase = "0.1-0.25"
+
+["0.4.0-0.4.1"]
 julia = "0.6-0.7"
 
 ["0.4.1"]
+Optim = "0.14-0.17"
+
+["0.4.1-0.4.2"]
 CSV = "0.0-0.4"
 DataArrays = "0.0-0.7"
 DataFrames = "0.1-0.14"
-Optim = "0.14-0.17"
+
+["0.4.2"]
+BenchmarkTools = "0.0-0.4"
+Optim = "0.1-0.17"
+StateSpaceRoutines = "0.0-0.1"
+julia = "0.6"
