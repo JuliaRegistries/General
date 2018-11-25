@@ -3,7 +3,7 @@ Simplices = "0.1-0.2"
 StateSpaceReconstruction = "0.1-0.3"
 julia = "0.6"
 
-["0.0-0.1"]
+["0.0-0.2"]
 InplaceOps = "0.0-0.3"
 Parameters = "0.0-0.10"
 RecipesBase = "0.0-0.6"
@@ -11,9 +11,15 @@ Reexport = "0.0-0.2"
 StaticArrays = "0.0-0.10"
 
 ["0.1"]
+StateSpaceReconstruction = "0.2.1-0.3"
+julia = "0.7-1.1"
+
+["0.1-0.2"]
 Conda = "0.1-1.1"
 Documenter = "0.1-0.20"
 PyCall = "0.0-1.18"
 Simplices = "0.2.1"
-StateSpaceReconstruction = "0.2.1-0.3"
-julia = "0.7-1.1"
+
+["0.2"]
+StateSpaceReconstruction = "0.3"
+julia = "1.0-1.1"
