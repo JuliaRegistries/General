@@ -8,15 +8,24 @@ ColorTypes = "0.0-0.7"
 Colors = "0.4-0.9"
 FreeType = "1.0-2.1"
 FreeTypeAbstraction = "0.1-0.4"
-GeometryTypes = "0.4.5-0.7"
 IntervalSets = "0.0-0.3"
 Packing = "0.0-0.3"
-Reactive = "0.1-0.8"
 SignedDistanceFields = "0.0-0.4"
 StaticArrays = "0.0-0.10"
 UnicodeFun = "0.0-0.4"
+
+["0.0-0.9.0"]
+GeometryTypes = "0.4.5-0.7"
+Reactive = "0.1-0.8"
 
 ["0.9"]
 PlotUtils = "0.0-0.5"
 Showoff = "0.0-0.2"
 julia = "0.7-1.1"
+
+["0.9.1"]
+Contour = "0.0-0.5"
+FileIO = "0.0-1.0"
+FixedPointNumbers = "0.0-0.5"
+GeometryTypes = "0.7.2"
+Observables = "0.0-0.2"
