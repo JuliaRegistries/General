@@ -55,7 +55,7 @@ ScikitLearnBase = "0.3-0.4"
 RecipesBase = "0.5"
 julia = "0.7"
 
-["0.7-0.8"]
+["0.7-0.9"]
 Distances = "0.7.3"
 Distributions = "0.16.2-0.16.4"
 FastGaussQuadrature = "0.3.1-0.3.2"
@@ -66,6 +66,11 @@ SpecialFunctions = "0.7"
 StaticArrays = "0.6-0.10"
 StatsFuns = "0.7"
 
-["0.8"]
+["0.8-0.9"]
 RecipesBase = "0.6"
 julia = "1.0-1.1"
+
+["0.9"]
+ElasticArrays = "0.2"
+ElasticPDMats = "0.2.1"
+ForwardDiff = "0.0-0.10"
