@@ -12,19 +12,21 @@ DynamicalSystems = "0.1-1.0"
 DynamicalSystemsBase = "0.1-1.1"
 InplaceOps = "0.0-0.3"
 RecipesBase = "0.0-0.6"
-Simplices = "0.2.1-0.2.2"
+Simplices = "0.2.1-0.2.3"
 TimeseriesSurrogates = "0.2.1"
 
 ["0.1-0.2.2"]
 Plots = "0.0-0.22"
 
 ["0.2"]
-PerronFrobenius = "0.2"
 TransferEntropy = "0.3.1-0.3.3"
 julia = "1.0-1.1"
 
 ["0.2.0-0.2.3"]
 StateSpaceReconstruction = "0.3"
+
+["0.2.0-0.2.4"]
+PerronFrobenius = "0.2"
 
 ["0.2.1-0.2.6"]
 Reexport = "0.0-0.2"
@@ -48,6 +50,7 @@ StaticArrays = "0.0-0.10"
 StateSpaceReconstruction = "0.3.0-0.3.1"
 
 ["0.2.5-0.2.6"]
+PerronFrobenius = "0.2.0-0.2.3"
 SpecialFunctions = "0.0-0.7"
 
 ["0.2.6"]
