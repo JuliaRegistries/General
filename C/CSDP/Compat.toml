@@ -2,7 +2,7 @@
 SemidefiniteModels = "0.0-0.1"
 julia = "0.5-0.7"
 
-["0.0-0.3"]
+["0.0-0.4"]
 BinDeps = "0.0-0.8"
 Glob = "1.0-1.2"
 
@@ -23,7 +23,7 @@ SemidefiniteOptInterface = "0.0-0.1"
 SemidefiniteModels = "0.0.3"
 julia = "0.6-0.7"
 
-["0.1-0.3"]
+["0.1-0.4"]
 MathProgBase = "0.7"
 
 ["0.2"]
@@ -31,8 +31,14 @@ MathOptInterface = "0.5"
 SemidefiniteOptInterface = "0.2"
 
 ["0.3"]
-Compat = "1.0-1.4"
 MathOptInterface = "0.6"
-SemidefiniteModels = "0.1"
 SemidefiniteOptInterface = "0.3"
+
+["0.3-0.4"]
+Compat = "1.0-1.4"
+SemidefiniteModels = "0.1"
 julia = "0.6-1.2"
+
+["0.4"]
+MathOptInterface = "0.7"
+SemidefiniteOptInterface = "0.4"
