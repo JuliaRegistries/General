@@ -2,12 +2,17 @@
 julia = "0.6-0.7"
 
 ["0.1-0.2"]
-Combinatorics = "0.0-0.7"
 Ipopt = "0.1-0.4"
 JuMP = "0.17.1-0.18"
+
+["0.1-0.3"]
+Combinatorics = "0.0-0.7"
 LaTeXStrings = "0.1-1.0"
 RecipesBase = "0.0-0.6"
 
-["0.2"]
+["0.2-0.3"]
 MathProgBase = "0.1-0.7"
 julia = "0.7-1.2"
+
+["0.3"]
+JuMP = "0.18"
