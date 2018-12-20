@@ -30,7 +30,7 @@ PooledArrays = "0.0-0.4"
 ["0.7.2-0.7.5"]
 PooledArrays = "0.2-0.4"
 
-["0.7.2-0.8"]
+["0.7.2-0.9"]
 WeakRefStrings = "0.4.4-0.5"
 
 ["0.7.4-0.7.5"]
@@ -38,8 +38,15 @@ julia = "0.6-1.2"
 
 ["0.8"]
 DataValues = "0.0-0.4"
+
+["0.8-0.9"]
 IteratorInterfaceExtensions = "0.1"
 PooledArrays = "0.4.1"
 TableTraits = "0.3-0.4"
 TableTraitsUtils = "0.2-0.3"
 julia = "0.7-1.2"
+
+["0.9"]
+OnlineStatsBase = "0.9.1"
+StructArrays = "0.2"
+Tables = "0.1"
