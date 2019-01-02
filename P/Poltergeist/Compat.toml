@@ -23,11 +23,20 @@ julia = "0.6"
 ApproxFun = "0.7-0.10"
 julia = "0.6-1.2"
 
-["0.1.2-0.2"]
+["0.1.2-0.2.0"]
 BandedMatrices = "0.2-0.7"
 
 ["0.2"]
+julia = "0.7-1.2"
+
+["0.2.0"]
 ApproxFun = "0.7-0.9"
 Compat = "0.48-1.4"
 IntervalSets = "0.0.2-0.3"
-julia = "0.7-1.2"
+
+["0.2.1"]
+ApproxFun = "0.10"
+BandedMatrices = "0.2-0.8"
+Compat = "0.31-1.4"
+DomainSets = "0.0"
+LightGraphs = "0.12-1.2"
