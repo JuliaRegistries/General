@@ -1,4 +1,4 @@
-["0.1-0.3"]
+["0.1-0.4"]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
@@ -18,14 +18,19 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
 
 ["0.2-0.3"]
-CmdStan = "593b3428-ca2f-500c-ae53-031589ec8ddd"
 Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
 JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
+
+["0.2-0.4"]
+CmdStan = "593b3428-ca2f-500c-ae53-031589ec8ddd"
 Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
 Mamba = "5424a776-8be3-5c5b-a13f-3551f69ba0e6"
 StanMCMCChain = "8f1571ae-b3a1-52af-8ab1-32258739efdb"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 
-["0.3"]
+["0.3-0.4"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MCMCChain = "1671dc4f-43c8-512c-ab25-e1704a74065e"
+
+["0.4"]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
