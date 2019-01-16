@@ -6,6 +6,13 @@ julia = "0.7-1.2"
 SpecialFunctions = "0.6-0.7"
 
 ["0.3"]
+julia = "1.0-1.2"
+
+["0.3.0-0.3.1"]
 BinDeps = "0.8.10"
 SpecialFunctions = "0.7.2"
-julia = "1.0-1.2"
+
+["0.3.2"]
+BinDeps = "0.8"
+GenericLinearAlgebra = "0.1"
+SpecialFunctions = "0.7"
