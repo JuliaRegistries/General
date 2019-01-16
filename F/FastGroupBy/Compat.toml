@@ -1,7 +1,13 @@
 ["0.1"]
+julia = "0.6-0.7"
+
+["0.1-0.2"]
 CategoricalArrays = "0.0-0.5"
 DataFrames = "0.1-0.16"
 IndexedTables = "0.1-0.9"
 PooledArrays = "0.0-0.4"
 SortingAlgorithms = "0.0-0.3"
-julia = "0.6-0.7"
+
+["0.2"]
+SortingLab = "0.1"
+julia = "1.0-1.2"
