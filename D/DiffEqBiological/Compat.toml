@@ -3,7 +3,7 @@ DiffEqBase = "0.0-4.31"
 DiffEqJump = "0.0-5.6"
 julia = "0.5-0.7"
 
-["0.2-3.4"]
+["0.2-3.5"]
 Compat = "0.17-1.4"
 
 ["0.3-2.1"]
@@ -22,23 +22,26 @@ julia = "0.6-0.7"
 DiffEqBase = "3.4-4.31"
 SymEngine = "0.3-0.5"
 
-["2.0-3.4"]
+["2.0-3.5"]
 MacroTools = "0.4"
 Reexport = "0.1-0.2"
-
-["2.2-3.4"]
-DataStructures = "0.8-0.15"
-DiffEqBase = "3.11-4.31"
-SymEngine = "0.4-0.5"
 
 ["2.2-3.4.1"]
 DiffEqJump = "4.2-5.6"
 
+["2.2-3.5"]
+DataStructures = "0.8-0.15"
+DiffEqBase = "3.11-4.31"
+SymEngine = "0.4-0.5"
+
 ["3.0-3.3"]
 julia = "0.7-1.2"
 
-["3.4"]
+["3.4-3.5"]
 julia = "1.0-1.2"
 
-["3.4.2"]
+["3.4.2-3.5"]
 DiffEqJump = "5.6"
+
+["3.5"]
+Parameters = "0.10.3"
