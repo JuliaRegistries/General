@@ -6,8 +6,10 @@ julia = "0.6-0.7"
 
 ["0.0-0.6"]
 DataStreams = "0.3.1-0.4"
-DocStringExtensions = "0.1-0.6"
 Missings = "0.2.1-0.4"
+
+["0.0-0.7"]
+DocStringExtensions = "0.1-0.6"
 
 ["0.0.1"]
 Compat = "0.26-1.5"
@@ -40,6 +42,20 @@ Homebrew = "0.0-0.7"
 ["0.4-0.6"]
 BinaryProvider = "0.2.5-0.5"
 Compat = "0.70-1.5"
+julia = "0.6-1.2"
+
+["0.4-0.7"]
 LayerDicts = "0.1.2"
 Memento = "0.10"
-julia = "0.6-1.2"
+
+["0.7"]
+BinaryProvider = "0.4-0.5"
+Compat = "1.1-1.5"
+DataStreams = "0.4"
+Decimals = "0.3.1"
+IterTools = "1.0-1.1"
+Missings = "0.3-0.4"
+OffsetArrays = "0.9.1-0.10"
+Tables = "0.1"
+TimeZones = "0.8"
+julia = "0.7-1.2"
