@@ -2,6 +2,9 @@
 StatPlots = "0.0-0.9"
 
 ["0.1-0.5"]
+Turing = "0.0-0.6"
+
+["0.1-0.6"]
 CSV = "0.0-0.4"
 DataFrames = "0.1-0.17"
 Distributions = "0.1-0.16"
@@ -12,7 +15,6 @@ Plots = "0.0-0.23"
 RDatasets = "0.0-0.6"
 Reexport = "0.0-0.2"
 StatsBase = "0.1-0.27"
-Turing = "0.0-0.6"
 julia = "1.0-1.2"
 
 ["0.2-0.3"]
@@ -20,24 +22,31 @@ Gadfly = "0.1-1.0"
 JLD = "0.5-0.9"
 
 ["0.2-0.5"]
+Mamba = "0.3-0.12"
+
+["0.2-0.6"]
 CmdStan = "1.0-4.5"
 Literate = "0.1-1.0"
-Mamba = "0.3-0.12"
 StanMCMCChain = "0.3-4.1"
 StatsFuns = "0.0-0.8"
 
-["0.3-0.5"]
+["0.3-0.6"]
 MCMCChain = "0.1-0.2"
 
-["0.4-0.5"]
+["0.4-0.6"]
 DataStructures = "0.2-0.15"
 
 ["0.5"]
 DynamicHMC = "0.0-1.0"
 ForwardDiff = "0.0-0.10"
-JLD = "0.5-0.9"
 LogDensityProblems = "0.2-0.6"
 MCMCDiagnostics = "0.1-0.3"
 Parameters = "0.0-0.10"
-StatsPlots = "0.10"
 TransformVariables = "0.1-0.2"
+
+["0.5-0.6"]
+JLD = "0.5-0.9"
+StatsPlots = "0.10"
+
+["0.6"]
+Flux = "0.1-0.7"
