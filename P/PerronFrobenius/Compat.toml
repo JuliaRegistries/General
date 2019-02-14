@@ -3,7 +3,7 @@ Simplices = "0.1-0.4"
 StateSpaceReconstruction = "0.1-0.4"
 julia = "0.6"
 
-["0.0-0.2"]
+["0.0-0.4"]
 InplaceOps = "0.0-0.3"
 Parameters = "0.0-0.10"
 RecipesBase = "0.0-0.6"
@@ -15,14 +15,16 @@ StateSpaceReconstruction = "0.2.1-0.4"
 julia = "0.7-1.2"
 
 ["0.1-0.2"]
-Conda = "0.1-1.2"
-PyCall = "0.0-1.18"
 Simplices = "0.2.1-0.4"
 
 ["0.1-0.2.3"]
 Documenter = "0.1-0.21"
 
-["0.2"]
+["0.1-0.4"]
+Conda = "0.1-1.2"
+PyCall = "0.0-1.18"
+
+["0.2-0.4"]
 julia = "1.0-1.2"
 
 ["0.2.0-0.2.2"]
@@ -30,3 +32,9 @@ StateSpaceReconstruction = "0.3-0.4"
 
 ["0.2.3-0.2.4"]
 StateSpaceReconstruction = "0.3.0-0.3.1"
+
+["0.4"]
+CausalityToolsBase = "0.3.1"
+DelayEmbeddings = "0.1-1.0"
+Simplices = "0.4"
+StateSpaceReconstruction = "0.4"
