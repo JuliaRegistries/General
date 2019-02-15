@@ -1,14 +1,14 @@
 ["0.0-0.1"]
 julia = "0.6-1.2"
 
-["0.0-0.2"]
+["0.0-0.2.0"]
+Interpolations = "0.3.6-0.11"
+
+["0.0-0.3"]
 ColorTypes = "0.2-0.7"
 CoordinateTransformations = "0.4.1-0.5"
 LoopThrottle = "0.0"
 RigidBodyDynamics = "0.4-1.4"
-
-["0.0-0.2.0"]
-Interpolations = "0.3.6-0.11"
 
 ["0.0.1"]
 FileIO = "0.1-1.0"
@@ -25,7 +25,7 @@ MechanismGeometries = "0.0-0.1"
 ["0.0.3-0.0.6"]
 MeshCat = "0.0.2-0.5"
 
-["0.0.6-0.2"]
+["0.0.6-0.3"]
 GeometryTypes = "0.4-0.7"
 
 ["0.1-0.2"]
@@ -41,11 +41,17 @@ InteractBase = "0.5-0.8"
 ["0.1.1-0.2.0"]
 DataStructures = "0.7-0.15"
 
-["0.2"]
+["0.2-0.3"]
 InteractBase = "0.8"
 julia = "0.7-1.2"
 
 ["0.2.1"]
-Interpolations = "0.9-0.11"
 MechanismGeometries = "0.1.2"
+
+["0.2.1-0.3"]
+Interpolations = "0.9-0.11"
 OrderedCollections = "1.0"
+
+["0.3"]
+MechanismGeometries = "0.2"
+MeshCat = "0.6"
