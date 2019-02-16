@@ -72,8 +72,14 @@ ForwardDiff = "0.5-0.9"
 Compat = "1.0-1.5"
 julia = "0.6-1.2"
 
-["0.18.4-0.18.5"]
+["0.18.4-0.19"]
 ForwardDiff = "0.5-0.10"
+
+["0.19"]
+DataStructures = "0.2-0.15"
+MathOptInterface = "0.8.1-0.8.2"
+NaNMath = "0.2.1-0.3"
+julia = "1.0-1.2"
 
 ["0.5-0.7.3"]
 ReverseDiffSparse = "0.1-0.3"
@@ -96,7 +102,7 @@ MathProgBase = "0.3.8-0.3.19"
 ["0.7-0.8"]
 Compat = "0.0-1.5"
 
-["0.7.2-0.18"]
+["0.7.2-0.19"]
 Calculus = "0.1-0.4"
 
 ["0.7.4"]
