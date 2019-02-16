@@ -15,6 +15,9 @@ VegaLite = "0.0-0.5"
 julia = "0.6-0.7"
 
 ["0.1-0.2"]
+julia = "0.7-1.2"
+
+["0.1-0.3"]
 CSVFiles = "0.9.1-0.14"
 DataFrames = "0.13.1-0.17"
 DataValues = "0.4.4-0.4.7"
@@ -27,7 +30,10 @@ Query = "0.10-0.11"
 Reexport = "0.2"
 StatFiles = "0.6.1-0.8"
 VegaLite = "0.4-0.5"
-julia = "0.7-1.2"
 
-["0.2"]
+["0.2-0.3"]
 ParquetFiles = "0.1-0.2"
+
+["0.3"]
+QueryTables = "0.0"
+julia = "1.0-1.2"
