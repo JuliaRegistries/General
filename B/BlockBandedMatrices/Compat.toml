@@ -23,10 +23,17 @@ BandedMatrices = "0.7-0.8"
 LazyArrays = "0.3.1-0.5"
 
 ["0.2-0.3"]
-BlockArrays = "0.5-0.7"
 FillArrays = "0.3-0.4"
 julia = "0.7-1.2"
 
-["0.3"]
+["0.2-0.3.2"]
+BlockArrays = "0.5-0.7"
+
+["0.3.0-0.3.2"]
 BandedMatrices = "0.7.2-0.8"
 LazyArrays = "0.4-0.5"
+
+["0.3.3"]
+BandedMatrices = "0.8.2"
+BlockArrays = "0.7"
+LazyArrays = "0.6"
