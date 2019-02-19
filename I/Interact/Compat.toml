@@ -54,7 +54,7 @@ julia = "0.6-0.7"
 
 ["0.8"]
 InteractBase = "0.6-0.8"
-InteractBulma = "0.3.3-0.4"
+InteractBulma = "0.3.3-0.5"
 WebIO = "0.1-0.7"
 Widgets = "0.2.3-0.5"
 julia = "0.6-1.2"
@@ -64,10 +64,16 @@ CSSUtil = "0.0-0.1"
 Knockout = "0.1-0.2"
 
 ["0.9"]
-InteractBase = "0.8"
-InteractBulma = "0.4"
+InteractBulma = "0.4-0.5"
 Observables = "0.2.2-0.2.3"
 Reexport = "0.1-0.2"
 WebIO = "0.3.1-0.7"
-Widgets = "0.4.1-0.5"
 julia = "0.7-1.2"
+
+["0.9.0"]
+InteractBase = "0.8"
+Widgets = "0.4.1-0.5"
+
+["0.9.1"]
+InteractBase = "0.8.3"
+Widgets = "0.5"
