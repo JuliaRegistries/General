@@ -1,4 +1,8 @@
 ["0.1"]
+MCMCChain = "0.1-0.2"
+StanMCMCChain = "0.3-4.1"
+
+["0.1-0.2"]
 CSV = "0.0-0.4"
 CmdStan = "1.0-4.5"
 DataFrames = "0.1-0.17"
@@ -8,14 +12,16 @@ GLM = "0.2-1.1"
 GR = "0.1-0.38"
 JLD = "0.5-0.9"
 Literate = "0.1-1.0"
-MCMCChain = "0.1-0.2"
 Optim = "0.1-0.17"
 Plots = "0.0-0.23"
 RDatasets = "0.0-0.6"
 Reexport = "0.0-0.2"
-StanMCMCChain = "0.3-4.1"
 StatisticalRethinking = "0.1-0.8"
 StatsBase = "0.1-0.28"
 StatsFuns = "0.0-0.8"
 StatsPlots = "0.10"
 julia = "1.0-1.2"
+
+["0.2"]
+MCMCChains = "0.2-0.3"
+StanMCMCChains = "5.0"
