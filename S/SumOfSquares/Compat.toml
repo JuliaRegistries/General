@@ -19,10 +19,22 @@ julia = "0.6-0.7"
 
 ["0.2"]
 JuMP = "0.18"
-MultivariateMoments = "0.1-0.2"
 PolyJuMP = "0.2"
+
+["0.2-0.3"]
+MultivariateMoments = "0.1-0.2"
 
 ["0.2.1"]
 Compat = "1.0-1.5"
-Reexport = "0.0-0.2"
 julia = "0.6-1.2"
+
+["0.2.1-0.3"]
+Reexport = "0.0-0.2"
+
+["0.3"]
+JuMP = "0.19"
+MathOptInterface = "0.8.2"
+MultivariatePolynomials = "0.2.7-0.2.8"
+PolyJuMP = "0.3"
+SemialgebraicSets = "0.1"
+julia = "1.0-1.2"
