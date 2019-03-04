@@ -5,12 +5,7 @@ MacroTools = "0.3.3-0.4"
 julia = "0.5-0.7"
 
 ["0.1-0.3"]
-AxisArrays = "0.0-0.3"
 Compat = "0.17-1.5"
-DataStructures = "0.2-0.15"
-Distributions = "0.1-0.16"
-Dolang = "0.1-3.0"
-Optim = "0.1-0.17"
 QuantEcon = "0.10.1-0.15"
 Requests = "0.0-0.5"
 YAML = "0.2.1-0.3"
@@ -18,10 +13,19 @@ YAML = "0.2.1-0.3"
 ["0.1-0.3.0"]
 NLsolve = "0.1-0.13"
 
+["0.1-0.4"]
+AxisArrays = "0.0-0.3"
+DataStructures = "0.2-0.15"
+Distributions = "0.1-0.16"
+Dolang = "0.1-3.0"
+Optim = "0.1-0.17"
+
 ["0.2-0.3"]
 BasisMatrices = "0.3-0.6"
-IterativeSolvers = "0.0-0.8"
 Iterators = "0.1-0.3"
+
+["0.2-0.4"]
+IterativeSolvers = "0.0-0.8"
 MacroTools = "0.1-0.4"
 StaticArrays = "0.0-0.10"
 StringDistances = "0.0-0.3"
@@ -31,3 +35,13 @@ julia = "0.6-0.7"
 
 ["0.3.1"]
 NLsolve = "0.14-3.0"
+
+["0.4"]
+BasisMatrices = "0.1-0.6"
+Compat = "0.0-1.5"
+HTTP = "0.0-0.8"
+IterTools = "0.1-1.1"
+NLsolve = "0.1-3.0"
+QuantEcon = "0.0-0.15"
+YAML = "0.1-0.3"
+julia = "1.0-1.2"
