@@ -98,13 +98,15 @@ julia = "0.6"
 Distributions = "0.16.4"
 DocStringExtensions = "0.5-0.7"
 FileIO = "1.0.2-1.0.5"
-Graphs = "0.10.1-0.10.2"
 JLD2 = "0.1.2"
 Optim = "0.16-0.17"
 ProgressMeter = "0.6-0.9"
 Reexport = "0.2"
 Rotations = "0.9.1-0.11"
 julia = "0.7-1.0"
+
+["0.2-0.3.1"]
+Graphs = "0.10.1-0.10.2"
 
 ["0.2.0"]
 TransformUtils = "0.2.1-0.2.2"
@@ -127,5 +129,12 @@ KernelDensityEstimate = "0.4.1-0.4.2"
 
 ["0.3"]
 ApproxManifoldProducts = "0.0.3"
+
+["0.3.0-0.3.1"]
 IncrementalInference = "0.5"
 KernelDensityEstimate = "0.4.3-0.5"
+
+["0.3.2"]
+Graphs = "0.10.2"
+IncrementalInference = "0.5.4"
+KernelDensityEstimate = "0.5"
