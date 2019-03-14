@@ -7,8 +7,15 @@ Nulls = "0.0-0.1"
 julia = "0.6-0.7"
 
 ["0.2"]
+Documenter = "0.19.6-0.19.7"
+julia = "0.7-1.2"
+
+["0.2-0.3"]
 Combinatorics = "0.7"
 DataStructures = "0.14-0.15"
-Documenter = "0.19.6-0.19.7"
 IterTools = "1.0-1.1"
-julia = "0.7-1.2"
+
+["0.3"]
+Documenter = "0.21.5"
+InPlace = "0.2"
+julia = "1.0-1.2"
