@@ -12,7 +12,7 @@ RoMEPlotting = "0.0-0.1"
 TransformUtils = "0.1-0.2"
 julia = "0.6-0.7"
 
-["0.0-0.1"]
+["0.0-0.2"]
 ColorTypes = "0.0-0.7"
 Colors = "0.4-0.9"
 CoordinateTransformations = "0.1-0.5"
@@ -25,6 +25,9 @@ MeshIO = "0.0-0.3"
 Rotations = "0.0-0.11"
 
 ["0.1"]
+julia = "0.7-1.0"
+
+["0.1-0.2"]
 Caesar = "0.2.3-0.3"
 DocStringExtensions = "0.1-0.7"
 FileIO = "0.0-1.0"
@@ -37,4 +40,11 @@ NLsolve = "3.0"
 ProgressMeter = "0.6-0.9"
 Requires = "0.1-0.5"
 TransformUtils = "0.2.2"
-julia = "0.7-1.0"
+
+["0.2"]
+JSON2 = "0.1-0.2"
+Mongoc = "0.0-0.2"
+PlotUtils = "0.0-0.5"
+RoME = "0.0-0.3"
+StaticArrays = "0.0-0.10"
+julia = "1.0"
