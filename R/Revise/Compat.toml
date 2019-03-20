@@ -16,11 +16,16 @@ Compat = "0.51-2.0"
 ["0.4-0.5.1"]
 DataStructures = "0.8.3-0.15"
 
-["0.5.2-1.1"]
+["0.5.2-2.0"]
 OrderedCollections = "0.1-1.0"
 
-["1.0-1.1"]
+["1.0-2.0"]
 julia = "1.0-1.2"
 
 ["1.1"]
 CodeTracking = "0.1-0.4"
+
+["2.0"]
+CodeTracking = "0.4"
+JuliaInterpreter = "0.2-0.3"
+LoweredCodeUtils = "0.2"
