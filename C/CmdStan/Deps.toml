@@ -2,7 +2,7 @@
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 
-["1.0-4.5"]
+["1.0-5.0"]
 BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Homebrew = "d9be37ee-ecc9-5288-90f1-b9ca67657a75"
@@ -11,8 +11,12 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
-["4.0-4.5"]
+["4.0-5.0"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["4.4-4.5"]
+["4.4-5.0"]
 NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
+
+["5.0"]
+MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
