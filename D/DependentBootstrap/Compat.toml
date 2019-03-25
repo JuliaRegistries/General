@@ -9,7 +9,13 @@ StatsBase = "0.11-0.29"
 julia = "0.6-0.7"
 
 ["1.0"]
-Distributions = "0.16.4-0.17"
 Requires = "0.5.2"
+
+["1.0-1.1"]
+Distributions = "0.16.4-0.17"
 StatsBase = "0.25-0.29"
 julia = "0.7-1.2"
+
+["1.1"]
+DataFrames = "0.15-0.17"
+TimeSeries = "0.14"
