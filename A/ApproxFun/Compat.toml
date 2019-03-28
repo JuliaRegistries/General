@@ -21,24 +21,33 @@ julia = "0.4"
 FastGaussQuadrature = "0.0.3-0.3"
 
 ["0.10"]
-BandedMatrices = "0.7.1-0.9"
-BlockArrays = "0.4.1-0.8"
 DSP = "0.5.1-0.5.2"
 DomainSets = "0.0"
-FillArrays = "0.3-0.5"
-InfiniteArrays = "0.0.2-0.0.3"
 IntervalSets = "0.3.1"
-LazyArrays = "0.3.2-0.7"
 
 ["0.10.0"]
 BlockBandedMatrices = "0.2"
 
+["0.10.0-0.10.3"]
+BandedMatrices = "0.7.1-0.9"
+BlockArrays = "0.4.1-0.8"
+FillArrays = "0.3-0.5"
+InfiniteArrays = "0.0.2-0.0.3"
+LazyArrays = "0.3.2-0.7"
+
 ["0.10.1-0.10.2"]
 BlockBandedMatrices = "0.3.0"
 
-["0.10.3"]
+["0.10.3-0.10.4"]
 BlockBandedMatrices = "0.3.2-0.3.5"
 FastTransforms = "0.4.2"
+
+["0.10.4"]
+BandedMatrices = "0.9"
+BlockArrays = "0.4.1-0.7"
+FillArrays = "0.5"
+InfiniteArrays = "0.0.3"
+LazyArrays = "0.7.1"
 
 ["0.2-0.8"]
 DualNumbers = "0.2.2-0.6"
