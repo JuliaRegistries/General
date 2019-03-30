@@ -10,7 +10,15 @@ NamedTuples = "2.1-5.0"
 
 ["0.10"]
 DataValues = "0.0-0.4"
+
+["0.10-0.11"]
 TableTraits = "0.0-0.4"
+
+["0.11"]
+DataValues = "0.4.6-0.4.7"
+StructArrays = "0.3.2-0.3.3"
+TableTraitsUtils = "0.0-0.4"
+WeakRefStrings = "0.5.7-0.5.8"
 
 ["0.2-0.7.3"]
 julia = "0.6-0.7"
@@ -43,7 +51,7 @@ julia = "0.6-1.2"
 ["0.8"]
 DataValues = "0.0-0.4"
 
-["0.8-0.10"]
+["0.8-0.11"]
 IteratorInterfaceExtensions = "0.1"
 PooledArrays = "0.4.1-0.5"
 julia = "0.7-1.2"
@@ -53,6 +61,8 @@ TableTraits = "0.3-0.4"
 TableTraitsUtils = "0.2-0.4"
 
 ["0.9-0.10"]
-OnlineStatsBase = "0.9.1-0.10"
 StructArrays = "0.2-0.3"
+
+["0.9-0.11"]
+OnlineStatsBase = "0.9.1-0.10"
 Tables = "0.1"
