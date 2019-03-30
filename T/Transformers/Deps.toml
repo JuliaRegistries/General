@@ -1,8 +1,6 @@
 ["0.0"]
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
 BytePairEncoding = "a4280ba5-8788-555a-8ca8-4a8c3d966a71"
-CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
-CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
@@ -13,5 +11,13 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
 WordTokenizers = "796a5d58-b03d-544a-977e-18100b691f6e"
 
-["0.0.2-0.0.3"]
+["0.0.1-0.0.3"]
+CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
+CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
+
+["0.0.2-0.0.6"]
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+
+["0.0.6"]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
