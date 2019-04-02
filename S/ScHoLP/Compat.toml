@@ -4,10 +4,15 @@ julia = "0.6-0.7"
 ["0.0-0.1"]
 Combinatorics = "0.0-0.7"
 DataStructures = "0.2-0.15"
-IterativeSolvers = "0.0-0.8"
 LinearOperators = "0.1-0.5"
 StatsBase = "0.1-0.29"
+
+["0.0-0.1.0"]
+IterativeSolvers = "0.0-0.8"
 
 ["0.1"]
 Arpack = "0.1-0.3"
 julia = "1.0-1.2"
+
+["0.1.1"]
+Krylov = "0.2-0.3"
