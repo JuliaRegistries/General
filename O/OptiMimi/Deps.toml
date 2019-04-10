@@ -1,15 +1,24 @@
-["0.0-1.2"]
+["0.0-2.0"]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Mimi = "e4e893b0-ee5e-52ea-8111-44b3bdec128c"
 NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
 
-["0.0.2-1.2"]
+["0.0.2-2.0"]
 Clp = "e2554f3b-3117-50c0-817c-e040a3ddf72d"
 MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
 
 ["1.0-1.2"]
-BlackBoxOptim = "a134a8b2-14d6-55f6-9291-3336d3ab0209"
 DiffBase = "c5cfe0b6-c10a-51a5-87e3-fd79235949f0"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 GeneticAlgorithms = "38a4a31c-f17b-5f22-8721-d9b4a0175df2"
+
+["1.0-2.0"]
+BlackBoxOptim = "a134a8b2-14d6-55f6-9291-3336d3ab0209"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
+["2.0"]
+DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
+DiffRules = "b552c78f-8df3-52c6-915a-8e097449b14b"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
