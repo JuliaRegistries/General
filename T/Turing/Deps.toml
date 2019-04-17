@@ -27,6 +27,8 @@ ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 
 ["0.4.1-0.6"]
 BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+
+["0.4.1-0.6.14"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 ["0.4.4-0.6"]
@@ -35,12 +37,14 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 ["0.5-0.6"]
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 Libtask = "6f1fad26-d15e-5dc8-ae53-837a1d7b8c9f"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
-Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
+
+["0.5-0.6.14"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0.5-0.6.9"]
@@ -50,14 +54,18 @@ MCMCChain = "1671dc4f-43c8-512c-ab25-e1704a74065e"
 Stan = "682df890-35be-576f-97d0-3d8c8b33a550"
 
 ["0.5.1-0.6"]
-Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 Bijectors = "76274a88-744f-5084-9051-94815aaf08c4"
+
+["0.5.1-0.6.14"]
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 LibGit2 = "76f85450-5226-5b5a-8eaa-529ad045b433"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 ["0.6"]
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0.6.0-0.6.14"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.6.11-0.6.14"]
+["0.6.11-0.6.15"]
 MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
