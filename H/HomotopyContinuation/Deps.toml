@@ -8,13 +8,13 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Juno = "e5e0dc1b-0480-54bc-9374-aad01c23163d"
 
-["0.2-0.6"]
+["0.2-0.7"]
 DynamicPolynomials = "7c1d4256-1411-5781-91ec-d7bc3513ac07"
 FixedPolynomials = "3dd14ad9-0029-526e-86e9-8aa0bdd2ab0d"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 StaticPolynomials = "62e018b1-6e46-5407-a5a7-97d4fbcae734"
 
-["0.3-0.6"]
+["0.3-0.7"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MultivariatePolynomials = "102ac46a-7ee4-5c85-9060-abc95bfdeaa3"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
@@ -22,11 +22,14 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 TreeViews = "a2a6695c-b41b-5b7d-aed9-dbfdeacea5d7"
 
-["0.4-0.6"]
+["0.4-0.7"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0.5.1-0.5.2"]
 DoubleFloats = "497a8b3b-efae-58df-a0af-a86822472b78"
 
-["0.5.1-0.6"]
+["0.5.1-0.7"]
 ProjectiveVectors = "01f381cc-face-5a0a-ade9-ef63dc65d628"
+
+["0.7"]
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
