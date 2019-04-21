@@ -25,3 +25,8 @@ MultivariatePolynomials = "0.2"
 ["0.1.2-0.1.4"]
 MultivariatePolynomials = "0.2.1-0.2.8"
 Reexport = "0.2"
+
+["0.2"]
+MultivariatePolynomials = ["0.2.1-0.2"]
+Reexport = ["0.2.0-*"]
+julia = ["1.0.0-1"]
