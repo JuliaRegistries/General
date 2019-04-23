@@ -1,23 +1,26 @@
-["0.5-1.2"]
-julia = "0.5-0.7"
+[0-1]
+StaticArrays = "0"
 
-["0.5-1.6"]
-StaticArrays = "0.0-0.10"
+["0-1.2"]
+julia = "0.5-0"
 
-["0.6-1.0"]
-PyPlot = "1.0-2.8"
+["0.6-0"]
+PyPlot = "1-2"
 
-["1.3-1.6"]
-julia = "0.6-0.7"
+["1.0"]
+PyPlot = "1-2"
 
-["2.0-3.5"]
-MuladdMacro = "0.2"
-Requires = "0.5.2"
-StaticArrays = "0.8.2-0.10"
-julia = "0.7-1.3"
+["1.3-1"]
+julia = "0.6-0"
+
+[2-3]
+MuladdMacro = "0.2-0"
+Requires = "0.5.2-0"
+StaticArrays = "0.8.2-0"
+julia = "0.7-1"
 
 ["2.4"]
-Elliptic = "0.5"
+Elliptic = "0.5-0"
 
-["3.0-3.5"]
-Elliptic = "0.5"
+[3]
+Elliptic = "0.5-0"

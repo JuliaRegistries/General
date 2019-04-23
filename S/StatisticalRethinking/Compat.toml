@@ -1,63 +1,63 @@
-["0.1-0.4"]
-StatPlots = "0.0-0.9"
+[0]
+CSV = "0"
+DataFrames = "0"
+Distributions = "0-0.18"
+GLM = "0-1"
+GR = "0"
+Optim = "0"
+Plots = "0"
+RDatasets = "0"
+Reexport = "0"
+StatsBase = "0-0.29"
+julia = "1"
 
-["0.1-0.5"]
-Turing = "0.0-0.6"
+["0-0.4"]
+StatPlots = "0"
 
-["0.1-0.8"]
-CSV = "0.0-0.4"
-DataFrames = "0.1-0.17"
-Distributions = "0.1-0.18"
-GLM = "0.2-1.1"
-GR = "0.1-0.39"
-Optim = "0.1-0.18"
-Plots = "0.0-0.24"
-RDatasets = "0.0-0.6"
-Reexport = "0.0-0.2"
-StatsBase = "0.1-0.29"
-julia = "1.0-1.3"
+["0-0.5"]
+Turing = "0"
+
+["0.2-0"]
+CmdStan = ["1", "4-5"]
+Literate = "0-1"
+StatsFuns = "0"
 
 ["0.2-0.3"]
-Gadfly = "0.1-1.0"
-JLD = "0.5-0.9"
+Gadfly = "0-1"
+JLD = "0"
 
 ["0.2-0.5"]
-Mamba = "0.3-0.12"
+Mamba = "0"
 
 ["0.2-0.7"]
-StanMCMCChain = "0.3-4.1"
-
-["0.2-0.8"]
-CmdStan = "1.0-5.0"
-Literate = "0.1-1.1"
-StatsFuns = "0.0-0.8"
+StanMCMCChain = ["0", "4"]
 
 ["0.3-0.7"]
-MCMCChain = "0.1-0.2"
+MCMCChain = "0"
 
-["0.4-0.8"]
-DataStructures = "0.2-0.15"
+["0.4-0"]
+DataStructures = "0"
 
 ["0.5"]
-DynamicHMC = "0.0-1.0"
-ForwardDiff = "0.0-0.10"
-LogDensityProblems = "0.2-0.8"
-MCMCDiagnostics = "0.1-0.3"
-Parameters = "0.0-0.10"
-TransformVariables = "0.1-0.2"
+DynamicHMC = "0-1"
+ForwardDiff = "0"
+LogDensityProblems = "0"
+MCMCDiagnostics = "0"
+Parameters = "0"
+TransformVariables = "0"
 
-["0.5-0.8"]
-JLD = "0.5-0.9"
-StatsPlots = "0.10"
+["0.5-0"]
+JLD = "0"
+StatsPlots = "0"
 
-["0.6-0.8"]
-Flux = "0.1-0.8"
+["0.6-0"]
+Flux = "0"
 
-["0.8"]
-MCMCChains = "0.2-0.3"
+["0.8-0"]
+MCMCChains = "0"
 
-["0.8.0-0.8.4"]
-StanMCMCChains = "5.0-5.1"
+["0.8-0.8.4"]
+StanMCMCChains = "5"
 
-["0.8.4-0.8.5"]
-KernelDensity = "0.0-0.5"
+["0.8.4-0"]
+KernelDensity = "0"
