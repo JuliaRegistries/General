@@ -1,17 +1,24 @@
-["0.1"]
+[0]
 AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
-FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MPIFiles = "371237a9-e6c1-5201-9adb-3d8cfa78fa9f"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
-QuartzImageIO = "dca85d43-d64c-5e67-8c65-017450d5d020"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 RegularizedLeastSquares = "1e9c538a-f78c-5de5-8ffb-0b6dbe892d23"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+["0-0.1.0"]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+QuartzImageIO = "dca85d43-d64c-5e67-8c65-017450d5d020"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Winston = "bd07be1c-e76f-5ff0-9c0b-f51ef45303c6"
+
+["0.1.1-0"]
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+DistributedArrays = "aaf54ef3-cdf8-58ed-94cc-d582ad619b94"
+LinearOperators = "5c8ed15e-5a4c-59e4-a42b-c7e8811fb125"
