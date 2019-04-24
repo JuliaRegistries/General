@@ -1,58 +1,58 @@
-["0.0"]
-CUBLAS = "0.0-0.2"
-CUDArt = "0.0-0.4"
-Compat = "0.19-2.1"
-Matcha = "0.0-0.1"
-OpenCL = "0.5.2-0.8"
-Sugar = "0.0.3-0.3"
-Transpiler = "0.0-0.3"
-julia = "0.5-0.7"
+["0-0.1"]
+CLBLAS = "1"
+CLFFT = "0.4-0"
+CUFFT = "0"
+StaticArrays = "0"
 
-["0.0-0.1"]
-CLBLAS = "1.1-1.2"
-CLFFT = "0.4-0.5"
-CUFFT = "0.0"
-StaticArrays = "0.0-0.10"
+["0.0"]
+CUBLAS = "0"
+CUDArt = "0"
+Compat = "0.19-2"
+Matcha = "0"
+OpenCL = "0.5.2-0"
+Sugar = "0.0.3-0.3"
+Transpiler = "0-0.3"
+julia = "0.5-0"
 
 ["0.0.2-0.1"]
-ColorTypes = "0.0-0.7"
+ColorTypes = "0"
 
 ["0.1"]
-CUBLAS = "0.2"
+CUBLAS = "0.2-0"
 CUDAdrv = "0.5.1-0.6"
-CUDAnative = "0.4.1-1.0"
-CUDArt = "0.4"
-Interpolations = "0.0-0.11"
-IterTools = "0.1-1.1"
-Matcha = "0.0.2-0.1"
-OpenCL = "0.6-0.8"
+CUDAnative = "0.4.1-1"
+CUDArt = "0.4-0"
+Interpolations = "0"
+IterTools = "0-1"
+Matcha = "0.0.2-0"
+OpenCL = "0.6-0"
 Sugar = "0.3"
 Transpiler = "0.3"
-julia = "0.6-1.3"
+julia = "0.6-1"
 
 ["0.2"]
-julia = "0.6-0.7"
+julia = "0.6-0"
 
 ["0.2.1-0.6"]
-StaticArrays = "0.0-0.10"
+StaticArrays = "0"
 
 ["0.3-0.4"]
-julia = "0.7-1.3"
+julia = "0.7-1"
 
 ["0.3-0.6"]
-FFTW = "0.0-0.2"
+FFTW = "0"
 
 ["0.3.1-0.5"]
-FillArrays = "0.0-0.5"
+FillArrays = "0-0.5"
 
-["0.5-0.6"]
-julia = "1.0-1.3"
+["0.5-0"]
+julia = "1"
 
 ["0.6"]
-Adapt = "0.4.1-0.4.2"
 FillArrays = "0.3-0.5"
 
-["0.7"]
-Adapt = ["0.4.1-0.4"]
-FillArrays = ["0.3.0-0.3", "0.4.0-0.4", "0.5.0-0.5", "0.6.0-0.6"]
-julia = ["1.0.0-1"]
+["0.6-0"]
+Adapt = "0.4.1-0"
+
+["0.7-0"]
+FillArrays = "0.3-0"
