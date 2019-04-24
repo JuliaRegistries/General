@@ -5,7 +5,6 @@ BlockArrays = "0.8"
 BlockBandedMatrices = "0.4"
 Calculus = "0.1.15-0.4"
 DSP = "0.5.1-0.5.2"
-DomainSets = "0.0"
 FFTW = "0.2.4"
 FastGaussQuadrature = "0.3.2-0.3.3"
 FastTransforms = "0.4.2"
@@ -25,8 +24,17 @@ FillArrays = "0.5"
 LazyArrays = "0.7.1-0.8"
 julia = "0.7-1.3"
 
+["0.0.1-0.0.4"]
+DomainSets = "0.0"
+
 ["0.0.4"]
+julia = "0.7-1.1"
+
+["0.0.4-0.0.5"]
 DualNumbers = "0.6.2"
 FillArrays = "0.5-0.6"
 LazyArrays = "0.8"
-julia = "0.7-1.1"
+
+["0.0.5"]
+DomainSets = "0.0.2"
+julia = "0.7-1.3"
