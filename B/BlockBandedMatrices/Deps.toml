@@ -1,15 +1,15 @@
-["0.0-0.1"]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-
-["0.0-0.4"]
+[0]
 BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
 BlockArrays = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 
-["0.1-0.4"]
+["0-0.1"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["0.1-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
-["0.2-0.4"]
+["0.2-0"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 LazyArrays = "5078a376-72f3-5289-bfd5-ec5146d43c02"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -19,8 +19,8 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.3-0.4"]
+["0.3-0"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["0.4"]
+["0.4-0"]
 MatrixFactorizations = "a3b82374-2e81-5b9e-98ce-41277c0e4c87"
