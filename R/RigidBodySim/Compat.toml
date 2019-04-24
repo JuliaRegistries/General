@@ -1,49 +1,55 @@
+["0-0.1"]
+RigidBodyTreeInspector = "0.3.2-0"
+
+["0-0.2"]
+LoopThrottle = "0"
+Reexport = "0.1-0"
+julia = "0.6-0"
+
+[0-1]
+DiffEqCallbacks = "1-2"
+DocStringExtensions = "0.4.1-0"
+OrdinaryDiffEq = "3.0.1-5"
+
 ["0.0"]
-RigidBodyDynamics = "0.4-1.4"
-
-["0.0-0.1"]
-RigidBodyTreeInspector = "0.3.2-0.5"
-
-["0.0-0.2"]
-LoopThrottle = "0.0"
-Reexport = "0.1-0.2"
-julia = "0.6-0.7"
-
-["0.0-1.1"]
-DiffEqCallbacks = "1.0-2.5"
-DocStringExtensions = "0.4.1-0.7"
-OrdinaryDiffEq = "3.0.1-5.5"
+RigidBodyDynamics = "0.4-1"
 
 ["0.1"]
-RigidBodyDynamics = "0.5-1.4"
+RigidBodyDynamics = "0.5-1"
 
 ["0.2"]
-LCMCore = "0.2-0.5"
-MeshCatMechanisms = "0.0.3-0.3"
-RigidBodyTreeInspector = "0.4-0.5"
+LCMCore = "0.2-0"
+MeshCatMechanisms = "0.0.3-0"
+RigidBodyTreeInspector = "0.4-0"
 
-["0.2-1.1"]
-RigidBodyDynamics = "0.6-1.4"
+["0.2-1"]
+RigidBodyDynamics = "0.6-1"
 
-["0.3-1.0"]
-Blink = "0.7-0.10"
-Compat = "0.0-2.1"
-JSExpr = "0.1-0.5"
-julia = "0.6-1.3"
+["0.3-0"]
+Blink = "0.7-0"
+Compat = "0-2"
+JSExpr = "0"
+julia = "0.6-1"
 
-["0.3-1.1"]
-DiffEqBase = "3.4.1-5.6"
-DiffEqDiffTools = "0.0-0.8"
-ForwardDiff = "0.0-0.10"
-InteractBase = "0.1-0.10"
-MeshCatMechanisms = "0.1.1-0.3"
-Observables = "0.1.2-0.2"
+["0.3-1"]
+DiffEqBase = "3.4.1-5"
+DiffEqDiffTools = "0"
+ForwardDiff = "0"
+InteractBase = "0"
+MeshCatMechanisms = "0.1.1-0"
+Observables = "0.1.2-0"
 
-["1.0-1.1"]
-CSSUtil = "0.1"
-DataStructures = "0.2-0.15"
-WebIO = "0.2.6-0.8"
+[1]
+CSSUtil = "0.1-0"
+DataStructures = "0"
+WebIO = "0.2.6-0"
 
-["1.1"]
-Blink = "0.9-0.10"
-julia = "0.7-1.3"
+["1.0"]
+Blink = "0.7-0"
+Compat = "0-2"
+JSExpr = "0"
+julia = "0.6-1"
+
+["1.1-1"]
+Blink = "0.9-0"
+julia = "0.7-1"
