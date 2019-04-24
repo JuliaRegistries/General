@@ -1,13 +1,13 @@
-["0.0-0.2"]
-Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
-Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
-GraphViz = "16d363e1-28f1-5f2b-b949-57f6f2d5f8ba"
-
-["0.0-0.5"]
+[0]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 KernelDensityEstimate = "2472808a-b354-52ea-a80e-1658a3c6056d"
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
+
+["0-0.2"]
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
+GraphViz = "16d363e1-28f1-5f2b-b949-57f6f2d5f8ba"
 
 ["0.0.2-0.2.2"]
 TransformUtils = "9b8138ad-1b09-5408-aa39-e87ed6d21b63"
@@ -15,8 +15,11 @@ TransformUtils = "9b8138ad-1b09-5408-aa39-e87ed6d21b63"
 ["0.2.10-0.3"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
-["0.2.4-0.5"]
+["0.2.4-0"]
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+
+["0.2.6-0"]
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
 ["0.2.6-0.3"]
 JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
@@ -24,16 +27,13 @@ JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 ["0.2.6-0.4.0"]
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 
-["0.2.6-0.5"]
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
-
-["0.3.2-0.5"]
+["0.3.2-0"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 
-["0.3.8-0.5"]
+["0.3.8-0"]
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0.4-0.5"]
+["0.4-0"]
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -44,17 +44,17 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 ["0.4-0.5.4"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.4.4-0.5"]
+["0.4.4-0"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
-["0.4.7-0.5"]
+["0.4.7-0"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
 
-["0.5"]
+["0.5-0"]
 ApproxManifoldProducts = "9bbbb610-88a1-53cd-9763-118ce10c1f89"
 
-["0.5.5-0.5.6"]
+["0.5.5-0"]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
