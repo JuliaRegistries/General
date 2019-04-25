@@ -34,7 +34,7 @@ CUDAdrv = "0.7-0.8"
 ["0.4-0.8"]
 Adapt = "0-0.3"
 
-["0.5-1"]
+["0.5-1.0.1"]
 AbstractFFTs = "0"
 ForwardDiff = "0"
 MacroTools = "0"
@@ -52,7 +52,7 @@ julia = "0.7-1"
 ["0.7-0.8.0"]
 CUDAapi = "0.4-0"
 
-["0.7-1"]
+["0.7-1.0.1"]
 DiffRules = "0"
 
 ["0.8"]
@@ -74,13 +74,21 @@ NNlib = "0.4.3-0.5"
 ["0.9-1"]
 Adapt = "0.4-0"
 CUDAapi = "0.5.3-0"
-GPUArrays = "0.5-0.6"
 julia = "1"
 
-[1]
+["0.9-1.0.1"]
+GPUArrays = "0.5-0.6"
+
+["1-1.0.1"]
 CUDAdrv = "2"
 CUDAnative = "2.0"
 NNlib = "0.5"
 
-["1.0.1-1"]
+["1.0.1"]
 TimerOutputs = "0"
+
+["1.0.2-1"]
+CUDAdrv = "3"
+CUDAnative = "2"
+GPUArrays = "0.7-0"
+NNlib = "0.5-0"
