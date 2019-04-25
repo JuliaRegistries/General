@@ -10,7 +10,6 @@ DualNumbers = "0.4-0"
 FFTW = "0.2.4-0"
 FastGaussQuadrature = "0.3.2-0"
 FastTransforms = "0.4.2-0"
-InfiniteArrays = "0.0.3-0"
 IntervalSets = "0.3.1-0"
 LowRankApprox = "0.1.4-0"
 Reexport = "0.2-0"
@@ -24,7 +23,16 @@ ApproxFunBase = "0.0.2-0.0.3"
 FillArrays = "0.5"
 LazyArrays = "0.7.1-0"
 
+["0.0"]
+InfiniteArrays = "0.0.3-0"
+
 ["0.0.2-0"]
-ApproxFunBase = "0.0.3-0.0.4"
 FillArrays = "0.5-0"
 LazyArrays = "0.8-0"
+
+["0.0.2-0.0"]
+ApproxFunBase = "0.0.3-0.0.4"
+
+["0.1-0"]
+ApproxFunBase = "0.1-0"
+InfiniteArrays = "0.1-0"
