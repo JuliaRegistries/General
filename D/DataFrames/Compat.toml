@@ -13,18 +13,18 @@ DataArrays = "0.5-0.6"
 ["0.10-0.11.6"]
 julia = "0.6-0"
 
-["0.11-0"]
-DataStreams = "0.3-0"
-WeakRefStrings = "0.4-0.5"
-
 ["0.11-0.11.2"]
 CategoricalArrays = "0.3-0"
 Missings = "0.2.1-0"
 
+["0.11-0.17"]
+DataStreams = "0.3-0"
+WeakRefStrings = "0.4-0.5"
+
 ["0.11.2"]
 Compat = "0.36-2"
 
-["0.11.2-0"]
+["0.11.2-0.17"]
 CodecZlib = "0.4-0"
 
 ["0.11.3-0"]
@@ -41,19 +41,21 @@ CategoricalArrays = "0.3.3-0"
 
 ["0.11.6-0"]
 Compat = "0.59-2"
-TranscodingStreams = "0"
 
 ["0.11.6-0.11"]
 CategoricalArrays = "0.3.6-0"
 
+["0.11.6-0.17"]
+TranscodingStreams = "0"
+
 ["0.11.7-0.11"]
 julia = "0.6-1"
 
-["0.12-0"]
-julia = "0.7-1"
-
 ["0.12-0.13"]
 CategoricalArrays = "0.3.11-0"
+
+["0.12-0.17"]
+julia = "0.7-1"
 
 ["0.14"]
 IteratorInterfaceExtensions = "0"
@@ -78,6 +80,10 @@ Tables = "0.1.14-0"
 ["0.17.1-0"]
 Tables = "0.1.15-0"
 
+["0.18-0"]
+PooledArrays = "0.5-0"
+julia = "1"
+
 ["0.2-0.11.1"]
 GZip = "0"
 
@@ -87,7 +93,7 @@ julia = "0.2-0.5"
 ["0.3.11-0.5.4"]
 Blocks = "0"
 
-["0.3.12-0"]
+["0.3.12-0.17"]
 SortingAlgorithms = "0"
 
 ["0.4"]
@@ -120,7 +126,7 @@ DataArrays = "0-0.6"
 ["0.5.12-0.6.10"]
 Compat = "0-2"
 
-["0.5.4-0"]
+["0.5.4-0.17"]
 Reexport = "0"
 
 ["0.5.4-0.6.10"]
