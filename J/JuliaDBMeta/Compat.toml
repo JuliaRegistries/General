@@ -1,7 +1,3 @@
-[0]
-IterTools = "0-1"
-MacroTools = "0"
-
 ["0-0.2"]
 IndexedTables = "0.6-0"
 
@@ -9,12 +5,16 @@ IndexedTables = "0.6-0"
 Compat = "0-2"
 julia = "0.6-0"
 
-["0.2-0"]
-Dagger = "0"
-Reexport = "0"
+["0-0.4.1"]
+IterTools = "0-1"
+MacroTools = "0"
 
 ["0.2-0.3"]
 JuliaDB = "0.7-0"
+
+["0.2-0.4.1"]
+Dagger = "0"
+Reexport = "0"
 
 ["0.3"]
 IndexedTables = "0.7.2-0"
@@ -29,3 +29,9 @@ JuliaDB = "0.9-0"
 ["0.4.1-0"]
 IndexedTables = "0.9-0"
 JuliaDB = "0.10-0"
+
+["0.4.2-0"]
+Dagger = "0.7-0"
+IterTools = "1"
+MacroTools = "0.4-0"
+Reexport = "0.2-0"
