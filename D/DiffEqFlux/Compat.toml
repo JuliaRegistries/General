@@ -1,10 +1,15 @@
 [0]
+julia = "1"
+
+["0-0.4"]
 DiffEqBase = "0-5"
 DiffEqSensitivity = "0-3"
 DiffResults = "0"
 Flux = "0"
 ForwardDiff = "0"
-julia = "1"
 
-["0.4-0"]
+["0.4"]
 RecursiveArrayTools = "0"
+
+["0.5-0"]
+DiffEqBase = "5.6-5"
