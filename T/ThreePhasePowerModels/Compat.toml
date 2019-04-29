@@ -1,4 +1,4 @@
-[0]
+["0-0.1"]
 InfrastructureModels = "0.0.4-0"
 JuMP = "0.17-0.18"
 Memento = "0.8-0"
@@ -18,9 +18,15 @@ julia = "0.6"
 ["0.1.3"]
 PowerModels = "0.8.8-0.8"
 
-["0.1.3-0"]
+["0.1.3-0.1"]
 Compat = "1-2"
 julia = "0.6-1"
 
 ["0.1.4-0"]
 PowerModels = "0.9-0"
+
+["0.2-0"]
+InfrastructureModels = "0"
+JuMP = "0-0.18"
+Memento = "0"
+julia = "1"
