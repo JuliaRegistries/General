@@ -1,29 +1,29 @@
-["0.1"]
-MCMCChain = "0.1-0.2"
-StanMCMCChain = "0.3-4.1"
+[0]
+CSV = "0"
+CmdStan = ["1", "4-5"]
+DataFrames = "0"
+DataStructures = "0"
+Distributions = "0-0.18"
+GLM = "0-1"
+GR = "0"
+JLD = "0"
+Literate = "0-1"
+Optim = "0"
+Plots = "0"
+RDatasets = "0"
+Reexport = "0"
+StatisticalRethinking = "0"
+StatsBase = "0"
+StatsFuns = "0"
+StatsPlots = "0"
+julia = "1"
 
-["0.1-0.4"]
-CSV = "0.0-0.4"
-CmdStan = "1.0-5.0"
-DataFrames = "0.1-0.17"
-DataStructures = "0.2-0.15"
-Distributions = "0.1-0.18"
-GLM = "0.2-1.1"
-GR = "0.1-0.39"
-JLD = "0.5-0.9"
-Literate = "0.1-1.1"
-Optim = "0.1-0.18"
-Plots = "0.0-0.24"
-RDatasets = "0.0-0.6"
-Reexport = "0.0-0.2"
-StatisticalRethinking = "0.1-0.8"
-StatsBase = "0.1-0.29"
-StatsFuns = "0.0-0.8"
-StatsPlots = "0.10"
-julia = "1.0-1.3"
+["0-0.1"]
+MCMCChain = "0"
+StanMCMCChain = ["0", "4"]
+
+["0.2-0"]
+MCMCChains = "0"
 
 ["0.2-0.3"]
-StanMCMCChains = "5.0-5.1"
-
-["0.2-0.4"]
-MCMCChains = "0.2-0.3"
+StanMCMCChains = "5"

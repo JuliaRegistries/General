@@ -1,178 +1,188 @@
-["0.1"]
-julia = "0.1"
+["0-0.1"]
+julia = "0-0.1"
 
-["0.1-0.2.2"]
-Options = "0.1-0.2"
+["0-0.2.2"]
+Options = "0"
 
-["0.1-0.4.1"]
-StatsBase = "0.1-0.8.2"
+["0-0.4.1"]
+StatsBase = "0-0.8.2"
 
 ["0.10"]
 DataArrays = "0.5-0.6"
 
 ["0.10-0.11.6"]
-julia = "0.6-0.7"
+julia = "0.6-0"
+
+["0.11-0.11.2"]
+CategoricalArrays = "0.3-0"
+Missings = "0.2.1-0"
 
 ["0.11-0.17"]
-DataStreams = "0.3-0.4"
+DataStreams = "0.3-0"
 WeakRefStrings = "0.4-0.5"
 
-["0.11.0-0.11.2"]
-CategoricalArrays = "0.3-0.5"
-Missings = "0.2.1-0.4"
-
 ["0.11.2"]
-Compat = "0.36-2.1"
+Compat = "0.36-2"
 
 ["0.11.2-0.17"]
-CodecZlib = "0.4-0.5"
+CodecZlib = "0.4-0"
+
+["0.11.3-0"]
+Missings = "0.2.3-0"
 
 ["0.11.3-0.11.4"]
-CategoricalArrays = "0.3.2-0.5"
+CategoricalArrays = "0.3.2-0"
 
 ["0.11.3-0.11.5"]
-Compat = "0.40-2.1"
-
-["0.11.3-0.17"]
-Missings = "0.2.3-0.4"
+Compat = "0.40-2"
 
 ["0.11.5"]
-CategoricalArrays = "0.3.3-0.5"
+CategoricalArrays = "0.3.3-0"
 
-["0.11.6-0.11.7"]
-CategoricalArrays = "0.3.6-0.5"
+["0.11.6-0"]
+Compat = "0.59-2"
+
+["0.11.6-0.11"]
+CategoricalArrays = "0.3.6-0"
 
 ["0.11.6-0.17"]
-Compat = "0.59-2.1"
-TranscodingStreams = "0.1-0.9"
+TranscodingStreams = "0"
 
-["0.11.7"]
-julia = "0.6-1.3"
+["0.11.7-0.11"]
+julia = "0.6-1"
 
 ["0.12-0.13"]
-CategoricalArrays = "0.3.11-0.5"
+CategoricalArrays = "0.3.11-0"
 
 ["0.12-0.17"]
-julia = "0.7-1.3"
+julia = "0.7-1"
 
 ["0.14"]
-IteratorInterfaceExtensions = "0.0-0.1"
-TableTraits = "0.0-0.4"
+IteratorInterfaceExtensions = "0"
+TableTraits = "0"
 
 ["0.14-0.15"]
-CategoricalArrays = "0.3.14-0.5"
+CategoricalArrays = "0.3.14-0"
 
 ["0.14-0.16"]
-Tables = "0.1"
+Tables = "0"
 
-["0.15-0.17"]
-IteratorInterfaceExtensions = "0.1.1"
-TableTraits = "0.4"
+["0.15-0.18.0"]
+IteratorInterfaceExtensions = "0.1.1-0"
+TableTraits = "0.4-0"
 
-["0.16-0.17"]
-CategoricalArrays = "0.5.2"
+["0.16-0"]
+CategoricalArrays = "0.5.2-0"
 
 ["0.17.0"]
-Tables = "0.1.14-0.1.18"
+Tables = "0.1.14-0"
 
-["0.17.1"]
-Tables = "0.1.15-0.1.18"
+["0.17.1-0"]
+Tables = "0.1.15-0"
+
+["0.18-0"]
+PooledArrays = "0.5-0"
+julia = "1"
+
+["0.18.1-0"]
+IteratorInterfaceExtensions = "0.1.1-1"
+TableTraits = "0.4-1"
 
 ["0.2-0.11.1"]
-GZip = "0.1-0.5"
+GZip = "0"
 
 ["0.2-0.3"]
 julia = "0.2-0.5"
 
 ["0.3.11-0.5.4"]
-Blocks = "0.0-0.1"
+Blocks = "0"
 
 ["0.3.12-0.17"]
-SortingAlgorithms = "0.0-0.3"
+SortingAlgorithms = "0"
 
 ["0.4"]
-DataArrays = "0.0-0.6"
+DataArrays = "0-0.6"
 
-["0.4.0-0.4.2"]
-julia = "0.2-0.7"
+["0.4-0.4.2"]
+julia = "0.2-0"
 
 ["0.4.2"]
-Stats = "0.0-0.1"
+Stats = "0"
 
-["0.4.3"]
+["0.4.3-0.4"]
 StatsBase = "0.3.8-0.8.2"
 julia = "0.2"
 
 ["0.5.0"]
 DataArrays = "0.1-0.6"
 StatsBase = "0.3-0.8.2"
-julia = "0.2-0.7"
+julia = "0.2-0"
 
 ["0.5.1-0.5.3"]
-StatsBase = "0.1-0.8.2"
+StatsBase = "0-0.8.2"
 
 ["0.5.1-0.6.0"]
-julia = "0.3-0.7"
+julia = "0.3-0"
 
 ["0.5.1-0.6.5"]
-DataArrays = "0.0-0.6"
+DataArrays = "0-0.6"
 
 ["0.5.12-0.6.10"]
-Compat = "0.0-2.1"
+Compat = "0-2"
 
 ["0.5.4-0.17"]
-Reexport = "0.0-0.2"
+Reexport = "0"
 
 ["0.5.4-0.6.10"]
 StatsBase = "0.3.10-0.8.2"
 
 ["0.6.1-0.6.10"]
-julia = "0.3.4-0.7"
+julia = "0.3.4-0"
 
 ["0.6.11-0.7.0"]
-Compat = "0.7.12-2.1"
+Compat = "0.7.12-2"
 
 ["0.6.11-0.7.4"]
-StatsBase = "0.8.0-0.8.2"
+StatsBase = "0.8-0.8.2"
 
 ["0.6.11-0.8"]
-julia = "0.4-0.7"
+julia = "0.4-0"
 
 ["0.6.2-0.7.6"]
-Docile = "0.0-0.5"
+Docile = "0"
 
 ["0.6.6-0.7.3"]
 DataArrays = "0.2.15-0.6"
 
 ["0.7.1-0.7.2"]
-Compat = "0.7.17-2.1"
+Compat = "0.7.17-2"
 
 ["0.7.3-0.7.6"]
-Compat = "0.7.19-2.1"
+Compat = "0.7.19-2"
 
 ["0.7.4-0.9"]
 DataArrays = "0.3.4-0.6"
 
 ["0.7.5-0.8.3"]
-StatsBase = "0.8.3-0.29"
+StatsBase = "0.8.3-0"
 
-["0.7.7-0.7.8"]
-Compat = "0.8-2.1"
+["0.7.7-0.7"]
+Compat = "0.8-2"
 
 ["0.8"]
-Compat = "0.8.4-2.1"
+Compat = "0.8.4-2"
 
 ["0.8.1-0.10"]
-FileIO = "0.1.2-1.0"
+FileIO = "0.1.2-1"
 
-["0.8.4-0.17"]
-StatsBase = "0.11-0.30"
+["0.8.4-0"]
+StatsBase = "0.11-0"
 
-["0.8.5"]
-Juno = "0.2.4-0.7"
+["0.8.5-0.8"]
+Juno = "0.2.4-0"
 
 ["0.9"]
-julia = "0.5-0.7"
+julia = "0.5-0"
 
 ["0.9-0.10"]
-Compat = "0.18-2.1"
+Compat = "0.18-2"

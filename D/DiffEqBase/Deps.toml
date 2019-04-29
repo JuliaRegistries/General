@@ -1,4 +1,4 @@
-["0.0-5.6"]
+[0-5]
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 
@@ -8,7 +8,7 @@ Ranges = "f25983ca-f764-5a23-878c-030f91a0c122"
 ["0.1-1.8"]
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 
-["0.12-5.6"]
+["0.12-5"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
 ["0.3-3.13.1"]
@@ -26,10 +26,10 @@ Juno = "e5e0dc1b-0480-54bc-9374-aad01c23163d"
 ["1.7-1.9"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["2.0-4.6"]
+["2-4.6"]
 FunctionWrappers = "069b7b12-0de2-55c6-9aab-29f3d0a68a2e"
 
-["2.7-5.6"]
+["2.7-5"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["3.13.2"]
@@ -37,10 +37,8 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["3.13.3"]
+["3.13.3-3"]
 LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
-
-["3.13.3-4.0"]
 SimpleTraits = "699a6c99-e7fa-54fc-8d76-47d257e15c1d"
 
 ["3.13.3-4.4"]
@@ -49,32 +47,41 @@ NamedTuples = "73a701b4-84e1-5df0-88ff-1968ee2ee8dc"
 ["3.2-3.13.1"]
 NamedTuples = "73a701b4-84e1-5df0-88ff-1968ee2ee8dc"
 
-["3.2-5.6"]
+["3.2-5"]
 IteratorInterfaceExtensions = "82899510-4779-5014-852e-03e436cf321d"
 TableTraits = "3783bdb8-4a98-5b6b-af9a-565f29a5fe9c"
 
-["4.0-5.6"]
+[4-5]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["4-5.6"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["4.14-5.6"]
+["4.0"]
+SimpleTraits = "699a6c99-e7fa-54fc-8d76-47d257e15c1d"
+
+["4.14-5"]
 TreeViews = "a2a6695c-b41b-5b7d-aed9-dbfdeacea5d7"
 
-["4.24-5.6"]
+["4.24-5"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["4.28-5.6"]
+["4.28-5"]
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 
-["4.3-5.6"]
+["4.3-5"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["4.30.2-5.6"]
+["4.30.2-5"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
 
-["5.5.2-5.6"]
+["5.5.2-5"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 
 ["5.6"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+
+["5.7-5"]
+IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
+RecursiveFactorization = "f2c3362d-daeb-58d1-803e-2bc74f2840b4"

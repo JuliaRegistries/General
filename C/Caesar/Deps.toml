@@ -1,15 +1,4 @@
-["0.0"]
-ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
-Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
-DrakeVisualizer = "49c7015b-b8db-5bc5-841b-fcb31c578176"
-Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
-GeometryTypes = "4d00f742-c7ba-57c2-abde-4428a4b178cb"
-
-["0.0-0.1"]
-HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
-JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
-
-["0.0-0.3"]
+[0]
 CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 IncrementalInference = "904591bb-b899-562f-9e6f-b8df64c7d480"
@@ -19,55 +8,66 @@ RoME = "91fb55c2-4c03-5a59-ba21-f4ea956187b8"
 Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
 TransformUtils = "9b8138ad-1b09-5408-aa39-e87ed6d21b63"
 
-["0.0.2-0.0.5"]
-MeshIO = "7269a6da-0436-5bbc-96c2-40638cbb6118"
+["0-0.1"]
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 
-["0.0.2-0.3"]
+["0.0"]
+ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+DrakeVisualizer = "49c7015b-b8db-5bc5-841b-fcb31c578176"
+Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
+GeometryTypes = "4d00f742-c7ba-57c2-abde-4428a4b178cb"
+
+["0.0.2-0"]
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 
-["0.0.3-0.3"]
+["0.0.2-0.0"]
+MeshIO = "7269a6da-0436-5bbc-96c2-40638cbb6118"
+
+["0.0.3-0"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
-["0.0.4-0.0.5"]
-PyLCM = "0aa23630-203b-5143-82b5-c6be0bbd4ea8"
-
-["0.0.4-0.3"]
+["0.0.4-0"]
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
 
-["0.0.5"]
+["0.0.4-0.0"]
+PyLCM = "0aa23630-203b-5143-82b5-c6be0bbd4ea8"
+
+["0.0.5-0"]
+CloudGraphs = "39d38320-a18c-5735-a4f5-135970cd79b8"
+Neo4j = "d2adbeaf-5838-5367-8a2f-e46d570981db"
+
+["0.0.5-0.0"]
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 
 ["0.0.5-0.1"]
 LibBSON = "b5cb2838-5506-56c8-b038-21e3582abe5d"
 Mongo = "f08002d9-bb2c-5ca6-9977-d4081ea2ff9e"
 
-["0.0.5-0.3"]
-CloudGraphs = "39d38320-a18c-5735-a4f5-135970cd79b8"
-Neo4j = "d2adbeaf-5838-5367-8a2f-e46d570981db"
-
-["0.1-0.3"]
+["0.1-0"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 LCMCore = "0ea44823-1ff1-5b9a-8293-5fd55a38e746"
 
-["0.1.1-0.3"]
+["0.1.1-0"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
-["0.2-0.3"]
+["0.2-0"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 Mongoc = "4fe8b98c-fc19-5c23-8ec2-168ff83495f2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.2.1-0.3"]
+["0.2.1-0"]
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 Unmarshal = "cbff2730-442d-58d7-89d1-8e530c41eb02"
 ZMQ = "c2297ded-f4af-51ae-bb23-16f91089e4e1"
 
-["0.2.2-0.3"]
+["0.2.2-0"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
@@ -75,13 +75,13 @@ Profile = "9abbd945-dff8-562f-b5e8-e1ebf5ef1b79"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 
-["0.2.4-0.3"]
+["0.2.4-0"]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-["0.2.5-0.3"]
+["0.2.5-0"]
 Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
 
-["0.3"]
+["0.3-0"]
 ApproxManifoldProducts = "9bbbb610-88a1-53cd-9763-118ce10c1f89"

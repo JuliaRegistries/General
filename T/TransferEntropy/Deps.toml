@@ -1,11 +1,4 @@
-["0.1"]
-Cubature = "667455a9-e2ce-5579-9412-b964f529a492"
-GroupSlices = "d853e229-7c7c-56e9-b6be-9a1acc5f13d9"
-
-["0.1-0.3"]
-Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
-
-["0.1-0.4"]
+[0]
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
@@ -15,12 +8,19 @@ Simplices = "d5428e67-3037-59ba-9ab1-57a04f0a3b6a"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StateSpaceReconstruction = "1441a9f6-6a74-5418-a591-cdf1d78a07f0"
 
-["0.2-0.4"]
+["0-0.1"]
+Cubature = "667455a9-e2ce-5579-9412-b964f529a492"
+GroupSlices = "d853e229-7c7c-56e9-b6be-9a1acc5f13d9"
+
+["0-0.3"]
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+
+["0.2-0"]
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.4"]
+["0.4-0"]
 CausalityToolsBase = "b1f25513-c649-51ee-8a1c-0e98d01ae897"
 DelayEmbeddings = "5732040d-69e3-5649-938a-b6b4f237613f"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"

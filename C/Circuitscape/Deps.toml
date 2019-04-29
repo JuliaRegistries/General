@@ -1,24 +1,32 @@
-["0.0"]
-Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
-
-["0.0-5.5"]
+[0]
 GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
 IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 
-["0.0.1"]
+["0-0.0.1"]
 PyAMG = "80c87078-a4c8-5101-a93a-266e81f0cc5f"
 
-["0.0.2-5.3"]
-AMG = "535d4fb6-d431-5a58-8b37-282db8e447d6"
+["0.0"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
-["0.0.2-5.5"]
+["0.0.2-0"]
+AMG = "535d4fb6-d431-5a58-8b37-282db8e447d6"
 SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
 
-["0.1-5.3"]
+["0.1-0"]
 Memento = "f28f55f0-a522-5efc-85c2-fe41dfb9b2d9"
 
-["5.4-5.5"]
+[5]
+GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
+IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
+
+["5-5.3"]
+AMG = "535d4fb6-d431-5a58-8b37-282db8e447d6"
+Memento = "f28f55f0-a522-5efc-85c2-fe41dfb9b2d9"
+
+["5.4-5"]
 AlgebraicMultigrid = "2169fc97-5a83-5252-b627-83903c6c433c"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
