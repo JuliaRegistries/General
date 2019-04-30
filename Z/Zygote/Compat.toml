@@ -1,4 +1,7 @@
-[0]
+["0-0.1"]
+julia = "0.7-1"
+
+["0-0.2"]
 DiffRules = "0"
 ForwardDiff = "0"
 MacroTools = "0"
@@ -7,9 +10,12 @@ NaNMath = "0"
 Requires = "0"
 SpecialFunctions = "0"
 
-["0-0.1"]
-julia = "0.7-1"
+["0.2"]
+IRTools = "0"
 
 ["0.2-0"]
-IRTools = "0"
 julia = "1"
+
+["0.3-0"]
+IRTools = "0.2-0"
+NNlib = "0.6-0"
