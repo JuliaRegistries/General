@@ -6,7 +6,15 @@ NLsolve = "0-4"
 Parameters = "0"
 PowerDynBase = "0"
 RecipesBase = "0"
+
+[0-1]
 julia = "1"
 
 ["0.4.1-0"]
 PowerDynOperationPoint = "0.2-0"
+
+[1]
+DiffEqBase = "5.6.2-5"
+OrdinaryDiffEq = "5"
+PowerDynBase = "1"
+PowerDynOperationPoint = "1"
