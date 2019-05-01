@@ -27,7 +27,7 @@ julia = "0.6-0"
 ["0.2-0"]
 RCall = "0.7.4-0"
 
-["0.2.1-0"]
+["0.2.1-0.4.0"]
 DataFrames = "0"
 
 ["0.2.2-0.2"]
@@ -38,10 +38,17 @@ RLEVectors = "0.5-0"
 julia = "0.7-1"
 
 ["0.3-0"]
-BioAlignments = "1"
 GenomicFeatures = "1"
+
+["0.3-0.4.0"]
+BioAlignments = "1"
 RLEVectors = "0.7.1-0"
 
 ["0.4-0"]
-OrderedCollections = "0-1"
 julia = "1"
+
+["0.4.0"]
+OrderedCollections = "0-1"
+
+["0.4.1-0"]
+BioAlignments = "0-1"
