@@ -27,26 +27,26 @@ Compat = "0.36-2"
 ["0.11.2-0.17"]
 CodecZlib = "0.4-0"
 
-["0.11.3-0"]
-Missings = "0.2.3-0"
-
 ["0.11.3-0.11.4"]
 CategoricalArrays = "0.3.2-0"
 
 ["0.11.3-0.11.5"]
 Compat = "0.40-2"
 
+["0.11.3-0.18.1"]
+Missings = "0.2.3-0"
+
 ["0.11.5"]
 CategoricalArrays = "0.3.3-0"
-
-["0.11.6-0"]
-Compat = "0.59-2"
 
 ["0.11.6-0.11"]
 CategoricalArrays = "0.3.6-0"
 
 ["0.11.6-0.17"]
 TranscodingStreams = "0"
+
+["0.11.6-0.18.1"]
+Compat = "0.59-2"
 
 ["0.11.7-0.11"]
 julia = "0.6-1"
@@ -71,22 +71,34 @@ Tables = "0"
 IteratorInterfaceExtensions = "0.1.1-0"
 TableTraits = "0.4-0"
 
-["0.16-0"]
+["0.16-0.18.1"]
 CategoricalArrays = "0.5.2-0"
 
 ["0.17.0"]
 Tables = "0.1.14-0"
 
-["0.17.1-0"]
+["0.17.1-0.18.1"]
 Tables = "0.1.15-0"
 
 ["0.18-0"]
-PooledArrays = "0.5-0"
 julia = "1"
 
-["0.18.1-0"]
+["0.18-0.18.1"]
+PooledArrays = "0.5-0"
+
+["0.18.1"]
 IteratorInterfaceExtensions = "0.1.1-1"
 TableTraits = "0.4-1"
+
+["0.18.2-0"]
+CategoricalArrays = "0.5.2-*"
+Compat = "0.59.0-*"
+IteratorInterfaceExtensions = "0.1.1-*"
+Missings = "0.2.3-*"
+PooledArrays = "0.5.0-*"
+StatsBase = "0.11.0-*"
+TableTraits = "0.4.0-*"
+Tables = "0.1.15-*"
 
 ["0.2-0.11.1"]
 GZip = "0"
@@ -175,7 +187,7 @@ Compat = "0.8.4-2"
 ["0.8.1-0.10"]
 FileIO = "0.1.2-1"
 
-["0.8.4-0"]
+["0.8.4-0.18.1"]
 StatsBase = "0.11-0"
 
 ["0.8.5-0.8"]
