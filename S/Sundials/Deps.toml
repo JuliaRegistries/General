@@ -3,6 +3,8 @@ BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 
 [0-3]
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+
+["0-3.3"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 ["0.14.3-3"]
@@ -20,7 +22,10 @@ Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 [1-3]
 BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 
-[2-3]
+["2-3.3"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["3.4-3"]
+SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
