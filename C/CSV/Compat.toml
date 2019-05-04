@@ -50,12 +50,12 @@ Compat = "0.9.5-2"
 ["0.2"]
 julia = "0.6-0"
 
-["0.2-0"]
-CategoricalArrays = "0.3-0"
-DataStreams = "0.3-0"
-
 ["0.2-0.2.4"]
 WeakRefStrings = "0.4-0.5"
+
+["0.2-0.4"]
+CategoricalArrays = "0.3-0"
+DataStreams = "0.3-0"
 
 ["0.2-0.4.0"]
 DataFrames = "0.11-0"
@@ -69,23 +69,32 @@ Compat = "0.59-2"
 ["0.2.3-0.3"]
 Missings = "0"
 
-["0.2.5-0"]
-WeakRefStrings = "0.4.1-0.5"
-
 ["0.2.5-0.3"]
 InternedStrings = "0.6-0"
 
-["0.3-0"]
+["0.2.5-0.4"]
+WeakRefStrings = "0.4.1-0.5"
+
+["0.3-0.4"]
 julia = "0.7-1"
 
-["0.4-0"]
+["0.4"]
 Tables = "0"
 
-["0.4.1-0"]
+["0.4.1-0.4"]
 DataFrames = "0.14-0"
 
 ["0.4.1-0.4.2"]
 Parsers = "0-0.2"
 
-["0.4.3-0"]
+["0.4.3-0.4"]
 Parsers = "0.2.14-0.2"
+
+["0.5-0"]
+CategoricalArrays = "0.5"
+DataFrames = "0.18"
+Parsers = "0.3"
+PooledArrays = "0.5"
+Tables = "0.1-0.2"
+WeakRefStrings = "0.5-0.6"
+julia = "1"
