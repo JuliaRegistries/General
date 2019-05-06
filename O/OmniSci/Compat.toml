@@ -1,9 +1,18 @@
-[0]
+["0-0.3"]
 DataFrames = "0.14.1-0"
 Thrift = "0.6-0"
 julia = "1.0.1-1"
 
-["0.2-0"]
+["0.2-0.3"]
 DecFP = "0.4.6-0"
 GeoInterface = "0.4-0"
 LibGEOS = "0.4.1-0"
+
+["0.4-0"]
+DataFrames = "0.17.0-*"
+DecFP = "0.4.8-*"
+Decimals = "0.3.1-*"
+GeoInterface = "0.4.0-*"
+LibGEOS = "0.4.1-*"
+Thrift = "0.6.0-*"
+julia = "1.0.1-*"
