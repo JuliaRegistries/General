@@ -6,7 +6,7 @@ NearestNeighbors = "0"
 Reexport = "0"
 julia = "0.6-0"
 
-["0.2-0"]
+["0.2-0.3.0"]
 Distances = "0.7.3-0"
 GeoStatsBase = "0.2.2-0"
 GeoStatsDevTools = "0.2-0"
@@ -15,5 +15,15 @@ Reexport = "0.2-0"
 StaticArrays = "0.8.3-0"
 julia = "0.7-1"
 
-["0.3-0"]
+["0.3.0"]
 Variography = "0.3.2-0"
+
+["0.3.1-0"]
+Distances = "0.7.3-*"
+GeoStatsBase = "0.4.2-*"
+GeoStatsDevTools = "0.4.3-*"
+NearestNeighbors = "0.4.1-*"
+Reexport = "0.2.0-*"
+StaticArrays = "0.8.3-*"
+Variography = "0.3.6-*"
+julia = "1"
