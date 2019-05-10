@@ -4,7 +4,7 @@ RecursiveArrayTools = "0-0.3"
 ["0-1.9"]
 julia = "0.5-0"
 
-[0-5]
+["0-5.7"]
 RecipesBase = "0.1-0"
 
 ["0.0.2-1.9"]
@@ -46,7 +46,7 @@ LinearMaps = "0-2"
 ["1.2-2.6"]
 Juno = "0"
 
-["1.23.1-5"]
+["1.23.1-5.7"]
 RecursiveArrayTools = "0.12.3-0"
 
 ["1.7-1.9"]
@@ -99,7 +99,7 @@ julia = "0.7-1"
 ["4.22-5"]
 julia = "1"
 
-["4.24-5"]
+["4.24-5.7"]
 StaticArrays = "0.8.3-0"
 
 ["4.28-5.6"]
@@ -112,6 +112,15 @@ TableTraits = "0.3-0"
 ["5.5.2-5.6"]
 DocStringExtensions = "0"
 
-["5.7-5"]
+["5.7"]
 IteratorInterfaceExtensions = "0.1-1"
 TableTraits = "0.3-1"
+
+["5.8-5"]
+IteratorInterfaceExtensions = "0.1.0-*"
+MuladdMacro = "0.2.1-*"
+Parameters = "0.10.0-*"
+RecipesBase = "0.1.0-*"
+RecursiveArrayTools = "0.12.3-*"
+StaticArrays = "0.8.3-*"
+TableTraits = "0.3.0-*"
