@@ -1,7 +1,4 @@
 [0]
-julia = "0.6-0"
-
-[0-1]
 Blink = "0"
 Colors = "0"
 Distances = "0"
@@ -9,7 +6,18 @@ JLD = "0"
 MultivariateStats = "0"
 Plotly = "0"
 PlotlyJS = "0"
+julia = "0.6-0"
 
-[1]
+["1.0"]
+Blink = "0"
 CSV = "0"
+Colors = "0"
+Distances = "0"
+JLD = "0"
+MultivariateStats = "0"
+Plotly = "0"
+PlotlyJS = "0"
 julia = "0.7-1"
+
+["1.1-1"]
+julia = "1"
