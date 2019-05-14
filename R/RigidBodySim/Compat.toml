@@ -6,7 +6,7 @@ LoopThrottle = "0"
 Reexport = "0.1-0"
 julia = "0.6-0"
 
-[0-1]
+["0-1.1"]
 DiffEqCallbacks = "1-2"
 DocStringExtensions = "0.4.1-0"
 OrdinaryDiffEq = "3.0.1-5"
@@ -22,7 +22,7 @@ LCMCore = "0.2-0"
 MeshCatMechanisms = "0.0.3-0"
 RigidBodyTreeInspector = "0.4-0"
 
-["0.2-1"]
+["0.2-1.1"]
 RigidBodyDynamics = "0.6-1"
 
 ["0.3-0"]
@@ -31,7 +31,7 @@ Compat = "0-2"
 JSExpr = "0"
 julia = "0.6-1"
 
-["0.3-1"]
+["0.3-1.1"]
 DiffEqBase = "3.4.1-5"
 DiffEqDiffTools = "0"
 ForwardDiff = "0"
@@ -39,7 +39,7 @@ InteractBase = "0"
 MeshCatMechanisms = "0.1.1-0"
 Observables = "0.1.2-0"
 
-[1]
+["1-1.1"]
 CSSUtil = "0.1-0"
 DataStructures = "0"
 WebIO = "0.2.6-0"
@@ -50,6 +50,19 @@ Compat = "0-2"
 JSExpr = "0"
 julia = "0.6-1"
 
-["1.1-1"]
+["1.1"]
 Blink = "0.9-0"
 julia = "0.7-1"
+
+["1.2-1"]
+Blink = "0.9.0-*"
+CSSUtil = "0.1.0-*"
+DiffEqBase = "3.4.1-*"
+DiffEqCallbacks = "1.0.0-*"
+DocStringExtensions = "0.4.1-*"
+MeshCatMechanisms = "0.1.1-*"
+Observables = "0.1.2-*"
+OrdinaryDiffEq = "3.0.1-*"
+RigidBodyDynamics = "0.6.0-*"
+WebIO = "0.2.6-*"
+julia = "0.7.0-*"
