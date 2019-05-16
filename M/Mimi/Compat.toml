@@ -61,9 +61,6 @@ VegaLite = "0"
 ["0.6"]
 julia = "1"
 
-["0.6-0"]
-GraphPlot = "0.3-0"
-
 ["0.6-0.8.5"]
 CSVFiles = "0"
 Compose = "0"
@@ -79,11 +76,20 @@ MetaGraphs = "0"
 NamedArrays = "0"
 ProgressMeter = "0"
 
+["0.6-0.8.6"]
+GraphPlot = "0.3-0"
+
 ["0.6.0"]
 Documenter = "0"
 
-["0.7-0"]
+["0.7-0.8.6"]
 julia = "1.1-1"
 
 ["0.8-0.8.5"]
 GlobalSensitivityAnalysis = "0"
+
+["0.8.7-0"]
+GraphPlot = "0.3"
+IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
+TableTraits = ["0.4.1-0.4", "1"]
+julia = "1"
