@@ -2,7 +2,7 @@
 Compat = "0-2"
 DiffResults = "0"
 
-[0-1]
+["0-1.0.4"]
 ArgCheck = "0-1"
 DataStructures = "0"
 DocStringExtensions = "0"
@@ -12,14 +12,18 @@ StatsFuns = "0"
 ["0.0"]
 julia = "0.6-0"
 
-["0.1-1"]
+["0.1-1.0.4"]
 julia = "0.7-1"
-
-["0.2-1"]
-TransformVariables = "0"
 
 ["0.2-1.0.3"]
 LogDensityProblems = "0"
 
-["1.0.4-1"]
+["0.2-1.0.4"]
+TransformVariables = "0"
+
+["1.0.4"]
 LogDensityProblems = "0.8-0"
+
+["1.0.5-1"]
+LogDensityProblems = "0.8.0-*"
+julia = "1"
