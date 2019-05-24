@@ -105,22 +105,24 @@ StaticArrays = "0.8.3-0"
 ["4.28-5.6"]
 Roots = "0"
 
-["4.5-5.6"]
+["4.5-5.7"]
 IteratorInterfaceExtensions = "0.1-1"
 TableTraits = "0.3-1"
 
 ["5.5.2-5.6"]
 DocStringExtensions = "0"
 
-["5.7"]
-IteratorInterfaceExtensions = "0.1-1"
-TableTraits = "0.3-1"
-
 ["5.8-5"]
-IteratorInterfaceExtensions = "0.1.0-1"
 MuladdMacro = "0.2.1-*"
 Parameters = "0.10.0-*"
 RecipesBase = "0.1.0-*"
 RecursiveArrayTools = "0.12.3-*"
 StaticArrays = "0.8.3-*"
+
+["5.8.0"]
+IteratorInterfaceExtensions = "0.1.0-1"
 TableTraits = "0.3.0-1"
+
+["5.8.1-5"]
+IteratorInterfaceExtensions = ["0.1", "1"]
+TableTraits = ["0.3-0.4", "1"]
