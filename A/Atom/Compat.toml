@@ -1,27 +1,27 @@
-[0]
-CodeTools = "0"
-Hiccup = "0"
-JSON = "0"
-LNR = "0"
-Media = "0"
-
 ["0-0.4"]
 julia = "0.4-0"
 
 ["0-0.5.2"]
 Lazy = "0"
 
-["0.3-0"]
-Reexport = "0"
+["0-0.8.5"]
+CodeTools = "0"
+Hiccup = "0"
+JSON = "0"
+LNR = "0"
+Media = "0"
 
 ["0.3-0.6"]
 Blink = "0"
 
-["0.4.1-0"]
-MacroTools = "0"
+["0.3-0.8.5"]
+Reexport = "0"
 
 ["0.4.1-0.5.2"]
 Requires = "0"
+
+["0.4.1-0.8.5"]
+MacroTools = "0"
 
 ["0.5"]
 julia = "0.5-0"
@@ -33,7 +33,7 @@ Gallium = "0"
 ["0.5.1-0.5.8"]
 Juno = "0"
 
-["0.5.3-0"]
+["0.5.3-0.8.5"]
 Lazy = "0.11.3-0"
 
 ["0.5.9-0.6.13"]
@@ -48,19 +48,19 @@ Juno = "0.4.1-0"
 ["0.6.16-0.6"]
 julia = "0.6"
 
-["0.6.2-0"]
+["0.6.2-0.8.5"]
 DocSeeker = "0"
 
 ["0.6.3-0.7"]
 ASTInterpreter2 = "0"
 
-["0.7-0"]
-julia = "0.7-1"
-
 ["0.7-0.7.1"]
 TreeViews = "0"
 
-["0.7.11-0"]
+["0.7-0.8.5"]
+julia = "0.7-1"
+
+["0.7.11-0.8.5"]
 WebIO = "0.6-0"
 WebSockets = "0-1"
 
@@ -68,21 +68,21 @@ WebSockets = "0-1"
 DebuggerFramework = "0"
 Juno = "0.5.4-0"
 
-["0.7.2-0"]
-TreeViews = "0.3-0"
-
 ["0.7.2-0.7.12"]
 Juno = "0.5.1-0"
 
-["0.7.7-0"]
-HTTP = "0"
-Requires = "0"
+["0.7.2-0.8.5"]
+TreeViews = "0.3-0"
 
 ["0.7.7-0.7.10"]
 WebIO = "0.4-0"
 WebSockets = "1.0.3-1"
 
-["0.7.9-0"]
+["0.7.7-0.8.5"]
+HTTP = "0"
+Requires = "0"
+
+["0.7.9-0.8.5"]
 Traceur = "0"
 
 ["0.8-0.8.1"]
@@ -92,9 +92,23 @@ Juno = "0.6-0"
 CodeTracking = "0.4-0.5"
 JuliaInterpreter = "0.3-0.5"
 
-["0.8.2-0"]
+["0.8.2-0.8.5"]
 Juno = "0.7-0"
 
-["0.8.4-0"]
+["0.8.4-0.8.5"]
 CodeTracking = "0.5.0-0.5"
 JuliaInterpreter = "0.4-0.5"
+
+["0.8.6-0"]
+CodeTools = "0.6.4-0.6"
+CodeTracking = "0.5.7-0.5"
+HTTP = "0.8"
+Hiccup = "0.2.2-0.2"
+JSON = "0.20"
+JuliaInterpreter = "0.6"
+Juno = "0.7"
+Lazy = "0.13"
+MacroTools = "0.5"
+TreeViews = "0.3"
+WebIO = "0.8.1-0.8"
+julia = "0.7.0-*"
