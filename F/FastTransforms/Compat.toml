@@ -5,20 +5,20 @@ julia = "0.4-0"
 Compat = "0.8.4-2"
 ToeplitzMatrices = "0-0.3"
 
-["0.1-0"]
-Compat = "0.17-2"
-
 ["0.1-0.2"]
 julia = "0.5-0"
 
 ["0.1-0.3"]
 ToeplitzMatrices = "0.2-0.3"
 
-["0.2-0"]
-ProgressMeter = "0.3.4-0"
+["0.1-0.4"]
+Compat = "0.17-2"
 
 ["0.2-0.3.0"]
 LowRankApprox = "0.0.2-0"
+
+["0.2-0.4"]
+ProgressMeter = "0.3.4-0"
 
 ["0.2.0"]
 HierarchicalMatrices = "0-0.1.0"
@@ -29,21 +29,33 @@ HierarchicalMatrices = "0.0.2-0.1.0"
 ["0.3"]
 julia = "0.6-0"
 
-["0.3-0"]
-SpecialFunctions = "0.3.4-0"
-
 ["0.3-0.3.1"]
 HierarchicalMatrices = "0.1.0"
 
-["0.3.1-0"]
+["0.3-0.4"]
+SpecialFunctions = "0.3.4-0"
+
+["0.3.1-0.4"]
 LowRankApprox = "0.1.1-0"
 
-["0.3.2-0"]
+["0.3.2-0.4"]
 HierarchicalMatrices = "0.1.1-0"
 
-["0.4-0"]
+["0.4"]
 AbstractFFTs = "0.3.1-0"
 DSP = "0.4-0"
 FFTW = "0.0.4-0"
 ToeplitzMatrices = "0.4-0"
 julia = "0.6-1"
+
+["0.5-0"]
+AbstractFFTs = "0.3.1-*"
+Compat = "0.17.0-*"
+DSP = "0.4.0-*"
+FFTW = "0.0.4-*"
+HierarchicalMatrices = "0.1.1-*"
+LowRankApprox = "0.1.1-*"
+ProgressMeter = "0.3.4-*"
+SpecialFunctions = "0.3.4-*"
+ToeplitzMatrices = "0.4.0-*"
+julia = ["0.7", "1"]
