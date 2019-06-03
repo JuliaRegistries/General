@@ -27,11 +27,11 @@ Compat = "0.7.7-2"
 ["0.1.7-0.1"]
 Compat = "0.8.4-2"
 
-["0.1.8-0"]
-ColorTypes = "0.2.7-0"
-
 ["0.1.8-0.1"]
 FixedPointNumbers = "0.1.8-0.2"
+
+["0.1.8-0.7.3"]
+ColorTypes = "0.2.7-0"
 
 ["0.2-0.4"]
 julia = "0.5-0"
@@ -50,13 +50,20 @@ Images = "0.6-0.17"
 ["0.5"]
 julia = "0.6-0"
 
-["0.7-0"]
-BinaryProvider = "0.3-0"
-ImageCore = "0.1-0.8"
-
 ["0.7-0.7.1"]
 julia = "0.7-1"
 
-["0.7.3-0"]
+["0.7-0.7.3"]
+BinaryProvider = "0.3-0"
+ImageCore = "0.1-0.8"
+
+["0.7.3"]
 FixedPointNumbers = "0.3-0"
 julia = "1"
+
+["0.7.4-0"]
+BinaryProvider = "0.3.0-*"
+ColorTypes = "0.2.7-*"
+FixedPointNumbers = "0.3.0-*"
+ImageCore = "0.7.0-*"
+julia = "1.0.0-*"
