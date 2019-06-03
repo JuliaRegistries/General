@@ -1,4 +1,9 @@
-[0]
+["0-0.0.1"]
+AbstractPlotting = "0"
+GeometryTypes = "0.4.5-0"
+Makie = "0"
+
+["0-0.0.7"]
 BinaryProvider = "0"
 ColorTypes = "0"
 ColorVectorSpace = "0-0.6"
@@ -18,20 +23,22 @@ QuartzImageIO = "0"
 RDatasets = "0"
 julia = "0.7-1"
 
-["0-0.0.1"]
-AbstractPlotting = "0"
-GeometryTypes = "0.4.5-0"
-Makie = "0"
-
-["0.0.2-0"]
+["0.0.2-0.0.7"]
 AbstractPlotting = "0.9.1-0"
 GeometryTypes = "0.7.2-0"
 
-["0.0.3-0"]
+["0.0.3-0.0.7"]
 StatsMakie = "0"
 
-["0.0.4-0"]
+["0.0.4-0.0.7"]
 ZipFile = "0"
 
-["0.0.5-0"]
+["0.0.5-0.0.7"]
 ColorSchemes = "0-3"
+
+["0.0.8-0"]
+AbstractPlotting = "0.9.1-*"
+GeometryTypes = "0.7.2-*"
+ImageCore = "0.7.0-*"
+StatsMakie = "0.0.6-*"
+julia = "1.0.0-*"
