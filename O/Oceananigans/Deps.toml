@@ -13,16 +13,21 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 ["0.5.2-0"]
-CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
 CUDAdrv = "c5f51814-7f29-56b8-a69c-e4d8f6be1fde"
 CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
 CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 
-["0.5.3-0"]
+["0.5.2-0.5"]
+CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
+
+["0.5.3-0.5"]
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 
 ["0.5.4-0"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["0.6-0"]
+OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
