@@ -1,4 +1,7 @@
-[0]
+["0-0.0.1"]
+KernelDensityEstimate = "0.4.2-0"
+
+["0.0"]
 CoordinateTransformations = "0.5-0"
 DocStringExtensions = "0.5-0"
 NLsolve = "3-4"
@@ -6,11 +9,18 @@ Optim = "0"
 Reexport = "0.2-0"
 Requires = "0"
 TransformUtils = "0.2.2-0"
-
-["0-0.0.1"]
-KernelDensityEstimate = "0.4.2-0"
 julia = "0.7-1"
 
-["0.0.2-0"]
+["0.0.2-0.0"]
 KernelDensityEstimate = "0.4.3-0"
-julia = "0.7-1"
+
+["0.1-0"]
+CoordinateTransformations = "0.5.0-*"
+DocStringExtensions = "0.5.0-*"
+KernelDensityEstimate = "0.5.0-*"
+NLsolve = "3.0.0-*"
+Optim = "0.16.0-*"
+Reexport = "0.2.0-*"
+Requires = "0.5.0-*"
+TransformUtils = "0.2.2-*"
+julia = ["0.7", "1"]
