@@ -1,19 +1,25 @@
-[0]
-Parameters = "0"
-Reexport = "0"
-
 ["0-0.1"]
 JuLIP = "0.4-0"
 NeighbourLists = "0"
 julia = "0.6"
 
+["0-0.3"]
+Parameters = "0"
+Reexport = "0"
+
 ["0-0.3.0"]
 PyCall = "0-1"
 
-["0.3-0"]
+["0.3"]
 JuLIP = "0.6-0"
 NeighbourLists = "0.3-0"
 julia = "0.7-1"
 
-["0.3.1-0"]
+["0.3.1-0.3"]
 PyCall = "1.90-1"
+
+["0.4-0"]
+JuLIP = "0.6.0-*"
+NeighbourLists = "0.3.0-*"
+PyCall = "1.90.0-*"
+julia = ["0.7", "1"]
