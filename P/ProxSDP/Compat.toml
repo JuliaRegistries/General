@@ -7,16 +7,20 @@ julia = "0.6"
 TimerOutputs = "0.4-0"
 
 ["0.1-0"]
-Compat = "1-2"
 julia = "1"
 
 ["0.1-0.2.0"]
 Arpack = "0.3-0"
 MathOptInterface = "0.8.2-0"
 
-["0.2-0"]
+["0.1-0.2.1"]
+Compat = "1-2"
+
+["0.2-0.2.1"]
 TimerOutputs = "0.4"
 
-["0.2.1-0"]
+["0.2.1"]
 Arpack = "0.3"
+
+["0.2.1-0"]
 MathOptInterface = "0.8.2-0.8"
