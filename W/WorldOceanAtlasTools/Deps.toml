@@ -1,7 +1,13 @@
 [0]
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
 Match = "7eb4fadd-790c-5f42-8a69-bfa0b872bfbf"
-Memoize = "c03570c3-d221-55d1-a50c-7939bbd78826"
 NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+["0-0.2"]
+Memoize = "c03570c3-d221-55d1-a50c-7939bbd78826"
+
+["0.3-0"]
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
+OceanGrids = "cfe838f4-859f-11e9-2ea1-df7d4e7c3537"
