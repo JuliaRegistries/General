@@ -1,5 +1,4 @@
 [0]
-Arpack = "0.3-0"
 julia = "1"
 
 ["0-0.1.0"]
@@ -9,9 +8,19 @@ NearestNeighborDescent = "0.1.4-0"
 Distances = "0.7-0"
 LsqFit = "0.6-0"
 
-["0.1.1-0"]
+["0-0.1.3"]
+Arpack = "0.3-0"
+
+["0.1.1-0.1.3"]
 NearestNeighborDescent = "0.2-0"
 
-["0.1.3-0"]
+["0.1.3"]
 Distances = "0.8-0"
+
+["0.1.3-0"]
 LsqFit = "0.6"
+
+["0.1.4-0"]
+Arpack = "0.3"
+Distances = "0.8"
+NearestNeighborDescent = "0.2"
