@@ -77,7 +77,7 @@ julia = "1"
 ["0.4.4"]
 GeoStatsBase = "0.4.1-*"
 
-["0.4.4-0"]
+["0.4.4-0.4"]
 CSV = "0.2.0-*"
 DataFrames = "0.11.5-*"
 Distances = "0.5.0-*"
@@ -87,5 +87,9 @@ RecipesBase = "0.2.3-*"
 Reexport = "0.2.0-*"
 StaticArrays = "0.7.0-*"
 
-["0.4.5-0"]
+["0.4.5-0.4"]
 GeoStatsBase = "0.4.3-*"
+
+["0.5-0"]
+GeoStatsBase = "0.5"
+Reexport = "0.2"
