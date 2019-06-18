@@ -8,9 +8,17 @@ julia = "0.4-0"
 ["0-0.8"]
 MacroTools = "0.3-0"
 
-["0.10-0"]
+["0.10"]
 ModelingToolkit = "0"
 julia = "1"
+
+["0.11-0"]
+IntervalArithmetic = "0.15.0-*"
+IntervalContractors = "0.3.0-*"
+IntervalRootFinding = "0.4.0-*"
+MacroTools = "0.4.0-*"
+ModelingToolkit = "0.2.0-*"
+julia = "1.1.0-*"
 
 ["0.2-0.3"]
 ValidatedNumerics = "0.5-0"
@@ -41,7 +49,7 @@ julia = "0.6"
 ["0.9"]
 julia = "0.7-1"
 
-["0.9-0"]
+["0.9-0.10"]
 IntervalArithmetic = "0.15-0"
 IntervalContractors = "0.3-0"
 IntervalRootFinding = "0.4-0"
