@@ -1,23 +1,23 @@
-[0]
+["0-0.1"]
+GeoStatsBase = "0.0.5-0"
+julia = "0.6-0"
+
+["0-0.3.6"]
 Distances = "0.5-0"
 Parameters = "0.7.3-0"
 RecipesBase = "0.2.3-0"
 SpecialFunctions = "0.3.8-0"
 
-["0-0.1"]
-GeoStatsBase = "0.0.5-0"
-julia = "0.6-0"
-
-["0.0.3-0"]
-StaticArrays = "0.7-0"
-
 ["0.0.3-0.1"]
 Missings = "0.2.9-0"
+
+["0.0.3-0.3.6"]
+StaticArrays = "0.7-0"
 
 ["0.1.0"]
 Optim = "0.14.1-0.14"
 
-["0.1.1-0"]
+["0.1.1-0.3.6"]
 Optim = "0.15-0"
 
 ["0.2"]
@@ -43,7 +43,18 @@ GeoStatsDevTools = "0.3-0"
 GeoStatsBase = "0.3.6-0"
 GeoStatsDevTools = "0.4-0"
 
-["0.3.6-0"]
+["0.3.6"]
 GeoStatsBase = "0.4.1-0"
 GeoStatsDevTools = "0.4.3-0"
+
+["0.3.6-0"]
 julia = "1"
+
+["0.3.7-0"]
+Distances = "0.8"
+GeoStatsBase = "0.5"
+Optim = "0.18"
+Parameters = "0.10"
+RecipesBase = "0.6"
+SpecialFunctions = "0.7"
+StaticArrays = "0.11"
