@@ -16,6 +16,17 @@ Parameters = "0.7.3-0"
 ["0.4.1-0"]
 julia = "1"
 
-["0.4.2-0"]
+["0.4.2-0.4"]
 Parameters = "0.7.3-*"
 StaticArrays = "0.7.0-*"
+
+["0.5-0"]
+CSV = "0.5"
+DataFrames = "0.18"
+Distances = "0.8"
+Distributions = "0.20"
+NearestNeighbors = "0.4"
+Parameters = "0.10"
+RecipesBase = "0.6"
+StaticArrays = "0.11"
+StatsBase = "0.30"
