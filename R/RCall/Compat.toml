@@ -12,13 +12,13 @@ DataFrames = "0-0.10"
 ["0.1.2-0.3.1"]
 BinDeps = "0"
 
-["0.10.2-0"]
+["0.10.2-0.13.2"]
 Conda = "0-1"
 
 ["0.10.3-0.10.5"]
 StatsModels = "0.2-0.2.3"
 
-["0.10.6-0"]
+["0.10.6-0.13.2"]
 StatsModels = "0.2.4-0"
 
 ["0.11"]
@@ -27,11 +27,20 @@ julia = "0.7-0"
 ["0.12"]
 julia = "0.7-1"
 
-["0.12-0"]
+["0.12-0.13.2"]
 Requires = "0.5.2-0"
 
 ["0.13-0"]
 julia = "1"
+
+["0.13.3-0"]
+CategoricalArrays = "0.3.0-*"
+DataFrames = "0.11.0-*"
+DataStructures = "0.5.0-*"
+Missings = "0.2.0-*"
+Requires = "0.5.2-*"
+StatsModels = "0.2.4-*"
+WinReg = "0.2.0-*"
 
 ["0.3"]
 julia = "0.3-0.5"
@@ -63,7 +72,7 @@ DataFrames = "0.8.4-0.10"
 DataStructures = "0.4.3-0"
 NullableArrays = "0.0.10-0"
 
-["0.6-0"]
+["0.6-0.13.2"]
 WinReg = "0.2-0"
 
 ["0.6-0.7"]
@@ -73,11 +82,11 @@ julia = "0.5-0"
 Compat = "0.17-2"
 DataFrames = "0.9-0.10"
 
-["0.7-0"]
-DataStructures = "0.5-0"
-
 ["0.7-0.12"]
 AxisArrays = "0.0.6-0"
+
+["0.7-0.13.2"]
+DataStructures = "0.5-0"
 
 ["0.7-0.7.4"]
 CategoricalArrays = "0.1"
@@ -98,10 +107,10 @@ Nulls = "0.1-0"
 Compat = "0.34-2"
 julia = "0.6-0"
 
-["0.9-0"]
+["0.9-0.10"]
+DataArrays = "0.7-0"
+
+["0.9-0.13.2"]
 CategoricalArrays = "0.3-0"
 DataFrames = "0.11-0"
 Missings = "0"
-
-["0.9-0.10"]
-DataArrays = "0.7-0"
