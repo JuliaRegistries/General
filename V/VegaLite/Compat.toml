@@ -45,7 +45,7 @@ FileIO = "0.9.1-1"
 ["0.3.4-0.3"]
 julia = "0.6-1"
 
-["0.4-0"]
+["0.4-0.6"]
 Cairo = "0.5.6-0.6"
 DataValues = "0.4.4-0"
 FileIO = "1.0.1-1"
@@ -60,3 +60,16 @@ Rsvg = "0.2.2-0"
 TableTraits = "0.3.1-1"
 URIParser = "0.4-0"
 julia = "0.7-1"
+
+["0.7-0"]
+DataValues = "0.4.4-*"
+FileIO = "1.0.1-*"
+FilePaths = "0.7.0-*"
+IterableTables = "0.8.3-*"
+IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
+JSON = "0.19.0-*"
+MacroTools = "0.4.4-*"
+NodeJS = "0.5.1-*"
+TableTraits = ["0.3.1-0.4", "1"]
+URIParser = "0.4.0-*"
+julia = "1"
