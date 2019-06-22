@@ -12,7 +12,7 @@ julia = "0.2-0"
 ["0.11-0"]
 StatsModels = "0.2-0"
 
-["0.11-1"]
+["0.11-1.1"]
 Reexport = "0.1-0"
 StatsBase = "0.22-0"
 
@@ -100,7 +100,7 @@ Compat = "0.33-2"
 ["0.9-0.10"]
 StatsModels = "0.2-0.2.3"
 
-[1]
+["1-1.1"]
 Distributions = "0.16-0"
 SpecialFunctions = "0.6-0"
 StatsFuns = "0.6-0"
@@ -109,5 +109,13 @@ julia = "0.7-1"
 ["1.0"]
 StatsModels = "0.2-0"
 
-["1.1-1"]
+["1.1"]
 StatsModels = "0.5-0"
+
+["1.2-1"]
+Distributions = "0.16-0.19"
+Reexport = "0.1-0.2"
+SpecialFunctions = "0.6-0.7"
+StatsBase = "0.30"
+StatsFuns = "0.6-0.8"
+StatsModels = "0.5"
