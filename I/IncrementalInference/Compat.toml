@@ -118,17 +118,27 @@ julia = ["0.7", "1"]
 Distributions = "0.18.0-*"
 DocStringExtensions = "0.7.0-*"
 FileIO = "1.0.2-*"
-FunctionalStateMachine = "0.1.0-*"
 Graphs = "0.10.2-*"
 JLD2 = "0.1.0-*"
-KernelDensityEstimate = "0.5.0-*"
 NLsolve = "3.0.0-*"
 Optim = "0.16.0-*"
 ProgressMeter = "0.6.0-*"
 Reexport = "0.2.0-*"
 StatsBase = "0.25.0-*"
 
+["0.6-0.7.0"]
+FunctionalStateMachine = "0.1.0-*"
+KernelDensityEstimate = "0.5.0-*"
+
 ["0.7-0"]
+julia = "1"
+
+["0.7.0"]
 ApproxManifoldProducts = "0.1.0-*"
 DistributedFactorGraphs = "0.1.2-*"
-julia = "1"
+
+["0.7.1-0"]
+ApproxManifoldProducts = "0.1-0.2"
+DistributedFactorGraphs = "0.2"
+FunctionalStateMachine = "0.1-0.2"
+KernelDensityEstimate = "0.5-0.6"
