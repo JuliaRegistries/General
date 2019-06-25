@@ -1,4 +1,10 @@
-[2]
+["2-2.1"]
+NCDatasets = "0"
+
+["2-2.1.0"]
+Interpolations = "0-0.8"
+
+["2-2.3"]
 DataStructures = "0"
 HTTP = "0"
 Missings = "0"
@@ -6,24 +12,24 @@ Mustache = "0.3.2-0"
 SpecialFunctions = "0"
 ZipFile = "0"
 
-["2-2.1"]
-NCDatasets = "0"
-
-["2-2.1.0"]
-Interpolations = "0-0.8"
-
 ["2.0"]
 EzXML = "0"
 julia = "0.6-0"
 
-["2.1-2"]
+["2.1-2.3"]
 Compat = "0-2"
 EzXML = "0.7.3-0"
 StatsBase = "0"
 julia = "0.6-1"
 
-["2.1.1-2"]
+["2.1.1-2.3"]
 Interpolations = "0"
 
-["2.2-2"]
+["2.2-2.3"]
 NCDatasets = "0.5.1-0"
+
+["2.4-2"]
+EzXML = "0.7.3-*"
+Mustache = "0.3.2-*"
+NCDatasets = "0.5.1-*"
+julia = ["0.7", "1"]
