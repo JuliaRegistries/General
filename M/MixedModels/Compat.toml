@@ -27,7 +27,7 @@ StatsModels = "0.1-0.2.3"
 ["0.14-0.18.0"]
 julia = "0.6.1-0"
 
-["0.14-1"]
+["0.14-1.1.6"]
 CategoricalArrays = "0"
 DataFrames = "0.11-0"
 StatsFuns = "0.5-0"
@@ -42,7 +42,7 @@ BlockArrays = "0.3-0.4"
 ["0.18-0"]
 StatsModels = "0.2.4-0"
 
-["0.18-1"]
+["0.18-1.1.6"]
 GLM = "0.11-1"
 StatsBase = "0.22-0"
 
@@ -168,7 +168,7 @@ GLM = "0.6-1"
 DataFrames = "0.8.4-0.10"
 NullableArrays = "0"
 
-["0.6-1"]
+["0.6-1.1.6"]
 Distributions = "0.11-0"
 
 ["0.6.2-0.10"]
@@ -181,7 +181,7 @@ DataStructures = "0"
 ["0.8-0.13"]
 DataFrames = "0.9-0.10"
 
-["0.8-1"]
+["0.8-1.1.6"]
 ArgCheck = "0-1"
 
 ["0.9-0.16.2"]
@@ -189,6 +189,8 @@ BlockArrays = "0"
 
 [1]
 BlockArrays = "0.3-0.7"
+
+["1-1.1.6"]
 NLopt = "0.5-0"
 NamedArrays = "0.7-0"
 Showoff = "0.2-0"
@@ -196,5 +198,19 @@ StaticArrays = "0.8-0"
 StatsModels = "0.3.1-0"
 julia = "0.7-1"
 
-["1.1.1-1"]
+["1.1.1-1.1.6"]
 ProgressMeter = "0.6.1-0"
+
+["1.1.7-1"]
+DataFrames = "0.11-0.18"
+Distributions = "0.11-0.20"
+GLM = "1"
+NLopt = "0.5"
+NamedArrays = "0.7-0.9"
+ProgressMeter = "1"
+Showoff = "0.2"
+StaticArrays = "0.8-0.11"
+StatsBase = "0.22-0.30"
+StatsFuns = "0.7-0.8"
+StatsModels = "0.4-0.5"
+julia = "1"
