@@ -1,12 +1,3 @@
-[0]
-BlackBoxOptim = "0"
-DataStructures = "0"
-JSON = "0"
-MetaProgTools = "0"
-OrdinaryDiffEq = "0-5"
-ProgressMeter = "0"
-YAML = "0"
-
 ["0-0.1.0"]
 NLopt = "0"
 
@@ -52,6 +43,15 @@ Anasol = "0"
 BIGUQ = "0"
 JLD = "0"
 
+["0-0.7.0"]
+BlackBoxOptim = "0"
+DataStructures = "0"
+JSON = "0"
+MetaProgTools = "0"
+OrdinaryDiffEq = "0-5"
+ProgressMeter = "0"
+YAML = "0"
+
 ["0.1.1-0.2.3"]
 Lexicon = "0"
 
@@ -84,7 +84,7 @@ Lora = "0.5-0"
 ["0.1.18-0.4.11"]
 StatsBase = "0"
 
-["0.1.2-0"]
+["0.1.2-0.7.0"]
 RobustPmap = "0"
 
 ["0.1.3-0.1.11"]
@@ -93,11 +93,11 @@ Lora = "0.5-0"
 ["0.1.5-0.2.3"]
 Docile = "0"
 
-["0.2.14-0"]
-AffineInvariantMCMC = "0"
-
 ["0.2.14-0.4"]
 Optim = "0.7-0"
+
+["0.2.14-0.7.0"]
+AffineInvariantMCMC = "0"
 
 ["0.2.18-0.5"]
 GeostatInversion = "0"
@@ -106,16 +106,11 @@ GeostatInversion = "0"
 Documenter = "0-0.19"
 Klara = "0"
 
-["0.2.5-0"]
+["0.2.5-0.7.0"]
 Images = "0-0.17"
 
 ["0.2.7-0.2"]
 Compat = "0.7.15-2"
-
-["0.3-0"]
-Conda = "0.4-1"
-PyCall = "1.8-1"
-PyPlot = "2.2-2"
 
 ["0.3-0.4"]
 julia = "0.5-0"
@@ -126,14 +121,16 @@ Klara = "0.7-0"
 ["0.3-0.5.1"]
 Documenter = "0.8.10-0.19"
 
+["0.3-0.7.0"]
+Conda = "0.4-1"
+PyCall = "1.8-1"
+PyPlot = "2.2-2"
+
 ["0.3.0"]
 Compat = "0.12-2"
 
 ["0.3.1-0.4.9"]
 Compat = "0.8-2"
-
-["0.3.2-0"]
-Measures = "0"
 
 ["0.3.2-0.3.3"]
 Ipopt = "0.2.6-0"
@@ -141,29 +138,32 @@ Ipopt = "0.2.6-0"
 ["0.3.2-0.4.12"]
 JuMP = "0.15-0"
 
+["0.3.2-0.7.0"]
+Measures = "0"
+
 ["0.3.3"]
 Colors = "0"
 
 ["0.3.3-0.4.12"]
 MathProgBase = "0.5.10-0"
 
-["0.3.6-0"]
+["0.3.6-0.7.0"]
 NMF = "0"
 
 ["0.3.8-0.4.10"]
 SVR = "0"
 
-["0.4.10-0"]
-Compat = "0.13-2"
-Compose = "0.5.2-0"
-
 ["0.4.10-0.4"]
 Gadfly = "0.6.2-1"
 
-["0.4.11-0"]
+["0.4.10-0.7.0"]
+Compat = "0.13-2"
+Compose = "0.5.2-0"
+
+["0.4.11-0.7.0"]
 SVR = "0.2.3-0"
 
-["0.4.12-0"]
+["0.4.12-0.7.0"]
 StatsBase = "0.15-0"
 
 ["0.4.13-0.5.1"]
@@ -173,25 +173,25 @@ Klara = "0.8.6-0"
 JuMP = "0.17-0"
 MathProgBase = "0.6.4-0"
 
-["0.4.18-0"]
+["0.4.18-0.7.0"]
 ReusableFunctions = "0.2.6-0"
 
-["0.4.28-0"]
+["0.4.28-0.7.0"]
 Kriging = "0"
 
-["0.4.32-0"]
+["0.4.32-0.7.0"]
 DataFrames = "0"
 
 ["0.4.5"]
 Distributions = "0.12.5-0"
 
-["0.4.6-0"]
+["0.4.6-0.7.0"]
 Distributions = "0"
 
-["0.4.7-0"]
+["0.4.7-0.7.0"]
 DocumentFunction = "0"
 
-["0.5-0"]
+["0.5-0.7.0"]
 Gadfly = "0.6.5-1"
 LsqFit = "0.3-0"
 
@@ -201,7 +201,7 @@ julia = "0.6-0"
 ["0.5.1-0.5"]
 julia = "0.6-1"
 
-["0.5.2-0"]
+["0.5.2-0.7.0"]
 Anasol = "0.3.1-0"
 Documenter = "0.8.10-0"
 FileIO = "0-1"
@@ -212,7 +212,7 @@ QuartzImageIO = "0"
 Ipopt = "0"
 julia = "0.7-1"
 
-["0.6-0"]
+["0.6-0.7.0"]
 Cairo = "0-0.5"
 Colors = "0"
 Fontconfig = "0"
@@ -220,11 +220,13 @@ Optim = "0"
 OrderedCollections = "0-1"
 Suppressor = "0"
 
-["0.6.3-0"]
+["0.6.3-0.7.0"]
 DocumenterMarkdown = "0"
 
 ["0.7-0"]
+julia = "1"
+
+["0.7.0"]
 Ipopt = "0.5-0"
 JuMP = "0.19-0"
 MathProgBase = "0.7-0"
-julia = "1"

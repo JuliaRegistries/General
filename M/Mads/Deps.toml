@@ -109,14 +109,16 @@ DocumentFunction = "e1f3b4f0-2dc4-57d3-83f7-d4b7faf3b05b"
 LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
 
 ["0.5.2-0"]
-DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
-Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+QuartzImageIO = "dca85d43-d64c-5e67-8c65-017450d5d020"
+
+["0.5.2-0.7.0"]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-QuartzImageIO = "dca85d43-d64c-5e67-8c65-017450d5d020"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
@@ -125,14 +127,16 @@ Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 Fontconfig = "186bb1d3-e1f7-5a2c-a377-96d770f13627"
 Ipopt = "b6b21f68-93f8-5de0-b562-5493be1d77c9"
-Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
-Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
+
+["0.6-0.7.0"]
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
 SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0.6.3-0"]
