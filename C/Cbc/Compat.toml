@@ -41,7 +41,7 @@ julia = "0.5-0"
 ["0.3-0.3.1"]
 MathProgBase = "0.5.5-0.6"
 
-["0.3.2-0"]
+["0.3.2-0.6.0"]
 MathProgBase = "0.5.5-0"
 
 ["0.4"]
@@ -59,11 +59,16 @@ MathOptInterface = "0.8-0"
 ["0.5"]
 julia = "0.7-1"
 
-["0.5-0"]
+["0.5-0.6.0"]
 BinaryProvider = "0.5.3-0"
 
-["0.5.3-0"]
+["0.5.3-0.6.0"]
 MathOptInterface = "0.8.2-0"
 
 ["0.6-0"]
 julia = "1"
+
+["0.6.1-0"]
+BinaryProvider = "0.5.3-0.5"
+MathOptInterface = "0.8.2-0.8"
+MathProgBase = "0.5.5-0.7"
