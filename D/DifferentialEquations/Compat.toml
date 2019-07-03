@@ -241,14 +241,16 @@ SteadyStateDiffEq = "1.4-1"
 StochasticDiffEq = "6"
 Sundials = "3"
 
+["6.4"]
+DiffEqBase = "5.4.0-*"
+DiffEqMonteCarlo = "0.10.0-*"
+
 ["6.4-6"]
 BoundaryValueDiffEq = "1.0.0-*"
 DelayDiffEq = "5.2.0-*"
-DiffEqBase = "5.4.0-*"
 DiffEqCallbacks = "1.0.0-*"
 DiffEqFinancial = "1.0.0-*"
 DiffEqJump = "6.0.0-*"
-DiffEqMonteCarlo = "0.10.0-*"
 DiffEqNoiseProcess = "3.0.0-*"
 DiffEqPhysics = "1.0.0-*"
 DimensionalPlotRecipes = "0.0.2-*"
@@ -260,3 +262,6 @@ SteadyStateDiffEq = "1.4.0-*"
 StochasticDiffEq = "6.0.0-*"
 Sundials = "3.0.0-*"
 julia = "1.1.0-*"
+
+["6.6-6"]
+DiffEqBase = "5.10.0-*"
