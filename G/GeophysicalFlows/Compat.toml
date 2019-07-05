@@ -1,4 +1,7 @@
-[0]
+["0-0.1"]
+FourierFlows = "0-0.2"
+
+["0-0.2"]
 FFTW = "0"
 JLD2 = "0"
 PyPlot = "1-2"
@@ -7,8 +10,9 @@ Requires = "0"
 SpecialFunctions = "0"
 julia = "0.7-1"
 
-["0-0.1"]
-FourierFlows = "0-0.2"
-
-["0.2-0"]
+["0.2"]
 FourierFlows = "0.3-0"
+
+["0.3-0"]
+FourierFlows = "0.3.0-*"
+julia = "1.0.0-*"
