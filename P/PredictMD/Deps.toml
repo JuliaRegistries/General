@@ -1,6 +1,5 @@
 [0]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-Atom = "c52e3926-4ff0-5f6e-af25-54175e0327b1"
 BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 CSVFiles = "5d742f6a-9f54-50ce-8119-2520741973ca"
@@ -28,27 +27,30 @@ LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
 MLBase = "f0e99cf1-93fa-52ec-9ecc-5026115318e0"
-MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
 Metalhead = "dbeba491-748d-5e0e-a39e-b530a07fa0cc"
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
 PGFPlotsX = "8314cec4-20b6-5062-9cdb-752b83310925"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
-Query = "1a8c2f83-1ff3-5112-b086-8aa67b057ba1"
 RData = "df47a6cb-8c03-5eed-afd8-b6050d6c41da"
 RDatasets = "ce6b1742-4840-55fa-b093-852dadbb1d8b"
 ROCAnalysis = "f535d66d-59bb-5153-8d2b-ef0a426c6aff"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
-Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 StatsModels = "3eaba693-59b7-5ba5-a881-562e759f1c8d"
 TikzPictures = "37f6aa50-8035-52d0-81c2-5a1d08754b2d"
-TimeSeries = "9e3dc215-6440-5c97-bce1-76c03772f85e"
 UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 ValueHistories = "98cad3c8-aec3-5f06-8e41-884608649ab7"
+
+["0-0.30"]
+Atom = "c52e3926-4ff0-5f6e-af25-54175e0327b1"
+MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
+Query = "1a8c2f83-1ff3-5112-b086-8aa67b057ba1"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+TimeSeries = "9e3dc215-6440-5c97-bce1-76c03772f85e"
 
 ["0.29-0"]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
@@ -56,3 +58,7 @@ Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 ["0.30-0"]
 PredictMDAPI = "df4d2c64-811c-11e9-2782-c5e8d6893c98"
+
+["0.31-0"]
+PGFPlots = "3b7a836e-365b-5785-a47d-02c71176b4aa"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
