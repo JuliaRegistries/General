@@ -13,11 +13,11 @@ WebSockets = "0.3-1"
 ZMQ = "0.4.2-1"
 julia = "0.6-0"
 
-["0.0.2-0"]
-DocStringExtensions = "0.4-0"
-
 ["0.0.2-0.3"]
 Rotations = "0.5-0"
+
+["0.0.2-0.6"]
+DocStringExtensions = "0.4-0"
 
 ["0.1-0.2.1"]
 WebIO = "0.1.8-0.4"
@@ -38,10 +38,15 @@ WebIO = "0.2-0.4"
 Compat = "0.54-2"
 JSON = "0"
 
-["0.3-0"]
+["0.3-0.6"]
 Requires = "0"
 
-["0.4-0"]
+["0.4-0.5"]
+JSExpr = "0.3-0"
+JSON = "0.18-0"
+WebIO = "0.4.2-0.4"
+
+["0.4-0.6"]
 AssetRegistry = "0.1-0"
 BinDeps = "0.8.8-0"
 Colors = "0.9-0"
@@ -54,11 +59,14 @@ Rotations = "0.8-0"
 StaticArrays = "0.8-0"
 julia = "0.7-1"
 
-["0.4-0.5"]
-JSExpr = "0.3-0"
-JSON = "0.18-0"
-WebIO = "0.4.2-0.4"
-
-["0.6-0"]
+["0.6"]
 JSExpr = "0.5-0"
 WebIO = "0.7"
+
+["0.8-0"]
+AssetRegistry = "0.1"
+GeometryTypes = "0.6-0.7"
+JSExpr = ["0.3", "0.5"]
+Mux = "0.7"
+WebIO = "0.8"
+julia = ["0.7", "1"]
