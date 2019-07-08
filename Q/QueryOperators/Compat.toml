@@ -15,11 +15,18 @@ IteratorInterfaceExtensions = "0-1"
 ["0.2.2-0.2"]
 TableShowUtils = "0"
 
-["0.3-0"]
+["0.3-0.8"]
 DataStructures = "0.11-0"
 IteratorInterfaceExtensions = "0.1.1-1"
 TableShowUtils = "0.1.1-0"
 julia = "0.7-1"
 
-["0.5.1-0"]
+["0.5.1-0.8"]
 DataValues = "0.4.5-0"
+
+["0.9-0"]
+DataStructures = "0.11.0-*"
+DataValues = "0.4.4-*"
+IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
+TableShowUtils = "0.1.1-*"
+julia = "1"
