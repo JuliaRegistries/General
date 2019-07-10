@@ -8,7 +8,7 @@ julia = "0.6-0"
 ["0-0.7"]
 DiffEqBase = "1.7-5"
 
-[0-1]
+["0-1.1"]
 Distributions = "0"
 MacroTools = "0"
 Stan = "0-4"
@@ -18,14 +18,14 @@ ContinuousTransformations = "0"
 DiffWrappers = "0"
 DynamicHMC = "0.0"
 
-["0.2-1"]
+["0.2-1.1"]
 Optim = "0"
 OrdinaryDiffEq = "0-5"
 ParameterizedFunctions = "0-4"
 Parameters = "0"
 RecursiveArrayTools = "0"
 
-["0.3-1"]
+["0.3-1.1"]
 ApproxBayes = "0"
 Distances = "0"
 
@@ -40,16 +40,18 @@ DiffEqBase = "4.28.1-5"
 Turing = "0.5-0"
 
 ["0.8-1"]
+julia = "1"
+
+["0.8-1.1"]
 DynamicHMC = "0-1"
 LogDensityProblems = "0"
 TransformVariables = "0"
-julia = "1"
 
-[1]
+["1-1.1"]
 DiffEqBase = "5"
 
 ["1.0"]
 Turing = "0.5-0"
 
-["1.1-1"]
+["1.1"]
 Turing = "0"
