@@ -1,4 +1,4 @@
-[0]
+["0-0.2.1"]
 BenchmarkTools = "0"
 
 ["0.0"]
@@ -9,9 +9,14 @@ julia = "0.5-0"
 ["0.1"]
 julia = "0.6-0"
 
-["0.1-0"]
+["0.1-0.2.1"]
 JSON = "0"
 ProgressMeter = "0"
 
-["0.2-0"]
+["0.2-0.2.1"]
 julia = "0.7-1"
+
+["0.2.2-0"]
+BenchmarkTools = "0.4"
+ProgressMeter = "1"
+julia = "1"
