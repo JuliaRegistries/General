@@ -1,14 +1,14 @@
-[0]
-BinDeps = "0"
-Homebrew = "0.4-0"
-JSON = "0.8-0"
-
 ["0-0.1"]
 Compat = "0.7.15-2"
 NLPModels = "0.1-0"
 
 ["0-0.2"]
 julia = "0.5-0"
+
+["0-0.6.0"]
+BinDeps = "0"
+Homebrew = "0.4-0"
+JSON = "0.8-0"
 
 ["0.2"]
 NLPModels = "0.2-0"
@@ -21,12 +21,12 @@ julia = "0.6-0"
 NLPModels = "0.3-0.4"
 julia = "0.6"
 
-["0.3.5-0"]
-DataStructures = "0"
-
 ["0.3.5-0.3"]
 NLPModels = "0.5"
 julia = "0.6-0"
+
+["0.3.5-0.6.0"]
+DataStructures = "0"
 
 ["0.4"]
 NLPModels = "0.6-0"
@@ -38,5 +38,10 @@ NLPModels = "0.7"
 ["0.5-0"]
 julia = "1"
 
-["0.6-0"]
+["0.6.0"]
 NLPModels = "0.8-0"
+
+["0.6.1-0"]
+Homebrew = "0.4.0-*"
+JSON = "0.8.0-*"
+NLPModels = "0.8.2-0.9"
