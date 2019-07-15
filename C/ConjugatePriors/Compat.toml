@@ -7,13 +7,19 @@ julia = "0.3-0"
 ["0.2"]
 julia = "0.6-0"
 
-["0.2-0"]
+["0.2-0.3"]
 Distributions = "0.14-0"
 PDMats = "0.6-0"
 
-["0.2.3-0"]
+["0.2.3-0.3"]
 StatsFuns = "0.6-0"
 
-["0.3-0"]
+["0.3"]
 SpecialFunctions = "0"
 julia = "0.7-1"
+
+["0.4-0"]
+Distributions = "0.14.0-*"
+PDMats = "0.6.0-*"
+StatsFuns = "0.6.0-*"
+julia = "0.7.0-*"
