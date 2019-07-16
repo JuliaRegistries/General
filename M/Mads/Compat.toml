@@ -223,10 +223,28 @@ Suppressor = "0"
 ["0.6.3-0.7.0"]
 DocumenterMarkdown = "0"
 
-["0.7-0"]
+["0.7-0.7.1"]
 julia = "1"
 
 ["0.7.0"]
 Ipopt = "0.5-0"
 JuMP = "0.19-0"
 MathProgBase = "0.7-0"
+
+["0.7.2-0"]
+Anasol = "0.3.1-*"
+Compat = "0.13.0-*"
+Compose = "0.5.2-*"
+Conda = "0.4.0-*"
+Documenter = "0.8.10-*"
+Gadfly = "0.6.5-*"
+Ipopt = "0.5.0-*"
+JuMP = "0.19.0-*"
+LsqFit = "0.3.0-*"
+MathProgBase = "0.7.0-*"
+PyCall = "1.8.0-*"
+PyPlot = "2.2.0-*"
+ReusableFunctions = "0.2.6-*"
+SVR = "0.2.3-*"
+StatsBase = "0.15.0-*"
+julia = "1.0.0-*"
