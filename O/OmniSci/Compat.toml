@@ -8,11 +8,16 @@ DecFP = "0.4.6-0"
 GeoInterface = "0.4-0"
 LibGEOS = "0.4.1-0"
 
-["0.4-0"]
+["0.4"]
 DataFrames = "0.17.0-*"
+
+["0.4-0"]
 DecFP = "0.4.8-*"
 Decimals = "0.3.1-*"
 GeoInterface = "0.4.0-*"
 LibGEOS = "0.4.1-*"
 Thrift = "0.6.0-*"
 julia = "1.0.1-*"
+
+["0.5-0"]
+DataFrames = "0.18"
