@@ -78,12 +78,17 @@ julia = "0.7-1"
 ["0.2-0.3"]
 NumericExtensions = "0"
 
+["0.20"]
+StatsBase = "0.30"
+
 ["0.20-0"]
 PDMats = "0.9"
 SpecialFunctions = "0.7"
-StatsBase = "0.30"
 StatsFuns = "0.8"
 julia = "0.7.0-*"
+
+["0.21-0"]
+StatsBase = "0.31"
 
 ["0.6"]
 PDMats = "0.3.1-0.3"
