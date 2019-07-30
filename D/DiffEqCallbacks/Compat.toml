@@ -23,28 +23,28 @@ ForwardDiff = "0.5"
 ["0.2-1"]
 julia = "0.6-0"
 
-["0.4-2"]
-RecipesBase = "0"
-RecursiveArrayTools = "0"
-
 ["0.4-2.4"]
 DataStructures = "0"
+
+["0.4-2.5"]
+RecipesBase = "0"
+RecursiveArrayTools = "0"
 
 ["0.5-0.6"]
 OrdinaryDiffEq = "2.22-5"
 
-["0.6.1-2"]
+["0.6.1-2.5"]
 StaticArrays = "0"
 
 ["0.7-0"]
 DiffEqBase = "2.10-5"
 OrdinaryDiffEq = "2.34-5"
 
-[1-2]
-OrdinaryDiffEq = "3-5"
-
 ["1-2.2"]
 DiffEqBase = "3-5"
+
+["1-2.5"]
+OrdinaryDiffEq = "3-5"
 
 ["2-2.1"]
 julia = "0.7-1"
@@ -52,8 +52,11 @@ julia = "0.7-1"
 ["2.2-2"]
 julia = "1"
 
-["2.3-2"]
+["2.3-2.5"]
 DiffEqBase = "4.29-5"
 
-["2.5-2"]
+["2.5"]
 DataStructures = "0.15-0"
+
+["2.6-2"]
+RecursiveArrayTools = "0.20.0-*"
