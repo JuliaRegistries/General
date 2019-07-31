@@ -76,7 +76,7 @@ StrBase = "0.2-0"
 ["0.2-1"]
 julia = "1"
 
-[1]
+["1.0.0"]
 CharSetEncodings = "1"
 ChrBase = "1"
 ModuleInterfaceTools = "1"
@@ -84,3 +84,12 @@ MurmurHash3 = "1"
 PCRE2 = "1"
 StrAPI = "1"
 StrBase = "1"
+
+["1.0.1-1"]
+CharSetEncodings = "1.0.0-*"
+ChrBase = "1.0.0-*"
+ModuleInterfaceTools = "1.0.1-*"
+MurmurHash3 = "1.0.1-*"
+PCRE2 = "1.0.2-*"
+StrAPI = "1.0.0-*"
+StrBase = "1.0.0-*"
