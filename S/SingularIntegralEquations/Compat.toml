@@ -50,11 +50,11 @@ Compat = "0.9.5-2"
 ["0.2.2"]
 ApproxFun = "0.5"
 
-["0.2.2-0"]
-RecipesBase = "0.1-0"
-
 ["0.2.2-0.2"]
 julia = "0.5-0.6"
+
+["0.2.2-0.4.2"]
+RecipesBase = "0.1-0"
 
 ["0.2.3-0.2"]
 ApproxFun = "0.6"
@@ -80,14 +80,14 @@ ApproxFun = "0.8-0.10"
 BandedMatrices = "0.4"
 BlockBandedMatrices = "0.0"
 
-["0.4-0"]
+["0.4-0.4.1"]
+julia = "0.7-1"
+
+["0.4-0.4.2"]
 DualNumbers = "0.5-0"
 FastTransforms = "0.4.1-0"
 LowRankApprox = "0.2-0"
 SpecialFunctions = "0.7-0"
-
-["0.4-0.4.1"]
-julia = "0.7-1"
 
 ["0.4.0"]
 ApproxFun = "0.9"
@@ -98,7 +98,7 @@ ApproxFun = "0.10"
 BandedMatrices = "0.7.1-0"
 DomainSets = "0"
 
-["0.4.2-0"]
+["0.4.2"]
 ApproxFun = "0.11.1-0"
 ApproxFunBase = "0.1.1-0"
 ApproxFunFourier = "0.1.1-0"
@@ -109,4 +109,23 @@ BlockArrays = "0.9-0"
 BlockBandedMatrices = "0.4.3-0"
 DomainSets = "0.0.2-0"
 InfiniteArrays = "0.1-0"
+
+["0.4.2-0"]
 julia = "1"
+
+["0.4.3-0"]
+ApproxFun = "0.11.2-0.11"
+ApproxFunBase = "0.1.3-0.1"
+ApproxFunFourier = "0.1.2-0.1"
+ApproxFunOrthogonalPolynomials = "0.2"
+ApproxFunSingularities = "0.1.1-0.1"
+BandedMatrices = "0.9.3-0.9"
+BlockArrays = "0.9.1-0.9"
+BlockBandedMatrices = "0.4.5-0.4"
+DomainSets = "0.1"
+DualNumbers = "0.6.0-*"
+FastTransforms = "0.5"
+InfiniteArrays = "0.1.1-0.1"
+LowRankApprox = "0.2"
+RecipesBase = "0.7.0-*"
+SpecialFunctions = "0.7.0-*"
