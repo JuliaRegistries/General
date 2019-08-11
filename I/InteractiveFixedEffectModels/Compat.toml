@@ -46,7 +46,7 @@ LeastSquaresOptim = "0.5-0"
 ["0.2.2-0.3.4"]
 DataFrames = "0.11-0"
 
-["0.2.3-0"]
+["0.2.3-0.3"]
 StatsModels = "0.2.4-0.5"
 
 ["0.2.3-0.3.4"]
@@ -73,8 +73,15 @@ FixedEffects = "0.1.1"
 
 ["0.3.5-0"]
 DataFrames = "0.19.1-*"
-FixedEffectModels = "0.7.4-*"
 FixedEffects = "0.1.1-*"
 LeastSquaresOptim = "0.7.0-*"
 StatsBase = "0.22.0-*"
+
+["0.3.5-0.3"]
+FixedEffectModels = "0.7.4-*"
 julia = "0.7.0-*"
+
+["0.4-0"]
+FixedEffectModels = "0.8.0-*"
+StatsModels = "0.6.0-*"
+julia = "1.1.0-*"
