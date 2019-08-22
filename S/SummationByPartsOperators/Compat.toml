@@ -1,4 +1,4 @@
-[0]
+["0-0.1.0"]
 ArgCheck = "0-1"
 DiffEqBase = "0-5"
 DiffEqCallbacks = "0-2"
@@ -10,3 +10,7 @@ Requires = "0"
 StaticArrays = "0"
 Unrolled = "0"
 julia = "1"
+
+["0.1.1-0"]
+PolynomialBases = "0.4.1-*"
+julia = "1.0.0-*"
