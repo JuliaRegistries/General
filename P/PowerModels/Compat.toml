@@ -7,18 +7,23 @@ JuMP = "0.12-0.14"
 ["0-0.2.1"]
 JSON = "0"
 
-["0.10-0"]
-JuMP = "0.19.1-0.19"
-MathOptInterface = "0.8"
-
 ["0.10-0.11.1"]
 InfrastructureModels = "0.2"
+
+["0.10-0.12.4"]
+JuMP = "0.19.1-0.19"
+MathOptInterface = "0.8"
 
 ["0.11-0"]
 JSON = "0.18.0-*"
 
-["0.11.2-0"]
+["0.11.2-0.12.4"]
 InfrastructureModels = "0.2.1-0.2"
+
+["0.12.5-0"]
+InfrastructureModels = "0.3"
+JuMP = "0.19.1-0.20"
+MathOptInterface = "0.8-0.9"
 
 ["0.2.0"]
 MathProgBase = "0"
