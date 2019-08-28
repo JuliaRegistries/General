@@ -206,6 +206,7 @@ DataFrames = "0.11-0.18"
 Distributions = "0.11-0.20"
 GLM = "1"
 NamedArrays = "0.7-0.9"
+Showoff = "0.2"
 StaticArrays = "0.8-0.11"
 StatsBase = "0.22-0.30"
 StatsFuns = "0.7-0.8"
@@ -214,13 +215,20 @@ StatsModels = "0.4-0.5"
 ["1.1.7-2"]
 NLopt = "0.5"
 ProgressMeter = "1"
-Showoff = "0.2"
 julia = "1"
 
 [2]
-Distributions = "0.15-0.19"
-GLM = "1.2.0-1"
-StaticArrays = "0.11"
 StatsBase = "0.22-0.32"
 StatsFuns = "0.8"
 StatsModels = "0.6"
+
+["2.0"]
+Distributions = "0.15-0.19"
+GLM = "1.2.0-1"
+Showoff = "0.2"
+StaticArrays = "0.11"
+
+["2.1-2"]
+Distributions = "0.15-0.21"
+GLM = "1"
+Showoff = "0.2-0.3"
