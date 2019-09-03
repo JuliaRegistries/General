@@ -45,17 +45,24 @@ SemialgebraicSets = "0.1-0"
 PolyJuMP = "0.3"
 
 ["0.3.2-0"]
-JuMP = "0.19"
-MathOptInterface = "0.8.2-0.8"
 MultivariateMoments = "0.2.1-*"
 
 ["0.3.2-0.3.3"]
 MultivariatePolynomials = "0.2.7-0.2"
 SemialgebraicSets = "0.1"
 
-["0.3.3-0"]
+["0.3.2-0.3.4"]
+JuMP = "0.19"
+MathOptInterface = "0.8.2-0.8"
+
+["0.3.3-0.3.4"]
 PolyJuMP = "0.3.1-0.3"
 
 ["0.3.4-0"]
 MultivariatePolynomials = "0.3"
 SemialgebraicSets = "0.2"
+
+["0.3.5-0"]
+JuMP = "0.20"
+MathOptInterface = "0.9.1-0.9"
+PolyJuMP = "0.3.3-0.3"
