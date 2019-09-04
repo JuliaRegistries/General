@@ -1,5 +1,12 @@
 [0]
+julia = "1"
+
+["0-0.1"]
 Ipopt = "0.5-0"
 NLPModels = "0.8-0"
 SolverTools = "0"
-julia = "1"
+
+["0.2-0"]
+Ipopt = "0.5.0-*"
+NLPModels = "0.8"
+SolverTools = "0.1.4-*"
