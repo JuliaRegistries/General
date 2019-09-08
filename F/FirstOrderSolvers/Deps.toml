@@ -1,7 +1,15 @@
 [0]
-IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
 MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
-Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 ProximalOperators = "a725b495-10eb-56fe-b38b-717eba820537"
-SugarBLAS = "0999239e-cb9f-5507-94be-17f19fa7f34d"
 ValueHistories = "98cad3c8-aec3-5f06-8e41-884608649ab7"
+
+["0-0.1"]
+IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+SugarBLAS = "0999239e-cb9f-5507-94be-17f19fa7f34d"
+
+["0.2-0"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+QPDAS = "297e508c-b2a7-11e8-1524-5dccae6124f6"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
