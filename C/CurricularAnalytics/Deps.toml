@@ -19,6 +19,12 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.4-0"]
 Bukdu = "3e78a19a-cc83-51d8-955b-515f39fd7955"
-Gurobi = "2e9cd046-0924-5485-92f1-d5272153d98b"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 MultiJuMP = "f6097e2c-3ba3-5605-a9a8-3a277acb490f"
+
+["0.4-0.5.2"]
+Gurobi = "2e9cd046-0924-5485-92f1-d5272153d98b"
+
+["0.5.3-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
