@@ -85,11 +85,6 @@ InfiniteArrays = "0.1-0"
 ["0.11.1-0"]
 julia = "1"
 
-["0.11.2-0"]
-ApproxFunFourier = "0.1.2-0.1"
-ApproxFunOrthogonalPolynomials = "0.2"
-ApproxFunSingularities = "0.1.1-0.1"
-
 ["0.11.2-0.11.3"]
 AbstractFFTs = "0.3.1-*"
 BandedMatrices = "0.9"
@@ -116,6 +111,11 @@ ApproxFunBase = "0.1.3-0.1"
 BlockBandedMatrices = "0.4.5-0.4"
 InfiniteArrays = "0.1"
 
+["0.11.2-0.11.5"]
+ApproxFunFourier = "0.1.2-0.1"
+ApproxFunOrthogonalPolynomials = "0.2"
+ApproxFunSingularities = "0.1.1-0.1"
+
 ["0.11.4"]
 BandedMatrices = "0.9.3-0.10"
 BlockArrays = "0.9.1-0.9"
@@ -134,12 +134,21 @@ AbstractFFTs = "0.4"
 Calculus = "0.5"
 DomainSets = "0.1"
 DualNumbers = "0.6.2-0.6"
-FFTW = "0.3"
 RecipesBase = "0.7"
 Reexport = "0.2"
 
-["0.11.5-0"]
+["0.11.4-0.11.5"]
+FFTW = "0.3"
+
+["0.11.5"]
 ApproxFunBase = "0.1.5-0.1"
+
+["0.11.6-0"]
+ApproxFunBase = "0.1.6-0.2"
+ApproxFunFourier = "0.1.5-0.1"
+ApproxFunOrthogonalPolynomials = "0.2.3-0.2"
+ApproxFunSingularities = "0.1.3-0.1"
+FFTW = ["0.3", "1"]
 
 ["0.2-0.2.1"]
 Compat = "0.8.4-2"
