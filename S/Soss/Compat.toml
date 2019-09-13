@@ -1,7 +1,11 @@
-[0]
+["0-0.2"]
 julia = "1"
 
-["0.2-0"]
+["0.2"]
 DynamicHMC = "1.0.5-1"
 LogDensityProblems = "0.8.3-0.8"
 MonteCarloMeasurements = "0.3.4-0.3"
+
+["0.3-0"]
+MonteCarloMeasurements = "0.3.5-*"
+julia = "1.2.0-1"
