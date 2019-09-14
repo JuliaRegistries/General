@@ -268,10 +268,13 @@ julia = "1.1.0-*"
 ["6.6"]
 DiffEqBase = "5.10.0-*"
 
+["6.7"]
+DiffEqBase = "6"
+julia = "1.1.0-1"
+
 ["6.7-6"]
 BoundaryValueDiffEq = "2"
 DelayDiffEq = "5.15.0-5"
-DiffEqBase = "6"
 DiffEqCallbacks = "2.8.0-2"
 DiffEqFinancial = "2.2.0-2"
 DiffEqJump = "6.2.1-6"
@@ -282,4 +285,7 @@ RecursiveArrayTools = "1.0.0-*"
 SteadyStateDiffEq = "1.5.0-*"
 StochasticDiffEq = "6.9.0-6"
 Sundials = "3.7.0-3"
-julia = "1.1.0-1"
+
+["6.8-6"]
+DiffEqBase = "6.2.2-6"
+julia = "1"
