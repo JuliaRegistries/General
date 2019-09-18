@@ -18,6 +18,7 @@ import Pkg.TOML
         pkg = TOML.parsefile(abspath(data["path"], "Package.toml"))
         @test UUID(uuid) == UUID(pkg["uuid"])
         @test data["name"] == pkg["name"]
+        @test Base.isidentifier(data["name"])
         @test haskey(pkg, "repo")
 
         # Versions.toml testing
