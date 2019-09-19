@@ -1,12 +1,18 @@
 [0]
-julia = "0.6"
-
-[0-1]
 Cumulants = "0-1"
 CumulantsUpdates = "0-1"
 Distributions = "0"
 StatsBase = "0"
 SymmetricTensors = "0-1"
+julia = "0.6"
 
-[1]
+["1.0"]
+Cumulants = "0-1"
+CumulantsUpdates = "0-1"
+Distributions = "0"
+StatsBase = "0"
+SymmetricTensors = "0-1"
 julia = "0.7-1"
+
+["1.2-1"]
+julia = "1"
