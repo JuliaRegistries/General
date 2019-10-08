@@ -1,33 +1,23 @@
-["0-0.1.0"]
-MathProgBase = "0.7-0"
-
-["0.0"]
-BinDeps = "0"
-CxxWrap = "0.6"
-MathOptInterface = "0.3"
-SemidefiniteModels = "0.0.3-0.0"
-SemidefiniteOptInterface = "0.0"
-julia = "0.6-0"
-
-["0.1-0"]
+["0.1-0.2"]
 julia = "1"
 
 ["0.1.0"]
 BinaryProvider = "0.5.3-0"
 CxxWrap = "0.8-0"
 MathOptInterface = "0.8-0"
+MathProgBase = "0.7-0"
 SemidefiniteModels = "0.1.1-0"
 SemidefiniteOptInterface = "0.5-0"
 
-["0.1.1-0"]
+["0.1.1"]
+MathOptInterface = "0.8"
+SemidefiniteOptInterface = "0.5"
+
+["0.1.1-0.2"]
 BinaryProvider = "0.5.3-*"
 CxxWrap = "0.8.1"
 MathProgBase = "0.7"
 SemidefiniteModels = "0.1.1-0.1"
 
-["0.1.1-0.1"]
-MathOptInterface = "0.8"
-SemidefiniteOptInterface = "0.5"
-
-["0.2-0"]
+["0.2"]
 MathOptInterface = "0.9"
