@@ -1,13 +1,4 @@
-["0.10-0.11"]
-CSTParser = "00ebfdb7-1f24-5e51-bd34-a7502290713f"
-
-["0.8"]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["0.8-0.10.1"]
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-
-["0.8-0.11"]
+[0]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 CodeTools = "53a63b46-67e4-5edd-8c66-0af0544a99b9"
 CodeTracking = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
@@ -34,11 +25,20 @@ TreeViews = "a2a6695c-b41b-5b7d-aed9-dbfdeacea5d7"
 WebIO = "0f1e0344-ec1d-5b48-a673-e5cf874b6c29"
 WebSockets = "104b5d7c-a370-577a-8038-80a2059c5097"
 
-["0.8.6-0.11"]
+["0-0.10.1"]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0-0.8"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.10-0"]
+CSTParser = "00ebfdb7-1f24-5e51-bd34-a7502290713f"
+
+["0.8.6-0"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 
-["0.8.8"]
+["0.8.8-0.8"]
 DocumentFormat = "ffa9a821-9c82-50df-894e-fbcef3ed31cd"
 
-["0.9-0.11"]
+["0.9-0"]
 JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
