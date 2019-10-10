@@ -1,12 +1,19 @@
 [0]
-FillArrays = "0.6"
-Optim = "0.18"
 Parameters = "0.10"
-StatsBase = "0.31"
 StatsModels = "0.6"
 
 ["0-0.2.0"]
 julia = "1.1.0-1"
 
+["0-0.2.2"]
+FillArrays = "0.6"
+Optim = "0.18"
+StatsBase = "0.31"
+
 ["0.2.2-0"]
 julia = "1"
+
+["0.2.3-0"]
+FillArrays = "0.6-0.7"
+Optim = "0.18-0.19"
+StatsBase = "0.31-0.32"
