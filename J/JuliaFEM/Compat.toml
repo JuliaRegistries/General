@@ -1,4 +1,4 @@
-["0.5"]
+["0-0.5.0"]
 AbaqusReader = "0"
 Arpack = "0"
 AsterReader = "0"
@@ -15,3 +15,8 @@ MortarContact2DAD = "0"
 Reexport = "0"
 TimerOutputs = "0"
 julia = "0.7-1"
+
+["0.5.1-0"]
+HDF5 = "0.7.0-*"
+LightXML = "0.4.0-*"
+julia = "1.0.0-*"
