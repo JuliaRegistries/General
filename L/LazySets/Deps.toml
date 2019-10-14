@@ -4,13 +4,18 @@ IntervalArithmetic = "d1acc4aa-44c8-5952-acd4-ba5d80a2a253"
 MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["1-1.10"]
 Expokit = "a1e7a1ef-7a5d-5822-a38c-be74e1bb89f4"
 
+["1-1.12"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
 ["1-1.3"]
 CDDLib = "3391f64e-dcde-5f30-b752-e11513730f60"
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Polyhedra = "67491407-f73d-577b-9b50-8179a7c68029"
 
 ["1-1.4"]
@@ -26,15 +31,6 @@ JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 
 ["1.16-1"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-
-["1.2.2-1.12"]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-
-["1.3"]
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-
-["1.3-1"]
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["1.5-1.13"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"

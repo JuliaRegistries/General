@@ -1,125 +1,22 @@
-["0-0.0.2"]
-DrakeVisualizer = "0"
-Graphs = "0"
-IncrementalInference = "0"
-KernelDensityEstimate = "0"
-RoME = "0"
-
-["0-0.0.3"]
-TransformUtils = "0"
-
-["0-0.1.0"]
-CoordinateTransformations = "0"
-HDF5 = "0"
-JLD = "0"
-JSON = "0"
-Rotations = "0"
-
-["0.0"]
-ColorTypes = "0"
-Colors = "0"
-Gadfly = "0-1"
-GeometryTypes = "0"
-julia = "0.5-0"
-
-["0.0.2-0.0"]
-MeshIO = "0"
-NLsolve = "0-0.13"
-
-["0.0.2-0.1.0"]
-FileIO = "0-1"
-
-["0.0.3"]
-IncrementalInference = "0.2.5-0"
-KernelDensityEstimate = "0.2.3-0"
-RoME = "0.0.4-0"
-
-["0.0.3-0.0"]
-DrakeVisualizer = "0.1.2-0"
-Graphs = "0.7.1-0"
-
-["0.0.3-0.1.0"]
-DataStructures = "0"
-Distributions = "0"
-ProgressMeter = "0"
-
-["0.0.4"]
-RoME = "0.0.6-0"
-
-["0.0.4-0.0"]
-IncrementalInference = "0.2.8-0"
-KernelDensityEstimate = "0.2.4-0"
-PyLCM = "0"
-TransformUtils = "0.0.6-0"
-
-["0.0.4-0.1.0"]
-ImageCore = "0-0.7"
-ImageMagick = "0"
-
-["0.0.5-0.0"]
-PyCall = "0-1"
-RoME = "0.0.5-0"
-
-["0.0.5-0.1"]
-CloudGraphs = "0"
-Neo4j = "1-2"
-
-["0.0.5-0.1.0"]
-LibBSON = "0"
-Mongo = "0.2.3-0"
-
-["0.1.0"]
-DocStringExtensions = "0.4.1-0"
-Graphs = "0.9-0"
-IncrementalInference = "0.3.1-0"
-KernelDensityEstimate = "0.3-0"
-LCMCore = "0"
-NLsolve = "0-4"
-RoME = "0.1-0"
-TransformUtils = "0.1-0"
-julia = "0.6-0"
-
-["0.1.1-0.1"]
-CoordinateTransformations = "0.4-0"
-DataStructures = "0.7-0.8"
-Distributions = "0.14.2-0.15"
-DocStringExtensions = "0.4.1-0.4"
-FileIO = "0.4.2-0"
-Graphs = "0.9"
-HDF5 = "0.9"
-ImageCore = "0.5-0.6"
-ImageMagick = "0.5"
-IncrementalInference = "0.3.9-0.3"
-JLD = "0.8-0"
-JSON = "0.16-0.17"
-KernelDensityEstimate = "0.3.1-0.3"
-LCMCore = "0.1.1-0.3"
-LibBSON = "0.3-0"
-Mongo = "0.3-0"
-NLsolve = "0.14-1"
-ProgressMeter = "0.5"
-Reexport = "0.1"
-RoME = "0.1.8-0.1"
-Rotations = "0.7"
-TransformUtils = "0.1"
-julia = "0.6"
-
-["0.2"]
+["0-0.2"]
 Graphs = "0.10.1-0"
 
-["0.2-0.2.1"]
+["0-0.2.0"]
+IncrementalInference = "0.4.2-0"
+
+["0-0.2.1"]
 NLsolve = "2-4"
 RoME = "0.2-0"
 TransformUtils = "0.2.1-0"
 
-["0.2-0.2.4"]
+["0-0.2.4"]
 KernelDensityEstimate = "0.4.1-0"
 
-["0.2-0.3"]
+["0-0.3"]
 FileIO = "1"
 Neo4j = "2"
 
-["0.2-0.3.0"]
+["0-0.3.0"]
 CloudGraphs = "0.1-0"
 CoordinateTransformations = "0.5-0"
 DataStructures = "0.9-0"
@@ -135,9 +32,6 @@ ProgressMeter = "0.6-0"
 Reexport = "0.2-0"
 Rotations = "0.8-0"
 julia = ["0.7-0", "1.0"]
-
-["0.2.0"]
-IncrementalInference = "0.4.2-0"
 
 ["0.2.1"]
 IncrementalInference = "0.4.3-0"
@@ -239,5 +133,8 @@ YAML = "0.3.0-*"
 ZMQ = "1.0.0-*"
 julia = "1"
 
-["0.4.1-0"]
+["0.4.1"]
 DistributedFactorGraphs = "0.2.2-0.3"
+
+["0.4.2-0"]
+DistributedFactorGraphs = "0.3-0.4"

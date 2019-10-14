@@ -1,14 +1,4 @@
-["0.0"]
-Colors = "0"
-Gadfly = "0.6.2-1"
-Graphs = "0.8-0"
-IncrementalInference = "0"
-KernelDensityEstimate = "0.3-0"
-KernelDensityEstimatePlotting = "0"
-RoME = "0"
-julia = "0.6-0"
-
-["0.1.0"]
+["0-0.1.0"]
 Colors = "0.9.4-0"
 Compose = "0.7.1-0"
 DocStringExtensions = "0.5-0"
@@ -51,8 +41,15 @@ RoME = "0.3"
 IncrementalInference = "0.5-0.8"
 
 ["0.1.4-0"]
-RoME = "0.3-0.5"
 julia = "1"
+
+["0.1.4-0.1.6"]
+RoME = "0.3-0.5"
 
 ["0.1.6-0"]
 IncrementalInference = "0.7.4-0.8"
+
+["0.1.7-0"]
+Cairo = "0.6"
+DistributedFactorGraphs = "0.4"
+RoME = "0.4.2-0.5"

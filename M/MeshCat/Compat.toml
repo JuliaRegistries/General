@@ -1,31 +1,20 @@
+["0-0.2.1"]
+WebIO = "0.1.8-0.4"
+
 ["0-0.3"]
 Colors = "0.7.1-0"
 CoordinateTransformations = "0.4.1-0"
 GeometryTypes = "0.4-0"
-MsgPack = "0.1.1-0"
-Parameters = "0.7-0"
-StaticArrays = "0.5-0"
-
-["0.0"]
-HttpServer = "0.2-0"
-URIParser = "0.2-0"
-WebSockets = "0.3-1"
-ZMQ = "0.4.2-1"
-julia = "0.6-0"
-
-["0.0.2-0.3"]
-Rotations = "0.5-0"
-
-["0.0.2-0.6"]
-DocStringExtensions = "0.4-0"
-
-["0.1-0.2.1"]
-WebIO = "0.1.8-0.4"
-
-["0.1-0.3"]
 JSExpr = "0"
+MsgPack = "0.1.1-0"
 Mux = "0.2.3-0"
+Parameters = "0.7-0"
+Rotations = "0.5-0"
+StaticArrays = "0.5-0"
 julia = "0.6-1"
+
+["0-0.6"]
+DocStringExtensions = "0.4-0"
 
 ["0.2-0.3"]
 BinDeps = "0.8.7-0"
@@ -63,10 +52,17 @@ julia = "0.7-1"
 JSExpr = "0.5-0"
 WebIO = "0.7"
 
+["0.7"]
+WebIO = ["0.4.2-0.5", "0.7"]
+
 ["0.7-0"]
 AssetRegistry = "0.1"
 GeometryTypes = "0.6-0.7"
 JSExpr = ["0.3", "0.5"]
 Mux = "0.7"
-WebIO = ["0.4.2-0.5", "0.7"]
 julia = ["0.7", "1"]
+
+["0.8-0"]
+Cassette = "0.2.5-0.2"
+MsgPack = "1"
+WebIO = "0.8.11-0.8"

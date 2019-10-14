@@ -4,12 +4,14 @@ os:
   - linux
 julia:
   - 1.0
-  # - 1.1
+  - 1.2
+  - 1.3
   # - nightly
 # matrix:
 #   allow_failures:
 #     - julia: nightly
-script: julia .test/runtests.jl
+before_script: julia -e 'using Pkg; Pkg.add(PackageSpec(url="https://github.com/JuliaRegistries/GeneralRegistryCI.jl", rev="60c17cd"))'
+script: julia --color=yes -e 'import GeneralRegistryCI; GeneralRegistryCI.test()'
 branches:
   only:
     - master

@@ -1,55 +1,37 @@
-["0-0.1"]
-julia = "0.4"
-
-["0.0.5-0.1"]
-Compat = "0.8.4-2"
-
 ["0.10"]
 FillArrays = "0.6.4-0.6"
 LazyArrays = "0.10"
 
-["0.10-0"]
-julia = "1"
-
 ["0.10-0.11"]
 MatrixFactorizations = "0.1"
+
+["0.10-0.12"]
+julia = "1"
 
 ["0.11"]
 FillArrays = "0.6.4-0.7"
 LazyArrays = "0.11"
 
-["0.12-0"]
-MatrixFactorizations = "0.1-0.2"
-
 ["0.12.0"]
 FillArrays = "0.7"
 LazyArrays = "0.12"
 
-["0.12.1-0"]
-FillArrays = "0.7.1-0.7"
+["0.12.0-0.12.2"]
+MatrixFactorizations = "0.1-0.2"
+
+["0.12.1-0.12.2"]
 LazyArrays = "0.12.1-0.12"
 
-["0.2"]
-julia = "0.5"
+["0.12.1-0.12.3"]
+FillArrays = "0.7.1-0.7"
 
-["0.2.2-0.2"]
-Compat = "0.19-2"
-
-["0.3-0.5.0"]
-julia = "0.6"
-
-["0.3.1-0.3"]
-Compat = "0.32-2"
-
-["0.4"]
-Compat = "0.39-2"
-FillArrays = "0-0.5"
+["0.12.3"]
+LazyArrays = "0.12.2-0.12"
+MatrixFactorizations = "0.2"
 
 ["0.5"]
 Compat = "0.66-2"
 FillArrays = "0.1-0.5"
-
-["0.5.1-0.5"]
 julia = "0.6-1"
 
 ["0.6"]
@@ -59,38 +41,38 @@ LazyArrays = "0.2.1-0.2"
 ["0.6-0.9.1"]
 julia = "0.7-1"
 
-["0.7-0.7.1"]
-LazyArrays = "0.3"
-
 ["0.7-0.9.0"]
 FillArrays = "0.3-0.5"
 
-["0.7.2-0.7"]
+["0.7.0-0.7.1"]
+LazyArrays = "0.3"
+
+["0.7.2"]
 LazyArrays = "0.4-0.5"
 
-["0.8-0.8.1"]
+["0.8.0-0.8.1"]
 LazyArrays = "0.5"
 
-["0.8.2-0.8"]
+["0.8.2"]
 LazyArrays = "0.6"
-
-["0.9-0.9.1"]
-MatrixFactorizations = "0.0.4"
 
 ["0.9.0"]
 LazyArrays = "0.7.1-0.7"
+
+["0.9.0-0.9.1"]
+MatrixFactorizations = "0.0.4"
 
 ["0.9.1"]
 FillArrays = "0.5-0"
 LazyArrays = "0.8"
 
-["0.9.2-0.9"]
+["0.9.2-0.9.3"]
+LazyArrays = "0.8-0.9"
+
+["0.9.2-0.9.4"]
 FillArrays = "0.6"
 MatrixFactorizations = ["0.0.4", "0.1"]
 julia = ["0.7", "1"]
 
-["0.9.2-0.9.3"]
-LazyArrays = "0.8-0.9"
-
-["0.9.4-0.9"]
+["0.9.4"]
 LazyArrays = "0.9.1-0.9"
