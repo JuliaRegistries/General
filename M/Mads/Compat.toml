@@ -1,12 +1,12 @@
-["0.5"]
+["0-0.5"]
 GeostatInversion = "0"
 julia = "0.6-1"
 
-["0.5-0.6"]
+["0-0.6"]
 JuMP = "0.17-0"
 MathProgBase = "0.6.4-0"
 
-["0.5-0.7.0"]
+["0-0.7.0"]
 AffineInvariantMCMC = "0"
 Anasol = "0.3.1-0"
 BlackBoxOptim = "0"
@@ -54,18 +54,15 @@ Suppressor = "0"
 ["0.6.3-0.7.0"]
 DocumenterMarkdown = "0"
 
+["0.7-0.7.1"]
+julia = "1"
+
 ["0.7.0"]
 Ipopt = "0.5-0"
 JuMP = "0.19-0"
 MathProgBase = "0.7-0"
 
-["0.7.0-0.7.1"]
-julia = "1"
-
-["0.7.2-0.7.4"]
-julia = "1.0.0-*"
-
-["0.7.2-0.7.5"]
+["0.7.2-0"]
 Anasol = "0.3.1-*"
 Compat = "0.13.0-*"
 Compose = "0.5.2-*"
@@ -82,8 +79,11 @@ ReusableFunctions = "0.2.6-*"
 SVR = "0.2.3-*"
 StatsBase = "0.15.0-*"
 
-["0.7.3-0.7.5"]
+["0.7.2-0.7.4"]
+julia = "1.0.0-*"
+
+["0.7.3-0"]
 DataFrames = "0.19.1-*"
 
-["0.7.5"]
+["0.7.5-0"]
 julia = "1.2.0-*"
