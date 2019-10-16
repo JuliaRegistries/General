@@ -1,4 +1,7 @@
 ## Documentation: http://docs.travis-ci.com/user/languages/julia/
+
+if: type = pull_request OR type = api OR type = cron
+
 language: julia
 os:
   - linux
