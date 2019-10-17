@@ -13,7 +13,7 @@ julia:
 # matrix:
 #   allow_failures:
 #     - julia: nightly
-before_script: julia -e 'using Pkg; Pkg.add(PackageSpec(url="https://github.com/JuliaRegistries/RegistryCI.jl", rev="0a818a7"))'
+before_script: julia -e 'using Pkg; Pkg.add(PackageSpec(url="https://github.com/JuliaRegistries/RegistryCI.jl", rev="e43ee1f"))'
 script: julia --color=yes -e 'import RegistryCI; RegistryCI.test()'
 after_success:
   # - exit 0 # Administrators: uncomment this line to disable all automerging
