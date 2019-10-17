@@ -62,6 +62,9 @@ TransformUtils = "0.2.2-0.2"
 julia = ["0.7", "1"]
 
 ["0.4-0"]
+julia = "1"
+
+["0.4-0.4.2"]
 ApproxManifoldProducts = "0.1.0-*"
 CoordinateTransformations = "0.5.0-*"
 Distributions = "0.18.0-*"
@@ -75,7 +78,6 @@ ProgressMeter = "0.9.0-*"
 Reexport = "0.2.0-*"
 Rotations = "0.11.0-*"
 TransformUtils = "0.2.2-*"
-julia = "1"
 
 ["0.4.0"]
 DistributedFactorGraphs = "0.1.0-*"
@@ -84,8 +86,25 @@ IncrementalInference = "0.7.2-0.7"
 ["0.4.1"]
 DistributedFactorGraphs = "0.3.4-0.3"
 
-["0.4.1-0"]
+["0.4.1-0.4.2"]
 IncrementalInference = "0.7.7-0.7"
 
-["0.4.2-0"]
+["0.4.2"]
 DistributedFactorGraphs = "0.4"
+
+["0.4.3-0"]
+ApproxManifoldProducts = "0.1-0.2"
+CoordinateTransformations = "0.5-0.7"
+DistributedFactorGraphs = "0.4.1-0.4"
+Distributions = ["0.18-0.25", "1"]
+DocStringExtensions = ["0.7-0.10", "1"]
+FileIO = "1.0.2-1"
+Graphs = ["0.10.2-0.11", "1"]
+IncrementalInference = "0.7.9-0.7"
+JLD2 = ["0.1-0.3", "1"]
+KernelDensityEstimate = "0.5.1-0.6"
+Optim = ["0.16-0.22", "0.231"]
+ProgressMeter = ["0.6-0.9", "1"]
+Reexport = ["0.2-0.5", "1"]
+Rotations = ["0.11-0.16", "1"]
+TransformUtils = "0.2.2-0.3"
