@@ -2,10 +2,12 @@
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 GPUifyLoops = "ba82f77b-6841-5d2e-bd9f-4daf811aec27"
-NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.11"]
+NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
 
 ["0-0.11.0"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
@@ -21,6 +23,9 @@ CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
 
 ["0.11-0"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
+["0.12-0"]
+NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
 
 ["0.5.2-0"]
 CUDAdrv = "c5f51814-7f29-56b8-a69c-e4d8f6be1fde"
