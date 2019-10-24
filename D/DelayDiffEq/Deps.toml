@@ -1,9 +1,4 @@
-["4.0-5.11"]
-DiffEqDiffTools = "01453d9d-ee7c-5054-8395-0335cb756afa"
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
-NLSolversBase = "d41bc354-129a-5804-8e4c-c37616107c6c"
-
-["4.0-5.16"]
+[4-5]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
@@ -11,18 +6,23 @@ RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 
-["4.0-5.2"]
+["4-5.11"]
+DiffEqDiffTools = "01453d9d-ee7c-5054-8395-0335cb756afa"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+NLSolversBase = "d41bc354-129a-5804-8e4c-c37616107c6c"
+
+["4-5.2"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["4.0-5.7"]
+["4-5.7"]
 MuladdMacro = "46d2c3a1-f734-5fdb-9937-b9b9aeba4221"
 
-["5.11-5.16"]
+["5.11-5"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
-["5.15-5.16"]
+["5.15-5"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
-["5.5-5.16"]
+["5.5-5"]
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
