@@ -18,14 +18,25 @@ StaticArrays = "0.7.0-*"
 CSV = "0.5"
 DataFrames = "0.18"
 Distances = "0.8"
-Distributions = "0.20"
 NearestNeighbors = "0.4"
+StaticArrays = "0.11"
+
+["0.5-0.6.0"]
+Distributions = "0.20"
 Parameters = "0.10"
 RecipesBase = "0.6"
-StaticArrays = "0.11"
 StatsBase = "0.30"
 
 ["0.6-0"]
 AverageShiftedHistograms = "0.8"
-MLJBase = "0.5"
 Tables = "0.2"
+
+["0.6.0"]
+MLJBase = "0.5"
+
+["0.6.1-0"]
+Distributions = "0.21"
+MLJBase = "0.7"
+Parameters = "0.12"
+RecipesBase = "0.7"
+StatsBase = "0.32"
