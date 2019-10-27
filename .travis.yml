@@ -16,7 +16,6 @@ julia:
 before_script: julia -e 'using Pkg; Pkg.add(PackageSpec(url="https://github.com/JuliaRegistries/RegistryCI.jl", rev="1e1c2e2"))'
 script: julia --color=yes -e 'import RegistryCI; RegistryCI.test()'
 after_success:
-  # - exit 0 # Administrators: uncomment this line to disable all automerging
   - if [ "$TRAVIS_JULIA_VERSION" != "1.2" ]; then exit; fi
   - julia -e 'ENV["JULIA_DEBUG"] = "RegistryCI,AutoMerge"; using RegistryCI; using Dates; RegistryCI.AutoMerge.travis(merge_new_packages=true, merge_new_versions=true, new_package_waiting_period=Minute(4320), new_version_waiting_period=Minute(20), registry="JuliaRegistries/General", authorized_authors=["JuliaRegistrator"])'
 branches:
