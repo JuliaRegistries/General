@@ -1,40 +1,40 @@
-["4.0-4.1"]
+["4-4.1"]
 DiffEqOperators = "0-3"
 
-["4.0-4.11.0"]
+["4-4.11.0"]
 Parameters = "0.5-0"
 
-["4.0-4.13"]
+["4-4.13"]
 DiffEqBase = "3.8-5"
 julia = "0.7-1"
 
-["4.0-4.18"]
+["4-4.18"]
 DataStructures = "0.4.6-0"
 
-["4.0-4.2"]
+["4-4.2"]
 Compat = "0.18-2"
 Juno = "0.2.5-0"
 
-["4.0-4.21.0"]
+["4-4.21.0"]
 RecursiveArrayTools = "0.13-0"
 
-["4.0-4.5"]
+["4-4.5"]
 MuladdMacro = "0.0.2-0"
 
-["4.0-4.7"]
+["4-4.7"]
 Roots = "0.2.1-0"
 
-["4.0-5.14"]
+["4-5.14"]
 NLsolve = "0.14.1-4"
 
-["4.0-5.3"]
+["4-5.3"]
 ForwardDiff = "0.7-0"
 StaticArrays = "0"
 
-["4.0-5.5"]
+["4-5.5"]
 Reexport = "0"
 
-["4.0-5.6.0"]
+["4-5.6.0"]
 DiffEqDiffTools = "0.4-0"
 GenericSVD = "0.0.2-0"
 
@@ -47,13 +47,13 @@ Parameters = "0.10-0"
 ["4.14-4.15"]
 DiffEqBase = "4.27-5"
 
-["4.14-5.17"]
+["4.14-5"]
 julia = "1"
 
 ["4.15-5.6.0"]
 ExponentialUtilities = "1.2-1"
 
-["4.16-4.21"]
+["4.16-4"]
 DiffEqBase = "4.29-5"
 
 ["4.19-5.6.0"]
@@ -84,13 +84,13 @@ DiffEqDiffTools = "0.13.0-0"
 DiffEqDiffTools = "0.14.0-1"
 SparseDiffTools = "0.3.0-0.9"
 
+["5.14-5"]
+ArrayInterface = "1.1.0-1"
+
 ["5.14-5.15"]
 DiffEqBase = "5.20.0-5"
 
-["5.14-5.17"]
-ArrayInterface = "1.1.0-1"
-
-["5.15-5.17"]
+["5.15-5"]
 DataStructures = "0.17"
 DiffEqDiffTools = "1"
 GenericSVD = "0.2"
@@ -110,8 +110,11 @@ Parameters = "0.10-0.11"
 ["5.16-5.17"]
 DiffEqBase = "6"
 
-["5.17"]
+["5.17-5"]
 Parameters = "0.10-0.12"
+
+["5.18-5"]
+DiffEqBase = "6.4.0-6"
 
 ["5.2-5.3"]
 DiffEqBase = "5.3.2-5"
@@ -119,7 +122,7 @@ DiffEqBase = "5.3.2-5"
 ["5.4"]
 DiffEqBase = "5.5.1-5"
 
-["5.4-5.17"]
+["5.4-5"]
 ForwardDiff = "0.10.3-0.10"
 
 ["5.4-5.8.0"]
@@ -127,6 +130,10 @@ StaticArrays = "0.10.3-0.10"
 
 ["5.5-5.6"]
 DiffEqBase = "5.6.3-5.19"
+
+["5.6.1-5"]
+ExponentialUtilities = "1.2.0-1"
+MuladdMacro = "0.2.1-0.2"
 
 ["5.6.1-5.10"]
 DiffEqDiffTools = "0.4.0-1"
@@ -139,10 +146,6 @@ DataStructures = "0.15.0-0.17"
 GenericSVD = "0.0.2-0.2"
 Parameters = "0.10.0-0.11"
 RecursiveArrayTools = "0.18.6-1"
-
-["5.6.1-5.17"]
-ExponentialUtilities = "1.2.0-1"
-MuladdMacro = "0.2.1-0.2"
 
 ["5.7"]
 DiffEqBase = "5.8.1-5.19"
