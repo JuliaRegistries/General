@@ -1,3 +1,22 @@
+["0-0.12"]
+PyCall = "1.18.5-1"
+
+["0-0.13"]
+ArgCheck = "1"
+AxisArrays = "0.3-0"
+Interpolations = "0.8-0"
+IterTools = "1.1-1"
+NetCDF = "0.7.1-0"
+Polynomials = "0.5.1-0"
+ProgressMeter = "0.6-0"
+PyPlot = "2.6.3-2"
+Reexport = "0.2-0"
+Shapefile = "0.4-0"
+julia = "0.7-1"
+
+["0-0.9"]
+NCDatasets = "0.3.2-0"
+
 ["0.10-0.11"]
 NCDatasets = "0.4-0"
 
@@ -20,10 +39,10 @@ NCDatasets = "0.8-0"
 ["0.13"]
 PyCall = "1.90-1"
 
-["0.14.1-0.14.2"]
-Interpolations = "0.8.0-*"
+["0.14-0.14.0"]
+julia = "1"
 
-["0.14.1-0.14.5"]
+["0.14.1-0"]
 ArgCheck = "1.0.0-*"
 AxisArrays = "0.3.0-*"
 BinDeps = "0.4.0-*"
@@ -38,26 +57,10 @@ PyCall = "1.90.0-*"
 PyPlot = "2.6.3-*"
 Reexport = "0.2.0-*"
 Shapefile = "0.4.0-*"
-julia = "0.7.0-*"
+julia = "0.7.0-1"
 
-["0.14.3-0.14.5"]
+["0.14.1-0.14.2"]
+Interpolations = "0.8.0-*"
+
+["0.14.3-0"]
 Interpolations = "0.12.1-*"
-
-["0.9"]
-NCDatasets = "0.3.2-0"
-
-["0.9-0.12"]
-PyCall = "1.18.5-1"
-
-["0.9-0.13"]
-ArgCheck = "1"
-AxisArrays = "0.3-0"
-Interpolations = "0.8-0"
-IterTools = "1.1-1"
-NetCDF = "0.7.1-0"
-Polynomials = "0.5.1-0"
-ProgressMeter = "0.6-0"
-PyPlot = "2.6.3-2"
-Reexport = "0.2-0"
-Shapefile = "0.4-0"
-julia = "0.7-1"
