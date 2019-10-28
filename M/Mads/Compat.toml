@@ -62,7 +62,7 @@ Ipopt = "0.5-0"
 JuMP = "0.19-0"
 MathProgBase = "0.7-0"
 
-["0.7.2-0"]
+["0.7.2-0.7"]
 Anasol = "0.3.1-*"
 Compat = "0.13.0-*"
 Compose = "0.5.2-*"
@@ -82,8 +82,48 @@ StatsBase = "0.15.0-*"
 ["0.7.2-0.7.4"]
 julia = "1.0.0-*"
 
-["0.7.3-0"]
+["0.7.3-0.7"]
 DataFrames = "0.19.1-*"
 
-["0.7.5-0"]
+["0.7.5-0.7"]
 julia = "1.2.0-*"
+
+["0.8-0"]
+AffineInvariantMCMC = "0"
+Anasol = "0"
+BlackBoxOptim = "0"
+Colors = "0"
+Compose = "0"
+Conda = "1"
+DataFrames = "0"
+DataStructures = "0"
+Distributions = "0"
+DocumentFunction = "0"
+Documenter = "0"
+DocumenterMarkdown = "0"
+FileIO = "1"
+Gadfly = "1"
+Images = "0"
+Ipopt = "0"
+JLD2 = "0"
+JSON = "0"
+JuMP = "0"
+Kriging = "0"
+LsqFit = "0"
+MathProgBase = "0"
+Measures = "0"
+MetaProgTools = "0"
+NMF = "0"
+Optim = "0"
+OrderedCollections = "1"
+OrdinaryDiffEq = "5"
+ProgressMeter = "0"
+PyCall = "1"
+PyPlot = "2"
+ReusableFunctions = "0"
+RobustPmap = "0"
+SVR = "0"
+StatsBase = "0"
+Suppressor = "0"
+YAML = "0"
+julia = "1"
