@@ -1,4 +1,4 @@
-["0.3"]
+["0-0.3"]
 DataFrames = "0"
 Distributions = "0"
 StatsBase = "0"
@@ -10,5 +10,10 @@ julia = "0.7.0-*"
 ["0.5-0.6"]
 julia = "1"
 
-["0.7"]
+["0.7-0"]
 julia = "1.1.0-1"
+
+["0.8-0"]
+DataFrames = "0.19.4-0.19"
+Distributions = "0.21.3-0.21"
+StatsBase = "0.32"
