@@ -23,23 +23,23 @@ julia = "1"
 ["1.12"]
 Compat = "1.0.0-*"
 
-["1.12-1"]
+["1.12-1.19"]
+julia = "1.0.0-*"
+
+["1.12-1.21"]
 GLPKMathProgInterface = "0.4.0-*"
 IntervalArithmetic = "0.14.0-*"
 MathProgBase = "0.7.0-*"
 RecipesBase = "0.3.0-*"
 Requires = "0.4.0-*"
 
-["1.12-1.19"]
-julia = "1.0.0-*"
-
-["1.14-1"]
-GLPK = "0.10.0-*"
-
 ["1.14-1.17"]
 JuMP = "0.19.2-*"
 
-["1.16-1"]
+["1.14-1.21"]
+GLPK = "0.10.0-*"
+
+["1.16-1.21"]
 Reexport = "0.2.0-*"
 
 ["1.18-1.19"]
@@ -48,6 +48,15 @@ JuMP = "0.19"
 ["1.20-1"]
 JuMP = "0.20"
 julia = "1"
+
+["1.22-1"]
+GLPK = "0.10-0.11"
+GLPKMathProgInterface = "0.4"
+IntervalArithmetic = "0.15-0.16"
+MathProgBase = "0.7"
+RecipesBase = "0.4-0.7"
+Reexport = "0.2"
+Requires = "0.5"
 
 ["1.4"]
 GR = "0.32-0"
