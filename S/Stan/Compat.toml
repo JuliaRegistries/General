@@ -1,11 +1,11 @@
-["3.0-3.5"]
+[3]
 BinDeps = "0.4.3-0"
 Compat = "0.17-2"
 Documenter = "0.10-0"
 Homebrew = "0.4-0"
 julia = "0.7-1"
 
-["4.0"]
+[4]
 BinDeps = "0.8.10-0"
 CSV = "0.4.2-0"
 Cairo = "0.5.6-0.5"
@@ -14,4 +14,14 @@ Documenter = "0.19.6-0"
 Gadfly = "1"
 Homebrew = "0.7-0"
 Mamba = "0.12-0"
+
+[4-5]
 julia = "1"
+
+[5]
+StanBase = "1"
+StanDiagnose = "1"
+StanOptimize = "1"
+StanSample = "1"
+StanVariational = "1"
+StatsPlots = "0"

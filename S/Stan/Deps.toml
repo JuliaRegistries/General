@@ -1,22 +1,33 @@
-["3.0-4.0"]
+[3-4]
 BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 Homebrew = "d9be37ee-ecc9-5288-90f1-b9ca67657a75"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[3-5]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["3.0.1-4.0"]
+["3.0.1-4"]
 Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
-["3.5-4.0"]
+["3.5-5"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["4.0"]
+[4]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
 Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Mamba = "5424a776-8be3-5c5b-a13f-3551f69ba0e6"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[5]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StanBase = "d0ee94f6-a23d-54aa-bbe9-7f572d6da7f5"
+StanDiagnose = "fb13fc95-9a72-5e81-90ef-432a29d7f4c2"
+StanOptimize = "fbd8da12-e93d-5a64-9231-612a0707ab99"
+StanSample = "c1514b29-d3a0-5178-b312-660c88baa699"
+StanVariational = "6ede68ce-8466-5085-8a79-4c4de3d9cf4a"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
