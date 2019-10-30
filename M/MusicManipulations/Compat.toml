@@ -10,6 +10,13 @@ julia = "0.7-1"
 ["0-0.6.0"]
 Reexport = "0"
 
+["0.10-0"]
+DefaultApplication = "0.1"
+MotifSequenceGenerator = "1"
+Reexport = "0.2"
+Requires = "0.5.2-0.5"
+StatsBase = "0.32"
+
 ["0.3-0.6.0"]
 DefaultApplication = "0"
 
@@ -26,8 +33,10 @@ MotifSequenceGenerator = "0.2-0"
 MIDI = "1.1.0-1"
 
 ["0.7-0"]
-MotifSequenceGenerator = "0.2.0-*"
 julia = "1.1.0-1"
+
+["0.7-0.9"]
+MotifSequenceGenerator = "0.2.0-*"
 
 ["0.8-0"]
 MIDI = "1.4.1-1"
