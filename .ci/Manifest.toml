@@ -115,9 +115,9 @@ deps = ["Serialization"]
 uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [[RegistryCI]]
-deps = ["Dates", "GitHub", "HTTP", "LibGit2", "Pkg", "Test", "TimeZones"]
-git-tree-sha1 = "24800e1fbe4ceac009881513333b5a3be7aa7e20"
-repo-rev = "cbb41344fbb3efbe002ffd0c906157c1472b48be"
+deps = ["Dates", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "Test", "TimeZones"]
+git-tree-sha1 = "5ae3c5f59f9fed5057c30647613743ae81e4b4de"
+repo-rev = "fbc97752d17138c73a8eb4fb6bf0f36b263f4b09"
 repo-url = "https://github.com/JuliaRegistries/RegistryCI.jl.git"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
 version = "0.3.0-DEV"
