@@ -2,10 +2,10 @@
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
 [0-3]
+CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 [0-4]
-CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 ["0.8.1-0.8.4"]
@@ -16,3 +16,6 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [4]
 CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+
+["4.0.0"]
+CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
