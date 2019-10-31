@@ -1,4 +1,4 @@
-["0.2"]
+["0-0.2"]
 Compat = "1-2"
 JuMP = "0.18.3-0.18"
 MultivariateMoments = "0.1-0"
@@ -6,7 +6,7 @@ MultivariatePolynomials = "0.1-0"
 SemialgebraicSets = "0"
 julia = "0.6-1"
 
-["0.3"]
+["0.3-0"]
 julia = "1"
 
 ["0.3.0"]
@@ -27,10 +27,16 @@ MathOptInterface = "0.8.2-0.8"
 ["0.3.1-0.3.3"]
 MultivariateMoments = "0.2.1-*"
 
-["0.3.2-0.3.3"]
+["0.3.2-0"]
 MultivariatePolynomials = "0.3"
 SemialgebraicSets = "0.2"
 
 ["0.3.3"]
-JuMP = "0.20"
 MathOptInterface = "0.9.1-0.9"
+
+["0.3.3-0"]
+JuMP = "0.20"
+
+["0.3.4-0"]
+MathOptInterface = "0.9.6-0.9"
+MultivariateMoments = "0.2.1-0.2"
