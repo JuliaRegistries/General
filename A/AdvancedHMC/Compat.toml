@@ -9,12 +9,17 @@ julia = "1"
 ["0.1.5-0.2.7"]
 julia = "1.0.0-1"
 
+["0.2.8"]
+LazyArrays = "0.9"
+
 ["0.2.8-0"]
 ArgCheck = "1"
 InplaceOps = "0.3"
-LazyArrays = "0.9"
 Parameters = "0.10"
 ProgressMeter = "1"
 StatsBase = "0.31"
 StatsFuns = "0.8"
 julia = "1"
+
+["0.2.9-0"]
+LazyArrays = ["0.9", "0.12"]
