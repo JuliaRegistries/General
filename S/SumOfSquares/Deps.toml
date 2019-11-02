@@ -1,7 +1,4 @@
-["0.2"]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-
-["0.2-0.3"]
+[0]
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 MultivariateMoments = "f4abf1af-0426-5881-a0da-e2f168889b5e"
 MultivariatePolynomials = "102ac46a-7ee4-5c85-9060-abc95bfdeaa3"
@@ -9,11 +6,16 @@ PolyJuMP = "ddf597a6-d67e-5340-b84c-e37d84115374"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SemialgebraicSets = "8e049039-38e8-557d-ae3a-bc521ccf6204"
 
-["0.3"]
+["0-0.2"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["0.3-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
-["0.3.0-0.3.1"]
+["0.3-0.3.1"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.3-0.3.5"]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
