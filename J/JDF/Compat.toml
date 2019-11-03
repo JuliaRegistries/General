@@ -5,12 +5,17 @@ julia = "1"
 Blosc = "0.5"
 BufferedStreams = "1"
 CSV = "0.5"
-CategoricalArrays = "0.7"
 DataFrames = "0.19"
 Missings = "0.4"
 StatsBase = "0.32"
 WeakRefStrings = "0.6"
 julia = "1.1.0-1"
 
+["0.2-0.2.3"]
+CategoricalArrays = "0.7"
+
 ["0.2.2-0"]
 TimeZones = "0.10"
+
+["0.2.4-0"]
+CategoricalArrays = "0.5-0.7"
