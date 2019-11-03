@@ -1,16 +1,13 @@
-["5.0-5.2"]
+["5-5.2"]
 Juno = "e5e0dc1b-0480-54bc-9374-aad01c23163d"
 
-["5.0-5.3"]
+["5-5.3"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
-["5.0-5.8"]
+["5-5.8"]
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 
-["5.0-6.1"]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["5.0-6.11"]
+[5-6]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 DiffEqDiffTools = "01453d9d-ee7c-5054-8395-0335cb756afa"
@@ -25,13 +22,16 @@ RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["5.2-6.11"]
+["5-6.1"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["5.2-6"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["5.2.2-6.1"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
-["5.4-6.11"]
+["5.4-6"]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
 ["5.5-6.1"]
@@ -40,12 +40,12 @@ Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 ["5.6-6.7"]
 DiffEqOperators = "9fdde737-9c7f-55bf-ade8-46b3f136cc48"
 
-["6.5-6.11"]
+["6.5-6"]
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 
-["6.7-6.11"]
+["6.7-6"]
 SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
 
-["6.8-6.11"]
+["6.8-6"]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
