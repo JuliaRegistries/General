@@ -93,11 +93,13 @@ LazyArrays = "0.8-0.11"
 
 ["0.1.5-0"]
 FastGaussQuadrature = "0.3.2-0.4"
-FillArrays = "0.6-0.7"
 ToeplitzMatrices = "0.5-0.6"
 
 ["0.1.5-0.1"]
 FastTransforms = "0.5-0.6"
+
+["0.1.5-0.2.0"]
+FillArrays = "0.6-0.7"
 
 ["0.1.6-0"]
 BlockArrays = "0.9-0.10"
@@ -110,8 +112,16 @@ InfiniteArrays = "0.2"
 LazyArrays = "0.11"
 
 ["0.2-0"]
-BandedMatrices = "0.11-0.12"
 FFTW = ["0.3", "1"]
+LowRankApprox = "0.2-0.3"
+
+["0.2.0"]
+BandedMatrices = "0.11-0.12"
 InfiniteArrays = "0.2-0.3"
 LazyArrays = "0.11-0.12"
-LowRankApprox = "0.2-0.3"
+
+["0.2.1-0"]
+BandedMatrices = "0.11-0.13"
+FillArrays = "0.6-0.8"
+InfiniteArrays = "0.2-0.4"
+LazyArrays = "0.11-0.13"
