@@ -1,14 +1,14 @@
-["0.3"]
+["0-0.3"]
 Compat = "0.18-2"
 julia = "0.6-1"
 
-["0.3-0.4"]
+["0-0.4"]
 Distributions = "0"
 
 ["0.4-0.5.0"]
 julia = "0.7-1"
 
-["0.4.2-0.4.3"]
+["0.4.2-0.4"]
 DocStringExtensions = "0"
 
 ["0.5.0"]
@@ -18,4 +18,10 @@ DocStringExtensions = "0.6-0"
 ["0.5.1"]
 Distributions = "0.16.0-*"
 DocStringExtensions = "0.7.0-*"
+
+["0.5.1-0"]
 julia = ["0.7", "1"]
+
+["0.5.2-0"]
+Distributions = "0.18-0.23"
+DocStringExtensions = "0.7-0.9"
