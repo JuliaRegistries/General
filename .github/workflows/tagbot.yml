@@ -1,0 +1,17 @@
+name: TagBot App Deprecation Notice
+on:
+  issue_comment:
+    types: created
+jobs:
+  warn:
+    if: github.event.sender.login == 'julia-tagbot[bot]' && contains(github.event.comment.body, 'created release')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+      - run: pip install PyGithub==1.44
+      - run: $GITHUB_WORKSPACE/.ci/tagbot.py
+        env:
+          API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
