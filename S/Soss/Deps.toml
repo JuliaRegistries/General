@@ -1,36 +1,20 @@
 [0]
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
-DataValueInterfaces = "e2d170a0-9d28-54be-80f0-106bbe20a464"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DynamicHMC = "bbc10e6e-7c05-544b-b16e-64fede858acb"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
-IteratorInterfaceExtensions = "82899510-4779-5014-852e-03e436cf321d"
-Lazy = "50d2b5c4-7a5e-59d5-8109-a42b560f39c0"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
-MCMCDiagnostics = "6e857e4b-079a-58c4-aeab-bc2670384359"
 MLStyle = "d8e11817-5142-5d16-987a-aa16d5891078"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
-MetaGraphs = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
 MonteCarloMeasurements = "0987c9cc-fe09-11e8-30f0-b96dd679fdca"
-NLSolversBase = "d41bc354-129a-5804-8e4c-c37616107c6c"
 NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
-Optim = "429524aa-4258-5aef-a3af-852621145aeb"
-PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
-Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
-PositiveFactorizations = "85a6dd25-e78a-55b7-8502-1745935b8125"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 SimpleGraphs = "55797a34-41de-5266-9ec1-32ac4eb504d3"
 SimplePartitions = "ec83eff0-a5b5-5643-ae32-5cbf6eedec9d"
 SimplePosets = "b2aef97b-4721-5af9-b440-0bad754dc5ba"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
-TableTraits = "3783bdb8-4a98-5b6b-af9a-565f29a5fe9c"
-Tokenize = "0796e94c-ce3b-5d07-9a54-7f471281c624"
 TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
 
 ["0-0.1"]
@@ -55,25 +39,47 @@ Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 SymPy = "24249f21-da20-56a4-8eb1-6a02cf4ae2e6"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
+["0-0.6"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+DataValueInterfaces = "e2d170a0-9d28-54be-80f0-106bbe20a464"
+IteratorInterfaceExtensions = "82899510-4779-5014-852e-03e436cf321d"
+Lazy = "50d2b5c4-7a5e-59d5-8109-a42b560f39c0"
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+MCMCDiagnostics = "6e857e4b-079a-58c4-aeab-bc2670384359"
+MetaGraphs = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
+NLSolversBase = "d41bc354-129a-5804-8e4c-c37616107c6c"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+PositiveFactorizations = "85a6dd25-e78a-55b7-8502-1745935b8125"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+TableTraits = "3783bdb8-4a98-5b6b-af9a-565f29a5fe9c"
+Tokenize = "0796e94c-ce3b-5d07-9a54-7f471281c624"
+
 ["0.2"]
 MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
 Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
 
 ["0.2-0"]
 AdvancedHMC = "0bf59076-c3b1-5ca4-86bd-e02cd72cde3d"
-CodeTracking = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
 DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
+
+["0.2-0.6"]
+CodeTracking = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
 Transducers = "28d57a85-8fef-5791-bfe6-a80928e7c999"
 
 ["0.3-0"]
+GeneralizedGenerated = "6b9d7cbe-bcb9-11e9-073f-15a7a543e2eb"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.3-0.6"]
 BangBang = "198e06fe-97b7-11e9-32a5-e1d131e6ad66"
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
-GeneralizedGenerated = "6b9d7cbe-bcb9-11e9-073f-15a7a543e2eb"
 Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
 OnlineStats = "a15396b6-48d5-5d58-9928-6d29437db91e"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Sobol = "ed01d8cd-4d21-5b2a-85b4-cc3bdc58bad4"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
@@ -81,7 +87,7 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 ["0.5-0"]
 ResumableFunctions = "c5292f4c-5179-55e1-98c5-05642aab7184"
 
-["0.6-0"]
+["0.6"]
 CanonicalTraits = "a603d957-0e48-4f86-8fbd-0b7bc66df689"
 DistributionsAD = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
 FunctionWrappers = "069b7b12-0de2-55c6-9aab-29f3d0a68a2e"
@@ -90,3 +96,12 @@ JuliaVariables = "b14d175d-62b4-44ba-8fb7-3064adc8c3ec"
 MLJ = "add582a8-e3ab-11e8-2d5e-e98b27df1bc7"
 NameResolution = "71a1bf82-56d0-4bbc-8a3c-48b961074391"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
+["0.7-0"]
+Bijectors = "76274a88-744f-5084-9051-94815aaf08c4"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
+Stheno = "8188c328-b5d6-583d-959b-9690869a5511"
+SymPy = "24249f21-da20-56a4-8eb1-6a02cf4ae2e6"
