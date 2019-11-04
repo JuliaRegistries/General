@@ -1,12 +1,12 @@
-["0.2-0.3"]
+["0-0.3"]
 CUDAapi = "0-0.2"
 CUDAdrv = "0.5-0.6"
 
-["0.2-0.6"]
+["0-0.6"]
 CUDAnative = "0.5-0.8"
 julia = "0.6-1"
 
-["0.2-0.8.0"]
+["0-0.8.0"]
 NNlib = "0-0.4.2"
 
 ["0.3-0.7"]
@@ -48,44 +48,58 @@ CUDAnative = "0.8-1"
 ["0.8.0"]
 GPUArrays = "0.4-0.5"
 
-["0.8.1"]
+["0.8.1-0.8"]
 CUDAapi = "0.4.1-0"
 GPUArrays = "0.4.2-0.5"
 NNlib = "0.4-0.4.2"
 
-["0.9"]
+["0.9-0"]
+Adapt = "0.4-0"
+CUDAapi = "0.5.3-0"
 CUDAdrv = "1.0.1-1"
 CUDAnative = "1"
 NNlib = "0.4.3-0.5"
 
-["0.9-1.0"]
-Adapt = "0.4-0"
-CUDAapi = "0.5.3-0"
+["0.9-1"]
+julia = "1"
 
 ["0.9-1.0.1"]
 GPUArrays = "0.5-0.6"
 
-["0.9-1.2"]
-julia = "1"
-
-["1.0.0-1.0.1"]
+["1-1.0.1"]
 CUDAdrv = "2"
 CUDAnative = "2.0"
 NNlib = "0.5"
 
+["1.0"]
+Adapt = "0.4-0"
+CUDAapi = "0.5.3-0"
+
 ["1.0.1"]
 TimerOutputs = "0"
 
-["1.0.2"]
-GPUArrays = "0.7-0"
-NNlib = "0.6-0"
-
-["1.0.2-1.2"]
+["1.0.2-1"]
 CUDAdrv = "3"
 CUDAnative = "2"
 
-["1.1-1.2"]
+["1.0.2-1.0"]
+GPUArrays = "0.7-0"
+NNlib = "0.6-0"
+
+["1.1-1"]
 Adapt = "1"
+NNlib = "0.6"
+
+["1.1-1.2"]
 CUDAapi = ["0.5.3-0.6", "1"]
 GPUArrays = ["0.7.1-0.7", "1"]
-NNlib = "0.6"
+
+["1.3-1"]
+AbstractFFTs = "0.4"
+CEnum = "0.2"
+CUDAapi = "1.2.0-1"
+DataStructures = "0.17"
+GPUArrays = "1.0.4-1"
+MacroTools = "0.5"
+Requires = "0.5"
+TimerOutputs = "0.4-0.5"
