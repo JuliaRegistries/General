@@ -1,34 +1,41 @@
-["0.10-2.4"]
-Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-
-["0.7-0.8.5"]
+["0-0.8.5"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-["0.7-2.0"]
+[0-1]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.7-2.4"]
+[0-2]
 CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
 CUDAdrv = "c5f51814-7f29-56b8-a69c-e4d8f6be1fde"
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 LLVM = "929cbde3-209d-540e-8aea-75f648917ca0"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
+["0.10-2"]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+
 ["0.8-0.9"]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
-["0.8.6-2.0"]
+["0.8.6-1"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.8.6-2.4"]
+["0.8.6-2"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 ["0.9-2.1.2"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-["2.0.1-2.4"]
+["2.0"]
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["2.0.1-2"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 
 ["2.1-2.4"]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+
+["2.5-2"]
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
