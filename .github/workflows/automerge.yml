@@ -14,7 +14,7 @@ jobs:
         julia-arch: [x86]
         os: [ubuntu-latest]
     steps:
-       - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819
+      - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819
       - uses: julia-actions/setup-julia@a072d0b2e463063d60f08e151727e0e548db233d # v0.2.1
         with:
           version: ${{ matrix.julia-version }}
