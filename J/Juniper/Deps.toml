@@ -1,11 +1,4 @@
-["0.2"]
-Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["0.2-0.3"]
-MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
-
-["0.2-0.5"]
+[0]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
@@ -13,5 +6,12 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.4-0.5"]
+["0-0.2"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.3"]
+MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
+
+["0.4-0"]
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"

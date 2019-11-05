@@ -1,8 +1,4 @@
-["0.4"]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-Interact = "c601a237-2ae4-5e1e-952c-7a85b0c7eef1"
-
-["0.4-0.6"]
+[0]
 ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
 DrakeVisualizer = "49c7015b-b8db-5bc5-841b-fcb31c578176"
@@ -14,10 +10,14 @@ RigidBodyDynamics = "366cf18f-59d5-5db9-a4de-86a9f6786172"
 Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
+["0-0.4"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+Interact = "c601a237-2ae4-5e1e-952c-7a85b0c7eef1"
+
 ["0.5"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.5-0.6"]
+["0.5-0"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 InteractBase = "d3863d7c-f0c8-5437-a7b4-3ae773c01009"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"

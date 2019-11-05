@@ -1,18 +1,18 @@
-["0.10"]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-Nullables = "4d1e1d77-625e-5b40-9113-a560ec7a8ecd"
-
-["0.10-0.12"]
+[0]
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 Syslogs = "cea106d9-e007-5e6c-ad93-58fe2094e9c4"
 TimeZones = "f269a46b-ccf7-5d73-abea-4c690281aa53"
 
-["0.11-0.12"]
+["0-0.10"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+Nullables = "4d1e1d77-625e-5b40-9113-a560ec7a8ecd"
+
+["0.11-0"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
-["0.12"]
+["0.12-0"]
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"

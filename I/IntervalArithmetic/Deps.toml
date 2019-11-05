@@ -1,12 +1,4 @@
-["0.14"]
-AdjacentFloats = "6cc8125e-a04b-5e90-9cbf-894ba9b8047f"
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-
-["0.14-0.15"]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["0.14-0.16"]
+[0]
 CRlibm = "96374032-68de-5a5b-8d9e-752f78720389"
 FastRounding = "fa42c844-2597-5d31-933b-ebd51ab2693f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -14,5 +6,13 @@ Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["0.15-0.16"]
+["0-0.14"]
+AdjacentFloats = "6cc8125e-a04b-5e90-9cbf-894ba9b8047f"
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0-0.15"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.15-0"]
 SetRounding = "3cc68bcd-71a2-5612-b932-767ffbe40ab0"

@@ -1,23 +1,23 @@
-["0.5"]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-
-["0.5-0.7"]
+[0]
 DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
 WignerSymbols = "9f57e263-0b3d-5e2e-b1be-24f2bb48858b"
 
-["0.6-0.7"]
+["0-0.5"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["0.6-0"]
 Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
-["0.6.0-0.6.5"]
+["0.6-0.6.5"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.7"]
+["0.7-0"]
 QuantumOpticsBase = "4f57444f-1401-5e15-980d-4471b28d5678"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"

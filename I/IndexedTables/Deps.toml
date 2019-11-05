@@ -1,33 +1,33 @@
-["0.10-0.12"]
-DataValues = "e7dc6d0d-1eca-5fa6-8ad6-5aecde8b7ea5"
-
-["0.11-0.12"]
-TableTraitsUtils = "382cd787-c1b6-5bf2-a167-d5b971a19bda"
-
-["0.12.3-0.12.4"]
-DataAPI = "9a962f9c-6df0-11e9-0e5d-c546b8b5ee8a"
-
-["0.7"]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-NamedTuples = "73a701b4-84e1-5df0-88ff-1968ee2ee8dc"
-
-["0.7-0.12"]
+[0]
 PooledArrays = "2dfb63ee-cc39-5dd5-95bd-886bf059d720"
 TableTraits = "3783bdb8-4a98-5b6b-af9a-565f29a5fe9c"
 WeakRefStrings = "ea10d353-3f73-51f8-a26c-33c1cb351aa5"
 
-["0.7-0.8"]
+["0-0.7"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+NamedTuples = "73a701b4-84e1-5df0-88ff-1968ee2ee8dc"
+
+["0-0.8"]
 OnlineStats = "a15396b6-48d5-5d58-9928-6d29437db91e"
 
-["0.7-0.9"]
+["0-0.9"]
 TableTraitsUtils = "382cd787-c1b6-5bf2-a167-d5b971a19bda"
+
+["0.10-0"]
+DataValues = "e7dc6d0d-1eca-5fa6-8ad6-5aecde8b7ea5"
+
+["0.11-0"]
+TableTraitsUtils = "382cd787-c1b6-5bf2-a167-d5b971a19bda"
+
+["0.12.3-0"]
+DataAPI = "9a962f9c-6df0-11e9-0e5d-c546b8b5ee8a"
 
 ["0.8"]
 DataValues = "e7dc6d0d-1eca-5fa6-8ad6-5aecde8b7ea5"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 
-["0.8-0.12"]
+["0.8-0"]
 IteratorInterfaceExtensions = "82899510-4779-5014-852e-03e436cf321d"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
@@ -37,7 +37,7 @@ Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.9-0.12"]
+["0.9-0"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 OnlineStatsBase = "925886fa-5bf2-5e8e-b522-a9147a512338"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"

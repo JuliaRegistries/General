@@ -1,12 +1,12 @@
-["0.6"]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
-
-["0.6-0.8"]
+[0]
 MemPool = "f9f48841-c794-520a-933b-121f7ba6ed94"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0.7-0.8"]
+["0-0.6"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+
+["0.7-0"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Profile = "9abbd945-dff8-562f-b5e8-e1ebf5ef1b79"

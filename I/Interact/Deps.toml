@@ -1,10 +1,4 @@
-["0.10"]
-OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
-
-["0.8"]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-
-["0.8-0.10"]
+[0]
 CSSUtil = "70588ee8-6100-5070-97c1-3cb50ed05fe8"
 InteractBase = "d3863d7c-f0c8-5437-a7b4-3ae773c01009"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
@@ -12,11 +6,17 @@ Knockout = "bcebb21b-c2e3-54f8-a781-646b90f6d2cc"
 WebIO = "0f1e0344-ec1d-5b48-a673-e5cf874b6c29"
 Widgets = "cc8bc4a8-27d6-5769-a93b-9d913e69aa62"
 
-["0.8-0.9"]
+["0-0.8"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["0-0.9"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 InteractBulma = "7981ab7d-5bfa-5e03-9ec9-f3d4afc0a1ca"
 
-["0.9-0.10"]
+["0.10-0"]
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
+["0.9-0"]
 Observables = "510215fc-4207-5dde-b226-833fc4488ee2"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 

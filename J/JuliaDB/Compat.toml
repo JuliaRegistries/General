@@ -1,19 +1,4 @@
-["0.10"]
-IndexedTables = "0.9-0"
-
-["0.11-0.12"]
-Dagger = "0.8-0"
-IndexedTables = "0.10-0"
-MemPool = "0.2-0"
-
-["0.9"]
-IndexedTables = "0.8.1-0.8"
-
-["0.9-0.10"]
-Dagger = "0.7.3-0"
-MemPool = "0.1.1-0"
-
-["0.9-0.12"]
+[0]
 DataValues = "0"
 Glob = "1.2-1"
 Nullables = "0"
@@ -25,3 +10,18 @@ StatsBase = "0"
 TextParse = "0.6-0"
 WeakRefStrings = "0-0.5"
 julia = "1"
+
+["0-0.10"]
+Dagger = "0.7.3-0"
+MemPool = "0.1.1-0"
+
+["0-0.9"]
+IndexedTables = "0.8.1-0.8"
+
+["0.10"]
+IndexedTables = "0.9-0"
+
+["0.11-0"]
+Dagger = "0.8-0"
+IndexedTables = "0.10-0"
+MemPool = "0.2-0"

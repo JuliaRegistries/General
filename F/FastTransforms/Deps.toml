@@ -1,7 +1,4 @@
-["0.5"]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-
-["0.5-0.6"]
+[0]
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
@@ -12,5 +9,8 @@ ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 ToeplitzMatrices = "c751599d-da0a-543b-9d20-d0a503d91d24"
 
-["0.6"]
+["0-0.5"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["0.6-0"]
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
