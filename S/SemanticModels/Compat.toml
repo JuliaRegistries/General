@@ -6,11 +6,9 @@ DataFrames = "0"
 DataFramesMeta = "0"
 Distributions = "0"
 Documenter = "0"
-GLM = "0-1"
 GraphDataFrameBridge = "0"
 JSON = "0"
 Latexify = "0"
-LightGraphs = "0-1"
 MetaGraphs = "0"
 Plots = "0"
 Unitful = "0"
@@ -18,5 +16,21 @@ Unitful = "0"
 ["0-0.1"]
 julia = "1.0.3-1"
 
-["0.2-0"]
+["0-0.2"]
+GLM = "0-1"
+LightGraphs = "0-1"
+
+["0.2"]
 julia = "1"
+
+["0.3-0"]
+Catlab = "*"
+DelimitedFiles = "0.0.0-1"
+GLM = "0.0.0-1"
+LightGraphs = "0.0.0-1"
+LinearAlgebra = "0.0.0-1"
+Logging = "0.0.0-1"
+MacroTools = "0"
+ModelingToolkit = "*"
+Petri = "0"
+Random = "0.0.0-1"
