@@ -17,9 +17,17 @@ SoftGlobalScope = "1"
 ZMQ = "1"
 julia = "0.7-1"
 
-["1.19-1"]
+["1.19-1.20.0"]
 Conda = "0.1.5-*"
 JSON = "0.17.0-*"
 MbedTLS = "0.4.3-*"
 ZMQ = "1.0.0-*"
 julia = "0.7.0-1"
+
+["1.20.1-1"]
+Conda = "1"
+JSON = "0.18-0.21"
+MbedTLS = "0.5-0.7"
+SoftGlobalScope = "1"
+ZMQ = "1"
+julia = ["0.7", "1"]
