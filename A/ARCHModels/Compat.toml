@@ -23,6 +23,9 @@ julia = "1"
 ["0.5-0.5.1"]
 StatsBase = "0.30.0-*"
 
+["0.5.2"]
+StatsBase = "0.31-0.33"
+
 ["0.5.2-0"]
 DataStructures = "0.17.5-0.17"
 Distributions = "0.21.5-0.21"
@@ -33,5 +36,7 @@ Reexport = "0.2"
 Requires = "0.5.2-0.5"
 Roots = "0.8.3-0.8"
 SpecialFunctions = "0.7.2-0.7"
-StatsBase = "0.31-0.33"
 StatsFuns = "0.8"
+
+["0.5.3-0"]
+StatsBase = "0.31-0.32"
