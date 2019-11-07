@@ -1,7 +1,6 @@
 [0]
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 FFTViews = "4f61f5a4-77b1-5117-aa51-3ab5ef4ef0cd"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
@@ -16,6 +15,9 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Wavelets = "29a6e085-ba6d-5f35-a997-948ac2efa89a"
 
+["0-0.7"]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
 ["0.4-0"]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
@@ -23,7 +25,16 @@ NFFT = "efe261a4-0d2b-5849-be55-fc731d526b0d"
 SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 
 ["0.6-0"]
-Elliptic = "b305315f-e792-5b7a-8f41-49f472929428"
 ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
 ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
+
+["0.6-0.7"]
+Elliptic = "b305315f-e792-5b7a-8f41-49f472929428"
+
+["0.8-0"]
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+LinearMapsAA = "599c1a8e-b958-11e9-0d14-b1e6b2ecea07"
+MIRTio = "274281c4-ae57-11e9-2014-65d3d5d9358c"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
