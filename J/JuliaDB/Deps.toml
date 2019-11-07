@@ -1,8 +1,4 @@
-["0.9"]
-Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-
-["0.9-0.12"]
+[0]
 Dagger = "d58978e5-989f-55fb-8d15-ea34adc7bf54"
 DataValues = "e7dc6d0d-1eca-5fa6-8ad6-5aecde8b7ea5"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
@@ -18,6 +14,15 @@ RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 TextParse = "e0df1984-e451-5cb5-8b61-797a481e67e3"
 WeakRefStrings = "ea10d353-3f73-51f8-a26c-33c1cb351aa5"
+
+["0-0.12"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.9"]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.13-0"]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
