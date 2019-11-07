@@ -1,19 +1,21 @@
 [0]
+Requires = "0.5"
 julia = "1"
 
 ["0.2"]
-InitialValues = "*"
+InitialValues = "0.1-0.2"
 
-["0.3-0.3.1"]
-InitialValues = "0.2.0-*"
+["0.2-0.3.1"]
+Setfield = "0.2-0.5"
+
+["0.3-0"]
+InitialValues = "0.2"
+ZygoteRules = "0.1-0.2"
 
 ["0.3.2-0"]
 Compat = "2"
 ConstructionBase = "0.1"
-InitialValues = "0.2"
-Requires = "0.5"
 Tables = "0.2"
-ZygoteRules = "0.1-0.2"
 
 ["0.3.4-0"]
 Setfield = "0.5.1-0.5"
