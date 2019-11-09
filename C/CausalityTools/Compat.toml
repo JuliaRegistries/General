@@ -89,8 +89,10 @@ Simplices = ["0.4.1-0.4", "1"]
 StateSpaceReconstruction = ["0.4.2-0.4", "1"]
 StaticArrays = ["0.11", "1"]
 StatsBase = ["0.32", "1"]
-TimeseriesSurrogates = ["0.3.1-0.3", "1"]
 TransferEntropy = ["0.4.3-0.4", "1"]
+
+["0.4-0.5.1"]
+TimeseriesSurrogates = ["0.3.1-0.3", "1"]
 
 ["0.4.0"]
 UncertainData = ["0.8", "1"]
@@ -100,3 +102,7 @@ UncertainData = ["0.9.1-0.9", "1"]
 
 ["0.5-0"]
 Interpolations = ["0.12", "1"]
+
+["0.5.2-0"]
+Requires = ["0.5", "1"]
+TimeseriesSurrogates = ["0.4", "1"]
