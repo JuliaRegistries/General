@@ -1,4 +1,4 @@
-["0.2-0.3"]
+["0-0.3"]
 AbstractFFTs = "0"
 DSP = "0"
 Distributions = "0"
@@ -12,3 +12,16 @@ julia = "0.7-1"
 
 ["0.3"]
 UncertainData = "0"
+
+["0.4-0"]
+AbstractFFTs = "0.4.1"
+DSP = ["0.5.2-0.5", "1"]
+Distributions = ["0.21", "1"]
+InplaceOps = ["0.3", "1"]
+Interpolations = ["0.12", "1"]
+Plots = ["0.23", "1"]
+Requires = ["0.5.2-0.5", "1"]
+StatsBase = ["0.32", "1"]
+UncertainData = ["0.9.2-0.9", "1"]
+Wavelets = ["0.8", "1"]
+julia = "1.1.0-1"
