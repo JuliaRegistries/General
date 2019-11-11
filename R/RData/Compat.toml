@@ -7,7 +7,7 @@ CategoricalArrays = "0.3-0"
 CodecZlib = "0.4-0"
 DataFrames = "0.13-0"
 TimeZones = "0.7.3-0"
-julia = "0.7-1"
+julia = ["0.7", "1"]
 
 ["0.6-0.6.0"]
 FileIO = "1.0.5-1"
@@ -18,4 +18,4 @@ CodecZlib = "0.4.0-*"
 DataFrames = "0.13.0-*"
 FileIO = "1.0.5-*"
 TimeZones = "0.7.3-*"
-julia = "0.7.0-1"
+julia = ["0.7.0", "1"]
