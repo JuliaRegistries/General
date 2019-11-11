@@ -21,26 +21,26 @@ Requires = "0.4.4-0"
 julia = "1"
 
 ["1.12"]
-Compat = "1.0.0-*"
+Compat = "1.0.0 - 2"
 
 ["1.12-1.19"]
 julia = "1.0.0-1"
 
 ["1.12-1.21"]
-GLPKMathProgInterface = "0.4.0-*"
-IntervalArithmetic = "0.14.0-*"
-MathProgBase = "0.7.0-*"
-RecipesBase = "0.3.0-*"
-Requires = "0.4.0-*"
+GLPKMathProgInterface = "0.4.0 - 0.4"
+IntervalArithmetic = "0.14.0 - 0.16"
+MathProgBase = "0.7.0 - 0.7"
+RecipesBase = "0.3.0 - 0.7"
+Requires = "0.4.0 - 0.5"
 
 ["1.14-1.17"]
-JuMP = "0.19.2-*"
+JuMP = "0.19.2 - 0.20"
 
 ["1.14-1.21"]
-GLPK = "0.10.0-*"
+GLPK = "0.10.0 - 0.12"
 
 ["1.16-1.21"]
-Reexport = "0.2.0-*"
+Reexport = "0.2.0 - 0.2"
 
 ["1.18-1.19"]
 JuMP = "0.19"

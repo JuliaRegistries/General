@@ -13,23 +13,23 @@ RoME = "0.2.1-0"
 julia = ["0.7-0", "1.0"]
 
 ["0.1.1"]
-IncrementalInference = "0.5.1-*"
-RoME = "0.3.1-*"
-
-["0.1.1-0"]
-ApproxManifoldProducts = "0.0.3-*"
-Colors = "0.9.4-*"
-Compose = "0.7.1-*"
-DocStringExtensions = "0.7.0-*"
-Gadfly = "1.0.0-*"
-Graphs = "0.10.2-*"
-KernelDensityEstimate = "0.5.0-*"
-KernelDensityEstimatePlotting = "0.1.0-*"
-Reexport = "0.2.0-*"
-StatsBase = "0.25.0-*"
+IncrementalInference = "0.5.1 - 0.7"
+RoME = "0.3.1 - 0.4"
 
 ["0.1.1-0.1.3"]
 julia = ["0.7", "1"]
+
+["0.1.1-0.1.6"]
+ApproxManifoldProducts = "0.0.3 - 0.1"
+Colors = "0.9.4 - 0.9"
+Compose = "0.7.1 - 0.7"
+DocStringExtensions = "0.7.0 - 0.8"
+Gadfly = "1.0.0 - 1"
+Graphs = "0.10.2 - 0.10"
+KernelDensityEstimate = "0.5.0 - 0.5"
+KernelDensityEstimatePlotting = "0.1.0 - 0.1"
+Reexport = "0.2.0 - 0.2"
+StatsBase = "0.25.0 - 0.32"
 
 ["0.1.2"]
 IncrementalInference = "0.5-0.6"
@@ -44,12 +44,23 @@ IncrementalInference = "0.5-0.8"
 julia = "1"
 
 ["0.1.4-0.1.6"]
+DistributedFactorGraphs = "0.0.0 - 0.4"
 RoME = "0.3-0.5"
 
 ["0.1.6-0"]
 IncrementalInference = "0.7.4-0.8"
 
 ["0.1.7-0"]
+ApproxManifoldProducts = "0.0.3-*"
 Cairo = "0.6"
+Colors = "0.9.4-*"
+Compose = "0.7.1-*"
 DistributedFactorGraphs = "0.4"
+DocStringExtensions = "0.7.0-*"
+Gadfly = "1.0.0-*"
+Graphs = "0.10.2-*"
+KernelDensityEstimate = "0.5.0-*"
+KernelDensityEstimatePlotting = "0.1.0-*"
+Reexport = "0.2.0-*"
 RoME = "0.4.2-0.5"
+StatsBase = "0.25.0-*"

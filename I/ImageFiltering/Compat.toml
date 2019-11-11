@@ -19,12 +19,32 @@ StaticArrays = "0.0.5-0"
 ["0.5.3-0.5"]
 Requires = "0"
 
-["0.6-0.6.0"]
+["0.6-0.6.4"]
+CatIndices = "0.0.0 - 0.2"
+ColorVectorSpace = "0.0.0 - 0.7"
+Colors = "0.0.0 - 0.9"
+ComputationalResources = "0.0.0 - 0.3"
+FFTViews = "0.0.0 - 0.3"
+ImageCore = "0.0.0 - 0.8"
+MappedArrays = "0.0.0 - 0.2"
+OffsetArrays = "0.0.0 - 0.11"
+Requires = "0.0.0 - 0.5"
+TiledIteration = "0.0.0 - 0.2"
+
+["0.6.0"]
 julia = "1"
 
 ["0.6.1-0"]
+julia = "1.0.0-1"
+
+["0.6.1-0.6.4"]
+DataStructures = "0.4.6 - 0.17"
+FFTW = "0.0.3 - 1"
+FixedPointNumbers = "0.3.0 - 0.6"
+StaticArrays = "0.0.5 - 0.12"
+
+["0.6.5-0"]
 DataStructures = "0.4.6-*"
 FFTW = "0.0.3-*"
 FixedPointNumbers = "0.3.0-*"
 StaticArrays = "0.0.5-*"
-julia = "1.0.0-1"

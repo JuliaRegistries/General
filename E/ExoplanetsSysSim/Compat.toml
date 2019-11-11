@@ -1,15 +1,29 @@
 [1]
+Compat = "2.1.0-2"
+FileIO = "1"
+JLD = "0.9"
+julia = "0.7.0-1"
+
+["1.0.0"]
+CORBITS = "1.0.0 - 1"
+CSV = "0.4.3 - 0.5"
+Combinatorics = "0.7.0 - 0.7"
+DataFrames = "0.17.1 - 0.19"
+Distributions = "0.20.0 - 0.21"
+HypothesisTests = "0.8.0 - 0.8"
+JLD2 = "0.1.2 - 0.1"
+PDMats = "0.9.6 - 0.9"
+SpecialFunctions = "0.7.2 - 0.8"
+StatsFuns = "0.8.0 - 0.9"
+
+["1.0.1-1"]
 CORBITS = "1.0.0-*"
 CSV = "0.4.3-*"
 Combinatorics = "0.7.0-*"
-Compat = "2.1.0-2"
 DataFrames = "0.17.1-*"
 Distributions = "0.20.0-*"
-FileIO = "1"
 HypothesisTests = "0.8.0-*"
-JLD = "0.9"
 JLD2 = "0.1.2-*"
 PDMats = "0.9.6-*"
 SpecialFunctions = "0.7.2-*"
 StatsFuns = "0.8.0-*"
-julia = "0.7.0-1"

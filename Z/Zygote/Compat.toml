@@ -16,6 +16,14 @@ IRTools = "0"
 ["0.2-0"]
 julia = "1"
 
+["0.3"]
+DiffRules = "0.0.0 - 0.1"
+ForwardDiff = "0.0.0 - 0.10"
+MacroTools = "0.0.0 - 0.5"
+NaNMath = "0.0.0 - 0.3"
+Requires = "0.0.0 - 0.5"
+SpecialFunctions = "0.0.0 - 0.8"
+
 ["0.3.0"]
 IRTools = "0.2-0"
 NNlib = "0.6-0"
@@ -26,7 +34,11 @@ NNlib = "0.6"
 ["0.3.1-0.3"]
 IRTools = "0.2"
 
+["0.3.2-0.3"]
+FillArrays = "0.0.0 - 0.8"
+
 ["0.3.3-0.3"]
+FFTW = "0.0.0 - 1"
 ZygoteRules = "0.1"
 
 ["0.4-0"]

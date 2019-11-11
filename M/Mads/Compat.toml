@@ -54,36 +54,83 @@ Suppressor = "0"
 ["0.6.3-0.7.0"]
 DocumenterMarkdown = "0"
 
-["0.7-0.7.0"]
+["0.7-0.7.1"]
+julia = "1"
+
+["0.7.0"]
 Ipopt = "0.5-0"
 JuMP = "0.19-0"
 MathProgBase = "0.7-0"
 
-["0.7-0.7.1"]
-julia = "1"
+["0.7.1"]
+Anasol = "0.0.0 - 0.6"
+Compat = "0.0.0 - 2"
+Compose = "0.0.0 - 0.7"
+Conda = "0.0.0 - 1"
+Documenter = "0.0.0 - 0.23"
+Gadfly = "0.0.0 - 1"
+Ipopt = "0.0.0 - 0.6"
+JuMP = "0.0.0 - 0.20"
+LsqFit = "0.0.0 - 0.8"
+MathProgBase = "0.0.0 - 0.7"
+PyCall = "0.0.0 - 1"
+PyPlot = "0.0.0 - 2"
+ReusableFunctions = "0.0.0 - 0.7"
+SVR = "0.0.0 - 0.6"
+StatsBase = "0.0.0 - 0.32"
+
+["0.7.1-0.7"]
+AffineInvariantMCMC = "0.0.0 - 0.6"
+BlackBoxOptim = "0.0.0 - 0.5"
+Cairo = "0.0.0 - 0.8"
+Colors = "0.0.0 - 0.9"
+DataStructures = "0.0.0 - 0.17"
+Distributions = "0.0.0 - 0.21"
+DocumentFunction = "0.0.0 - 0.6"
+DocumenterMarkdown = "0.0.0 - 0.2"
+FileIO = "0.0.0 - 1"
+Fontconfig = "0.0.0 - 0.3"
+Images = "0.0.0 - 0.18"
+JLD2 = "0.0.0 - 0.1"
+JSON = "0.0.0 - 0.21"
+Kriging = "0.0.0 - 0.5"
+Measures = "0.0.0 - 0.3"
+MetaProgTools = "0.0.0 - 0.6"
+NMF = "0.0.0 - 0.4"
+Optim = "0.0.0 - 0.19"
+OrderedCollections = "0.0.0 - 1"
+OrdinaryDiffEq = "0.0.0 - 5"
+ProgressMeter = "0.0.0 - 1"
+QuartzImageIO = "0.0.0 - 0.6"
+RobustPmap = "0.0.0 - 0.6"
+Suppressor = "0.0.0 - 0.1"
+YAML = "0.0.0 - 0.3"
+
+["0.7.1-0.7.2"]
+DataFrames = "0.0.0 - 0.19"
 
 ["0.7.2-0.7"]
-Anasol = "0.3.1-*"
-Compat = "0.13.0-*"
-Compose = "0.5.2-*"
-Conda = "0.4.0-*"
-Documenter = "0.8.10-*"
-Gadfly = "0.6.5-*"
-Ipopt = "0.5.0-*"
-JuMP = "0.19.0-*"
-LsqFit = "0.3.0-*"
-MathProgBase = "0.7.0-*"
-PyCall = "1.8.0-*"
-PyPlot = "2.2.0-*"
-ReusableFunctions = "0.2.6-*"
-SVR = "0.2.3-*"
-StatsBase = "0.15.0-*"
+Anasol = "0.3.1 - 0.6"
+Compat = "0.13.0 - 2"
+Compose = "0.5.2 - 0.7"
+Conda = "0.4.0 - 1"
+Documenter = "0.8.10 - 0.23"
+Gadfly = "0.6.5 - 1"
+Ipopt = "0.5.0 - 0.6"
+JuMP = "0.19.0 - 0.20"
+LsqFit = "0.3.0 - 0.8"
+MathProgBase = "0.7.0 - 0.7"
+PyCall = "1.8.0 - 1"
+PyPlot = "2.2.0 - 2"
+ReusableFunctions = "0.2.6 - 0.7"
+SVR = "0.2.3 - 0.6"
+StatsBase = "0.15.0 - 0.32"
 
 ["0.7.2-0.7.4"]
 julia = "1.0.0-1"
 
 ["0.7.3-0.7"]
-DataFrames = "0.19.1-*"
+DataFrames = "0.19.1 - 0.19"
 
 ["0.7.5-0.7"]
 julia = "1.2.0-1"

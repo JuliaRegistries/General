@@ -18,14 +18,16 @@ KernelDensityEstimate = "0.4.3-0"
 julia = ["0.7", "1"]
 
 ["0.1-0.1.1"]
-CoordinateTransformations = "0.5.0-*"
-DocStringExtensions = "0.5.0-*"
-KernelDensityEstimate = "0.5.0-*"
-NLsolve = "3.0.0-*"
-Optim = "0.16.0-*"
-Reexport = "0.2.0-*"
-Requires = "0.5.0-*"
-TransformUtils = "0.2.2-*"
+Compat = "0.0.0 - 2"
+CoordinateTransformations = "0.5.0 - 0.5"
+DocStringExtensions = "0.5.0 - 0.8"
+KernelDensityEstimate = "0.5.0 - 0.5"
+NLsolve = "3.0.0 - 4"
+Optim = "0.16.0 - 0.19"
+Reexport = "0.2.0 - 0.2"
+Requires = "0.5.0 - 0.5"
+StaticArrays = "0.0.0 - 0.12"
+TransformUtils = "0.2.2 - 0.2"
 
 ["0.1.2-0"]
 Compat = "1.5.1-2"

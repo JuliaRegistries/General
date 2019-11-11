@@ -1,7 +1,10 @@
-["0.6"]
+["0-0.6"]
 julia = "1"
 
-["0.6-0.8.5"]
+["0-0.6.0"]
+Documenter = "0"
+
+["0-0.8.5"]
 CSVFiles = "0"
 Compose = "0"
 DataFrames = "0"
@@ -25,19 +28,49 @@ StringBuilders = "0"
 TableTraits = "0-1"
 VegaLite = "0"
 
-["0.6-0.8.6"]
+["0-0.8.6"]
 GraphPlot = "0.3-0"
-
-["0.6.0"]
-Documenter = "0"
 
 ["0.7-0.8.6"]
 julia = "1.1-1"
 
-["0.8.0-0.8.5"]
+["0.8-0.8.5"]
 GlobalSensitivityAnalysis = "0"
 
-["0.8.7-0.9"]
+["0.8.6"]
+ExcelFiles = "0.0.0 - 1"
+IterableTables = "0.0.0 - 1"
+Query = "0.0.0 - 0.12"
+TableTraits = "0.0.0 - 1"
+
+["0.8.6-0.8"]
+Electron = "0.0.0 - 1"
+
+["0.8.6-0.9.1"]
+DataFrames = "0.0.0 - 0.19"
+
+["0.8.6-0.9.2"]
+CSVFiles = "0.0.0 - 0.16"
+
+["0.8.6-0.9.3"]
+Compose = "0.0.0 - 0.7"
+DataStructures = "0.0.0 - 0.17"
+Distributions = "0.0.0 - 0.21"
+FileIO = "0.0.0 - 1"
+FilePaths = "0.0.0 - 0.8"
+GlobalSensitivityAnalysis = "0.0.0 - 0.0.6"
+IterTools = "0.0.0 - 1"
+JSON = "0.0.0 - 0.21"
+LightGraphs = "0.0.0 - 1"
+MacroTools = "0.0.0 - 0.5"
+MetaGraphs = "0.0.0 - 0.6"
+NamedArrays = "0.0.0 - 0.9"
+ProgressMeter = "0.0.0 - 1"
+StatsBase = "0.0.0 - 0.32"
+StringBuilders = "0.0.0 - 0.2"
+VegaLite = "0.0.0 - 0.7"
+
+["0.8.7-0"]
 IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
 TableTraits = ["0.4.1-0.4", "1"]
 julia = "1"
@@ -45,14 +78,14 @@ julia = "1"
 ["0.8.7-0.9.3"]
 GraphPlot = "0.3"
 
-["0.9"]
+["0.9-0"]
 Electron = ["0.2-0.4", "1"]
 
-["0.9.2-0.9.4"]
+["0.9.2-0"]
 DataFrames = "0.19.1-0.19"
 
-["0.9.3-0.9.4"]
+["0.9.3-0"]
 CSVFiles = "0.16"
 
-["0.9.4"]
+["0.9.4-0"]
 GraphPlot = "0.3-0.4"

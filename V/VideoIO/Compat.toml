@@ -14,18 +14,45 @@ Requires = "0"
 ["0-0.6.0"]
 julia = "0.7-1"
 
+["0.5.5-0.5"]
+Homebrew = "0.0.0 - 0.7"
+
 ["0.5.5-0.6.0"]
 FixedPointNumbers = "0.3-0"
 
-["0.6-0.6.0"]
+["0.5.5-0.6.7"]
+FileIO = "0.0.0 - 1"
+
+["0.5.5-0.6.9"]
+ColorTypes = "0.0.0 - 0.8"
+Glob = "0.0.0 - 1"
+ImageCore = "0.0.0 - 0.8"
+Requires = "0.0.0 - 0.5"
+
+["0.6.0"]
 BinaryProvider = "0.3-0"
 
 ["0.6.1-0"]
 julia = "0.7.0-1"
 
 ["0.6.1-0.6.7"]
-BinaryProvider = "0.3.0-*"
-FixedPointNumbers = "0.3.0-*"
+BinaryProvider = "0.3.0 - 0.5"
+FixedPointNumbers = "0.3.0 - 0.6"
 
-["0.6.8-0"]
+["0.6.10-0"]
 FFMPEG = "0.2.0-*"
+
+["0.6.3-0.6.7"]
+ImageTransformations = "0.0.0 - 0.8"
+
+["0.6.3-0.6.9"]
+ProgressMeter = "0.0.0 - 1"
+
+["0.6.5-0.6.6"]
+StatsBase = "0.0.0 - 0.32"
+
+["0.6.8-0.6.9"]
+FFMPEG = "0.2.0 - 0.2"
+
+["0.6.9"]
+ImageTransformations = "0.0.0 - 0.8"

@@ -11,11 +11,12 @@ Elliptic = "0.5-0"
 Elliptic = "0.5-0"
 
 ["3.5.2"]
-MuladdMacro = "0.5.2-*"
+MuladdMacro = "0.5.2 - 0.2"
 
 ["3.5.2-3.6"]
-Elliptic = "0.5.0-*"
-StaticArrays = "0.8.2-*"
+Elliptic = "0.5.0 - 0.5"
+Requires = "0.0.0 - 0.5"
+StaticArrays = "0.8.2 - 0.12"
 
 ["3.5.2-3.6.0"]
 julia = "1.0.0-1"

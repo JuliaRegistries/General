@@ -14,7 +14,26 @@ StatsFuns = "0.7-0"
 StatsModels = "0.3-0.5"
 julia = "0.7-1"
 
+["0.10"]
+BioSequences = "1.0.0 - 1"
+BioSymbols = "3.0.0 - 3"
+CSV = "0.4.0 - 0.5"
+Combinatorics = "0.7.0 - 0.7"
+DataFrames = "0.13.0 - 0.19"
+DataStructures = "0.9.0 - 0.17"
+Distributions = "0.15.0 - 0.21"
+GLM = "1.0.0 - 1"
+NLopt = "0.5.1 - 0.5"
+SpecialFunctions = "0.7.0 - 0.8"
+StaticArrays = "0.8.3 - 0.12"
+StatsBase = "0.26.0 - 0.32"
+StatsFuns = "0.7.0 - 0.9"
+StatsModels = "0.6.0 - 0.6"
+
 ["0.10-0"]
+julia = "0.7.0-1"
+
+["0.11-0"]
 BioSequences = "1.0.0-*"
 BioSymbols = "3.0.0-*"
 CSV = "0.4.0-*"
@@ -29,4 +48,3 @@ StaticArrays = "0.8.3-*"
 StatsBase = "0.26.0-*"
 StatsFuns = "0.7.0-*"
 StatsModels = "0.6.0-*"
-julia = "0.7.0-1"

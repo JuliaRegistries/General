@@ -56,32 +56,52 @@ ApproxManifoldProducts = "0.0.3-0"
 Graphs = "0.10.2-0"
 KernelDensityEstimate = "0.5-0"
 
+["0.5.5-0.5"]
+ApproxManifoldProducts = "0.0.0 - 0.1"
+Distributions = "0.0.0 - 0.21"
+DocStringExtensions = "0.0.0 - 0.8"
+FileIO = "0.0.0 - 1"
+Graphs = "0.0.0 - 0.10"
+JLD2 = "0.0.0 - 0.1"
+KernelDensityEstimate = "0.0.0 - 0.5"
+NLsolve = "0.0.0 - 4"
+Optim = "0.0.0 - 0.19"
+ProgressMeter = "0.0.0 - 1"
+Reexport = "0.0.0 - 0.2"
+StatsBase = "0.0.0 - 0.32"
+
+["0.5.5-0.7.8"]
+Requires = "0.0.0 - 0.5"
+
 ["0.6"]
 ApproxManifoldProducts = "0.0.3"
 julia = ["0.7", "1"]
 
 ["0.6-0.7.0"]
-FunctionalStateMachine = "0.1.0-*"
-KernelDensityEstimate = "0.5.0-*"
+FunctionalStateMachine = "0.1.0 - 0.1"
+KernelDensityEstimate = "0.5.0 - 0.5"
 
 ["0.6-0.7.8"]
-Distributions = "0.18.0-*"
-DocStringExtensions = "0.7.0-*"
-FileIO = "1.0.2-*"
-Graphs = "0.10.2-*"
-JLD2 = "0.1.0-*"
-NLsolve = "3.0.0-*"
-Optim = "0.16.0-*"
-ProgressMeter = "0.6.0-*"
-Reexport = "0.2.0-*"
-StatsBase = "0.25.0-*"
+Distributions = "0.18.0 - 0.21"
+DocStringExtensions = "0.7.0 - 0.8"
+FileIO = "1.0.2 - 1"
+Graphs = "0.10.2 - 0.10"
+JLD2 = "0.1.0 - 0.1"
+NLsolve = "3.0.0 - 4"
+Optim = "0.16.0 - 0.19"
+ProgressMeter = "0.6.0 - 1"
+Reexport = "0.2.0 - 0.2"
+StatsBase = "0.25.0 - 0.32"
 
 ["0.7-0"]
 julia = "1"
 
+["0.7-0.7.8"]
+JSON2 = "0.0.0 - 0.3"
+
 ["0.7.0"]
-ApproxManifoldProducts = "0.1.0-*"
-DistributedFactorGraphs = "0.1.2-*"
+ApproxManifoldProducts = "0.1.0 - 0.1"
+DistributedFactorGraphs = "0.1.2 - 0.4"
 
 ["0.7.1-0"]
 ApproxManifoldProducts = "0.1-0.2"

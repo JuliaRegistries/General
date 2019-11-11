@@ -11,8 +11,13 @@ DataFrames = "0"
 ["0.8.1-0"]
 julia = "1"
 
+["0.8.1-0.8"]
+DataFrames = "0.0.0 - 0.19"
+OrderedCollections = "0.0.0 - 1"
+
 ["0.8.2-0.8"]
-StatsBase = "0.6.0-*"
+Requires = "0.0.0 - 0.5"
+StatsBase = "0.6.0 - 0.32"
 
 ["0.9-0"]
 DataFrames = "0.19.4-0.19"

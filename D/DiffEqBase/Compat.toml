@@ -58,12 +58,21 @@ ArrayInterface = "1.1.0-1"
 ["5.5.2-5.6"]
 DocStringExtensions = "0"
 
-["5.8-6"]
-MuladdMacro = "0.2.1-*"
-Parameters = "0.10.0-*"
-RecipesBase = "0.1.0-*"
-RecursiveArrayTools = "0.12.3-*"
-StaticArrays = "0.8.3-*"
+["5.7-6.4.1"]
+Compat = "0.0.0 - 2"
+DocStringExtensions = "0.0.0 - 0.8"
+IterativeSolvers = "0.0.0 - 0.8"
+RecursiveFactorization = "0.0.0 - 0.1"
+Requires = "0.0.0 - 0.5"
+Roots = "0.0.0 - 0.8"
+TreeViews = "0.0.0 - 0.3"
+
+["5.8-6.4.1"]
+MuladdMacro = "0.2.1 - 0.2"
+Parameters = "0.10.0 - 0.12"
+RecipesBase = "0.1.0 - 0.7"
+RecursiveArrayTools = "0.12.3 - 1"
+StaticArrays = "0.8.3 - 0.12"
 
 ["5.8.0"]
 IteratorInterfaceExtensions = "0.1.0-1"
@@ -73,5 +82,15 @@ TableTraits = "0.3.0-1"
 IteratorInterfaceExtensions = ["0.1", "1"]
 TableTraits = ["0.3-0.4", "1"]
 
+["5.9-6.4.1"]
+FunctionWrappers = "0.0.0 - 1"
+
 ["6.2.4-6"]
 DiffEqDiffTools = "1"
+
+["6.4.2-6"]
+MuladdMacro = "0.2.1-*"
+Parameters = "0.10.0-*"
+RecipesBase = "0.1.0-*"
+RecursiveArrayTools = "0.12.3-*"
+StaticArrays = "0.8.3-*"

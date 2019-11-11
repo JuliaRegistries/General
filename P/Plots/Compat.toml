@@ -49,15 +49,31 @@ GR = "0.37-0"
 GR = "0.38.1-0"
 
 ["0.25-0"]
-FixedPointNumbers = "0.3.0-*"
-GR = "0.31.0-*"
-PlotThemes = "0.1.3-*"
-RecipesBase = "0.6.0-*"
-StatsBase = "0.14.0-*"
 julia = "1.0.0-1"
 
 ["0.25-0.26"]
-PlotUtils = "0.4.1-*"
+Contour = "0.0.0 - 0.5"
+FixedPointNumbers = "0.3.0 - 0.6"
+GR = "0.31.0 - 0.42"
+GeometryTypes = "0.0.0 - 0.7"
+JSON = "0.0.0 - 0.21"
+Measures = "0.0.0 - 0.3"
+NaNMath = "0.0.0 - 0.3"
+PlotThemes = "0.1.3 - 0.4"
+PlotUtils = "0.4.1 - 0.6"
+RecipesBase = "0.6.0 - 0.7"
+Reexport = "0.0.0 - 0.2"
+Requires = "0.0.0 - 0.5"
+Showoff = "0.0.0 - 0.3"
+StatsBase = "0.14.0 - 0.32"
+
+["0.26"]
+FFMPEG = "0.0.0 - 0.2"
 
 ["0.27-0"]
+FixedPointNumbers = "0.3.0-*"
+GR = "0.31.0-*"
+PlotThemes = "0.1.3-*"
 PlotUtils = "0.6.0-*"
+RecipesBase = "0.6.0-*"
+StatsBase = "0.14.0-*"

@@ -1,4 +1,4 @@
-["1.0-1.1"]
+["1-1.1"]
 ForceImport = "0"
 SyntaxTree = "0-1"
 julia = "0.7-1"
@@ -6,14 +6,23 @@ julia = "0.7-1"
 ["1.1"]
 AbstractTensors = "0"
 
-["1.1.1"]
+["1.1.1-1.1"]
 DirectSum = "0"
 
-["1.2"]
+["1.2-1"]
 julia = "1"
 
-["1.2.0-1.2.1"]
+["1.2-1.2.1"]
 DirectSum = "0.3"
 
-["1.2.2-1.2.3"]
+["1.2-1.2.2"]
+AbstractTensors = "0.0.0 - 0.3"
+ForceImport = "0.0.0 - 0.0.3"
+Leibniz = "0.0.0 - 0.0.3"
+SyntaxTree = "0.0.0 - 1"
+
+["1.2.2"]
+DirectSum = "0.3.0 - 0.4"
+
+["1.2.3-1"]
 DirectSum = "0.3.0-*"

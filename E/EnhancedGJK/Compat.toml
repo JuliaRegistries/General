@@ -4,8 +4,15 @@ GeometryTypes = "0.4-0"
 StaticArrays = "0.5.1-0"
 julia = "0.7-1"
 
+["0.3"]
+CoordinateTransformations = "0.3.0 - 0.5"
+GeometryTypes = "0.4.0 - 0.7"
+StaticArrays = "0.5.1 - 0.12"
+
 ["0.3-0"]
+julia = "0.7.0-1"
+
+["0.4-0"]
 CoordinateTransformations = "0.3.0-*"
 GeometryTypes = "0.4.0-*"
 StaticArrays = "0.5.1-*"
-julia = "0.7.0-1"

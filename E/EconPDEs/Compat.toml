@@ -14,11 +14,25 @@ julia = "0.7-1"
 DifferentialEquations = "0-6"
 OrderedCollections = "0-1"
 
+["0.2.2"]
+MINPACK = "0.0.0 - 1"
+
+["0.2.2-0.2"]
+NLsolve = "0.0.0 - 4"
+OrderedCollections = "0.0.0 - 1"
+
 ["0.2.3"]
-SparseDiffTools = "0.3.0-*"
+SparseDiffTools = "0.3.0 - 0.10"
 
 ["0.2.3-0"]
 julia = "1.1.0-1"
 
-["0.2.4-0"]
+["0.2.3-0.2"]
+BlockBandedMatrices = "0.0.0 - 0.6"
+DiffEqDiffTools = "0.0.0 - 1"
+
+["0.2.4-0.2"]
+SparseDiffTools = "0.8.0 - 0.10"
+
+["0.3-0"]
 SparseDiffTools = "0.8.0-*"

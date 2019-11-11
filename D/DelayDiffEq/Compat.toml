@@ -42,10 +42,10 @@ DiffEqBase = "5"
 OrdinaryDiffEq = "5"
 
 ["5.11-5.14"]
-OrdinaryDiffEq = "5.13.0-*"
+OrdinaryDiffEq = "5.13.0 - 5"
 
 ["5.13-5.14"]
-DiffEqBase = "5.19.0-*"
+DiffEqBase = "5.19.0 - 6"
 
 ["5.15"]
 Parameters = "0.10-0.11"
@@ -67,28 +67,37 @@ DiffEqBase = "5.3.2-5"
 OrdinaryDiffEq = "5.2-5"
 
 ["5.3-5.11"]
-DiffEqDiffTools = "0.3.0-*"
-NLSolversBase = "4.2.0-*"
+DiffEqDiffTools = "0.3.0 - 1"
+ForwardDiff = "0.0.0 - 0.10"
+NLSolversBase = "4.2.0 - 7"
 
 ["5.3-5.14"]
-DataStructures = "0.4.6-*"
-RecursiveArrayTools = "0.18.6-*"
+DataStructures = "0.4.6 - 0.17"
+RecursiveArrayTools = "0.18.6 - 1"
+Reexport = "0.0.0 - 0.2"
+Roots = "0.0.0 - 0.8"
 julia = "1.0.0-1"
 
 ["5.3-5.4"]
-DiffEqBase = "5.3.2-*"
+DiffEqBase = "5.3.2 - 6"
 
 ["5.3-5.6"]
-OrdinaryDiffEq = "5.2.0-*"
+OrdinaryDiffEq = "5.2.0 - 5"
+
+["5.3-5.7"]
+MuladdMacro = "0.0.0 - 0.2"
 
 ["5.5"]
-DiffEqBase = "5.12.0-*"
+DiffEqBase = "5.12.0 - 6"
+
+["5.5-5.14"]
+Parameters = "0.0.0 - 0.12"
 
 ["5.6-5.12"]
-DiffEqBase = "5.13.0-*"
+DiffEqBase = "5.13.0 - 6"
 
 ["5.7"]
-OrdinaryDiffEq = "5.11.1-*"
+OrdinaryDiffEq = "5.11.1 - 5"
 
 ["5.8-5.10"]
-OrdinaryDiffEq = "5.12.0-*"
+OrdinaryDiffEq = "5.12.0 - 5"

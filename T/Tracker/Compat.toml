@@ -9,6 +9,15 @@ Requires = "0"
 SpecialFunctions = "0"
 julia = "1"
 
+["0.2-0.2.3"]
+Adapt = "0.0.0 - 1"
+DiffRules = "0.0.0 - 0.1"
+ForwardDiff = "0.0.0 - 0.10"
+MacroTools = "0.0.0 - 0.5"
+NaNMath = "0.0.0 - 0.3"
+Requires = "0.0.0 - 0.5"
+SpecialFunctions = "0.0.0 - 0.8"
+
 ["0.2.0"]
 NNlib = "0.6-0"
 julia = "0.7-1"
@@ -17,7 +26,7 @@ julia = "0.7-1"
 julia = ["0.7", "1"]
 
 ["0.2.1-0.2.3"]
-NNlib = "0.6.0-*"
+NNlib = "0.6.0 - 0.6"
 
 ["0.2.4-0"]
 Adapt = "1"

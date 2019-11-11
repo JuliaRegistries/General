@@ -6,15 +6,17 @@ DataFrames = "0.17.1-0"
 LinearOperators = "0.4-0"
 NLPModels = "0.7-0"
 
-["0.1.2-0"]
-DataFrames = "0.17.1-*"
-LinearOperators = "0.4.0-*"
-
 ["0.1.2-0.1.4"]
-NLPModels = "0.7.0-*"
+NLPModels = "0.7.0 - 0.9"
+
+["0.1.2-0.1.5"]
+DataFrames = "0.17.1 - 0.19"
+LinearOperators = "0.4.0 - 0.6"
 
 ["0.1.5"]
 NLPModels = "0.7-0.8"
 
 ["0.1.6-0"]
+DataFrames = "0.17.1-*"
+LinearOperators = "0.4.0-*"
 NLPModels = "0.7-0.9"

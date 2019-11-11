@@ -12,9 +12,13 @@ julia = "0.7-1"
 julia = ["0.7", "1"]
 
 ["0.4.1-0.4"]
-Cairo = "0.5.6-*"
-Graphics = "0.2.0-*"
-GtkReactive = "0.5.1-*"
+Cairo = "0.5.6 - 0.8"
+Colors = "0.0.0 - 0.9"
+FileIO = "0.0.0 - 1"
+Graphics = "0.2.0 - 0.4"
+Gtk = "0.0.0 - 0.18"
+GtkReactive = "0.5.1 - 0.6"
+IntervalSets = "0.0.0 - 0.3"
 
 ["0.5-0"]
 Cairo = "0.5-0.6"

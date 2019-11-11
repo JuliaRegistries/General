@@ -44,15 +44,42 @@ GeometryTypes = "0.7.2-0"
 AbstractPlotting = "0.9.6-0"
 
 ["0.0.6"]
-AbstractPlotting = "0.9.6-*"
+AbstractPlotting = "0.9.6 - 0.9"
 julia = "1"
 
-["0.0.6-0"]
+["0.0.6-0.0.7"]
+AxisArrays = "0.0.0 - 0.3"
+ColorTypes = "0.0.0 - 0.8"
+ColorVectorSpace = "0.0.0 - 0.7"
+Colors = "0.0.0 - 0.9"
+FileIO = "0.0.0 - 1"
+FixedPointNumbers = "0.0.0 - 0.6"
+FreeType = "0.0.0 - 2"
+FreeTypeAbstraction = "0.3.0 - 0.4"
+GLFW = "2.3.0 - 3"
+GeometryTypes = "0.7.2 - 0.7"
+ImageAxes = "0.0.0 - 0.6"
+ImageCore = "0.0.0 - 0.8"
+ImageFiltering = "0.0.0 - 0.6"
+ImageMagick = "0.0.0 - 0.7"
+ImageTransformations = "0.0.0 - 0.8"
+IndirectArrays = "0.0.0 - 0.5"
+IntervalSets = "0.0.0 - 0.3"
+IterTools = "0.0.0 - 1"
+MeshIO = "0.0.0 - 0.3"
+ModernGL = "0.0.0 - 1"
+Observables = "0.0.0 - 0.2"
+StaticArrays = "0.6.6 - 0.12"
+
+["0.0.7"]
+AbstractPlotting = "0.9.9 - 0.9"
+
+["0.0.7-0"]
+julia = "1.0.0-1"
+
+["0.0.8-0"]
+AbstractPlotting = "0.9.9-*"
 FreeTypeAbstraction = "0.3.0-*"
 GLFW = "2.3.0-*"
 GeometryTypes = "0.7.2-*"
 StaticArrays = "0.6.6-*"
-
-["0.0.7-0"]
-AbstractPlotting = "0.9.9-*"
-julia = "1.0.0-1"

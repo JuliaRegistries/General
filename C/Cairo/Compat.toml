@@ -10,9 +10,20 @@ Compat = "0.52-2"
 Graphics = "0"
 
 ["0.6"]
+Homebrew = "0.0.0 - 0.7"
+WinRPM = "0.0.0 - 0.4"
 julia = "0.7-1"
 
+["0.6-0.7"]
+Colors = "0.0.0 - 0.9"
+
+["0.7"]
+BinaryProvider = "0.3.0 - 0.5"
+Graphics = "0.1.0 - 0.4"
+
 ["0.7-0"]
+julia = ["0.7", "1"]
+
+["0.8-0"]
 BinaryProvider = "0.3.0-*"
 Graphics = "0.1.0-*"
-julia = ["0.7", "1"]

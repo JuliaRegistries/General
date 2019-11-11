@@ -12,15 +12,18 @@ ModelingToolkit = "0"
 julia = "1"
 
 ["0.11"]
-IntervalArithmetic = "0.15.0-*"
-IntervalContractors = "0.3.0-*"
+IntervalArithmetic = "0.15.0 - 0.16"
+IntervalContractors = "0.3.0 - 0.4"
+IntervalRootFinding = "0.4.0 - 0.4"
+MacroTools = "0.4.0 - 0.5"
+ModelingToolkit = "0.2.0 - 0.8"
 
 ["0.11-0"]
-IntervalRootFinding = "0.4.0-*"
-MacroTools = "0.4.0-*"
-ModelingToolkit = "0.2.0-*"
 julia = "1.1.0-1"
 
 ["0.12-0"]
 IntervalArithmetic = "0.16.0-*"
 IntervalContractors = "0.4.0-*"
+IntervalRootFinding = "0.4.0-*"
+MacroTools = "0.4.0-*"
+ModelingToolkit = "0.2.0-*"

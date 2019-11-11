@@ -16,13 +16,26 @@ julia = "0.7-1"
 OnlineStatsBase = "0.10"
 
 ["0.24"]
+DataStructures = "0.0.0 - 0.17"
 OnlineStatsBase = "0.11"
 
 ["0.24-1"]
 julia = "1"
 
+["0.24-1.0.1"]
+LearnBase = "0.0.0 - 0.2"
+LossFunctions = "0.0.0 - 0.5"
+PenaltyFunctions = "0.0.0 - 0.1"
+RecipesBase = "0.0.0 - 0.7"
+Reexport = "0.0.0 - 0.2"
+StatsBase = "0.0.0 - 0.32"
+SweepOperator = "0.0.0 - 0.3"
+
 ["0.25"]
 OnlineStatsBase = "0.12-0"
+
+["0.25-1.0.1"]
+OrderedCollections = "0.0.0 - 1"
 
 ["0.26-0"]
 OnlineStatsBase = "0.13"

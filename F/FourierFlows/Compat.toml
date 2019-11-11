@@ -14,16 +14,24 @@ julia = "0.7-1"
 ["0.2.1-0.3.0"]
 Interpolations = "0.8-0"
 
-["0.3-0.3.0"]
+["0.3.0"]
 FFTW = "0.2.4-0"
 JLD2 = "0.1.2-0"
 Reexport = "0"
 
+["0.3.1"]
+Coverage = "0.0.0 - 0.9"
+FFTW = "0.2.4 - 1"
+Interpolations = "0.8.0 - 0.12"
+JLD2 = "0.1.2 - 0.1"
+Reexport = "0.0.0 - 0.2"
+Requires = "0.0.0 - 0.5"
+
 ["0.3.1-0"]
-FFTW = "0.2.4-*"
-Interpolations = "0.8.0-*"
-JLD2 = "0.1.2-*"
 julia = "0.7.0-1"
 
 ["0.3.2-0"]
 CuArrays = "1.2.1-*"
+FFTW = "0.2.4-*"
+Interpolations = "0.8.0-*"
+JLD2 = "0.1.2-*"

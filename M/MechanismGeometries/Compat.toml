@@ -12,19 +12,30 @@ StaticArrays = "0.5-0"
 julia = "0.6-1"
 
 ["0.3"]
-FileIO = "0.1.0-*"
-MeshIO = "0.1.0-*"
-RigidBodyDynamics = "0.5.0-*"
+FileIO = "0.1.0 - 1"
+MeshIO = "0.1.0 - 0.3"
+RigidBodyDynamics = "0.5.0 - 2"
 julia = "0.7.0-1"
 
-["0.3-0"]
+["0.3-0.4.0"]
+ColorTypes = "0.2.0 - 0.8"
+CoordinateTransformations = "0.4.1 - 0.5"
+GeometryTypes = "0.4.0 - 0.7"
+LightXML = "0.4.0 - 0.8"
+Rotations = "0.6.1 - 0.12"
+StaticArrays = "0.5.0 - 0.12"
+
+["0.4-0"]
+julia = "1"
+
+["0.4.0"]
+RigidBodyDynamics = "2.0.0 - 2"
+
+["0.4.1-0"]
 ColorTypes = "0.2.0-*"
 CoordinateTransformations = "0.4.1-*"
 GeometryTypes = "0.4.0-*"
 LightXML = "0.4.0-*"
+RigidBodyDynamics = "2.0.0-*"
 Rotations = "0.6.1-*"
 StaticArrays = "0.5.0-*"
-
-["0.4-0"]
-RigidBodyDynamics = "2.0.0-*"
-julia = "1"

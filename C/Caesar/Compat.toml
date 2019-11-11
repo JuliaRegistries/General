@@ -104,10 +104,47 @@ julia = ["0.7", "1"]
 
 ["0.4-0"]
 ApproxManifoldProducts = ["0.0.3", "0.1"]
+IncrementalInference = "0.7.2-0.7"
+RoME = "0.3.4-0.4"
+julia = "1"
+
+["0.4-0.4.1"]
+CloudGraphs = "0.1.1 - 0.1"
+Combinatorics = "0.7.0 - 0.7"
+CoordinateTransformations = "0.5.0 - 0.5"
+DataStructures = "0.15.0 - 0.17"
+Distributions = "0.18.0 - 0.21"
+DocStringExtensions = "0.7.0 - 0.8"
+FFTW = "0.2.4 - 1"
+FileIO = "1.0.0 - 1"
+Graphs = "0.10.2 - 0.10"
+ImageCore = "0.7.0 - 0.8"
+ImageMagick = "0.7.0 - 0.7"
+JLD2 = "0.1.0 - 0.1"
+JSON = "0.18.0 - 0.21"
+KernelDensityEstimate = "0.5.0 - 0.5"
+LCMCore = "0.5.0 - 0.6"
+Mongoc = "0.1.2 - 0.4"
+NLsolve = "3.0.0 - 4"
+Neo4j = "2.0.0 - 2"
+ProgressMeter = "0.9.0 - 1"
+Reexport = "0.2.0 - 0.2"
+Rotations = "0.11.0 - 0.12"
+TransformUtils = "0.2.2 - 0.2"
+Unmarshal = "0.2.1 - 0.2"
+YAML = "0.3.0 - 0.3"
+ZMQ = "1.0.0 - 1"
+
+["0.4.1"]
+DistributedFactorGraphs = "0.2.2-0.3"
+JSON2 = "0.0.0 - 0.3"
+
+["0.4.2-0"]
 CloudGraphs = "0.1.1-*"
 Combinatorics = "0.7.0-*"
 CoordinateTransformations = "0.5.0-*"
 DataStructures = "0.15.0-*"
+DistributedFactorGraphs = "0.3-0.4"
 Distributions = "0.18.0-*"
 DocStringExtensions = "0.7.0-*"
 FFTW = "0.2.4-*"
@@ -115,7 +152,6 @@ FileIO = "1.0.0-*"
 Graphs = "0.10.2-*"
 ImageCore = "0.7.0-*"
 ImageMagick = "0.7.0-*"
-IncrementalInference = "0.7.2-0.7"
 JLD2 = "0.1.0-*"
 JSON = "0.18.0-*"
 KernelDensityEstimate = "0.5.0-*"
@@ -125,16 +161,8 @@ NLsolve = "3.0.0-*"
 Neo4j = "2.0.0-*"
 ProgressMeter = "0.9.0-*"
 Reexport = "0.2.0-*"
-RoME = "0.3.4-0.4"
 Rotations = "0.11.0-*"
 TransformUtils = "0.2.2-*"
 Unmarshal = "0.2.1-*"
 YAML = "0.3.0-*"
 ZMQ = "1.0.0-*"
-julia = "1"
-
-["0.4.1"]
-DistributedFactorGraphs = "0.2.2-0.3"
-
-["0.4.2-0"]
-DistributedFactorGraphs = "0.3-0.4"

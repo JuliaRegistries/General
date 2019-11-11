@@ -7,12 +7,24 @@ CSyntax = "0"
 GLFW = "0-2"
 ModernGL = "0-1"
 
+["1.69.1"]
+BinaryProvider = "0.0.0 - 0.5"
+CSyntax = "0.0.0 - 0.3"
+GLFW = "0.0.0 - 3"
+
+["1.69.1-1.72"]
+ModernGL = "0.0.0 - 1"
+
 ["1.69.2"]
 GLFW = "2.3"
 
-["1.69.2-1"]
-BinaryProvider = "0.3.0-*"
-CSyntax = "0.2.0-*"
+["1.69.2-1.72"]
+BinaryProvider = "0.3.0 - 0.5"
+CSyntax = "0.2.0 - 0.3"
 
 ["1.69.3-1"]
 GLFW = "3"
+
+["1.73-1"]
+BinaryProvider = "0.3.0-*"
+CSyntax = "0.2.0-*"
