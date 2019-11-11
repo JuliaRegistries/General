@@ -2,7 +2,7 @@ name: AutoMerge
 
 on:
   schedule:
-    - cron: '15,45 * * * *'
+    - cron: '0/10 * * * *'
   pull_request:
 
 jobs:
