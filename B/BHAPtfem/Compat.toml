@@ -1,4 +1,8 @@
 [1]
+PtFEM = "1"
+julia = "1"
+
+["1.0.0"]
 Compat = "2"
 CustomUnitRanges = "0"
 DataFrames = "0"
@@ -6,6 +10,14 @@ FinEtools = "3"
 GR = "0"
 Interpolations = "0"
 OffsetArrays = "0"
-PtFEM = "1"
 Reexport = "0"
-julia = "1"
+
+["1.0.1-1"]
+Compat = "2.2.0-2"
+CustomUnitRanges = "0.2"
+DataFrames = "0.19"
+FinEtools = "3-4"
+GR = "0.42"
+Interpolations = "0.12"
+OffsetArrays = "0.11"
+Reexport = "0.2"
