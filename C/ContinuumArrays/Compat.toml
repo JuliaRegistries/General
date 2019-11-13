@@ -1,7 +1,15 @@
 [0]
+IntervalSets = "0.3.1-0.3"
+julia = "1.1.0-1"
+
+["0-0.0.1"]
 BandedMatrices = "0.12"
 FillArrays = "0.7"
-IntervalSets = "0.3.1-0.3"
 LazyArrays = "0.12"
 QuasiArrays = "0.0.2"
-julia = "1.1.0-1"
+
+["0.0.2-0"]
+BandedMatrices = "0.14"
+FillArrays = "0.8"
+LazyArrays = "0.14"
+QuasiArrays = "0.0.4"
