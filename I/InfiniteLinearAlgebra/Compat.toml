@@ -1,9 +1,20 @@
 [0]
-BandedMatrices = "0.12.3-0.12"
 BlockArrays = "0.10"
+MatrixFactorizations = "0.2"
+julia = "1.2.0-1"
+
+["0-0.0.1"]
+BandedMatrices = "0.12.3-0.12"
 BlockBandedMatrices = "0.5.1-0.5"
 FillArrays = "0.7.1-0.7"
 InfiniteArrays = "0.3"
 LazyArrays = "0.12.1-0.12"
-MatrixFactorizations = "0.2"
-julia = "1.2.0-1"
+
+["0.0.2-0"]
+ArrayLayouts = "0.1"
+BandedMatrices = "0.14"
+BlockBandedMatrices = "0.6"
+FillArrays = "0.8"
+InfiniteArrays = "0.4"
+LazyArrays = "0.14.4-0.14"
+LazyBandedMatrices = "0.0.1"
