@@ -30,6 +30,23 @@ TransformVariables = "0"
 ["0.2-0.3"]
 MCMCChains = "0"
 
-[1]
+["1.0.0"]
 DynamicHMC = "2"
 julia = "1.2.0-1"
+
+["1.0.1-1"]
+CSV = "0.5"
+DataFrames = "0.19"
+Distributions = "0.21"
+DynamicHMC = "2.1.0-2"
+ForwardDiff = "0.10"
+LogDensityProblems = "0.9"
+MCMCChains = "0.3"
+MCMCDiagnostics = "0.3"
+Optim = "0.18-0.19"
+Parameters = "0.12"
+Reexport = "0.2"
+StatsFuns = "0.9"
+StatsPlots = "0.12"
+TransformVariables = "0.3"
+julia = "1"
