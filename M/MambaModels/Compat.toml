@@ -14,11 +14,23 @@ StatisticalRethinking = "0"
 StatsBase = "0"
 StatsFuns = "0"
 StatsPlots = "0"
-julia = "1"
 
 ["0-0.1"]
 MCMCChain = "0"
 
+[0-1]
+julia = "1"
+
 ["0.2-0"]
 MCMCChains = "0"
 Plots = "0"
+
+[1]
+CSV = "0.5"
+DataFrames = "0.19"
+Distributions = "0.21"
+MCMCChains = "0.3"
+Mamba = "0.12"
+Reexport = "0.2"
+StatsFuns = "0.9"
+StatsPlots = "0.12"

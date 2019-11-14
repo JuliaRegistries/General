@@ -1,27 +1,34 @@
 [0]
-CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
 JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
-Mamba = "5424a776-8be3-5c5b-a13f-3551f69ba0e6"
 RDatasets = "ce6b1742-4840-55fa-b093-852dadbb1d8b"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 StatisticalRethinking = "2d09df54-9d0f-5258-8220-54c2a3d4fbee"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
-StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
-StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0-0.1"]
 MCMCChain = "1671dc4f-43c8-512c-ab25-e1704a74065e"
 
+[0-1]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Mamba = "5424a776-8be3-5c5b-a13f-3551f69ba0e6"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
 ["0.2-0"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
-MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
+["0.2-1"]
+MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
+
+[1]
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
