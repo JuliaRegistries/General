@@ -8,6 +8,11 @@ julia = "1"
 ["0.4-0.5.0"]
 MacroTools = "0.4.4-*"
 
-["0.5.1-0"]
+["0.5.1"]
 ConstructionBase = "0.1"
+
+["0.5.1-0"]
 MacroTools = "0.4.4-0.5"
+
+["0.5.2-0"]
+ConstructionBase = ["0.1", "1"]
