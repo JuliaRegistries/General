@@ -10,7 +10,6 @@ Tau = "0.2"
 ["0.11-0"]
 Distances = "0.8"
 MemPool = "0.2"
-Rmath = "0.5"
 
 ["0.11-0.11.1"]
 MLDatasets = "0.3"
@@ -32,6 +31,9 @@ Unitful = "0.16"
 MLJ = "0.2.5-0.2"
 MLJBase = "0.2.6-0.2"
 MLJModels = "0.2.5-0.2"
+
+["0.11-0.13.0"]
+Rmath = "0.5"
 
 ["0.11.0"]
 ScikitLearnBase = "0.4.1-0.4"
@@ -59,7 +61,6 @@ Compose = "0.7"
 Coverage = "0.9"
 DeIdentification = "0.8"
 MLJ = "0.5"
-MLJBase = "0.7"
 MLJModels = "0.5"
 MultivariateStats = "0.7"
 PackageCompiler = "0.6"
@@ -67,6 +68,13 @@ PkgBenchmark = "0.2"
 RemoteFiles = "0.3"
 Tables = "0.2"
 Unitful = "0.17"
+
+["0.13.0"]
+MLJBase = "0.7"
+
+["0.13.1-0"]
+MLJBase = "0.8"
+Rmath = "0.6"
 
 ["0.8-0.9"]
 Documenter = "0.19"
