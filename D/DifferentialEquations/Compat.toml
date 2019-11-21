@@ -48,36 +48,36 @@ StochasticDiffEq = "6"
 Sundials = "3"
 
 ["6.4"]
-DiffEqBase = "5.4.0-*"
-DiffEqMonteCarlo = "0.10.0-*"
-
-["6.4-6"]
-DimensionalPlotRecipes = "0.0.2-*"
-MultiScaleArrays = "1.4.0-*"
-Reexport = "0.2.0-*"
+DiffEqBase = "5.4.0 - 6"
+DiffEqMonteCarlo = "0.10.0 - 0.15"
 
 ["6.4-6.6"]
-BoundaryValueDiffEq = "1.0.0-*"
-DelayDiffEq = "5.2.0-*"
-DiffEqCallbacks = "1.0.0-*"
-DiffEqFinancial = "1.0.0-*"
-DiffEqJump = "6.0.0-*"
-DiffEqNoiseProcess = "3.0.0-*"
-DiffEqPhysics = "1.0.0-*"
-OrdinaryDiffEq = "5.3.0-*"
-RecursiveArrayTools = "0.20.0-*"
-SteadyStateDiffEq = "1.4.0-*"
-StochasticDiffEq = "6.0.0-*"
-Sundials = "3.0.0-*"
+BoundaryValueDiffEq = "1.0.0 - 2"
+DelayDiffEq = "5.2.0 - 5"
+DiffEqCallbacks = "1.0.0 - 2"
+DiffEqFinancial = "1.0.0 - 2"
+DiffEqJump = "6.0.0 - 6"
+DiffEqNoiseProcess = "3.0.0 - 3"
+DiffEqPhysics = "1.0.0 - 3"
+OrdinaryDiffEq = "5.3.0 - 5"
+RecursiveArrayTools = "0.20.0 - 1"
+SteadyStateDiffEq = "1.4.0 - 1"
+StochasticDiffEq = "6.0.0 - 6"
+Sundials = "3.0.0 - 3"
 
 ["6.4-6.7"]
+DimensionalPlotRecipes = "0.0.2 - 1"
+MultiScaleArrays = "1.4.0 - 1"
+Reexport = "0.2.0 - 0.2"
 julia = "1.1.0-1"
 
 ["6.6"]
-DiffEqBase = "5.10.0-*"
+DiffEqBase = "5.10.0 - 6"
 
 ["6.7"]
 DiffEqBase = "6"
+RecursiveArrayTools = "1.0.0 - 1"
+SteadyStateDiffEq = "1.5.0 - 1"
 
 ["6.7-6"]
 BoundaryValueDiffEq = "2"
@@ -88,11 +88,14 @@ DiffEqJump = "6.2.1-6"
 DiffEqNoiseProcess = "3.3.0-3"
 DiffEqPhysics = "3.2.0-3"
 OrdinaryDiffEq = "5.16.0-5"
-RecursiveArrayTools = "1.0.0-*"
-SteadyStateDiffEq = "1.5.0-*"
 StochasticDiffEq = "6.9.0-6"
 Sundials = "3.7.0-3"
 
 ["6.8-6"]
 DiffEqBase = "6.2.2-6"
+DimensionalPlotRecipes = "0.0.2-*"
+MultiScaleArrays = "1.4.0-*"
+RecursiveArrayTools = "1.0.0-*"
+Reexport = "0.2.0-*"
+SteadyStateDiffEq = "1.5.0-*"
 julia = "1"

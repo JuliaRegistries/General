@@ -1,10 +1,10 @@
-["0.8"]
+[0]
 DiffEqBase = "4.28.1-5"
 
-["0.8-1.0"]
+["0-1.0"]
 Turing = "0.5-0"
 
-["0.8-1.1"]
+["0-1.1"]
 ApproxBayes = "0"
 Distances = "0"
 Distributions = "0"
@@ -19,11 +19,45 @@ RecursiveArrayTools = "0"
 Stan = "0-4"
 TransformVariables = "0"
 
-["0.8-2.1"]
+[0-2]
 julia = "1"
 
-["1.0-1.1"]
+["1-1.1"]
 DiffEqBase = "5"
 
 ["1.1"]
 Turing = "0"
+
+["1.2-1"]
+CmdStan = "0.0.0 - 5"
+DynamicHMC = "0.0.0 - 2"
+StatsPlots = "0.0.0 - 0.12"
+
+["1.2-2.1.0"]
+ApproxBayes = "0.0.0 - 0.3"
+DiffEqBase = "0.0.0 - 6"
+DiffResults = "0.0.0 - 0.0.4"
+Distances = "0.0.0 - 0.8"
+Distributions = "0.0.0 - 0.21"
+ForwardDiff = "0.0.0 - 0.10"
+LabelledArrays = "0.0.0 - 0.7"
+LogDensityProblems = "0.0.0 - 0.9"
+MacroTools = "0.0.0 - 0.5"
+Mamba = "0.0.0 - 0.12"
+Missings = "0.0.0 - 0.4"
+Optim = "0.0.0 - 0.19"
+PDMats = "0.0.0 - 0.9"
+ParameterizedFunctions = "0.0.0 - 4"
+Parameters = "0.0.0 - 0.12"
+RecursiveArrayTools = "0.0.0 - 1"
+Reexport = "0.0.0 - 0.2"
+StructArrays = "0.0.0 - 0.4"
+TransformVariables = "0.0.0 - 0.3"
+Turing = "0.0.0 - 0.7"
+
+["2-2.1.0"]
+Requires = "0.0.0 - 0.5"
+
+["2.1-2.1.0"]
+DocStringExtensions = "0.0.0 - 0.8"
+DynamicHMC = "0.0.0 - 2"
