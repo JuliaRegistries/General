@@ -1,3 +1,6 @@
+["0-0.0"]
+julia = "0.7-1"
+
 ["0-0.2"]
 DiffEqBase = "0-5"
 DiffRules = "0"
@@ -5,9 +8,6 @@ MacroTools = "0"
 NaNMath = "0"
 SpecialFunctions = "0"
 StaticArrays = "0"
-
-["0.0"]
-julia = "0.7-1"
 
 ["0.1"]
 julia = "1"
@@ -17,6 +17,18 @@ julia = "1.1-1"
 
 ["0.4-0"]
 julia = "1"
+
+["0.4-0.8"]
+DiffEqBase = "0.0.0 - 6"
+DiffRules = "0.0.0 - 0.1"
+DocStringExtensions = "0.0.0 - 0.8"
+MacroTools = "0.0.0 - 0.5"
+NaNMath = "0.0.0 - 0.3"
+SpecialFunctions = "0.0.0 - 0.8"
+StaticArrays = "0.0.0 - 0.12"
+
+["0.7-0.8"]
+GeneralizedGenerated = "0.0.0 - 0.2"
 
 ["0.9-0"]
 DiffEqBase = "6"

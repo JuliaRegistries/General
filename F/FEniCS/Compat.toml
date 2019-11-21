@@ -1,10 +1,15 @@
-["0.2"]
+[0]
+julia = "1"
+
+["0-0.2"]
 ProgressMeter = "0"
 PyCall = "0-1"
 Requires = "0"
 
-["0.2-0.3"]
-julia = "1"
+["0.3-0.3.1"]
+ProgressMeter = "0.0.0 - 1"
+PyCall = "0.0.0 - 1"
+Requires = "0.0.0 - 0.5"
 
-["0.3.2"]
+["0.3.2-0"]
 PyCall = "1.90.0-1"
