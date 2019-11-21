@@ -4,10 +4,17 @@ julia = "1.1.0-1"
 ["0.4-0"]
 BlackBoxOptim = "0.5"
 Distances = "0.8"
-LatinHypercubeSampling = "1.2"
 NearestNeighbors = "0.4"
-Parameters = "0.11"
 ScatteredInterpolation = "0.3"
-StaticArrays = "0.11"
 StatsBase = "0.32"
 TimerOutputs = "0.5"
+
+["0.4.0"]
+LatinHypercubeSampling = "1.2"
+Parameters = "0.11"
+StaticArrays = "0.11"
+
+["0.4.1-0"]
+LatinHypercubeSampling = "1.2.0-1"
+Parameters = "0.12"
+StaticArrays = "0.12"
