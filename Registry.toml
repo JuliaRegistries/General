@@ -93,6 +93,7 @@ some amount of consideration when choosing package names.
 079b6ec6-a4f7-11e9-0358-1904ae85a441 = { name = "RandomBasedArrays", path = "R/RandomBasedArrays" }
 07b341a0-ce75-57c6-b2de-414ffdc00be5 = { name = "ADCME", path = "A/ADCME" }
 07bf71a7-21be-5f6a-a6d1-44595bb4f960 = { name = "Arbitrary", path = "A/Arbitrary" }
+07c12ed4-43bc-5495-8a2a-d5838ef8d533 = { name = "ghr_jll", path = "G/ghr_jll" }
 07d1fe3e-3e46-537d-9eac-e9e13d0d4cec = { name = "TensorKit", path = "T/TensorKit" }
 07e3d4f1-5dc2-5a3a-9c19-e1965b76eff9 = { name = "SortingNetworks", path = "S/SortingNetworks" }
 07f2c1e0-90b0-56cf-bda7-b44b56e34eed = { name = "Modia3D", path = "M/Modia3D" }
@@ -168,6 +169,7 @@ some amount of consideration when choosing package names.
 0e1eec36-3e51-505b-9453-8db846dc2724 = { name = "Nord", path = "N/Nord" }
 0e394dc1-71ae-5c65-abe5-8749687e42d3 = { name = "Xorg_randrproto_jll", path = "X/Xorg_randrproto_jll" }
 0e44f5e4-bd66-52a0-8798-143a42290a1d = { name = "Hwloc", path = "H/Hwloc" }
+0e61fee8-20a4-4374-8233-5198f28d9d66 = { name = "DiffieHellman", path = "D/DiffieHellman" }
 0e69188a-a5d4-5622-b4e4-a72373136fc5 = { name = "VectorizedRoutines", path = "V/VectorizedRoutines" }
 0e6f8da7-a7fc-5c8b-a220-74e902c310f9 = { name = "NBodySimulator", path = "N/NBodySimulator" }
 0e7c1a32-1b9f-5532-88a4-e668712d6a4c = { name = "SatelliteDynamics", path = "S/SatelliteDynamics" }
@@ -220,6 +222,7 @@ some amount of consideration when choosing package names.
 12f4821f-d7ee-5ba6-b76b-566925c5fcc5 = { name = "AMDGPUnative", path = "A/AMDGPUnative" }
 13072b0f-2c55-5437-9ae7-d433b7a33950 = { name = "AxisAlgorithms", path = "A/AxisAlgorithms" }
 1313f7d8-7da2-5740-9ea0-a2ca25f37964 = { name = "DataFramesMeta", path = "D/DataFramesMeta" }
+131c737c-5715-5e2e-ad31-c244f01c1dc7 = { name = "ArviZ", path = "A/ArviZ" }
 133c4774-c510-5f25-b650-129312f89f69 = { name = "Jackknife", path = "J/Jackknife" }
 134e5e36-593f-5add-ad60-77f754baafbe = { name = "Catlab", path = "C/Catlab" }
 135379e1-83be-5ae7-9e8e-29dade3dc6c7 = { name = "StratiGraphics", path = "S/StratiGraphics" }
@@ -241,6 +244,7 @@ some amount of consideration when choosing package names.
 145d500b-351c-58b3-a0aa-f5d7e249d989 = { name = "PlanarConvexHulls", path = "P/PlanarConvexHulls" }
 1463e38c-9381-5320-bcd4-4134955f093a = { name = "StatFiles", path = "S/StatFiles" }
 149ba50c-99c4-11e9-1e32-e960083e84dc = { name = "StataCall", path = "S/StataCall" }
+149e707d-584d-56d3-88ec-740c18e106ff = { name = "PkgDev", path = "P/PkgDev" }
 14b8a8f1-9102-5b29-a752-f990bacb7fe1 = { name = "PkgTemplates", path = "P/PkgTemplates" }
 14d82f49-176c-5ed1-bb49-ad3f5cbd8c74 = { name = "Xorg_libpthread_stubs_jll", path = "X/Xorg_libpthread_stubs_jll" }
 14f7f29c-3bd6-536c-9a0b-7339e30b5a3e = { name = "AMD", path = "A/AMD" }
@@ -373,6 +377,7 @@ some amount of consideration when choosing package names.
 1fd713ca-387f-5abc-8002-d8b8b1623b73 = { name = "Attr_jll", path = "A/Attr_jll" }
 1fee779b-79a2-446d-a52f-d1aa38b3d5ab = { name = "Slacker", path = "S/Slacker" }
 2030c09a-7f63-5d83-885d-db604e0e9cc0 = { name = "InfrastructureModels", path = "I/InfrastructureModels" }
+2079e98e-b9a5-4add-91d8-8d7b7bc8f821 = { name = "ISAtmosphere", path = "I/ISAtmosphere" }
 2098c8a6-82c4-11e9-1f54-e72760d085ce = { name = "LibSymspg", path = "L/LibSymspg" }
 209c9289-0e93-5bc3-a9c6-3b517a31ee3c = { name = "TimeSeriesResampler", path = "T/TimeSeriesResampler" }
 20febd7b-183b-5ae2-ac4a-720e7ce64774 = { name = "Retry", path = "R/Retry" }
@@ -499,9 +504,11 @@ some amount of consideration when choosing package names.
 2c695a8d-9458-5d45-9878-1b8a99cf7853 = { name = "HistogramThresholding", path = "H/HistogramThresholding" }
 2c808117-e144-5220-80d1-69d4eaa9352c = { name = "Xorg_libXft_jll", path = "X/Xorg_libXft_jll" }
 2c80a279-213e-54d7-a557-e9a14725db56 = { name = "Trajectories", path = "T/Trajectories" }
+2c84d669-3b95-46c3-a358-9a76f739ac9c = { name = "Atmosphere", path = "A/Atmosphere" }
 2c92f082-f457-11e9-1715-ebb1b5fff37b = { name = "CapacityExpansionData", path = "C/CapacityExpansionData" }
 2c982244-eb47-11e8-1c11-070084c1fd7d = { name = "EdgeCameras", path = "E/EdgeCameras" }
 2cb19f9e-ec4d-5c53-8573-a4542a68d3f0 = { name = "StatsKit", path = "S/StatsKit" }
+2cbf6e9d-eec9-4262-aa18-cb9280186e6b = { name = "HardSphereDynamics", path = "H/HardSphereDynamics" }
 2cd47ed4-ca9b-11e9-27f2-ab636a7671f1 = { name = "InfrastructureSystems", path = "I/InfrastructureSystems" }
 2cd5bd5f-40a1-5050-9e10-fc8cdb6109f5 = { name = "ILog2", path = "I/ILog2" }
 2cd9c1d6-d267-5370-983e-0bc605925cae = { name = "LocalDiskObjectStores", path = "L/LocalDiskObjectStores" }
@@ -514,6 +521,7 @@ some amount of consideration when choosing package names.
 2da68c74-98d7-5633-99d6-8493888d7b1e = { name = "SymDict", path = "S/SymDict" }
 2dcacdae-9679-587a-88bb-8b444fb7085b = { name = "ParallelDataTransfer", path = "P/ParallelDataTransfer" }
 2ddba703-00a4-53a7-87a5-e8b9971dde84 = { name = "Juniper", path = "J/Juniper" }
+2def613f-5ad1-5310-b15b-b15d46f528f5 = { name = "Xorg_xcb_util_jll", path = "X/Xorg_xcb_util_jll" }
 2dfb63ee-cc39-5dd5-95bd-886bf059d720 = { name = "PooledArrays", path = "P/PooledArrays" }
 2e05858d-61bb-58c4-9d37-747e7cb565b8 = { name = "ReinforcementLearningEnvironmentClassicControl", path = "R/ReinforcementLearningEnvironmentClassicControl" }
 2e2c70e5-d463-5cb0-9776-5d0c86956fe9 = { name = "DataFitting", path = "D/DataFitting" }
@@ -950,6 +958,7 @@ some amount of consideration when choosing package names.
 5616b7aa-48d8-5ba3-83fe-06b58d5edc20 = { name = "Makeitso", path = "M/Makeitso" }
 562c1548-17b8-5b69-83cf-d8aebec229f5 = { name = "SortingLab", path = "S/SortingLab" }
 56780e9a-f91f-500b-9a21-c8c66253dea0 = { name = "StandardizedMatrices", path = "S/StandardizedMatrices" }
+5696fd22-15e8-11e9-1986-f9ab08703604 = { name = "SeisMain", path = "S/SeisMain" }
 56b0d19f-0a74-5872-92bc-f48f9c5431d4 = { name = "OdsIO", path = "O/OdsIO" }
 56d4f2e9-7ea1-5844-9cf6-b9c51ca7ce8e = { name = "Gridap", path = "G/Gridap" }
 56f361f5-126b-55db-87fb-1c71988fcde4 = { name = "Triangle", path = "T/Triangle" }
@@ -993,6 +1002,7 @@ some amount of consideration when choosing package names.
 5a33fad7-5ce4-5983-9f5d-5f26ceab5c96 = { name = "GeometricIntegratorsDiffEq", path = "G/GeometricIntegratorsDiffEq" }
 5a343a44-5b48-11e9-39be-f77f9e6fd977 = { name = "GCP", path = "G/GCP" }
 5a3ac768-beb4-554a-9c98-3342fe3377f5 = { name = "HORIZONS", path = "H/HORIZONS" }
+5a521ce4-ebb9-4793-b5b7-b334dfe8393c = { name = "MakieLayout", path = "M/MakieLayout" }
 5a653867-b65e-5b16-a095-b1e26d522bbf = { name = "Counters", path = "C/Counters" }
 5a7cd546-c751-11e8-3a71-83f58cf2d4e3 = { name = "EvaluationCF", path = "E/EvaluationCF" }
 5ab0869b-81aa-558d-bb23-cbf5423bbe9b = { name = "KernelDensity", path = "K/KernelDensity" }
@@ -1014,6 +1024,7 @@ some amount of consideration when choosing package names.
 5c1252a2-5f33-56bf-86c9-59e7332b4326 = { name = "GeometryBasics", path = "G/GeometryBasics" }
 5c1ef01f-39c8-5834-b1a0-1a342f75f4df = { name = "Cookbook", path = "C/Cookbook" }
 5c1f47dc-42dd-5697-8aaa-4d102d140ba9 = { name = "IntervalMatrices", path = "I/IntervalMatrices" }
+5c252ae7-b5b6-46ab-a016-b0e3d78320b7 = { name = "SpectralKit", path = "S/SpectralKit" }
 5c8ed15e-5a4c-59e4-a42b-c7e8811fb125 = { name = "LinearOperators", path = "L/LinearOperators" }
 5c958174-e7d9-5990-9618-4567de4ba542 = { name = "SuperEnum", path = "S/SuperEnum" }
 5c9c0fc8-7103-448b-bb0a-c427020e3b0b = { name = "PkgButlerEngine", path = "P/PkgButlerEngine" }
@@ -1182,6 +1193,7 @@ some amount of consideration when choosing package names.
 6bdbf80b-0969-53f9-8443-f41591bd656e = { name = "ConceptnetNumberbatch", path = "C/ConceptnetNumberbatch" }
 6c1fd854-37c7-5216-bfd6-aad91993916b = { name = "SimilarityNetworkFusion", path = "S/SimilarityNetworkFusion" }
 6c2355df-edca-54ec-9fef-f41e3964091e = { name = "ZOOclient", path = "Z/ZOOclient" }
+6c2f61f8-fafd-4db0-a534-9240d45f7a9c = { name = "CalculatedABC", path = "C/CalculatedABC" }
 6c391c72-fb7b-5838-ba82-7cfb1bcfecbf = { name = "CodecBase", path = "C/CodecBase" }
 6c575b1c-77cb-5640-a5dc-a54116c90507 = { name = "NumericIO", path = "N/NumericIO" }
 6c57e878-bc0a-5706-8331-d2cb71f7d6e8 = { name = "CanDecomp", path = "C/CanDecomp" }
@@ -1344,6 +1356,7 @@ some amount of consideration when choosing package names.
 7ae1f121-cc2c-504b-ac30-9b923412ae5c = { name = "ContinuumArrays", path = "C/ContinuumArrays" }
 7b2266bf-644c-5ea3-82d8-af4bbd25a884 = { name = "PeriodicTable", path = "P/PeriodicTable" }
 7b33fef7-ef1d-5d54-bb67-cf96d4c8a166 = { name = "BigCombinatorics", path = "B/BigCombinatorics" }
+7b39b095-d77a-58fa-8447-59aa0294474b = { name = "ExSup", path = "E/ExSup" }
 7b86fcea-f67b-53e1-809c-8f1719c154e8 = { name = "ATK_jll", path = "A/ATK_jll" }
 7bddbee9-b4ee-5d4f-bf0b-c84b4398bbf6 = { name = "Strs", path = "S/Strs" }
 7c09cfe3-afe2-5798-bcc9-d6b7fecfdca5 = { name = "Xorg_util_macros_jll", path = "X/Xorg_util_macros_jll" }
@@ -1406,6 +1419,7 @@ some amount of consideration when choosing package names.
 8197267c-284f-5f27-9208-e0e47529a953 = { name = "IntervalSets", path = "I/IntervalSets" }
 81a5f4ea-a946-549a-aa7e-2a7f63a27d31 = { name = "CatViews", path = "C/CatViews" }
 81def892-9a0e-5fdd-b105-ffc91e053289 = { name = "VersionParsing", path = "V/VersionParsing" }
+81ede08e-ab29-11e9-16d3-79edd30a1d76 = { name = "NaiveGAflux", path = "N/NaiveGAflux" }
 82193955-e24f-5292-bf16-6f2c5261a85f = { name = "SCIP", path = "S/SCIP" }
 822ac802-650b-11e9-0ffa-69fdfb5ea484 = { name = "StaticMaps", path = "S/StaticMaps" }
 824d6782-a2ef-11e9-3a09-e5662e0c26f9 = { name = "JSServe", path = "J/JSServe" }
@@ -1456,6 +1470,7 @@ some amount of consideration when choosing package names.
 86223c79-3864-5bf0-83f7-82e725a168b6 = { name = "Graphs", path = "G/Graphs" }
 864edb3b-99cc-5e75-8d2d-829cb0a9cfe8 = { name = "DataStructures", path = "D/DataStructures" }
 86800b63-3017-5277-aca5-15d7d6a5f2b2 = { name = "Persa", path = "P/Persa" }
+86adb855-6620-4b42-899a-fdd8a58d2ebe = { name = "MatrixImpute", path = "M/MatrixImpute" }
 86b0dc02-7903-11e9-325f-f195ca7e6c1a = { name = "LITS", path = "L/LITS" }
 86bb8979-40af-4c14-b177-a78efc84e952 = { name = "LocallyCompetitive", path = "L/LocallyCompetitive" }
 86cd37e6-c0ff-550b-95fe-21d72c8d4fc9 = { name = "OpenStreetMapX", path = "O/OpenStreetMapX" }
@@ -1627,6 +1642,7 @@ some amount of consideration when choosing package names.
 98bfdc55-cc95-5876-a49a-74609291cbe0 = { name = "TerminalRegressionTests", path = "T/TerminalRegressionTests" }
 98c9b6dd-1b90-5d67-90ca-be6a773cd6f7 = { name = "OpenEphysLoader", path = "O/OpenEphysLoader" }
 98cad3c8-aec3-5f06-8e41-884608649ab7 = { name = "ValueHistories", path = "V/ValueHistories" }
+98ce4118-165c-488a-9b71-2bb5aff4e594 = { name = "FunctionOperators", path = "F/FunctionOperators" }
 98d24dd4-01ad-11ea-1b02-c9a08f80db04 = { name = "TestSetExtensions", path = "T/TestSetExtensions" }
 98dea707-09b6-5a61-a46f-43b0fb0fb92b = { name = "vOptSpecific", path = "V/vOptSpecific" }
 98e33af6-2ee5-5afd-9e75-cbc738b767c4 = { name = "SimpleDirectMediaLayer", path = "S/SimpleDirectMediaLayer" }
@@ -1638,6 +1654,7 @@ some amount of consideration when choosing package names.
 995b91a9-d308-5afd-9ec6-746e21dbc043 = { name = "PlotUtils", path = "P/PlotUtils" }
 9961bab8-2fa3-5c5a-9d89-47fab24efd76 = { name = "Cbc", path = "C/Cbc" }
 997ab1e6-3595-5248-9280-8efb232c3433 = { name = "DocumenterMarkdown", path = "D/DocumenterMarkdown" }
+99c1a7ee-ab34-5fd5-8076-27c950a045f4 = { name = "MatrixEquations", path = "M/MatrixEquations" }
 99c6138d-4661-531e-8606-19bf1ec96588 = { name = "UnionFind", path = "U/UnionFind" }
 99c8bb3a-9d13-5280-9740-b4880ed9c598 = { name = "Bio3DView", path = "B/Bio3DView" }
 99f44e22-a591-53d1-9472-aa23ef4bd671 = { name = "MsgPack", path = "M/MsgPack" }
@@ -1719,6 +1736,7 @@ a134a8b2-14d6-55f6-9291-3336d3ab0209 = { name = "BlackBoxOptim", path = "B/Black
 a13fabe6-5ee6-5635-9a74-e87bffe1fafd = { name = "Xorg_scrnsaverproto_jll", path = "X/Xorg_scrnsaverproto_jll" }
 a14fa8ac-7845-53f2-854f-e9bba4c623ff = { name = "DataDepsGenerators", path = "D/DataDepsGenerators" }
 a15396b6-48d5-5d58-9928-6d29437db91e = { name = "OnlineStats", path = "O/OnlineStats" }
+a159c9be-0176-11ea-0d64-b53c1d07f8ae = { name = "Kahuna", path = "K/Kahuna" }
 a1957575-6125-5dba-8f92-417d2d1f4a46 = { name = "AdaptiveDistanceFields", path = "A/AdaptiveDistanceFields" }
 a1b4810d-1bce-5fbd-ac56-80944d57a21f = { name = "Hexagons", path = "H/Hexagons" }
 a1b829d7-2a44-59aa-80d3-9ddd83901c9b = { name = "PolaronMobility", path = "P/PolaronMobility" }
@@ -2235,6 +2253,7 @@ d16e510f-c236-4b74-8eb3-5d2ec9a3ec6e = { name = "ParameterisedModule", path = "P
 d1acc4aa-44c8-5952-acd4-ba5d80a2a253 = { name = "IntervalArithmetic", path = "I/IntervalArithmetic" }
 d1d4a3ce-64b1-5f1a-9ba4-7e7e69966f35 = { name = "BitFlags", path = "B/BitFlags" }
 d1dcc2e6-806e-11e9-2897-3f99785db2ae = { name = "Reproject", path = "R/Reproject" }
+d1eb7eb1-105f-429d-abf5-b0f65cb9e2c4 = { name = "RegistryTools", path = "R/RegistryTools" }
 d200c542-ce20-11e9-2772-a79080e7011a = { name = "Trello", path = "T/Trello" }
 d2514e9c-36c4-5b8e-97e2-51e7675c221c = { name = "StructC14N", path = "S/StructC14N" }
 d254efa0-af53-535e-b7f1-03c1c9fbcbe7 = { name = "PkgSkeleton", path = "P/PkgSkeleton" }
@@ -2344,6 +2363,7 @@ dc3f66f6-feed-11e8-2006-85573fddfdbc = { name = "SurrogateModelOptim", path = "S
 dc548174-15c3-5faf-af27-7997cfbde655 = { name = "TerminalMenus", path = "T/TerminalMenus" }
 dc5eaf77-5719-4a86-9393-27bd7a74eb3e = { name = "DynamicLinearModels", path = "D/DynamicLinearModels" }
 dc8bdbbb-1ca9-579f-8c36-e416f6a65cce = { name = "CustomUnitRanges", path = "C/CustomUnitRanges" }
+dca1746e-5efc-54fc-8249-22745bc95a49 = { name = "HelloWorldC_jll", path = "H/HelloWorldC_jll" }
 dca85d43-d64c-5e67-8c65-017450d5d020 = { name = "QuartzImageIO", path = "Q/QuartzImageIO" }
 dcc97b0b-8ce5-5539-9008-bb190f959ef6 = { name = "GeoStats", path = "G/GeoStats" }
 dcce2d33-59f6-5b8d-9047-0defad88ae06 = { name = "GeometricIntegrators", path = "G/GeometricIntegrators" }
@@ -2361,6 +2381,7 @@ ddc7317b-88db-5cb5-a849-8449e5df04f9 = { name = "GeoDatasets", path = "G/GeoData
 ddd84059-9b64-5d1b-85eb-da48df743e32 = { name = "KeyedFrames", path = "K/KeyedFrames" }
 dde75ccc-4946-507f-85f2-ccadd28c929c = { name = "Destruct", path = "D/Destruct" }
 ddf597a6-d67e-5340-b84c-e37d84115374 = { name = "PolyJuMP", path = "P/PolyJuMP" }
+ddf941ca-5d6a-11e9-36cc-a3fed13dd2fc = { name = "ROCArrays", path = "R/ROCArrays" }
 de004529-e20a-5d30-89d8-7739140c50e5 = { name = "PhaseSpaceIO", path = "P/PhaseSpaceIO" }
 de012916-1e3f-58c2-8f29-df3ef51d412d = { name = "at_spi2_atk_jll", path = "A/at_spi2_atk_jll" }
 de31a74c-ac4f-5751-b3fd-e18cd04993ca = { name = "FunctionalCollections", path = "F/FunctionalCollections" }
@@ -2457,6 +2478,7 @@ e7bfaba1-d571-5449-8927-abc22e82249b = { name = "NumericalIntegration", path = "
 e7dc6d0d-1eca-5fa6-8ad6-5aecde8b7ea5 = { name = "DataValues", path = "D/DataValues" }
 e853e177-4ae5-507f-af00-4766098699e4 = { name = "BoltzmannMachinesPlots", path = "B/BoltzmannMachinesPlots" }
 e8712464-036d-575c-85ac-952ae31322ab = { name = "ImageQuilting", path = "I/ImageQuilting" }
+e87aa5a2-564e-44b1-a90b-331274d9f6ee = { name = "Hashids", path = "H/Hashids" }
 e88e6eb3-aa80-5325-afca-941959d7151f = { name = "Zygote", path = "Z/Zygote" }
 e89237b0-9201-11e9-31b0-6361926203f7 = { name = "Turf", path = "T/Turf" }
 e89f7d12-3494-54d1-8411-f7d8b9ae1f27 = { name = "Media", path = "M/Media" }
@@ -2510,6 +2532,7 @@ ee0a3090-8ee9-5cdb-b8cb-8eeba3165522 = { name = "MINLPTests", path = "M/MINLPTes
 ee1fde0b-3d02-5ea6-8484-8dfef6360eab = { name = "Dbus_jll", path = "D/Dbus_jll" }
 ee283ea6-eecd-56e3-beb3-83eb4d3c31e9 = { name = "Rebugger", path = "R/Rebugger" }
 ee291a33-5a6c-5552-a3c8-0f29a1181037 = { name = "GBIF", path = "G/GBIF" }
+ee29a0df-cd28-4477-a8c7-b2df1281527b = { name = "LRESolve", path = "L/LRESolve" }
 ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a = { name = "Makie", path = "M/Makie" }
 eef66a8b-8d7a-5724-a8d2-7c31ae1e29ed = { name = "libcap_jll", path = "L/libcap_jll" }
 ef02786f-6848-5d1f-95d1-5517628ee114 = { name = "EchogramImages", path = "E/EchogramImages" }
@@ -2587,6 +2610,7 @@ f62fece2-b996-571a-b4c9-e662aba1c617 = { name = "H3", path = "H/H3" }
 f6369f11-7733-5829-9624-2563aa707210 = { name = "ForwardDiff", path = "F/ForwardDiff" }
 f638f0a6-7fb0-5443-88ba-1cc74229b280 = { name = "libfdk_aac_jll", path = "L/libfdk_aac_jll" }
 f65535da-76fb-5f13-bab9-19810c17039a = { name = "Convex", path = "C/Convex" }
+f67adaa7-c0cb-55cd-ba19-4b9b797b00eb = { name = "WebToys", path = "W/WebToys" }
 f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f = { name = "HDF5", path = "H/HDF5" }
 f68482b8-f384-11e8-15f7-abe071a5a75f = { name = "Cthulhu", path = "C/Cthulhu" }
 f6d8bcc6-4e01-5431-93c4-9d6004abab90 = { name = "RingBuffers", path = "R/RingBuffers" }
@@ -2650,6 +2674,7 @@ fce5fe82-541a-59a6-adf8-730c64b5f9a0 = { name = "Turing", path = "T/Turing" }
 fcefd6c4-8de0-11e9-0d15-03bc7c8ec982 = { name = "LambdaFn", path = "L/LambdaFn" }
 fd094767-a336-5f1f-9728-57cf17d0bbfb = { name = "Suppressor", path = "S/Suppressor" }
 fd0ad045-b25c-564e-8f9c-8ef5c5f21267 = { name = "GeometricalPredicates", path = "G/GeometricalPredicates" }
+fd36aebc-0777-11ea-1be3-eb1bdc5c01e1 = { name = "MLSuite", path = "M/MLSuite" }
 fd8f23de-bd2f-5c75-921c-0c9ab51355f5 = { name = "Emoji_Entities", path = "E/Emoji_Entities" }
 fd9e7046-df80-5870-8bf6-b6b2342464ec = { name = "Anasol", path = "A/Anasol" }
 fdba3010-5040-5b88-9595-932c9decdf73 = { name = "MathProgBase", path = "M/MathProgBase" }

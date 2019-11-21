@@ -1,7 +1,13 @@
 [1]
 Flux = "0.9"
-JuMP = "0.19"
 NaiveNASlib = "1"
 Reexport = "0.2"
-Setfield = "0.3.4-0.3"
 julia = "1"
+
+["1.0.0"]
+JuMP = "0.19"
+Setfield = "0.3.4-0.3"
+
+["1.0.1-1"]
+JuMP = "0.19-0.20"
+Setfield = ["0.3.4-0.3", "0.5"]

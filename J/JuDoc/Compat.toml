@@ -28,5 +28,10 @@ HTTP = "0.8"
 JuDocTemplates = "0.2"
 Literate = "2"
 LiveServer = "0.3"
-NodeJS = "0.6"
 OrderedCollections = "1.1.0-1"
+
+["0.3.6-0.3.7"]
+NodeJS = "0.6"
+
+["0.3.8-0"]
+NodeJS = ["0.6", "1"]

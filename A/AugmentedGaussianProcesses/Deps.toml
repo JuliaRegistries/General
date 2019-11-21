@@ -1,18 +1,12 @@
 [0]
 Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Expectations = "2fe49d83-0758-5602-8f54-1f90ad0d522b"
-FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
-LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
-ValueHistories = "98cad3c8-aec3-5f06-8e41-884608649ab7"
 
 ["0-0.3"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
@@ -24,14 +18,24 @@ Profile = "9abbd945-dff8-562f-b5e8-e1ebf5ef1b79"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.5"]
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+Expectations = "2fe49d83-0758-5602-8f54-1f90ad0d522b"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+ValueHistories = "98cad3c8-aec3-5f06-8e41-884608649ab7"
+
 ["0.4-0"]
-Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 GradDescent = "e1397348-e965-55d8-8fb3-3dd9faf6e4f1"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 
 ["0.4-0.4.1"]
 MLKernels = "6899632a-1081-549c-8d71-752c8a25a7ba"
+
+["0.4-0.5"]
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 
 ["0.4.0"]
 Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
@@ -42,3 +46,11 @@ ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
 ["0.5-0"]
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
+
+["0.6-0"]
+AdvancedHMC = "0bf59076-c3b1-5ca4-86bd-e02cd72cde3d"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+KernelFunctions = "ec8451be-7e33-11e9-00cf-bbf324bd1392"
+MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
+PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
+RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"

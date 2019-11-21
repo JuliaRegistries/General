@@ -67,6 +67,9 @@ FillArrays = "0.6-0.7"
 DiffEqBase = "6.4.0-6"
 SparseDiffTools = "0.9-0.10"
 
+["6.13-6"]
+StaticArrays = "0.11-0.12"
+
 ["6.7-6.8"]
 SparseDiffTools = "0.3.0-0.9"
 
@@ -86,13 +89,15 @@ NLsolve = "4"
 RandomNumbers = "1"
 RecursiveArrayTools = "1"
 Reexport = "0.2"
-StaticArrays = "0.11"
 
 ["6.9-6.11"]
 SparseDiffTools = "0.9"
 
 ["6.9-6.11.1"]
 FillArrays = "0.6"
+
+["6.9-6.12"]
+StaticArrays = "0.11"
 
 ["6.9.0"]
 Parameters = "0.11"
