@@ -23,7 +23,7 @@ DiffEqBase = "4.29-5"
 ["2.8-3.1"]
 DataStructures = "0.15-0"
 
-["3-3.0"]
+["3.0"]
 DiffEqBase = "5"
 
 ["3.1"]
@@ -39,3 +39,10 @@ Reexport = "0.0.0 - 0.2"
 
 ["3.4-3"]
 DiffEqBase = "6"
+
+["3.5-3"]
+Compat = "2.2.0-3"
+DataStructures = "0.17"
+FunctionWrappers = "1"
+ODEInterface = "0.4"
+Reexport = "0.2"
