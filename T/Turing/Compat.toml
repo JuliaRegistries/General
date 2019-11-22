@@ -61,6 +61,10 @@ MCMCChains = "0.3.12-*"
 ["0.7.1"]
 Zygote = "0.3.4-*"
 
+["0.7.2"]
+MCMCChains = "0.3.12-0.3"
+SpecialFunctions = "0.7.2-0.7"
+
 ["0.7.2-0"]
 AdvancedHMC = "0.2.4-0.2"
 Bijectors = "0.4"
@@ -69,14 +73,18 @@ Distributions = "0.21.1-0.21"
 DistributionsAD = "0.1"
 ForwardDiff = "0.10.3-0.10"
 Libtask = "0.3.1-0.3"
-MCMCChains = "0.3.12-0.3"
 MacroTools = "0.5.1-0.5"
 PDMats = "0.9.9-0.9"
 ProgressMeter = "1"
 Reexport = "0.2"
 Requires = "0.5.2-0.5"
-SpecialFunctions = "0.7.2-0.7"
 StatsFuns = "0.8"
 Tracker = "0.2.3-0.2"
 Zygote = "0.3.4-0.3"
 julia = "1"
+
+["0.7.3-0"]
+LogDensityProblems = "0.9"
+MCMCChains = "0.3.15-0.3"
+SpecialFunctions = "0.7.2-0.8"
+ZygoteRules = "0.1"
