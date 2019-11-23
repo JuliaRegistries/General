@@ -2,13 +2,26 @@
 julia = "1"
 
 [1]
+StanBase = "1"
+
+["1.0.0"]
 DataFrames = "0"
 DocStringExtensions = "0"
 MCMCChains = "0"
 NamedTupleTools = "0"
 Parameters = "0"
 Reexport = "0"
-StanBase = "1"
 StanDump = "0"
 StanRun = "0"
 StanSamples = "0"
+
+["1.0.1-1"]
+DataFrames = "0.19"
+DocStringExtensions = "0.8"
+MCMCChains = "0.3"
+NamedTupleTools = "0.11-0.12"
+Parameters = "0.12"
+Reexport = "0.2"
+StanDump = "0.2"
+StanRun = "0.2"
+StanSamples = "0.1"
