@@ -1,5 +1,4 @@
 [0]
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 
@@ -7,8 +6,16 @@ StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.0.10-0"]
+[0-1]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
+["0.0.10-1"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.0.11"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+[1]
+ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
+Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
