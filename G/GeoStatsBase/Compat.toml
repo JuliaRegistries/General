@@ -19,13 +19,15 @@ CSV = "0.5"
 DataFrames = "0.18"
 Distances = "0.8"
 NearestNeighbors = "0.4"
-StaticArrays = "0.11"
 
 ["0.5-0.6.0"]
 Distributions = "0.20"
 Parameters = "0.10"
 RecipesBase = "0.6"
 StatsBase = "0.30"
+
+["0.5-0.6.3"]
+StaticArrays = "0.11"
 
 ["0.6-0"]
 AverageShiftedHistograms = "0.8"
@@ -43,3 +45,6 @@ StatsBase = "0.32"
 
 ["0.6.2-0"]
 Optim = "0.18"
+
+["0.6.4-0"]
+StaticArrays = "0.12"
