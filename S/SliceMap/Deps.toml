@@ -1,8 +1,13 @@
 [0]
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 JuliennedArrays = "5cadff95-7770-533d-a838-a1bf817ee6e0"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
+
+["0-0.1"]
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 TensorCast = "02d47bb6-7ce6-556a-be16-bb1710789e2b"
-Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
+
+["0.2-0"]
+ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
