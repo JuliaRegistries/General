@@ -28,28 +28,31 @@ AccurateArithmetic = "0.2-0"
 ["0.4-0.5"]
 julia = "0.7-1"
 
-["0.6-0"]
-julia = "1"
-
 ["0.6-0.7.17"]
 GenericLinearAlgebra = "0"
 
 ["0.6-0.7.21"]
 Polynomials = "0.5-0"
 
+["0.6-1"]
+julia = "1"
+
 ["0.7.18-0.7.21"]
 GenericSVD = "0.2-0"
 
-["0.7.22-0"]
+["0.7.22-1"]
 GenericSVD = "0"
 GenericSchur = "0"
 Polynomials = "0"
 
-["0.8-0"]
+["0.8-1"]
 Quadmath = "0"
 
 ["0.9-0.9.1"]
 SpecialFunctions = "0"
 
-["0.9.12-0"]
+["0.9.12-1"]
 Requires = "0"
+
+[1]
+SpecialFunctions = "0"
