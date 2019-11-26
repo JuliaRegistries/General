@@ -1,14 +1,19 @@
 [2]
-BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-Homebrew = "d9be37ee-ecc9-5288-90f1-b9ca67657a75"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 SampledSignals = "bd7594eb-a658-542f-9e75-4c4d8908c167"
+
+["2-2.1"]
+BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
+Homebrew = "d9be37ee-ecc9-5288-90f1-b9ca67657a75"
 WinRPM = "c17dfb99-b4f7-5aad-8812-456da1ad7187"
 
 ["2.0"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["2.2-2"]
+libsndfile_jll = "5bf562c0-5a39-5b4f-b979-f64ac885830c"
