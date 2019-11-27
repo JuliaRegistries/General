@@ -1,9 +1,18 @@
 [0]
+DataValues = "0.4.4-0.4"
+PyCall = "1.90.0-1"
+julia = "1"
+
+["0-0.1.0"]
 Atom = "0.11.3-0.11"
 Compat = ["0.17", "1-2"]
-DataValues = "0.4.4-0.4"
 IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
-PyCall = "1.90.0-1"
 TableTraits = ["0.4", "1"]
 TableTraitsUtils = ["0.3", "1"]
-julia = "1"
+
+["0.1.1-0"]
+Compat = "2"
+IteratorInterfaceExtensions = "1"
+Requires = "0.5"
+TableTraits = "1"
+TableTraitsUtils = "1"
