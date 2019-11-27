@@ -1,10 +1,4 @@
-["5.0"]
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
-
-["5.0-6.1"]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["5.0-6.2"]
+[5-6]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
@@ -14,12 +8,18 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 RandomNumbers = "e6cf234a-135c-5ec9-84dd-332b85af5143"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 
-["5.1-6.1"]
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+["5-6.1"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["5.1-6.2"]
+["5.0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["5.1-6"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 TreeViews = "a2a6695c-b41b-5b7d-aed9-dbfdeacea5d7"
 
-["6.1-6.2"]
+["5.1-6.1"]
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["6.1-6"]
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"

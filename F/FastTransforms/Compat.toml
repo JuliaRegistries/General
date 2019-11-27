@@ -11,20 +11,28 @@ ToeplitzMatrices = "0.4-0.6"
 julia = ["0.7", "1"]
 
 ["0.6"]
-FFTW = "0.3"
 HierarchicalMatrices = "0.2"
-LowRankApprox = "0.2.3-0.2"
 ProgressMeter = "1"
 
 ["0.6-0"]
-AbstractFFTs = "0.4"
 DSP = "0.6"
 FastGaussQuadrature = "0.4"
 SpecialFunctions = "0.8"
 ToeplitzMatrices = "0.6"
 julia = "1"
 
+["0.6.0"]
+AbstractFFTs = "0.4"
+FFTW = "0.3"
+LowRankApprox = "0.2.3-0.2"
+
+["0.6.1-0.6"]
+AbstractFFTs = "0.4-0.5"
+FFTW = ["0.3", "1"]
+LowRankApprox = "0.2.3-0.4"
+
 ["0.7-0"]
+AbstractFFTs = "0.4"
 BinaryProvider = "0.5.8-0.5"
 FFTW = "1"
 Reexport = "0.2"

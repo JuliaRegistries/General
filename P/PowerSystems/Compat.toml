@@ -41,12 +41,14 @@ julia = "1.1.0-1"
 InfrastructureSystems = "0.1.1-0.1"
 
 ["0.4-0"]
-CSV = "0.5"
 DataFrames = "0.19"
 JSON = "0.21"
 JSON2 = "0.3"
 TimeSeries = "0.16"
 YAML = "0.3"
+
+["0.4-0.6.2"]
+CSV = "0.5"
 
 ["0.4.0"]
 julia = "1.2"
@@ -65,3 +67,6 @@ InfrastructureSystems = "0.3"
 
 ["0.6.1-0"]
 InfrastructureSystems = "0.4"
+
+["0.6.3-0"]
+CSV = "0.5.13"

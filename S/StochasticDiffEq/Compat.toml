@@ -1,3 +1,6 @@
+["5-5.0"]
+DiffEqNoiseProcess = "0.8-3"
+
 ["5-5.10"]
 DataStructures = "0.4.6-0"
 
@@ -25,10 +28,7 @@ RandomNumbers = "0-1"
 Reexport = "0"
 StaticArrays = "0"
 
-["5.0"]
-DiffEqNoiseProcess = "0.8-3"
-
-["5.1-5"]
+["5.1-6.0"]
 DiffEqNoiseProcess = "0-3"
 
 ["5.11-6.1"]
@@ -46,9 +46,8 @@ DiffEqBase = "4.29-5"
 ["5.9-6"]
 julia = "1"
 
-["6.0"]
+["6-6.0"]
 DiffEqBase = "5"
-DiffEqNoiseProcess = "0-3"
 
 ["6.1"]
 DiffEqBase = "5.1-5"
@@ -66,6 +65,29 @@ FillArrays = "0.6-0.7"
 ["6.12-6"]
 DiffEqBase = "6.4.0-6"
 SparseDiffTools = "0.9-0.10"
+
+["6.13-6"]
+StaticArrays = "0.11-0.12"
+
+["6.2-6.7"]
+DiffEqBase = "0.0.0 - 6"
+DiffEqOperators = "0.0.0 - 4"
+
+["6.2-6.8"]
+DataStructures = "0.0.0 - 0.17"
+DiffEqDiffTools = "0.0.0 - 1"
+DiffEqNoiseProcess = "0.0.0 - 3"
+ForwardDiff = "0.0.0 - 0.10"
+MuladdMacro = "0.0.0 - 0.2"
+NLsolve = "0.0.0 - 4"
+Parameters = "0.0.0 - 0.12"
+RandomNumbers = "0.0.0 - 1"
+RecursiveArrayTools = "0.0.0 - 1"
+Reexport = "0.0.0 - 0.2"
+StaticArrays = "0.0.0 - 0.12"
+
+["6.5-6.8"]
+FillArrays = "0.0.0 - 0.8"
 
 ["6.7-6.8"]
 SparseDiffTools = "0.3.0-0.9"
@@ -86,7 +108,6 @@ NLsolve = "4"
 RandomNumbers = "1"
 RecursiveArrayTools = "1"
 Reexport = "0.2"
-StaticArrays = "0.11"
 
 ["6.9-6.11"]
 SparseDiffTools = "0.9"
@@ -94,7 +115,10 @@ SparseDiffTools = "0.9"
 ["6.9-6.11.1"]
 FillArrays = "0.6"
 
-["6.9.0"]
+["6.9-6.12"]
+StaticArrays = "0.11"
+
+["6.9-6.9.0"]
 Parameters = "0.11"
 
 ["6.9.1-6.10"]

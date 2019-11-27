@@ -13,5 +13,11 @@ ProgressMeter = "0"
 ["0.1.2-0.2.1"]
 IterativeSolvers = "0"
 
-["0.3-0"]
+["0.3-0.4"]
 julia = ["0.7", "1"]
+
+["0.5-0"]
+IterativeSolvers = "0.8"
+ProgressMeter = "1.2.0-1"
+SparsityOperators = "0.1.4-0.1"
+julia = "1"

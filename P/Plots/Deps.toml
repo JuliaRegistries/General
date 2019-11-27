@@ -1,7 +1,4 @@
-["0.12-0.24"]
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-
-["0.12-0.27"]
+[0]
 Contour = "d38c429a-6771-53c6-b99e-75d170b6e991"
 FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
@@ -15,16 +12,13 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Showoff = "992d4aef-0814-514b-bc4d-f2e9a6c4116f"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0.17-0.27"]
+["0-0.24"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.17-0"]
 GR = "28b8d3ca-fb5f-59d9-8090-bfdbd6d07a71"
 
-["0.18-0.19"]
-REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
-
-["0.18-0.24"]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["0.18-0.27"]
+["0.18-0"]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -32,20 +26,26 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.19-0.27"]
-UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
-
-["0.19.2-0.27"]
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-
-["0.20-0.27"]
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-
-["0.22.1-0.27"]
+["0.18-0.19"]
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 
-["0.25-0.27"]
+["0.18-0.24"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.19-0"]
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+
+["0.19.2-0"]
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0.20-0"]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.22.1-0"]
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
+
+["0.25-0"]
 GeometryTypes = "4d00f742-c7ba-57c2-abde-4428a4b178cb"
 
-["0.26-0.27"]
+["0.26-0"]
 FFMPEG = "c87230d0-a227-11e9-1b43-d7ebe4e7570a"
