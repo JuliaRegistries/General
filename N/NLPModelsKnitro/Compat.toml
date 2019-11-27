@@ -1,5 +1,12 @@
 [0]
+julia = "1"
+
+["0-0.1"]
 KNITRO = "0.6.0-*"
 NLPModels = "0.8"
 SolverTools = "0.1.0-*"
-julia = "1"
+
+["0.2-0"]
+KNITRO = "0.7.2-0.7"
+NLPModels = ["0.10", "1"]
+SolverTools = "0.1.4-0.1"
