@@ -1,3 +1,11 @@
 [0]
-PowerModels = "0.12.2-*"
 julia = "1.1.0-1"
+
+["0-0.1"]
+PowerModels = "0.12.2-*"
+
+["0.2-0"]
+InfrastructureModels = "0.3.2-0.3"
+JuMP = "0.20.1-0.20"
+Memento = "0.12.1-0.12"
+PowerModels = "0.13"
