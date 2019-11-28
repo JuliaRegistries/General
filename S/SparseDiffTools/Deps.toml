@@ -1,14 +1,14 @@
-[0]
+["0-0.9"]
+BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
+BlockBandedMatrices = "ffab5731-97b5-5995-9138-79e8c1846df0"
+
+[0-1]
 DiffEqDiffTools = "01453d9d-ee7c-5054-8395-0335cb756afa"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 VertexSafeGraphs = "19fa3120-7c27-5ec5-8db8-b0b0aa330d6f"
-
-["0-0.9"]
-BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
-BlockBandedMatrices = "ffab5731-97b5-5995-9138-79e8c1846df0"
 
 ["0.2-0.4"]
 Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
@@ -20,12 +20,15 @@ SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 ["0.4"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["0.4-0"]
+["0.4-1"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["0.7-0"]
+["0.7-1"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 
-["0.9.1-0"]
+["0.9.1-1"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+
+[1]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
