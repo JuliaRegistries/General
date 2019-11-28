@@ -1,16 +1,22 @@
-[0]
-Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
-Graphics = "a2bd30eb-e257-5431-a919-1863eab51364"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-
 ["0-0.6"]
 BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Homebrew = "d9be37ee-ecc9-5288-90f1-b9ca67657a75"
 WinRPM = "c17dfb99-b4f7-5aad-8812-456da1ad7187"
 
+[0-1]
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+Graphics = "a2bd30eb-e257-5431-a919-1863eab51364"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
 ["0.6"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 ["0.7-0"]
 BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+
+[1]
+Cairo_jll = "83423d85-b0ee-5818-9007-b63ccbeb887a"
+Fontconfig_jll = "a3f928ae-7b40-5064-980b-68af3947d34b"
+Glib_jll = "7746bdde-850d-59dc-9ae8-88ece973131d"
+Pango_jll = "36c8627f-9965-5494-a995-c6b170f724f3"
