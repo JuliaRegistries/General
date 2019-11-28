@@ -5,9 +5,31 @@ julia = "1"
 DynamicHMC = "1.0.6-1"
 LogDensityProblems = "0.8.3-0.8"
 
-["0.5.1-0"]
+["0.5.1-0.5.3"]
 DynamicHMC = "2"
 
-["0.5.3-0"]
+["0.5.3"]
 CmdStan = "5"
 Turing = "0.7"
+
+["0.5.4-0"]
+AdvancedHMC = "0.2.13-0.2"
+BenchmarkTools = "0.4"
+CSV = "0.5"
+CmdStan = "5.2.0-5"
+DataFrames = "0.19"
+Distributions = "0.21"
+DynamicHMC = "2.1.0-2"
+FillArrays = "0.8"
+ForwardDiff = "0.10"
+LogDensityProblems = "0.9"
+MCMCChains = "0.3.15-0.3"
+MCMCDiagnostics = "0.3"
+Parameters = "0.12"
+Reexport = "0.2"
+Revise = "2.2.0-2"
+SpecialFunctions = "0.8-0.9"
+StatsPlots = "0.12-0.13"
+Tracker = "0.2"
+TransformVariables = "0.3"
+Turing = "0.7.3-0.7"
