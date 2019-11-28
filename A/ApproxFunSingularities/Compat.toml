@@ -1,24 +1,28 @@
+[0]
+IntervalSets = "0.3.1-0.3"
+Reexport = "0.2"
+
 ["0-0.0.1"]
 ApproxFunBase = "0.0.3"
 ApproxFunOrthogonalPolynomials = "0.0.1"
 LazyArrays = "0.7.1-0.7"
 
 ["0-0.1.0"]
-AbstractFFTs = "0.3.1-0.5"
 BandedMatrices = "0.9"
+DualNumbers = "0.4-0.6"
+StaticArrays = "0.8.3-0.9"
+ToeplitzMatrices = "0.4-0.5"
+julia = "0.7-1"
+
+["0-0.1.1"]
+AbstractFFTs = "0.3.1-0.5"
 Calculus = "0.1.15-0.5"
 DSP = "0.5.1-0.5"
-DualNumbers = "0.4-0.6"
 FFTW = "0.2.4-1"
 FastGaussQuadrature = "0.3.2-0.4"
 FastTransforms = "0.4.2-0.6"
 FillArrays = "0.5"
-IntervalSets = "0.3.1-0.3"
-Reexport = "0.2"
 SpecialFunctions = "0.7-0.8"
-StaticArrays = "0.8.3-0.9"
-ToeplitzMatrices = "0.4-0.5"
-julia = "0.7-1"
 
 ["0.0"]
 BlockArrays = "0.8"
@@ -34,31 +38,23 @@ ApproxFunOrthogonalPolynomials = "0.0.2"
 ["0.0.2-0.1.0"]
 LazyArrays = "0.8"
 
+["0.1-0.1.2"]
+BlockBandedMatrices = "0.4.3-0.4"
+LowRankApprox = "0.2"
+
 ["0.1.0"]
 ApproxFunBase = "0.1.1-0.1"
 ApproxFunOrthogonalPolynomials = "0.1.1-0.1"
 BlockArrays = "0.9"
-BlockBandedMatrices = "0.4.3-0.4"
 DomainSets = "0.0.2"
 InfiniteArrays = "0.1"
-LowRankApprox = "0.2"
 
 ["0.1.1"]
-AbstractFFTs = "0.3.1-0.5"
 BandedMatrices = "0.9.3-0.9"
-Calculus = "0.1.15-0.5"
-DSP = "0.5.1-0.5"
 DomainSets = ["0.0.2", "0.1"]
 DualNumbers = "0.4.0-0.6"
-FFTW = "0.2.4-1"
-FastGaussQuadrature = "0.3.2-0.4"
-FastTransforms = "0.4.2-0.6"
-FillArrays = "0.5"
 InfiniteArrays = "0.1.1-0.1"
-IntervalSets = "0.3.1-0.3"
 LazyArrays = "0.8-0.9"
-Reexport = "0.2"
-SpecialFunctions = "0.7-0.8"
 StaticArrays = "0.8.3-0.12"
 ToeplitzMatrices = "0.4.0-0.5"
 
@@ -68,8 +64,6 @@ julia = "1"
 ["0.1.1-0.1.2"]
 ApproxFunBase = "0.1.3-0.1"
 BlockArrays = "0.9.1-0.9"
-BlockBandedMatrices = "0.4.3-0.4"
-LowRankApprox = "0.2"
 
 ["0.1.1-0.1.3"]
 ApproxFunOrthogonalPolynomials = "0.2"
@@ -91,8 +85,6 @@ ToeplitzMatrices = "0.5"
 
 ["0.1.2-0"]
 DomainSets = "0.1"
-IntervalSets = "0.3.1-0.3"
-Reexport = "0.2"
 
 ["0.1.2-0.1.3"]
 SpecialFunctions = "0.7"
@@ -103,8 +95,11 @@ ApproxFunBase = "0.1.5-0.1"
 ["0.1.4"]
 ApproxFunBase = "0.1.6-0.1"
 
-["0.1.4-0"]
+["0.1.4-0.1.5"]
 ApproxFunOrthogonalPolynomials = "0.2.3-0.2"
 
 ["0.1.5-0"]
 ApproxFunBase = "0.1.6-0.2"
+
+["0.1.6-0"]
+ApproxFunOrthogonalPolynomials = "0.2.3-0.3"
