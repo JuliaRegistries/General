@@ -1,23 +1,4 @@
-["0.10"]
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-
-["0.10-0.11"]
-DomainSets = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
-
-["0.10-0.11.4"]
-DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
-FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
-InfiniteArrays = "4858937d-0d70-526a-a4dd-2d5cb5dd786c"
-LazyArrays = "5078a376-72f3-5289-bfd5-ec5146d43c02"
-
-["0.11"]
-ApproxFunBase = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
-ApproxFunFourier = "59844689-9c9d-51bf-9583-5b794ec66d30"
-ApproxFunOrthogonalPolynomials = "b70543e2-c0d9-56b8-a290-0d4d6d4de211"
-ApproxFunSingularities = "f8fcb915-6b99-5be2-b79a-d6dbef8e6e7e"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-
-["0.9-0.11"]
+[0]
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 Calculus = "49dc2e85-a5d0-5ad3-a950-438e2897f1b9"
 DualNumbers = "fa6b7ba4-c1ee-5f82-b5fc-ecf0adba8f74"
@@ -26,11 +7,11 @@ FastTransforms = "057dd010-8810-581a-b7be-e3fc3b93f78c"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 
-["0.9-0.11.3"]
+["0-0.11.3"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ToeplitzMatrices = "c751599d-da0a-543b-9d20-d0a503d91d24"
 
-["0.9-0.11.4"]
+["0-0.11.4"]
 BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
 BlockArrays = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
 BlockBandedMatrices = "ffab5731-97b5-5995-9138-79e8c1846df0"
@@ -41,3 +22,22 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.10"]
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.10-0"]
+DomainSets = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
+
+["0.10-0.11.4"]
+DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+InfiniteArrays = "4858937d-0d70-526a-a4dd-2d5cb5dd786c"
+LazyArrays = "5078a376-72f3-5289-bfd5-ec5146d43c02"
+
+["0.11-0"]
+ApproxFunBase = "fbd15aa5-315a-5a7d-a8a4-24992e37be05"
+ApproxFunFourier = "59844689-9c9d-51bf-9583-5b794ec66d30"
+ApproxFunOrthogonalPolynomials = "b70543e2-c0d9-56b8-a290-0d4d6d4de211"
+ApproxFunSingularities = "f8fcb915-6b99-5be2-b79a-d6dbef8e6e7e"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
