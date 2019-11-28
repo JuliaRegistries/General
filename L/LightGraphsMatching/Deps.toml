@@ -1,9 +1,14 @@
-["0.1"]
+[0]
 BlossomV = "6c721016-9dae-5d90-abf6-67daaccb2332"
 Hungarian = "e91730f6-4275-51fb-a7a0-7064cfbd3b39"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0-0.1"]
+MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.2-0"]
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
