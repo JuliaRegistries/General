@@ -1,4 +1,4 @@
-["5.0-5.3"]
+[5]
 DiffEqBiological = "eb300fae-53e8-50a0-950c-e21f52c2b7e0"
 DiffEqDevTools = "f3b72e0c-5b89-59e1-b016-84e28bfd966d"
 DiffEqParamEstim = "1130ab10-4a5a-5621-a13d-e4788d82bd4c"
@@ -6,16 +6,7 @@ DiffEqSensitivity = "41bf760c-e81c-5289-8e54-58b1f1f8abe2"
 DiffEqUncertainty = "ef61062a-5684-51dc-bb67-a0fcdec5c97d"
 ParameterizedFunctions = "65888b18-ceab-5e60-b2b9-181511a3b968"
 
-["5.0-6.2"]
-DiffEqPDEBase = "34035eb4-37db-58ae-b003-a3202c898701"
-
-["5.0-6.3"]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["5.0-6.4"]
-DiffEqMonteCarlo = "78ddff82-25fc-5f2b-89aa-309469cbf16f"
-
-["5.0-6.8"]
+[5-6]
 BoundaryValueDiffEq = "764a87c0-6b3e-53db-9096-fe964310641d"
 DelayDiffEq = "bcd4f6db-9728-5f36-b5f7-82caef46ccdb"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
@@ -33,6 +24,15 @@ SteadyStateDiffEq = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
 StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
 Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
 
-["5.1-6.8"]
+["5-6.2"]
+DiffEqPDEBase = "34035eb4-37db-58ae-b003-a3202c898701"
+
+["5-6.3"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["5-6.4"]
+DiffEqMonteCarlo = "78ddff82-25fc-5f2b-89aa-309469cbf16f"
+
+["5.1-6"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
