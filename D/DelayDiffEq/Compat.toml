@@ -8,16 +8,22 @@ DiffEqBase = "3.10-5"
 OrdinaryDiffEq = "3.15.1-5"
 
 ["4-4.7"]
-RecursiveArrayTools = "0.2-0"
+RecursiveArrayTools = "0.2.0 - 0.20"
+
+["4-5.11"]
+ForwardDiff = "0.0.0 - 0.10"
+
+["4-5.14"]
+DataStructures = "0.4.6 - 0.17"
+Reexport = "0.0.0 - 0.2"
+Roots = "0.0.0 - 0.8"
 
 ["4-5.2"]
-DataStructures = "0.4.6-0"
-DiffEqDiffTools = "0.3-0"
-ForwardDiff = "0"
-MuladdMacro = "0"
+DiffEqDiffTools = "0.3.0 - 0.14"
 NLSolversBase = "4.2-7"
-Reexport = "0"
-Roots = "0"
+
+["4-5.7"]
+MuladdMacro = "0.0.0 - 0.2"
 
 ["4.5-5.2"]
 julia = "1"
@@ -35,7 +41,7 @@ DiffEqBase = "4.29-5"
 OrdinaryDiffEq = "4.17.1-5"
 
 ["4.8-5.2"]
-RecursiveArrayTools = "0.18.6-0"
+RecursiveArrayTools = "0.18.6 - 0.20"
 
 ["5-5.1"]
 DiffEqBase = "5"
@@ -73,14 +79,10 @@ OrdinaryDiffEq = "5.2-5"
 
 ["5.3-5.11"]
 DiffEqDiffTools = "0.3.0 - 1"
-ForwardDiff = "0.0.0 - 0.10"
 NLSolversBase = "4.2.0 - 7"
 
 ["5.3-5.14"]
-DataStructures = "0.4.6 - 0.17"
 RecursiveArrayTools = "0.18.6 - 1"
-Reexport = "0.0.0 - 0.2"
-Roots = "0.0.0 - 0.8"
 julia = "1.0.0-1"
 
 ["5.3-5.4"]
@@ -88,9 +90,6 @@ DiffEqBase = "5.3.2 - 6"
 
 ["5.3-5.6"]
 OrdinaryDiffEq = "5.2.0 - 5"
-
-["5.3-5.7"]
-MuladdMacro = "0.0.0 - 0.2"
 
 ["5.5"]
 DiffEqBase = "5.12.0 - 6"

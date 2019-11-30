@@ -4,24 +4,24 @@ julia = "1"
 ["0-0.4"]
 DiffEqBase = "0-5"
 DiffEqSensitivity = "0-3"
-DiffResults = "0"
-Flux = "0"
-ForwardDiff = "0"
+Flux = "0.0.0 - 0.10"
+
+["0-0.7"]
+DiffResults = "0.0.0 - 0.0.4"
+ForwardDiff = "0.0.0 - 0.10"
 
 ["0.4"]
-RecursiveArrayTools = "0"
-
-["0.5-0.5.0"]
-DiffEqBase = "5.6-5"
+RecursiveArrayTools = "0.0.0 - 0.20"
 
 ["0.5-0.7"]
 Adapt = "0.0.0 - 1"
 DiffEqSensitivity = "0.0.0 - 4"
-DiffResults = "0.0.0 - 0.0.4"
 Flux = "0.0.0 - 0.9"
-ForwardDiff = "0.0.0 - 0.10"
 RecursiveArrayTools = "0.0.0 - 1"
 Requires = "0.0.0 - 0.5"
+
+["0.5.0"]
+DiffEqBase = "5.6-5"
 
 ["0.5.1-0.7"]
 DiffEqBase = "5.6.0 - 6"

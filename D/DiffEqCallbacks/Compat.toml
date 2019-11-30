@@ -5,13 +5,15 @@ julia = "0.7-1"
 DiffEqBase = "3-5"
 
 ["2-2.4"]
-DataStructures = "0"
+DataStructures = "0.0.0 - 0.17"
 
 ["2-2.5"]
 OrdinaryDiffEq = "3-5"
-RecipesBase = "0"
-RecursiveArrayTools = "0"
-StaticArrays = "0"
+RecursiveArrayTools = "0.0.0 - 0.20"
+
+["2-2.8"]
+RecipesBase = "0.0.0 - 0.7"
+StaticArrays = "0.0.0 - 0.12"
 
 ["2.2-2"]
 julia = "1"
@@ -20,7 +22,7 @@ julia = "1"
 DiffEqBase = "4.29-5"
 
 ["2.5"]
-DataStructures = "0.15-0"
+DataStructures = "0.15.0 - 0.17"
 
 ["2.6"]
 OrdinaryDiffEq = "0.0.0 - 5"
@@ -31,8 +33,6 @@ RecursiveArrayTools = "0.20.0 - 1"
 ["2.6-2.8"]
 DataStructures = "0.0.0 - 0.17"
 DiffEqBase = "0.0.0 - 6"
-RecipesBase = "0.0.0 - 0.7"
-StaticArrays = "0.0.0 - 0.12"
 
 ["2.7-2"]
 OrdinaryDiffEq = "5.13.0-5"

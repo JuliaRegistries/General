@@ -8,21 +8,21 @@ DiffEqBase = "3.7-5"
 FunctionWrappers = "0.1-1"
 
 ["5-5.6"]
-PoissonRandom = "0"
+PoissonRandom = "0.0.0 - 0.4"
 
 ["5-5.7"]
-DataStructures = "0"
+DataStructures = "0.0.0 - 0.17"
 
 ["5-6.1"]
 Compat = "0.19-2"
 RandomNumbers = "0-1"
-RecursiveArrayTools = "0"
+RecursiveArrayTools = "0.0.0 - 0.20"
 
 ["5.0"]
-Requires = "0"
+Requires = "0.0.0 - 0.5"
 
-["5.1-6.1"]
-TreeViews = "0"
+["5.1-6.2"]
+TreeViews = "0.0.0 - 0.3"
 
 ["5.2-6"]
 julia = "1"
@@ -34,18 +34,18 @@ DiffEqBase = "4.27-5"
 FunctionWrappers = "1"
 
 ["5.7-6.1"]
-PoissonRandom = "0.4-0"
+PoissonRandom = "0.4.0 - 0.4"
 
 ["5.8-6.1"]
-DataStructures = "0.15-0"
+DataStructures = "0.15.0 - 0.17"
 
 ["6-6.1"]
 DiffEqBase = "5"
 
 ["6.1"]
-Parameters = "0.10.3-0"
+Parameters = "0.10.3 - 0.12"
 
-["6.2-6.2.1"]
+["6.2"]
 Compat = "0.0.0 - 3"
 DataStructures = "0.0.0 - 0.17"
 DiffEqBase = "0.0.0 - 6"
@@ -54,10 +54,6 @@ Parameters = "0.0.0 - 0.12"
 PoissonRandom = "0.0.0 - 0.4"
 RandomNumbers = "0.0.0 - 1"
 RecursiveArrayTools = "0.20.0 - 1"
-TreeViews = "0.0.0 - 0.3"
-
-["6.2.2-6.2"]
-RecursiveArrayTools = "0.20.0-*"
 
 ["6.3-6"]
 Compat = "2.2.0-3"

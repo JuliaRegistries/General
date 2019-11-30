@@ -3,7 +3,9 @@ julia = "0.7-1"
 
 ["2-3.4"]
 DiffEqBase = "1.19-5"
-StaticArrays = "0"
+
+["2-4.3"]
+StaticArrays = "0.0.0 - 0.12"
 
 ["3.3-4"]
 julia = "1"
@@ -12,23 +14,22 @@ julia = "1"
 DiffEqBase = "1.19.0 - 6"
 ForwardDiff = "0.0.0 - 0.10"
 
-["3.5-4.2"]
-StaticArrays = "0.0.0 - 0.12"
-
 ["4-4.1"]
 DiffEqBase = "5.19.0 - 6"
 
-["4-4.2"]
+["4-4.3"]
 BandedMatrices = "0.0.0 - 0.14"
 NNlib = "0.0.0 - 0.6"
 
-["4.1-4.2"]
+["4.1-4.3"]
 ForwardDiff = "0.0.0 - 0.10"
 
 ["4.2"]
+ModelingToolkit = "0.8"
+
+["4.2-4.3"]
 BlockBandedMatrices = "0.0.0 - 0.6"
 LazyArrays = "0.0.0 - 0.14"
-ModelingToolkit = "0.8"
 
 ["4.2.0"]
 DiffEqBase = "6"

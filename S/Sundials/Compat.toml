@@ -3,14 +3,14 @@ julia = "0.7-1"
 
 ["2-2.4"]
 DiffEqBase = "4.6-5"
-Roots = "0"
+Roots = "0.0.0 - 0.8"
 
 ["2-2.6"]
-DataStructures = "0"
+DataStructures = "0.0.0 - 0.17"
 
-["2-3.3"]
-BinaryProvider = "0"
-Reexport = "0"
+["2-3.7"]
+BinaryProvider = "0.0.0 - 0.5"
+Reexport = "0.0.0 - 0.2"
 
 ["2.4-3"]
 julia = "1"
@@ -18,8 +18,8 @@ julia = "1"
 ["2.5-2"]
 DiffEqBase = "4.29-5"
 
-["2.7-3.3"]
-DataStructures = "0.15-0"
+["2.7-3.7"]
+DataStructures = "0.15.0 - 0.17"
 
 ["3-3.1"]
 DiffEqBase = "5"
@@ -28,10 +28,7 @@ DiffEqBase = "5"
 DiffEqBase = "5.5-5"
 
 ["3.4-3.7"]
-BinaryProvider = "0.0.0 - 0.5"
-DataStructures = "0.15.0 - 0.17"
 DiffEqBase = "5.5.0 - 6"
-Reexport = "0.0.0 - 0.2"
 
 ["3.8-3"]
 BinaryProvider = "0.5"
