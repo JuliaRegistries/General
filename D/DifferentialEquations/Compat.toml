@@ -82,22 +82,41 @@ RecursiveArrayTools = "1.0.0 - 1"
 SteadyStateDiffEq = "1.5.0 - 1"
 
 ["6.7-6"]
+DiffEqFinancial = "2.2.0-2"
+DiffEqJump = "6.2.1-6"
+DiffEqPhysics = "3.2.0-3"
+
+["6.7-6.8"]
 BoundaryValueDiffEq = "2"
 DelayDiffEq = "5.15.0-5"
 DiffEqCallbacks = "2.8.0-2"
-DiffEqFinancial = "2.2.0-2"
-DiffEqJump = "6.2.1-6"
 DiffEqNoiseProcess = "3.3.0-3"
-DiffEqPhysics = "3.2.0-3"
 OrdinaryDiffEq = "5.16.0-5"
 StochasticDiffEq = "6.9.0-6"
 Sundials = "3.7.0-3"
 
-["6.8-6"]
+["6.8"]
 DiffEqBase = "6.2.2-6"
 DimensionalPlotRecipes = "0.0.2-*"
 MultiScaleArrays = "1.4.0-*"
 RecursiveArrayTools = "1.0.0-*"
 Reexport = "0.2.0-*"
 SteadyStateDiffEq = "1.5.0-*"
+
+["6.8-6"]
 julia = "1"
+
+["6.9-6"]
+BoundaryValueDiffEq = "2.3.0-2"
+DelayDiffEq = "5.18.0-5"
+DiffEqBase = "6.6.0-6"
+DiffEqCallbacks = "2.10.0-2"
+DiffEqNoiseProcess = "3.6.0-3"
+DimensionalPlotRecipes = "1"
+MultiScaleArrays = "1.5.0-1"
+OrdinaryDiffEq = "5.23.0-5"
+RecursiveArrayTools = "1"
+Reexport = "0.2"
+SteadyStateDiffEq = "1.5.0-1"
+StochasticDiffEq = "6.13.0-6"
+Sundials = "3.8.1-3"
