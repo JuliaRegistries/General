@@ -1,17 +1,24 @@
 ["0-0.3"]
-RecursiveArrayTools = "0"
-Reexport = "0"
-StaticArrays = "0"
+RecursiveArrayTools = "0.0.0 - 0.20"
+StaticArrays = "0.0.0 - 0.12"
 julia = "1"
 
 ["0-0.4"]
 DiffEqBase = "5"
 
-["0.4"]
-RecursiveArrayTools = "0.0.0 - 1"
+["0-0.5"]
 Reexport = "0.0.0 - 0.2"
+
+["0.4"]
 StaticArrays = "0.8.0 - 0.12"
 julia = "1.0.0-1"
+
+["0.4-0.5"]
+RecursiveArrayTools = "0.0.0 - 1"
+
+["0.5"]
+DiffEqBase = "0.0.0 - 6"
+StaticArrays = "0.0.0 - 0.12"
 
 ["0.5-0"]
 julia = "1"

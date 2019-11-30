@@ -2,16 +2,18 @@
 julia = "0.7-1"
 
 ["2-2.6.0"]
-Juno = "0"
+Juno = "0.0.0 - 0.7"
 
 ["2-2.7"]
 DiffEqBase = "3-5"
-DiffEqMonteCarlo = "0"
 DiffEqNoiseProcess = "0-3"
-DiffEqPDEBase = "0.4-0"
+DiffEqPDEBase = "0.4.0 - 0.4"
 NLsolve = "0.14.1-4"
-RecipesBase = "0.1-0"
-RecursiveArrayTools = "0.4-0"
+RecipesBase = "0.1.0 - 0.7"
+RecursiveArrayTools = "0.4.0 - 0.20"
+
+["2-2.9"]
+DiffEqMonteCarlo = "0.0.0 - 0.15"
 
 ["2.10"]
 DiffEqBase = "5.11.0 - 6"
@@ -25,10 +27,7 @@ DiffEqBase = "6"
 ["2.6-2"]
 julia = "1"
 
-["2.7.1-2.7"]
-BenchmarkTools = "0"
-
-["2.8"]
+["2.7.1-2.8"]
 BenchmarkTools = "0.0.0 - 0.4"
 
 ["2.8-2.14"]
@@ -42,4 +41,3 @@ RecursiveArrayTools = "0.0.0 - 1"
 
 ["2.8-2.9"]
 DiffEqBase = "0.0.0 - 6"
-DiffEqMonteCarlo = "0.0.0 - 0.15"
