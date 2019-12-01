@@ -1,7 +1,14 @@
 [0]
-CSV = "0.5.18-0.5"
-DataDeps = "0.7.1-0.7"
-DataFrames = "0.19.4-0.19"
 Glob = "1.2.0-1"
 JuliaDB = "0.13"
 julia = "1.2.0-1"
+
+["0-0.1"]
+CSV = "0.5.18-0.5"
+DataDeps = "0.7.1-0.7"
+DataFrames = "0.19.4-0.19"
+
+["0.2-0"]
+CSV = "0.5"
+DataDeps = "0.7"
+DataFrames = "0.19"
