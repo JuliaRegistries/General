@@ -1,6 +1,12 @@
 [0]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
 TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
+
+["0-0.1.1"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.1.2-0"]
+CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
+CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
