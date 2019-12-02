@@ -71,8 +71,6 @@ julia = "1.0.0-*"
 ["0.28-0"]
 Contour = "0.5"
 FFMPEG = "0.2"
-FixedPointNumbers = ["0.3", "0.6"]
-GR = ["0.31", "0.44"]
 GeometryTypes = "0.7"
 JSON = "0.21"
 Measures = "0.3"
@@ -82,11 +80,21 @@ RecipesBase = "0.6-0.7"
 Reexport = "0.2"
 Requires = "0.5"
 Showoff = "0.3.1-0.3"
-StatsBase = ["0.14", "0.32"]
 julia = "1"
+
+["0.28-0.28.1"]
+FixedPointNumbers = ["0.3", "0.6"]
+GR = ["0.31", "0.44"]
+StatsBase = ["0.14", "0.32"]
 
 ["0.28.0"]
 PlotThemes = ["0.2", "0.4"]
 
-["0.28.1-0"]
+["0.28.1"]
 PlotThemes = ["0.2", "1"]
+
+["0.28.2-0"]
+FixedPointNumbers = "0.6"
+GR = "0.44"
+PlotThemes = "1"
+StatsBase = "0.32"
