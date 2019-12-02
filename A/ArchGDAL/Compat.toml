@@ -4,7 +4,14 @@ GDAL = "0.2-0"
 GeoInterface = "0.4-0"
 julia = "0.7-1"
 
-["0.2.1-0"]
-GDAL = "0.2"
+["0.2.1"]
 GeoInterface = "0.4.0-*"
 julia = "0.7.0-1"
+
+["0.2.1-0"]
+GDAL = "0.2"
+
+["0.2.2-0"]
+DataStreams = "0.4.2-0.4"
+GeoInterface = "0.4"
+julia = ["0.7", "1"]
