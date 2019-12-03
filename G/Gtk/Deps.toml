@@ -1,18 +1,29 @@
 [0]
 BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
-Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
-Graphics = "a2bd30eb-e257-5431-a919-1863eab51364"
 Homebrew = "d9be37ee-ecc9-5288-90f1-b9ca67657a75"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 WinRPM = "c17dfb99-b4f7-5aad-8812-456da1ad7187"
 
 ["0-0.17"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
-["0.16.1-0"]
+[0-1]
+Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
+Graphics = "a2bd30eb-e257-5431-a919-1863eab51364"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.16.1-1"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
-["0.17-0"]
+["0.17-1"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
+[1]
+Cairo_jll = "83423d85-b0ee-5818-9007-b63ccbeb887a"
+GTK3_jll = "77ec8976-b24b-556a-a1bf-49a033a670a6"
+Glib_jll = "7746bdde-850d-59dc-9ae8-88ece973131d"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+adwaita_icon_theme_jll = "b437f822-2cd6-5e08-a15c-8bac984d38ee"
+gdk_pixbuf_jll = "da03df04-f53b-5353-a52f-6a8b0620ced0"
+hicolor_icon_theme_jll = "059c91fe-1bad-52ad-bddd-f7b78713c282"
