@@ -25,8 +25,14 @@ PyCall = "1.90-1"
 OffsetArrays = "0.10-0"
 julia = "1"
 
-["1.0.3-1"]
+["1.0.3-1.0.7"]
 PyCall = "1.90.0-*"
 RecipesBase = "0.5.0-*"
 SpecialFunctions = "0.3.4-*"
 julia = "1.0.0-1"
+
+["1.0.8-1"]
+PyCall = "1.91.0-1"
+RecipesBase = "0.7"
+SpecialFunctions = "0.8"
+julia = "1"
