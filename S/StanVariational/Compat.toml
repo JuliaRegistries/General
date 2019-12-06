@@ -1,7 +1,7 @@
 [0-1]
 julia = "1"
 
-[1]
+["1.0"]
 StanBase = "1"
 
 ["1.0.0"]
@@ -28,5 +28,9 @@ StanDump = "0.2"
 StanRun = "0.2"
 StanSamples = "0.1"
 
-["1.0.2-1"]
+["1.0.2-1.0"]
 MCMCChains = "0.3-0.4"
+
+["1.1-1"]
+MCMCChains = "0.4"
+StanBase = "1.1.0-1"
