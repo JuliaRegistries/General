@@ -2,11 +2,11 @@ name: AutoMerge
 
 on:
   schedule:
-    - cron: '15,45 * * * *'
+    - cron: '05,17,29,41,53 * * * *'
   pull_request:
 
 jobs:
-  build:
+  AutoMerge:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -15,13 +15,13 @@ jobs:
         os: [ubuntu-latest]
     steps:
       - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819 # v1.0.0
-      - uses: julia-actions/setup-julia@a072d0b2e463063d60f08e151727e0e548db233d # v0.2.1
+      - uses: julia-actions/setup-julia@082493e5c5d32c1fa68c35556429b0f1b2807453 # v1.0.1
         with:
           version: ${{ matrix.julia-version }}
-      - name: Install dependencies
+      - name: Install dependencies by running Pkg.instantiate()
         run: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
       - name: AutoMerge.run
         env:
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JULIA_DEBUG: RegistryCI,AutoMerge
-        run: julia --project=.ci/ -e 'using RegistryCI; using Dates; RegistryCI.AutoMerge.run(merge_new_packages=true, merge_new_versions=true, new_package_waiting_period=Day(3), new_version_waiting_period=Minute(15), registry="JuliaRegistries/General", authorized_authors=["JuliaRegistrator"], suggest_onepointzero=false)'
+        run: julia --project=.ci/ -e 'using RegistryCI; using Dates; RegistryCI.AutoMerge.run(merge_new_packages=true, merge_new_versions=true, new_package_waiting_period=Day(3), new_version_waiting_period=Minute(15), registry="JuliaRegistries/General", authorized_authors=["JuliaRegistrator", "jlbuild"], suggest_onepointzero=false)'
