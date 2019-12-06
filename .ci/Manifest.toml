@@ -5,9 +5,9 @@ uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[BinaryProvider]]
 deps = ["Libdl", "SHA"]
-git-tree-sha1 = "29995a7b317bbd06be147e1974a3541ce2502dca"
+git-tree-sha1 = "5b08ed6036d9d3f0ee6369410b830f8873d4024c"
 uuid = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
-version = "0.5.7"
+version = "0.5.8"
 
 [[Dates]]
 deps = ["Printf"]
@@ -19,9 +19,9 @@ uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 [[EzXML]]
 deps = ["BinaryProvider", "Libdl", "Printf"]
-git-tree-sha1 = "aed48d722e528bc634bd36a7d0e090fa2952a3c0"
+git-tree-sha1 = "469de9cb996a9c03f31905619ff3c33e905711f3"
 uuid = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
-version = "0.9.4"
+version = "0.9.5"
 
 [[GitHub]]
 deps = ["Base64", "Dates", "HTTP", "JSON", "MbedTLS", "Sockets"]
@@ -31,9 +31,9 @@ version = "5.1.3"
 
 [[HTTP]]
 deps = ["Base64", "Dates", "IniFile", "MbedTLS", "Sockets"]
-git-tree-sha1 = "f1e1b417a34cf73a70cbed919915bf8f8bad1806"
+git-tree-sha1 = "5c49dab19938b119fe204fd7d7e8e174f4e9c68b"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "0.8.6"
+version = "0.8.8"
 
 [[IniFile]]
 deps = ["Test"]
@@ -52,6 +52,7 @@ uuid = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 version = "0.21.0"
 
 [[LibGit2]]
+deps = ["Printf"]
 uuid = "76f85450-5226-5b5a-8eaa-529ad045b433"
 
 [[Libdl]]
@@ -80,12 +81,12 @@ version = "0.7.0"
 
 [[Parsers]]
 deps = ["Dates", "Test"]
-git-tree-sha1 = "ef0af6c8601db18c282d092ccbd2f01f3f0cd70b"
+git-tree-sha1 = "0139ba59ce9bc680e2925aec5b7db79065d60556"
 uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
-version = "0.3.7"
+version = "0.3.10"
 
 [[Pkg]]
-deps = ["Dates", "LibGit2", "Markdown", "Printf", "REPL", "Random", "SHA", "UUIDs"]
+deps = ["Dates", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "REPL", "Random", "SHA", "UUIDs"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[Printf]]
@@ -102,11 +103,9 @@ uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [[RegistryCI]]
 deps = ["Dates", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "Test", "TimeZones"]
-git-tree-sha1 = "36227e3f6a067d48acf2e2db8507f0c28909a61f"
-repo-rev = "4dcd6b098db1f6fa2c572f56e597eea2b0d4f9e5"
-repo-url = "https://github.com/JuliaRegistries/RegistryCI.jl.git"
+git-tree-sha1 = "aacc9690f7c89570569ca1401686fc915384f223"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "0.3.0-DEV"
+version = "0.4.0"
 
 [[SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
@@ -123,9 +122,9 @@ uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [[TimeZones]]
 deps = ["Dates", "EzXML", "Mocking", "Printf", "Serialization", "Unicode"]
-git-tree-sha1 = "4d2d681e1dd715fdaa47d31a7208cead357bb357"
+git-tree-sha1 = "29c7ae3f50f291358043e21db47b3e1a516df891"
 uuid = "f269a46b-ccf7-5d73-abea-4c690281aa53"
-version = "0.10.2"
+version = "0.10.3"
 
 [[UUIDs]]
 deps = ["Random", "SHA"]
