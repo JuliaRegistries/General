@@ -1,7 +1,12 @@
-["0.2"]
-BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
+[0]
 Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+["0-0.2"]
+BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Homebrew = "d9be37ee-ecc9-5288-90f1-b9ca67657a75"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 WinRPM = "c17dfb99-b4f7-5aad-8812-456da1ad7187"
+
+["0.3-0"]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
