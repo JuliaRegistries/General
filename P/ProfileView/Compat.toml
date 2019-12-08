@@ -17,10 +17,18 @@ Graphics = "0.2.0-*"
 GtkReactive = "0.5.1-*"
 
 ["0.5-0"]
-Cairo = "0.5-0.6"
 Colors = "0.9"
 FileIO = "1"
+IntervalSets = "0.2-0.3"
+
+["0.5.0"]
+Cairo = "0.5-0.6"
 Graphics = "0.2-0.4"
 Gtk = "0.16-0.18"
 GtkReactive = "0.5.1-0.6"
-IntervalSets = "0.2-0.3"
+
+["0.5.1-0"]
+Cairo = ["0.5-0.8", "1"]
+Graphics = ["0.2-0.4", "1"]
+Gtk = ["0.16-0.18", "1"]
+GtkReactive = ["0.5.1-0.7", "1"]
