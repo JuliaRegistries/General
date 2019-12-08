@@ -5,5 +5,10 @@ julia = "0.7-1"
 ["0.1"]
 Requires = "0"
 
-["0.2-0"]
+["0.2"]
 julia = ["0.7", "1"]
+
+["0.3-0"]
+ConstructionBase = "1"
+FieldMetadata = "0.1"
+julia = "1"
