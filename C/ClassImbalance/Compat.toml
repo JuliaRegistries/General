@@ -1,11 +1,13 @@
 ["0-0.3"]
-DataFrames = "0"
-Distributions = "0"
-StatsBase = "0"
-julia = "0.7-1"
+julia = ["0.7", "1"]
+
+["0-0.7"]
+DataFrames = "0.0.0 - 0.20"
+Distributions = "0.0.0 - 0.21"
+StatsBase = "0.0.0 - 0.32"
 
 ["0.4"]
-julia = "0.7.0-1"
+julia = ["0.7", "1"]
 
 ["0.5-0.6"]
 julia = "1"
