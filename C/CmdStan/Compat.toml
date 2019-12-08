@@ -32,6 +32,9 @@ Reexport = "0.2-0"
 julia = "1.1.0-1"
 
 ["5.2.1-5"]
+julia = "1"
+
+["5.2.1-5.2"]
 BinDeps = "0"
 CSV = "0"
 DataFrames = "0"
@@ -42,4 +45,15 @@ Missings = "0"
 NamedArrays = "0"
 Reexport = "0"
 StatsPlots = "0"
-julia = "1"
+
+["5.3-5"]
+BinDeps = ["0.8", "1"]
+CSV = "0.5"
+DataFrames = "0.19-0.20"
+Documenter = "0.23-0.24"
+Homebrew = "0.7"
+MCMCChains = "0.3-0.4"
+Missings = "0.4"
+NamedArrays = "0.9"
+Reexport = "0.2"
+StatsPlots = "0.12-0.13"
