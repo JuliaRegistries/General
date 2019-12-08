@@ -18,7 +18,7 @@ Mamba = "0.12-0"
 [4-5]
 julia = "1"
 
-[5]
+["5.0"]
 StanDiagnose = "1"
 StanOptimize = "1"
 StanSample = "1"
@@ -33,3 +33,11 @@ StatsPlots = "0.12"
 
 ["5.0.2-5"]
 StatsPlots = "0.12-0.13"
+
+["5.1-5"]
+DocStringExtensions = "0.8"
+Documenter = "0.23-0.24"
+StanDiagnose = "1.1.0-1"
+StanOptimize = "1.1.0-1"
+StanSample = "1.1.0-1"
+StanVariational = "1.1.0-1"
