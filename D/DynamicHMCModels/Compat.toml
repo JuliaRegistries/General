@@ -36,17 +36,25 @@ julia = "1.2.0-1"
 
 ["1.0.1-1"]
 CSV = "0.5"
-DataFrames = "0.19"
 Distributions = "0.21"
 DynamicHMC = "2.1.0-2"
 ForwardDiff = "0.10"
 LogDensityProblems = "0.9"
-MCMCChains = "0.3"
 MCMCDiagnostics = "0.3"
 Optim = "0.18-0.19"
 Parameters = "0.12"
 Reexport = "0.2"
-StatsFuns = "0.9"
-StatsPlots = "0.12"
 TransformVariables = "0.3"
 julia = "1"
+
+["1.0.1-1.0"]
+DataFrames = "0.19"
+MCMCChains = "0.3"
+StatsFuns = "0.9"
+StatsPlots = "0.12"
+
+["1.1-1"]
+DataFrames = "0.19-0.20"
+MCMCChains = "0.3-0.4"
+StatsFuns = ["0.7", "0.9"]
+StatsPlots = "0.12-0.13"
