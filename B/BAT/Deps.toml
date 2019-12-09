@@ -1,4 +1,11 @@
-[0]
+["0-0.2"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.3"]
+FunctionWrappers = "069b7b12-0de2-55c6-9aab-29f3d0a68a2e"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[0-1]
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
 ArraysOfArrays = "65a8f2f4-9b39-5baf-92e2-a9cc46fdf018"
 Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
@@ -24,29 +31,25 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 TypedTables = "9d95f2ec-7b3d-5a63-8d20-e2491e220bb9"
 UnsafeArrays = "c4a57d5a-5b31-53a6-b365-19f8c011fbd6"
 
-["0-0.2"]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["0-0.3"]
-FunctionWrappers = "069b7b12-0de2-55c6-9aab-29f3d0a68a2e"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-
 ["0.1.1-0.3"]
 Cuba = "8a292aeb-7a57-582c-b821-06e4c11590b1"
 
-["0.2-0"]
+["0.2-1"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
-["0.3-0"]
+["0.3-1"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 
-["0.4-0"]
+["0.4-1"]
 KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
 PositiveFactorizations = "85a6dd25-e78a-55b7-8502-1745935b8125"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 ValueShapes = "136a8f8c-c49b-4edb-8b98-f3d64d48be8f"
 
-["0.5-0"]
+["0.5-1"]
 Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
+
+[1]
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
