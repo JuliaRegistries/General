@@ -66,8 +66,6 @@ PredictMDAPI = "0.1"
 StatsBase = "0.30-0.31"
 
 ["0.31-0"]
-CUDAapi = "1"
-Combinatorics = "0.7"
 GZip = "0.5"
 MLBase = "0.8"
 NNlib = "0.6"
@@ -107,6 +105,10 @@ UnicodePlots = "1.1.0-1"
 ValueHistories = "0.5.1-0.5"
 Zygote = "0.3.2-0.3"
 
+["0.31-0.34.2"]
+CUDAapi = "1"
+Combinatorics = "0.7"
+
 ["0.32-0.33"]
 CategoricalArrays = "0.0.0-0.5.2"
 Distributions = "0.19"
@@ -128,15 +130,11 @@ Cassette = "0.2"
 CategoricalArrays = "0.7"
 ClassImbalance = "0.8"
 DataDeps = "0.7"
-DataFrames = "0.19"
-DecisionTree = "0.9"
 DefaultApplication = "0.1"
 Distributions = "0.21"
-Documenter = "0.23"
 FFTW = "1"
 FileIO = "1"
 FixedPointNumbers = "0.6"
-Flux = "0.9"
 GLM = "1"
 HTTP = "0.8"
 IterableTables = "1"
@@ -145,7 +143,6 @@ LIBSVM = "0.3"
 LaTeXStrings = "1"
 Literate = "2"
 MacroTools = "0.5"
-PredictMDAPI = "0.2"
 ProgressMeter = "1"
 RDatasets = "0.6.4-0.6"
 Requires = "0.5"
@@ -157,8 +154,24 @@ UnicodePlots = "1"
 ValueHistories = "0.5"
 Zygote = "0.4"
 
+["0.34-0.34.2"]
+DataFrames = "0.19"
+DecisionTree = "0.9"
+Documenter = "0.23"
+Flux = "0.9"
+PredictMDAPI = "0.2"
+
 ["0.34.0"]
 JLD2 = "0.1.2"
 
 ["0.34.1-0"]
 JLD2 = "0.1.8-0.1"
+
+["0.34.3-0"]
+CUDAapi = "2"
+Combinatorics = "1"
+DataFrames = "0.20"
+DecisionTree = "0.10"
+Documenter = "0.24"
+Flux = "0.10"
+PredictMDAPI = "0.3"
