@@ -1,6 +1,12 @@
-["0.2"]
+["0-0.2"]
 Compat = "0.70-2"
 MbedTLS = "0"
 ProtoBuf = "0"
 URIParser = "0"
 julia = "0.7-1"
+
+["0.3-0"]
+MbedTLS = "0.6.8-0.7"
+ProtoBuf = "0.7"
+URIParser = "0.4"
+julia = "1"
