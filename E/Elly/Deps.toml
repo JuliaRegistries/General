@@ -1,7 +1,6 @@
-["0.2"]
+[0]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 CRC32c = "8bf52ea8-c179-5cab-976a-9e18b702a9bc"
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
@@ -9,6 +8,9 @@ ProtoBuf = "3349acd9-ac6a-5e09-bcdb-63829b23a429"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 URIParser = "30578b45-9adc-5946-b283-645ec420af67"
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+
+["0-0.2"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
