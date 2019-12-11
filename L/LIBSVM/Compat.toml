@@ -1,11 +1,17 @@
-["0.2"]
+["0-0.2"]
 Compat = "0.17-2"
 julia = "0.6-1"
 
-["0.2-0.3"]
+["0-0.3"]
 LIBLINEAR = "0.2.1-0"
 ScikitLearnBase = "0"
 
 ["0.3"]
 Compat = "0.41-2"
 julia = "0.7-1"
+
+["0.4-0"]
+Compat = "2-3"
+LIBLINEAR = "0.5"
+ScikitLearnBase = "0.5"
+julia = "1"
