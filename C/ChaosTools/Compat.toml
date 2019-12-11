@@ -34,7 +34,7 @@ DiffEqBase = "5"
 DynamicalSystemsBase = "1.2.3-1"
 julia = "1"
 
-["1.6-1"]
+["1.6-1.8.0"]
 Combinatorics = "0.6.0-*"
 DiffEqBase = "5.0.0-*"
 Distances = "0.7.0-*"
@@ -46,3 +46,19 @@ Roots = "0.7.0-*"
 StaticArrays = "0.8.0-*"
 StatsBase = "0.24.0-*"
 julia = "1.0.0-1"
+
+["1.8.2-1"]
+Combinatorics = "1"
+DSP = "0.6"
+DiffEqBase = "5-6"
+Distances = "0.7-0.8"
+Distributions = "0.21"
+DynamicalSystemsBase = "1.2.3-1"
+ForwardDiff = "0.8-0.10"
+LombScargle = "0.4-0.5"
+NearestNeighbors = "0.4"
+Reexport = "0.1-0.2"
+Roots = ["0.7-0.8", "1"]
+StaticArrays = "0.12"
+StatsBase = ["0.24", "0.32"]
+julia = "1"
