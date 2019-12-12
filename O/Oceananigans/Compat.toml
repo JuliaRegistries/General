@@ -7,8 +7,6 @@ julia = "1.1-1"
 
 ["0.12-0"]
 Adapt = "1"
-CUDAapi = "1.1.0-1"
-CUDAdrv = "3.1.0-3"
 CUDAnative = "2.3.0-2"
 CuArrays = "1.2.0-1"
 FFTW = "1"
@@ -20,8 +18,16 @@ OrderedCollections = "1.1.0-1"
 StaticArrays = ["0.11", "1"]
 TimerOutputs = ["0.5", "1"]
 
+["0.12-0.16"]
+CUDAapi = "1.1.0-1"
+CUDAdrv = "3.1.0-3"
+
 ["0.16-0"]
 Cassette = ["0.2", "1"]
+
+["0.17-0"]
+CUDAapi = "1.1.0-2"
+CUDAdrv = "3.1.0-4"
 
 ["0.5.2"]
 julia = "1"
