@@ -1,4 +1,4 @@
-[1]
+[1-2]
 julia = "1"
 
 ["1.1.2-1"]
@@ -12,3 +12,11 @@ Rematch = "0"
 StaticArrays = "0"
 Transducers = "0"
 Unitful = "0"
+
+[2]
+ConstructionBase = "1"
+LsqFit = "0.8"
+Polynomials = "0.5.2-0.6"
+Rematch = "0.3"
+Roots = "0.8"
+Unitful = "0.18"
