@@ -1,10 +1,10 @@
-["0.4"]
+["0-0.4"]
 AWSCore = "0.3-0"
 HTTP = "0.5.4-0"
 SymDict = "0.1.2-0"
 julia = "0.7-1"
 
-["0.4-0.5"]
+["0-0.5"]
 MbedTLS = "0"
 Retry = "0"
 
@@ -12,4 +12,13 @@ Retry = "0"
 AWSCore = "0"
 HTTP = "0"
 SymDict = "0"
+
+["0.5-0"]
 julia = "1"
+
+["0.6-0"]
+AWSCore = "0.5-0.6"
+HTTP = "0.6-0.8"
+MbedTLS = "0.6-0.7"
+Retry = "0.3-0.4"
+SymDict = "0.3"
