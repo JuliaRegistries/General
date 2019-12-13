@@ -134,6 +134,7 @@ end
 
 function main(relative_path;
               registry,
+              github_token = ENV["GITHUB_TOKEN"],
               master_branch = "master",
               pr_branch = "github_actions/remember_to_update_registryci",
               pr_title = "Update RegistryCI.jl by updating the .ci/Manifest.toml file",
@@ -147,8 +148,7 @@ function main(relative_path;
     atexit(() -> rm(tmp_dir; force = true, recursive = true))
     cd(tmp_dir)
 
-    github_token = ENV["GITHUB_TOKEN"]
-    auth = GitHub.authenticate(env["GITHUB_TOKEN"])
+    auth = GitHub.authenticate(github_token)
     repo = GitHub.repo(registry; auth = auth)
     registry_url_with_auth = "https://x-access-token:$(github_token)@github.com/$(registry)"
     _all_open_prs = get_all_pull_requests(repo, "open"; auth = auth)
