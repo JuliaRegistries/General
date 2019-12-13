@@ -1,7 +1,6 @@
 module RememberToUpdateRegistryCI
 
-import Git_jll
-import GitHub
+import GitCommand
 import Pkg
 
 # Some of the code in this file is taken from:
@@ -99,14 +98,13 @@ function create_new_pull_request(repo::GitHub.Repo;
 end
 
 function git_commit(message)::Bool
-    commit_was_success = try
-        Git_jll.git() do git
-            success(`$(git) commit -m "$(message)"`)
+    return try
+        GitCommand.git() do git()
+            success(`$git commit -m "$(message)"`)
         end
     catch
         false
     end
-    return commit_was_success
 end
 
 function generate_username_mentions(usernames::AbstractVector)::String
@@ -171,26 +169,10 @@ function main(relative_path;
 
     username_mentions_text = generate_username_mentions(cc_usernames)
 
-    # Git_jll.git() do git
-        # run(`$(git) clone $(registry_url_with_auth) REGISTRY`)
-    # end
-    run(`git clone $(registry_url_with_auth) REGISTRY`)
+    run(GitCommand.git`clone $(registry_url_with_auth) REGISTRY`)
     cd("REGISTRY")
-    Git_jll.git() do git
-        run(`$(git) checkout $(master_branch)`)
-    end
-    Git_jll.git() do git
-        try
-            run(`$(git) branch -D $(pr_branch)`)
-        catch
-        end
-    end
-    Git_jll.git() do git
-        run(`$(git) branch $(pr_branch)`)
-    end
-    Git_jll.git() do git
-        run(`$(git) checkout $(pr_branch)`)
-    end
+    run(GitCommand.git`checkout $(master_branch)`)
+    run(GitCommand.git`checkout -B $(pr_branch)`)
     cd(relative_path)
     manifest_filename = joinpath(pwd(), "Manifest.toml")
     rm(manifest_filename; force = true, recursive = true)
@@ -199,18 +181,13 @@ function main(relative_path;
     Pkg.update()
     set_git_identity(my_username, my_email)
     try
-        Git_jll.git() do git
-            run(`$(git) add Manifest.toml`)
-        end
+        run(GitCommand.git`add Manifest.toml`)
     catch
     end
     commit_was_success = git_commit("Update .ci/Manifest.toml")
     @info("commit_was_success: $(commit_was_success)")
     if commit_was_success
-        # Git_jll.git() do git
-            # run(`$(git) push -f origin $(pr_branch)`)
-        # end
-        run(`git push -f origin $(pr_branch)`)
+        run(GitCommand.git`push -f origin $(pr_branch)`)
         if pr_title in pr_titles
             @info("An open PR with the title already exists", pr_title)
         else
