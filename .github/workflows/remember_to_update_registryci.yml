@@ -18,9 +18,9 @@ jobs:
       - uses: julia-actions/setup-julia@latest
         with:
           version: ${{ matrix.julia-version }}
-    - name: Install dependencies
-      run: cd .ci && julia -e 'import Pkg; Pkg.add(["Git_jll", "GitHub", "Pkg"])'
-    - name: Update .ci/Manifest.toml
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: cd .ci && julia -e 'include("remember_to_update_registryci.jl"); main(".ci"; registry = "JuliaRegistries/General")'
+      - name: Install dependencies
+        run: cd .ci && julia -e 'import Pkg; Pkg.add(["Git_jll", "GitHub", "Pkg"])'
+      - name: Update .ci/Manifest.toml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: cd .ci && julia -e 'include("remember_to_update_registryci.jl"); main(".ci"; registry = "JuliaRegistries/General")'
