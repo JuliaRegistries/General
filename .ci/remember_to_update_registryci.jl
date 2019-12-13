@@ -207,9 +207,9 @@ function main(relative_path;
     @info("commit_was_success: $(commit_was_success)")
     if commit_was_success
         # Git_jll.git() do git
-            # run(`$(git) push -f origin pr_branch`)
+            # run(`$(git) push -f origin $(pr_branch)`)
         # end
-        run(`git push -f origin pr_branch`)
+        run(`git push -f origin $(pr_branch)`)
         if pr_title in pr_titles
             @info("An open PR with the title already exists", pr_title)
         else
