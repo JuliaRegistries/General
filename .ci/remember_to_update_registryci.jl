@@ -1,6 +1,7 @@
 module RememberToUpdateRegistryCI
 
 import GitCommand
+import GitHub
 import Pkg
 
 # Some of the code in this file is taken from:
