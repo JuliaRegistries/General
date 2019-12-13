@@ -121,8 +121,8 @@ function generate_username_mentions(usernames::AbstractVector)::String
 end
 
 function set_git_identity(username, email)
-    run(`git config user.name 'username'`)
-    run(`git config user.email 'email'`)
+    run(`git config user.name '$(username)'`)
+    run(`git config user.email '$(email)'`)
     return nothing
 end
 
@@ -217,11 +217,12 @@ function main(relative_path;
                                        "RegistryCI.jl by updating the ",
                                        "`.ci/Manifest.toml` file.\n\n",
                                        username_mentions_text))
+            _new_pr_body = convert(String, strip(new_pr_body))
             create_new_pull_request(repo;
                                     base_branch = master_branch,
                                     head_branch = pr_branch,
                                     title = pr_title,
-                                    body = new_pr_body,
+                                    body = _new_pr_body,
                                     auth = auth)
         end
     end
