@@ -179,7 +179,10 @@ function main(relative_path;
         run(`$(git) checkout $(master_branch)`)
     end
     Git_jll.git() do git
-        run(`$(git) branch -D $(pr_branch)`)
+        try
+            run(`$(git) branch -D $(pr_branch)`)
+        catch
+        end
     end
     Git_jll.git() do git
         run(`$(git) branch $(pr_branch)`)
