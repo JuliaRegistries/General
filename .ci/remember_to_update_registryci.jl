@@ -1,3 +1,5 @@
+module RememberToUpdateRegistryCI
+
 import Git_jll
 import GitHub
 import Pkg
@@ -12,7 +14,6 @@ end
     cond || throw(AlwaysAssertionError())
     return nothing
 end
-
 
 function get_all_pull_requests(repo::GitHub.Repo,
                                state::String;
@@ -232,3 +233,5 @@ function main(relative_path;
     Pkg.activate(original_project)
     return commit_was_success
 end
+
+end # end module RememberToUpdateRegistryCI
