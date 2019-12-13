@@ -20,7 +20,7 @@ jobs:
         with:
           version: ${{ matrix.julia-version }}
       - name: Install dependencies
-        run: julia -e 'import Pkg; Pkg.add(Pkg.PackageSpec(url="https://github.com/bcbi/GitCommand.jl")); Pkg.add(["Git_jll", "GitHub", "Pkg"])'
+        run: julia -e 'import Pkg; Pkg.add(Pkg.PackageSpec(url="https://github.com/bcbi/GitCommand.jl")); Pkg.add(["GitHub", "Pkg"])'
       - name: Update .ci/Manifest.toml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
