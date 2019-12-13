@@ -100,7 +100,7 @@ end
 
 function git_commit(message)::Bool
     return try
-        git() do git()
+        git() do git
             success(`$git commit -m "$(message)"`)
         end
     catch
