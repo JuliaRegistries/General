@@ -121,8 +121,8 @@ function generate_username_mentions(usernames::AbstractVector)::String
 end
 
 function set_git_identity(username, email)
-    run(`git config user.name '$(username)'`)
-    run(`git config user.email '$(email)'`)
+    run(`git config user.name "$(username)"`)
+    run(`git config user.email "$(email)"`)
     return nothing
 end
 
