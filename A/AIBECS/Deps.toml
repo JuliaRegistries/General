@@ -2,7 +2,6 @@
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
-DualNumbers = "fa6b7ba4-c1ee-5f82-b5fc-ecf0adba8f74"
 FieldMetadata = "bf96fef3-21d2-5d20-8afa-0e7d4c32a885"
 Flatten = "4c728ea3-d9ee-5c9a-9642-b6f7d7dc04fa"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -22,6 +21,9 @@ DualMatrixTools = "31f4e45d-be81-5be7-b2dd-bc577b4f7be8"
 HyperDualMatrixTools = "04d39a18-1502-5db8-a704-9ca743349cef"
 HyperDualNumbers = "50ceba7f-c3ee-5a84-a6e8-3ad40456ec97"
 
+["0-0.4.0"]
+DualNumbers = "fa6b7ba4-c1ee-5f82-b5fc-ecf0adba8f74"
+
 ["0.2-0"]
 BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
 OceanGrids = "cfe838f4-859f-11e9-2ea1-df7d4e7c3537"
@@ -34,3 +36,6 @@ RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 ["0.4-0"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+
+["0.4.1-0"]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"

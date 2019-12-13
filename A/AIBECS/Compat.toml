@@ -1,7 +1,7 @@
 ["0-0.1"]
 julia = "1"
 
-["0.2-0"]
+["0.2-0.4.0"]
 julia = "1.1.0-1"
 
 ["0.2.2-0.2"]
@@ -21,12 +21,14 @@ BSON = "0.2"
 DataDeps = "0.7"
 DataFrames = "0.19"
 DiffEqBase = "6"
-DualNumbers = "0.6"
 FieldMetadata = "0.1"
 Flatten = "0.2"
 OceanGrids = "0.1"
 Reexport = "0.2"
 UnitfulAstro = "0.4"
+
+["0.3-0.4.0"]
+DualNumbers = "0.6"
 
 ["0.3.2-0"]
 Distances = "0.8"
@@ -37,3 +39,7 @@ RecipesBase = "0.7"
 Distributions = "0.21"
 Parameters = "0.12"
 Unitful = "0.18"
+
+["0.4.1-0"]
+ForwardDiff = "0.10"
+julia = "1"
