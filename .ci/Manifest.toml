@@ -52,7 +52,6 @@ uuid = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 version = "0.21.0"
 
 [[LibGit2]]
-deps = ["Printf"]
 uuid = "76f85450-5226-5b5a-8eaa-529ad045b433"
 
 [[Libdl]]
@@ -103,9 +102,9 @@ uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [[RegistryCI]]
 deps = ["Dates", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "Test", "TimeZones"]
-git-tree-sha1 = "9e7a0679e2fc736f10227b6bc05cd4ee3ff9d237"
+git-tree-sha1 = "19cfc5100aada422999b59a5945dbca18b89cbda"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "0.4.1"
+version = "0.4.4"
 
 [[SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
