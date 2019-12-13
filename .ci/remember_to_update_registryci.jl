@@ -121,8 +121,10 @@ function generate_username_mentions(usernames::AbstractVector)::String
 end
 
 function set_git_identity(username, email)
-    run(`git config user.name "$(username)"`)
-    run(`git config user.email "$(email)"`)
+    git() do git
+        run(`$git config user.name "$(username)"`)
+        run(`$git config user.email "$(email)"`)
+    end
     return nothing
 end
 
@@ -170,10 +172,16 @@ function main(relative_path;
 
     username_mentions_text = generate_username_mentions(cc_usernames)
 
-    run(git`clone $(registry_url_with_auth) REGISTRY`)
+    git() do git
+        run(`$git clone $(registry_url_with_auth) REGISTRY`)
+    end
     cd("REGISTRY")
-    run(git`checkout $(master_branch)`)
-    run(git`checkout -B $(pr_branch)`)
+    git() do git
+        run(`$git checkout $(master_branch)`)
+    end
+    git() do git
+        run(`$git checkout -B $(pr_branch)`)
+    end
     cd(relative_path)
     manifest_filename = joinpath(pwd(), "Manifest.toml")
     rm(manifest_filename; force = true, recursive = true)
@@ -188,7 +196,9 @@ function main(relative_path;
     commit_was_success = git_commit("Update .ci/Manifest.toml")
     @info("commit_was_success: $(commit_was_success)")
     if commit_was_success
-        run(git`push -f origin $(pr_branch)`)
+        git() do git
+            run(`$git push -f origin $(pr_branch)`)
+        end
         if pr_title in pr_titles
             @info("An open PR with the title already exists", pr_title)
         else
