@@ -5,6 +5,15 @@ import Pkg
 # Some of the code in this file is taken from:
 # https://github.com/bcbi/CompatHelper.jl
 
+struct AlwaysAssertionError <: Exception
+end
+
+@inline function always_assert(cond::Bool)::Nothing
+    cond || throw(AlwaysAssertionError())
+    return nothing
+end
+
+
 function get_all_pull_requests(repo::GitHub.Repo,
                                state::String;
                                auth::GitHub.Authorization,
