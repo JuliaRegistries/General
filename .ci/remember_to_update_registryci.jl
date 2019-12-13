@@ -170,10 +170,10 @@ function main(relative_path;
 
     username_mentions_text = generate_username_mentions(cc_usernames)
 
-    Git_jll.git() do git
+    # Git_jll.git() do git
         # run(`$(git) clone $(registry_url_with_auth) REGISTRY`)
-        run(`git clone $(registry_url_with_auth) REGISTRY`)
-    end
+    # end
+    run(`git clone $(registry_url_with_auth) REGISTRY`)
     cd("REGISTRY")
     Git_jll.git() do git
         run(`$(git) checkout $(master_branch)`)
@@ -203,10 +203,10 @@ function main(relative_path;
     commit_was_success = git_commit("Update .ci/Manifest.toml")
     @info("commit_was_success: $(commit_was_success)")
     if commit_was_success
-        Git_jll.git() do git
+        # Git_jll.git() do git
             # run(`$(git) push -f origin pr_branch`)
-            run(`git push -f origin pr_branch`)
-        end
+        # end
+        run(`git push -f origin pr_branch`)
         if pr_title in pr_titles
             @info("An open PR with the title already exists", pr_title)
         else
