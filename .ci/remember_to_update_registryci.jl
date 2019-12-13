@@ -234,4 +234,4 @@ function main(relative_path;
     return commit_was_success
 end
 
-end # endmodule RememberToUpdateRegistryCI
+end # end module RememberToUpdateRegistryCI
