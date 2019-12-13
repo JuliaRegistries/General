@@ -15,7 +15,8 @@ jobs:
         julia-arch: [x86]
         os: [ubuntu-latest]
     steps:
-      - uses: julia-actions/setup-julia@latest
+      - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819 # v1.0.0
+      - uses: julia-actions/setup-julia@082493e5c5d32c1fa68c35556429b0f1b2807453 # v1.0.1
         with:
           version: ${{ matrix.julia-version }}
       - name: Install dependencies
@@ -23,4 +24,4 @@ jobs:
       - name: Update .ci/Manifest.toml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: julia -e 'include("remember_to_update_registryci.jl"); main(".ci"; registry = "JuliaRegistries/General")'
+        run: julia -e 'include(".ci/remember_to_update_registryci.jl"); main(".ci"; registry = "JuliaRegistries/General")'
