@@ -1,7 +1,7 @@
-["0.3"]
+["0-0.3"]
 julia = "0.6-1"
 
-["0.3-0.4"]
+["0-0.4.2"]
 BinDeps = "0.3-0"
 Compat = "0.42-2"
 HTTPClient = "0"
@@ -9,5 +9,14 @@ LibExpat = "0.2.8-0"
 Libz = "0-1"
 URIParser = "0.0.3-0"
 
-["0.4"]
+["0.4-0.4.2"]
 julia = "0.7-1"
+
+["0.4.3-0"]
+BinDeps = "1"
+Compat = "2-3"
+HTTPClient = "0.1-0.2"
+LibExpat = "0.5-0.6"
+Libz = "1"
+URIParser = "0.4"
+julia = "1"
