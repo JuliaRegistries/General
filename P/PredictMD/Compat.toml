@@ -125,7 +125,6 @@ Tables = "0.2.7-0.2"
 ["0.34-0"]
 Adapt = "1"
 BSON = "0.2"
-CSVFiles = "0.16"
 Cassette = "0.2"
 CategoricalArrays = "0.7"
 ClassImbalance = "0.8"
@@ -139,13 +138,11 @@ GLM = "1"
 HTTP = "0.8"
 IterableTables = "1"
 Knet = "1"
-LIBSVM = "0.3"
 LaTeXStrings = "1"
 Literate = "2"
 MacroTools = "0.5"
 ProgressMeter = "1"
 RDatasets = "0.6.4-0.6"
-Requires = "0.5"
 StatsBase = "0.32"
 StatsModels = "0.6"
 Tables = "0.2"
@@ -161,6 +158,11 @@ Documenter = "0.23"
 Flux = "0.9"
 PredictMDAPI = "0.2"
 
+["0.34-0.34.4"]
+CSVFiles = "0.16"
+LIBSVM = "0.3"
+Requires = "0.5"
+
 ["0.34.0"]
 JLD2 = "0.1.2"
 
@@ -175,3 +177,8 @@ DecisionTree = "0.10"
 Documenter = "0.24"
 Flux = "0.10"
 PredictMDAPI = "0.3"
+
+["0.34.5-0"]
+CSVFiles = ["0.16", "1"]
+LIBSVM = "0.3-0.4"
+Requires = ["0.5", "1"]
