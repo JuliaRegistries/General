@@ -24,5 +24,26 @@ Wavelets = "0"
 julia = "1"
 
 ["0.2-0"]
-RegularizedLeastSquares = "0.2.3-*"
 julia = ["0.7", "1"]
+
+["0.2.0"]
+RegularizedLeastSquares = "0.2.3-*"
+
+["0.2.1-0"]
+Distributions = "0.21"
+FFTW = ["0.2", "1"]
+FileIO = "1.2.0-1"
+Graphics = ["0.4", "1"]
+HDF5 = "0.12.2-0.12"
+ImageUtils = "0.2"
+LightXML = "0.8.1-0.8"
+LinearOperators = "1"
+NFFT = "0.5"
+NIfTI = "0.4"
+ProgressMeter = "1.2.0-1"
+Reexport = "0.2"
+RegularizedLeastSquares = "0.5"
+SparsityOperators = "0.1.5-0.1"
+StatsBase = "0.32"
+Unitful = "0.17"
+Wavelets = "0.8-0.9"

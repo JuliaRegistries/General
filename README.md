@@ -50,6 +50,8 @@ The following criteria are applied for all pull requests
    `Project.toml` file.
    (**Note:** Standard libraries are excluded for this criterion since they are bundled
    with Julia, and, hence, implicitly included in the `[compat]` entry for Julia.)
+   
+   You may find [CompatHelper.jl](https://github.com/bcbi/CompatHelper.jl) helpful for maintaining up-to-date `[compat]` entries.
 
  - Package installation: The package should be installable (`Pkg.add("PackageName")`),
    and loadable (`import PackageName`).

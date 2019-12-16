@@ -23,7 +23,7 @@ TextParse = "0.7-0"
 ["0.15"]
 CodecZlib = "0.5.2-0"
 
-["0.16-0"]
+["0.16-1"]
 IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
 TableTraits = ["0.4", "1"]
 TableTraitsUtils = ["0.2.1-0.4", "1"]
@@ -38,13 +38,15 @@ TableShowUtils = "0.1.1-*"
 TextParse = "0.7.0-*"
 
 ["0.16.1-0"]
+TextParse = "0.7-0.9"
+
+["0.16.1-1"]
 CodecZlib = "0.5.2-0.6"
 DataValues = "0.4.4-0.4"
 FileIO = "1.0.1-1"
 HTTP = "0.6.14-0.8"
 IterableTables = ["0.8.3-0.11", "1"]
 TableShowUtils = "0.1.1-0.2"
-TextParse = "0.7-0.9"
 
 ["0.9.1-0.15"]
 DataValues = "0.4.4-0"
@@ -59,3 +61,6 @@ IterableTables = "0.8.3-1"
 
 ["0.9.1-0.9"]
 TableTraits = "0.3.1-1"
+
+[1]
+TextParse = "1"
