@@ -35,7 +35,6 @@ ImageMorphology = "0.1.1-0"
 ["0.19-0"]
 AxisArrays = "0.3"
 ColorTypes = "0.7.4-0.8"
-ColorVectorSpace = "0.6-0.7"
 Colors = "0.8-0.9"
 FileIO = "1"
 FixedPointNumbers = "0.5-0.6"
@@ -55,6 +54,9 @@ StatsBase = "0.24-0.32"
 TiledIteration = "0.2"
 julia = "1"
 
+["0.19-0.19.1"]
+ColorVectorSpace = "0.6-0.7"
+
 ["0.19.0"]
 Graphics = "0.4"
 ImageMorphology = "0.2"
@@ -62,3 +64,6 @@ ImageMorphology = "0.2"
 ["0.19.1-0"]
 Graphics = ["0.4", "1"]
 ImageMorphology = "0.2.2-0.2"
+
+["0.19.2-0"]
+ColorVectorSpace = "0.6-0.8"
