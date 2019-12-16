@@ -44,5 +44,10 @@ StanSample = "1"
 
 ["1.1-1"]
 DataFrames = "0.19-0.20"
-MCMCChains = "0.4"
 StanSample = "1.1.0-1"
+
+["1.1.0"]
+MCMCChains = "0.4"
+
+["1.1.1-1"]
+MCMCChains = ["0.4", "1"]
