@@ -9,7 +9,7 @@ julia = "0.7-1"
 ["0-0.2.2"]
 BinDeps = "0.6-0"
 
-["0.2"]
+["0.2-0"]
 AbstractFFTs = "0.3-0.4"
 
 ["0.2-0.2.2"]
@@ -21,18 +21,25 @@ Compat = "0.62-2"
 Conda = "0-1"
 
 ["0.3-0"]
-AbstractFFTs = "0.3-0.4"
 BinaryProvider = "0.3.0-*"
 
-["0.3-1"]
+["0.3-1.1"]
 julia = "1"
 
 ["1.0"]
 AbstractFFTs = "0.3.0-0.4"
 BinaryProvider = "0.3.0-*"
 
-["1.1-1"]
-AbstractFFTs = "0.5"
+["1.1"]
 BinaryProvider = "0.5"
 Conda = "1"
+
+["1.1-1"]
+AbstractFFTs = "0.5"
 Reexport = "0.2"
+
+["1.2-1"]
+FFTW_jll = "3.3.0-3"
+IntelOpenMP_jll = "2018.0.3-2018"
+MKL_jll = "2019.0.117-2019"
+julia = "1.3.0-1"
