@@ -13,7 +13,6 @@ DefaultApplication = "3f0dd361-4fe0-5fc6-8523-80b14ec94d85"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
 GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
@@ -25,7 +24,6 @@ LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
 MLBase = "f0e99cf1-93fa-52ec-9ecc-5026115318e0"
-NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
 PGFPlotsX = "8314cec4-20b6-5062-9cdb-752b83310925"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -56,6 +54,10 @@ Metalhead = "dbeba491-748d-5e0e-a39e-b530a07fa0cc"
 ["0-0.33"]
 GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
 
+["0-0.34.6"]
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
+
 ["0.29-0"]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
@@ -66,7 +68,7 @@ PredictMDAPI = "df4d2c64-811c-11e9-2782-c5e8d6893c98"
 ["0.31"]
 PGFPlots = "3b7a836e-365b-5785-a47d-02c71176b4aa"
 
-["0.31-0"]
+["0.31-0.34.6"]
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0.32-0"]
