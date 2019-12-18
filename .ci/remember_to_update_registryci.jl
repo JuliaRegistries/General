@@ -149,7 +149,7 @@ function main(relative_path;
               master_branch = "master",
               pr_branch = "github_actions/remember_to_update_registryci",
               pr_title = "Update RegistryCI.jl by updating the .ci/Manifest.toml file",
-              cc_usernames = ["DilumAluthge", "fredrikekre"],
+              cc_usernames = String[],
               my_username = "github-actions[bot]",
               my_email = "41898282+github-actions[bot]@users.noreply.github.com")
     original_project = Base.active_project()
