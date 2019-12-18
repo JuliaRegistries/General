@@ -25,8 +25,14 @@ julia = ["0.7", "1"]
 
 ["0.8-0"]
 ColorTypes = "0.8"
-Colors = "0.9"
-FixedPointNumbers = "0.5-0.6"
 SpecialFunctions = "0.7-0.9"
 StatsBase = "0.28-0.32"
 julia = "1"
+
+["0.8.0"]
+Colors = "0.9"
+FixedPointNumbers = "0.5-0.6"
+
+["0.8.1-0"]
+Colors = "0.9-0.10"
+FixedPointNumbers = "0.5-0.7"
