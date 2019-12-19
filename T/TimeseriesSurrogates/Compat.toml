@@ -13,9 +13,11 @@ julia = "0.7-1"
 ["0.3"]
 UncertainData = "0"
 
-["0.4-0"]
+["0.4"]
 AbstractFFTs = "0.4.1"
 DSP = ["0.5.2-0.5", "1"]
+
+["0.4-0"]
 Distributions = ["0.21", "1"]
 InplaceOps = ["0.3", "1"]
 Interpolations = ["0.12", "1"]
@@ -29,5 +31,11 @@ Plots = ["0.23", "1"]
 UncertainData = ["0.9.2-0.9", "1"]
 
 ["0.4.1-0"]
-Plots = "0"
 UncertainData = "0"
+
+["0.4.1-0.4"]
+Plots = "0"
+
+["0.5-0"]
+AbstractFFTs = ["0.4.1", "0.5"]
+DSP = ["0.5.2-0.6", "1"]
