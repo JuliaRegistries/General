@@ -190,7 +190,9 @@ function main(relative_path;
     Pkg.update()
     set_git_identity(my_username, my_email)
     try
-        run(git`add Manifest.toml`)
+        git() do git
+            run(`$git add Manifest.toml`)
+        end
     catch
     end
     commit_was_success = git_commit("Update .ci/Manifest.toml")
