@@ -35,11 +35,11 @@ GeneralizedGenerated = "0.0.0 - 0.2"
 GeneralizedGenerated = "0.1.4-0.1"
 
 ["0.9-0"]
+DiffRules = "0.1"
 SpecialFunctions = "0.7-0.8"
 
 ["0.9-1"]
 DiffEqBase = "6"
-DiffRules = "0.1"
 DocStringExtensions = "0.7-0.8"
 Latexify = "0.11-0.12"
 MacroTools = "0.5"
@@ -48,3 +48,9 @@ StaticArrays = "0.10-0.12"
 
 [1]
 SpecialFunctions = "0.7-0.9"
+
+["1.0"]
+DiffRules = "0.1"
+
+["1.1-1"]
+DiffRules = ["0.1", "1"]
