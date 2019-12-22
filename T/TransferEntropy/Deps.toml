@@ -1,7 +1,4 @@
-["0.2-0.3"]
-Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
-
-["0.2-0.4"]
+[0]
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
@@ -12,10 +9,19 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Simplices = "d5428e67-3037-59ba-9ab1-57a04f0a3b6a"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StateSpaceReconstruction = "1441a9f6-6a74-5418-a591-cdf1d78a07f0"
+
+["0-0.3"]
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+
+["0-0.4"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.4"]
+["0.4-0"]
 CausalityToolsBase = "b1f25513-c649-51ee-8a1c-0e98d01ae897"
 DelayEmbeddings = "5732040d-69e3-5649-938a-b6b4f237613f"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0.5-0"]
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+TimeseriesSurrogates = "c804724b-8c18-5caa-8579-6025a0767c70"
