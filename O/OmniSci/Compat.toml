@@ -36,7 +36,6 @@ julia = "1.1.0-1"
 julia = "1.1.0-*"
 
 ["0.6-0"]
-DataFrames = "0.19"
 DecFP = "0.4.8-0.4"
 Decimals = "0.4"
 GeoInterface = "0.4"
@@ -44,5 +43,11 @@ LibGEOS = "0.5"
 Thrift = "0.6"
 julia = "1.1.0-1"
 
+["0.6-0.7"]
+DataFrames = "0.19"
+
 ["0.7-0"]
 Tables = "0.2"
+
+["0.8-0"]
+DataFrames = "0.20"
