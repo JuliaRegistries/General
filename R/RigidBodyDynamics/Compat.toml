@@ -84,7 +84,7 @@ StaticArrays = "0.8.2-0"
 ["1.4-1"]
 UnsafeArrays = "0"
 
-[2]
+["2-2.1"]
 DocStringExtensions = "0.4.1-*"
 LightXML = "0.4.0-*"
 LoopThrottle = "0.0.1-*"
@@ -93,3 +93,14 @@ Rotations = "0.7.1-*"
 StaticArrays = "0.8.2-*"
 TypeSortedCollections = "0.5.0-*"
 julia = "0.7.0-1"
+
+["2.2-2"]
+DocStringExtensions = "0.4.1-0.8"
+LightXML = "0.8"
+LoopThrottle = "0.1"
+Reexport = "0.2"
+Rotations = "0.12.1-0.13"
+StaticArrays = "0.8-0.12"
+TypeSortedCollections = "1"
+UnsafeArrays = "1"
+julia = ["0.7", "1"]
