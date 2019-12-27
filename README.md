@@ -49,7 +49,9 @@ The following criteria are applied for all pull requests
    See [Pkg's documentation][pkg-compat] for specification of `[compat]` entries in your
    `Project.toml` file.
    (**Note:** Standard libraries are excluded for this criterion since they are bundled
-   with Julia, and, hence, implicitly included in the `[compat]` entry for Julia.)
+   with Julia, and, hence, implicitly included in the `[compat]` entry for Julia.
+   For the time being, JLL dependencies are also excluded for this criterion because they
+   often have non-standard version numbering schemes; however, this may change in the future.)
    
    You may find [CompatHelper.jl](https://github.com/bcbi/CompatHelper.jl) helpful for maintaining up-to-date `[compat]` entries.
 
