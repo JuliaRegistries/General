@@ -75,7 +75,6 @@ ToeplitzMatrices = "0.5"
 Calculus = "0.5"
 DomainSets = "0.1"
 IntervalSets = "0.3.1-0.3"
-julia = "1"
 
 ["0.1.4-0.1"]
 FFTW = "0.3"
@@ -83,6 +82,9 @@ FFTW = "0.3"
 ["0.1.4-0.1.5"]
 BandedMatrices = "0.9-0.10"
 SpecialFunctions = "0.7"
+
+["0.1.4-0.2"]
+julia = "1"
 
 ["0.1.4-0.2.1"]
 AbstractFFTs = "0.4"
@@ -138,8 +140,6 @@ SpecialFunctions = "0.8"
 ["0.2.2-0"]
 AbstractFFTs = "0.4-0.5"
 BandedMatrices = "0.14"
-BlockArrays = "0.10"
-BlockBandedMatrices = "0.6"
 DSP = "0.6"
 FastGaussQuadrature = "0.4"
 FillArrays = "0.8"
@@ -147,7 +147,19 @@ LazyArrays = "0.14"
 StaticArrays = "0.12"
 ToeplitzMatrices = "0.6"
 
+["0.2.2-0.2"]
+BlockArrays = "0.10"
+BlockBandedMatrices = "0.6"
+
 ["0.2.3-0"]
-InfiniteArrays = "0.4-0.5"
 LowRankApprox = "0.2-0.4"
 SpecialFunctions = "0.8-0.9"
+
+["0.2.3-0.2"]
+InfiniteArrays = "0.4-0.5"
+
+["0.3-0"]
+BlockArrays = "0.11"
+BlockBandedMatrices = "0.7"
+InfiniteArrays = "0.4-0.6"
+julia = "1.3.0-1"
