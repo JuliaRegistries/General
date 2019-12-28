@@ -6,18 +6,14 @@ language: julia
 os:
   - linux
 julia:
-  - 1.0
-  - 1.2
-  - 1.3
-  # - nightly
-# matrix:
-#   allow_failures:
-#     - julia: nightly
+  - "1.3"
+  - "1"
+  - nightly
+matrix:
+  allow_failures:
+    # - julia: nightly
 before_script: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
 script: julia --project=.ci/ --color=yes -e 'import RegistryCI; RegistryCI.test()'
-# after_success:
-#   - if [ "$TRAVIS_JULIA_VERSION" != "1.2" ]; then exit; fi
-#   - julia --project=.ci/ -e 'ENV["JULIA_DEBUG"] = "RegistryCI,AutoMerge"; using RegistryCI; using Dates; RegistryCI.AutoMerge.run(merge_new_packages=true, merge_new_versions=true, new_package_waiting_period=Minute(4320), new_version_waiting_period=Minute(20), registry="JuliaRegistries/General", authorized_authors=["JuliaRegistrator"], suggest_onepointzero=false)'
 branches:
   only:
     - master
