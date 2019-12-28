@@ -37,9 +37,9 @@ version = "0.20.1+0"
 
 [[GitCommand]]
 deps = ["Git_jll", "ReplMaker"]
-git-tree-sha1 = "c7646cfcb1f4c6e7da264c8979dbb2d0d4222476"
+git-tree-sha1 = "9e0c07fbadc107c3901d1ce3c93c425e442e4540"
 uuid = "49b5b516-ca3f-4003-a081-42bdcf55082d"
-version = "1.0.1"
+version = "1.0.2"
 
 [[GitHub]]
 deps = ["Base64", "Dates", "HTTP", "JSON", "MbedTLS", "Sockets"]
@@ -162,9 +162,9 @@ uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [[RegistryCI]]
 deps = ["Dates", "GitCommand", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "Test", "TimeZones"]
-git-tree-sha1 = "ab7eb0a9dc31595b815690d10324b26f96c24069"
+git-tree-sha1 = "5b6ce490655054c195a5618221dfb4e23bace8a6"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "0.8.0"
+version = "0.8.4"
 
 [[ReplMaker]]
 deps = ["REPL", "Unicode"]
