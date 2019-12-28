@@ -30,5 +30,10 @@ DefaultApplication = "0.1"
 DocStringExtensions = "0.8"
 MacroTools = "0.5"
 Parameters = "0.12"
-Requires = "0.5"
 StatsBase = "0.32"
+
+["1.2.0"]
+Requires = "0.5"
+
+["1.2.1-1"]
+Requires = ["0.5", "1"]
