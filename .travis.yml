@@ -11,7 +11,7 @@ julia:
   - nightly
 matrix:
   allow_failures:
-    # - julia: nightly
+    - julia: nightly
 before_script: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
 script: julia --project=.ci/ --color=yes -e 'import RegistryCI; RegistryCI.test()'
 branches:
