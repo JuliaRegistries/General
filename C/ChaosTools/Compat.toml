@@ -48,7 +48,6 @@ StatsBase = "0.24.0-*"
 julia = "1.0.0-1"
 
 ["1.8.1-1"]
-Combinatorics = "1"
 DSP = "0.6"
 DiffEqBase = "5-6"
 Distances = "0.7-0.8"
@@ -59,6 +58,13 @@ LombScargle = "0.4-0.5"
 NearestNeighbors = "0.4"
 Reexport = "0.1-0.2"
 Roots = ["0.7-0.8", "1"]
-StaticArrays = "0.12"
 StatsBase = ["0.24", "0.32"]
 julia = "1"
+
+["1.8.1-1.8.2"]
+Combinatorics = "1"
+StaticArrays = "0.12"
+
+["1.8.3-1"]
+Combinatorics = ["0.7", "1"]
+StaticArrays = "0.11-0.12"
