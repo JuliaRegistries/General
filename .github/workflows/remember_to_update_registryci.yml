@@ -2,7 +2,7 @@ name: remember_to_update_registryci
 
 on:
   schedule:
-    - cron: '00 00 * * *'
+    - cron: '00 * * * *'
 
 jobs:
   remember_to_update_registryci:
