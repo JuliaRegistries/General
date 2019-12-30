@@ -1,21 +1,21 @@
-["0.2"]
+["0-0.2"]
 Compat = "0.18-2"
 ImageCore = "0.1.2-0.7"
 julia = "0.5-1"
 
-["0.2-0.5"]
+["0-0.5"]
 Interpolations = "0.4-0.8"
 
-["0.2-0.7"]
+["0-0.7"]
 AxisAlgorithms = "0"
 ColorVectorSpace = "0.2-0.6"
 FixedPointNumbers = "0.3-0.5"
 OffsetArrays = "0"
 
-["0.2-0.7.0"]
+["0-0.7.0"]
 StaticArrays = "0"
 
-["0.2-0.8"]
+["0-0.8.0"]
 Colors = "0.7-0"
 CoordinateTransformations = "0.4-0"
 
@@ -24,16 +24,28 @@ ColorTypes = "0"
 IdentityRanges = "0"
 julia = "0.7-1"
 
-["0.5-0.8"]
+["0.5-0.8.0"]
 ImageCore = "0.7-0"
 
-["0.6-0.8"]
+["0.6-0.8.0"]
 Interpolations = "0.9-0"
 
-["0.7.1-0.7.2"]
+["0.7.1-0.7"]
 StaticArrays = "0.10-0"
 
-["0.8"]
+["0.8-0"]
+julia = "1"
+
+["0.8.0"]
 ColorVectorSpace = "0.2-0"
 FixedPointNumbers = "0.3-0"
-julia = "1"
+
+["0.8.1-0"]
+AxisAlgorithms = "1"
+ColorVectorSpace = "0.2-0.8"
+CoordinateTransformations = "0.5"
+IdentityRanges = "0.3"
+ImageCore = "0.8.1-0.8"
+Interpolations = "0.9-0.12"
+OffsetArrays = "0.10-0.11"
+StaticArrays = "0.10-0.12"
