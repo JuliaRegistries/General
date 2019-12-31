@@ -30,10 +30,10 @@ uuid = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
 version = "0.9.5"
 
 [[Gettext_jll]]
-deps = ["Libdl", "Libiconv_jll", "Pkg"]
-git-tree-sha1 = "1158ee88d262610dbf2d1751490f4f0a02c4180f"
+deps = ["Libdl", "Libiconv_jll", "Pkg", "XML2_jll"]
+git-tree-sha1 = "0b6b238d315698441a9bf24ea9b20ac19cc7e513"
 uuid = "78b55507-aeef-58d4-861c-77aaff3498b1"
-version = "0.20.1+0"
+version = "0.20.1+1"
 
 [[GitCommand]]
 deps = ["Git_jll", "ReplMaker"]
@@ -162,9 +162,9 @@ uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [[RegistryCI]]
 deps = ["Dates", "GitCommand", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "Test", "TimeZones"]
-git-tree-sha1 = "d18f8154a5d102e53df0346910cfdcfbd606f61d"
+git-tree-sha1 = "691e6285896bce3ad344cade9efbc07b0d3a5866"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "0.9.1"
+version = "0.9.3"
 
 [[ReplMaker]]
 deps = ["REPL", "Unicode"]
@@ -197,6 +197,12 @@ uuid = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
 [[Unicode]]
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+
+[[XML2_jll]]
+deps = ["Libdl", "Libiconv_jll", "Pkg", "Zlib_jll"]
+git-tree-sha1 = "ed5603a695aefe3e9e404fc7b052e02cc72cfab6"
+uuid = "02c8fc9c-b97f-50b9-bbe4-9be30ff0a78a"
+version = "2.9.9+1"
 
 [[Zlib_jll]]
 deps = ["Libdl", "Pkg"]
