@@ -1,14 +1,16 @@
 ["0-0.4.2"]
-AxisArrays = "0.3-0"
+AxisArrays = "0.3.0 - 0.4"
 ImageCore = "0.7"
 julia = "0.7-1"
 
 ["0-0.6"]
 ColorVectorSpace = "0.1.11-0.6"
-Colors = "0"
 FixedPointNumbers = "0.3-0.5"
-ImageAxes = "0"
-IndirectArrays = "0"
+
+["0-0.7"]
+Colors = "0.0.0 - 0.11"
+ImageAxes = "0.0.0 - 0.6"
+IndirectArrays = "0.0.0 - 0.5"
 
 ["0.4.3-0.4"]
 Compat = "0.19-2"
@@ -18,20 +20,18 @@ julia = "0.6-1"
 ["0.5-0.6"]
 ImageCore = "0.7"
 
+["0.5-0.7"]
+AxisArrays = "0.3.0 - 0.3"
+
 ["0.5-0.7.0"]
-AxisArrays = "0.3-0"
 julia = "0.7-1"
 
-["0.7.0"]
-ColorVectorSpace = "0.1.11-0"
-FixedPointNumbers = "0.3-0"
-ImageCore = "0.7-0"
+["0.7"]
+ColorVectorSpace = "0.1.11 - 0.8"
+FixedPointNumbers = "0.3.0 - 0.7"
+ImageCore = "0.7.0 - 0.8"
 
 ["0.7.1-0.7"]
-AxisArrays = "0.3.0-*"
-ColorVectorSpace = "0.1.11-*"
-FixedPointNumbers = "0.3.0-*"
-ImageCore = "0.7.0-*"
 julia = ["0.7", "1"]
 
 ["0.8-0"]
