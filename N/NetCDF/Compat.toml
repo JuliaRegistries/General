@@ -18,8 +18,13 @@ CondaBinDeps = "0.1.0-*"
 Formatting = "0.3.2-*"
 julia = "1.0.0-1"
 
-["0.8.1-0"]
+["0.8.1"]
 BinDeps = "0.8.10-0.8"
+
+["0.8.1-0"]
 CondaBinDeps = "0.1"
 Formatting = "0.3.2-0.4"
 julia = "1"
+
+["0.8.2-0"]
+BinDeps = ["0.8.10-0.8", "1"]
