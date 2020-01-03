@@ -1,4 +1,4 @@
-["0.1"]
+[0]
 Colors = "0"
 Compose = "0"
 DataFrames = "0"
@@ -9,6 +9,22 @@ Measures = "0"
 Reexport = "0"
 julia = "0.7-1"
 
-["0.1.1"]
+["0.1.1-0"]
 Compat = "0-2"
 Graphics = "0"
+
+[1]
+Cairo = "1"
+Colors = "0.9-0.11"
+Compat = "2.2.0-2"
+Compose = "0.7.3-0.7"
+DataFrames = "0.20"
+FixedPointNumbers = "0.7"
+Gadfly = "1.0.1-1"
+Graphics = ["0.4", "1"]
+Gtk = "1"
+GtkUtilities = "1"
+Images = "0.19.3-0.19"
+Measures = "0.3.1-0.3"
+Reexport = "0.2"
+julia = "1.3.0-1"
