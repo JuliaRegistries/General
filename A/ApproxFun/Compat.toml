@@ -140,7 +140,6 @@ AbstractFFTs = "0.4"
 ApproxFunBase = "0.1.5-0.1"
 
 ["0.11.6-0"]
-ApproxFunBase = "0.1.6-0.2"
 ApproxFunSingularities = "0.1.3-0.1"
 FFTW = ["0.3", "1"]
 
@@ -148,8 +147,14 @@ FFTW = ["0.3", "1"]
 ApproxFunFourier = "0.1.5-0.1"
 ApproxFunOrthogonalPolynomials = "0.2.3-0.2"
 
+["0.11.6-0.11.8"]
+ApproxFunBase = "0.1.6-0.2"
+
 ["0.11.8-0"]
 AbstractFFTs = "0.4-0.5"
 ApproxFunFourier = "0.1.5-0.2"
 ApproxFunOrthogonalPolynomials = "0.2.3-0.3"
 FastTransforms = ["0.6", "0.8"]
+
+["0.11.9-0"]
+ApproxFunBase = "0.1.6-0.3"
