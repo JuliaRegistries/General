@@ -1,5 +1,4 @@
 [0]
-Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 GPUifyLoops = "ba82f77b-6841-5d2e-bd9f-4daf811aec27"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
@@ -11,6 +10,9 @@ NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
 
 ["0-0.11.0"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.18.0"]
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 ["0-0.5.1"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -39,6 +41,8 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 CUDAdrv = "c5f51814-7f29-56b8-a69c-e4d8f6be1fde"
 CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
 CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
+
+["0.5.2-0.18.0"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 
