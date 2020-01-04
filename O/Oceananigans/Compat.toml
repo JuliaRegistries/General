@@ -15,12 +15,14 @@ JLD2 = ["0.1.2-0.1", "1"]
 NCDatasets = ["0.9.3-0.9", "1"]
 OffsetArrays = ["0.11.1-0.11", "1"]
 OrderedCollections = "1.1.0-1"
-StaticArrays = ["0.11", "1"]
-TimerOutputs = ["0.5", "1"]
 
 ["0.12-0.16"]
 CUDAapi = "1.1.0-1"
 CUDAdrv = "3.1.0-3"
+
+["0.12-0.18.0"]
+StaticArrays = ["0.11", "1"]
+TimerOutputs = ["0.5", "1"]
 
 ["0.16-0"]
 Cassette = ["0.2", "1"]
