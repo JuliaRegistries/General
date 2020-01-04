@@ -8,7 +8,7 @@ Parameters = "0.3-0"
 PyCall = "1.6.2-1"
 ScikitLearnBase = "0.1-0"
 StatsBase = "0.8-0"
-julia = "0.7-1"
+julia = ["0.7", "1"]
 
 ["0.5.1-0"]
 DataFrames = "0.11.0-*"
@@ -17,4 +17,4 @@ Parameters = "0.3.0-*"
 PyCall = "1.90.0-1"
 ScikitLearnBase = "0.0.6-*"
 StatsBase = "0.8.0-*"
-julia = "0.7.0-1"
+julia = ["0.7.0", "1"]

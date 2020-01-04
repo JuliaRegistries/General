@@ -3,12 +3,12 @@ Compat = "1-2"
 julia = "0.6-1"
 
 ["0.7-0"]
-julia = "0.7-1"
+julia = ["0.7", "1"]
 
 ["1.0"]
 Strided = "0.2.2-0"
 TupleTools = "1"
-julia = "0.7-1"
+julia = ["0.7", "1"]
 
 ["1.1-2"]
 julia = "1"

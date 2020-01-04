@@ -4,13 +4,13 @@ BioSequences = "0-1"
 BioSymbols = "1-3"
 CodecZlib = "0"
 Format = "0"
-julia = "0.7-1"
+julia = ["0.7", "1"]
 
 ["0.4"]
 RecipesBase = "0"
 
 ["0.5-0.7"]
-julia = "0.7.0-1"
+julia = ["0.7.0", "1"]
 
 ["0.8-0"]
 BioAlignments = "1"

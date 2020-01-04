@@ -23,7 +23,7 @@ WebIO = "0.2.6-0"
 
 ["1.1"]
 Blink = "0.9-0"
-julia = "0.7-1"
+julia = ["0.7", "1"]
 
 ["1.2"]
 CSSUtil = "0.1.0-*"
@@ -38,4 +38,4 @@ Observables = "0.1.2-*"
 OrdinaryDiffEq = "3.0.1-*"
 RigidBodyDynamics = "0.6.0-*"
 WebIO = "0.2.6-*"
-julia = "0.7.0-1"
+julia = ["0.7.0", "1"]
