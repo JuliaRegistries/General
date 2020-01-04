@@ -12,7 +12,7 @@ ProgressMeter = "0.6-0"
 PyPlot = "2.6.3-2"
 Reexport = "0.2-0"
 Shapefile = "0.4-0"
-julia = "0.7-1"
+julia = ["0.7", "1"]
 
 ["0-0.9"]
 NCDatasets = "0.3.2-0"
@@ -57,7 +57,7 @@ PyCall = "1.90.0-*"
 PyPlot = "2.6.3-*"
 Reexport = "0.2.0-*"
 Shapefile = "0.4.0-*"
-julia = "0.7.0-1"
+julia = ["0.7.0", "1"]
 
 ["0.14.1-0.14.2"]
 Interpolations = "0.8.0-*"

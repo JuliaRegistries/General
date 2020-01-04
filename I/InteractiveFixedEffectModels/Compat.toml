@@ -12,7 +12,7 @@ CategoricalArrays = "0"
 DataFrames = "0.11-0"
 Reexport = "0"
 StatsBase = "0.22-0"
-julia = "0.7-1"
+julia = ["0.7", "1"]
 
 ["0.3.1-0.3.2"]
 FixedEffectModels = "0.6.1-0"
@@ -31,7 +31,7 @@ FixedEffects = "0.1.1"
 
 ["0.3.5-0.3"]
 FixedEffectModels = "0.7.4-*"
-julia = "0.7.0-1"
+julia = ["0.7.0", "1"]
 
 ["0.3.5-0.4.1"]
 FixedEffects = "0.1.1-*"
