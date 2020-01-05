@@ -125,7 +125,7 @@ Which has basically the same effect.
  - Comment on the PR, that this is a rename.
  - It will have to go though the normal criteria for registring a new package.
     - In particular, even if you get it merged manually, it will need to wait 3 days from the PR being openned.
-    - This gives others and youself the chance to point out any naming issues.
+    - This gives others and yourself the chance to point out any naming issues.
 
 You also should let your users know about the rename, e.g. by placing a note in the README,
 or opening PRs/issues on downstream packages to change over.
