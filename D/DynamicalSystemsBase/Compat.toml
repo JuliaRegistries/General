@@ -54,11 +54,16 @@ DiffEqBase = "5.10.0-5"
 ["1.3.1-1.3"]
 DiffEqBase = "5.10.0-*"
 
+["1.4"]
+StaticArrays = "0-1"
+
 ["1.4-1"]
 DelayEmbeddings = "1"
 DiffEqBase = "5-6"
 ForwardDiff = "0.10"
 Reexport = "0.2"
 SimpleDiffEq = "1"
-StaticArrays = "0-1"
 julia = "1"
+
+["1.5-1"]
+StaticArrays = ["0.10-0.12", "1"]
