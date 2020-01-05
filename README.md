@@ -115,8 +115,8 @@ As long as the package is not yet registered, renaming the package from
 
 #### How do I rename an existing registered package?
 Technically, you can't rename a package once registered, as this would break existing users.
-But you can re-register the package again under a new name.
-Which has basically the same effecrt.
+But you can re-register the package again under a new name with a new UUID.
+Which has basically the same effect.
 
  - Follow the instructions above for renaminging a package: rename on GitHub, rename files etc.
  - Generate a new UUID for the Project.toml
@@ -127,8 +127,8 @@ Which has basically the same effecrt.
     - In particular, even if you get it merged manually, it will need to wait 3 days from the PR being openned.
     - This gives others and youself the chance to point out any naming issues.
 
-You also should let your down users know about the rename, e.g. by placing a note in the README,
-or openning PRs/issues on downstream packages to change over.
+You also should let your users know about the rename, e.g. by placing a note in the README,
+or opening PRs/issues on downstream packages to change over.
 
 #### How do I transfer a package to an organization or another user?
  - Use the [GitHub transfer option](github-transfer) in the settings.
