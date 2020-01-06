@@ -108,10 +108,34 @@ for users to navigate Julia's many varied packages.
 As long as the package is not yet registered, renaming the package from
 `OldName.jl` to `NewName.jl` is reasonably straightforward:
 
-* Rename the GitHub repository to `NewName.jl`
+* [Rename the GitHub repository](github-rename) to `NewName.jl`
 * Rename the file `src/OldName.jl` to `src/NewName.jl`
 * Rename the top-level module to `NewName`
 * Update tests, documentation, etc, to reference the new name
+
+#### How do I rename an existing registered package?
+Technically, you can't rename a package once registered, as this would break existing users.
+But you can re-register the package again under a new name with a new UUID.
+Which has basically the same effect.
+
+ - Follow the instructions above for renaminging a package: rename on GitHub, rename files etc.
+ - Generate a new UUID for the Project.toml
+ - Increment the version in the Project.toml as a breaking change.
+ - [Register](#registering-a-package-in-general) it as if it were a new package
+ - Comment on the PR, that this is a rename.
+ - It will have to go though the normal criteria for registring a new package.
+    - In particular, even if you get it merged manually, it will need to wait 3 days from the PR being opened.
+    - This gives others and yourself the chance to point out any naming issues.
+
+You also should let your users know about the rename, e.g. by placing a note in the README,
+or opening PRs/issues on downstream packages to change over.
+
+#### How do I transfer a package to an organization or another user?
+ - Use the [GitHub transfer option](github-transfer) in the settings.
+ - Manually, in the General edit the repo URL in package's `Package.toml` file (e.g [E/Example/Package.toml](https://github.com/JuliaRegistries/General/blob/master/E/Example/Package.toml#L3))
+
+Technically if you skip the second step things will keep working, because GitHub will redirect;
+but it is best practice.
 
 #### Where do I report a problem with a package in the General registry?
 
@@ -142,3 +166,5 @@ not a curated list of Julia packages. In particular this means that:
 [automerge-guidelines]: https://github.com/JuliaRegistries/RegistryCI.jl#automatic-merging-guidelines
 [pkg-compat]: https://julialang.github.io/Pkg.jl/v1/compatibility/
 [registryci]: https://github.com/JuliaRegistries/RegistryCI.jl
+[github-rename]: https://help.github.com/en/github/administering-a-repository/renaming-a-repository
+[github-transfer]: https://help.github.com/en/github/administering-a-repository/transferring-a-repository
