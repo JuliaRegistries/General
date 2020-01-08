@@ -53,7 +53,6 @@ Tracker = "0.0.0 - 0.2"
 
 ["4.4-6"]
 DataFrames = "0.19-0.20"
-DiffEqBase = "6.5.0-6"
 DiffEqCallbacks = "2.9.0-2"
 DiffEqDiffTools = "1.4.0-1"
 ForwardDiff = "0.10"
@@ -63,12 +62,17 @@ QuadGK = "2.1.0-2"
 RecursiveArrayTools = "1"
 Tracker = "0.2"
 
+["4.4-6.1"]
+DiffEqBase = "6.5.0-6"
+
 [6]
 ChainRulesCore = "0.4"
-Distributions = "0.21"
 QuasiMonteCarlo = "0.1"
 Zygote = "0.4"
 ZygoteRules = "0.2"
+
+["6-6.1"]
+Distributions = "0.21"
 
 ["6.0"]
 julia = "1"
@@ -81,3 +85,7 @@ FFTW = "1.1.0-1"
 
 ["6.1-6"]
 julia = "1.2.0-1"
+
+["6.2-6"]
+DiffEqBase = "6.10.0-6"
+Distributions = "0.21-0.22"
