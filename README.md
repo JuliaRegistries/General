@@ -1,5 +1,7 @@
 # General
 
+[![AutoMerge status](https://github.com/JuliaRegistries/General/workflows/AutoMerge/badge.svg?branch=master&event=schedule)](https://github.com/JuliaRegistries/RegistryCI.jl)
+
 General is the default Julia package registry. Package registries are used by Julia's
 package manager [Pkg.jl][pkg] and includes information about packages such as versions,
 dependencies and compatibility constraints.
