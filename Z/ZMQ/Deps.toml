@@ -2,8 +2,10 @@
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
 [0-1]
-BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 FileWatching = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
+
+["0-1.1"]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 [1]
@@ -11,3 +13,6 @@ Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
 
 ["1.0"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["1.2-1"]
+ZeroMQ_jll = "8f1865be-045e-5c20-9c9f-bfbfb0764568"
