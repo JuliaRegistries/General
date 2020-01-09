@@ -4,12 +4,21 @@ Calculus = "0"
 ["0-0.8"]
 Distributions = "0"
 OptimBase = "0-2"
+
+["0-0.9.0"]
 julia = ["0.7", "1"]
 
 ["0.7-0.8"]
 NLSolversBase = "0-7"
 StatsBase = "0"
 
-["0.9-0"]
+["0.9.0"]
 Distributions = "0.18-0.21"
-julia = ["0.7", "1"]
+
+["0.9.1-0"]
+Distributions = "0.18-0.22"
+ForwardDiff = "0.10"
+NLSolversBase = "7.5.0-7"
+OptimBase = "2"
+StatsBase = "0.32"
+julia = "1"
