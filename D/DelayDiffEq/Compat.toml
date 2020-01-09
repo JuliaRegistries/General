@@ -59,13 +59,15 @@ Parameters = "0.10-0.11"
 ["5.15-5"]
 DataStructures = "0.17"
 DiffEqBase = "6"
-RecursiveArrayTools = "1"
 Reexport = "0.2"
 Roots = "0.8"
 julia = "1"
 
 ["5.15-5.17"]
 OrdinaryDiffEq = "5.15.0-5"
+
+["5.15-5.19"]
+RecursiveArrayTools = "1"
 
 ["5.16-5"]
 Parameters = "0.10-0.12"
@@ -79,6 +81,9 @@ OrdinaryDiffEq = "5.26.1-5"
 ["5.2"]
 DiffEqBase = "5.3.2-5"
 OrdinaryDiffEq = "5.2-5"
+
+["5.20-5"]
+RecursiveArrayTools = "2"
 
 ["5.3-5.11"]
 DiffEqDiffTools = "0.3.0 - 1"
