@@ -23,9 +23,19 @@ StaticArrays = "0.0.0 - 0.12"
 ["0.5-1"]
 julia = "1"
 
-["0.6-1"]
+["0.6-0"]
 DiffEqBase = "6.5.0-6"
-MuladdMacro = "0.2"
 RecursiveArrayTools = "1"
+
+["0.6-1"]
+MuladdMacro = "0.2"
 Reexport = "0.2"
 StaticArrays = "0.10-0.12"
+
+["1.0"]
+DiffEqBase = "6.5.0-6"
+RecursiveArrayTools = "1"
+
+["1.1-1"]
+DiffEqBase = "6.11.0-6"
+RecursiveArrayTools = "2"
