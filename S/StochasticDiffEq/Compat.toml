@@ -65,11 +65,11 @@ Parameters = "0.10-0.12"
 ["6.11.2-6.13"]
 FillArrays = "0.6-0.7"
 
-["6.12-6"]
-DiffEqBase = "6.4.0-6"
-
 ["6.12-6.14"]
 SparseDiffTools = "0.9-0.10"
+
+["6.12-6.16"]
+DiffEqBase = "6.4.0-6"
 
 ["6.13-6"]
 StaticArrays = "0.11-0.12"
@@ -80,6 +80,10 @@ FillArrays = "0.6-0.8"
 
 ["6.15-6"]
 SparseDiffTools = ["0.9-0.10", "1"]
+
+["6.17-6"]
+DiffEqBase = "6.11.0-6"
+RecursiveArrayTools = "2"
 
 ["6.2-6.7"]
 DiffEqBase = "0.0.0 - 6"
@@ -115,7 +119,6 @@ ForwardDiff = "0.10.3-0.10"
 MuladdMacro = "0.2.1-0.2"
 NLsolve = "4"
 RandomNumbers = "1"
-RecursiveArrayTools = "1"
 Reexport = "0.2"
 
 ["6.9-6.11"]
@@ -126,6 +129,9 @@ FillArrays = "0.6"
 
 ["6.9-6.12"]
 StaticArrays = "0.11"
+
+["6.9-6.16"]
+RecursiveArrayTools = "1"
 
 ["6.9.0"]
 Parameters = "0.11"
