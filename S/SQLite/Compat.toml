@@ -16,7 +16,14 @@ Tables = "0"
 WeakRefStrings = "0.4-0"
 julia = "1"
 
-["0.8.2-0"]
+["0.8.2-0.8"]
 DataFrames = "0.11.0-*"
 WeakRefStrings = "0.4.0-*"
 julia = "1.0.0-1"
+
+["0.9-0"]
+BinaryProvider = "0.5"
+DataFrames = "0.18-0.20"
+Tables = "0.1-0.2"
+WeakRefStrings = "0.4-0.6"
+julia = "1"
