@@ -1,6 +1,3 @@
-[0]
-julia = "1.1.0-1"
-
 ["0-0.0.1"]
 BandedMatrices = "0.12"
 FillArrays = "0.7"
@@ -10,6 +7,9 @@ QuasiArrays = "0.0.2"
 ["0-0.0.2"]
 IntervalSets = "0.3.1-0.3"
 
+["0-0.1"]
+julia = "1.1.0-1"
+
 ["0.0.2"]
 BandedMatrices = "0.14"
 FillArrays = "0.8"
@@ -17,13 +17,21 @@ LazyArrays = "0.14"
 QuasiArrays = "0.0.4"
 
 ["0.0.3-0"]
-BandedMatrices = "0.14.1-0.14"
 FillArrays = "0.8.2-0.8"
 IntervalSets = "0.3.2-0.3"
-QuasiArrays = "0.0.6"
 
 ["0.0.3-0.0"]
 LazyArrays = "0.14.7-0.14"
 
-["0.1-0"]
+["0.0.3-0.1"]
+BandedMatrices = "0.14.1-0.14"
+QuasiArrays = "0.0.6"
+
+["0.1"]
 LazyArrays = "0.14.7-0.15"
+
+["0.2-0"]
+BandedMatrices = "0.14.2-0.14"
+LazyArrays = "0.14.11-0.14"
+QuasiArrays = "0.1"
+julia = "1.3.0-1"
