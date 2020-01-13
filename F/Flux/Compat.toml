@@ -21,18 +21,25 @@ NNlib = "0-0.5"
 Requires = "0"
 
 ["0.10-0"]
-AbstractTrees = "0.2"
 Adapt = "1"
 CodecZlib = "0.5-0.6"
 Colors = "0.8-0.9"
-CuArrays = "1.4.3-1"
 Juno = "0.5-0.7"
 MacroTools = "0.3-0.5"
 Reexport = "0.2"
 StatsBase = "0"
-ZipFile = "0.7-0.8"
 Zygote = "0.4"
 julia = "1"
+
+["0.10.0"]
+AbstractTrees = "0.2"
+CuArrays = "1.4.3-1"
+ZipFile = "0.7-0.8"
+
+["0.10.1-0"]
+AbstractTrees = "0.2-0.3"
+CuArrays = "1.6.0-1"
+ZipFile = "0.7-0.9"
 
 ["0.5-0.7"]
 DiffRules = "0"
@@ -66,13 +73,14 @@ Tracker = "0-0.1"
 ["0.8.3-0.8"]
 NNlib = "0.6-0"
 Tracker = "0.2-0"
+
+["0.8.3-0.9"]
 julia = ["0.7", "1"]
 
 ["0.9"]
 CUDAapi = "1.1.0-1"
 CuArrays = "1.2.0-1.3"
 Tracker = "0.2"
-julia = ["0.7", "1"]
 
 ["0.9-0"]
 NNlib = "0.6"
