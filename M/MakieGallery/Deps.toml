@@ -10,7 +10,6 @@ ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
 ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
-ModernGL = "66fc600b-dfda-50eb-8b99-91cfa97b1301"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
@@ -25,6 +24,9 @@ Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 MeshIO = "7269a6da-0436-5bbc-96c2-40638cbb6118"
 QuartzImageIO = "dca85d43-d64c-5e67-8c65-017450d5d020"
 RDatasets = "ce6b1742-4840-55fa-b093-852dadbb1d8b"
+
+["0-0.1.0"]
+ModernGL = "66fc600b-dfda-50eb-8b99-91cfa97b1301"
 
 ["0.0"]
 ColorVectorSpace = "c3611d14-8923-5661-9e6a-0046d554d3a4"
@@ -43,18 +45,23 @@ ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
 ["0.0.5-0.0"]
 ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
 
-["0.0.8-0"]
-OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
-ParameterizedFunctions = "65888b18-ceab-5e60-b2b9-181511a3b968"
-
 ["0.0.8-0.0"]
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
+["0.0.8-0.1.0"]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+ParameterizedFunctions = "65888b18-ceab-5e60-b2b9-181511a3b968"
 
 ["0.0.9-0"]
 FFMPEG = "c87230d0-a227-11e9-1b43-d7ebe4e7570a"
 
 ["0.1-0"]
 Highlights = "eafb193a-b7ab-5a9e-9068-77385905fa72"
+
+["0.1.0"]
 Observables = "510215fc-4207-5dde-b226-833fc4488ee2"
 RDatasets = "ce6b1742-4840-55fa-b093-852dadbb1d8b"
+
+["0.1.1-0"]
+SyntaxTree = "a4af3ec5-f8ac-5fed-a759-c2e80b4d74cb"
