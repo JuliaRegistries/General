@@ -13,8 +13,10 @@ julia = "1"
 julia = "1.1.0-1"
 
 ["0.8-0"]
-Distributions = "0.21.3-0.21"
 StatsBase = "0.32"
+
+["0.8-0.8.5"]
+Distributions = "0.21.3-0.21"
 
 ["0.8.0"]
 DataFrames = "0.19.4-0.19"
@@ -27,3 +29,6 @@ DataFrames = "0.20"
 
 ["0.8.2-0"]
 Compat = "3"
+
+["0.8.6-0"]
+Distributions = "0.21.3-0.22"
