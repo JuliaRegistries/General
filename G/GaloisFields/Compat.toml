@@ -17,4 +17,9 @@ HTTP = "0.8"
 JSON = "0.21"
 Polynomials = "0.6"
 Primes = "0.4"
+
+["1.0.0"]
 Requires = "1"
+
+["1.0.1-1"]
+Requires = ["0.5", "1"]
