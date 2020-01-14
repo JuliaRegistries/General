@@ -70,7 +70,6 @@ GZip = "0.5"
 MLBase = "0.8"
 NumericalIntegration = "0.2"
 PGFPlotsX = "1"
-RData = "0.6"
 ROCAnalysis = "0.3"
 
 ["0.31-0.33"]
@@ -111,6 +110,9 @@ Combinatorics = "0.7"
 ["0.31-0.34.6"]
 NNlib = "0.6"
 
+["0.31-0.34.9"]
+RData = "0.6"
+
 ["0.32-0.33"]
 CategoricalArrays = "0.0.0-0.5.2"
 Distributions = "0.19"
@@ -127,12 +129,10 @@ Tables = "0.2.7-0.2"
 ["0.34-0"]
 Adapt = "1"
 BSON = "0.2"
-Cassette = "0.2"
 CategoricalArrays = "0.7"
 ClassImbalance = "0.8"
 DataDeps = "0.7"
 DefaultApplication = "0.1"
-Distributions = "0.21"
 FFTW = "1"
 FileIO = "1"
 GLM = "1"
@@ -167,11 +167,20 @@ Requires = "0.5"
 FixedPointNumbers = "0.6"
 Zygote = "0.4"
 
+["0.34-0.34.9"]
+Cassette = "0.2"
+Distributions = "0.21"
+
 ["0.34.0"]
 JLD2 = "0.1.2"
 
 ["0.34.1-0"]
 JLD2 = "0.1.8-0.1"
+
+["0.34.10-0"]
+Cassette = "0.2-0.3"
+Distributions = "0.21-0.22"
+RData = "0.6-0.7"
 
 ["0.34.3-0"]
 CUDAapi = "2"
