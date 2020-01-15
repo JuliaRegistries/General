@@ -1,11 +1,17 @@
-["0.3"]
+["0-0.3"]
 RemoteFiles = "0.2-0"
 SmoothingSplines = "0.2-0"
 
-["0.3-0.4"]
+["0-0.4.1"]
 OptionalData = "0.2-0"
 julia = ["0.7", "1"]
 
-["0.4"]
+["0.4-0.4.1"]
 LeapSeconds = "0.2-0"
 RemoteFiles = "0.2.1-0"
+
+["0.4.2-0"]
+LeapSeconds = "1"
+OptionalData = "0.2.0-*"
+RemoteFiles = "0.2.1-*"
+julia = "1"
