@@ -9,13 +9,15 @@ julia = ["0.7", "1"]
 ["0.3-0.3.6"]
 AxisArrays = "0.3-0"
 
+["0.3.15-0"]
+AxisArrays = "0.3"
+Distributions = "0.21"
+
 ["0.3.15-0.4.0"]
 DataFrames = "0.19"
 SpecialFunctions = "0.8"
 
 ["0.3.15-1"]
-AxisArrays = "0.3"
-Distributions = "0.21"
 KernelDensity = "0.5"
 RecipesBase = "0.7"
 Showoff = "0.3"
@@ -28,9 +30,23 @@ KernelDensity = "0.5.1-0"
 ["0.3.7-1"]
 julia = "1"
 
-["0.4-1"]
+["0.4-0"]
 AbstractMCMC = "0.1"
+
+["0.4.1-0"]
+SpecialFunctions = "0.8-0.9"
 
 ["0.4.1-1"]
 DataFrames = "0.19-0.20"
+
+["1.0.0"]
+AbstractMCMC = "0.1"
+AxisArrays = "0.3"
+Distributions = "0.21"
 SpecialFunctions = "0.8-0.9"
+
+["1.0.1-1"]
+AbstractMCMC = "0.1-0.2"
+AxisArrays = "0.3-0.4"
+Distributions = "0.21-0.22"
+SpecialFunctions = "0.8-0.10"
