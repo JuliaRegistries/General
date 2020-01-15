@@ -32,7 +32,6 @@ MLJModels = "0.5.2-0.5"
 
 ["0.5.1-0"]
 OrderedCollections = "1.1.0-1"
-PrettyTables = "0.6"
 ProgressMeter = "1.1.0-1"
 RecipesBase = "0.7"
 StatsBase = "0.32"
@@ -44,6 +43,9 @@ DocStringExtensions = "0.8.1-0.8"
 Requires = "0.5.2-0.5"
 ScientificTypes = "0.2.2-0.2"
 Tables = ["0.0.0-0.1.18", "0.2"]
+
+["0.5.1-0.6"]
+PrettyTables = "0.6"
 
 ["0.5.2"]
 MLJBase = "0.7.3-0.7"
@@ -73,12 +75,17 @@ MLJBase = "0.8.4-0.8"
 MLJModels = "0.5.9-0.5"
 ScientificTypes = "0.2.6-0.2"
 
-["0.6-0"]
+["0.6"]
 MLJBase = "0.9.1-0.9"
 MLJModels = "0.6"
 
 ["0.6.0"]
 ScientificTypes = "0.3"
 
-["0.6.1-0"]
+["0.6.1-0.6"]
 ScientificTypes = "0.3.2-0.3"
+
+["0.7-0"]
+MLJBase = "0.10"
+MLJModels = "0.7"
+ScientificTypes = "0.5.1-0.5"
