@@ -41,7 +41,6 @@ julia = "1.1.0-1"
 InfrastructureSystems = "0.1.1-0.1"
 
 ["0.4-0"]
-DataFrames = "0.19"
 JSON = "0.21"
 JSON2 = "0.3"
 TimeSeries = "0.16"
@@ -49,6 +48,9 @@ YAML = "0.3"
 
 ["0.4-0.6.2"]
 CSV = "0.5"
+
+["0.4-0.8.1"]
+DataFrames = "0.19"
 
 ["0.4.0"]
 julia = "1.2"
@@ -68,9 +70,16 @@ InfrastructureSystems = "0.3"
 ["0.6.1-0.6"]
 InfrastructureSystems = "0.4"
 
-["0.6.3-0"]
+["0.6.3-0.8.1"]
 CSV = "0.5.13"
 
 ["0.7-0"]
 DocStringExtensions = "0.8"
+
+["0.7-0.8.1"]
 InfrastructureSystems = "0.5"
+
+["0.8.2-0"]
+CSV = "0.5"
+DataFrames = "0.20"
+InfrastructureSystems = "0.5.3-0.5"
