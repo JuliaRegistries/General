@@ -73,6 +73,11 @@ list:
 For more details, see [Automatic merging guidelines][automerge-guidelines].
 Please report issues with automatic merging to the [RegistryCI repo][registryci].
 
+Currently the waiting period is as follows:
+
+ - New Julia packages: 3 days (this allows time for community feedback)
+ - New versions of existing packages: 15 minutes
+ - JLL package (binary dependencies): 15 minutes, for either a new package or a new version
 
 ## FAQ
 
