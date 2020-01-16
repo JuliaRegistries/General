@@ -134,7 +134,6 @@ MLJModels = "0.3"
 BenchmarkTools = "0.4"
 CategoricalArrays = "0.7"
 Clustering = "0.13"
-Compose = "0.7"
 DeIdentification = "0.8"
 MultivariateStats = "0.7"
 PkgBenchmark = "0.2"
@@ -154,6 +153,9 @@ PackageCompiler = "0.6"
 MLJ = "0.5"
 MLJModels = "0.5"
 
+["0.13-0.13.9"]
+Compose = "0.7"
+
 ["0.13.0"]
 MLJBase = "0.7"
 
@@ -163,13 +165,18 @@ Rmath = "0.6"
 ["0.13.1-0.13.8"]
 MLJBase = "0.8"
 
+["0.13.10-0"]
+MLJ = "0.7"
+MLJBase = "0.10"
+MLJModels = "0.7"
+
 ["0.13.2-0"]
 Unitful = "0.18"
 
 ["0.13.3-0"]
 Coverage = "1"
 
-["0.13.9-0"]
+["0.13.9"]
 MLJ = "0.6"
 MLJBase = "0.9"
 MLJModels = "0.6"
