@@ -43,7 +43,7 @@ DirectSum = "0.3"
 ["0.2-0"]
 Reduce = "1.2.0-1"
 
-["0.3-0"]
+["0.3-0.4"]
 AbstractTensors = "0.3"
 DirectSum = "0.4"
 
@@ -51,3 +51,9 @@ DirectSum = "0.4"
 AbstractLattices = "0.1.2-0.1"
 ComputedFieldTypes = "0.1"
 Leibniz = "0.0.3"
+
+["0.5-0"]
+AbstractTensors = "0.4.2-0.4"
+DirectSum = "0.5.1-0.5"
+Requires = "1"
+StaticArrays = "0"
