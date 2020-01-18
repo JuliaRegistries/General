@@ -1,7 +1,13 @@
 [0]
+julia = "1.3.0-1"
+
+["0-0.1"]
 CryptoGroups = "0.1.1-0.1"
 CryptoSignatures = "0.2"
 DiffieHellman = "0.2"
 Multiplexers = "0.2"
 SecureIO = "0.1"
-julia = "1.3.0-1"
+
+["0.2-0"]
+DiffieHellman = "0.3"
+Multiplexers = "0.3"
