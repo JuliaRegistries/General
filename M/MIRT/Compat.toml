@@ -17,24 +17,38 @@ SpecialFunctions = "0.8"
 
 ["0.8-0"]
 BenchmarkTools = "0.4.3-0.4"
-FFTViews = "0.3"
-ImageFiltering = "0.6.5-0.6"
-ImageTransformations = "0.8"
 LaTeXStrings = "1.0.3-1"
-LinearMaps = "2.5.2-2"
 MosaicViews = "0.1"
 NFFT = "0.4"
 Reexport = "0.2"
 Wavelets = "0.9"
 
+["0.8-0.9.0"]
+FFTViews = "0.3"
+ImageFiltering = "0.6.5-0.6"
+ImageTransformations = "0.8"
+LinearMaps = "2.5.2-2"
+
 ["0.9-0"]
-Colors = "0.11"
 DSP = "0.6.2-0.6"
 FFTW = "1.2.0-1"
-FileIO = "1.2.0-1"
-Interpolations = "0.12.5-0.12"
-LinearMapsAA = "0.3"
 MIRTio = "0.2.1-0.2"
 Plots = "0.28.4-0.28"
 SpecialFunctions = "0.9"
 julia = "1.3.0-1"
+
+["0.9.0"]
+Colors = "0.11"
+FileIO = "1.2.0-1"
+Interpolations = "0.12.5-0.12"
+LinearMapsAA = "0.3"
+
+["0.9.1-0"]
+Colors = "0.11.2-0.11"
+FFTViews = "0.3.1-0.3"
+FileIO = "1.2.1-1"
+ImageFiltering = "0.6.10-0.6"
+ImageTransformations = "0.8.3-0.8"
+Interpolations = "0.12.7-0.12"
+LinearMaps = "2.6.0-2"
+LinearMapsAA = "0.4"
