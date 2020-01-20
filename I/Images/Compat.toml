@@ -46,7 +46,6 @@ ImageShow = "0.1-0.2"
 ImageTransformations = "0.4-0.8"
 IndirectArrays = "0.5"
 MappedArrays = "0.1-0.2"
-OffsetArrays = "0.8-0.11"
 Reexport = "0.2"
 StaticArrays = "0.8-0.12"
 StatsBase = "0.24-0.32"
@@ -65,6 +64,9 @@ ImageMetadata = "0.6-0.7"
 
 ["0.19-0.20.0"]
 ImageAxes = "0.5-0.6"
+
+["0.19-0.20.1"]
+OffsetArrays = "0.8-0.11"
 
 ["0.19.0"]
 Graphics = "0.4"
@@ -89,3 +91,6 @@ ImageMetadata = "0.6-0.9"
 
 ["0.20.1-0"]
 ImageAxes = "0.6"
+
+["0.20.2-0"]
+OffsetArrays = ["0.8-0.11", "1.0.1-1"]
