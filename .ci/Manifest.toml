@@ -24,10 +24,10 @@ uuid = "2e619515-83b5-522b-bb60-26c02a35a201"
 version = "2.2.7+0"
 
 [[EzXML]]
-deps = ["BinaryProvider", "Libdl", "Printf"]
-git-tree-sha1 = "469de9cb996a9c03f31905619ff3c33e905711f3"
+deps = ["Printf", "XML2_jll"]
+git-tree-sha1 = "0fa3b52a04a4e210aeb1626def9c90df3ae65268"
 uuid = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
-version = "0.9.5"
+version = "1.1.0"
 
 [[Gettext_jll]]
 deps = ["Libdl", "Libiconv_jll", "Pkg", "XML2_jll"]
@@ -187,9 +187,9 @@ uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [[TimeZones]]
 deps = ["Dates", "EzXML", "Mocking", "Printf", "Serialization", "Unicode"]
-git-tree-sha1 = "c91ed6e6576f736da4dc9158e5083f1f3ffd33b6"
+git-tree-sha1 = "24a7474411886cede89529f9b848989b783d954e"
 uuid = "f269a46b-ccf7-5d73-abea-4c690281aa53"
-version = "0.10.4"
+version = "0.10.5"
 
 [[UUIDs]]
 deps = ["Random", "SHA"]
