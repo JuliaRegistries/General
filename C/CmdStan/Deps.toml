@@ -15,7 +15,6 @@ Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 
 [4-5]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
@@ -27,17 +26,24 @@ Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 Homebrew = "d9be37ee-ecc9-5288-90f1-b9ca67657a75"
 
-["4.4-5"]
+["4-5.5"]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["4.4-5.5"]
 NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
 
 [5]
 MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
+
+["5-5.5"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["5.0.2-5"]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-Missings = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
 StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+
+["5.0.2-5.5"]
+Missings = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
 
 ["5.0.3-5"]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
