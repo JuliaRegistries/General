@@ -5,11 +5,16 @@ IterTools = "0-1"
 RangeArrays = "0"
 julia = ["0.7", "1"]
 
-["0.3.1-0"]
-IntervalSets = "0.1.0-*"
-
 ["0.3.1-0.3"]
 julia = ["0.7.0", "1"]
 
+["0.3.1-0.4.0"]
+IntervalSets = "0.1.0-*"
+
 ["0.4-0"]
 julia = "1"
+
+["0.4.1-0"]
+IntervalSets = "0.1-0.3"
+IterTools = "1"
+RangeArrays = "0.3"
