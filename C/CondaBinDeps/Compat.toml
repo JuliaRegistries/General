@@ -1,5 +1,10 @@
-[0]
+["0-0.1"]
 BinDeps = "0"
 Compat = "0.55-2"
 Conda = "0-1"
 julia = "0.6-1"
+
+["0.2-0"]
+BinDeps = ["0.8", "1"]
+Conda = "1"
+julia = "1"
