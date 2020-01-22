@@ -5,7 +5,7 @@ using GitHub
 using Pkg
 
 # Some of the code in this file is taken from:
-# https://github.com/bcbi/CompatHelper.jl
+# CompatHelper.jl (https://github.com/bcbi/CompatHelper.jl)
 
 struct AlwaysAssertionError <: Exception
 end
