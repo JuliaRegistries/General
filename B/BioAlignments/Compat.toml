@@ -1,10 +1,18 @@
-["1.0"]
-Automa = "0.7-0"
-BGZFStreams = "0.3-0"
-BioCore = "2.0.2-2"
+[1]
 BioSequences = "1"
-BioSymbols = "3.1-3"
 BufferedStreams = "1"
 GenomicFeatures = "1"
 IntervalTrees = "1"
 julia = ["0.7", "1"]
+
+["1.0.0"]
+Automa = "0.7-0"
+BGZFStreams = "0.3-0"
+BioCore = "2.0.2-2"
+BioSymbols = "3.1-3"
+
+["1.0.1-1"]
+Automa = "0.7-0.8"
+BGZFStreams = "0.3"
+BioCore = "2"
+BioSymbols = "3"
