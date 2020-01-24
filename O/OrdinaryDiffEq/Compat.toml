@@ -90,7 +90,6 @@ ArrayInterface = "1.1.0-1"
 
 ["5.15-5"]
 DataStructures = "0.17"
-DiffEqDiffTools = "1"
 GenericSVD = "0.2"
 MacroTools = "0.5"
 Reexport = "0.2"
@@ -106,6 +105,9 @@ StaticArrays = "0.11"
 
 ["5.15-5.26"]
 RecursiveArrayTools = "1"
+
+["5.15-5.27"]
+DiffEqDiffTools = "1"
 
 ["5.15.0"]
 Parameters = "0.11"
@@ -141,9 +143,15 @@ SparseDiffTools = ["0.10", "1"]
 ["5.24-5.26"]
 DiffEqBase = "6.5.0-6"
 
-["5.27-5"]
+["5.27"]
 DiffEqBase = "6.11.0-6"
+
+["5.27-5"]
 RecursiveArrayTools = "2"
+
+["5.28-5"]
+DiffEqBase = "6.13.0-6"
+FiniteDiff = "2"
 
 ["5.4"]
 DiffEqBase = "5.5.1-5"
