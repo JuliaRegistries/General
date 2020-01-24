@@ -1,7 +1,6 @@
 [2]
 BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
-DiffEqDiffTools = "01453d9d-ee7c-5054-8395-0335cb756afa"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
@@ -9,6 +8,12 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 ["2-2.2"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["2-2.3"]
+DiffEqDiffTools = "01453d9d-ee7c-5054-8395-0335cb756afa"
+
 ["2.1-2"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["2.4-2"]
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
