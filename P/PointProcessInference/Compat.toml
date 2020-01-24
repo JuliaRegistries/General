@@ -8,8 +8,15 @@ julia = ["0.7", "1"]
 ["0.2-0"]
 DataDeps = "0.7"
 DataFrames = "0.19-0.20"
-Distributions = "0.21"
 HTTP = "0.8"
+julia = "1"
+
+["0.2.0"]
+Distributions = "0.21"
 Optim = "0.19"
 SpecialFunctions = "0.8"
-julia = "1"
+
+["0.2.1-0"]
+Distributions = "0.21-0.22"
+Optim = "0.19-0.20"
+SpecialFunctions = "0.8-0.10"
