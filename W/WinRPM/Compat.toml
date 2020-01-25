@@ -13,10 +13,16 @@ URIParser = "0.0.3-0"
 julia = ["0.7", "1"]
 
 ["0.4.3-0"]
-BinDeps = "1"
 Compat = "2-3"
 HTTPClient = "0.1-0.2"
 LibExpat = "0.5-0.6"
+
+["0.4.3-1"]
+BinDeps = "1"
 Libz = "1"
 URIParser = "0.4"
 julia = "1"
+
+[1]
+HTTP = "0.8"
+LibExpat = "0.6.1-0.6"
