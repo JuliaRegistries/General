@@ -1,14 +1,23 @@
-["0.5"]
+[0]
+FileIO = "1"
+
+["0-0.5"]
 ColorVectorSpace = "0.2-0.6"
 FixedPointNumbers = "0.3-0.5"
 ImageCore = "0.7"
 
-["0.5-0.6"]
+["0-0.6"]
 ColorTypes = "0.3-0"
-FileIO = "1"
 julia = ["0.7", "1"]
 
 ["0.6"]
 ColorVectorSpace = "0.2-0"
 FixedPointNumbers = "0.3-0"
 ImageCore = "0.7-0"
+
+["0.7-0"]
+ColorTypes = "0.9"
+ColorVectorSpace = "0.8"
+FixedPointNumbers = "0.6.1-0.7"
+ImageCore = "0.7-0.8"
+julia = "1"
