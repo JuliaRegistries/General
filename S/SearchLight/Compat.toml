@@ -19,11 +19,17 @@ MySQL = "0.7"
 Reexport = "0.2"
 
 ["0.15-0"]
-DataFrames = "0.19"
 DataStreams = "0.4"
 LibPQ = "1"
 Millboard = "0.2"
 OrderedCollections = "1"
 Revise = "2"
-SQLite = "0.8"
 YAML = "0.3"
+
+["0.15-0.16.0"]
+DataFrames = "0.19"
+SQLite = "0.8"
+
+["0.16.1-0"]
+DataFrames = "0.20"
+SQLite = "0.9"
