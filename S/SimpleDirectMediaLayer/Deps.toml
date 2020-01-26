@@ -1,12 +1,20 @@
+[0]
+ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+["0-0.1"]
+BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+Homebrew = "d9be37ee-ecc9-5288-90f1-b9ca67657a75"
+
 ["0.0"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 
-["0.0-0.1"]
-BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
-ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-Homebrew = "d9be37ee-ecc9-5288-90f1-b9ca67657a75"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-
 ["0.1"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.2-0"]
+SDL2_image_jll = "41f3cfe1-fd11-58ad-8074-b9730c29438b"
+SDL2_jll = "ab825dc5-c88e-5901-9575-1e5e20358fcf"
+SDL2_mixer_jll = "7e88e5ca-120e-58e7-9660-b2187fd466c0"
+SDL2_ttf_jll = "ca9d4746-8a27-5104-babe-80f83b336947"
