@@ -1,6 +1,18 @@
-["0.1"]
+["0-0.1"]
 MurmurHash3 = "0.1.5-0"
 julia = "0.6-1"
+
+["0-0.1.10"]
+ModuleInterfaceTools = "0.1.6-0"
+
+["0-0.1.7"]
+CharSetEncodings = "0.1.6-0"
+
+["0-0.1.8"]
+ChrBase = "0.1.4-0"
+
+["0-0.1.9"]
+StrAPI = "0.1.7-0"
 
 ["0.1.10"]
 ChrBase = "0.1.6-0"
@@ -11,25 +23,13 @@ StrAPI = "0.1.8-0"
 ["0.1.11"]
 ChrBase = "0.1.9-0"
 
-["0.1.11-0.1.12"]
+["0.1.11-0.1"]
 ModuleInterfaceTools = "0.1.7-0"
 
-["0.1.12"]
+["0.1.12-0.1"]
 CharSetEncodings = "0.1.9-0"
 ChrBase = "0.1.10-0"
 StrAPI = "0.1.9-0"
-
-["0.1.6-0.1.10"]
-ModuleInterfaceTools = "0.1.6-0"
-
-["0.1.6-0.1.7"]
-CharSetEncodings = "0.1.6-0"
-
-["0.1.6-0.1.8"]
-ChrBase = "0.1.4-0"
-
-["0.1.6-0.1.9"]
-StrAPI = "0.1.7-0"
 
 ["0.1.8-0.1.11"]
 CharSetEncodings = "0.1.8-0"
@@ -37,19 +37,24 @@ CharSetEncodings = "0.1.8-0"
 ["0.1.9"]
 ChrBase = "0.1.5-0"
 
-["0.2-0.3"]
+["0.2-0"]
 CharSetEncodings = "0.2-0"
 ChrBase = "0.2-0"
 ModuleInterfaceTools = "0.2-0"
 MurmurHash3 = "0.2-0"
 StrAPI = "0.2-0"
 
-["0.2-1.0"]
+["0.2-1"]
 julia = "1"
 
-["1.0"]
+[1]
 CharSetEncodings = "1"
 ChrBase = "1"
 ModuleInterfaceTools = "1"
-MurmurHash3 = "1"
 StrAPI = "1"
+
+["1.0.0"]
+MurmurHash3 = "1"
+
+["1.0.1-1"]
+MurmurHash3 = "1.0.3-1"
