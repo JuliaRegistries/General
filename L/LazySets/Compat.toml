@@ -50,13 +50,19 @@ JuMP = "0.20"
 julia = "1"
 
 ["1.22-1"]
-GLPK = "0.10-0.11"
 GLPKMathProgInterface = "0.4"
 IntervalArithmetic = "0.15-0.16"
 MathProgBase = "0.7"
 RecipesBase = "0.4-0.7"
 Reexport = "0.2"
+
+["1.22-1.26"]
+GLPK = "0.10-0.11"
 Requires = "0.5"
+
+["1.27-1"]
+GLPK = "0.10-0.12"
+Requires = ["0.5", "1"]
 
 ["1.4"]
 GR = "0.32-0"
