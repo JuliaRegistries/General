@@ -1,15 +1,12 @@
 ["0.10"]
 Compat = "0.65-2"
-JSON = "0.16.1-0"
 Nullables = "0.0.3-1"
-Syslogs = "0"
-TimeZones = "0.7-0"
 julia = "0.6-1"
 
-["0.11-0.12"]
-JSON = "0.16.1-*"
-Syslogs = "0.0.1-*"
-TimeZones = "0.7.0-*"
+["0.10-0.12"]
+JSON = "0.16.1-0"
+Syslogs = "0"
+TimeZones = "0.7-1"
 
 ["0.11-0.12"]
 julia = ["0.7", "1"]
