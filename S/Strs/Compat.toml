@@ -1,4 +1,4 @@
-["0.1"]
+["0-0.1"]
 CharSetEncodings = "0.1.8-0"
 ChrBase = "0.1.10-0"
 Emoji_Entities = "0.2.6-0"
@@ -19,12 +19,13 @@ StrTables = "0.2.6-0"
 Unicode_Entities = "0.2.8-0"
 julia = "0.6-1"
 
-["0.2"]
+["0.2-0"]
 CharSetEncodings = "0.2-0"
 ChrBase = "0.2-0"
 Emoji_Entities = "0.3.2-0"
 Format = "0.8-0"
 HTML_Entities = "0.3.2-0"
+InternedStrings = "0.7-0"
 LaTeX_Entities = "0.3.2-0"
 ModuleInterfaceTools = "0.2-0"
 MurmurHash3 = "0.2-0"
@@ -38,14 +39,12 @@ StrRegex = "0.2-0"
 StrTables = "0.3-0"
 Unicode_Entities = "0.3.2-0"
 
-["0.2-1.0"]
+["0.2-1"]
 julia = "1"
-
-["0.2-1.0.0"]
-InternedStrings = "0.7-0"
 
 ["1.0.0"]
 Format = "1"
+InternedStrings = "0.7-0"
 ModuleInterfaceTools = "1"
 PCRE2 = "1"
 StrEntities = "1"
@@ -64,3 +63,22 @@ StrFormat = "1.0.0-*"
 StrLiterals = "1.0.0-*"
 StrRegex = "1.0.1-*"
 StrTables = "1.0.0-*"
+
+["1.0.2-1"]
+ChrBase = "1"
+Emoji_Entities = "1"
+Format = "1.1.0-1"
+HTML_Entities = "1"
+InternedStrings = "0.7"
+LaTeX_Entities = "1"
+ModuleInterfaceTools = "1.0.1-1"
+MurmurHash3 = "1.0.3-1"
+PCRE2 = "1.0.2-1"
+StrAPI = "1"
+StrBase = "1.0.3-1"
+StrEntities = "1"
+StrFormat = "1"
+StrLiterals = "1"
+StrRegex = "1.0.1-1"
+StrTables = "1"
+Unicode_Entities = "1"
