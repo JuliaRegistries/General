@@ -1,14 +1,4 @@
-["0.10"]
-Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
-DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
-Trajectories = "2c80a279-213e-54d7-a557-e9a14725db56"
-
-["0.9"]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["0.9-0.10"]
+[0]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
@@ -16,3 +6,13 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.9"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.10-0"]
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
+Trajectories = "2c80a279-213e-54d7-a557-e9a14725db56"
