@@ -1,8 +1,13 @@
 [0]
 Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
-DiffEqDiffTools = "01453d9d-ee7c-5054-8395-0335cb756afa"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 KrylovKit = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
+
+["0-0.1"]
+DiffEqDiffTools = "01453d9d-ee7c-5054-8395-0335cb756afa"
+
+["0.2-0"]
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"

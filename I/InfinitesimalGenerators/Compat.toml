@@ -1,8 +1,17 @@
 [0]
+KrylovKit = "0.4"
+Roots = "0.8"
+
+["0-0.1"]
 Arpack = "0"
 DiffEqDiffTools = "1"
 Distributions = "0.21"
 FillArrays = "0"
-KrylovKit = "0.4"
-Roots = "0.8"
 julia = "1"
+
+["0.2-0"]
+Arpack = "0.3-0.4"
+Distributions = "0.21-0.22"
+FillArrays = "0.8"
+FiniteDiff = "2"
+julia = "1.2.0-1"
