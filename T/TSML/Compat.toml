@@ -41,15 +41,7 @@ Interact = "0.9-0.10"
 Impute = "0.1-0.3"
 
 ["2.4.1-2"]
-ArgParse = ["0.5-0.7", "1"]
-CodecBzip2 = ["0.4-0.6", "1"]
-DataFrames = ["0.17-0.20", "1"]
 HTTP = "0.6-0.9"
-IterTools = "1.1.0-2"
-MLBase = ["0.6-0.9", "1"]
-MLDataUtils = ["0.2-0.5", "1"]
-Plots = ["0.25-0.28", "1"]
-StatsBase = ["0.25-0.32", "1"]
 Tables = "0.2"
 
 ["2.4.1-2.4.2"]
@@ -61,16 +53,43 @@ Reexport = "0.1-0.3"
 ["2.4.1-2.4.4"]
 GR = ["0.35-0.44", "1"]
 
+["2.4.1-2.4.5"]
+ArgParse = ["0.5-0.7", "1"]
+CodecBzip2 = ["0.4-0.6", "1"]
+DataFrames = ["0.17-0.20", "1"]
+IterTools = "1.1.0-2"
+MLBase = ["0.6-0.9", "1"]
+MLDataUtils = ["0.2-0.5", "1"]
+Plots = ["0.25-0.28", "1"]
+StatsBase = ["0.25-0.32", "1"]
+
 ["2.4.2-2"]
 JuliaDB = "0.13"
-MultivariateStats = ["0.5-0.9", "1"]
 
 ["2.4.2-2.4.4"]
 AbstractTrees = "0.2"
 
-["2.4.3-2"]
+["2.4.2-2.4.5"]
+MultivariateStats = ["0.5-0.9", "1"]
+
+["2.4.3-2.4.5"]
 DecisionTree = ["0.8-0.10", "1"]
+
+["2.4.5"]
+GR = ["0.35-0.45", "1"]
 
 ["2.4.5-2"]
 AbstractTrees = "0.2-0.3"
-GR = ["0.35-0.45", "1"]
+
+["2.4.6-2"]
+ArgParse = "0.5-0.7"
+CodecBzip2 = "0.4-0.6"
+DataFrames = "0.17-0.20"
+DecisionTree = "0.8-0.10"
+GR = "0.35-0.46"
+IterTools = "1.1.0-1"
+MLBase = "0.6-0.9"
+MLDataUtils = "0.2-0.5"
+MultivariateStats = "0.5-0.9"
+Plots = "0.25-0.28"
+StatsBase = "0.25-0.32"
