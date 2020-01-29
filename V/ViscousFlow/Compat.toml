@@ -45,7 +45,6 @@ ColorTypes = "0"
 DiffRules = "0"
 DocStringExtensions = "0"
 Documenter = "0"
-FFTW = "0"
 FastGaussQuadrature = "0"
 FileIO = "1"
 ForwardDiff = "0"
@@ -62,3 +61,11 @@ RecipesBase = "0"
 Reexport = "0"
 SpecialFunctions = "0"
 StaticArrays = "0"
+
+["0.1.9-0.1"]
+FFTW = "0"
+
+["0.2-0"]
+Dierckx = "0"
+FFTW = "1"
+Interpolations = "0"
