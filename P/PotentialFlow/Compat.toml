@@ -16,10 +16,12 @@ julia = ["0.7", "1"]
 ["0.1.4-0"]
 julia = "1"
 
+["0.1.6"]
+FFTW = "0"
+
 ["0.1.6-0"]
 ColorTypes = "0"
 DocStringExtensions = "0"
-FFTW = "0"
 ForwardDiff = "0"
 Interpolations = "0"
 MacroTools = "0"
@@ -28,3 +30,6 @@ PlotUtils = "0"
 RecipesBase = "0"
 Reexport = "0"
 SchwarzChristoffel = "0"
+
+["0.1.7-0"]
+FFTW = "1"
