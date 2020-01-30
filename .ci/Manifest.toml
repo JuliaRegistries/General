@@ -1,5 +1,10 @@
 # This file is machine-generated - editing it directly is not advised
 
+[[AutoHashEquals]]
+git-tree-sha1 = "45bb6705d93be619b81451bb2006b7ee5d4e4453"
+uuid = "15f4f7f2-30c1-5605-9d31-71845cf9641f"
+version = "0.2.0"
+
 [[Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
@@ -167,10 +172,16 @@ deps = ["Serialization"]
 uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [[RegistryCI]]
-deps = ["Dates", "GitCommand", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "Test", "TimeZones"]
-git-tree-sha1 = "8698dbf8719fd77051b574013692caffd0aa682e"
+deps = ["Dates", "GitCommand", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "RegistryTools", "Test", "TimeZones"]
+git-tree-sha1 = "d80db4fd1525c432e2b19673143a368c59ff029a"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "0.11.5"
+version = "0.11.6"
+
+[[RegistryTools]]
+deps = ["AutoHashEquals", "LibGit2", "Pkg", "UUIDs"]
+git-tree-sha1 = "66607582b470ac53c4aff0eb7eac9a6aea6fa81f"
+uuid = "d1eb7eb1-105f-429d-abf5-b0f65cb9e2c4"
+version = "1.2.2"
 
 [[ReplMaker]]
 deps = ["REPL", "Unicode"]
