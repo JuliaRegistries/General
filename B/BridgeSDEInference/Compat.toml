@@ -6,10 +6,17 @@ DataFrames = "0.19"
 Suppressor = "0.1.1-0.1"
 
 ["0.2-0"]
-Bridge = "0.9-0.10"
-Distributions = "0.21"
 ForwardDiff = "0.10"
 GaussianDistributions = "0.3.2-0.3"
 Interpolations = "0.12"
 Parameters = "0"
 StaticArrays = "0"
+
+["0.2-0.3.0"]
+Bridge = "0.9-0.10"
+Distributions = "0.21"
+
+["0.3.1-0"]
+Bridge = "0.9-0.11"
+Distributions = "0.21-0.22"
+RollingFunctions = "0.6"
