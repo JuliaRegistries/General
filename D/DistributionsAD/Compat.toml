@@ -7,10 +7,17 @@ ForwardDiff = "0.10.6-0.10"
 PDMats = "0.9"
 StatsFuns = "0.8-0.9"
 Tracker = "0.2.5-0.2"
-Zygote = "0.4.1-0.4"
 
 ["0.1.2-0.1"]
 Distributions = "0.21.6-0.21"
 
+["0.1.2-0.2"]
+Zygote = "0.4.1-0.4"
+
 ["0.2-0"]
 Distributions = "0.22"
+
+["0.3-0"]
+SpecialFunctions = "0.8-0.10"
+Zygote = "0.4.7-0.4"
+ZygoteRules = "0.2"
