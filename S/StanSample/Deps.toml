@@ -1,4 +1,5 @@
 [0-1]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
 
 ["0-1.1.2"]
@@ -10,7 +11,6 @@ StanRun = "d49c3b98-12bb-537a-8c40-37c13654c7f4"
 StanSamples = "52d0d7a9-b304-5f31-a727-b234d0b606ff"
 
 [0-2]
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
@@ -25,4 +25,7 @@ Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 
 [2]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["2.0.0"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 StanSamples = "52d0d7a9-b304-5f31-a727-b234d0b606ff"
