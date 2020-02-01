@@ -27,9 +27,11 @@ julia = ["0.7.0", "1"]
 
 ["1.3-1"]
 NNlib = "0.6"
-SpecialFunctions = "0.8"
 TimerOutputs = "0.5"
 julia = "1"
+
+["1.3-1.3.2"]
+SpecialFunctions = "0.8"
 
 ["1.3.0"]
 AutoGrad = "1.1.6-1"
@@ -46,12 +48,17 @@ CUDAapi = "1"
 
 ["1.3.1-1"]
 AutoGrad = "1.2.0-1"
-CUDAdrv = "3-4"
-CUDAnative = "2"
 CuArrays = "1.2.0-1"
 DataStructures = "0.17"
 FileIO = "1"
 JLD2 = "0.1"
 
+["1.3.1-1.3.2"]
+CUDAdrv = "3-4"
+CUDAnative = "2"
+
 ["1.3.2-1"]
 CUDAapi = "1-2"
+
+["1.3.3-1"]
+SpecialFunctions = "0.8-0.10"
