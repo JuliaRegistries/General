@@ -75,8 +75,10 @@ DiffEqBase = "6.4.0-6"
 StaticArrays = "0.11-0.12"
 
 ["6.14-6"]
-ArrayInterface = "1.1.0-2"
 FillArrays = "0.6-0.8"
+
+["6.14-6.19.0"]
+ArrayInterface = "1.1.0-2"
 
 ["6.15-6"]
 SparseDiffTools = ["0.9-0.10", "1"]
@@ -93,6 +95,9 @@ FiniteDiff = "2"
 
 ["6.19-6"]
 julia = "1.2.0-1"
+
+["6.19.1-6"]
+ArrayInterface = "2.4.0-2"
 
 ["6.2-6.7"]
 DiffEqBase = "0.0.0 - 6"
