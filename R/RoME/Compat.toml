@@ -101,7 +101,6 @@ FileIO = "1.0.2-1"
 Graphs = ["0.10.2-0.11", "1"]
 JLD2 = ["0.1-0.3", "1"]
 KernelDensityEstimate = "0.5.1-0.6"
-Optim = ["0.16-0.22", "0.231"]
 ProgressMeter = ["0.6-0.9", "1"]
 Reexport = ["0.2-0.5", "1"]
 Rotations = ["0.11-0.16", "1"]
@@ -111,6 +110,9 @@ TransformUtils = "0.2.2-0.3"
 DistributedFactorGraphs = "0.4.1-0.4"
 IncrementalInference = "0.7.9-0.7"
 
+["0.4.3-0.5.3"]
+Optim = ["0.16-0.22", "0.231"]
+
 ["0.5-0.5.1"]
 DistributedFactorGraphs = "0.4-0.5"
 IncrementalInference = "0.8.1-0.8"
@@ -118,3 +120,6 @@ IncrementalInference = "0.8.1-0.8"
 ["0.5.2-0"]
 DistributedFactorGraphs = "0.5.1-0.5"
 IncrementalInference = "0.8.2-0.8"
+
+["0.5.4-0"]
+Optim = ["0.16-0.23", "1"]
