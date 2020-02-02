@@ -15,7 +15,7 @@ Gadfly = "1"
 Homebrew = "0.7-0"
 Mamba = "0.12-0"
 
-[4-5]
+[4-6]
 julia = "1"
 
 ["5.0"]
@@ -38,17 +38,30 @@ StatsPlots = "0.12-0.13"
 Documenter = "0.23-0.24"
 
 ["5.1-5"]
-DocStringExtensions = "0.8"
 StanDiagnose = "1.1.0-1"
 StanOptimize = "1.1.0-1"
 StanSample = "1.1.0-1"
 StanVariational = "1.1.0-1"
 
+["5.1-6"]
+DocStringExtensions = "0.8"
+
 ["5.2-5"]
-Documenter = "0.24"
 MCMCChains = "1"
 StatsPlots = "0.13"
 
+["5.2-6"]
+Documenter = "0.24"
+
 ["5.2.1-5"]
-DataFrames = "0.20"
 StanBase = "1.1.0-1"
+
+["5.2.1-6"]
+DataFrames = "0.20"
+
+[6]
+StanBase = "1.1.0-2"
+StanDiagnose = "1.1.0-2"
+StanOptimize = "1.1.0-2"
+StanSample = "1.1.0-2"
+StanVariational = "1.1.0-2"
