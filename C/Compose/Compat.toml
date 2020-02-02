@@ -9,12 +9,13 @@ IterTools = "0-1"
 JSON = "0"
 Measures = "0"
 
-["0.7-0.7.3"]
-Requires = "0"
+["0.7"]
 julia = ["0.7", "1"]
 
+["0.7-0.7.3"]
+Requires = "0"
+
 ["0.7.4-0"]
-Colors = "0.9"
 IterTools = "1"
 Measures = "0.3"
 
@@ -22,10 +23,15 @@ Measures = "0.3"
 DataStructures = "0.11-0.15"
 JSON = "0.18-0.20"
 Requires = "0.5"
-julia = ["0.7", "1"]
+
+["0.7.4-0.8.0"]
+Colors = "0.9"
 
 ["0.8-0"]
 DataStructures = "0.11-0.17"
 JSON = "0.18-0.21"
 Requires = ["0.5", "1"]
 julia = "1"
+
+["0.8.1-0"]
+Colors = "0.9-0.11"
