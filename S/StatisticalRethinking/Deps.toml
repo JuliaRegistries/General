@@ -8,16 +8,18 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
 
 [0-1]
-CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
 GR = "28b8d3ca-fb5f-59d9-8090-bfdbd6d07a71"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 RDatasets = "ce6b1742-4840-55fa-b093-852dadbb1d8b"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+[0-2]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
@@ -41,7 +43,7 @@ StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 ["0.3-0.7"]
 MCMCChain = "1671dc4f-43c8-512c-ab25-e1704a74065e"
 
-["0.3-1"]
+["0.3-2"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.4-1"]
@@ -80,10 +82,12 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
 MCMCDiagnostics = "6e857e4b-079a-58c4-aeab-bc2670384359"
-Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
+
+["0.9-2"]
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 ["0.9.0"]
 DynamicHMC = "bbc10e6e-7c05-544b-b16e-64fede858acb"
@@ -93,5 +97,10 @@ CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
 DynamicHMC = "bbc10e6e-7c05-544b-b16e-64fede858acb"
 MonteCarloMeasurements = "0987c9cc-fe09-11e8-30f0-b96dd679fdca"
 StanBase = "d0ee94f6-a23d-54aa-bbe9-7f572d6da7f5"
+
+[1-2]
 StanOptimize = "fbd8da12-e93d-5a64-9231-612a0707ab99"
 StanSample = "c1514b29-d3a0-5178-b312-660c88baa699"
+
+[2]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
