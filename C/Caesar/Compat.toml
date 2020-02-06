@@ -141,6 +141,9 @@ DistributedFactorGraphs = "0.2.2-0.3"
 ["0.4.2"]
 DistributedFactorGraphs = "0.3-0.4"
 
+["0.4.3"]
+ImageMagick = "0.7-0.9"
+
 ["0.4.3-0"]
 ApproxManifoldProducts = "0.1"
 CloudGraphs = "0.1.1-0.1"
@@ -154,7 +157,6 @@ FFTW = ["0.2.4-0.3", "1"]
 FileIO = "1"
 Graphs = "0.10.2-0.10"
 ImageCore = "0.7-0.9"
-ImageMagick = "0.7-0.9"
 IncrementalInference = "0.8.2-0.8"
 JLD2 = "0.1-0.2"
 JSON = "0.18-0.23"
@@ -171,3 +173,6 @@ TransformUtils = "0.2.2-0.2"
 Unmarshal = "0.2.1-0.3"
 YAML = "0.3"
 ZMQ = "1"
+
+["0.4.4-0"]
+ImageMagick = ["0.7", "1"]
