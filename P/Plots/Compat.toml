@@ -68,6 +68,9 @@ PlotUtils = "0.6.0"
 PlotUtils = "0.6.1-*"
 julia = "1.0.0-*"
 
+["0.28"]
+RecipesBase = "0.6-0.7"
+
 ["0.28-0"]
 Contour = "0.5"
 FFMPEG = "0.2"
@@ -76,7 +79,6 @@ JSON = "0.21"
 Measures = "0.3"
 NaNMath = "0.3"
 PlotUtils = "0.6.1-0.6"
-RecipesBase = "0.6-0.7"
 Reexport = "0.2"
 Showoff = "0.3.1-0.3"
 julia = "1"
@@ -96,10 +98,17 @@ PlotThemes = ["0.2", "0.4"]
 PlotThemes = ["0.2", "1"]
 
 ["0.28.2-0"]
-FixedPointNumbers = "0.6"
-GR = "0.44"
 PlotThemes = "1"
 StatsBase = "0.32"
 
+["0.28.2-0.28"]
+FixedPointNumbers = "0.6"
+GR = "0.44"
+
 ["0.28.4-0"]
 Requires = ["0.5", "1"]
+
+["0.29-0"]
+FixedPointNumbers = "0.6-0.8"
+GR = "0.46"
+RecipesBase = "0.8"
