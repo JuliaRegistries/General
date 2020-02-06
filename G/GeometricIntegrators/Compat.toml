@@ -1,4 +1,4 @@
-[0]
+["0-0.1"]
 DecFP = "0"
 Documenter = "0"
 FastGaussQuadrature = "0"
@@ -10,3 +10,19 @@ Polynomials = "0"
 ProgressMeter = "0"
 Reexport = "0"
 julia = ["0.7", "1"]
+
+["0.2-0"]
+DecFP = "0.4.7-0.4"
+Documenter = "0.23"
+FastGaussQuadrature = "0.4"
+FastTransforms = ["0.6", "0.8"]
+ForwardDiff = "0.10"
+HDF5 = "0.10"
+LineSearches = "7"
+NLsolve = "4"
+OffsetArrays = ["0.10-0.11", "1"]
+Polynomials = "0.5"
+ProgressMeter = "1"
+Reexport = "0.2"
+SafeTestsets = "0.0.1"
+julia = "1.1.0-1"
