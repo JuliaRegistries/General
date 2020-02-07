@@ -19,10 +19,17 @@ PowerModels = "0.12.2-0.12"
 PowerModels = "0.13"
 
 ["0.6-0"]
-InfrastructureModels = "0.3.1-0.3"
 JuMP = "0.19.2-0.20"
 MathOptInterface = "0.8-0.9"
 Memento = "0.10-0.12"
 
-["0.7-0"]
+["0.6-0.7"]
+InfrastructureModels = "0.3.1-0.3"
+
+["0.7"]
 PowerModels = "0.14"
+
+["0.8-0"]
+InfrastructureModels = "0.4"
+JSON = "0.18-0.21"
+PowerModels = "0.15"
