@@ -13,8 +13,19 @@ matrix:
   fast_finish: true
   allow_failures:
     - julia: nightly
-before_script: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
-script: julia --project=.ci/ --color=yes -e 'import RegistryCI; RegistryCI.test()'
+before_script:
+- sleep 1
+- try_count=0
+- while [ $try_count != 5 ]; do
+- julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
+- if [ $? = 0 ]; then exit 0; fi
+- try_count=`expr $try_count + 1`
+- sleep 1
+- done
+- exit 1
+script:
+- julia --project=.ci/ --color=yes -e 'import RegistryCI; RegistryCI.test()'
+- exit 1
 branches:
   only:
     - master
