@@ -15,7 +15,12 @@ julia = ["0.7.0", "1"]
 ["1.3-1"]
 Distances = "0.7-0.9"
 NearestNeighbors = "0.4"
-RecipesBase = "0.7"
 StaticArrays = ["0.8", "0.11-0.12"]
 StatsBase = ["0.24", "0.32"]
 julia = "1"
+
+["1.3.0"]
+RecipesBase = "0.7"
+
+["1.3.1-1"]
+RecipesBase = "0.7-0.8"
