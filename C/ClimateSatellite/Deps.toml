@@ -4,6 +4,12 @@ Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 FTPClient = "01fcc997-4f28-56b8-8a06-30002c134abb"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
-NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
+["0-0.1"]
+NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
+
+["0.2-0"]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
