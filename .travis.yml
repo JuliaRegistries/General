@@ -14,7 +14,7 @@ matrix:
   allow_failures:
     - julia: nightly
 before_script: .ci/travis_before_script.sh
-script: julia --project=.ci/ --color=yes -e 'import RegistryCI; RegistryCI.test(); exit(0)'
+script: julia --project=.ci/ --color=yes -e 'import RegistryCI; RegistryCI.test(); exit(1)'
 branches:
   only:
     - master
