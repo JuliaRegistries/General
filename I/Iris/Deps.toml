@@ -1,7 +1,6 @@
 [0]
 ArnoldiMethod = "ec485272-7323-5ecc-a04f-4719b315124d"
 ArnoldiMethodTransformations = "fede57cc-428a-11e9-3e5c-c149a0a4072d"
-Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -16,3 +15,21 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 VoronoiDelaunay = "72f80fcb-8c52-57d9-aff0-40c1a3526986"
+
+["0-0.1"]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+
+["0.2-0"]
+Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Flatten = "4c728ea3-d9ee-5c9a-9642-b6f7d7dc04fa"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
+KrylovKit = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
+PolynomialRoots = "3a141323-8675-5d76-9d11-e1df1406c778"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
+SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
+TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
