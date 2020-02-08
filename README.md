@@ -45,9 +45,10 @@ The following criteria are applied for all pull requests
    Examples:
    ```toml
    [compat]
-   PackageA = "1"        # [1.0.0, 2.0.0), has upper bound (good)
-   PackageB = "0.1, 0.2" # [0.1.0, 0.3.0), has upper bound (good)
-   PackageB = ">=3"      # [3.0.0, ∞), no upper bound (bad)
+   PackageA = "1"          # [1.0.0, 2.0.0), has upper bound (good)
+   PackageB = "0.1, 0.2"   # [0.1.0, 0.3.0), has upper bound (good)
+   PackageC = ">=3"        # [3.0.0, ∞), no upper bound (bad)
+   PackageD = ">=0.4, <1"  # [-∞, ∞), no lower bound, no upper bound (very bad)
    ```
    See [Pkg's documentation][pkg-compat] for specification of `[compat]` entries in your
    `Project.toml` file.
