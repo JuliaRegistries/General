@@ -13,7 +13,7 @@ matrix:
   fast_finish: true
   allow_failures:
     - julia: nightly
-before_script: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
+before_script: .ci/travis_before_script.sh
 script: julia --project=.ci/ --color=yes -e 'import RegistryCI; RegistryCI.test()'
 branches:
   only:
