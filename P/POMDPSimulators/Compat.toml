@@ -11,10 +11,15 @@ julia = ["0.7", "1"]
 POMDPs = "0.7.3-0.8"
 julia = "1"
 
+["0.3.2"]
+DataFrames = "0.19"
+
 ["0.3.2-0"]
 BeliefUpdaters = "0.1"
-DataFrames = "0.19"
 NamedTupleTools = "0"
 POMDPModelTools = "0.1-0.2"
 POMDPPolicies = "0.2"
 ProgressMeter = "1"
+
+["0.3.3-0"]
+DataFrames = "0.19-0.20"
