@@ -1,4 +1,7 @@
-[0]
+["0-0.1.0"]
+DynamicalSystems = "0-1"
+
+["0-0.3.2"]
 AbstractPlotting = "0"
 Blink = "0"
 Colors = "0"
@@ -6,18 +9,27 @@ Interact = "0"
 Observables = "0"
 Reexport = "0"
 
-["0-0.1.0"]
-DynamicalSystems = "0-1"
-
 ["0.0"]
 julia = "1"
 
-["0.1-0"]
+["0.1-0.3.2"]
 julia = "1.1-1"
 
-["0.1.1-0"]
+["0.1.1-0.3.2"]
 DynamicalSystems = "1.2-1"
 
-["0.3-0"]
+["0.3-0.3.2"]
 StatsBase = "0"
 StatsMakie = "0"
+
+["0.3.3-0"]
+AbstractPlotting = "0.9.17-0.10"
+Blink = "0.12"
+Colors = "0.11"
+DynamicalSystems = "1"
+Interact = "0.10"
+Observables = "0.2"
+Reexport = "0.2"
+StatsBase = "0.32"
+StatsMakie = ["0.0.6", "0.1"]
+julia = "1"
