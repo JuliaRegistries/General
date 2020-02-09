@@ -405,6 +405,7 @@ some amount of consideration when choosing package names.
 1db0cb78-5717-11e9-0361-01e0964942ce = { name = "SurfaceTopology", path = "S/SurfaceTopology" }
 1dea7af3-3e70-54e6-95c3-0bf5283fa5ed = { name = "OrdinaryDiffEq", path = "O/OrdinaryDiffEq" }
 1e09ba94-8865-5af0-8cfd-6b3609c426e6 = { name = "SubMatrixSelectionSVD", path = "S/SubMatrixSelectionSVD" }
+1e25b1b3-a3a0-53b8-8729-934c9d7c4cc0 = { name = "GPnet", path = "G/GPnet" }
 1e2663ae-5621-49ef-9c0a-672f85872094 = { name = "FStrings", path = "F/FStrings" }
 1e31e15d-4957-550d-a244-318eced754ae = { name = "DFControl", path = "D/DFControl" }
 1e616198-aa4e-51ec-90a2-23f7fbd31d8d = { name = "COSMO", path = "C/COSMO" }
@@ -641,7 +642,6 @@ some amount of consideration when choosing package names.
 31851ddc-f9b7-5097-a470-69ef907d7682 = { name = "LinearFractional", path = "L/LinearFractional" }
 31a5f54b-26ea-5ae9-a837-f05ce5417438 = { name = "Debugger", path = "D/Debugger" }
 31c24e10-a181-5473-b8eb-7969acd0382f = { name = "Distributions", path = "D/Distributions" }
-31c5cc76-766c-5025-8767-a254a8287b15 = { name = "Libpciaccess_jll", path = "L/Libpciaccess_jll" }
 31c64edf-cdeb-50e4-845d-ed2334360c20 = { name = "TensorValues", path = "T/TensorValues" }
 31df374a-5bce-54dc-914a-f687be069de8 = { name = "Getopt", path = "G/Getopt" }
 31f4e45d-be81-5be7-b2dd-bc577b4f7be8 = { name = "DualMatrixTools", path = "D/DualMatrixTools" }
@@ -731,6 +731,7 @@ some amount of consideration when choosing package names.
 38540f10-b2f7-11e9-35d8-d573e4eb0ff2 = { name = "CommonSolve", path = "C/CommonSolve" }
 3868d828-178d-56af-83e1-d523478a73cd = { name = "AIControl", path = "A/AIControl" }
 38708fd2-87cb-5685-8cf6-f81d134ed590 = { name = "DispatcherCache", path = "D/DispatcherCache" }
+3873f7d0-7b7c-52c3-bdf4-8ab39b8f337a = { name = "lrslib_jll", path = "L/lrslib_jll" }
 3895d2a7-ec45-59b8-82bb-cfc6a382f9b3 = { name = "CUDAapi", path = "C/CUDAapi" }
 38a345b3-de98-5d2b-a5d3-14cd9215e700 = { name = "Libuuid_jll", path = "L/Libuuid_jll" }
 38ac1a67-8e16-5889-9a62-b2c9995eb50f = { name = "ComplexPhasePortrait", path = "C/ComplexPhasePortrait" }
@@ -2026,6 +2027,7 @@ a5f39ad1-fb6e-5f16-afbb-4d8233a49418 = { name = "MemoryMutate", path = "M/Memory
 a5ff1dd3-4e0a-50db-9022-6d011c1d5846 = { name = "SparsityOperators", path = "S/SparsityOperators" }
 a603d957-0e48-4f86-8fbd-0b7bc66df689 = { name = "CanonicalTraits", path = "C/CanonicalTraits" }
 a6525b86-64cd-54fa-8f65-62fc48bdc0e8 = { name = "SimpleRandom", path = "S/SimpleRandom" }
+a65dc6b1-eb27-53a1-bb3e-dea574b5389e = { name = "Xorg_libpciaccess_jll", path = "X/Xorg_libpciaccess_jll" }
 a66acb62-5df1-561a-8400-71bc98699397 = { name = "MultiModalMuSig", path = "M/MultiModalMuSig" }
 a6865705-0aff-55fc-a8e1-34d7b6815716 = { name = "SemiDiscretizationMethod", path = "S/SemiDiscretizationMethod" }
 a6a4b4a1-58ae-5f2f-bbf9-c7004aa6538b = { name = "Unicode2LaTeX", path = "U/Unicode2LaTeX" }
@@ -2888,6 +2890,7 @@ eef66a8b-8d7a-5724-a8d2-7c31ae1e29ed = { name = "libcap_jll", path = "L/libcap_j
 ef02786f-6848-5d1f-95d1-5517628ee114 = { name = "EchogramImages", path = "E/EchogramImages" }
 ef1cacd2-8e28-11e9-3f3f-4f5939ab89b0 = { name = "PlotSeis", path = "P/PlotSeis" }
 ef35fa6a-3910-11e9-1848-752a35b00f56 = { name = "DataIO", path = "D/DataIO" }
+ef3b0bb0-9dc6-5204-90f3-946fd7d0da3e = { name = "HELICS_jll", path = "H/HELICS_jll" }
 ef569cd2-5787-430a-a8c5-986931a3f6a1 = { name = "TraitWrappers", path = "T/TraitWrappers" }
 ef61062a-5684-51dc-bb67-a0fcdec5c97d = { name = "DiffEqUncertainty", path = "D/DiffEqUncertainty" }
 ef9ae936-2359-5275-affc-9ef3e9d423a4 = { name = "Xorg_xf86vidmodeproto_jll", path = "X/Xorg_xf86vidmodeproto_jll" }
@@ -3026,6 +3029,7 @@ fbcbbc08-f1bf-5204-9233-b69f5d396135 = { name = "FEMBase", path = "F/FEMBase" }
 fbd15aa5-315a-5a7d-a8a4-24992e37be05 = { name = "ApproxFunBase", path = "A/ApproxFunBase" }
 fbd8da12-e93d-5a64-9231-612a0707ab99 = { name = "StanOptimize", path = "S/StanOptimize" }
 fbd9d27c-2d1c-5c1c-99f2-7497d746985d = { name = "OptionalData", path = "O/OptionalData" }
+fc16ec7e-3cba-5ca4-a17a-1acd8165bbee = { name = "hidapi_jll", path = "H/hidapi_jll" }
 fc18253b-5e1b-504c-a4a2-9ece4944c004 = { name = "LazyJSON", path = "L/LazyJSON" }
 fc1ed427-419d-5ab1-b4dc-28f2ea403eed = { name = "SeisReconstruction", path = "S/SeisReconstruction" }
 fc2879f5-75d7-582e-8603-c64deb99b744 = { name = "Ant", path = "A/Ant" }
