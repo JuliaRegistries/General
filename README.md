@@ -10,6 +10,10 @@ dependencies and compatibility constraints.
 The General registry is open for everyone to use and provides access to a large ecosystem
 of packages.
 
+The General registry is a shared resource that belongs to the entire Julia community.
+
+If you are registering a new package, please make sure that you have read the [package naming guidelines](https://julialang.github.io/Pkg.jl/dev/creating-packages/#Package-naming-guidelines-1).
+
 ## Registering a package in General
 
 New packages and new versions of packages are added the General registry by pull requests
