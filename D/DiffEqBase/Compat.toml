@@ -93,6 +93,9 @@ ChainRulesCore = "0.4-0.5"
 ["6.13.1-6"]
 ChainRulesCore = "0.4-0.6"
 
+["6.14-6"]
+RecipesBase = "0.7-0.8"
+
 ["6.2.4-6.12"]
 DiffEqDiffTools = "1"
 
@@ -104,7 +107,6 @@ FunctionWrappers = "1"
 IterativeSolvers = "0.8"
 MuladdMacro = "0.2.1-0.2"
 Parameters = "0.12"
-RecipesBase = "0.7"
 RecursiveFactorization = "0.1"
 Roots = "0.8"
 StaticArrays = "0.11-0.12"
@@ -112,6 +114,9 @@ TreeViews = "0.3"
 
 ["6.5-6.10"]
 RecursiveArrayTools = "1"
+
+["6.5-6.13"]
+RecipesBase = "0.7"
 
 ["6.5-6.7"]
 Requires = "0.5"
