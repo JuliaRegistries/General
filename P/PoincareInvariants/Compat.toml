@@ -1,7 +1,15 @@
-[0]
+["0-0.1"]
 ApproxFun = "0-0.10"
 GeometricIntegrators = "0"
 HDF5 = "0"
 ProgressMeter = "0"
 SymPy = "0-1"
 julia = ["0.7", "1"]
+
+["0.2-0"]
+ApproxFun = "0.10-0.11"
+GeometricIntegrators = "0.2.2-0.2"
+HDF5 = ["0.10", "0.12"]
+ProgressMeter = "1"
+SymPy = "1"
+julia = "1.1.0-1"
