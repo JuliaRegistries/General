@@ -26,11 +26,13 @@ ArrayInterface = "0.0.0 - 2"
 ["1.1"]
 ArrayInterface = "1.2.0-1"
 
+["1.1-1"]
+RecipesBase = "0.7"
+
 ["1.1-1.2.0"]
 Requires = "0.5"
 
 ["1.1-2"]
-RecipesBase = "0.7"
 StaticArrays = "0.10-0.12"
 
 ["1.2-2"]
@@ -39,5 +41,11 @@ ArrayInterface = "1.2.0-2"
 ["1.2.1-2"]
 Requires = ["0.5", "1"]
 
+["2.0"]
+RecipesBase = "0.7"
+
 ["2.0.1-2"]
 ZygoteRules = "0.2"
+
+["2.1-2"]
+RecipesBase = "0.7-0.8"
