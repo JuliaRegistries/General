@@ -7,9 +7,6 @@ StochasticDiffEq = "4.4.5-6"
 WignerSymbols = "0.1.1-0"
 julia = "0.6-1"
 
-["0.6-0.6.0"]
-OrdinaryDiffEq = "4.7.1-5"
-
 ["0.6-0.6.5"]
 Arpack = "0"
 DiffEqCallbacks = "2.1-2"
@@ -19,10 +16,13 @@ StochasticDiffEq = "5.6-6"
 WignerSymbols = "0.2-0"
 julia = ["0.7", "1"]
 
+["0.6.0"]
+OrdinaryDiffEq = "4.7.1-5"
+
 ["0.6.1-0.6.5"]
 OrdinaryDiffEq = "4.8-5"
 
-["0.6.6-0"]
+["0.6.6-0.7.0"]
 DiffEqCallbacks = "2.5.0-*"
 OrdinaryDiffEq = "5.7.0-*"
 RecursiveArrayTools = "0.20.0-*"
@@ -30,9 +30,21 @@ StochasticDiffEq = "6.0.0-*"
 WignerSymbols = "0.3.1-*"
 julia = "1.1.0-1"
 
-["0.6.8-0"]
+["0.6.8-0.7.0"]
 Arpack = "0.3.1-*"
 
-["0.7-0"]
+["0.7.0"]
 QuantumOpticsBase = "0.1.0-*"
 Reexport = "0.2.0-*"
+
+["0.7.1-0"]
+Arpack = "0.4"
+DiffEqCallbacks = "2"
+FFTW = "1.2.0-1"
+OrdinaryDiffEq = "5"
+QuantumOpticsBase = "0.1"
+RecursiveArrayTools = "2"
+Reexport = "0.2"
+StochasticDiffEq = "6"
+WignerSymbols = "1"
+julia = "1"
