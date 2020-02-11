@@ -11,11 +11,16 @@ julia = ["0.7", "1"]
 ["0.3.0"]
 julia = "1.0.0-1"
 
+["0.3.1"]
+Lazy = "0.14"
+
 ["0.3.1-0"]
 BinningAnalysis = "0.3.2-0.3"
 EllipsisNotation = "0.4"
 HDF5 = "0.12.5-0.12"
 JLD = "0.9.1-0.9"
-Lazy = "0.14"
 Reexport = "0.2"
 julia = "1"
+
+["0.3.2-0"]
+Lazy = "0.14-0.15"
