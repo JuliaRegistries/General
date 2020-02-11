@@ -12,15 +12,16 @@ SQLite = "0.8.2-0.8"
 YAML = "0.3.2-0.3"
 
 ["0.14-0"]
-Crayons = "4"
 JSON = "0.21"
 MbedTLS = "0.7"
-MySQL = "0.7"
 Reexport = "0.2"
+
+["0.14-0.17"]
+Crayons = "4"
+MySQL = "0.7"
 
 ["0.15-0"]
 DataStreams = "0.4"
-LibPQ = "1"
 Millboard = "0.2"
 OrderedCollections = "1"
 Revise = "2"
@@ -30,6 +31,11 @@ YAML = "0.3"
 DataFrames = "0.19"
 SQLite = "0.8"
 
+["0.15-0.17"]
+LibPQ = "1"
+
 ["0.16.1-0"]
 DataFrames = "0.20"
+
+["0.16.1-0.17"]
 SQLite = "0.9"
