@@ -47,12 +47,14 @@ ColorTypes = "0.8"
 ["0.5.6-0"]
 CategoricalArrays = "0.7"
 Distances = "0.8"
-Distributions = "0.21"
-Requires = "0.5-1"
 Tables = "0.2"
 
 ["0.5.6-0.5"]
 ScientificTypes = "0.2"
+
+["0.5.6-0.7"]
+Distributions = "0.21"
+Requires = "0.5-1"
 
 ["0.5.7"]
 MLJBase = "0.8.1-0.8"
@@ -70,6 +72,13 @@ ScientificTypes = "0.3"
 ["0.6-0"]
 Compat = "2"
 
-["0.7-0"]
+["0.7"]
 MLJBase = "0.10"
 ScientificTypes = "0.5.1-0.5"
+
+["0.8-0"]
+Distributions = "0.22"
+MLJBase = "0.11"
+MLJModelInterface = "0.1"
+Requires = ["0.5", "1"]
+ScientificTypes = "0.7"
