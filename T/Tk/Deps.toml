@@ -1,9 +1,15 @@
 [0]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
-BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
 Graphics = "a2bd30eb-e257-5431-a919-1863eab51364"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.6"]
+BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 WinRPM = "c17dfb99-b4f7-5aad-8812-456da1ad7187"
+
+["0.7-0"]
+Tcl_jll = "9fc9b8dd-f768-5d0d-bb0b-e65961e00eb6"
+Tk_jll = "056b5f69-f28f-5060-ad8a-df43647a2b5c"
