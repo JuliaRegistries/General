@@ -1,6 +1,5 @@
 [0]
 CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
-Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -27,10 +26,8 @@ MultivariateStats = "6f286f6a-111f-5878-ab1e-185364afe411"
 ["0-0.7"]
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 
-["0.3-0"]
-DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
-InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
-ScientificTypes = "321657f4-b219-11e9-178b-2701a2544e81"
+["0-0.8"]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
 ["0.3-0.5.2"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
@@ -41,11 +38,19 @@ PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 ["0.3-0.7"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 
+["0.3-0.8"]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+ScientificTypes = "321657f4-b219-11e9-178b-2701a2544e81"
+
 ["0.5.2-0"]
 ComputationalResources = "ed09eef8-17a6-5b46-8889-db040fac31e3"
 
-["0.5.3-0"]
+["0.5.3-0.8"]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 
 ["0.8-0"]
 MLJTuning = "03970b2e-30c4-11ea-3135-d1576263f10f"
+
+["0.9-0"]
+MLJScientificTypes = "2e2323e0-db8b-457b-ae0d-bdfb3bc63afd"
