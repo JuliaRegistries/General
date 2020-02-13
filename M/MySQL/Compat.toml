@@ -7,8 +7,17 @@ BinaryProvider = "0"
 DecFP = "0"
 julia = ["0.7", "1"]
 
-["0.7-0.7.0"]
+["0.7.0"]
 Tables = "0"
 
 ["0.7.1-0"]
 julia = ["0.7.0", "1"]
+
+[1]
+BinaryProvider = "0.5"
+DBInterface = "2"
+DecFP = "0.4"
+MariaDB_Connector_C_jll = "3"
+Parsers = "0.3"
+Tables = "1"
+julia = "1"
