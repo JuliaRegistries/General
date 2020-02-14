@@ -1,10 +1,13 @@
-["0.2"]
+["0-0.2"]
 Parameters = "0.7.3-0"
 
-["0.2-0.4.2"]
+["0-0.2.1"]
+GeoStatsBase = "0.2.2-0"
+
+["0-0.4.2"]
 julia = ["0.7", "1"]
 
-["0.2-0.4.3"]
+["0-0.4.3"]
 CSV = "0.2-0"
 DataFrames = "0.11.5-0"
 Distances = "0.5-0"
@@ -12,16 +15,13 @@ Distributions = "0.15-0"
 RecipesBase = "0.2.3-0"
 StaticArrays = "0.7-0"
 
-["0.2.0-0.2.1"]
-GeoStatsBase = "0.2.2-0"
-
 ["0.2.2"]
 GeoStatsBase = "0.2.4-0"
 
-["0.2.3-0.2.5"]
+["0.2.3-0.2"]
 GeoStatsBase = "0.2.5-0"
 
-["0.3.0-0.3.2"]
+["0.3-0.3.2"]
 GeoStatsBase = "0.3-0"
 NearestNeighbors = "0.4.2-0"
 
@@ -31,25 +31,25 @@ GeoStatsBase = "0.3.1-0"
 ["0.3.3-0.4.3"]
 NearestNeighbors = "0.4.3-0"
 
-["0.3.8-0.3.9"]
+["0.3.8-0.3"]
 GeoStatsBase = "0.3.4-0"
 
 ["0.3.9-0.4.3"]
 Reexport = "0.2-0"
 
-["0.4.0-0.4.2"]
+["0.4-0.4.2"]
 GeoStatsBase = "0.3.6-0"
 
 ["0.4.3"]
 GeoStatsBase = "0.4.1-0"
 
-["0.4.3-0.5"]
+["0.4.3-0"]
 julia = "1"
 
 ["0.4.4"]
 GeoStatsBase = "0.4.1-*"
 
-["0.4.4-0.4.5"]
+["0.4.4-0.4"]
 CSV = "0.2.0-*"
 DataFrames = "0.11.5-*"
 Distances = "0.5.0-*"
@@ -59,9 +59,9 @@ RecipesBase = "0.2.3-*"
 Reexport = "0.2.0-*"
 StaticArrays = "0.7.0-*"
 
-["0.4.5"]
+["0.4.5-0.4"]
 GeoStatsBase = "0.4.3-*"
 
-["0.5"]
+["0.5-0"]
 GeoStatsBase = "0.5"
 Reexport = "0.2"

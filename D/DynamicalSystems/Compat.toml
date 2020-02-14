@@ -1,13 +1,13 @@
-["1-1.0"]
-DynamicalSystemsBase = "1"
-julia = ["0.7", "1"]
-
 ["1-1.1"]
 ChaosTools = "1"
 
 ["1-1.2.0"]
 Reexport = "0"
 StaticArrays = "0"
+
+["1.0"]
+DynamicalSystemsBase = "1"
+julia = ["0.7", "1"]
 
 ["1.1"]
 DynamicalSystemsBase = "1.1-1"
@@ -17,7 +17,7 @@ DelayEmbeddings = "0.2-1"
 RecurrenceAnalysis = "0.5-1"
 julia = "1"
 
-["1.2-1.2.0"]
+["1.2.0"]
 ChaosTools = "1.5-1"
 DynamicalSystemsBase = "1.2.3-1"
 

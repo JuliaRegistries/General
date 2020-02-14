@@ -1,22 +1,9 @@
-["0.10"]
-OrderedCollections = "1"
+["0-0.10.2"]
+CSSUtil = "0"
+JSON = "0.7-0"
+Knockout = "0"
 
-["0.10.0-0.10.1"]
-InteractBase = "0.9.1-0"
-
-["0.10.2"]
-InteractBase = "0.10.1-0"
-
-["0.10.3"]
-InteractBase = "0.10.1-*"
-JSON = "0.7.0-*"
-Observables = "0.2.2-*"
-Reexport = "0.1.0-*"
-WebIO = "0.3.1-*"
-Widgets = "0.5.0-*"
-julia = ["0.7", "1"]
-
-["0.8"]
+["0-0.8"]
 Compat = "0.17-2"
 InteractBase = "0.6-0"
 InteractBulma = "0.3.3-0"
@@ -24,29 +11,43 @@ WebIO = "0"
 Widgets = "0.2.3-0"
 julia = "0.6-1"
 
-["0.8-0.10.2"]
-CSSUtil = "0"
-JSON = "0.7-0"
-Knockout = "0"
-
-["0.8-0.9"]
+["0-0.9"]
 DataStructures = "0.2.10-0"
+
+["0.10-0"]
+OrderedCollections = "1"
+
+["0.10-0.10.1"]
+InteractBase = "0.9.1-0"
+
+["0.10.2"]
+InteractBase = "0.10.1-0"
+
+["0.10.3-0"]
+InteractBase = "0.10.1-*"
+JSON = "0.7.0-*"
+Observables = "0.2.2-*"
+Reexport = "0.1.0-*"
+WebIO = "0.3.1-*"
+Widgets = "0.5.0-*"
 
 ["0.9"]
 InteractBulma = "0.4-0"
+
+["0.9-0"]
+julia = ["0.7", "1"]
 
 ["0.9-0.10.2"]
 Observables = "0.2.2-0"
 Reexport = "0.1-0"
 WebIO = "0.3.1-0"
-julia = ["0.7", "1"]
 
 ["0.9.0"]
 InteractBase = "0.8-0"
 Widgets = "0.4.1-0"
 
-["0.9.1"]
-InteractBase = "0.8.3-0"
-
 ["0.9.1-0.10.2"]
 Widgets = "0.5-0"
+
+["0.9.1-0.9"]
+InteractBase = "0.8.3-0"
