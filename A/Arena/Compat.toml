@@ -1,7 +1,4 @@
-["0.1"]
-julia = ["0.7-0", "1.0"]
-
-["0.1-0.2"]
+[0]
 Caesar = "0.2.3-0"
 ColorTypes = "0"
 Colors = "0"
@@ -25,7 +22,10 @@ Requires = "0"
 Rotations = "0"
 TransformUtils = "0.2.2-0"
 
-["0.2"]
+["0-0.1"]
+julia = ["0.7-0", "1.0"]
+
+["0.2-0"]
 JSON2 = "0"
 Mongoc = "0-0.2"
 PlotUtils = "0"

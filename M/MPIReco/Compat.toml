@@ -13,10 +13,12 @@ Unitful = "0"
 Winston = "0-0.14"
 julia = "1"
 
+["0.1.1-0"]
+julia = ["0.7", "1"]
+
 ["0.1.1-0.1"]
 MPIFiles = "0.5.2-0"
 RegularizedLeastSquares = "0.2.3-0"
-julia = ["0.7", "1"]
 
 ["0.2-0"]
 DSP = "0.6"
@@ -25,4 +27,3 @@ ImageUtils = "0.2"
 IniFile = "0.5"
 MPIFiles = "0.8"
 RegularizedLeastSquares = "0.5"
-julia = ["0.7", "1"]

@@ -1,14 +1,4 @@
-["0.1"]
-StateSpaceReconstruction = "0.2.1-0"
-julia = ["0.7", "1"]
-
-["0.1-0.2"]
-Simplices = "0.2.1-0"
-
-["0.1-0.2.3"]
-Documenter = "0"
-
-["0.1-0.6"]
+[0]
 Conda = "0-1"
 InplaceOps = "0"
 Parameters = "0"
@@ -17,24 +7,34 @@ RecipesBase = "0"
 Reexport = "0"
 StaticArrays = "0"
 
-["0.2-0.6"]
+["0-0.1"]
+StateSpaceReconstruction = "0.2.1-0"
+julia = ["0.7", "1"]
+
+["0-0.2"]
+Simplices = "0.2.1-0"
+
+["0-0.2.3"]
+Documenter = "0"
+
+["0.2-0"]
 julia = "1"
 
-["0.2.0-0.2.2"]
+["0.2-0.2.2"]
 StateSpaceReconstruction = "0.3-0"
 
-["0.2.3-0.2.4"]
+["0.2.3-0.2"]
 StateSpaceReconstruction = "0.3-0.3.1"
 
 ["0.4"]
 CausalityToolsBase = "0.3.1-0"
 StateSpaceReconstruction = "0.4-0"
 
-["0.4-0.6"]
+["0.4-0"]
 DelayEmbeddings = "0-1"
 Simplices = "0.4-0"
 
-["0.5-0.6"]
+["0.5-0"]
 CausalityToolsBase = "0.3.4-0"
 IntervalArithmetic = "0"
 LaTeXStrings = "0-1"
