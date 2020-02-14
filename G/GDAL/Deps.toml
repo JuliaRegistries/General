@@ -1,14 +1,22 @@
+[0]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
 ["0-0.1.0"]
 CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
 LibGEOS = "a90b1aa1-3769-5649-ba7e-abc5a9d163eb"
 Proj4 = "9a7e659c-8ee8-5706-894e-f68f43bc57ea"
-
-[0-1]
-BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 ["0.2-0"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [1]
 CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+
+["1.0"]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+["1.1-1"]
+GDAL_jll = "a7073274-a066-55f0-b90d-d619367d196c"
+PROJ_jll = "58948b4f-47e0-5654-a9ad-f609743f8632"
