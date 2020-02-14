@@ -4,7 +4,6 @@ julia = "1.1.0-1"
 ["0.3.1-0"]
 AWSCore = "0.6.6-0.6"
 AWSS3 = "0.6"
-AWSSDK = "0.4"
 Blosc = "0.5"
 DataStructures = "0.17"
 FillArrays = "0.8"
@@ -13,7 +12,14 @@ JSON = "0.21"
 ["0.3.1-0.3"]
 OffsetArrays = "0.11"
 
+["0.3.1-0.4.0"]
+AWSSDK = "0.4"
+
 ["0.4-0"]
 DiskArrays = "0.1"
 OffsetArrays = ["0.11", "1"]
 julia = "1.2.0-1"
+
+["0.4.1-0"]
+AWSSDK = "0.4-0.5"
+CodecZlib = "0.6"
