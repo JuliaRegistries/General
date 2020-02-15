@@ -1,7 +1,6 @@
 [0]
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
 CodeTracking = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
@@ -14,3 +13,10 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
+
+["0-0.4"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
+["0.5-0"]
+Config = "9d05fc2c-525b-11e9-1a36-8f70a3e496dc"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
