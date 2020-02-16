@@ -1,11 +1,9 @@
 [0]
 AbstractPlotting = "537997a7-5e4e-5d89-9595-2241ea00577e"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-FreqTables = "da1fdf0e-e0ff-5433-a45f-9bb5ff651cb1"
 IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
 KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
 Loess = "4345ca2d-374a-55d4-8d30-97f9976e7612"
-NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
 Observables = "510215fc-4207-5dde-b226-833fc4488ee2"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
@@ -18,8 +16,14 @@ IndexedTables = "6deec6e2-d858-57c5-ab9b-e6ca5bd20e43"
 ["0-0.0.4"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0.0"]
+FreqTables = "da1fdf0e-e0ff-5433-a45f-9bb5ff651cb1"
+NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
+
 ["0.0.2-0"]
+StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
+
+["0.0.2-0.0"]
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
-StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 Widgets = "cc8bc4a8-27d6-5769-a93b-9d913e69aa62"
