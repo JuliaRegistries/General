@@ -18,9 +18,16 @@ julia = "1.1-1"
 BinaryProvider = "0.3.0-*"
 CEnum = "0.2.0-*"
 
-["0.9.1-0"]
+["0.9.1-0.9.2"]
 julia = "1.1.0-1"
 
-["0.9.2-0"]
+["0.9.2"]
 BinaryProvider = "0.5"
+
+["0.9.2-0"]
 CEnum = "0.2"
+
+["0.9.3-0"]
+DataStructures = "0.17"
+LLVM_jll = "6.0.1-6"
+julia = "1.3"
