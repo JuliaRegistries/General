@@ -1,6 +1,5 @@
 [0]
 IterTools = "1"
-JuMP = "0.20"
 LightGraphs = "1"
 Munkres = "0.2"
 julia = "1"
@@ -12,6 +11,9 @@ DataStructures = "0.17-0.19"
 Distributions = "0.16"
 Hungarian = "0.3"
 
+["0-0.1.2"]
+JuMP = "0.20"
+
 ["0.1.1"]
 DataStructures = "0.16"
 
@@ -19,3 +21,6 @@ DataStructures = "0.16"
 DataStructures = "0.16-0.17"
 Distributions = "0.16-0.22"
 Hungarian = "0.3-0.6"
+
+["0.1.3-0"]
+JuMP = "0.21"
