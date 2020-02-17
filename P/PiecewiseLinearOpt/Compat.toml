@@ -1,4 +1,10 @@
 [0]
+julia = "1"
+
+["0-0.2"]
 JuMP = "0.19"
 MathOptInterface = "0.8"
-julia = "1"
+
+["0.3-0"]
+JuMP = "0.19.0-*"
+MathOptInterface = "0.8.0-*"
