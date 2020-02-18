@@ -7,6 +7,12 @@ julia = "0.6-1"
 ["0-0.9.1"]
 BinDeps = "0.4-0"
 
+["0.10-0"]
+BinDeps = ["0.8", "1"]
+CFTime = ["0.0.3", "0.1", "1"]
+CondaBinDeps = "0.1-0.2"
+julia = "1"
+
 ["0.9.0"]
 DataStructures = "0"
 
@@ -19,13 +25,15 @@ julia = ["0.7.0", "1"]
 ["0.9.2-0.9.4"]
 BinDeps = "0.4.0-*"
 
-["0.9.3-0"]
+["0.9.3-0.9"]
 julia = ["0.7", "1"]
 
 ["0.9.5-0"]
+DataStructures = "0.17"
+
+["0.9.5-0.9"]
 BinDeps = "0.8"
 CFTime = "0.0.3"
 Compat = "2"
 CondaBinDeps = "0.1"
-DataStructures = "0.17"
 Missings = "0.4"
