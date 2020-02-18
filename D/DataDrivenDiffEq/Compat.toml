@@ -1,11 +1,19 @@
 [0]
 Compat = "2.2.0-3"
-Convex = "0.12"
-GLPKMathProgInterface = "0.4"
 julia = "1"
 
 ["0-0.1.0"]
 ModelingToolkit = "0.9-0.10"
 
-["0.1.1-0"]
+["0-0.1.1"]
+Convex = "0.12"
+GLPKMathProgInterface = "0.4"
+
+["0.1.1"]
 ModelingToolkit = ["0.9-0.10", "1"]
+
+["0.1.2-0"]
+ModelingToolkit = "1.2.5-1"
+ProximalOperators = "0.10"
+QuadGK = "2.3.1-2"
+StatsBase = "0.32"
