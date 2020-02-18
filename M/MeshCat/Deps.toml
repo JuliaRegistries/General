@@ -3,13 +3,19 @@ Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 GeometryTypes = "4d00f742-c7ba-57c2-abde-4428a4b178cb"
-JSExpr = "97c1335a-c9c5-57fe-bc5d-ec35cebe8660"
 MsgPack = "99f44e22-a591-53d1-9472-aa23ef4bd671"
 Mux = "a975b10e-0019-58db-a62f-e48ff68538c9"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.9"]
+JSExpr = "97c1335a-c9c5-57fe-bc5d-ec35cebe8660"
 WebIO = "0f1e0344-ec1d-5b48-a673-e5cf874b6c29"
+
+["0.10-0"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+WebSockets = "104b5d7c-a370-577a-8038-80a2059c5097"
 
 ["0.2-0"]
 BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
@@ -17,7 +23,7 @@ BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 ["0.2-0.6"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
-["0.2.2-0"]
+["0.2.2-0.9"]
 AssetRegistry = "bf4720bc-e11a-5d0c-854e-bdca1663c893"
 
 ["0.3"]
@@ -42,6 +48,8 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ["0.8-0"]
 Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
 
-["0.9-0"]
+["0.9"]
 Blink = "ad839575-38b3-5650-b840-f874b8c74a25"
+
+["0.9-0"]
 FFMPEG = "c87230d0-a227-11e9-1b43-d7ebe4e7570a"
