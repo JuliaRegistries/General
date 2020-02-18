@@ -72,14 +72,14 @@ Unitful = "0.7.0-*"
 ["0.2.3-0"]
 PowerSystemsUnits = "0.2"
 
-["0.2.4-0"]
-JuMP = "0.19.1-0.20"
-
 ["0.2.4-0.2.5"]
 DataFrames = "0.19.0-*"
 
 ["0.2.4-0.3.0"]
 InfrastructureModels = "0.2-0.3"
+
+["0.2.4-0.4.0"]
+JuMP = "0.19.1-0.20"
 
 ["0.2.5-0"]
 MathOptInterface = "0.7-0.9"
@@ -102,5 +102,10 @@ InfrastructureModels = "0.4"
 PowerModels = "0.14.3-0.14"
 
 ["0.4-0"]
-Compat = "2.2"
 PowerModels = "0.15"
+
+["0.4.0"]
+Compat = "2.2"
+
+["0.4.1-0"]
+JuMP = "0.19.1-0.21"
