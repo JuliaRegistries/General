@@ -1,7 +1,15 @@
 [1]
+Interpolations = "0"
+NetCDF = "0"
+
+["1-1.0.2"]
 ArgParse = "0"
 Compat = "0-2"
 FFTW = "0"
-Interpolations = "0"
-NetCDF = "0"
 julia = "0.6-1"
+
+["1.0.3-1"]
+ArgParse = "0-1"
+Compat = "0-3"
+FFTW = "0-1"
+julia = ["0.7", "1"]
