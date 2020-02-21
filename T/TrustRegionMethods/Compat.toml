@@ -1,5 +1,4 @@
 [0]
-ArgCheck = "1"
 DiffResults = "1"
 DocStringExtensions = "0.8"
 ForwardDiff = "0.10"
@@ -8,6 +7,12 @@ UnPack = "0.1"
 ["0-0.1"]
 julia = "1.1.0-1"
 
+["0-0.3.0"]
+ArgCheck = "1"
+
 ["0.2-0"]
 KrylovKit = "0.4"
 julia = "1.2.0-1"
+
+["0.3.1-0"]
+ArgCheck = "1-2"
