@@ -17,7 +17,7 @@ If you are registering a new package, please make sure that you have read the [p
 ## Registering a package in General
 
 New packages and new versions of packages are added the General registry by pull requests
-against this GitHub repository. It is *highly recommended* that you use
+against this GitHub repository. It is ***highly recommended*** that you use
 [Registrator.jl][registrator] to automate this process. Registrator can either be used as a
 [GitHub App][registrator-app] or through a [web interface][registrator-web], as decribed in
 the [Registrator README][registrator-readme].
@@ -27,7 +27,7 @@ requests that meet certain guidelines is merged automatically, see
 [Automatic merging of pull requests](#automatic-merging-of-pull-requests). Other pull
 requests need to be manually reviewed and merged by a human.
 
-It is recommended to also use [TagBot][tagbot], which automatically tags a release in your
+It is ***highly recommended*** to also use [TagBot][tagbot], which automatically tags a release in your
 repository after the new release of your package is merged into the registry.
 
 ### Automatic merging of pull requests
