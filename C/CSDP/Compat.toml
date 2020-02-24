@@ -30,6 +30,11 @@ MathOptInterface = "0.9"
 MathOptInterface = "0.9.1-0.9"
 
 ["0.5.2-0"]
-BinDeps = "0.8"
 Glob = "1.2.0-1"
 MathOptInterface = "0.9.5-0.9"
+
+["0.5.2-0.5.3"]
+BinDeps = "0.8"
+
+["0.5.4-0"]
+BinDeps = ["0.8-0.9", "1"]
