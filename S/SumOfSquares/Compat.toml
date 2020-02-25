@@ -38,18 +38,31 @@ MultivariateMoments = "0.2.1-*"
 PolyJuMP = "0.3.1-0.3"
 
 ["0.3.4-0"]
-MultivariatePolynomials = "0.3"
 SemialgebraicSets = "0.2"
+
+["0.3.4-0.3"]
+MultivariatePolynomials = "0.3"
 
 ["0.3.5"]
 MathOptInterface = "0.9.1-0.9"
 PolyJuMP = "0.3.3-0.3"
 
-["0.3.5-0"]
+["0.3.5-0.3"]
 JuMP = "0.20"
 
 ["0.3.6-0"]
+Reexport = "0.2"
+
+["0.3.6-0.3"]
 MathOptInterface = "0.9.7-0.9"
 MultivariateMoments = "0.2.3-0.2"
 PolyJuMP = "0.3.4-0.3"
-Reexport = "0.2"
+
+["0.4-0"]
+JuMP = "0.21"
+MathOptInterface = "0.9.9-0.9"
+MultivariateBases = "0.1.2-0.1"
+MultivariateMoments = "0.3"
+MultivariatePolynomials = "0.3.5-0.3"
+MutableArithmetics = "0.2"
+PolyJuMP = "0.4"
