@@ -8,14 +8,20 @@ Hyperscript = "0.0.3-*"
 AssetRegistry = "0.1"
 HTTP = "0.8"
 Hyperscript = "0.0.3"
-Observables = "0.2.3-0.2"
 WebSockets = "1.5.0-1"
 
 ["0.2-0.3.7"]
 JSON3 = "0.1"
+
+["0.2-0.3.8"]
+Observables = "0.2.3-0.2"
 
 ["0.3-0"]
 MsgPack = "1.1.0-1"
 
 ["0.3.8-0"]
 JSON3 = ["0.1", "1"]
+
+["0.3.9-0"]
+Observables = "0.2.3-0.3"
+WidgetsBase = "0.1"
