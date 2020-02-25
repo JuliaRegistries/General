@@ -13,8 +13,13 @@ PyCall = "1.90.0-*"
 Tables = "0.1.12-*"
 TypedTables = "1.1.0-*"
 
+["0.2.1"]
+Tables = "0.2"
+
 ["0.2.1-0"]
 ArraysOfArrays = "0.3-0.4"
 PyCall = "1.9.0-1"
-Tables = "0.2"
 TypedTables = "1.1.0-1"
+
+["0.2.2-0"]
+Tables = ["0.2", "1"]
