@@ -31,11 +31,9 @@ julia = "1.0.0-1"
 ColorBrewer = "0.4"
 Contour = "0.5"
 DocStringExtensions = "0.8"
-FFMPEG = "0.2"
 FileIO = "1.1.0-1"
 GeometryTypes = "0.7.2-0.7"
 ImageMagick = ["0.7", "1"]
-Observables = "0.2"
 Packing = "0.3"
 Showoff = "0.3"
 SignedDistanceFields = "0.4"
@@ -57,6 +55,10 @@ FreeType = "2.1.0-2"
 FreeTypeAbstraction = "0.4.2-0.4"
 IntervalSets = "0.3"
 
+["0.9.11-0.9.21"]
+FFMPEG = "0.2"
+Observables = "0.2"
+
 ["0.9.14-0"]
 ColorSchemes = "3.5.0-3"
 
@@ -74,11 +76,18 @@ PlotUtils = "0.6.2-0.6"
 ["0.9.18-0"]
 FixedPointNumbers = "0.6-0.8"
 FreeType = "2.1.0-3"
-FreeTypeAbstraction = "0.4.2-0.5"
 IntervalSets = "0.3-0.4"
+
+["0.9.18-0.9.21"]
+FreeTypeAbstraction = "0.4.2-0.5"
 
 ["0.9.2-0.9.7"]
 ImageMagick = "0"
+
+["0.9.22-0"]
+FFMPEG = "0.2-0.3"
+FreeTypeAbstraction = "0.6"
+Observables = "0.3"
 
 ["0.9.8-0.9.10"]
 FreeTypeAbstraction = "0.4.2-*"
