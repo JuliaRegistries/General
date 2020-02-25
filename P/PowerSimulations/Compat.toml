@@ -13,13 +13,19 @@ julia = "1"
 CSV = "0.5"
 DataFrames = "0.20"
 Feather = "0.5.3-0.5"
-InfrastructureSystems = "0.5.1-0.5"
 JSON = "0.21"
 JuMP = "0.21"
 MathOptInterface = "0.9.9-0.9"
 ParameterJuMP = "0.2"
 PowerModels = "0.15"
-PowerSystems = "0.10"
 TimeSeries = "0.16"
 TimerOutputs = "0.5"
 julia = "1.2.0-1"
+
+["0.2.0"]
+InfrastructureSystems = "0.5.1-0.5"
+PowerSystems = "0.10"
+
+["0.2.1-0"]
+InfrastructureSystems = "0.5"
+PowerSystems = "0.11"
