@@ -5,11 +5,13 @@ ProgressMeter = "0"
 julia = ["0.7", "1"]
 
 ["0.2.2-0"]
-ProgressMeter = "1"
 julia = "1"
 
 ["0.2.2-0.2.3"]
 BenchmarkTools = "0.4"
+
+["0.2.2-0.2.7"]
+ProgressMeter = "1"
 
 ["0.2.5-0.2.6"]
 BenchmarkTools = "0.4.3-0.4"
@@ -17,3 +19,6 @@ BenchmarkTools = "0.4.3-0.4"
 ["0.2.7-0"]
 BenchmarkTools = "0.4.3-0.5"
 JSON = "0.21"
+
+["0.2.8-0"]
+TerminalLoggers = "0.1"
