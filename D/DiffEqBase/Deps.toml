@@ -7,12 +7,14 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 FunctionWrappers = "069b7b12-0de2-55c6-9aab-29f3d0a68a2e"
 
 [3-6]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 IteratorInterfaceExtensions = "82899510-4779-5014-852e-03e436cf321d"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 TableTraits = "3783bdb8-4a98-5b6b-af9a-565f29a5fe9c"
+
+["3-6.17"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
 ["3.13.3-3"]
 LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
