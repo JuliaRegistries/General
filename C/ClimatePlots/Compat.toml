@@ -2,7 +2,6 @@
 AxisArrays = "0.3-0.4"
 BinDeps = ["0.4-0.8", "1"]
 Conda = "1"
-NetCDF = "0.8"
 PyCall = "1.91.0-1"
 PyPlot = "2.7.0-2"
 Reexport = "0.2"
@@ -14,10 +13,17 @@ ClimateBase = "0.1"
 ClimateTools = "0.16"
 CondaBinDeps = "0.1"
 
+["0-0.2.1"]
+NetCDF = "0.8"
+
 ["0.2-0"]
 ClimateBase = "0.1-0.2"
 ClimateTools = "0.16-0.18"
 CondaBinDeps = "0.1-0.2"
 
-["0.2.1-0"]
+["0.2.1"]
 CFTime = "0.0.3"
+
+["0.2.2-0"]
+CFTime = ["0.0.3", "0.1"]
+NetCDF = "0.8-0.9"
