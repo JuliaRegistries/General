@@ -20,14 +20,23 @@ DataFrames = "0.19"
 GR = "0.42"
 
 ["1.0.1-1"]
-CustomUnitRanges = "0.2"
 FinEtools = "3-4"
 Interpolations = "0.12"
-OffsetArrays = "0.11"
 Reexport = "0.2"
+
+["1.0.1-1.0.2"]
+CustomUnitRanges = "0.2"
+OffsetArrays = "0.11"
+
+["1.0.2"]
+GR = "0.44"
 
 ["1.0.2-1"]
 Compat = "2.2.0-3"
 DataFrames = "0.20"
-GR = "0.44"
 PtFEM = "1.2.0-1"
+
+["1.0.3-1"]
+CustomUnitRanges = "1"
+GR = "0.47"
+OffsetArrays = ["0.11", "1"]
