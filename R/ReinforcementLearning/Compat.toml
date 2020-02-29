@@ -1,4 +1,8 @@
-[0]
+["0-0.2"]
+PyCall = "0-1"
+julia = "0.6-1"
+
+["0-0.3"]
 Colors = "0"
 Compat = "0-2"
 DataFrames = "0"
@@ -11,11 +15,15 @@ Parameters = "0"
 Requires = "0"
 StatsBase = "0"
 
-["0-0.2"]
-PyCall = "0-1"
-julia = "0.6-1"
-
-["0.3-0"]
+["0.3"]
 ReinforcementLearningBase = "0"
 ReinforcementLearningEnvironmentDiscrete = "0"
 julia = "1"
+
+["0.4-0"]
+Reexport = "0.2"
+ReinforcementLearningBase = "0.6"
+ReinforcementLearningCore = "0.2"
+ReinforcementLearningEnvironments = "0.2"
+ReinforcementLearningZoo = "0.1"
+julia = "1.3.0-1"
