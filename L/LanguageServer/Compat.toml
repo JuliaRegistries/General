@@ -15,14 +15,23 @@ JSON = "0.20"
 StaticLint = "0.2.1-0.2"
 Tokenize = "0.5.5-0.5"
 
-["0.6-1"]
+["0.6-2"]
 URIParser = "0.4"
 julia = "1"
 
 [1]
 CSTParser = "1"
 DocumentFormat = "1.0.1-1"
-JSON = "0.20-0.21"
 StaticLint = "1.0.2-1"
 SymbolServer = "1.0.1-1"
 Tokenize = "0.5.6-0.5"
+
+[1-2]
+JSON = "0.20-0.21"
+
+[2]
+CSTParser = "2.2.0-2"
+DocumentFormat = "2.1.0-2"
+StaticLint = "3.1.0-3"
+SymbolServer = "3.1.0-3"
+Tokenize = "0.5.7-0.5"
