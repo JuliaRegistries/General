@@ -19,7 +19,7 @@ julia = "1"
 ["0.3"]
 IRTools = "0.2"
 
-["0.3-0"]
+["0.3-0.4.8"]
 NNlib = "0.6"
 
 ["0.3.3-0.3"]
@@ -27,7 +27,6 @@ ZygoteRules = "0.1"
 
 ["0.4-0"]
 FFTW = "1"
-FillArrays = "0"
 IRTools = "0.3"
 ZygoteRules = "0.2"
 
@@ -41,6 +40,9 @@ SpecialFunctions = "0.0-0.8"
 ["0.4-0.4.2"]
 Requires = "0.5"
 
+["0.4-0.4.8"]
+FillArrays = "0"
+
 ["0.4.2"]
 DiffRules = "0.0-0.1"
 
@@ -53,3 +55,8 @@ SpecialFunctions = "0"
 ["0.4.3-0"]
 DiffRules = ["0.0-0.1", "1"]
 Requires = ["0.5", "1"]
+
+["0.4.9-0"]
+ArrayLayouts = "0.1"
+FillArrays = "0.8"
+NNlib = "0.6.5-0.6"
