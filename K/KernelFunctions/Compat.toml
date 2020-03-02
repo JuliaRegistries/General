@@ -6,11 +6,13 @@ Distances = "0.8.2-0.8"
 PDMats = "0.9.9-0.9"
 SpecialFunctions = "0.7.2-0.7"
 
-["0.2-0"]
+["0.2"]
 StatsFuns = "0.8"
 
 ["0.2.1-0"]
 Distances = "0.8"
+
+["0.2.1-0.2"]
 PDMats = "0.9"
 
 ["0.2.1-0.2.3"]
@@ -19,9 +21,18 @@ SpecialFunctions = "0"
 ["0.2.3"]
 Zygote = "0.4"
 
-["0.2.3-0"]
+["0.2.3-0.2"]
 Compat = "2.2.0-2"
 
 ["0.2.4-0"]
-SpecialFunctions = "0.8-0.9"
 ZygoteRules = "0.2"
+
+["0.2.4-0.2"]
+SpecialFunctions = "0.8-0.9"
+
+["0.3-0"]
+Compat = "2.2.0-3"
+Requires = "1.0.1-1"
+SpecialFunctions = "0.8-0.10"
+StatsBase = "0.32"
+StatsFuns = "0.8-0.9"
