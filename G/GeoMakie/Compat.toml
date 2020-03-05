@@ -4,7 +4,6 @@ Colors = "0"
 EarCut = "1"
 GeoInterface = "0.5"
 GeoJSON = "0.5"
-GeometryTypes = "0.7"
 Glob = "1"
 ImageMagick = "1"
 NASAEarthObservations = "0"
@@ -16,6 +15,9 @@ julia = "1.1.0-1"
 
 ["0-0.1.3"]
 Proj4 = "0.6"
+
+["0-0.1.4"]
+GeometryTypes = "0.7"
 
 ["0.1.1-0"]
 StructArrays = "0.4"
@@ -29,3 +31,6 @@ MakieLayout = "0.2"
 ["0.1.4-0"]
 MakieLayout = "0.2-0.3"
 Proj4 = "0"
+
+["0.1.5-0"]
+GeometryTypes = "0.7-0.8"
