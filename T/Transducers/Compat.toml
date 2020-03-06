@@ -23,6 +23,10 @@ Tables = ["0.2", "1"]
 ["0.4.19-0"]
 ArgCheck = "1-2"
 
+["0.4.22-0"]
+BangBang = "0.3.18-0.3"
+SplittablesBase = "0.1"
+
 ["0.4.3"]
 BangBang = "0.2-0.3"
 
@@ -42,8 +46,10 @@ InitialValues = "0.2"
 BangBang = "0.3.2-0.3"
 
 ["0.4.5-0"]
-BangBang = "0.3.7-0.3"
 Requires = ["0.5", "1"]
+
+["0.4.5-0.4.21"]
+BangBang = "0.3.7-0.3"
 
 ["0.4.7-0.4.17"]
 Tables = "0.2"
