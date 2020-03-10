@@ -8,9 +8,18 @@ julia = ["0.7", "1"]
 julia = "1"
 
 ["2.0.4-2"]
+YAML = "0.3.2-0.4"
+
+["2.0.4-2.0.5"]
 CSV = "0.5.14-0.6"
 CategoricalArrays = "0.7.1-0.8"
 DataFrames = "0.19.4-0.20"
 Parsers = "0.3.7-0.4"
 Tables = "0.2.11-0.3"
-YAML = "0.3.2-0.4"
+
+["2.0.6-2"]
+CSV = "0.5.26-0.6"
+CategoricalArrays = "0.7.7-0.8"
+DataFrames = "0.20.2-0.21"
+Parsers = "0.3.12-0.4"
+Tables = "1.0.3-2"
