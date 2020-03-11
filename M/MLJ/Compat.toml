@@ -5,6 +5,11 @@ julia = "1"
 MLJBase = "0.1.1-0"
 MLJModels = "0.1.1-0"
 
+["0.10-0"]
+MLJBase = "0.12"
+MLJModels = "0.9"
+MLJTuning = "0.2"
+
 ["0.2"]
 MLJModels = "0.2"
 
@@ -114,8 +119,10 @@ MLJBase = "0.11"
 MLJBase = "0.11.5-0.11"
 
 ["0.9.2-0"]
+MLJScientificTypes = "0.2.1-0.2"
+Tables = ["0.2", "1"]
+
+["0.9.2-0.9"]
 MLJBase = "0.11.9-0.11"
 MLJModels = "0.8.2-0.8"
-MLJScientificTypes = "0.2.1-0.2"
 MLJTuning = "0.1.4-0.1"
-Tables = ["0.2", "1"]
