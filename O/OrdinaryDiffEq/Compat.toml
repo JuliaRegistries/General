@@ -118,7 +118,7 @@ Parameters = "0.10-0.11"
 ["5.16-5.17"]
 DiffEqBase = "6"
 
-["5.17-5"]
+["5.17-5.29.0"]
 Parameters = "0.10-0.12"
 
 ["5.18-5.23"]
@@ -138,10 +138,12 @@ SparseDiffTools = "0.10"
 
 ["5.24-5"]
 ArrayInterface = "1.1.0-2"
-SparseDiffTools = ["0.10", "1"]
 
 ["5.24-5.26"]
 DiffEqBase = "6.5.0-6"
+
+["5.24-5.29.0"]
+SparseDiffTools = ["0.10", "1"]
 
 ["5.27"]
 DiffEqBase = "6.11.0-6"
@@ -155,8 +157,14 @@ DiffEqBase = "6.13.0-6"
 ["5.28-5"]
 FiniteDiff = "2"
 
-["5.29-5"]
+["5.29.0"]
 DiffEqBase = "6.15.0-6"
+
+["5.29.2-5"]
+DiffEqBase = "6.21.0-6"
+NLsolve = "4.3.0-4"
+SparseDiffTools = "1.4.0-1"
+UnPack = "0.1"
 
 ["5.4"]
 DiffEqBase = "5.5.1-5"
