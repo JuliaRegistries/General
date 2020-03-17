@@ -21,23 +21,35 @@ Unitful = "0"
 ["0.3-0"]
 ArraysOfArrays = "0.4"
 Clustering = "0.13"
-Distributions = "0.21"
 FillArrays = "0.8"
 Formatting = "0.4"
 Interpolations = "0.12"
-IntervalSets = "0.3"
 JSON = "0.21"
 LaTeXStrings = "1"
-NamedTupleTools = "0.12"
 ParallelProcessingTools = "0.4"
 ProgressMeter = "1.2.0-1"
 RadiationDetectorSignals = "0.1"
+StaticArrays = "0.12"
+StatsBase = "0.32"
+TypedTables = "1.2.0-1"
+YAML = "0.3"
+
+["0.3.0"]
+Distributions = "0.21"
+IntervalSets = "0.3"
+NamedTupleTools = "0.12"
 RecipesBase = "0.7"
 Requires = "0.5"
 Rotations = "0.12"
-StaticArrays = "0.12"
-StatsBase = "0.32"
 Tables = "0.2"
-TypedTables = "1.2.0-1"
 Unitful = "0.18"
-YAML = "0.3"
+
+["0.3.1-0"]
+Distributions = "0.21-0.22"
+IntervalSets = "0.3-0.4"
+NamedTupleTools = "0.12-0.13"
+RecipesBase = "0.7-0.8"
+Requires = ["0.5", "1"]
+Rotations = "0.12-0.13"
+Tables = ["0.2", "1"]
+Unitful = ["0.18", "1"]
