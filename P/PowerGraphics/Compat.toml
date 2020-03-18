@@ -1,13 +1,21 @@
 [0]
-Colors = "0.11"
 DataFrames = "0.20"
-GR = "0.47"
 InfrastructureSystems = "0.5"
-ORCA = "0.3"
 PlotlyJS = "0.13"
 Plots = "0.29"
-PowerSystems = "0.11"
 RecipesBase = "0.8"
 Weave = "0.9"
-WebIO = "0.8"
 julia = "1"
+
+["0-0.1"]
+Colors = "0.11"
+GR = "0.47"
+ORCA = "0.3"
+PowerSystems = "0.11"
+WebIO = "0.8"
+
+["0.2-0"]
+Colors = "0.11-0.12"
+GR = "0.47-0.48"
+PowerSystems = "0.12"
+Reexport = "0.2"
