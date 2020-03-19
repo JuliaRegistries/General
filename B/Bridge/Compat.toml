@@ -9,10 +9,18 @@ julia = ["0.7", "1"]
 julia = "1.0.0-1"
 
 ["0.11-0"]
+Polynomials = "0.6"
+StaticArrays = "0.12"
+julia = "1"
+
+["0.11.0"]
 Colors = "0.11"
 Distributions = "0.22"
-Polynomials = "0.6"
 RecipesBase = "0.7"
-StaticArrays = "0.12"
 Trajectories = "0.1"
-julia = "1"
+
+["0.11.1-0"]
+Colors = "0.9-0.12"
+Distributions = "0.22-0.23"
+RecipesBase = "0.7-0.8"
+Trajectories = "0.1-0.2"
