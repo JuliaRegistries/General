@@ -44,13 +44,13 @@ VectorizationBase = "0.1.9-0.1"
 ["0.3.7-0.3.8"]
 SIMDPirates = "0.1.6-0.1"
 
-["0.3.9-0"]
-Parameters = "0"
-
 ["0.3.9-0.3"]
 SIMDPirates = "0"
 SLEEFPirates = "0"
 VectorizationBase = "0"
+
+["0.3.9-0.6.21"]
+Parameters = "0"
 
 ["0.3.9-0.6.5"]
 MacroTools = "0"
@@ -127,9 +127,15 @@ SIMDPirates = "0.6.4-0.6"
 SIMDPirates = "0.6.5-0.6"
 VectorizationBase = "0.7"
 
-["0.6.21-0"]
+["0.6.21"]
 SIMDPirates = "0.6.6-0.6"
 VectorizationBase = "0.7.1-0.7"
+
+["0.6.22-0"]
+OffsetArrays = "1"
+SIMDPirates = "0.7.3-0.7"
+UnPack = "0"
+VectorizationBase = "0.9.3-0.9"
 
 ["0.6.4-0.6.10"]
 VectorizationBase = "0.2.5-0.4"
