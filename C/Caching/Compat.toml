@@ -6,16 +6,25 @@ CodecBzip2 = "0"
 CodecZlib = "0"
 TranscodingStreams = "0"
 
-["0.1-0"]
+["0.1"]
 julia = "1"
 
 ["0.1.0"]
 DataStructures = "0"
 MacroTools = "0"
 
-["0.1.2-0"]
+["0.1.2-0.1"]
 CodecBzip2 = ["0.5", "0.8"]
 CodecZlib = ["0.5.2-0.5", "0.8"]
 DataStructures = ["0.15", "1"]
 MacroTools = ["0.5", "1"]
 TranscodingStreams = ["0.9.3-0.9", "1"]
+
+["0.2-0"]
+CodecBzip2 = "0.7"
+CodecLz4 = "0.4"
+CodecZlib = "0.7"
+DataStructures = "0"
+MacroTools = "0.5"
+TranscodingStreams = "0.9.3-0.9"
+julia = "1.3.0-1"
