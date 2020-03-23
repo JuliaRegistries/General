@@ -1,6 +1,20 @@
 [0]
 julia = "1"
 
+["0-0.1"]
+DataFrames = "0.0.0 - 0.20"
+
+["0-0.2.1"]
+CSV = "0.0.0 - 0.5"
+
+["0-0.2.2"]
+CategoricalArrays = "0.0.0 - 0.5"
+
+["0-0.7.0"]
+Distributions = "0.0.0 - 0.21"
+StatsBase = "0.0.0 - 0.32"
+Tables = "0.0.0 - 0.2"
+
 ["0.10"]
 PrettyTables = "0.6"
 ScientificTypes = "0.5.1-0.5"
@@ -39,14 +53,14 @@ JLSO = "2.1.0-2"
 ["0.12.4-0"]
 Distributions = "0.22-0.23"
 
-["0.2.1-0.7.0"]
-Tables = ["0.0.0-0.1.18", "0.2.0-*"]
-
 ["0.2.2-0.2"]
 CSV = "0.5"
 
 ["0.2.3-0.6"]
 CategoricalArrays = "0.0.0-0.5.2"
+
+["0.2.4-0.3"]
+ColorTypes = "0.0.0 - 0.10"
 
 ["0.3-0.7.3"]
 Requires = "0.5.2-0.5"
@@ -54,11 +68,17 @@ Requires = "0.5.2-0.5"
 ["0.4"]
 ScientificTypes = "0.1.2-0.1"
 
+["0.4-0.7.0"]
+OrderedCollections = "0.0.0 - 1"
+
 ["0.5-0.8.3"]
 ScientificTypes = "0.2"
 
 ["0.7-0.7.3"]
 CategoricalArrays = ["0.0.0-0.5.2", "0.7"]
+
+["0.7.0"]
+Missings = "0.0.0 - 0.4"
 
 ["0.7.1-0"]
 OrderedCollections = "1.1.0-1"
