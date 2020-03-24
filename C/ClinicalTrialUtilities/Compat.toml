@@ -19,7 +19,6 @@ Roots = "0"
 
 ["0.2-0"]
 QuadGK = "2"
-Roots = "0.7-0.8"
 SpecialFunctions = "0.8-0.9"
 StatsBase = "0.22-0.32"
 
@@ -29,11 +28,20 @@ Distributions = "0.16-0.21"
 ["0.2-0.2.2"]
 DataFrames = "0.19"
 
+["0.2-0.2.3"]
+Roots = "0.7-0.8"
+
 ["0.2.2-0"]
-Distributions = "0.16-0.22"
 RecipesBase = "0.7"
+
+["0.2.2-0.2.3"]
+Distributions = "0.16-0.22"
 
 ["0.2.3-0"]
 CSV = "0.5"
 DataFrames = "0.19-0.20"
 Reexport = "0.1-0.2"
+
+["0.2.4-0"]
+Distributions = "0.16-0.23"
+Roots = ["0.7-0.8", "1"]
