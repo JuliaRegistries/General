@@ -18,8 +18,6 @@ LogDensityProblems = "0.9"
 MCMCChains = "0.3.15-0.3"
 
 ["0.5.4-0"]
-AdvancedHMC = "0.2.13-0.2"
-BenchmarkTools = "0.4"
 CSV = "0.5"
 DynamicHMC = "2.1.0-2"
 FillArrays = "0.8"
@@ -28,7 +26,6 @@ MCMCDiagnostics = "0.3"
 Parameters = "0.12"
 Reexport = "0.2"
 Revise = "2.2.0-2"
-StatsPlots = "0.12-0.13"
 Tracker = "0.2"
 TransformVariables = "0.3"
 
@@ -38,13 +35,30 @@ Distributions = "0.21"
 SpecialFunctions = "0.8-0.9"
 Turing = "0.7.3-0.7"
 
+["0.5.4-0.6"]
+AdvancedHMC = "0.2.13-0.2"
+BenchmarkTools = "0.4"
+StatsPlots = "0.12-0.13"
+
 ["0.5.5-0"]
 DataFrames = "0.19-0.20"
 LogDensityProblems = "0.9-0.10"
+
+["0.5.5-0.6"]
 MCMCChains = ["0.3.15-0.4", "1"]
+
+["0.6"]
+Distributions = "0.21-0.22"
+Turing = "0.7.3-0.8"
 
 ["0.6-0"]
 CmdStan = "5.2.0-6"
-Distributions = "0.21-0.22"
 SpecialFunctions = "0.8-0.10"
-Turing = "0.7.3-0.8"
+
+["0.7-0"]
+AdvancedHMC = "0.2"
+Distributions = "0.21-0.23"
+MCMCChains = "3"
+Requires = "1"
+StatsPlots = "0.12-0.14"
+Turing = "0.9"
