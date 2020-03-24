@@ -4,7 +4,6 @@ Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Libtask = "6f1fad26-d15e-5dc8-ae53-837a1d7b8c9f"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
@@ -24,6 +23,9 @@ Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 
 ["0-0.6.9"]
 MCMCChain = "1671dc4f-43c8-512c-ab25-e1704a74065e"
+
+["0-0.9.0"]
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
 ["0.5.1-0"]
 Bijectors = "76274a88-744f-5084-9051-94815aaf08c4"
@@ -77,3 +79,8 @@ DynamicPPL = "366bfd00-2699-11ea-058f-f148b4cae6d8"
 ["0.9-0"]
 AdvancedMH = "5b7e9947-ddc0-4b3f-9b55-0d8042f74170"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0.9.1-0"]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+EllipticalSliceSampling = "cad2338a-1db2-11e9-3401-43bc07c9ede2"
+ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
