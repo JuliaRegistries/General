@@ -7,6 +7,12 @@ NLPModels = "0.8"
 SolverTools = "0.1.0-*"
 
 ["0.2-0"]
+SolverTools = "0.1.4-0.1"
+
+["0.2.0"]
 KNITRO = "0.7.2-0.7"
 NLPModels = ["0.10", "1"]
-SolverTools = "0.1.4-0.1"
+
+["0.2.1-0"]
+KNITRO = "0.7.2-0.8"
+NLPModels = ["0.10-0.12", "1"]
