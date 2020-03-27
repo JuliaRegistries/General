@@ -19,13 +19,15 @@ ElasticArrays = "1"
 ArraysOfArrays = "0.4"
 EmpiricalDistributions = "0.1"
 FillArrays = "0.7-0.8"
-StatsBase = "0.32"
 
 ["0.6-0.6.1"]
 IntervalSets = "0.3"
 
 ["0.6-0.6.2"]
 Tables = "0.2"
+
+["0.6-0.6.4"]
+StatsBase = "0.32"
 
 ["0.6.0"]
 Distributions = "0.0.0-1"
@@ -42,3 +44,6 @@ Tables = ["0.2", "1"]
 
 ["0.6.4-0"]
 Distributions = "0.21-0.23"
+
+["0.6.5-0"]
+StatsBase = "0.32-0.33"
