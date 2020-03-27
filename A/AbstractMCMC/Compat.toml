@@ -1,9 +1,11 @@
 [0]
-StatsBase = "0.32"
 julia = "1"
 
 ["0-0.2"]
 ProgressMeter = "1.2"
+
+["0-0.5.5"]
+StatsBase = "0.32"
 
 ["0.3-0.4"]
 ProgressMeter = "1.2.0-1"
@@ -15,3 +17,6 @@ ProgressLogging = "0.1"
 ConsoleProgressMonitor = "0.1"
 LoggingExtras = "0.4"
 TerminalLoggers = "0.1"
+
+["0.5.6-0"]
+StatsBase = "0.32-0.33"
