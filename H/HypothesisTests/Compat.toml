@@ -19,12 +19,19 @@ julia = ["0.7", "1"]
 ["0.9-0"]
 Combinatorics = "1"
 Rmath = "0.5-0.6"
+julia = "1"
+
+["0.9-0.9.1"]
 Roots = "0.7-0.8"
 StatsBase = "0.27-0.32"
-julia = "1"
 
 ["0.9.0"]
 Distributions = "0.19-0.21"
 
-["0.9.1-0"]
+["0.9.1"]
 Distributions = "0.19-0.22"
+
+["0.9.2-0"]
+Distributions = "0.19-0.23"
+Roots = ["0.7-0.8", "1"]
+StatsBase = "0.27-0.33"
