@@ -41,8 +41,10 @@ Distributions = "0.21"
 Reexport = "0.2"
 
 ["1.0.1-2"]
-CSV = "0.5"
 julia = "1"
+
+["1.0.1-2.0.1"]
+CSV = "0.5"
 
 ["1.1-1"]
 StanSample = "1.1.0-1"
@@ -64,11 +66,17 @@ MCMCChains = "1"
 DataFrames = "0.20"
 
 [2]
-Distributions = "0.22"
 StanSample = "2"
+
+["2-2.0.1"]
+Distributions = "0.22"
 
 ["2.0.0"]
 MCMCChains = "2"
 
 ["2.0.1-2"]
 MCMCChains = "3"
+
+["2.0.2-2"]
+CSV = "0.5-0.6"
+Distributions = "0.22-0.23"
