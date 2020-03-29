@@ -1,14 +1,21 @@
 [0]
 Arpack = "0.3.2"
-Distributions = "0.22"
 Einsum = "0.4"
 FiniteDifferences = "0.9"
 HybridArrays = "0.3"
 LightGraphs = "1"
-ManifoldsBase = "0.7.2-0.7"
 Requires = ["0.5", "1"]
 SimpleWeightedGraphs = "1"
 SpecialFunctions = "0.8.0"
 StaticArrays = "0.12"
-StatsBase = "0.32"
 julia = "1"
+
+["0-0.1.0"]
+Distributions = "0.22"
+ManifoldsBase = "0.7.2-0.7"
+StatsBase = "0.32"
+
+["0.1.1-0"]
+Distributions = "0.22-0.23"
+ManifoldsBase = "0.7.3-0.7"
+StatsBase = "0.32-0.33"
