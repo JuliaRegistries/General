@@ -14,9 +14,7 @@ Unitful = "0.17-0.18"
 ["0.2-0"]
 AlgebraicMultigrid = "0.2"
 ArbNumerics = "1"
-CUDAnative = "2.5.0-2"
 Cairo = ["0.8", "1"]
-CuArrays = "1.4.0-1"
 DecFP = "0.4"
 Decimals = "0.4"
 DiffEqBayes = "2.1.0-2"
@@ -44,6 +42,10 @@ Weave = "0.9"
 ["0.2-0.3"]
 ParameterizedFunctions = "4.2.0-4"
 
+["0.2-0.4"]
+CUDAnative = "2.5.0-2"
+CuArrays = "1.4.0-1"
+
 ["0.2.1-0.3"]
 Gadfly = "1.1.0-1"
 
@@ -63,3 +65,7 @@ Unitful = ["0.17-0.18", "1"]
 Distributions = "0.21-0.23"
 MCMCChains = "3"
 ParameterizedFunctions = "4.2.0-5"
+
+["0.5-0"]
+CUDAnative = "2.5.0-3"
+CuArrays = "1.4.0-2"
