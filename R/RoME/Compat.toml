@@ -128,6 +128,11 @@ Optim = ["0.16-0.23", "1"]
 DistributedFactorGraphs = "0.6.2-0.6"
 IncrementalInference = "0.9"
 
+["0.6.1"]
+IncrementalInference = "0.9-0.10"
+
 ["0.6.1-0"]
 DistributedFactorGraphs = ["0.6.2-0.6", "0.7.1-0.7"]
-IncrementalInference = "0.9-0.10"
+
+["0.6.2-0"]
+IncrementalInference = "0.10.3-0.11"
