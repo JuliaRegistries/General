@@ -154,6 +154,10 @@ but it is best practice.
 
 Report it to the package repository.
 
+#### How do I remove a package or version from the registry?
+
+You can't. Package registrations are **permanent**. A version can not be overwritten in the
+registry, and code cannot be deleted.
 
 ## Disclaimer
 
