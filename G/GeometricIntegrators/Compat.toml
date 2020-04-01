@@ -11,8 +11,11 @@ ProgressMeter = "0"
 Reexport = "0"
 julia = ["0.7", "1"]
 
-["0.2-0"]
+["0.2"]
 DecFP = "0.4.7-0.4"
+julia = "1.1.0-1"
+
+["0.2-0"]
 FastGaussQuadrature = "0.4"
 FastTransforms = ["0.6", "0.8"]
 ForwardDiff = "0.10"
@@ -22,7 +25,6 @@ OffsetArrays = ["0.10-0.11", "1"]
 ProgressMeter = "1"
 Reexport = "0.2"
 SafeTestsets = "0.0.1"
-julia = "1.1.0-1"
 
 ["0.2.0"]
 Documenter = "0.23"
@@ -31,5 +33,13 @@ Polynomials = "0.5"
 
 ["0.2.1-0"]
 Documenter = "0.23-0.24"
-HDF5 = ["0.10", "0.12"]
 Polynomials = "0.5-0.6"
+
+["0.2.1-0.2"]
+HDF5 = ["0.10", "0.12"]
+
+["0.3-0"]
+DecFP = "0.4.9-0.4"
+HDF5 = ["0.10", "0.12-0.13"]
+Parameters = "0.12"
+julia = "1.3.0-1"
