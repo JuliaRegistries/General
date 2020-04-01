@@ -38,8 +38,6 @@ julia = "1"
 
 ["0.3.7-0"]
 Distances = "0.8"
-Optim = "0.18"
-SpecialFunctions = "0.7"
 
 ["0.3.7-0.3"]
 GeoStatsBase = "0.5"
@@ -51,15 +49,27 @@ RecipesBase = "0.6"
 ["0.3.7-0.4.2"]
 StaticArrays = "0.11"
 
+["0.3.7-0.5.0"]
+Optim = "0.18"
+SpecialFunctions = "0.7"
+
 ["0.4"]
 GeoStatsBase = "0.6"
 
 ["0.4.2-0"]
 Parameters = "0.12"
+
+["0.4.2-0.5.0"]
 RecipesBase = "0.7"
 
 ["0.4.3-0"]
 StaticArrays = "0.12"
 
-["0.5-0"]
+["0.5.0"]
 GeoStatsBase = "0.7"
+
+["0.5.1-0"]
+GeoStatsBase = "0.7-0.8"
+Optim = ["0.18", "0.20"]
+RecipesBase = "0.7-0.8"
+SpecialFunctions = "0.9-0.10"
