@@ -1,6 +1,8 @@
 [0]
 GDAL = "1"
 HTTP = "0.8"
+
+["0-0.1"]
 RecipesBase = "0.7"
 ZipFile = "0.8"
 
@@ -9,3 +11,8 @@ julia = "1.2.0-1"
 
 ["0.1-0"]
 julia = "1.3.0-1"
+
+["0.2-0"]
+RecipesBase = "0.7-0.8"
+Requires = "1"
+ZipFile = "0.8-0.9"
