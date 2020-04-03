@@ -8,8 +8,12 @@ PowerModels = "0.7-0"
 TimeSeries = "0.11.1-0"
 julia = "0.6-1"
 
-["0.10-0"]
+["0.10-0.12"]
 InfrastructureSystems = "0.5.7-0.5"
+
+["0.13-0"]
+InfrastructureSystems = "0.5"
+TimeSeries = "0.17"
 
 ["0.2"]
 CSV = "0.4.2-0"
@@ -46,8 +50,10 @@ InfrastructureSystems = "0.1.1-0.1"
 ["0.4-0"]
 JSON = "0.21"
 JSON2 = "0.3"
-TimeSeries = "0.16"
 YAML = "0.3"
+
+["0.4-0.12"]
+TimeSeries = "0.16"
 
 ["0.4-0.6.2"]
 CSV = "0.5"
