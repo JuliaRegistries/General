@@ -16,9 +16,11 @@ CondaBinDeps = "0.1"
 ["0-0.2.1"]
 NetCDF = "0.8"
 
-["0.2-0"]
+["0.2"]
 ClimateBase = "0.1-0.2"
 ClimateTools = "0.16-0.18"
+
+["0.2-0"]
 CondaBinDeps = "0.1-0.2"
 
 ["0.2.1"]
@@ -27,3 +29,7 @@ CFTime = "0.0.3"
 ["0.2.2-0"]
 CFTime = ["0.0.3", "0.1"]
 NetCDF = "0.8-0.9"
+
+["0.3-0"]
+ClimateBase = "0.6"
+ClimateTools = "0.20"
