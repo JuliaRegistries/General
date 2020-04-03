@@ -12,6 +12,7 @@ some amount of consideration when choosing package names.
 
 [packages]
 000eeb74-f857-587a-a816-be5685e97e75 = { name = "KCP_jll", path = "K/KCP_jll" }
+0038a6a5-a77d-50b4-8f67-3bd55e463950 = { name = "oneAPI_Level_Zero_jll", path = "O/oneAPI_Level_Zero_jll" }
 00701ae9-d1dc-5365-b64a-a3a3ebf5695e = { name = "BioAlignments", path = "B/BioAlignments" }
 00783350-183d-11e9-0ed7-9f3f45823183 = { name = "SeisPlot", path = "S/SeisPlot" }
 0087ddc6-3964-5e57-817f-9937aefb0357 = { name = "MathOptInterfaceMosek", path = "M/MathOptInterfaceMosek" }
@@ -93,6 +94,7 @@ some amount of consideration when choosing package names.
 0656b61e-2033-5cc2-a64a-77c0f6c09b89 = { name = "GLFW_jll", path = "G/GLFW_jll" }
 06718956-e3b8-45c5-a167-688b8218b63e = { name = "ObjectDetectionStats", path = "O/ObjectDetectionStats" }
 067cfa3b-fa88-53b2-a873-5b23b3a16e31 = { name = "NonlinearEigenproblems", path = "N/NonlinearEigenproblems" }
+06985876-5285-5a41-9fcb-8948a742cc53 = { name = "Clp_jll", path = "C/Clp_jll" }
 069b7b12-0de2-55c6-9aab-29f3d0a68a2e = { name = "FunctionWrappers", path = "F/FunctionWrappers" }
 06b161dc-0161-11ea-0f74-41f836f4024b = { name = "Z3", path = "Z/Z3" }
 06bb1623-fdd5-5ca2-a01c-88eae3ea319e = { name = "PenaltyFunctions", path = "P/PenaltyFunctions" }
@@ -1449,6 +1451,7 @@ some amount of consideration when choosing package names.
 6b36f460-1d4e-5459-a8c4-3ab8f40f7d47 = { name = "TensorNetworkAD", path = "T/TensorNetworkAD" }
 6b39b394-51ab-5f42-8807-6242bab2b4c2 = { name = "CodecZstd", path = "C/CodecZstd" }
 6b44d3db-2bc5-5ac3-b70f-26aa69b1b11b = { name = "NetworkInference", path = "N/NetworkInference" }
+6b5504e1-0c77-489f-ba22-2b282cee145f = { name = "TypeParsers", path = "T/TypeParsers" }
 6b5a15aa-cf52-5330-8376-5e5d90283449 = { name = "P4est_jll", path = "P/P4est_jll" }
 6b84a0a3-a11a-41fa-a417-e600528de108 = { name = "AcuteML", path = "A/AcuteML" }
 6b9d7cbe-bcb9-11e9-073f-15a7a543e2eb = { name = "GeneralizedGenerated", path = "G/GeneralizedGenerated" }
@@ -2222,6 +2225,7 @@ a7773ee8-282e-5fa2-be4e-bd808c38a91a = { name = "UnitfulAtomic", path = "U/Unitf
 a7847b3b-b7f1-4dd5-83c3-60e0aa0f8599 = { name = "LogicCircuits", path = "L/LogicCircuits" }
 a7949054-b901-59c6-b8e3-7238c29bf7f0 = { name = "MXNet", path = "M/MXNet" }
 a79dbac3-5528-457e-b637-ec38aefb197a = { name = "GOF3R", path = "G/GOF3R" }
+a7aa756b-2b7f-562a-9e9d-e94076c5c8ee = { name = "OpenCL_Headers_jll", path = "O/OpenCL_Headers_jll" }
 a7b11256-881b-11e9-3aff-ff4a76f1bfae = { name = "DigitalComm", path = "D/DigitalComm" }
 a7b44dc7-5846-51fe-a1cd-6b242f0ec0a2 = { name = "Xorg_recordproto_jll", path = "X/Xorg_recordproto_jll" }
 a7b85b94-2b9e-11e9-2e5f-79ec22955f58 = { name = "JSObjectLiteral", path = "J/JSObjectLiteral" }
@@ -2281,6 +2285,7 @@ aae7a2af-3d4f-5e19-a356-7da93b79d9d0 = { name = "DiffEqFlux", path = "D/DiffEqFl
 aaf54ef3-cdf8-58ed-94cc-d582ad619b94 = { name = "DistributedArrays", path = "D/DistributedArrays" }
 aafaddc9-749c-510e-ac4f-586e18779b91 = { name = "CatIndices", path = "C/CatIndices" }
 ab02a1b2-a7df-11e8-156e-fb1833f50b87 = { name = "TableOperations", path = "T/TableOperations" }
+ab1a18e7-b408-4913-896c-624bb82ed7f4 = { name = "UnixTimes", path = "U/UnixTimes" }
 ab1feca7-9272-4c7d-b713-789d3461e743 = { name = "NeuralArithmetic", path = "N/NeuralArithmetic" }
 ab2f91bb-94b4-55e3-9ba0-7f65df51de79 = { name = "OSQP", path = "O/OSQP" }
 ab46fb84-d57c-11e9-2f65-6f72e4a7229f = { name = "DensityRatioEstimation", path = "D/DensityRatioEstimation" }
@@ -2753,6 +2758,7 @@ ce6b1742-4840-55fa-b093-852dadbb1d8b = { name = "RDatasets", path = "R/RDatasets
 ce7fb557-0848-50b6-86d3-b63d1ee2efee = { name = "BackedUpImmutable", path = "B/BackedUpImmutable" }
 cea106d9-e007-5e6c-ad93-58fe2094e9c4 = { name = "Syslogs", path = "S/Syslogs" }
 ceb70bd2-fe3f-44f0-b81f-41608acaf2f2 = { name = "OpenSpiel", path = "O/OpenSpiel" }
+ceb72bb5-3ff4-5c2c-804d-42d1b35f23fa = { name = "ClpBuilder_jll", path = "C/ClpBuilder_jll" }
 ceb7f16a-07bf-5f4a-9354-b68f01b1610f = { name = "SwitchOnSafety", path = "S/SwitchOnSafety" }
 cec144fc-5a64-5bc6-99fb-dde8f63e154c = { name = "OptimTestProblems", path = "O/OptimTestProblems" }
 cecf6091-0e4e-54ba-8cba-f0e96a51f282 = { name = "MicroLogging", path = "M/MicroLogging" }
