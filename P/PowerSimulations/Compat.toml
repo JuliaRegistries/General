@@ -18,9 +18,11 @@ JuMP = "0.21"
 MathOptInterface = "0.9.9-0.9"
 ParameterJuMP = "0.2"
 PowerModels = "0.15"
-TimeSeries = "0.16"
 TimerOutputs = "0.5"
 julia = "1.2.0-1"
+
+["0.2-0.4.0"]
+TimeSeries = "0.16"
 
 ["0.2.0"]
 InfrastructureSystems = "0.5.1-0.5"
@@ -32,5 +34,9 @@ InfrastructureSystems = "0.5"
 ["0.2.1-0.2.4"]
 PowerSystems = "0.11"
 
-["0.2.5-0"]
+["0.2.5-0.4.0"]
 PowerSystems = "0.12"
+
+["0.4.1-0"]
+PowerSystems = "0.13"
+TimeSeries = "0.17"
