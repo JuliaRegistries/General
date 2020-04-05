@@ -72,14 +72,7 @@ julia = "1.0.0-*"
 RecipesBase = "0.6-0.7"
 
 ["0.28-0"]
-Contour = "0.5"
-JSON = "0.21"
-Measures = "0.3"
-NaNMath = "0.3"
 PlotUtils = "0.6.1-0.6"
-Reexport = "0.2"
-Showoff = "0.3.1-0.3"
-julia = "1"
 
 ["0.28-0.28.1"]
 FixedPointNumbers = ["0.3", "0.6"]
@@ -95,14 +88,20 @@ FFMPEG = "0.2"
 ["0.28-0.29.4"]
 GeometryTypes = "0.7"
 
+["0.28-1"]
+Contour = "0.5"
+JSON = "0.21"
+Measures = "0.3"
+NaNMath = "0.3"
+Reexport = "0.2"
+Showoff = "0.3.1-0.3"
+julia = "1"
+
 ["0.28.0"]
 PlotThemes = ["0.2", "0.4"]
 
 ["0.28.1"]
 PlotThemes = ["0.2", "1"]
-
-["0.28.2-0"]
-PlotThemes = "1"
 
 ["0.28.2-0.28"]
 FixedPointNumbers = "0.6"
@@ -111,27 +110,37 @@ GR = "0.44"
 ["0.28.2-0.29.8"]
 StatsBase = "0.32"
 
-["0.28.4-0"]
+["0.28.2-1"]
+PlotThemes = "1"
+
+["0.28.4-1"]
 Requires = ["0.5", "1"]
 
 ["0.29-0"]
-FixedPointNumbers = "0.6-0.8"
 RecipesBase = "0.8"
 
 ["0.29-0.29.2"]
 GR = "0.46"
 
-["0.29.2-0"]
+["0.29-1"]
+FixedPointNumbers = "0.6-0.8"
+
+["0.29.2-1"]
 FFMPEG = "0.2-0.3"
 
 ["0.29.3-0.29.7"]
 GR = "0.46-0.47"
 
-["0.29.5-0"]
+["0.29.5-1"]
 GeometryTypes = "0.7-0.8"
 
-["0.29.8-0"]
+["0.29.8-1"]
 GR = "0.46-0.48"
 
 ["0.29.9-0"]
 StatsBase = "0.32-0.33"
+
+[1]
+PlotUtils = "0.6.5-0.6"
+RecipesBase = "1"
+StatsBase = "0.32"
