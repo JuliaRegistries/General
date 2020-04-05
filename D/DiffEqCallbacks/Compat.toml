@@ -31,8 +31,11 @@ RecipesBase = "0.7"
 DiffEqBase = "6.11.0-6"
 RecursiveArrayTools = "2"
 
-["2.12-2"]
+["2.12"]
 RecipesBase = "0.7-0.8"
+
+["2.13-2"]
+RecipesBase = ["0.7-0.8", "1"]
 
 ["2.2-2"]
 julia = "1"
