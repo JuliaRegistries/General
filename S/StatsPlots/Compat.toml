@@ -56,13 +56,15 @@ julia = "1"
 StatsBase = "0.32"
 
 ["0.14-0"]
-Plots = "0.28-0.29"
-RecipesBase = "0.6-0.8"
 TableOperations = "0.2"
 Tables = "1"
 
 ["0.14-0.14.1"]
 Distributions = "0.21-0.22"
+
+["0.14-0.14.3"]
+Plots = "0.28-0.29"
+RecipesBase = "0.6-0.8"
 
 ["0.14.0"]
 Observables = "0.2.2-0.2"
@@ -75,3 +77,7 @@ Distributions = "0.21-0.23"
 
 ["0.14.3-0"]
 StatsBase = "0.32-0.33"
+
+["0.14.4-0"]
+Plots = ["0.28-0.29", "1"]
+RecipesBase = ["0.6-0.8", "1"]
