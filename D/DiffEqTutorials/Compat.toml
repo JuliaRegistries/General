@@ -12,12 +12,10 @@ StatsPlots = "0.12-0.13"
 Unitful = "0.17-0.18"
 
 ["0.2-0"]
-AlgebraicMultigrid = "0.2"
 ArbNumerics = "1"
 Cairo = ["0.8", "1"]
 DecFP = "0.4"
 Decimals = "0.4"
-DiffEqBayes = "2.1.0-2"
 DiffEqBiological = "4"
 DiffEqCallbacks = "2.9.0-2"
 DiffEqDevTools = "2.15.0-2"
@@ -34,7 +32,6 @@ NLsolve = "4.2.0-4"
 OrdinaryDiffEq = "5.23.0-5"
 PyPlot = "2.8.0-2"
 SparseDiffTools = ["0.10", "1"]
-SparsityDetection = "0.1"
 StaticArrays = "0.10-0.12"
 Sundials = "3.8.0-3"
 Weave = "0.9"
@@ -45,6 +42,11 @@ ParameterizedFunctions = "4.2.0-4"
 ["0.2-0.4"]
 CUDAnative = "2.5.0-2"
 CuArrays = "1.4.0-1"
+
+["0.2-0.5"]
+AlgebraicMultigrid = "0.2"
+DiffEqBayes = "2.1.0-2"
+SparsityDetection = "0.1"
 
 ["0.2.1-0.3"]
 Gadfly = "1.1.0-1"
@@ -69,3 +71,8 @@ ParameterizedFunctions = "4.2.0-5"
 ["0.5-0"]
 CUDAnative = "2.5.0-3"
 CuArrays = "1.4.0-2"
+
+["0.6-0"]
+AlgebraicMultigrid = "0.2-0.3"
+DiffEqBayes = "2.8.0-2"
+SparsityDetection = "0.1-0.2"
