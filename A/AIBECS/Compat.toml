@@ -19,13 +19,15 @@ Unitful = "0.17"
 ["0.3-0"]
 BSON = "0.2"
 DataDeps = "0.7"
-DiffEqBase = "6"
 FieldMetadata = "0.1"
 OceanGrids = "0.1"
 Reexport = "0.2"
 
 ["0.3-0.4.0"]
 DualNumbers = "0.6"
+
+["0.3-0.4.13"]
+DiffEqBase = "6"
 
 ["0.3-0.4.2"]
 UnitfulAstro = "0.4"
@@ -63,8 +65,14 @@ Distributions = "0.22"
 Flatten = "0.3"
 
 ["0.4.11-0"]
-RecipesBase = "0.7-0.8"
 UnPack = "0.1"
+
+["0.4.11-0.4.13"]
+RecipesBase = "0.7-0.8"
+
+["0.4.14-0"]
+DiffEqBase = "5-6"
+RecipesBase = ["0.7-0.8", "1"]
 
 ["0.4.3-0"]
 UnitfulAstro = "1"
