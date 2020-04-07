@@ -34,11 +34,9 @@ SymDict = "0"
 XMLDict = "0"
 
 ["0.6.3-0"]
-DataStructures = "0.15-0.17"
 HTTP = "0.8"
 IniFile = "0.5"
 JSON = "0.18-0.21"
-LazyJSON = "0.1"
 Mocking = "0.7"
 Retry = "0.3-0.4"
 SymDict = "0.3"
@@ -49,8 +47,17 @@ MbedTLS = "0.6"
 ["0.6.3-0.6.6"]
 XMLDict = "0.3"
 
-["0.6.5-0"]
+["0.6.3-0.6.8"]
+DataStructures = "0.15-0.17"
+LazyJSON = "0.1"
+
+["0.6.5-0.6.8"]
 MbedTLS = "0.6-0.7"
 
 ["0.6.7-0"]
 XMLDict = "0.3-0.4"
+
+["0.6.9-0"]
+LazyJSON = "0.1-0.2"
+MbedTLS = ["0.6-0.7", "1"]
+OrderedCollections = ["0.1", "1"]
