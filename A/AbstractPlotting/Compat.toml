@@ -17,6 +17,12 @@ StaticArrays = "0"
 UnicodeFun = "0"
 julia = ["0.7", "1"]
 
+["0.10-0"]
+FreeType = "3"
+FreeTypeAbstraction = "0.6-0.7"
+GeometryBasics = "0.2.2-0.2"
+Packing = "0.3-0.4"
+
 ["0.9.1-0.9.7"]
 Contour = "0"
 FileIO = "0-1"
@@ -33,13 +39,15 @@ Contour = "0.5"
 DocStringExtensions = "0.8"
 FileIO = "1.1.0-1"
 ImageMagick = ["0.7", "1"]
-Packing = "0.3"
 Showoff = "0.3"
 SignedDistanceFields = "0.4"
 StaticArrays = "0.12"
 StructArrays = "0.3-0.4"
 UnicodeFun = "0.4"
 julia = "1"
+
+["0.9.11-0.9"]
+Packing = "0.3"
 
 ["0.9.11-0.9.14"]
 ColorTypes = "0.8"
@@ -79,8 +87,10 @@ PlotUtils = "0.6.2-0.6"
 
 ["0.9.18-0"]
 FixedPointNumbers = "0.6-0.8"
-FreeType = "2.1.0-3"
 IntervalSets = "0.3-0.4"
+
+["0.9.18-0.9"]
+FreeType = "2.1.0-3"
 
 ["0.9.18-0.9.21"]
 FreeTypeAbstraction = "0.4.2-0.5"
@@ -93,6 +103,8 @@ Observables = "0.3"
 
 ["0.9.22-0"]
 FFMPEG = "0.2-0.3"
+
+["0.9.22-0.9"]
 FreeTypeAbstraction = "0.6"
 
 ["0.9.23-0"]
@@ -101,7 +113,7 @@ Observables = "0.3.1-0.3"
 ["0.9.23-0.9.25"]
 GeometryTypes = "0.7.9-0.7"
 
-["0.9.26-0"]
+["0.9.26-0.9"]
 GeometryTypes = "0.8.1-0.8"
 
 ["0.9.27-0"]
