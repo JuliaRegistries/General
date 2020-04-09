@@ -49,7 +49,6 @@ julia = "1.0.0-1"
 AbstractPlotting = "0.9.1-0.9"
 
 ["0.1.1-0"]
-BinaryProvider = "0.3-0.5"
 Documenter = "0.23-0.24"
 FileIO = "1.1.0-1"
 Highlights = "0.4"
@@ -57,6 +56,9 @@ ImageFiltering = "0.6"
 ImageTransformations = "0.8"
 SyntaxTree = "1"
 julia = "1"
+
+["0.1.1-0.1"]
+BinaryProvider = "0.3-0.5"
 
 ["0.1.1-0.1.2"]
 FixedPointNumbers = "0.6-0.7"
@@ -76,14 +78,16 @@ StatsMakie = "0.0.6"
 ZipFile = "0.8"
 
 ["0.1.2-0"]
-AbstractPlotting = "0.9.16-0.9"
 ColorSchemes = "3.5.0-3"
 ColorVectorSpace = "0.8"
 DataFrames = "0.20"
 GDAL = "1"
 ImageCore = "0.8"
-MeshIO = "0.3"
 ModernGL = "1.1.0-1"
+
+["0.1.2-0.1"]
+AbstractPlotting = "0.9.16-0.9"
+MeshIO = "0.3"
 
 ["0.1.2-0.1.3"]
 Observables = "0.2.3-0.2"
@@ -133,7 +137,6 @@ ColorTypes = "0.8-0.10"
 Colors = "0.11-0.12"
 Distributions = "0.22-0.23"
 FixedPointNumbers = "0.7-0.8"
-GeometryTypes = "0.8"
 ImageMagick = "1.1.0-1"
 KernelDensity = "0.5.1-0.5"
 OrdinaryDiffEq = "5.29.0-5"
@@ -142,6 +145,14 @@ PlotUtils = "0.6.3-0.6"
 RDatasets = "0.6.6-0.6"
 StaticArrays = "0.11-0.12"
 
-["0.1.9-0"]
+["0.1.8-0.1"]
+GeometryTypes = "0.8"
+
+["0.1.9-0.1"]
 MakieLayout = "0.5.0"
 StatsMakie = "0.1.4-0.1"
+
+["0.2-0"]
+AbstractPlotting = "0.10"
+BinaryProvider = "0.4-0.5"
+MakieLayout = "0.5.2-0.5"
