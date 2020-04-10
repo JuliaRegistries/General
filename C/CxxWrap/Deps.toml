@@ -1,9 +1,14 @@
 [0]
-BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 ["0-0.8.1"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.9"]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+
+["0.10-0"]
+libcxxwrap_julia_jll = "3eaa8342-bff7-56a5-9981-c04077f7cee7"
 
 ["0.9-0"]
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
