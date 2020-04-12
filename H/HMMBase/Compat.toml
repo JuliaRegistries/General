@@ -10,8 +10,10 @@ julia = "1"
 Distributions = "0.2.0-*"
 
 [1]
-ArgCheck = "1"
 Clustering = "0.13"
+
+["1-1.0.4"]
+ArgCheck = "1"
 
 ["1.0.0"]
 Distributions = "0.20"
@@ -19,8 +21,13 @@ Distributions = "0.20"
 ["1.0.1-1.0.2"]
 Distributions = "0.20-0.21"
 
-["1.0.3-1"]
+["1.0.3-1.0.4"]
 Distributions = "0.20-0.22"
 
-["1.0.4-1"]
+["1.0.4"]
 Hungarian = "0.5"
+
+["1.0.5-1"]
+ArgCheck = "1-2"
+Distributions = "0.20-0.23"
+Hungarian = "0.5-0.6"

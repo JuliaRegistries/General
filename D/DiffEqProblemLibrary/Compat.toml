@@ -32,8 +32,13 @@ ModelingToolkit = "0.0.0 - 0.9"
 ["4.5"]
 DiffEqBase = "5.15.0 - 6"
 
+["4.6"]
+ModelingToolkit = ["0.9-0.10", "1"]
+
 ["4.6-4"]
 DiffEqBase = "6"
 DiffEqBiological = "4"
 DiffEqOperators = "4"
-ModelingToolkit = ["0.9-0.10", "1"]
+
+["4.7-4"]
+ModelingToolkit = ["0.9-0.10", "1-2"]
