@@ -4,7 +4,6 @@ FillArrays = "0.6-0.8"
 Flux = "0.10"
 HttpCommon = "0.5"
 JSON = "0.18-0.21"
-LearnBase = "0.2"
 MLDataPattern = "0.5"
 Mustache = "1"
 Zygote = "0.4"
@@ -16,18 +15,25 @@ Mill = "1"
 ["1-1.0.5"]
 StatsBase = "0.24-0.32"
 
+["1-1.2.1"]
+LearnBase = "0.2"
+
 ["1.0.3"]
 HierarchicalUtils = "0.0.4"
 Mill = "1.0.7-1"
 
-["1.0.4-1"]
-HierarchicalUtils = "0.0.4-0.0.5"
-
 ["1.0.4-1.0"]
 Mill = "1.0.7-1.0"
+
+["1.0.4-1.2.1"]
+HierarchicalUtils = "0.0.4-0.0.5"
 
 ["1.0.6-1"]
 StatsBase = "0.24-0.33"
 
 ["1.1-1"]
 Mill = "1.1.0-1"
+
+["1.2.2-1"]
+HierarchicalUtils = "0.0.4-0.0.6"
+LearnBase = "0.2-0.3"
