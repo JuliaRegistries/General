@@ -1,5 +1,4 @@
 [0]
-BSON = "0.2"
 BSONMmap = "0.2"
 DataStructures = "0.17"
 Glob = "1.2.0-1"
@@ -14,5 +13,12 @@ PyCall = "1.90.0-1"
 PyCallUtils = "0.2"
 Reexport = "0.2"
 StandardMarketData = "0.1"
-StatsBase = "0.32"
 julia = "1"
+
+["0-0.1.0"]
+BSON = "0.2"
+StatsBase = "0.32"
+
+["0.1.1-0"]
+BSON = "0.2.4-0.2"
+StatsBase = "0.32-0.33"
