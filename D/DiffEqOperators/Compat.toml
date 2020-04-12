@@ -24,6 +24,12 @@ NNlib = "0.0.0 - 0.6"
 ["4.1-4.3"]
 ForwardDiff = "0.0.0 - 0.10"
 
+["4.10-4"]
+BandedMatrices = "0.12-0.15"
+BlockBandedMatrices = "0.6-0.8"
+LazyArrays = "0.14-0.16"
+ModelingToolkit = ["0.10", "1-2"]
+
 ["4.2"]
 ModelingToolkit = "0.8"
 
@@ -41,7 +47,6 @@ DiffEqBase = "6.4.1-6"
 ModelingToolkit = "0.9"
 
 ["4.4-4"]
-BandedMatrices = "0.12-0.14"
 ForwardDiff = "0.10"
 NNlib = "0.6"
 StaticArrays = "0.10-0.12"
@@ -52,14 +57,17 @@ BlockBandedMatrices = "0.6"
 ["4.4-4.7"]
 LazyArrays = "0.14"
 
+["4.4-4.8"]
+BandedMatrices = "0.12-0.14"
+
 ["4.5"]
 ModelingToolkit = "0.10"
 
-["4.6-4"]
+["4.6-4.8"]
 ModelingToolkit = ["0.10", "1"]
 
-["4.7-4"]
+["4.7-4.8"]
 BlockBandedMatrices = "0.6-0.7"
 
-["4.8-4"]
+["4.8"]
 LazyArrays = "0.14-0.15"
