@@ -27,13 +27,11 @@ DoubleFloats = ["0.9", "1"]
 ForwardDiff = "0.10"
 IJulia = "1.20.0-1"
 Measurements = "2.1.0-2"
-ModelingToolkit = ["0.9-0.10", "1"]
 NLsolve = "4.2.0-4"
 OrdinaryDiffEq = "5.23.0-5"
 PyPlot = "2.8.0-2"
 SparseDiffTools = ["0.10", "1"]
 StaticArrays = "0.10-0.12"
-Sundials = "3.8.0-3"
 Weave = "0.9"
 
 ["0.2-0.3"]
@@ -48,6 +46,10 @@ AlgebraicMultigrid = "0.2"
 DiffEqBayes = "2.1.0-2"
 SparsityDetection = "0.1"
 
+["0.2-0.6"]
+ModelingToolkit = ["0.9-0.10", "1"]
+Sundials = "3.8.0-3"
+
 ["0.2.1-0.3"]
 Gadfly = "1.1.0-1"
 
@@ -58,10 +60,12 @@ Distributions = "0.21-0.22"
 BenchmarkTools = "0.4-0.5"
 Latexify = "0.12-0.13"
 Optim = "0.19-0.20"
-Plots = "0.27-0.29"
 RecursiveArrayTools = "1-2"
 StatsPlots = "0.12-0.14"
 Unitful = ["0.17-0.18", "1"]
+
+["0.3-0.6"]
+Plots = "0.27-0.29"
 
 ["0.4-0"]
 Distributions = "0.21-0.23"
@@ -76,3 +80,8 @@ CuArrays = "1.4.0-2"
 AlgebraicMultigrid = "0.2-0.3"
 DiffEqBayes = "2.8.0-2"
 SparsityDetection = "0.1-0.2"
+
+["0.7-0"]
+ModelingToolkit = ["0.9-0.10", "1-2"]
+Plots = ["0.27-0.29", "1"]
+Sundials = "3.8.0-4"
