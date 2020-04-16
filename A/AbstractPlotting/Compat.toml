@@ -19,9 +19,16 @@ julia = ["0.7", "1"]
 
 ["0.10-0"]
 FreeType = "3"
-FreeTypeAbstraction = "0.6-0.7"
 GeometryBasics = "0.2.2-0.2"
+
+["0.10.0"]
+FreeTypeAbstraction = "0.6-0.7"
 Packing = "0.3-0.4"
+
+["0.10.1-0"]
+FreeTypeAbstraction = "0.7"
+ImageMagick = "1"
+Packing = "0.4"
 
 ["0.9.1-0.9.7"]
 Contour = "0"
@@ -38,13 +45,15 @@ ColorBrewer = "0.4"
 Contour = "0.5"
 DocStringExtensions = "0.8"
 FileIO = "1.1.0-1"
-ImageMagick = ["0.7", "1"]
 Showoff = "0.3"
 SignedDistanceFields = "0.4"
 StaticArrays = "0.12"
 StructArrays = "0.3-0.4"
 UnicodeFun = "0.4"
 julia = "1"
+
+["0.9.11-0.10.0"]
+ImageMagick = ["0.7", "1"]
 
 ["0.9.11-0.9"]
 Packing = "0.3"
