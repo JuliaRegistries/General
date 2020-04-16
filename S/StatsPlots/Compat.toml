@@ -42,7 +42,6 @@ RecipesBase = "0.6-0.7"
 Tables = "0.2"
 
 ["0.13-0"]
-Clustering = "0.13"
 DataStructures = "0.17"
 DataValues = "0.4"
 Interpolations = "0.12"
@@ -54,6 +53,9 @@ julia = "1"
 
 ["0.13-0.14.2"]
 StatsBase = "0.32"
+
+["0.13-0.14.4"]
+Clustering = "0.13"
 
 ["0.14-0"]
 TableOperations = "0.2"
@@ -81,3 +83,6 @@ StatsBase = "0.32-0.33"
 ["0.14.4-0"]
 Plots = ["0.28-0.29", "1"]
 RecipesBase = ["0.6-0.8", "1"]
+
+["0.14.5-0"]
+Clustering = "0.13-0.14"

@@ -2,7 +2,6 @@
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-ProximalOperators = "a725b495-10eb-56fe-b38b-717eba820537"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
@@ -11,8 +10,14 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.2"]
+ProximalOperators = "a725b495-10eb-56fe-b38b-717eba820537"
+
 ["0.1.2-0"]
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 
 ["0.2-0"]
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0.3-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"

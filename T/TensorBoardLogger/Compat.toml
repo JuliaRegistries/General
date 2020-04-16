@@ -8,11 +8,17 @@ julia = ["0.7", "1"]
 ProtoBuf = "0.7.0-*"
 StatsBase = "0.27.0-*"
 
+["0.1.10-0"]
+ColorTypes = "0.7-0.10"
+StatsBase = "0.27-0.33"
+
 ["0.1.6-0"]
-ColorTypes = "0.7-0.9"
 FileIO = "1"
 FixedPointNumbers = "0.6-0.8"
 ImageCore = "0.7-0.8"
 ProtoBuf = "0.7-0.8"
 Requires = ["0.5", "1"]
+
+["0.1.6-0.1.9"]
+ColorTypes = "0.7-0.9"
 StatsBase = "0.27-0.32"

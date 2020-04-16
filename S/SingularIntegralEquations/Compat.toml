@@ -35,7 +35,6 @@ InfiniteArrays = "0.1"
 julia = "1"
 
 ["0.4.3-0"]
-DomainSets = "0.1"
 DualNumbers = "0.6"
 
 ["0.4.3-0.4"]
@@ -54,6 +53,9 @@ RecipesBase = "0.7"
 ["0.4.3-0.5"]
 ApproxFunSingularities = "0.1.1-0.1"
 
+["0.4.3-0.6.2"]
+DomainSets = "0.1"
+
 ["0.5"]
 ApproxFun = "0.11.6-0.11"
 ApproxFunBase = "0.1.6-0.1"
@@ -69,13 +71,15 @@ ApproxFun = "0.11.8-0.11"
 ApproxFunFourier = "0.2"
 ApproxFunOrthogonalPolynomials = "0.3"
 ApproxFunSingularities = "0.1.6-0.1"
-BandedMatrices = "0.14.2-0.14"
 HypergeometricFunctions = "0.1-0.2"
 LowRankApprox = "0.4"
 julia = "1.3.0-1"
 
 ["0.6-0.6.1"]
 SpecialFunctions = "0.7-0.9"
+
+["0.6-0.6.2"]
+BandedMatrices = "0.14.2-0.14"
 
 ["0.6.0"]
 ApproxFunBase = "0.2.3-0.2"
@@ -85,3 +89,7 @@ ApproxFunBase = "0.2.3-0.3"
 
 ["0.6.2-0"]
 SpecialFunctions = "0.7-0.10"
+
+["0.6.3-0"]
+BandedMatrices = "0.14.2-0.15"
+DomainSets = "0.1-0.2"

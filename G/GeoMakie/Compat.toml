@@ -1,5 +1,4 @@
 [0]
-AbstractPlotting = "0.9"
 Colors = "0"
 EarCut = "1"
 GeoInterface = "0.5"
@@ -19,6 +18,9 @@ Proj4 = "0.6"
 ["0-0.1.4"]
 GeometryTypes = "0.7"
 
+["0-0.1.7"]
+AbstractPlotting = "0.9"
+
 ["0.1.1-0"]
 StructArrays = "0.4"
 
@@ -34,11 +36,16 @@ Proj4 = "0"
 ["0.1.4-0.1.5"]
 MakieLayout = "0.2-0.3"
 
-["0.1.5-0"]
+["0.1.5-0.1.7"]
 GeometryTypes = "0.7-0.8"
 
 ["0.1.6"]
 MakieLayout = "0.2-0.4"
 
-["0.1.7-0"]
+["0.1.7"]
 MakieLayout = "0.5"
+
+["0.1.8-0"]
+AbstractPlotting = "0.10"
+GeometryBasics = "0.2"
+MakieLayout = "0.5-0.6"

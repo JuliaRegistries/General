@@ -43,7 +43,6 @@ StatsPlots = "0.12"
 julia = ["0.7", "1"]
 
 ["1.1-1"]
-CSV = "0.4-0.5"
 Calculus = "0.4-0.5"
 DataFrames = "0.17-0.19"
 DataStructures = "0.16-0.17"
@@ -72,6 +71,9 @@ Roots = "0.7-0.8"
 SpecialFunctions = "0.7-0.8"
 StatsPlots = "0.10-0.13"
 
+["1.1-1.1.4"]
+CSV = "0.4-0.5"
+
 ["1.1.1-1"]
 TimeZones = "0.10-0.11"
 
@@ -98,6 +100,11 @@ Roots = ["0.7-0.8", "1"]
 SpecialFunctions = ["0.7-0.8", "0.10"]
 StatsPlots = "0.10-0.14"
 
-["1.1.4-1"]
+["1.1.4"]
 Documenter = "0.22"
+
+["1.1.4-1"]
 SMC = "0.1.8-0.1"
+
+["1.1.5-1"]
+CSV = "0.4.3-0.5"
