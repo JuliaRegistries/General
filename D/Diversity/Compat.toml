@@ -1,4 +1,4 @@
-[0]
+["0-0.4"]
 Compat = "0.59-2"
 DataFrames = "0.9-0"
 Missings = "0"
@@ -9,5 +9,14 @@ julia = "0.6-1"
 ["0.4.5"]
 EcoBase = "0.0.3-0"
 
-["0.4.6-0"]
+["0.4.6-0.4"]
 EcoBase = "0.0.6-0"
+
+["0.5-0"]
+AxisArrays = "0.4"
+DataFrames = "0.20"
+EcoBase = "0.1"
+Missings = ["0", "4"]
+RecipesBase = ["0.8", "1"]
+Requires = "1"
+julia = "1"
