@@ -145,13 +145,15 @@ ProgressMeter = "1"
 RDatasets = "0.6.4-0.6"
 StatsBase = "0.32"
 StatsModels = "0.6"
-Tables = ["0.2", "1"]
 TikzPictures = "3"
 UnicodePlots = "1"
 ValueHistories = "0.5"
 
 ["0.34-0.34.10"]
 GLM = "1"
+
+["0.34-0.34.16"]
+Tables = ["0.2", "1"]
 
 ["0.34-0.34.2"]
 DataFrames = "0.19"
@@ -194,6 +196,9 @@ DocumenterMarkdown = "0.2"
 ["0.34.14-0"]
 Requires = "1.0.1-1"
 
+["0.34.17-0"]
+FixedPointNumbers = "0.6-0.7"
+
 ["0.34.3-0"]
 CUDAapi = "2"
 Combinatorics = "1"
@@ -212,5 +217,5 @@ LIBSVM = "0.3-0.4"
 ["0.34.5-0.34.13"]
 Requires = ["0.5", "1"]
 
-["0.34.7-0"]
+["0.34.7-0.34.16"]
 FixedPointNumbers = "0.7"
