@@ -138,10 +138,12 @@ DeIdentification = "0.8"
 MultivariateStats = "0.7"
 PkgBenchmark = "0.2"
 RemoteFiles = "0.3"
-Tables = ["0.2", "1"]
 
 ["0.13-0.13.1"]
 Unitful = "0.17"
+
+["0.13-0.13.12"]
+Tables = ["0.2", "1"]
 
 ["0.13-0.13.2"]
 Coverage = "0.9"
@@ -165,13 +167,18 @@ Rmath = "0.6"
 ["0.13.1-0.13.8"]
 MLJBase = "0.8-1"
 
-["0.13.10-0"]
+["0.13.10-0.13.12"]
 MLJ = "0.7-1"
 MLJBase = "0.10-1"
 MLJModels = "0.7-1"
 
 ["0.13.11-0"]
 Unitful = "1"
+
+["0.13.13-0"]
+MLJ = "0-1"
+MLJBase = "0-1"
+MLJModels = "0-1"
 
 ["0.13.2-0.13.10"]
 Unitful = "0.18"
