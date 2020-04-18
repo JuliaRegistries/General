@@ -17,6 +17,11 @@ AxisArrays = "0.4"
 DataFrames = "0.20"
 EcoBase = "0.1"
 Missings = ["0", "4"]
-RecipesBase = ["0.8", "1"]
 Requires = "1"
 julia = "1"
+
+["0.5.0"]
+RecipesBase = ["0.8", "1"]
+
+["0.5.1-0"]
+RecipesBase = ["0.6-0.8", "1"]
