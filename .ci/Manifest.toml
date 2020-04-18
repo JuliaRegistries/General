@@ -16,12 +16,6 @@ uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
 deps = ["Random", "Serialization", "Sockets"]
 uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
-[[Expat_jll]]
-deps = ["Libdl", "Pkg"]
-git-tree-sha1 = "9cdd4b1523086c9d93604599e3a389e8941e52b0"
-uuid = "2e619515-83b5-522b-bb60-26c02a35a201"
-version = "2.2.7+1"
-
 [[ExprTools]]
 git-tree-sha1 = "6f0517056812fd6aa3af23d4b70d5325a2ae4e95"
 uuid = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
@@ -33,29 +27,11 @@ git-tree-sha1 = "0fa3b52a04a4e210aeb1626def9c90df3ae65268"
 uuid = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
 version = "1.1.0"
 
-[[Gettext_jll]]
-deps = ["Libdl", "Libiconv_jll", "Pkg", "XML2_jll"]
-git-tree-sha1 = "e43d686df1f45cab7a2570ff63642a3ea618ca5f"
-uuid = "78b55507-aeef-58d4-861c-77aaff3498b1"
-version = "0.20.1+2"
-
-[[GitCommand]]
-deps = ["Git_jll", "ReplMaker"]
-git-tree-sha1 = "d2a32e70f8145d893ad9044f1b4f0f18f6663db6"
-uuid = "49b5b516-ca3f-4003-a081-42bdcf55082d"
-version = "1.1.0"
-
 [[GitHub]]
 deps = ["Base64", "Dates", "HTTP", "JSON", "MbedTLS", "Sockets"]
 git-tree-sha1 = "bc8ded5984130076ca6fe6b752508effa1201a19"
 uuid = "bc5e4493-9b4d-5f90-b8aa-2b2bcaad7a26"
 version = "5.1.5"
-
-[[Git_jll]]
-deps = ["Expat_jll", "Gettext_jll", "LibCURL_jll", "Libdl", "Libiconv_jll", "OpenSSL_jll", "PCRE2_jll", "Pkg", "Zlib_jll"]
-git-tree-sha1 = "746b16fbb0efa8994dd060aabf2a79668b9ded2a"
-uuid = "f8c6e375-362e-5223-8a59-34ff63f689eb"
-version = "2.26.1+0"
 
 [[HTTP]]
 deps = ["Base64", "Dates", "IniFile", "MbedTLS", "Sockets"]
@@ -79,21 +55,9 @@ git-tree-sha1 = "b34d7cef7b337321e97d22242c3c2b91f476748e"
 uuid = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 version = "0.21.0"
 
-[[LibCURL_jll]]
-deps = ["LibSSH2_jll", "Libdl", "MbedTLS_jll", "Pkg", "Zlib_jll"]
-git-tree-sha1 = "62151403feb8e7869f049832e0d68a3e72d96497"
-uuid = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
-version = "7.68.0+0"
-
 [[LibGit2]]
 deps = ["Printf"]
 uuid = "76f85450-5226-5b5a-8eaa-529ad045b433"
-
-[[LibSSH2_jll]]
-deps = ["Libdl", "MbedTLS_jll", "Pkg"]
-git-tree-sha1 = "2daf0a757293e5355904b96262fcc54cf45d8fd3"
-uuid = "29816b5a-b9ab-546f-933c-edad1886dfa8"
-version = "1.9.0+1"
 
 [[Libdl]]
 uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
@@ -132,23 +96,11 @@ git-tree-sha1 = "916b850daad0d46b8c71f65f719c49957e9513ed"
 uuid = "78c3b35d-d492-501b-9361-3d52fe80e533"
 version = "0.7.1"
 
-[[OpenSSL_jll]]
-deps = ["Libdl", "Pkg"]
-git-tree-sha1 = "d2a6f25262d568b5a7e454cf7ff5066a79d16c7d"
-uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
-version = "1.1.1+2"
-
-[[PCRE2_jll]]
-deps = ["Libdl", "Pkg"]
-git-tree-sha1 = "97cf01c2ce807b2d59dca03d675792380463bfbd"
-uuid = "efcefdf7-47ab-520b-bdef-62a2eaa19f15"
-version = "10.34.0+0"
-
 [[Parsers]]
 deps = ["Dates", "Test"]
-git-tree-sha1 = "75d07cb840c300084634b4991761886d0d762724"
+git-tree-sha1 = "f8f5d2d4b4b07342e5811d2b6428e45524e241df"
 uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
-version = "1.0.1"
+version = "1.0.2"
 
 [[Pkg]]
 deps = ["Dates", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "REPL", "Random", "SHA", "UUIDs"]
@@ -172,22 +124,16 @@ uuid = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 version = "1.0.0"
 
 [[RegistryCI]]
-deps = ["Dates", "GitCommand", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "RegistryTools", "Test", "TimeZones"]
-git-tree-sha1 = "8885d88e9a15e2cc9c70677c67c9a889d130286a"
+deps = ["Dates", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "RegistryTools", "Test", "TimeZones"]
+git-tree-sha1 = "04862bb03ac9a93f0989ea3080ed14544971b509"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "2.1.0"
+version = "2.2.0"
 
 [[RegistryTools]]
 deps = ["AutoHashEquals", "LibGit2", "Pkg", "UUIDs"]
 git-tree-sha1 = "940e754d4b7b68ecb9037f6bf41a1d6ca586d000"
 uuid = "d1eb7eb1-105f-429d-abf5-b0f65cb9e2c4"
 version = "1.4.0"
-
-[[ReplMaker]]
-deps = ["REPL", "Unicode"]
-git-tree-sha1 = "edfd689abe5ecb8e91083030d5eee7dfec2cb5c0"
-uuid = "b873ce64-0db9-51f5-a568-4457d8e49576"
-version = "0.2.3"
 
 [[SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
