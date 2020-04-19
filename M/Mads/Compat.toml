@@ -45,6 +45,9 @@ julia = "1.4.0-1"
 ["0.10.1-0"]
 JuMP = "0"
 
+["0.10.4-0"]
+DataFrames = "0.20"
+
 ["0.6"]
 Ipopt = "0"
 julia = ["0.7", "1"]
@@ -104,7 +107,6 @@ BlackBoxOptim = "0"
 Colors = "0"
 Compose = "0"
 Conda = "1"
-DataFrames = "0"
 DataStructures = "0"
 Distributions = "0"
 DocumentFunction = "0"
@@ -134,6 +136,9 @@ SVR = "0"
 StatsBase = "0"
 Suppressor = "0"
 YAML = "0"
+
+["0.8-0.10.3"]
+DataFrames = "0"
 
 ["0.8-0.9.5"]
 JuMP = "0"
