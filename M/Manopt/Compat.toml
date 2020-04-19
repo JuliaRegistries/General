@@ -2,8 +2,12 @@
 julia = "1.1.0-1"
 
 ["0.1.1-0"]
-CSV = "0.5.22-0.5"
 ColorSchemes = "3.5.0-3"
+TestImages = "1"
+julia = "1"
+
+["0.1.1-0.1"]
+CSV = "0.5.22-0.5"
 ColorTypes = "0.9.1-0.9"
 Colors = "0.11.2-0.11"
 DataFrames = "0.20"
@@ -13,5 +17,12 @@ Plots = "0.28.4-0.28"
 QuartzImageIO = "0.6"
 RecipesBase = "0.7"
 SimpleTraits = "0.9.1-0.9"
-TestImages = "1"
-julia = "1"
+
+["0.2-0"]
+ColorTypes = "0.9.1-0.10"
+Colors = "0.11.2-0.12"
+Manifolds = "0.2"
+ManifoldsBase = "0.8"
+Plots = ["0.28.4-0.29", "1"]
+QuartzImageIO = "0.6-0.7"
+RecipesBase = ["0.7-0.8", "1"]
