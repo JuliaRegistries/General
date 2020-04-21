@@ -4,7 +4,6 @@ julia = "1"
 ["0.4-0"]
 CategoricalArrays = "0.7"
 StaticArrays = "0.12"
-StatsBase = "0.32"
 
 ["0.4-0.4.1"]
 MLJBase = "0.10"
@@ -14,11 +13,18 @@ Distributions = "0.21-0.22"
 SortingAlgorithms = "0.3"
 Tables = "0.2"
 
+["0.4-0.4.6"]
+StatsBase = "0.32"
+
 ["0.4.2-0.4.5"]
 MLJModelInterface = "0.1"
 
-["0.4.3-0"]
+["0.4.3-0.4.6"]
 Distributions = "0.22"
 
 ["0.4.6-0"]
 MLJModelInterface = "0.1-0.2"
+
+["0.4.7-0"]
+Distributions = "0.22-0.23"
+StatsBase = "0.32-0.33"
