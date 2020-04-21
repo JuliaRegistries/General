@@ -102,9 +102,6 @@ Unmarshal = "0.2.1-0.2"
 YAML = "0.3"
 julia = ["0.7", "1"]
 
-["0.4-0"]
-julia = "1"
-
 ["0.4-0.4.2"]
 ApproxManifoldProducts = ["0.0.3", "0.1"]
 CloudGraphs = "0.1.1-*"
@@ -134,6 +131,9 @@ TransformUtils = "0.2.2-*"
 Unmarshal = "0.2.1-*"
 YAML = "0.3.0-*"
 ZMQ = "1.0.0-*"
+
+["0.4-0.5.0"]
+julia = "1"
 
 ["0.4.1"]
 DistributedFactorGraphs = "0.2.2-0.3"
@@ -180,6 +180,14 @@ RoME = "0.5"
 ImageMagick = ["0.7", "1"]
 
 ["0.5-0"]
+RoME = "0.6"
+
+["0.5.0"]
 DistributedFactorGraphs = "0.6.2-0.6"
 IncrementalInference = "0.9"
-RoME = "0.6"
+
+["0.5.1-0"]
+DistributedFactorGraphs = "0.7.1-0.7"
+IncrementalInference = "0.10.1-0.11"
+Requires = ["0.5-0.10", "1"]
+julia = "1.2.0-1"

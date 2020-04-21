@@ -18,19 +18,26 @@ Distributions = "0.23"
 IterableTables = "1"
 LightGraphs = "1"
 Missings = "0.4"
-OnlineStats = "1"
-RecipesBase = ["0.8", "1"]
 Requires = "1"
 SimpleTraits = "0.9"
 Tokenize = "0.5"
 Unitful = "1"
 julia = "1"
 
+["0.4-0.4.1"]
+OnlineStats = "1"
+RecipesBase = ["0.8", "1"]
+
 ["0.4.0"]
 DataFrames = ["0.11", "0.20"]
 DataStructures = ["0.9", "0.17"]
 
+["0.4.1"]
+PenaltyFunctions = "0.1"
+
 ["0.4.1-0"]
 DataFrames = "0.20"
 DataStructures = "0.17"
-PenaltyFunctions = "0.1"
+
+["0.4.2-0"]
+RecipesBase = ["0.6-0.8", "1"]
