@@ -5,14 +5,14 @@ julia = "1.1.0-1"
 BenchmarkTools = "0.0.0 - 0.4"
 Calculus = "0.0.0 - 0.5"
 CategoricalArrays = "0.0.0 - 0.7"
-Clustering = "0.0.0 - 0.13"
+Clustering = "0.0.0 - 1"
 Distances = "0.0.0 - 0.8"
 GaussianProcesses = "0.0.0 - 0.11"
 IRTools = "0.0.0 - 0.3"
 MLDatasets = "0.0.0 - 0.4"
-MLJ = "0.0.0 - 0.5"
-MLJBase = "0.0.0 - 0.8"
-MLJModels = "0.0.0 - 0.5"
+MLJ = "0.0.0 - 1"
+MLJBase = "0.0.0 - 1"
+MLJModels = "0.0.0 - 1"
 Measurements = "0.0.0 - 2"
 MemPool = "0.0.0 - 0.2"
 MultivariateStats = "0.0.0 - 0.7"
@@ -21,7 +21,7 @@ PhysicalConstants = "0.0.0 - 0.2"
 RemoteFiles = "0.0.0 - 0.3"
 Rmath = "0.0.0 - 0.6"
 ScikitLearnBase = "0.0.0 - 0.5"
-Tables = "0.0.0 - 0.2"
+Tables = ["0.0.0 - 0.2", "1"]
 Tau = "0.0.0 - 0.2"
 Unitful = "0.0.0 - 0.18"
 Zygote = "0.0.0 - 0.4"
@@ -93,7 +93,7 @@ MLDatasets = "0.3"
 
 ["0.11-0.12"]
 BenchmarkTools = "0.4.2-0.4"
-Clustering = "0.13.1-0.13"
+Clustering = "0.13.1-1"
 Compose = "0.7.3-0.7"
 DeIdentification = "0.6"
 Gadfly = "1.0.1-1"
@@ -101,13 +101,13 @@ MultivariateStats = "0.6"
 PackageCompiler = "0.6.4-0.6"
 RemoteFiles = "0.2.1-0.2"
 StaticArrays = "0.11"
-Tables = "0.2.7-0.2"
+Tables = ["0.2.7-0.2", "1"]
 Unitful = "0.16"
 
 ["0.11-0.12.0"]
-MLJ = "0.2.5-0.2"
-MLJBase = "0.2.6-0.2"
-MLJModels = "0.2.5-0.2"
+MLJ = "0.2.5-1"
+MLJBase = "0.2.6-1"
+MLJModels = "0.2.5-1"
 
 ["0.11-0.13.0"]
 Rmath = "0.5"
@@ -126,22 +126,26 @@ PkgBenchmark = "0.2.2-0.2"
 CategoricalArrays = "0.3-0.8"
 
 ["0.12.1-0.12"]
-MLJ = "0.3"
-MLJBase = "0.4"
-MLJModels = "0.3"
+MLJ = "0.3-1"
+MLJBase = "0.4-1"
+MLJModels = "0.3-1"
 
 ["0.13-0"]
 BenchmarkTools = "0.4"
 CategoricalArrays = "0.7"
-Clustering = "0.13"
 DeIdentification = "0.8"
 MultivariateStats = "0.7"
 PkgBenchmark = "0.2"
 RemoteFiles = "0.3"
-Tables = "0.2"
 
 ["0.13-0.13.1"]
 Unitful = "0.17"
+
+["0.13-0.13.12"]
+Tables = ["0.2", "1"]
+
+["0.13-0.13.14"]
+Clustering = "0.13-1"
 
 ["0.13-0.13.2"]
 Coverage = "0.9"
@@ -150,28 +154,39 @@ Coverage = "0.9"
 PackageCompiler = "0.6"
 
 ["0.13-0.13.8"]
-MLJ = "0.5"
-MLJModels = "0.5"
+MLJ = "0.5-1"
+MLJModels = "0.5-1"
 
 ["0.13-0.13.9"]
 Compose = "0.7"
 
 ["0.13.0"]
-MLJBase = "0.7"
+MLJBase = "0.7-1"
 
 ["0.13.1-0"]
 Rmath = "0.6"
 
 ["0.13.1-0.13.8"]
-MLJBase = "0.8"
+MLJBase = "0.8-1"
 
-["0.13.10-0"]
-MLJ = "0.7"
-MLJBase = "0.10"
-MLJModels = "0.7"
+["0.13.10-0.13.12"]
+MLJ = "0.7-1"
+MLJBase = "0.10-1"
+MLJModels = "0.7-1"
 
 ["0.13.11-0"]
 Unitful = "1"
+
+["0.13.13-0"]
+MLJ = "0-1"
+MLJBase = "0-1"
+MLJModels = "0-1"
+
+["0.13.14-0"]
+UnicodePlots = "1"
+
+["0.13.15-0"]
+Clustering = "0-1"
 
 ["0.13.2-0.13.10"]
 Unitful = "0.18"
@@ -180,9 +195,9 @@ Unitful = "0.18"
 Coverage = "1"
 
 ["0.13.9"]
-MLJ = "0.6"
-MLJBase = "0.9"
-MLJModels = "0.6"
+MLJ = "0.6-1"
+MLJBase = "0.9-1"
+MLJModels = "0.6-1"
 
 ["0.8-0.10"]
 StaticArrays = "0.0.0 - 0.12"
