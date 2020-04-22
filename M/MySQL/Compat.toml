@@ -16,8 +16,14 @@ julia = ["0.7.0", "1"]
 [1]
 BinaryProvider = "0.5"
 DBInterface = "2"
-DecFP = "0.4"
 MariaDB_Connector_C_jll = "3"
-Parsers = "0.3"
 Tables = "1"
 julia = "1"
+
+["1-1.0.1"]
+DecFP = "0.4"
+Parsers = "0.3"
+
+["1.0.2-1"]
+DecFP = "0.4.9-0.4"
+Parsers = ["0.3", "1"]
