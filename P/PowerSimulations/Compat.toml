@@ -14,7 +14,6 @@ DataFrames = "0.20"
 JSON = "0.21"
 JuMP = "0.21"
 ParameterJuMP = "0.2"
-PowerModels = "0.15"
 TimerOutputs = "0.5"
 julia = "1.2.0-1"
 
@@ -27,6 +26,9 @@ CSV = "0.5"
 ["0.2-0.4.2"]
 Feather = "0.5.3-0.5"
 MathOptInterface = "0.9.9-0.9"
+
+["0.2-0.4.3"]
+PowerModels = "0.15"
 
 ["0.2.0"]
 InfrastructureSystems = "0.5.1-0.5"
@@ -48,9 +50,15 @@ TimeSeries = "0.17"
 ["0.4.2-0"]
 CSV = "0.6"
 
+["0.4.3"]
+PowerSystems = "0.14"
+
 ["0.4.3-0"]
 Feather = "0.5"
 InfrastructureSystems = "0.6"
 MathOptInterface = "0.9"
-PowerSystems = "0.14"
 TimeSeries = "0.18"
+
+["0.4.4-0"]
+PowerModels = "0.17"
+PowerSystems = "0.15"
