@@ -24,17 +24,26 @@ JLD2 = "0.1.2-0.1"
 SpecialFunctions = "0.8"
 
 ["0.3.1-0"]
-FFTW = "0.0.0-1.1"
 Reexport = "0.2"
 julia = "1"
+
+["0.3.1-0.3.3"]
+FFTW = "0.0.0-1.1"
 
 ["0.3.2"]
 SpecialFunctions = ["0.10", "1"]
 
 ["0.3.2-0"]
-CuArrays = "1"
 FourierFlows = "0.4"
 JLD2 = "0.1"
 
-["0.3.3-0"]
+["0.3.2-0.3.3"]
+CuArrays = "1"
+
+["0.3.3"]
 SpecialFunctions = ["0.8", "1"]
+
+["0.3.4-0"]
+CuArrays = "1-2"
+FFTW = "1"
+SpecialFunctions = ["0.8", "0.10", "1"]
