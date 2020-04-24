@@ -1,10 +1,16 @@
 [0]
-ADCME = "0.4-0.5"
 Conda = "1"
 MAT = "0"
 Optim = "0"
 Parameters = "0"
 ProgressMeter = "1"
 PyCall = "1.91.0-1"
-PyPlot = "2.8.0-2"
 julia = "1"
+
+["0-0.1"]
+ADCME = "0.4-0.5"
+PyPlot = "2.8.0-2"
+
+["0.2-0"]
+ADCME = "0.5"
+PyPlot = "2"
