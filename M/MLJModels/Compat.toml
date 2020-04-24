@@ -105,10 +105,12 @@ MLJModelInterface = "0.1"
 
 ["0.8-0"]
 Requires = ["0.5", "1"]
-ScientificTypes = "0.7"
 
 ["0.8-0.9.0"]
 Distributions = "0.22"
+
+["0.8-0.9.8"]
+ScientificTypes = "0.7"
 
 ["0.8.2-0"]
 Tables = ["0.2", "1"]
@@ -127,3 +129,6 @@ StatsBase = "0.32-0.33"
 
 ["0.9.8-0"]
 MLJBase = "0.12-0.13"
+
+["0.9.9-0"]
+ScientificTypes = "0.7-0.8"
