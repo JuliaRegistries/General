@@ -16,7 +16,6 @@ Plots = "0.27"
 SpecialFunctions = "0.8"
 
 ["0.8-0"]
-MosaicViews = "0.1"
 NFFT = "0.4"
 Reexport = "0.2"
 Wavelets = "0.9"
@@ -30,6 +29,9 @@ LinearMaps = "2.5.2-2"
 ["0.8-0.9.1"]
 BenchmarkTools = "0.4.3-0.4"
 LaTeXStrings = "1.0.3-1"
+
+["0.8-0.9.3"]
+MosaicViews = "0.1"
 
 ["0.9-0"]
 FFTW = "1.2.0-1"
@@ -76,8 +78,11 @@ SpecialFunctions = "0.10"
 BenchmarkTools = "0.5"
 LaTeXStrings = "1.1.0-1"
 
-["0.9.3-0"]
+["0.9.3"]
 Colors = "0.8-0.11"
+Plots = "0.29"
+
+["0.9.3-0"]
 DSP = "0.6"
 FFTViews = "0.3"
 FileIO = "1.2.0-1"
@@ -86,5 +91,9 @@ ImageTransformations = "0.8"
 Interpolations = "0.12"
 LinearMaps = "2.6.0-2"
 MIRTio = "0.2"
-Plots = "0.29"
 SpecialFunctions = "0.8-0.10"
+
+["0.9.4-0"]
+Colors = "0.8-0.12"
+MosaicViews = "0.1-0.2"
+Plots = ["0.29", "1"]
