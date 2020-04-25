@@ -1,6 +1,13 @@
 [0]
+julia = "1"
+
+["0-0.1.0"]
 FFTW = "1.0.1-1"
 IncGammaBeta = "0.1"
 Nemo = "0.13.5-0.15"
 SpecialFunctions = "0.8"
-julia = "1"
+
+["0.1.1-0"]
+FFTW = "1"
+Nemo = "0.13.5-0.17"
+SpecialFunctions = "0.8-0.10"
