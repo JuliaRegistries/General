@@ -23,13 +23,23 @@ StatsBase = "0"
 StatsMakie = "0"
 
 ["0.3.3-0"]
-AbstractPlotting = "0.9.17-0.10"
 Blink = "0.12"
-Colors = "0.11"
 DynamicalSystems = "1"
 Interact = "0.10"
+StatsBase = "0.32"
+julia = "1"
+
+["0.3.3-0.4"]
+AbstractPlotting = "0.9.17-0.10"
+Colors = "0.11"
 Observables = "0.2"
 Reexport = "0.2"
-StatsBase = "0.32"
 StatsMakie = ["0.0.6", "0.1"]
-julia = "1"
+
+["0.5-0"]
+AbstractPlotting = "0.10.2-0.10"
+DataStructures = "0.17"
+DynamicalBilliards = "3.11.1-3"
+MakieLayout = "0.6-0.7"
+Observables = "0.2-0.3"
+StatsMakie = "0.2"
