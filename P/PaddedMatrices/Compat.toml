@@ -1,8 +1,16 @@
 [0]
-LoopVectorization = "0.6.28-0.6"
-SIMDPirates = "0.7.8-0.7"
 SLEEFPirates = "0.4.4-0.4"
 StackPointers = "0.1.2-0.1"
+julia = "1.3.0-1"
+
+["0-0.1.0"]
+LoopVectorization = "0.6.28-0.6"
+SIMDPirates = "0.7.8-0.7"
 VectorizationBase = "0.10"
 VectorizedRNG = "0.1.6-0.1"
-julia = "1.3.0-1"
+
+["0.1.1-0"]
+LoopVectorization = "0.7.2-0.7"
+SIMDPirates = "0.7.17-0.7"
+VectorizationBase = "0.10.5-0.10"
+VectorizedRNG = "0.1.7-0.1"
