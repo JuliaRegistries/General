@@ -6,8 +6,10 @@ Cassette = "0.2.2-0"
 Espresso = "0.6-0"
 Requires = "0.5.2-0"
 
-["0.2-0"]
+["0.2"]
 Cassette = "0.2.6-0.2"
+
+["0.2-0"]
 Espresso = "0.6"
 
 ["0.2.2"]
@@ -18,7 +20,14 @@ CuArrays = "1.2.1-1"
 ["0.2.2-0"]
 JuliaInterpreter = "0.7.2-0.7"
 
-["0.2.3-0"]
+["0.2.3-0.2"]
 CUDAapi = "2"
 CUDAnative = "2.6.0-2"
 CuArrays = "1.5.0-1"
+
+["0.3-0"]
+CUDAapi = ["2", "4"]
+CUDAnative = "2.6.0-3"
+Cassette = "0.2.6-0.3"
+CuArrays = "1.5.0-2"
+Distributions = "0.23.2-0.23"
