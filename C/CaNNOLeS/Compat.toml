@@ -6,8 +6,15 @@ NLPModels = "0.8"
 
 ["0.1.1-0"]
 HSL = "0.1"
-Krylov = "0.3"
 LDLFactorizations = "0.4"
+SolverTools = "0.1"
+
+["0.1.1-0.1"]
+Krylov = "0.3"
 LinearOperators = "0.5-0.6"
 NLPModels = "0.8-0.9"
-SolverTools = "0.1"
+
+["0.2-0"]
+Krylov = ["0.4", "1"]
+LinearOperators = ["0.7", "1"]
+NLPModels = "0.12"
