@@ -1,11 +1,17 @@
 [0]
 DataFrames = "0.18-0.20"
-Distributions = "0.20-0.22"
-StatsBase = "0.30-0.32"
 StatsModels = "0.6"
 
 ["0-0.0.1"]
 julia = "1"
 
+["0.0"]
+Distributions = "0.20-0.22"
+StatsBase = "0.30-0.32"
+
 ["0.0.2-0"]
 julia = "1.3.0-1"
+
+["0.1-0"]
+Distributions = "0.20-0.23"
+StatsBase = "0.30-0.33"
