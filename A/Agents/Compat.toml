@@ -4,10 +4,14 @@ julia = "1"
 ["1.1.7-1"]
 julia = ["0.7.0", "1"]
 
-[2]
+[2-3]
 DataFrames = "0-1"
 LightGraphs = "1"
 julia = "1"
 
 ["2.2-2"]
 StatsBase = "0.32"
+
+[3]
+SQLite = "1"
+StatsBase = "0.32-0.33"

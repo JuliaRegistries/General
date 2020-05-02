@@ -9,17 +9,23 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 VegaLite = "112f6efa-9a02-5b7d-90c0-432ed331239a"
 
 [1-2]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[1-3]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["1.1.7-1"]
 Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
 Fontconfig = "186bb1d3-e1f7-5a2c-a377-96d770f13627"
 
-["1.1.7-2"]
+["1.1.7-3"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
-["2.2-2"]
+["2.2-3"]
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+[3]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SQLite = "0aa819cd-b072-5ff4-a722-6bc24af294d9"
