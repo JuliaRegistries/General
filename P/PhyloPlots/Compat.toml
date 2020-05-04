@@ -7,9 +7,18 @@ PhyloNetworks = "0.9-0"
 RCall = "0.11-0"
 julia = ["0.7", "1"]
 
-["0.2.1-0"]
+["0.2.1"]
 DataFrames = "0.13.0-*"
 Gadfly = "1.0.0-*"
 PhyloNetworks = "0.9.0-*"
 RCall = "0.11.0-*"
 julia = ["0.7.0", "1"]
+
+["0.2.2-0"]
+ColorTypes = "0.7-0.10"
+Colors = "0.9-0.12"
+DataFrames = "0.13-0.20"
+Gadfly = "1"
+PhyloNetworks = "0.9-0.11"
+RCall = "0.11-0.13"
+julia = ["0.7", "1"]
