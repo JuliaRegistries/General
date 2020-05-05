@@ -75,15 +75,17 @@ Compat = "2"
 ["0.19-0"]
 InvertedIndices = "1"
 
-["0.19.3-0"]
+["0.19.3-0.20"]
 DataAPI = "1.0.1-1"
 
 ["0.19.4-0"]
 Missings = "0.4.2-0.4"
 
-["0.20-0"]
+["0.20"]
 CategoricalArrays = "0.7"
 Compat = "2-3"
+
+["0.20-0"]
 Reexport = "0.1-0.2"
 SortingAlgorithms = "0.1-0.3"
 
@@ -92,3 +94,8 @@ Tables = "0.2.3-0.2"
 
 ["0.20.1-0"]
 Tables = "1"
+
+["0.21-0"]
+CategoricalArrays = "0.8"
+Compat = "2.2.0-3"
+DataAPI = "1.2.0-1"
