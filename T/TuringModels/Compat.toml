@@ -29,11 +29,22 @@ julia = "1"
 MCMCChains = "0"
 
 [1]
+Reexport = "0.2"
+
+["1.0.0"]
 CSV = "0.5"
 DataFrames = "0.19"
 Distributions = "0.21"
 MCMCChains = "0.3"
-Reexport = "0.2"
 StatsFuns = "0.8"
 StatsPlots = "0.12"
 Turing = "0.7"
+
+["1.0.1-1"]
+CSV = "0.5-0.6"
+DataFrames = "0.19-0.21"
+Distributions = "0.21-0.23"
+MCMCChains = "3"
+StatsFuns = ["0.7", "0.9"]
+StatsPlots = "0.14"
+Turing = "0.7-0.12"
