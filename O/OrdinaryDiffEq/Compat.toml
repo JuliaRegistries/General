@@ -165,10 +165,12 @@ DiffEqBase = "6.15.0-6"
 ["5.30-5"]
 NLsolve = "4.3.0-4"
 SparseDiffTools = "1.4.0-1"
-UnPack = "0.1"
 
 ["5.30-5.31"]
 DiffEqBase = "6.21.0-6"
+
+["5.30-5.35"]
+UnPack = "0.1"
 
 ["5.32"]
 ArrayInterface = "2.6.0-2"
@@ -185,6 +187,9 @@ ArrayInterface = "2.7.0-2"
 
 ["5.35.2-5"]
 DiffEqBase = "6.31.0-6"
+
+["5.36-5"]
+UnPack = ["0.1", "1"]
 
 ["5.4"]
 DiffEqBase = "5.5.1-5"
