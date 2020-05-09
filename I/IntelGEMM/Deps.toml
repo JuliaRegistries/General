@@ -1,5 +1,10 @@
 [0]
-BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0-0.1.0"]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+
+["0.1.1-0"]
+MKL_jll = "856f044c-d86e-5d09-b602-aeab76dc8ba7"
