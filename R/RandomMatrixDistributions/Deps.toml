@@ -1,9 +1,14 @@
 [0]
-ApproxFun = "28f2ccd6-bb30-5033-b560-165f7b14dc2f"
 BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 KrylovKit = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0-0.2"]
+ApproxFun = "28f2ccd6-bb30-5033-b560-165f7b14dc2f"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 RandomMatrices = "2576dda1-a324-5b11-aa66-c48ed7e3c618"
+
+["0.3-0"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
