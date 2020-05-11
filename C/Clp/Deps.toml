@@ -1,11 +1,13 @@
 [0]
 BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
 
 ["0-0.6"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 LinQuadOptInterface = "f8899e07-120b-5979-ab1d-7b97bb9e1a48"
+
+["0-0.7"]
+MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
 
 ["0.6.2-0"]
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
@@ -13,9 +15,14 @@ MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
 ["0.6.2-0.6"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-["0.7-0"]
+["0.7"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["0.7-0"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0.7.2-0"]
 Clp_jll = "06985876-5285-5a41-9fcb-8948a742cc53"
+
+["0.8-0"]
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
