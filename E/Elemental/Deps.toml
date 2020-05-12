@@ -1,7 +1,12 @@
 [0]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 DistributedArrays = "aaf54ef3-cdf8-58ed-94cc-d582ad619b94"
-LibGit2 = "76f85450-5226-5b5a-8eaa-529ad045b433"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["0-0.5"]
+LibGit2 = "76f85450-5226-5b5a-8eaa-529ad045b433"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.6-0"]
+Elemental_jll = "c2e960f2-a21d-557e-aa36-859d46eed7e8"
