@@ -4,16 +4,24 @@ julia = "1"
 ["0.10"]
 MonteCarloMeasurements = "0.5-0.6"
 
+["0.11"]
+LazyArrays = "0.14-0.15"
+RecipesBase = "0.7-0.8"
+
 ["0.11-0"]
 DiffResults = "1"
 Distributions = "0.21-0.23"
-LazyArrays = "0.14-0.15"
 LogDensityProblems = "0.10"
 MonteCarloMeasurements = "0.6-0.8"
 NamedTupleTools = "0.12-0.13"
-RecipesBase = "0.7-0.8"
 ReverseDiff = "1"
 SpecialFunctions = "0.10"
+
+["0.12-0"]
+LazyArrays = "0.14-0.16"
+MLStyle = "0.3-0.4"
+RecipesBase = ["0.7-0.8", "1"]
+Setfield = "0.6"
 
 ["0.2"]
 DynamicHMC = "1.0.5-1"
@@ -38,7 +46,6 @@ ForwardDiff = "0.10"
 GeneralizedGenerated = "0.2"
 Graphs = "0.10"
 IterTools = "1.3.0-1"
-MLStyle = "0.3"
 MacroTools = "0.5"
 PyCall = "1.91.0-1"
 Reexport = "0.2"
@@ -59,6 +66,9 @@ LogDensityProblems = "0.9"
 NamedTupleTools = "0.12"
 Plots = "0.28"
 ReverseDiff = "0.3"
+
+["0.8-0.11"]
+MLStyle = "0.3"
 
 ["0.8-0.9"]
 MonteCarloMeasurements = "0.5"
