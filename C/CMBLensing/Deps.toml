@@ -22,7 +22,6 @@ Match = "7eb4fadd-790c-5f42-8a69-bfa0b872bfbf"
 Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
 Memoization = "6fafb56a-5788-4b4e-91ca-c0cea6611c73"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
-Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
@@ -42,6 +41,9 @@ Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 ODE = "c030b06c-0b6d-57c2-b091-7029874bd033"
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 
+["0-0.2.0"]
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+
 ["0.1.2-0"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
@@ -49,3 +51,6 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0.2.1-0"]
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
