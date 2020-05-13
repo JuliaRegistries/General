@@ -1,7 +1,13 @@
 [0]
 Distributions = "0.23.1-0.23"
 Interpolations = "0.12.8-0.12"
-IntervalArithmetic = "0.15.2-0.15"
-Plots = "0.29.8-0.29"
 PyCall = "1.91.4-1"
 julia = "1.0.3-1"
+
+["0-0.1.0"]
+IntervalArithmetic = "0.15.2-0.15"
+Plots = "0.29.8-0.29"
+
+["0.1.2-0"]
+IntervalArithmetic = "0.15.2-0.17"
+PyPlot = "2.9.0-2"
