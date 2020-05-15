@@ -1,9 +1,15 @@
 [0]
-MacroTools = "0"
 julia = ["0.7", "1"]
 
 ["0-0.2.0"]
 Cassette = "0"
 
-["0.2.1-0"]
+["0-0.3.0"]
+MacroTools = "0"
+
+["0.2.1-0.3.0"]
 Cassette = "0.2-0"
+
+["0.3.1-0"]
+Cassette = "0.2-0.3"
+MacroTools = "0.5"
