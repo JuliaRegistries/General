@@ -1,8 +1,14 @@
 [0]
-Compat = "2.2.0-2"
 DataStructures = "0.17"
 Distances = "0.8"
 IterTools = "1"
 RecipesBase = "1"
 TupleTools = "1"
 julia = "1"
+
+["0-0.3"]
+Compat = "2.2.0-2"
+
+["0.4-0"]
+Compat = "3.10.0-3"
+ProgressMeter = "1.2.0-1"
