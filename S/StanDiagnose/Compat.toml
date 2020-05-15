@@ -62,8 +62,10 @@ MCMCChains = ["0.4", "1"]
 
 ["1.1.3-2"]
 BinDeps = "1"
-DataFrames = "0.20"
 Documenter = "0.24"
+
+["1.1.3-2.0.1"]
+DataFrames = "0.20"
 
 [2]
 StanBase = "1.1.0-2"
@@ -73,3 +75,6 @@ CSV = "0.5"
 
 ["2.0.1-2"]
 CSV = "0.5-0.6"
+
+["2.0.2-2"]
+DataFrames = "0.20-0.21"
