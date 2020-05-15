@@ -1,4 +1,4 @@
-[2-3]
+[2-4]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 RandomNumbers = "e6cf234a-135c-5ec9-84dd-332b85af5143"
@@ -7,15 +7,19 @@ RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 ResettableStacks = "ae5879a3-cd67-5da8-be7f-38c6eb64a37b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["2.2-3"]
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-
 ["2.2-3.1"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["2.3-3"]
+["2.2-4"]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["2.3-4"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["3.3-3"]
+["3.3-4"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+[4]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+PoissonRandom = "e409e4f3-bfea-5376-8464-e040bb5c01ab"
