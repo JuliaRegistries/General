@@ -2,10 +2,17 @@
 DiffEqBase = "6.12.2-6"
 DiffEqSensitivity = "6"
 DocStringExtensions = "0.8"
-DynamicBoundsBase = "0.1"
 ElasticArrays = "1"
 ForwardDiff = "0.10"
-McCormick = "0.1"
 Reexport = "0.2"
 Sundials = "3.8.3-3"
+
+["0-0.1"]
+DynamicBoundsBase = "0.1"
+McCormick = "0.1"
 julia = "1.2-1.3"
+
+["0.2-0"]
+DynamicBoundsBase = "0.3"
+McCormick = "0.5"
+julia = "1.2-1.4"
