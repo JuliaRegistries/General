@@ -32,7 +32,7 @@ repository after the new release of your package is merged into the registry.
 
 ### Automatic merging of pull requests
 
-Pull requests that meet certain criteria are automatically merged peridically.
+Pull requests that meet certain criteria are automatically merged periodically.
 Only pull requests that are opened by [Registrator][registrator] are candidates
 for automatic merging.
 
