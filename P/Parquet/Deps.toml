@@ -1,7 +1,6 @@
 [0]
 CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
 MemPool = "f9f48841-c794-520a-933b-121f7ba6ed94"
-ProtoBuf = "3349acd9-ac6a-5e09-bcdb-63829b23a429"
 Snappy = "59d4ed8c-697a-5b28-a4c7-fe95c22820f9"
 Thrift = "8d9c9c80-f77e-5080-9541-c6f69d204e22"
 
@@ -9,6 +8,9 @@ Thrift = "8d9c9c80-f77e-5080-9541-c6f69d204e22"
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Nullables = "4d1e1d77-625e-5b40-9113-a560ec7a8ecd"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.4"]
+ProtoBuf = "3349acd9-ac6a-5e09-bcdb-63829b23a429"
 
 ["0.4-0"]
 CodecZstd = "6b39b394-51ab-5f42-8807-6242bab2b4c2"
