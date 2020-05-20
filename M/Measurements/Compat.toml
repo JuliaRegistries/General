@@ -22,6 +22,11 @@ julia = "1.0.0-1"
 
 ["2.2-2"]
 Calculus = "0.4.1-0.5"
-RecipesBase = "0.6-0.7"
 Requires = ["0.5", "1"]
 julia = "1"
+
+["2.2.0"]
+RecipesBase = "0.6-0.7"
+
+["2.2.1-2"]
+RecipesBase = ["0.6-0.8", "1"]
