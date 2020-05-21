@@ -23,7 +23,6 @@ Variography = "0.3.6-*"
 julia = "1"
 
 ["0.3.2-0"]
-Distances = "0.8"
 NearestNeighbors = "0.4"
 
 ["0.3.2-0.3"]
@@ -32,6 +31,9 @@ Variography = "0.3"
 
 ["0.3.2-0.4.0"]
 StaticArrays = "0.11"
+
+["0.3.2-0.4.3"]
+Distances = "0.8"
 
 ["0.4-0.4.1"]
 GeoStatsBase = "0.6"
@@ -46,5 +48,9 @@ GeoStatsBase = "0.7"
 ["0.4.2-0"]
 Variography = "0.5"
 
-["0.4.3-0"]
+["0.4.3"]
 GeoStatsBase = "0.7-0.8"
+
+["0.4.4-0"]
+Distances = "0.8-0.9"
+GeoStatsBase = "0.7-0.9"
