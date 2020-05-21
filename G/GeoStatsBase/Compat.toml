@@ -15,7 +15,6 @@ Parameters = "0.7.3-*"
 StaticArrays = "0.7.0-*"
 
 ["0.5-0"]
-Distances = "0.8"
 NearestNeighbors = "0.4"
 
 ["0.5-0.6.0"]
@@ -30,6 +29,9 @@ StaticArrays = "0.11"
 ["0.5-0.7"]
 CSV = "0.5"
 DataFrames = "0.18"
+
+["0.5-0.9.3"]
+Distances = "0.8"
 
 ["0.6-0"]
 AverageShiftedHistograms = "0.8"
@@ -105,3 +107,6 @@ ScientificTypes = "0.7-0.8"
 
 ["0.8.7-0"]
 Optim = ["0.18", "0.20-0.21"]
+
+["0.9.4-0"]
+Distances = "0.8-0.9"
