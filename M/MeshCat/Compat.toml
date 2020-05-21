@@ -19,6 +19,14 @@ DocStringExtensions = "0.4-0"
 ["0.10-0"]
 WebSockets = "1"
 
+["0.11-0"]
+Cassette = "0.2.5-0.3"
+Colors = "0.9-0.12"
+CoordinateTransformations = "0.5-0.6"
+FFMPEG = "0.2-0.3"
+GeometryTypes = "0.6-0.8"
+Rotations = "1"
+
 ["0.2-0.3"]
 BinDeps = "0.8.7-0"
 
@@ -61,16 +69,20 @@ WebIO = "0.7"
 WebIO = ["0.4.2-0.5", "0.7"]
 
 ["0.7-0"]
-GeometryTypes = "0.6-0.7"
 Mux = "0.7"
+
+["0.7-0.10"]
+GeometryTypes = "0.6-0.7"
 
 ["0.7-0.9"]
 AssetRegistry = "0.1"
 JSExpr = ["0.3", "0.5"]
 
 ["0.8-0"]
-Cassette = "0.2.5-0.2"
 MsgPack = "1"
+
+["0.8-0.10"]
+Cassette = "0.2.5-0.2"
 
 ["0.8-0.9"]
 WebIO = "0.8.11-0.8"
@@ -80,11 +92,13 @@ Blink = "0.12"
 
 ["0.9-0"]
 BinDeps = "1"
-Colors = "0.9-0.11"
-CoordinateTransformations = "0.5"
 DocStringExtensions = "0.5-0.8"
-FFMPEG = "0.2"
 Parameters = "0.10-0.12"
 Requires = ["0.5", "1"]
-Rotations = ["0.8-0.11", "0.13"]
 StaticArrays = "0.10-0.12"
+
+["0.9-0.10"]
+Colors = "0.9-0.11"
+CoordinateTransformations = "0.5"
+FFMPEG = "0.2"
+Rotations = ["0.8-0.11", "0.13"]
