@@ -32,12 +32,14 @@ AbstractAlgebra = "0.5.2-0.5"
 Nemo = "0.14.1-0.14"
 
 ["0.6.6-0"]
-Requires = "0.5.2-0.5"
 julia = "1"
 
 ["0.6.6-0.6"]
 AbstractAlgebra = "0.7"
 Nemo = "0.15.1-0.15"
+
+["0.6.6-0.8.2"]
+Requires = "0.5.2-0.5"
 
 ["0.7"]
 AbstractAlgebra = "0.8"
@@ -50,3 +52,6 @@ Nemo = "0.17"
 ["0.8.1-0"]
 AbstractAlgebra = "0.9.1-0.9"
 Nemo = "0.17.4-0.17"
+
+["0.8.3-0"]
+Requires = ["0.5.2-0.5", "1"]
