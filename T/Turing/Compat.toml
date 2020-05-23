@@ -45,13 +45,19 @@ AbstractMCMC = "0.5.5-0.5"
 AdvancedHMC = "0.2.24-0.2"
 StatsBase = "0.32-0.33"
 
+["0.12"]
+DynamicPPL = "0.7.1-0.7"
+
 ["0.12-0"]
 AbstractMCMC = "1"
 AdvancedMH = "0.5"
 Bijectors = "0.6.4-0.7"
 DistributionsAD = "0.4.8-0.5"
-DynamicPPL = "0.7.1-0.7"
 Libtask = "0.4"
+
+["0.13-0"]
+DynamicPPL = "0.8"
+NamedArrays = "0.9"
 
 ["0.5.1-0.6.14"]
 Bijectors = "0-0.2"
