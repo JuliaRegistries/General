@@ -10,7 +10,7 @@ BioAlignments = "1"
 DataFrames = "0"
 RLEVectors = "0.7.1-0"
 
-["0.4-0"]
+["0.4-1"]
 julia = "1"
 
 ["0.4.0"]
@@ -18,3 +18,11 @@ OrderedCollections = "0-1"
 
 ["0.4.1-0"]
 BioAlignments = "0-1"
+
+[1]
+DataFrames = "0.20.2-0.20"
+GenomicFeatures = "2"
+OrderedCollections = "1.1.0-1"
+RLEVectors = "0.8.2-0.8"
+Requires = "1.0.1-1"
+XAM = "0.2.1-0.2"
