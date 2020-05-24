@@ -2,9 +2,11 @@
 BioCore = "2.0.2-2"
 BioSequences = "1"
 BufferedStreams = "1"
-IntervalTrees = "1"
 Libz = "1"
 julia = ["0.7", "1"]
+
+[1-2]
+IntervalTrees = "1"
 
 ["1.0.0"]
 Automa = "0.7-0"
@@ -17,13 +19,19 @@ URIParser = "0.4-0"
 ["1.0.1-1"]
 Automa = "0.7-0.8"
 BGZFStreams = "0.3"
-DataStructures = "0.11-0.17"
 URIParser = "0.4"
 
 ["1.0.1-1.0.2"]
 ColorTypes = "0.7.4-0.8"
 FixedPointNumbers = "0.5.2-0.6"
 
+["1.0.1-2"]
+DataStructures = "0.11-0.17"
+
 ["1.0.3-1"]
 ColorTypes = "0.7.4-0.9"
 FixedPointNumbers = "0.5.2-0.7"
+
+[2]
+BioGenerics = "0.1"
+julia = "1.1.0-1"

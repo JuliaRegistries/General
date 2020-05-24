@@ -1,15 +1,21 @@
 [0]
 BioAlignments = "00701ae9-d1dc-5365-b64a-a3a3ebf5695e"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-GenomicFeatures = "899a7d2d-5c61-547b-bef9-6698a8d05446"
 RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
-RLEVectors = "17b45ede-fd0d-54ef-b825-8cf9fc64da95"
 
 ["0-0.4.0"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.4-0"]
+[0-1]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+GenomicFeatures = "899a7d2d-5c61-547b-bef9-6698a8d05446"
+RLEVectors = "17b45ede-fd0d-54ef-b825-8cf9fc64da95"
+
+["0.4-1"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 
 ["0.4.0"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
+[1]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+XAM = "d759349c-bcba-11e9-07c2-5b90f8f05f7c"

@@ -5,12 +5,17 @@ BioCore = "37cfa864-2cd6-5c12-ad9e-b6597d696c81"
 BioSequences = "7e6ae17a-c86d-528c-b3b9-7f778a29fe59"
 BufferedStreams = "e1450e63-4bb3-523b-b2a4-4ffa8c0fd77d"
 ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
-DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
-IntervalTrees = "524e6230-43b7-53ae-be76-1e9e4d08d11b"
 Libz = "2ec943e9-cfe8-584d-b93d-64dcb6d567b7"
 URIParser = "30578b45-9adc-5946-b283-645ec420af67"
+
+[1-2]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+IntervalTrees = "524e6230-43b7-53ae-be76-1e9e4d08d11b"
 
 ["1.0.0"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[2]
+BioGenerics = "47718e42-2ac5-11e9-14af-e5595289c2ea"

@@ -2,13 +2,18 @@
 Automa = "67c07d97-cdcb-5c2c-af73-a7f9c32a568b"
 BGZFStreams = "28d598bf-9b8f-59f1-b38c-5a06b4a0f5e6"
 BioCore = "37cfa864-2cd6-5c12-ad9e-b6597d696c81"
-BioSequences = "7e6ae17a-c86d-528c-b3b9-7f778a29fe59"
-BioSymbols = "3c28c6f8-a34d-59c4-9654-267d177fcfa9"
 BufferedStreams = "e1450e63-4bb3-523b-b2a4-4ffa8c0fd77d"
 GenomicFeatures = "899a7d2d-5c61-547b-bef9-6698a8d05446"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[1-2]
+BioSequences = "7e6ae17a-c86d-528c-b3b9-7f778a29fe59"
+BioSymbols = "3c28c6f8-a34d-59c4-9654-267d177fcfa9"
 IntervalTrees = "524e6230-43b7-53ae-be76-1e9e4d08d11b"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 ["1.0.0"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[2]
+BioGenerics = "47718e42-2ac5-11e9-14af-e5595289c2ea"
