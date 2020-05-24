@@ -70,7 +70,14 @@ Turing = "0.11"
 
 ["2.13-2"]
 Optim = "0.19-0.21"
+
+["2.13-2.14.0"]
 Turing = "0.12"
+
+["2.14.1-2"]
+Distances = "0.8-0.9"
+PDMats = "0.9-0.10"
+Turing = "0.12-0.13"
 
 ["2.2"]
 DiffResults = "0.0.4"
@@ -79,18 +86,20 @@ Requires = "0.5"
 ["2.2-2"]
 ApproxBayes = "0.3"
 DiffEqBase = "6.5.0-6"
-Distances = "0.8"
 DocStringExtensions = "0.8"
 DynamicHMC = "2.1.0-2"
 ForwardDiff = "0.10"
 LabelledArrays = ["0.7", "1"]
 MacroTools = "0.5"
 Missings = "0.4"
-PDMats = "0.9"
 Parameters = "0.12"
 Reexport = "0.2"
 StructArrays = "0.4"
 TransformVariables = "0.3"
+
+["2.2-2.14.0"]
+Distances = "0.8"
+PDMats = "0.9"
 
 ["2.2-2.3"]
 Distributions = "0.21"
