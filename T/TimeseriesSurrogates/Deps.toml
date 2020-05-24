@@ -1,4 +1,10 @@
-[0]
+["0-0.3"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.4"]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
+[0-1]
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
@@ -8,11 +14,9 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Wavelets = "29a6e085-ba6d-5f35-a997-948ac2efa89a"
 
-["0-0.3"]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["0-0.4"]
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-
 ["0.3-0"]
 UncertainData = "dcd9ba68-c27b-5cea-ae21-829cd07325bf"
+
+[1]
+DelayEmbeddings = "5732040d-69e3-5649-938a-b6b4f237613f"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
