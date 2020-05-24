@@ -5,7 +5,6 @@ julia = "1"
 Crayons = "4"
 DocStringExtensions = "0.8"
 FieldDocTables = "0.1"
-FieldMetadata = "0.1"
 FileIO = "1"
 Mixers = "0.1"
 UnicodeGraphics = "0.1"
@@ -18,6 +17,9 @@ Setfield = "0.5"
 ["0.2-0.5"]
 FieldDefaults = "0.1"
 Lazy = "0.13-0.14"
+
+["0.2-0.7"]
+FieldMetadata = "0.1"
 
 ["0.2.0"]
 ColorSchemes = "3"
@@ -38,6 +40,8 @@ Setfield = "0.5-0.6"
 
 ["0.6-0"]
 Colors = "0.9-0.12"
+
+["0.6-0.7"]
 FieldDefaults = "0.2"
 Lazy = "0.13-0.15"
 
@@ -46,3 +50,8 @@ Setfield = "0.6"
 
 ["0.7.2-0"]
 julia = "1.2.0-1"
+
+["0.8-0"]
+FieldDefaults = "0.3"
+FieldMetadata = "0.2"
+FreeTypeAbstraction = "0.6.5-0.6"
