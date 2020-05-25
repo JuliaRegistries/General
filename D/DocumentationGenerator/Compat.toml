@@ -3,7 +3,13 @@ AbstractTrees = "0.2-0.3"
 Documenter = "0.24"
 GitHub = "5.1.0-5"
 GithubMarkdown = "0.1"
-Gumbo = "0.7"
-HTMLSanitizer = "0.1.2-0.1"
 JSON = "0.21"
 julia = "1.1.0-1"
+
+["0-0.3.0"]
+Gumbo = "0.7"
+HTMLSanitizer = "0.1.2-0.1"
+
+["0.3.1-0"]
+Gumbo = "0.8"
+HTMLSanitizer = "0.2"
