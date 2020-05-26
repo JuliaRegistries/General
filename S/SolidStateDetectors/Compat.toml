@@ -22,8 +22,6 @@ Unitful = "0"
 YAML = "0.3"
 
 ["0.3-0"]
-ArraysOfArrays = "0.4"
-Clustering = "0.13"
 FillArrays = "0.8"
 Formatting = "0.4"
 Interpolations = "0.12"
@@ -37,6 +35,10 @@ TypedTables = "1.2.0-1"
 
 ["0.3-0.4.0"]
 StatsBase = "0.32"
+
+["0.3-0.4.1"]
+ArraysOfArrays = "0.4"
+Clustering = "0.13"
 
 ["0.3.0"]
 Distributions = "0.21"
@@ -52,15 +54,17 @@ Unitful = "0.18"
 Distributions = "0.21-0.22"
 
 ["0.3.1-0"]
-IntervalSets = "0.3-0.4"
-RecipesBase = "0.7-0.8"
 Requires = ["0.5", "1"]
-Rotations = "0.12-0.13"
 Tables = ["0.2", "1"]
 Unitful = ["0.18", "1"]
 
 ["0.3.1-0.3"]
 NamedTupleTools = "0.12-0.13"
+
+["0.3.1-0.4.1"]
+IntervalSets = "0.3-0.4"
+RecipesBase = "0.7-0.8"
+Rotations = "0.12-0.13"
 
 ["0.3.2-0"]
 Distributions = "0.21-0.23"
@@ -70,3 +74,10 @@ YAML = "0.3-0.4"
 
 ["0.4.1-0"]
 StatsBase = "0.32-0.33"
+
+["0.4.2-0"]
+ArraysOfArrays = "0.4-0.5"
+Clustering = "0.13-0.14"
+IntervalSets = "0.3-0.5"
+RecipesBase = ["0.7-0.8", "1"]
+Rotations = ["0.12-0.13", "1"]

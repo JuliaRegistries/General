@@ -14,11 +14,11 @@ DataStructures = "0.0.0 - 0.17"
 RecipesBase = "0.0.0 - 0.7"
 StaticArrays = "0.0.0 - 0.12"
 
-["2.4-3"]
-julia = "1"
-
 ["2.4-3.1"]
 ResettableStacks = "0.6.0 - 0.6"
+
+["2.4-3.10"]
+julia = "1"
 
 ["3.0"]
 DiffEqBase = "5"
@@ -26,8 +26,11 @@ DiffEqBase = "5"
 ["3.1"]
 DiffEqBase = "5.1-5"
 
-["3.10-3"]
+["3.10-4"]
 RecipesBase = ["0.7-0.8", "1"]
+
+["3.11-4"]
+julia = "1.4.0-1"
 
 ["3.2-3.3"]
 DiffEqBase = "0.0.0 - 6"
@@ -46,10 +49,6 @@ ResettableStacks = "0.0.0 - 1"
 ["3.4"]
 StaticArrays = "0.12"
 
-["3.4-3"]
-DataStructures = "0.17"
-RandomNumbers = "1.3.0-1"
-
 ["3.4-3.5"]
 ResettableStacks = "0.6"
 
@@ -63,18 +62,26 @@ RecursiveArrayTools = "1"
 ["3.4-3.8"]
 RecipesBase = "0.7"
 
-["3.5-3"]
+["3.4-4"]
+DataStructures = "0.17"
+RandomNumbers = "1.3.0-1"
+
+["3.5-4"]
 StaticArrays = "0.10-0.12"
 
-["3.6-3"]
+["3.6-4"]
 ResettableStacks = ["0.6", "1"]
 
-["3.7-3"]
+["3.7-4"]
 Requires = ["0.5", "1"]
 
-["3.8-3"]
+["3.8-4"]
 DiffEqBase = "6.11.0-6"
 RecursiveArrayTools = "2"
 
 ["3.9"]
 RecipesBase = "0.7-0.8"
+
+[4]
+Distributions = "0.22-0.23"
+PoissonRandom = "0.4"

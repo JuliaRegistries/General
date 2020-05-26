@@ -1,7 +1,5 @@
 [0]
 DataFrames = "0.20"
-PlotlyJS = "0.13"
-Weave = "0.9"
 julia = "1"
 
 ["0-0.1"]
@@ -10,6 +8,10 @@ GR = "0.47"
 ORCA = "0.3"
 PowerSystems = "0.11"
 WebIO = "0.8"
+
+["0-0.3"]
+PlotlyJS = "0.13"
+Weave = "0.9"
 
 ["0-0.3.2"]
 InfrastructureSystems = "0.5"
@@ -31,8 +33,23 @@ PowerSystems = "0.13"
 
 ["0.3.3-0"]
 Colors = "0.12"
+Plots = "1"
+
+["0.3.3-0.3"]
 GR = "0.48"
 InfrastructureSystems = "0.6"
-Plots = "1"
 PowerSystems = "0.14"
 RecipesBase = "1"
+
+["0.4-0"]
+CSV = "0.6"
+Requires = "1"
+YAML = "0.4"
+
+["0.4-0.4.1"]
+InfrastructureSystems = "0.8"
+PowerSystems = "0.18"
+
+["0.4.2-0"]
+InfrastructureSystems = "0.9"
+PowerSystems = "0.19"

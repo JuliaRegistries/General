@@ -75,14 +75,9 @@ PyPlot = "2.6.0-2"
 
 ["0.15-0"]
 AxisArrays = "0.3-0.4"
-DataFrames = "0.19-0.20"
-Distances = "0.7-0.8"
-Extremes = "0.1.1-0.1"
 Interpolations = "0.12"
-InverseDistanceWeighting = "0.2-0.3"
 IterTools = "1.1.0-1"
 NaNMath = "0.3"
-Polynomials = "0.5-0.6"
 ProgressMeter = "1"
 Reexport = "0.2"
 Shapefile = "0.4-0.6"
@@ -96,6 +91,15 @@ NetCDF = "0.7-0.8"
 ["0.15-0.19"]
 GeoStats = "0.8-0.10"
 
+["0.15-0.20"]
+Extremes = "0.1.1-0.1"
+InverseDistanceWeighting = "0.2-0.3"
+Polynomials = "0.5-0.6"
+
+["0.15-0.21.0"]
+DataFrames = "0.19-0.20"
+Distances = "0.7-0.8"
+
 ["0.16-0.17"]
 ClimateBase = "0.1"
 
@@ -105,6 +109,8 @@ ClimateBase = "0.2"
 ["0.18.2-0"]
 ArgCheck = "1-2"
 NCDatasets = "0.9-0.10"
+
+["0.18.2-0.20"]
 NetCDF = "0.7-0.9"
 
 ["0.19"]
@@ -113,3 +119,15 @@ ClimateBase = "0.3"
 ["0.20-0"]
 ClimateBase = "0.6"
 GeoStats = "0.11"
+
+["0.21-0"]
+Extremes = "0.1"
+InverseDistanceWeighting = "0.3"
+NetCDF = "0.7-0.10"
+Polynomials = ["0.5-0.8", "1"]
+PyCall = "1.91.0-1"
+
+["0.21.1-0"]
+DataFrames = "0.19-0.21"
+Distances = "0.7-0.9"
+RollingFunctions = "0.6"

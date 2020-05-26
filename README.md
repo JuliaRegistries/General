@@ -32,7 +32,7 @@ repository after the new release of your package is merged into the registry.
 
 ### Automatic merging of pull requests
 
-Pull requests that meet certain criteria are automatically merged peridically.
+Pull requests that meet certain criteria are automatically merged periodically.
 Only pull requests that are opened by [Registrator][registrator] are candidates
 for automatic merging.
 
@@ -94,7 +94,7 @@ then retrigger Registrator on the branch/commit that includes the fix.
 
 If you for some reason can't (or won't) adhere to the guidelines you will have
 to wait for a human to review/merge the pull request. You can contact a human
-in the `#pkg-registration` channel in the official Julia Slack to expediate this process.
+in the `#pkg-registration` channel in the official Julia Slack to expedite this process.
 
 #### My pull request has a merge conflict, what do I do?
 

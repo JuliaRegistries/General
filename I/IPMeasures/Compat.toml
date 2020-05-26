@@ -1,6 +1,5 @@
 [0]
 Distances = "0.8"
-StatsBase = "0.32"
 julia = "1"
 
 ["0-0.1.0"]
@@ -9,11 +8,18 @@ ConditionalDists = "0.1"
 ["0-0.1.1"]
 Flux = "0.10"
 
+["0-0.1.3"]
+StatsBase = "0.32"
+
 ["0.1.1-0.1.2"]
 ConditionalDists = "0.2"
 
-["0.1.2-0"]
+["0.1.2-0.1.3"]
 CuArrays = "1.7.0-1"
 
 ["0.1.3-0"]
 ConditionalDists = "0.3"
+
+["0.1.4-0"]
+CuArrays = "2"
+StatsBase = "0.32-0.33"

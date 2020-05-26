@@ -21,9 +21,11 @@ MultivariateBases = "0.1.2-0.1"
 MultivariateMoments = "0.3"
 MultivariatePolynomials = "0.3.6-0.3"
 MutableArithmetics = "0.2.6-0.2"
-Polyhedra = "0.6"
 Reexport = "0.2"
 SumOfSquares = "0.4"
+
+["0.1-0.1.1"]
+Polyhedra = "0.6"
 
 ["0.1.0"]
 DataStructures = "0.17"
@@ -32,3 +34,7 @@ RecipesBase = "0.7-0.8"
 ["0.1.1-0"]
 DataStructures = "0.17.11-0.17"
 RecipesBase = ["0.7-0.8", "1"]
+
+["0.1.2-0"]
+Combinatorics = "1"
+Polyhedra = "0.6.3-0.6"

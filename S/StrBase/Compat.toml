@@ -49,12 +49,17 @@ julia = "1"
 
 [1]
 CharSetEncodings = "1"
-ChrBase = "1"
 ModuleInterfaceTools = "1"
 StrAPI = "1"
+
+["1-1.0.3"]
+ChrBase = "1"
 
 ["1.0.0"]
 MurmurHash3 = "1"
 
 ["1.0.1-1"]
 MurmurHash3 = "1.0.3-1"
+
+["1.0.4-1"]
+ChrBase = "1.0.1-1"

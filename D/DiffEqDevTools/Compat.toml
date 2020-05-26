@@ -25,11 +25,13 @@ DiffEqBase = "6"
 RecursiveArrayTools = "1"
 
 ["2.16-2"]
-DiffEqNoiseProcess = "3.3.0-3"
 NLsolve = "4.2.0-4"
 
 ["2.16-2.17"]
 RecipesBase = "0.7"
+
+["2.16-2.19"]
+DiffEqNoiseProcess = "3.3.0-3"
 
 ["2.17-2"]
 DiffEqBase = "6.11.0-6"
@@ -40,6 +42,9 @@ RecipesBase = "0.7-0.8"
 
 ["2.19-2"]
 RecipesBase = ["0.7-0.8", "1"]
+
+["2.20-2"]
+DiffEqNoiseProcess = "3.3.0-4"
 
 ["2.6-2"]
 julia = "1"

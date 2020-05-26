@@ -1,21 +1,21 @@
 ["0-0.3"]
-InternedStrings = "0.6-0"
-Missings = "0"
+InternedStrings = "0.6-0.7"
+Missings = "0-0.4"
 
 ["0-0.4"]
-CategoricalArrays = "0.3-0"
+CategoricalArrays = "0.3-0.6"
 DataStreams = "0.3-0"
 WeakRefStrings = "0.4.1-0.5"
 julia = ["0.7", "1"]
 
 ["0-0.4.0"]
-DataFrames = "0.11-0"
+DataFrames = "0.11-0.20"
 
 ["0.4"]
 Tables = "0"
 
 ["0.4.1-0.4"]
-DataFrames = "0.14-0"
+DataFrames = "0.14-0.20"
 
 ["0.4.1-0.4.2"]
 Parsers = "0-0.2"
@@ -43,21 +43,21 @@ DataFrames = "0.18"
 ["0.5.12"]
 CategoricalArrays = "0.5-0.6"
 
-["0.5.12-0"]
+["0.5.12-0.6.1"]
 DataFrames = "0.18-0.20"
 
-["0.5.13-0"]
+["0.5.13-0.6.1"]
 CategoricalArrays = "0.5-0.7"
 
 ["0.5.14"]
 FilePathsBase = "0.6"
 LazyArrays = "0.12"
 
-["0.5.15-0"]
-FilePathsBase = "0.6-0.7"
-
 ["0.5.15-0.5.18"]
 LazyArrays = "0.12-0.14"
+
+["0.5.15-0.6.1"]
+FilePathsBase = "0.6-0.7"
 
 ["0.5.24-0"]
 Tables = "1"
@@ -67,3 +67,8 @@ DataFrames = "0.18-0.19"
 
 ["0.6-0"]
 Parsers = "1"
+
+["0.6.2-0"]
+CategoricalArrays = "0.8"
+DataFrames = "0.21"
+FilePathsBase = "0.6-0.8"

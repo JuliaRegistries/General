@@ -1,8 +1,4 @@
 [0]
-ColorTypes = "0-0.9"
-HistogramThresholding = "0-0.2"
-ImageContrastAdjustment = "0-0.3"
-Polynomials = "0-0.6"
 julia = "1"
 
 ["0-0.1.0"]
@@ -10,12 +6,26 @@ ColorVectorSpace = "0-0.6"
 FixedPointNumbers = "0-0.5"
 ImageCore = "0-0.7"
 
-["0.1.1-0"]
-ColorVectorSpace = "0-0.8"
+["0-0.2.1"]
+ColorTypes = "0-0.9"
+HistogramThresholding = "0-0.2"
+ImageContrastAdjustment = "0-0.3"
+Polynomials = "0-0.6"
 
 ["0.1.1-0.1"]
 FixedPointNumbers = "0-0.7"
 ImageCore = "0-0.8"
 
+["0.1.1-0.2.1"]
+ColorVectorSpace = "0-0.8"
+
 ["0.2-0"]
 ImageCore = "0.8.3-0.8"
+
+["0.2.2-0"]
+ColorTypes = "0.7-0.10"
+ColorVectorSpace = "0.6-0.8"
+HistogramThresholding = "0.1-0.2"
+ImageContrastAdjustment = "0.1-0.3"
+MappedArrays = "0.2"
+Polynomials = "1"

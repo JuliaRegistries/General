@@ -17,7 +17,7 @@ MeshIO = "0.1.0-*"
 RigidBodyDynamics = "0.5.0-*"
 julia = ["0.7.0", "1"]
 
-["0.3-0"]
+["0.3-0.4"]
 ColorTypes = "0.2.0-*"
 CoordinateTransformations = "0.4.1-*"
 GeometryTypes = "0.4.0-*"
@@ -25,6 +25,17 @@ LightXML = "0.4.0-*"
 Rotations = "0.6.1-*"
 StaticArrays = "0.5.0-*"
 
-["0.4-0"]
+["0.4"]
 RigidBodyDynamics = "2.0.0-*"
+
+["0.4-0"]
 julia = "1"
+
+["0.5-0"]
+ColorTypes = "0.7-0.10"
+CoordinateTransformations = "0.6"
+GeometryTypes = "0.6-0.7"
+LightXML = "0.8-0.9"
+RigidBodyDynamics = "2"
+Rotations = "1"
+StaticArrays = "0.8-0.12"

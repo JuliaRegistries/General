@@ -59,7 +59,7 @@ DiffEqNoiseProcess = "3.1-3"
 ["6.10-6.11"]
 DiffEqBase = "6"
 
-["6.11-6"]
+["6.11-6.19"]
 Parameters = "0.10-0.12"
 
 ["6.11.2-6.13"]
@@ -118,6 +118,24 @@ Parameters = "0.0.0 - 0.12"
 RandomNumbers = "0.0.0 - 1"
 RecursiveArrayTools = "0.0.0 - 1"
 
+["6.20-6"]
+UnPack = ["0.1", "1"]
+
+["6.21"]
+DiffEqJump = "6.7.0-6"
+
+["6.21-6"]
+OrdinaryDiffEq = "5.38.0-5"
+
+["6.21-6.22"]
+DiffEqNoiseProcess = "4.1.0-4"
+
+["6.22-6"]
+DiffEqJump = "6.7.4-6"
+
+["6.23-6"]
+DiffEqNoiseProcess = "4.1.2-4"
+
 ["6.5-6.8"]
 FillArrays = "0.0.0 - 0.8"
 
@@ -132,7 +150,6 @@ DiffEqBase = "5.20.0-5"
 
 ["6.9-6"]
 DataStructures = "0.17"
-DiffEqNoiseProcess = "3.3.1-3"
 ForwardDiff = "0.10.3-0.10"
 MuladdMacro = "0.2.1-0.2"
 NLsolve = "4"
@@ -153,6 +170,9 @@ RecursiveArrayTools = "1"
 
 ["6.9-6.17"]
 DiffEqDiffTools = "1"
+
+["6.9-6.20"]
+DiffEqNoiseProcess = "3.3.1-3"
 
 ["6.9.0"]
 Parameters = "0.11"

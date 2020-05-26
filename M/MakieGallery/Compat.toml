@@ -80,7 +80,6 @@ ZipFile = "0.8"
 ["0.1.2-0"]
 ColorSchemes = "3.5.0-3"
 ColorVectorSpace = "0.8"
-DataFrames = "0.20"
 GDAL = "1"
 ImageCore = "0.8"
 ModernGL = "1.1.0-1"
@@ -100,6 +99,9 @@ OrdinaryDiffEq = "5"
 ParameterizedFunctions = "4.2.0-4"
 RDatasets = "0.6"
 StaticArrays = "0.10-0.12"
+
+["0.1.2-0.2.4"]
+DataFrames = "0.20"
 
 ["0.1.3"]
 StatsMakie = "0.0"
@@ -137,16 +139,20 @@ ColorTypes = "0.8-0.10"
 Colors = "0.11-0.12"
 Distributions = "0.22-0.23"
 FixedPointNumbers = "0.7-0.8"
-ImageMagick = "1.1.0-1"
 KernelDensity = "0.5.1-0.5"
 OrdinaryDiffEq = "5.29.0-5"
 ParameterizedFunctions = "5"
-PlotUtils = "0.6.3-0.6"
 RDatasets = "0.6.6-0.6"
 StaticArrays = "0.11-0.12"
 
 ["0.1.8-0.1"]
 GeometryTypes = "0.8"
+
+["0.1.8-0.2.1"]
+PlotUtils = "0.6.3-0.6"
+
+["0.1.8-0.2.6"]
+ImageMagick = "1.1.0-1"
 
 ["0.1.9-0.1"]
 MakieLayout = "0.5.0"
@@ -162,7 +168,28 @@ StatsMakie = "0.2"
 AbstractPlotting = "0.10"
 MakieLayout = "0.6.0"
 
-["0.2.1-0"]
-AbstractPlotting = "0.10.5-0.10"
-GeoMakie = "0.1.9-0.1"
+["0.2.1"]
 MakieLayout = "0.6"
+
+["0.2.1-0"]
+GeoMakie = "0.1.9-0.1"
+
+["0.2.1-0.2.6"]
+AbstractPlotting = "0.10.5-0.10"
+
+["0.2.2"]
+MakieLayout = "0.6-0.7"
+
+["0.2.2-0"]
+PlotUtils = ["0.6.3-0.6", "1"]
+
+["0.2.3-0"]
+Animations = "0.4"
+MakieLayout = "0.8-0.9"
+
+["0.2.5-0"]
+DataFrames = "0.20-0.21"
+
+["0.2.7-0"]
+AbstractPlotting = "0.11"
+ImageIO = "0.2"

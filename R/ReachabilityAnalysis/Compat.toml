@@ -11,7 +11,6 @@ StaticArrays = "0.12"
 TaylorIntegration = "0.6-0.8"
 TaylorModels = "0.3"
 TaylorSeries = "0.10"
-UnPack = "0.1"
 julia = "1.3.0-1"
 
 ["0-0.1"]
@@ -21,9 +20,20 @@ RecipesBase = "0.6-0.8"
 ["0-0.2"]
 IntervalArithmetic = "0.16"
 
+["0-0.4"]
+UnPack = "0.1"
+
 ["0.2-0"]
-LazySets = "1.34.0-1"
 RecipesBase = ["0.6-0.8", "1"]
+
+["0.2-0.3"]
+LazySets = "1.34.0-1"
 
 ["0.3-0"]
 IntervalArithmetic = "0.16-0.17"
+
+["0.4-0"]
+LazySets = "1.35.0-1"
+
+["0.5-0"]
+UnPack = ["0.1", "1"]

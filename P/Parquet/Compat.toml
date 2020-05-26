@@ -19,7 +19,15 @@ julia = "1.0.0-1"
 ["0.3.1-0"]
 CodecZlib = "0.5-0.7"
 MemPool = "0.2"
-ProtoBuf = "0.7-0.8"
 Snappy = "0.3"
-Thrift = "0.6"
 julia = "1"
+
+["0.3.1-0.4"]
+ProtoBuf = "0.7-0.8"
+Thrift = "0.6"
+
+["0.4-0"]
+CodecZstd = "0.6-0.7"
+
+["0.5-0"]
+Thrift = "0.6-0.7"

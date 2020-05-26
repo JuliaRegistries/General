@@ -1,14 +1,30 @@
 [0]
+julia = "1"
+
+["0-0.1"]
 JuMP = "0.19"
 MathOptInterface = "0.8"
 PolyJuMP = "0.3"
 SumOfSquares = "0.3"
-julia = "1"
 
 ["0.0"]
 MultivariatePolynomials = "0.2"
 SemialgebraicSets = "0.1"
 
-["0.1-0"]
+["0.1"]
 MultivariatePolynomials = "0.3.1-0.3"
+
+["0.1-0"]
 SemialgebraicSets = "0.2"
+
+["0.2-0"]
+DynamicPolynomials = "0.3"
+JuMP = "0.21"
+MathOptInterface = "0.9"
+MultivariateBases = "0.1"
+MultivariateMoments = "0.3"
+MultivariatePolynomials = "0.3"
+MutableArithmetics = "0.2"
+PolyJuMP = "0.4"
+Reexport = "0.2"
+SumOfSquares = "0.4"

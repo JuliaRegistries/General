@@ -1,10 +1,12 @@
 [0]
-MLStyle = "0.3"
 Reexport = "0.2"
 julia = "1.3.0-1"
 
 ["0-0.1.0"]
 NiLangCore = "0.1"
+
+["0-0.3"]
+MLStyle = "0.3"
 
 ["0.1.1-0.1.3"]
 NiLangCore = "0.2"
@@ -16,5 +18,9 @@ TupleTools = "1.2.0-1"
 ["0.1.4-0.2"]
 NiLangCore = "0.4"
 
-["0.3-0"]
+["0.3"]
 NiLangCore = "0.5"
+
+["0.4-0"]
+MatchCore = "0.1"
+NiLangCore = "0.5-0.6"

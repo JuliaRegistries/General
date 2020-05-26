@@ -6,7 +6,6 @@ FieldDefaults = "49426c49-986f-5969-8844-d5cc96441cfc"
 FieldDocTables = "a5d692f0-33f0-11e9-293e-eb83c8d6177d"
 FieldMetadata = "bf96fef3-21d2-5d20-8afa-0e7d4c32a885"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-Lazy = "50d2b5c4-7a5e-59d5-8109-a42b560f39c0"
 Mixers = "2a8e4939-dab8-5edc-8f64-72a8776f13de"
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
@@ -17,6 +16,15 @@ UnicodeGraphics = "ebadf6b4-db70-5817-83da-4a19ad584e34"
 ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
 Flatten = "4c728ea3-d9ee-5c9a-9642-b6f7d7dc04fa"
 
+["0-0.7"]
+Lazy = "50d2b5c4-7a5e-59d5-8109-a42b560f39c0"
+
 ["0.2-0"]
 ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
+["0.7.3-0"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.8-0"]
+FreeTypeAbstraction = "663a7486-cb36-511b-a19d-713bb74d65c9"

@@ -25,21 +25,39 @@ MCMCChain = "0.1.1-0"
 AbstractMCMC = "0.5.2-0.5"
 
 ["0.10-0"]
-Bijectors = "0.6.4-0.6"
 Distributions = "0.22-0.23"
-DistributionsAD = "0.4.8-0.4"
 DocStringExtensions = "0.8"
-DynamicPPL = "0.5"
 EllipticalSliceSampling = "0.2"
 ProgressLogging = "0.1"
+
+["0.10-0.11"]
+Bijectors = "0.6.4-0.6"
+DistributionsAD = "0.4.8-0.4"
+DynamicPPL = "0.5"
 
 ["0.10.1-0"]
 MCMCChains = "3.0.7-3"
 
-["0.11-0"]
+["0.11"]
 AbstractMCMC = "0.5.5-0.5"
+
+["0.11-0"]
 AdvancedHMC = "0.2.24-0.2"
 StatsBase = "0.32-0.33"
+
+["0.12"]
+DynamicPPL = "0.7.1-0.7"
+
+["0.12-0"]
+AbstractMCMC = "1"
+AdvancedMH = "0.5"
+Bijectors = "0.6.4-0.7"
+DistributionsAD = "0.4.8-0.5"
+Libtask = "0.4"
+
+["0.13-0"]
+DynamicPPL = "0.8"
+NamedArrays = "0.9"
 
 ["0.5.1-0.6.14"]
 Bijectors = "0-0.2"
@@ -87,7 +105,6 @@ SpecialFunctions = "0.7.2-0.7"
 
 ["0.7.2-0"]
 ForwardDiff = "0.10.3-0.10"
-Libtask = "0.3.1-0.3"
 Reexport = "0.2"
 Tracker = "0.2.3-0.2"
 julia = "1"
@@ -96,6 +113,9 @@ julia = "1"
 BinaryProvider = "0.5.6-0.5"
 MacroTools = "0.5.1-0.5"
 PDMats = "0.9.9-0.9"
+
+["0.7.2-0.11"]
+Libtask = "0.3.1-0.3"
 
 ["0.7.2-0.7"]
 Distributions = "0.21.1-0.21"
@@ -171,7 +191,6 @@ Distributions = "0.22"
 DistributionsAD = "0.2"
 
 ["0.9-0"]
-AdvancedMH = "0.4"
 SpecialFunctions = "0.7.2-0.10"
 
 ["0.9-0.10"]
@@ -179,6 +198,9 @@ StatsBase = "0.32"
 
 ["0.9-0.10.0"]
 MCMCChains = "3"
+
+["0.9-0.11"]
+AdvancedMH = "0.4"
 
 ["0.9.0"]
 AbstractMCMC = "0.4"

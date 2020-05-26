@@ -1,5 +1,4 @@
 [0]
-BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
@@ -10,6 +9,13 @@ SemidefiniteModels = "169818f4-1a3d-53bf-95b3-11177825b1e3"
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 SemidefiniteOptInterface = "f0680fed-b2cd-5302-98f9-f4da282d86b5"
 
+["0-0.5"]
+BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
+
 ["0.5-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0.6-0"]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+CSDP_jll = "9ce75daa-2788-5e2c-ba1d-cf8c48367b27"

@@ -10,7 +10,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        julia-version: [1.4.0]
+        julia-version: [1.4.2]
         julia-arch: [x86]
         os: [ubuntu-latest]
     steps:
@@ -18,6 +18,17 @@ jobs:
       - uses: julia-actions/setup-julia@082493e5c5d32c1fa68c35556429b0f1b2807453 # v1.0.1
         with:
           version: ${{ matrix.julia-version }}
+      - name: Cache artifacts
+        uses: actions/cache@v1
+        env:
+          cache-name: cache-artifacts
+        with:
+          path: ~/.julia/artifacts
+          key: ${{ runner.os }}-test-${{ env.cache-name }}-${{ hashFiles('**/.ci/Manifest.toml') }}
+          restore-keys: |
+            ${{ runner.os }}-test-${{ env.cache-name }}-
+            ${{ runner.os }}-test-
+            ${{ runner.os }}-
       - name: Install dependencies by running Pkg.instantiate()
         run: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
       - name: AutoMerge.run

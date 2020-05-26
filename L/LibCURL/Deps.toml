@@ -1,12 +1,16 @@
-[0]
-BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-
 ["0-0.4"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["0-0.5"]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 ["0.4-0.5.0"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 ["0.5.0"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.6-0"]
+LibCURL_jll = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
+MozillaCACerts_jll = "14a3606d-f60d-562e-9121-12d972cd8159"
