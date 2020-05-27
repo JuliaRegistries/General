@@ -1,4 +1,7 @@
 [1]
+julia = ["0.7", "1"]
+
+["1.0.0"]
 BioAlignments = "0-1"
 BioCore = "1-2"
 BioSequences = "0-1"
@@ -7,4 +10,13 @@ BioStructures = "0"
 BioTools = "0-1"
 GeneticVariation = "0"
 GenomicFeatures = "0-1"
-julia = ["0.7", "1"]
+
+["1.0.1-1"]
+BioAlignments = "1"
+BioCore = "2.0.5-2"
+BioSequences = "1.1.0-1"
+BioServices = "0.3.1-0.3"
+BioStructures = "0.4"
+BioTools = "1"
+GeneticVariation = "0.4"
+GenomicFeatures = "1"
