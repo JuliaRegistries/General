@@ -2,10 +2,16 @@
 Documenter = "0.24.3-0.24"
 DocumenterTools = "0.1.4-0.1"
 FFTW = "1.1.0-1"
-IJulia = "1.21.0-1"
 MbedTLS = "0.6.8-0.6"
-Plots = "0.27"
 QuantumInformation = "0.4.6-0.4"
 SpecialFunctions = "0.8"
 TensorOperations = "1.3.1-1"
 julia = "1.0.5-1"
+
+["0-0.1.0"]
+IJulia = "1.21.0-1"
+Plots = "0.27"
+
+["0.1.1-0"]
+Compat = "3.10.0-3"
+TestSetExtensions = "2"
