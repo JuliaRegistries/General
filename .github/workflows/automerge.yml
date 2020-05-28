@@ -29,6 +29,8 @@ jobs:
             ${{ runner.os }}-test-${{ env.cache-name }}-
             ${{ runner.os }}-test-
             ${{ runner.os }}-
+      - name: Install tesseract
+        run: sudo apt-get update && sudo apt-get install -y tesseract-ocr
       - name: Install dependencies by running Pkg.instantiate()
         run: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
       - name: AutoMerge.run
