@@ -1,23 +1,104 @@
-[0]
-CSTParser = ["1.1.0", "2"]
-CodeTools = "0.6.4-0.7"
-CodeTracking = "0.5.7-0.5"
-DocSeeker = "0.4"
-FlameGraphs = "0.1-0.2"
-FuzzyCompletions = "0.1"
-HTTP = "0.8"
-Hiccup = "0.2.2-0.2"
-JSON = "0.20-0.21"
-JuliaFormatter = "0.4.3-0.5"
-JuliaInterpreter = "0.7.10-0.7"
-Juno = "0.7-0.8"
+["0-0.8.1"]
+Juno = "0.6-0"
+
+["0-0.8.3"]
+CodeTracking = "0.4-0.5"
+JuliaInterpreter = "0.3-0.5"
+
+["0-0.8.5"]
+CodeTools = "0"
+DocSeeker = "0"
+HTTP = "0"
+Hiccup = "0"
+JSON = "0"
+LNR = "0"
+Lazy = "0.11.3-0"
+MacroTools = "0"
+Media = "0"
+Reexport = "0"
+Requires = "0"
+Traceur = "0"
+TreeViews = "0.3-0"
+WebIO = "0.6-0"
+WebSockets = "0-1"
+julia = ["0.7", "1"]
+
+["0.10-0"]
+julia = ["0.7", "1"]
+
+["0.10-0.11"]
+CSTParser = "0.6.2-0.6"
+JuliaInterpreter = "0.7"
+
+["0.10.0"]
+Lazy = "0.13-0.14"
+
+["0.10.1-0.11"]
+Lazy = "0.13.2-0.14"
+
+["0.11.2-0"]
 LNR = "0.2"
-Lazy = "0.13.2-0.15"
-MacroTools = "0.5"
 Media = "0.5"
 OrderedCollections = "1.1.0-1"
+WebSockets = "1.5.0-1"
+
+["0.11.2-0.11"]
+DocSeeker = "0.3.1-0.3"
+Requires = "0.5"
+
+["0.11.2-0.12.10"]
+Traceur = "0.3"
+
+["0.12-0"]
+CSTParser = ["1.1.0", "2"]
+CodeTools = "0.6.4-0.7"
+DocSeeker = "0.4"
+FlameGraphs = "0.1-0.2"
+JuliaInterpreter = "0.7.10-0.7"
+Lazy = "0.13.2-0.15"
 Requires = ["0.5", "1"]
+
+["0.12-0.12.10"]
+JuliaFormatter = "0.3"
+
+["0.12.1-0"]
+Juno = "0.7-0.8"
+
+["0.12.11-0"]
+FuzzyCompletions = "0.1"
+JuliaFormatter = "0.4.3-0.5"
+
+["0.8.2-0.8.5"]
+Juno = "0.7-0"
+
+["0.8.4-0.8.5"]
+CodeTracking = "0.5.0-0.5"
+JuliaInterpreter = "0.4-0.5"
+
+["0.8.6-0"]
+CodeTracking = "0.5.7-0.5"
+HTTP = "0.8"
+Hiccup = "0.2.2-0.2"
+MacroTools = "0.5"
 TreeViews = "0.3"
 WebIO = "0.8.1-0.8"
-WebSockets = "1.5.0-1"
-julia = ["0.7", "1"]
+
+["0.8.6-0.11"]
+CodeTools = "0.6.4-0.6"
+
+["0.8.6-0.12.0"]
+Juno = "0.7"
+
+["0.8.6-0.8"]
+JSON = "0.20"
+
+["0.8.6-0.9"]
+JuliaInterpreter = "0.6-0.7"
+Lazy = "0.13"
+julia = ["0.7.0", "1"]
+
+["0.9-0"]
+JSON = "0.20-0.21"
+
+["0.9-0.11"]
+JuliaFormatter = "0.1"
