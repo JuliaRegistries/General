@@ -1,17 +1,12 @@
 [0]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
-CSTParser = "00ebfdb7-1f24-5e51-bd34-a7502290713f"
 CodeTools = "53a63b46-67e4-5edd-8c66-0af0544a99b9"
 CodeTracking = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
-Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DocSeeker = "33d173f1-3be9-53c5-a697-8225b67db89c"
-FlameGraphs = "08572546-2f56-4bcf-ba4e-bab62c3a3f89"
-FuzzyCompletions = "fb4132e2-a121-4a70-b8a1-d5b831dcdcc2"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 Hiccup = "9fb69e20-1954-56bb-a84f-559cc56a8ff7"
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
 JuliaInterpreter = "aa1ae85d-cabe-5617-a682-6adf51b2e16a"
 Juno = "e5e0dc1b-0480-54bc-9374-aad01c23163d"
 LNR = "7c4cb9fa-83a0-5386-9231-d6167c818060"
@@ -20,7 +15,6 @@ Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 Media = "e89f7d12-3494-54d1-8411-f7d8b9ae1f27"
-OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Profile = "9abbd945-dff8-562f-b5e8-e1ebf5ef1b79"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
@@ -29,3 +23,31 @@ Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
 TreeViews = "a2a6695c-b41b-5b7d-aed9-dbfdeacea5d7"
 WebIO = "0f1e0344-ec1d-5b48-a673-e5cf874b6c29"
 WebSockets = "104b5d7c-a370-577a-8038-80a2059c5097"
+
+["0-0.10.1"]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0-0.12.10"]
+Traceur = "37b6cedf-1f77-55f8-9503-c64b63398394"
+
+["0-0.8"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.10-0"]
+CSTParser = "00ebfdb7-1f24-5e51-bd34-a7502290713f"
+
+["0.12-0"]
+FlameGraphs = "08572546-2f56-4bcf-ba4e-bab62c3a3f89"
+
+["0.12.11-0"]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+FuzzyCompletions = "fb4132e2-a121-4a70-b8a1-d5b831dcdcc2"
+
+["0.8.6-0"]
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
+["0.8.8-0.8"]
+DocumentFormat = "ffa9a821-9c82-50df-894e-fbcef3ed31cd"
+
+["0.9-0"]
+JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
