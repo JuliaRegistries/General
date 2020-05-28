@@ -16,6 +16,10 @@ CSV = "0.5"
 DataFrames = "0.19"
 Mustache = "0.5"
 
+["0.10-0"]
+DataFrames = "0.21"
+PrettyTables = "0.9"
+
 ["0.2-0.5"]
 HDF5 = "0.12"
 
@@ -26,11 +30,15 @@ TimeSeries = "0.17"
 CSV = "0.6"
 
 ["0.5.3-0"]
-DataFrames = "0.20"
 Mustache = "1.0"
+
+["0.5.3-0.9"]
+DataFrames = "0.20"
 
 ["0.6-0"]
 HDF5 = "0.13"
-PrettyTables = "0.8"
 TimeSeries = "0.18"
 YAML = "0.4"
+
+["0.6-0.9"]
+PrettyTables = "0.8"
