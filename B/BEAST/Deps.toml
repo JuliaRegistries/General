@@ -9,13 +9,18 @@ WiltonInts84 = "a3e2863e-c0ee-5ff6-a523-307a4cdc8724"
 
 [1]
 Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
-DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["1-1.1"]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["1.2-1"]
+BlockArrays = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
