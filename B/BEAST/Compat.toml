@@ -8,7 +8,7 @@ StaticArrays = "0-0.9"
 WiltonInts84 = "0.1-0"
 julia = "0.6-1"
 
-[1]
+["1-1.1"]
 CollisionDetection = "0.1-0"
 Combinatorics = "0.6-0"
 Compat = "0.70-2"
@@ -24,6 +24,21 @@ julia = ["0.7", "1"]
 CompScienceMeshes = "0.2-0"
 StaticArrays = "0.8.3-0.9"
 
-["1.1-1"]
+["1.1"]
 CompScienceMeshes = "0.2.2-0"
 StaticArrays = "0.8.3-0"
+
+["1.2-1"]
+BlockArrays = "0.10-0.12"
+CollisionDetection = "0.1"
+Combinatorics = "0.7"
+CompScienceMeshes = "0.2.5-0.2"
+Compat = "2"
+FFTW = ["0.2.3-0.2", "1"]
+FastGaussQuadrature = "0.3-0.4"
+IterativeSolvers = "0.7-0.8"
+SauterSchwabQuadrature = "2.1.0-2"
+SpecialFunctions = "0.7-0.8"
+StaticArrays = "0.8.3-0.12"
+WiltonInts84 = "0.2"
+julia = "1"
