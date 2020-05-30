@@ -79,13 +79,15 @@ Distances = "0.8-0.9"
 PDMats = "0.9-0.10"
 Turing = "0.12-0.13"
 
+["2.15-2"]
+DiffEqBase = "6.36.0-6"
+
 ["2.2"]
 DiffResults = "0.0.4"
 Requires = "0.5"
 
 ["2.2-2"]
 ApproxBayes = "0.3"
-DiffEqBase = "6.5.0-6"
 DocStringExtensions = "0.8"
 DynamicHMC = "2.1.0-2"
 ForwardDiff = "0.10"
@@ -96,6 +98,9 @@ Parameters = "0.12"
 Reexport = "0.2"
 StructArrays = "0.4"
 TransformVariables = "0.3"
+
+["2.2-2.14"]
+DiffEqBase = "6.5.0-6"
 
 ["2.2-2.14.0"]
 Distances = "0.8"
