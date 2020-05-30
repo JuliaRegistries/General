@@ -68,6 +68,9 @@ DiffEqSensitivity = "6"
 ["1.10-1"]
 Optim = "0.20-0.21"
 
+["1.12-1"]
+DiffEqBase = "6.36.0-6"
+
 ["1.2-1"]
 StaticArrays = "0.11-0.12"
 
@@ -90,8 +93,10 @@ DiffEqSensitivity = "6.7.0-6"
 ReverseDiff = "1.1.0-1"
 
 ["1.7.1-1"]
-DiffEqBase = "6.22.0-6"
 ProgressLogging = "0.1"
+
+["1.7.1-1.11"]
+DiffEqBase = "6.22.0-6"
 
 ["1.8-1"]
 BlackBoxOptim = "0.5"
