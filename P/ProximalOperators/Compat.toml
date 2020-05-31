@@ -6,10 +6,15 @@ IterativeSolvers = "0.4-0"
 OSQP = "0.1.4-0"
 julia = ["0.7", "1"]
 
-["0.10.2-0"]
+["0.10.2-0.10"]
 IterativeSolvers = "0.8.0-*"
 OSQP = "0.3.0-*"
 TSVD = "0.3.0-*"
+
+["0.11-0"]
+IterativeSolvers = "0.8"
+OSQP = "0.3-0.6"
+TSVD = "0.3-0.4"
 
 ["0.9-0"]
 julia = "1"
