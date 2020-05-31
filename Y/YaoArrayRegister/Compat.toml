@@ -38,11 +38,11 @@ LuxurySparse = "0.4"
 ["0.3.8-0.3"]
 BitBasis = "0.5"
 
-["0.4-0"]
-BitBasis = "0.6"
-
 ["0.4-0.5.1"]
 YaoBase = "0.11"
+
+["0.4-0.6"]
+BitBasis = "0.6"
 
 ["0.4.2-0.6.1"]
 LuxurySparse = "0.5"
@@ -62,9 +62,16 @@ TupleTools = "1.1.0-1"
 ["0.5.2-0.5"]
 YaoBase = "0.12"
 
-["0.6-0"]
+["0.6"]
 YaoBase = "0.13"
 
 ["0.6.2-0"]
-LuxurySparse = "0.5-0.6"
 StatsBase = "0.32-0.33"
+
+["0.6.2-0.6"]
+LuxurySparse = "0.5-0.6"
+
+["0.7-0"]
+BitBasis = "0.7"
+LuxurySparse = "0.6"
+YaoBase = "0.14.1-0.14"
