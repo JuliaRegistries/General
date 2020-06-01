@@ -1,6 +1,4 @@
 [0]
-FileIO = "1"
-JLD2 = ["0.1.3-0.1", "1"]
 Reexport = ["0.2", "1"]
 julia = "1"
 
@@ -9,6 +7,10 @@ NaiveNASflux = "1"
 
 ["0-0.2.0"]
 Setfield = ["0.3.4-0.3", "0.5"]
+
+["0-0.3"]
+FileIO = "1"
+JLD2 = ["0.1.3-0.1", "1"]
 
 ["0.1.1-0.2.0"]
 CuArrays = "1"
@@ -20,5 +22,9 @@ NaiveNASflux = "1.1.0-1"
 CuArrays = "1-2"
 Setfield = ["0.3.4-0.3", "0.5-0.6"]
 
-["0.3-0"]
+["0.3"]
 NaiveNASflux = "1"
+
+["0.4-0"]
+MemPool = "0.2"
+NaiveNASflux = "1.2.1-1"
