@@ -41,8 +41,6 @@ SpecialFunctions = "0.8"
 StaticArrays = "0.11"
 
 ["0.1.9-0"]
-ColorTypes = "0"
-DiffRules = "0"
 DocStringExtensions = "0"
 Documenter = "0"
 FastGaussQuadrature = "0"
@@ -65,7 +63,17 @@ StaticArrays = "0"
 ["0.1.9-0.1"]
 FFTW = "0"
 
+["0.1.9-0.2"]
+ColorTypes = "0"
+DiffRules = "0"
+
 ["0.2-0"]
 Dierckx = "0"
 FFTW = "1"
 Interpolations = "0"
+
+["0.3-0"]
+ColorTypes = "0.0.0-0.10.0"
+DiffRules = "0-1"
+RecursiveArrayTools = "0"
+UnPack = "0"
