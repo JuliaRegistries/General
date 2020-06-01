@@ -15,8 +15,17 @@ YaoArrayRegister = "0"
 YaoBase = "0-0.7"
 
 ["0.10.3-0"]
-LuxurySparse = "0.5-0.6"
 StatsBase = "0.32-0.33"
+
+["0.10.3-0.10"]
+LuxurySparse = "0.5-0.6"
+
+["0.11-0"]
+BitBasis = "0.7"
+LuxurySparse = "0.6"
+MLStyle = "0.3-0.4"
+YaoArrayRegister = "0.7"
+YaoBase = "0.14.1-0.14"
 
 ["0.3.2-0.3.3"]
 YaoBase = "0.9.1-0"
@@ -43,7 +52,7 @@ YaoBase = "0.10"
 ["0.6"]
 YaoArrayRegister = "0.4"
 
-["0.6-0"]
+["0.6-0.10"]
 BitBasis = "0.6"
 
 ["0.6-0.7.3"]
@@ -58,8 +67,10 @@ StaticArrays = "0.11"
 ["0.7.2-0"]
 CacheServers = "0.2"
 LegibleLambdas = "0.2"
-MLStyle = "0.3"
 SimpleTraits = "0.9"
+
+["0.7.2-0.10"]
+MLStyle = "0.3"
 
 ["0.7.2-0.10.2"]
 LuxurySparse = "0.5"
@@ -79,5 +90,7 @@ YaoBase = "0.12"
 
 ["0.8-0"]
 TupleTools = "1.2.0-1"
+
+["0.8-0.10"]
 YaoArrayRegister = "0.6"
 YaoBase = "0.13"
