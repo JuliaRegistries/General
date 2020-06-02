@@ -12,11 +12,18 @@ julia = "0.6-1"
 julia = ["0.7.0", "1"]
 
 ["0.6-0"]
-AbstractTrees = "0.2"
-Compat = "2"
 Glob = "1"
-Gumbo = "0.5"
 HTTP = "0.8"
 Missings = "0.4"
-NCDatasets = "0.8-0.9"
 julia = "1"
+
+["0.6.0"]
+AbstractTrees = "0.2"
+Compat = "2"
+Gumbo = "0.5"
+NCDatasets = "0.8-0.9"
+
+["0.6.1-0"]
+AbstractTrees = "0.2-0.3"
+Gumbo = ["0.5", "0.7-0.8"]
+NCDatasets = "0.8-0.10"
