@@ -85,7 +85,6 @@ Makie = "0.9.4-0.9"
 Tau = "0.2"
 
 ["0.11-0"]
-Distances = "0.8"
 MemPool = "0.2"
 
 ["0.11-0.11.1"]
@@ -112,6 +111,9 @@ MLJModels = "0.2.5-1"
 ["0.11-0.13.0"]
 Rmath = "0.5"
 
+["0.11-0.13.15"]
+Distances = "0.8"
+
 ["0.11.0"]
 ScikitLearnBase = "0.4.1-0.4"
 
@@ -131,8 +133,6 @@ MLJBase = "0.4-1"
 MLJModels = "0.3-1"
 
 ["0.13-0"]
-BenchmarkTools = "0.4"
-CategoricalArrays = "0.7"
 DeIdentification = "0.8"
 MultivariateStats = "0.7"
 PkgBenchmark = "0.2"
@@ -146,6 +146,10 @@ Tables = ["0.2", "1"]
 
 ["0.13-0.13.14"]
 Clustering = "0.13-1"
+
+["0.13-0.13.15"]
+BenchmarkTools = "0.4"
+CategoricalArrays = "0.7"
 
 ["0.13-0.13.2"]
 Coverage = "0.9"
@@ -187,6 +191,12 @@ UnicodePlots = "1"
 
 ["0.13.15-0"]
 Clustering = "0-1"
+
+["0.13.16-0"]
+BenchmarkTools = "0.4-0.5"
+CategoricalArrays = "0.7-0.8"
+Distances = "0.8-0.9"
+StatsPlots = "0.14"
 
 ["0.13.2-0.13.10"]
 Unitful = "0.18"
