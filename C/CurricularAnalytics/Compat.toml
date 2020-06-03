@@ -21,10 +21,7 @@ Plots = "0.25.3-0.25"
 StatsPlots = "0.11"
 
 ["0.6.2-0"]
-CSV = "0.5.9-0.5"
-DataStructures = "0.17"
 JSON = "0.21"
-LightGraphs = "1.2.0-1"
 
 ["0.6.2-0.6"]
 MultiJuMP = "0.5"
@@ -40,6 +37,11 @@ HTTP = "0.8.4-0.8"
 Requires = "0.5.2-0.5"
 WebIO = "0.8.8-0.8"
 
+["0.6.2-1"]
+CSV = "0.5.9-0.5"
+DataStructures = "0.17"
+LightGraphs = "1.2.0-1"
+
 ["0.6.3-0.6"]
 MathOptInterface = "0.9.7-0.9"
 
@@ -49,13 +51,15 @@ StatsPlots = "0.12"
 
 ["0.6.6-0"]
 Blink = "0.12.1-0.12"
-DataFrames = "0.20"
-Documenter = "0.24"
 HTTP = "0.8.8-0.8"
 Plots = "0.28"
 StatsPlots = "0.13"
 WebIO = "0.8.13-0.8"
-julia = "1.0.5-1"
 
 ["0.6.6-0.6"]
 Requires = "1"
+
+["0.6.6-1"]
+DataFrames = "0.20"
+Documenter = "0.24"
+julia = "1.0.5-1"
