@@ -9,6 +9,12 @@ julia = ["0.7", "1"]
 ["0.10.1-0"]
 DataFrames = "0.19-0.21"
 
+["0.11-0"]
+BioAlignments = "2"
+BioGenerics = "0.1"
+BioSequences = "2"
+BioSymbols = "4"
+
 ["0.4"]
 RecipesBase = "0"
 
@@ -16,14 +22,16 @@ RecipesBase = "0"
 julia = ["0.7.0", "1"]
 
 ["0.8-0"]
-BioAlignments = "1"
 BioCore = "2"
-BioSequences = "1"
-BioSymbols = "3-4"
 Format = "1"
 LightGraphs = "1"
 MetaGraphs = "0.6"
 julia = "1"
+
+["0.8-0.10"]
+BioAlignments = "1"
+BioSequences = "1"
+BioSymbols = "3-4"
 
 ["0.8-0.10.0"]
 DataFrames = "0.19-0.20"
