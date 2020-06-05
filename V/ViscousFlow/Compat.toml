@@ -50,12 +50,9 @@ IterativeSolvers = "0"
 JLD = "0"
 LaTeXStrings = "1"
 LinearMaps = "2.4.0-2"
-PlotUtils = "0"
-Plots = "0"
 ProgressMeter = "1.1.0-1"
 PyCall = "1.91.0-1"
 PyPlot = "2.8.0-2"
-RecipesBase = "0"
 Reexport = "0"
 SpecialFunctions = "0"
 StaticArrays = "0"
@@ -67,13 +64,29 @@ FFTW = "0"
 ColorTypes = "0"
 DiffRules = "0"
 
+["0.1.9-0.3.0"]
+PlotUtils = "0"
+Plots = "0"
+RecipesBase = "0"
+
 ["0.2-0"]
 Dierckx = "0"
 FFTW = "1"
 Interpolations = "0"
 
 ["0.3-0"]
-ColorTypes = "0.0.0-0.10.0"
 DiffRules = "0-1"
+
+["0.3.0"]
+ColorTypes = "0.0.0-0.10.0"
 RecursiveArrayTools = "0"
 UnPack = "0"
+
+["0.3.1-0"]
+CartesianGrids = "0.1.1-0.1"
+ColorTypes = "0.0.0-0.10"
+PlotUtils = "0-1"
+Plots = ["0", "1.3.0-1"]
+RecipesBase = "0-1"
+RecursiveArrayTools = ["0", "2.3.0-2"]
+UnPack = "0-1"
