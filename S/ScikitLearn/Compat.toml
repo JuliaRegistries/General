@@ -22,23 +22,29 @@ julia = ["0.7.0", "1"]
 ["0.6-0"]
 Compat = "2.2.0-3"
 Conda = "1.4.0-1"
+IterTools = "1.2.0-1"
+MacroTools = "0.5"
+Parameters = "0.12"
+PyCall = "1.91.0-1"
+ScikitLearnBase = "0.5"
+julia = "1"
+
+["0.6-0.6.1"]
 DataFrames = "0.20"
 DecisionTree = ["0.8", "0.10"]
 GaussianMixtures = "0.3"
 GaussianProcesses = "0.11"
-IterTools = "1.2.0-1"
-MacroTools = "0.5"
 NBInclude = "2.1.0-2"
-Parameters = "0.12"
-PyCall = "1.91.0-1"
 PyPlot = "2.8.0-2"
 RData = "0.7"
 RDatasets = "0.6"
-ScikitLearnBase = "0.5"
-julia = "1"
 
 ["0.6.0"]
 StatsBase = "0.33"
 
 ["0.6.1-0"]
 StatsBase = "0.32-0.33"
+
+["0.6.2-0"]
+DataFrames = "0.20-0.21"
+VersionParsing = "1.2.0-1"
