@@ -3,7 +3,13 @@ BinaryProvider = "0"
 CEnum = "0"
 julia = ["0.7", "1"]
 
-["0.2-0"]
+["0.2"]
 BinaryProvider = "0.5"
 CEnum = "0.2"
+
+["0.2-0"]
 julia = "1"
+
+["0.3-0"]
+CEnum = "0.2-0.4"
+Darknet_jll = "2020.6.5-2020"
