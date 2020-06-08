@@ -30,6 +30,21 @@ requests need to be manually reviewed and merged by a human.
 It is ***highly recommended*** to also use [TagBot][tagbot], which automatically tags a release in your
 repository after the new release of your package is merged into the registry.
 
+### Requirements for new packages
+
+New packages that meet the following requirements will be eligible for automatic merging (see below).
+Packages that do not meet these requirements will be subject to a longer period of community review.
+These requirements have been established to ensure that packages that are available for download via
+the General registry are well-documented and sufficiently tested for reliable use.
+
+- A `README.md` file of at least 100 words that explains the purpose of the package and contains example usage;
+- A set of user documentation that provides, at a minimum, details on the package's exported methods and
+structures; and
+- A test suite that covers the main features of the package. Code coverage of at least 50% is required,
+though more is encouraged.
+
+The user documentation may be included in the README.md or in a separate `docs` directory, as appropriate.
+
 ### Automatic merging of pull requests
 
 Pull requests that meet certain criteria are automatically merged periodically.
