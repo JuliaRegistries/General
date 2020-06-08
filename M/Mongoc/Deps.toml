@@ -1,10 +1,15 @@
 [0]
-BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 ["0-0.2"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.4"]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
 ["0.4-0"]
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+
+["0.5-0"]
+MongoC_jll = "90100e71-7732-535a-9be7-2e9affd1cfc1"
