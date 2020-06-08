@@ -43,7 +43,7 @@ structures; and
 - A test suite that covers the main features of the package. Code coverage of at least 50% is required,
 though more is encouraged.
 
-The user documentation may be included in the README.md or in a separate `docs` directory, as appropriate.
+The user documentation may be included in the `README.md` or in a separate `docs` directory, as appropriate.
 
 ### Automatic merging of pull requests
 
