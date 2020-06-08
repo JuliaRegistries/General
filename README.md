@@ -33,7 +33,7 @@ repository after the new release of your package is merged into the registry.
 ### Requirements for new packages
 
 New packages that meet the following requirements will be eligible for automatic merging (see below).
-Packages that do not meet these requirements will be subject to a longer period of community review.
+New packages that do not meet these requirements will be subject to a longer 7-day waiting period (compared to a 3-day waiting period for packages that meet these requirements). 
 These requirements have been established to ensure that packages that are available for download via
 the General registry are well-documented and sufficiently tested for reliable use.
 
