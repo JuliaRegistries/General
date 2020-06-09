@@ -50,12 +50,20 @@ Requires = "0.5"
 ["0.9-0"]
 FFTW = "1"
 ProgressMeter = "1.1.0-1"
-StatsBase = "0.32"
 
 ["0.9-0.9.1"]
 RecipesBase = "0.7"
 
+["0.9-0.9.2"]
+StatsBase = "0.32"
+
+["0.9.2"]
+RecipesBase = "0.7-0.8"
+
 ["0.9.2-0"]
 LightGraphsFlows = "0.3-0.4"
-RecipesBase = "0.7-0.8"
 Requires = ["0.5", "1"]
+
+["0.9.3-0"]
+RecipesBase = ["0.7-0.8", "1"]
+StatsBase = "0.32-0.33"
