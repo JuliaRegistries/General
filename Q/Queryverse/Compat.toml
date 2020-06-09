@@ -28,7 +28,6 @@ julia = "1"
 
 ["0.5-0"]
 CSVFiles = "1"
-DataFrames = "0.20"
 DataTables = "0.1"
 DataValues = "0.4.4-0.4"
 DataVoyager = ["0.3", "1"]
@@ -40,3 +39,9 @@ Query = "0.12"
 Reexport = "0.2"
 StatFiles = "0.8"
 VegaLite = "1-2"
+
+["0.5-0.6.0"]
+DataFrames = "0.20"
+
+["0.6.1-0"]
+DataFrames = "0.20-0.21"
