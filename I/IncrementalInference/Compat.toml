@@ -13,7 +13,7 @@ julia = "0.6-1"
 ["0-0.4.0"]
 HDF5 = "0.8.5-0"
 
-["0.10-0"]
+["0.10-0.11"]
 julia = "1.2.0-1"
 
 ["0.10.0"]
@@ -29,8 +29,15 @@ NLSolversBase = "7.6.0-7"
 DistributedFactorGraphs = "0.7.2-0.7"
 ValueShapes = "0.6"
 
-["0.11.2-0"]
+["0.11.2-0.11"]
 DistributedFactorGraphs = "0.7.3-0.7"
+
+["0.12-0"]
+DistributedFactorGraphs = "0.8"
+Distributions = "0.18-0.23"
+Optim = "0.16-0.21"
+StatsBase = "0.25-0.33"
+julia = "1.4.0-1"
 
 ["0.3.8-0.3"]
 StatsBase = "0"
@@ -127,7 +134,6 @@ DistributedFactorGraphs = "0.4"
 KernelDensityEstimate = "0.5.1-0.6"
 
 ["0.7.9-0"]
-Distributions = ["0.18-0.25", "1"]
 FileIO = "1.0.2-1"
 Graphs = ["0.10.2-0.11", "1"]
 JLD2 = ["0.1-0.3", "1"]
@@ -136,6 +142,9 @@ NLsolve = "3-4"
 ProgressMeter = ["0.6-0.9", "1"]
 Reexport = ["0.2-0.5", "1"]
 Requires = ["0.5-0.10", "1"]
+
+["0.7.9-0.11"]
+Distributions = ["0.18-0.25", "1"]
 StatsBase = ["0.25-0.40", "1"]
 
 ["0.7.9-0.7"]
@@ -161,6 +170,8 @@ DistributedFactorGraphs = "0.5.3-0.5"
 Combinatorics = "1"
 DocStringExtensions = ["0.8-0.10", "1"]
 MetaGraphs = "0.6.4-0.6"
+
+["0.8.4-0.11"]
 Optim = ["0.16-0.23", "1"]
 
 ["0.8.5-0.8"]
