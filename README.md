@@ -39,7 +39,7 @@ We do not accept packages or package registrations that:
 2. Are made in bad faith and/or with bad intentions
 3. Waste the time and/or energy of registry maintainers and/or members of the community
 
-Pull requests that violate the above rules will be rejected.
+Pull requests that violate one or more of the above rules will be rejected.
 
 ### Automatic merging of pull requests
 
