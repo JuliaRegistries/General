@@ -40,11 +40,11 @@ RoME = "0.3"
 ["0.1.3-0.1.5"]
 IncrementalInference = "0.5-0.8"
 
-["0.1.4-0"]
-julia = "1"
-
 ["0.1.4-0.1.6"]
 RoME = "0.3-0.5"
+
+["0.1.4-0.2"]
+julia = "1"
 
 ["0.1.6-0.1.7"]
 IncrementalInference = "0.7.4-0.8"
@@ -66,12 +66,14 @@ Graphs = "0.10.2-0.10"
 KernelDensityEstimate = "0.5"
 KernelDensityEstimatePlotting = "0.1.6-0.1"
 Reexport = "0.2"
-StatsBase = "0.25-0.33"
 
 ["0.1.8-0.1"]
 Compose = "0.7.1-0.8"
 DistributedFactorGraphs = "0.4-0.5"
 IncrementalInference = "0.7.11-0.8"
+
+["0.1.8-0.2"]
+StatsBase = "0.25-0.33"
 
 ["0.1.8-0.2.1"]
 Colors = "0.9.4-0.11"
@@ -88,9 +90,20 @@ RoME = "0.6"
 IncrementalInference = "0.9-0.10"
 
 ["0.2.1-0"]
-DistributedFactorGraphs = "0.6-0.7"
 RoME = "0.6-0.7"
+
+["0.2.1-0.2"]
+DistributedFactorGraphs = "0.6-0.7"
 
 ["0.2.2-0"]
 Colors = "0.9.4-0.12"
+
+["0.2.2-0.2"]
 IncrementalInference = "0.10-0.11"
+
+["0.3-0"]
+DistributedFactorGraphs = "0.8"
+IncrementalInference = "0.12"
+Requires = "1"
+StatsBase = "0.30-0.33"
+julia = "1.4.0-1"
