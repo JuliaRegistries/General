@@ -30,6 +30,17 @@ requests need to be manually reviewed and merged by a human.
 It is ***highly recommended*** to also use [TagBot][tagbot], which automatically tags a release in your
 repository after the new release of your package is merged into the registry.
 
+### Requirements for packages in the General registry
+
+Packages registered in the General registry must be made in good faith.
+
+We do not accept packages or package registrations that:
+1. Are intentionally broken
+2. Are made in bad faith or with bad intentions
+3. Waste the time and/or energy of registry maintainers and/or members of the community
+
+Pull requests that violate the above rules will be rejected.
+
 ### Automatic merging of pull requests
 
 Pull requests that meet certain criteria are automatically merged periodically.
