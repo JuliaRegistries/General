@@ -160,7 +160,7 @@ registry, and code cannot be deleted.
 
 ## Registry maintenance
 
-The General registry is a shared resource that belongs to the entire Julia community. Therefore, we welcome comments and suggestions from everyone in the Julia community. However, all decisions regarding the General registry are ultimately up to the discretion of the registry maintainers. Different registry maintainers may choose to enforce different rules and requirements. Additionally, the same registry maintainer may use different criteria for different situations on a case-by-case basis.
+The General registry is a shared resource that belongs to the entire Julia community. Therefore, we welcome comments and suggestions from everyone in the Julia community. However, all decisions regarding the General registry are ultimately up to the discretion of the registry maintainers.
 
 ## Disclaimer
 
