@@ -10,7 +10,6 @@ dependencies and compatibility constraints.
 The General registry is open for everyone to use and provides access to a large ecosystem
 of packages.
 
-The General registry is a shared resource that belongs to the entire Julia community.
 
 If you are registering a new package, please make sure that you have read the [package naming guidelines](https://julialang.github.io/Pkg.jl/dev/creating-packages/#Package-naming-guidelines-1).
 
@@ -159,6 +158,10 @@ Report it to the package repository.
 You can't. Package registrations are **permanent**. A version can not be overwritten in the
 registry, and code cannot be deleted.
 
+## Registry maintenance
+
+The General registry is a shared resource that belongs to the entire Julia community. Therefore, we welcome comments and suggestions from everyone in the Julia community. However, all decisions regarding the General registry are ultimately up to the discretion of the registry maintainers. Different registry maintainers may choose to enforce different rules and requirements. Additionally, the same registry maintainer may use different criteria for different situations on a case-by-case basis.
+
 ## Disclaimer
 
 The General registry is open for everyone to register packages in. The General registry is
@@ -170,8 +173,6 @@ not a curated list of Julia packages. In particular this means that:
  - the General registry and its maintainers are **not** responsible for the package code
    you install through the General registry -- you are responsible for reviewing your
    code dependencies.
-
-
 
 [pkg]: https://julialang.github.io/Pkg.jl/v1/
 [registrator]: https://github.com/JuliaRegistries/Registrator.jl
