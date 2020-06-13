@@ -32,16 +32,22 @@ Tokenize = "0.5.6-0.5"
 JSON = "0.20-0.21"
 
 [2]
+DocumentFormat = "2.1.0-2"
 StaticLint = "3.1.0-3"
 SymbolServer = "3.1.0-3"
-DocumentFormat = "2.1.0-2"
 
 [2-3]
 CSTParser = "2.2.0-2"
 Tokenize = "0.5.7-0.5"
 
 [3]
-DocumentFormat = "2.2.0-2"
 StaticLint = "4.3.0-4"
 SymbolServer = "4.2.0-4"
 URIParser = "0.4.1-0.4"
+
+["3.0"]
+DocumentFormat = "2.2.0-2"
+
+["3.1-3"]
+DocumentFormat = "3"
+JSONRPC = "1"
