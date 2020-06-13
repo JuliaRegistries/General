@@ -11,9 +11,11 @@ Ipopt = "0.5.0-*"
 NLPModels = "0.8"
 SolverTools = "0.1.4-*"
 
+["0.3"]
+SolverTools = "0.1.4-0.1"
+
 ["0.3-0"]
 Ipopt = "0.5-0.6"
-SolverTools = "0.1.4-0.1"
 
 ["0.3.0"]
 NLPModels = ["0.10", "1"]
@@ -23,3 +25,6 @@ NLPModels = "0.10-0.11"
 
 ["0.3.2-0"]
 NLPModels = "0.10-0.12"
+
+["0.4-0"]
+SolverTools = "0.1.12-0.1"
