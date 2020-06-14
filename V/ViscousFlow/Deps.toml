@@ -2,15 +2,11 @@
 ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
-FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
-IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
 PlotUtils = "995b91a9-d308-5afd-9ec6-746e21dbc043"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
 ["0-0.1.6"]
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
@@ -19,17 +15,25 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ["0-0.1.7"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
+["0-0.3.1"]
+FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
 ["0.1.7"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 ["0.1.7-0"]
-DiffRules = "b552c78f-8df3-52c6-915a-8e097449b14b"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0.1.7-0.3.1"]
+DiffRules = "b552c78f-8df3-52c6-915a-8e097449b14b"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0.1.8-0"]
@@ -39,13 +43,19 @@ ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.2-0"]
+["0.2-0.3.1"]
 Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 
 ["0.3-0"]
-RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0.3-0.3.1"]
+RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 
 ["0.3.1-0"]
 CartesianGrids = "3e975e5d-2cf8-4263-9573-8460aaf534d9"
+
+["0.3.2-0"]
+ConstrainedSystems = "c257ce95-4918-4279-a47c-50fdbcb74a04"
+RigidBodyTools = "befc5f09-81d5-499c-a4b2-d0464ba9f9c8"
