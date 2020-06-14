@@ -34,11 +34,13 @@ FFTW = "0.0.0-1.1"
 SpecialFunctions = ["0.10", "1"]
 
 ["0.3.2-0"]
-FourierFlows = "0.4"
 JLD2 = "0.1"
 
 ["0.3.2-0.3.3"]
 CuArrays = "1"
+
+["0.3.2-0.5.0"]
+FourierFlows = "0.4"
 
 ["0.3.3"]
 SpecialFunctions = ["0.8", "1"]
@@ -47,3 +49,6 @@ SpecialFunctions = ["0.8", "1"]
 CuArrays = "1-2"
 FFTW = "1"
 SpecialFunctions = ["0.8", "0.10", "1"]
+
+["0.5.1-0"]
+FourierFlows = "0.4.0-*"
