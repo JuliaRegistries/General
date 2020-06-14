@@ -5,5 +5,11 @@ Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+["0-0.2"]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.3-0"]
+DynamicSparseArrays = "8086fd22-9a0c-46a5-a6c8-6e24676501fe"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
