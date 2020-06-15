@@ -101,7 +101,6 @@ MetadataArrays = "0.1"
 Unitful = "1"
 
 ["0.5-0"]
-DataFrames = "0.21"
 DiffEqBase = "6"
 Distances = "0.9"
 Distributions = "0.23"
@@ -110,3 +109,10 @@ OceanGrids = "0.2"
 RecipesBase = "1"
 UnPack = "1"
 UnitfulRecipes = "0.2"
+
+["0.5.0"]
+DataFrames = "0.21"
+
+["0.5.1-0"]
+DataFrames = "0.20-0.21"
+NCDatasets = "0.10"
