@@ -18,20 +18,28 @@ Interpolations = "0"
 ["0.4.1"]
 Distributions = "0"
 
-["0.6-0"]
+["0.6-1"]
 julia = "1.1.0-1"
 
 ["0.7.1-0"]
 ChaosTools = "1.7.0-1"
-DelayEmbeddings = "1.1.0-1"
-Distances = ["0.8", "1"]
-Interpolations = ["0.12", "1"]
-NearestNeighbors = "0.4.3-0.4"
 
 ["0.7.1-0.7.2"]
 Distributions = ["0.21", "1"]
 StaticArrays = ["0.11", "1"]
 
+["0.7.1-1"]
+DelayEmbeddings = "1.1.0-1"
+Distances = ["0.8", "1"]
+Interpolations = ["0.12", "1"]
+NearestNeighbors = "0.4.3-0.4"
+
 ["0.7.3-0"]
 Distributions = ["0.22.3-0.22", "1"]
+
+["0.7.3-1"]
 StaticArrays = ["0.12.1-0.12", "1"]
+
+[1]
+ChaosTools = "1.11.0-1"
+Distributions = "0.22.6-0.22"
