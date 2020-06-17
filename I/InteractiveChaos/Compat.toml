@@ -23,7 +23,6 @@ StatsBase = "0"
 StatsMakie = "0"
 
 ["0.3.3-0"]
-DynamicalSystems = "1"
 StatsBase = "0.32"
 julia = "1"
 
@@ -38,15 +37,24 @@ StatsMakie = ["0.0.6", "0.1"]
 Blink = "0.12"
 Interact = "0.10"
 
+["0.3.3-0.7"]
+DynamicalSystems = "1"
+
 ["0.5"]
 MakieLayout = "0.6-0.7"
 
 ["0.5-0"]
 AbstractPlotting = "0.10.2-0.10"
 DataStructures = "0.17"
-DynamicalBilliards = "3.11.1-3"
 Observables = "0.2-0.3"
 StatsMakie = "0.2"
 
-["0.6-0"]
+["0.5-0.7"]
+DynamicalBilliards = "3.11.1-3"
+
+["0.6-0.7"]
 MakieLayout = "0.7.1-0.7"
+
+["0.8-0"]
+MakieLayout = "0.7.1-0.9"
+Requires = "1"
