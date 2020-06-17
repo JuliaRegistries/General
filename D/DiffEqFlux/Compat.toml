@@ -44,9 +44,11 @@ RecursiveArrayTools = "1"
 Requires = "0.5"
 
 ["0.8-1"]
-Adapt = "1"
 ForwardDiff = "0.10"
 Tracker = "0.2"
+
+["0.8-1.12"]
+Adapt = "1"
 
 ["0.8-1.7.0"]
 DiffEqBase = "6"
@@ -73,6 +75,11 @@ DiffEqBase = "6.36.0-6"
 
 ["1.12.1-1"]
 DiffEqSensitivity = "6.19.0-6"
+
+["1.13-1"]
+Adapt = "1-2"
+Distributions = "0.23"
+Zygote = "0.4"
 
 ["1.2-1"]
 StaticArrays = "0.11-0.12"
