@@ -7,6 +7,10 @@ StaticArrays = "0.7-0"
 ["0.10-0"]
 DataFrames = ["0.18", "0.20-0.21"]
 
+["0.10.1-0"]
+Combinatorics = "1"
+MLJModelInterface = "0.2-0.3"
+
 ["0.3-0.4.1"]
 Parameters = "0.7.3-0"
 
@@ -72,10 +76,12 @@ MLJBase = "0.8"
 CSV = "0.5-0.6"
 DensityRatioEstimation = "0.4"
 Distributions = "0.21-0.23"
-MLJModelInterface = "0.2"
 OrderedCollections = "1.1.0-1"
 StatsBase = "0.32-0.33"
 Tables = "1"
+
+["0.8-0.10.0"]
+MLJModelInterface = "0.2"
 
 ["0.8-0.8.2"]
 RecipesBase = "0.7-0.8"
