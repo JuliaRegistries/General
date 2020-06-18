@@ -26,7 +26,6 @@ NNlib = "0.6"
 ZygoteRules = "0.1"
 
 ["0.4-0"]
-IRTools = "0.3"
 ZygoteRules = "0.2"
 
 ["0.4-0.4.1"]
@@ -42,11 +41,16 @@ FFTW = "1"
 ["0.4-0.4.2"]
 Requires = "0.5"
 
+["0.4-0.4.20"]
+IRTools = "0.3"
+
 ["0.4-0.4.8"]
 FillArrays = "0"
 
 ["0.4.13-0"]
 AbstractFFTs = "0.5"
+
+["0.4.13-0.4.20"]
 ArrayLayouts = "0.1-0.2"
 
 ["0.4.2"]
@@ -55,12 +59,21 @@ DiffRules = "0.0-0.1"
 ["0.4.2-0"]
 ForwardDiff = "0"
 MacroTools = "0.5"
+
+["0.4.2-0.4.20"]
 NaNMath = "0"
 SpecialFunctions = "0"
 
+["0.4.21-0"]
+ArrayLayouts = "0.1-0.3"
+ChainRules = "0.6"
+IRTools = "0.4"
+
 ["0.4.3-0"]
-DiffRules = ["0.0-0.1", "1"]
 Requires = ["0.5", "1"]
+
+["0.4.3-0.4.20"]
+DiffRules = ["0.0-0.1", "1"]
 
 ["0.4.9-0"]
 FillArrays = "0.8"
