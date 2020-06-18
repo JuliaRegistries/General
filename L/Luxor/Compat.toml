@@ -39,8 +39,14 @@ QuartzImageIO = "0.6"
 Cairo = ["0.5-0.8", "1"]
 Colors = ["0.6", "0.9", "1"]
 
+["1.9-1"]
+ImageMagick = "0.7"
+
 ["1.9-1.11"]
 Juno = "0.7"
 
-["1.9-2"]
+["2.0"]
 ImageMagick = "0.7"
+
+["2.1-2"]
+ImageMagick = ["0.7", "1"]
