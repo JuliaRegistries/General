@@ -2,6 +2,7 @@
 Adapt = "1"
 GPUArrays = "3.4.0-3"
 GPUCompiler = "0.3"
+LLVM = "1.5.0-1"
 
 [0-1]
 AbstractFFTs = "0.4-0.5"
@@ -9,7 +10,6 @@ BinaryProvider = "0.3-0.5"
 CEnum = "0.2-0.4"
 DataStructures = "0.17"
 ExprTools = "0.1"
-LLVM = "1.5.0-1"
 MacroTools = "0.5"
 NNlib = "0.6.5-0.6"
 Reexport = "0.2"
@@ -21,3 +21,9 @@ julia = "1.3.0-1"
 Adapt = "2"
 GPUArrays = "4"
 GPUCompiler = "0.4"
+
+["1.0.0"]
+LLVM = "1.5.0-1"
+
+["1.0.1-1"]
+LLVM = "1.5.2-1"
