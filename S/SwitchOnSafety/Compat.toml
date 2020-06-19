@@ -39,15 +39,21 @@ GraphPlot = "0.3-0.4"
 JuMP = "0.21"
 MathematicalSystems = "0.11"
 MultivariateMoments = "0.3"
-Optim = "0.19-0.20"
 ParameterJuMP = "0.2"
 Polyhedra = "0.6"
-SetProg = "0.1"
 StaticArrays = "0.11-0.12"
 SumOfSquares = "0.4"
+
+["0.1-0.1.1"]
+Optim = "0.19-0.20"
+SetProg = "0.1"
 
 ["0.1.0"]
 RecipesBase = "0.7-0.8"
 
 ["0.1.1-0"]
 RecipesBase = ["0.7-0.8", "1"]
+
+["0.1.2-0"]
+Optim = "0.19-0.21"
+SetProg = "0.1.2-0.1"
