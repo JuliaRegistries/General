@@ -20,10 +20,16 @@ ReinforcementLearningBase = "0"
 ReinforcementLearningEnvironmentDiscrete = "0"
 julia = "1"
 
-["0.4-0"]
-Reexport = "0.2"
+["0.4"]
 ReinforcementLearningBase = "0.6"
 ReinforcementLearningCore = "0.2"
+
+["0.4-0"]
+Reexport = "0.2"
 ReinforcementLearningEnvironments = "0.2"
 ReinforcementLearningZoo = "0.1"
 julia = "1.3.0-1"
+
+["0.5-0"]
+ReinforcementLearningBase = "0.7"
+ReinforcementLearningCore = "0.3"
