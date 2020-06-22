@@ -14,10 +14,12 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ["0.2-0"]
 CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
-IRTools = "7869d1d1-7146-5819-86e3-90919afe41df"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
+
+["0.2-0.5.1"]
+IRTools = "7869d1d1-7146-5819-86e3-90919afe41df"
 
 ["0.3-0"]
 CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
@@ -31,3 +33,7 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0.5.1-0"]
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
+["0.5.2-0"]
+MetaGraphs = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
+SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
