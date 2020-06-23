@@ -1,5 +1,4 @@
 [0]
-SLEEFPirates = "0.4.4-0.4"
 StackPointers = "0.1.2-0.1"
 julia = "1.3.0-1"
 
@@ -9,9 +8,8 @@ SIMDPirates = "0.7.8-0.7"
 VectorizationBase = "0.10"
 VectorizedRNG = "0.1.6-0.1"
 
-["0.1.1-0"]
-SIMDPirates = "0.7.17-0.7"
-VectorizedRNG = "0.1.7-0.1"
+["0-0.1.4"]
+SLEEFPirates = "0.4.4-0.4"
 
 ["0.1.1-0.1.2"]
 LoopVectorization = "0.7.2-0.7"
@@ -19,8 +17,19 @@ LoopVectorization = "0.7.2-0.7"
 ["0.1.1-0.1.3"]
 VectorizationBase = "0.10.5-0.10"
 
-["0.1.3-0"]
+["0.1.1-0.1.4"]
+SIMDPirates = "0.7.17-0.7"
+VectorizedRNG = "0.1.7-0.1"
+
+["0.1.3-0.1.4"]
 LoopVectorization = "0.7.4-0.7"
 
-["0.1.4-0"]
+["0.1.4"]
 VectorizationBase = "0.11"
+
+["0.1.5-0"]
+LoopVectorization = "0.8.6-0.8"
+SIMDPirates = "0.8"
+SLEEFPirates = "0.5"
+VectorizationBase = "0.12"
+VectorizedRNG = "0.1.8-0.1"
