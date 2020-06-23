@@ -6,7 +6,7 @@ LightGraphs = "1"
 SimpleWeightedGraphs = "1"
 julia = "1"
 
-["5.5.3-5"]
+["5.5.3-5.5"]
 AlgebraicMultigrid = "0.2.1-*"
 IterativeSolvers = "0.7.1-*"
 LightGraphs = "1.0.0-*"
@@ -16,6 +16,15 @@ SimpleWeightedGraphs = "1.0.0-*"
 GZip = "0.5.0-*"
 julia = "1.0.0-1"
 
-["5.5.5-5"]
+["5.5.5-5.5"]
 GZip = "0.5.1-*"
 julia = "1.0.0-*"
+
+["5.6-5"]
+AlgebraicMultigrid = "0.3"
+ArchGDAL = "0.4"
+GZip = "0.5.1-0.5"
+IterativeSolvers = "0.8"
+LightGraphs = "1"
+SimpleWeightedGraphs = "1"
+julia = "1.4.0-1"
