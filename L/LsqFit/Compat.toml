@@ -8,13 +8,20 @@ OptimBase = "0-2"
 ["0-0.9"]
 julia = ["0.7", "1"]
 
-["0.10-0"]
+["0.10"]
 Distributions = "0.18-0.22"
+StatsBase = "0.32"
+julia = "1"
+
+["0.10-0"]
 ForwardDiff = "0.10"
 NLSolversBase = "7.5.0-7"
 OptimBase = "2"
-StatsBase = "0.32"
-julia = "1"
+
+["0.11-0"]
+Distributions = "0.18-0.23"
+StatsBase = "0.32-0.33"
+julia = "1.1.0-1"
 
 ["0.7-0.8"]
 NLSolversBase = "0-7"
