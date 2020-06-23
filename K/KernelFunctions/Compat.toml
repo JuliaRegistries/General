@@ -1,10 +1,10 @@
-[0]
-julia = "1"
-
 ["0-0.2.0"]
 Distances = "0.8.2-0.8"
 PDMats = "0.9.9-0.9"
 SpecialFunctions = "0.7.2-0.7"
+
+["0-0.4.0"]
+julia = "1"
 
 ["0.2"]
 StatsFuns = "0.8"
@@ -42,5 +42,9 @@ StatsBase = "0.32"
 ["0.3.2-0"]
 StatsBase = "0.32-0.33"
 
-["0.4-0"]
+["0.4.0"]
 Distances = "0.8.2-0.8"
+
+["0.4.1-0"]
+Distances = "0.9"
+julia = "1.3.0-1"
