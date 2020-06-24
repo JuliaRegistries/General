@@ -8,5 +8,10 @@ julia = "1"
 
 ["0.5-0"]
 FFTW = ["0.2", "1"]
-SpecialFunctions = "0.8"
 julia = ["0.7", "1"]
+
+["0.5.0"]
+SpecialFunctions = "0.8"
+
+["0.5.1-0"]
+SpecialFunctions = ["0.8", "0.10"]
