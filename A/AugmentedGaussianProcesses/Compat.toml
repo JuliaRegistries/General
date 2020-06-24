@@ -53,17 +53,19 @@ RecipesBase = "0"
 ["0.7-0"]
 DataStructures = "0.17"
 Flux = "0.10"
-MCMCChains = ["0.3.15-0.3", "2-3"]
 MLDataUtils = "0.5"
 Reexport = "0.2"
 SimpleTraits = "0.9"
 StatsFuns = "0.8-0.9"
-Zygote = "0.4"
 julia = "1.2.0-1"
 
 ["0.7-0.8.0"]
 Distances = "0.8"
 KernelFunctions = "0.3"
+
+["0.7-0.8.1"]
+MCMCChains = ["0.3.15-0.3", "2-3"]
+Zygote = "0.4"
 
 ["0.7.0"]
 Distributions = "0.21.5-0.22"
@@ -81,3 +83,7 @@ Distances = "0.8-0.9"
 KernelFunctions = "0.3-0.4"
 PDMats = "0.9-0.10"
 RecipesBase = "0-1"
+
+["0.8.2-0"]
+MCMCChains = ["0.3.15-0.3", "2-4"]
+Zygote = "0.4-0.5"
