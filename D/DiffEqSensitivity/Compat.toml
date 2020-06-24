@@ -105,8 +105,10 @@ QuasiMonteCarlo = "0.1-0.2"
 Requires = "1"
 
 ["6.17-6"]
-DiffEqNoiseProcess = "4.1.4-4"
 StochasticDiffEq = "6.20.0-6"
+
+["6.17-6.22"]
+DiffEqNoiseProcess = "4.1.4-4"
 
 ["6.18-6"]
 DiffEqBase = "6.36.0-6"
@@ -125,6 +127,9 @@ Adapt = "1-2"
 
 ["6.22-6"]
 Zygote = "0.4-0.5"
+
+["6.23-6"]
+DiffEqNoiseProcess = "4.1.4-5"
 
 ["6.3"]
 DiffEqBase = "6.11.0-6"
