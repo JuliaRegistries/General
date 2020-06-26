@@ -21,11 +21,11 @@ UnsafeArrays = "1"
 ["0.1.1-0"]
 Requires = "1"
 
-["0.1.2-0"]
-SlidingDistancesBase = "0.1.3-0.1"
-
 ["0.1.2-0.1.3"]
 LoopVectorization = "0.7"
+
+["0.1.2-0.2"]
+SlidingDistancesBase = "0.1.3-0.1"
 
 ["0.1.3-0"]
 Distances = "0.8-0.9"
@@ -38,3 +38,6 @@ StatsBase = "0.32-0.33"
 
 ["0.2.3-0"]
 UnPack = ["0.1", "1"]
+
+["0.3-0"]
+SlidingDistancesBase = "0.1.5-0.1"
