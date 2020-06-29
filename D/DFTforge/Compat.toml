@@ -1,13 +1,25 @@
 [1]
+FileIO = "1.0.7-1"
+Glob = "1.2.0-1"
+ProgressMeter = "1.1.0-1"
+julia = "1"
+
+["1-1.1.0"]
 ArgParse = "0.6.2-0.6"
 CSV = ["0.5", "1"]
 DataFrames = ["0.19.4-0.19", "1"]
 DataStructures = ["0.17.5-0.17", "1"]
-FileIO = "1.0.7-1"
-Glob = "1.2.0-1"
 HDF5 = "0.12"
 JLD2 = "0.1.3-0.1"
 Plots = "0.27"
-ProgressMeter = "1.1.0-1"
 Rotations = ["0.12", "1"]
-julia = "1"
+
+["1.1.2-1"]
+ArgParse = "1"
+CSV = "0.6"
+DataFrames = ["0.21", "1"]
+DataStructures = "0.17"
+HDF5 = "0.13"
+JLD2 = ["0.1.3-0.1", "1"]
+Plots = "1.3.0-2"
+Rotations = "1"

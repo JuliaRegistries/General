@@ -5,9 +5,21 @@ julia = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["1.1-1"]
-OrderedCollections = "1"
 julia = "1"
 
-["1.5-1"]
+["1.1-1.5"]
+OrderedCollections = "1"
+
+["1.5"]
 FilePathsBase = "0.9"
 YAML = "0.4"
+
+["1.6.0"]
+SnoopCompileAnalysis = "1"
+SnoopCompileBot = "1"
+SnoopCompileCore = "1"
+
+["1.6.1-1"]
+SnoopCompileAnalysis = "1.6.1-1.6"
+SnoopCompileBot = "1.6.1-1.6"
+SnoopCompileCore = "1.6.1-1.6"
