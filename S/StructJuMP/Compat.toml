@@ -1,6 +1,12 @@
-[0]
+["0-0.1"]
 Compat = "1-2"
 JuMP = "0.18.3-0.18"
 MathProgBase = "0"
 ReverseDiffSparse = "0"
 julia = "0.6-1"
+
+["0.2-0"]
+JuMP = "0.21.3-0.21"
+MathOptInterface = "0.9.14-0.9"
+ParameterJuMP = "0.2"
+julia = "1"
