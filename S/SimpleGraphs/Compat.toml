@@ -1,13 +1,21 @@
 [0]
 DataStructures = "0"
-IterTools = "0-1"
 LightXML = "0"
 Optim = "0"
-Polynomials = "0"
 Primes = "0"
 SimplePartitions = "0"
 SimpleRandom = "0"
+
+["0-0.3"]
+IterTools = "0-1"
+Polynomials = "0"
 julia = ["0.7", "1"]
 
 ["0.2.5-0"]
 AbstractLattices = "0"
+
+["0.4-0"]
+IterTools = "1"
+Polynomials = "1"
+SimpleTools = "0"
+julia = "1"
