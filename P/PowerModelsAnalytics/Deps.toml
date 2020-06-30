@@ -5,7 +5,12 @@ Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 InfrastructureModels = "2030c09a-7f63-5d83-885d-db604e0e9cc0"
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-PowerModels = "c36e90e8-916a-50a6-bd94-075b64ef4655"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.2"]
+PowerModels = "c36e90e8-916a-50a6-bd94-075b64ef4655"
+
+["0.3-0"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
