@@ -36,12 +36,14 @@ FillArrays = "0.8"
 MacroTools = "0.5"
 Optim = "0.19-0.21"
 ProgressMeter = "1.3.0-1"
-SlidingDistancesBase = "0.1"
 ThreadTools = "0.1.1-0.2"
 UnbalancedOptimalTransport = "0.2"
 
 ["0.1.1-0.1.2"]
 DynamicAxisWarping = "0.1"
+
+["0.1.1-0.1.8"]
+SlidingDistancesBase = "0.1"
 
 ["0.1.2"]
 LoopVectorization = "0.7.7-0.8"
@@ -58,5 +60,9 @@ PolynomialRoots = ["0.2", "1"]
 ["0.1.6-0"]
 UnPack = "1"
 
-["0.1.8-0"]
+["0.1.8"]
 DynamicAxisWarping = "0.1-0.3"
+
+["0.1.9-0"]
+DynamicAxisWarping = "0.1-0.4"
+SlidingDistancesBase = "0.1-0.2"
