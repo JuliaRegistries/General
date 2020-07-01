@@ -1,6 +1,12 @@
 ["0-0.1"]
 julia = "1.1-1"
 
+["0.10-0"]
+LinearMapsAA = "0.6"
+MosaicViews = "0.2"
+NFFT = "0.5"
+SpecialFunctions = "0.10"
+
 ["0.2-0.8"]
 julia = "1.1.0-1"
 
@@ -16,9 +22,11 @@ Plots = "0.27"
 SpecialFunctions = "0.8"
 
 ["0.8-0"]
-NFFT = "0.4"
 Reexport = "0.2"
 Wavelets = "0.9"
+
+["0.8-0.9"]
+NFFT = "0.4"
 
 ["0.8-0.9.0"]
 FFTViews = "0.3"
@@ -90,6 +98,8 @@ ImageTransformations = "0.8"
 Interpolations = "0.12"
 LinearMaps = "2.6.0-2"
 MIRTio = "0.2"
+
+["0.9.3-0.9"]
 SpecialFunctions = "0.8-0.10"
 
 ["0.9.3-0.9.4"]
@@ -99,12 +109,14 @@ DSP = "0.6"
 Colors = "0.8-0.12"
 Plots = ["0.29", "1"]
 
-["0.9.4-0"]
+["0.9.4-0.9"]
 MosaicViews = "0.1-0.2"
 
 ["0.9.5"]
 Plots = "1.1.0-1"
 
 ["0.9.6-0"]
-LinearMapsAA = "0.5"
 Plots = "1.4.0-1"
+
+["0.9.6-0.9"]
+LinearMapsAA = "0.5"
