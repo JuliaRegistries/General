@@ -1,15 +1,23 @@
 [0]
 IntervalSets = "0.4-0.5"
 NamedDims = "0.2"
-julia = "1"
 
 ["0-0.1"]
 AxisIndices = "0.3"
 
-["0.2-0"]
+["0-0.2"]
+julia = "1"
+
+["0.2"]
 AxisIndices = "0.4"
+
+["0.2-0"]
 Reexport = "0.2"
 
 ["0.2.1-0"]
 AbstractFFTs = "0.5"
 FFTW = "1"
+
+["0.3-0"]
+AxisIndices = "0.5"
+julia = "1.4.0-1"
