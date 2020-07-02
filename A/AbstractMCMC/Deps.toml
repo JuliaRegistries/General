@@ -1,11 +1,11 @@
 ["0-0.4"]
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
-[0-1]
+[0-2]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0.5-1"]
+["0.5-2"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
@@ -13,7 +13,11 @@ ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
 ["0.5.0"]
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
-["0.5.1-1"]
+["0.5.1-2"]
 ConsoleProgressMonitor = "88cd18e8-d9cc-4ea6-8889-5259c0d15c8b"
 LoggingExtras = "e6f89c97-d47a-5376-807f-9c37f3926c36"
 TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
+
+[2]
+BangBang = "198e06fe-97b7-11e9-32a5-e1d131e6ad66"
+Transducers = "28d57a85-8fef-5791-bfe6-a80928e7c999"
