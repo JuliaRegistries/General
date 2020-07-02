@@ -1,6 +1,11 @@
 [0]
 AbstractTensors = "0.4"
 DirectSum = "0.5"
-Grassmann = "0.5"
 StaticArrays = "0"
 julia = "1"
+
+["0-0.1"]
+Grassmann = "0.5"
+
+["0.2-0"]
+Grassmann = "0.5.16-0.5"
