@@ -1,11 +1,18 @@
 [0]
-AbstractTensors = "0.4"
-DirectSum = "0.5"
 StaticArrays = "0"
 julia = "1"
 
 ["0-0.1"]
 Grassmann = "0.5"
 
-["0.2-0"]
+["0-0.2.0"]
+AbstractTensors = "0.4"
+DirectSum = "0.5"
+
+["0.2.0"]
 Grassmann = "0.5.16-0.5"
+
+["0.2.1-0"]
+AbstractTensors = "0.5"
+DirectSum = "0.6"
+Grassmann = "0.5.17-0.5"
