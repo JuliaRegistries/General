@@ -54,13 +54,15 @@ StaticArrays = "0.8-0.10"
 
 ["0.7.1-1"]
 FixedPolynomials = "0.4"
-TreeViews = "0.3"
 
 ["0.7.1-1.1"]
 ProjectiveVectors = "0.2"
 
 ["0.7.1-1.1.0"]
 Parameters = "0.10.3-0.10"
+
+["0.7.1-2"]
+TreeViews = "0.3"
 
 ["0.8-0"]
 ProgressMeter = ["0.8-0.9", "1"]
@@ -94,18 +96,22 @@ Parameters = "0.10.3-0.12"
 
 ["1.2-1"]
 ElasticArrays = ["0.3-0.4", "1"]
-ProjectiveVectors = "1.1.0-1"
 
 ["1.2-1.3"]
 PrettyTables = "0.4-0.6"
 
+["1.2-2"]
+ProjectiveVectors = "1.1.0-1"
+
 ["1.3-1"]
-MixedSubdivisions = "1"
 OrderedCollections = "1.1.0-1"
 StaticArrays = "0.8-0.12"
 
 ["1.3-1.4.1"]
 Latexify = "0.12"
+
+["1.3-2"]
+MixedSubdivisions = "1"
 
 ["1.3.1-1"]
 DoubleFloats = ["0.9", "1"]
@@ -119,3 +125,18 @@ PrettyTables = "0.8"
 ["1.4.2-1"]
 Latexify = "0.12-0.13"
 PrettyTables = "0.8-0.9"
+
+[2]
+DynamicPolynomials = "0.3"
+ElasticArrays = "1"
+FiniteDiff = "2.3.0-2"
+LRUCache = "1.1.0-1"
+LoopVectorization = "0.6-0.8"
+MultivariatePolynomials = "0.3"
+Parameters = "0.10-0.12"
+PrettyTables = "0.9"
+ProgressMeter = "1.3.0-1"
+Reexport = "0.2"
+StructArrays = "0.4"
+SymEngine_jll = "0.6"
+julia = "1.4.0-1"

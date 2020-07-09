@@ -2,14 +2,16 @@
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
 [0-1]
-DynamicPolynomials = "7c1d4256-1411-5781-91ec-d7bc3513ac07"
 FixedPolynomials = "3dd14ad9-0029-526e-86e9-8aa0bdd2ab0d"
+StaticPolynomials = "62e018b1-6e46-5407-a5a7-97d4fbcae734"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[0-2]
+DynamicPolynomials = "7c1d4256-1411-5781-91ec-d7bc3513ac07"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MultivariatePolynomials = "102ac46a-7ee4-5c85-9060-abc95bfdeaa3"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-StaticPolynomials = "62e018b1-6e46-5407-a5a7-97d4fbcae734"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 TreeViews = "a2a6695c-b41b-5b7d-aed9-dbfdeacea5d7"
 
 ["0.4-1"]
@@ -18,14 +20,16 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 ["0.5.1-0.5"]
 DoubleFloats = "497a8b3b-efae-58df-a0af-a86822472b78"
 
-["0.5.1-1"]
+["0.5.1-2"]
 ProjectiveVectors = "01f381cc-face-5a0a-ade9-ef63dc65d628"
 
-["0.7-1"]
+["0.7-2"]
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 
 [1]
 DoubleFloats = "497a8b3b-efae-58df-a0af-a86822472b78"
+
+[1-2]
 ElasticArrays = "fdbdab4c-e67f-52f5-8c3f-e7b388dad3d4"
 MixedSubdivisions = "291d046c-3347-11e9-1e74-c3d251d406c6"
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
@@ -33,3 +37,13 @@ PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 ["1.3-1"]
 Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
+[2]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+LRUCache = "8ac3fa9e-de4c-5943-b1dc-09c6b5f20637"
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
+SymEngine_jll = "3428059b-622b-5399-b16f-d347a77089a4"
