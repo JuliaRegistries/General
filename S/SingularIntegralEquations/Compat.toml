@@ -71,7 +71,6 @@ ApproxFun = "0.11.8-0.11"
 ApproxFunFourier = "0.2"
 ApproxFunOrthogonalPolynomials = "0.3"
 ApproxFunSingularities = "0.1.6-0.1"
-HypergeometricFunctions = "0.1-0.2"
 LowRankApprox = "0.4"
 julia = "1.3.0-1"
 
@@ -80,6 +79,9 @@ SpecialFunctions = "0.7-0.9"
 
 ["0.6-0.6.2"]
 BandedMatrices = "0.14.2-0.14"
+
+["0.6-0.6.3"]
+HypergeometricFunctions = "0.1-0.2"
 
 ["0.6.0"]
 ApproxFunBase = "0.2.3-0.2"
@@ -90,6 +92,12 @@ ApproxFunBase = "0.2.3-0.3"
 ["0.6.2-0"]
 SpecialFunctions = "0.7-0.10"
 
+["0.6.3"]
+DomainSets = "0.1-0.2"
+
 ["0.6.3-0"]
 BandedMatrices = "0.14.2-0.15"
-DomainSets = "0.1-0.2"
+
+["0.6.4-0"]
+DomainSets = "0.1-0.3"
+HypergeometricFunctions = "0.1-0.3"
