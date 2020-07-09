@@ -1,14 +1,20 @@
 [0-1]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+
+["0-1.3"]
 CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
 CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
-DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 GPUifyLoops = "ba82f77b-6841-5d2e-bd9f-4daf811aec27"
 
 ["0.2-1"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
-["0.4-1"]
+["0.4-1.3"]
 CUDAdrv = "c5f51814-7f29-56b8-a69c-e4d8f6be1fde"
 
 ["1.1-1"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+
+["1.4-1"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
