@@ -19,13 +19,8 @@ julia = ["0.7", "1"]
 julia = "1.1.0-1"
 
 ["0.1.2-0"]
-CoordinateTransformations = "0.5"
-Formatting = "0.4"
 ForwardDiff = "0.10"
-Interpolations = "0.12"
-Ipopt = "0.6"
 MathOptInterface = "0.9"
-Rotations = "0.13"
 
 ["0.1.2-0.1"]
 BlockArrays = "0.9"
@@ -34,11 +29,17 @@ MeshCatMechanisms = "0.5"
 StaticArrays = "0.12.0-*"
 julia = "1.1.0-*"
 
-["0.2-0"]
+["0.1.2-0.2"]
+CoordinateTransformations = "0.5"
+Formatting = "0.4"
+Interpolations = "0.12"
+Ipopt = "0.6"
+Rotations = "0.13"
+
+["0.2"]
 BenchmarkTools = "0.4"
 Combinatorics = "1"
 Distributions = "0.23"
-DocStringExtensions = "0.8"
 Documenter = "0.24"
 FFMPEG = "0.3"
 IterTools = "1"
@@ -47,5 +48,13 @@ Quaternions = "0.4"
 RecipesBase = "1"
 StaticArrays = "0.12.3-0.12"
 StatsBase = "0.33"
-UnsafeArrays = "1"
 julia = "1.1.0-1"
+
+["0.2-0"]
+DocStringExtensions = "0.8"
+UnsafeArrays = "1"
+
+["0.3-0"]
+RobotDynamics = "0.1.2-0.1"
+StaticArrays = "0.12"
+julia = "1"
