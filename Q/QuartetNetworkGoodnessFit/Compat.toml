@@ -6,9 +6,17 @@ PhyloNetworks = "0.10.0-*"
 SpecialFunctions = "0.8.0-*"
 
 ["0.2-0"]
+SpecialFunctions = "0.8-0.10"
+StatsFuns = "0.7-0.9"
+
+["0.2.0"]
 CSV = "0.4-0.6"
 DataFrames = "0.13-0.20"
 NLopt = "0.5.1-0.5"
 PhyloNetworks = "0.11"
-SpecialFunctions = "0.8-0.10"
-StatsFuns = "0.7-0.9"
+
+["0.2.1-0"]
+CSV = "0.4-0.7"
+DataFrames = "0.13-0.21"
+NLopt = "0.5.1-0.6"
+PhyloNetworks = "0.11-0.12"
