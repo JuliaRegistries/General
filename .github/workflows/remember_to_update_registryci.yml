@@ -3,8 +3,7 @@ name: remember_to_update_registryci
 on:
   schedule:
     - cron: '00 * * * *'
-  issues:
-    types: [opened, reopened]
+  workflow_dispatch:
 
 jobs:
   remember_to_update_registryci:
