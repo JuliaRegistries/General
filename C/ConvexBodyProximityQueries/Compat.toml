@@ -12,8 +12,14 @@ RecipesBase = "0.6"
 StaticArrays = "0.10"
 julia = "1.1.0-1"
 
-["0.1.6-0"]
+["0.1.6"]
 RecipesBase = "0.6-0.8"
+julia = "1"
+
+["0.1.6-0"]
 Requires = ["0.5", "1"]
 StaticArrays = "0.10-0.12"
-julia = "1"
+
+["0.1.7-0"]
+RecipesBase = ["0.6-0.8", "1"]
+julia = "1.4.0-1"
