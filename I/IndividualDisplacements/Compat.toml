@@ -9,30 +9,41 @@ MAT = "0.7-0.8"
 
 ["0.1.11-0"]
 CFTime = "0.1"
-MeshArrays = "0.2.10-0.2"
 NetCDF = "0.10"
 
 ["0.1.11-0.1.12"]
 CSV = "0.6"
 
+["0.1.11-0.1.13"]
+MeshArrays = "0.2.10-0.2"
+
 ["0.1.12"]
 DataFrames = ["0.20", "0.22"]
 
-["0.1.13-0"]
-CSV = "0.6-0.7"
+["0.1.13"]
 DataFrames = "0.20-0.22"
 StatsBase = "0.32-0.33"
+
+["0.1.13-0"]
+CSV = "0.6-0.7"
+
+["0.1.14-0"]
+DataFrames = "0.21"
+MeshArrays = "0.2"
+OrdinaryDiffEq = "5"
+StatsBase = "0.33"
+julia = "1.3.0-1"
 
 ["0.1.2"]
 DataFrames = "0.19.4-0.19"
 MeshArrays = "0.2.3-0.2"
 Plots = "0.27"
 
-["0.1.2-0"]
-julia = "1.1.0-1"
-
 ["0.1.2-0.1.12"]
 StatsBase = "0.32"
+
+["0.1.2-0.1.13"]
+julia = "1.1.0-1"
 
 ["0.1.2-0.1.4"]
 DifferentialEquations = "6.8.0-6"
@@ -49,11 +60,11 @@ MeshArrays = "0.2.5-0.2"
 ["0.1.5-0.1.8"]
 OrdinaryDiffEq = "5.28.1-5"
 
-["0.1.9-0"]
-OrdinaryDiffEq = "5.29.0-5"
-
 ["0.1.9-0.1.10"]
 MeshArrays = "0.2"
 
 ["0.1.9-0.1.11"]
 DataFrames = "0.20"
+
+["0.1.9-0.1.13"]
+OrdinaryDiffEq = "5.29.0-5"
