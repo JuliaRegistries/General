@@ -1,6 +1,5 @@
 [0]
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
-GPUifyLoops = "ba82f77b-6841-5d2e-bd9f-4daf811aec27"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
@@ -14,13 +13,16 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ["0-0.18.0"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
+["0-0.30"]
+GPUifyLoops = "ba82f77b-6841-5d2e-bd9f-4daf811aec27"
+
 ["0-0.5.1"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 ["0-0.9.2"]
 JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 
-["0.10-0"]
+["0.10-0.30"]
 CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
 
 ["0.11-0"]
@@ -42,14 +44,18 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ["0.30-0"]
 SeawaterPolynomials = "d496a93d-167e-4197-9f49-d3af4ff8fe40"
 
-["0.5.2-0"]
-CUDAdrv = "c5f51814-7f29-56b8-a69c-e4d8f6be1fde"
-CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
-CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
+["0.31-0"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 
 ["0.5.2-0.18.0"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+["0.5.2-0.30"]
+CUDAdrv = "c5f51814-7f29-56b8-a69c-e4d8f6be1fde"
+CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
+CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 
 ["0.5.2-0.5"]
 CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
