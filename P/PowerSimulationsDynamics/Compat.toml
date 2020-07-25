@@ -1,10 +1,16 @@
 [0]
 DiffEqBase = "6"
 ForwardDiff = "0.10"
-InfrastructureSystems = "0.13"
 NLsolve = "4"
-PowerSystems = "0.23"
 julia = "1.2.0-1"
+
+["0-0.1.1"]
+InfrastructureSystems = "0.13"
+PowerSystems = "0.23"
 
 ["0.1.1-0"]
 DocStringExtensions = "0.8.2-0.8"
+
+["0.1.2-0"]
+InfrastructureSystems = "0.14"
+PowerSystems = "0.24"
