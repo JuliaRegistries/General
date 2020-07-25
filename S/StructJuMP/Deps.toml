@@ -1,5 +1,12 @@
 [0]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+
+["0-0.1"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
 ReverseDiffSparse = "89212889-6d3f-5f97-b412-7825138f6c9c"
+
+["0.2-0"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
+ParameterJuMP = "774612a8-9878-5177-865a-ca53ae2495f9"

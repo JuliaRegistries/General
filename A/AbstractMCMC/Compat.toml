@@ -4,19 +4,23 @@ ProgressMeter = "1.2"
 ["0-0.5.5"]
 StatsBase = "0.32"
 
-[0-1]
+[0-2]
 julia = "1"
 
 ["0.3-0.4"]
 ProgressMeter = "1.2.0-1"
 
-["0.5-1"]
+["0.5-2"]
 ProgressLogging = "0.1"
 
-["0.5.1-1"]
+["0.5.1-2"]
 ConsoleProgressMonitor = "0.1"
 LoggingExtras = "0.4"
 TerminalLoggers = "0.1"
 
-["0.5.6-1"]
+["0.5.6-2"]
 StatsBase = "0.32-0.33"
+
+[2]
+BangBang = "0.3.19-0.3"
+Transducers = "0.4.30-0.4"

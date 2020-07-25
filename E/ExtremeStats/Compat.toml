@@ -11,9 +11,16 @@ RecipesBase = "0.2.3-0"
 JuMP = "0.19-0"
 julia = "1"
 
-["0.2.1-0"]
+["0.2.1"]
 Distributions = "0.15.0-*"
 Ipopt = "0.2.6-*"
 JuMP = "0.19.0-*"
 RecipesBase = "0.2.3-*"
 julia = "1.0.0-1"
+
+["0.2.2-0"]
+Distributions = "0.21-0.23"
+Ipopt = "0.6"
+JuMP = "0.20-0.21"
+RecipesBase = ["0.7-0.8", "1"]
+julia = "1"

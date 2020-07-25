@@ -8,6 +8,8 @@ Requires = "0.0.0 - 0.5"
 
 [0-1]
 DiffEqBase = "6.1.0-6"
+
+["0-1.1"]
 julia = "1"
 
 [1]
@@ -17,3 +19,10 @@ MonteCarloIntegration = "0.0.1"
 QuadGK = "2.1.0-2"
 Reexport = "0.2"
 Requires = ["0.5", "1"]
+
+["1.2-1"]
+ForwardDiff = "0.10"
+ReverseDiff = "1"
+Zygote = "0.4.22-0.5"
+ZygoteRules = "0.2"
+julia = "1.4.0-1"

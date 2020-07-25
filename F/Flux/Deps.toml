@@ -21,6 +21,11 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
+["0.11-0"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
 ["0.5-0"]
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
@@ -69,5 +74,5 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ["0.9"]
 CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
 
-["0.9-0"]
+["0.9-0.10"]
 CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"

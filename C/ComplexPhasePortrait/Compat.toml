@@ -7,11 +7,21 @@ Reactive = "0.8.2-0"
 RecipesBase = "0.5-0"
 julia = ["0.7", "1"]
 
-["0.1-0"]
+["0.1"]
 AbstractPlotting = "0.9"
 Colors = "0.9.5-0.9"
 Images = "0.19"
 IntervalSets = "0.3.1-0.3"
-Reactive = "0.8.2-0.8"
 RecipesBase = "0.5-0.7"
 julia = "1"
+
+["0.1-0"]
+Reactive = "0.8.2-0.8"
+
+["0.2-0"]
+AbstractPlotting = "0.12"
+Colors = "0.12"
+Images = "0.22"
+IntervalSets = "0.3.1-0.5"
+RecipesBase = "1"
+julia = "1.3.0-1"

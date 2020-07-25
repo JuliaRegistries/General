@@ -48,11 +48,17 @@ OffsetArrays = "0.10-0.11"
 ["0.8.1-0"]
 AxisAlgorithms = "1"
 ColorVectorSpace = "0.2-0.8"
-CoordinateTransformations = "0.5"
 IdentityRanges = "0.3"
 ImageCore = "0.8.1-0.8"
 Interpolations = "0.9-0.12"
 StaticArrays = "0.10-0.12"
 
+["0.8.1-0.8.4"]
+CoordinateTransformations = "0.5"
+
 ["0.8.2-0"]
 OffsetArrays = ["0.10-0.11", "1.0.1-1"]
+
+["0.8.5-0"]
+CoordinateTransformations = "0.5-0.6"
+Rotations = ["0.12-0.13", "1"]

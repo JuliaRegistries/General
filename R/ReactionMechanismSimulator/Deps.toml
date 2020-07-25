@@ -1,11 +1,8 @@
 [0]
-Clp = "e2554f3b-3117-50c0-817c-e040a3ddf72d"
-DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
@@ -15,3 +12,23 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+
+["0-0.1"]
+Clp = "e2554f3b-3117-50c0-817c-e040a3ddf72d"
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
+
+["0.2-0"]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Calculus = "49dc2e85-a5d0-5ad3-a950-438e2897f1b9"
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+QuartzImageIO = "dca85d43-d64c-5e67-8c65-017450d5d020"
+Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
+
+["0.2.0"]
+Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
+
+["0.2.1-0"]
+SmoothingSplines = "102930c3-cf33-599f-b3b1-9a29a5acab30"

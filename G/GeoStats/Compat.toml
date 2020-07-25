@@ -15,12 +15,12 @@ StaticArrays = "0.7-0"
 ["0-0.8.8"]
 julia = ["0.7", "1"]
 
-["0.10-0"]
-KrigingEstimators = "0.3"
-
 ["0.10-0.10.1"]
 GeoStatsBase = "0.6"
 Variography = "0.4"
+
+["0.10-0.13"]
+KrigingEstimators = "0.3"
 
 ["0.10.2-0.10"]
 GeoStatsBase = "0.7"
@@ -28,11 +28,11 @@ GeoStatsBase = "0.7"
 ["0.10.2-0.11"]
 Variography = "0.5"
 
-["0.11-0"]
-PointPatterns = "0.1"
-
 ["0.11-0.11.4"]
 GeoStatsBase = "0.7-0.8"
+
+["0.11-0.13"]
+PointPatterns = "0.1"
 
 ["0.11.5-0.11.6"]
 GeoStatsBase = "0.7-0.9"
@@ -40,11 +40,21 @@ GeoStatsBase = "0.7-0.9"
 ["0.11.7"]
 GeoStatsBase = "0.7-0.10"
 
-["0.11.8-0"]
+["0.11.8-0.13"]
 GeoStatsBase = "0.10"
 
-["0.12-0"]
+["0.12"]
 Variography = "0.6"
+
+["0.13"]
+Variography = "0.7"
+
+["0.14-0"]
+GeoStatsBase = "0.11"
+KrigingEstimators = "0.4"
+PointPatterns = "0.2"
+Variography = "0.8"
+julia = "1.4.0-1"
 
 ["0.7.2-0.7"]
 GeoStatsBase = "0.2.5-0"
@@ -99,7 +109,7 @@ GeoStatsBase = "0.3.6-0"
 GeoStatsDevTools = "0.4-0"
 Variography = "0.3.4-0"
 
-["0.8.9-0"]
+["0.8.9-0.13"]
 julia = "1"
 
 ["0.9.0"]

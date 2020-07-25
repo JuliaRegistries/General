@@ -5,9 +5,15 @@ MathProgBase = "0.7.7-0"
 Suppressor = "0.1.1-0"
 julia = "1"
 
-["0.2.1-0"]
+["0.2.1-0.2"]
 Combinatorics = "0.7.0-*"
 JuMP = "0.18"
 MathProgBase = "0.7.7-*"
 Suppressor = "0.1.1-*"
 julia = "1.0.0-1"
+
+["0.3-0"]
+Combinatorics = "1"
+JuMP = "0.21"
+MathOptInterface = "0.9.11-0.9"
+julia = "1"
