@@ -142,11 +142,17 @@ IncrementalInference = "0.10.3-0.11"
 ["0.7-0"]
 DistributedFactorGraphs = "0.7.1-0.8"
 Distributions = "0.20-0.23"
-IncrementalInference = "0.11-0.12"
-Optim = "0.19-0.21"
 ProgressMeter = "1"
 Reexport = "0.2"
 Requires = "1"
 Rotations = ["0.12.1-0.13", "1"]
 TensorCast = "0.2-0.3"
 julia = "1.2.0-1"
+
+["0.7-0.7.1"]
+IncrementalInference = "0.11-0.12"
+Optim = "0.19-0.21"
+
+["0.7.2-0"]
+IncrementalInference = "0.11-0.13"
+Optim = "0.19-0.22"
