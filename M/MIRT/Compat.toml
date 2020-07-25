@@ -2,10 +2,15 @@
 julia = "1.1-1"
 
 ["0.10-0"]
-LinearMapsAA = "0.6"
 MosaicViews = "0.2"
 NFFT = "0.5"
 SpecialFunctions = "0.10"
+
+["0.10-0.12"]
+LinearMapsAA = "0.6"
+
+["0.13-0"]
+LinearMapsAA = "0.6.5-0.6"
 
 ["0.2-0.8"]
 julia = "1.1.0-1"
@@ -82,7 +87,7 @@ LinearMaps = "2.6.1-2"
 Plots = "0.29.3-0.29"
 SpecialFunctions = "0.10"
 
-["0.9.2-0"]
+["0.9.2-0.12"]
 BenchmarkTools = "0.5"
 LaTeXStrings = "1.1.0-1"
 
@@ -92,12 +97,14 @@ Plots = "0.29"
 
 ["0.9.3-0"]
 FFTViews = "0.3"
-FileIO = "1.2.0-1"
 ImageFiltering = "0.6"
 ImageTransformations = "0.8"
 Interpolations = "0.12"
-LinearMaps = "2.6.0-2"
 MIRTio = "0.2"
+
+["0.9.3-0.12"]
+FileIO = "1.2.0-1"
+LinearMaps = "2.6.0-2"
 
 ["0.9.3-0.9"]
 SpecialFunctions = "0.8-0.10"
