@@ -3,13 +3,15 @@ DocStringExtensions = "0.8"
 HTTP = "0.8"
 NodeJS = ["0.6", "1"]
 OrderedCollections = "1.1.0-1"
-julia = "1.1.0-1"
 
 ["0-0.4"]
 JuDocTemplates = "0.2-0.3"
 
 ["0-0.5"]
 Literate = "2"
+
+["0-0.8"]
+julia = "1.1.0-1"
 
 ["0-0.8.3"]
 LiveServer = "0.3"
@@ -34,3 +36,6 @@ FranklinTemplates = "0.6-0.7"
 
 ["0.8.4-0"]
 LiveServer = "0.4-0.5"
+
+["0.9-0"]
+julia = "1.3.0-1"
