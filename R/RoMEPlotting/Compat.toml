@@ -78,7 +78,7 @@ StatsBase = "0.25-0.33"
 ["0.1.8-0.2.1"]
 Colors = "0.9.4-0.11"
 
-["0.2-0"]
+["0.2-0.3"]
 Compose = "0.8"
 
 ["0.2.0"]
@@ -89,11 +89,11 @@ RoME = "0.6"
 ["0.2.1"]
 IncrementalInference = "0.9-0.10"
 
-["0.2.1-0"]
-RoME = "0.6-0.7"
-
 ["0.2.1-0.2"]
 DistributedFactorGraphs = "0.6-0.7"
+
+["0.2.1-0.3"]
+RoME = "0.6-0.7"
 
 ["0.2.2-0"]
 Colors = "0.9.4-0.12"
@@ -101,9 +101,17 @@ Colors = "0.9.4-0.12"
 ["0.2.2-0.2"]
 IncrementalInference = "0.10-0.11"
 
-["0.3-0"]
+["0.3"]
 DistributedFactorGraphs = "0.8"
 IncrementalInference = "0.12"
+
+["0.3-0"]
 Requires = "1"
 StatsBase = "0.30-0.33"
 julia = "1.4.0-1"
+
+["0.4-0"]
+Compose = "0.8-0.9"
+DistributedFactorGraphs = "0.8-0.9"
+IncrementalInference = "0.13-0.14"
+RoME = "0.7-0.8"
