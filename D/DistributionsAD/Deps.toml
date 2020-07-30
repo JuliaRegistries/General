@@ -1,12 +1,10 @@
 [0]
-Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
-Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 
 ["0-0.1.1"]
 FiniteDifferences = "26cc04aa-876d-5657-8c51-4c34ba976000"
@@ -14,6 +12,10 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0-0.5.0"]
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["0-0.6.2"]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 
 ["0.3-0"]
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
@@ -26,8 +28,10 @@ FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 ["0.4.10-0"]
-MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.4.10-0.6.2"]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 
 ["0.4.5-0.4"]
 ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
@@ -37,3 +41,6 @@ NaNMath = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
 
 ["0.5-0"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.6.3-0"]
+ChainRules = "082447d4-558c-5d27-93f4-14fc19e9eca2"
