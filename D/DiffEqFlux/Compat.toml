@@ -60,9 +60,11 @@ DiffEqSensitivity = "5"
 DiffResults = ["0.0.4", "1"]
 
 [1]
-Flux = "0.10.1-0.10"
 RecursiveArrayTools = "2"
 ZygoteRules = "0.2"
+
+["1-1.17"]
+Flux = "0.10.1-0.10"
 
 ["1-1.3"]
 DiffEqSensitivity = "6"
@@ -70,7 +72,7 @@ DiffEqSensitivity = "6"
 ["1.10-1.16"]
 Optim = "0.20-0.21"
 
-["1.12-1"]
+["1.12-1.17"]
 DiffEqBase = "6.36.0-6"
 
 ["1.12.1-1"]
@@ -83,11 +85,17 @@ Zygote = "0.4"
 Adapt = "1-2"
 Distributions = "0.23"
 
-["1.14-1"]
+["1.14-1.17"]
 Zygote = "0.4-0.5"
 
 ["1.17-1"]
 Optim = "0.20-0.22"
+
+["1.18-1"]
+DiffEqBase = "6.41.0-6"
+DistributionsAD = "0.6"
+Flux = "0.11"
+Zygote = "0.5"
 
 ["1.2-1"]
 StaticArrays = "0.11-0.12"
