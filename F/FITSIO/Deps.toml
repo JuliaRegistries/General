@@ -1,9 +1,13 @@
-[0]
-BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-
 ["0-0.13"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
+["0-0.15"]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
 ["0.14-0"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+["0.16-0"]
+CFITSIO = "3b1b4be9-1499-4b22-8d78-7db3344d1961"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
