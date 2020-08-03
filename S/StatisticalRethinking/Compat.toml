@@ -128,13 +128,17 @@ DocStringExtensions = "0.8"
 
 ["2.1-2"]
 KernelDensity = "0.5"
-MonteCarloMeasurements = "0.8"
 Reexport = "0.2"
 
+["2.1-2.2.3"]
+MonteCarloMeasurements = "0.8"
+
 ["2.1.4-2"]
-CSV = "0.5-0.6"
 Distributions = "0.22-0.23"
 StatsBase = "0.32-0.33"
+
+["2.1.4-2.2.3"]
+CSV = "0.5-0.6"
 
 ["2.1.6-2"]
 LaTeXStrings = "1.1.0-1"
@@ -153,3 +157,7 @@ DataFrames = "0.20-0.21"
 
 ["2.2.3-2"]
 MCMCChains = "3-4"
+
+["2.2.4-2"]
+CSV = "0.5-0.7"
+MonteCarloMeasurements = "0.8-0.9"
