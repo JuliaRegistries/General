@@ -4,13 +4,19 @@ DocStringExtensions = "0.8"
 ForwardDiff = "0.5-0.10"
 Reexport = "0.2"
 StaticArrays = "0.8-0.12"
-julia = "1.1-1.4"
 
 ["0-0.1"]
 IntervalArithmetic = "0.16"
+
+["0-0.6"]
+julia = "1.1-1.4"
 
 ["0.2-0.6.0"]
 IntervalArithmetic = "0.16.3-0.16"
 
 ["0.6.1-0"]
 IntervalArithmetic = "0.16.3-0.17"
+
+["0.7-0"]
+NaNMath = "0.3.3-0.3"
+julia = "1.1-1.5"
