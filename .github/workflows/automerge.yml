@@ -1,9 +1,10 @@
 name: AutoMerge
 
 on:
-  schedule:
-    - cron: '05,17,29,41,53 * * * *'
-  pull_request:
+  # schedule:
+  #  - cron: '05,17,29,41,53 * * * *'
+  # pull_request:
+  repository_dispatch:
 
 jobs:
   AutoMerge:
