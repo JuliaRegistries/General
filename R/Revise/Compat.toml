@@ -2,7 +2,7 @@
 julia = ["0.7", "1"]
 
 ["0-0.3"]
-DataStructures = "0"
+DataStructures = "0.0.0 - 0.17"
 
 ["0.2.1-0.2"]
 Compat = "0.50-2"
@@ -11,7 +11,7 @@ Compat = "0.50-2"
 Compat = "0.51-2"
 
 ["0.4-0.5.1"]
-DataStructures = "0.8.3-0"
+DataStructures = "0.8.3 - 0.17"
 
 ["0.5.2-1.1.0"]
 OrderedCollections = "0-1"
@@ -24,6 +24,7 @@ CodeTracking = "0-0.5"
 
 ["1.1.1-1"]
 CodeTracking = "0.5.1-0.5"
+OrderedCollections = "0.0.0 - 1"
 
 ["2-2.0.1"]
 CodeTracking = "0.4"
@@ -58,6 +59,9 @@ JuliaInterpreter = "0.2-0.5"
 
 ["2.1.3"]
 LoweredCodeUtils = "0.3.2-0.3"
+
+["2.1.3-2.2"]
+OrderedCollections = "0.0.0 - 1"
 
 ["2.1.4-2.1.7"]
 LoweredCodeUtils = "0.3.4-0.3"
