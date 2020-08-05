@@ -33,8 +33,8 @@ jobs:
         run: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
       - name: AutoMerge.run
         env:
-          MERGE_NEW_PACKAGES: false
-          MERGE_NEW_VERSIONS: false
+          MERGE_NEW_PACKAGES: true
+          MERGE_NEW_VERSIONS: true
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JULIA_DEBUG: RegistryCI,AutoMerge
         run: |
