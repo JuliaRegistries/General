@@ -33,6 +33,8 @@ jobs:
         run: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
       - name: AutoMerge.run
         env:
+          MERGE_NEW_PACKAGES: true
+          MERGE_NEW_VERSIONS: true
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JULIA_DEBUG: RegistryCI,AutoMerge
-        run: julia --project=.ci/ -e 'using RegistryCI; using Dates; RegistryCI.AutoMerge.run(merge_new_packages = false, merge_new_versions = false, new_package_waiting_period = Day(3), new_jll_package_waiting_period = Minute(15), new_version_waiting_period = Minute(15), new_jll_version_waiting_period = Minute(15), registry = "JuliaRegistries/General", authorized_authors = String["JuliaRegistrator"], authorized_authors_special_jll_exceptions = String["jlbuild"], suggest_onepointzero = false, additional_statuses = String[], additional_check_runs = String["Travis CI - Pull Request"])'
+        run: julia --project=.ci/ -e 'using RegistryCI; using Dates; RegistryCI.AutoMerge.run(merge_new_packages = ENV["MERGE_NEW_PACKAGES"] == "true", merge_new_versions = ENV["MERGE_NEW_VERSIONS"] == "true", new_package_waiting_period = Day(3), new_jll_package_waiting_period = Minute(15), new_version_waiting_period = Minute(15), new_jll_version_waiting_period = Minute(15), registry = "JuliaRegistries/General", authorized_authors = String["JuliaRegistrator"], authorized_authors_special_jll_exceptions = String["jlbuild"], suggest_onepointzero = false, additional_statuses = String[], additional_check_runs = String["Travis CI - Pull Request"])'
