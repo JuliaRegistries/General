@@ -199,31 +199,3 @@ to edit the lines near the bottom of the file that look like this:
           MERGE_NEW_PACKAGES: true
           MERGE_NEW_VERSIONS: true
 ```
-
-To disable all automerging:
-```yaml
-        env:
-          MERGE_NEW_PACKAGES: false
-          MERGE_NEW_VERSIONS: false
-```
-
-To enable automerge for new versions but disable automerge for new packages:
-```yaml
-        env:
-          MERGE_NEW_PACKAGES: false
-          MERGE_NEW_VERSIONS: true
-```
-
-To enable automerge for new packages but disable automerge for new versions:
-```yaml
-        env:
-          MERGE_NEW_PACKAGES: true
-          MERGE_NEW_VERSIONS: false
-```
-
-To enable automerge for new packages and new versions:
-```yaml
-        env:
-          MERGE_NEW_PACKAGES: true
-          MERGE_NEW_VERSIONS: true
-```
