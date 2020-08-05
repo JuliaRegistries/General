@@ -186,3 +186,16 @@ not a curated list of Julia packages. In particular this means that:
 [registryci]: https://github.com/JuliaRegistries/RegistryCI.jl
 [github-rename]: https://help.github.com/en/github/administering-a-repository/renaming-a-repository
 [github-transfer]: https://help.github.com/en/github/administering-a-repository/transferring-a-repository
+
+## Tips for registry maintainers
+
+### Enabling/disabling AutoMerge
+
+To enable/disable automerge, make a pull request to edit the 
+[`.github/workflows/automerge.yml`](.github/workflows/automerge.yml) file. Specifically, you want
+to edit the lines near the bottom of the file that look like this:
+```yaml
+        env:
+          MERGE_NEW_PACKAGES: true
+          MERGE_NEW_VERSIONS: true
+```
