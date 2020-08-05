@@ -192,7 +192,7 @@ not a curated list of Julia packages. In particular this means that:
 ### Enabling/disabling AutoMerge
 
 To enable/disable automerge, make a pull request to edit the 
-[`.github/workflows/automerge.yml`](`.github/workflows/automerge.yml`) file. Specifically, you want
+[`.github/workflows/automerge.yml`](.github/workflows/automerge.yml) file. Specifically, you want
 to edit the lines near the bottom of the file that look like this:
 ```yaml
         env:
