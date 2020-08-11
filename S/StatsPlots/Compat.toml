@@ -45,11 +45,13 @@ Tables = "0.2"
 DataStructures = "0.17"
 DataValues = "0.4"
 Interpolations = "0.12"
-KernelDensity = "0.5"
 MultivariateStats = "0.7"
 Reexport = "0.2"
 Widgets = "0.5-0.6"
 julia = "1"
+
+["0.13-0.14.10"]
+KernelDensity = "0.5"
 
 ["0.13-0.14.2"]
 StatsBase = "0.32"
@@ -73,6 +75,9 @@ Observables = "0.2.2-0.2"
 
 ["0.14.1-0"]
 Observables = "0.2.2-0.3"
+
+["0.14.11-0"]
+KernelDensity = "0.5-0.6"
 
 ["0.14.2-0"]
 Distributions = "0.21-0.23"
