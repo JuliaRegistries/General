@@ -4,7 +4,6 @@ DocStringExtensions = "0.8"
 DocumenterTools = "0.1"
 LaTeXStrings = "1.1.0-1"
 Parameters = "0.12"
-PhysicalConstants = "0.2"
 Plots = "1.4.0-1"
 RecipesBase = "1"
 SpecialFunctions = "0.10"
@@ -17,8 +16,17 @@ Documenter = "0.24"
 FITSIO = "0.14"
 Optim = "0.21"
 
+["0-0.2"]
+PhysicalConstants = "0.2"
+
+["0.2"]
+FITSIO = "0.14-0.15"
+Optim = "0.20-0.22"
+
 ["0.2-0"]
 DataFrames = "0.19-0.21"
 Documenter = "0.24-0.25"
-FITSIO = "0.14-0.15"
-Optim = "0.20-0.22"
+
+["0.3-0"]
+FITSIO = "0.14-0.16"
+Optim = "0.20-0.21"
