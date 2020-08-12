@@ -20,6 +20,9 @@ julia = "1.0.0-1"
 GZip = "0.5.1-*"
 julia = "1.0.0-*"
 
+["5.6"]
+julia = "1.4.0-1"
+
 ["5.6-5"]
 AlgebraicMultigrid = "0.3"
 ArchGDAL = "0.4"
@@ -27,4 +30,6 @@ GZip = "0.5.1-0.5"
 IterativeSolvers = "0.8"
 LightGraphs = "1"
 SimpleWeightedGraphs = "1"
-julia = "1.4.0-1"
+
+["5.7-5"]
+julia = "1.5.0-1"
