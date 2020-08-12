@@ -7,14 +7,14 @@ FillArrays = "0.2-0.5"
 ["0.1.1-0.8"]
 StaticArrays = "0.8.3-0"
 
-["0.10-0"]
-julia = "1"
-
 ["0.10-0.13"]
 MacroTools = "0.4.5-0.5"
 
 ["0.10-0.13.0"]
 StaticArrays = "0.8-0.11"
+
+["0.10-0.16"]
+julia = "1"
 
 ["0.11-0.12"]
 FillArrays = "0.7"
@@ -27,10 +27,12 @@ StaticArrays = "0.8-0.12"
 
 ["0.14-0"]
 MacroTools = "0.5"
-StaticArrays = "0.11-0.12"
 
 ["0.14-0.15"]
 ArrayLayouts = "0.1"
+
+["0.14-0.16"]
+StaticArrays = "0.11-0.12"
 
 ["0.14-0.16.6"]
 FillArrays = "0.8"
@@ -38,13 +40,13 @@ FillArrays = "0.8"
 ["0.16-0.16.1"]
 ArrayLayouts = "0.2"
 
-["0.16.11-0"]
+["0.16.11-0.16"]
 ArrayLayouts = "0.3.4-0.3"
 
-["0.16.14-0"]
+["0.16.14-0.16"]
 MatrixFactorizations = "0.4-0.5"
 
-["0.16.16-0"]
+["0.16.16-0.16"]
 FillArrays = "0.8.8-0.9"
 
 ["0.16.2"]
@@ -61,6 +63,13 @@ FillArrays = "0.8.8-0.8"
 
 ["0.16.8-0.16.10"]
 ArrayLayouts = "0.2.3-0.3"
+
+["0.17-0"]
+ArrayLayouts = "0.4.2-0.4"
+FillArrays = "0.9.1-0.9"
+MatrixFactorizations = "0.5.2-0.5"
+StaticArrays = "0.12"
+julia = "1.4.0-1"
 
 ["0.3-0.6"]
 FillArrays = "0.3-0.5"
