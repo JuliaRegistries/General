@@ -1,6 +1,5 @@
 [2]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 DiffEqFlux = "aae7a2af-3d4f-5e19-a356-7da93b79d9d0"
 DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
@@ -17,3 +16,10 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
 Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["2.0"]
+CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
+
+["2.1-2"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+GalacticOptim = "a75be94c-b780-496d-a8a9-0878b188d577"
