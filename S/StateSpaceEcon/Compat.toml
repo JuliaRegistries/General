@@ -1,12 +1,21 @@
 [0]
 DiffResults = "1"
 ForwardDiff = "0.10"
-ModelBaseEcon = "0.1"
 julia = "1"
 
 ["0-0.1.0"]
 TimeSeriesEcon = "0.1"
 
+["0-0.1.1"]
+ModelBaseEcon = "0.1"
+
+["0.1.1"]
+TimeSeriesEcon = "0.2"
+
 ["0.1.1-0"]
 Suppressor = "0.2"
-TimeSeriesEcon = "0.2"
+
+["0.1.2-0"]
+ModelBaseEcon = "0.2"
+RecipesBase = "1"
+TimeSeriesEcon = "0.2.1-0.2"
