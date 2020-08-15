@@ -12,10 +12,15 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 ["0.2-0"]
 JuliaInterpreter = "aa1ae85d-cabe-5617-a682-6adf51b2e16a"
 
-["0.2.1-0"]
+["0.2.1-0.3"]
 CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
 CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
 CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 
 ["0.3-0"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
+["0.4-0"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+IRTools = "7869d1d1-7146-5819-86e3-90919afe41df"
