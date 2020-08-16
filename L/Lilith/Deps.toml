@@ -1,7 +1,4 @@
 [0]
-CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
-CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
-CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MLDataUtils = "cc2ba9b6-d476-5e6d-8eaf-a92d5412d41d"
@@ -10,3 +7,11 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Yota = "cd998857-8626-517d-b929-70ad188a48f0"
+
+["0-0.1"]
+CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
+CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
+CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
+
+["0.3-0"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
