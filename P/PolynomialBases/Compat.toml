@@ -10,9 +10,15 @@ Requires = "0"
 SpecialFunctions = "0"
 
 ["0.4.2-0"]
-ArgCheck = "1"
 FastGaussQuadrature = "0.4.2-0.4"
-FastTransforms = "0.4-0.8"
 Parameters = "0.12"
 Requires = ["0.5.2-0.5", "1"]
 SpecialFunctions = "0.7-0.10"
+
+["0.4.2-0.4.5"]
+ArgCheck = "1"
+FastTransforms = "0.4-0.8"
+
+["0.4.6-0"]
+ArgCheck = "1-2"
+FastTransforms = "0.4-0.10"
