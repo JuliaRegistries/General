@@ -24,7 +24,6 @@ DefaultApplication = "0"
 julia = "1"
 
 ["1.2-1"]
-DataStructures = "0.17"
 DocStringExtensions = "0.8"
 MacroTools = "0.5"
 Parameters = "0.12"
@@ -38,6 +37,9 @@ ArgCheck = "1"
 ["1.2-1.2.5"]
 StatsBase = "0.32"
 
+["1.2-1.2.8"]
+DataStructures = "0.17"
+
 ["1.2.0"]
 Requires = "0.5"
 
@@ -50,5 +52,8 @@ DefaultApplication = "1"
 ["1.2.4-1"]
 ArgCheck = "1-2"
 
-["1.2.6-1"]
+["1.2.6-1.2.8"]
 StatsBase = "0.32-0.33"
+
+["1.2.9-1"]
+DataStructures = "0.17-0.18"
