@@ -18,7 +18,7 @@ Flux = ["0.8", "0.11"]
 IRTools = "0.3-0.4"
 Zygote = "0.4-0.5"
 
-["0.1.13-0"]
+["0.1.13"]
 MCMCChains = "4"
 StatsBase = "0.33"
 StatsPlots = "0.14"
@@ -27,7 +27,9 @@ StatsPlots = "0.14"
 Reexport = "0.2"
 
 ["0.1.9-0"]
-AbstractMCMC = "2"
 IRTools = "0.3"
 ZigZagBoomerang = "0.5"
 Zygote = "0.4.20-0.4"
+
+["0.1.9-0.1.13"]
+AbstractMCMC = "2"
