@@ -1,21 +1,17 @@
 [0]
-CloudGraphs = "39d38320-a18c-5735-a4f5-135970cd79b8"
 CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
 IncrementalInference = "904591bb-b899-562f-9e6f-b8df64c7d480"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 KernelDensityEstimate = "2472808a-b354-52ea-a80e-1658a3c6056d"
-Mongoc = "4fe8b98c-fc19-5c23-8ec2-168ff83495f2"
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
-Neo4j = "d2adbeaf-5838-5367-8a2f-e46d570981db"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 RoME = "91fb55c2-4c03-5a59-ba21-f4ea956187b8"
@@ -25,6 +21,12 @@ TransformUtils = "9b8138ad-1b09-5408-aa39-e87ed6d21b63"
 
 ["0-0.4.2"]
 LCMCore = "0ea44823-1ff1-5b9a-8293-5fd55a38e746"
+
+["0-0.5"]
+CloudGraphs = "39d38320-a18c-5735-a4f5-135970cd79b8"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+Mongoc = "4fe8b98c-fc19-5c23-8ec2-168ff83495f2"
+Neo4j = "d2adbeaf-5838-5367-8a2f-e46d570981db"
 
 ["0.2.1-0"]
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
@@ -63,3 +65,6 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 ["0.5.1-0"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.6-0"]
+TimeZones = "f269a46b-ccf7-5d73-abea-4c690281aa53"
