@@ -1,12 +1,19 @@
 [0]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 LIBLINEAR = "2d691ee1-e668-5016-a719-b2531b85e0f5"
 ScikitLearnBase = "6e75b9c4-186b-50bd-896f-2d2496a4843e"
+
+["0-0.4"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
 ["0.3"]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0.3-0"]
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0.3-0.4"]
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+["0.5-0"]
+libsvm_jll = "08558c22-525a-5d2a-acf6-0ac6658ffce4"
