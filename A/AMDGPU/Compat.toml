@@ -3,14 +3,22 @@ AbstractFFTs = "0.5"
 Adapt = ["0.4", "1-2"]
 BinaryProvider = "0.5"
 CEnum = "0.2-0.4"
-GPUCompiler = "0.4-0.5"
-LLVM = "2"
 Requires = "1"
-Setfield = "0.5-0.6"
 julia = "1.4.0-1"
 
 ["0-0.1.0"]
 GPUArrays = "2"
 
-["0.1.1-0"]
+["0-0.1.1"]
+GPUCompiler = "0.4-0.5"
+LLVM = "2"
+Setfield = "0.5-0.6"
+
+["0.1.1"]
 GPUArrays = "2-4"
+
+["0.1.2-0"]
+GPUArrays = "2-5"
+GPUCompiler = "0.7"
+LLVM = "3"
+Setfield = "0.5-0.7"
