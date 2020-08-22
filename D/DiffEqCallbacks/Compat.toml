@@ -19,13 +19,15 @@ StaticArrays = "0.0.0 - 0.12"
 DiffEqBase = "6.5.0-6"
 
 ["2.10-2"]
-DataStructures = "0.17"
 ForwardDiff = "0.10"
 NLsolve = "4.2.0-4"
 StaticArrays = "0.10-0.12"
 
 ["2.10-2.11"]
 RecipesBase = "0.7"
+
+["2.10-2.13"]
+DataStructures = "0.17"
 
 ["2.11-2"]
 DiffEqBase = "6.11.0-6"
@@ -36,6 +38,9 @@ RecipesBase = "0.7-0.8"
 
 ["2.13-2"]
 RecipesBase = ["0.7-0.8", "1"]
+
+["2.14-2"]
+DataStructures = "0.18"
 
 ["2.2-2"]
 julia = "1"
