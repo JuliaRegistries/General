@@ -16,7 +16,6 @@ ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 RoME = "91fb55c2-4c03-5a59-ba21-f4ea956187b8"
 Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 TransformUtils = "9b8138ad-1b09-5408-aa39-e87ed6d21b63"
 
 ["0-0.4.2"]
@@ -28,9 +27,14 @@ Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 Mongoc = "4fe8b98c-fc19-5c23-8ec2-168ff83495f2"
 Neo4j = "d2adbeaf-5838-5367-8a2f-e46d570981db"
 
+["0-0.6.0"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
 ["0.2.1-0"]
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 Unmarshal = "cbff2730-442d-58d7-89d1-8e530c41eb02"
+
+["0.2.1-0.6.0"]
 ZMQ = "c2297ded-f4af-51ae-bb23-16f91089e4e1"
 
 ["0.2.2-0"]
@@ -68,3 +72,6 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.6-0"]
 TimeZones = "f269a46b-ccf7-5d73-abea-4c690281aa53"
+
+["0.6.1-0"]
+TensorCast = "02d47bb6-7ce6-556a-be16-bb1710789e2b"
