@@ -1,5 +1,4 @@
 [0]
-Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 GitHub = "bc5e4493-9b4d-5f90-b8aa-2b2bcaad7a26"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
@@ -7,7 +6,6 @@ JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 LibGit2 = "76f85450-5226-5b5a-8eaa-529ad045b433"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
 ObjectFile = "d8793406-e978-5875-9003-1fc021f44a92"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 PkgLicenses = "fc669557-7ec9-5e45-bca9-462afbc28879"
@@ -22,6 +20,10 @@ BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.2.5"]
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
+
 ["0.2-0"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Registrator = "4418983a-e44d-11e8-3aec-9789530b3b3e"
@@ -31,8 +33,14 @@ ghr_jll = "07c12ed4-43bc-5495-8a2a-d5838ef8d533"
 ["0.2.3-0"]
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
+["0.2.5"]
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+
 ["0.2.5-0"]
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
-CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 LoggingExtras = "e6f89c97-d47a-5376-807f-9c37f3926c36"
+
+["0.2.6-0"]
+BinaryBuilderBase = "7f725544-6523-48cd-82d1-3fa08ff4056e"
+OutputCollectors = "6c11c7d4-943b-4e2b-80de-f2cfc2930a8c"
