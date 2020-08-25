@@ -65,11 +65,13 @@ NaNMath = "0"
 SpecialFunctions = "0"
 
 ["0.4.21-0"]
-ArrayLayouts = "0.1-0.3"
 IRTools = "0.4"
 
 ["0.4.21-0.5.1"]
 ChainRules = "0.6"
+
+["0.4.21-0.5.4"]
+ArrayLayouts = "0.1-0.3"
 
 ["0.4.3-0"]
 Requires = ["0.5", "1"]
@@ -77,14 +79,14 @@ Requires = ["0.5", "1"]
 ["0.4.3-0.4.20"]
 DiffRules = ["0.0-0.1", "1"]
 
-["0.4.9-0"]
-FillArrays = "0.8"
-
 ["0.4.9-0.4"]
 NNlib = "0.6.5-0.6"
 
 ["0.4.9-0.4.12"]
 ArrayLayouts = "0.1"
+
+["0.4.9-0.5.4"]
+FillArrays = "0.8"
 
 ["0.5-0"]
 NNlib = "0.7"
@@ -98,3 +100,7 @@ SpecialFunctions = "0.10"
 
 ["0.5.3-0"]
 LoopVectorization = "0.8.15-0.8"
+
+["0.5.5-0"]
+ArrayLayouts = "0.1-0.4"
+FillArrays = "0.8-0.9"
