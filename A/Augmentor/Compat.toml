@@ -1,6 +1,5 @@
 [0]
 ComputationalResources = "0.3"
-CoordinateTransformations = "0.5"
 FileIO = "1"
 IdentityRanges = "0.3"
 ImageCore = "0.8.1-0.8"
@@ -9,7 +8,15 @@ ImageTransformations = "0.5-0.8"
 Interpolations = "0.8-0.12"
 MLDataPattern = "0.4-0.5"
 MappedArrays = "0.1-0.2"
-OffsetArrays = "0.8-0.11"
-Rotations = "0.7-0.13"
 StaticArrays = "0.8-0.12"
 julia = "1"
+
+["0-0.6.0"]
+CoordinateTransformations = "0.5"
+OffsetArrays = "0.8-0.11"
+Rotations = "0.7-0.13"
+
+["0.6.1-0"]
+CoordinateTransformations = "0.5-0.6"
+OffsetArrays = ["0.8-0.11", "1"]
+Rotations = ["0.7-0.13", "1"]
