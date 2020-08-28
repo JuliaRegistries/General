@@ -51,8 +51,15 @@ IntervalArithmetic = "0.16.3-0.17"
 IntervalContractors = "0.4.2-0.4"
 JuMP = "0.21.2-0.21"
 MathOptInterface = "0.9.13-0.9"
-McCormick = "0.6.1-0.6"
 NaNMath = "0.3"
 Reexport = "0.2"
+
+["0.4-0.4.1"]
+McCormick = "0.6.1-0.6"
 ReverseMcCormick = "0.5.3-0.6"
 julia = "1.2-1.4"
+
+["0.4.2-0"]
+McCormick = "0.7"
+ReverseMcCormick = "0.7"
+julia = "1.2-1.5"
