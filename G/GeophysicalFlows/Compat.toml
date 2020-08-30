@@ -25,10 +25,12 @@ SpecialFunctions = "0.8"
 
 ["0.3.1-0"]
 Reexport = "0.2"
-julia = "1"
 
 ["0.3.1-0.3.3"]
 FFTW = "0.0.0-1.1"
+
+["0.3.1-0.5"]
+julia = "1"
 
 ["0.3.2"]
 SpecialFunctions = ["0.10", "1"]
@@ -46,12 +48,20 @@ FourierFlows = "0.4"
 SpecialFunctions = ["0.8", "1"]
 
 ["0.3.4-0"]
-CuArrays = "1-2"
 FFTW = "1"
+
+["0.3.4-0.5"]
+CuArrays = "1-2"
 SpecialFunctions = ["0.8", "0.10", "1"]
 
 ["0.5.1"]
 FourierFlows = "0.4.0-*"
 
-["0.5.2-0"]
+["0.5.2-0.5"]
 FourierFlows = "0.5"
+
+["0.6-0"]
+CUDA = "1"
+FourierFlows = "0.6"
+SpecialFunctions = ["0.10", "1"]
+julia = "1.4.0-1"
