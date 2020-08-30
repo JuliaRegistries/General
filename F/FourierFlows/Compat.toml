@@ -34,7 +34,6 @@ julia = "1"
 ["0.4-0"]
 Interpolations = "0.12"
 Reexport = "0.2"
-Requires = "1"
 
 ["0.4-0.4.1"]
 CUDAapi = "2"
@@ -44,6 +43,9 @@ FFTW = "0.0.0-1.1"
 ["0.4-0.4.4"]
 AbstractFFTs = "0.5"
 
+["0.4-0.5"]
+Requires = "1"
+
 ["0.4.0"]
 JLD2 = "0.1.2-0.1"
 
@@ -51,12 +53,17 @@ JLD2 = "0.1.2-0.1"
 JLD2 = "0.1"
 
 ["0.4.2-0"]
+FFTW = "1"
+
+["0.4.2-0.5"]
 CUDAapi = ["2", "4"]
 CuArrays = "1-2"
-FFTW = "1"
 
 ["0.5-0"]
 julia = "1.4.0-1"
 
 ["0.5.2-0"]
 DocStringExtensions = "0.8"
+
+["0.6-0"]
+CUDA = "1"
