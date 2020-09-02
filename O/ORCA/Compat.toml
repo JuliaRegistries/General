@@ -1,12 +1,15 @@
 ["0-0.2"]
 Conda = "0-1"
-HTTP = "0"
-JSON = "0"
-PlotlyBase = "0"
+PlotlyBase = "0.0.0 - 0.3"
 julia = ["0.7", "1"]
 
+["0-0.3"]
+HTTP = "0.0.0 - 0.8"
+JSON = "0.0.0 - 0.21"
+
 ["0.3"]
-PlotlyBase = "0.3.0-*"
+Conda = "0.0.0 - 1"
+PlotlyBase = "0.3.0 - 0.3"
 
 ["0.3.0"]
 julia = "1.0.0-1"

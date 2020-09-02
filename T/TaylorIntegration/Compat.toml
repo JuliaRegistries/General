@@ -1,27 +1,29 @@
 ["0-0.4"]
 DiffEqBase = "4.21.3-5"
-Espresso = "0.5.1-0"
-Reexport = "0.2-0"
-TaylorSeries = "0.8-0"
+Espresso = "0.5.1 - 0.6"
+TaylorSeries = "0.8.0 - 0.10"
 julia = ["0.7", "1"]
 
+["0-0.7.0"]
+Reexport = "0.2.0 - 0.2"
+
 ["0.5"]
-DiffEqBase = "5.0.0-*"
+DiffEqBase = "5.0.0 - 6"
 
 ["0.5-0.6.0"]
-TaylorSeries = "0.10.0-*"
+TaylorSeries = "0.10.0 - 0.10"
 
 ["0.5-0.7.0"]
-Espresso = "0.6.0-*"
-Reexport = "0.2.0-*"
-Requires = "0.5.2-*"
+Espresso = "0.6.0 - 0.6"
+Requires = "0.5.2 - 0.5"
 julia = "1.0.0-1"
 
 ["0.6-0.7.0"]
-DiffEqBase = "6.0.0-*"
+DiffEqBase = "6.0.0 - 6"
 
 ["0.6.1-0.7.0"]
-TaylorSeries = "0.10.1-*"
+DataStructures = "0.0.0 - 0.17"
+TaylorSeries = "0.10.1 - 0.10"
 
 ["0.7.1-0"]
 DataStructures = "0.17.2-0.17"

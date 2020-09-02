@@ -1,12 +1,13 @@
 ["0-0.4"]
+Distributions = "0.0.0 - 0.22"
+StatsBase = "0.0.0 - 0.32"
 julia = ["0.7", "1"]
 
-["0-0.4.1"]
-Distributions = "0"
-StatsBase = "0"
-
 ["0.4.1"]
-BinaryProvider = "0.3-0"
+BinaryProvider = "0.3.0 - 0.5"
+
+["0.4.2-0.4"]
+BinaryProvider = "0.0.0 - 0.5"
 
 ["0.5-0"]
 glmnet_jll = "5"

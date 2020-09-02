@@ -1,32 +1,30 @@
 ["0-0.2"]
-BinDeps = "0.8.8-0"
+BinDeps = "0.8.8 - 0.8"
 julia = ["0.7", "1"]
 
 ["0.0.2-0.2"]
-SpecialFunctions = "0.6-0"
+SpecialFunctions = "0.6.0 - 0.10"
 
 ["0.3-0.3.1"]
-BinDeps = "0.8.10-0"
-SpecialFunctions = "0.7.2-0"
+BinDeps = "0.8.10 - 0.8"
+SpecialFunctions = "0.7.2 - 0.10"
 
 ["0.3-1"]
 julia = "1"
 
 ["0.3.2-0.4.1"]
-GenericLinearAlgebra = "0"
+GenericLinearAlgebra = "0.0.0 - 0.2"
 
 ["0.3.2-0.4.7"]
-BinDeps = "0.8-0"
-SpecialFunctions = "0.7-0"
+BinDeps = "0.8.0 - 0.8"
+SpecialFunctions = "0.7.0 - 0.10"
 
 ["0.4.2-0.4.7"]
-GenericSVD = "0.2-0"
+GenericSVD = "0.2.0 - 0.3"
 
 ["0.4.8-1"]
-BinaryProvider = "0"
-GenericSVD = "0"
-GenericSchur = "0"
-SpecialFunctions = "0"
-
-["0.6.9-1"]
-Readables = "0"
+BinaryProvider = "0.0.0 - 0.5"
+GenericSVD = "0.0.0 - 0.3"
+GenericSchur = "0.0.0 - 0.4"
+Readables = "0.0.0 - 0.3"
+SpecialFunctions = "0.0.0 - 0.10"

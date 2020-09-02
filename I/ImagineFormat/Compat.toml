@@ -5,21 +5,23 @@ julia = "0.6-1"
 Unitful = "0-0.12"
 
 ["0-1.0.2"]
-AxisArrays = "0"
 FileIO = "0-1"
 FixedPointNumbers = "0.3-0.5"
 ImageMetadata = "0.1.1-0.6"
 
+["0-1.1"]
+AxisArrays = "0.0.0 - 0.4"
+
 ["1-1.1"]
 julia = ["0.7", "1"]
 
-["1.0.2"]
-Unitful = "0.12-0"
+["1.0.2-1.1"]
+Unitful = "0.12.0 - 0.18"
 
 ["1.0.3-1.1"]
-FixedPointNumbers = "0.3.0-*"
-ImageMetadata = "0.1.1-*"
-Unitful = "0.12.0-*"
+FileIO = "0.0.0 - 1"
+FixedPointNumbers = "0.3.0 - 0.7"
+ImageMetadata = "0.1.1 - 0.9"
 
 ["1.2-1"]
 AxisArrays = "0.3-0.4"

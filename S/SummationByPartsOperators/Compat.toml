@@ -2,17 +2,23 @@
 ArgCheck = "0-1"
 DiffEqBase = "0-5"
 DiffEqCallbacks = "0-2"
-FFTW = "0"
-Parameters = "0"
-PolynomialBases = "0.4.1-0"
-Reexport = "0"
-Requires = "0"
-StaticArrays = "0"
-Unrolled = "0"
+FFTW = "0.0.0 - 0.3"
+Requires = "0.0.0 - 0.5"
 julia = "1"
 
+["0-0.1.1"]
+Parameters = "0.0.0 - 0.12"
+PolynomialBases = "0.4.1 - 0.4"
+Reexport = "0.0.0 - 0.2"
+StaticArrays = "0.0.0 - 0.12"
+Unrolled = "0.0.0 - 0.1"
+
 ["0.1.1"]
-PolynomialBases = "0.4.1-*"
+ArgCheck = "0.0.0 - 1"
+DiffEqBase = "0.0.0 - 6"
+DiffEqCallbacks = "0.0.0 - 2"
+FFTW = "0.0.0 - 1"
+Requires = "0.0.0 - 1"
 julia = "1.0.0-1"
 
 ["0.1.2"]

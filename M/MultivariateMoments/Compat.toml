@@ -3,16 +3,17 @@ Compat = "1-2"
 julia = "0.6-1"
 
 ["0-0.2.1"]
-MultivariatePolynomials = "0.1-0"
-RowEchelon = "0"
-SemialgebraicSets = "0"
+SemialgebraicSets = "0.0.0 - 0.2"
+
+["0-0.2.2"]
+MultivariatePolynomials = "0.1.0 - 0.3"
+RowEchelon = "0.0.0 - 0.1"
 
 ["0.2-0"]
 julia = "1"
 
 ["0.2.2"]
-MultivariatePolynomials = "0.1.0-*"
-SemialgebraicSets = "0.0.1-*"
+SemialgebraicSets = "0.0.1 - 0.2"
 
 ["0.2.3-0"]
 MultivariatePolynomials = "0.3"

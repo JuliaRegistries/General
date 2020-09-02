@@ -1,12 +1,14 @@
 ["0-0.4"]
-NLPModels = "0.6-0"
+NLPModels = "0.6.0 - 0.7"
 julia = ["0.7", "1"]
 
 ["0-0.6.0"]
-BinDeps = "0"
-DataStructures = "0"
-Homebrew = "0.4-0"
-JSON = "0.8-0"
+BinDeps = "0.0.0 - 0.8"
+
+["0-0.6.2"]
+DataStructures = "0.0.0 - 0.17"
+Homebrew = "0.4.0 - 0.7"
+JSON = "0.8.0 - 0.21"
 
 ["0.10-0"]
 CUTEst_jll = "2"
@@ -21,14 +23,13 @@ NLPModels = "0.7"
 julia = "1"
 
 ["0.6.0"]
-NLPModels = "0.8-0"
+NLPModels = "0.8.0 - 0.9"
 
 ["0.6.1-0.6"]
 NLPModels = "0.8.2-0.9"
 
-["0.6.1-0.6.2"]
-Homebrew = "0.4.0-*"
-JSON = "0.8.0-*"
+["0.6.2"]
+BinDeps = "0.0.0 - 0.8"
 
 ["0.6.3-0"]
 DataStructures = "0.17"

@@ -1,18 +1,27 @@
 ["1-1.69.0"]
-BinaryProvider = "0.3-0"
-CSyntax = "0"
+BinaryProvider = "0.3.0 - 0.5"
 GLFW = "0-2"
 ModernGL = "0-1"
 
+["1-1.69.1"]
+CSyntax = "0.0.0 - 0.2"
+
 ["1-1.73"]
 julia = "1"
+
+["1.69.1"]
+BinaryProvider = "0.0.0 - 0.5"
+GLFW = "0.0.0 - 2"
+
+["1.69.1-1.73"]
+ModernGL = "0.0.0 - 1"
 
 ["1.69.2"]
 GLFW = "2.3"
 
 ["1.69.2-1.73"]
-BinaryProvider = "0.3.0-*"
-CSyntax = "0.2.0-*"
+BinaryProvider = "0.3.0 - 0.5"
+CSyntax = "0.2.0 - 0.2"
 
 ["1.69.3-1.73"]
 GLFW = "3"

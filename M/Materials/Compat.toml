@@ -1,12 +1,17 @@
 ["0-0.1"]
-Einsum = "0"
-FEMBase = "0"
-ForwardDiff = "0"
+FEMBase = "0.0.0 - 0.3"
 NLsolve = "0-4"
 Tensors = "0-1"
 julia = "1"
 
+["0-0.2.0"]
+Einsum = "0.0.0 - 0.4"
+ForwardDiff = "0.0.0 - 0.10"
+
 ["0.2.0"]
+NLsolve = "0.0.0 - 4"
+Parameters = "0.0.0 - 0.12"
+Tensors = "0.0.0 - 1"
 julia = "1.0.0-1"
 
 ["0.2.1-0"]
