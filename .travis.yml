@@ -15,9 +15,6 @@ matrix:
     - julia: nightly
 before_script: .ci/travis_before_script.sh
 script: julia --project=.ci/ --color=yes -e 'import RegistryCI; RegistryCI.test()'
-branches:
-  only:
-    - master
 notifications:
   email: false
 git:
