@@ -1,13 +1,15 @@
+[0]
+Reexport = "0.0.0 - 0.2"
+
 ["0-0.1"]
 AbstractFFTs = "0.2-0.4"
 Compat = "0.27-2"
 
 ["0-0.2"]
-Reexport = "0"
 julia = ["0.7", "1"]
 
 ["0-0.2.2"]
-BinDeps = "0.6-0"
+BinDeps = "0.6.0 - 0.8"
 
 ["0.2-0"]
 AbstractFFTs = "0.3-0.4"
@@ -15,20 +17,24 @@ AbstractFFTs = "0.3-0.4"
 ["0.2-0.2.2"]
 Compat = "0.60-2"
 
+["0.2.3-0"]
+BinaryProvider = "0.3.0 - 0.5"
+
 ["0.2.3-0.2"]
-BinaryProvider = "0.3-0"
 Compat = "0.62-2"
 Conda = "0-1"
 
 ["0.3-0"]
-BinaryProvider = "0.3.0-*"
+Conda = "0.0.0 - 1"
 
 ["0.3-1.1"]
 julia = "1"
 
 ["1.0"]
 AbstractFFTs = "0.3.0-0.4"
-BinaryProvider = "0.3.0-*"
+BinaryProvider = "0.3.0 - 0.5"
+Conda = "0.0.0 - 1"
+Reexport = "0.0.0 - 0.2"
 
 ["1.1"]
 BinaryProvider = "0.5"

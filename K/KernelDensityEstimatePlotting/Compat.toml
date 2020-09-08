@@ -3,22 +3,22 @@ julia = ["0.7", "1"]
 
 ["0-0.1.0"]
 Cairo = "0.5.5-0.5"
-Colors = "0.9.4-0"
-Compose = "0.7.1-0"
-Fontconfig = "0"
+Fontconfig = "0.0.0 - 0.4"
 Gadfly = "1"
-KernelDensityEstimate = "0.4.1-0"
+KernelDensityEstimate = "0.4.1 - 0.5"
+
+["0-0.1.2"]
+Colors = "0.9.4 - 0.12"
+Compose = "0.7.1 - 0.7"
 
 ["0.1.1"]
-Cairo = "0.6.0-*"
+Cairo = "0.6.0 - 0.6"
 
 ["0.1.1-0.1.2"]
-Colors = "0.9.4-*"
-Compose = "0.7.1-*"
-DocStringExtensions = "0.7.0-*"
-Fontconfig = "0.2.0-*"
-Gadfly = "1.0.0-*"
-KernelDensityEstimate = "0.5.0-*"
+DocStringExtensions = "0.7.0 - 0.8"
+Fontconfig = "0.2.0 - 0.4"
+Gadfly = "1.0.0 - 1"
+KernelDensityEstimate = "0.5.0 - 0.5"
 
 ["0.1.2-0.1.5"]
 Cairo = "0.6"

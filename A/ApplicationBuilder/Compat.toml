@@ -3,12 +3,15 @@ Compat = "0-2"
 julia = "0.6-1"
 
 ["0-0.3"]
-ArgParse = "0"
+ArgParse = "0.0.0 - 0.6"
 Glob = "1"
-PackageCompiler = "0"
+PackageCompiler = "0.0.0 - 0.6"
 
 ["0.3"]
 julia = ["0.7", "1"]
 
 ["0.4-0"]
+ArgParse = "0.0.0 - 1"
+Glob = "0.0.0 - 1"
+PackageCompiler = "0.0.0 - 1"
 julia = "1"

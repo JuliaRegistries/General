@@ -1,32 +1,30 @@
 ["0-0.0.1"]
-RecipesBase = "0.5-0"
+RecipesBase = "0.5.0 - 0.8"
 
 ["0-0.0.3"]
-DualNumbers = "0.4-0"
+DualNumbers = "0.4.0 - 0.6"
 FillArrays = "0.5"
 LazyArrays = "0.7.1-0.7"
 
 ["0-0.0.4"]
-DomainSets = "0"
+DomainSets = "0.0.0 - 0.0.2"
 
 ["0-0.1.0"]
 BlockArrays = "0.8"
 BlockBandedMatrices = "0.4"
 
-["0-0.1.1"]
-SpecialFunctions = "0.7-0"
-ToeplitzMatrices = "0.4-0"
-
 ["0-0.1.3"]
-AbstractFFTs = "0.3.1-0"
+AbstractFFTs = "0.3.1 - 0.4"
 BandedMatrices = "0.9"
-Calculus = "0.1.15-0"
-DSP = "0.5.1-0"
-FFTW = "0.2.4-0"
-FastGaussQuadrature = "0.3.2-0"
-FastTransforms = "0.4.2-0"
-IntervalSets = "0.3.1-0"
-StaticArrays = "0.8.3-0"
+Calculus = "0.1.15 - 0.5"
+DSP = "0.5.1 - 0.6"
+FFTW = "0.2.4 - 0.3"
+FastGaussQuadrature = "0.3.2 - 0.3"
+FastTransforms = "0.4.2 - 0.5"
+IntervalSets = "0.3.1 - 0.3"
+SpecialFunctions = "0.7.0 - 0.7"
+StaticArrays = "0.8.3 - 0.11"
+ToeplitzMatrices = "0.4.0 - 0.5"
 julia = ["0.7", "1"]
 
 ["0.0"]
@@ -34,9 +32,11 @@ InfiniteArrays = "0.0.3"
 LowRankApprox = "0.1.4-0.1"
 
 ["0.0.4-0.1.1"]
-DualNumbers = "0.6.2-0"
-FillArrays = "0.5-0"
+DualNumbers = "0.6.2 - 0.6"
 LazyArrays = "0.8"
+
+["0.0.4-0.1.3"]
+FillArrays = "0.5.0 - 0.6"
 
 ["0.0.5-0.1.2"]
 DomainSets = "0.0.2"
@@ -55,10 +55,7 @@ BlockBandedMatrices = "0.4.3-0.4"
 DualNumbers = "0.6.2-0.6"
 
 ["0.1.2-0.1.3"]
-FillArrays = "0.5.0-0"
 LazyArrays = "0.8-0.9"
-SpecialFunctions = "0.7.0-0"
-ToeplitzMatrices = "0.4.0-0"
 
 ["0.1.3"]
 DomainSets = ["0.0.2", "0.1"]
