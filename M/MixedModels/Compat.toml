@@ -1,27 +1,29 @@
 [0]
 BlockArrays = "0.3-0.4"
 Compat = "0-2"
-NLopt = "0.3-0"
-NamedArrays = "0"
-Showoff = "0"
-StaticArrays = "0.6-0"
+NLopt = "0.3.0 - 0.5"
+NamedArrays = "0.0.0 - 0.9"
+Showoff = "0.0.0 - 0.2"
+StaticArrays = "0.6.0 - 0.11"
 StatsModels = "0.2.4-0.5"
 julia = "0.6.1-1"
 
 ["0-1.1.6"]
 ArgCheck = "0-1"
-CategoricalArrays = "0"
-DataFrames = "0.11-0"
-Distributions = "0.11-0"
+DataFrames = "0.11.0 - 0.18"
+Distributions = "0.11.0 - 0.20"
 GLM = "0.11-1"
-StatsBase = "0.22-0"
-StatsFuns = "0.5-0"
+StatsBase = "0.22.0 - 0.30"
+StatsFuns = "0.5.0 - 0.8"
+
+["0-2.1"]
+CategoricalArrays = "0.0.0 - 0.8"
 
 ["1-1.1.6"]
-NLopt = "0.5-0"
-NamedArrays = "0.7-0"
-Showoff = "0.2-0"
-StaticArrays = "0.8-0"
+NLopt = "0.5.0 - 0.5"
+NamedArrays = "0.7.0 - 0.9"
+Showoff = "0.2.0 - 0.2"
+StaticArrays = "0.8.0 - 0.11"
 StatsModels = "0.3.1-0.5"
 julia = ["0.7", "1"]
 
@@ -29,9 +31,10 @@ julia = ["0.7", "1"]
 BlockArrays = "0.3-0.7"
 
 ["1.1.1-1.1.6"]
-ProgressMeter = "0.6.1-0"
+ProgressMeter = "0.6.1 - 0.9"
 
 ["1.1.7-1"]
+ArgCheck = "0.0.0 - 2"
 DataFrames = "0.11-0.18"
 Distributions = "0.11-0.20"
 GLM = "1"
@@ -56,6 +59,8 @@ StatsModels = "0.6"
 
 ["2-2.1"]
 StatsFuns = "0.8"
+Tables = "0.0.0 - 0.2"
+TypedTables = "0.0.0 - 1"
 
 ["2-2.3.0"]
 StatsBase = "0.22-0.32"
@@ -66,12 +71,18 @@ GLM = "1.2.0-1"
 Showoff = "0.2"
 StaticArrays = "0.11"
 
+["2.1"]
+StaticArrays = "0.0.0 - 0.12"
+
 ["2.1-2"]
 GLM = "1"
 Showoff = "0.2-0.3"
 
 ["2.1-2.2"]
 Distributions = "0.15-0.21"
+
+["2.1.1-2.1"]
+NamedArrays = "0.0.0 - 0.9"
 
 ["2.2"]
 BlockArrays = "0.5-0.10"

@@ -1,18 +1,22 @@
+["0-0.10"]
+DocStringExtensions = "0.0.0 - 0.8"
+
 ["0-0.6"]
-BinaryProvider = "0.2.5-0"
+BinaryProvider = "0.2.5 - 0.5"
 Compat = "0.70-2"
-DataStreams = "0.3.1-0"
-Decimals = "0.2.1-0"
+DataStreams = "0.3.1 - 0.4"
+Decimals = "0.2.1 - 0.4"
 IterTools = "0-1"
-Missings = "0.2.1-0"
-OffsetArrays = "0"
-TimeZones = "0"
+Missings = "0.2.1 - 0.4"
+OffsetArrays = "0.0.0 - 0.11"
+TimeZones = "0.0.0 - 0.9"
 julia = "0.6-1"
 
 ["0-0.7"]
-DocStringExtensions = "0"
-LayerDicts = "0.1.2-0"
-Memento = "0.10-0"
+LayerDicts = "0.1.2 - 0.1"
+
+["0-0.8"]
+Memento = "0.10.0 - 0.12"
 
 ["0.10-1.1"]
 Tables = "0.2"
@@ -27,27 +31,26 @@ DocStringExtensions = "0.8"
 TimeZones = "0.9.2-0.9"
 
 ["0.7"]
-BinaryProvider = "0.4-0"
 Compat = "1.1-2"
-DataStreams = "0.4-0"
-Decimals = "0.3.1-0"
-Missings = "0.3-0"
-OffsetArrays = "0.9.1-0"
-Tables = "0"
-TimeZones = "0.8-0"
+DataStreams = "0.4.0 - 0.4"
+Missings = "0.3.0 - 0.4"
 julia = ["0.7", "1"]
+
+["0.7-0.8"]
+BinaryProvider = "0.4.0 - 0.5"
+Decimals = "0.3.1 - 0.4"
+OffsetArrays = "0.9.1 - 0.11"
+TimeZones = "0.8.0 - 0.9"
+
+["0.7-0.9"]
+Tables = "0.0.0 - 0.2"
 
 ["0.7-1"]
 IterTools = "1"
 
 ["0.8"]
-BinaryProvider = "0.4.0-*"
 DataStreams = "0.4"
-Decimals = "0.3.1-*"
 LayerDicts = "0.1.2-0.1"
-Memento = "0.10.0-*"
-OffsetArrays = "0.9.1-*"
-TimeZones = "0.8.0-*"
 
 ["0.8-1"]
 julia = "1"

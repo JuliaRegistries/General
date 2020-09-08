@@ -1,13 +1,17 @@
 [0]
+Colors = "0.0.0 - 0.12"
 Compat = "0.60-2"
-Graphics = "0.2-0"
-IniFile = "0.3-0"
-NaNMath = "0.2.4-0"
-StatsBase = "0.13.1-0"
+Graphics = "0.2.0 - 0.4"
+IniFile = "0.3.0 - 0.5"
+NaNMath = "0.2.4 - 0.3"
+Reexport = "0.0.0 - 0.2"
+StatsBase = "0.13.1 - 0.33"
 julia = ["0.7", "1"]
 
 ["0-0.14"]
 Cairo = "0-0.5"
-Colors = "0"
 Gtk = "0-0.16"
-Reexport = "0"
+
+["0.15-0"]
+Cairo = "0.0.0 - 1"
+Gtk = "0.0.0 - 1"

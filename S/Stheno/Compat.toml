@@ -1,13 +1,15 @@
 ["0-0.1"]
 BlockArrays = "0.1-0.4"
-Distances = "0"
-Distributions = "0"
 FillArrays = "0.1-0.5"
-ForwardDiff = "0.1-0"
+ForwardDiff = "0.1.0 - 0.10"
 IterTools = "0-1"
-MacroTools = "0"
-ToeplitzMatrices = "0"
+ToeplitzMatrices = "0.0.0 - 0.4"
 julia = "1"
+
+["0-0.3"]
+Distances = "0.0.0 - 0.8"
+Distributions = "0.0.0 - 0.21"
+MacroTools = "0.0.0 - 0.5"
 
 ["0.2"]
 ToeplitzMatrices = "0.4.2-0.4"
@@ -16,7 +18,14 @@ ToeplitzMatrices = "0.4.2-0.4"
 julia = "1.1.1-1"
 
 ["0.2-0.3"]
-FillArrays = "0.4.0-*"
+BlockArrays = "0.0.0 - 0.9"
+FillArrays = "0.4.0 - 0.4"
+IRTools = "0.0.0 - 0.2"
+StatsFuns = "0.0.0 - 0.8"
+Zygote = "0.0.0 - 0.3"
+
+["0.3.2-0.3"]
+RecipesBase = "0.0.0 - 0.7"
 
 ["0.4"]
 Zygote = "0.3.4-0.3"

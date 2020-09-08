@@ -1,12 +1,14 @@
 ["0-0.4"]
-BinDeps = "0"
-Homebrew = "0"
-MathProgBase = "0.6-0"
-WinRPM = "0"
+BinDeps = "0.0.0 - 0.8"
+MathProgBase = "0.6.0 - 0.7"
+WinRPM = "0.0.0 - 0.4"
 julia = ["0.7", "1"]
 
 ["0-0.4.0"]
 Polyhedra = "0.4"
+
+["0-0.5.2"]
+Homebrew = "0.0.0 - 0.7"
 
 ["0.4.1-0.4"]
 Polyhedra = "0.4.4-0.4"
@@ -15,15 +17,17 @@ Polyhedra = "0.4.4-0.4"
 julia = "1"
 
 ["0.5-0.5.1"]
-JuMP = "0.19-0"
-Polyhedra = "0.5-0"
+BinDeps = "0.0.0 - 1"
+JuMP = "0.19.0 - 0.19"
+Polyhedra = "0.5.0 - 0.5"
+WinRPM = "0.0.0 - 1"
 
 ["0.5.2"]
 JuMP = "0.19"
 Polyhedra = "0.5"
 
 ["0.5.2-0.5"]
-BinaryProvider = "0.3.0-*"
+BinaryProvider = "0.3.0 - 0.5"
 
 ["0.5.3-0.5"]
 JuMP = "0.20"

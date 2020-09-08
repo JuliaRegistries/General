@@ -1,6 +1,8 @@
-["0-0.11"]
-Ratios = "0"
-WoodburyMatrices = "0.1.5-0"
+["0-0.12.5"]
+Ratios = "0.0.0 - 0.3"
+
+["0-0.12.6"]
+WoodburyMatrices = "0.1.5 - 0.5"
 
 ["0-0.3"]
 julia = "0.4-1"
@@ -15,8 +17,7 @@ AxisAlgorithms = "0-0.2"
 julia = "1"
 
 ["0.12-0.12.6"]
-AxisAlgorithms = "0.3.0-*"
-WoodburyMatrices = "0.1.5-*"
+AxisAlgorithms = "0.3.0 - 1"
 
 ["0.12.6"]
 OffsetArrays = "0.10-0.11"
@@ -36,7 +37,7 @@ WoodburyMatrices = "0.4-0.5"
 Ratios = "0.3-0.4"
 
 ["0.3.7-0.4"]
-DualNumbers = "0"
+DualNumbers = "0.0.0 - 0.6"
 
 ["0.3.8-0.4"]
 Compat = "0.19-2"
@@ -45,7 +46,9 @@ Compat = "0.19-2"
 julia = "0.5-1"
 
 ["0.9-0.11"]
-AxisAlgorithms = "0.3-0"
-OffsetArrays = "0"
-StaticArrays = "0"
+AxisAlgorithms = "0.3.0 - 0.3"
 julia = ["0.7", "1"]
+
+["0.9-0.12.5"]
+OffsetArrays = "0.0.0 - 0.11"
+StaticArrays = "0.0.0 - 0.12"

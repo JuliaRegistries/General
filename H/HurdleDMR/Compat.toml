@@ -2,11 +2,11 @@
 julia = ["0.7", "1"]
 
 ["1.0"]
-DataFrames = "0"
+DataFrames = "0.0.0 - 0.18"
 GLM = "0-1"
-LambertW = "0"
-Lasso = "0"
-StatsBase = "0"
+LambertW = "0.0.0 - 0.4"
+Lasso = "0.0.0 - 0.4"
+StatsBase = "0.0.0 - 0.30"
 StatsModels = "0-0.5"
 
 ["1.1"]
@@ -22,6 +22,7 @@ LoggingExtras = "0.3"
 
 ["1.2"]
 StatsBase = "0.30-0.31"
+Tables = "0.0.0 - 0.2"
 
 ["1.2-1"]
 GLM = "1.3.0-1"

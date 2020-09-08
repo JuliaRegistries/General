@@ -3,8 +3,8 @@ LinQuadOptInterface = "0-0.2"
 Nullables = "0-1"
 
 ["0-0.7"]
-BinDeps = "0"
-Homebrew = "0"
+BinDeps = "0.0.0 - 0.8"
+Homebrew = "0.0.0 - 0.7"
 
 ["0-0.9"]
 Compat = "0.66-2"
@@ -15,9 +15,6 @@ LinQuadOptInterface = "0.6"
 
 ["0.10-0"]
 julia = "1"
-
-["0.10-0.11"]
-BinaryProvider = "0.3.0-*"
 
 ["0.11.0"]
 MathOptInterface = "0.9"
@@ -35,8 +32,8 @@ GLPK_jll = "4.64"
 ["0.7-0.8.0"]
 LinQuadOptInterface = "0.3"
 
-["0.8-0.9"]
-BinaryProvider = "0.3-0"
+["0.8-0.11"]
+BinaryProvider = "0.3.0 - 0.5"
 
 ["0.8.1-0.8"]
 LinQuadOptInterface = "0.4"
@@ -45,4 +42,4 @@ LinQuadOptInterface = "0.4"
 LinQuadOptInterface = "0.5"
 
 ["0.9.1-0.9"]
-LinQuadOptInterface = "0.6-0"
+LinQuadOptInterface = "0.6.0 - 0.6"

@@ -2,16 +2,19 @@
 julia = ["0.7", "1"]
 
 ["0-0.2"]
-Hiccup = "0"
 IterTools = "0-1"
-Requires = "0.5.2-0"
-StringDistances = "0.3-0"
-URIParser = "0"
+Requires = "0.5.2 - 0.5"
+StringDistances = "0.3.0 - 0.4"
+
+["0-0.3.1"]
+Hiccup = "0.0.0 - 0.2"
+URIParser = "0.0.0 - 0.4"
 
 ["0.3"]
 StringDistances = "0.4"
 
 ["0.3-0.3.1"]
+Juno = "0.0.0 - 0.8"
 Requires = "0.5.2-0.5"
 
 ["0.3.2-0"]

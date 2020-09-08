@@ -1,9 +1,13 @@
+[0]
+Distributions = "0.0.0 - 0.23"
+
 ["0-0.3"]
-Distributions = "0"
 julia = ["0.7", "1"]
 
 ["0.2-0.3"]
-Requires = "0"
+Requires = "0.0.0 - 0.5"
 
 ["0.4-0"]
+InvertedIndices = "0.0.0 - 1"
+Requires = "0.0.0 - 1"
 julia = "1"
