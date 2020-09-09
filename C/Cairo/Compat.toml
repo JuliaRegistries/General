@@ -1,20 +1,25 @@
+[0]
+Colors = "0.0.0 - 0.9"
+
 ["0-0.5"]
-Colors = "0"
-Homebrew = "0"
-WinRPM = "0"
+WinRPM = "0.0.0 - 0.4"
 julia = "0.6-1"
 
 ["0-0.6"]
-BinDeps = "0.3.21-0"
+BinDeps = "0.3.21 - 0.8"
 Compat = "0.52-2"
-Graphics = "0"
+Graphics = "0.0.0 - 0.4"
+Homebrew = "0.0.0 - 0.7"
+
+["0.6"]
+WinRPM = "0.0.0 - 1"
 
 ["0.6-0"]
 julia = ["0.7", "1"]
 
 ["0.7-0"]
-BinaryProvider = "0.3.0-*"
-Graphics = "0.1.0-*"
+BinaryProvider = "0.3.0 - 0.5"
+Graphics = "0.1.0 - 0.4"
 
 [1]
 Cairo_jll = "1.16.0-1"

@@ -1,13 +1,18 @@
 ["0-0.1"]
-EllipsisNotation = "0"
+EllipsisNotation = "0.0.0 - 0.4"
 
 ["0-0.2"]
 julia = "1"
 
 ["0-0.2.0"]
-Lazy = "0"
-RecursiveArrayTools = "0"
-Reexport = "0"
+RecursiveArrayTools = "0.0.0 - 0.20"
+
+["0-0.3.1"]
+Lazy = "0.0.0 - 0.14"
+Reexport = "0.0.0 - 0.2"
+
+["0.2.1-0.3.1"]
+RecursiveArrayTools = "0.0.0 - 1"
 
 ["0.3-0.3.1"]
 julia = "1.0.0-1"

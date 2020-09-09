@@ -1,3 +1,6 @@
+[1]
+Lazy = "0.11.4 - 0.15"
+
 ["1-1.0.1"]
 julia = "1"
 
@@ -6,15 +9,16 @@ PyCall = "1.7.2-1"
 
 ["1-1.3"]
 Compat = "0.17-2"
-Lazy = "0.11.4-0"
 
 ["1.0.0"]
-DataValues = "0"
+DataValues = "0.0.0 - 0.4"
 TableTraits = "0-1"
 TableTraitsUtils = "0-1"
 
+["1.0.1-1"]
+DataValues = "0.4.4 - 0.4"
+
 ["1.0.1-1.3"]
-DataValues = "0.4.4-0"
 IteratorInterfaceExtensions = "0.1.1-1"
 TableTraits = "0.3.1-1"
 TableTraitsUtils = "0.3-1"
@@ -26,11 +30,9 @@ julia = ["0.7", "1"]
 PyCall = "1.90-1"
 
 ["1.4-1"]
-Compat = "0.17.0-*"
-DataValues = "0.4.4-*"
+Compat = "0.17.0 - 3"
 IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
-Lazy = "0.11.4-*"
-PyCall = "1.90.0-*"
+PyCall = "1.90.0 - 1"
 TableTraits = ["0.4", "1"]
 TableTraitsUtils = ["0.3-0.4", "1"]
 julia = "0.7.0-*"

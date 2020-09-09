@@ -1,13 +1,15 @@
+["0-0.1"]
+DataFrames = "0.11.0 - 0.18"
+Missings = "0.2.6 - 0.4"
+Unitful = "0.7.0 - 0.15"
+
 ["0-0.1.10"]
-Memento = "0.1.1-0"
+Memento = "0.1.1 - 0.10"
 
 ["0-0.1.11"]
 Compat = "0.17-2"
-DataFrames = "0.11-0"
-InfrastructureModels = "0.0.6-0"
+InfrastructureModels = "0.0.6 - 0.1"
 JuMP = "0.17-0.18"
-Missings = "0.2.6-0"
-Unitful = "0.7-0"
 julia = "0.6-1"
 
 ["0-0.1.5"]
@@ -15,30 +17,28 @@ PowerModels = "0.8.1-0.8"
 
 ["0.1.11"]
 Memento = "0.1.1-0.10"
-PowerModels = "0.9.4-0"
-PowerSystemsUnits = "0.1-0"
+PowerModels = "0.9.4 - 0.9"
+
+["0.1.11-0.1"]
+PowerSystemsUnits = "0.1.0 - 0.1"
 
 ["0.1.12-0"]
 julia = "1"
 
 ["0.1.12-0.1"]
-DataFrames = "0.11.0-*"
 InfrastructureModels = ["0.0.6-0.0", "0.1"]
 JuMP = ["0.17", "0.18"]
-Memento = "0.1.1-*"
-Missings = "0.2.6-*"
+Memento = "0.1.1 - 0.12"
 PowerModels = "0.9.7-0.9"
-PowerSystemsUnits = "0.1.0-*"
-Unitful = "0.7.0-*"
 
 ["0.1.6-0.1.8"]
 PowerModels = "0.8.7-0.8"
 
 ["0.1.8-0.1.10"]
-PowerSystemsUnits = "0"
+PowerSystemsUnits = "0.0.0 - 0.1"
 
 ["0.1.9-0.1.10"]
-PowerModels = "0.9-0"
+PowerModels = "0.9.0 - 0.9"
 
 ["0.2-0.2.1"]
 DataFrames = "0.11-0.18"
@@ -62,18 +62,18 @@ PowerModels = "0.10"
 PowerModels = "0.11"
 
 ["0.2.2-0.2.3"]
-DataFrames = "0.11.0-*"
+DataFrames = "0.11.0 - 0.20"
 
 ["0.2.2-0.2.5"]
-Missings = "0.2.6-*"
+Missings = "0.2.6 - 0.4"
 PowerModels = "0.12"
-Unitful = "0.7.0-*"
+Unitful = "0.7.0 - 0.18"
 
 ["0.2.3-0"]
 PowerSystemsUnits = "0.2"
 
 ["0.2.4-0.2.5"]
-DataFrames = "0.19.0-*"
+DataFrames = "0.19.0 - 0.20"
 
 ["0.2.4-0.3.0"]
 InfrastructureModels = "0.2-0.3"

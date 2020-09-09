@@ -1,16 +1,19 @@
+[0]
+BinaryProvider = "0.0.0 - 0.5"
+DecFP = "0.0.0 - 0.4"
+
 ["0-0.6"]
-DataStreams = "0"
-Missings = "0"
+DataStreams = "0.0.0 - 0.4"
+Missings = "0.0.0 - 0.4"
 
 ["0-0.7.0"]
-BinaryProvider = "0"
-DecFP = "0"
 julia = ["0.7", "1"]
 
 ["0.7.0"]
-Tables = "0"
+Tables = "0.0.0 - 0.2"
 
 ["0.7.1-0"]
+Tables = "0.0.0 - 1"
 julia = ["0.7.0", "1"]
 
 [1]

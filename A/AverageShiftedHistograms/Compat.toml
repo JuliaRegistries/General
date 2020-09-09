@@ -1,11 +1,16 @@
 ["0-0.7"]
-RecipesBase = "0"
-StatsBase = "0"
 UnicodePlots = "0-1"
 julia = ["0.7", "1"]
 
+["0-0.8.1"]
+RecipesBase = "0.0.0 - 0.8"
+StatsBase = "0.0.0 - 0.32"
+
 ["0.8-0"]
 julia = "1"
+
+["0.8-0.8.1"]
+UnicodePlots = "0.0.0 - 1"
 
 ["0.8.2-0"]
 RecipesBase = "0.7-0.8"

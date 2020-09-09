@@ -2,29 +2,34 @@
 julia = "1"
 
 ["0-0.3.2"]
-BitBasis = "0"
-LuxurySparse = "0"
-StaticArrays = "0"
-StatsBase = "0"
+BitBasis = "0.0.0 - 0.4"
+LuxurySparse = "0.0.0 - 0.4"
 TupleTools = "0-1"
 YaoBase = "0-0.7"
+
+["0-0.5.0"]
+StaticArrays = "0.0.0 - 0.12"
+StatsBase = "0.0.0 - 0.32"
 
 ["0.3.10-0.3"]
 YaoBase = "0.10"
 
 ["0.3.3-0.3.4"]
-YaoBase = "0.3-0"
+YaoBase = "0.3.0 - 0.9"
 
 ["0.3.3-0.3.5"]
-BitBasis = "0.2-0"
-LuxurySparse = "0.3.3-0"
+BitBasis = "0.2.0 - 0.4"
+LuxurySparse = "0.3.3 - 0.4"
+
+["0.3.3-0.5.0"]
+TupleTools = "0.0.0 - 1"
 
 ["0.3.5-0.3.6"]
-YaoBase = "0.9-0"
+YaoBase = "0.9.0 - 0.9"
 
 ["0.3.6"]
-BitBasis = "0.4-0"
-LuxurySparse = "0.4-0"
+BitBasis = "0.4.0 - 0.4"
+LuxurySparse = "0.4.0 - 0.4"
 
 ["0.3.7"]
 BitBasis = "0.4"

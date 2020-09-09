@@ -2,15 +2,19 @@
 OnlineStatsBase = "0.9"
 
 ["0-0.23"]
-DataStructures = "0"
-LearnBase = "0"
-LossFunctions = "0"
-PenaltyFunctions = "0"
-RecipesBase = "0"
-Reexport = "0"
-StatsBase = "0"
 SweepOperator = "0-0.2"
 julia = ["0.7", "1"]
+
+["0-0.24"]
+DataStructures = "0.0.0 - 0.18"
+
+["0-1.0.2"]
+LearnBase = "0.0.0 - 0.2"
+LossFunctions = "0.0.0 - 0.5"
+PenaltyFunctions = "0.0.0 - 0.1"
+RecipesBase = "0.0.0 - 0.8"
+Reexport = "0.0.0 - 0.2"
+StatsBase = "0.0.0 - 0.32"
 
 ["0.22-0.23"]
 OnlineStatsBase = "0.10"
@@ -18,11 +22,17 @@ OnlineStatsBase = "0.10"
 ["0.24"]
 OnlineStatsBase = "0.11"
 
+["0.24-1.0.2"]
+SweepOperator = "0.0.0 - 0.3"
+
 ["0.24-1.1"]
 julia = "1"
 
 ["0.25"]
-OnlineStatsBase = "0.12-0"
+OnlineStatsBase = "0.12.0 - 0.13"
+
+["0.25-1.0.2"]
+OrderedCollections = "0.0.0 - 1"
 
 ["0.26-0"]
 OnlineStatsBase = "0.13"

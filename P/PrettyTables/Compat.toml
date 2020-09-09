@@ -2,15 +2,24 @@
 julia = "1"
 
 ["0-0.4.1"]
-Parameters = "0.10.3-0"
+Parameters = "0.10.3 - 0.12"
 
 ["0.2-0.4.1"]
-Tables = "0.1.14-0"
+Tables = "0.1.14 - 0.2"
 
 ["0.3-0.4.1"]
 Crayons = "1-4"
-Formatting = "0.3.5-0"
-Reexport = "0.2-0"
+Formatting = "0.3.5 - 0.4"
+Reexport = "0.2.0 - 0.2"
+
+["0.4.2-0.4"]
+Tables = "0.0.0 - 0.2"
+
+["0.4.2-0.6"]
+Crayons = "0.0.0 - 4"
+Formatting = "0.0.0 - 0.4"
+Parameters = "0.0.0 - 0.12"
+Reexport = "0.0.0 - 0.2"
 
 ["0.5-0.8.2"]
 Tables = "0.2"

@@ -1,16 +1,22 @@
 [0]
 julia = "1"
 
+["0-0.4"]
+MacroTools = "0.0.0 - 0.5"
+TypedTables = "0.0.0 - 1"
+
+["0-0.5"]
+ArraysOfArrays = "0.0.0 - 0.4"
+FillArrays = "0.0.0 - 0.8"
+
+["0-0.5.0"]
+ElasticArrays = "0.0.0 - 0.4"
+
 ["0.5"]
-ArraysOfArrays = "0"
-FillArrays = "0"
-Requires = "0"
+Requires = "0.0.0 - 0.5"
 
 ["0.5-0"]
 TypedTables = "1.2.0-1"
-
-["0.5.0"]
-ElasticArrays = "0"
 
 ["0.5.1-0"]
 ElasticArrays = "1"

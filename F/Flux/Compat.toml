@@ -2,23 +2,25 @@
 julia = "0.6-1"
 
 ["0-0.5.3"]
-DataFlow = "0.2.1-0"
+DataFlow = "0.2.1 - 0.5"
 
 ["0-0.6.6"]
-GZip = "0"
+GZip = "0.0.0 - 0.5"
 
 ["0-0.6.7"]
 Adapt = "0-0.3"
 
 ["0-0.7"]
-ForwardDiff = "0.5-0"
+ForwardDiff = "0.5.0 - 0.10"
 
 ["0-0.8.2"]
-Colors = "0"
-Juno = "0"
-MacroTools = "0.3.3-0"
+MacroTools = "0.3.3 - 0.5"
 NNlib = "0-0.5"
-Requires = "0"
+Requires = "0.0.0 - 0.5"
+
+["0-0.9"]
+Colors = "0.0.0 - 0.9"
+Juno = "0.0.0 - 0.7"
 
 ["0.10"]
 Adapt = "1"
@@ -26,7 +28,6 @@ Adapt = "1"
 ["0.10-0"]
 MacroTools = "0.3-0.5"
 Reexport = "0.2"
-StatsBase = "0"
 
 ["0.10-0.10.1"]
 Colors = "0.8-0.9"
@@ -70,39 +71,42 @@ NNlib = "0.7"
 Zygote = "0.5"
 
 ["0.5-0.7"]
-DiffRules = "0"
-NaNMath = "0"
-SpecialFunctions = "0"
+DiffRules = "0.0.0 - 0.1"
+NaNMath = "0.0.0 - 0.3"
+SpecialFunctions = "0.0.0 - 0.10"
 
-["0.5-0.8.2"]
-AbstractTrees = "0"
-Reexport = "0"
-ZipFile = "0"
+["0.5-0.9"]
+AbstractTrees = "0.0.0 - 0.2"
+Reexport = "0.0.0 - 0.2"
+ZipFile = "0.0.0 - 0.8"
 
 ["0.6"]
 julia = ["0.7", "1"]
 
-["0.6-0.8.2"]
-StatsBase = "0"
+["0.6-0"]
+StatsBase = "0.0.0 - 0.33"
 
-["0.6.7-0.8.2"]
-CodecZlib = "0"
+["0.6.7-0.9"]
+CodecZlib = "0.0.0 - 0.6"
 
 ["0.6.8-0.6"]
-Adapt = "0"
+Adapt = "0.0.0 - 0.4"
 
 ["0.7-0.8.2"]
-Adapt = "0.4-0"
+Adapt = "0.4.0 - 0.4"
 julia = "1"
 
 ["0.8.1-0.8.2"]
 Tracker = "0-0.1"
 
 ["0.8.3-0.8"]
-NNlib = "0.6-0"
-Tracker = "0.2-0"
+NNlib = "0.6.0 - 0.6"
+Requires = "0.0.0 - 1"
+Tracker = "0.2.0 - 0.2"
 
 ["0.8.3-0.9"]
+Adapt = "0.0.0 - 1"
+MacroTools = "0.0.0 - 0.5"
 julia = ["0.7", "1"]
 
 ["0.9"]

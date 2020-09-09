@@ -1,21 +1,34 @@
 [0]
 julia = "1"
 
+["0-0.1"]
+SpecialFunctions = "0.0.0 - 0.9"
+
+["0-0.1.14"]
+Distributions = "0.0.0 - 0.20"
+
 ["0-0.1.5"]
-Rmath = "0"
+Rmath = "0.0.0 - 0.6"
 
 ["0-0.1.7"]
-Distributions = "0"
 QuadGK = "0-2"
-SpecialFunctions = "0"
+
+["0.1.11-0.1.14"]
+StatsBase = "0.0.0 - 0.31"
 
 ["0.1.15-0.1"]
 DataFrames = "0.11-0.18"
 Distributions = "0.16-0.20"
 StatsBase = "0.30-0.31"
 
-["0.1.7"]
-Roots = "0"
+["0.1.7-0.1"]
+Roots = "0.0.0 - 0.8"
+
+["0.1.8-0.1"]
+QuadGK = "0.0.0 - 2"
+
+["0.1.9-0.1.14"]
+DataFrames = "0.0.0 - 0.18"
 
 ["0.2-0"]
 QuadGK = "2"

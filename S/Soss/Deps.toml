@@ -69,6 +69,11 @@ Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 ["0.13-0"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
+["0.14-0"]
+Bijectors = "76274a88-744f-5084-9051-94815aaf08c4"
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+DistributionsAD = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
+
 ["0.2"]
 MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
 Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
@@ -111,8 +116,10 @@ Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 
 ["0.7-0"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
+
+["0.7-0.13"]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 SymPy = "24249f21-da20-56a4-8eb1-6a02cf4ae2e6"
 
 ["0.7-0.8"]
