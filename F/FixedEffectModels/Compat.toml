@@ -1,3 +1,6 @@
+[0]
+Reexport = "0.0.0 - 0.2"
+
 ["0-0.10.2"]
 Combinatorics = "0.0.0 - 0.7"
 
@@ -13,8 +16,8 @@ julia = ["0.7", "1"]
 CategoricalArrays = "0.0.0 - 0.8"
 StatsBase = "0.22.0 - 0.32"
 
-[0-1]
-Reexport = "0.0.0 - 0.2"
+["0.10-0"]
+Distributions = "0.0.0 - 0.23"
 
 ["0.10-0.10.2"]
 DataFrames = "0.19"
@@ -26,7 +29,6 @@ StatsBase = "0.0.0 - 0.32"
 julia = "1"
 
 ["0.10-1"]
-Distributions = "0.0.0 - 0.23"
 StatsModels = "0.6"
 
 ["0.10.0"]
@@ -76,6 +78,9 @@ FixedEffects = "0.0.0 - 0.1"
 FillArrays = "0-0.5"
 FixedEffects = "0.1.1"
 
+["0.7.2-0"]
+FillArrays = "0.0.0 - 0.9"
+
 ["0.7.2-0.7"]
 julia = ["0.7.0", "1"]
 
@@ -87,9 +92,6 @@ FixedEffects = "0.1.1 - 0.5"
 
 ["0.7.2-0.9"]
 Distributions = "0.4.6 - 0.23"
-
-["0.7.2-1"]
-FillArrays = "0.0.0 - 0.9"
 
 ["0.7.4-0.9"]
 DataFrames = "0.19.1 - 0.19"
@@ -114,3 +116,13 @@ Tables = "0.0.0 - 0.2"
 
 [1]
 FixedEffects = "1"
+
+["1.0"]
+Distributions = "0.0.0 - 0.23"
+FillArrays = "0.0.0 - 0.9"
+Reexport = "0.0.0 - 0.2"
+
+["1.1-1"]
+Distributions = "0"
+FillArrays = "0"
+Reexport = "0"
