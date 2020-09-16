@@ -120,7 +120,7 @@ for users to navigate Julia's many varied packages.
 As long as the package is not yet registered, renaming the package from
 `OldName.jl` to `NewName.jl` is reasonably straightforward:
 
-* [Rename the GitHub repository](github-rename) to `NewName.jl`
+* [Rename the GitHub repository][github-rename] to `NewName.jl`
 * Rename the file `src/OldName.jl` to `src/NewName.jl`
 * Rename the top-level module to `NewName`
 * Update tests, documentation, etc, to reference the new name
@@ -143,7 +143,7 @@ You also should let your users know about the rename, e.g. by placing a note in 
 or opening PRs/issues on downstream packages to change over.
 
 #### How do I transfer a package to an organization or another user?
- - Use the [GitHub transfer option](github-transfer) in the settings.
+ - Use the [GitHub transfer option][github-transfer] in the settings.
  - Manually, in the General edit the repo URL in package's `Package.toml` file (e.g [E/Example/Package.toml](https://github.com/JuliaRegistries/General/blob/master/E/Example/Package.toml#L3))
 
 Technically if you skip the second step things will keep working, because GitHub will redirect;
