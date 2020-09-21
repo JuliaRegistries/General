@@ -54,10 +54,11 @@ The following criteria are applied for all pull requests
    PackageD = ">=0.4, <1"  # [-∞, ∞), no lower bound, no upper bound (very bad)
    ```
    
-   Please note: each `[compat]` entry must include only a finite number of breaking releases. Therefore, the following `[compat]` entry does not meet the criteria for automatic merging:
+   Please note: each `[compat]` entry must include only a finite number of breaking releases. Therefore, the following `[compat]` entries do not meet the criteria for automatic merging:
    ```toml
    [compat]
    PackageE = "0"          # includes infinitely many breaking releases of PackageE (bad)
+   PackageF = "0.2 - 1"    # includes infinitely many breaking releases of PackageF (bad)
    ```
    
    See [Pkg's documentation][pkg-compat] for specification of `[compat]` entries in your
