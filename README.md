@@ -60,9 +60,9 @@ The following criteria are applied for all pull requests
    Please note: each `[compat]` entry must include only a finite number of breaking releases. Therefore, the following `[compat]` entries do NOT meet the criteria for automatic merging:
    ```toml
    [compat]
-   PackageE = "0"          # includes infinitely many breaking releases of PackageE (bad)
-   PackageF = "0.2 - 0"    # includes infinitely many breaking releases of PackageF (bad)
-   PackageG = "0.2 - 1"    # includes infinitely many breaking releases of PackageG (bad)
+   PackageE = "0"          # includes infinitely many breaking 0.x releases of PackageE (bad)
+   PackageF = "0.2 - 0"    # includes infinitely many breaking 0.x releases of PackageF (bad)
+   PackageG = "0.2 - 1"    # includes infinitely many breaking 0.x releases of PackageG (bad)
    ```
    See [Pkg's documentation][pkg-compat] for specification of `[compat]` entries in your
    `Project.toml` file.
