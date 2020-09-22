@@ -22,6 +22,14 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
+
+["0-0.1"]
+TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+["0.2-0"]
+Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
+Compose = "a81c6b42-2e10-5240-aca2-a61377ecd94b"
+ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
