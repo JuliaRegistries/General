@@ -79,9 +79,11 @@ Parameters = "0.0.0 - 0.12"
 Compose = "0.7-0.9"
 
 ["0.8-0"]
+FunctionWrappers = "1"
+
+["0.8.0"]
 AutoHashEquals = "0"
 DataStructures = "0"
-FunctionWrappers = "1"
 GeneralizedGenerated = "0"
 JSON = "0"
 LightXML = "0"
@@ -90,3 +92,15 @@ Parameters = "0"
 Reexport = "0"
 StaticArrays = "0"
 StructArrays = "0"
+
+["0.8.1-0"]
+AutoHashEquals = "0.2"
+DataStructures = "0.17-0.18"
+GeneralizedGenerated = "0.2"
+JSON = "0.20-0.21"
+LightXML = "0.8-0.9"
+MLStyle = "0.4"
+Parameters = "0.11-0.12"
+Reexport = "0.2"
+StaticArrays = "0.12"
+StructArrays = "0.4"
