@@ -14,7 +14,6 @@ NCDatasets = "0.10"
 NLsolve = "4"
 OrderedCollections = "1"
 PeriodicTable = "1"
-Plots = ["0.29", "1"]
 Polynomials = "1"
 ProgressMeter = "1"
 PyCall = "1"
@@ -33,6 +32,9 @@ Primes = "0.4"
 ["0-0.1.5"]
 Optim = "0.20-0.21"
 
+["0-0.1.8"]
+Plots = ["0.29", "1"]
+
 ["0.1.1"]
 Libxc = "0.1-0.2"
 
@@ -48,5 +50,9 @@ Primes = "0.4-0.5"
 ["0.1.5-0"]
 spglib_jll = "1.15.0-1"
 
-["0.1.6-0"]
+["0.1.6-0.1.8"]
 Optim = "0.20-0.22"
+
+["0.1.9-0"]
+Optim = ["0.22", "1"]
+Plots = "1"
