@@ -44,17 +44,29 @@ The following criteria are applied for all pull requests
    versions are `1.0.1`, `1.1.1`, `1.2.0` and `2.0.0`. Invalid new versions include
    `1.0.2` (skips `1.0.1`), `1.3.0` (skips `1.2.0`), `3.0.0` (skips `2.0.0`) etc.
 
- - Dependencies: All dependencies should have `[compat]` entries that are upper bounded.
-   Examples:
+ - Dependencies: All dependencies should have `[compat]` entries that are upper bounded and only include a finite number of breaking releases.
+   For example, the following `[compat]` entries meet the criteria for automatic merging:
    ```toml
    [compat]
    PackageA = "1"          # [1.0.0, 2.0.0), has upper bound (good)
    PackageB = "0.1, 0.2"   # [0.1.0, 0.3.0), has upper bound (good)
+   ```
+   The following `[compat]` entries do NOT meet the criteria for automatic merging:
+   ```toml
+   [compat]
    PackageC = ">=3"        # [3.0.0, ∞), no upper bound (bad)
    PackageD = ">=0.4, <1"  # [-∞, ∞), no lower bound, no upper bound (very bad)
    ```
+   Please note: each `[compat]` entry must include only a finite number of breaking releases. Therefore, the following `[compat]` entries do NOT meet the criteria for automatic merging:
+   ```toml
+   [compat]
+   PackageE = "0"          # includes infinitely many breaking releases of PackageE (bad)
+   PackageF = "0.2 - 0"    # includes infinitely many breaking releases of PackageF (bad)
+   PackageG = "0.2 - 1"    # includes infinitely many breaking releases of PackageG (bad)
+   ```
    See [Pkg's documentation][pkg-compat] for specification of `[compat]` entries in your
    `Project.toml` file.
+   
    (**Note:** Standard libraries are excluded for this criterion since they are bundled
    with Julia, and, hence, implicitly included in the `[compat]` entry for Julia.
    For the time being, JLL dependencies are also excluded for this criterion because they
