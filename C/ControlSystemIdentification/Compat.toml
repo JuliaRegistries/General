@@ -66,18 +66,22 @@ MonteCarloMeasurements = ["0.1.2-0.1", "0.4-0.5"]
 ["0.1.8-0"]
 DSP = "0.6.1-0.6"
 FFTW = "1.1.0-1"
-MonteCarloMeasurements = "0.0.0 - 0.9"
 TotalLeastSquares = ["0.1.2-0.1", "1"]
+
+["0.1.8-0.2.6"]
+MonteCarloMeasurements = "0.0.0 - 0.9"
 
 ["0.1.9-0.2.0"]
 ControlSystems = "0.5.4-0.5"
 
 ["0.2-0"]
-LowLevelParticleFilters = "0.4.4-0.4"
 RecipesBase = ["0.0.0-0.8", "1"]
 Roots = ["0.0.0-0.8", "1"]
 
-["0.2.1-0"]
+["0.2-0.2.6"]
+LowLevelParticleFilters = "0.4.4-0.4"
+
+["0.2.1-0.2.6"]
 ControlSystems = "0.5.4-0.6"
 
 ["0.2.3"]
@@ -92,3 +96,8 @@ Optim = ["0.0.0-0.22", "1"]
 
 ["0.2.6-0"]
 MatrixEquations = "1.1.0-1"
+
+["0.2.7-0"]
+ControlSystems = "0.7"
+LowLevelParticleFilters = "1"
+MonteCarloMeasurements = ["0.1.2-0.1", "0.4-0.9"]
