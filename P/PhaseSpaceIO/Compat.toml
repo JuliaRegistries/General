@@ -22,16 +22,24 @@ StaticArrays = "0.0.0 - 0.12"
 julia = "1.1.0-*"
 
 ["0.4-0"]
+JSON = "0.21"
+StaticArrays = "0.10-0.12"
+julia = "1.1.0-1"
+
+["0.4-0.4.1"]
 CoordinateTransformations = "0.5"
 DataStructures = "0.17"
-JSON = "0.21"
 Setfield = "0.5-0.6"
-StaticArrays = "0.10-0.12"
 StatsBase = "0.32"
-julia = "1.1.0-1"
 
 ["0.4.0"]
 ArgCheck = "1"
 
 ["0.4.1-0"]
 ArgCheck = "1-2"
+
+["0.4.2-0"]
+CoordinateTransformations = "0.5-0.6"
+DataStructures = "0.17-0.18"
+Setfield = "0.5-0.7"
+StatsBase = "0.32-0.33"
