@@ -11,16 +11,16 @@ jobs:
     strategy:
       matrix:
         version:
-          - '1.5'
+          - '1.5.2'
         os:
           - ubuntu-latest
         arch:
           - x64
     steps:
       - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819 # v1.0.0
-      - uses: julia-actions/setup-julia@082493e5c5d32c1fa68c35556429b0f1b2807453 # v1.0.1
+      - uses: julia-actions/setup-julia@d622e3db7bb58726d23ba936dc11fd9986e1ccfc # v1.2.2
         with:
-          version: ${{ matrix.julia-version }}
+          version: ${{ matrix.version }}
       - name: Cache artifacts
         uses: actions/cache@v1
         env:
