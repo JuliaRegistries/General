@@ -6,11 +6,18 @@ JuMP = "0.0.0 - 0.20"
 SMTPClient = "0.0.0 - 0.3"
 julia = ["0.7", "1"]
 
+["0.1"]
+GLPK = "0.12"
+JuMP = "0.19-0.20"
+SMTPClient = "0.3"
+
 ["0.1-0"]
 Combinatorics = "1"
-GLPK = "0.12"
 JSON = "0.21"
-JuMP = "0.19-0.20"
 MathOptInterface = "0.9"
-SMTPClient = "0.3"
 julia = "1"
+
+["0.2-0"]
+GLPK = "0.13-0.14"
+JuMP = "0.21"
+SMTPClient = ["0.3", "0.6"]
