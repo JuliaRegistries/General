@@ -30,6 +30,8 @@ StatsBase = "0.32"
 DSP = "0.6"
 FFTW = "1.1.0-1"
 Glob = "1.2.0-1"
+
+["0.3-0.4"]
 JLD2 = "0.1"
 
 ["0.3.0"]
@@ -38,11 +40,19 @@ SeisIO = "0.4"
 ["0.3.1-0"]
 SeisIO = "1"
 
-["0.4-0"]
+["0.4"]
 Adapt = "1.0.1-1"
 CUDAnative = "3"
 CuArrays = "2"
-DataFrames = "0.20-0.21"
 GPUArrays = "3.1.0-3"
+
+["0.4-0"]
+DataFrames = "0.20-0.21"
 Plots = ["0.29", "1"]
 StatsBase = "0.32-0.33"
+
+["0.5-0"]
+Adapt = "1.0.1-2"
+CUDA = "1"
+GPUArrays = "3.1.0-5"
+JLD2 = "0.1-0.2"
