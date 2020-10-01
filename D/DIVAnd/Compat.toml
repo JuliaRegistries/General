@@ -35,11 +35,13 @@ julia = ["0.7", "1"]
 NCDatasets = "0.6-0.9"
 
 ["2.5-2"]
-DataStructures = "0.17"
 HTTP = "0.8"
 Interpolations = "0.12"
 Missings = "0.4"
 Mustache = "1"
+
+["2.5-2.6.1"]
+DataStructures = "0.17"
 
 ["2.5.0"]
 EzXML = "0.8-0.9"
@@ -53,3 +55,6 @@ ZipFile = "0.8-0.9"
 
 ["2.6-2"]
 NCDatasets = "0.10"
+
+["2.6.2-2"]
+DataStructures = "0.17-0.18"
