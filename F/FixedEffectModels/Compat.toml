@@ -127,9 +127,15 @@ Distributions = "0"
 FillArrays = "0"
 Reexport = "0"
 
-["1.2-1"]
+["1.2"]
 FixedEffects = "1.1.0-1"
+Vcov = "0.3"
+
+["1.2-1"]
 Reexport = "0.1-0.2"
 StatsBase = "0.33"
 StatsFuns = "0.9"
-Vcov = "0.3"
+
+["1.3-1"]
+FixedEffects = "2"
+Vcov = "0.4"
