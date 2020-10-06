@@ -1,5 +1,4 @@
 [0]
-JLD2 = "0.1"
 OffsetArrays = "1"
 julia = "1"
 
@@ -8,6 +7,9 @@ FFTW = "1.2.0-1"
 FileIO = "1.2.0-1"
 Plots = "1.2.0-1"
 SpecialFunctions = "0.10"
+
+["0-0.4"]
+JLD2 = "0.1"
 
 ["0.3"]
 Conda = "1.4.0-1"
@@ -25,3 +27,6 @@ Plots = "1"
 ProgressMeter = "1"
 PyCall = "1"
 SpecialFunctions = "0.7-0.10"
+
+["0.5-0"]
+JLD2 = "0.1-0.2"
