@@ -67,7 +67,6 @@ PDMats = "0.9"
 RecipesBase = "0.0.0 - 0.8"
 
 ["0.7-0"]
-DataStructures = "0.17"
 MLDataUtils = "0.5"
 Reexport = "0.2"
 SimpleTraits = "0.9"
@@ -85,10 +84,13 @@ Zygote = "0.4"
 ["0.7-0.8.2"]
 Flux = "0.10"
 
+["0.7-0.8.4"]
+DataStructures = "0.17"
+
 ["0.7.0"]
 Distributions = "0.21.5-0.22"
 
-["0.7.1-0"]
+["0.7.1-0.8.4"]
 Distributions = "0.21.5-0.23"
 
 ["0.8-0"]
@@ -97,12 +99,14 @@ StatsBase = "0.32-0.33"
 ["0.8.1-0"]
 Clustering = "0.13.3-0.14"
 DeterminantalPointProcesses = "0.1"
-Distances = "0.8-0.9"
 PDMats = "0.9-0.10"
 
 ["0.8.1-0.8.3"]
 KernelFunctions = "0.3-0.4"
 RecipesBase = "0-1"
+
+["0.8.1-0.8.4"]
+Distances = "0.8-0.9"
 
 ["0.8.2-0"]
 MCMCChains = ["0.3.15-0.3", "2-4"]
@@ -115,3 +119,8 @@ Flux = "0.10-0.11"
 KernelFunctions = "0.5-0.8"
 RecipesBase = "1"
 SpecialFunctions = "0.9-0.10"
+
+["0.8.5-0"]
+DataStructures = "0.17-0.18"
+Distances = "0.8-0.10"
+Distributions = "0.21.5-0.24"
