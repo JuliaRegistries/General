@@ -2,7 +2,7 @@ name: remember_to_update_registryci
 
 on:
   schedule:
-    - cron: '00 * * * *'
+    - cron: 0 * * * *
   workflow_dispatch:
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         version:
-          - '1.5.2'
+          - '1'
         os:
           - ubuntu-latest
         arch:
