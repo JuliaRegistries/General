@@ -82,8 +82,6 @@ list:
 
  - Package name: Should start with a capital letter, contain only ASCII alphanumeric
    characters, and be at least 5 characters long.
- - Version number: Should be a standard initial version number, e.g. `0.0.1`, `0.1.0`,
-   or `1.0.0`.
  - Repository URL: Should end with `$PackageName.jl.git` where `PackageName` is the package
    name.
 
