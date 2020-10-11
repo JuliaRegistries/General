@@ -10,5 +10,8 @@ julia = "1.5.0-1"
 LoopVectorization = "0.8.25-0.8"
 Tullio = "0.2.5-0.2"
 
-["0.2.5-0"]
+["0.2.5"]
 EllipsisNotation = "0.4"
+
+["0.2.6-0"]
+EllipsisNotation = ["0.4", "1"]
