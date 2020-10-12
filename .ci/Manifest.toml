@@ -18,6 +18,16 @@ uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 deps = ["Printf"]
 uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
+[[DelimitedFiles]]
+deps = ["Mmap"]
+uuid = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+
+[[Distances]]
+deps = ["LinearAlgebra", "Statistics"]
+git-tree-sha1 = "e8b13ba5f166e11df2de6fc283e5db7864245df0"
+uuid = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+version = "0.10.0"
+
 [[Distributed]]
 deps = ["Random", "Serialization", "Sockets"]
 uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
@@ -79,6 +89,10 @@ git-tree-sha1 = "7c36dfe7971e55da03d8f54b67d4b3fb8ee01d63"
 uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
 version = "1.16.0+6"
 
+[[LinearAlgebra]]
+deps = ["Libdl"]
+uuid = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
 [[Logging]]
 uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
@@ -135,10 +149,10 @@ uuid = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 version = "1.1.0"
 
 [[RegistryCI]]
-deps = ["Dates", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "RegistryTools", "Test", "TimeZones"]
-git-tree-sha1 = "7e11609d133a06cb1d8ebb7cae7ee17acf8100b6"
+deps = ["Dates", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "Printf", "RegistryTools", "StringDistances", "TOML", "Test", "TimeZones", "VisualStringDistances"]
+git-tree-sha1 = "133fa4d1b49faf2535973ee0d6f53ea4fdc90390"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "3.2.0"
+version = "4.0.0"
 
 [[RegistryTools]]
 deps = ["AutoHashEquals", "LibGit2", "Pkg", "UUIDs"]
@@ -155,6 +169,32 @@ uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 [[Sockets]]
 uuid = "6462fe0b-24de-5631-8697-dd941f90decc"
 
+[[SparseArrays]]
+deps = ["LinearAlgebra", "Random"]
+uuid = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[[StaticArrays]]
+deps = ["LinearAlgebra", "Random", "Statistics"]
+git-tree-sha1 = "016d1e1a00fabc556473b07161da3d39726ded35"
+uuid = "90137ffa-7385-5640-81b9-e52037218182"
+version = "0.12.4"
+
+[[Statistics]]
+deps = ["LinearAlgebra", "SparseArrays"]
+uuid = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[[StringDistances]]
+deps = ["Distances"]
+git-tree-sha1 = "06f0dfb39437741a0fd154f67ceb379dea0c91ac"
+uuid = "88034a9c-02f8-509d-84a9-84ec65e18404"
+version = "0.9.1"
+
+[[TOML]]
+deps = ["Dates"]
+git-tree-sha1 = "d0ac7eaad0fb9f6ba023a1d743edca974ae637c4"
+uuid = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+version = "1.0.0"
+
 [[Test]]
 deps = ["Distributed", "InteractiveUtils", "Logging", "Random"]
 uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
@@ -169,8 +209,20 @@ version = "1.4.0"
 deps = ["Random", "SHA"]
 uuid = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
+[[UnbalancedOptimalTransport]]
+deps = ["LinearAlgebra"]
+git-tree-sha1 = "ca1a38ef0784019b95602d5819170f4d22293b22"
+uuid = "6f61b460-fd45-461a-bdf7-98edd72e362f"
+version = "0.2.0"
+
 [[Unicode]]
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+
+[[VisualStringDistances]]
+deps = ["DelimitedFiles", "LinearAlgebra", "StaticArrays", "UnbalancedOptimalTransport"]
+git-tree-sha1 = "e140a844a93008b0e1c00cc71bf148263207c827"
+uuid = "089bb0c6-1854-47b9-96f7-327dbbe09dca"
+version = "0.1.0"
 
 [[XML2_jll]]
 deps = ["Libdl", "Libiconv_jll", "Pkg", "Zlib_jll"]
