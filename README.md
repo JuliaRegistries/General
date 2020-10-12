@@ -80,12 +80,49 @@ The following criteria are applied for all pull requests
 The following list is applied for new package registrations, in addition to the previous
 list:
 
- - Package name: Should start with a capital letter, contain only ASCII alphanumeric
-   characters, and be at least 5 characters long.
- - Repository URL: Should end with `$PackageName.jl.git` where `PackageName` is the package
-   name.
+ - The package name should start with a capital letter, contain only ASCII
+   alphanumeric characters, contain a lowercase letter, and be at least 5
+   characters long.
+ - To prevent confusion between similarly named packages, the names of new
+   packages must also satisfy three checks:
+      - the [Damerau–Levenshtein
+        distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
+        between the package name and the name of any existing package must be at
+        least 3.
+      - the Damerau–Levenshtein distance between the lowercased version of a
+        package name and the lowercased version of the name of any existing
+        package must be at least 2.
+      - and a visual distance from
+        [VisualStringDistances.jl](https://github.com/ericphanson/VisualStringDistances.jl)
+        between the package name and any existing package must exceeds a certain
+        a hand-chosen threshold (currently 2.5).
 
-For more details, see [Automatic merging guidelines][automerge-guidelines].
+    These checks and tolerances are subject to change in order to improve the
+    process.
+
+    To test yourself that a tentative package name, say `MyPackage` meets these
+    checks, you can use the following code (after adding the RegistryCI package
+    to your Julia environment):
+
+    ```julia
+    using RegistryCI
+    using RegistryCI.AutoMerge
+    all_pkg_names = AutoMerge.get_all_non_jll_package_names(path_to_registry)
+    AutoMerge.meets_distance_check("MyPackage", all_pkg_names)
+    ```
+
+    where `path_to_registry` is a path to the folder containing the registry of
+    interest. For the General Julia registry, usually `path_to_registry =
+    joinpath(DEPOT_PATH[1], "registries", "General")` if you haven't changed
+    your `DEPOT_PATH`. This will return a boolean, indicating whether or not
+    your tentative package name passed the check, as well as a string,
+    indicating what the problem is in the event the check did not pass.
+
+    Note that these automerge guidelines are deliberately conservative: it is
+    very possible for a perfectly good name to not pass the automatic checks and
+    require manual merging. They simply exist to provide a fast path so that
+    manual review is not required for every new package.
+
 Please report issues with automatic merging to the [RegistryCI repo][registryci].
 
 Currently the waiting period is as follows:
