@@ -36,13 +36,6 @@ StatsBase = "0.0.0 - 0.33"
 ["0.1.6-0.7.8"]
 PlotlyJS = "0.0.0 - 0.14"
 
-["0.1.9-0"]
-Conda = "1"
-FileIO = "1"
-Gadfly = "1"
-PyCall = "1"
-PyPlot = "2"
-
 ["0.1.9-0.3"]
 julia = "1"
 
@@ -55,6 +48,13 @@ Distances = "0.0.0 - 0.9"
 Ipopt = "0.0.0 - 0.6"
 NMF = "0.0.0 - 0.4"
 Plotly = "0.0.0 - 0.3"
+
+["0.1.9-1"]
+Conda = "1"
+FileIO = "1"
+Gadfly = "1"
+PyCall = "1"
+PyPlot = "2"
 
 ["0.3-0.7.8"]
 Geodesy = "0.0.0 - 0.5"
@@ -71,7 +71,7 @@ julia = "1.4.0-1"
 ["0.6-0.7.8"]
 JuMP = "0.0.0 - 0.21"
 
-["0.6.9-0"]
+["0.6.9-1"]
 VegaDatasets = "2"
 VegaLite = "2"
 
@@ -102,3 +102,30 @@ PlotlyJS = "0"
 ReusableFunctions = "0"
 StatsBase = "0"
 Suppressor = "0"
+
+[1]
+Clustering = "0.14-0.15"
+Colors = "0.12-0.13"
+Compose = "0.8-0.9"
+DataFrames = "0.20-0.21"
+Distances = "0.8-0.9"
+DistributedArrays = "0.6-0.7"
+Distributions = "0.23-0.24"
+DocumentFunction = "0.6-0.7"
+Geodesy = "0.5-0.6"
+Images = "0.22-0.23"
+Ipopt = "0.6-0.7"
+JLD = "0.10-0.11"
+JLD2 = "0.2-0.3"
+JuMP = "0.21-0.22"
+Mads = "0.10-0.11"
+Measures = "0.3-0.4"
+MultivariateStats = "0.7-0.8"
+NLopt = "0.6-0.7"
+NMF = "0.4-0.5"
+Plotly = "0.3-0.4"
+PlotlyJS = "0.14-0.15"
+ReusableFunctions = "0.7-0.8"
+StatsBase = "0.32-0.33"
+Suppressor = "0.2-0.3"
+julia = "1.5.0-1"
