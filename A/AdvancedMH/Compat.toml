@@ -14,8 +14,10 @@ AbstractMCMC = "0.3"
 StructArrays = "0.0.0 - 0.4"
 
 ["0.3-0"]
-Distributions = "0.20-0.23"
 Requires = "1"
+
+["0.3-0.5.3"]
+Distributions = "0.20-0.23"
 
 ["0.4.0"]
 AbstractMCMC = "0.4"
@@ -28,3 +30,6 @@ AbstractMCMC = "1"
 
 ["0.5.2-0"]
 AbstractMCMC = "2"
+
+["0.5.4-0"]
+Distributions = "0.20-0.24"
