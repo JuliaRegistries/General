@@ -58,15 +58,25 @@ RecipesBase = "0.7-0.8"
 DataFrames = "0.19.4-0.21"
 FFTW = "1.0"
 
-["0.5.12-0"]
+["0.5.12-0.5.13"]
 Combinatorics = "1"
 
-["0.5.13-0"]
-CSV = "0.7"
+["0.5.13"]
 DataFrames = "0.21.4-0.21"
 Distributions = "0.21.8-0.21"
 FFTW = "1"
 RecipesBase = "0.7"
+
+["0.5.13-0"]
+CSV = "0.7"
+
+["0.5.14-0"]
+Combinatorics = "1.0.2-1"
+DataFrames = "0.21.8-0.21"
+Distributions = "0.24"
+FFTW = "1.2.4-1"
+RecipesBase = "1.1.0-1"
+StatsBase = "0.33.2-0.33"
 
 ["0.5.5-0.5.6"]
 BenchmarkTools = "0.0.0 - 0.4"
@@ -101,9 +111,6 @@ julia = "1.0.0-1"
 DSP = "0.6"
 julia = "1"
 
-["0.5.8-0"]
-StatsBase = "0.32"
-
 ["0.5.8-0.5.10"]
 Arpack = "0.3.1-0.3"
 BenchmarkTools = "0.4.3-0.4"
@@ -123,6 +130,9 @@ StaticArrays = "0.11.1-0.11"
 
 ["0.5.8-0.5.12"]
 CSV = "0.5.14-0.5"
+
+["0.5.8-0.5.13"]
+StatsBase = "0.32"
 
 ["0.5.9"]
 julia = "1.1.0-1"
