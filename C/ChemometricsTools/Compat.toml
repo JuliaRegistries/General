@@ -50,14 +50,23 @@ Combinatorics = ["0.7", "1"]
 DataFrames = "0.19.4-0.20"
 FFTW = "1"
 
-["0.5.11-0"]
+["0.5.11-0.5.12"]
 Distributions = "0.21.3-0.22"
 RecipesBase = "0.7-0.8"
 
-["0.5.12-0"]
-Combinatorics = "1"
+["0.5.12"]
 DataFrames = "0.19.4-0.21"
 FFTW = "1.0"
+
+["0.5.12-0"]
+Combinatorics = "1"
+
+["0.5.13-0"]
+CSV = "0.7"
+DataFrames = "0.21.4-0.21"
+Distributions = "0.21.8-0.21"
+FFTW = "1"
+RecipesBase = "0.7"
 
 ["0.5.5-0.5.6"]
 BenchmarkTools = "0.0.0 - 0.4"
@@ -93,7 +102,6 @@ DSP = "0.6"
 julia = "1"
 
 ["0.5.8-0"]
-CSV = "0.5.14-0.5"
 StatsBase = "0.32"
 
 ["0.5.8-0.5.10"]
@@ -112,6 +120,9 @@ Revise = "2.2.2-2"
 Roots = "0.8.3-0.8"
 SpecialFunctions = "0.7.2-0.7"
 StaticArrays = "0.11.1-0.11"
+
+["0.5.8-0.5.12"]
+CSV = "0.5.14-0.5"
 
 ["0.5.9"]
 julia = "1.1.0-1"
