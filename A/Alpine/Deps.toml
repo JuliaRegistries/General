@@ -2,12 +2,17 @@
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
+["0-0.1"]
+MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
+
 ["0-0.1.7"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["0.2-0"]
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
