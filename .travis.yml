@@ -22,3 +22,7 @@ notifications:
   email: false
 git:
   depth: 99999999
+
+cache:
+  directories:
+  - $HOME/.julia/artifacts
