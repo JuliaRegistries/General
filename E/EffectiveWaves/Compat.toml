@@ -1,7 +1,22 @@
 [0]
+julia = "1"
+
+["0-0.2"]
 ApproxFun = "0.9-0.10"
 OffsetArrays = "0.0.0 - 0.11"
 Optim = "0.16.0 - 0.22"
 RecipesBase = "0.0.0 - 0.8"
 SpecialFunctions = "0.0.0 - 0.10"
-julia = "1"
+
+["0.3-0"]
+ApproxFun = "0.9-0.11"
+GSL = ["0.6-0.9", "1"]
+MDBM = "0.1"
+MultipleScattering = "0.1.5-0.1"
+OffsetArrays = ["0.23", "1"]
+Optim = ["0.22", "1"]
+Polynomials = "0.8"
+RecipesBase = "1"
+Reexport = "0.2"
+SpecialFunctions = ["0.7-0.9", "10"]
+StaticArrays = "0.8-0.12"

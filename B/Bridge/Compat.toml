@@ -30,8 +30,10 @@ RecipesBase = "0.7-0.8"
 
 ["0.11.1-0"]
 Colors = "0.9-0.12"
-Distributions = "0.22-0.23"
 Trajectories = "0.1-0.2"
+
+["0.11.1-0.11.3"]
+Distributions = "0.22-0.23"
 
 ["0.11.2"]
 Polynomials = "0.6-0.7"
@@ -39,5 +41,9 @@ Polynomials = "0.6-0.7"
 ["0.11.2-0"]
 RecipesBase = ["0.7-0.8", "1"]
 
-["0.11.3-0"]
+["0.11.3"]
 Polynomials = "0.6-0.8"
+
+["0.11.4-0"]
+Distributions = "0.22-0.24"
+Polynomials = ["0.6-0.8", "1.1.0-1"]
