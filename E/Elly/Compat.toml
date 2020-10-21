@@ -6,7 +6,13 @@ URIParser = "0.0.0 - 0.4"
 julia = ["0.7", "1"]
 
 ["0.3-0"]
-MbedTLS = "0.6.8-0.7"
-ProtoBuf = "0.7"
 URIParser = "0.4"
 julia = "1"
+
+["0.3-0.4"]
+MbedTLS = "0.6.8-0.7"
+ProtoBuf = "0.7"
+
+["0.5-0"]
+MbedTLS = ["0.6.8-0.7", "1"]
+ProtoBuf = "0.9"
