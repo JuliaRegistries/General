@@ -4,9 +4,14 @@ ProgressMeter = "0.9.0 - 1"
 RCall = "0.13.2 - 0.13"
 julia = "1.1.0-1"
 
+["0.1.3"]
+Optim = "0.0.0 - 0.22"
+
 ["0.1.3-0"]
 DifferentialEquations = "6"
-Optim = "0.0.0 - 0.22"
 ProgressMeter = ["0.9", "1"]
 RCall = "0.13"
 julia = "1"
+
+["0.1.4-0"]
+Optim = ["0.15-0.22", "1"]
