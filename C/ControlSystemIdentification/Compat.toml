@@ -97,10 +97,19 @@ Optim = ["0.0.0-0.22", "1"]
 ["0.2.6-1"]
 MatrixEquations = "1.1.0-1"
 
-["0.2.7-1"]
+["0.2.7-0"]
 ControlSystems = "0.7"
+
+["0.2.7-1"]
 LowLevelParticleFilters = "1"
 MonteCarloMeasurements = ["0.1.2-0.1", "0.4-0.9"]
 
 [1]
 BandedMatrices = "0.15"
+
+["1.0"]
+ControlSystems = "0.7"
+
+["1.1-1"]
+ControlSystems = "0.7-0.8"
+StatsBase = "0.33"
