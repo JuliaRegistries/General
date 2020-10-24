@@ -1,6 +1,12 @@
 [0]
-Distances = "0.9"
-GeoStatsBase = "0.13"
 NearestNeighbors = "0.4"
 StaticArrays = "0.12"
 julia = "1.4.0-1"
+
+["0-0.1.0"]
+Distances = "0.9"
+GeoStatsBase = "0.13"
+
+["0.1.1-0"]
+Distances = "0.9-0.10"
+GeoStatsBase = "0.13-0.14"
