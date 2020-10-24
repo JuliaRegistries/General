@@ -11,7 +11,7 @@ DataFrames = ["0.18", "0.20-0.21"]
 Combinatorics = "1"
 MLJModelInterface = "0.2-0.3"
 
-["0.10.3-0"]
+["0.10.3-0.13"]
 Optim = ["0.18", "0.20-0.22"]
 
 ["0.10.4-0"]
@@ -25,6 +25,12 @@ ScientificTypes = ["0.7-0.8", "1"]
 
 ["0.13-0"]
 Transducers = "0.4"
+
+["0.14-0"]
+Distances = "0.10"
+Distributions = "0.21-0.24"
+Optim = ["0.18", "0.20-0.22", "1"]
+ReferenceFrameRotations = "0.5"
 
 ["0.3-0.4"]
 Parameters = "0.7.3 - 0.10"
@@ -85,7 +91,6 @@ MLJBase = "0.8"
 
 ["0.8-0"]
 DensityRatioEstimation = "0.4"
-Distributions = "0.21-0.23"
 StatsBase = "0.32-0.33"
 Tables = "1"
 
@@ -97,6 +102,9 @@ MLJModelInterface = "0.2"
 
 ["0.8-0.10.3"]
 CSV = "0.5-0.6"
+
+["0.8-0.13"]
+Distributions = "0.21-0.23"
 
 ["0.8-0.8.2"]
 RecipesBase = "0.7-0.8"
@@ -136,5 +144,5 @@ ScientificTypes = "0.7-0.8"
 ["0.8.7-0.10.2"]
 Optim = ["0.18", "0.20-0.21"]
 
-["0.9.4-0"]
+["0.9.4-0.13"]
 Distances = "0.8-0.9"
