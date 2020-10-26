@@ -1,0 +1,17 @@
+name: TagBot
+on:
+  schedule:
+    - cron: 0 0 * * *
+  pull_request:
+    types:
+      - closed
+jobs:
+  TagBot:
+    if: github.event_name == 'schedule' || github.event.pull_request.merged
+    runs-on: ubuntu-latest
+    steps:
+      - uses: julia-actions/setup-julia@v1
+        with:
+          versions: '1'
+      - run: julia --project=.ci -e 'using Pkg; Pkg.instantiate()'
+      - run: julia --project=.ci -e 'using RegistryCI: TagBot; TagBot.main()'
