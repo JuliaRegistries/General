@@ -14,4 +14,4 @@ jobs:
         with:
           versions: '1'
       - run: julia --project=.ci -e 'using Pkg; Pkg.instantiate()'
-      - run: julia --project=.ci -e 'using RegistryCI: TagBot; TagBot.main()'
+      - run: julia --project=.ci -e 'using RegistryCI.TagBot; TagBot.main()'
