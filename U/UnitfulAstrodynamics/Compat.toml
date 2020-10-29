@@ -1,6 +1,5 @@
 [0]
 ComponentArrays = "0.8"
-DifferentialEquations = "6.15.0-6"
 PhysicalConstants = "0.2"
 Plots = "1.6.0-1"
 Reexport = "0.2"
@@ -11,5 +10,11 @@ UnitfulAngles = "0.6"
 UnitfulAstro = "1"
 julia = "1"
 
+["0-0.5"]
+DifferentialEquations = "6.15.0-6"
+
 ["0.5.1-0"]
 Crayons = "4"
+
+["0.6-0"]
+OrdinaryDiffEq = "5.43.0-5"
