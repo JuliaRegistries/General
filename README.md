@@ -81,8 +81,8 @@ The following list is applied for new package registrations, in addition to the 
 list:
 
  - The package name should start with a capital letter, contain only ASCII
-   alphanumeric characters, contain a lowercase letter, and be at least 5
-   characters long.
+   alphanumeric characters, contain a lowercase letter, be at least 5
+   characters long, and should not start with "Ju" or contain the string "julia".
  - To prevent confusion between similarly named packages, the names of new
    packages must also satisfy three checks:
       - the [Damerau–Levenshtein
