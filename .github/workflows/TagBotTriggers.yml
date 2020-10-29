@@ -1,0 +1,16 @@
+name: TagBot Triggers
+on:
+  schedule:
+    - cron: 0 0 * * *
+  pull_request:
+    types:
+      - closed
+jobs:
+  trigger:
+    if: github.event_name == 'schedule' || github.event.pull_request.merged
+    runs-on: ubuntu-latest
+    steps:
+      - run: julia --project=.ci -e 'using Pkg; Pkg.instantiate(); Pkg.add("RegistryCI")'
+      - run: julia --project=.ci -e 'using RegistryCI.TagBot; TagBot.main()'
+        env:
+          GITHUB_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
