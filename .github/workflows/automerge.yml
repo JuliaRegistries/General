@@ -39,6 +39,7 @@ jobs:
           MERGE_NEW_PACKAGES: true
           MERGE_NEW_VERSIONS: true
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUTOMERGE_TAGBOT_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
           JULIA_DEBUG: RegistryCI,AutoMerge
         run: |
           using RegistryCI
@@ -52,6 +53,7 @@ jobs:
             new_version_waiting_period = Minute(15),
             new_jll_version_waiting_period = Minute(15),
             registry = "JuliaRegistries/General",
+            tagbot_enabled = true,
             authorized_authors = String["JuliaRegistrator"],
             authorized_authors_special_jll_exceptions = String["jlbuild"],
             suggest_onepointzero = false,
