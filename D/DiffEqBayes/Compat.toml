@@ -67,11 +67,11 @@ ModelingToolkit = "1.4.2-2"
 ["2.12.0"]
 ModelingToolkit = "1.4.2-3"
 
-["2.12.1-2"]
-ModelingToolkit = "3"
-
 ["2.12.1-2.12"]
 Turing = "0.11"
+
+["2.12.1-2.18"]
+ModelingToolkit = "3"
 
 ["2.13-2.14.0"]
 Turing = "0.12"
@@ -80,11 +80,13 @@ Turing = "0.12"
 Optim = "0.19-0.21"
 
 ["2.14.1-2"]
-Distances = "0.8-0.9"
 PDMats = "0.9-0.10"
 
 ["2.14.1-2.16"]
 Turing = "0.12-0.13"
+
+["2.14.1-2.18"]
+Distances = "0.8-0.9"
 
 ["2.15-2"]
 DiffEqBase = "6.36.0-6"
@@ -98,6 +100,10 @@ Turing = "0.12-0.14"
 
 ["2.18-2"]
 Distributions = "0.21-0.24"
+
+["2.19-2"]
+Distances = "0.8-0.10"
+ModelingToolkit = "3-4"
 
 ["2.2"]
 DiffResults = "0.0.4"
