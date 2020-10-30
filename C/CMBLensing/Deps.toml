@@ -20,7 +20,6 @@ Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 Match = "7eb4fadd-790c-5f42-8a69-bfa0b872bfbf"
 Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
 Memoization = "6fafb56a-5788-4b4e-91ca-c0cea6611c73"
-Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
@@ -46,19 +45,30 @@ Strided = "5e0ebb24-38b0-5f93-81fe-25c709ecae67"
 ["0-0.2.0"]
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 
+["0-0.3"]
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+
 ["0.1.2-0"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 ["0.2-0"]
-CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
+["0.2-0.3"]
+CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
+
 ["0.2.1-0"]
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0.3"]
+LLVM = "929cbde3-209d-540e-8aea-75f648917ca0"
 
 ["0.3-0"]
 Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
 ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
 ImageMorphology = "787d08f9-d448-5407-9aad-5290dd7ab264"
-LLVM = "929cbde3-209d-540e-8aea-75f648917ca0"
+
+["0.4-0"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+OptimKit = "77e91f04-9b3b-57a6-a776-40b61faaebe0"
