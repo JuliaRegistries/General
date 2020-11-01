@@ -1,13 +1,23 @@
 [0]
-BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
-BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 Languages = "8ef0a80b-9436-5d2c-a485-80b904378c43"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 WordTokenizers = "796a5d58-b03d-544a-977e-18100b691f6e"
+
+["0-0.6"]
+BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.7-0"]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Snowball = "fb8f903a-0164-4e73-9ffe-431110250c3b"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
