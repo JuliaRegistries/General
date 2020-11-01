@@ -1,11 +1,9 @@
 [1]
 BenchmarkTools = "0.5"
 BoundaryValueDiffEq = "2"
-Combinatorics = "1.0"
 DiffEqCallbacks = "2"
 Distributions = "0.21-0.24"
 ForwardDiff = "0.10"
-Measurements = "2.2.0-2"
 OrdinaryDiffEq = "5"
 Plots = "1"
 RecipesBase = "1"
@@ -20,6 +18,10 @@ Optim = "0.22"
 DataFrames = "0.0.0 - 0.21"
 SpecialFunctions = "0.0.0 - 0.10"
 
+["1-1.1"]
+Combinatorics = "1.0"
+Measurements = "2.2.0-2"
+
 ["1.0.0"]
 TensorOperations = "2.2.0-2"
 
@@ -29,7 +31,7 @@ TensorOperations = "2.2.0-3"
 ["1.0.2"]
 LsqFit = "0.0.0 - 0.10"
 
-["1.0.2-1"]
+["1.0.2-1.1"]
 Optim = ["0.22", "1"]
 
 ["1.0.3"]
@@ -44,3 +46,9 @@ LsqFit = "0.9-0.11"
 
 ["1.1-1"]
 StaticArrays = "0.11-0.12"
+
+["1.2-1"]
+Combinatorics = "1"
+HCubature = "1.4.0-1"
+Measurements = "2"
+Optim = "1"
