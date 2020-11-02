@@ -29,6 +29,11 @@ requests need to be manually reviewed and merged by a human.
 It is ***highly recommended*** to also use [TagBot][tagbot], which automatically tags a release in your
 repository after the new release of your package is merged into the registry.
 
+Registered packages must have an [Open Source Initiative approved license](http://opensource.org/licenses),
+clearly marked via a `LICENSE.md`, `LICENSE`, `COPYING` or similarly named file in the package repository.
+Packages that wrap proprietary libraries are acceptable if the licenses of those libraries permit open
+source distribution of the Julia wrapper code.
+
 ### Automatic merging of pull requests
 
 Pull requests that meet certain criteria are automatically merged periodically.
