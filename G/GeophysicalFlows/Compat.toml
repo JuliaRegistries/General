@@ -65,9 +65,11 @@ FourierFlows = "0.4.0 - 0.5"
 FourierFlows = "0.5"
 
 ["0.6-0"]
-CUDA = "1"
 FourierFlows = "0.6"
 SpecialFunctions = ["0.10", "1"]
+
+["0.6-0.8.0"]
+CUDA = "1"
 julia = "1.4.0-1"
 
 ["0.6.1-0"]
@@ -75,3 +77,7 @@ JLD2 = "0.1-0.2"
 
 ["0.7-0"]
 StaticArrays = "0.12"
+
+["0.8.1-0"]
+CUDA = "1-2"
+julia = "1.5.0-1"
