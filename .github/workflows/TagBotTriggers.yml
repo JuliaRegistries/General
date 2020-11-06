@@ -5,6 +5,7 @@ on:
   pull_request:
     types:
       - closed
+  workflow_dispatch:
 jobs:
   trigger:
     if: github.event_name == 'schedule' || github.event.pull_request.merged
