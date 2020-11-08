@@ -1,5 +1,4 @@
 [0]
-DataFrames = "0.21"
 Genie = "1"
 julia = "1"
 
@@ -7,11 +6,18 @@ julia = "1"
 Revise = "2"
 Stipple = "0.2"
 
+["0-0.3"]
+DataFrames = "0.21"
+
 ["0.2"]
 Stipple = "0.4"
 
 ["0.3.0"]
 Stipple = "0.5"
 
-["0.3.1-0"]
+["0.3.1-0.3"]
 Stipple = "0.5-0.6"
+
+["0.4-0"]
+DataFrames = "0.20-0.21"
+Stipple = "0.5-0.7"
