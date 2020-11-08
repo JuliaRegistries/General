@@ -2,15 +2,17 @@
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 Crayons = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
-FieldDefaults = "49426c49-986f-5969-8844-d5cc96441cfc"
-FieldDocTables = "a5d692f0-33f0-11e9-293e-eb83c8d6177d"
-FieldMetadata = "bf96fef3-21d2-5d20-8afa-0e7d4c32a885"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-Mixers = "2a8e4939-dab8-5edc-8f64-72a8776f13de"
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 UnicodeGraphics = "ebadf6b4-db70-5817-83da-4a19ad584e34"
+
+["0-0.10"]
+FieldDefaults = "49426c49-986f-5969-8844-d5cc96441cfc"
+FieldDocTables = "a5d692f0-33f0-11e9-293e-eb83c8d6177d"
+FieldMetadata = "bf96fef3-21d2-5d20-8afa-0e7d4c32a885"
+Mixers = "2a8e4939-dab8-5edc-8f64-72a8776f13de"
 
 ["0-0.2.0"]
 ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
@@ -18,6 +20,12 @@ Flatten = "4c728ea3-d9ee-5c9a-9642-b6f7d7dc04fa"
 
 ["0-0.7"]
 Lazy = "50d2b5c4-7a5e-59d5-8109-a42b560f39c0"
+
+["0.11-0"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+ModelParameters = "4744a3fa-6c31-4707-899e-a3298e4618ad"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["0.2-0"]
 ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
