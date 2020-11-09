@@ -76,12 +76,14 @@ SeawaterPolynomials = "0.0.0 - 0.2"
 
 ["0.31-0"]
 Adapt = "2"
-CUDA = "1"
 SeawaterPolynomials = "0.2"
-julia = "1.4.0-1"
 
 ["0.31-0.36"]
 KernelAbstractions = "0.3"
+
+["0.31-0.44.0"]
+CUDA = "1"
+julia = "1.4.0-1"
 
 ["0.35-0"]
 Crayons = "4"
@@ -103,6 +105,10 @@ OffsetArrays = "1"
 
 ["0.44-0"]
 Glob = "1.3.0-1"
+
+["0.44.1-0"]
+CUDA = "1-2"
+julia = "1.5.0-1"
 
 ["0.5.2"]
 julia = "1"
