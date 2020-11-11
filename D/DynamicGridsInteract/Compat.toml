@@ -1,6 +1,5 @@
 [0]
 Blink = "0.12"
-Flatten = "0.3"
 ImageShow = "0.2.3-0.2"
 Interact = "0.10"
 InteractBase = "0.10"
@@ -14,8 +13,8 @@ DynamicGrids = "0.7"
 FieldDefaults = "0.2"
 FieldMetadata = "0.1"
 
-["0.1.1-0"]
-FieldDefaults = "0.3"
+["0-0.3"]
+Flatten = "0.3"
 
 ["0.1.1-0.1"]
 DynamicGrids = "0.8"
@@ -23,10 +22,13 @@ DynamicGrids = "0.8"
 ["0.1.1-0.2"]
 FieldMetadata = "0.2"
 
+["0.1.1-0.3"]
+FieldDefaults = "0.3"
+
 ["0.2"]
 DynamicGrids = "0.9"
 
-["0.3-0"]
+["0.3"]
 FieldMetadata = "0.3"
 
 ["0.3-0.3.1"]
@@ -35,5 +37,9 @@ DynamicGrids = "0.10"
 ["0.3.2"]
 DynamicGrids = "0.10.1-0.10"
 
-["0.3.3-0"]
+["0.3.3-0.3"]
 DynamicGrids = "0.10.5-0.10"
+
+["0.4-0"]
+DynamicGrids = "0.12"
+InteractModels = "0.2"
