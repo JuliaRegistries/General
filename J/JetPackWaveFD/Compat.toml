@@ -3,12 +3,19 @@ DistributedJets = "1"
 DistributedOperations = "1"
 JetPack = "1"
 Jets = "1"
-SpecialFunctions = "0.10"
 julia = "1"
+
+["0-0.1"]
+SpecialFunctions = "0.10"
 
 ["0-0.1.1"]
 WaveFD = "0.1"
 
 ["0.1.2-0"]
 Formatting = "0.4"
+
+["0.1.2-0.1"]
 WaveFD = "0.2"
+
+["0.2-0"]
+WaveFD = "0.3"
