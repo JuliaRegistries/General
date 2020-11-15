@@ -6,11 +6,8 @@ jobs:
   registrator_issues:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          echo "Issue title: ${{ github.event.issue.title }}"
-          echo "Issue body: ${{ github.event.issue.body }}"
       - run: julia -e 'using Pkg; Pkg.add(Pkg.PackageSpec(url = "https://github.com/JuliaRegistries/RegistratorServerless.jl.git", rev = "master"))'
-      - run: julia  -e 'using RegistratorServerless'
+      - run: julia  -e 'using RegistratorServerless; user = "${{ github.actor }}"; issue_title = "${{ github.event.issue.title }}"; @info("", issue_title, user)'
         env:
           REGISTRATOR_GITHUB_TOKEN: ${{ secrets.DILUMALUTHGEBOT_TOKEN }}
           REGISTRATOR_REGISTRY: 'JuliaRegistries/General'
