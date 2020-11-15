@@ -38,7 +38,13 @@ TimeZones = "0.7-0.10"
 ["0.7.1-0"]
 TimeZones = ["0.7-0.10", "1"]
 
-["0.7.2-0"]
+["0.7.2"]
 CategoricalArrays = "0.8"
-CodecZlib = "0.4-0.7"
 DataFrames = "0.21"
+
+["0.7.2-0"]
+CodecZlib = "0.4-0.7"
+
+["0.7.3-0"]
+CategoricalArrays = "0.8-0.9"
+DataFrames = "0.21-0.22"
