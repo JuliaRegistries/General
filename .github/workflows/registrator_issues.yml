@@ -1,8 +1,7 @@
 name: registrator_issues
 on:
   issues:
-    types:
-      - opened, reopened
+    types: [opened, reopened]
 jobs:
   registrator_issues:
     runs-on: ubuntu-latest
