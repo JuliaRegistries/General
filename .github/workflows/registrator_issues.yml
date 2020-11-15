@@ -2,12 +2,15 @@ name: registrator_issues
 on:
   issues:
     types:
-      - opened
+      - opened, reopened
 jobs:
   registrator_issues:
     runs-on: ubuntu-latest
     steps:
-      - run: julia -e 'using Pkg; Pkg.add(Pkg.PackageSpec(url = "https://github.com/JuliaRegistries/RegistratorServerless.jl.git", rev = "master"))`
+      - run: |
+          echo "Issue title: ${{ github.event.issue.title }}"
+          echo "Issue body: ${{ github.event.issue.body }}"
+      - run: julia -e 'using Pkg; Pkg.add(Pkg.PackageSpec(url = "https://github.com/JuliaRegistries/RegistratorServerless.jl.git", rev = "master"))'
       - run: julia  -e 'using RegistratorServerless'
         env:
           REGISTRATOR_GITHUB_TOKEN: ${{ secrets.DILUMALUTHGEBOT_TOKEN }}
