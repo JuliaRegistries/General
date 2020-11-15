@@ -54,7 +54,7 @@ jobs:
             new_jll_version_waiting_period = Minute(15),
             registry = "JuliaRegistries/General",
             tagbot_enabled = true,
-            authorized_authors = String["JuliaRegistrator", "DilumAluthgeBot"],
+            authorized_authors = String["JuliaRegistrator"],
             authorized_authors_special_jll_exceptions = String["jlbuild"],
             suggest_onepointzero = false,
             additional_statuses = String[],
