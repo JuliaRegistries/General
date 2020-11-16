@@ -18,7 +18,7 @@ jobs:
           - x64
     steps:
       - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819 # v1.0.0
-      - uses: julia-actions/setup-julia@405bfcbfbd71503af238843c921b4a623e815267 # v1.4.1
+      - uses: julia-actions/setup-julia@d26d1111976eae5f00db04f0515ab744ec9cd79e # v1.3.1
         with:
           version: ${{ matrix.version }}
       - name: Cache artifacts
