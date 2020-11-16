@@ -14,13 +14,19 @@ PyCall = "0.0.0 - 1"
 PyCall = "1.91.2-1"
 
 ["0.2-0"]
-Combinatorics = "0.7"
 DataFrames = "0.19.4-0.19"
 DynamicPolynomials = "0.3.3-0.3"
 MacroTools = "0.5.1-0.5"
 MultivariatePolynomials = "0.3.2-0.3"
 ProgressMeter = "1"
 
+["0.2-0.3"]
+Combinatorics = "0.7"
+
 ["0.3-0"]
 DataStructures = "0.17"
 ParserCombinator = "2"
+
+["0.4-0"]
+Combinatorics = "1.0.2-1"
+Z3 = "0.4.1-0.4"
