@@ -9,7 +9,7 @@ on:
   schedule:
     - cron: 0 0 * * *
 jobs:
-  test:
+  CI:
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
