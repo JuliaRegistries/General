@@ -2,7 +2,6 @@
 Clustering = "0.14"
 ImageMorphology = "0.2"
 LightGraphs = "1.3.0-1"
-MultivariateStats = "0.7"
 NearestNeighbors = "0.4"
 SimpleWeightedGraphs = "1.1.0-1"
 StatsPlots = "0.14"
@@ -16,6 +15,9 @@ StatsBase = "0.33"
 ["0-0.1.1"]
 Optim = "0.22"
 
+["0-0.1.3"]
+MultivariateStats = "0.7"
+
 ["0.1.1-0"]
 StatsBase = "0.24-0.33"
 
@@ -27,3 +29,6 @@ Optim = ["0.22", "1"]
 
 ["0.1.3-0"]
 Distances = "0.7-0.10"
+
+["0.1.4-0"]
+MultivariateStats = "0.7-0.8"
