@@ -18,12 +18,21 @@ julia = "1.1-1"
 ["0.1.1-0.3.2"]
 DynamicalSystems = "1.2-1"
 
+["0.10-0"]
+DataStructures = "0.17-0.18"
+StatsBase = "0.32-0.33"
+
+["0.10.0"]
+AbstractPlotting = "0.12"
+
+["0.10.1-0"]
+AbstractPlotting = "0.12-0.13"
+
 ["0.3-0.3.2"]
 StatsBase = "0.0.0 - 0.32"
 StatsMakie = "0.0.0 - 0.1"
 
 ["0.3.3-0"]
-StatsBase = "0.32"
 julia = "1"
 
 ["0.3.3-0.4"]
@@ -40,13 +49,14 @@ Interact = "0.10"
 ["0.3.3-0.7"]
 DynamicalSystems = "1"
 
+["0.3.3-0.9"]
+StatsBase = "0.32"
+
 ["0.5"]
 MakieLayout = "0.6-0.7"
 
 ["0.5-0"]
-DataStructures = "0.17"
 Observables = "0.2-0.3"
-StatsMakie = "0.2"
 
 ["0.5-0.7"]
 DynamicalBilliards = "3.11.1-3"
@@ -54,12 +64,18 @@ DynamicalBilliards = "3.11.1-3"
 ["0.5-0.8"]
 AbstractPlotting = "0.10.2-0.10"
 
+["0.5-0.9"]
+DataStructures = "0.17"
+StatsMakie = "0.2"
+
 ["0.6-0.7"]
 MakieLayout = "0.7.1-0.7"
 
 ["0.8-0"]
-MakieLayout = "0.7.1-0.9"
 Requires = "1"
 
-["0.9-0"]
+["0.8-0.9"]
+MakieLayout = "0.7.1-0.9"
+
+["0.9"]
 AbstractPlotting = "0.11.2-0.11"

@@ -18,14 +18,14 @@ TimeSeries = "0.17"
 ["0.13.1-0.22"]
 CSV = "0.6"
 
-["0.14.1-0"]
-YAML = "0.4"
-
 ["0.14.1-0.15"]
 InfrastructureSystems = "0.6"
 
 ["0.14.1-0.28.0"]
 TimeSeries = "0.18"
+
+["0.14.1-1"]
+YAML = "0.4"
 
 ["0.16-0.17"]
 InfrastructureSystems = "0.6.3-0.6"
@@ -60,13 +60,13 @@ DataFrames = "0.21"
 ["0.20-0.21"]
 InfrastructureSystems = "0.11"
 
-["0.21-0"]
+["0.21-1"]
 NLsolve = "4"
 
 ["0.22"]
 InfrastructureSystems = "0.12"
 
-["0.22-0"]
+["0.22-1"]
 DocStringExtensions = "0.8.2-0.8"
 
 ["0.23"]
@@ -84,7 +84,7 @@ InfrastructureSystems = "0.15"
 ["0.27-0"]
 InfrastructureSystems = "0.15.2-0.15"
 
-["0.28.1-0"]
+["0.28.1-1"]
 TimeSeries = "0.19"
 
 ["0.3"]
@@ -122,7 +122,7 @@ DataFrames = "0.19"
 ["0.4.0"]
 julia = "1.2"
 
-["0.4.1-0"]
+["0.4.1-1"]
 julia = "1.2.0-1"
 
 ["0.5-0.5.1"]
@@ -154,3 +154,15 @@ DataFrames = "0.20"
 
 ["0.8.2-0.9"]
 InfrastructureSystems = "0.5.3-0.5"
+
+[1]
+InfrastructureSystems = "1"
+JSON3 = "1.4"
+
+["1.0.0"]
+CSV = "0.7"
+DataFrames = "0.21"
+
+["1.0.1-1"]
+CSV = "0.8"
+DataFrames = "0.22"

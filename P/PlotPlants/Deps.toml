@@ -4,6 +4,18 @@ DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
-Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.1.0"]
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+
+["0.1.2-0"]
+KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+
+["0.1.3-0"]
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"

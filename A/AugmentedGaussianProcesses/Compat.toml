@@ -1,6 +1,3 @@
-[0]
-SpecialFunctions = "0.0.0 - 0.10"
-
 ["0-0.3"]
 julia = ["0.7", "1"]
 
@@ -16,6 +13,9 @@ Distributions = "0.0.0 - 0.21"
 JLD2 = "0.0.0 - 0.2"
 StatsBase = "0.0.0 - 0.32"
 ValueHistories = "0.0.0 - 0.5"
+
+["0-0.8.3"]
+SpecialFunctions = "0.0.0 - 0.10"
 
 ["0.4-0.4.1"]
 MLKernels = "0.0.0 - 0.4"
@@ -55,11 +55,13 @@ StatsFuns = "0.8"
 ["0.6-0"]
 AdvancedHMC = "0.2.13-0.2"
 FastGaussQuadrature = "0.4"
-ForwardDiff = "0.10.6-0.10"
 ProgressMeter = "1"
 
 ["0.6-0.7"]
 StatsBase = "0.32"
+
+["0.6-0.8"]
+ForwardDiff = "0.10.6-0.10"
 
 ["0.6-0.8.0"]
 Clustering = "0.13.3-0.13"
@@ -67,11 +69,12 @@ PDMats = "0.9"
 RecipesBase = "0.0.0 - 0.8"
 
 ["0.7-0"]
-DataStructures = "0.17"
 MLDataUtils = "0.5"
 Reexport = "0.2"
 SimpleTraits = "0.9"
 StatsFuns = "0.8-0.9"
+
+["0.7-0.8"]
 julia = "1.2.0-1"
 
 ["0.7-0.8.0"]
@@ -85,10 +88,13 @@ Zygote = "0.4"
 ["0.7-0.8.2"]
 Flux = "0.10"
 
+["0.7-0.8.4"]
+DataStructures = "0.17"
+
 ["0.7.0"]
 Distributions = "0.21.5-0.22"
 
-["0.7.1-0"]
+["0.7.1-0.8.4"]
 Distributions = "0.21.5-0.23"
 
 ["0.8-0"]
@@ -97,14 +103,41 @@ StatsBase = "0.32-0.33"
 ["0.8.1-0"]
 Clustering = "0.13.3-0.14"
 DeterminantalPointProcesses = "0.1"
-Distances = "0.8-0.9"
-KernelFunctions = "0.3-0.4"
+
+["0.8.1-0.8"]
 PDMats = "0.9-0.10"
+
+["0.8.1-0.8.3"]
+KernelFunctions = "0.3-0.4"
 RecipesBase = "0-1"
+
+["0.8.1-0.8.4"]
+Distances = "0.8-0.9"
 
 ["0.8.2-0"]
 MCMCChains = ["0.3.15-0.3", "2-4"]
+
+["0.8.2-0.8"]
 Zygote = "0.4-0.5"
 
 ["0.8.3-0"]
 Flux = "0.10-0.11"
+
+["0.8.4-0"]
+KernelFunctions = "0.5-0.8"
+RecipesBase = "1"
+SpecialFunctions = "0.9-0.10"
+
+["0.8.5-0"]
+DataStructures = "0.17-0.18"
+Distances = "0.8-0.10"
+Distributions = "0.21.5-0.24"
+
+["0.9-0"]
+ForwardDiff = "0.10"
+PDMats = "0.10"
+Zygote = "0.5"
+julia = "1.3.0-1"
+
+["0.9.0"]
+Functors = "0.1"

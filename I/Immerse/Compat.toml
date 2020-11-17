@@ -15,16 +15,27 @@ Graphics = "0.0.0 - 0.4"
 
 [1]
 Cairo = "1"
+Graphics = ["0.4", "1"]
+Gtk = "1"
+GtkUtilities = "1"
+Measures = "0.3.1-0.3"
+Reexport = "0.2"
+julia = "1.3.0-1"
+
+["1.0.0"]
 Colors = "0.9-0.11"
 Compat = "2.2.0-2"
 Compose = "0.7.3-0.7"
 DataFrames = "0.20"
 FixedPointNumbers = "0.7"
 Gadfly = "1.0.1-1"
-Graphics = ["0.4", "1"]
-Gtk = "1"
-GtkUtilities = "1"
 Images = "0.19.3-0.19"
-Measures = "0.3.1-0.3"
-Reexport = "0.2"
-julia = "1.3.0-1"
+
+["1.0.1-1"]
+Colors = "0.9-0.12"
+Compat = ["2.2.0-2", "3.23.0-3"]
+Compose = "0.9"
+DataFrames = ["0.20", "0.22"]
+FixedPointNumbers = "0.6.1-0.8"
+Gadfly = "1"
+Images = ["0.19.3-0.20", "0.22-0.23"]

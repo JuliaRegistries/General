@@ -22,6 +22,10 @@ Reexport = "0.2.0 - 0.2"
 Rotations = "0.9.1 - 0.11"
 julia = ["0.7-0", "1.0"]
 
+["0.10-0"]
+DistributedFactorGraphs = "0.10.2-0.10"
+IncrementalInference = "0.16-0.17"
+
 ["0.2.1-0.3.3"]
 TransformUtils = "0.2.2 - 0.2"
 
@@ -146,7 +150,6 @@ DistributedFactorGraphs = "0.7.1-0.8"
 julia = "1.2.0-1"
 
 ["0.7-0"]
-Distributions = "0.20-0.23"
 ProgressMeter = "1"
 Reexport = "0.2"
 Requires = "1"
@@ -156,6 +159,9 @@ TensorCast = "0.2-0.3"
 ["0.7-0.7.1"]
 IncrementalInference = "0.11-0.12"
 Optim = "0.19-0.21"
+
+["0.7-0.9.1"]
+Distributions = "0.20-0.23"
 
 ["0.7.2-0.7"]
 IncrementalInference = "0.11-0.13"
@@ -171,9 +177,17 @@ IncrementalInference = "0.14.1-0.14"
 ApproxManifoldProducts = "0.1.4-0.1"
 julia = "1.4.0-1"
 
-["0.9-0"]
+["0.9"]
 DistributedFactorGraphs = "0.9-0.10"
+
+["0.9-0.9.1"]
 IncrementalInference = "0.14.1-0.15"
 
 ["0.9.1-0"]
 Optim = ["0.19-0.22", "1"]
+
+["0.9.2-0"]
+Distributions = "0.20-0.24"
+
+["0.9.2-0.9"]
+IncrementalInference = "0.14.1-0.16"

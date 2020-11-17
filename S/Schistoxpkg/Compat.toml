@@ -1,15 +1,23 @@
+[0]
+Distributions = "0.0.0 - 0.23"
+JLD = "0.0.0 - 0.10"
+Plots = "0.0.0 - 0.29"
+
 ["0-0.1.0"]
 Random = "1"
 
 [0-1]
 julia = "1"
 
-["0-1.0.38"]
+["1.0"]
 Distributions = "0.0.0 - 0.23"
 JLD = "0.0.0 - 0.10"
 Plots = "0.0.0 - 0.29"
 
-["1.0.39-1"]
-Distributions = "0"
-JLD = "0"
-Plots = "0"
+["1.1-1"]
+Distributions = "0.23"
+Documenter = "0.25"
+JLD = "0.10"
+Plots = "1"
+PyPlot = "2"
+TimerOutputs = "0.5"

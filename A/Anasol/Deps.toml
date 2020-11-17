@@ -1,18 +1,18 @@
-[0]
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-DocumentFunction = "e1f3b4f0-2dc4-57d3-83f7-d4b7faf3b05b"
-MetaProgTools = "b1909ce5-9a67-5ea4-ba1b-9d85528f5779"
-QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
-
 ["0-0.3"]
 JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 
 ["0-0.5"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
-["0.5-0"]
-DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+[0-1]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+DocumentFunction = "e1f3b4f0-2dc4-57d3-83f7-d4b7faf3b05b"
+MetaProgTools = "b1909ce5-9a67-5ea4-ba1b-9d85528f5779"
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 
 ["0.5-0.5.2"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.5-1"]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"

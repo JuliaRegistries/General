@@ -2,7 +2,7 @@ name: remember_to_update_registryci
 
 on:
   schedule:
-    - cron: '00 * * * *'
+    - cron: 0 * * * *
   workflow_dispatch:
 
 jobs:
@@ -10,14 +10,17 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        julia-version: [1.4.0]
-        julia-arch: [x86]
-        os: [ubuntu-latest]
+        version:
+          - '1'
+        os:
+          - ubuntu-latest
+        arch:
+          - x64
     steps:
       - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819 # v1.0.0
-      - uses: julia-actions/setup-julia@082493e5c5d32c1fa68c35556429b0f1b2807453 # v1.0.1
+      - uses: julia-actions/setup-julia@d3ce119a16594ea9e5d7974813970c73b6ab9e94 # v1.4.1
         with:
-          version: ${{ matrix.julia-version }}
+          version: ${{ matrix.version }}
       - name: Install dependencies
         run: julia -e 'import Pkg; Pkg.add(["GitCommand", "GitHub", "Pkg"])'
       - name: Update .ci/Manifest.toml

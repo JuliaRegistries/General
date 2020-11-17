@@ -62,14 +62,14 @@ UnitfulAstro = "0.4"
 DataFrames = "0.19"
 Flatten = "0.2"
 
-["0.3.2-0"]
-Interpolations = "0.12"
-
 ["0.3.2-0.4"]
 Distances = "0.8"
 
 ["0.3.2-0.4.9"]
 RecipesBase = "0.7"
+
+["0.3.2-0.7.9"]
+Interpolations = "0.12"
 
 ["0.4-0.4.10"]
 Parameters = "0.12"
@@ -87,14 +87,14 @@ julia = "1"
 ["0.4.10"]
 RecipesBase = "0.8"
 
-["0.4.10-0"]
-Flatten = "0.3"
-
 ["0.4.10-0.4"]
 DataFrames = "0.20"
 
 ["0.4.10-0.4.15"]
 Distributions = "0.22"
+
+["0.4.10-0.7.12"]
+Flatten = "0.3"
 
 ["0.4.11-0.4"]
 UnPack = "0.1"
@@ -126,14 +126,18 @@ Unitful = "1"
 
 ["0.5-0"]
 DiffEqBase = "6"
-Distances = "0.9"
-Distributions = "0.23"
 RecipesBase = "1"
 UnPack = "1"
-UnitfulRecipes = "0.2"
 
 ["0.5-0.7.0"]
 FieldMetadata = "0.2"
+
+["0.5-0.7.11"]
+Distributions = "0.23"
+
+["0.5-0.7.12"]
+Distances = "0.9"
+UnitfulRecipes = "0.2"
 
 ["0.5-0.7.2"]
 OceanGrids = "0.2"
@@ -150,6 +154,18 @@ NearestNeighbors = "0.4"
 
 ["0.7.1-0"]
 FieldMetadata = "0.3"
+
+["0.7.10-0"]
+Interpolations = "0.12-0.13"
+
+["0.7.12-0"]
+Distributions = "0.23-0.24"
+
+["0.7.13-0"]
+Distances = "0.9-0.10"
+Flatten = "0.3-0.4"
+TransformVariables = "0.3"
+UnitfulRecipes = ["0.2", "1"]
 
 ["0.7.3-0"]
 OceanGrids = "0.3"

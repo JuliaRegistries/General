@@ -1,6 +1,13 @@
 [0]
 DifferentialEquations = "6"
-Optim = "0.0.0 - 0.22"
 ProgressMeter = ["0.9", "1"]
 RCall = "0.13"
 julia = "1"
+
+["0-0.0.1"]
+Optim = "0.0.0 - 0.22"
+
+["0.0.2-0"]
+Distributions = "0.22-0.24"
+Optim = ["0.20-0.22", "1"]
+StringDistances = "0.9"

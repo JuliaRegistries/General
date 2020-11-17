@@ -1,6 +1,3 @@
-[0]
-julia = "1"
-
 ["0-0.1.0"]
 ControlSystems = "0.5.1"
 FFTW = "0.0.0 - 0.3"
@@ -13,6 +10,9 @@ Optim = "0.0.0 - 0.19"
 Parameters = "0.0.0 - 0.12"
 RecipesBase = "0.0.0 - 0.7"
 Roots = "0.0.0 - 0.8"
+
+[0-1]
+julia = "1"
 
 ["0.1.1-0.1.2"]
 TotalLeastSquares = "0.1.2 - 0.1"
@@ -40,9 +40,6 @@ ControlSystems = "0.5.3-0.5"
 ["0.1.6"]
 MonteCarloMeasurements = "0.1.2-0.1"
 
-["0.1.6-0"]
-Parameters = "0.0.0-0.12"
-
 ["0.1.6-0.1"]
 Roots = "0.0.0-0.8"
 
@@ -60,26 +57,29 @@ Optim = "0.0.0-0.19"
 ["0.1.6-0.2.4"]
 FillArrays = "0.0.0-0.8"
 
+["0.1.6-1"]
+Parameters = "0.0.0-0.12"
+
 ["0.1.7"]
 MonteCarloMeasurements = ["0.1.2-0.1", "0.4-0.5"]
-
-["0.1.8-0"]
-DSP = "0.6.1-0.6"
-FFTW = "1.1.0-1"
-TotalLeastSquares = ["0.1.2-0.1", "1"]
 
 ["0.1.8-0.2.6"]
 MonteCarloMeasurements = "0.0.0 - 0.9"
 
+["0.1.8-1"]
+DSP = "0.6.1-0.6"
+FFTW = "1.1.0-1"
+TotalLeastSquares = ["0.1.2-0.1", "1"]
+
 ["0.1.9-0.2.0"]
 ControlSystems = "0.5.4-0.5"
 
-["0.2-0"]
-RecipesBase = ["0.0.0-0.8", "1"]
-Roots = ["0.0.0-0.8", "1"]
-
 ["0.2-0.2.6"]
 LowLevelParticleFilters = "0.4.4-0.4"
+
+["0.2-1"]
+RecipesBase = ["0.0.0-0.8", "1"]
+Roots = ["0.0.0-0.8", "1"]
 
 ["0.2.1-0.2.6"]
 ControlSystems = "0.5.4-0.6"
@@ -90,14 +90,29 @@ Optim = "0.0.0-0.21"
 ["0.2.4"]
 Optim = "0.0.0-0.22"
 
-["0.2.5-0"]
+["0.2.5-1"]
 FillArrays = "0.0.0-0.9"
 Optim = ["0.0.0-0.22", "1"]
 
-["0.2.6-0"]
+["0.2.6-1"]
 MatrixEquations = "1.1.0-1"
 
 ["0.2.7-0"]
 ControlSystems = "0.7"
+
+["0.2.7-1"]
 LowLevelParticleFilters = "1"
 MonteCarloMeasurements = ["0.1.2-0.1", "0.4-0.9"]
+
+[1]
+BandedMatrices = "0.15"
+
+["1.0"]
+ControlSystems = "0.7"
+
+["1.1-1"]
+ControlSystems = "0.7-0.8"
+StatsBase = "0.33"
+
+["1.2-1"]
+ComponentArrays = "0.8"

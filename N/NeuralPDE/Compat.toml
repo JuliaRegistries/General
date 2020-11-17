@@ -2,7 +2,6 @@
 DiffEqBase = "6"
 DiffEqNoiseProcess = "5.1.0-5"
 DiffEqSensitivity = "6.5.0-6"
-Distributions = "0.23"
 Flux = "0.10.1-0.11"
 ForwardDiff = "0.10"
 ModelingToolkit = "3.11.0-3"
@@ -17,6 +16,9 @@ DiffEqFlux = "1.5.0-1"
 ["2-2.2"]
 Optim = "0.20-0.22"
 
+["2-2.4"]
+Distributions = "0.23"
+
 ["2.0"]
 Adapt = "1-2"
 CuArrays = "2.2.0-2"
@@ -24,15 +26,26 @@ Zygote = "0.4-0.5"
 
 ["2.1-2"]
 Adapt = "2"
-CUDA = "1.2.0-1"
 Zygote = "0.5"
 
 ["2.1-2.2"]
 GalacticOptim = "0.1.1-0.1"
 
+["2.1-2.3"]
+CUDA = "1.2.0-1"
+
 ["2.2-2"]
 DiffEqFlux = "1.21.0-1"
 
-["2.3-2"]
+["2.3"]
 GalacticOptim = "0.1.1-0.2"
+
+["2.3-2"]
 Optim = "1"
+
+["2.4-2"]
+CUDA = "1.2.0-2"
+GalacticOptim = "0.3"
+
+["2.5-2"]
+Distributions = "0.23-0.24"

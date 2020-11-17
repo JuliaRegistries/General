@@ -1,4 +1,10 @@
 [0]
-Dagger = "0.8"
 Requires = "1"
 julia = "1"
+
+["0-0.1.0"]
+Dagger = "0.8"
+
+["0.1.1-0"]
+Adapt = "1-2"
+Dagger = "0.10"

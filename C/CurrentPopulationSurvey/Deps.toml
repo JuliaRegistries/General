@@ -1,9 +1,23 @@
-[0-1]
+[0]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
-DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
 JuliaDB = "a93385a2-3734-596a-9a66-3cfbb77141e6"
 
-["0.4-1"]
+[0-1]
+DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
+
+["0-1.1.0"]
+Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
+
+["0.4-0"]
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+
+["1.0"]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+JuliaDB = "a93385a2-3734-596a-9a66-3cfbb77141e6"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+
+["1.1-1"]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"

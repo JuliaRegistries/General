@@ -16,7 +16,6 @@ julia = "1.0.0-1"
 
 ["0.3.1-0"]
 CodecZlib = "0.5-0.7"
-MemPool = "0.2"
 Snappy = "0.3"
 julia = "1"
 
@@ -24,10 +23,13 @@ julia = "1"
 ProtoBuf = "0.7-0.8"
 Thrift = "0.6"
 
+["0.3.1-0.6"]
+MemPool = "0.2"
+
 ["0.4-0"]
 CodecZstd = "0.6-0.7"
 
-["0.5-0"]
+["0.5-0.6"]
 Thrift = "0.6-0.7"
 
 ["0.6-0"]
@@ -36,3 +38,7 @@ DataAPI = "1"
 LittleEndianBase128 = "0.3"
 Missings = "0.3-0.4"
 Tables = "1"
+
+["0.7-0"]
+Decimals = "0.4"
+Thrift = "0.8"

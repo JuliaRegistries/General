@@ -1,5 +1,4 @@
 [0]
-SearchLight = "0.0.0 - 0.19"
 julia = "1"
 
 ["0-0.1.0"]
@@ -8,13 +7,25 @@ DataStreams = "0.0.0 - 0.4"
 Revise = "0.0.0 - 2"
 SQLite = "0.0.0 - 0.9"
 
-["0.1.1-0"]
-DataFrames = "0.20"
-Revise = "2"
+["0-0.3"]
+SearchLight = "0.0.0 - 0.19"
 
 ["0.1.1-0.2"]
 SQLite = "0.9"
 
+["0.1.1-0.3"]
+DataFrames = "0.20"
+Revise = "2"
+
 ["0.3-0"]
 DBInterface = "2"
 SQLite = "1"
+
+["0.4"]
+SearchLight = "0.20"
+
+["0.4-0"]
+DataFrames = "0.21"
+
+["0.5-0"]
+SearchLight = "0.21"

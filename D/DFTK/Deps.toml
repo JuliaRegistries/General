@@ -18,7 +18,6 @@ NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 PeriodicTable = "7b2266bf-644c-5ea3-82d8-af4bbd25a884"
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
 Primes = "27ebfcd6-29c5-5fa9-bf4b-fb8fc14df3ae"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
@@ -29,8 +28,17 @@ Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
+["0-0.1.11"]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
 ["0.1.1-0"]
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+["0.1.14-0"]
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.1.15-0"]
+MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
 
 ["0.1.5-0"]
 spglib_jll = "ac4a9f1e-bdb2-5204-990c-47c8b2f70d4e"

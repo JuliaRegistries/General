@@ -1,4 +1,8 @@
-[0]
+["0-0.1.0"]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[0-1]
 ControlSystems = "a6e380b2-a6ca-5380-bf3e-84a91bcd477e"
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
@@ -11,18 +15,23 @@ Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 TotalLeastSquares = "028f657a-7ace-5159-a694-8cfd97933b0c"
 
-["0-0.1.0"]
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["0.1.1-0"]
+["0.1.1-1"]
 MonteCarloMeasurements = "0987c9cc-fe09-11e8-30f0-b96dd679fdca"
 
-["0.1.3-0"]
+["0.1.3-1"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["0.2-0"]
+["0.2-1"]
 LowLevelParticleFilters = "d9d29d28-c116-5dba-9239-57a5fe23875b"
 
-["0.2.6-0"]
+["0.2.6-1"]
 MatrixEquations = "99c1a7ee-ab34-5fd5-8076-27c950a045f4"
+
+[1]
+BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
+
+["1.1-1"]
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["1.2-1"]
+ComponentArrays = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
