@@ -56,7 +56,6 @@ CSV = "0.6"
 PowerSystems = "0.14"
 
 ["0.4.3-0"]
-Feather = "0.5"
 MathOptInterface = "0.9"
 
 ["0.4.3-0.4"]
@@ -64,6 +63,9 @@ InfrastructureSystems = "0.6"
 
 ["0.4.3-0.6.4"]
 TimeSeries = "0.18"
+
+["0.4.3-0.7"]
+Feather = "0.5"
 
 ["0.4.4"]
 PowerSystems = "0.15"
@@ -90,13 +92,13 @@ PowerSystems = "0.18.5-0.18"
 InfrastructureSystems = "0.9"
 PowerSystems = "0.19"
 
-["0.6-0"]
-CSV = "0.7"
-DataFrames = "0.21"
-
 ["0.6-0.6.1"]
 InfrastructureSystems = "0.14"
 PowerSystems = "0.24"
+
+["0.6-0.7"]
+CSV = "0.7"
+DataFrames = "0.21"
 
 ["0.6.2"]
 PowerSystems = "0.25"
@@ -116,3 +118,8 @@ TimeSeries = "0.19"
 ["0.7-0"]
 InfrastructureSystems = "1"
 PowerSystems = "1"
+
+["0.8-0"]
+Arrow = "0.4"
+CSV = "0.8"
+DataFrames = "0.22"
