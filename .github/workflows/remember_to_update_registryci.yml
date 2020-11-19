@@ -25,5 +25,5 @@ jobs:
         run: julia -e 'import Pkg; Pkg.add(["GitCommand", "GitHub", "Pkg"])'
       - name: Update .ci/Manifest.toml
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
         run: julia -e 'include(".ci/remember_to_update_registryci.jl"); "${{ github.repository }}" == "JuliaRegistries/General" && RememberToUpdateRegistryCI.main(".ci"; registry = "${{ github.repository }}", cc_usernames = String[])'
