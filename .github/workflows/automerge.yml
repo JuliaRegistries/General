@@ -58,6 +58,6 @@ jobs:
             authorized_authors_special_jll_exceptions = String["jlbuild"],
             suggest_onepointzero = false,
             additional_statuses = String[],
-            additional_check_runs = String["Travis CI - Pull Request"]
+            additional_check_runs = String["CI"],
           )
         shell: julia --color=yes --project=.ci/ {0}
