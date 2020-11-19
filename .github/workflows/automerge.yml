@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: '05,17,29,41,53 * * * *'
   pull_request:
+  workflow_dispatch:
 
 jobs:
   AutoMerge:
