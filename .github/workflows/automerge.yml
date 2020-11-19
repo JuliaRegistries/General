@@ -59,6 +59,6 @@ jobs:
             authorized_authors_special_jll_exceptions = String["jlbuild"],
             suggest_onepointzero = false,
             additional_statuses = String[],
-            additional_check_runs = String["CI"],
+            additional_check_runs = String["CI (1, ubuntu-latest, x64)",],
           )
         shell: julia --color=yes --project=.ci/ {0}
