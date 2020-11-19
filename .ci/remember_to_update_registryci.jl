@@ -150,7 +150,7 @@ function main(relative_path;
               pr_branch = "github_actions/remember_to_update_registryci",
               pr_title = "Update RegistryCI.jl by updating the .ci/Manifest.toml file",
               cc_usernames = String[],
-              my_username = "github-actions[bot]",
+              # my_username = ,
               my_email = "41898282+github-actions[bot]@users.noreply.github.com")
     original_project = Base.active_project()
     original_directory = pwd()
@@ -160,6 +160,11 @@ function main(relative_path;
     cd(tmp_dir)
 
     auth = GitHub.authenticate(github_token)
+    my_username = try
+        GitHub.whoami(; auth = auth).login
+    catch
+        "github-actions[bot]"
+    end
     my_repo = GitHub.repo(registry; auth = auth)
     registry_url_with_auth = "https://x-access-token:$(github_token)@github.com/$(registry)"
     _all_open_prs = get_all_pull_requests(my_repo, "open"; auth = auth)
