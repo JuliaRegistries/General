@@ -37,7 +37,7 @@ Optim = ["0.22", "1"]
 ["1.0.3"]
 LsqFit = "0.9-0.10"
 
-["1.0.3-1"]
+["1.0.3-1.2.1"]
 DataFrames = "0.20-0.21"
 SpecialFunctions = "0.9-0.10"
 
@@ -52,3 +52,8 @@ Combinatorics = "1"
 HCubature = "1.4.0-1"
 Measurements = "2"
 Optim = "1"
+
+["1.2.2-1"]
+DataFrames = "0.20-0.22"
+ModelingToolkit = "4"
+SpecialFunctions = ["0.9-0.10", "1"]
