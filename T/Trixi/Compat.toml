@@ -22,6 +22,12 @@ EllipsisNotation = ["0.4", "1"]
 DiffEqBase = "6.47.0-6"
 DiffEqCallbacks = "2.14.0-2"
 EllipsisNotation = "1"
+OffsetArrays = "1.3.0-1"
+
+["0.3.0"]
 HDF5 = "0.13-0.14"
 MPI = "0.15-0.16"
-OffsetArrays = "1.3.0-1"
+
+["0.3.1-0"]
+HDF5 = "0.14"
+MPI = "0.16"
