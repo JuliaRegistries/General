@@ -1,8 +1,14 @@
 [0]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
-GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
 Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
+
+["0-0.4"]
+GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0.4.1-0"]
 MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
+
+["0.5-0"]
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+TranscodingStreams = "3bb67fe8-82b1-5028-8e26-92a6c54297fa"
