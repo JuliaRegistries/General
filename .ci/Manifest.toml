@@ -150,9 +150,9 @@ version = "1.1.1"
 
 [[RegistryCI]]
 deps = ["Base64", "Dates", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "Printf", "Random", "RegistryTools", "SHA", "StringDistances", "TOML", "Test", "TimeZones", "VisualStringDistances"]
-git-tree-sha1 = "8a06b7351ee02893547b590c544a1e23aed423a6"
+git-tree-sha1 = "f29d2eba953902df65b2a9bb90dd1078ac28f4e9"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "4.4.0"
+version = "4.4.1"
 
 [[RegistryTools]]
 deps = ["AutoHashEquals", "LibGit2", "Pkg", "UUIDs"]
@@ -185,9 +185,9 @@ uuid = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 [[StringDistances]]
 deps = ["Distances"]
-git-tree-sha1 = "06f0dfb39437741a0fd154f67ceb379dea0c91ac"
+git-tree-sha1 = "a4c05337dfe6c4963253939d2acbdfa5946e8e31"
 uuid = "88034a9c-02f8-509d-84a9-84ec65e18404"
-version = "0.9.1"
+version = "0.10.0"
 
 [[TOML]]
 deps = ["Dates"]
