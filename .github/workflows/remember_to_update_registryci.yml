@@ -23,7 +23,10 @@ jobs:
           version: ${{ matrix.version }}
       - name: Install dependencies
         run: julia -e 'import Pkg; Pkg.add(["GitCommand", "GitHub", "Pkg"])'
+        env:
+          JULIA_PKG_SERVER: ''
       - name: Update .ci/Manifest.toml
+        run: julia -e 'include(".ci/remember_to_update_registryci.jl"); "${{ github.repository }}" == "JuliaRegistries/General" && RememberToUpdateRegistryCI.main(".ci"; registry = "${{ github.repository }}", cc_usernames = String[])'
         env:
           GITHUB_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
-        run: julia -e 'include(".ci/remember_to_update_registryci.jl"); "${{ github.repository }}" == "JuliaRegistries/General" && RememberToUpdateRegistryCI.main(".ci"; registry = "${{ github.repository }}", cc_usernames = String[])'
+          JULIA_PKG_SERVER: ''
