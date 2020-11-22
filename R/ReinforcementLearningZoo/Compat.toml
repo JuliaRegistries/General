@@ -26,7 +26,6 @@ ReinforcementLearningCore = "0.4"
 
 ["0.1.5-0"]
 AbstractTrees = "0.3"
-CUDA = "1"
 Flux = "0.11"
 Setfield = "0.6-0.7"
 Zygote = "0.5"
@@ -34,6 +33,9 @@ julia = "1.4.0-1"
 
 ["0.1.5-0.1"]
 ReinforcementLearningBase = "0.8"
+
+["0.1.5-0.2.1"]
+CUDA = "1"
 
 ["0.1.6"]
 ReinforcementLearningCore = "0.4.1-0.4"
@@ -55,3 +57,6 @@ ReinforcementLearningCore = "0.4.5-0.4"
 Distributions = "0.24"
 ReinforcementLearningCore = "0.5"
 StableRNGs = "1"
+
+["0.2.2-0"]
+CUDA = ["1", "2.1.0-2"]
