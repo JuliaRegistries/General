@@ -1,6 +1,5 @@
 [0]
 FFTW = "1"
-Interpolations = "0.12"
 NIfTI = "0.4"
 julia = "1"
 
@@ -10,6 +9,9 @@ ROMEO = "0.1"
 ["0-0.2.0"]
 NaNMath = "0.3.2-0.3"
 
+["0-0.4.1"]
+Interpolations = "0.12"
+
 ["0.1.4-0.2.0"]
 ROMEO = "0.1.4-0.1"
 
@@ -18,3 +20,6 @@ DataStructures = "0.18"
 
 ["0.2.1-0"]
 ROMEO = "0.1.4-0.2"
+
+["0.4.2-0"]
+Interpolations = "0.12-0.13"
