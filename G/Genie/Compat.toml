@@ -58,13 +58,15 @@ Gumbo = "0.5"
 ArgParse = "0.6"
 
 ["0.21-1"]
-HTTP = "0.8"
 LoggingExtras = "0.4"
 Millboard = "0.2"
 OrderedCollections = "1"
 
 ["0.21-1.1"]
 Revise = "2"
+
+["0.21-1.8"]
+HTTP = "0.8"
 
 ["0.24-0.31.2"]
 julia = "1.2.0-1"
@@ -99,3 +101,6 @@ Revise = ["2", "3.1.0-3"]
 
 ["1.5-1"]
 Revise = "2-3"
+
+["1.9-1"]
+HTTP = "0.8-0.9"
