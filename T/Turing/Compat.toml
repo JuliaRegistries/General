@@ -54,12 +54,14 @@ DynamicPPL = "0.7.1-0.7"
 
 ["0.12-0"]
 AbstractMCMC = "1"
-Libtask = "0.4"
 
 ["0.12-0.13"]
 AdvancedMH = "0.5"
 Bijectors = "0.6.4-0.7"
 DistributionsAD = "0.4.8-0.5"
+
+["0.12-0.14.11"]
+Libtask = "0.4"
 
 ["0.13"]
 DynamicPPL = "0.8"
@@ -79,6 +81,9 @@ julia = "1.3.0-1"
 
 ["0.14-0.14.1"]
 DynamicPPL = "0.9"
+
+["0.14.12-0"]
+Libtask = "0.4-0.5"
 
 ["0.14.2-0"]
 ZygoteRules = "0.2"
