@@ -1,4 +1,4 @@
-[1]
+["1-1.1"]
 Distributions = "0.0.0 - 0.23"
 JLD = "0.0.0 - 0.10"
 JSON = "0.0.0 - 0.21"
@@ -9,7 +9,15 @@ DiffEqCallbacks = "0-2"
 OrdinaryDiffEq = "0-5"
 julia = ["0.7", "1"]
 
-["1.1-1"]
+["1.1"]
 DiffEqCallbacks = "0.0.0 - 2"
 OrdinaryDiffEq = "0.0.0 - 5"
+
+["1.1-1"]
 julia = "1"
+
+["1.2-1"]
+Distributions = "0.24"
+JLD2 = "0.2-0.3"
+JSON = "0.21"
+StatsBase = "0.33"
