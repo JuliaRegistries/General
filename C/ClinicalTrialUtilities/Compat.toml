@@ -60,16 +60,26 @@ Reexport = "0.1-0.2"
 CSV = "0.5"
 
 ["0.2.4-0"]
-Distributions = "0.16-0.23"
 Roots = ["0.7-0.8", "1"]
+
+["0.2.4-0.3.1"]
+Distributions = "0.16-0.23"
 
 ["0.2.5"]
 RecipesBase = "0.7-0.8"
 
 ["0.2.5-0"]
-SpecialFunctions = "0.8-0.10"
 StatsBase = "0.22-0.33"
 
+["0.2.5-0.3.1"]
+SpecialFunctions = "0.8-0.10"
+
 ["0.2.6-0"]
-CSV = "0.5-0.6"
 RecipesBase = ["0.7-0.8", "1"]
+
+["0.2.6-0.3.1"]
+CSV = "0.5-0.6"
+
+["0.3.2-0"]
+Distributions = "0.16-0.24"
+SpecialFunctions = ["0.8-0.10", "1"]
