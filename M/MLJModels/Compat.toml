@@ -28,10 +28,10 @@ MLJModelInterface = "0.3.4-0.3"
 ["0.12-0.12.4"]
 ScientificTypes = ["0.8", "1"]
 
-["0.12.1-0"]
+["0.12.1-0.12"]
 MLJBase = "0.14-0.15"
 
-["0.12.5-0"]
+["0.12.5-0.12"]
 MLJScientificTypes = "0.3"
 
 ["0.12.6-0"]
@@ -39,6 +39,11 @@ Distributions = "0.22-0.24"
 
 ["0.12.7-0"]
 Distances = "0.9-0.10"
+
+["0.13-0"]
+CategoricalArrays = "0.8-0.9"
+MLJBase = "0.14-0.16"
+MLJScientificTypes = ["0.3", "0.4.1-0.4"]
 
 ["0.2-0.2.3"]
 MLJBase = "0.2"
@@ -153,11 +158,11 @@ MLJBase = "0.12"
 ["0.9.1-0.12.5"]
 Distributions = "0.22-0.23"
 
-["0.9.11-0"]
-CategoricalArrays = "0.8"
-
 ["0.9.11-0.10"]
 MLJBase = "0.13.6-0.13"
+
+["0.9.11-0.12"]
+CategoricalArrays = "0.8"
 
 ["0.9.12"]
 MLJModelInterface = "0.2-0.3"
