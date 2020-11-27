@@ -48,8 +48,14 @@ Distances = "0.7-0.10"
 Distributions = "0.21-0.24"
 
 ["1.19-1"]
-Entropies = "0.9"
 julia = "1.5.0-1"
+
+["1.19.0"]
+Entropies = "0.9"
+
+["1.19.1-1"]
+Entropies = "0.9-0.10"
+LombScargle = ["0.4-0.5", "1"]
 
 ["1.5"]
 DiffEqBase = "5"
@@ -71,7 +77,6 @@ LombScargle = "0.0.0 - 0.5"
 ["1.8.1-1"]
 DSP = "0.6"
 ForwardDiff = "0.8-0.10"
-LombScargle = "0.4-0.5"
 NearestNeighbors = "0.4"
 Reexport = "0.1-0.2"
 Roots = ["0.7-0.8", "1"]
@@ -81,6 +86,9 @@ DiffEqBase = "5-6"
 
 ["1.8.1-1.18"]
 julia = "1"
+
+["1.8.1-1.19.0"]
+LombScargle = "0.4-0.5"
 
 ["1.8.1-1.8"]
 Distributions = "0.21"
