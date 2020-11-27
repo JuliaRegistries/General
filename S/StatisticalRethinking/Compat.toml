@@ -178,7 +178,7 @@ StatsFuns = "0.9"
 ["2.2.2-2.2.7"]
 DataFrames = "0.20-0.21"
 
-["2.2.3-3"]
+["2.2.3-2"]
 MCMCChains = "3-4"
 
 ["2.2.4-2"]
@@ -203,6 +203,15 @@ BSplines = "0.2-0.3"
 DataFrames = "0.21-0.22"
 GLM = "1.3.0-1"
 MonteCarloMeasurements = ["0.8-0.9", "1"]
-Optim = "0.20"
 PrettyTables = "0.9-0.10"
 StructuralCausalModels = "1"
+
+["3.0"]
+MCMCChains = "3-4"
+Optim = "0.20"
+
+["3.1-3"]
+Formatting = "0.4"
+MCMCChains = "4"
+NamedTupleTools = "0.13"
+Optim = ["0.20", "1.2.0-1"]
