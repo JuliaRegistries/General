@@ -87,6 +87,9 @@ Distances = "0.8-0.10"
 ["0.6.16-0"]
 FillArrays = "0.7-0.10"
 
+["0.6.17-0"]
+BlockArrays = "0.12-0.13"
+
 ["0.6.2-0"]
 Requires = "1"
 
@@ -103,8 +106,10 @@ Zygote = "0.4.6-0.4"
 FillArrays = "0.7-0.8"
 
 ["0.6.4-0"]
-BlockArrays = "0.12"
 RecipesBase = ["0.7-0.8", "1"]
+
+["0.6.4-0.6.16"]
+BlockArrays = "0.12"
 
 ["0.6.5-0.6.13"]
 Distances = "0.8-0.9"
