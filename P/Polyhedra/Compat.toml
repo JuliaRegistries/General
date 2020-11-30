@@ -23,14 +23,14 @@ ParameterJuMP = "0.1.1-0.1"
 ["0.5.4-0.5"]
 JuMP = "0.20"
 
-["0.5.7-0"]
-StaticArrays = "0.12"
-
 ["0.5.7-0.6.0"]
 RecipesBase = "0.7"
 
 ["0.5.7-0.6.1"]
 GeometryTypes = "0.7"
+
+["0.5.7-0.6.9"]
+StaticArrays = "0.12"
 
 ["0.6-0"]
 JuMP = "0.21"
@@ -40,6 +40,9 @@ ParameterJuMP = "0.2"
 
 ["0.6.1"]
 RecipesBase = "0.7-0.8"
+
+["0.6.10-0"]
+StaticArrays = ["0.12", "1"]
 
 ["0.6.2-0"]
 RecipesBase = ["0.7-0.8", "1"]
