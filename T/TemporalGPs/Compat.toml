@@ -14,14 +14,16 @@ Zygote = "0.4.9-0.4"
 Stheno = "0.6.4-0.6"
 
 ["0.2-0"]
-BlockArrays = "0.12"
-BlockDiagonals = "0.1"
-FillArrays = "0.7-0.8"
-Kronecker = "0.4"
 julia = "1.4.0-1"
 
 ["0.2-0.3.5"]
 StaticArrays = "0.12.1"
+
+["0.2-0.3.6"]
+BlockArrays = "0.12"
+BlockDiagonals = "0.1"
+FillArrays = "0.7-0.8"
+Kronecker = "0.4"
 
 ["0.3-0.3.2"]
 Stheno = "0.6.5-0.6"
@@ -35,6 +37,14 @@ Distributions = "0.19-0.23"
 ["0.3.5-0"]
 Zygote = "0.5"
 
-["0.3.6-0"]
+["0.3.6"]
 Distributions = "0.19-0.24"
 StaticArrays = "0.12.1-0.12"
+
+["0.3.7-0"]
+BlockArrays = "0.13"
+BlockDiagonals = "0.1.7-0.1"
+Distributions = "0.24"
+FillArrays = "0.10"
+Kronecker = "0.4.2-0.4"
+StaticArrays = "1"
