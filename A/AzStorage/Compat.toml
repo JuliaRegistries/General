@@ -1,9 +1,14 @@
 [1]
 AbstractStorage = "1"
 AzSessions = "1"
-HTTP = "0.8"
 LightXML = "0.9"
 julia = "1"
 
+["1-1.1"]
+HTTP = "0.8"
+
 ["1.1-1"]
 AzStorage_jll = "0.2"
+
+["1.2-1"]
+HTTP = "0.8-0.9"
