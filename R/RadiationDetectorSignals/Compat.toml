@@ -1,7 +1,6 @@
 [0]
 ElasticArrays = ["0.2-0.4", "1"]
 EncodedArrays = "0.2"
-StaticArrays = "0.11-0.12"
 StructArrays = "0.4"
 TypedTables = "1.2.0-1"
 UnsafeArrays = "1"
@@ -19,6 +18,9 @@ Tables = "0.2"
 ArraysOfArrays = "0.4"
 FillArrays = "0.7-0.8"
 StatsBase = "0.32"
+
+["0-0.1.4"]
+StaticArrays = "0.11-0.12"
 
 ["0.1.1"]
 Unitful = "0.17-0.18"
@@ -42,3 +44,6 @@ StatsBase = "0.32-0.33"
 
 ["0.1.4-0"]
 FillArrays = "0.7-0.10"
+
+["0.1.5-0"]
+StaticArrays = ["0.11-0.12", "1"]
