@@ -154,7 +154,6 @@ IterativeSolvers = "0.8"
 MuladdMacro = "0.2.1-0.2"
 Parameters = "0.12"
 RecursiveFactorization = "0.1"
-StaticArrays = "0.11-0.12"
 TreeViews = "0.3"
 
 ["6.5-6.10"]
@@ -172,8 +171,14 @@ Roots = "0.8"
 ["6.5-6.43"]
 DataStructures = "0.17"
 
+["6.5-6.49"]
+StaticArrays = "0.11-0.12"
+
 ["6.5-6.7"]
 Requires = "0.5"
+
+["6.50-6"]
+StaticArrays = ["0.11-0.12", "1"]
 
 ["6.7-6.24"]
 ArrayInterface = "1.1.0-2"
