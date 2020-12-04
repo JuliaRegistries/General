@@ -9,7 +9,13 @@ Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Libtiff_jll = "89763e89-9b03-5906-acba-b20f662cd828"
 Pixman_jll = "30392449-352a-5448-841d-b1acce4e97dc"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-Qhull_jll = "784f63db-0788-585a-bace-daefebcd302b"
 Qt_jll = "ede63266-ebff-546c-83e0-1c6fb6d0efc8"
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
 libpng_jll = "b53b4c65-9356-5827-b1ea-8c7a1a84506f"
+
+["0-0.52"]
+Qhull_jll = "784f63db-0788-585a-bace-daefebcd302b"
+
+["0.53-0"]
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
