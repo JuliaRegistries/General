@@ -28,7 +28,7 @@ DocStringExtensions = "0.8"
 ["0.12.1-1.0.2"]
 CSV = "0.7"
 
-["0.15.4-1"]
+["0.15.4-1.0.5"]
 TimeSeries = "0.19"
 
 ["0.15.5"]
@@ -60,8 +60,10 @@ TimeSeries = "0.18"
 PrettyTables = "0.8"
 
 ["0.6-1"]
-HDF5 = "0.13"
 YAML = "0.4"
+
+["0.6-1.0.5"]
+HDF5 = "0.13"
 
 [1]
 DataStructures = "0.18"
@@ -73,3 +75,7 @@ CSV = "0.8"
 ["1.0.4-1"]
 DataFrames = "0.22"
 PrettyTables = "0.10"
+
+["1.0.6-1"]
+HDF5 = "0.14"
+TimeSeries = "0.20"
