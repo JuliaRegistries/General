@@ -22,7 +22,7 @@ StatsFuns = "0.0.0 - 0.8"
 CategoricalArrays = "0.0.0 - 0.7"
 Tables = "0.0.0 - 0.2"
 
-["0.2.2-0"]
+["0.2.2-0.2.7"]
 julia = "1"
 
 ["0.2.3-0.2.4"]
@@ -39,23 +39,38 @@ Tables = "0.2"
 
 ["0.2.4-0"]
 ForwardDiff = "0.10"
-Parameters = "0.10-0.12"
 
 ["0.2.4-0.2.6"]
 CategoricalArrays = "0.6-0.7"
 
-["0.2.5-0"]
+["0.2.4-0.2.7"]
+Parameters = "0.10-0.12"
+
+["0.2.5-0.2.6"]
+Optim = "0.18-0.20"
+
+["0.2.5-0.2.7"]
 Distributions = "0.21-0.23"
 FillArrays = "0.6-0.8"
 StatsFuns = "0.7-0.9"
 TableOperations = "0.2"
 
-["0.2.5-0.2.6"]
-Optim = "0.18-0.20"
-
-["0.2.6-0"]
+["0.2.6-0.2.7"]
 StatsBase = "0.31-0.33"
 
-["0.2.7-0"]
+["0.2.7"]
 CategoricalArrays = "0.6-0.8"
 Optim = "0.18-0.21"
+
+["0.2.8-0"]
+CategoricalArrays = "0.8-0.9"
+Distributions = "0.23-0.24"
+FillArrays = "0.9-0.10"
+MLJModelInterface = "0.3"
+Optim = "1"
+Parameters = "0.12"
+StatsBase = "0.33"
+StatsFuns = "0.9"
+TableOperations = "1"
+Tables = "1"
+julia = "1.4.0-1"
