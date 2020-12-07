@@ -55,10 +55,12 @@ ReinforcementLearningBase = "0.7"
 Setfield = "0.6"
 
 ["0.3-0"]
-BSON = "0.2"
 ImageTransformations = "0.8"
 JLD = "0.10"
 StatsBase = "0.32-0.33"
+
+["0.3-0.5"]
+BSON = "0.2"
 
 ["0.3.2-0.3"]
 Adapt = "1-2"
@@ -107,3 +109,7 @@ Distributions = "0.24"
 ["0.5.1-0"]
 CUDA = ["1", "2.1.0-2"]
 FillArrays = "0.8-0.10"
+
+["0.6-0"]
+CircularArrayBuffers = "0.1"
+Functors = "0.1"
