@@ -54,6 +54,10 @@ LazyArrays = "0.17-0.18"
 LazyArrays = "0.17-0.19"
 ModelingToolkit = "4"
 
+["4.16-4"]
+RuntimeGeneratedFunctions = "0.4"
+StaticArrays = ["0.10-0.12", "1"]
+
 ["4.2"]
 ModelingToolkit = "0.8"
 
@@ -72,10 +76,12 @@ ModelingToolkit = "0.9"
 
 ["4.4-4"]
 ForwardDiff = "0.10"
-StaticArrays = "0.10-0.12"
 
 ["4.4-4.10"]
 NNlib = "0.6"
+
+["4.4-4.15"]
+StaticArrays = "0.10-0.12"
 
 ["4.4-4.6"]
 BlockBandedMatrices = "0.6"
