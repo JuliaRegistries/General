@@ -51,9 +51,9 @@ version = "5.2.0"
 
 [[HTTP]]
 deps = ["Base64", "Dates", "IniFile", "MbedTLS", "Sockets", "URIs"]
-git-tree-sha1 = "9634200f8e16554cb1620dfb20501483b873df86"
+git-tree-sha1 = "504ca74f27377a25ebfd63b1f5e6ec3e9fb14690"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "0.9.0"
+version = "0.9.1"
 
 [[IniFile]]
 deps = ["Test"]
@@ -123,9 +123,9 @@ version = "0.7.1"
 
 [[Parsers]]
 deps = ["Dates"]
-git-tree-sha1 = "b417be52e8be24e916e34b3d70ec2da7bdf56a68"
+git-tree-sha1 = "6370b5b3cf2ce5a3d2b6f7ab2dc10f374e4d7d2b"
 uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
-version = "1.0.12"
+version = "1.0.14"
 
 [[Pkg]]
 deps = ["Dates", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "REPL", "Random", "SHA", "UUIDs"]
@@ -150,9 +150,9 @@ version = "1.1.1"
 
 [[RegistryCI]]
 deps = ["Base64", "Dates", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "Printf", "Random", "RegistryTools", "SHA", "StringDistances", "TOML", "Test", "TimeZones", "VisualStringDistances"]
-git-tree-sha1 = "c27ec230ba0d80dc40a6f3b1a8eb22ce99fc2391"
+git-tree-sha1 = "20183ea9a50d908409abef457415ea9198e3a3dc"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "4.5.0"
+version = "4.5.1"
 
 [[RegistryTools]]
 deps = ["AutoHashEquals", "LibGit2", "Pkg", "UUIDs"]
@@ -175,9 +175,9 @@ uuid = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 [[StaticArrays]]
 deps = ["LinearAlgebra", "Random", "Statistics"]
-git-tree-sha1 = "794e88df12426adc7eb3370b4ec3aee12f8d6911"
+git-tree-sha1 = "9da72ed50e94dbff92036da395275ed114e04d49"
 uuid = "90137ffa-7385-5640-81b9-e52037218182"
-version = "1.0.0"
+version = "1.0.1"
 
 [[Statistics]]
 deps = ["LinearAlgebra", "SparseArrays"]
@@ -191,9 +191,9 @@ version = "0.10.0"
 
 [[TOML]]
 deps = ["Dates"]
-git-tree-sha1 = "d0ac7eaad0fb9f6ba023a1d743edca974ae637c4"
+git-tree-sha1 = "a748eac31508d3e1c9a5ff36963352122fa77106"
 uuid = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
-version = "1.0.0"
+version = "1.0.1"
 
 [[Test]]
 deps = ["Distributed", "InteractiveUtils", "Logging", "Random"]
