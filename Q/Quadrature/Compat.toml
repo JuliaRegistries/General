@@ -20,10 +20,12 @@ Requires = "0.0.0 - 1"
 [1]
 CommonSolve = "0.2"
 HCubature = "1.4.0-1"
-MonteCarloIntegration = "0.0.1"
 QuadGK = "2.1.0-2"
 Reexport = "0.2"
 Requires = ["0.5", "1"]
+
+["1-1.5"]
+MonteCarloIntegration = "0.0.1"
 
 ["1.2-1"]
 ForwardDiff = "0.10"
@@ -37,3 +39,6 @@ Distributions = "0.23"
 
 ["1.5-1"]
 Distributions = "0.23-0.24"
+
+["1.6-1"]
+MonteCarloIntegration = "0.0.1-0.0.2"
