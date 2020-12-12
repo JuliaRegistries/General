@@ -54,11 +54,16 @@ julia = "1.5.0-1"
 Entropies = "0.9"
 
 ["1.19.1-1"]
-Entropies = "0.9-0.10"
 LombScargle = ["0.4-0.5", "1"]
+
+["1.19.1-1.20"]
+Entropies = "0.9-0.10"
 
 ["1.20-1"]
 StaticArrays = ["0.11-0.12", "1"]
+
+["1.22-1"]
+Entropies = "0.11"
 
 ["1.5"]
 DiffEqBase = "5"
