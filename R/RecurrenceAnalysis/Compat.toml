@@ -27,12 +27,14 @@ julia = ["0.7.0", "1"]
 
 ["1.1-1"]
 DelayEmbeddings = ["0.1-0.3", "1"]
-StaticArrays = "0.8-0.12"
 UnicodePlots = ["0.3", "1"]
 
 ["1.1-1.2"]
 Distances = "0.8"
 julia = "1"
+
+["1.1-1.3.1"]
+StaticArrays = "0.8-0.12"
 
 ["1.3-1"]
 julia = "1.5.0-1"
@@ -42,3 +44,6 @@ Distances = "0.8-0.9"
 
 ["1.3.1-1"]
 Distances = "0.8-0.10"
+
+["1.3.2-1"]
+StaticArrays = ["0.8-0.12", "1"]
