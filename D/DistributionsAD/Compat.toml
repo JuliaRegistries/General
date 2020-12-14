@@ -34,11 +34,13 @@ Tracker = "0.2.5-0.2"
 Distributions = "0.22"
 
 ["0.3-0"]
-SpecialFunctions = "0.8-0.10"
 ZygoteRules = "0.2"
 
 ["0.3-0.4.2"]
 Zygote = "0.4.7-0.4"
+
+["0.3-0.6.13"]
+SpecialFunctions = "0.8-0.10"
 
 ["0.4-0"]
 Compat = "3.6.0-3"
@@ -92,6 +94,9 @@ FillArrays = "0.8-0.10"
 
 ["0.6.12-0"]
 StaticArrays = ["0.12", "1"]
+
+["0.6.14-0"]
+SpecialFunctions = ["0.8-0.10", "1"]
 
 ["0.6.3-0"]
 ChainRules = "0.7"
