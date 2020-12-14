@@ -1,31 +1,49 @@
 [0]
-CSV = "0.7"
 DSP = "0.6"
-DataFrames = "0.21"
-Distributions = "0.23"
 FITSIO = "0.16"
 FileIO = "1.4.0-1"
-Interpolations = "0.12"
-JLD2 = "0.2"
 LsqFit = "0.11"
-MultivariateStats = "0.7"
 Optim = ["0.22", "1"]
 PDMats = "0.10"
 Polynomials = "1.1.0-1"
 QuadGK = "2.4.0-2"
 Query = "1"
-SpecialFunctions = "0.10"
-StaticArrays = "0.12"
 StatsBase = "0.33"
 Stheno = "0.6"
 TemporalGPs = "0.3"
 ThreadedIterables = "0.2"
 julia = "1.3.0-1"
 
+["0-0.1.4"]
+CSV = "0.7"
+DataFrames = "0.21"
+Distributions = "0.23"
+Interpolations = "0.12"
+JLD2 = "0.2"
+MultivariateStats = "0.7"
+SpecialFunctions = "0.10"
+StaticArrays = "0.12"
+
 ["0.1-0"]
-EchelleCCFs = "0.1"
-EchelleInstruments = "0.1"
 NaNMath = "0.3"
 ProgressMeter = "1.4.0-1"
+
+["0.1-0.1.4"]
+EchelleCCFs = "0.1"
+EchelleInstruments = "0.1"
 RvSpectMLBase = "0.1"
 Scalpels = "0.0.1-0.1"
+
+["0.1.5-0"]
+CSV = "0.7-0.8"
+DataFrames = "0.21-0.22"
+Distributions = "0.23-0.24"
+EchelleCCFs = "0.1.5-0.1"
+EchelleInstruments = "0.1.3-0.1"
+Interpolations = "0.12-0.13"
+JLD2 = "0.2-0.3"
+MultivariateStats = "0.7-0.8"
+RvSpectMLBase = "0.1.6-0.1"
+Scalpels = "0.1"
+SpecialFunctions = ["0.10", "1"]
+StaticArrays = ["0.12", "1"]
