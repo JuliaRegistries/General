@@ -1,5 +1,10 @@
 [0]
 DataDeps = "0.7"
 PolygonOps = "0.1"
-StaticArrays = "0.12"
 julia = "1"
+
+["0-0.1.5"]
+StaticArrays = "0.12"
+
+["0.1.6-0"]
+StaticArrays = ["0.12", "1"]
