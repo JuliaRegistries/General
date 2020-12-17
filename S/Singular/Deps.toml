@@ -2,11 +2,13 @@
 AbstractAlgebra = "c3fe647b-3220-5bb0-a1ea-a7954cac585d"
 BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 CxxWrap = "1f15a43c-97ca-5a2a-ae31-89f07a497df4"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 Nemo = "2edaba10-b0f1-5616-af89-8c11ac63239a"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.4.1"]
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 ["0.2.2-0.3"]
 CMake = "631607c0-34d2-5d66-819e-eb0f9aa2061a"
@@ -18,7 +20,13 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 lib4ti2_jll = "1493ae25-0f90-5c0e-a06c-8c5077d6d66f"
 
 ["0.4-0"]
-GMP_jll = "781609d7-10c4-51f6-84f2-b8444358ff6d"
-MPFR_jll = "3a97d323-0669-5f0c-9066-3539efd106a3"
 Singular_jll = "43d676ae-4934-50ba-8046-7a96366d613b"
 libsingular_julia_jll = "ae4fbd8f-ecdb-54f8-bbce-35570499b30e"
+
+["0.4-0.4.1"]
+GMP_jll = "781609d7-10c4-51f6-84f2-b8444358ff6d"
+MPFR_jll = "3a97d323-0669-5f0c-9066-3539efd106a3"
+
+["0.4.2-0"]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+RandomExtensions = "fb686558-2515-59ef-acaa-46db3789a887"
