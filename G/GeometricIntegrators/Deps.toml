@@ -2,8 +2,6 @@
 DecFP = "55939f99-70c6-5e9b-8bb0-5071ed7d61fd"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
-FastTransforms = "057dd010-8810-581a-b7be-e3fc3b93f78c"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -17,10 +15,16 @@ SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 ["0-0.1"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.6"]
+FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
+FastTransforms = "057dd010-8810-581a-b7be-e3fc3b93f78c"
+
 ["0.2-0"]
-LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.2-0.6"]
+LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
 SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
 
 ["0.3-0"]
@@ -32,8 +36,13 @@ Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
 ["0.5.1-0.6.0"]
 DocumenterCitations = "daee34ce-89f3-4625-b898-19384cb65244"
 
-["0.6-0"]
+["0.6"]
 SpecialPolynomials = "a25cea48-d430-424a-8ee7-0d3ad3742e9e"
 
 ["0.6.2-0"]
 GenericLinearAlgebra = "14197337-ba66-59df-a3e3-ca00e7dcff7a"
+
+["0.7-0"]
+CompactBasisFunctions = "a09551c4-f815-4143-809e-dd1986753ba7"
+QuadratureRules = "a08977f5-a20d-4b99-b11f-f5ea535e0575"
+SimpleSolvers = "36b790f5-6434-4fbe-b711-1f64a1e2f6a2"

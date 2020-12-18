@@ -16,17 +16,19 @@ DecFP = "0.4.7-0.4"
 julia = "1.1.0-1"
 
 ["0.2-0"]
-FastGaussQuadrature = "0.4"
 ForwardDiff = "0.10"
-LineSearches = "7"
 NLsolve = "4"
 OffsetArrays = ["0.10-0.11", "1"]
 ProgressMeter = "1"
 Reexport = "0.2"
-SafeTestsets = "0.0.1"
 
 ["0.2-0.3.1"]
 FastTransforms = ["0.6", "0.8"]
+
+["0.2-0.6"]
+FastGaussQuadrature = "0.4"
+LineSearches = "7"
+SafeTestsets = "0.0.1"
 
 ["0.2.0"]
 Documenter = "0.23"
@@ -78,13 +80,20 @@ HDF5 = "0.14"
 ["0.5.1-0.6.0"]
 DocumenterCitations = "0.2"
 
-["0.6-0"]
+["0.6"]
 FastTransforms = ["0.6", "0.8-0.11"]
-Polynomials = "1.1.13-1"
 SpecialPolynomials = "0.1"
+
+["0.6-0"]
+Polynomials = "1.1.13-1"
 
 ["0.6.1-0"]
 Documenter = "0.23-0.26"
 
 ["0.6.2-0"]
 GenericLinearAlgebra = "0.2"
+
+["0.7-0"]
+CompactBasisFunctions = "0.2"
+QuadratureRules = "0.1"
+SimpleSolvers = "0.1"
