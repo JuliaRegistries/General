@@ -1,0 +1,16 @@
+name: "Close stale pull requests"
+on:
+  schedule:
+    - cron: "16 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/stale@v3
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        stale-pr-message: 'This pull request has been inactive for 30 days and will be automatically closed in 3 days. Feel free to register your package or version again once you fix AutoMerge issues'
+        days-before-stale: 30
+        days-before-close: 3
