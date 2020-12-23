@@ -23,6 +23,8 @@ Optim = "0.20"
 
 ["0.5-0"]
 Distributions = "0.23-0.24"
+
+["0.5-0.5.3"]
 Optim = "0.20-0.22"
 
 ["0.5.2-0"]
@@ -32,3 +34,6 @@ ShiftedArrays = "1"
 MatrixEquations = "1"
 Polynomials = "1"
 RecipesBase = "1"
+
+["0.5.4-0"]
+Optim = ["0.20-0.22", "1.2.0-1"]
