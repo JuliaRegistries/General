@@ -47,8 +47,10 @@ ReinforcementLearningCore = "0.4.2-0.4"
 Distributions = "0.23"
 
 ["0.2-0"]
-ReinforcementLearningBase = "0.8.4-0.8"
 StructArrays = "0.4"
+
+["0.2-0.3.0"]
+ReinforcementLearningBase = "0.8.4-0.8"
 
 ["0.2.0"]
 ReinforcementLearningCore = "0.4.5-0.4"
@@ -65,4 +67,11 @@ CUDA = ["1", "2.1.0-2"]
 
 ["0.3-0"]
 CircularArrayBuffers = "0.1"
+
+["0.3.0"]
 ReinforcementLearningCore = "0.6"
+
+["0.3.1-0"]
+IntervalSets = "0.5"
+ReinforcementLearningBase = "0.9"
+ReinforcementLearningCore = "0.6.3-0.6"
