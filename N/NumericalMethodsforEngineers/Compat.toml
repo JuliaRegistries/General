@@ -17,7 +17,6 @@ GR = "0.42-0.43"
 Calculus = "0.5"
 IterativeSolvers = "0.8"
 QuadGK = "2.1.0-2"
-Reexport = "0.2"
 julia = "1"
 
 ["1.1-1.2.0"]
@@ -29,6 +28,9 @@ Compat = "2.2.0-3"
 FillArrays = "0.8-0.9"
 Symata = "0.4"
 
+["1.1-1.2.2"]
+Reexport = "0.2"
+
 ["1.2.0"]
 GR = "0.42-0.44"
 
@@ -39,8 +41,15 @@ GR = "0.42-0.47"
 ["1.2.1-1"]
 PyCall = "1.91.0-1"
 
-["1.2.2-1"]
+["1.2.2"]
 BandedMatrices = "0.14-0.15"
 DataFrames = "0.19-0.22"
 FillArrays = "0.8-0.10"
 GR = "0.42-0.53"
+
+["1.2.3-1"]
+BandedMatrices = "0.15"
+DataFrames = "0.22"
+FillArrays = "0.10"
+GR = "0.53"
+Reexport = ["0.2", "1"]
