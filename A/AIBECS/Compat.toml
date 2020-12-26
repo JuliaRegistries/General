@@ -43,7 +43,6 @@ Unitful = "0.17"
 ["0.3-0"]
 BSON = "0.2"
 DataDeps = "0.7"
-Reexport = "0.2"
 
 ["0.3-0.4"]
 FieldMetadata = "0.1"
@@ -61,6 +60,9 @@ UnitfulAstro = "0.4"
 ["0.3-0.4.9"]
 DataFrames = "0.19"
 Flatten = "0.2"
+
+["0.3-0.8.2"]
+Reexport = "0.2"
 
 ["0.3.2-0.4"]
 Distances = "0.8"
@@ -183,3 +185,6 @@ DataFrames = "0.20-0.22"
 
 ["0.8.2-0"]
 NCDatasets = "0.10-0.11"
+
+["0.8.3-0"]
+Reexport = ["0.2", "1"]
