@@ -28,7 +28,6 @@ Compat = "2.2.0-3"
 ["1.0.2-1"]
 LaTeXStrings = "1"
 PGFPlotsX = "1.1.0-1"
-Reexport = "0.2"
 
 ["1.0.2-1.0.3"]
 DataFrames = "0.20"
@@ -36,18 +35,28 @@ DataFrames = "0.20"
 ["1.0.2-1.0.7"]
 DataFramesMeta = "0.5"
 
+["1.0.2-1.0.8"]
+Reexport = "0.2"
+
 ["1.0.4-1.0.5"]
 CSV = "0.5-0.7"
 
 ["1.0.4-1.0.6"]
 DataFrames = "0.20-0.21"
 
-["1.0.6-1"]
+["1.0.6-1.0.8"]
 CSV = "0.5-0.8"
 Interpolations = "0.12-0.13"
 
-["1.0.7-1"]
+["1.0.7-1.0.8"]
 DataFrames = "0.20-0.22"
 
-["1.0.8-1"]
+["1.0.8"]
 DataFramesMeta = "0.5-0.6"
+
+["1.0.9-1"]
+CSV = "0.8"
+DataFrames = "0.22"
+DataFramesMeta = "0.6"
+Interpolations = "0.13"
+Reexport = ["0.2", "1"]
