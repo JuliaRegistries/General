@@ -19,9 +19,6 @@ Compat = "2.2.0-2"
 DataFrames = "0.19"
 GR = "0.42"
 
-["1.0.1-1"]
-Reexport = "0.2"
-
 ["1.0.1-1.0.2"]
 CustomUnitRanges = "0.2"
 OffsetArrays = "0.11"
@@ -31,6 +28,9 @@ FinEtools = "3-4"
 
 ["1.0.1-1.0.5"]
 Interpolations = "0.12"
+
+["1.0.1-1.0.8"]
+Reexport = "0.2"
 
 ["1.0.2"]
 GR = "0.44"
@@ -47,6 +47,8 @@ GR = "0.47"
 
 ["1.0.3-1"]
 CustomUnitRanges = "1"
+
+["1.0.3-1.0.8"]
 OffsetArrays = ["0.11", "1"]
 
 ["1.0.4"]
@@ -58,9 +60,16 @@ DataFrames = "0.20-0.21"
 ["1.0.5"]
 GR = "0.47-0.52"
 
-["1.0.6-1"]
+["1.0.6-1.0.8"]
 GR = "0.47-0.53"
 Interpolations = "0.12-0.13"
 
-["1.0.7-1"]
+["1.0.7-1.0.8"]
 DataFrames = "0.20-0.22"
+
+["1.0.9-1"]
+DataFrames = "0.22"
+GR = "0.53"
+Interpolations = "0.13"
+OffsetArrays = "1"
+Reexport = ["0.2", "1"]
