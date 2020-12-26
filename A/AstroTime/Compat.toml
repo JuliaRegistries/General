@@ -13,14 +13,22 @@ LeapSeconds = "0.2"
 ["0.2-0"]
 MacroTools = "0.5"
 MuladdMacro = "0.2"
-Reexport = "0.2"
 julia = "1"
+
+["0.2-0.6.1"]
+Reexport = "0.2"
 
 ["0.3"]
 EarthOrientation = "0.5"
 LeapSeconds = "1"
 
 ["0.4-0"]
-EarthOrientation = "0.6"
 ItemGraphs = "0.4"
 LeapSeconds = "1.1.0-1"
+
+["0.4-0.6.1"]
+EarthOrientation = "0.6"
+
+["0.6.2-0"]
+EarthOrientation = "0.6-0.7"
+Reexport = ["0.2", "1"]
