@@ -152,13 +152,11 @@ ApproxManifoldProducts = "0.1"
 Combinatorics = ["0.7-0.9", "1"]
 FileIO = "1"
 ImageCore = "0.7-0.9"
-JLD2 = "0.1-0.2"
 JSON = "0.18-0.23"
 JSON2 = "0.3-0.4"
 KernelDensityEstimate = "0.5"
 NLsolve = "3-4"
 ProgressMeter = ["0.9", "1"]
-Reexport = "0.2"
 TransformUtils = "0.2.2-0.2"
 
 ["0.4.3-0.4"]
@@ -188,6 +186,10 @@ DataStructures = "0.15-0.20"
 Distributions = "0.18-0.23"
 FFTW = ["0.2.4-0.3", "1"]
 YAML = "0.3"
+
+["0.4.3-0.7.0"]
+JLD2 = "0.1-0.2"
+Reexport = "0.2"
 
 ["0.4.4-0"]
 ImageMagick = ["0.7", "1"]
@@ -256,6 +258,13 @@ RoME = "0.8-0.10"
 ["0.7-0"]
 DistributedFactorGraphs = "0.9-0.11"
 DocStringExtensions = "0.7-0.8"
-IncrementalInference = "0.16-0.18"
 Optim = "1"
 RoME = "0.9-0.11"
+
+["0.7.0"]
+IncrementalInference = "0.16-0.18"
+
+["0.7.1-0"]
+IncrementalInference = "0.16-0.19"
+JLD2 = "0.1-0.3"
+Reexport = ["0.2", "1"]
