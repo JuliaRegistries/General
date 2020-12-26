@@ -32,13 +32,15 @@ RecursiveArrayTools = "1"
 DiffEqBase = "6.5.0-6"
 DiffEqCallbacks = "2.9.0-2"
 ForwardDiff = "0.10"
-Reexport = "0.2"
 
 ["3.3-3.4"]
 RecipesBase = "0.7"
 
 ["3.3-3.6"]
 StaticArrays = "0.10-0.12"
+
+["3.3-3.7"]
+Reexport = "0.2"
 
 ["3.4-3"]
 RecursiveArrayTools = "1-2"
@@ -51,3 +53,6 @@ RecipesBase = ["0.7-0.8", "1"]
 
 ["3.7-3"]
 StaticArrays = ["0.10-0.12", "1"]
+
+["3.8-3"]
+Reexport = ["0.2", "1"]
