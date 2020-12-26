@@ -52,27 +52,27 @@ Interpolations = "0.12"
 ["1.1.1-1.2.3"]
 CategoricalArrays = "0.7"
 
-["1.2-1"]
-QuadGK = "2.3.0-2"
-
 ["1.2-1.2.1"]
 GR = "0.44"
 
 ["1.2-1.2.3"]
 DataFrames = "0.20"
 
+["1.2-1.2.7"]
+QuadGK = "2.3.0-2"
+
 ["1.2.2"]
 GR = "0.46-0.47"
 GraphRecipes = "0.4-0.5"
 Plots = "0.27-0.29"
 
-["1.2.2-1"]
+["1.2.2-1.2.7"]
 OffsetArrays = ["0.11", "1"]
 
 ["1.2.3"]
 GR = "0.46-0.48"
 
-["1.2.3-1"]
+["1.2.3-1.2.7"]
 Plots = ["0.27-0.29", "1"]
 
 ["1.2.4"]
@@ -85,8 +85,17 @@ DataFrames = "0.20-0.21"
 ["1.2.5"]
 GR = "0.46-0.52"
 
-["1.2.6-1"]
+["1.2.6-1.2.7"]
 CategoricalArrays = "0.7-0.9"
 DataFrames = "0.20-0.22"
 GR = "0.46-0.53"
 Interpolations = "0.12-0.13"
+
+["1.2.8-1"]
+CategoricalArrays = "0.9"
+DataFrames = "0.22"
+GR = "0.53"
+Interpolations = "0.13"
+OffsetArrays = "1"
+Plots = "1"
+QuadGK = "2.4.0-2"
