@@ -77,9 +77,11 @@ LogDensityProblems = "0.9"
 DynamicHMC = "2.1.0-2"
 MCMCDiagnostics = "0.3"
 Parameters = "0.12"
-Reexport = "0.2"
 TransformVariables = "0.3"
 julia = "1"
+
+["1.0.1-2.1.1"]
+Reexport = "0.2"
 
 ["1.1-1"]
 StatsFuns = ["0.7", "0.9"]
@@ -131,3 +133,6 @@ Distributions = "0.21-0.24"
 
 ["2.1.1-2"]
 DataFrames = "0.19-0.22"
+
+["2.1.2-2"]
+Reexport = ["0.2", "1"]
