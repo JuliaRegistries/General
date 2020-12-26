@@ -35,5 +35,8 @@ HistogramThresholding = "0.1-0.2"
 ImageContrastAdjustment = "0.1-0.3"
 Polynomials = "1"
 
-["0.2.3-0"]
+["0.2.3"]
 Reexport = "0.2"
+
+["0.2.4-0"]
+Reexport = ["0.2", "1"]
