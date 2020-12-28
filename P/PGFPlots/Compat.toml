@@ -37,12 +37,18 @@ ColorBrewer = "0.4"
 ColorSchemes = "3.9.0-3"
 Colors = "0.12"
 Contour = "0.5"
-DataFrames = "0.21"
 Discretizers = "3.2.0-3"
-Images = "0.22"
-IndirectArrays = "0.5"
 StatsBase = "0.33"
 TikzPictures = "3.1.0-3"
 
+["3.3-3.3.3"]
+DataFrames = "0.21"
+Images = "0.22"
+IndirectArrays = "0.5"
+
 ["3.3.2-3"]
 Requires = "1.0.1-1"
+
+["3.3.4-3"]
+DataFrames = "0.21-0.22"
+Images = "0.22-0.23"
