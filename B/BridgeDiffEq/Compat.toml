@@ -1,6 +1,13 @@
 [0]
-Bridge = "0.10"
 DiffEqBase = "6"
+julia = "1"
+
+["0-0.1.0"]
+Bridge = "0.10"
 Reexport = "0.2"
 StaticArrays = "0.10-0.12"
-julia = "1"
+
+["0.1.1-0"]
+Bridge = "0.10-0.11"
+Reexport = ["0.2", "1"]
+StaticArrays = ["0.10-0.12", "1"]
