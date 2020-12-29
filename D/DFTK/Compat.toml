@@ -1,11 +1,8 @@
 [0]
-AbstractFFTs = "0.5"
 Conda = "1"
 FFTW = "1"
 ForwardDiff = "0.10"
-GenericLinearAlgebra = "0.2"
 IterTools = "1"
-IterativeSolvers = "0.8"
 JSON = "0.21"
 LineSearches = "7"
 NLsolve = "4"
@@ -44,6 +41,11 @@ StaticArrays = "0.12"
 
 ["0-0.2.2"]
 LinearMaps = "2"
+
+["0-0.2.3"]
+AbstractFFTs = "0.5"
+GenericLinearAlgebra = "0.2"
+IterativeSolvers = "0.8"
 
 ["0.1.1"]
 Libxc = "0.1-0.2"
@@ -90,10 +92,16 @@ SpecialFunctions = ["0.10", "1"]
 Optim = "1"
 
 ["0.2.2-0"]
-NCDatasets = "0.10-0.11"
 StaticArrays = ["0.12", "1"]
+
+["0.2.2-0.2.3"]
+NCDatasets = "0.10-0.11"
 
 ["0.2.3-0"]
 LinearMaps = "2-3"
 Unitful = "1"
 UnitfulAtomic = "1"
+
+["0.2.4-0"]
+AbstractFFTs = ["0.5", "1"]
+IterativeSolvers = "0.8-0.9"
