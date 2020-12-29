@@ -1,17 +1,28 @@
 [0]
 BioStructures = "0.10-0.11"
 Colors = "0.10-0.12"
-Distributions = "0.23"
 ProgressMeter = "1"
-Reexport = "0.2"
 Requires = "1"
-StaticArrays = "0.12"
 
 ["0-0.1"]
 KernelDensity = "0.5"
 julia = "1"
 
+["0-0.2.0"]
+Distributions = "0.23"
+Reexport = "0.2"
+StaticArrays = "0.12"
+
 ["0.2-0"]
-CUDA = "1"
 KernelDensity = "0.5-0.6"
+
+["0.2.0"]
+CUDA = "1"
 julia = "1.3.0-1"
+
+["0.2.1-0"]
+CUDA = "2"
+Distributions = "0.23-0.24"
+Reexport = ["0.2", "1"]
+StaticArrays = ["0.12", "1"]
+julia = "1.5.0-1"
