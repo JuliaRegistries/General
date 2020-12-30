@@ -23,14 +23,17 @@ ForwardDiff = "0.10"
 ["4.2"]
 DiffEqDiffTools = ["0.9-0.14", "1"]
 
-["4.2-4"]
-Reexport = "0.2"
-
 ["4.2-4.3"]
 Distances = "0.7-0.8"
+
+["4.2-4.5.0"]
+Reexport = "0.2"
 
 ["4.4"]
 Distances = "0.7-0.9"
 
 ["4.5-4"]
 Distances = "0.7-0.10"
+
+["4.5.1-4"]
+Reexport = ["0.2", "1"]
