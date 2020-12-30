@@ -17,7 +17,7 @@ SpatialEcology = "0.0.0 - 0.7"
 ["0.5-0"]
 julia = "1.1.0-1"
 
-["0.6-0"]
+["0.6"]
 Reexport = "0.2"
 
 ["0.6-0.6.1"]
@@ -30,15 +30,25 @@ StatsBase = "0.32"
 ["0.6-0.6.4"]
 MultivariateStats = "0.7"
 
-["0.6.2-0"]
+["0.6.2-0.6"]
 SpatialEcology = "0.9"
 
 ["0.6.4"]
 DataFrames = "0.19-0.21"
 
-["0.6.4-0"]
+["0.6.4-0.6"]
 StatsBase = "0.32-0.33"
 
 ["0.6.5-0"]
-DataFrames = ["0.19-0.22"]
 MultivariateStats = "0.7-0.8"
+
+["0.6.5-0.6"]
+DataFrames = ["0.19-0.22"]
+
+["0.7-0"]
+AxisIndices = "0.7"
+Dictionaries = "0.3"
+Distances = "0.10"
+EcoBase = "0.1"
+NamedDims = "0.2"
+Tables = "1.2.1-1"
