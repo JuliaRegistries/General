@@ -90,7 +90,6 @@ ArrayInterface = "1.1.0-1"
 
 ["5.15-5"]
 MacroTools = "0.5"
-Reexport = "0.2"
 
 ["5.15-5.18"]
 SparseDiffTools = "0.9"
@@ -112,6 +111,9 @@ GenericSVD = "0.2"
 
 ["5.15-5.42.3"]
 DataStructures = "0.17"
+
+["5.15-5.46"]
+Reexport = "0.2"
 
 ["5.15.0"]
 Parameters = "0.11"
@@ -227,6 +229,9 @@ DataStructures = "0.18"
 
 ["5.46-5"]
 StaticArrays = ["0.11-0.12", "1"]
+
+["5.47-5"]
+Reexport = ["0.2", "1"]
 
 ["5.5-5.6"]
 DiffEqBase = "5.6.3-5.19"
