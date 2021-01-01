@@ -19,14 +19,14 @@ ChainRulesCore = "0.2"
 ["0.2-0.2.1"]
 ChainRulesCore = "0.3"
 
-["0.2.2-0"]
-Reexport = "0.2"
-
 ["0.2.2-0.2"]
 ChainRulesCore = "0.4"
 
 ["0.2.2-0.2.3"]
 Requires = "0.5.2-0.5"
+
+["0.2.2-0.7.41"]
+Reexport = "0.2"
 
 ["0.2.4-0"]
 Requires = ["0.5.2-0.5", "1"]
@@ -72,3 +72,6 @@ ChainRulesTestUtils = "0.5.1-0.5"
 
 ["0.7.38-0.7.40"]
 ChainRulesTestUtils = "0.5.5-0.5"
+
+["0.7.42-0"]
+Reexport = ["0.2", "1"]
