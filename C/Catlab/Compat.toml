@@ -24,6 +24,10 @@ Reexport = "0.0.0 - 0.2"
 Tables = "1"
 TypedTables = "1"
 
+["0.10.1-0"]
+Reexport = ["0.2", "1"]
+StaticArrays = ["0.12", "1"]
+
 ["0.2.3-0"]
 julia = "1"
 
@@ -98,6 +102,8 @@ JSON = "0.20-0.21"
 LightXML = "0.8-0.9"
 MLStyle = "0.4"
 Parameters = "0.11-0.12"
+
+["0.8.1-0.10.0"]
 Reexport = "0.2"
 StaticArrays = "0.12"
 
