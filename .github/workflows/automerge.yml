@@ -2,7 +2,7 @@ name: AutoMerge
 
 on:
   schedule:
-    - cron: '0,20,40 * * * *'
+    - cron:  '*/20 * * * *'
   pull_request:
   workflow_dispatch:
 
