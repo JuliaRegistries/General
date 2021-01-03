@@ -18,12 +18,17 @@ UnPack = "1"
 
 ["0.2-0"]
 BenchmarkTools = "0.5"
-OrdinaryDiffEq = "5.46.0-5"
 PkgBenchmark = "0.2.10-0.2"
 julia = "1.4.0-1"
+
+["0.2-0.2.1"]
+OrdinaryDiffEq = "5.46.0-5"
 
 ["0.2.0"]
 Reexport = "0.2"
 
 ["0.2.1-0"]
 Reexport = ["0.2", "1"]
+
+["0.2.2-0"]
+OrdinaryDiffEq = "5.47.0-5"
