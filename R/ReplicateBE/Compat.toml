@@ -51,20 +51,27 @@ PDMats = "0.9"
 ["1.0.1-1.0.10"]
 CategoricalArrays = "0.7"
 
-["1.0.11-1"]
+["1.0.11"]
 CategoricalArrays = "0.7-0.8"
 DataFrames = "0.19-0.21"
 Optim = ["0.19-0.22", "1"]
 
+["1.0.12-1"]
+CategoricalArrays = "0.7-0.9"
+DataFrames = "0.20-0.22"
+Distributions = "0.20-0.24"
+Optim = ["0.22", "1"]
+StaticArrays = ["0.11-0.12", "1"]
+
 ["1.0.7"]
 Optim = "0.19-0.20"
 
-["1.0.7-1"]
-Distributions = "0.20-0.23"
-StaticArrays = "0.11-0.12"
-
 ["1.0.7-1.0.10"]
 DataFrames = "0.19-0.20"
+
+["1.0.7-1.0.11"]
+Distributions = "0.20-0.23"
+StaticArrays = "0.11-0.12"
 
 ["1.0.8-1"]
 StatsBase = "0.22-0.33"
