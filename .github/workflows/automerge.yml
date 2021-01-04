@@ -69,11 +69,10 @@ jobs:
       # TODO: this step should run use the TagBot PAT to trigger a new cron
       # job via the GitHub API,  but only if it has been >= 15 minutes since
       # the last cron job
+      - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819 # v1.0.0
       - run: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
       - run: julia --project=.ci/ -e 'using Pkg; Pkg.precompile()'
-      - run: julia --project=.ci/ -e 'println(pwd())'
-      - run: julia --project=.ci/ -e 'println(readdir())'
       - run: julia --project=.ci/ .ci/stopwatch.jl
         env:
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # AUTOMERGE_TAGBOT_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
+          AUTOMERGE_TAGBOT_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
