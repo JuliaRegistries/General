@@ -17,9 +17,11 @@ DiffEqNoiseProcess = "5.1.0-5"
 DiffEqSensitivity = "6.5.0-6"
 Flux = "0.10.1-0.11"
 ForwardDiff = "0.10"
-Reexport = "0.2"
 StochasticDiffEq = "6.13.0-6"
 Tracker = "0.2"
+
+["2-3.2"]
+Reexport = "0.2"
 
 ["2.0"]
 Adapt = "1-2"
@@ -66,7 +68,13 @@ Cuba = "2.1.0-2"
 Cubature = "1.5.1-1"
 Quadrature = "1.5.0-1"
 QuasiMonteCarlo = "0.2.1-0.2"
+
+["3-3.2"]
 RuntimeGeneratedFunctions = "0.4"
 
 ["3.2-3"]
 Zygote = "0.5-0.6"
+
+["3.3-3"]
+Reexport = ["0.2", "1"]
+RuntimeGeneratedFunctions = "0.4-0.5"
