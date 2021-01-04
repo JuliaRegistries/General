@@ -62,3 +62,11 @@ jobs:
             additional_check_runs = String["CI (1, ubuntu-latest, x64)",],
           )
         shell: julia --color=yes --project=.ci/ {0}
+  AutoMerge-stopwatch:
+    if: github.event_name == 'pull_request'
+    environment: stopwatch
+    runs-on: ubuntu-latest
+    needs: AutoMerge
+    steps:
+      # TODO: this step should run the "cron" code path
+      - run: echo "Hello world! This job runs 20 minutes after the first job."
