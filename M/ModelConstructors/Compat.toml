@@ -8,9 +8,11 @@ Nullables = "0.0.0 - 0.0.8"
 SpecialFunctions = "0.0.0 - 0.8"
 
 ["0.1.12-0"]
+Nullables = ["0.0.8", "1"]
+
+["0.1.12-0.2.0"]
 DataFrames = "0.11.7-0.21"
 Distributions = "0.16-0.23"
-Nullables = ["0.0.8", "1"]
 SpecialFunctions = "0.7-0.10"
 
 ["0.1.5"]
@@ -34,3 +36,8 @@ DataFrames = ["0.11.7-0.20", "21"]
 ["0.2-0"]
 UnPack = "1.0.2-1"
 julia = "1"
+
+["0.2.1-0"]
+DataFrames = "0.11.7-0.22"
+Distributions = "0.16-0.24"
+SpecialFunctions = ["0.7-0.10", "1"]
