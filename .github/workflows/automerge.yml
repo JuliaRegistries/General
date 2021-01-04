@@ -71,6 +71,8 @@ jobs:
       # the last cron job
       - run: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
       - run: julia --project=.ci/ -e 'using Pkg; Pkg.precompile()'
+      - run: julia --project=.ci/ -e 'println(pwd())'
+      - run: julia --project=.ci/ -e 'println(readdir())
       - run: julia --project=.ci/ .ci/stopwatch.jl
         env:
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
