@@ -11,8 +11,11 @@ PyCall = "1"
 SpecialFunctions = ["0.7-0.10", "1"]
 julia = "1"
 
-["0.2-0"]
+["0.2-0.3.1"]
 Distributions = "0.24"
 
 ["0.3.1-0"]
 CUDA = "2"
+
+["0.3.2-0"]
+Distributions = "0.21-0.24"
