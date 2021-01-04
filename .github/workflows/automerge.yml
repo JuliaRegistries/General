@@ -45,7 +45,7 @@ jobs:
         run: |
           using RegistryCI
           using Dates
-          
+
           RegistryCI.AutoMerge.run(
             merge_new_packages = ENV["MERGE_NEW_PACKAGES"] == "true",
             merge_new_versions = ENV["MERGE_NEW_VERSIONS"] == "true",
@@ -63,10 +63,15 @@ jobs:
           )
         shell: julia --color=yes --project=.ci/ {0}
   AutoMerge-stopwatch:
-    if: github.event_name == 'pull_request'
     environment: stopwatch
     runs-on: ubuntu-latest
-    # needs: AutoMerge # TODO: uncomment this line
     steps:
-      # TODO: this step should run the "cron" code path
-      - run: echo "Hello world! This job runs 20 minutes after the first job."
+      # TODO: this step should run use the TagBot PAT to trigger a new cron
+      # job via the GitHub API,  but only if it has been >= 15 minutes since
+      # the last cron job
+      - run: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
+      - run: julia --project=.ci/ -e 'using Pkg; Pkg.precompile()'
+      - run: julia --project=.ci/ .ci/stopwatch.jl
+        env:
+          AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # AUTOMERGE_TAGBOT_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
