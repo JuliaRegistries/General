@@ -45,8 +45,10 @@ SnoopCompileBot = "1.7.2-1.7"
 SnoopCompileCore = "1.7.2-1.7"
 
 [2]
-Cthulhu = "1.2.0-1"
 OrderedCollections = "1"
+
+["2-2.1"]
+Cthulhu = "1.2.0-1"
 
 ["2.0"]
 SnoopCompileCore = "2.0"
@@ -57,5 +59,12 @@ SnoopCompileCore = "2.1"
 ["2.1.1"]
 SnoopCompileCore = "2.1.1-2.1"
 
-["2.1.2-2"]
+["2.1.2-2.1"]
 SnoopCompileCore = "2.1.2-2.1"
+
+["2.2-2"]
+Cthulhu = "1.5.0-1"
+FlameGraphs = "0.2"
+Requires = "1"
+SnoopCompileCore = "2.2"
+YAML = "0.4"
