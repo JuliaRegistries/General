@@ -7,7 +7,6 @@ Parameters = "0.12"
 ProgressMeter = "1"
 PyCall = "1.90.0-1"
 PyCallUtils = "0.2"
-Reexport = "0.2"
 StandardMarketData = "0.1"
 julia = "1"
 
@@ -25,6 +24,9 @@ MacroTools = "0.5"
 ["0-0.1.5"]
 DataStructures = "0.17"
 
+["0-0.1.7"]
+Reexport = "0.2"
+
 ["0.1.1-0"]
 StatsBase = "0.32-0.33"
 
@@ -36,3 +38,6 @@ MLSuiteBase = "0.1-0.2"
 
 ["0.1.6-0"]
 DataStructures = "0.17-0.18"
+
+["0.1.8-0"]
+Reexport = ["0.2", "1"]
