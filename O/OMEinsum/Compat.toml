@@ -19,6 +19,12 @@ Combinatorics = "1"
 MacroTools = "0.5"
 PkgBenchmark = "0.2"
 Requires = ["0.5", "1"]
-TensorOperations = "2.1.0-2"
 TupleTools = "1.2.0-1"
 ZygoteRules = "0.2"
+
+["0.3.1-0.3.2"]
+TensorOperations = "2.1.0-2"
+
+["0.3.3-0"]
+CUDA = "2"
+TensorOperations = "3"
