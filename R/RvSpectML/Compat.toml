@@ -2,7 +2,6 @@
 DSP = "0.6"
 FITSIO = "0.16"
 FileIO = "1.4.0-1"
-LsqFit = "0.11"
 Optim = ["0.22", "1"]
 PDMats = "0.10"
 Polynomials = "1.1.0-1"
@@ -23,6 +22,9 @@ JLD2 = "0.2"
 MultivariateStats = "0.7"
 SpecialFunctions = "0.10"
 StaticArrays = "0.12"
+
+["0-0.1.5"]
+LsqFit = "0.11"
 
 ["0.1-0"]
 NaNMath = "0.3"
@@ -47,3 +49,6 @@ RvSpectMLBase = "0.1.6-0.1"
 Scalpels = "0.1"
 SpecialFunctions = ["0.10", "1"]
 StaticArrays = ["0.12", "1"]
+
+["0.1.6-0"]
+LsqFit = "0.11-0.12"
