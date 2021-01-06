@@ -78,6 +78,14 @@ function trigger_new_workflow_dispatch(registry::GitHub.Repo;
     return nothing
 end
 
+function _canonicalize(p::Dates.CompoundPeriod)
+    return Dates.canonicalize(p)
+end
+
+function _canonicalize(p::Dates.Period)
+    return _canonicalize(Dates.CompoundPeriod(p))
+end
+
 function trigger_new_automerge_if_necessary()
     api = GitHub.DEFAULT_API
     auth = GitHub.authenticate(ENV["AUTOMERGE_TAGBOT_TOKEN"])
@@ -91,7 +99,7 @@ function trigger_new_automerge_if_necessary()
         api,
         auth,
     )
-    @info "Time since last AutoMerge" t Dates.canonicalize(t)
+    @info "Time since last AutoMerge" t _canonicalize(t)
     if t > Dates.Minute(15)
         @info "Attempting to trigger a new AutoMerge workflow dispatch job..."
         trigger_new_workflow_dispatch(
