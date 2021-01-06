@@ -35,7 +35,13 @@ SpecialFunctions = "0.7-0.10"
 ["0.5"]
 JLD2 = "0.1-0.2"
 
-["0.6-0"]
+["0.6"]
 KitBase = "0.1"
-KitML = "0.1"
 Reexport = "0.2"
+
+["0.6-0"]
+KitML = "0.1"
+
+["0.7-0"]
+KitBase = "0.3"
+Reexport = ["0.2", "1"]
