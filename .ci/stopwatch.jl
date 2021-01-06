@@ -91,8 +91,7 @@ function trigger_new_automerge_if_necessary()
         api,
         auth,
     )
-    @info "Time since last AutoMerge" t
-    @info "Time since last AutoMerge (rounded down)" floor(t, Dates.Minute)
+    @info "Time since last AutoMerge" t Dates.canonicalize(t)
     if t > Dates.Minute(15)
         @info "Attempting to trigger a new AutoMerge workflow dispatch job..."
         trigger_new_workflow_dispatch(
