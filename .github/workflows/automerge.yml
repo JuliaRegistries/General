@@ -2,7 +2,12 @@ name: AutoMerge
 
 on:
   schedule:
-    - cron:  '0 */2 * * *'
+    # The cron job is just a fallback.
+    # The "stopwatch" functionality that we have implemented should
+    # ensure that an AutoMerge merge job is run at least every 15 minutes.
+    # Therefore, it's sufficient for us to run the fallback job infrequently.
+    # We will choose to run the fallback job every 4 hours.
+    - cron:  '0 */4 * * *'
   pull_request:
   workflow_dispatch:
 
