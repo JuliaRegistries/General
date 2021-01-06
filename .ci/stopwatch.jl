@@ -100,7 +100,7 @@ function trigger_new_automerge_if_necessary()
         auth,
     )
     @info "Time since last AutoMerge" t _canonicalize(t)
-    if t > Dates.Minute(15)
+    if t > Dates.Minute(8)
         @info "Attempting to trigger a new AutoMerge workflow dispatch job..."
         trigger_new_workflow_dispatch(
             registry;
