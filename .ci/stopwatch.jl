@@ -1,5 +1,6 @@
 import Dates
 import GitHub
+import HTTP
 import TimeZones
 
 function _most_recent(registry::GitHub.Repo;
@@ -29,6 +30,7 @@ function _most_recent(registry::GitHub.Repo;
             end
         end
     end
+    throw(ErrorException("I could not figure out when the most recent AutoMerge cron job was"))
 end
 
 function most_recent_automerge(registry::GitHub.Repo;
@@ -56,24 +58,52 @@ function time_since_last_automerge(registry::GitHub.Repo;
                                    auth::GitHub.Authorization)
     last_automerge = most_recent_automerge(registry; api = api, auth = auth)
     now = TimeZones.now(TimeZones.localzone())
-    now - last_automerge
-    return max(now - last_automerge, Dates.Millisecond(0))
+    return now - last_automerge
 end
 
-function print_time_since_last_automerge()
+function trigger_new_workflow_dispatch(registry::GitHub.Repo;
+                                       api::GitHub.GitHubAPI,
+                                       auth::GitHub.Authorization,
+                                       workflow_file_name::AbstractString)
+    endpoint = "/repos/$(registry.full_name)/actions/workflows/$(workflow_file_name)/dispatches"
+    params = Dict(
+        "ref" => "master",
+    )
+    GitHub.gh_post(
+        api,
+        endpoint;
+        auth = auth,
+        params = params,
+    )
+    return nothing
+end
+
+function trigger_new_automerge_if_necessary()
     api = GitHub.DEFAULT_API
-    # auth = GitHub.AnonymousAuth()
     auth = GitHub.authenticate(ENV["AUTOMERGE_TAGBOT_TOKEN"])
     registry = GitHub.repo(
         api,
         "JuliaRegistries/General";
         auth = auth,
     )
-    t = time_since_last_automerge(registry; api, auth)
+    t = time_since_last_automerge(
+        registry;
+        api,
+        auth,
+    )
     @info "Time since last AutoMerge" t
     @info "Time since last AutoMerge (rounded down)" floor(t, Dates.Minute)
-    @info "" t >= Dates.Minute(15)
+    if t > Dates.Minute(15)
+        @info "Attempting to trigger a new AutoMerge workflow dispatch job..."
+        trigger_new_workflow_dispatch(
+            registry;
+            api,
+            auth,
+            workflow_file_name = "automerge.yml",
+        )
+        @info "Triggered a new AutoMerge workflow dispatch job"
+    end
     return nothing
 end
 
-print_time_since_last_automerge()
+trigger_new_automerge_if_necessary()
