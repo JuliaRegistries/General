@@ -5,18 +5,15 @@ Compat = "3.12.0-3"
 Compose = "0.8.2-0.8"
 DataStructures = "0.17.19-0.17"
 Documenter = "0.25"
-EllipsisNotation = "0.4"
 FFTW = "1.2.2-1"
 GraphIO = "0.5"
 GraphPlot = "0.4.2-0.4"
 HDF5 = "0.13.2-0.13"
-IJulia = "1.21.2-1"
 JSON = "0.21"
 LightGraphs = "1.3.3-1"
 MetaGraphs = "0.6.5-0.6"
 ParserCombinator = "2"
 PyCall = "1.91.4-1"
-QuantumInformation = "0.4.6-0.4"
 TestSetExtensions = "2"
 TikzGraphs = "1.1.0-1"
 TikzPictures = "3.1.0-3"
@@ -25,14 +22,27 @@ TikzPictures = "3.1.0-3"
 TensorOperations = "2.2.0-2"
 julia = "1.3.1-1"
 
+["0-0.1.4"]
+EllipsisNotation = "0.4"
+IJulia = "1.21.2-1"
+QuantumInformation = "0.4.6-0.4"
+
 ["0.1.2-0"]
-JLD = "0.10"
 MPI = "0.15.1-0.15"
 Plots = "1.6.4-1"
 RandomMatrices = "0.5"
 TensorOperations = "3"
+
+["0.1.2-0.1.4"]
+JLD = "0.10"
 julia = "1.4.0-1"
 
 ["0.1.3-0"]
 Colors = "0.12.4-0.12"
 StatsBase = "0.33.2-0.33"
+
+["0.1.5-0"]
+CUDA = "2.3.0-2"
+EllipsisNotation = "1"
+IJulia = "1.23.1-1"
+julia = "1.5.0-1"
