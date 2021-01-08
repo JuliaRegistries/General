@@ -142,8 +142,10 @@ SymbolicUtils = "0.3.3-0.3"
 
 [4]
 DiffEqBase = "6.48.1-6"
-RuntimeGeneratedFunctions = "0.4"
 SymbolicUtils = "0.6"
+
+["4-4.4"]
+RuntimeGeneratedFunctions = "0.4"
 
 ["4.0.7-4"]
 SpecialFunctions = ["0.7-0.10", "1"]
@@ -151,3 +153,6 @@ StaticArrays = ["0.10-0.12", "1"]
 
 ["4.3-4"]
 Distributions = "0.24"
+
+["4.5-4"]
+RuntimeGeneratedFunctions = "0.4-0.5"
