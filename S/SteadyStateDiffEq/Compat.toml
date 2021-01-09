@@ -22,4 +22,9 @@ NLsolve = "0.0.0 - 4"
 DiffEqBase = "6"
 DiffEqCallbacks = "2.9.0-2"
 NLsolve = "4.2.0-4"
+
+["1.5.1-1.5"]
 Reexport = "0.2"
+
+["1.6-1"]
+Reexport = ["0.2", "1"]
