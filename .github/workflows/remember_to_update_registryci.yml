@@ -11,7 +11,8 @@ jobs:
     strategy:
       matrix:
         version:
-          - '1'
+          - '^1.6.0-0' # TODO: remove this line once 1.6 is released
+          # - '1'      # TODO: uncomment this line once 1.6 is released
         os:
           - ubuntu-latest
         arch:
