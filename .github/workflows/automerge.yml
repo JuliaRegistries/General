@@ -72,10 +72,11 @@ jobs:
     environment: stopwatch
     runs-on: ubuntu-latest
     steps:
-      # TODO: this step should run use the TagBot PAT to trigger a new cron
-      # job via the GitHub API,  but only if it has been >= 15 minutes since
-      # the last cron job
       - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819 # v1.0.0
+      - uses: julia-actions/setup-julia@d3ce119a16594ea9e5d7974813970c73b6ab9e94 # v1.4.1
+        with:
+          version: '^1.6.0-0' # TODO: remove this line once 1.6 is released
+          # version: '1.6' # TODO: uncomment this line once 1.6 is released
       - run: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
       - run: julia --project=.ci/ -e 'using Pkg; Pkg.precompile()'
       - run: julia --project=.ci/ .ci/stopwatch.jl
