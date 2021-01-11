@@ -13,7 +13,8 @@ on:
 
 jobs:
   AutoMerge:
-    if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
+    # if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
+    if: github.event_name != 'pull_request'
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
