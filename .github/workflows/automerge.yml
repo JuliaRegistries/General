@@ -70,7 +70,7 @@ jobs:
           )
         shell: julia --color=yes --project=.ci/ {0}
   AutoMerge-stopwatch:
-    if: github.repository == github.event.pull_request.head.repo.full_name
+    if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
     environment: stopwatch
     runs-on: ubuntu-latest
     steps:
