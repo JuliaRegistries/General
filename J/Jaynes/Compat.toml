@@ -1,5 +1,4 @@
 [0]
-Distributions = "0.23"
 DistributionsAD = "0.6"
 MacroTools = "0.5"
 julia = "1"
@@ -7,6 +6,9 @@ julia = "1"
 ["0-0.1.0"]
 IRTools = "0.3"
 Zygote = "0.4"
+
+["0-0.1.32"]
+Distributions = "0.23"
 
 ["0-0.1.8"]
 Mjolnir = "0.1"
@@ -25,10 +27,12 @@ StatsPlots = "0.14"
 
 ["0.1.20-0"]
 IRTools = "0.4"
-Zygote = "0.5"
 
 ["0.1.20-0.1.24"]
 Flux = "0.11"
+
+["0.1.20-0.1.32"]
+Zygote = "0.5"
 
 ["0.1.22-0.1.24"]
 Distances = "0.9"
@@ -37,15 +41,24 @@ Distances = "0.9"
 ForwardDiff = "0.10"
 
 ["0.1.24-0"]
+UnicodePlots = "1.2.0-1"
+
+["0.1.24-0.1.32"]
 Gen = "0.3.5-0.3"
 StaticArrays = "0.12"
-UnicodePlots = "1.2.0-1"
 
 ["0.1.25-0"]
 Mjolnir = "0.2"
 
-["0.1.3-0"]
+["0.1.3-0.1.32"]
 Reexport = "0.2"
+
+["0.1.33-0"]
+Distributions = "0.24"
+Gen = "0.4"
+Reexport = ["0.2", "1"]
+StaticArrays = "1"
+Zygote = "0.6"
 
 ["0.1.9-0.1.13"]
 AbstractMCMC = "2"
