@@ -1,4 +1,4 @@
-[0]
+[0-1]
 BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
@@ -8,8 +8,13 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
-["0.2-0"]
+["0.2-1"]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 
-["0.5-0"]
+["0.5-1"]
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
+
+[1]
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
+SparsityDetection = "684fba80-ace3-11e9-3d08-3bc7ed6f96df"
