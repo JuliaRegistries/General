@@ -53,12 +53,14 @@ Variography = "0.7"
 GeoStatsBase = "0.11"
 
 ["0.14-0"]
-KrigingEstimators = "0.4"
 PointPatterns = "0.2"
 julia = "1.4.0-1"
 
 ["0.14-0.17"]
 Variography = "0.8"
+
+["0.14-0.20"]
+KrigingEstimators = "0.4"
 
 ["0.15"]
 GeoStatsBase = "0.12"
@@ -84,10 +86,17 @@ GeoStatsBase = "0.15"
 ["0.19-0"]
 Variography = "0.10"
 
-["0.20-0"]
+["0.20"]
 GaussianSimulation = "0.3"
 GeoEstimation = "0.3"
 GeoStatsBase = "0.16"
+
+["0.21-0"]
+GaussianSimulation = "0.4"
+GeoEstimation = "0.4"
+GeoStatsBase = "0.17"
+KrigingEstimators = "0.5"
+Reexport = ["0.2", "1"]
 
 ["0.7.2-0.7"]
 GeoStatsBase = "0.2.5 - 0.5"
@@ -151,7 +160,7 @@ GeoStatsDevTools = "0.4.5 - 0.5"
 KrigingEstimators = "0.2.2 - 0.2"
 Variography = "0.3.6 - 0.3"
 
-["0.9.1-0"]
+["0.9.1-0.20"]
 Reexport = "0.2"
 
 ["0.9.1-0.9"]
