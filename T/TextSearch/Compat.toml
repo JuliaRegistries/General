@@ -14,14 +14,14 @@ SimilaritySearch = "0.3.0 - 0.3"
 KernelMethods = "0.1"
 StatsBase = "0.0.0 - 0.32"
 
-["0.2.15-0"]
+["0.2.15-0.2"]
+SimilaritySearch = "0.3.8-0.3"
+
+["0.2.15-0.4.1"]
 DataStructures = "0.17"
 GZip = "0.5"
 JSON = ["0.19", "0.21"]
 StatsBase = ["0.30", "0.32"]
-
-["0.2.15-0.2"]
-SimilaritySearch = "0.3.8-0.3"
 
 ["0.2.6-0.2.14"]
 SimilaritySearch = "0.3"
@@ -29,11 +29,17 @@ SimilaritySearch = "0.3"
 ["0.3-0.3.1"]
 SimilaritySearch = "0.3.11-0.3"
 
-["0.3.2-0"]
+["0.3.2-0.4.1"]
 SimilaritySearch = "0.3.15-0.3"
 
 ["0.3.5"]
 KCenters = "0.1.13-0.1"
 
-["0.3.6-0"]
+["0.3.6-0.4.1"]
 KCenters = "0.2.1-0.2"
+
+["0.4.2-0"]
+CategoricalArrays = "0.8.3-0.8"
+KCenters = "0.2.3-0.2"
+SimilaritySearch = "0.3.21-0.3"
+StatsBase = "0.32"
