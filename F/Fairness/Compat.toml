@@ -1,7 +1,4 @@
 [0]
-CSV = "0.7"
-CategoricalArrays = "0.8"
-DataFrames = "0.21"
 Ipopt = "0.6"
 JuMP = "0.21"
 MLJModelInterface = "0.3"
@@ -15,15 +12,34 @@ GLPK = "0.13"
 MLJBase = "0.14.4-0.14"
 MLJModels = "0.11"
 
+["0-0.2"]
+CSV = "0.7"
+CategoricalArrays = "0.8"
+DataFrames = "0.21"
+
 ["0.1.2-0"]
-Distributions = "0.23.8-0.23"
 ForwardDiff = "0.10.12-0.10"
+
+["0.1.2-0.2"]
+Distributions = "0.23.8-0.23"
 
 ["0.1.3-0"]
 HypothesisTests = "0.10"
+ZipFile = "0.9"
+
+["0.1.3-0.2"]
 MLJBase = "0.14.4-0.15"
 MLJModels = "0.11-0.12"
-ZipFile = "0.9"
 
 ["0.2-0"]
 GLPK = "0.13-0.14"
+
+["0.3-0"]
+CSV = "0.7-0.8"
+CategoricalArrays = "0.8-0.9"
+DataFrames = "0.21-0.22"
+Distributions = "0.23.8-0.24"
+MLJBase = "0.14.4-0.16"
+MLJModels = "0.11-0.13"
+ProgressMeter = "1.4.0-1"
+Suppressor = "0.2"
