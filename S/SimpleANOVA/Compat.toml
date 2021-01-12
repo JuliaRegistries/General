@@ -1,13 +1,21 @@
-[0]
-Distributions = "0.0.0 - 0.23"
-
 ["0-0.3"]
 julia = ["0.7", "1"]
+
+["0-0.6"]
+Distributions = "0.0.0 - 0.23"
 
 ["0.2-0.3"]
 Requires = "0.0.0 - 0.5"
 
 ["0.4-0"]
+julia = "1"
+
+["0.4-0.6"]
 InvertedIndices = "0.0.0 - 1"
 Requires = "0.0.0 - 1"
-julia = "1"
+
+["0.7-0"]
+Combinatorics = "1"
+Distributions = "0.21-0.24"
+InvertedIndices = "1"
+Requires = ["0.5.2-0.5", "1"]
