@@ -8,20 +8,25 @@ on:
       - master
   schedule:
     - cron: 0 0 * * *
+
+# Disable PkgServer to avoid random issues.
+# TODO: remove this when PkgServer feels better
+env:
+  JULIA_PKG_SERVER: ""
+
 jobs:
   CI:
     runs-on: ${{ matrix.os }}
-    timeout-minutes: 60
+    timeout-minutes: 30
     strategy:
       fail-fast: false
       matrix:
         version:
           - '1.3'
           - '1.4'
-          - '1.5'
+          - '1'
           - '^1.6.0-0' # TODO: remove this line once 1.6 is released
           # - '1.6'    # TODO: uncomment this line once 1.6 is released
-          - '1'
           - 'nightly'
         os:
           - ubuntu-latest
