@@ -75,7 +75,9 @@ jobs:
             additional_check_runs = String[],
           )
         shell: julia --color=yes --project=.ci/ {0}
+
   AutoMerge-stopwatch:
+    timeout-minutes: 60
     if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
     environment: stopwatch
     runs-on: ubuntu-latest
