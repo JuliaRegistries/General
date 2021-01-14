@@ -11,8 +11,14 @@ on:
   pull_request:
   workflow_dispatch:
 
+# Disable PkgServer to avoid random issues.
+# TODO: remove this when PkgServer feels better
+env:
+  JULIA_PKG_SERVER: ""
+
 jobs:
   AutoMerge:
+    timeout-minutes: 60
     if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
     runs-on: ${{ matrix.os }}
     strategy:
