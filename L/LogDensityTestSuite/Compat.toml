@@ -1,11 +1,11 @@
-[0]
-julia = "1"
-
 ["0-0.5.0"]
 LogDensityProblems = "0.9"
 Parameters = "0.0.0 - 0.12"
 Sobol = "0.0.0 - 1"
 StatsFuns = "0.0.0 - 0.9"
+
+["0-0.5.2"]
+julia = "1"
 
 ["0.2-0.5.0"]
 ArgCheck = "0.0.0 - 1"
@@ -20,10 +20,17 @@ ArgCheck = "1"
 ["0.5.1-0"]
 DocStringExtensions = "0.8"
 LogDensityProblems = "0.9-0.10"
-MCMCDiagnostics = "0.3"
-Parameters = "0.12"
 Sobol = "1"
 StatsFuns = "0.9"
 
+["0.5.1-0.5.2"]
+MCMCDiagnostics = "0.3"
+Parameters = "0.12"
+
 ["0.5.2-0"]
 ArgCheck = "1-2"
+
+["0.5.3-0"]
+MCMCDiagnostics = "0.3-0.4"
+UnPack = "1"
+julia = "1.1.0-1"
