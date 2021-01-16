@@ -8,7 +8,7 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/stale@v3
+    - uses: actions/stale@b12dccced80582bf8c52244f75838892ec5c1e82
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         stale-pr-message: 'This pull request is inactive and will be closed'
@@ -16,3 +16,4 @@ jobs:
         close-pr-message: 'This pull request has been inactive for more than 30 days and has been automatically closed. Feel free to register your package or version again once you fix AutoMerge issues'
         days-before-stale: 30
         days-before-close: 1
+        delete-branch: true
