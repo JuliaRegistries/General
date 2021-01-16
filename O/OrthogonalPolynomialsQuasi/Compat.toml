@@ -108,7 +108,7 @@ HypergeometricFunctions = "0.3.2-0.3"
 ArrayLayouts = "0.4.6-0.4"
 LazyArrays = "0.18.1-0.18"
 
-["0.3-0"]
+["0.3-0.4.1"]
 InfiniteArrays = "0.8.2-0.8"
 
 ["0.3.0"]
@@ -118,26 +118,43 @@ ContinuumArrays = "0.3.2-0.3"
 ContinuumArrays = "0.3.3-0.3"
 
 ["0.3.2-0"]
-BlockBandedMatrices = "0.9.3-0.9"
 FastGaussQuadrature = "0.4.3-0.4"
 
 ["0.3.2-0.4.0"]
 SpecialFunctions = "0.10"
 
+["0.3.2-0.4.1"]
+BlockBandedMatrices = "0.9.3-0.9"
+
 ["0.4-0"]
+FFTW = "1.1.0-1"
+QuasiArrays = "0.3.6-0.3"
+
+["0.4-0.4.1"]
 ArrayLayouts = "0.4.10-0.4"
 BandedMatrices = "0.15.21-0.15"
 ContinuumArrays = "0.3.5-0.3"
-FFTW = "1.1.0-1"
 FillArrays = "0.10"
 LazyArrays = "0.19"
-QuasiArrays = "0.3.6-0.3"
 
 ["0.4.0"]
 InfiniteLinearAlgebra = "0.4.3-0.4"
 
-["0.4.1-0"]
+["0.4.1"]
 BlockArrays = "0.12.8-0.13"
+SpecialFunctions = ["0.10", "1.1.0-1"]
+
+["0.4.1-0"]
 FastTransforms = "0.10.1-0.11"
 InfiniteLinearAlgebra = "0.4.4-0.4"
-SpecialFunctions = ["0.10", "1.1.0-1"]
+
+["0.4.2-0"]
+ArrayLayouts = "0.4.10-0.5"
+BandedMatrices = "0.15.21-0.16"
+BlockArrays = "0.12.8-0.14"
+BlockBandedMatrices = "0.9.3-0.10"
+ContinuumArrays = "0.3.5-0.4"
+FillArrays = "0.10-0.11"
+InfiniteArrays = "0.8.2-0.9"
+LazyArrays = "0.19-0.20"
+SpecialFunctions = ["0.10", "1"]
