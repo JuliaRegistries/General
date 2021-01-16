@@ -136,7 +136,6 @@ LowRankApprox = "0.3-0.4"
 SpecialFunctions = "0.8"
 
 ["0.2.2-0"]
-AbstractFFTs = "0.4-0.5"
 DSP = "0.6"
 FastGaussQuadrature = "0.4"
 ToeplitzMatrices = "0.6"
@@ -150,6 +149,9 @@ LazyArrays = "0.14"
 
 ["0.2.2-0.3.10"]
 StaticArrays = "0.12"
+
+["0.2.2-0.3.11"]
+AbstractFFTs = "0.4-0.5"
 
 ["0.2.2-0.3.2"]
 BandedMatrices = "0.14"
@@ -177,14 +179,25 @@ InfiniteArrays = "0.4-0.6"
 ["0.3.1-0.3.2"]
 LazyArrays = "0.14-0.15"
 
-["0.3.10-0"]
+["0.3.10-0.3.11"]
 FillArrays = "0.8-0.10"
 LazyArrays = "0.14-0.19"
 
-["0.3.11-0"]
+["0.3.11"]
 BlockArrays = "0.12.11-0.13"
+
+["0.3.11-0"]
 SpecialFunctions = ["0.8-0.10", "1"]
 StaticArrays = ["0.12", "1"]
+
+["0.3.12-0"]
+AbstractFFTs = ["0.4-0.5", "1"]
+BandedMatrices = "0.14-0.16"
+BlockArrays = "0.12.11-0.14"
+BlockBandedMatrices = "0.7-0.10"
+FillArrays = "0.8-0.11"
+InfiniteArrays = "0.4-0.9"
+LazyArrays = "0.14-0.20"
 
 ["0.3.2-0.3.10"]
 SpecialFunctions = "0.8-0.10"
@@ -193,7 +206,7 @@ SpecialFunctions = "0.8-0.10"
 DomainSets = "0.1-0.3"
 IntervalSets = "0.3.1-0.4"
 
-["0.3.3-0"]
+["0.3.3-0.3.11"]
 BandedMatrices = "0.14-0.15"
 
 ["0.3.3-0.3.5"]
@@ -211,12 +224,12 @@ DomainSets = "0.3"
 ["0.3.6"]
 LazyArrays = "0.14-0.17"
 
-["0.3.6-0"]
-BlockBandedMatrices = "0.7-0.9"
-InfiniteArrays = "0.4-0.8"
-
 ["0.3.6-0.3.10"]
 BlockArrays = "0.12.11-0.12"
+
+["0.3.6-0.3.11"]
+BlockBandedMatrices = "0.7-0.9"
+InfiniteArrays = "0.4-0.8"
 
 ["0.3.6-0.3.7"]
 DomainSets = "0.3-0.4"
