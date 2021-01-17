@@ -48,7 +48,12 @@ jobs:
             ${{ runner.os }}-test-${{ env.cache-name }}-
             ${{ runner.os }}-test-
             ${{ runner.os }}-
-      - if: ${{ matrix.version }} == "1" || ${{ matrix.version }} == "1.3" || ${{ matrix.version }} == "1.4" || ${{ matrix.version }} == "1.5"
-        run: rm -f .ci/Manifest.toml && mv .ci/Manifest.1.5.3.toml .ci/Manifest.toml
+      - shell: julia {0}
+        run: |
+          if Base.VERSION < v"1.6"
+              rm(joinpath(pwd(), ".ci", "Manifest.toml"); force = true)
+          end
       - run: .ci/travis_before_script.sh
+        env:
+          JULIA_PKG_SERVER: ""
       - run: julia --project=.ci/ --color=yes -e 'import RegistryCI; RegistryCI.test()'
