@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
+  pull_request: # TODO: remove this line
 
 jobs:
   remember_to_update_registryci:
@@ -30,22 +31,8 @@ jobs:
         run: julia -e 'import Pkg; Pkg.add(["GitCommand", "GitHub", "Pkg"])'
         env:
           JULIA_PKG_SERVER: ''
-      - shell: julia {0}
-        run: |
-          if Base.VERSION == v"1.5.3"
-              mv(joinpath(pwd(), ".ci", "Manifest.toml"), joinpath(pwd(), ".ci", "Manifest.toml.original"); force = true)
-          else
-              rm(joinpath(pwd(), ".ci", "Manifest.toml"); force = true)
-          end
       - name: Update .ci/Manifest.toml
-        run: julia -e 'include(".ci/remember_to_update_registryci.jl"); "${{ github.repository }}" == "JuliaRegistries/General" && RememberToUpdateRegistryCI.main(".ci"; registry = "${{ github.repository }}", cc_usernames = String[])'
+        run: julia -e 'include(".ci/remember_to_update_registryci.jl"); "${{ github.repository }}" == "JuliaRegistries/General" && RememberToUpdateRegistryCI.main(".ci"; registry = "${{ github.repository }}", cc_usernames = String[], old_julia_version = v"1.5.3")'
         env:
           GITHUB_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
           JULIA_PKG_SERVER: ''
-      - shell: julia {0}
-        run: |
-          if Base.VERSION == v"1.5.3"
-             mv(joinpath(pwd(), ".ci", "Manifest.toml"), joinpath(pwd(), ".ci", "Manifest.1.5.3.toml"); force = true)
-             mv(joinpath(pwd(), ".ci", "Manifest.toml.original"), joinpath(pwd(), ".ci", "Manifest.toml"); force = true)
-          else
-          end

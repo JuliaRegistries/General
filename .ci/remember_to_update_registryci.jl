@@ -143,6 +143,8 @@ function create_new_pull_request(repo::GitHub.Repo;
     return result
 end
 
+
+
 function main(relative_path;
               registry,
               github_token = ENV["GITHUB_TOKEN"],
@@ -151,9 +153,14 @@ function main(relative_path;
               pr_title = "Update RegistryCI.jl by updating the .ci/Manifest.toml file ($(Base.VERSION.major).$(Base.VERSION.minor).$(Base.VERSION.patch))",
               cc_usernames = String[],
               # my_username = ,
-              my_email = "41898282+github-actions[bot]@users.noreply.github.com")
+              my_email = "41898282+github-actions[bot]@users.noreply.github.com",
+              old_julia_version::VersionNumber = v"0")
     original_project = Base.active_project()
     original_directory = pwd()
+
+    OLDMAJOR = old_julia_version.major
+    OLDMINOR = old_julia_version.minor
+    OLDPATCH = old_julia_version.patch
 
     tmp_dir = mktempdir()
     atexit(() -> rm(tmp_dir; force = true, recursive = true))
@@ -188,15 +195,35 @@ function main(relative_path;
         run(`$git checkout -B $(pr_branch)`)
     end
     cd(relative_path)
-    manifest_filename = joinpath(pwd(), "Manifest.toml")
+    main_manifest = "Manifest.toml"
+    old_manifest = "Manifest.$(OLDMAJOR).$(OLDMINOR).$(OLDPATCH).toml"
+    main_manifest_filename = joinpath(pwd(), main)
+    old_manifest_filename = joinpath(pwd(), old)
+    _backup_filename = joinpath(pwd(), "Manifest.toml.original")
+    is_old_julia_version = (Base.VERSION.major == OLDMAJOR) && (Base.VERSION.minor == OLDMINOR) && (Base.VERSION.patch == OLDPATCH)
+    if is_old_julia_version
+        mv(main_manifest, _backup_filename; force = true)
+        rm(old_manifest; force = true)
+    else
+        rm(main_manifest; force = true)
+    end
     rm(manifest_filename; force = true, recursive = true)
     Pkg.activate(pwd())
     Pkg.instantiate()
     Pkg.update()
+    if is_old_julia_version
+        mv(main_manifest, old_manifest; force = true)
+        mv(_backup_filename, main_manifest; force = true)
+    else
+    end
     set_git_identity(my_username, my_email)
     try
         git() do git
-            run(`$git add Manifest.toml`)
+            if is_old_julia_version
+                run(`$(git) add $(old_manifest)`)
+            else
+                run(`$(git) add $(main_manifest)`)
+            end
         end
     catch
     end
