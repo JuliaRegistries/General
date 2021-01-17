@@ -48,7 +48,7 @@ jobs:
             ${{ runner.os }}-test-${{ env.cache-name }}-
             ${{ runner.os }}-test-
             ${{ runner.os }}-
-      - if: ${{ matrix.version }} == "1" || ${{ matrix.version }} == "1.3" || ${{ matrix.version }} == "1.4" || ${{ matrix.version }} == "1.5"
+      - if: ${{ matrix.version }} == "1"
         run: rm -f .ci/Manifest.toml && mv .ci/Manifest.1.5.3.toml .ci/Manifest.toml
       - run: .ci/travis_before_script.sh
       - run: julia --project=.ci/ --color=yes -e 'import RegistryCI; RegistryCI.test()'
