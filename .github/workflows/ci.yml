@@ -48,7 +48,7 @@ jobs:
             ${{ runner.os }}-test-${{ env.cache-name }}-
             ${{ runner.os }}-test-
             ${{ runner.os }}-
-      - if: ${{ matrix.version }} == "1"
+      - if: 'false'
         run: rm -f .ci/Manifest.toml
       - run: .ci/travis_before_script.sh
       - run: julia --project=.ci/ --color=yes -e 'import RegistryCI; RegistryCI.test()'
