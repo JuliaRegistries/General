@@ -54,4 +54,6 @@ jobs:
               rm(joinpath(pwd(), ".ci", "Manifest.toml"); force = true)
           end
       - run: .ci/travis_before_script.sh
+        env:
+          JULIA_PKG_SERVER: ""
       - run: julia --project=.ci/ --color=yes -e 'import RegistryCI; RegistryCI.test()'
