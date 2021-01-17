@@ -50,7 +50,7 @@ jobs:
             ${{ runner.os }}-
       - shell: julia {0}
         run: |
-          if Base.VERSION < v"1.4"
+          if Base.VERSION < v"1.6"
               rm(joinpath(pwd(), ".ci", "Manifest.toml"); force = true)
           end
       - run: .ci/travis_before_script.sh
