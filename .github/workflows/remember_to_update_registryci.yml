@@ -27,7 +27,7 @@ jobs:
           version: ${{ matrix.version }}
           arch: ${{ matrix.arch }}
       - name: Install dependencies of remember_to_update_registryci.jl
-        run: julia -e 'import Pkg; Pkg.add(["GitHub", "Pkg"])'
+        run: julia -e 'import Pkg; Pkg.add(["GitCommand", "GitHub", "Pkg"])'
         env:
           JULIA_PKG_SERVER: ''
       - shell: julia {0}
