@@ -1,6 +1,3 @@
-[0]
-Reexport = "0.2"
-
 ["0-0.0.2"]
 ApproxFunBase = "0.0.3"
 LazyArrays = "0.7.1-0.7"
@@ -28,6 +25,9 @@ julia = ["0.7", "1"]
 
 ["0-0.3.2"]
 IntervalSets = "0.3.1-0.3"
+
+["0-0.3.8"]
+Reexport = "0.2"
 
 ["0.0"]
 DomainSets = "0.1"
@@ -128,7 +128,6 @@ FillArrays = "0.7-0.8"
 SpecialFunctions = "0.7-0.9"
 
 ["0.3-0"]
-AbstractFFTs = "0.5"
 FFTW = "1.1.0-1"
 FastGaussQuadrature = "0.4"
 julia = "1.3.0-1"
@@ -142,6 +141,9 @@ BandedMatrices = "0.14"
 ["0.3-0.3.4"]
 FastTransforms = "0.8"
 FillArrays = "0.8"
+
+["0.3-0.3.8"]
+AbstractFFTs = "0.5"
 
 ["0.3.0"]
 BlockArrays = "0.10"
@@ -161,12 +163,12 @@ SpecialFunctions = "0.8-0.10"
 DomainSets = "0.1-0.2"
 IntervalSets = "0.3.1-0.4"
 
-["0.3.3-0"]
-BandedMatrices = "0.14-0.15"
-
 ["0.3.3-0.3.4"]
 BlockArrays = "0.10-0.12"
 BlockBandedMatrices = ["0.6", "0.7.1-0.8"]
+
+["0.3.3-0.3.8"]
+BandedMatrices = "0.14-0.15"
 
 ["0.3.4"]
 DomainSets = "0.3"
@@ -179,7 +181,6 @@ FillArrays = ["0.8", "0.9.4-0.9"]
 
 ["0.3.5-0"]
 ApproxFunBase = "0.3.6-0.3"
-BlockBandedMatrices = ["0.6", "0.7.1-0.9"]
 DomainSets = "0.3-0.4"
 
 ["0.3.5-0.3.6"]
@@ -188,12 +189,25 @@ BlockArrays = "0.12.11-0.12"
 ["0.3.5-0.3.7"]
 FastTransforms = "0.10"
 
-["0.3.6-0"]
+["0.3.5-0.3.8"]
+BlockBandedMatrices = ["0.6", "0.7.1-0.9"]
+
+["0.3.6-0.3.8"]
 FillArrays = ["0.8", "0.9.4-0.10"]
 
 ["0.3.7-0"]
-BlockArrays = "0.12.11-0.13"
 SpecialFunctions = ["0.8-0.10", "1"]
+
+["0.3.7-0.3.8"]
+BlockArrays = "0.12.11-0.13"
 
 ["0.3.8-0"]
 FastTransforms = "0.10-0.11"
+
+["0.3.9-0"]
+AbstractFFTs = ["0.5", "1"]
+BandedMatrices = "0.14-0.16"
+BlockArrays = "0.12.11-0.14"
+BlockBandedMatrices = ["0.6", "0.7.1-0.10"]
+FillArrays = ["0.8", "0.9.4-0.11"]
+Reexport = ["0.2", "1"]
