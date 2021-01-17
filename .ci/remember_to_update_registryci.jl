@@ -147,8 +147,8 @@ function main(relative_path;
               registry,
               github_token = ENV["GITHUB_TOKEN"],
               master_branch = "master",
-              pr_branch = "github_actions/remember_to_update_registryci",
-              pr_title = "Update RegistryCI.jl by updating the .ci/Manifest.toml file",
+              pr_branch = "github_actions/remember_to_update_registryci-$(Base.VERSION.major).$(Base.VERSION.minor).$(Base.VERSION.patch)",
+              pr_title = "Update RegistryCI.jl by updating the .ci/Manifest.toml file ($(Base.VERSION.major).$(Base.VERSION.minor).$(Base.VERSION.patch))",
               cc_usernames = String[],
               # my_username = ,
               my_email = "41898282+github-actions[bot]@users.noreply.github.com")

@@ -51,9 +51,10 @@ jobs:
       - shell: julia {0}
         run: |
           if Base.VERSION < v"1.6"
-              rm(joinpath(pwd(), ".ci", "Manifest.toml"); force = true)
+              mv(joinpath(pwd(), ".ci", "Manifest.toml"), joinpath(pwd(), ".ci", "Manifest.toml.original"); force = true)
+              mv(joinpath(pwd(), ".ci", "Manifest.1.5.3.toml"), joinpath(pwd(), ".ci", "Manifest.toml"); force = true)
           end
-      - run: .ci/travis_before_script.sh
+      - run: .ci/travis_before_script.sh # this is where we instantiate the Manifest.toml
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --project=.ci/ --color=yes -e 'import RegistryCI; RegistryCI.test()'
