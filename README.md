@@ -183,7 +183,7 @@ Technically, you can't rename a package once registered, as this would break exi
 But you can re-register the package again under a new name with a new UUID.
 Which has basically the same effect.
 
- - Follow the instructions above for renaminging a package: rename on GitHub, rename files etc.
+ - Follow the instructions above for renaming a package: rename on GitHub, rename files etc.
  - Generate a new UUID for the Project.toml
  - Increment the version in the Project.toml as a breaking change.
  - [Register](#registering-a-package-in-general) it as if it were a new package
