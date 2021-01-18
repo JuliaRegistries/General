@@ -2,7 +2,6 @@
 Bijectors = "0.8"
 Distributions = "0.23-0.24"
 DistributionsAD = "0.6"
-FillArrays = "0.10-0.11"
 KeywordDispatch = "0.3"
 MLStyle = "0.4"
 MacroTools = "0.5"
@@ -12,3 +11,9 @@ SpecialFunctions = ["0.10", "1"]
 StaticArrays = ["0.12", "1"]
 StatsFuns = "0.9"
 julia = "1.5.0-1"
+
+["0-0.2.1"]
+FillArrays = "0.10-0.11"
+
+["0.2.2-0"]
+FillArrays = "0.8-0.11"
