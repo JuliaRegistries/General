@@ -197,8 +197,8 @@ function main(relative_path;
     cd(relative_path)
     main_manifest = "Manifest.toml"
     old_manifest = "Manifest.$(OLDMAJOR).$(OLDMINOR).$(OLDPATCH).toml"
-    main_manifest_filename = joinpath(pwd(), main)
-    old_manifest_filename = joinpath(pwd(), old)
+    main_manifest_filename = joinpath(pwd(), main_manifest)
+    old_manifest_filename = joinpath(pwd(), old_manifest)
     _backup_filename = joinpath(pwd(), "Manifest.toml.original")
     is_old_julia_version = (Base.VERSION.major == OLDMAJOR) && (Base.VERSION.minor == OLDMINOR) && (Base.VERSION.patch == OLDPATCH)
     if is_old_julia_version
