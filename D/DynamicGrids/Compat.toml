@@ -34,11 +34,11 @@ DimensionalData = "0.11-0.12"
 ["0.10.7-0.11"]
 DimensionalData = "0.11-0.13"
 
-["0.11-0"]
-Reexport = "0.2"
-
 ["0.11-0.12"]
 ModelParameters = "0.2"
+
+["0.11-0.13"]
+Reexport = "0.2"
 
 ["0.12-0.12.2"]
 DimensionalData = "0.11-0.14"
@@ -54,6 +54,9 @@ DimensionalData = "0.11-0.15"
 DimensionalData = "0.14-0.15"
 ModelParameters = "0.3"
 Requires = "1"
+
+["0.14-0"]
+Reexport = ["0.2", "1"]
 
 ["0.2-0"]
 Crayons = "4"
