@@ -207,7 +207,6 @@ function main(relative_path;
     else
         rm(main_manifest; force = true)
     end
-    rm(manifest_filename; force = true, recursive = true)
     Pkg.activate(pwd())
     Pkg.instantiate()
     Pkg.update()
