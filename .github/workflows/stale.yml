@@ -3,7 +3,6 @@ on:
   schedule:
     - cron: "16 12 * * *"
   workflow_dispatch:
-
 jobs:
   stale:
     runs-on: ubuntu-latest
@@ -11,9 +10,8 @@ jobs:
     - uses: actions/stale@b12dccced80582bf8c52244f75838892ec5c1e82
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        stale-pr-message: 'This pull request is inactive and will be closed'
-        skip-stale-pr-message: true
-        close-pr-message: 'This pull request has been inactive for more than 30 days and has been automatically closed. Feel free to register your package or version again once you fix AutoMerge issues'
+        stale-pr-message: 'This pull request has been inactive for 30 days and will be automatically closed 7 days from now. Post a comment if this pull request should not be closed.'
+        close-pr-message: 'This pull request has been inactive for more than 30 days and has automatically been closed. Feel free to register your package or version again once you fix AutoMerge issues.'
         days-before-stale: 30
-        days-before-close: 1
+        days-before-close: 7
         delete-branch: true
