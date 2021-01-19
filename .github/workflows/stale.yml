@@ -11,9 +11,9 @@ jobs:
     - uses: actions/stale@b12dccced80582bf8c52244f75838892ec5c1e82
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        stale-pr-message: 'This pull request is inactive and will be closed'
+        stale-pr-message: 'This pull request is inactive for more than 60 days and will be closed in one day. Post a comment to prevent this pull request from being closed.'
         skip-stale-pr-message: true
-        close-pr-message: 'This pull request has been inactive for more than 30 days and has been automatically closed. Feel free to register your package or version again once you fix AutoMerge issues'
-        days-before-stale: 30
+        close-pr-message: 'This pull request has been inactive for more than 60 days and has been automatically closed. Feel free to register your package or version again once you fix AutoMerge issues.'
+        days-before-stale: 60
         days-before-close: 1
         delete-branch: true
