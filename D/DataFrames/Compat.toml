@@ -93,8 +93,10 @@ CategoricalArrays = "0.7"
 Compat = "2-3"
 
 ["0.20-0"]
-Reexport = "0.1-0.2"
 SortingAlgorithms = "0.1-0.3"
+
+["0.20-0.22.2"]
+Reexport = "0.1-0.2"
 
 ["0.20.0"]
 Tables = "0.2.3-0.2"
@@ -113,3 +115,6 @@ Compat = "3.17.0-3"
 DataAPI = "1.4.0-1"
 PrettyTables = "0.10"
 Tables = "1.2.0-1"
+
+["0.22.3-0"]
+Reexport = ["0.1-0.2", "1"]
