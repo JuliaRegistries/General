@@ -15,7 +15,6 @@ dependencies and compatibility constraints.
 The General registry is open for everyone to use and provides access to a large ecosystem
 of packages.
 
-
 If you are registering a new package, please make sure that you have read the [package naming guidelines](https://julialang.github.io/Pkg.jl/dev/creating-packages/#Package-naming-guidelines-1).
 
 ## Registering a package in General
