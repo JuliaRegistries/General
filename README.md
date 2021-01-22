@@ -1,6 +1,6 @@
 # General
 
-[![AutoMerge status][automerge-imt]][automerge-url]
+[![AutoMerge status][automerge-img]][automerge-url]
 [![TagBot Triggers Status][tagbot-img]][tagbot-url]
 
 [automerge-url]: https://github.com/JuliaRegistries/General/actions?query=workflow%3AAutoMerge+event%3Aschedule
