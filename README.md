@@ -1,8 +1,12 @@
 # General
 
-[![Build Status](https://travis-ci.com/JuliaRegistries/General.svg?branch=master)](https://travis-ci.com/JuliaRegistries/General/branches)
-[![AutoMerge status](https://github.com/JuliaRegistries/General/workflows/AutoMerge/badge.svg?event=schedule)](https://github.com/JuliaRegistries/General/actions?query=workflow%3AAutoMerge+event%3Aschedule)
-![TagBot Triggers](https://github.com/JuliaRegistries/General/workflows/TagBot%20Triggers/badge.svg)
+[![AutoMerge status][automerge-imt]][automerge-url]
+[![TagBot Triggers Status][tagbot-img]][tagbot-url]
+
+[automerge-url]: https://github.com/JuliaRegistries/General/actions?query=workflow%3AAutoMerge+event%3Aschedule
+[automerge-img]: https://github.com/JuliaRegistries/General/workflows/AutoMerge/badge.svg?event=schedule "AutoMerge status"
+[tagbot-url]: https://github.com/JuliaRegistries/General/actions?query=workflow%3A%22TagBot+Triggers%22+event%3Aschedule
+[tagbot-img]: https://github.com/JuliaRegistries/General/workflows/TagBot%20Triggers/badge.svg?event=schedule
 
 General is the default Julia package registry. Package registries are used by Julia's
 package manager [Pkg.jl][pkg] and includes information about packages such as versions,
