@@ -113,8 +113,13 @@ DataAPI = "1.2.0-1"
 CategoricalArrays = "0.8.3-0.9"
 Compat = "3.17.0-3"
 DataAPI = "1.4.0-1"
-PrettyTables = "0.10"
 Tables = "1.2.0-1"
+
+["0.22-0.22.3"]
+PrettyTables = "0.10"
 
 ["0.22.3-0"]
 Reexport = ["0.1-0.2", "1"]
+
+["0.22.4-0"]
+PrettyTables = "0.10-0.11"
