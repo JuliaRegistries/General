@@ -28,7 +28,6 @@ ReinforcementLearningCore = "0.4"
 AbstractTrees = "0.3"
 Flux = "0.11"
 Setfield = "0.6-0.7"
-Zygote = "0.5"
 julia = "1.4.0-1"
 
 ["0.1.5-0.1"]
@@ -36,6 +35,9 @@ ReinforcementLearningBase = "0.8"
 
 ["0.1.5-0.2.1"]
 CUDA = "1"
+
+["0.1.5-0.3.1"]
+Zygote = "0.5"
 
 ["0.1.6"]
 ReinforcementLearningCore = "0.4.1-0.4"
@@ -71,7 +73,14 @@ CircularArrayBuffers = "0.1"
 ["0.3.0"]
 ReinforcementLearningCore = "0.6"
 
+["0.3.1"]
+ReinforcementLearningCore = "0.6.3-0.6"
+
 ["0.3.1-0"]
 IntervalSets = "0.5"
 ReinforcementLearningBase = "0.9"
-ReinforcementLearningCore = "0.6.3-0.6"
+
+["0.3.2-0"]
+DataStructures = "0.18"
+ReinforcementLearningCore = "0.7"
+Zygote = "0.5-0.6"
