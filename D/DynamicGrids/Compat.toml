@@ -51,12 +51,17 @@ StaticArrays = ["0.12", "1"]
 DimensionalData = "0.11-0.15"
 
 ["0.13-0"]
-DimensionalData = "0.14-0.15"
 ModelParameters = "0.3"
 Requires = "1"
 
+["0.13-0.14.0"]
+DimensionalData = "0.14-0.15"
+
 ["0.14-0"]
 Reexport = ["0.2", "1"]
+
+["0.14.1-0"]
+DimensionalData = "0.14-0.16"
 
 ["0.2-0"]
 Crayons = "4"
