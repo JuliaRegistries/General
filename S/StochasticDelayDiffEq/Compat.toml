@@ -1,5 +1,4 @@
 [0]
-DelayDiffEq = "5"
 RandomNumbers = "1"
 
 ["0-0.1"]
@@ -16,6 +15,9 @@ DataStructures = "0.17"
 
 ["0-0.2.2"]
 Reexport = "0.2"
+
+["0-0.2.6"]
+DelayDiffEq = "5"
 
 ["0.2-0"]
 DiffEqBase = "6.29.0-6"
@@ -42,3 +44,6 @@ StaticArrays = ["0.11-0.12", "1"]
 
 ["0.2.5-0"]
 Reexport = ["0.2", "1"]
+
+["0.2.7-0"]
+DelayDiffEq = "5.28.2-5"
