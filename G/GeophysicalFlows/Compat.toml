@@ -15,6 +15,11 @@ SpecialFunctions = "0.0.0 - 0.8"
 ["0.11-0"]
 StaticArrays = ["0.12", "1"]
 
+["0.11.3-0"]
+DocStringExtensions = "0.8"
+FourierFlows = "0.6.10-0.6"
+Reexport = ["0.2", "1"]
+
 ["0.2-0.3.0"]
 FourierFlows = "0.3.0 - 0.3"
 
@@ -30,7 +35,7 @@ FourierFlows = "0.3.2-0.3"
 JLD2 = "0.1.2-0.1"
 SpecialFunctions = "0.8"
 
-["0.3.1-0"]
+["0.3.1-0.11.2"]
 Reexport = "0.2"
 
 ["0.3.1-0.3.3"]
@@ -68,8 +73,10 @@ FourierFlows = "0.4.0 - 0.5"
 FourierFlows = "0.5"
 
 ["0.6-0"]
-FourierFlows = "0.6"
 SpecialFunctions = ["0.10", "1"]
+
+["0.6-0.11.2"]
+FourierFlows = "0.6"
 
 ["0.6-0.8.0"]
 CUDA = "1"
