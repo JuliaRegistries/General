@@ -104,7 +104,6 @@ Distributions = "0.21-0.23"
 StatsBase = "0.32-0.33"
 
 [4]
-AbstractFFTs = "0.5"
 Compat = "2.2.0-3"
 IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
 TableTraits = ["0.4", "1"]
@@ -112,6 +111,9 @@ Tables = "1"
 
 ["4-4.2"]
 PrettyTables = "0.9"
+
+["4-4.5"]
+AbstractFFTs = "0.5"
 
 ["4.0"]
 Requires = ["0.5", "1"]
@@ -137,3 +139,6 @@ SpecialFunctions = ["0.8-0.10", "1"]
 
 ["4.5-4"]
 MLJModelInterface = "0.3.5-0.4"
+
+["4.6-4"]
+AbstractFFTs = ["0.5", "1"]
