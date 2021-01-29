@@ -29,7 +29,6 @@ PGFPlotsX = "1"
 Parameters = "0.12"
 ProgressMeter = "1"
 RecipesBase = ["0.7-0.8", "1"]
-UnROOT = "0.1.3-0.1"
 
 ["0.6-0.6.1"]
 Colors = "0.12"
@@ -37,6 +36,15 @@ DataStructures = "0.17"
 DrWatson = "1"
 StaticArrays = "0.12"
 
-["0.6.2-0"]
+["0.6-0.6.2"]
+UnROOT = "0.1.3-0.1"
+
+["0.6.2"]
 HDF5 = "0.12.5-0.12"
+
+["0.6.2-0"]
 StaticArrays = ["0.12", "1"]
+
+["0.6.3-0"]
+HDF5 = "0.12-0.15"
+UnROOT = "0.1"
