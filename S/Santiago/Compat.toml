@@ -5,7 +5,6 @@ DocStringExtensions = "0.8.2-0.8"
 JSON3 = "1.0.3-1"
 NamedArrays = "0.9.4-0.9"
 QuadGK = "2.4.0-2"
-Reexport = "0.2"
 StatsBase = "0.33"
 StructTypes = "1.1.0-1"
 julia = "1.4.0-1"
@@ -19,6 +18,9 @@ DataFrames = "0.21.4-0.21"
 ["0-0.2.4"]
 Distributions = "0.23.4-0.23"
 
+["0-0.3.1"]
+Reexport = "0.2"
+
 ["0.2-0"]
 DataStructures = "0.17.19-0.18"
 
@@ -30,3 +32,6 @@ Distributions = "0.23.4-0.24"
 
 ["0.3-0"]
 DataFrames = "0.21.4-0.22"
+
+["0.3.2-0"]
+Reexport = ["0.2", "1"]
