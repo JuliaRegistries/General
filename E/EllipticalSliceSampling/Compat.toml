@@ -1,11 +1,13 @@
 [0]
-ArrayInterface = "2"
 julia = "1"
 
 ["0-0.1"]
 Distributions = "0.21.8-0.21"
 Parameters = "0.12"
 ProgressLogging = "0.1"
+
+["0-0.4.0"]
+ArrayInterface = "2"
 
 ["0.2-0.2.1"]
 AbstractMCMC = "0.5"
@@ -24,3 +26,6 @@ AbstractMCMC = "2"
 
 ["0.3.1-0"]
 Distributions = "0.22-0.24"
+
+["0.4.1-0"]
+ArrayInterface = "2-3"
