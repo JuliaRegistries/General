@@ -104,20 +104,29 @@ ControlSystems = "0.7"
 
 ["0.2.7-1"]
 LowLevelParticleFilters = "1"
+
+["0.2.7-1.3.0"]
 MonteCarloMeasurements = ["0.1.2-0.1", "0.4-0.9"]
 
-[1]
+["1-1.3.0"]
 BandedMatrices = "0.15"
 
 ["1.0"]
 ControlSystems = "0.7"
 
 ["1.1-1"]
-ControlSystems = "0.7-0.8"
 StatsBase = "0.33"
+
+["1.1-1.3.0"]
+ControlSystems = "0.7-0.8"
 
 ["1.2-1"]
 ComponentArrays = "0.8"
 
 ["1.3-1"]
 FillArrays = ["0.0.0-0.9", "0.11"]
+
+["1.3.1-1"]
+BandedMatrices = "0.15-0.16"
+ControlSystems = "0.9"
+MonteCarloMeasurements = ["0.1.2-0.1", "0.4-0.10"]
