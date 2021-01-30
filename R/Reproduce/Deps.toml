@@ -5,7 +5,6 @@ Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 Git = "d7ba0133-e1db-5d97-8f8c-041e4b3a1eb2"
-Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
@@ -17,9 +16,18 @@ Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
 ["0-0.4"]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 
+["0-0.6"]
+Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
+
 ["0.5-0"]
-Config = "9d05fc2c-525b-11e9-1a36-8f70a3e496dc"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["0.5-0.6"]
+Config = "9d05fc2c-525b-11e9-1a36-8f70a3e496dc"
 
 ["0.5.2-0"]
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+
+["0.7-0"]
+BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
