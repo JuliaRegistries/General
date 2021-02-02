@@ -197,11 +197,16 @@ IterativeSolvers = "0.8-0.9"
 IterativeSolvers = "0.9"
 
 ["6.54-6"]
-Reexport = "1"
 SciMLBase = "1.1.0-1"
+
+["6.54-6.56"]
+Reexport = "1"
 
 ["6.55-6"]
 ArrayInterface = "2.6.0-3"
+
+["6.57-6"]
+Reexport = ["0.2", "1"]
 
 ["6.7-6.24"]
 ArrayInterface = "1.1.0-2"
