@@ -3,7 +3,6 @@ Distributions = "0.23-0.24"
 ForwardDiff = "0.10"
 Optim = "1"
 PositiveFactorizations = "0.2"
-ValueShapes = "0.7"
 julia = "1.5.0-1"
 
 ["0-0.1"]
@@ -12,6 +11,9 @@ LinearMaps = "2"
 StaticArrays = "0.12"
 Zygote = "0.5.14-0.5"
 
+["0-0.2.0"]
+ValueShapes = "0.7"
+
 ["0.2-0"]
 ChainRulesCore = "0.9"
 DistributionsAD = "0.6"
@@ -19,3 +21,6 @@ IterativeSolvers = "0.8-0.9"
 LinearMaps = "3"
 StaticArrays = ["0.12", "1"]
 Zygote = "0.5.14-0.6"
+
+["0.2.1-0"]
+ValueShapes = "0.7-0.8"
