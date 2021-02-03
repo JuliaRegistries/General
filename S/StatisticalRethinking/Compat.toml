@@ -202,11 +202,13 @@ AxisArrays = "0.4"
 BSplines = "0.2-0.3"
 DataFrames = "0.21-0.22"
 GLM = "1.3.0-1"
-MonteCarloMeasurements = ["0.8-0.9", "1"]
 StructuralCausalModels = "1"
 
 ["3-3.2.0"]
 PrettyTables = "0.9-0.10"
+
+["3-3.2.1"]
+MonteCarloMeasurements = ["0.8-0.9", "1"]
 
 ["3.0"]
 MCMCChains = "3-4"
@@ -226,3 +228,7 @@ OrderedCollections = "1.3.0-1"
 
 ["3.2.1-3"]
 PrettyTables = "0.9-0.11"
+
+["3.2.2-3"]
+MonteCarloMeasurements = ["0.8-0.10", "1"]
+ParetoSmoothedImportanceSampling = "0.1"
