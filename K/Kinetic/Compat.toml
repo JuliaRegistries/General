@@ -19,10 +19,6 @@ FastGaussQuadrature = "0.4"
 OrdinaryDiffEq = "5.42.0-5"
 PyCall = "1.91.0-1"
 
-["0.4-0"]
-Conda = "1"
-PyCall = "1"
-
 ["0.4-0.5"]
 FFTW = "1"
 FastGaussQuadrature = "0.2-0.4"
@@ -32,6 +28,10 @@ Plots = "1"
 ProgressMeter = "1"
 SpecialFunctions = "0.7-0.10"
 
+["0.4-0.7.0"]
+Conda = "1"
+PyCall = "1"
+
 ["0.5"]
 JLD2 = "0.1-0.2"
 
@@ -39,9 +39,12 @@ JLD2 = "0.1-0.2"
 KitBase = "0.1"
 Reexport = "0.2"
 
-["0.6-0"]
+["0.6-0.7.0"]
 KitML = "0.1"
 
 ["0.7-0"]
 KitBase = "0.3"
 Reexport = ["0.2", "1"]
+
+["0.7.1-0"]
+KitML = "0.2"
