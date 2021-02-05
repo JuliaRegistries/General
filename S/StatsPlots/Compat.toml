@@ -49,8 +49,6 @@ Tables = "0.2"
 
 ["0.13-0"]
 DataValues = "0.4"
-MultivariateStats = "0.7"
-Reexport = "0.2"
 Widgets = "0.5-0.6"
 julia = "1"
 
@@ -62,6 +60,10 @@ DataStructures = "0.17"
 
 ["0.13-0.14.14"]
 Interpolations = "0.12"
+
+["0.13-0.14.17"]
+MultivariateStats = "0.7"
+Reexport = "0.2"
 
 ["0.13-0.14.2"]
 StatsBase = "0.32"
@@ -100,11 +102,16 @@ Distributions = "0.21-0.24"
 ["0.14.15-0"]
 Interpolations = "0.12-0.13"
 
-["0.14.16-0"]
+["0.14.16-0.14.17"]
 TableOperations = "0.2-0.3"
 
 ["0.14.17-0"]
 RecipesPipeline = "0.1.6-0.2"
+
+["0.14.18-0"]
+MultivariateStats = "0.7-0.8"
+Reexport = ["0.2", "1"]
+TableOperations = ["0.2-0.3", "1"]
 
 ["0.14.2-0.14.13"]
 Distributions = "0.21-0.23"
