@@ -1,6 +1,5 @@
 [0]
 BSON = "0.2"
-CommonRLInterface = "0.2"
 EllipsisNotation = ["0.4", "1"]
 Flux = "0.10-0.11"
 POMDPLinter = "0.1"
@@ -11,3 +10,9 @@ Parameters = "0.12"
 StatsBase = "0.32-0.33"
 TensorBoardLogger = "0.1"
 julia = "1"
+
+["0-0.6.0"]
+CommonRLInterface = "0.2"
+
+["0.6.1-0"]
+CommonRLInterface = "0.2-0.3"
