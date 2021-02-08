@@ -52,17 +52,22 @@ julia = "1.3.0-1"
 ["4.7"]
 julia = "1.5.0-1"
 
-["4.7-4"]
+["4.7-5"]
 StatsBase = "0.33"
 
 ["4.8"]
 LoopVectorization = "0.9"
 julia = "1.5"
 
-["4.8.3-4"]
+["4.8.3-5"]
 SymRCM = "0.2"
 
 ["4.9-4"]
+julia = "1.5.0-1"
+
+["4.9-5"]
 Arpack = "0.5"
 LoopVectorization = "0.11"
-julia = "1.5.0-1"
+
+[5]
+julia = "1.6.0-1"
