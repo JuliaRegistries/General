@@ -73,6 +73,7 @@ jobs:
             suggest_onepointzero = false,
             additional_statuses = String[],
             additional_check_runs = String[],
+            public_registries = String["https://github.com/HolyLab/HolyLabRegistry"],
           )
         shell: julia --color=yes --project=.ci/ {0}
 
