@@ -94,9 +94,11 @@ LoopThrottle = "0.1"
 ["0.6-0.7.0"]
 CoordinateTransformations = "0.5"
 
+["0.7"]
+GeometryTypes = "0.6-0.8"
+
 ["0.7-0"]
 ColorTypes = "0.7-0.10"
-GeometryTypes = "0.6-0.8"
 Mux = "0.7.1-0.7"
 
 ["0.7.0"]
@@ -104,5 +106,12 @@ MeshCat = "0.10"
 
 ["0.7.1-0"]
 CoordinateTransformations = "0.5-0.6"
+
+["0.7.1-0.7"]
 MechanismGeometries = "0.4-0.5"
 MeshCat = "0.10-0.11"
+
+["0.8-0"]
+GeometryBasics = "0.2-0.3"
+MechanismGeometries = "0.7"
+MeshCat = "0.13"
