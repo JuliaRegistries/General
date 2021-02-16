@@ -19,17 +19,27 @@ Images = "0.0.0 - 0.19"
 julia = "1"
 
 [1]
-Clustering = "0.13"
 ColorSchemes = "3"
-Colors = ["0.9-0.17", "1"]
 FileIO = "1"
+
+["1-1.1"]
+Clustering = "0.13"
+Colors = ["0.9-0.17", "1"]
 
 ["1.0"]
 ImageMagick = "0.7"
 Images = "0.19"
 QuartzImageIO = "0.0.0 - 0.7"
 
+["1.1"]
+Images = "0.19-0.22"
+
 ["1.1-1"]
 ImageMagick = ["0.7", "1"]
-Images = "0.19-0.22"
 QuartzImageIO = "0.7"
+
+["1.2-1"]
+Clustering = "0.13-0.14"
+Colors = "0.9-0.13"
+Images = "0.19-0.23"
+Interpolations = "0.12-0.13"
