@@ -106,14 +106,20 @@ MatrixFactorizations = "0.6-0.7"
 StaticArrays = ["0.12", "1"]
 
 ["0.20-0"]
-ArrayLayouts = "0.5"
 FillArrays = "0.11"
+
+["0.20-0.20.5"]
+ArrayLayouts = "0.5"
 
 ["0.20.0"]
 MatrixFactorizations = "0.7.1-0.7"
 
-["0.20.1-0"]
+["0.20.1-0.20.5"]
 MatrixFactorizations = "0.7.1-0.8"
+
+["0.20.6-0"]
+ArrayLayouts = "0.6"
+MatrixFactorizations = "0.8.2-0.8"
 
 ["0.3-0.6"]
 FillArrays = "0.3-0.5"
