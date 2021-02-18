@@ -59,6 +59,8 @@ SpecialFunctions = "0.0.0 - 0.10"
 
 ["0.5.13-0"]
 CMake = "1.2.0-1"
+
+["0.5.13-0.6"]
 MAT = "0.5-0.8"
 SpecialFunctions = "0.10"
 
@@ -67,3 +69,7 @@ CMake = "1"
 
 ["0.5.9"]
 BinDeps = "1"
+
+["0.7-0"]
+MAT = "0.5-0.10"
+SpecialFunctions = ["0.10", "1"]
