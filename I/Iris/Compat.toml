@@ -8,6 +8,7 @@ StaticArrays = "0.11"
 
 ["0-0.1"]
 ArnoldiMethodTransformations = "0.1"
+Combinatorics = "0.0.0 - 1"
 Formatting = "0.3"
 NonlinearEigenproblems = "0.2.7-0.2"
 VoronoiDelaunay = "0.3"
@@ -17,11 +18,14 @@ julia = "1"
 Pardiso = "0.4"
 
 ["0.2"]
+Interpolations = "0.0.0 - 0.12"
 KrylovKit = "0.4.1-0.4"
+PolynomialRoots = "0.0.0 - 0.2"
 Requires = "0.5"
+Roots = "0.0.0 - 0.8"
 
 ["0.2-0"]
-ArnoldiMethodTransformations = "0"
+ArnoldiMethodTransformations = "0.0.0 - 0.1"
 Arpack = "0.4"
 Documenter = "0.24"
 Flatten = "0.2"
@@ -37,5 +41,6 @@ julia = "1.3.0-1"
 ["0.3-0"]
 Interpolations = "0.12"
 KrylovKit = "0.4"
+Pardiso = "0.0.0 - 0.5"
 PolynomialRoots = "0.2"
 Roots = "0.8"

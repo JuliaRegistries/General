@@ -1,37 +1,61 @@
 [0]
+CSV = "0.0.0 - 0.5"
+DataStructures = "0.0.0 - 0.18"
+Documenter = "0.0.0 - 0.25"
+ForwardDiff = "0.0.0 - 0.10"
+GR = "0.0.0 - 0.52"
+LogDensityProblems = "0.0.0 - 0.9"
+MCMCDiagnostics = "0.0.0 - 0.3"
+Optim = "0.0.0 - 0.19"
+Parameters = "0.0.0 - 0.12"
+Reexport = "0.0.0 - 0.2"
+TransformVariables = "0.0.0 - 0.3"
 julia = "1"
 
 ["0-0.1"]
-MCMCChain = "0"
+MCMCChain = "0.0.0 - 0.2"
 
 ["0-0.3"]
-CSV = "0"
-DataFrames = "0"
-DataStructures = "0"
-Distributions = "0"
-Documenter = "0"
+DataFrames = "0.0.0 - 0.21"
+Distributions = "0.0.0 - 0.23"
 DynamicHMC = "0-1"
-ForwardDiff = "0"
-GR = "0"
-JLD = "0"
+JLD = "0.0.0 - 0.10"
 Literate = "0-1"
-LogDensityProblems = "0"
-MCMCDiagnostics = "0"
-Optim = "0"
-Parameters = "0"
-Plots = "0"
-Reexport = "0"
-StatisticalRethinking = "0"
-StatsBase = "0"
-StatsFuns = "0"
-StatsPlots = "0"
-TransformVariables = "0"
+Plots = "0.0.0 - 0.29"
+StatisticalRethinking = "0.0.0 - 0.9"
+StatsBase = "0.0.0 - 0.33"
+StatsFuns = "0.0.0 - 0.9"
+StatsPlots = "0.0.0 - 0.14"
 
 ["0.2-0.3"]
-MCMCChains = "0"
+MCMCChains = "0.0.0 - 0.4"
+
+["0.4-0"]
+DynamicHMC = "0.0.0 - 2"
+Literate = "0.0.0 - 2"
+Plots = "0.0.0 - 1"
+StatisticalRethinking = "0.0.0 - 2"
 
 ["1.0.0"]
+CSV = "0.0.0 - 0.5"
+DataFrames = "0.0.0 - 0.19"
+DataStructures = "0.0.0 - 0.18"
+Distributions = "0.0.0 - 0.21"
+Documenter = "0.0.0 - 0.25"
 DynamicHMC = "2"
+ForwardDiff = "0.0.0 - 0.10"
+GR = "0.0.0 - 0.52"
+Literate = "0.0.0 - 2"
+LogDensityProblems = "0.0.0 - 0.9"
+MCMCChains = "0.0.0 - 0.3"
+MCMCDiagnostics = "0.0.0 - 0.3"
+Optim = "0.0.0 - 0.19"
+Parameters = "0.0.0 - 0.12"
+Plots = "0.0.0 - 1"
+Reexport = "0.0.0 - 0.2"
+StatsBase = "0.0.0 - 0.33"
+StatsFuns = "0.0.0 - 0.9"
+TransformVariables = "0.0.0 - 0.3"
 julia = "1.2.0-1"
 
 ["1.0.1-1"]
@@ -53,15 +77,17 @@ LogDensityProblems = "0.9"
 DynamicHMC = "2.1.0-2"
 MCMCDiagnostics = "0.3"
 Parameters = "0.12"
-Reexport = "0.2"
 TransformVariables = "0.3"
 julia = "1"
+
+["1.0.1-2.1.1"]
+Reexport = "0.2"
 
 ["1.1-1"]
 StatsFuns = ["0.7", "0.9"]
 StatsPlots = "0.12-0.13"
 
-["1.1-2"]
+["1.1-2.0.1"]
 DataFrames = "0.19-0.20"
 
 ["1.1.0"]
@@ -75,14 +101,38 @@ MCMCChains = ["0.4", "1"]
 LogDensityProblems = "0.9-0.10"
 
 [2]
+StatsFuns = "0.9"
+
+["2-2.0.1"]
 MonteCarloMeasurements = "0.8"
 Requires = "1"
-StatsFuns = "0.9"
 
 ["2.0.0"]
 CSV = "0.5"
 Distributions = "0.21-0.22"
 
-["2.0.1-2"]
+["2.0.1"]
 CSV = "0.5-0.6"
+
+["2.0.1-2.0.3"]
 Distributions = "0.21-0.23"
+
+["2.0.2-2"]
+MonteCarloMeasurements = "0.8-0.9"
+Requires = "1-2"
+
+["2.0.2-2.0.3"]
+CSV = "0.6-0.7"
+
+["2.0.2-2.1.0"]
+DataFrames = "0.19-0.21"
+
+["2.0.4-2"]
+CSV = "0.6-0.8"
+Distributions = "0.21-0.24"
+
+["2.1.1-2"]
+DataFrames = "0.19-0.22"
+
+["2.1.2-2"]
+Reexport = ["0.2", "1"]

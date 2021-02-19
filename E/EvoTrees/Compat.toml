@@ -1,9 +1,27 @@
-[0]
+["0-0.2"]
+MLJ = "0.0.0 - 0.13"
+MLJBase = "0.0.0 - 0.15"
+
+["0-0.3"]
+BenchmarkTools = "0.0.0 - 0.5"
+CSV = "0.0.0 - 0.7"
+DataFrames = "0.0.0 - 0.21"
+Revise = "0.0.0 - 2"
+SortingAlgorithms = "0.0.0 - 0.3"
+StaticArrays = "0.0.0 - 0.12"
+StatsBase = "0.0.0 - 0.32"
+Tables = "0.0.0 - 0.2"
+Traceur = "0.0.0 - 0.3"
+
+["0-0.4"]
 julia = "1"
 
-["0.4-0"]
-CategoricalArrays = "0.7"
-StaticArrays = "0.12"
+["0.2.2-0.3"]
+CodeTracking = "0.0.0 - 1"
+
+["0.3"]
+Distributions = "0.0.0 - 0.22"
+Flux = "0.0.0 - 0.11"
 
 ["0.4-0.4.1"]
 MLJBase = "0.10"
@@ -16,15 +34,60 @@ Tables = "0.2"
 ["0.4-0.4.6"]
 StatsBase = "0.32"
 
+["0.4-0.4.7"]
+CategoricalArrays = "0.7"
+
+["0.4-0.5.3"]
+StaticArrays = "0.12"
+
 ["0.4.2-0.4.5"]
 MLJModelInterface = "0.1"
 
 ["0.4.3-0.4.6"]
 Distributions = "0.22"
 
-["0.4.6-0"]
+["0.4.6-0.4.7"]
 MLJModelInterface = "0.1-0.2"
 
 ["0.4.7-0"]
-Distributions = "0.22-0.23"
 StatsBase = "0.32-0.33"
+
+["0.4.7-0.5.2"]
+Distributions = "0.22-0.23"
+
+["0.4.8-0.4"]
+CategoricalArrays = "0.7-0.8"
+
+["0.4.8-0.5"]
+MLJModelInterface = "0.3"
+
+["0.5-0"]
+julia = "1.4.0-1"
+
+["0.5-0.5.3"]
+CategoricalArrays = "0.8"
+
+["0.5.0"]
+CUDA = "1"
+
+["0.5.1-0"]
+CUDA = "1-2"
+
+["0.5.2-0"]
+BSON = "0.2"
+RecipesBase = "1"
+
+["0.5.2-0.5.3"]
+NetworkLayout = "0.2"
+
+["0.5.3"]
+Distributions = "0.22-0.24"
+
+["0.5.4-0"]
+CategoricalArrays = "0.8-0.9"
+Distributions = "0.24"
+NetworkLayout = "0.2-0.3"
+StaticArrays = "1"
+
+["0.6-0"]
+MLJModelInterface = "0.3-0.4"

@@ -1,7 +1,12 @@
 # General
 
-[![Build Status](https://travis-ci.com/JuliaRegistries/General.svg?branch=master)](https://travis-ci.com/JuliaRegistries/General/branches)
-[![AutoMerge status](https://github.com/JuliaRegistries/General/workflows/AutoMerge/badge.svg?event=schedule)](https://github.com/JuliaRegistries/General/actions?query=workflow%3AAutoMerge+event%3Aschedule)
+[![AutoMerge status][automerge-img]][automerge-url]
+[![TagBot Triggers Status][tagbot-img]][tagbot-url]
+
+[automerge-url]: https://github.com/JuliaRegistries/General/actions?query=workflow%3AAutoMerge+event%3Aschedule
+[automerge-img]: https://github.com/JuliaRegistries/General/workflows/AutoMerge/badge.svg?event=schedule "AutoMerge status"
+[tagbot-url]: https://github.com/JuliaRegistries/General/actions?query=workflow%3A%22TagBot+Triggers%22+event%3Aschedule
+[tagbot-img]: https://github.com/JuliaRegistries/General/workflows/TagBot%20Triggers/badge.svg?event=schedule
 
 General is the default Julia package registry. Package registries are used by Julia's
 package manager [Pkg.jl][pkg] and includes information about packages such as versions,
@@ -9,8 +14,6 @@ dependencies and compatibility constraints.
 
 The General registry is open for everyone to use and provides access to a large ecosystem
 of packages.
-
-The General registry is a shared resource that belongs to the entire Julia community.
 
 If you are registering a new package, please make sure that you have read the [package naming guidelines](https://julialang.github.io/Pkg.jl/dev/creating-packages/#Package-naming-guidelines-1).
 
@@ -30,6 +33,11 @@ requests need to be manually reviewed and merged by a human.
 It is ***highly recommended*** to also use [TagBot][tagbot], which automatically tags a release in your
 repository after the new release of your package is merged into the registry.
 
+Registered packages must have an [Open Source Initiative approved license](https://opensource.org/licenses),
+clearly marked via a `LICENSE.md`, `LICENSE`, `COPYING` or similarly named file in the package repository.
+Packages that wrap proprietary libraries are acceptable if the licenses of those libraries permit open
+source distribution of the Julia wrapper code.
+
 ### Automatic merging of pull requests
 
 Pull requests that meet certain criteria are automatically merged periodically.
@@ -45,17 +53,29 @@ The following criteria are applied for all pull requests
    versions are `1.0.1`, `1.1.1`, `1.2.0` and `2.0.0`. Invalid new versions include
    `1.0.2` (skips `1.0.1`), `1.3.0` (skips `1.2.0`), `3.0.0` (skips `2.0.0`) etc.
 
- - Dependencies: All dependencies should have `[compat]` entries that are upper bounded.
-   Examples:
+ - Dependencies: All dependencies should have `[compat]` entries that are upper bounded and only include a finite number of breaking releases.
+   For example, the following `[compat]` entries meet the criteria for automatic merging:
    ```toml
    [compat]
    PackageA = "1"          # [1.0.0, 2.0.0), has upper bound (good)
    PackageB = "0.1, 0.2"   # [0.1.0, 0.3.0), has upper bound (good)
+   ```
+   The following `[compat]` entries do NOT meet the criteria for automatic merging:
+   ```toml
+   [compat]
    PackageC = ">=3"        # [3.0.0, ∞), no upper bound (bad)
    PackageD = ">=0.4, <1"  # [-∞, ∞), no lower bound, no upper bound (very bad)
    ```
+   Please note: each `[compat]` entry must include only a finite number of breaking releases. Therefore, the following `[compat]` entries do NOT meet the criteria for automatic merging:
+   ```toml
+   [compat]
+   PackageE = "0"          # includes infinitely many breaking 0.x releases of PackageE (bad)
+   PackageF = "0.2 - 0"    # includes infinitely many breaking 0.x releases of PackageF (bad)
+   PackageG = "0.2 - 1"    # includes infinitely many breaking 0.x releases of PackageG (bad)
+   ```
    See [Pkg's documentation][pkg-compat] for specification of `[compat]` entries in your
    `Project.toml` file.
+   
    (**Note:** Standard libraries are excluded for this criterion since they are bundled
    with Julia, and, hence, implicitly included in the `[compat]` entry for Julia.
    For the time being, JLL dependencies are also excluded for this criterion because they
@@ -69,14 +89,49 @@ The following criteria are applied for all pull requests
 The following list is applied for new package registrations, in addition to the previous
 list:
 
- - Package name: Should start with a capital letter, contain only ASCII alphanumeric
-   characters, and be at least 5 characters long.
- - Version number: Should be a standard initial version number, e.g. `0.0.1`, `0.1.0`,
-   or `1.0.0`.
- - Repository URL: Should end with `$PackageName.jl.git` where `PackageName` is the package
-   name.
+ - The package name should start with a capital letter, contain only ASCII
+   alphanumeric characters, contain a lowercase letter, be at least 5
+   characters long, and should not start with "Ju" or contain the string "julia".
+ - To prevent confusion between similarly named packages, the names of new
+   packages must also satisfy three checks:
+      - the [Damerau–Levenshtein
+        distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
+        between the package name and the name of any existing package must be at
+        least 3.
+      - the Damerau–Levenshtein distance between the lowercased version of a
+        package name and the lowercased version of the name of any existing
+        package must be at least 2.
+      - and a visual distance from
+        [VisualStringDistances.jl](https://github.com/ericphanson/VisualStringDistances.jl)
+        between the package name and any existing package must exceeds a certain
+        a hand-chosen threshold (currently 2.5).
 
-For more details, see [Automatic merging guidelines][automerge-guidelines].
+    These checks and tolerances are subject to change in order to improve the
+    process.
+
+    To test yourself that a tentative package name, say `MyPackage` meets these
+    checks, you can use the following code (after adding the RegistryCI package
+    to your Julia environment):
+
+    ```julia
+    using RegistryCI
+    using RegistryCI.AutoMerge
+    all_pkg_names = AutoMerge.get_all_non_jll_package_names(path_to_registry)
+    AutoMerge.meets_distance_check("MyPackage", all_pkg_names)
+    ```
+
+    where `path_to_registry` is a path to the folder containing the registry of
+    interest. For the General Julia registry, usually `path_to_registry =
+    joinpath(DEPOT_PATH[1], "registries", "General")` if you haven't changed
+    your `DEPOT_PATH`. This will return a boolean, indicating whether or not
+    your tentative package name passed the check, as well as a string,
+    indicating what the problem is in the event the check did not pass.
+
+    Note that these automerge guidelines are deliberately conservative: it is
+    very possible for a perfectly good name to not pass the automatic checks and
+    require manual merging. They simply exist to provide a fast path so that
+    manual review is not required for every new package.
+
 Please report issues with automatic merging to the [RegistryCI repo][registryci].
 
 Currently the waiting period is as follows:
@@ -121,7 +176,7 @@ for users to navigate Julia's many varied packages.
 As long as the package is not yet registered, renaming the package from
 `OldName.jl` to `NewName.jl` is reasonably straightforward:
 
-* [Rename the GitHub repository](github-rename) to `NewName.jl`
+* [Rename the GitHub repository][github-rename] to `NewName.jl`
 * Rename the file `src/OldName.jl` to `src/NewName.jl`
 * Rename the top-level module to `NewName`
 * Update tests, documentation, etc, to reference the new name
@@ -131,7 +186,7 @@ Technically, you can't rename a package once registered, as this would break exi
 But you can re-register the package again under a new name with a new UUID.
 Which has basically the same effect.
 
- - Follow the instructions above for renaminging a package: rename on GitHub, rename files etc.
+ - Follow the instructions above for renaming a package: rename on GitHub, rename files etc.
  - Generate a new UUID for the Project.toml
  - Increment the version in the Project.toml as a breaking change.
  - [Register](#registering-a-package-in-general) it as if it were a new package
@@ -144,7 +199,7 @@ You also should let your users know about the rename, e.g. by placing a note in 
 or opening PRs/issues on downstream packages to change over.
 
 #### How do I transfer a package to an organization or another user?
- - Use the [GitHub transfer option](github-transfer) in the settings.
+ - Use the [GitHub transfer option][github-transfer] in the settings.
  - Manually, in the General edit the repo URL in package's `Package.toml` file (e.g [E/Example/Package.toml](https://github.com/JuliaRegistries/General/blob/master/E/Example/Package.toml#L3))
 
 Technically if you skip the second step things will keep working, because GitHub will redirect;
@@ -159,6 +214,10 @@ Report it to the package repository.
 You can't. Package registrations are **permanent**. A version can not be overwritten in the
 registry, and code cannot be deleted.
 
+## Registry maintenance
+
+The General registry is a shared resource that belongs to the entire Julia community. Therefore, we welcome comments and suggestions from everyone in the Julia community. However, all decisions regarding the General registry are ultimately up to the discretion of the registry maintainers.
+
 ## Disclaimer
 
 The General registry is open for everyone to register packages in. The General registry is
@@ -170,8 +229,6 @@ not a curated list of Julia packages. In particular this means that:
  - the General registry and its maintainers are **not** responsible for the package code
    you install through the General registry -- you are responsible for reviewing your
    code dependencies.
-
-
 
 [pkg]: https://julialang.github.io/Pkg.jl/v1/
 [registrator]: https://github.com/JuliaRegistries/Registrator.jl
@@ -185,3 +242,16 @@ not a curated list of Julia packages. In particular this means that:
 [registryci]: https://github.com/JuliaRegistries/RegistryCI.jl
 [github-rename]: https://help.github.com/en/github/administering-a-repository/renaming-a-repository
 [github-transfer]: https://help.github.com/en/github/administering-a-repository/transferring-a-repository
+
+## Tips for registry maintainers
+
+### Enabling/disabling AutoMerge
+
+To enable/disable automerge, make a pull request to edit the 
+[`.github/workflows/automerge.yml`](.github/workflows/automerge.yml) file. Specifically, you want
+to edit the lines near the bottom of the file that look like this:
+```yaml
+        env:
+          MERGE_NEW_PACKAGES: true
+          MERGE_NEW_VERSIONS: true
+```

@@ -1,6 +1,11 @@
 [0]
 julia = "1"
 
+["0-0.1.0"]
+BitConverter = "0.0.0 - 0.1"
+Ripemd = "0.0.0 - 0.2"
+Secp256k1 = "0.0.0 - 0.1"
+
 ["0.1.1"]
 BitConverter = "0.1"
 Ripemd = "0.2"
@@ -8,5 +13,5 @@ Secp256k1 = "0.1"
 
 ["0.1.2-0"]
 BitConverter = "0.1.1-0.1"
-Ripemd = "0"
-Secp256k1 = "0"
+Ripemd = "0.0.0 - 0.3"
+Secp256k1 = "0.0.0 - 0.1"

@@ -1,34 +1,34 @@
 [0]
-CSV = "0"
-DataFrames = "0"
-DataStructures = "0"
-Distributions = "0"
-Documenter = "0"
-Flux = "0"
+CSV = "0.0.0 - 0.5"
+DataFrames = "0.0.0 - 0.19"
+DataStructures = "0.0.0 - 0.18"
+Distributions = "0.0.0 - 0.21"
+Documenter = "0.0.0 - 0.25"
+Flux = "0.0.0 - 0.11"
 GLM = "0-1"
-GR = "0"
-JLD = "0"
+GR = "0.0.0 - 0.52"
+JLD = "0.0.0 - 0.10"
 Literate = "0-1"
-Optim = "0"
-Plots = "0"
-RDatasets = "0"
-Reexport = "0"
-StatisticalRethinking = "0"
-StatsBase = "0"
-StatsFuns = "0"
-StatsPlots = "0"
-Turing = "0"
+Optim = "0.0.0 - 0.22"
+Plots = "0.0.0 - 0.29"
+RDatasets = "0.0.0 - 0.6"
+Reexport = "0.0.0 - 0.2"
+StatisticalRethinking = "0.0.0 - 0.9"
+StatsBase = "0.0.0 - 0.33"
+StatsFuns = "0.0.0 - 0.8"
+StatsPlots = "0.0.0 - 0.12"
+Turing = "0.0.0 - 0.7"
 
 ["0-0.1"]
-MCMCChain = "0"
+MCMCChain = "0.0.0 - 0.2"
 
-[0-1]
+[0-2]
 julia = "1"
 
 ["0.2-0"]
-MCMCChains = "0"
+MCMCChains = "0.0.0 - 0.3"
 
-[1]
+["1-1.1.0"]
 Reexport = "0.2"
 
 ["1.0.0"]
@@ -40,11 +40,57 @@ StatsFuns = "0.8"
 StatsPlots = "0.12"
 Turing = "0.7"
 
-["1.0.1-1"]
+["1.0.1-1.0.2"]
 CSV = "0.5-0.6"
 DataFrames = "0.19-0.21"
 Distributions = "0.21-0.23"
 MCMCChains = "3"
 StatsFuns = ["0.7", "0.9"]
-StatsPlots = "0.14"
 Turing = "0.7-0.12"
+
+["1.0.1-1.0.3"]
+StatsPlots = "0.14"
+
+["1.0.3"]
+Turing = "0.13"
+
+["1.0.3-1"]
+MCMCChains = "3-4"
+
+["1.0.3-1.0"]
+DataFrames = "0.21"
+
+["1.0.3-1.0.5"]
+CSV = "0.7"
+Distributions = "0.23"
+
+["1.0.3-2"]
+StatsFuns = "0.9"
+
+["1.0.4-1.0"]
+Turing = "0.13-0.14"
+
+["1.0.5-1"]
+Bijectors = "0.8"
+
+["1.0.6-1"]
+CSV = "0.7-0.8"
+Distributions = "0.23-0.24"
+Formatting = "0.4"
+
+["1.1-1"]
+DataFrames = "0.21-0.22"
+Turing = "0.13-0.15"
+
+["1.1.1-1"]
+Reexport = ["0.2", "1"]
+
+[2]
+CSV = "0.8"
+DataFrames = "0.22"
+Distributions = "0.24"
+Franklin = "0.10"
+NodeJS = "1.1.0-1"
+RData = "0.7"
+StatsPlots = "0.14"
+Turing = "0.15"

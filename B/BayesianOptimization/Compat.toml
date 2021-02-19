@@ -2,15 +2,23 @@
 julia = "1"
 
 ["0-0.1"]
-DiffResults = "0"
-ElasticPDMats = "0.2.1-0"
-ForwardDiff = "0"
-GaussianProcesses = "0.9-0"
-NLopt = "0"
+DiffResults = "0.0.0 - 0.0.4"
+ElasticPDMats = "0.2.1 - 0.2"
+GaussianProcesses = "0.9.0 - 0.11"
 
-["0.1.1-0.1"]
-SpecialFunctions = "0"
-TimerOutputs = "0"
+["0-0.2.1"]
+ForwardDiff = "0.0.0 - 0.10"
+NLopt = "0.0.0 - 0.5"
+
+["0.1.1-0.2.1"]
+SpecialFunctions = "0.0.0 - 0.10"
+TimerOutputs = "0.0.0 - 0.5"
+
+["0.2-0.2.1"]
+DiffResults = "0.0.0 - 1"
+ElasticPDMats = "0.0.0 - 0.2"
+GaussianProcesses = "0.0.0 - 0.11"
+Sobol = "0.0.0 - 1"
 
 ["0.2.2"]
 GaussianProcesses = "0.9-0.11"
@@ -21,9 +29,14 @@ DiffResults = ["0.0.4", "1"]
 ElasticArrays = ["0.3-0.4", "1"]
 ForwardDiff = "0.9-0.10"
 Sobol = "1"
-SpecialFunctions = "0.7-0.10"
 TimerOutputs = "0.5"
+
+["0.2.2-0.2.3"]
+SpecialFunctions = "0.7-0.10"
 
 ["0.2.3-0"]
 GaussianProcesses = "0.9-0.12"
 NLopt = "0.4-0.6"
+
+["0.2.4-0"]
+SpecialFunctions = ["0.7-0.10", "1.2.0-1"]

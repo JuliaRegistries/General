@@ -44,11 +44,13 @@ Latexify = "0.11-0.12"
 ["0.9-2"]
 DiffEqBase = "6"
 
-["0.9-3"]
+["0.9-4.0.6"]
+StaticArrays = "0.10-0.12"
+
+["0.9-5"]
 DocStringExtensions = "0.7-0.8"
 MacroTools = "0.5"
 NaNMath = "0.3"
-StaticArrays = "0.10-0.12"
 
 ["1-1.1.2"]
 SpecialFunctions = "0.7-0.9"
@@ -56,44 +58,142 @@ SpecialFunctions = "0.7-0.9"
 ["1.0"]
 DiffRules = "0.1"
 
-["1.1-3"]
+["1.1-5"]
 DiffRules = ["0.1", "1"]
 
-["1.1.3-3"]
+["1.1.3-4.0.6"]
 SpecialFunctions = "0.7-0.10"
 
-["1.2-3"]
+["1.2-5"]
 julia = "1.2.0-1"
 
-["1.2.7-3"]
+["1.2.7-3.17"]
 Latexify = "0.11-0.13"
 
-[2-3]
+[2-5]
 SafeTestsets = "0.0.1"
 TreeViews = "0.3"
 Unitful = "1.1.0-1"
 
-[3]
-ArrayInterface = "2.8.0-2"
-DiffEqBase = "6.28.0-6"
-
 ["3-3.1"]
 UnPack = "0.1"
 
-["3.2-3"]
-UnPack = ["0.1", "1"]
+["3-3.9"]
+DiffEqBase = "6.28.0-6"
+
+["3-5.1"]
+ArrayInterface = "2.8.0-2"
+
+["3.10-3.20"]
+DiffEqBase = "6.38.0-6"
+
+["3.11-3.12"]
+SymbolicUtils = "0.4.1-0.4"
+
+["3.11-5.4"]
+Requires = "1"
+
+["3.12-3.12.1"]
+LabelledArrays = "1.2.0-1"
+
+["3.12.2-5"]
+LabelledArrays = "1.3.0-1"
+
+["3.13-3.15"]
+SymbolicUtils = "0.4.3-0.4"
+
+["3.16-3"]
+SymbolicUtils = "0.5"
+
+["3.17-5"]
+DataStructures = "0.17-0.18"
+
+["3.18-5"]
+Latexify = "0.11-0.14"
 
 ["3.2-3.3"]
 DiffEqJump = "6.6.2-6"
 SymbolicUtils = "0.3"
 
-["3.3-3"]
+["3.2-5"]
+UnPack = ["0.1", "1"]
+
+["3.20-5"]
+IfElse = "0.1"
+
+["3.21-3"]
+DiffEqBase = "6.48.0-6"
+
+["3.3-5"]
 RecursiveArrayTools = "2.3.0-2"
 
-["3.4-3"]
-DiffEqJump = "6.7.5-6"
-LightGraphs = "1.3.0-1"
+["3.4-3.8"]
 SymbolicUtils = "0.3.2-0.3"
 
-["3.6.2-3"]
+["3.4-5"]
+DiffEqJump = "6.7.5-6"
+LightGraphs = "1.3.0-1"
+
+["3.6.2-3.16"]
 DataStructures = "0.17"
+
+["3.9-3.10"]
+SymbolicUtils = "0.3.3-0.3"
+
+[4]
+DiffEqBase = "6.48.1-6"
+SymbolicUtils = "0.6"
+
+["4-4.4"]
+RuntimeGeneratedFunctions = "0.4"
+
+["4.0.7-5"]
+SpecialFunctions = ["0.7-0.10", "1"]
+StaticArrays = ["0.10-0.12", "1"]
+
+["4.3-5.3"]
+Distributions = "0.24"
+
+["4.5-5.6.0"]
+RuntimeGeneratedFunctions = "0.4-0.5"
+
+[5]
+Setfield = "0.7"
+
+["5-5.2.0"]
+SymbolicUtils = "0.7.4-0.7"
+
+["5.0"]
+DiffEqBase = "6.48.1-6"
+
+["5.1-5"]
+DiffEqBase = "6.54.0-6"
+
+["5.2-5"]
+ArrayInterface = "2.8.0-3"
+
+["5.2.1-5"]
+SciMLBase = "1.3.0-1"
+
+["5.2.1-5.6.0"]
+SymbolicUtils = "0.7.4-0.8"
+
+["5.3-5.5"]
+Reexport = "1"
+
+["5.4-5"]
+Distributions = "0.23-0.24"
+
+["5.5"]
+Requires = ["0.2", "1"]
+
+["5.6-5"]
+Reexport = ["0.2", "1"]
+Requires = "1"
+
+["5.6.1-5"]
+RuntimeGeneratedFunctions = "0.4.3-0.5"
+SymbolicUtils = "0.8"
+
+["5.6.2-5"]
+ConstructionBase = "1"

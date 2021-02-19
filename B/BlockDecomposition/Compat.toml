@@ -2,8 +2,15 @@
 julia = "1"
 
 ["1-1.1.0"]
-JuMP = "0.19.0-*"
+DataStructures = "0.0.0 - 0.18"
+JuMP = "0.19.0 - 0.21"
+MathOptInterface = "0.0.0 - 0.9"
 
 ["1.1.1-1"]
 JuMP = "0.21"
+
+["1.1.1-1.2.1"]
 MathOptInterface = "0.9"
+
+["1.2.2-1"]
+MathOptInterface = "0.9.10-0.9"

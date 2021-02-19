@@ -13,7 +13,7 @@ BandedMatrices = "0.14"
 ["0-0.2.6"]
 FillArrays = "0.8"
 
-["0.2-0"]
+["0.2"]
 julia = "1.2.0-1"
 
 ["0.2-0.2.3"]
@@ -26,14 +26,29 @@ LazyArrays = "0.14.3-0.15"
 ["0.2.1-0.2.2"]
 LazyArrays = "0.15"
 
-["0.2.10-0"]
+["0.2.10"]
+BlockArrays = "0.12.7-0.12"
+LazyArrays = "0.16.10-0.16"
+
+["0.2.10-0.2.11"]
 ArrayLayouts = "0.3.3-0.3"
 BandedMatrices = "0.15.10-0.15"
-BlockArrays = "0.12.7-0.12"
 BlockBandedMatrices = "0.8.5-0.8"
 FillArrays = "0.8.10-0.8"
-LazyArrays = "0.16.10-0.16"
 MatrixFactorizations = "0.4.1-0.4"
+
+["0.2.11"]
+BlockArrays = "0.12.8-0.12"
+LazyArrays = "0.16.12-0.16"
+
+["0.2.12-0.2"]
+ArrayLayouts = "0.3.6-0.3"
+BandedMatrices = "0.15.15-0.15"
+BlockArrays = "0.12.10-0.12"
+BlockBandedMatrices = "0.8.10-0.8"
+FillArrays = "0.8.13-0.8"
+LazyArrays = "0.16.15-0.16"
+MatrixFactorizations = "0.4.1-0.5"
 
 ["0.2.2-0.2.3"]
 MatrixFactorizations = "0.2.1-0.3"
@@ -69,3 +84,72 @@ MatrixFactorizations = "0.4"
 
 ["0.2.8-0.2.9"]
 ArrayLayouts = "0.2.6-0.3"
+
+["0.3"]
+BlockArrays = "0.12.12-0.12"
+BlockBandedMatrices = "0.9"
+
+["0.3-0"]
+julia = "1.5.0-1"
+
+["0.3-0.3.1"]
+BandedMatrices = "0.15.16-0.15"
+MatrixFactorizations = "0.5.2-0.5"
+
+["0.3.0"]
+ArrayLayouts = "0.4.2-0.4"
+FillArrays = "0.9.2-0.9"
+LazyArrays = "0.17"
+
+["0.3.1"]
+ArrayLayouts = "0.4.3-0.4"
+FillArrays = "0.9.3-0.9"
+LazyArrays = "0.17.1-0.17"
+
+["0.3.2"]
+BandedMatrices = "0.15.18-0.15"
+LazyArrays = "0.17.4-0.17"
+
+["0.3.2-0.3"]
+ArrayLayouts = "0.4.4-0.4"
+
+["0.3.2-0.3.5"]
+FillArrays = "0.9.4-0.9"
+MatrixFactorizations = "0.5.2-0.6"
+
+["0.3.3-0.3"]
+BandedMatrices = "0.15.20-0.15"
+
+["0.3.3-0.3.5"]
+LazyArrays = "0.18"
+
+["0.3.6-0.3"]
+FillArrays = "0.9.4-0.10"
+LazyArrays = "0.18-0.19"
+MatrixFactorizations = "0.6"
+
+["0.4"]
+ArrayLayouts = "0.5"
+MatrixFactorizations = "0.7.1-0.8"
+
+["0.4-0"]
+BlockArrays = "0.14"
+BlockBandedMatrices = "0.10"
+FillArrays = "0.11"
+LazyArrays = "0.20"
+
+["0.4-0.4.5"]
+BandedMatrices = "0.16"
+
+["0.4.0"]
+StaticArrays = "0.12"
+
+["0.4.1-0"]
+StaticArrays = ["0.12", "1"]
+
+["0.4.6-0"]
+BandedMatrices = "0.16.4-0.16"
+
+["0.5-0"]
+ArrayLayouts = "0.6.1-0.6"
+MatrixFactorizations = "0.8"

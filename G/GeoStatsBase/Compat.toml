@@ -1,18 +1,58 @@
+["0-0.4"]
+StaticArrays = "0.7.0 - 0.11"
+
 ["0-0.4.0"]
 julia = ["0.7", "1"]
 
-["0-0.4.1"]
-StaticArrays = "0.7-0"
+["0.10-0.15.1"]
+DataFrames = ["0.18", "0.20-0.21"]
 
-["0.3-0.4.1"]
-Parameters = "0.7.3-0"
+["0.10.1-0"]
+Combinatorics = "1"
+
+["0.10.1-0.17.0"]
+MLJModelInterface = "0.2-0.3"
+
+["0.10.3-0.13"]
+Optim = ["0.18", "0.20-0.22"]
+
+["0.10.4-0.15.1"]
+CSV = "0.5-0.7"
+
+["0.11-0"]
+julia = "1.4.0-1"
+
+["0.12.1-0"]
+ScientificTypes = ["0.7-0.8", "1"]
+
+["0.13-0"]
+Transducers = "0.4"
+
+["0.14-0"]
+Distances = "0.10"
+Distributions = "0.21-0.24"
+Optim = ["0.18", "0.20-0.22", "1"]
+ReferenceFrameRotations = "0.5"
+
+["0.14.3-0"]
+CategoricalArrays = "0.7-0.9"
+
+["0.15.2-0"]
+CSV = "0.5-0.8"
+DataFrames = ["0.18", "0.20-0.22"]
+SpecialFunctions = ["0.7-0.10", "1"]
+
+["0.16-0"]
+StaticArrays = ["0.12", "1"]
+
+["0.17.1-0"]
+MLJModelInterface = "0.2-0.4"
+
+["0.3-0.4"]
+Parameters = "0.7.3 - 0.10"
 
 ["0.4.1-0.8.2"]
 julia = "1"
-
-["0.4.2-0.4"]
-Parameters = "0.7.3-*"
-StaticArrays = "0.7.0-*"
 
 ["0.5-0"]
 NearestNeighbors = "0.4"
@@ -56,7 +96,7 @@ MLJBase = "0.7"
 ["0.6.2-0.7"]
 Optim = "0.18"
 
-["0.6.4-0"]
+["0.6.4-0.15"]
 StaticArrays = "0.12"
 
 ["0.7"]
@@ -66,14 +106,21 @@ SpecialFunctions = "0.7"
 MLJBase = "0.8"
 
 ["0.8-0"]
-CSV = "0.5-0.6"
-DataFrames = ["0.18", "0.20"]
 DensityRatioEstimation = "0.4"
-Distributions = "0.21-0.23"
-MLJModelInterface = "0.2"
-OrderedCollections = "1.1.0-1"
 StatsBase = "0.32-0.33"
 Tables = "1"
+
+["0.8-0.10"]
+OrderedCollections = "1.1.0-1"
+
+["0.8-0.10.0"]
+MLJModelInterface = "0.2"
+
+["0.8-0.10.3"]
+CSV = "0.5-0.6"
+
+["0.8-0.13"]
+Distributions = "0.21-0.23"
 
 ["0.8-0.8.2"]
 RecipesBase = "0.7-0.8"
@@ -91,22 +138,29 @@ ScientificTypes = "0.7"
 ["0.8-0.8.6"]
 Optim = ["0.18", "0.20"]
 
+["0.8-0.9"]
+DataFrames = ["0.18", "0.20"]
+
 ["0.8.3-0"]
 RecipesBase = ["0.7-0.8", "1"]
-SpecialFunctions = "0.7-0.10"
+
+["0.8.3-0.10"]
 julia = "1.1.0-1"
+
+["0.8.3-0.15.1"]
+SpecialFunctions = "0.7-0.10"
 
 ["0.8.4-0"]
 LossFunctions = "0.6"
 
-["0.8.5-0"]
+["0.8.5-0.14.2"]
 CategoricalArrays = "0.7-0.8"
 
-["0.8.6-0"]
+["0.8.6-0.12.0"]
 ScientificTypes = "0.7-0.8"
 
-["0.8.7-0"]
+["0.8.7-0.10.2"]
 Optim = ["0.18", "0.20-0.21"]
 
-["0.9.4-0"]
+["0.9.4-0.13"]
 Distances = "0.8-0.9"

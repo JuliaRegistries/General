@@ -2,22 +2,39 @@ name: AutoMerge
 
 on:
   schedule:
-    - cron: '05,17,29,41,53 * * * *'
+    # The cron job is just a fallback.
+    # The "stopwatch" functionality that we have implemented should
+    # ensure that an AutoMerge merge job is run at least every 8 minutes.
+    # Therefore, it's sufficient for us to run the fallback job infrequently.
+    # We will choose to run the fallback job every 4 hours.
+    - cron:  '0 */4 * * *'
   pull_request:
+  workflow_dispatch:
+
+# Disable PkgServer to avoid random issues.
+# TODO: remove this when PkgServer feels better
+env:
+  JULIA_PKG_SERVER: ""
 
 jobs:
   AutoMerge:
+    timeout-minutes: 60
+    if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        julia-version: [1.4.2]
-        julia-arch: [x86]
-        os: [ubuntu-latest]
+        version:
+          - '^1.6.0-0' # TODO: remove this line once 1.6 is released
+          # - '1.6'    # TODO: uncomment this line once 1.6 is released
+        os:
+          - ubuntu-latest
+        arch:
+          - x64
     steps:
       - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819 # v1.0.0
-      - uses: julia-actions/setup-julia@082493e5c5d32c1fa68c35556429b0f1b2807453 # v1.0.1
+      - uses: julia-actions/setup-julia@0b9b1d2cd24245f151902702d8e73b3f6b910014 # v1.6.0
         with:
-          version: ${{ matrix.julia-version }}
+          version: ${{ matrix.version }}
       - name: Cache artifacts
         uses: actions/cache@v1
         env:
@@ -33,6 +50,47 @@ jobs:
         run: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
       - name: AutoMerge.run
         env:
+          MERGE_NEW_PACKAGES: true
+          MERGE_NEW_VERSIONS: true
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUTOMERGE_TAGBOT_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
           JULIA_DEBUG: RegistryCI,AutoMerge
-        run: julia --project=.ci/ -e 'using RegistryCI; using Dates; RegistryCI.AutoMerge.run(merge_new_packages = true, merge_new_versions = true, new_package_waiting_period = Day(3), new_jll_package_waiting_period = Minute(15), new_version_waiting_period = Minute(15), new_jll_version_waiting_period = Minute(15), registry = "JuliaRegistries/General", authorized_authors = String["JuliaRegistrator"], authorized_authors_special_jll_exceptions = String["jlbuild"], suggest_onepointzero = false, additional_statuses = String[], additional_check_runs = String["Travis CI - Pull Request"])'
+        run: |
+          using RegistryCI
+          using Dates
+
+          RegistryCI.AutoMerge.run(
+            merge_new_packages = ENV["MERGE_NEW_PACKAGES"] == "true",
+            merge_new_versions = ENV["MERGE_NEW_VERSIONS"] == "true",
+            new_package_waiting_period = Day(3),
+            new_jll_package_waiting_period = Minute(20),
+            new_version_waiting_period = Minute(10),
+            new_jll_version_waiting_period = Minute(10),
+            registry = "JuliaRegistries/General",
+            tagbot_enabled = true,
+            authorized_authors = String["JuliaRegistrator"],
+            authorized_authors_special_jll_exceptions = String["jlbuild"],
+            suggest_onepointzero = false,
+            additional_statuses = String[],
+            additional_check_runs = String[],
+            public_registries = String["https://github.com/HolyLab/HolyLabRegistry"],
+          )
+        shell: julia --color=yes --project=.ci/ {0}
+
+  AutoMerge-stopwatch:
+    timeout-minutes: 60
+    if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
+    environment: stopwatch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819 # v1.0.0
+      - uses: julia-actions/setup-julia@0b9b1d2cd24245f151902702d8e73b3f6b910014 # v1.6.0
+        with:
+          version: '^1.6.0-0' # TODO: remove this line once 1.6 is released
+          # version: '1.6' # TODO: uncomment this line once 1.6 is released
+      - run: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
+      - run: julia --project=.ci/ -e 'using Pkg; Pkg.precompile()'
+      - run: julia --project=.ci/ .ci/stopwatch.jl
+        env:
+          AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUTOMERGE_TAGBOT_TOKEN: ${{ secrets.TAGBOT_TOKEN }}

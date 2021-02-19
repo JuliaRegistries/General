@@ -1,10 +1,16 @@
 [0]
 NamedDims = "0.1-0.2"
-StatsBase = "0.32"
 julia = "1"
 
 ["0-0.1.0"]
 Distributions = ["0.16", "0.22"]
 
-["0.1.1-0"]
+["0-0.2.3"]
+StatsBase = "0.32"
+
+["0.1.1-0.2.3"]
 Distributions = "0.16-0.23"
+
+["0.2.4-0"]
+Distributions = "0.16-0.24"
+StatsBase = "0.32-0.33"

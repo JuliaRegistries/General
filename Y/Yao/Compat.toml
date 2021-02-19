@@ -4,38 +4,48 @@ IterTools = "0-1"
 julia = "0.6-1"
 
 ["0-0.2"]
-Lazy = "0"
+Lazy = "0.0.0 - 0.15"
 
 ["0-0.3"]
-DataStructures = "0"
-FFTW = "0"
-MacroTools = "0"
-Reexport = "0"
-StaticArrays = "0"
-StatsBase = "0"
+DataStructures = "0.0.0 - 0.18"
+FFTW = "0.0.0 - 0.3"
+MacroTools = "0.0.0 - 0.5"
+StaticArrays = "0.0.0 - 0.12"
+StatsBase = "0.0.0 - 0.33"
+
+["0-0.5"]
+Reexport = "0.0.0 - 0.2"
 
 ["0.2"]
 julia = ["0.7", "1"]
 
 ["0.2-0.3"]
-CacheServers = "0"
-LuxurySparse = "0"
+CacheServers = "0.0.0 - 0.2"
+LuxurySparse = "0.0.0 - 0.6"
 
 ["0.2.2-0.2"]
 Compat = "0-2"
 IterTools = "0-1"
 
 ["0.2.2-0.3"]
-Expokit = "0"
+Expokit = "0.0.0 - 0.2"
 LinearMaps = "0-2"
 
 ["0.3-0"]
 julia = "1"
 
+["0.4-0.5"]
+BitBasis = "0.0.0 - 0.6"
+
+["0.4.0"]
+YaoArrayRegister = "0.0.0 - 0.3"
+YaoBase = "0.0.0 - 0.9"
+YaoBlocks = "0.0.0 - 0.3"
+
 ["0.4.1"]
-YaoArrayRegister = "0.3.5-0"
-YaoBase = "0.9.1-0"
-YaoBlocks = "0.3.2-0"
+YaoArrayRegister = "0.3.5 - 0.3"
+YaoBase = "0.9.1 - 0.9"
+YaoBlocks = "0.3.2 - 0.3"
 
 ["0.4.2-0.4"]
 YaoBlocks = "0.3"
@@ -53,14 +63,23 @@ YaoBase = "0.11"
 YaoBlocks = "0.6"
 
 ["0.6-0"]
-BitBasis = "0.6"
 Reexport = "0.2"
-YaoArrayRegister = "0.6"
-YaoBase = "0.13"
-YaoBlocks = "0.8-0.10"
 
 ["0.6-0.6.1"]
 YaoSym = "0.3"
 
-["0.6.2-0"]
+["0.6-0.6.2"]
+BitBasis = "0.6"
+YaoArrayRegister = "0.6"
+YaoBase = "0.13"
+YaoBlocks = "0.8-0.10"
+
+["0.6.2"]
 YaoSym = "0.3-0.4"
+
+["0.6.3-0"]
+BitBasis = "0.7"
+YaoArrayRegister = "0.7"
+YaoBase = "0.14"
+YaoBlocks = "0.11"
+YaoSym = "0.4"

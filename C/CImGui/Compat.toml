@@ -1,18 +1,27 @@
 ["1-1.69.0"]
-BinaryProvider = "0.3-0"
-CSyntax = "0"
+BinaryProvider = "0.3.0 - 0.5"
 GLFW = "0-2"
 ModernGL = "0-1"
 
+["1-1.69.1"]
+CSyntax = "0.0.0 - 0.2"
+
 ["1-1.73"]
 julia = "1"
+
+["1.69.1"]
+BinaryProvider = "0.0.0 - 0.5"
+GLFW = "0.0.0 - 2"
+
+["1.69.1-1.73"]
+ModernGL = "0.0.0 - 1"
 
 ["1.69.2"]
 GLFW = "2.3"
 
 ["1.69.2-1.73"]
-BinaryProvider = "0.3.0-*"
-CSyntax = "0.2.0-*"
+BinaryProvider = "0.3.0 - 0.5"
+CSyntax = "0.2.0 - 0.2"
 
 ["1.69.3-1.73"]
 GLFW = "3"
@@ -37,5 +46,17 @@ CImGui_jll = "1.75"
 ["1.75.1-1"]
 CSyntax = "0.4"
 
-["1.76-1"]
+["1.76"]
 CImGui_jll = "1.76.0-1"
+
+["1.77.0"]
+CImGui_jll = "1.77.0-1"
+
+["1.77.1-1.77"]
+CImGui_jll = "1.77"
+
+["1.78"]
+CImGui_jll = "1.78"
+
+["1.79-1"]
+CImGui_jll = "1.79"

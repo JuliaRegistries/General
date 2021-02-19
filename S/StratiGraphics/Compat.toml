@@ -1,24 +1,26 @@
+["0-0.1.0"]
+Distributions = "0.16.4 - 0.20"
+RecipesBase = "0.6.0 - 0.6"
+
 ["0.0"]
-Distributions = "0.16.4-0"
-GeoStatsBase = "0.3.3-0"
-GeoStatsDevTools = "0.3.7-0"
-RecipesBase = "0.6-0"
+GeoStatsBase = "0.3.3 - 0.5"
+GeoStatsDevTools = "0.3.7 - 0.5"
 julia = "1.1-1"
 
 ["0.1.0"]
-Distributions = "0.16.4-*"
-GeoStatsBase = "0.4.2-*"
-GeoStatsDevTools = "0.4.3-*"
-ImageFiltering = "0.5.4-*"
-RecipesBase = "0.6.0-*"
+GeoStatsBase = "0.4.2 - 0.5"
+GeoStatsDevTools = "0.4.3 - 0.5"
+ImageFiltering = "0.5.4 - 0.6"
 julia = "1.1.0-1"
 
 ["0.1.1-0"]
 ImageFiltering = "0.6"
-julia = "1"
 
 ["0.1.1-0.1"]
 GeoStatsBase = "0.5"
+
+["0.1.1-0.2"]
+julia = "1"
 
 ["0.1.1-0.2.0"]
 Distributions = "0.20"
@@ -38,9 +40,42 @@ GeoStatsBase = "0.7"
 GeoStatsBase = "0.7-0.8"
 RecipesBase = "0.7-0.8"
 
-["0.2.3-0"]
+["0.2.3-0.3.2"]
 Distributions = "0.21-0.23"
 
-["0.2.4-0"]
+["0.2.4"]
 GeoStatsBase = "0.7-0.9"
+
+["0.2.4-0.3.5"]
 RecipesBase = ["0.7-0.8", "1"]
+
+["0.2.5-0.2"]
+GeoStatsBase = "0.10"
+
+["0.3-0"]
+julia = "1.4.0-1"
+
+["0.3.0"]
+GeoStatsBase = "0.11"
+
+["0.3.1"]
+GeoStatsBase = "0.12"
+
+["0.3.2"]
+GeoStatsBase = "0.13"
+
+["0.3.3"]
+GeoStatsBase = "0.13-0.14"
+
+["0.3.3-0"]
+Distributions = "0.21-0.24"
+
+["0.3.4"]
+GeoStatsBase = "0.13-0.15"
+
+["0.3.5"]
+GeoStatsBase = "0.16"
+
+["0.3.6-0"]
+GeoStatsBase = "0.17"
+RecipesBase = "1"

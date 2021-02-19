@@ -1,0 +1,63 @@
+[0]
+BlackBoxOptim = "0.5"
+DocStringExtensions = "0.8"
+LaTeXStrings = "1.1.0-1"
+Parameters = "0.12"
+RecipesBase = "1"
+julia = "1"
+
+["0-0.1"]
+ArgParse = "1.1.0-1"
+DataFrames = "0.21"
+Documenter = "0.24"
+FITSIO = "0.14"
+Optim = "0.21"
+
+["0-0.2"]
+PhysicalConstants = "0.2"
+
+["0-0.5"]
+DocumenterTools = "0.1"
+Plots = "1.4.0-1"
+
+["0-0.6"]
+SpecialFunctions = "0.10"
+
+["0.2"]
+FITSIO = "0.14-0.15"
+Optim = "0.20-0.22"
+
+["0.2-0.5"]
+Documenter = "0.24-0.25"
+
+["0.2-0.6"]
+DataFrames = "0.19-0.21"
+
+["0.3-0"]
+FITSIO = "0.14-0.16"
+
+["0.3.0"]
+Optim = "0.20-0.21"
+
+["0.3.1-0.5"]
+Optim = "0.20-0.22"
+
+["0.4-0.5"]
+Interpolations = "0.12"
+
+["0.6-0"]
+CMAEvolutionStrategy = "0.1"
+Interpolations = "0.12-0.13"
+Optim = ["0.20-0.22", "1"]
+Requires = "1.1.0-1"
+
+["0.6.1-0"]
+Measures = "0.3"
+
+["0.6.2-0"]
+HDF5 = "0.14"
+
+["0.7-0"]
+DataFrames = "0.19-0.22"
+ImageFiltering = "0.6"
+SpecialFunctions = ["0.10", "1"]

@@ -5,9 +5,13 @@ julia = ["0.7", "1"]
 OnlineStats = "0-0.23"
 OnlineStatsBase = "0-0.10"
 
-["0.2"]
-MultivariateStats = "0"
-StatsBase = "0"
+["0.2-0.3"]
+MultivariateStats = "0.0.0 - 0.7"
+StatsBase = "0.0.0 - 0.32"
+
+["0.3"]
+OnlineStats = "0.0.0 - 1"
+OnlineStatsBase = "0.0.0 - 1"
 
 ["0.3-0"]
 julia = "1"

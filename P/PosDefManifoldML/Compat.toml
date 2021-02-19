@@ -1,6 +1,5 @@
 [0]
 LIBSVM = "0.4"
-StatsBase = "0.32"
 julia = "1"
 
 ["0-0.3.1"]
@@ -11,6 +10,9 @@ Distributions = "0.21.11-0.21"
 
 ["0-0.3.7"]
 GLMNet = "0.4.2-0.4"
+
+["0-0.4.3"]
+StatsBase = "0.32"
 
 ["0.3.2"]
 PosDefManifold = "0.4.4-0.4"
@@ -24,9 +26,15 @@ PosDefManifold = "0.4.6-0.4"
 ["0.3.4"]
 Distributions = "0.22.4-0.22"
 
-["0.3.5-0"]
+["0.3.5-0.4.3"]
 Distributions = "0.22"
 
-["0.3.8-0"]
+["0.3.8-0.4.3"]
 GLMNet = "0.5.1-0.5"
 PosDefManifold = "0.4.7-0.4"
+
+["0.4.4-0"]
+Distributions = "0.22.6-0.22"
+GLMNet = "0.5.2-0.5"
+PosDefManifold = "0.4.8-0.4"
+StatsBase = "0.32.2-0.32"

@@ -2,14 +2,14 @@
 DiffEqBiological = "3.5.4-3"
 
 ["0-0.1.4"]
-CSVFiles = "0.14-0"
-DataFrames = "0.17.1-0"
-DataStructures = "0.15-0"
+CSVFiles = "0.14.0 - 0.16"
+DataFrames = "0.17.1 - 0.21"
+DataStructures = "0.15.0 - 0.17"
 DiffEqBase = "5.4-5"
 OrdinaryDiffEq = "5.2.1-5"
-Plots = "0.23-0"
+Plots = "0.23.0 - 0.29"
 Sundials = "3"
-TimerOutputs = "0.4-0"
+TimerOutputs = "0.4.0 - 0.5"
 julia = "1.1-1"
 
 ["0.1.3"]
@@ -18,5 +18,41 @@ DiffEqBiological = "3.7-3"
 ["0.1.4"]
 DiffEqBiological = "3.7.2-3"
 
-["0.1.5-0"]
+["0.1.5-0.1"]
+CSVFiles = "0.0.0 - 1"
+DataFrames = "0.0.0 - 0.21"
+DataStructures = "0.0.0 - 0.17"
+DiffEqBase = "0.0.0 - 6"
+DiffEqBiological = "0.0.0 - 4"
+OrdinaryDiffEq = "0.0.0 - 5"
+Plots = "0.0.0 - 1"
+Sundials = "0.0.0 - 4"
+TimerOutputs = "0.0.0 - 0.5"
 julia = "1"
+
+["0.2"]
+Catalyst = "5.0.5-5"
+DataStructures = "0.17.20-0.17"
+ModelingToolkit = "3.15.0-3"
+
+["0.2-0"]
+julia = "1.3.0-1"
+
+["0.3"]
+Catalyst = "6"
+ModelingToolkit = "4.0.6-4"
+
+["0.3-0"]
+DataStructures = "0.18"
+
+["0.3-0.4"]
+SymbolicUtils = "0.6"
+
+["0.4"]
+Catalyst = "6.3.0-6"
+ModelingToolkit = "4.4.0-4"
+
+["0.5-0"]
+Catalyst = "6.4.0-6"
+ModelingToolkit = "5"
+SymbolicUtils = "0.7"

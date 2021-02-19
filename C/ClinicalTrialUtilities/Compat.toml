@@ -1,21 +1,34 @@
 [0]
 julia = "1"
 
+["0-0.1"]
+SpecialFunctions = "0.0.0 - 0.9"
+
+["0-0.1.14"]
+Distributions = "0.0.0 - 0.20"
+
 ["0-0.1.5"]
-Rmath = "0"
+Rmath = "0.0.0 - 0.6"
 
 ["0-0.1.7"]
-Distributions = "0"
 QuadGK = "0-2"
-SpecialFunctions = "0"
+
+["0.1.11-0.1.14"]
+StatsBase = "0.0.0 - 0.31"
 
 ["0.1.15-0.1"]
 DataFrames = "0.11-0.18"
 Distributions = "0.16-0.20"
 StatsBase = "0.30-0.31"
 
-["0.1.7"]
-Roots = "0"
+["0.1.7-0.1"]
+Roots = "0.0.0 - 0.8"
+
+["0.1.8-0.1"]
+QuadGK = "0.0.0 - 2"
+
+["0.1.9-0.1.14"]
+DataFrames = "0.0.0 - 0.18"
 
 ["0.2-0"]
 QuadGK = "2"
@@ -39,24 +52,42 @@ Distributions = "0.16-0.22"
 ["0.2.2-0.2.4"]
 RecipesBase = "0.7"
 
-["0.2.3-0"]
-DataFrames = "0.19-0.20"
-Reexport = "0.1-0.2"
-
 ["0.2.3-0.2.5"]
 CSV = "0.5"
 
+["0.2.3-0.3"]
+DataFrames = "0.19-0.20"
+
+["0.2.3-0.4.0"]
+Reexport = "0.1-0.2"
+
 ["0.2.4-0"]
-Distributions = "0.16-0.23"
 Roots = ["0.7-0.8", "1"]
+
+["0.2.4-0.3.1"]
+Distributions = "0.16-0.23"
 
 ["0.2.5"]
 RecipesBase = "0.7-0.8"
 
 ["0.2.5-0"]
-SpecialFunctions = "0.8-0.10"
 StatsBase = "0.22-0.33"
 
+["0.2.5-0.3.1"]
+SpecialFunctions = "0.8-0.10"
+
 ["0.2.6-0"]
-CSV = "0.5-0.6"
 RecipesBase = ["0.7-0.8", "1"]
+
+["0.2.6-0.3.1"]
+CSV = "0.5-0.6"
+
+["0.3.2-0"]
+Distributions = "0.16-0.24"
+SpecialFunctions = ["0.8-0.10", "1"]
+
+["0.4-0"]
+DataFrames = "0.19-0.22"
+
+["0.4.1-0"]
+Reexport = ["0.1-0.2", "1"]

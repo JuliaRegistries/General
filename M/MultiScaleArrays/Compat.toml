@@ -10,10 +10,14 @@ julia = "1"
 
 ["1.4"]
 StochasticDiffEq = "0-6"
+
+["1.4-1.5"]
 TreeViews = "0.0.0 - 0.3"
 
 ["1.5"]
-RecursiveArrayTools = "0.20.0-*"
+DiffEqBase = "0.0.0 - 6"
+RecursiveArrayTools = "0.20.0 - 2"
+StochasticDiffEq = "0.0.0 - 6"
 
 ["1.6-1"]
 DiffEqBase = "6.5.0-6"

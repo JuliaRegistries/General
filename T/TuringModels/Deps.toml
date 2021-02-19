@@ -16,13 +16,17 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 MCMCChain = "1671dc4f-43c8-512c-ab25-e1704a74065e"
 
 [0-1]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-1.0.3"]
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+
+[0-2]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
-StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
 
 ["0.2-1"]
@@ -33,3 +37,18 @@ Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 [1]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["1.0.5-1"]
+Bijectors = "76274a88-744f-5084-9051-94815aaf08c4"
+
+["1.0.6-1"]
+Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
+
+[2]
+Franklin = "713c75ef-9fc9-4b05-94a9-213340da978e"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+NodeJS = "2bd173c7-0d6d-553b-b6af-13a54713934c"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+RData = "df47a6cb-8c03-5eed-afd8-b6050d6c41da"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"

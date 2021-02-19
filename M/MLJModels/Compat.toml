@@ -1,8 +1,8 @@
-[0]
-julia = "1"
-
 ["0-0.1.0"]
 MLJBase = "0.0.0 - 0.2"
+
+["0-0.13"]
+julia = "1"
 
 ["0-0.5.1"]
 CategoricalArrays = "0.0.0 - 0.7"
@@ -12,6 +12,48 @@ Requires = "0.0.0 - 1"
 
 ["0.1.1-0.1"]
 MLJBase = "0.1.1 - 0.2"
+
+["0.11-0.12.0"]
+MLJBase = "0.14"
+
+["0.11-0.12.6"]
+Distances = "0.9"
+
+["0.11.3-0.12.9"]
+StableRNGs = "0.1"
+
+["0.12-0.12.4"]
+ScientificTypes = ["0.8", "1"]
+
+["0.12-0.13"]
+MLJModelInterface = "0.3.4-0.3"
+
+["0.12.1-0.12"]
+MLJBase = "0.14-0.15"
+
+["0.12.5-0.12"]
+MLJScientificTypes = "0.3"
+
+["0.12.6-0"]
+Distributions = "0.22-0.24"
+
+["0.12.7-0"]
+Distances = "0.9-0.10"
+
+["0.13"]
+MLJBase = "0.14-0.16"
+
+["0.13-0"]
+CategoricalArrays = "0.8-0.9"
+MLJScientificTypes = ["0.3", "0.4.1-0.4"]
+
+["0.13.3-0.13"]
+MacroTools = "0.5"
+
+["0.14-0"]
+MLJBase = "0.17.1-0.17"
+MLJModelInterface = "0.4"
+julia = "1.1.0-1"
 
 ["0.2-0.2.3"]
 MLJBase = "0.2"
@@ -65,7 +107,7 @@ ColorTypes = "0.8"
 ["0.5.2-0.9.2"]
 StatsBase = "0.32"
 
-["0.5.6-0"]
+["0.5.6-0.10"]
 Distances = "0.8"
 
 ["0.5.6-0.5"]
@@ -84,7 +126,7 @@ CategoricalArrays = "0.7"
 ["0.5.7"]
 MLJBase = "0.8.1-0.8"
 
-["0.5.8-0"]
+["0.5.8-0.12.4"]
 MultivariateStats = "0.7"
 
 ["0.5.8-0.5"]
@@ -117,18 +159,27 @@ ScientificTypes = "0.7"
 ["0.8.2-0"]
 Tables = ["0.2", "1"]
 
-["0.9-0"]
+["0.9-0.9.11"]
 MLJModelInterface = "0.2"
 
 ["0.9-0.9.7"]
 MLJBase = "0.12"
 
-["0.9.1-0"]
+["0.9.1-0.12.5"]
 Distributions = "0.22-0.23"
 
-["0.9.11-0"]
-CategoricalArrays = "0.8"
+["0.9.11-0.10"]
 MLJBase = "0.13.6-0.13"
+
+["0.9.11-0.12"]
+CategoricalArrays = "0.8"
+
+["0.9.12"]
+MLJModelInterface = "0.2-0.3"
+
+["0.9.13-0.11"]
+MLJModelInterface = "0.3"
+ScientificTypes = "0.8"
 
 ["0.9.3-0"]
 StatsBase = "0.32-0.33"
@@ -136,5 +187,5 @@ StatsBase = "0.32-0.33"
 ["0.9.8-0.9.10"]
 MLJBase = "0.12-0.13"
 
-["0.9.9-0"]
+["0.9.9-0.9.12"]
 ScientificTypes = "0.7-0.8"

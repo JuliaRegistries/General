@@ -3,8 +3,10 @@ Compat = "0.65-2"
 PyCall = "1.6.2-1"
 julia = "0.6-1"
 
+["2-2.8"]
+Colors = "0.0.0 - 0.12"
+
 ["2-2.8.1"]
-Colors = "0"
 LaTeXStrings = "0-1"
 VersionParsing = "1"
 
@@ -13,7 +15,9 @@ PyCall = "1.90-1"
 julia = ["0.7", "1"]
 
 ["2.8.2-2.8"]
-PyCall = "1.90.0-*"
+LaTeXStrings = "0.0.0 - 1"
+PyCall = "1.90.0 - 1"
+VersionParsing = "0.0.0 - 1"
 julia = ["0.7.0", "1"]
 
 ["2.9-2"]

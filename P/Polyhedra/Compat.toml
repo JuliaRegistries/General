@@ -1,26 +1,21 @@
 ["0-0.4"]
-JuMP = "0.16-0"
-MathProgBase = "0.5.10-0"
+JuMP = "0.16.0 - 0.19"
+MathProgBase = "0.5.10 - 0.7"
 julia = ["0.7", "1"]
 
-["0-0.5.0"]
-GeometryTypes = "0.4-0"
-RecipesBase = "0.2-0"
-StaticArrays = "0.5-0"
+["0-0.5.6"]
+GeometryTypes = "0.4.0 - 0.7"
+RecipesBase = "0.2.0 - 0.7"
+StaticArrays = "0.5.0 - 0.12"
 
 ["0.5-0"]
 julia = "1"
 
 ["0.5.0"]
-JuMP = "0.19-0"
+JuMP = "0.19.0 - 0.19"
 
 ["0.5.1-0.5.3"]
 JuMP = "0.19"
-
-["0.5.1-0.5.6"]
-GeometryTypes = "0.4.0-*"
-RecipesBase = "0.2.0-*"
-StaticArrays = "0.5.0-*"
 
 ["0.5.2-0.5"]
 ParameterJuMP = "0.1.1-0.1"
@@ -28,14 +23,14 @@ ParameterJuMP = "0.1.1-0.1"
 ["0.5.4-0.5"]
 JuMP = "0.20"
 
-["0.5.7-0"]
-StaticArrays = "0.12"
-
 ["0.5.7-0.6.0"]
 RecipesBase = "0.7"
 
 ["0.5.7-0.6.1"]
 GeometryTypes = "0.7"
+
+["0.5.7-0.6.9"]
+StaticArrays = "0.12"
 
 ["0.6-0"]
 JuMP = "0.21"
@@ -46,6 +41,20 @@ ParameterJuMP = "0.2"
 ["0.6.1"]
 RecipesBase = "0.7-0.8"
 
+["0.6.10-0"]
+StaticArrays = ["0.12", "1"]
+
+["0.6.11-0"]
+MutableArithmetics = "0.2"
+
+["0.6.13-0"]
+GenericLinearAlgebra = "0.2"
+
 ["0.6.2-0"]
-GeometryTypes = "0.7-0.8"
 RecipesBase = ["0.7-0.8", "1"]
+
+["0.6.2-0.6.7"]
+GeometryTypes = "0.7-0.8"
+
+["0.6.8-0"]
+GeometryBasics = "0.2-0.3"

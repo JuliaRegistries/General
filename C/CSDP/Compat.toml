@@ -3,25 +3,32 @@ MathOptInterface = "0.6"
 SemidefiniteOptInterface = "0.3"
 
 ["0-0.4"]
-BinDeps = "0"
 Compat = "1-2"
 Glob = "1"
-MathProgBase = "0.7-0"
-SemidefiniteModels = "0.1-0"
+MathProgBase = "0.7.0 - 0.7"
+SemidefiniteModels = "0.1.0 - 0.1"
 julia = "0.6-1"
+
+["0-0.5.1"]
+BinDeps = "0.0.0 - 0.8"
 
 ["0.4.0"]
 MathOptInterface = "0.7"
 SemidefiniteOptInterface = "0.4"
 
 ["0.4.1-0.4"]
-MathOptInterface = "0.8-0"
-SemidefiniteOptInterface = "0.5-0"
+MathOptInterface = "0.8.0 - 0.9"
+SemidefiniteOptInterface = "0.5.0 - 0.5"
 
 ["0.5-0"]
+julia = "1"
+
+["0.5-0.5.1"]
+Glob = "0.0.0 - 1"
+
+["0.5-0.6"]
 MathProgBase = "0.7"
 SemidefiniteModels = "0.1.1-0.1"
-julia = "1"
 
 ["0.5.0"]
 MathOptInterface = "0.9"
@@ -31,10 +38,12 @@ MathOptInterface = "0.9.1-0.9"
 
 ["0.5.2-0"]
 Glob = "1.2.0-1"
-MathOptInterface = "0.9.5-0.9"
 
 ["0.5.2-0.5.3"]
 BinDeps = "0.8"
+
+["0.5.2-0.6.0"]
+MathOptInterface = "0.9.5-0.9"
 
 ["0.5.4-0.5"]
 BinDeps = ["0.8-0.9", "1"]
@@ -42,3 +51,6 @@ BinDeps = ["0.8-0.9", "1"]
 ["0.6-0"]
 BinaryProvider = "0.5.9-0.5"
 CSDP_jll = "6.2.0"
+
+["0.6.1-0"]
+MathOptInterface = "0.9.14-0.9"

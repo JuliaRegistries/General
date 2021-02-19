@@ -1,19 +1,27 @@
 ["0-0.3"]
-DataFrames = "0.11.5-0"
+DataFrames = "0.11.5 - 0.21"
 
 ["0-0.5"]
 Compat = "0.63-2"
-StatsBase = "0.22-0"
 julia = ["0.7", "1"]
 
+["0-0.6.6"]
+StatsBase = "0.22.0 - 0.32"
+
 ["0.4-0.5"]
-DataFrames = "0.15-0"
+DataFrames = "0.15.0 - 0.21"
 
 ["0.6-0"]
 julia = "1"
 
+["0.6-0.6.3"]
+Missings = "0.0.0 - 0.4"
+
 ["0.6-0.6.6"]
-StatsBase = "0.22.0-*"
+CategoricalArrays = "0.0.0 - 0.8"
+DataStructures = "0.0.0 - 0.17"
+ShiftedArrays = "0.0.0 - 1"
+Tables = "0.0.0 - 0.2"
 
 ["0.6.10-0"]
 Tables = ["0.2", "1"]
@@ -21,13 +29,24 @@ Tables = ["0.2", "1"]
 ["0.6.11-0"]
 StatsBase = "0.22-0.33"
 
+["0.6.12-0.6.14"]
+Distributions = "0.16-0.23"
+
+["0.6.13-0"]
+DataStructures = "0.17-0.18"
+
+["0.6.15-0"]
+StatsFuns = "0.9"
+
 ["0.6.7-0"]
 DataAPI = "1.1.0-1"
-DataStructures = "0.17"
 ShiftedArrays = "1"
 
 ["0.6.7-0.6.10"]
 StatsBase = "0.22-0.32"
+
+["0.6.7-0.6.12"]
+DataStructures = "0.17"
 
 ["0.6.7-0.6.9"]
 Tables = "0.2.11-0.2"

@@ -2,26 +2,36 @@ name: remember_to_update_registryci
 
 on:
   schedule:
-    - cron: '00 * * * *'
-  issues:
-    types: [opened, reopened]
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   remember_to_update_registryci:
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
     strategy:
+      fail-fast: false
       matrix:
-        julia-version: [1.4.0]
-        julia-arch: [x86]
-        os: [ubuntu-latest]
+        version:
+          - '1.5.3'
+          - '^1.6.0-0' # TODO: remove this line once 1.6 is released
+          # - '1.6'    # TODO: uncomment this line once 1.6 is released
+        os:
+          - ubuntu-latest
+        arch:
+          - x64
     steps:
       - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819 # v1.0.0
-      - uses: julia-actions/setup-julia@082493e5c5d32c1fa68c35556429b0f1b2807453 # v1.0.1
+      - uses: julia-actions/setup-julia@0b9b1d2cd24245f151902702d8e73b3f6b910014 # v1.6.0
         with:
-          version: ${{ matrix.julia-version }}
-      - name: Install dependencies
+          version: ${{ matrix.version }}
+          arch: ${{ matrix.arch }}
+      - name: Install dependencies of remember_to_update_registryci.jl
         run: julia -e 'import Pkg; Pkg.add(["GitCommand", "GitHub", "Pkg"])'
-      - name: Update .ci/Manifest.toml
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: julia -e 'include(".ci/remember_to_update_registryci.jl"); "${{ github.repository }}" == "JuliaRegistries/General" && RememberToUpdateRegistryCI.main(".ci"; registry = "${{ github.repository }}", cc_usernames = String[])'
+          JULIA_PKG_SERVER: ''
+      - name: Update .ci/Manifest.toml
+        run: julia -e 'include(".ci/remember_to_update_registryci.jl"); "${{ github.repository }}" == "JuliaRegistries/General" && RememberToUpdateRegistryCI.main(".ci"; registry = "${{ github.repository }}", cc_usernames = String[], old_julia_version = v"1.5.3")'
+        env:
+          GITHUB_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
+          JULIA_PKG_SERVER: ''

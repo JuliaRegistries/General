@@ -1,38 +1,40 @@
 ["0-0.0.1"]
-AbstractPlotting = "0"
-GeometryTypes = "0.4.5-0"
-Makie = "0"
+AbstractPlotting = "0.0.0 - 0.9"
+GeometryTypes = "0.4.5 - 0.7"
+Makie = "0.0.0 - 0.11"
 
 ["0-0.0.4"]
-QuartzImageIO = "0"
+QuartzImageIO = "0.0.0 - 0.7"
 
 ["0-0.0.5"]
-AxisArrays = "0"
-ColorBrewer = "0"
-ColorTypes = "0"
+ColorBrewer = "0.0.0 - 0.4"
 ColorVectorSpace = "0-0.7"
-Colors = "0"
-Contour = "0"
+Contour = "0.0.0 - 0.5"
 FileIO = "0-1"
 FixedPointNumbers = "0-0.6"
 FreeType = "1-2"
-FreeTypeAbstraction = "0.3-0"
 GLFW = "2.3-2"
-ImageAxes = "0"
 ImageCore = "0-0.7"
-ImageMagick = "0"
-ImageTransformations = "0"
-IndirectArrays = "0"
-IntervalSets = "0"
+ImageMagick = "0.0.0 - 0.7"
 IterTools = "0-1"
 ModernGL = "0-1"
-Observables = "0"
-PlotUtils = "0"
-Primes = "0"
-Showoff = "0"
-StaticArrays = "0.6.6-0"
-UnicodeFun = "0"
+PlotUtils = "0.0.0 - 0.6"
+Primes = "0.0.0 - 0.5"
+Showoff = "0.0.0 - 0.3"
+UnicodeFun = "0.0.0 - 0.4"
 julia = ["0.7", "1"]
+
+["0-0.0.8"]
+AxisArrays = "0.0.0 - 0.4"
+ColorTypes = "0.0.0 - 0.8"
+Colors = "0.0.0 - 0.9"
+FreeTypeAbstraction = "0.3.0 - 0.8"
+ImageAxes = "0.0.0 - 0.6"
+ImageTransformations = "0.0.0 - 0.8"
+IndirectArrays = "0.0.0 - 0.5"
+IntervalSets = "0.0.0 - 0.5"
+Observables = "0.0.0 - 0.2"
+StaticArrays = "0.6.6 - 0.12"
 
 ["0.0.12-0.0.13"]
 FixedPointNumbers = "0.6-0.7"
@@ -42,7 +44,7 @@ AbstractPlotting = "0.9.15-0.9"
 ColorTypes = "0.8-0.9"
 Colors = "0.9-0.11"
 
-["0.0.14-0"]
+["0.0.14-0.1.13"]
 FixedPointNumbers = "0.6-0.8"
 
 ["0.0.16-0.0"]
@@ -51,36 +53,42 @@ Observables = "0.2-0.3"
 ["0.0.17"]
 GeometryTypes = "0.7.2-0.8"
 
-["0.0.18-0"]
-ColorTypes = "0.8-0.10"
-Colors = "0.9-0.12"
-
 ["0.0.18-0.0"]
 AbstractPlotting = "0.9.27-0.9"
 GeometryTypes = "0.8"
 StaticArrays = "0.7-0.12"
 
+["0.0.18-0.1.13"]
+ColorTypes = "0.8-0.10"
+Colors = "0.9-0.12"
+
 ["0.0.2-0.0.4"]
-AbstractPlotting = "0.9.1-0"
+AbstractPlotting = "0.9.1 - 0.9"
 
-["0.0.2-0.0.5"]
-GeometryTypes = "0.7.2-0"
+["0.0.2-0.0.8"]
+GeometryTypes = "0.7.2 - 0.7"
 
-["0.0.5"]
-AbstractPlotting = "0.9.6-0"
+["0.0.5-0.0.6"]
+AbstractPlotting = "0.9.6 - 0.9"
 
 ["0.0.6"]
-AbstractPlotting = "0.9.6-*"
 julia = "1"
 
 ["0.0.6-0.0.8"]
-FreeTypeAbstraction = "0.3.0-*"
-GLFW = "2.3.0-*"
-GeometryTypes = "0.7.2-*"
-StaticArrays = "0.6.6-*"
+ColorVectorSpace = "0.0.0 - 0.8"
+FileIO = "0.0.0 - 1"
+FixedPointNumbers = "0.0.0 - 0.6"
+FreeType = "0.0.0 - 3"
+GLFW = "2.3.0 - 3"
+ImageCore = "0.0.0 - 0.8"
+ImageFiltering = "0.0.0 - 0.6"
+ImageMagick = "0.0.0 - 1"
+IterTools = "0.0.0 - 1"
+MeshIO = "0.0.0 - 0.3"
+ModernGL = "0.0.0 - 1"
 
 ["0.0.7-0.0.8"]
-AbstractPlotting = "0.9.9-*"
+AbstractPlotting = "0.9.9 - 0.9"
 julia = "1.0.0-1"
 
 ["0.0.9-0"]
@@ -108,11 +116,17 @@ GeometryTypes = "0.7.2-0.7"
 StaticArrays = "0.6.6-0.12"
 
 ["0.1-0"]
-GeometryBasics = "0.2"
 MeshIO = "0.4"
 Observables = "0.3"
-ShaderAbstractions = "0.2"
+
+["0.1-0.1.10"]
+GeometryBasics = "0.2"
+
+["0.1-0.1.13"]
 StaticArrays = "0.10-0.12"
+
+["0.1-0.1.5"]
+ShaderAbstractions = "0.2"
 
 ["0.1.0"]
 AbstractPlotting = "0.10"
@@ -123,8 +137,59 @@ FreeTypeAbstraction = "0.8"
 ["0.1.1-0.1.2"]
 AbstractPlotting = "0.10.5-0.10"
 
+["0.1.11-0.1.17"]
+GeometryBasics = "0.2-0.3"
+
+["0.1.12-0.1.13"]
+AbstractPlotting = "0.12.13-0.12"
+
+["0.1.14"]
+AbstractPlotting = "0.13.1-0.13"
+
+["0.1.14-0"]
+ColorTypes = "0.9-0.10"
+Colors = "0.11-0.12"
+FixedPointNumbers = "0.7-0.8"
+
+["0.1.14-0.1.15"]
+StaticArrays = "0.11-0.12"
+
+["0.1.15-0.1.16"]
+AbstractPlotting = "0.13.7-0.13"
+
+["0.1.16-0.1.17"]
+StaticArrays = ["0.11-0.12", "1"]
+
+["0.1.17"]
+AbstractPlotting = "0.13.7-0.14"
+
+["0.1.18-0"]
+GeometryBasics = "0.3"
+StaticArrays = ["0.12", "1"]
+
+["0.1.18-0.1.20"]
+AbstractPlotting = "0.14.1-0.14"
+
+["0.1.21-0.1.22"]
+AbstractPlotting = "0.14.3-0.14"
+
+["0.1.23"]
+AbstractPlotting = "0.14.3-0.15"
+
+["0.1.24-0.1.25"]
+AbstractPlotting = "0.15.1-0.15"
+
+["0.1.26-0"]
+AbstractPlotting = "0.15.12-0.15"
+
 ["0.1.3-0.1.4"]
 AbstractPlotting = "0.10.10-0.10"
 
-["0.1.5-0"]
+["0.1.5"]
 AbstractPlotting = "0.11.1-0.11"
+
+["0.1.6-0"]
+ShaderAbstractions = "0.2.2-0.2"
+
+["0.1.6-0.1.11"]
+AbstractPlotting = "0.12"

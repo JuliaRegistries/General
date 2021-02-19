@@ -4,7 +4,7 @@ Missings = "0-0.4"
 
 ["0-0.4"]
 CategoricalArrays = "0.3-0.6"
-DataStreams = "0.3-0"
+DataStreams = "0.3.0 - 0.4"
 WeakRefStrings = "0.4.1-0.5"
 julia = ["0.7", "1"]
 
@@ -12,7 +12,7 @@ julia = ["0.7", "1"]
 DataFrames = "0.11-0.20"
 
 ["0.4"]
-Tables = "0"
+Tables = "0.0.0 - 0.2"
 
 ["0.4.1-0.4"]
 DataFrames = "0.14-0.20"
@@ -27,8 +27,6 @@ Parsers = "0.2.14-0.2"
 Parsers = "0.3"
 
 ["0.5-0"]
-PooledArrays = "0.5"
-WeakRefStrings = "0.5-0.6"
 julia = "1"
 
 ["0.5-0.5.11"]
@@ -39,6 +37,12 @@ Tables = "0.1-0.2"
 
 ["0.5-0.5.8"]
 DataFrames = "0.18"
+
+["0.5-0.6"]
+WeakRefStrings = "0.5-0.6"
+
+["0.5-0.8.2"]
+PooledArrays = "0.5"
 
 ["0.5.12"]
 CategoricalArrays = "0.5-0.6"
@@ -59,7 +63,7 @@ LazyArrays = "0.12-0.14"
 ["0.5.15-0.6.1"]
 FilePathsBase = "0.6-0.7"
 
-["0.5.24-0"]
+["0.5.24-0.7"]
 Tables = "1"
 
 ["0.5.9-0.5.11"]
@@ -68,7 +72,23 @@ DataFrames = "0.18-0.19"
 ["0.6-0"]
 Parsers = "1"
 
-["0.6.2-0"]
-CategoricalArrays = "0.8"
-DataFrames = "0.21"
+["0.6.2-0.6"]
 FilePathsBase = "0.6-0.8"
+
+["0.6.2-0.7"]
+CategoricalArrays = "0.8"
+
+["0.6.2-0.7.8"]
+DataFrames = "0.21"
+
+["0.7-0"]
+SentinelArrays = "1.2.0-1"
+
+["0.7.9-0.7"]
+DataFrames = "0.21-0.22"
+
+["0.8-0"]
+Tables = "1.1.0-1"
+
+["0.8.3-0"]
+PooledArrays = ["0.5", "1"]

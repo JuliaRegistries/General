@@ -1,10 +1,16 @@
 [0]
 BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
 ["0-0.4.8"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
-["0.4.9-0"]
+[0-1]
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0.4.9-1"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[1]
+DecFP_jll = "47200ebd-12ce-5be5-abb7-8e082af23329"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"

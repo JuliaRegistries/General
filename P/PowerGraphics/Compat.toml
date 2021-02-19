@@ -1,5 +1,4 @@
 [0]
-DataFrames = "0.20"
 julia = "1"
 
 ["0-0.1"]
@@ -17,6 +16,9 @@ Weave = "0.9"
 InfrastructureSystems = "0.5"
 Plots = "0.29"
 RecipesBase = "0.8"
+
+["0-0.4"]
+DataFrames = "0.20"
 
 ["0.2-0"]
 Reexport = "0.2"
@@ -41,8 +43,10 @@ InfrastructureSystems = "0.6"
 PowerSystems = "0.14"
 RecipesBase = "1"
 
-["0.4-0"]
+["0.4"]
 CSV = "0.6"
+
+["0.4-0"]
 Requires = "1"
 YAML = "0.4"
 
@@ -50,6 +54,47 @@ YAML = "0.4"
 InfrastructureSystems = "0.8"
 PowerSystems = "0.18"
 
-["0.4.2-0"]
+["0.4.2-0.4"]
 InfrastructureSystems = "0.9"
 PowerSystems = "0.19"
+
+["0.5-0.5.3"]
+TimeSeries = "0.18"
+
+["0.5-0.6.0"]
+CSV = "0.7"
+DataFrames = "0.21"
+
+["0.5.0"]
+InfrastructureSystems = "0.14"
+PowerSystems = "0.24"
+
+["0.5.1"]
+PowerSystems = "0.25"
+
+["0.5.1-0.5"]
+InfrastructureSystems = "0.15"
+
+["0.5.2"]
+PowerSystems = "0.26"
+
+["0.5.3-0.5"]
+PowerSystems = "0.28"
+
+["0.5.4-0.6.1"]
+TimeSeries = "0.19"
+
+["0.6-0"]
+InfrastructureSystems = "1"
+PowerSystems = "1"
+
+["0.6.1-0"]
+CSV = "0.8"
+DataFrames = "0.22"
+
+["0.6.2-0"]
+TimeSeries = "0.20"
+
+["0.7-0"]
+DataStructures = "0.18"
+PowerSimulations = "0.9"

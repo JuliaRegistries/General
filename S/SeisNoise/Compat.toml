@@ -1,6 +1,20 @@
 [0]
 julia = "1"
 
+["0-0.2"]
+DSP = "0.0.0 - 0.6"
+DataFrames = "0.0.0 - 0.20"
+FFTW = "0.0.0 - 1"
+GLM = "0.0.0 - 1"
+Glob = "0.0.0 - 1"
+Interpolations = "0.0.0 - 0.12"
+JLD2 = "0.0.0 - 0.1"
+Plots = "0.0.0 - 0.29"
+SeisIO = "0.0.0 - 0.4"
+
+["0.2"]
+LightXML = "0.0.0 - 0.8"
+
 ["0.3"]
 AWSCore = "0.6"
 AWSS3 = "0.6"
@@ -16,6 +30,8 @@ StatsBase = "0.32"
 DSP = "0.6"
 FFTW = "1.1.0-1"
 Glob = "1.2.0-1"
+
+["0.3-0.4"]
 JLD2 = "0.1"
 
 ["0.3.0"]
@@ -24,11 +40,19 @@ SeisIO = "0.4"
 ["0.3.1-0"]
 SeisIO = "1"
 
-["0.4-0"]
+["0.4"]
 Adapt = "1.0.1-1"
 CUDAnative = "3"
 CuArrays = "2"
-DataFrames = "0.20-0.21"
 GPUArrays = "3.1.0-3"
+
+["0.4-0"]
+DataFrames = "0.20-0.21"
 Plots = ["0.29", "1"]
 StatsBase = "0.32-0.33"
+
+["0.5-0"]
+Adapt = "1.0.1-2"
+CUDA = "1"
+GPUArrays = "3.1.0-5"
+JLD2 = "0.1-0.2"

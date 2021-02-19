@@ -1,21 +1,53 @@
 [0]
 IterTools = "1.3.0-1"
 MLDataUtils = "0.5"
-StatsBase = ["0.30", "0.32"]
-julia = ["0.7", "1"]
 
 ["0-0.2.0"]
 KCenters = "0.1.4-0.1"
 SimilaritySearch = "0.3.15-0.3"
 TextSearch = "0.3.2-0.3"
 
+["0-0.3.0"]
+StatsBase = ["0.30", "0.32"]
+
+["0-0.3.1"]
+julia = ["0.7", "1"]
+
 ["0.2.1"]
 KCenters = "0.1.12-0.1"
 TextSearch = "0.3.4-0.3"
 
-["0.2.1-0"]
+["0.2.1-0.2"]
 SimilaritySearch = "0.3.19-0.3"
 
-["0.2.2-0"]
+["0.2.2-0.2"]
+CSV = "0.0.0 - 0.7"
+DataFrames = "0.0.0 - 0.21"
 KCenters = "0.2.1-0.2"
 TextSearch = "0.3.6-0.3"
+
+["0.3-0"]
+CSV = "0.8.2-0.8"
+CategoricalArrays = "0.8.3-0.9"
+
+["0.3.0"]
+KCenters = "0.3"
+KNearestCenters = "0.2.4-0.2"
+SimilaritySearch = "0.4.2-0.4"
+TextSearch = "0.6"
+
+["0.3.1"]
+KNearestCenters = "0.3"
+
+["0.3.1-0"]
+JSON3 = "1.5.0-1"
+KCenters = "0.4"
+SimilaritySearch = "0.4.5-0.4"
+StatsBase = "0.32-0.33"
+StructTypes = "1.2.0-1"
+TextSearch = "0.7"
+
+["0.3.2-0"]
+KNearestCenters = "0.4.1-0.4"
+LIBLINEAR = "0.6"
+julia = "1.3.0-1"

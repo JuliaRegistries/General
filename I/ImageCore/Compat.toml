@@ -42,8 +42,23 @@ Colors = "0.9-0.12"
 FixedPointNumbers = "0.6.1-0.8"
 
 ["0.8.13-0"]
-MosaicViews = "0.2"
 PaddedViews = "0.5.4-0.5"
+
+["0.8.13-0.8.14"]
+MosaicViews = "0.2"
+
+["0.8.15-0"]
+MosaicViews = "0.2.3-0.2"
+
+["0.8.18-0"]
+MappedArrays = "0.2-0.3"
+
+["0.8.19"]
+AbstractFFTs = "0.4-0.5"
+
+["0.8.20-0"]
+AbstractFFTs = ["0.4-0.5", "1"]
+Reexport = ["0.2", "1"]
 
 ["0.8.3-0.8.4"]
 ColorTypes = "0.7.5-0.8"
@@ -64,13 +79,17 @@ FixedPointNumbers = "0.6.1-0.6"
 
 ["0.8.6-0"]
 Graphics = ["0.4", "1"]
-MappedArrays = "0.2"
-Reexport = "0.2"
 julia = "1"
 
 ["0.8.6-0.8.10"]
 OffsetArrays = "0.8-0.11"
 PaddedViews = "0.4.1-0.4"
+
+["0.8.6-0.8.17"]
+MappedArrays = "0.2"
+
+["0.8.6-0.8.19"]
+Reexport = "0.2"
 
 ["0.8.6-0.8.7"]
 FFTW = ["0.3", "1"]
@@ -81,8 +100,8 @@ Colors = "0.9-0.10"
 ["0.8.7-0.8.11"]
 FixedPointNumbers = "0.6.1-0.7"
 
-["0.8.8-0"]
-Requires = ["0.5", "1"]
-
 ["0.8.8-0.8.11"]
 Colors = "0.9-0.11"
+
+["0.8.8-0.8.18"]
+Requires = ["0.5", "1"]

@@ -2,7 +2,15 @@
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
+
+["0-0.1"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MutableArithmetics = "d8a4904e-b15c-11e9-3269-09a3773c0cb0"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.2-0"]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+
+["0.3-0"]
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"

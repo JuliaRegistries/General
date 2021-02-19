@@ -9,12 +9,12 @@ julia = ["0.7", "1"]
 IntervalTrees = "1"
 
 ["1.0.0"]
-Automa = "0.7-0"
-BGZFStreams = "0.3-0"
-ColorTypes = "0.7.4-0"
-DataStructures = "0.11-0"
+Automa = "0.7.0 - 0.8"
+BGZFStreams = "0.3.0 - 0.3"
+ColorTypes = "0.7.4 - 0.8"
+DataStructures = "0.11.0 - 0.17"
 FixedPointNumbers = "0.5.2-0.5"
-URIParser = "0.4-0"
+URIParser = "0.4.0 - 0.4"
 
 ["1.0.1-1"]
 Automa = "0.7-0.8"
@@ -34,4 +34,9 @@ FixedPointNumbers = "0.5.2-0.7"
 
 [2]
 BioGenerics = "0.1"
+
+["2-2.0.2"]
 julia = "1.1.0-1"
+
+["2.0.3-2"]
+julia = "1"

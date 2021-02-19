@@ -1,18 +1,3 @@
-[0]
-CSV = "0"
-Cassette = "0"
-Colors = "0"
-DataFrames = "0"
-DataFramesMeta = "0"
-Distributions = "0"
-Documenter = "0"
-GraphDataFrameBridge = "0"
-JSON = "0"
-Latexify = "0"
-MetaGraphs = "0"
-Plots = "0"
-Unitful = "0"
-
 ["0-0.1"]
 julia = "1.0.3-1"
 
@@ -20,10 +5,25 @@ julia = "1.0.3-1"
 GLM = "0-1"
 LightGraphs = "0-1"
 
+["0-0.3"]
+CSV = "0.0.0 - 0.7"
+Cassette = "0.0.0 - 0.3"
+Colors = "0.0.0 - 0.12"
+DataFrames = "0.0.0 - 0.21"
+DataFramesMeta = "0.0.0 - 0.5"
+Distributions = "0.0.0 - 0.23"
+Documenter = "0.0.0 - 0.25"
+GraphDataFrameBridge = "0.0.0 - 0.2"
+JSON = "0.0.0 - 0.21"
+Latexify = "0.0.0 - 0.14"
+MetaGraphs = "0.0.0 - 0.6"
+Plots = "0.0.0 - 0.29"
+Unitful = "0.0.0 - 0.18"
+
 ["0.2-0"]
 julia = "1"
 
-["0.3-0"]
+["0.3"]
 BoundaryValueDiffEq = "2.3.0-2"
 Catlab = "0.3"
 DelimitedFiles = "0.0.0-1"
@@ -31,9 +31,15 @@ GLM = "0.0.0-1"
 LightGraphs = "0.0.0-1"
 LinearAlgebra = "0.0.0-1"
 Logging = "0.0.0-1"
-MacroTools = "0"
+MacroTools = "0.0.0 - 0.5"
 ModelingToolkit = "0.6"
-Petri = "0"
+Petri = "0.0.0 - 0.4"
 Random = "0.0.0-1"
 StaticArrays = "0.11"
 StochasticDiffEq = "6.10.0-6"
+
+["0.4-0"]
+Catlab = "0.7"
+LightGraphs = "1.3.3-1"
+MacroTools = "0.5.5-0.5"
+Petri = "1"

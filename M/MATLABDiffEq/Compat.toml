@@ -1,8 +1,10 @@
 [0]
 DiffEqBase = "6.5.0-6"
 MATLAB = "0.7"
-Reexport = "0.2"
 julia = "1"
+
+["0-0.3.3"]
+Reexport = "0.2"
 
 ["0.2"]
 ModelingToolkit = "1.4.2-1"
@@ -10,5 +12,9 @@ ModelingToolkit = "1.4.2-1"
 ["0.3.0"]
 ModelingToolkit = "1.4.2-2"
 
-["0.3.1-0"]
+["0.3.1-0.3.3"]
 ModelingToolkit = "1.4.2-3"
+
+["0.3.4-0"]
+ModelingToolkit = "1.4.2-4"
+Reexport = ["0.2", "1"]

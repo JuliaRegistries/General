@@ -1,7 +1,10 @@
 ["0-0.8"]
-BinDeps = "0"
+BinDeps = "0.0.0 - 0.8"
 Compat = "0.66-2"
 julia = ["0.7", "1"]
+
+["0.10"]
+Requires = "0.0.0 - 0.5"
 
 ["0.11"]
 Requires = "0.5"
@@ -9,6 +12,10 @@ Requires = "0.5"
 ["0.12-0"]
 DocStringExtensions = "0.8"
 Requires = ["0.5", "1"]
+
+["0.9"]
+BinDeps = "0.0.0 - 1"
+Compat = "0.0.0 - 3"
 
 ["0.9-0"]
 julia = "1"

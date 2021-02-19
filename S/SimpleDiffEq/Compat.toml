@@ -29,7 +29,11 @@ RecursiveArrayTools = "1"
 
 ["0.6-1"]
 MuladdMacro = "0.2"
+
+["0.6-1.3"]
 Reexport = "0.2"
+
+["0.6-1.4"]
 StaticArrays = "0.10-0.12"
 
 ["1.0"]
@@ -39,3 +43,9 @@ RecursiveArrayTools = "1"
 ["1.1-1"]
 DiffEqBase = "6.11.0-6"
 RecursiveArrayTools = "2"
+
+["1.4-1"]
+Reexport = ["0.2", "1"]
+
+["1.5-1"]
+StaticArrays = ["0.10-0.12", "1"]

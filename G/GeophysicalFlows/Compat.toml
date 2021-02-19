@@ -2,19 +2,31 @@
 FourierFlows = "0-0.2"
 
 ["0-0.2"]
-FFTW = "0"
-JLD2 = "0"
+FFTW = "0.0.0 - 0.3"
 PyPlot = "1-2"
-Reexport = "0"
-Requires = "0"
-SpecialFunctions = "0"
+Requires = "0.0.0 - 0.5"
 julia = ["0.7", "1"]
 
-["0.2"]
-FourierFlows = "0.3-0"
+["0-0.3.0"]
+JLD2 = "0.0.0 - 0.1"
+Reexport = "0.0.0 - 0.2"
+SpecialFunctions = "0.0.0 - 0.8"
+
+["0.11-0"]
+StaticArrays = ["0.12", "1"]
+
+["0.11.3-0"]
+DocStringExtensions = "0.8"
+FourierFlows = "0.6.10-0.6"
+Reexport = ["0.2", "1"]
+
+["0.2-0.3.0"]
+FourierFlows = "0.3.0 - 0.3"
 
 ["0.3.0"]
-FourierFlows = "0.3.0-*"
+Coverage = "0.0.0 - 1"
+FFTW = "0.0.0 - 1"
+PyPlot = "0.0.0 - 2"
 julia = "1.0.0-1"
 
 ["0.3.1"]
@@ -23,27 +35,62 @@ FourierFlows = "0.3.2-0.3"
 JLD2 = "0.1.2-0.1"
 SpecialFunctions = "0.8"
 
-["0.3.1-0"]
+["0.3.1-0.11.2"]
 Reexport = "0.2"
-julia = "1"
 
 ["0.3.1-0.3.3"]
 FFTW = "0.0.0-1.1"
 
+["0.3.1-0.5"]
+julia = "1"
+
 ["0.3.2"]
 SpecialFunctions = ["0.10", "1"]
 
-["0.3.2-0"]
-FourierFlows = "0.4"
-JLD2 = "0.1"
-
 ["0.3.2-0.3.3"]
 CuArrays = "1"
+
+["0.3.2-0.5.0"]
+FourierFlows = "0.4"
+
+["0.3.2-0.6.0"]
+JLD2 = "0.1"
 
 ["0.3.3"]
 SpecialFunctions = ["0.8", "1"]
 
 ["0.3.4-0"]
-CuArrays = "1-2"
 FFTW = "1"
+
+["0.3.4-0.5"]
+CuArrays = "1-2"
 SpecialFunctions = ["0.8", "0.10", "1"]
+
+["0.5.1"]
+FourierFlows = "0.4.0 - 0.5"
+
+["0.5.2-0.5"]
+FourierFlows = "0.5"
+
+["0.6-0"]
+SpecialFunctions = ["0.10", "1"]
+
+["0.6-0.11.2"]
+FourierFlows = "0.6"
+
+["0.6-0.8.0"]
+CUDA = "1"
+julia = "1.4.0-1"
+
+["0.6.1-0.8.2"]
+JLD2 = "0.1-0.2"
+
+["0.7-0.10"]
+StaticArrays = "0.12"
+
+["0.8.1-0"]
+CUDA = "1-2"
+julia = "1.5.0-1"
+
+["0.8.3-0"]
+JLD2 = "0.1-0.3"

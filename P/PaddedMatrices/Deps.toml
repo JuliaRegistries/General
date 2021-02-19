@@ -2,8 +2,13 @@
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-SIMDPirates = "21efa798-c60a-11e8-04d3-e1a92915a26a"
 SLEEFPirates = "476501e8-09a2-5ece-8869-fb82de89a1fa"
-StackPointers = "062a3e2c-34b1-4659-9cae-7af421e0d832"
 VectorizationBase = "3d5dd08c-fd9d-11e8-17fa-ed2836048c2f"
 VectorizedRNG = "33b4df10-0173-11e9-2a0c-851a7edac40e"
+
+["0-0.1"]
+SIMDPirates = "21efa798-c60a-11e8-04d3-e1a92915a26a"
+StackPointers = "062a3e2c-34b1-4659-9cae-7af421e0d832"
+
+["0.2-0"]
+ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"

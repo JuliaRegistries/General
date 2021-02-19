@@ -1,34 +1,40 @@
 [0]
-CSV = "0"
+CSV = "0.0.0 - 0.5"
 CmdStan = ["1", "4-5"]
-DataFrames = "0"
-DataStructures = "0"
-Distributions = "0"
+DataFrames = "0.0.0 - 0.19"
+DataStructures = "0.0.0 - 0.18"
+Distributions = "0.0.0 - 0.21"
 GLM = "0-1"
-GR = "0"
-JLD = "0"
+GR = "0.0.0 - 0.52"
+JLD = "0.0.0 - 0.10"
 Literate = "0-1"
-Optim = "0"
-Plots = "0"
-RDatasets = "0"
-Reexport = "0"
-StatisticalRethinking = "0"
-StatsBase = "0"
-StatsFuns = "0"
-StatsPlots = "0"
+Optim = "0.0.0 - 0.22"
+Plots = "0.0.0 - 0.29"
+RDatasets = "0.0.0 - 0.6"
+Reexport = "0.0.0 - 0.2"
+StatisticalRethinking = "0.0.0 - 0.9"
+StatsBase = "0.0.0 - 0.33"
+StatsFuns = "0.0.0 - 0.9"
+StatsPlots = "0.0.0 - 0.14"
 julia = "1"
 
 ["0-0.1"]
-MCMCChain = "0"
-StanMCMCChain = ["0", "4"]
+MCMCChain = "0.0.0 - 0.2"
+StanMCMCChain = "0.0.0 - 0.3"
 
 ["0.2-0"]
-MCMCChains = "0"
+MCMCChains = "0.0.0 - 0.3"
 
 ["0.2-0.3"]
 StanMCMCChains = "5"
 
 ["1.0.0"]
+CSV = "0.0.0 - 0.5"
+DataFrames = "0.0.0 - 0.19"
+Distributions = "0.0.0 - 0.21"
+MCMCChains = "0.0.0 - 0.3"
+Reexport = "0.0.0 - 0.2"
+StanSample = "0.0.0 - 1"
 julia = "1.3.0-1"
 
 ["1.0.1-1.0"]
@@ -65,21 +71,40 @@ MCMCChains = "1"
 ["1.1.2-2.0.2"]
 DataFrames = "0.20"
 
-[2]
-StanSample = "2"
-
 ["2-2.0.1"]
 Distributions = "0.22"
+
+["2.0"]
+StanSample = "2"
 
 ["2.0.0"]
 MCMCChains = "2"
 
-["2.0.1-2"]
+["2.0.1-2.0.3"]
 MCMCChains = "3"
 
-["2.0.2-2"]
+["2.0.2-2.0.4"]
 CSV = "0.5-0.6"
+
+["2.0.2-2.1.0"]
 Distributions = "0.22-0.23"
 
-["2.0.3-2"]
+["2.0.3-2.1.1"]
 DataFrames = "0.20-0.21"
+
+["2.0.4-2"]
+MCMCChains = "3-4"
+
+["2.0.5-2.1.0"]
+CSV = "0.5-0.7"
+
+["2.1-2"]
+StanSample = "2-3"
+
+["2.1.1-2"]
+CSV = "0.5-0.8"
+Distributions = "0.22-0.24"
+Formatting = "0.4"
+
+["2.1.2-2"]
+DataFrames = "0.20-0.22"

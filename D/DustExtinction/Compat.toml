@@ -1,19 +1,30 @@
 ["0-0.3"]
-FITSIO = "0.13-0"
 julia = "1"
 
+["0-0.6"]
+FITSIO = "0.13.0 - 0.14"
+
 ["0.4-0.6"]
-FITSIO = "0.13.0-*"
 julia = "1.0.0-1"
 
 ["0.5-0.6"]
-Unitful = "0.17.0-*"
-UnitfulAstro = "0.3.0-*"
+Unitful = "0.17.0 - 1"
+UnitfulAstro = "0.3.0 - 1"
+
+["0.6"]
+DataDeps = "0.0.0 - 0.7"
+Polynomials = "0.0.0 - 1"
+
+["0.7"]
+FITSIO = "0.13-0.14"
 
 ["0.7-0"]
 DataDeps = "0.7"
-FITSIO = "0.13-0.14"
 Parameters = "0.12"
 Unitful = ["0.17", "1"]
 UnitfulAstro = ["0.3-0.4", "1"]
 julia = "1"
+
+["0.8-0"]
+Dierckx = "0.4"
+FITSIO = "0.13-0.15"

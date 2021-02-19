@@ -1,10 +1,10 @@
 [0]
-DataFrames = "0"
-Documenter = "0"
-GR = "0"
-Interpolations = "0"
-OffsetArrays = "0"
-Plots = "0"
+DataFrames = "0.0.0 - 0.19"
+Documenter = "0.0.0 - 0.25"
+GR = "0.0.0 - 0.44"
+Interpolations = "0.0.0 - 0.12"
+OffsetArrays = "0.0.0 - 0.11"
+Plots = "0.0.0 - 0.28"
 QuadGK = "0-2"
 julia = ["0.7", "1"]
 
@@ -15,20 +15,20 @@ Compat = "0.17-2"
 Compat = "0.68-2"
 
 ["0.1.2-0"]
-CustomUnitRanges = "0"
+CustomUnitRanges = "0.0.0 - 0.2"
 
 ["0.1.3-0"]
 Compat = "0.69-2"
 
 ["1.0"]
 Compat = "0.69-2"
-CustomUnitRanges = "0"
-DataFrames = "0"
-Documenter = "0"
-GR = "0"
-Interpolations = "0"
-OffsetArrays = "0"
-Plots = "0"
+CustomUnitRanges = "0.0.0 - 0.2"
+DataFrames = "0.0.0 - 0.19"
+Documenter = "0.0.0 - 0.25"
+GR = "0.0.0 - 0.44"
+Interpolations = "0.0.0 - 0.12"
+OffsetArrays = "0.0.0 - 0.11"
+Plots = "0.0.0 - 0.28"
 QuadGK = "0-2"
 julia = ["0.7", "1"]
 
@@ -38,7 +38,6 @@ GR = "0.42-0.44"
 QuadGK = "2.1.0-2"
 
 ["1.1-1"]
-Interpolations = "0.12"
 julia = "1"
 
 ["1.1-1.2.1"]
@@ -47,24 +46,56 @@ GraphRecipes = "0.4"
 OffsetArrays = "0.11"
 Plots = "0.27-0.28"
 
-["1.1.1-1"]
-CategoricalArrays = "0.7"
+["1.1-1.2.5"]
+Interpolations = "0.12"
 
-["1.2-1"]
-DataFrames = "0.20"
-QuadGK = "2.3.0-2"
+["1.1.1-1.2.3"]
+CategoricalArrays = "0.7"
 
 ["1.2-1.2.1"]
 GR = "0.44"
+
+["1.2-1.2.3"]
+DataFrames = "0.20"
+
+["1.2-1.2.7"]
+QuadGK = "2.3.0-2"
 
 ["1.2.2"]
 GR = "0.46-0.47"
 GraphRecipes = "0.4-0.5"
 Plots = "0.27-0.29"
 
-["1.2.2-1"]
+["1.2.2-1.2.7"]
 OffsetArrays = ["0.11", "1"]
 
-["1.2.3-1"]
+["1.2.3"]
 GR = "0.46-0.48"
+
+["1.2.3-1.2.7"]
 Plots = ["0.27-0.29", "1"]
+
+["1.2.4"]
+GR = "0.46-0.51"
+
+["1.2.4-1.2.5"]
+CategoricalArrays = "0.7-0.8"
+DataFrames = "0.20-0.21"
+
+["1.2.5"]
+GR = "0.46-0.52"
+
+["1.2.6-1.2.7"]
+CategoricalArrays = "0.7-0.9"
+DataFrames = "0.20-0.22"
+GR = "0.46-0.53"
+Interpolations = "0.12-0.13"
+
+["1.2.8-1"]
+CategoricalArrays = "0.9"
+DataFrames = "0.22"
+GR = "0.53"
+Interpolations = "0.13"
+OffsetArrays = "1"
+Plots = "1"
+QuadGK = "2.4.0-2"

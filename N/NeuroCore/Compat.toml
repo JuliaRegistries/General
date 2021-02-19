@@ -1,10 +1,12 @@
 [0]
 CoordinateTransformations = "0.5"
+Unitful = "1"
+julia = "1"
+
+["0-0.1"]
 Images = "0.20.2-0.20"
 NamedDims = "0.2.14-0.2"
 StaticArrays = "0.12.1-0.12"
-Unitful = "1"
-julia = "1"
 
 ["0-0.1.0"]
 FieldProperties = "0.3.5-0.3"
@@ -15,5 +17,19 @@ FieldProperties = "0.4.1-0.4"
 ["0.1.2"]
 FieldProperties = "0.4.3-0.4"
 
-["0.1.3-0"]
+["0.1.3-0.1"]
 FieldProperties = "0.5"
+
+["0.2-0"]
+AxisIndices = "0.6"
+Colors = "0.9-0.12"
+FFTW = "1"
+FieldProperties = "0.6"
+FixedPointNumbers = "0.6.1-0.8"
+GeometryBasics = "0.2"
+MappedArrays = "0.2"
+NamedDims = "0.2"
+Reexport = "0.2"
+StaticArrays = "0.12"
+StaticRanges = "0.7"
+TimeAxes = "0.4"

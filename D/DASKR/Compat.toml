@@ -12,4 +12,9 @@ julia = "1"
 ["2.5-2"]
 Compat = "2-3"
 DiffEqBase = "6"
+
+["2.5-2.6"]
 Reexport = "0.2"
+
+["2.7-2"]
+Reexport = ["0.2", "1"]

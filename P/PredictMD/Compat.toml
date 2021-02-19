@@ -129,10 +129,8 @@ Tables = ["0.2.7-0.2", "1"]
 ["0.34-0"]
 Adapt = "1"
 BSON = "0.2"
-CategoricalArrays = "0.7"
 ClassImbalance = "0.8"
 DataDeps = "0.7"
-DefaultApplication = "0.1"
 FFTW = "1"
 FileIO = "1"
 HTTP = "0.8"
@@ -143,7 +141,6 @@ Literate = "2"
 MacroTools = "0.5"
 ProgressMeter = "1"
 RDatasets = "0.6.4-0.6"
-StatsBase = "0.32"
 StatsModels = "0.6"
 TikzPictures = "3"
 UnicodePlots = "1"
@@ -154,6 +151,11 @@ GLM = "1"
 
 ["0.34-0.34.16"]
 Tables = ["0.2", "1"]
+
+["0.34-0.34.18"]
+CategoricalArrays = "0.7"
+DefaultApplication = "0.1"
+StatsBase = "0.32"
 
 ["0.34-0.34.2"]
 DataFrames = "0.19"
@@ -183,8 +185,10 @@ JLD2 = "0.1.8-0.1"
 
 ["0.34.10-0"]
 Cassette = "0.2-0.3"
-Distributions = "0.21-0.22"
 RData = "0.6-0.7"
+
+["0.34.10-0.34.18"]
+Distributions = "0.21-0.22"
 
 ["0.34.11-0"]
 GLM = "1.3.6-1"
@@ -196,16 +200,27 @@ DocumenterMarkdown = "0.2"
 ["0.34.14-0"]
 Requires = "1.0.1-1"
 
-["0.34.17-0"]
+["0.34.17-0.34.18"]
 FixedPointNumbers = "0.6-0.7"
 
+["0.34.19-0"]
+CUDAapi = "2-4"
+CategoricalArrays = "0.7-0.8"
+DataFrames = "0.20-0.21"
+DefaultApplication = "1"
+Distributions = "0.21-0.23"
+FixedPointNumbers = "0.6-0.8"
+StatsBase = "0.32-0.33"
+
 ["0.34.3-0"]
-CUDAapi = "2"
 Combinatorics = "1"
-DataFrames = "0.20"
 DecisionTree = "0.10"
 Documenter = "0.24"
 PredictMDAPI = "0.3"
+
+["0.34.3-0.34.18"]
+CUDAapi = "2"
+DataFrames = "0.20"
 
 ["0.34.3-0.34.6"]
 Flux = "0.10"

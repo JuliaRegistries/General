@@ -74,12 +74,15 @@ RecursiveArrayTools = "0.12.3 - 1"
 IteratorInterfaceExtensions = "0.1.0-1"
 TableTraits = "0.3.0-1"
 
-["5.8.1-6"]
+["5.8.1-6.53"]
 IteratorInterfaceExtensions = ["0.1", "1"]
 TableTraits = ["0.3-0.4", "1"]
 
 ["5.9-6.4"]
 FunctionWrappers = "0.0.0 - 1"
+
+["6-6.4"]
+DataStructures = "0.0.0 - 0.17"
 
 ["6.10.1-6.12.2"]
 ChainRulesCore = "0.4"
@@ -99,13 +102,13 @@ RecipesBase = "0.7-0.8"
 ["6.18-6.34"]
 ChainRulesCore = "0.4-0.7"
 
-["6.19-6"]
+["6.19-6.51"]
 Roots = ["0.8", "1"]
 
 ["6.2.4-6.12"]
 DiffEqDiffTools = "1"
 
-["6.20-6"]
+["6.20-6.44"]
 ConsoleProgressMonitor = "0.1"
 LoggingExtras = "0.4"
 ProgressLogging = "0.1"
@@ -117,28 +120,39 @@ julia = "1.3.0-1"
 ["6.23"]
 Compat = "3"
 
-["6.25-6"]
+["6.25-6.54"]
 ArrayInterface = "2.6.0-2"
 
-["6.26-6"]
+["6.26-6.53"]
 RecipesBase = ["0.7-0.8", "1"]
 
 ["6.27-6"]
 LabelledArrays = "1.1.0-1"
 
-["6.35-6"]
+["6.35-6.39"]
 ChainRulesCore = "0.4-0.8"
 
+["6.40-6"]
+ChainRulesCore = "0.4-0.9"
+
+["6.44"]
+DataStructures = "0.17-0.18"
+
+["6.45-6"]
+DataStructures = "0.18"
+
+["6.47-6.53"]
+Tables = "1"
+
+["6.49-6.50"]
+NonlinearSolve = "0.1"
+
 ["6.5-6"]
-DataStructures = "0.17"
 DocStringExtensions = "0.8"
 FunctionWrappers = "1"
-IterativeSolvers = "0.8"
 MuladdMacro = "0.2.1-0.2"
 Parameters = "0.12"
 RecursiveFactorization = "0.1"
-StaticArrays = "0.11-0.12"
-TreeViews = "0.3"
 
 ["6.5-6.10"]
 RecursiveArrayTools = "1"
@@ -152,8 +166,47 @@ Compat = "2.2.0-3"
 ["6.5-6.18"]
 Roots = "0.8"
 
+["6.5-6.43"]
+DataStructures = "0.17"
+
+["6.5-6.49"]
+StaticArrays = "0.11-0.12"
+
+["6.5-6.52"]
+IterativeSolvers = "0.8"
+
+["6.5-6.53"]
+TreeViews = "0.3"
+
 ["6.5-6.7"]
 Requires = "0.5"
+
+["6.50-6"]
+StaticArrays = ["0.11-0.12", "1"]
+
+["6.51"]
+NonlinearSolve = "0.1-0.2"
+
+["6.52-6"]
+NonlinearSolve = "0.3"
+
+["6.53-6.53.3"]
+IterativeSolvers = "0.8-0.9"
+
+["6.53.4-6"]
+IterativeSolvers = "0.9"
+
+["6.54-6"]
+SciMLBase = "1.1.0-1"
+
+["6.54-6.56"]
+Reexport = "1"
+
+["6.55-6"]
+ArrayInterface = "2.6.0-3"
+
+["6.57-6"]
+Reexport = ["0.2", "1"]
 
 ["6.7-6.24"]
 ArrayInterface = "1.1.0-2"
