@@ -12,6 +12,7 @@ NNlib = "0.6.5-0.6"
 DataStructures = "0.17"
 
 [0-2]
+AbstractFFTs = ["0.4-0.5", "1"]
 CEnum = "0.2-0.4"
 ExprTools = "0.1"
 MacroTools = "0.5"
@@ -23,9 +24,6 @@ BinaryProvider = "0.3-0.5"
 
 ["0-2.4.0"]
 Reexport = "0.2"
-
-["0-2"]
-AbstractFFTs = ["0.4-0.5", "1"]
 
 [1]
 Adapt = "2"
