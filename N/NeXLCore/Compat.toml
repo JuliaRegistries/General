@@ -42,8 +42,13 @@ FileIO = "1.4.0-1"
 GeometryBasics = "0.3"
 StaticArrays = ["0.12", "1"]
 
+["0.2.2"]
+Reexport = "1"
+
 ["0.2.2-0"]
 LaTeXStrings = "1.2.0-1"
 NeXLUncertainties = "0.2.2-0.2"
-Reexport = "1"
 Unitful = "1.6.0-1"
+
+["0.2.3-0"]
+Reexport = ["0.2", "1"]
