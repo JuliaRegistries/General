@@ -161,9 +161,17 @@ FastTransforms = "0.10-0.11"
 
 ["0.2.7-0"]
 AbstractFFTs = ["0.5", "1"]
-InfiniteArrays = "0.5-0.9"
 Reexport = ["0.2", "1"]
 
-["0.2.8-0"]
+["0.2.7-0.2.8"]
+InfiniteArrays = "0.5-0.9"
+
+["0.2.8"]
 ApproxFunBase = "0.3"
+
+["0.2.8-0"]
 FastTransforms = "0.10-0.12"
+
+["0.2.9-0"]
+ApproxFunBase = "0.3-0.4"
+InfiniteArrays = "0.5-0.10"
