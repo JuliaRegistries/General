@@ -7,8 +7,11 @@ ChainRulesCore = "0.9"
 ["0.11-0"]
 Richardson = "1.2.0-1"
 
-["0.12-0"]
+["0.12-0.12.1"]
 StaticArrays = "1"
+
+["0.12.2-0"]
+StaticArrays = ["0.12", "1"]
 
 ["0.7.2-0"]
 julia = "1"
