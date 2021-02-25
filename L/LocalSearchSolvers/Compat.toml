@@ -1,9 +1,11 @@
 [0]
 Lazy = "0.15"
-julia = "1.5.0-1"
 
 ["0-0.1.2"]
 Dictionaries = "0.3"
+
+["0-0.2.1"]
+julia = "1.5.0-1"
 
 ["0.1.3"]
 Constraints = "0.1.1-0.1"
@@ -42,3 +44,7 @@ Constraints = "0.1"
 ["0.2-0"]
 JuMP = "0.21"
 MathOptInterface = "0.9"
+
+["0.2.2-0"]
+OrderedCollections = "1"
+julia = "1.6.0-1"
