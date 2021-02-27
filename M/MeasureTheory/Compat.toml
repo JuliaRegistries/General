@@ -1,5 +1,4 @@
 [0]
-Bijectors = "0.8"
 Distributions = "0.23-0.24"
 DistributionsAD = "0.6"
 KeywordDispatch = "0.3"
@@ -15,19 +14,31 @@ julia = "1.5.0-1"
 ["0-0.2.1"]
 FillArrays = "0.10-0.11"
 
+["0-0.3"]
+Bijectors = "0.8"
+
 ["0.2.2"]
 FillArrays = "0.8-0.11"
 
 ["0.2.3-0"]
-InfiniteArrays = "0.9"
 IntervalSets = "0.5"
-LazyArrays = "0.20"
-NestedTuples = "0.1"
-StrideArrays = "0.1"
 
 ["0.2.3-0.2"]
 ArrayInterface = "2"
 FillArrays = "0.11"
 
+["0.2.3-0.3"]
+InfiniteArrays = "0.9"
+LazyArrays = "0.20"
+NestedTuples = "0.1"
+StrideArrays = "0.1"
+
 ["0.3-0"]
 ArrayInterface = "2-3"
+
+["0.4-0"]
+InfiniteArrays = "0.7-0.9"
+IterTools = "1"
+MonteCarloMeasurements = "0.10"
+NestedTuples = "0.1-0.2"
+RandomNumbers = "1"
