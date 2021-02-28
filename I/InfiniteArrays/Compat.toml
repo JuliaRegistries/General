@@ -34,8 +34,14 @@ julia = "1"
 DSP = "0.5.1-0.6"
 
 ["0.10-0"]
-ArrayLayouts = "0.5-0.6"
 Infinities = "0.0.2"
+
+["0.10-0.10.2"]
+ArrayLayouts = "0.5-0.6"
+
+["0.10.3-0"]
+ArrayLayouts = "0.6"
+LazyArrays = "0.21.1-0.21"
 
 ["0.2"]
 FillArrays = "0.6-0.7"
@@ -110,5 +116,5 @@ LazyArrays = "0.20"
 ["0.9.1-0.9.4"]
 LazyArrays = "0.20.2-0.20"
 
-["0.9.5-0"]
+["0.9.5-0.10.2"]
 LazyArrays = "0.20.5-0.20"
