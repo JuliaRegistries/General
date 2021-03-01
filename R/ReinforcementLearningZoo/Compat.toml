@@ -9,7 +9,6 @@ Zygote = "0.4"
 julia = "1.3.0-1"
 
 ["0.1.2-0"]
-BSON = "0.2"
 MacroTools = "0.5"
 Requires = "1"
 StatsBase = "0.32-0.33"
@@ -20,6 +19,9 @@ CuArrays = "2.2.0-2"
 ReinforcementLearningBase = "0.7"
 ReinforcementLearningCore = "0.3"
 Setfield = "0.6"
+
+["0.1.2-0.3.3"]
+BSON = "0.2"
 
 ["0.1.5"]
 ReinforcementLearningCore = "0.4"
@@ -48,11 +50,11 @@ ReinforcementLearningCore = "0.4.2-0.4"
 ["0.1.7-0.2.0"]
 Distributions = "0.23"
 
-["0.2-0"]
-StructArrays = "0.4"
-
 ["0.2-0.3.0"]
 ReinforcementLearningBase = "0.8.4-0.8"
+
+["0.2-0.3.3"]
+StructArrays = "0.4"
 
 ["0.2.0"]
 ReinforcementLearningCore = "0.4.5-0.4"
@@ -82,5 +84,12 @@ ReinforcementLearningBase = "0.9"
 
 ["0.3.2-0"]
 DataStructures = "0.18"
-ReinforcementLearningCore = "0.7"
 Zygote = "0.5-0.6"
+
+["0.3.2-0.3.3"]
+ReinforcementLearningCore = "0.7"
+
+["0.3.4-0"]
+BSON = "0.2-0.3"
+ReinforcementLearningCore = "0.7.2-0.7"
+StructArrays = "0.4-0.5"
