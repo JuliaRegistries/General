@@ -1,5 +1,4 @@
 [0]
-BlockArrays = "0.14"
 BlockBandedMatrices = "0.10"
 DomainSets = "0.4"
 IntervalSets = "0.5"
@@ -14,8 +13,19 @@ ContinuumArrays = "0.5"
 FastTransforms = "0.11"
 InfiniteArrays = "0.9"
 
-["0.0.2-0"]
+["0-0.0.2"]
+BlockArrays = "0.14"
+
+["0.0.2"]
 ClassicalOrthogonalPolynomials = "0.1-0.2"
 ContinuumArrays = "0.5-0.6"
-FastTransforms = "0.11-0.12"
 InfiniteArrays = "0.9-0.10"
+
+["0.0.2-0"]
+FastTransforms = "0.11-0.12"
+
+["0.0.3-0"]
+BlockArrays = "0.14-0.15"
+ClassicalOrthogonalPolynomials = "0.2-0.3"
+ContinuumArrays = "0.6"
+InfiniteArrays = "0.10"
