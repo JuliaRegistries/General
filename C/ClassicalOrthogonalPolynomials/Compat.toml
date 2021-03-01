@@ -1,5 +1,4 @@
 [0]
-BlockArrays = "0.14.1-0.14"
 BlockBandedMatrices = "0.10"
 DomainSets = "0.4-0.5"
 FFTW = "1.1.0-1"
@@ -23,6 +22,9 @@ QuasiArrays = "0.4.2-0.4"
 ["0-0.1.1"]
 FastTransforms = "0.11"
 
+["0-0.2"]
+BlockArrays = "0.14.1-0.14"
+
 ["0.1.1-0.1"]
 BandedMatrices = "0.16.4-0.16"
 LazyArrays = "0.20.5-0.20"
@@ -31,18 +33,27 @@ QuasiArrays = "0.4.5-0.4"
 ["0.1.2-0"]
 FastTransforms = "0.11-0.12"
 
+["0.2"]
+InfiniteArrays = "0.10"
+InfiniteLinearAlgebra = "0.5.2-0.5"
+LazyBandedMatrices = "0.5"
+
 ["0.2-0"]
 ArrayLayouts = "0.6.2-0.6"
 BandedMatrices = "0.16.5-0.16"
 ContinuumArrays = "0.6"
-InfiniteArrays = "0.10"
-InfiniteLinearAlgebra = "0.5.2-0.5"
 IntervalSets = "0.5"
-LazyBandedMatrices = "0.5"
 QuasiArrays = "0.4.6-0.4"
 
 ["0.2-0.2.2"]
 LazyArrays = "0.20.6-0.20"
 
-["0.2.3-0"]
+["0.2.3-0.2"]
 LazyArrays = "0.20.8-0.20"
+
+["0.3-0"]
+BlockArrays = "0.14.1-0.15"
+InfiniteArrays = "0.10.3-0.10"
+InfiniteLinearAlgebra = "0.5.3-0.5"
+LazyArrays = "0.21"
+LazyBandedMatrices = "0.5.1-0.5"
