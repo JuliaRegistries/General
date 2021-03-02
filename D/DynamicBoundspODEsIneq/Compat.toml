@@ -19,10 +19,16 @@ DynamicBoundsBase = "0.3"
 McCormick = "0.5"
 julia = "1.2-1.4"
 
+["0.4"]
+DynamicBoundsBase = "0.5"
+julia = "1.1-1.5"
+
 ["0.4-0"]
 DiffEqBase = "5-6"
 DiffEqSensitivity = "5-6"
-DynamicBoundsBase = "0.5"
 McCormick = "0.10"
 Sundials = "3-4"
-julia = "1.1-1.5"
+
+["0.5-0"]
+DynamicBoundsBase = "0.5.3-0.5"
+julia = "1.2-1.5"
