@@ -21,13 +21,15 @@ QuasiArrays = "0.3.8-0.3"
 
 ["0.0.2-0"]
 BandedMatrices = "0.16"
-FillArrays = "0.11"
-LazyArrays = "0.20"
 SpecialFunctions = ["0.10", "1"]
 
 ["0.0.2-0.0.3"]
 ArrayLayouts = "0.5.1-0.5"
 InfiniteArrays = "0.8-0.9"
+
+["0.0.2-0.0.4"]
+FillArrays = "0.11"
+LazyArrays = "0.20"
 
 ["0.0.3"]
 ClassicalOrthogonalPolynomials = "0.1"
@@ -36,8 +38,16 @@ ContinuumArrays = "0.5"
 ["0.0.3-0"]
 QuasiArrays = "0.4"
 
+["0.0.4"]
+ClassicalOrthogonalPolynomials = "0.2.1-0.2"
+InfiniteArrays = "0.10.1-0.10"
+
 ["0.0.4-0"]
 ArrayLayouts = "0.6"
-ClassicalOrthogonalPolynomials = "0.2.1-0.2"
 ContinuumArrays = "0.5-0.6"
-InfiniteArrays = "0.10.1-0.10"
+
+["0.0.5-0"]
+ClassicalOrthogonalPolynomials = "0.3"
+FillArrays = "0.11.5-0.11"
+InfiniteArrays = "0.10.2-0.10"
+LazyArrays = "0.21"
