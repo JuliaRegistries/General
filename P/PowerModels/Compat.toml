@@ -26,14 +26,14 @@ JSON = "0.18.0 - 0.21"
 ["0.11.2-0.12.4"]
 InfrastructureModels = "0.2.1-0.2"
 
-["0.12.5-0"]
-MathOptInterface = "0.8-0.9"
-
 ["0.12.5-0.12"]
 InfrastructureModels = "0.3"
 
 ["0.12.5-0.15.0"]
 JuMP = "0.19.1-0.20"
+
+["0.12.5-0.17"]
+MathOptInterface = "0.8-0.9"
 
 ["0.13-0.14.0"]
 InfrastructureModels = "0.3.1-0.3"
@@ -44,7 +44,7 @@ JSON = "0.18-0.21"
 ["0.14.1-0.15.3"]
 InfrastructureModels = "0.4"
 
-["0.15.1-0"]
+["0.15.1-0.17"]
 JuMP = "0.19.1-0.21"
 
 ["0.15.3-0.16"]
@@ -56,7 +56,7 @@ InfrastructureModels = "0.4.3-0.4"
 ["0.16-0"]
 NLsolve = "4"
 
-["0.17-0"]
+["0.17"]
 Memento = ["0.10-0.13", "1.0-1.1"]
 
 ["0.17-0.17.1"]
@@ -65,8 +65,14 @@ InfrastructureModels = "0.5"
 ["0.17.2-0.17.3"]
 InfrastructureModels = "0.5.3-0.5"
 
-["0.17.4-0"]
+["0.17.4-0.17"]
 InfrastructureModels = "0.5.4-0.5"
+
+["0.18-0"]
+InfrastructureModels = "0.6"
+JuMP = "0.21"
+MathOptInterface = "0.9"
+Memento = "1.0-1.1"
 
 ["0.8.3"]
 InfrastructureModels = "0.0.9 - 0.1"
