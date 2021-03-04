@@ -27,7 +27,7 @@ PowerModels = "0.15"
 ["0.3-0.5"]
 InfrastructureModels = "0.4"
 
-["0.3.1-0"]
+["0.3.1-0.7"]
 JuMP = "0.19.1-0.21"
 
 ["0.4-0.5"]
@@ -39,9 +39,15 @@ PowerModels = "0.16"
 ["0.6"]
 InfrastructureModels = "0.5"
 
-["0.6-0"]
+["0.6-0.7"]
 Memento = ["0.10-0.13", "1.0-1.1"]
 PowerModels = "0.17"
 
-["0.7-0"]
+["0.7"]
 InfrastructureModels = "0.5.1-0.5"
+
+["0.8-0"]
+InfrastructureModels = "0.6"
+JuMP = "0.21"
+Memento = "1.0-1.1"
+PowerModels = "0.18"
