@@ -98,7 +98,7 @@ GeoStatsBase = "0.13"
 GeoStatsBase = "0.13-0.14"
 Variography = "0.8-0.9"
 
-["0.4.4-0"]
+["0.4.4-0.6"]
 Distances = "0.8-0.10"
 Distributions = "0.21-0.24"
 
@@ -108,22 +108,29 @@ GeoStatsBase = "0.13-0.15"
 ["0.4.5-0.5"]
 Variography = "0.8-0.10"
 
-["0.4.6-0"]
-StaticArrays = ["0.12", "1"]
-
 ["0.4.6-0.4"]
 GeoStatsBase = "0.16"
+
+["0.4.6-0.6"]
+StaticArrays = ["0.12", "1"]
 
 ["0.5"]
 GeoStatsBase = "0.17"
 
-["0.6-0"]
+["0.6"]
 Meshes = "0.10"
 Variography = "0.11"
+
+["0.6-0"]
 julia = "1.5.0-1"
 
 ["0.6.0"]
 GeoStatsBase = "0.18"
 
-["0.6.1-0"]
+["0.6.1-0.6"]
 GeoStatsBase = "0.19"
+
+["0.7-0"]
+GeoStatsBase = "0.20"
+Meshes = "0.11"
+Variography = "0.12"
