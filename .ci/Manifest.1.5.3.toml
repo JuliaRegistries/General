@@ -89,6 +89,12 @@ git-tree-sha1 = "8e924324b2e9275a51407a4e06deb3455b1e359f"
 uuid = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
 version = "1.16.0+7"
 
+[[LicenseCheck]]
+deps = ["licensecheck_jll"]
+git-tree-sha1 = "a50bfb26428ac4ccb763f6aa8c9e4ecbbcc58255"
+uuid = "726dbf0d-6eb6-41af-b36c-cd770e0f00cc"
+version = "0.2.1"
+
 [[LinearAlgebra]]
 deps = ["Libdl"]
 uuid = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -154,10 +160,10 @@ uuid = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 version = "1.1.1"
 
 [[RegistryCI]]
-deps = ["Base64", "Dates", "GitHub", "HTTP", "JSON", "LibGit2", "Pkg", "Printf", "Random", "RegistryTools", "SHA", "StringDistances", "TOML", "Test", "TimeZones", "VisualStringDistances"]
-git-tree-sha1 = "812d707a1f6db127297032ca9f267881a9859251"
+deps = ["Base64", "Dates", "GitHub", "HTTP", "JSON", "LibGit2", "LicenseCheck", "Pkg", "Printf", "Random", "RegistryTools", "SHA", "StringDistances", "TOML", "Test", "TimeZones", "VisualStringDistances"]
+git-tree-sha1 = "8130308eb428fc28823267b393f8a76441968f9e"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "6.4.0"
+version = "6.5.0"
 
 [[RegistryTools]]
 deps = ["AutoHashEquals", "LibGit2", "Pkg", "UUIDs"]
@@ -257,3 +263,9 @@ deps = ["Libdl", "Pkg"]
 git-tree-sha1 = "7127f5f40332ccfa43ee07dcd0c4d81a27d9bb23"
 uuid = "a9144af2-ca23-56d9-984f-0d03f7b5ccf8"
 version = "1.0.18+1"
+
+[[licensecheck_jll]]
+deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
+git-tree-sha1 = "e9aba154aa83180834c7f2bf16e812b90bd8cc51"
+uuid = "4ecb348a-8b88-51ea-b912-4c460483ee91"
+version = "0.3.1+0"
