@@ -85,6 +85,10 @@ The following criteria are applied for all pull requests
 
  - Package installation: The package should be installable (`Pkg.add("PackageName")`),
    and loadable (`import PackageName`).
+   
+ - License: The package should have an
+   [OSI-approved software license](https://opensource.org/licenses/alphabetical) located in
+   the top-level directory of the package code, e.g. in a file named `LICENSE` or `LICENSE.md`.
 
 The following list is applied for new package registrations, in addition to the previous
 list:
