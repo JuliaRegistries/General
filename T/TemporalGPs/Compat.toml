@@ -34,7 +34,7 @@ Stheno = "0.6.6-0.6"
 ["0.3.3-0.3.5"]
 Distributions = "0.19-0.23"
 
-["0.3.5-0"]
+["0.3.5-0.3"]
 Zygote = "0.5"
 
 ["0.3.6"]
@@ -42,9 +42,16 @@ Distributions = "0.19-0.24"
 StaticArrays = "0.12.1-0.12"
 
 ["0.3.7-0"]
-BlockArrays = "0.13"
 BlockDiagonals = "0.1.7-0.1"
 Distributions = "0.24"
 FillArrays = "0.10"
-Kronecker = "0.4.2-0.4"
 StaticArrays = "1"
+
+["0.3.7-0.3"]
+BlockArrays = "0.13"
+Kronecker = "0.4.2-0.4"
+
+["0.4-0"]
+ChainRulesCore = "0.9"
+StructArrays = "0.4"
+Zygote = "0.6"
