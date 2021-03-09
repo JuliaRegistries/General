@@ -29,11 +29,13 @@ MultivariateBases = "0.1.2-0.1"
 MultivariateMoments = "0.3"
 MultivariatePolynomials = "0.3.6-0.3"
 MutableArithmetics = "0.2.6-0.2"
-Reexport = "0.2"
 SumOfSquares = "0.4"
 
 ["0.1-0.1.1"]
 Polyhedra = "0.6"
+
+["0.1-0.1.4"]
+Reexport = "0.2"
 
 ["0.1.0"]
 DataStructures = "0.17"
@@ -51,3 +53,6 @@ Polyhedra = "0.6.3-0.6"
 
 ["0.1.4-0"]
 DataStructures = "0.17.11-0.18"
+
+["0.1.5-0"]
+Reexport = ["0.2", "1"]
