@@ -7,7 +7,13 @@ RecipesBase = "1"
 RecursiveArrayTools = "2"
 Reexport = ["0.2", "1"]
 StaticArrays = ["0.12", "1"]
-StructArrays = "0.4"
 TaylorSeries = "0.10"
 UnPack = "1"
 julia = "1"
+
+["0-0.1.1"]
+StructArrays = "0.4"
+
+["0.1.2-0"]
+SciMLBase = "1"
+StructArrays = "0.4-0.5"
