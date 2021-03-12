@@ -76,10 +76,12 @@ MeshCat = "0.7"
 
 ["0.5-0"]
 RigidBodyDynamics = "2"
-julia = "1"
 
 ["0.5-0.7.0"]
 MechanismGeometries = "0.4"
+
+["0.5-0.8.0"]
+julia = "1"
 
 ["0.6"]
 ColorTypes = "0.7-0.9"
@@ -88,11 +90,13 @@ MeshCat = "0.8-0.9"
 
 ["0.6-0"]
 InteractBase = "0.8-0.10"
-Interpolations = "0.9-0.12"
 LoopThrottle = "0.1"
 
 ["0.6-0.7.0"]
 CoordinateTransformations = "0.5"
+
+["0.6-0.8.0"]
+Interpolations = "0.9-0.12"
 
 ["0.7"]
 GeometryTypes = "0.6-0.8"
@@ -115,3 +119,7 @@ MeshCat = "0.10-0.11"
 GeometryBasics = "0.2-0.3"
 MechanismGeometries = "0.7"
 MeshCat = "0.13"
+
+["0.8.1-0"]
+Interpolations = "0.9-0.13"
+julia = "1.3.0-1"
