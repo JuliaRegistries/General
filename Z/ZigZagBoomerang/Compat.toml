@@ -1,6 +1,12 @@
 [0]
-Trajectories = "0.0.0 - 0.2"
 julia = "1"
 
-["0.2-0"]
+["0-0.5"]
+Trajectories = "0.0.0 - 0.2"
+
+["0.2-0.5"]
 DataStructures = "0.17"
+
+["0.6-0"]
+DataStructures = "0.17-0.18"
+Trajectories = "0.2"
