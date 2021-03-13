@@ -8,7 +8,6 @@ LineSearches = "7"
 NLsolve = "4"
 OrderedCollections = "1"
 PeriodicTable = "1"
-Polynomials = "1"
 ProgressMeter = "1"
 PyCall = "1"
 Requires = "1"
@@ -47,6 +46,9 @@ AbstractFFTs = "0.5"
 GenericLinearAlgebra = "0.2"
 IterativeSolvers = "0.8"
 
+["0-0.2.6"]
+Polynomials = "1"
+
 ["0.1.1"]
 Libxc = "0.1-0.2"
 
@@ -58,6 +60,8 @@ Libxc = "0.0.0-0.3.2"
 
 ["0.1.12-0"]
 Libxc = "0.3"
+
+["0.1.12-0.2.6"]
 julia = "1.4.0-1"
 
 ["0.1.14-0"]
@@ -105,3 +109,7 @@ UnitfulAtomic = "1"
 ["0.2.4-0"]
 AbstractFFTs = ["0.5", "1"]
 IterativeSolvers = "0.8-0.9"
+
+["0.2.7-0"]
+Polynomials = "1-2"
+julia = "1.5.0-1"
