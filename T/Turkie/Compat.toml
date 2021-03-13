@@ -2,12 +2,17 @@
 AbstractPlotting = "0.15"
 ColorSchemes = "3.10.0-3"
 Colors = "0.12"
-DynamicPPL = "0.9-0.10"
 KernelDensity = "0.5-0.6"
 OnlineStats = "1.5.0-1"
 
 ["0-0.1.0"]
 julia = "1"
 
+["0-0.1.1"]
+DynamicPPL = "0.9-0.10"
+
 ["0.1.1-0"]
 julia = "1.4.0-1"
+
+["0.1.2-0"]
+Turing = "0.15"
