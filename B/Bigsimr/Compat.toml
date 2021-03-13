@@ -17,7 +17,6 @@ IntervalArithmetic = "0.17"
 IterTools = "1"
 
 ["0.7.5-0"]
-Polynomials = "1"
 StatsBase = "0.32-0.33"
 
 ["0.7.5-0.8.0"]
@@ -25,6 +24,9 @@ Distributions = "0.20-0.24"
 LsqFit = "0.9-0.12"
 QuadGK = "2"
 SpecialFunctions = ["0.7-0.10", "1"]
+
+["0.7.5-0.8.3"]
+Polynomials = "1"
 
 ["0.8.1"]
 GeneralizedSDistributions = "0.1"
@@ -42,3 +44,7 @@ GeneralizedSDistributions = "0.1-0.2"
 HypergeometricFunctions = "0.2-0.3"
 LsqFit = ["0.10", "0.12"]
 QuadGK = "2.4.0-2"
+
+["0.8.4-0"]
+PDMats = "0.11"
+Polynomials = "1-2"
