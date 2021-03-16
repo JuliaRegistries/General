@@ -2,7 +2,6 @@
 BenchmarkTools = "0.5"
 DocStringExtensions = "0.8"
 Parameters = "0.12"
-RobotZoo = "0.1"
 Rotations = "1"
 SolverLogging = "0.1"
 UnsafeArrays = "1"
@@ -16,15 +15,25 @@ Interpolations = "0.12"
 StaticArrays = "0.12"
 TrajectoryOptimization = "0.3"
 
+["0-0.3"]
+RobotZoo = "0.1"
+
 ["0.2"]
 RobotDynamics = "0.1-0.2"
 
 ["0.2-0"]
 Crayons = "4"
 
+["0.3"]
+TrajectoryOptimization = "0.4.1-0.4"
+
 ["0.3-0"]
 Interpolations = "0.12-0.13"
 RobotDynamics = "0.1-0.3"
 StaticArrays = "1"
 TimerOutputs = "0.5"
-TrajectoryOptimization = "0.4.1-0.4"
+
+["0.4-0"]
+FiniteDiff = "2"
+RobotZoo = "0.1-0.2"
+TrajectoryOptimization = "0.5"
