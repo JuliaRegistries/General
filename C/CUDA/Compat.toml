@@ -12,7 +12,6 @@ NNlib = "0.6.5-0.6"
 DataStructures = "0.17"
 
 [0-2]
-AbstractFFTs = ["0.4-0.5", "1"]
 CEnum = "0.2-0.4"
 ExprTools = "0.1"
 MacroTools = "0.5"
@@ -22,6 +21,9 @@ TimerOutputs = "0.5"
 
 ["0-2.0.1"]
 BinaryProvider = "0.3-0.5"
+
+["0-2.4.1"]
+AbstractFFTs = ["0.4-0.5", "1"]
 
 [1]
 Adapt = "2"
@@ -91,10 +93,14 @@ julia = "1.5"
 ["2.4-2.5"]
 Adapt = "2.2.0-3"
 
+["2.4.2-2.4"]
+AbstractFFTs = "0.4-0.5"
+
 ["2.5"]
 GPUCompiler = "0.9"
 
 ["2.5-2"]
+AbstractFFTs = ["0.4-0.5", "1"]
 julia = "1.6.0-1"
 
 ["2.6-2"]
