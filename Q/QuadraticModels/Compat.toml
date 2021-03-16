@@ -1,6 +1,12 @@
 [0]
-FastClosures = "0.2.1-0.3"
 LinearOperators = ["0.7", "1"]
-NLPModels = "0.13"
 Requires = "0.3-0.5"
 julia = "1"
+
+["0-0.2"]
+FastClosures = "0.2.1-0.3"
+NLPModels = "0.13"
+
+["0.3-0"]
+NLPModels = "0.14"
+NLPModelsModifiers = "0.1"
