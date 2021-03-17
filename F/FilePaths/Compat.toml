@@ -14,9 +14,14 @@ MacroTools = "0.0.0 - 0.5"
 Reexport = "0.0.0 - 0.2"
 URIParser = "0.0.0 - 0.4"
 
+["0.8.1"]
+Reexport = "0.2"
+
 ["0.8.1-0"]
 FilePathsBase = "0.9"
 Glob = "1"
 MacroTools = "0.5"
-Reexport = "0.2"
 URIParser = "0.4"
+
+["0.8.2-0"]
+Reexport = ["0.2", "1"]
