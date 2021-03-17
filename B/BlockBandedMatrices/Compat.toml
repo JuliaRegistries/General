@@ -12,7 +12,6 @@ BlockArrays = "0.5-0.7"
 julia = ["0.7", "1"]
 
 ["0.10-0"]
-BandedMatrices = "0.16"
 FillArrays = "0.11"
 MatrixFactorizations = "0.7.1-0.8"
 
@@ -22,11 +21,19 @@ ArrayLayouts = "0.5"
 ["0.10-0.10.2"]
 BlockArrays = "0.14"
 
-["0.10.2-0"]
+["0.10-0.10.3"]
+BandedMatrices = "0.16"
+
+["0.10.2-0.10.3"]
 ArrayLayouts = "0.5-0.6"
 
-["0.10.3-0"]
+["0.10.3"]
 BlockArrays = "0.14-0.15"
+
+["0.10.4-0"]
+ArrayLayouts = "0.6.3-0.6"
+BandedMatrices = "0.16.8-0.16"
+BlockArrays = "0.15"
 
 ["0.3-0.3.2"]
 BandedMatrices = "0.7.2-0.7"
