@@ -67,16 +67,26 @@ Distributions = "0.21.8-0.21"
 FFTW = "1"
 RecipesBase = "0.7"
 
-["0.5.13-0"]
+["0.5.13-0.5.14"]
 CSV = "0.7"
 
-["0.5.14-0"]
+["0.5.14"]
 Combinatorics = "1.0.2-1"
 DataFrames = "0.21.8-0.21"
-Distributions = "0.24"
 FFTW = "1.2.4-1"
 RecipesBase = "1.1.0-1"
 StatsBase = "0.33.2-0.33"
+
+["0.5.14-0"]
+Distributions = "0.24"
+
+["0.5.15-0"]
+CSV = "0.7-0.8"
+Combinatorics = "1"
+DataFrames = "0.21-0.22"
+FFTW = "1"
+RecipesBase = "1"
+StatsBase = "0.33"
 
 ["0.5.5-0.5.6"]
 BenchmarkTools = "0.0.0 - 0.4"
