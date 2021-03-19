@@ -1,8 +1,14 @@
 [0]
+PolyChaos = "0.2"
+julia = "1"
+
+["0-0.1"]
 JLD2 = "0.1-0.2"
 Kinetic = "0.4"
 OffsetArrays = "1"
 Plots = "1"
-PolyChaos = "0.2"
 Reexport = "0.2"
-julia = "1"
+
+["0.2-0"]
+KitBase = "0.4"
+Reexport = "1"
