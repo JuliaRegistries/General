@@ -44,14 +44,22 @@ StaticArrays = "0.12.1-0.12"
 ["0.3.7-0"]
 BlockDiagonals = "0.1.7-0.1"
 Distributions = "0.24"
-FillArrays = "0.10"
 StaticArrays = "1"
 
 ["0.3.7-0.3"]
 BlockArrays = "0.13"
 Kronecker = "0.4.2-0.4"
 
+["0.3.7-0.4.0"]
+FillArrays = "0.10"
+
 ["0.4-0"]
 ChainRulesCore = "0.9"
-StructArrays = "0.4"
 Zygote = "0.6"
+
+["0.4.0"]
+StructArrays = "0.4"
+
+["0.4.1-0"]
+FillArrays = "0.10-0.11"
+StructArrays = "0.5"
