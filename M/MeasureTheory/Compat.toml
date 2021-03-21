@@ -4,7 +4,6 @@ DistributionsAD = "0.6"
 KeywordDispatch = "0.3"
 MLStyle = "0.4"
 MacroTools = "0.5"
-MappedArrays = "0.3"
 NamedTupleTools = "0.13"
 SpecialFunctions = ["0.10", "1"]
 StaticArrays = ["0.12", "1"]
@@ -16,6 +15,9 @@ FillArrays = "0.10-0.11"
 
 ["0-0.3"]
 Bijectors = "0.8"
+
+["0-0.4.2"]
+MappedArrays = "0.3"
 
 ["0.2.2"]
 FillArrays = "0.8-0.11"
@@ -37,8 +39,15 @@ StrideArrays = "0.1"
 ArrayInterface = "2-3"
 
 ["0.4-0"]
-InfiniteArrays = "0.7-0.9"
 IterTools = "1"
 MonteCarloMeasurements = "0.10"
-NestedTuples = "0.1-0.2"
 RandomNumbers = "1"
+
+["0.4-0.4.2"]
+InfiniteArrays = "0.7-0.9"
+NestedTuples = "0.1-0.2"
+
+["0.4.3-0"]
+InfiniteArrays = "0.7-0.10"
+MappedArrays = "0.3-0.4"
+NestedTuples = "0.1-0.3"
