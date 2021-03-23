@@ -1,6 +1,5 @@
 module RememberToUpdateRegistryCI
 
-using GitCommand
 using GitHub
 using Pkg
 
@@ -100,9 +99,7 @@ end
 
 function git_commit(message)::Bool
     return try
-        git() do git
-            success(`$git commit -m "$(message)"`)
-        end
+        success(`$git commit -m "$(message)"`)
     catch
         false
     end
@@ -121,10 +118,8 @@ function generate_username_mentions(usernames::AbstractVector)::String
 end
 
 function set_git_identity(username, email)
-    git() do git
-        run(`$git config user.name "$(username)"`)
-        run(`$git config user.email "$(email)"`)
-    end
+    run(`$git config user.name "$(username)"`)
+    run(`$git config user.email "$(email)"`)
     return nothing
 end
 
@@ -184,16 +179,10 @@ function main(relative_path;
 
     username_mentions_text = generate_username_mentions(cc_usernames)
 
-    git() do git
-        run(`$git clone $(registry_url_with_auth) REGISTRY`)
-    end
+    run(`$git clone $(registry_url_with_auth) REGISTRY`)
     cd("REGISTRY")
-    git() do git
-        run(`$git checkout $(master_branch)`)
-    end
-    git() do git
-        run(`$git checkout -B $(pr_branch)`)
-    end
+    run(`$git checkout $(master_branch)`)
+    run(`$git checkout -B $(pr_branch)`)
     cd(relative_path)
     main_manifest = "Manifest.toml"
     old_manifest = "Manifest.$(OLDMAJOR).$(OLDMINOR).$(OLDPATCH).toml"
@@ -217,21 +206,17 @@ function main(relative_path;
     end
     set_git_identity(my_username, my_email)
     try
-        git() do git
-            if is_old_julia_version
-                run(`$(git) add $(old_manifest)`)
-            else
-                run(`$(git) add $(main_manifest)`)
-            end
+        if is_old_julia_version
+            run(`$(git) add $(old_manifest)`)
+        else
+            run(`$(git) add $(main_manifest)`)
         end
     catch
     end
     commit_was_success = git_commit("Update .ci/Manifest.toml")
     @info("commit_was_success: $(commit_was_success)")
     if commit_was_success
-        git() do git
-            run(`$git push -f origin $(pr_branch)`)
-        end
+        run(`$git push -f origin $(pr_branch)`)
         if pr_title in pr_titles
             @info("An open PR with the title already exists", pr_title)
         else
