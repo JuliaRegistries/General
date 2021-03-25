@@ -30,7 +30,8 @@ jobs:
         env:
           JULIA_PKG_SERVER: ''
       - name: Update .ci/Manifest.toml
-        run: julia -e 'include(".ci/remember_to_update_registryci.jl"); "${{ github.repository }}" == "JuliaRegistries/General" && RememberToUpdateRegistryCI.main(".ci"; registry = "${{ github.repository }}", cc_usernames = String[], old_julia_version = v"1.5.3")'
+        run: julia -e 'include(".ci/remember_to_update_registryci.jl"); "${{ github.repository }}" == "JuliaRegistries/General" && RememberToUpdateRegistryCI.main(".ci"; registry = "${{ github.repository }}", cc_usernames = String[], old_julia_version = v"${{ env.OLD_JULIA_VERSION }}")'
         env:
           GITHUB_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
           JULIA_PKG_SERVER: ''
+          OLD_JULIA_VERSION: '1.5.3'
