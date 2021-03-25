@@ -149,13 +149,15 @@ function main(relative_path;
               cc_usernames = String[],
               # my_username = ,
               my_email = "41898282+github-actions[bot]@users.noreply.github.com",
-              old_julia_version::VersionNumber = v"0")
+              old_julia_version::VersionNumber)
     original_project = Base.active_project()
     original_directory = pwd()
 
     OLDMAJOR = old_julia_version.major
     OLDMINOR = old_julia_version.minor
     OLDPATCH = old_julia_version.patch
+    
+    @info "" old_julia_version OLDMAJOR OLDMINOR OLDPATCH
 
     tmp_dir = mktempdir()
     atexit(() -> rm(tmp_dir; force = true, recursive = true))
