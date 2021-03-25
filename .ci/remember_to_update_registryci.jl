@@ -149,7 +149,7 @@ function main(relative_path;
               cc_usernames = String[],
               # my_username = ,
               my_email = "41898282+github-actions[bot]@users.noreply.github.com",
-              old_julia_version::VersionNumber = v"0")
+              old_julia_version::VersionNumber)
     original_project = Base.active_project()
     original_directory = pwd()
 
