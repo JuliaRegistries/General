@@ -156,6 +156,8 @@ function main(relative_path;
     OLDMAJOR = old_julia_version.major
     OLDMINOR = old_julia_version.minor
     OLDPATCH = old_julia_version.patch
+    
+    @info "" old_julia_version OLDMAJOR OLDMINOR OLDPATCH
 
     tmp_dir = mktempdir()
     atexit(() -> rm(tmp_dir; force = true, recursive = true))
