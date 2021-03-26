@@ -1,7 +1,5 @@
 [0]
-BenchmarkTools = "0.5"
 DataFrames = "0.22"
-Gaius = "0.5-0.6"
 Octavian = "0.2"
 ProgressMeter = "1.4.0-1"
 Tullio = "0.2"
@@ -11,6 +9,10 @@ julia = "1.5.0-1"
 LoopVectorization = "0.9"
 VectorizationBase = "0.15"
 VegaLite = "2.3.0-2"
+
+["0-0.3.1"]
+BenchmarkTools = "0.5"
+Gaius = "0.5-0.6"
 
 ["0.2-0"]
 Cairo = "1"
@@ -27,6 +29,12 @@ VectorizationBase = "0.16"
 ["0.2.1-0.3.0"]
 VectorizationBase = "0.16-0.17"
 
-["0.3.1-0"]
+["0.3.1"]
 LoopVectorization = "0.10-0.11"
 VectorizationBase = "0.16-0.19"
+
+["0.3.2-0"]
+BenchmarkTools = "0.5-0.6"
+Gaius = "0.6.4-0.6"
+LoopVectorization = "0.12"
+VectorizationBase = "0.19"
