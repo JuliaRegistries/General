@@ -17,12 +17,14 @@ Requires = "0.0.0 - 1"
 Compat = "2.2.0-3"
 MacroTools = "0.5"
 OffsetArrays = ["0.11", "1"]
-StaticArrays = "0.10-0.12"
 ZygoteRules = "0.1-0.2"
 
 ["0.2-0.2.1"]
 LazyArrays = "0.12-0.14"
 LazyStack = "0.0.4-0.0.5"
+
+["0.2-0.3.2"]
+StaticArrays = "0.10-0.12"
 
 ["0.2.2-0"]
 LazyStack = "0.0.4-0.0.8"
@@ -32,3 +34,6 @@ LazyArrays = "0.12-0.16"
 
 ["0.3-0"]
 Requires = ["0.5", "1"]
+
+["0.3.3-0"]
+StaticArrays = ["0.10-0.12", "1"]
