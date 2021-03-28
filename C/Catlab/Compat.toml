@@ -31,6 +31,10 @@ StaticArrays = ["0.12", "1"]
 ["0.10.2-0"]
 PrettyTables = "0.10-0.11"
 
+["0.11.2-0"]
+FunctionWrappers = "1.1.1"
+GeneralizedGenerated = "0.2-0.3"
+
 ["0.2.3-0"]
 julia = "1"
 
@@ -91,7 +95,7 @@ Parameters = "0.0.0 - 0.12"
 ["0.7.4-0"]
 Compose = "0.7-0.9"
 
-["0.8-0"]
+["0.8-0.11.1"]
 FunctionWrappers = "1"
 
 ["0.8.0"]
@@ -100,7 +104,6 @@ StructArrays = "0.0.0 - 0.4"
 ["0.8.1-0"]
 AutoHashEquals = "0.2"
 DataStructures = "0.17-0.18"
-GeneralizedGenerated = "0.2"
 JSON = "0.20-0.21"
 LightXML = "0.8-0.9"
 MLStyle = "0.4"
@@ -109,6 +112,9 @@ Parameters = "0.11-0.12"
 ["0.8.1-0.10.0"]
 Reexport = "0.2"
 StaticArrays = "0.12"
+
+["0.8.1-0.11.1"]
+GeneralizedGenerated = "0.2"
 
 ["0.8.1-0.9"]
 StructArrays = "0.4"
