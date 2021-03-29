@@ -15,9 +15,6 @@ Yao = "0.0.0 - 0.6"
 YaoArrayRegister = "0.0.0 - 0.7"
 YaoBase = "0.0.0 - 0.14"
 
-["0.2-0"]
-StaticArrays = "0.12"
-
 ["0.2-0.2.2"]
 BitBasis = "0.6"
 
@@ -29,6 +26,9 @@ TupleTools = "1.2.0-1"
 
 ["0.2-0.2.7"]
 Reexport = "0.2"
+
+["0.2-0.2.8"]
+StaticArrays = "0.12"
 
 ["0.2.0"]
 CUDAnative = "2.6.0-2"
@@ -73,3 +73,6 @@ CUDA = "2"
 
 ["0.2.8-0"]
 Reexport = ["0.2", "1"]
+
+["0.2.9-0"]
+StaticArrays = ["0.12", "1"]
