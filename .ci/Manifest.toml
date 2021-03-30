@@ -270,10 +270,10 @@ deps = ["Libdl"]
 uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
 
 [[libsodium_jll]]
-deps = ["Libdl", "Pkg"]
-git-tree-sha1 = "7127f5f40332ccfa43ee07dcd0c4d81a27d9bb23"
+deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
+git-tree-sha1 = "8ebe4f8eeb6ba5115eaf9a7301b635c3f3f28947"
 uuid = "a9144af2-ca23-56d9-984f-0d03f7b5ccf8"
-version = "1.0.18+1"
+version = "1.0.19+0"
 
 [[licensecheck_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
