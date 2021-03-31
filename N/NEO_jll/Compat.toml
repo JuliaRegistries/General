@@ -1,10 +1,10 @@
-[20]
-julia = "1"
-
 ["20-20.12"]
 gmmlib_jll = "19.4.1"
 libigc_jll = "1.0.3586"
 oneAPI_Level_Zero_jll = "0.91.10"
+
+[20-21]
+julia = "1"
 
 ["20.15"]
 libigc_jll = "1.0.3771"
@@ -50,11 +50,18 @@ JLLWrappers = "1.1.0-1"
 libigc_jll = "1.0.5186"
 
 ["20.42-20"]
-gmmlib_jll = "20.3.2"
 oneAPI_Level_Zero_Headers_jll = "1.0.4"
+
+["20.42-21"]
+gmmlib_jll = "20.3.2"
 
 ["20.44"]
 libigc_jll = "1.0.5353"
 
 ["20.48-20"]
 libigc_jll = "1.0.5699"
+
+[21]
+JLLWrappers = "1.2.0-1"
+libigc_jll = "1.0.6712"
+oneAPI_Level_Zero_Headers_jll = "1.1.2"
