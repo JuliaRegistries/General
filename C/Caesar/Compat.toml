@@ -33,6 +33,12 @@ Reexport = "0.2.0 - 0.2"
 Rotations = "0.8.0 - 0.11"
 julia = ["0.7-0", "1.0"]
 
+["0.10-0"]
+ApproxManifoldProducts = "0.2-0.3"
+IncrementalInference = "0.21-0.22"
+RoME = "0.13-0.14"
+TensorCast = "0.2-0.4"
+
 ["0.2.1"]
 IncrementalInference = "0.4.3 - 0.4"
 
@@ -238,7 +244,7 @@ IncrementalInference = "0.14.1-0.15"
 ["0.6-0.6.2"]
 RoME = "0.7.1-0.9"
 
-["0.6.1-0"]
+["0.6.1-0.9"]
 TensorCast = "0.2-0.3"
 
 ["0.6.2"]
@@ -283,9 +289,11 @@ JLD2 = "0.1-0.3"
 IncrementalInference = "0.20.1-0.20"
 RoME = "0.10-0.12"
 
-["0.9-0"]
+["0.9"]
 ApproxManifoldProducts = "0.1-0.2"
-DistributedFactorGraphs = "0.11-0.12"
 IncrementalInference = "0.20.1-0.21"
-JLD2 = "0.1-0.4"
 RoME = "0.11-0.13"
+
+["0.9-0"]
+DistributedFactorGraphs = "0.11-0.12"
+JLD2 = "0.1-0.4"

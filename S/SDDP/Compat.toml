@@ -15,11 +15,13 @@ JuMP = "0.20"
 ["0.2-0"]
 HTTP = "0.8.1-0.8"
 JSON = "0.21"
-Reexport = "0.2"
 TimerOutputs = "0.5"
 
 ["0.2-0.3.1"]
 RecipesBase = "0.7"
+
+["0.2-0.3.12"]
+Reexport = "0.2"
 
 ["0.2.0"]
 MathOptFormat = "0.2"
@@ -29,6 +31,9 @@ MathOptFormat = "0.4"
 
 ["0.3-0"]
 JuMP = "0.21"
+
+["0.3.13-0"]
+Reexport = ["0.2", "1"]
 
 ["0.3.2-0"]
 RecipesBase = "1"

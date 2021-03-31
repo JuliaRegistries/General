@@ -111,21 +111,23 @@ InfiniteArrays = "0.9"
 BandedMatrices = "0.16"
 FillArrays = "0.11"
 IntervalSets = "0.5"
-QuasiArrays = "0.4.1-0.4"
 StaticArrays = ["0.12", "1"]
+
+["0.5-0.6"]
+QuasiArrays = "0.4.1-0.4"
 
 ["0.5-0.6.0"]
 BlockArrays = "0.14"
 LazyArrays = "0.20"
 
-["0.6-0"]
+["0.6"]
 ArrayLayouts = "0.5-0.6"
 InfiniteArrays = "0.9-0.10"
 
 ["0.6-0.6.3"]
 Infinities = "0.0.1-0.0.2"
 
-["0.6.1-0"]
+["0.6.1-0.6"]
 LazyArrays = "0.20-0.21"
 
 ["0.6.1-0.6.3"]
@@ -133,4 +135,13 @@ BlockArrays = "0.14-0.15"
 
 ["0.6.4-0"]
 BlockArrays = "0.15.1-0.15"
+
+["0.6.4-0.6"]
 Infinities = ["0.0.1-0.0.2", "0.1"]
+
+["0.7-0"]
+ArrayLayouts = "0.6"
+InfiniteArrays = "0.10"
+Infinities = "0.1"
+LazyArrays = "0.21"
+QuasiArrays = "0.5.1-0.5"
