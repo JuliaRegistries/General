@@ -105,9 +105,17 @@ MLJTuning = "0.6"
 MLJModels = "0.13"
 
 ["0.16-0"]
-MLJBase = "0.17"
 MLJModels = "0.14"
 julia = "1.1.0-1"
+
+["0.16.0"]
+MLJBase = "0.17"
+
+["0.16.1-0"]
+MLJBase = "0.18"
+MLJIteration = "0.2"
+MLJOpenML = "1"
+MLJSerialization = "1.1.0-1"
 
 ["0.2"]
 MLJModels = "0.2"
