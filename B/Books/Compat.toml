@@ -1,9 +1,11 @@
 [0]
-Latexify = "0.14"
 LiveServer = "0.6"
 Requires = "1.1.0-1"
 YAML = "0.4"
 julia = "1.6.0-1"
+
+["0-0.2"]
+Latexify = "0.14"
 
 ["0.1.1-0"]
 Memoize = "0.4"
@@ -22,3 +24,7 @@ pandoc_jll = "2.9.2-2"
 Compose = "0.9"
 pandoc_crossref_jll = "0.3.9-0.3"
 pandoc_jll = "2.11.4-2"
+
+["0.3-0"]
+DataFrames = "0.22"
+Latexify = "0.15"
