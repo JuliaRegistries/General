@@ -34,13 +34,15 @@ julia = ["0.7.0", "1"]
 ["0.6.11-0"]
 Glob = "1.2.0-1"
 ImageCore = "0.8"
-ImageTransformations = "0.8"
 ProgressMeter = "1.2.0-1"
 Requires = "1"
 
 ["0.6.11-0.6"]
 ColorTypes = "0.9"
 julia = ["0.7", "1"]
+
+["0.6.11-0.8"]
+ImageTransformations = "0.8"
 
 ["0.6.3-0.6.10"]
 ProgressMeter = "0.0.0 - 1"
@@ -66,3 +68,6 @@ FFMPEG = "0.2-0.3"
 
 ["0.7.4-0"]
 FFMPEG = "0.2-0.4"
+
+["0.9-0"]
+Downloads = "1.3.0-1"
