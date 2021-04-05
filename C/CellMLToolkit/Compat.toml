@@ -11,11 +11,22 @@ ModelingToolkit = "4-5"
 
 [2]
 EzXML = "1.1.0-1"
+julia = "1.5.0-1"
+
+["2-2.2"]
 MathML = "0.1"
 ModelingToolkit = "5.13.0-5"
 SymbolicUtils = "0.9"
-julia = "1.5.0-1"
+
+["2.2"]
+JSON3 = "1.8.0-1"
 
 ["2.2-2"]
-JSON3 = "1.8.0-1"
 OrdinaryDiffEq = "5.52.0-5"
+
+["2.3-2"]
+HTTP = "0.9"
+MathML = "0.1.5-0.1"
+Memoize = "0.4"
+ModelingToolkit = "5.14.0-5"
+SymbolicUtils = "0.9.3-0.9"
