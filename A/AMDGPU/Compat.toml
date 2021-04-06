@@ -50,6 +50,11 @@ MacroTools = "0.5"
 
 ["0.2.4-0"]
 AbstractFFTs = ["0.5", "1"]
-GPUCompiler = "0.10"
 hsa_rocr_jll = "3.7.0-3"
 hsakmt_roct_jll = "3.7.0-3"
+
+["0.2.4-0.2.5"]
+GPUCompiler = "0.10"
+
+["0.2.6-0"]
+GPUCompiler = "0.10-0.11"
