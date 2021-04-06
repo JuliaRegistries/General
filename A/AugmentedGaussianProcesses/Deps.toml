@@ -1,11 +1,13 @@
 [0]
-Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0-0.10.1"]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
 ["0-0.3"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
@@ -31,6 +33,9 @@ Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
 ["0.10-0"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 InducingPoints = "b4bd816d-b975-4295-ac05-5f2992945579"
+
+["0.10.2-0"]
+AbstractMCMC = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
 
 ["0.4-0"]
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
@@ -59,18 +64,22 @@ FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
 AdvancedHMC = "0bf59076-c3b1-5ca4-86bd-e02cd72cde3d"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 KernelFunctions = "ec8451be-7e33-11e9-00cf-bbf324bd1392"
-MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+
+["0.6-0.10.1"]
+MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
 
 ["0.6-0.9"]
 PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
 
 ["0.7-0"]
-Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SimpleTraits = "699a6c99-e7fa-54fc-8d76-47d257e15c1d"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["0.7-0.10.1"]
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 
 ["0.7-0.9"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
