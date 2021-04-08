@@ -122,8 +122,10 @@ Requires = ["0.5", "1"]
 AbstractMCMC = ["0.4-0.5", "1"]
 
 ["4.0.1-4"]
-AbstractMCMC = ["0.4-0.5", "1-2"]
 NaturalSort = "1"
+
+["4.0.1-4.7.4"]
+AbstractMCMC = ["0.4-0.5", "1-2"]
 
 ["4.2-4.4"]
 MLJModelInterface = "0.3.5-0.3"
@@ -145,3 +147,6 @@ AbstractFFTs = ["0.5", "1"]
 
 ["4.7-4"]
 PrettyTables = "0.9-0.11"
+
+["4.7.5-4"]
+AbstractMCMC = ["0.4-0.5", "1-3"]
