@@ -1,10 +1,21 @@
 [0]
 InstrumentConfig = "0.2"
-ThorlabsLTStage = "0.1"
 julia = "1"
+
+["0-0.1"]
+ThorlabsLTStage = "0.1"
 
 ["0-0.1.0"]
 TcpInstruments = "0.3"
 
-["0.1.1-0"]
+["0.1.1-0.1"]
 TcpInstruments = "0.3-0.4"
+
+["0.2-0"]
+HydrophoneCalibrations = "0.2"
+IntensityMetrics = "0.3"
+RecipesBase = "1.1.0-1"
+TcpInstruments = "0.8"
+ThorlabsLTStage = "0.3"
+Unitful = "1.6.0-1"
+UnitfulRecipes = "1.1.0-1"
