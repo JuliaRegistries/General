@@ -67,15 +67,17 @@ RecipesBase = "0.7-0.8"
 
 ["0.11-0"]
 DiffResults = "1"
-LogDensityProblems = "0.10"
 NamedTupleTools = "0.12-0.13"
-ReverseDiff = "1"
 
 ["0.11-0.12"]
 MonteCarloMeasurements = "0.6-0.8"
 
 ["0.11-0.15.2"]
 Distributions = "0.21-0.23"
+
+["0.11-0.16"]
+LogDensityProblems = "0.10"
+ReverseDiff = "1"
 
 ["0.11-0.16.0"]
 SpecialFunctions = "0.10"
@@ -91,28 +93,30 @@ RecipesBase = ["0.7-0.8", "1"]
 LazyArrays = "0.14-0.16"
 
 ["0.13-0"]
-MonteCarloMeasurements = "0.6-0.9"
 Requires = "1"
-Setfield = "0.6-0.7"
 SimplePartitions = "0.2-0.3"
 SimplePosets = "0.0-0.1"
 
 ["0.13-0.15.0"]
 SimpleGraphs = "0.3-0.5"
 
+["0.13-0.16"]
+MonteCarloMeasurements = "0.6-0.9"
+Setfield = "0.6-0.7"
+
 ["0.13.1-0.13"]
 GeneralizedGenerated = "0.2.6-0.2"
-
-["0.14-0"]
-Bijectors = "0.8"
-DistributionsAD = "0.6"
-GeneralizedGenerated = "0.2"
 
 ["0.14-0.14.3"]
 LazyArrays = "0.14-0.17"
 
 ["0.14-0.15"]
 FillArrays = "0.8-0.9"
+
+["0.14-0.16"]
+Bijectors = "0.8"
+DistributionsAD = "0.6"
+GeneralizedGenerated = "0.2"
 
 ["0.14-0.16.0"]
 CategoricalArrays = "0.8"
@@ -127,20 +131,44 @@ SimpleGraphs = "0.3-0.6"
 ["0.15.2-0"]
 SimpleGraphs = "0.3-0.7"
 
-["0.15.3-0"]
+["0.15.3-0.16"]
 Distributions = "0.21-0.24"
 
-["0.16-0"]
+["0.16"]
 AdvancedVI = "0.1"
 FillArrays = "0.8-0.10"
 MappedArrays = "0.3"
+
+["0.16-0"]
 StatsBase = "0.33"
 
 ["0.16.1-0"]
+julia = "1.5.0-1"
+
+["0.16.1-0.16"]
 CategoricalArrays = "0.8-0.9"
 LazyArrays = "0.14-0.19"
 SpecialFunctions = "0.9-0.10"
-julia = "1.5.0-1"
+
+["0.17-0"]
+ArrayInterface = "3"
+CanonicalTraits = "0.2"
+DataStructures = "0.18"
+FillArrays = "0.8-0.11"
+GeneralizedGenerated = "0.3"
+IRTools = "0.4"
+IterTools = "1"
+LazyArrays = "0.14-0.21"
+MappedArrays = "0.3-0.4"
+MeasureTheory = "0.6-0.7"
+NestedTuples = "0.3"
+Reexport = "1"
+RuntimeGeneratedFunctions = "0.5"
+SampleChains = "0.3"
+SpecialFunctions = ["0.9-0.10", "1"]
+SymbolicCodegen = "0.2"
+SymbolicUtils = "0.8-0.10"
+Tullio = "0.2"
 
 ["0.2"]
 DynamicHMC = "1.0.5-1"
@@ -202,13 +230,8 @@ Stheno = "0.3"
 Zygote = "0.4"
 
 ["0.8-0"]
-AdvancedHMC = "0.2"
-DynamicHMC = "2.1.0-2"
-ForwardDiff = "0.10"
 Graphs = "0.10"
-IterTools = "1.3.0-1"
 MacroTools = "0.5"
-Reexport = "0.2"
 StatsFuns = "0.9"
 TransformVariables = "0.3"
 
@@ -238,6 +261,13 @@ julia = "1.3.0-1"
 
 ["0.8-0.13.0"]
 GeneralizedGenerated = "0.2"
+
+["0.8-0.16"]
+AdvancedHMC = "0.2"
+DynamicHMC = "2.1.0-2"
+ForwardDiff = "0.10"
+IterTools = "1.3.0-1"
+Reexport = "0.2"
 
 ["0.8-0.9"]
 MonteCarloMeasurements = "0.5"
