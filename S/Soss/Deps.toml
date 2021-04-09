@@ -1,13 +1,8 @@
 [0]
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-DynamicHMC = "bbc10e6e-7c05-544b-b16e-64fede858acb"
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
-LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
 MLStyle = "d8e11817-5142-5d16-987a-aa16d5891078"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
-MonteCarloMeasurements = "0987c9cc-fe09-11e8-30f0-b96dd679fdca"
 NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SimpleGraphs = "55797a34-41de-5266-9ec1-32ac4eb504d3"
@@ -29,6 +24,13 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 TikzGraphs = "b4f28e30-c73f-5eaf-a395-8a9db949a742"
 TikzPictures = "37f6aa50-8035-52d0-81c2-5a1d08754b2d"
 Traceur = "37b6cedf-1f77-55f8-9503-c64b63398394"
+
+["0-0.16"]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+DynamicHMC = "bbc10e6e-7c05-544b-b16e-64fede858acb"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
+MonteCarloMeasurements = "0987c9cc-fe09-11e8-30f0-b96dd679fdca"
 
 ["0-0.2"]
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
@@ -63,32 +65,49 @@ SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 ["0.11-0"]
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 
-["0.12-0"]
+["0.12-0.16"]
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 
 ["0.13-0"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["0.14-0"]
+["0.14-0.16"]
 Bijectors = "76274a88-744f-5084-9051-94815aaf08c4"
 CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
 DistributionsAD = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
 
-["0.16-0"]
+["0.16"]
 AdvancedVI = "b5ca4192-6429-45e5-a2d9-87aec30a685c"
+
+["0.16-0"]
 MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 ["0.16.1-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
+["0.17-0"]
+ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
+CanonicalTraits = "a603d957-0e48-4f86-8fbd-0b7bc66df689"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+IRTools = "7869d1d1-7146-5819-86e3-90919afe41df"
+MeasureTheory = "eadaa1a4-d27c-401d-8699-e962e1bbc33b"
+NestedTuples = "a734d2a7-8d68-409b-9419-626914d4061d"
+RuntimeGeneratedFunctions = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
+SampleChains = "754583d1-7fc4-4dab-93b5-5eaca5c9622e"
+SymbolicCodegen = "fc9b0551-4f1b-42e1-8440-e8a535f5a551"
+SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
+Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
+
 ["0.2"]
 MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
 Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
 
 ["0.2-0"]
-AdvancedHMC = "0bf59076-c3b1-5ca4-86bd-e02cd72cde3d"
 DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
+
+["0.2-0.16"]
+AdvancedHMC = "0bf59076-c3b1-5ca4-86bd-e02cd72cde3d"
 
 ["0.2-0.6"]
 CodeTracking = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
@@ -124,11 +143,13 @@ Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 
 ["0.7-0"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 
 ["0.7-0.13"]
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 SymPy = "24249f21-da20-56a4-8eb1-6a02cf4ae2e6"
+
+["0.7-0.16"]
+ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 
 ["0.7-0.8"]
 Bijectors = "76274a88-744f-5084-9051-94815aaf08c4"
