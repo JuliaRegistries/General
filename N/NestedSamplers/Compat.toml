@@ -1,7 +1,6 @@
 [0]
 StatsBase = "0.32-0.33"
 StatsFuns = "0.9"
-julia = "1"
 
 ["0-0.1"]
 AbstractMCMC = "1"
@@ -10,12 +9,17 @@ Clustering = "0.13"
 ["0-0.3"]
 MCMCChains = "3"
 
+["0-0.5"]
+julia = "1"
+
 ["0-0.5.0"]
 Distributions = "0.21-0.23"
 
 ["0.2-0"]
-AbstractMCMC = ["0.5.6-0.5", "1"]
 Clustering = "0.13-0.14"
+
+["0.2-0.5"]
+AbstractMCMC = ["0.5.6-0.5", "1"]
 
 ["0.3-0"]
 Parameters = "0.12"
@@ -23,5 +27,11 @@ Parameters = "0.12"
 ["0.4-0"]
 MCMCChains = "3-4"
 
-["0.5.1-0"]
+["0.5.1-0.5"]
 Distributions = "0.21-0.24"
+
+["0.6-0"]
+AbstractMCMC = "3.0.2-3"
+Distributions = "0.21-0.23"
+ProgressLogging = "0.1"
+julia = "1.3.0-1"
