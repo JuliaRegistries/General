@@ -1,5 +1,11 @@
 [0]
 GPUCompiler = "61eb1bfa-7361-4325-ad38-22787b887f55"
-IRTools = "7869d1d1-7146-5819-86e3-90919afe41df"
 LLVM = "929cbde3-209d-540e-8aea-75f648917ca0"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+
+["0-0.1"]
+IRTools = "7869d1d1-7146-5819-86e3-90919afe41df"
+
+["0.2-0"]
+CodeInfoTools = "bc773b8a-8374-437a-b9f2-0e9785855863"
+LLVM_full_jll = "a3ccf953-465e-511d-b87f-60a6490c289d"
