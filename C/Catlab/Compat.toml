@@ -28,14 +28,21 @@ TypedTables = "1"
 Reexport = ["0.2", "1"]
 StaticArrays = ["0.12", "1"]
 
-["0.10.2-0"]
+["0.10.2-0.11"]
 PrettyTables = "0.10-0.11"
 
 ["0.11.2-0"]
-FunctionWrappers = "1.1.1"
 GeneralizedGenerated = "0.2-0.3"
 
-["0.2.3-0"]
+["0.11.2-0.11"]
+FunctionWrappers = "1.1.1"
+
+["0.12-0"]
+FunctionWrappers = "1.1.2-1"
+PrettyTables = "0.12"
+julia = "1.6.0-1"
+
+["0.2.3-0.11"]
 julia = "1"
 
 ["0.2.3-0.2"]
@@ -63,7 +70,7 @@ LightGraphs = "1.3.0-1"
 ["0.4.0"]
 Compat = "3"
 
-["0.4.1-0"]
+["0.4.1-0.11"]
 Compat = "1-3"
 
 ["0.5-0.7.3"]
@@ -107,11 +114,13 @@ DataStructures = "0.17-0.18"
 JSON = "0.20-0.21"
 LightXML = "0.8-0.9"
 MLStyle = "0.4"
-Parameters = "0.11-0.12"
 
 ["0.8.1-0.10.0"]
 Reexport = "0.2"
 StaticArrays = "0.12"
+
+["0.8.1-0.11"]
+Parameters = "0.11-0.12"
 
 ["0.8.1-0.11.1"]
 GeneralizedGenerated = "0.2"
