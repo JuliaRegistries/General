@@ -18,10 +18,18 @@ PowerModels = "0.12"
 GasModels = "0.7"
 
 ["0.2-0"]
-JSON = "0.18-0.21"
 JuMP = "0.21"
 Memento = "1.0-1.1"
+
+["0.2-0.3"]
+JSON = "0.18-0.21"
 PowerModels = "0.17"
 
-["0.3-0"]
+["0.3"]
 GasModels = "0.8"
+
+["0.4-0"]
+GasModels = "0.9"
+InfrastructureModels = "0.6"
+JSON = "0.21"
+PowerModelsRestoration = "0.6"
