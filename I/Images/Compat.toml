@@ -44,7 +44,6 @@ ImageDistances = "0.2.5-0.2"
 ImageShow = "0.1-0.2"
 ImageTransformations = "0.4-0.8"
 IndirectArrays = "0.5"
-julia = "1"
 
 ["0.19-0.19.1"]
 ColorVectorSpace = "0.6-0.7"
@@ -71,6 +70,9 @@ MappedArrays = "0.1-0.2"
 ["0.19-0.22.0"]
 StatsBase = "0.24-0.32"
 
+["0.19-0.23"]
+julia = "1"
+
 ["0.19-0.23.0"]
 TiledIteration = "0.2"
 
@@ -90,7 +92,7 @@ Graphics = ["0.4", "1"]
 ["0.19.1-0.22.2"]
 ImageMorphology = "0.2.2-0.2"
 
-["0.19.2-0"]
+["0.19.2-0.23"]
 ColorVectorSpace = "0.6-0.8"
 
 ["0.19.3-0.19"]
@@ -139,3 +141,9 @@ StaticArrays = ["0.8-0.12", "1"]
 
 ["0.23.3-0"]
 Reexport = ["0.2", "1"]
+
+["0.24-0"]
+ColorVectorSpace = "0.6-0.9"
+ImageIO = "0.3-0.5"
+ImageMagick = ["0.7.5-0.7", "1"]
+julia = "1.3.0-1"
