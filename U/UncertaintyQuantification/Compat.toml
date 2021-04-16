@@ -1,7 +1,22 @@
 [0]
+julia = "1"
+
+["0-0.1"]
 DataFrames = "0.21"
 Dierckx = "0.4"
 Distributions = "0.23"
 FiniteDifferences = "0.10"
 Reexport = "0.2"
-julia = "1"
+
+["0.2-0"]
+Accessors = "0.1"
+Bootstrap = "2.2.0-2"
+DataFrames = "0.22"
+Dierckx = "0.5"
+Distributions = "0.24"
+FiniteDifferences = "0.12"
+Formatting = "0.4"
+HaltonSequences = "0.1"
+Mustache = "1"
+Reexport = ["0.2", "1"]
+Sobol = "1.5.0-1"
