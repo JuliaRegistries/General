@@ -19,6 +19,10 @@ Tables = "0.2.3 - 1"
 DataFrames = "0.21"
 Tables = "1"
 
-["0.6-0"]
+["0.6.0"]
 DataFrames = "0.21-0.22"
 Reexport = "0.2"
+
+["0.6.1-0"]
+DataFrames = ["0.21-0.22", "1"]
+Reexport = ["0.2", "1"]
