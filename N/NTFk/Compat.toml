@@ -75,7 +75,6 @@ Colors = "0.12-0.13"
 Compose = "0.8-0.9"
 DistributedArrays = "0.6.5-0.7"
 DocumentFunction = "1"
-Images = "0.23-0.24"
 Interpolations = ["0.12", "0.14"]
 Ipopt = "0.6-0.7"
 LoadTensorDecompositions = "1"
@@ -90,12 +89,20 @@ JLD = "0.10-0.11"
 ["1-1.0.2"]
 JLD2 = "0.2-0.3"
 
+["1-1.0.5"]
+Images = "0.23-0.24"
+
 ["1.0.0"]
 Distributions = ["0.23", "0.25"]
 Geodesy = "0.5-0.6"
 
-["1.0.2-1"]
+["1.0.2-1.0.5"]
 JLD = "0.10-0.12"
 
-["1.0.3-1"]
+["1.0.3-1.0.5"]
 JLD2 = "0.2-0.4"
+
+["1.0.6-1"]
+Images = "0.22-0.25"
+JLD = "0.10-0.13"
+JLD2 = "0.2-0.5"
