@@ -48,15 +48,15 @@ Tables = "0.1.14 - 0.2"
 ["0.17.1-0.18.2"]
 Tables = "0.1.15 - 0.2"
 
-["0.18-0"]
-julia = "1"
-
 ["0.18-0.19"]
 Reexport = "0.0.0 - 0.2"
 SortingAlgorithms = "0.0.0 - 0.3"
 
 ["0.18-0.22.4"]
 PooledArrays = "0.5"
+
+["0.18-1"]
+julia = "1"
 
 ["0.18.2"]
 TableTraits = "0.4.0-1"
@@ -67,18 +67,18 @@ Compat = "0.59.0-2"
 ["0.18.2-0.19.0"]
 StatsBase = "0.11.0-0.32"
 
-["0.18.3-0"]
-IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
-TableTraits = ["0.4", "1"]
-
 ["0.18.3-0.19"]
 Tables = "0.2.3 - 0.2"
+
+["0.18.3-1"]
+IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
+TableTraits = ["0.4", "1"]
 
 ["0.19"]
 CategoricalArrays = "0.5.4-0.7"
 Compat = "2"
 
-["0.19-0"]
+["0.19-1"]
 InvertedIndices = "1"
 
 ["0.19.1-0.19.2"]
@@ -113,14 +113,16 @@ DataAPI = "1.2.0-1"
 
 ["0.22-0"]
 CategoricalArrays = "0.8.3-0.9"
-Compat = "3.17.0-3"
 DataAPI = "1.4.0-1"
-Tables = "1.2.0-1"
 
 ["0.22-0.22.3"]
 PrettyTables = "0.10"
 
-["0.22.3-0"]
+["0.22-1"]
+Compat = "3.17.0-3"
+Tables = "1.2.0-1"
+
+["0.22.3-1"]
 Reexport = ["0.1-0.2", "1"]
 
 ["0.22.4-0"]
@@ -128,3 +130,10 @@ PrettyTables = "0.10-0.11"
 
 ["0.22.5-0"]
 PooledArrays = ["0.5", "1"]
+
+[1]
+DataAPI = "1.6.0-1"
+Missings = ["0.4.2-0.4", "1"]
+PooledArrays = "1.2.1-1"
+PrettyTables = ["0.12", "1"]
+SortingAlgorithms = ["0.1-0.3", "1"]
