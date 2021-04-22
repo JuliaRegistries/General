@@ -32,6 +32,10 @@ Interpolations = "0.12"
 ["1.0.1-1.0.8"]
 Reexport = "0.2"
 
+["1.0.10-1"]
+DataFrames = ["0.22", "1"]
+GR = ["0.53-0.55", "0.57"]
+
 ["1.0.2"]
 GR = "0.44"
 
@@ -67,9 +71,11 @@ Interpolations = "0.12-0.13"
 ["1.0.7-1.0.8"]
 DataFrames = "0.20-0.22"
 
-["1.0.9-1"]
+["1.0.9"]
 DataFrames = "0.22"
 GR = "0.53"
+
+["1.0.9-1"]
 Interpolations = "0.13"
 OffsetArrays = "1"
 Reexport = ["0.2", "1"]
