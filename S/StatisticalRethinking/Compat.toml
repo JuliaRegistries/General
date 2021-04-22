@@ -200,7 +200,6 @@ DataFrames = "0.20-0.22"
 [3]
 AxisArrays = "0.4"
 BSplines = "0.2-0.3"
-DataFrames = "0.21-0.22"
 GLM = "1.3.0-1"
 StructuralCausalModels = "1"
 
@@ -209,6 +208,9 @@ PrettyTables = "0.9-0.10"
 
 ["3-3.2.1"]
 MonteCarloMeasurements = ["0.8-0.9", "1"]
+
+["3-3.4.1"]
+DataFrames = "0.21-0.22"
 
 ["3.0"]
 MCMCChains = "3-4"
@@ -226,7 +228,7 @@ Reexport = ["0.2", "1"]
 ["3.1.9-3"]
 OrderedCollections = "1.3.0-1"
 
-["3.2.1-3"]
+["3.2.1-3.4.1"]
 PrettyTables = "0.9-0.11"
 
 ["3.2.2-3"]
@@ -237,3 +239,9 @@ ParetoSmoothedImportanceSampling = "0.1"
 
 ["3.2.7-3"]
 StatsModelComparisons = ["0.1", "1"]
+
+["3.4.2-3"]
+BrowseTables = "0.3"
+DataFrames = ["0.21-0.22", "1"]
+PrettyTables = ["0.9-0.12", "1"]
+Tables = "1.4.0-1"
