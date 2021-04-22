@@ -1,6 +1,5 @@
 [0]
 CSV = "0.8"
-DataFrames = "0.22"
 DataStructures = "0.18"
 
 ["0-0.1"]
@@ -10,6 +9,9 @@ PowerSystems = "1.1.0-1"
 ["0-0.2"]
 julia = "1.4.0-1"
 
+["0-0.3"]
+DataFrames = "0.22"
+
 ["0-0.3.3"]
 TimeSeries = "0.20"
 
@@ -17,7 +19,7 @@ TimeSeries = "0.20"
 InfrastructureSystems = "1"
 PowerSystems = "1"
 
-["0.3-0"]
+["0.3"]
 PrettyTables = "0.11"
 julia = "1.5.0-1"
 
@@ -26,3 +28,8 @@ TimeSeries = "0.21"
 
 ["0.3.5-0"]
 TimeSeries = "0.22"
+
+["0.4-0"]
+DataFrames = "1"
+PrettyTables = "1"
+julia = "1.6.0-1"
