@@ -2,10 +2,7 @@
 ArchGDAL = "0.6"
 AxisArrays = "0.4.3-0.4"
 Calculus = "0.4.1-0.5"
-Compat = "2.2.1-3"
-DataFrames = "0.21.8-0.22"
 Distributions = "0.24.15-0.24"
-Diversity = "0.5.3-0.5"
 EcoBase = "0.1.3-0.1"
 Feather = "0.5.7-0.5"
 HCubature = "1.5.0-1"
@@ -15,7 +12,6 @@ JLD = "0.10-0.12"
 JuliaDB = "0.13"
 MPI = "0.17.2-0.17"
 Measures = "0.3.1-0.3"
-Missings = "0.4.5-0.4"
 NetCDF = "0.11.3-0.11"
 OnlineStats = "1.5.8-1"
 Optim = ["0.18-0.22", "1"]
@@ -28,3 +24,14 @@ SpatialEcology = "0.9"
 StatsBase = "0.32.2-0.33"
 Unitful = "1.7.0-1"
 julia = "1.6.0-1"
+
+["0-0.1.0"]
+Compat = "2.2.1-3"
+DataFrames = "0.21.8-0.22"
+Diversity = "0.5.3-0.5"
+Missings = "0.4.5-0.4"
+
+["0.1.1-0"]
+DataFrames = ["0.21.8-0.22", "1"]
+Diversity = "0.5.4"
+Missings = ["0.4.5-0.4", "1"]
