@@ -4,11 +4,13 @@ DocumentFunction = "1"
 FileIO = "1"
 Gadfly = "1"
 Geodesy = "1"
-Kriging = "1"
 Mads = "1"
 NMFk = "1"
 NTFk = "1"
 julia = "1.6.0-1"
+
+["0-0.1.1"]
+Kriging = "1"
 
 ["0.1.1-0"]
 Cairo = "1"
@@ -17,3 +19,8 @@ IJulia = "1"
 JLD = "0.10-0.13"
 JLD2 = "0.2-0.5"
 SVR = "1"
+
+["0.1.2-0"]
+GMT = "0.31-0.32"
+Kriging = "1.1.0-1"
+XLSX = "0.7-0.8"
