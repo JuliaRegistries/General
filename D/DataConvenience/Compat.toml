@@ -1,5 +1,4 @@
 [0]
-Missings = "0.4"
 SortingLab = "0.2"
 WeakRefStrings = "0.6"
 julia = "1"
@@ -10,6 +9,9 @@ DataFrames = "0.19"
 
 ["0-0.1.1"]
 StatsBase = "0.32"
+
+["0-0.2.0"]
+Missings = "0.4"
 
 ["0.1.1"]
 Flux = "0.0.0 - 0.11"
@@ -23,6 +25,8 @@ CSV = "0.7-0.8"
 
 ["0.1.12-0"]
 CategoricalArrays = "0.7-0.9"
+
+["0.1.12-0.2.0"]
 DataFrames = "0.19-0.22"
 
 ["0.1.2-0"]
@@ -46,3 +50,7 @@ Lazy = "0.15"
 
 ["0.1.8-0.1"]
 Lazy = "0.14-0.15"
+
+["0.2.1-0"]
+DataFrames = "1"
+Missings = "1"
