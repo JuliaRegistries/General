@@ -35,20 +35,28 @@ Unitful = "1.5.0-1"
 ["0.2.1-0"]
 CSV = "0.7.3-0.8"
 CoordinateTransformations = "0.6"
-DataFrames = "0.21-0.22"
 Dierckx = "0.5"
 FFAST = "2"
 FileIO = "1.4.0-1"
 GeometryBasics = "0.3"
 StaticArrays = ["0.12", "1"]
 
+["0.2.1-0.2.4"]
+DataFrames = "0.21-0.22"
+
 ["0.2.2"]
 Reexport = "1"
 
 ["0.2.2-0"]
 LaTeXStrings = "1.2.0-1"
-NeXLUncertainties = "0.2.2-0.2"
 Unitful = "1.6.0-1"
+
+["0.2.2-0.2.4"]
+NeXLUncertainties = "0.2.2-0.2"
 
 ["0.2.3-0"]
 Reexport = ["0.2", "1"]
+
+["0.2.5-0"]
+DataFrames = ["0.21-0.22", "1"]
+NeXLUncertainties = "0.2.4-0.2"
