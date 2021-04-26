@@ -1,8 +1,8 @@
 name: "Close stale pull requests"
 on:
-  workflow_dispatch:
   schedule:
     - cron: "16 12 * * *"
+  workflow_dispatch:
 jobs:
   stale:
     runs-on: ubuntu-latest
