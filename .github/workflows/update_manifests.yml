@@ -1,14 +1,8 @@
 name: Update Manifests
 on:
-  workflow_dispatch:
   schedule:
     - cron: 0 0 * * *
-
-# Disable PkgServer to avoid random issues.
-# TODO: remove this when PkgServer feels better
-env:
-  JULIA_PKG_SERVER: ""
-
+  workflow_dispatch:
 jobs:
   update_manifests:
     runs-on: ${{ matrix.os }}
@@ -47,6 +41,8 @@ jobs:
             ${{ runner.os }}-test-
             ${{ runner.os }}-
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
+        env:
+          JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
       - run: .ci/instantiate.sh
       - run: julia --color=yes -e 'import Pkg; Pkg.update()'

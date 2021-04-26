@@ -3,9 +3,9 @@ on:
   pull_request:
     types:
       - closed
-  workflow_dispatch:
   schedule:
     - cron: 0 */4 * * *
+  workflow_dispatch:
 jobs:
   trigger:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event.pull_request.merged
@@ -30,6 +30,8 @@ jobs:
             ${{ runner.os }}-test-
             ${{ runner.os }}-
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
+        env:
+          JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
       - run: .ci/instantiate.sh
       - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'

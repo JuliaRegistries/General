@@ -1,8 +1,6 @@
 name: AutoMerge
-
 on:
   pull_request:
-  workflow_dispatch:
   schedule:
     # The cron job is just a fallback.
     # The "stopwatch" functionality that we have implemented should
@@ -10,7 +8,7 @@ on:
     # Therefore, it's sufficient for us to run the fallback job infrequently.
     # We will choose to run the fallback job every 4 hours.
     - cron:  '0 */4 * * *'
-
+  workflow_dispatch:
 jobs:
   AutoMerge:
     timeout-minutes: 60
@@ -47,6 +45,8 @@ jobs:
             ${{ runner.os }}-test-
             ${{ runner.os }}-
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
+        env:
+          JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
       - run: .ci/instantiate.sh
       - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
@@ -79,7 +79,6 @@ jobs:
             public_registries = String["https://github.com/HolyLab/HolyLabRegistry"],
           )
         shell: julia --color=yes --project=.ci/ {0}
-
   AutoMerge-stopwatch:
     timeout-minutes: 60
     if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
@@ -108,6 +107,8 @@ jobs:
             ${{ runner.os }}-test-
             ${{ runner.os }}-
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
+        env:
+          JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
       - run: .ci/instantiate.sh
       - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
