@@ -1,17 +1,38 @@
 name: TagBot Triggers
 on:
-  schedule:
-    - cron: 0 */4 * * *
   pull_request:
     types:
       - closed
   workflow_dispatch:
+  schedule:
+    - cron: 0 */4 * * *
 jobs:
   trigger:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event.pull_request.merged
     runs-on: ubuntu-latest
     steps:
-      - run: julia --project=.ci -e 'using Pkg; Pkg.instantiate(); Pkg.add("RegistryCI")'
+      - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+      - run: |
+          set -o errexit
+          rm -rf .ci/Manifest.toml
+          mv .ci/Manifest.1.toml .ci/Manifest.toml
+          chmod 444 .ci/Project.toml
+          chmod 444 .ci/Manifest.toml
+      - name: Cache artifacts
+        uses: actions/cache@1a9e2138d905efd099035b49d8b7a3888c653ca8 # v2.1.5
+        env:
+          cache-name: cache-artifacts
+        with:
+          path: ~/.julia/artifacts
+          key: ${{ runner.os }}-test-${{ env.cache-name }}-${{ hashFiles('**/.ci/Manifest.toml') }}
+          restore-keys: |
+            ${{ runner.os }}-test-${{ env.cache-name }}-
+            ${{ runner.os }}-test-
+            ${{ runner.os }}-
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
+      - run: .ci/instantiate.sh
+      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
       - run: julia --project=.ci -e 'using RegistryCI.TagBot; TagBot.main()'
         env:
           GITHUB_TOKEN: ${{ secrets.TAGBOT_TOKEN }}

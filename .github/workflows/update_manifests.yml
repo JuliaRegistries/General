@@ -1,28 +1,28 @@
-name: CI
+name: Update Manifests
 on:
-  pull_request:
-    branches:
-      - master
-  push:
-    branches:
-      - master
   workflow_dispatch:
   schedule:
     - cron: 0 0 * * *
 
+# Disable PkgServer to avoid random issues.
+# TODO: remove this when PkgServer feels better
+env:
+  JULIA_PKG_SERVER: ""
+
 jobs:
-  CI:
+  update_manifests:
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
     strategy:
       fail-fast: false
       matrix:
         version:
-          - '1.3'
-          - '1.4'
+          # - '1.3' # TODO: uncomment this line
+          # - '1.4' # TODO: uncomment this line
           - '1.5'
-          - '1'
-          - 'nightly'
+          - '1.6'
+          # - '1' # TODO: uncomment this line
+          # - 'nightly' # TODO: uncomment this line
         os:
           - ubuntu-latest
         arch:
@@ -33,12 +33,8 @@ jobs:
         with:
           version: ${{ matrix.version }}
           arch: ${{ matrix.arch }}
-      - run: |
-          set -o errexit
-          rm -rf .ci/Manifest.toml
-          mv .ci/Manifest.${{ matrix.version }}.toml .ci/Manifest.toml
-          chmod 444 .ci/Project.toml
-          chmod 444 .ci/Manifest.toml
+      - run: rm -rf .ci/Manifest.toml
+      - run: mv .ci/Manifest.${{ matrix.version }}.toml .ci/Manifest.toml
       - name: Cache artifacts
         uses: actions/cache@1a9e2138d905efd099035b49d8b7a3888c653ca8 # v2.1.5
         env:
@@ -53,5 +49,13 @@ jobs:
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
       - run: .ci/instantiate.sh
-      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
-      - run: julia --color=yes --project=.ci/ -e 'import RegistryCI; RegistryCI.test()'
+      - run: julia --color=yes -e 'import Pkg; Pkg.update()'
+      - run: mv .ci/Manifest.toml .ci/Manifest.${{ matrix.version }}.toml
+      - uses: peter-evans/create-pull-request@052fc72b4198ba9fbc81b818c6e1859f747d49a8 # v3.8.2
+        with:
+          token: ${{ secrets.TAGBOT_TOKEN }}
+          commit-message: '[bot] Update the manifest at `.ci/Manifest.${{ matrix.version }}.toml`'
+          title: '🤖 Update the manifest at `.ci/Manifest.${{ matrix.version }}.toml`'
+          body: ''
+          labels: |
+            continuous integration (ci)
