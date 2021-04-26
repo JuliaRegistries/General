@@ -47,6 +47,7 @@ jobs:
       - run: .ci/instantiate.sh
       - run: julia --color=yes -e 'import Pkg; Pkg.update()'
       - run: mv .ci/Manifest.toml .ci/Manifest.${{ matrix.version }}.toml
+      - run: git status
       - uses: peter-evans/create-pull-request@052fc72b4198ba9fbc81b818c6e1859f747d49a8 # v3.8.2
         with:
           token: ${{ secrets.TAGBOT_TOKEN }}
