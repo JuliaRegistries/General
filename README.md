@@ -1,11 +1,11 @@
 # General
 
 | Workflow | Status |
-| -------- | ------ |
-| AutoMerge | [![AutoMerge status][AutoMerge-img]][AutoMerge-url] |
-| Continuous Integration (CI) | [![Continuous Integration (CI) status][CI-img]][CI-url] |
-| TagBot Triggers | [![TagBot Triggers status][TagBotTriggers-img]][TagBotTriggers-url] |
-| Update Manifests | [![Update Manifests status][UpdateManifests-img]][UpdateManifests-url] |
+| --------------------------- | ---------------------------------------------------------------------- |
+| AutoMerge                   | [![AutoMerge status][AutoMerge-img]][AutoMerge-url]                    |
+| Continuous Integration (CI) | [![Continuous Integration (CI) status][CI-img]][CI-url]                |
+| TagBot Triggers             | [![TagBot Triggers status][TagBotTriggers-img]][TagBotTriggers-url]    |
+| Update Manifests            | [![Update Manifests status][UpdateManifests-img]][UpdateManifests-url] |
 
 [AutoMerge-url]: https://github.com/JuliaRegistries/General/actions/workflows/automerge.yml
 [AutoMerge-img]: https://github.com/JuliaRegistries/General/actions/workflows/automerge.yml/badge.svg
