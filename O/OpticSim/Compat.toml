@@ -3,11 +3,9 @@ CSV = "0.8"
 ColorSchemes = "3.10.0-3"
 ColorTypes = "0.10"
 Colors = "0.12"
-DataFrames = "0.22"
 Distributions = "0.24"
 ForwardDiff = "0.10"
 ImageView = "0.10"
-Images = "0.23"
 Ipopt = "0.6"
 JuMP = "0.21"
 Luxor = "2.10.0-2"
@@ -32,6 +30,10 @@ HTTP = "0.9"
 ["0-0.4.0"]
 FileIO = "1.6.0-1"
 
+["0-0.4.3"]
+DataFrames = "0.22"
+Images = "0.23"
+
 ["0.4.0"]
 HTTP = "0.8"
 
@@ -45,3 +47,8 @@ Pluto = ["0.12", "0.14"]
 PlutoUI = "0.7"
 PyCall = "1.92.0-1"
 WGLMakie = "0.3"
+
+["0.4.4-0"]
+DataFrames = ["0.22", "1"]
+Images = "0.23-0.24"
+Revise = "3.1.0-3"
