@@ -59,7 +59,7 @@ jobs:
           delete-branch: true
           branch: 'update_manifests/manifest_v${{ steps.manifest_version.outputs.manifest_version }}/from_matrix_${{ matrix.version }}'
           commit-message: '[bot] Update manifest: `.ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml`'
-          title: '🤖[ Update manifest: `.ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml`'
+          title: '🤖 Update manifest: `.ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml`'
           # body: ''
           labels: |
             CI
