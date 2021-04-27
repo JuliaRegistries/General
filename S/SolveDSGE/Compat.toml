@@ -2,7 +2,6 @@
 julia = ["0.7", "1"]
 
 ["0.3-0"]
-ChebyshevApprox = "0.1"
 ForwardDiff = "0.10"
 GaussQuadrature = "0.5"
 NLsolve = "4.3.0-4"
@@ -10,6 +9,12 @@ PiecewiseLinearApprox = "0.1"
 SmolyakApprox = "0.1"
 julia = "1.1.0-1"
 
+["0.3-0.4.1"]
+ChebyshevApprox = "0.1"
+
 ["0.4.1-0"]
 ThreadPools = "1.2.1-1"
 ThreadsX = "0.1.7-0.1"
+
+["0.4.2-0"]
+ChebyshevApprox = "0.1.5-0.1"
