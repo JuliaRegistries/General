@@ -5,7 +5,7 @@
 [![Continuous Integration (CI) status][CI-img]][CI-url] [![TagBot Triggers status][TagBotTriggers-img]][TagBotTriggers-url] [![Update Manifests status][UpdateManifests-img]][UpdateManifests-url]
 
 [AutoMerge-url]: https://github.com/JuliaRegistries/General/actions/workflows/automerge.yml
-[AutoMerge-img]: https://github.com/JuliaRegistries/General/actions/workflows/automerge.yml/badge.svg "AutoMerge status"
+[AutoMerge-img]: https://github.com/JuliaRegistries/General/actions/workflows/automerge.yml/badge.svg
 [CI-url]: https://github.com/JuliaRegistries/General/actions/workflows/ci.yml
 [CI-img]: https://github.com/JuliaRegistries/General/actions/workflows/ci.yml/badge.svg "Continuous Integration (CI) status"
 [TagBotTriggers-url]: https://github.com/JuliaRegistries/General/actions/workflows/TagBotTriggers.yml
