@@ -35,7 +35,6 @@ julia = ["0.7", "1"]
 NCDatasets = "0.6-0.9"
 
 ["2.5-2"]
-Missings = "0.4"
 Mustache = "1"
 
 ["2.5-2.6.1"]
@@ -44,6 +43,9 @@ DataStructures = "0.17"
 ["2.5-2.6.3"]
 HTTP = "0.8"
 Interpolations = "0.12"
+
+["2.5-2.7.3"]
+Missings = "0.4"
 
 ["2.5.0"]
 EzXML = "0.8-0.9"
@@ -72,3 +74,6 @@ SpecialFunctions = ["0.8", "0.10", "1"]
 ["2.6.7-2"]
 AlgebraicMultigrid = "0.2-0.4"
 IterativeSolvers = "0.8-0.9"
+
+["2.7.4-2"]
+Missings = ["0.4", "1"]
