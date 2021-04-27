@@ -1,12 +1,20 @@
 # General
 
-[![AutoMerge status][automerge-img]][automerge-url]
-[![TagBot Triggers Status][tagbot-img]][tagbot-url]
+| Workflow | Status |
+| --------------------------- | ---------------------------------------------------------------------- |
+| AutoMerge                   | [![AutoMerge status][AutoMerge-img]][AutoMerge-url]                    |
+| Continuous Integration (CI) | [![Continuous Integration (CI) status][CI-img]][CI-url]                |
+| TagBot Triggers             | [![TagBot Triggers status][TagBotTriggers-img]][TagBotTriggers-url]    |
+| Update Manifests            | [![Update Manifests status][UpdateManifests-img]][UpdateManifests-url] |
 
-[automerge-url]: https://github.com/JuliaRegistries/General/actions?query=workflow%3AAutoMerge+event%3Aschedule
-[automerge-img]: https://github.com/JuliaRegistries/General/workflows/AutoMerge/badge.svg?event=schedule "AutoMerge status"
-[tagbot-url]: https://github.com/JuliaRegistries/General/actions?query=workflow%3A%22TagBot+Triggers%22+event%3Aschedule
-[tagbot-img]: https://github.com/JuliaRegistries/General/workflows/TagBot%20Triggers/badge.svg?event=schedule
+[AutoMerge-url]: https://github.com/JuliaRegistries/General/actions/workflows/automerge.yml
+[AutoMerge-img]: https://github.com/JuliaRegistries/General/actions/workflows/automerge.yml/badge.svg "AutoMerge status"
+[CI-url]: https://github.com/JuliaRegistries/General/actions/workflows/ci.yml
+[CI-img]: https://github.com/JuliaRegistries/General/actions/workflows/ci.yml/badge.svg "Continuous Integration (CI) status"
+[TagBotTriggers-url]: https://github.com/JuliaRegistries/General/actions/workflows/TagBotTriggers.yml
+[TagBotTriggers-img]: https://github.com/JuliaRegistries/General/actions/workflows/TagBotTriggers.yml/badge.svg "TagBot Triggers status"
+[UpdateManifests-url]: https://github.com/JuliaRegistries/General/actions/workflows/update_manifests.yml
+[UpdateManifests-img]: https://github.com/JuliaRegistries/General/actions/workflows/update_manifests.yml/badge.svg "Update Manifests status" 
 
 General is the default Julia package registry. Package registries are used by Julia's
 package manager [Pkg.jl][pkg] and includes information about packages such as versions,
