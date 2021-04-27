@@ -27,12 +27,14 @@ jobs:
       - uses: julia-actions/setup-julia@0b9b1d2cd24245f151902702d8e73b3f6b910014 # v1.6.0
         with:
           version: ${{ matrix.version }}
-      - run: |
-          set -o errexit
-          rm -rf .ci/Manifest.toml
-          mv .ci/Manifest.${{ matrix.version }}.toml .ci/Manifest.toml
-          chmod 444 .ci/Project.toml
-          chmod 444 .ci/Manifest.toml
+      - run: println("::set-output name=manifest_version::$(VERSION.major).$(VERSION.minor)")
+        shell: julia --color=yes --project=.ci/ {0}
+        id: manifest_version
+      - run: echo "The manifest is .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml"
+      - run: rm -rf .ci/Manifest.toml
+      - run: mv .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
+      - run: chmod 444 .ci/Project.toml
+      - run: chmod 444 .ci/Manifest.toml
       - name: Cache artifacts
         uses: actions/cache@1a9e2138d905efd099035b49d8b7a3888c653ca8 # v2.1.5
         env:
@@ -89,12 +91,13 @@ jobs:
       - uses: julia-actions/setup-julia@0b9b1d2cd24245f151902702d8e73b3f6b910014 # v1.6.0
         with:
           version: '1'
-      - run: |
-          set -o errexit
-          rm -rf .ci/Manifest.toml
-          mv .ci/Manifest.1.toml .ci/Manifest.toml
-          chmod 444 .ci/Project.toml
-          chmod 444 .ci/Manifest.toml
+      - run: println("::set-output name=manifest_version::$(VERSION.major).$(VERSION.minor)")
+        shell: julia --color=yes --project=.ci/ {0}
+        id: manifest_version
+      - run: rm -rf .ci/Manifest.toml
+      - run: mv .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
+      - run: chmod 444 .ci/Project.toml
+      - run: chmod 444 .ci/Manifest.toml
       - name: Cache artifacts
         uses: actions/cache@1a9e2138d905efd099035b49d8b7a3888c653ca8 # v2.1.5
         env:

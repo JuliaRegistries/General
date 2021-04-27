@@ -12,12 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
-      - run: |
-          set -o errexit
-          rm -rf .ci/Manifest.toml
-          mv .ci/Manifest.1.toml .ci/Manifest.toml
-          chmod 444 .ci/Project.toml
-          chmod 444 .ci/Manifest.toml
+      - run: println("::set-output name=manifest_version::$(VERSION.major).$(VERSION.minor)")
+        shell: julia --color=yes --project=.ci/ {0}
+        id: manifest_version
+      - run: echo "The manifest is .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml"
+      - run: rm -rf .ci/Manifest.toml
+      - run: mv .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
+      - run: chmod 444 .ci/Project.toml
+      - run: chmod 444 .ci/Manifest.toml
       - name: Cache artifacts
         uses: actions/cache@1a9e2138d905efd099035b49d8b7a3888c653ca8 # v2.1.5
         env:
