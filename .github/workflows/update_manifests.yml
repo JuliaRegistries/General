@@ -51,6 +51,8 @@ jobs:
       - uses: peter-evans/create-pull-request@052fc72b4198ba9fbc81b818c6e1859f747d49a8 # v3.8.2
         with:
           token: ${{ secrets.TAGBOT_TOKEN }}
+          delete-branch: true
+          branch: 'update_manifests/v${{ matrix.version }}'
           commit-message: '[bot] Update the manifest at `.ci/Manifest.${{ matrix.version }}.toml`'
           title: '🤖 Update the manifest at `.ci/Manifest.${{ matrix.version }}.toml`'
           body: ''
