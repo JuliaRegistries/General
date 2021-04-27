@@ -9,7 +9,6 @@ Distributions = "0.24.18-0.24"
 Documenter = "0.26.3-0.26"
 Flux = "0.12.2-0.12"
 Formatting = "0.4.2-0.4"
-JSON2 = "0.3.2-0.3"
 JSON3 = "1.8.1-1"
 Plots = "1.12.0-1"
 ProgressMeter = "1.5.0-1"
@@ -17,3 +16,9 @@ Setfield = "0.7"
 StaticArrays = "1.1.1-1"
 Zygote = "0.6.10-0.6"
 julia = "1.6.0-1"
+
+["0-0.4"]
+JSON2 = "0.3.2-0.3"
+
+["0.5-0"]
+ThreadPools = "2"
