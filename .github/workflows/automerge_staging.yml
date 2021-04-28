@@ -1,0 +1,87 @@
+# INSTRUCTIONS: To enable or disable this workflow, please go to 
+# https://github.com/JuliaRegistries/General/actions/workflows/automerge_staging.yml
+# and click on the "···" button on the right-hand side.
+# Then click on "Enable workflow" or "Disable workflow".
+
+name: AutoMerge (staging)
+on:
+  pull_request:
+
+# Make sure that the `GITHUB_TOKEN` only has read-only permissions
+# https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#permissions
+permissions: read-all
+
+jobs:
+  AutoMerge_staging:
+    timeout-minutes: 60
+    if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        version:
+          - '1'
+        os:
+          - ubuntu-latest
+        arch:
+          - x64
+    steps:
+      - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+      - uses: julia-actions/setup-julia@0b9b1d2cd24245f151902702d8e73b3f6b910014 # v1.6.0
+        with:
+          version: ${{ matrix.version }}
+      - run: rm -rf .ci/JuliaManifest*
+      - run: rm -rf .ci/Manifest*
+      - name: Cache artifacts
+        uses: actions/cache@1a9e2138d905efd099035b49d8b7a3888c653ca8 # v2.1.5
+        env:
+          cache-name: cache-artifacts
+        with:
+          path: ~/.julia/artifacts
+          key: ${{ runner.os }}-test-${{ env.cache-name }}-${{ hashFiles('**/.ci/Manifest.toml') }}
+          restore-keys: |
+            ${{ runner.os }}-test-${{ env.cache-name }}-
+            ${{ runner.os }}-test-
+            ${{ runner.os }}-
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
+        env:
+          JULIA_PKG_SERVER: ""
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
+      - run: .ci/instantiate.sh
+      - run: |
+          import Pkg
+          name = "RegistryCI"
+          uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
+          rev = "master"
+          Pkg.add(; name, uuid, rev)
+        shell: julia --color=yes --project=.ci/ {0}
+      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.update()'
+      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
+      - name: AutoMerge.run
+        env:
+          AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUTOMERGE_TAGBOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JULIA_DEBUG: RegistryCI,AutoMerge
+        run: |
+          using RegistryCI
+          using Dates
+
+          RegistryCI.AutoMerge.run(
+            read_only = true,           # run in read-only mode
+
+            merge_new_packages = false, # don't merge any PRs
+            merge_new_versions = false, # don't merge any PRs
+            new_package_waiting_period = Day(3),
+            new_jll_package_waiting_period = Minute(20),
+            new_version_waiting_period = Minute(10),
+            new_jll_version_waiting_period = Minute(10),
+            registry = "JuliaRegistries/General",
+            tagbot_enabled = true,
+            authorized_authors = String["JuliaRegistrator"],
+            authorized_authors_special_jll_exceptions = String["jlbuild"],
+            suggest_onepointzero = false,
+            additional_statuses = String[],
+            additional_check_runs = String[],
+            check_license = true,
+            public_registries = String["https://github.com/HolyLab/HolyLabRegistry"],
+          )
+        shell: julia --color=yes --project=.ci/ {0}
