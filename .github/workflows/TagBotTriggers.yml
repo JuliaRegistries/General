@@ -37,6 +37,6 @@ jobs:
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
       - run: .ci/instantiate.sh
       - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
-      - run: julia --project=.ci -e 'using RegistryCI.TagBot; TagBot.main()'
+      - run: .ci/tagbot_triggers.sh
         env:
           GITHUB_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
