@@ -25,13 +25,21 @@ PhyloNetworks = "0.11"
 
 ["0.2.1-0"]
 NLopt = "0.5.1-0.6"
-PhyloNetworks = "0.11-0.12"
 
 ["0.2.1-0.2"]
 CSV = "0.4-0.7"
 DataFrames = "0.13-0.21"
 
+["0.2.1-0.3.0"]
+PhyloNetworks = "0.11-0.12"
+
 ["0.3-0"]
 CSV = "0.4-0.8"
-DataFrames = "0.13-0.22"
 SpecialFunctions = ["0.8-0.10", "1"]
+
+["0.3.0"]
+DataFrames = "0.13-0.22"
+
+["0.3.1-0"]
+DataFrames = ["0.13-0.22", "1"]
+PhyloNetworks = "0.11-0.14"
