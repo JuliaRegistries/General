@@ -27,8 +27,11 @@ QuadGK = "2.3.1-2"
 SpecialFunctions = "0.8"
 
 ["0.4.7-0"]
-Combinatorics = "1"
 CommonSubexpressions = "0.2"
+julia = "1"
+
+["0.4.7-0.4.8"]
+Combinatorics = "1"
 Conda = "1.3.0-1"
 DiffRules = ["0.0.8", "1"]
 IterTools = "1.3.0-1"
@@ -36,15 +39,30 @@ Polynomials = "0.6"
 Primes = "0.4"
 Roots = "0.8.4-0.8"
 VersionParsing = "1.2.0-1"
-julia = "1"
 
-["0.4.8-0"]
+["0.4.8"]
 DataStructures = "0.17"
 DiffResults = "1"
 Formatting = "0.4"
 ForwardDiff = "0.10"
 MacroTools = "0.5"
-Memoize = "0.3-0.4"
-PyCall = "1.91.0-1"
 QuadGK = "2.3.0-2"
 SpecialFunctions = ["0.8", "0.10"]
+
+["0.4.8-0"]
+Memoize = "0.3-0.4"
+PyCall = "1.91.0-1"
+
+["0.4.9-0"]
+Combinatorics = ["0.7", "1"]
+Conda = "1.1.0-1"
+DataStructures = "0.15-0.17"
+Formatting = "0.3-0.4"
+IterTools = "1.2.0-1"
+MacroTools = "0.4-0.5"
+Polynomials = "0.5-0.6"
+Primes = "0.2-0.4"
+QuadGK = ["0.2", "1-2"]
+Roots = ["0.7-0.8", "1"]
+SpecialFunctions = ["0.6-0.8", "0.10"]
+VersionParsing = "1.1.2-1"
