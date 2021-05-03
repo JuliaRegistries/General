@@ -36,8 +36,9 @@ jobs:
       - run: echo "The manifest is .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml"
       - run: rm -rf .ci/Manifest.toml
       - run: mv .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
-      - run: chmod 444 .ci/Project.toml
-      - run: chmod 444 .ci/Manifest.toml
+      - run: rm -rf .ci/Manifest.*.toml
+      - run: chmod 400 .ci/Project.toml
+      - run: chmod 400 .ci/Manifest.toml
       - name: Cache artifacts
         uses: actions/cache@1a9e2138d905efd099035b49d8b7a3888c653ca8 # v2.1.5
         env:
