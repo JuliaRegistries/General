@@ -3,8 +3,11 @@ on:
   schedule:
     - cron: 0 0 * * 1
   workflow_dispatch:
+defaults:
+  run:
+    shell: bash
 jobs:
-  update_manifests:
+  update_each_manifest:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     strategy:
@@ -23,16 +26,16 @@ jobs:
           version: ${{ matrix.version }}
           arch: x64
       - run: println("::set-output name=manifest_version::$(VERSION.major).$(VERSION.minor)")
-        shell: julia --color=yes --project=.ci/ {0}
+        shell: julia --color=yes {0}
         id: manifest_version
       - run: echo "We will update the manifest at .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml"
       - run: rm -rf .ci/Manifest.toml
       - run: |
           if [ -f ".ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml" ]; then
-              echo "Manifest exists."
+              echo "The manifest file exists, so I will update the existing manifest."
               mv .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
           else
-              echo "Manifest does not exist."
+              echo "The manifest file does not exist, so I will create a new manifest from scratch."
           fi
       - name: Cache artifacts
         uses: actions/cache@1a9e2138d905efd099035b49d8b7a3888c653ca8 # v2.1.5
@@ -49,17 +52,40 @@ jobs:
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: .ci/instantiate.sh
-      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.update()'
+      - run: julia --color=yes -e 'import Pkg; Pkg.instantiate'
+      - run: julia --color=yes --project=@. -e 'import Pkg; Pkg.update()'
       - run: mv .ci/Manifest.toml .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml
+      - run: git status
+      - uses: actions/upload-artifact@ee69f02b3dfdecd58bb31b4d133da38ba6fe3700 # v2.2.3
+        with:
+          name: manifest_file_for_${{ steps.manifest_version.outputs.manifest_version }}
+          path: .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml
+          if-no-files-found: error
+  make_single_pr:
+    needs: update_each_manifest
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v2
+      - run: rm -rf /tmp/manifest_updater
+      - run: mkdir /tmp/manifest_updater
+      - run: chmod 700 /tmp/manifest_updater
+      - uses: actions/download-artifact@158ca71f7c614ae705e79f25522ef4658df18253 # v2.0.9
+        with:
+          path: /tmp/manifest_updater/download_artifacts
+      - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml ./.ci/
+      - run: rm -rf /tmp/manifest_updater
+      - run: rm -rf .ci/Manifest.toml
+      - run: chmod 600 Project.toml
+      - run: chmod 600 .ci/Manifest.*.toml
       - run: git status
       - uses: peter-evans/create-pull-request@052fc72b4198ba9fbc81b818c6e1859f747d49a8 # v3.8.2
         with:
-          token: ${{ secrets.TAGBOT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           delete-branch: true
-          branch: 'update_manifests/manifest_v${{ steps.manifest_version.outputs.manifest_version }}/from_matrix_${{ matrix.version }}'
-          commit-message: '[bot] Update manifest: `.ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml`'
-          title: '🤖 Update manifest: `.ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml`'
+          branch: 'update_manifests/single_pr/all_manifests'
+          commit-message: '🤖 Update one or more manifest files in the `.ci` directory'
+          title: '🤖 Update one or more manifest files in the `.ci` directory'
           body: ''
-          labels: |
-            CI
