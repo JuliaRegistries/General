@@ -54,7 +54,7 @@ jobs:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
       - run: .ci/instantiate.sh
-      - run: julia --color=yes --project=@. -e 'import Pkg; Pkg.update()'
+      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.update()'
       - run: mv .ci/Manifest.toml .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml
       - run: git status
       - uses: actions/upload-artifact@v2
