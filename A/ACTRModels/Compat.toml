@@ -20,10 +20,10 @@ Reexport = "0.2"
 ["0.2-0.4.0"]
 Distributions = "0.22-0.23"
 
-["0.4.1-0"]
+["0.4.1-0.6.10"]
 Distributions = "0.22-0.24"
 
-["0.4.7-0"]
+["0.4.7-0.6.10"]
 SequentialSamplingModels = "0.1.1-0.1"
 
 ["0.4.8-0.6.9"]
@@ -34,6 +34,10 @@ Reexport = ["0.2", "1"]
 
 ["0.6.10-0"]
 DataFrames = ["0.22", "1"]
+
+["0.6.11-0"]
+Distributions = "0.22-0.25"
+SequentialSamplingModels = "0.1"
 
 ["0.6.6-0"]
 DiscreteEventsLite = "0.1"
