@@ -78,7 +78,7 @@ jobs:
       - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml ./.ci/
       - run: rm -rf /tmp/manifest_updater
       - run: rm -rf .ci/Manifest.toml
-      - run: chmod 600 Project.toml
+      - run: chmod 600 .ci/Project.toml
       - run: chmod 600 .ci/Manifest.*.toml
       - run: git status
       - uses: peter-evans/create-pull-request@052fc72b4198ba9fbc81b818c6e1859f747d49a8 # v3.8.2
