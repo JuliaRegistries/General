@@ -2,11 +2,13 @@
 Arpack = "0.4-0.5"
 AverageShiftedHistograms = "0.8.6-0.8"
 Distances = "0.10.2-0.10"
-Distributions = "0.24.18-0.24"
 JLD2 = "0.4.3-0.4"
 Plots = "1.12.0-1"
 Reexport = "1"
 julia = "1.5.0-1"
+
+["1-1.5.0"]
+Distributions = "0.24.18-0.24"
 
 ["1.5-1"]
 Clp = "0.8.3-0.8"
@@ -18,3 +20,6 @@ Optim = "1.3.0-1"
 QuadGK = "2.4.1-2"
 SimpleWeightedGraphs = "1.1.1-1"
 StatsBase = "0.33.6-0.33"
+
+["1.5.1-1"]
+Distributions = "0.24.18-0.25"
