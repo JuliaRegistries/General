@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: 0 0 * * 1
   workflow_dispatch:
+  push:
+    branches:
+      - dpa/debug
 defaults:
   run:
     shell: bash
@@ -52,8 +55,8 @@ jobs:
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: julia --color=yes -e 'import Pkg; Pkg.instantiate'
-      - run: julia --color=yes --project=@. -e 'import Pkg; Pkg.update()'
+      - run: .ci/instantiate.sh
+      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.update()'
       - run: mv .ci/Manifest.toml .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml
       - run: git status
       - uses: actions/upload-artifact@ee69f02b3dfdecd58bb31b4d133da38ba6fe3700 # v2.2.3
@@ -75,7 +78,7 @@ jobs:
       - uses: actions/download-artifact@158ca71f7c614ae705e79f25522ef4658df18253 # v2.0.9
         with:
           path: /tmp/manifest_updater/download_artifacts
-      - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml ./.ci/
+      - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml .ci
       - run: rm -rf /tmp/manifest_updater
       - run: rm -rf .ci/Manifest.toml
       - run: chmod 600 .ci/Project.toml
