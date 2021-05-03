@@ -82,7 +82,7 @@ jobs:
       - run: ls -la /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml # TODO: delete this line
       - run: mkdir FOOBAR 
       - run: tree FOOBAR
-      - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml # 
+      - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml FOOBAR
       - run: tree FOOBAR
       - run: rm -rf /tmp/manifest_updater
       - run: rm -rf .ci/Manifest.toml
