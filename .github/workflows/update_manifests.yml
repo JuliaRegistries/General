@@ -80,8 +80,7 @@ jobs:
           path: /tmp/manifest_updater/download_artifacts
       - run: tree -a /tmp/manifest_updater/download_artifacts # TODO: delete this line
       - run: ls -la /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml # TODO: delete this line
-      - run: rm -rf .ci
-      - run: mkdir .ci 
+      - run: rm -rf .ci/Manifest*
       - run: tree .ci 
       - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml .ci
       - run: tree .ci 
