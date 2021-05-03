@@ -80,10 +80,11 @@ jobs:
           path: /tmp/manifest_updater/download_artifacts
       - run: tree -a /tmp/manifest_updater/download_artifacts # TODO: delete this line
       - run: ls -la /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml # TODO: delete this line
-      - run: mkdir FOOBAR 
-      - run: tree FOOBAR
-      - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml FOOBAR
-      - run: tree FOOBAR
+      - run: rm -rf .ci
+      - run: mkdir .ci 
+      - run: tree .ci 
+      - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml .ci
+      - run: tree .ci 
       - run: rm -rf /tmp/manifest_updater
       - run: rm -rf .ci/Manifest.toml
       - run: chmod 600 .ci/Project.toml
