@@ -15,7 +15,6 @@ LightGraphs = "1"
 MacroTools = "0.5"
 Optim = "1"
 PolynomialRoots = "1"
-ProgressMeter = "1"
 QuadGK = "2"
 Setfield = "0.7"
 StatsBase = "0.33"
@@ -32,9 +31,18 @@ Unitful = "1"
 DataFrames = "0.22"
 Distributions = "0.23"
 
+["0-0.3.7"]
+ProgressMeter = "1"
+
 ["0.3.3-0"]
 Unitful = "1.7.0-1"
 
 ["0.3.4-0"]
 DataFrames = ["0.22", "1"]
+
+["0.3.4-0.3.7"]
 Distributions = "0.23-0.24"
+
+["0.3.8-0"]
+Distributions = "0.23-0.25"
+ProgressMeter = "1.6.0-1"
