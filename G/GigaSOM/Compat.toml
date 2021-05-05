@@ -65,6 +65,12 @@ StableRNGs = "1"
 
 ["0.6.2-0"]
 CSV = "0.5.12-0.8"
-DataFrames = "0.20-0.22"
 Distances = "0.8.2-0.10"
+
+["0.6.2-0.6.4"]
+DataFrames = "0.20-0.22"
 Distributions = "0.21.1-0.24"
+
+["0.6.5-0"]
+DataFrames = ["0.20-0.22", "1"]
+Distributions = "0.21.1-0.25"
