@@ -144,9 +144,15 @@ Electron = "1.1.0-3"
 ["1.0.2-1"]
 DataStructures = "0.17-0.18"
 
-["1.1-1"]
+["1.1-1.2.2"]
 Distributions = "0.21-0.24"
 
 ["1.2-1"]
-DataFrames = "0.19.1-0.22"
 Electron = "3.1.0-3"
+
+["1.2-1.2.2"]
+DataFrames = "0.19.1-0.22"
+
+["1.2.3-1"]
+DataFrames = ["0.19.1-0.22", "1"]
+Distributions = "0.21-0.25"
