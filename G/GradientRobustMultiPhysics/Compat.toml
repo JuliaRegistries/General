@@ -29,9 +29,6 @@ ExtendableGrids = "0.5"
 ExtendableSparse = "0.3"
 IterativeSolvers = "0.8"
 
-["0.3.1-0"]
-GridVisualize = "0.1"
-
 ["0.3.1-0.4.0"]
 IterativeSolvers = "0.9"
 
@@ -39,7 +36,10 @@ IterativeSolvers = "0.9"
 ExtendableGrids = "0.7.2-0.7"
 ExtendableSparse = "0.3.4-0.3"
 
-["0.4.1-0"]
+["0.3.1-0.5.4"]
+GridVisualize = "0.1"
+
+["0.4.1-0.5.4"]
 StaticArrays = "1.0.1-1"
 
 ["0.5.1-0"]
@@ -48,6 +48,13 @@ ExtendableGrids = "0.7.6-0.7"
 ["0.5.1-0.5.3"]
 ExtendableSparse = "0.4.2-0.4"
 
-["0.5.4-0"]
+["0.5.4"]
 ExtendableSparse = "0.6.1-0.6"
+
+["0.5.4-0"]
 WriteVTK = "1.9.2-1"
+
+["0.5.5-0"]
+ExtendableSparse = "0.6"
+GridVisualize = "0.1-0.2"
+StaticArrays = "1"
