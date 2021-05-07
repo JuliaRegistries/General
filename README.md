@@ -192,6 +192,9 @@ As long as the package is not yet registered, renaming the package from
 * Rename the file `src/OldName.jl` to `src/NewName.jl`
 * Rename the top-level module to `NewName`
 * Update tests, documentation, etc, to reference the new name
+* Once you are done renaming the package, retrigger registration.
+  This will make a new pull request to General. It is helpful to comment
+  in the old pull request that it can be closed, linking to the new one.
 
 #### How do I rename an existing registered package?
 Technically, you can't rename a package once registered, as this would break existing users.
