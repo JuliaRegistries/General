@@ -26,13 +26,15 @@ julia = "1.1.0-1"
 
 ["0.4-0"]
 JSON = "0.21"
-StaticArrays = "0.10-0.12"
 
 ["0.4-0.4.1"]
 CoordinateTransformations = "0.5"
 DataStructures = "0.17"
 Setfield = "0.5-0.6"
 StatsBase = "0.32"
+
+["0.4-0.5"]
+StaticArrays = "0.10-0.12"
 
 ["0.4.0"]
 ArgCheck = "1"
@@ -48,6 +50,12 @@ StatsBase = "0.32-0.33"
 ["0.4.2-0.4"]
 Setfield = "0.5-0.7"
 
-["0.5-0"]
+["0.5"]
 Accessors = "0.1"
+
+["0.5-0"]
 julia = "1.5.0-1"
+
+["0.6-0"]
+Accessors = "0.1-0.2"
+StaticArrays = ["0.10-0.12", "1"]
