@@ -1,7 +1,6 @@
 [0]
 CatViews = "1"
 ChainRulesCore = "0.9"
-Distributions = "0.24"
 Einsum = "0.4"
 Ferrite = "0.3"
 FillArrays = "0.11"
@@ -37,6 +36,15 @@ julia = "1.5.0-1"
 AbstractPlotting = "0.16"
 Nonconvex = "0.3"
 
+["0-0.4.1"]
+Distributions = "0.24"
+
+["0.4.1"]
+Nonconvex = "0.2-0.3"
+
 ["0.4.1-0"]
 AbstractPlotting = "0.15-0.16"
-Nonconvex = "0.2-0.3"
+
+["0.4.2-0"]
+Distributions = "0.24-0.25"
+Nonconvex = "0.5.2-0.5"
