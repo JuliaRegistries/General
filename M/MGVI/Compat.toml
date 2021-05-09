@@ -1,5 +1,4 @@
 [0]
-Distributions = "0.23-0.24"
 ForwardDiff = "0.10"
 Optim = "1"
 PositiveFactorizations = "0.2"
@@ -14,6 +13,9 @@ Zygote = "0.5.14-0.5"
 ["0-0.2.0"]
 ValueShapes = "0.7"
 
+["0-0.2.2"]
+Distributions = "0.23-0.24"
+
 ["0.2-0"]
 ChainRulesCore = "0.9"
 DistributionsAD = "0.6"
@@ -22,5 +24,9 @@ LinearMaps = "3"
 StaticArrays = ["0.12", "1"]
 Zygote = "0.5.14-0.6"
 
-["0.2.1-0"]
+["0.2.1-0.2.2"]
 ValueShapes = "0.7-0.8"
+
+["0.2.3-0"]
+Distributions = "0.23-0.25"
+ValueShapes = "0.7-0.9"
