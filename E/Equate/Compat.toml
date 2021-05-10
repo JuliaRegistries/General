@@ -16,9 +16,15 @@ RecipesBase = "1.0.2-1"
 DataFrames = "0.21-0.22"
 
 ["0.1.7-0"]
-Distributions = "0.16.0-0.24"
 Optim = ["0.22", "1.2.0-1"]
 StatsModels = "0.6"
 
+["0.1.7-0.1.8"]
+Distributions = "0.16.0-0.24"
+
 ["0.1.8-0"]
 DataFrames = ["0.21-0.22", "1"]
+
+["0.1.9-0"]
+Bootstrap = "2.3.0-2"
+Distributions = "0.16.0-0.25"
