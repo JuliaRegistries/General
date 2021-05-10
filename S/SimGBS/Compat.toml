@@ -1,12 +1,19 @@
 [0]
-Compat = "3.20.0-3"
-GZip = "0.5.1-0.5"
-Plots = "1.6.0-1"
 StatsBase = "0.33"
 julia = "1"
 
 ["0-0.1.0"]
 Distributions = "0.23"
 
+["0-0.1.1"]
+Compat = "3.20.0-3"
+GZip = "0.5.1-0.5"
+Plots = "1.6.0-1"
+
 ["0.1.1-0"]
 Distributions = "0.23-0.25"
+
+["0.1.2-0"]
+Compat = "3"
+GZip = "0.5"
+Plots = "1"
