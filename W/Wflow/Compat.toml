@@ -8,10 +8,15 @@ ProgressLogging = "0.1"
 StaticArrays = ["0.12", "1"]
 TOML = "1"
 UnPack = "1"
-julia = "1.5.0-1"
 
 ["0-0.1"]
 NCDatasets = "0.10.4-0.11"
 
+["0-0.2"]
+julia = "1.5.0-1"
+
 ["0.2-0"]
 NCDatasets = "0.11.3-0.11"
+
+["0.3-0"]
+julia = "1.6.0-1"
