@@ -178,10 +178,10 @@ uuid = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 version = "1.1.1"
 
 [[RegistryCI]]
-deps = ["Base64", "Dates", "GitHub", "HTTP", "JSON", "LibGit2", "LicenseCheck", "Pkg", "Printf", "Random", "RegistryTools", "SHA", "StringDistances", "TOML", "Test", "TimeZones", "VisualStringDistances"]
-git-tree-sha1 = "0e6dc27b444d77e3b7767586e1351a973253b012"
+deps = ["Base64", "Dates", "GitHub", "HTTP", "JSON", "LibGit2", "LicenseCheck", "Pkg", "Printf", "Random", "RegistryTools", "SHA", "StringDistances", "TOML", "Tar", "Test", "TimeZones", "VisualStringDistances"]
+git-tree-sha1 = "087413a3eef3ffb620fd52f5a3dcf45611caa8e5"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "6.8.11"
+version = "7.0.0"
 
 [[RegistryTools]]
 deps = ["AutoHashEquals", "LibGit2", "Pkg", "UUIDs"]
