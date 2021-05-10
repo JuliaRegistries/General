@@ -25,8 +25,10 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+["0-3.1"]
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 [2-3]
 BFloat16s = "ab4f0b2a-ad5b-11e8-123f-65d77653426b"
@@ -43,3 +45,6 @@ Memoize = "c03570c3-d221-55d1-a50c-7939bbd78826"
 [3]
 RandomNumbers = "e6cf234a-135c-5ec9-84dd-332b85af5143"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["3.2-3"]
+Random123 = "74087812-796a-5b5d-8853-05524746bad3"
