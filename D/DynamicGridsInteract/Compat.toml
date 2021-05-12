@@ -4,7 +4,6 @@ Interact = "0.10"
 InteractBase = "0.10"
 Mux = "0.7"
 WebIO = "0.8"
-WebSockets = "1.5.0-1"
 julia = "1"
 
 ["0-0.1.0"]
@@ -14,6 +13,9 @@ FieldMetadata = "0.1"
 
 ["0-0.3"]
 Flatten = "0.3"
+
+["0-0.5"]
+WebSockets = "1.5.0-1"
 
 ["0-0.5.4"]
 ImageShow = "0.2.3-0.2"
@@ -46,7 +48,7 @@ DynamicGrids = "0.10.5-0.10"
 DynamicGrids = "0.12"
 InteractModels = "0.2"
 
-["0.5-0"]
+["0.5"]
 InteractModels = "0.3"
 
 ["0.5.0"]
@@ -65,5 +67,12 @@ DynamicGrids = "0.13-0.16"
 DynamicGrids = "0.13-0.17"
 
 ["0.5.5-0"]
-DynamicGrids = "0.18.2-0.18"
 ImageShow = "0.2.3-0.3"
+
+["0.5.5-0.5"]
+DynamicGrids = "0.18.2-0.18"
+
+["0.6-0"]
+DynamicGrids = "0.18.4-0.18"
+InteractModels = "0.4"
+WebSockets = "1"
