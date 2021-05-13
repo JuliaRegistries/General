@@ -25,10 +25,18 @@ GeoData = "0.3"
 Reexport = "0.2"
 
 ["0.2.1-0"]
-InteractModels = "0.3"
 ModelParameters = "0.3"
 
-["0.2.2-0"]
+["0.2.1-0.2.2"]
+InteractModels = "0.3"
+
+["0.2.2"]
 GeoData = "0.3-0.4"
+
+["0.2.2-0"]
 LsqFit = "0.10-0.12"
 Reexport = ["0.2", "1"]
+
+["0.2.3-0"]
+GeoData = "0.4.3-0.4"
+InteractModels = "0.4"
