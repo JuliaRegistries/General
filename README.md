@@ -163,6 +163,22 @@ If you for some reason can't (or won't) adhere to the guidelines you will have
 to wait for a human to review/merge the pull request. You can contact a human
 in the `#pkg-registration` channel in the official Julia Slack to expedite this process.
 
+#### My package fails to load because it needs proprietary software/additional setup to work, what can I do?
+
+Before merging a pull request, AutoMerge will check that your package can be installed and
+loaded.  It is OK for your package to not be fully functional, but making it at least load
+successfully would streamline registration, as it does not require manual intervention from
+the registry maintainers.  This would also let other packages depend on it, and use its
+functionalities only when the proprietary software is available in the system, as done for
+example by the [`CUDA.jl`](https://github.com/JuliaGPU/CUDA.jl) package.  If you are not
+able or willing to make your package always loadable without the proprietary dependency
+(which is the preferred solution), you can check if the environment variable
+`JULIA_REGISTRYCI_AUTOMERGE` is equal to `true` and make your package loadable during
+AutoMerge at least, so that it can be registered without manual intervention.  Examples of
+packages with proprietary software that use the environment variable check include
+[`Gurobi.jl`](https://github.com/jump-dev/Gurobi.jl) and
+[`CPLEX.jl`](https://github.com/jump-dev/CPLEX.jl).
+
 #### My pull request has a merge conflict, what do I do?
 
 Retrigger Registrator.
@@ -197,6 +213,7 @@ As long as the package is not yet registered, renaming the package from
   in the old pull request that it can be closed, linking to the new one.
 
 #### How do I rename an existing registered package?
+
 Technically, you can't rename a package once registered, as this would break existing users.
 But you can re-register the package again under a new name with a new UUID.
 Which has basically the same effect.
@@ -214,6 +231,7 @@ You also should let your users know about the rename, e.g. by placing a note in 
 or opening PRs/issues on downstream packages to change over.
 
 #### How do I transfer a package to an organization or another user?
+
  - Use the [GitHub transfer option][github-transfer] in the settings.
  - Manually, in the General edit the repo URL in package's `Package.toml` file (e.g [E/Example/Package.toml](https://github.com/JuliaRegistries/General/blob/master/E/Example/Package.toml#L3))
 
