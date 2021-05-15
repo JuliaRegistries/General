@@ -96,7 +96,7 @@ GeoEstimation = "0.4"
 GeoStatsBase = "0.17"
 KrigingEstimators = "0.5"
 
-["0.21-0"]
+["0.21-0.24"]
 Reexport = ["0.2", "1"]
 
 ["0.21.0"]
@@ -121,10 +121,12 @@ julia = "1.5.0-1"
 GeoStatsBase = "0.20"
 
 ["0.23-0"]
-GeoEstimation = "0.6"
 GeoSimulation = "0.3"
 KrigingEstimators = "0.7"
 Variography = "0.12"
+
+["0.23-0.24"]
+GeoEstimation = "0.6"
 
 ["0.23-0.24.0"]
 Meshes = "0.11"
@@ -134,8 +136,13 @@ GeoClustering = "0.1"
 GeoLearning = "0.1"
 GeoStatsBase = "0.21"
 
-["0.24.1-0"]
+["0.24.1-0.24"]
 Meshes = "0.12"
+
+["0.25-0"]
+GeoEstimation = "0.7"
+Meshes = "0.14"
+Reexport = "1"
 
 ["0.7.2-0.7"]
 GeoStatsBase = "0.2.5 - 0.5"
