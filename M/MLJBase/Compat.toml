@@ -133,7 +133,7 @@ MLJModelInterface = "0.4"
 MLJModelInterface = "0.4.1-0.4"
 StatisticalTraits = "0.1.1-0.1"
 
-["0.18.1-0"]
+["0.18.1-0.18.5"]
 MLJModelInterface = ["0.4.1-0.4", "1"]
 StatisticalTraits = ["0.1.1-0.1", "1"]
 
@@ -146,6 +146,10 @@ CategoricalArrays = "0.9-0.10"
 
 ["0.18.4-0"]
 Distributions = "0.22-0.25"
+
+["0.18.6-0"]
+MLJModelInterface = ["0.4.1-0.4", "1.1.0-1"]
+StatisticalTraits = "1.1.0-1"
 
 ["0.2.2-0.2"]
 CSV = "0.5"
