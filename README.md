@@ -14,7 +14,7 @@
 [TagBotTriggers-url]: https://github.com/JuliaRegistries/General/actions/workflows/TagBotTriggers.yml
 [TagBotTriggers-img]: https://github.com/JuliaRegistries/General/actions/workflows/TagBotTriggers.yml/badge.svg "TagBot Triggers status"
 [UpdateManifests-url]: https://github.com/JuliaRegistries/General/actions/workflows/update_manifests.yml
-[UpdateManifests-img]: https://github.com/JuliaRegistries/General/actions/workflows/update_manifests.yml/badge.svg "Update Manifests status" 
+[UpdateManifests-img]: https://github.com/JuliaRegistries/General/actions/workflows/update_manifests.yml/badge.svg "Update Manifests status"
 
 General is the default Julia package registry. Package registries are used by Julia's
 package manager [Pkg.jl][pkg] and includes information about packages such as versions,
@@ -52,97 +52,8 @@ Pull requests that meet certain criteria are automatically merged periodically.
 Only pull requests that are opened by [Registrator][registrator] are candidates
 for automatic merging.
 
-The following criteria are applied for all pull requests
-(regardless if it is a new package or just a new version):
-
- - Version number: Should be a standard increment and not skip versions. This means
-   incrementing the patch/minor/major version with +1 compared to previous (if any)
-   releases. If, for example, `1.0.0` and `1.1.0` are existing versions, valid new
-   versions are `1.0.1`, `1.1.1`, `1.2.0` and `2.0.0`. Invalid new versions include
-   `1.0.2` (skips `1.0.1`), `1.3.0` (skips `1.2.0`), `3.0.0` (skips `2.0.0`) etc.
-
- - Dependencies: All dependencies should have `[compat]` entries that are upper bounded and only include a finite number of breaking releases.
-   For example, the following `[compat]` entries meet the criteria for automatic merging:
-   ```toml
-   [compat]
-   PackageA = "1"          # [1.0.0, 2.0.0), has upper bound (good)
-   PackageB = "0.1, 0.2"   # [0.1.0, 0.3.0), has upper bound (good)
-   ```
-   The following `[compat]` entries do NOT meet the criteria for automatic merging:
-   ```toml
-   [compat]
-   PackageC = ">=3"        # [3.0.0, ∞), no upper bound (bad)
-   PackageD = ">=0.4, <1"  # [-∞, ∞), no lower bound, no upper bound (very bad)
-   ```
-   Please note: each `[compat]` entry must include only a finite number of breaking releases. Therefore, the following `[compat]` entries do NOT meet the criteria for automatic merging:
-   ```toml
-   [compat]
-   PackageE = "0"          # includes infinitely many breaking 0.x releases of PackageE (bad)
-   PackageF = "0.2 - 0"    # includes infinitely many breaking 0.x releases of PackageF (bad)
-   PackageG = "0.2 - 1"    # includes infinitely many breaking 0.x releases of PackageG (bad)
-   ```
-   See [Pkg's documentation][pkg-compat] for specification of `[compat]` entries in your
-   `Project.toml` file.
-   
-   (**Note:** Standard libraries are excluded for this criterion since they are bundled
-   with Julia, and, hence, implicitly included in the `[compat]` entry for Julia.
-   For the time being, JLL dependencies are also excluded for this criterion because they
-   often have non-standard version numbering schemes; however, this may change in the future.)
-   
-   You may find [CompatHelper.jl](https://github.com/bcbi/CompatHelper.jl) helpful for maintaining up-to-date `[compat]` entries.
-
- - Package installation: The package should be installable (`Pkg.add("PackageName")`),
-   and loadable (`import PackageName`).
-   
- - License: The package should have an
-   [OSI-approved software license](https://opensource.org/licenses/alphabetical) located in
-   the top-level directory of the package code, e.g. in a file named `LICENSE` or `LICENSE.md`.
-
-The following list is applied for new package registrations, in addition to the previous
-list:
-
- - The package name should start with a capital letter, contain only ASCII
-   alphanumeric characters, contain a lowercase letter, be at least 5
-   characters long, and should not start with "Ju" or contain the string "julia".
- - To prevent confusion between similarly named packages, the names of new
-   packages must also satisfy three checks:
-      - the [Damerau–Levenshtein
-        distance](https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance)
-        between the package name and the name of any existing package must be at
-        least 3.
-      - the Damerau–Levenshtein distance between the lowercased version of a
-        package name and the lowercased version of the name of any existing
-        package must be at least 2.
-      - and a visual distance from
-        [VisualStringDistances.jl](https://github.com/ericphanson/VisualStringDistances.jl)
-        between the package name and any existing package must exceeds a certain
-        a hand-chosen threshold (currently 2.5).
-
-    These checks and tolerances are subject to change in order to improve the
-    process.
-
-    To test yourself that a tentative package name, say `MyPackage` meets these
-    checks, you can use the following code (after adding the RegistryCI package
-    to your Julia environment):
-
-    ```julia
-    using RegistryCI
-    using RegistryCI.AutoMerge
-    all_pkg_names = AutoMerge.get_all_non_jll_package_names(path_to_registry)
-    AutoMerge.meets_distance_check("MyPackage", all_pkg_names)
-    ```
-
-    where `path_to_registry` is a path to the folder containing the registry of
-    interest. For the General Julia registry, usually `path_to_registry =
-    joinpath(DEPOT_PATH[1], "registries", "General")` if you haven't changed
-    your `DEPOT_PATH`. This will return a boolean, indicating whether or not
-    your tentative package name passed the check, as well as a string,
-    indicating what the problem is in the event the check did not pass.
-
-    Note that these automerge guidelines are deliberately conservative: it is
-    very possible for a perfectly good name to not pass the automatic checks and
-    require manual merging. They simply exist to provide a fast path so that
-    manual review is not required for every new package.
+The full list of AutoMerge guidelines is available in the
+[RegistryCI documentation][automerge-guidelines].
 
 Please report issues with automatic merging to the [RegistryCI repo][registryci].
 
@@ -263,24 +174,11 @@ not a curated list of Julia packages. In particular this means that:
    you install through the General registry -- you are responsible for reviewing your
    code dependencies.
 
-[pkg]: https://julialang.github.io/Pkg.jl/v1/
-[registrator]: https://github.com/JuliaRegistries/Registrator.jl
-[registrator-app]: https://github.com/JuliaRegistries/Registrator.jl#via-the-github-app
-[registrator-web]: https://github.com/JuliaRegistries/Registrator.jl#via-the-web-interface
-[registrator-readme]: https://github.com/JuliaRegistries/Registrator.jl/blob/master/README.md
-[tagbot]: https://github.com/JuliaRegistries/TagBot
-[naming-guidelines]: https://julialang.github.io/Pkg.jl/v1/creating-packages/#Package-naming-guidelines-1
-[automerge-guidelines]: https://github.com/JuliaRegistries/RegistryCI.jl#automatic-merging-guidelines
-[pkg-compat]: https://julialang.github.io/Pkg.jl/v1/compatibility/
-[registryci]: https://github.com/JuliaRegistries/RegistryCI.jl
-[github-rename]: https://help.github.com/en/github/administering-a-repository/renaming-a-repository
-[github-transfer]: https://help.github.com/en/github/administering-a-repository/transferring-a-repository
-
 ## Tips for registry maintainers
 
 ### Enabling/disabling AutoMerge
 
-To enable/disable automerge, make a pull request to edit the 
+To enable/disable automerge, make a pull request to edit the
 [`.github/workflows/automerge.yml`](.github/workflows/automerge.yml) file. Specifically, you want
 to edit the lines near the bottom of the file that look like this:
 ```yaml
@@ -288,3 +186,15 @@ to edit the lines near the bottom of the file that look like this:
           MERGE_NEW_PACKAGES: true
           MERGE_NEW_VERSIONS: true
 ```
+
+[pkg]: https://julialang.github.io/Pkg.jl/v1/
+[registrator]: https://github.com/JuliaRegistries/Registrator.jl
+[registrator-app]: https://github.com/JuliaRegistries/Registrator.jl#via-the-github-app
+[registrator-web]: https://github.com/JuliaRegistries/Registrator.jl#via-the-web-interface
+[registrator-readme]: https://github.com/JuliaRegistries/Registrator.jl/blob/master/README.md
+[tagbot]: https://github.com/JuliaRegistries/TagBot
+[naming-guidelines]: https://julialang.github.io/Pkg.jl/v1/creating-packages/#Package-naming-guidelines-1
+[automerge-guidelines]: https://juliaregistries.github.io/RegistryCI.jl/stable/guidelines/
+[registryci]: https://github.com/JuliaRegistries/RegistryCI.jl
+[github-rename]: https://help.github.com/en/github/administering-a-repository/renaming-a-repository
+[github-transfer]: https://help.github.com/en/github/administering-a-repository/transferring-a-repository
