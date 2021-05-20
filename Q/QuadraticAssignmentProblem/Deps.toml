@@ -1,9 +1,14 @@
 [0]
 Convex = "f65535da-76fb-5f13-bab9-19810c17039a"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Gurobi = "2e9cd046-0924-5485-92f1-d5272153d98b"
 Hungarian = "e91730f6-4275-51fb-a7a0-7064cfbd3b39"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0-0.2.0"]
+Gurobi = "2e9cd046-0924-5485-92f1-d5272153d98b"
+
+["0.2.1-0"]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
