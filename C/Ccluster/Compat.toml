@@ -1,10 +1,17 @@
-[0]
-julia = "1.1.0-1"
-
 ["0-0.1.0"]
 AbstractAlgebra = "0.0.0 - 0.8"
 Nemo = "0.0.0 - 0.16"
 
-["0.1.1-0"]
+["0-0.2"]
+julia = "1.1.0-1"
+
+["0.1.1-0.2"]
 AbstractAlgebra = "0.8"
 Nemo = "0.16"
+
+["0.3-0"]
+AbstractAlgebra = "0.17"
+Arb_jll = "200.1900.0-200"
+Ccluster_jll = "1.1.6-1"
+Nemo = "0.23"
+julia = "1.6.0-1"
