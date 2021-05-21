@@ -1,9 +1,5 @@
 [0]
-CategoricalArrays = "0.8"
 Loess = "0.5"
-NamedDims = "0.2"
-Tables = "1"
-julia = "1"
 
 ["0-0.1"]
 AbstractPlotting = "0.12"
@@ -16,26 +12,49 @@ GLM = "1"
 Observables = "0.3"
 StructArrays = "0.4.3-0.4"
 
-["0.1.1-0"]
+["0-0.3"]
+CategoricalArrays = "0.8"
+NamedDims = "0.2"
+Tables = "1"
+julia = "1"
+
+["0.1.1-0.3"]
 StatsBase = "0.31-0.33"
 
-["0.1.2-0"]
+["0.1.2-0.3"]
 KernelDensity = "0.5-0.6"
-
-["0.2-0"]
-GeometryBasics = "0.2-0.3"
-OnlineStatsBase = "1"
 
 ["0.2-0.2.2"]
 AbstractPlotting = "0.12.17-0.13"
 
+["0.2-0.3"]
+GeometryBasics = "0.2-0.3"
+OnlineStatsBase = "1"
+
 ["0.2.3"]
 AbstractPlotting = "0.12.17-0.14"
 
-["0.2.4-0"]
+["0.2.4-0.3"]
 AbstractPlotting = "0.15"
+
+["0.3"]
+Observables = "0.3-0.4"
 
 ["0.3-0"]
 GLM = "1.4.0-1"
-Observables = "0.3-0.4"
 StructArrays = "0.5"
+
+["0.4-0"]
+Colors = "0.12"
+DataAPI = "1"
+FileIO = "1.1.0-1"
+GeoInterface = "0.5"
+GeometryBasics = "0.3"
+GridLayoutBase = "0.5"
+KernelDensity = "0.6"
+Makie = "0.13"
+PlotUtils = "1"
+PooledArrays = "1"
+StatsBase = "0.33"
+Tables = "1.4.0-1"
+julia = "1.6.0-1"
