@@ -10,9 +10,18 @@ Distributions = "0.21"
 Reexport = "0.2"
 StatsBase = "0.32"
 
-["0.0.2-0"]
-Compat = "2-3"
+["0.0.2"]
 DataFrames = "0.21"
 Distributions = "0.23"
 Reexport = "0.0.0 - 0.2"
 StatsBase = "0.0.0 - 0.33"
+
+["0.0.2-0"]
+Compat = "2-3"
+
+["0.0.3-0"]
+CategoricalArrays = "0.9"
+DataFrames = "1"
+Distributions = "0.24"
+Reexport = "1"
+StatsBase = "0.33"
