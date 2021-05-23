@@ -1,5 +1,4 @@
 [1]
-Documenter = "0.24.11-0.25"
 HCubature = "1.4.0-1"
 ImageFiltering = "0.6.13-0.6"
 OffsetArrays = "1.1.0-1"
@@ -11,17 +10,30 @@ Compat = "3.12.0-3"
 HDF5 = "0.13.2-0.13"
 SpecialFunctions = "0.10.3-0.10"
 
+["1-1.0.2"]
+Documenter = "0.24.11-0.25"
+
 ["1.0.0"]
 Distributions = "0.23.4-0.23"
 FITSIO = "0.14-0.15"
 Interpolations = "0.12.10-0.12"
 
 ["1.0.1-1"]
-Distributions = "0.23.4-0.24"
 FITSIO = "0.14.0-0.16"
 Interpolations = "0.12.10-0.13"
 
-["1.0.2-1"]
-Compat = "3.30.0-3"
+["1.0.1-1.0.2"]
+Distributions = "0.23.4-0.24"
+
+["1.0.2"]
 HDF5 = "0.14"
 SpecialFunctions = "1.0.0-1.4.0"
+
+["1.0.2-1"]
+Compat = "3.30.0-3"
+
+["1.0.3-1"]
+Distributions = "0.24-0.25"
+Documenter = "0.25-0.26"
+HDF5 = "0.14-0.15"
+SpecialFunctions = "1.0-1.4"
