@@ -18,13 +18,24 @@ StatsBase = "0.0.0 - 0.33"
 
 ["0.1.2-0"]
 Combinatorics = "1"
-DataFrames = "0.21"
 Tables = "1"
+
+["0.1.2-0.1"]
+DataFrames = "0.21"
 
 ["0.1.3-0"]
 Distributions = "0.24"
+Parameters = "0.12"
+StatsBase = "0.33"
+
+["0.1.3-0.1"]
 FillArrays = "0.9"
 FixedEffects = "2"
-Parameters = "0.12"
 Reexport = "0.2"
-StatsBase = "0.33"
+
+["0.2-0"]
+CategoricalArrays = "0.9"
+DataFrames = "1"
+FillArrays = "0.11"
+FixedEffects = "2.0.0-2.0.3"
+Reexport = "1"
