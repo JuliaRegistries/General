@@ -58,7 +58,6 @@ RoME = "0.4.2-0.5"
 
 ["0.1.8-0"]
 Cairo = ["0.6-0.8", "1"]
-DocStringExtensions = ["0.7-0.9", "1"]
 Fontconfig = "0.2-0.5"
 KernelDensityEstimate = "0.5"
 KernelDensityEstimatePlotting = "0.1.6-0.1"
@@ -86,6 +85,9 @@ ApproxManifoldProducts = "0.1"
 ["0.1.8-0.5.0"]
 Reexport = "0.2"
 
+["0.1.8-0.7.0"]
+DocStringExtensions = ["0.7-0.9", "1"]
+
 ["0.2-0.3"]
 Compose = "0.8"
 
@@ -103,11 +105,11 @@ DistributedFactorGraphs = "0.6-0.7"
 ["0.2.1-0.3"]
 RoME = "0.6-0.7"
 
-["0.2.2-0"]
-Colors = "0.9.4-0.12"
-
 ["0.2.2-0.2"]
 IncrementalInference = "0.10-0.11"
+
+["0.2.2-0.7.0"]
+Colors = "0.9.4-0.12"
 
 ["0.3"]
 DistributedFactorGraphs = "0.8"
@@ -174,6 +176,14 @@ RoME = "0.13-0.14"
 
 ["0.7-0"]
 ApproxManifoldProducts = "0.3"
+RoME = "0.14-0.15"
+
+["0.7.0"]
 DistributedFactorGraphs = "0.12-0.13"
 IncrementalInference = "0.22-0.23"
-RoME = "0.14-0.15"
+
+["0.7.1-0"]
+Colors = "0.11-0.12"
+DistributedFactorGraphs = "0.13-0.14"
+DocStringExtensions = "0.7-0.8"
+IncrementalInference = "0.23-0.24"
