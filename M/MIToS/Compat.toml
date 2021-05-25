@@ -54,5 +54,10 @@ julia = "1"
 DataStructures = "0.17-0.18"
 HTTP = "0.8-0.9"
 JSON = "0.21"
-PairwiseListMatrices = "0.10"
 StaticArrays = ["0.12", "1"]
+
+["2.6-2.8.1"]
+PairwiseListMatrices = "0.10"
+
+["2.8.2-2"]
+PairwiseListMatrices = "0.11"
