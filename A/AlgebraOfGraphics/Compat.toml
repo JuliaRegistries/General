@@ -52,9 +52,14 @@ GeoInterface = "0.5"
 GeometryBasics = "0.3"
 GridLayoutBase = "0.5"
 KernelDensity = "0.6"
-Makie = "0.13"
 PlotUtils = "1"
 PooledArrays = "1"
 StatsBase = "0.33"
 Tables = "1.4.0-1"
 julia = "1.6.0-1"
+
+["0.4-0.4.1"]
+Makie = "0.13"
+
+["0.4.2-0"]
+Makie = "0.13.3-0.13"
