@@ -79,6 +79,9 @@ SpecialFunctions = ["0.10", "1"]
 ["1.28-1"]
 Distributions = "0.21-0.25"
 
+["1.29.1-1"]
+DSP = "0.6-0.7"
+
 ["1.5"]
 DiffEqBase = "5"
 DynamicalSystemsBase = "1.2.3-1"
@@ -97,7 +100,6 @@ DSP = "0.0.0 - 0.6"
 LombScargle = "0.0.0 - 0.5"
 
 ["1.8.1-1"]
-DSP = "0.6"
 ForwardDiff = "0.8-0.10"
 Roots = ["0.7-0.8", "1"]
 
@@ -115,6 +117,9 @@ NearestNeighbors = "0.4"
 
 ["1.8.1-1.23.0"]
 Reexport = "0.1-0.2"
+
+["1.8.1-1.29.0"]
+DSP = "0.6"
 
 ["1.8.1-1.8"]
 Distributions = "0.21"
