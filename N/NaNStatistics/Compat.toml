@@ -2,5 +2,10 @@
 IfElse = "0.1"
 LoopVectorization = "0.11-0.12"
 StatsBase = "0.28-0.33"
-VectorizationBase = "0.18-0.19"
 julia = "1.5.0-1"
+
+["0-0.1.0"]
+VectorizationBase = "0.18-0.19"
+
+["0.1.1-0"]
+VectorizationBase = "0.18-0.20"
