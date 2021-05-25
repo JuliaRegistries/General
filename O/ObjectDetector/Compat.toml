@@ -31,9 +31,11 @@ PrettyTables = "0.7-0.11"
 BenchmarkTools = "0.4-0.6"
 
 ["0.1.2-0"]
-ImageCore = "0.8"
 ImageDraw = "0.2"
 ImageFiltering = "0.6"
+
+["0.1.2-0.2.2"]
+ImageCore = "0.8"
 
 ["0.1.5"]
 CUDAnative = "2.8.0-2"
@@ -57,6 +59,11 @@ Flux = "0.10-0.11"
 ["0.2.1-0"]
 Flux = "0.12"
 
-["0.2.2-0"]
+["0.2.2"]
 BenchmarkTools = "0.4-0.7"
 PrettyTables = "0.7-0.12"
+
+["0.2.3-0"]
+BenchmarkTools = ["0.4-0.7", "1"]
+ImageCore = "0.8-0.9"
+PrettyTables = ["0.7-0.12", "1"]
