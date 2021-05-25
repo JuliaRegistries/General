@@ -49,7 +49,7 @@ Reexport = "1"
 ["0.3.16-0.3.24"]
 ForwardDiff = "0.10"
 
-["0.3.18-0"]
+["0.3.18-0.3.36"]
 MPI = "0.16-0.17"
 
 ["0.3.19-0.3.32"]
@@ -71,9 +71,16 @@ LoopVectorization = "0.9.2-0.9"
 Tullio = "0.2.11-0.2"
 
 ["0.3.33-0"]
+StrideArrays = "0.1.8-0.1"
+
+["0.3.33-0.3.36"]
 CheapThreads = "0.2.3-0.2"
 LoopVectorization = "0.12.13-0.12"
-StrideArrays = "0.1.8-0.1"
+
+["0.3.37-0"]
+LoopVectorization = "0.12.22-0.12"
+MPI = "0.16-0.18"
+Polyester = "0.3"
 
 ["0.3.4-0"]
 LinearMaps = "2.7.0-3"
