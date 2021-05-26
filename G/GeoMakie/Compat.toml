@@ -1,7 +1,6 @@
 [0]
 GeoInterface = "0.5"
 GeoJSON = "0.5"
-Glob = "1"
 ImageMagick = "1"
 
 ["0-0.1.1"]
@@ -12,6 +11,9 @@ julia = "1.1.0-1"
 Colors = "0.0.0 - 0.12"
 NASAEarthObservations = "0.0.0 - 0.1"
 Reexport = "0.0.0 - 0.2"
+
+["0-0.1.15"]
+Glob = "1"
 
 ["0-0.1.3"]
 Proj4 = "0.6"
@@ -25,7 +27,7 @@ AbstractPlotting = "0.9"
 ["0-0.1.8"]
 EarCut = "1"
 
-["0.1.1-0"]
+["0.1.1-0.1.15"]
 StructArrays = "0.4"
 
 ["0.1.10"]
@@ -43,12 +45,19 @@ AbstractPlotting = "0.10-0.11"
 ["0.1.14-0"]
 GeometryBasics = "0.2-0.3"
 
-["0.1.15-0"]
+["0.1.15"]
 AbstractPlotting = "0.13"
-Colors = "0.12"
 NASAEarthObservations = "0.1"
-Proj4 = "0.7"
 Reexport = "0.2"
+
+["0.1.15-0"]
+Colors = "0.12"
+Proj4 = "0.7"
+
+["0.1.16-0"]
+Makie = "0.13"
+Reexport = ["0.2", "1"]
+StructArrays = "0.4-0.5"
 
 ["0.1.2-0"]
 julia = "1"
@@ -80,5 +89,5 @@ GeometryBasics = "0.2"
 ["0.1.8-0.1.9"]
 MakieLayout = "0.5-0.6"
 
-["0.1.9-0"]
+["0.1.9-0.1.15"]
 EarCut = "2"
