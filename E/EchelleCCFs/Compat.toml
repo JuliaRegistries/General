@@ -62,8 +62,13 @@ LsqFit = "0.11-0.12"
 NaNMath = "0.3.5-0.3"
 
 ["0.2.1-0"]
-DataFrames = "0.20-0.22"
 NaNMath = "0.3"
 RvSpectMLBase = "0.2"
 SpecialFunctions = "1"
 StaticArrays = "1"
+
+["0.2.1-0.2.2"]
+DataFrames = "0.20-0.22"
+
+["0.2.3-0"]
+DataFrames = ["0.20-0.22", "1"]
