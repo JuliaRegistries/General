@@ -1,9 +1,9 @@
-[0]
+["0-0.10"]
 ExprTools = "0.1"
 PackageCompiler = "1.2.0-1"
 julia = "1"
 
-["0.10-0"]
+["0.10"]
 Crayons = "4"
 TOML = "1"
 
@@ -13,8 +13,18 @@ Configurations = "0.4"
 ["0.10.1"]
 Configurations = "0.3-0.8"
 
-["0.10.2-0"]
+["0.10.2-0.10"]
 Configurations = "0.3-0.9"
 
-["0.2-0"]
+["0.11-0"]
+ComoniconBuilder = "0.1.1-0.1"
+ComoniconOptions = "0.1"
+ComoniconTargetExpr = "0.2.1-0.2"
+ComoniconTypes = "0.2"
+ComoniconZSHCompletion = "0.2"
+Configurations = "0.15"
+ExproniconLite = "0.6"
+julia = "1.6.0-1"
+
+["0.2-0.10"]
 MatchCore = "0.1"
