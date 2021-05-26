@@ -22,18 +22,22 @@ RvSpectMLBase = "0.1.7-0.1"
 
 ["0.1.3-0"]
 CSV = "0.7-0.8"
-DataFrames = "0.21-0.22"
 Interpolations = "0.12-0.13"
 
 ["0.1.3-0.1.9"]
 RvSpectMLBase = "0.1.5-0.1"
 
+["0.1.3-0.2.2"]
+DataFrames = "0.21-0.22"
+
 ["0.1.4-0.1"]
 Polynomials = "1.2.0-1"
 
 ["0.1.8-0"]
-Missings = "0.4.5-0.4"
 NaNMath = "0.3.5-0.3"
+
+["0.1.8-0.2.2"]
+Missings = "0.4.5-0.4"
 
 ["0.2-0.2.1"]
 Polynomials = "2"
@@ -46,3 +50,7 @@ RvSpectMLBase = "0.2"
 
 ["0.2.2-0"]
 Polynomials = "1.2.0-2"
+
+["0.2.3-0"]
+DataFrames = ["0.21-0.22", "1"]
+Missings = ["0.4.5-0.4", "1"]
