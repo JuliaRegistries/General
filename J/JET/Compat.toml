@@ -1,16 +1,22 @@
 [0]
-JuliaInterpreter = "0.8.8-0.8"
 MacroTools = "0.5.6-0.5"
 julia = "1.6.0-1"
 
 ["0-0.1"]
 LoweredCodeUtils = "1.2.4-1"
 
+["0-0.2"]
+JuliaInterpreter = "0.8.8-0.8"
+
 ["0-0.2.0"]
 Revise = "3.1.14-3"
 
-["0.2-0"]
+["0.2"]
 LoweredCodeUtils = "2"
 
 ["0.2.1-0"]
 Revise = "3.1.15-3"
+
+["0.3-0"]
+JuliaInterpreter = "0.8.16-0.8"
+LoweredCodeUtils = "2.1"
