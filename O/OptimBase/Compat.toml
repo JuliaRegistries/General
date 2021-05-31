@@ -6,6 +6,11 @@ Compat = "0.18-2"
 NLSolversBase = "0-7"
 Reexport = "0.0.0 - 0.2"
 
+["2.0.1"]
+Reexport = "0.2"
+
 ["2.0.1-2"]
 NLSolversBase = "7"
-Reexport = "0.2"
+
+["2.0.2-2"]
+Reexport = ["0.2", "1"]
