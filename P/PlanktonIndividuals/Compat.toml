@@ -26,7 +26,7 @@ julia = "1.4.0-1"
 ["0.1.8-0.1"]
 Distributions = "0.23.4-0.23"
 
-["0.2-0"]
+["0.2"]
 CUDA = "1-2"
 Distributions = "0.23"
 Interpolations = "0.12"
@@ -35,3 +35,13 @@ KernelAbstractions = "0.4-0.5"
 NCDatasets = "0.10"
 StructArrays = "0.4"
 julia = "1.5.0-1"
+
+["0.3-0"]
+CUDA = "2-3"
+CUDAKernels = "0.2"
+Interpolations = "0.13"
+JLD2 = "0.3-0.4"
+KernelAbstractions = "0.6"
+NCDatasets = "0.11"
+StructArrays = "0.4-0.5"
+julia = "1.6.0-1"
