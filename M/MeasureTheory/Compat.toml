@@ -1,5 +1,4 @@
 [0]
-Distributions = "0.23-0.24"
 DistributionsAD = "0.6"
 MLStyle = "0.4"
 MacroTools = "0.5"
@@ -20,6 +19,9 @@ KeywordDispatch = "0.3"
 
 ["0-0.4.2"]
 MappedArrays = "0.3"
+
+["0-0.6"]
+Distributions = "0.23-0.24"
 
 ["0.2.2"]
 FillArrays = "0.8-0.11"
@@ -60,8 +62,10 @@ NestedTuples = "0.1-0.3"
 Accessors = "0.1"
 ConcreteStructs = "0.2"
 NestedTuples = "0.3"
-TransformVariables = "0.3"
 Tullio = "0.2"
+
+["0.5-0.6"]
+TransformVariables = "0.3"
 
 ["0.5-0.6.0"]
 DynamicIterators = "0.4"
@@ -71,3 +75,9 @@ Tricks = "0.1"
 
 ["0.6.1-0"]
 DynamicIterators = "0.4.2-0.4"
+
+["0.7-0"]
+Distributions = "0.23-0.25"
+KeywordCalls = "0.1.5-0.1"
+SimpleTraits = "0.9"
+TransformVariables = "0.4"
