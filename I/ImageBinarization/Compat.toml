@@ -19,20 +19,22 @@ ImageCore = "0-0.8"
 ["0.1.1-0.2.1"]
 ColorVectorSpace = "0-0.8"
 
-["0.2-0"]
-ImageCore = "0.8.3-0.8"
-
 ["0.2-0.2.1"]
 MappedArrays = "0.0.0 - 0.2"
+
+["0.2-0.2.4"]
+ImageCore = "0.8.3-0.8"
 
 ["0.2.2"]
 MappedArrays = "0.2"
 
 ["0.2.2-0"]
-ColorTypes = "0.7-0.10"
-ColorVectorSpace = "0.6-0.8"
 HistogramThresholding = "0.1-0.2"
 ImageContrastAdjustment = "0.1-0.3"
+
+["0.2.2-0.2.4"]
+ColorTypes = "0.7-0.10"
+ColorVectorSpace = "0.6-0.8"
 Polynomials = "1"
 
 ["0.2.3"]
@@ -40,3 +42,8 @@ Reexport = "0.2"
 
 ["0.2.4-0"]
 Reexport = ["0.2", "1"]
+
+["0.2.5-0"]
+ColorVectorSpace = "0.6-0.9"
+ImageCore = "0.8.3-0.9"
+Polynomials = "1-2"
