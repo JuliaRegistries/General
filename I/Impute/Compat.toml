@@ -21,12 +21,14 @@ Tables = "0.2"
 StatsBase = "0.32"
 
 ["0.5-0"]
-Missings = "0.4"
 NearestNeighbors = "0.4"
 Tables = "1"
 
 ["0.5-0.6.1"]
 TableOperations = "0.2"
+
+["0.5-0.6.5"]
+Missings = "0.4"
 
 ["0.5.0"]
 Distances = "0.8"
@@ -50,3 +52,6 @@ BSON = "0.2-0.3"
 CSV = "0.6-0.8"
 Distances = "0.8-0.10"
 TableOperations = ["0.2", "1"]
+
+["0.6.6-0"]
+Missings = ["0.4", "1"]
