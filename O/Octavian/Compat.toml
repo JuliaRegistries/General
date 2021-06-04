@@ -23,20 +23,27 @@ ThreadingUtilities = "0.4"
 LoopVectorization = "0.11-0.12"
 VectorizationBase = "0.18-0.19"
 
-["0.2.13-0"]
-LoopVectorization = "0.12"
-StrideArraysCore = "0.1.5-0.1"
-
 ["0.2.13-0.2.14"]
 VectorizationBase = "0.19"
+
+["0.2.13-0.2.16"]
+LoopVectorization = "0.12"
+StrideArraysCore = "0.1.5-0.1"
 
 ["0.2.15"]
 VectorizationBase = "0.19-0.20"
 
+["0.2.16"]
+VectorizationBase = "0.20.5-0.20"
+
 ["0.2.16-0"]
 ArrayInterface = "3.1.14-3"
-VectorizationBase = "0.20.5-0.20"
 julia = "1.6.0-1"
+
+["0.2.17-0"]
+LoopVectorization = "0.12.26-0.12"
+StrideArraysCore = "0.1.11-0.1"
+VectorizationBase = "0.20.11-0.20"
 
 ["0.2.6-0.2.7"]
 LoopVectorization = "0.10"
