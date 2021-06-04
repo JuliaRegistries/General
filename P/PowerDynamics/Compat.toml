@@ -4,7 +4,7 @@ PowerDynBase = "0.0.0 - 0.7"
 ["0-0.4.0"]
 PowerDynSolve = "0.0.0 - 0.6"
 
-[0-2]
+["0-2.4"]
 julia = "1"
 
 ["0.2.1-1"]
@@ -71,13 +71,22 @@ DiffEqBase = "6.9.4-6"
 
 ["2.3.2-2"]
 Lazy = "0.14-0.15"
-NetworkDynamics = ["0.2", "0.4"]
 RecipesBase = ["0.7-0.8", "1"]
 Setfield = "0.4-0.7"
 SteadyStateDiffEq = "1.5.1-1"
+
+["2.3.2-2.4"]
+NetworkDynamics = ["0.2", "0.4"]
 
 ["2.3.2-2.4.1"]
 StaticArrays = "0.11-0.12"
 
 ["2.4-2"]
 OrderedCollections = "1.3.0-1"
+
+["2.5-2"]
+Ipopt = "0.6"
+NetworkDynamics = "0.5"
+PowerModels = "0.18"
+PowerModelsACDC = "0.4"
+julia = "1.5.0-1"
