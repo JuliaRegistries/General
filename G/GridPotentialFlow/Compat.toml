@@ -1,9 +1,11 @@
 [0]
-RecursiveArrayTools = "2.11.0-2"
 Reexport = ["0.2", "1"]
 RigidBodyTools = "0.1.9-0.1"
-UnPack = "1"
 julia = "1.4.0-1"
+
+["0-0.2"]
+RecursiveArrayTools = "2.11.0-2"
+UnPack = "1"
 
 ["0-0.2.0"]
 CartesianGrids = "0.1.10-0.1"
@@ -12,8 +14,14 @@ DocStringExtensions = "0.8.3-0.8"
 
 ["0.2.1-0"]
 CartesianGrids = "0.1.12-0.1"
-ConstrainedSystems = "0.2.4-0.2"
 DocStringExtensions = "0.8.4-0.8"
+
+["0.2.1-0.2"]
+ConstrainedSystems = "0.2.4-0.2"
 
 ["0.2.2-0"]
 RecipesBase = "1.1.0-1"
+
+["0.3-0"]
+LinearMaps = "3"
+StructArrays = "0.5"
