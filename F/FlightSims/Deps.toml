@@ -4,11 +4,13 @@ ComponentArrays = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
-OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 Transducers = "28d57a85-8fef-5791-bfe6-a80928e7c999"
 
 ["0-0.1"]
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+
+["0-0.2"]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 
 ["0.2-0"]
 DynamicPolynomials = "7c1d4256-1411-5781-91ec-d7bc3513ac07"
@@ -17,3 +19,10 @@ NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
 NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
 Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0.3-0"]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+MatrixEquations = "99c1a7ee-ab34-5fd5-8076-27c950a045f4"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
