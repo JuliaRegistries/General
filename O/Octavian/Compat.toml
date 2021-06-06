@@ -40,10 +40,16 @@ VectorizationBase = "0.20.5-0.20"
 ArrayInterface = "3.1.14-3"
 julia = "1.6.0-1"
 
-["0.2.17-0"]
+["0.2.17"]
 LoopVectorization = "0.12.26-0.12"
-StrideArraysCore = "0.1.11-0.1"
 VectorizationBase = "0.20.11-0.20"
+
+["0.2.17-0"]
+StrideArraysCore = "0.1.11-0.1"
+
+["0.2.18-0"]
+LoopVectorization = "0.12.34-0.12"
+VectorizationBase = "0.20.16-0.20"
 
 ["0.2.6-0.2.7"]
 LoopVectorization = "0.10"
