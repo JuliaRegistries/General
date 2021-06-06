@@ -37,14 +37,20 @@ StructArrays = "0.4"
 julia = "1.5.0-1"
 
 ["0.3-0"]
-CUDA = "2-3"
 CUDAKernels = "0.2"
 Interpolations = "0.13"
 JLD2 = "0.3-0.4"
 KernelAbstractions = "0.6"
 NCDatasets = "0.11"
-StructArrays = "0.4-0.5"
 julia = "1.6.0-1"
+
+["0.3-0.3.2"]
+CUDA = "2-3"
+StructArrays = "0.4-0.5"
 
 ["0.3.2-0"]
 Adapt = "3"
+
+["0.3.3-0"]
+CUDA = "3"
+StructArrays = "0.5"
