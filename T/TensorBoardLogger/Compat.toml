@@ -17,23 +17,29 @@ ProtoBuf = "0.7.0 - 0.8"
 StatsBase = "0.27.0 - 0.32"
 
 ["0.1.10-0"]
-ColorTypes = "0.7-0.10"
 StatsBase = "0.27-0.33"
+
+["0.1.10-0.1.16"]
+ColorTypes = "0.7-0.10"
 
 ["0.1.13-0.1.15"]
 ProtoBuf = "0.10"
 
+["0.1.16"]
+ImageCore = "0.7-0.9"
+
 ["0.1.16-0"]
 FileIO = "1.2.3-1"
-ImageCore = "0.7-0.9"
 ProtoBuf = "0.10-0.11"
 julia = "1.3.0-1"
+
+["0.1.17-0"]
+ImageCore = "0.8.1-0.9"
 
 ["0.1.3-0.1.5"]
 Requires = "0.0.0 - 1"
 
 ["0.1.6-0"]
-FixedPointNumbers = "0.6-0.8"
 Requires = ["0.5", "1"]
 
 ["0.1.6-0.1.12"]
@@ -42,6 +48,9 @@ ProtoBuf = "0.7-0.8"
 ["0.1.6-0.1.15"]
 FileIO = "1"
 ImageCore = "0.7-0.8"
+
+["0.1.6-0.1.16"]
+FixedPointNumbers = "0.6-0.8"
 
 ["0.1.6-0.1.9"]
 ColorTypes = "0.7-0.9"
