@@ -22,11 +22,11 @@ CUDA = "1.3.0-1"
 JLD2 = "0.1-0.2"
 julia = "1.4.0-1"
 
-["0.3-0"]
-FFTW = "1"
-
 ["0.3-0.4"]
 FourierFlows = "0.6"
+
+["0.3-0.5.0"]
+FFTW = "1"
 
 ["0.4"]
 CUDA = "1.3.0-2"
@@ -37,6 +37,12 @@ julia = "1.5.0-1"
 
 ["0.5-0"]
 CUDA = "1.3.0-3"
-FourierFlows = "0.6.17-0.6"
 JLD2 = "0.1-0.4"
 Reexport = ["0.2", "1"]
+
+["0.5.0"]
+FourierFlows = "0.6.17-0.6"
+
+["0.5.1-0"]
+DocStringExtensions = "0.8"
+FourierFlows = "0.6.17-0.7"
