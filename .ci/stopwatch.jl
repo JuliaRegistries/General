@@ -36,13 +36,6 @@ end
 function most_recent_automerge(registry::GitHub.Repo;
                                api::GitHub.GitHubAPI,
                                auth::GitHub.Authorization)
-    schedule = _most_recent(
-        registry;
-        api = api,
-        auth = auth,
-        event = "schedule",
-        workflow_name = "AutoMerge"
-    )
     workflow_dispatch = _most_recent(
         registry;
         api = api,
@@ -50,7 +43,7 @@ function most_recent_automerge(registry::GitHub.Repo;
         event = "workflow_dispatch",
         workflow_name = "AutoMerge"
     )
-    return max(schedule, workflow_dispatch)
+    return workflow_dispatch
 end
 
 function time_since_last_automerge(registry::GitHub.Repo;
