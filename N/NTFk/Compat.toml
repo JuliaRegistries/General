@@ -75,13 +75,11 @@ Colors = "0.12-0.13"
 Compose = "0.8-0.9"
 DistributedArrays = "0.6.5-0.7"
 DocumentFunction = "1"
-Interpolations = ["0.12", "0.14"]
 Ipopt = "0.6-0.7"
 LoadTensorDecompositions = "1"
 MATLAB = "0.7.3-0.8"
 Measures = "0.3.1-0.4"
 NMFk = "1"
-julia = "1.5.0-1"
 
 ["1-1.0.1"]
 JLD = "0.10-0.11"
@@ -91,6 +89,10 @@ JLD2 = "0.2-0.3"
 
 ["1-1.0.5"]
 Images = "0.23-0.24"
+
+["1.0"]
+Interpolations = ["0.12", "0.14"]
+julia = "1.5.0-1"
 
 ["1.0.0"]
 Distributions = ["0.23", "0.25"]
@@ -106,3 +108,7 @@ JLD2 = "0.2-0.4"
 Images = "0.22-0.25"
 JLD = "0.10-0.13"
 JLD2 = "0.2-0.5"
+
+["1.1-1"]
+Interpolations = "0.12-0.14"
+julia = "1.6.0-1"
