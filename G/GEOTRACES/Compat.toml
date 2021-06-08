@@ -1,8 +1,13 @@
 [0]
 Match = "1"
 Measurements = "2"
-MetadataArrays = "0.1"
 NCDatasets = "0.9-0.11"
 OceanographyCruises = "0.2"
 Unitful = "1"
 julia = "1"
+
+["0-0.1"]
+MetadataArrays = "0.1"
+
+["0.2-0"]
+DataFrames = "1"
