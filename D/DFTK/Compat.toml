@@ -88,20 +88,20 @@ Plots = "1"
 ["0.1.9-0.2.0"]
 Optim = ["0.22", "1"]
 
-["0.2-0"]
-SpecialFunctions = ["0.10", "1"]
-
 ["0.2-0.2.7"]
 MPI = "0.15-0.16"
+
+["0.2-0.3.0"]
+SpecialFunctions = ["0.10", "1"]
 
 ["0.2.1-0"]
 Optim = "1"
 
-["0.2.2-0"]
-StaticArrays = ["0.12", "1"]
-
 ["0.2.2-0.2.3"]
 NCDatasets = "0.10-0.11"
+
+["0.2.2-0.3.0"]
+StaticArrays = ["0.12", "1"]
 
 ["0.2.3-0"]
 LinearMaps = "2-3"
@@ -109,8 +109,10 @@ Unitful = "1"
 UnitfulAtomic = "1"
 
 ["0.2.4-0"]
-AbstractFFTs = ["0.5", "1"]
 IterativeSolvers = "0.8-0.9"
+
+["0.2.4-0.3.0"]
+AbstractFFTs = ["0.5", "1"]
 
 ["0.2.7"]
 julia = "1.5.0-1"
@@ -126,3 +128,9 @@ MPI = "0.15-0.17"
 
 ["0.3-0"]
 MPI = "0.15-0.18"
+
+["0.3.1-0"]
+AbstractFFTs = "1"
+BlockArrays = "0.15"
+SpecialFunctions = "1"
+StaticArrays = "1"
