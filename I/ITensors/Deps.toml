@@ -2,11 +2,13 @@
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 KrylovKit = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-NDTensors = "23ae76d9-e61a-49c4-8f12-3f1a16adf9cf"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+["0-0.1"]
+NDTensors = "23ae76d9-e61a-49c4-8f12-3f1a16adf9cf"
 
 ["0.1.13-0"]
 PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
@@ -16,3 +18,10 @@ Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
 ["0.1.36-0"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["0.2-0"]
+Dictionaries = "85a47980-9c8c-11e8-2b9f-f7ca1fa99fb4"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+SerializedElementArrays = "d3ce8812-9567-47e9-a7b5-65a6d70a3065"
+Strided = "5e0ebb24-38b0-5f93-81fe-25c709ecae67"
+TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
