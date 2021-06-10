@@ -1,9 +1,14 @@
 [1]
 GroupedTransforms = "1"
-IterativeSolvers = "0.8"
 LinearMaps = "2"
 Plots = "1"
 julia = "1"
 
+["1-1.0.22"]
+IterativeSolvers = "0.8"
+
 ["1.0.14-1"]
 StatsBase = "0.33"
+
+["1.0.23-1"]
+IterativeSolvers = "0.8-0.9"
