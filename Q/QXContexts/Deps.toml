@@ -9,11 +9,13 @@ Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
 OMEinsum = "ebe7aa44-baf0-506c-a96f-8464559b3922"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
 TestSetExtensions = "98d24dd4-01ad-11ea-1b02-c9a08f80db04"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+
+["0-0.1"]
+TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
 
 ["0.1.7-0"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
@@ -22,3 +24,6 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["0.2-0"]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
