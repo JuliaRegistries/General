@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   trigger:
+    timeout-minutes: 30
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event.pull_request.merged
     runs-on: ubuntu-latest
     steps:
