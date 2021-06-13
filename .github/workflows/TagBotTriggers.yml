@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   trigger:
+    timeout-minutes: 30
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event.pull_request.merged
     runs-on: ubuntu-latest
     steps:
@@ -38,6 +39,6 @@ jobs:
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
       - run: .ci/instantiate.sh
       - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
-      - run: .ci/tagbot_triggers.sh
+      - run: julia --color=yes --project=.ci/ -e 'using RegistryCI.TagBot; TagBot.main()'
         env:
           GITHUB_TOKEN: ${{ secrets.TAGBOT_TOKEN }}

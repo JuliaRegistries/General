@@ -52,7 +52,6 @@ PrettyTables = "0.7"
 ["0.6.4-0"]
 Crayons = "4"
 Parameters = "0.12"
-ReferenceFrameRotations = "0.5"
 julia = "1"
 
 ["0.6.4-0.7"]
@@ -60,6 +59,9 @@ Interpolations = "0.12"
 PolynomialRoots = "0.2"
 Reexport = "0.2"
 StaticArrays = "0.12"
+
+["0.6.4-0.8"]
+ReferenceFrameRotations = "0.5"
 
 ["0.6.4-0.8.0"]
 RemoteFiles = "0.3"
@@ -84,4 +86,10 @@ PrettyTables = "0.11"
 
 ["0.8.1-0"]
 PrettyTables = ["0.12", "1"]
+
+["0.8.1-0.8"]
 RemoteFiles = "0.4.1-0.4"
+
+["0.9-0"]
+ReferenceFrameRotations = ["0.5", "1"]
+RemoteFiles = "0.4.2-0.4"

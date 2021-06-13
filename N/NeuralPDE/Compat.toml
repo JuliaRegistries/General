@@ -88,6 +88,9 @@ SciMLBase = "1.9.0-1"
 CUDA = "2-3"
 Distributions = "0.23-0.25"
 
+["3.12-3"]
+ModelingToolkit = "5.18.0-5"
+
 ["3.2-3"]
 Zygote = "0.5-0.6"
 
@@ -122,11 +125,11 @@ ModelingToolkit = "5.13.0-5"
 ["3.8.1-3"]
 ArrayInterface = "3.1.0-3"
 
-["3.8.2-3"]
-ModelingToolkit = "5.13.4-5"
-
 ["3.8.2-3.10"]
 CUDA = "2"
+
+["3.8.2-3.11"]
+ModelingToolkit = "5.13.4-5"
 
 ["3.9-3"]
 DocStringExtensions = "0.8"

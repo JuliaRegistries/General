@@ -1,7 +1,14 @@
 [0]
-Convex = "0.13"
 JSON = "0.21"
-QBase = "0.1"
 SCS = "0.7"
 XPORTA = "0.1"
 julia = "1.4.0-1"
+
+["0-0.1.0"]
+Convex = "0.13"
+QBase = "0.1"
+
+["0.1.1-0"]
+Combinatorics = "1"
+Convex = "0.14"
+QBase = "0.2"
