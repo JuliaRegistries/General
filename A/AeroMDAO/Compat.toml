@@ -1,6 +1,5 @@
 [0]
 CoordinateTransformations = "0.6"
-DataFrames = "1"
 DiffResults = "1"
 Documenter = "0.26"
 ForwardDiff = "0.10"
@@ -8,5 +7,8 @@ Interpolations = "0.13"
 PrettyTables = "1"
 Rotations = "1"
 StaticArrays = "1"
-Surrogates = "2"
 julia = "1.6.0-1"
+
+["0-0.2.1"]
+DataFrames = "1"
+Surrogates = "2"
