@@ -1,5 +1,10 @@
 [0]
 DiffEqBase = "6"
 RCall = "0.13"
-Reexport = "0.2"
 julia = "1"
+
+["0-0.1.0"]
+Reexport = "0.2"
+
+["0.1.1-0"]
+Reexport = ["0.2", "1"]
