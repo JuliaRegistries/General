@@ -25,10 +25,12 @@ JuMP = "0.21"
 
 ["0.2-0"]
 GaussianMixtures = "0.3.2-0.3"
-Ipopt = "0.6"
 
 ["0.2-0.2.3"]
 PowerModelsDistribution = "0.10"
+
+["0.2-0.3"]
+Ipopt = "0.6"
 
 ["0.2.4-0"]
 Distributions = "0.22.3-0.24.14"
@@ -37,8 +39,14 @@ Distributions = "0.22.3-0.24.14"
 InfrastructureModels = "0.5.4-0.5"
 PowerModelsDistribution = "0.10.1-0.10"
 
+["0.3"]
+LoggingExtras = "0.4.6-0.4"
+
 ["0.3-0"]
 InfrastructureModels = "0.6"
 JuMP = "0.21.4-0.21"
-LoggingExtras = "0.4.6-0.4"
 PowerModelsDistribution = "0.11.1-0.11"
+
+["0.4-0"]
+ForwardDiff = "0.10.18-0.10"
+LoggingExtras = "0.4"
