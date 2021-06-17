@@ -2,7 +2,6 @@
 ArgParse = "1.1.0-1"
 DataStructures = "0.18"
 JLD2 = "0.4"
-MPI = "0.17"
 TestSetExtensions = "2"
 TimerOutputs = "0.5"
 YAML = "0.4"
@@ -14,6 +13,9 @@ OMEinsum = "0.3"
 Reexport = "1"
 TensorOperations = "3.1.0-3"
 
+["0-0.2.0"]
+MPI = "0.17"
+
 ["0.1.8-0"]
 PackageCompiler = "1.2.0-1"
 
@@ -22,3 +24,8 @@ AbstractTrees = "0.3"
 FileIO = "1.9.0-1"
 OMEinsum = "0.3-0.4"
 Reexport = "1.1.0-1"
+
+["0.2.1-0"]
+CUDA = "3"
+Lazy = "0.15"
+MPI = "0.18"

@@ -1,7 +1,14 @@
 [0]
 Combinatorics = "1"
+julia = "1"
+
+["0-0.1.0"]
 Distributions = "0.24"
 FunctionWrappers = "1.1.0-1"
 Optim = "0.18"
 Plots = "1.4.0-1"
-julia = "1"
+
+["0.1.1-0"]
+Distributions = "0.23-0.24"
+GeneralizedGenerated = "0.2"
+Optim = ["0.18", "0.20", "0.22"]

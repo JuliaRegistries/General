@@ -3,9 +3,7 @@ CSV = "0.7-0.8"
 Colors = "0.12"
 Compose = "0.9"
 Conda = "1.4.0-1"
-DataFrames = "0.21-0.22"
 DataStructures = "0.17-0.18"
-DiffEqBase = "6.49.0-6"
 GraphPlot = "0.4.4-0.4"
 JSON = "0.21"
 LightGraphs = "1"
@@ -13,8 +11,15 @@ PyCall = "1"
 SimpleWeightedGraphs = "1"
 julia = "1.4.0-1"
 
+["0-0.2"]
+DataFrames = "0.21-0.22"
+DiffEqBase = "6.49.0-6"
+
 ["0-0.2.2"]
 Flux = "0.11"
 
 ["0.2.3-0"]
 Flux = "0.11-0.12"
+
+["0.3-0"]
+DataFrames = ["0.21-0.22", "1"]
