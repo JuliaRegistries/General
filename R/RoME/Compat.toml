@@ -78,18 +78,24 @@ ManifoldsBase = "0.10"
 DistributedFactorGraphs = "0.13"
 IncrementalInference = "0.23"
 
+["0.15.1"]
+Distributions = "0.21-0.25"
+IncrementalInference = "0.24"
+
 ["0.15.1-0"]
 ApproxManifoldProducts = "0.3.3-0.3"
 DistributedFactorGraphs = "0.14"
-Distributions = "0.21-0.25"
 FileIO = "1"
-IncrementalInference = "0.24"
 JLD2 = "0.3-0.4"
 Manifolds = "0.5"
 ManifoldsBase = "0.11"
 Rotations = ["0.13", "1"]
 StaticArrays = "1"
 TransformUtils = "0.2.10-0.2"
+
+["0.15.2-0"]
+Distributions = "0.23-0.25"
+IncrementalInference = "0.24.4-0.24"
 
 ["0.2.1-0.3.3"]
 TransformUtils = "0.2.2 - 0.2"
