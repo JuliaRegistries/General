@@ -152,25 +152,27 @@ SpecialFunctions = "0.9-0.10"
 
 ["0.17-0"]
 ArrayInterface = "3"
-CanonicalTraits = "0.2"
-DataStructures = "0.18"
 FillArrays = "0.8-0.11"
 GeneralizedGenerated = "0.3"
 IRTools = "0.4"
-IterTools = "1"
-LazyArrays = "0.14-0.21"
 MappedArrays = "0.3-0.4"
-MeasureTheory = "0.6-0.7"
 NestedTuples = "0.3"
 Reexport = "1"
 RuntimeGeneratedFunctions = "0.5"
 SpecialFunctions = ["0.9-0.10", "1"]
 SymbolicCodegen = "0.2"
-SymbolicUtils = "0.8-0.10"
 Tullio = "0.2"
 
 ["0.17-0.18"]
 SampleChains = "0.3"
+
+["0.17-0.19.1"]
+CanonicalTraits = "0.2"
+DataStructures = "0.18"
+IterTools = "1"
+LazyArrays = "0.14-0.21"
+MeasureTheory = "0.6-0.7"
+SymbolicUtils = "0.8-0.10"
 
 ["0.18.1-0.19.0"]
 Distributions = "0.19-0.24"
@@ -179,11 +181,19 @@ Distributions = "0.19-0.24"
 JuliaVariables = "0.2"
 
 ["0.19-0"]
-SampleChains = "0.4"
 TupleVectors = "0.1"
+
+["0.19-0.19.1"]
+SampleChains = "0.4"
 
 ["0.19.1-0"]
 Distributions = "0.19-0.25"
+
+["0.19.2-0"]
+MeasureTheory = "0.8"
+SampleChains = "0.5"
+SymbolicUtils = "0.8-0.12"
+TransformVariables = "0.4"
 
 ["0.2"]
 DynamicHMC = "1.0.5-1"
@@ -248,7 +258,6 @@ Zygote = "0.4"
 Graphs = "0.10"
 MacroTools = "0.5"
 StatsFuns = "0.9"
-TransformVariables = "0.3"
 
 ["0.8-0.10"]
 DiffResults = "0.0.4"
@@ -283,6 +292,9 @@ DynamicHMC = "2.1.0-2"
 ForwardDiff = "0.10"
 IterTools = "1.3.0-1"
 Reexport = "0.2"
+
+["0.8-0.19.1"]
+TransformVariables = "0.3"
 
 ["0.8-0.9"]
 MonteCarloMeasurements = "0.5"
