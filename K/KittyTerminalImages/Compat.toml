@@ -1,11 +1,13 @@
 [0]
 Cairo = "1.0.4-1"
-FileIO = "1.4.0-1"
-ImageTransformations = "0.8.5-0.8"
 Rsvg = "1"
 julia = "1.4.0-1"
 
-["0.2-0"]
+["0-0.3.1"]
+FileIO = "1.4.0-1"
+ImageTransformations = "0.8.5-0.8"
+
+["0.2-0.3.1"]
 ImageMagick = "1.1.5-1"
 
 ["0.3-0"]
@@ -17,3 +19,7 @@ ImageCore = "0.8"
 
 ["0.3.1-0"]
 ImageCore = "0.8-0.9"
+
+["0.3.2-0"]
+Interpolations = "0.13.2-0.13"
+PNGFiles = "0.3.7-0.3"

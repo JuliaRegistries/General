@@ -4,16 +4,22 @@ DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
-LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Match = "7eb4fadd-790c-5f42-8a69-bfa0b872bfbf"
 MultivariateStats = "6f286f6a-111f-5878-ab1e-185364afe411"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.1"]
+LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
 ["0.1.7-0"]
 DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
+
+["0.2-0"]
+SplitApplyCombine = "03a91e81-4c3e-53e1-a0a4-9c0c8f19dd66"
+TypedTables = "9d95f2ec-7b3d-5a63-8d20-e2491e220bb9"

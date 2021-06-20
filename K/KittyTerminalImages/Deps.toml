@@ -1,14 +1,20 @@
 [0]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
-FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
 Rsvg = "c4c386cf-5103-5370-be45-f3a111cca3b8"
 
-["0.2-0"]
+["0-0.3.1"]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
+
+["0.2-0.3.1"]
 ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
 
 ["0.3-0"]
 CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.3.2-0"]
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+PNGFiles = "f57f5aa1-a3ce-4bc8-8ab9-96f992907883"
