@@ -5,7 +5,13 @@ FLANN = "4ef67f76-e0de-5105-ac01-03b6482fb4f8"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
 NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 sgtsnepi_jll = "c2c51ba6-9464-585c-93d5-ba434ab08fad"
+
+["0-0.2.0"]
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+
+["0.2.1-0"]
+Hwloc = "0e44f5e4-bd66-52a0-8798-143a42290a1d"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
