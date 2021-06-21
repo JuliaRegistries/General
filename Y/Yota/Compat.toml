@@ -9,11 +9,11 @@ julia = "1"
 ["0.2"]
 Cassette = "0.2.6-0.2"
 
-["0.2-0"]
-Espresso = "0.6"
-
 ["0.2-0.2.1"]
 JuliaInterpreter = "0.0.0 - 0.7"
+
+["0.2-0.4"]
+Espresso = "0.6"
 
 ["0.2.0"]
 Requires = "0.0.0 - 1"
@@ -41,13 +41,13 @@ CUDAapi = ["2", "4"]
 CUDAnative = "2.6.0-3"
 CuArrays = "1.5.0-2"
 
-["0.3-0"]
+["0.3-0.4"]
 Distributions = "0.23.2-0.23"
 
 ["0.3-0.4.3"]
 Cassette = "0.2.6-0.3"
 
-["0.4-0"]
+["0.4"]
 ChainRulesCore = "0.9.5-0.9"
 IRTools = "0.4"
 julia = "1.4.0-1"
@@ -55,5 +55,13 @@ julia = "1.4.0-1"
 ["0.4-0.4.1"]
 CUDA = "1.2.1-1"
 
-["0.4.2-0"]
+["0.4.2-0.4"]
 CUDA = ["1.2.0-1", "2.3.0-2"]
+
+["0.5-0"]
+ChainRules = "0.8"
+ChainRulesCore = "0.10"
+FiniteDifferences = "0.12"
+Ghost = "0.1"
+OrderedCollections = "1.4.0-1"
+julia = "1.6.0-1"

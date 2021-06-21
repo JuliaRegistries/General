@@ -1,5 +1,4 @@
 [0]
-Espresso = "6912e4f1-e036-58b0-9138-08d1e6358ea9"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
@@ -7,6 +6,9 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0-0.2.0"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0-0.4"]
+Espresso = "6912e4f1-e036-58b0-9138-08d1e6358ea9"
 
 ["0-0.4.3"]
 Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
@@ -19,10 +21,19 @@ CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
 CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
 CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 
-["0.3-0"]
+["0.3-0.4"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 
-["0.4-0"]
+["0.4"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
-ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 IRTools = "7869d1d1-7146-5819-86e3-90919afe41df"
+
+["0.4-0"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+
+["0.5-0"]
+ChainRules = "082447d4-558c-5d27-93f4-14fc19e9eca2"
+FiniteDifferences = "26cc04aa-876d-5657-8c51-4c34ba976000"
+Ghost = "4f8f7498-1303-42e1-920c-5033445536df"
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
