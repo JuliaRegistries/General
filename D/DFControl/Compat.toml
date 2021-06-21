@@ -1,4 +1,4 @@
-[0]
+["0-0.2"]
 BinDeps = "0.0.0 - 0.8"
 Compat = "0-2"
 Conda = "0-1"
@@ -8,3 +8,19 @@ Nullables = "0-1"
 Parameters = "0.0.0 - 0.12"
 RecipesBase = "0.0.0 - 0.8"
 julia = ["0.7", "1"]
+
+["0.3-0"]
+BinDeps = "1"
+ColorTypes = "0.11"
+Colors = "0.12"
+Crayons = "4"
+JLD2 = "0.4"
+Media = "0.5"
+NearestNeighbors = "0.4"
+Parameters = "0.12"
+RecipesBase = "1"
+Reexport = "1"
+Requires = "1"
+StaticArrays = "1"
+Unitful = "1"
+julia = "1"
