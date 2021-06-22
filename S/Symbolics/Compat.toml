@@ -43,8 +43,10 @@ SymbolicUtils = "0.10.1-0.11"
 AbstractAlgebra = "0.13-0.16"
 
 ["0.1.26-1"]
-AbstractAlgebra = "0.13-0.17"
 Distributions = "0.23-0.25"
+
+["0.1.26-1.1"]
+AbstractAlgebra = "0.13-0.17"
 
 ["0.1.27-1"]
 DomainSets = "0.5"
@@ -65,6 +67,12 @@ AbstractAlgebra = "0.13-0.14"
 Setfield = "0.7"
 
 [1]
-ConstructionBase = "1.2.0-1"
 StaticArrays = "1.1.0-1"
+
+["1-1.1"]
+ConstructionBase = "1.2.0-1"
 SymbolicUtils = "0.12"
+
+["1.2-1"]
+ConstructionBase = "1.1.0-1"
+SymbolicUtils = "0.13"
