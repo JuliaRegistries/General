@@ -1,8 +1,6 @@
 [0]
 Automa = "0.7-0.8"
 BGZFStreams = "0.3"
-ColorTypes = "0.7-0.9"
-FixedPointNumbers = "0.5-0.7"
 GenomicFeatures = "2"
 Indexes = "0.1"
 
@@ -13,9 +11,17 @@ BufferedStreams = "1"
 ["0-0.1.0"]
 julia = "1.1.0-1"
 
+["0-0.2.0"]
+ColorTypes = "0.7-0.9"
+FixedPointNumbers = "0.5-0.7"
+
 ["0.1.1-0"]
 julia = "1"
 
 ["0.2-0"]
 BioGenerics = "0.1"
 TranscodingStreams = "0.9.5-0.9"
+
+["0.2.1-0"]
+ColorTypes = "0.7-0.11"
+FixedPointNumbers = "0.5-0.8"
