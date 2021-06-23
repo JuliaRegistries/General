@@ -1,4 +1,11 @@
 [0]
+julia = "1"
+
+["0-0.1.0"]
 ProximalAlgorithms = "0.0.0 - 0.4"
 ProximalOperators = "0.0.0 - 0.12"
-julia = "1"
+
+["0.1.1-0"]
+ProximalAlgorithms = "0.4"
+ProximalOperators = "0.14"
+StatsBase = "0.33"
