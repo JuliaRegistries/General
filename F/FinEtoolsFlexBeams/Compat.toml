@@ -3,8 +3,20 @@ Arpack = "0.4"
 Dierckx = "0.4"
 FinEtools = "4.7.0-4"
 FinEtoolsDeforLinear = "0.3"
-JSON = "0.21"
 ORCA = "0.5"
 PlotlyJS = "0.14"
-SymRCM = "0.2"
 julia = "1.5"
+
+[0-1]
+JSON = "0.21"
+SymRCM = "0.2"
+
+[1]
+Arpack = "0.5"
+Dierckx = "0.5"
+FinEtools = "5"
+FinEtoolsDeforLinear = "1"
+PlotlyBase = "0.5"
+PlotlyJS = "0.15"
+Revise = "3.1.0-3"
+julia = "1.6.0-1"
