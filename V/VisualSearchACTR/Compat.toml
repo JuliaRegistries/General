@@ -1,5 +1,4 @@
 [0]
-ACTRModels = "0.6"
 ArgCheck = "2.1.0-2"
 Cairo = "1"
 ColorSchemes = "3.10.0-3"
@@ -24,9 +23,15 @@ PyPlot = "2.9.0-2"
 Reexport = "0.2"
 Revise = "3.1.6-3"
 
+["0-0.2.0"]
+ACTRModels = "0.6"
+
 ["0.1.1-0"]
 Distributions = "0.23-0.25"
 Reexport = ["0.2", "1"]
 
 ["0.2-0"]
 ConcreteStructs = "0.2"
+
+["0.2.1-0"]
+ACTRModels = "0.6-0.7"
