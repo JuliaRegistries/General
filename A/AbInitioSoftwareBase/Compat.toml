@@ -1,6 +1,12 @@
 [0]
-Configurations = "0.3-0.15"
 IsURL = "0.2"
 JSON = "0.20-0.21"
 YAML = "0.3-0.4"
 julia = "1"
+
+["0-0.2.0"]
+Configurations = "0.3-0.15"
+
+["0.2.1-0"]
+Configurations = "0.3-0.16"
+TOML = "1"
