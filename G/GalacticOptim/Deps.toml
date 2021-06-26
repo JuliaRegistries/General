@@ -1,34 +1,38 @@
 [0-1]
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
-DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+[0-2]
+DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.1.2-1"]
 FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
-Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
-Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
 ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 
-["0.1.3-1"]
+["0.1.2-2"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
+
+["0.1.3-2"]
 ConsoleProgressMonitor = "88cd18e8-d9cc-4ea6-8889-5259c0d15c8b"
 LoggingExtras = "e6f89c97-d47a-5376-807f-9c37f3926c36"
 TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
 
-["0.3-1"]
+["0.3-2"]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["0.4.7-1"]
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 
-[1]
+[1-2]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
-["1.1-1"]
+["1.1-2"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"

@@ -11,8 +11,10 @@ DiffEqBase = "6.41.0-6"
 Zygote = "0.5"
 
 [0-1]
-DiffResults = "1"
 ForwardDiff = "0.10"
+
+[0-2]
+DiffResults = "1"
 Requires = "1"
 
 ["0.1.2-0"]
@@ -23,11 +25,13 @@ julia = "1.3.0-1"
 
 ["0.1.2-1"]
 FiniteDiff = "2.5.0-2"
-ProgressLogging = "0.1"
 ReverseDiff = "1.4.0-1"
 Tracker = "0.2"
 
-["0.1.3-1"]
+["0.1.2-2"]
+ProgressLogging = "0.1"
+
+["0.1.3-2"]
 ConsoleProgressMonitor = "0.1"
 LoggingExtras = "0.4"
 TerminalLoggers = "0.1"
@@ -47,27 +51,29 @@ ArrayInterface = "2.13.0-2"
 ["0.3.1-1"]
 DiffEqBase = "6.48.1-6"
 
-["0.4.2-1"]
+["0.4.2-2"]
 julia = "1.5.0-1"
 
 ["0.4.4-1"]
 Zygote = "0.5-0.6"
 
-["0.4.5-1"]
+["0.4.5-2"]
 Reexport = ["0.2", "1"]
 
-["0.4.6-1"]
+["0.4.6-2"]
 ArrayInterface = "2.13.0-3"
 
 ["0.4.7-1"]
 ModelingToolkit = "5.2.0-5"
 
-[1]
+[1-2]
 SciMLBase = "1.8.1-1"
 
 ["1.0"]
 Flux = "0.11"
 
 ["1.1-1"]
-DocStringExtensions = "0.8"
 Flux = "0.11-0.12"
+
+["1.1-2"]
+DocStringExtensions = "0.8"
