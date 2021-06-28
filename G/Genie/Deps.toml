@@ -9,13 +9,16 @@ YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
 
 [0-1]
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+URIParser = "30578b45-9adc-5946-b283-645ec420af67"
+
+[0-2]
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Gumbo = "708ec375-b3d6-5a57-a7ce-8257bf98657a"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 HttpCommon = "77172c1b-203f-54ac-aa54-3f1198fe9f90"
-JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 Millboard = "39ec1447-df44-5f4c-beaa-866f30b4d3b2"
 Nettle = "49dea1ee-f6fa-5aa6-9a11-8816cee7d4b9"
@@ -26,26 +29,30 @@ Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
-URIParser = "30578b45-9adc-5946-b283-645ec420af67"
 Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
-["0.16-1"]
+["0.16-2"]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
 ["0.19-1.12"]
 LoggingExtras = "e6f89c97-d47a-5376-807f-9c37f3926c36"
 
-["0.20-1"]
-REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
-
 ["0.20-1.1"]
 FilePaths = "8fc22ac5-c921-52a6-82fd-178b2807b824"
 
-["0.28-1"]
+["0.20-2"]
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
+
+["0.28-2"]
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 
-[1]
+[1-2]
 MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
 
-["1.2-1"]
+["1.2-2"]
 FilePathsBase = "48062228-2e41-5def-b9a4-89aafe57970f"
+
+[2]
+Inflector = "6d011eab-0732-4556-8808-e463c76bf3b6"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
