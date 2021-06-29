@@ -7,7 +7,7 @@ function is_manifest_filename(file::AbstractString)
     return is_manifest && is_toml
 end
 
-function _shorten_manifest_version_master(manifest_filename::AbstractString)
+function _shorten_manifest_version_master(; manifest_filename::AbstractString)
     julia_version_key = "julia_version"
     manifest_dict = TOML.parsefile(manifest_filename)
     old_julia_version = get(manifest_dict, julia_version_key, nothing)
@@ -35,11 +35,9 @@ function shorten_manifest_version_master(dir::AbstractString)
             if is_manifest_filename(file)
                 manifest_filename = joinpath(root, file)
                 @info "Checking manifest file at $(manifest_filename)"
-                _shorten_manifest_version_master(manifest_filename)
+                _shorten_manifest_version_master(; manifest_filename)
             end
         end
     end
     return nothing
 end
-
-shorten_manifest_version_master(@__DIR__)

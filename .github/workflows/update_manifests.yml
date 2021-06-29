@@ -60,8 +60,13 @@ jobs:
       - run: .ci/instantiate.sh
       - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.update()'
       - run: |
-          file = abspath(".ci", "shorten_manifest_version_master.jl")
-          ispath(file) && include(file)
+          if Base.VERSION >= v"1.6"
+              file = abspath(".ci", "shorten_manifest_version_master.jl")
+              if ispath(file)
+                  include(file)
+                  shorten_manifest_version_master(abspath(".ci"))
+              end              
+          end
         shell: julia --color=yes {0}
       - run: mv .ci/Manifest.toml .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml
       - run: git status
