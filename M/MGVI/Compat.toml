@@ -17,16 +17,24 @@ ValueShapes = "0.7"
 Distributions = "0.23-0.24"
 
 ["0.2-0"]
-ChainRulesCore = "0.9"
 DistributionsAD = "0.6"
 IterativeSolvers = "0.8-0.9"
 LinearMaps = "3"
 StaticArrays = ["0.12", "1"]
 Zygote = "0.5.14-0.6"
 
+["0.2-0.2.3"]
+ChainRulesCore = "0.9"
+
 ["0.2.1-0.2.2"]
 ValueShapes = "0.7-0.8"
 
+["0.2.3"]
+ValueShapes = "0.7-0.9"
+
 ["0.2.3-0"]
 Distributions = "0.23-0.25"
-ValueShapes = "0.7-0.9"
+
+["0.2.4-0"]
+ChainRulesCore = "0.9.44-0.10"
+ValueShapes = "0.9"
