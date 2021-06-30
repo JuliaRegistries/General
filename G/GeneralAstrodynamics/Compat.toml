@@ -12,7 +12,6 @@ Reexport = ["0.2", "1"]
 Roots = "1"
 SciMLBase = "1.10.0-1"
 StaticArrays = ["0.12", "1"]
-Symbolics = "0.1"
 Unitful = "1.4.0-1"
 UnitfulAngles = "0.6"
 UnitfulAstro = "1"
@@ -22,7 +21,13 @@ julia = "1"
 ComponentArrays = "0.8-0.9"
 SymbolicUtils = "0.10-0.11"
 
+["0-0.9.3"]
+Symbolics = "0.1"
+
 ["0.9.3-0"]
 AstrodynamicalModels = "0.2.5-0.2"
 ComponentArrays = "0.8-0.10"
 SymbolicUtils = ["0.10-0.11", "0.13"]
+
+["0.9.4-0"]
+Symbolics = ["0.1", "1"]
