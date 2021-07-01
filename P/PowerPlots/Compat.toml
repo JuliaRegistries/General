@@ -9,14 +9,20 @@ julia = "1"
 ["0-0.1"]
 Plots = "1"
 
+["0.2"]
+DataFrames = "0.21-0.22"
+OMEinsum = "0.3"
+
 ["0.2-0"]
 ColorSchemes = "3"
-DataFrames = "0.21-0.22"
 GeometryBasics = "0.3"
 Memento = "1"
 NLopt = "0.6"
 NetworkLayout = "0.3"
-OMEinsum = "0.3"
 RecursiveArrayTools = "2"
 Setfield = "0.7"
 VegaLite = "2"
+
+["0.3-0"]
+DataFrames = ["0.21-0.22", "1"]
+OMEinsum = "0.3-0.4"
