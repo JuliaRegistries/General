@@ -1,6 +1,5 @@
 [0]
 HypergeometricFunctions = "0.3.4-0.3"
-julia = "1.5.0-1"
 
 ["0-0.0.1"]
 ArrayLayouts = "0.4"
@@ -15,13 +14,15 @@ SpecialFunctions = "0.10"
 ["0-0.0.2"]
 OrthogonalPolynomialsQuasi = "0.4"
 
+["0-0.1"]
+julia = "1.5.0-1"
+
 ["0.0.2"]
 ContinuumArrays = "0.4"
 QuasiArrays = "0.3.8-0.3"
 
 ["0.0.2-0"]
 BandedMatrices = "0.16"
-SpecialFunctions = ["0.10", "1"]
 
 ["0.0.2-0.0.3"]
 ArrayLayouts = "0.5.1-0.5"
@@ -30,6 +31,9 @@ InfiniteArrays = "0.8-0.9"
 ["0.0.2-0.0.4"]
 FillArrays = "0.11"
 LazyArrays = "0.20"
+
+["0.0.2-0.1"]
+SpecialFunctions = ["0.10", "1"]
 
 ["0.0.3"]
 ClassicalOrthogonalPolynomials = "0.1"
@@ -53,10 +57,12 @@ LazyArrays = "0.21"
 
 ["0.0.5-0"]
 FillArrays = "0.11.5-0.11"
-InfiniteArrays = "0.10.2-0.10"
 
 ["0.0.5-0.0.6"]
 ClassicalOrthogonalPolynomials = "0.3"
+
+["0.0.5-0.1"]
+InfiniteArrays = "0.10.2-0.10"
 
 ["0.0.6"]
 ContinuumArrays = "0.6.4-0.6"
@@ -72,12 +78,21 @@ ContinuumArrays = "0.7"
 ["0.0.7-0.1.1"]
 QuasiArrays = "0.5"
 
-["0.1-0"]
+["0.1"]
 ArrayLayouts = "0.6-0.7"
 
-["0.1.1-0"]
+["0.1.1-0.1"]
 ClassicalOrthogonalPolynomials = "0.3.5-0.4"
 ContinuumArrays = "0.7-0.8"
 
-["0.1.2-0"]
+["0.1.2-0.1"]
 QuasiArrays = "0.5-0.6"
+
+["0.2-0"]
+ArrayLayouts = "0.7"
+ClassicalOrthogonalPolynomials = "0.4.2-0.4"
+ContinuumArrays = "0.8"
+InfiniteArrays = "0.11"
+QuasiArrays = "0.6"
+SpecialFunctions = "1"
+julia = "1.6.0-1"
