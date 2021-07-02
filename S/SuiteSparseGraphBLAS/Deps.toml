@@ -1,13 +1,24 @@
 [0]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.3"]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 ["0-0.3.2"]
 BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 
-["0.2-0"]
+["0.2-0.3"]
 GraphBLASInterface = "5f047416-9681-11e9-0804-033d9936201f"
 
-["0.3.3-0"]
+["0.3.3-0.3"]
 SuiteSparseGraphBLAS_jll = "44cc8b2a-fe03-5802-9b90-2102cf0b4e7e"
+
+["0.4-0"]
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+ContextVariablesX = "6add18c4-b38d-439d-96f6-d6bc489c04c5"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SSGraphBLAS_jll = "7ed9a814-9cab-54e9-8e9e-d9e95b4d61b1"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
