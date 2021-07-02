@@ -93,8 +93,14 @@ ModelingToolkit = "4.0.8-5"
 Compat = "3"
 DataInterpolations = "3"
 DiffEqBase = "6"
-ModelingToolkit = "5"
 ProgressMeter = "1.6.0-1"
 Reexport = "1"
-Symbolics = "0.1"
 julia = "1.6.0-1"
+
+["0.6.0"]
+ModelingToolkit = "5"
+Symbolics = "0.1"
+
+["0.6.1-0"]
+ModelingToolkit = "5.20.0-5"
+Symbolics = "0.1.32-0.1"
