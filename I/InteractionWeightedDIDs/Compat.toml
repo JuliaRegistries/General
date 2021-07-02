@@ -1,5 +1,4 @@
 [0]
-FixedEffectModels = "1.4.0-1"
 FixedEffects = "2"
 Reexport = ["0.2", "1"]
 StatsBase = "0.33"
@@ -15,6 +14,16 @@ SplitApplyCombine = "1.1.0-1"
 TypedTables = "1.2.0-1"
 Vcov = "0.4"
 
+["0-0.2.0"]
+FixedEffectModels = "1.4.0-1"
+
 ["0.2-0"]
-DiffinDiffsBase = "0.3"
 Vcov = "0.4.1-0.4"
+
+["0.2.0"]
+DiffinDiffsBase = "0.3"
+
+["0.2.1-0"]
+DataAPI = "1.5.0-1"
+DiffinDiffsBase = "0.3.3-0.3"
+FixedEffectModels = "1.5.0-1"
