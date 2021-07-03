@@ -1,5 +1,7 @@
 [0]
 HDF5 = "0.15"
+
+["0-0.1"]
 Plots = "1.11.0-1"
 
 ["0-0.1.0"]
@@ -8,12 +10,26 @@ Pluto = "0.12"
 julia = "1.5.0-1"
 
 ["0.1.1-0"]
-BenchmarkTools = "0.7"
 Pluto = "0.14"
 julia = "1.6.0-1"
+
+["0.1.1-0.1"]
+BenchmarkTools = "0.7"
 
 ["0.1.2-0"]
 DataDeps = "0.7"
 
-["0.1.4-0"]
+["0.1.4-0.1"]
 DisplayAs = "0.1"
+
+["0.2-0"]
+Colors = "0.12"
+Crayons = "4"
+DynamicHMC = "3"
+ForwardDiff = "0.10"
+JLD2 = "0.4"
+KernelDensity = "0.6"
+LogDensityProblems = "0.10"
+Parameters = "0.12"
+Plots = "1.16.0-1"
+TransformVariables = "0.4"
