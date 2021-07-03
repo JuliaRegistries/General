@@ -174,19 +174,6 @@ not a curated list of Julia packages. In particular this means that:
    you install through the General registry -- you are responsible for reviewing your
    code dependencies.
 
-## Tips for registry maintainers
-
-### Enabling/disabling AutoMerge
-
-To enable/disable automerge, make a pull request to edit the
-[`.github/workflows/automerge.yml`](.github/workflows/automerge.yml) file. Specifically, you want
-to edit the lines near the bottom of the file that look like this:
-```yaml
-        env:
-          MERGE_NEW_PACKAGES: true
-          MERGE_NEW_VERSIONS: true
-```
-
 [pkg]: https://julialang.github.io/Pkg.jl/v1/
 [registrator]: https://github.com/JuliaRegistries/Registrator.jl
 [registrator-app]: https://github.com/JuliaRegistries/Registrator.jl#via-the-github-app
