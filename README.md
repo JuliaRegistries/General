@@ -131,7 +131,7 @@ has the same effect.
 
  - Follow the instructions above for renaming a package: rename on GitHub, rename files etc.
     - if you rename the repository so it has a new URL, make a PR to edit the URL stored in the
-      registry for the old package name to point to the new URL ([example](https://github.com/JuliaRegistries/General/pull/11578/files)).
+      registry for the old package name to point to the new URL ([example](https://github.com/JuliaRegistries/General/pull/40190/files)).
       This allows the old versions of the package under the previous name to continue to work.
  - Generate a new UUID for the Project.toml
  - Increment the version in the Project.toml as a breaking change.
