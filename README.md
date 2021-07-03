@@ -126,10 +126,13 @@ As long as the package is not yet registered, renaming the package from
 #### How do I rename an existing registered package?
 
 Technically, you can't rename a package once registered, as this would break existing users.
-But you can re-register the package again under a new name with a new UUID.
-Which has basically the same effect.
+But you can re-register the package again under a new name with a new UUID, which basically
+has the same effect.
 
  - Follow the instructions above for renaming a package: rename on GitHub, rename files etc.
+    - if you rename the repository so it has a new URL, make a PR to edit the URL stored in the
+      registry for the old package name to point to the new URL ([example](https://github.com/JuliaRegistries/General/pull/40190/files)).
+      This allows the old versions of the package under the previous name to continue to work.
  - Generate a new UUID for the Project.toml
  - Increment the version in the Project.toml as a breaking change.
  - [Register](#registering-a-package-in-general) it as if it were a new package
