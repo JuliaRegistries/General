@@ -15,8 +15,10 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [0-1]
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
-NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0-1.1"]
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 
 ["0.4-0"]
 CausalityToolsBase = "b1f25513-c649-51ee-8a1c-0e98d01ae897"
@@ -33,3 +35,7 @@ TimeseriesSurrogates = "c804724b-8c18-5caa-8579-6025a0767c70"
 [1]
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 Entropies = "ed8fcbec-b94c-44b6-89df-898894ad9591"
+
+["1.2-1"]
+Neighborhood = "645ca80c-8b79-4109-87ea-e1f58159d116"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
