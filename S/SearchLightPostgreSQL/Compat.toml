@@ -1,11 +1,11 @@
-[0]
-LibPQ = "1"
-julia = "1"
-
 ["0-0.2.1"]
 DataFrames = "0.20"
 Revise = "2"
 SearchLight = "0.0.0 - 0.19"
+
+[0-1]
+LibPQ = "1"
+julia = "1"
 
 ["0.2.2-0.2"]
 SearchLight = "0.20"
@@ -19,3 +19,7 @@ SearchLight = "0.21"
 ["0.4-0"]
 DataFrames = "0.22"
 SearchLight = "0.22"
+
+[1]
+DataFrames = "1"
+SearchLight = "1"
