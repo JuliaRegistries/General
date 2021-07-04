@@ -87,12 +87,19 @@ TimeseriesSurrogates = ["0.5.1-0.5", "1"]
 DSP = "0.6.9-0.6"
 DelayEmbeddings = "1.17.0-1"
 Distances = "0.10"
+StaticArrays = "1"
+
+["1-1.1"]
 Entropies = "0.11"
 NearestNeighbors = "0.4"
-StaticArrays = "1"
 
 ["1.0"]
 SpecialFunctions = "0.8-0.10"
 
 ["1.1-1"]
 SpecialFunctions = ["0.8-0.10", "1.2.0-1"]
+
+["1.2-1"]
+Entropies = "0.12.1-0.12"
+Neighborhood = "0.2"
+Reexport = ["0.2-0.3", "1"]
