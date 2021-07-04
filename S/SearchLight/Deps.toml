@@ -1,14 +1,5 @@
 [0]
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DataStreams = "9a8bc11e-79be-5b39-94d7-1ccc349a1a85"
-Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
-Millboard = "39ec1447-df44-5f4c-beaa-866f30b4d3b2"
-OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
-Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
-YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 
 ["0-0.11"]
 MiniLogging = "f59402ec-0262-5707-a561-770af94bc5a6"
@@ -32,8 +23,22 @@ Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 Codecs = "19ecbf4d-ef7c-5e4b-b54a-0a0ff23c5aed"
 IterableTables = "1c8ee90f-4401-5389-894e-7a04a3dc0f4d"
 
-["0.12-0"]
+[0-1]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+Millboard = "39ec1447-df44-5f4c-beaa-866f30b4d3b2"
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
+Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+
+["0.12-1"]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
 ["0.14-0.17"]
 Crayons = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
+
+[1]
+Inflector = "6d011eab-0732-4556-8808-e463c76bf3b6"
