@@ -21,16 +21,27 @@ DiffRules = "0.0"
 ["0.12.0"]
 FDM = "0.1.0 - 0.6"
 
-["0.12.1-0"]
+["0.12.1-0.12"]
 FDM = "0.6"
 
 ["0.12.2-0"]
-DualNumbers = "0.6"
-SpecialFunctions = ["0.5-0.10", "1"]
 julia = "1.3.0-1"
 
-["0.12.3-0"]
+["0.12.2-0.12"]
+DualNumbers = "0.6"
+SpecialFunctions = ["0.5-0.10", "1"]
+
+["0.12.3-0.12"]
 DiffRules = ["0.0", "1"]
+
+["0.13-0"]
+ChainRules = "0.8"
+ChainRulesCore = "0.10.9-0.10"
+ChainRulesOverloadGeneration = "0.1.2-0.1"
+ExprTools = "0.1.4-0.1"
+FDM = "0.6.1-0.6"
+ForwardDiff = "0.10.12-0.10"
+SpecialFunctions = "1.5.1-1"
 
 ["0.2-0.12.1"]
 DualNumbers = "0.6.0 - 0.6"

@@ -1,8 +1,18 @@
 [0]
-DiffRules = "b552c78f-8df3-52c6-915a-8e097449b14b"
-DualNumbers = "fa6b7ba4-c1ee-5f82-b5fc-ecf0adba8f74"
 FDM = "e25cca7e-83ef-51fa-be6c-dfe2a3123128"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0-0.12"]
+DiffRules = "b552c78f-8df3-52c6-915a-8e097449b14b"
+DualNumbers = "fa6b7ba4-c1ee-5f82-b5fc-ecf0adba8f74"
+
+["0.13-0"]
+ChainRules = "082447d4-558c-5d27-93f4-14fc19e9eca2"
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+ChainRulesOverloadGeneration = "f51149dc-2911-5acf-81fc-2076a2a81d4f"
+ExprTools = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 ["0.2-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
