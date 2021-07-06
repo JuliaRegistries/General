@@ -1,12 +1,10 @@
 [0]
 AutoHashEquals = "0.2"
-Compat = "3.1.0-3"
 ConstructionBase = "1"
 EquationsOfState = "4"
 LsqFit = "0.8-0.12"
 PolynomialRoots = "1"
 Polynomials = ["0.8", "1-2"]
-Roots = ["0.8", "1"]
 UnPack = "1"
 Unitful = ["0.18", "1"]
 julia = "1"
@@ -14,5 +12,9 @@ julia = "1"
 ["0-0.1.0"]
 Configurations = "0.3-0.15"
 
-["0.1.1-0"]
+["0-0.1.1"]
+Compat = "3.1.0-3"
+Roots = ["0.8", "1"]
+
+["0.1.1"]
 Configurations = "0.3-0.16"
