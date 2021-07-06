@@ -1,5 +1,4 @@
 [0]
-LinearOperators = ["0.7", "1"]
 julia = "1"
 
 ["0-0.2"]
@@ -9,11 +8,21 @@ NLPModels = "0.13"
 ["0-0.3"]
 Requires = "0.3-0.5"
 
+["0-0.4"]
+LinearOperators = ["0.7", "1"]
+
 ["0.3"]
 NLPModels = "0.14"
 NLPModelsModifiers = "0.1"
 
-["0.4-0"]
+["0.4"]
 NLPModels = "0.15"
 NLPModelsModifiers = "0.2"
+
+["0.4-0"]
 Requires = ["0.3-0.5", "1"]
+
+["0.5-0"]
+LinearOperators = "2"
+NLPModels = "0.17"
+NLPModelsModifiers = "0.4"
