@@ -14,10 +14,18 @@ IntervalArithmetic = "0.15.0 - 0.15"
 RecipesBase = "0.6.0 - 0.6"
 StaticArrays = "0.10.0 - 0.10"
 
-["0.1.4-0"]
+["0.1.4-0.1"]
 ConvexBodyProximityQueries = "0.1"
 DataStructures = "0.15"
 IntervalArithmetic = "0.15"
 RecipesBase = "0.6"
 StaticArrays = "0.10"
 julia = "1.1.0-1"
+
+["0.2-0"]
+ConvexBodyProximityQueries = "0.1-0.2"
+DataStructures = "0.15-0.18"
+IntervalArithmetic = "0.15-0.18"
+RecipesBase = ["0.6-0.8", "1"]
+StaticArrays = ["0.10-0.12", "1"]
+julia = "1.4.0-1"
