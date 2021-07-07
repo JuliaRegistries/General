@@ -1,7 +1,14 @@
 [0]
-Compat = "0.0.0 - 3"
-ParserCombinator = "0.0.0 - 2"
 julia = "1"
 
-["0.2-0"]
+["0-0.2"]
+Compat = "0.0.0 - 3"
+ParserCombinator = "0.0.0 - 2"
+
+["0.2"]
 StaticArrays = "0.0.0 - 0.12"
+
+["0.3-0"]
+AutoHashEquals = "0.2"
+Compat = "3.31.0-3"
+ParserCombinator = "2"
