@@ -1,6 +1,5 @@
 [0]
 ColorSchemes = "3"
-ImageMagick = "1"
 
 ["0-0.3"]
 Luxor = "2"
@@ -14,6 +13,9 @@ Combinatorics = "1"
 ["0-0.5.2"]
 Colors = "0.12"
 ImageTransformations = "0.8"
+
+["0-0.6"]
+ImageMagick = "1"
 
 ["0.4-0"]
 Luxor = "2.8.0-2"
@@ -31,5 +33,9 @@ Stuffing = "0.1-0.2"
 ["0.6.1-0.6.8"]
 Stuffing = "0.1-0.3"
 
-["0.6.9-0"]
+["0.6.9-0.6"]
 Stuffing = "0.3"
+
+["0.7-0"]
+ImageMagick = ["0.6-0.9", "1"]
+Stuffing = "0.3.7-0.3"
