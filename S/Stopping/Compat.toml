@@ -3,8 +3,10 @@ NLPModels = ["0.10", "1"]
 julia = "1"
 
 ["0.3-0"]
-LinearOperators = "1"
 julia = "1.3.0-1"
+
+["0.3-0.3.4"]
+LinearOperators = "1"
 
 ["0.3.0"]
 DataFrames = "0.21"
@@ -27,7 +29,14 @@ SolverTools = "0.4-0.5"
 ["0.3.3-0"]
 DataFrames = ["0.22", "1"]
 
-["0.3.4-0"]
+["0.3.4"]
 LLSModels = "0.1-0.2"
 NLPModels = "0.14-0.15"
+
+["0.3.4-0"]
 SolverTools = "0.4-0.6"
+
+["0.3.5-0"]
+LLSModels = "0.1-0.3"
+LinearOperators = "1-2"
+NLPModels = ["0.14-0.15", "0.17"]
