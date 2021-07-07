@@ -1,8 +1,16 @@
 [1]
 CSVFiles = ["0.16", "1"]
-DataFrames = "0.19.1-0.22"
-Distributions = "0.20-0.24"
 ExcelReaders = "0.11"
-Mimi = ["0.10", "1"]
 Query = ["0.12", "1"]
 julia = "1.4.0-1"
+
+["1-1.7"]
+DataFrames = "0.19.1-0.22"
+Distributions = "0.20-0.24"
+Mimi = ["0.10", "1"]
+
+["1.8-1"]
+DataFrames = ["0.19.1-0.22", "1"]
+Distributions = "0.20-0.25"
+Mimi = "1.3.0-1"
+StatsBase = "0.32-0.33"
