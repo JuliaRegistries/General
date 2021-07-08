@@ -2,7 +2,6 @@
 BenchmarkTools = "0.5"
 ForwardDiff = "0.10"
 Parameters = "0.12"
-StaticArrays = "1"
 julia = "1"
 
 ["0-0.1.0"]
@@ -12,6 +11,9 @@ Plots = "1.10.0-1"
 RobotDynamics = "0.3"
 TrajectoryOptimization = "0.4"
 
+["0-0.1.5"]
+StaticArrays = "1"
+
 ["0.1.1-0.1.2"]
 Altro = "0.3"
 
@@ -19,3 +21,8 @@ Altro = "0.3"
 Altro = "0.3.0"
 RobotDynamics = "0.3.1"
 TrajectoryOptimization = "0.4.1"
+
+["0.1.6-0"]
+RecipesBase = "1.1.0-1"
+Rotations = "1"
+StaticArrays = "1.2.0-1"
