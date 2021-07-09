@@ -1,12 +1,14 @@
 [0]
 CodecZlib = "0.6-0.7"
-MD5 = "0.2.1-0.2"
 Mixers = "0.1"
 Parameters = "0.12"
 julia = "1"
 
 ["0-0.1.5"]
 StaticArrays = "0.12"
+
+["0-0.2.1"]
+MD5 = "0.2.1-0.2"
 
 ["0.1.4-0.1.5"]
 DataFrames = "0.21"
@@ -27,3 +29,7 @@ Memoization = "0.1.10-0.1"
 
 ["0.2-0"]
 CodecZstd = "0.6-0.7"
+
+["0.2.2-0"]
+Tables = "1"
+TypedTables = "1"
