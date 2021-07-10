@@ -1,11 +1,18 @@
-[0]
-Distances = "0.0.0 - 0.9"
-NearestNeighbors = "0.0.0 - 0.4"
-
 ["0-0.3.2"]
 Combinatorics = "0.0.0 - 0.7"
 julia = ["0.7", "1"]
 
+["0-0.3.5"]
+Distances = "0.0.0 - 0.9"
+NearestNeighbors = "0.0.0 - 0.4"
+
 ["0.3.3-0"]
-Combinatorics = "0.0.0 - 1"
 julia = "1"
+
+["0.3.3-0.3.5"]
+Combinatorics = "0.0.0 - 1"
+
+["0.3.6-0"]
+Combinatorics = "1"
+Distances = "0.9-0.10"
+NearestNeighbors = "0.4"
