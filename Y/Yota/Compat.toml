@@ -58,10 +58,16 @@ CUDA = "1.2.1-1"
 ["0.4.2-0.4"]
 CUDA = ["1.2.0-1", "2.3.0-2"]
 
+["0.5"]
+Ghost = "0.1"
+
 ["0.5-0"]
 ChainRules = "0.8"
 ChainRulesCore = "0.10"
 FiniteDifferences = "0.12"
-Ghost = "0.1"
 OrderedCollections = "1.4.0-1"
 julia = "1.6.0-1"
+
+["0.6-0"]
+Ghost = "0.2"
+NNlib = "0.7"
