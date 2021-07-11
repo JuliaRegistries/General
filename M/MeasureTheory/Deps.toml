@@ -1,6 +1,5 @@
 [0]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-DistributionsAD = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
 MLStyle = "d8e11817-5142-5d16-987a-aa16d5891078"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
@@ -19,10 +18,12 @@ Bijectors = "76274a88-744f-5084-9051-94815aaf08c4"
 ["0-0.4"]
 KeywordDispatch = "5888135b-5456-5c80-a1b6-c91ef8180460"
 
+["0-0.8"]
+DistributionsAD = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
+
 ["0.2.3-0"]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 InfiniteArrays = "4858937d-0d70-526a-a4dd-2d5cb5dd786c"
-IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NestedTuples = "a734d2a7-8d68-409b-9419-626914d4061d"
 
@@ -30,9 +31,14 @@ NestedTuples = "a734d2a7-8d68-409b-9419-626914d4061d"
 LazyArrays = "5078a376-72f3-5289-bfd5-ec5146d43c02"
 StrideArrays = "d1fa6d79-ef01-42a6-86c9-f7c551f8593b"
 
+["0.2.3-0.8"]
+IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
+
 ["0.4-0"]
-IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
 MonteCarloMeasurements = "0987c9cc-fe09-11e8-30f0-b96dd679fdca"
+
+["0.4-0.8"]
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
 RandomNumbers = "e6cf234a-135c-5ec9-84dd-332b85af5143"
 
 ["0.5-0"]
@@ -51,3 +57,8 @@ SimpleTraits = "699a6c99-e7fa-54fc-8d76-47d257e15c1d"
 
 ["0.8-0"]
 PositiveFactorizations = "85a6dd25-e78a-55b7-8502-1745935b8125"
+
+["0.9-0"]
+ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+Tricks = "410a4b4d-49e4-4fbc-ab6d-cb71b17b3775"
