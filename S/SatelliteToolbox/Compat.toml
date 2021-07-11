@@ -66,20 +66,22 @@ ReferenceFrameRotations = "0.5"
 ["0.6.4-0.8.0"]
 RemoteFiles = "0.3"
 
-["0.6.5-0"]
-OptionalData = "0.3"
-
 ["0.6.5-0.7.2"]
 PrettyTables = "0.0.0 - 0.9"
+
+["0.6.5-0.9.0"]
+OptionalData = "0.3"
 
 ["0.7.3-0.7"]
 PrettyTables = "0.10"
 
 ["0.8-0"]
-Interpolations = "0.13"
 PolynomialRoots = "1"
 Reexport = "1"
 StaticArrays = "1"
+
+["0.8-0.9.0"]
+Interpolations = "0.13"
 
 ["0.8.0"]
 PrettyTables = "0.11"
@@ -93,3 +95,7 @@ RemoteFiles = "0.4.1-0.4"
 ["0.9-0"]
 ReferenceFrameRotations = ["0.5", "1"]
 RemoteFiles = "0.4.2-0.4"
+
+["0.9.1-0"]
+Interpolations = "0.13.3-0.13"
+OptionalData = ["0.3", "1"]
