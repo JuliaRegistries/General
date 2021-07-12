@@ -7,7 +7,6 @@ Stan = "682df890-35be-576f-97d0-3d8c8b33a550"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [0-2]
-ApproxBayes = "f5f396d3-230c-5e07-80e6-9fadf06146cc"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
@@ -18,6 +17,9 @@ Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
 Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
+
+["0-2.25"]
+ApproxBayes = "f5f396d3-230c-5e07-80e6-9fadf06146cc"
 
 ["0-2.6"]
 ParameterizedFunctions = "65888b18-ceab-5e60-b2b9-181511a3b968"
@@ -47,6 +49,9 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 DynamicHMC = "bbc10e6e-7c05-544b-b16e-64fede858acb"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["2.26-2"]
+StanSample = "c1514b29-d3a0-5178-b312-660c88baa699"
 
 ["2.7-2"]
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
