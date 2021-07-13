@@ -1,7 +1,6 @@
 [0]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 GeometricFlux = "7e08b658-56d3-11e9-2997-919d5b31e4ea"
 GraphSignals = "3ebe565e-a4b5-49c6-aed2-300248c3a9c1"
@@ -12,10 +11,21 @@ MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
 ProgressBars = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 ReinforcementLearning = "158674fc-8238-5cab-b5ba-03dfc80d1318"
+SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["0-0.2"]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 ReinforcementLearningBase = "e575027e-6cd6-5018-9292-cdc6200d2b44"
 ReinforcementLearningCore = "de1b191a-4ae0-4afa-a27b-92d07f46b2d6"
 ReinforcementLearningZoo = "d607f57d-ee1e-4ba7-bcf2-7734c1e31854"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
-SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["0.3-0"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
+RollingFunctions = "b0e4dd01-7b14-53d8-9b45-175a3e362653"
