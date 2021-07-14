@@ -34,5 +34,10 @@ ForwardDiff = "0.10"
 Gadfly = "1"
 Mamba = "0.12"
 NLSolversBase = "7"
-Optim = "0.20-0.22"
 ProgressMeter = "1"
+
+["0.2.0"]
+Optim = "0.20-0.22"
+
+["0.2.1-0"]
+Optim = ["0.20-0.22", "1"]
