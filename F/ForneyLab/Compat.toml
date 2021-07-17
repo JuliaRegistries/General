@@ -13,10 +13,18 @@ julia = "1.0.0-*"
 ["0.11.1-0"]
 Documenter = "0.25.2-0.25"
 ForwardDiff = "0.10.12-0.10"
-SpecialFunctions = ["0.8", "0.10.3-0.10"]
-StatsBase = "0.33.1-0.33"
 StatsFuns = "0.9.5-0.9"
 julia = "1"
+
+["0.11.1-0.11.2"]
+SpecialFunctions = ["0.8", "0.10.3-0.10"]
+StatsBase = "0.33.1-0.33"
+
+["0.11.3-0"]
+DataStructures = "0.17-0.18"
+PositiveFactorizations = "0.2"
+SpecialFunctions = ["0.8", "0.10.3-0.10", "1"]
+StatsBase = ["0.32.2-0.32", "0.33.1-0.33"]
 
 ["0.9.2-0.10"]
 julia = ["0.7.0", "1"]
