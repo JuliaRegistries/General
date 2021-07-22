@@ -19,7 +19,6 @@ DataFrames = "0.21"
 JLD2 = "0.1-0.2"
 
 ["0.1-0"]
-MultipleTesting = "0.4"
 ProgressMeter = "1.4.0-1"
 Requires = "1.1.0-1"
 StatsBase = "0.33"
@@ -34,6 +33,9 @@ StaticArrays = "0.12"
 ["0.1-0.6.3"]
 Distributions = "0.23-0.24"
 
+["0.1-0.6.4"]
+MultipleTesting = "0.4"
+
 ["0.4"]
 JLD2 = "0.1-0.3"
 
@@ -44,10 +46,21 @@ CSV = "0.7-0.8"
 DataFrames = "0.21-0.22"
 
 ["0.4.3-0"]
-PooledArrays = ["0.5", "1.1.0-1"]
 RandomNumbers = "1.4.0-1"
+
+["0.4.3-0.6.4"]
+PooledArrays = ["0.5", "1.1.0-1"]
 StaticArrays = ["0.12", "1"]
 
-["0.6.4-0"]
+["0.6.4"]
 DataFrames = ["0.21-0.22", "1"]
+
+["0.6.4-0"]
 Distributions = "0.23-0.25"
+
+["0.6.5-0"]
+DataFrames = "1"
+MultipleTesting = "0.4-0.5"
+NaturalSort = "1"
+PooledArrays = "1.1.0-1"
+StaticArrays = "1"
