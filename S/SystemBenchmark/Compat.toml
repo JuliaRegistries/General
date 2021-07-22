@@ -1,6 +1,8 @@
 [0]
-BenchmarkTools = "0.5"
 GitHub = "5.1.0-5"
+
+["0-0.3"]
+BenchmarkTools = "0.5"
 julia = "1"
 
 ["0-0.3.2"]
@@ -25,6 +27,15 @@ CUDA = "1.1.0-1"
 
 ["0.3.5-0"]
 CSV = "0.6-0.8"
+
+["0.3.5-0.3"]
 CUDA = "1.1.0-2"
 DataFrames = "0.21-0.22"
 VideoIO = "0.6.11-0.8"
+
+["0.4-0"]
+BenchmarkTools = ["0.5-0.7", "1"]
+CUDA = "1.1.0-3"
+DataFrames = ["0.21-0.22", "1"]
+VideoIO = "0.9"
+julia = "1.6.0-1"
