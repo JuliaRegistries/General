@@ -7,9 +7,18 @@ DataStructures = "0.17"
 GZip = "0.5"
 Geodesy = "0.5"
 JSON = "0.21"
-JSONSchema = "0.2"
 JuMP = "0.21"
 MathOptInterface = "0.9"
 PackageCompiler = "1"
 ProgressBars = "0.6"
 julia = "1"
+
+["0-0.5.0"]
+JSONSchema = "0.2"
+
+["0.5.1-0"]
+CRC = "4"
+JSONSchema = "0.3"
+OrderedCollections = "1.4.0-1"
+Shapefile = "0.7"
+ZipFile = "0.9"
