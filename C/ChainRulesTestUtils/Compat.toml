@@ -1,23 +1,23 @@
-[0]
-julia = "1"
-
 ["0-0.1"]
 ChainRulesCore = "0.5-0.6"
 
 ["0-0.2.0"]
 FiniteDifferences = "0.7-0.9"
 
+[0-1]
+julia = "1"
+
 ["0.2.0"]
 ChainRulesCore = "0.7"
-
-["0.2.1-0"]
-Compat = "3"
 
 ["0.2.1-0.2"]
 ChainRulesCore = "0.7.1-0.7"
 
 ["0.2.1-0.3.0"]
 FiniteDifferences = "0.9"
+
+["0.2.1-1"]
+Compat = "3"
 
 ["0.3"]
 ChainRulesCore = "0.8"
@@ -52,8 +52,11 @@ ChainRulesCore = "0.9.39-0.9"
 ["0.7-0.7.8"]
 ChainRulesCore = "0.10"
 
-["0.7.7-0"]
+["0.7.7-1"]
 FiniteDifferences = "0.12.12-0.12"
 
 ["0.7.9-0"]
 ChainRulesCore = "0.10.4-0.10"
+
+[1]
+ChainRulesCore = "1"
