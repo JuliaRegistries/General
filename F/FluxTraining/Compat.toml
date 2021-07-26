@@ -24,8 +24,10 @@ PrettyTables = "0.10"
 
 ["0.1.1-0"]
 DataStructures = "0.18"
-ImageCore = "0.8"
 Zygote = "0.6"
+
+["0.1.1-0.2.0"]
+ImageCore = "0.8"
 
 ["0.1.2-0"]
 Flux = "0.11-0.12"
@@ -38,5 +40,11 @@ BSON = "0.2-0.3"
 
 ["0.2-0"]
 EarlyStopping = "0.1"
-PrettyTables = "0.10-0.12"
 Reexport = "1"
+
+["0.2.0"]
+PrettyTables = "0.10-0.12"
+
+["0.2.1-0"]
+ImageCore = "0.8-0.9"
+PrettyTables = ["0.10-0.12", "1"]
