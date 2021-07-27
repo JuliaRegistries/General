@@ -15,11 +15,17 @@ PooledArrays = "0.5"
 PopGen = ["0.0.3", "0.1", "0.4"]
 StaticArrays = ["0.12", "1"]
 
-["0.0.3-0"]
+["0.0.3-0.0"]
 DataFrames = "0.21-0.22"
 
 ["0.0.4-0"]
 PooledArrays = "1"
+StaticArrays = "1"
+
+["0.0.4-0.0"]
 PopGen = "0.4"
 RandomNumbers = "1.4.0-1"
-StaticArrays = "1"
+
+["0.1-0"]
+DataFrames = "1"
+PopGen = "0.6"
