@@ -24,9 +24,14 @@ JSON2 = "0.3"
 MD5 = "0.2"
 julia = "1.2.0-1"
 
+["0.1.4"]
+PlotlyBase = "0.3-0.5"
+
 ["0.1.4-0"]
 DashCoreComponents = "1.16.0-1"
 DashHtmlComponents = "1.1.3-1"
 DashTable = "4.11.3-4"
 HTTP = "0.8.10-0.9"
-PlotlyBase = "0.3-0.5"
+
+["0.1.5-0"]
+PlotlyBase = ["0.3-0.5", "0.8"]
