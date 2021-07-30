@@ -96,20 +96,20 @@ AbstractAlgebra = "0.11.1-0.11"
 ["0.19"]
 AbstractAlgebra = "0.12"
 
-["0.19-0"]
-Arb_jll = "200.1900"
-LoadFlint = "0.5"
-
 ["0.19-0.20.0"]
 FLINT_jll = "200.700"
 
 ["0.19-0.22"]
 Antic_jll = "0.200.300-0.200"
 
+["0.19-0.25"]
+Arb_jll = "200.1900"
+LoadFlint = "0.5"
+
 ["0.20"]
 AbstractAlgebra = "0.13"
 
-["0.20.1-0"]
+["0.20.1-0.25"]
 FLINT_jll = "200.700.0-200"
 
 ["0.21"]
@@ -121,7 +121,7 @@ AbstractAlgebra = "0.15"
 ["0.22.1-0.22"]
 AbstractAlgebra = "0.16"
 
-["0.23-0"]
+["0.23-0.25"]
 Antic_jll = "0.200.400-0.200"
 
 ["0.23.0"]
@@ -134,11 +134,19 @@ Calcium_jll = "0.300"
 ["0.24"]
 AbstractAlgebra = "0.18"
 
-["0.24-0"]
+["0.24-0.25"]
 Calcium_jll = "0.400"
 
 ["0.25.0"]
 AbstractAlgebra = "0.19"
 
-["0.25.1-0"]
+["0.25.1-0.25"]
 AbstractAlgebra = "0.20"
+
+["0.26-0"]
+AbstractAlgebra = "0.21"
+Antic_jll = "0.200.500-0.200"
+Arb_jll = "200.2000"
+Calcium_jll = "0.400.100-0.400"
+FLINT_jll = "200.800.0-200"
+LoadFlint = "0.6"
