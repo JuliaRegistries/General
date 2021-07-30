@@ -18,11 +18,11 @@ Unitful = "0.12-0.18"
 ["0.11-0"]
 Unitful = ["0.12-0.18", "1"]
 
-["0.11.1-0"]
-StructArrays = "0.4"
-
 ["0.11.1-0.12.1"]
 LoopVectorization = "0.6.11-0.6"
+
+["0.11.1-0.15.0"]
+StructArrays = "0.4"
 
 ["0.12"]
 FixedPointSinCosApproximations = "0.1"
@@ -44,6 +44,9 @@ FixedPointSinCosApproximations = "0.2"
 
 ["0.14"]
 LoopVectorization = "0.8-0.11"
+
+["0.15.1-0"]
+CUDA = "3"
 
 ["0.9.2-0.12.0"]
 julia = "1"
