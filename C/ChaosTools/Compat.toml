@@ -31,11 +31,11 @@ OrdinaryDiffEq = "4.8-5"
 ["0.13-1.5"]
 Roots = "0.7.0 - 0.8"
 
-["1.10-1"]
-StatsBase = ["0.24", "0.32-0.33"]
-
 ["1.10-1.17"]
 Distances = "0.7-0.9"
+
+["1.10-2"]
+StatsBase = ["0.24", "0.32-0.33"]
 
 ["1.14"]
 DynamicalSystemsBase = "1.5.6-1"
@@ -43,50 +43,50 @@ DynamicalSystemsBase = "1.5.6-1"
 ["1.15-1.31.0"]
 DynamicalSystemsBase = "1.6.0-1"
 
-["1.18-1"]
-Distances = "0.7-0.10"
-
 ["1.18-1.27"]
 Distributions = "0.21-0.24"
 
-["1.19-1"]
+["1.18-2"]
+Distances = "0.7-0.10"
+
+["1.19-2"]
 julia = "1.5.0-1"
 
 ["1.19.0"]
 Entropies = "0.9"
 
-["1.19.1-1"]
-LombScargle = ["0.4-0.5", "1"]
-
 ["1.19.1-1.20"]
 Entropies = "0.9-0.10"
 
-["1.20-1"]
+["1.19.1-2"]
+LombScargle = ["0.4-0.5", "1"]
+
+["1.20-2"]
 StaticArrays = ["0.11-0.12", "1"]
 
 ["1.21-1.31.4"]
 Entropies = "0.11"
 
-["1.21.1-1"]
+["1.21.1-2"]
 Neighborhood = "0.2.2-0.2"
 
 ["1.23.1-1"]
 DelayEmbeddings = "1"
 
-["1.27-1"]
+["1.27-2"]
 SpecialFunctions = ["0.10", "1"]
 
-["1.28-1"]
+["1.28-2"]
 Distributions = "0.21-0.25"
 
-["1.29.1-1"]
+["1.29.1-2"]
 DSP = "0.6-0.7"
-
-["1.31.1-1"]
-ProgressMeter = "1.7.0-1"
 
 ["1.31.1-1.32.0"]
 DynamicalSystemsBase = "1.8.8-1"
+
+["1.31.1-2"]
+ProgressMeter = "1.7.0-1"
 
 ["1.31.5-1"]
 Entropies = "0.12"
@@ -110,10 +110,6 @@ julia = "1.0.0-1"
 ["1.7-1.8.0"]
 DSP = "0.0.0 - 0.6"
 LombScargle = "0.0.0 - 0.5"
-
-["1.8.1-1"]
-ForwardDiff = "0.8-0.10"
-Roots = ["0.7-0.8", "1"]
 
 ["1.8.1-1.14"]
 DiffEqBase = "5-6"
@@ -145,11 +141,15 @@ StaticArrays = "0.12"
 Distances = "0.7-0.8"
 StatsBase = ["0.24", "0.32"]
 
-["1.8.3-1"]
-Combinatorics = ["0.7", "1"]
+["1.8.1-2"]
+ForwardDiff = "0.8-0.10"
+Roots = ["0.7-0.8", "1"]
 
 ["1.8.3-1.19"]
 StaticArrays = "0.11-0.12"
+
+["1.8.3-2"]
+Combinatorics = ["0.7", "1"]
 
 ["1.9-1.13"]
 DynamicalSystemsBase = "1.5.2-1"
@@ -159,3 +159,8 @@ Distributions = "0.21-0.22"
 
 ["1.9.1-1.17"]
 Distributions = "0.21-0.23"
+
+[2]
+DelayEmbeddings = "2"
+DynamicalSystemsBase = "2"
+Entropies = "1"
