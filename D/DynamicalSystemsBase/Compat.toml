@@ -59,10 +59,6 @@ DiffEqBase = "5.10.0 - 6"
 ["1.4"]
 StaticArrays = "0-1"
 
-["1.4-1"]
-ForwardDiff = "0.10"
-SimpleDiffEq = "1"
-
 ["1.4-1.5"]
 DiffEqBase = "5-6"
 julia = "1"
@@ -73,12 +69,19 @@ Reexport = "0.2"
 ["1.4-1.8.11"]
 DelayEmbeddings = "1"
 
-["1.5-1"]
+["1.4-2"]
+ForwardDiff = "0.10"
+SimpleDiffEq = "1"
+
+["1.5-2"]
 StaticArrays = ["0.10-0.12", "1"]
 
-["1.6-1"]
+["1.6-2"]
 DiffEqBase = "6.47.0-6"
 julia = "1.5.0-1"
 
 ["1.8.12-1"]
 DelayEmbeddings = "1-2"
+
+[2]
+DelayEmbeddings = "2"
