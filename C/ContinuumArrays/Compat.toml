@@ -148,10 +148,12 @@ QuasiArrays = "0.5.1-0.5"
 
 ["0.7-0"]
 Infinities = "0.1"
-LazyArrays = "0.21"
 
 ["0.7-0.7.3"]
 ArrayLayouts = "0.6"
+
+["0.7-0.8"]
+LazyArrays = "0.21"
 
 ["0.7-0.8.1"]
 InfiniteArrays = "0.10"
@@ -162,20 +164,29 @@ RecipesBase = "1"
 ["0.7.4-0.7"]
 ArrayLayouts = "0.6-0.7"
 
-["0.8-0"]
+["0.8"]
 ArrayLayouts = "0.7"
+
+["0.8-0"]
 StaticArrays = "1"
 julia = "1.6.0-1"
 
 ["0.8-0.8.3"]
 QuasiArrays = "0.6"
 
-["0.8.2-0"]
+["0.8.2-0.8"]
 BlockArrays = "0.15.1-0.16"
 InfiniteArrays = "0.10-0.11"
 
 ["0.8.3-0"]
 FillArrays = "0.11-0.12"
 
-["0.8.4-0"]
+["0.8.4-0.8"]
 QuasiArrays = "0.6-0.7"
+
+["0.9-0"]
+ArrayLayouts = "0.7.2-0.7"
+BlockArrays = "0.16"
+InfiniteArrays = "0.11"
+LazyArrays = "0.21.13-0.21"
+QuasiArrays = "0.7"
