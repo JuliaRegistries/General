@@ -200,7 +200,6 @@ Distributions = "0.22-0.24"
 DataFrames = "0.20-0.22"
 
 [3]
-AxisArrays = "0.4"
 BSplines = "0.2-0.3"
 GLM = "1.3.0-1"
 StructuralCausalModels = "1"
@@ -213,6 +212,9 @@ MonteCarloMeasurements = ["0.8-0.9", "1"]
 
 ["3-3.4.1"]
 DataFrames = "0.21-0.22"
+
+["3-3.4.3"]
+AxisArrays = "0.4"
 
 ["3.0"]
 MCMCChains = "3-4"
@@ -250,3 +252,11 @@ Tables = "1.4.0-1"
 
 ["3.4.3-3"]
 Distributions = "0.22-0.25"
+
+["3.4.4-3"]
+AxisArrays = "0.4.3-0.4"
+DrWatson = "2.1.0-2"
+GR = "0.58"
+ParetoSmooth = "0.2-0.3"
+Pluto = "0.15"
+PlutoUI = "0.7"
