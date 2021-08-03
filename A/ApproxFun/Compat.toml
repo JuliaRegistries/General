@@ -205,7 +205,7 @@ AbstractFFTs = "0.5"
 ["0.12.1-0"]
 ApproxFunSingularities = "0.1.3-0.2"
 
-["0.12.2-0"]
+["0.12.2-0.12.5"]
 DomainSets = "0.3-0.4"
 
 ["0.12.3"]
@@ -220,8 +220,14 @@ ApproxFunFourier = "0.2"
 FastTransforms = "0.10-0.12"
 SpecialFunctions = ["0.10", "1.1.0-1"]
 
+["0.12.5"]
+ApproxFunBase = "0.3-0.4"
+
 ["0.12.5-0"]
 AbstractFFTs = ["0.5", "1"]
-ApproxFunBase = "0.3-0.4"
 ApproxFunOrthogonalPolynomials = "0.3-0.4"
 Reexport = ["0.2", "1"]
+
+["0.12.6-0"]
+ApproxFunBase = "0.3-0.5"
+DomainSets = "0.3-0.5"
