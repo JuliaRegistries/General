@@ -1,10 +1,12 @@
 [0]
 CodecZstd = "6b39b394-51ab-5f42-8807-6242bab2b4c2"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-MsgPack = "99f44e22-a591-53d1-9472-aa23ef4bd671"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 TranscodingStreams = "3bb67fe8-82b1-5028-8e26-92a6c54297fa"
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+
+["0-0.13"]
+MsgPack = "99f44e22-a591-53d1-9472-aa23ef4bd671"
 
 ["0.12-0"]
 Arrow = "69666777-d1a9-59fb-9406-91d4454c9d45"
@@ -15,8 +17,11 @@ TimeSpans = "bb34ddd2-327f-4c4a-bfb0-c98fc494ece1"
 ["0.12.1-0"]
 Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
 
-["0.13.4-0"]
+["0.13.4-0.13"]
 JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 
 ["0.13.8-0"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["0.14-0"]
+Legolas = "741b9549-f6ed-4911-9fbf-4a1c0c97f0cd"
