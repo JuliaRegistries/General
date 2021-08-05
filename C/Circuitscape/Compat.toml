@@ -36,7 +36,7 @@ IterativeSolvers = "0.8"
 ["5.6-5.7.0"]
 ArchGDAL = "0.4"
 
-["5.7-5"]
+["5.7-5.8.1"]
 julia = "1.5.0-1"
 
 ["5.7.1-5.7"]
@@ -44,6 +44,14 @@ ArchGDAL = "0.0.0 - 0.5"
 
 ["5.8-5"]
 AlgebraicMultigrid = "0.4"
+
+["5.8-5.8.1"]
 ArchGDAL = "0.5-0.6"
 IterativeSolvers = "0.8-0.9"
 Pardiso = "0.5"
+
+["5.8.2-5"]
+ArchGDAL = "0.5-0.7"
+IterativeSolvers = "0.9"
+Pardiso = "0.5.2-0.5"
+julia = "1"
