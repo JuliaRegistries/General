@@ -3,7 +3,6 @@ MLStyle = "0.4"
 MacroTools = "0.5"
 NamedTupleTools = "0.13"
 SpecialFunctions = ["0.10", "1"]
-StaticArrays = ["0.12", "1"]
 StatsFuns = "0.9"
 julia = "1.5.0-1"
 
@@ -25,6 +24,12 @@ Distributions = "0.23-0.24"
 ["0-0.8"]
 DistributionsAD = "0.6"
 
+["0-0.9"]
+StaticArrays = ["0.12", "1"]
+
+["0.10-0"]
+InfiniteArrays = "0.11"
+
 ["0.2.2"]
 FillArrays = "0.8-0.11"
 
@@ -41,11 +46,8 @@ StrideArrays = "0.1"
 ["0.2.3-0.8"]
 IntervalSets = "0.5"
 
-["0.3-0"]
+["0.3-0.9"]
 ArrayInterface = "2-3"
-
-["0.4-0"]
-MonteCarloMeasurements = "0.10"
 
 ["0.4-0.4.2"]
 InfiniteArrays = "0.7-0.9"
@@ -54,6 +56,9 @@ NestedTuples = "0.1-0.2"
 ["0.4-0.8"]
 IterTools = "1"
 RandomNumbers = "1"
+
+["0.4-0.9"]
+MonteCarloMeasurements = "0.10"
 
 ["0.4.3-0"]
 MappedArrays = "0.3-0.4"
@@ -89,16 +94,20 @@ KeywordCalls = "0.1.5-0.1"
 
 ["0.7-0"]
 Distributions = "0.23-0.25"
-SimpleTraits = "0.9"
 TransformVariables = "0.4"
+
+["0.7-0.9"]
+SimpleTraits = "0.9"
 
 ["0.8-0"]
 KeywordCalls = "0.1-0.2"
 PositiveFactorizations = "0.2"
 
+["0.9"]
+InfiniteArrays = "0.9-0.11"
+Tullio = "0.2-0.3"
+
 ["0.9-0"]
 ConstructionBase = "1.3.0-1"
 FillArrays = "0.11-0.12"
-InfiniteArrays = "0.9-0.11"
 Tricks = "0.1.4-0.1"
-Tullio = "0.2-0.3"
