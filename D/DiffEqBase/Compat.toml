@@ -152,7 +152,6 @@ DocStringExtensions = "0.8"
 FunctionWrappers = "1"
 MuladdMacro = "0.2.1-0.2"
 Parameters = "0.12"
-RecursiveFactorization = "0.1"
 
 ["6.5-6.10"]
 RecursiveArrayTools = "1"
@@ -180,6 +179,9 @@ TreeViews = "0.3"
 
 ["6.5-6.7"]
 Requires = "0.5"
+
+["6.5-6.71.0"]
+RecursiveFactorization = "0.1"
 
 ["6.50-6"]
 StaticArrays = ["0.11-0.12", "1"]
@@ -245,6 +247,10 @@ ChainRulesCore = ["0.10", "1"]
 Distributions = "0.25"
 ForwardDiff = "0.10"
 PreallocationTools = "0.1"
+
+["6.71.1-6"]
+DEDataArrays = "0.2"
+RecursiveFactorization = "0.2"
 
 ["6.8-6"]
 Requires = ["0.5", "1"]
