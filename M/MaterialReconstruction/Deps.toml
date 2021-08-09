@@ -1,6 +1,11 @@
 [0]
 CorrelationFunctions = "cd8c4018-4f35-43b7-8520-d042ebaeaa2d"
-CorrelationTrackers = "2aaf3720-2af0-4ca4-b7d9-7d970023fcad"
 LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
 PoissonRandom = "e409e4f3-bfea-5376-8464-e040bb5c01ab"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.1"]
+CorrelationTrackers = "2aaf3720-2af0-4ca4-b7d9-7d970023fcad"
+
+["0.2-0"]
+AnnealingAPI = "ea73c536-af4e-4c29-9508-d79bc79c0161"

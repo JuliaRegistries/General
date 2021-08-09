@@ -1,6 +1,11 @@
 [0]
 CorrelationFunctions = "0.3"
-CorrelationTrackers = "0.5.4-0.5"
 LsqFit = "0.12"
 PoissonRandom = "0.4"
 julia = "1"
+
+["0-0.1"]
+CorrelationTrackers = "0.5.4-0.5"
+
+["0.2-0"]
+AnnealingAPI = "0.1"
