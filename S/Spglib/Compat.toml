@@ -1,5 +1,4 @@
 [0]
-StructEquality = "1"
 UnPack = "1"
 julia = "1.3.0-1"
 spglib_jll = "1.14.0-1"
@@ -7,5 +6,11 @@ spglib_jll = "1.14.0-1"
 ["0-0.1.0"]
 StaticArrays = "1"
 
+["0-0.4.0"]
+StructEquality = "1"
+
 ["0.1.1-0"]
 StaticArrays = ["0.8.3-0.12", "1"]
+
+["0.4.1-0"]
+AutoHashEquals = "0.2"
