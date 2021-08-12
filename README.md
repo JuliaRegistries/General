@@ -182,7 +182,8 @@ or opening PRs/issues on downstream packages to change over.
  - Manually, in the General edit the repo URL in package's `Package.toml` file (e.g [E/Example/Package.toml](https://github.com/JuliaRegistries/General/blob/master/E/Example/Package.toml#L3))
 
 Technically if you skip the second step things will keep working, because GitHub will redirect;
-but it is best practice.
+but it is best practice. For this reason, when you try to register a new release, the Julia
+Registrator will complain if the second step is skipped.
 
 #### Where do I report a problem with a package in the General registry?
 
