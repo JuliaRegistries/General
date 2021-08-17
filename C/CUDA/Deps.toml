@@ -11,7 +11,6 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
-DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 ExprTools = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
 GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
 GPUCompiler = "61eb1bfa-7361-4325-ad38-22787b887f55"
@@ -31,6 +30,9 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 ["0-3.2"]
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+
+["0-3.3"]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 
 [2-3]
 BFloat16s = "ab4f0b2a-ad5b-11e8-123f-65d77653426b"

@@ -29,6 +29,9 @@ MonteCarloIntegration = "0.0.1"
 ["1-1.7"]
 Reexport = "0.2"
 
+["1.10-1"]
+ChainRulesCore = ["0.10.7-0.10", "1"]
+
 ["1.2-1"]
 ForwardDiff = "0.10"
 ReverseDiff = "1"
@@ -53,6 +56,8 @@ Zygote = "0.4.22-0.6"
 ["1.8-1"]
 Reexport = ["0.2", "1"]
 
-["1.9-1"]
+["1.9"]
 ChainRulesCore = "0.10.7-0.10"
+
+["1.9-1"]
 Distributions = "0.23-0.25"
