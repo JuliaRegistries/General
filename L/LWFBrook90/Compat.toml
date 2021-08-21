@@ -1,9 +1,15 @@
 [0]
 CSV = "0.8"
-DataFrames = "0.22"
-DataFramesMeta = "0.6"
 DiffEqCallbacks = "2"
 Interpolations = "0.13"
 OrdinaryDiffEq = "5"
 Roots = "1"
 julia = "1"
+
+["0-0.2"]
+DataFrames = "0.22"
+DataFramesMeta = "0.6"
+
+["0.3-0"]
+DataFrames = ["0.22", "1.1.0-1"]
+DataFramesMeta = "0.6-0.9"
