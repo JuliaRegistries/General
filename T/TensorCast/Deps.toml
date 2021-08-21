@@ -21,14 +21,19 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 ["0.2-0"]
 LazyStack = "1fad7336-0346-5a1a-a56f-a06ba010965b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 
 ["0.2-0.3"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
+
+["0.2-0.4.2"]
+ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 
 ["0.3"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.4-0"]
 TransmuteDims = "24ddb15e-299a-5cc3-8414-dbddc482d9ca"
+
+["0.4.3-0"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
