@@ -2,17 +2,12 @@
 AbstractTrees = "0.3"
 CSV = "0.8"
 Cbc = "0.8"
-DataFrames = "0.22"
 DisplayAs = "0.1"
 IJulia = "1.23"
 Ipopt = "0.6"
 JSON3 = "1.5"
 Literate = "2.8"
 Plots = "1.11"
-PowerGraphics = "0.8"
-PowerSimulations = "0.12"
-PowerSimulationsDynamics = "0.3"
-PowerSystemCaseBuilder = "0.3.3-0.3"
 Sundials = "4.4"
 TimeZones = "1.5"
 WebIO = "0.8"
@@ -25,10 +20,17 @@ TimeSeries = "0.20"
 ["0-0.1.2"]
 PlotlyJS = "0.14"
 
+["0-0.1.3"]
+DataFrames = "0.22"
+PowerGraphics = "0.8"
+PowerSimulations = "0.12"
+PowerSimulationsDynamics = "0.3"
+PowerSystemCaseBuilder = "0.3.3-0.3"
+
 ["0.1.1"]
 TimeSeries = "0.21"
 
-["0.1.1-0"]
+["0.1.1-0.1.3"]
 PowerSystems = "1.3.0-1"
 
 ["0.1.2-0"]
@@ -36,3 +38,12 @@ TimeSeries = "0.22"
 
 ["0.1.3-0"]
 PlotlyJS = "0.16"
+
+["0.1.4-0"]
+DataFrames = "1"
+GLPK = "0.14"
+PowerGraphics = "0.11"
+PowerSimulations = "0.14"
+PowerSimulationsDynamics = "0.6"
+PowerSystemCaseBuilder = "0.4.2-0.4"
+PowerSystems = "1"
