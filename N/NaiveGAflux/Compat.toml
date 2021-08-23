@@ -50,6 +50,13 @@ IterTools = "1"
 ["0.7.2-0.7"]
 CUDA = "1-2"
 
-["0.8-0"]
+["0.8"]
 CUDA = "1-3"
 NaiveNASflux = "1.6.0-1"
+
+["0.9-0"]
+CUDA = "3"
+Flux = "0.12"
+Functors = "0.2"
+NaiveNASflux = "2"
+NaiveNASlib = "2"
