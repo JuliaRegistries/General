@@ -56,9 +56,11 @@ Documenter = "0.23-0.26"
 GeometricIntegrators = "0.7"
 
 ["0.1.6-0"]
-ModelingToolkit = "5"
 Reexport = ["0.2", "1"]
 RuntimeGeneratedFunctions = "0.4-0.5"
+
+["0.1.6-0.2.1"]
+ModelingToolkit = "5"
 
 ["0.1.7"]
 GeometricIntegrators = "0.7-0.8"
@@ -82,5 +84,9 @@ RecipesBase = "1"
 GeometricBase = "0.2.1-0.2"
 GeometricEquations = "0.2"
 
-["0.2.1-0"]
+["0.2.1"]
 Symbolics = "1"
+
+["0.2.2-0"]
+ModelingToolkit = "6"
+Symbolics = "3"
