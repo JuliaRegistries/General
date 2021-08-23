@@ -1,6 +1,13 @@
 [0]
 JuMP = "0.21"
-NaiveNASflux = "1.6.0-1"
 ProtoBuf = "0.11.1"
 Setfield = ["0.3.4-0.3", "0.5-0.7"]
 julia = "1"
+
+["0-0.1"]
+NaiveNASflux = "1.6.0-1"
+
+["0.2-0"]
+Flux = "0.12"
+NaiveNASflux = "2"
+NaiveNASlib = "2"
