@@ -15,17 +15,19 @@ julia = ["0.7", "1"]
 
 ["0.6-0"]
 AxisArrays = "0.3-0.4"
-ColorVectorSpace = "0.7-0.8"
 FileIO = "1"
 ImageAxes = "0.6"
-ImageCore = "0.8.1-0.8"
-MappedArrays = "0.2"
 Quaternions = "0.4"
-StaticArrays = "0.11-0.12"
 julia = "1"
 
 ["0.6-0.6.1"]
 Libz = "1"
+
+["0.6-0.6.2"]
+ColorVectorSpace = "0.7-0.8"
+ImageCore = "0.8.1-0.8"
+MappedArrays = "0.2"
+StaticArrays = "0.11-0.12"
 
 ["0.6.0"]
 Unitful = "0.14-0.18"
@@ -35,3 +37,8 @@ Unitful = ["0.14-0.18", "1"]
 
 ["0.6.2-0"]
 CodecZlib = "0.6-0.7"
+
+["0.6.3-0"]
+ImageCore = "0.9"
+MappedArrays = "0.2-0.4"
+StaticArrays = ["0.11-0.12", "1"]
