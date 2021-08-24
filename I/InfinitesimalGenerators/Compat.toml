@@ -12,7 +12,6 @@ Roots = "0.8"
 KrylovKit = "0.4"
 
 ["0.2-0"]
-Arpack = "0.3-0.4"
 FiniteDiff = "2"
 julia = "1.2.0-1"
 
@@ -22,13 +21,23 @@ Distributions = "0.21-0.22"
 ["0.2-0.3.3"]
 FillArrays = "0.8"
 
+["0.2-0.3.4"]
+Arpack = "0.3-0.4"
+
 ["0.3-0"]
 Roots = ["0.8", "1"]
 
 ["0.3.2-0.3.3"]
 Distributions = "0.21-0.23"
 
-["0.3.4-0"]
+["0.3.4"]
 Distributions = "0.22-0.24"
 FillArrays = "0.8-0.9"
+
+["0.3.4-0"]
 KrylovKit = "0.4-0.5"
+
+["0.3.6-0"]
+Arpack = "0.3-0.5"
+Distributions = "0.22-0.25"
+FillArrays = "0.8-0.12"
