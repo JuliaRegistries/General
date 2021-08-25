@@ -1,12 +1,14 @@
 [0]
 DataFrames = "1"
-MixedModels = "3.6.0-4"
 
 ["0-0.1.0"]
 julia = "1.5.0-1"
 
 ["0-0.1.1"]
 AbstractPlotting = "0.18"
+
+["0-0.3.3"]
+MixedModels = "3.6.0-4"
 
 ["0.1.1-0"]
 julia = "1.6.0-1"
@@ -22,3 +24,8 @@ SpecialFunctions = "1"
 
 ["0.3.3-0"]
 Makie = "0.13-0.15"
+
+["0.3.4-0"]
+Distributions = "0.21-0.25"
+MixedModels = "4.1.0-4"
+StatsBase = "0.31-0.33"
