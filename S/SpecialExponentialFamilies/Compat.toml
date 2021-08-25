@@ -1,14 +1,24 @@
 [0]
 DiffResults = "1"
-Distributions = "0.23-0.24"
-Empirikos = "0.3"
 Expectations = "1.6.0-1"
 ForwardDiff = "0.10"
-GLM = "1.3.0-1"
-OffsetArrays = "1.4.0-1"
 Optim = "1.2.0-1"
-Reexport = "0.2"
-Requires = "1.1.0-1"
 StatsBase = "0.33"
 UnPack = "1"
 julia = "1.5.0-1"
+
+["0-0.1"]
+Distributions = "0.23-0.24"
+Empirikos = "0.3"
+GLM = "1.3.0-1"
+OffsetArrays = "1.4.0-1"
+Reexport = "0.2"
+Requires = "1.1.0-1"
+
+["0.2-0"]
+Distributions = "0.23-0.25"
+Empirikos = "0.4"
+GLM = "1.4.0-1"
+OffsetArrays = "1"
+Reexport = "1"
+Requires = "1"
