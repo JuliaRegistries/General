@@ -168,11 +168,13 @@ StaticArrays = ["0.11-0.12", "1"]
 AbstractPlotting = "0.13.7-0.14"
 
 ["0.1.18-0"]
-GeometryBasics = "0.3"
 StaticArrays = ["0.12", "1"]
 
 ["0.1.18-0.1.20"]
 AbstractPlotting = "0.14.1-0.14"
+
+["0.1.18-0.4.5"]
+GeometryBasics = "0.3"
 
 ["0.1.21-0.1.22"]
 AbstractPlotting = "0.14.3-0.14"
@@ -230,5 +232,9 @@ Makie = "0.14.2"
 ["0.4.3-0.4.4"]
 Makie = "0.15.0"
 
-["0.4.5-0"]
+["0.4.5"]
 Makie = "0.15.1"
+
+["0.4.6-0"]
+GeometryBasics = "0.4.1-0.4"
+Makie = "0.15.2"
