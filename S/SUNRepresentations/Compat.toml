@@ -1,11 +1,17 @@
 [0]
-RationalRoots = "0.1"
-Requires = "1"
 SparseArrayKit = "0.2"
 TensorOperations = "3"
 
 ["0-0.1.0"]
 julia = "1.4.0-1"
 
+["0-0.1.1"]
+RationalRoots = "0.1"
+Requires = "1"
+
 ["0.1.1-0"]
 julia = "1.4-1.7"
+
+["0.1.2-0"]
+RationalRoots = "0.1-0.2"
+TensorKit = "0.9"
