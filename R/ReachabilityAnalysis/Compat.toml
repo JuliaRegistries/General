@@ -40,10 +40,12 @@ ExprTools = "0.1"
 Reexport = ["0.2", "1"]
 
 ["0.11-0"]
-LazySets = "1.43.0-1"
 julia = "1.5.0-1"
 
-["0.12.1-0"]
+["0.11-0.15.0"]
+LazySets = "1.43.0-1"
+
+["0.12.1-0.15.0"]
 IntervalArithmetic = "0.16-0.18"
 
 ["0.13-0"]
@@ -54,6 +56,10 @@ CommonSolve = "0.2"
 
 ["0.14.8-0"]
 TaylorModels = "0.4"
+
+["0.15.1-0"]
+IntervalArithmetic = "0.16-0.19"
+LazySets = "1.49.0-1"
 
 ["0.2-0"]
 RecipesBase = ["0.6-0.8", "1"]
