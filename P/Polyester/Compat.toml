@@ -2,8 +2,10 @@
 ArrayInterface = "3.1.7-3"
 IfElse = "0.1"
 Requires = "1"
-VectorizationBase = "0.20.9-0.20"
 julia = "1.5.0-1"
+
+["0-0.3"]
+VectorizationBase = "0.20.9-0.20"
 
 ["0-0.3.0"]
 ThreadingUtilities = "0.4.1-0.4"
@@ -32,5 +34,10 @@ StrideArraysCore = "0.1.15-0.1"
 ["0.3.7-0"]
 Static = "0.2.4-0.3"
 
-["0.3.9-0"]
+["0.3.9-0.3"]
 StrideArraysCore = "0.1.18-0.1"
+
+["0.4-0"]
+BitTwiddlingConvenienceFunctions = "0.1"
+CPUSummary = "0.1.2-0.1"
+StrideArraysCore = "0.1.18-0.2"
