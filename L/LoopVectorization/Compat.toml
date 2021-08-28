@@ -101,7 +101,7 @@ VectorizationBase = "0.20.4-0.20"
 ["0.12.22-0.12.31"]
 StrideArraysCore = "0.1.11-0.1"
 
-["0.12.24-0"]
+["0.12.24-0.12.66"]
 Polyester = "0.3"
 
 ["0.12.30"]
@@ -110,11 +110,11 @@ ChainRulesCore = "0.10"
 ["0.12.30-0.12.31"]
 VectorizationBase = "0.20.4-0.21"
 
-["0.12.32-0"]
-StrideArraysCore = "0.1.12-0.1"
-
 ["0.12.32-0.12.33"]
 VectorizationBase = "0.20.15-0.20"
+
+["0.12.32-0.12.66"]
+StrideArraysCore = "0.1.12-0.1"
 
 ["0.12.34-0.12.38"]
 VectorizationBase = "0.20.16-0.20"
@@ -152,9 +152,16 @@ VectorizationBase = "0.20.27-0.20"
 ["0.12.63-0.12.65"]
 VectorizationBase = "0.20.32-0.20"
 
-["0.12.66-0"]
+["0.12.66"]
 ArrayInterface = "3.1.9-3.1.23"
 VectorizationBase = "0.20.36-0.20"
+
+["0.12.67-0"]
+ArrayInterface = ["3.1.9-3.1.23", "3.1.25-3"]
+LayoutPointers = "0.1.2-0.1"
+Polyester = "0.4"
+StrideArraysCore = "0.2"
+VectorizationBase = "0.21.1-0.21"
 
 ["0.2-0.3.0"]
 SIMDPirates = "0.1.1-0.1"
