@@ -8,10 +8,8 @@ MacroTools = "0.5"
 ModelingToolkit = "4.5.0-4"
 NLsolve = "4.5.0-4"
 Parameters = "0.12"
-StatsPlots = "0.14"
 TensorCast = "0.3"
 TimerOutputs = "0.5"
-TuringCallbacks = "0.1"
 
 ["0-0.1"]
 BenchmarkTools = "1"
@@ -40,6 +38,10 @@ julia = "1.5.0-1"
 
 ["0-0.1.0"]
 CUDA = "3.3.0-3"
+
+["0-0.2.0"]
+StatsPlots = "0.14"
+TuringCallbacks = "0.1"
 
 ["0.1.1-0.1"]
 CUDA = ["2", "3.3.0-3"]
