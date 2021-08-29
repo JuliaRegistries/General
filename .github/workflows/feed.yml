@@ -15,7 +15,7 @@ jobs:
       shell: julia --color=yes {0}
       run: |
         endpoint = ENV["SLACK_ENDPOINT"]
-        if isempty(ENDPOINT)
+        if isempty(endpoint)
           @info "Endpoint not specified; missing secret? Exiting."
           exit(0)
         end
