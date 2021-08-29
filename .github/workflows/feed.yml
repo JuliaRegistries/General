@@ -27,7 +27,12 @@ jobs:
                           "title_link" => pr_url,
                           "text" => pr_url,
                       )])
-        response = sendattachmenttoslack(data, ENV["SLACK_ENDPOINT"])
+
+        endpoint = ENV["SLACK_ENDPOINT"]
+        if !startswith(endpoint, "/")
+            endpoint = string("/", endpoint)
+        end
+        response = sendattachmenttoslack(data, endpoint)
         @info "Slack said: $response"
       env:
         SLACK_ENDPOINT: ${{ secrets.JULIALANGSLACKENDPOINT }}
