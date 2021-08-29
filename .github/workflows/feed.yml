@@ -5,7 +5,7 @@ on:
     types: [ labeled ]
 jobs:
   update-feed:
-    if: ${{ github.event.label.name == 'new package' }}
+    if: ${{ github.event.label.name == 'new package' }} && ${{ github.repository == github.event.pull_request.head.repo.full_name }}
     runs-on: ubuntu-latest
     steps:
     - uses: julia-actions/setup-julia@latest
@@ -16,10 +16,10 @@ jobs:
       run: |
         endpoint = ENV["SLACK_ENDPOINT"]
         if isempty(ENDPOINT)
-          @info "Endpoint not specified; perhaps this PR was from a fork. Exiting."
+          @info "Endpoint not specified; missing secret? Exiting."
           exit(0)
         end
-        
+
         using Pkg
         Pkg.activate(mktempdir())
         Pkg.add(name="Slack", version="0.1")
