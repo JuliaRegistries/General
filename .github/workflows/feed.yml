@@ -1,0 +1,35 @@
+# This workflow updates feeds when the label `new package` is applied to PRs.
+name: Send to feeds
+on:
+  pull_request:
+    types: [ labeled ]
+jobs:
+  build:
+    if: ${{ github.event.label.name == 'new package' }}
+    runs-on: ubuntu-latest
+    steps:
+    - uses: julia-actions/setup-julia@latest
+      with:
+        version: 1.6.2
+    - name: Send to Slack
+      shell: julia --color=yes {0}
+      run: |
+        using Pkg
+        Pkg.activate(mktempdir())
+        Pkg.add(name="Slack", version="0.1")
+        using Slack
+        pr_url = string("https://github.com/", ENV["GITHUB_REPOSITORY"], "/pull/", ENV["PR_NUMBER"])
+        @info "" pr_url
+        data = Dict("attachments" =>
+                    [Dict("fallback" => ENV["PR_NAME"],
+                          "color" => "#36a64f",
+                          "title" => ENV["PR_NAME"],
+                          "title_link" => pr_url,
+                          "text" => pr_url,
+                      )])
+        response = sendattachmenttoslack(data, ENV["SLACK_ENDPOINT"])
+        @info "Slack said: $response"
+      env:
+        SLACK_ENDPOINT: ${{ secrets.JULIALANGSLACKENDPOINT }}
+        PR_NAME: ${{ github.event.pull_request.title }}
+        PR_NUMBER: ${{ github.event.number }}
