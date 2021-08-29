@@ -14,6 +14,12 @@ jobs:
     - name: Send to Slack
       shell: julia --color=yes {0}
       run: |
+        endpoint = ENV["SLACK_ENDPOINT"]
+        if isempty(ENDPOINT)
+          @info "Endpoint not specified; perhaps this PR was from a fork. Exiting."
+          exit(0)
+        end
+        
         using Pkg
         Pkg.activate(mktempdir())
         Pkg.add(name="Slack", version="0.1")
@@ -28,7 +34,6 @@ jobs:
                           "text" => pr_url,
                       )])
 
-        endpoint = ENV["SLACK_ENDPOINT"]
         if !startswith(endpoint, "/")
             endpoint = string("/", endpoint)
         end
