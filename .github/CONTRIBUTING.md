@@ -57,13 +57,18 @@ Besides helping out with new package registrations directly, there are other way
 
 * You can improve [General's README](https://github.com/JuliaRegistries/General#general), the [RegistryCI documentation](https://juliaregistries.github.io/RegistryCI.jl/stable/guidelines/), or these guidelines!
 * You can add new checks to AutoMerge (in [RegistryCI](RegistryCI)) or improve existing ones.
-* You can address open issues in [General](https://github.com/JuliaRegistries/General/issues), [RegistryCI](https://github.com/JuliaRegistries/RegistryCI.jl/issues), [Registrator.jl](https://github.com/JuliaRegistries/Registrator.jl/issues).
+* You can address open issues in [General](https://github.com/JuliaRegistries/General/issues), [RegistryCI.jl](https://github.com/JuliaRegistries/RegistryCI.jl/issues), or [Registrator.jl](https://github.com/JuliaRegistries/Registrator.jl/issues).
 * You can write blog posts and documentation to help folks get started with writing documentation, tests, and setting up CI for their own packages, and find appropriate places to link to it and help out new package authors. 
 
-Additionally, if you have elevated permissions to General, there's a few more things you can do:
+Additionally, if you have elevated [permissions](permissions) to General, there's a few more things you can do:
 
-* You can merge PRs that have the _needs to be manually merged in 3 days_ label once the requisite waiting period has passed, assuming there are no outstanding objections in the PR comments.
-* You can give other contributors [triage](permissions)-level access so they can apply labels to PRs, or write-level permissions to merge PRs.
+* [triage] You can add or remove labels to PRs to help communicate the status.
+* [triage] You can close PRs if the package author requests it or the registration is superseded by another registration request.
+* [write] You can merge PRs that have the _needs to be manually merged in 3 days_ label once the requisite waiting period has passed, assuming there are no outstanding objections in the PR comments.
+* [write] You can choose to facilitate expedited merge requests, after manually reviewing the package.
+You generally should not merge your own registrations (though you can make requests to another maintainer).
+* [write] You can merge improvements to the README, these guidelines, or our workflows.
+* [admin] You can give other contributors triage-level access so they can apply labels to PRs, or write-level permissions to merge PRs.
 
 
 [FAQ]: https://github.com/JuliaRegistries/General#faq]
