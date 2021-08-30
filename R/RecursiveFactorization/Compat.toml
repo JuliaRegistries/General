@@ -46,6 +46,12 @@ VectorizationBase = "0.16"
 julia = "1.5.0-1"
 
 ["0.2-0"]
+TriangularSolve = "0.1.1-0.1"
+
+["0.2-0.2.2"]
 Polyester = "0.3.2-0.3"
 StrideArraysCore = "0.1.13-0.1"
-TriangularSolve = "0.1.1-0.1"
+
+["0.2.3-0"]
+Polyester = ["0.3.2-0.3", "0.4.1-0.4"]
+StrideArraysCore = ["0.1.13-0.1", "0.2.1-0.2"]
