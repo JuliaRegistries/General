@@ -1,7 +1,12 @@
 [1]
 ForwardDiff = "0.10"
-Zygote = "0.5"
 julia = "1.4.0-1"
+
+["1-1.1.0"]
+Zygote = "0.5"
 
 ["1.1-1"]
 TensorOperations = "3"
+
+["1.1.1-1"]
+ZygoteRules = "0.2"
