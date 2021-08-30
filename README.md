@@ -25,6 +25,8 @@ of packages.
 
 If you are registering a new package, please make sure that you have read the [package naming guidelines](https://julialang.github.io/Pkg.jl/dev/creating-packages/#Package-naming-guidelines-1).
 
+See our [Contributing Guidelines](./CONTRIBUTING.md) for ways to get involved!
+
 ## Registering a package in General
 
 New packages and new versions of packages are added the General registry by pull requests
