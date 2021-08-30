@@ -18,7 +18,7 @@ RDatasets = "0.0.0 - 0.6"
 Reexport = "0.0.0 - 0.2"
 StatsBase = "0.0.0 - 0.32"
 
-[0-3]
+[0-4]
 julia = "1"
 
 ["0.2-0.3"]
@@ -107,7 +107,7 @@ TransformVariables = "0.3"
 CSV = "0.5"
 StatsBase = "0.32"
 
-["0.9.1-3"]
+["0.9.1-4"]
 Parameters = "0.12"
 
 [1]
@@ -137,10 +137,10 @@ Distributions = "0.22"
 ["2-2.2.1"]
 DataFrames = "0.20"
 
-[2-3]
+[2-4]
 Requires = "1"
 
-["2.0.5-3"]
+["2.0.5-4"]
 DocStringExtensions = "0.8"
 
 ["2.1-2.2.3"]
@@ -171,7 +171,7 @@ StatsPlots = "0.14"
 ["2.2.1-2"]
 UnicodePlots = "1.2.0-1"
 
-["2.2.1-3"]
+["2.2.1-4"]
 NamedArrays = "0.9"
 StatsFuns = "0.9"
 
@@ -202,7 +202,6 @@ DataFrames = "0.20-0.22"
 [3]
 BSplines = "0.2-0.3"
 GLM = "1.3.0-1"
-StructuralCausalModels = "1"
 
 ["3-3.2.0"]
 PrettyTables = "0.9-0.10"
@@ -216,20 +215,25 @@ DataFrames = "0.21-0.22"
 ["3-3.4.3"]
 AxisArrays = "0.4"
 
+[3-4]
+StructuralCausalModels = "1"
+
 ["3.0"]
 MCMCChains = "3-4"
 Optim = "0.20"
 
 ["3.1-3"]
-Formatting = "0.4"
 MCMCChains = "4"
-NamedTupleTools = "0.13"
 Optim = ["0.20", "1.2.0-1"]
+
+["3.1-4"]
+Formatting = "0.4"
+NamedTupleTools = "0.13"
 
 ["3.1.7-3"]
 Reexport = ["0.2", "1"]
 
-["3.1.9-3"]
+["3.1.9-4"]
 OrderedCollections = "1.3.0-1"
 
 ["3.2.1-3.4.1"]
@@ -265,3 +269,14 @@ ParetoSmooth = "0.2-0.3"
 
 ["3.4.6-3"]
 ParetoSmooth = "0.2-0.5"
+
+[4]
+AxisKeys = "0.1"
+DataFrames = "1"
+Distributions = "0.25"
+KernelDensity = "0.6"
+MonteCarloMeasurements = "0.10-0.11"
+ParetoSmooth = "0.5"
+PrettyTables = "1"
+StatsBase = "0.33"
+Tables = "1.5.0-1"

@@ -18,6 +18,8 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 [0-3]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+
+[0-4]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
@@ -85,7 +87,7 @@ MCMCDiagnostics = "6e857e4b-079a-58c4-aeab-bc2670384359"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
 
-["0.9-3"]
+["0.9-4"]
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
@@ -102,19 +104,21 @@ StanBase = "d0ee94f6-a23d-54aa-bbe9-7f572d6da7f5"
 StanOptimize = "fbd8da12-e93d-5a64-9231-612a0707ab99"
 StanSample = "c1514b29-d3a0-5178-b312-660c88baa699"
 
-[2-3]
+[2-4]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["2.0.1-3"]
+["2.0.1-4"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["2.0.5-3"]
+["2.0.5-4"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 
 ["2.1-3"]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["2.1-4"]
 KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
 MonteCarloMeasurements = "0987c9cc-fe09-11e8-30f0-b96dd679fdca"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["2.1.6-3"]
 LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
@@ -124,7 +128,7 @@ StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
 ["2.2.1-2"]
 UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 
-["2.2.1-3"]
+["2.2.1-4"]
 NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 
@@ -132,17 +136,19 @@ StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 BSplines = "488c2830-172b-11e9-1591-253b8a7df96d"
 GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+
+[3-4]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 StructuralCausalModels = "a41e6734-49ce-4065-8b83-aff084c01dfd"
 Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
-["3.1-3"]
+["3.1-4"]
 Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
 NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
 
-["3.1.9-3"]
+["3.1.9-4"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 
 ["3.2.2-3.2.6"]
@@ -153,12 +159,19 @@ StatsModelComparisons = "854dedd9-9477-4a25-907d-7fd989bfdd01"
 
 ["3.4.2-3"]
 BrowseTables = "5f4fecfd-7eb0-5078-b7f6-ad1f2563c22a"
+
+["3.4.2-4"]
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 
 ["3.4.4-3"]
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
 GR = "28b8d3ca-fb5f-59d9-8090-bfdbd6d07a71"
-ParetoSmooth = "a68b5a21-f429-434e-8bfa-46b447300aac"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
+
+["3.4.4-4"]
+ParetoSmooth = "a68b5a21-f429-434e-8bfa-46b447300aac"
+
+[4]
+AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
