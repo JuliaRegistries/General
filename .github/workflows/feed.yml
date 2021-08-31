@@ -68,7 +68,7 @@ jobs:
         using GitHubActions
         set_output("content", text)
         pr_name = ENV["PR_NAME"]
-        set_output("topic", "[$(pr_name)]($(pr_url))")
+        set_output("topic", pr_name)
       env:
         PR_NAME: ${{ github.event.pull_request.title }}
         PR_NUMBER: ${{ github.event.number }}
