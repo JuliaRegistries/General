@@ -1,6 +1,13 @@
-[0]
+["0-0.1"]
 Compat = "0-2"
 Distributions = "0.0.0 - 0.23"
 Memoize = "0.0.0 - 0.4"
 Optim = "0.0.0 - 0.22"
 julia = ["0.7", "1"]
+
+["0.2-0"]
+Distributions = ["0.2", "0.25"]
+Memoize = "0.4"
+NamedDims = "0.2"
+Optim = "1"
+julia = "1"

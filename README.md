@@ -25,7 +25,10 @@ of packages.
 
 If you are registering a new package, please make sure that you have read the [package naming guidelines](https://julialang.github.io/Pkg.jl/dev/creating-packages/#Package-naming-guidelines-1).
 
-See our [Contributing Guidelines](./CONTRIBUTING.md) for ways to get involved!
+Follow along new package registrations with the `#new-packages-feed` channels in the
+[community Slack](https://julialang.org/slack/) or [Zulip](https://julialang.zulipchat.com/register/)!
+
+See our **[Contributing Guidelines](./CONTRIBUTING.md)** for ways to get involved!
 
 ## Registering a package in General
 

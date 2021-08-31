@@ -1,12 +1,14 @@
 [0]
-ModelingToolkit = "5"
 StaticArrays = "1"
 julia = "1"
 
 ["0-0.1.0"]
 Symbolics = "0.1"
 
-["0.1.1-0"]
+["0-0.3.0"]
+ModelingToolkit = "5"
+
+["0.1.1-0.3.0"]
 Symbolics = ["0.1", "1"]
 
 ["0.2-0"]
@@ -14,3 +16,7 @@ RuntimeGeneratedFunctions = "0.5"
 
 ["0.3-0"]
 DocStringExtensions = "0.8"
+
+["0.3.1-0"]
+ModelingToolkit = "5-6"
+Symbolics = ["0.1", "1-3"]

@@ -1,21 +1,23 @@
 [0]
-CSV = "0.8"
 Contour = "0.5"
-Crayons = "4"
-DataFrames = ["0.22", "1"]
 DifferentialEquations = "6"
 DocStringExtensions = "0.8"
-Interpolations = "0.13"
-PhysicalConstants = "0.2"
 Plots = "1"
 Reexport = ["0.2", "1"]
 Roots = "1"
-SciMLBase = "1.10.0-1"
 StaticArrays = ["0.12", "1"]
 Unitful = "1.4.0-1"
-UnitfulAngles = "0.6"
 UnitfulAstro = "1"
 julia = "1"
+
+["0-0.9"]
+CSV = "0.8"
+Crayons = "4"
+DataFrames = ["0.22", "1"]
+Interpolations = "0.13"
+PhysicalConstants = "0.2"
+SciMLBase = "1.10.0-1"
+UnitfulAngles = "0.6"
 
 ["0-0.9.2"]
 ComponentArrays = "0.8-0.9"
@@ -24,10 +26,21 @@ SymbolicUtils = "0.10-0.11"
 ["0-0.9.3"]
 Symbolics = "0.1"
 
-["0.9.3-0"]
+["0.10-0"]
+ArrayInterface = "3"
+AstroTime = "0.6-0.7"
+AstrodynamicalModels = "0.3"
+CoordinateTransformations = "0.6"
+LabelledArrays = "1"
+RecipesBase = "1"
+Requires = "1"
+Rotations = "1"
+SymbolicUtils = "0.10-0.11"
+
+["0.9.3-0.9"]
 AstrodynamicalModels = "0.2.5-0.2"
 ComponentArrays = "0.8-0.10"
 SymbolicUtils = ["0.10-0.11", "0.13"]
 
-["0.9.4-0"]
+["0.9.4-0.9"]
 Symbolics = ["0.1", "1"]
