@@ -74,7 +74,7 @@ jobs:
         PR_NUMBER: ${{ github.event.number }}
         PR_BODY: ${{ github.event.pull_request.body }}
     - name: Update Zulip feed
-      uses: zulip/github-actions-zulip/send-message@v1
+      uses: zulip/github-actions-zulip/send-message@ba07b1eb3ba0d48430d111d1eb9bd0d25936a0f7
       with:
         api-key: ${{ secrets.ZULIP_API_KEY }}
         email: 'general-registry-announcer-bot@julialang.zulipchat.com'
