@@ -21,7 +21,7 @@ jobs:
           exit(0)
         end
     
-        include(joinpath(".ci", "parse_env.jl"))
+        include(joinpath(ENV["GITHUB_WORKSPACE"], ".ci", "parse_env.jl"))
         pr_url, text = parse_env(ENV)
 
         using Pkg
