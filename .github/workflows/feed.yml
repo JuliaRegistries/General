@@ -49,7 +49,7 @@ jobs:
         PR_BODY: ${{ github.event.pull_request.body }}
 
   update-zulip:
-    if: ${{ github.event.label.name == 'new package' && github.repository == github.event.pull_request.head.repo.full_name }}
+    if: ${{ (github.event.label.name == 'new package' || github.event.label.name == 'zulip test') && github.repository == github.event.pull_request.head.repo.full_name }}
     runs-on: ubuntu-latest
     steps:
     - uses: julia-actions/setup-julia@latest
@@ -66,9 +66,8 @@ jobs:
         Pkg.activate(mktempdir())
         Pkg.add(name="GitHubActions", version="0.1")
         using GitHubActions
-        set_output("content", text)
-        pr_name = ENV["PR_NAME"]
-        set_output("topic", pr_name)
+        content = string(ENV["PR_NAME"], "\n\n", text)
+        set_output("content", content)
       env:
         PR_NAME: ${{ github.event.pull_request.title }}
         PR_NUMBER: ${{ github.event.number }}
@@ -81,5 +80,5 @@ jobs:
         organization-url: 'https://julialang.zulipchat.com'
         to: 'new-packages-feed'
         type: 'stream'
-        topic: ${{ steps.zulip.outputs.topic }}
+        topic: 'New package registrations'
         content: ${{ steps.zulip.outputs.content }}
