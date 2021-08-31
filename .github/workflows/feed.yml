@@ -66,7 +66,7 @@ jobs:
         Pkg.activate(mktempdir())
         Pkg.add(name="GitHubActions", version="0.1")
         using GitHubActions
-        content = string(ENV["PR_NAME"], "\n\n", text)
+        content = string("**", ENV["PR_NAME"], "**\n\n", text)
         set_output("content", content)
       env:
         PR_NAME: ${{ github.event.pull_request.title }}
