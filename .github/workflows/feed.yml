@@ -11,6 +11,7 @@ jobs:
     - uses: julia-actions/setup-julia@latest
       with:
         version: 1.6.2
+    - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
     - name: Send to Slack
       shell: julia --color=yes {0}
       run: |
@@ -19,27 +20,30 @@ jobs:
           @info "Endpoint not specified; missing secret? Exiting."
           exit(0)
         end
+    
+        include(joinpath(ENV["GITHUB_WORKSPACE"], ".ci", "parse_env.jl"))
+        text, pr_url = parse_env(ENV)
 
         using Pkg
         Pkg.activate(mktempdir())
         Pkg.add(name="Slack", version="0.1")
         using Slack
-        pr_url = string("https://github.com/", ENV["GITHUB_REPOSITORY"], "/pull/", ENV["PR_NUMBER"])
-        @info "" pr_url
         data = Dict("attachments" =>
                     [Dict("fallback" => ENV["PR_NAME"],
                           "color" => "#36a64f",
                           "title" => ENV["PR_NAME"],
                           "title_link" => pr_url,
-                          "text" => pr_url,
+                          "text" => text,
                       )])
 
         if !startswith(endpoint, "/")
             endpoint = string("/", endpoint)
         end
+        @info "Told Slack: $(data)"
         response = sendattachmenttoslack(data, endpoint)
         @info "Slack said: $response"
       env:
         SLACK_ENDPOINT: ${{ secrets.JULIALANGSLACKENDPOINT }}
         PR_NAME: ${{ github.event.pull_request.title }}
         PR_NUMBER: ${{ github.event.number }}
+        PR_BODY: ${{ github.event.pull_request.body }}
