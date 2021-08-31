@@ -66,9 +66,9 @@ jobs:
         Pkg.activate(mktempdir())
         Pkg.add(name="GitHubActions", version="0.1")
         using GitHubActions
-        set_output("text", text)
+        set_output("content", text)
         pr_name = ENV["PR_NAME"]
-        set_output("title", "[$(pr_name)]($(pr_url))")
+        set_output("topic", "[$(pr_name)]($(pr_url))")
       env:
         PR_NAME: ${{ github.event.pull_request.title }}
         PR_NUMBER: ${{ github.event.number }}
@@ -81,5 +81,5 @@ jobs:
         organization-url: 'https://julialang.zulipchat.com'
         to: 'new-packages-feed'
         type: 'stream'
-        topic: ${{ steps.zulip.outputs.title }}
+        topic: ${{ steps.zulip.outputs.topic }}
         content: ${{ steps.zulip.outputs.content }}
