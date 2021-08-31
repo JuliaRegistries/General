@@ -22,8 +22,6 @@ function parse_env(env=ENV; verbose=true)
 
         if has_description && has_name
             println(io, match_name[1], ": ", strip(match_description[1]))
-        elseif has_name
-            println(io, match_name[1])
         elseif has_description
             println(io, strip(match_description[1]))
         end
