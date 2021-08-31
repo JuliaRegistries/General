@@ -32,11 +32,12 @@ function parse_env(env=ENV; verbose=true)
             println(io, "Release notes:")
             println(io, strip(match_release[1]))
         end
+        if has_name || has_description || has_release
+            println(io) # separate by an extra line
+        end
+        println(io, "Registration: ", pr_url)
         if has_repo
-            if has_name || has_description || has_release
-                println(io) # separate by an extra line
-            end
-            println(io, "Repository: ", strip(match_repo[1]))
+            println(io, "Repository:   ", strip(match_repo[1]))
         end
         # Nothing? Just print the `pr_url`
         if match_description === match_release === match_repo === nothing
@@ -68,6 +69,6 @@ using Test
 p = parse_env(env; verbose=false)
 
 @testset "parse_env" begin
-    @test p.text == "Fastnet: This is a test description.\n\nRelease notes:\n> Fastnet is a Julia package that allows very fast (linear-time) simulation of discrete-state dynamical processes on networks, such as commonly studied models of epidemics\n\nRepository: https://github.com/bridgewalker/Fastnet.jl\n"
+    @test p.text == "Fastnet: This is a test description.\n\nRelease notes:\n> Fastnet is a Julia package that allows very fast (linear-time) simulation of discrete-state dynamical processes on networks, such as commonly studied models of epidemics\n\nRegistration: https://github.com/JuliaRegistries/General/pull/43765\nRepository:   https://github.com/bridgewalker/Fastnet.jl\n"
     @test p.pr_url == "https://github.com/JuliaRegistries/General/pull/43765"
 end
