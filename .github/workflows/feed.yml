@@ -19,27 +19,30 @@ jobs:
           @info "Endpoint not specified; missing secret? Exiting."
           exit(0)
         end
+    
+        include(joinpath(".ci", "parse_env.jl"))
+        pr_url, text = parse_env(ENV)
 
         using Pkg
         Pkg.activate(mktempdir())
         Pkg.add(name="Slack", version="0.1")
         using Slack
-        pr_url = string("https://github.com/", ENV["GITHUB_REPOSITORY"], "/pull/", ENV["PR_NUMBER"])
-        @info "" pr_url
         data = Dict("attachments" =>
                     [Dict("fallback" => ENV["PR_NAME"],
                           "color" => "#36a64f",
                           "title" => ENV["PR_NAME"],
                           "title_link" => pr_url,
-                          "text" => pr_url,
+                          "text" => text,
                       )])
 
         if !startswith(endpoint, "/")
             endpoint = string("/", endpoint)
         end
+        @info "Told Slack: $(data)"
         response = sendattachmenttoslack(data, endpoint)
         @info "Slack said: $response"
       env:
         SLACK_ENDPOINT: ${{ secrets.JULIALANGSLACKENDPOINT }}
         PR_NAME: ${{ github.event.pull_request.title }}
         PR_NUMBER: ${{ github.event.number }}
+        PR_BODY: ${{ github.event.pull_request.body }}
