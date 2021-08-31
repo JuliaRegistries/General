@@ -43,13 +43,15 @@ StatsBase = ["0.32", "1"]
 julia = "1.1.0-1"
 
 ["0.4.1-0"]
-DelayEmbeddings = "1.20.0-1"
 Neighborhood = "0.2"
 StatsBase = "0.33"
 julia = "1.2.0-1"
 
 ["0.4.1-0.4"]
 Distributions = "0.23"
+
+["0.4.1-0.7"]
+DelayEmbeddings = "1.20.0-1"
 
 ["0.5-0.7.1"]
 Distributions = "0.23-0.24"
@@ -62,3 +64,6 @@ UncertainData = ["0.10.4-0.10", "1"]
 
 ["0.7.2-0"]
 Distributions = "0.23-0.25"
+
+["0.8-0"]
+DelayEmbeddings = "2"
