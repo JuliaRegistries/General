@@ -30,12 +30,18 @@ Sundials = "0.0.0 - 4"
 TimerOutputs = "0.0.0 - 0.5"
 julia = "1"
 
-["0.10-0"]
+["0.10"]
 Catalyst = "8"
-ModelingToolkit = "6.2.0-6"
 SymbolicUtils = "0.13.3-0.13"
+
+["0.10-0"]
+ModelingToolkit = "6.2.0-6"
 Symbolics = "3"
 julia = "1.5.0-1"
+
+["0.11-0"]
+Catalyst = "9"
+SymbolicUtils = "0.13.3-0.15"
 
 ["0.2"]
 Catalyst = "5.0.5-5"
