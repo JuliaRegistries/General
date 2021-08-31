@@ -16,7 +16,7 @@ The [FAQ](FAQ) helps answer many more questions, like [do I need to register a p
 You (yes, you!) can help General be the best registry it can be.
 
 The first step is to check out new package registrations.
-They are filed under the ["new package" label](https://github.com/JuliaRegistries/General/pulls?q=is%3Apr+is%3Aopen+label%3A%22new+package%22), and a automatic feed posts them in the `#new-packages-feed` channel in the [community Slack](https://julialang.org/slack/).
+They are filed under the ["new package" label](https://github.com/JuliaRegistries/General/pulls?q=is%3Apr+is%3Aopen+label%3A%22new+package%22), and a automatic feed posts them in the `#new-packages-feed` channel in the [community Slack](https://julialang.org/slack/) or [Zulip](https://julialang.zulipchat.com/register/).
 
 
 When registration is triggered for a new package (or new version of a package), [RegistryCI.jl](RegistryCI)-powered AutoMerge automatically runs and performs [some basic checks](https://juliaregistries.github.io/RegistryCI.jl/stable/guidelines/).
