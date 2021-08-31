@@ -22,7 +22,7 @@ jobs:
         end
     
         include(joinpath(ENV["GITHUB_WORKSPACE"], ".ci", "parse_env.jl"))
-        pr_url, text = parse_env(ENV)
+        text, pr_url = parse_env(ENV)
 
         using Pkg
         Pkg.activate(mktempdir())
