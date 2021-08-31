@@ -1,5 +1,4 @@
 [0]
-BlockBandedMatrices = "0.10"
 FFTW = "1.1.0-1"
 FastGaussQuadrature = "0.4.3-0.4"
 
@@ -28,6 +27,9 @@ julia = "1.5.0-1"
 ["0-0.4.2"]
 DomainSets = "0.4-0.5"
 FillArrays = "0.11"
+
+["0-0.4.5"]
+BlockBandedMatrices = "0.10"
 
 ["0.1.1-0.1"]
 BandedMatrices = "0.16.4-0.16"
@@ -139,7 +141,14 @@ LazyArrays = "0.21.14-0.21"
 ["0.4.4-0"]
 BlockArrays = "0.16"
 
-["0.4.5-0"]
-ContinuumArrays = "0.9.1-0.9"
+["0.4.5"]
 LazyArrays = "0.21.15-0.21"
 LazyBandedMatrices = "0.6.5-0.6"
+
+["0.4.5-0"]
+ContinuumArrays = "0.9.1-0.9"
+
+["0.4.6-0"]
+BlockBandedMatrices = "0.10.9-0.10"
+LazyArrays = "0.21.16-0.21"
+LazyBandedMatrices = "0.6.6-0.6"
