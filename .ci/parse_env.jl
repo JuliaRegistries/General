@@ -25,15 +25,17 @@ function parse_env(env=ENV; verbose=true)
         elseif has_description
             println(io, strip(match_description[1]))
         end
+        
         if has_release
-            if has_description || has_name
-                println(io)
-            end
+            # Leave a gap if we've just printed something
+            has_description && println(io)
             println(io, "Release notes:")
             println(io, strip(match_release[1]))
         end
-        if has_name || has_description || has_release
-            println(io) # separate by an extra line
+
+        # Leave a gap if we've just printed something
+        if has_description || has_release
+            println(io)
         end
         println(io, "Registration: ", pr_url)
         if has_repo
