@@ -30,7 +30,6 @@ julia = "1.4.0-1"
 
 ["0.3-0"]
 KernelDensity = "0.6"
-Roots = "1"
 
 ["0.3-0.4.0"]
 LinearFractional = "0.7"
@@ -38,14 +37,25 @@ LinearFractional = "0.7"
 ["0.3-0.4.1"]
 ParameterJuMP = "0.2"
 
+["0.3-0.4.3"]
+Roots = "1"
+
 ["0.4-0"]
 CSV = "0.8"
 Reexport = ["0.2", "1"]
+
+["0.4-0.4.3"]
 julia = "1.5.0-1"
 
 ["0.4.1-0"]
 LinearFractional = "0.7.4-0.7"
 
 ["0.4.2-0"]
-Distributions = "0.24.7-0.24"
 ParameterJuMP = "0.3"
+
+["0.4.2-0.4.3"]
+Distributions = "0.24.7-0.24"
+
+["0.4.4-0"]
+Distributions = "0.24.7-0.25"
+julia = "1.6.0-1"
