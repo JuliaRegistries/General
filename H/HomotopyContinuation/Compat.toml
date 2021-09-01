@@ -171,8 +171,10 @@ LoopVectorization = "0.6-0.9"
 Arblib = "0.2.2-0.2"
 
 ["2.3.4-2"]
-Arblib = "0.2.2-0.3"
 Reexport = ["0.2", "1"]
+
+["2.3.4-2.5.6"]
+Arblib = "0.2.2-0.3"
 
 ["2.4-2"]
 SemialgebraicSets = "0.2.2-0.2"
@@ -183,7 +185,7 @@ PrettyTables = "0.10-0.11"
 ["2.4.2-2.5.0"]
 LoopVectorization = "0.6-0.11"
 
-["2.5-2"]
+["2.5-2.5.6"]
 StructArrays = "0.4-0.5"
 
 ["2.5.1-2"]
@@ -197,3 +199,7 @@ PrettyTables = ["0.10-0.12", "1"]
 
 ["2.5.5-2"]
 ProgressMeter = "1.6.1-1"
+
+["2.5.7-2"]
+Arblib = "0.2.2-0.4"
+StructArrays = "0.4-0.6"
