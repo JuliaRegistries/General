@@ -14,12 +14,19 @@ LoopVectorization = "0.11-0.12"
 ["0.1.1-0.5.2"]
 VectorizationBase = "0.18-0.20"
 
-["0.4-0"]
+["0.4-0.5.3"]
 julia = "1"
 
-["0.5-0"]
+["0.5-0.5.3"]
 Static = "0.2"
+
+["0.5.3"]
+VectorizationBase = "0.20"
 
 ["0.5.3-0"]
 LoopVectorization = "0.12.42-0.12"
-VectorizationBase = "0.20"
+
+["0.5.4-0"]
+Static = "0.2-0.3"
+VectorizationBase = "0.20-0.21"
+julia = "1.6.0-1"
