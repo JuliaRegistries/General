@@ -1,5 +1,4 @@
 [0]
-Documenter = "0.25"
 DocumenterTools = "0.1"
 Unitful = "1.3.0-1"
 UnitfulAstro = "1"
@@ -7,7 +6,17 @@ UnitfulAstro = "1"
 ["0-0.1"]
 julia = "1"
 
+["0-0.2.0"]
+Documenter = "0.25"
+
 ["0.2-0"]
 Cosmology = "1"
-GadgetIO = "0.5"
 julia = "1.6.0-1"
+
+["0.2.0"]
+GadgetIO = "0.5"
+
+["0.2.1-0"]
+Documenter = ["0.25", "0.27"]
+GadgetIO = "0.5.6-0.5"
+Roots = "1.3.0-1"
