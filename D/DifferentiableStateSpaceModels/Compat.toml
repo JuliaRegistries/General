@@ -1,5 +1,4 @@
 [0]
-Distributions = "0.24"
 DistributionsAD = "0.6"
 DocStringExtensions = "0.8"
 GeneralizedGenerated = "0.3"
@@ -43,11 +42,22 @@ CUDA = "3.3.0-3"
 StatsPlots = "0.14"
 TuringCallbacks = "0.1"
 
+["0-0.3.0"]
+Distributions = "0.24"
+
 ["0.1.1-0.1"]
 CUDA = ["2", "3.3.0-3"]
 
 ["0.2-0"]
-ChainRulesCore = ["0.5-0.7", "0.9-0.10"]
 MatrixEquations = "1.5.0-1"
+
+["0.2-0.3.0"]
+ChainRulesCore = ["0.5-0.7", "0.9-0.10"]
 Zygote = "0.5"
 julia = "1.6.0-1"
+
+["0.3.1-0"]
+ChainRulesCore = ["0.1", "0.5-0.9", "1"]
+Distributions = "0.24-0.25"
+Zygote = "0.5-0.6"
+julia = "1.5.0-1"
