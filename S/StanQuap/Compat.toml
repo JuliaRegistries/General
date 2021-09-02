@@ -1,6 +1,5 @@
 [0-1]
 CSV = "0.8"
-MonteCarloMeasurements = "0.10"
 NamedTupleTools = "0.13"
 OrderedCollections = "1.4.0-1"
 Reexport = "1"
@@ -17,6 +16,9 @@ Distributions = "0.24"
 ["0-1.0.5"]
 StanSample = "3"
 
+["0-1.0.6"]
+MonteCarloMeasurements = "0.10"
+
 [1]
 DocStringExtensions = "0.8"
 
@@ -28,3 +30,6 @@ Distributions = "0.24-0.25"
 
 ["1.0.6-1"]
 StanSample = "3-4"
+
+["1.0.7-1"]
+MonteCarloMeasurements = ["0.10-0.11", "1"]
