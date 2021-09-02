@@ -51,7 +51,6 @@ julia = "1.3.0-*"
 
 ["1.0.6-1"]
 Combinatorics = "1"
-DataStructures = "0.15-0.17"
 
 ["1.0.6-1.1.2"]
 LearnBase = "0.2"
@@ -61,6 +60,9 @@ DataFrames = "0.18-0.20"
 Flux = "0.10"
 Zygote = "0.4"
 julia = "1.3.0-1"
+
+["1.0.6-1.6.0"]
+DataStructures = "0.15-0.17"
 
 ["1.0.6-2"]
 MLDataPattern = "0.5"
@@ -86,17 +88,21 @@ Flux = "0.10-0.11"
 Zygote = "0.4-0.5"
 
 ["1.3-1"]
-DataFrames = "0.18-0.21"
 julia = "1.4.0-1"
 
 ["1.3-1.4"]
 HierarchicalUtils = "1"
+
+["1.3-1.6.0"]
+DataFrames = "0.18-0.21"
 
 ["1.3-2"]
 Setfield = "0.6-0.7"
 
 ["1.4-1"]
 Flux = "0.11"
+
+["1.4-1.6.0"]
 Zygote = "0.5.4-0.5"
 
 ["1.5.0"]
@@ -107,6 +113,13 @@ HierarchicalUtils = "1.2"
 
 ["1.5.2-2.4"]
 StatsBase = "0.24-0.33"
+
+["1.6.1-1"]
+DataFrames = ["0.18-0.22", "1"]
+Zygote = "0.5.17-0.5"
+
+["1.6.1-2.4"]
+DataStructures = "0.15-0.18"
 
 [2]
 ChainRulesCore = "0.9"
@@ -119,7 +132,6 @@ Zygote = "0.5.10-0.5"
 
 ["2-2.4"]
 DataFrames = "0.18-0.22"
-DataStructures = "0.15-0.18"
 Flux = "0.11.2-0.11"
 
 ["2.2-2"]
