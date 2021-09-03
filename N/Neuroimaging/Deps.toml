@@ -1,5 +1,4 @@
 [1]
-BDF = "0f5c7595-fa0c-55c8-9031-265ea63f34cf"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
@@ -11,7 +10,6 @@ Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
-ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
@@ -22,3 +20,12 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+["1.0.0"]
+BDF = "0f5c7595-fa0c-55c8-9031-265ea63f34cf"
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+
+["1.0.1-1"]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Query = "1a8c2f83-1ff3-5112-b086-8aa67b057ba1"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
