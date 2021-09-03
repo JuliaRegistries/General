@@ -76,8 +76,16 @@ FFTW = "1"
 OffsetArrays = "1"
 Requires = "1"
 
+["0.3.3"]
+GeometricIntegrators = "0.7-0.8"
+julia = "1.5.0-1"
+
 ["0.3.3-0"]
 Documenter = "0.23-0.27"
-GeometricIntegrators = "0.7-0.8"
 HDF5 = ["0.10", "0.12-0.15"]
-julia = "1.5.0-1"
+
+["0.3.4-0"]
+ClassicalOrthogonalPolynomials = "0.4"
+FastTransforms = "0.11-0.12"
+GeometricIntegrators = "0.7-0.9"
+julia = "1.6.0-1"
