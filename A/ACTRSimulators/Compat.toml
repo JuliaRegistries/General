@@ -1,5 +1,4 @@
 [0]
-ACTRModels = "0.6"
 Cairo = "1"
 DataStructures = "0.18"
 DiscreteEventsLite = "0.1"
@@ -8,5 +7,12 @@ Reexport = "1"
 SafeTestsets = "0.0.1"
 julia = "1"
 
+["0-0.2.0"]
+ACTRModels = "0.6"
+
 ["0.2-0"]
 ConcreteStructs = "0.2"
+
+["0.2.1-0"]
+ACTRModels = "0.8"
+DataFrames = "1"
