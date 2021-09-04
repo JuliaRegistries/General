@@ -1,6 +1,5 @@
 [0]
 AbstractGPs = "0.3"
-ChainRulesCore = "0.10"
 IntervalArithmetic = "0.17-0.19"
 NonconvexCore = "0.1.4-0.1"
 NonconvexIpopt = "0.1.2-0.1"
@@ -8,3 +7,9 @@ Parameters = "0.12"
 Reexport = "1"
 Sobol = "1"
 julia = "1"
+
+["0-0.1.0"]
+ChainRulesCore = "0.10"
+
+["0.1.1-0"]
+ChainRulesCore = ["0.10", "1"]
