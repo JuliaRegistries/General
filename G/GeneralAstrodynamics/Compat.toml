@@ -35,7 +35,12 @@ LabelledArrays = "1"
 RecipesBase = "1"
 Requires = "1"
 Rotations = "1"
+
+["0.10.0"]
 SymbolicUtils = "0.10-0.11"
+
+["0.10.1-0"]
+SymbolicUtils = ["0.10-0.11", "0.15"]
 
 ["0.9.3-0.9"]
 AstrodynamicalModels = "0.2.5-0.2"
