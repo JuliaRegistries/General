@@ -1,6 +1,4 @@
 [0]
-DSP = "0.6"
-Distributions = "0.23"
 DocStringExtensions = "0.8"
 PaddedViews = "0.5"
 Requires = "1"
@@ -17,6 +15,10 @@ Interact = "0.10"
 ProgressMeter = "1.2.0-1"
 SampledSignals = "2.1.0-2"
 
+["0-0.4.0"]
+DSP = "0.6"
+Distributions = "0.23"
+
 ["0.2-0.3"]
 Plots = ["0.29", "1"]
 
@@ -27,3 +29,7 @@ InteractiveViz = "0.1.2-0.1"
 FFTW = "1.2.0-1"
 MetaArrays = "0.2"
 WAV = "1"
+
+["0.4.1-0"]
+DSP = "0.6-0.7"
+Distributions = "0.23-0.25"
