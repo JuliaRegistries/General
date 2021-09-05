@@ -10,12 +10,8 @@ NearestNeighbors = "0.4"
 RecipesBase = "1.1.0-1"
 Setfield = "0.7"
 SimpleWeightedGraphs = "1.1.0-1"
-StaticArrays = "1"
 StatsBase = "0.32-0.33"
-Tables = "1.3.0-1"
 Variography = "0.12"
-WriteVTK = "1.7.0-1"
-julia = "1"
 
 ["0-0.1.1"]
 Meshes = "0.12"
@@ -24,9 +20,23 @@ Meshes = "0.12"
 LossFunctions = "0.6"
 ReferenceFrameRotations = "0.5"
 
+["0-0.1.3"]
+StaticArrays = "1"
+Tables = "1.3.0-1"
+WriteVTK = "1.7.0-1"
+julia = "1"
+
 ["0.1.2"]
 Meshes = "0.14"
 
-["0.1.3-0"]
+["0.1.3"]
 Meshes = "0.16"
 ReferenceFrameRotations = ["0.5", "1"]
+
+["0.1.4-0"]
+Meshes = "0.17"
+ReferenceFrameRotations = "1"
+StaticArrays = "1.2.0-1"
+Tables = "1.5.0-1"
+WriteVTK = "1.10.0-1"
+julia = "1.5.0-1"
