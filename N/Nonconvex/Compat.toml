@@ -3,10 +3,8 @@ ForwardDiff = "0.10"
 Optim = "1.2.0-1"
 Parameters = "0.12"
 PyPlot = "2.9.0-2"
-Reexport = "1"
 Requires = "1"
 Setfield = "0.7"
-julia = "1"
 
 ["0-0.5"]
 ChainRulesCore = "0.9"
@@ -14,6 +12,10 @@ Zygote = "0.6.4-0.6"
 
 ["0-0.7.2"]
 Ipopt = "0.6"
+
+[0-1]
+Reexport = "1"
+julia = "1"
 
 ["0.2-0.3"]
 Percival = "0.2"
@@ -62,3 +64,6 @@ ChainRulesCore = ["0.10", "1"]
 IntervalArithmetic = "0.17-0.19"
 Ipopt = "0.6-0.7"
 NLPModelsModifiers = ["0.1-0.2", "0.4"]
+
+[1]
+NonconvexCore = "0.1"
