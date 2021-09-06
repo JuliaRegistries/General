@@ -7,22 +7,29 @@ IntervalArithmetic = "d1acc4aa-44c8-5952-acd4-ba5d80a2a253"
 IntervalOptimisation = "c7c68f13-a4a2-5b9a-b424-07d005f8d9d2"
 LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
 TaylorSeries = "6aa5eb33-94cf-58f4-a9d0-e4b2c4fc25ea"
 ValidatedNumerics = "d621b6e3-7715-5857-9c6f-c67000ef6083"
 
-["0.1.1-0"]
+["0-0.1.1"]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+
+["0.1.1"]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
-FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 FastTransforms = "057dd010-8810-581a-b7be-e3fc3b93f78c"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-IntervalRootFinding = "d2bf35a9-74e0-55ec-b149-d360ff49b807"
 PGFPlotsX = "8314cec4-20b6-5062-9cdb-752b83310925"
+
+["0.1.1-0"]
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+IntervalRootFinding = "d2bf35a9-74e0-55ec-b149-d360ff49b807"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+
+["0.1.2-0"]
+TaylorModels = "314ce334-5f6e-57ae-acf6-00b6e903104a"
