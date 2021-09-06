@@ -1,7 +1,5 @@
 [0]
-GeometryPrimitives = "0.1"
 Reexport = "1"
-julia = "1.5.0-1"
 
 ["0-0.1.0"]
 StaggeredGridCalculus = "0.1"
@@ -10,6 +8,10 @@ StaticArrays = "1"
 ["0-0.1.2"]
 AbbreviatedTypes = "0.1"
 SimpleConstants = "0.1"
+
+["0-0.1.3"]
+GeometryPrimitives = "0.1"
+julia = "1.5.0-1"
 
 ["0.1.1"]
 StaggeredGridCalculus = "0.1.2-0.1"
@@ -21,3 +23,7 @@ StaggeredGridCalculus = "0.1.3-0.1"
 AbbreviatedTypes = "0.1.3-0.1"
 SimpleConstants = "0.1.1-0.1"
 StaggeredGridCalculus = "0.1.4-0.1"
+
+["0.1.4-0"]
+GeometryPrimitives = "0.1.2-0.1"
+julia = "1.6.0-1"
