@@ -3,8 +3,6 @@ CxxWrap = "1f15a43c-97ca-5a2a-ae31-89f07a497df4"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
-MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
-SemidefiniteModels = "169818f4-1a3d-53bf-95b3-11177825b1e3"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0-0.1"]
@@ -12,6 +10,10 @@ SemidefiniteOptInterface = "f0680fed-b2cd-5302-98f9-f4da282d86b5"
 
 ["0-0.2"]
 BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+
+["0-0.3.1"]
+MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
+SemidefiniteModels = "169818f4-1a3d-53bf-95b3-11177825b1e3"
 
 ["0.3-0"]
 SDPA_jll = "7fc90fd6-dbef-5a6a-93f8-169f2a2e705b"
