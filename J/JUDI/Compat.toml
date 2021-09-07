@@ -4,6 +4,11 @@ Dierckx = "0.4-0.5"
 FFTW = "1"
 JOLI = "0.7"
 PyCall = "1.18.0-1"
-Reexport = "1"
 SegyIO = "0.7"
 julia = "1"
+
+["2-2.4"]
+Reexport = "1"
+
+["2.5-2"]
+Reexport = ["0.2", "1"]
