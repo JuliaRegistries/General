@@ -4,10 +4,8 @@ ColorSchemes = "3.10.0-3"
 Colors = "0.12"
 ForwardDiff = "0.10"
 ImageView = "0.10"
-Ipopt = "0.6"
 JuMP = "0.21"
 Luxor = "2.10.0-2"
-Makie = "0.12"
 MeshIO = "0.4"
 NLopt = "0.6"
 Optim = "1.2.0-1"
@@ -36,6 +34,10 @@ FileIO = "1.6.0-1"
 DataFrames = "0.22"
 Images = "0.23"
 
+["0-0.5.1"]
+Ipopt = "0.6"
+Makie = "0.12"
+
 ["0.4.0"]
 HTTP = "0.8"
 
@@ -43,11 +45,13 @@ HTTP = "0.8"
 Conda = "1.5.0-1"
 FileIO = "1.4.0-1"
 Format = "1.3.0-1"
-GLMakie = "0.1-0.2"
 HTTP = "0.8-0.9"
-Pluto = ["0.12", "0.14"]
 PlutoUI = "0.7"
 PyCall = "1.92.0-1"
+
+["0.4.1-0.5.1"]
+GLMakie = "0.1-0.2"
+Pluto = ["0.12", "0.14"]
 WGLMakie = "0.3"
 
 ["0.4.4-0"]
@@ -58,3 +62,13 @@ Revise = "3.1.0-3"
 ["0.5-0"]
 ColorTypes = "0.10-0.11"
 Distributions = "0.24-0.25"
+
+["0.5.2-0"]
+GLMakie = "0.4"
+GeometryBasics = "0.3-0.4"
+Ipopt = "0.6-0.7"
+JSServe = "1"
+LazySets = "1"
+Makie = "0.14-0.15"
+Pluto = ["0.12", "0.14-0.15"]
+WGLMakie = "0.4"
