@@ -6,6 +6,11 @@ IterativeSolvers = "0.8-0.9"
 NFFT = "0.4-0.6"
 Nullables = "1"
 PyCall = "1.18.0-1"
-SpecialFunctions = ["0.7-0.9", "1"]
 Wavelets = "0.8-0.9"
 julia = "1"
+
+["0-0.7.14"]
+SpecialFunctions = ["0.7-0.9", "1"]
+
+["0.7.15-0"]
+SpecialFunctions = ["0.7-0.10", "1"]
