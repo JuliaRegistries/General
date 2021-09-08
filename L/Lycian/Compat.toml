@@ -1,10 +1,12 @@
 [0]
 DocStringExtensions = "0.8"
-Documenter = "0.26"
-julia = "1.5.0-1"
 
 ["0-0.1.2"]
 Orthography = "0.4"
+
+["0-0.3.1"]
+Documenter = "0.26"
+julia = "1.5.0-1"
 
 ["0.1.13-0.1"]
 Orthography = "0.6"
@@ -19,7 +21,6 @@ Orthography = "0.8"
 Orthography = "0.10"
 
 ["0.2.2-0"]
-CSV = "0.8"
 CitableObject = "0.6"
 CitableText = "0.9"
 DataFrames = "1"
@@ -33,8 +34,16 @@ CitableParserBuilder = "0.10"
 ["0.2.2-0.3.0"]
 CitableCorpus = "0.3"
 
+["0.2.2-0.3.1"]
+CSV = "0.8"
+
 ["0.3-0"]
 CitableParserBuilder = "0.11"
 
 ["0.3.1-0"]
 CitableCorpus = "0.4"
+
+["0.3.2-0"]
+CSV = "0.8-0.9"
+Documenter = "0.26-0.27"
+julia = "1"
