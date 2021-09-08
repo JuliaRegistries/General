@@ -1,9 +1,18 @@
 [0]
-AbInitioSoftwareBase = "0.2-0.3"
-Configurations = "0.16"
 EquationsOfStateOfSolids = "0.2"
 Formatting = "0.4"
-SimpleWorkflows = "0.4-0.6"
-Unitful = "1"
 UnitfulAtomic = "1"
 julia = "1"
+
+["0-0.1"]
+AbInitioSoftwareBase = "0.2-0.3"
+Configurations = "0.16"
+SimpleWorkflows = "0.4-0.6"
+Unitful = "1"
+
+["0.2-0"]
+AbInitioSoftwareBase = "0.2-0.5"
+Configurations = "0.3-0.16"
+PyQHA = "0.1"
+SimpleWorkflows = "0.4-0.8"
+Unitful = ["0.13-0.18", "1"]
