@@ -18,12 +18,14 @@ ValueHistories = "0.0.0 - 0.5"
 SpecialFunctions = "0.0.0 - 0.10"
 
 ["0.10-0"]
-ChainRulesCore = "0.9"
 Flux = "0.10-0.12"
-InducingPoints = "0.1"
-KernelFunctions = "0.8-0.9"
 Zygote = "0.6.7-0.6"
 julia = "1.6.0-1"
+
+["0.10-0.10.4"]
+ChainRulesCore = "0.9"
+InducingPoints = "0.1"
+KernelFunctions = "0.8-0.9"
 
 ["0.10.2"]
 AbstractMCMC = "2"
@@ -33,6 +35,13 @@ AbstractMCMC = "2-3"
 
 ["0.10.4-0"]
 Distributions = "0.21.5-0.25"
+
+["0.10.5-0"]
+AdvancedHMC = "0.2.13-0.3"
+ChainRulesCore = ["0.9", "1"]
+InducingPoints = "0.2"
+KernelFunctions = "0.8-0.10"
+Optimisers = "0.1"
 
 ["0.4-0.4.1"]
 MLKernels = "0.0.0 - 0.4"
@@ -70,9 +79,11 @@ MCMCChains = "0.3.15-0.3"
 StatsFuns = "0.8"
 
 ["0.6-0"]
-AdvancedHMC = "0.2.13-0.2"
 FastGaussQuadrature = "0.4"
 ProgressMeter = "1"
+
+["0.6-0.10.4"]
+AdvancedHMC = "0.2.13-0.2"
 
 ["0.6-0.7"]
 StatsBase = "0.32"
