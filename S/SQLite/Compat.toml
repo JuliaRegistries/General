@@ -27,6 +27,8 @@ Tables = "0.1-0.2"
 
 ["0.9-1"]
 BinaryProvider = "0.5"
+
+["0.9-1.1"]
 WeakRefStrings = "0.4-0.6"
 julia = "1"
 
@@ -42,3 +44,7 @@ DBInterface = "2.3.0-2"
 
 ["1.1.1-1"]
 DBInterface = "2.4.0-2"
+
+["1.2-1"]
+WeakRefStrings = ["0.4-0.6", "1"]
+julia = "1.3.0-1"
