@@ -184,12 +184,17 @@ MonteCarloMeasurements = "0.10-0.11"
 
 ["4.0.1-4"]
 AxisKeys = "0.1"
-CSV = "0.8"
 DataFrames = "1"
 Distributions = "0.25"
 OrderedCollections = "1.4.0-1"
 Reexport = "1"
 Tables = "1.5.0-1"
 
+["4.0.1-4.0.2"]
+CSV = "0.8"
+
 ["4.0.2-4"]
 MonteCarloMeasurements = ["0.10-0.11", "1"]
+
+["4.0.3-4"]
+CSV = "0.8-0.9"
