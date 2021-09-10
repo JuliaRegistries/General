@@ -4,10 +4,8 @@ DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
-DisplayAs = "0b91fe84-8a4c-11e9-3e1d-67c38462b6d6"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
@@ -15,11 +13,15 @@ Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+["1-1.1.0"]
+DisplayAs = "0b91fe84-8a4c-11e9-3e1d-67c38462b6d6"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 
 ["1.0"]
 BDF = "0f5c7595-fa0c-55c8-9031-265ea63f34cf"
@@ -27,5 +29,10 @@ ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 
 ["1.1-1"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
+["1.1.0"]
 Query = "1a8c2f83-1ff3-5112-b086-8aa67b057ba1"
 StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+
+["1.1.1-1"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
