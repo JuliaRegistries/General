@@ -25,7 +25,6 @@ CitableObject = "0.6"
 CitableText = "0.9"
 DataFrames = "1"
 HTTP = "0.9"
-Orthography = "0.11"
 Query = "1"
 
 ["0.2.2-0.2"]
@@ -37,13 +36,22 @@ CitableCorpus = "0.3"
 ["0.2.2-0.3.1"]
 CSV = "0.8"
 
+["0.2.2-0.3.2"]
+Orthography = "0.11"
+
 ["0.3-0"]
 CitableParserBuilder = "0.11"
 
 ["0.3.1-0"]
 CitableCorpus = "0.4"
 
+["0.3.2"]
+Documenter = "0.26-0.27"
+
 ["0.3.2-0"]
 CSV = "0.8-0.9"
-Documenter = "0.26-0.27"
 julia = "1"
+
+["0.3.3-0"]
+Documenter = "0.27"
+Orthography = "0.12"
