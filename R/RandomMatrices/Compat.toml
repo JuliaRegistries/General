@@ -1,4 +1,4 @@
-[0]
+["0-0.5.0"]
 Combinatorics = "0.7.0 - 1"
 Distributions = "0.16.0 - 0.23"
 FastGaussQuadrature = "0.3.0 - 0.4"
@@ -6,3 +6,11 @@ GSL = "0.4.0 - 1"
 Requires = "0.5.0 - 1"
 SpecialFunctions = "0.7.0 - 0.10"
 julia = ["0.7.0", "1"]
+
+["0.5.1-0"]
+Combinatorics = ["0.7", "1"]
+Distributions = "0.16-0.25"
+FastGaussQuadrature = "0.3-0.4"
+GSL = ["0.4", "1"]
+SpecialFunctions = ["0.7", "1"]
+julia = ["0.7", "1"]
