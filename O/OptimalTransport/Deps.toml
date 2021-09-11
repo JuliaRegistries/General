@@ -1,18 +1,22 @@
 [0]
-Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0-0.1"]
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 
+["0-0.3.15"]
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+
 ["0.1.6-0"]
 IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
+
+["0.1.6-0.3.15"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0.2"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["0.2-0"]
+["0.2-0.3.15"]
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
 
 ["0.2.0"]
@@ -22,15 +26,19 @@ LazyArrays = "5078a376-72f3-5289-bfd5-ec5146d43c02"
 ["0.3.12-0"]
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 
+["0.3.16-0"]
+ExactOptimalTransport = "24df6009-d856-477c-ac5c-91f668376b31"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
 ["0.3.2-0"]
 LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
 
-["0.3.3-0"]
+["0.3.3-0.3.15"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 
-["0.3.6-0"]
+["0.3.6-0.3.15"]
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0.3.9-0"]
+["0.3.9-0.3.15"]
 PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
