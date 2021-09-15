@@ -1,16 +1,23 @@
 [0]
-CSV = "0.8"
-Combinatorics = "1"
-DataStructures = "0.18"
 DiffResults = "1"
 ForwardDiff = "0.10"
 LogExpFunctions = "0.2-0.3"
 NLSolvers = "0.1"
-NLopt = "0.6"
-NamedArrays = "0.9"
 Roots = "1"
 StaticArrays = "1"
 Tables = "1.4.0-1"
 ThermoState = "0.4"
 Unitful = "1.5.0-1"
 julia = "1.5.0-1"
+
+["0-0.2.1"]
+CSV = "0.8"
+Combinatorics = "1"
+DataStructures = "0.18"
+NLopt = "0.6"
+NamedArrays = "0.9"
+
+["0.2.2-0"]
+CSV = "0.8-0.9"
+NaNMath = "0.3"
+PositiveFactorizations = "0.2"
