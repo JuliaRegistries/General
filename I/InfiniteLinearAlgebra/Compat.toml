@@ -100,15 +100,15 @@ FillArrays = "0.8.11-0.8"
 InfiniteArrays = "0.7.3-0.7"
 LazyArrays = "0.16.13-0.16"
 
-["0.4-0"]
-julia = "1.5.0-1"
-
 ["0.4-0.4.2"]
 InfiniteArrays = "0.8"
 
 ["0.4-0.4.4"]
 BlockArrays = "0.12.12-0.12"
 BlockBandedMatrices = "0.9"
+
+["0.4-0.5"]
+julia = "1.5.0-1"
 
 ["0.4.0"]
 ArrayLayouts = "0.4.3-0.4"
@@ -147,15 +147,15 @@ SemiseparableMatrices = "0.2"
 LazyArrays = "0.20"
 LazyBandedMatrices = "0.4"
 
-["0.4.5-0"]
-BlockBandedMatrices = "0.10"
-
 ["0.4.5-0.4"]
 ArrayLayouts = "0.5.1-0.5"
 
 ["0.4.5-0.4.6"]
 BlockArrays = "0.14"
 InfiniteArrays = "0.9"
+
+["0.4.5-0.5"]
+BlockBandedMatrices = "0.10"
 
 ["0.4.5-0.5.0"]
 MatrixFactorizations = "0.7.1-0.8"
@@ -213,7 +213,7 @@ LazyArrays = "0.21.8-0.21"
 ["0.5.12-0"]
 SemiseparableMatrices = "0.2.7-0.2"
 
-["0.5.14-0"]
+["0.5.14-0.5"]
 InfiniteArrays = "0.11-0.12"
 
 ["0.5.3-0.5.5"]
@@ -235,7 +235,7 @@ BlockArrays = "0.15"
 ["0.5.6-0.5.9"]
 LazyArrays = "0.21"
 
-["0.5.8-0"]
+["0.5.8-0.5"]
 ArrayLayouts = "0.7.2-0.7"
 DSP = "0.6-0.7"
 LazyBandedMatrices = "0.6"
@@ -243,5 +243,14 @@ LazyBandedMatrices = "0.6"
 ["0.5.8-0.5.13"]
 InfiniteArrays = "0.11"
 
-["0.5.9-0"]
+["0.5.9-0.5"]
 BlockArrays = "0.15-0.16"
+
+["0.6-0"]
+ArrayLayouts = "0.7.5-0.7"
+BlockArrays = "0.16"
+BlockBandedMatrices = "0.11"
+DSP = "0.7"
+InfiniteArrays = "0.12"
+LazyBandedMatrices = "0.7"
+julia = "1.6.0-1"
