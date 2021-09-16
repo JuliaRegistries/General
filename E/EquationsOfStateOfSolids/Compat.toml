@@ -1,5 +1,4 @@
 [0]
-AutoHashEquals = "0.2"
 ConstructionBase = "1"
 EquationsOfState = "4"
 LsqFit = "0.8-0.12"
@@ -16,9 +15,15 @@ Configurations = "0.3-0.15"
 Compat = "3.1.0-3"
 Roots = ["0.8", "1"]
 
+["0-0.2.1"]
+AutoHashEquals = "0.2"
+
 ["0.1.1"]
 Configurations = "0.3-0.16"
 
 ["0.2-0"]
 Roots = ["0.8", "1"]
 StaticArrays = ["0.8.3-0.12", "1"]
+
+["0.2.2-0"]
+StructHelpers = "0.1"
