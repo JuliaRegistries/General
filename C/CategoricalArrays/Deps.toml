@@ -10,13 +10,16 @@ JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
-["0.10-0"]
+["0.10.0"]
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+
+["0.10.1-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.5-0.5.2"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["0.5.3-0"]
+["0.5.3-0.10.0"]
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 
 ["0.5.5-0"]
@@ -28,5 +31,5 @@ Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 ["0.7.5-0"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.8.2-0"]
+["0.8.2-0.10.0"]
 StructTypes = "856f2bd8-1eba-4b0a-8007-ebc267875bd4"
