@@ -29,7 +29,6 @@ Gtk = "0.17-0.18"
 
 ["0.7-1"]
 Reactive = "0.8"
-RoundingIntegers = "0.2"
 julia = "1"
 
 ["0.7-1.0.1"]
@@ -41,6 +40,9 @@ IntervalSets = "0.3"
 
 ["0.7-1.0.4"]
 Reexport = "0.2"
+
+["0.7-1.0.5"]
+RoundingIntegers = "0.2"
 
 [1]
 Cairo = ["0.6-0.8", "1"]
@@ -58,3 +60,6 @@ IntervalSets = "0.3-0.5"
 
 ["1.0.5-1"]
 Reexport = ["0.2", "1"]
+
+["1.0.6-1"]
+RoundingIntegers = ["0.2", "1"]
