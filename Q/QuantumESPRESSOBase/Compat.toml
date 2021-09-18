@@ -1,10 +1,8 @@
 [0]
-AutoHashEquals = "0.2"
 Compat = "3.8.0-3"
 ConstructionBase = "1"
 Crystallography = "0.3"
 Functors = "0.2"
-Setfield = "0.3-0.7"
 StaticArrays = ["0.8.3-0.12", "1"]
 Unitful = ["0.18", "1"]
 UnitfulAtomic = ["0.2-0.3", "1"]
@@ -13,8 +11,16 @@ julia = "1"
 ["0-0.3.0"]
 AbInitioSoftwareBase = "0.2-0.3"
 
+["0-0.3.2"]
+AutoHashEquals = "0.2"
+Setfield = "0.3-0.7"
+
 ["0.3.1"]
 AbInitioSoftwareBase = "0.2-0.5"
 
 ["0.3.2-0"]
 AbInitioSoftwareBase = "0.2-0.6"
+
+["0.3.3-0"]
+Setfield = "0.3-0.8"
+StructHelpers = "0.1"
