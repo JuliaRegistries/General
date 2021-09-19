@@ -24,8 +24,16 @@ TextAnalysis = "0.7"
 CiteEXchange = "0.4"
 
 ["0.4.1-0"]
+DataFrames = "1"
+julia = "1"
+
+["0.4.1-0.4"]
 CSV = "0.8-0.9"
 CitableText = "0.9"
-DataFrames = "1"
 Documenter = "0.26-0.27"
-julia = "1"
+
+["0.5-0"]
+CSV = "0.9"
+CitableBase = "3"
+CitableText = "0.11"
+Documenter = "0.27"
