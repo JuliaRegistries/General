@@ -254,7 +254,6 @@ InfiniteArrays = "0.10"
 ["0.4-0"]
 AbstractFFTs = ["0.5", "1"]
 BandedMatrices = "0.16"
-BlockBandedMatrices = "0.10"
 SpecialFunctions = ["0.10", "1"]
 julia = "1.5.0-1"
 
@@ -263,6 +262,9 @@ LazyArrays = "0.20"
 
 ["0.4-0.4.2"]
 BlockArrays = "0.14"
+
+["0.4-0.5.1"]
+BlockBandedMatrices = "0.10"
 
 ["0.4.2-0"]
 LazyArrays = "0.20-0.21"
@@ -275,12 +277,18 @@ BlockArrays = "0.14-0.16"
 DSP = "0.6-0.7"
 DomainSets = "0.5"
 FillArrays = "0.11-0.12"
-InfiniteLinearAlgebra = "0.5"
 LowRankApprox = "0.2-0.5"
 ToeplitzMatrices = "0.6-0.7"
+
+["0.5-0.5.1"]
+InfiniteLinearAlgebra = "0.5"
 
 ["0.5.0"]
 InfiniteArrays = "0.11"
 
 ["0.5.1-0"]
 InfiniteArrays = "0.11-0.12"
+
+["0.5.2-0"]
+BlockBandedMatrices = "0.10-0.11"
+InfiniteLinearAlgebra = "0.5-0.6"
