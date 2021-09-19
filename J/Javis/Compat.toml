@@ -2,10 +2,12 @@
 FFMPEG = "0.3-0.4"
 LaTeXStrings = "1.1.0-1"
 LightXML = "0.9"
-julia = "1.4.0-1"
 
 ["0-0.5"]
 Luxor = "2"
+
+["0-0.6"]
+julia = "1.4.0-1"
 
 ["0.2-0"]
 Animations = "0.4"
@@ -13,10 +15,12 @@ Cairo = "1"
 Gtk = "1.1.0-1"
 GtkReactive = "1.0.3-1"
 ProgressMeter = "1"
-VideoIO = "0.6-0.8"
 
 ["0.2-0.3.0"]
 ColorTypes = "0.10"
+
+["0.2-0.6"]
+VideoIO = "0.6-0.8"
 
 ["0.2.0"]
 Images = "0.20-0.22"
@@ -42,3 +46,7 @@ Images = "0.20-0.24"
 
 ["0.6-0"]
 Luxor = "2.12.0-2"
+
+["0.7-0"]
+VideoIO = "0.9"
+julia = "1.5.0-1"
