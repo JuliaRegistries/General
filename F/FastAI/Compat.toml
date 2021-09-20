@@ -14,7 +14,6 @@ FixedPointNumbers = "0.8"
 Flux = "0.12"
 FluxTraining = "0.2"
 Glob = "1"
-IndirectArrays = "0.5"
 JLD2 = "0.4"
 LearnBase = "0.3-0.4"
 MLDataPattern = "0.5"
@@ -28,3 +27,10 @@ StaticArrays = "1.1.0-1"
 Tables = "1.4.0-1"
 Zygote = "0.6"
 julia = "1"
+
+["0-0.1"]
+IndirectArrays = "0.5"
+
+["0.2-0"]
+IndirectArrays = ["0.5", "1"]
+Setfield = "0.7-0.8"
