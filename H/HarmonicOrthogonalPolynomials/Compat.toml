@@ -1,5 +1,4 @@
 [0]
-BlockBandedMatrices = "0.10"
 IntervalSets = "0.5"
 
 ["0-0.0.1"]
@@ -21,6 +20,9 @@ julia = "1.5.0-1"
 
 ["0-0.2.0"]
 DomainSets = "0.4"
+
+["0-0.2.2"]
+BlockBandedMatrices = "0.10"
 
 ["0.0.2"]
 ClassicalOrthogonalPolynomials = "0.1-0.2"
@@ -53,7 +55,6 @@ QuasiArrays = "0.4-0.6"
 BlockArrays = "0.16"
 ClassicalOrthogonalPolynomials = "0.4.2-0.4"
 FastTransforms = "0.12"
-InfiniteArrays = "0.11"
 SpecialFunctions = "1"
 StaticArrays = "1"
 julia = "1.6.0-1"
@@ -61,12 +62,22 @@ julia = "1.6.0-1"
 ["0.2-0.2.1"]
 ContinuumArrays = "0.8"
 
+["0.2-0.2.2"]
+InfiniteArrays = "0.11"
+
 ["0.2.0"]
 QuasiArrays = "0.6"
 
 ["0.2.1-0"]
 DomainSets = "0.4-0.5"
+
+["0.2.1-0.2.2"]
 QuasiArrays = "0.6-0.7"
 
 ["0.2.2-0"]
 ContinuumArrays = "0.8-0.9"
+
+["0.2.3-0"]
+BlockBandedMatrices = "0.10-0.11"
+InfiniteArrays = "0.11-0.12"
+QuasiArrays = "0.6-0.8"
