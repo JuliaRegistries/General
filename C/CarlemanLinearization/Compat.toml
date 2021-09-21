@@ -1,3 +1,8 @@
 [0]
-DocStringExtensions = "0.8"
 julia = "1"
+
+["0-0.1"]
+DocStringExtensions = "0.8"
+
+["0.2-0"]
+Requires = ["0.5", "1"]
