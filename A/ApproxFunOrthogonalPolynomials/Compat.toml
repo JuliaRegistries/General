@@ -224,7 +224,6 @@ FillArrays = ["0.8", "0.9.4-0.11"]
 
 ["0.4-0"]
 BandedMatrices = "0.16"
-BlockBandedMatrices = "0.10"
 FastTransforms = "0.12"
 SpecialFunctions = ["0.10", "1"]
 julia = "1.5.0-1"
@@ -235,6 +234,9 @@ DomainSets = "0.4"
 
 ["0.4-0.4.2"]
 FillArrays = "0.11"
+
+["0.4-0.4.3"]
+BlockBandedMatrices = "0.10"
 
 ["0.4.0"]
 BlockArrays = "0.14"
@@ -249,3 +251,6 @@ DomainSets = "0.5"
 ["0.4.3-0"]
 BlockArrays = "0.14-0.16"
 FillArrays = "0.11-0.12"
+
+["0.4.4-0"]
+BlockBandedMatrices = "0.10-0.11"
