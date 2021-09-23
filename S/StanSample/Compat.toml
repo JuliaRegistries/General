@@ -167,6 +167,8 @@ AxisKeys = "0.1"
 
 [4]
 NamedTupleTools = "0.13"
+
+["4.0"]
 StatsBase = "0.33"
 
 ["4.0.0"]
@@ -183,18 +185,24 @@ Tables = "1.4.0-1"
 MonteCarloMeasurements = "0.10-0.11"
 
 ["4.0.1-4"]
+OrderedCollections = "1.4.0-1"
+Tables = "1.5.0-1"
+
+["4.0.1-4.0"]
 AxisKeys = "0.1"
 DataFrames = "1"
 Distributions = "0.25"
-OrderedCollections = "1.4.0-1"
 Reexport = "1"
-Tables = "1.5.0-1"
 
 ["4.0.1-4.0.2"]
 CSV = "0.8"
 
-["4.0.2-4"]
+["4.0.2-4.0"]
 MonteCarloMeasurements = ["0.10-0.11", "1"]
 
-["4.0.3-4"]
+["4.0.3-4.0"]
 CSV = "0.8-0.9"
+
+["4.1-4"]
+CSV = "0.9"
+MonteCarloMeasurements = "1"
