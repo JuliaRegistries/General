@@ -24,17 +24,25 @@ CSV = "0.8"
 [1]
 DocStringExtensions = "0.8"
 
-["1.0.3-1"]
+["1.0.3-1.0"]
 DataFrames = ["0.22", "1"]
 
-["1.0.4-1"]
+["1.0.4-1.0"]
 Distributions = "0.24-0.25"
 
-["1.0.6-1"]
+["1.0.6-1.0"]
 StanSample = "3-4"
 
-["1.0.7-1"]
+["1.0.7-1.0"]
 MonteCarloMeasurements = ["0.10-0.11", "1"]
 
-["1.0.8-1"]
+["1.0.8-1.0"]
 CSV = "0.8-0.9"
+
+["1.1-1"]
+CSV = "0.9"
+DataFrames = "1"
+Distributions = "0.25"
+MonteCarloMeasurements = "1"
+StanSample = "4"
+StatsBase = "0.33"
