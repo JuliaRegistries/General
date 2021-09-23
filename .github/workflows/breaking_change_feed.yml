@@ -1,0 +1,41 @@
+# This workflow updates feeds when the label `BREAKING` is applied to PRs.
+name: Send breaking to Zulip
+on:
+  pull_request:
+    types: [ labeled ]
+jobs:
+  update-zulip-breaking:
+    if: ${{ (github.event.label.name == 'BREAKING' || github.event.label.name == 'zulip test') && github.repository == github.event.pull_request.head.repo.full_name }}
+    runs-on: ubuntu-latest
+    steps:
+    - uses: julia-actions/setup-julia@latest
+      with:
+        version: 1.6.2
+    - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+    - name: Collect Zulip info
+      id: zulip
+      shell: julia --color=yes {0}
+      run: |
+        include(joinpath(ENV["GITHUB_WORKSPACE"], ".ci", "parse_env.jl"))
+        text, pr_url = parse_env(ENV)
+        using Pkg
+        Pkg.activate(mktempdir())
+        Pkg.add(name="GitHubActions", version="0.1")
+        using GitHubActions
+        content = string("**", ENV["PR_NAME"], "**\n\n", text)
+        set_output("content", content)
+      env:
+        PR_NAME: ${{ github.event.pull_request.title }}
+        PR_NUMBER: ${{ github.event.number }}
+        PR_BODY: ${{ github.event.pull_request.body }}
+    - name: Update Zulip feed
+      uses: zulip/github-actions-zulip/send-message@ba07b1eb3ba0d48430d111d1eb9bd0d25936a0f7
+      with:
+        api-key: ${{ secrets.ZULIP_API_KEY }}
+        email: 'general-registry-announcer-bot@julialang.zulipchat.com'
+        organization-url: 'https://julialang.zulipchat.com'
+        to: 'breaking-changes-feed'
+        type: 'stream'
+        topic: 'Package breaking updates'
+        content: ${{ steps.zulip.outputs.content }}
+        
