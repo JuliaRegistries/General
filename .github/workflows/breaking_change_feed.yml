@@ -1,4 +1,4 @@
-# This workflow updates feeds when the label `new package` is applied to PRs.
+# This workflow updates feeds when the label `BREAKING` is applied to PRs.
 name: Send breaking to Zulip
 on:
   pull_request:
