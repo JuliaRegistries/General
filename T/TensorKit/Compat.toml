@@ -13,7 +13,6 @@ WignerSymbols = "0.3.0 - 0.3"
 
 ["0.0.3-0"]
 TupleTools = "1.1.0-1"
-WignerSymbols = "1"
 
 ["0.0.3-0.1"]
 HalfIntegers = "0.0.0 - 1"
@@ -23,8 +22,15 @@ TensorOperations = "0.0.0 - 2"
 ["0.0.3-0.2"]
 julia = "1"
 
+["0.0.3-0.9"]
+WignerSymbols = "1"
+
 ["0.1-0"]
 LRUCache = "1.0.2-1"
+
+["0.10-0"]
+TensorOperations = "3.2.3-3"
+WignerSymbols = "1-2"
 
 ["0.2-0"]
 HalfIntegers = "1"
@@ -43,5 +49,7 @@ Strided = "0.3.3-0.3"
 
 ["0.5-0"]
 Strided = "1.0.1-1"
-TensorOperations = "3"
 julia = "1.4.0-1"
+
+["0.5-0.9"]
+TensorOperations = "3"
