@@ -1,9 +1,5 @@
 [0]
-Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
 ComponentArrays = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 Transducers = "28d57a85-8fef-5791-bfe6-a80928e7c999"
 
 ["0-0.1"]
@@ -12,32 +8,44 @@ Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 ["0-0.2"]
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 
+["0-0.8"]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+
 ["0.2-0"]
-DynamicPolynomials = "7c1d4256-1411-5781-91ec-d7bc3513ac07"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
-NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
 ["0.2-0.7.4"]
 Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
 
+["0.2-0.8"]
+DynamicPolynomials = "7c1d4256-1411-5781-91ec-d7bc3513ac07"
+NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
+NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
+
 ["0.3-0"]
-DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
-Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 MatrixEquations = "99c1a7ee-ab34-5fd5-8076-27c950a045f4"
+
+["0.3-0.8"]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["0.4-0"]
+["0.4-0.8"]
 SplitApplyCombine = "03a91e81-4c3e-53e1-a0a4-9c0c8f19dd66"
 
 ["0.6"]
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 
 ["0.7-0"]
-NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.7-0.8"]
+NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
 SimulationLogger = "0f3b6f24-f534-4b11-a614-00dcf4ece10c"
 
 ["0.7.7"]
@@ -46,5 +54,9 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 ["0.7.7-0"]
 ReferenceFrameRotations = "74f56ac7-18b3-5285-802d-d4bd4f104033"
 
-["0.7.8-0"]
+["0.7.8-0.8"]
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
+["0.9-0"]
+FSimBase = "731e945d-f3ed-49a1-bee2-3998705ef155"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
