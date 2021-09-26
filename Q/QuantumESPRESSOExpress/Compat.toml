@@ -3,10 +3,12 @@ Configurations = "0.3-0.16"
 Crystallography = "0.2-0.3"
 EquationsOfStateOfSolids = "0.1-0.2"
 QuantumESPRESSO = "0.5"
-Setfield = "0.4-0.7"
 Unitful = ["0.18", "1"]
 UnitfulAtomic = ["0.3", "1"]
 julia = "1"
+
+["0-0.1"]
+Setfield = "0.4-0.7"
 
 ["0-0.1.0"]
 AbInitioSoftwareBase = "0.2-0.5"
@@ -14,4 +16,10 @@ Express = "0.2"
 
 ["0.1.1-0"]
 AbInitioSoftwareBase = "0.2-0.6"
+
+["0.1.1-0.1"]
 Express = "0.2-0.3"
+
+["0.2-0"]
+Express = "0.4"
+Setfield = "0.4-0.8"
