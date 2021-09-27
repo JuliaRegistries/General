@@ -135,6 +135,13 @@ Retrigger Registrator.
 
 Do what you did when you triggered Registrator the first time.
 
+#### AutoMerge is blocked by one of my comments, how do I unblock it?
+
+Simply edit `[noblock]` into all your comments. AutoMerge periodically
+checks each PR, and if there are no blocking comments when it checks
+(i.e. all comments have `[noblock]` present), it will continue to merge
+(assuming of course that all of its other checks have passed).
+
 #### Are there any requirements for package names in the General registry?
 
 There are no hard requirements, but it is *highly recommended* to follow
@@ -202,6 +209,8 @@ registry, and code cannot be deleted.
 ## Registry maintenance
 
 The General registry is a shared resource that belongs to the entire Julia community. Therefore, we welcome comments and suggestions from everyone in the Julia community. However, all decisions regarding the General registry are ultimately up to the discretion of the registry maintainers.
+
+See our **[Contributing Guidelines](./CONTRIBUTING.md)** for ways to get involved!
 
 ## Disclaimer
 
