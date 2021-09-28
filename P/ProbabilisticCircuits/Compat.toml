@@ -54,9 +54,15 @@ Reexport = ["0.2", "1"]
 CUDA = "2-3"
 DataFrames = ["0.21-0.22", "1.2.0-1"]
 Distributions = "0.25"
-LogicCircuits = "0.2.4-0.2"
 LoopVectorization = ["0.8.20-0.8", "0.11-0.12"]
 Requires = "1"
 Tables = "1"
 ThreadPools = "2"
 ZipFile = "0.9"
+
+["0.2.4-0.2"]
+LogicCircuits = "0.2.4-0.2"
+
+["0.3-0"]
+Lerche = "0.5"
+LogicCircuits = "0.3"
