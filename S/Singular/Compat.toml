@@ -120,15 +120,22 @@ libsingular_julia_jll = "0.15"
 AbstractAlgebra = "0.20"
 Nemo = "0.25.1-0.25"
 
-["0.5.9-0"]
-AbstractAlgebra = "0.21"
-
 ["0.5.9-0.5"]
 Nemo = "0.26"
 Singular_jll = "402.100.100-402.100"
 libsingular_julia_jll = "0.16"
 
-["0.6-0"]
+["0.5.9-0.6"]
+AbstractAlgebra = "0.21"
+
+["0.6"]
 Nemo = "0.26.1-0.26"
-Singular_jll = "402.100.101-402.100"
 libsingular_julia_jll = "0.17"
+
+["0.6-0"]
+Singular_jll = "402.100.101-402.100"
+
+["0.7-0"]
+AbstractAlgebra = "0.22"
+Nemo = "0.27"
+libsingular_julia_jll = "0.18"
