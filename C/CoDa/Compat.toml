@@ -36,7 +36,7 @@ DataFrames = "0.21"
 Tables = "1.1.0-1"
 julia = "1.5.0-1"
 
-["0.4.1-0"]
+["0.4.1-0.5"]
 CSV = "0.5-0.8"
 
 ["0.4.1-0.5.0"]
@@ -45,5 +45,11 @@ DataFrames = "0.21-0.22"
 ["0.5-0"]
 StaticArrays = ["0.12", "1"]
 
-["0.5.1-0"]
+["0.5.1-0.5"]
 DataFrames = ["0.21-0.22", "1"]
+
+["0.6-0"]
+AxisArrays = "0.4"
+Distributions = "0.25"
+FillArrays = "0.12"
+TableOperations = "1.1.0-1"
