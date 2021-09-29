@@ -1,6 +1,5 @@
 [0]
 AbstractGPs = "0.3-0.5"
-ChainRulesCore = "1"
 Distributions = "0.25"
 FastGaussQuadrature = "0.4"
 FillArrays = "0.12"
@@ -10,3 +9,10 @@ Reexport = "1"
 SpecialFunctions = "1"
 StatsBase = "0.33"
 julia = "1.6.0-1"
+
+["0-0.1.1"]
+ChainRulesCore = "1"
+
+["0.1.2-0"]
+ChainRulesCore = "1.7.0-1"
+ForwardDiff = "0.10"
