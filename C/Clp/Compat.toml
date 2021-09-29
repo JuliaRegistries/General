@@ -23,11 +23,13 @@ MathOptInterface = "0.8.3 - 0.9"
 MathProgBase = "0.7"
 
 ["0.7-0"]
-MathOptInterface = "0.9.6-0.9"
 julia = "1"
 
 ["0.7-0.7.1"]
 BinaryProvider = "0.5"
+
+["0.7-0.8"]
+MathOptInterface = "0.9.6-0.9"
 
 ["0.7.2-0"]
 BinaryProvider = "0.5.9-0.5"
@@ -43,3 +45,6 @@ CEnum = "0.3-0.4"
 
 ["0.8.4-0"]
 Clp_jll = ["1.17.6", "100.1700.600-100.1700"]
+
+["0.9-0"]
+MathOptInterface = "0.10.3-0.10"
