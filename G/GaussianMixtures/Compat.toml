@@ -40,11 +40,20 @@ FileIO = "1.2.0-1"
 ScikitLearnBase = "0.5"
 
 ["0.3.3-0"]
-Arpack = "0.3-0.4"
 Clustering = "0.14"
+RDatasets = "0.6-0.7"
+StatsBase = "0.33"
+
+["0.3.3-0.3.4"]
+Arpack = "0.3-0.4"
 Distributions = "0.23-0.24"
 JLD2 = "0.2-0.3"
 PDMats = "0.10"
-RDatasets = "0.6-0.7"
 SpecialFunctions = ["0.8-0.10", "1"]
-StatsBase = "0.33"
+
+["0.3.5-0"]
+Arpack = "0.3-0.5"
+Distributions = "0.23-0.25"
+JLD2 = "0.2-0.4"
+PDMats = "0.10-0.11"
+SpecialFunctions = "1"
