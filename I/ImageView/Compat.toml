@@ -21,7 +21,6 @@ Cairo = ["0.6-0.8", "1"]
 Graphics = ["0.2-0.4", "1"]
 Gtk = ["0.16-0.18", "1"]
 GtkReactive = ["0.5.1-0.7", "1"]
-RoundingIntegers = "0.2"
 julia = "1"
 
 ["0.10-0.10.1"]
@@ -29,6 +28,9 @@ ColorVectorSpace = "0.6-0.7"
 
 ["0.10-0.10.10"]
 MappedArrays = "0.2"
+
+["0.10-0.10.13"]
+RoundingIntegers = "0.2"
 
 ["0.10-0.10.2"]
 Colors = "0.9"
@@ -42,8 +44,12 @@ Images = "0.15-0.19"
 ["0.10-0.10.8"]
 StatsBase = "0.28-0.32"
 
-["0.10.11-0"]
+["0.10.11-0.10.13"]
 Images = "0.15-0.23"
+
+["0.10.14-0"]
+Images = "0.15-0.24"
+RoundingIntegers = ["0.2", "1"]
 
 ["0.10.2"]
 ColorVectorSpace = "0.6-0.8"
