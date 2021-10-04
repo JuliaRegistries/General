@@ -29,12 +29,14 @@ Symbolics = "0.1"
 ["0.10-0"]
 ArrayInterface = "3"
 AstroTime = "0.6-0.7"
-AstrodynamicalModels = "0.3"
 CoordinateTransformations = "0.6"
 LabelledArrays = "1"
 RecipesBase = "1"
 Requires = "1"
 Rotations = "1"
+
+["0.10-0.10.3"]
+AstrodynamicalModels = "0.3"
 
 ["0.10.0"]
 SymbolicUtils = "0.10-0.11"
@@ -44,6 +46,9 @@ SymbolicUtils = ["0.10-0.11", "0.15"]
 
 ["0.10.3-0"]
 SymbolicUtils = ["0.10-0.11", "0.15-0.16"]
+
+["0.10.4-0"]
+AstrodynamicalModels = "1"
 
 ["0.9.3-0.9"]
 AstrodynamicalModels = "0.2.5-0.2"
