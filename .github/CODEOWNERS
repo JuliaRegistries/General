@@ -5,12 +5,16 @@ CODEOWNERS @DilumAluthge
 .ci/parse_env.jl @ericphanson
 .github/workflows/feed.yml @DilumAluthge @ericphanson
 
+# For a very small set of LLVM-related JLLs, we have code owners that
+# get pinged on all PRs that modify those JLLs.
 C/Clang_assert_jll/ @vchuravy @staticfloat
 C/Clang_jll/ @vchuravy @staticfloat
-L/LLVMExtra_jll/ @vchuravy @maleadt 
+L/LLVMExtra_jll/ @vchuravy @maleadt
 L/LLVMLibUnwind_jll/ @vchuravy @staticfloat
 L/LLVM_assert_jll/ @vchuravy @staticfloat
 L/LLVM_full_assert_jll/ @vchuravy @staticfloat
 L/LLVM_full_jll/ @vchuravy @staticfloat
 L/LLVM_jll/ @vchuravy @staticfloat
+L/libLLVM_assert_jll/ @vchuravy @staticfloat
+L/libLLVM_jll/ @vchuravy @staticfloat
 M/MLIR_jll/ @vchuravy @staticfloat
