@@ -1,10 +1,17 @@
 [0]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-NaturalSort = "c020b1a1-e9b0-503a-9c33-f039bfc54a85"
 PooledArrays = "2dfb63ee-cc39-5dd5-95bd-886bf059d720"
+
+["0-0.1"]
+NaturalSort = "c020b1a1-e9b0-503a-9c33-f039bfc54a85"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.1.1-0"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0.2-0"]
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+VariantCallFormat = "28eba6e3-a997-4ad9-87c6-d933b8bca6c1"
