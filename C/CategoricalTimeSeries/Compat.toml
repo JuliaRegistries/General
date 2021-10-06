@@ -1,5 +1,14 @@
 [0]
+julia = "1.2.0-1"
+
+[0-1]
 IntegerIB = "0.1"
 SerialDependence = "0.1"
 SpectralEnvelope = "1"
-julia = "1.2.0-1"
+
+[1]
+Combinatorics = "1.0.2-1"
+DataStructures = "0.14"
+Distributions = "0.25.16-0.25"
+Plots = "0.20"
+julia = "1"
