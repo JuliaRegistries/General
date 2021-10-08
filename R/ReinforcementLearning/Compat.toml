@@ -15,6 +15,9 @@ Parameters = "0.0.0 - 0.12"
 Requires = "0.0.0 - 0.5"
 StatsBase = "0.0.0 - 0.33"
 
+["0.10-0"]
+ReinforcementLearningZoo = "0.5"
+
 ["0.3"]
 ReinforcementLearningBase = "0.0.0 - 0.6"
 ReinforcementLearningEnvironmentDiscrete = "0.0.0 - 0.2"
@@ -60,9 +63,11 @@ ReinforcementLearningZoo = "0.3"
 ["0.8-0"]
 ReinforcementLearningBase = "0.9"
 
+["0.9"]
+ReinforcementLearningZoo = "0.4"
+
 ["0.9-0"]
 Reexport = ["0.2", "1"]
 ReinforcementLearningCore = "0.8"
 ReinforcementLearningEnvironments = "0.6"
-ReinforcementLearningZoo = "0.4"
 julia = "1.6.0-1"
