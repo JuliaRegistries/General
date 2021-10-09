@@ -2,8 +2,6 @@
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
-GeometricFlux = "7e08b658-56d3-11e9-2997-919d5b31e4ea"
-GraphSignals = "3ebe565e-a4b5-49c6-aed2-300248c3a9c1"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -22,10 +20,16 @@ ReinforcementLearningCore = "de1b191a-4ae0-4afa-a27b-92d07f46b2d6"
 ReinforcementLearningZoo = "d607f57d-ee1e-4ba7-bcf2-7734c1e31854"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 
+["0-0.3"]
+GeometricFlux = "7e08b658-56d3-11e9-2997-919d5b31e4ea"
+GraphSignals = "3ebe565e-a4b5-49c6-aed2-300248c3a9c1"
+
+["0.3"]
+CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+
 ["0.3-0"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
-CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
-KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 RollingFunctions = "b0e4dd01-7b14-53d8-9b45-175a3e362653"
