@@ -1,5 +1,12 @@
-[0]
+["0-0.2"]
 LogicCircuits = "0.2"
 ProbabilisticCircuits = "0.2"
 Reexport = ["0.2", "1"]
 julia = "1.5.0-1"
+
+["0.3-0"]
+DiscriminativeCircuits = "0.1"
+LogicCircuits = "0.3"
+ProbabilisticCircuits = "0.3"
+Reexport = "1"
+julia = "1.6.0-1"
