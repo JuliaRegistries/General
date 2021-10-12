@@ -3,11 +3,13 @@ GeoInterface = "0.4.0 - 0.4"
 julia = ["0.7", "1"]
 
 ["0.6-0"]
-DBFTables = "0.2"
 julia = "1"
 
 ["0.6-0.6.1"]
 Tables = "0.2"
+
+["0.6-0.7.1"]
+DBFTables = "0.2"
 
 ["0.6.0"]
 GeoInterface = "0.4"
@@ -20,3 +22,6 @@ Tables = ["0.2", "1"]
 
 ["0.6.3-0"]
 RecipesBase = "1"
+
+["0.7.2-0"]
+DBFTables = ["0.2", "1"]
