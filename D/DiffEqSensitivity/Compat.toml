@@ -184,7 +184,7 @@ GlobalSensitivity = "0.0.1-0.0.4"
 ["6.41-6.57"]
 DiffEqCallbacks = "2.16.0-2"
 
-["6.42-6"]
+["6.42-6.60.0"]
 GlobalSensitivity = ["0.0.1-0.0.4", "1"]
 
 ["6.44.0"]
@@ -197,8 +197,10 @@ ReverseDiff = "1.8.0-1"
 ReverseDiff = "1.7"
 
 ["6.45-6"]
-Distributions = "0.21-0.25"
 ReverseDiff = "1.9.0-1"
+
+["6.45-6.60.0"]
+Distributions = "0.21-0.25"
 
 ["6.5-6.19"]
 Adapt = "1"
@@ -251,6 +253,10 @@ FiniteDiff = "2"
 
 ["6.60-6"]
 RandomNumbers = "1.5.3-1"
+
+["6.60.1-6"]
+Distributions = "0.24-0.25"
+GlobalSensitivity = "1"
 
 ["6.7-6.26"]
 ReverseDiff = "1.1.0-1"
