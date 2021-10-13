@@ -20,7 +20,6 @@ QuasiArrays = "0.4.9-0.4"
 
 ["0.2-0"]
 BandedMatrices = "0.16"
-julia = "1.5.0-1"
 
 ["0.2-0.3.1"]
 FillArrays = "0.11"
@@ -31,6 +30,9 @@ BlockBandedMatrices = "0.10"
 ["0.2-0.3.4"]
 LazyArrays = "0.20-0.21"
 
+["0.2-0.3.5"]
+julia = "1.5.0-1"
+
 ["0.3.0"]
 ContinuumArrays = "0.6.4-0.7"
 QuasiArrays = "0.4.9-0.5"
@@ -39,18 +41,26 @@ QuasiArrays = "0.4.9-0.5"
 ContinuumArrays = "0.6.4-0.8"
 QuasiArrays = "0.4.9-0.6"
 
-["0.3.2-0"]
-ContinuumArrays = "0.6.4-0.9"
-FillArrays = "0.11-0.12"
-
 ["0.3.2-0.3.3"]
 QuasiArrays = "0.4.9-0.7"
 
-["0.3.3-0"]
+["0.3.2-0.3.5"]
+ContinuumArrays = "0.6.4-0.9"
+FillArrays = "0.11-0.12"
+
+["0.3.3-0.3.5"]
 BlockBandedMatrices = "0.10-0.11"
 
-["0.3.4-0"]
+["0.3.4-0.3.5"]
 QuasiArrays = "0.4.9-0.8"
 
-["0.3.5-0"]
+["0.3.5"]
 LazyArrays = "0.20-0.22"
+
+["0.3.6-0"]
+BlockBandedMatrices = "0.11"
+ContinuumArrays = "0.10"
+FillArrays = "0.12"
+LazyArrays = "0.22"
+QuasiArrays = "0.9"
+julia = "1.6.0-1"
