@@ -204,9 +204,14 @@ MonteCarloMeasurements = ["0.10-0.11", "1"]
 CSV = "0.8-0.9"
 
 ["4.1-4"]
-CSV = "0.9"
 MonteCarloMeasurements = "1"
+
+["4.1-4.2"]
+CSV = "0.9"
 
 ["4.2-4"]
 AxisKeys = "0.1"
 Reexport = "1.2.0-1"
+
+["4.3-4"]
+CSV = ["0.9", "1"]
