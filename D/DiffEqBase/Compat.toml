@@ -213,7 +213,7 @@ Reexport = ["0.2", "1"]
 ["6.58-6.59"]
 SciMLBase = "1.10.0-1"
 
-["6.59-6"]
+["6.59-6.73"]
 Setfield = "0.7"
 
 ["6.60-6"]
@@ -244,13 +244,19 @@ ArrayInterface = "1.1.0-2"
 ChainRulesCore = ["0.10", "1"]
 
 ["6.71-6"]
-Distributions = "0.25"
 ForwardDiff = "0.10"
 PreallocationTools = "0.1"
+
+["6.71-6.73"]
+Distributions = "0.25"
 
 ["6.71.1-6"]
 DEDataArrays = "0.2"
 RecursiveFactorization = "0.2"
+
+["6.74-6"]
+Distributions = "0.24-0.25"
+Setfield = "0.7-0.8"
 
 ["6.8-6"]
 Requires = ["0.5", "1"]
