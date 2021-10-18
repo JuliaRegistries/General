@@ -1,7 +1,6 @@
 [0]
 InvertedIndices = "1"
 StatsBase = "0.33"
-julia = "1.4.0-1"
 
 ["0-0.0.2"]
 DataFrames = "0.21"
@@ -10,6 +9,9 @@ StaticArrays = "0.12"
 
 ["0-0.0.3"]
 PooledArrays = "0.5"
+
+["0-0.2"]
+julia = "1.4.0-1"
 
 ["0.0.3"]
 PopGen = ["0.0.3", "0.1", "0.4"]
@@ -20,12 +22,21 @@ DataFrames = "0.21-0.22"
 
 ["0.0.4-0"]
 PooledArrays = "1"
-StaticArrays = "1"
 
 ["0.0.4-0.0"]
 PopGen = "0.4"
 RandomNumbers = "1.4.0-1"
 
+["0.0.4-0.2"]
+StaticArrays = "1"
+
 ["0.1-0"]
 DataFrames = "1"
+
+["0.1-0.2"]
 PopGen = "0.6"
+
+["0.3-0"]
+PopGenCore = "0.4-0.5"
+StaticArrays = "1.2.0-1"
+julia = "1.5.0-1"
