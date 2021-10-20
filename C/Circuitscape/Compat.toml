@@ -26,7 +26,6 @@ julia = "1.4.0-1"
 
 ["5.6-5"]
 GZip = "0.5.1-0.5"
-LightGraphs = "1"
 SimpleWeightedGraphs = "1"
 
 ["5.6-5.7"]
@@ -35,6 +34,9 @@ IterativeSolvers = "0.8"
 
 ["5.6-5.7.0"]
 ArchGDAL = "0.4"
+
+["5.6-5.8"]
+LightGraphs = "1"
 
 ["5.7-5.8.1"]
 julia = "1.5.0-1"
@@ -60,3 +62,6 @@ Pardiso = "0.5.2-0.5"
 
 ["5.8.4-5"]
 Pardiso = "0.5.3-0.5"
+
+["5.9-5"]
+Graphs = "1"
