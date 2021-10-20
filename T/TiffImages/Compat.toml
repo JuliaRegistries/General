@@ -3,7 +3,6 @@ DocStringExtensions = "0.8.3-0.8"
 FileIO = "1"
 FixedPointNumbers = "0.8"
 OffsetArrays = "1"
-OrderedCollections = "1"
 PkgVersion = "0.1.1-0.1"
 ProgressMeter = "1"
 
@@ -12,6 +11,9 @@ ColorTypes = "0.10"
 
 ["0-0.3.1"]
 julia = "1.4.0-1"
+
+["0-0.4"]
+OrderedCollections = "1"
 
 ["0-0.4.1"]
 IndirectArrays = "0.5.1-0.5"
@@ -25,3 +27,6 @@ Inflate = "0.1.2-0.1"
 
 ["0.4.2-0"]
 IndirectArrays = ["0.5.1-0.5", "1"]
+
+["0.5-0"]
+DataStructures = "0.18"
