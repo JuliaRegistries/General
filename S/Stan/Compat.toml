@@ -126,7 +126,6 @@ StanVariational = "2-3"
 
 ["7.1-7"]
 AxisKeys = "0.1"
-CSV = "0.9"
 DataFrames = "1"
 DimensionalData = "0.18"
 Distributions = "0.25"
@@ -137,6 +136,13 @@ StanBase = "2"
 StanDiagnose = "2"
 StanOptimize = "2"
 StanQuap = "1"
-StanSample = "4"
 StanVariational = "2"
 StatsBase = "0.33"
+
+["7.1.0"]
+CSV = "0.9"
+StanSample = "4"
+
+["7.1.1-7"]
+CSV = ["0.9", "1"]
+StanSample = "4-5"
