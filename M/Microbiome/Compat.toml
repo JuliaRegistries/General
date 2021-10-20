@@ -14,7 +14,7 @@ DataFrames = "0.19.0 - 0.20"
 MultivariateStats = "0.7.0 - 0.7"
 SpatialEcology = "0.0.0 - 0.7"
 
-["0.5-0"]
+["0.5-0.7"]
 julia = "1.1.0-1"
 
 ["0.6"]
@@ -45,10 +45,16 @@ MultivariateStats = "0.7-0.8"
 ["0.6.5-0.6"]
 DataFrames = ["0.19-0.22"]
 
+["0.7"]
+EcoBase = "0.1"
+
 ["0.7-0"]
 AxisIndices = "0.7"
 Dictionaries = "0.3"
 Distances = "0.10"
-EcoBase = "0.1"
 NamedDims = "0.2"
 Tables = "1.2.1-1"
+
+["0.8-0"]
+EcoBase = "0.1.4-0.1"
+julia = "1.6.0-1"
