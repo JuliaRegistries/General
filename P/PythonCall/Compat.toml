@@ -1,8 +1,6 @@
 [0]
-Compat = "2-3"
 IteratorInterfaceExtensions = "1"
 Requires = "1"
-TableTraits = "1"
 Tables = "1"
 julia = "1"
 
@@ -10,8 +8,14 @@ julia = "1"
 Conda = "1"
 UnsafePointers = "0.3"
 
+["0-0.3"]
+Compat = "2-3"
+TableTraits = "1"
+
+["0.3"]
+JSON = "0.21"
+
 ["0.3-0"]
 Conda = "1.5.0-1"
-JSON = "0.21"
 MacroTools = "0.5"
 UnsafePointers = "1"
