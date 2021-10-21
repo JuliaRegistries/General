@@ -11,12 +11,19 @@ Reexport = "0.2"
 ["0.2-0"]
 Accessors = "0.1"
 Bootstrap = "2.2.0-2"
-DataFrames = "0.22"
 Dierckx = "0.5"
-Distributions = "0.24"
 FiniteDifferences = "0.12"
 Formatting = "0.4"
 HaltonSequences = "0.1"
 Mustache = "1"
 Reexport = ["0.2", "1"]
+
+["0.2.0"]
+DataFrames = "0.22"
+Distributions = "0.24"
 Sobol = "1.5.0-1"
+
+["0.2.1-0"]
+DataFrames = ["0.22", "1"]
+Distributions = "0.24-0.25"
+QuasiMonteCarlo = "0.2"
