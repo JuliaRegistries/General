@@ -1,6 +1,12 @@
 [0]
 Convex = "0.14"
-MosekTools = "0.9"
 QBase = "0.2"
-SCS = "0.7"
 julia = "1"
+
+["0-0.1.0"]
+MosekTools = "0.9"
+SCS = "0.7"
+
+["0.1.1-0"]
+MosekTools = "0.9-0.10"
+SCS = "0.7-0.8"
