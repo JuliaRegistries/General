@@ -37,7 +37,6 @@ JSON = "0.21"
 LaTeXStrings = "1"
 ParallelProcessingTools = "0.4"
 ProgressMeter = "1.2.0-1"
-RadiationDetectorSignals = "0.1"
 TypedTables = "1.2.0-1"
 
 ["0.3-0.4"]
@@ -55,6 +54,9 @@ FillArrays = "0.8"
 
 ["0.3-0.5.0"]
 StaticArrays = "0.12"
+
+["0.3-0.6"]
+RadiationDetectorSignals = "0.1"
 
 ["0.3.0"]
 Distributions = "0.21"
@@ -126,3 +128,11 @@ Parameters = "0.12"
 PolygonOps = "0.1"
 Polynomials = "2"
 julia = "1.6.0-1"
+
+["0.7-0"]
+Adapt = "3"
+GPUArrays = "8"
+KernelAbstractions = "0.7"
+RadiationDetectorSignals = "0.1.7-0.1"
+UnitfulAtomic = "1"
+UnitfulRecipes = "1.5.0-1"
