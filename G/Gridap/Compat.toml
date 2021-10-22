@@ -14,7 +14,7 @@ AbstractTrees = "0.3.3-0.3"
 ["0.11.2-0.12"]
 WriteVTK = "1.6"
 
-["0.13-0"]
+["0.13-0.16"]
 WriteVTK = "1.7.0-1"
 
 ["0.13.3-0.14.1"]
@@ -44,9 +44,11 @@ JLD2 = ["0.1.11-0.1", "0.3-0.4"]
 ["0.15.2-0.16.3"]
 FillArrays = "0.8.4-0.11"
 
+["0.16"]
+SparseMatricesCSR = "0.6"
+
 ["0.16-0"]
 NearestNeighbors = "0.4.8-0.4"
-SparseMatricesCSR = "0.6"
 
 ["0.16.2-0"]
 BlockArrays = "0.12.12-0.16"
@@ -54,6 +56,10 @@ BlockArrays = "0.12.12-0.16"
 ["0.16.4-0"]
 BSON = "0.2.5-0.3"
 FillArrays = "0.8.4-0.12"
+
+["0.17-0"]
+SparseMatricesCSR = "0.6.4-0.6"
+WriteVTK = "1.11.0"
 
 ["0.2"]
 TensorPolynomialBases = "0.1.1-0.1"
