@@ -86,11 +86,11 @@ DiffEqBase = "6"
 ["4.2.1-4"]
 DiffEqBase = "6.4.1-6"
 
-["4.20-4"]
-BlockBandedMatrices = "0.8.6-0.10"
-
 ["4.20-4.21"]
 LazyBandedMatrices = "0.3-0.4"
+
+["4.20-4.33"]
+BlockBandedMatrices = "0.8.6-0.10"
 
 ["4.21-4.30"]
 ModelingToolkit = "4-5"
@@ -123,16 +123,27 @@ ModelingToolkit = "0.9"
 SymbolicUtils = "0.11-0.13"
 
 ["4.31-4"]
-LazyBandedMatrices = "0.5-0.6"
 LoopVectorization = "0.12"
 ModelingToolkit = "6.3.1-6"
+
+["4.31-4.33"]
+LazyBandedMatrices = "0.5-0.6"
 
 ["4.32"]
 SymbolicUtils = "0.11-0.15"
 
+["4.33"]
+SymbolicUtils = "0.11-0.16"
+
 ["4.33-4"]
 LazyArrays = "0.17-0.22"
-SymbolicUtils = "0.11-0.16"
+
+["4.34-4"]
+BlockBandedMatrices = "0.8.6-0.11"
+LazyBandedMatrices = "0.5-0.7"
+Requires = "1"
+SparseDiffTools = "1.17.0-1"
+SymbolicUtils = "0.11-0.17"
 
 ["4.4-4"]
 ForwardDiff = "0.10"
