@@ -1,10 +1,18 @@
 [0]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Microbiome = "3bd8f0ae-a0f2-5238-a5af-e1b399a4940c"
-RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 ["0-0.3"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.4"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.5-0"]
+Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
