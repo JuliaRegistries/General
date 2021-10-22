@@ -28,9 +28,14 @@ Distributions = "0.23.1-0.24"
 Reexport = "0.2"
 
 ["0.2.1-0"]
-IntervalArithmetic = "0.15.2-0.18"
 Reexport = ["0.2", "1"]
 julia = "1"
 
+["0.2.1-0.2.5"]
+IntervalArithmetic = "0.15.2-0.18"
+
 ["0.2.2-0"]
 Distributions = "0.23.1-0.25"
+
+["0.2.6-0"]
+IntervalArithmetic = "0.15.2-0.20"
