@@ -21,7 +21,7 @@ jobs:
           # - '1.6' # TODO: uncomment this line once Julia 1.7.0 has been released
           - '1'
           - '~1.7.0-0' # TODO: delete this line once Julia 1.7.0 has been released
-          - 'nightly'
+          # - 'nightly' # Disable temporarily until #47158 is resolved
         os:
           - ubuntu-latest
         arch:
