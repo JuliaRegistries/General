@@ -11,8 +11,13 @@ julia = ["0.7", "1"]
 LightGraphs = "1.1-1"
 Requires = "0.0.0 - 0.5"
 
-["0.5-0"]
+["0.5"]
 LightGraphs = "1"
+
+["0.5-0"]
 Requires = "1"
 SimpleTraits = "0.9"
 julia = "1"
+
+["0.6-0"]
+Graphs = "1.4.0-1"
