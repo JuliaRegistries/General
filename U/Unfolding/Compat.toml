@@ -1,9 +1,7 @@
 [0]
 Clustering = "0.14"
 ImageMorphology = "0.2"
-LightGraphs = "1.3.0-1"
 NearestNeighbors = "0.4"
-SimpleWeightedGraphs = "1.1.0-1"
 
 ["0-0.1.0"]
 Distances = "0.9"
@@ -22,6 +20,10 @@ StatsPlots = "0.14"
 WriteVTK = "1.7.0-1"
 julia = "1"
 
+["0-0.2.2"]
+LightGraphs = "1.3.0-1"
+SimpleWeightedGraphs = "1.1.0-1"
+
 ["0.1.1-0.1.2"]
 Distances = "0.7-0.9"
 
@@ -37,7 +39,7 @@ Distances = "0.7-0.10"
 ["0.1.4-0"]
 MultivariateStats = "0.7-0.8"
 
-["0.2-0"]
+["0.2-0.2.2"]
 Setfield = "0.7"
 
 ["0.2.2-0"]
@@ -46,3 +48,8 @@ Optim = "1.3.0-1"
 StatsBase = "0.32-0.33"
 WriteVTK = "1.10.0-1"
 julia = "1.5.0-1"
+
+["0.2.3-0"]
+Graphs = "1.4.0-1"
+Setfield = "0.7-0.8"
+SimpleWeightedGraphs = "1.2.0-1"
