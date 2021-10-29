@@ -24,11 +24,11 @@ CMake = "1.1.1-1"
 ["0.3-0.3.1"]
 CxxWrap = "0.10.1-0.10"
 
-["0.3.2-0"]
-julia = "1.3.0-1"
-
 ["0.3.2-0.4.2"]
 CxxWrap = "0.10.1-0.11"
+
+["0.3.2-0.7"]
+julia = "1.3.0-1"
 
 ["0.4-0.4.1"]
 AbstractAlgebra = "0.10"
@@ -132,10 +132,17 @@ AbstractAlgebra = "0.21"
 Nemo = "0.26.1-0.26"
 libsingular_julia_jll = "0.17"
 
-["0.6-0"]
+["0.6-0.7"]
 Singular_jll = "402.100.101-402.100"
+
+["0.7"]
+libsingular_julia_jll = "0.18"
 
 ["0.7-0"]
 AbstractAlgebra = "0.22"
 Nemo = "0.27"
-libsingular_julia_jll = "0.18"
+
+["0.8-0"]
+Singular_jll = "402.101.100-402.101"
+julia = "1.6.0-1"
+libsingular_julia_jll = "0.19"
