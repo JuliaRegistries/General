@@ -32,7 +32,7 @@ See our **[Contributing Guidelines](./CONTRIBUTING.md)** for ways to get involve
 
 ## Registering a package in General
 
-New packages and new versions of packages are added the General registry by pull requests
+New packages and new versions of packages are added to the General registry by pull requests
 against this GitHub repository. It is ***highly recommended*** that you use
 [Registrator.jl][registrator] to automate this process. Registrator can either be used as a
 [GitHub App][registrator-app] or through a [web interface][registrator-web], as decribed in
