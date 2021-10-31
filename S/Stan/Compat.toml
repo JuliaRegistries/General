@@ -15,7 +15,7 @@ Gadfly = "1"
 Homebrew = "0.7.0 - 0.7"
 Mamba = "0.12.0 - 0.12"
 
-[4-7]
+[4-8]
 julia = "1"
 
 ["5.0"]
@@ -43,7 +43,7 @@ StanOptimize = "1.1.0-1"
 StanSample = "1.1.0-1"
 StanVariational = "1.1.0-1"
 
-["5.1-7"]
+["5.1-8"]
 DocStringExtensions = "0.8"
 
 ["5.2-5"]
@@ -125,6 +125,12 @@ StanSample = "3-4"
 StanVariational = "2-3"
 
 ["7.1-7"]
+StanDiagnose = "2"
+StanOptimize = "2"
+StanQuap = "1"
+StanVariational = "2"
+
+["7.1-8"]
 AxisKeys = "0.1"
 DataFrames = "1"
 DimensionalData = "0.18"
@@ -133,10 +139,6 @@ MCMCChains = "5"
 MonteCarloMeasurements = "1"
 NamedTupleTools = "0.13"
 StanBase = "2"
-StanDiagnose = "2"
-StanOptimize = "2"
-StanQuap = "1"
-StanVariational = "2"
 StatsBase = "0.33"
 
 ["7.1.0"]
@@ -144,5 +146,14 @@ CSV = "0.9"
 StanSample = "4"
 
 ["7.1.1-7"]
-CSV = ["0.9", "1"]
 StanSample = "4-5"
+
+["7.1.1-8"]
+CSV = ["0.9", "1"]
+
+[8]
+StanDiagnose = "2-3"
+StanOptimize = "3"
+StanQuap = "2"
+StanSample = "5"
+StanVariational = "2-3"
