@@ -11,7 +11,7 @@ Distributions = "0.23-0.24"
 ["0-0.1.7"]
 AbstractAlgebra = "0.13"
 
-[0-3]
+[0-4]
 DiffRules = ["0.1", "1"]
 DocStringExtensions = "0.7-0.8"
 IfElse = "0.1"
@@ -29,7 +29,7 @@ AbstractAlgebra = "0.13-0.15"
 ["0.1.13-0.1.15"]
 SymbolicUtils = "0.9-0.10"
 
-["0.1.13-3"]
+["0.1.13-4"]
 Latexify = "0.11-0.15"
 julia = "1.5.0-1"
 
@@ -45,19 +45,19 @@ AbstractAlgebra = "0.13-0.16"
 ["0.1.26-1.1"]
 AbstractAlgebra = "0.13-0.17"
 
-["0.1.26-3"]
+["0.1.26-4"]
 Distributions = "0.23-0.25"
 
-["0.1.27-3"]
+["0.1.27-4"]
 DomainSets = "0.5"
 
-["0.1.29-3"]
+["0.1.29-4"]
 Requires = "1.1.0-1"
 
 ["0.1.3-0.1.12"]
 SymbolicUtils = "0.9"
 
-["0.1.3-3"]
+["0.1.3-4"]
 RecipesBase = "1.1.0-1"
 
 ["0.1.8-0.1.10"]
@@ -70,14 +70,14 @@ Setfield = "0.7"
 ConstructionBase = "1.2.0-1"
 SymbolicUtils = "0.12"
 
-[1-3]
+[1-4]
 StaticArrays = "1.1.0-1"
-
-["1.2-3"]
-ConstructionBase = "1.1.0-1"
 
 ["1.2-3.2"]
 SymbolicUtils = "0.13"
+
+["1.2-4"]
+ConstructionBase = "1.1.0-1"
 
 ["3.3"]
 SymbolicUtils = "0.15.1-0.15"
@@ -85,8 +85,13 @@ SymbolicUtils = "0.15.1-0.15"
 ["3.4"]
 SymbolicUtils = "0.16"
 
-["3.4.2-3"]
+["3.4.2-4"]
 Setfield = "0.7-0.8"
 
 ["3.5-3"]
 SymbolicUtils = "0.16-0.17"
+
+[4]
+Metatheory = "1.2.0-1"
+SymbolicUtils = "0.18"
+TermInterface = "0.2"
