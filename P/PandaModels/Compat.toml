@@ -1,12 +1,19 @@
 [0]
-Cbc = "0.8"
-Gurobi = "0.9"
 InfrastructureModels = "0.6"
-Ipopt = "0.6"
 JSON = "0.21"
 JuMP = "0.21"
 Juniper = "0.7"
-Memento = "1.1.0-1"
 PowerModels = "0.18"
-PyCall = "1.92.0-1"
 julia = "1.1.0-1"
+
+["0-0.1"]
+Cbc = "0.8"
+Gurobi = "0.9"
+Ipopt = "0.6"
+Memento = "1.1.0-1"
+PyCall = "1.92.0-1"
+
+["0.2-0"]
+Cbc = "0.8-0.9"
+Ipopt = "0.6-0.8"
+Memento = "1"
