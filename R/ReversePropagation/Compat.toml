@@ -15,9 +15,16 @@ Symbolics = "0.1"
 ChainRulesCore = "0.9.44-0.9"
 SymbolicUtils = "0.8-0.10"
 
-["0.1.2-0"]
-ChainRules = ["0.7-0.8", "1"]
-ChainRulesCore = ["0.9.44-0.10", "1"]
+["0.1.2"]
 IntervalArithmetic = "0.17-0.18"
 SymbolicUtils = "0.8-0.13"
 Symbolics = ["0.1", "1"]
+
+["0.1.2-0"]
+ChainRules = ["0.7-0.8", "1"]
+ChainRulesCore = ["0.9.44-0.10", "1"]
+
+["0.1.3-0"]
+IntervalArithmetic = "0.17-0.20"
+SymbolicUtils = "0.8-0.18"
+Symbolics = ["0.1", "1-4"]
