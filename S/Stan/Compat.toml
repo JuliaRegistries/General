@@ -125,6 +125,7 @@ StanSample = "3-4"
 StanVariational = "2-3"
 
 ["7.1-7"]
+DimensionalData = "0.18"
 StanDiagnose = "2"
 StanOptimize = "2"
 StanQuap = "1"
@@ -133,7 +134,6 @@ StanVariational = "2"
 ["7.1-8"]
 AxisKeys = "0.1"
 DataFrames = "1"
-DimensionalData = "0.18"
 Distributions = "0.25"
 MCMCChains = "5"
 MonteCarloMeasurements = "1"
@@ -157,3 +157,9 @@ StanOptimize = "3"
 StanQuap = "2"
 StanSample = "5"
 StanVariational = "2-3"
+
+["8.0.0"]
+DimensionalData = "0.18"
+
+["8.0.1-8"]
+DimensionalData = "0.18-0.19"
