@@ -217,7 +217,6 @@ DiffResults = "0.0.0 - 0.0.4"
 ["0.20-0"]
 Distributions = "0.23-0.25"
 SimpleGraphs = "0.5-0.7"
-SymbolicUtils = "0.11-0.13"
 
 ["0.20-0.20.1"]
 FillArrays = "0.9-0.11"
@@ -226,11 +225,14 @@ MeasureTheory = "0.8-0.9"
 ["0.20-0.20.2"]
 Tullio = "0.2-0.3"
 
-["0.20.2-0"]
-FillArrays = "0.9-0.12"
+["0.20-0.20.8"]
+SymbolicUtils = "0.11-0.13"
 
 ["0.20.2-0.20.3"]
 MeasureTheory = "0.10"
+
+["0.20.2-0.20.8"]
+FillArrays = "0.9-0.12"
 
 ["0.20.4-0.20.6"]
 MeasureTheory = "0.10-0.11"
@@ -238,9 +240,16 @@ MeasureTheory = "0.10-0.11"
 ["0.20.7"]
 MeasureTheory = "0.12"
 
-["0.20.8-0"]
+["0.20.8"]
 MeasureBase = "0.4"
+
+["0.20.8-0"]
 MeasureTheory = "0.13"
+
+["0.20.9-0"]
+FillArrays = "0.10-0.12"
+MeasureBase = "0.5"
+SymbolicUtils = "0.15-0.17"
 
 ["0.3-0.6"]
 BangBang = "0.0.0 - 0.3"
@@ -287,7 +296,6 @@ Stheno = "0.3"
 Zygote = "0.4"
 
 ["0.8-0"]
-Graphs = "0.10"
 MacroTools = "0.5"
 StatsFuns = "0.9"
 
@@ -327,6 +335,9 @@ Reexport = "0.2"
 
 ["0.8-0.19.1"]
 TransformVariables = "0.3"
+
+["0.8-0.20.8"]
+Graphs = "0.10"
 
 ["0.8-0.9"]
 MonteCarloMeasurements = "0.5"
