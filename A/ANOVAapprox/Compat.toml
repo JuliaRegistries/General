@@ -1,14 +1,22 @@
 [1]
-GroupedTransforms = "1"
-LinearMaps = "2"
-Plots = "1"
 julia = "1"
 
 ["1-1.0.22"]
 IterativeSolvers = "0.8"
 
-["1.0.14-1"]
+["1.0"]
+GroupedTransforms = "1"
+LinearMaps = "2"
+Plots = "1"
+
+["1.0.14-1.0"]
 StatsBase = "0.33"
 
 ["1.0.23-1"]
 IterativeSolvers = "0.8-0.9"
+
+["1.1-1"]
+Aqua = "0.5"
+GroupedTransforms = "1.1.0-1"
+LinearMaps = "3"
+SpecialFunctions = "1"
