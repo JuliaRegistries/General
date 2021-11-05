@@ -2,15 +2,22 @@
 Downloads = "1.4.0-1"
 FileIO = "1.6.0-1"
 GraphRecipes = "0.5"
-GridapEmbedded = "0.7"
 IterativeSolvers = "0.9"
 MeshIO = "0.4"
 Plots = "1.11.0-1"
-Preconditioners = "0.3"
 julia = "1.5.0-1"
 
 ["0-0.1.0"]
 Gridap = "0.16"
 
-["0.1.1-0"]
+["0-0.1.1"]
+GridapEmbedded = "0.7"
+Preconditioners = "0.3"
+
+["0.1.1"]
 Gridap = "0.16-0.17"
+
+["0.1.2-0"]
+AlgebraicMultigrid = "0.4"
+Gridap = "0.17"
+GridapEmbedded = "0.8"
