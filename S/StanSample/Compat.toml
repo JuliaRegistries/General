@@ -213,7 +213,7 @@ MonteCarloMeasurements = "1"
 AxisKeys = "0.1"
 Reexport = "1.2.0-1"
 
-["4.3-5"]
+["4.3-4"]
 CSV = ["0.9", "1"]
 
 [5]
@@ -221,5 +221,12 @@ DataFrames = "1.2.0-1"
 Parameters = "0.12"
 StanDump = "0.2"
 
-["5.0.2-5"]
+["5.0"]
+CSV = ["0.9", "1"]
+
+["5.0.2-5.0"]
 StanBase = "3"
+
+["5.1-5"]
+CSV = "0.9"
+StanBase = "3.1.0-3"
