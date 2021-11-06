@@ -138,8 +138,10 @@ Distributions = "0.25"
 MCMCChains = "5"
 MonteCarloMeasurements = "1"
 NamedTupleTools = "0.13"
-StanBase = "2"
 StatsBase = "0.33"
+
+["7.1-8.0.1"]
+StanBase = "2"
 
 ["7.1.0"]
 CSV = "0.9"
@@ -148,14 +150,16 @@ StanSample = "4"
 ["7.1.1-7"]
 StanSample = "4-5"
 
-["7.1.1-8"]
+["7.1.1-8.0.1"]
 CSV = ["0.9", "1"]
 
 [8]
-StanDiagnose = "2-3"
 StanOptimize = "3"
 StanQuap = "2"
 StanSample = "5"
+
+["8-8.0.1"]
+StanDiagnose = "2-3"
 StanVariational = "2-3"
 
 ["8.0.0"]
@@ -163,3 +167,9 @@ DimensionalData = "0.18"
 
 ["8.0.1-8"]
 DimensionalData = "0.18-0.19"
+
+["8.0.2-8"]
+CSV = "0.9"
+StanBase = "3"
+StanDiagnose = "3"
+StanVariational = "3"
