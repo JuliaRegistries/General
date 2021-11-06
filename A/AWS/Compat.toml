@@ -3,7 +3,6 @@ IniFile = "0.5"
 JSON = "0.18-0.21"
 MbedTLS = ["0.6-0.7", "1"]
 Mocking = "0.7"
-OrderedCollections = "1"
 Retry = "0.3-0.4"
 XMLDict = "0.3-0.4"
 
@@ -15,6 +14,9 @@ Compat = "3"
 
 ["1-1.56"]
 julia = "1"
+
+["1-1.69"]
+OrderedCollections = "1"
 
 ["1.14-1"]
 GitHub = "5"
@@ -33,3 +35,6 @@ Compat = "3.29.0-3"
 
 ["1.57-1"]
 julia = "1.3.0-1"
+
+["1.70-1"]
+OrderedCollections = "1.3.0-1"

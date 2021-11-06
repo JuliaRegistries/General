@@ -1,9 +1,16 @@
 [0]
-GarishPrint = "0.2"
 julia = "1"
 
 ["0-0.0.1"]
 OpenTelemetryAPI = "0.0.2"
 
-["0.0.2-0"]
+["0-0.0.2"]
+GarishPrint = "0.2"
+
+["0.0.2"]
 OpenTelemetryAPI = "0.0.3"
+
+["0.0.3-0"]
+GarishPrint = "0.2-0.5"
+Glob = "1"
+OpenTelemetryAPI = "0.0.4"

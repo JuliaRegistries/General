@@ -29,7 +29,7 @@ DistributionsAD = "0.6"
 ["0-0.9"]
 StaticArrays = ["0.12", "1"]
 
-["0.10-0"]
+["0.10-0.13.0"]
 InfiniteArrays = "0.11"
 
 ["0.11-0"]
@@ -45,14 +45,19 @@ Tricks = "0.1"
 ["0.11-0.11.2"]
 MeasureBase = "0.3"
 
-["0.11.3-0"]
-MeasureBase = "0.4"
-
 ["0.11.3-0.12"]
 LogExpFunctions = "0.3"
 
+["0.11.3-0.13.0"]
+MeasureBase = "0.4"
+
 ["0.13-0"]
 LogExpFunctions = "0.3.3-0.3"
+
+["0.13.1-0"]
+InfiniteArrays = "0.11-0.12"
+MeasureBase = "0.5"
+PrettyPrinting = "0.3"
 
 ["0.2.2"]
 FillArrays = "0.8-0.11"
