@@ -42,16 +42,29 @@ julia = "1"
 CollisionDetection = "0.1"
 FFTW = ["0.2.3-0.2", "1"]
 FastGaussQuadrature = "0.3-0.4"
-SauterSchwabQuadrature = "2.1.0-2"
 WiltonInts84 = "0.2"
 
+["1.2-1.3.0"]
+SauterSchwabQuadrature = "2.1.0-2"
+
 ["1.3-1"]
-BlockArrays = "0.10-0.14"
 Combinatorics = ["0.7", "1"]
-CompScienceMeshes = "0.2.8-0.2"
 Compat = "2-3"
 IterativeSolvers = "0.9"
 SparseMatrixDicts = "0.2"
 SpecialFunctions = ["0.7-0.10", "1"]
 StaticArrays = ["0.8.3-0.12", "1"]
+
+["1.3.0"]
+BlockArrays = "0.10-0.14"
+CompScienceMeshes = "0.2.8-0.2"
 julia = "1.3.0-1"
+
+["1.3.1-1"]
+BlockArrays = "0.10-0.16"
+CompScienceMeshes = "0.3.2-0.3"
+FillArrays = "0.11-0.12"
+LiftedMaps = "0.2.2-0.2"
+LinearMaps = "3.5.0-3"
+SauterSchwabQuadrature = "2.1.3-2"
+julia = "1.6.0-1"
