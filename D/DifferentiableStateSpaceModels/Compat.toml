@@ -1,14 +1,8 @@
 [0]
 DistributionsAD = "0.6"
 DocStringExtensions = "0.8"
-GeneralizedGenerated = "0.3"
-LaTeXStrings = "1.2.0-1"
 MacroTools = "0.5"
-ModelingToolkit = "4.5.0-4"
-NLsolve = "4.5.0-4"
 Parameters = "0.12"
-TensorCast = "0.3"
-TimerOutputs = "0.5"
 
 ["0-0.1"]
 BenchmarkTools = "1"
@@ -42,13 +36,21 @@ CUDA = "3.3.0-3"
 StatsPlots = "0.14"
 TuringCallbacks = "0.1"
 
+["0-0.3"]
+GeneralizedGenerated = "0.3"
+LaTeXStrings = "1.2.0-1"
+ModelingToolkit = "4.5.0-4"
+NLsolve = "4.5.0-4"
+TensorCast = "0.3"
+TimerOutputs = "0.5"
+
 ["0-0.3.0"]
 Distributions = "0.24"
 
 ["0.1.1-0.1"]
 CUDA = ["2", "3.3.0-3"]
 
-["0.2-0"]
+["0.2-0.3"]
 MatrixEquations = "1.5.0-1"
 
 ["0.2-0.3.0"]
@@ -56,8 +58,25 @@ ChainRulesCore = ["0.5-0.7", "0.9-0.10"]
 Zygote = "0.5"
 julia = "1.6.0-1"
 
-["0.3.1-0"]
+["0.3.1-0.3"]
 ChainRulesCore = ["0.1", "0.5-0.9", "1"]
 Distributions = "0.24-0.25"
 Zygote = "0.5-0.6"
 julia = "1.5.0-1"
+
+["0.4-0"]
+ChainRulesCore = "1"
+Distributions = "0.25"
+Infiltrator = "1"
+LaTeXStrings = "1"
+Latexify = "0.15"
+MatrixEquations = "2"
+NLsolve = "4"
+RecursiveFactorization = "0.2"
+StructArrays = "0.6"
+SymbolicUtils = "0.16"
+Symbolics = "3.4.0-3"
+TensorCast = "0.4"
+Tullio = "0.3"
+Zygote = "0.6"
+julia = "1.6.0-1"
