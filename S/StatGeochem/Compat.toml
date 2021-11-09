@@ -1,7 +1,6 @@
 [0]
 Colors = "0.10-0.12"
 FileIO = "1"
-GR = "0.42-0.57"
 HDF5 = "0.13-0.15"
 Plots = "1"
 ProgressMeter = "1"
@@ -19,6 +18,9 @@ StatsBase = "0.28-0.33"
 VectorizationBase = "0.18-0.20"
 julia = "1.5.0-1"
 
+["0-0.2.1"]
+GR = "0.42-0.57"
+
 ["0.1.1-0"]
 Interpolations = "0.8-0.13"
 LoopVectorization = "0.2-0.12"
@@ -35,3 +37,6 @@ NaNStatistics = "0.4"
 ["0.2.1-0"]
 ImageIO = "0.1-0.5"
 NaNStatistics = "0.4-0.5"
+
+["0.2.2-0"]
+GR = ["0.42-0.59", "0.61-0.62"]
