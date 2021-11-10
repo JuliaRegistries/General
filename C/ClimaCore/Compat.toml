@@ -2,7 +2,6 @@
 Adapt = "3"
 BlockArrays = "0.16"
 CUDA = "3"
-DiffEqBase = "6"
 ForwardDiff = "0.10"
 GaussQuadrature = "0.5"
 IntervalSets = "0.5"
@@ -16,5 +15,12 @@ julia = "1.6.0-1"
 ["0-0.2"]
 Plots = "1"
 
+["0-0.3"]
+DiffEqBase = "6"
+
 ["0.1.1-0"]
 DocStringExtensions = "0.8"
+
+["0.4-0"]
+DiffEqBase = "6.75.0-6"
+Static = "0.4"
