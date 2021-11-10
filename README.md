@@ -97,6 +97,8 @@ to setup **tests** (see
 [the Pkg.jl docs](https://pkgdocs.julialang.org/v1/creating-packages/#Adding-tests-to-the-package)
 and the [Test stdlib docs](https://docs.julialang.org/en/v1/stdlib/Test/)), which
 can be automatically run by free **continuous integration** services such as GitHub Actions.
+* Also, note that the General registry is not a place for for "personal packages" that consists of
+collections of "utility functions".
 
 Packages like [PkgTemplates.jl](https://github.com/invenia/PkgTemplates.jl) or
 [PkgSkeleton.jl](https://github.com/tpapp/PkgSkeleton.jl) provide easy ways to setup
