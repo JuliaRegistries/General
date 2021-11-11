@@ -31,14 +31,24 @@ StatsBase = "0.32"
 LuxurySparse = "0.5-0.6"
 
 ["0.2.1-0"]
-FFTW = "1.1.0-1"
 StatsBase = "0.32-0.33"
+
+["0.2.1-0.2.5"]
+FFTW = "1.1.0-1"
 
 ["0.2.2-0"]
 BitBasis = "0.7"
 LuxurySparse = "0.6"
+
+["0.2.2-0.2.5"]
 Yao = "0.6-0.7"
 
-["0.2.3-0"]
+["0.2.3-0.2.5"]
 LegibleLambdas = "0.2-0.3"
 StaticArrays = ["0.12", "1"]
+
+["0.2.6-0"]
+FFTW = "1"
+LegibleLambdas = "0.3"
+StaticArrays = "1.2.0-1"
+Yao = "0.6"
