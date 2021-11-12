@@ -173,8 +173,10 @@ DocStringExtensions = "0.8"
 OrdinaryDiffEq = "5.54.0-5"
 
 ["6.36-6"]
-DiffEqJump = "6.7.4-7"
 FillArrays = "0.6-0.12"
+
+["6.36-6.40"]
+DiffEqJump = "6.7.4-7"
 
 ["6.37"]
 RandomNumbers = "1.4"
@@ -191,11 +193,16 @@ RandomNumbers = "1.5.3-1"
 ["6.38-6.39"]
 OrdinaryDiffEq = "5.64.0-5"
 
-["6.39-6"]
+["6.39-6.40"]
 julia = "1.5.0-1"
 
-["6.40-6"]
+["6.40"]
 OrdinaryDiffEq = "5.54.0-5"
+
+["6.41-6"]
+DiffEqJump = "6.7.4-8"
+OrdinaryDiffEq = "5.64.0-5"
+julia = "1.6.0-1"
 
 ["6.5-6.8"]
 FillArrays = "0.0.0 - 0.8"
