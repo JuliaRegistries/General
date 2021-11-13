@@ -1,7 +1,6 @@
 [0]
 ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-GeoData = "9b6fcbb8-86d6-11e9-1ce7-23a6bb139a78"
 LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
@@ -12,9 +11,15 @@ FieldMetadata = "bf96fef3-21d2-5d20-8afa-0e7d4c32a885"
 Flatten = "4c728ea3-d9ee-5c9a-9642-b6f7d7dc04fa"
 Interact = "c601a237-2ae4-5e1e-952c-7a85b0c7eef1"
 
+["0-0.2.5"]
+GeoData = "9b6fcbb8-86d6-11e9-1ce7-23a6bb139a78"
+
 ["0.2-0"]
 InteractModels = "546b680c-e627-4c75-86f8-7ef2c81e5d51"
 ModelParameters = "4744a3fa-6c31-4707-899e-a3298e4618ad"
 
 ["0.2.1-0"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.2.6-0"]
+Rasters = "a3a2b9e3-a471-40c9-b274-f788e487c689"
