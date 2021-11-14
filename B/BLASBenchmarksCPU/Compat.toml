@@ -1,5 +1,4 @@
 [0]
-Octavian = "0.2"
 ProgressMeter = "1.4.0-1"
 julia = "1.5.0-1"
 
@@ -15,6 +14,9 @@ Gaius = "0.5-0.6"
 ["0-0.3.3"]
 DataFrames = "0.22"
 Tullio = "0.2"
+
+["0-0.3.4"]
+Octavian = "0.2"
 
 ["0.2-0"]
 Cairo = "1"
@@ -48,10 +50,17 @@ VectorizationBase = "0.19"
 ["0.3.3"]
 BenchmarkTools = "0.5-0.7"
 
+["0.3.4"]
+RecursiveFactorization = "0.1.10-0.1"
+VectorizationBase = "0.20"
+
 ["0.3.4-0"]
 BenchmarkTools = ["0.5-0.7", "1"]
 DataFrames = ["0.22", "1"]
 LoopVectorization = "0.12.24-0.12"
-RecursiveFactorization = "0.1.10-0.1"
 Tullio = "0.2-0.3"
-VectorizationBase = "0.20"
+
+["0.3.5-0"]
+Octavian = "0.2-0.3"
+RecursiveFactorization = "0.1.10-0.2"
+VectorizationBase = "0.20-0.21"
