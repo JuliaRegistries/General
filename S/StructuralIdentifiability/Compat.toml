@@ -17,10 +17,19 @@ Nemo = ["0.20", "0.24-0.26"]
 
 ["0.2-0"]
 DataStructures = "0.18"
+SpecialFunctions = "1"
+
+["0.2-0.3.0"]
 ModelingToolkit = "6"
 Singular = "0.4-0.6"
-SpecialFunctions = "1"
 
 ["0.3-0"]
 AbstractAlgebra = ["0.13", "0.18-0.22"]
+
+["0.3.0"]
 Nemo = "0.24-0.26"
+
+["0.3.1-0"]
+ModelingToolkit = "7"
+Nemo = "0.24-0.27"
+Singular = "0.4-0.8"
