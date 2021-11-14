@@ -1,12 +1,19 @@
 [0]
 Dierckx = "0.5"
 DifferentialEquations = "6.15.0-6"
-LaTeXStrings = "1.2.0-1"
 ParameterizedFunctions = "5.6.0-5"
 Plots = "1.6.0-1"
-Sundials = "4.3.0-4"
 julia = "1"
 
-["0.0.2-0"]
+["0-0.0.2"]
+LaTeXStrings = "1.2.0-1"
+Sundials = "4.3.0-4"
+
+["0.0.2"]
 Documenter = "0.27"
 Revise = "3"
+
+["0.0.3-0"]
+Distributions = "0.25"
+Parameters = "0.12"
+Turing = "0.19"
