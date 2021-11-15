@@ -178,8 +178,10 @@ DistributedFactorGraphs = "0.14.5-0.14"
 ["0.24.5-0.24"]
 TensorCast = "0.3-0.4"
 
-["0.25-0"]
+["0.25"]
 ApproxManifoldProducts = "0.4.16-0.4"
+
+["0.25-0"]
 KernelDensityEstimate = "0.5.6-0.5"
 ManifoldsBase = "0.12.6-0.12"
 TensorCast = "0.3.3-0.4"
@@ -203,11 +205,17 @@ DistributedFactorGraphs = "0.16.1-0.16"
 Manifolds = "0.6.3-0.7"
 
 ["0.25.3-0"]
-DistributedFactorGraphs = "0.16.2-0.16"
 julia = "1.6.0-1"
+
+["0.25.3-0.25"]
+DistributedFactorGraphs = "0.16.2-0.16"
 
 ["0.25.4-0"]
 MetaGraphs = "0.6.4-0.7"
+
+["0.26-0"]
+ApproxManifoldProducts = "0.4.21-0.4"
+DistributedFactorGraphs = "0.17"
 
 ["0.3.8-0.3"]
 StatsBase = "0.0.0 - 0.33"
