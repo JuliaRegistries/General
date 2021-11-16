@@ -3,8 +3,6 @@ CpuId = "adafc99b-e345-5852-983c-f28acb93d879"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
 ImageMorphology = "787d08f9-d448-5407-9aad-5290dd7ab264"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
-LightGraphsFlows = "2f5eb75a-258c-59e0-affc-f41c55f75335"
 Primes = "27ebfcd6-29c5-5fa9-bf4b-fb8fc14df3ae"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
@@ -12,6 +10,10 @@ RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0-0.14"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+LightGraphsFlows = "2f5eb75a-258c-59e0-affc-f41c55f75335"
 
 ["0-0.7"]
 Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
@@ -25,6 +27,10 @@ GeoStatsBase = "323cb8eb-fbf6-51c0-afd0-f8fba70507b2"
 
 ["0.14-0"]
 Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"
+
+["0.15-0"]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+GraphsFlows = "06909019-6f44-4949-96fc-b9d9aaa02889"
 
 ["0.8-0.10"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"

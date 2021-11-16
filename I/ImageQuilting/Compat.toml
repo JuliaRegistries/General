@@ -63,11 +63,17 @@ Meshes = "0.14"
 ["0.14.6"]
 Meshes = "0.16"
 
-["0.14.7-0"]
+["0.14.7-0.14"]
 Meshes = "0.16-0.17"
 
-["0.14.8-0"]
+["0.14.8-0.14"]
 GeoStatsBase = "0.21-0.22"
+
+["0.15-0"]
+GeoStatsBase = "0.21-0.23"
+Graphs = "1.4.0-1"
+GraphsFlows = "0.1"
+Meshes = "0.16-0.18"
 
 ["0.8-0.9"]
 julia = "1"
@@ -82,10 +88,12 @@ Requires = "0.5.2 - 0.5"
 ["0.8.1-0"]
 ImageFiltering = "0.6"
 ImageMorphology = "0.2"
-LightGraphs = "1.2.0-1"
 
 ["0.8.1-0.13"]
 CpuId = "0.2"
+
+["0.8.1-0.14"]
+LightGraphs = "1.2.0-1"
 
 ["0.8.1-0.8"]
 FFTW = "0.2"
@@ -113,11 +121,11 @@ StatsBase = "0.32"
 ["0.9.2"]
 RecipesBase = "0.7-0.8"
 
-["0.9.2-0"]
-LightGraphsFlows = "0.3-0.4"
-
 ["0.9.2-0.10"]
 Requires = ["0.5", "1"]
+
+["0.9.2-0.14"]
+LightGraphsFlows = "0.3-0.4"
 
 ["0.9.3-0"]
 RecipesBase = ["0.7-0.8", "1"]
