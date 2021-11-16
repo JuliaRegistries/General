@@ -40,7 +40,6 @@ jobs:
       - run: mv .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
       - run: rm -rf .ci/Manifest.*.toml
       - run: chmod 400 .ci/Project.toml
-        if: ${{ matrix.version != 'nightly' }}
       - run: chmod 400 .ci/Manifest.toml
         if: ${{ matrix.version != 'nightly' }}
       - name: Cache artifacts
