@@ -1,35 +1,37 @@
 [0]
-CatViews = "1"
-ChainRulesCore = "0.9"
 Einsum = "0.4"
-FillArrays = "0.11"
 ForwardDiff = "0.10"
 GeometryBasics = "0.3"
 GeometryTypes = "0.8"
 IterativeSolvers = "0.9"
 JSON = "0.21"
-Juno = "0.8"
-LazyArrays = "0.21"
-LineSearches = "7"
-MacroTools = "0.5"
-MappedArrays = "0.1-0.4"
-Optim = "1.3.0-1"
 Parameters = "0.12"
-Preconditioners = "0.3"
 Reexport = "1"
 Requires = "1.1.0-1"
 Revise = "3"
 Setfield = "0.7"
 StaticArrays = "1"
-StatsBase = "0.33"
 StatsFuns = "0.9"
-StructArrays = "0.5"
 Tensors = "1.4.0-1"
 TimerOutputs = "0.5"
 VTKDataTypes = "0.1"
 WriteVTK = "1.9.0-1"
 Zygote = "0.6"
 julia = "1.5.0-1"
+
+["0-0.4"]
+CatViews = "1"
+ChainRulesCore = "0.9"
+FillArrays = "0.11"
+Juno = "0.8"
+LazyArrays = "0.21"
+LineSearches = "7"
+MacroTools = "0.5"
+MappedArrays = "0.1-0.4"
+Optim = "1.3.0-1"
+Preconditioners = "0.3"
+StatsBase = "0.33"
+StructArrays = "0.5"
 
 ["0-0.4.0"]
 AbstractPlotting = "0.16"
@@ -44,12 +46,23 @@ Ferrite = "0.3"
 ["0.4.1"]
 Nonconvex = "0.2-0.3"
 
-["0.4.1-0"]
+["0.4.1-0.4"]
 AbstractPlotting = "0.15-0.16"
 
 ["0.4.2-0"]
 Distributions = "0.24-0.25"
+
+["0.4.2-0.4"]
 Nonconvex = "0.5.2-0.5"
 
 ["0.4.3-0"]
 Ferrite = "0.3.0"
+
+["0.5-0"]
+ChainRulesCore = "1"
+FileIO = "1"
+Nonconvex = "1"
+NonconvexMMA = "0.1"
+NonconvexPercival = "0.1"
+NonconvexSemidefinite = "0.1"
+Preconditioners = "0.3-0.4"
