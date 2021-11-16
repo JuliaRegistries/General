@@ -120,9 +120,6 @@ julia = "1.5.0-1"
 ["0.23"]
 GeoStatsBase = "0.20"
 
-["0.23-0"]
-Variography = "0.12"
-
 ["0.23-0.24"]
 GeoEstimation = "0.6"
 
@@ -135,12 +132,17 @@ GeoSimulation = "0.3"
 ["0.23-0.26"]
 KrigingEstimators = "0.7"
 
+["0.23-0.27"]
+Variography = "0.12"
+
 ["0.24-0"]
 GeoLearning = "0.1"
-GeoStatsBase = "0.21"
 
 ["0.24-0.26.1"]
 GeoClustering = "0.1"
+
+["0.24-0.27"]
+GeoStatsBase = "0.21"
 
 ["0.24.1-0.24"]
 Meshes = "0.12"
@@ -162,10 +164,10 @@ DensityRatioEstimation = "0.4"
 Distances = "0.10"
 LossFunctions = "0.7"
 
-["0.25.4-0"]
+["0.25.4-0.27"]
 Meshes = "0.17"
 
-["0.26-0"]
+["0.26-0.27"]
 GeoEstimation = "0.8"
 GeoSimulation = "0.4"
 
@@ -174,6 +176,15 @@ GeoClustering = "0.2"
 
 ["0.27-0"]
 KrigingEstimators = "0.8"
+
+["0.28-0"]
+GeoEstimation = "0.9"
+GeoSimulation = "0.5"
+GeoStatsBase = "0.23"
+Meshes = "0.18"
+ScientificTypes = "2.3.0-2"
+TableTransforms = "0.1"
+Variography = "0.13"
 
 ["0.7.2-0.7"]
 GeoStatsBase = "0.2.5 - 0.5"
