@@ -18,8 +18,10 @@ InfrastructureModels = "0.5.4-0.5"
 
 ["0.11-0"]
 InfrastructureModels = "0.6"
-JuMP = "0.21.4-0.21"
 LoggingExtras = "0.4.6-0.4"
+
+["0.11-0.12"]
+JuMP = "0.21.4-0.21"
 
 ["0.11.5-0.11.7"]
 CSV = "0.8.5-0.8"
@@ -27,6 +29,10 @@ CSV = "0.8.5-0.8"
 ["0.11.8-0"]
 CSV = "0.8.5-0.9"
 MathOptInterface = "0.8-0.10"
+
+["0.13-0"]
+JuMP = "0.21.4-0.22"
+PolyhedralRelaxations = "0.3.1-0.3"
 
 ["0.5.0"]
 PowerModels = "0.12"
