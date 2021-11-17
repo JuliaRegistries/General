@@ -23,7 +23,6 @@ KernelDensity = "0.0.0 - 0.6"
 Reexport = "0.0.0 - 0.2"
 
 ["0.10.4-0"]
-Distributions = ["0.21", "0.23-0.24", "1"]
 HypothesisTests = ["0.8", "0.10", "1"]
 Interpolations = ["0.12-0.13", "1"]
 KernelDensity = ["0.5-0.6", "1"]
@@ -36,8 +35,15 @@ julia = "1.2.0-1"
 ["0.10.4-0.13.0"]
 IntervalArithmetic = ["0.16-0.17", "1"]
 
+["0.10.4-0.14"]
+Distributions = ["0.21", "0.23-0.24", "1"]
+
 ["0.13.1-0"]
 IntervalArithmetic = ["0.16-0.18", "1"]
+
+["0.15-0"]
+Distributions = ["0.21", "0.23-0.25", "1"]
+DynamicalSystemsBase = "2"
 
 ["0.2-0.10.3"]
 julia = "1.1.0-1"
@@ -55,7 +61,6 @@ Measurements = "0.0.0 - 2"
 ["0.7-0"]
 Bootstrap = "2.2.0-2"
 Combinatorics = ["0.7", "1"]
-DynamicalSystemsBase = "1.3.0-1"
 Measurements = "2.1.0-2"
 Reexport = ["0.2", "1"]
 
@@ -72,3 +77,6 @@ RecipesBase = ["0.7", "1"]
 StaticArrays = ["0.11", "1"]
 StatsBase = ["0.32", "1"]
 Unitful = ["0.17", "1"]
+
+["0.7-0.14"]
+DynamicalSystemsBase = "1.3.0-1"
