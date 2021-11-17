@@ -1,4 +1,8 @@
 [1]
+PowerModelsProtection = "0.3"
+PowerModelsStability = "0.2.1-0.2"
+
+[1-2]
 Alpine = "0.2.5-0.2"
 ArgParse = "1.1"
 Cbc = "0.8"
@@ -10,8 +14,6 @@ JuMP = "0.21.8-0.21"
 Juniper = "0.7"
 LoggingExtras = "0.4.7-0.4"
 PackageCompiler = "1.2.6-1.2"
-PowerModelsProtection = "0.3"
-PowerModelsStability = "0.2.1-0.2"
 ProgressMeter = "1.7.1-1.7"
 Requires = "1.1.3-1.1"
 julia = "1.3.0-1"
@@ -23,5 +25,13 @@ PowerModelsDistribution = "0.11.4-0.11"
 PowerModelsDistribution = "0.11.5-0.11"
 
 ["1.1-1"]
-LightGraphs = "1.3.5-1.3"
 PowerModelsDistribution = "0.11.8-0.11"
+
+["1.1-2"]
+LightGraphs = "1.3.5-1.3"
+
+[2]
+PolyhedralRelaxations = "0.3.1-0.3"
+PowerModelsDistribution = "0.13"
+PowerModelsProtection = "0.4.1-0.4"
+PowerModelsStability = "0.2.2-0.2"
