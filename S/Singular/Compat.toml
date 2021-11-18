@@ -142,7 +142,14 @@ libsingular_julia_jll = "0.18"
 AbstractAlgebra = "0.22"
 Nemo = "0.27"
 
-["0.8-0"]
+["0.8"]
 Singular_jll = "402.101.100-402.101"
-julia = "1.6.0-1"
 libsingular_julia_jll = "0.19"
+
+["0.8-0"]
+julia = "1.6.0-1"
+
+["0.9-0"]
+BinaryWrappers = "0.1.1-0.1"
+Singular_jll = "402.101.200-402.101"
+libsingular_julia_jll = "0.20"
