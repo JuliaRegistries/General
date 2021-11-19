@@ -1,19 +1,27 @@
 [0]
-CUDA = "2"
 FiniteDiff = "2.7.0-2"
 ForwardDiff = "0.10"
-IterativeSolvers = "0.8"
 LightGraphs = "1.3.0-1"
-MathOptInterface = "0.9"
 Metis = "1"
 SparseDiffTools = "1"
 TimerOutputs = "0.5"
-julia = "1.5.0-1"
 
 ["0-0.4"]
 KernelAbstractions = "0.4.5-0.4"
 Krylov = "0.5.5-0.5"
 
-["0.5-0"]
+["0-0.5"]
+CUDA = "2"
+IterativeSolvers = "0.8"
+MathOptInterface = "0.9"
+julia = "1.5.0-1"
+
+["0.5"]
 KernelAbstractions = "0.5"
 Krylov = "0.6"
+
+["0.6-0"]
+CUDA = "3.4.0-3"
+KernelAbstractions = "0.7"
+Krylov = "0.7.3-0.7"
+julia = "1.6.0-1"

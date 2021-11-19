@@ -2,14 +2,16 @@
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
-IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
 Metis = "2679e427-3c69-5b7f-982b-ece356f1e94b"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+["0-0.5"]
+IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
