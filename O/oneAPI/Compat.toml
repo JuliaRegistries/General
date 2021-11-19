@@ -35,8 +35,15 @@ NEO_jll = "21.22.19967-21.22"
 oneAPI_Level_Zero_Loader_jll = "1.2.0-1"
 
 ["0.2-0"]
+LLVM = "4"
+oneAPI_Level_Zero_Loader_jll = "1.4.0-1"
+
+["0.2.0"]
 GPUArrays = "8"
 GPUCompiler = "0.12.7-0.12"
-LLVM = "4"
 NEO_jll = "21.31.20514-21.31"
-oneAPI_Level_Zero_Loader_jll = "1.4.0-1"
+
+["0.2.1-0"]
+GPUArrays = "8.1.1-8"
+GPUCompiler = "0.12.9-0.13"
+NEO_jll = "21.44.21506-21.44"
