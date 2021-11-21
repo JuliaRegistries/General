@@ -1,8 +1,5 @@
 [0]
-LightGraphs = "1.3.0-1"
-MetaGraphs = "0.6"
 Metis = "1"
-SimpleWeightedGraphs = "1.1.0-1"
 StatsFuns = "0.9"
 
 ["0-0.1"]
@@ -22,13 +19,17 @@ Reexport = "0.2"
 ["0-0.2.3"]
 BlossomV = "0.4"
 
+["0-0.3.0"]
+LightGraphs = "1.3.0-1"
+MetaGraphs = "0.6"
+SimpleWeightedGraphs = "1.1.0-1"
+
 ["0.1.1-0"]
 Clustering = "0.14"
 
 ["0.2-0"]
 StatsBase = "0.33"
 TikzGraphs = "1.1.0-1"
-julia = "1.5.0-1"
 
 ["0.2-0.2.2"]
 DataFrames = "0.21"
@@ -39,6 +40,9 @@ LoopVectorization = "0.8.20-0.8"
 CUDA = "2"
 MLDatasets = "0.4-0.5"
 
+["0.2-0.3.0"]
+julia = "1.5.0-1"
+
 ["0.2.2-0"]
 DataStructures = "0.17-0.18"
 
@@ -47,14 +51,11 @@ DataFrames = "0.21-0.22"
 LogicCircuits = "0.2.3-0.2"
 LoopVectorization = ["0.8.20-0.8", "0.11"]
 
-["0.2.3-0"]
+["0.2.3-0.3.0"]
 Reexport = ["0.2", "1"]
 
 ["0.2.4-0"]
-CUDA = "2-3"
-DataFrames = ["0.21-0.22", "1.2.0-1"]
 Distributions = "0.25"
-LoopVectorization = ["0.8.20-0.8", "0.11-0.12"]
 Requires = "1"
 Tables = "1"
 ThreadPools = "2"
@@ -63,6 +64,25 @@ ZipFile = "0.9"
 ["0.2.4-0.2"]
 LogicCircuits = "0.2.4-0.2"
 
+["0.2.4-0.3.0"]
+CUDA = "2-3"
+DataFrames = ["0.21-0.22", "1.2.0-1"]
+LoopVectorization = ["0.8.20-0.8", "0.11-0.12"]
+
 ["0.3-0"]
 Lerche = "0.5"
+
+["0.3.0"]
 LogicCircuits = "0.3"
+
+["0.3.1-0"]
+CUDA = "3"
+DataFrames = "1.2.0-1"
+DirectedAcyclicGraphs = "0.1.1-0.1"
+Graphs = "1.4.0-1"
+LogicCircuits = "0.3.1-0.3"
+LoopVectorization = "0.11-0.12"
+MetaGraphs = "0.7"
+Reexport = "1"
+SimpleWeightedGraphs = "1.2.0-1"
+julia = "1.6.0-1"
