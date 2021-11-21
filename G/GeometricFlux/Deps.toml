@@ -37,7 +37,7 @@ FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 ["0.5-0.7.4"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["0.5.1-0"]
+["0.5.1-0.7"]
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 
 ["0.5.2-0.7.6"]
@@ -65,6 +65,12 @@ GraphMLDatasets = "21828b05-d3b3-40ad-870e-a4bc2f52d5e8"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["0.7.7-0"]
-GraphLaplacians = "a1251efa-393a-423f-9d7b-faaecba535dc"
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 NNlibCUDA = "a00861dc-f156-4864-bf3c-e6376f28a68d"
+
+["0.7.7-0.7"]
+GraphLaplacians = "a1251efa-393a-423f-9d7b-faaecba535dc"
+
+["0.8-0"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
