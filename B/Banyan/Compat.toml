@@ -3,8 +3,6 @@ AWS = "1.36.0-1"
 AWSCore = "0.6.17-0.6"
 AWSSQS = "0.6.4-0.6"
 Arrow = "1.5.0-1"
-CSV = "0.8.5-0.8"
-DataFrames = "1.1.1-1"
 FileIO = "1.9.1-1"
 FilePathsBase = "0.9.10-0.9"
 HDF5 = "0.15.5-0.15"
@@ -15,9 +13,20 @@ JSON = "0.21.1-0.21"
 Parquet = "0.8.3-0.8"
 julia = "1.6.0-1"
 
+["0-0.1"]
+CSV = "0.8.5-0.8"
+DataFrames = "1.1.1-1"
+
 ["0-0.1.0"]
 AWSS3 = "0.8.3-0.8"
 
 ["0.1.1-0"]
 AWSS3 = "0.7"
 TimeZones = "1.5.6-1"
+
+["0.2-0"]
+CSV = "0.9.5-0.9"
+DataFrames = "1"
+Downloads = "1.4.0-1"
+MPI = "0.19"
+ProgressMeter = "1.7.0-1"
