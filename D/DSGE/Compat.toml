@@ -43,7 +43,6 @@ SMC = "0.0.0 - 0.1"
 [1]
 ClusterManagers = "0.3.2-0.4"
 FileIO = "1.0.7-1"
-OrderedCollections = "1.1.0-1"
 
 ["1-1.1"]
 JLD2 = "0.1.3-0.1"
@@ -60,6 +59,9 @@ MbedTLS = "0.6.8-0.6"
 ModelConstructors = "0.1.4-0.1"
 Nullables = "0.0.8"
 PDMats = "0.9.10-0.9"
+
+["1-1.2"]
+OrderedCollections = "1.1.0-1"
 
 ["1.0"]
 CSV = "0.5.14-0.5"
@@ -136,7 +138,6 @@ RecipesBase = ["0.5", "0.7-0.8"]
 
 ["1.1.3-1"]
 BenchmarkTools = "0.4.3-0.5"
-FredData = "0.3-0.4"
 PackageCompiler = ["0.6.4-0.6", "1"]
 Roots = ["0.7-0.8", "1"]
 StatsPlots = "0.10-0.14"
@@ -151,6 +152,9 @@ MbedTLS = ["0.6.8-0.6", "1"]
 Optim = "0.16-0.20"
 Plots = ["0.19-0.20", "0.22-0.28"]
 
+["1.1.3-1.2"]
+FredData = "0.3-0.4"
+
 ["1.1.4"]
 Documenter = "0.22"
 
@@ -164,7 +168,6 @@ CSV = "0.4.3-0.5"
 ColorTypes = "0.7-0.10"
 MbedTLS = ["0.6.8-0.7", "1"]
 Nullables = ["0.0.8", "1"]
-Plots = ["0.19-0.20", "0.22-0.28", "1"]
 RecipesBase = ["0.5", "0.7-0.8", "1"]
 StateSpaceRoutines = "0.3.1-0.4"
 StatsBase = "0.29-0.33"
@@ -181,13 +184,18 @@ ModelConstructors = "0.1.10-0.1"
 Optim = "0.16-0.22"
 SMC = "0.1.10-0.1"
 
+["1.1.6-1.2"]
+Plots = ["0.19-0.20", "0.22-0.28", "1"]
+
+["1.2"]
+Distributions = "0.18-0.24"
+GR = ["0.42", "0.44-0.53"]
+
 ["1.2-1"]
 BasisMatrices = "0.6-0.7"
 CSV = "0.8"
 DataFrames = "0.17-0.22"
 DataStructures = "0.16-0.18"
-Distributions = "0.18-0.24"
-GR = ["0.42", "0.44-0.53"]
 HDF5 = "0.12-0.15"
 JLD2 = "0.1.3-0.3"
 MAT = "0.6-0.10"
@@ -195,3 +203,10 @@ ModelConstructors = "0.2.4-0.2"
 Optim = ["0.16-0.22", "1.2.1-1"]
 SMC = "0.1.10-0.2"
 SpecialFunctions = ["0.7-0.8", "0.10", "1"]
+
+["1.3-1"]
+Distributions = "0.18-0.25"
+FredData = "0.3-0.5"
+GR = ["0.42", "0.44-0.54"]
+OrderedCollections = ["1.1-1.2", "1.3.1-1.3.2"]
+Plots = ["0.19-0.20", "0.22-0.28", "1.1-1.10", "1.14.0-1"]
