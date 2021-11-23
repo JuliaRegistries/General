@@ -19,20 +19,27 @@ DistributionsAD = "0.6"
 ["0.4.0"]
 StatsBase = "0.33"
 
-["0.4.1-0"]
-ChainRulesCore = "0.9"
-
 ["0.4.1-0.4.2"]
 Flux = "0.11"
 
+["0.4.1-0.4.9"]
+ChainRulesCore = "0.9"
+
+["0.4.10-0"]
+ChainRulesCore = ["0.9", "1"]
+Distributions = "0.23-0.25"
+DistributionsAD = "0.6"
+
 ["0.4.3-0"]
-DistributionsAD = "0.6.9-0.6"
 Requires = "1"
 
 ["0.4.3-0.4.8"]
 Functors = "0.1"
 
-["0.4.7-0"]
+["0.4.3-0.4.9"]
+DistributionsAD = "0.6.9-0.6"
+
+["0.4.7-0.4.9"]
 Distributions = "0.23-0.24"
 
 ["0.4.9-0"]
