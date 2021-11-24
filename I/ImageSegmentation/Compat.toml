@@ -26,9 +26,7 @@ LightGraphs = "0.9.0 - 1"
 SimpleWeightedGraphs = "0.0.1 - 1"
 
 ["1.4-1"]
-LightGraphs = "1.1.0-1"
 RegionTrees = "0.2-0.3"
-SimpleWeightedGraphs = "1"
 
 ["1.4-1.4.2"]
 Clustering = "0.10-0.13"
@@ -44,6 +42,10 @@ StaticArrays = "0.9-0.12"
 
 ["1.4-1.5"]
 ImageFiltering = "0.6"
+
+["1.4-1.6"]
+LightGraphs = "1.1.0-1"
+SimpleWeightedGraphs = "1"
 
 ["1.4.0"]
 Images = "0.18-0.20"
@@ -69,13 +71,21 @@ Images = "0.18-0.23"
 ["1.4.8-1"]
 StaticArrays = ["0.9-0.12", "1"]
 
-["1.5-1"]
+["1.5-1.6"]
 MetaGraphs = "0.6.6-0.6"
 
 ["1.5.1-1.5"]
 Images = "0.18-0.24"
 
+["1.6"]
+ImageMorphology = "0.2.6-0.2"
+
 ["1.6-1"]
 ImageCore = "0.9"
 ImageFiltering = "0.6-0.7"
-ImageMorphology = "0.2.6-0.2"
+
+["1.7-1"]
+Graphs = "1.4.1-1"
+ImageMorphology = "0.2.6-0.3"
+MetaGraphs = "0.7"
+SimpleWeightedGraphs = "1.2.0-1"
