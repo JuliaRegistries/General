@@ -1,7 +1,6 @@
 [0]
 FiniteDifferences = "0.11-0.12"
 ForwardDiff = "0.10"
-ModelingToolkit = "5-6"
 ReverseDiff = "1.8.0-1"
 Zygote = "0.6"
 julia = "1"
@@ -9,5 +8,12 @@ julia = "1"
 ["0-0.1.0"]
 Symbolics = "2-3"
 
+["0-0.1.1"]
+ModelingToolkit = "5-6"
+
 ["0.1.1-0"]
 Symbolics = "2-4"
+
+["0.1.2-0"]
+DataFrames = "1"
+ModelingToolkit = "5-7"
