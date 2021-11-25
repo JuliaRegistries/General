@@ -41,8 +41,6 @@ AxisArrays = "0.3"
 ["0.19-0"]
 FileIO = "1"
 ImageDistances = "0.2.5-0.2"
-ImageTransformations = "0.4-0.8"
-IndirectArrays = "0.5"
 
 ["0.19-0.19.1"]
 ColorVectorSpace = "0.6-0.7"
@@ -81,6 +79,10 @@ StaticArrays = "0.8-0.12"
 ["0.19-0.23.2"]
 Reexport = "0.2"
 
+["0.19-0.24"]
+ImageTransformations = "0.4-0.8"
+IndirectArrays = "0.5"
+
 ["0.19-0.24.0"]
 ImageShow = "0.1-0.2"
 
@@ -103,14 +105,14 @@ ImageMetadata = "0.6-0.8"
 ["0.19.3-0.21"]
 ImageCore = "0.8.1-0.8"
 
-["0.20-0"]
+["0.20-0.24"]
 AxisArrays = "0.3-0.4"
 ImageMetadata = "0.6-0.9"
 
-["0.20.1-0"]
+["0.20.1-0.24"]
 ImageAxes = "0.6"
 
-["0.20.2-0"]
+["0.20.2-0.24"]
 OffsetArrays = ["0.8-0.11", "1.0.1-1"]
 
 ["0.21-0"]
@@ -119,7 +121,7 @@ ImageContrastAdjustment = "0.3.3-0.3"
 ["0.22"]
 ImageQualityIndexes = "0.1.3-0.1"
 
-["0.22-0"]
+["0.22-0.24"]
 ImageCore = "0.8.3-0.8"
 ImageFiltering = "0.6.3-0.6"
 
@@ -129,10 +131,10 @@ StatsBase = "0.24-0.33"
 ["0.22.3"]
 ImageMorphology = "0.2.6-0.2"
 
-["0.22.4-0"]
+["0.22.4-0.24"]
 ImageMorphology = "0.2.7-0.2"
 
-["0.23-0"]
+["0.23-0.24"]
 ImageQualityIndexes = "0.1.3-0.2"
 
 ["0.23.1-0"]
@@ -141,14 +143,32 @@ TiledIteration = "0.2-0.3"
 ["0.23.2-0"]
 StaticArrays = ["0.8-0.12", "1"]
 
-["0.23.3-0"]
+["0.23.3-0.24"]
 Reexport = ["0.2", "1"]
 
-["0.24-0"]
+["0.24"]
 ColorVectorSpace = "0.6-0.9"
-ImageIO = "0.3-0.5"
 ImageMagick = ["0.7.5-0.7", "1"]
+
+["0.24-0"]
+ImageIO = "0.3-0.5"
 julia = "1.3.0-1"
 
-["0.24.1-0"]
+["0.24.1-0.24"]
 ImageShow = "0.1-0.3"
+
+["0.25-0"]
+ImageAxes = "0.6.9-0.6"
+ImageBase = "0.1.5-0.1"
+ImageCore = "0.9.3-0.9"
+ImageFiltering = "0.7.1-0.7"
+ImageMagick = "1"
+ImageMetadata = "0.9.7-0.9"
+ImageMorphology = "0.3"
+ImageQualityIndexes = "0.3"
+ImageSegmentation = "1.7.0-1"
+ImageShow = "0.3"
+ImageTransformations = "0.9"
+IndirectArrays = ["0.5", "1"]
+IntegralArrays = "0.1"
+Reexport = "1.1.0-1"
