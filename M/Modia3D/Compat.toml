@@ -22,11 +22,19 @@ julia = "1.1.0-1"
 
 ["0.5-0"]
 Colors = "0.10-0.12"
-DataFrames = "0.19-0.22"
 JSON = "0.21"
-ModiaLang = "0.8.1-0.8"
-OrderedCollections = "1.1.0-1"
 StaticArrays = "1"
 TimerOutputs = "0.5"
 Unitful = "1"
 julia = "1.5.0-1"
+
+["0.5.0"]
+DataFrames = "0.19-0.22"
+ModiaLang = "0.8.1-0.8"
+OrderedCollections = "1.1.0-1"
+
+["0.5.1-0"]
+DataFrames = ["0.19-0.22", "1"]
+DoubleFloats = "1.1.0-1"
+ModiaLang = "0.8.3-0.8"
+OrderedCollections = "1"
