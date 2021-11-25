@@ -1,12 +1,18 @@
 [0]
-AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.2.1"]
+AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 TestImages = "5e47fb64-e119-507b-a336-dd2b206d9990"
 
-["0.2-0"]
+["0.2-0.2.1"]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+["0.2.2-0"]
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+ImageMorphology = "787d08f9-d448-5407-9aad-5290dd7ab264"
