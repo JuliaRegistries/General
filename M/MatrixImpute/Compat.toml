@@ -1,5 +1,13 @@
 [0]
+julia = "1"
+
+["0-0.3.1"]
 Arpack = "0.2-0.3"
 DataFrames = "0.17-0.19"
 StatsBase = "0.30-0.32"
-julia = "1"
+
+["0.3.2-0"]
+Arpack = "0.2-0.5"
+DataFrames = ["0.17-0.22", "1"]
+StatsBase = "0.30-0.33"
+TensorToolbox = "1"
