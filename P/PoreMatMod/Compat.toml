@@ -1,7 +1,6 @@
 [0]
 Bio3DView = "0.1"
 CSV = "0.8"
-DataFrames = "0.22"
 FIGlet = "0.2"
 Reexport = "1.1.0-1"
 StatsBase = "0.33"
@@ -15,7 +14,10 @@ Blink = "0.12"
 LightGraphs = "1.3.0-1"
 MetaGraphs = "0.6.6-0.6"
 
-["0.1.1-0"]
+["0-0.2.6"]
+DataFrames = "0.22"
+
+["0.1.1-0.2.6"]
 PlutoSliderServer = "0.2.4-0.2"
 PlutoUI = "0.7.9-0.7"
 
@@ -23,6 +25,16 @@ PlutoUI = "0.7.9-0.7"
 Xtals = "0.3.6-0.3"
 
 ["0.2.4-0"]
-Graphs = "1.4.1-1"
 MetaGraphs = "0.7"
+
+["0.2.4-0.2.6"]
+Graphs = "1.4.1-1"
 Xtals = "0.3.8-0.3"
+
+["0.2.7-0"]
+DataFrames = ["0.22", "1"]
+Graphs = "1.4.0-1"
+Pluto = "0.17"
+PlutoSliderServer = "0.2"
+PlutoUI = "0.7"
+Xtals = "0.3"
