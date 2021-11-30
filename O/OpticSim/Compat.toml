@@ -1,15 +1,12 @@
 [0]
-CSV = "0.8"
 ColorSchemes = "3.10.0-3"
 Colors = "0.12"
 ForwardDiff = "0.10"
 ImageView = "0.10"
-JuMP = "0.21"
 Luxor = "2.10.0-2"
 MeshIO = "0.4"
 NLopt = "0.6"
 Optim = "1.2.0-1"
-PackageCompiler = "1.2.0-1"
 Plots = "1.10.0-1"
 Polynomials = "2"
 ReverseDiff = "1.7.0-1"
@@ -38,6 +35,11 @@ Images = "0.23"
 Ipopt = "0.6"
 Makie = "0.12"
 
+["0-0.5.2"]
+CSV = "0.8"
+JuMP = "0.21"
+PackageCompiler = "1.2.0-1"
+
 ["0.4.0"]
 HTTP = "0.8"
 
@@ -56,19 +58,32 @@ WGLMakie = "0.3"
 
 ["0.4.4-0"]
 DataFrames = ["0.22", "1"]
-Images = "0.23-0.24"
 Revise = "3.1.0-3"
+
+["0.4.4-0.5.2"]
+Images = "0.23-0.24"
 
 ["0.5-0"]
 ColorTypes = "0.10-0.11"
 Distributions = "0.24-0.25"
 
+["0.5.2"]
+Ipopt = "0.6-0.7"
+Makie = "0.14-0.15"
+Pluto = ["0.12", "0.14-0.15"]
+
 ["0.5.2-0"]
 GLMakie = "0.4"
 GeometryBasics = "0.3-0.4"
-Ipopt = "0.6-0.7"
 JSServe = "1"
 LazySets = "1"
-Makie = "0.14-0.15"
-Pluto = ["0.12", "0.14-0.15"]
 WGLMakie = "0.4"
+
+["0.5.3-0"]
+CSV = "0.8-0.9"
+Images = "0.23-0.25"
+Ipopt = "0.6-0.8"
+JuMP = "0.21-0.22"
+Makie = "0.15"
+PackageCompiler = "1.2.0-2"
+Pluto = ["0.12", "0.14-0.17"]
