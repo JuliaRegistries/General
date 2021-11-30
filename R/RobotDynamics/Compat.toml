@@ -1,12 +1,14 @@
 [0]
 ForwardDiff = "0.10"
-Rotations = "1"
 julia = "1"
+
+["0-0.3"]
+Rotations = "1"
 
 ["0-0.3.0"]
 StaticArrays = "0.12"
 
-["0.1-0"]
+["0.1-0.3"]
 UnsafeArrays = "1"
 
 ["0.2-0"]
@@ -15,8 +17,12 @@ RecipesBase = "1"
 ["0.3.1-0"]
 StaticArrays = "1"
 
-["0.3.2-0"]
+["0.3.2-0.3"]
 FiniteDiff = "2"
 
-["0.3.3-0"]
+["0.3.3-0.3"]
 SparseDiffTools = "1"
+
+["0.4-0"]
+FiniteDiff = "2.8.0-2"
+Rotations = "1.0"
