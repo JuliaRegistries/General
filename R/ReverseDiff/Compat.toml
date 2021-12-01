@@ -12,10 +12,12 @@ FunctionWrappers = "1"
 
 [1]
 DiffResults = "1"
-DiffRules = ["0.1", "1"]
 ForwardDiff = "0.10"
 NaNMath = "0.3"
 julia = "1"
+
+["1-1.10"]
+DiffRules = ["0.1", "1"]
 
 ["1-1.4.4"]
 StaticArrays = "0.10-0.12"
@@ -28,6 +30,10 @@ SpecialFunctions = "0.8-0.10"
 
 ["1.10-1"]
 ChainRulesCore = "1"
+
+["1.11-1"]
+DiffRules = "1.4.0-1"
+LogExpFunctions = "0.3"
 
 ["1.2-1"]
 MacroTools = "0.5"
