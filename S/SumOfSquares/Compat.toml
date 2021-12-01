@@ -60,11 +60,13 @@ PolyJuMP = "0.3.4-0.3"
 ["0.3.6-0.4.5"]
 Reexport = "0.2"
 
+["0.4"]
+MultivariatePolynomials = "0.3.5-0.3"
+MutableArithmetics = "0.2"
+
 ["0.4-0"]
 MultivariateBases = "0.1.2-0.1"
 MultivariateMoments = "0.3"
-MultivariatePolynomials = "0.3.5-0.3"
-MutableArithmetics = "0.2"
 
 ["0.4-0.4.1"]
 MathOptInterface = "0.9.9-0.9"
@@ -76,7 +78,7 @@ PolyJuMP = "0.4"
 ["0.4.2"]
 MathOptInterface = "0.9.16-0.9"
 
-["0.4.3-0"]
+["0.4.3-0.4"]
 ComplexOptInterface = "0.0.2"
 MathOptInterface = "0.9.18-0.9"
 
@@ -84,10 +86,23 @@ MathOptInterface = "0.9.18-0.9"
 DataStructures = "0.18"
 
 ["0.4.6-0"]
+Reexport = ["0.2", "1"]
+
+["0.4.6-0.4"]
 JuMP = "0.21.7-0.21"
 PolyJuMP = "0.4.2-0.4"
-Reexport = ["0.2", "1"]
 
 ["0.4.7-0"]
 Combinatorics = "1"
+
+["0.4.7-0.4"]
 SymbolicWedderburn = "0.1"
+
+["0.5-0"]
+ComplexOptInterface = "0.0.3"
+JuMP = "0.22"
+MathOptInterface = "0.10"
+MultivariatePolynomials = "0.4"
+MutableArithmetics = "0.3"
+PolyJuMP = "0.5.1-0.5"
+SymbolicWedderburn = "0.2"
