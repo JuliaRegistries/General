@@ -55,17 +55,28 @@ Distributions = "0.19-0.25"
 IncrementalInference = "0.23-0.24"
 
 ["0.11-0"]
-ApproxManifoldProducts = "0.3-0.4"
-DistributedFactorGraphs = "0.15-0.16"
 Distributions = "0.22-0.25"
-IncrementalInference = "0.25"
 JLD2 = "0.3-0.4"
 JSON = "0.19-0.21"
-Manifolds = "0.6.3-0.6"
 Requires = ["0.5", "1"]
-RoME = "0.16"
 TensorCast = "0.3-0.4"
 Unmarshal = "0.3-0.4"
+
+["0.11.0"]
+ApproxManifoldProducts = "0.3-0.4"
+DistributedFactorGraphs = "0.15-0.16"
+IncrementalInference = "0.25"
+Manifolds = "0.6.3-0.6"
+RoME = "0.16"
+
+["0.11.1-0"]
+ApproxManifoldProducts = "0.4.21-0.4"
+DistributedFactorGraphs = "0.15-0.17"
+IncrementalInference = "0.25.4-0.26"
+Manifolds = "0.6.3-0.7"
+RoME = "0.16.1-0.17"
+Rotations = "1.1.0-1"
+StaticArrays = "1"
 
 ["0.2.1"]
 IncrementalInference = "0.4.3 - 0.4"
@@ -264,9 +275,11 @@ DistributedFactorGraphs = "0.9-0.10"
 
 ["0.6-0"]
 CoordinateTransformations = "0.5-0.6"
-Rotations = ["0.13", "1"]
 TimeZones = "1.3.1-1"
 julia = "1.4.0-1"
+
+["0.6-0.11.0"]
+Rotations = ["0.13", "1"]
 
 ["0.6-0.6.1"]
 IncrementalInference = "0.14.1-0.15"
