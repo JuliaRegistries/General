@@ -1,20 +1,35 @@
 [0]
-DiffRules = ["0.0.5-0.0.10", "0.1", "1.0"]
 DocStringExtensions = "0.8"
-ForwardDiff = "0.5-0.10"
-Reexport = "0.2"
-StaticArrays = "0.8-0.12"
 
 ["0-0.1"]
 IntervalArithmetic = "0.16"
+
+["0-0.11"]
+DiffRules = ["0.0.5-0.0.10", "0.1", "1.0"]
+ForwardDiff = "0.5-0.10"
+Reexport = "0.2"
+StaticArrays = "0.8-0.12"
 
 ["0-0.6"]
 julia = "1.1-1.4"
 
 ["0.10-0"]
-IntervalArithmetic = "0.14-0.17"
 IntervalRootFinding = "0.5"
+
+["0.10-0.11"]
+IntervalArithmetic = "0.14-0.17"
 julia = "1"
+
+["0.12-0"]
+DiffRules = "1.5.0-1"
+ForwardDiff = "0.10"
+IntervalArithmetic = "0.20"
+NNlib = "0.7"
+NaNMath = "0.3.5-0.3"
+Reexport = ["0.2", "1"]
+SpecialFunctions = "1-2"
+StaticArrays = "1.2"
+julia = "1.6-1.7"
 
 ["0.2-0.6.0"]
 IntervalArithmetic = "0.16.3-0.16"
@@ -22,13 +37,13 @@ IntervalArithmetic = "0.16.3-0.16"
 ["0.6.1-0.9"]
 IntervalArithmetic = "0.16.3-0.17"
 
-["0.7-0"]
+["0.7-0.11"]
 NaNMath = "0.3.3-0.3"
 
 ["0.7-0.9"]
 julia = "1.1-1.5"
 
-["0.8-0"]
+["0.8-0.11"]
 SpecialFunctions = "0.8-0.10"
 
 ["0.9"]
