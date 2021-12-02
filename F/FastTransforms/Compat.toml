@@ -19,13 +19,13 @@ FillArrays = "0.8-0.9"
 ["0.10.3-0.10"]
 FillArrays = "0.8-0.10"
 
-["0.11-0"]
-SpecialFunctions = ["0.10", "1"]
-
 ["0.11-0.11.1"]
 AbstractFFTs = "0.5"
 ArrayLayouts = "0.4"
 FillArrays = "0.9-0.10"
+
+["0.11-0.13.0"]
+SpecialFunctions = ["0.10", "1"]
 
 ["0.11.0"]
 FastTransforms_jll = "0.4"
@@ -65,6 +65,9 @@ ToeplitzMatrices = "0.6-0.7"
 ["0.13-0"]
 AbstractFFTs = "1"
 julia = "1.6.0-1"
+
+["0.13.1-0"]
+SpecialFunctions = ["0.10", "1-2"]
 
 ["0.6"]
 HierarchicalMatrices = "0.2"
