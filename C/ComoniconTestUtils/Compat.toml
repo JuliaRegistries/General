@@ -1,10 +1,17 @@
 [0]
 Faker = "0.3"
-julia = "1.6.1-1"
 
 ["0-0.1"]
 ComoniconTypes = "0.1"
 
-["0.2-0"]
+["0-0.2"]
+julia = "1.6.1-1"
+
+["0.2"]
 ComoniconTypes = "0.2"
 Configurations = "0.15"
+
+["0.3-0"]
+Comonicon = "0.12"
+Configurations = "0.17"
+julia = "1.6.0-1"
