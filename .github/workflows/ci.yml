@@ -18,9 +18,8 @@ jobs:
           - '1.3'
           - '1.4'
           - '1.5'
-          # - '1.6' # TODO: uncomment this line once Julia 1.7.0 has been released
+          - '1.6'
           - '1'
-          - '~1.7.0-0' # TODO: delete this line once Julia 1.7.0 has been released
           - 'nightly'
         os:
           - ubuntu-latest
