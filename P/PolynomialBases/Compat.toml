@@ -1,6 +1,3 @@
-[0]
-julia = ["0.7", "1"]
-
 ["0-0.4.1"]
 ArgCheck = "0-1"
 FastGaussQuadrature = "0.0.0 - 0.4"
@@ -9,11 +6,21 @@ Parameters = "0.0.0 - 0.12"
 Requires = "0.0.0 - 0.5"
 SpecialFunctions = "0.0.0 - 0.10"
 
+["0-0.4.10"]
+julia = ["0.7", "1"]
+
 ["0.4.10-0"]
 FastTransforms = "0.11-0.13"
 
+["0.4.11-0"]
+SpecialFunctions = "1-2"
+UnPack = "1"
+julia = "1.6.0-1"
+
 ["0.4.2-0"]
 FastGaussQuadrature = "0.4.2-0.4"
+
+["0.4.2-0.4.10"]
 Parameters = "0.12"
 
 ["0.4.2-0.4.5"]
@@ -31,6 +38,8 @@ FastTransforms = "0.4-0.10"
 ["0.4.7-0"]
 ArgCheck = "2"
 Requires = "1"
+
+["0.4.7-0.4.10"]
 SpecialFunctions = "1"
 
 ["0.4.7-0.4.8"]
