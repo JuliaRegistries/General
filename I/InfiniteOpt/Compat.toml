@@ -1,6 +1,5 @@
 [0]
 FastGaussQuadrature = "0.3.2-0.4"
-julia = "1"
 
 ["0-0.1"]
 JuMP = "0.21"
@@ -9,6 +8,9 @@ MutableArithmetics = "0.2"
 
 ["0-0.3.1"]
 Distributions = "0.19-0.23"
+
+["0-0.5.0"]
+julia = "1"
 
 ["0.2-0"]
 DataStructures = "0.14.2-0.18"
@@ -38,7 +40,15 @@ JuMP = "0.21.9-0.21"
 
 ["0.5-0"]
 AbstractTrees = "0.3"
-JuMP = "0.21.10-0.21"
 LeftChildRightSiblingTrees = "0.1"
+
+["0.5.0"]
+JuMP = "0.21.10-0.21"
 MutableArithmetics = "0.2"
 SpecialFunctions = ["0.8-0.10", "1"]
+
+["0.5.1-0"]
+JuMP = "0.22"
+MutableArithmetics = "0.3"
+SpecialFunctions = ["0.8-0.10", "1-2"]
+julia = "1.6.0-1"
