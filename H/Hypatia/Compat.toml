@@ -1,7 +1,6 @@
 [0]
 Combinatorics = "1"
 GenericLinearAlgebra = "0.2"
-MathOptInterface = "0.9.14-0.9"
 PolynomialRoots = "1"
 
 ["0-0.1.0"]
@@ -15,7 +14,10 @@ Requires = "1.1.0-1"
 ["0-0.3"]
 IterativeSolvers = "0.8"
 
-["0.1.1-0"]
+["0-0.5"]
+MathOptInterface = "0.9.14-0.9"
+
+["0.1.1-0.5"]
 julia = "1.5.0-1"
 
 ["0.3-0"]
@@ -25,6 +27,13 @@ Requires = "1"
 ["0.4-0"]
 IterativeSolvers = "0.8-0.9"
 
+["0.5"]
+SpecialFunctions = "1.4.0-1"
+
 ["0.5-0"]
 DocStringExtensions = "0.8"
-SpecialFunctions = "1.4.0-1"
+
+["0.6-0"]
+MathOptInterface = "0.10.6-0.10"
+SpecialFunctions = "1.4.0-2"
+julia = "1.6.0-1"
