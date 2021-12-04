@@ -22,26 +22,34 @@ MosaicViews = "0.2"
 NFFT = "0.5"
 SpecialFunctions = "0.10"
 
-["0.13-0"]
+["0.13-0.14"]
 LinearMapsAA = "0.6.5-0.6"
+
+["0.14"]
+FillArrays = "0.9-0.11"
+MIRTio = "0.3"
+Reexport = ["0.2", "1"]
+SpecialFunctions = ["0.10", "1"]
+julia = "1.5.0-1"
 
 ["0.14-0"]
 AVSfldIO = "0.2"
 FFTW = "1"
 FileIO = "1.9.0-1"
-FillArrays = "0.9-0.11"
 Interpolations = "0.12-0.13"
-MIRTio = "0.3"
 NFFT = "0.6"
-Reexport = ["0.2", "1"]
-SpecialFunctions = ["0.10", "1"]
-julia = "1.5.0-1"
 
 ["0.14.0"]
 MIRTjim = "0.6"
 
-["0.14.1-0"]
+["0.14.1-0.14"]
 MIRTjim = "0.6-0.7"
+
+["0.15-0"]
+FillArrays = "0.12"
+LinearMapsAA = "0.7"
+SpecialFunctions = ["0.10", "1-2"]
+julia = "1.6.0-1"
 
 ["0.2-0.8"]
 julia = "1.1.0-1"
