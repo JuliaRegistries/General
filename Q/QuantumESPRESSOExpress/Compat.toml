@@ -1,5 +1,4 @@
 [0]
-Configurations = "0.3-0.16"
 Crystallography = "0.2-0.3"
 QuantumESPRESSO = "0.5"
 Unitful = ["0.18", "1"]
@@ -16,18 +15,28 @@ Express = "0.2"
 ["0-0.2.0"]
 EquationsOfStateOfSolids = "0.1-0.2"
 
-["0.1.1-0"]
-AbInitioSoftwareBase = "0.2-0.6"
+["0-0.3"]
+Configurations = "0.3-0.16"
 
 ["0.1.1-0.1"]
 Express = "0.2-0.3"
 
+["0.1.1-0.3"]
+AbInitioSoftwareBase = "0.2-0.6"
+
 ["0.2-0"]
-Express = "0.4"
 Setfield = "0.4-0.8"
+
+["0.2-0.3"]
+Express = "0.4"
 
 ["0.2.1-0.2"]
 EquationsOfStateOfSolids = "0.1-0.3"
 
 ["0.3-0"]
 EquationsOfStateOfSolids = "0.4"
+
+["0.4-0"]
+AbInitioSoftwareBase = "0.2-0.7"
+Configurations = "0.3-0.17"
+Express = "0.5"
