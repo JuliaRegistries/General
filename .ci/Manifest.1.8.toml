@@ -39,10 +39,10 @@ deps = ["Mmap"]
 uuid = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 
 [[deps.Distances]]
-deps = ["LinearAlgebra", "Statistics", "StatsAPI"]
-git-tree-sha1 = "837c83e5574582e07662bbbba733964ff7c26b9d"
+deps = ["LinearAlgebra", "SparseArrays", "Statistics", "StatsAPI"]
+git-tree-sha1 = "3258d0659f812acde79e8a74b11f17ac06d0ca04"
 uuid = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
-version = "0.10.6"
+version = "0.10.7"
 
 [[deps.Distributed]]
 deps = ["Random", "Serialization", "Sockets"]
@@ -81,9 +81,9 @@ version = "0.5.0"
 
 [[deps.InlineStrings]]
 deps = ["Parsers"]
-git-tree-sha1 = "19cb49649f8c41de7fea32d089d37de917b553da"
+git-tree-sha1 = "ca99cac337f8e0561c6a6edeeae5bf6966a78d21"
 uuid = "842dd82b-1e85-43dc-bf29-5d0ee9dffc48"
-version = "1.0.1"
+version = "1.1.0"
 
 [[deps.InteractiveUtils]]
 deps = ["Markdown"]
@@ -218,10 +218,10 @@ uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
 version = "7.1.7"
 
 [[deps.RegistryTools]]
-deps = ["AutoHashEquals", "LibGit2", "Pkg", "UUIDs"]
-git-tree-sha1 = "ec57c156db3c3392b9d2e8a78b030b81480d5020"
+deps = ["AutoHashEquals", "LibGit2", "Pkg", "SHA", "UUIDs"]
+git-tree-sha1 = "e5bc4ecbdd55f030b9f2644aa4a625f34a868ea0"
 uuid = "d1eb7eb1-105f-429d-abf5-b0f65cb9e2c4"
-version = "1.5.8"
+version = "1.6.0"
 
 [[deps.SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
