@@ -4,7 +4,7 @@ StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
 ["0-0.2"]
 Yeppp = "6310b701-1812-5374-a82f-9f6f2d54a40a"
 
-[0-1]
+[0-2]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Lazy = "50d2b5c4-7a5e-59d5-8109-a42b560f39c0"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -15,18 +15,21 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0.1.2-1"]
+["0.1.2-2"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 ["0.2-0.4.0"]
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 
-["0.3-1"]
+["0.3-2"]
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 
 ["0.4.1-0.4.5"]
 VectorizationBase = "3d5dd08c-fd9d-11e8-17fa-ed2836048c2f"
 
-["0.4.1-1"]
+["0.4.1-2"]
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+[2]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
