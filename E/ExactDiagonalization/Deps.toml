@@ -2,5 +2,10 @@
 Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 QuantumLattices = "78ae1a1f-1d5d-5174-b61c-66e31b2346dc"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0-0.1.0"]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.1.1-0"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
