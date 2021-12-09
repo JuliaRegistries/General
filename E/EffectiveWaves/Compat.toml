@@ -9,12 +9,14 @@ SpecialFunctions = "0.0.0 - 0.10"
 julia = "1"
 
 ["0.3-0"]
-GSL = ["0.6-0.9", "1"]
 MDBM = "0.1"
 OffsetArrays = ["0.23", "1"]
 Optim = ["0.22", "1"]
-Polynomials = "0.8"
 RecipesBase = "1"
+
+["0.3-0.3.1"]
+GSL = ["0.6-0.9", "1"]
+Polynomials = "0.8"
 Reexport = "0.2"
 StaticArrays = "0.8-0.12"
 
@@ -23,11 +25,21 @@ ApproxFun = "0.9-0.11"
 MultipleScattering = "0.1.5-0.1"
 SpecialFunctions = ["0.7-0.9", "10"]
 
-["0.3.1-0"]
+["0.3.1"]
 ClassicalOrthogonalPolynomials = "0.3"
-HCubature = "1"
 Interpolations = "0.13"
-IterTools = "1"
 MultipleScattering = "0.1.10-0.1"
 SpecialFunctions = ["0.3", "0.7-0.10", "1"]
+
+["0.3.1-0"]
+HCubature = "1"
+IterTools = "1"
 julia = "1.5.0-1"
+
+["0.3.2-0"]
+ClassicalOrthogonalPolynomials = "0.3-0.5"
+Interpolations = "0.12-0.13"
+MultipleScattering = "0.1.11-0.1"
+Reexport = ["0.2", "1"]
+SpecialFunctions = ["0.3", "0.7-0.10", "1-2"]
+StaticArrays = ["0.12", "1"]
