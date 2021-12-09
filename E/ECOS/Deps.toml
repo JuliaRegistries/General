@@ -1,21 +1,26 @@
 [0]
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
-MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
 
 ["0-0.10.0"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["0-0.13"]
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
 
 ["0-0.9.1"]
 BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 Homebrew = "d9be37ee-ecc9-5288-90f1-b9ca67657a75"
 
-["0.10-0"]
+["0.10-0.13"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0.12-0"]
 ECOS_jll = "c2c64177-6a8e-5dca-99a7-64895ad7445f"
 
-["0.9.2-0"]
+["0.14-0"]
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+
+["0.9.2-0.13"]
 BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
