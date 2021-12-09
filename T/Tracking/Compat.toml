@@ -73,8 +73,14 @@ GNSSSignals = "0.15"
 LoopVectorization = "0.8-0.12"
 
 ["0.14.7-0"]
-GNSSSignals = "0.15.3-0.15"
 julia = "1.6.0-1"
+
+["0.14.7-0.14.8"]
+GNSSSignals = "0.15.3-0.15"
+
+["0.14.9-0"]
+CUDA = "3.5.0-3"
+GNSSSignals = "0.15.4-0.15"
 
 ["0.9.3-0.10"]
 Unitful = "0.12.0 - 0.18"
