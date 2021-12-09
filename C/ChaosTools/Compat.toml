@@ -73,7 +73,7 @@ Neighborhood = "0.2.2-0.2"
 ["1.23.1-1"]
 DelayEmbeddings = "1"
 
-["1.27-2"]
+["1.27-2.6.1"]
 SpecialFunctions = ["0.10", "1"]
 
 ["1.28-2"]
@@ -162,8 +162,14 @@ Distributions = "0.21-0.23"
 
 [2]
 DelayEmbeddings = "2"
-DynamicalSystemsBase = "2"
 Entropies = "1"
+
+["2-2.6.1"]
+DynamicalSystemsBase = "2"
 
 ["2.5-2"]
 IntervalRootFinding = "0.5.9-0.5"
+
+["2.6.2-2"]
+DynamicalSystemsBase = "2.3.3-2"
+SpecialFunctions = ["0.10", "1-2"]
