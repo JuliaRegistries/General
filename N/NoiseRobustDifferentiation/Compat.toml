@@ -1,4 +1,4 @@
-[0]
+["0-0.1"]
 Preconditioners = "0.3"
 julia = "1.5.0-1"
 
@@ -6,6 +6,12 @@ julia = "1.5.0-1"
 IterativeSolvers = "0.8"
 LinearMaps = "2.7.0-2"
 
-["0.1.1-0"]
+["0.1.1-0.1"]
 IterativeSolvers = "0.8-0.9"
 LinearMaps = "3.2.0-3"
+
+["0.2-0"]
+IterativeSolvers = "0.9"
+LinearMaps = "3.5.0-3"
+Preconditioners = "0.4"
+julia = "1.6.0-1"
