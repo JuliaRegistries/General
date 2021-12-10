@@ -26,6 +26,9 @@ StringDistances = "0.10"
 ImageFiltering = "0.6-0.7"
 StringDistances = "0.10-0.11"
 
+["0.11.1-0"]
+SciMLBase = "1"
+
 ["0.2"]
 BSON = "0.0.0 - 0.2"
 
@@ -136,9 +139,11 @@ MetadataArrays = "0.1"
 Unitful = "1"
 
 ["0.5-0"]
-DiffEqBase = "6"
 RecipesBase = "1"
 UnPack = "1"
+
+["0.5-0.11.0"]
+DiffEqBase = "6"
 
 ["0.5-0.7.0"]
 FieldMetadata = "0.2"
