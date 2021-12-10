@@ -18,7 +18,6 @@ IndirectArrays = "9b13fd28-a010-5f03-acff-a1bbcff69959"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 LearnBase = "7f8f8fb0-2700-5f03-b4bd-41f8cfc144b6"
 MLDataPattern = "9920b226-0b2a-5f5f-9153-9aa70a013f8b"
-Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 MosaicViews = "e94cdb99-869f-56ef-bcf0-1ae2bcbe0389"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
@@ -31,5 +30,14 @@ Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
+["0-0.2"]
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+
 ["0.2-0"]
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+
+["0.3-0"]
+ImageInTerminal = "d8c32880-2388-543b-8c61-d9f865259254"
+InlineTest = "bd334432-b1e7-49c7-a2dc-dd9149e4ebd6"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
