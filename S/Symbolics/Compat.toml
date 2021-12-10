@@ -20,8 +20,10 @@ NaNMath = "0.3"
 Reexport = ["0.2", "1"]
 RuntimeGeneratedFunctions = "0.4.3-0.5"
 SciMLBase = "1.8.0-1"
-SpecialFunctions = ["0.7-0.10", "1"]
 TreeViews = "0.3"
+
+["0-4.1"]
+SpecialFunctions = ["0.7-0.10", "1"]
 
 ["0.1.11-0.1.20"]
 AbstractAlgebra = "0.13-0.15"
@@ -31,6 +33,8 @@ SymbolicUtils = "0.9-0.10"
 
 ["0.1.13-4"]
 Latexify = "0.11-0.15"
+
+["0.1.13-4.1"]
 julia = "1.5.0-1"
 
 ["0.1.16-0.1.17"]
@@ -98,3 +102,7 @@ TermInterface = "0.2"
 
 ["4.1-4"]
 DataStructures = "0.18"
+
+["4.2-4"]
+SpecialFunctions = ["0.7-0.10", "1-2"]
+julia = "1.6.0-1"
