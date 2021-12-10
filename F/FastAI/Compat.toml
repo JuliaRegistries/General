@@ -1,7 +1,6 @@
 [0]
 Animations = "0.4"
 BSON = "0.3"
-CSV = "0.8"
 Colors = "0.12"
 DLPipelines = "0.3"
 DataAugmentation = "0.2.4-0.2"
@@ -17,10 +16,8 @@ Glob = "1"
 JLD2 = "0.4"
 LearnBase = "0.3-0.4"
 MLDataPattern = "0.5"
-Makie = "0.15"
 MosaicViews = "0.2-0.3"
 Parameters = "0.12"
-PrettyTables = "1"
 Reexport = "1"
 ShowCases = "0.1"
 StaticArrays = "1.1.0-1"
@@ -31,6 +28,19 @@ julia = "1"
 ["0-0.1"]
 IndirectArrays = "0.5"
 
+["0-0.2"]
+CSV = "0.8"
+Makie = "0.15"
+PrettyTables = "1"
+
 ["0.2-0"]
 IndirectArrays = ["0.5", "1"]
 Setfield = "0.7-0.8"
+
+["0.3-0"]
+CSV = "0.8-0.9"
+ImageInTerminal = "0.4"
+InlineTest = "0.2"
+PrettyTables = "1.2.0-1"
+Requires = "1"
+UnicodePlots = "2"
