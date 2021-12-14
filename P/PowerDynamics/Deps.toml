@@ -9,9 +9,14 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 PowerDynOperationPoint = "95be4243-a2fd-5eef-a7d1-2e97978993e7"
 
 [2]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
+["2-2.4.1"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[2-3]
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 Lazy = "50d2b5c4-7a5e-59d5-8109-a42b560f39c0"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
@@ -21,32 +26,34 @@ NetworkDynamics = "22e9dc34-2a0d-11e9-0de0-8588d035468b"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 
-["2-2.4.1"]
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-
 ["2.0"]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 MetaGraphs = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
 
-["2.1-2"]
+["2.1-3"]
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 
-["2.2-2"]
+["2.2-3"]
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 
-["2.3.2-2"]
+["2.3.2-3"]
 SteadyStateDiffEq = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
 
-["2.4-2"]
+["2.4-3"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 
-["2.5-2"]
+["2.5-3"]
 Ipopt = "b6b21f68-93f8-5de0-b562-5493be1d77c9"
 PowerModels = "c36e90e8-916a-50a6-bd94-075b64ef4655"
 PowerModelsACDC = "ff45984e-d068-5f4c-9e32-c4133509d236"
 
-["2.5.1-2"]
+["2.5.1-3"]
 DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
+
+[3]
+BlockSystems = "4663d367-db1f-4bef-81e7-dc1bd7f7b428"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
