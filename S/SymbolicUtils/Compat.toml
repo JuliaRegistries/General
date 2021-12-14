@@ -21,7 +21,7 @@ AbstractAlgebra = "0.9-0.17"
 ["0.12-0.13.1"]
 ChainRulesCore = "0.9-0.10"
 
-["0.13-0"]
+["0.13-0.18.1"]
 DynamicPolynomials = "0.3"
 MultivariatePolynomials = "0.3"
 
@@ -45,6 +45,11 @@ Setfield = "0.7-0.8"
 Metatheory = "1.2.0-1"
 TermInterface = "0.2.1-0.2"
 
+["0.18.2-0"]
+DynamicPolynomials = "0.3-0.4"
+MultivariatePolynomials = "0.3-0.4"
+SpecialFunctions = ["0.10", "1-2"]
+
 ["0.3.3-0"]
 julia = "1.3.0-1"
 
@@ -65,6 +70,8 @@ AbstractAlgebra = "0.9-0.11"
 
 ["0.6.1-0"]
 DataStructures = "0.18"
+
+["0.6.1-0.18.1"]
 SpecialFunctions = ["0.10", "1"]
 
 ["0.6.3-0.8.2"]
