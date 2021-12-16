@@ -43,13 +43,11 @@ NeXLMatrixCorrection = "0.2.1-0.2"
 NeXLUncertainties = "0.2.1-0.2"
 
 ["0.2.1-0"]
-CSV = "0.7.3-0.8"
 Cairo = "1.0.5-1"
 Compose = "0.8.2-0.9"
 FileIO = "1.4.0-1"
 MultivariateStats = "0.8"
 Unitful = "1.5.0-1"
-julia = "1.5.0-1"
 
 ["0.2.1-0.2.3"]
 DataFrames = "0.21-0.22"
@@ -58,6 +56,10 @@ ZipFile = "0.9.3-0.9"
 ["0.2.1-0.2.5"]
 ImageIO = "0.4"
 LoopVectorization = "0.9"
+
+["0.2.1-0.2.6"]
+CSV = "0.7.3-0.8"
+julia = "1.5.0-1"
 
 ["0.2.2"]
 NeXLCore = "0.2.3-0.2"
@@ -105,15 +107,23 @@ NeXLUncertainties = "0.2.5-0.2"
 ["0.2.5-0"]
 TimeZones = "1.5.0-1"
 
+["0.2.6"]
+Images = "0.23-0.24"
+NeXLCore = "0.2.7-0.2"
+
 ["0.2.6-0"]
 Distributions = "0.23-0.25"
 FourierTools = "0.2"
 HDF5 = "0.15"
 ImageAxes = "0.6"
 ImageIO = "0.4-0.5"
-Images = "0.23-0.24"
 LoopVectorization = ["0.9", "0.12"]
-NeXLCore = "0.2.7-0.2"
 NeXLMatrixCorrection = "0.2.7-0.2"
 NeXLUncertainties = "0.2.6-0.2"
 Polynomials = "1.1.0-2"
+
+["0.2.7-0"]
+CSV = "0.7.3-0.9"
+Images = "0.23-0.25"
+NeXLCore = "0.2.8-0.2"
+julia = "1.6.4-1"
