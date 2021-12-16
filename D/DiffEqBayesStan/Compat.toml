@@ -33,7 +33,6 @@ Distributions = "0.25"
 LabelledArrays = "1"
 MCMCChains = "5"
 Missings = "1"
-ModelingToolkit = "6"
 Optim = "1"
 PDMats = "0.11"
 RecursiveArrayTools = "2"
@@ -42,8 +41,18 @@ Requires = "1"
 StanSample = "5"
 StructArrays = "0.6"
 
+["1-1.1.1"]
+ModelingToolkit = "6"
+
 ["1.1-1"]
 CSV = "0.9"
 DataFrames = "1.2.0-1"
 MonteCarloMeasurements = "1"
 StatsBase = "0.33"
+
+["1.1.2-1"]
+AxisKeys = "0.1"
+BenchmarkTools = "1.2.0-1"
+ModelingToolkit = "6-7"
+Plots = "1.25.0-1"
+Tables = "1.6.0-1"
