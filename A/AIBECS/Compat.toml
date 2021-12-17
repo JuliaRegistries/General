@@ -29,6 +29,9 @@ StringDistances = "0.10-0.11"
 ["0.11.1-0"]
 SciMLBase = "1"
 
+["0.11.2-0"]
+Bijectors = "0.8-0.10"
+
 ["0.2"]
 BSON = "0.0.0 - 0.2"
 
@@ -215,9 +218,11 @@ BSON = "0.2-0.3"
 ImageFiltering = "0.6"
 
 ["0.8.7-0"]
-Bijectors = "0.8-0.9"
 DataFrames = ["0.20-0.22", "1"]
 Distributions = "0.23-0.25"
+
+["0.8.7-0.11.1"]
+Bijectors = "0.8-0.9"
 
 ["0.9-0"]
 CodecZlib = "0.7"
