@@ -155,12 +155,14 @@ CSV = ["0.9", "1"]
 
 [8]
 StanOptimize = "3"
-StanQuap = "2"
 StanSample = "5"
 
 ["8-8.0.1"]
 StanDiagnose = "2-3"
 StanVariational = "2-3"
+
+["8.0"]
+StanQuap = "2"
 
 ["8.0.0"]
 DimensionalData = "0.18"
@@ -173,3 +175,6 @@ CSV = "0.9"
 StanBase = "3"
 StanDiagnose = "3"
 StanVariational = "3"
+
+["8.1-8"]
+StanQuap = "3"
