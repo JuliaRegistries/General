@@ -88,9 +88,6 @@ DiffEqBase = "5.20.0-5"
 ["5.14-5.23"]
 ArrayInterface = "1.1.0-1"
 
-["5.15-5"]
-MacroTools = "0.5"
-
 ["5.15-5.18"]
 SparseDiffTools = "0.9"
 
@@ -114,6 +111,9 @@ DataStructures = "0.17"
 
 ["5.15-5.46"]
 Reexport = "0.2"
+
+["5.15-6"]
+MacroTools = "0.5"
 
 ["5.15.0"]
 Parameters = "0.11"
@@ -154,20 +154,17 @@ ArrayInterface = "1.1.0-2"
 ["5.27"]
 DiffEqBase = "6.11.0-6"
 
-["5.27-5"]
+["5.27-6"]
 RecursiveArrayTools = "2"
 
 ["5.28"]
 DiffEqBase = "6.13.0-6"
 
-["5.28-5"]
+["5.28-6"]
 FiniteDiff = "2"
 
 ["5.29"]
 DiffEqBase = "6.15.0-6"
-
-["5.30-5"]
-NLsolve = "4.3.0-4"
 
 ["5.30-5.31"]
 DiffEqBase = "6.21.0-6"
@@ -177,6 +174,9 @@ UnPack = "0.1"
 
 ["5.30-5.36"]
 SparseDiffTools = "1.4.0-1"
+
+["5.30-6"]
+NLsolve = "4.3.0-4"
 
 ["5.32"]
 ArrayInterface = "2.6.0-2"
@@ -196,7 +196,7 @@ ArrayInterface = "2.7.0-2"
 ["5.35.2-5.36"]
 DiffEqBase = "6.31.0-6"
 
-["5.36-5"]
+["5.36-6"]
 UnPack = ["0.1", "1"]
 
 ["5.37-5.38"]
@@ -211,11 +211,11 @@ DiffEqBase = "6.36.0-6"
 ["5.4"]
 DiffEqBase = "5.5.1-5"
 
-["5.4-5"]
-ForwardDiff = "0.10.3-0.10"
-
 ["5.4-5.8.0"]
 StaticArrays = "0.10.3-0.10"
+
+["5.4-6"]
+ForwardDiff = "0.10.3-0.10"
 
 ["5.40-5.47"]
 Adapt = "1.1.0-2"
@@ -223,36 +223,32 @@ Adapt = "1.1.0-2"
 ["5.42-5.61"]
 DiffEqBase = "6.38.0-6"
 
-["5.42.1-5"]
+["5.42.1-6"]
 FastClosures = "0.3"
 
-["5.42.4-5"]
+["5.42.4-6"]
 DataStructures = "0.18"
 
-["5.46-5"]
+["5.46-6"]
 StaticArrays = ["0.11-0.12", "1"]
 
-["5.47-5"]
+["5.47-6"]
 Reexport = ["0.2", "1"]
 
-["5.48-5"]
+["5.48-6"]
 Adapt = "1.1.0-3"
 
 ["5.5-5.6"]
 DiffEqBase = "5.6.3-5.19"
 
-["5.50-5"]
+["5.50-6"]
 ArrayInterface = "2.7.0-3"
 
-["5.52.3-5"]
+["5.52.3-6"]
 DocStringExtensions = "0.8"
 
 ["5.56-5.63.4"]
 Polyester = "0.3"
-
-["5.6.1-5"]
-ExponentialUtilities = "1.2.0-1"
-MuladdMacro = "0.2.1-0.2"
 
 ["5.6.1-5.10"]
 DiffEqDiffTools = "0.4.0-1"
@@ -266,7 +262,11 @@ GenericSVD = "0.0.2-0.2"
 Parameters = "0.10.0-0.11"
 RecursiveArrayTools = "0.18.6-1"
 
-["5.61-5"]
+["5.6.1-6"]
+ExponentialUtilities = "1.2.0-1"
+MuladdMacro = "0.2.1-0.2"
+
+["5.61-6"]
 LoopVectorization = "0.12"
 
 ["5.62"]
@@ -278,22 +278,22 @@ DiffEqBase = "6.73.0-6"
 ["5.63.5-5.63"]
 Polyester = "0.3-0.4"
 
-["5.64-5"]
+["5.64-6"]
 Polyester = "0.3-0.5"
 
-["5.65-5"]
+["5.65-6"]
 DiffEqBase = "6.75.0-6"
 
-["5.66-5"]
+["5.66-6"]
 PreallocationTools = "0.2"
 
-["5.69-5"]
+["5.69-6"]
 julia = "1.6.0-1"
 
 ["5.7"]
 DiffEqBase = "5.8.1-5.19"
 
-["5.71-5"]
+["5.71-6"]
 SparseDiffTools = "1.19.1-1"
 
 ["5.8-5.13"]
@@ -301,3 +301,6 @@ DiffEqBase = "5.10.0-5.19"
 
 ["5.8.1-5.14"]
 StaticArrays = "0.10.3-0.11"
+
+[6]
+LinearSolve = "1"
