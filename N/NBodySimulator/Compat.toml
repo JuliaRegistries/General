@@ -13,8 +13,6 @@ julia = ["0.7", "1"]
 DiffEqBase = "6"
 DiffEqCallbacks = "2.9.0-2"
 FileIO = "1"
-OrdinaryDiffEq = "5"
-julia = "1"
 
 ["1-1.1"]
 RecipesBase = "0.7"
@@ -24,6 +22,10 @@ Reexport = "0.2"
 
 ["1-1.5"]
 StaticArrays = "0.10-0.12"
+
+["1-1.6"]
+OrdinaryDiffEq = "5"
+julia = "1"
 
 ["1.0"]
 RecursiveArrayTools = "1"
@@ -45,3 +47,7 @@ StaticArrays = ["0.10-0.12", "1"]
 
 ["1.6.1-1"]
 DocStringExtensions = "0.8"
+
+["1.7-1"]
+OrdinaryDiffEq = "5-6"
+julia = "1.6.0-1"
