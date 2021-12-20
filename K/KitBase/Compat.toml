@@ -1,5 +1,4 @@
 [0]
-Conda = "1"
 FFTW = "1"
 FastGaussQuadrature = "0.2-0.4"
 FileIO = "1"
@@ -16,6 +15,9 @@ OffsetArrays = "1"
 ["0-0.7.3"]
 Plots = "1"
 SpecialFunctions = ["0.7-0.10", "1"]
+
+["0-0.7.5"]
+Conda = "1"
 
 ["0.2-0.3.1"]
 Distributions = "0.24"
@@ -68,7 +70,7 @@ StructArrays = "0.5-0.6"
 ["0.7-0"]
 RecipesBase = "1"
 
-["0.7.2-0"]
+["0.7.2-0.7.5"]
 Parameters = "0.12"
 
 ["0.7.3-0"]
