@@ -1,6 +1,11 @@
 [0]
 CommonSolve = "0.2"
 Distributions = "0.25"
-Optim = "1.4.0-1"
 SciMLBase = "1.19.0-1"
 julia = "1.6.0-1"
+
+["0-0.1"]
+Optim = "1.4.0-1"
+
+["0.2-0"]
+StatsBase = "0.33"
