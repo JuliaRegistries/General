@@ -157,12 +157,14 @@ JuMP = "0.0.0 - 0.20"
 Conda = "1"
 FileIO = "1"
 Gadfly = "1"
-OrdinaryDiffEq = "5"
 PyCall = "1"
 PyPlot = "2"
 
 ["0.8-1.0.7"]
 OrderedCollections = "1"
+
+["0.8-1.2.19"]
+OrdinaryDiffEq = "5"
 
 ["0.9"]
 julia = "1.3.0-1"
@@ -176,9 +178,7 @@ Anasol = "1"
 Colors = "0.12-0.13"
 Compose = "0.8-0.9"
 DocumentFunction = "1"
-Documenter = "0.25-0.26"
 DocumenterMarkdown = "0.2-0.3"
-Ipopt = "0.6-0.7"
 JSON = "0.21-0.22"
 JuMP = "0.21-0.22"
 Kriging = "1"
@@ -203,6 +203,10 @@ BlackBoxOptim = "0.5-0.6"
 DataFrames = "0.21-0.22"
 Optim = "0.22-0.23"
 julia = "1.5.0-1"
+
+["1-1.2.19"]
+Documenter = "0.25-0.26"
+Ipopt = "0.6-0.7"
 
 ["1.0"]
 Images = "0.23-0.24"
@@ -232,6 +236,11 @@ BlackBoxOptim = "0.5-0.7"
 DataFrames = "1"
 Optim = "1"
 julia = "1.6.0-1"
+
+["1.2.20-1"]
+Documenter = "0.25-0.27"
+Ipopt = "0.6-0.9"
+OrdinaryDiffEq = "5-6"
 
 ["1.2.5-1"]
 BIGUQ = "1"
