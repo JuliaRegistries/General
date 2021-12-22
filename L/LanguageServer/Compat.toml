@@ -66,8 +66,15 @@ SymbolServer = "4.2.0-5"
 JSONRPC = "1.1.0-1"
 
 [4]
+StaticLint = "8"
+Tokenize = "0.5.10-0.5"
+
+["4-4.1"]
 CSTParser = "3.1.0-3"
 DocumentFormat = "3.2.2-3"
-StaticLint = "8"
 SymbolServer = "6-7"
-Tokenize = "0.5.10-0.5"
+
+["4.2-4"]
+CSTParser = "3.3.0-3"
+JuliaFormatter = "0.20"
+SymbolServer = "7.1.0-7"
