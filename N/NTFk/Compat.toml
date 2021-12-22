@@ -74,7 +74,6 @@ Colors = "0.12-0.13"
 Compose = "0.8-0.9"
 DistributedArrays = "0.6.5-0.7"
 DocumentFunction = "1"
-Ipopt = "0.6-0.7"
 LoadTensorDecompositions = "1"
 MATLAB = "0.7.3-0.8"
 Measures = "0.3.1-0.4"
@@ -91,6 +90,9 @@ Images = "0.23-0.24"
 
 ["1-1.1.1"]
 CanDecomp = "1"
+
+["1-1.1.4"]
+Ipopt = "0.6-0.7"
 
 ["1.0"]
 Interpolations = ["0.12", "0.14"]
@@ -120,3 +122,6 @@ CanDecomp = "1.1.0-1"
 
 ["1.1.4-1"]
 Mads = "1"
+
+["1.1.5-1"]
+Ipopt = "0.6-0.9"
