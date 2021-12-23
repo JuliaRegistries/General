@@ -47,7 +47,7 @@ DiffEqBase = "6"
 ["0.9-4.0.6"]
 StaticArrays = "0.10-0.12"
 
-["0.9-7"]
+["0.9-8"]
 DocStringExtensions = "0.7-0.8"
 MacroTools = "0.5"
 NaNMath = "0.3"
@@ -58,7 +58,7 @@ SpecialFunctions = "0.7-0.9"
 ["1.0"]
 DiffRules = "0.1"
 
-["1.1-7"]
+["1.1-8"]
 DiffRules = ["0.1", "1"]
 
 ["1.1.3-4.0.6"]
@@ -73,7 +73,7 @@ Latexify = "0.11-0.13"
 ["2-5.13"]
 TreeViews = "0.3"
 
-[2-7]
+[2-8]
 SafeTestsets = "0.0.1"
 Unitful = "1.1.0-1"
 
@@ -98,7 +98,7 @@ Requires = "1"
 ["3.12-3.12.1"]
 LabelledArrays = "1.2.0-1"
 
-["3.12.2-7"]
+["3.12.2-8"]
 LabelledArrays = "1.3.0-1"
 
 ["3.13-3.15"]
@@ -107,7 +107,7 @@ SymbolicUtils = "0.4.3-0.4"
 ["3.16-3"]
 SymbolicUtils = "0.5"
 
-["3.17-7"]
+["3.17-8"]
 DataStructures = "0.17-0.18"
 
 ["3.18-5.13"]
@@ -117,16 +117,16 @@ Latexify = "0.11-0.14"
 DiffEqJump = "6.6.2-6"
 SymbolicUtils = "0.3"
 
-["3.2-7"]
+["3.2-8"]
 UnPack = ["0.1", "1"]
 
-["3.20-7"]
+["3.20-8"]
 IfElse = "0.1"
 
 ["3.21-3"]
 DiffEqBase = "6.48.0-6"
 
-["3.3-7"]
+["3.3-8"]
 RecursiveArrayTools = "2.3.0-2"
 
 ["3.4-3.8"]
@@ -153,6 +153,8 @@ RuntimeGeneratedFunctions = "0.4"
 
 ["4.0.7-7"]
 SpecialFunctions = ["0.7-0.10", "1"]
+
+["4.0.7-8"]
 StaticArrays = ["0.10-0.12", "1"]
 
 ["4.3-5.3"]
@@ -170,7 +172,7 @@ Setfield = "0.7"
 ["5.0"]
 DiffEqBase = "6.48.1-6"
 
-["5.1-7"]
+["5.1-8"]
 DiffEqBase = "6.54.0-6"
 
 ["5.10-5.11"]
@@ -191,7 +193,7 @@ Symbolics = "0.1.7-0.1"
 ["5.13.2-5.14.0"]
 Symbolics = "0.1.8-0.1"
 
-["5.14-7"]
+["5.14-8"]
 AbstractTrees = "0.3"
 Latexify = "0.11-0.15"
 
@@ -213,10 +215,10 @@ Symbolics = "0.1.21-0.1"
 ["5.17-5.20"]
 JuliaFormatter = "0.12-0.13"
 
-["5.17-7"]
+["5.17-8"]
 Distributions = "0.23-0.25"
 
-["5.18-7"]
+["5.18-8"]
 DomainSets = "0.5"
 
 ["5.2-6"]
@@ -225,7 +227,7 @@ ArrayInterface = "2.8.0-3"
 ["5.2.1-5.6.0"]
 SymbolicUtils = "0.7.4-0.8"
 
-["5.2.1-7"]
+["5.2.1-8"]
 SciMLBase = "1.3.0-1"
 
 ["5.21-5.22"]
@@ -243,7 +245,7 @@ JuliaFormatter = "0.12-0.15"
 ["5.25-5"]
 Symbolics = "1.4.1-1"
 
-["5.25-7"]
+["5.25-8"]
 DiffEqCallbacks = "2.16.0-2"
 
 ["5.26-6"]
@@ -258,20 +260,20 @@ Distributions = "0.23-0.24"
 ["5.5"]
 Requires = ["0.2", "1"]
 
-["5.6-7"]
+["5.6-8"]
 Reexport = ["0.2", "1"]
 Requires = "1"
 
 ["5.6.1-5.9"]
 SymbolicUtils = "0.8"
 
-["5.6.1-7"]
+["5.6.1-8"]
 RuntimeGeneratedFunctions = "0.4.3-0.5"
 
-["5.6.2-7"]
+["5.6.2-8"]
 ConstructionBase = "1"
 
-["5.9-7"]
+["5.9-8"]
 NonlinearSolve = "0.3.8-0.3"
 
 ["6.0"]
@@ -297,7 +299,7 @@ Symbolics = "3.3.0-3"
 ["6.5.1-6.5"]
 JuliaFormatter = "0.12-0.16"
 
-["6.5.1-7"]
+["6.5.1-8"]
 Setfield = "0.7-0.8"
 
 ["6.6"]
@@ -311,16 +313,24 @@ Symbolics = "3.5.0-3"
 JuliaFormatter = "0.12-0.18"
 
 [7]
+SymbolicUtils = "0.18"
+
+[7-8]
 ArrayInterface = "3.1.39-3"
 Graphs = "1.4.0-1"
-SymbolicUtils = "0.18"
 Symbolics = "4"
 
 ["7.0"]
 DiffEqJump = "7"
 
-["7.1-7"]
+["7.1-8"]
 DiffEqJump = "7-8"
 
 ["7.1.2-7"]
 JuliaFormatter = "0.12-0.19"
+
+[8]
+JuliaFormatter = "0.12-0.20"
+SpecialFunctions = ["0.7-0.10", "1-2"]
+SymbolicUtils = "0.18-0.19"
+julia = "1.6.0-1"
