@@ -4,7 +4,6 @@ ArtifactWrappers = "0.1"
 CloudMicrophysics = "0.3"
 Debugger = "0.6"
 Dierckx = "0.5"
-DifferentialEquations = "6.19.0-6"
 Distributions = "0.25"
 DocStringExtensions = "0.8"
 FastGaussQuadrature = "0.4"
@@ -13,7 +12,6 @@ JSON = "0.21"
 LambertW = "0.4"
 NCDatasets = "0.11"
 OrderedCollections = "1.4.0-1"
-OrdinaryDiffEq = "5.63.0-5"
 PoissonRandom = "0.4"
 PrettyTables = "1.2.0-1"
 RootSolvers = "0.2"
@@ -28,6 +26,14 @@ ClimaCore = "0.2"
 
 ["0-0.7"]
 CLIMAParameters = "0.2"
+
+["0-0.9"]
+DifferentialEquations = "6.19.0-6"
+OrdinaryDiffEq = "5.63.0-5"
+
+["0.10-0"]
+OrdinaryDiffEq = "5.63.0-6"
+StochasticDiffEq = "6.41.0-6"
 
 ["0.2-0.5"]
 ClimaCore = "0.2-0.3"
