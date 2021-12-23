@@ -8,11 +8,17 @@ Symbolics = "3"
 
 ["10.1-10"]
 Graphs = "1.4.0-1"
-ModelingToolkit = "6.3.0-7"
 Symbolics = "3-4"
+
+["10.1-10.2"]
+ModelingToolkit = "6.3.0-7"
 
 ["10.2-10"]
 DiffEqJump = "7-8"
+
+["10.3-10"]
+ModelingToolkit = "6.3.0-8"
+julia = "1.6.0-1"
 
 [5]
 Reexport = "0.2"
@@ -70,6 +76,8 @@ ModelingToolkit = "5.14.0-5"
 
 ["6.12-10"]
 Latexify = "0.14-0.15"
+
+["6.12-10.2"]
 julia = "1.5.0-1"
 
 ["6.13"]
