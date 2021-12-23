@@ -7,7 +7,6 @@ CloudMicrophysics = "6a9e3e04-43cd-43ba-94b9-e8782df3c71b"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
 Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
-DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
@@ -26,6 +25,12 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Thermodynamics = "b60c26fb-14c3-4610-9d3e-2d17fe7ff00c"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0-0.9"]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+
+["0.10-0"]
+StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
 
 ["0.2-0"]
 SurfaceFluxes = "49b00bb7-8bd4-4f2b-b78c-51cd0450215f"
