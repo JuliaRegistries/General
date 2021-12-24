@@ -2,7 +2,6 @@
 BoundaryValueDiffEq = "2"
 DiffEqCallbacks = "2"
 ForwardDiff = "0.10"
-OrdinaryDiffEq = "5"
 Plots = "1"
 RecipesBase = "1"
 Roots = "1"
@@ -19,6 +18,9 @@ SpecialFunctions = "0.0.0 - 0.10"
 ["1-1.1"]
 Combinatorics = "1.0"
 Measurements = "2.2.0-2"
+
+["1-1.10.0"]
+OrdinaryDiffEq = "5"
 
 ["1-1.4"]
 BenchmarkTools = "0.5"
@@ -52,8 +54,15 @@ LsqFit = "0.9-0.11"
 StaticArrays = "0.11-0.12"
 
 ["1.10-1"]
-ModelingToolkit = "5-7"
 SpecialFunctions = ["0.9-0.10", "1-2"]
+
+["1.10.0"]
+ModelingToolkit = "5-7"
+
+["1.10.1-1"]
+ModelingToolkit = "5-8"
+OrdinaryDiffEq = "5-6"
+SymbolicUtils = "0.11.3-0.19"
 
 ["1.2-1"]
 Combinatorics = "1"
@@ -149,5 +158,7 @@ Tullio = "0.3"
 
 ["1.9-1"]
 DerivableFunctions = "0.1"
-SymbolicUtils = "0.11.3-0.18"
 Symbolics = "1-4"
+
+["1.9-1.10.0"]
+SymbolicUtils = "0.11.3-0.18"
