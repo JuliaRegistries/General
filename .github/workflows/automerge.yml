@@ -9,6 +9,8 @@ on:
     # We will choose to run the fallback job every 4 hours.
     - cron:  '0 */4 * * *'
   workflow_dispatch:
+env:
+    JULIA_PKG_USE_CLI_GIT: true
 jobs:
   AutoMerge:
     timeout-minutes: 60
