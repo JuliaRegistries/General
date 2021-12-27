@@ -41,7 +41,7 @@ jobs:
       - run: chmod 400 .ci/Project.toml
       - run: chmod 400 .ci/Manifest.toml
         if: ${{ matrix.version != 'nightly' }}
-      - name: Cache artifacts
+      - name: Cache artifacts and packages
         uses: actions/cache@1a9e2138d905efd099035b49d8b7a3888c653ca8 # v2.1.5
         env:
           cache-name: cache-artifacts
