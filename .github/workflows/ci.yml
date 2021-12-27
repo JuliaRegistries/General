@@ -46,7 +46,9 @@ jobs:
         env:
           cache-name: cache-artifacts
         with:
-          path: ~/.julia/artifacts
+          path: |
+            ~/.julia/artifacts
+            ~/.julia/packages
           key: ${{ runner.os }}-test-${{ env.cache-name }}-${{ hashFiles('**/.ci/Manifest.toml') }}
           restore-keys: |
             ${{ runner.os }}-test-${{ env.cache-name }}-
