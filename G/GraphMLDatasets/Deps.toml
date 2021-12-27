@@ -4,10 +4,22 @@ DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
+["0-0.1.4"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
 ["0.1.4-0"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+
+["0.1.5-0"]
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
+Pickle = "fbb45041-c46e-462f-888f-7c521cafbc2c"
+ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
