@@ -7,6 +7,8 @@ on:
     branches:
       - master
   workflow_dispatch:
+env:
+    JULIA_PKG_USE_CLI_GIT: true
 jobs:
   CI:
     runs-on: ${{ matrix.os }}
