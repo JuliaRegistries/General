@@ -15,11 +15,13 @@ Distributions = "0.22-0.24"
 
 ["0.2-0"]
 Reexport = ["0.2", "1"]
-SpecialFunctions = ["0.10-0.15", "1"]
 StatsFuns = "0.9"
 
 ["0.2-0.3.0"]
 Bijectors = "0.8"
+
+["0.2-0.3.7"]
+SpecialFunctions = ["0.10-0.15", "1"]
 
 ["0.3.1-0"]
 Bijectors = "0.8-0.9"
@@ -35,3 +37,11 @@ ChainRulesCore = "1"
 
 ["0.3.7-0"]
 ConcreteStructs = "0.2"
+
+["0.3.8-0"]
+AstroLib = "0.4"
+KeywordCalls = "0.2"
+Rotations = "1"
+SpecialFunctions = ["0.10-0.15", "1-2"]
+Unitful = "1.9.0-1"
+UnitfulAstro = "1"
