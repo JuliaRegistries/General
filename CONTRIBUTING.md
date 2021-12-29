@@ -15,9 +15,10 @@ The [FAQ](FAQ) helps answer many more questions, like [do I need to register a p
 
 You (yes, you!) can help General be the best registry it can be.
 
-The first step is to check out new package registrations.
-They are filed under the ["new package" label](https://github.com/JuliaRegistries/General/pulls?q=is%3Apr+is%3Aopen+label%3A%22new+package%22), and a automatic feed posts them in the `#new-packages-feed` channel in the [community Slack](https://julialang.org/slack/) or [Zulip](https://julialang.zulipchat.com/register/).
+### New package registrations
 
+The first step is to getting involved with General is to check out new package registrations.
+They are filed under the ["new package" label](https://github.com/JuliaRegistries/General/pulls?q=is%3Apr+is%3Aopen+label%3A%22new+package%22), and a automatic feed posts them in the `#new-packages-feed` channel in the [community Slack](https://julialang.org/slack/) or [Zulip](https://julialang.zulipchat.com/register/).
 
 When registration is triggered for a new package (or new version of a package), [RegistryCI.jl](RegistryCI)-powered AutoMerge automatically runs and performs [some basic checks](https://juliaregistries.github.io/RegistryCI.jl/stable/guidelines/).
 These are merely guidelines, and not all checks must pass --- if a check fails, the registration can still be manually merged.
@@ -52,13 +53,28 @@ Any comment without `[noblock]` included in it will block AutoMerge from automat
     * Sometimes package names are possibly confusing or don't conform to our [naming guidelines](naming-guidelines), but AutoMerge does not detect this.
     Feel free to comment, describing what you think is confusing or non-compliant about the current name, and any suggestions you have for a more clear name.
 
+### Other PRs to General
 
-Besides helping out with new package registrations directly, there are other ways to help out as well.
+Sometimes, the registry needs to be updated in other ways that involve manual pull requests (PRs) rather than auto-generated ones.
+The most common reason is to update the URL for a repository.
 
-* You can improve [General's README](https://github.com/JuliaRegistries/General#general), the [RegistryCI documentation](https://juliaregistries.github.io/RegistryCI.jl/stable/guidelines/), or these guidelines!
-* You can add new checks to AutoMerge (in [RegistryCI](RegistryCI)) or improve existing ones.
-* You can address open issues in [General](https://github.com/JuliaRegistries/General/issues), [RegistryCI.jl](https://github.com/JuliaRegistries/RegistryCI.jl/issues), or [Registrator.jl](https://github.com/JuliaRegistries/Registrator.jl/issues).
-* You can write blog posts and documentation to help folks get started with writing documentation, tests, and setting up CI for their own packages, and find appropriate places to link to it and help out new package authors. 
+#### Updating the URL for a repository
+
+If someone transfers a GitHub repository, [we ask](https://github.com/JuliaRegistries/General#how-do-i-transfer-a-package-to-an-organization-or-another-user) that they update the URL stored in General.
+This is done by manually making a PR to General to update the URL.
+You can review such a PR by checking that the old URL redirects to the new one.
+* If it does, that's a clear sign that the change is legitimate and the new URL is correct.
+  If you have write permissions to General, you can merge the PR; otherwise you can approve it or comment.
+* If it does not, you can ask the author why. This should be handled on a case-by-case basis.
+
+### Other ways to help
+
+Besides helping out with PRs to General directly, you can...
+
+* ...improve [General's README](https://github.com/JuliaRegistries/General#general), the [RegistryCI documentation](https://juliaregistries.github.io/RegistryCI.jl/stable/guidelines/), or these guidelines!
+* ...add new checks to AutoMerge (in [RegistryCI](RegistryCI)) or improve existing ones.
+* ...address open issues in [General](https://github.com/JuliaRegistries/General/issues), [RegistryCI.jl](https://github.com/JuliaRegistries/RegistryCI.jl/issues), or [Registrator.jl](https://github.com/JuliaRegistries/Registrator.jl/issues).
+* ...write blog posts and documentation to help folks get started with writing documentation, tests, and setting up CI for their own packages, and find appropriate places to link to it and help out new package authors. 
 
 Additionally, if you have elevated [permissions](permissions) to General, there's a few more things you can do:
 
