@@ -69,7 +69,7 @@ You can review such a PR by checking that the old URL redirects to the new one.
 
 ### Other ways to help
 
-Besides helping out with PRs to General directly, you can...
+Besides helping out with PRs to General, you can...
 
 * ...improve [General's README](https://github.com/JuliaRegistries/General#general), the [RegistryCI documentation](https://juliaregistries.github.io/RegistryCI.jl/stable/guidelines/), or these guidelines!
 * ...add new checks to AutoMerge (in [RegistryCI](RegistryCI)) or improve existing ones.
