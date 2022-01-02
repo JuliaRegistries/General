@@ -65,7 +65,10 @@ This is done by manually making a PR to General to update the URL.
 You can review such a PR by checking that the old URL redirects to the new one.
 * If it does, that's a clear sign that the change is legitimate and the new URL is correct.
   If you have write permissions to General, you can merge the PR; otherwise you can approve it or comment.
-* If it does not, you can ask the author why. This should be handled on a case-by-case basis.
+* If it does not, you can ask the author why. This should be handled on a case-by-case basis. Be sure to check that:
+    1. The package is not being hijacked; check for example that the person making the PR has registered a version of the package before, indicating they are authorized to do so.
+    2. All the registered revisions of the package are accessible in the new repository.
+       Specifically, this means checking that all the git-tree-shas can be found in the new repository ([example](https://github.com/JuliaRegistries/General/pull/35965#issuecomment-832721704)).
 
 ### Other ways to help
 
