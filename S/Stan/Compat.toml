@@ -133,7 +133,6 @@ StanVariational = "2"
 
 ["7.1-8"]
 AxisKeys = "0.1"
-DataFrames = "1"
 Distributions = "0.25"
 MCMCChains = "5"
 MonteCarloMeasurements = "1"
@@ -142,6 +141,9 @@ StatsBase = "0.33"
 
 ["7.1-8.0.1"]
 StanBase = "2"
+
+["7.1-8.1.3"]
+DataFrames = "1"
 
 ["7.1.0"]
 CSV = "0.9"
@@ -153,13 +155,13 @@ StanSample = "4-5"
 ["7.1.1-8.0.1"]
 CSV = ["0.9", "1"]
 
-[8]
-StanOptimize = "3"
-StanSample = "5"
-
 ["8-8.0.1"]
 StanDiagnose = "2-3"
 StanVariational = "2-3"
+
+["8-8.1.3"]
+StanOptimize = "3"
+StanSample = "5"
 
 ["8.0"]
 StanQuap = "2"
@@ -167,17 +169,29 @@ StanQuap = "2"
 ["8.0.0"]
 DimensionalData = "0.18"
 
-["8.0.1-8"]
+["8.0.1-8.1.3"]
 DimensionalData = "0.18-0.19"
 
 ["8.0.2-8"]
 CSV = "0.9"
+
+["8.0.2-8.1.3"]
 StanBase = "3"
 StanDiagnose = "3"
 StanVariational = "3"
 
-["8.1-8"]
+["8.1-8.1.3"]
 StanQuap = "3"
 
 ["8.1.3-8"]
 StatsPlots = "0.14"
+
+["8.1.4-8"]
+DataFrames = "1.3.0-1"
+DimensionalData = "0.20"
+StanBase = "3.2.0-3"
+StanDiagnose = "3.2.0-3"
+StanOptimize = "3.2.0-3"
+StanQuap = "3.1.0-3"
+StanSample = "5.3.0-5"
+StanVariational = "3.2.0-3"
