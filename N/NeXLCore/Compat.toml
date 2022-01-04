@@ -3,13 +3,15 @@ Colors = "0.12"
 PeriodicTable = "1"
 PhysicalConstants = "0.2.1-0.2"
 QuadGK = "2.4.0-2"
-Requires = "1"
 
 ["0-0.1"]
 BoteSalvatICX = "1"
 FFAST = "1"
 NeXLUncertainties = "0.1"
 julia = "1"
+
+["0-0.2"]
+Requires = "1"
 
 ["0-0.2.0"]
 CSV = "0.7.3-0.7"
@@ -38,8 +40,10 @@ Unitful = "1.5.0-1"
 CoordinateTransformations = "0.6"
 Dierckx = "0.5"
 FFAST = "2"
-FileIO = "1.4.0-1"
 GeometryBasics = "0.3"
+
+["0.2.1-0.2"]
+FileIO = "1.4.0-1"
 StaticArrays = ["0.12", "1"]
 
 ["0.2.1-0.2.4"]
@@ -53,15 +57,17 @@ Reexport = "1"
 
 ["0.2.2-0"]
 LaTeXStrings = "1.2.0-1"
+
+["0.2.2-0.2"]
 Unitful = "1.6.0-1"
 
 ["0.2.2-0.2.4"]
 NeXLUncertainties = "0.2.2-0.2"
 
-["0.2.3-0"]
+["0.2.3-0.2"]
 Reexport = ["0.2", "1"]
 
-["0.2.5-0"]
+["0.2.5-0.2"]
 DataFrames = ["0.21-0.22", "1"]
 
 ["0.2.5-0.2.6"]
@@ -70,10 +76,24 @@ NeXLUncertainties = "0.2.4-0.2"
 ["0.2.7-0"]
 CSV = "0.7-0.9"
 Compose = "0.9"
-ImageCore = "0.8-0.9"
 Measures = "0.3"
 NeXLUncertainties = "0.2.6-0.2"
 NumberIntervals = "0.2"
 
-["0.2.8-0"]
+["0.2.7-0.2"]
+ImageCore = "0.8-0.9"
+
+["0.2.8-0.2"]
 julia = "1.6.0-1"
+
+["0.3-0"]
+CategoricalArrays = "0.10"
+DataFrames = "1.2.0-1"
+FileIO = "1.11.0-1"
+ImageCore = "0.9"
+Polynomials = "2"
+Reexport = "1"
+Requires = "1.1.0-1"
+StaticArrays = "1.2.0-1"
+Unitful = "1.9.0-1"
+julia = "1.6.4-1"
