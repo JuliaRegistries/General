@@ -5,11 +5,9 @@ CUDA = "3"
 ForwardDiff = "0.10"
 GaussQuadrature = "0.5"
 IntervalSets = "0.5"
-RecipesBase = "1"
 RecursiveArrayTools = "2"
 StaticArrays = "1"
 UnPack = "1"
-UnicodePlots = "1-2"
 julia = "1.6.0-1"
 
 ["0-0.2"]
@@ -18,16 +16,25 @@ Plots = "1"
 ["0-0.3"]
 DiffEqBase = "6"
 
+["0-0.5"]
+RecipesBase = "1"
+UnicodePlots = "1-2"
+
 ["0.1.1-0"]
 DocStringExtensions = "0.8"
 
 ["0.4-0"]
 DiffEqBase = "6.75.0-6"
+
+["0.4-0.5"]
 Static = "0.4"
 
 ["0.5-0"]
 CubedSphere = "0.2"
 Rotations = "1"
 
-["0.5.1-0"]
+["0.5.1-0.5"]
 TriplotBase = "0.1"
+
+["0.6-0"]
+Static = "0.4-0.5"
