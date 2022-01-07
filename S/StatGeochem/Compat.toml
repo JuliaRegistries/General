@@ -25,13 +25,15 @@ SpecialFunctions = ["0.5-0.10", "1"]
 
 ["0.1.1-0"]
 StatsBase = "0.20-0.33"
-julia = "1"
 
 ["0.1.1-0.2.3"]
 Interpolations = "0.8-0.13"
 
 ["0.1.1-0.3.0"]
 LoopVectorization = "0.2-0.12"
+
+["0.1.1-0.3.1"]
+julia = "1"
 
 ["0.2-0"]
 Reexport = ["0.2", "1"]
@@ -62,3 +64,7 @@ NaNStatistics = "0.6.3-0.6"
 
 ["0.3.1-0"]
 LoopVectorization = "0.12.42-0.12"
+
+["0.3.2-0"]
+Polyester = "0.6.1-0.6"
+julia = "1.7.0-1"
