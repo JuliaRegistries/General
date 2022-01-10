@@ -4,7 +4,7 @@ StaticArrays = "0.0.0 - 0.12"
 ["0-0.0.1"]
 Juno = "0.0.0 - 0.7"
 
-[0-1]
+["0-1.6"]
 julia = "1"
 
 ["0.1"]
@@ -22,8 +22,12 @@ ArrayInterface = "2.8.0-2"
 ["1.4-1"]
 StaticArrays = ["0.10-0.12", "1"]
 
-["1.5-1"]
+["1.5-1.6"]
 ArrayInterface = "2.8.0-3"
 
 ["1.6.7-1"]
 ChainRulesCore = "1"
+
+["1.7-1"]
+ArrayInterface = "2.8.0-4"
+julia = "1.6.0-1"
