@@ -1,7 +1,6 @@
 [1]
 BoundaryValueDiffEq = "2"
 DiffEqCallbacks = "2"
-ForwardDiff = "0.10"
 RecipesBase = "1"
 Roots = "1"
 julia = "1"
@@ -17,6 +16,9 @@ SpecialFunctions = "0.0.0 - 0.10"
 ["1-1.1"]
 Combinatorics = "1.0"
 Measurements = "2.2.0-2"
+
+["1-1.10"]
+ForwardDiff = "0.10"
 
 ["1-1.10.0"]
 OrdinaryDiffEq = "5"
@@ -68,6 +70,9 @@ SymbolicUtils = "0.11.3-0.19"
 
 ["1.10.2-1"]
 PlotUtils = "1.0.9-1.1"
+
+["1.11-1"]
+DerivableFunctionsBase = "0.1"
 
 ["1.2-1"]
 Combinatorics = "1"
@@ -162,8 +167,10 @@ SymbolicUtils = "0.11.3-0.17"
 Tullio = "0.3"
 
 ["1.9-1"]
-DerivableFunctions = "0.1"
 Symbolics = "1-4"
+
+["1.9-1.10"]
+DerivableFunctions = "0.1"
 
 ["1.9-1.10.0"]
 SymbolicUtils = "0.11.3-0.18"
