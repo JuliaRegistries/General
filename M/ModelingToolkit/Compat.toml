@@ -313,10 +313,10 @@ Symbolics = "3.5.0-3"
 JuliaFormatter = "0.12-0.18"
 
 [7]
+ArrayInterface = "3.1.39-3"
 SymbolicUtils = "0.18"
 
 [7-8]
-ArrayInterface = "3.1.39-3"
 Graphs = "1.4.0-1"
 Symbolics = "4"
 
@@ -330,7 +330,14 @@ DiffEqJump = "7-8"
 JuliaFormatter = "0.12-0.19"
 
 [8]
-JuliaFormatter = "0.12-0.20"
 SpecialFunctions = ["0.7-0.10", "1-2"]
 SymbolicUtils = "0.18-0.19"
 julia = "1.6.0-1"
+
+["8.0"]
+ArrayInterface = "3.1.39-3"
+JuliaFormatter = "0.12-0.20"
+
+["8.1-8"]
+ArrayInterface = "3.1.39-4"
+JuliaFormatter = "0.12-0.21"
