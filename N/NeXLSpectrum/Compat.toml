@@ -44,7 +44,6 @@ NeXLUncertainties = "0.2.1-0.2"
 
 ["0.2.1-0"]
 Compose = "0.8.2-0.9"
-FileIO = "1.4.0-1"
 MultivariateStats = "0.8"
 Unitful = "1.5.0-1"
 
@@ -62,6 +61,9 @@ LoopVectorization = "0.9"
 ["0.2.1-0.2.6"]
 CSV = "0.7.3-0.8"
 julia = "1.5.0-1"
+
+["0.2.1-0.3.0"]
+FileIO = "1.4.0-1"
 
 ["0.2.2"]
 NeXLCore = "0.2.3-0.2"
@@ -115,16 +117,18 @@ NeXLCore = "0.2.7-0.2"
 
 ["0.2.6-0"]
 Distributions = "0.23-0.25"
-FourierTools = "0.2"
 HDF5 = "0.15"
 ImageAxes = "0.6"
 LoopVectorization = ["0.9", "0.12"]
-NeXLUncertainties = "0.2.6-0.2"
 Polynomials = "1.1.0-2"
 
 ["0.2.6-0.2"]
 ImageIO = "0.4-0.5"
 NeXLMatrixCorrection = "0.2.7-0.2"
+
+["0.2.6-0.3.0"]
+FourierTools = "0.2"
+NeXLUncertainties = "0.2.6-0.2"
 
 ["0.2.7-0"]
 CSV = "0.7.3-0.9"
@@ -136,6 +140,16 @@ NeXLCore = "0.2.8-0.2"
 
 ["0.3-0"]
 DataDeps = "0.7"
+
+["0.3.0"]
 ImageIO = ["0.5", "0.9"]
 NeXLCore = "0.3"
 NeXLMatrixCorrection = "0.3"
+
+["0.3.1-0"]
+FileIO = "1.8.0-1"
+FourierTools = "0.2-0.3"
+ImageIO = "0.5-0.6"
+NeXLCore = "0.3.1-0.3"
+NeXLMatrixCorrection = "0.3.1-0.3"
+NeXLUncertainties = "0.2.8-0.2"
