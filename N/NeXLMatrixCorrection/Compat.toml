@@ -51,7 +51,7 @@ Reexport = ["0.2", "1"]
 ["0.2.4"]
 NeXLCore = "0.2.3-0.2"
 
-["0.2.4-0"]
+["0.2.4-0.3.0"]
 SpecialFunctions = ["0.10", "1"]
 
 ["0.2.5"]
@@ -59,11 +59,13 @@ NeXLCore = "0.2.5-0.2"
 NeXLUncertainties = "0.2.4-0.2"
 
 ["0.2.5-0"]
-DataFrames = ["0.22", "1"]
 ThreadsX = "0.1.7-0.1"
 
 ["0.2.5-0.2.6"]
 CSV = "0.8"
+
+["0.2.5-0.3.0"]
+DataFrames = ["0.22", "1"]
 
 ["0.2.6"]
 NeXLCore = "0.2.6-0.2"
@@ -71,11 +73,21 @@ NeXLUncertainties = "0.2.5-0.2"
 
 ["0.2.7-0"]
 CSV = "0.8-0.9"
-NeXLUncertainties = "0.2.6-0.2"
 
 ["0.2.7-0.2"]
 NeXLCore = "0.2.7-0.2"
 
+["0.2.7-0.3.0"]
+NeXLUncertainties = "0.2.6-0.2"
+
 ["0.3-0"]
-NeXLCore = "0.3"
 julia = "1.6.4-1"
+
+["0.3.0"]
+NeXLCore = "0.3"
+
+["0.3.1-0"]
+DataFrames = "1"
+NeXLCore = "0.3.1-0.3"
+NeXLUncertainties = "0.2.8-0.2"
+SpecialFunctions = ["0.10", "1-2"]
