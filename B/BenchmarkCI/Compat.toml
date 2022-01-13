@@ -16,7 +16,6 @@ PkgBenchmark = "0.2.8-0.2"
 
 ["0.1.4-0"]
 GitHub = "5"
-Setfield = "0.1-0.7"
 Tar = "1"
 UnPack = "1"
 Zstd_jll = "1"
@@ -24,6 +23,15 @@ Zstd_jll = "1"
 ["0.1.4-0.1.6"]
 BenchmarkTools = "0.5"
 
-["0.1.7-0"]
+["0.1.4-0.1.7"]
+Setfield = "0.1-0.7"
+
+["0.1.7"]
 BenchmarkTools = "0.5-0.6"
+
+["0.1.7-0"]
 CpuId = "0.2-0.3"
+
+["0.1.8-0"]
+BenchmarkTools = ["0.5-0.6", "1"]
+Setfield = "0.1-0.8"
