@@ -74,13 +74,19 @@ MatrixEquations = "2"
 NLsolve = "4"
 RecursiveFactorization = "0.2"
 StructArrays = "0.6"
-SymbolicUtils = "0.16"
-Symbolics = "3.4.0-3"
 TensorCast = "0.4"
 Tullio = "0.3"
 Zygote = "0.6"
 julia = "1.6.0-1"
 
+["0.4-0.4.7"]
+SymbolicUtils = "0.16"
+Symbolics = "3.4.0-3"
+
 ["0.4.4-0.4.5"]
 DifferenceEquations = "0.2"
 StatsBase = "0.33"
+
+["0.4.8-0"]
+SymbolicUtils = "0.19"
+Symbolics = "4"
