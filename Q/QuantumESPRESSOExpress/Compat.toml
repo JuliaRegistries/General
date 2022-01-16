@@ -1,6 +1,5 @@
 [0]
 Crystallography = "0.2-0.3"
-QuantumESPRESSO = "0.5"
 Unitful = ["0.18", "1"]
 UnitfulAtomic = ["0.3", "1"]
 julia = "1"
@@ -17,6 +16,9 @@ EquationsOfStateOfSolids = "0.1-0.2"
 
 ["0-0.3"]
 Configurations = "0.3-0.16"
+
+["0-0.4"]
+QuantumESPRESSO = "0.5"
 
 ["0.1.1-0.1"]
 Express = "0.2-0.3"
@@ -36,7 +38,15 @@ EquationsOfStateOfSolids = "0.1-0.3"
 ["0.3-0"]
 EquationsOfStateOfSolids = "0.4"
 
-["0.4-0"]
+["0.4"]
 AbInitioSoftwareBase = "0.2-0.7"
-Configurations = "0.3-0.17"
 Express = "0.5"
+
+["0.4-0"]
+Configurations = "0.3-0.17"
+
+["0.5-0"]
+AbInitioSoftwareBase = ["0.6.1-0.6", "0.8"]
+Express = "0.5-0.6"
+QuantumESPRESSO = "0.7"
+UnifiedPseudopotentialFormat = "0.3-0.4"
