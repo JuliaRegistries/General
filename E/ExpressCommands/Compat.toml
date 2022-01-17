@@ -1,5 +1,4 @@
 [0]
-Comonicon = "0.1-0.9"
 EquationOfStateRecipes = "0.1"
 Plots = "1"
 Preferences = "1"
@@ -12,18 +11,21 @@ julia = "1"
 AbInitioSoftwareBase = "0.2-0.5"
 Express = "0.2"
 
+["0-0.2"]
+Comonicon = "0.1-0.9"
+
 ["0-0.2.1"]
 EquationsOfStateOfSolids = "0.2"
 SimpleWorkflows = "0.6-0.8"
 
-["0.2-0"]
+["0.2"]
 AbInitioSoftwareBase = "0.2-0.6"
 
 ["0.2.0"]
 Express = "0.2-0.3"
 QuantumESPRESSOExpress = "0.1"
 
-["0.2.1-0"]
+["0.2.1-0.2"]
 Express = "0.2-0.4"
 
 ["0.2.1-0.2.3"]
@@ -35,9 +37,18 @@ SimpleWorkflows = "0.6-0.9"
 ["0.2.2-0.2.3"]
 EquationsOfStateOfSolids = "0.2-0.3"
 
-["0.2.3-0"]
+["0.2.3-0.2"]
 SimpleWorkflows = "0.6-0.11"
 
 ["0.2.4-0"]
 EquationsOfStateOfSolids = "0.2-0.4"
+
+["0.2.4-0.2"]
 QuantumESPRESSOExpress = "0.1-0.3"
+
+["0.3-0"]
+AbInitioSoftwareBase = "0.2-0.8"
+Comonicon = ["0.1-0.9", "0.11-0.12"]
+Express = "0.2-0.6"
+QuantumESPRESSOExpress = "0.1-0.5"
+SimpleWorkflows = "0.6-0.12"
