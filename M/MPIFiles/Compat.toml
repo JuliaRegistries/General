@@ -43,9 +43,14 @@ Inflate = "0.1.2-0.1"
 StableRNGs = "1"
 UnitfulAngles = "0.6.1-0.6"
 
-["0.12.1-0"]
+["0.12.1"]
 Images = ["0.22-0.23", "0.25"]
 SparsityOperators = "0.3"
+
+["0.12.2-0"]
+Images = "0.22-0.25"
+Reexport = "1"
+SparsityOperators = "0.3-0.4"
 
 ["0.5.3-0.6.1"]
 Compat = "0.0.0 - 3"
