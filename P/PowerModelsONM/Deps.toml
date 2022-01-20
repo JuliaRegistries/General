@@ -1,5 +1,7 @@
-[1-2]
+[1]
 Alpine = "07493b3f-dabb-5b16-a503-4139292d7dd4"
+
+[1-2]
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
 Cbc = "9961bab8-2fa3-5c5a-9d89-47fab24efd76"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -20,8 +22,18 @@ ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["1.1-2"]
+["1.1-1"]
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 
 [2]
 PolyhedralRelaxations = "2e741578-48fa-11ea-2d62-b52c946f73a0"
+
+["2.0"]
+Alpine = "07493b3f-dabb-5b16-a503-4139292d7dd4"
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
+["2.1-2"]
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+Hwloc = "0e44f5e4-bd66-52a0-8798-143a42290a1d"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
