@@ -1,7 +1,17 @@
 [0]
+julia = "1.6.0-1"
+
+["0-0.1.0"]
 Arpack = "0.5.3-0.5"
 Dierckx = "0.5.1-0.5"
 FFTW = "1.4.5-1"
 Parameters = "0.12.3-0.12"
 UnitSystems = "0.3.1-0.3"
-julia = "1.6.0-1"
+
+["0.1.1-0"]
+Arpack = "0.5"
+Dierckx = "0.5"
+FFTW = "1.4.0-1"
+PROPACK = "0.4"
+Parameters = "0.12"
+UnitSystems = "0.3"
