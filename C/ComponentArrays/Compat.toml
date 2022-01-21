@@ -11,8 +11,13 @@ ChainRulesCore = "0.8-0.10"
 ChainRulesCore = ["0.8-0.10", "1"]
 
 ["0.11.3-0"]
-ArrayInterface = "2-3"
 Requires = "1"
+
+["0.11.3-0.11.8"]
+ArrayInterface = "2-3"
+
+["0.11.9-0"]
+ArrayInterface = "2-4"
 
 ["0.3-0.11.2"]
 Requires = "1.0.1-1"
