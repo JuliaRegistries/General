@@ -3,7 +3,6 @@ Conda = "1"
 FFTW = "1"
 ForwardDiff = "0.10"
 IterTools = "1"
-JSON = "0.21"
 LineSearches = "7"
 NLsolve = "4"
 OrderedCollections = "1"
@@ -49,6 +48,9 @@ IterativeSolvers = "0.8"
 ["0-0.2.6"]
 Polynomials = "1"
 
+["0-0.4.4"]
+JSON = "0.21"
+
 ["0.1.1"]
 Libxc = "0.1-0.2"
 
@@ -58,11 +60,11 @@ TimerOutputs = "0.5.6-0.5"
 ["0.1.11"]
 Libxc = "0.0.0-0.3.2"
 
-["0.1.12-0"]
-Libxc = "0.3"
-
 ["0.1.12-0.2.6"]
 julia = "1.4.0-1"
+
+["0.1.12-0.4.4"]
+Libxc = "0.3"
 
 ["0.1.14-0"]
 Interpolations = "0.12-0.13"
@@ -152,3 +154,6 @@ Spglib = "0.5"
 
 ["0.4.2-0"]
 SpecialFunctions = "1-2"
+
+["0.4.5-0"]
+Libxc = "0.3.9-0.3"
