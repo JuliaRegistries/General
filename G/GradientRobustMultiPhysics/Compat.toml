@@ -55,11 +55,13 @@ ExtendableSparse = "0.6.1-0.6"
 WriteVTK = "1.9.2-1"
 
 ["0.5.5-0"]
-ExtendableSparse = "0.6"
 StaticArrays = "1"
 
 ["0.5.5-0.7.2"]
 GridVisualize = "0.1-0.2"
+
+["0.5.5-0.8"]
+ExtendableSparse = "0.6"
 
 ["0.7.0"]
 ExtendableGrids = "0.8.1-0.8"
@@ -75,8 +77,12 @@ julia = "1.6.0-1"
 ["0.7.3-0.8.0"]
 GridVisualize = "0.3.9-0.3"
 
-["0.7.5-0"]
+["0.7.5-0.8"]
 ExtendableGrids = "0.8.8-0.8"
 
 ["0.8.1-0"]
 GridVisualize = "0.4.6-0.4"
+
+["0.9-0"]
+ExtendableGrids = "0.8.11-0.8"
+ExtendableSparse = "0.6.6-0.6"
