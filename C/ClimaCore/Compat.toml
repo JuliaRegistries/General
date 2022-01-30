@@ -8,7 +8,6 @@ IntervalSets = "0.5"
 RecursiveArrayTools = "2"
 StaticArrays = "1"
 UnPack = "1"
-julia = "1.6.0-1"
 
 ["0-0.2"]
 Plots = "1"
@@ -19,6 +18,9 @@ DiffEqBase = "6"
 ["0-0.5"]
 RecipesBase = "1"
 UnicodePlots = "1-2"
+
+["0-0.6"]
+julia = "1.6.0-1"
 
 ["0.1.1-0"]
 DocStringExtensions = "0.8"
@@ -38,3 +40,8 @@ TriplotBase = "0.1"
 
 ["0.6-0"]
 Static = "0.4-0.5"
+
+["0.7-0"]
+ClimaComms = "0.1"
+RootSolvers = "0.3"
+julia = "1.7.0-1"
