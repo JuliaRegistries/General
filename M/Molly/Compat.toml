@@ -56,14 +56,19 @@ Chemfiles = "0.10"
 Combinatorics = "1"
 EzXML = "1"
 
-["0.6-0"]
+["0.6"]
 AtomsBase = "0.1"
+NNlib = "0.7"
+
+["0.6-0"]
 BioStructures = "1"
 CellListMap = "0.7"
 ChainRulesCore = "1"
 ForwardDiff = "0.10"
-NNlib = "0.7"
 Reexport = "1"
 StaticArrays = "1"
 Zygote = "0.6.30-0.6"
 julia = "1.7.0-1"
+
+["0.7-0"]
+AtomsBase = "0.2"
