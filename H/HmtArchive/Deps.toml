@@ -1,6 +1,5 @@
 [0]
 CitableObject = "e2b2f5ea-1cd8-4ce8-9b2b-05dad64c2a57"
-CitableParserBuilder = "c834cb9d-35b9-419a-8ff8-ecaeea9e2a2a"
 CitableTeiReaders = "b4325aa9-906c-402e-9c3f-19ab8a88308e"
 CitableText = "41e66566-473b-49d4-85b7-da83b66615d8"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
@@ -8,17 +7,27 @@ Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 EditionBuilders = "2fb66cca-c1f8-4a32-85dd-1a01a9e8cd8f"
 EzXML = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
 
+["0-0.3"]
+CitableParserBuilder = "c834cb9d-35b9-419a-8ff8-ecaeea9e2a2a"
+
 ["0.2-0"]
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 PolytonicGreek = "72b824a7-2b4a-40fa-944c-ac4f345dc63a"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
 
-["0.3-0"]
-CitableCorpus = "cf5ac11a-93ef-4a1a-97a3-f6af101603b5"
+["0.3"]
 CiteEXchange = "e2e9ead3-1b6c-4e96-b95f-43e6ab899178"
-EditorsRepo = "3fa2051c-bcb6-4d65-8a68-41ff86d56437"
-FreqTables = "da1fdf0e-e0ff-5433-a45f-9bb5ff651cb1"
 ManuscriptOrthography = "c7d01213-112e-44c9-bed3-ac95fd3728c7"
 Orthography = "0b4c9448-09b0-4e78-95ea-3eb3328be36d"
+
+["0.3-0"]
+CitableCorpus = "cf5ac11a-93ef-4a1a-97a3-f6af101603b5"
+EditorsRepo = "3fa2051c-bcb6-4d65-8a68-41ff86d56437"
+FreqTables = "da1fdf0e-e0ff-5433-a45f-9bb5ff651cb1"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0.4-0"]
+CitableBase = "d6f014bd-995c-41bd-9893-703339864534"
+CitableCollection = "7b95b006-44c5-4794-afff-00ccebff52d7"
+CitablePhysicalText = "e38a874e-a7c2-4ff3-8dea-81ae2e5c9b07"
