@@ -18,21 +18,35 @@ PolytonicGreek = "0.7"
 ["0.2-0"]
 ZipFile = "0.9"
 
-["0.3-0"]
+["0.3"]
 CitableCorpus = "0.7"
 CitableObject = "0.8"
 CitableParserBuilder = "0.20"
 CitableTeiReaders = "0.7"
 CitableText = "0.11"
 CiteEXchange = "0.4"
-Documenter = "0.27"
-Downloads = "1"
 EditionBuilders = "0.6"
 EditorsRepo = "0.14"
-EzXML = "1"
-FreqTables = "0.4"
 ManuscriptOrthography = "0.2"
 Orthography = "0.15"
+julia = "1"
+
+["0.3-0"]
+Documenter = "0.27"
+Downloads = "1"
+EzXML = "1"
+FreqTables = "0.4"
 PolytonicGreek = "0.13"
 StatsBase = "0.33"
-julia = "1"
+
+["0.4-0"]
+CitableBase = "10"
+CitableCollection = "0.4"
+CitableCorpus = "0.12"
+CitableObject = "0.11"
+CitablePhysicalText = "0.6"
+CitableTeiReaders = "0.8"
+CitableText = "0.14"
+EditionBuilders = "0.7"
+EditorsRepo = "0.16"
+julia = "1.7.0-1"
