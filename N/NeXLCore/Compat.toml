@@ -21,11 +21,11 @@ Unitful = "1.3.0-1"
 ["0-0.2.1"]
 Reexport = "0.2"
 
-["0.2-0"]
-BoteSalvatICX = "2"
-
 ["0.2-0.2.7"]
 julia = "1.5.0-1"
+
+["0.2-0.3.1"]
+BoteSalvatICX = "2"
 
 ["0.2.0"]
 FFAST = "2.0.1-2"
@@ -39,8 +39,6 @@ Unitful = "1.5.0-1"
 ["0.2.1-0"]
 CoordinateTransformations = "0.6"
 Dierckx = "0.5"
-FFAST = "2"
-GeometryBasics = "0.3"
 
 ["0.2.1-0.2"]
 FileIO = "1.4.0-1"
@@ -51,6 +49,10 @@ DataFrames = "0.21-0.22"
 
 ["0.2.1-0.2.6"]
 CSV = "0.7.3-0.8"
+
+["0.2.1-0.3.1"]
+FFAST = "2"
+GeometryBasics = "0.3"
 
 ["0.2.2"]
 Reexport = "1"
@@ -74,7 +76,6 @@ DataFrames = ["0.21-0.22", "1"]
 NeXLUncertainties = "0.2.4-0.2"
 
 ["0.2.7-0"]
-CSV = "0.7-0.9"
 Compose = "0.9"
 Measures = "0.3"
 NumberIntervals = "0.2"
@@ -85,12 +86,14 @@ ImageCore = "0.8-0.9"
 ["0.2.7-0.3.0"]
 NeXLUncertainties = "0.2.6-0.2"
 
+["0.2.7-0.3.1"]
+CSV = "0.7-0.9"
+
 ["0.2.8-0.2"]
 julia = "1.6.0-1"
 
 ["0.3-0"]
 CategoricalArrays = "0.10"
-DataFrames = "1.2.0-1"
 FileIO = "1.11.0-1"
 ImageCore = "0.9"
 Polynomials = "2"
@@ -100,5 +103,17 @@ StaticArrays = "1.2.0-1"
 Unitful = "1.9.0-1"
 julia = "1.6.4-1"
 
+["0.3-0.3.1"]
+DataFrames = "1.2.0-1"
+
 ["0.3.1-0"]
 NeXLUncertainties = "0.2.8-0.2"
+
+["0.3.2-0"]
+BoteSalvatICX = "2.0.1-2"
+CSV = "0.9-0.10"
+DBInterface = "2.4.0-2"
+DataDeps = "0.7"
+DataFrames = "1"
+FFAST = "2.0.4-2"
+GeometryBasics = "0.3-0.4"
