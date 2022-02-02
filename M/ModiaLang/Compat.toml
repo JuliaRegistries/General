@@ -38,10 +38,16 @@ DataFrames = ["0.19-0.22", "1"]
 DifferentialEquations = "6"
 FiniteDiff = "2"
 Measurements = "2"
-ModiaResult = "0.3.7-0.3"
 MonteCarloMeasurements = ["0.10", "1"]
 OrderedCollections = "1"
 julia = "1"
 
-["0.8.3-0"]
+["0.8.2-0.8.4"]
+ModiaResult = "0.3.7-0.3"
+
+["0.8.3-0.8.4"]
 ModiaBase = "0.7.7-0.7"
+
+["0.8.5-0"]
+ModiaBase = "0.7.8-0.7"
+ModiaResult = "0.3.8-0.3"
