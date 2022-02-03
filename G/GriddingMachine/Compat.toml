@@ -45,7 +45,6 @@ DataFrames = ["0.22", "1"]
 ["0.2-0"]
 Conda = "1.5.2-1"
 DocStringExtensions = "0.8.5-0.8"
-PkgUtility = "0.1.13-0.1"
 ProgressMeter = "1.7.1-1"
 PyCall = "1.92.3-1"
 julia = "1.6.0-1"
@@ -54,9 +53,16 @@ julia = "1.6.0-1"
 DataFrames = "1.2.2-1"
 UnPack = "1.0.2-1"
 
+["0.2-0.2.4"]
+PkgUtility = "0.1.13-0.1"
+
 ["0.2.1-0"]
 HTTP = "0.9.14-0.9"
 JSON = "0.21.2-0.21"
 
-["0.2.4-0"]
+["0.2.4"]
 NetcdfIO = "0.1.2-0.1"
+
+["0.2.5-0"]
+NetcdfIO = "0.1.2-0.2"
+PkgUtility = "0.1.13-0.2"
