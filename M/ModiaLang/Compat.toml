@@ -14,10 +14,17 @@ Measurements = "2.3.0-2"
 MonteCarloMeasurements = "0.10"
 julia = "1.5.0-1"
 
+["0.10-0"]
+DataFrames = "1"
+DifferentialEquations = "7"
+ModiaBase = "0.8.1-0.8"
+MonteCarloMeasurements = "1"
+Reexport = "1"
+StaticArrays = "1"
+
 ["0.8-0"]
 ForwardDiff = "0.10"
 JSON = "0.21"
-Reexport = ["0.2", "1"]
 Sundials = "4.4.0-4"
 TimerOutputs = "0.5"
 
@@ -27,6 +34,9 @@ ModiaBase = "0.7.3-0.7"
 ModiaResult = "0.3.1-0.3"
 OrderedCollections = "1.1.0-1"
 
+["0.8-0.9"]
+Reexport = ["0.2", "1"]
+
 ["0.8.1-0"]
 Unitful = "1"
 
@@ -34,11 +44,8 @@ Unitful = "1"
 ModiaBase = "0.7.6-0.7"
 
 ["0.8.2-0"]
-DataFrames = ["0.19-0.22", "1"]
-DifferentialEquations = "6"
 FiniteDiff = "2"
 Measurements = "2"
-MonteCarloMeasurements = ["0.10", "1"]
 OrderedCollections = "1"
 
 ["0.8.2-0.8"]
@@ -46,6 +53,11 @@ julia = "1"
 
 ["0.8.2-0.8.4"]
 ModiaResult = "0.3.7-0.3"
+
+["0.8.2-0.9"]
+DataFrames = ["0.19-0.22", "1"]
+DifferentialEquations = "6"
+MonteCarloMeasurements = ["0.10", "1"]
 
 ["0.8.3-0.8.4"]
 ModiaBase = "0.7.7-0.7"
@@ -62,7 +74,9 @@ ModiaResult = "0.3.9-0.3"
 ["0.8.7-0.8"]
 ModiaResult = "0.3.10-0.3"
 
-["0.9-0"]
+["0.9"]
 ModiaBase = "0.8"
+
+["0.9-0"]
 ModiaResult = "0.4"
 julia = "1.7.0-1"
