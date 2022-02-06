@@ -56,10 +56,12 @@ MLJModelInterface = "0.2-0.4"
 
 ["0.18-0"]
 TypedTables = "1.2.0-1"
-julia = "1.5.0-1"
 
 ["0.18-0.19"]
 Meshes = "0.10"
+
+["0.18-0.24.5"]
+julia = "1.5.0-1"
 
 ["0.20-0.21.0"]
 Meshes = "0.11"
@@ -110,6 +112,10 @@ ScientificTypes = "2-3"
 
 ["0.24.3-0"]
 ReferenceFrameRotations = "3"
+
+["0.24.6-0"]
+DensityRatioEstimation = "0.5"
+julia = "1.6.0-1"
 
 ["0.3-0.4"]
 Parameters = "0.7.3 - 0.10"
@@ -169,7 +175,6 @@ SpecialFunctions = "0.7"
 MLJBase = "0.8"
 
 ["0.8-0"]
-DensityRatioEstimation = "0.4"
 StatsBase = "0.32-0.33"
 Tables = "1"
 
@@ -184,6 +189,9 @@ CSV = "0.5-0.6"
 
 ["0.8-0.13"]
 Distributions = "0.21-0.23"
+
+["0.8-0.24.5"]
+DensityRatioEstimation = "0.4"
 
 ["0.8-0.8.2"]
 RecipesBase = "0.7-0.8"
