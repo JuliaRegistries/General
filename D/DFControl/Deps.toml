@@ -3,7 +3,6 @@ BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Media = "e89f7d12-3494-54d1-8411-f7d8b9ae1f27"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
-RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 
 ["0-0.2"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
@@ -13,18 +12,38 @@ Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Nullables = "4d1e1d77-625e-5b40-9113-a560ec7a8ecd"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.3-0"]
+["0-0.3"]
+RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+
+["0.3"]
 ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+["0.3-0"]
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 Crayons = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
-NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 spglib_jll = "ac4a9f1e-bdb2-5204-990c-47c8b2f70d4e"
+
+["0.4-0"]
+ANSIColoredPrinters = "a4c015fc-c6ff-483c-b24f-f7ea428134e9"
+CodeTracking = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+LoggingExtras = "e6f89c97-d47a-5376-807f-9c37f3926c36"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
+StructTypes = "856f2bd8-1eba-4b0a-8007-ebc267875bd4"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+UnitfulAtomic = "a7773ee8-282e-5fa2-be4e-bd808c38a91a"
+fzf_jll = "214eeab7-80f7-51ab-84ad-2988db7cef09"
