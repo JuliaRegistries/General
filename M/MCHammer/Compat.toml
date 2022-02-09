@@ -22,12 +22,22 @@ TimeSeries = "0.16"
 Gadfly = "1"
 julia = "1"
 
-["0.1.4-0"]
+["0.1.4"]
 CSV = "0.7"
 Colors = ["0.11", "0.12.3-0.12"]
-Compose = "0.8"
 DataFrames = "0.21"
 Distributions = ["0.22", "0.23.8-0.23"]
-IterableTables = "1"
 StatsBase = ["0.30", "0.33"]
 TimeSeries = ["0.19", "1.19.1-1"]
+
+["0.1.4-0"]
+Compose = "0.8"
+IterableTables = "1"
+
+["0.1.5-0"]
+CSV = "0.8"
+Colors = "0.1"
+DataFrames = "1.2.0-1"
+Distributions = "0.20"
+StatsBase = "0.24"
+TimeSeries = "0.2"
