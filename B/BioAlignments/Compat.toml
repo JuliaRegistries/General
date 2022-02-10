@@ -2,10 +2,10 @@
 BioSequences = "1"
 BufferedStreams = "1"
 GenomicFeatures = "1"
+julia = ["0.7", "1"]
 
 [1-2]
 IntervalTrees = "1"
-julia = ["0.7", "1"]
 
 ["1.0.0"]
 Automa = "0.7.0 - 0.8"
@@ -23,3 +23,9 @@ BioSymbols = "3"
 BioGenerics = "0.1"
 BioSequences = "2"
 BioSymbols = "4"
+
+["2.0"]
+julia = ["0.7", "1"]
+
+["2.1-2"]
+julia = "1"
