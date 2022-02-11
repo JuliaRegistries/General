@@ -68,12 +68,14 @@ julia = "1"
 CitableObject = "0.7"
 
 ["0.3.2-0"]
-CSV = "0.9"
-DataFrames = "1"
 Documenter = "0.27"
 
 ["0.3.2-0.3"]
 CitableText = "0.11"
+
+["0.3.2-0.7"]
+CSV = "0.9"
+DataFrames = "1"
 
 ["0.3.3-0.3"]
 CitableObject = "0.8"
@@ -95,5 +97,9 @@ CiteEXchange = "0.9"
 ["0.6.2"]
 CitableBase = "9"
 
-["0.6.3-0"]
+["0.6.3-0.7"]
 CitableBase = "10"
+
+["0.8-0"]
+CitableBase = "10.1.0-10"
+HTTP = "0.9"
