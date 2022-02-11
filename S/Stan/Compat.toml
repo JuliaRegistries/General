@@ -214,10 +214,15 @@ Tables = "1.6.0-1"
 
 [9]
 CSV = "0.10"
-JSON3 = "1.9.2-1"
 StanBase = "4"
 StanDiagnose = "4"
 StanOptimize = "4"
 StanQuap = "4"
 StanSample = "6"
 StanVariational = "4"
+
+["9-9.1"]
+JSON3 = "1.9.2-1"
+
+["9.2-9"]
+JSON = "0.21"
