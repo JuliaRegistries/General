@@ -233,6 +233,7 @@ some amount of consideration when choosing package names.
 0796e94c-ce3b-5d07-9a54-7f471281c624 = { name = "Tokenize", path = "T/Tokenize" }
 079b6ec6-a4f7-11e9-0358-1904ae85a441 = { name = "RandomBasedArrays", path = "R/RandomBasedArrays" }
 079eb43e-fd8e-5478-9966-2cf3e3edb778 = { name = "NLopt_jll", path = "N/NLopt_jll" }
+07a8691f-3d11-4330-951b-3c50f98338be = { name = "PGLib", path = "P/PGLib" }
 07b341a0-ce75-57c6-b2de-414ffdc00be5 = { name = "ADCME", path = "A/ADCME" }
 07bf71a7-21be-5f6a-a6d1-44595bb4f960 = { name = "Arbitrary", path = "A/Arbitrary" }
 07c12ed4-43bc-5495-8a2a-d5838ef8d533 = { name = "ghr_jll", path = "G/ghr_jll" }
@@ -352,6 +353,7 @@ some amount of consideration when choosing package names.
 0bf3e898-7c79-4b38-9ca6-2d9cc6573905 = { name = "BundleAdjustmentModels", path = "B/BundleAdjustmentModels" }
 0bf59076-c3b1-5ca4-86bd-e02cd72cde3d = { name = "AdvancedHMC", path = "A/AdvancedHMC" }
 0bf644f3-9992-48f5-8d6e-b7168dcf6b06 = { name = "DianoiaML", path = "D/DianoiaML" }
+0bf8acf5-7f56-4370-abee-dfc0c3b7d49e = { name = "PPInterpolation", path = "P/PPInterpolation" }
 0bfc08ce-5f35-58d0-8256-ec6a7315737c = { name = "Capstone_jll", path = "C/Capstone_jll" }
 0c0b7dd1-d40b-584c-a123-a41640f87eec = { name = "Xorg_libXau_jll", path = "X/Xorg_libXau_jll" }
 0c0c59c1-dc5f-42e9-9a8b-b5dc384a6cd1 = { name = "StarAlgebras", path = "S/StarAlgebras" }
@@ -2055,6 +2057,7 @@ some amount of consideration when choosing package names.
 4805d9eb-6a63-5fb7-bff2-245b636b81dc = { name = "xdm_jll", path = "X/xdm_jll" }
 48062228-2e41-5def-b9a4-89aafe57970f = { name = "FilePathsBase", path = "F/FilePathsBase" }
 481e76ae-c2a1-11e9-35e0-4d409117bccf = { name = "Microwaves", path = "M/Microwaves" }
+4832667a-bab9-40a8-88f6-be9efce3ea89 = { name = "QuantumAnnealing", path = "Q/QuantumAnnealing" }
 483824fe-0d37-42f7-bb97-b8abf41a4f6a = { name = "BlockBootstrap", path = "B/BlockBootstrap" }
 483a2fc8-eb99-45b6-a231-8c481e9ade22 = { name = "GnuplotScripting", path = "G/GnuplotScripting" }
 484b717a-98b9-4b0c-89dc-fb7d7e739263 = { name = "MeshKeeper", path = "M/MeshKeeper" }
@@ -2365,6 +2368,7 @@ some amount of consideration when choosing package names.
 53714aee-e5d1-4d1b-abff-f814f0c675a5 = { name = "DiffPrivacy", path = "D/DiffPrivacy" }
 537997a7-5e4e-5d89-9595-2241ea00577e = { name = "AbstractPlotting", path = "A/AbstractPlotting" }
 537ec7c9-aaee-45d0-8af0-4b77892958a6 = { name = "Photosynthesis", path = "P/Photosynthesis" }
+5384e752-6c47-47b3-86ac-9d091b110b31 = { name = "PyPlotUtils", path = "P/PyPlotUtils" }
 538df835-4bef-5bfa-b281-4025a4f7e8ff = { name = "CSFML", path = "C/CSFML" }
 53a1e1a5-51bb-58a9-8a02-02056cc81109 = { name = "TopOpt", path = "T/TopOpt" }
 53a63b46-67e4-5edd-8c66-0af0544a99b9 = { name = "CodeTools", path = "C/CodeTools" }
@@ -3797,6 +3801,7 @@ some amount of consideration when choosing package names.
 86bb8979-40af-4c14-b177-a78efc84e952 = { name = "LocallyCompetitive", path = "L/LocallyCompetitive" }
 86bc0129-654e-4751-9b96-b173469afcbd = { name = "GitREPL", path = "G/GitREPL" }
 86bc3604-9858-485a-bdbe-831ec50de11d = { name = "AtmosphericProfilesLibrary", path = "A/AtmosphericProfilesLibrary" }
+86c06d3c-3f03-46de-9781-57580aa96d0a = { name = "StaticTools", path = "S/StaticTools" }
 86cd37e6-c0ff-550b-95fe-21d72c8d4fc9 = { name = "OpenStreetMapX", path = "O/OpenStreetMapX" }
 86ddda40-0562-5640-9cf4-1268408005c8 = { name = "libtirpc_jll", path = "L/libtirpc_jll" }
 86de99a1-58d6-5da7-8064-bd56ce2e322c = { name = "LLVM_jll", path = "L/LLVM_jll" }
@@ -5836,9 +5841,11 @@ ceb70bd2-fe3f-44f0-b81f-41608acaf2f2 = { name = "OpenSpiel", path = "O/OpenSpiel
 ceb7f16a-07bf-5f4a-9354-b68f01b1610f = { name = "SwitchOnSafety", path = "S/SwitchOnSafety" }
 cec144fc-5a64-5bc6-99fb-dde8f63e154c = { name = "OptimTestProblems", path = "O/OptimTestProblems" }
 cecf6091-0e4e-54ba-8cba-f0e96a51f282 = { name = "MicroLogging", path = "M/MicroLogging" }
+cecfa166-9fdc-475c-9ab0-5678dea9d294 = { name = "Denumpyfy", path = "D/Denumpyfy" }
 ced4e74d-a319-5a8a-b0ac-84af2272839c = { name = "DistributionsAD", path = "D/DistributionsAD" }
 cef322dc-4d82-11ea-04a7-113231db804d = { name = "BioProfiling", path = "B/BioProfiling" }
 cef570c6-3a94-5604-96b7-1a5e143043f2 = { name = "SARSOP", path = "S/SARSOP" }
+cf000e6a-8cd9-4459-9820-c8fff5d8f25f = { name = "BacenSGS", path = "B/BacenSGS" }
 cf02a7a8-8cd0-5932-97be-477f95a4d9ce = { name = "CryptoMiniSat_jll", path = "C/CryptoMiniSat_jll" }
 cf09d348-ed9f-4043-bc55-1768af2a262b = { name = "Smoothing", path = "S/Smoothing" }
 cf18a64e-e90e-11e8-37b7-fb5df6478bc0 = { name = "mlpack", path = "M/mlpack" }
