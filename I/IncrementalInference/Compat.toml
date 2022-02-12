@@ -162,14 +162,16 @@ FileIO = "1"
 JSON2 = "0.3"
 Optim = ["0.22", "1"]
 ProgressMeter = "1"
-Reexport = ["0.2", "1"]
-Requires = ["0.5", "1"]
 StatsBase = "0.32-0.33"
 
 ["0.24.1-0.24"]
 ApproxManifoldProducts = "0.3.4-0.3"
 Manifolds = "0.5"
 ManifoldsBase = "0.11"
+
+["0.24.1-0.26"]
+Reexport = ["0.2", "1"]
+Requires = ["0.5", "1"]
 
 ["0.24.1-0.26.0"]
 JLD2 = "0.3-0.4"
@@ -203,7 +205,7 @@ DistributedFactorGraphs = "0.16"
 ["0.25.2"]
 DistributedFactorGraphs = "0.16.1-0.16"
 
-["0.25.2-0"]
+["0.25.2-0.26"]
 Manifolds = "0.6.3-0.7"
 
 ["0.25.3-0"]
@@ -215,9 +217,16 @@ DistributedFactorGraphs = "0.16.2-0.16"
 ["0.25.4-0"]
 MetaGraphs = "0.6.4-0.7"
 
-["0.26-0"]
+["0.26"]
 ApproxManifoldProducts = "0.4.21-0.4"
 DistributedFactorGraphs = "0.17"
+
+["0.27-0"]
+ApproxManifoldProducts = "0.4.24-0.4"
+DistributedFactorGraphs = "0.18"
+Manifolds = "0.7"
+Reexport = "1"
+Requires = "1"
 
 ["0.3.8-0.3"]
 StatsBase = "0.0.0 - 0.33"
