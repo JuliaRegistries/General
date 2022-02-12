@@ -34,12 +34,12 @@ julia = "1"
 Catalyst = "8"
 SymbolicUtils = "0.13.3-0.13"
 
-["0.10-0"]
-julia = "1.5.0-1"
-
 ["0.10-0.11"]
 ModelingToolkit = "6.2.0-6"
 Symbolics = "3"
+
+["0.10-0.13.0"]
+julia = "1.5.0-1"
 
 ["0.11-0.11.1"]
 Catalyst = "9"
@@ -55,8 +55,14 @@ Catalyst = "9-10"
 
 ["0.12-0"]
 Catalyst = "10.1.0-10"
-ModelingToolkit = "7"
 Symbolics = "4"
+
+["0.12-0.13.0"]
+ModelingToolkit = "7"
+
+["0.13.1-0"]
+ModelingToolkit = "7-8"
+julia = "1.6.0-1"
 
 ["0.2"]
 Catalyst = "5.0.5-5"
