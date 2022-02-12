@@ -13,7 +13,13 @@ OpenTelemetryProto = "0.0.1"
 OpenTelemetryAPI = "0.0.4"
 OpenTelemetrySDK = "0.0.3"
 
-["0.1-0"]
+["0.1"]
 OpenTelemetryAPI = "0.1"
 OpenTelemetryProto = "0.1"
 OpenTelemetrySDK = "0.1"
+
+["0.2-0"]
+OpenTelemetryAPI = "0.2"
+OpenTelemetryProto = ["0.1", "0.13"]
+OpenTelemetrySDK = "0.2"
+URIs = "1"
