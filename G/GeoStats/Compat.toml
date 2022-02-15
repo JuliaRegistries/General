@@ -201,7 +201,7 @@ TableTransforms = "0.1"
 ["0.29"]
 Meshes = "0.19"
 
-["0.29-0"]
+["0.29-0.30"]
 GeoStatsBase = "0.24"
 
 ["0.29.1-0"]
@@ -210,12 +210,19 @@ ScientificTypes = "2.3.0-3"
 ["0.29.2-0"]
 TableTransforms = "0.1-0.3"
 
-["0.30-0"]
-DensityRatioEstimation = "0.5"
+["0.30"]
 GeoSimulation = "0.6"
 Meshes = "0.20"
+
+["0.30-0"]
+DensityRatioEstimation = "0.5"
 Variography = "0.14"
 julia = "1.6.0-1"
+
+["0.31-0"]
+GeoSimulation = "0.7"
+GeoStatsBase = "0.25"
+Meshes = "0.21"
 
 ["0.7.2-0.7"]
 GeoStatsBase = "0.2.5 - 0.5"
