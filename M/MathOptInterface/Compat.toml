@@ -15,7 +15,7 @@ OrderedCollections = "0.0.0 - 1"
 ["0.9.12-0.9.20"]
 BenchmarkTools = "0.4-0.5"
 
-["0.9.13-0"]
+["0.9.13-1"]
 CodecBzip2 = "0.6-0.7"
 CodecZlib = "0.6-0.7"
 
@@ -28,17 +28,14 @@ BenchmarkTools = "0.4-0.7"
 ["0.9.22-0"]
 BenchmarkTools = ["0.4-0.7", "1"]
 
-["0.9.6-0"]
-OrderedCollections = "1"
-
 ["0.9.6-0.9.11"]
 BenchmarkTools = "0.4"
 
+["0.9.6-1"]
+OrderedCollections = "1"
+
 ["0.9.8"]
 MutableArithmetics = "0.1.1-0.1"
-
-["0.9.9-0"]
-JSON = "0.21"
 
 ["0.9.9-0.10.3"]
 MutableArithmetics = "0.2"
@@ -49,3 +46,11 @@ CodecZlib = "0.6"
 
 ["0.9.9-0.9.13"]
 JSONSchema = "0.2"
+
+["0.9.9-1"]
+JSON = "0.21"
+
+[1]
+BenchmarkTools = "1"
+MutableArithmetics = "1"
+julia = "1.6.0-1"
