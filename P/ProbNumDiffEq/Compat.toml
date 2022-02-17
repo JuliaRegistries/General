@@ -1,13 +1,11 @@
 [0]
 DiffEqBase = "6"
 GaussianDistributions = "0.5"
-OrdinaryDiffEq = "5"
 RecipesBase = "1"
 RecursiveArrayTools = "2"
 Reexport = ["0.2", "1"]
 StaticArrays = ["0.12", "1"]
 UnPack = "1"
-julia = "1"
 
 ["0-0.1.1"]
 StructArrays = "0.4"
@@ -17,6 +15,10 @@ TaylorSeries = "0.10"
 
 ["0-0.1.7"]
 ModelingToolkit = "3-5"
+
+["0-0.5.0"]
+OrdinaryDiffEq = "5"
+julia = "1"
 
 ["0.1.2"]
 SciMLBase = "1"
@@ -44,5 +46,10 @@ TaylorIntegration = "0.8"
 ["0.2.4-0"]
 DiffEqDevTools = "2"
 
-["0.5-0"]
+["0.5.0"]
 ModelingToolkit = "3-7"
+
+["0.5.1-0"]
+ModelingToolkit = "3-8"
+OrdinaryDiffEq = "5-6"
+julia = "1.6.0-1"
