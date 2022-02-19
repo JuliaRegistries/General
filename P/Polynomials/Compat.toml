@@ -16,6 +16,8 @@ RecipesBase = "0.7-0.8"
 
 ["0.7-2"]
 Intervals = ["0.5", "1"]
+
+["0.7-3"]
 RecipesBase = ["0.7-0.8", "1"]
 
 ["1.1.13-1.1"]
@@ -27,8 +29,11 @@ OffsetArrays = "1"
 ["2.0.18-2.0.24"]
 MutableArithmetics = "0.3"
 
-["2.0.25-2"]
+["2.0.25-3"]
 MutableArithmetics = ["0.3", "1"]
 
 ["2.0.9-2.0.17"]
 MutableArithmetics = "0.2.15-0.2"
+
+[3]
+julia = "1.6.0-1"
