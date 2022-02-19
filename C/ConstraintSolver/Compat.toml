@@ -13,7 +13,7 @@ julia = "1"
 ["0.2"]
 GMP_jll = "6.1.2"
 
-["0.3-0"]
+["0.3-0.8"]
 JuMP = "0.21.3-0.21"
 MathOptInterface = "0.9.11-0.9"
 
@@ -30,9 +30,14 @@ StatsFuns = "0.9.5-0.9"
 ["0.6-0.7"]
 julia = "1.2.0-1"
 
-["0.7-0"]
+["0.7-0.8"]
 ConstraintProgrammingExtensions = "0.3"
 
 ["0.8-0"]
 TableLogger = "0.1"
 julia = "1.6.0-1"
+
+["0.9-0"]
+ConstraintProgrammingExtensions = "0.6"
+JuMP = "0.22"
+MathOptInterface = ["0.10", "1"]
