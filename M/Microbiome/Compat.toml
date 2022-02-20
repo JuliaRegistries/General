@@ -39,21 +39,23 @@ DataFrames = "0.19-0.21"
 ["0.6.4-0.6"]
 StatsBase = "0.32-0.33"
 
-["0.6.5-0"]
-MultivariateStats = "0.7-0.8"
-
 ["0.6.5-0.6"]
 DataFrames = ["0.19-0.22"]
+
+["0.6.5-0.8"]
+MultivariateStats = "0.7-0.8"
 
 ["0.7"]
 EcoBase = "0.1"
 
 ["0.7-0"]
-AxisIndices = "0.7"
 Dictionaries = "0.3"
 Distances = "0.10"
-NamedDims = "0.2"
 Tables = "1.2.1-1"
+
+["0.7-0.8"]
+AxisIndices = "0.7"
+NamedDims = "0.2"
 
 ["0.8-0"]
 EcoBase = "0.1.4-0.1"
@@ -61,3 +63,6 @@ julia = "1.6.0-1"
 
 ["0.8.3-0"]
 ReTest = "0.3"
+
+["0.9-0"]
+MultivariateStats = "0.9"
