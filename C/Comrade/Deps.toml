@@ -7,7 +7,6 @@ DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 KeywordCalls = "4d827475-d3e4-43d6-abe3-9688362ede9f"
-LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
 MeasureBase = "fa1605e6-acd5-459c-a1e6-7e635759db14"
 NFFT = "efe261a4-0d2b-5849-be55-fc731d526b0d"
@@ -23,6 +22,9 @@ StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 ["0-0.1"]
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 
+["0-0.2.1"]
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+
 ["0.2-0"]
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 BasicInterpolators = "26cce99e-4866-4b6d-ab74-862489e035e0"
@@ -34,3 +36,16 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["0.2.1-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["0.2.2-0"]
+AbstractDifferentiation = "c29ec348-61ec-40c8-8164-b8c60e9d9f3d"
+AbstractMCMC = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
+DensityInterface = "b429d917-457f-4dbc-8f4c-0cc954292b1d"
+HypercubeTransform = "9ec9aee3-0fd3-44c2-8e61-a50acc66f3c8"
+ParameterHandling = "2412ca09-6db7-441c-8e3a-88d5709968c5"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
+TupleVectors = "615932cf-77b6-4358-adcd-5b7eba981d7e"
+ValueShapes = "136a8f8c-c49b-4edb-8b98-f3d64d48be8f"
