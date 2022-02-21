@@ -4,12 +4,9 @@ AstroTime = "0.6-0.7"
 Distributions = "0.24-0.25"
 DocStringExtensions = "0.6-0.8"
 FFTW = "1"
-FillArrays = "0.12"
 KeywordCalls = "0.2"
-LoopVectorization = "0.12"
 MappedArrays = "0.3-0.4"
 MeasureBase = "0.5"
-NFFT = "0.5-0.7"
 PaddedViews = "0.5"
 PyCall = "1"
 SpecialFunctions = ["0.10", "1-2"]
@@ -21,6 +18,11 @@ julia = "1.6.0-1"
 ["0-0.1"]
 Interpolations = "0.12-0.13"
 
+["0-0.2.1"]
+FillArrays = "0.12"
+LoopVectorization = "0.12"
+NFFT = "0.5-0.7"
+
 ["0.2-0"]
 AbstractFFTs = "1"
 BasicInterpolators = "0.6"
@@ -29,3 +31,17 @@ ComradeBase = "0.2"
 ForwardDiff = "0.9-0.10"
 MeasureTheory = "0.13"
 Reexport = "1"
+
+["0.2.2-0"]
+AbstractDifferentiation = "0.4"
+AbstractMCMC = "3"
+DensityInterface = "0.4"
+FillArrays = "0.12-0.13"
+HypercubeTransform = "0.2.4-0.2"
+NFFT = "0.10"
+ParameterHandling = "0.4"
+RecipesBase = "1"
+Requires = "1"
+TransformVariables = "0.3-0.6"
+TupleVectors = "0.1"
+ValueShapes = "0.10"
