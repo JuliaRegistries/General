@@ -120,13 +120,15 @@ ChainRules = "0.7.34-0.7"
 
 ["0.5.2-0"]
 DiffRules = "1"
-NaNMath = "0.3"
 
 ["0.5.2-0.5.12"]
 SpecialFunctions = "0.10"
 
 ["0.5.2-0.5.5"]
 ChainRules = "0.7"
+
+["0.5.2-0.6.34"]
+NaNMath = "0.3"
 
 ["0.5.3-0.5.13"]
 LoopVectorization = "0.8.15-0.8"
@@ -166,7 +168,7 @@ ChainRulesCore = "0.9.44-0.10"
 ChainRules = "0.8.12-0.8"
 ChainRulesCore = "0.10.4-0.10"
 
-["0.6.15-0"]
+["0.6.15-0.6.34"]
 FillArrays = "0.8-0.12"
 
 ["0.6.18"]
@@ -199,6 +201,10 @@ IRTools = "0.4.4-0.4"
 
 ["0.6.33-0"]
 SpecialFunctions = "1.6.0-2"
+
+["0.6.35-0"]
+FillArrays = "0.8-0.13"
+NaNMath = ["0.3", "1"]
 
 ["0.6.6-0.6.10"]
 ChainRulesCore = "0.9.32-0.9"
