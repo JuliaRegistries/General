@@ -63,12 +63,14 @@ Ghost = "0.1"
 
 ["0.5-0"]
 FiniteDifferences = "0.12"
-OrderedCollections = "1.4.0-1"
 julia = "1.6.0-1"
 
 ["0.5-0.6.0"]
 ChainRules = "0.8"
 ChainRulesCore = "0.10"
+
+["0.5-0.6.2"]
+OrderedCollections = "1.4.0-1"
 
 ["0.6.0"]
 Ghost = "0.2"
@@ -77,5 +79,11 @@ NNlib = "0.7"
 ["0.6.1-0"]
 ChainRules = "1"
 ChainRulesCore = "1"
+
+["0.6.1-0.6.2"]
 Ghost = "0.2.1-0.2"
 NNlib = "0.7.27-0.7"
+
+["0.6.3-0"]
+NNlib = "0.8"
+Umlaut = "0.2"
