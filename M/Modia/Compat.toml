@@ -42,14 +42,23 @@ Modia3D = "0.5.1-0.5"
 ModiaLang = "0.8.3-0.8"
 
 ["0.5.1-0"]
-DifferentialEquations = "6"
 OrderedCollections = "1"
+
+["0.5.1-0.6.0"]
+DifferentialEquations = "6"
 
 ["0.5.2-0.5"]
 Modia3D = "0.5.1-0.6"
 ModiaLang = "0.8.7-0.8"
 
 ["0.6-0"]
+julia = "1.7.0-1"
+
+["0.6.0"]
 Modia3D = "0.7"
 ModiaLang = "0.9"
-julia = "1.7.0-1"
+
+["0.6.1-0"]
+DifferentialEquations = "7"
+Modia3D = "0.9"
+ModiaLang = "0.11"
