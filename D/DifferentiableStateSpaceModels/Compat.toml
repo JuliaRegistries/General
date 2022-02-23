@@ -1,5 +1,4 @@
 [0]
-DistributionsAD = "0.6"
 DocStringExtensions = "0.8"
 MacroTools = "0.5"
 Parameters = "0.12"
@@ -47,6 +46,9 @@ TimerOutputs = "0.5"
 ["0-0.3.0"]
 Distributions = "0.24"
 
+["0-0.4.9"]
+DistributionsAD = "0.6"
+
 ["0.1.1-0.1"]
 CUDA = ["2", "3.3.0-3"]
 
@@ -67,29 +69,37 @@ julia = "1.5.0-1"
 ["0.4-0"]
 ChainRulesCore = "1"
 Distributions = "0.25"
-Infiltrator = "1"
 LaTeXStrings = "1"
 Latexify = "0.15"
 MatrixEquations = "2"
 NLsolve = "4"
 RecursiveFactorization = "0.2"
 StructArrays = "0.6"
-TensorCast = "0.4"
-Tullio = "0.3"
-Zygote = "0.6"
 julia = "1.6.0-1"
 
 ["0.4-0.4.7"]
 SymbolicUtils = "0.16"
 Symbolics = "3.4.0-3"
 
+["0.4-0.4.9"]
+Infiltrator = "1"
+TensorCast = "0.4"
+Tullio = "0.3"
+Zygote = "0.6"
+
+["0.4.10-0"]
+DifferenceEquations = "0.4.10-0.4"
+SymbolicUtils = "0.19.2"
+
 ["0.4.4-0.4.5"]
 DifferenceEquations = "0.2"
 StatsBase = "0.33"
 
 ["0.4.8-0"]
-SymbolicUtils = "0.19"
 Symbolics = "4"
+
+["0.4.8-0.4.9"]
+SymbolicUtils = "0.19"
 
 ["0.4.9-0"]
 GeneralizedSylvesterSolver = "0.1"
