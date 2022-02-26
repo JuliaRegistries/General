@@ -41,11 +41,8 @@ StatsBase = "0.33"
 
 ["0.4-0"]
 CitableBase = "10"
-CitableCollection = "0.4"
 CitableCorpus = "0.12"
-CitableObject = "0.11"
 CitableTeiReaders = "0.8"
-CitableText = "0.14"
 EditionBuilders = "0.7"
 EditorsRepo = "0.16"
 julia = "1.7.0-1"
@@ -53,9 +50,16 @@ julia = "1.7.0-1"
 ["0.4-0.5.1"]
 CitablePhysicalText = "0.6"
 
+["0.4-0.6.4"]
+CitableCollection = "0.4"
+CitableObject = "0.11"
+CitableText = "0.14"
+
 ["0.5-0"]
-CiteEXchange = "0.9"
 HTTP = "0.9"
+
+["0.5-0.6.4"]
+CiteEXchange = "0.9"
 
 ["0.5.2-0"]
 CitableParserBuilder = "0.21"
@@ -63,7 +67,15 @@ CitableParserBuilder = "0.21"
 ["0.5.2-0.5"]
 CitablePhysicalText = "0.7"
 
-["0.6-0"]
+["0.6-0.6.4"]
 CitableAnnotations = "0.2"
 CitableImage = "0.5"
 CitablePhysicalText = "0.8"
+
+["0.6.5-0"]
+CitableAnnotations = "0.3"
+CitableImage = "0.6"
+CitableObject = "0.15"
+CitablePhysicalText = "0.9"
+CitableText = "0.15"
+CiteEXchange = "0.10"
