@@ -109,9 +109,11 @@ CSV = "0.9"
 
 [3-4]
 DataFrames = "1.2.0-1"
-NamedTupleTools = "0.13"
 Parameters = "0.12"
 StanDump = "0.2"
+
+["3-4.1.0"]
+NamedTupleTools = "0.13"
 
 ["3.0"]
 StanBase = "3"
@@ -128,3 +130,7 @@ CSV = "0.9-0.10"
 [4]
 CSV = "0.10"
 StanBase = "4"
+
+["4.1.1-4"]
+NamedTupleTools = "0.13-0.14"
+StanSample = "6"
