@@ -23,9 +23,11 @@ StanOptimize = "2.2.0-2"
 Reexport = "1"
 
 [0-4]
-NamedTupleTools = "0.13"
 OrderedCollections = "1.4.0-1"
 julia = "1"
+
+["0-4.1.0"]
+NamedTupleTools = "0.13"
 
 [1-4]
 DocStringExtensions = "0.8"
@@ -82,3 +84,6 @@ StanSample = "6"
 
 ["4.1-4"]
 StanBase = "4"
+
+["4.1.1-4"]
+NamedTupleTools = "0.13-0.14"
