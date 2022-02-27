@@ -23,11 +23,13 @@ FillArrays = "0.12"
 LoopVectorization = "0.12"
 NFFT = "0.5-0.7"
 
+["0.2"]
+ComradeBase = "0.2"
+
 ["0.2-0"]
 AbstractFFTs = "1"
 BasicInterpolators = "0.6"
 ChainRulesCore = "1"
-ComradeBase = "0.2"
 ForwardDiff = "0.9-0.10"
 MeasureTheory = "0.13"
 Reexport = "1"
@@ -50,3 +52,7 @@ ValueShapes = "0.10"
 
 ["0.2.3-0"]
 NFFT = "0.10-0.11"
+
+["0.3-0"]
+ArgCheck = "2"
+ComradeBase = "0.2.5-0.2"
