@@ -1,7 +1,6 @@
 [0]
 DiffEqCallbacks = "2"
 Interpolations = "0.13"
-OrdinaryDiffEq = "5"
 Roots = "1"
 julia = "1"
 
@@ -12,9 +11,20 @@ DataFramesMeta = "0.6"
 ["0-0.3.2"]
 CSV = "0.8"
 
+["0-0.3.4"]
+OrdinaryDiffEq = "5"
+
 ["0.3-0"]
 DataFrames = ["0.22", "1.1.0-1"]
+
+["0.3-0.3.4"]
 DataFramesMeta = "0.6-0.9"
 
-["0.3.3-0"]
+["0.3.3-0.3.4"]
 CSV = "0.8-0.9"
+
+["0.3.5-0"]
+CSV = "0.8-0.10"
+DataFramesMeta = "0.6-0.10"
+OrdinaryDiffEq = "5-6"
+RecipesBase = "1"
