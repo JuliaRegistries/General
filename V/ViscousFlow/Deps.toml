@@ -28,9 +28,6 @@ PlotUtils = "995b91a9-d308-5afd-9ec6-746e21dbc043"
 ["0.1.7"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
-["0.1.7-0"]
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-
 ["0.1.7-0.3"]
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 
@@ -38,6 +35,9 @@ Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 DiffRules = "b552c78f-8df3-52c6-915a-8e097449b14b"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.1.7-0.4"]
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0.1.7-0.4.5"]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
@@ -65,22 +65,27 @@ UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 ["0.3-0.3.1"]
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 
-["0.3.1-0"]
+["0.3.1-0.4"]
 CartesianGrids = "3e975e5d-2cf8-4263-9573-8460aaf534d9"
 
-["0.3.2-0"]
+["0.3.2-0.4"]
 ConstrainedSystems = "c257ce95-4918-4279-a47c-50fdbcb74a04"
 RigidBodyTools = "befc5f09-81d5-499c-a4b2-d0464ba9f9c8"
 
 ["0.3.5-0"]
 GridUtilities = "5c019650-0847-4ff6-8f91-f8ecfc8c3009"
 
+["0.4"]
+RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
+
 ["0.4-0"]
 ImmersedLayers = "cdc13194-334e-4e1c-bc8d-fc3a28509c85"
-RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 
 ["0.4-0.4.5"]
 DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
 
 ["0.4.3-0.4.5"]
 Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
+
+["0.5-0"]
+StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
