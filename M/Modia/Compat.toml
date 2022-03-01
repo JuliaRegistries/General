@@ -29,8 +29,10 @@ julia = "1.5.0-1"
 DifferentialEquations = "6.16.0-6"
 
 ["0.5-0"]
-Reexport = ["0.2", "1"]
 Unitful = "1"
+
+["0.5-0.7"]
+Reexport = ["0.2", "1"]
 
 ["0.5.0"]
 Modia3D = "0.5"
@@ -60,10 +62,27 @@ ModiaLang = "0.9"
 
 ["0.6.1-0"]
 DifferentialEquations = "7"
-Modia3D = "0.9"
 
 ["0.6.1-0.6"]
 ModiaLang = "0.11"
 
-["0.7-0"]
+["0.6.1-0.7"]
+Modia3D = "0.9"
+
+["0.7"]
 ModiaLang = "0.11.2-0.11"
+
+["0.8-0"]
+DataFrames = "1"
+FiniteDiff = "2"
+ForwardDiff = "0.10"
+JSON = "0.21"
+Measurements = "2"
+ModiaBase = "0.10"
+ModiaResult = "0.4.1-0.4"
+MonteCarloMeasurements = "1"
+RecursiveFactorization = "0.2"
+Reexport = "1"
+StaticArrays = "1"
+Sundials = "4.4.0-4"
+TimerOutputs = "0.5"
