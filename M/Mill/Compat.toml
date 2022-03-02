@@ -96,7 +96,7 @@ HierarchicalUtils = "1"
 ["1.3-1.6.0"]
 DataFrames = "0.18-0.21"
 
-["1.3-2"]
+["1.3-2.5"]
 Setfield = "0.6-0.7"
 
 ["1.4-1"]
@@ -121,11 +121,6 @@ Zygote = "0.5.17-0.5"
 ["1.6.1-2.4"]
 DataStructures = "0.15-0.18"
 
-[2]
-ChainRulesCore = "0.9"
-Combinatorics = "1.0"
-julia = "1.5.0-1"
-
 ["2-2.1"]
 HierarchicalUtils = "1.4"
 Zygote = "0.5.10-0.5"
@@ -134,17 +129,36 @@ Zygote = "0.5.10-0.5"
 DataFrames = "0.18-0.22"
 Flux = "0.11.2-0.11"
 
-["2.2-2"]
-HierarchicalUtils = "1.8"
+["2-2.5"]
+ChainRulesCore = "0.9"
+Combinatorics = "1.0"
+julia = "1.5.0-1"
 
 ["2.2-2.4"]
 Zygote = "0.5.10-0.6"
 
-["2.5-2"]
+["2.2-2.5"]
+HierarchicalUtils = "1.8"
+
+["2.5"]
 DataFrames = "0.21-0.22"
+Flux = "0.12"
+Zygote = "0.6"
+
+["2.5-2"]
 DataStructures = "0.17-0.18"
 FiniteDifferences = "0.12"
-Flux = "0.12"
 LearnBase = "0.4"
 StatsBase = "0.30-0.33"
-Zygote = "0.6"
+
+["2.6-2"]
+ChainRulesCore = "1"
+Combinatorics = "1"
+DataFrames = "1"
+Flux = "0.12.9-0.12"
+HierarchicalUtils = "2"
+MacroTools = "0.5"
+Preferences = "1.2.0-1"
+Setfield = "0.6-0.8"
+Zygote = "0.6.34-0.6"
+julia = "1.6.0-1"
