@@ -48,10 +48,16 @@ Requires = ["0.5.2-0.5", "1"]
 ["0.8.1-0.8.4"]
 TaylorSeries = "0.10.2-0.10"
 
+["0.8.11-0"]
+Elliptic = ["0.5", "1"]
+OrdinaryDiffEq = "5-6"
+RecursiveArrayTools = "2"
+TaylorSeries = "0.12"
+
 ["0.8.4-0"]
 Espresso = "0.6.1-0.6"
 
-["0.8.5-0"]
+["0.8.5-0.8.10"]
 OrdinaryDiffEq = "5"
 RecursiveArrayTools = "2.2.0-2"
 
@@ -67,5 +73,5 @@ Reexport = ["0.2", "1"]
 ["0.8.7-0"]
 StaticArrays = ["0.12.5-0.12", "1"]
 
-["0.8.9-0"]
+["0.8.9-0.8.10"]
 TaylorSeries = "0.10.9-0.11"
