@@ -45,7 +45,6 @@ RegularizedLeastSquares = "0.5"
 
 ["0.2.1-0"]
 FFTW = ["0.2", "1"]
-FileIO = "1.2.0-1"
 Graphics = ["0.4", "1"]
 ProgressMeter = "1.2.0-1"
 Wavelets = "0.8-0.9"
@@ -68,6 +67,9 @@ Reexport = "0.2"
 ["0.2.1-0.3.3"]
 ImageUtils = "0.2"
 
+["0.2.1-0.4"]
+FileIO = "1.2.0-1"
+
 ["0.2.1-0.4.0"]
 LinearOperators = "1"
 
@@ -75,7 +77,6 @@ LinearOperators = "1"
 RegularizedLeastSquares = "0.6.2-0.6"
 
 ["0.2.4-0"]
-LightXML = "0.8.1-0.9"
 StatsBase = "0.32-0.33"
 Unitful = ["0.17", "1.2.0-1"]
 
@@ -87,6 +88,9 @@ HDF5 = "0.13"
 
 ["0.2.4-0.3.4"]
 Distributions = ["0.21", "0.23"]
+
+["0.2.4-0.4"]
+LightXML = "0.8.1-0.9"
 
 ["0.3"]
 LowRankApprox = "0.4.2-0.4"
@@ -126,6 +130,13 @@ LinearOperators = "2"
 SparsityOperators = "0.4"
 
 ["0.4.2-0"]
+NFFTTools = "0.2"
+
+["0.4.2-0.4"]
 HDF5 = "0.15-0.16"
 NFFT = "0.10.1-0.10"
-NFFTTools = "0.2"
+
+["0.5-0"]
+MRIBase = "0.1"
+MRIFiles = "0.1"
+NFFT = "0.10.1-0.12"
