@@ -2,7 +2,6 @@
 DocStringExtensions = "0.8"
 ElasticArrays = "1"
 ForwardDiff = "0.10"
-Reexport = "0.2"
 
 ["0-0.1"]
 DynamicBoundsBase = "0.1"
@@ -14,6 +13,9 @@ DiffEqBase = "6.12.2-6"
 DiffEqSensitivity = "6"
 Sundials = "3.8.3-3"
 
+["0-0.5"]
+Reexport = "0.2"
+
 ["0.2-0.3"]
 DynamicBoundsBase = "0.3"
 McCormick = "0.5"
@@ -23,7 +25,7 @@ julia = "1.2-1.4"
 DynamicBoundsBase = "0.5"
 julia = "1.1-1.5"
 
-["0.4-0"]
+["0.4-0.5"]
 DiffEqBase = "5-6"
 Sundials = "3-4"
 
@@ -40,11 +42,21 @@ DynamicBoundsBase = "0.5.4-0.5"
 
 ["0.5.1-0"]
 DiffEqSensitivity = "6"
+
+["0.5.1-0.5"]
 McCormick = "0.10-0.11"
 julia = "1.6"
 
 ["0.5.2"]
 DynamicBoundsBase = "0.5.5-0.5"
 
-["0.5.3-0"]
+["0.5.3-0.5"]
 DynamicBoundsBase = "0.5.6-0.5"
+
+["0.6-0"]
+DiffEqBase = "6"
+DynamicBoundsBase = "0.7"
+McCormick = "0.13"
+Reexport = ["0.2", "1"]
+Sundials = "4"
+julia = "1.6-1.7"
