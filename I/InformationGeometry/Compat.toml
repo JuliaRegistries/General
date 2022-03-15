@@ -68,11 +68,14 @@ ModelingToolkit = "5-8"
 OrdinaryDiffEq = "5-6"
 SymbolicUtils = "0.11.3-0.19"
 
-["1.10.2-1"]
+["1.10.2-1.11.2"]
 PlotUtils = "1.0.9-1.1"
 
 ["1.11-1"]
 DerivableFunctionsBase = "0.1"
+
+["1.11.3-1"]
+PlotUtils = ["1.0.9-1.1", "1.2.0-1"]
 
 ["1.2-1"]
 Combinatorics = "1"
