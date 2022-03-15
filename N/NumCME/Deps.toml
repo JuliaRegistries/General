@@ -6,6 +6,11 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ReusePatterns = "a39b5e78-89b5-562b-97d8-70689129df0c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-SparsityDetection = "684fba80-ace3-11e9-3d08-3bc7ed6f96df"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
+
+["0-0.1.0"]
+SparsityDetection = "684fba80-ace3-11e9-3d08-3bc7ed6f96df"
+
+["0.1.1-0"]
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
