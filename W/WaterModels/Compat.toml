@@ -21,24 +21,26 @@ DataStructures = "0.0.0 - 0.18"
 InfrastructureModels = "0.4"
 LsqFit = "0.0.0 - 0.10"
 
-["0.2-0"]
-julia = "1"
-
 ["0.2-0.6"]
 JuMP = "0.21"
+
+["0.2-0.8"]
+julia = "1"
 
 ["0.3"]
 Memento = ["0.10-0.13", "1.0"]
 
 ["0.3-0"]
 JSON = "0.18-0.21"
-MathOptInterface = "0.9"
 
 ["0.3-0.5"]
 LsqFit = "0.10"
 
 ["0.3-0.6"]
 InfrastructureModels = "0.5"
+
+["0.3-0.8"]
+MathOptInterface = "0.9"
 
 ["0.4-0.5"]
 Interpolations = "0.12"
@@ -51,9 +53,17 @@ Memento = "1"
 ["0.7"]
 JuMP = "0.21.4-0.21"
 
-["0.7-0"]
+["0.7-0.8"]
 InfrastructureModels = "0.6"
 
-["0.8-0"]
+["0.8"]
 JuMP = "0.21"
+
+["0.8-0"]
 PolyhedralRelaxations = "0.3"
+
+["0.9-0"]
+HiGHS = "1"
+InfrastructureModels = "0.6-0.7"
+JuMP = "0.22-0.23"
+julia = "1.6-1"
