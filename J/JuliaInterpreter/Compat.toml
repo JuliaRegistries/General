@@ -1,7 +1,5 @@
-["0 - 0.7"]
-julia = "1.0"
-# assuming exact match was wanted
-# otherwise, use ~ or ^ specifier
+["0-0.7"]
+julia = "1.0 - 1.7"
 
 ["0.2 - 0.7.13"]
 CodeTracking = "0.3.2 - 0.5"
@@ -23,17 +21,11 @@ CodeTracking = "0.5.9 - 0.5-1"
 ["0.8 - 0.8.4"]
 julia = "1.0 - 1.5.0"
 
-["0.8.5 - 0.8"]
-julia = "1.5"
-# unclear what is meant
-# but thinking this is what is meant
-# compat says this is the interval
-# julia [1.5 1.6)
+["0.8.5-0.8"]
+julia = "1.0 - 1.7"
 
-["0.9 - 0.9.10"]
-julia = "1.6 - 1.7"
-# specifies julia up to 1.8
-# 1.8 requires Interpreter 0.9.11
+["0.9-0.9.10"]
+julia = "1.6.0 - 1.7"
 
 ["0.9.11 - 1.0"]
 julia = "1.8 - 1.9"
