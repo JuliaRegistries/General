@@ -12,24 +12,26 @@ VegaLite = "112f6efa-9a02-5b7d-90c0-432ed331239a"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [1-4]
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
+[1-5]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 ["1.1.7-1"]
 Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
 Fontconfig = "186bb1d3-e1f7-5a2c-a377-96d770f13627"
 
-["1.1.7-4"]
+["1.1.7-5"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
-["2.2-4"]
+["2.2-5"]
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 [3]
 SQLite = "0aa819cd-b072-5ff4-a722-6bc24af294d9"
 
-[3-4]
+[3-5]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 [4]
@@ -39,16 +41,23 @@ OpenStreetMapX = "86cd37e6-c0ff-550b-95fe-21d72c8d4fc9"
 GraphRecipes = "bd48cda9-67a9-57be-86fa-5b3c104eda73"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 
-["4.1-4"]
+["4.1-5"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["4.2-4"]
+["4.2-5"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
-["4.3-4"]
+["4.3-5"]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 
-["4.4-4"]
+["4.4-5"]
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+
+[5]
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
+LightOSM = "d1922b25-af4e-4ba3-84af-fe9bea896051"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
