@@ -12,9 +12,17 @@ Juniper = "0.7"
 MathOptInterface = "0.9"
 NonconvexCore = "0.1.3-0.1"
 
-["0.2.1-0"]
+["0.2.1"]
 Ipopt = "0.9"
 JuMP = "0.22"
 Juniper = "0.8"
 MathOptInterface = "0.10"
+
+["0.2.1-0"]
 NonconvexCore = "1"
+
+["0.2.2-0"]
+Ipopt = ["0.9", "1"]
+JuMP = "0.22-0.23"
+Juniper = "0.8-0.9"
+MathOptInterface = ["0.10", "1"]
