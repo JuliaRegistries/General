@@ -12,9 +12,17 @@ JuMP = "0.21"
 MathOptInterface = "0.9"
 NonconvexCore = "0.1.4-0.1"
 
-["0.1.1-0"]
+["0.1.1"]
 Cbc = "0.9"
 Ipopt = "0.9"
 JuMP = "0.22"
 MathOptInterface = "0.10"
+
+["0.1.1-0"]
 NonconvexCore = "1"
+
+["0.1.2-0"]
+Cbc = ["0.9", "1"]
+Ipopt = ["0.9", "1"]
+JuMP = "0.22-0.23"
+MathOptInterface = ["0.10", "1"]
