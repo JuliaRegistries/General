@@ -180,7 +180,6 @@ Compose = "0.8-0.9"
 DocumentFunction = "1"
 DocumenterMarkdown = "0.2-0.3"
 JSON = "0.21-0.22"
-JuMP = "0.21-0.22"
 Kriging = "1"
 LsqFit = "0.11-0.12"
 MathProgBase = "0.7.8-0.8"
@@ -207,6 +206,9 @@ julia = "1.5.0-1"
 ["1-1.2.19"]
 Documenter = "0.25-0.26"
 Ipopt = "0.6-0.7"
+
+["1-1.2.22"]
+JuMP = "0.21-0.22"
 
 ["1.0"]
 Images = "0.23-0.24"
@@ -239,8 +241,14 @@ julia = "1.6.0-1"
 
 ["1.2.20-1"]
 Documenter = "0.25-0.27"
-Ipopt = "0.6-0.9"
 OrdinaryDiffEq = "5-6"
+
+["1.2.20-1.2.22"]
+Ipopt = "0.6-0.9"
+
+["1.2.23-1"]
+Ipopt = ["0.6-0.9", "1"]
+JuMP = "0.21-0.23"
 
 ["1.2.5-1"]
 BIGUQ = "1"
