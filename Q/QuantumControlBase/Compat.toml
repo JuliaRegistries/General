@@ -13,12 +13,21 @@ DrWatson = "2"
 ["0.1-0.2.0"]
 QuantumPropagators = "0.1"
 
+["0.2"]
+LocalCoverage = "0.2"
+
 ["0.2-0"]
 Coverage = "1.4.0-1"
-LocalCoverage = "0.2"
 
 ["0.2.1"]
 QuantumPropagators = "0.1.1-0.1"
 
-["0.2.2-0"]
+["0.2.2-0.2"]
 QuantumPropagators = "0.1.2-0.1"
+
+["0.3-0"]
+ChainRules = "1.18.1-1"
+FiniteDifferences = "0.12"
+LocalCoverage = "0.2-0.3"
+QuantumPropagators = "0.1.3-0.1"
+Zygote = "0.6"
