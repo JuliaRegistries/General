@@ -12,8 +12,10 @@ ROCAnalysis = "0.3"
 SpecialFunctions = "1.3.0-1"
 
 ["0.2-0"]
-MLJBase = "0.18"
 OutlierDetectionInterface = "0.1"
+
+["0.2-0.2.4"]
+MLJBase = "0.18"
 
 ["0.2.0"]
 SpecialFunctions = "1.0-1.6"
@@ -23,3 +25,6 @@ SpecialFunctions = "1"
 
 ["0.2.3-0"]
 SpecialFunctions = "1-2"
+
+["0.2.5-0"]
+MLJBase = ["0.18", "0.19.6-0.19"]
