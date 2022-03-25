@@ -11,6 +11,11 @@ MathOptInterface = "0.10"
 MathOptSetDistances = "0.1"
 
 ["0.3-0"]
-JuMP = "0.23"
 MathOptInterface = "1"
 MathOptSetDistances = "0.2"
+
+["0.3.0"]
+JuMP = "0.23"
+
+["0.3.1-0"]
+JuMP = ["0.23", "1"]
