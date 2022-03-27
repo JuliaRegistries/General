@@ -75,7 +75,12 @@ MultivariatePolynomials = "0.4"
 MutableArithmetics = "0.3"
 
 ["0.6-0"]
-JuMP = "0.23"
 MathOptInterface = "1"
 MutableArithmetics = "1"
 julia = "1.6.0-1"
+
+["0.6.0"]
+JuMP = "0.23"
+
+["0.6.1-0"]
+JuMP = ["0.23", "1"]
