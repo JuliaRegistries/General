@@ -1,5 +1,17 @@
-[0-2]
+[0-1]
 ComputedFieldTypes = "0.1"
 DifferentialForms = "2.7.0-2"
 StaticArrays = "0.12.4-0.12"
+
+[0-2]
 julia = "1.4.0-1"
+
+["2.0"]
+ComputedFieldTypes = "0.1"
+DifferentialForms = "2.7.0-2"
+StaticArrays = "0.12.4-0.12"
+
+["2.1-2"]
+ComputedFieldTypes = ["0.1", "1"]
+DifferentialForms = "2.12.0-2"
+StaticArrays = ["0.12.4-0.12", "1"]
