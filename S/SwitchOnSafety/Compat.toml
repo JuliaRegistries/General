@@ -99,7 +99,6 @@ FillArrays = "0.7-0.10"
 DynamicPolynomials = "0.4"
 FillArrays = "0.7-0.13"
 GraphPlot = "0.3-0.5"
-JuMP = "0.23"
 MathOptInterface = "1"
 MultivariatePolynomials = "0.4"
 ParameterJuMP = "0.4"
@@ -109,3 +108,9 @@ SetProg = "0.3.1-0.3"
 StaticArrays = ["0.11-0.12", "1"]
 SumOfSquares = "0.6"
 julia = "1.6.0-1"
+
+["0.2.0"]
+JuMP = "0.23"
+
+["0.2.1-0"]
+JuMP = ["0.23", "1"]
