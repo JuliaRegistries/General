@@ -1,9 +1,16 @@
 [1]
-Clp = "0.9"
-ECOS = "0.14"
-JuMP = "0.22"
 LazyInverses = "1.1.0-1"
 StatsBase = "0.33"
 UpdatableQRFactorizations = "1"
 WoodburyFactorizations = "1"
 julia = "1.7.0-1"
+
+["1.0.0"]
+Clp = "0.9"
+ECOS = "0.14"
+JuMP = "0.22"
+
+["1.0.1-1"]
+Clp = ["0.9", "1"]
+ECOS = ["0.14", "1"]
+JuMP = "0.22-0.23"
