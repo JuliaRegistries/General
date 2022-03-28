@@ -72,9 +72,14 @@ DynamicPolynomials = "0.4"
 MultivariatePolynomials = "0.4"
 
 ["0.3-0"]
-JuMP = "0.23"
 MathOptInterface = "1"
 MutableArithmetics = "1"
 Polyhedra = "0.7"
 SumOfSquares = "0.6"
 julia = "1.6.0-1"
+
+["0.3-0.3.1"]
+JuMP = "0.23"
+
+["0.3.2-0"]
+JuMP = ["0.23", "1"]
