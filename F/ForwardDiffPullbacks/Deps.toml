@@ -2,5 +2,11 @@
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.1"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.2-0"]
+ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
+Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
