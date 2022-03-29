@@ -171,8 +171,13 @@ DynamicalSystemsBase = "2"
 IntervalRootFinding = "0.5.9-0.5"
 
 ["2.6.2-2"]
-DynamicalSystemsBase = "2.3.3-2"
 SpecialFunctions = ["0.10", "1-2"]
+
+["2.6.2-2.7"]
+DynamicalSystemsBase = "2.3.3-2"
 
 ["2.7-2"]
 Clustering = "0.14"
+
+["2.8-2"]
+DynamicalSystemsBase = "2.6.2-2"
