@@ -14,7 +14,6 @@ LightBSON = "0.2"
 OrderedCollections = "1"
 PooledArrays = "1"
 SentinelArrays = "1"
-Snappy = "0.3"
 StaticArrays = "1"
 TableOperations = "1"
 Tables = "1.7.0-1"
@@ -22,3 +21,9 @@ Thrift = "0.8"
 Transducers = "0.4"
 WeakRefStrings = "1"
 julia = "1.6.0-1"
+
+["0-0.1.0"]
+Snappy = "0.3"
+
+["0.1.1-0"]
+Snappy = "0.3-0.4"
