@@ -1,5 +1,4 @@
 [0]
-DSP = "0.7"
 Reexport = "1.2.0-1"
 
 ["0-0.1"]
@@ -7,12 +6,20 @@ Optim = "1.5.0-1"
 WhittleLikelihoodInference = "0.1"
 julia = "1.6.0-1"
 
-["0.2-0"]
+["0-0.2"]
+DSP = "0.7"
+
+["0.2"]
 Optim = "1.6.0-1"
+
+["0.2-0"]
 julia = "1.7.0-1"
 
 ["0.2.0"]
 WhittleLikelihoodInference = "0.2"
 
-["0.2.1-0"]
+["0.2.1-0.2"]
 WhittleLikelihoodInference = "0.2.1-0.2"
+
+["0.3-0"]
+WhittleLikelihoodInference = "0.3"
