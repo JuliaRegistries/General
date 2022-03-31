@@ -1,12 +1,14 @@
 [0]
 FastGaussQuadrature = "0.4"
-IntervalSets = "0.5"
 
 ["0-0.1"]
 julia = "1"
 
 ["0-0.1.1"]
 EllipsisNotation = ["0.4", "1"]
+
+["0-0.5.3"]
+IntervalSets = "0.5"
 
 ["0.2"]
 GeometryBasics = "0.3"
@@ -19,3 +21,6 @@ StaticArrays = "1"
 
 ["0.5.3-0"]
 RecipesBase = "1"
+
+["0.5.4-0"]
+IntervalSets = "0.5-0.6"
