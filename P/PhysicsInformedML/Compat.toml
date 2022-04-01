@@ -1,4 +1,4 @@
-[0]
+["0-0.2"]
 DocumentFunction = "0.0.0 - 0.6"
 Mads = "0.10"
 NMFk = "0.6"
@@ -6,5 +6,14 @@ NTFk = "0.3"
 SVR = "0.7"
 julia = "1.4.0-1"
 
-["0.2-0"]
+["0.2"]
 Suppressor = "0.0.0 - 0.2"
+
+["0.3-0"]
+DocumentFunction = "1"
+Mads = "1.1.0-1"
+NMFk = "1"
+NTFk = "1"
+SVR = "1"
+Suppressor = "0.2-0.3"
+julia = "1.6.0-1"
