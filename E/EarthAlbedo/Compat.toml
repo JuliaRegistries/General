@@ -1,4 +1,11 @@
 [0]
 CoordinateTransformations = "0.6"
 SatelliteDynamics = "0.4"
+
+[0-1]
 julia = "1"
+
+[1]
+CoordinateTransformations = "0.6.2-0.6"
+JLD2 = "0.4.22-0.4"
+StaticArrays = "1.4.2-1"
