@@ -6,10 +6,15 @@ Distributions = "0.21-0.25"
 ElasticArrays = "1"
 ParallelProcessingTools = "0.4"
 Parameters = "0.12"
-RadiationDetectorSignals = "0.1"
 RecipesBase = ["0.7-0.8", "1"]
 SIMD = "2-3"
 StaticArrays = ["0.11-0.12", "1"]
 StatsBase = "0.32-0.33"
 TypedTables = "1.2.0-1"
 julia = "1.6.0-1"
+
+["0-0.1.0"]
+RadiationDetectorSignals = "0.1"
+
+["0.1.1-0"]
+RadiationDetectorSignals = "0.1-0.2"
