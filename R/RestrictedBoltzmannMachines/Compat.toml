@@ -18,6 +18,9 @@ julia = "1.5.0-1"
 ["0.13-0"]
 Flux = "0.12.9-0.12"
 
+["0.19-0"]
+FillArrays = "0.12-0.13"
+
 ["0.2.19-0.4"]
 ProgressMeter = "1"
 
@@ -30,7 +33,6 @@ LoopVectorization = "0.12"
 ["0.5-0"]
 ChainRulesCore = "1.11.0-1"
 DiffRules = "1.8.0-1"
-FillArrays = "0.12"
 LogExpFunctions = "0.3"
 SpecialFunctions = "2"
 Zygote = "0.6"
@@ -38,3 +40,6 @@ julia = "1.6.0-1"
 
 ["0.5-0.12"]
 Flux = "0.12"
+
+["0.5-0.18"]
+FillArrays = "0.12"
