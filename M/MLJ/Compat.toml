@@ -100,7 +100,7 @@ CategoricalArrays = "0.8-0.9"
 ["0.15-0.16.6"]
 MLJScientificTypes = "0.4.1-0.4"
 
-["0.15.1-0"]
+["0.15.1-0.17"]
 MLJTuning = "0.6"
 
 ["0.15.2-0.15"]
@@ -118,14 +118,14 @@ MLJBase = "0.17"
 ["0.16.1"]
 MLJIteration = "0.2"
 
-["0.16.1-0"]
-MLJSerialization = "1.1.0-1"
-
 ["0.16.1-0.16.5"]
 MLJBase = "0.18"
 
 ["0.16.1-0.16.7"]
 MLJOpenML = "1"
+
+["0.16.1-0.17"]
+MLJSerialization = "1.1.0-1"
 
 ["0.16.2-0.16"]
 MLJIteration = "0.3"
@@ -149,9 +149,11 @@ ScientificTypes = "2"
 ["0.16.8-0.16"]
 OpenML = "0.1"
 
-["0.17-0"]
+["0.17"]
 MLJEnsembles = "0.2"
 MLJIteration = "0.4"
+
+["0.17-0"]
 MLJModels = "0.15"
 OpenML = "0.2"
 ScientificTypes = "3"
@@ -160,8 +162,14 @@ julia = "1.6.0-1"
 ["0.17.0"]
 MLJBase = "0.19"
 
-["0.17.1-0"]
+["0.17.1-0.17"]
 MLJBase = "0.19.4-0.19"
+
+["0.18-0"]
+MLJBase = "0.20"
+MLJEnsembles = "0.3"
+MLJIteration = "0.5"
+MLJTuning = "0.7"
 
 ["0.2"]
 MLJModels = "0.2"
