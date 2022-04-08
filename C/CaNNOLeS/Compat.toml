@@ -44,8 +44,10 @@ SolverTools = "0.4"
 NLPModels = "0.14"
 
 ["0.4.1-0"]
-Krylov = "0.4-0.7"
 LDLFactorizations = "0.5-0.8"
+
+["0.4.1-0.5.3"]
+Krylov = "0.4-0.7"
 
 ["0.5.0"]
 SolverCore = "0.1"
@@ -64,3 +66,6 @@ LinearOperators = ["0.7", "1-2"]
 
 ["0.5.3-0"]
 NLPModels = "0.14-0.18"
+
+["0.5.4-0"]
+Krylov = "0.4-0.8"
