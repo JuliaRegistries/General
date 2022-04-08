@@ -28,11 +28,11 @@ NLPModels = "0.11.1-0.12"
 ["0.4"]
 NLPModels = "0.13"
 
-["0.4-0"]
-julia = "1.3.0-1"
-
 ["0.4-0.4.1"]
 SolverTools = "0.2"
+
+["0.4-0.7"]
+julia = "1.3.0-1"
 
 ["0.4-0.7.0"]
 LinearOperators = "1.1.0-1"
@@ -88,7 +88,13 @@ Krylov = "0.7.4-0.7"
 SolverTools = "0.7"
 
 ["0.7.3-0"]
-Krylov = "0.7.7-0.7"
 NLPModels = "0.15-0.18"
 NLPModelsModifiers = "0.2-0.5"
 SolverTools = "0.7-0.8"
+
+["0.7.3-0.7"]
+Krylov = "0.7.7-0.7"
+
+["0.8-0"]
+Krylov = "0.8"
+julia = "1.6.0-1"
