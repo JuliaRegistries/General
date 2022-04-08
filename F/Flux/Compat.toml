@@ -77,26 +77,28 @@ NNlib = "0.7"
 Zygote = "0.5"
 
 ["0.11.2-0"]
+MacroTools = "0.5"
+StatsBase = "0.33"
+
+["0.11.2-0.11.4"]
+Adapt = "2"
+
+["0.11.2-0.12"]
 AbstractTrees = "0.3"
 CodecZlib = "0.7"
 Colors = "0.12"
 Juno = "0.8"
-MacroTools = "0.5"
-StatsBase = "0.33"
 ZipFile = "0.9"
-
-["0.11.2-0.11.4"]
-Adapt = "2"
 
 ["0.11.2-0.12.1"]
 CUDA = "2.1.0-2"
 julia = "1.5.0-1"
 
-["0.11.4-0"]
-Zygote = "0.6"
-
 ["0.11.4-0.11"]
 NNlib = "0.7.10-0.7"
+
+["0.11.4-0.12"]
+Zygote = "0.6"
 
 ["0.11.5-0.12.1"]
 Adapt = "2-3"
@@ -104,7 +106,7 @@ Adapt = "2-3"
 ["0.11.6-0"]
 Reexport = ["0.2", "1"]
 
-["0.12-0"]
+["0.12"]
 Functors = "0.2.1-0.2"
 
 ["0.12-0.12.4"]
@@ -132,8 +134,20 @@ NNlibCUDA = "0.1.7-0.1"
 ArrayInterface = "3.1.0-4"
 
 ["0.12.9-0"]
-NNlib = "0.8"
 NNlibCUDA = "0.2"
+
+["0.12.9-0.12"]
+NNlib = "0.8"
+
+["0.13-0"]
+ChainRulesCore = "1.12.0-1"
+Functors = "0.2.8-0.2"
+MLUtils = "0.2"
+NNlib = "0.8.2-0.8"
+Optimisers = "0.2.1-0.2"
+ProgressLogging = "0.1"
+SpecialFunctions = ["1.8.2-1", "2.1.2-2"]
+Zygote = "0.6.34-0.6"
 
 ["0.5-0.7"]
 DiffRules = "0.0.0 - 0.1"
