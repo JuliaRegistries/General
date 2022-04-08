@@ -5,7 +5,13 @@ OAuth = "0.7.1 - 0.7"
 julia = ["0.7", "1"]
 
 ["0.6-0"]
-DataFrames = "0.18"
 JSON = "0.21"
-OAuth = "0.7.1-0.7"
 julia = "1"
+
+["0.6-0.8.1"]
+DataFrames = "0.18"
+OAuth = "0.7.1-0.7"
+
+["0.8.5-0"]
+DataFrames = "0.18-1"
+OAuth = "0.7.0-1"
