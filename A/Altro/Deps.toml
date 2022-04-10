@@ -1,10 +1,8 @@
 [0]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
-DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
-Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 RobotDynamics = "38ceca67-d8d3-44e8-9852-78a5596522e1"
 RobotZoo = "74be38bb-dcc2-4b9e-baf3-d6373cd95f10"
 Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
@@ -13,6 +11,10 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 TrajectoryOptimization = "c79d492b-0548-5874-b488-5a62c1d9d0ca"
+
+["0-0.4"]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 UnsafeArrays = "c4a57d5a-5b31-53a6-b365-19f8c011fbd6"
 
 ["0.2-0"]
@@ -23,3 +25,9 @@ TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 
 ["0.4-0"]
 FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+
+["0.5-0"]
+Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Octavian = "6fd5a793-0b7e-452c-907f-f8bfe9c57db4"
+QDLDL_jll = "9ae34a36-e1b6-54e9-a33d-8bba9913f854"
