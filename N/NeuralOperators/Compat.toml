@@ -1,6 +1,5 @@
 [0]
 FFTW = "1.4.0-1"
-Flux = "0.12"
 Tullio = "0.3"
 Zygote = "0.6"
 julia = "1.6.0-1"
@@ -21,6 +20,9 @@ CUDA = "3.4.0-3"
 CUDAKernels = "0.3"
 KernelAbstractions = "0.7"
 
+["0-0.3.1"]
+Flux = "0.12"
+
 ["0.1.4"]
 ChainRulesCore = "1.7.0-1"
 
@@ -31,10 +33,18 @@ ChainRulesCore = "1.11.0-1"
 ["0.2"]
 ChainRulesCore = "1.12.0-1"
 
-["0.2-0"]
+["0.2-0.3.1"]
 CUDA = "3.8.0-3"
 
 ["0.3-0"]
 CUDAKernels = "0.3-0.4"
-ChainRulesCore = "1.13.0-1"
 KernelAbstractions = "0.7-0.8"
+
+["0.3-0.3.1"]
+ChainRulesCore = "1.13.0-1"
+
+["0.3.2-0"]
+CUDA = "3.9.0-3"
+ChainRulesCore = "1.14.0-1"
+Flux = "0.13"
+GeometricFlux = "0.11"
