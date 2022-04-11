@@ -69,10 +69,17 @@ MultipleTesting = "0.4-0.5"
 NaturalSort = "1"
 StaticArrays = "1"
 
+["0.7"]
+julia = "1.5.0-1"
+
 ["0.7-0"]
 DataFrames = "1.1.0-1"
 Distributions = "0.25"
 MultipleTesting = "0.5"
 PopGenCore = "0.5.1-0.5"
 Reexport = "1"
-julia = "1.5.0-1"
+
+["0.8-0"]
+Clustering = "0.14"
+MultivariateStats = "0.9.1-0.9"
+julia = "1.6.0-1"
