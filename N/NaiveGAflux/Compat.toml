@@ -36,13 +36,15 @@ NaiveNASflux = "1.4.0-1"
 
 ["0.6-0"]
 MemPool = "0.3"
-Setfield = ["0.3.4-0.3", "0.5-0.7"]
 
 ["0.6-0.7"]
 NaiveNASflux = "1.5.0-1"
 
 ["0.6-0.7.1"]
 CUDA = "1"
+
+["0.6-0.9.0"]
+Setfield = ["0.3.4-0.3", "0.5-0.7"]
 
 ["0.6.1-0"]
 IterTools = "1"
@@ -56,7 +58,13 @@ NaiveNASflux = "1.6.0-1"
 
 ["0.9-0"]
 CUDA = "3"
-Flux = "0.12"
 Functors = "0.2"
 NaiveNASflux = "2"
 NaiveNASlib = "2"
+
+["0.9.0"]
+Flux = "0.12"
+
+["0.9.1-0"]
+Flux = "0.13"
+Setfield = ["0.3.4-0.3", "0.5-0.8"]
