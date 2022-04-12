@@ -22,6 +22,10 @@ LazyArrays = "0.18-0.19"
 ["0.1.4-0.4"]
 StaticArrays = ["0.12", "1"]
 
+["0.11-0"]
+ArrayLayouts = "0.8"
+BandedMatrices = "0.17"
+
 ["0.2.1-0.4"]
 Reexport = ["0.2", "1"]
 
@@ -60,9 +64,11 @@ LazyArrays = "0.21"
 LazyArrays = "0.21-0.22"
 
 ["0.8.4-0"]
-ArrayLayouts = "0.7-0.8"
 LazyArrays = "0.22"
 julia = "1.6.0-1"
 
-["0.9.1-0"]
+["0.8.4-0.10"]
+ArrayLayouts = "0.7-0.8"
+
+["0.9.1-0.10"]
 BandedMatrices = "0.16-0.17"
