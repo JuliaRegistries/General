@@ -89,7 +89,6 @@ LLVM = "4"
 
 ["0.3-0"]
 ExprTools = "0.1"
-GPUCompiler = "0.12-0.13"
 HIP_jll = "4.2.0-4"
 LLVM = "4.6.0-4"
 LLVM_jll = "12-13"
@@ -98,3 +97,9 @@ SpecialFunctions = "1-2"
 hsa_rocr_jll = "4.2.0-4"
 julia = "1.7.0-1"
 rocRAND_jll = "4.2.0-4"
+
+["0.3-0.3.4"]
+GPUCompiler = "0.12-0.13"
+
+["0.3.5-0"]
+GPUCompiler = "0.14"
