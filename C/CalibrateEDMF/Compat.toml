@@ -3,7 +3,6 @@ ArgParse = "1"
 ArtifactWrappers = "0.1"
 AtmosphericProfilesLibrary = "0.1"
 CLIMAParameters = "0.2-0.4"
-ClimaCore = "0.2-0.8"
 CloudMicrophysics = "0.3"
 Dierckx = "0.5"
 Distributions = "0.25"
@@ -28,8 +27,19 @@ julia = "1.6.0-1"
 EnsembleKalmanProcesses = "0.5"
 TurbulenceConvection = "0.16"
 
+["0-0.2"]
+ClimaCore = "0.2-0.8"
+
+["0.2"]
+EnsembleKalmanProcesses = "0.6"
+TurbulenceConvection = "0.16-0.17"
+
 ["0.2-0"]
 DiffEqNoiseProcess = "5"
-EnsembleKalmanProcesses = "0.6"
 PackageCompiler = "2"
-TurbulenceConvection = "0.16-0.17"
+
+["0.3-0"]
+ClimaCore = "0.2-0.9"
+DocStringExtensions = "0.8"
+EnsembleKalmanProcesses = "0.7"
+TurbulenceConvection = "0.18"
