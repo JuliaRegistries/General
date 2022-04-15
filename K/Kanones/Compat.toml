@@ -14,21 +14,37 @@ PolytonicGreek = "0.12"
 julia = "1.5.0-1"
 
 ["0.1.1-0"]
-AtticGreek = "0.7"
 CSV = "0.9"
-CitableObject = "0.8"
-CitableText = "0.11"
 Documenter = "0.27"
-Orthography = "0.15"
-PolytonicGreek = "0.13"
-julia = "1"
 
 ["0.1.1-0.1"]
 CitableBase = "4"
 CitableCorpus = "0.7"
 CitableParserBuilder = "0.20"
 
-["0.2-0"]
+["0.1.1-0.2"]
+AtticGreek = "0.7"
+CitableObject = "0.8"
+CitableText = "0.11"
+Orthography = "0.15"
+PolytonicGreek = "0.13"
+julia = "1"
+
+["0.2"]
 CitableBase = "5"
 CitableCorpus = "0.8"
+
+["0.2-0"]
 CitableParserBuilder = "0.21"
+
+["0.3-0"]
+AtticGreek = "0.8"
+CitableBase = "10"
+CitableCorpus = "0.12"
+CitableObject = "0.15"
+CitableText = "0.15"
+Compat = "3"
+Orthography = "0.16"
+PolytonicGreek = "0.14"
+TestSetExtensions = "2"
+julia = "1.7.0-1"
