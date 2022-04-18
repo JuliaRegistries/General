@@ -56,11 +56,16 @@ Parameters = "0.12"
 Compat = ["2", "3.2.0-3"]
 
 ["0.5-0"]
-Distributions = ["0.21", "0.23-0.24"]
 FixedEffectModels = ["0.10-0.11", "1"]
+
+["0.5-0.5.3"]
+Distributions = ["0.21", "0.23-0.24"]
 
 ["0.5.1-0"]
 UnPack = "1"
 
 ["0.5.2-0"]
 Compat = "2-3"
+
+["0.5.4-0"]
+Distributions = ["0.21", "0.23-0.25"]
