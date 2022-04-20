@@ -24,18 +24,29 @@ CitableParserBuilder = "0.14"
 Documenter = "0.27"
 julia = "1"
 
-["0.2.2-0"]
-CitableObject = "0.8"
-
 ["0.2.2-0.2"]
 CitableParserBuilder = "0.17"
+
+["0.2.2-0.4"]
+CitableObject = "0.8"
 
 ["0.3.0"]
 CitableParserBuilder = "0.20"
 
-["0.3.1-0"]
+["0.3.1-0.4"]
 CitableParserBuilder = "0.21"
 
-["0.4-0"]
+["0.4"]
 CitableBase = "5"
 LatinOrthography = "0.4"
+
+["0.5-0"]
+CitableBase = "10"
+CitableCorpus = "0.12"
+CitableObject = "0.15"
+CitableParserBuilder = "0.23"
+CitableText = "0.15"
+Compat = "3"
+LatinOrthography = "0.5"
+Orthography = "0.16"
+TestSetExtensions = "2"
