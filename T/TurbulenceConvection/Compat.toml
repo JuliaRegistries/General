@@ -1,5 +1,4 @@
 [0]
-CloudMicrophysics = "0.3"
 Dierckx = "0.5"
 Distributions = "0.25"
 DocStringExtensions = "0.8"
@@ -30,6 +29,9 @@ RootSolvers = "0.2"
 ["0-0.17.1"]
 Thermodynamics = "0.5"
 
+["0-0.19"]
+CloudMicrophysics = "0.3"
+
 ["0-0.7"]
 CLIMAParameters = "0.2"
 
@@ -59,7 +61,7 @@ ClimaCore = "0.2-0.7"
 ["0.17-0.17.2"]
 ClimaCore = "0.2-0.8"
 
-["0.17.2-0"]
+["0.17.2-0.19"]
 Thermodynamics = "0.5-0.6"
 
 ["0.17.3-0.18"]
@@ -74,6 +76,10 @@ ClimaCore = "0.2-0.3"
 
 ["0.2-0.8"]
 SurfaceFluxes = "0.1"
+
+["0.20-0"]
+CloudMicrophysics = "0.4"
+Thermodynamics = "0.7"
 
 ["0.4-0.11"]
 TerminalLoggers = "0.1"
