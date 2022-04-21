@@ -2,7 +2,6 @@
 CSV = "0.8.5-0.8"
 DataFrames = "1"
 DataStructures = "0.18"
-DiffEqBase = "6.78.0-6"
 Distributions = "0.25"
 LabelledArrays = "1.6.1-1"
 NLopt = "0.6"
@@ -16,5 +15,11 @@ Sundials = "4.7.0-4"
 XLSX = "0.7"
 julia = "1.6.0-1"
 
+["0-0.4.8"]
+DiffEqBase = "6.78.0-6"
+
 ["0.4.5-0"]
 NaNMath = "0.3"
+
+["0.4.9-0"]
+DiffEqBase = "6.82.0-6"
