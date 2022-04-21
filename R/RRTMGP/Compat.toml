@@ -29,7 +29,7 @@ TimerOutputs = "0.5.3-0.5"
 UnPack = "1.0.2-1"
 julia = "1.6.0-1"
 
-["0.2-0"]
+["0.2-0.3.0"]
 CLIMAParameters = "0.1"
 
 ["0.3-0"]
@@ -39,6 +39,12 @@ Compat = "3.42.0-3"
 Coverage = "1.4.0-1"
 DocStringExtensions = "0.8"
 GaussQuadrature = "0.5"
-NCDatasets = "0.12"
 StaticArrays = "1.4.0-1"
 julia = "1.7.0-1"
+
+["0.3.0"]
+NCDatasets = "0.12"
+
+["0.3.1-0"]
+CLIMAParameters = "0.1-0.4"
+NCDatasets = "0.11-0.12"
