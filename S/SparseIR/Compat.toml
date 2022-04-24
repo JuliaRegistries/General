@@ -1,7 +1,16 @@
 [0]
-PyCall = "1"
-VersionParsing = "1"
 julia = "1"
 
-["0.8-0"]
+["0-0.9"]
+PyCall = "1"
+VersionParsing = "1"
+
+["0.10-0"]
+AssociatedLegendrePolynomials = "1"
+IntervalRootFinding = "0.5"
+LowRankApprox = "0.5"
+QuadGK = "2"
+SpecialFunctions = "2"
+
+["0.8-0.9"]
 LegendrePolynomials = "0.4"
