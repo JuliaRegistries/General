@@ -16,12 +16,14 @@ RoundingIntegers = "0.0.0 - 0.2"
 StatsBase = "0.0.0 - 0.32"
 julia = ["0.7", "1"]
 
+["0.10"]
+GtkReactive = ["0.5.1-0.7", "1"]
+julia = "1"
+
 ["0.10-0"]
 Cairo = ["0.6-0.8", "1"]
 Graphics = ["0.2-0.4", "1"]
 Gtk = ["0.16-0.18", "1"]
-GtkReactive = ["0.5.1-0.7", "1"]
-julia = "1"
 
 ["0.10-0.10.1"]
 ColorVectorSpace = "0.6-0.7"
@@ -75,6 +77,11 @@ Images = "0.15-0.22"
 
 ["0.10.9-0"]
 StatsBase = "0.28-0.33"
+
+["0.11-0"]
+Compat = "3"
+GtkObservables = "1.2.2-1"
+julia = "1.6.0-1"
 
 ["0.9"]
 Cairo = "0.0.0 - 1"
