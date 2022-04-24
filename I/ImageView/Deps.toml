@@ -3,9 +3,11 @@ AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
 Graphics = "a2bd30eb-e257-5431-a919-1863eab51364"
 Gtk = "4c0ca9eb-093a-5379-98c5-f87ac0bbbf44"
-GtkReactive = "27996c0f-39cd-5cc1-a27a-05f136f946b6"
 RoundingIntegers = "d5f540fe-1c90-5db3-b776-2e2f362d9394"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0-0.10"]
+GtkReactive = "27996c0f-39cd-5cc1-a27a-05f136f946b6"
 
 ["0-0.10.10"]
 MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
@@ -26,3 +28,7 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ImageBase = "c817782e-172a-44cc-b673-b171935fbb9e"
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 ImageMetadata = "bc367c6b-8a6b-528e-b4bd-a4b897500b49"
+
+["0.11-0"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+GtkObservables = "8710efd8-4ad6-11eb-33ea-2d5ceb25a41c"
