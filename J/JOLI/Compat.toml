@@ -3,11 +3,13 @@ DistributedArrays = "0.5-0.6"
 FFTW = "1"
 InplaceOps = "0.3"
 IterativeSolvers = "0.8-0.9"
-NFFT = "0.4-0.6"
 Nullables = "1"
 PyCall = "1.18.0-1"
 Wavelets = "0.8-0.9"
 julia = "1"
+
+["0-0.7"]
+NFFT = "0.4-0.6"
 
 ["0-0.7.14"]
 SpecialFunctions = ["0.7-0.9", "1"]
@@ -15,5 +17,9 @@ SpecialFunctions = ["0.7-0.9", "1"]
 ["0.7.15"]
 SpecialFunctions = ["0.7-0.10", "1"]
 
-["0.7.16-0"]
+["0.7.16-0.7"]
 SpecialFunctions = ["0.7-0.10", "1-2"]
+
+["0.8-0"]
+NFFT = "0.6-0.12"
+SpecialFunctions = "1.2.0-2"
