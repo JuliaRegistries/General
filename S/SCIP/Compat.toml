@@ -12,8 +12,13 @@ julia = "1.6.0-1"
 ["0.10.2-0"]
 MathOptInterface = "1"
 
-["0.10.3-0"]
+["0.10.3-0.10"]
 bliss_jll = "0.73"
+
+["0.11-0"]
+Ipopt_jll = "300.1400.0-300"
+SCIP_PaPILO_jll = "0.1"
+SCIP_jll = "0.2"
 
 ["0.7"]
 MathOptInterface = "0.8.0 - 0.8"
@@ -39,6 +44,6 @@ MathOptInterface = "0.9.5"
 ["0.9.3-0.9"]
 MathOptInterface = "0.9.6-0.9"
 
-["0.9.8-0"]
+["0.9.8-0.10"]
 Ipopt_jll = "3.13.2-3"
 SCIP_jll = "0.1.2-0.1"
