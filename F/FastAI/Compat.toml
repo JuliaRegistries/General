@@ -9,7 +9,6 @@ DataLoaders = "0.1"
 FileIO = "1.7.0-1"
 FilePathsBase = "0.9"
 FixedPointNumbers = "0.8"
-FluxTraining = "0.2"
 Glob = "1"
 JLD2 = "0.4"
 MLDataPattern = "0.5"
@@ -37,6 +36,9 @@ julia = "1"
 ["0-0.4.0"]
 Flux = "0.12"
 
+["0-0.4.1"]
+FluxTraining = "0.2"
+
 ["0.2-0"]
 IndirectArrays = ["0.5", "1"]
 Setfield = "0.7-0.8"
@@ -61,3 +63,6 @@ ColorVectorSpace = "0.9"
 Flux = "0.12-0.13"
 ImageIO = "0.6"
 ProgressMeter = "1"
+
+["0.4.2-0"]
+FluxTraining = "0.2-0.3"
