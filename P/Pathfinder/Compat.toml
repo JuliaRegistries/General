@@ -3,13 +3,15 @@ Distributions = "0.25"
 Optim = "1.4.0-1"
 PDMats = "0.11"
 StatsBase = "0.33"
-StatsFuns = "0.9"
 
 ["0-0.2"]
 julia = "1"
 
 ["0-0.2.2"]
 PSIS = "0.1"
+
+["0-0.3"]
+StatsFuns = "0.9"
 
 ["0.2.3-0.3.0"]
 PSIS = "0.2"
@@ -32,3 +34,8 @@ PSIS = "0.2-0.4"
 ["0.3.6-0"]
 Folds = "0.2"
 Transducers = "0.4.5-0.4"
+
+["0.4-0"]
+IrrationalConstants = "0.1.1-0.1"
+ProgressLogging = "0.1.4-0.1"
+UnPack = "1"
