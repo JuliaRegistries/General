@@ -3,10 +3,12 @@ ConstructionBase = "1"
 Reexport = "1"
 StaticArrays = "1"
 UnPack = "1"
-julia = "1.3.0-1"
 
 ["0-0.11.1"]
 Setfield = "0.7"
+
+["0-0.13.1"]
+julia = "1.3.0-1"
 
 ["0-0.8.0"]
 NodesAndModes = "0.4-0.5"
@@ -20,6 +22,10 @@ NodesAndModes = "0.7"
 
 ["0.12.5-0"]
 HDF5 = "0.16"
+
+["0.13.2-0"]
+RecursiveArrayTools = "2"
+julia = "1.6.0-1"
 
 ["0.6-0.12.4"]
 MAT = "0.10"
