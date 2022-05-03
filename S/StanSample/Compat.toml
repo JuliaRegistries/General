@@ -248,10 +248,12 @@ CSV = "0.9-0.10"
 CSV = "0.10"
 DataFrames = "1.3.0-1"
 Requires = "1.3.0-1"
-StanBase = "4"
 
 ["6-6.1"]
 JSON3 = "1.9.0-1"
+
+["6-6.4"]
+StanBase = "4"
 
 ["6.2-6"]
 JSON = "0.21"
@@ -261,3 +263,7 @@ CompatHelperLocal = "0.1.20-0.1"
 
 ["6.3.2-6"]
 NamedTupleTools = "0.13-0.14"
+
+["6.5-6"]
+StanBase = "4.5.0-4"
+StatsFuns = ["0.8-0.9", "1"]
