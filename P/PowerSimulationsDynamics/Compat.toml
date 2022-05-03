@@ -19,6 +19,12 @@ DocStringExtensions = "0.8.2-0.8"
 InfrastructureSystems = "0.14"
 PowerSystems = "0.24"
 
+["0.10-0"]
+FastClosures = "0.3"
+PowerFlows = "0.1"
+PowerSystems = "1.21.0-1"
+SciMLBase = "1.29.0-1"
+
 ["0.2"]
 InfrastructureSystems = "0.15"
 PowerSystems = "0.28"
@@ -63,11 +69,11 @@ PowerSystems = "1.14.0-1"
 ["0.8-0.8.4"]
 SciMLBase = "1.19.0-1"
 
-["0.8.2-0"]
+["0.8.2-0.9"]
 PowerSystems = "1.15.0-1"
-
-["0.8.5-0"]
-SciMLBase = "1"
 
 ["0.8.5-0.8"]
 DiffEqBase = "6.8.0-6"
+
+["0.8.5-0.9"]
+SciMLBase = "1"
