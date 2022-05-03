@@ -2,7 +2,6 @@
 HTTP = "0.8-0.9"
 JSON = "0.21"
 LinDistFlow = "0.1"
-PolygonInbounds = "0.2"
 Shapefile = "0.7"
 julia = "1.4.0-1"
 
@@ -12,6 +11,9 @@ MathOptInterface = "0.9-0.10"
 
 ["0-0.13"]
 Roots = "1.3.0-1"
+
+["0-0.15.0"]
+PolygonInbounds = "0.2"
 
 ["0.13"]
 JuMP = "0.21-0.23"
@@ -23,3 +25,6 @@ TestEnv = "1.7.0-1"
 ["0.14-0"]
 JuMP = ["0.21-0.23", "1"]
 Roots = "1.3.0-2"
+
+["0.15.1-0"]
+ArchGDAL = "0.8"
