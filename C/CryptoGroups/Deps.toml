@@ -1,9 +1,14 @@
 [0]
-ECC = "a99b485a-c5c8-540e-ab00-7a7265134077"
-Mods = "7475f97c-0381-53b1-977b-4c60186c8d62"
-Paillier = "84e01822-a062-59e4-8289-aa032edeecdd"
 Primes = "27ebfcd6-29c5-5fa9-bf4b-fb8fc14df3ae"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["0.1.2-0"]
+["0-0.1"]
+ECC = "a99b485a-c5c8-540e-ab00-7a7265134077"
+Mods = "7475f97c-0381-53b1-977b-4c60186c8d62"
+Paillier = "84e01822-a062-59e4-8289-aa032edeecdd"
+
+["0.1.2-0.1"]
 BitConverter = "3a3ce9e8-98e7-11e9-0fa0-055639f146d3"
+
+["0.2-0"]
+Nettle = "49dea1ee-f6fa-5aa6-9a11-8816cee7d4b9"
