@@ -19,8 +19,10 @@ PSIS = "0.2"
 ["0.3-0"]
 AbstractDifferentiation = "0.4"
 ForwardDiff = "0.10"
-GalacticOptim = "2"
 julia = "1.6.0-1"
+
+["0.3-0.4.2"]
+GalacticOptim = "2"
 
 ["0.3.1-0.3.4"]
 PSIS = "0.2-0.3"
@@ -42,3 +44,8 @@ UnPack = "1"
 
 ["0.4.1-0"]
 Accessors = "0.1"
+
+["0.4.3-0"]
+GalacticOptim = "3"
+GalacticOptimJL = "0.1"
+SciMLBase = "1.8.1-1"
