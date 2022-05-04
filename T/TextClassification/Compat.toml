@@ -110,8 +110,15 @@ CategoricalArrays = "0.8-0.10"
 SimilaritySearch = "0.6"
 
 ["0.5-0"]
-InvertedFiles = "0.1"
 SearchModels = "0.3"
 SimilaritySearch = "0.8"
-TextSearch = "0.10"
 julia = "1.6.0-1"
+
+["0.5.0"]
+InvertedFiles = "0.1"
+TextSearch = "0.10"
+
+["0.5.2-0"]
+InvertedFiles = "0.3"
+KNearestCenters = "0.7"
+TextSearch = "0.11"
