@@ -11,9 +11,15 @@ UnicodePlots = "0.2.6 - 1"
 julia = "1.0.0-1"
 
 ["0.10-0"]
-TableTransforms = "0.4"
 UnicodePlots = "2"
 julia = "1.6.0-1"
+
+["0.10.0"]
+TableTransforms = "0.4"
+
+["0.10.1-0"]
+StaticArrays = "1"
+TableTransforms = "1"
 
 ["0.2-0.3"]
 julia = "1"
@@ -49,7 +55,7 @@ CSV = "0.5-0.8"
 ["0.4.1-0.5.0"]
 DataFrames = "0.21-0.22"
 
-["0.5-0"]
+["0.5-0.10.0"]
 StaticArrays = ["0.12", "1"]
 
 ["0.5.1-0.5"]
