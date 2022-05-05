@@ -30,13 +30,15 @@ Transducers = "0.4"
 
 ["0.14-0"]
 Distances = "0.10"
-Optim = ["0.18", "0.20-0.22", "1"]
 
 ["0.14-0.17"]
 ReferenceFrameRotations = "0.5"
 
 ["0.14-0.21.2"]
 Distributions = "0.21-0.24"
+
+["0.14-0.25.3"]
+Optim = ["0.18", "0.20-0.22", "1"]
 
 ["0.14.3-0.21.2"]
 CategoricalArrays = "0.7-0.9"
@@ -48,7 +50,7 @@ SpecialFunctions = ["0.7-0.10", "1"]
 ["0.15.2-0.21.11"]
 CSV = "0.5-0.8"
 
-["0.16-0"]
+["0.16-0.25.3"]
 StaticArrays = ["0.12", "1"]
 
 ["0.17.1-0.21.2"]
@@ -80,10 +82,12 @@ Meshes = "0.11-0.13"
 
 ["0.21.3-0"]
 Distributions = "0.21-0.25"
-MLJModelInterface = ["0.2-0.4", "1"]
 
 ["0.21.3-0.22"]
 CategoricalArrays = "0.7-0.10"
+
+["0.21.3-0.25.3"]
+MLJModelInterface = ["0.2-0.4", "1"]
 
 ["0.21.4-0.21.6"]
 Meshes = "0.14"
@@ -125,11 +129,18 @@ Meshes = "0.19-0.20"
 ["0.25-0.25.2"]
 Meshes = "0.21"
 
-["0.25.2-0"]
+["0.25.2-0.25.3"]
 TableTransforms = "0.4"
 
 ["0.25.3-0"]
 Meshes = "0.21-0.22"
+
+["0.25.4-0"]
+MLJModelInterface = "1"
+Optim = "1"
+RecipesBase = "1"
+StaticArrays = "1"
+TableTransforms = "1"
 
 ["0.3-0.4"]
 Parameters = "0.7.3 - 0.10"
@@ -226,14 +237,14 @@ Optim = ["0.18", "0.20"]
 ["0.8-0.9"]
 DataFrames = ["0.18", "0.20"]
 
-["0.8.3-0"]
-RecipesBase = ["0.7-0.8", "1"]
-
 ["0.8.3-0.10"]
 julia = "1.1.0-1"
 
 ["0.8.3-0.15.1"]
 SpecialFunctions = "0.7-0.10"
+
+["0.8.3-0.25.3"]
+RecipesBase = ["0.7-0.8", "1"]
 
 ["0.8.4-0.21.6"]
 LossFunctions = "0.6"
