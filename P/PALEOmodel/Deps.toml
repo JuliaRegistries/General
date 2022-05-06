@@ -10,7 +10,6 @@ Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 PALEOboxes = "804b410e-d900-4b2a-9ecd-f5a06d4c1fd4"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
@@ -21,3 +20,9 @@ SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
 TestEnv = "1e6cf692-eddd-4d53-88a5-2d735e33781b"
+
+["0-0.14.3"]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
+["0.14.4-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
