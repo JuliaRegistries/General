@@ -2,12 +2,9 @@
 Adapt = "2-3"
 ColorTypes = "0.10-0.11"
 ConstructionBase = "1"
-DiskArrays = "0.2.10-0.2"
 Flatten = "0.4"
-GeoFormatTypes = "0.2.1-0.3"
 GeoInterface = "0.5"
 Missings = ["0.4", "1"]
-NCDatasets = "0.10-0.11"
 PolygonInbounds = "0.2"
 ProgressMeter = "1"
 RasterDataSources = "0.5"
@@ -25,10 +22,23 @@ DimensionalData = "0.19.1-0.19"
 FillArrays = "0.12"
 HDF5 = "0.14-0.15"
 
+["0-0.2.1"]
+DiskArrays = "0.2.10-0.2"
+GeoFormatTypes = "0.2.1-0.3"
+NCDatasets = "0.10-0.11"
+
 ["0.2-0"]
-ArchGDAL = "0.7-0.8"
 DimensionalData = "0.20"
+
+["0.2-0.2.1"]
+ArchGDAL = "0.7-0.8"
 
 ["0.2.1-0"]
 FillArrays = "0.12-0.13"
 HDF5 = "0.14-0.16"
+
+["0.2.2-0"]
+ArchGDAL = "0.8"
+DiskArrays = "0.3.3-0.3"
+GeoFormatTypes = "0.4"
+NCDatasets = "0.10-0.12"
