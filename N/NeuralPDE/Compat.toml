@@ -93,11 +93,13 @@ Distributions = "0.23-0.25"
 ["3.12-3"]
 ModelingToolkit = "5.18.0-5"
 
-["3.14-4"]
+["3.14-4.6"]
 GalacticOptim = "1-2"
 
 ["3.15-4"]
 CUDA = "3"
+
+["3.15-4.6"]
 Flux = "0.12.6-0.12"
 
 ["3.2-3"]
@@ -184,3 +186,7 @@ ArrayInterface = "3.1.0-4"
 
 ["4.5-4"]
 ArrayInterface = "3.1.0-5"
+
+["4.7-4"]
+Flux = "0.13"
+GalacticOptim = "3"
