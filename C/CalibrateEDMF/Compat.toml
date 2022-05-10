@@ -3,7 +3,6 @@ ArgParse = "1"
 ArtifactWrappers = "0.1"
 AtmosphericProfilesLibrary = "0.1"
 CLIMAParameters = "0.2-0.4"
-CloudMicrophysics = "0.3"
 Dierckx = "0.5"
 Distributions = "0.25"
 Glob = "1"
@@ -17,9 +16,7 @@ SciMLBase = "1"
 StaticArrays = "1"
 StatsBase = "0.33"
 StochasticDiffEq = "6.41.0-6"
-SurfaceFluxes = "0.2"
 TerminalLoggers = "0.1"
-Thermodynamics = "0.5-0.6"
 UnPack = "1"
 julia = "1.6.0-1"
 
@@ -30,6 +27,11 @@ TurbulenceConvection = "0.16"
 ["0-0.2"]
 ClimaCore = "0.2-0.8"
 
+["0-0.3"]
+CloudMicrophysics = "0.3"
+SurfaceFluxes = "0.2"
+Thermodynamics = "0.5-0.6"
+
 ["0.2"]
 EnsembleKalmanProcesses = "0.6"
 TurbulenceConvection = "0.16-0.17"
@@ -38,8 +40,19 @@ TurbulenceConvection = "0.16-0.17"
 DiffEqNoiseProcess = "5"
 PackageCompiler = "2"
 
-["0.3-0"]
+["0.3"]
 ClimaCore = "0.2-0.9"
+TurbulenceConvection = "0.18"
+
+["0.3-0"]
 DocStringExtensions = "0.8"
 EnsembleKalmanProcesses = "0.7"
-TurbulenceConvection = "0.18"
+
+["0.4-0"]
+CairoMakie = "0.8"
+ClimaCore = "0.2-0.10"
+CloudMicrophysics = "0.3-0.4"
+Combinatorics = "1.0.2-1"
+SurfaceFluxes = "0.2-0.3"
+Thermodynamics = "0.5-0.7"
+TurbulenceConvection = "0.22"
