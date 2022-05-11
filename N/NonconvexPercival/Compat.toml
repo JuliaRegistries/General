@@ -1,13 +1,20 @@
 [0]
-ADNLPModels = "0.1-0.3"
-NLPModelsModifiers = ["0.1-0.2", "0.4"]
 Parameters = "0.12"
-Percival = "0.3.1-0.3"
 Reexport = "1"
 julia = "1"
 
 ["0-0.1.0"]
 NonconvexCore = "0.1.4-0.1"
 
+["0-0.1.1"]
+ADNLPModels = "0.1-0.3"
+NLPModelsModifiers = ["0.1-0.2", "0.4"]
+Percival = "0.3.1-0.3"
+
 ["0.1.1-0"]
 NonconvexCore = "1"
+
+["0.1.2-0"]
+ADNLPModels = "0.3"
+NLPModelsModifiers = "0.5"
+Percival = "0.5"
