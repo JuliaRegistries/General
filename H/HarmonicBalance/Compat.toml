@@ -7,12 +7,19 @@ DifferentialEquations = "7.1.0-7"
 Distances = "0.10.7-0.10"
 DocStringExtensions = "0.8.6-0.8"
 FFTW = "1.4.5-1"
-HomotopyContinuation = "2.6.3-2"
 JLD2 = "0.4.19-0.4"
 Latexify = "0.15.9-0.15"
 Peaks = "0.4"
 PyCall = "1.93.0-1"
 PyPlot = "2.10.0-2"
 SymbolicUtils = "0.19.7-0.19"
-Symbolics = "4.3.0-4"
 julia = "1.7.0-1"
+
+["0-0.4"]
+HomotopyContinuation = "2.6.3-2"
+Symbolics = "4.3.0-4"
+
+["0.5-0"]
+HomotopyContinuation = "2.6.4-2"
+ProgressMeter = "1.7.2-1"
+Symbolics = "4.4.1"
