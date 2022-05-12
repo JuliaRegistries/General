@@ -9,9 +9,7 @@ Parameters = "0.12"
 Reexport = "1"
 Requires = "1.1.0-1"
 Revise = "3"
-Setfield = "0.7"
 StaticArrays = "1"
-StatsFuns = "0.9"
 Tensors = "1.4.0-1"
 TimerOutputs = "0.5"
 VTKDataTypes = "0.1"
@@ -43,6 +41,10 @@ Distributions = "0.24"
 ["0-0.4.2"]
 Ferrite = "0.3"
 
+["0-0.5.2"]
+Setfield = "0.7"
+StatsFuns = "0.9"
+
 ["0.4.1"]
 Nonconvex = "0.2-0.3"
 
@@ -65,12 +67,21 @@ Nonconvex = "1"
 NonconvexMMA = "0.1"
 NonconvexPercival = "0.1"
 NonconvexSemidefinite = "0.1"
+
+["0.5-0.5.2"]
 Preconditioners = "0.3-0.4"
 
-["0.5.1-0"]
+["0.5.1-0.5.2"]
 Flux = "0.11-0.12"
 
 ["0.5.2-0"]
 MacroTools = "0.5"
 MappedArrays = "0.4"
 NearestNeighbors = "0.4"
+
+["0.5.3-0"]
+AbstractDifferentiation = "0.4"
+Flux = "0.11-0.13"
+Preconditioners = "0.3-0.5"
+Setfield = "0.7-0.8"
+StatsFuns = ["0.9", "1"]
