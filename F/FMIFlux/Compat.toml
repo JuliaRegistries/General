@@ -69,25 +69,41 @@ OrdinaryDiffEq = "5.53.1-6"
 ["0.5"]
 FMIImport = "0.7"
 
-["0.5-0"]
+["0.5-0.6.1"]
 Interpolations = "0.13.5-0.13"
 
 ["0.6-0"]
+DifferentialEquations = "7.1.0-7"
+ProgressMeter = "1.7.2-1"
+
+["0.6-0.6.1"]
 ChainRulesCore = "1.13.0-1"
 DiffEqBase = "6.82.0-6"
 DiffEqCallbacks = "2.21.0-2"
 DiffEqFlux = "1.45.1-1"
-DifferentialEquations = "7.1.0-7"
 ForwardDiff = "0.10.25-0.10"
 Optim = "1.6.2-1"
 OrdinaryDiffEq = "6.7.0-6"
-ProgressMeter = "1.7.2-1"
 SciMLBase = "1.28.0-1"
 Zygote = "0.6.36-0.6"
 
 ["0.6.0"]
 FMIImport = "0.8"
 
+["0.6.1"]
+Flux = "0.12.1-0.13"
+
 ["0.6.1-0"]
 FMIImport = "0.8-0.9"
-Flux = "0.12.1-0.13"
+
+["0.6.2-0"]
+ChainRulesCore = "1.14.0-1"
+DiffEqBase = "6.83.0-6"
+DiffEqCallbacks = "2.22.0-2"
+DiffEqFlux = "1.46.1-1"
+Flux = "0.12-0.13"
+ForwardDiff = "0.10.26-0.10"
+Interpolations = "0.13.6-0.13"
+Optim = "1.6.0-1"
+OrdinaryDiffEq = "5.71.1-6"
+SciMLBase = "1.30.0-1"
