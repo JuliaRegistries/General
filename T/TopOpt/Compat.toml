@@ -66,10 +66,12 @@ FileIO = "1"
 Nonconvex = "1"
 NonconvexMMA = "0.1"
 NonconvexPercival = "0.1"
-NonconvexSemidefinite = "0.1"
 
 ["0.5-0.5.2"]
 Preconditioners = "0.3-0.4"
+
+["0.5-0.5.3"]
+NonconvexSemidefinite = "0.1"
 
 ["0.5.1-0.5.2"]
 Flux = "0.11-0.12"
@@ -85,3 +87,6 @@ Flux = "0.11-0.13"
 Preconditioners = "0.3-0.5"
 Setfield = "0.7-0.8"
 StatsFuns = ["0.9", "1"]
+
+["0.5.4-0"]
+NonconvexSemidefinite = "0.1.7-0.1"
