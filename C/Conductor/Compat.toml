@@ -1,14 +1,25 @@
 [0]
 IfElse = "0.1"
-Setfield = "0.7"
-SymbolicUtils = "0.13.1-0.13"
-Unitful = "1.8.0-1"
-julia = "1.5.0-1"
 
 ["0-0.0.1"]
 ModelingToolkit = "5.22.0-5"
 Symbolics = "1.2.3-1"
 
-["0.0.2-0"]
+["0-0.0.2"]
+Setfield = "0.7"
+SymbolicUtils = "0.13.1-0.13"
+Unitful = "1.8.0-1"
+julia = "1.5.0-1"
+
+["0.0.2"]
 ModelingToolkit = "6.4.2-6"
 Symbolics = "3"
+
+["0.0.3-0"]
+MacroTools = "0.5"
+ModelingToolkit = "8"
+Setfield = "0.8"
+SymbolicUtils = "0.19"
+Symbolics = "4"
+Unitful = "1"
+julia = "1.7.0-1"
