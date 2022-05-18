@@ -1,8 +1,15 @@
 [0]
-AbstractAlgebra = "0.24"
-Arblib = "0.6"
 BlockDiagonals = "0.1"
-GenericLinearAlgebra = "0.2"
 IterTools = "1"
 KrylovKit = "0.5"
 julia = "1"
+
+["0-0.1"]
+AbstractAlgebra = "0.24"
+Arblib = "0.6"
+GenericLinearAlgebra = "0.2"
+
+["0.2-0"]
+AbstractAlgebra = "0.24-0.26"
+Arblib = "0.6-0.7"
+GenericLinearAlgebra = "0.2-0.3"
