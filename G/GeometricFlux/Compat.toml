@@ -10,6 +10,8 @@ julia = "1"
 
 ["0.10.1-0"]
 Flux = "0.12-0.13"
+
+["0.10.1-0.11"]
 GraphSignals = "0.4"
 
 ["0.11-0"]
@@ -17,6 +19,10 @@ FillArrays = "0.13"
 NNlib = "0.8"
 NNlibCUDA = "0.2"
 Optimisers = "0.2"
+
+["0.12-0"]
+GraphSignals = "0.4-0.5"
+StatsBase = "0.33"
 
 ["0.2"]
 CUDAapi = "2.0"
