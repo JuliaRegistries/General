@@ -1,8 +1,6 @@
 [0]
 Distributions = "0.24-0.25"
 DocStringExtensions = "0.7-0.8"
-GeneralizedGenerated = "0.3"
-MLStyle = "0.4"
 Requires = "1"
 Tricks = "0.1"
 julia = "1.5.0-1"
@@ -10,7 +8,11 @@ julia = "1.5.0-1"
 ["0-0.2.1"]
 MeasureTheory = "0.10-0.11"
 
-["0.2.2-0"]
+["0-0.2.6"]
+GeneralizedGenerated = "0.3"
+MLStyle = "0.4"
+
+["0.2.2-0.2.6"]
 MeasureTheory = "0.10-0.13"
 
 ["0.2.3"]
@@ -25,3 +27,9 @@ TransformVariables = "0.4-0.6"
 
 ["0.2.6-0"]
 NamedTupleTools = "0.12-0.14"
+
+["0.2.7-0"]
+Bijectors = "0.10"
+MeasureTheory = "0.14-0.15"
+ModelWrappers = "0.2"
+PDMats = "0.11"
