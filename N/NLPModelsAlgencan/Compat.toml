@@ -13,7 +13,12 @@ julia = "1.3.0-1"
 ADNLPModels = "0.3"
 CUTEst = "0.12"
 NLPModels = "0.18"
-NLPModelsJuMP = "0.9"
 SolverCore = "0.2"
 SolverTools = "0.8"
 julia = "1.6.0-1"
+
+["0.5.0"]
+NLPModelsJuMP = "0.9"
+
+["0.5.1-0"]
+NLPModelsJuMP = "0.9-0.11"
