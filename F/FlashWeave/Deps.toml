@@ -8,7 +8,6 @@ FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
@@ -18,6 +17,9 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 ["0-0.14"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.18"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
 ["0.12-0.14"]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
@@ -25,3 +27,6 @@ Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
+
+["0.19-0"]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
