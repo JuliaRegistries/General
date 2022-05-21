@@ -1,6 +1,4 @@
 [0]
-BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
-ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
 FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
 GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
@@ -12,6 +10,10 @@ MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
 ["0-0.3"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.6"]
+BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
+ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 
 ["0.3-0"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
@@ -42,6 +44,12 @@ Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 ["0.5.9-0.5.13"]
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 
-["0.6-0"]
+["0.6"]
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+
+["0.6-0"]
 NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
+
+["0.7-0"]
+ImageShow = "4e3cecfd-b093-5904-9786-8bbb286a6a31"
+LazyModules = "8cdb02fc-e678-4876-92c5-9defec4f444e"
