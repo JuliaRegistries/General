@@ -5,14 +5,19 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 [1-5]
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
-[3-5]
+[1-6]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+[3-6]
 IfElse = "615f187c-cbe4-4ef1-ba3b-2fcf58d6d173"
 
-["3.1.2-5"]
+["3.1.2-6"]
 Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
 
-["3.1.33-5"]
+["3.1.33-6"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+[6]
+ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
