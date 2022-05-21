@@ -114,7 +114,7 @@ jobs:
           PR_NAME: ${{ github.event.pull_request.title }}
           PR_NUMBER: ${{ github.event.number }}
           PR_BODY: ${{ github.event.pull_request.body }}
-          API_Key: ${{ secrets.API_Key }}
-          API_Key_Secret: ${{ secrets.API_Key_Secret }}
-          Access_Token: ${{ secrets.Access_Token }}
-          Access_Token_Secret: ${{ secrets.Access_Token_Secret }}
+          API_Key: ${{ secrets.Twitter_API_Key }}
+          API_Key_Secret: ${{ secrets.Twitter_API_Key_Secret }}
+          Access_Token: ${{ secrets.Twitter_Access_Token }}
+          Access_Token_Secret: ${{ secrets.Twitter_Access_Token_Secret }}
