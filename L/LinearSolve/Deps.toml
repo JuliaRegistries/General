@@ -1,11 +1,13 @@
 [0-1]
-ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0-1.16"]
+ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 
 ["0.1.1-1"]
 IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
@@ -27,3 +29,6 @@ DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 
 ["1.16-1"]
 GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
+
+["1.17-1"]
+ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
