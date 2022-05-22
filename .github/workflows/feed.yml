@@ -103,7 +103,7 @@ jobs:
           using Twitter
           twitterauth(ENV["API_Key"], ENV["API_Key_Secret"], ENV["Access_Token"], ENV["Access_Token_Secret"])
           
-          myStatus = string("New #JuliaLang package announced: ", ENV["PR_NAME"],  "\n $text \n Learn more: $pr_url")
+          myStatus = string("New #JuliaLang package announced: ", ENV["PR_NAME"],  "\n$text \nLearn more: $pr_url")
           
           response = post_status_update(status=myStatus)
           
