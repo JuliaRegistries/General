@@ -105,7 +105,7 @@ jobs:
           
           myStatus = string("New #JuliaLang package announced: ", ENV["PR_NAME"],  "\n$text \nLearn more: $pr_url")
           @info "Tweet to be sent: $myStatus"
-          @info "Tweet length: $length(myStatus)"
+          @info "Tweet length: $(length(myStatus))"
 
           response = post_status_update(status=myStatus)
           
