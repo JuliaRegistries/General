@@ -18,8 +18,10 @@ MacroTools = "0.5"
 Optim = "1"
 PositiveFactorizations = "0.2"
 StatsBase = "0.33"
-StatsFuns = "0.9"
 TupleTools = "1.2.0-1"
+
+["1-2.0.3"]
+StatsFuns = "0.9"
 
 ["1.0.0"]
 Distributions = "0.24"
@@ -50,3 +52,6 @@ HCubature = "1"
 
 ["2.0.3-2"]
 Rocket = "1.3.21-1"
+
+["2.0.4-2"]
+StatsFuns = ["0.9", "1"]
