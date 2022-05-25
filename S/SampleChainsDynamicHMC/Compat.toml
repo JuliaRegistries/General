@@ -2,9 +2,7 @@
 ConcreteStructs = "0.2"
 DynamicHMC = "3.1.0-3"
 ElasticArrays = "1.2.0-1"
-LogDensityProblems = "0.10"
 Reexport = "1"
-StructArrays = "0.5"
 julia = "1.5.0-1"
 
 ["0-0.1"]
@@ -16,6 +14,10 @@ NestedTuples = "0.2"
 
 ["0-0.2"]
 TransformVariables = "0.3"
+
+["0-0.3.4"]
+LogDensityProblems = "0.10"
+StructArrays = "0.5"
 
 ["0.1.1-0"]
 MappedArrays = "0.3-0.4"
@@ -29,4 +31,11 @@ TupleVectors = "0.1"
 
 ["0.3-0"]
 SampleChains = "0.5"
+
+["0.3-0.3.4"]
 TransformVariables = "0.3-0.4"
+
+["0.3.5-0"]
+LogDensityProblems = "0.10-0.11"
+StructArrays = "0.5-0.6"
+TransformVariables = "0.4-0.6"
