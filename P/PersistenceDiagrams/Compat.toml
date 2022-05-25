@@ -1,11 +1,13 @@
 [0]
-Compat = "3.10.0-3"
 Hungarian = "0.6"
 RecipesBase = "1"
 julia = "1"
 
 ["0-0.7.1"]
 Distances = "0.8-0.9"
+
+["0-0.9.6"]
+Compat = "3.10.0-3"
 
 ["0.7.2-0.7"]
 Distances = "0.8-0.10"
@@ -22,7 +24,7 @@ Tables = "1"
 ["0.8.1-0.9.0"]
 MLJModelInterface = "0.3.5-0.3"
 
-["0.8.2-0"]
+["0.8.2-0.9.6"]
 PersistenceDiagramsBase = "0.1.1-0.1"
 
 ["0.9.1-0.9.2"]
@@ -37,3 +39,6 @@ ScientificTypes = "2.3.2-2"
 ["0.9.5-0"]
 MLJModelInterface = "1"
 ScientificTypes = "3"
+
+["0.9.7-0"]
+Compat = "3.10.0-4"
