@@ -30,6 +30,11 @@ Orthography = "0.15"
 PolytonicGreek = "0.13"
 julia = "1"
 
+["0.10-0"]
+BenchmarkTools = "1.3.0-1"
+PolytonicGreek = "0.17"
+SplitApplyCombine = "1"
+
 ["0.2"]
 CitableBase = "5"
 CitableCorpus = "0.8"
@@ -45,6 +50,8 @@ CitableObject = "0.15"
 CitableText = "0.15"
 Compat = "3"
 Orthography = "0.16"
-PolytonicGreek = "0.14"
 TestSetExtensions = "2"
 julia = "1.7.0-1"
+
+["0.3-0.9"]
+PolytonicGreek = "0.14"
