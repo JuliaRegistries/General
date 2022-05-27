@@ -133,13 +133,15 @@ Reexport = "0.2"
 
 ["1.1-1"]
 FixedEffects = "2"
-StatsFuns = "0.9"
 
 ["1.1-1.1.1"]
 FixedEffectModels = "1.3.0-1"
 
 ["1.1-1.1.3"]
 Vcov = "0.4"
+
+["1.1-1.1.5"]
+StatsFuns = "0.9"
 
 ["1.1.1"]
 FillArrays = "0.7-0.10"
@@ -161,6 +163,12 @@ FillArrays = "0.7-0.11"
 DataFrames = ["0.21-0.22", "1"]
 
 ["1.1.4-1"]
-FillArrays = "0.7-0.12"
 GroupedArrays = "0.3"
 Vcov = "0.5"
+
+["1.1.4-1.1.5"]
+FillArrays = "0.7-0.12"
+
+["1.1.6-1"]
+FillArrays = "0.7-0.13"
+StatsFuns = ["0.9", "1"]
