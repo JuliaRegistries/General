@@ -48,8 +48,10 @@ DiffEqBase = "6"
 StaticArrays = "0.10-0.12"
 
 ["0.9-8"]
-DocStringExtensions = "0.7-0.8"
 MacroTools = "0.5"
+
+["0.9-8.12"]
+DocStringExtensions = "0.7-0.8"
 
 ["0.9-8.4"]
 NaNMath = "0.3"
@@ -303,7 +305,7 @@ Symbolics = "3.3.0-3"
 ["6.5.1-6.5"]
 JuliaFormatter = "0.12-0.16"
 
-["6.5.1-8"]
+["6.5.1-8.12"]
 Setfield = "0.7-0.8"
 
 ["6.6"]
@@ -355,9 +357,16 @@ ArrayInterface = "3.1.39-4"
 ["8.11.1-8"]
 Symbolics = "4.5.0-4"
 
+["8.12"]
+JuliaFormatter = "0.12-0.23"
+
 ["8.12-8"]
 ArrayInterfaceCore = "0.1.1-0.1"
-JuliaFormatter = "0.12-0.23"
+
+["8.13-8"]
+DocStringExtensions = "0.7-0.9"
+JuliaFormatter = "1"
+Setfield = ["0.7-0.8", "1"]
 
 ["8.2-8"]
 DiffEqBase = "6.81.0-6"
