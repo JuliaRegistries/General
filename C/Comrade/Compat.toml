@@ -2,11 +2,9 @@
 Accessors = "0.1"
 AstroTime = "0.6-0.7"
 Distributions = "0.24-0.25"
-DocStringExtensions = "0.6-0.8"
 FFTW = "1"
 KeywordCalls = "0.2"
 MappedArrays = "0.3-0.4"
-MeasureBase = "0.5"
 PaddedViews = "0.5"
 PyCall = "1"
 SpecialFunctions = ["0.10", "1-2"]
@@ -23,6 +21,10 @@ FillArrays = "0.12"
 LoopVectorization = "0.12"
 NFFT = "0.5-0.7"
 
+["0-0.3"]
+DocStringExtensions = "0.6-0.8"
+MeasureBase = "0.5"
+
 ["0.2"]
 ComradeBase = "0.2"
 
@@ -31,8 +33,10 @@ AbstractFFTs = "1"
 BasicInterpolators = "0.6"
 ChainRulesCore = "1"
 ForwardDiff = "0.9-0.10"
-MeasureTheory = "0.13"
 Reexport = "1"
+
+["0.2-0.3"]
+MeasureTheory = "0.13"
 
 ["0.2.2"]
 NFFT = "0.10"
@@ -41,13 +45,15 @@ NFFT = "0.10"
 AbstractDifferentiation = "0.4"
 DensityInterface = "0.4"
 FillArrays = "0.12-0.13"
-HypercubeTransform = "0.2.4-0.2"
 ParameterHandling = "0.4"
 RecipesBase = "1"
 Requires = "1"
-TransformVariables = "0.3-0.6"
 TupleVectors = "0.1"
 ValueShapes = "0.10"
+
+["0.2.2-0.3"]
+HypercubeTransform = "0.2.4-0.2"
+TransformVariables = "0.3-0.6"
 
 ["0.2.2-0.3.0"]
 AbstractMCMC = "3"
@@ -63,6 +69,19 @@ ComradeBase = "0.2.5-0.2"
 
 ["0.3.1-0"]
 AbstractMCMC = "3-4"
-ComradeBase = "0.3"
 FLoops = "0.2"
 NFFT = "0.10-0.12"
+
+["0.3.1-0.3"]
+ComradeBase = "0.3"
+
+["0.4-0"]
+BlockDiagonals = "0.1"
+ComradeBase = "0.3.1-0.3"
+DocStringExtensions = "0.6-0.9"
+HypercubeTransform = "0.2.7-0.2"
+MeasureBase = "0.7-0.9"
+MeasureTheory = "0.15-0.16"
+NamedTupleTools = "0.14"
+Tables = "1"
+TransformVariables = "0.5-0.6"
