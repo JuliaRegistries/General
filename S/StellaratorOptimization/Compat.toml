@@ -1,10 +1,12 @@
 [0]
 Documenter = "0.27"
 OrderedCollections = "1"
-PlasmaEquilibriumToolkit = "0.4"
 Polyester = "0.5-0.6"
 Requires = "1.2.0-1"
 julia = "1.6.0-1"
+
+["0-0.4.5"]
+PlasmaEquilibriumToolkit = "0.4"
 
 ["0.4.1-0"]
 LineSearches = "7"
@@ -13,3 +15,6 @@ Optim = "1"
 ["0.4.2-0"]
 FiniteDifferences = "0.10-0.12"
 HDF5 = "0.13-0.16"
+
+["0.4.6-0"]
+PlasmaEquilibriumToolkit = "0.4-0.5"
