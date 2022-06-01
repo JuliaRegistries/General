@@ -1,13 +1,15 @@
 [0]
+MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
+
+["0-0.1"]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+
+[0-1]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-
-["0-0.1"]
-BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 
 ["0.2-0"]
 PowerModels = "c36e90e8-916a-50a6-bd94-075b64ef4655"
