@@ -1,5 +1,7 @@
 [0]
 DataDeps = "0.7"
+
+["0-0.2"]
 GeoInterface = "0.5"
 julia = "1"
 
@@ -15,5 +17,10 @@ ArchGDAL = "0.5-0.6"
 ["0.2.2-0.2.3"]
 ArchGDAL = "0.7"
 
-["0.2.4-0"]
+["0.2.4-0.2"]
 ArchGDAL = "0.7-0.8"
+
+["0.3-0"]
+ArchGDAL = "0.9"
+GeoInterface = "1"
+julia = "1.6.0-1"
