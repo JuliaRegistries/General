@@ -1,7 +1,6 @@
 [0]
 Combinatorics = "1"
 DiffEqBase = "6"
-DiffEqOperators = "4.41.0-4"
 DomainSets = "0.5"
 IfElse = "0.1"
 ModelingToolkit = "8"
@@ -16,5 +15,11 @@ julia = "1.6.0-1"
 ["0-0.1"]
 TermInterface = "0.2"
 
+["0-0.3.0"]
+DiffEqOperators = "4.41.0-4"
+
 ["0.2-0"]
 TermInterface = "0.2-0.3"
+
+["0.3.1-0"]
+DiffEqOperators = "4.43.0-4"

@@ -73,7 +73,7 @@ DiffEqBase = "6.45.0-6"
 ["0.4.1-0.5.1"]
 ProximalOperators = "0.11-0.12"
 
-["0.5-0"]
+["0.5-0.8.1"]
 DocStringExtensions = "0.7-0.8"
 
 ["0.5.0"]
@@ -90,12 +90,14 @@ ProximalOperators = "0.11-0.13"
 ModelingToolkit = "4.0.8-5"
 
 ["0.6-0"]
-Compat = "3"
 DataInterpolations = "3"
 DiffEqBase = "6"
 ProgressMeter = "1.6.0-1"
 Reexport = "1"
 julia = "1.6.0-1"
+
+["0.6-0.8.1"]
+Compat = "3"
 
 ["0.6.0"]
 ModelingToolkit = "5"
@@ -130,7 +132,7 @@ Symbolics = "3-4"
 ["0.6.8"]
 ModelingToolkit = "7"
 
-["0.6.8-0"]
+["0.6.8-0.8.1"]
 Symbolics = "4"
 
 ["0.6.9-0"]
@@ -141,5 +143,12 @@ CommonSolve = "0.2"
 Literate = "2"
 Measurements = "2.7.0-2"
 Parameters = "0.12"
-PkgVersion = "0.1"
 RecipesBase = "1"
+
+["0.8-0.8.1"]
+PkgVersion = "0.1"
+
+["0.8.2-0"]
+DocStringExtensions = "0.7-0.9"
+SymbolicUtils = "0.19"
+Symbolics = "4.3"
