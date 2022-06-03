@@ -1,15 +1,26 @@
 [0]
-Colors = "0.11"
 DiffEqCallbacks = "2"
 ForwardDiff = "0.10"
-GeometryTypes = "0.7"
-Ipopt = "0.6"
-MeshCat = "0.10"
-MeshCatMechanisms = "0.7"
 NPZ = "0.4"
 Plots = "1"
 Requires = "1"
 Revise = "3"
 RigidBodyDynamics = "2"
 SparseDiffTools = "1"
+
+["0-0.1"]
+Colors = "0.11"
+GeometryTypes = "0.7"
+Ipopt = "0.6"
+MeshCat = "0.10"
+MeshCatMechanisms = "0.7"
 julia = "1.5.0-1"
+
+["0.2-0"]
+Colors = "0.12"
+GeometryBasics = "0.4"
+Ipopt = "1"
+MeshCat = "0.14"
+MeshCatMechanisms = "0.8"
+StaticArrays = "1"
+julia = "1.6.0-1"
