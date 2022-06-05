@@ -41,7 +41,7 @@ StanDump = "0.2"
 StanRun = "0.2"
 StanSamples = "0.1"
 
-["1.0.1-4"]
+["1.0.1-4.1"]
 DocStringExtensions = "0.8"
 
 ["1.0.2-1.0"]
@@ -110,6 +110,8 @@ CSV = "0.9"
 [3-4]
 DataFrames = "1.2.0-1"
 Parameters = "0.12"
+
+["3-4.1"]
 StanDump = "0.2"
 
 ["3-4.1.0"]
@@ -132,5 +134,11 @@ CSV = "0.10"
 StanBase = "4"
 
 ["4.1.1-4"]
-NamedTupleTools = "0.13-0.14"
 StanSample = "6"
+
+["4.1.1-4.1"]
+NamedTupleTools = "0.13-0.14"
+
+["4.2-4"]
+DocStringExtensions = "0.8-0.9"
+NamedTupleTools = "0.14"
