@@ -41,13 +41,15 @@ Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 
 [6]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
-QuasiMonteCarlo = "8a4e6c94-4038-4cdc-81c3-7e6ffdb2a71b"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 
 ["6-6.5.0"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+
+["6-6.76"]
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+QuasiMonteCarlo = "8a4e6c94-4038-4cdc-81c3-7e6ffdb2a71b"
 
 ["6.14.2-6.73"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
@@ -59,12 +61,14 @@ StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
 ["6.25"]
 DistributionsAD = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
 
-["6.33-6"]
+["6.33-6.76"]
 SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 
 ["6.36-6"]
-GlobalSensitivity = "af5da776-676b-467e-8baf-acd8249e4f0f"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["6.36-6.76"]
+GlobalSensitivity = "af5da776-676b-467e-8baf-acd8249e4f0f"
 
 ["6.5-6"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
@@ -96,8 +100,10 @@ OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 
 ["6.61-6"]
-DiffEqOperators = "9fdde737-9c7f-55bf-ade8-46b3f136cc48"
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
+
+["6.61-6.76"]
+DiffEqOperators = "9fdde737-9c7f-55bf-ade8-46b3f136cc48"
 
 ["6.67-6"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
