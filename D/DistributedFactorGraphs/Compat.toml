@@ -39,11 +39,13 @@ ManifoldsBase = "0.10"
 ManifoldsBase = "0.11"
 
 ["0.15-0"]
-ManifoldsBase = "0.11-0.12"
 TensorCast = "0.3.3-0.4"
 
 ["0.15-0.18.1"]
 Requires = ["0.5", "1"]
+
+["0.15-0.18.3"]
+ManifoldsBase = "0.11-0.12"
 
 ["0.18-0"]
 Graphs = "1.4.0-1"
@@ -51,10 +53,16 @@ Graphs = "1.4.0-1"
 ["0.18.2-0"]
 Colors = "0.10-0.12"
 Distributions = "0.23-0.25"
-DocStringExtensions = "0.8"
 Reexport = "1"
 Requires = "1"
 julia = "1.6.0-1"
+
+["0.18.2-0.18.3"]
+DocStringExtensions = "0.8"
+
+["0.18.4-0"]
+DocStringExtensions = "0.8-0.9"
+ManifoldsBase = "0.11-0.13"
 
 ["0.3-0.4.1"]
 LightGraphs = "0.0.0 - 1"

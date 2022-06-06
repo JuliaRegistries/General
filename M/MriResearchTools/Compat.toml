@@ -45,7 +45,17 @@ ROMEO = "0.2.5-0.2"
 
 ["0.6-0"]
 ImageMorphology = "0.2-0.3"
+
+["0.6-0.7"]
 Requires = "1"
 
 ["0.7-0"]
 ROMEO = "0.3"
+
+["0.8-0"]
+FFTW = "1"
+ImageFiltering = "0.7"
+ImageSegmentation = "1"
+LocalFilters = "1"
+OffsetArrays = "1"
+StatsBase = "0.33"
