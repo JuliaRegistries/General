@@ -5,15 +5,22 @@ julia = ["0.7", "1"]
 Manifolds = "0.5"
 
 ["0.2.11-0"]
+StaticArrays = "1"
+
+["0.2.11-0.2.13"]
 DocStringExtensions = "0.8"
 ManifoldsBase = "0.10-0.12"
-StaticArrays = "1"
 
 ["0.2.12"]
 Manifolds = "0.5-0.6"
 
-["0.2.13-0"]
+["0.2.13"]
 Manifolds = "0.6-0.7"
+
+["0.2.14-0"]
+DocStringExtensions = "0.8-0.9"
+Manifolds = "0.6-0.8"
+ManifoldsBase = "0.10-0.13"
 
 ["0.2.8"]
 ManifoldsBase = "0.10"
