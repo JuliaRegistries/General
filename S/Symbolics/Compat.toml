@@ -13,7 +13,6 @@ AbstractAlgebra = "0.13"
 
 [0-4]
 DiffRules = ["0.1", "1"]
-DocStringExtensions = "0.7-0.8"
 IfElse = "0.1"
 MacroTools = "0.5"
 Reexport = ["0.2", "1"]
@@ -26,6 +25,9 @@ SpecialFunctions = ["0.7-0.10", "1"]
 
 ["0-4.3.0"]
 NaNMath = "0.3"
+
+["0-4.6.0"]
+DocStringExtensions = "0.7-0.8"
 
 ["0.1.11-0.1.20"]
 AbstractAlgebra = "0.13-0.15"
@@ -91,7 +93,7 @@ SymbolicUtils = "0.15.1-0.15"
 ["3.4"]
 SymbolicUtils = "0.16"
 
-["3.4.2-4"]
+["3.4.2-4.6.0"]
 Setfield = "0.7-0.8"
 
 ["3.5-3"]
@@ -134,3 +136,7 @@ TermInterface = "0.2-0.3"
 
 ["4.6-4"]
 ArrayInterfaceCore = "0.1.1-0.1"
+
+["4.6.1-4"]
+DocStringExtensions = "0.7-0.9"
+Setfield = ["0.7-0.8", "1"]
