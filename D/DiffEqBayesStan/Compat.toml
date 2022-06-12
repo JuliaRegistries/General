@@ -67,9 +67,11 @@ AxisKeys = "0.1"
 ModelingToolkit = "6-7"
 
 ["1.1.2-2"]
+Tables = "1.6.0-1"
+
+["1.1.2-2.2.0"]
 BenchmarkTools = "1.2.0-1"
 Plots = "1.25.0-1"
-Tables = "1.6.0-1"
 
 ["1.2.1"]
 ModelingToolkit = "7"
@@ -78,13 +80,13 @@ ModelingToolkit = "7"
 DataFrames = "1.3.0-1"
 OrdinaryDiffEq = "6"
 
-["1.2.2-2"]
+["1.2.2-2.2.0"]
 ModelingToolkit = "7-8"
 
-["1.3-2"]
+["1.3-2.2.0"]
 CSV = "0.9-0.10"
 
-[2]
+["2-2.2.0"]
 AxisKeys = "0.1-0.2"
 
 ["2.0"]
@@ -93,5 +95,16 @@ StanSample = "5-6"
 
 ["2.2-2"]
 DocStringExtensions = "0.8-0.9"
+
+["2.2.0"]
 StanBase = "4"
 StanSample = "6"
+
+["2.2.1-2"]
+AxisKeys = "0.2"
+BenchmarkTools = "1.3.0-1"
+CSV = "0.10"
+ModelingToolkit = "8"
+Plots = "1"
+StanBase = "4.7.0-4"
+StanSample = "6.7.0-6"
