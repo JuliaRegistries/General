@@ -131,14 +131,20 @@ CSV = "0.9-0.10"
 
 [4]
 CSV = "0.10"
-StanBase = "4"
 
-["4.1.1-4"]
-StanSample = "6"
+["4-4.2.0"]
+StanBase = "4"
 
 ["4.1.1-4.1"]
 NamedTupleTools = "0.13-0.14"
 
+["4.1.1-4.2.0"]
+StanSample = "6"
+
 ["4.2-4"]
 DocStringExtensions = "0.8-0.9"
 NamedTupleTools = "0.14"
+
+["4.2.1-4"]
+StanBase = "4.7.0-4"
+StanSample = "6.7.0-6"
