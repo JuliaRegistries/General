@@ -1,9 +1,11 @@
 [0]
 DiffEqBase = "6"
 DiffEqCallbacks = "2"
-DocStringExtensions = "0.7-0.8"
 RecipesBase = "1"
 julia = "1.4.0-1"
+
+["0-0.6"]
+DocStringExtensions = "0.7-0.8"
 
 ["0-0.6.0"]
 OpenQuantumBase = "0.6"
@@ -17,5 +19,9 @@ OpenQuantumBase = "0.6.1-0.6"
 ["0.6.2-0"]
 Reexport = ["0.2", "1"]
 
-["0.6.3-0"]
+["0.6.3-0.6"]
 OpenQuantumBase = "0.6.4-0.6"
+
+["0.7-0"]
+DocStringExtensions = "0.7-0.9"
+OpenQuantumBase = "0.7"
