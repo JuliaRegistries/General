@@ -7,8 +7,10 @@ julia = "1"
 ["0.1.1-0"]
 IterativeSolvers = "0.8-0.9"
 LinearMaps = "3"
-NonconvexCore = "1"
 Zygote = "0.5-0.6"
+
+["0.1.1-0.2"]
+NonconvexCore = "1"
 
 ["0.1.2-0"]
 MacroTools = "0.5"
@@ -16,3 +18,6 @@ MacroTools = "0.5"
 ["0.2-0"]
 SparseDiffTools = "1.24.0-1"
 Symbolics = "4.6.0-4"
+
+["0.3-0"]
+NonconvexCore = "1.0.8-1"
