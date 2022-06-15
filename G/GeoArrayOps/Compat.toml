@@ -1,15 +1,24 @@
 [0]
 ImageCore = "0.9"
-ImageFiltering = "0.7"
 OffsetArrays = "1.10.0-1"
 julia = "1.5.0-1"
+
+["0-0.3.0"]
+ImageFiltering = "0.7"
 
 ["0.2-0"]
 DataStructures = "0.18"
 Distances = "0.10"
-FillArrays = "0.12"
 PaddedViews = "0.5"
 StaticArrays = "1"
 
-["0.3-0"]
+["0.2-0.3.0"]
+FillArrays = "0.12"
+
+["0.3.0"]
 ProgressMeter = "1.7.0-1"
+
+["0.3.1-0"]
+FillArrays = "0.12-0.13"
+ImageFiltering = "0.6-0.7"
+StatsBase = "0.33"
