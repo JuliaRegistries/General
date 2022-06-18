@@ -1,25 +1,36 @@
-["2.0-2.3"]
-ResettableStacks = "0.2-0"
-julia = "0.7-1"
-
-["2.0-2.4"]
+[2]
 DiffEqBase = "3-5"
 
-["2.0-3.1"]
-DataStructures = "0"
+["2-2.3"]
+ResettableStacks = "0.2.0 - 0.6"
+julia = "0.7-1"
+
+[2-3]
+DataStructures = "0.0.0 - 0.17"
+RecipesBase = "0.0.0 - 0.7"
+StaticArrays = "0.0.0 - 0.12"
+
+["2-3.1"]
 RandomNumbers = "0-1"
-RecipesBase = "0"
-RecursiveArrayTools = "0"
-StaticArrays = "0"
+RecursiveArrayTools = "0.0.0 - 0.20"
+
+["2.4-3"]
+julia = "1"
 
 ["2.4-3.1"]
-ResettableStacks = "0.6-0"
-
-["2.4-3.3"]
-julia = "1"
+ResettableStacks = "0.6.0 - 0.6"
 
 ["3.0"]
 DiffEqBase = "5"
 
 ["3.1"]
 DiffEqBase = "5.1-5"
+
+["3.2-3"]
+DiffEqBase = "0.0.0 - 6"
+RandomNumbers = "0.0.0 - 1"
+RecursiveArrayTools = "0.0.0 - 1"
+ResettableStacks = "0.0.0 - 0.6"
+
+["3.3-3"]
+Requires = "0.0.0 - 0.5"
