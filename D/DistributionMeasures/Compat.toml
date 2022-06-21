@@ -5,5 +5,20 @@ DensityInterface = "0.4"
 Distributions = "0.25"
 Functors = "0.2"
 InverseFunctions = "0.1"
-MeasureBase = "0.9"
 julia = "1.6.0-1"
+
+["0-0.1"]
+MeasureBase = "0.9"
+
+["0.2-0"]
+ArgCheck = "1-2"
+ChainRulesCore = "1"
+FillArrays = "0.12-0.13"
+ForwardDiff = "0.9-0.10"
+ForwardDiffPullbacks = "0.2"
+IrrationalConstants = "0.1"
+MeasureBase = "0.12"
+PDMats = "0.11"
+Static = "0.5-0.6"
+StatsBase = "0.32-0.33"
+StatsFuns = ["0.9", "1"]
