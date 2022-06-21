@@ -200,8 +200,10 @@ Symbolics = "0.1.7-0.1"
 Symbolics = "0.1.8-0.1"
 
 ["5.14-8"]
-AbstractTrees = "0.3"
 Latexify = "0.11-0.15"
+
+["5.14-8.14.0"]
+AbstractTrees = "0.3"
 
 ["5.14.1"]
 SymbolicUtils = "0.10"
@@ -368,7 +370,11 @@ DocStringExtensions = "0.7-0.9"
 JuliaFormatter = "1"
 Setfield = ["0.7-0.8", "1"]
 
-["8.2-8"]
+["8.14.1-8"]
+AbstractTrees = "0.3-0.4"
+DiffEqBase = "6.83.0-6"
+
+["8.2-8.14.0"]
 DiffEqBase = "6.81.0-6"
 
 ["8.3.2-8"]
