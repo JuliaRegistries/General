@@ -15,11 +15,17 @@ julia = "1.5.0-1"
 ModelingToolkit = "6.4.2-6"
 Symbolics = "3"
 
+["0.0.3"]
+Setfield = "0.8"
+
 ["0.0.3-0"]
 MacroTools = "0.5"
 ModelingToolkit = "8"
-Setfield = "0.8"
 SymbolicUtils = "0.19"
 Symbolics = "4"
 Unitful = "1"
 julia = "1.7.0-1"
+
+["0.0.4-0"]
+DocStringExtensions = "0.8"
+Setfield = ["0.8", "1"]
