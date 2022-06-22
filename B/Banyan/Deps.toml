@@ -1,10 +1,8 @@
 [0]
-AWS = "fbe9abb3-538b-5e4e-ba9e-bc94f4f92ebc"
 AWSCore = "4f1ea46c-232b-54a6-9b17-cc2d0f3e6598"
 AWSS3 = "1c724243-ef5b-51ab-93f4-b0a88ac62a95"
 AWSSQS = "6e80b5ca-5733-51f9-999e-c18680912812"
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 FilePathsBase = "48062228-2e41-5def-b9a4-89aafe57970f"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
@@ -21,6 +19,10 @@ HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
 Parquet = "626c502c-15b0-58ad-a749-f091afb673ae"
 
+["0-0.3"]
+AWS = "fbe9abb3-538b-5e4e-ba9e-bc94f4f92ebc"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
 ["0.1.1-0"]
 TimeZones = "f269a46b-ccf7-5d73-abea-4c690281aa53"
 
@@ -34,3 +36,8 @@ SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 
 ["0.2.4-0"]
 LibGit2 = "76f85450-5226-5b5a-8eaa-529ad045b433"
+
+["0.4-0"]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+MethodAnalysis = "85b6ec6f-f7df-4429-9514-a64bcd9ee824"
+Snappy = "59d4ed8c-697a-5b28-a4c7-fe95c22820f9"
