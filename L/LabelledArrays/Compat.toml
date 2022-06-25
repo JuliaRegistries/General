@@ -20,10 +20,15 @@ StaticArrays = "0.10-0.12"
 ArrayInterface = "2.8.0-6"
 ArrayInterfaceStaticArrays = "0.1"
 
+["1.11-1"]
+PreallocationTools = "0.4"
+RecursiveArrayTools = "2"
+StaticArrays = "1"
+
 ["1.2-1.4"]
 ArrayInterface = "2.8.0-2"
 
-["1.4-1"]
+["1.4-1.10"]
 StaticArrays = ["0.10-0.12", "1"]
 
 ["1.5-1.6"]
