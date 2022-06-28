@@ -107,8 +107,10 @@ Distributions = "0.23-0.25"
 
 ["0.16-0"]
 CoordinateTransformations = "0.5-0.6"
-ManifoldsBase = "0.12.6-0.12"
 TransformUtils = "0.2.11-0.2"
+
+["0.16-0.18"]
+ManifoldsBase = "0.12.6-0.12"
 
 ["0.16.0"]
 ApproxManifoldProducts = "0.3.3-0.4"
@@ -120,14 +122,16 @@ Manifolds = "0.6.3-0.6"
 IncrementalInference = "0.25.5-0.25"
 
 ["0.16.1-0"]
-ApproxManifoldProducts = "0.4.15-0.4"
 Distributions = "0.24-0.25"
-DocStringExtensions = "0.8"
-Manifolds = "0.6.3-0.7"
 julia = "1.6.0-1"
 
 ["0.16.1-0.16"]
 DistributedFactorGraphs = "0.16.2-0.16"
+
+["0.16.1-0.18"]
+ApproxManifoldProducts = "0.4.15-0.4"
+DocStringExtensions = "0.8"
+Manifolds = "0.6.3-0.7"
 
 ["0.16.2-0.16"]
 IncrementalInference = "0.25.7-0.25"
@@ -139,14 +143,22 @@ IncrementalInference = "0.25.7-0.26"
 ["0.17-0"]
 Rotations = "1.1.0-1"
 
-["0.18-0"]
+["0.18"]
 DistributedFactorGraphs = "0.18"
 
 ["0.18-0.18.2"]
 IncrementalInference = "0.27.1-0.27"
 
-["0.18.3-0"]
+["0.18.3-0.18"]
 IncrementalInference = "0.27.1-0.28"
+
+["0.19-0"]
+ApproxManifoldProducts = "0.5"
+DistributedFactorGraphs = "0.18.4-0.18"
+DocStringExtensions = "0.8-0.9"
+IncrementalInference = "0.29"
+Manifolds = "0.8.9-0.8"
+ManifoldsBase = "0.13"
 
 ["0.2.1-0.3.3"]
 TransformUtils = "0.2.2 - 0.2"
