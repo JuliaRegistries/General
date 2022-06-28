@@ -157,7 +157,6 @@ ApproxManifoldProducts = "0.3.3-0.3"
 
 ["0.24.1-0"]
 Distributions = "0.24-0.25"
-DocStringExtensions = "0.8"
 FileIO = "1"
 JSON2 = "0.3"
 ProgressMeter = "1"
@@ -178,6 +177,9 @@ JLD2 = "0.3-0.4"
 ["0.24.1-0.27.1"]
 Optim = ["0.22", "1"]
 
+["0.24.1-0.28"]
+DocStringExtensions = "0.8"
+
 ["0.24.4-0.24"]
 DistributedFactorGraphs = "0.14.5-0.14"
 
@@ -189,7 +191,6 @@ ApproxManifoldProducts = "0.4.16-0.4"
 
 ["0.25-0"]
 KernelDensityEstimate = "0.5.6-0.5"
-ManifoldsBase = "0.12.6-0.12"
 TensorCast = "0.3.3-0.4"
 
 ["0.25-0.25.1"]
@@ -197,6 +198,9 @@ Manifolds = "0.6.3-0.6"
 
 ["0.25-0.25.2"]
 julia = "1.5.0-1"
+
+["0.25-0.28"]
+ManifoldsBase = "0.12.6-0.12"
 
 ["0.25.0"]
 DistributedFactorGraphs = "0.15.2-0.15"
@@ -224,11 +228,13 @@ ApproxManifoldProducts = "0.4.21-0.4"
 DistributedFactorGraphs = "0.17"
 
 ["0.27-0"]
+Reexport = "1"
+Requires = "1"
+
+["0.27-0.28"]
 ApproxManifoldProducts = "0.4.24-0.4"
 DistributedFactorGraphs = "0.18"
 Manifolds = "0.7"
-Reexport = "1"
-Requires = "1"
 
 ["0.27.2-0"]
 MetaGraphs = "0.7"
@@ -237,6 +243,13 @@ StaticArrays = "1"
 
 ["0.27.3-0"]
 JSON = "0.21"
+
+["0.29-0"]
+ApproxManifoldProducts = "0.5"
+DistributedFactorGraphs = "0.18.4-0.18"
+DocStringExtensions = "0.8-0.9"
+Manifolds = "0.8.8-0.8"
+ManifoldsBase = "0.13"
 
 ["0.3.8-0.3"]
 StatsBase = "0.0.0 - 0.33"
