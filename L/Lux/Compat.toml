@@ -3,7 +3,6 @@ Adapt = "3"
 CUDA = "3"
 ChainRulesCore = "1"
 FillArrays = "0.13"
-Functors = "0.2"
 NNlib = "0.8"
 NNlibCUDA = "0.2"
 Optimisers = "0.2"
@@ -19,6 +18,9 @@ Setfield = "0.8"
 ["0-0.4.3"]
 ComponentArrays = "0.11"
 
+["0-0.4.6"]
+Functors = "0.2"
+
 ["0.4-0.4.3"]
 julia = "1.7.0-1"
 
@@ -28,3 +30,6 @@ Setfield = ["0.8", "1"]
 ["0.4.4-0"]
 ComponentArrays = "0.11-0.12"
 julia = "1.6.0-1"
+
+["0.4.7-0"]
+Functors = "0.2-0.3"
