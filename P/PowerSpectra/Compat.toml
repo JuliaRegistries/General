@@ -5,7 +5,6 @@ Combinatorics = "1"
 DataFrames = "1"
 FITSIO = "0.16"
 FillArrays = "0.12"
-Healpix = "3"
 IdentityRanges = "0.3"
 Lazy = "0.15"
 OffsetArrays = "1"
@@ -15,3 +14,10 @@ ThreadPools = "2"
 UnsafeArrays = "1"
 WignerFamilies = "1"
 julia = "1.6.0-1"
+
+["0-0.1.0"]
+Healpix = "3"
+
+["0.1.1-0"]
+Healpix = "3-4"
+Pixell = "0.2"
