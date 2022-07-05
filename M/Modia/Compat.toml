@@ -72,18 +72,20 @@ Modia3D = "0.9"
 ["0.7"]
 ModiaLang = "0.11.2-0.11"
 
+["0.8"]
+ModiaResult = "0.4.1-0.4"
+Sundials = "4.4.0-4"
+
 ["0.8-0"]
 DataFrames = "1"
 FiniteDiff = "2"
 ForwardDiff = "0.10"
 JSON = "0.21"
 Measurements = "2"
-ModiaResult = "0.4.1-0.4"
 MonteCarloMeasurements = "1"
 RecursiveFactorization = "0.2"
 Reexport = "1"
 StaticArrays = "1"
-Sundials = "4.4.0-4"
 TimerOutputs = "0.5"
 
 ["0.8-0.8.1"]
@@ -91,3 +93,8 @@ ModiaBase = "0.10"
 
 ["0.8.2-0"]
 ModiaBase = "0.11"
+
+["0.9-0"]
+DiffEqBase = "6.82.0-6"
+SignalTables = "0.3.4-0.3"
+Sundials = "4"
