@@ -1,6 +1,5 @@
 [0]
 Convex = "0.15"
-DataFrames = "1"
 MathOptInterface = "1.1.0-1"
 Pardiso = "0.5"
 QDLDL = "0.3"
@@ -11,6 +10,12 @@ julia = "1"
 AMD = "0.4"
 JuMP = "0.23"
 
+["0-0.1.1"]
+DataFrames = "1"
+
 ["0.1.1-0"]
 AMD = "0.4-0.5"
 JuMP = ["0.2", "1"]
+
+["0.1.2-0"]
+PrettyTables = ["0.12", "1"]
