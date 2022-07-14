@@ -80,14 +80,14 @@ CSV = "0.5-0.9"
 ["0.21.3"]
 Meshes = "0.11-0.13"
 
-["0.21.3-0"]
-Distributions = "0.21-0.25"
-
 ["0.21.3-0.22"]
 CategoricalArrays = "0.7-0.10"
 
 ["0.21.3-0.25.3"]
 MLJModelInterface = ["0.2-0.4", "1"]
+
+["0.21.3-0.26.0"]
+Distributions = "0.21-0.25"
 
 ["0.21.4-0.21.6"]
 Meshes = "0.14"
@@ -134,7 +134,7 @@ Meshes = "0.21"
 ["0.25.2-0.25.3"]
 TableTransforms = "0.4"
 
-["0.25.3-0"]
+["0.25.3-0.26.0"]
 Meshes = "0.21-0.22"
 
 ["0.25.4-0"]
@@ -147,8 +147,13 @@ TableTransforms = "1"
 ["0.25.5-0"]
 LossFunctions = "0.6-0.8"
 
-["0.25.6-0"]
+["0.25.6-0.26.0"]
 DensityRatioEstimation = "0.5-0.6"
+
+["0.26.1-0"]
+DensityRatioEstimation = "0.6"
+Distributions = "0.25"
+Meshes = "0.22"
 
 ["0.3-0.4"]
 Parameters = "0.7.3 - 0.10"
