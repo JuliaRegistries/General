@@ -15,18 +15,24 @@ BinaryProvider = "0.5.8-0.5"
 Singular_jll = "403.1.100-403.1"
 libsingular_julia_jll = "0.22"
 
-["0.10.1-0"]
-Singular_jll = "403.1.200-403.1"
-
 ["0.10.1-0.10"]
 libsingular_julia_jll = "0.23"
 
-["0.10.2-0"]
+["0.10.1-0.11"]
+Singular_jll = "403.1.200-403.1"
+
+["0.10.2-0.11"]
 AbstractAlgebra = "0.26"
 Nemo = "0.31"
 
-["0.11-0"]
+["0.11"]
 libsingular_julia_jll = "0.24"
+
+["0.12-0"]
+AbstractAlgebra = "0.27"
+Nemo = "0.32"
+Singular_jll = "403.100.100-403.100"
+libsingular_julia_jll = "0.25"
 
 ["0.2"]
 CxxWrap = "0.9"
