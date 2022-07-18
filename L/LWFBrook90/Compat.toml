@@ -1,12 +1,14 @@
 [0]
 DiffEqCallbacks = "2"
-Interpolations = "0.13"
-Roots = "1"
 julia = "1"
 
 ["0-0.2"]
 DataFrames = "0.22"
 DataFramesMeta = "0.6"
+
+["0-0.3"]
+Interpolations = "0.13"
+Roots = "1"
 
 ["0-0.3.2"]
 CSV = "0.8"
@@ -25,9 +27,18 @@ CSV = "0.8-0.9"
 
 ["0.3.5-0"]
 CSV = "0.8-0.10"
-DataFramesMeta = "0.6-0.10"
 OrdinaryDiffEq = "5-6"
 RecipesBase = "1"
 
+["0.3.5-0.3"]
+DataFramesMeta = "0.6-0.10"
+
 ["0.3.6-0"]
 BenchmarkTools = "1"
+
+["0.4-0"]
+DataFramesMeta = "0.6-0.12"
+Interpolations = "0.13-0.14"
+JLD2 = "0.4"
+Roots = "1-2"
+StatsBase = "0.33"
