@@ -1,20 +1,22 @@
 [0]
 CUDA = "3"
 ChainRulesCore = "1"
-ComponentArrays = "0.11-0.12"
 DiffEqBase = "6"
 DiffEqCallbacks = "2.20.1-2"
-DiffEqSensitivity = "6.64.0-6"
-Functors = "0.2"
 LinearSolve = "1"
 Lux = "0.4"
 MLUtils = "0.2"
 OrdinaryDiffEq = "6"
 SciMLBase = "1.19.0-1"
-Setfield = "1"
 SteadyStateDiffEq = "1.6.0-1"
 UnPack = "1"
 Zygote = "0.6.34-0.6"
+
+["0-0.1"]
+ComponentArrays = "0.11-0.12"
+DiffEqSensitivity = "6.64.0-6"
+Functors = "0.2"
+Setfield = "1"
 julia = "1.7.0-1"
 
 ["0-0.1.0"]
@@ -22,3 +24,8 @@ Static = "0.6"
 
 ["0.1.1-0"]
 Static = "0.6-0.7"
+
+["0.2-0"]
+Functors = "0.2-0.3"
+SciMLSensitivity = "7"
+julia = "1.6.0-1"
