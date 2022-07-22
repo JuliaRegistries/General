@@ -218,7 +218,7 @@ No, sorry. The registry is maintained by volunteers, and we don't have a legal t
 It is very easy to accidentally wander into legally murky territory when combining common OSI licenses[^1] like GPL
 with non-OSI licenses and we don't want to subject Julia users to that risk when installing packages registered in General.
 See [these](https://github.com/JuliaRegistries/General/pull/31549#issuecomment-796671872) [comments]
-(https://github.com/JuliaRegistries/General/pull/31549#issuecomment-804196208) for more discussion.
+(https://github.com/JuliaRegistries/General/pull/31549#issuecomment-804196208) for more discussion. We are not lawyers and this is not legal advice.
 
 [^1]: Note that even within the world of OSI licenses, there are combinations of OSI licenses which are not
 legal to use together, such as GPL2 with Apache2.
