@@ -53,11 +53,17 @@ julia = "1.5.0-1"
 
 ["0.2.3-0"]
 Graphs = "1.4.0-1"
-Setfield = "0.7-0.8"
 SimpleWeightedGraphs = "1.2.0-1"
 
-["0.2.4-0"]
+["0.2.3-0.2.5"]
+Setfield = "0.7-0.8"
+
+["0.2.4-0.2.5"]
 ImageMorphology = "0.2-0.3"
 
 ["0.2.5-0"]
 MultivariateStats = "0.7-0.9"
+
+["0.2.6-0"]
+ImageMorphology = "0.2-0.4"
+Setfield = ["0.7-0.8", "1"]
