@@ -1,5 +1,4 @@
 [0]
-GeoInterface = "0.5"
 GeoJSON = "0.5"
 
 ["0-0.1.1"]
@@ -28,6 +27,9 @@ EarCut = "1"
 
 ["0-0.3"]
 ImageMagick = "1"
+
+["0-0.4.1"]
+GeoInterface = "0.5"
 
 ["0.1.1-0.1.15"]
 StructArrays = "0.4"
@@ -129,11 +131,18 @@ Makie = "0.16.6-0.16"
 
 ["0.4-0"]
 ImageIO = "0.6"
-Proj4 = "0.7"
 julia = "1.6.0-1"
+
+["0.4-0.4.1"]
+Proj4 = "0.7"
 
 ["0.4.0"]
 Makie = "0.17"
 
 ["0.4.1-0"]
 Makie = "0.17.1-0.17"
+
+["0.4.2-0"]
+Downloads = "1"
+GeoInterface = ["0.5", "1"]
+Proj = "1"
