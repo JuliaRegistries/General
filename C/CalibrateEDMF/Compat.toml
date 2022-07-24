@@ -6,11 +6,9 @@ CLIMAParameters = "0.2-0.4"
 Dierckx = "0.5"
 Distributions = "0.25"
 Glob = "1"
-Interpolations = "0.13"
 JLD2 = "0.4"
 JSON = "0.21"
 NPZ = "0.4"
-OrdinaryDiffEq = "5-6"
 SciMLBase = "1"
 StaticArrays = "1"
 StatsBase = "0.33"
@@ -33,6 +31,10 @@ Thermodynamics = "0.5-0.6"
 
 ["0-0.5"]
 NCDatasets = "0.11-0.12"
+
+["0-0.6"]
+Interpolations = "0.13"
+OrdinaryDiffEq = "5-6"
 
 ["0.2"]
 EnsembleKalmanProcesses = "0.6"
@@ -70,8 +72,15 @@ CloudMicrophysics = "0.5"
 DocStringExtensions = "0.8-0.9"
 Thermodynamics = "0.5-0.8"
 
+["0.6"]
+TurbulenceConvection = "0.27.6-0.27"
+
 ["0.6-0"]
 DiffEqBase = "6.89.0"
 EnsembleKalmanProcesses = "0.9"
 NCDatasets = "0.12.4"
-TurbulenceConvection = "0.27.6-0.27"
+
+["0.7-0"]
+Interpolations = "0.13-0.14"
+OrdinaryDiffEq = "5-6.18.1"
+TurbulenceConvection = "0.27.7-0.27"
