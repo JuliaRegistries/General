@@ -8,8 +8,6 @@ OrderedCollections = "1.2.0-1"
 QuadGK = "2.4.0-2"
 RecipesBase = "1"
 Reexport = "1"
-ToeplitzMatrices = "0.6.3-0.6"
-julia = "1.5.0-1"
 
 ["0-0.4.0"]
 AbstractTrees = "0.3"
@@ -29,14 +27,18 @@ PGFPlotsX = "1.2.0-1"
 SpecialFunctions = "1"
 StaticArrays = "1"
 
+["0-0.4.5"]
+ToeplitzMatrices = "0.6.3-0.6"
+julia = "1.5.0-1"
+
 ["0.4.1-0.4.2"]
 DomainIntegrals = "0.3.3-0.3"
 
-["0.4.2-0"]
-DomainSets = "0.5.9-0.5"
-
 ["0.4.2-0.4.3"]
 GridArrays = "0.1.12-0.1"
+
+["0.4.2-0.4.5"]
+DomainSets = "0.5.9-0.5"
 
 ["0.4.3"]
 DomainIntegrals = "0.3.4-0.3"
@@ -55,3 +57,8 @@ StaticArrays = "1.4.0-1"
 
 ["0.4.5-0"]
 GenericFFT = "0.1"
+
+["0.4.6-0"]
+DomainSets = "0.5.11-0.5"
+ToeplitzMatrices = "0.7"
+julia = "1.6.0-1"
