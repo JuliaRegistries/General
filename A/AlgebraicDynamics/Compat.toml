@@ -38,11 +38,17 @@ PrettyTables = ["0.10-0.12", "1"]
 DynamicalSystems = "1.6.0-2"
 
 ["0.1.5-0"]
-Catlab = "0.11-0.13"
 DelayDiffEq = "5"
 LabelledArrays = "1"
 RecipesBase = "1"
 
+["0.1.5-0.1.6"]
+Catlab = "0.11-0.13"
+
 ["0.1.6-0"]
 DifferentialEquations = "6.16.0-7"
 OrdinaryDiffEq = "5.49.0-6"
+
+["0.1.7-0"]
+Catlab = "0.11-0.14"
+Requires = "1"
