@@ -4,7 +4,6 @@ Colors = "0.12"
 CoordinateTransformations = "0.6.1-0.6"
 FileIO = "1.4.0-1"
 GeometryBasics = "0.3-0.4"
-Glimmer = "0.1"
 MeshIO = "0.4"
 Rotations = "1.0.2-1"
 StaticArrays = "1"
@@ -13,5 +12,12 @@ julia = "1.6.0-1"
 ["0-0.1"]
 OpticSim = "0.5.2-0.5"
 
-["0.2-0"]
+["0-0.2.0"]
+Glimmer = "0.1"
+
+["0.2.0"]
 OpticSim = "0.5.3-0.5"
+
+["0.2.1-0"]
+Glimmer = "0.2"
+OpticSim = "0.5.3-0.6"
