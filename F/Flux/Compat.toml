@@ -133,24 +133,31 @@ NNlibCUDA = "0.1.7-0.1"
 ["0.12.9"]
 ArrayInterface = "3.1.0-4"
 
-["0.12.9-0"]
-NNlibCUDA = "0.2"
-
 ["0.12.9-0.12"]
 NNlib = "0.8"
 
+["0.12.9-0.13.4"]
+NNlibCUDA = "0.2"
+
 ["0.13-0"]
 ChainRulesCore = "1.12.0-1"
-Functors = "0.2.8-0.2"
 MLUtils = "0.2"
-NNlib = "0.8.2-0.8"
 Optimisers = "0.2.1-0.2"
 ProgressLogging = "0.1"
 SpecialFunctions = ["1.8.2-1", "2.1.2-2"]
 Zygote = "0.6.34-0.6"
 
+["0.13-0.13.4"]
+Functors = "0.2.8-0.2"
+NNlib = "0.8.2-0.8"
+
 ["0.13.2-0"]
 ArrayInterface = "3.1.0-6"
+
+["0.13.5-0"]
+Functors = "0.3"
+NNlib = "0.8.9-0.8"
+NNlibCUDA = "0.2.4-0.2"
 
 ["0.5-0.7"]
 DiffRules = "0.0.0 - 0.1"
