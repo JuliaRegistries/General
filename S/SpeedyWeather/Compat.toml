@@ -1,7 +1,6 @@
 [0]
 AbstractFFTs = "1"
 AssociatedLegendrePolynomials = "1"
-BitInformation = "0.3-0.5"
 FFTW = "1"
 FastGaussQuadrature = "0.4"
 NetCDF = "0.10-0.11"
@@ -11,6 +10,9 @@ Parameters = "0.10-0.12"
 UnicodePlots = "2.10.0-2"
 julia = "1"
 
+["0-0.2"]
+BitInformation = "0.3-0.5"
+
 ["0.1.1-0"]
 Primes = "0.5"
 ProgressMeter = "1.7.0-1"
@@ -18,3 +20,12 @@ ProgressMeter = "1.7.0-1"
 ["0.2-0"]
 UnicodePlots = "2.10.0-3"
 julia = "1.7.0-1"
+
+["0.3-0"]
+Adapt = "3"
+BitInformation = "0.6"
+CUDA = "3"
+CUDAKernels = "0.3"
+CodecZlib = "0.7"
+JLD2 = "0.4"
+KernelAbstractions = "0.7"
