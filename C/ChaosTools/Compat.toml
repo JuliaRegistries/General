@@ -1,10 +1,13 @@
 ["0-0.12"]
-LsqFit = "0.5.0 - 0.11"
+LsqFit = "0.5.0-0.11"
 OrdinaryDiffEq = "4.5-5"
-Roots = "0.6.0 - 0.8"
+Roots = "0.6.0-0.8"
 
 ["0-1.2.0"]
-SpecialFunctions = "0.6.0 - 0.10"
+SpecialFunctions = "0.6.0-0.10"
+
+["0-1.21.0"]
+NearestNeighbors = "0.4"
 
 ["0-1.4"]
 DiffEqBase = "4.10-5"
@@ -12,24 +15,23 @@ DynamicalSystemsBase = "0.11-1"
 julia = ["0.7", "1"]
 
 ["0-1.5"]
-Combinatorics = "0.6.0 - 0.7"
+Combinatorics = "0.6.0-0.7"
 
 ["0-1.8.0"]
-Distances = "0.7.0 - 0.8"
-ForwardDiff = "0.8.0 - 0.10"
-NearestNeighbors = "0.4.0 - 0.4"
-Reexport = "0.1.0 - 0.2"
-StaticArrays = "0.8.0 - 0.12"
-StatsBase = "0.24.0 - 0.32"
+Distances = "0.7.0-0.8"
+ForwardDiff = "0.8.0-0.10"
+Reexport = "0.1.0-0.2"
+StaticArrays = "0.8.0-0.12"
+StatsBase = "0.24.0-0.32"
 
 ["0.13-1.2.0"]
-LsqFit = "0.6.0 - 0.11"
+LsqFit = "0.6.0-0.11"
 
 ["0.13-1.4"]
 OrdinaryDiffEq = "4.8-5"
 
 ["0.13-1.5"]
-Roots = "0.7.0 - 0.8"
+Roots = "0.7.0-0.8"
 
 ["1.10-1.17"]
 Distances = "0.7-0.9"
@@ -96,32 +98,28 @@ DynamicalSystemsBase = "1.8.11-1"
 
 ["1.5"]
 DiffEqBase = "5"
-DynamicalSystemsBase = "1.2.3-1"
+
+["1.5-1.18"]
 julia = "1"
 
+["1.5-1.8"]
+DynamicalSystemsBase = "1.2.3-1"
+
 ["1.6-1.8.0"]
-Combinatorics = "0.6.0 - 1"
-DiffEqBase = "5.0.0 - 6"
-Distributions = "0.0.0 - 0.21"
-DynamicalSystemsBase = "1.2.3 - 1"
-Roots = "0.7.0 - 1"
-julia = "1.0.0-1"
+Combinatorics = "0.6.0-1"
+DiffEqBase = "5.0.0-6"
+Distributions = "0.0.0-0.21"
+Roots = "0.7.0-1"
 
 ["1.7-1.8.0"]
-DSP = "0.0.0 - 0.6"
-LombScargle = "0.0.0 - 0.5"
+DSP = "0.0.0-0.6"
+LombScargle = "0.0.0-0.5"
 
 ["1.8.1-1.14"]
 DiffEqBase = "5-6"
 
-["1.8.1-1.18"]
-julia = "1"
-
 ["1.8.1-1.19.0"]
 LombScargle = "0.4-0.5"
-
-["1.8.1-1.21.0"]
-NearestNeighbors = "0.4"
 
 ["1.8.1-1.23.0"]
 Reexport = "0.1-0.2"
@@ -131,7 +129,6 @@ DSP = "0.6"
 
 ["1.8.1-1.8"]
 Distributions = "0.21"
-DynamicalSystemsBase = "1.2.3-1"
 
 ["1.8.1-1.8.2"]
 Combinatorics = "1"

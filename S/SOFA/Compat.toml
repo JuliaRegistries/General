@@ -1,18 +1,16 @@
 [0]
-BinDeps = "0.8.0 - 0.8"
+BinDeps = "0.8"
+
+[0-1]
 julia = "1"
 
 ["1.0.0"]
-BinDeps = "0.0.0 - 0.8"
-StaticArrays = "0.0.0 - 0.11"
-julia = "1.0.0-1"
+BinDeps = "0.0.0-0.8"
+StaticArrays = "0.0.0-0.11"
 
 ["1.0.1"]
 BinDeps = "0.8.10-0.8"
 StaticArrays = "0.11"
-
-["1.0.1-1"]
-julia = "1"
 
 ["1.0.2-1"]
 BinDeps = "1.0.2-1"

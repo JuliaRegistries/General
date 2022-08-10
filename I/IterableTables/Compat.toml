@@ -1,21 +1,22 @@
 [0]
-Requires = "0.5.2 - 0.5"
+Requires = "0.5.2-0.5"
 julia = ["0.7", "1"]
 
 ["0-0.8.2"]
-DataValues = "0.4.1 - 0.4"
+DataValues = "0.4.1-0.4"
 IteratorInterfaceExtensions = "0.1-1"
 TableTraits = "0.3-1"
 TableTraitsUtils = "0.2-1"
 
 ["0.8.3-0"]
-DataValues = "0.4.4 - 0.4"
 IteratorInterfaceExtensions = "0.1.1-1"
 TableTraits = "0.3.1-1"
 TableTraitsUtils = "0.2.1-1"
 
-[1]
+["0.8.3-1"]
 DataValues = "0.4.4-0.4"
+
+[1]
 IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
 Requires = ["0.5.2-0.5", "1"]
 TableTraits = ["0.3.1-0.4", "1"]

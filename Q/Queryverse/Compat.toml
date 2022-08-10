@@ -1,27 +1,29 @@
 [0]
+DataValues = "0.4.4-0.4"
 FileIO = "1"
 
 ["0-0.2"]
 julia = ["0.7", "1"]
 
 ["0-0.3"]
-CSVFiles = "0.9.1 - 0.16"
-DataFrames = "0.13.1 - 0.20"
-DataValues = "0.4.4 - 0.4"
-DataVoyager = "0.3.0 - 0.3"
+CSVFiles = "0.9.1-0.16"
+DataFrames = "0.13.1-0.20"
+DataVoyager = "0.3"
 ExcelFiles = "0.6-1"
-FeatherFiles = "0.5.1 - 0.8"
+FeatherFiles = "0.5.1-0.8"
 IterableTables = "0.8.3-1"
-Query = "0.10.0 - 0.12"
-Reexport = "0.2.0 - 0.2"
-StatFiles = "0.6.1 - 0.8"
+Query = "0.10.0-0.12"
+StatFiles = "0.6.1-0.8"
 VegaLite = "0.4-2"
 
+["0-0.6"]
+Reexport = "0.2"
+
 ["0.2-0.3"]
-ParquetFiles = "0.1.0 - 0.2"
+ParquetFiles = "0.1.0-0.2"
 
 ["0.3"]
-QueryTables = "0.0.0 - 0.1"
+QueryTables = "0.0.0-0.1"
 
 ["0.3-0"]
 julia = "1"
@@ -29,7 +31,6 @@ julia = "1"
 ["0.5-0"]
 CSVFiles = "1"
 DataTables = "0.1"
-DataValues = "0.4.4-0.4"
 DataVoyager = ["0.3", "1"]
 ExcelFiles = "1"
 FeatherFiles = "0.8"
@@ -37,9 +38,6 @@ IterableTables = "1"
 ParquetFiles = "0.2"
 StatFiles = "0.8"
 VegaLite = "1-2"
-
-["0.5-0.6"]
-Reexport = "0.2"
 
 ["0.5-0.6.0"]
 DataFrames = "0.20"

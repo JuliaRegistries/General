@@ -2,19 +2,19 @@
 WebIO = "0.1.8-0.4"
 
 ["0-0.3"]
-Colors = "0.7.1 - 0.11"
-CoordinateTransformations = "0.4.1 - 0.5"
-GeometryTypes = "0.4.0 - 0.7"
-JSExpr = "0.0.0 - 0.5"
-MsgPack = "0.1.1 - 0.2"
-Mux = "0.2.3 - 0.7"
-Parameters = "0.7.0 - 0.12"
-Rotations = "0.5.0 - 0.13"
-StaticArrays = "0.5.0 - 0.12"
+Colors = "0.7.1-0.11"
+CoordinateTransformations = "0.4.1-0.5"
+GeometryTypes = "0.4.0-0.7"
+JSExpr = "0.0.0-0.5"
+MsgPack = "0.1.1-0.2"
+Mux = "0.2.3-0.7"
+Parameters = "0.7.0-0.12"
+Rotations = "0.5.0-0.13"
+StaticArrays = "0.5.0-0.12"
 julia = "0.6-1"
 
 ["0-0.6"]
-DocStringExtensions = "0.4.0 - 0.8"
+DocStringExtensions = "0.4.0-0.8"
 
 ["0.10-0"]
 WebSockets = "1"
@@ -28,11 +28,11 @@ Cassette = "0.2.5-0.3"
 Colors = "0.9-0.12"
 CoordinateTransformations = "0.5-0.6"
 
-["0.11.1-0.13"]
-Blink = "0.12"
-
 ["0.11-0.14.1"]
 Rotations = "1"
+
+["0.11.1-0.13"]
+Blink = "0.12"
 
 ["0.12"]
 GeometryBasics = "0.2"
@@ -60,45 +60,47 @@ GeometryBasics = "0.3-0.4"
 Rotations = "1.1"
 
 ["0.2-0.3"]
-BinDeps = "0.8.7 - 0.8"
+BinDeps = "0.8.7-0.8"
 
 ["0.2.2-0.3"]
-AssetRegistry = "0.0.0 - 0.1"
+AssetRegistry = "0.0.0-0.1"
 WebIO = "0.2-0.4"
 
 ["0.3"]
 Compat = "0.54-2"
-JSON = "0.0.0 - 0.21"
+JSON = "0.0.0-0.21"
 
 ["0.3-0.6"]
-Requires = "0.0.0 - 0.5"
+Requires = "0.0.0-0.5"
 
 ["0.4-0.11"]
 julia = ["0.7", "1"]
 
 ["0.4-0.5"]
-JSExpr = "0.3.0 - 0.5"
-JSON = "0.18.0 - 0.21"
+JSExpr = "0.3.0-0.5"
+JSON = "0.18.0-0.21"
 WebIO = "0.4.2-0.4"
 
 ["0.4-0.6"]
-AssetRegistry = "0.1.0 - 0.1"
-BinDeps = "0.8.8 - 0.8"
-Colors = "0.9.0 - 0.11"
-CoordinateTransformations = "0.5.0 - 0.5"
-GeometryTypes = "0.6.0 - 0.7"
-MsgPack = "0.2.0 - 0.2"
-Mux = "0.5.2 - 0.7"
-Parameters = "0.10.0 - 0.12"
-Rotations = "0.8.0 - 0.13"
-StaticArrays = "0.8.0 - 0.12"
+BinDeps = "0.8.8-0.8"
+Colors = "0.9.0-0.11"
+CoordinateTransformations = "0.5"
+GeometryTypes = "0.6.0-0.7"
+MsgPack = "0.2"
+Mux = "0.5.2-0.7"
+Parameters = "0.10.0-0.12"
+Rotations = "0.8.0-0.13"
+StaticArrays = "0.8.0-0.12"
+
+["0.4-0.9"]
+AssetRegistry = "0.1"
 
 ["0.6"]
-JSExpr = "0.5.0 - 0.5"
+JSExpr = "0.5"
 WebIO = "0.7"
 
 ["0.7"]
-MsgPack = "0.0.0 - 1"
+MsgPack = "0.0.0-1"
 WebIO = ["0.4.2-0.5", "0.7"]
 
 ["0.7-0"]
@@ -108,17 +110,16 @@ Mux = "0.7"
 GeometryTypes = "0.6-0.7"
 
 ["0.7-0.8"]
-BinDeps = "0.0.0 - 1"
-Colors = "0.0.0 - 0.11"
-CoordinateTransformations = "0.0.0 - 0.5"
-DocStringExtensions = "0.0.0 - 0.8"
-Parameters = "0.0.0 - 0.12"
-Requires = "0.0.0 - 1"
-Rotations = "0.0.0 - 0.13"
-StaticArrays = "0.0.0 - 0.12"
+BinDeps = "0.0.0-1"
+Colors = "0.0.0-0.11"
+CoordinateTransformations = "0.0.0-0.5"
+DocStringExtensions = "0.0.0-0.8"
+Parameters = "0.0.0-0.12"
+Requires = "0.0.0-1"
+Rotations = "0.0.0-0.13"
+StaticArrays = "0.0.0-0.12"
 
 ["0.7-0.9"]
-AssetRegistry = "0.1"
 JSExpr = ["0.3", "0.5"]
 
 ["0.8-0"]

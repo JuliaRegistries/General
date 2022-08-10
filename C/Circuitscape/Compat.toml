@@ -1,14 +1,16 @@
-["5-5.5"]
-AlgebraicMultigrid = "0.2.1 - 0.3"
-IterativeSolvers = "0.7.1 - 0.8"
-
-["5-5.5.2"]
-LightGraphs = "1"
+["5-5.10.0"]
 SimpleWeightedGraphs = "1"
-julia = "1"
+
+["5-5.5"]
+AlgebraicMultigrid = "0.2.1-0.3"
+IterativeSolvers = "0.7.1-0.8"
 
 ["5-5.5.4"]
-GZip = "0.5.0 - 0.5"
+GZip = "0.5"
+julia = "1"
+
+["5-5.8"]
+LightGraphs = "1"
 
 ["5.10-5"]
 julia = "1.6.0-1"
@@ -21,25 +23,14 @@ AlgebraicMultigrid = "0.5"
 ArchGDAL = "0.8"
 Pardiso = "0.5.4-0.5"
 
-["5.5.3-5.5"]
-LightGraphs = "1.0.0 - 1"
-SimpleWeightedGraphs = "1.0.0 - 1"
-
-["5.5.3-5.5.4"]
-julia = "1.0.0-1"
+["5.5.5-5"]
+GZip = "0.5.1-0.5"
 
 ["5.5.5-5.5"]
-GZip = "0.5.1 - 0.5"
 julia = "1.0.0-*"
 
 ["5.6"]
 julia = "1.4.0-1"
-
-["5.6-5"]
-GZip = "0.5.1-0.5"
-
-["5.6-5.10.0"]
-SimpleWeightedGraphs = "1"
 
 ["5.6-5.7"]
 AlgebraicMultigrid = "0.3"
@@ -48,14 +39,11 @@ IterativeSolvers = "0.8"
 ["5.6-5.7.0"]
 ArchGDAL = "0.4"
 
-["5.6-5.8"]
-LightGraphs = "1"
-
 ["5.7-5.8.1"]
 julia = "1.5.0-1"
 
 ["5.7.1-5.7"]
-ArchGDAL = "0.0.0 - 0.5"
+ArchGDAL = "0.0.0-0.5"
 
 ["5.8-5.10"]
 AlgebraicMultigrid = "0.4"

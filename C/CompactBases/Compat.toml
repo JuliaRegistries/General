@@ -1,7 +1,6 @@
 [0]
 FastGaussQuadrature = "0.4"
 Formatting = "0.4"
-IntervalSets = "0.5.1-0.5"
 OffsetArrays = "1.1.0-1"
 RecipesBase = "1"
 
@@ -14,12 +13,12 @@ LazyArrays = "0.16"
 QuasiArrays = "0.2"
 julia = "1.4.0-1"
 
+["0-0.3.7"]
+IntervalSets = "0.5.1-0.5"
+
 ["0.2"]
 ContinuumArrays = "0.6.4-0.6"
 QuasiArrays = "0.4.9-0.4"
-
-["0.2-0"]
-BandedMatrices = "0.16"
 
 ["0.2-0.3.1"]
 FillArrays = "0.11"
@@ -32,6 +31,9 @@ LazyArrays = "0.20-0.21"
 
 ["0.2-0.3.5"]
 julia = "1.5.0-1"
+
+["0.2-0.3.7"]
+BandedMatrices = "0.16"
 
 ["0.3.0"]
 ContinuumArrays = "0.6.4-0.7"
@@ -60,7 +62,14 @@ LazyArrays = "0.20-0.22"
 ["0.3.6-0"]
 BlockBandedMatrices = "0.11"
 ContinuumArrays = "0.10"
-FillArrays = "0.12"
 LazyArrays = "0.22"
 QuasiArrays = "0.9"
 julia = "1.6.0-1"
+
+["0.3.6-0.3.7"]
+FillArrays = "0.12"
+
+["0.3.8-0"]
+BandedMatrices = "0.16-0.17"
+FillArrays = "0.12-0.13"
+IntervalSets = "0.5.1-0.7"
