@@ -26,9 +26,6 @@ MacroTools = "0.0.0-0.5"
 ["0.10"]
 AbstractMCMC = "0.5.2-0.5"
 
-["0.10-0"]
-DocStringExtensions = "0.8"
-
 ["0.10-0.11"]
 Bijectors = "0.6.4-0.6"
 DistributionsAD = "0.4.8-0.4"
@@ -38,6 +35,9 @@ DynamicPPL = "0.5"
 Distributions = "0.22-0.23"
 EllipticalSliceSampling = "0.2"
 ProgressLogging = "0.1"
+
+["0.10-0.21.9"]
+DocStringExtensions = "0.8"
 
 ["0.10.1-0.13"]
 MCMCChains = "3.0.7-3"
@@ -234,11 +234,17 @@ AdvancedPS = "0.3.4-0.3"
 
 ["0.21-0"]
 AbstractMCMC = "4"
-DynamicPPL = "0.19.1-0.19"
 Libtask = "0.6.7-0.7"
 
 ["0.21-0.21.2"]
 EllipticalSliceSampling = "0.5"
+
+["0.21-0.21.9"]
+DynamicPPL = "0.19.1-0.19"
+
+["0.21.10-0"]
+DocStringExtensions = "0.8-0.9"
+DynamicPPL = "0.20"
 
 ["0.21.2-0"]
 StatsFuns = ["0.8-0.9", "1"]
