@@ -1,22 +1,23 @@
 ["0-0.7"]
-DataFrames = "0.0.0 - 0.18"
-DataStreams = "0.3.0 - 0.4"
-Missings = "0.0.0 - 0.4"
+DataFrames = "0.0.0-0.18"
+DataStreams = "0.3.0-0.4"
+Missings = "0.0.0-0.4"
 
 ["0-0.8.1"]
-CategoricalArrays = "0.2.0 - 0.5"
-DecFP = "0.3.0 - 0.4"
+CategoricalArrays = "0.2.0-0.5"
+DecFP = "0.3.0-0.4"
 WeakRefStrings = "0.4.1-0.5"
 julia = ["0.7", "1"]
 
 ["0.8-0.8.1"]
-DataFrames = "0.14.0 - 0.18"
+DataFrames = "0.14.0-0.18"
 
 ["0.8-0.8.5"]
-Tables = "0.0.0 - 0.2"
+Tables = "0.0.0-0.2"
 
 ["0.8.2-0"]
 DecFP = "0.4"
+julia = "1"
 
 ["0.8.2-0.8"]
 WeakRefStrings = "0.5-0.6"
@@ -26,9 +27,6 @@ DataFrames = "0.17-0.18"
 
 ["0.8.2-0.8.5"]
 CategoricalArrays = "0.4-0.5"
-
-["0.8.2-1"]
-julia = "1"
 
 ["0.8.4-0.8.5"]
 DataFrames = "0.17-0.19"
@@ -60,5 +58,12 @@ unixODBC_jll = "2.3.0-2"
 ["1-1.0.2"]
 DecFP = "0.4.10-0.4"
 
+["1.0"]
+julia = "1"
+
 ["1.0.3-1"]
 DecFP = ["0.4.10-0.4", "1"]
+
+["1.1-1"]
+Scratch = "1"
+julia = "1.6.0-1"

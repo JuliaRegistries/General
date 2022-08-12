@@ -1,21 +1,24 @@
 [0]
+DelimitedFiles = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0-1.1"]
-Arpack = "0.0.0 - 0.4"
-DataStructures = "0.7.0 - 0.18"
+Arpack = "0.0.0-0.4"
+DataStructures = "0.7.0-0.18"
 
 ["0.3.1-1.1"]
-RandomV06 = "0.0.0 - 0.0.2"
+RandomV06 = "0.0.0-0.0.2"
 
 ["1.0"]
+DelimitedFiles = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["1.0.1-1.0"]
 PyPlot = "2.6-2"
 
 ["1.1"]
-Plots = "0.0.0 - 1"
+DelimitedFiles = ["0.7.0", "1"]
+Plots = "0.0.0-1"
 julia = ["0.7.0", "1"]
 
 ["1.2"]
@@ -23,6 +26,7 @@ Arpack = "0.4"
 
 ["1.2-1"]
 DataStructures = "0.7-0.18"
+DelimitedFiles = "1.4.0-1"
 Plots = "1.6.0-1"
 RandomV06 = "0.0.2"
 julia = "1.4.0-1"

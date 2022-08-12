@@ -1,17 +1,18 @@
 ["0-0.9"]
 Compat = "0-2"
-DataStructures = "0.8.0 - 0.18"
+DataStructures = "0.8.0-0.18"
 julia = "0.6-1"
 
 ["0.10"]
 OrderedCollections = "0-1"
 julia = ["0.7", "1"]
 
+["0.11-0"]
+julia = "1"
+
 ["0.11-0.12.0"]
-OrderedCollections = "0.1.0 - 1"
-julia = "1.0.0-1"
+OrderedCollections = "0.1.0-1"
 
 ["0.12.1-0"]
 OrderedCollections = "1"
 UnPack = ["0.1", "1"]
-julia = "1"

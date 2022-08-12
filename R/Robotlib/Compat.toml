@@ -1,32 +1,30 @@
 ["0-0.3"]
-DataFrames = "0.0.0 - 0.19"
-Quaternions = "0.0.0 - 0.4"
-RecipesBase = "0.0.0 - 0.7"
-StaticArrays = "0.0.0 - 0.12"
-StatsBase = "0.0.0 - 0.32"
 julia = ["0.7", "1"]
 
-["0.3.2-0.3"]
-TotalLeastSquares = "0.0.0 - 0.1"
-
-["0.4"]
+["0-0.4"]
 DataFrames = "0.0.0-0.19"
-MAT = "0.0.0-0.6"
 RecipesBase = "0.0.0-0.7"
 StatsBase = "0.0.0-0.32"
+
+["0-1.1.13"]
+Quaternions = "0.0.0-0.4"
+
+["0-1.1.2"]
+StaticArrays = "0.0.0-0.12"
+
+["0.3.2-0.3"]
+TotalLeastSquares = "0.0.0-0.1"
+
+["0.4"]
+MAT = "0.0.0-0.6"
 julia = "1"
 
 ["0.4-1"]
 Requires = "1"
 TotalLeastSquares = "1"
 
-["0.4-1.1.13"]
-Quaternions = "0.0.0-0.4"
-
-["0.4-1.1.2"]
-StaticArrays = "0.0.0-0.12"
-
 ["0.5-1"]
+DelimitedFiles = "1.5.0-1"
 RecipesBase = ["0.0.0-0.7", "1"]
 StatsBase = "0.0.0-0.33"
 julia = "1.5.0-1"

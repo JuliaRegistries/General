@@ -1,25 +1,22 @@
 ["0-0.7"]
-DataStreams = "0.3.0 - 0.4"
-LegacyStrings = "0.0.0 - 0.4"
-Missings = "0.0.0 - 0.4"
+DataStreams = "0.3.0-0.4"
+LegacyStrings = "0.0.0-0.4"
+Missings = "0.0.0-0.4"
 WeakRefStrings = "0.4-0.5"
 julia = ["0.7", "1"]
 
 ["0-0.8"]
-BinaryProvider = "0.0.0 - 0.5"
-DataFrames = "0.11.0 - 0.20"
+BinaryProvider = "0.0.0-0.5"
+DataFrames = "0.11.0-0.20"
 
 ["0.7-0.8"]
-Tables = "0.0.0 - 0.2"
+Tables = "0.0.0-0.2"
 
 ["0.8"]
-WeakRefStrings = "0.4.0 - 0.6"
+WeakRefStrings = "0.4.0-0.6"
 
-["0.8-0.8.1"]
+["0.8-1.1"]
 julia = "1"
-
-["0.8.2-0.8"]
-julia = "1.0.0-1"
 
 ["0.9-0"]
 DataFrames = "0.18-0.20"
@@ -30,7 +27,6 @@ BinaryProvider = "0.5"
 
 ["0.9-1.1"]
 WeakRefStrings = "0.4-0.6"
-julia = "1"
 
 [1]
 SQLite_jll = "3"

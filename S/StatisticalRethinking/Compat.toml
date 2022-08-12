@@ -1,83 +1,86 @@
 ["0-0.4"]
-StatPlots = "0.0.0 - 0.9"
+StatPlots = "0.0.0-0.9"
 
 ["0-0.5"]
-Turing = "0.0.0 - 0.14"
+Turing = "0.0.0-0.14"
 
 ["0-0.8"]
 GLM = "0-1"
 
 ["0-0.9.0"]
-CSV = "0.0.0 - 0.5"
-DataFrames = "0.0.0 - 0.19"
-Distributions = "0.0.0 - 0.21"
-GR = "0.0.0 - 0.42"
-Optim = "0.0.0 - 0.19"
-Plots = "0.0.0 - 0.27"
-RDatasets = "0.0.0 - 0.6"
-Reexport = "0.0.0 - 0.2"
-StatsBase = "0.0.0 - 0.32"
+CSV = "0.0.0-0.5"
+DataFrames = "0.0.0-0.19"
+Distributions = "0.0.0-0.21"
+GR = "0.0.0-0.42"
+Optim = "0.0.0-0.19"
+Plots = "0.0.0-0.27"
+RDatasets = "0.0.0-0.6"
+Reexport = "0.0.0-0.2"
+StatsBase = "0.0.0-0.32"
+
+[0-1]
+DelimitedFiles = "1"
 
 [0-4]
 julia = "1"
 
 ["0.2-0.3"]
 Gadfly = "0-1"
-JLD = "0.0.0 - 0.10"
+JLD = "0.0.0-0.10"
 
 ["0.2-0.5"]
-Mamba = "0.0.0 - 0.12"
+Mamba = "0.0.0-0.12"
 
 ["0.2-0.7"]
-StanMCMCChain = "0.0.0 - 0.3"
+StanMCMCChain = "0.0.0-0.3"
 
 ["0.2-0.8"]
 CmdStan = ["1", "4-5"]
 Literate = "0-1"
 
 ["0.2-0.9.0"]
-StatsFuns = "0.0.0 - 0.9"
+StatsFuns = "0.0.0-0.9"
 
 ["0.3-0.7"]
-MCMCChain = "0.0.0 - 0.2"
+MCMCChain = "0.0.0-0.2"
 
 ["0.4-0.9.0"]
-DataStructures = "0.0.0 - 0.17"
+DataStructures = "0.0.0-0.17"
 
 ["0.5"]
 DynamicHMC = "0-1"
-ForwardDiff = "0.0.0 - 0.10"
-LogDensityProblems = "0.0.0 - 0.10"
-MCMCDiagnostics = "0.0.0 - 0.3"
-Parameters = "0.0.0 - 0.12"
-TransformVariables = "0.0.0 - 0.3"
+ForwardDiff = "0.0.0-0.10"
+LogDensityProblems = "0.0.0-0.10"
+MCMCDiagnostics = "0.0.0-0.3"
+Parameters = "0.0.0-0.12"
+TransformVariables = "0.0.0-0.3"
 
 ["0.5-0.9.0"]
-JLD = "0.0.0 - 0.9"
-StatsPlots = "0.0.0 - 0.12"
+JLD = "0.0.0-0.9"
+StatsPlots = "0.0.0-0.12"
 
 ["0.6-0.9.0"]
-Flux = "0.0.0 - 0.11"
+Flux = "0.0.0-0.11"
 
 ["0.8-0.8.4"]
 StanMCMCChains = "5"
 
 ["0.8-0.9.0"]
-MCMCChains = "0.0.0 - 0.3"
+MCMCChains = "0.0.0-0.3"
 
 ["0.8.4-0.9.0"]
-KernelDensity = "0.0.0 - 0.5"
+KernelDensity = "0.0.0-0.5"
 
 ["0.9.0"]
-CmdStan = "0.0.0 - 5"
-Documenter = "0.0.0 - 0.23"
-DynamicHMC = "0.0.0 - 2"
-GLM = "0.0.0 - 1"
-Literate = "0.0.0 - 2"
-LogDensityProblems = "0.0.0 - 0.9"
-MCMCDiagnostics = "0.0.0 - 0.3"
-Parameters = "0.0.0 - 0.12"
-TransformVariables = "0.0.0 - 0.3"
+CmdStan = "0.0.0-5"
+Documenter = "0.0.0-0.23"
+DynamicHMC = "0.0.0-2"
+GLM = "0.0.0-1"
+Literate = "0.0.0-2"
+LogDensityProblems = "0.0.0-0.9"
+MCMCDiagnostics = "0.0.0-0.3"
+Parameters = "0.0.0-0.12"
+TransformVariables = "0.0.0-0.3"
 
 ["0.9.1-0"]
 CmdStan = "5.2.0-5"

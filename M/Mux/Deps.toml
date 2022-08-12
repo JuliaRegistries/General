@@ -1,7 +1,4 @@
 [0]
-AssetRegistry = "bf4720bc-e11a-5d0c-854e-bdca1663c893"
-HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-Hiccup = "9fb69e20-1954-56bb-a84f-559cc56a8ff7"
 WebSockets = "104b5d7c-a370-577a-8038-80a2059c5097"
 
 ["0-0.4"]
@@ -10,10 +7,18 @@ Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 ["0-0.7.4"]
 Lazy = "50d2b5c4-7a5e-59d5-8109-a42b560f39c0"
 
-["0.5-0"]
+[0-1]
+AssetRegistry = "bf4720bc-e11a-5d0c-854e-bdca1663c893"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+Hiccup = "9fb69e20-1954-56bb-a84f-559cc56a8ff7"
+
+["0.5-0.7.0"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.5-1"]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
 
-["0.5-0.7.0"]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+[1]
+MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"

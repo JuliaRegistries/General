@@ -1,62 +1,59 @@
 ["0-0.3.1"]
-Parameters = "0.9.0 - 0.12"
+Parameters = "0.9.0-0.12"
 
 ["0-0.4"]
-HTTP = "0.6.13 - 0.8"
-ReferenceFrameRotations = "0.2.1 - 0.5"
-StaticArrays = "0.8.3 - 0.12"
+HTTP = "0.6.13-0.8"
+ReferenceFrameRotations = "0.2.1-0.5"
+StaticArrays = "0.8.3-0.12"
 
 ["0-0.5"]
-Interpolations = "0.8.0 - 0.12"
+DelimitedFiles = ["0.7", "1"]
+Interpolations = "0.8.0-0.12"
 julia = ["0.7", "1"]
 
 ["0.3.2-0.5"]
-Parameters = "0.10.1 - 0.12"
+Parameters = "0.10.1-0.12"
 
 ["0.5"]
-OptionalData = "0.2.0 - 0.2"
-ReferenceFrameRotations = "0.5.0 - 0.5"
-StaticArrays = "0.9.2 - 0.12"
+OptionalData = "0.2"
+ReferenceFrameRotations = "0.5"
+StaticArrays = "0.9.2-0.12"
 
 ["0.5-0.6.3"]
-PolynomialRoots = "0.2.0 - 0.2"
-RemoteFiles = "0.2.1 - 0.3"
+RemoteFiles = "0.2.1-0.3"
 
-["0.6-0.6.1"]
+["0.5-0.7"]
+PolynomialRoots = "0.2"
+
+["0.6-0"]
 Crayons = "4"
+DelimitedFiles = "1"
 julia = "1"
 
 ["0.6-0.6.3"]
-Interpolations = "0.11.2 - 0.12"
-OptionalData = "0.2.1 - 0.2"
-Parameters = "0.10.3 - 0.12"
-StaticArrays = "0.10.3 - 0.12"
+Interpolations = "0.11.2-0.12"
+OptionalData = "0.2.1-0.2"
+Parameters = "0.10.3-0.12"
+StaticArrays = "0.10.3-0.12"
 
 ["0.6.0"]
 ReferenceFrameRotations = "0.5.1"
 
 ["0.6.1-0.6.3"]
-ReferenceFrameRotations = "0.5.1 - 0.5"
-
-["0.6.2-0.6.3"]
-Crayons = "4.0.0 - 4"
-julia = "1.0.0-1"
+ReferenceFrameRotations = "0.5.1-0.5"
 
 ["0.6.3"]
-PrettyTables = "0.0.0 - 0.7"
+PrettyTables = "0.0.0-0.7"
 
 ["0.6.4"]
 OptionalData = "0.2"
 PrettyTables = "0.7"
 
 ["0.6.4-0"]
-Crayons = "4"
 Parameters = "0.12"
-julia = "1"
 
 ["0.6.4-0.7"]
 Interpolations = "0.12"
-PolynomialRoots = "0.2"
 Reexport = "0.2"
 StaticArrays = "0.12"
 
@@ -67,7 +64,7 @@ ReferenceFrameRotations = "0.5"
 RemoteFiles = "0.3"
 
 ["0.6.5-0.7.2"]
-PrettyTables = "0.0.0 - 0.9"
+PrettyTables = "0.0.0-0.9"
 
 ["0.6.5-0.9.0"]
 OptionalData = "0.3"
