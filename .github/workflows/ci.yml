@@ -9,6 +9,8 @@ on:
   workflow_dispatch:
 env:
     JULIA_PKG_USE_CLI_GIT: true
+permissions:
+  contents: read
 jobs:
   CI:
     runs-on: ${{ matrix.os }}
