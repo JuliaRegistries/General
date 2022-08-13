@@ -51,14 +51,19 @@ StaticArrays = ["0.10-0.12", "1"]
 Parameters = "0.12"
 
 ["2.18-2"]
-SciMLBase = "1.21.0-1"
 julia = "1.6.0-1"
+
+["2.18-2.23"]
+SciMLBase = "1.21.0-1"
 
 ["2.19-2.22"]
 OrdinaryDiffEq = "5.13.0-6"
 
 ["2.2-2.17"]
 julia = "1"
+
+["2.24-2"]
+SciMLBase = "1.48.1-1"
 
 ["2.3-2.5"]
 DiffEqBase = "4.29-5"
