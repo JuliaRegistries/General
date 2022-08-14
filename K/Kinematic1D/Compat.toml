@@ -1,7 +1,6 @@
 [0]
 ClimaCore = "0.10"
 ClimaCorePlots = "0.2"
-CloudMicrophysics = "0.6"
 DiffEqBase = "6.89.6"
 NCDatasets = "0.12"
 OrdinaryDiffEq = "6.13.0-6"
@@ -11,3 +10,9 @@ TerminalLoggers = "0.1"
 Thermodynamics = "0.9"
 UnPack = "1"
 julia = "1.7.0-1"
+
+["0-0.1.0"]
+CloudMicrophysics = "0.6"
+
+["0.1.1-0"]
+CloudMicrophysics = "0.8"
