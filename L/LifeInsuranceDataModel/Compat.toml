@@ -4,7 +4,6 @@ Intervals = "1.6.0-1"
 JSON = "0.21.3-0.21"
 Revise = "3"
 SearchLight = "2"
-SearchLightPostgreSQL = "2"
 TimeZones = "1"
 ToStruct = "0.2"
 julia = "1.6.0-1"
@@ -12,15 +11,26 @@ julia = "1.6.0-1"
 ["0-0.1.1"]
 BitemporalPostgres = "1.0.4-1"
 
+["0-0.2.1"]
+SearchLightPostgreSQL = "2"
+
 ["0.1.2-0.1.6"]
 BitemporalPostgres = "1.0.6-1"
 
-["0.1.7-0"]
+["0.1.7-0.2.1"]
 BitemporalPostgres = "1"
 
 ["0.2-0"]
-Blink = "0.12"
 ColorSchemes = "3"
+Plots = "1"
+
+["0.2-0.2.1"]
+Blink = "0.12"
 GMT = "0.42"
 PlotlyJS = "0.18"
-Plots = "1"
+
+["0.2.2-0"]
+BitemporalPostgres = "1.2.0-1"
+GR = "0.66"
+LibPQ = "1.13.0-1"
+SearchLightPostgreSQL = "2.3.1-2"
