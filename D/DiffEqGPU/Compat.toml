@@ -65,15 +65,20 @@ ChainRulesCore = "1"
 DiffEqBase = "6.81.0-6"
 SciMLBase = "1.26.0-1"
 
+["1.17"]
+ArrayInterfaceGPUArrays = "0.1"
+
 ["1.17-1"]
 Adapt = "3"
-ArrayInterfaceGPUArrays = "0.1"
 CUDAKernels = "0.4"
 DocStringExtensions = "0.8-0.9"
 KernelAbstractions = "0.8"
 LinearSolve = "1.15.0-1"
 SimpleDiffEq = "1"
 StaticArrays = "1"
+
+["1.18-1"]
+ArrayInterfaceGPUArrays = "0.1-0.2"
 
 ["1.3"]
 CUDAdrv = "4-6"
