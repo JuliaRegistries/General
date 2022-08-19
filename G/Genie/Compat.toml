@@ -1,27 +1,27 @@
 ["0-0.15"]
-MiniLogging = "0.0.0 - 0.2"
+MiniLogging = "0.0.0-0.2"
 
 ["0-0.19.0"]
-ArgParse = "0.0.0 - 0.6"
-Gumbo = "0.0.0 - 0.5"
-HTTP = "0.0.0 - 0.8"
-HttpCommon = "0.0.0 - 0.5"
-JSON = "0.0.0 - 0.21"
-MbedTLS = "0.0.0 - 0.7"
-Millboard = "0.0.0 - 0.2"
-Nettle = "0.0.0 - 0.4"
-Nullables = "0.0.0 - 1"
-OrderedCollections = "0.0.0 - 1"
-Reexport = "0.0.0 - 0.2"
-Revise = "0.0.0 - 2"
-URIParser = "0.0.0 - 0.4"
-YAML = "0.0.0 - 0.3"
+ArgParse = "0.0.0-0.6"
+Gumbo = "0.0.0-0.5"
+HTTP = "0.0.0-0.8"
+HttpCommon = "0.0.0-0.5"
+JSON = "0.0.0-0.21"
+MbedTLS = "0.0.0-0.7"
+Millboard = "0.0.0-0.2"
+Nettle = "0.0.0-0.4"
+Nullables = "0.0.0-1"
+OrderedCollections = "0.0.0-1"
+Reexport = "0.0.0-0.2"
+Revise = "0.0.0-2"
+URIParser = "0.0.0-0.4"
+YAML = "0.0.0-0.3"
 
 ["0-0.23"]
 julia = "1"
 
 ["0.19.0"]
-LoggingExtras = "0.0.0 - 0.3"
+LoggingExtras = "0.0.0-0.3"
 
 ["0.19.1-0.19"]
 Nullables = "0.0.8-1"
@@ -158,8 +158,13 @@ JuliaFormatter = "0.20"
 JuliaFormatter = "0.21"
 
 [5]
-HTTP = "0.9"
 LoggingExtras = "0.4"
 Reexport = "1"
 Revise = "3"
 julia = "1.6.0-1"
+
+["5-5.2"]
+HTTP = "0.9"
+
+["5.3-5"]
+HTTP = "1"

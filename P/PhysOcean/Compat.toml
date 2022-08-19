@@ -1,21 +1,24 @@
 ["0-0.4"]
 Compat = "0-2"
+DelimitedFiles = "0.6-1"
 Glob = "1"
 julia = "0.6-1"
 
 ["0-0.5"]
-AbstractTrees = "0.0.0 - 0.2"
-Gumbo = "0.0.0 - 0.5"
-HTTP = "0.0.0 - 0.8"
-Missings = "0.0.0 - 0.4"
-NCDatasets = "0.0.0 - 0.9"
+AbstractTrees = "0.0.0-0.2"
+Gumbo = "0.0.0-0.5"
+HTTP = "0.0.0-0.8"
+Missings = "0.0.0-0.4"
+NCDatasets = "0.0.0-0.9"
 
 ["0.5"]
-Compat = "0.0.0 - 2"
-Glob = "0.0.0 - 1"
+Compat = "0.0.0-2"
+DelimitedFiles = ["0.7.0", "1"]
+Glob = "0.0.0-1"
 julia = ["0.7.0", "1"]
 
 ["0.6-0"]
+DelimitedFiles = "1"
 Glob = "1"
 julia = "1"
 

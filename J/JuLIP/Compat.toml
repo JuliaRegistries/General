@@ -1,38 +1,40 @@
 [0]
-AlgebraicMultigrid = "0.0.0 - 0.3"
-Calculus = "0.0.0 - 0.5"
-CommonSubexpressions = "0.0.0 - 0.3"
-Dierckx = "0.0.0 - 0.4"
-ForwardDiff = "0.0.0 - 0.10"
-JSON = "0.0.0 - 0.21"
-MacroTools = "0.0.0 - 0.5"
-Reexport = "0.0.0 - 0.2"
-StaticArrays = "0.0.0 - 0.12"
+AlgebraicMultigrid = "0.0.0-0.3"
+Calculus = "0.0.0-0.5"
+CommonSubexpressions = "0.0.0-0.3"
+Dierckx = "0.0.0-0.4"
+ForwardDiff = "0.0.0-0.10"
+JSON = "0.0.0-0.21"
+MacroTools = "0.0.0-0.5"
+Reexport = "0.0.0-0.2"
+StaticArrays = "0.0.0-0.12"
 
 ["0-0.6"]
 FunctionWrappers = "0-1"
 LineSearches = "0-7"
-Optim = "0.0.0 - 0.22"
+Optim = "0.0.0-0.22"
 
 ["0-0.7"]
-Parameters = "0.0.0 - 0.12"
+Parameters = "0.0.0-0.12"
 
 ["0-0.7.0"]
+DelimitedFiles = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0-0.7.2"]
-NeighbourLists = "0.3.0 - 0.4"
+NeighbourLists = "0.3.0-0.4"
 
 ["0.7-0"]
-FunctionWrappers = "0.0.0 - 1"
-LineSearches = "0.0.0 - 7"
-Optim = "0.0.0 - 1"
+FunctionWrappers = "0.0.0-1"
+LineSearches = "0.0.0-7"
+Optim = "0.0.0-1"
 
 ["0.7.1-0"]
+DelimitedFiles = "1"
 julia = "1"
 
 ["0.7.3-0.7"]
 NeighbourLists = "0.3-0.4"
 
 ["0.8-0"]
-NeighbourLists = "0.5.0 - 0.5"
+NeighbourLists = "0.5"

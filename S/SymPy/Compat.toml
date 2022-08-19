@@ -4,10 +4,10 @@ PyCall = "1.6-1"
 julia = "0.6-1"
 
 ["0-0.8.0"]
-RecipesBase = "0.2.3 - 0.7"
+RecipesBase = "0.2.3-0.7"
 
 ["0-1.0.7"]
-SpecialFunctions = "0.3.4 - 0.8"
+SpecialFunctions = "0.3.4-0.8"
 
 ["0.8"]
 PyCall = "1.7.1-1"
@@ -16,14 +16,16 @@ PyCall = "1.7.1-1"
 julia = ["0.7", "1"]
 
 ["0.8.1-1.0.7"]
-RecipesBase = "0.5.0 - 0.7"
+RecipesBase = "0.5.0-0.7"
 
 ["0.9-1.0.2"]
 PyCall = "1.90-1"
 
-["1-1.0.2"]
-OffsetArrays = "0.10.0 - 0.11"
+[1]
 julia = "1"
+
+["1-1.0.2"]
+OffsetArrays = "0.10.0-0.11"
 
 ["1.0.10-1.0.15"]
 SpecialFunctions = "0.8-0.9"
@@ -35,8 +37,7 @@ SpecialFunctions = "0.8-0.10"
 RecipesBase = ["0.7", "1"]
 
 ["1.0.3-1.0.7"]
-PyCall = "1.90.0 - 1"
-julia = "1.0.0-1"
+PyCall = "1.90.0-1"
 
 ["1.0.33-1"]
 RecipesBase = ["0.7-0.8", "1"]
@@ -55,7 +56,6 @@ Latexify = "0.15"
 
 ["1.0.8-1"]
 PyCall = "1.91.0-1"
-julia = "1"
 
 ["1.0.8-1.0.18"]
 RecipesBase = "0.7"

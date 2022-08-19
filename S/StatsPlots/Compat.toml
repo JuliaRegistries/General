@@ -1,44 +1,43 @@
 ["0-0.10"]
 IterableTables = "0.5-1"
-Observables = "0.2.2 - 0.2"
-Plots = "0.14.0 - 0.25"
-RecipesBase = "0.5.0 - 0.6"
+Plots = "0.14.0-0.25"
+RecipesBase = "0.5.0-0.6"
 TableTraits = "0-1"
 TableTraitsUtils = "0.1-1"
 julia = ["0.7", "1"]
 
 ["0-0.10.1"]
-Widgets = "0.4.0 - 0.6"
+Widgets = "0.4.0-0.6"
 
 ["0-0.12"]
-Clustering = "0.0.0 - 0.13"
-DataStructures = "0.0.0 - 0.17"
-DataValues = "0.0.0 - 0.4"
-Distributions = "0.0.0 - 0.21"
-KernelDensity = "0.0.0 - 0.5"
-Reexport = "0.0.0 - 0.2"
-StatsBase = "0.0.0 - 0.32"
+Clustering = "0.0.0-0.13"
+DataStructures = "0.0.0-0.17"
+DataValues = "0.0.0-0.4"
+Distributions = "0.0.0-0.21"
+KernelDensity = "0.0.0-0.5"
+Observables = "0.2.2-0.2"
+Reexport = "0.0.0-0.2"
+StatsBase = "0.0.0-0.32"
 
 ["0.10.2-0.10"]
-Widgets = "0.5.0 - 0.6"
+Widgets = "0.5.0-0.6"
 
 ["0.11"]
-Observables = "0.2.2-0.2"
 Plots = "0.25"
 RecipesBase = "0.5-0.6"
 Widgets = "0.5-0.6"
-julia = "1"
 
 ["0.11-0.12"]
-Tables = "0.0.0 - 0.2"
+Tables = "0.0.0-0.2"
+
+["0.11-0.14"]
+julia = "1"
 
 ["0.12"]
-Interpolations = "0.0.0 - 0.12"
-Observables = "0.2.2 - 0.2"
-Plots = "0.25.0 - 0.28"
-RecipesBase = "0.6.0 - 0.7"
-Widgets = "0.5.0 - 0.6"
-julia = "1.0.0-1"
+Interpolations = "0.0.0-0.12"
+Plots = "0.25.0-0.28"
+RecipesBase = "0.6.0-0.7"
+Widgets = "0.5.0-0.6"
 
 ["0.13"]
 Distributions = "0.21"
@@ -50,9 +49,6 @@ Tables = "0.2"
 ["0.13-0"]
 DataValues = "0.4"
 Widgets = "0.5-0.6"
-
-["0.13-0.14"]
-julia = "1"
 
 ["0.13-0.14.10"]
 KernelDensity = "0.5"
