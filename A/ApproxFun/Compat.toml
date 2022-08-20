@@ -217,12 +217,12 @@ FastTransforms = "0.10-0.11"
 ApproxFunBase = "0.3"
 ApproxFunOrthogonalPolynomials = "0.3"
 
-["0.12.4-0"]
-ApproxFunFourier = "0.2"
-
 ["0.12.4-0.12"]
 FastTransforms = "0.10-0.12"
 SpecialFunctions = ["0.10", "1.1.0-1"]
+
+["0.12.4-0.13.7"]
+ApproxFunFourier = "0.2"
 
 ["0.12.5"]
 ApproxFunBase = "0.3-0.4"
@@ -240,8 +240,6 @@ ApproxFunBase = "0.3-0.5"
 
 ["0.13-0"]
 AbstractFFTs = "1"
-ApproxFunOrthogonalPolynomials = "0.4"
-ApproxFunSingularities = "0.2"
 Reexport = "1"
 julia = "1.6.0-1"
 
@@ -250,6 +248,10 @@ FastTransforms = "0.13"
 
 ["0.13-0.13.5"]
 ApproxFunBase = "0.5"
+
+["0.13-0.13.7"]
+ApproxFunOrthogonalPolynomials = "0.4"
+ApproxFunSingularities = "0.2"
 
 ["0.13.0"]
 SpecialFunctions = "1.1.0-1"
@@ -262,3 +264,8 @@ FastTransforms = "0.13-0.14"
 
 ["0.13.6-0"]
 ApproxFunBase = "0.6"
+
+["0.13.8-0"]
+ApproxFunFourier = "0.3"
+ApproxFunOrthogonalPolynomials = "0.5"
+ApproxFunSingularities = "0.3"
