@@ -2,7 +2,6 @@
 BSON = "0.3"
 Cropbox = "0.3"
 DataFrames = "1"
-Interpolations = "0.13"
 TimeZones = "1"
 julia = "1.6.0-1"
 
@@ -11,6 +10,9 @@ DataFramesMeta = "0.6"
 
 ["0-0.1.18"]
 CSV = "0.8"
+
+["0-0.1.23"]
+Interpolations = "0.13"
 
 ["0.1.13-0.1.15"]
 DataFramesMeta = "0.6-0.7"
@@ -33,5 +35,9 @@ DataFramesMeta = "0.8-0.10"
 ["0.1.22-0"]
 CSV = "0.8-0.10"
 
-["0.1.23-0"]
+["0.1.23"]
 DataFramesMeta = "0.8-0.11"
+
+["0.1.24-0"]
+DataFramesMeta = "0.8-0.12"
+Interpolations = "0.13-0.14"
