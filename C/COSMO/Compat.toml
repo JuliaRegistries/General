@@ -42,8 +42,10 @@ IterTools = "1"
 MathOptInterface = "0.9.16-0.9"
 
 ["0.7.8-0"]
-AMD = "0.4"
 DataStructures = "0.17-0.18"
+
+["0.7.8-0.8.5"]
+AMD = "0.4"
 
 ["0.8-0"]
 COSMOAccelerators = "0.1"
@@ -54,7 +56,7 @@ Reexport = "1"
 ["0.8.1-0"]
 Reexport = ["0.2", "1"]
 
-["0.8.2-0"]
+["0.8.2-0.8.5"]
 QDLDL = "0.1.5-0.1"
 
 ["0.8.3"]
@@ -62,3 +64,7 @@ MathOptInterface = "0.10.7-0.10"
 
 ["0.8.4-0"]
 MathOptInterface = ["0.10.7-0.10", "1"]
+
+["0.8.6-0"]
+AMD = "0.4-0.5"
+QDLDL = "0.2"
