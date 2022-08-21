@@ -23,8 +23,10 @@ RDatasets = "0.0.0-0.6"
 ScikitLearnBase = "0.0.0-0.5"
 
 ["0.3.1-0"]
-DelimitedFiles = "1"
 julia = "1"
+
+["0.3.1-0.3.6"]
+DelimitedFiles = "1"
 
 ["0.3.2"]
 Arpack = "0.4"
@@ -37,9 +39,11 @@ SpecialFunctions = "0.10"
 StatsBase = "0.32"
 
 ["0.3.2-0"]
-Compat = "3.6.0-3"
 FileIO = "1.2.0-1"
 ScikitLearnBase = "0.5"
+
+["0.3.2-0.3.6"]
+Compat = "3.6.0-3"
 
 ["0.3.3-0"]
 Clustering = "0.14"
@@ -58,4 +62,10 @@ Arpack = "0.3-0.5"
 Distributions = "0.23-0.25"
 JLD2 = "0.2-0.4"
 PDMats = "0.10-0.11"
+
+["0.3.5-0.3.6"]
 SpecialFunctions = "1"
+
+["0.3.7-0"]
+Compat = "3.6.0-4"
+SpecialFunctions = "1-2"
