@@ -1,13 +1,26 @@
 [0]
-CrystalInfoFramework = "0.4.8-0.4"
 FFTW = "1.4.5-1"
-FilePaths = "0.8.3-0.8"
 OffsetArrays = "1.10.8-1"
-Parameters = "0.12"
 ProgressMeter = "1.7.1-1"
 Requires = "1.3.0-1"
 SpecialFunctions = "2.1.0-2"
-Spglib = "0.5.3-0.5"
 StaticArrays = "1.3.4-1"
 Tullio = "0.3.3-0.3"
+
+["0-0.1"]
+CrystalInfoFramework = "0.4.8-0.4"
+FilePaths = "0.8.3-0.8"
+Parameters = "0.12"
+Spglib = "0.5.3-0.5"
 julia = "1.7.0-1"
+
+["0.2-0"]
+Colors = "0.12.8-0.12"
+CrystalInfoFramework = "0.5"
+FilePathsBase = "0.9.18-0.9"
+Inflate = "0.1.2-0.1"
+JSON = "0.21.3-0.21"
+RowEchelon = "0.2.1-0.2"
+Spglib = "0.6"
+WignerSymbols = "2"
+julia = "1.8.0-1"
