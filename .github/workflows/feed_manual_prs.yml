@@ -1,8 +1,7 @@
 name: Manual PRs feed
 on:
   pull_request_target:
-    types: [ opened, reopened ] # TODO: delete this line
-    # types: [ opened ] # TODO: uncomment this line
+    types: [ opened ]
 permissions:
   contents: read
 jobs:
