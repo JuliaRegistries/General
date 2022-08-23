@@ -58,11 +58,11 @@ DelayEmbeddings = "1.5.1-1"
 StatsBase = ["0.32-0.33", "1"]
 Wavelets = ["0.8-0.9", "1"]
 
+["1.2-1"]
+Interpolations = ["0.12-0.13", "1"]
+
 ["1.2-1.2.2"]
 Distributions = ["0.21", "0.23-0.24", "1"]
-
-["1.2-2"]
-Interpolations = ["0.12-0.13", "1"]
 
 ["1.2.1-1.2"]
 AbstractFFTs = ["0.4.1", "0.5", "1"]
@@ -78,3 +78,9 @@ DelayEmbeddings = "2"
 AbstractFFTs = "1"
 Distances = ["0.10", "1"]
 LombScargle = "1"
+
+["2.0.0"]
+Interpolations = ["0.12-0.13", "1"]
+
+["2.0.1-2"]
+Interpolations = ["0.12-0.14", "1"]

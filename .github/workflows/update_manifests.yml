@@ -8,6 +8,8 @@ on:
   schedule:
     - cron: 0 0 * * 1
   workflow_dispatch:
+permissions:
+  contents: read
 defaults:
   run:
     shell: bash
@@ -23,6 +25,7 @@ jobs:
           - '1.4'
           - '1.5'
           - '1.6'
+          - '1.7'
           - '1'
           - 'nightly'
     steps:

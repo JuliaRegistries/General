@@ -38,7 +38,7 @@ MathOptInterface = "0.9.20-0.9"
 ["0.4.2-0.4"]
 JuMP = "0.21.9-0.21"
 
-["0.5-0"]
+["0.5-0.5.5"]
 AbstractTrees = "0.3"
 LeftChildRightSiblingTrees = "0.1"
 
@@ -61,5 +61,12 @@ MutableArithmetics = "0.3"
 JuMP = "0.22.2-0.22"
 
 ["0.5.3-0"]
-JuMP = ["0.23", "1"]
 MutableArithmetics = "1"
+
+["0.5.3-0.5.5"]
+JuMP = ["0.23", "1"]
+
+["0.5.6-0"]
+AbstractTrees = "0.4"
+JuMP = "1.2.0-1"
+LeftChildRightSiblingTrees = "0.2"

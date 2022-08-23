@@ -3,6 +3,8 @@ name: Send to feeds
 on:
   pull_request:
     types: [ labeled ]
+permissions:
+  contents: read
 jobs:
   update-slack:
     if: ${{ github.event.label.name == 'new package' && github.repository == github.event.pull_request.head.repo.full_name }}
@@ -20,7 +22,7 @@ jobs:
           @info "Endpoint not specified; missing secret? Exiting."
           exit(0)
         end
-    
+
         include(joinpath(ENV["GITHUB_WORKSPACE"], ".ci", "parse_env.jl"))
         text, pr_url = parse_env(ENV)
 

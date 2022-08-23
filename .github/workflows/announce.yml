@@ -5,10 +5,12 @@ on:
   pull_request:
     types:
       - closed
+permissions:
+  contents: read
 jobs:
   announce-twitter:
       # https://stackoverflow.com/a/59588725/12486544
-      if: ${{ github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'new package') }} 
+      if: ${{ github.event.pull_request.merged == true && contains(github.event.pull_request.labels.*.name, 'new package') }}
       runs-on: ubuntu-latest
       steps:
       - uses: julia-actions/setup-julia@ce353a9bc8bd2a581d0533eb1d0ffc6f60563eb0 # v1.7.1
@@ -26,13 +28,13 @@ jobs:
           Pkg.add(name="Twitter", version="0.9")
           using Twitter
           twitterauth(ENV["API_Key"], ENV["API_Key_Secret"], ENV["Access_Token"], ENV["Access_Token_Secret"])
-          
+
           myStatus = string(ENV["PR_NAME"],  " announced #JuliaLang\n\n$text")
           @info "Tweet to be sent: $myStatus"
           @info "Tweet length: $(length(myStatus))"
 
           response = post_status_update(status=myStatus)
-          
+
           @info "Twitter said: $response"
         env:
           SLACK_ENDPOINT: ${{ secrets.JULIALANGSLACKENDPOINT }}
