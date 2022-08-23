@@ -79,7 +79,6 @@ Compose = "0.8-0.9"
 DistributedArrays = "0.6.5-0.7"
 DocumentFunction = "1"
 LoadTensorDecompositions = "1"
-MATLAB = "0.7.3-0.8"
 Measures = "0.3.1-0.4"
 NMFk = "1"
 
@@ -98,6 +97,9 @@ CanDecomp = "1"
 ["1-1.1.4"]
 Ipopt = "0.6-0.7"
 
+["1-1.1.7"]
+MATLAB = "0.7.3-0.8"
+
 ["1.0"]
 DelimitedFiles = "1.5.0-1"
 Interpolations = ["0.12", "0.14"]
@@ -115,13 +117,17 @@ JLD2 = "0.2-0.4"
 
 ["1.0.6-1"]
 Images = "0.22-0.25"
-JLD = "0.10-0.13"
 JLD2 = "0.2-0.5"
 
+["1.0.6-1.1.7"]
+JLD = "0.10-0.13"
+
 ["1.1-1"]
-DelimitedFiles = "1.6.0-1"
 Interpolations = "0.12-0.14"
 julia = "1.6.0-1"
+
+["1.1-1.1.7"]
+DelimitedFiles = "1.6.0-1"
 
 ["1.1.2-1"]
 CanDecomp = "1.1.0-1"
@@ -134,3 +140,6 @@ Ipopt = "0.6-0.9"
 
 ["1.1.7-1"]
 Ipopt = ["0.6-0.9", "1"]
+
+["1.1.8-1"]
+JLD = "0.10-0.14"
