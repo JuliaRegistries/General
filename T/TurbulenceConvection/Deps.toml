@@ -1,17 +1,3 @@
-[0]
-ClimaCore = "d414da3d-4745-48bb-8d80-42e94e092884"
-CloudMicrophysics = "6a9e3e04-43cd-43ba-94b9-e8782df3c71b"
-Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
-FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
-LambertW = "984bce1d-4616-540c-a9ee-88d1112d94c9"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
-Thermodynamics = "b60c26fb-14c3-4610-9d3e-2d17fe7ff00c"
-UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
-
 ["0-0.11"]
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
 ArtifactWrappers = "a14bc488-3040-4b00-9dc1-f6467924858a"
@@ -33,10 +19,24 @@ CLIMAParameters = "6eacf6c3-8458-43b9-ae03-caf5306d3d53"
 ["0-0.9"]
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 
-["0.10-0"]
+[0-1]
+ClimaCore = "d414da3d-4745-48bb-8d80-42e94e092884"
+CloudMicrophysics = "6a9e3e04-43cd-43ba-94b9-e8782df3c71b"
+Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
+LambertW = "984bce1d-4616-540c-a9ee-88d1112d94c9"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+Thermodynamics = "b60c26fb-14c3-4610-9d3e-2d17fe7ff00c"
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0.10-1"]
 StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
 
-["0.12-0"]
+["0.12-1"]
 OperatorFlux = "47cfafe2-3833-4da3-8183-ce14c2b92cbd"
 
 ["0.2-0.10"]
@@ -47,10 +47,10 @@ DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 RootSolvers = "7181ea78-2dcb-4de3-ab41-2b8ab5a31e74"
 
-["0.30-0"]
+["0.30-1"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["0.33-0"]
+["0.33-1"]
 SurfaceFluxes = "49b00bb7-8bd4-4f2b-b78c-51cd0450215f"
 
 ["0.4-0.11"]
@@ -60,5 +60,8 @@ TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
 ["0.7-0.11"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
-["0.8-0"]
+["0.8-1"]
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+
+[1]
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
