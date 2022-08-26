@@ -139,12 +139,14 @@ Meshes = "0.21-0.22"
 
 ["0.25.4-0"]
 MLJModelInterface = "1"
-Optim = "1"
-RecipesBase = "1"
 StaticArrays = "1"
 TableTransforms = "1"
 
-["0.25.5-0"]
+["0.25.4-0.27"]
+Optim = "1"
+RecipesBase = "1"
+
+["0.25.5-0.27"]
 LossFunctions = "0.6-0.8"
 
 ["0.25.6-0.26.0"]
@@ -154,14 +156,21 @@ DensityRatioEstimation = "0.5-0.6"
 Meshes = "0.22"
 
 ["0.26.1-0"]
-DensityRatioEstimation = "0.6"
 Distributions = "0.25"
+
+["0.26.1-0.27"]
+DensityRatioEstimation = "0.6"
 
 ["0.26.2-0.26"]
 Meshes = "0.22-0.23"
 
 ["0.27-0"]
 Meshes = "0.24"
+
+["0.28-0"]
+DensityRatioEstimation = "1"
+LossFunctions = "0.8"
+Optim = "1.7.0-1"
 
 ["0.3-0.4"]
 Parameters = "0.7.3-0.10"
@@ -197,7 +206,7 @@ Tables = "0.2"
 ["0.6.0"]
 MLJBase = "0.5"
 
-["0.6.1-0"]
+["0.6.1-0.27"]
 Parameters = "0.12"
 
 ["0.6.1-0.7"]
