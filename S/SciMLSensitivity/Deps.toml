@@ -7,7 +7,6 @@ ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
 DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
-DiffEqOperators = "9fdde737-9c7f-55bf-ade8-46b3f136cc48"
 DiffRules = "b552c78f-8df3-52c6-915a-8e097449b14b"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 EllipsisNotation = "da5c29d0-fa7d-589e-88eb-ea29b0a81949"
@@ -32,6 +31,9 @@ StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
 Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
+
+["7-7.6.2"]
+DiffEqOperators = "9fdde737-9c7f-55bf-ade8-46b3f136cc48"
 
 ["7.2-7"]
 PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
