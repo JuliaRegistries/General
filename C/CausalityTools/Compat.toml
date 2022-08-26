@@ -148,12 +148,9 @@ ChaosTools = "2"
 DelayEmbeddings = "2"
 Distances = "0.10"
 Distributions = "0.24-0.25"
-DynamicalSystemsBase = "2"
-Entropies = "1"
 HypothesisTests = ["0.8", "0.10", "1"]
 LabelledArrays = "1.6.7-1"
 NearestNeighbors = "0.4"
-Neighborhood = "0.2.3-0.2"
 Requires = "1"
 SimpleDiffEq = "1"
 StaticArrays = "1"
@@ -167,14 +164,26 @@ TransferEntropy = "1.3.2-1"
 ["1-1.2.0"]
 TimeseriesSurrogates = "1.2.0-1"
 
+["1-1.4.0"]
+DynamicalSystemsBase = "2"
+Entropies = "1"
+Neighborhood = "0.2.3-0.2"
+
 ["1.2-1.2.1"]
 TransferEntropy = "1.4.0-1"
 
-["1.2.1-1"]
+["1.2.1-1.4.0"]
 TimeseriesSurrogates = "1.2.0-2"
 
 ["1.2.2-1.3"]
 TransferEntropy = "1.7.0-1"
 
-["1.4-1"]
+["1.4.0"]
 TransferEntropy = "1.8.0-1"
+
+["1.4.1-1"]
+DynamicalSystemsBase = "2.8.0-2"
+Entropies = "1.2.0-1"
+Neighborhood = "0.2.2-0.2"
+TimeseriesSurrogates = "2"
+TransferEntropy = "1.9.0-1"
