@@ -141,6 +141,14 @@ Retrigger Registrator.
 
 Do what you did when you triggered Registrator the first time.
 
+#### I commented `@JuliaRegistrator register` on a pull request in the General registry, but nothing happened.
+
+If you want to retrigger Registrator by using the Registrator comment-bot,
+you need to post the `@JuliaRegistrator register` comment on a commit in
+**your repository** (the repository that contains your package). Do not post
+any comments of the form `@JuliaRegistrator ...` in the `JuliaRegistries/General`
+repository.
+
 #### AutoMerge is blocked by one of my comments, how do I unblock it?
 
 Simply edit `[noblock]` into all your comments. AutoMerge periodically
