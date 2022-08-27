@@ -153,11 +153,13 @@ Zygote = "0.6.34-0.6"
 ChainRulesCore = "1"
 Combinatorics = "1"
 DataFrames = "1"
-HierarchicalUtils = "2"
 MacroTools = "0.5"
 Preferences = "1.2.0-1"
-Setfield = "0.6-0.8"
 julia = "1.6.0-1"
+
+["2.6-2.7"]
+HierarchicalUtils = "2"
+Setfield = "0.6-0.8"
 
 ["2.6-2.7.1"]
 Flux = "0.12.9-0.12"
@@ -167,3 +169,7 @@ Zygote = "0.6.35-0.6"
 
 ["2.7.2-2"]
 Flux = "0.13"
+
+["2.8-2"]
+HierarchicalUtils = "2.1.5-2"
+Setfield = "1"
