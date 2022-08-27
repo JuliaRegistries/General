@@ -141,6 +141,8 @@ Retrigger Registrator.
 
 Do what you did when you triggered Registrator the first time.
 
+For more details, please see the [Registrator.jl README](https://github.com/JuliaRegistries/Registrator.jl/blob/master/README.md).
+
 #### I commented `@JuliaRegistrator register` on a pull request in the General registry, but nothing happened.
 
 If you want to retrigger Registrator by using the Registrator comment-bot,
