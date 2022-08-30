@@ -63,13 +63,15 @@ StaticArrays = ["0.12", "1"]
 ["0.5.1-0.5"]
 DataFrames = ["0.21-0.22", "1"]
 
+["0.6-0"]
+FillArrays = "0.12"
+
 ["0.6-0.9"]
 TableOperations = "1.1.0-1"
 
 ["0.6-1"]
 AxisArrays = "0.4"
 Distributions = "0.25"
-FillArrays = "0.12"
 
 ["0.6.2-0.9.0"]
 ScientificTypes = "2.3.0-2"
@@ -98,5 +100,10 @@ ScientificTypes = "3"
 ["0.9.3-0.9"]
 TableTransforms = "0.1-0.4"
 
-[1]
+["1.0.0"]
+FillArrays = "0.12"
 UnicodePlots = "2.4.0-2"
+
+["1.0.1-1"]
+FillArrays = "0.12-0.13"
+UnicodePlots = "2.4.0-3"
