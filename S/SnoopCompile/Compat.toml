@@ -63,12 +63,14 @@ SnoopCompileCore = "2.1.1-2.1"
 SnoopCompileCore = "2.1.2-2.1"
 
 ["2.2-2"]
-FlameGraphs = "0.2"
 Requires = "1"
 YAML = "0.4"
 
 ["2.2-2.6"]
 Cthulhu = "1.5.0-1"
+
+["2.2-2.9.2"]
+FlameGraphs = "0.2"
 
 ["2.2.0"]
 SnoopCompileCore = "2.2"
@@ -117,3 +119,7 @@ JET = ["0.0", "0.4-0.5"]
 
 ["2.9.2-2"]
 JET = ["0.0", "0.4-0.6"]
+
+["2.9.3-2"]
+AbstractTrees = "0.3-0.4"
+FlameGraphs = ["0.2", "1"]
