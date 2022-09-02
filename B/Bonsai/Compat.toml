@@ -24,15 +24,20 @@ julia = "1.7.0-1"
 AbstractTrees = "0.3"
 CodeInfoTools = "0.3"
 ExprManipulation = "0.1"
-JET = "0.5.16-0.5"
 NamedTupleTools = "0.14"
-NodeJS = "1"
 Parsers = "2.3.0-2"
 PkgVersion = "0.1"
 Term = "0.3"
+
+["0.3-0.3.2"]
+JET = "0.5.16-0.5"
+NodeJS = "1"
 
 ["0.3.0"]
 HTTP = "1"
 
 ["0.3.1-0"]
 HTTP = ["0.9", "1"]
+
+["0.3.3-0"]
+JET = "0.6"
