@@ -2,17 +2,23 @@
 julia = "1.6.0-1"
 
 ["0.1.1-0"]
-OffsetArrays = "1.10.0-1"
 PyCall = "1.92.0-1"
 PyPlot = "2.9.0-2"
 StatsBase = "0.33"
 Unitful = "1.9.0-1"
 
+["0.1.1-0.1.10"]
+OffsetArrays = "1.10.0-1"
+
 ["0.1.1-0.1.7"]
 AxisKeys = "0.1"
 
-["0.1.10-0"]
+["0.1.10"]
 IntervalSets = "0.5.3-0.6"
+
+["0.1.14-0"]
+DirectionalStatistics = "0.1.14-0.1"
+IntervalSets = "0.5.3-0.7"
 
 ["0.1.2-0"]
 DomainSets = "0.5.9-0.5"
