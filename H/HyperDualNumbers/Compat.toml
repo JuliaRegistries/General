@@ -19,10 +19,15 @@ SpecialFunctions = "0.0.0-0.10"
 
 ["4.0.1-4"]
 Calculus = "0.5"
-NaNMath = "0.3"
 
 ["4.0.1-4.0.3"]
 SpecialFunctions = "0.10"
+
+["4.0.1-4.0.9"]
+NaNMath = "0.3"
+
+["4.0.10-4"]
+NaNMath = ["0.3", "1"]
 
 ["4.0.4-4.0.6"]
 SpecialFunctions = ["0.10", "1"]
