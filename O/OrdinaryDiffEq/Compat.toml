@@ -346,8 +346,10 @@ DocStringExtensions = "0.8-0.9"
 SciMLBase = "1.35.1-1"
 
 ["6.15-6"]
-DiffEqBase = "6.81.3-6"
 FastBroadcast = "0.1.9-0.2"
+
+["6.15-6.25"]
+DiffEqBase = "6.81.3-6"
 
 ["6.17-6"]
 ArrayInterfaceGPUArrays = "0.1-0.2"
@@ -366,10 +368,16 @@ SnoopPrecompile = "1"
 
 ["6.22-6"]
 FunctionWrappersWrappers = "0.1"
+
+["6.22-6.25"]
 SciMLBase = "1.50.0-1"
 
 ["6.23-6"]
 SparseDiffTools = "1.26.2-1"
+
+["6.26-6"]
+DiffEqBase = "6.99.0-6"
+SciMLBase = "1.53.0-1"
 
 ["6.3-6.6"]
 ArrayInterface = "2.7.0-4"
