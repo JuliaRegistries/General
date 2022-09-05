@@ -1,8 +1,8 @@
 [1]
+Distributions = "0.25"
 Turing = "0.20"
 
 [1-2]
-Distributions = "0.25"
 GLM = "1.5.0-1"
 LazyArrays = "0.22"
 MixedModels = "4.5.0-4"
@@ -13,8 +13,14 @@ TableOperations = "1.2.0-1"
 Tables = "1.6.0-1"
 julia = "1.6.0-1"
 
+["2.0"]
+Distributions = "0.25"
+
 ["2.0.0"]
 Turing = "0.20"
 
 ["2.0.1-2"]
 Turing = "0.20-0.21"
+
+["2.1-2"]
+Distributions = "0.25.42-0.25"
