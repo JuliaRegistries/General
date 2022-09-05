@@ -3,7 +3,6 @@ DiffEqBase = "6"
 GaussianDistributions = "0.5"
 RecipesBase = "1"
 RecursiveArrayTools = "2"
-Reexport = ["0.2", "1"]
 UnPack = "1"
 
 ["0-0.1.1"]
@@ -21,6 +20,9 @@ julia = "1"
 
 ["0-0.6.2"]
 StaticArrays = ["0.12", "1"]
+
+["0-0.8.3"]
+Reexport = ["0.2", "1"]
 
 ["0.1.2"]
 SciMLBase = "1"
@@ -111,5 +113,9 @@ OrdinaryDiffEq = "6.2-6.21"
 ["0.8.2-0"]
 SnoopPrecompile = "1"
 
-["0.8.3-0"]
+["0.8.3"]
 OrdinaryDiffEq = "6.2-6.23"
+
+["0.8.4-0"]
+OrdinaryDiffEq = "6.2.0-6"
+Reexport = "1"
