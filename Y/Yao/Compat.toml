@@ -4,55 +4,56 @@ IterTools = "0-1"
 julia = "0.6-1"
 
 ["0-0.2"]
-Lazy = "0.0.0 - 0.15"
+Lazy = "0.0.0-0.15"
 
 ["0-0.3"]
-DataStructures = "0.0.0 - 0.18"
-FFTW = "0.0.0 - 0.3"
-MacroTools = "0.0.0 - 0.5"
-StaticArrays = "0.0.0 - 0.12"
-StatsBase = "0.0.0 - 0.33"
+DataStructures = "0.0.0-0.18"
+FFTW = "0.0.0-0.3"
+MacroTools = "0.0.0-0.5"
+StaticArrays = "0.0.0-0.12"
+StatsBase = "0.0.0-0.33"
 
 ["0-0.5"]
-Reexport = "0.0.0 - 0.2"
+Reexport = "0.0.0-0.2"
 
 ["0.2"]
 julia = ["0.7", "1"]
 
 ["0.2-0.3"]
-CacheServers = "0.0.0 - 0.2"
-LuxurySparse = "0.0.0 - 0.6"
+CacheServers = "0.0.0-0.2"
+LuxurySparse = "0.0.0-0.6"
 
 ["0.2.2-0.2"]
 Compat = "0-2"
 IterTools = "0-1"
 
 ["0.2.2-0.3"]
-Expokit = "0.0.0 - 0.2"
+Expokit = "0.0.0-0.2"
 LinearMaps = "0-2"
+
+["0.3"]
+DelimitedFiles = "1"
 
 ["0.3-0"]
 julia = "1"
 
 ["0.4-0.5"]
-BitBasis = "0.0.0 - 0.6"
+BitBasis = "0.0.0-0.6"
 
 ["0.4.0"]
-YaoArrayRegister = "0.0.0 - 0.3"
-YaoBase = "0.0.0 - 0.9"
-YaoBlocks = "0.0.0 - 0.3"
+YaoArrayRegister = "0.0.0-0.3"
+YaoBase = "0.0.0-0.9"
+YaoBlocks = "0.0.0-0.3"
 
 ["0.4.1"]
-YaoArrayRegister = "0.3.5 - 0.3"
-YaoBase = "0.9.1 - 0.9"
-YaoBlocks = "0.3.2 - 0.3"
+YaoBlocks = "0.3.2-0.3"
+
+["0.4.1-0.5.0"]
+YaoArrayRegister = "0.3.5-0.3"
+YaoBase = "0.9.1-0.9"
 
 ["0.4.2-0.4"]
 YaoBlocks = "0.3"
-
-["0.4.2-0.5.0"]
-YaoArrayRegister = "0.3.5-0.3"
-YaoBase = "0.9.1-0.9"
 
 ["0.5.0"]
 YaoBlocks = "0.4"
@@ -101,8 +102,13 @@ YaoSym = "0.5"
 
 ["0.8-0"]
 BitBasis = "0.8"
-LuxurySparse = "0.6"
 YaoAPI = "0.4"
 YaoArrayRegister = "0.9"
 YaoBlocks = "0.13"
 YaoSym = "0.6"
+
+["0.8-0.8.2"]
+LuxurySparse = "0.6"
+
+["0.8.3-0"]
+LuxurySparse = "0.7"

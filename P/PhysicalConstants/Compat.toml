@@ -1,16 +1,24 @@
-["0-0.1"]
-Measurements = "2"
-Unitful = "0.15.0 - 0.18"
+[0]
 julia = "1"
+
+["0-0.1"]
+Unitful = "0.15.0-0.18"
+
+["0-0.2.2"]
+Measurements = "2"
 
 ["0.2.0"]
-Measurements = "2.0.0 - 2"
-Roots = "0.8.0 - 1"
-Unitful = "0.15.0 - 1"
-julia = "1.0.0-1"
+Roots = "0.8.0-1"
+Unitful = "0.15.0-1"
+
+["0.2.1"]
+Roots = ["0.8", "1"]
 
 ["0.2.1-0"]
-Measurements = "2"
-Roots = ["0.8", "1"]
 Unitful = ["0.15-0.18", "1"]
-julia = "1"
+
+["0.2.2-0"]
+Roots = ["0.8", "1-2"]
+
+["0.2.3-0"]
+Measurements = "2.8.0-2"

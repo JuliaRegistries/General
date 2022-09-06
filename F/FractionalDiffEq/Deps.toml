@@ -25,8 +25,10 @@ FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
 ["0.2.1-0"]
-ApproxFun = "28f2ccd6-bb30-5033-b560-165f7b14dc2f"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0.2.1-0.2.8"]
+ApproxFun = "28f2ccd6-bb30-5033-b560-165f7b14dc2f"
 
 ["0.2.2-0"]
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
@@ -38,3 +40,7 @@ ToeplitzMatrices = "c751599d-da0a-543b-9d20-d0a503d91d24"
 
 ["0.2.5-0"]
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
+["0.2.8-0.2.9"]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"

@@ -26,7 +26,6 @@ BoundaryValueDiffEq = "764a87c0-6b3e-53db-9096-fe964310641d"
 DelayDiffEq = "bcd4f6db-9728-5f36-b5f7-82caef46ccdb"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
-DiffEqJump = "c894b116-72e5-5b58-be3c-e6d8d4ac2b12"
 DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
@@ -34,6 +33,9 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SteadyStateDiffEq = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
 StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
 Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
+
+["5-7.1"]
+DiffEqJump = "c894b116-72e5-5b58-be3c-e6d8d4ac2b12"
 
 ["5.1-7"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -44,3 +46,9 @@ ParameterizedFunctions = "65888b18-ceab-5e60-b2b9-181511a3b968"
 
 ["6.21-7"]
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
+
+["7.2-7"]
+JumpProcesses = "ccbc3e58-028d-4f4c-8cd5-9ae44345cda5"
+
+["7.3-7"]
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"

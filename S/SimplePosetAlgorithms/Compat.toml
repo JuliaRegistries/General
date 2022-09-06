@@ -2,19 +2,19 @@
 julia = ["0.7", "1"]
 
 ["0-0.4.0"]
-SimpleGraphAlgorithms = "0.0.0 - 0.4"
-SimpleGraphs = "0.0.0 - 0.6"
-SimplePosets = "0.0.0 - 0.1"
+SimpleGraphAlgorithms = "0.0.0-0.4"
+SimpleGraphs = "0.0.0-0.6"
+SimplePosets = "0.0.0-0.1"
 
 ["0.2-0.4.0"]
-Cbc = "0.0.0 - 0.7"
-JuMP = "0.0.0 - 0.21"
+Cbc = "0.0.0-0.7"
+JuMP = "0.0.0-0.21"
 
 ["0.4-0"]
 julia = "1"
 
 ["0.4.0"]
-ChooseOptimizer = "0.0.0 - 0.1"
+ChooseOptimizer = "0.0.0-0.1"
 
 ["0.4.1"]
 JuMP = "0.18-0.21"
@@ -22,11 +22,13 @@ JuMP = "0.18-0.21"
 ["0.4.1-0"]
 ChooseOptimizer = "0.1"
 SimpleGraphAlgorithms = ["0.0.1", "0.1-0.4"]
-SimpleGraphs = "0.5-0.7"
 SimplePosets = ["0.0.2-0.0.3", "0.1"]
 
 ["0.4.1-0.4.2"]
 Cbc = "0.4-0.7"
+
+["0.4.1-0.4.5"]
+SimpleGraphs = "0.5-0.7"
 
 ["0.4.2-0.4.3"]
 JuMP = "0.18-0.22"
@@ -39,3 +41,6 @@ JuMP = ["0.18-0.22", "1"]
 
 ["0.4.5-0"]
 Cbc = ["0.4-0.10", "1"]
+
+["0.4.6-0"]
+SimpleGraphs = "0.5-0.8"

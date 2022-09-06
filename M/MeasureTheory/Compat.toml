@@ -80,13 +80,15 @@ NamedTupleTools = "0.13-0.14"
 PrettyPrinting = "0.3-0.4"
 SpecialFunctions = "1-2"
 Static = "0.5-0.6"
-StaticArrays = "1.3.0-1"
 TransformVariables = "0.5-0.6"
 
 ["0.14-0.15"]
 Compat = "3.35.0-3"
 FLoops = "0.2"
 LazyArrays = "0.21-0.22"
+
+["0.14-0.16"]
+StaticArrays = "1.3.0-1"
 
 ["0.15"]
 MeasureBase = "0.7"
@@ -96,19 +98,31 @@ IfElse = "0.1"
 julia = "1.6.0-1"
 
 ["0.16-0"]
-Compat = "3.35.0-4"
 StatsBase = "0.32-0.33"
 StatsFuns = ["0.9", "1"]
 
 ["0.16-0.16.2"]
 MeasureBase = "0.9"
 
+["0.16-0.17.1"]
+Compat = "3.35.0-4"
+
 ["0.16.3"]
 MeasureBase = "0.10"
 
 ["0.16.4-0"]
 LazyArrays = "0.22"
+
+["0.16.4-0.16"]
 MeasureBase = "0.12"
+
+["0.17-0"]
+DistributionMeasures = "0.2"
+MeasureBase = "0.13"
+StaticArraysCore = "1"
+
+["0.17.2-0"]
+Compat = "3.42.0-4"
 
 ["0.2.2"]
 FillArrays = "0.8-0.11"
@@ -152,6 +166,8 @@ InfiniteArrays = "0.7-0.10"
 ["0.5-0"]
 Accessors = "0.1"
 ConcreteStructs = "0.2"
+
+["0.5-0.16"]
 NestedTuples = "0.3"
 
 ["0.5-0.6"]

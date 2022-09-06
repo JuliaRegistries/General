@@ -222,10 +222,12 @@ julia = "1.7.0-1"
 ["0.6.1-0"]
 BlockBandedMatrices = "0.11.6-0.11"
 InfiniteLinearAlgebra = "0.6.7-0.6"
-LazyBandedMatrices = "0.7.14-0.7"
 
 ["0.6.1-0.6.2"]
 IntervalSets = "0.5-0.6"
+
+["0.6.1-0.6.3"]
+LazyBandedMatrices = "0.7.14-0.7"
 
 ["0.6.2-0"]
 FastTransforms = "0.13-0.14"
@@ -233,3 +235,6 @@ FastTransforms = "0.13-0.14"
 ["0.6.3-0"]
 IntervalSets = "0.5-0.7"
 LazyArrays = "0.22.11-0.22"
+
+["0.6.4-0"]
+LazyBandedMatrices = "0.7.14-0.8"

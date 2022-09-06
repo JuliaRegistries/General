@@ -23,9 +23,6 @@ AbstractFFTs = "0.5"
 ["0.1.1"]
 GPUArrays = "2-4"
 
-["0.1.2-0"]
-Setfield = "0.5-0.7"
-
 ["0.1.2-0.2.0"]
 GPUCompiler = "0.7"
 
@@ -34,6 +31,9 @@ GPUArrays = "2-5"
 
 ["0.1.2-0.2.8"]
 LLVM = "3"
+
+["0.1.2-0.3"]
+Setfield = "0.5-0.7"
 
 ["0.2.1"]
 GPUCompiler = "0.8"
@@ -87,11 +87,13 @@ GPUCompiler = "0.12"
 ["0.2.9-0.2"]
 LLVM = "4"
 
+["0.3"]
+LLVM_jll = "12-13"
+
 ["0.3-0"]
 ExprTools = "0.1"
 HIP_jll = "4.2.0-4"
 LLVM = "4.6.0-4"
-LLVM_jll = "12-13"
 ROCmDeviceLibs_jll = "4.2.0-4"
 SpecialFunctions = "1-2"
 hsa_rocr_jll = "4.2.0-4"
@@ -101,5 +103,16 @@ rocRAND_jll = "4.2.0-4"
 ["0.3-0.3.4"]
 GPUCompiler = "0.12-0.13"
 
-["0.3.5-0"]
+["0.3.5-0.3"]
 GPUCompiler = "0.14"
+
+["0.4-0"]
+LLD_jll = "12-14"
+LLVM_jll = "12-14"
+Setfield = ["0.5-0.7", "1"]
+
+["0.4.0"]
+GPUCompiler = "0.15.1-0.16"
+
+["0.4.1-0"]
+GPUCompiler = "0.16.2-0.16"

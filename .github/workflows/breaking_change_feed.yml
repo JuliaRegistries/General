@@ -3,6 +3,8 @@ name: Send breaking to Zulip
 on:
   pull_request:
     types: [ labeled ]
+permissions:
+  contents: read
 jobs:
   update-zulip-breaking:
     if: ${{ (github.event.label.name == 'BREAKING' || github.event.label.name == 'zulip test') && github.repository == github.event.pull_request.head.repo.full_name }}
@@ -38,4 +40,3 @@ jobs:
         type: 'stream'
         topic: 'Package breaking updates'
         content: ${{ steps.zulip.outputs.content }}
-        

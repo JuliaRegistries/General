@@ -1,5 +1,5 @@
 ["0-0.1"]
-RecipesBase = "0.0.0 - 0.7"
+RecipesBase = "0.0.0-0.7"
 
 ["0-0.12"]
 julia = "1"
@@ -42,9 +42,16 @@ ArrayInterface = "3.1.0-5"
 IntervalSets = "0.5-0.6"
 
 ["0.20.8-0"]
-ArrayInterface = "3.1.0-6"
 Extents = "0.1"
 IntervalSets = "0.5-0.7"
+
+["0.20.8-0.20"]
+ArrayInterface = "3.1.0-6"
+
+["0.21-0"]
+ArrayInterfaceCore = "0.1"
+IteratorInterfaceExtensions = "1"
+TableTraits = "1"
 
 ["0.6-0.10.7"]
 RecipesBase = "0.7-0.8"

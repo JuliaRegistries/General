@@ -1,16 +1,18 @@
 ["0-0.1.0"]
-Distributions = "0.16.4 - 0.20"
-RecipesBase = "0.6.0 - 0.6"
+Distributions = "0.16.4-0.20"
+
+["0-0.2.0"]
+RecipesBase = "0.6"
 
 ["0.0"]
-GeoStatsBase = "0.3.3 - 0.5"
-GeoStatsDevTools = "0.3.7 - 0.5"
+GeoStatsBase = "0.3.3-0.5"
+GeoStatsDevTools = "0.3.7-0.5"
 julia = "1.1-1"
 
 ["0.1.0"]
-GeoStatsBase = "0.4.2 - 0.5"
-GeoStatsDevTools = "0.4.3 - 0.5"
-ImageFiltering = "0.5.4 - 0.6"
+GeoStatsBase = "0.4.2-0.5"
+GeoStatsDevTools = "0.4.3-0.5"
+ImageFiltering = "0.5.4-0.6"
 julia = "1.1.0-1"
 
 ["0.1.1-0.1"]
@@ -21,7 +23,6 @@ julia = "1"
 
 ["0.1.1-0.2.0"]
 Distributions = "0.20"
-RecipesBase = "0.6"
 
 ["0.1.1-0.4"]
 ImageFiltering = "0.6"
@@ -114,7 +115,7 @@ Meshes = "0.11-0.12"
 ["0.4.4"]
 Meshes = "0.11-0.13"
 
-["0.4.4-0"]
+["0.4.4-0.5.2"]
 Distributions = "0.21-0.25"
 
 ["0.4.5"]
@@ -139,8 +140,28 @@ Meshes = "0.16-0.20"
 ["0.5.1"]
 Meshes = "0.16-0.21"
 
-["0.5.1-0"]
+["0.5.1-0.5.2"]
 GeoStatsBase = "0.21-0.25"
 
-["0.5.2-0"]
+["0.5.2"]
 Meshes = "0.16-0.22"
+
+["0.5.3"]
+Meshes = "0.22"
+
+["0.5.3-0"]
+Distributions = "0.25"
+
+["0.5.3-0.5.4"]
+GeoStatsBase = "0.26"
+
+["0.5.4"]
+Meshes = "0.22-0.23"
+
+["0.5.5"]
+GeoStatsBase = "0.26-0.27"
+Meshes = "0.22-0.24"
+
+["0.5.6-0"]
+GeoStatsBase = "0.28"
+Meshes = "0.24"

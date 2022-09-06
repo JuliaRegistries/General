@@ -1,7 +1,6 @@
 [0]
 CodecBzip2 = "0.7"
 CodecZlib = "0.7"
-CrystalInfoFramework = "0.4.8-0.4"
 FilePaths = "0.8"
 SimpleBufferStream = "1.1.0-1"
 TranscodingStreams = "0.9"
@@ -10,6 +9,9 @@ URIs = "1.3.0-1"
 ["0-0.1"]
 julia = "1.6.0-1"
 
+["0-0.7"]
+CrystalInfoFramework = "0.4.8-0.4"
+
 ["0.0"]
 HDF5 = "0.16"
 
@@ -17,5 +19,24 @@ HDF5 = "0.16"
 CBFlib_small_jll = "0.9.6-0.9"
 HDF5 = "0.15-0.16"
 
-["0.2-0"]
+["0.2-0.5"]
 julia = "1.5.0-1"
+
+["0.6-0"]
+DataFrames = "1.1.0-1"
+H5Zblosc = "0.1"
+H5Zbzip2 = "0.1"
+H5Zlz4 = "0.1"
+H5Zzstd = "0.1"
+julia = "1.6.0-1"
+
+["0.6.1-0"]
+H5Zbitshuffle = "0.1"
+
+["0.7-0"]
+ImageBinarization = "0.2"
+ImageFiltering = "0.7"
+Rotations = "1.3.0-1"
+
+["0.8-0"]
+CrystalInfoFramework = "0.4.8-0.5"

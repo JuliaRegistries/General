@@ -1,5 +1,4 @@
 [0]
-GroebnerBasis = "0.1-0.3"
 IterTools = "1"
 MacroTools = "0.5"
 Primes = "0.5"
@@ -9,6 +8,9 @@ TestSetExtensions = "2"
 AbstractAlgebra = ["0.13", "0.18-0.20"]
 Nemo = ["0.20", "0.24-0.25"]
 Singular = "0.4-0.5"
+
+["0-0.3"]
+GroebnerBasis = "0.1-0.3"
 
 ["0-0.3.1"]
 julia = "1.5.0-1"
@@ -40,7 +42,7 @@ Singular = "0.4-0.8"
 ModelingToolkit = "7"
 Nemo = "0.24-0.27"
 
-["0.3.10-0"]
+["0.3.10-0.4.0"]
 AbstractAlgebra = ["0.13", "0.18-0.26"]
 Nemo = "0.24-0.31"
 
@@ -67,5 +69,16 @@ Nemo = "0.24-0.29"
 AbstractAlgebra = ["0.13", "0.18-0.25"]
 Nemo = "0.24-0.30"
 
-["0.3.9-0"]
+["0.3.9-0.3"]
 Singular = "0.4-0.10"
+
+["0.4-0"]
+Hecke = "0.14"
+
+["0.4.0"]
+Groebner = "0.2.4-0.2"
+
+["0.4.1-0"]
+AbstractAlgebra = ["0.13", "0.18-0.27"]
+Groebner = "0.2"
+Nemo = "0.24-0.32"

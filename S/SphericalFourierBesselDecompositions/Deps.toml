@@ -2,7 +2,6 @@
 ArbNumerics = "7e558dbc-694d-5a72-987c-6f4ebed21442"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
@@ -11,6 +10,9 @@ SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 WignerFamilies = "a8f88a7a-0a89-491c-8ecb-051e99aa9f5e"
 WignerSymbols = "9f57e263-0b3d-5e2e-b1be-24f2bb48858b"
+
+["0-0.3"]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 
 ["0.2-0"]
 Healpix = "9f4e344d-96bc-545a-84a3-ae6b9e1b672b"
@@ -26,3 +28,6 @@ FastTransforms = "057dd010-8810-581a-b7be-e3fc3b93f78c"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 Scanf = "6ef1bc8b-493b-44e1-8d40-549aa65c4b41"
 WignerD = "87c4ff3e-34df-11e9-37a7-516cea4e0402"
+
+["0.4-0"]
+ThreadsX = "ac1d9e8a-700a-412c-b207-f0111f4b6c0d"

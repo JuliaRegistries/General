@@ -1,5 +1,4 @@
 [0]
-NonconvexIpopt = "0.1.2-0.1"
 Parameters = "0.12"
 Pavito = "0.3"
 Reexport = "1"
@@ -12,6 +11,9 @@ JuMP = "0.21"
 MathOptInterface = "0.9"
 NonconvexCore = "0.1.4-0.1"
 
+["0-0.1.3"]
+NonconvexIpopt = "0.1.2-0.1"
+
 ["0.1.1"]
 Cbc = "0.9"
 Ipopt = "0.9"
@@ -21,8 +23,18 @@ MathOptInterface = "0.10"
 ["0.1.1-0"]
 NonconvexCore = "1"
 
-["0.1.2-0"]
-Cbc = ["0.9", "1"]
+["0.1.2"]
 Ipopt = ["0.9", "1"]
 JuMP = "0.22-0.23"
 MathOptInterface = ["0.10", "1"]
+
+["0.1.2-0"]
+Cbc = ["0.9", "1"]
+
+["0.1.3-0"]
+Ipopt = "1"
+JuMP = ["0.23", "1"]
+MathOptInterface = "1"
+
+["0.1.4-0"]
+NonconvexIpopt = "0.4.2-0.4"

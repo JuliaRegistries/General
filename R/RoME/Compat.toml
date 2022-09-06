@@ -1,26 +1,31 @@
 ["0-0.2.0"]
-TransformUtils = "0.2.1 - 0.2"
+TransformUtils = "0.2.1-0.2"
 
 ["0-0.2.1"]
-IncrementalInference = "0.4.2 - 0.4"
+IncrementalInference = "0.4.2-0.4"
 
 ["0-0.2.3"]
-KernelDensityEstimate = "0.4.1 - 0.4"
+KernelDensityEstimate = "0.4.1-0.4"
+
+["0-0.3"]
+CoordinateTransformations = "0.5"
 
 ["0-0.3.1"]
-Graphs = "0.10.1 - 0.10"
+Graphs = "0.10.1-0.10"
 
 ["0-0.3.3"]
-CoordinateTransformations = "0.5.0 - 0.5"
-Distributions = "0.16.4 - 0.18"
-DocStringExtensions = "0.5.0 - 0.7"
+DelimitedFiles = ["0.7-0", "1.0"]
+Distributions = "0.16.4-0.18"
+DocStringExtensions = "0.5.0-0.7"
 FileIO = "1.0.2-1"
-JLD2 = "0.1.2 - 0.1"
-Optim = "0.16.0 - 0.18"
-ProgressMeter = "0.6.0 - 0.9"
-Reexport = "0.2.0 - 0.2"
-Rotations = "0.9.1 - 0.11"
+JLD2 = "0.1.2-0.1"
+Optim = "0.16.0-0.18"
+ProgressMeter = "0.6.0-0.9"
+Rotations = "0.9.1-0.11"
 julia = ["0.7-0", "1.0"]
+
+["0-0.4.2"]
+Reexport = "0.2"
 
 ["0.10"]
 DistributedFactorGraphs = "0.10.2-0.10"
@@ -107,8 +112,10 @@ Distributions = "0.23-0.25"
 
 ["0.16-0"]
 CoordinateTransformations = "0.5-0.6"
-ManifoldsBase = "0.12.6-0.12"
 TransformUtils = "0.2.11-0.2"
+
+["0.16-0.18"]
+ManifoldsBase = "0.12.6-0.12"
 
 ["0.16.0"]
 ApproxManifoldProducts = "0.3.3-0.4"
@@ -120,14 +127,17 @@ Manifolds = "0.6.3-0.6"
 IncrementalInference = "0.25.5-0.25"
 
 ["0.16.1-0"]
-ApproxManifoldProducts = "0.4.15-0.4"
+DelimitedFiles = "1.6.0-1"
 Distributions = "0.24-0.25"
-DocStringExtensions = "0.8"
-Manifolds = "0.6.3-0.7"
 julia = "1.6.0-1"
 
 ["0.16.1-0.16"]
 DistributedFactorGraphs = "0.16.2-0.16"
+
+["0.16.1-0.18"]
+ApproxManifoldProducts = "0.4.15-0.4"
+DocStringExtensions = "0.8"
+Manifolds = "0.6.3-0.7"
 
 ["0.16.2-0.16"]
 IncrementalInference = "0.25.7-0.25"
@@ -139,74 +149,87 @@ IncrementalInference = "0.25.7-0.26"
 ["0.17-0"]
 Rotations = "1.1.0-1"
 
-["0.18-0"]
+["0.18"]
 DistributedFactorGraphs = "0.18"
 
 ["0.18-0.18.2"]
 IncrementalInference = "0.27.1-0.27"
 
-["0.18.3-0"]
+["0.18.3-0.18"]
 IncrementalInference = "0.27.1-0.28"
 
-["0.2.1-0.3.3"]
-TransformUtils = "0.2.2 - 0.2"
+["0.19"]
+ApproxManifoldProducts = "0.5"
+IncrementalInference = "0.29"
+Manifolds = "0.8.9-0.8"
+
+["0.19-0"]
+DistributedFactorGraphs = "0.18.4-0.18"
+DocStringExtensions = "0.8-0.9"
+ManifoldsBase = "0.13"
+
+["0.2.1-0.4.2"]
+TransformUtils = "0.2.2-0.2"
 
 ["0.2.2-0.2.3"]
-IncrementalInference = "0.4.4 - 0.4"
+IncrementalInference = "0.4.4-0.4"
 
 ["0.2.4-0.2"]
 IncrementalInference = "0.4.6-0.4"
 KernelDensityEstimate = "0.4.1-0.4.2"
 
-["0.3-0.3.1"]
-IncrementalInference = "0.5.0 - 0.5"
-KernelDensityEstimate = "0.4.3 - 0.5"
+["0.20-0"]
+ApproxManifoldProducts = "0.6"
+IncrementalInference = "0.30"
+Manifolds = "0.8.11-0.8"
 
-["0.3-0.3.3"]
-ApproxManifoldProducts = "0.0.3 - 0.0.3"
+["0.3"]
+ApproxManifoldProducts = "0.0.3"
+
+["0.3-0.3.1"]
+IncrementalInference = "0.5"
+KernelDensityEstimate = "0.4.3-0.5"
+
+["0.3.2-0.3"]
+Graphs = "0.10.2-0.10"
 
 ["0.3.2-0.3.3"]
-Graphs = "0.10.2 - 0.10"
 IncrementalInference = "0.5.4"
-KernelDensityEstimate = "0.5.0 - 0.5"
+
+["0.3.2-0.4.2"]
+KernelDensityEstimate = "0.5"
 
 ["0.3.4-0.3"]
-ApproxManifoldProducts = "0.0.3"
-CoordinateTransformations = "0.5"
+DelimitedFiles = ["0.7", "1"]
 Distributions = "0.18"
 DocStringExtensions = "0.7"
-FileIO = "1"
-Graphs = "0.10.2-0.10"
 IncrementalInference = "0.5.4-0.6"
 JLD2 = "0.1"
-KernelDensityEstimate = "0.5"
 Optim = ["0.16", "0.18"]
 ProgressMeter = "0.9"
-Reexport = "0.2"
 Rotations = "0.11"
-TransformUtils = "0.2.2-0.2"
 julia = ["0.7", "1"]
 
+["0.3.4-0.4.2"]
+FileIO = "1"
+
 ["0.4-0.4.2"]
-ApproxManifoldProducts = "0.1.0 - 0.1"
-CoordinateTransformations = "0.5.0 - 0.6"
-Distributions = "0.18.0 - 0.23"
-DocStringExtensions = "0.7.0 - 0.8"
-FileIO = "1.0.0 - 1"
-Graphs = "0.10.3 - 0.10"
-JLD2 = "0.1.0 - 0.2"
-KernelDensityEstimate = "0.5.0 - 0.5"
-Optim = "0.16.0 - 0.231"
-ProgressMeter = "0.9.0 - 1"
-Reexport = "0.2.0 - 0.2"
-Rotations = "0.11.0 - 1"
-TransformUtils = "0.2.2 - 0.2"
+ApproxManifoldProducts = "0.1"
+CoordinateTransformations = "0.5.0-0.6"
+Distributions = "0.18.0-0.23"
+DocStringExtensions = "0.7.0-0.8"
+Graphs = "0.10.3-0.10"
+JLD2 = "0.1.0-0.2"
+Optim = "0.16.0-0.231"
+ProgressMeter = "0.9.0-1"
+Rotations = "0.11.0-1"
 
 ["0.4-0.6"]
+DelimitedFiles = "1"
 julia = "1"
 
 ["0.4.0"]
-DistributedFactorGraphs = "0.1.0 - 0.3"
+DistributedFactorGraphs = "0.1.0-0.3"
 IncrementalInference = "0.7.2-0.7"
 
 ["0.4.1"]
@@ -276,6 +299,7 @@ DistributedFactorGraphs = ["0.6.2-0.6", "0.7.1-0.7"]
 IncrementalInference = "0.10.3-0.11"
 
 ["0.7"]
+DelimitedFiles = "1.2.0-1"
 DistributedFactorGraphs = "0.7.1-0.8"
 julia = "1.2.0-1"
 
@@ -313,6 +337,7 @@ IncrementalInference = "0.14.1-0.14"
 ApproxManifoldProducts = "0.1.4-0.1"
 
 ["0.8-0.16.0"]
+DelimitedFiles = "1.4.0-1"
 julia = "1.4.0-1"
 
 ["0.9"]

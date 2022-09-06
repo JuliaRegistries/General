@@ -2,23 +2,23 @@
 julia = ["0.7", "1"]
 
 ["3-4.1"]
-DataStructures = "0.4.6 - 0.17"
+DataStructures = "0.4.6-0.17"
 DiffEqBase = "0.14-5"
-SimpleTraits = "0.1.1 - 0.9"
-SymEngine = "0.2.0 - 0.7"
+SimpleTraits = "0.1.1-0.9"
+SymEngine = "0.2.0-0.7"
 
 ["3.11-4"]
 julia = "1"
 
 ["4.2-4"]
-DataStructures = "0.0.0 - 0.17"
-DiffEqBase = "0.0.0 - 6"
+DataStructures = "0.0.0-0.17"
+DiffEqBase = "0.0.0-6"
 
 ["4.2.0"]
-SymEngine = "0.0.0 - 0.7"
+SymEngine = "0.0.0-0.7"
 
 ["4.2.1-4"]
-SymEngine = "0.0.0 - 0.8"
+SymEngine = "0.0.0-0.8"
 
 [5]
 DiffEqBase = "6.5.0-6"
@@ -36,8 +36,10 @@ DataStructures = "0.17"
 Latexify = "0.11-0.13"
 
 ["5.10-5"]
-DocStringExtensions = "0.8"
 Latexify = "0.14-0.15"
+
+["5.10-5.13"]
+DocStringExtensions = "0.8"
 
 ["5.11"]
 ModelingToolkit = "4-6"
@@ -51,6 +53,9 @@ ModelingToolkit = "7"
 ["5.13-5"]
 ModelingToolkit = "7-8"
 julia = "1.6.0-1"
+
+["5.14-5"]
+DocStringExtensions = "0.8-0.9"
 
 ["5.2"]
 ModelingToolkit = "1.3.0-2"

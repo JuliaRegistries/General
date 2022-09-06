@@ -17,8 +17,27 @@ BioStructures = "0.10-0.11"
 ["0-0.8"]
 ProgressMeter = "1"
 
-["0.10.3-0"]
+["0.10.3-0.10"]
 Zygote = "0.6.37-0.6"
+
+["0.11-0"]
+DataStructures = "0.18"
+
+["0.11-0.12.0"]
+UnitfulChainRules = "0.1"
+Zygote = "0.6.37-0.6.40"
+
+["0.12-0"]
+FLoops = "0.2"
+
+["0.12.1-0.12"]
+UnitfulChainRules = "0.1.1"
+Zygote = "0.6.42"
+
+["0.13-0"]
+CellListMap = "0.7.21-0.7"
+UnitfulChainRules = "0.1.2"
+Zygote = "0.6.42-0.6.43"
 
 ["0.2-0"]
 KernelDensity = "0.5-0.6"
@@ -67,7 +86,6 @@ NNlib = "0.7"
 
 ["0.6-0"]
 BioStructures = "1"
-CellListMap = "0.7"
 ChainRulesCore = "1"
 ForwardDiff = "0.10"
 Reexport = "1"
@@ -76,6 +94,9 @@ julia = "1.7.0-1"
 
 ["0.6-0.10.2"]
 Zygote = "0.6.30-0.6"
+
+["0.6-0.12"]
+CellListMap = "0.7"
 
 ["0.7-0"]
 AtomsBase = "0.2"

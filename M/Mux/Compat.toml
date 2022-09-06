@@ -2,37 +2,43 @@
 Compat = "0.7.9-2"
 
 ["0-0.5.0"]
-HTTP = "0.0.0 - 0.8"
+HTTP = "0.0.0-0.8"
 WebSockets = "0-1"
 
 ["0-0.7.0"]
-AssetRegistry = "0.0.0 - 0.1"
-Hiccup = "0.0.0 - 0.2"
-Lazy = "0.0.0 - 0.14"
+AssetRegistry = "0.0.0-0.1"
+Hiccup = "0.0.0-0.2"
+Lazy = "0.0.0-0.14"
 julia = ["0.7", "1"]
 
 ["0.5.1-0.6"]
-HTTP = "0.6.14 - 0.8"
+HTTP = "0.6.14-0.8"
 WebSockets = "1"
 
+["0.7-0.7.4"]
+HTTP = "0.8"
+
 ["0.7.0"]
-HTTP = "0.8.0 - 0.8"
 WebSockets = "1.5.1-1"
 
 ["0.7.1-0"]
-AssetRegistry = "0.1"
-Hiccup = "0.2"
 WebSockets = "1"
 julia = "1"
 
 ["0.7.1-0.7.2"]
 Lazy = "0.14"
 
-["0.7.1-0.7.4"]
-HTTP = "0.8"
+["0.7.1-1"]
+AssetRegistry = "0.1"
+Hiccup = "0.2"
 
 ["0.7.3-0.7.4"]
 Lazy = "0.14-0.15"
 
 ["0.7.5-0"]
 HTTP = "0.8-0.9"
+
+[1]
+HTTP = "1"
+MbedTLS = "1"
+julia = "1.6.0-1"

@@ -1,23 +1,24 @@
 ["0-0.0.1"]
 CUDAnative = "1.0.1-1"
-CuArrays = "0.9.1 - 0.9"
+CuArrays = "0.9.1-0.9"
 
 ["0-0.0.2"]
-BytePairEncoding = "0.1.1 - 0.1"
-Flux = "0.7.1 - 0.10"
-JSON = "0.20.0 - 0.21"
-LightXML = "0.8.0 - 0.8"
-NPZ = "0.3.0 - 0.4"
+BytePairEncoding = "0.1.1-0.1"
+Flux = "0.7.1-0.10"
+JSON = "0.20.0-0.21"
+LightXML = "0.8"
+NPZ = "0.3.0-0.4"
 
 ["0-0.0.6"]
-ArgParse = "0.0.0 - 0.6"
+ArgParse = "0.0.0-0.6"
 
 ["0-0.1.1"]
-DataDeps = "0.0.0 - 0.7"
-InternedStrings = "0.0.0 - 0.7"
-WordTokenizers = "0.0.0 - 0.5"
+DataDeps = "0.0.0-0.7"
+InternedStrings = "0.0.0-0.7"
+WordTokenizers = "0.0.0-0.5"
 
 ["0-0.1.3"]
+DelimitedFiles = "1"
 julia = "1"
 
 ["0.0.2"]
@@ -25,45 +26,45 @@ CUDAnative = ["1.0.1-1", "2.0"]
 CuArrays = "0.9.1-1"
 
 ["0.0.2-0.1.0"]
-HTTP = "0.0.0 - 0.8"
+HTTP = "0.0.0-0.8"
 
 ["0.0.3"]
 CUDAnative = ["0-1", "2.0"]
 CuArrays = "0-1"
 
 ["0.0.3-0.0.8"]
-Flux = "0.0.0 - 0.10"
+Flux = "0.0.0-0.10"
 
 ["0.0.3-0.1.0"]
-NPZ = "0.0.0 - 0.4"
+NPZ = "0.0.0-0.4"
 
 ["0.0.3-0.1.1"]
-BytePairEncoding = "0.0.0 - 0.1"
-JSON = "0.0.0 - 0.21"
-LightXML = "0.0.0 - 0.8"
+BytePairEncoding = "0.0.0-0.1"
+JSON = "0.0.0-0.21"
+LightXML = "0.0.0-0.8"
 
 ["0.0.6"]
-Adapt = "0.0.0 - 0.4"
+Adapt = "0.0.0-0.4"
 
 ["0.0.6-0.1.1"]
-Requires = "0.0.0 - 0.5"
+Requires = "0.0.0-0.5"
 
 ["0.0.7-0.1.1"]
-Adapt = "0.0.0 - 1"
-ArgParse = "0.0.0 - 1"
+Adapt = "0.0.0-1"
+ArgParse = "0.0.0-1"
 
 ["0.0.9-0.1.1"]
-Flux = "0.7.3 - 0.10"
+Flux = "0.7.3-0.10"
 
 ["0.1.1"]
-BSON = "0.0.0 - 0.2"
-MacroTools = "0.0.0 - 0.5"
-ZipFile = "0.0.0 - 0.8"
+BSON = "0.0.0-0.2"
+MacroTools = "0.0.0-0.5"
+ZipFile = "0.0.0-0.8"
 
 ["0.1.1-0.1.2"]
-HTTP = "0.8.1 - 0.8"
+HTTP = "0.8.1-0.8"
 
-["0.1.11-0"]
+["0.1.11-0.1.20"]
 BytePairEncoding = "0.2"
 
 ["0.1.12-0.1.14"]
@@ -85,7 +86,6 @@ BSON = "0.3.4-0.3"
 DataDeps = "0.7"
 DataStructures = "0.18"
 Fetch = "0.1.3-0.1"
-HTTP = "0.9"
 NNlib = "0.8"
 NNlibCUDA = "0.2"
 Pickle = "0.3"
@@ -94,23 +94,46 @@ PrimitiveOneHot = "0.1"
 ["0.1.15-0.1.16"]
 CUDA = "3.8.0-3"
 
+["0.1.15-0.1.17"]
+HTTP = "0.9"
+
 ["0.1.16"]
 ChainRulesCore = "1.12.0-1"
 
-["0.1.16-0"]
+["0.1.16-0.1.18"]
 TextEncodeBase = "0.5"
+
+["0.1.17"]
+Flux = "0.13"
 
 ["0.1.17-0"]
 CUDA = "3.10.0-3"
 ChainRulesCore = "1.15.0-1"
-Flux = "0.13"
 julia = "1.6.0-1"
 
+["0.1.17-0.1.20"]
+DelimitedFiles = "1.6.0-1"
+
+["0.1.18-0"]
+Flux = "0.13.4-0.13"
+HTTP = ["0.9", "1"]
+
+["0.1.19-0"]
+FuncPipelines = "0.2.1-0.2"
+HuggingFaceApi = "0.1"
+NeuralAttentionlib = "0.1"
+Static = "0.7"
+StructWalk = "0.2"
+ValSplit = "0.1"
+
+["0.1.19-0.1.20"]
+TextEncodeBase = "0.5.4-0.5"
+
 ["0.1.2"]
-CUDAnative = "2.1.0 - 2"
-CuArrays = "1.3.0 - 1"
+CUDAnative = "2.1.0-2"
+CuArrays = "1.3.0-1"
 Flux = "0.10"
-ZygoteRules = "0.0.0 - 0.2"
+ZygoteRules = "0.0.0-0.2"
 
 ["0.1.2-0"]
 InternedStrings = "0.7"
@@ -132,6 +155,10 @@ ZipFile = "0.8"
 
 ["0.1.2-0.1.7"]
 BSON = "0.2"
+
+["0.1.21-0"]
+BytePairEncoding = "0.3"
+TextEncodeBase = "0.5.7-0.5"
 
 ["0.1.3"]
 CUDAnative = "2.7.0-2"
@@ -160,6 +187,7 @@ DataStructures = "0.17"
 ["0.1.4-0.1.7"]
 Adapt = "1-2"
 CUDA = "1"
+DelimitedFiles = "1.3.0-1"
 julia = "1.3.0-1"
 
 ["0.1.4-0.1.8"]
@@ -178,6 +206,7 @@ BSON = "0.3"
 HTTP = "0.8-0.9"
 
 ["0.1.8-0.1.16"]
+DelimitedFiles = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["0.1.9-0"]

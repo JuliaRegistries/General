@@ -1,39 +1,44 @@
 [0]
-DataFrames = "0.0.0 - 0.19"
-DocStringExtensions = "0.0.0 - 0.8"
-MCMCChains = "0.0.0 - 0.3"
-NamedTupleTools = "0.0.0 - 0.12"
-Parameters = "0.0.0 - 0.12"
-Reexport = "0.0.0 - 0.2"
-StanBase = "0.0.0 - 1"
-StanDump = "0.0.0 - 0.2"
-StanRun = "0.0.0 - 0.2"
-StanSamples = "0.0.0 - 0.1"
+DataFrames = "0.0.0-0.19"
+DocStringExtensions = "0.0.0-0.8"
+MCMCChains = "0.0.0-0.3"
+NamedTupleTools = "0.0.0-0.12"
+Parameters = "0.0.0-0.12"
+Reexport = "0.0.0-0.2"
+StanBase = "0.0.0-1"
+StanDump = "0.0.0-0.2"
+StanRun = "0.0.0-0.2"
+StanSamples = "0.0.0-0.1"
 
 ["0.0"]
+DelimitedFiles = "1"
 julia = "1"
 
 ["0.1-0"]
-CSV = "0.0.0 - 0.5"
+CSV = "0.0.0-0.5"
+DelimitedFiles = "1.3.0-1"
 julia = "1.3.0-1"
 
 [1-6]
 julia = "1"
 
+["1-6.9.3"]
+DelimitedFiles = "1"
+
 ["1.0"]
 StanBase = "1"
 
 ["1.0.0"]
-CSV = "0.0.0 - 0.5"
-DataFrames = "0.0.0 - 0.19"
-DocStringExtensions = "0.0.0 - 0.8"
-MCMCChains = "0.0.0 - 0.3"
-NamedTupleTools = "0.0.0 - 0.12"
-Parameters = "0.0.0 - 0.12"
-Reexport = "0.0.0 - 0.2"
-StanDump = "0.0.0 - 0.2"
-StanRun = "0.0.0 - 0.2"
-StanSamples = "0.0.0 - 0.1"
+CSV = "0.0.0-0.5"
+DataFrames = "0.0.0-0.19"
+DocStringExtensions = "0.0.0-0.8"
+MCMCChains = "0.0.0-0.3"
+NamedTupleTools = "0.0.0-0.12"
+Parameters = "0.0.0-0.12"
+Reexport = "0.0.0-0.2"
+StanDump = "0.0.0-0.2"
+StanRun = "0.0.0-0.2"
+StanSamples = "0.0.0-0.1"
 
 ["1.0.1"]
 MCMCChains = "0.3"
@@ -279,4 +284,12 @@ StatsFuns = "1"
 
 ["6.7-6"]
 CompatHelperLocal = "0.1"
+
+["6.7-6.9.0"]
+StanBase = "4.7.0-4"
+
+["6.9.1"]
+StanBase = "4.7.1-4"
+
+["6.9.2-6"]
 StanBase = "4.7.0-4"

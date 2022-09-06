@@ -1,6 +1,5 @@
 [0]
 HCubature = "1.3.0-1"
-Interpolations = "0.12-0.13"
 QuadGK = "2.4.0-2"
 StaticArrays = ["0.11-0.12", "1"]
 StatsBase = "0.30-0.33"
@@ -17,6 +16,9 @@ julia = "1.4.0-1"
 ["0-0.6.4"]
 Distributions = "0.22-0.24"
 
+["0-0.7.0"]
+Interpolations = "0.12-0.13"
+
 ["0.6.11-0"]
 SpecialFunctions = ["0.8-0.10", "1-2"]
 
@@ -31,3 +33,6 @@ TensorOperations = "3"
 
 ["0.7-0"]
 DocStringExtensions = "0.7-0.9"
+
+["0.7.1-0"]
+Interpolations = "0.12-0.14"

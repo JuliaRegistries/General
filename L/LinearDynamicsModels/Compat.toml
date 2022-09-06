@@ -1,14 +1,13 @@
 [1]
-ForwardDiff = "0.8.0 - 0.10"
-MacroTools = "0.4.2 - 0.5"
-StaticArrays = "0.8.2 - 0.12"
+DifferentialDynamicsModels = "1"
+ForwardDiff = "0.8.0-0.10"
+MacroTools = "0.4.2-0.5"
+StaticArrays = "0.8.2-0.12"
 
 ["1.0.0"]
-DifferentialDynamicsModels = "1"
-Requires = "0.5.2 - 0.5"
+Requires = "0.5.2-0.5"
 julia = ["0.7", "1"]
 
 ["1.0.1-1"]
-DifferentialDynamicsModels = "1.0.0 - 1"
-Requires = "0.5.2 - 1"
+Requires = "0.5.2-1"
 julia = ["0.7.0", "1"]

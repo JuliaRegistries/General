@@ -12,7 +12,6 @@ Distributions = "0.23-0.24"
 AbstractAlgebra = "0.13"
 
 [0-4]
-DiffRules = ["0.1", "1"]
 IfElse = "0.1"
 MacroTools = "0.5"
 Reexport = ["0.2", "1"]
@@ -28,6 +27,9 @@ NaNMath = "0.3"
 
 ["0-4.6.0"]
 DocStringExtensions = "0.7-0.8"
+
+["0-4.8"]
+DiffRules = ["0.1", "1"]
 
 ["0.1.11-0.1.20"]
 AbstractAlgebra = "0.13-0.15"
@@ -140,3 +142,6 @@ ArrayInterfaceCore = "0.1.1-0.1"
 ["4.6.1-4"]
 DocStringExtensions = "0.7-0.9"
 Setfield = ["0.7-0.8", "1"]
+
+["4.9-4"]
+DiffRules = "1.4.0-1"

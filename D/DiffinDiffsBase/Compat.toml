@@ -1,5 +1,4 @@
 [0]
-CSV = "0.8"
 Reexport = ["0.2", "1"]
 StatsModels = "0.6.18-0.6"
 Tables = "1.2.0-1"
@@ -12,6 +11,9 @@ SplitApplyCombine = "1.1.0-1"
 Combinatorics = "1"
 MacroTools = "0.5"
 
+["0-0.4.0"]
+CSV = "0.8"
+
 ["0.2-0"]
 StatsBase = "0.33"
 
@@ -22,6 +24,8 @@ Missings = "0.4"
 CodecZlib = "0.7"
 DataAPI = "1.6.0-1"
 PooledArrays = "1.2.0-1"
+
+["0.3-0.4.0"]
 StatsFuns = "0.9"
 
 ["0.3.2-0"]
@@ -33,3 +37,8 @@ StructArrays = "0.5-0.6"
 
 ["0.4-0"]
 StatsProcedures = "0.1"
+
+["0.4.1-0"]
+CSV = "0.8-0.10"
+StatsAPI = "1.2.0-1"
+StatsFuns = ["0.9", "1"]

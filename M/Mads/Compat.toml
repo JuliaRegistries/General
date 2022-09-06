@@ -1,157 +1,163 @@
 [0]
-AffineInvariantMCMC = "0.0.0 - 0.6"
-BlackBoxOptim = "0.0.0 - 0.5"
-DataStructures = "0.0.0 - 0.18"
-Distributions = "0.0.0 - 0.23"
-DocumentFunction = "0.0.0 - 0.6"
-JLD2 = "0.0.0 - 0.2"
-JSON = "0.0.0 - 0.21"
-Kriging = "0.0.0 - 0.6"
-Measures = "0.0.0 - 0.3"
-MetaProgTools = "0.0.0 - 0.6"
-NMF = "0.0.0 - 0.4"
-ProgressMeter = "0.0.0 - 0.9"
-RobustPmap = "0.0.0 - 0.6"
-YAML = "0.0.0 - 0.4"
+AffineInvariantMCMC = "0.0.0-0.6"
+BlackBoxOptim = "0.0.0-0.5"
+DataStructures = "0.0.0-0.18"
+Distributions = "0.0.0-0.23"
+DocumentFunction = "0.0.0-0.6"
+JLD2 = "0.0.0-0.2"
+JSON = "0.0.0-0.21"
+Kriging = "0.0.0-0.6"
+Measures = "0.0.0-0.3"
+MetaProgTools = "0.0.0-0.6"
+NMF = "0.0.0-0.4"
+ProgressMeter = "0.0.0-0.9"
+RobustPmap = "0.0.0-0.6"
+YAML = "0.0.0-0.4"
 
 ["0-0.5"]
-GeostatInversion = "0.0.0 - 0.4"
+DelimitedFiles = "0.6-1"
+GeostatInversion = "0.0.0-0.4"
 julia = "0.6-1"
 
 ["0-0.6"]
-JuMP = "0.17.0 - 0.20"
-MathProgBase = "0.6.4 - 0.7"
+JuMP = "0.17.0-0.20"
+MathProgBase = "0.6.4-0.7"
 
 ["0-0.7"]
-QuartzImageIO = "0.0.0 - 0.7"
+QuartzImageIO = "0.0.0-0.7"
 
 ["0-0.7.0"]
-Anasol = "0.3.1 - 0.6"
+Anasol = "0.3.1-0.6"
 Compat = "0.13-2"
-Compose = "0.5.2 - 0.9"
+Compose = "0.5.2-0.9"
 Conda = "0.4-1"
-Documenter = "0.8.10 - 0.25"
+Documenter = "0.8.10-0.25"
 FileIO = "0-1"
 Gadfly = "0.6.5-1"
 Images = "0-0.17"
-LsqFit = "0.3.0 - 0.11"
+LsqFit = "0.3.0-0.11"
 OrdinaryDiffEq = "0-5"
 PyCall = "1.8-1"
 PyPlot = "2.2-2"
-ReusableFunctions = "0.2.6 - 0.7"
-SVR = "0.2.3 - 0.8"
-StatsBase = "0.15.0 - 0.33"
+ReusableFunctions = "0.2.6-0.7"
+SVR = "0.2.3-0.8"
+StatsBase = "0.15.0-0.33"
 
 ["0-0.7.2"]
-DataFrames = "0.0.0 - 0.20"
+DataFrames = "0.0.0-0.20"
 
 ["0.10-0"]
+DelimitedFiles = "1.4.0-1"
 julia = "1.4.0-1"
 
 ["0.10.1-0"]
-JuMP = "0.0.0 - 0.21"
+JuMP = "0.0.0-0.21"
 
 ["0.10.4-0"]
 DataFrames = "0.20"
 
 ["0.6"]
-Ipopt = "0.0.0 - 0.6"
+DelimitedFiles = ["0.7", "1"]
+Ipopt = "0.0.0-0.6"
 julia = ["0.7", "1"]
 
 ["0.6-0"]
-Colors = "0.0.0 - 0.12"
-Optim = "0.0.0 - 0.22"
-Suppressor = "0.0.0 - 0.2"
+Colors = "0.0.0-0.12"
+Optim = "0.0.0-0.22"
+Suppressor = "0.0.0-0.2"
 
 ["0.6-0.7"]
-Fontconfig = "0.0.0 - 0.4"
+Fontconfig = "0.0.0-0.4"
 
 ["0.6-0.7.0"]
 Cairo = "0-0.5"
 OrderedCollections = "0-1"
 
 ["0.6.3-0"]
-DocumenterMarkdown = "0.0.0 - 0.2"
+DocumenterMarkdown = "0.0.0-0.2"
 
-["0.7-0.7.1"]
+["0.7-0.7.4"]
 julia = "1"
 
 ["0.7.0"]
-Ipopt = "0.5.0 - 0.6"
-JuMP = "0.19.0 - 0.20"
-MathProgBase = "0.7.0 - 0.7"
+DelimitedFiles = "1"
+Ipopt = "0.5.0-0.6"
+JuMP = "0.19.0-0.20"
+MathProgBase = "0.7"
 
 ["0.7.1"]
-Anasol = "0.0.0 - 0.6"
-Compat = "0.0.0 - 3"
-Compose = "0.0.0 - 0.9"
-Conda = "0.0.0 - 1"
-Documenter = "0.0.0 - 0.25"
-Gadfly = "0.0.0 - 1"
-Ipopt = "0.0.0 - 0.6"
-JuMP = "0.0.0 - 0.20"
-LsqFit = "0.0.0 - 0.11"
-MathProgBase = "0.0.0 - 0.7"
-PyCall = "0.0.0 - 1"
-PyPlot = "0.0.0 - 2"
-ReusableFunctions = "0.0.0 - 0.7"
-SVR = "0.0.0 - 0.8"
-StatsBase = "0.0.0 - 0.33"
+Anasol = "0.0.0-0.6"
+Compat = "0.0.0-3"
+Compose = "0.0.0-0.9"
+Conda = "0.0.0-1"
+Documenter = "0.0.0-0.25"
+Gadfly = "0.0.0-1"
+Ipopt = "0.0.0-0.6"
+JuMP = "0.0.0-0.20"
+LsqFit = "0.0.0-0.11"
+MathProgBase = "0.0.0-0.7"
+PyCall = "0.0.0-1"
+PyPlot = "0.0.0-2"
+ReusableFunctions = "0.0.0-0.7"
+SVR = "0.0.0-0.8"
+StatsBase = "0.0.0-0.33"
 
 ["0.7.1-0"]
-Images = "0.0.0 - 0.22"
+Images = "0.0.0-0.22"
 
 ["0.7.1-0.7"]
-Cairo = "0.0.0 - 1"
-FileIO = "0.0.0 - 1"
-OrderedCollections = "0.0.0 - 1"
-OrdinaryDiffEq = "0.0.0 - 5"
+Cairo = "0.0.0-1"
+FileIO = "0.0.0-1"
+OrderedCollections = "0.0.0-1"
+OrdinaryDiffEq = "0.0.0-5"
 
 ["0.7.2-0.7"]
-Anasol = "0.3.1 - 0.6"
-Compat = "0.13.0 - 3"
-Compose = "0.5.2 - 0.9"
-Conda = "0.4.0 - 1"
-Documenter = "0.8.10 - 0.25"
-Gadfly = "0.6.5 - 1"
-Ipopt = "0.5.0 - 0.6"
-JuMP = "0.19.0 - 0.20"
-LsqFit = "0.3.0 - 0.11"
-MathProgBase = "0.7.0 - 0.7"
-PyCall = "1.8.0 - 1"
-PyPlot = "2.2.0 - 2"
-ReusableFunctions = "0.2.6 - 0.7"
-SVR = "0.2.3 - 0.8"
-StatsBase = "0.15.0 - 0.33"
+Anasol = "0.3.1-0.6"
+Compat = "0.13.0-3"
+Compose = "0.5.2-0.9"
+Conda = "0.4.0-1"
+Documenter = "0.8.10-0.25"
+Gadfly = "0.6.5-1"
+Ipopt = "0.5.0-0.6"
+JuMP = "0.19.0-0.20"
+LsqFit = "0.3.0-0.11"
+MathProgBase = "0.7"
+PyCall = "1.8.0-1"
+PyPlot = "2.2.0-2"
+ReusableFunctions = "0.2.6-0.7"
+SVR = "0.2.3-0.8"
+StatsBase = "0.15.0-0.33"
 
 ["0.7.2-0.7.4"]
-julia = "1.0.0-1"
+DelimitedFiles = "1"
 
 ["0.7.3-0.7"]
-DataFrames = "0.19.1 - 0.20"
+DataFrames = "0.19.1-0.20"
 
 ["0.7.5-0.7"]
+DelimitedFiles = "1.2.0-1"
 julia = "1.2.0-1"
 
 ["0.8"]
+DelimitedFiles = "1"
 julia = "1"
 
 ["0.8-0"]
-Anasol = "0.0.0 - 0.6"
-Compose = "0.0.0 - 0.9"
-Documenter = "0.0.0 - 0.25"
-Ipopt = "0.0.0 - 0.6"
-LsqFit = "0.0.0 - 0.11"
-MathProgBase = "0.0.0 - 0.7"
-ReusableFunctions = "0.0.0 - 0.7"
-SVR = "0.0.0 - 0.8"
-StatsBase = "0.0.0 - 0.33"
+Anasol = "0.0.0-0.6"
+Compose = "0.0.0-0.9"
+Documenter = "0.0.0-0.25"
+Ipopt = "0.0.0-0.6"
+LsqFit = "0.0.0-0.11"
+MathProgBase = "0.0.0-0.7"
+ReusableFunctions = "0.0.0-0.7"
+SVR = "0.0.0-0.8"
+StatsBase = "0.0.0-0.33"
 
 ["0.8-0.10.3"]
-DataFrames = "0.0.0 - 0.20"
+DataFrames = "0.0.0-0.20"
 
 ["0.8-0.9.5"]
-JuMP = "0.0.0 - 0.20"
+JuMP = "0.0.0-0.20"
 
 ["0.8-1"]
 Conda = "1"
@@ -167,6 +173,7 @@ OrderedCollections = "1"
 OrdinaryDiffEq = "5"
 
 ["0.9"]
+DelimitedFiles = "1.3.0-1"
 julia = "1.3.0-1"
 
 ["0.9.6-0.10.0"]
@@ -200,6 +207,7 @@ JLD2 = "0.2-0.3"
 ["1-1.1"]
 BlackBoxOptim = "0.5-0.6"
 DataFrames = "0.21-0.22"
+DelimitedFiles = "1.5.0-1"
 Optim = "0.22-0.23"
 julia = "1.5.0-1"
 
@@ -234,6 +242,7 @@ OrderedCollections = "1.3.3-1"
 Images = "0.22-0.25"
 
 ["1.2"]
+DelimitedFiles = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["1.2-1"]
@@ -265,6 +274,9 @@ IJulia = "1"
 
 ["1.3-1"]
 julia = "1.7.0-1"
+
+["1.3-1.3.4"]
+DelimitedFiles = "1.7.0-1"
 
 ["1.3.1-1"]
 Cairo = "1"

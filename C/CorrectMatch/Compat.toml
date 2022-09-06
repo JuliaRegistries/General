@@ -1,11 +1,22 @@
 [1]
+Discreet = "0.3"
+julia = "1"
+
+["1.0"]
 BinDeps = "0.8"
 Compat = "2.2.0-2"
-Discreet = "0.3"
 Distributions = "0.21"
 Optim = "0.19"
 PDMats = "0.9"
 Roots = "0.8"
 StatsBase = "0.32"
 StatsFuns = "0.8"
-julia = "1"
+
+["1.1-1"]
+Compat = "2-3"
+Distributions = "0.23"
+Optim = "0.19-0.22"
+PDMats = "0.10-0.11"
+Roots = ["0.8-0.9", "1"]
+StatsBase = "0.32-0.33"
+StatsFuns = ["0.8-0.9", "1"]

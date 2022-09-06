@@ -1,5 +1,4 @@
 [0]
-CLIMAParameters = "6eacf6c3-8458-43b9-ae03-caf5306d3d53"
 ClimaCore = "d414da3d-4745-48bb-8d80-42e94e092884"
 ClimaCorePlots = "cf7c7e5a-b407-4c48-9047-11a94a308626"
 ClimaCoreVTK = "c8b6d40d-e815-466f-95ae-c48aefa668fa"
@@ -15,3 +14,22 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Thermodynamics = "b60c26fb-14c3-4610-9d3e-2d17fe7ff00c"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0-0.1"]
+CLIMAParameters = "6eacf6c3-8458-43b9-ae03-caf5306d3d53"
+
+["0.2-0"]
+Insolation = "e98cc03f-d57e-4e3c-b70c-8d51efe9e0d8"
+
+["0.3-0"]
+Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+LambertW = "984bce1d-4616-540c-a9ee-88d1112d94c9"
+OperatorFlux = "47cfafe2-3833-4da3-8183-ce14c2b92cbd"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
+SurfaceFluxes = "49b00bb7-8bd4-4f2b-b78c-51cd0450215f"

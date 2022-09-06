@@ -141,6 +141,16 @@ Retrigger Registrator.
 
 Do what you did when you triggered Registrator the first time.
 
+For more details, please see the [Registrator.jl README](https://github.com/JuliaRegistries/Registrator.jl/blob/master/README.md).
+
+#### I commented `@JuliaRegistrator register` on a pull request in the General registry, but nothing happened.
+
+If you want to retrigger Registrator by using the Registrator comment-bot,
+you need to post the `@JuliaRegistrator register` comment on a commit in
+**your repository** (the repository that contains your package). Do not post
+any comments of the form `@JuliaRegistrator ...` in the `JuliaRegistries/General`
+repository.
+
 #### AutoMerge is blocked by one of my comments, how do I unblock it?
 
 Simply edit `[noblock]` into all your comments. AutoMerge periodically
@@ -211,6 +221,17 @@ Report it to the package repository.
 
 You can't. Package registrations are **permanent**. A version can not be overwritten in the
 registry, and code cannot be deleted.
+
+#### Can my package be registered without an [OSI approved license](https://opensource.org/licenses)?
+
+No, sorry. The registry is maintained by volunteers, and we don't have a legal team who can thoroughly review licenses.
+It is very easy to accidentally wander into legally murky territory when combining common OSI licenses[^1] like GPL
+with non-OSI licenses and we don't want to subject Julia users to that risk when installing packages registered in General.
+See [these](https://github.com/JuliaRegistries/General/pull/31549#issuecomment-796671872) [comments]
+(https://github.com/JuliaRegistries/General/pull/31549#issuecomment-804196208) for more discussion. We are not lawyers and this is not legal advice.
+
+[^1]: Note that even within the world of OSI licenses, there are combinations of OSI licenses which are not
+legal to use together, such as GPL2 with Apache2.
 
 ## Registry maintenance
 

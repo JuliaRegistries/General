@@ -11,7 +11,6 @@ JLSO = "2.5.0-2"
 ProgressMeter = "1.5.0-1"
 SnpArrays = "0.3.9-0.3"
 StatsBase = "0.32-0.33"
-StatsPlots = "0.14"
 VCFTools = "0.2.2-0.2"
 VariantCallFormat = "0.5"
 julia = "1.6.0-1"
@@ -21,7 +20,16 @@ CSV = "0.8"
 LazyArrays = "0.21"
 SpecialFunctions = ["0.8-0.10", "1"]
 
-["1.2.2-1"]
+["1-1.2.2"]
+StatsPlots = "0.14"
+
+["1.2.2"]
 CSV = "0.8-0.9"
+
+["1.2.2-1"]
 LazyArrays = "0.21-0.22"
 SpecialFunctions = ["0.8-0.10", "1-2"]
+
+["1.2.3-1"]
+CSV = "0.8-0.10"
+StatsPlots = "0.14-0.15"

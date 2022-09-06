@@ -73,7 +73,6 @@ NeXLMatrixCorrection = "0.2.3-0.2"
 NeXLUncertainties = "0.2.2-0.2"
 
 ["0.2.2-0"]
-Interpolations = "0.13"
 LsqFit = "0.12"
 
 ["0.2.2-0.2.3"]
@@ -86,6 +85,9 @@ Polynomials = "1.1.0-1"
 
 ["0.2.2-0.3.1"]
 Reexport = ["0.2", "1"]
+
+["0.2.2-0.3.2"]
+Interpolations = "0.13"
 
 ["0.2.3"]
 Distributions = "0.23"
@@ -163,8 +165,17 @@ NeXLMatrixCorrection = "0.3.1-0.3"
 NeXLUncertainties = "0.2.8-0.2"
 
 ["0.3.1-0"]
-FourierTools = "0.2-0.3"
 ImageIO = "0.5-0.6"
+
+["0.3.1-0.3.2"]
+FourierTools = "0.2-0.3"
+
+["0.3.2"]
+MultivariateStats = "0.8-0.9"
+NeXLCore = "0.3.2-0.3"
+NeXLMatrixCorrection = "0.3.2-0.3"
+NeXLUncertainties = "0.2.9-0.2"
+Polynomials = "2"
 
 ["0.3.2-0"]
 CSV = "0.9-0.10"
@@ -176,12 +187,17 @@ FileIO = "1.10.0-1"
 HDF5 = "0.15-0.16"
 Images = "0.25"
 LoopVectorization = "0.12"
-MultivariateStats = "0.8-0.9"
-NeXLCore = "0.3.2-0.3"
-NeXLMatrixCorrection = "0.3.2-0.3"
-NeXLUncertainties = "0.2.9-0.2"
-Polynomials = "2"
 Reexport = "1"
 ThreadsX = "0.1.8-0.1"
 TimeZones = "1.6.0-1"
 Unitful = "1.9.0-1"
+
+["0.3.3-0"]
+CubicSplines = "0.2"
+FourierTools = "0.3.3-0.3"
+Interpolations = "0.13-0.14"
+NeXLCore = "0.3.5-0.3"
+NeXLMatrixCorrection = "0.3.3-0.3"
+NeXLUncertainties = "0.2.10-0.2"
+Polynomials = "3"
+Procrastinate = "0.1"

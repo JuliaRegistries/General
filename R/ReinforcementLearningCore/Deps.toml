@@ -1,6 +1,5 @@
 [0]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 ReinforcementLearningBase = "e575027e-6cd6-5018-9292-cdc6200d2b44"
@@ -11,20 +10,21 @@ CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
+["0-0.8"]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+
 ["0.2.1-0"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
-GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
-Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0.2.1-0.3"]
 CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
 CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 
-["0.3-0"]
-Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
-Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+["0.2.1-0.8"]
+GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0.3-0.5"]
 BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
@@ -35,22 +35,30 @@ JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 ["0.3-0.7"]
 ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
 
-["0.3.2-0"]
+["0.3-0.8"]
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+
+["0.3.2-0.8"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.4-0"]
-AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
-["0.4.3-0"]
+["0.4-0.8"]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+
+["0.4.3-0.8"]
 ElasticArrays = "fdbdab4c-e67f-52f5-8c3f-e7b388dad3d4"
 
 ["0.6-0"]
 CircularArrayBuffers = "9de3a189-e0c0-4e15-ba3b-b14b9fb0aec1"
-Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
 
-["0.7.4-0"]
+["0.6-0.8"]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
+["0.7.4-0.8"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
 ["0.8-0"]
@@ -59,5 +67,11 @@ UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 ["0.8.1-0"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.8.2-0"]
+["0.8.2-0.8"]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
+
+["0.9-0"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+Parsers = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+ReinforcementLearningTrajectories = "6486599b-a3cd-4e92-a99a-2cea90cc8c3c"

@@ -4,19 +4,16 @@ AssetRegistry = "0.1"
 Blink = "0.12"
 CUDA = "3"
 Distributions = "0.25"
-FFTW = "1"
 FileIO = "1"
 HDF5 = "0.16"
 Hwloc = "2"
 Images = "0.24-0.25"
 Interact = "0.10"
-Interpolations = "0.13"
 Ipopt = ["0.7", "1"]
 JLD2 = "0.4"
 JuMP = ["0.21", "1"]
 LinearOperators = "2"
 MAT = "0.10"
-MRIReco = "0.5"
 MathOptInterface = ["0.9-0.10", "1"]
 Mux = "0.7"
 PackageCompiler = "1-2"
@@ -26,3 +23,20 @@ ProgressMeter = "1"
 Reexport = "1"
 Scanf = "0.5"
 julia = "1.6.0-1"
+
+["0-0.6.2"]
+Interpolations = "0.13"
+
+["0-0.6.3"]
+FFTW = "1"
+MRIReco = "0.5"
+
+["0.6.3-0"]
+Interpolations = "0.13-0.14"
+Suppressor = "0.2"
+
+["0.6.4-0"]
+MRIReco = "0.4.2-0.4"
+
+["0.6.5-0"]
+FFTW = "1"

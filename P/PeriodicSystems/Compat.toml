@@ -2,8 +2,6 @@
 ApproxFun = "0.13"
 DescriptorSystems = "1"
 FFTW = "1"
-IRKGaussLegendre = "0.1"
-Interpolations = "0.13"
 MatrixEquations = "2.2.0-2"
 MatrixPencils = "1.7.0-1"
 Polynomials = "3"
@@ -14,11 +12,23 @@ julia = "1.7.0-1"
 ["0-0.2"]
 OrdinaryDiffEq = "5-6"
 
+["0-0.3"]
+Interpolations = "0.13"
+
 ["0-0.3.0"]
 SLICOT_jll = "5.7.0-5"
+
+["0-0.4.0"]
+IRKGaussLegendre = "0.1"
 
 ["0.3-0"]
 OrdinaryDiffEq = "5.72.2-6"
 
 ["0.3.1-0"]
 SLICOT_jll = "5.8.0-5"
+
+["0.4-0"]
+Interpolations = "0.13-0.14"
+
+["0.4.1-0"]
+IRKGaussLegendre = "0.2"

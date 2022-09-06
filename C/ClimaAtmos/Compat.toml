@@ -1,14 +1,36 @@
 [0]
-CLIMAParameters = "0.4-0.6"
 ClimaCore = "0.10"
 ClimaCorePlots = "0.2"
 ClimaCoreVTK = "0.6-0.7"
-CloudMicrophysics = "0.5"
 DiffEqCallbacks = "2.22.0-2"
-IntervalSets = "0.5-0.6"
 JLD2 = "0.4"
 OrdinaryDiffEq = "5.64.0-5"
 StaticArrays = "1.4.0-1"
-Thermodynamics = "0.8"
 UnPack = "1"
 julia = "1.7.0-1"
+
+["0-0.1"]
+CLIMAParameters = "0.4-0.6"
+CloudMicrophysics = "0.5"
+Thermodynamics = "0.8"
+
+["0-0.2"]
+IntervalSets = "0.5-0.6"
+
+["0.2-0"]
+CloudMicrophysics = "0.6"
+Insolation = "0.3"
+Thermodynamics = "0.9"
+
+["0.3-0"]
+Dierckx = "0.5"
+Distributions = "0.25"
+DocStringExtensions = "0.8-0.9"
+FastGaussQuadrature = "0.4"
+Flux = "0.12-0.13"
+IntervalSets = "0.5-0.7"
+LambertW = "0.4"
+OperatorFlux = "0.1"
+StatsBase = "0.33"
+StochasticDiffEq = "6.41.0-6"
+SurfaceFluxes = "0.4"

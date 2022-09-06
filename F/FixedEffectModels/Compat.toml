@@ -1,29 +1,29 @@
 ["0-0.10.2"]
-Combinatorics = "0.0.0 - 0.7"
+Combinatorics = "0.0.0-0.7"
 
 ["0-0.7"]
 StatsModels = "0.2.4-0.5"
 
 ["0-0.7.1"]
-DataFrames = "0.11.0 - 0.19"
-Distributions = "0.6.0 - 0.23"
+DataFrames = "0.11.0-0.19"
+Distributions = "0.6.0-0.23"
 julia = ["0.7", "1"]
 
 ["0-0.9"]
-CategoricalArrays = "0.0.0 - 0.8"
-StatsBase = "0.22.0 - 0.32"
+CategoricalArrays = "0.0.0-0.8"
+StatsBase = "0.22.0-0.32"
 
 ["0-1.1"]
-Reexport = "0.0.0 - 0.2"
+Reexport = "0.0.0-0.2"
 
 ["0.10-0"]
-Distributions = "0.0.0 - 0.23"
+Distributions = "0.0.0-0.23"
 
 ["0.10-0.10.2"]
 DataFrames = "0.19"
 
 ["0.10-0.10.3"]
-StatsBase = "0.0.0 - 0.32"
+StatsBase = "0.0.0-0.32"
 
 ["0.10-0.10.8"]
 julia = "1"
@@ -74,7 +74,7 @@ Tables = "1"
 DataFrames = "0.21"
 
 ["0.7.0"]
-FixedEffects = "0.0.0 - 0.1"
+FixedEffects = "0.0.0-0.1"
 
 ["0.7.1"]
 FillArrays = "0-0.5"
@@ -84,46 +84,46 @@ FixedEffects = "0.1.1"
 julia = ["0.7.0", "1"]
 
 ["0.7.2-0.7.3"]
-DataFrames = "0.17.1 - 0.19"
+DataFrames = "0.17.1-0.19"
 
 ["0.7.2-0.8.3"]
-FixedEffects = "0.1.1 - 0.5"
+FixedEffects = "0.1.1-0.5"
 
 ["0.7.2-0.9"]
-Distributions = "0.4.6 - 0.23"
+Distributions = "0.4.6-0.23"
 
 ["0.7.2-1.1"]
-FillArrays = "0.0.0 - 0.9"
+FillArrays = "0.0.0-0.9"
 
 ["0.7.4-0.9"]
-DataFrames = "0.19.1 - 0.19"
+DataFrames = "0.19.1-0.19"
 
 ["0.8"]
-StatsModels = "0.6.0 - 0.6"
+StatsModels = "0.6"
 
 ["0.8-0.9"]
 julia = "1.1.0-1"
 
 ["0.8.4"]
-FixedEffects = "0.2.0 - 0.5"
+FixedEffects = "0.2.0-0.5"
 
 ["0.8.5-0.9"]
-FixedEffects = "0.3.0 - 0.5"
+FixedEffects = "0.3.0-0.5"
 
 ["0.9"]
-StatsModels = "0.6.4 - 0.6"
+StatsModels = "0.6.4-0.6"
 
 ["0.9.1-0.10.4"]
-Tables = "0.0.0 - 0.2"
+Tables = "0.0.0-0.2"
 
 ["1-1.1"]
 FixedEffects = "1"
 
 ["1.0"]
-Distributions = "0.0.0 - 0.23"
+Distributions = "0.0.0-0.23"
 
 ["1.1"]
-Distributions = "0.0.0 - 0.24"
+Distributions = "0.0.0-0.24"
 
 ["1.2"]
 FixedEffects = "1.1.0-1"
@@ -153,8 +153,12 @@ Reexport = ["0.1-0.2", "1"]
 ["1.6.1-1"]
 DataFrames = ["0.21-0.22", "1"]
 
-["1.6.4-1"]
+["1.6.4-1.6"]
 Vcov = "0.5"
 
 ["1.6.6-1"]
 StatsFuns = ["0.9", "1"]
+
+["1.7-1"]
+StatsAPI = "1"
+Vcov = "0.6"

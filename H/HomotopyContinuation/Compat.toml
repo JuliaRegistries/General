@@ -1,20 +1,17 @@
 ["0-0.3"]
-StaticPolynomials = "0.3.0 - 0.3"
+ProgressMeter = "0.6"
+StaticPolynomials = "0.3"
 julia = ["0.7", "1"]
-
-["0-0.3.2"]
-ProgressMeter = "0.6.0 - 0.6"
 
 ["0-0.6"]
 DynamicPolynomials = "0.1"
-MultivariatePolynomials = "0.2.0 - 0.2"
+MultivariatePolynomials = "0.2"
 
-["0-0.7.0"]
-FixedPolynomials = "0.4.0 - 0.4"
-TreeViews = "0.3.0 - 0.3"
+[0-1]
+FixedPolynomials = "0.4"
 
-["0.3.3-0.3"]
-ProgressMeter = "0.6"
+[0-2]
+TreeViews = "0.3"
 
 ["0.4-0"]
 StaticPolynomials = "1"
@@ -29,40 +26,27 @@ ProgressMeter = "0.8"
 julia = "1"
 
 ["0.4.3-0.7.0"]
-StaticArrays = "0.8.0 - 0.10"
+StaticArrays = "0.8.0-0.10"
 
 ["0.5.1-0.5"]
 DoubleFloats = "0.5"
 
-["0.5.1-0.7.0"]
-ProjectiveVectors = "0.2.0 - 0.2"
+["0.5.1-1.1"]
+ProjectiveVectors = "0.2"
 
 ["0.7-0"]
 DynamicPolynomials = "0.1.2-0.1"
+MultivariatePolynomials = "0.2.3-0.2"
+
+["0.7-1.1.0"]
+Parameters = "0.10.3-0.10"
 
 ["0.7.0"]
-MultivariatePolynomials = "0.2.3 - 0.2"
-Parameters = "0.10.3 - 0.10"
-ProgressMeter = "0.8.0 - 0.9"
-
-["0.7.1-0"]
-MultivariatePolynomials = "0.2.3-0.2"
+ProgressMeter = "0.8.0-0.9"
 
 ["0.7.1-0.7"]
 ProgressMeter = "0.8-0.9"
 StaticArrays = "0.8-0.10"
-
-["0.7.1-1"]
-FixedPolynomials = "0.4"
-
-["0.7.1-1.1"]
-ProjectiveVectors = "0.2"
-
-["0.7.1-1.1.0"]
-Parameters = "0.10.3-0.10"
-
-["0.7.1-2"]
-TreeViews = "0.3"
 
 ["0.8-0"]
 ProgressMeter = ["0.8-0.9", "1"]
@@ -86,7 +70,7 @@ PrettyTables = "0.4-0.5"
 MixedSubdivisions = "0.3"
 
 ["1.0"]
-DoubleFloats = "0.0.0 - 0.9"
+DoubleFloats = "0.0.0-0.9"
 
 ["1.1-1.3.0"]
 DoubleFloats = "0.9"
@@ -130,6 +114,7 @@ Latexify = "0.12-0.13"
 PrettyTables = "0.8-0.9"
 
 [2]
+DelimitedFiles = "1.4.0-1"
 ElasticArrays = "1"
 FiniteDiff = "2.3.0-2"
 LRUCache = "1.1.0-1"

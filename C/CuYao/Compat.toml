@@ -1,16 +1,16 @@
 ["0-0.1"]
-BitBasis = "0.0.0 - 0.6"
-CUDAnative = "0.0.0 - 2"
-CuArrays = "0.0.0 - 1"
-GPUArrays = "0.0.0 - 2"
-LuxurySparse = "0.0.0 - 0.5"
-Reexport = "0.0.0 - 0.2"
-StaticArrays = "0.0.0 - 0.12"
-StatsBase = "0.0.0 - 0.32"
-TupleTools = "0.0.0 - 1"
-Yao = "0.0.0 - 0.6"
-YaoArrayRegister = "0.0.0 - 0.7"
-YaoBase = "0.0.0 - 0.14"
+BitBasis = "0.0.0-0.6"
+CUDAnative = "0.0.0-2"
+CuArrays = "0.0.0-1"
+GPUArrays = "0.0.0-2"
+LuxurySparse = "0.0.0-0.5"
+Reexport = "0.0.0-0.2"
+StaticArrays = "0.0.0-0.12"
+StatsBase = "0.0.0-0.32"
+TupleTools = "0.0.0-1"
+Yao = "0.0.0-0.6"
+YaoArrayRegister = "0.0.0-0.7"
+YaoBase = "0.0.0-0.14"
 
 ["0-0.2"]
 julia = "1"
@@ -55,11 +55,13 @@ CuArrays = "2.2.0-2"
 GPUArrays = "3"
 
 ["0.2.3-0"]
-LuxurySparse = "0.6"
 StatsBase = "0.33"
 
 ["0.2.3-0.3.3"]
 BitBasis = "0.7"
+
+["0.2.3-0.3.4"]
+LuxurySparse = "0.6"
 
 ["0.2.4-0.2.5"]
 CUDA = "1.1.0-1"
@@ -98,3 +100,6 @@ Yao = "0.7"
 BitBasis = "0.8"
 CUDA = "3.10.0-3"
 Yao = "0.8"
+
+["0.3.5-0"]
+LuxurySparse = "0.7"

@@ -1,20 +1,20 @@
 ["1-1.0.1"]
-Distributions = "0.0.0 - 0.22"
-HypothesisTests = "0.0.0 - 0.9"
-Roots = "0.0.0 - 0.8"
-SpecialFunctions = "0.0.0 - 0.10"
-StatsBase = "0.0.0 - 0.32"
+Distributions = "0.0.0-0.22"
+HypothesisTests = "0.0.0-0.9"
+Roots = "0.0.0-0.8"
+SpecialFunctions = "0.0.0-0.10"
+StatsBase = "0.0.0-0.32"
 
 ["1.0.0"]
-Combinatorics = "0.0.0 - 0.7"
+Combinatorics = "0.0.0-0.7"
 HCubature = "1"
 QuadGK = "0-2"
 julia = ["0.7", "1"]
 
 ["1.0.1"]
-Combinatorics = "0.0.0 - 1"
-HCubature = "0.0.0 - 1"
-QuadGK = "0.0.0 - 2"
+Combinatorics = "0.0.0-1"
+HCubature = "0.0.0-1"
+QuadGK = "0.0.0-2"
 
 ["1.0.1-1"]
 julia = "1"
@@ -74,6 +74,11 @@ Distributions = "0.25"
 HCubature = "1.5.0-1"
 HypothesisTests = "0.10"
 QuadGK = "2.4.0-2"
-Roots = "1.3.0-1"
 SpecialFunctions = "1-2"
 StatsBase = "0.33"
+
+["1.3.4-1.3"]
+Roots = "1.3.0-1"
+
+["1.4-1"]
+Roots = "1-2"

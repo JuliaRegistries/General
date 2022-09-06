@@ -4,7 +4,6 @@ GLMakie = "0.4.7-0.4"
 KiteModels = "0.4"
 KitePodModels = "0.2"
 KiteUtils = "0.4"
-KiteViewers = "0.2.1-0.2"
 PackageCompiler = "2"
 Parameters = "0.12"
 Plots = "1.29.0-1"
@@ -17,8 +16,18 @@ julia = "1"
 ["0-0.1.0"]
 Joysticks = "0.1"
 
+["0-0.1.5"]
+KiteViewers = "0.2.1-0.2"
+
 ["0.1.1-0"]
 Joysticks = "0.1.3-0.1"
 
-["0.1.3-0"]
+["0.1.3-0.1.4"]
 KiteControllers = "0.1.5-0.1"
+
+["0.1.5"]
+KiteControllers = "0.1.6-0.1"
+
+["0.1.6-0"]
+KiteControllers = "0.1.7-0.1"
+KiteViewers = "0.2.4-0.2"

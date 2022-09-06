@@ -5,11 +5,16 @@ EllipsisNotation = "da5c29d0-fa7d-589e-88eb-ea29b0a81949"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 POMDPLinter = "f3bd98c0-eb40-45e2-9eb1-f2763262d755"
-POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
-POMDPPolicies = "182e52fb-cfd0-5e46-8c26-fd0667c990f4"
 POMDPs = "a93abf59-7444-517b-a68a-c42f96afdd7d"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 TensorBoardLogger = "899adc3e-224a-11e9-021f-63837185c80f"
+
+["0-0.6.4"]
+POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
+POMDPPolicies = "182e52fb-cfd0-5e46-8c26-fd0667c990f4"
+
+["0.6.5-0"]
+POMDPTools = "7588e00f-9cae-40de-98dc-e0c70c48cdd7"

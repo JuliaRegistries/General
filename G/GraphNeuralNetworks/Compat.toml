@@ -46,8 +46,10 @@ NNlibCUDA = "0.1-0.2"
 StatsBase = "0.32-0.33"
 
 ["0.3.3-0"]
-Functors = "0.2"
 Reexport = "1"
+
+["0.3.3-0.4.4"]
+Functors = "0.2"
 
 ["0.3.6-0"]
 NearestNeighbors = "0.4"
@@ -56,8 +58,14 @@ NearestNeighbors = "0.4"
 LearnBase = "0.4-0.6"
 
 ["0.4-0"]
-Flux = "0.13"
 MLUtils = "0.2.3-0.2"
 NNlib = "0.8"
 NNlibCUDA = "0.2"
 StatsBase = "0.33"
+
+["0.4-0.4.4"]
+Flux = "0.13"
+
+["0.4.5-0"]
+Flux = "0.13.4-0.13"
+Functors = "0.2-0.3"

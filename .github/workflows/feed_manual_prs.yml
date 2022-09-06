@@ -1,0 +1,72 @@
+name: Manual PRs feed
+on:
+  pull_request_target:
+    types: [ opened ]
+permissions:
+  contents: read
+jobs:
+  manual-prs-slack:
+    if: (github.event.pull_request.user.login != 'JuliaRegistrator') && (github.event.pull_request.user.login != 'jlbuild') && (github.event.pull_request.user.login != 'JuliaTagBot')
+    runs-on: ubuntu-latest
+    steps:
+    - uses: julia-actions/setup-julia@latest
+      with:
+        version: 1.6.2
+    - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+    - name: Send to Slack
+      shell: julia --color=yes {0}
+      run: |
+        endpoint = ENV["SLACK_ENDPOINT"]
+        if isempty(endpoint)
+          @info "Endpoint not specified; missing secret? Exiting."
+          exit(0)
+        end
+
+        pr_number_str = ENV["PR_NUMBER"]
+        pr_number_int = parse(Int, ENV["PR_NUMBER"]) # make sure that it is indeed an integer
+        pr_url = "https://github.com/JuliaRegistries/General/pull/$(pr_number_int)"
+
+        const allowed_chars = vcat(
+            'A':'Z',
+            'a':'z',
+            '0':'9',
+            [' ', '-'],
+        )
+        const f = char -> char in allowed_chars ? char : '-'
+        const sanitize = str -> map(f, str)
+        const truncate = str -> first(str, 280)
+
+        pr_author = ENV["PR_AUTHOR"] |> sanitize |> truncate
+        pr_title = ENV["PR_TITLE"] |> sanitize |> truncate
+
+        text_lines = String[
+            "- Title: $(pr_title)",
+            "- Author: $(pr_author)",
+            "- URL: $(pr_url)",
+        ]
+        text = join(text_lines, '\n')
+
+        using Pkg
+        Pkg.activate(mktempdir())
+        Pkg.add(name="Slack", version="0.1")
+        using Slack
+        attachment = Dict(
+            "color" => "#36a64f",
+            "fallback" => pr_title,
+            "title" => pr_title,
+            "title_link" => pr_url,
+            "text" => text,
+        )
+        data = Dict("attachments" => [attachment])
+
+        if !startswith(endpoint, "/")
+            endpoint = string("/", endpoint)
+        end
+        @info "Told Slack: $(data)"
+        response = sendattachmenttoslack(data, endpoint)
+        @info "Slack said: $response"
+      env:
+        SLACK_ENDPOINT: ${{ secrets.JULIALANGSLACKENDPOINT_MANUAL_PRS }}
+        PR_NUMBER: ${{ github.event.number }}
+        PR_TITLE: ${{ github.event.pull_request.title }}
+        PR_AUTHOR: ${{ github.event.pull_request.user.login }}

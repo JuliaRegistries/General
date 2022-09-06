@@ -5,20 +5,20 @@ Nullables = "0-1"
 julia = ["0.7", "1"]
 
 ["0-0.3"]
-MetaGraphs = "0.0.0 - 0.6"
+MetaGraphs = "0.0.0-0.6"
 
 ["0-0.4"]
-UnionFind = "0.0.0 - 0.1"
+UnionFind = "0.0.0-0.1"
 
 ["0-0.6"]
-Parameters = "0.0.0 - 0.12"
+Parameters = "0.0.0-0.12"
 
 ["0-0.8.0"]
-AutoHashEquals = "0.0.0 - 0.2"
-DataStructures = "0.0.0 - 0.18"
-JSON = "0.0.0 - 0.21"
-LightXML = "0.0.0 - 0.9"
-Reexport = "0.0.0 - 0.2"
+AutoHashEquals = "0.0.0-0.2"
+DataStructures = "0.0.0-0.18"
+JSON = "0.0.0-0.21"
+LightXML = "0.0.0-0.9"
+Reexport = "0.0.0-0.2"
 
 ["0.10-0"]
 Tables = "1"
@@ -56,30 +56,33 @@ PrettyTables = ["0.12", "1"]
 ["0.13.2-0"]
 Reexport = "1"
 
+["0.14-0"]
+StructEquality = "2.1.0-2"
+
+["0.14.3-0"]
+Colors = "0.12"
+
 ["0.2.3-0.11"]
 julia = "1"
 
 ["0.2.3-0.2"]
-LightGraphs = "0.0.0 - 1"
+LightGraphs = "0.0.0-1"
 
 ["0.2.3-0.3"]
-Compat = "0.0.0 - 3"
-Match = "0.0.0 - 1"
+Compat = "0.0.0-3"
+Match = "0.0.0-1"
 
 ["0.2.3-0.5.2"]
-Requires = "0.0.0 - 0.5"
+Requires = "0.0.0-0.5"
 
-["0.3"]
-LightGraphs = "1.3.0 - 1"
+["0.3-0.9.3"]
+LightGraphs = "1.3.0-1"
 
 ["0.4-0.7.2"]
 Match = "1"
 
 ["0.4-0.9.1"]
 MetaGraphs = "0.6"
-
-["0.4-0.9.3"]
-LightGraphs = "1.3.0-1"
 
 ["0.4.0"]
 Compat = "3"
@@ -88,16 +91,16 @@ Compat = "3"
 Compat = "1-3"
 
 ["0.5-0.7.3"]
-Compose = "0.0.0 - 0.9"
+Compose = "0.0.0-0.9"
 
 ["0.5-0.8.0"]
-StaticArrays = "0.0.0 - 0.12"
+StaticArrays = "0.0.0-0.12"
 
 ["0.5.3-0"]
 Requires = "1"
 
 ["0.6-0.7.1"]
-IterativeSolvers = "0.0.0 - 0.8"
+IterativeSolvers = "0.0.0-0.8"
 LinearMaps = "2"
 
 ["0.6.1-0.7.1"]
@@ -107,11 +110,11 @@ LinearOperators = "1"
 LabelledArrays = "1"
 
 ["0.7.2-0.8.0"]
-GeneralizedGenerated = "0.0.0 - 0.2"
+GeneralizedGenerated = "0.0.0-0.2"
 
 ["0.7.3-0.8.0"]
-MLStyle = "0.0.0 - 0.4"
-Parameters = "0.0.0 - 0.12"
+MLStyle = "0.0.0-0.4"
+Parameters = "0.0.0-0.12"
 
 ["0.7.4-0"]
 Compose = "0.7-0.9"
@@ -120,10 +123,9 @@ Compose = "0.7-0.9"
 FunctionWrappers = "1"
 
 ["0.8.0"]
-StructArrays = "0.0.0 - 0.4"
+StructArrays = "0.0.0-0.4"
 
 ["0.8.1-0"]
-AutoHashEquals = "0.2"
 DataStructures = "0.17-0.18"
 JSON = "0.20-0.21"
 LightXML = "0.8-0.9"
@@ -138,6 +140,9 @@ Parameters = "0.11-0.12"
 
 ["0.8.1-0.11.1"]
 GeneralizedGenerated = "0.2"
+
+["0.8.1-0.13"]
+AutoHashEquals = "0.2"
 
 ["0.8.1-0.9"]
 StructArrays = "0.4"

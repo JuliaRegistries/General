@@ -1,12 +1,12 @@
 ["0-0.2"]
 DiffEqBase = "0-5"
-SpecialFunctions = "0.0.0 - 0.9"
+SpecialFunctions = "0.0.0-0.9"
 
 ["0-0.8"]
-DiffRules = "0.0.0 - 0.1"
-MacroTools = "0.0.0 - 0.5"
-NaNMath = "0.0.0 - 0.3"
-StaticArrays = "0.0.0 - 0.12"
+DiffRules = "0.0.0-0.1"
+MacroTools = "0.0.0-0.5"
+NaNMath = "0.0.0-0.3"
+StaticArrays = "0.0.0-0.12"
 
 ["0.0"]
 julia = ["0.7", "1"]
@@ -21,15 +21,15 @@ GeneralizedGenerated = "0.1.4-0.2"
 julia = "1.1-1"
 
 ["0.4-0.8"]
-DiffEqBase = "0.0.0 - 6"
-DocStringExtensions = "0.0.0 - 0.8"
-SpecialFunctions = "0.0.0 - 0.8"
+DiffEqBase = "0.0.0-6"
+DocStringExtensions = "0.0.0-0.8"
+SpecialFunctions = "0.0.0-0.8"
 
 ["0.4-1.1"]
 julia = "1"
 
 ["0.7-0.8"]
-GeneralizedGenerated = "0.0.0 - 0.2"
+GeneralizedGenerated = "0.0.0-0.2"
 
 ["0.9"]
 GeneralizedGenerated = "0.1.4-0.1"
@@ -270,6 +270,8 @@ Requires = ["0.2", "1"]
 
 ["5.6-8"]
 Reexport = ["0.2", "1"]
+
+["5.6-8.14"]
 Requires = "1"
 
 ["5.6.1-5.9"]
@@ -333,7 +335,7 @@ Symbolics = "4"
 ["7.0"]
 DiffEqJump = "7"
 
-["7.1-8"]
+["7.1-8.14"]
 DiffEqJump = "7-8"
 
 ["7.1.2-7"]
@@ -356,7 +358,7 @@ JuliaFormatter = "0.12-0.21"
 ["8.1-8.5.1"]
 ArrayInterface = "3.1.39-4"
 
-["8.11.1-8"]
+["8.11.1-8.15.1"]
 Symbolics = "4.5.0-4"
 
 ["8.12"]
@@ -374,8 +376,29 @@ Setfield = ["0.7-0.8", "1"]
 AbstractTrees = "0.3-0.4"
 DiffEqBase = "6.83.0-6"
 
+["8.15-8.18.3"]
+JumpProcesses = "9"
+
+["8.15.2-8"]
+ForwardDiff = "0.10.3-0.10"
+
+["8.15.2-8.15"]
+Symbolics = "4.5-4.8"
+
+["8.16-8"]
+Symbolics = "4.9.0-4"
+
+["8.18.4-8"]
+JumpProcesses = "9.1.0-9"
+
+["8.19-8"]
+SciMLBase = "1.49.0-1"
+
 ["8.2-8.14.0"]
 DiffEqBase = "6.81.0-6"
+
+["8.20-8"]
+FunctionWrappersWrappers = "0.1"
 
 ["8.3.2-8"]
 SymbolicUtils = "0.19"
@@ -388,6 +411,8 @@ Graphs = "1.5.2-1"
 
 ["8.5-8"]
 NaNMath = ["0.3", "1"]
+
+["8.5-8.18"]
 SciMLBase = "1.26.2-1"
 
 ["8.5.2-8.11"]

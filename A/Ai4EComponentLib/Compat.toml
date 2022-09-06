@@ -1,6 +1,17 @@
 [0]
-DocStringExtensions = "0.8.6-0.8"
-ModelingToolkit = "8.14.0-8"
 SafeTestsets = "0.0.1"
 Unitful = "1.11.0-1"
 julia = "1.6.0-1"
+
+["0-0.1"]
+DocStringExtensions = "0.8.6-0.8"
+
+["0-0.2"]
+ModelingToolkit = "8.14.0-8"
+
+["0.2-0"]
+DocStringExtensions = "0.8.6-0.9"
+
+["0.3-0"]
+CoolProp = "0.1"
+ModelingToolkit = "8.10.0-8"

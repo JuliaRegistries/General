@@ -1,15 +1,15 @@
 ["0-0.2"]
-MathProgBase = "0.0.0 - 0.7"
+MathProgBase = "0.0.0-0.7"
 julia = ["0.7", "1"]
 
 ["0-0.4.0"]
-Polynomials = "0.0.0 - 0.8"
+Polynomials = "0.0.0-0.8"
 
 ["0-0.4.3"]
-Cbc = "0.0.0 - 0.7"
-JuMP = "0.0.0 - 0.21"
-SimpleGraphs = "0.0.0 - 0.6"
-SimplePartitions = "0.0.0 - 0.3"
+Cbc = "0.0.0-0.7"
+JuMP = "0.0.0-0.21"
+SimpleGraphs = "0.0.0-0.6"
+SimplePartitions = "0.0.0-0.3"
 
 ["0.3-0"]
 julia = "1"
@@ -18,7 +18,7 @@ julia = "1"
 Polynomials = "1"
 
 ["0.4.1-0.4.3"]
-ChooseOptimizer = "0.0.0 - 0.1"
+ChooseOptimizer = "0.0.0-0.1"
 
 ["0.4.15-0.4.16"]
 JuMP = "0.18-0.22"
@@ -32,8 +32,14 @@ JuMP = ["0.18-0.22", "1"]
 ["0.4.18-0"]
 Cbc = ["0.4-0.10", "1"]
 
+["0.4.19"]
+SimpleGraphs = "0.7-0.8"
+
 ["0.4.2-0.4.3"]
-SimplePolynomials = "0.0.0 - 0.2"
+SimplePolynomials = "0.0.0-0.2"
+
+["0.4.20-0"]
+SimpleGraphs = "0.8"
 
 ["0.4.4"]
 SimpleGraphs = "0.2-0.6"
@@ -49,5 +55,5 @@ JuMP = "0.18-0.21"
 ["0.4.4-0.4.15"]
 Cbc = "0.4-0.7"
 
-["0.4.5-0"]
+["0.4.5-0.4.18"]
 SimpleGraphs = "0.5-0.7"

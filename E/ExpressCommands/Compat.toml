@@ -1,7 +1,6 @@
 [0]
 EquationOfStateRecipes = "0.1"
 Plots = "1"
-Preferences = "1"
 PrettyPrint = "0.1-0.2"
 TikzGraphs = "1"
 TikzPictures = "3"
@@ -17,6 +16,9 @@ Comonicon = "0.1-0.9"
 ["0-0.2.1"]
 EquationsOfStateOfSolids = "0.2"
 SimpleWorkflows = "0.6-0.8"
+
+["0-0.4"]
+Preferences = "1"
 
 ["0.2"]
 AbInitioSoftwareBase = "0.2-0.6"
@@ -50,16 +52,28 @@ QuantumESPRESSOExpress = "0.1-0.3"
 SimpleWorkflows = "0.6-0.12"
 
 ["0.3-0"]
-Comonicon = ["0.1-0.9", "0.11-0.12"]
 QuantumESPRESSOExpress = "0.1-0.5"
+
+["0.3-0.4"]
+Comonicon = ["0.1-0.9", "0.11-0.12"]
 
 ["0.3-0.4.0"]
 AbInitioSoftwareBase = "0.2-0.8"
 Express = "0.2-0.6"
 
-["0.4-0"]
+["0.4-0.4.1"]
 SimpleWorkflows = "0.6-0.13"
+
+["0.4.1"]
+Express = "0.2-0.7"
 
 ["0.4.1-0"]
 AbInitioSoftwareBase = "0.2-0.9"
-Express = "0.2-0.7"
+
+["0.4.2-0"]
+Express = "0.2-0.9"
+JLD2 = "0.4"
+SimpleWorkflows = "0.6-0.16"
+
+["0.5-0"]
+Comonicon = "0.1-0.12"

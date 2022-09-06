@@ -1,6 +1,5 @@
 [0]
 Crayons = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
-ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 
 ["0-0.3"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
@@ -12,6 +11,17 @@ ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 ["0-0.4.6"]
 ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
 
-["0.4.7-0"]
-ImageBase = "c817782e-172a-44cc-b673-b171935fbb9e"
+["0-0.5.0"]
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+
+["0.4.7-0.4"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.4.7-0.5.0"]
+ImageBase = "c817782e-172a-44cc-b673-b171935fbb9e"
+
+["0.5-0"]
+ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+Sixel = "45858cf5-a6b0-47a3-bbea-62219f50df47"
+XTermColors = "c8c2cc18-de81-4e68-b407-38a3a0c0491f"

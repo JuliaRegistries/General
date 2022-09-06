@@ -4,10 +4,8 @@ ArrayInterfaceCore = "0.1.1-0.1"
 ArrayInterfaceTracker = "0.1"
 Cassette = "0.3.6-0.3"
 ChainRulesCore = ["0.10.7-0.10", "1"]
-DiffEqBase = "6.90.0-6"
 DiffEqCallbacks = "2.17.0-2"
 DiffEqNoiseProcess = "4.1.4-5"
-DiffEqOperators = "4.34.0-4"
 DiffRules = "1"
 Distributions = "0.24-0.25"
 EllipsisNotation = "1"
@@ -16,16 +14,48 @@ FiniteDiff = "2"
 ForwardDiff = "0.10"
 GPUArraysCore = "0.1"
 LinearSolve = "1"
-OrdinaryDiffEq = "5.60.0-6"
 Parameters = "0.12"
 QuadGK = "2.1.0-2"
 RandomNumbers = "1.5.3-1"
 RecursiveArrayTools = "2.4.2-2"
 Reexport = ["0.2", "1"]
 ReverseDiff = "1.9.0-1"
-SciMLBase = "1.24.0-1"
 StochasticDiffEq = "6.20.0-6"
 Tracker = "0.2"
 Zygote = "0.6"
 ZygoteRules = "0.2"
 julia = "1.6.0-1"
+
+["7-7.2.0"]
+OrdinaryDiffEq = "5.60.0-6"
+
+["7-7.6.2"]
+DiffEqOperators = "4.34.0-4"
+
+["7.0"]
+DiffEqBase = "6.90.0-6"
+SciMLBase = "1.24.0-1"
+
+["7.1-7"]
+DiffEqBase = "6.93.0-6"
+
+["7.1-7.4"]
+SciMLBase = "1.42.3-1"
+
+["7.2-7"]
+PreallocationTools = "0.4"
+
+["7.2.1-7"]
+OrdinaryDiffEq = "6.19.1-6"
+
+["7.4-7"]
+StaticArrays = "1"
+
+["7.5-7.6.1"]
+SciMLBase = "1.50.0-1"
+
+["7.6-7"]
+FunctionWrappersWrappers = "0.1"
+
+["7.6.2-7"]
+SciMLBase = "1.51.0-1"

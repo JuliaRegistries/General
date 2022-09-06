@@ -10,13 +10,15 @@ AssociatedLegendrePolynomials = "1"
 
 ["0.10-0"]
 QuadGK = "2"
-SpecialFunctions = "2"
 
 ["0.10-0.12"]
 LowRankApprox = "0.5"
 
 ["0.10-0.15"]
 IntervalRootFinding = "0.5"
+
+["0.10-0.94.1"]
+SpecialFunctions = "2"
 
 ["0.13-0.14"]
 DoubleFloats = "1.2.0-1"
@@ -38,3 +40,9 @@ julia = "1.6.0-1"
 
 ["0.8-0.9"]
 LegendrePolynomials = "0.4"
+
+["0.94.2-0.94"]
+Bessels = "0.1"
+
+["0.95-0"]
+Bessels = "0.2"

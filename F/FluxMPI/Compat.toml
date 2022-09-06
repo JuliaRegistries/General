@@ -11,11 +11,11 @@ Flux = "0.12"
 ["0-0.3"]
 Zygote = "0.6"
 
-["0.2-0"]
-julia = "1.7.0-1"
-
 ["0.2-0.3"]
 MLDataUtils = "0.5"
+
+["0.2-0.5"]
+julia = "1.7.0-1"
 
 ["0.2.1-0.2"]
 LearnBase = "0.3"
@@ -25,18 +25,33 @@ Flux = "0.13"
 LearnBase = ["0.3", "0.6"]
 
 ["0.3-0"]
-Functors = "0.2"
 Optimisers = "0.2"
+
+["0.3-0.5"]
+Functors = "0.2"
 Setfield = "0.8"
 
-["0.3.1-0"]
+["0.3.1-0.5"]
 ComponentArrays = "0.11"
 
 ["0.4-0"]
 Adapt = "3"
 ChainRulesCore = "1"
+
+["0.4-0.5"]
 MLUtils = "0.2"
 
-["0.5.1-0"]
+["0.5.1-0.5"]
 LearnBase = "0.3"
 MLDataUtils = "0.5"
+
+["0.6-0"]
+Functors = "0.2-0.3"
+Setfield = ["0.8", "1"]
+julia = "1.6.0-1"
+
+["0.6.0"]
+ComponentArrays = "0.11-0.12"
+
+["0.6.1-0"]
+ComponentArrays = "0.11-0.13"

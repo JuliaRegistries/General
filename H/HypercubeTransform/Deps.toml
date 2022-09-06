@@ -2,8 +2,10 @@
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 MeasureTheory = "eadaa1a4-d27c-401d-8699-e962e1bbc33b"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Tricks = "410a4b4d-49e4-4fbc-ab6d-cb71b17b3775"
+
+["0-0.2"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0-0.2.6"]
 GeneralizedGenerated = "6b9d7cbe-bcb9-11e9-073f-15a7a543e2eb"
@@ -17,6 +19,12 @@ TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
 
 ["0.2.7-0"]
+PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
+
+["0.2.7-0.2"]
 Bijectors = "76274a88-744f-5084-9051-94815aaf08c4"
 ModelWrappers = "44c54197-9f56-47cc-9960-7f2e20bfb0d6"
-PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
+
+["0.3-0"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"

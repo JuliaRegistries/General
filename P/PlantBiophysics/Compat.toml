@@ -1,7 +1,6 @@
 [0]
 CSV = ["0.8", "0.10"]
 DataFrames = "1"
-Impute = "0.6"
 LsqFit = "0.12"
 MutableNamedTuples = "0.1"
 OrderedCollections = "1.3.0-1"
@@ -12,5 +11,14 @@ julia = "1.6.0-1"
 ["0-0.1"]
 MultiScaleTreeGraph = "0.4"
 
-["0.2-0"]
+["0-0.4.2"]
+Impute = "0.6"
+
+["0.2-0.4.0"]
 MultiScaleTreeGraph = "0.4-0.5"
+
+["0.4.1-0.4.2"]
+MultiScaleTreeGraph = "0.4-0.6"
+
+["0.4.3-0"]
+MultiScaleTreeGraph = "0.4-0.7"

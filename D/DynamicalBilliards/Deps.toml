@@ -3,15 +3,13 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["2-3.5.1"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["2-3.5.2"]
 MuladdMacro = "46d2c3a1-f734-5fdb-9937-b9b9aeba4221"
 
 [2-4]
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["2.2-2.3"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -22,17 +20,9 @@ Elliptic = "b305315f-e792-5b7a-8f41-49f472929428"
 ["2.5-2"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-["3-3.5.1"]
-Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
-
 [3-4]
-Elliptic = "b305315f-e792-5b7a-8f41-49f472929428"
-
-["3.5.4-4"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
-InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Elliptic = "b305315f-e792-5b7a-8f41-49f472929428"
 
 [4]
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"

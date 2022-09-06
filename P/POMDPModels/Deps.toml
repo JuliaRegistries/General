@@ -1,7 +1,5 @@
 [0]
-BeliefUpdaters = "8bb6e9a1-7d73-552c-a44a-e5dc5634aac4"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
 POMDPs = "a93abf59-7444-517b-a68a-c42f96afdd7d"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
@@ -12,6 +10,10 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 ["0-0.3"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.4.15"]
+BeliefUpdaters = "8bb6e9a1-7d73-552c-a44a-e5dc5634aac4"
+POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
+
 ["0.3.3"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
@@ -21,3 +23,6 @@ Compose = "a81c6b42-2e10-5240-aca2-a61377ecd94b"
 
 ["0.4-0.4.7"]
 POMDPSimulators = "e0d0a172-29c6-5d4e-96d0-f262df5d01fd"
+
+["0.4.16-0"]
+POMDPTools = "7588e00f-9cae-40de-98dc-e0c70c48cdd7"

@@ -38,7 +38,7 @@ UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 ["3-8.11"]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 
-["3.11-8"]
+["3.11-8.14"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["3.12-8"]
@@ -48,8 +48,10 @@ LabelledArrays = "2ee39098-c373-598a-b85f-a56591580800"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 ["3.2-8"]
-DiffEqJump = "c894b116-72e5-5b58-be3c-e6d8d4ac2b12"
 SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
+
+["3.2-8.14"]
+DiffEqJump = "c894b116-72e5-5b58-be3c-e6d8d4ac2b12"
 
 ["3.20-8"]
 IfElse = "615f187c-cbe4-4ef1-ba3b-2fcf58d6d173"
@@ -110,6 +112,15 @@ Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 
 ["8.12-8"]
 ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
+
+["8.15-8"]
+JumpProcesses = "ccbc3e58-028d-4f4c-8cd5-9ae44345cda5"
+
+["8.15.2-8"]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
+["8.20-8"]
+FunctionWrappersWrappers = "77dc65aa-8811-40c2-897b-53d922fa7daf"
 
 ["8.9-8"]
 Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
