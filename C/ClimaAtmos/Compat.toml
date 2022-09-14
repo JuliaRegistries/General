@@ -18,9 +18,14 @@ Thermodynamics = "0.8"
 IntervalSets = "0.5-0.6"
 
 ["0.2-0"]
-CloudMicrophysics = "0.6"
 Insolation = "0.3"
 Thermodynamics = "0.9"
+
+["0.2-0.3"]
+CloudMicrophysics = "0.6"
+
+["0.3"]
+StochasticDiffEq = "6.41.0-6"
 
 ["0.3-0"]
 Dierckx = "0.5"
@@ -32,5 +37,8 @@ IntervalSets = "0.5-0.7"
 LambertW = "0.4"
 OperatorFlux = "0.1"
 StatsBase = "0.33"
-StochasticDiffEq = "6.41.0-6"
 SurfaceFluxes = "0.4"
+
+["0.4-0"]
+CloudMicrophysics = "0.8"
+StochasticDiffEq = "6.42.0-6"
