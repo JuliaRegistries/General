@@ -26,16 +26,24 @@ OrderedCollections = "1.2.0-1"
 ["0.3-0.4.0"]
 XLSX = "0.5.8-0.7"
 
-["0.4-0"]
+["0.4"]
 JSONPointer = "0.3"
 
 ["0.4.0"]
 OrderedCollections = "1.3.0-1"
 
 ["0.4.1-0"]
-JSON3 = "1"
 OrderedCollections = "1"
+Tables = "1"
+
+["0.4.1-0.4"]
+JSON3 = "1"
 PrettyTables = "1"
 StructTypes = "1"
-Tables = "1"
 XLSX = ["0.5.8-0.5", "0.7"]
+
+["0.5-0"]
+JSON = "0.21"
+JSONPointer = "0.4"
+PrettyTables = "1-2"
+XLSX = ["0.5.8-0.5", "0.7-0.8"]

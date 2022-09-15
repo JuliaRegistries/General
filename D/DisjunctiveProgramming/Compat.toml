@@ -1,9 +1,9 @@
-[0]
-julia = "1"
-
 ["0-0.1.0"]
 IntervalArithmetic = "0.18"
 JuMP = "0.21"
+
+["0-0.2"]
+julia = "1"
 
 ["0.1.1-0"]
 IntervalArithmetic = "0.20"
@@ -13,5 +13,11 @@ Symbolics = "4"
 JuMP = "0.22"
 
 ["0.1.5-0"]
-JuMP = "1.0.0-1.1.1"
 Suppressor = "0.2"
+
+["0.1.5-0.2"]
+JuMP = "1.0.0-1.1.1"
+
+["0.3-0"]
+JuMP = "1.2.0-1"
+julia = "1.6.0-1"

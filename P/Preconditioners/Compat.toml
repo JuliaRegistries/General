@@ -6,14 +6,11 @@ julia = ["0.7", "1"]
 AlgebraicMultigrid = "0.0.0-0.3"
 LimitedLDLFactorizations = "0.0.0-0.3"
 
-["0.3-0"]
+["0.3-0.5.0"]
 julia = "1"
 
 ["0.3.0"]
 Compat = "0.0.0-3"
-
-["0.3.1-0"]
-Compat = "1-3"
 
 ["0.3.1-0.3"]
 AlgebraicMultigrid = "0.1-0.4"
@@ -21,7 +18,10 @@ AlgebraicMultigrid = "0.1-0.4"
 ["0.3.1-0.4.0"]
 LimitedLDLFactorizations = "0.1-0.3"
 
-["0.4-0"]
+["0.3.1-0.5.0"]
+Compat = "1-3"
+
+["0.4-0.5.0"]
 AlgebraicMultigrid = "0.4"
 
 ["0.4.1-0.4"]
@@ -29,3 +29,7 @@ LimitedLDLFactorizations = "0.1-0.4"
 
 ["0.5-0"]
 LimitedLDLFactorizations = "0.4"
+
+["0.5.1-0"]
+AlgebraicMultigrid = "0.4-0.5"
+julia = "1.6.0-1"

@@ -127,9 +127,7 @@ Manifolds = "0.6.3-0.6"
 IncrementalInference = "0.25.5-0.25"
 
 ["0.16.1-0"]
-DelimitedFiles = "1.6.0-1"
 Distributions = "0.24-0.25"
-julia = "1.6.0-1"
 
 ["0.16.1-0.16"]
 DistributedFactorGraphs = "0.16.2-0.16"
@@ -138,6 +136,12 @@ DistributedFactorGraphs = "0.16.2-0.16"
 ApproxManifoldProducts = "0.4.15-0.4"
 DocStringExtensions = "0.8"
 Manifolds = "0.6.3-0.7"
+
+["0.16.1-0.20"]
+julia = "1.6.0-1"
+
+["0.16.1-0.20.0"]
+DelimitedFiles = "1.6.0-1"
 
 ["0.16.2-0.16"]
 IncrementalInference = "0.25.7-0.25"
@@ -178,10 +182,17 @@ IncrementalInference = "0.4.4-0.4"
 IncrementalInference = "0.4.6-0.4"
 KernelDensityEstimate = "0.4.1-0.4.2"
 
+["0.20"]
+IncrementalInference = "0.30"
+
 ["0.20-0"]
 ApproxManifoldProducts = "0.6"
-IncrementalInference = "0.30"
 Manifolds = "0.8.11-0.8"
+
+["0.21-0"]
+IncrementalInference = "0.31"
+SnoopPrecompile = "1"
+julia = "1.8.0-1"
 
 ["0.3"]
 ApproxManifoldProducts = "0.0.3"

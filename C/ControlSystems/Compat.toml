@@ -17,10 +17,10 @@ julia = "1.6.0-1"
 DelayDiffEq = "5.31.0-5"
 DiffEqCallbacks = "2.16.0-2"
 
-["0.11.1-1"]
+["0.11.1-1.4"]
 DSP = "0.6.1-0.7"
 
-["0.11.2-1"]
+["0.11.2-1.4"]
 MatrixPencils = "1.6.0-1"
 
 ["0.11.4-1"]
@@ -29,7 +29,7 @@ OrdinaryDiffEq = "5.2.0-6"
 ["0.11.8"]
 MatrixEquations = "1"
 
-["0.11.9-1"]
+["0.11.9-1.4"]
 MatrixEquations = ["1", "2.1.0-2"]
 
 ["0.12-1"]
@@ -37,6 +37,8 @@ RecipesBase = "1"
 
 ["0.12.11-1"]
 ForwardDiff = "0.10"
+
+["0.12.11-1.4"]
 Polynomials = "1.1.10-3"
 
 ["0.5.2-0.5.3"]
@@ -63,7 +65,7 @@ OrdinaryDiffEq = "5.2.0-5"
 ["0.5.4-0.5"]
 Polynomials = "0.6"
 
-["0.5.4-1"]
+["0.5.4-1.4"]
 IterTools = "1"
 LaTeXStrings = "1"
 
@@ -74,7 +76,7 @@ Plots = "0.24-0.28"
 ["0.5.7-0.5.8"]
 Plots = "0.24-0.29"
 
-["0.5.7-1"]
+["0.5.7-1.4.0"]
 Colors = "0.9.2-0.12"
 
 ["0.5.9-0.11"]
@@ -86,7 +88,7 @@ Polynomials = ["0.7-0.8", "1"]
 ["0.7-0.8"]
 Polynomials = "1"
 
-["0.8-1"]
+["0.8-1.4"]
 MacroTools = "0.5"
 
 ["0.9"]
@@ -99,5 +101,14 @@ Polynomials = "1.1.10-1"
 Polynomials = "1.1.10-2"
 
 ["1.2-1"]
-Polyester = "0.6"
 StaticArrays = "1"
+
+["1.2-1.4"]
+Polyester = "0.6"
+
+["1.4.1-1"]
+Hungarian = "0.6"
+
+["1.5-1"]
+ControlSystemsBase = "1"
+Reexport = "1"
