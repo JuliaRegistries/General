@@ -1,4 +1,4 @@
-[0]
+[0-1]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
@@ -18,9 +18,16 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Triangulate = "f7e6ffb2-c36d-4f8f-a77e-16e897189344"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
-["0.1.4-0"]
+["0.1.4-1"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 PkgVersion = "eebad327-c553-4316-9ea0-9fa01ccd7688"
 
 ["0.1.6-0.1.8"]
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+
+[1]
+GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
+LibGEOS = "a90b1aa1-3769-5649-ba7e-abc5a9d163eb"
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+PolygonOps = "647866c9-e3ac-4575-94e7-e3d426903924"
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
