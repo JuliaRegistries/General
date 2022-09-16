@@ -108,14 +108,16 @@ DocStringExtensions = "0.8-0.9"
 ["0.33"]
 CloudMicrophysics = "0.6"
 
-["0.33-1"]
+["0.33-0"]
 SurfaceFluxes = "0.4"
+
+["0.33-1"]
 Thermodynamics = "0.9"
 
 ["0.34-0.34.6"]
 CloudMicrophysics = "0.7"
 
-["0.34.7-1"]
+["0.34.7-0"]
 CloudMicrophysics = "0.8"
 
 ["0.4-0.11"]
@@ -140,5 +142,12 @@ Flux = "0.12"
 CLIMAParameters = "0.3"
 SurfaceFluxes = "0.2"
 
-[1]
+["1.0"]
+CloudMicrophysics = "0.8"
 SciMLBase = "1.48.1-1.48"
+SurfaceFluxes = "0.4"
+
+["1.1-1"]
+CloudMicrophysics = "0.9"
+SciMLBase = "1"
+SurfaceFluxes = "0.4.2-0.4.3"
