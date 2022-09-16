@@ -7,7 +7,6 @@ GPUArrays = "8"
 GPUArraysCore = "0.1"
 NNlib = "0.8"
 NNlibCUDA = "0.2"
-NeuralPDE = "5"
 Optimisers = "0.2"
 Optimization = "3"
 OptimizationOptimisers = "0.1"
@@ -20,5 +19,12 @@ julia = "1.7.0-1"
 ["0-0.1.1"]
 Lux = "0.4"
 
-["0.1.2-0"]
+["0-0.1.4"]
+NeuralPDE = "5"
+
+["0.1.2-0.1.4"]
 Lux = "0.4.20-0.4"
+
+["0.1.5-0"]
+Lux = "0.4"
+NeuralPDE = "5.2.0-5"
