@@ -48,7 +48,7 @@ repository after the new release of your package is merged into the registry.
 
 Registered packages must have an [Open Source Initiative approved license](https://opensource.org/licenses),
 clearly marked via a `LICENSE.md`, `LICENSE`, `COPYING` or similarly named file in the package repository.
-Packages that wrap proprietary libraries (or otherwise restrictive libraries, such as copyleft GPL code) are
+Packages that wrap proprietary libraries (or otherwise restrictive libraries) are
 acceptable if the licenses of those libraries permit open source distribution of the Julia wrapper code.
 The LICENCE file (and preferally the README) should mention the more restrictive license of the wrapped
 code.
