@@ -3,11 +3,9 @@ Combinatorics = "1"
 DiffEqBase = "6"
 DomainSets = "0.5"
 IfElse = "0.1"
-ModelingToolkit = "8"
 NonlinearSolve = "0.3"
 OrdinaryDiffEq = "6"
 SafeTestsets = "0.0.1"
-SciMLBase = "1"
 SymbolicUtils = "0.19"
 Symbolics = "4"
 julia = "1.6.0-1"
@@ -18,6 +16,10 @@ TermInterface = "0.2"
 ["0-0.3.0"]
 DiffEqOperators = "4.41.0-4"
 
+["0-0.4"]
+ModelingToolkit = "8"
+SciMLBase = "1"
+
 ["0.2-0"]
 TermInterface = "0.2-0.3"
 
@@ -27,3 +29,8 @@ DiffEqOperators = "4.43.0-4"
 ["0.3.2-0"]
 StableRNGs = "1"
 StaticArrays = "1"
+
+["0.5-0"]
+Interpolations = "0.14"
+ModelingToolkit = "8.22.0-8"
+SciMLBase = "1.57.0-1"
