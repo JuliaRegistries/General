@@ -115,7 +115,6 @@ CSVFiles = ["0.16", "1"]
 FileIO = "1"
 FilePaths = "0.8"
 IterTools = "1.3.0-1"
-LightGraphs = "1.3.0-1"
 MacroTools = "0.5"
 NamedArrays = "0.9"
 ProgressMeter = "1.2.0-1"
@@ -127,7 +126,10 @@ DataStructures = "0.17"
 ["0.9.5-1.3"]
 MetaGraphs = "0.6"
 
-[1]
+["0.9.5-1.4"]
+LightGraphs = "1.3.0-1"
+
+["1-1.4"]
 DelimitedFiles = "1.4.0-1"
 julia = "1.4.0-1"
 
@@ -151,16 +153,20 @@ DataStructures = "0.17-0.18"
 ["1.1-1.2.2"]
 Distributions = "0.21-0.24"
 
-["1.2-1"]
-Electron = "3.1.0-3"
-
 ["1.2-1.2.2"]
 DataFrames = "0.19.1-0.22"
+
+["1.2-1.4"]
+Electron = "3.1.0-3"
 
 ["1.2.3-1"]
 DataFrames = ["0.19.1-0.22", "1"]
 Distributions = "0.21-0.25"
 
-["1.4-1"]
+["1.4"]
 GraphPlot = "0.3-0.5"
 MetaGraphs = "0.6-0.7"
+
+["1.5-1"]
+Electron = "3.1.0-4"
+julia = "1.6.0-1"
