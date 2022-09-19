@@ -1,9 +1,6 @@
 [0]
 CatViews = "1"
-DelimitedFiles = "1.6.0-1"
-ExaPF = "0.6"
 MPI = "0.19"
-julia = "1.6.0-1"
 
 ["0-0.3"]
 CUDA = "3.4"
@@ -13,11 +10,23 @@ JuMP = "0.21"
 ["0-0.4"]
 ExaTron = "0.1"
 
+["0-0.5"]
+DelimitedFiles = "1.6.0-1"
+ExaPF = "0.6"
+julia = "1.6.0-1"
+
 ["0.4-0"]
 CUDA = "3.4.0-3"
 Ipopt = "1"
 JuMP = "1"
 
-["0.5-0"]
+["0.5"]
 ExaAdmm = "0.1.2-0.1"
 ExaTron = "1"
+
+["0.6-0"]
+ExaAdmm = "0.3"
+ExaPF = "0.8"
+ExaTron = "2.1.0-2"
+HDF5 = "0.16"
+julia = "1.8.0-1"
