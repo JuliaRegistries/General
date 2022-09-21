@@ -110,10 +110,12 @@ PrettyTables = "0.9"
 AbstractFFTs = "0.5"
 
 [4-5]
-Compat = "2.2.0-3"
 IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
 TableTraits = ["0.4", "1"]
 Tables = "1"
+
+["4-5.3"]
+Compat = "2.2.0-3"
 
 ["4.0"]
 Requires = ["0.5", "1"]
@@ -183,3 +185,6 @@ AbstractMCMC = ["0.4-0.5", "1-4"]
 
 ["5.3-5"]
 StatsFuns = ["0.8-0.9", "1"]
+
+["5.4-5"]
+Compat = "2.2.0-4"
