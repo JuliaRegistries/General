@@ -26,8 +26,14 @@ MLJModelInterface = "0.3.5-0.4"
 MLJModelInterface = ["0.3.5-0.4", "1"]
 
 ["0.3-0"]
-MultivariateStats = "0.9"
 julia = "1.6.0-1"
+
+["0.3-0.4"]
+MultivariateStats = "0.9"
 
 ["0.4-0"]
 MLJModelInterface = "1.4.0-1"
+
+["0.5-0"]
+CategoricalDistributions = "0.1.9-0.1"
+MultivariateStats = "0.10"
