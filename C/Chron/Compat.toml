@@ -1,8 +1,6 @@
 [0]
-DelimitedFiles = "1"
 Distributions = "0.15-0.25"
 KernelDensity = "0.4-0.6"
-LsqFit = "0.7-0.12"
 Plots = "1"
 ProgressMeter = "1"
 StatsBase = "0.28-0.33"
@@ -18,6 +16,10 @@ GR = "0.28-0.57"
 
 ["0-0.2.2"]
 SpecialFunctions = ["0.5-0.10", "1"]
+
+["0-0.3.5"]
+DelimitedFiles = "1"
+LsqFit = "0.7-0.12"
 
 ["0.2-0"]
 Reexport = ["0.2", "1"]
@@ -62,5 +64,9 @@ GR = "0.28-0.64"
 LoopVectorization = "0.12.113-0.12"
 Polyester = "0.6"
 
-["0.3.5-0"]
+["0.3.5"]
 GR = ["0.28-0.64", "0.66"]
+
+["0.3.6-0"]
+GR = ["0.28-0.64", "0.66-0.67"]
+LsqFit = "0.7-0.13"
