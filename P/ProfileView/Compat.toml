@@ -96,8 +96,12 @@ FlameGraphs = "0.2.9-0.2"
 Gtk = "1.2.0-1"
 Preferences = "1.2.0-1"
 
-["1.4-1"]
+["1.4-1.5.1"]
 FlameGraphs = "0.2.10-0.2"
 
-["1.5.1-1"]
+["1.5.1"]
 IntervalSets = "0.2-0.6"
+
+["1.5.2-1"]
+FlameGraphs = ["0.2.10-0.2", "1"]
+IntervalSets = "0.2-0.7"
