@@ -35,6 +35,15 @@ ValueShapes = "0.7-0.9"
 ["0.2.3-0"]
 Distributions = "0.23-0.25"
 
-["0.2.4-0"]
+["0.2.4"]
 ChainRulesCore = "0.9.44-0.10"
 ValueShapes = "0.9"
+
+["0.2.6-0"]
+ChainRulesCore = ["0.9.44-0.10", "1"]
+DocStringExtensions = "0.8-0.9"
+FillArrays = "0.7-0.13"
+LineSearches = "7"
+PDMats = "0.11.5-0.11"
+Parameters = "0.12"
+ValueShapes = "0.9-0.10"
