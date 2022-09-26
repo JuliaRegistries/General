@@ -12,6 +12,18 @@ ProgressMeter = "0.0.0-0.9"
 Reexport = "0.0.0-0.2"
 julia = ["0.7", "1"]
 
+["0.10-0"]
+DecFP = "1"
+Documenter = "0.25-0.27"
+GeometricBase = "0.4"
+GeometricEquations = "0.6"
+GeometricSolutions = "0.3"
+HDF5 = "0.15-0.16"
+OffsetArrays = "1"
+Reexport = "1"
+RungeKutta = "0.3"
+julia = "1.6.0-1"
+
 ["0.2"]
 DecFP = "0.4.7-0.4"
 DelimitedFiles = "1.1.0-1"
@@ -20,7 +32,6 @@ julia = "1.1.0-1"
 ["0.2-0"]
 ForwardDiff = "0.10"
 NLsolve = "4"
-OffsetArrays = ["0.10-0.11", "1"]
 ProgressMeter = "1"
 
 ["0.2-0.3.1"]
@@ -33,6 +44,9 @@ SafeTestsets = "0.0.1"
 
 ["0.2-0.7.0"]
 Reexport = "0.2"
+
+["0.2-0.9"]
+OffsetArrays = ["0.10-0.11", "1"]
 
 ["0.2.0"]
 Documenter = "0.23"
@@ -68,10 +82,6 @@ FastTransforms = ["0.6", "0.8-0.9"]
 ["0.3.2-0.5"]
 Polynomials = "1"
 
-["0.4-0"]
-DecFP = ["0.4.9-0.4", "1"]
-julia = "1.4.0-1"
-
 ["0.4-0.5"]
 FastTransforms = ["0.6", "0.8-0.10"]
 
@@ -80,6 +90,10 @@ Documenter = "0.23-0.25"
 
 ["0.4-0.7"]
 DelimitedFiles = "1.4.0-1"
+
+["0.4-0.9"]
+DecFP = ["0.4.9-0.4", "1"]
+julia = "1.4.0-1"
 
 ["0.5-0"]
 Aqua = "0.5"
@@ -110,7 +124,7 @@ QuadratureRules = "0.1"
 ["0.7-0.9.0"]
 SimpleSolvers = "0.1"
 
-["0.7.1-0"]
+["0.7.1-0.9"]
 Reexport = ["0.2", "1"]
 
 ["0.7.1-0.9.1"]
@@ -119,7 +133,7 @@ HDF5 = "0.14-0.15"
 ["0.8"]
 RungeKutta = "0.3.1-0.3"
 
-["0.9-0"]
+["0.9"]
 Documenter = "0.23-0.27"
 GeometricBase = "0.2.1-0.2"
 GeometricEquations = "0.2"
@@ -130,4 +144,6 @@ SimpleSolvers = "0.2"
 
 ["0.9.2-0"]
 GenericLinearAlgebra = "0.2-0.3"
+
+["0.9.2-0.9"]
 HDF5 = "0.14-0.16"
