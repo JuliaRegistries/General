@@ -94,7 +94,6 @@ Manifolds = "0.6.3-0.7"
 IncrementalInference = "0.26-0.27"
 
 ["0.12-0"]
-DelimitedFiles = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0.12-0.13.0"]
@@ -102,6 +101,9 @@ RoME = "0.17-0.18"
 
 ["0.12-0.13.1"]
 DistributedFactorGraphs = "0.17-0.18"
+
+["0.12-0.13.4"]
+DelimitedFiles = "1.6.0-1"
 
 ["0.13.0"]
 IncrementalInference = "0.26-0.28"
@@ -122,20 +124,26 @@ Distributions = "0.25"
 DocStringExtensions = "0.8-0.9"
 ImageCore = "0.8-0.9"
 ImageMagick = "1"
-IncrementalInference = "0.30"
 JSON = "0.20-0.21"
 Manifolds = "0.8"
 NLsolve = "4"
 ProgressMeter = "1"
 Reexport = "1"
 Requires = "1"
-RoME = "0.20"
 TensorCast = "0.4"
 TransformUtils = "0.2.14-0.2"
+
+["0.13.2-0.13.4"]
+IncrementalInference = "0.30"
+RoME = "0.20"
 
 ["0.13.3-0"]
 NearestNeighbors = "0.4"
 StatsBase = "0.33"
+
+["0.13.5-0"]
+IncrementalInference = "0.30-0.31"
+RoME = "0.20-0.21"
 
 ["0.2.1"]
 IncrementalInference = "0.4.3-0.4"
