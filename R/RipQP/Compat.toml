@@ -58,12 +58,14 @@ Krylov = "0.8"
 QuadraticModels = "0.7.3-0.7"
 
 ["0.3.1-0"]
-SolverCore = "0.2.3-0.2"
 TimerOutputs = "0.5"
 
 ["0.3.1-0.3.2"]
 Krylov = "0.8.1-0.8"
 QuadraticModels = "0.7.4-0.7"
+
+["0.3.1-0.4"]
+SolverCore = "0.2.3-0.2"
 
 ["0.3.3-0"]
 Krylov = "0.8.2-0.8"
@@ -73,10 +75,16 @@ LimitedLDLFactorizations = "0.4.1-0.4"
 ["0.3.3-0.3"]
 QuadraticModels = "0.8.1-0.8"
 
+["0.4"]
+QuadraticModels = "0.9"
+
 ["0.4-0"]
 LLSModels = "0.3.4-0.3"
 NLPModelsModifiers = "0.6"
-QuadraticModels = "0.9"
 
 ["0.4.1-0"]
 SparseMatricesCOO = "0.2"
+
+["0.5-0"]
+QuadraticModels = "0.9.3-0.9"
+SolverCore = "0.3"
