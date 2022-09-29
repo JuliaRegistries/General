@@ -109,8 +109,6 @@ CitableCorpus = "0.8"
 ["0.15-0"]
 CitableBase = "10"
 CitableCorpus = "0.12"
-EditionBuilders = "0.7"
-Tables = "1.6.0-1"
 TypedTables = "1.4.0-1"
 
 ["0.15-0.16.2"]
@@ -129,6 +127,10 @@ CitableTeiReaders = "0.8"
 
 ["0.15-0.18.0"]
 Orthography = "0.16"
+
+["0.15-0.18.1"]
+EditionBuilders = "0.7"
+Tables = "1.6.0-1"
 
 ["0.16.3"]
 CitablePhysicalText = "0.7"
@@ -150,12 +152,20 @@ CitableTeiReaders = "0.8-0.9"
 ["0.18-0"]
 PolytonicGreek = "0.17"
 
+["0.18.1"]
+DocStringExtensions = "0.9"
+julia = "1.8.0-1"
+
 ["0.18.1-0"]
 CSV = "0.10"
 CitableTeiReaders = "0.10"
-DocStringExtensions = "0.9"
 Orthography = "0.17"
-julia = "1.8.0-1"
+
+["0.18.2-0"]
+DocStringExtensions = "0.8-0.9"
+EditionBuilders = "0.8"
+Tables = "1"
+julia = "1"
 
 ["0.2.1-0.7.3"]
 CitableObject = "0.2"
