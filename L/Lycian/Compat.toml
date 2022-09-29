@@ -1,12 +1,12 @@
-[0]
-DocStringExtensions = "0.8"
-
 ["0-0.1.2"]
 Orthography = "0.4"
 
 ["0-0.3.1"]
 Documenter = "0.26"
 julia = "1.5.0-1"
+
+["0-0.5.6"]
+DocStringExtensions = "0.8"
 
 ["0.1.13-0.1"]
 Orthography = "0.6"
@@ -22,7 +22,6 @@ Orthography = "0.10"
 
 ["0.2.2-0"]
 DataFrames = "1"
-HTTP = "0.9"
 Query = "1"
 
 ["0.2.2-0.2"]
@@ -40,6 +39,9 @@ CSV = "0.8"
 
 ["0.2.2-0.3.2"]
 Orthography = "0.11"
+
+["0.2.2-0.5.6"]
+HTTP = "0.9"
 
 ["0.3"]
 CitableParserBuilder = "0.11"
@@ -62,14 +64,14 @@ Documenter = "0.27"
 ["0.3.3-0.4.2"]
 Orthography = "0.12"
 
-["0.4-0"]
-CSV = "0.9"
-
 ["0.4-0.4.1"]
 CitableObject = "0.7"
 
 ["0.4-0.5.3"]
 CitableText = "0.11"
+
+["0.4-0.5.6"]
+CSV = "0.9"
 
 ["0.4.0"]
 CitableCorpus = "0.5"
@@ -101,7 +103,7 @@ Orthography = "0.15"
 ["0.5.3"]
 CitableCorpus = "0.8"
 
-["0.5.3-0"]
+["0.5.3-0.5.6"]
 CitableParserBuilder = "0.21"
 
 ["0.5.4-0"]
@@ -111,9 +113,18 @@ CitableCorpus = "0.12"
 CitableObject = "0.11"
 CitableText = "0.14"
 
-["0.5.5-0"]
+["0.5.5-0.5.6"]
 Orthography = "0.16"
+
+["0.5.6"]
+CitableText = "0.15"
 
 ["0.5.6-0"]
 CitableObject = "0.15"
-CitableText = "0.15"
+
+["0.5.7-0"]
+CSV = "0.10"
+CitableParserBuilder = "0.23"
+DocStringExtensions = "0.9"
+HTTP = "1"
+Orthography = "0.17"
