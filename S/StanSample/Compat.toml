@@ -262,8 +262,13 @@ JSON3 = "1.9.0-1"
 ["6-6.4"]
 StanBase = "4"
 
-["6.10.1-6"]
+["6.10.1"]
 MCMCChains = "5.3.0-5"
+
+["6.10.2-6"]
+DelimitedFiles = "1.8.0-1"
+DocStringExtensions = "0.9"
+MCMCChains = "5.4.0-5"
 
 ["6.2-6"]
 JSON = "0.21"
@@ -279,8 +284,10 @@ StanBase = "4.5.0-4"
 StatsFuns = ["0.8-0.9", "1"]
 
 ["6.6-6"]
-DocStringExtensions = "0.8-0.9"
 NamedTupleTools = "0.14"
+
+["6.6-6.10.1"]
+DocStringExtensions = "0.8-0.9"
 
 ["6.7"]
 StatsFuns = "1"
