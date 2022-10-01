@@ -72,8 +72,10 @@ FMIImport = "0.7"
 ["0.5-0.6.1"]
 Interpolations = "0.13.5-0.13"
 
-["0.6-0"]
+["0.6"]
 DifferentialEquations = "7.1.0-7"
+
+["0.6-0"]
 ProgressMeter = "1.7.2-1"
 
 ["0.6-0.6.1"]
@@ -93,10 +95,10 @@ FMIImport = "0.8"
 ["0.6.1"]
 Flux = "0.12.1-0.13"
 
-["0.6.1-0"]
+["0.6.1-0.6"]
 FMIImport = "0.8-0.9"
 
-["0.6.2-0"]
+["0.6.2-0.6"]
 ChainRulesCore = "1.14.0-1"
 DiffEqBase = "6.83.0-6"
 DiffEqCallbacks = "2.22.0-2"
@@ -107,3 +109,15 @@ Interpolations = "0.13.6-0.13"
 Optim = "1.6.0-1"
 OrdinaryDiffEq = "5.71.1-6"
 SciMLBase = "1.30.0-1"
+
+["0.7-0"]
+ChainRulesCore = "1.15.3-1"
+DiffEqCallbacks = "2.23.0-2"
+DiffEqFlux = "1.52.0-1"
+DifferentialEquations = "7.2.0-7"
+FMIImport = "0.11"
+Flux = "0.13.4-0.13"
+ForwardDiff = "0.10.32-0.10"
+Interpolations = "0.13"
+Optim = "1.7.0-1"
+SciMLBase = "1.46.0-1"
