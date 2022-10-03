@@ -92,16 +92,18 @@ LLVM_jll = "12-13"
 
 ["0.3-0"]
 ExprTools = "0.1"
-HIP_jll = "4.2.0-4"
 LLVM = "4.6.0-4"
-ROCmDeviceLibs_jll = "4.2.0-4"
 SpecialFunctions = "1-2"
-hsa_rocr_jll = "4.2.0-4"
 julia = "1.7.0-1"
-rocRAND_jll = "4.2.0-4"
 
 ["0.3-0.3.4"]
 GPUCompiler = "0.12-0.13"
+
+["0.3-0.4.2"]
+HIP_jll = "4.2.0-4"
+ROCmDeviceLibs_jll = "4.2.0-4"
+hsa_rocr_jll = "4.2.0-4"
+rocRAND_jll = "4.2.0-4"
 
 ["0.3.5-0.3"]
 GPUCompiler = "0.14"
@@ -119,3 +121,11 @@ GPUCompiler = "0.16.2-0.16"
 
 ["0.4.2-0"]
 Preferences = "1"
+
+["0.4.3-0"]
+HIP_jll = "4-5"
+ROCmDeviceLibs_jll = "4-5"
+hsa_rocr_jll = "4-5"
+rocBLAS_jll = "4-5"
+rocRAND_jll = "4-5"
+rocSPARSE_jll = "4-5"
