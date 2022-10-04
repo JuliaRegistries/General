@@ -5,12 +5,18 @@ LinearOperators = "1-2"
 NLPModels = "0.18-0.19"
 NLPModelsModifiers = "0.5-0.6"
 SolverCore = "0.2"
-Stopping = "0.4-0.5"
-StoppingInterface = "0.1-0.2"
 julia = "1.6.0-1"
 
 ["0-0.1.0"]
 LDLFactorizations = "0.8"
 
+["0-0.1.1"]
+Stopping = "0.4-0.5"
+StoppingInterface = "0.1-0.2"
+
 ["0.1.1-0"]
 LDLFactorizations = "0.8-0.9"
+
+["0.1.2-0"]
+Stopping = "0.4-0.6"
+StoppingInterface = "0.1-0.3"
