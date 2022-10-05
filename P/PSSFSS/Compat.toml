@@ -20,8 +20,10 @@ julia = "1"
 
 ["0.1.4-1"]
 JLD2 = "0.4.11-0.4"
-PkgVersion = "0.1.1-0.1"
 Triangulate = "1-2"
+
+["0.1.4-1.1.1"]
+PkgVersion = "0.1.1-0.1"
 
 ["0.1.6-0.1.8"]
 PyPlot = "2.10.0-2"
@@ -29,6 +31,13 @@ PyPlot = "2.10.0-2"
 [1]
 GeoInterface = "1.0.1-1"
 LibGEOS = "0.7.2-0.7"
+SnoopPrecompile = "1"
+
+["1-1.1.1"]
 LoopVectorization = "0.12.122-0.12"
 PolygonOps = "0.1.2-0.1"
-SnoopPrecompile = "1"
+
+["1.1.2-1"]
+LoopVectorization = "0.12"
+PkgVersion = "0.3"
+PolygonOps = "0.1"
