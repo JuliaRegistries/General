@@ -2,6 +2,8 @@
 EllipsisNotation = "1"
 NumaAllocators = "0.2"
 OffsetArrays = "1"
-ThreadPinning = "0.4"
 ThreadPools = "2"
 julia = "1.6.0-1"
+
+["0-0.4.5"]
+ThreadPinning = "0.4"
