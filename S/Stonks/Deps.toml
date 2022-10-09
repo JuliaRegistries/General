@@ -1,8 +1,13 @@
 [0]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 Chain = "8be319e6-bccf-4806-a6f7-6fae938471bc"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+
+["0-0.1"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
+["0.2-0"]
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
