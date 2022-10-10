@@ -10,13 +10,23 @@ Lehmann = "0.2"
 MCIntegration = "0.1"
 
 ["0.2-0"]
-AbstractTrees = "0.3"
 Combinatorics = "1"
 DataFrames = "1"
-DelimitedFiles = "1.6.0-1"
 FastGaussQuadrature = "0.4"
 JLD2 = "0.4"
 MPI = ["0.16", "0.19"]
 Parameters = "0.12"
-PyCall = "1"
 Quadmath = "0.5"
+
+["0.2.0"]
+AbstractTrees = "0.3"
+DelimitedFiles = "1.6.0-1"
+PyCall = "1"
+
+["0.2.1-0"]
+AbstractTrees = "0.3-0.4"
+Graphs = "1"
+Measurements = "2"
+ProgressMeter = "1"
+PythonCall = "0.9"
+Reexport = "1"
