@@ -1,5 +1,6 @@
 ["0-0.1"]
 DecisionTree = "0.0.0-0.10"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0-0.2.4"]
@@ -9,6 +10,7 @@ Parameters = "0.0.0-0.12"
 RecipesBase = "0.0.0-0.7"
 
 ["0.2-0.3"]
+Statistics = "1"
 julia = "1"
 
 ["0.2.1-0"]
@@ -62,6 +64,7 @@ RecipesBase = ["0.7-0.8", "1"]
 GaussianProcesses = "0.12"
 
 ["0.4"]
+Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["0.4.4-0.4"]
@@ -72,6 +75,7 @@ Distributions = "0.24-0.25"
 MultiKDE = "0.1"
 ProgressMeter = "1.7.0-1"
 Requires = "1"
+Statistics = "1.6.0-1"
 ThreadPools = "1-2"
 julia = "1.6.0-1"
 

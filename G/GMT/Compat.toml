@@ -2,10 +2,14 @@
 DelimitedFiles = ["0.7", "1"]
 julia = ["0.7", "1"]
 
+["0.29-0.34"]
+Statistics = "1"
+
 ["0.33-0"]
 Conda = "1"
 
 ["0.35-0"]
+Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["0.42-0"]

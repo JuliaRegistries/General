@@ -5,6 +5,7 @@ Flux = "0.0.0-0.9"
 ImageFiltering = "0-0.5"
 Images = "0-0.17"
 Requires = "0.0.0-0.5"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.4"]
@@ -16,6 +17,7 @@ Requires = "0.5"
 ImageFiltering = "0.6"
 
 ["0.4-0.5.0"]
+Statistics = "1"
 julia = "1"
 
 ["0.4-0.5.1"]
@@ -32,6 +34,9 @@ ColorTypes = "0.8-0.9"
 
 ["0.5.0"]
 Flux = "0.10"
+
+["0.5.1-0.5"]
+Statistics = "1.4.0-1"
 
 ["0.5.1-0.5.2"]
 Flux = "0.10-0.11"
@@ -57,6 +62,7 @@ Functors = "0.2"
 ["0.7-0"]
 Flux = "0.13"
 NNlib = "0.7.34-0.8"
+Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0.7-0.7.1"]

@@ -21,6 +21,7 @@ DSP = "0.5.1-0.6"
 FFTW = "0.2.4-0.3"
 FastTransforms = "0.4.2-0.5"
 StaticArrays = "0.8.3-0.11"
+Statistics = ["0.7", "1"]
 ToeplitzMatrices = "0.4.0-0.5"
 julia = ["0.7", "1"]
 
@@ -81,6 +82,7 @@ FFTW = "0.3"
 BandedMatrices = "0.9-0.10"
 
 ["0.1.4-0.2"]
+Statistics = "1"
 julia = "1"
 
 ["0.1.4-0.2.1"]
@@ -173,6 +175,7 @@ SpecialFunctions = "0.8-0.9"
 LowRankApprox = "0.2-0.4"
 
 ["0.3"]
+Statistics = "1.3.0-1"
 julia = "1.3.0-1"
 
 ["0.3-0.3.2"]
@@ -255,6 +258,7 @@ InfiniteArrays = "0.10"
 
 ["0.4-0"]
 AbstractFFTs = ["0.5", "1"]
+Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["0.4-0.4.1"]

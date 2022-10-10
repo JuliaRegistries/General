@@ -17,6 +17,7 @@ YAML = "0.0.0-0.4"
 ["0-0.5"]
 DelimitedFiles = "0.6-1"
 GeostatInversion = "0.0.0-0.4"
+Statistics = "0.6-1"
 julia = "0.6-1"
 
 ["0-0.6"]
@@ -48,6 +49,7 @@ DataFrames = "0.0.0-0.20"
 
 ["0.10-0"]
 DelimitedFiles = "1.4.0-1"
+Statistics = "1.4.0-1"
 julia = "1.4.0-1"
 
 ["0.10.1-0"]
@@ -59,6 +61,7 @@ DataFrames = "0.20"
 ["0.6"]
 DelimitedFiles = ["0.7", "1"]
 Ipopt = "0.0.0-0.6"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.6-0"]
@@ -84,6 +87,7 @@ DelimitedFiles = "1"
 Ipopt = "0.5.0-0.6"
 JuMP = "0.19.0-0.20"
 MathProgBase = "0.7"
+Statistics = "1"
 
 ["0.7.1"]
 Anasol = "0.0.0-0.6"
@@ -130,16 +134,19 @@ StatsBase = "0.15.0-0.33"
 
 ["0.7.2-0.7.4"]
 DelimitedFiles = "1"
+Statistics = "1"
 
 ["0.7.3-0.7"]
 DataFrames = "0.19.1-0.20"
 
 ["0.7.5-0.7"]
 DelimitedFiles = "1.2.0-1"
+Statistics = "1.2.0-1"
 julia = "1.2.0-1"
 
 ["0.8"]
 DelimitedFiles = "1"
+Statistics = "1"
 julia = "1"
 
 ["0.8-0"]
@@ -174,6 +181,7 @@ OrdinaryDiffEq = "5"
 
 ["0.9"]
 DelimitedFiles = "1.3.0-1"
+Statistics = "1.3.0-1"
 julia = "1.3.0-1"
 
 ["0.9.6-0.10.0"]
@@ -209,6 +217,7 @@ BlackBoxOptim = "0.5-0.6"
 DataFrames = "0.21-0.22"
 DelimitedFiles = "1.5.0-1"
 Optim = "0.22-0.23"
+Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["1-1.2.19"]
@@ -243,6 +252,7 @@ Images = "0.22-0.25"
 
 ["1.2"]
 DelimitedFiles = "1.6.0-1"
+Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["1.2-1"]
@@ -273,6 +283,7 @@ BIGUQ = "1"
 IJulia = "1"
 
 ["1.3-1"]
+Statistics = "1.7.0-1"
 julia = "1.7.0-1"
 
 ["1.3-1.3.4"]

@@ -9,6 +9,7 @@ JLD2 = "0.0.0-0.1"
 JSON = "0.0.0-0.21"
 LightGraphs = "0-1"
 SimpleWeightedGraphs = "0-1"
+Statistics = ["0.7", "1"]
 StatsBase = "0.0.0-0.32"
 julia = ["0.7", "1"]
 
@@ -26,6 +27,7 @@ StatsBase = "0.25.0-0.32"
 
 ["0.12-0.16"]
 DelimitedFiles = "1"
+Statistics = "1"
 julia = "1"
 
 ["0.12-0.17"]
@@ -51,6 +53,7 @@ Combinatorics = ["0.7", "1"]
 
 ["0.17-0.18"]
 DelimitedFiles = "1.2.0-1"
+Statistics = "1.2.0-1"
 julia = "1.2.0-1"
 
 ["0.18-0"]
@@ -73,4 +76,5 @@ HDF5 = ["0.12-0.13", "0.15"]
 DelimitedFiles = "1.6.0-1"
 Graphs = "1"
 HDF5 = ["0.12-0.13", "0.15-0.16"]
+Statistics = "1.6.0-1"
 julia = "1.6.0-1"

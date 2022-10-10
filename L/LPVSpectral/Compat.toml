@@ -3,12 +3,14 @@ DSP = "0.0.0-0.5"
 Plots = "0.0.0-0.29"
 ProximalOperators = "0.0.0-0.10"
 RecipesBase = "0.0.0-0.6"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.1.2"]
 ProximalOperators = "0.8.0-0.10"
 
 ["0.1.2-0"]
+Statistics = "1"
 julia = "1"
 
 ["0.1.2-0.1.3"]

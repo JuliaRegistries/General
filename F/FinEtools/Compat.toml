@@ -6,23 +6,30 @@ julia = ["0.7", "1"]
 ["0-4.0.3"]
 StatsBase = "0.0.0-0.32"
 
+["0.4"]
+Statistics = ["0.7", "1"]
+
 ["0.4-4.0.3"]
 Arpack = "0.0.0-0.3"
 
 ["0.5-0.6.0"]
 DelimitedFiles = "1"
+Statistics = "1"
 julia = "1"
 
 ["0.6.1-0"]
 DelimitedFiles = "1.0.1-1"
+Statistics = "1.0.1-1"
 julia = "1.0.1-1"
 
 [1-3]
 DelimitedFiles = "1"
+Statistics = "1"
 julia = "1"
 
 ["4.0"]
 DelimitedFiles = "1"
+Statistics = "1"
 julia = "1"
 
 ["4.0.5-4.0"]
@@ -35,6 +42,7 @@ StatsBase = "0.32.1-0.32"
 
 ["4.1-4.5"]
 DelimitedFiles = "1.4.0-1"
+Statistics = "1.4.0-1"
 julia = "1.4.0-1"
 
 ["4.1-4.8"]
@@ -51,14 +59,17 @@ LoopVectorization = "0.8"
 
 ["4.6.0"]
 DelimitedFiles = "1.5.0-1"
+Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["4.6.1-4.6"]
 DelimitedFiles = "1.3.0-1"
+Statistics = "1.3.0-1"
 julia = "1.3.0-1"
 
 ["4.7"]
 DelimitedFiles = "1.5.0-1"
+Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["4.7-5"]
@@ -67,6 +78,7 @@ StatsBase = "0.33"
 ["4.8"]
 DelimitedFiles = "1.5"
 LoopVectorization = "0.9"
+Statistics = "1.5"
 julia = "1.5"
 
 ["4.8.3-5"]
@@ -74,6 +86,7 @@ SymRCM = "0.2"
 
 ["4.9-4"]
 DelimitedFiles = "1.5.0-1"
+Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["4.9-5.1.6"]
@@ -84,6 +97,7 @@ Arpack = "0.5"
 
 ["5-5.3"]
 DelimitedFiles = "1.6.0-1"
+Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["5.1-5"]
@@ -106,6 +120,7 @@ WriteVTK = "1"
 
 ["5.4-5"]
 DelimitedFiles = "1.7.0-1"
+Statistics = "1.7.0-1"
 julia = "1.7.0-1"
 
 ["5.4.2-5"]
