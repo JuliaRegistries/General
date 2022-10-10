@@ -1,7 +1,5 @@
 [0]
 Cuba = "2"
-GreenFunc = "0.1"
-LegendrePolynomials = "0.3"
 Lehmann = "0.1-0.2"
 Parameters = "0.12"
 julia = "1.6.0-1"
@@ -9,7 +7,19 @@ julia = "1.6.0-1"
 ["0-0.1"]
 CompositeGrids = "0.0"
 
+["0-0.2.0"]
+GreenFunc = "0.1"
+LegendrePolynomials = "0.3"
+
 ["0.2-0"]
 CompositeGrids = "0.0-0.1"
+
+["0.2.0"]
 Roots = "1.4.0-1"
 SpecialFunctions = "0.10"
+
+["0.2.1-0"]
+GreenFunc = "0.2"
+LegendrePolynomials = "0.3-0.4"
+Roots = "1.4.0-2"
+SpecialFunctions = ["0.10", "1-2"]
