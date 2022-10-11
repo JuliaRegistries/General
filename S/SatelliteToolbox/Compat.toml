@@ -11,6 +11,13 @@ DelimitedFiles = ["0.7", "1"]
 Interpolations = "0.8.0-0.12"
 julia = ["0.7", "1"]
 
+["0.10-0"]
+Interpolations = "0.14"
+PrettyTables = ["0.12", "1-2"]
+ReferenceFrameRotations = "3"
+RemoteFiles = "0.4.2-0.5"
+julia = "1.6.0-1"
+
 ["0.3.2-0.5"]
 Parameters = "0.10.1-0.12"
 
@@ -27,14 +34,16 @@ PolynomialRoots = "0.2"
 
 ["0.6-0"]
 Crayons = "4"
-DelimitedFiles = "1"
-julia = "1"
 
 ["0.6-0.6.3"]
 Interpolations = "0.11.2-0.12"
 OptionalData = "0.2.1-0.2"
 Parameters = "0.10.3-0.12"
 StaticArrays = "0.10.3-0.12"
+
+["0.6-0.9"]
+DelimitedFiles = "1"
+julia = "1"
 
 ["0.6.0"]
 ReferenceFrameRotations = "0.5.1"
@@ -83,16 +92,18 @@ Interpolations = "0.13"
 ["0.8.0"]
 PrettyTables = "0.11"
 
-["0.8.1-0"]
-PrettyTables = ["0.12", "1"]
-
 ["0.8.1-0.8"]
 RemoteFiles = "0.4.1-0.4"
 
-["0.9-0"]
+["0.8.1-0.9"]
+PrettyTables = ["0.12", "1"]
+
+["0.9"]
 ReferenceFrameRotations = ["0.5", "1"]
 RemoteFiles = "0.4.2-0.4"
 
 ["0.9.1-0"]
-Interpolations = "0.13.3-0.13"
 OptionalData = ["0.3", "1"]
+
+["0.9.1-0.9"]
+Interpolations = "0.13.3-0.13"
