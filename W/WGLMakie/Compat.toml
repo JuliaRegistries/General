@@ -141,7 +141,7 @@ AbstractPlotting = "0.15.4-0.15"
 AbstractPlotting = "0.18"
 Observables = "0.3-0.4"
 
-["0.3.5-0"]
+["0.3.5-0.6"]
 FreeTypeAbstraction = "0.8-0.9"
 
 ["0.3.6-0.3"]
@@ -218,7 +218,7 @@ Makie = "0.17.11"
 ["0.6.12"]
 Makie = "0.17.12"
 
-["0.6.13-0"]
+["0.6.13-0.6"]
 Makie = "0.17.13"
 
 ["0.6.2"]
@@ -227,7 +227,7 @@ Makie = "0.17.2"
 ["0.6.3"]
 Makie = "0.17.3"
 
-["0.6.4-0"]
+["0.6.4-0.6"]
 RelocatableFolders = "0.1-0.3"
 
 ["0.6.4-0.6.5"]
@@ -244,3 +244,9 @@ Makie = "0.17.8"
 
 ["0.6.9"]
 Makie = "0.17.9"
+
+["0.7-0"]
+FreeTypeAbstraction = "0.10"
+Makie = "0.18.0"
+RelocatableFolders = ["0.1-0.3", "1"]
+SnoopPrecompile = "1"
