@@ -2,9 +2,15 @@
 GarishPrint = "0.5"
 Genie = "5"
 GenieAutoReload = "2"
-GenieDevTools = "1"
 Reexport = "1"
 Stipple = "0.25"
 StipplePlotly = "0.13"
 StippleUI = "0.20"
 julia = "1.6.0-1"
+
+["1.0"]
+GenieDevTools = "1"
+
+["1.1-1"]
+GenieDevTools = "2"
+Revise = "3"
