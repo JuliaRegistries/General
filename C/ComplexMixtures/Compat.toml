@@ -30,13 +30,13 @@ PDBTools = "0.5-1.0"
 ["0.4.10-0"]
 StableRNGs = "1"
 
-["0.4.14-0"]
+["0.4.14-0.5.8"]
 PDBTools = "0.12"
 
 ["0.4.15-0"]
 StaticArrays = "1"
 
-["0.4.20-0"]
+["0.4.20-0.5.8"]
 DocStringExtensions = "0.8"
 
 ["0.4.25-0"]
@@ -47,7 +47,6 @@ JSON3 = "1"
 Parameters = "0.12"
 ProgressMeter = "1"
 StructTypes = "1"
-ThreadPools = "1"
 
 ["0.4.4-0.4.13"]
 PDBTools = "0.11"
@@ -55,8 +54,16 @@ PDBTools = "0.11"
 ["0.4.4-0.5.6"]
 Chemfiles = "0.9"
 
+["0.4.4-0.5.8"]
+ThreadPools = "1"
+
 ["0.4.9-0.4.14"]
 StaticArrays = "0.12"
 
 ["0.5.7-0"]
 Chemfiles = "0.9-0.10"
+
+["0.5.9-0"]
+DocStringExtensions = "0.8-0.9"
+PDBTools = "0.12-0.13"
+ThreadPools = "1-2"
