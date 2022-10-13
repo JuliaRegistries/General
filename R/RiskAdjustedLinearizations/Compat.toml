@@ -1,14 +1,14 @@
 [0]
 BandedMatrices = "0.15"
+DiffEqBase = "6"
 
 [0-1]
-DiffEqBase = "6"
 ForwardDiff = "0.10"
 NLsolve = "4"
 UnPack = "1"
 julia = "1"
 
-["0.2-1"]
+["0.2-0"]
 ArrayInterface = "2"
 
 ["0.5-1"]
@@ -19,3 +19,11 @@ BandedMatrices = "0.15-0.16"
 FiniteDiff = "2.7.0-2"
 SparseDiffTools = "1.9.0-1"
 SparsityDetection = "0.3"
+
+["1.0.0"]
+ArrayInterface = "2"
+DiffEqBase = "6"
+
+["1.0.1-1"]
+ArrayInterface = "2-3"
+LabelledArrays = "1"
