@@ -2,10 +2,17 @@
 CUDA = "3"
 DiffEqBase = "6"
 KernelAbstractions = "0.7-0.8"
-MPI = "0.19"
 SciMLBase = "1"
 StaticArrays = "1"
+
+["0-0.2.4"]
+MPI = "0.19"
 julia = "1.7.0-1"
 
 ["0.2-0"]
 DiffEqCallbacks = "2"
+
+["0.2.5-0"]
+ClimaComms = "0.3.1-0.3"
+DataStructures = "0.18"
+julia = "1.8.0-1"
