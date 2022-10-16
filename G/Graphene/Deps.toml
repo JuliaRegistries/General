@@ -7,10 +7,18 @@ GeometricalPredicates = "fd0ad045-b25c-564e-8f9c-8ef5c5f21267"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
-JuliaDB = "a93385a2-3734-596a-9a66-3cfbb77141e6"
 NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 QuartzImageIO = "dca85d43-d64c-5e67-8c65-017450d5d020"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
+
+["0-0.1"]
+JuliaDB = "a93385a2-3734-596a-9a66-3cfbb77141e6"
+
+["0.2-0"]
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
+LazySets = "b4f0291d-fe17-52bc-9479-3d1a343d9043"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
