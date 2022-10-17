@@ -1,7 +1,6 @@
 [0]
 Einsum = "0.4"
 ForwardDiff = "0.10"
-GeometryBasics = "0.3"
 GeometryTypes = "0.8"
 IterativeSolvers = "0.9"
 JSON = "0.21"
@@ -41,6 +40,9 @@ Distributions = "0.24"
 ["0-0.4.2"]
 Ferrite = "0.3"
 
+["0-0.5"]
+GeometryBasics = "0.3"
+
 ["0-0.5.2"]
 Setfield = "0.7"
 StatsFuns = "0.9"
@@ -60,11 +62,13 @@ Nonconvex = "0.5.2-0.5"
 ["0.4.3-0"]
 Ferrite = "0.3.0"
 
+["0.5"]
+Nonconvex = "1"
+NonconvexMMA = "0.1"
+
 ["0.5-0"]
 ChainRulesCore = "1"
 FileIO = "1"
-Nonconvex = "1"
-NonconvexMMA = "0.1"
 NonconvexPercival = "0.1"
 
 ["0.5-0.5.2"]
@@ -85,8 +89,17 @@ NearestNeighbors = "0.4"
 AbstractDifferentiation = "0.4"
 Flux = "0.11-0.13"
 Preconditioners = "0.3-0.5"
-Setfield = "0.7-0.8"
 StatsFuns = ["0.9", "1"]
+
+["0.5.3-0.5"]
+Setfield = "0.7-0.8"
 
 ["0.5.4-0"]
 NonconvexSemidefinite = "0.1.7-0.1"
+
+["0.6-0"]
+GeometryBasics = "0.3-0.4"
+JuliaFormatter = "1"
+Nonconvex = "2"
+NonconvexMMA = "1"
+Setfield = ["0.7-0.8", "1"]
