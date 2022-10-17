@@ -1,9 +1,7 @@
 [0]
-Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
-JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
@@ -12,6 +10,20 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 
+["0-0.2"]
+Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
+
 ["0.2-0"]
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
+
+["0.3-0"]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Measures = "442fdcdd-2543-5da2-b0f3-8c86c306513e"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
