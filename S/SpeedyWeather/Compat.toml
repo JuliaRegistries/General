@@ -21,11 +21,18 @@ ProgressMeter = "1.7.0-1"
 UnicodePlots = "2.10.0-3"
 julia = "1.7.0-1"
 
+["0.3"]
+CUDAKernels = "0.3"
+KernelAbstractions = "0.7"
+
 ["0.3-0"]
 Adapt = "3"
 BitInformation = "0.6"
 CUDA = "3"
-CUDAKernels = "0.3"
 CodecZlib = "0.7"
 JLD2 = "0.4"
-KernelAbstractions = "0.7"
+
+["0.4-0"]
+CUDAKernels = "0.3-0.4"
+GenericFFT = "0.1"
+KernelAbstractions = "0.7-0.8"
