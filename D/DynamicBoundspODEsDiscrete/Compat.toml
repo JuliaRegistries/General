@@ -22,12 +22,20 @@ DynamicBoundsBase = "0.5.4-0.5"
 ["0.1.1-0.1"]
 DynamicBoundsBase = "0.5.5-0.5"
 
+["0.2"]
+DynamicBoundsBase = "0.7"
+McCormick = "0.13"
+julia = "1.6-1.7"
+
 ["0.2-0"]
 DiffResults = "1.0"
-DynamicBoundsBase = "0.7"
 ForwardDiff = "0.10.25-0.10"
-McCormick = "0.13"
 OrdinaryDiffEq = "6"
 Reexport = "1"
 StaticArrays = "1"
-julia = "1.6-1.7"
+
+["0.3-0"]
+DynamicBoundsBase = "0.7.1-0.7"
+McCormick = "0.13.2-0.13"
+UnPack = "1"
+julia = "1.6-1.8"
