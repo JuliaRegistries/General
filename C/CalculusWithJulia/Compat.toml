@@ -31,16 +31,16 @@ Roots = "1"
 SplitApplyCombine = "1"
 
 ["0.0.17-0"]
-QuizQuestions = "0.1-0.4"
 Roots = "1-2"
+
+["0.0.17-0.1.0"]
+QuizQuestions = "0.1-0.4"
 
 ["0.0.2-0"]
 Contour = "0.5"
 ForwardDiff = "0.10"
 HCubature = "1"
 JSON = ["0.10", "0.20-0.21", "1"]
-LaTeXStrings = "1"
-Mustache = "1"
 RecipesBase = ["0.7-0.8", "1"]
 Requires = "1"
 
@@ -59,6 +59,10 @@ SymPy = "1"
 ["0.0.2-0.0.9"]
 Reexport = "0.2"
 SpecialFunctions = "0.10"
+
+["0.0.2-0.1.0"]
+LaTeXStrings = "1"
+Mustache = "1"
 
 ["0.0.3-0.0.10"]
 Tectonic = "0.2"
