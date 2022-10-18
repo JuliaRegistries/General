@@ -2,7 +2,6 @@
 Adapt = "3"
 CUDA = "3"
 ChainRulesCore = "1"
-ComponentArrays = "0.13"
 GPUArrays = "8"
 GPUArraysCore = "0.1"
 NNlib = "0.8"
@@ -21,6 +20,9 @@ Lux = "0.4"
 
 ["0-0.1.4"]
 NeuralPDE = "5"
+
+["0-0.3.4"]
+ComponentArrays = "0.13"
 
 ["0.1.2-0.1.4"]
 Lux = "0.4.20-0.4"
@@ -46,3 +48,6 @@ StaticArraysCore = "1"
 
 ["0.3.3-0"]
 ForwardDiff = "0.10"
+
+["0.3.5-0"]
+ComponentArrays = "0.13.4-0.13"
