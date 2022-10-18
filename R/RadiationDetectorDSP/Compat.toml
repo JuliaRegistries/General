@@ -1,16 +1,11 @@
 [0]
 ArgCheck = "1-2"
 DSP = "0.6-0.7"
-Distributions = "0.21-0.25"
 ElasticArrays = "1"
-ParallelProcessingTools = "0.4"
 Parameters = "0.12"
-RecipesBase = ["0.7-0.8", "1"]
 SIMD = "2-3"
-StaticArrays = ["0.11-0.12", "1"]
 StatsBase = "0.32-0.33"
 TypedTables = "1.2.0-1"
-julia = "1.6.0-1"
 
 ["0-0.1.0"]
 RadiationDetectorSignals = "0.1"
@@ -18,11 +13,33 @@ RadiationDetectorSignals = "0.1"
 ["0-0.1.2"]
 ArraysOfArrays = "0.4-0.5"
 
+["0-0.1.3"]
+Distributions = "0.21-0.25"
+ParallelProcessingTools = "0.4"
+RecipesBase = ["0.7-0.8", "1"]
+StaticArrays = ["0.11-0.12", "1"]
+julia = "1.6.0-1"
+
 ["0.1.1"]
 RadiationDetectorSignals = "0.1-0.2"
 
-["0.1.2-0"]
+["0.1.2-0.1.3"]
 RadiationDetectorSignals = "0.1-0.3"
 
 ["0.1.3-0"]
 ArraysOfArrays = "0.4-0.6"
+
+["0.1.4-0"]
+Adapt = "1-3"
+ChainRulesCore = "1"
+CompositionsBase = "0.1"
+DocStringExtensions = "0.8"
+FFTW = "1"
+FillArrays = "0.7-0.13"
+FunctionChains = "0.1"
+InverseFunctions = "0.1"
+KernelAbstractions = "0.8"
+RadiationDetectorSignals = "0.3.3-0.3"
+UnPack = "1"
+Unitful = "1"
+julia = "1.7.0-1"
