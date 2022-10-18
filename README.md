@@ -50,7 +50,9 @@ Registered packages must have an [Open Source Initiative approved license](https
 clearly marked via a `LICENSE.md`, `LICENSE`, `COPYING` or similarly named file in the package repository.
 Packages that wrap proprietary libraries (or otherwise restrictive libraries) are
 acceptable if the licenses of those libraries permit open source distribution of the Julia wrapper code.
-The LICENCE file (and preferably the README) should mention the more restrictive license of the wrapped
+The more restrictive license of the wrapped code:
+1. MUST be mentioned in either the `THIRD_PARTY_NOTICE` file or the `LICENSE` file (preferably the `THIRD_PARTY_NOTICE` file).
+3. SHOULD be mentioned in the `README` file.
 code.
 
 
