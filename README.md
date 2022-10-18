@@ -46,10 +46,18 @@ requests need to be manually reviewed and merged by a human.
 It is ***highly recommended*** to also use [TagBot][tagbot], which automatically tags a release in your
 repository after the new release of your package is merged into the registry.
 
-Registered packages must have an [Open Source Initiative approved license](https://opensource.org/licenses),
-clearly marked via a `LICENSE.md`, `LICENSE`, `COPYING` or similarly named file in the package repository.
-Packages that wrap proprietary libraries are acceptable if the licenses of those libraries permit open
-source distribution of the Julia wrapper code.
+Registered packages MUST have an [Open Source Initiative approved license](https://opensource.org/licenses),
+clearly marked via the license file (see below for definition) in the package repository.
+Packages that wrap proprietary libraries (or otherwise restrictive libraries) are
+acceptable if the licenses of those libraries permit open source distribution of the Julia wrapper code.
+The more restrictive license of the wrapped code:
+1. MUST be mentioned in either the third party notice file or the license file (preferably the third party notice file).
+2. SHOULD be mentioned in the README file.
+
+Please note that:
+- "README file" refers to the plain text file named `README.md`, `README`, or something similar.
+- "License file" refers to the plain text file named `LICENSE.md`, `LICENSE`, `COPYING`, or something similar.
+- "Third party notice file" refers to the plain text file named `THIRD_PARTY_NOTICE.md`, `THIRD_PARTY_NOTICE`, or something similar.
 
 ### Automatic merging of pull requests
 
