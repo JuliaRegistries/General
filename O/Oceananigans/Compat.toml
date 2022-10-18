@@ -211,7 +211,7 @@ KernelAbstractions = "0.6-0.7"
 ["0.6-0.11"]
 OffsetArrays = "0.0.0-1"
 
-["0.61.1-0"]
+["0.61.1-0.77"]
 MPI = "0.16-0.19"
 
 ["0.63.2-0.75"]
@@ -235,10 +235,12 @@ NCDatasets = "0.10-0.12"
 
 ["0.76-0"]
 CUDA = "3.8.0-3"
-CUDAKernels = "0.3.3-0.4"
 KernelAbstractions = "0.7-0.8"
 
-["0.76.1-0"]
+["0.76-0.77"]
+CUDAKernels = "0.3.3-0.4"
+
+["0.76.1-0.77"]
 SeawaterPolynomials = "0.2.3-0.2"
 
 ["0.76.2-0"]
@@ -256,6 +258,11 @@ AlgebraicMultigrid = "0.5"
 
 ["0.77.3-0"]
 AMGX = "0.1"
+
+["0.78-0"]
+CUDAKernels = "0.3.3-0.3"
+MPI = "0.16-0.20"
+SeawaterPolynomials = "0.3"
 
 ["0.9-0.11"]
 JLD2 = "0.0.0-0.2"
