@@ -1,10 +1,6 @@
 [0]
-DiffResults = "1"
 ForwardDiff = "0.10"
 LogExpFunctions = "0.2-0.3"
-StaticArrays = "1"
-Tables = "1.4.0-1"
-Unitful = "1.5.0-1"
 
 ["0-0.2.1"]
 CSV = "0.8"
@@ -22,6 +18,12 @@ NLSolvers = "0.1"
 ["0-0.3.4"]
 Roots = "1"
 julia = "1.5.0-1"
+
+["0-0.3.9"]
+DiffResults = "1"
+StaticArrays = "1"
+Tables = "1.4.0-1"
+Unitful = "1.5.0-1"
 
 ["0.2.2"]
 CSV = "0.8-0.9"
@@ -49,8 +51,18 @@ Metaheuristics = "3"
 
 ["0.3.1-0"]
 BlackBoxOptim = "0.6.1-0.6"
-CSV = "0.9-0.10"
 ThermoState = "0.5"
+
+["0.3.1-0.3.9"]
+CSV = "0.9-0.10"
+
+["0.3.10-0"]
+CSV = "0.10"
+DiffResults = "1.1.0-1"
+Roots = "2.0.4-2"
+StaticArrays = "1.5.9-1"
+Tables = "1.8.0-1"
+Unitful = "1.12.0-1"
 
 ["0.3.3-0"]
 FillArrays = "0.12-0.13"
@@ -66,4 +78,6 @@ Roots = "1-2"
 
 ["0.3.8-0"]
 NLSolvers = "0.3"
+
+["0.3.8-0.3.9"]
 Roots = "2"
