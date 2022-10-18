@@ -1,5 +1,4 @@
 [0]
-SpecialFunctions = "2.1.0-2"
 UnPack = "1.0.2-1"
 julia = "1.6.0-1"
 
@@ -9,6 +8,9 @@ PkgUtility = "0.1.14-0.1"
 
 ["0-0.1.1"]
 DocStringExtensions = "0.8.6-0.8"
+
+["0-0.3.3"]
+SpecialFunctions = "2.1.0-2"
 
 ["0.1.1"]
 ClimaCache = "0.3"
@@ -36,3 +38,7 @@ ClimaCache = "1.1.1-1"
 
 ["0.3.3-0"]
 ClimaCache = "1.1.4-1"
+
+["0.3.4-0"]
+EmeraldConstants = "0.1"
+SpecialFunctions = ["1.8.7-1", "2.1.0-2"]
