@@ -102,7 +102,6 @@ ChaosTools = "1.31.5-1"
 Entropies = "0.12"
 
 [2]
-DelayEmbeddings = "2"
 Scratch = "1"
 
 ["2-2.1.0"]
@@ -110,6 +109,9 @@ Entropies = "1"
 
 ["2-2.2"]
 RecurrenceAnalysis = "1.6.0-1"
+
+["2-2.3.0"]
+DelayEmbeddings = "2"
 
 ["2.0"]
 ChaosTools = "2"
@@ -119,7 +121,7 @@ DynamicalSystemsBase = "2"
 ChaosTools = "2.4.0-2"
 DynamicalSystemsBase = "2.1.0-2"
 
-["2.1.1-2"]
+["2.1.1-2.3.0"]
 Entropies = "1.1.0-1"
 
 ["2.1.5"]
@@ -134,11 +136,17 @@ ChaosTools = "2.7.0-2"
 ["2.1.7"]
 DynamicalSystemsBase = "2.3.4-2"
 
-["2.1.8-2"]
+["2.1.8-2.3.0"]
 DynamicalSystemsBase = "2.4.1-2"
 
-["2.2-2"]
+["2.2-2.3.0"]
 ChaosTools = "2.8.0-2"
 
 ["2.3-2"]
 RecurrenceAnalysis = "1.8.0-1"
+
+["2.3.1-2"]
+ChaosTools = "2.9"
+DelayEmbeddings = "2.4"
+DynamicalSystemsBase = "2.8"
+Entropies = "1.1"
