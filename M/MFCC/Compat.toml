@@ -1,7 +1,16 @@
-[0]
+["0-0.3.1"]
 DSP = "0.0.0-0.6"
 FileIO = "0.0.0-1"
 HDF5 = "0.0.0-0.13"
 SpecialFunctions = "0.0.0-0.10"
 WAV = "0.0.0-1"
 julia = ["0.7.0", "1"]
+
+["0.3.2-0"]
+DSP = "0.6"
+FFTW = "1"
+FileIO = "1"
+HDF5 = "0.12"
+SpecialFunctions = "0.8"
+WAV = "1"
+julia = "1"
