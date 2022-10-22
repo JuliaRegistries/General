@@ -1,24 +1,10 @@
 [0]
-Animations = "0.4"
-BSON = "0.3"
-Colors = "0.12"
-DataAugmentation = "0.2.4-0.2"
 DataDeps = "0.7"
-DataFrames = "1"
-DataLoaders = "0.1"
 FileIO = "1.7.0-1"
 FilePathsBase = "0.9"
-FixedPointNumbers = "0.8"
-Glob = "1"
 JLD2 = "0.4"
-MLDataPattern = "0.5"
-MosaicViews = "0.2-0.3"
 Parameters = "0.12"
 Reexport = "1"
-ShowCases = "0.1"
-StaticArrays = "1.1.0-1"
-Tables = "1.4.0-1"
-Zygote = "0.6"
 
 ["0-0.1"]
 IndirectArrays = "0.5"
@@ -33,6 +19,22 @@ DLPipelines = "0.3"
 LearnBase = "0.3-0.4"
 julia = "1"
 
+["0-0.4"]
+Animations = "0.4"
+BSON = "0.3"
+Colors = "0.12"
+DataAugmentation = "0.2.4-0.2"
+DataFrames = "1"
+DataLoaders = "0.1"
+FixedPointNumbers = "0.8"
+Glob = "1"
+MLDataPattern = "0.5"
+MosaicViews = "0.2-0.3"
+ShowCases = "0.1"
+StaticArrays = "1.1.0-1"
+Tables = "1.4.0-1"
+Zygote = "0.6"
+
 ["0-0.4.0"]
 Flux = "0.12"
 
@@ -40,27 +42,35 @@ Flux = "0.12"
 FluxTraining = "0.2"
 
 ["0.2-0"]
-IndirectArrays = ["0.5", "1"]
 Setfield = "0.7-0.8"
+
+["0.2-0.4"]
+IndirectArrays = ["0.5", "1"]
 
 ["0.3"]
 CSV = "0.8-0.9"
 
 ["0.3-0"]
-ImageInTerminal = "0.4"
 InlineTest = "0.2"
-PrettyTables = "1.2.0-1"
 Requires = "1"
+
+["0.3-0.4"]
+ImageInTerminal = "0.4"
+PrettyTables = "1.2.0-1"
 UnicodePlots = "2"
 
-["0.4-0"]
+["0.4"]
 CSV = "0.8-0.10"
 LearnBase = ["0.3-0.4", "0.6"]
+
+["0.4-0"]
 julia = "1.6.0-1"
 
 ["0.4.1-0"]
-ColorVectorSpace = "0.9"
 Flux = "0.12-0.13"
+
+["0.4.1-0.4"]
+ColorVectorSpace = "0.9"
 ImageIO = "0.6"
 ProgressMeter = "1"
 
@@ -69,3 +79,10 @@ FluxTraining = "0.2-0.3"
 
 ["0.4.3-0"]
 FeatureRegistries = "0.1"
+
+["0.5-0"]
+MLDatasets = "0.7"
+MLUtils = "0.2.6-0.2"
+PrettyTables = "1.2.0-2"
+TextAnalysis = "0.7"
+UnicodePlots = "2-3"
