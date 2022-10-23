@@ -1,8 +1,13 @@
 [0]
 AutoHashEquals = "0.2"
-DelimitedFiles = "1.6.0-1"
 JLD = "0.12"
 Quadmath = "0.5"
 TaylorIntegration = "0.8"
-TaylorSeries = "0.11"
 julia = "1.6.0-1"
+
+["0-0.1"]
+DelimitedFiles = "1.6.0-1"
+TaylorSeries = "0.11"
+
+["0.2-0"]
+TaylorSeries = "0.12"
