@@ -36,6 +36,10 @@ LoopVectorization = "0.12"
 ["0.10.3-0"]
 BlackBoxOptim = "0.5-0.6"
 
+["0.10.8-0"]
+HDF5 = "0.14-0.16"
+SpecialFunctions = ["0.10", "1-2"]
+
 ["0.2"]
 FITSIO = "0.14-0.15"
 Optim = "0.20-0.22"
@@ -74,6 +78,8 @@ HDF5 = "0.14"
 
 ["0.7-0"]
 ImageFiltering = "0.6"
+
+["0.7-0.10.7"]
 SpecialFunctions = ["0.10", "1"]
 
 ["0.7-0.9"]
@@ -81,5 +87,7 @@ DataFrames = "0.19-0.22"
 
 ["0.9-0"]
 CMAEvolutionStrategy = "0.1-0.2"
-HDF5 = "0.14-0.15"
 julia = "1.4.0-1"
+
+["0.9-0.10.7"]
+HDF5 = "0.14-0.15"
