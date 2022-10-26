@@ -1,6 +1,4 @@
 [0]
-AbstractDifferentiation = "0.2.1-0.2"
-ComponentArrays = "0.11.7-0.11"
 CovarianceEstimation = "0.2.7-0.2"
 Distributions = "0.25.36-0.25"
 FileIO = "1.11.0-1"
@@ -13,8 +11,18 @@ Requires = "1.2.0-1"
 Setfield = "0.8.1-0.8"
 UnPack = "1.0.2-1"
 
+["0-0.1"]
+AbstractDifferentiation = "0.2.1-0.2"
+ComponentArrays = "0.11.7-0.11"
+
 ["0-0.1.0"]
 julia = "1.6.0-1"
 
 ["0.1.1-0"]
 julia = "1.7.0-1"
+
+["0.2-0"]
+AbstractDifferentiation = "0.4.3-0.4"
+ComponentArrays = "0.12.3-0.13"
+IterativeSolvers = "0.9"
+LinearMaps = "3.6.0-3"
