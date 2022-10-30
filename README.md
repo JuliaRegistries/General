@@ -116,6 +116,13 @@ Packages like [PkgTemplates.jl](https://github.com/invenia/PkgTemplates.jl) or
 [PkgSkeleton.jl](https://github.com/tpapp/PkgSkeleton.jl) provide easy ways to setup
 documentation, tests, and continuous integration.
 
+#### Can my package in this registry depend on unregistered packages?
+
+No. In this registry, your package cannot depend on other packages that are
+unregistered. In addition, your package cannot depend on an unregistered
+version of an otherwise registered package. Both of these scenarios would cause
+this registry to be unreproducible.
+
 #### My pull request was not approved for automatic merging, what do I do?
 
 It is recommended that you fix the release to conform to the guidelines and
