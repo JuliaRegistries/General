@@ -69,11 +69,13 @@ SolverCore = "0.2.3-0.2"
 
 ["0.3.3-0"]
 Krylov = "0.8.2-0.8"
-LDLFactorizations = "0.8.1-0.9"
-LimitedLDLFactorizations = "0.4.1-0.4"
 
 ["0.3.3-0.3"]
 QuadraticModels = "0.8.1-0.8"
+
+["0.3.3-0.5"]
+LDLFactorizations = "0.8.1-0.9"
+LimitedLDLFactorizations = "0.4.1-0.4"
 
 ["0.4"]
 QuadraticModels = "0.9"
@@ -88,3 +90,8 @@ SparseMatricesCOO = "0.2"
 ["0.5-0"]
 QuadraticModels = "0.9.3-0.9"
 SolverCore = "0.3"
+
+["0.6-0"]
+HSL = "0.3"
+LDLFactorizations = "0.10"
+LimitedLDLFactorizations = "0.5"
