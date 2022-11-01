@@ -61,7 +61,7 @@ SolverCore = "0.1-0.2"
 ["0.5.2"]
 NLPModels = "0.14-0.17"
 
-["0.5.2-0"]
+["0.5.2-0.7.0"]
 LinearOperators = ["0.7", "1-2"]
 
 ["0.5.3-0.5"]
@@ -71,10 +71,20 @@ NLPModels = "0.14-0.18"
 Krylov = "0.4-0.8"
 
 ["0.6-0"]
-LDLFactorizations = "0.5-0.9"
-NLPModels = "0.14-0.19"
 julia = "1.6.0-1"
 
+["0.6-0.7.0"]
+LDLFactorizations = "0.5-0.9"
+NLPModels = "0.14-0.19"
+
 ["0.7-0"]
-HSL = "0.1-0.3"
 SolverCore = "0.3"
+
+["0.7.0"]
+HSL = "0.1-0.3"
+
+["0.7.1-0"]
+HSL = "0.3"
+LDLFactorizations = "0.5-0.10"
+LinearOperators = "1-2"
+NLPModels = "0.15-0.19"
