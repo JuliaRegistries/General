@@ -2,7 +2,6 @@
 Catlab = "0.14"
 DataStructures = "0.17-0.18"
 Reexport = "1"
-julia = "1.6.0-1"
 
 ["0-0.0.1"]
 Interact = "0.10"
@@ -10,8 +9,14 @@ Interact = "0.10"
 ["0-0.0.6"]
 AutoHashEquals = "0.2"
 
+["0.0"]
+julia = "1.6.0-1"
+
 ["0.0.2-0"]
 Requires = "1"
 
 ["0.0.7-0"]
 StructEquality = "2.1.0-2"
+
+["0.1-0"]
+julia = "1.8.0-1"
