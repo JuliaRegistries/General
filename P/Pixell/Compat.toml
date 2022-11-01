@@ -3,7 +3,6 @@ ColorSchemes = "3"
 Colors = "0.11-0.12"
 DSP = "0.7"
 FFTW = "1"
-FITSIO = "0.16"
 Libsharp = "0.2"
 RecipesBase = "1"
 Unitful = "1"
@@ -17,6 +16,9 @@ FastTransforms = "0.13"
 ["0-0.2.2"]
 Healpix = "3"
 
+["0-0.2.3"]
+FITSIO = "0.16"
+
 ["0.2-0"]
 StaticArrays = "1"
 
@@ -25,3 +27,9 @@ FastTransforms = "0.13-0.14"
 
 ["0.2.3-0"]
 Healpix = "3-4"
+
+["0.2.4-0"]
+AbstractFFTs = "1"
+FITSIO = "0.16-0.17"
+PhysicalConstants = "0.2"
+SpecialFunctions = "1.8.1-2"
