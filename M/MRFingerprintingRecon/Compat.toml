@@ -1,5 +1,4 @@
 [0]
-FFTW = "1"
 LinearOperators = "2"
 NFFTTools = "0.2"
 Polyester = "0.6"
@@ -15,6 +14,9 @@ MRIReco = "0.4-0.5"
 
 ["0-0.3.7"]
 RegularizedLeastSquares = "0.8"
+
+["0-0.4.1"]
+FFTW = "1"
 
 ["0.3.6-0"]
 NFFT = "0.12.1-0.13"
@@ -33,3 +35,6 @@ MRICoilSensitivities = "0.1.1-0.1"
 
 ["0.4-0"]
 julia = "1.7.0-1"
+
+["0.4.2-0"]
+FFTW = "1.5.0-1"
