@@ -260,9 +260,14 @@ AlgebraicMultigrid = "0.5"
 AMGX = "0.1"
 
 ["0.78-0"]
-CUDAKernels = "0.3.3-0.3"
 MPI = "0.16-0.20"
 SeawaterPolynomials = "0.3"
+
+["0.78.0"]
+CUDAKernels = "0.3.3-0.3"
+
+["0.78.1-0"]
+CUDAKernels = "0.3.3-0.4"
 
 ["0.9-0.11"]
 JLD2 = "0.0.0-0.2"
