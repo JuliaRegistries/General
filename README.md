@@ -116,6 +116,9 @@ Packages like [PkgTemplates.jl](https://github.com/invenia/PkgTemplates.jl) or
 [PkgSkeleton.jl](https://github.com/tpapp/PkgSkeleton.jl) provide easy ways to setup
 documentation, tests, and continuous integration.
 
+Some additional comments:
+* We generally do not allow empty packages to be registered.
+
 #### Can my package in this registry depend on unregistered packages?
 
 No. In this registry, your package cannot depend on other packages that are
