@@ -90,11 +90,12 @@ Registering allows the package to be added by `Pkg.add("Example")` or `] add Exa
 in the Pkg REPL mode. This is true if the package is installed in any registry
 you have installed, not just General; you can even create your own registry!
 
-#### Should I register my package?
+#### Should I register my package now?
 
-If your package might be useful to others, or provide functionality other
-packages in General might want to rely on, go for it! We only ask that you consider
-the following best practices.
+If your package is at a stage where it might be useful to others, or provide functionality other
+packages in General might want to rely on, go for it!
+
+We ask that you consider the following best practices.
 
 * It is easier for others to use your package if it has **documentation** that explains
 what the package is for and how to use it. This could be in the form of a README
@@ -105,19 +106,20 @@ to setup **tests** (see
 [the Pkg.jl docs](https://pkgdocs.julialang.org/v1/creating-packages/#Adding-tests-to-the-package)
 and the [Test stdlib docs](https://docs.julialang.org/en/v1/stdlib/Test/)), which
 can be automatically run by free **continuous integration** services such as GitHub Actions.
-* Also, note that the General registry is not a place for "personal packages" that consist of
-collections of "utility functions" nor for packages that are only useful for a closed group
-(like a research group or a company). For that, it is easy to set up your own registry using
-for example [LocalRegistry.jl](https://github.com/GunnarFarneback/LocalRegistry.jl). The
-[Pkg documentation about registries](https://pkgdocs.julialang.org/v1/registries/) might be useful
-if you decide to go this route.
 
 Packages like [PkgTemplates.jl](https://github.com/invenia/PkgTemplates.jl) or
 [PkgSkeleton.jl](https://github.com/tpapp/PkgSkeleton.jl) provide easy ways to setup
 documentation, tests, and continuous integration.
 
-Some additional comments:
-* We generally do not allow empty packages to be registered.
+Some types of packages should not be registered, or are not yet ready for registration:
+
+* The General registry is not a place for "personal packages" that consist of
+collections of "utility functions" nor for packages that are only useful for a closed group
+(like a research group or a company). For that, it is easy to set up your own registry using
+for example [LocalRegistry.jl](https://github.com/GunnarFarneback/LocalRegistry.jl). The
+[Pkg documentation about registries](https://pkgdocs.julialang.org/v1/registries/) might be useful
+if you decide to go this route.
+* "Empty" packages that do not yet have functionality are not ready to be registered.
 
 #### Can my package in this registry depend on unregistered packages?
 
