@@ -1,7 +1,12 @@
 [0]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
-MLJ = "add582a8-e3ab-11e8-2d5e-e98b27df1bc7"
 MLJBase = "a7f614a8-145f-11e9-1d2a-a57a1082229d"
 MLJModelInterface = "e80e1ace-859a-464e-9ed9-23947d8ae3ea"
 PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+
+["0-0.1"]
+MLJ = "add582a8-e3ab-11e8-2d5e-e98b27df1bc7"
+
+["0.2-0"]
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
