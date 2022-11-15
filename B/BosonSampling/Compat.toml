@@ -11,7 +11,6 @@ LaTeXStrings = "1"
 Luxor = "3"
 Optim = "1"
 Parameters = "0.12"
-Permanents = "0.1.1-0.1"
 Plots = "1"
 PolynomialRoots = "1"
 PrettyTables = "1"
@@ -21,9 +20,24 @@ StatsBase = "0.33"
 Tables = "1"
 julia = "1"
 
+["0-1.0.1"]
+Permanents = "0.1.1-0.1"
+
 [1]
 FileIO = "1"
 
 ["1.0.1-1"]
 AutoHashEquals = "0.2"
 LinearRegression = "0.2.1-0.2"
+
+["1.0.2-1"]
+ColorSchemes = "3.19.0-3"
+DataStructures = "0.18"
+Dierckx = "0.5"
+HypothesisTests = "0.10"
+Interpolations = "0.14"
+KeywordDispatch = "0.3"
+Permanents = "0.2"
+ProgressBars = "1"
+SimpleTraits = "0.9"
+UnPack = "1"
