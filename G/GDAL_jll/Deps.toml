@@ -24,7 +24,12 @@ libwebp_jll = "c5f90fcd-3b7e-5836-afba-fc50a0988cb2"
 Libtiff_jll = "89763e89-9b03-5906-acba-b20f662cd828"
 libgeotiff_jll = "06c338fa-64ff-565b-ac2f-249532af990e"
 
-[300]
+["300-300.202"]
+LibSSH2_jll = "29816b5a-b9ab-546f-933c-edad1886dfa8"
+MbedTLS_jll = "c8ffd9c3-330d-5841-b78e-0817d7145fa1"
+nghttp2_jll = "8e850ede-7688-5339-a07c-302acd2aaf8d"
+
+[300-301]
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 Expat_jll = "2e619515-83b5-522b-bb60-26c02a35a201"
 GEOS_jll = "d604d12d-fa86-5845-992e-78dc15976526"
@@ -40,14 +45,12 @@ Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
 Zstd_jll = "3161d3a3-bdf6-5164-811a-617609db77b4"
 libgeotiff_jll = "06c338fa-64ff-565b-ac2f-249532af990e"
 
-["300-300.202"]
-LibSSH2_jll = "29816b5a-b9ab-546f-933c-edad1886dfa8"
-MbedTLS_jll = "c8ffd9c3-330d-5841-b78e-0817d7145fa1"
-nghttp2_jll = "8e850ede-7688-5339-a07c-302acd2aaf8d"
-
-["300.500.102-300"]
+["300.500.102-301"]
 HDF5_jll = "0234f1f7-429e-5d53-9886-15a909be8d59"
 NetCDF_jll = "7243133f-43d8-5620-bbf4-c2c921802cf3"
 
-["300.500.103-300"]
+["300.500.103-301"]
 LibPQ_jll = "08be9ffa-1c94-5ee5-a977-46a84ec9b350"
+
+[301]
+Arrow_jll = "8ce61222-c28f-5041-a97a-c2198fb817bf"

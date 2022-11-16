@@ -143,7 +143,7 @@ DataFrames = "0.20"
 [2-4]
 Requires = "1"
 
-["2.0.5-4"]
+["2.0.5-4.5"]
 DocStringExtensions = "0.8"
 
 ["2.1-2.2.3"]
@@ -281,9 +281,11 @@ ParetoSmooth = "0.2-0.5"
 DataFrames = "1"
 Distributions = "0.25"
 KernelDensity = "0.6"
-PrettyTables = "1"
 StatsBase = "0.33"
 Tables = "1.5.0-1"
+
+["4-4.5"]
+PrettyTables = "1"
 
 ["4-4.5.0"]
 AxisKeys = "0.1"
@@ -318,17 +320,26 @@ MCMCChains = "5"
 MonteCarloMeasurements = "1"
 Optim = "1.5.0-1"
 OrderedCollections = "1.4.0-1"
+
+["4.4.2-4.5"]
 ParetoSmooth = "0.7"
 
-["4.5-4"]
+["4.5"]
 CSV = "0.9-0.10"
 
 ["4.5.1"]
 StatsFuns = ["0.9", "1"]
 
 ["4.5.1-4"]
-AxisKeys = "0.1-0.2"
 NamedTupleTools = "0.13-0.14"
+
+["4.5.1-4.5"]
+AxisKeys = "0.1-0.2"
 
 ["4.5.2-4"]
 StatsFuns = ["0.8-0.9", "1"]
+
+["4.6-4"]
+CSV = "0.10"
+DocStringExtensions = "0.9"
+PrettyTables = "2"
