@@ -24,6 +24,8 @@ jobs:
           - '1.5'
           - '1.6'
           - '1.7'
+          # - '1.8' # TODO: uncomment this line once Julia 1.9.0 is released
+          - '~1.9.0-0' # TODO: delete this line once Julia 1.9.0 is released
           - '1'
           - 'nightly'
         os:
