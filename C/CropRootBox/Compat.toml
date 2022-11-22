@@ -2,7 +2,6 @@
 Colors = "0.12"
 CoordinateTransformations = "0.6"
 Cropbox = "0.3"
-Meshing = "0.5"
 Rotations = "1"
 WriteVTK = "1"
 julia = "1.6.0-1"
@@ -11,6 +10,9 @@ julia = "1.6.0-1"
 AbstractPlotting = "0.18"
 Distributions = "0.23-0.24"
 GeometryBasics = "0.3"
+
+["0-0.1.7"]
+Meshing = "0.5"
 
 ["0.1.1-0"]
 FileIO = "1"
@@ -28,6 +30,12 @@ GeometryBasics = "0.3-0.4"
 ["0.1.6"]
 Makie = "0.13-0.16"
 
+["0.1.7"]
+Makie = "0.16"
+
 ["0.1.7-0"]
 GeometryBasics = "0.4"
-Makie = "0.16"
+
+["0.1.8-0"]
+Makie = "0.16-0.18"
+Meshing = "0.5-0.6"
