@@ -92,10 +92,15 @@ CUDA = "3.5.0-3"
 GNSSSignals = "0.15.4-0.15"
 
 ["0.15-0"]
-Acquisition = ["0.0.2", "0.0.4"]
 DocStringExtensions = "0.6-0.9"
 GNSSSignals = "0.16"
 StructArrays = ["0.4", "0.6.5-0.6"]
+
+["0.15.0"]
+Acquisition = ["0.0.2", "0.0.4"]
+
+["0.15.1-0"]
+Acquisition = ["0.0.2", "0.0.4-0.0.5"]
 
 ["0.9.3-0.10"]
 Unitful = "0.12.0-0.18"
