@@ -2,7 +2,18 @@
 CodecZlib = "0.7"
 Colors = "0.12"
 DataStructures = "0.18"
-HTTP = "1"
 JSON = "0.21"
 StatsBase = "0.33"
+
+[0-1]
+HTTP = "1"
 julia = "1"
+
+[1]
+CodecZlib = "0"
+ColorSchemes = "3"
+Colors = "0"
+DataStructures = "0"
+JSON = "0"
+Requires = "1"
+StatsBase = "0"
