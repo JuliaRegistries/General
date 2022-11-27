@@ -167,9 +167,18 @@ BytePairEncoding = "0.3"
 ["0.1.22"]
 TextEncodeBase = "0.5.8-0.5"
 
+["0.1.23"]
+TextEncodeBase = "0.5.10-0.5"
+
 ["0.1.23-0"]
 FuncPipelines = "0.2.3-0.2"
-TextEncodeBase = "0.5.10-0.5"
+
+["0.1.24-0"]
+AbstractTrees = "0.3-0.4"
+DoubleArrayTries = "0.0.2"
+Functors = "0.2-0.3"
+StringViews = "1"
+TextEncodeBase = "0.5.11-0.5"
 
 ["0.1.3"]
 CUDAnative = "2.7.0-2"
@@ -183,7 +192,6 @@ ZygoteRules = "0.2"
 HTTP = "0.8"
 
 ["0.1.4-0"]
-AbstractTrees = "0.3"
 LightXML = "0.9"
 Requires = "1"
 WordTokenizers = "0.5.6-0.5"
@@ -191,6 +199,9 @@ ZipFile = "0.9"
 
 ["0.1.4-0.1.14"]
 Pickle = "0.2"
+
+["0.1.4-0.1.23"]
+AbstractTrees = "0.3"
 
 ["0.1.4-0.1.5"]
 DataStructures = "0.17"
@@ -220,8 +231,8 @@ HTTP = "0.8-0.9"
 DelimitedFiles = "1.5.0-1"
 julia = "1.5.0-1"
 
-["0.1.9-0"]
-Functors = "0.2"
-
 ["0.1.9-0.1.16"]
 Flux = "0.12"
+
+["0.1.9-0.1.23"]
+Functors = "0.2"
