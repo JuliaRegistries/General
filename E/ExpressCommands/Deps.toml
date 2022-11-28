@@ -4,19 +4,24 @@ Comonicon = "863f3e99-da2a-4334-8734-de3dacbe5542"
 EquationOfStateRecipes = "8d49d7c9-511f-4c38-862f-eeb1232c8dad"
 EquationsOfStateOfSolids = "1eaa2786-f833-4167-8397-974edad0881e"
 Express = "b12df14e-adf7-11e9-0606-d5813a258349"
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 PrettyPrint = "8162dcfd-2161-5ef2-ae6c-7681170c5f98"
 SimpleWorkflows = "6a97d125-85da-4b66-b300-4bba10360563"
-TikzGraphs = "b4f28e30-c73f-5eaf-a395-8a9db949a742"
-TikzPictures = "37f6aa50-8035-52d0-81c2-5a1d08754b2d"
 
 ["0-0.4"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 
+["0-0.5"]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+TikzGraphs = "b4f28e30-c73f-5eaf-a395-8a9db949a742"
+TikzPictures = "37f6aa50-8035-52d0-81c2-5a1d08754b2d"
+
 ["0.2-0"]
 QuantumESPRESSOExpress = "524a00d3-5d12-4323-9774-d2c11dc9d82e"
 
 ["0.4.2-0"]
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+
+["0.6-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
