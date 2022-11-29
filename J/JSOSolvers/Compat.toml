@@ -96,8 +96,10 @@ NLPModels = "0.15-0.18"
 NLPModelsModifiers = "0.2-0.5"
 
 ["0.8-0"]
-Krylov = "0.8"
 julia = "1.6.0-1"
+
+["0.8-0.9.2"]
+Krylov = "0.8"
 
 ["0.8.1-0"]
 NLPModels = "0.15-0.19"
@@ -108,3 +110,6 @@ SolverCore = "0.2.4-0.2"
 
 ["0.9-0"]
 SolverCore = "0.3"
+
+["0.9.3-0"]
+Krylov = "0.8-0.9"
