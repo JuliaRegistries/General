@@ -1,9 +1,18 @@
 [0]
-JSON = "0.21.2-0.21"
-WebSockets = "1"
 julia = "1"
 
+["0-0.5.3"]
+JSON = "0.21.2-0.21"
+WebSockets = "1"
+
 ["0.2-0"]
+StringEncodings = "0.3"
+
+["0.2-0.5.3"]
 HTTP = "0.9"
 Nettle = "0.5"
-StringEncodings = "0.3"
+
+["0.5.4-0"]
+JSON = "0.21"
+Nettle = "1"
+WebSockets = "1.6.0-1"
