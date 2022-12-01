@@ -1,8 +1,13 @@
 [0]
 FASTX = "1"
-Gzip_jll = "1"
 Scratch = "1"
-julia = "1.6.0-1"
 
 ["0-0.1"]
 DataDeps = "0.7"
+
+[0-1]
+Gzip_jll = "1"
+julia = "1.6.0-1"
+
+[1]
+Preferences = "1"
