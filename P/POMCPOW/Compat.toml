@@ -1,9 +1,6 @@
 [0]
-BasicPOMCP = "0.3"
 Colors = "0.12"
 D3Trees = "0.3"
-MCTS = "0.4"
-POMDPModelTools = "0.3"
 POMDPs = "0.9"
 Parameters = "0.12"
 ParticleFilters = "0.5"
@@ -15,5 +12,15 @@ POMDPPolicies = "0.3"
 ["0-0.3.5"]
 CPUTime = "1"
 
-["0.3.4-0"]
+["0-0.3.6"]
+BasicPOMCP = "0.3"
+MCTS = "0.4"
+POMDPModelTools = "0.3"
+
+["0.3.4-0.3.6"]
 POMDPPolicies = "0.3-0.4"
+
+["0.3.7-0"]
+BasicPOMCP = "0.3.8-0.3"
+MCTS = "0.5"
+POMDPTools = "0.1"

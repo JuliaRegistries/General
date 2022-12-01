@@ -188,8 +188,6 @@ DocumentFunction = "1"
 DocumenterMarkdown = "0.2-0.3"
 JSON = "0.21-0.22"
 Kriging = "1"
-LsqFit = "0.11-0.12"
-MathProgBase = "0.7.8-0.8"
 Measures = "0.3.1-0.4"
 MetaProgTools = "1"
 NMF = "0.4-0.5"
@@ -217,6 +215,10 @@ Ipopt = "0.6-0.7"
 
 ["1-1.2.22"]
 JuMP = "0.21-0.22"
+
+["1-1.3.11"]
+LsqFit = "0.11-0.12"
+MathProgBase = "0.7.8-0.8"
 
 ["1.0"]
 Images = "0.23-0.24"
@@ -260,10 +262,10 @@ Ipopt = "0.6-0.9"
 ["1.2.23"]
 JuMP = "0.21-0.23"
 
-["1.2.23-1"]
+["1.2.23-1.3.11"]
 Ipopt = ["0.6-0.9", "1"]
 
-["1.2.24-1"]
+["1.2.24-1.3.11"]
 JuMP = ["0.21-0.23", "1"]
 
 ["1.2.5-1"]
@@ -281,3 +283,9 @@ DelimitedFiles = "1.7.0-1"
 ["1.3.1-1"]
 Cairo = "1"
 Fontconfig = "0.4-0.5"
+
+["1.3.12-1"]
+Ipopt = "1"
+JuMP = "1"
+LsqFit = "0.11-0.14"
+MathOptInterface = "1"
