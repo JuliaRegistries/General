@@ -1,4 +1,9 @@
 [0]
 RecipesBase = "1"
-UnicodePlots = "3.3.0-3"
 julia = "1"
+
+["0-0.1"]
+UnicodePlots = "3.3.0-3"
+
+["0.2-0"]
+UnicodePlots = ["2", "3.3.0-3"]
