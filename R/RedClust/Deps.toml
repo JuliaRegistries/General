@@ -1,17 +1,22 @@
 [0]
+Match = "7eb4fadd-790c-5f42-8a69-bfa0b872bfbf"
+RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
+
+[0-1]
 Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Match = "7eb4fadd-790c-5f42-8a69-bfa0b872bfbf"
 ProgressBars = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
-RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0.2-0"]
+["0.2-1"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[1]
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
