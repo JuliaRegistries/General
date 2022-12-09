@@ -232,11 +232,11 @@ AbstractFFTs = ["0.5", "1"]
 ApproxFunOrthogonalPolynomials = "0.3-0.4"
 Reexport = ["0.2", "1"]
 
-["0.12.6-0"]
-DomainSets = "0.3-0.5"
-
 ["0.12.6-0.12"]
 ApproxFunBase = "0.3-0.5"
+
+["0.12.6-0.13.12"]
+DomainSets = "0.3-0.5"
 
 ["0.13-0"]
 AbstractFFTs = "1"
@@ -266,6 +266,9 @@ ApproxFunBase = "0.7.29-0.7"
 ApproxFunBase = "0.7.34-0.7"
 BandedMatrices = "0.16-0.17"
 StaticArrays = "1"
+
+["0.13.13-0"]
+DomainSets = "0.3-0.6"
 
 ["0.13.2-0"]
 FastTransforms = "0.13-0.14"

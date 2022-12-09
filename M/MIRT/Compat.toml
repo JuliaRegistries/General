@@ -36,6 +36,8 @@ julia = "1.5.0-1"
 AVSfldIO = "0.2"
 FFTW = "1"
 FileIO = "1.9.0-1"
+
+["0.14-0.15"]
 Interpolations = "0.12-0.13"
 NFFT = "0.6"
 
@@ -45,11 +47,22 @@ MIRTjim = "0.6"
 ["0.14.1-0.14"]
 MIRTjim = "0.6-0.7"
 
-["0.15-0"]
+["0.15"]
 FillArrays = "0.12"
 LinearMapsAA = "0.7"
 SpecialFunctions = ["0.10", "1-2"]
+
+["0.15-0"]
 julia = "1.6.0-1"
+
+["0.16-0"]
+FillArrays = "0.12-0.13"
+ImageFiltering = "0.6-0.7"
+ImageTransformations = "0.8-0.9"
+Interpolations = "0.12-0.14"
+LinearMapsAA = "0.11"
+NFFT = "0.13"
+SpecialFunctions = "1-2"
 
 ["0.2-0.8"]
 julia = "1.1.0-1"
@@ -145,10 +158,6 @@ LaTeXStrings = "1.1.0-1"
 Colors = "0.8-0.11"
 Plots = "0.29"
 
-["0.9.3-0"]
-ImageFiltering = "0.6"
-ImageTransformations = "0.8"
-
 ["0.9.3-0.12"]
 FileIO = "1.2.0-1"
 LinearMaps = "2.6.0-2"
@@ -157,6 +166,10 @@ LinearMaps = "2.6.0-2"
 FFTViews = "0.3"
 Interpolations = "0.12"
 MIRTio = "0.2"
+
+["0.9.3-0.15"]
+ImageFiltering = "0.6"
+ImageTransformations = "0.8"
 
 ["0.9.3-0.9"]
 SpecialFunctions = "0.8-0.10"
