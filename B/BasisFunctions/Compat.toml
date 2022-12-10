@@ -1,6 +1,5 @@
 [0]
 FFTW = "1.3.0-1"
-FastGaussQuadrature = "0.4"
 MacroTools = "0.5"
 OrderedCollections = "1.2.0-1"
 QuadGK = "2.4.0-2"
@@ -32,6 +31,9 @@ julia = "1.5.0-1"
 ["0-0.5.3"]
 CompositeTypes = "0.1.2-0.1"
 DSP = "0.6-0.7"
+
+["0-0.5.4"]
+FastGaussQuadrature = "0.4"
 
 ["0.4.1-0.4.2"]
 DomainIntegrals = "0.3.3-0.3"
@@ -71,12 +73,18 @@ julia = "1.6.0-1"
 ["0.4.6-0.5.0"]
 DomainSets = "0.5.11-0.5"
 
-["0.5-0"]
+["0.5-0.5.4"]
 GridArrays = "0.1.14-0.1"
 
-["0.5.1-0"]
+["0.5.1-0.5.4"]
 DomainIntegrals = "0.3.7-0.3"
 DomainSets = "0.5.12-0.5"
 
 ["0.5.4-0"]
 CompositeTypes = "0.1.3-0.1"
+
+["0.5.5-0"]
+DomainIntegrals = "0.4"
+DomainSets = "0.5.14-0.6"
+FastGaussQuadrature = "0.4-0.5"
+GridArrays = "0.1.15-0.1"
