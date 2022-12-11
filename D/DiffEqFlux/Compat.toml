@@ -119,8 +119,10 @@ Optim = "0.20"
 
 ["1.21-1"]
 ConsoleProgressMonitor = "0.1"
-LoggingExtras = "0.4"
 TerminalLoggers = "0.1"
+
+["1.21-1.52"]
+LoggingExtras = "0.4"
 
 ["1.22-1.26"]
 Optim = "1"
@@ -224,6 +226,9 @@ SciMLSensitivity = "7"
 
 ["1.52-1"]
 ChainRulesCore = "1"
+
+["1.53-1"]
+LoggingExtras = ["0.4", "1"]
 
 ["1.7.1-1"]
 ProgressLogging = "0.1"
