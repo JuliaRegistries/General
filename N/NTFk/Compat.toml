@@ -51,8 +51,10 @@ FileIO = "1"
 Gadfly = "1"
 PyCall = "1"
 PyPlot = "2"
-TensorOperations = "1"
 TensorToolbox = "1"
+
+["0.2-1.1.8"]
+TensorOperations = "1"
 
 ["0.2.1-0.2"]
 CanDecomp = "0.3"
@@ -143,3 +145,6 @@ Ipopt = ["0.6-0.9", "1"]
 
 ["1.1.8-1"]
 JLD = "0.10-0.14"
+
+["1.1.9-1"]
+TensorOperations = "1-3"
