@@ -17,12 +17,14 @@ Distributions = "0.25"
 
 [2]
 DataStructures = "0.18"
-DomainSets = "0.5.2-0.5"
 MacroTools = "0.5.6-0.5"
 Optim = "1"
 ProgressMeter = "1"
 Rocket = "1.6.0-1"
 TupleTools = "1.2.0-1"
+
+["2-2.2"]
+DomainSets = "0.5.2-0.5"
 
 ["2.0"]
 GraphPPL = "3"
@@ -36,5 +38,9 @@ ReactiveMP = "3.0.2-3"
 ["2.1-2"]
 GraphPPL = "3.1.0-3"
 
-["2.2-2"]
+["2.2"]
 ReactiveMP = "3.1.0-3"
+
+["2.3-2"]
+DomainSets = "0.5.2-0.6"
+ReactiveMP = "3.2.0-3"
