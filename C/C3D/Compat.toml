@@ -11,7 +11,12 @@ julia = "1"
 DelimitedFiles = "1"
 VaxData = "0.5"
 
-["0.7-0"]
+["0.7-0.7.2"]
 DelimitedFiles = "1.6.0-1"
 VaxData = "0.5-0.6"
 julia = "1.6.0-1"
+
+["0.7.3-0"]
+SnoopPrecompile = "1"
+VaxData = ["0.5-0.6", "1"]
+julia = "1.8.0-1"
