@@ -34,10 +34,17 @@ FLoops = "0.2"
 UnitfulChainRules = "0.1.1"
 Zygote = "0.6.42"
 
-["0.13-0"]
+["0.13"]
 CellListMap = "0.7.21-0.7"
-UnitfulChainRules = "0.1.2"
 Zygote = "0.6.42-0.6.43"
+
+["0.13-0"]
+UnitfulChainRules = "0.1.2"
+
+["0.14-0"]
+CellListMap = "0.8.4-0.8"
+Chemfiles = "0.10.3-0.10"
+Zygote = "0.6.44"
 
 ["0.2-0"]
 KernelDensity = "0.5-0.6"
@@ -76,9 +83,11 @@ BioStructures = ["0.10-0.11", "1"]
 CellListMap = "0.5"
 
 ["0.5-0"]
-Chemfiles = "0.10"
 Combinatorics = "1"
 EzXML = "1"
+
+["0.5-0.13"]
+Chemfiles = "0.10"
 
 ["0.6"]
 AtomsBase = "0.1"
