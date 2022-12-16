@@ -240,7 +240,6 @@ StanSample = "6"
 CompatHelperLocal = "0.1"
 DataFrames = "1.4.0-1"
 DataStructures = "0.18.13-0.18"
-DimensionalData = "0.23"
 DocStringExtensions = "0.9"
 JSON3 = "1.12.0-1"
 MCMCChains = "5.5.0-5"
@@ -248,6 +247,9 @@ PosteriorDB = "0.3.1-0.3"
 StanBase = "4"
 StatsPlots = "0.15"
 Tables = "1.10.0-1"
+
+["9.10-9.10.5"]
+DimensionalData = "0.23"
 
 ["9.10.1-9.10.4"]
 InferenceObjects = "0.2"
@@ -261,9 +263,15 @@ StanSample = "6.13.5-6"
 ["9.10.4"]
 StanSample = "6.13.7-6"
 
+["9.10.5"]
+StanSample = "6.13.8-6"
+
 ["9.10.5-9"]
 InferenceObjects = "0.3"
-StanSample = "6.13.8-6"
+
+["9.10.6-9"]
+DimensionalData = "0.23-0.24"
+StanSample = "6.13.9-6"
 
 ["9.2-9"]
 JSON = "0.21"
