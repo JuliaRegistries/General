@@ -1,10 +1,18 @@
 [0]
 COSMO = "0.8"
-Convex = "0.14"
 Distributions = "0.25"
+julia = "1"
+
+["0-0.1.3"]
+Convex = "0.14"
 Mosek = "1"
 MosekTools = ["0.9", "0.11"]
-julia = "1"
 
 ["0.1.1-0"]
 Suppressor = "0.2"
+
+["0.1.4-0"]
+Aqua = "0.5"
+Convex = "0.14-0.15"
+Mosek = "10"
+MosekTools = "0.13"
