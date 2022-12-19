@@ -123,14 +123,19 @@ FastBroadcast = "0.2"
 Reexport = "1"
 Requires = "1"
 Setfield = "1"
-Static = "0.8"
 StaticArrays = "1"
+
+["6.109-6.110"]
+Static = "0.8"
 
 ["6.11-6"]
 RecursiveArrayTools = "2"
 
 ["6.110-6"]
 PreallocationTools = "0.4"
+
+["6.111-6"]
+Static = "0.7-0.8"
 
 ["6.12.3-6.13.0"]
 ChainRulesCore = "0.4-0.5"
