@@ -1,14 +1,11 @@
 [0]
-Conda = "1"
 FFTW = "1"
 ForwardDiff = "0.10"
 IterTools = "1"
 LineSearches = "7"
-NLsolve = "4"
 OrderedCollections = "1"
 PeriodicTable = "1"
 ProgressMeter = "1"
-PyCall = "1"
 Requires = "1"
 
 ["0-0.1"]
@@ -49,6 +46,11 @@ Polynomials = "1"
 
 ["0-0.4.4"]
 JSON = "0.21"
+
+["0-0.5"]
+Conda = "1"
+NLsolve = "4"
+PyCall = "1"
 
 ["0-0.5.0"]
 Roots = "1"
@@ -196,7 +198,6 @@ PseudoPotentialIO = "0.1"
 TimerOutputs = "0.5.13-0.5"
 
 ["0.5.13-0"]
-Brillouin = "0.5.10-0.5"
 Interpolations = "0.14"
 IterativeSolvers = "0.9"
 LinearMaps = "3"
@@ -205,10 +206,13 @@ Primes = "0.5"
 Roots = "2"
 SpecialFunctions = "2"
 
+["0.5.13-0.5"]
+Brillouin = "0.5.10-0.5"
+
 ["0.5.14"]
 TimerOutputs = "0.5.14-0.5"
 
-["0.5.15-0"]
+["0.5.15-0.5"]
 TimerOutputs = "0.5.15-0.5"
 
 ["0.5.5"]
@@ -226,3 +230,9 @@ Spglib = "0.6"
 
 ["0.5.9-0"]
 GPUArraysCore = "0.1"
+
+["0.6-0"]
+ASEconvert = "0.1"
+AtomsIO = "0.1.1-0.1"
+Brillouin = "0.5.11-0.5"
+TimerOutputs = "0.5.12-0.5"
