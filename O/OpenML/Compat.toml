@@ -1,6 +1,5 @@
 [0]
 JSON = "0.21"
-julia = "1"
 
 ["0-0.1"]
 ScientificTypes = "2"
@@ -9,6 +8,13 @@ ScientificTypes = "2"
 ARFFFiles = "1.3.0-1"
 HTTP = "0.8-0.9"
 
+["0-0.3.0"]
+julia = "1"
+
 ["0.3-0"]
 ARFFFiles = "1.4.1-1"
 HTTP = ["0.8-0.9", "1"]
+
+["0.3.1-0"]
+Scratch = "1.1.0-1"
+julia = "1.6.0-1"
