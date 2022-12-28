@@ -1,13 +1,21 @@
 [0]
-Acquisition = "0.0.5"
-GNSSDecoder = "0.1"
 GNSSSignals = "0.16"
 JLD2 = "0.4"
-PositionVelocityTime = "0.1"
-SoapySDR = "0.4"
 StaticArrays = "1"
 Term = "1"
 Tracking = "0.15.1-0.15"
 UnicodePlots = "3.3.0-3"
 Unitful = "1"
 julia = "1.7.0-1"
+
+["0-0.1.4"]
+Acquisition = "0.0.5"
+GNSSDecoder = "0.1"
+PositionVelocityTime = "0.1"
+SoapySDR = "0.4"
+
+["0.1.6-0"]
+Acquisition = "0.1"
+GNSSDecoder = "0.1.1-0.1"
+PositionVelocityTime = "0.2"
+SoapySDR = "0.5"
