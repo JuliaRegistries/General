@@ -4,7 +4,6 @@ Blink = "0.12"
 CUDA = "3"
 FileIO = "1"
 HDF5 = "0.16"
-Hwloc = "2"
 Interact = "0.10"
 JLD2 = "0.4"
 MAT = "0.10"
@@ -32,6 +31,9 @@ LinearOperators = "2"
 MathOptInterface = ["0.9-0.10", "1"]
 Mux = "0.7"
 PackageCompiler = "1-2"
+
+["0-0.7.1"]
+Hwloc = "2"
 
 ["0.6.3-0"]
 Interpolations = "0.13-0.14"
