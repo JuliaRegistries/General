@@ -5,7 +5,6 @@ CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
-Hwloc = "0e44f5e4-bd66-52a0-8798-143a42290a1d"
 Interact = "c601a237-2ae4-5e1e-952c-7a85b0c7eef1"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
@@ -34,6 +33,9 @@ MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
 Mux = "a975b10e-0019-58db-a62f-e48ff68538c9"
 PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+["0-0.7.1"]
+Hwloc = "0e44f5e4-bd66-52a0-8798-143a42290a1d"
 
 ["0.6.3-0.6.6"]
 Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
