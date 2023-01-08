@@ -135,7 +135,7 @@ end
 check_package_versions(pkg_name, repo_url; kw...) = check_packages_versions([pkg_name], repo_url; kw...)
 ```
 
-For example, in https://github.com/JuliaRegistries/General/pull/75319, a package author wanted to update the URL associated
+For example, in [General#75319](https://github.com/JuliaRegistries/General/pull/75319), a package author wanted to update the URL associated
 to their package "FastParzenWindows". At the time, the package had 1 registered version. We can check that it is present in the new repository via:
 ```julia
 julia> check_package_versions("FastParzenWindows", "https://github.com/ngiann/FastParzenWindows.jl.git");
@@ -143,7 +143,7 @@ Cloning into '/var/folders/jb/plyyfc_d2bz195_0rc0n_zcw0000gp/T/jl_ke9E8C'...
 ...text omitted...
 FastParzenWindows: v0.1.2 found
 ```
-We see that this version was found in the new repository. This script was based on https://github.com/JuliaRegistries/General/pull/35965#issuecomment-832721704,
+We see that this version was found in the new repository. This script was based on [this comment from General#35965](https://github.com/JuliaRegistries/General/pull/35965#issuecomment-832721704),
 which involved checking if 4 packages in the same repository all had their versions present in the new repository. That example can be handled as follows:
 
 ```julia
