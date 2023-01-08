@@ -127,7 +127,7 @@ function check_packages_versions(pkg_names, repo_url; registry_uuid=GENERAL_UUID
             push!(table, (; pkg_name, version, found))
         end
     end
-    verbose && pretty_print(table)
+    verbose && pretty_print_table(table)
     throw && check_all_found(table)
     return table
 end
