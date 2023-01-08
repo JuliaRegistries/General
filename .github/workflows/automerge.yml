@@ -29,7 +29,7 @@ jobs:
       - uses: julia-actions/setup-julia@b315a4d9881690c63d53fc0175b150a3776140bd # v1.9.0
         with:
           version: ${{ matrix.version }}
-      - run: println("::set-output name=manifest_version::$(VERSION.major).$(VERSION.minor)")
+      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes --project=.ci/ {0}
         id: manifest_version
       - run: echo "The manifest is .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml"
@@ -94,7 +94,7 @@ jobs:
       - uses: julia-actions/setup-julia@b315a4d9881690c63d53fc0175b150a3776140bd # v1.9.0
         with:
           version: '1'
-      - run: println("::set-output name=manifest_version::$(VERSION.major).$(VERSION.minor)")
+      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes --project=.ci/ {0}
         id: manifest_version
       - run: rm -rf .ci/Manifest.toml

@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
-      - run: println("::set-output name=manifest_version::$(VERSION.major).$(VERSION.minor)")
+      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes --project=.ci/ {0}
         id: manifest_version
       - run: echo "The manifest is .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml"
