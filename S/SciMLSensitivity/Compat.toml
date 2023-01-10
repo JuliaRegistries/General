@@ -9,7 +9,6 @@ DiffEqNoiseProcess = "4.1.4-5"
 DiffRules = "1"
 Distributions = "0.24-0.25"
 EllipsisNotation = "1"
-Enzyme = "0.8-0.10"
 FiniteDiff = "2"
 ForwardDiff = "0.10"
 GPUArraysCore = "0.1"
@@ -25,6 +24,9 @@ Tracker = "0.2"
 Zygote = "0.6"
 ZygoteRules = "0.2"
 julia = "1.6.0-1"
+
+["7-7.13"]
+Enzyme = "0.8-0.10"
 
 ["7-7.2.0"]
 OrdinaryDiffEq = "5.60.0-6"
@@ -44,6 +46,9 @@ SciMLBase = "1.42.3-1"
 
 ["7.11-7"]
 SciMLBase = "1.66.0-1"
+
+["7.14-7"]
+Enzyme = "0.10.14-0.10"
 
 ["7.2-7.8"]
 PreallocationTools = "0.4"
