@@ -1,7 +1,6 @@
 [0]
 Combinatorics = ["0.7", "1"]
 CoordinateTransformations = "0.5.1-0.6"
-Counters = "0.3"
 StaticArrays = ["0.8.3-0.12", "1"]
 julia = "1.3.0-1"
 
@@ -13,6 +12,9 @@ Functors = "0.1-0.2"
 
 ["0-0.5.1"]
 Compat = "2.2.0-3"
+
+["0-0.7.0"]
+Counters = "0.3"
 
 ["0.2-0.3"]
 Brillouin = "0.2-0.4"
@@ -35,9 +37,12 @@ Compat = "2.2.0-4"
 ["0.6"]
 Spglib = "0.2-0.6"
 
-["0.6-0"]
+["0.6-0.7.0"]
 Functors = "0.1-0.3"
 
 ["0.7-0"]
 EnumX = "1"
 StructHelpers = "0.1"
+
+["0.7.1-0"]
+Functors = "0.1-0.4"
