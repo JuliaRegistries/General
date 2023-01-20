@@ -22,7 +22,7 @@ Tables = ["0.2", "1"]
 ["0.6.3-0"]
 RecipesBase = "1"
 
-["0.7.2-0"]
+["0.7.2-0.8.0"]
 DBFTables = ["0.2", "1"]
 
 ["0.8-0"]
@@ -31,3 +31,7 @@ GeoFormatTypes = "0.4"
 GeoInterface = "1"
 GeoInterfaceRecipes = "1"
 julia = "1.6.0-1"
+
+["0.8.1-0"]
+DBFTables = "1.2.0-1"
+OrderedCollections = "1"
