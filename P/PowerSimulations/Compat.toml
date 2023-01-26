@@ -59,11 +59,13 @@ CSV = "0.9"
 InfrastructureSystems = "1.14.0-1"
 PowerSystems = "1.15.0-1"
 
+["0.15"]
+ParameterJuMP = "0.4"
+
 ["0.15-0"]
 CSV = "0.10"
 HDF5 = "0.16"
 MathOptInterface = "1"
-ParameterJuMP = "0.4"
 PowerModels = "0.19"
 TimeSeries = "0.23"
 
