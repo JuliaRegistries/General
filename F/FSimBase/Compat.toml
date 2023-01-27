@@ -1,16 +1,26 @@
 [0]
-DataFrames = "1.2.0-1"
 NamedTupleTools = "0.13"
 Reexport = "1.2.0-1"
 Transducers = "0.4"
-julia = "1"
 
 ["0-0.2.0"]
 DiffEqBase = "6.73.0-6"
 DiffEqCallbacks = "2.17.0-2"
 SimulationLogger = "0.2"
 
-["0.2.1-0"]
+["0-0.2.1"]
+DataFrames = "1.2.0-1"
+julia = "1"
+
+["0.2.1"]
 DiffEqBase = "6.77.0-6"
 DiffEqCallbacks = "2.18.0-2"
+
+["0.2.1-0"]
 SimulationLogger = "0.3"
+
+["0.2.2-0"]
+DataFrames = "1.4.0-1"
+DiffEqBase = "6.114.0-6"
+DiffEqCallbacks = "2.24.0-2"
+julia = "1.6.0-1"
