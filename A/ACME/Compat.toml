@@ -7,17 +7,22 @@ IterTools = "0-1"
 ProgressMeter = "0.2.1-0.9"
 julia = "0.6-1"
 
+["0.10-0"]
+julia = "1.4.0-1"
+
 ["0.7.5-0.8"]
 Compat = "1.1-2"
 
 ["0.8"]
 StaticArrays = "0.5.0-0.11"
 
+["0.9"]
+julia = "1"
+
 ["0.9-0"]
 IterTools = "1"
 OrderedCollections = "1"
 ProgressMeter = ["0.6-0.9", "1"]
-julia = "1"
 
 ["0.9.0"]
 StaticArrays = "0.8-0.11"
@@ -25,7 +30,7 @@ StaticArrays = "0.8-0.11"
 ["0.9.1-0.9.3"]
 StaticArrays = "0.8-0.12"
 
-["0.9.3-0"]
+["0.9.3-0.9"]
 Compat = "3.7.0-3"
 
 ["0.9.4-0"]
