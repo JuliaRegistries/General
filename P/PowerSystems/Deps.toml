@@ -6,7 +6,7 @@ PowerModels = "c36e90e8-916a-50a6-bd94-075b64ef4655"
 ["0-0.2"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
-[0-1]
+[0-2]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 TimeSeries = "9e3dc215-6440-5c97-bce1-76c03772f85e"
@@ -22,38 +22,44 @@ JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 
 ["0.2-1"]
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0.2-2"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0.21-1"]
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 
-["0.25-1"]
+["0.25-2"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
 ["0.3-0.23"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
-["0.3-1"]
+["0.3-2"]
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 
 ["0.4-0"]
 JSON2 = "2535ab7d-5cd8-5a07-80ac-9b1792aadce3"
 
-["0.4-1"]
+["0.4-2"]
 InfrastructureSystems = "2cd47ed4-ca9b-11e9-27f2-ab636a7671f1"
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
-["0.7-1"]
+["0.7-2"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 
-[1]
+[1-2]
 JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 
-["1.11-1"]
+["1.11-2"]
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 
-["1.18.5-1"]
+["1.18.5-2"]
 Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+
+[2]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+PowerFlowData = "dd99e9e3-7471-40fc-b48d-a10501125371"
