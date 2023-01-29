@@ -71,6 +71,9 @@ RecursiveArrayTools = "2"
 ["0.18.9-0"]
 ProgressMeter = "1"
 
+["0.19-0"]
+JSON3 = "1"
+
 ["0.3-0.4.1"]
 LightGraphs = "0.0.0-1"
 MetaGraphs = "0.6.4-0.6"
@@ -83,14 +86,16 @@ GraphPlot = "0.0.0-0.4"
 
 ["0.4.2-0"]
 JSON2 = "0.3.1-0.3"
-LightGraphs = "1.2.0-1"
-Neo4j = "2"
 
 ["0.4.2-0.11.2"]
 Graphs = ["0.10.2-0.11", "1"]
 
 ["0.4.2-0.14"]
 Requires = ["0.5-0.10", "1"]
+
+["0.4.2-0.18"]
+LightGraphs = "1.2.0-1"
+Neo4j = "2"
 
 ["0.4.2-0.18.1"]
 Distributions = ["0.18-0.25", "1"]
