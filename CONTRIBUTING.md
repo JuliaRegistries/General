@@ -1,6 +1,6 @@
 # Contribution guidelines
 
-Anyone can help improve the General registry! Here's a few ways.
+Anyone can help improve the General registry! Here are a few ways.
 
 ## As a package author
 
