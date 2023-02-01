@@ -130,5 +130,11 @@ rocBLAS_jll = "4-5"
 rocRAND_jll = "4-5"
 rocSPARSE_jll = "4-5"
 
-["0.4.5-0"]
+["0.4.5"]
 GPUCompiler = "0.16.2-0.17"
+
+["0.4.6-0"]
+GPUCompiler = "0.17"
+MsgPack = "1"
+ObjectFile = "0.3"
+TimespanLogging = "0.1"
