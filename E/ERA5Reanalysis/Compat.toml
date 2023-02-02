@@ -1,6 +1,5 @@
 [0]
 JSON = "0.21"
-PrettyTables = "1"
 Reexport = "1"
 julia = "1"
 
@@ -10,7 +9,13 @@ GeoRegions = "2.1.0-2"
 HTTP = "0.9"
 NCDatasets = "0.11"
 
+["0-0.2.0"]
+PrettyTables = "1"
+
 ["0.2-0"]
 GeoRegions = "4"
 HTTP = ["0.9", "1"]
 NCDatasets = ["0.11", "0.12.7-0.12"]
+
+["0.2.1-0"]
+PrettyTables = "1-2"
