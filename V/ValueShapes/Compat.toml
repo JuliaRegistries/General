@@ -19,7 +19,7 @@ InverseFunctions = "0.1"
 ["0.10.10-0"]
 ArraysOfArrays = "0.5-0.6"
 
-["0.10.11-0"]
+["0.10.11"]
 MeasureBase = "0.12-0.13"
 
 ["0.10.2-0"]
@@ -36,12 +36,14 @@ julia = "1.6.0-1"
 
 ["0.10.8-0"]
 DensityInterface = "0.4"
-DistributionMeasures = "0.2"
 Random123 = "1.2.0-1"
 Static = "0.5-0.6"
 
 ["0.10.8-0.10.10"]
 MeasureBase = "0.12"
+
+["0.10.8-0.10.11"]
+DistributionMeasures = "0.2"
 
 ["0.5"]
 Requires = "0.0.0-0.5"

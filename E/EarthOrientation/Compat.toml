@@ -12,7 +12,6 @@ LeapSeconds = "0.2"
 RemoteFiles = "0.2.1-0.3"
 
 ["0.5-0"]
-DelimitedFiles = "1"
 LeapSeconds = "1"
 julia = "1"
 
@@ -20,6 +19,14 @@ julia = "1"
 OptionalData = "0.3"
 RemoteFiles = "0.3"
 
+["0.5-0.7.1"]
+DelimitedFiles = "1"
+
+["0.7.1"]
+RemoteFiles = "0.3-0.4"
+
 ["0.7.1-0"]
 OptionalData = ["0.3", "1"]
-RemoteFiles = "0.3-0.4"
+
+["0.7.2-0"]
+RemoteFiles = "0.3-0.5"

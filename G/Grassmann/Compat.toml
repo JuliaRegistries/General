@@ -60,12 +60,12 @@ Reduce = "1.2.0-1"
 AbstractTensors = "0.3"
 DirectSum = "0.4"
 
-["0.4-0"]
-ComputedFieldTypes = "0.1"
-
 ["0.4-0.5.0"]
 AbstractLattices = "0.1.2-0.1"
 Leibniz = "0.0.3"
+
+["0.4-0.7"]
+ComputedFieldTypes = "0.1"
 
 ["0.5-0"]
 Requires = "1"
@@ -108,12 +108,18 @@ DirectSum = "0.5.7-0.5"
 ["0.6"]
 AbstractTensors = "0.5.2-0.5"
 
-["0.6-0"]
+["0.6-0.7"]
 DirectSum = "0.7"
 Leibniz = "0.1"
 
 ["0.7-0.7.1"]
 AbstractTensors = "0.6"
 
-["0.7.2-0"]
+["0.7.2-0.7"]
 AbstractTensors = "0.6.3-0.6"
+
+["0.8-0"]
+AbstractTensors = "0.7"
+ComputedFieldTypes = "1"
+DirectSum = "0.8.1-0.8"
+Leibniz = "0.2"

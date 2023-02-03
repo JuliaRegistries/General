@@ -40,12 +40,14 @@ DocStringExtensions = "0.8-0.9"
 IntervalSets = "0.5-0.7"
 LambertW = "0.4"
 StatsBase = "0.33"
-SurfaceFluxes = "0.4"
 
 ["0.3-0.6"]
 FastGaussQuadrature = "0.4"
 Flux = "0.12-0.13"
 OperatorFlux = "0.1"
+
+["0.3-0.8"]
+SurfaceFluxes = "0.4"
 
 ["0.4"]
 CloudMicrophysics = "0.8"
@@ -66,3 +68,9 @@ FastGaussQuadrature = "0.4-0.5"
 OrdinaryDiffEq = "5-6"
 StaticArrays = "1"
 Thermodynamics = "0.10"
+
+["0.9-0"]
+Colors = "0.12"
+NVTX = "0.3"
+RootSolvers = "0.2-0.3"
+SurfaceFluxes = "0.5"

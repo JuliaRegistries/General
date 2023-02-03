@@ -1,16 +1,19 @@
-[0]
+["0-0.4.0"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[0-1]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0-0.4.0"]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
 ["0.5.1"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
-["0.5.2-0"]
+["0.5.2-1"]
 NonNegLeastSquares = "b7351bd1-99d9-5c5d-8786-f205a815c4d7"
 RandomizedLinAlg = "0448d7d9-159c-5637-8537-fd72090fea46"
+
+[1]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"

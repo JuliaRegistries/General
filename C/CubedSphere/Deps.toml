@@ -1,9 +1,16 @@
 [0]
 Elliptic = "b305315f-e792-5b7a-8f41-49f472929428"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
 TaylorSeries = "6aa5eb33-94cf-58f4-a9d0-e4b2c4fc25ea"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0-0.1"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0-0.2.1"]
+Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
+
+["0.2.2-0"]
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+ProgressBars = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"

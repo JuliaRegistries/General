@@ -5,7 +5,6 @@ DiffEqBase = "6"
 DiffEqCallbacks = "2.20.1-2"
 LinearSolve = "1"
 Lux = "0.4"
-MLUtils = "0.2"
 OrdinaryDiffEq = "6"
 SciMLBase = "1.19.0-1"
 SteadyStateDiffEq = "1.6.0-1"
@@ -22,10 +21,20 @@ julia = "1.7.0-1"
 ["0-0.1.0"]
 Static = "0.6"
 
-["0.1.1-0"]
+["0-0.2.3"]
+MLUtils = "0.2"
+
+["0.1.1-0.2.3"]
 Static = "0.6-0.7"
 
 ["0.2-0"]
-Functors = "0.2-0.3"
 SciMLSensitivity = "7"
 julia = "1.6.0-1"
+
+["0.2-0.2.3"]
+Functors = "0.2-0.3"
+
+["0.2.4-0"]
+Functors = "0.2-0.4"
+MLUtils = "0.2-0.4"
+Static = "0.6-0.8"
