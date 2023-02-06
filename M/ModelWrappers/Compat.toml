@@ -1,7 +1,6 @@
 [0]
 ArgCheck = "2"
 BaytesCore = "0.1"
-Bijectors = "0.10"
 ChainRulesCore = "1"
 Distributions = "0.24-0.25"
 StatsBase = "0.33"
@@ -18,8 +17,14 @@ ForwardDiff = "0.10"
 ReverseDiff = "1.12.0-1"
 Zygote = "0.6"
 
+["0-0.3"]
+Bijectors = "0.10"
+
 ["0-0.3.3"]
 DocStringExtensions = "0.8"
 
 ["0.3.4-0"]
 DocStringExtensions = "0.8-0.9"
+
+["0.4-0"]
+Bijectors = "0.12"
