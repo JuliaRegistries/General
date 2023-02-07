@@ -1,27 +1,34 @@
-[0]
-RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
-ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
-
 ["0-0.2"]
 GDAL = "add2ef01-049f-52c4-9ee2-e494f65e021a"
 
 ["0-0.4"]
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 
+["0-0.8"]
+RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
+
 ["0.2-0"]
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.3-0"]
+["0.2-0.8"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.3-0.8"]
 ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
 
-["0.5-0"]
+["0.5-0.8"]
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 
-["0.8-0"]
+["0.8"]
 ColorBlendModes = "60508b50-96e1-4007-9d6c-f475c410f16b"
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+
+["0.8-0"]
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
 PolygonOps = "647866c9-e3ac-4575-94e7-e3d426903924"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0.9-0"]
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
