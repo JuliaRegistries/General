@@ -1,21 +1,31 @@
 [0]
 Cairo = "1"
 Colors = "0.12"
-Conda = "1.6.0-1"
 Fontconfig = "0.4"
 GraphPlot = "0.5"
 Graphs = "1.4.1-1"
 MolecularGraph = "0.11"
 NearestNeighbors = "0.4"
-PyCall = "1"
 SimpleWeightedGraphs = "1.2.0-1"
 julia = "1.6.0-1"
 
 ["0-0.1.1"]
 Xtals = "0.3"
 
+["0-0.1.2"]
+Conda = "1.6.0-1"
+PyCall = "1"
+
 ["0.1.1-0"]
 ChemistryFeaturization = "0.7"
 
 ["0.1.2-0"]
 Xtals = "0.3-0.4"
+
+["0.1.3-0"]
+AtomsBase = "0.2-0.3"
+AtomsIO = "0.1"
+CondaPkg = "0.2.15-0.2"
+PythonCall = "0.9.10-0.9"
+StaticArrays = "1.5.0-1"
+Unitful = "1.12.0-1"
