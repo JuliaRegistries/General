@@ -1,5 +1,4 @@
 [0]
-CUDA = "3"
 ChainRulesCore = "1"
 DiffEqBase = "6"
 DiffEqCallbacks = "2.20.1-2"
@@ -24,6 +23,9 @@ Static = "0.6"
 ["0-0.2.3"]
 MLUtils = "0.2"
 
+["0-0.2.4"]
+CUDA = "3"
+
 ["0.1.1-0.2.3"]
 Static = "0.6-0.7"
 
@@ -38,3 +40,7 @@ Functors = "0.2-0.3"
 Functors = "0.2-0.4"
 MLUtils = "0.2-0.4"
 Static = "0.6-0.8"
+
+["0.2.5-0"]
+CUDA = "3-4"
+SciMLOperators = "0.1.20-0.1"
