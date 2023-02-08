@@ -100,8 +100,12 @@ PrettyTables = "1-2"
 ["1.14-1"]
 DistributionsAD = "0.5-0.6"
 
-["1.14.2-1"]
+["1.14.2"]
 SymbolicUtils = "0.11.3-0.20"
+
+["1.14.3-1"]
+SymbolicUtils = ["0.11.3-0.20", "1"]
+Symbolics = "1-5"
 
 ["1.2-1"]
 Combinatorics = "1"
@@ -197,11 +201,11 @@ SymbolicUtils = "0.11.3-0.17"
 ["1.8-1"]
 Tullio = "0.3"
 
-["1.9-1"]
-Symbolics = "1-4"
-
 ["1.9-1.10"]
 DerivableFunctions = "0.1"
 
 ["1.9-1.10.0"]
 SymbolicUtils = "0.11.3-0.18"
+
+["1.9-1.14.2"]
+Symbolics = "1-4"
