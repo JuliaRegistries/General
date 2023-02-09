@@ -1,5 +1,4 @@
 [0]
-CUDA = "3.3.0-3"
 ChainRulesCore = "1"
 DataStructures = "0.18"
 MacroTools = "0.5"
@@ -22,6 +21,9 @@ NNlib = "0.7"
 
 ["0-0.4"]
 KrylovKit = "0.5"
+
+["0-0.6.2"]
+CUDA = "3.3.0-3"
 
 ["0.1.1-0.3.7"]
 LearnBase = "0.4-0.5"
@@ -88,3 +90,6 @@ MLUtils = "0.3"
 
 ["0.6.2-0"]
 MLUtils = "0.3-0.4"
+
+["0.6.3-0"]
+CUDA = "3.3.0-4"
