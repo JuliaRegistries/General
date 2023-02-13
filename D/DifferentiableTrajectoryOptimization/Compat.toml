@@ -4,5 +4,10 @@ ForwardDiff = "0.10"
 Ipopt = ["0.9", "1"]
 OSQP = "0.7-0.8"
 PATHSolver = "1.2.0-1"
-Symbolics = "4"
 julia = "1.7.0-1"
+
+["0-0.2.4"]
+Symbolics = "4"
+
+["0.2.5-0"]
+Symbolics = "4-5"
