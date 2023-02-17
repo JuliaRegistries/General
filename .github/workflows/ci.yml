@@ -34,7 +34,7 @@ jobs:
           - x64
     steps:
       - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
-      - uses: julia-actions/setup-julia@b315a4d9881690c63d53fc0175b150a3776140bd # v1.9.0
+      - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc # v1.9.2
         with:
           version: ${{ matrix.version }}
           arch: ${{ matrix.arch }}
