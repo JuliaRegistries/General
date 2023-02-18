@@ -1,4 +1,4 @@
-[2]
+["2-2.17"]
 Requires = ["0.5", "1"]
 
 ["2-2.7"]
@@ -17,19 +17,27 @@ julia = "1"
 ArrayInterface = "1.1.0-5"
 
 ["2.12-2"]
-ArrayInterfaceCore = "0.1.1-0.1"
 julia = "1.6.0-1"
+
+["2.12-2.17"]
+ArrayInterfaceCore = "0.1.1-0.1"
 
 ["2.14"]
 Setfield = "1"
 
-["2.15-2"]
+["2.15-2.17"]
 Setfield = ["0.8", "1"]
+
+["2.18-2"]
+ArrayInterface = "7"
+Requires = "1"
+Setfield = "1"
+StaticArrays = "1"
 
 ["2.2-2.11"]
 julia = "1.2.0-1"
 
-["2.7.2-2"]
+["2.7.2-2.17"]
 StaticArrays = ["0.10-0.12", "1"]
 
 ["2.8"]
