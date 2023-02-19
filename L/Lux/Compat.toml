@@ -1,6 +1,5 @@
 [0]
 Adapt = "3"
-CUDA = "3"
 ChainRulesCore = "1"
 FillArrays = "0.13"
 NNlib = "0.8"
@@ -19,6 +18,9 @@ NNlibCUDA = "0.2"
 
 ["0-0.4.3"]
 ComponentArrays = "0.11"
+
+["0-0.4.37"]
+CUDA = "3"
 
 ["0-0.4.6"]
 Functors = "0.2"
@@ -54,11 +56,16 @@ Functors = "0.2-0.4"
 ["0.4.37-0"]
 Flux = "0.13"
 
-["0.4.4-0"]
-julia = "1.6.0-1"
+["0.4.38-0"]
+CUDA = "3-4"
+cuDNN = "1"
+julia = "1.7.0-1"
 
 ["0.4.4-0.4.12"]
 ComponentArrays = "0.11-0.12"
+
+["0.4.4-0.4.37"]
+julia = "1.6.0-1"
 
 ["0.4.7-0.4.35"]
 Functors = "0.2-0.3"
