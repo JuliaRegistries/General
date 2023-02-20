@@ -80,12 +80,14 @@ VectorizationBase = "0.19.22-0.19"
 SLEEFPirates = "0.6.14-0.6"
 
 ["0.12.111-0"]
-ArrayInterfaceOffsetArrays = "0.1.2-0.1"
-ArrayInterfaceStaticArrays = "0.1.2-0.1"
 julia = "1.6.0-1"
 
 ["0.12.111-0.12.116"]
 ArrayInterface = "6.0.1-6"
+
+["0.12.111-0.12.150"]
+ArrayInterfaceOffsetArrays = "0.1.2-0.1"
+ArrayInterfaceStaticArrays = "0.1.2-0.1"
 
 ["0.12.114-0"]
 ArrayInterfaceCore = "0.1.5-0.1"
@@ -95,7 +97,7 @@ SIMDTypes = "0.1"
 ["0.12.117"]
 ArrayInterface = "6.0.1-6.0.11"
 
-["0.12.118-0"]
+["0.12.118-0.12.150"]
 ArrayInterface = "6"
 
 ["0.12.119-0"]
@@ -137,12 +139,17 @@ LayoutPointers = "0.1.11-0.1"
 ["0.12.139-0"]
 HostCPUFeatures = "0.1.10-0.1"
 
-["0.12.140-0"]
+["0.12.140-0.12.150"]
 Static = "0.7-0.8"
 
 ["0.12.144-0"]
 CPUSummary = ["0.1.3-0.1.8", "0.1.11-0.1", "0.2.1-0.2"]
 PolyesterWeave = "0.1.10-0.2"
+
+["0.12.151-0"]
+ArrayInterface = "7"
+Static = "0.8.4-0.8"
+StaticArrayInterface = "1"
 
 ["0.12.17-0.12.18"]
 VectorizationBase = "0.19.36-0.19"
