@@ -1,27 +1,31 @@
-[0-1]
+["0-1.0.1"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[0-2]
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0-1.0.1"]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["0.4-1"]
+["0.4-2"]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 
 ["0.5-1"]
 DelayEmbeddings = "5732040d-69e3-5649-938a-b6b4f237613f"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["0.8.3-1"]
+["0.8.3-2"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["0.9-1"]
+["0.9-2"]
 UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 
 ["1.5-1.7"]
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 
-["1.8-1"]
+["1.8-2"]
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+
+[2]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+StateSpaceSets = "40b095a5-5852-4c12-98c7-d43bf788e795"
