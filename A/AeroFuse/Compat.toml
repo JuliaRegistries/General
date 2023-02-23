@@ -6,12 +6,20 @@ ForwardDiff = "0.10"
 Interpolations = "0.14"
 LabelledArrays = "1"
 MacroTools = "0.5"
-PrettyTables = "1"
 RecipesBase = "1"
 Rotations = "1"
-Setfield = "1"
 SplitApplyCombine = "1"
 StaticArrays = "1"
 StatsBase = "0.33"
 TimerOutputs = "0.5"
 julia = "1.7.3-1"
+
+["0-0.4.0"]
+PrettyTables = "1"
+Setfield = "1"
+
+["0.4.1-0"]
+Accessors = "0.1"
+PrettyTables = "2"
+Roots = "2"
+StructArrays = "0.6"
