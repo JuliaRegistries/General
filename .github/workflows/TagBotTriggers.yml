@@ -23,7 +23,7 @@ jobs:
       - run: chmod 400 .ci/Project.toml
       - run: chmod 400 .ci/Manifest.toml
       - name: Cache artifacts
-        uses: actions/cache@4723a57e26efda3a62cbde1812113b730952852d # v3.2.2
+        uses: actions/cache@69d9d449aced6a2ede0bc19182fadc3a0a42d2b0 # v3.2.6
         env:
           cache-name: cache-artifacts
         with:
