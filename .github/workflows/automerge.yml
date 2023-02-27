@@ -82,6 +82,7 @@ jobs:
             additional_check_runs = String[],
             check_license = true,
             public_registries = String["https://github.com/HolyLab/HolyLabRegistry"],
+            point_to_slack = true,
           )
         shell: julia --color=yes --project=.ci/ {0}
   AutoMerge-stopwatch:
