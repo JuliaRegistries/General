@@ -1,7 +1,12 @@
 [0]
-BigRationals = "4b135b7f-1e8f-46e2-b4fa-ae0bd8ae44fd"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 PeriodicGraphs = "18c5b727-b240-4874-878a-f2e242435bab"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.2.0"]
+BigRationals = "4b135b7f-1e8f-46e2-b4fa-ae0bd8ae44fd"
+
+["0.2.1-0"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
