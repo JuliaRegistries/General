@@ -1,6 +1,8 @@
 [0]
 ArgParse = "1"
 FillArrays = "0.8.4-0.12"
+
+["0-0.1"]
 Gridap = "0.17"
 GridapDistributed = "0.2"
 MPI = "0.16-0.19"
@@ -12,3 +14,10 @@ julia = "1.6.0-1"
 
 ["0.1.2-0"]
 julia = "1.5.0-1"
+
+["0.2-0"]
+Gridap = "0.17.17-0.17"
+GridapDistributed = "0.2.7-0.2"
+MPI = "0.16-0.20"
+P4est_wrapper = "0.1.3-0.1"
+PartitionedArrays = "0.2.14-0.2"
