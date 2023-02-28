@@ -125,7 +125,7 @@ Meshes = "0.22"
 ["0.17-0.18.7"]
 ImageMorphology = "0.2-0.4"
 
-["0.18-0"]
+["0.18-0.18.8"]
 CUDA = "3.11.0-3"
 
 ["0.18.1-0.18.2"]
@@ -151,13 +151,19 @@ Meshes = "0.24-0.25"
 GeoStatsBase = "0.29"
 Meshes = "0.26"
 
+["0.18.8"]
+Meshes = "0.27"
+
 ["0.18.8-0"]
 CpuId = "0.3"
 GeoStatsBase = "0.30"
 ImageFiltering = "0.7"
 ImageMorphology = "0.4"
-Meshes = "0.27"
 StatsBase = "0.33"
+
+["0.18.9-0"]
+CUDA = "3.11.0-4"
+Meshes = "0.27-0.28"
 
 ["0.8-0.9"]
 julia = "1"
