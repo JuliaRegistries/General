@@ -114,12 +114,7 @@ Latexify = "0.12-0.13"
 PrettyTables = "0.8-0.9"
 
 [2]
-DelimitedFiles = "1.4.0-1"
 ElasticArrays = "1"
-FiniteDiff = "2.3.0-2"
-LRUCache = "1.1.0-1"
-Parameters = "0.10-0.12"
-julia = "1.4.0-1"
 
 ["2-2.0.5"]
 ProgressMeter = "1.3.0-1"
@@ -133,6 +128,13 @@ Reexport = "0.2"
 
 ["2-2.4"]
 StructArrays = "0.4"
+
+["2-2.6"]
+DelimitedFiles = "1.4.0-1"
+FiniteDiff = "2.3.0-2"
+LRUCache = "1.1.0-1"
+Parameters = "0.10-0.12"
+julia = "1.4.0-1"
 
 ["2-2.6.0"]
 MultivariatePolynomials = "0.3"
@@ -167,7 +169,7 @@ Reexport = ["0.2", "1"]
 ["2.3.4-2.5.6"]
 Arblib = "0.2.2-0.3"
 
-["2.4-2"]
+["2.4-2.6"]
 SemialgebraicSets = "0.2.2-0.2"
 
 ["2.4.1-2.5.2"]
@@ -179,19 +181,19 @@ LoopVectorization = "0.6-0.11"
 ["2.5-2.5.6"]
 StructArrays = "0.4-0.5"
 
-["2.5.1-2"]
+["2.5.1-2.6"]
 LoopVectorization = "0.6-0.12"
 
 ["2.5.3"]
 PrettyTables = "0.10-0.12"
 
-["2.5.4-2"]
+["2.5.4-2.6"]
 PrettyTables = ["0.10-0.12", "1"]
 
-["2.5.5-2"]
+["2.5.5-2.6"]
 ProgressMeter = "1.6.1-1"
 
-["2.5.7-2"]
+["2.5.7-2.6"]
 StructArrays = "0.4-0.6"
 
 ["2.5.7-2.6.0"]
@@ -200,12 +202,29 @@ Arblib = "0.2.2-0.4"
 ["2.6.1"]
 Arblib = "0.2.2-0.5"
 
-["2.6.1-2"]
+["2.6.1-2.6"]
 MultivariatePolynomials = "0.3-0.4"
 
 ["2.6.2-2"]
-Arblib = "0.2.2-0.6"
 DynamicPolynomials = "0.3-0.4"
 
-["2.6.3-2"]
+["2.6.2-2.6"]
+Arblib = "0.2.2-0.6"
+
+["2.6.3-2.6"]
 SymEngine_jll = "0.8"
+
+["2.7-2"]
+Arblib = "0.7-0.8"
+FiniteDiff = "2.15.0-2"
+LRUCache = "1.3.0-1"
+LoopVectorization = "0.12"
+MultivariatePolynomials = "0.4"
+Parameters = "0.12"
+PrettyTables = "2.1.0-2"
+ProgressMeter = "1.7.2-1"
+SemialgebraicSets = "0.2.5-0.2"
+SimpleGraphs = "0.8"
+StructArrays = "0.6"
+SymEngine_jll = "0.9"
+julia = "1.8.0-1"
