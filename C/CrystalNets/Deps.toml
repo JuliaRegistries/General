@@ -1,6 +1,5 @@
 [0]
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
-BigRationals = "4b135b7f-1e8f-46e2-b4fa-ae0bd8ae44fd"
 Chemfiles = "46823bd8-5fb3-5f92-9aa0-96921f3dd015"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -19,6 +18,12 @@ spglib_jll = "ac4a9f1e-bdb2-5204-990c-47c8b2f70d4e"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
+["0-0.3.3"]
+BigRationals = "4b135b7f-1e8f-46e2-b4fa-ae0bd8ae44fd"
+
 ["0.1.1-0"]
 PeriodicGraphEquilibriumPlacement = "72a2d4b8-adbf-4c88-a101-42c807716bb0"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+
+["0.3.4-0"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
