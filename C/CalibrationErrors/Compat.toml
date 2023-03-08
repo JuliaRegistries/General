@@ -31,11 +31,13 @@ KernelFunctions = "0.8.20-0.9"
 KernelFunctions = "0.10"
 
 ["0.5.2-0"]
-UnPack = ["0.1", "1"]
 julia = "1.3.0-1"
 
 ["0.5.2-0.5.7"]
 Distances = "0.8.2-0.9"
+
+["0.5.2-0.6.2"]
+UnPack = ["0.1", "1"]
 
 ["0.5.4"]
 KernelFunctions = "0.4-0.6"
@@ -61,3 +63,6 @@ Distributions = "0.23-0.25"
 ExactOptimalTransport = "0.1-0.2"
 PDMats = "0.10-0.11"
 Tulip = "0.7.5-0.9"
+
+["0.6.3-0"]
+SimpleUnPack = "1"
