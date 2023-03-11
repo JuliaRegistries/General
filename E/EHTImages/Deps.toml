@@ -1,5 +1,4 @@
 [0]
-DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 EHTModels = "aba06f68-8285-4329-b7bf-b3157c6bc00b"
 EHTNCDBase = "0d1a6071-c6ae-40ce-b68e-43bf1c0beb66"
@@ -12,13 +11,16 @@ Missings = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
 NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
-PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 UnitfulAngles = "6fb2a4bd-7999-5318-a3b2-8ad61056cd98"
 UnitfulAstro = "6112ee07-acf9-5e0f-b108-d242c714bf9f"
 
 ["0-0.1.2"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["0-0.1.6"]
+DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 
 ["0.1.1-0"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -32,3 +34,7 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 ["0.1.6-0"]
 EHTUVData = "56783127-7e15-4e7d-9691-d34b50bc826a"
+
+["0.1.7-0"]
+EHTDimensionalData = "1ac9d6a4-0fea-4ca3-8a21-bd292c035e25"
+PythonPlot = "274fc56d-3b97-40fa-a1cd-1b4a50311bf9"
