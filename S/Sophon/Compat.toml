@@ -1,6 +1,5 @@
 [0]
 Adapt = "3"
-CUDA = "3"
 ChainRulesCore = "1"
 GPUArrays = "8"
 GPUArraysCore = "0.1"
@@ -24,11 +23,16 @@ NeuralPDE = "5"
 ["0-0.3.4"]
 ComponentArrays = "0.13"
 
+["0-0.3.7"]
+CUDA = "3"
+
 ["0.1.2-0.1.4"]
 Lux = "0.4.20-0.4"
 
 ["0.1.5-0"]
 Lux = "0.4"
+
+["0.1.5-0.3.7"]
 NeuralPDE = "5.2.0-5"
 
 ["0.2.2-0"]
@@ -40,8 +44,10 @@ Sobol = "1"
 RuntimeGeneratedFunctions = "0.5"
 
 ["0.3-0"]
-DomainSets = "0.5"
 Symbolics = "4"
+
+["0.3-0.3.7"]
+DomainSets = "0.5"
 
 ["0.3.1-0"]
 StaticArraysCore = "1"
@@ -49,5 +55,12 @@ StaticArraysCore = "1"
 ["0.3.3-0"]
 ForwardDiff = "0.10"
 
-["0.3.5-0"]
+["0.3.5-0.3.7"]
 ComponentArrays = "0.13.4-0.13"
+
+["0.3.8-0"]
+CUDA = "3-4"
+ComponentArrays = "0.13"
+DomainSets = "0.5-0.6"
+ModelingToolkit = "8"
+Requires = "1"
