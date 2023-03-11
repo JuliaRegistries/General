@@ -147,14 +147,26 @@ StatsBase = "0.33"
 IncrementalInference = "0.30-0.31"
 RoME = "0.20-0.21"
 
+["0.14"]
+DistributedFactorGraphs = "0.18-0.19"
+IncrementalInference = "0.31-0.32"
+RoME = "0.21"
+
 ["0.14-0"]
 Colors = "0.12"
-DistributedFactorGraphs = "0.18-0.19"
 GeometryBasics = "0.4"
-IncrementalInference = "0.31-0.32"
 MultivariateStats = "0.10"
-RoME = "0.21"
 julia = "1.8.0-1"
+
+["0.15-0"]
+ColorVectorSpace = "0.9"
+DistributedFactorGraphs = "0.19-0.20"
+GeometricalPredicates = "0.4"
+IncrementalInference = "0.31-0.33"
+Interpolations = "0.14"
+JSON3 = "1"
+LasIO = "0.3"
+RoME = "0.21-0.22"
 
 ["0.2.1"]
 IncrementalInference = "0.4.3-0.4"
