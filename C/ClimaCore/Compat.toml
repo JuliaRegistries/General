@@ -1,12 +1,14 @@
 [0]
 Adapt = "3"
 BlockArrays = "0.16"
-CUDA = "3"
 ForwardDiff = "0.10"
 GaussQuadrature = "0.5"
 RecursiveArrayTools = "2"
 StaticArrays = "1"
 UnPack = "1"
+
+["0-0.10.27"]
+CUDA = "3"
 
 ["0-0.2"]
 Plots = "1"
@@ -42,6 +44,9 @@ julia = "1.8.0-1"
 
 ["0.10.22-0"]
 Static = "0.4-0.8"
+
+["0.10.28-0"]
+CUDA = "3-4"
 
 ["0.10.6-0"]
 DocStringExtensions = "0.8-0.9"
