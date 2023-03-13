@@ -27,7 +27,6 @@ Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 SpatialEcology = "348f2d5d-71a3-5ad4-b565-8af070f99681"
@@ -44,6 +43,15 @@ JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 JuliaDB = "a93385a2-3734-596a-9a66-3cfbb77141e6"
 RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
 
+["0-0.1.3"]
+RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+
+["0.1.3"]
+SimpleSDMLayers = "2c645270-77db-11e9-22c3-0f302a89c64c"
+
 ["0.1.3-0"]
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
-SimpleSDMLayers = "2c645270-77db-11e9-22c3-0f302a89c64c"
+
+["0.1.4-0"]
+Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
+RasterDataSources = "3cb90ccd-e1b6-4867-9617-4276c8b2ca36"
