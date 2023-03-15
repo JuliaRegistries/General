@@ -60,8 +60,12 @@ CEnum = "0.2"
 ["4.10-4"]
 SnoopPrecompile = "1"
 
-["4.11-4"]
+["4.11-4.15"]
 SciMLBase = "1.71.0-1"
+
+["4.16-4"]
+DiffEqBase = "6.122.0-6"
+SciMLBase = "1.89.0-1"
 
 ["4.2"]
 DiffEqBase = "6.21.0-6"
@@ -74,6 +78,8 @@ DataStructures = "0.17-0.18"
 
 ["4.3-4"]
 DataStructures = "0.18"
+
+["4.3-4.15"]
 DiffEqBase = "6.44.0-6"
 
 ["4.3-4.6"]
