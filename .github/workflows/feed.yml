@@ -13,7 +13,7 @@ jobs:
     - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc # v1.9.2
       with:
         version: 1.6.2
-    - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
+    - uses: actions/checkout@24cb9080177205b6e8c946b17badbe402adc938f # v3.3.0
     - name: Send to Slack
       shell: julia --color=yes {0}
       run: |
@@ -57,7 +57,7 @@ jobs:
     - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc
       with:
         version: 1.6.2
-    - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+    - uses: actions/checkout@24cb9080177205b6e8c946b17badbe402adc938f # v2.3.4
     - name: Collect Zulip info
       id: zulip
       shell: julia --color=yes {0}
