@@ -10,14 +10,30 @@ StanSample = "7.1.0-7"
 
 ["10.1-10"]
 DimensionalData = "0.24"
-MCMCChains = "5.6.0-5"
 StanDiagnose = "4.4.0-4"
 StanVariational = "4.3.0-4"
+
+["10.1-10.3.1"]
+MCMCChains = "5.6.0-5"
 
 ["10.2-10"]
 AxisKeys = "0.2"
 BridgeStan = "1.0.1-1"
+
+["10.2-10.3.1"]
 StanSample = "7.2.0-7"
+
+["10.3.1"]
+PosteriorDB = "0.3.1-0.4"
+
+["10.3.1-10"]
+InferenceObjects = "0.3.4-0.3"
+OrderedCollections = "1.4.1-1"
+
+["10.3.2-10"]
+MCMCChains = "5.6.0-6"
+PosteriorDB = "0.4"
+StanSample = "7"
 
 [3]
 BinDeps = "0.4.3-0.8"
@@ -265,12 +281,14 @@ DataFrames = "1.4.0-1"
 DataStructures = "0.18.13-0.18"
 DocStringExtensions = "0.9"
 JSON3 = "1.12.0-1"
-PosteriorDB = "0.3.1-0.3"
 StanBase = "4"
 Tables = "1.10.0-1"
 
 ["9.10-10.1"]
 StatsPlots = "0.15"
+
+["9.10-10.3.0"]
+PosteriorDB = "0.3.1-0.3"
 
 ["9.10-9"]
 MCMCChains = "5.5.0-5"
@@ -293,7 +311,7 @@ StanSample = "6.13.7-6"
 ["9.10.5"]
 StanSample = "6.13.8-6"
 
-["9.10.5-10"]
+["9.10.5-10.3.0"]
 InferenceObjects = "0.3"
 
 ["9.10.6-9"]

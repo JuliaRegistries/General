@@ -31,8 +31,8 @@ jobs:
           - '1'
           - 'nightly'
     steps:
-      - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
-      - uses: julia-actions/setup-julia@b315a4d9881690c63d53fc0175b150a3776140bd # v1.9.0
+      - uses: actions/checkout@24cb9080177205b6e8c946b17badbe402adc938f # v3.3.0
+      - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc # v1.9.2
         with:
           version: ${{ matrix.version }}
           arch: x64
@@ -49,7 +49,7 @@ jobs:
               echo "The manifest file does not exist, so I will create a new manifest from scratch."
           fi
       - name: Cache artifacts
-        uses: actions/cache@4723a57e26efda3a62cbde1812113b730952852d # v3.2.2
+        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # v3.3.1
         env:
           cache-name: cache-artifacts
         with:
@@ -88,7 +88,7 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@24cb9080177205b6e8c946b17badbe402adc938f
       - run: rm -rf /tmp/manifest_updater
       - run: mkdir /tmp/manifest_updater
       - run: chmod 700 /tmp/manifest_updater
@@ -101,7 +101,7 @@ jobs:
       - run: chmod 600 .ci/Project.toml
       - run: chmod 600 .ci/Manifest.*.toml
       - run: git status
-      - uses: peter-evans/create-pull-request@2b011faafdcbc9ceb11414d64d0573f37c774b04 # v4.2.3
+      - uses: peter-evans/create-pull-request@38e0b6e68b4c852a5500a94740f0e535e0d7ba54 # v4.2.4
         with:
           token: ${{ secrets.TAGBOT_TOKEN }}
           delete-branch: true

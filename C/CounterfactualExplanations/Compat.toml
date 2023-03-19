@@ -56,7 +56,12 @@ CUDA = "3-4"
 MLDatasets = "0.7"
 MLJModels = "0.16"
 MLUtils = "0.2-0.4"
-PkgTemplates = "0.7"
 Plots = "1.38.2-1"
 ProgressMeter = "1"
 Tables = "1"
+
+["0.1.6-0.1.7"]
+PkgTemplates = "0.7"
+
+["0.1.9-0"]
+SnoopPrecompile = "1"

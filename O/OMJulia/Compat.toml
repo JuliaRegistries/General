@@ -1,7 +1,14 @@
 [0]
+ZMQ = "1"
+julia = "1"
+
+["0-0.1"]
 Compat = "0.0.0-3"
 DataFrames = "0.0.0-0.21"
 DataStructures = "0.0.0-0.18"
 LightXML = "0.0.0-0.9"
-ZMQ = "1"
-julia = "1"
+
+["0.2-0"]
+DataFrames = ["0.19.4-0.22", "1"]
+DataStructures = ["0.9-0.15", "0.16.1-0.18"]
+LightXML = "0.8-0.9"

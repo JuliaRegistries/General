@@ -4,13 +4,21 @@ Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
-Tokenize = "0796e94c-ce3b-5d07-9a54-7f471281c624"
 
 ["0-0.5.1"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.5.17"]
+Tokenize = "0796e94c-ce3b-5d07-9a54-7f471281c624"
+
 ["0.4"]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+
+["0.5.15-0.5.17"]
+TerminalRegressionTests = "98bfdc55-cc95-5876-a49a-74609291cbe0"
+
+["0.5.18-0"]
+JuliaSyntax = "70703baa-626e-46a2-a12c-08ffd08c73b4"
 
 ["0.5.2"]
 TerminalRegressionTests = "98bfdc55-cc95-5876-a49a-74609291cbe0"

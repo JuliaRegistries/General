@@ -10,7 +10,6 @@ StaticArrays = "0.0.0-0.12"
 julia = ["0.7", "1"]
 
 [1]
-DiffEqBase = "6"
 DiffEqCallbacks = "2.9.0-2"
 FileIO = "1"
 
@@ -27,11 +26,17 @@ StaticArrays = "0.10-0.12"
 OrdinaryDiffEq = "5"
 julia = "1"
 
+["1-1.9"]
+DiffEqBase = "6"
+
 ["1.0"]
 RecursiveArrayTools = "1"
 
 ["1.1-1"]
 RecursiveArrayTools = "2"
+
+["1.10-1"]
+DiffEqBase = "6.122.0-6"
 
 ["1.2"]
 RecipesBase = "0.7-0.8"

@@ -1,7 +1,5 @@
 [9]
-ArrayInterfaceCore = "0.1.1-0.1"
 DataStructures = "0.17-0.18"
-DiffEqBase = "6.45.0-6"
 DocStringExtensions = "0.8.6-0.9"
 FunctionWrappers = "1"
 Graphs = "1.4.0-1"
@@ -17,5 +15,17 @@ julia = "1.6.0-1"
 ["9-9.1"]
 SciMLBase = "1.35.1-1"
 
+["9-9.3"]
+ArrayInterfaceCore = "0.1.1-0.1"
+
+["9-9.5"]
+DiffEqBase = "6.45.0-6"
+
 ["9.2-9"]
 SciMLBase = "1.51.0-1"
+
+["9.4-9"]
+ArrayInterface = "6-7"
+
+["9.6-9"]
+DiffEqBase = "6.122.0-6"

@@ -1,15 +1,15 @@
-[1-2]
+["1-2.1.7"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[1-3]
 ChaosTools = "608a59af-f2a3-5ad4-90b4-758bdf3122a7"
 DynamicalSystemsBase = "6e36e845-645a-534a-86f2-f5d4aa5a06b4"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
-["1-2.1.7"]
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-
 ["1.0"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-["1.1-2"]
+["1.1-3"]
 DelayEmbeddings = "5732040d-69e3-5649-938a-b6b4f237613f"
 RecurrenceAnalysis = "639c3291-70d9-5ea2-8c5b-839eba1ee399"
 
@@ -19,5 +19,13 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 ["1.7-2"]
 Entropies = "ed8fcbec-b94c-44b6-89df-898894ad9591"
 
-[2]
+[2-3]
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+
+[3]
+Attractors = "f3fd9213-ca85-4dba-9dfd-7fc91308fec7"
+ComplexityMeasures = "ab4b797d-85ee-42ba-b621-05d793b346a2"
+FractalDimensions = "4665ce21-e117-4649-aed8-08bbe5ccbead"
+PredefinedDynamicalSystems = "31e2f376-db9e-427a-b76e-a14f56347a14"
+StateSpaceSets = "40b095a5-5852-4c12-98c7-d43bf788e795"
+TimeseriesSurrogates = "c804724b-8c18-5caa-8579-6025a0767c70"

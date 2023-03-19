@@ -12,12 +12,19 @@ FastGaussQuadrature = "0.0.0-0.4"
 RecipesBase = "0.0.0-0.8"
 Reexport = "0.0.0-0.2"
 
+["0.1.12-0"]
+FastGaussQuadrature = "0.4-0.5"
+
+["0.1.13-0"]
+UnPack = "1"
+julia = "1.6.0-1"
+
 ["0.1.4"]
 Compat = "0.0.0-3"
 NLsolve = "0.0.0-4"
 OrdinaryDiffEq = "0.0.0-5"
 
-["0.1.4-0"]
+["0.1.4-0.1.12"]
 julia = "1"
 
 ["0.1.5-0"]
@@ -27,8 +34,10 @@ NLsolve = "4"
 OrdinaryDiffEq = "5"
 
 ["0.1.6-0"]
-FastGaussQuadrature = "0.4"
 RecipesBase = "1"
+
+["0.1.6-0.1.11"]
+FastGaussQuadrature = "0.4"
 
 ["0.1.6-0.1.7"]
 ColorTypes = "0.10"

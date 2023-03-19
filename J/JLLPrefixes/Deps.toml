@@ -1,7 +1,14 @@
 [0]
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
-LibGit2 = "76f85450-5226-5b5a-8eaa-529ad045b433"
-LibGit2_jll = "e37daf67-58a4-590a-8e99-b0245dd2ffc5"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+
+["0-0.1"]
+LibGit2 = "76f85450-5226-5b5a-8eaa-529ad045b433"
+LibGit2_jll = "e37daf67-58a4-590a-8e99-b0245dd2ffc5"
+
+["0.2-0"]
+Git = "d7ba0133-e1db-5d97-8f8c-041e4b3a1eb2"
+HistoricalStdlibVersions = "6df8b67a-e8a0-4029-b4b7-ac196fe72102"
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"

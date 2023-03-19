@@ -10,12 +10,16 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 Spglib = "f761d5c5-86db-4880-b97f-9680a7cccfb5"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
 
 ["0-0.1"]
 FilePaths = "8fc22ac5-c921-52a6-82fd-178b2807b824"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+
+["0-0.3"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.4.1"]
+Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
 
 ["0.2-0"]
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
@@ -23,7 +27,13 @@ FilePathsBase = "48062228-2e41-5def-b9a4-89aafe57970f"
 Inflate = "d25df0c9-e2be-5dd7-82c8-3ad0b3e990b9"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 RowEchelon = "af85af4c-bcd5-5d23-b03a-a909639aa875"
+
+["0.2-0.3"]
 WignerSymbols = "9f57e263-0b3d-5e2e-b1be-24f2bb48858b"
 
 ["0.3-0"]
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+
+["0.4-0"]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+DynamicPolynomials = "7c1d4256-1411-5781-91ec-d7bc3513ac07"
