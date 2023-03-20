@@ -1,8 +1,4 @@
 [0]
-Compat = "3.25.0-3"
-Graphics = "1.1.0-1"
-IniFile = "0.5"
-Interpolations = "0.13"
 ProgressMeter = "1.5.0-1"
 Reexport = ["0.2", "1"]
 Unitful = "1.6.0-1"
@@ -22,6 +18,12 @@ DelimitedFiles = "1.3.0-1"
 HDF5 = "0.10-0.15"
 julia = "1.3.0-1"
 
+["0-0.3"]
+Compat = "3.25.0-3"
+Graphics = "1.1.0-1"
+IniFile = "0.5"
+Interpolations = "0.13"
+
 ["0.1.1-0.1"]
 MPIFiles = "0.11"
 
@@ -35,19 +37,28 @@ ThreadPools = "1.2.0-2"
 
 ["0.2-0"]
 DocStringExtensions = "0.8.5-0.8"
+
+["0.2-0.3"]
 UnitfulAngles = "0.6.1-0.6"
 
-["0.3-0"]
+["0.3"]
 DelimitedFiles = "1.7.0-1"
-HDF5 = "0.10-0.16"
-LibSerialPort = "0.5.2-0.5"
 MPIFiles = "0.12.4-0.12"
-MacroTools = "0.5.6-0.5"
 PyCall = "1.91.1-1"
 PyTinkerforge = "2.1.29-2"
 RedPitayaDAQServer = "0.5.2-0.5"
+
+["0.3-0"]
+HDF5 = "0.10-0.16"
+LibSerialPort = "0.5.2-0.5"
+MacroTools = "0.5.6-0.5"
 ReplMaker = "0.2.7-0.2"
 Scratch = "1.1.0-1"
 StringEncodings = "0.3.5-0.3"
 ThreadPools = "2.1.1-2"
 julia = "1.7.0-1"
+
+["0.4-0"]
+DataStructures = "0.18"
+MPIFiles = "0.12.6-0.12"
+RedPitayaDAQServer = "0.6"
