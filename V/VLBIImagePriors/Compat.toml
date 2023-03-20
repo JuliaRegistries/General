@@ -4,7 +4,6 @@ Bessels = "0.2"
 ChainRulesCore = "1"
 DensityInterface = "0.4"
 Distributions = "0.24-0.25"
-Enzyme = "0.10"
 FillArrays = "0.13"
 Reexport = "1"
 SpecialFunctions = "1-2"
@@ -15,5 +14,11 @@ julia = "1.7.0-1"
 ["0-0.1.0"]
 HypercubeTransform = "0.3"
 
+["0-0.1.1"]
+Enzyme = "0.10"
+
 ["0.1.1-0"]
 HypercubeTransform = "0.3-0.4"
+
+["0.1.2-0"]
+Enzyme = "0.10-0.11"
