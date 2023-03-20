@@ -1,10 +1,7 @@
 [0]
 CSVFiles = "1"
 ColorSchemes = "3"
-DataFrames = ["0.20-0.22", "1"]
 FileIO = "1"
-FlowWorkspace = "0.1"
-GigaSOM = "0.6"
 GigaScatter = "0.1"
 HTTP = "0.9"
 JSON = "0.21"
@@ -18,6 +15,11 @@ ImageIO = "0.4"
 
 ["0-0.1.10"]
 JSServe = "1"
+
+["0-0.1.12"]
+DataFrames = ["0.20-0.22", "1"]
+FlowWorkspace = "0.1"
+GigaSOM = "0.6"
 
 ["0-0.1.3"]
 Glob = "1"
@@ -41,6 +43,11 @@ JSServe = "1.2.4"
 ["0.1.12-0"]
 ImageIO = "0.4-0.6"
 JSServe = "1.2.3"
+
+["0.1.13-0"]
+DataFrames = "1"
+FlowWorkspace = "0.1.16-0.1"
+GigaSOM = "0.7"
 
 ["0.1.3-0.1.9"]
 MetaGraphs = "0.6"
