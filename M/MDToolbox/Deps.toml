@@ -5,7 +5,6 @@ Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 GraphRecipes = "bd48cda9-67a9-57be-86fa-5b3c104eda73"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MetaGraphs = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
@@ -15,3 +14,11 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.1.1"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
+["0.1.2-0"]
+BioStructures = "de9282ab-8554-53be-b2d6-f6c222edabfc"
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
