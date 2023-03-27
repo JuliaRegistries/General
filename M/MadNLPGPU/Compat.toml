@@ -15,10 +15,16 @@ julia = "1.6.0-1"
 MadNLP = "0.4.2-0.4"
 
 ["0.3-0"]
-CUDA = "3"
 CUDAKernels = "0.4"
 KernelAbstractions = "0.8"
 julia = "1.7.0-1"
 
-["0.4-0"]
+["0.3-0.4"]
+CUDA = "3"
+
+["0.4"]
 MadNLP = "0.5"
+
+["0.5-0"]
+CUDA = "4"
+MadNLP = "0.6"
