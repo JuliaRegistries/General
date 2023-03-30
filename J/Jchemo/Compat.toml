@@ -1,5 +1,4 @@
 [0]
-Clustering = "0.14"
 DataFrames = "1"
 Distances = "0.10"
 Distributions = "0.25"
@@ -13,6 +12,9 @@ StatsBase = "0.33"
 DataInterpolations = "3"
 LIBSVM = "0.8"
 
+["0-0.1.16"]
+Clustering = "0.14"
+
 ["0-0.1.6"]
 CairoMakie = "0.9"
 XGBoost = "1"
@@ -22,11 +24,15 @@ julia = "1"
 DataInterpolations = "3-4"
 DecisionTree = "0.12"
 
-["0.1.7-0"]
-julia = "1.6.0-1"
+["0.1.17-0"]
+Clustering = "0.14-0.15"
+julia = "1.8.0-1"
 
 ["0.1.7-0.1.15"]
 XGBoost = "1-2"
+
+["0.1.7-0.1.16"]
+julia = "1.6.0-1"
 
 ["0.1.7-0.1.8"]
 Makie = "0.18"
