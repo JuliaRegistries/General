@@ -253,7 +253,6 @@ Flux = "0.12"
 Functors = "0.2"
 
 ["0.2-0"]
-FillArrays = "0.13"
 Functors = "0.2-0.4"
 JSON3 = "1.12.0-1"
 Static = "0.7-0.8"
@@ -262,6 +261,9 @@ TextEncodeBase = "0.6"
 ["0.2-0.2.2"]
 NeuralAttentionlib = "0.2.4-0.2"
 
+["0.2-0.2.3"]
+FillArrays = "0.13"
+
 ["0.2.2-0"]
 CUDA = "3.10.0-4"
 DoubleArrayTries = "0.1"
@@ -269,3 +271,6 @@ DoubleArrayTries = "0.1"
 ["0.2.3-0"]
 NeuralAttentionlib = "0.2.8-0.2"
 Zygote = "0.6.59-0.6"
+
+["0.2.4-0"]
+FillArrays = ["0.13", "1"]
