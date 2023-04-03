@@ -1,15 +1,12 @@
 [0]
 AxisKeys = "0.2"
 BlockTriangularForm = "0.1"
-ComponentArrays = "0.13"
 DocStringExtensions = "0.9"
 ForwardDiff = "0.10"
 IterativeSolvers = "0.9"
 LaTeXStrings = "1"
 LinearMaps = "3"
 MacroTools = "0.5"
-Optimization = "3"
-OptimizationNLopt = "0.1"
 Plots = "1.36.3-1"
 RuntimeGeneratedFunctions = "0.5"
 SnoopPrecompile = "1"
@@ -21,6 +18,11 @@ julia = "1.8.0-1"
 ["0-0.1.0"]
 Documenter = "0.27"
 DocumenterTools = "0.1"
+
+["0-0.1.10"]
+ComponentArrays = "0.13"
+Optimization = "3"
+OptimizationNLopt = "0.1"
 
 ["0-0.1.6"]
 FiniteDifferences = "0.12"
@@ -36,11 +38,23 @@ NLboxsolve = "0.4"
 SpeedMapping = "0.3"
 Symbolics = "5"
 
+["0.1.11"]
+Optim = "1"
+
+["0.1.11-0"]
+ImplicitDifferentiation = "0.2-0.3"
+
+["0.1.12-0"]
+Optimization = "3.12.1"
+OptimizationNLopt = "0.1.2"
+
 ["0.1.4-0"]
 StatsPlots = "0.15"
 
 ["0.1.6-0"]
 ChainRulesCore = "1"
 DynarePreprocessor_jll = "6.2.0-6"
-ImplicitDifferentiation = "0.2"
 JSON = "0.21"
+
+["0.1.6-0.1.10"]
+ImplicitDifferentiation = "0.2"

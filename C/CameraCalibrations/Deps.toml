@@ -1,8 +1,21 @@
 [0]
 CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
-ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
-Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
-MATLAB = "10e44e05-a98a-55b3-a45b-ba969058deb6"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.2"]
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+MATLAB = "10e44e05-a98a-55b3-a45b-ba969058deb6"
+
+["0.3-0"]
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+ImageDraw = "4381153b-2b60-58ae-a1ba-fd683676385f"
+ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"

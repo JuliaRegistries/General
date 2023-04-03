@@ -35,8 +35,10 @@ SparseDiffTools = "0.8.0-1"
 ["0.4-1"]
 NLsolve = "1-4"
 OrderedCollections = "1"
-SparseDiffTools = "1.2.0-1"
 julia = "1.2.0-1"
+
+["0.4-1.0.1"]
+SparseDiffTools = "1.2.0-1"
 
 ["0.4.0"]
 BlockBandedMatrices = "0.7"
@@ -51,5 +53,12 @@ FiniteDiff = "2"
 ["1.0.0"]
 BlockBandedMatrices = "0.7-0.10"
 
-["1.0.1-1"]
+["1.0.1-1.0.2"]
 BlockBandedMatrices = "0.7-0.11"
+
+["1.0.2-1"]
+LinearAlgebra = "1"
+SparseDiffTools = "1.2.0-2"
+
+["1.0.3-1"]
+BlockBandedMatrices = "0.7-0.12"

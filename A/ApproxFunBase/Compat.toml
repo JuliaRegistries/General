@@ -304,10 +304,12 @@ InfiniteArrays = "0.11"
 InfiniteArrays = "0.11-0.12"
 
 ["0.5.2-0"]
-BlockBandedMatrices = "0.10-0.11"
 InfiniteLinearAlgebra = "0.5-0.6"
 
-["0.5.3-0"]
+["0.5.2-0.8.7"]
+BlockBandedMatrices = "0.10-0.11"
+
+["0.5.3-0.8.7"]
 LazyArrays = "0.20-0.22"
 
 ["0.5.4-0"]
@@ -315,6 +317,8 @@ SpecialFunctions = ["0.10", "1-2"]
 
 ["0.5.5-0"]
 BandedMatrices = "0.16-0.17"
+
+["0.5.5-0.8.7"]
 FillArrays = "0.11-0.13"
 
 ["0.5.6"]
@@ -331,3 +335,8 @@ Combinatorics = "1.0.2-1"
 
 ["0.7.45-0"]
 DomainSets = "0.5-0.6"
+
+["0.8.8-0"]
+BlockBandedMatrices = "0.10-0.12"
+FillArrays = ["0.11-0.13", "1"]
+LazyArrays = ["0.20-0.22", "1"]

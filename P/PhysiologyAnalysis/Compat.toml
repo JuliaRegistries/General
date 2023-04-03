@@ -9,13 +9,18 @@ PyPlot = "2.11.0-2"
 Query = "1"
 StatsBase = "0.33"
 StatsPlots = "0.15"
-XLSX = "0.8"
 julia = "1"
 
 ["0-0.1"]
 Crayons = "4"
 Requires = "1"
 
+["0-0.3"]
+XLSX = "0.8"
+
 ["0.2-0"]
 ElectroPhysiology = "0.2"
 HypothesisTests = "0.10.11-0.10"
+
+["0.4-0"]
+XLSX = "0.9"
