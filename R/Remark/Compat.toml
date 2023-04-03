@@ -1,9 +1,9 @@
-[0]
-julia = ["0.7", "1"]
-
 ["0-0.1"]
 DefaultApplication = "0.0.0-0.1"
 Literate = "0-1"
+
+["0-0.3.2"]
+julia = ["0.7", "1"]
 
 ["0.0"]
 Documenter = "0-0.19"
@@ -13,11 +13,13 @@ Documenter = "0.20.0-0.24"
 DocumenterMarkdown = "0.0.0-0.2"
 
 ["0.2-0"]
-BinaryProvider = "0.5"
 DefaultApplication = "1"
 DocumenterMarkdown = "0.2"
 JSON = "0.21"
 Literate = "2"
+
+["0.2-0.3.2"]
+BinaryProvider = "0.5"
 
 ["0.2.0"]
 Documenter = "0.20-0.24"
@@ -30,3 +32,8 @@ Glob = "1"
 
 ["0.3.1-0"]
 Documenter = "0.20-0.26"
+
+["0.3.3-0"]
+CodecZlib = "0.7"
+Tar = "1"
+julia = "1.3.0-1"
