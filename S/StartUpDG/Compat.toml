@@ -63,13 +63,18 @@ NodesAndModes = "0.8"
 Triangulate = "2"
 
 ["0.15-0"]
-FillArrays = "0.13"
 NodesAndModes = "0.9"
 RecursiveArrayTools = "2"
+
+["0.15-0.15.15"]
+FillArrays = "0.13"
 
 ["0.15.11-0"]
 HOHQMesh = "0.2"
 SimpleUnPack = "1"
+
+["0.15.16-0"]
+FillArrays = ["0.13", "1"]
 
 ["0.15.3-0"]
 Requires = "1"
