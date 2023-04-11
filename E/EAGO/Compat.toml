@@ -40,13 +40,13 @@ DiffRules = ["0.0.5", "0.0.10"]
 IntervalArithmetic = "0.14-0.16"
 julia = ["0.7", "1.0-1.2"]
 
-["0.3.1-0"]
-DocStringExtensions = "0.8"
-
 ["0.3.1-0.3"]
 DiffRules = ["0.0.5", "1"]
 IntervalArithmetic = "0.15"
 julia = ["0.7", "1.0-1.3"]
+
+["0.3.1-0.7.2"]
+DocStringExtensions = "0.8"
 
 ["0.4-0"]
 Cassette = "0.3.1-0.3"
@@ -126,3 +126,6 @@ JuMP = "1.0.0-1.1.1"
 ["0.7.2-0"]
 NaNMath = ["0.3.5-0.3", "1"]
 julia = "1.6.0-1"
+
+["0.7.3-0"]
+DocStringExtensions = "0.8-0.9"
