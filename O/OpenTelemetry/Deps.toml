@@ -3,7 +3,13 @@ OpenTelemetryAPI = "4f63ef3d-5940-44e7-a611-2d97696cffc9"
 OpenTelemetrySDK = "f5929ecf-be04-446c-b2f2-494e1fe70ee4"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
-["0.2-0"]
+["0.2"]
 OpenTelemetryExporterOtlpProtoGrpc = "83e8ae56-efb3-499e-9158-b649d4f902fc"
+
+["0.2-0"]
 OpenTelemetryExporterPrometheus = "34e26579-e93c-4b5e-ba07-7afb633408c2"
 OpenTelemetryProto = "cc651e92-2989-4f95-bcc3-32e6fb6ac025"
+
+["0.3-0"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+OpenTelemetryExporterOtlpProtoHttp = "f175482f-0544-4037-b362-361efbf21c04"
