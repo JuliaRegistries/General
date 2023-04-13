@@ -10,8 +10,10 @@ julia = "1"
 DelaunayTriangulation = "0.1"
 
 ["0.3-0"]
-ChunkSplitters = "0.1"
 MuladdMacro = "0.2"
+
+["0.3-0.4.1"]
+ChunkSplitters = "0.1"
 
 ["0.3.2"]
 DelaunayTriangulation = "0.1-0.2"
@@ -21,3 +23,6 @@ DelaunayTriangulation = "0.3"
 
 ["0.4-0"]
 DelaunayTriangulation = "0.4"
+
+["0.4.2-0"]
+ChunkSplitters = ["0.1", "1"]
