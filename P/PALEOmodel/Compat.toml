@@ -8,7 +8,6 @@ NLsolve = "4.5.0-4"
 RecipesBase = "1.2.0-1"
 Revise = "3.1.0-3"
 SciMLBase = "1.29.0-1"
-SparseDiffTools = "1.13.0-1"
 SparsityTracing = "0.2.3-0.2"
 SpecialFunctions = "1-2"
 StaticArrays = "1.2.0-1"
@@ -24,6 +23,9 @@ PyCall = "1.92.0-1"
 
 ["0-0.15.19"]
 ForwardDiff = "0.10"
+
+["0-0.15.21"]
+SparseDiffTools = "1.13.0-1"
 
 ["0.14.1"]
 PALEOboxes = "0.15-0.16"
@@ -60,6 +62,9 @@ ForwardDiff = "0.10-0.10.34"
 
 ["0.15.21-0"]
 ForwardDiff = "0.10"
+
+["0.15.22-0"]
+SparseDiffTools = "1.13.0-2"
 
 ["0.15.3-0.15.9"]
 PALEOboxes = "0.20.2-0.20"
