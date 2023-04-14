@@ -1,18 +1,28 @@
 [0]
 DiffEqBase = "6"
 OrdinaryDiffEq = "6"
-Quaternionic = "1"
 RecursiveArrayTools = "2"
 SciMLBase = "1"
 StaticArrays = "1"
-SymbolicUtils = "0.19"
 julia = "1.6.0-1"
 
 ["0-0.4"]
 Symbolics = "4"
 
-["0.2-0"]
+["0-0.5"]
+Quaternionic = "1"
+SymbolicUtils = "0.19"
+
+["0.2-0.5"]
 DataInterpolations = "3.9.0-3"
 
-["0.5-0"]
+["0.5"]
 Symbolics = "4.10.0-4"
+
+["0.6-0"]
+DataInterpolations = "4"
+MacroTools = "0.5.10-0.5"
+Quaternionic = "1.2.0-1"
+SphericalFunctions = "2.1.4-2"
+SymbolicUtils = "1"
+Symbolics = "5"
