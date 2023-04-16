@@ -4,7 +4,6 @@ ColorTypes = "0.10-0.11"
 ConstructionBase = "1"
 Flatten = "0.4"
 Missings = ["0.4", "1"]
-PolygonInbounds = "0.2"
 ProgressMeter = "1"
 RecipesBase = ["0.7-0.8", "1"]
 Reexport = ["0.2", "1"]
@@ -30,6 +29,9 @@ NCDatasets = "0.10-0.11"
 ["0-0.3"]
 Setfield = "0.6-0.8"
 
+["0-0.5"]
+PolygonInbounds = "0.2"
+
 ["0-0.5.2"]
 RasterDataSources = "0.5"
 
@@ -40,8 +42,10 @@ ArchGDAL = "0.7-0.8"
 DimensionalData = "0.20"
 
 ["0.2.1-0"]
-FillArrays = "0.12-0.13"
 HDF5 = "0.14-0.16"
+
+["0.2.1-0.5"]
+FillArrays = "0.12-0.13"
 
 ["0.2.2-0"]
 DiskArrays = "0.3.3-0.3"
@@ -80,3 +84,7 @@ MakieCore = "0.5-0.6"
 
 ["0.5.3-0"]
 RasterDataSources = "0.5.7-0.5"
+
+["0.6-0"]
+FillArrays = ["0.12-0.13", "1"]
+OffsetArrays = "1"
