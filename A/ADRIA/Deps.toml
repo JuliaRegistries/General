@@ -4,7 +4,6 @@ BlackBoxOptim = "a134a8b2-14d6-55f6-9291-3336d3ab0209"
 Bootstrap = "e28b5b4c-05e8-5b66-bc03-6f0c0a0a06e0"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
-Compose = "a81c6b42-2e10-5240-aca2-a61377ecd94b"
 CpuId = "adafc99b-e345-5852-983c-f28acb93d879"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
@@ -27,7 +26,6 @@ Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
 ModelParameters = "4744a3fa-6c31-4707-899e-a3298e4618ad"
 NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
-NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
 NamedDims = "356022a1-0364-5f58-8944-0da4b18d706f"
 OnlineStats = "a15396b6-48d5-5d58-9928-6d29437db91e"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -48,5 +46,13 @@ TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 ThreadsX = "ac1d9e8a-700a-412c-b207-f0111f4b6c0d"
 Zarr = "0a941bbe-ad1d-11e8-39d9-ab76183a1d99"
 
+["0-0.4"]
+Compose = "a81c6b42-2e10-5240-aca2-a61377ecd94b"
+NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
+
 ["0-0.4.4"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.5-0"]
+AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
