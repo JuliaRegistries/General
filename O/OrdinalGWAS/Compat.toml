@@ -4,7 +4,6 @@ DataFrames = ["0.21-0.22", "1"]
 Distributions = "0.22-0.25"
 Reexport = "1"
 SnpArrays = "0.3.3-0.3"
-StatsModels = "0.6"
 VariantCallFormat = "0.5"
 
 ["0-0.5"]
@@ -16,6 +15,9 @@ CSV = "0.8"
 
 ["0-0.6"]
 VCFTools = "0.2.1-0.2"
+
+["0-0.7.1"]
+StatsModels = "0.6"
 
 ["0.5.5-0.6.0"]
 CSV = "0.8-0.9"
@@ -33,3 +35,6 @@ MathOptInterface = ["0.10", "1"]
 
 ["0.7-0"]
 VCFTools = "0.2.7-0.2"
+
+["0.7.2-0"]
+StatsModels = "0.6-0.7"
