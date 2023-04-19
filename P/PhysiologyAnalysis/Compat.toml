@@ -1,14 +1,9 @@
 [0]
-DSP = "0.7"
 DataFrames = "1"
-Distributions = "0.25"
 LsqFit = "0.13"
 Polynomials = "3"
-PyCall = "1.95.0-1"
-PyPlot = "2.11.0-2"
 Query = "1"
 StatsBase = "0.33"
-StatsPlots = "0.15"
 julia = "1"
 
 ["0-0.1"]
@@ -18,7 +13,14 @@ Requires = "1"
 ["0-0.3"]
 XLSX = "0.8"
 
-["0.2-0"]
+["0-0.4"]
+DSP = "0.7"
+Distributions = "0.25"
+PyCall = "1.95.0-1"
+PyPlot = "2.11.0-2"
+StatsPlots = "0.15"
+
+["0.2-0.4"]
 HypothesisTests = "0.10.11-0.10"
 
 ["0.2-0.4.0"]
@@ -27,5 +29,8 @@ ElectroPhysiology = "0.2"
 ["0.4-0"]
 XLSX = "0.9"
 
-["0.4.1-0"]
+["0.4.1-0.4"]
 ElectroPhysiology = "0.3"
+
+["0.5-0"]
+ElectroPhysiology = "0.2-0.3"
