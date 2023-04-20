@@ -8,10 +8,17 @@ FileIO = "1.16.0-1"
 ForwardDiff = "0.10"
 ImageMagick = "1.2.0-1"
 JLD2 = "0.4"
-NamedTrajectories = "0.1"
 OSQP = "0.8"
 PyCall = "1.95.0-1"
-QuantumCollocation = "0.1"
 Reexport = "1.2.0-1"
 Zygote = "0.6"
 julia = "1.8.0-1"
+
+["0-0.1.0"]
+NamedTrajectories = "0.1"
+QuantumCollocation = "0.1"
+
+["0.1.1-0"]
+NamedTrajectories = "0.1.1-0.1"
+QuantumCollocation = "0.1.2-0.1"
+TrajectoryIndexingUtils = "0.1"
