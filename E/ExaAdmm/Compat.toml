@@ -29,7 +29,12 @@ AMDGPU = "0.4"
 julia = "1.8.0-1"
 
 ["0.4-0"]
-CUDA = "4"
 ExaTron = "3"
 KernelAbstractions = "0.9"
 MPI = "0.20"
+
+["0.4.0"]
+CUDA = "4"
+
+["0.4.1-0"]
+CUDA = "4.1.0-4"
