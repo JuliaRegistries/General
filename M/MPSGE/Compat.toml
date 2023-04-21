@@ -1,11 +1,18 @@
-[0]
-julia = "1.5.0-1"
-
 ["0-0.1"]
 Complementarity = "0.8"
 JuMP = "0.21"
 
-["0.2-0"]
+["0-0.2"]
+julia = "1.5.0-1"
+
+["0.2"]
 Complementarity = "0.8.1-0.8"
 JuMP = "0.21.7-0.21"
+
+["0.2-0"]
 MacroTools = "0.5"
+
+["0.3-0"]
+Complementarity = "0.9"
+JuMP = "1.2.0-1"
+julia = "1.6.0-1"
