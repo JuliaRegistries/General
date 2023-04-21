@@ -6,7 +6,6 @@ IterativeSolvers = "0.9"
 LaTeXStrings = "1"
 LinearMaps = "3"
 MacroTools = "0.5"
-Plots = "1.36.3-1"
 RuntimeGeneratedFunctions = "0.5"
 SnoopPrecompile = "1"
 SpecialFunctions = "2"
@@ -25,6 +24,9 @@ OptimizationNLopt = "0.1"
 
 ["0-0.1.13"]
 DocStringExtensions = "0.9"
+
+["0-0.1.14"]
+Plots = "1.36.3-1"
 
 ["0-0.1.6"]
 FiniteDifferences = "0.12"
@@ -59,7 +61,11 @@ RecursiveFactorization = "0.2"
 ["0.1.14-0"]
 DocStringExtensions = "0.8-0.9"
 
-["0.1.4-0"]
+["0.1.15-0"]
+Reexport = "1"
+Requires = "1"
+
+["0.1.4-0.1.14"]
 StatsPlots = "0.15"
 
 ["0.1.6-0"]
