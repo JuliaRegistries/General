@@ -117,5 +117,10 @@ ZygoteRules = "0.2"
 
 [2]
 DiffEqBase = "6.122.0-6"
-KernelAbstractions = "0.8-0.9"
 Requires = "1"
+
+["2-2.1.0"]
+KernelAbstractions = "0.8-0.9"
+
+["2.1.1-2"]
+KernelAbstractions = "0.9"
