@@ -31,10 +31,12 @@ StatsBase = "0.30-0.33"
 StaticArrays = "1"
 
 ["0.5.3-1"]
-Latexify = "0.15"
 RecipesBase = "1"
 Requires = "1"
 StatsBase = "0.32-0.33"
+
+["0.5.3-1.1.0"]
+Latexify = "0.15"
 
 ["0.7-1"]
 Contour = "0.6"
@@ -43,5 +45,11 @@ KernelDensity = "0.6"
 Makie = "0.19"
 NamedTupleTools = "0.14"
 OrderedCollections = "1.4.0-1"
-SnoopPrecompile = "1"
 julia = "1.7.0-1"
+
+["0.7-1.1.0"]
+SnoopPrecompile = "1"
+
+["1.1.1-1"]
+Latexify = "0.15-0.16"
+PrecompileTools = "1"
