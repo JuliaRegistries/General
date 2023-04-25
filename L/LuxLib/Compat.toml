@@ -11,19 +11,26 @@ NNlibCUDA = "0.2"
 ["0-0.1.7"]
 CUDA = "3"
 
-["0.1.10-0"]
+["0.1.10-0.1"]
 Tracker = "0.2"
 
-["0.1.12-0"]
+["0.1.12-0.1"]
 ReverseDiff = "1"
 
 ["0.1.13-0"]
 KernelAbstractions = "0.9"
+
+["0.1.13-0.1"]
 LuxCUDA = "0.1"
 
 ["0.1.8-0.1.12"]
 CUDA = "3-4"
 
 ["0.1.9-0"]
-ForwardDiff = "0.10"
 Requires = "1"
+
+["0.1.9-0.1"]
+ForwardDiff = "0.10"
+
+["0.2-0"]
+Reexport = "1"

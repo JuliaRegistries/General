@@ -11,15 +11,20 @@ CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
 NNlibCUDA = "a00861dc-f156-4864-bf3c-e6376f28a68d"
 
-["0.1.10-0"]
+["0.1.10-0.1"]
 Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 
-["0.1.12-0"]
+["0.1.12-0.1"]
 ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 
-["0.1.13-0"]
+["0.1.13-0.1"]
 LuxCUDA = "d0bbae9a-e099-4d5b-a835-1c6931763bda"
 
 ["0.1.9-0"]
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.1.9-0.1"]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
+["0.2-0"]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
