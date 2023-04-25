@@ -2,7 +2,6 @@
 BlockDiagonals = "0.1"
 ChainRulesCore = "1"
 IterativeSolvers = "0.9"
-LazyArrays = "0.21-0.22"
 julia = "1.6.0-1"
 
 ["0-0.2"]
@@ -10,12 +9,21 @@ JuMP = "0.22"
 MathOptInterface = "0.10"
 MathOptSetDistances = "0.1"
 
-["0.3-0"]
+["0-0.4.1"]
+LazyArrays = "0.21-0.22"
+
+["0.3-0.4.1"]
 MathOptInterface = "1"
 MathOptSetDistances = "0.2"
 
 ["0.3.0"]
 JuMP = "0.23"
 
-["0.3.1-0"]
+["0.3.1-0.4.1"]
 JuMP = ["0.23", "1"]
+
+["0.4.2-0"]
+JuMP = "1"
+LazyArrays = ["0.21-0.22", "1"]
+MathOptInterface = "1.14.1-1"
+MathOptSetDistances = "0.2.7-0.2"
