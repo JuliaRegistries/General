@@ -7,7 +7,6 @@ LaTeXStrings = "1"
 LinearMaps = "3"
 MacroTools = "0.5"
 RuntimeGeneratedFunctions = "0.5"
-SnoopPrecompile = "1"
 SpecialFunctions = "2"
 Subscripts = "0.1"
 SymPy = "1"
@@ -27,6 +26,9 @@ DocStringExtensions = "0.9"
 
 ["0-0.1.14"]
 Plots = "1.36.3-1"
+
+["0-0.1.16"]
+SnoopPrecompile = "1"
 
 ["0-0.1.6"]
 FiniteDifferences = "0.12"
@@ -66,6 +68,10 @@ Reexport = "1"
 
 ["0.1.15-0"]
 Requires = "1"
+
+["0.1.17-0"]
+PrecompileTools = "1"
+Reexport = "1"
 
 ["0.1.4-0.1.14"]
 StatsPlots = "0.15"
