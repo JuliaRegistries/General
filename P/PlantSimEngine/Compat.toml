@@ -2,7 +2,6 @@
 AbstractTrees = "0.4"
 DataFrames = "1"
 Tables = "1"
-julia = "1.6.0-1"
 
 ["0-0.1"]
 MultiScaleTreeGraph = "0.4-0.8"
@@ -12,6 +11,9 @@ PlantMeteo = "0.1"
 
 ["0-0.5.0"]
 Term = "1"
+
+["0-0.6"]
+julia = "1.6.0-1"
 
 ["0.1.6-0"]
 CSV = "0.10"
@@ -29,8 +31,14 @@ PlantMeteo = "0.1.2-0.2"
 FLoops = "0.2"
 
 ["0.5.1-0"]
-PlantMeteo = "0.1.2-0.3"
 Term = "1-2"
+
+["0.5.1-0.6"]
+PlantMeteo = "0.1.2-0.3"
 
 ["0.6.1-0"]
 MultiScaleTreeGraph = "0.4-0.10"
+
+["0.7-0"]
+PlantMeteo = "0.6"
+julia = "1.7.0-1"
