@@ -5,9 +5,11 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 [0-1]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-IniFile = "83e8ac13-25f8-5344-8a64-a9f2b223428f"
 MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
 Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
+
+["0-1.7"]
+IniFile = "83e8ac13-25f8-5344-8a64-a9f2b223428f"
 
 ["0.8.0"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
@@ -32,3 +34,6 @@ SimpleBufferStream = "777ac1f9-54b0-4bf8-805c-2214025038e7"
 
 ["1.4-1"]
 OpenSSL = "4d8831e6-92b7-49fb-bdf8-b643e874388c"
+
+["1.8-1"]
+ConcurrentUtilities = "f0e56b4a-5159-44fe-b623-3e5288b988bb"
