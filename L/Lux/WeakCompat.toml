@@ -3,11 +3,16 @@ ComponentArrays = "0.13"
 Flux = "0.13"
 
 ["0.4.39-0"]
-FillArrays = "0.13"
 Zygote = "0.6"
+
+["0.4.39-0.4.52"]
+FillArrays = "0.13"
 
 ["0.4.40-0"]
 Tracker = "0.2"
 
 ["0.4.43-0"]
 ReverseDiff = "1"
+
+["0.4.53-0"]
+FillArrays = ["0.13", "1"]
