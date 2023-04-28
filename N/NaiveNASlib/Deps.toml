@@ -3,14 +3,19 @@ LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 MetaGraphs = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
 
 [1-2]
-Cbc = "9961bab8-2fa3-5c5a-9d89-47fab24efd76"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
+["1-2.0.9"]
+Cbc = "9961bab8-2fa3-5c5a-9d89-47fab24efd76"
+
 [2]
 Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["2.0.10-2"]
+HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
 
 ["2.0.6-2"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
