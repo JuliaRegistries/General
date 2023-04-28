@@ -1,10 +1,18 @@
 [0]
 ColorSchemes = "3.9.0-3"
-DataFrames = "0.21"
-DataStructures = "0.17"
 Formatting = "0.4"
 MacroTools = "0.5"
-Nemo = "0.17"
 RecipesBase = "1"
-StaticArrays = "0.12"
 julia = "1.4.0-1"
+
+["0-0.1"]
+DataFrames = "0.21"
+DataStructures = "0.17"
+Nemo = "0.17"
+StaticArrays = "0.12"
+
+["0.2-0"]
+DataFrames = ["0.22", "1"]
+DataStructures = "0.18"
+Nemo = "0.20"
+StaticArrays = "1"
