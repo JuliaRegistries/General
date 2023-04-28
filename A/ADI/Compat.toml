@@ -1,6 +1,5 @@
 [0]
 ProgressLogging = "0.1"
-Setfield = "0.7"
 StatsBase = "0.33"
 
 ["0-0.2"]
@@ -26,6 +25,9 @@ Reexport = "0.2"
 
 ["0-0.7"]
 ImageTransformations = "0.8"
+
+["0-0.8"]
+Setfield = "0.7"
 
 ["0.3-0.5.2"]
 NMF = "0.4.1-0.4"
@@ -66,10 +68,12 @@ julia = "1.4.0-1"
 ["0.5.3-0"]
 CoordinateTransformations = "0.5-0.6"
 StaticArrays = ["0.12", "1"]
-StaticKernels = "0.5-0.6"
 
 ["0.5.3-0.6.2"]
 NMF = "0.4.1-0.5"
+
+["0.5.3-0.8"]
+StaticKernels = "0.5-0.6"
 
 ["0.5.4-0.5"]
 HCIToolbox = "0.5.1-0.5"
@@ -77,14 +81,14 @@ HCIToolbox = "0.5.1-0.5"
 ["0.5.5-0"]
 Reexport = ["0.2", "1"]
 
-["0.6-0"]
-FillArrays = "0.8-0.11"
-
 ["0.6-0.6.1"]
 StructArrays = "0.4"
 
 ["0.6-0.7"]
 HCIToolbox = "0.5.3-0.5"
+
+["0.6-0.8"]
+FillArrays = "0.8-0.11"
 
 ["0.6.2-0.6"]
 StructArrays = "0.4-0.5"
@@ -92,7 +96,7 @@ StructArrays = "0.4-0.5"
 ["0.6.3"]
 NMF = "0.5.1-0.5"
 
-["0.6.4-0"]
+["0.6.4-0.8"]
 NMF = "0.5.3-0.5"
 
 ["0.6.6-0"]
@@ -103,8 +107,18 @@ ConcreteStructs = "0.2"
 Distances = "0.10"
 StructArrays = "0.4-0.6"
 
+["0.8"]
+Photometry = "0.8.1-0.8"
+julia = "1.5.0-1"
+
 ["0.8-0"]
 HCIToolbox = "0.6.2-0.6"
 ImageTransformations = "0.8-0.9"
-Photometry = "0.8.1-0.8"
-julia = "1.5.0-1"
+
+["0.9-0"]
+FillArrays = ["0.8-0.11", "1"]
+NMF = ["0.5.3-0.5", "1"]
+Photometry = "0.9"
+Setfield = ["0.7", "1"]
+StaticKernels = "0.5-0.8"
+julia = "1.6.0-1"
