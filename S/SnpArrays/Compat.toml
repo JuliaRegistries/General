@@ -9,7 +9,6 @@ Glob = "1"
 LoopVectorization = "0.12.43-0.12"
 Missings = ["0.4", "1"]
 Requires = "1"
-StatsBase = "0.24-0.33"
 Tables = "1"
 TranscodingStreams = "0.9"
 VariantCallFormat = "0.5"
@@ -25,6 +24,9 @@ SpecialFunctions = ["0.8-0.10", "1"]
 ["0-0.3.17"]
 DelimitedFiles = "1.5.0-1"
 
+["0-0.3.18"]
+StatsBase = "0.24-0.33"
+
 ["0.3.12-0"]
 VectorizationBase = "0.20.19-0.21"
 
@@ -36,3 +38,6 @@ SpecialFunctions = ["0.8-0.10", "1-2"]
 
 ["0.3.14-0"]
 CSV = "0.8-0.10"
+
+["0.3.19-0"]
+StatsBase = "0.24-0.34"
