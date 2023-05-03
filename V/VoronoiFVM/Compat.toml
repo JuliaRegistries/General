@@ -236,8 +236,10 @@ StaticArrays = "1"
 ExtendableGrids = "0.6"
 
 [1]
-ExtendableSparse = "1.0.1-1"
 LinearSolve = "1.37.0-1"
+
+["1-1.3"]
+ExtendableSparse = "1.0.1-1"
 
 ["1.1.1-1"]
 ForwardDiff = "0.10.35-0.10"
@@ -250,3 +252,6 @@ RecursiveFactorization = "0.2.18-0.2"
 
 ["1.3.2-1"]
 PrecompileTools = "1"
+
+["1.4-1"]
+ExtendableSparse = "1.1.0-1"
