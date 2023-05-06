@@ -2,7 +2,6 @@
 FFTW = "1"
 Graphs = "1"
 OrderedCollections = "1"
-SnoopPrecompile = "1"
 
 ["0-0.1.0"]
 KLU = "0.3"
@@ -13,6 +12,9 @@ julia = "1.6.0-1"
 ["0-0.1.5"]
 Symbolics = "4"
 
+["0-0.2"]
+SnoopPrecompile = "1"
+
 ["0.1.1-0"]
 KLU = "0.4"
 
@@ -22,3 +24,6 @@ julia = "1.7.0-1"
 ["0.1.6-0"]
 AxisKeys = "0.2"
 Symbolics = "4-5"
+
+["0.3-0"]
+PrecompileTools = "1"
