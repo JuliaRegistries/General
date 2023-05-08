@@ -23,8 +23,14 @@ DataFrames = "1"
 ["0.11-0"]
 CategoricalArrays = "0.9-0.10"
 Requires = "1"
-SnoopPrecompile = "1"
 StatsModels = "0.6-0.7"
+
+["0.11-0.11.1"]
+SnoopPrecompile = "1"
+
+["0.11.2-0"]
+CPUSummary = "0.1-0.2"
+PrecompileTools = "1"
 
 ["0.2.2-0.2.3"]
 Reexport = "1"
@@ -44,7 +50,7 @@ StatsBase = "0.29-0.33"
 ["0.7-0.10.1"]
 DataFrames = ["0.22", "1"]
 
-["0.8-0"]
+["0.8-0.11.1"]
 CPUSummary = "0.1"
 
 ["0.9-0.10"]
