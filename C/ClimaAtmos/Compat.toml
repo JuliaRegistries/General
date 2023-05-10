@@ -24,7 +24,6 @@ UnPack = "1"
 ["0.10-0"]
 ArtifactWrappers = "0.2"
 CLIMAParameters = "0.7"
-ClimaComms = "0.3"
 ClimaTimeSteppers = "0.7"
 CloudMicrophysics = "0.10"
 DiffEqBase = "6"
@@ -36,10 +35,17 @@ SurfaceFluxes = "0.6"
 TerminalLoggers = "0.1"
 YAML = "0.4"
 
+["0.10-0.11"]
+ClimaComms = "0.3"
+
 ["0.11-0"]
 ArgParse = "1"
 
-["0.2-0"]
+["0.12-0"]
+ClimaComms = "0.4"
+Insolation = "0.4"
+
+["0.2-0.11"]
 Insolation = "0.3"
 
 ["0.2-0.3"]
