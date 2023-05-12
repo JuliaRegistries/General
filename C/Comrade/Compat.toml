@@ -5,7 +5,6 @@ Distributions = "0.24-0.25"
 FFTW = "1"
 PaddedViews = "0.5"
 SpecialFunctions = ["0.10", "1-2"]
-StatsBase = "0.31-0.33"
 StructArrays = "0.3-0.6"
 julia = "1.6.0-1"
 
@@ -30,6 +29,9 @@ StaticArrays = "1"
 
 ["0-0.6.4"]
 DelimitedFiles = "1.6.0-1"
+
+["0-0.7"]
+StatsBase = "0.31-0.33"
 
 ["0-0.7.4"]
 PyCall = "1"
@@ -178,12 +180,17 @@ NamedTupleTools = "0.13-0.14"
 ["0.7.3-0.7.6"]
 Enzyme = "0.10-0.11"
 
-["0.7.5-0"]
+["0.7.5-0.7"]
 CondaPkg = "0.2"
 PythonCall = "0.9"
 
-["0.7.7-0"]
+["0.7.7-0.7"]
 Enzyme = "0.11"
 
 ["0.7.8-0"]
 FillArrays = ["0.12-0.13", "1"]
+
+["0.8-0"]
+Enzyme = "0.11.0"
+Requires = "1"
+StatsBase = "0.31-0.34"
