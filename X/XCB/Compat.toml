@@ -1,5 +1,4 @@
 [0]
-CEnum = "0.4"
 Xorg_libxcb_jll = "1.13.0-1"
 
 ["0-0.2"]
@@ -14,6 +13,9 @@ xkbcommon_jll = "0.9.1-0.9"
 ["0-0.4"]
 julia = "1.5.0-1"
 
+["0-0.5"]
+CEnum = "0.4"
+
 ["0.3-0"]
 Xorg_xcb_util_jll = "0.4"
 
@@ -23,15 +25,17 @@ WindowAbstractions = "0.2.2-0.2"
 ["0.3.1"]
 Parameters = "0.12"
 
-["0.3.1-0"]
-DocStringExtensions = "0.8"
-xkbcommon_jll = "0.9"
-
 ["0.3.1-0.3"]
 WindowAbstractions = "0.2"
 
+["0.3.1-0.5"]
+DocStringExtensions = "0.8"
+xkbcommon_jll = "0.9"
+
 ["0.3.2-0"]
 Reexport = "1"
+
+["0.3.2-0.5"]
 UnPack = "1"
 
 ["0.4.0"]
@@ -40,6 +44,13 @@ WindowAbstractions = "0.3"
 ["0.4.1-0.4"]
 WindowAbstractions = "0.4"
 
-["0.5-0"]
+["0.5"]
 WindowAbstractions = "0.5"
 julia = "1.7.0-1"
+
+["0.6-0"]
+BitMasks = "0.1"
+DocStringExtensions = "0.8-0.9"
+WindowAbstractions = "0.6"
+XKeyboard = "0.1"
+julia = "1.9.0-1"
