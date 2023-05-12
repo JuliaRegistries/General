@@ -20,6 +20,12 @@ DocStringExtensions = "0.8-0.9"
 
 ["0.4-0"]
 AxisKeys = "0.2"
-FillArrays = "0.12-0.13"
 RectiGrids = "0.1"
+
+["0.4-0.4.5"]
+FillArrays = "0.12-0.13"
 SnoopPrecompile = "1"
+
+["0.4.6-0"]
+FillArrays = ["0.12-0.13", "1"]
+PrecompileTools = "1"
