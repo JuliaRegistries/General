@@ -39,11 +39,16 @@ DynamicExpressions = "0.5"
 ["0.16.3-0"]
 SymbolicUtils = ["0.19", "1.0.5-1"]
 
-["0.17-0"]
+["0.17"]
 DynamicExpressions = "0.6"
 
 ["0.17.1-0"]
 PrecompileTools = "1"
+
+["0.18-0"]
+DynamicExpressions = "0.8"
+LossFunctions = ["0.6-0.8", "0.10"]
+StaticArrays = "1"
 
 ["0.2-0.5.12"]
 Optim = ["0.17", "1.1.0-1"]
@@ -100,5 +105,5 @@ Zygote = "0.6"
 ["0.9-0.16.2"]
 SymbolicUtils = "0.19"
 
-["0.9.3-0"]
+["0.9.3-0.17"]
 LossFunctions = "0.6-0.8"
