@@ -2,9 +2,7 @@
 AbstractFFTs = "1"
 AssociatedLegendrePolynomials = "1"
 FFTW = "1"
-FastGaussQuadrature = "0.4"
 NetCDF = "0.10-0.11"
-Parameters = "0.10-0.12"
 
 ["0-0.1"]
 UnicodePlots = "2.10.0-2"
@@ -13,11 +11,15 @@ julia = "1"
 ["0-0.2"]
 BitInformation = "0.3-0.5"
 
+["0-0.4"]
+FastGaussQuadrature = "0.4"
+Parameters = "0.10-0.12"
+
 ["0.1.1-0"]
 Primes = "0.5"
 ProgressMeter = "1.7.0-1"
 
-["0.2-0"]
+["0.2-0.4"]
 UnicodePlots = "2.10.0-3"
 julia = "1.7.0-1"
 
@@ -28,11 +30,21 @@ KernelAbstractions = "0.7"
 ["0.3-0"]
 Adapt = "3"
 BitInformation = "0.6"
-CUDA = "3"
 CodecZlib = "0.7"
 JLD2 = "0.4"
+
+["0.3-0.4"]
+CUDA = "3"
 
 ["0.4-0"]
 CUDAKernels = "0.3-0.4"
 GenericFFT = "0.1"
 KernelAbstractions = "0.7-0.8"
+
+["0.5-0"]
+CUDA = "3-4"
+DocStringExtensions = "0.9"
+FLoops = "0.2"
+FastGaussQuadrature = "0.4-0.5"
+UnicodePlots = "3.3.2-3"
+julia = "1.8.0-1"
