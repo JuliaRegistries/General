@@ -27,16 +27,24 @@ ExtendableSparse = "0.9.1-0.9"
 CommonSolve = "0.2"
 DocStringExtensions = "0.8-0.9"
 ExtendableGrids = "0.9.16-0.9"
-ExtendableSparse = "0.9.6-0.9"
 GridVisualize = ["0.5.2-0.5", "0.6.1-0.6", "1"]
-LinearSolve = "1.33.1-1"
 Symbolics = "4.2.0-5"
 
-["0.3-0"]
-ForwardDiff = "0.10"
+["0.11-0.11.1"]
+ExtendableSparse = "0.9.6-0.9"
+LinearSolve = "1.33.1-1"
+
+["0.11.2-0"]
+ExtendableSparse = "1.2.0-1"
+ForwardDiff = "0.10.35-0.10"
+LinearSolve = "1.37.0-1"
+SparseDiffTools = "1.19.0-2"
 
 ["0.3-0.10"]
 DocStringExtensions = "0.8"
+
+["0.3-0.11.1"]
+ForwardDiff = "0.10"
 
 ["0.3.0"]
 ExtendableGrids = "0.5"
@@ -84,8 +92,10 @@ ExtendableGrids = "0.8.1-0.8"
 ExtendableGrids = "0.8.2-0.8"
 
 ["0.7.13-0"]
-SparseDiffTools = "1.19.0-1"
 julia = "1.6.0-1"
+
+["0.7.13-0.11.1"]
+SparseDiffTools = "1.19.0-1"
 
 ["0.7.13-0.9.9"]
 SparsityDetection = "0.3.4-0.3"
