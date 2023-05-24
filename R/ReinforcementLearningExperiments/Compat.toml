@@ -36,11 +36,19 @@ Setfield = "0.7-0.8"
 ["0.1.3-0.1"]
 Zygote = "0.6"
 
-["0.2-0"]
-Distributions = "0.25"
-Flux = "0.13"
-Reexport = "1"
+["0.2"]
 ReinforcementLearningBase = "0.11"
 ReinforcementLearningCore = "0.9"
 ReinforcementLearningEnvironments = "0.7"
 ReinforcementLearningZoo = "0.6"
+
+["0.2-0"]
+Distributions = "0.25"
+Flux = "0.13"
+Reexport = "1"
+
+["0.3-0"]
+ReinforcementLearningBase = "0.12"
+ReinforcementLearningCore = "0.10"
+ReinforcementLearningEnvironments = "0.8"
+ReinforcementLearningZoo = "0.7"
