@@ -127,6 +127,11 @@ Setfield = "0.6-0.8"
 ["0.5.12-0.5"]
 Flux = "0.12-0.13"
 
+["0.6"]
+ReinforcementLearningBase = "0.11"
+ReinforcementLearningCore = "0.9"
+StatsBase = "0.33"
+
 ["0.6-0"]
 CUDA = "4"
 ChainRulesCore = "1"
@@ -136,7 +141,9 @@ Functors = "0.2-0.4"
 LogExpFunctions = "0.3"
 NNlib = "0.8"
 Optim = "1"
-ReinforcementLearningBase = "0.11"
-ReinforcementLearningCore = "0.9"
-StatsBase = "0.33"
 Zygote = "0.6"
+
+["0.7-0"]
+ReinforcementLearningBase = "0.12"
+ReinforcementLearningCore = "0.10"
+StatsBase = "0.33-0.34"
