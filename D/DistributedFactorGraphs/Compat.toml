@@ -54,13 +54,15 @@ Graphs = "1.4.0-1"
 Colors = "0.10-0.12"
 Distributions = "0.23-0.25"
 Reexport = "1"
-Requires = "1"
 
 ["0.18.2-0.18.3"]
 DocStringExtensions = "0.8"
 
 ["0.18.2-0.19"]
 julia = "1.6.0-1"
+
+["0.18.2-0.21.1"]
+Requires = "1"
 
 ["0.18.4-0"]
 DocStringExtensions = "0.8-0.9"
@@ -81,11 +83,17 @@ JSON3 = "1"
 ["0.20-0"]
 ManifoldsBase = "0.12-0.14"
 StructTypes = "1"
+
+["0.20-0.21.1"]
 julia = "1.8.0-1"
 
 ["0.21-0"]
 CSV = "0.10"
 StaticArrays = "1"
+
+["0.21.2-0"]
+FileIO = "1"
+julia = "1.9.0-1"
 
 ["0.3-0.4.1"]
 LightGraphs = "0.0.0-1"
