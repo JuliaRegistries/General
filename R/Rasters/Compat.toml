@@ -8,7 +8,6 @@ ProgressMeter = "1"
 RecipesBase = ["0.7-0.8", "1"]
 Reexport = ["0.2", "1"]
 Requires = ["0.5", "1"]
-julia = "1"
 
 ["0-0.1"]
 ArchGDAL = "0.7"
@@ -34,6 +33,9 @@ PolygonInbounds = "0.2"
 
 ["0-0.5.2"]
 RasterDataSources = "0.5"
+
+["0-0.7.0"]
+julia = "1"
 
 ["0.2-0.2.1"]
 ArchGDAL = "0.7-0.8"
@@ -88,3 +90,6 @@ RasterDataSources = "0.5.7-0.5"
 ["0.6-0"]
 FillArrays = ["0.12-0.13", "1"]
 OffsetArrays = "1"
+
+["0.7.1-0"]
+julia = "1.8.0-1"
