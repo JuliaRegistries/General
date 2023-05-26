@@ -48,11 +48,16 @@ Static = "0.8"
 StaticArraysCore = "1.4.0-1"
 
 ["0.15.1-0"]
-ArrayLayouts = ["0.8", "1"]
 LazyArrays = ["0.22", "1"]
+
+["0.15.1-0.15"]
+ArrayLayouts = ["0.8", "1"]
 
 ["0.15.2-0"]
 PrecompileTools = "1"
+
+["0.16-0"]
+ArrayLayouts = "1"
 
 ["0.2.1-0.4"]
 Reexport = ["0.2", "1"]
