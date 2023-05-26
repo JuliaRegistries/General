@@ -1,9 +1,11 @@
 [0]
-PeaceVote = "129db535-0459-46ad-8d3d-b1fb8f318c74"
 Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
 
 ["0-0.2.3"]
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+
+["0-0.3"]
+PeaceVote = "129db535-0459-46ad-8d3d-b1fb8f318c74"
 
 ["0.1.2-0.3.0"]
 Synchronizers = "9279c0cf-0ddb-4a8a-93c9-19d312620a08"
@@ -15,12 +17,30 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 DiffieHellman = "0e61fee8-20a4-4374-8233-5198f28d9d66"
 SynchronicBallot = "c4fd2470-c9f5-491f-b4e2-53b9059945a5"
 
-["0.2.2-0"]
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-
 ["0.2.2-0.2.5"]
 SMTPClient = "c35d69d1-b747-5018-a192-25bc5e63c83d"
 
-["0.2.6-0"]
+["0.2.2-0.3"]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["0.2.6-0.3"]
 DemeNet = "311d44f8-95d5-40c8-b71c-a916d7747227"
 Recruiters = "deefbfe4-5b57-4941-9cbb-7e0220485fa4"
+
+["0.4-0"]
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+CryptoGroups = "bc997328-bedd-407e-bcd3-5758e064a52d"
+CryptoSignatures = "35cc5888-0c46-470e-89c7-eafcaf79a1aa"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+HistoryTrees = "6629d18c-a67a-486a-9b40-962f9d752038"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+Nettle = "49dea1ee-f6fa-5aa6-9a11-8816cee7d4b9"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+ShuffleProofs = "31a120cc-b3cb-4d07-bbdb-d498660ddfd8"
+StructEquality = "6ec83bb0-ed9f-11e9-3b4c-2b04cb4e219c"
+StructHelpers = "4093c41a-2008-41fd-82b8-e3f9d02b504f"
+StructTypes = "856f2bd8-1eba-4b0a-8007-ebc267875bd4"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+URIs = "5c2747f8-b7ea-4ff2-ba2e-563bfd36b1d4"
