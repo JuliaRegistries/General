@@ -3,9 +3,11 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["0-0.8"]
+SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 
 ["0.3.1-0"]
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
@@ -21,3 +23,6 @@ MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 
 ["0.8-0"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["0.9-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
