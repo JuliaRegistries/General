@@ -1,5 +1,4 @@
 [0]
-OffsetArrays = "1"
 julia = "1"
 
 ["0-0.1.1"]
@@ -7,5 +6,14 @@ Debugger = "0.7"
 Documenter = "0.27"
 DocumenterTools = "0.1"
 
-["0.1.5-0"]
+["0-0.1.10"]
+OffsetArrays = "1"
+
+["0.1.11-0"]
+DataStructures = "0.1.0-*"
+IOCapture = "0.1.0-*"
+OffsetArrays = "0.1.0-*"
+Pidfile = "0.1.0-*"
+
+["0.1.5-0.1.10"]
 Pidfile = "1"
