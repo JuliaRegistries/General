@@ -51,14 +51,18 @@ ZipFile = "0.10"
 SpmImages = "0.3"
 
 ["0.4-0"]
-SnoopPrecompile = "1"
 julia = "1.8.0-1"
+
+["0.4-0.5"]
+SnoopPrecompile = "1"
 
 ["0.4.2-0.4"]
 Blink = "0.12.5"
 
-["0.5-0"]
+["0.5"]
 Blink = "0.12.6"
+
+["0.5-0"]
 ColorSchemes = "3.20.0-3"
 DSP = "0.7"
 DataFrames = "1.4.0-1"
@@ -70,3 +74,7 @@ SpmImages = "0.3.2-0.3"
 
 ["0.5.1-0"]
 TranscodingStreams = "0.9.11"
+
+["0.6-0"]
+Blink = "0.12.7"
+PrecompileTools = "1"
