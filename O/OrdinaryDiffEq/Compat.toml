@@ -372,7 +372,7 @@ FunctionWrappersWrappers = "0.1"
 ["6.22-6.25"]
 SciMLBase = "1.50.0-1"
 
-["6.23-6"]
+["6.23-6.51"]
 SparseDiffTools = "1.26.2-1"
 
 ["6.26-6.30"]
@@ -436,9 +436,11 @@ StaticArrayInterface = "1.2.0-1"
 TruncatedStacktraces = "1"
 
 ["6.49.1-6"]
-DiffEqBase = "6.122.0-6"
 SciMLBase = "1.90.0-1"
 SimpleUnPack = "1"
+
+["6.49.1-6.51"]
+DiffEqBase = "6.122.0-6"
 
 ["6.49.2-6"]
 TruncatedStacktraces = "1.2.0-1"
@@ -453,6 +455,12 @@ LinearSolve = "1.9.0-1"
 LineSearches = "7"
 LinearSolve = "1.40.0-1"
 PrecompileTools = "1"
+
+["6.52-6"]
+ADTypes = "0.1"
+DiffEqBase = "6.125.0-6"
+SciMLOperators = "0.2.8-0.2"
+SparseDiffTools = "2.3.0-2"
 
 ["6.6.3-6.14"]
 DiffEqBase = "6.81.3-6.84"
