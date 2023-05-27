@@ -1,10 +1,20 @@
 [0]
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+QuantumInterface = "5717a53b-5d69-4fa3-b976-0bf2f97ca1e5"
+
+["0-0.1"]
 QSymbolicsBase = "a8697a1a-c835-4068-9491-e8abc49d0056"
 QSymbolicsClifford = "3bf15ae1-300d-4269-a8e5-03a020b0328d"
 QSymbolicsOptics = "3c38c10f-068b-409d-8b1c-aa4375858705"
 QuantumClifford = "0525e862-1e90-11e9-3e4d-1b39d7109de1"
-QuantumInterface = "5717a53b-5d69-4fa3-b976-0bf2f97ca1e5"
 QuantumOpticsBase = "4f57444f-1401-5e15-980d-4471b28d5678"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.2-0"]
+Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
+Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+TermInterface = "8ea1fca8-c5ef-4a55-8b96-4e9afe9c9a3c"
