@@ -80,7 +80,7 @@ ArrayInterface = "1.1.0-2"
 ["6.14-6.25.0"]
 FillArrays = "0.6-0.8"
 
-["6.15-6"]
+["6.15-6.60"]
 SparseDiffTools = ["0.9-0.10", "1"]
 
 ["6.17-6"]
@@ -217,7 +217,7 @@ OrdinaryDiffEq = "6"
 ["6.44"]
 ArrayInterface = "2.4.0-4"
 
-["6.44-6"]
+["6.44-6.60"]
 OrdinaryDiffEq = "6.4.0-6"
 
 ["6.45-6"]
@@ -226,7 +226,7 @@ LevyArea = "1"
 ["6.45-6.47"]
 ArrayInterface = "2.4.0-5"
 
-["6.46-6"]
+["6.46-6.60"]
 FillArrays = "0.6-0.13"
 
 ["6.48-6.57"]
@@ -259,6 +259,12 @@ ArrayInterface = "6-7"
 
 ["6.60-6"]
 DiffEqBase = "6.122.0-6"
+
+["6.61-6"]
+FillArrays = ["0.6-0.13", "1"]
+OrdinaryDiffEq = "6.52.0-6"
+SciMLOperators = "0.2.9-0.2"
+SparseDiffTools = "2"
 
 ["6.7-6.8"]
 SparseDiffTools = "0.3.0-0.9"
