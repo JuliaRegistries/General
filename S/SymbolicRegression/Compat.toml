@@ -36,7 +36,7 @@ SnoopPrecompile = "1"
 ["0.16"]
 DynamicExpressions = "0.5"
 
-["0.16.3-0"]
+["0.16.3-0.18"]
 SymbolicUtils = ["0.19", "1.0.5-1"]
 
 ["0.17"]
@@ -45,10 +45,16 @@ DynamicExpressions = "0.6"
 ["0.17.1-0"]
 PrecompileTools = "1"
 
-["0.18-0"]
+["0.18"]
 DynamicExpressions = "0.8"
-LossFunctions = ["0.6-0.8", "0.10"]
 StaticArrays = "1"
+
+["0.18-0"]
+LossFunctions = ["0.6-0.8", "0.10"]
+
+["0.19-0"]
+DynamicExpressions = "0.9"
+Requires = "1"
 
 ["0.2-0.5.12"]
 Optim = ["0.17", "1.1.0-1"]
