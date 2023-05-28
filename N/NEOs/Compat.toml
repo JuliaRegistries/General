@@ -2,13 +2,10 @@
 DataFrames = "1.2.0-1"
 EarthOrientation = "0.7"
 HORIZONS = "0.3"
-Healpix = "3"
-IntervalArithmetic = "0.19"
 Quadmath = "0.5"
 Query = "1"
 SPICE = "0.2"
 StaticArrays = "1.2.0-1"
-StatsBase = "0.33"
 julia = "1.6.0-1"
 
 ["0-0.2"]
@@ -20,14 +17,28 @@ SatelliteToolbox = "0.9"
 TaylorIntegration = "0.8"
 TaylorSeries = "0.12"
 
+["0-0.3.0"]
+Healpix = "3"
+IntervalArithmetic = "0.19"
+StatsBase = "0.33"
+
 ["0.3-0"]
 AutoHashEquals = "0.2"
 HTTP = "1.9.5-1"
 IntervalRootFinding = "0.5.11-0.5"
 JLD = "0.13"
 JLD2 = "0.4"
-PlanetaryEphemeris = "0.5"
 ReferenceFrameRotations = "3"
 SatelliteToolbox = "0.10"
-TaylorIntegration = "0.12"
 TaylorSeries = "0.15"
+
+["0.3.0"]
+PlanetaryEphemeris = "0.5"
+TaylorIntegration = "0.12"
+
+["0.3.1-0"]
+Healpix = "4"
+IntervalArithmetic = "0.20"
+PlanetaryEphemeris = "0.6"
+StatsBase = "0.34"
+TaylorIntegration = "0.13"
