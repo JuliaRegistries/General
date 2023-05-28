@@ -52,13 +52,20 @@ ModelingToolkit = "3-6"
 
 ["0.10-0"]
 DiffEqBase = "6.122.0-6"
-OrdinaryDiffEq = "6.49.1-6"
 SciMLBase = "1.90.0-1"
 SimpleUnPack = "1"
 ToeplitzMatrices = "0.7-0.8"
 
-["0.10.2-0"]
+["0.10-0.11.1"]
+OrdinaryDiffEq = "6.49.1-6"
+
+["0.10.2-0.11.1"]
 TaylorSeries = "0.10-0.14"
+
+["0.11.2-0"]
+OrdinaryDiffEq = "6.52.0-6"
+PrecompileTools = "1"
+TaylorSeries = "0.10-0.15"
 
 ["0.2-0.6"]
 TaylorIntegration = "0.8"
@@ -126,7 +133,7 @@ OrdinaryDiffEq = "6.2-6.20"
 ["0.8.2"]
 OrdinaryDiffEq = "6.2-6.21"
 
-["0.8.2-0"]
+["0.8.2-0.11.1"]
 SnoopPrecompile = "1"
 
 ["0.8.3"]
