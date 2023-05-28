@@ -12,7 +12,6 @@ ParameterSchedulers = "0.3"
 QuasiMonteCarlo = "0.2"
 SciMLBase = "1"
 StatsBase = "0.33"
-julia = "1.7.0-1"
 
 ["0-0.1.1"]
 Lux = "0.4"
@@ -25,6 +24,9 @@ ComponentArrays = "0.13"
 
 ["0-0.3.7"]
 CUDA = "3"
+
+["0-0.4.2"]
+julia = "1.7.0-1"
 
 ["0.1.2-0.1.4"]
 Lux = "0.4.20-0.4"
@@ -73,3 +75,7 @@ Requires = "1"
 
 ["0.4-0"]
 MacroTools = "0.5"
+
+["0.4.3-0"]
+StaticArrays = "1.5.0-1"
+julia = "1.8.0-1"
