@@ -1,7 +1,6 @@
 [0]
 FFTW = "1"
 FileIO = "1"
-PyCall = "1"
 julia = "1"
 
 ["0-0.3"]
@@ -19,6 +18,9 @@ Conda = "1"
 
 ["0-0.8.0"]
 ProgressMeter = "1"
+
+["0-0.9.12"]
+PyCall = "1"
 
 ["0-0.9.7"]
 FastGaussQuadrature = "0.2-0.4"
