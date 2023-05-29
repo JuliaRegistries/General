@@ -17,18 +17,20 @@ OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-RandomNumbers = "e6cf234a-135c-5ec9-84dd-332b85af5143"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
-SplittablesBase = "171d559e-b47b-412a-8079-5efa626c420e"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 StrFormat = "b5087856-efa9-5a6d-8e6f-97303a7af894"
 StrLiterals = "68059f60-971f-57ff-a2d0-18e7de9ccc84"
 TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
+
+["0-0.8"]
+RandomNumbers = "e6cf234a-135c-5ec9-84dd-332b85af5143"
+SplittablesBase = "171d559e-b47b-412a-8079-5efa626c420e"
 ThreadsX = "ac1d9e8a-700a-412c-b207-f0111f4b6c0d"
 
 ["0.7-0"]
@@ -36,3 +38,9 @@ Folds = "41a02a25-b8f0-4f67-bc48-60067656b558"
 
 ["0.7.1-0"]
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+["0.9-0"]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+HypergeometricFunctions = "34004b35-14d8-5ef3-9330-4cdb6864b03a"
+TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
+VectorInterface = "409d34a3-91d5-4945-b6ec-7529ddf182d8"
