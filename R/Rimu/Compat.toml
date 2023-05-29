@@ -6,30 +6,41 @@ DataFrames = "1"
 DataStructures = "0.18"
 Distributions = "0.25"
 FFTW = "1"
-MPI = "0.18-0.19"
 MacroTools = "0.5"
 Measurements = "2"
 MonteCarloMeasurements = "1.0.2-1"
 OrderedCollections = "1"
 Parameters = "0.12"
 ProgressLogging = "0.1.3-0.1"
-RandomNumbers = "1.5.2-1"
 Reexport = "1"
 SpecialFunctions = "1-2"
-SplittablesBase = "0.1"
 StaticArrays = "1"
-StatsBase = "0.33"
 StrFormat = "1"
 StrLiterals = "1"
 TerminalLoggers = "0.1.4-0.1"
-ThreadsX = "0.1"
-julia = "1.6.0-1"
 
 ["0-0.7.0"]
 Setfield = "0.7-0.8"
+
+["0-0.8"]
+MPI = "0.18-0.19"
+RandomNumbers = "1.5.2-1"
+SplittablesBase = "0.1"
+StatsBase = "0.33"
+ThreadsX = "0.1"
+julia = "1.6.0-1"
 
 ["0.7-0"]
 Folds = "0.2"
 
 ["0.7.1-0"]
 Setfield = ["0.7-0.8", "1"]
+
+["0.9-0"]
+Combinatorics = "1"
+HypergeometricFunctions = "0.3"
+MPI = "0.20"
+StatsBase = "0.33-0.34"
+TupleTools = "1"
+VectorInterface = "0.2"
+julia = "1.7.0-1"
