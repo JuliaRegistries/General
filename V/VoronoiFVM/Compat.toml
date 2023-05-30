@@ -1,6 +1,3 @@
-[0]
-ForwardDiff = "0.10"
-
 ["0-0.16"]
 DocStringExtensions = "0.8"
 
@@ -21,6 +18,9 @@ julia = "1"
 
 ["0-0.9"]
 IterativeSolvers = "0.8"
+
+["0-1.1.0"]
+ForwardDiff = "0.10"
 
 ["0.10-0.14"]
 SparsityDetection = "0.3"
@@ -46,7 +46,7 @@ ExtendableSparse = "0.4.2-0.4"
 ["0.10.2-0.11.4"]
 GridVisualize = "0.1"
 
-["0.10.3-0"]
+["0.10.3-1"]
 StaticArrays = ["0.12", "1"]
 
 ["0.10.6-0.11.8"]
@@ -70,7 +70,7 @@ GridVisualize = "0.1-0.2"
 ["0.11.6-0.12.1"]
 ExtendableGrids = "0.7.7-0.7"
 
-["0.11.9-0"]
+["0.11.9-1"]
 RecursiveArrayTools = "2.14.2-2"
 
 ["0.12.2-0.12"]
@@ -82,33 +82,35 @@ GridVisualize = "0.3"
 ["0.13.0"]
 ExtendableGrids = "0.7.8-0.8"
 
-["0.13.1-0"]
-JLD2 = "0.4"
-
 ["0.13.1-0.16.1"]
 ExtendableGrids = "0.8.3-0.8"
+
+["0.13.1-0.18.4"]
+JLD2 = "0.4"
 
 ["0.13.3-0.15.1"]
 GridVisualize = "0.4"
 
-["0.14-0"]
+["0.14-1"]
 julia = "1.6.0-1"
 
-["0.15-0"]
+["0.15-0.18"]
 Parameters = "0.12"
-SparseDiffTools = "1.19.0-1"
 Symbolics = "4.2.0-4"
 
-["0.15.2-0"]
+["0.15-1.2.0"]
+SparseDiffTools = "1.19.0-1"
+
+["0.15.2-0.18.3"]
 GridVisualize = "0.4.7-0.5"
 
 ["0.16-0.18.1"]
 Requires = "1"
 
-["0.16.2-0"]
+["0.16.2-0.18.4"]
 ExtendableGrids = "0.8.3-0.9"
 
-["0.17-0"]
+["0.17-1"]
 DocStringExtensions = "0.8-0.9"
 
 ["0.17.1-0.17"]
@@ -117,11 +119,47 @@ ExtendableSparse = "0.7"
 ["0.18-0.18.1"]
 ExtendableSparse = "0.8"
 
-["0.18.2-0"]
-BandedMatrices = "0.17"
-ExtendableSparse = "0.9"
+["0.18.2-0.18"]
 IterativeSolvers = "0.9.2-0.9"
+
+["0.18.2-0.18.4"]
 Krylov = "0.8.4-0.8"
+
+["0.18.2-0.18.5"]
+ExtendableSparse = "0.9"
+
+["0.18.2-1"]
+BandedMatrices = "0.17"
+
+["0.18.4-0.18.6"]
+GridVisualize = "0.5.2-0.5"
+
+["0.18.5-0.18"]
+Krylov = "0.8.4-0.9"
+
+["0.18.5-1"]
+ExtendableGrids = "0.9.16-0.9"
+JLD2 = "0.4.29-0.4"
+
+["0.18.6-0.18"]
+ExtendableSparse = "0.9.4-0.9"
+
+["0.18.7-0.19.2"]
+GridVisualize = ["0.5.2-0.5", "0.6.1-0.6"]
+
+["0.19-0"]
+ExtendableSparse = "0.9.6-0.9"
+LinearSolve = "1.33.1-1"
+
+["0.19-1"]
+CommonSolve = "0.2"
+Symbolics = "4.2.0-5"
+
+["0.19-1.3.1"]
+SnoopPrecompile = "1"
+
+["0.19.3-1"]
+GridVisualize = ["0.5.2-0.5", "0.6.1-0.6", "1"]
 
 ["0.4.2-0.4"]
 Plots = "0.26"
@@ -144,13 +182,13 @@ Triangulate = "0.2"
 ["0.6.1"]
 Triangulate = "0.3"
 
-["0.6.2-0"]
-DiffResults = "1"
-
 ["0.6.2-0.7"]
 BinDeps = "0.8"
 ElasticArrays = "1"
 Triangulate = "0.4"
+
+["0.6.2-1"]
+DiffResults = "1"
 
 ["0.6.3-0.6.4"]
 ExtendableSparse = "0.2"
@@ -196,3 +234,27 @@ StaticArrays = "1"
 
 ["0.9.2-0.9"]
 ExtendableGrids = "0.6"
+
+[1]
+LinearSolve = "1.37.0-1"
+
+["1-1.3"]
+ExtendableSparse = "1.0.1-1"
+
+["1.1.1-1"]
+ForwardDiff = "0.10.35-0.10"
+
+["1.2.1-1"]
+SparseDiffTools = "1.19.0-2"
+
+["1.3-1"]
+RecursiveFactorization = "0.2.18-0.2"
+
+["1.3.2-1"]
+PrecompileTools = "1"
+
+["1.4"]
+ExtendableSparse = "1.1.0-1"
+
+["1.5-1"]
+ExtendableSparse = "1.2.0-1"

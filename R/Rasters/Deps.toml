@@ -14,7 +14,6 @@ HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 Missings = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
 Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
 NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
-PolygonInbounds = "e4521ec6-8c1d-418e-9da2-b3bc4ae105d6"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 RasterDataSources = "3cb90ccd-e1b6-4867-9617-4276c8b2ca36"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
@@ -22,6 +21,15 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 
+["0-0.5"]
+PolygonInbounds = "e4521ec6-8c1d-418e-9da2-b3bc4ae105d6"
+
 ["0.3-0"]
 CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
 Extents = "411431e0-e8b7-467b-b5e0-f676ba4f2910"
+
+["0.5.2-0"]
+MakieCore = "20f20a25-4f0e-4fdf-b5d1-57303727442b"
+
+["0.6-0"]
+OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"

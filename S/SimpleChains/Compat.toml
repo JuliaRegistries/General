@@ -38,7 +38,6 @@ LoopVectorization = "0.12.83-0.12"
 
 ["0.2-0"]
 ChainRulesCore = ["0.8-0.10", "1"]
-Polyester = "0.4-0.6"
 
 ["0.2-0.2.11"]
 Static = ["0.3-0.4", "0.6"]
@@ -46,8 +45,10 @@ Static = ["0.3-0.4", "0.6"]
 ["0.2-0.2.5"]
 ArrayInterface = ["3", "5"]
 
+["0.2-0.4.1"]
+Polyester = "0.4-0.6"
+
 ["0.2.1-0"]
-CPUSummary = "0.1.8-0.1"
 CloseOpenIntervals = "0.1.6-0.1"
 HostCPUFeatures = "0.1.7-0.1"
 LoopVectorization = "0.12.104-0.12"
@@ -59,13 +60,20 @@ StrideArraysCore = "0.3.2-0.3"
 ["0.2.1-0.2.4"]
 VectorizationBase = "0.21.28-0.21"
 
+["0.2.1-0.4.2"]
+CPUSummary = "0.1.8-0.1"
+
 ["0.2.12-0"]
-ArrayInterface = "6"
-Static = "0.7"
 StaticArrays = "1"
 julia = "1.6.0-1"
 
-["0.2.3-0"]
+["0.2.12-0.4.1"]
+Static = "0.7"
+
+["0.2.12-0.4.2"]
+ArrayInterface = "6"
+
+["0.2.3-0.4.1"]
 StrideArraysCore = "0.3.5-0.3"
 
 ["0.2.5-0.2"]
@@ -75,5 +83,20 @@ VectorizationBase = "0.21.30-0.21"
 ArrayInterface = ["3", "5-6"]
 
 ["0.3-0"]
-ArrayInterfaceCore = "0.1.14-0.1"
 VectorizationBase = "0.21.40-0.21"
+
+["0.3-0.4.2"]
+ArrayInterfaceCore = "0.1.14-0.1"
+
+["0.4.2"]
+Static = "0.7-0.8"
+
+["0.4.2-0"]
+Polyester = "0.4-0.7"
+StrideArraysCore = "0.4.7-0.4"
+
+["0.4.3-0"]
+ArrayInterface = "7"
+CPUSummary = "0.1.8-0.2"
+Static = "0.8.4-0.8"
+StaticArrayInterface = "1"

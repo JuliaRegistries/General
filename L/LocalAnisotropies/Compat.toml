@@ -2,7 +2,6 @@
 Distances = "0.10"
 NearestNeighbors = "0.4"
 RecipesBase = "1.1.0-1"
-StatsBase = "0.32-0.33"
 
 ["0-0.1"]
 GeoStatsBase = "0.21"
@@ -29,6 +28,9 @@ LightGraphs = "1.3.0-1"
 Setfield = "0.7"
 SimpleWeightedGraphs = "1.1.0-1"
 
+["0-0.2"]
+StatsBase = "0.32-0.33"
+
 ["0-0.2.0"]
 MultivariateStats = "0.7-0.8"
 
@@ -53,8 +55,10 @@ Meshes = "0.17"
 
 ["0.1.5-0"]
 Graphs = "1.4.0-1"
-ImageFiltering = "0.6-0.7"
 SimpleWeightedGraphs = "1.2.0-1"
+
+["0.1.5-0.2"]
+ImageFiltering = "0.6-0.7"
 
 ["0.1.5-0.2.0"]
 CSV = "0.8-0.9"
@@ -69,7 +73,7 @@ GeoStatsBase = "0.23-0.24"
 Meshes = "0.18-0.19"
 Variography = "0.13"
 
-["0.2.1-0"]
+["0.2.1-0.2"]
 CSV = "0.8-0.10"
 MultivariateStats = "0.7-0.9"
 ReferenceFrameRotations = "1-3"
@@ -78,11 +82,31 @@ ReferenceFrameRotations = "1-3"
 GeoStatsBase = "0.25"
 Meshes = "0.21"
 
-["0.2.2-0"]
+["0.2.2-0.2"]
 Variography = "0.14"
 
-["0.2.3-0"]
+["0.2.3-0.2"]
 GeoStatsBase = "0.25-0.26"
 KrigingEstimators = "0.8-0.9"
 Meshes = "0.21-0.22"
 Setfield = ["0.7-0.8", "1"]
+
+["0.3-0"]
+CSV = "0.10"
+KrigingEstimators = "0.10"
+MultivariateStats = "0.10"
+ReferenceFrameRotations = "3"
+Setfield = "1"
+StatsBase = "0.33"
+Variography = "0.15"
+
+["0.3.0"]
+GeoStatsBase = "0.29"
+ImageFiltering = "0.7.1-0.7"
+Meshes = "0.26"
+TiledIteration = "0.3"
+
+["0.3.1-0"]
+GeoStatsBase = "0.29-0.30"
+ImageFiltering = "0.7"
+Meshes = "0.26-0.27"

@@ -34,9 +34,17 @@ CUDA = "3.5.0-3"
 SpecialFunctions = ["0.10", "1-2"]
 
 ["0.4-0"]
-CUDA = "3.8.2-3"
 KernelAbstractions = "0.8"
 julia = "1.7.0-1"
 
+["0.4-0.4.4"]
+CUDA = "3.8.2-3"
+
 ["0.4.2-0"]
 UnsafeAtomicsLLVM = "0.1"
+
+["0.4.5-0.4.6"]
+CUDA = "3.8.2-4"
+
+["0.4.7-0"]
+CUDA = "3.13.0-4"

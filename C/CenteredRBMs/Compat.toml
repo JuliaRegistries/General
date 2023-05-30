@@ -1,0 +1,20 @@
+[1-2]
+EllipsisNotation = "1"
+Optimisers = "0.2"
+ValueHistories = "0.5"
+julia = "1.8.0-1"
+
+["1-2.1"]
+FillArrays = "0.13"
+
+["1-2.2"]
+RestrictedBoltzmannMachines = "1-2"
+
+[2]
+CudaRBMs = "1"
+
+["2.2-2"]
+FillArrays = ["0.13", "1"]
+
+["2.3-2"]
+RestrictedBoltzmannMachines = "1-3"

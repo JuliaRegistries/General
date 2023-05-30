@@ -1,7 +1,4 @@
 [0]
-Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
-CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
-Counters = "5a653867-b65e-5b16-a095-b1e26d522bbf"
 Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
@@ -12,12 +9,29 @@ Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 ["0-0.6"]
 Spglib = "f761d5c5-86db-4880-b97f-9680a7cccfb5"
 
+["0-0.7.0"]
+Counters = "5a653867-b65e-5b16-a095-b1e26d522bbf"
+
+["0-0.8"]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+
+["0-0.9"]
+CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
+
 ["0.2-0.3"]
 Brillouin = "23470ee3-d0df-4052-8b1a-8cbd6363e7f0"
 
-["0.5-0"]
+["0.5-0.8"]
 PeriodicTable = "7b2266bf-644c-5ea3-82d8-af4bbd25a884"
+
+["0.7"]
+StructHelpers = "4093c41a-2008-41fd-82b8-e3f9d02b504f"
 
 ["0.7-0"]
 EnumX = "4e289a0a-7415-4d19-859d-a7e5c4648b56"
-StructHelpers = "4093c41a-2008-41fd-82b8-e3f9d02b504f"
+
+["0.8-0"]
+StructEquality = "6ec83bb0-ed9f-11e9-3b4c-2b04cb4e219c"
+
+["0.9-0"]
+Mendeleev = "c116f080-063d-490a-9873-2b5b2cce4c34"

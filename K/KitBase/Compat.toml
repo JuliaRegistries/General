@@ -1,8 +1,6 @@
 [0]
 FFTW = "1"
-FastGaussQuadrature = "0.2-0.4"
 FileIO = "1"
-PyCall = "1"
 julia = "1"
 
 ["0-0.3"]
@@ -20,6 +18,12 @@ Conda = "1"
 
 ["0-0.8.0"]
 ProgressMeter = "1"
+
+["0-0.9.12"]
+PyCall = "1"
+
+["0-0.9.7"]
+FastGaussQuadrature = "0.2-0.4"
 
 ["0.2-0.3.1"]
 Distributions = "0.24"
@@ -40,13 +44,13 @@ TypedPolynomials = "0.2"
 ["0.3.6-0.7.2"]
 CSV = "0.8"
 
-["0.4-0"]
+["0.4-0.9.11"]
 JLD2 = "0.1-0.4"
 
 ["0.4.2-0"]
 WriteVTK = "1"
 
-["0.4.4-0"]
+["0.4.4-0.9.11"]
 CUDA = "2-3"
 
 ["0.5-0"]
@@ -96,5 +100,14 @@ CSV = "0.8-0.10"
 ["0.8.2-0"]
 BSON = "0.3"
 
+["0.9.12-0"]
+CUDA = "2-4"
+JLD2 = "0.4"
+NonlinearSolve = "1"
+SciMLNLSolve = "0.1"
+
 ["0.9.5-0"]
 Parameters = "0.12"
+
+["0.9.8-0"]
+FastGaussQuadrature = "0.2-0.5"

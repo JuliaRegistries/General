@@ -11,14 +11,6 @@ Distributions = "0.23-0.24"
 ["0-0.1.7"]
 AbstractAlgebra = "0.13"
 
-[0-4]
-IfElse = "0.1"
-MacroTools = "0.5"
-Reexport = ["0.2", "1"]
-RuntimeGeneratedFunctions = "0.4.3-0.5"
-SciMLBase = "1.8.0-1"
-TreeViews = "0.3"
-
 ["0-4.1"]
 SpecialFunctions = ["0.7-0.10", "1"]
 
@@ -31,17 +23,25 @@ DocStringExtensions = "0.7-0.8"
 ["0-4.8"]
 DiffRules = ["0.1", "1"]
 
+[0-5]
+IfElse = "0.1"
+MacroTools = "0.5"
+Reexport = ["0.2", "1"]
+RuntimeGeneratedFunctions = "0.4.3-0.5"
+SciMLBase = "1.8.0-1"
+TreeViews = "0.3"
+
 ["0.1.11-0.1.20"]
 AbstractAlgebra = "0.13-0.15"
 
 ["0.1.13-0.1.15"]
 SymbolicUtils = "0.9-0.10"
 
-["0.1.13-4"]
-Latexify = "0.11-0.15"
-
 ["0.1.13-4.1"]
 julia = "1.5.0-1"
+
+["0.1.13-5.2"]
+Latexify = "0.11-0.15"
 
 ["0.1.16-0.1.17"]
 SymbolicUtils = "0.10.1-0.10"
@@ -55,19 +55,19 @@ AbstractAlgebra = "0.13-0.16"
 ["0.1.26-1.1"]
 AbstractAlgebra = "0.13-0.17"
 
-["0.1.26-4"]
+["0.1.26-5"]
 Distributions = "0.23-0.25"
 
-["0.1.27-4"]
+["0.1.27-5.1"]
 DomainSets = "0.5"
 
-["0.1.29-4"]
+["0.1.29-5"]
 Requires = "1.1.0-1"
 
 ["0.1.3-0.1.12"]
 SymbolicUtils = "0.9"
 
-["0.1.3-4"]
+["0.1.3-5"]
 RecipesBase = "1.1.0-1"
 
 ["0.1.8-0.1.10"]
@@ -80,13 +80,13 @@ Setfield = "0.7"
 ConstructionBase = "1.2.0-1"
 SymbolicUtils = "0.12"
 
-[1-4]
+[1-5]
 StaticArrays = "1.1.0-1"
 
 ["1.2-3.2"]
 SymbolicUtils = "0.13"
 
-["1.2-4"]
+["1.2-5"]
 ConstructionBase = "1.1.0-1"
 
 ["3.3"]
@@ -110,14 +110,14 @@ SymbolicUtils = "0.18"
 ["4-4.3"]
 TermInterface = "0.2"
 
-["4.1-4"]
+["4.1-5"]
 DataStructures = "0.18"
 
-["4.11-4"]
+["4.11-5"]
 LaTeXStrings = "1.3.0-1"
 LambertW = "0.4.5-0.4"
 
-["4.2-4"]
+["4.2-5"]
 SpecialFunctions = ["0.7-0.10", "1-2"]
 julia = "1.6.0-1"
 
@@ -130,12 +130,14 @@ ArrayInterface = "3"
 ["4.3.0"]
 ArrayInterface = "3-4"
 
-["4.3.1-4"]
-Groebner = "0.1-0.2"
-NaNMath = ["0.3", "1"]
-
 ["4.3.1-4.5"]
 ArrayInterface = "3-5"
+
+["4.3.1-5"]
+NaNMath = ["0.3", "1"]
+
+["4.3.1-5.1"]
+Groebner = "0.1-0.2"
 
 ["4.4-4"]
 TermInterface = "0.2-0.3"
@@ -143,9 +145,25 @@ TermInterface = "0.2-0.3"
 ["4.6-4"]
 ArrayInterfaceCore = "0.1.1-0.1"
 
-["4.6.1-4"]
+["4.6.1-5"]
 DocStringExtensions = "0.7-0.9"
 Setfield = ["0.7-0.8", "1"]
 
-["4.9-4"]
+["4.9-5"]
 DiffRules = "1.4.0-1"
+
+[5]
+SymbolicUtils = "1.0.1-1"
+
+["5.0"]
+ArrayInterfaceCore = "0.1.1-0.1"
+
+["5.1-5"]
+ArrayInterface = "6-7"
+
+["5.2-5"]
+DomainSets = "0.6"
+Groebner = "0.3"
+
+["5.3-5"]
+Latexify = "0.11-0.16"

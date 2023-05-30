@@ -1,44 +1,59 @@
-[0-1]
-DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
-
 ["0-1.3"]
 CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
 CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 GPUifyLoops = "ba82f77b-6841-5d2e-bd9f-4daf811aec27"
 
-["0.2-1"]
+[0-2]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+
+["0.2-2"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.4-1.3"]
 CUDAdrv = "c5f51814-7f29-56b8-a69c-e4d8f6be1fde"
 
-["1.1-1"]
+["1.1-2"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
-["1.10-1"]
+["1.10-2"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
 ["1.11-1"]
 CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
 
-["1.14-1"]
+["1.14-2"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 
 ["1.17-1"]
-Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 ArrayInterfaceGPUArrays = "6ba088a2-8465-4c0a-af30-387133b534db"
+
+["1.17-2"]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 SimpleDiffEq = "05bca326-078c-5bf0-a5bf-ce7c7982d7fd"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
+["1.21-2"]
+MuladdMacro = "46d2c3a1-f734-5fdb-9937-b9b9aeba4221"
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+
+["1.25-2"]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
 ["1.4-1"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+
+["1.4-2"]
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 
-["1.5-1"]
+["1.5-2"]
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 
-["1.9-1"]
+["1.9-2"]
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
+
+[2]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"

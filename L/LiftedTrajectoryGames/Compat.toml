@@ -3,7 +3,6 @@ ChainRulesCore = "1.11.4-1"
 DifferentiableTrajectoryOptimization = "0.2"
 Flux = "0.13"
 ForwardDiff = "0.10"
-Makie = "0.17"
 ParameterSchedulers = "0.3"
 StatsBase = "0.33"
 TensorGames = "0.3.5-0.3"
@@ -14,5 +13,11 @@ julia = "1.7.0-1"
 ["0-0.1.0"]
 TrajectoryGamesBase = "0.2"
 
+["0-0.1.1"]
+Makie = "0.17"
+
 ["0.1.1-0"]
 TrajectoryGamesBase = "0.3"
+
+["0.1.2-0"]
+Makie = "0.17-0.19"

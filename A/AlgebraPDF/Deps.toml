@@ -1,12 +1,17 @@
 [0]
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
-Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.3"]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
+["0.4-0"]
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"

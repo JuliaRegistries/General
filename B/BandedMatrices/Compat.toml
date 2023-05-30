@@ -114,9 +114,35 @@ FillArrays = "0.11"
 ArrayLayouts = "0.7"
 
 ["0.17-0"]
-ArrayLayouts = "0.8"
-FillArrays = "0.13"
 julia = "1.6.0-1"
+
+["0.17-0.17.17"]
+FillArrays = "0.13"
+
+["0.17-0.17.8"]
+ArrayLayouts = "0.8"
+
+["0.17.11-0.17.20"]
+SnoopPrecompile = "1"
+
+["0.17.18"]
+ArrayLayouts = ["0.8.14-0.8", "1"]
+FillArrays = ["0.13", "1"]
+
+["0.17.19-0"]
+ArrayLayouts = "1"
+
+["0.17.19-0.17.22"]
+FillArrays = "1"
+
+["0.17.21-0"]
+PrecompileTools = "1"
+
+["0.17.23-0"]
+FillArrays = "1.0.1-1"
+
+["0.17.9-0.17.17"]
+ArrayLayouts = "0.8.14-0.8"
 
 ["0.6"]
 FillArrays = "0.2-0.5"

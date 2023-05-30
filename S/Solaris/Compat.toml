@@ -14,7 +14,6 @@ DiffEqFlux = "1"
 Plots = "1"
 
 ["0.2-0"]
-CUDA = "3"
 DataFrames = "1"
 JLD2 = "0.4"
 PyCall = "1"
@@ -22,6 +21,9 @@ PyCall = "1"
 ["0.2-0.2.1"]
 BSON = "0.3"
 Flux = "0.12"
+
+["0.2-0.2.5"]
+CUDA = "3"
 
 ["0.2.0"]
 CSV = "0.8"
@@ -46,3 +48,7 @@ OptimizationOptimJL = "0.1"
 OptimizationPolyalgorithms = "0.1"
 Zygote = "0.6"
 ZygoteRules = "0.2"
+
+["0.2.6-0"]
+CUDA = "3-4"
+IterTools = "1"

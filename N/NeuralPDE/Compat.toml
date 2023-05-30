@@ -153,7 +153,7 @@ ModelingToolkit = "5.13.4-5"
 ["3.9-4.9"]
 DocStringExtensions = "0.8"
 
-[4-5]
+["4-5.6"]
 DomainSets = "0.5"
 
 ["4.0"]
@@ -177,15 +177,19 @@ SymbolicUtils = "0.18"
 
 ["4.1-5"]
 RuntimeGeneratedFunctions = "0.5"
-Symbolics = "4"
 Zygote = "0.6"
 julia = "1.6.0-1"
+
+["4.1-5.6.0"]
+Symbolics = "4"
 
 ["4.10-4"]
 Quadrature = "2.1.0-2"
 
 ["4.10-5"]
 DocStringExtensions = "0.8-0.9"
+
+["4.10-5.6.0"]
 SciMLBase = "1.38.0-1"
 
 ["4.11-5"]
@@ -220,7 +224,6 @@ ArrayInterface = "3.1.0-6"
 
 [5]
 Adapt = "3"
-ArrayInterfaceCore = "0.1.13-0.1"
 ChainRulesCore = "1"
 Integrals = "3.1.0-3"
 IntegralsCubature = "0.2"
@@ -229,8 +232,13 @@ ModelingToolkit = "8"
 Optimisers = "0.2"
 RecursiveArrayTools = "2.31.0-2"
 Reexport = "1"
-SymbolicUtils = "0.19"
 UnPack = "1"
+
+["5-5.3"]
+ArrayInterfaceCore = "0.1.13-0.1"
+
+["5-5.6.0"]
+SymbolicUtils = "0.19"
 
 ["5.0"]
 ComponentArrays = "0.12"
@@ -240,3 +248,14 @@ ComponentArrays = "0.13"
 
 ["5.2-5"]
 ComponentArrays = "0.13.2-0.13"
+
+["5.4-5"]
+ArrayInterface = "6-7"
+
+["5.6.1-5"]
+SciMLBase = "1.91.0-1"
+SymbolicUtils = "1"
+Symbolics = "5"
+
+["5.7-5"]
+DomainSets = "0.6"

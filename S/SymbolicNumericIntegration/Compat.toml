@@ -1,9 +1,24 @@
 [0]
 DataDrivenDiffEq = "0.8"
-DataStructures = "0.18"
 SymbolicUtils = "0.19"
 Symbolics = "4"
-julia = "1.6.0-1"
 
 ["0-0.8.4"]
 SymPy = "1"
+
+[0-1]
+DataStructures = "0.18"
+julia = "1.6.0-1"
+
+["1.0"]
+DataDrivenDiffEq = "0.8"
+SymbolicUtils = "0.19"
+Symbolics = "4"
+
+["1.1-1"]
+DataDrivenDiffEq = "1"
+DataDrivenSparse = "0.1.2-0.1"
+Optim = "1"
+SpecialFunctions = "2"
+SymbolicUtils = "1"
+Symbolics = "5"

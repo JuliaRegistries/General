@@ -15,7 +15,6 @@ RecipesBase = "0.0.0-0.8"
 ["0.4-0"]
 AxisArrays = "0.4"
 IterableTables = "1"
-LightGraphs = "1"
 Requires = "1"
 SimpleTraits = "0.9"
 Tokenize = "0.5"
@@ -28,6 +27,9 @@ RecipesBase = ["0.8", "1"]
 
 ["0.4-0.4.18"]
 Missings = "0.4"
+
+["0.4-0.4.21"]
+LightGraphs = "1"
 
 ["0.4-0.4.3"]
 Distributions = "0.23"
@@ -46,12 +48,20 @@ DataFrames = "0.20"
 DataStructures = "0.17"
 
 ["0.4.19-0"]
-DataFrames = ["0.21-0.22", "1"]
 Distributions = "0.24-0.25"
+
+["0.4.19-0.4.21"]
+DataFrames = ["0.21-0.22", "1"]
 Missings = ["0.4", "1"]
 
 ["0.4.2-0.4.3"]
 RecipesBase = ["0.6-0.8", "1"]
+
+["0.4.22-0"]
+DataFrames = "1"
+Graphs = "1"
+Missings = "1"
+RecipesBase = "1"
 
 ["0.4.4"]
 DataFrames = "0.21"
@@ -62,7 +72,9 @@ Distributions = "0.24"
 
 ["0.4.5-0"]
 DataStructures = "0.17-0.18"
-RecipesBase = ["0.7-0.8", "1"]
 
 ["0.4.5-0.4.18"]
 DataFrames = "0.21-0.22"
+
+["0.4.5-0.4.21"]
+RecipesBase = ["0.7-0.8", "1"]

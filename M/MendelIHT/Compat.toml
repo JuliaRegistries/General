@@ -1,11 +1,9 @@
 [1]
 DataFrames = ["0.22", "1"]
-DelimitedFiles = "1.5.0-1"
 Distances = "0.10"
 GLM = "1"
 ProgressMeter = "1"
 Reexport = "1"
-StatsBase = "0.33"
 ThreadPools = "2"
 julia = "1.5.0-1"
 
@@ -16,9 +14,17 @@ Distributions = "0.24"
 SnpArrays = "0.3.9-0.3"
 SpecialFunctions = "1"
 
+["1-1.4.7"]
+DelimitedFiles = "1.5.0-1"
+
+["1-1.4.8"]
+StatsBase = "0.33"
+
 ["1.4.3-1"]
-BGEN = "0.1.4-0.1"
 Distributions = "0.24-0.25"
+
+["1.4.3-1.4.7"]
+BGEN = "0.1.4-0.1"
 VCFTools = "0.2.3-0.2"
 
 ["1.4.5"]
@@ -29,3 +35,11 @@ SpecialFunctions = "1-2"
 
 ["1.4.6-1"]
 SnpArrays = "0.3.15-0.3"
+
+["1.4.8-1"]
+BGEN = "0.1"
+CSV = "0.10"
+VCFTools = "0.2"
+
+["1.4.9-1"]
+StatsBase = "0.33-0.34"

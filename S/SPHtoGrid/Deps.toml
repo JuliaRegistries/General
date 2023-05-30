@@ -8,9 +8,22 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 SPHKernels = "54ab9b88-2582-4358-b400-8014666a1730"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-TriangularShapedCloudInterpolation = "51f55a63-7ec5-4b6d-a5a9-9bbf03ec1f62"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+["0-0.3"]
+TriangularShapedCloudInterpolation = "51f55a63-7ec5-4b6d-a5a9-9bbf03ec1f62"
 
 ["0.2.2-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0.4-0"]
+Cosmology = "76746363-e552-5dba-9a5a-cef6fa9cc5ab"
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+GadgetIO = "826b50da-1eb7-48f3-bd4b-d2350582c309"
+GadgetUnits = "08630afb-492b-4c1a-9729-2a116101b53a"
+Healpix = "9f4e344d-96bc-545a-84a3-ae6b9e1b672b"
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"

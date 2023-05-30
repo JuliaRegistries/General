@@ -1,5 +1,4 @@
 [0]
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Discretizers = "6e83dbb3-75ca-525b-8ae2-3751f0dd50b4"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
@@ -9,3 +8,9 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 ScikitLearn = "3646fa90-6ef7-5e7e-9f22-8aca16db6324"
 ScikitLearnBase = "6e75b9c4-186b-50bd-896f-2d2496a4843e"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0-0.2"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
+["0.3-0"]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"

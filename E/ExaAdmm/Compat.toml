@@ -1,7 +1,5 @@
 [0]
-CUDA = "3.4.0-3"
 FileIO = "1.14.0-1"
-MPI = "0.19"
 
 ["0-0.1"]
 ExaTron = "1"
@@ -15,13 +13,28 @@ JuMP = "1"
 DelimitedFiles = "1.7.0-1"
 julia = "1.7.0-1"
 
+["0-0.3"]
+CUDA = "3.4.0-3"
+MPI = "0.19"
+
 ["0.2"]
 AMDGPU = "0.3"
 
-["0.2-0"]
+["0.2-0.3"]
 ExaTron = "2"
 KernelAbstractions = "0.8"
 
 ["0.3-0"]
 AMDGPU = "0.4"
 julia = "1.8.0-1"
+
+["0.4-0"]
+ExaTron = "3"
+KernelAbstractions = "0.9"
+MPI = "0.20"
+
+["0.4.0"]
+CUDA = "4"
+
+["0.4.1-0"]
+CUDA = "4.1.0-4"

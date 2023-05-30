@@ -1,13 +1,8 @@
 [0]
 Combinatorics = "1"
 DiffEqBase = "6"
-DomainSets = "0.5"
 IfElse = "0.1"
-NonlinearSolve = "0.3"
 OrdinaryDiffEq = "6"
-SafeTestsets = "0.0.1"
-SymbolicUtils = "0.19"
-Symbolics = "4"
 julia = "1.6.0-1"
 
 ["0-0.1"]
@@ -20,6 +15,17 @@ DiffEqOperators = "4.41.0-4"
 ModelingToolkit = "8"
 SciMLBase = "1"
 
+["0-0.6.1"]
+NonlinearSolve = "0.3"
+SafeTestsets = "0.0.1"
+
+["0-0.7.1"]
+DomainSets = "0.5"
+
+["0-0.8.1"]
+SymbolicUtils = "0.19"
+Symbolics = "4"
+
 ["0.2-0"]
 TermInterface = "0.2-0.3"
 
@@ -27,13 +33,51 @@ TermInterface = "0.2-0.3"
 DiffEqOperators = "4.43.0-4"
 
 ["0.3.2-0"]
-StableRNGs = "1"
 StaticArrays = "1"
+
+["0.3.2-0.6.1"]
+StableRNGs = "1"
 
 ["0.5-0"]
 Interpolations = "0.14"
+
+["0.5-0.8.2"]
 ModelingToolkit = "8.22.0-8"
 SciMLBase = "1.57.0-1"
 
-["0.5.1-0"]
+["0.5.1-0.9.1"]
 Latexify = "0.15"
+
+["0.7.2-0"]
+DomainSets = "0.5-0.6"
+
+["0.8.2"]
+SymbolicUtils = ["0.19", "1"]
+Symbolics = "4-5"
+
+["0.8.3-0"]
+ModelingToolkit = "8"
+
+["0.8.3-0.8.4"]
+SciMLBase = "1"
+SymbolicUtils = "1"
+Symbolics = "5"
+
+["0.8.5-0.8"]
+SciMLBase = "1.91.0-1"
+SymbolicUtils = "0.19"
+Symbolics = "4"
+
+["0.9-0"]
+SciMLBase = "1.90.0-1"
+SymbolicUtils = "1"
+Symbolics = "5"
+
+["0.9.2-0"]
+Latexify = "0.15-0.16"
+
+["0.9.2-0.9.3"]
+PDEBase = "0.1"
+
+["0.9.4-0"]
+PDEBase = "0.1.2-0.1"

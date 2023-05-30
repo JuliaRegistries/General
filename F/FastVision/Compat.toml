@@ -10,11 +10,17 @@ ImageIO = "0.6"
 ImageInTerminal = "0.4"
 IndirectArrays = ["0.5", "1"]
 InlineTest = "0.2"
-MLUtils = "0.2"
-MakieCore = "0.3"
 ProgressMeter = "1"
 ShowCases = "0.1"
 StaticArrays = "1.1.0-1"
 UnicodePlots = "2"
 Zygote = "0.6"
 julia = "1.6.0-1"
+
+["0-0.1.0"]
+MLUtils = "0.2"
+MakieCore = "0.3"
+
+["0.1.1-0"]
+MLUtils = "0.2-0.4"
+MakieCore = "0.3-0.6"

@@ -1,5 +1,4 @@
 [3]
-ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
 ConsoleProgressMonitor = "88cd18e8-d9cc-4ea6-8889-5259c0d15c8b"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
@@ -12,8 +11,23 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
 
+["3-3.11"]
+ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
+
 ["3-3.9.1"]
 DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
 
+["3.12-3"]
+ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
+
+["3.14-3"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["3.14.1-3"]
+Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
+
 ["3.6-3"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["3.9.3"]
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"

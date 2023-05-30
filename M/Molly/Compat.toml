@@ -34,10 +34,42 @@ FLoops = "0.2"
 UnitfulChainRules = "0.1.1"
 Zygote = "0.6.42"
 
-["0.13-0"]
+["0.13"]
 CellListMap = "0.7.21-0.7"
-UnitfulChainRules = "0.1.2"
 Zygote = "0.6.42-0.6.43"
+
+["0.13-0"]
+UnitfulChainRules = "0.1.2"
+
+["0.14"]
+Zygote = "0.6.44"
+
+["0.14-0"]
+Chemfiles = "0.10.3-0.10"
+
+["0.14-0.14.1"]
+CellListMap = "0.8.4-0.8"
+
+["0.14.2-0.14"]
+CellListMap = "0.8.4-0.8.10"
+StaticArrays = "1.5.12"
+
+["0.14.3-0"]
+BioStructures = "1-2"
+ForwardDiff = "0.10.35-0.10"
+
+["0.15-0"]
+Atomix = "0.1"
+AtomsBase = "0.3"
+CUDA = "4.1.0-4"
+CellListMap = "0.8.11-0.8"
+Enzyme = "0.11"
+StaticArrays = "1.5.17-1"
+UnsafeAtomicsLLVM = "0.1"
+Zygote = "0.6.56-0.6.60"
+
+["0.16-0"]
+Graphs = "1.8.0-1"
 
 ["0.2-0"]
 KernelDensity = "0.5-0.6"
@@ -60,8 +92,10 @@ Distances = "0.10"
 NearestNeighbors = "0.4"
 
 ["0.3-0"]
-CUDA = "3"
 Distributions = "0.23-0.25"
+
+["0.3-0.14"]
+CUDA = "3"
 
 ["0.3-0.5"]
 julia = "1.6.0-1"
@@ -76,20 +110,19 @@ BioStructures = ["0.10-0.11", "1"]
 CellListMap = "0.5"
 
 ["0.5-0"]
-Chemfiles = "0.10"
 Combinatorics = "1"
 EzXML = "1"
+
+["0.5-0.13"]
+Chemfiles = "0.10"
 
 ["0.6"]
 AtomsBase = "0.1"
 NNlib = "0.7"
 
 ["0.6-0"]
-BioStructures = "1"
 ChainRulesCore = "1"
-ForwardDiff = "0.10"
 Reexport = "1"
-StaticArrays = "1"
 julia = "1.7.0-1"
 
 ["0.6-0.10.2"]
@@ -98,5 +131,12 @@ Zygote = "0.6.30-0.6"
 ["0.6-0.12"]
 CellListMap = "0.7"
 
-["0.7-0"]
+["0.6-0.14.1"]
+StaticArrays = "1"
+
+["0.6-0.14.2"]
+BioStructures = "1"
+ForwardDiff = "0.10"
+
+["0.7-0.14"]
 AtomsBase = "0.2"

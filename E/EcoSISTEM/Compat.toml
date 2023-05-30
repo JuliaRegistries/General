@@ -5,14 +5,11 @@ EcoBase = "0.1.3-0.1"
 Feather = "0.5.7-0.5"
 HCubature = "1.5.0-1"
 IndexedTables = ["0.12.6-0.13", "1"]
-Interpolations = "0.13.1-0.13"
 Measures = "0.3.1-0.3"
-NetCDF = "0.11.3-0.11"
 OnlineStats = "1.5.8-1"
 Optim = ["0.18-0.22", "1"]
 Phylo = "0.4.18-0.4"
 Plots = ["0.28.4-0.29", "1"]
-RecipesBase = ["0.7-0.8", "1"]
 Requires = "1"
 SpatialEcology = "0.9"
 StatsBase = "0.32.2-0.33"
@@ -33,6 +30,11 @@ JuliaDB = "0.13"
 MPI = "0.17.2-0.17"
 RCall = "0.13.10-0.13"
 
+["0-0.1.3"]
+Interpolations = "0.13.1-0.13"
+NetCDF = "0.11.3-0.11"
+RecipesBase = ["0.7-0.8", "1"]
+
 ["0.1.1"]
 Diversity = "0.5.4"
 
@@ -43,9 +45,19 @@ Missings = ["0.4.5-0.4", "1"]
 ["0.1.2-0"]
 Diversity = "0.5.6-0.5"
 
-["0.1.3-0"]
+["0.1.3"]
 ArchGDAL = "0.6-0.8"
-Distributions = "0.24.15-0.25"
-JLD2 = "0.4.3-0.4"
 MPI = "0.17.2-0.19"
 SimpleSDMLayers = "0.7-0.8"
+
+["0.1.3-0"]
+Distributions = "0.24.15-0.25"
+JLD2 = "0.4.3-0.4"
+
+["0.1.4-0"]
+ArchGDAL = "0.6-0.10"
+Interpolations = "0.13.1-0.14"
+MPI = "0.17.2-0.20"
+NetCDF = "0.11"
+Pluto = "0.19.22-0.19"
+RasterDataSources = "0.5.6-0.5"

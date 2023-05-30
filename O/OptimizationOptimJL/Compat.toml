@@ -1,5 +1,13 @@
 [0]
 Optim = "1"
-Optimization = "3"
 Reexport = "1.2.0-1"
 julia = "1"
+
+["0-0.1.4"]
+Optimization = "3"
+
+["0.1.5-0.1.6"]
+Optimization = "3.9.0-3"
+
+["0.1.7-0"]
+Optimization = "3.13.1-3"

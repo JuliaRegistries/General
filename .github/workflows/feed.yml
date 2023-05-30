@@ -10,10 +10,10 @@ jobs:
     if: ${{ github.event.label.name == 'new package' && github.repository == github.event.pull_request.head.repo.full_name }}
     runs-on: ubuntu-latest
     steps:
-    - uses: julia-actions/setup-julia@latest
+    - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc # v1.9.2
       with:
         version: 1.6.2
-    - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+    - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.3.0
     - name: Send to Slack
       shell: julia --color=yes {0}
       run: |
@@ -54,10 +54,10 @@ jobs:
     if: ${{ (github.event.label.name == 'new package' || github.event.label.name == 'zulip test') && github.repository == github.event.pull_request.head.repo.full_name }}
     runs-on: ubuntu-latest
     steps:
-    - uses: julia-actions/setup-julia@latest
+    - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc
       with:
         version: 1.6.2
-    - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
+    - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v2.3.4
     - name: Collect Zulip info
       id: zulip
       shell: julia --color=yes {0}
@@ -75,7 +75,7 @@ jobs:
         PR_NUMBER: ${{ github.event.number }}
         PR_BODY: ${{ github.event.pull_request.body }}
     - name: Update Zulip feed
-      uses: zulip/github-actions-zulip/send-message@ba07b1eb3ba0d48430d111d1eb9bd0d25936a0f7
+      uses: zulip/github-actions-zulip/send-message@b62d5a0e48a4d984ea4fce5dd65ba691963d4db4
       with:
         api-key: ${{ secrets.ZULIP_API_KEY }}
         email: 'general-registry-announcer-bot@julialang.zulipchat.com'

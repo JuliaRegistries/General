@@ -13,10 +13,39 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Thermodynamics = "b60c26fb-14c3-4610-9d3e-2d17fe7ff00c"
-UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
 ["0-0.1"]
 CLIMAParameters = "6eacf6c3-8458-43b9-ae03-caf5306d3d53"
+
+["0-0.7"]
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0.10-0"]
+ArtifactWrappers = "a14bc488-3040-4b00-9dc1-f6467924858a"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+CLIMAParameters = "6eacf6c3-8458-43b9-ae03-caf5306d3d53"
+ClimaComms = "3a4d1b5c-c61d-41fd-a00a-5873ba7a1b0d"
+ClimaTimeSteppers = "595c0a79-7f3d-439a-bc5a-b232dc3bde79"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
+TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
+YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+
+["0.11-0"]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+
+["0.12-0"]
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.13-0"]
+Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
+
+["0.14-0"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
 ["0.2-0"]
 Insolation = "e98cc03f-d57e-4e3c-b70c-8d51efe9e0d8"
@@ -26,14 +55,21 @@ Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
-Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 LambertW = "984bce1d-4616-540c-a9ee-88d1112d94c9"
-OperatorFlux = "47cfafe2-3833-4da3-8183-ce14c2b92cbd"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
-StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
 SurfaceFluxes = "49b00bb7-8bd4-4f2b-b78c-51cd0450215f"
+
+["0.3-0.6"]
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+OperatorFlux = "47cfafe2-3833-4da3-8183-ce14c2b92cbd"
+StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
 
 ["0.6-0"]
 AtmosphericProfilesLibrary = "86bc3604-9858-485a-bdbe-831ec50de11d"
 RRTMGP = "a01a1ee8-cea4-48fc-987c-fc7878d79da1"
+
+["0.9-0"]
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+NVTX = "5da4648a-3479-48b8-97b9-01cb529c0a1f"
+RootSolvers = "7181ea78-2dcb-4de3-ab41-2b8ab5a31e74"

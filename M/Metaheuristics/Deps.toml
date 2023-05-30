@@ -4,11 +4,26 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["2-3.2.13"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 
-["3.2.4-3"]
+["3.2.13-3"]
+JMcDM = "358108f5-d052-4d0a-8344-d5384e00c0e5"
+
+["3.2.14-3"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["3.2.16-3"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["3.2.4-3.2.12"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["3.2.8-3"]
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+
+["3.3-3"]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+SearchSpaces = "eb7571c6-2196-4f03-99b8-52a5a35b3163"

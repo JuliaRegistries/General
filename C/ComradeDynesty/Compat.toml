@@ -1,12 +1,14 @@
 [0]
 AbstractMCMC = "3-4"
-Dynesty = "0.1"
 Reexport = "1"
 
 ["0-0.1"]
 Comrade = "0.3-0.4"
 TupleVectors = "0.1"
 julia = "1.6.0-1"
+
+["0-0.2.3"]
+Dynesty = "0.1"
 
 ["0.2-0"]
 julia = "1.7.0-1"
@@ -17,8 +19,16 @@ TupleVectors = "0.1-0.2"
 ["0.2.0"]
 Comrade = "0.5"
 
-["0.2.1-0"]
+["0.2.1-0.2.3"]
 Comrade = "0.5-0.6"
 
 ["0.2.2-0"]
 TypedTables = "1"
+
+["0.2.4-0.2"]
+Comrade = "0.7"
+Dynesty = "0.2"
+
+["0.3-0"]
+Comrade = "0.7.5-0.7"
+Dynesty = "0.3"

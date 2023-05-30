@@ -1,8 +1,25 @@
 [0]
-MacroTools = "0.5"
 Requires = "1"
-Revise = "3"
 RewriteTools = "0.1"
-SnoopPrecompile = "1"
-SyntaxInterface = "0.1"
 julia = "1.6.7-1"
+
+["0-0.1"]
+MacroTools = "0.5"
+SyntaxInterface = "0.1"
+
+["0-0.5.1"]
+Revise = "3"
+
+["0-0.5.2"]
+SnoopPrecompile = "1"
+
+["0.2-0"]
+Compat = "3.29.0-4"
+SyntaxInterface = "0.2.1-0.2"
+
+["0.5-0"]
+DataStructures = "0.18"
+
+["0.5.3-0"]
+JSON = "0.21"
+PrecompileTools = "1"

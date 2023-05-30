@@ -11,7 +11,7 @@ julia = ["0.7", "1"]
 ["0.10"]
 InvertedFiles = "0.1"
 
-["0.10-0"]
+["0.10-0.14.1"]
 Intersections = "0.2"
 
 ["0.10.1"]
@@ -26,10 +26,25 @@ SimilaritySearch = "0.8"
 ["0.11"]
 InvertedFiles = "0.3"
 
-["0.12-0"]
+["0.12-0.13"]
 InvertedFiles = "0.4"
 Polyester = "0.6"
 SimilaritySearch = "0.9"
+
+["0.14-0"]
+Polyester = "0.6-0.7"
+SimilaritySearch = "0.10"
+
+["0.14-0.15.1"]
+InvertedFiles = "0.5"
+
+["0.14.2-0.15.1"]
+Intersections = "0.3"
+
+["0.15.2-0"]
+Intersections = "0.4"
+InvertedFiles = "0.6"
+JLD2 = "0.4"
 
 ["0.2.14"]
 KernelMethods = "0.1"

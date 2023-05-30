@@ -1,19 +1,15 @@
 [0]
-BSplines = "0.3"
 CategoricalArrays = "0.10"
 DSP = "0.7"
 DataFrames = "1"
 Distributions = "0.25"
 GLM = "1"
-IncompleteLU = "0.2"
 IterativeSolvers = "0.9"
 MLBase = "0.9"
 Missings = "1"
 MixedModels = "4"
-MixedModelsSim = "0.2"
 PkgBenchmark = "0.2"
 ProgressMeter = "1"
-PyMNE = "0.1"
 StaticArrays = "1"
 StatsBase = "0.33"
 StatsModels = "0.6"
@@ -24,14 +20,22 @@ julia = "1.6.0-1"
 ["0-0.3.11"]
 DocStringExtensions = "0.8"
 
+["0-0.3.12"]
+IncompleteLU = "0.2"
+MixedModelsSim = "0.2"
+PyMNE = "0.1"
+
 ["0-0.3.3"]
 MixedModelsPermutations = "0.1"
+
+["0-0.4"]
+BSplines = "0.3"
 
 ["0.3.12-0"]
 DocStringExtensions = "0.9"
 StatsFuns = "1"
 
-["0.3.4-0"]
+["0.3.4-0.3.12"]
 MixedModelsPermutations = "0.1-0.2"
 
 ["0.3.5-0"]
@@ -42,3 +46,8 @@ StatsFuns = "0.9"
 
 ["0.3.9-0"]
 RobustModels = "0.4"
+
+["0.5-0"]
+BSplineKit = "0.16"
+FileIO = "1"
+JLD2 = "0.4"

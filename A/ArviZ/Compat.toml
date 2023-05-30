@@ -50,7 +50,7 @@ julia = "1.6.0-1"
 ["0.5.2-0"]
 DataFrames = ["0.20-0.22", "1"]
 
-["0.5.21-0"]
+["0.5.21-0.7"]
 PSIS = "0.2-0.5"
 
 ["0.5.8-0"]
@@ -65,12 +65,26 @@ OrderedCollections = "1"
 ["0.6-0.6.1"]
 DimensionalData = "0.20"
 
-["0.6.2-0"]
+["0.6.2-0.6"]
 DimensionalData = "0.20-0.21"
 
-["0.6.3-0"]
+["0.6.3-0.6"]
 InferenceObjects = "0.1"
 
 ["0.6.4-0"]
 DataDeps = "0.7"
 JSON3 = "1"
+
+["0.7"]
+DimensionalData = "0.20-0.23"
+InferenceObjects = "0.2.5-0.2"
+InferenceObjectsNetCDF = "0.2.2-0.2"
+
+["0.7-0"]
+ArviZExampleData = "0.1"
+
+["0.8-0"]
+DimensionalData = "0.23-0.24"
+InferenceObjects = "0.3"
+InferenceObjectsNetCDF = "0.3"
+PSIS = "0.7"

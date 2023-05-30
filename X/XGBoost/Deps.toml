@@ -8,6 +8,8 @@ BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 [0-1]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[0-2]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
@@ -16,7 +18,24 @@ BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 
 ["0.4.1-1"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+["0.4.1-2.2"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.4.3-1"]
+["0.4.3-2"]
 XGBoost_jll = "a5c6f535-4255-5ca2-a466-0e519f119c46"
+
+[2]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
+Term = "22787eb5-b846-44ae-b979-8e399b8463ab"
+
+["2.1-2"]
+SparseMatricesCSR = "a0a7dd2c-ebf4-11e9-1f05-cf50bc540ca1"
+
+["2.2-2"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"

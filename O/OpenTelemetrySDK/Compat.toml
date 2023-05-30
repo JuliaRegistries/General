@@ -11,11 +11,13 @@ GarishPrint = "0.2"
 OpenTelemetryAPI = "0.0.3"
 
 ["0.0.3-0"]
-GarishPrint = "0.2-0.5"
 Glob = "1"
 
 ["0.0.3-0.0"]
 OpenTelemetryAPI = "0.0.4"
+
+["0.0.3-0.2"]
+GarishPrint = "0.2-0.5"
 
 ["0.1"]
 OpenTelemetryAPI = "0.1"
@@ -26,5 +28,11 @@ Reexport = "1"
 ["0.2.0"]
 OpenTelemetryAPI = "0.2"
 
-["0.2.1-0"]
+["0.2.1-0.2"]
 OpenTelemetryAPI = "0.3"
+
+["0.3-0"]
+AbstractTrees = "0.4"
+OpenTelemetryAPI = "0.4"
+Requires = "1"
+StructTypes = "1"

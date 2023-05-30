@@ -61,7 +61,7 @@ JLSO = "2.1.0-2"
 ["0.12.4-0.15.2"]
 Distributions = "0.22-0.23"
 
-["0.12.5-0"]
+["0.12.5-0.21.9"]
 StatsBase = "0.32-0.33"
 
 ["0.12.7-0.18.6"]
@@ -212,17 +212,31 @@ ColorTypes = "0.0.0-0.10"
 DelimitedFiles = "1.6.0-1"
 
 ["0.20.12-0"]
-MLJModelInterface = "1.6.0-1"
 StatisticalTraits = "3.2.0-3"
+
+["0.20.12-0.20"]
+MLJModelInterface = "1.6.0-1"
 
 ["0.20.18-0"]
 PrettyTables = "1-2"
 
-["0.20.4-0"]
+["0.20.4-0.21.8"]
 LossFunctions = "0.5-0.8"
 
 ["0.20.9-0.20.11"]
 MLJModelInterface = "1.5.0-1"
+
+["0.21-0"]
+MLJModelInterface = "1.7.0-1"
+
+["0.21.10-0"]
+StatsBase = "0.32-0.34"
+
+["0.21.11-0"]
+LossFunctions = "0.10"
+
+["0.21.9-0.21.10"]
+LossFunctions = "0.9"
 
 ["0.3-0.7.3"]
 Requires = "0.5.2-0.5"

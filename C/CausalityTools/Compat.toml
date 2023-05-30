@@ -108,7 +108,7 @@ TimeseriesSurrogates = ["0.3.1-0.3", "1"]
 CausalityToolsBase = ["0.7", "1"]
 TransferEntropy = ["0.4.3-0.4", "1"]
 
-["0.4-1"]
+["0.4-2"]
 Reexport = ["0.2", "1"]
 
 ["0.4.0"]
@@ -146,17 +146,7 @@ TransferEntropy = ["0.5.6-0.5", "1"]
 [1]
 ChaosTools = "2"
 DelayEmbeddings = "2"
-Distances = "0.10"
-Distributions = "0.24-0.25"
-HypothesisTests = ["0.8", "0.10", "1"]
-LabelledArrays = "1.6.7-1"
-NearestNeighbors = "0.4"
 Requires = "1"
-SimpleDiffEq = "1"
-StaticArrays = "1"
-StatsBase = "0.33"
-Wavelets = "0.9"
-julia = "1.6.0-1"
 
 ["1-1.1"]
 TransferEntropy = "1.3.2-1"
@@ -168,6 +158,18 @@ TimeseriesSurrogates = "1.2.0-1"
 DynamicalSystemsBase = "2"
 Entropies = "1"
 Neighborhood = "0.2.3-0.2"
+
+[1-2]
+Distances = "0.10"
+Distributions = "0.24-0.25"
+HypothesisTests = ["0.8", "0.10", "1"]
+LabelledArrays = "1.6.7-1"
+NearestNeighbors = "0.4"
+SimpleDiffEq = "1"
+StaticArrays = "1"
+StatsBase = "0.33"
+Wavelets = "0.9"
+julia = "1.6.0-1"
 
 ["1.2-1.2.1"]
 TransferEntropy = "1.4.0-1"
@@ -183,7 +185,43 @@ TransferEntropy = "1.8.0-1"
 
 ["1.4.1-1"]
 DynamicalSystemsBase = "2.8.0-2"
+
+["1.4.1-1.4"]
 Entropies = "1.2.0-1"
-Neighborhood = "0.2.2-0.2"
-TimeseriesSurrogates = "2"
 TransferEntropy = "1.9.0-1"
+
+["1.4.1-2"]
+Neighborhood = "0.2.2-0.2"
+
+["1.4.1-2.1.2"]
+TimeseriesSurrogates = "2"
+
+["1.5-1"]
+Entropies = "1.2"
+TransferEntropy = "1.10"
+
+["1.6-1"]
+StateSpaceSets = "0.1"
+
+[2]
+Combinatorics = "1"
+DSP = "0.7"
+DelayEmbeddings = "2.6.0-2"
+DynamicalSystemsBase = "2.9.0-2"
+Graphs = "1.8.0-1"
+Scratch = "1"
+SpecialFunctions = "2"
+StateSpaceSets = "1.1.0-1"
+
+["2.0"]
+ComplexityMeasures = "2.4.0-2"
+
+["2.1-2"]
+Accessors = "0.1.28-0.1"
+ComplexityMeasures = "2.6.0-2"
+
+["2.1.3-2"]
+TimeseriesSurrogates = "2.1"
+
+["2.2-2"]
+RecurrenceAnalysis = "2"

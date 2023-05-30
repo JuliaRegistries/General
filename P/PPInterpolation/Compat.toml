@@ -1,5 +1,13 @@
 [0]
-Cbc = "0.9"
 ForwardDiff = "0.10"
-JuMP = "0.22"
 julia = "1"
+
+["0-0.2"]
+Cbc = "0.9"
+JuMP = "0.22"
+
+["0.3-0"]
+BenchmarkTools = "1"
+
+["0.6.1-0"]
+QuadGK = "2"

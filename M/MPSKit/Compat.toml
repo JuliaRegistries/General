@@ -20,7 +20,6 @@ TensorKit = "0.7"
 
 ["0.3.1-0"]
 OptimKit = "0.3.1-0.3"
-Parameters = "0.12.1-0.12"
 
 ["0.3.1-0.4"]
 TensorKitManifolds = "0.5"
@@ -28,6 +27,9 @@ julia = "1.5.0-1"
 
 ["0.3.1-0.6.0"]
 KrylovKit = "0.4-0.5.2"
+
+["0.3.1-0.7"]
+Parameters = "0.12.1-0.12"
 
 ["0.3.2-0.3"]
 TensorKit = "0.8.1-0.8"
@@ -51,8 +53,16 @@ FLoops = "0.1"
 
 ["0.6.1-0"]
 KrylovKit = "0.4-0.6"
+
+["0.6.1-0.7"]
 Transducers = "0.4.67-0.4"
 julia = "1.4-1.8"
 
 ["0.6.2-0"]
 FLoops = "0.1-0.2"
+
+["0.8-0"]
+FoldsThreads = "0.1"
+TensorOperations = "3"
+Transducers = "0.4"
+julia = "1.6.0-1"

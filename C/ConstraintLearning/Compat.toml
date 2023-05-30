@@ -1,10 +1,14 @@
 [0]
 ConstraintDomains = "0.3"
-QUBOConstraints = "0.1"
-julia = "1.6.0-1"
 
 ["0-0.1.0"]
 CompositionalNetworks = "0.3"
+
+["0-0.1.2"]
+QUBOConstraints = "0.1"
+
+["0-0.1.4"]
+julia = "1.6.0-1"
 
 ["0.1.1"]
 CompositionalNetworks = "0.4"
@@ -13,5 +17,31 @@ CompositionalNetworks = "0.4"
 CompositionalNetworks = "0.5"
 Dictionaries = "0.3"
 Evolutionary = "0.11"
-Memoization = "0.1"
 ThreadPools = "2"
+
+["0.1.2-0.1.4"]
+Memoization = "0.1"
+
+["0.1.3-0"]
+Flux = "0.13"
+PrettyTables = "2"
+QUBOConstraints = "0.2"
+
+["0.1.3-0.1.4"]
+DataFrames = "1.4.0-1"
+
+["0.1.4-0"]
+LocalSearchSolvers = "0.4"
+
+["0.1.4-0.1.5"]
+Constraints = "0.4"
+
+["0.1.5-0"]
+DataFrames = "1"
+Memoization = "0.2"
+TestItemRunner = "0.2"
+TestItems = "0.1"
+julia = "1.8.0-1"
+
+["0.1.6-0"]
+Constraints = "0.5"

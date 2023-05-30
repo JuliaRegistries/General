@@ -84,11 +84,13 @@ CitableCorpus = "0.8"
 
 ["0.21.2-0"]
 CitableBase = "10"
-CitableCorpus = "0.12"
 
 ["0.21.2-0.21.3"]
 CitableObject = "0.11"
 CitableText = "0.14"
+
+["0.21.2-0.23.2"]
+CitableCorpus = "0.12"
 
 ["0.21.3-0.23.0"]
 Orthography = "0.16"
@@ -97,7 +99,7 @@ Orthography = "0.16"
 CitableObject = "0.15"
 CitableText = "0.15"
 
-["0.23.1-0"]
+["0.23.1-0.23.2"]
 Orthography = "0.17"
 
 ["0.23.2-0"]
@@ -106,6 +108,17 @@ Compat = "4"
 DocStringExtensions = "0.9"
 HTTP = "1"
 TestSetExtensions = "2"
+
+["0.23.3-0"]
+CitableCorpus = "0.13"
+
+["0.23.3-0.23"]
+Orthography = "0.18"
+
+["0.24-0"]
+OrderedCollections = "1"
+Orthography = "0.21"
+StatsBase = "0.33"
 
 ["0.3-0.11.1"]
 Documenter = "0.26"

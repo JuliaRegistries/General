@@ -1,7 +1,33 @@
 [0]
-MLJ = "0.18"
 julia = "1.7.0-1"
 
+["0-0.1.3"]
+MLJ = "0.18"
+
 ["0.1.1-0"]
-MLJBase = "0.20"
 MLJModelInterface = "1"
+
+["0.1.1-0.1.3"]
+MLJBase = "0.20"
+
+["0.1.4"]
+MLJ = "0.18-0.19"
+
+["0.1.4-0"]
+CategoricalArrays = "0.10"
+MLJBase = "0.20-0.21"
+Plots = "1"
+
+["0.1.5-0"]
+NaturalSort = "1"
+
+["0.1.6"]
+StatsBase = "0.33"
+
+["0.1.7-0"]
+ChainRules = "1.49.0-1"
+Flux = "0.13.16-0.13"
+MLJEnsembles = "0.3.3-0.3"
+MLJFlux = "0.2.10-0.2"
+MLUtils = "0.4.2-0.4"
+StatsBase = "0.33-0.34"

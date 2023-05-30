@@ -1,13 +1,34 @@
 [0]
-CairoMakie = "0.9"
 ColorSchemes = "3.18.0-3"
 Luxor = "3.3.0-3"
 Scratch = "1.1.0-1"
-SnoopPrecompile = "1"
-ViennaRNA = "0.8"
 julia = "1.6.0-1"
+
+["0-0.1.4"]
+CairoMakie = "0.9"
+
+["0-0.1.5"]
+ViennaRNA = "0.8"
+
+["0-0.2.0"]
+SnoopPrecompile = "1"
 
 ["0.1.3-0"]
 BioStockholm = "0.1"
 R2R_jll = "1.0.6"
 Requires = "1.3.0-1"
+
+["0.1.5-0.2.1"]
+CairoMakie = "0.10"
+
+["0.1.6"]
+ViennaRNA = "0.9"
+
+["0.1.7-0"]
+ViennaRNA = "0.9-0.10"
+
+["0.2-0.2.1"]
+UnicodePlots = "3"
+
+["0.2.1-0"]
+PrecompileTools = "1"

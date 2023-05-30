@@ -1,8 +1,33 @@
 [0]
-CUDA = "3.9.0-3"
 CondaPkg = "0.2"
+MLJModelInterface = "1"
+
+["0-0.1"]
 MLJ = "0.17-0.18"
 MLJBase = "0.19-0.20"
-MLJModelInterface = "1"
 PythonCall = "0.8"
+
+["0-0.2"]
+CUDA = "3.9.0-3"
 julia = "1.6.0-1"
+
+["0.2"]
+MLJBase = "0.19"
+PythonCall = "0.8.0"
+
+["0.2-0"]
+Tables = "1"
+
+["0.3-0"]
+MLJBase = "0.20-0.21"
+PythonCall = "0.9"
+julia = "1.8.0-1"
+
+["0.3.0"]
+CUDA = "3-4"
+
+["0.3.1"]
+CUDA = "3"
+
+["0.3.2-0"]
+CUDA = "3-4"

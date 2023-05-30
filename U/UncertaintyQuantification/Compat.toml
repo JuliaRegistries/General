@@ -9,7 +9,6 @@ Reexport = "0.2"
 julia = "1"
 
 ["0.2-0"]
-Accessors = "0.1"
 Bootstrap = "2.2.0-2"
 Dierckx = "0.5"
 FiniteDifferences = "0.12"
@@ -20,6 +19,9 @@ Reexport = ["0.2", "1"]
 ["0.2-0.2.1"]
 DelimitedFiles = "1"
 HaltonSequences = "0.1"
+
+["0.2-0.6.0"]
+Accessors = "0.1"
 
 ["0.2.0"]
 DataFrames = "0.22"
@@ -43,9 +45,15 @@ DelimitedFiles = "1.6.0-1"
 ["0.2.2-0.3.0"]
 QuasiMonteCarlo = "0.2.4-0.2"
 
-["0.3-0"]
+["0.3"]
 FastGaussQuadrature = "0.4"
+
+["0.3-0.6.0"]
 Symbolics = "4"
 
 ["0.3.1-0"]
 QuasiMonteCarlo = "0.2.10-0.2"
+
+["0.4-0"]
+DynamicPolynomials = "0.4.5-0.4"
+FastGaussQuadrature = "0.4-0.5"

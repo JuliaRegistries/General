@@ -26,15 +26,18 @@ jobs:
           - '1.5'
           - '1.6'
           - '1.7'
+          - '1.8'
+          # - '1.9' # TODO: uncomment this line once Julia 1.10.0 is released
+          # - '~1.10.0-0' # TODO: uncomment this line once the first Julia 1.10.0 release candidate comes out. TODO: delete this line once Julia 1.10.0 is released
           - '1'
           - 'nightly'
     steps:
-      - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # v2.3.4
-      - uses: julia-actions/setup-julia@0b9b1d2cd24245f151902702d8e73b3f6b910014 # v1.6.0
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.3.0
+      - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc # v1.9.2
         with:
           version: ${{ matrix.version }}
           arch: x64
-      - run: println("::set-output name=manifest_version::$(VERSION.major).$(VERSION.minor)")
+      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes {0}
         id: manifest_version
       - run: echo "We will update the manifest at .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml"
@@ -47,7 +50,7 @@ jobs:
               echo "The manifest file does not exist, so I will create a new manifest from scratch."
           fi
       - name: Cache artifacts
-        uses: actions/cache@1a9e2138d905efd099035b49d8b7a3888c653ca8 # v2.1.5
+        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # v3.3.1
         env:
           cache-name: cache-artifacts
         with:
@@ -74,7 +77,7 @@ jobs:
         shell: julia --color=yes {0}
       - run: mv .ci/Manifest.toml .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml
       - run: git status
-      - uses: actions/upload-artifact@ee69f02b3dfdecd58bb31b4d133da38ba6fe3700 # v2.2.3
+      - uses: actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce # v3.1.2
         with:
           name: manifest_file_for_${{ steps.manifest_version.outputs.manifest_version }}
           path: .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml
@@ -86,11 +89,11 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab
       - run: rm -rf /tmp/manifest_updater
       - run: mkdir /tmp/manifest_updater
       - run: chmod 700 /tmp/manifest_updater
-      - uses: actions/download-artifact@158ca71f7c614ae705e79f25522ef4658df18253 # v2.0.9
+      - uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
         with:
           path: /tmp/manifest_updater/download_artifacts
       - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml .ci
@@ -99,7 +102,7 @@ jobs:
       - run: chmod 600 .ci/Project.toml
       - run: chmod 600 .ci/Manifest.*.toml
       - run: git status
-      - uses: peter-evans/create-pull-request@052fc72b4198ba9fbc81b818c6e1859f747d49a8 # v3.8.2
+      - uses: peter-evans/create-pull-request@284f54f989303d2699d373481a0cfa13ad5a6666 # v5.0.1
         with:
           token: ${{ secrets.TAGBOT_TOKEN }}
           delete-branch: true

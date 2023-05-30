@@ -1,7 +1,6 @@
 [0]
 Documenter = "0.27"
 DoubleExponentialFormulas = "0.1"
-Polyester = "0.4-0.6"
 QuadGK = "2"
 Requires = "1"
 StaticArrays = "1"
@@ -14,6 +13,9 @@ VMEC = "0.4.5-0.4"
 
 ["0-0.5.0"]
 Interpolations = "0.12-0.13"
+
+["0-0.6"]
+Polyester = "0.4-0.6"
 
 ["0.4-0"]
 ArnoldiMethod = "0.2"
@@ -32,14 +34,24 @@ Optim = "1"
 ["0.5.1-0.5.4"]
 Interpolations = "0.12-0.14"
 
-["0.5.4-0"]
-PlasmaEquilibriumToolkit = "0.5.5-0.5"
-
 ["0.5.4-0.5"]
 VMEC = "0.5.6-0.5"
+
+["0.5.4-0.6.0"]
+PlasmaEquilibriumToolkit = "0.5.5-0.5"
 
 ["0.5.5-0"]
 Interpolations = "0.14.3-0.14"
 
-["0.6-0"]
+["0.6.0"]
 VMEC = "0.6"
+
+["0.6.1-0"]
+VMEC = "0.6-0.7"
+
+["0.6.1-0.6"]
+PlasmaEquilibriumToolkit = "0.5.5-0.6"
+
+["0.7-0"]
+PlasmaEquilibriumToolkit = "0.5.5-0.7"
+Polyester = "0.4-0.7"

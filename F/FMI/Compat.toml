@@ -28,16 +28,44 @@ SciMLBase = "1.46.0-1"
 FMIImport = "0.12"
 
 ["0.10.1-0"]
-ChainRulesCore = "1.15.0-1"
+ProgressMeter = "1.7.0-1"
+
+["0.10.1-0.11"]
 DiffEqCallbacks = "2.24.0-2"
 DifferentialEquations = "7.5.0-7"
-FMIExport = "0.1"
 ForwardDiff = "0.10"
-ProgressMeter = "1.7.0-1"
 SciMLBase = "1.59.0-1"
 
-["0.10.2-0"]
+["0.10.1-0.12.1"]
+ChainRulesCore = "1.15.0-1"
+FMIExport = "0.1"
+
+["0.10.2-0.10"]
 FMIImport = "0.12.1-0.12"
+
+["0.11-0.11.1"]
+FMIImport = "0.13"
+
+["0.11.2-0.11"]
+FMIImport = "0.14"
+
+["0.12-0"]
+DiffEqCallbacks = "2.26.0-2"
+DifferentialEquations = "7.7.0-7"
+
+["0.12.0"]
+FMIImport = "0.15"
+SciMLBase = "1.89.0-1"
+
+["0.12.1"]
+FMIImport = "0.15.3-0.15"
+
+["0.12.1-0"]
+ThreadPools = "2.1.1-2"
+
+["0.12.2-0"]
+FMIExport = "0.2"
+FMIImport = "0.15.5-0.15"
 
 ["0.3.5-0.7"]
 SciMLBase = "1.23.1-1"

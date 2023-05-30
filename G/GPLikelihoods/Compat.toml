@@ -18,13 +18,20 @@ StatsFuns = "0.9.13-0.9"
 
 ["0.4-0"]
 ChainRulesCore = "1.7.0-1"
-FastGaussQuadrature = "0.4"
-IrrationalConstants = "0.1"
 SpecialFunctions = "1-2"
 julia = "1.6.0-1"
+
+["0.4-0.4.5"]
+FastGaussQuadrature = "0.4"
+IrrationalConstants = "0.1"
 
 ["0.4.3-0"]
 StatsFuns = ["0.9.13-0.9", "1"]
 
-["0.4.5-0"]
+["0.4.5"]
 Functors = "0.1-0.3"
+
+["0.4.6-0"]
+FastGaussQuadrature = "0.4-0.5"
+Functors = "0.1-0.4"
+IrrationalConstants = "0.1-0.2"

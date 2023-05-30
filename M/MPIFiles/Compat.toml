@@ -18,11 +18,11 @@ Reexport = "0.0.0-0.2"
 Unitful = "0.0.0-0.17"
 julia = ["0.7", "1"]
 
-["0.10-0"]
-Interpolations = "0.12-0.13"
-
 ["0.10-0.12.0"]
 Images = "0.22-0.23"
+
+["0.10-0.12.4"]
+Interpolations = "0.12-0.13"
 
 ["0.10.1-0.10.2"]
 SparsityOperators = "0.1.4-0.2"
@@ -35,8 +35,10 @@ SparsityOperators = "0.2.3-0.2"
 
 ["0.11-0"]
 CodecZlib = "0.7"
-DelimitedFiles = "1.5.0-1"
 julia = "1.5.0-1"
+
+["0.11-0.12.4"]
+DelimitedFiles = "1.5.0-1"
 
 ["0.11.8-0"]
 Inflate = "0.1.2-0.1"
@@ -50,13 +52,22 @@ Images = ["0.22-0.23", "0.25"]
 SparsityOperators = "0.3"
 
 ["0.12.2-0"]
-Images = "0.22-0.25"
 Reexport = "1"
 SparsityOperators = "0.3-0.4"
+
+["0.12.2-0.12.5"]
+Images = "0.22-0.25"
 
 ["0.12.3-0"]
 DocStringExtensions = "0.8-0.9"
 HDF5 = "0.14-0.16"
+
+["0.12.5-0"]
+Interpolations = "0.12-0.14"
+
+["0.12.6-0"]
+ImageAxes = "0.6"
+ImageMetadata = "0.9"
 
 ["0.5.3-0.6.1"]
 Compat = "0.0.0-3"

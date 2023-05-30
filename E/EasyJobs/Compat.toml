@@ -1,3 +1,22 @@
 [0]
-DataFrames = "1"
 julia = "1"
+
+["0-0.3"]
+DataFrames = "1"
+
+["0.2"]
+EasyJobsBase = "0.1"
+
+["0.3"]
+EasyJobsBase = "0.2"
+
+["0.4"]
+EasyJobsBase = "0.2-0.4"
+
+["0.4-0"]
+Query = ["0.10-0.12", "1"]
+Reexport = "1"
+
+["0.5-0"]
+EasyJobsBase = "0.6"
+Thinkers = "0.2"

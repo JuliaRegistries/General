@@ -33,9 +33,6 @@ InfrastructureModels = "0.5.3"
 Juniper = "0.6.3"
 PowerModels = "0.17.2"
 
-["0.3.3-0"]
-julia = "1"
-
 ["0.3.3-0.3"]
 InfrastructureModels = "0.5"
 PowerModels = "0.17"
@@ -44,12 +41,28 @@ PowerModels = "0.17"
 JuMP = "0.19.1-0.21"
 Memento = ["0.10-0.13", "1.0-1.1"]
 
+["0.3.3-0.5"]
+julia = "1"
+
 ["0.4"]
 InfrastructureModels = "0.6"
 PowerModels = "0.18"
 
-["0.5-0"]
-InfrastructureModels = "0.6-0.7"
+["0.5"]
 JuMP = "0.22"
 Memento = "1.0-1.3"
 PowerModels = "0.19.1-0.19"
+
+["0.5-0"]
+InfrastructureModels = "0.6-0.7"
+
+["0.6-0"]
+JuMP = ["0.22-0.23", "1"]
+Memento = "1.0-1.4"
+PowerModels = "0.19"
+
+["0.6.0"]
+julia = "1.6-1.8"
+
+["0.6.1-0"]
+julia = "1"

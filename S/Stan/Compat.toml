@@ -1,3 +1,42 @@
+["10.0"]
+DimensionalData = "0.23-0.24"
+MCMCChains = "5.5.0-5"
+StanDiagnose = "4"
+StanSample = "7"
+StanVariational = "4"
+
+["10.1"]
+StanSample = "7.1.0-7"
+
+["10.1-10"]
+DimensionalData = "0.24"
+StanDiagnose = "4.4.0-4"
+StanVariational = "4.3.0-4"
+
+["10.1-10.3.1"]
+MCMCChains = "5.6.0-5"
+
+["10.2-10"]
+AxisKeys = "0.2"
+
+["10.2-10.3.1"]
+StanSample = "7.2.0-7"
+
+["10.2-10.3.2"]
+BridgeStan = "1.0.1-1"
+
+["10.3.1"]
+PosteriorDB = "0.3.1-0.4"
+
+["10.3.1-10"]
+InferenceObjects = "0.3.4-0.3"
+OrderedCollections = "1.4.1-1"
+
+["10.3.2-10"]
+MCMCChains = "5.6.0-6"
+PosteriorDB = "0.4"
+StanSample = "7"
+
 [3]
 BinDeps = "0.4.3-0.8"
 Compat = "0.17-2"
@@ -17,7 +56,7 @@ Gadfly = "1"
 Homebrew = "0.7"
 Mamba = "0.12"
 
-[4-9]
+[4-10]
 julia = "1"
 
 ["5.0"]
@@ -126,6 +165,11 @@ StanQuap = "1-3"
 StanSample = "3-4"
 StanVariational = "2-3"
 
+["7.1-10"]
+Distributions = "0.25"
+MonteCarloMeasurements = "1"
+StatsBase = "0.33"
+
 ["7.1-7"]
 DimensionalData = "0.18"
 StanDiagnose = "2"
@@ -139,17 +183,14 @@ StanBase = "2"
 ["7.1-8.1.3"]
 DataFrames = "1"
 
-["7.1-9"]
-Distributions = "0.25"
-MCMCChains = "5"
-MonteCarloMeasurements = "1"
-StatsBase = "0.33"
-
 ["7.1-9.2.0"]
 AxisKeys = "0.1"
 
 ["7.1-9.3.0"]
 NamedTupleTools = "0.13"
+
+["7.1-9.9"]
+MCMCChains = "5"
 
 ["7.1.0"]
 CSV = "0.9"
@@ -200,7 +241,7 @@ StanQuap = "3.1.0-3"
 StanSample = "5.3.0-5"
 StanVariational = "3.2.0-3"
 
-["8.1.4-9"]
+["8.1.4-9.9"]
 DataFrames = "1.3.0-1"
 
 ["8.1.4-9.9.1"]
@@ -217,15 +258,17 @@ StanQuap = "3.3.0-3"
 StanSample = "5.6.0-5"
 StanVariational = "3.3.0-3"
 
-["8.3.1-9"]
+["8.3.1-9.9"]
 Tables = "1.6.0-1"
 
 [9]
-CSV = "0.10"
 StanDiagnose = "4"
+StanVariational = "4"
+
+[9-10]
+CSV = "0.10"
 StanOptimize = "4"
 StanQuap = "4"
-StanVariational = "4"
 
 ["9-9.1"]
 JSON3 = "1.9.2-1"
@@ -234,14 +277,57 @@ JSON3 = "1.9.2-1"
 StanBase = "4"
 StanSample = "6"
 
-["9.2-9"]
-JSON = "0.21"
+["9.10-10"]
+CompatHelperLocal = "0.1"
+DataFrames = "1.4.0-1"
+DataStructures = "0.18.13-0.18"
+DocStringExtensions = "0.9"
+JSON3 = "1.12.0-1"
+StanBase = "4"
+Tables = "1.10.0-1"
 
-["9.2.1-9"]
-CompatHelperLocal = "0.1.20-0.1"
+["9.10-10.1"]
+StatsPlots = "0.15"
+
+["9.10-10.3.0"]
+PosteriorDB = "0.3.1-0.3"
+
+["9.10-9"]
+MCMCChains = "5.5.0-5"
+
+["9.10-9.10.5"]
+DimensionalData = "0.23"
+
+["9.10.1-9.10.4"]
+InferenceObjects = "0.2"
+
+["9.10.2"]
+StanSample = "6.13.4-6"
+
+["9.10.3"]
+StanSample = "6.13.5-6"
+
+["9.10.4"]
+StanSample = "6.13.7-6"
+
+["9.10.5"]
+StanSample = "6.13.8-6"
+
+["9.10.5-10.3.0"]
+InferenceObjects = "0.3"
+
+["9.10.6-9"]
+DimensionalData = "0.23-0.24"
+StanSample = "6.13.9-6"
+
+["9.2-10"]
+JSON = "0.21"
 
 ["9.2.1-9.5"]
 AxisKeys = "0.1-0.2"
+
+["9.2.1-9.9"]
+CompatHelperLocal = "0.1.20-0.1"
 
 ["9.3.1-9.5"]
 NamedTupleTools = "0.13-0.14"
@@ -249,30 +335,39 @@ NamedTupleTools = "0.13-0.14"
 ["9.5"]
 NamedArrays = "0.9.6-0.9"
 
-["9.5-9"]
+["9.5-9.9"]
 DataStructures = "0.18.11-0.18"
 
-["9.6-9"]
-AxisKeys = "0.2"
-DocStringExtensions = "0.8-0.9"
+["9.6-10"]
 NamedArrays = "0.9"
 NamedTupleTools = "0.14"
 
-["9.7-9"]
-StanBase = "4.7.0-4"
+["9.6-9.9"]
+AxisKeys = "0.2"
+DocStringExtensions = "0.8-0.9"
 
 ["9.7-9.8"]
 StanSample = "6.7.0-6"
 
-["9.8-9"]
+["9.7-9.9"]
+StanBase = "4.7.0-4"
+
+["9.8-10"]
 StatsFuns = "1"
 
-["9.9-9"]
+["9.9"]
 StatsPlots = "0.14-0.15"
 
 ["9.9-9.9.1"]
 StanSample = "6.9.0-6"
 
-["9.9.2-9"]
+["9.9.2"]
 DimensionalData = "0.20-0.22"
 StanSample = "6.9.0-7"
+
+["9.9.3-9.10.1"]
+StanSample = "6"
+
+["9.9.3-9.9"]
+DimensionalData = "0.22-0.23"
+PosteriorDB = "0.3"

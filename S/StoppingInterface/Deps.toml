@@ -1,14 +1,16 @@
 [0]
-JSOSolvers = "10dff2fc-5484-5881-a0e0-c90441020f8a"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NLPModels = "a4795742-8479-5a88-8948-cc11e1c8c1a6"
-NLPModelsIpopt = "f4238b75-b362-5c4c-b852-0801c9a21d71"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 SolverCore = "ff4d7338-4cf1-434d-91df-b86cb86fb843"
 Stopping = "c4fe5a9e-e7fb-5c3d-89d5-7f405ab2214f"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.2-0"]
+["0-0.4"]
+JSOSolvers = "10dff2fc-5484-5881-a0e0-c90441020f8a"
+NLPModelsIpopt = "f4238b75-b362-5c4c-b852-0801c9a21d71"
+
+["0.2-0.4"]
 KNITRO = "67920dd8-b58e-52a8-8622-53c4cffbe346"
 NLPModelsKnitro = "bec4dd0d-7755-52d5-9a02-22f0ffc7efcb"
 

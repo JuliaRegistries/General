@@ -23,8 +23,10 @@ LazyArrays = "0.18-0.19"
 StaticArrays = ["0.12", "1"]
 
 ["0.11-0"]
-ArrayLayouts = "0.8"
 BandedMatrices = "0.17"
+
+["0.11-0.15.0"]
+ArrayLayouts = "0.8"
 
 ["0.11.3-0.12.0"]
 Interpolations = "0.13-0.14"
@@ -32,8 +34,30 @@ Interpolations = "0.13-0.14"
 ["0.12-0"]
 julia = "1.8.0-1"
 
-["0.12.3-0"]
+["0.12.3-0.14.0"]
 FastGaussQuadrature = "0.4-0.5"
+
+["0.14.1-0"]
+FastGaussQuadrature = "0.5"
+
+["0.14.2-0.15.1"]
+SnoopPrecompile = "1"
+
+["0.14.6-0"]
+Static = "0.8"
+StaticArraysCore = "1.4.0-1"
+
+["0.15.1-0"]
+LazyArrays = ["0.22", "1"]
+
+["0.15.1-0.15"]
+ArrayLayouts = ["0.8", "1"]
+
+["0.15.2-0"]
+PrecompileTools = "1"
+
+["0.16-0"]
+ArrayLayouts = "1"
 
 ["0.2.1-0.4"]
 Reexport = ["0.2", "1"]
@@ -72,14 +96,14 @@ LazyArrays = "0.21"
 ["0.8.3"]
 LazyArrays = "0.21-0.22"
 
-["0.8.4-0"]
-LazyArrays = "0.22"
-
 ["0.8.4-0.10"]
 ArrayLayouts = "0.7-0.8"
 
 ["0.8.4-0.11"]
 julia = "1.6.0-1"
+
+["0.8.4-0.15.0"]
+LazyArrays = "0.22"
 
 ["0.9.1-0.10"]
 BandedMatrices = "0.16-0.17"

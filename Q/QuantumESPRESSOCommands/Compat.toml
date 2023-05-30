@@ -16,11 +16,11 @@ Configurations = "0.3-0.16"
 ["0.2"]
 AbInitioSoftwareBase = "0.2-0.3"
 
-["0.3-0.6"]
-Compat = "3.16.0-3"
-
 ["0.3-0.6.0"]
 AbInitioSoftwareBase = "0.4-0.5"
+
+["0.3-0.6.3"]
+Compat = "3.16.0-3"
 
 ["0.3.1-0.5"]
 QuantumEspresso_jll = "6.7.0-6"
@@ -34,8 +34,12 @@ AbInitioSoftwareBase = "0.4-0.6"
 ["0.6.2-0.6"]
 Configurations = "0.3-0.17"
 
-["0.6.3-0.6"]
+["0.6.3"]
 Comonicon = "0.1-0.12"
+
+["0.6.4-0.6"]
+Comonicon = ["0.1-0.12", "1"]
+Compat = "3.16.0-4"
 
 ["0.7-0"]
 Preferences = "1"

@@ -1,12 +1,28 @@
 [0]
+PkgCite = "0.1"
+julia = "1.7.0-1"
+
+[0-1]
 DataStructures = "0.18"
-Graphs = "1.7.0-1"
 IterTools = "1.4.0-1"
 MetaGraphs = "0.7"
 OMEinsum = "0.7"
-PkgCite = "0.1"
 SimpleTraits = "0.9"
 SimpleValueGraphs = "0.4"
 SimpleWeightedGraphs = "1.2.0-1"
 TensorOperations = "3.2.0-3"
-julia = "1.7.0-1"
+
+["0-1.1.1"]
+Graphs = "1.7.0-1"
+
+[1]
+Bijections = "0.1"
+Distributions = "0.25"
+julia = "1.8.0-1"
+
+["1.1-1"]
+PrettyTables = "2.2.0-2"
+
+["1.1.2-1"]
+Graphs = "1"
+WhereTraits = "1"

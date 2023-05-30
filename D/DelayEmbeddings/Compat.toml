@@ -21,16 +21,16 @@ Distributions = "0.23"
 ["1.11-1.20.5"]
 Distributions = "0.23-0.24"
 
-["1.11-2"]
+["1.11-2.6"]
 Distances = "0.7-0.10"
 
 ["1.12-2"]
 julia = "1.5.0-1"
 
-["1.15-2"]
+["1.15-2.6"]
 StaticArrays = ["0.8", "0.11-0.12", "1"]
 
-["1.20.6-2"]
+["1.20.6-2.6"]
 Distributions = "0.23-0.25"
 
 ["1.3-1.10"]
@@ -65,3 +65,14 @@ Neighborhood = "0.1-0.2"
 
 [2]
 Neighborhood = "0.2"
+
+["2.6"]
+StateSpaceSets = ["0.1.2-0.1", "1"]
+
+["2.6-2"]
+Reexport = "1"
+
+["2.7-2"]
+Distances = "0.10"
+Distributions = "0.25"
+StateSpaceSets = "1"

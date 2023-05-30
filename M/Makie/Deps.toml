@@ -76,7 +76,6 @@ PlotUtils = "995b91a9-d308-5afd-9ec6-746e21dbc043"
 PolygonOps = "647866c9-e3ac-4575-94e7-e3d426903924"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 Showoff = "992d4aef-0814-514b-bc4d-f2e9a6c4116f"
 SignedDistanceFields = "73760f76-fbc4-59ce-8f25-708e95d2df96"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
@@ -91,6 +90,9 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 ["0.13-0.16"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.13-0.19.0"]
+Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 
 ["0.14-0"]
 MakieCore = "20f20a25-4f0e-4fdf-b5d1-57303727442b"
@@ -109,8 +111,22 @@ OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 ["0.18-0"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 MiniQhull = "978d7f02-9e05-4691-894f-ae31a51d76ca"
-SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 TriplotBase = "981d1d27-644d-49a2-9326-4793e63143c3"
+
+["0.18-0.19.4"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.19-0"]
+Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+
+["0.19.1-0"]
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+StableHashTraits = "c5dd0088-6c3f-4803-b00e-f31a60c170fa"
+
+["0.19.5-0"]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 
 ["0.9.1-0.12"]
 GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"

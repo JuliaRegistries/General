@@ -102,7 +102,7 @@ DifferenceEquations = "0.4.10-0.4"
 ["0.4.11-0.4.16"]
 PDMats = "0.11"
 
-["0.4.12-0"]
+["0.4.12-0.5.2"]
 MultivariatePolynomials = "0.4.4-0.4"
 SymbolicUtils = "0.19.7-0.19"
 
@@ -115,11 +115,11 @@ DifferenceEquations = "0.4.12-0.4"
 ["0.4.17-0.4.18"]
 DifferenceEquations = "0.4.16-0.4"
 
-["0.4.19-0"]
-julia = "1.7.0-1"
-
 ["0.4.19-0.4.20"]
 DifferenceEquations = "0.4.17-0.4"
+
+["0.4.19-0.5.2"]
+julia = "1.7.0-1"
 
 ["0.4.21-0.4"]
 DifferenceEquations = "0.4.18-0.4"
@@ -128,14 +128,20 @@ DifferenceEquations = "0.4.18-0.4"
 DifferenceEquations = "0.2"
 StatsBase = "0.33"
 
-["0.4.8-0"]
-Symbolics = "4"
-
 ["0.4.8-0.4.9"]
 SymbolicUtils = "0.19"
+
+["0.4.8-0.5.2"]
+Symbolics = "4"
 
 ["0.4.9-0"]
 GeneralizedSylvesterSolver = "0.1"
 
-["0.5-0"]
+["0.5-0.5.2"]
 DifferenceEquations = "0.5"
+
+["0.5.3-0"]
+DifferenceEquations = "0.5.2-0.5"
+SymbolicUtils = "1"
+Symbolics = "5.2.0-5"
+julia = "1.8.0-1"

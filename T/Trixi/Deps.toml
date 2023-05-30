@@ -4,12 +4,14 @@ LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
-UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
 ["0-0.2"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Profile = "9abbd945-dff8-562f-b5e8-e1ebf5ef1b79"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0-0.5.13"]
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
 ["0.2.2-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -80,9 +82,11 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.3.61-0"]
-GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
 TriplotBase = "981d1d27-644d-49a2-9326-4793e63143c3"
 TriplotRecipes = "808ab39a-a642-4abf-81ff-4cb34ebbffa3"
+
+["0.3.61-0.5.3"]
+GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
 
 ["0.4.12-0"]
 IfElse = "615f187c-cbe4-4ef1-ba3b-2fcf58d6d173"
@@ -105,3 +109,13 @@ Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
 
 ["0.4.6-0"]
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+
+["0.5.14-0"]
+SimpleUnPack = "ce78b400-467f-4804-87d8-8f486da07d0a"
+
+["0.5.19-0"]
+DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
+StaticArrayInterface = "0d7ed370-da01-4f52-bd93-41d350b8b718"
+
+["0.5.20-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

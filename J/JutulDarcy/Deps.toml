@@ -3,7 +3,6 @@ AlgebraicMultigrid = "2169fc97-5a83-5252-b627-83903c6c433c"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Jutul = "2b460a1a-8a2b-45b2-b125-b5c536396eb9"
-Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
@@ -15,5 +14,15 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
 
+["0-0.1.5"]
+Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
+
 ["0.1.2-0"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.1.5-0"]
+TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
+
+["0.2-0"]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"

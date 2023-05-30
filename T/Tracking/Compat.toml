@@ -22,7 +22,6 @@ GNSSSignals = "0.10.3-0.10"
 Unitful = "0.12-0.18"
 
 ["0.11-0"]
-DocStringExtensions = "0.6-0.8"
 TrackingLoopFilters = "0.1"
 
 ["0.11-0.12"]
@@ -31,12 +30,17 @@ julia = "1"
 ["0.11-0.13"]
 StaticArrays = "0.9-0.12"
 
+["0.11-0.14"]
+DocStringExtensions = "0.6-0.8"
+
 ["0.12-0"]
-StructArrays = "0.4"
 Unitful = ["0.12-0.18", "1"]
 
 ["0.12-0.12.2"]
 GNSSSignals = "0.11"
+
+["0.12-0.14"]
+StructArrays = "0.4"
 
 ["0.12.0"]
 LoopVectorization = "0.6"
@@ -69,7 +73,7 @@ LoopVectorization = "0.8-0.11"
 ["0.14-0.14.6"]
 GNSSSignals = "0.15"
 
-["0.14.11-0"]
+["0.14.11-0.14"]
 Acquisition = "0.0.2"
 
 ["0.14.3-0"]
@@ -83,7 +87,23 @@ GNSSSignals = "0.15.3-0.15"
 
 ["0.14.9-0"]
 CUDA = "3.5.0-3"
+
+["0.14.9-0.14"]
 GNSSSignals = "0.15.4-0.15"
+
+["0.15-0"]
+DocStringExtensions = "0.6-0.9"
+GNSSSignals = "0.16"
+StructArrays = ["0.4", "0.6.5-0.6"]
+
+["0.15.0"]
+Acquisition = ["0.0.2", "0.0.4"]
+
+["0.15.1"]
+Acquisition = ["0.0.2", "0.0.4-0.0.5"]
+
+["0.15.2-0"]
+Acquisition = ["0.0.2", "0.0.4-0.0.5", "0.1"]
 
 ["0.9.3-0.10"]
 Unitful = "0.12.0-0.18"

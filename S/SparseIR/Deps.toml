@@ -5,9 +5,6 @@ VersionParsing = "81def892-9a0e-5fdd-b105-ffc91e053289"
 ["0.10"]
 AssociatedLegendrePolynomials = "2119f1ac-fb78-50f5-8cc0-dda848ebdb19"
 
-["0.10-0"]
-QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
-
 ["0.10-0.12"]
 LowRankApprox = "898213cb-b102-5a47-900c-97e73b919f73"
 
@@ -17,23 +14,38 @@ IntervalRootFinding = "d2bf35a9-74e0-55ec-b149-d360ff49b807"
 ["0.10-0.94.1"]
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
+["0.10-1"]
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+
 ["0.13-0.14"]
 DoubleFloats = "497a8b3b-efae-58df-a0af-a86822472b78"
 
-["0.14-0"]
+["0.14-1"]
 GenericLinearAlgebra = "14197337-ba66-59df-a3e3-ca00e7dcff7a"
 
-["0.15-0"]
+["0.15-1"]
 MultiFloats = "bdf0d083-296b-4888-a5b6-7498122e68a5"
-
-["0.8-0"]
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.8-0.9"]
 LegendrePolynomials = "3db4a2ba-fc88-11e8-3e01-49c72059a882"
 
-["0.94.2-0"]
+["0.8-1"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["0.94.2-1"]
 Bessels = "0e736298-9ec6-45e8-9647-e4fc86a2fe38"
 
-["0.97-0"]
+["0.97-0.97.1"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.97.1"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+
+["1.0.2-1"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+
+["1.0.2-1.0.7"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["1.0.8-1"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

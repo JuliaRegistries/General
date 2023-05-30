@@ -1,4 +1,9 @@
 [0]
+StableRNGs = "1"
+Weave = "0.10"
+julia = "1.6.0-1"
+
+["0-0.1"]
 AbstractTrees = "0.3"
 BSON = "0.3"
 Flux = "0.12"
@@ -6,10 +11,7 @@ IntervalSets = "0.5"
 ReinforcementLearningBase = "0.9"
 ReinforcementLearningCore = "0.8"
 Requires = "1"
-StableRNGs = "1"
 TensorBoardLogger = "0.1"
-Weave = "0.10"
-julia = "1.6.0-1"
 
 ["0-0.1.0"]
 Distributions = "0.25"
@@ -19,7 +21,7 @@ ReinforcementLearningEnvironments = "0.6"
 ReinforcementLearningZoo = "0.4"
 Setfield = "0.7"
 
-["0.1.1-0"]
+["0.1.1-0.1"]
 ArcadeLearningEnvironment = "0.2"
 CUDA = "3"
 ChainRulesCore = "1"
@@ -31,5 +33,22 @@ ReinforcementLearningEnvironments = "0.6.4-0.6"
 ReinforcementLearningZoo = "0.5"
 Setfield = "0.7-0.8"
 
-["0.1.3-0"]
+["0.1.3-0.1"]
 Zygote = "0.6"
+
+["0.2"]
+ReinforcementLearningBase = "0.11"
+ReinforcementLearningCore = "0.9"
+ReinforcementLearningEnvironments = "0.7"
+ReinforcementLearningZoo = "0.6"
+
+["0.2-0"]
+Distributions = "0.25"
+Flux = "0.13"
+Reexport = "1"
+
+["0.3-0"]
+ReinforcementLearningBase = "0.12"
+ReinforcementLearningCore = "0.10"
+ReinforcementLearningEnvironments = "0.8"
+ReinforcementLearningZoo = "0.7"

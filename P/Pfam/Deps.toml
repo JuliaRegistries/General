@@ -1,4 +1,8 @@
-[0]
+["0-0.1"]
+LocalStore = "7673ebd9-f02d-46dd-b879-08aafde2f01b"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["0-0.2"]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
@@ -7,10 +11,13 @@ FastaIO = "a0c94c4b-ebed-5953-b5fc-82fe598ac79f"
 GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 
-["0-0.1"]
-LocalStore = "7673ebd9-f02d-46dd-b879-08aafde2f01b"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-
-["0.2-0"]
-Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+["0.2"]
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+
+["0.2-1"]
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+
+["0.3-1"]
+Gzip_jll = "be1be57a-8558-53c3-a7e5-50095f79957e"
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"

@@ -6,9 +6,16 @@ julia = "1"
 OpenTelemetryAPI = "0.1"
 OpenTelemetrySDK = "0.1"
 
-["0.2-0"]
+["0.2"]
 OpenTelemetryAPI = "0.2"
 OpenTelemetryExporterOtlpProtoGrpc = "0.2"
 OpenTelemetryExporterPrometheus = "0.1"
 OpenTelemetryProto = "0.13"
 OpenTelemetrySDK = "0.2"
+
+["0.3-0"]
+OpenTelemetryAPI = "0.4"
+OpenTelemetryExporterOtlpProtoHttp = "0.1"
+OpenTelemetryExporterPrometheus = "0.2"
+OpenTelemetryProto = "0.19"
+OpenTelemetrySDK = "0.3"

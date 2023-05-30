@@ -26,7 +26,7 @@ Pkg = "1.4.0-1"
 ["0.10.3-0.10.8"]
 Unmarshal = "0.4.0"
 
-["0.10.9-0"]
+["0.10.9-0.19.2"]
 Unmarshal = "0.4"
 
 ["0.12-0.18.1"]
@@ -54,19 +54,46 @@ Graphs = "1.4.0-1"
 Colors = "0.10-0.12"
 Distributions = "0.23-0.25"
 Reexport = "1"
-Requires = "1"
-julia = "1.6.0-1"
 
 ["0.18.2-0.18.3"]
 DocStringExtensions = "0.8"
 
+["0.18.2-0.19"]
+julia = "1.6.0-1"
+
+["0.18.2-0.21.1"]
+Requires = "1"
+
 ["0.18.4-0"]
 DocStringExtensions = "0.8-0.9"
+
+["0.18.4-0.19"]
 ManifoldsBase = "0.11-0.13"
 
 ["0.18.5-0"]
 OrderedCollections = "1.4.0-1"
 RecursiveArrayTools = "2"
+
+["0.18.9-0"]
+ProgressMeter = "1"
+
+["0.19-0"]
+JSON3 = "1"
+
+["0.20-0"]
+ManifoldsBase = "0.12-0.14"
+StructTypes = "1"
+
+["0.20-0.21.1"]
+julia = "1.8.0-1"
+
+["0.21-0"]
+CSV = "0.10"
+StaticArrays = "1"
+
+["0.21.2-0"]
+FileIO = "1"
+julia = "1.9.0-1"
 
 ["0.3-0.4.1"]
 LightGraphs = "0.0.0-1"
@@ -78,20 +105,22 @@ Colors = "0.0.0-0.11"
 ["0.4.1"]
 GraphPlot = "0.0.0-0.4"
 
-["0.4.2-0"]
-JSON2 = "0.3.1-0.3"
-LightGraphs = "1.2.0-1"
-Neo4j = "2"
-
 ["0.4.2-0.11.2"]
 Graphs = ["0.10.2-0.11", "1"]
 
 ["0.4.2-0.14"]
 Requires = ["0.5-0.10", "1"]
 
+["0.4.2-0.18"]
+LightGraphs = "1.2.0-1"
+Neo4j = "2"
+
 ["0.4.2-0.18.1"]
 Distributions = ["0.18-0.25", "1"]
 Reexport = ["0.2-0.5", "1"]
+
+["0.4.2-0.19"]
+JSON2 = "0.3.1-0.3"
 
 ["0.4.2-0.5"]
 DocStringExtensions = ["0.7-0.10", "1"]
@@ -105,11 +134,11 @@ GraphPlot = "0.3.1-0.4"
 ["0.4.2-0.7.3"]
 Colors = "0.8-0.11"
 
-["0.6-0"]
-JSON = "0.21"
-
 ["0.6-0.18.1"]
 DocStringExtensions = ["0.8-0.10", "1"]
+
+["0.6-0.19"]
+JSON = "0.21"
 
 ["0.6-0.7.4"]
 Unmarshal = "0.3"

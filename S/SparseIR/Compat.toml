@@ -8,9 +8,6 @@ VersionParsing = "1"
 ["0.10"]
 AssociatedLegendrePolynomials = "1"
 
-["0.10-0"]
-QuadGK = "2"
-
 ["0.10-0.12"]
 LowRankApprox = "0.5"
 
@@ -20,22 +17,25 @@ IntervalRootFinding = "0.5"
 ["0.10-0.94.1"]
 SpecialFunctions = "2"
 
+["0.10-1"]
+QuadGK = "2"
+
 ["0.13-0.14"]
 DoubleFloats = "1.2.0-1"
-
-["0.14-0"]
-GenericLinearAlgebra = "0.3.1-0.3"
 
 ["0.14-0.15"]
 julia = "1.6.0-1"
 
-["0.15-0"]
+["0.14-1"]
+GenericLinearAlgebra = "0.3.1-0.3"
+
+["0.15-1"]
 MultiFloats = "1"
 
 ["0.16"]
 julia = "1"
 
-["0.17-0"]
+["0.17-1"]
 julia = "1.6.0-1"
 
 ["0.8-0.9"]
@@ -44,8 +44,14 @@ LegendrePolynomials = "0.4"
 ["0.94.2-0.94"]
 Bessels = "0.1"
 
-["0.95-0"]
+["0.95-1"]
 Bessels = "0.2"
 
-["0.97-0"]
+["0.97-0.97.1"]
 SnoopPrecompile = "1"
+
+["1.0.2-1.0.7"]
+SnoopPrecompile = "1"
+
+["1.0.8-1"]
+PrecompileTools = "1"

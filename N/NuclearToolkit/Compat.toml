@@ -7,13 +7,22 @@ SpecialFunctions = "1.8.0-2"
 StatsBase = "0.33"
 TimerOutputs = "0.5"
 WignerSymbols = "1.1.0-2"
-julia = "1.7.0-1"
 
 ["0-0.1.1"]
 ThreadPools = "2"
+
+["0-0.2"]
+julia = "1.7.0-1"
 
 ["0-0.2.1"]
 MPI = "0.19"
 
 ["0.2.2-0"]
 MPI = "0.19-0.20"
+
+["0.3-0"]
+julia = "1.8.0-1"
+
+["0.3.1-0"]
+AssociatedLegendrePolynomials = "1"
+FLoops = "0.2"

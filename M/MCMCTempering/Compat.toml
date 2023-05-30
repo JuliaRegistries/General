@@ -1,4 +1,20 @@
 [0]
-AbstractMCMC = "3.2.0-3"
 Distributions = "0.24-0.25"
 julia = "1"
+
+["0-0.1"]
+AbstractMCMC = "3.2.0-3"
+
+["0.2-0"]
+AbstractMCMC = "3.2.0-4"
+ConcreteStructs = "0.2"
+DocStringExtensions = "0.8-0.9"
+InverseFunctions = "0.1"
+ProgressLogging = "0.1"
+Setfield = ["0.7-0.8", "1"]
+
+["0.3-0"]
+LogDensityProblems = "2"
+
+["0.3.2-0"]
+MCMCChains = "5-6"

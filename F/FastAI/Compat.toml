@@ -41,11 +41,11 @@ Flux = "0.12"
 ["0-0.4.1"]
 FluxTraining = "0.2"
 
-["0.2-0"]
-Setfield = "0.7-0.8"
-
 ["0.2-0.4"]
 IndirectArrays = ["0.5", "1"]
+
+["0.2-0.5.0"]
+Setfield = "0.7-0.8"
 
 ["0.3"]
 CSV = "0.8-0.9"
@@ -82,7 +82,13 @@ FeatureRegistries = "0.1"
 
 ["0.5-0"]
 MLDatasets = "0.7"
-MLUtils = "0.2.6-0.2"
 PrettyTables = "1.2.0-2"
 TextAnalysis = "0.7"
 UnicodePlots = "2-3"
+
+["0.5.0"]
+MLUtils = "0.2.6-0.2"
+
+["0.5.1-0"]
+MLUtils = "0.2.6-0.4"
+Setfield = ["0.7-0.8", "1"]

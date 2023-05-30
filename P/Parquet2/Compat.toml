@@ -5,9 +5,7 @@ CodecZstd = "0.7"
 DataAPI = "1"
 DecFP = "1"
 FilePathsBase = "0.9"
-FillArrays = "0.13"
 JSON3 = "1"
-LazyArrays = "0.22"
 LightBSON = "0.2"
 OrderedCollections = "1"
 PooledArrays = "1"
@@ -15,10 +13,8 @@ SentinelArrays = "1"
 StaticArrays = "1"
 TableOperations = "1"
 Tables = "1.7.0-1"
-Thrift = "0.8"
 Transducers = "0.4"
 WeakRefStrings = "1"
-julia = "1.6.0-1"
 
 ["0-0.1"]
 LRUCache = "1"
@@ -29,6 +25,14 @@ Snappy = "0.3"
 ["0-0.1.7"]
 AbstractTrees = "0.3"
 
+["0-0.2.11"]
+FillArrays = "0.13"
+LazyArrays = "0.22"
+
+["0-0.2.14"]
+Thrift = "0.8"
+julia = "1.6.0-1"
+
 ["0.1.1-0"]
 Snappy = "0.3-0.4"
 
@@ -37,3 +41,22 @@ CodecLz4 = "0.4"
 
 ["0.1.8-0"]
 AbstractTrees = "0.3-0.4"
+
+["0.2.12-0"]
+FillArrays = ["0.13", "1"]
+LazyArrays = ["0.22", "1"]
+
+["0.2.14-0"]
+PrecompileTools = "1"
+
+["0.2.15"]
+Thrift2 = "0.1"
+
+["0.2.15-0"]
+julia = "1.8.0-1"
+
+["0.2.16-0"]
+Thrift2 = "0.1.3-0.1"
+
+["0.2.9-0.2.13"]
+SnoopPrecompile = "1"

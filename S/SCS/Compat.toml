@@ -63,6 +63,16 @@ MathOptInterface = "1"
 SCS_GPU_jll = "3.0.0-3.0.1"
 SCS_jll = "3.0.0-3.0.1"
 
-["1.1-1"]
+["1.1-1.1.2"]
 SCS_GPU_jll = "3.2.0"
 SCS_jll = "3.2.0"
+
+["1.1.3"]
+SCS_GPU_jll = "3.2.1"
+SCS_MKL_jll = "3.2.2"
+SCS_jll = "3.2.1"
+
+["1.1.4-1"]
+SCS_GPU_jll = "3.2.3"
+SCS_MKL_jll = "3.2.2-3.2.3"
+SCS_jll = ["3.2.1", "3.2.3"]

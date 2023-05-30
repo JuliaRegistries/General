@@ -8,12 +8,14 @@ julia = ["0.7", "1"]
 
 [2]
 FFTW = "1.2.0-1"
-FastGaussQuadrature = "0.4"
 julia = "1"
 
 ["2-2.1.1"]
 Arpack = "0.4"
 SpecialFunctions = "0.10"
+
+["2-2.2.0"]
+FastGaussQuadrature = "0.4"
 
 ["2.0"]
 Plots = "0.29"
@@ -29,3 +31,10 @@ SpecialFunctions = ["0.10", "1"]
 
 ["2.1.6-2"]
 SpecialFunctions = ["0.10", "1-2"]
+
+["2.2.0"]
+StatsBase = "0.34"
+
+["2.2.1-2"]
+FastGaussQuadrature = "0.5"
+StatsBase = "0.33"

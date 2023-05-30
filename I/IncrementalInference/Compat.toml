@@ -160,7 +160,6 @@ ApproxManifoldProducts = "0.3.3-0.3"
 ["0.24.1-0"]
 Distributions = "0.24-0.25"
 FileIO = "1"
-JSON2 = "0.3"
 ProgressMeter = "1"
 StatsBase = "0.32-0.33"
 
@@ -181,6 +180,9 @@ Optim = ["0.22", "1"]
 
 ["0.24.1-0.28"]
 DocStringExtensions = "0.8"
+
+["0.24.1-0.32"]
+JSON2 = "0.3"
 
 ["0.24.4-0.24"]
 DistributedFactorGraphs = "0.14.5-0.14"
@@ -247,7 +249,7 @@ MetaGraphs = "0.7"
 Optim = "1"
 StaticArrays = "1"
 
-["0.27.3-0"]
+["0.27.3-0.32"]
 JSON = "0.21"
 
 ["0.29"]
@@ -256,16 +258,22 @@ Manifolds = "0.8.8-0.8"
 ManifoldsBase = "0.13"
 
 ["0.29-0"]
-DistributedFactorGraphs = "0.18.4-0.18"
 DocStringExtensions = "0.8-0.9"
+
+["0.29-0.32.0"]
+DistributedFactorGraphs = "0.18.4-0.18"
 
 ["0.3.8-0.3"]
 StatsBase = "0.0.0-0.33"
 
 ["0.30-0"]
-ApproxManifoldProducts = "0.6"
 Manifolds = "0.8.15-0.8"
+
+["0.30-0.32"]
 ManifoldsBase = "0.13.12-0.13"
+
+["0.30-0.32.1"]
+ApproxManifoldProducts = "0.6"
 
 ["0.30.0"]
 RecursiveArrayTools = "2"
@@ -277,6 +285,24 @@ RecursiveArrayTools = "2.31.1-2"
 ["0.31-0"]
 SnoopPrecompile = "1"
 julia = "1.8.0-1"
+
+["0.32.1"]
+DistributedFactorGraphs = "0.18.10-0.18"
+
+["0.32.2"]
+DistributedFactorGraphs = "0.19"
+
+["0.32.2-0"]
+ApproxManifoldProducts = "0.6.3-0.6"
+
+["0.32.3-0.32"]
+DistributedFactorGraphs = "0.19.3-0.19"
+
+["0.33-0"]
+DistributedFactorGraphs = "0.20"
+JSON3 = "1"
+ManifoldsBase = "0.13.12-0.14"
+StructTypes = "1"
 
 ["0.4"]
 KernelDensityEstimate = "0.4"

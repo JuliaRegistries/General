@@ -16,8 +16,10 @@ BioSymbols = "4"
 
 ["0.11-1"]
 BioAlignments = "2"
-BioGenerics = "0.1"
 BioSequences = "2"
+
+["0.11-2"]
+BioGenerics = "0.1"
 
 ["0.11.6"]
 Format = ["1.1", "1.3"]
@@ -69,7 +71,7 @@ RecipesBase = "0.7"
 ["0.8-0.9.3"]
 CodecZlib = "0.6"
 
-["0.8-1"]
+["0.8-2"]
 BioCore = "2"
 
 ["0.9-0"]
@@ -82,12 +84,12 @@ RecipesBase = "0.7-0.8"
 CodecZlib = "0.6-0.7"
 RecipesBase = ["0.7-0.8", "1"]
 
-[1]
-Downloads = "1"
-
 ["1-1.1"]
 MMTF = ["0.1", "1"]
 julia = "1.3.0-1"
+
+[1-2]
+Downloads = "1"
 
 ["1.0"]
 BioSymbols = "4"
@@ -96,10 +98,20 @@ MetaGraphs = "0.6"
 
 ["1.1-1"]
 BioSymbols = "4-5"
+
+["1.1-2"]
 Graphs = "1"
 MetaGraphs = "0.7"
 
-["1.2-1"]
+["1.2-2"]
 Format = "1.3.0-1"
 MMTF = "1"
 julia = "1.6.0-1"
+
+[2]
+BioAlignments = "3"
+BioSequences = "3"
+BioSymbols = "5"
+CodecZlib = "0.7"
+DataFrames = "1"
+RecipesBase = "1"

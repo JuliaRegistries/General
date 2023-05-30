@@ -57,17 +57,24 @@ LazySets = "1.32.0-1"
 ["0.7-0.7.5"]
 StaticArrays = "0.12"
 
-["0.7.3-0"]
+["0.7.3-0.8"]
 Interpolations = "0.12-0.13"
 
-["0.7.4-0"]
+["0.7.4-0.8"]
 LazySets = "1.37.0-1"
 
 ["0.7.6-0"]
 Reexport = ["0.2", "1"]
 StaticArrays = ["0.12", "1"]
 
+["0.8"]
+julia = "1.5.0-1"
+
 ["0.8-0"]
 ImageFiltering = "0.6-0.7"
 ImageTransformations = "0.8-0.9"
-julia = "1.5.0-1"
+
+["0.9-0"]
+Interpolations = "0.12-0.14"
+LazySets = "2"
+julia = "1.6.0-1"

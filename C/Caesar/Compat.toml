@@ -93,7 +93,7 @@ Manifolds = "0.6.3-0.7"
 ["0.12"]
 IncrementalInference = "0.26-0.27"
 
-["0.12-0"]
+["0.12-0.13"]
 julia = "1.6.0-1"
 
 ["0.12-0.13.0"]
@@ -119,7 +119,6 @@ RoME = "0.17-0.19"
 ApproxManifoldProducts = "0.6"
 Combinatorics = "1"
 DataStructures = "0.17-0.18"
-DistributedFactorGraphs = "0.18"
 Distributions = "0.25"
 DocStringExtensions = "0.8-0.9"
 ImageCore = "0.8-0.9"
@@ -133,6 +132,9 @@ Requires = "1"
 TensorCast = "0.4"
 TransformUtils = "0.2.14-0.2"
 
+["0.13.2-0.13"]
+DistributedFactorGraphs = "0.18"
+
 ["0.13.2-0.13.4"]
 IncrementalInference = "0.30"
 RoME = "0.20"
@@ -141,9 +143,30 @@ RoME = "0.20"
 NearestNeighbors = "0.4"
 StatsBase = "0.33"
 
-["0.13.5-0"]
+["0.13.5-0.13"]
 IncrementalInference = "0.30-0.31"
 RoME = "0.20-0.21"
+
+["0.14"]
+DistributedFactorGraphs = "0.18-0.19"
+IncrementalInference = "0.31-0.32"
+RoME = "0.21"
+
+["0.14-0"]
+Colors = "0.12"
+GeometryBasics = "0.4"
+MultivariateStats = "0.10"
+julia = "1.8.0-1"
+
+["0.15-0"]
+ColorVectorSpace = "0.9"
+DistributedFactorGraphs = "0.19-0.20"
+GeometricalPredicates = "0.4"
+IncrementalInference = "0.31-0.33"
+Interpolations = "0.14"
+JSON3 = "1"
+LasIO = "0.3"
+RoME = "0.21-0.22"
 
 ["0.2.1"]
 IncrementalInference = "0.4.3-0.4"

@@ -1,11 +1,13 @@
 [0]
-PyCall = "1.92.0-1"
 Requires = "1.1.0-1"
 
 ["0-0.4"]
 Reexport = ["0.2", "1"]
 StaticArrays = "1"
 julia = "1.5.0-1"
+
+["0-0.5.10"]
+PyCall = "1.92.0-1"
 
 ["0.3.1-0.5.6"]
 DocStringExtensions = "0.8"
@@ -17,6 +19,15 @@ julia = "1.6.0-1"
 
 ["0.5-0.5.1"]
 Bravais = "0.1"
+
+["0.5.11-0"]
+DirectQhull = "0.2"
+
+["0.5.12"]
+SnoopPrecompile = "1"
+
+["0.5.13-0"]
+PrecompileTools = "1"
 
 ["0.5.2"]
 Bravais = "0.1.2-0.1"

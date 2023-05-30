@@ -1,9 +1,17 @@
 [0]
 Parameters = "0.12"
 PeriodicTable = "1.1.0-1"
-Spglib = "0.6"
 StaticArrays = "1"
 julia = "1.6.0-1"
 
+["0-0.3.0"]
+Spglib = "0.6"
+
 ["0.3-0"]
 GZip = "0.5"
+
+["0.3.1-0"]
+Spglib = "0.6.1-0.6"
+
+["0.3.2-0"]
+LaTeXStrings = "1"

@@ -19,10 +19,12 @@ DocStringExtensions = "0.8.2-0.8"
 InfrastructureSystems = "0.14"
 PowerSystems = "0.24"
 
-["0.10-0"]
-FastClosures = "0.3"
+["0.10"]
 PowerFlows = "0.1"
 PowerSystems = "1.21.0-1"
+
+["0.10-0"]
+FastClosures = "0.3"
 
 ["0.10-0.10.2"]
 SciMLBase = "1.29.0-1"
@@ -32,6 +34,17 @@ SciMLBase = "1.45.0-1"
 
 ["0.10.4-0"]
 DocStringExtensions = "0.9"
+
+["0.10.9-0.10"]
+DataFrames = "1.3.0-1"
+
+["0.11-0"]
+DataFrames = "1"
+InfrastructureSystems = "1.18.1-1"
+PowerFlows = "0.2.1-0.2"
+PowerNetworkMatrices = "0.1"
+PowerSystems = "2"
+PrettyTables = "1-2"
 
 ["0.2"]
 InfrastructureSystems = "0.15"
@@ -65,13 +78,15 @@ LogExpFunctions = "0.3"
 PowerSystems = "1.13.0-1"
 SciMLBase = "1.18.0-1"
 
-["0.7-0"]
+["0.7-0.10"]
 PrettyTables = "1"
 
 ["0.8-0"]
 DataStructures = "0.18"
-InfrastructureSystems = "1.14.0-1"
 TimerOutputs = "0.5"
+
+["0.8-0.10"]
+InfrastructureSystems = "1.14.0-1"
 
 ["0.8-0.10.3"]
 DocStringExtensions = "0.8.6-0.8"

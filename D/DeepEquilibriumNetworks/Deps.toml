@@ -1,9 +1,17 @@
 [0]
+DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
+Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0-0.1"]
+ComponentArrays = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
+DiffEqSensitivity = "41bf760c-e81c-5289-8e54-58b1f1f8abe2"
+Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+
+[0-1]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
-DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
-Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
@@ -14,13 +22,16 @@ SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 SteadyStateDiffEq = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
-UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
-["0-0.1"]
-ComponentArrays = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
-DiffEqSensitivity = "41bf760c-e81c-5289-8e54-58b1f1f8abe2"
-Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
-
-["0.2-0"]
+["0.2-1"]
 SciMLSensitivity = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
+
+["0.2.5-0"]
+SciMLOperators = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
+
+[1]
+Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+SimpleNonlinearSolve = "727e6d20-b764-4bd8-a329-72de5adea6c7"
+TruncatedStacktraces = "781d530d-4396-4725-bb49-402e4bee1e77"
+ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"

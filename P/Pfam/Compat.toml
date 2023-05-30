@@ -1,8 +1,3 @@
-[0]
-DataDeps = "0.7"
-FastaIO = "1"
-GZip = "0.5"
-
 ["0-0.1"]
 CSV = "0.5"
 CodecZlib = "0.6"
@@ -11,10 +6,23 @@ HTTP = "0.8"
 LocalStore = "0.1"
 julia = "1.4.0-1"
 
-["0.2-0"]
+["0-0.2"]
+DataDeps = "0.7"
+FastaIO = "1"
+GZip = "0.5"
+
+["0.2"]
 CSV = "0.9"
 CodecZlib = "0.7"
 DataFrames = "1"
 HTTP = "0.9"
 Scratch = "1"
+
+["0.2-1"]
 julia = "1.6.0-1"
+
+["0.3-1"]
+Downloads = "1"
+Gzip_jll = "1"
+Preferences = "1"
+ProgressMeter = "1"

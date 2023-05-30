@@ -1,7 +1,6 @@
 [0]
 Parameters = "0.12"
 ProgressMeter = "1.2.0-1"
-StatsBase = "0.32-0.33"
 julia = "1"
 
 ["0-0.2"]
@@ -22,6 +21,9 @@ Interpolations = "0.12"
 ["0-0.5.8"]
 AdvancedHMC = ["0.2", "0.5"]
 Requires = "1"
+
+["0-0.7.3"]
+StatsBase = "0.32-0.33"
 
 ["0.2.1-0.3.3"]
 MCMCChains = ["1", "3-4"]
@@ -63,7 +65,7 @@ AbstractMCMC = ["0.5", "1-3"]
 ["0.5-0"]
 Distributions = "0.22-0.25"
 
-["0.5.10-0"]
+["0.5.10-0.7.2"]
 MCMCChains = "4-5"
 
 ["0.6.1-0"]
@@ -71,3 +73,9 @@ ConcreteStructs = "0.2"
 
 ["0.7.2-0"]
 AbstractMCMC = ["0.5", "1-4"]
+
+["0.7.3-0"]
+MCMCChains = "4-6"
+
+["0.7.4-0"]
+StatsBase = "0.32-0.34"

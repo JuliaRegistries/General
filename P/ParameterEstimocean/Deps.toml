@@ -2,7 +2,6 @@
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 EnsembleKalmanProcesses = "aa8a2aa5-91d8-4396-bcef-d4f2ec43552d"
-FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Oceananigans = "9e8cae18-63c1-5223-a75c-80ca9d6e9a09"
@@ -14,3 +13,14 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
+
+["0-0.13"]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+
+["0.14-0"]
+BlockDiagonals = "0a1fb500-61f7-11e9-3c65-f5ef3456f9f0"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+GaussianProcesses = "891a1506-143c-57d2-908e-e1f8e92e6de9"
+LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
+MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"

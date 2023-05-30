@@ -1,4 +1,7 @@
-[0]
+["0-0.1.0"]
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
+
+[0-1]
 AlgRemez_jll = "acb6dc63-88f0-54c7-a126-ccdc963b8b3f"
 CLIME_jll = "3c6ae550-c37b-5556-a07e-d40b4910cf1c"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -15,10 +18,14 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
-["0-0.1.0"]
-JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
-
-["0.1.1-0"]
+["0.1.1-1"]
 ArnoldiMethod = "ec485272-7323-5ecc-a04f-4719b315124d"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 KrylovKit = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
+
+[1]
+Gaugefields = "a461e10c-0d91-493e-bc41-027b226eee91"
+LatticeDiracOperators = "019239df-b0e3-486e-8e4c-d1c29ee5d6b9"
+QCDMeasurements = "15719ebc-80aa-4a1c-a78b-278b460177d7"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+Wilsonloop = "f3c8d4fe-2f22-401d-8228-e6a01d7a1d02"

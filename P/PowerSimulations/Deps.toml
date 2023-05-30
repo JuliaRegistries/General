@@ -4,7 +4,6 @@ Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
-ParameterJuMP = "774612a8-9878-5177-865a-ca53ae2495f9"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 PowerModels = "c36e90e8-916a-50a6-bd94-075b64ef4655"
 PowerSystems = "bcd98974-b02a-5e2f-9ee0-a103f5c450dd"
@@ -12,6 +11,9 @@ TimeSeries = "9e3dc215-6440-5c97-bce1-76c03772f85e"
 
 ["0-0.1"]
 AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
+
+["0-0.15"]
+ParameterJuMP = "774612a8-9878-5177-865a-ca53ae2495f9"
 
 ["0.15-0"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
@@ -22,6 +24,9 @@ Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 ["0.15.8-0"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+
+["0.17-0"]
+PowerNetworkMatrices = "bed98974-b02a-5e2f-9fe0-a103f5c450dd"
 
 ["0.2-0"]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"

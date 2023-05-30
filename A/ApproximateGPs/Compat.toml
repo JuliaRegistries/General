@@ -1,7 +1,6 @@
 [0]
 AbstractGPs = "0.3-0.5"
 Distributions = "0.25"
-FastGaussQuadrature = "0.4"
 Reexport = "1"
 StatsBase = "0.33"
 julia = "1.6.0-1"
@@ -21,6 +20,9 @@ GPLikelihoods = "0.1-0.2"
 ["0-0.3.0"]
 FillArrays = "0.12"
 
+["0-0.4.2"]
+FastGaussQuadrature = "0.4"
+
 ["0.1.2-0"]
 ChainRulesCore = "1.7.0-1"
 ForwardDiff = "0.10"
@@ -31,13 +33,13 @@ SpecialFunctions = "1-2"
 ["0.2.4-0"]
 PDMats = "0.11"
 
-["0.2.7-0"]
+["0.2.7-0.4.3"]
 IrrationalConstants = "0.1"
 
 ["0.2.8-0.3"]
 GPLikelihoods = "0.3"
 
-["0.3.1-0"]
+["0.3.1-0.4.4"]
 FillArrays = "0.12-0.13"
 
 ["0.3.3-0"]
@@ -45,3 +47,12 @@ LogExpFunctions = "0.3"
 
 ["0.4-0"]
 GPLikelihoods = "0.4"
+
+["0.4.3-0"]
+FastGaussQuadrature = "0.4-0.5"
+
+["0.4.4-0"]
+IrrationalConstants = "0.1-0.2"
+
+["0.4.5-0"]
+FillArrays = ["0.12-0.13", "1"]

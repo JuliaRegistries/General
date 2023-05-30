@@ -18,12 +18,14 @@ Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [0-1]
+TransferEntropy = "ea221983-52f3-5440-99c7-13ea201cd633"
+
+[0-2]
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 TimeseriesSurrogates = "c804724b-8c18-5caa-8579-6025a0767c70"
-TransferEntropy = "ea221983-52f3-5440-99c7-13ea201cd633"
 
-["0.2.1-1"]
+["0.2.1-2"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["0.2.2-0"]
@@ -38,14 +40,14 @@ Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 DocumenterMarkdown = "997ab1e6-3595-5248-9280-8efb232c3433"
 
-["0.2.2-1"]
+["0.2.2-2"]
 NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 
 ["0.2.3-0.2"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Measures = "442fdcdd-2543-5da2-b0f3-8c86c306513e"
 
-["0.2.3-1"]
+["0.2.3-2"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0.2.5-0.2"]
@@ -58,7 +60,7 @@ CrossMappings = "7011085d-2e9b-5a7b-b0c2-f102c05e50c2"
 CausalityToolsBase = "b1f25513-c649-51ee-8a1c-0e98d01ae897"
 UncertainData = "dcd9ba68-c27b-5cea-ae21-829cd07325bf"
 
-["0.3-1"]
+["0.3-2"]
 DelayEmbeddings = "5732040d-69e3-5649-938a-b6b4f237613f"
 HypothesisTests = "09f84164-cd44-5f33-b23f-e6b0d136a0d5"
 SimpleDiffEq = "05bca326-078c-5bf0-a5bf-ce7c7982d7fd"
@@ -78,10 +80,31 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [1]
 ChaosTools = "608a59af-f2a3-5ad4-90b4-758bdf3122a7"
-DynamicalSystemsBase = "6e36e845-645a-534a-86f2-f5d4aa5a06b4"
 Entropies = "ed8fcbec-b94c-44b6-89df-898894ad9591"
+
+[1-2]
+DynamicalSystemsBase = "6e36e845-645a-534a-86f2-f5d4aa5a06b4"
 LabelledArrays = "2ee39098-c373-598a-b85f-a56591580800"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Neighborhood = "645ca80c-8b79-4109-87ea-e1f58159d116"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Wavelets = "29a6e085-ba6d-5f35-a997-948ac2efa89a"
+
+["1.6-2"]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StateSpaceSets = "40b095a5-5852-4c12-98c7-d43bf788e795"
+
+[2]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+ComplexityMeasures = "ab4b797d-85ee-42ba-b621-05d793b346a2"
+DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["2.1-2"]
+Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
+
+["2.2-2"]
+RecurrenceAnalysis = "639c3291-70d9-5ea2-8c5b-839eba1ee399"

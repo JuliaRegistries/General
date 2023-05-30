@@ -1,5 +1,4 @@
 [0]
-DiffEqBase = "6.48.0-6"
 Parameters = "0.12"
 RecursiveArrayTools = "2.7.0-2"
 
@@ -10,6 +9,9 @@ Reexport = "0.2"
 OrdinaryDiffEq = "5"
 julia = "1.5.0-1"
 
+["0-0.2.2"]
+DiffEqBase = "6.48.0-6"
+
 ["0.1.1"]
 Reexport = ["0.2", "1"]
 
@@ -17,3 +19,7 @@ Reexport = ["0.2", "1"]
 OrdinaryDiffEq = "5-6"
 Reexport = "1"
 julia = "1.6.0-1"
+
+["0.2.3-0"]
+DiffEqBase = "6.122.0-6"
+SciMLBase = "1.90.0-1"

@@ -1,6 +1,11 @@
 [0]
 LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
-MINPACK = "4854310b-de5a-5eb6-a2a5-c1dee2bd17f9"
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+
+["0-0.1.0"]
+MINPACK = "4854310b-de5a-5eb6-a2a5-c1dee2bd17f9"
+
+["0.1.2-0"]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"

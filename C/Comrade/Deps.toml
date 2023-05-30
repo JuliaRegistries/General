@@ -1,19 +1,14 @@
 [0]
 Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
 AstroTime = "c61b5328-d09d-5e37-a9a8-0eb41c39009c"
-DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
-KeywordCalls = "4d827475-d3e4-43d6-abe3-9688362ede9f"
-MeasureBase = "fa1605e6-acd5-459c-a1e6-7e635759db14"
 NFFT = "efe261a4-0d2b-5849-be55-fc731d526b0d"
 PaddedViews = "5432bcbf-9aad-5242-b902-cca2824c8663"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
@@ -27,51 +22,95 @@ LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 ["0-0.4"]
 MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
 
+["0-0.6"]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+KeywordCalls = "4d827475-d3e4-43d6-abe3-9688362ede9f"
+MeasureBase = "fa1605e6-acd5-459c-a1e6-7e635759db14"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.7.4"]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
 ["0.2-0"]
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 BasicInterpolators = "26cce99e-4866-4b6d-ab74-862489e035e0"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 ComradeBase = "6d8c423b-a35f-4ef1-850c-862fe21f82c4"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
-MeasureTheory = "eadaa1a4-d27c-401d-8699-e962e1bbc33b"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.2-0.6"]
+MeasureTheory = "eadaa1a4-d27c-401d-8699-e962e1bbc33b"
 
 ["0.2.1-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.2.2-0"]
-AbstractDifferentiation = "c29ec348-61ec-40c8-8164-b8c60e9d9f3d"
 AbstractMCMC = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
 DensityInterface = "b429d917-457f-4dbc-8f4c-0cc954292b1d"
 HypercubeTransform = "9ec9aee3-0fd3-44c2-8e61-a50acc66f3c8"
 ParameterHandling = "2412ca09-6db7-441c-8e3a-88d5709968c5"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
+
+["0.2.2-0.6"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 ValueShapes = "136a8f8c-c49b-4edb-8b98-f3d64d48be8f"
 
 ["0.2.2-0.6.1"]
 TupleVectors = "615932cf-77b6-4358-adcd-5b7eba981d7e"
 
+["0.2.2-0.7.1"]
+AbstractDifferentiation = "c29ec348-61ec-40c8-8164-b8c60e9d9f3d"
+
 ["0.3-0"]
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
 
-["0.3.1-0"]
+["0.3.1-0.6"]
 FLoops = "cc61a311-1640-44b5-9fba-1b764f453329"
 
 ["0.4"]
 BlockDiagonals = "0a1fb500-61f7-11e9-3c65-f5ef3456f9f0"
 
 ["0.4-0"]
-NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 
+["0.4-0.6"]
+NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
+
 ["0.5-0"]
 FITSIO = "525bcba6-941b-5504-bd06-fd0dc1a4d2eb"
+
+["0.5-0.6"]
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
 ["0.6.1-0"]
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
+
+["0.7-0"]
+AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
+Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
+FastBroadcast = "7034ab61-46d4-4ed7-9d0f-46aef9175898"
+PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
+RectiGrids = "8ac6971d-971d-971d-971d-971d5ab1a71a"
+Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
+StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
+TypedTables = "9d95f2ec-7b3d-5a63-8d20-e2491e220bb9"
+VLBILikelihoods = "90db92cd-0007-4c0a-8e51-dbf0782ce592"
+
+["0.7.2-0"]
+LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
+
+["0.7.3-0"]
+NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
+
+["0.7.5-0.7"]
+CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+
+["0.8-0"]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"

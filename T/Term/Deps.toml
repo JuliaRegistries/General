@@ -9,7 +9,7 @@ TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 ["0-0.2"]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 
-[0-1]
+[0-2]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Highlights = "eafb193a-b7ab-5a9e-9068-77385905fa72"
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
@@ -17,18 +17,34 @@ Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 MyterialColors = "1c23619d-4212-4747-83aa-717207fae70f"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 
-["0.3-1"]
+["0.3-2"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
-[1]
+[1-2]
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 UnicodeFun = "1cfade01-22cf-5700-b092-accc4b62d6e1"
 
-["1.0.3-1"]
+["1.0.3-2"]
 CodeTracking = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
 
-["1.0.4-1"]
+["1.0.4-1.1"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["1.1-1"]
+WordTokenizers = "796a5d58-b03d-544a-977e-18100b691f6e"
+
+["1.1-2"]
+Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+
+[2]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
+
+["2-2.0.2"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["2.0.3-2"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

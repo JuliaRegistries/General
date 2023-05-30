@@ -37,10 +37,12 @@ HTTP = "0.9"
 ANSIColoredPrinters = "0.0.1"
 CodeTracking = "1"
 JSON3 = "1"
-LoggingExtras = "0.4"
 ProgressMeter = "1"
 StructTypes = "1"
 UnitfulAtomic = "1"
+
+["0.4-0.5.17"]
+LoggingExtras = "0.4"
 
 ["0.5-0"]
 HTTP = "1"
@@ -50,5 +52,21 @@ julia = "1.6.0-1"
 ["0.5.0"]
 DelimitedFiles = "1.6.0-1"
 
+["0.5.11"]
+RemoteHPC = "0.2"
+
+["0.5.12-0.5.15"]
+RemoteHPC = "0.2.2-0.2"
+
+["0.5.16-0.5.17"]
+RemoteHPC = "0.2.12-0.2"
+
+["0.5.18-0"]
+LoggingExtras = "1"
+RemoteHPC = "0.3"
+
 ["0.5.8-0"]
 SnoopPrecompile = "1"
+
+["0.5.9-0.5.10"]
+RemoteHPC = "0.1"

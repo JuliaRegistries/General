@@ -90,11 +90,12 @@ Registering allows the package to be added by `Pkg.add("Example")` or `] add Exa
 in the Pkg REPL mode. This is true if the package is installed in any registry
 you have installed, not just General; you can even create your own registry!
 
-#### Should I register my package?
+#### Should I register my package now?
 
-If your package might be useful to others, or provide functionality other
-packages in General might want to rely on, go for it! We only ask that you consider
-the following best practices.
+If your package is at a stage where it might be useful to others, or provide functionality other
+packages in General might want to rely on, go for it!
+
+We ask that you consider the following best practices.
 
 * It is easier for others to use your package if it has **documentation** that explains
 what the package is for and how to use it. This could be in the form of a README
@@ -105,16 +106,20 @@ to setup **tests** (see
 [the Pkg.jl docs](https://pkgdocs.julialang.org/v1/creating-packages/#Adding-tests-to-the-package)
 and the [Test stdlib docs](https://docs.julialang.org/en/v1/stdlib/Test/)), which
 can be automatically run by free **continuous integration** services such as GitHub Actions.
-* Also, note that the General registry is not a place for "personal packages" that consist of
+
+Packages like [PkgTemplates.jl](https://github.com/invenia/PkgTemplates.jl) or
+[PkgSkeleton.jl](https://github.com/tpapp/PkgSkeleton.jl) provide easy ways to setup
+documentation, tests, and continuous integration.
+
+Some types of packages should not be registered, or are not yet ready for registration:
+
+* The General registry is not a place for "personal packages" that consist of
 collections of "utility functions" nor for packages that are only useful for a closed group
 (like a research group or a company). For that, it is easy to set up your own registry using
 for example [LocalRegistry.jl](https://github.com/GunnarFarneback/LocalRegistry.jl). The
 [Pkg documentation about registries](https://pkgdocs.julialang.org/v1/registries/) might be useful
 if you decide to go this route.
-
-Packages like [PkgTemplates.jl](https://github.com/invenia/PkgTemplates.jl) or
-[PkgSkeleton.jl](https://github.com/tpapp/PkgSkeleton.jl) provide easy ways to setup
-documentation, tests, and continuous integration.
+* "Empty" packages that do not yet have functionality are not ready to be registered.
 
 #### Can my package in this registry depend on unregistered packages?
 
@@ -239,11 +244,11 @@ registry, and code cannot be deleted.
 
 #### Can my package be registered without an [OSI approved license](https://opensource.org/licenses)?
 
+
 No, sorry. The registry is maintained by volunteers, and we don't have a legal team who can thoroughly review licenses.
 It is very easy to accidentally wander into legally murky territory when combining common OSI licenses[^1] like GPL
 with non-OSI licenses and we don't want to subject Julia users to that risk when installing packages registered in General.
-See [these](https://github.com/JuliaRegistries/General/pull/31549#issuecomment-796671872) [comments]
-(https://github.com/JuliaRegistries/General/pull/31549#issuecomment-804196208) for more discussion. We are not lawyers and this is not legal advice.
+See [these](https://github.com/JuliaRegistries/General/pull/31549#issuecomment-796671872) [comments](https://github.com/JuliaRegistries/General/pull/31549#issuecomment-804196208) for more discussion. We are not lawyers and this is not legal advice.
 
 [^1]: Note that even within the world of OSI licenses, there are combinations of OSI licenses which are not
 legal to use together, such as GPL2 with Apache2.

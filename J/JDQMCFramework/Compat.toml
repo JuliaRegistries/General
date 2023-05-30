@@ -1,5 +1,18 @@
 [0]
-Checkerboard = "1"
-FastLapackInterface = "1.2.0-1"
 StableLinearAlgebra = "1.3.0-1"
+
+[0-1]
+FastLapackInterface = "1.2.0-1"
 julia = "1.7.0-1"
+
+["0-1.0.1"]
+Checkerboard = "1"
+
+["1.0.0"]
+StableLinearAlgebra = "1.3.0-1"
+
+["1.0.1-1"]
+StableLinearAlgebra = "1.4.0-1"
+
+["1.0.2-1"]
+Checkerboard = "1.2.0-1"

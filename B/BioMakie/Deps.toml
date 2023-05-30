@@ -32,17 +32,19 @@ GLFW = "f7f18e0c-5ee9-5ccd-a5bf-e8befd85ed98"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 
 ["0.2-0"]
-CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 FastaIO = "a0c94c4b-ebed-5953-b5fc-82fe598ac79f"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 Hyperscript = "47d2ed2b-36de-50cf-bf87-49c2cf4b8b91"
-Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
-Observables = "510215fc-4207-5dde-b226-833fc4488ee2"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.2-0.2.1"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
+Observables = "510215fc-4207-5dde-b226-833fc4488ee2"
 
 ["0.2.0"]
 CommonSubexpressions = "bbf7d656-a473-5ed7-a52c-81e309532950"
@@ -52,8 +54,10 @@ NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
 Phylo = "aea672f4-3940-5932-aa44-993d1c3ff149"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
-["0.2.1-0"]
+["0.2.1"]
 DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
+
+["0.2.1-0"]
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 FASTX = "c2308a5c-f048-11e8-3e8a-31650f418d12"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
@@ -61,3 +65,17 @@ Lazy = "50d2b5c4-7a5e-59d5-8109-a42b560f39c0"
 Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"
 MolecularGraph = "6c89ec66-9cd8-5372-9f91-fabc50dd27fd"
 PkgDeps = "839e9fc8-855b-5b3c-a3b7-2833d3dd1f59"
+
+["0.2.2-0"]
+BioAlignments = "00701ae9-d1dc-5365-b64a-a3a3ebf5695e"
+BioSequences = "7e6ae17a-c86d-528c-b3b9-7f778a29fe59"
+ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
+ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
+GLFW = "f7f18e0c-5ee9-5ccd-a5bf-e8befd85ed98"
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
+PairwiseListMatrices = "f9da4da7-9382-5435-b973-175f5d8dfb32"
+WGLMakie = "276b4fcb-3e11-5398-bf8b-a0c2d153d008"

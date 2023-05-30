@@ -1,8 +1,16 @@
 [0]
-Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 FASTX = "c2308a5c-f048-11e8-3e8a-31650f418d12"
-Gzip_jll = "be1be57a-8558-53c3-a7e5-50095f79957e"
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
 
 ["0-0.1"]
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
+
+[0-2]
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+Gzip_jll = "be1be57a-8558-53c3-a7e5-50095f79957e"
+
+[1-2]
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+
+["2.0.4-2"]
+Tar = "a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e"

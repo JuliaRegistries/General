@@ -12,24 +12,36 @@ MyterialColors = "0.2"
 ["0-0.2"]
 Documenter = "0.27"
 
-[0-1]
+[0-2]
 Highlights = "0.5"
 Parameters = "0.12"
 julia = "1.6.0-1"
 
-["0.1.1-1"]
+["0.1.1-2"]
 MyterialColors = "0.3"
 
-["0.3-1"]
+["0.3-2"]
 OrderedCollections = "1"
 ProgressLogging = "0.1"
 
-[1]
+[1-2]
 Tables = "1"
 UnicodeFun = "0.4"
 
-["1.0.3-1"]
+["1.0.3-2"]
 CodeTracking = "1"
 
-["1.0.4-1"]
+["1.0.4-1.1"]
 SnoopPrecompile = "1"
+
+["1.1-1"]
+WordTokenizers = "0.5"
+
+[2]
+AbstractTrees = "0.4"
+
+["2-2.0.2"]
+SnoopPrecompile = "1"
+
+["2.0.3-2"]
+PrecompileTools = "1"

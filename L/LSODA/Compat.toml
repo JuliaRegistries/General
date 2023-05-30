@@ -20,11 +20,16 @@ Parameters = "0.0.0-0.12"
 DiffEqBase = "6"
 
 ["0.6.2-0"]
-BinDeps = "1"
 Parameters = "0.12"
 
 ["0.6.2-0.7.0"]
 Compat = "3.13.0-3"
 
+["0.6.2-0.7.1"]
+BinDeps = "1"
+
 ["0.7.1-0"]
 Compat = "4"
+
+["0.7.3-0"]
+SciMLBase = "1.80.0-1"

@@ -1,13 +1,9 @@
-[0]
-Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
-
 ["0-0.20"]
 ValueHistories = "98cad3c8-aec3-5f06-8e41-884608649ab7"
+
+["0-0.38"]
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0-0.4"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
@@ -19,9 +15,20 @@ Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 
-["0.34-0"]
-EllipsisNotation = "da5c29d0-fa7d-589e-88eb-ea29b0a81949"
+[0-3]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.34-0.38"]
 MLUtils = "f1d291b0-491e-4a28-83b9-f70985020b54"
+
+["0.34-3"]
+EllipsisNotation = "da5c29d0-fa7d-589e-88eb-ea29b0a81949"
+
+["0.39-3"]
+Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
 
 ["0.4.5-0.4"]
 SimpleDataLoader = "c1a33df0-d483-433f-a276-d4ca0de2df57"
@@ -29,7 +36,7 @@ SimpleDataLoader = "c1a33df0-d483-433f-a276-d4ca0de2df57"
 ["0.5"]
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 
-["0.5-0"]
+["0.5-3"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 DiffRules = "b552c78f-8df3-52c6-915a-8e097449b14b"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"

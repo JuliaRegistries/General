@@ -8,16 +8,20 @@ Hyperscript = "0.0.3"
 HTTP = "0.8"
 
 [0-1]
-MsgPack = "1.1.0-1"
-Tables = "1"
 WebSockets = "1.5.0-1"
-WidgetsBase = "0.1"
-julia = "1.3.0-1"
 
 ["0-1.2.0"]
 Observables = "0.3"
 
-["0.6.12-1"]
+[0-2]
+Tables = "1"
+WidgetsBase = "0.1"
+julia = "1.3.0-1"
+
+["0-2.1"]
+MsgPack = "1.1.0-1"
+
+["0.6.12-2"]
 Hyperscript = "0.0.3-0.0.4"
 
 ["0.6.13-0"]
@@ -26,7 +30,7 @@ HTTP = "0.8-0.9"
 ["0.6.9-0"]
 AbstractTrees = "0.3"
 
-["0.6.9-1"]
+["0.6.9-2"]
 Colors = "0.12"
 
 [1]
@@ -35,7 +39,7 @@ JSON3 = "1"
 ["1-1.2.0"]
 HTTP = "0.8"
 
-["1.0.1-1"]
+["1.0.1-2"]
 CodecZlib = "0.7"
 
 ["1.2.1-1"]
@@ -53,8 +57,19 @@ Observables = "0.3-0.5"
 ["1.2.7"]
 RelocatableFolders = "0.1-0.2"
 
-["1.2.7-1"]
+["1.2.7-2"]
 Observables = "0.5.1-0.5"
 
-["1.2.8-1"]
+["1.2.8-2"]
 RelocatableFolders = ["0.1-0.2", "1"]
+
+[2]
+HTTP = "1.5.0-1"
+URIs = "1"
+
+["2.0.1-2.1"]
+Deno_jll = "1.28.0-1"
+
+["2.2-2"]
+MsgPack = "1.2.0-1"
+ThreadPools = "2"

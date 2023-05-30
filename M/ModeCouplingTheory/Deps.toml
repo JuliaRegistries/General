@@ -1,11 +1,24 @@
 [0]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.5"]
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+
+["0-0.5.0"]
 Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
 
 ["0.4-0"]
 Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
+
+["0.5.1-0"]
+LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
+
+["0.6-0"]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+["0.6.3-0"]
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"

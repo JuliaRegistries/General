@@ -6,8 +6,10 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 GaussianProcesses = "891a1506-143c-57d2-908e-e1f8e92e6de9"
 
 [0-3]
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+
+[0-4]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
@@ -26,3 +28,6 @@ Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 
 ["3.8-3"]
 RegularizationTools = "29dad682-9a27-4bc3-9c72-016788665182"
+
+[4]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"

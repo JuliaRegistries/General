@@ -57,6 +57,13 @@ Optim = "1"
 
 ["0.2.3-0"]
 CSV = "0.10"
+
+["0.2.3-0.2"]
 Distributions = "0.16.0-0.25.55"
 Mamba = "0.12.0-0.12.5"
 SpecialFunctions = "0.8-0.10"
+
+["0.3-0"]
+Distributions = "0.23-0.25"
+MambaLite = "0.1.1-0.1"
+SpecialFunctions = ["0.8-0.10", "2"]

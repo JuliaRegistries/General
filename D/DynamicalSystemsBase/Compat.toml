@@ -71,8 +71,10 @@ Reexport = "0.2"
 DelayEmbeddings = "1"
 
 ["1.4-2"]
-ForwardDiff = "0.10"
 SimpleDiffEq = "1"
+
+["1.4-3"]
+ForwardDiff = "0.10"
 
 ["1.5-2"]
 StaticArrays = ["0.10-0.12", "1"]
@@ -89,8 +91,14 @@ DelayEmbeddings = "1-2"
 [2]
 DelayEmbeddings = "2"
 
-["2.3.3-2"]
+["2.3.3-3"]
 SciMLBase = "1.19.5-1"
 
-["2.9-2"]
+["2.9-3"]
 Roots = "1-2"
+
+[3]
+OrdinaryDiffEq = "6"
+Reexport = "1"
+StateSpaceSets = "1"
+julia = "1.8.0-1"

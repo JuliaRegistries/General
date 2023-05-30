@@ -35,7 +35,7 @@ BitIntegers = "0.2"
 ["1.2.2-2"]
 PooledArrays = ["0.5", "1"]
 
-["1.6-2"]
+["1.6-2.4.1"]
 ArrowTypes = "1.1.0-1"
 
 ["2.3"]
@@ -44,3 +44,13 @@ julia = "1.4.0-1"
 ["2.4-2"]
 WorkerUtilities = "1.1.0-1"
 julia = "1.6.0-1"
+
+["2.4.1"]
+LoggingExtras = "0.4"
+
+["2.4.2-2"]
+ArrowTypes = "1.1.0-2"
+LoggingExtras = ["0.4", "1"]
+
+["2.5.1-2"]
+TranscodingStreams = "0.9.12-0.9"

@@ -1,9 +1,14 @@
 [0]
-Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
+
+["0-0.2"]
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 
 ["0.2-0"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 
 ["0.2.4-0"]
 ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
+
+["0.3-0"]
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"

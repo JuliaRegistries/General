@@ -5,9 +5,15 @@ SkyCoords = "0.0.0-0.3"
 WCS = "0.0.0-0.5"
 julia = "1"
 
-["0.3.1-0"]
+["0.3.1"]
 FITSIO = "0.15-0.16"
 Interpolations = "0.13"
+
+["0.3.1-0"]
 SkyCoords = ["0.4", "1"]
 WCS = "0.5-0.6"
 julia = "1.6.0-1"
+
+["0.3.2-0"]
+FITSIO = "0.15-0.17"
+Interpolations = "0.13-0.14"

@@ -9,7 +9,6 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 NNlibCUDA = "a00861dc-f156-4864-bf3c-e6376f28a68d"
-NeuralPDE = "315f7962-48a3-4962-8226-d0f33b1235f0"
 Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
 Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
 OptimizationOptimisers = "42dfb2eb-d2b4-4451-abcd-913932933ac1"
@@ -18,6 +17,9 @@ QuasiMonteCarlo = "8a4e6c94-4038-4cdc-81c3-7e6ffdb2a71b"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0-0.3.7"]
+NeuralPDE = "315f7962-48a3-4962-8226-d0f33b1235f0"
 
 ["0.2.2-0"]
 LRUCache = "8ac3fa9e-de4c-5943-b1dc-09c6b5f20637"
@@ -34,5 +36,18 @@ Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 ["0.3.1-0"]
 StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
 
+["0.3.13-0"]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
 ["0.3.3-0"]
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
+["0.3.8-0"]
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.4-0"]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+
+["0.4.3-0"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"

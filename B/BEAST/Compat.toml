@@ -44,27 +44,29 @@ IterativeSolvers = "0.7-0.8"
 SpecialFunctions = "0.7-0.8"
 julia = "1"
 
-["1.2-1"]
-FFTW = ["0.2.3-0.2", "1"]
-FastGaussQuadrature = "0.3-0.4"
-
 ["1.2-1.3"]
 SauterSchwabQuadrature = "2.1.0-2"
+
+["1.2-1.7"]
+FastGaussQuadrature = "0.3-0.4"
+
+["1.2-2"]
+FFTW = ["0.2.3-0.2", "1"]
 
 ["1.3"]
 BlockArrays = "0.10-0.14"
 CompScienceMeshes = "0.2.8-0.2"
 julia = "1.3.0-1"
 
-["1.3-1"]
+["1.3-1.4"]
+Compat = "2-3"
+SpecialFunctions = ["0.7-0.10", "1"]
+
+["1.3-2"]
 Combinatorics = ["0.7", "1"]
 IterativeSolvers = "0.9"
 SparseMatrixDicts = "0.2"
 StaticArrays = ["0.8.3-0.12", "1"]
-
-["1.3-1.4"]
-Compat = "2-3"
-SpecialFunctions = ["0.7-0.10", "1"]
 
 ["1.4"]
 CompScienceMeshes = "0.3.2-0.3"
@@ -72,21 +74,23 @@ FillArrays = "0.11-0.12"
 LiftedMaps = "0.2.2-0.2"
 LinearMaps = "3.5.0-3"
 
-["1.4-1"]
-BlockArrays = "0.10-0.16"
-julia = "1.6.0-1"
-
 ["1.4-1.5"]
 SauterSchwabQuadrature = "2.1.3-2"
+
+["1.4-2"]
+BlockArrays = "0.10-0.16"
+julia = "1.6.0-1"
 
 ["1.5"]
 CompScienceMeshes = "0.3.3-0.3"
 
 ["1.5-1"]
-Compat = "2-4"
-FillArrays = "0.11-0.13"
 LiftedMaps = "0.4.1-0.4"
 LinearMaps = "3.7.0-3"
+
+["1.5-2"]
+Compat = "2-4"
+FillArrays = "0.11-0.13"
 SauterSchwab3D = "0.1"
 SpecialFunctions = ["0.7-0.10", "1-2"]
 WiltonInts84 = "0.2.3-0.2"
@@ -94,9 +98,23 @@ WiltonInts84 = "0.2.3-0.2"
 ["1.6"]
 CompScienceMeshes = "0.4.1-0.4"
 
-["1.6-1"]
+["1.6-2"]
 CollisionDetection = "0.1.5-0.1"
 SauterSchwabQuadrature = "2.2.0-2"
 
-["1.7-1"]
+["1.7"]
 CompScienceMeshes = "0.5"
+
+["1.8-1"]
+ConvolutionOperators = "0.3"
+
+["1.8-2"]
+CompScienceMeshes = "0.5.1-0.5"
+FastGaussQuadrature = "0.3-0.5"
+
+[2]
+AbstractTrees = "0.4.4-0.4"
+ConvolutionOperators = "0.4"
+LiftedMaps = "0.5.1-0.5"
+LinearMaps = "3.7-3.9"
+NestedUnitRanges = "0.2"

@@ -7,11 +7,25 @@ julia = "1.6.0-1"
 DocStringExtensions = "0.8"
 
 ["0.2-0"]
-ImageAxes = "0.6"
 StructArrays = "0.6"
 
-["0.3-0"]
+["0.2-0.3"]
+ImageAxes = "0.6"
+
+["0.3"]
 FLoops = "0.2"
 
 ["0.3.2-0"]
 DocStringExtensions = "0.8-0.9"
+
+["0.4-0"]
+AxisKeys = "0.2"
+RectiGrids = "0.1"
+
+["0.4-0.4.5"]
+FillArrays = "0.12-0.13"
+SnoopPrecompile = "1"
+
+["0.4.6-0"]
+FillArrays = ["0.12-0.13", "1"]
+PrecompileTools = "1"

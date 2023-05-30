@@ -9,13 +9,15 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 TaylorSeries = "6aa5eb33-94cf-58f4-a9d0-e4b2c4fc25ea"
-UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
 ["0-0.5.4"]
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 
 ["0-0.6.2"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.9"]
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
 ["0.1.2"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
@@ -28,6 +30,12 @@ Octavian = "6fd5a793-0b7e-452c-907f-f8bfe9c57db4"
 
 ["0.1.7-0.7.0"]
 Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
+
+["0.10-0"]
+SimpleUnPack = "ce78b400-467f-4804-87d8-8f486da07d0a"
+
+["0.11.2-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["0.2-0"]
 TaylorIntegration = "92b13dbe-c966-51a2-8445-caca9f8a7d42"
@@ -42,5 +50,17 @@ PSDMatrices = "fe68d972-6fd8-4755-bdf0-97d4c54cefdc"
 ["0.7.2-0"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
-["0.8.2-0"]
+["0.8.2-0.11.1"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.9-0"]
+ExponentialUtilities = "d4d017d3-3776-5f7e-afef-a10c40355c18"
+SpecialMatrices = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
+ToeplitzMatrices = "c751599d-da0a-543b-9d20-d0a503d91d24"
+
+["0.9.2-0"]
+FastBroadcast = "7034ab61-46d4-4ed7-9d0f-46aef9175898"
+
+["0.9.3-0"]
+FunctionWrappersWrappers = "77dc65aa-8811-40c2-897b-53d922fa7daf"
+StaticArrayInterface = "0d7ed370-da01-4f52-bd93-41d350b8b718"

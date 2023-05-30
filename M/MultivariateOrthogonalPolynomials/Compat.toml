@@ -118,12 +118,12 @@ HarmonicOrthogonalPolynomials = "0.0.4-0.0.5"
 ["0.0.9-0.1.1"]
 QuasiArrays = "0.4-0.5"
 
-["0.1-0"]
-julia = "1.6.0-1"
-
 ["0.1-0.1.1"]
 ArrayLayouts = "0.6-0.7"
 ContinuumArrays = "0.7.3-0.7"
+
+["0.1-0.3"]
+julia = "1.6.0-1"
 
 ["0.1.1"]
 HarmonicOrthogonalPolynomials = ["0.0.4-0.0.5", "0.1"]
@@ -164,14 +164,14 @@ LazyArrays = "0.21.8-0.21"
 ClassicalOrthogonalPolynomials = "0.4.2-0.4"
 HarmonicOrthogonalPolynomials = "0.2"
 
-["0.1.4-0"]
-DomainSets = "0.5"
-
 ["0.1.4-0.2.1"]
 QuasiArrays = "0.6-0.7"
 
 ["0.1.4-0.2.3"]
 FillArrays = "0.11-0.12"
+
+["0.1.4-0.4.0"]
+DomainSets = "0.5"
 
 ["0.2.1-0.2.3"]
 ContinuumArrays = "0.8-0.9"
@@ -207,8 +207,6 @@ FastTransforms = "0.13"
 HarmonicOrthogonalPolynomials = "0.2.4-0.2"
 
 ["0.2.5-0"]
-FillArrays = "0.12-0.13"
-LazyArrays = "0.22.10-0.22"
 SpecialFunctions = "1-2"
 
 ["0.2.5-0.2"]
@@ -217,14 +215,57 @@ BandedMatrices = "0.16-0.17"
 ClassicalOrthogonalPolynomials = "0.5.1-0.6"
 LazyBandedMatrices = "0.7.12-0.7"
 
-["0.3-0"]
-ArrayLayouts = "0.8.6-0.8"
-BandedMatrices = "0.17"
-BlockArrays = "0.16.14-0.16"
-BlockBandedMatrices = "0.11.5-0.11"
+["0.2.5-0.3"]
+FillArrays = "0.12-0.13"
+
+["0.2.5-0.4.2"]
+LazyArrays = "0.22.10-0.22"
+
+["0.3"]
 ClassicalOrthogonalPolynomials = "0.6"
 ContinuumArrays = "0.10.2-0.11"
 FastTransforms = "0.13-0.14"
 HarmonicOrthogonalPolynomials = "0.2.7-0.2"
-InfiniteLinearAlgebra = "0.6.6-0.6"
 LazyBandedMatrices = "0.8"
+
+["0.3-0"]
+BandedMatrices = "0.17"
+BlockArrays = "0.16.14-0.16"
+InfiniteLinearAlgebra = "0.6.6-0.6"
+
+["0.3-0.4.2"]
+ArrayLayouts = "0.8.6-0.8"
+BlockBandedMatrices = "0.11.5-0.11"
+
+["0.4-0"]
+LazyBandedMatrices = "0.8.4-0.8"
+julia = "1.7.0-1"
+
+["0.4-0.4.1"]
+FastTransforms = "0.14"
+
+["0.4-0.4.2"]
+FillArrays = "0.13"
+
+["0.4.0"]
+ClassicalOrthogonalPolynomials = "0.6.9-0.6"
+ContinuumArrays = "0.11"
+HarmonicOrthogonalPolynomials = "0.3"
+
+["0.4.1-0"]
+ContinuumArrays = "0.12"
+DomainSets = "0.5-0.6"
+HarmonicOrthogonalPolynomials = "0.4"
+
+["0.4.1-0.4.2"]
+ClassicalOrthogonalPolynomials = "0.7"
+
+["0.4.2-0"]
+FastTransforms = "0.15"
+
+["0.4.3-0"]
+ArrayLayouts = ["0.8.6-0.8", "1"]
+BlockBandedMatrices = "0.11.5-0.12"
+ClassicalOrthogonalPolynomials = "0.7-0.8"
+FillArrays = ["0.13", "1"]
+LazyArrays = ["0.22.10-0.22", "1"]

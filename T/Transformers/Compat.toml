@@ -81,8 +81,6 @@ PrimitiveOneHot = "0.1.1-0.1"
 ChainRulesCore = "1.11.0-1"
 
 ["0.1.15-0"]
-Adapt = "3.3.0-3"
-BSON = "0.3.4-0.3"
 DataDeps = "0.7"
 DataStructures = "0.18"
 Fetch = "0.1.3-0.1"
@@ -90,6 +88,10 @@ NNlib = "0.8"
 NNlibCUDA = "0.2"
 Pickle = "0.3"
 PrimitiveOneHot = "0.1"
+
+["0.1.15-0.1"]
+Adapt = "3.3.0-3"
+BSON = "0.3.4-0.3"
 
 ["0.1.15-0.1.16"]
 CUDA = "3.8.0-3"
@@ -107,12 +109,14 @@ TextEncodeBase = "0.5"
 Flux = "0.13"
 
 ["0.1.17-0"]
-CUDA = "3.10.0-3"
 ChainRulesCore = "1.15.0-1"
 julia = "1.6.0-1"
 
 ["0.1.17-0.1.20"]
 DelimitedFiles = "1.6.0-1"
+
+["0.1.17-0.2.1"]
+CUDA = "3.10.0-3"
 
 ["0.1.18-0"]
 Flux = "0.13.4-0.13"
@@ -120,10 +124,12 @@ HTTP = ["0.9", "1"]
 
 ["0.1.19-0"]
 HuggingFaceApi = "0.1"
-NeuralAttentionlib = "0.1"
-Static = "0.7"
 StructWalk = "0.2"
 ValSplit = "0.1"
+
+["0.1.19-0.1"]
+NeuralAttentionlib = "0.1"
+Static = "0.7"
 
 ["0.1.19-0.1.20"]
 TextEncodeBase = "0.5.4-0.5"
@@ -137,7 +143,7 @@ CuArrays = "1.3.0-1"
 Flux = "0.10"
 ZygoteRules = "0.0.0-0.2"
 
-["0.1.2-0"]
+["0.1.2-0.1"]
 InternedStrings = "0.7"
 JSON = "0.21"
 MacroTools = "0.5"
@@ -167,9 +173,25 @@ BytePairEncoding = "0.3"
 ["0.1.22"]
 TextEncodeBase = "0.5.8-0.5"
 
+["0.1.23"]
+TextEncodeBase = "0.5.10-0.5"
+
 ["0.1.23-0"]
 FuncPipelines = "0.2.3-0.2"
-TextEncodeBase = "0.5.10-0.5"
+
+["0.1.24"]
+DoubleArrayTries = "0.0.2"
+
+["0.1.24-0"]
+StringViews = "1"
+
+["0.1.24-0.1"]
+AbstractTrees = "0.3-0.4"
+Functors = "0.2-0.3"
+TextEncodeBase = "0.5.11-0.5"
+
+["0.1.25-0.2.1"]
+DoubleArrayTries = "0.0.3"
 
 ["0.1.3"]
 CUDAnative = "2.7.0-2"
@@ -183,14 +205,18 @@ ZygoteRules = "0.2"
 HTTP = "0.8"
 
 ["0.1.4-0"]
-AbstractTrees = "0.3"
 LightXML = "0.9"
-Requires = "1"
 WordTokenizers = "0.5.6-0.5"
+
+["0.1.4-0.1"]
+Requires = "1"
 ZipFile = "0.9"
 
 ["0.1.4-0.1.14"]
 Pickle = "0.2"
+
+["0.1.4-0.1.23"]
+AbstractTrees = "0.3"
 
 ["0.1.4-0.1.5"]
 DataStructures = "0.17"
@@ -220,8 +246,31 @@ HTTP = "0.8-0.9"
 DelimitedFiles = "1.5.0-1"
 julia = "1.5.0-1"
 
-["0.1.9-0"]
-Functors = "0.2"
-
 ["0.1.9-0.1.16"]
 Flux = "0.12"
+
+["0.1.9-0.1.23"]
+Functors = "0.2"
+
+["0.2-0"]
+Functors = "0.2-0.4"
+JSON3 = "1.12.0-1"
+Static = "0.7-0.8"
+TextEncodeBase = "0.6"
+
+["0.2-0.2.2"]
+NeuralAttentionlib = "0.2.4-0.2"
+
+["0.2-0.2.3"]
+FillArrays = "0.13"
+
+["0.2.2-0"]
+CUDA = "3.10.0-4"
+DoubleArrayTries = "0.1"
+
+["0.2.3-0"]
+NeuralAttentionlib = "0.2.8-0.2"
+Zygote = "0.6.59-0.6"
+
+["0.2.4-0"]
+FillArrays = ["0.13", "1"]

@@ -15,27 +15,39 @@ Flux = "0.12-0.13"
 GraphSignals = "0.4"
 
 ["0.11-0"]
-FillArrays = "0.13"
 NNlib = "0.8"
 NNlibCUDA = "0.2"
 Optimisers = "0.2"
 
+["0.11-0.13.8"]
+FillArrays = "0.13"
+
 ["0.12"]
 GraphSignals = "0.4-0.5"
 
-["0.12-0"]
+["0.12-0.13.9"]
 StatsBase = "0.33"
 
 ["0.13-0.13.3"]
 GraphSignals = "0.6"
 
-["0.13.4-0"]
+["0.13.10-0"]
+StatsBase = "0.33-0.34"
+
+["0.13.4-0.13.7"]
 GraphSignals = "0.7"
 
 ["0.13.5-0"]
 ChainRulesCore = "1"
 MLDatasets = "0.7"
 Reexport = "1"
+
+["0.13.8-0"]
+GraphSignals = "0.7-0.8"
+
+["0.13.9-0"]
+CUDA = "3-4"
+FillArrays = ["0.13", "1"]
 
 ["0.2"]
 CUDAapi = "2.0"
@@ -163,14 +175,14 @@ julia = "1.6.0-1"
 NNlib = "0.7"
 NNlibCUDA = "0.1"
 
-["0.8-0"]
-CUDA = "3"
-
 ["0.8-0.10.0"]
 GraphSignals = "0.3"
 
 ["0.8-0.13.4"]
 ChainRulesCore = "1.7.0-1"
+
+["0.8-0.13.8"]
+CUDA = "3"
 
 ["0.8.0"]
 FillArrays = "0.12"

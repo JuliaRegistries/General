@@ -1,9 +1,6 @@
 [0]
 AbInitioSoftwareBase = "df5135bc-470e-46c6-b451-292e27ca5b84"
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
-Crystallography = "3bff3928-7a76-11e9-2089-d112443085a5"
-Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
@@ -13,7 +10,17 @@ UnitfulAtomic = "a7773ee8-282e-5fa2-be4e-bd808c38a91a"
 ["0-0.3.2"]
 AutoHashEquals = "15f4f7f2-30c1-5605-9d31-71845cf9641f"
 
-["0.3.3-0"]
+["0-0.7"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+Crystallography = "3bff3928-7a76-11e9-2089-d112443085a5"
+
+["0-0.8"]
+Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
+
+["0.10-0"]
+UnitfulEquivalences = "da9c4bc3-91c8-4f02-8a40-6b990d2a7e0c"
+
+["0.3.3-0.7"]
 StructHelpers = "4093c41a-2008-41fd-82b8-e3f9d02b504f"
 
 ["0.7-0"]
@@ -21,3 +28,10 @@ Spglib = "f761d5c5-86db-4880-b97f-9680a7cccfb5"
 
 ["0.7.3-0"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
+["0.8-0"]
+CrystallographyBase = "93b1d1cd-a8ea-4aa5-adb1-b2407ea0ba8d"
+StructEquality = "6ec83bb0-ed9f-11e9-3b4c-2b04cb4e219c"
+
+["0.9-0"]
+ChemicalFormula = "069161ab-964a-4228-89a0-7a676f2e1f46"

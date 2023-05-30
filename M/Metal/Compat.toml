@@ -3,9 +3,32 @@ Adapt = "3"
 CEnum = "0.4"
 ExprTools = "0.1"
 GPUArrays = "8.4.0-8"
+Reexport = "1"
+julia = "1.8.0-1"
+
+["0-0.1"]
 GPUCompiler = "0.16"
 LLVM = "4.13.0-4"
-Metal_LLVM_Tools_jll = "0.3"
-Reexport = "1"
 cmt_jll = "0.1"
-julia = "1.8.0-1"
+
+["0-0.3"]
+Metal_LLVM_Tools_jll = "0.3"
+
+["0.2"]
+GPUCompiler = "0.16-0.17"
+LLVM = "4.15.0-4"
+cmt_jll = "0.2"
+
+["0.3"]
+GPUCompiler = "0.19"
+
+["0.3-0"]
+KernelAbstractions = "0.9.1-0.9"
+LLVM = "5"
+ObjectiveC = "0.1"
+StaticArrays = "1"
+
+["0.4-0"]
+GPUCompiler = "0.20"
+Metal_LLVM_Tools_jll = "0.5"
+ObjectFile = "0.4"

@@ -171,20 +171,49 @@ Meshes = "0.24"
 
 ["0.28-0"]
 DensityRatioEstimation = "1"
-LossFunctions = "0.8"
 Optim = "1.7.0-1"
+
+["0.28-0.30.2"]
+LossFunctions = "0.8"
 
 ["0.28.2-0.28.6"]
 TableTransforms = "1.4.0-1"
 
-["0.28.6-0"]
+["0.28.6-0.28"]
 Meshes = "0.25"
 
-["0.28.7-0"]
+["0.28.7-0.29"]
 TableTransforms = "1.6.0-1"
+
+["0.29-0.30.0"]
+Meshes = "0.26"
 
 ["0.3-0.4"]
 Parameters = "0.7.3-0.10"
+
+["0.30-0"]
+TableTransforms = "1.9.0-1"
+
+["0.30.1"]
+Meshes = "0.27"
+
+["0.30.2-0.31.0"]
+Meshes = "0.28"
+
+["0.30.3-0.30.4"]
+LossFunctions = "0.9"
+
+["0.30.4-0"]
+StatsBase = "0.32-0.34"
+
+["0.30.5-0"]
+LossFunctions = "0.10"
+
+["0.31-0"]
+ProgressMeter = "1.7.0-1"
+
+["0.31.1-0"]
+Meshes = "0.28-0.29"
 
 ["0.4.1-0.8.2"]
 julia = "1"
@@ -241,7 +270,6 @@ SpecialFunctions = "0.7"
 MLJBase = "0.8"
 
 ["0.8-0"]
-StatsBase = "0.32-0.33"
 Tables = "1"
 
 ["0.8-0.10"]
@@ -258,6 +286,9 @@ Distributions = "0.21-0.23"
 
 ["0.8-0.24.5"]
 DensityRatioEstimation = "0.4"
+
+["0.8-0.30.3"]
+StatsBase = "0.32-0.33"
 
 ["0.8-0.8.2"]
 RecipesBase = "0.7-0.8"

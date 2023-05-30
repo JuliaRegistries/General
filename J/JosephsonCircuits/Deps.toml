@@ -5,7 +5,16 @@ KLU = "ef3ab10e-7fda-4108-b977-705223b18434"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+
+["0-0.2"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.1.6-0"]
+AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
+
+["0.3-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"

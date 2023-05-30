@@ -1,8 +1,6 @@
 [0]
 BijectiveHilbert = "91e7fc40-53cd-4118-bd19-d7fcd1de2a54"
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
-DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
-DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
@@ -21,9 +19,21 @@ PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 
+["0-0.6.2"]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+
+["0-0.6.3"]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+
 ["0.5-0"]
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
 ["0.6-0"]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
+["0.6.3-0"]
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
+["0.6.4-0"]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"

@@ -3,11 +3,13 @@ CommonSolve = "0.1-0.2"
 Parameters = "0.12"
 Reexport = ["0.2", "1"]
 Requires = ["0.5", "1"]
-julia = "1.5.0-1"
 
 ["0-0.1"]
 LazySets = "1.46.0-1"
 MathematicalSystems = "0.11"
+
+["0-0.2"]
+julia = "1.5.0-1"
 
 ["0-0.2.1"]
 ReachabilityAnalysis = "0.14.5-0.18"
@@ -20,3 +22,8 @@ ReachabilityAnalysis = "0.14.5-0.21"
 
 ["0.2.4-0"]
 ReachabilityBase = "0.1.1-0.1"
+
+["0.3-0"]
+ControllerFormats = "0.1"
+LazySets = "2.7.6-2"
+julia = "1.6.0-1"

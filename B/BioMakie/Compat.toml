@@ -1,5 +1,4 @@
 [0]
-DelimitedFiles = "1"
 TableTraitsUtils = "1"
 julia = "1"
 
@@ -31,6 +30,9 @@ BioStructures = "0.11"
 FileIO = "1.4.0-1"
 Parameters = "0.12"
 
+["0-0.2.1"]
+DelimitedFiles = "1"
+
 ["0.2-0"]
 Colors = "0.12"
 Distances = "0.10"
@@ -61,26 +63,49 @@ Phylo = "0.4"
 SplitApplyCombine = "1.1.0-1"
 TensorCast = "0.3-0.4"
 
-["0.2.1-0"]
+["0.2.1"]
 BioStructures = "1"
 CUDA = "2-3"
-DataStructures = "0.18"
 Distributions = "0.25"
 Documenter = "0.27"
 DocumenterTools = "0.1"
 FASTX = "1.2.0-1"
-FileIO = "1"
 GLMakie = "0.6"
-GeometryBasics = "0.4"
-Graphs = "1"
 HTTP = "0.9"
 JSServe = "1"
-Lazy = "0.15"
 Literate = "2"
 MIToS = "2.9.0-2"
 Meshes = "0.22"
 MolecularGraph = "0.11"
 Observables = "0.5"
+
+["0.2.1-0"]
+DataStructures = "0.18"
+FileIO = "1"
+GeometryBasics = "0.4"
+Graphs = "1"
+Lazy = "0.15"
 PkgDeps = "0.6"
 SplitApplyCombine = "1.2.0-1"
 TensorCast = "0.4"
+
+["0.2.2-0"]
+BioAlignments = "2-3"
+BioSequences = "2-3"
+BioStructures = "1-2"
+ColorSchemes = "3"
+ColorTypes = "0.11"
+FASTX = "1.2.0-2"
+GLFW = "3"
+GLMakie = "0.8"
+HTTP = "1"
+ImageCore = "0.9"
+JSON3 = "1"
+JSServe = "2"
+MIToS = "2"
+Makie = "0.19"
+Meshes = "0.27-0.28"
+MolecularGraph = "0.13-0.14"
+NamedArrays = "0.9"
+PairwiseListMatrices = "0.11"
+WGLMakie = "0.8"

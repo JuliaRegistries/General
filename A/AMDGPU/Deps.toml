@@ -8,8 +8,10 @@ GPUCompiler = "61eb1bfa-7361-4325-ad38-22787b887f55"
 LLVM = "929cbde3-209d-540e-8aea-75f648917ca0"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+
+["0-0.4.8"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.2.10-0"]
 HIP_jll = "2696aab5-0948-5276-aa9a-2a86a37016b8"
@@ -47,3 +49,12 @@ Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 ["0.4.3-0"]
 rocBLAS_jll = "1ef8cab2-a151-54b4-a57f-5fbb4046a4ab"
 rocSPARSE_jll = "8c6ce2ba-659c-5ec7-ba4c-37596cf1f22a"
+
+["0.4.6-0"]
+MsgPack = "99f44e22-a591-53d1-9472-aa23ef4bd671"
+ObjectFile = "d8793406-e978-5875-9003-1fc021f44a92"
+TimespanLogging = "a526e669-04d3-4846-9525-c66122c55f63"
+
+["0.4.9-0"]
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+UnsafeAtomicsLLVM = "d80eeb9a-aca5-4d75-85e5-170c8b632249"

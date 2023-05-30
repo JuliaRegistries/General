@@ -1,17 +1,26 @@
 [0]
-Delaunay = "1.2.0-1"
 Dierckx = "0.5"
 GeometryBasics = "0.4"
 Parameters = "0.12"
-PyCall = "1.93.0-1"
-SciPy = "0.1"
 julia = "1"
 
 ["0-0.1.1"]
 Makie = "0.17.8-0.17"
 
+["0-0.1.3"]
+Delaunay = "1.2.0-1"
+PyCall = "1.93.0-1"
+SciPy = "0.1"
+
 ["0.1.1-0"]
 ScatteredInterpolation = "0.3.6-0.3"
 
-["0.1.2-0"]
+["0.1.2"]
 Makie = "0.17.8-0.18"
+
+["0.1.3-0"]
+Makie = "0.17.8-0.19"
+
+["0.1.4-0"]
+CloughTocher2DInterpolation = "0.1"
+Delaunator = "0.1"

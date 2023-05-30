@@ -1,18 +1,30 @@
 [0]
-CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
 Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-HypothesisTests = "09f84164-cd44-5f33-b23f-e6b0d136a0d5"
 ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
-LIBSVM = "b1bec4e5-fd48-53fe-b0cb-9723c09d164b"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0-0.1.15"]
+LIBSVM = "b1bec4e5-fd48-53fe-b0cb-9723c09d164b"
 XGBoost = "009559a3-9522-5dbb-924b-0b6ed2b22bb9"
+
+["0-0.1.18"]
+HypothesisTests = "09f84164-cd44-5f33-b23f-e6b0d136a0d5"
+
+["0-0.1.6"]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+
+["0.1.16-0"]
+DecisionTree = "7806a523-6efd-50cb-b5f6-3fa6f1930dbb"
+
+["0.1.7-0"]
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"

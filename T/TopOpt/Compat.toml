@@ -1,6 +1,5 @@
 [0]
 Einsum = "0.4"
-ForwardDiff = "0.10"
 GeometryTypes = "0.8"
 IterativeSolvers = "0.9"
 JSON = "0.21"
@@ -46,6 +45,9 @@ GeometryBasics = "0.3"
 ["0-0.5.2"]
 Setfield = "0.7"
 StatsFuns = "0.9"
+
+["0-0.7.2"]
+ForwardDiff = "0.10"
 
 ["0.4.1"]
 Nonconvex = "0.2-0.3"
@@ -103,3 +105,9 @@ JuliaFormatter = "1"
 Nonconvex = "2"
 NonconvexMMA = "1"
 Setfield = ["0.7-0.8", "1"]
+
+["0.7-0"]
+ColorSchemes = "3"
+
+["0.7.3-0"]
+ForwardDiff = "0.0.0-0.10.34"

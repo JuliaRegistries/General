@@ -2,35 +2,39 @@
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [0-1]
-DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
-Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 
 ["0-1.50"]
 DiffEqSensitivity = "41bf760c-e81c-5289-8e54-58b1f1f8abe2"
 
-["0.4-1"]
+[0-2]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
+["0.4-2"]
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 
 ["0.5-1"]
-Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["0.6-1"]
+["0.5-2"]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+
+["0.6-2"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.7-1.26"]
 Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 
-[1]
+[1-2]
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 
-["1.13-1"]
+["1.13-2"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
-["1.18-1"]
+["1.18-2"]
 DistributionsAD = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
 
 ["1.2-1"]
@@ -45,7 +49,7 @@ UnsafeArrays = "c4a57d5a-5b31-53a6-b365-19f8c011fbd6"
 ["1.2-1.7.0"]
 Juno = "e5e0dc1b-0480-54bc-9374-aad01c23163d"
 
-["1.21-1"]
+["1.21-2"]
 ConsoleProgressMonitor = "88cd18e8-d9cc-4ea6-8889-5259c0d15c8b"
 LoggingExtras = "e6f89c97-d47a-5376-807f-9c37f3926c36"
 TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
@@ -53,20 +57,22 @@ TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
 ["1.24-1.47"]
 GalacticOptim = "a75be94c-b780-496d-a8a9-0878b188d577"
 
-["1.31-1"]
+["1.31-2"]
 DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
 
 ["1.39-1"]
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+
+["1.39-2"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["1.40-1"]
 Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
 
-["1.43-1"]
+["1.43-2"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
-["1.44-1"]
+["1.44-2"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 ["1.45-1"]
@@ -88,20 +94,26 @@ Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
 ["1.5-1.26"]
 ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 
-["1.51-1"]
+["1.51-2"]
 SciMLSensitivity = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
 
-["1.52-1"]
+["1.52-2"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 
-["1.7-1"]
+["1.54-2"]
+Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
+
+["1.7-2"]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
-["1.7.1-1"]
+["1.7.1-2"]
 ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
-
-["1.8-1"]
-Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 ["1.8-1.26"]
 BlackBoxOptim = "a134a8b2-14d6-55f6-9291-3336d3ab0209"
+
+["1.8-2"]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[2]
+LuxCore = "bb33d45b-7691-41d6-9220-0943567d0623"

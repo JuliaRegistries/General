@@ -64,6 +64,8 @@ FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 
 ["5.30-6"]
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
+
+["5.30-6.49.0"]
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
 ["5.40-6"]
@@ -87,14 +89,14 @@ PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
 [6]
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 
-["6.12-6"]
+["6.12-6.44"]
 ArrayInterfaceGPUArrays = "6ba088a2-8465-4c0a-af30-387133b534db"
 ArrayInterfaceStaticArrays = "b0d46f97-bff5-4637-a19a-dd75974142cd"
 
 ["6.15-6"]
 FastBroadcast = "7034ab61-46d4-4ed7-9d0f-46aef9175898"
 
-["6.21-6"]
+["6.21-6.50"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 
 ["6.22-6"]
@@ -103,12 +105,39 @@ FunctionWrappersWrappers = "77dc65aa-8811-40c2-897b-53d922fa7daf"
 ["6.27-6"]
 Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 
-["6.29-6"]
+["6.29-6.44"]
 ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
 ArrayInterfaceStaticArraysCore = "dd5226c6-a4d4-4bc7-8575-46859f9c95b9"
 
-["6.5-6"]
+["6.32-6"]
+SimpleNonlinearSolve = "727e6d20-b764-4bd8-a329-72de5adea6c7"
+
+["6.36-6"]
 NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
+SciMLNLSolve = "e9a6253c-8580-4d32-9898-8661bb511710"
+
+["6.46-6"]
+IfElse = "615f187c-cbe4-4ef1-ba3b-2fcf58d6d173"
+
+["6.47-6"]
+StaticArrayInterface = "0d7ed370-da01-4f52-bd93-41d350b8b718"
+
+["6.48-6"]
+TruncatedStacktraces = "781d530d-4396-4725-bb49-402e4bee1e77"
+
+["6.49.1-6"]
+SimpleUnPack = "ce78b400-467f-4804-87d8-8f486da07d0a"
+
+["6.5-6.31"]
+NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
+
+["6.51-6"]
+LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["6.52-6"]
+ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
+SciMLOperators = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
 
 ["6.7-6"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"

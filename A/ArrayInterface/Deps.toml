@@ -7,7 +7,7 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 [1-5]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
-[1-6]
+[1-7]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 [3-6]
@@ -21,3 +21,12 @@ Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
 [6]
 ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
+
+["6.0.25-7.4.3"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+[7]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"

@@ -17,6 +17,9 @@ Distributions = "0.22"
 ["0-0.8"]
 MacroTools = "0.5"
 
+["0.10-0"]
+ReinforcementLearningBase = "0.12"
+
 ["0.2"]
 ReinforcementLearningBase = "0.6"
 
@@ -56,9 +59,6 @@ Distributions = "0.22-0.23"
 ReinforcementLearningBase = "0.7"
 Setfield = "0.6"
 
-["0.3-0"]
-StatsBase = "0.32-0.33"
-
 ["0.3-0.5"]
 BSON = "0.2"
 
@@ -67,6 +67,9 @@ JLD = "0.10"
 
 ["0.3-0.7"]
 ImageTransformations = "0.8"
+
+["0.3-0.9.2"]
+StatsBase = "0.32-0.33"
 
 ["0.3.2-0.3"]
 Adapt = "1-2"
@@ -136,20 +139,19 @@ ReinforcementLearningBase = "0.9"
 ["0.6.2-0.8"]
 Zygote = "0.5-0.6"
 
-["0.7-0"]
-Functors = "0.1-0.2"
-
 ["0.7-0.8"]
 Adapt = "2-3"
 
 ["0.7-0.8.0"]
 FillArrays = "0.8-0.11"
 
+["0.7-0.9.0"]
+Functors = "0.1-0.2"
+
 ["0.7.4-0.8"]
 Compat = "3"
 
 ["0.8-0"]
-Distributions = "0.24-0.25"
 julia = "1.6.0-1"
 
 ["0.8-0.8.10"]
@@ -160,6 +162,9 @@ UnicodePlots = "1.3.0-1"
 
 ["0.8-0.8.4"]
 CUDA = "3"
+
+["0.8-0.9.0"]
+Distributions = "0.24-0.25"
 
 ["0.8.1-0.8.3"]
 GPUArrays = "5-7"
@@ -173,24 +178,28 @@ ArrayInterface = "3-5"
 ["0.8.11"]
 Flux = "0.12.9-0.12"
 
-["0.8.12-0.8"]
+["0.8.12"]
 ArrayInterface = "3-6"
 Flux = "0.12.9-0.13"
 
+["0.8.13-0.8"]
+ArrayInterface = "3-5"
+Flux = "0.12.9-0.12"
+
 ["0.8.2-0.8.9"]
 ArrayInterface = "3"
-
-["0.8.4-0"]
-UnicodePlots = "1.3.0-2"
 
 ["0.8.4-0.8"]
 GPUArrays = "5-8"
 Setfield = "0.6-0.8"
 
-["0.8.5-0"]
+["0.8.4-0.9.0"]
+UnicodePlots = "1.3.0-2"
+
+["0.8.5-0.9.0"]
 CUDA = "3.5.0-3"
 
-["0.8.9-0"]
+["0.8.9-0.9.2"]
 FillArrays = "0.8-0.13"
 
 ["0.9-0"]
@@ -199,5 +208,29 @@ ChainRulesCore = "1"
 Flux = "0.13"
 Parsers = "2"
 Reexport = "1"
+
+["0.9.0"]
 ReinforcementLearningBase = "0.10"
 ReinforcementLearningTrajectories = "0.1"
+
+["0.9.1"]
+ReinforcementLearningBase = "0.10-0.11"
+
+["0.9.1-0"]
+AbstractTrees = "0.3-0.4"
+CUDA = "4"
+Crayons = "4"
+Distributions = "0.25"
+Functors = "0.1-0.4"
+ReinforcementLearningTrajectories = "0.1.9-0.1"
+UnicodePlots = "1.3.0-3"
+
+["0.9.2-0.9.3"]
+ReinforcementLearningBase = "0.11"
+
+["0.9.3-0"]
+FillArrays = ["0.8-0.13", "1"]
+StatsBase = "0.32-0.34"
+
+["0.9.4-0.9"]
+ReinforcementLearningBase = "0.11.1-0.11"

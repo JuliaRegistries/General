@@ -72,9 +72,6 @@ NeXLCore = "0.2.3-0.2"
 NeXLMatrixCorrection = "0.2.3-0.2"
 NeXLUncertainties = "0.2.2-0.2"
 
-["0.2.2-0"]
-LsqFit = "0.12"
-
 ["0.2.2-0.2.3"]
 Formatting = "0.4.2-0.4"
 
@@ -88,6 +85,9 @@ Reexport = ["0.2", "1"]
 
 ["0.2.2-0.3.2"]
 Interpolations = "0.13"
+
+["0.2.2-0.3.3"]
+LsqFit = "0.12"
 
 ["0.2.3"]
 Distributions = "0.23"
@@ -192,12 +192,32 @@ ThreadsX = "0.1.8-0.1"
 TimeZones = "1.6.0-1"
 Unitful = "1.9.0-1"
 
-["0.3.3-0"]
-CubicSplines = "0.2"
+["0.3.3"]
 FourierTools = "0.3.3-0.3"
 Interpolations = "0.13-0.14"
 NeXLCore = "0.3.5-0.3"
 NeXLMatrixCorrection = "0.3.3-0.3"
 NeXLUncertainties = "0.2.10-0.2"
+
+["0.3.3-0"]
+CubicSplines = "0.2"
 Polynomials = "3"
 Procrastinate = "0.1"
+
+["0.3.4"]
+NeXLCore = "0.3.6-0.3"
+NeXLMatrixCorrection = "0.3.4-0.3"
+
+["0.3.4-0"]
+FourierTools = "0.3.3-0.4"
+Interpolations = "0.14"
+LsqFit = "0.12-0.13"
+NeXLUncertainties = "0.2.11-0.2"
+
+["0.3.5"]
+NeXLCore = "0.3.7-0.3"
+NeXLMatrixCorrection = "0.3.5-0.3"
+
+["0.3.6-0"]
+NeXLCore = "0.3.10-0.3"
+NeXLMatrixCorrection = "0.3.9-0.3"

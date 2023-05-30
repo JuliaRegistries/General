@@ -1,12 +1,14 @@
 [0]
 Adapt = "3"
 BlockArrays = "0.16"
-CUDA = "3"
 ForwardDiff = "0.10"
 GaussQuadrature = "0.5"
 RecursiveArrayTools = "2"
 StaticArrays = "1"
 UnPack = "1"
+
+["0-0.10.27"]
+CUDA = "3"
 
 ["0-0.2"]
 Plots = "1"
@@ -33,12 +35,35 @@ DataStructures = "0.18"
 ["0.10-0.10.17"]
 ClimaComms = "0.3"
 
-["0.10.10-0"]
+["0.10.10-0.10.21"]
 Static = "0.4-0.7"
 
 ["0.10.18-0"]
-ClimaComms = "0.3.1-0.3"
 julia = "1.8.0-1"
+
+["0.10.18-0.10.31"]
+ClimaComms = "0.3.1-0.3"
+
+["0.10.22-0"]
+Static = "0.4-0.8"
+
+["0.10.28"]
+CUDA = "3-4"
+
+["0.10.29-0.10.30"]
+CUDA = "3"
+
+["0.10.31-0.10.34"]
+CUDA = "3-4"
+
+["0.10.32"]
+ClimaComms = "0.3"
+
+["0.10.33-0"]
+ClimaComms = "0.4.2-0.4"
+
+["0.10.35-0"]
+CUDA = ["3", "4.2.0-4"]
 
 ["0.10.6-0"]
 DocStringExtensions = "0.8-0.9"

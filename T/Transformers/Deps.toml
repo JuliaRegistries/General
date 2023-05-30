@@ -3,8 +3,6 @@ BytePairEncoding = "a4280ba5-8788-555a-8ca8-4a8c3d966a71"
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
-InternedStrings = "7d512f48-7fb1-5a58-b986-67e6dc259f01"
-JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 LightXML = "9c8b4983-aa76-5018-a973-4c85ecc9e179"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 WordTokenizers = "796a5d58-b03d-544a-977e-18100b691f6e"
@@ -12,6 +10,10 @@ WordTokenizers = "796a5d58-b03d-544a-977e-18100b691f6e"
 ["0-0.0.3"]
 CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
 CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
+
+["0-0.1"]
+InternedStrings = "7d512f48-7fb1-5a58-b986-67e6dc259f01"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 
 ["0-0.1.0"]
 NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
@@ -22,18 +24,20 @@ ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
 ["0.0.2-0"]
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 
-["0.0.6-0"]
+["0.0.6-0.1"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.1.1-0"]
-BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
-Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+
+["0.1.1-0.1"]
+BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
 
 ["0.1.14-0"]
@@ -64,10 +68,25 @@ ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
 CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 
+["0.1.24-0"]
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+DoubleArrayTries = "abbaa0e5-f788-499c-92af-c35ff4258c82"
+StringViews = "354b36f9-a18e-4713-926e-db85100087ba"
+
 ["0.1.4-0"]
-AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
 Pickle = "fbb45041-c46e-462f-888f-7c521cafbc2c"
 SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
+
+["0.1.4-0.1"]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+
+["0.2-0"]
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
+
+["0.2.3-0"]
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"

@@ -56,8 +56,14 @@ CSV = "0.4-0.10"
 SpecialFunctions = ["0.8-0.10", "1-2"]
 
 ["0.3.4-0"]
-PhyloNetworks = "0.11-0.15"
 StatsFuns = ["0.7-0.9", "1"]
+
+["0.3.4-0.4"]
+PhyloNetworks = "0.11-0.15"
 
 ["0.4-0"]
 PhyloCoalSimulations = ["0.1", "1"]
+
+["0.5-0"]
+PhyloNetworks = "0.16"
+StaticArrays = ["0.9-0.12", "1"]

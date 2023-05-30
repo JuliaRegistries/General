@@ -1,22 +1,40 @@
 [0]
-DelimitedFiles = "1.4.0-1"
-Documenter = "0.25"
 DocumenterTools = "0.1"
-FITSIO = "0.16"
-ProgressMeter = "1.3.0-1"
-Unitful = "1.3.0-1"
-julia = "1.4.0-1"
 
 ["0-0.2"]
 SPHKernels = "1.2.0-1"
 TriangularShapedCloudInterpolation = "0.1"
 
+["0-0.3"]
+DelimitedFiles = "1.4.0-1"
+Documenter = "0.25"
+FITSIO = "0.16"
+ProgressMeter = "1.3.0-1"
+Unitful = "1.3.0-1"
+julia = "1.4.0-1"
+
 ["0.2.2-0.2.4"]
 SpecialFunctions = "0.10"
 
-["0.2.5-0"]
+["0.2.5-0.3"]
 SpecialFunctions = ["0.10", "1"]
 
-["0.3-0"]
+["0.3"]
 SPHKernels = "1.3.0-1"
 TriangularShapedCloudInterpolation = "0.2"
+
+["0.4-0"]
+Cosmology = "1"
+Documenter = "0.25-0.27"
+FITSIO = "0.16-0.17"
+GadgetIO = "0.5-0.7"
+GadgetUnits = "0.2-0.3"
+Healpix = "4"
+ProgressMeter = "1"
+QuadGK = "2"
+Rotations = "1"
+SPHKernels = "2"
+SnoopPrecompile = "1-2"
+SpecialFunctions = ["0.1", "1-2"]
+Unitful = "1"
+julia = "1.7.0-1"

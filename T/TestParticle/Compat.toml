@@ -10,6 +10,23 @@ SpecialFunctions = "1.5.0-1"
 
 ["0.2-0"]
 Interpolations = "0.14"
-Meshes = "0.22-0.25"
-SnoopPrecompile = "1"
 SpecialFunctions = "1.5.0-2"
+
+["0.2-0.2.3"]
+SnoopPrecompile = "1"
+
+["0.2.0"]
+Meshes = "0.22-0.25"
+
+["0.2.1-0.2.2"]
+Meshes = ["0.24", "0.26"]
+
+["0.2.2-0"]
+Distributions = "0.25"
+
+["0.2.3"]
+Meshes = ["0.24", "0.26-0.27"]
+
+["0.2.4-0"]
+Meshes = ["0.24", "0.26-0.28"]
+PrecompileTools = "1"

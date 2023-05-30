@@ -9,7 +9,6 @@ Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 ModernGL = "66fc600b-dfda-50eb-8b99-91cfa97b1301"
 Observables = "510215fc-4207-5dde-b226-833fc4488ee2"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0-0.0.1"]
@@ -43,6 +42,9 @@ IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
 ["0-0.2"]
 AbstractPlotting = "537997a7-5e4e-5d89-9595-2241ea00577e"
 
+["0-0.8.0"]
+Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+
 ["0.0"]
 GeometryTypes = "4d00f742-c7ba-57c2-abde-4428a4b178cb"
 
@@ -65,5 +67,8 @@ FreeTypeAbstraction = "663a7486-cb36-511b-a19d-713bb74d65c9"
 ["0.3-0"]
 Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
 
-["0.7-0"]
+["0.7-0.8.4"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.8.5-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

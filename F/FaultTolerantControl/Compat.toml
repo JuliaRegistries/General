@@ -20,10 +20,12 @@ Reexport = "1"
 FlightSims = "0.8"
 
 ["0.3-0"]
-ComponentArrays = "0.11"
 FlightSims = "1"
 MatrixEquations = "2.1.0-2"
 Reexport = "1.2.0-1"
+
+["0.3-0.3.2"]
+ComponentArrays = "0.11"
 
 ["0.3.0"]
 SCS = "0.8"
@@ -31,3 +33,8 @@ SCS = "0.8"
 ["0.3.1-0"]
 Mosek = "1.2.0-1"
 MosekTools = "0.11"
+
+["0.3.3-0"]
+ComponentArrays = "0.13"
+ControlSystems = "1.7.0-1"
+NumericalIntegration = "0.3"

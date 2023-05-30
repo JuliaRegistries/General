@@ -6,6 +6,13 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 ["0-0.7"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0.14-0"]
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+MakieCore = "20f20a25-4f0e-4fdf-b5d1-57303727442b"
+
 ["0.3-0"]
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 
@@ -27,9 +34,13 @@ Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 ["0.7-0"]
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-Unmarshal = "cbff2730-442d-58d7-89d1-8e530c41eb02"
 libinchi_jll = "172afb32-8f1c-513b-968f-184fcd77af72"
+
+["0.7-0.14.0"]
+Unmarshal = "cbff2730-442d-58d7-89d1-8e530c41eb02"
 
 ["0.8-0"]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+
+["0.8-0.13"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"

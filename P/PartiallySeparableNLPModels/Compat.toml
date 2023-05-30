@@ -1,8 +1,4 @@
 [0]
-ADNLPModels = "0.3.1-0.3"
-NLPModels = "0.17.2-0.17"
-NLPModelsJuMP = "0.8.3-0.8"
-ReverseDiff = "1.12.0-1"
 julia = "1.6.0-1"
 
 ["0-0.1"]
@@ -12,8 +8,48 @@ MathOptInterface = "0.9.22-0.9"
 ModelingToolkit = "3.20.1-3"
 PartitionedStructures = "0.1"
 
-["0.2-0"]
+["0-0.2"]
+ADNLPModels = "0.3.1-0.3"
+NLPModels = "0.17.2-0.17"
+NLPModelsJuMP = "0.8.3-0.8"
+ReverseDiff = "1.12.0-1"
+
+["0.2"]
 ExpressionTreeForge = "0.1.2-0.1"
+PartitionedStructures = "0.1.3-0.1"
+
+["0.2-0"]
 ForwardDiff = "0.10.30-0.10"
 LinearOperators = "2.3.2-2"
-PartitionedStructures = "0.1.3-0.1"
+
+["0.3-0"]
+ADNLPModels = "0.4"
+FastClosures = "0.3.2-0.3"
+JSOSolvers = "0.9.3-0.9"
+Krylov = "0.9"
+NLPModels = "0.19.2-0.19"
+NLPModelsJuMP = "0.11.1-0.11"
+ReverseDiff = "1.14.1-1"
+SolverTools = "0.8.1-0.8"
+
+["0.3-0.3.1"]
+ExpressionTreeForge = "0.1.3-0.1"
+
+["0.3-0.3.2"]
+PartitionedStructures = "0.1.4-0.1"
+PartitionedVectors = "0.1.1-0.1"
+
+["0.3-0.3.4"]
+NLPModelsModifiers = "0.6.2-0.6"
+
+["0.3.2-0.3.4"]
+ExpressionTreeForge = "0.1.4-0.1"
+
+["0.3.3-0"]
+PartitionedStructures = "0.1.5-0.1"
+PartitionedVectors = "0.1.2-0.1"
+
+["0.3.5-0"]
+ExpressionTreeForge = "0.1.6-0.1"
+MathOptInterface = "1.13.2-1"
+NLPModelsModifiers = "0.6.3-0.6"

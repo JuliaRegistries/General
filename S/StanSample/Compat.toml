@@ -19,11 +19,11 @@ CSV = "0.0.0-0.5"
 DelimitedFiles = "1.3.0-1"
 julia = "1.3.0-1"
 
-[1-6]
-julia = "1"
-
 ["1-6.9.3"]
 DelimitedFiles = "1"
+
+["1-7.1"]
+julia = "1"
 
 ["1.0"]
 StanBase = "1"
@@ -156,7 +156,7 @@ MonteCarloMeasurements = "0.9-0.10"
 ["3.1-3"]
 Tables = "1.4.0-1"
 
-["3.1-6"]
+["3.1-7"]
 TableOperations = "1"
 
 ["3.1.0"]
@@ -198,7 +198,7 @@ Reexport = "1"
 ["4.0.1-4.0.2"]
 CSV = "0.8"
 
-["4.0.1-6"]
+["4.0.1-7"]
 OrderedCollections = "1.4.0-1"
 Tables = "1.5.0-1"
 
@@ -211,7 +211,7 @@ CSV = "0.8-0.9"
 ["4.1-4.2"]
 CSV = "0.9"
 
-["4.1-6"]
+["4.1-6.11"]
 MonteCarloMeasurements = "1"
 
 ["4.2-4.3"]
@@ -224,11 +224,11 @@ CSV = ["0.9", "1"]
 [5]
 DataFrames = "1.2.0-1"
 
-[5-6]
-Parameters = "0.12"
-
 ["5-6.5"]
 StanDump = "0.2"
+
+[5-7]
+Parameters = "0.12"
 
 ["5.0"]
 CSV = ["0.9", "1"]
@@ -245,16 +245,11 @@ CSV = "0.9"
 ["5.2-5"]
 StanBase = "3.2.0-3"
 
-["5.2.1-6"]
+["5.2.1-7"]
 Reexport = "1.2.0-1"
 
 ["5.5-5"]
 CSV = "0.9-0.10"
-
-[6]
-CSV = "0.10"
-DataFrames = "1.3.0-1"
-Requires = "1.3.0-1"
 
 ["6-6.1"]
 JSON3 = "1.9.0-1"
@@ -262,19 +257,39 @@ JSON3 = "1.9.0-1"
 ["6-6.4"]
 StanBase = "4"
 
+[6-7]
+CSV = "0.10"
+DataFrames = "1.3.0-1"
+Requires = "1.3.0-1"
+
 ["6.10.1"]
 MCMCChains = "5.3.0-5"
 
-["6.10.2-6"]
-DelimitedFiles = "1.8.0-1"
-DocStringExtensions = "0.9"
+["6.10.2-6.11"]
 MCMCChains = "5.4.0-5"
 
-["6.11.4-6"]
-InferenceObjects = "0.2.2-0.2"
+["6.10.2-7"]
+DelimitedFiles = "1.8.0-1"
+
+["6.10.2-7.0.3"]
+DocStringExtensions = "0.9"
+
+["6.11.4-6.11.5"]
 PosteriorDB = "0.1"
 
-["6.2-6"]
+["6.11.4-6.13.0"]
+InferenceObjects = "0.2.2-0.2"
+
+["6.11.6"]
+PosteriorDB = "0.2"
+
+["6.11.7-6.11"]
+PosteriorDB = "0.2-0.3"
+
+["6.13.1-6.13.6"]
+InferenceObjects = "0.2"
+
+["6.2-7"]
 JSON = "0.21"
 
 ["6.2.1-6.6"]
@@ -287,23 +302,45 @@ NamedTupleTools = "0.13-0.14"
 StanBase = "4.5.0-4"
 StatsFuns = ["0.8-0.9", "1"]
 
-["6.6-6"]
-NamedTupleTools = "0.14"
-
 ["6.6-6.10.1"]
 DocStringExtensions = "0.8-0.9"
+
+["6.6-7"]
+NamedTupleTools = "0.14"
 
 ["6.7"]
 StatsFuns = "1"
 
-["6.7-6"]
-CompatHelperLocal = "0.1"
-
 ["6.7-6.9.0"]
 StanBase = "4.7.0-4"
+
+["6.7-7"]
+CompatHelperLocal = "0.1"
 
 ["6.9.1"]
 StanBase = "4.7.1-4"
 
-["6.9.2-6"]
+["6.9.2-7.2.0"]
 StanBase = "4.7.0-4"
+
+["7.0.4-7"]
+DocStringExtensions = "0.8-0.9"
+
+["7.2"]
+BridgeStan = "1.0.1-1"
+
+["7.2-7"]
+AxisKeys = "0.2"
+InferenceObjects = "0.3.2-0.3"
+LazyArtifacts = "1.3.0-1"
+MonteCarloMeasurements = "1"
+julia = "1.8.0-1"
+
+["7.2-7.2.1"]
+MCMCChains = "5.6.0-5"
+
+["7.2.1-7"]
+StanBase = "4.7.6-4"
+
+["7.2.2-7"]
+MCMCChains = "5.6.0-6"

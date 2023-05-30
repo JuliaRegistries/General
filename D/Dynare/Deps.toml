@@ -26,8 +26,10 @@ RuntimeGeneratedFunctions = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
-TimeDataFrames = "ff13af16-2f41-468a-a2e1-aff5c43aabf7"
 Tokenize = "0796e94c-ce3b-5d07-9a54-7f471281c624"
+
+["0-0.6"]
+TimeDataFrames = "ff13af16-2f41-468a-a2e1-aff5c43aabf7"
 
 ["0.3-0"]
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
@@ -38,3 +40,36 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 ["0.5.7-0"]
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+
+["0.6"]
+AdvancedMH = "5b7e9947-ddc0-4b3f-9b55-0d8042f74170"
+
+["0.6-0"]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+DynamicHMC = "bbc10e6e-7c05-544b-b16e-64fede858acb"
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
+KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
+LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
+MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
+
+["0.6.1-0"]
+TransformedLogDensities = "f9bc47f6-f3f8-4f3b-ab21-f8bc73906f26"
+
+["0.7-0"]
+AbstractMCMC = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
+AxisArrayTables = "af8da316-43a4-49f0-bd76-7de0cd630fd6"
+MCMCDiagnosticTools = "be115224-59cd-429b-ad48-344e309966f0"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+
+["0.7.2-0"]
+ProximalOperators = "a725b495-10eb-56fe-b38b-717eba820537"
+
+["0.7.4-0"]
+AdvancedMH = "5b7e9947-ddc0-4b3f-9b55-0d8042f74170"

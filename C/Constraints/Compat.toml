@@ -26,12 +26,24 @@ ConstraintDomains = "0.1"
 CompositionalNetworks = "0.2"
 ConstraintDomains = "0.2"
 
-["0.2-0"]
+["0.2-0.3"]
 julia = "1.6.0-1"
 
-["0.3-0"]
+["0.3"]
 CompositionalNetworks = "0.3"
+PrettyTables = "1"
+
+["0.3-0"]
 ConstraintDomains = "0.3"
 DataFrames = "1"
 MacroTools = "0.5"
-PrettyTables = "1"
+
+["0.4-0"]
+CompositionalNetworks = "0.5"
+ConstraintCommons = "0.1"
+PrettyTables = "2"
+julia = "1.8.0-1"
+
+["0.5-0"]
+TestItemRunner = "0.2"
+TestItems = "0.1"

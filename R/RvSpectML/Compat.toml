@@ -94,7 +94,6 @@ Optim = "1"
 PDMats = "0.10-0.11"
 RvSpectMLBase = "0.2"
 StaticArrays = "1"
-TemporalGPs = "0.3-0.5"
 julia = "1.5.0-1"
 
 ["0.2-0.2.2"]
@@ -104,6 +103,9 @@ DataFrames = "0.20-0.22"
 DSP = "0.5-0.6"
 Polynomials = "1-2"
 SpecialFunctions = "1"
+
+["0.2-0.2.6"]
+TemporalGPs = "0.3-0.5"
 
 ["0.2.3"]
 KernelFunctions = "0.9"
@@ -118,14 +120,22 @@ MultivariateStats = "0.7-0.9"
 ["0.2.4-0"]
 CSV = ["0.7-0.8", "0.9.11-0.10"]
 DSP = "0.5-0.7"
-KernelFunctions = "0.9.7-0.9"
 NaNMath = ["0.3", "1"]
 Polynomials = "1-3"
 SpecialFunctions = "1-2"
 Stheno = "0.6-0.8"
+
+["0.2.4-0.2.5"]
+KernelFunctions = "0.9.7-0.9"
 
 ["0.2.5-0"]
 FITSIO = "0.16-0.17"
 Interpolations = "0.12-0.14"
 LsqFit = "0.11-0.13"
 MultivariateStats = "0.7-0.10"
+
+["0.2.6-0"]
+KernelFunctions = "0.9.7-0.10"
+
+["0.2.7-0"]
+TemporalGPs = "0.3-0.6"

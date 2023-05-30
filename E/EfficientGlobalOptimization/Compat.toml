@@ -1,11 +1,20 @@
-[0]
-StatsFuns = "0.7-0.9"
-
 ["0-0.1.0"]
 KrigingModel = "0.1"
 julia = "1"
 
-["0.1.1-0"]
+[0-1]
+StatsFuns = "0.7-0.9"
+
+["0.1.1-0.1"]
 KrigingModel = "0.1.3-0.1"
+
+["0.1.1-1"]
 Sobol = "1"
 julia = "1.6.0-1"
+
+["0.2-1"]
+DiffResults = "1"
+ElasticArrays = "1"
+ForwardDiff = "0.10"
+GaussianProcesses = "0.12"
+NLopt = "0.6"

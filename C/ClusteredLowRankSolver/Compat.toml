@@ -1,7 +1,6 @@
 [0]
 BlockDiagonals = "0.1"
 IterTools = "1"
-KrylovKit = "0.5"
 julia = "1"
 
 ["0-0.1"]
@@ -9,7 +8,25 @@ AbstractAlgebra = "0.24"
 Arblib = "0.6"
 GenericLinearAlgebra = "0.2"
 
+["0-0.2.2"]
+KrylovKit = "0.5"
+
 ["0.2-0"]
+GenericLinearAlgebra = "0.2-0.3"
+
+["0.2-0.2.2"]
 AbstractAlgebra = "0.24-0.26"
 Arblib = "0.6-0.7"
-GenericLinearAlgebra = "0.2-0.3"
+
+["0.2.3"]
+AbstractAlgebra = "0.24-0.28"
+
+["0.2.3-0"]
+Arblib = "0.6-0.8"
+KrylovKit = "0.5-0.6"
+
+["0.2.4-0.2"]
+AbstractAlgebra = "0.24-0.29"
+
+["0.3-0"]
+AbstractAlgebra = "0.24-0.30"

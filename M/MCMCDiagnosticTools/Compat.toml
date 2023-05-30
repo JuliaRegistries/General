@@ -2,13 +2,37 @@
 AbstractFFTs = ["0.5", "1"]
 DataAPI = "1.6.0-1"
 Distributions = "0.25"
-MLJModelInterface = "1"
-StatsBase = "0.33"
 Tables = "1"
+
+["0-0.1"]
 julia = "1"
 
 ["0-0.1.1"]
 SpecialFunctions = ["0.8-0.10", "1"]
 
+["0-0.1.4"]
+MLJModelInterface = "1"
+
+["0-0.3.2"]
+StatsBase = "0.33"
+
 ["0.1.2-0"]
 SpecialFunctions = ["0.8-0.10", "1-2"]
+
+["0.1.5-0"]
+MLJModelInterface = "1.6.0-1"
+
+["0.2-0.2.5"]
+julia = "1.3.0-1"
+
+["0.2.1-0"]
+DataStructures = "0.18.3-0.18"
+
+["0.2.2-0"]
+StatsFuns = "1"
+
+["0.2.6-0"]
+julia = "1.6.0-1"
+
+["0.3.3-0"]
+StatsBase = "0.33-0.34"

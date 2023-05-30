@@ -1,14 +1,21 @@
 [3]
-ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 CommonSolve = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 HCubature = "19dc6840-f33b-545b-b366-655c7e3ffd49"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MonteCarloIntegration = "4886b29c-78c9-11e9-0a6e-41e1f4161f7b"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+
+["3-3.4"]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
+
+["3-3.5"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
+
+["3.6-3"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"

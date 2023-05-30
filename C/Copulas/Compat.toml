@@ -1,7 +1,9 @@
 [0]
 Distributions = "0.25"
-StatsBase = "0.33"
 julia = "1.6.0-1"
+
+["0-0.1.8"]
+StatsBase = "0.33"
 
 ["0.1.1-0"]
 GSL = "1"
@@ -12,6 +14,8 @@ Roots = "1-2"
 
 ["0.1.4-0"]
 ForwardDiff = "0.10"
+
+["0.1.4-0.1.7"]
 TaylorSeries = "0.12"
 
 ["0.1.5-0"]
@@ -19,3 +23,9 @@ Cubature = "1.5.0-1"
 
 ["0.1.6-0"]
 MvNormalCDF = "0.2"
+
+["0.1.8-0"]
+TaylorSeries = "0.12-0.14"
+
+["0.1.9-0"]
+StatsBase = "0.33-0.34"

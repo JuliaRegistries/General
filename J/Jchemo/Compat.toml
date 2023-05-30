@@ -1,15 +1,55 @@
 [0]
-CairoMakie = "0.9"
-Clustering = "0.14"
 DataFrames = "1"
-DataInterpolations = "3"
 Distances = "0.10"
 Distributions = "0.25"
-HypothesisTests = "0.10"
 ImageFiltering = "0.7"
 Interpolations = "0.14"
-LIBSVM = "0.8"
 NearestNeighbors = "0.4"
+
+["0-0.1.15"]
+DataInterpolations = "3"
+LIBSVM = "0.8"
+
+["0-0.1.16"]
+Clustering = "0.14"
+
+["0-0.1.18"]
+HypothesisTests = "0.10"
+
+["0-0.1.19"]
 StatsBase = "0.33"
+
+["0-0.1.6"]
+CairoMakie = "0.9"
 XGBoost = "1"
 julia = "1"
+
+["0.1.16-0"]
+DecisionTree = "0.12"
+
+["0.1.16-0.1.19"]
+DataInterpolations = "3-4"
+
+["0.1.17-0"]
+julia = "1.8.0-1"
+
+["0.1.17-0.1.19"]
+Clustering = "0.14-0.15"
+
+["0.1.20-0"]
+Clustering = "0.15"
+DataInterpolations = "4"
+Makie = "0.19"
+StatsBase = "0.33-0.34"
+
+["0.1.7-0.1.15"]
+XGBoost = "1-2"
+
+["0.1.7-0.1.16"]
+julia = "1.6.0-1"
+
+["0.1.7-0.1.8"]
+Makie = "0.18"
+
+["0.1.9-0.1.19"]
+Makie = "0.18-0.19"

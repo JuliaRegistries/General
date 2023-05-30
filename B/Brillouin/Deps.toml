@@ -1,12 +1,23 @@
 [0]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.5.10"]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 
 ["0.3.1-0"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 
 ["0.5-0"]
 Bravais = "ada6cbde-b013-4edf-aa94-f6abe8bd6e6b"
+
+["0.5.11-0"]
+DirectQhull = "c3f9d41a-afcb-471e-bc58-0b8d83bd86f4"
+
+["0.5.12"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.5.13-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

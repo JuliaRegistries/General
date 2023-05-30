@@ -2,11 +2,9 @@
 AMD = "14f7f29c-3bd6-536c-9a0b-7339e30b5a3e"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
-Pardiso = "46dd5b70-b6fb-5a00-ae2d-e8fea33afaf2"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 QDLDL = "bfc457fd-c171-5ab7-bd9e-d5dbfc242d63"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 
@@ -23,12 +21,28 @@ InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 ["0-0.1.1"]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 
-["0.1.2-0"]
+["0-0.3"]
+Pardiso = "46dd5b70-b6fb-5a00-ae2d-e8fea33afaf2"
+
+["0-0.4"]
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.1.2-0.4"]
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 
-["0.2-0"]
+["0.2-0.4"]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 
 ["0.3-0"]
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.3-0.4"]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["0.4-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.5-0"]
+GenericLinearAlgebra = "14197337-ba66-59df-a3e3-ca00e7dcff7a"
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"

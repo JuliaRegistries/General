@@ -39,8 +39,10 @@ DiffEqBase = "6.5.0-6"
 RecursiveArrayTools = "1"
 
 ["1.1-1"]
-DiffEqBase = "6.11.0-6"
 RecursiveArrayTools = "2"
+
+["1.1-1.8"]
+DiffEqBase = "6.11.0-6"
 
 ["1.4-1"]
 Reexport = ["0.2", "1"]
@@ -50,3 +52,9 @@ StaticArrays = ["0.10-0.12", "1"]
 
 ["1.6-1"]
 julia = "1.6.0-1"
+
+["1.8-1"]
+Parameters = "0.12"
+
+["1.9-1"]
+DiffEqBase = "6.122.0-6"

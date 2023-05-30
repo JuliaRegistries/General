@@ -1,10 +1,28 @@
 [0]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
-Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 RewriteTools = "5969e224-3634-4c61-9f66-721b69e98b8a"
-SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SyntaxInterface = "b33eeca9-aacb-4496-a840-e75f1646a4fb"
+
+["0-0.1"]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+
+["0-0.4"]
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0-0.5.1"]
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+
+["0-0.5.2"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.2-0"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["0.5-0"]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+
+["0.5.3-0"]
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

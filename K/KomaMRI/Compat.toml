@@ -1,22 +1,12 @@
 [0]
-ArgCheck = "2"
 AssetRegistry = "0.1"
 Blink = "0.12"
 CUDA = "3"
-Distributions = "0.25"
 FileIO = "1"
 HDF5 = "0.16"
-Hwloc = "2"
-Images = "0.24-0.25"
 Interact = "0.10"
-Ipopt = ["0.7", "1"]
 JLD2 = "0.4"
-JuMP = ["0.21", "1"]
-LinearOperators = "2"
 MAT = "0.10"
-MathOptInterface = ["0.9-0.10", "1"]
-Mux = "0.7"
-PackageCompiler = "1-2"
 Parameters = "0.12"
 PlotlyJS = "0.18"
 ProgressMeter = "1"
@@ -31,12 +21,37 @@ Interpolations = "0.13"
 FFTW = "1"
 MRIReco = "0.5"
 
+["0-0.6.6"]
+ArgCheck = "2"
+Distributions = "0.25"
+Images = "0.24-0.25"
+Ipopt = ["0.7", "1"]
+JuMP = ["0.21", "1"]
+LinearOperators = "2"
+MathOptInterface = ["0.9-0.10", "1"]
+Mux = "0.7"
+PackageCompiler = "1-2"
+
+["0-0.7.1"]
+Hwloc = "2"
+
 ["0.6.3-0"]
 Interpolations = "0.13-0.14"
+
+["0.6.3-0.6.6"]
 Suppressor = "0.2"
 
-["0.6.4-0"]
+["0.6.4-0.6.6"]
 MRIReco = "0.4.2-0.4"
 
-["0.6.5-0"]
+["0.6.5-0.6.6"]
 FFTW = "1"
+
+["0.6.7-0"]
+MRIFiles = "0.1"
+MRIReco = "0.6-0.7"
+ThreadsX = "0.1"
+
+["0.7-0"]
+Adapt = "3"
+Functors = "0.4"

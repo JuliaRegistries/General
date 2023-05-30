@@ -1,11 +1,16 @@
 [0]
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.2.2-0"]
+["0-0.2.10"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
+["0.2.11-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.2.2-0.2.10"]
 Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
 LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"

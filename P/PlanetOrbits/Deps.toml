@@ -3,7 +3,6 @@ AstroTime = "c61b5328-d09d-5e37-a9a8-0eb41c39009c"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
@@ -11,5 +10,11 @@ RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
+["0-0.3"]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
 ["0.2-0"]
 DiffRules = "b552c78f-8df3-52c6-915a-8e097449b14b"
+
+["0.5-0"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"

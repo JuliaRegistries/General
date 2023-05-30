@@ -1,13 +1,36 @@
 [0]
 DataDeps = "0.7"
 Distributions = "0.25"
-EnsembleKalmanProcesses = "0.3"
-FileIO = "1"
 JLD2 = "0.4"
-Oceananigans = "0.73"
 OffsetArrays = "1"
 OrderedCollections = "1"
 ProgressBars = "1"
 SpecialFunctions = "1-2"
 Suppressor = "0.2"
 julia = "1.6.0-1"
+
+["0-0.13"]
+EnsembleKalmanProcesses = "0.3"
+FileIO = "1"
+Oceananigans = "0.73"
+
+["0.14-0"]
+BlockDiagonals = "0.1.36-0.1"
+CUDA = "3"
+DocStringExtensions = "0.8-0.9"
+EnsembleKalmanProcesses = ["0.8", "0.13"]
+GaussianProcesses = "0.12"
+LineSearches = "7"
+MPI = "0.20"
+
+["0.14.0"]
+Oceananigans = "0.78.1-0.78"
+
+["0.14.1"]
+Oceananigans = "0.78.2-0.78"
+
+["0.14.2"]
+Oceananigans = "0.78.4-0.78"
+
+["0.14.3-0"]
+Oceananigans = "0.79.1-0.79"

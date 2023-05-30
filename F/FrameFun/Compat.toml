@@ -28,30 +28,66 @@ BasisFunctions = "0.4.4-0.4"
 Compat = "3.42.0-3"
 
 ["0.4.2-0"]
-CompositeTypes = "0.1.2-0.1"
 FillArrays = "0.12-0.13"
 GenericLinearAlgebra = "0.3"
 LowRankApprox = "0.5"
 PGFPlotsX = "1.4.0-1"
 StaticArrays = "1.4.0-1"
 
+["0.4.2-0.4.5"]
+CompositeTypes = "0.1.2-0.1"
+
 ["0.4.3"]
 BasisFunctions = "0.4.5-0.4"
 GridArrays = "0.1.13-0.1"
 
 ["0.4.3-0"]
-GenericFFT = "0.1"
 julia = "1.7.0-1"
 
 ["0.4.3-0.4.4"]
 DomainSets = "0.5.11-0.5"
 
+["0.4.3-0.5.2"]
+GenericFFT = "0.1"
+
 ["0.4.4"]
 BasisFunctions = "0.5"
 
-["0.4.4-0"]
+["0.4.4-0.4.5"]
 GridArrays = "0.1.14-0.1"
 
-["0.4.5-0"]
+["0.4.5"]
 BasisFunctions = "0.5.1-0.5"
 DomainSets = "0.5.12-0.5"
+
+["0.4.6"]
+BasisFunctions = "0.5.5-0.5"
+
+["0.4.6-0"]
+CompositeTypes = "0.1.3-0.1"
+
+["0.4.6-0.5.2"]
+DomainSets = ["0.5.15-0.5", "0.6.1-0.6"]
+GridArrays = "0.1.15-0.1"
+
+["0.4.7"]
+BasisFunctions = "0.5.6-0.5"
+
+["0.4.8-0"]
+MacroTools = "0.5"
+SpecialFunctions = "1-2"
+
+["0.4.8-0.5.0"]
+BasisFunctions = "0.5.7-0.5"
+
+["0.5.1"]
+BasisFunctions = "0.5.9-0.5"
+
+["0.5.2"]
+BasisFunctions = "0.5.10-0.5"
+
+["0.5.3-0"]
+BasisFunctions = "0.6"
+DomainSets = "0.6.1-0.6"
+GenericFFT = "0.1.3-0.1"
+GridArrays = "0.2"

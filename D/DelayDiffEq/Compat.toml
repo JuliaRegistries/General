@@ -56,9 +56,6 @@ DiffEqBase = "5.19.0-6"
 ["5.15"]
 Parameters = "0.10-0.11"
 
-["5.15-5"]
-DiffEqBase = "6"
-
 ["5.15-5.17"]
 OrdinaryDiffEq = "5.15.0-5"
 
@@ -73,6 +70,9 @@ DataStructures = "0.17"
 
 ["5.15-5.27"]
 Reexport = "0.2"
+
+["5.15-5.41"]
+DiffEqBase = "6"
 
 ["5.16-5.23"]
 Parameters = "0.10-0.12"
@@ -96,7 +96,7 @@ OrdinaryDiffEq = "5.28.0-5"
 ["5.22-5.26"]
 Roots = ["0.8", "1"]
 
-["5.24-5"]
+["5.24-5.41.0"]
 UnPack = ["0.1", "1"]
 
 ["5.24.2-5"]
@@ -111,7 +111,7 @@ julia = "1.3.0-1"
 ["5.26-5.29"]
 OrdinaryDiffEq = "5.46.0-5"
 
-["5.27-5"]
+["5.27-5.39"]
 NonlinearSolve = "0.3"
 
 ["5.28-5"]
@@ -154,14 +154,34 @@ OrdinaryDiffEq = "6.5.0-6"
 ["5.35"]
 ArrayInterface = "3-5"
 
-["5.36-5"]
+["5.36-5.40"]
 ArrayInterface = "3-6"
 
-["5.37-5"]
+["5.37-5.38"]
 SciMLBase = "1.34.0-1"
 
-["5.37.1-5"]
+["5.37.1-5.40.0"]
 OrdinaryDiffEq = "6.19.3-6"
+
+["5.39-5.41"]
+SciMLBase = "1.70.0-1"
+
+["5.40-5"]
+SimpleNonlinearSolve = "0.1"
+
+["5.40.1-5.41"]
+OrdinaryDiffEq = "6.33.0-6"
+
+["5.41-5"]
+ArrayInterface = "6-7"
+
+["5.41.1-5"]
+SimpleUnPack = "1"
+
+["5.42-5"]
+DiffEqBase = "6.122.0-6"
+OrdinaryDiffEq = "6.49.1-6"
+SciMLBase = "1.90.0-1"
 
 ["5.5"]
 DiffEqBase = "5.12.0-6"

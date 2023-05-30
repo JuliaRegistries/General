@@ -78,8 +78,10 @@ LinearMaps = "3"
 WignerSymbols = "1-2"
 
 ["0.8.3-1"]
-Arpack = "0.5.1-0.5"
 Reexport = ["0.2", "1"]
+
+["0.8.3-1.0.7"]
+Arpack = "0.5.1-0.5"
 
 ["0.8.4"]
 QuantumOpticsBase = "0.2.5-0.2"
@@ -87,8 +89,18 @@ QuantumOpticsBase = "0.2.5-0.2"
 ["0.8.5-0"]
 QuantumOpticsBase = "0.2.7-0.2"
 
-[1]
+["1-1.0.9"]
 QuantumOpticsBase = "0.3"
+
+["1.0.10-1"]
+QuantumOpticsBase = "0.3-0.4"
 
 ["1.0.4-1"]
 OrdinaryDiffEq = "5-6"
+
+["1.0.8-1"]
+Arpack = "0.5.1-0.5.3"
+
+["1.0.9-1"]
+DiffEqBase = "6.113.0-6"
+ForwardDiff = "0.10"

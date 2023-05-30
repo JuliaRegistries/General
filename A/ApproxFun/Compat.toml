@@ -232,11 +232,11 @@ AbstractFFTs = ["0.5", "1"]
 ApproxFunOrthogonalPolynomials = "0.3-0.4"
 Reexport = ["0.2", "1"]
 
-["0.12.6-0"]
-DomainSets = "0.3-0.5"
-
 ["0.12.6-0.12"]
 ApproxFunBase = "0.3-0.5"
+
+["0.12.6-0.13.12"]
+DomainSets = "0.3-0.5"
 
 ["0.13-0"]
 AbstractFFTs = "1"
@@ -259,16 +259,52 @@ SpecialFunctions = "1.1.0-1"
 ["0.13.1-0"]
 SpecialFunctions = "1.1.0-2"
 
-["0.13.2-0"]
+["0.13.11"]
+ApproxFunBase = "0.7.29-0.7"
+
+["0.13.12-0"]
+BandedMatrices = "0.16-0.17"
+StaticArrays = "1"
+
+["0.13.12-0.13.14"]
+ApproxFunBase = "0.7.34-0.7"
+
+["0.13.13-0"]
+DomainSets = "0.3-0.6"
+
+["0.13.14-0"]
+ApproxFunOrthogonalPolynomials = "0.5-0.6"
+
+["0.13.15"]
+ApproxFunBase = "0.7.34-0.8"
+
+["0.13.16-0.13.17"]
+ApproxFunBase = "0.8.4-0.8"
+
+["0.13.17-0"]
+FastTransforms = "0.13-0.15"
+
+["0.13.18"]
+ApproxFunBase = "0.8.6-0.8"
+
+["0.13.19"]
+ApproxFunBase = "0.8.20-0.8"
+
+["0.13.2-0.13.16"]
 FastTransforms = "0.13-0.14"
+
+["0.13.20-0"]
+ApproxFunBase = "0.8.24-0.8"
 
 ["0.13.6-0.13.8"]
 ApproxFunBase = "0.6"
 
 ["0.13.8-0"]
 ApproxFunFourier = "0.3"
-ApproxFunOrthogonalPolynomials = "0.5"
 ApproxFunSingularities = "0.3"
 
-["0.13.9-0"]
+["0.13.8-0.13.13"]
+ApproxFunOrthogonalPolynomials = "0.5"
+
+["0.13.9-0.13.10"]
 ApproxFunBase = "0.6-0.7"

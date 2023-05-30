@@ -2,8 +2,6 @@
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
-GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
-GPUCompiler = "61eb1bfa-7361-4325-ad38-22787b887f55"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 ITensors = "9136182c-28ba-11e9-034c-db9fb085ebd5"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -12,6 +10,16 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Strided = "5e0ebb24-38b0-5f93-81fe-25c709ecae67"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 
+["0.0"]
+GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
+GPUCompiler = "61eb1bfa-7361-4325-ad38-22787b887f55"
+
 ["0.0.6-0"]
 Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
 SimpleTraits = "699a6c99-e7fa-54fc-8d76-47d257e15c1d"
+
+["0.1.1-0"]
+NDTensors = "23ae76d9-e61a-49c4-8f12-3f1a16adf9cf"
+
+["0.1.2-0"]
+cuTENSOR = "011b41b2-24ef-40a8-b3eb-fa098493e9e1"

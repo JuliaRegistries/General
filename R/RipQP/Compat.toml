@@ -1,5 +1,4 @@
 [0]
-Quadmath = "0.5"
 julia = "1"
 
 ["0-0.2.0"]
@@ -11,16 +10,19 @@ QuadraticModels = "0.2-0.3"
 ["0-0.3.2"]
 LDLFactorizations = "0.8.1-0.8"
 
+["0-0.6.0"]
+Quadmath = "0.5"
+
 ["0.2.1"]
 LLSModels = "0.1"
 NLPModelsModifiers = "0.1.2-0.1"
 SolverCore = "0.1.1-0.1"
 
-["0.2.1-0"]
-MatrixMarket = "0.3"
-
 ["0.2.1-0.3"]
 DelimitedFiles = "1"
+
+["0.2.1-0.6.1"]
+MatrixMarket = "0.3"
 
 ["0.2.2"]
 Krylov = "0.7.3-0.7"
@@ -67,15 +69,15 @@ QuadraticModels = "0.7.4-0.7"
 ["0.3.1-0.4"]
 SolverCore = "0.2.3-0.2"
 
-["0.3.3-0"]
-Krylov = "0.8.2-0.8"
-
 ["0.3.3-0.3"]
 QuadraticModels = "0.8.1-0.8"
 
 ["0.3.3-0.5"]
 LDLFactorizations = "0.8.1-0.9"
 LimitedLDLFactorizations = "0.4.1-0.4"
+
+["0.3.3-0.6.0"]
+Krylov = "0.8.2-0.8"
 
 ["0.4"]
 QuadraticModels = "0.9"
@@ -95,3 +97,10 @@ SolverCore = "0.3"
 HSL = "0.3"
 LDLFactorizations = "0.10"
 LimitedLDLFactorizations = "0.5"
+
+["0.6.1-0"]
+Krylov = "0.9"
+OperatorScaling = "0.1"
+
+["0.6.2-0"]
+MatrixMarket = "0.3-0.4"

@@ -4,19 +4,30 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.10-0"]
+["0.10-1"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
-["0.21-0"]
+["0.21-1"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
-["0.29-0"]
+["0.29-1"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 ["0.33-0"]
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-["0.42-0"]
+["0.42-1"]
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
+
+["0.44.8-0"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+[1]
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+GDAL_jll = "a7073274-a066-55f0-b90d-d619367d196c"
+GMT_jll = "b68b8c3f-ed99-5bef-9675-4739d9426b26"
+Ghostscript_jll = "61579ee1-b43e-5ca0-a5da-69d92c66a64b"
+PROJ_jll = "58948b4f-47e0-5654-a9ad-f609743f8632"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

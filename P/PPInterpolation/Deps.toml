@@ -1,6 +1,15 @@
 [0]
-Cbc = "9961bab8-2fa3-5c5a-9d89-47fab24efd76"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
-JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.2"]
+Cbc = "9961bab8-2fa3-5c5a-9d89-47fab24efd76"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+
+["0.3-0"]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.6.1-0"]
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"

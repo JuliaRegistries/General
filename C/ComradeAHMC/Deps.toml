@@ -1,5 +1,4 @@
 [0]
-AbstractDifferentiation = "c29ec348-61ec-40c8-8164-b8c60e9d9f3d"
 AbstractMCMC = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
 AdvancedHMC = "0bf59076-c3b1-5ca4-86bd-e02cd72cde3d"
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
@@ -7,8 +6,16 @@ Comrade = "99d987ce-9a1e-4df8-bc0b-1ea019aa547b"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
+["0-0.2"]
+AbstractDifferentiation = "c29ec348-61ec-40c8-8164-b8c60e9d9f3d"
+
 ["0-0.2.1"]
 TupleVectors = "615932cf-77b6-4358-adcd-5b7eba981d7e"
 
 ["0.2.2-0"]
 TypedTables = "9d95f2ec-7b3d-5a63-8d20-e2491e220bb9"
+
+["0.3-0"]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
+LogDensityProblemsAD = "996a588d-648d-4e1f-a8f0-a84b347e47b1"

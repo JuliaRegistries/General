@@ -5,7 +5,6 @@ Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 ExprTools = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
-KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearOperators = "5c8ed15e-5a4c-59e4-a42b-c7e8811fb125"
@@ -29,6 +28,9 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
 
+["0-0.1"]
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+
 ["0-0.1.0"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
@@ -44,3 +46,8 @@ Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 
 ["0.1.5-0"]
 Crayons = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
+
+["0.2-0"]
+ILUZero = "88f59080-6952-5380-9ea5-54057fb9a43f"
+Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"
+PolyesterWeave = "1d0040c9-8b98-4ee7-8388-3f51789ca0ad"

@@ -4,14 +4,18 @@ julia = ["0.7", "1"]
 ["0-0.4.0"]
 StatsBase = "0.0.0-0.33"
 
-["0.4.1-0"]
+["0.4.1-1"]
 StatsBase = "0.25-0.33"
 
 ["0.5.2"]
 NonNegLeastSquares = "0.2-0.3"
 
-["0.5.2-0"]
+["0.5.2-1"]
 RandomizedLinAlg = "0.1"
 
-["0.5.3-0"]
+["0.5.3-1"]
 NonNegLeastSquares = "0.2-0.4"
+
+[1]
+SnoopPrecompile = "1"
+julia = "1.6.0-1"

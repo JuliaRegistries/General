@@ -2,11 +2,7 @@
 ClimaCore = "0.10"
 ClimaCorePlots = "0.2"
 ClimaCoreVTK = "0.6-0.7"
-DiffEqCallbacks = "2.22.0-2"
 JLD2 = "0.4"
-OrdinaryDiffEq = "5.64.0-5"
-StaticArrays = "1.4.0-1"
-UnPack = "1"
 julia = "1.7.0-1"
 
 ["0-0.1"]
@@ -17,12 +13,55 @@ Thermodynamics = "0.8"
 ["0-0.2"]
 IntervalSets = "0.5-0.6"
 
-["0.2-0"]
+["0-0.6"]
+DiffEqCallbacks = "2.22.0-2"
+OrdinaryDiffEq = "5.64.0-5"
+StaticArrays = "1.4.0-1"
+
+["0-0.7"]
+UnPack = "1"
+
+["0.10-0"]
+ArtifactWrappers = "0.2"
+CLIMAParameters = "0.7"
+ClimaTimeSteppers = "0.7"
+CloudMicrophysics = "0.10"
+DiffEqBase = "6"
+ImageFiltering = "0.7"
+Interpolations = "0.14"
+NCDatasets = "0.11-0.12"
+RRTMGP = "0.7-0.8"
+SurfaceFluxes = "0.6"
+TerminalLoggers = "0.1"
+YAML = "0.4"
+
+["0.10-0.11"]
+ClimaComms = "0.3"
+
+["0.11-0"]
+ArgParse = "1"
+
+["0.12"]
+Insolation = "0.4"
+
+["0.12-0"]
+ClimaComms = "0.4"
+
+["0.13-0"]
+Insolation = "0.6"
+Krylov = "0.9.1-0.9"
+
+["0.14-0"]
+CUDA = "4"
+
+["0.2-0.11"]
 Insolation = "0.3"
-Thermodynamics = "0.9"
 
 ["0.2-0.3"]
 CloudMicrophysics = "0.6"
+
+["0.2-0.6"]
+Thermodynamics = "0.9"
 
 ["0.3"]
 StochasticDiffEq = "6.41.0-6"
@@ -31,23 +70,44 @@ StochasticDiffEq = "6.41.0-6"
 Dierckx = "0.5"
 Distributions = "0.25"
 DocStringExtensions = "0.8-0.9"
-FastGaussQuadrature = "0.4"
-Flux = "0.12-0.13"
 IntervalSets = "0.5-0.7"
 LambertW = "0.4"
-OperatorFlux = "0.1"
 StatsBase = "0.33"
+
+["0.3-0.6"]
+FastGaussQuadrature = "0.4"
+Flux = "0.12-0.13"
+OperatorFlux = "0.1"
+
+["0.3-0.8"]
 SurfaceFluxes = "0.4"
 
 ["0.4"]
 CloudMicrophysics = "0.8"
 
-["0.4-0"]
+["0.4-0.6"]
 StochasticDiffEq = "6.42.0-6"
 
-["0.5-0"]
+["0.5-0.9"]
 CloudMicrophysics = "0.9"
 
 ["0.6-0"]
 AtmosphericProfilesLibrary = "0.1"
+
+["0.6-0.9"]
 RRTMGP = "0.6"
+
+["0.7-0"]
+DiffEqCallbacks = "2"
+FastGaussQuadrature = "0.4-0.5"
+OrdinaryDiffEq = "5-6"
+StaticArrays = "1"
+Thermodynamics = "0.10"
+
+["0.9"]
+SurfaceFluxes = "0.5"
+
+["0.9-0"]
+Colors = "0.12"
+NVTX = "0.3"
+RootSolvers = "0.2-0.3"

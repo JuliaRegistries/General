@@ -8,9 +8,7 @@ DynamicAxisWarping = "0.4"
 FFTW = "1.5.0-1"
 FileIO = "1.16.0-1"
 GeometricalPredicates = "0.4"
-HDF5 = "0.16"
 Measures = "0.3"
-Plots = "1.33-1.35"
 ProgressBars = "1.4.0-1"
 ProgressMeter = "1.7.0-1"
 QHull = "0.2"
@@ -18,3 +16,11 @@ SpecialFunctions = "2.1.0-2"
 StatsBase = "0.33"
 WAV = "1.2.0-1"
 julia = "1.6-1.8"
+
+["0-0.1.1"]
+HDF5 = "0.16"
+Plots = "1.33-1.35"
+
+["0.1.2-0"]
+MFCC = "0.3.3-0.3"
+Plots = "1"

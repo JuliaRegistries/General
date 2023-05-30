@@ -68,6 +68,8 @@ ModelingToolkit = "5-7"
 ["1.10.1-1"]
 ModelingToolkit = "5-8"
 OrdinaryDiffEq = "5-6"
+
+["1.10.1-1.14.1"]
 SymbolicUtils = "0.11.3-0.19"
 
 ["1.10.2-1.11.2"]
@@ -97,6 +99,16 @@ PrettyTables = "1-2"
 
 ["1.14-1"]
 DistributionsAD = "0.5-0.6"
+
+["1.14.2"]
+SymbolicUtils = "0.11.3-0.20"
+
+["1.14.3-1"]
+SymbolicUtils = ["0.11.3-0.20", "1"]
+Symbolics = "1-5"
+
+["1.14.4-1"]
+DataInterpolations = "3-4"
 
 ["1.2-1"]
 Combinatorics = "1"
@@ -134,7 +146,7 @@ PlotUtils = "1.0.9-1"
 ["1.3.3-1.3"]
 ModelingToolkit = "4-5"
 
-["1.4-1"]
+["1.4-1.14.3"]
 DataInterpolations = "3"
 
 ["1.4-1.6"]
@@ -192,11 +204,11 @@ SymbolicUtils = "0.11.3-0.17"
 ["1.8-1"]
 Tullio = "0.3"
 
-["1.9-1"]
-Symbolics = "1-4"
-
 ["1.9-1.10"]
 DerivableFunctions = "0.1"
 
 ["1.9-1.10.0"]
 SymbolicUtils = "0.11.3-0.18"
+
+["1.9-1.14.2"]
+Symbolics = "1-4"

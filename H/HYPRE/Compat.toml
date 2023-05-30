@@ -1,11 +1,16 @@
 [1]
 CEnum = "0.4"
-PartitionedArrays = "0.2"
 SparseMatricesCSR = "0.6"
 julia = "1.6.0-1"
+
+["1-1.4"]
+PartitionedArrays = "0.2"
 
 ["1.0"]
 MPI = "0.19"
 
 ["1.1-1"]
 MPI = "0.19-0.20"
+
+["1.5-1"]
+PartitionedArrays = "0.3"

@@ -45,9 +45,6 @@ CUDA = ["2.5-2.6", "3"]
 ["0.2.3-0.2"]
 CUDA = "2.5-3.3"
 
-["0.3-0"]
-CUDA = "3"
-
 ["0.3-0.3.1"]
 SimpleWeightedGraphs = "1.1.0-1"
 
@@ -65,6 +62,9 @@ NNlibCUDA = "0.1"
 ["0.3-0.6.0"]
 Functors = "0.2"
 
+["0.3-0.8.5"]
+CUDA = "3"
+
 ["0.3.10-0"]
 Graphs = "1.6.0-1"
 
@@ -74,9 +74,11 @@ NNlib = "0.7-0.8"
 NNlibCUDA = "0.1-0.2"
 
 ["0.3.13-0"]
-FillArrays = "0.13"
 NNlib = "0.8"
 NNlibCUDA = "0.2"
+
+["0.3.13-0.8.5"]
+FillArrays = "0.13"
 
 ["0.3.2"]
 GraphLaplacians = "0.2"
@@ -94,18 +96,29 @@ ChainRulesCore = "1"
 FillArrays = "0.12"
 
 ["0.3.6-0"]
-StatsBase = "0.33"
 julia = "1.6.0-1"
+
+["0.3.6-0.8.5"]
+StatsBase = "0.33"
 
 ["0.5-0"]
 Distances = "0.10"
 NearestNeighbors = "0.4"
 
-["0.6.1-0"]
+["0.6.1-0.8.2"]
 Functors = "0.2-0.3"
 
-["0.6.10-0"]
+["0.6.10-0.8.4"]
 Adapt = "3"
 
-["0.6.5-0"]
+["0.6.5-0.8.2"]
 MLUtils = "0.2"
+
+["0.8.3-0"]
+Functors = "0.2-0.4"
+MLUtils = "0.2-0.4"
+
+["0.8.6-0"]
+CUDA = "3-4"
+FillArrays = ["0.13", "1"]
+StatsBase = "0.33-0.34"

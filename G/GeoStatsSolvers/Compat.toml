@@ -3,11 +3,9 @@ CpuId = "0.3"
 Distances = "0.10"
 Distributions = "0.25"
 FFTW = "1.5.0-1"
-GeoStatsBase = "0.28"
 KrigingEstimators = "0.10"
 MLJModelInterface = "1.6.0-1"
 NearestNeighbors = "0.4"
-TableTransforms = "1.3.0-1"
 Tables = "1.7.0-1"
 Variography = "0.15"
 julia = "1.6.0-1"
@@ -16,6 +14,34 @@ julia = "1.6.0-1"
 Meshes = "0.24"
 SpecialFunctions = "2.1.0-2"
 
+["0-0.2.1"]
+GeoStatsBase = "0.28"
+
+["0-0.2.2"]
+TableTransforms = "1.3.0-1"
+
 ["0.1.2-0"]
 Bessels = "0.2"
+
+["0.1.2-0.2.1"]
 Meshes = "0.24-0.25"
+
+["0.2.2"]
+GeoStatsBase = "0.29"
+Meshes = "0.26"
+
+["0.2.3"]
+Meshes = "0.27"
+
+["0.2.3-0"]
+TableTransforms = "1.9.0-1"
+
+["0.2.3-0.2.4"]
+GeoStatsBase = "0.30"
+
+["0.2.4"]
+Meshes = "0.27-0.28"
+
+["0.2.5-0"]
+GeoStatsBase = "0.30-0.31"
+Meshes = "0.27-0.29"

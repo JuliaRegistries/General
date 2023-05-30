@@ -3,14 +3,33 @@ Crayons = "0-4"
 Tokenize = "0.0.0-0.5"
 julia = ["0.7", "1"]
 
+["0.5.15-0"]
+julia = "1.6.0-1"
+
+["0.5.15-0.5.17"]
+TerminalRegressionTests = "0.2"
+
+["0.5.18"]
+JuliaSyntax = "0.3"
+
+["0.5.19-0.5.20"]
+JuliaSyntax = "0.3.3-0.3"
+
 ["0.5.2"]
 TerminalRegressionTests = "0.0.0-0.2"
 VT100 = "0.0.0-0.3"
 
 ["0.5.2-0"]
 Crayons = "1-4"
-Tokenize = "0.5"
+
+["0.5.2-0.5.14"]
 julia = "1"
+
+["0.5.2-0.5.17"]
+Tokenize = "0.5"
+
+["0.5.22-0"]
+JuliaSyntax = "0.3.3-0.4"
 
 ["0.5.7-0"]
 JLFzf = "0.1.1-0.1"

@@ -4,11 +4,9 @@ CEnum = "0.4.2-0.4"
 Cairo = "1"
 Cairo_jll = "1.16.0-1"
 GTK4_jll = "4.6.0-4"
-Glib_jll = "2.68.0-2"
 JLLWrappers = "1.4.0-1"
 Scratch = "1.1.0-1"
 Xorg_xkeyboard_config_jll = "2.27.0-2"
-adwaita_icon_theme_jll = "3.33.92-3"
 gdk_pixbuf_jll = "2.38.2-2"
 hicolor_icon_theme_jll = "0.17"
 julia = "1.6.0-1"
@@ -17,6 +15,26 @@ julia = "1.6.0-1"
 Graphics = ["0.4", "1"]
 Reexport = ["0.2", "1"]
 
+["0-0.2"]
+Glib_jll = "2.68.0-2"
+
+["0-0.3.3"]
+adwaita_icon_theme_jll = "3.33.92-3"
+
 ["0.1.1-0"]
 Graphics = "1"
 Reexport = "1"
+
+["0.3-0"]
+Glib_jll = "2.74.0-2"
+
+["0.3.3-0"]
+Preferences = "1"
+
+["0.3.4-0"]
+adwaita_icon_theme_jll = ["3", "43"]
+
+["0.4-0"]
+Graphene_jll = "1.10.0-1"
+Librsvg_jll = "2.54.0-2"
+Pango_jll = "1.50.0-1"

@@ -90,20 +90,87 @@ DataStructures = "0.0.0-0.17"
 ChainRulesCore = "0.4"
 
 ["6.100-6"]
-ArrayInterfaceCore = "0.1.19-0.1"
 Tricks = "0.1.6-0.1"
+
+["6.100-6.108"]
+ArrayInterfaceCore = "0.1.19-0.1"
 
 ["6.103"]
 SciMLBase = "1.54.1-1"
 
-["6.104-6"]
+["6.104-6.105"]
 SciMLBase = "1.56.1-1"
+
+["6.106.0"]
+SciMLBase = "1.70.0-1"
+
+["6.106.1-6.107"]
+SciMLBase = "1.72.0-1"
+
+["6.107-6.108"]
+Static = "0.7-0.8"
+
+["6.108-6.113"]
+SimpleNonlinearSolve = "0.1"
+
+["6.108-6.115.0"]
+SciMLBase = "1.73.0-1"
+
+["6.109-6"]
+ChainRulesCore = "1"
+Distributions = "0.25"
+DocStringExtensions = "0.9"
+FastBroadcast = "0.2"
+Reexport = "1"
+Requires = "1"
+
+["6.109-6.110"]
+Static = "0.8"
+
+["6.109-6.111"]
+Setfield = "1"
+
+["6.109-6.117"]
+StaticArrays = "1"
+
+["6.109-6.119"]
+ArrayInterfaceCore = "0.1.26-0.1"
 
 ["6.11-6"]
 RecursiveArrayTools = "2"
 
+["6.110-6"]
+PreallocationTools = "0.4"
+
+["6.111-6"]
+Static = "0.7-0.8"
+
+["6.112-6"]
+Setfield = ["0.8", "1"]
+
+["6.115.1-6.121"]
+SciMLBase = "1.84.0-1"
+
+["6.118-6"]
+StaticArraysCore = "1.4.0-1"
+
+["6.119-6"]
+EnumX = "1"
+
 ["6.12.3-6.13.0"]
 ChainRulesCore = "0.4-0.5"
+
+["6.120-6"]
+ArrayInterface = "7"
+
+["6.121-6"]
+TruncatedStacktraces = "1"
+
+["6.122-6"]
+SciMLBase = "1.90.0-1"
+
+["6.125-6"]
+SciMLOperators = "0.2"
 
 ["6.13.1-6.17"]
 ChainRulesCore = "0.4-0.6"
@@ -196,13 +263,13 @@ RecursiveFactorization = "0.1"
 ["6.5-6.88.1"]
 DocStringExtensions = "0.8"
 
-["6.50-6"]
+["6.50-6.108"]
 StaticArrays = ["0.11-0.12", "1"]
 
 ["6.51"]
 NonlinearSolve = "0.1-0.2"
 
-["6.52-6"]
+["6.52-6.107"]
 NonlinearSolve = "0.3"
 
 ["6.53-6.53.3"]
@@ -220,7 +287,7 @@ SciMLBase = "1.1.0-1"
 ["6.55-6.80"]
 ArrayInterface = "2.6.0-3"
 
-["6.57-6"]
+["6.57-6.108"]
 Reexport = ["0.2", "1"]
 
 ["6.58-6.59"]
@@ -259,7 +326,7 @@ ChainRulesCore = ["0.4-0.10", "1"]
 ["6.7-6.24"]
 ArrayInterface = "1.1.0-2"
 
-["6.70-6"]
+["6.70-6.108"]
 ChainRulesCore = ["0.10", "1"]
 
 ["6.71-6"]
@@ -275,7 +342,7 @@ PreallocationTools = "0.1"
 DEDataArrays = "0.2"
 RecursiveFactorization = "0.2"
 
-["6.74-6"]
+["6.74-6.108"]
 Distributions = "0.24-0.25"
 
 ["6.74-6.87"]
@@ -290,7 +357,7 @@ PreallocationTools = "0.2"
 ["6.77-6.88"]
 SciMLBase = "1.21.0-1"
 
-["6.8-6"]
+["6.8-6.108"]
 Requires = ["0.5", "1"]
 
 ["6.81"]
@@ -305,16 +372,16 @@ PreallocationTools = "0.2-0.3"
 ["6.87-6.99"]
 ArrayInterfaceCore = "0.1.1-0.1"
 
-["6.88-6"]
+["6.88-6.108"]
 Setfield = ["0.7-0.8", "1"]
 
-["6.88.2-6"]
+["6.88.2-6.108"]
 DocStringExtensions = "0.8-0.9"
 
 ["6.89"]
 SciMLBase = "1.38.0-1"
 
-["6.89.2-6"]
+["6.89.2-6.108"]
 FastBroadcast = "0.1.9-0.2"
 
 ["6.9-6"]
@@ -323,7 +390,7 @@ ZygoteRules = "0.2"
 ["6.90-6.97"]
 SciMLBase = "1.41.0-1"
 
-["6.95.3-6"]
+["6.95.3-6.106"]
 Static = "0.7"
 
 ["6.96-6"]

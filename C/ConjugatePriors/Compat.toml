@@ -1,11 +1,18 @@
-[0]
+["0-0.3"]
+julia = ["0.7", "1"]
+
+["0-0.4"]
 Distributions = "0.14.0-0.23"
 PDMats = "0.6.0-0.10"
 SpecialFunctions = "0.0.0-0.10"
 StatsFuns = "0.6.0-0.9"
 
-["0-0.3"]
-julia = ["0.7", "1"]
-
-["0.4-0"]
+["0.4"]
 julia = ["0.7.0", "1"]
+
+["0.5-0"]
+Distributions = "0.25"
+PDMats = "0.11"
+SpecialFunctions = "1.2.0-2"
+StatsFuns = ["0.9.15-0.9", "1"]
+julia = "1.6.0-1"

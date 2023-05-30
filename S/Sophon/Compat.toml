@@ -1,6 +1,5 @@
 [0]
 Adapt = "3"
-CUDA = "3"
 ChainRulesCore = "1"
 GPUArrays = "8"
 GPUArraysCore = "0.1"
@@ -13,7 +12,6 @@ ParameterSchedulers = "0.3"
 QuasiMonteCarlo = "0.2"
 SciMLBase = "1"
 StatsBase = "0.33"
-julia = "1.7.0-1"
 
 ["0-0.1.1"]
 Lux = "0.4"
@@ -24,11 +22,19 @@ NeuralPDE = "5"
 ["0-0.3.4"]
 ComponentArrays = "0.13"
 
+["0-0.3.7"]
+CUDA = "3"
+
+["0-0.4.2"]
+julia = "1.7.0-1"
+
 ["0.1.2-0.1.4"]
 Lux = "0.4.20-0.4"
 
 ["0.1.5-0"]
 Lux = "0.4"
+
+["0.1.5-0.3.7"]
 NeuralPDE = "5.2.0-5"
 
 ["0.2.2-0"]
@@ -39,15 +45,37 @@ Sobol = "1"
 ["0.2.8-0"]
 RuntimeGeneratedFunctions = "0.5"
 
-["0.3-0"]
-DomainSets = "0.5"
+["0.3-0.3.11"]
 Symbolics = "4"
+
+["0.3-0.3.7"]
+DomainSets = "0.5"
 
 ["0.3.1-0"]
 StaticArraysCore = "1"
 
+["0.3.12-0"]
+Symbolics = "4-5"
+
+["0.3.13-0"]
+Distributions = "0.25"
+
 ["0.3.3-0"]
 ForwardDiff = "0.10"
 
-["0.3.5-0"]
+["0.3.5-0.3.7"]
 ComponentArrays = "0.13.4-0.13"
+
+["0.3.8-0"]
+CUDA = "3-4"
+ComponentArrays = "0.13"
+DomainSets = "0.5-0.6"
+ModelingToolkit = "8"
+Requires = "1"
+
+["0.4-0"]
+MacroTools = "0.5"
+
+["0.4.3-0"]
+StaticArrays = "1.5.0-1"
+julia = "1.8.0-1"

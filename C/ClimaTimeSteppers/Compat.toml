@@ -1,7 +1,5 @@
 [0]
-CUDA = "3"
 DiffEqBase = "6"
-KernelAbstractions = "0.7-0.8"
 SciMLBase = "1"
 StaticArrays = "1"
 
@@ -9,14 +7,39 @@ StaticArrays = "1"
 MPI = "0.19"
 julia = "1.7.0-1"
 
+["0-0.7.2"]
+CUDA = "3"
+
+["0-0.7.3"]
+KernelAbstractions = "0.7-0.8"
+
 ["0.2-0"]
 DiffEqCallbacks = "2"
 
 ["0.2.5-0"]
-ClimaComms = "0.3.1-0.3"
 DataStructures = "0.18"
 julia = "1.8.0-1"
 
+["0.2.5-0.7.3"]
+ClimaComms = "0.3.1-0.3"
+
 ["0.2.6-0"]
-Krylov = "0.8"
 LinearOperators = "2"
+
+["0.2.6-0.6"]
+Krylov = "0.8"
+
+["0.7-0"]
+Krylov = "0.8-0.9"
+
+["0.7.3-0"]
+CUDA = "3-4"
+
+["0.7.4"]
+ClimaComms = "0.3.1-0.4"
+
+["0.7.4-0"]
+KernelAbstractions = "0.7-0.9"
+
+["0.7.5-0"]
+ClimaComms = "0.4-0.5"

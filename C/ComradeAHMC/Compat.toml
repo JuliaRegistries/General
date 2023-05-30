@@ -1,7 +1,5 @@
 [0]
-AbstractDifferentiation = "0.4"
 AbstractMCMC = "3-4"
-AdvancedHMC = "0.3"
 ArgCheck = "2"
 Reexport = "1"
 
@@ -9,6 +7,10 @@ Reexport = "1"
 Comrade = "0.3-0.4"
 TupleVectors = "0.1"
 julia = "1.6.0-1"
+
+["0-0.2"]
+AbstractDifferentiation = "0.4"
+AdvancedHMC = "0.3"
 
 ["0.2-0"]
 julia = "1.7.0-1"
@@ -19,8 +21,17 @@ TupleVectors = "0.1-0.2"
 ["0.2.0"]
 Comrade = "0.5"
 
-["0.2.1-0"]
+["0.2.1-0.2.2"]
 Comrade = "0.5-0.6"
 
 ["0.2.2-0"]
 TypedTables = "1"
+
+["0.2.3-0"]
+Comrade = "0.7"
+
+["0.3-0"]
+AdvancedHMC = "0.4"
+DocStringExtensions = "0.8-0.9"
+LogDensityProblems = "2"
+LogDensityProblemsAD = "1"

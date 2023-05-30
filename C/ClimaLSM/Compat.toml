@@ -12,9 +12,45 @@ Thermodynamics = "0.9"
 julia = "1.7.0-1"
 
 ["0.2-0"]
+IntervalSets = "0.5-0.7"
+julia = "1.8.0-1"
+
+["0.2.0"]
 CLIMAParameters = "0.6.5-0.6"
 ClimaCore = "0.10.12-0.10"
-IntervalSets = "0.5-0.7"
 SurfaceFluxes = "0.4.5-0.4"
 Thermodynamics = "0.9.2-0.9"
-julia = "1.8.0-1"
+
+["0.2.1"]
+ClimaCore = "0.10.18-0.10"
+SurfaceFluxes = "0.4.8-0.4"
+
+["0.2.1-0"]
+CLIMAParameters = "0.7"
+Thermodynamics = "0.9.2-0.10"
+
+["0.2.2"]
+ClimaComms = "0.3"
+ClimaCore = "0.10.24-0.10"
+ClimaCoreTempestRemap = "0.3"
+SurfaceFluxes = "0.5"
+
+["0.2.2-0"]
+ArtifactWrappers = "0.2"
+JLD2 = "0.4"
+NCDatasets = "0.11-0.12"
+
+["0.2.3"]
+Insolation = "0.3"
+
+["0.2.3-0"]
+ClimaComms = "0.3-0.4"
+ClimaCore = "0.10"
+ClimaCoreTempestRemap = "0.3.5-0.3"
+SurfaceFluxes = "0.6"
+
+["0.2.4"]
+Insolation = "0.5"
+
+["0.2.5-0"]
+Insolation = "0.6"

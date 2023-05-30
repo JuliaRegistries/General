@@ -28,14 +28,18 @@ MacroTools = "0.5"
 Preferences = "1"
 SpecialFunctions = "2"
 
-["0.6-0"]
-StorageOrders = "0.2"
-
 ["0.6-0.7"]
 HyperSparseMatrices = "0.2"
 SSGraphBLAS_jll = "6.2.1-6"
+
+["0.6-0.8"]
+StorageOrders = "0.2"
 
 ["0.8-0"]
 KLU = "0.4"
 SSGraphBLAS_jll = "7.2.0-7"
 julia = "1.7.0-1"
+
+["0.9-0"]
+Blobs = "0.5"
+StorageOrders = "0.3.1-0.3"

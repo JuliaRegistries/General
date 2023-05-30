@@ -1,9 +1,16 @@
 [0]
 DiffEqBase = "6"
-DiffEqOperators = "4"
-Latexify = "0.15"
 ModelingToolkit = "7-8"
 julia = "1.6.0-1"
 
+["0-0.1.4"]
+DiffEqOperators = "4"
+
+["0-0.1.6"]
+Latexify = "0.15"
+
 ["0.1.1-0"]
 RuntimeGeneratedFunctions = "0.5"
+
+["0.1.7-0"]
+Latexify = "0.15-0.16"

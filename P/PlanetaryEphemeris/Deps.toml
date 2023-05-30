@@ -2,9 +2,21 @@
 AutoHashEquals = "15f4f7f2-30c1-5605-9d31-71845cf9641f"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
-JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Quadmath = "be4d8f0f-7fa4-5f49-b795-2f01399ab2dd"
 TaylorIntegration = "92b13dbe-c966-51a2-8445-caca9f8a7d42"
 TaylorSeries = "6aa5eb33-94cf-58f4-a9d0-e4b2c4fc25ea"
+
+["0-0.2"]
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
+
+["0.3-0"]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+
+["0.3-0.5"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.6-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

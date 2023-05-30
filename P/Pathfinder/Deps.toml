@@ -12,11 +12,13 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 
 ["0.3-0"]
-AbstractDifferentiation = "c29ec348-61ec-40c8-8164-b8c60e9d9f3d"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 
 ["0.3-0.4.5"]
 GalacticOptim = "a75be94c-b780-496d-a8a9-0878b188d577"
+
+["0.3-0.6"]
+AbstractDifferentiation = "c29ec348-61ec-40c8-8164-b8c60e9d9f3d"
 
 ["0.3.3-0"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
@@ -30,7 +32,7 @@ IrrationalConstants = "92d709cd-6900-40b7-9082-c6be49f344b6"
 ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
-["0.4.1-0"]
+["0.4.1-0.7.2"]
 Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
 
 ["0.4.3-0"]
@@ -42,3 +44,6 @@ GalacticOptimJL = "9d3c5eb1-403b-401b-8c0f-c11105342e6b"
 ["0.4.6-0"]
 Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
 OptimizationOptimJL = "36348300-93cb-4f02-beb5-3c3902f8871e"
+
+["0.7-0"]
+LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"

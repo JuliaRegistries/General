@@ -1,5 +1,4 @@
 [0]
-ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
@@ -9,7 +8,19 @@ HypothesisTests = "09f84164-cd44-5f33-b23f-e6b0d136a0d5"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MultipleTesting = "f8716d33-7c4a-5097-896f-ce0ecbd3ef6b"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.1.1"]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
+
+["0.1.1"]
+Parsers = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
+
+["0.1.2-0"]
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"

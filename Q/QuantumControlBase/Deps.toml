@@ -4,11 +4,15 @@ QuantumPropagators = "7bf12567-5742-4b91-a078-644e72a65fc1"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0.0.3-0"]
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.0.3-0.8.2"]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 
 ["0.1-0"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
+["0.1-0.7"]
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
 
 ["0.2-0"]
@@ -20,9 +24,14 @@ Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 ["0.3-0"]
-ChainRules = "082447d4-558c-5d27-93f4-14fc19e9eca2"
 FiniteDifferences = "26cc04aa-876d-5657-8c51-4c34ba976000"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
+["0.3-0.7"]
+ChainRules = "082447d4-558c-5d27-93f4-14fc19e9eca2"
+
 ["0.4"]
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
+
+["0.8.1-0"]
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"

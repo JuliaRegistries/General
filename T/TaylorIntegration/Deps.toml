@@ -9,6 +9,11 @@ TaylorSeries = "6aa5eb33-94cf-58f4-a9d0-e4b2c4fc25ea"
 ["0-0.4"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0.11-0"]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+PkgBenchmark = "32113eaa-f34f-5b0d-bd6c-c81e245fc73d"
+
 ["0.5-0"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
@@ -22,9 +27,11 @@ InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 Elliptic = "b305315f-e792-5b7a-8f41-49f472929428"
 
 ["0.8.5-0"]
-OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.8.5-0.12"]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 
 ["0.9-0"]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"

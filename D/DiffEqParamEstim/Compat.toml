@@ -23,7 +23,7 @@ DiffEqSensitivity = "6"
 ["1.12"]
 Distributions = "0.21-0.22"
 
-["1.12-1"]
+["1.12-2"]
 RecursiveArrayTools = "1-2"
 
 ["1.13-1.14"]
@@ -38,7 +38,7 @@ PenaltyFunctions = "0.1-0.2"
 ["1.15-1.18"]
 LsqFit = "0.8-0.11"
 
-["1.17-1"]
+["1.17-2"]
 Dierckx = "0.4-0.5"
 
 ["1.18-1.22"]
@@ -47,27 +47,30 @@ Distributions = "0.21-0.24"
 ["1.19-1"]
 LsqFit = "0.8-0.12"
 
-["1.20-1"]
+["1.20-1.27"]
 SciMLBase = "1"
 
 ["1.22-1.23.0"]
 PreallocationTools = "0.2"
 
-["1.23-1"]
+["1.23-2"]
 Distributions = "0.25"
 julia = "1.6.0-1"
-
-["1.23.1-1"]
-PenaltyFunctions = "0.1-0.3"
 
 ["1.23.1-1.23"]
 PreallocationTools = "0.2-0.3"
 
-["1.24-1"]
+["1.23.1-2"]
+PenaltyFunctions = "0.1-0.3"
+
+["1.24-2"]
 PreallocationTools = "0.2-0.4"
 
 ["1.25-1"]
 SciMLSensitivity = "7"
+
+["1.28-2"]
+SciMLBase = "1.69.0-1"
 
 ["1.3-1.5"]
 Optim = "0.16.0-0.19"
@@ -112,8 +115,6 @@ DiffEqBase = "5.16.0-6"
 DiffEqSensitivity = "4.3.0-4"
 
 ["1.9-1"]
-Calculus = "0.5"
-DiffEqBase = "6"
 ForwardDiff = "0.10"
 
 ["1.9-1.10"]
@@ -128,3 +129,7 @@ PenaltyFunctions = "0.1"
 
 ["1.9-1.16"]
 Dierckx = "0.4"
+
+["1.9-2"]
+Calculus = "0.5"
+DiffEqBase = "6"

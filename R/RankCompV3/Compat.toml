@@ -1,4 +1,7 @@
 [0]
+julia = "1.7.0-1"
+
+["0-0.1.1"]
 ArgParse = "1.1.4-1"
 CSV = "0.9.10-0.9"
 DataFrames = "1.2.2-1"
@@ -6,4 +9,17 @@ Distributions = "0.25.29-0.25"
 HypothesisTests = "0.10.6-0.10"
 MultipleTesting = "0.5"
 RCall = "0.13.13-0.13"
-julia = "1.7.0-1"
+
+["0.1.1"]
+Parsers = "2.4.2-2"
+
+["0.1.2-0"]
+CSV = "0.10.9-0.10"
+CategoricalArrays = "0.10.7-0.10"
+DataFrames = "1.4.4-1"
+Distributions = "0.25.80-0.25"
+HypothesisTests = "0.10.11-0.10"
+MultipleTesting = "0.5.1-0.5"
+Plots = "1.38.4-1"
+StatsBase = "0.33.21-0.33"
+StatsPlots = "0.15.4-0.15"

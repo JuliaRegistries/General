@@ -4,8 +4,23 @@ DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0.2-0"]
-ImageAxes = "2803e5a7-5153-5ecf-9a86-9b4c37f5f5ac"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 
-["0.3-0"]
+["0.2-0.3"]
+ImageAxes = "2803e5a7-5153-5ecf-9a86-9b4c37f5f5ac"
+
+["0.3"]
 FLoops = "cc61a311-1640-44b5-9fba-1b764f453329"
+
+["0.4-0"]
+AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+RectiGrids = "8ac6971d-971d-971d-971d-971d5ab1a71a"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.4-0.4.5"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.4.6-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

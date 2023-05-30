@@ -2,8 +2,30 @@
 DataFrames = "1"
 DataStructures = "0.18"
 InfrastructureSystems = "1"
-PowerSimulations = "0.15"
-PowerSystems = "1"
 TimeSeries = "0.23"
 YAML = "0.4"
 julia = "1.6.0-1"
+
+["0-0.2"]
+PowerSystems = "1"
+
+["0-0.2.0"]
+PowerSimulations = "0.15"
+
+["0.2.1-0.2"]
+PowerSimulations = "0.16"
+
+["0.3-0"]
+PowerSystems = "2"
+
+["0.3.0"]
+PowerSimulations = "0.17"
+
+["0.3.1"]
+PowerSimulations = "0.18"
+
+["0.3.2"]
+PowerSimulations = "0.19"
+
+["0.3.3-0"]
+PowerSimulations = "0.20"

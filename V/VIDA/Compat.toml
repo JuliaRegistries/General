@@ -1,5 +1,4 @@
 [0]
-DocStringExtensions = "0.8"
 LaTeXStrings = "1.1.0-1"
 Parameters = "0.12"
 RecipesBase = "1"
@@ -13,6 +12,9 @@ Optim = "0.21"
 
 ["0-0.10.2"]
 BlackBoxOptim = "0.5"
+
+["0-0.10.8"]
+DocStringExtensions = "0.8"
 
 ["0-0.2"]
 PhysicalConstants = "0.2"
@@ -40,6 +42,12 @@ BlackBoxOptim = "0.5-0.6"
 HDF5 = "0.14-0.16"
 SpecialFunctions = ["0.10", "1-2"]
 
+["0.10.9-0"]
+DocStringExtensions = "0.8-0.9"
+FITSIO = "0.14-0.17"
+ImageFiltering = "0.6-0.7"
+Interpolations = "0.12-0.14"
+
 ["0.2"]
 FITSIO = "0.14-0.15"
 Optim = "0.20-0.22"
@@ -50,7 +58,7 @@ Documenter = "0.24-0.25"
 ["0.2-0.6"]
 DataFrames = "0.19-0.21"
 
-["0.3-0"]
+["0.3-0.10.8"]
 FITSIO = "0.14-0.16"
 
 ["0.3.0"]
@@ -63,9 +71,11 @@ Optim = "0.20-0.22"
 Interpolations = "0.12"
 
 ["0.6-0"]
-Interpolations = "0.12-0.13"
 Optim = ["0.20-0.22", "1"]
 Requires = "1.1.0-1"
+
+["0.6-0.10.8"]
+Interpolations = "0.12-0.13"
 
 ["0.6-0.8"]
 CMAEvolutionStrategy = "0.1"
@@ -76,11 +86,11 @@ Measures = "0.3"
 ["0.6.2-0.8"]
 HDF5 = "0.14"
 
-["0.7-0"]
-ImageFiltering = "0.6"
-
 ["0.7-0.10.7"]
 SpecialFunctions = ["0.10", "1"]
+
+["0.7-0.10.8"]
+ImageFiltering = "0.6"
 
 ["0.7-0.9"]
 DataFrames = "0.19-0.22"

@@ -1,7 +1,3 @@
-[0]
-Metis = "1"
-StatsFuns = "0.9"
-
 ["0-0.1"]
 LogicCircuits = "0.1"
 StatsBase = "0.32"
@@ -19,17 +15,17 @@ Reexport = "0.2"
 ["0-0.2.3"]
 BlossomV = "0.4"
 
+["0-0.3"]
+Metis = "1"
+StatsFuns = "0.9"
+
 ["0-0.3.0"]
 LightGraphs = "1.3.0-1"
 MetaGraphs = "0.6"
 SimpleWeightedGraphs = "1.1.0-1"
 
-["0.1.1-0"]
+["0.1.1-0.3"]
 Clustering = "0.14"
-
-["0.2-0"]
-StatsBase = "0.33"
-TikzGraphs = "1.1.0-1"
 
 ["0.2-0.2.2"]
 DataFrames = "0.21"
@@ -40,10 +36,14 @@ LoopVectorization = "0.8.20-0.8"
 CUDA = "2"
 MLDatasets = "0.4-0.5"
 
+["0.2-0.3"]
+StatsBase = "0.33"
+TikzGraphs = "1.1.0-1"
+
 ["0.2-0.3.0"]
 julia = "1.5.0-1"
 
-["0.2.2-0"]
+["0.2.2-0.3"]
 DataStructures = "0.17-0.18"
 
 ["0.2.3"]
@@ -54,15 +54,15 @@ LoopVectorization = ["0.8.20-0.8", "0.11"]
 ["0.2.3-0.3.0"]
 Reexport = ["0.2", "1"]
 
-["0.2.4-0"]
+["0.2.4-0.2"]
+LogicCircuits = "0.2.4-0.2"
+
+["0.2.4-0.3"]
 Distributions = "0.25"
 Requires = "1"
 Tables = "1"
 ThreadPools = "2"
 ZipFile = "0.9"
-
-["0.2.4-0.2"]
-LogicCircuits = "0.2.4-0.2"
 
 ["0.2.4-0.3.0"]
 CUDA = "2-3"
@@ -80,15 +80,26 @@ DirectedAcyclicGraphs = "0.1.1-0.1"
 LogicCircuits = "0.3.1-0.3"
 
 ["0.3.1-0"]
+MetaGraphs = "0.7"
+julia = "1.6.0-1"
+
+["0.3.1-0.3"]
 CUDA = "3"
 DataFrames = "1.2.0-1"
 Graphs = "1.4.0-1"
 LoopVectorization = "0.11-0.12"
-MetaGraphs = "0.7"
 Reexport = "1"
 SimpleWeightedGraphs = "1.2.0-1"
-julia = "1.6.0-1"
 
-["0.3.2-0"]
+["0.3.2-0.3"]
 DirectedAcyclicGraphs = "0.1.2-0.1"
 LogicCircuits = "0.3.2-0.3"
+
+["0.4-0"]
+CUDA = "3.8.1-3"
+ChowLiuTrees = "0.1.1-0.1"
+CodecZlib = "0.7"
+DirectedAcyclicGraphs = "0.1.3-0.1"
+Graphs = "1"
+SpecialFunctions = "2.1.0-2"
+TikzGraphs = "1.3.0-1"

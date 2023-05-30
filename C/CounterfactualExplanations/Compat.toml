@@ -1,33 +1,73 @@
-[0]
-BSON = "0.3"
-Plots = "1"
-julia = "1.5.0-1"
-
 ["0-0.1.1"]
 Flux = "0.12"
 NNlib = "0.8"
 
-["0.1.1-0"]
+["0-0.1.3"]
+Plots = "1"
+julia = "1.5.0-1"
+
+["0-0.1.5"]
+BSON = "0.3"
+
+["0.1.1-0.1.10"]
 StatsBase = "0.33"
 
+["0.1.10-0"]
+ChainRulesCore = "1.15.0-1"
+
+["0.1.11-0"]
+StatsBase = "0.33-0.34"
+
 ["0.1.2-0"]
-CUDA = "3"
-Coverage = "1"
 Flux = "0.12-0.13"
-MLUtils = "0.2"
 Parameters = "0.12"
+
+["0.1.2-0.1.3"]
+Coverage = "1"
+MLUtils = "0.2"
 ProgressMeter = "1"
 PyCall = "1"
 RCall = "0.13"
 
-["0.1.3-0"]
-DataFrames = "1"
+["0.1.2-0.1.5"]
+CUDA = "3"
+
+["0.1.3"]
 EvoTrees = "0.10"
 ForwardDiff = "0.10"
-LaplaceRedux = "0.1"
 MLJ = "0.18"
 MultivariateStats = "0.9"
+Zygote = "0.6"
+
+["0.1.3-0"]
+DataFrames = "1"
+LaplaceRedux = "0.1"
 NearestNeighborModels = "0.2"
 SliceMap = "0.2"
 UMAP = "0.1"
-Zygote = "0.6"
+
+["0.1.4-0"]
+CategoricalArrays = "0.10"
+MLJBase = "0.21.3-0.21"
+MultivariateStats = "0.9-0.10"
+julia = "1.7.0-1"
+
+["0.1.4-0.1.5"]
+MLUtils = "0.2-0.3"
+Plots = "1.37.2-1"
+
+["0.1.6-0"]
+CSV = "0.10"
+CUDA = "3-4"
+MLDatasets = "0.7"
+MLJModels = "0.16"
+MLUtils = "0.2-0.4"
+Plots = "1.38.2-1"
+ProgressMeter = "1"
+Tables = "1"
+
+["0.1.6-0.1.7"]
+PkgTemplates = "0.7"
+
+["0.1.9-0"]
+SnoopPrecompile = "1"

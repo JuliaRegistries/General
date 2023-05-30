@@ -1,7 +1,5 @@
 [7]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
-ArrayInterfaceTracker = "a2b0951a-f94f-4742-8780-617792921f9b"
 Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
@@ -32,13 +30,29 @@ Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 
+["7-7.20"]
+ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
+ArrayInterfaceTracker = "a2b0951a-f94f-4742-8780-617792921f9b"
+
 ["7-7.6.2"]
 DiffEqOperators = "9fdde737-9c7f-55bf-ade8-46b3f136cc48"
+
+["7.17-7"]
+SimpleNonlinearSolve = "727e6d20-b764-4bd8-a329-72de5adea6c7"
 
 ["7.2-7"]
 PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
 
-["7.4-7"]
+["7.21-7"]
+ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
+StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
+
+["7.25-7"]
+SciMLOperators = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
+SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
+TruncatedStacktraces = "781d530d-4396-4725-bb49-402e4bee1e77"
+
+["7.4-7.20"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["7.6-7"]

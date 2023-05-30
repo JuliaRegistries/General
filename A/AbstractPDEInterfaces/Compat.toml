@@ -1,8 +1,5 @@
 [0]
 LinearSolve = "1.23.3-1"
-Lux = "0.4.17-0.4"
-NNlib = "0.8.9-0.8"
-Plots = "1.31.7-1"
 Reexport = "1.2.2-1"
 SciMLBase = "1.50.1-1"
 Setfield = "1.1.0-1"
@@ -15,5 +12,20 @@ Lazy = "0.15.1-0.15"
 ["0-0.1.2"]
 SciMLOperators = "0.1.11-0.1"
 
-["0.1.3-0"]
+["0-0.2.1"]
+Lux = "0.4.17-0.4"
+NNlib = "0.8.9-0.8"
+Plots = "1.31.7-1"
+
+["0.1.3-0.1"]
 SciMLOperators = "0.1.13-0.1"
+
+["0.2-0"]
+SciMLOperators = "0.2"
+
+["0.2.2-0"]
+Adapt = "3"
+DocStringExtensions = "0.8-0.9"
+Functors = "0.2-0.4"
+Requires = "1"
+Tricks = "0.1.6-0.1"

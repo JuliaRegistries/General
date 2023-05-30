@@ -18,9 +18,16 @@ DelimitedFiles = "1.7.0-1"
 [1-2]
 julia = "1.7.0-1"
 
-[2]
+[2-3]
 Requires = "1"
 TOML = "1"
 
 ["2.0"]
 DelimitedFiles = "1.7.0-1"
+
+["2.1.1-2"]
+KernelAbstractions = "0.8"
+
+[3]
+KernelAbstractions = "0.9"
+julia = "1.8.0-1"

@@ -3,12 +3,8 @@ Accessors = "0.1"
 AstroTime = "0.6-0.7"
 Distributions = "0.24-0.25"
 FFTW = "1"
-KeywordCalls = "0.2"
 PaddedViews = "0.5"
-PyCall = "1"
 SpecialFunctions = ["0.10", "1-2"]
-StaticArrays = "1"
-StatsBase = "0.31-0.33"
 StructArrays = "0.3-0.6"
 julia = "1.6.0-1"
 
@@ -27,15 +23,24 @@ MeasureBase = "0.5"
 ["0-0.4"]
 MappedArrays = "0.3-0.4"
 
+["0-0.6"]
+KeywordCalls = "0.2"
+StaticArrays = "1"
+
 ["0-0.6.4"]
 DelimitedFiles = "1.6.0-1"
+
+["0-0.7"]
+StatsBase = "0.31-0.33"
+
+["0-0.7.4"]
+PyCall = "1"
 
 ["0.2"]
 ComradeBase = "0.2"
 
 ["0.2-0"]
 AbstractFFTs = "1"
-BasicInterpolators = "0.6"
 ChainRulesCore = "1"
 ForwardDiff = "0.9-0.10"
 Reexport = "1"
@@ -43,16 +48,16 @@ Reexport = "1"
 ["0.2-0.3"]
 MeasureTheory = "0.13"
 
+["0.2-0.6"]
+BasicInterpolators = "0.6"
+
 ["0.2.2"]
 NFFT = "0.10"
 
 ["0.2.2-0"]
-AbstractDifferentiation = "0.4"
 DensityInterface = "0.4"
 ParameterHandling = "0.4"
 RecipesBase = "1"
-Requires = "1"
-ValueShapes = "0.10"
 
 ["0.2.2-0.3"]
 HypercubeTransform = "0.2.4-0.2"
@@ -65,6 +70,13 @@ AbstractMCMC = "3"
 FillArrays = "0.12-0.13"
 TupleVectors = "0.1"
 
+["0.2.2-0.6"]
+Requires = "1"
+ValueShapes = "0.10"
+
+["0.2.2-0.7.1"]
+AbstractDifferentiation = "0.4"
+
 ["0.2.3-0.3.0"]
 NFFT = "0.10-0.11"
 
@@ -76,10 +88,12 @@ ComradeBase = "0.2.5-0.2"
 
 ["0.3.1-0"]
 AbstractMCMC = "3-4"
-FLoops = "0.2"
 
 ["0.3.1-0.3"]
 ComradeBase = "0.3"
+
+["0.3.1-0.6"]
+FLoops = "0.2"
 
 ["0.3.1-0.6.5"]
 NFFT = "0.10-0.12"
@@ -90,18 +104,22 @@ NamedTupleTools = "0.14"
 
 ["0.4-0"]
 DocStringExtensions = "0.6-0.9"
-MeasureBase = "0.7-0.9"
-MeasureTheory = "0.15-0.16"
 Tables = "1"
-TransformVariables = "0.5-0.6"
 
 ["0.4-0.5"]
 HypercubeTransform = "0.2.7-0.2"
 
+["0.4-0.6"]
+MeasureTheory = "0.15-0.16"
+TransformVariables = "0.5-0.6"
+
 ["0.4-0.6.4"]
 ComradeBase = "0.3.1-0.3"
 
-["0.5-0"]
+["0.4-0.6.9"]
+MeasureBase = "0.7-0.9"
+
+["0.5-0.6"]
 FileIO = "1"
 NamedTupleTools = "0.13-0.14"
 
@@ -114,16 +132,19 @@ FillArrays = "0.13"
 ["0.5-0.6.6"]
 FITSIO = "0.16"
 
-["0.6-0"]
+["0.6"]
 HypercubeTransform = "0.3"
 
-["0.6.1-0"]
+["0.6.1-0.6"]
 PrettyTables = "1"
 
-["0.6.4-0"]
+["0.6.10-0.6"]
+MeasureBase = "0.7"
+
+["0.6.4-0.7.7"]
 FillArrays = "0.12-0.13"
 
-["0.6.5-0"]
+["0.6.5-0.6"]
 ComradeBase = "0.3.4-0.3"
 
 ["0.6.6-0"]
@@ -131,3 +152,45 @@ NFFT = "0.10-0.13"
 
 ["0.6.7-0"]
 FITSIO = "0.16-0.17"
+
+["0.7-0"]
+AxisKeys = "0.2"
+BasicInterpolators = "0.6-0.7"
+ComradeBase = "0.4"
+FastBroadcast = "0.2"
+HypercubeTransform = "0.3-0.4"
+PDMats = "0.10-0.11"
+PrettyTables = "1-2"
+RectiGrids = "0.1"
+Static = "0.6-0.8"
+StaticArraysCore = "1"
+TransformVariables = "0.5-0.7"
+TypedTables = "1"
+VLBILikelihoods = "0.1"
+
+["0.7-0.7.2"]
+Enzyme = "0.10"
+
+["0.7.2-0"]
+LogDensityProblems = "2"
+
+["0.7.3-0"]
+NamedTupleTools = "0.13-0.14"
+
+["0.7.3-0.7.6"]
+Enzyme = "0.10-0.11"
+
+["0.7.5-0.7"]
+CondaPkg = "0.2"
+PythonCall = "0.9"
+
+["0.7.7-0.7"]
+Enzyme = "0.11"
+
+["0.7.8-0"]
+FillArrays = ["0.12-0.13", "1"]
+
+["0.8-0"]
+Enzyme = "0.11.0"
+Requires = "1"
+StatsBase = "0.31-0.34"

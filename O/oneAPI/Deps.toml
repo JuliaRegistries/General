@@ -1,4 +1,7 @@
-[0]
+["0-0.2.2"]
+SPIRV_LLVM_Translator_jll = "4a5d46fc-d8cf-5151-a261-86b458210efb"
+
+[0-1]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
 GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
@@ -11,18 +14,22 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SPIRV_Tools_jll = "6ac6d60f-d740-5983-97d7-a4482c0689f4"
 oneAPI_Level_Zero_Loader_jll = "13eca655-d68d-5b81-8367-6d99d727ab01"
 
-["0-0.2.2"]
-SPIRV_LLVM_Translator_jll = "4a5d46fc-d8cf-5151-a261-86b458210efb"
-
-["0.1.3-0"]
+["0.1.3-1"]
 ExprTools = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
-["0.1.4-0"]
+["0.1.4-1"]
 oneAPI_Level_Zero_Headers_jll = "f4bc562b-d309-54f8-9efb-476e56f0410d"
 
-["0.2.3-0"]
+["0.2.3-1"]
 SPIRV_LLVM_Translator_unified_jll = "85f0d8ed-5b39-5caa-b1ae-7472de402361"
 
-["0.3-0"]
+["0.3-1"]
 oneAPI_Support_jll = "b049733a-a71d-5ed3-8eba-7d323ac00b36"
+
+["1.2-1"]
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+UnsafeAtomicsLLVM = "d80eeb9a-aca5-4d75-85e5-170c8b632249"
+
+["1.2.2-1"]
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"

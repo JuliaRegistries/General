@@ -5,29 +5,37 @@ Symbolics = "0.1"
 ModelingToolkit = "5"
 
 [0-1]
-StaticArrays = "1"
 julia = "1"
+
+["0-1.1"]
+StaticArrays = "1"
 
 ["0.1.1-0.3.0"]
 Symbolics = ["0.1", "1"]
 
-["0.2-1"]
+["0.2-1.1"]
 RuntimeGeneratedFunctions = "0.5"
 
-["0.3-1"]
+["0.3-1.1"]
 DocStringExtensions = "0.8"
 
 ["0.3.1-0"]
 ModelingToolkit = "5-6"
 Symbolics = ["0.1", "1-3"]
 
-[1]
+["1-1.2"]
 Memoize = "0.4"
 
 ["1.0"]
 ModelingToolkit = "5-6"
 Symbolics = ["0.1", "1-3"]
 
+["1.1"]
+Symbolics = "4"
+
 ["1.1-1"]
 ModelingToolkit = "8"
-Symbolics = "4"
+
+["1.2-1"]
+DocStringExtensions = "0.9"
+Symbolics = "5"

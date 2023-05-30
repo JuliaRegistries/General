@@ -20,10 +20,7 @@ NearestNeighbors = "0.2-0.4"
 ["0.3.3-0"]
 Colors = "0.9-0.12"
 GeometryBasics = "0.1-0.4"
-ImageIO = "0.1-0.5"
-Interpolations = "0.10-0.13"
 MeshIO = "0.1-0.4"
-Parameters = "0.10-0.12"
 
 ["0.3.3-0.3"]
 DelimitedFiles = "1"
@@ -37,17 +34,26 @@ FileIO = "1.0-1.10"
 Geodesy = "1.0-1.0.1"
 SpecialFunctions = "1.0-1.6"
 
+["0.3.3-0.4.5"]
+ImageIO = "0.1-0.5"
+Parameters = "0.10-0.12"
+
+["0.3.3-0.4.6"]
+Interpolations = "0.10-0.13"
+
 ["0.3.7-0.4.4"]
 Requires = "1.0-1.1"
 
-["0.4-0"]
+["0.4-0.4.5"]
 DelimitedFiles = "1.6.0-1"
+
+["0.4-0.4.7"]
 julia = "1.6.0-1"
 
 ["0.4.0"]
 GeoParams = "0.2.7-0.2"
 
-["0.4.1-0"]
+["0.4.1-0.4.5"]
 GeoParams = "0.2-0.3"
 
 ["0.4.2"]
@@ -61,3 +67,24 @@ FileIO = "1"
 Geodesy = "1"
 Requires = "1-2"
 SpecialFunctions = "1-2"
+
+["0.4.6-0"]
+ImageIO = "0.1-0.6"
+Parameters = "0.9-0.12"
+
+["0.4.6-0.4.7"]
+GeoParams = "0.2-0.4"
+
+["0.4.7"]
+Interpolations = "0.10-0.14"
+
+["0.4.9-0"]
+GeoParams = "0.2-0.5"
+Interpolations = "0.13-0.14"
+
+["0.4.9-0.4"]
+julia = "1.7.0-1"
+
+["0.5-0"]
+GMT = "1"
+julia = "1.8.0-1"

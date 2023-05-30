@@ -1,14 +1,16 @@
 [0]
-DelimitedFiles = "1"
 DiffResults = "1"
 ForwardDiff = "0.10"
-julia = "1"
 
 ["0-0.1.0"]
 TimeSeriesEcon = "0.1"
 
 ["0-0.1.1"]
 ModelBaseEcon = "0.1"
+
+["0-0.3"]
+DelimitedFiles = "1"
+julia = "1"
 
 ["0.1.1"]
 TimeSeriesEcon = "0.2"
@@ -41,12 +43,25 @@ ModelBaseEcon = "0.3.3-0.3"
 ModelBaseEcon = "0.3.4-0.3"
 TimeSeriesEcon = "0.3.2-0.3"
 
+["0.3"]
+TimeSeriesEcon = "0.4"
+
 ["0.3-0"]
 JLD2 = "0.4"
-TimeSeriesEcon = "0.4"
 
 ["0.3.0"]
 ModelBaseEcon = "0.4"
 
-["0.3.1-0"]
+["0.3.1-0.3"]
 ModelBaseEcon = "0.4.1-0.4"
+
+["0.4-0"]
+julia = "1.7.0-1"
+
+["0.4.0"]
+ModelBaseEcon = "0.5"
+TimeSeriesEcon = "0.5"
+
+["0.4.1-0"]
+ModelBaseEcon = "0.5.2-0.5"
+TimeSeriesEcon = "0.5.1-0.5"

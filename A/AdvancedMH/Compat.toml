@@ -1,6 +1,3 @@
-[0]
-julia = "1"
-
 ["0-0.2"]
 AbstractMCMC = "0.1"
 Distributions = "0.21"
@@ -8,6 +5,9 @@ MCMCChains = ["0.4", "1"]
 
 ["0-0.3"]
 Reexport = "0.2"
+
+["0-0.6"]
+julia = "1"
 
 ["0.3"]
 AbstractMCMC = "0.3"
@@ -40,5 +40,10 @@ AbstractMCMC = "2-3"
 ["0.5.9-0"]
 Distributions = "0.20-0.25"
 
-["0.6.7-0"]
+["0.6.7-0.6"]
 AbstractMCMC = "2-4"
+
+["0.7-0"]
+AbstractMCMC = "4"
+LogDensityProblems = "2"
+julia = "1.6.0-1"

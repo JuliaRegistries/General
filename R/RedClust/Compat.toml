@@ -1,14 +1,19 @@
 [0]
+Match = "1.2.0-1"
+RCall = "0.13.8-0.13"
+
+[0-1]
 Clustering = "0.13.5-0.14"
 Distances = "0.10.3-0.10"
 Distributions = "0.25.42-0.25"
-Match = "1.2.0-1"
 ProgressBars = "1.4.0-1"
-RCall = "0.13.8-0.13"
 SpecialFunctions = "1.8.0-2"
 StatsBase = "0.33.8-0.33"
 julia = "1.7.0-1"
 
-["0.2-0"]
+["0.2-1"]
 LoopVectorization = "0.12.100-0.12"
 StaticArrays = "1.4.0-1"
+
+[1]
+HDF5 = "0.16.11-0.16"

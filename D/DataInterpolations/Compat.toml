@@ -21,11 +21,11 @@ julia = "1"
 ["1.0"]
 DataFrames = "0.19"
 
-[2-3]
-RecursiveArrayTools = "2"
-
 ["2-3.2.2"]
 Reexport = "0.2"
+
+[2-4]
+RecursiveArrayTools = "2"
 
 ["2.0.0"]
 GaussianProcesses = "0.11"
@@ -36,7 +36,7 @@ RecipesBase = "0.8"
 GaussianProcesses = "0.11-0.12"
 Optim = "0.19-0.21"
 
-["2.0.1-3"]
+["2.0.1-4"]
 RecipesBase = ["0.8", "1"]
 
 ["3.0.0"]
@@ -45,13 +45,16 @@ Optim = "0.19-0.21"
 ["3.0.1-3.1"]
 Optim = "0.19-0.22"
 
+["3.12-3"]
+Symbolics = ["4", "5.1.0-5"]
+
 ["3.2-3"]
 Optim = ["0.19-0.22", "1"]
 
 ["3.2-3.6"]
 julia = "1.3.0-1"
 
-["3.2.3-3"]
+["3.2.3-4"]
 Reexport = ["0.2", "1"]
 
 ["3.3"]
@@ -66,8 +69,10 @@ ChainRulesCore = "0.9.44-0.10"
 ["3.6-3"]
 ChainRulesCore = ["0.9.44-0.10", "1"]
 
-["3.7-3"]
+["3.7-3.11"]
 Symbolics = "4"
+
+["3.7-4"]
 julia = "1.6.0-1"
 
 ["3.8"]
@@ -75,3 +80,6 @@ RegularizationTools = "0.5"
 
 ["3.9-3"]
 RegularizationTools = "0.6"
+
+[4]
+Requires = "1"

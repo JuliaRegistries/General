@@ -1,12 +1,10 @@
 [0]
 BatchIterators = "1"
-DocStringExtensions = "0.8"
 FastHadamardStructuredTransforms_jll = "0.0.1"
 GaussianMixtures = "0.3"
 LBFGSB = "0.4"
 ProgressMeter = "1.5.0-1"
 Requires = "1.1.0-1"
-Roots = "1.0.8-1"
 Suppressor = "0.2"
 
 ["0-0.1"]
@@ -23,6 +21,10 @@ Ipopt = "0.6"
 SpecialFunctions = "0.10"
 StatsBase = "0.32.2-0.32"
 
+["0-0.2.0"]
+DocStringExtensions = "0.8"
+Roots = "1.0.8-1"
+
 ["0.1.6-0"]
 Clustering = "0.13-0.14"
 Distances = "0.8-0.10"
@@ -38,10 +40,20 @@ SpecialFunctions = ["0.10", "1"]
 ["0.2-0"]
 DataFrames = "1"
 Distributions = "0.22-0.25"
+KernelFunctions = "0.10"
+SpecialFunctions = ["0.10", "1-2"]
+julia = "1.6.0-1"
+
+["0.2.0"]
 Interpolations = "0.13"
 Ipopt = "0.6.5-0.9"
 JuMP = "0.21-0.22"
-KernelFunctions = "0.10"
 SCS = "0.7.1-0.9"
-SpecialFunctions = ["0.10", "1-2"]
-julia = "1.6.0-1"
+
+["0.2.1-0"]
+DocStringExtensions = "0.8-0.9"
+Interpolations = "0.13-0.14"
+Ipopt = ["0.6.5-0.9", "1"]
+JuMP = ["0.21-0.23", "1"]
+Roots = "1.0.8-2"
+SCS = ["0.7.1-0.9", "1"]

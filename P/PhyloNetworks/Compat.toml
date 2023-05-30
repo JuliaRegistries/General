@@ -20,15 +20,15 @@ Combinatorics = "0.7"
 StatsModels = "0.3-0.5"
 julia = ["0.7", "1"]
 
-["0.10-0"]
-StatsModels = "0.6"
-
 ["0.10-0.11"]
 BioSequences = "1.0.0-2"
 BioSymbols = "3.0.0-4"
 Combinatorics = "0.7.0-1"
 Distributions = "0.15.0-0.23"
 julia = ["0.7.0", "1"]
+
+["0.10-0.15"]
+StatsModels = "0.6"
 
 ["0.12"]
 CSV = "0.4-0.7"
@@ -39,7 +39,6 @@ Distributions = "0.15-0.23"
 ["0.12-0"]
 Combinatorics = ["0.7", "1"]
 GLM = "1.1.0-1"
-StatsBase = "0.26-0.33"
 julia = "1.1.0-1"
 
 ["0.12-0.14"]
@@ -53,6 +52,9 @@ BioSequences = "2"
 
 ["0.12-0.15.1"]
 FASTX = "1.1.0-1"
+
+["0.12-0.16.1"]
+StatsBase = "0.26-0.33"
 
 ["0.13"]
 DataFrames = "0.21-0.22"
@@ -85,7 +87,7 @@ StatsFuns = ["0.7-0.9", "1"]
 ["0.15.0"]
 Functors = "0.2"
 
-["0.15.1-0"]
+["0.15.1-0.15"]
 Functors = "0.2-0.3"
 
 ["0.15.2-0"]
@@ -93,3 +95,10 @@ FASTX = "1.1.0-2"
 
 ["0.15.3-0"]
 DataFrames = "1.3.0-1"
+
+["0.16-0"]
+Functors = "0.2-0.4"
+StatsModels = "0.6-0.7"
+
+["0.16.2-0"]
+StatsBase = "0.26-0.34"

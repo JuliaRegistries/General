@@ -1,12 +1,14 @@
 [0]
 Documenter = "0.27"
 OrderedCollections = "1"
-Polyester = "0.5-0.6"
 Requires = "1.2.0-1"
 julia = "1.6.0-1"
 
 ["0-0.4.5"]
 PlasmaEquilibriumToolkit = "0.4"
+
+["0-0.6"]
+Polyester = "0.5-0.6"
 
 ["0.4.1-0"]
 LineSearches = "7"
@@ -24,5 +26,15 @@ PlasmaEquilibriumToolkit = "0.4-0.5"
 ["0.5-0"]
 Distributions = "0.25"
 
-["0.5.6-0"]
+["0.5.6-0.6.5"]
 PlasmaEquilibriumToolkit = "0.5.5-0.5"
+
+["0.6.5-0"]
+JLD2 = "0.4"
+
+["0.6.6-0.6"]
+PlasmaEquilibriumToolkit = "0.5.5-0.6"
+
+["0.7-0"]
+PlasmaEquilibriumToolkit = "0.5.5-0.7"
+Polyester = "0.5-0.7"

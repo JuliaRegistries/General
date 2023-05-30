@@ -17,12 +17,14 @@ StatsFuns = "0.9"
 PSIS = "0.2"
 
 ["0.3-0"]
-AbstractDifferentiation = "0.4"
 ForwardDiff = "0.10"
 julia = "1.6.0-1"
 
 ["0.3-0.4.2"]
 GalacticOptim = "2"
+
+["0.3-0.6"]
+AbstractDifferentiation = "0.4"
 
 ["0.3.1-0.3.4"]
 PSIS = "0.2-0.3"
@@ -38,11 +40,13 @@ Folds = "0.2"
 Transducers = "0.4.5-0.4"
 
 ["0.4-0"]
-IrrationalConstants = "0.1.1-0.1"
 ProgressLogging = "0.1.4-0.1"
 UnPack = "1"
 
-["0.4.1-0"]
+["0.4-0.7.1"]
+IrrationalConstants = "0.1.1-0.1"
+
+["0.4.1-0.7.2"]
 Accessors = "0.1"
 
 ["0.4.3-0"]
@@ -52,9 +56,21 @@ SciMLBase = "1.8.1-1"
 GalacticOptim = "3"
 GalacticOptimJL = "0.1"
 
-["0.4.5-0"]
+["0.4.5-0.5.2"]
 PSIS = "0.2-0.5"
 
 ["0.4.6-0"]
 Optimization = "3"
 OptimizationOptimJL = "0.1"
+
+["0.5.3-0.5.4"]
+PSIS = "0.2-0.6"
+
+["0.5.5-0"]
+PSIS = "0.2-0.7"
+
+["0.7-0"]
+LogDensityProblems = "2"
+
+["0.7.2-0"]
+IrrationalConstants = "0.1.1-0.2"
