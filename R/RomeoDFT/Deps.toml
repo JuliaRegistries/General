@@ -18,12 +18,17 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 RemoteHPC = "c4f2a1c4-7655-40d8-82ee-c6ae0a8b7409"
 RemoteREPL = "1bd9f7bb-701c-4338-bec7-ac987af7c555"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
-SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 ThreadPools = "b189fb0b-2eb5-4ed4-bc0c-d34c51242431"
+
+["0-0.2.5"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 
 ["0.2-0"]
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+
+["0.2.7-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
