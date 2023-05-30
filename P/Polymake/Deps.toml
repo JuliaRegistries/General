@@ -2,13 +2,15 @@
 CxxWrap = "1f15a43c-97ca-5a2a-ae31-89f07a497df4"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 
 ["0-0.4"]
 BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 CMake = "631607c0-34d2-5d66-819e-eb0f9aa2061a"
+
+["0-0.9.0"]
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 
 ["0.3-0"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
@@ -20,13 +22,15 @@ Nemo = "2edaba10-b0f1-5616-af89-8c11ac63239a"
 LoadFlint = "472f376f-f1cf-461b-9ac1-d103423be9b7"
 
 ["0.5-0"]
-FLINT_jll = "e134572f-a0d5-539d-bddf-3cad8db41a82"
 Mongoc = "4fe8b98c-fc19-5c23-8ec2-168ff83495f2"
 MozillaCACerts_jll = "14a3606d-f60d-562e-9121-12d972cd8159"
 Ninja_jll = "76642167-d241-5cee-8c94-7a494e8cb7b7"
 Perl_jll = "83958c19-0796-5285-893e-a1267f8ec499"
 libpolymake_julia_jll = "4d8266f6-2b3b-57e3-ad7a-d431eaaac945"
 polymake_jll = "7c209550-9012-526c-9264-55ba7a78ba2c"
+
+["0.5-0.9.0"]
+FLINT_jll = "e134572f-a0d5-539d-bddf-3cad8db41a82"
 
 ["0.6.1-0"]
 BinaryWrappers = "f01c122e-0ea1-4f85-ad8f-907073ad7a9f"
