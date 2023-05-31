@@ -64,7 +64,6 @@ julia = "1.6.0-1"
 ArgParse = "1.1.0-1"
 EzXML = "1.1.0-1"
 Graphs = "1.4.1-1"
-HiGHS = "1.1.3-1"
 Hwloc = "2"
 Ipopt = ["0.9", "1.0.2-1"]
 JSONSchema = ["0.3.3-0.3", "1"]
@@ -76,6 +75,15 @@ PowerModelsProtection = "0.5.2-0.5"
 PowerModelsStability = "0.3.2-0.3"
 Requires = "1.1.3-1"
 
+["3-3.3"]
+HiGHS = "1.1.3-1"
+
+["3.3"]
+StatsBase = "0.33"
+
 ["3.3-3"]
 Combinatorics = "1"
-StatsBase = "0.33"
+
+["3.4-3"]
+HiGHS = "1.5.2-1"
+StatsBase = "0.33-0.34"
