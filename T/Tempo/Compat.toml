@@ -1,7 +1,13 @@
 [1]
 FunctionWrappers = "1"
 PrecompileTools = "1"
-RemoteFiles = "0.5"
 SMDGraphs = "0.1"
-SMDInterfacesUtils = "1"
 julia = "1"
+
+["1.0"]
+RemoteFiles = "0.5"
+SMDInterfacesUtils = "1"
+
+["1.1-1"]
+JSMDInterfaces = "1"
+JSMDUtils = "1"
