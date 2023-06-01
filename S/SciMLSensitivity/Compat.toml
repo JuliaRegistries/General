@@ -10,7 +10,6 @@ EllipsisNotation = "1"
 FiniteDiff = "2"
 ForwardDiff = "0.10"
 GPUArraysCore = "0.1"
-LinearSolve = "1"
 Parameters = "0.12"
 QuadGK = "2.1.0-2"
 RandomNumbers = "1.5.3-1"
@@ -32,6 +31,9 @@ OrdinaryDiffEq = "5.60.0-6"
 ["7-7.20"]
 ArrayInterfaceCore = "0.1.1-0.1"
 ArrayInterfaceTracker = "0.1"
+
+["7-7.32"]
+LinearSolve = "1"
 
 ["7-7.6.2"]
 DiffEqOperators = "4.34.0-4"
@@ -99,6 +101,9 @@ SparseDiffTools = "1"
 
 ["7.32-7"]
 SparseDiffTools = "2"
+
+["7.33-7"]
+LinearSolve = "1-2"
 
 ["7.4-7.20"]
 StaticArrays = "1"
