@@ -29,8 +29,10 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 SimpleNonlinearSolve = "727e6d20-b764-4bd8-a329-72de5adea6c7"
-SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
+
+["1-1.6"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 
 ["1.1-1"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
@@ -41,3 +43,6 @@ ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 
 ["1.5.1-1"]
 EnumX = "4e289a0a-7415-4d19-859d-a7e5c4648b56"
+
+["1.7-1"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
