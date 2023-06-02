@@ -24,7 +24,13 @@ TranscodingStreams = ["0.9.3-0.9", "1"]
 CodecBzip2 = "0.7"
 CodecLz4 = "0.4"
 CodecZlib = "0.7"
-DataStructures = "0.0.0-0.18"
 MacroTools = "0.5"
 TranscodingStreams = "0.9.3-0.9"
+
+["0.2.0"]
+DataStructures = "0.0.0-0.18"
 julia = "1.3.0-1"
+
+["0.2.1-0"]
+DataStructures = "0.18"
+julia = "1.8.0-1"
