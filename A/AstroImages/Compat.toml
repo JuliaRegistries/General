@@ -37,9 +37,15 @@ FileIO = "1.14.0-1"
 FileIO = "1.15.0-1"
 ImageIO = "0.6"
 
-["0.3.3-0"]
+["0.3.3-0.4.0"]
 SnoopPrecompile = "1"
 
 ["0.4-0"]
-DimensionalData = "0.23"
 FITSIO = "0.16-0.17"
+
+["0.4.0"]
+DimensionalData = "0.23"
+
+["0.4.1-0"]
+DimensionalData = "0.23-0.24"
+PrecompileTools = "1"
