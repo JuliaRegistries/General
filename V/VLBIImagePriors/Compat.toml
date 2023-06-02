@@ -7,8 +7,10 @@ Distributions = "0.24-0.25"
 Reexport = "1"
 SpecialFunctions = "1-2"
 StatsFuns = ["0.8-0.9", "1"]
-TransformVariables = "0.4-0.7"
 julia = "1.7.0-1"
+
+["0-0.1"]
+TransformVariables = "0.4-0.7"
 
 ["0-0.1.0"]
 HypercubeTransform = "0.3"
@@ -29,3 +31,9 @@ Enzyme = "0.10-0.11"
 DocStringExtensions = "0.8-0.9"
 Enzyme = "0.11"
 FillArrays = ["0.13", "1"]
+
+["0.2-0"]
+ComradeBase = "0.4"
+EnzymeCore = "0.3"
+StatsBase = "0.33-0.34"
+TransformVariables = "0.8"
