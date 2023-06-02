@@ -77,9 +77,11 @@ KernelAbstractions = "0.8"
 ["1.17-2"]
 Adapt = "3"
 DocStringExtensions = "0.8-0.9"
-LinearSolve = "1.15.0-1"
 SimpleDiffEq = "1"
 StaticArrays = "1"
+
+["1.17-2.2"]
+LinearSolve = "1.15.0-1"
 
 ["1.18-1"]
 ArrayInterfaceGPUArrays = "0.1-0.2"
@@ -124,3 +126,7 @@ KernelAbstractions = "0.8-0.9"
 
 ["2.1.1-2"]
 KernelAbstractions = "0.9"
+
+["2.4-2"]
+LinearSolve = "1.15.0-2"
+Setfield = "1"
