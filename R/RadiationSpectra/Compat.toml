@@ -43,7 +43,6 @@ Optim = "1"
 Random123 = "1"
 RecipesBase = "1"
 Requires = "1"
-StatsBase = "0.33"
 
 ["0.4-0.4.1"]
 LsqFit = "0.11"
@@ -54,6 +53,9 @@ ValueShapes = "0.7"
 
 ["0.4-0.5.3"]
 IntervalSets = "0.5"
+
+["0.4-0.5.7"]
+StatsBase = "0.33"
 
 ["0.4.0"]
 Distributions = "0.23"
@@ -99,3 +101,7 @@ NamedTupleTools = "0.13-0.14"
 
 ["0.5.4-0"]
 IntervalSets = "0.5-0.7"
+
+["0.5.8-0"]
+DelimitedFiles = "1"
+StatsBase = "0.33-0.34"
