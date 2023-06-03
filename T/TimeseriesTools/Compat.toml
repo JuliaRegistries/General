@@ -3,6 +3,16 @@ DimensionalData = "0.19-0.24"
 FFTW = "1"
 IntervalSets = "0.7"
 Reexport = "1"
-Requires = "1"
 Unitful = "1"
+
+["0-0.1"]
+Requires = "1"
 julia = "1.6.0-1"
+
+["0.4-0"]
+FileIO = "1"
+GeometryBasics = "0.4"
+JSON = "0.20-0.21"
+LaTeXStrings = "1"
+MakieCore = "0.4-0.6"
+julia = "1.7.0-1"
