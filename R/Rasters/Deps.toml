@@ -1,6 +1,5 @@
 [0]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
 ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -10,12 +9,9 @@ FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 Flatten = "4c728ea3-d9ee-5c9a-9642-b6f7d7dc04fa"
 GeoFormatTypes = "68eda718-8dee-11e9-39e7-89f7f65f511f"
 GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
-HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 Missings = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
 Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
-NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
-RasterDataSources = "3cb90ccd-e1b6-4867-9617-4276c8b2ca36"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
@@ -24,9 +20,17 @@ Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 ["0-0.5"]
 PolygonInbounds = "e4521ec6-8c1d-418e-9da2-b3bc4ae105d6"
 
+["0-0.7"]
+ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
+RasterDataSources = "3cb90ccd-e1b6-4867-9617-4276c8b2ca36"
+
 ["0.3-0"]
-CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
 Extents = "411431e0-e8b7-467b-b5e0-f676ba4f2910"
+
+["0.3-0.7"]
+CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
 
 ["0.5.2-0"]
 MakieCore = "20f20a25-4f0e-4fdf-b5d1-57303727442b"
