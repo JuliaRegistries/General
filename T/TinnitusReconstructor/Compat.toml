@@ -10,5 +10,11 @@ LibSndFile = "2"
 Memoize = "0.4"
 PortAudio = "1"
 SampledSignals = "2"
-StatsBase = "0.34"
 julia = "1.8.0-1"
+
+["0-0.1"]
+StatsBase = "0.34"
+
+["0.2-0"]
+DelimitedFiles = "1"
+StatsBase = "0.0.0-0.33"
