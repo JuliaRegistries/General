@@ -1,9 +1,11 @@
 [0]
-SafeTestsets = "0.0.1"
 Unitful = "1.11.0-1"
 
 ["0-0.1"]
 DocStringExtensions = "0.8.6-0.8"
+
+["0-0.10.1"]
+SafeTestsets = "0.0.1"
 
 ["0-0.2"]
 ModelingToolkit = "8.14.0-8"
@@ -13,6 +15,9 @@ julia = "1.6.0-1"
 
 ["0.10.1-0"]
 ModelingToolkit = "8.55.0-8"
+
+["0.10.2-0"]
+SafeTestsets = ["0.0.1", "0.1"]
 
 ["0.2-0.7"]
 DocStringExtensions = "0.8.6-0.9"
