@@ -11,7 +11,6 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 SCTransform = "f56ea72b-d1ea-403e-9c0c-95d94e8a8532"
 SingleCell10x = "eddce310-d14b-4c2d-aa06-cfe9e2f7af98"
-SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
@@ -28,3 +27,9 @@ SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 ThreadPools = "b189fb0b-2eb5-4ed4-bc0c-d34c51242431"
+
+["0-0.2.3"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.2.4-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
