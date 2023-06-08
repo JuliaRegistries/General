@@ -1,10 +1,25 @@
 [0]
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
-JSON2 = "2535ab7d-5cd8-5a07-80ac-9b1792aadce3"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
-Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
-PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+["0-0.1"]
+JSON2 = "2535ab7d-5cd8-5a07-80ac-9b1792aadce3"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
+
+["0.3-0"]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+KLU = "ef3ab10e-7fda-4108-b977-705223b18434"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
