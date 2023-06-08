@@ -1,6 +1,5 @@
 [0]
 DCAUtils = "e41cd558-3099-4f6e-a65d-5336857e40aa"
-Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 ExtractMacro = "f86d3d12-fd5b-522c-99e9-61577282a1e9"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -8,3 +7,9 @@ LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0-0.5"]
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+
+["0.6-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
