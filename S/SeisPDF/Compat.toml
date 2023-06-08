@@ -1,10 +1,15 @@
 [0]
 FFTW = "1"
 GDAL = "1"
-GMT = "0.41"
 SeisIO = "1"
 UnicodePlots = "2"
 julia = "1"
 
 ["0-0.0.1"]
 DelimitedFiles = "1"
+
+["0-0.0.2"]
+GMT = "0.41"
+
+["0.0.3-0"]
+GMT = "1"
