@@ -1,7 +1,9 @@
 [0]
 DifferentialEquations = "7"
-GraphNeuralNetworks = "0.4"
 NNlib = "0.8"
+
+["0-0.1"]
+GraphNeuralNetworks = "0.4"
 julia = "1.7.0-1"
 
 ["0-0.1.4"]
@@ -16,7 +18,7 @@ Lux = "0.4-0.4.6"
 ["0.1.6-0"]
 Lux = "0.4"
 
-["0.1.7-0"]
+["0.1.7-0.1"]
 CUDA = "3"
 
 ["0.1.8-0"]
@@ -24,5 +26,14 @@ Functors = "0.2-0.3"
 
 ["0.1.9-0"]
 Graphs = "1"
-MLUtils = "0.2"
 Reexport = "1"
+
+["0.1.9-0.1"]
+MLUtils = "0.2"
+
+["0.2-0"]
+CUDA = "3-4"
+ChainRulesCore = "1"
+GraphNeuralNetworks = "0.4-0.6"
+MLUtils = "0.2-0.3"
+julia = "1.8.0-1"
