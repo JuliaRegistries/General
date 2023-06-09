@@ -32,7 +32,7 @@ jobs:
           - '1'
           - 'nightly'
     steps:
-      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.3.0
+      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.3.0
       - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc # v1.9.2
         with:
           version: ${{ matrix.version }}
@@ -89,7 +89,7 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab
+      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9
       - run: rm -rf /tmp/manifest_updater
       - run: mkdir /tmp/manifest_updater
       - run: chmod 700 /tmp/manifest_updater

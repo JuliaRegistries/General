@@ -16,7 +16,7 @@ jobs:
       - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc # v1.9.2
         with:
           version: 1.7.2
-      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.3.0
+      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.3.0
       - name: Send to Twitter
         shell: julia --color=yes {0}
         run: |
