@@ -41,6 +41,10 @@ julia = "1"
 CitableParserBuilder = "0.24"
 StatsBase = "0.33-0.34"
 
+["0.11.6-0"]
+CitableObject = "0.16"
+CitableText = "0.16"
+
 ["0.2"]
 Downloads = "1.4.0-1"
 PolytonicGreek = "0.7"
@@ -116,13 +120,15 @@ CitablePhysicalText = "0.8"
 
 ["0.6.5-0"]
 CitableImage = "0.6"
-CitableObject = "0.15"
 CitablePhysicalText = "0.9"
-CitableText = "0.15"
 CiteEXchange = "0.10"
 
 ["0.6.5-0.10"]
 CitableAnnotations = "0.3"
+
+["0.6.5-0.11.5"]
+CitableObject = "0.15"
+CitableText = "0.15"
 
 ["0.7-0.10.1"]
 EditorsRepo = "0.17"
