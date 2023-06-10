@@ -1,7 +1,6 @@
 [0]
 StableRNGs = "1"
 Weave = "0.10"
-julia = "1.6.0-1"
 
 ["0-0.1"]
 AbstractTrees = "0.3"
@@ -20,6 +19,9 @@ ReinforcementLearning = "0.9"
 ReinforcementLearningEnvironments = "0.6"
 ReinforcementLearningZoo = "0.4"
 Setfield = "0.7"
+
+["0-0.3.0"]
+julia = "1.6.0-1"
 
 ["0.1.1-0.1"]
 ArcadeLearningEnvironment = "0.2"
@@ -49,6 +51,13 @@ Reexport = "1"
 
 ["0.3-0"]
 ReinforcementLearningBase = "0.12"
-ReinforcementLearningCore = "0.10"
 ReinforcementLearningEnvironments = "0.8"
+
+["0.3.0"]
+ReinforcementLearningCore = "0.10"
 ReinforcementLearningZoo = "0.7"
+
+["0.3.1-0"]
+ReinforcementLearningCore = "0.10-0.11"
+ReinforcementLearningZoo = "0.7-0.8"
+julia = "1.9.0-1"
