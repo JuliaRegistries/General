@@ -52,7 +52,6 @@ FileIO = "1.1.0-1"
 KernelDensity = "0.6"
 PlotUtils = "1"
 PooledArrays = "1"
-StatsBase = "0.33"
 Tables = "1.4.0-1"
 julia = "1.6.0-1"
 
@@ -65,6 +64,9 @@ DataAPI = "1"
 ["0.4-0.5.2"]
 GeometryBasics = "0.3"
 GridLayoutBase = "0.5"
+
+["0.4-0.6.15"]
+StatsBase = "0.33"
 
 ["0.4-0.6.7"]
 GeoInterface = "0.5"
@@ -129,6 +131,9 @@ SnoopPrecompile = "1"
 ["0.6.15-0"]
 Loess = ["0.5.1-0.5", "0.6.1-0.6"]
 PrecompileTools = "1"
+
+["0.6.16-0"]
+StatsBase = "0.33-0.34"
 
 ["0.6.6-0"]
 GLM = "1.7.0-1"
