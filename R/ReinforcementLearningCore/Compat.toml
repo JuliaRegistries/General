@@ -1,12 +1,12 @@
-[0]
-ProgressMeter = "1.2.0-1"
-
 ["0-0.1"]
 CuArrays = "1.7.0-1"
 Flux = "0.10"
 Reexport = "0.2"
 ReinforcementLearningBase = "0.5"
 julia = "1"
+
+["0-0.10"]
+ProgressMeter = "1.2.0-1"
 
 ["0-0.2"]
 StatsBase = "0.32"
@@ -19,6 +19,10 @@ MacroTools = "0.5"
 
 ["0.10-0"]
 ReinforcementLearningBase = "0.12"
+
+["0.11-0"]
+ProgressMeter = "1"
+julia = "1.9.0-1"
 
 ["0.2"]
 ReinforcementLearningBase = "0.6"
@@ -151,7 +155,7 @@ Functors = "0.1-0.2"
 ["0.7.4-0.8"]
 Compat = "3"
 
-["0.8-0"]
+["0.8-0.10"]
 julia = "1.6.0-1"
 
 ["0.8-0.8.10"]
