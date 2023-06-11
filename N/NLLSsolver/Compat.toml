@@ -1,9 +1,15 @@
 [1]
+LinearSolve = "1"
+VisualGeometryDatasets = "0.2"
+
+[1-2]
 FLoops = "0.2"
 ForwardDiff = "0.10"
 HybridArrays = "0.4"
 LDLFactorizations = "0.10"
-LinearSolve = "1"
 StaticArrays = "1"
-VisualGeometryDatasets = "0.2"
 julia = "1.6.0-1"
+
+[2]
+LinearSolve = "2.1.0-2"
+VisualGeometryDatasets = "0.2.1-0.2"
