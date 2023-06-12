@@ -61,7 +61,6 @@ julia = "1.1.0-1"
 
 ["1.3-1"]
 RecipesBase = ["0.7-0.8", "1"]
-StatsBase = "0.32-0.33"
 
 ["1.3-1.4"]
 LearnBase = "0.2-0.3"
@@ -70,6 +69,9 @@ PenaltyFunctions = "0.1-0.2"
 
 ["1.3-1.5.12"]
 SweepOperator = "0.2-0.3"
+
+["1.3-1.6.1"]
+StatsBase = "0.32-0.33"
 
 ["1.4.1-1"]
 julia = "1"
@@ -90,3 +92,6 @@ AbstractTrees = "0.3"
 Distributions = "0.25"
 SpecialFunctions = "2.1.0-2"
 StatsFuns = "1"
+
+["1.6.2-1"]
+StatsBase = "0.32-0.34"
