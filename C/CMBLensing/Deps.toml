@@ -22,7 +22,6 @@ Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
 Memoization = "6fafb56a-5788-4b4e-91ca-c0cea6611c73"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
@@ -37,6 +36,9 @@ Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 ["0-0.1.1"]
 ODE = "c030b06c-0b6d-57c2-b091-7029874bd033"
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+
+["0-0.10.0"]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 
 ["0-0.2"]
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
@@ -53,7 +55,15 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 ["0.10-0"]
 CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+
+["0.10.0"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.10.1-0"]
+Bijections = "e2ed5e7c-b2de-5872-ae92-c73ca462fb04"
+ComponentArrays = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
+MCMCDiagnosticTools = "be115224-59cd-429b-ad48-344e309966f0"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["0.2-0"]
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
@@ -73,7 +83,7 @@ Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
 ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
 ImageMorphology = "787d08f9-d448-5407-9aad-5290dd7ab264"
 
-["0.4-0"]
+["0.4-0.10.0"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
 ["0.4-0.6"]
@@ -97,12 +107,14 @@ Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
 
 ["0.9-0"]
-CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
 CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Healpix = "9f4e344d-96bc-545a-84a3-ae6b9e1b672b"
-KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 NFFT = "efe261a4-0d2b-5849-be55-fc731d526b0d"
 PlotUtils = "995b91a9-d308-5afd-9ec6-746e21dbc043"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
+
+["0.9-0.10.0"]
+CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
