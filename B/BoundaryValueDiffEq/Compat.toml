@@ -11,7 +11,7 @@ NLsolve = "0.14-4"
 ForwardDiff = "0.0.0-0.10"
 Reexport = "0.0.0-0.2"
 
-["2.10-2"]
+["2.10-3"]
 SciMLBase = "1.70.0-1"
 
 ["2.2-2.3"]
@@ -24,7 +24,6 @@ DiffEqDiffTools = "0.0.0-1"
 NLsolve = "0.0.0-4"
 
 ["2.3.1-2"]
-ForwardDiff = "0.10"
 NLsolve = "4.2.0-4"
 
 ["2.3.1-2.3"]
@@ -39,27 +38,35 @@ Reexport = "0.2"
 ["2.3.1-2.8"]
 DiffEqBase = "6.5.0-6"
 
-["2.4-2"]
-FiniteDiff = "2"
+["2.3.1-3"]
+ForwardDiff = "0.10"
 
 ["2.4-2.7"]
 julia = "1.3.0-1"
 
+["2.4-3"]
+FiniteDiff = "2"
+
 ["2.5-2.6"]
 BandedMatrices = "0.14-0.15"
 
-["2.6-2"]
+["2.6-3"]
 Reexport = ["0.2", "1"]
 
 ["2.7"]
 BandedMatrices = "0.14-0.16"
 
-["2.8-2"]
+["2.8-3"]
 BandedMatrices = "0.14-0.17"
 julia = "1.6.0-1"
 
 ["2.9"]
 SciMLBase = "1.43.0-1"
 
-["2.9-2"]
+["2.9-3"]
 DiffEqBase = "6.94.2-6"
+
+[3]
+NonlinearSolve = "1"
+Setfield = "1"
+TruncatedStacktraces = "1"
