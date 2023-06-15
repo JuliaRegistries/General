@@ -1,10 +1,18 @@
 [0]
-AbstractPDEInterfaces = "db474457-f03d-4fd7-b196-5f323c96c803"
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
+["0-0.2.1"]
+AbstractPDEInterfaces = "db474457-f03d-4fd7-b196-5f323c96c803"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+
 ["0.1.1-0"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0.2.2-0"]
+CalculustCore = "d7326954-f021-11ed-2a08-d10e464848f1"
+GPUArraysCore = "46192b85-c4d5-4398-a991-12ede77f4527"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+SciMLOperators = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
