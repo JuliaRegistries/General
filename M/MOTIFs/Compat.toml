@@ -8,15 +8,24 @@ Flux = "0.13.14-0.13"
 Zygote = "0.6.59-0.6"
 julia = "1.8.2-1"
 
-["0.1.1-0"]
+["0.1.1"]
 CUDA = "4.2.0-4"
+FastaLoader = "0.2.1-0.2"
+Flux = "0.13.16-0.13"
+Zygote = "0.6.61-0.6"
+julia = "1.9.0-1"
+
+["0.1.1-0"]
 DataFrames = "1.5.0-1"
 DataStructures = "0.18.13-0.18"
 FLoops = "0.2.1-0.2"
-FastaLoader = "0.2.1-0.2"
-Flux = "0.13.16-0.13"
 HypothesisTests = "0.10.13-0.10"
 Mustache = "1.0.15-1"
 StaticArrays = "1.5.25-1"
-Zygote = "0.6.61-0.6"
-julia = "1.9.0-1"
+
+["0.1.2-0"]
+CUDA = "3.12.1-3"
+Flux = "0.13.11-0.13"
+SeqShuffle = "0.2"
+Zygote = "0.6.51-0.6"
+julia = "1.7.0-1"
