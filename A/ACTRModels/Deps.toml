@@ -1,12 +1,14 @@
 [0]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.12.0"]
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0-0.6.5"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
@@ -14,7 +16,7 @@ Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 ["0.2-0"]
 SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
 
-["0.4.7-0"]
+["0.4.7-0.12.0"]
 SequentialSamplingModels = "0e71a2a6-2b30-4447-8742-d083a85e82d1"
 
 ["0.4.8-0.8.0"]
