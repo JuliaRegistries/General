@@ -198,7 +198,7 @@ As long as the package is not yet registered, renaming the package from
 * [Rename the GitHub repository][github-rename] to `NewName.jl`
 * Rename the file `src/OldName.jl` to `src/NewName.jl`
 * Rename the top-level module to `NewName`
-* Rename the package name in `Project.toml' from `OldName' to `NewName'
+* Rename the package name in `Project.toml` from `OldName` to `NewName`
 * Update tests, documentation, etc, to reference the new name
 * Once you are done renaming the package, retrigger registration.
   This will make a new pull request to General. It is helpful to comment
