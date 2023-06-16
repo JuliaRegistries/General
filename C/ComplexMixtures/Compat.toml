@@ -1,6 +1,3 @@
-[0]
-FortranFiles = "0.6"
-
 ["0-0.1.0"]
 PDBTools = "0.3"
 
@@ -15,6 +12,9 @@ ProgressMeter = "1.3.1-1"
 StructTypes = "1.1.0-1"
 ThreadPools = "1.1.3-1"
 
+[0-1]
+FortranFiles = "0.6"
+
 ["0.1.1-0.1.4"]
 PDBTools = "0.5"
 
@@ -27,26 +27,20 @@ julia = "1"
 ["0.1.5-0.4.3"]
 PDBTools = "0.5-1.0"
 
-["0.4.10-0"]
+["0.4.10-1"]
 StableRNGs = "1"
 
 ["0.4.14-0.5.8"]
 PDBTools = "0.12"
 
-["0.4.15-0"]
+["0.4.15-1"]
 StaticArrays = "1"
 
 ["0.4.20-0.5.8"]
 DocStringExtensions = "0.8"
 
-["0.4.25-0"]
+["0.4.25-1"]
 julia = "1.6.0-1"
-
-["0.4.4-0"]
-JSON3 = "1"
-Parameters = "0.12"
-ProgressMeter = "1"
-StructTypes = "1"
 
 ["0.4.4-0.4.13"]
 PDBTools = "0.11"
@@ -57,14 +51,17 @@ Chemfiles = "0.9"
 ["0.4.4-0.5.8"]
 ThreadPools = "1"
 
+["0.4.4-1"]
+JSON3 = "1"
+Parameters = "0.12"
+ProgressMeter = "1"
+StructTypes = "1"
+
 ["0.4.9-0.4.14"]
 StaticArrays = "0.12"
 
-["0.5.7-0"]
+["0.5.7-1"]
 Chemfiles = "0.9-0.10"
-
-["0.5.9-0"]
-DocStringExtensions = "0.8-0.9"
 
 ["0.5.9-0.5"]
 ThreadPools = "1-2"
@@ -72,12 +69,15 @@ ThreadPools = "1-2"
 ["0.5.9-0.6.0"]
 PDBTools = "0.12-0.13"
 
-["0.6-0"]
-CpuId = "0.3"
-TestItems = "0.1"
+["0.5.9-1"]
+DocStringExtensions = "0.8-0.9"
 
 ["0.6-0.6.2"]
 ChunkSplitters = "0.1"
+
+["0.6-1"]
+CpuId = "0.3"
+TestItems = "0.1"
 
 ["0.6.0"]
 CellListMap = "0.8.9-0.8"
@@ -85,18 +85,18 @@ CellListMap = "0.8.9-0.8"
 ["0.6.1"]
 CellListMap = "0.8.0-0.8.10"
 
-["0.6.1-0"]
+["0.6.1-1"]
 PDBTools = "0.13"
 
 ["0.6.2"]
 CellListMap = "0.8.12-0.8"
 
-["0.6.3-0"]
+["0.6.3-1"]
 CellListMap = "0.8.16-0.8"
 ChunkSplitters = ["0.1", "1"]
 
-["0.6.4-0"]
+["0.6.4-1"]
 RandomNumbers = "1.5.0-1"
 
-["0.6.5-0"]
+["0.6.5-1"]
 PrecompileTools = "1"
