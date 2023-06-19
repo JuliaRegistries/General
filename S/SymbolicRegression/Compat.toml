@@ -12,11 +12,11 @@ julia = "1.6.0-1"
 ["0.10.2-0.12"]
 PreallocationTools = "0.0.0-0.4.1"
 
-["0.13-0"]
-StatsBase = "0.33"
-
 ["0.13-0.13.2"]
 DynamicExpressions = "0.3"
+
+["0.13-0.19.0"]
+StatsBase = "0.33"
 
 ["0.13.3-0.13"]
 DynamicExpressions = "0.3.2-0.3"
@@ -55,6 +55,9 @@ LossFunctions = ["0.6-0.8", "0.10"]
 ["0.19-0"]
 DynamicExpressions = "0.9"
 Requires = "1"
+
+["0.19.1-0"]
+StatsBase = "0.33-0.34"
 
 ["0.2-0.5.12"]
 Optim = ["0.17", "1.1.0-1"]
