@@ -22,8 +22,13 @@ CUDA = "3.12.0-4"
 ["0.2.1"]
 AbstractPDEInterfaces = "0.2.1-0.2"
 
+["0.2.2"]
+SciMLOperators = ["0.2.11", "0.3"]
+
 ["0.2.2-0"]
 CalculustCore = "0.4"
 GPUArraysCore = "0.1"
 Requires = "1"
-SciMLOperators = ["0.2.11", "0.3"]
+
+["0.2.3-0"]
+SciMLOperators = "0.3"
