@@ -1,6 +1,5 @@
 [0]
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
@@ -14,7 +13,6 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 PlanetaryEphemeris = "d83715d0-7e5f-11e9-1a59-4137b20d8363"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Quadmath = "be4d8f0f-7fa4-5f49-b795-2f01399ab2dd"
-Query = "1a8c2f83-1ff3-5112-b086-8aa67b057ba1"
 SPICE = "5bab7191-041a-5c2e-a744-024b9c3a5062"
 SatelliteToolbox = "6ac157d9-b43d-51bb-8fab-48bf53814f4a"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
@@ -30,6 +28,10 @@ JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 ReferenceFrameRotations = "74f56ac7-18b3-5285-802d-d4bd4f104033"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
+["0-0.5"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Query = "1a8c2f83-1ff3-5112-b086-8aa67b057ba1"
+
 ["0.3"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
@@ -38,3 +40,6 @@ AutoHashEquals = "15f4f7f2-30c1-5605-9d31-71845cf9641f"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 IntervalRootFinding = "d2bf35a9-74e0-55ec-b149-d360ff49b807"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+
+["0.6-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
