@@ -1,12 +1,12 @@
-[0]
-Distributions = "0.25"
-SortingAlgorithms = "1"
-
 ["0-0.6.2"]
 LoopVectorization = "0.12"
 
 ["0-0.7.4"]
 julia = "1.6.0-1"
+
+["0-0.9.7"]
+Distributions = "0.25"
+SortingAlgorithms = "1"
 
 ["0.6.3-0.7.6"]
 LoopVectorization = "0.12.99-0.12"
@@ -18,11 +18,19 @@ StableRNGs = "1"
 julia = "1.7.0-1"
 
 ["0.8.2-0"]
-SnoopPrecompile = "1.0.1-1"
 julia = "1.8.0-1"
 
-["0.8.3-0"]
+["0.8.2-0.9.7"]
+SnoopPrecompile = "1.0.1-1"
+
+["0.8.3-0.9.7"]
 LoopVectorization = "0.12.141-0.12"
 
 ["0.9.7-0"]
 ThreadsX = "0.1.11-0.1"
+
+["0.9.8-0"]
+Distributions = "0.25.96-0.25"
+LoopVectorization = "0.12.159-0.12"
+PrecompileTools = "1.1.2-1"
+SortingAlgorithms = "1.1.1-1"
