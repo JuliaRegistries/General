@@ -8,7 +8,6 @@ GFlops = "2ea8233c-34d4-5acc-88b4-02f326385bcc"
 GR = "28b8d3ca-fb5f-59d9-8090-bfdbd6d07a71"
 GR_jll = "d2c73de3-f751-5644-a686-071e5b155ba9"
 IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
-IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 Jacobi = "83f21c0b-4282-5fbc-9e3f-f6da3d2e584c"
 LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
@@ -31,10 +30,13 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 TetGen = "c5d3f3f7-f850-59f6-8a2e-ffc6dc1317ea"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 Triangulate = "f7e6ffb2-c36d-4f8f-a77e-16e897189344"
-UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 WriteVTK = "64499a7a-5c06-52f2-abe2-ccb03c286192"
 
-["0.1.1-0"]
+["0-0.1.2"]
+IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0.1.1-0.1.2"]
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 
 ["0.1.2-0"]
