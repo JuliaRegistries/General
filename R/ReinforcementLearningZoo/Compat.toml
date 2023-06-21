@@ -139,9 +139,11 @@ Distributions = "0.25"
 Flux = "0.13"
 Functors = "0.2-0.4"
 LogExpFunctions = "0.3"
-NNlib = "0.8"
 Optim = "1"
 Zygote = "0.6"
+
+["0.6-0.8.0"]
+NNlib = "0.8"
 
 ["0.7"]
 ReinforcementLearningCore = "0.10"
@@ -153,3 +155,6 @@ StatsBase = "0.33-0.34"
 ["0.8-0"]
 ReinforcementLearningCore = "0.11"
 julia = "1.9.0-1"
+
+["0.8.1-0"]
+NNlib = "0.8-0.9"
