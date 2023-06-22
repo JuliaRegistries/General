@@ -1,21 +1,33 @@
 [0]
 AxisArrays = "0.4"
-DataFrames = ["0.21-0.22", "1"]
 FTPClient = "1"
-HDF5 = "0.15"
-HTTP = "0.9"
 JSON = "0.21"
 NetCDF = "0.11"
-PrettyTables = ["0.11-0.12", "1"]
 SQLite = "1"
-UnicodePlots = "1-2"
 YAML = "0.4"
 julia = "1"
 
 ["0-0.51"]
 CSV = "0.8"
 
+["0-0.53.0"]
+DataFrames = ["0.21-0.22", "1"]
+HDF5 = "0.15"
+HTTP = "0.9"
+PrettyTables = ["0.11-0.12", "1"]
+UnicodePlots = "1-2"
+
 ["0.52-0"]
-CSV = "0.8-0.9"
 Plots = "1"
 URIs = "1"
+
+["0.52-0.53.0"]
+CSV = "0.8-0.9"
+
+["0.53.1-0"]
+CSV = "0.8-0.10"
+DataFrames = "1"
+HDF5 = "0.16"
+HTTP = ["0.9", "1"]
+PrettyTables = "1-2"
+UnicodePlots = "2-3"
