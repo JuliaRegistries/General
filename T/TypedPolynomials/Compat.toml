@@ -13,7 +13,7 @@ MultivariatePolynomials = "0.2.1-0.3"
 ["0.2.2"]
 MultivariatePolynomials = "0.3.2-0.3"
 
-["0.2.2-0"]
+["0.2.2-0.3"]
 julia = "1"
 
 ["0.2.3"]
@@ -38,8 +38,14 @@ MutableArithmetics = "0.3"
 ["0.3.0"]
 MultivariatePolynomials = "0.4"
 
-["0.3.1-0"]
+["0.3.1-0.3"]
 MultivariatePolynomials = "0.4.1-0.4"
 
-["0.3.2-0"]
+["0.3.2-0.3"]
 MutableArithmetics = ["0.3", "1"]
+
+["0.4-0"]
+MultivariatePolynomials = "0.5"
+MutableArithmetics = "1"
+Reexport = "1"
+julia = "1.6.0-1"
