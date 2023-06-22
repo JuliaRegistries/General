@@ -3,12 +3,14 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 
 ["0-0.12"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+["0-0.18.0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.10-0"]
 Strided = "5e0ebb24-38b0-5f93-81fe-25c709ecae67"
