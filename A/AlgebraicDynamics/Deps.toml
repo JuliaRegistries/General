@@ -1,13 +1,15 @@
 [0]
 Catlab = "134e5e36-593f-5add-ad60-77f754baafbe"
 Compose = "a81c6b42-2e10-5240-aca2-a61377ecd94b"
-DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
-OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.1"]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 
 ["0-0.1.5"]
 DynamicalSystems = "61744808-ddfa-5f27-97ff-6e42cc95d634"
@@ -19,9 +21,11 @@ PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 CombinatorialSpaces = "b1c52339-7909-45ad-8b6a-6e388f7c67f2"
 
 ["0.1.5-0"]
-DelayDiffEq = "bcd4f6db-9728-5f36-b5f7-82caef46ccdb"
 LabelledArrays = "2ee39098-c373-598a-b85f-a56591580800"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 
-["0.1.7-0"]
+["0.1.5-0.1"]
+DelayDiffEq = "bcd4f6db-9728-5f36-b5f7-82caef46ccdb"
+
+["0.1.7-0.1"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
