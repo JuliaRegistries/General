@@ -3,6 +3,8 @@ Compose = "0.9.1-0.9"
 LinearMaps = "3.1.0-3"
 Plots = "1.10.0-1"
 RecursiveArrayTools = "2.10.0-2"
+
+["0-0.1"]
 julia = "1"
 
 ["0-0.1.0"]
@@ -38,17 +40,23 @@ PrettyTables = ["0.10-0.12", "1"]
 DynamicalSystems = "1.6.0-2"
 
 ["0.1.5-0"]
-DelayDiffEq = "5"
 LabelledArrays = "1"
 RecipesBase = "1"
+
+["0.1.5-0.1"]
+DelayDiffEq = "5"
 
 ["0.1.5-0.1.6"]
 Catlab = "0.11-0.13"
 
-["0.1.6-0"]
+["0.1.6-0.1"]
 DifferentialEquations = "6.16.0-7"
 OrdinaryDiffEq = "5.49.0-6"
 
-["0.1.7-0"]
+["0.1.7-0.1"]
 Catlab = "0.11-0.14"
 Requires = "1"
+
+["0.2-0"]
+Catlab = "0.15"
+julia = "1.9.0-1"
