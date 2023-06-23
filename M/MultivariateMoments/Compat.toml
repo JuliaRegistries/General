@@ -9,7 +9,7 @@ SemialgebraicSets = "0.0.0-0.2"
 MultivariatePolynomials = "0.1.0-0.3"
 RowEchelon = "0.0.0-0.1"
 
-["0.2-0"]
+["0.2-0.3"]
 julia = "1"
 
 ["0.2.2"]
@@ -24,7 +24,7 @@ SemialgebraicSets = "0.2"
 ["0.2.3-0.3.6"]
 MultivariatePolynomials = "0.3"
 
-["0.3-0"]
+["0.3"]
 MultivariateBases = "0.1"
 
 ["0.3.1-0"]
@@ -33,14 +33,22 @@ RowEchelon = "0.2"
 ["0.3.2-0.3.6"]
 MutableArithmetics = "0.2.10-0.2"
 
-["0.3.6-0"]
+["0.3.6-0.3"]
 SemialgebraicSets = "0.2.3-0.2"
 
-["0.3.7-0"]
+["0.3.7-0.3"]
 MultivariatePolynomials = "0.4"
 
 ["0.3.7-0.3.8"]
 MutableArithmetics = "0.3"
 
-["0.3.9-0"]
+["0.3.9-0.3"]
 MutableArithmetics = ["0.3", "1"]
+
+["0.4-0"]
+CommonSolve = "0.2"
+MultivariateBases = "0.2"
+MultivariatePolynomials = "0.5"
+MutableArithmetics = "1"
+SemialgebraicSets = "0.3"
+julia = "1.6.0-1"
