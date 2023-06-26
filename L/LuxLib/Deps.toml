@@ -20,11 +20,14 @@ ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 ["0.1.13-0.1"]
 LuxCUDA = "d0bbae9a-e099-4d5b-a835-1c6931763bda"
 
-["0.1.9-0"]
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
-
 ["0.1.9-0.1"]
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 
+["0.1.9-0.2.4"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
 ["0.2-0"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.2.5-0"]
+PackageExtensionCompat = "65ce6f38-6b18-4e1d-a461-8949797d7930"
