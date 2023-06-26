@@ -4,5 +4,10 @@ ChainRulesCore = "1"
 Functors = "0.2-0.4"
 LuxCore = "0.1.4-0.1"
 Preferences = "1"
-Requires = "1"
 julia = "1.6.0-1"
+
+["0-0.1.0"]
+Requires = "1"
+
+["0.1.1-0"]
+PackageExtensionCompat = "1"
