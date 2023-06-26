@@ -2,8 +2,6 @@
 CategoricalArrays = "0.10"
 Glob = "1.3.0-1"
 LambdaFn = "0.3"
-StatsBase = "0.33"
-julia = "1.6.0-1"
 
 ["0-0.1.2"]
 Pipe = "1.3.0-1"
@@ -16,9 +14,15 @@ CFTime = "0.1"
 CSV = "0.10"
 DataFrames = "1.3.0-1"
 
+["0-0.1.6"]
+StatsBase = "0.33"
+julia = "1.6.0-1"
+
 ["0.1.1-0"]
-NaNStatistics = "0.6"
 Reexport = "1.2.0-1"
+
+["0.1.1-0.1.6"]
+NaNStatistics = "0.6"
 
 ["0.1.3"]
 Plots = "1.27.0-1"
@@ -29,3 +33,10 @@ DimensionalData = "0.20-0.21"
 ["0.1.4-0"]
 DocStringExtensions = "0.8-0.9"
 MutableNamedTuples = "0.1"
+
+["0.1.7-0"]
+NaNStatistics = "0.6.27-0.6"
+PrecompileTools = "1.1.0-1"
+StatsBase = "0.33-0.34"
+TimerOutputs = "0.5"
+julia = "1.7.0-1"
