@@ -239,11 +239,13 @@ Optim = "1"
 PDMats = "0.11"
 Reexport = "1"
 Requires = "1"
-StanSample = "6"
 StructArrays = "0.6"
 
 ["3-3.1"]
 Turing = "0.21"
+
+["3-3.4"]
+StanSample = "6"
 
 ["3.0"]
 LogDensityProblems = "0.11"
@@ -265,8 +267,14 @@ DocStringExtensions = "0.8-0.9"
 LogDensityProblems = "1"
 Turing = "0.22-0.23"
 
+["3.4"]
+Turing = "0.25"
+
 ["3.4-3"]
 LogDensityProblemsAD = "1"
 TransformVariables = "0.8"
-Turing = "0.25"
 julia = "1.7.0-1"
+
+["3.5-3"]
+StanSample = "6-7"
+Turing = "0.25-0.26"
