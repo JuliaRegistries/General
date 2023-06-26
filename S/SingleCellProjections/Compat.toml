@@ -9,7 +9,6 @@ NearestNeighbors = "0.4"
 Requires = "1.2.0-1"
 SCTransform = "0.1"
 SingleCell10x = "0.1"
-SnoopPrecompile = "1"
 StaticArrays = ["0.12", "1"]
 ThreadedSparseArrays = "0.2"
 julia = "1.8.0-1"
@@ -23,3 +22,9 @@ ProgressMeter = "1"
 Scratch = "1.1.0-1"
 SpecialFunctions = ["0.10", "1-2"]
 ThreadPools = "1.2.0-2"
+
+["0-0.2.3"]
+SnoopPrecompile = "1"
+
+["0.2.4-0"]
+PrecompileTools = "1"

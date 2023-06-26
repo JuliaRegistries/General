@@ -1,7 +1,12 @@
 [0]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
-IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Polyhedra = "67491407-f73d-577b-9b50-8179a7c68029"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.1"]
+IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
+Polyhedra = "67491407-f73d-577b-9b50-8179a7c68029"
+
+["0.2-0"]
+FunctionWrappers = "069b7b12-0de2-55c6-9aab-29f3d0a68a2e"

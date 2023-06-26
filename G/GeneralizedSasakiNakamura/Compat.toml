@@ -1,7 +1,15 @@
 [0]
 DifferentialEquations = "7"
 Interpolations = "0.14"
-QuadGK = "2"
 Roots = "2"
+
+["0-0.2"]
+QuadGK = "2"
 SpinWeightedSpheroidalHarmonics = "0.3"
 julia = "1"
+
+["0.3-0"]
+ForwardDiff = "0.10"
+SpinWeightedSpheroidalHarmonics = "0.5"
+TaylorSeries = "0.15"
+julia = "1.8.0-1"

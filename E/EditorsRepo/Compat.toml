@@ -143,10 +143,12 @@ CitablePhysicalText = "0.8"
 
 ["0.16.5-0"]
 CitableImage = "0.6"
-CitableObject = "0.15"
 CitablePhysicalText = "0.9"
-CitableText = "0.15"
 CiteEXchange = "0.10"
+
+["0.16.5-0.18.5"]
+CitableObject = "0.15"
+CitableText = "0.15"
 
 ["0.17.3-0.18.0"]
 CitableTeiReaders = "0.8-0.9"
@@ -166,18 +168,30 @@ CitableTeiReaders = "0.10"
 Orthography = "0.17"
 
 ["0.18.2-0"]
-DocStringExtensions = "0.8-0.9"
 EditionBuilders = "0.8"
 Tables = "1"
 julia = "1"
 
+["0.18.2-0.18.5"]
+DocStringExtensions = "0.8-0.9"
+
 ["0.18.3-0"]
 CitableCorpus = "0.13"
-Orthography = "0.18"
 PolytonicGreek = "0.18"
+
+["0.18.3-0.18.4"]
+Orthography = "0.18"
 
 ["0.18.4-0"]
 ManuscriptOrthography = "0.4"
+
+["0.18.5-0"]
+Orthography = "0.21"
+
+["0.18.6-0"]
+CitableObject = "0.16"
+CitableText = "0.16"
+DocStringExtensions = "0.9"
 
 ["0.2.1-0.7.3"]
 CitableObject = "0.2"

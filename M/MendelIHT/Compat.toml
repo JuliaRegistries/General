@@ -4,8 +4,10 @@ Distances = "0.10"
 GLM = "1"
 ProgressMeter = "1"
 Reexport = "1"
-ThreadPools = "2"
 julia = "1.5.0-1"
+
+["1-1.4.10"]
+ThreadPools = "2"
 
 ["1-1.4.2"]
 Distributions = "0.24"
@@ -19,6 +21,9 @@ DelimitedFiles = "1.5.0-1"
 
 ["1-1.4.8"]
 StatsBase = "0.33"
+
+["1.4.10-1"]
+DelimitedFiles = "1"
 
 ["1.4.3-1"]
 Distributions = "0.24-0.25"

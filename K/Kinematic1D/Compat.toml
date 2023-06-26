@@ -16,9 +16,24 @@ OrdinaryDiffEq = "6.13.0-6"
 ["0-0.1.0"]
 CloudMicrophysics = "0.6"
 
-["0.1.1-0"]
+["0.1.1-0.2"]
 CloudMicrophysics = "0.8"
 
-["0.2-0"]
+["0.2"]
 DiffEqBase = "6.84"
 OrdinaryDiffEq = "5.64.0-5"
+
+["0.3-0"]
+CloudMicrophysics = "0.10"
+DiffEqBase = "6.75.0-6"
+Distributions = "0.25"
+Interpolations = "0.14"
+JLD2 = "0.4"
+Optim = "1.7.0-1"
+OrdinaryDiffEq = "6.29.0-6"
+
+["0.3.0"]
+EnsembleKalmanProcesses = "0.13"
+
+["0.3.1-0"]
+EnsembleKalmanProcesses = "1.1.0-1"

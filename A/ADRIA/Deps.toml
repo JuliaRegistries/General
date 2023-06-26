@@ -18,7 +18,6 @@ GeoFormatTypes = "68eda718-8dee-11e9-39e7-89f7f65f511f"
 GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 HypothesisTests = "09f84164-cd44-5f33-b23f-e6b0d136a0d5"
-IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -35,7 +34,6 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 RelocatableFolders = "05181044-ff0b-4ac5-8273-598c1e38db00"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
-SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 SparseArrayKit = "a9a3c162-d163-4c15-8926-b8794fbefed2"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
@@ -53,6 +51,20 @@ NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
 ["0-0.4.4"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
+["0-0.5"]
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
 ["0.5-0"]
 AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+["0.6-0"]
+Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+JMcDM = "358108f5-d052-4d0a-8344-d5384e00c0e5"
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"

@@ -31,6 +31,12 @@ StatsPlots = "0.14"
 VegaLite = "2.3.0-2"
 julia = "1.5.0-1"
 
+["1.1"]
+StatsBase = "0.33"
+StatsModels = "0.6"
+VegaLite = "2"
+julia = "1.8.0-1"
+
 ["1.1-1"]
 BandedMatrices = "0.17"
 BlackBoxOptim = "0.6"
@@ -56,9 +62,11 @@ Optim = "1.7.0-1"
 Plots = "1"
 ProgressMeter = "1.7.0-1"
 SpecialFunctions = ["0.10", "1-2"]
-StatsBase = "0.33"
 StatsFuns = ["0.9", "1"]
-StatsModels = "0.6"
 StatsPlots = "0.14-0.15"
-VegaLite = "2"
-julia = "1.8.0-1"
+
+["1.2-1"]
+StatsBase = "0.33-0.34"
+StatsModels = "0.6-0.7"
+VegaLite = "2-3"
+julia = "1.9.0-1"

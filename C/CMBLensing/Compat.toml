@@ -4,7 +4,6 @@ FileIO = "1.2.2-1"
 Loess = "0.5"
 Match = "1.1.0-1"
 ProgressMeter = "1.2.0-1"
-PyCall = "1.91.2-1"
 QuadGK = "2.3.1-2"
 
 ["0-0.1.0"]
@@ -16,6 +15,9 @@ Measurements = "2.2.0-2"
 ODE = "2.6.0-2"
 PyPlot = "2.8.2-2"
 Requires = "1.0.1-1"
+
+["0-0.10.0"]
+PyCall = "1.91.2-1"
 
 ["0-0.2"]
 Images = "0.21.1-0.21"
@@ -58,8 +60,17 @@ Requires = ["0.5", "1"]
 CodecZlib = "0.7"
 JLD2 = "0.4.30-0.4"
 Memoization = "0.2"
+
+["0.10.0"]
 SnoopPrecompile = "1"
 julia = "1.7.0-1"
+
+["0.10.1-0"]
+Bijections = "0.1"
+ComponentArrays = "0.13"
+MCMCDiagnosticTools = "0.3"
+PrecompileTools = "1"
+julia = "1.8.0-1"
 
 ["0.2"]
 Zygote = "0.4.14-0.4.15"
@@ -161,7 +172,6 @@ julia = "1.6.0-1"
 Setfield = "0.6-0.8"
 
 ["0.8-0"]
-CUDA = "3.4.0-3"
 ChainRules = "1.5.0-1"
 CompositeStructs = "0.1.1-0.1"
 Distributions = "0.25"
@@ -172,6 +182,9 @@ PDMats = "0.11.5-0.11"
 Preferences = "1.2.0-1"
 Tullio = "0.3"
 Zygote = "0.6.21-0.6"
+
+["0.8-0.10.0"]
+CUDA = "3.4.0-3"
 
 ["0.9-0"]
 CoordinateTransformations = "0.6.2-0.6"
@@ -189,6 +202,6 @@ Setfield = ["0.6-0.8", "1"]
 CUDAKernels = "0.4.3-0.4"
 KernelAbstractions = "0.8.6-0.8"
 
-["0.9.1-0"]
+["0.9.1-0.10.0"]
 CUDAKernels = "0.3.3-0.4"
 KernelAbstractions = "0.7.3-0.8"

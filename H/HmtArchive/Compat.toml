@@ -22,18 +22,28 @@ EditorsRepo = "0.18"
 
 ["0.10.3-0"]
 CitableCorpus = "0.13"
-CitableParserBuilder = "0.23"
 CitableTeiReaders = "0.10"
 DocStringExtensions = "0.9"
 EditionBuilders = "0.8"
 HTTP = "1"
 PolytonicGreek = "0.18"
 
+["0.10.3-0.11.1"]
+CitableParserBuilder = "0.23"
+
 ["0.11-0"]
 CitableAnnotations = "0.4"
 Compat = "4"
 TestSetExtensions = "2"
 julia = "1"
+
+["0.11.2-0"]
+CitableParserBuilder = "0.24"
+StatsBase = "0.33-0.34"
+
+["0.11.6-0"]
+CitableObject = "0.16"
+CitableText = "0.16"
 
 ["0.2"]
 Downloads = "1.4.0-1"
@@ -60,10 +70,12 @@ Documenter = "0.27"
 Downloads = "1"
 EzXML = "1"
 FreqTables = "0.4"
-StatsBase = "0.33"
 
 ["0.3-0.10.1"]
 PolytonicGreek = "0.13"
+
+["0.3-0.11.1"]
+StatsBase = "0.33"
 
 ["0.4-0"]
 CitableBase = "10"
@@ -108,13 +120,15 @@ CitablePhysicalText = "0.8"
 
 ["0.6.5-0"]
 CitableImage = "0.6"
-CitableObject = "0.15"
 CitablePhysicalText = "0.9"
-CitableText = "0.15"
 CiteEXchange = "0.10"
 
 ["0.6.5-0.10"]
 CitableAnnotations = "0.3"
+
+["0.6.5-0.11.5"]
+CitableObject = "0.15"
+CitableText = "0.15"
 
 ["0.7-0.10.1"]
 EditorsRepo = "0.17"

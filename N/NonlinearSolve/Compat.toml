@@ -67,11 +67,15 @@ RecursiveFactorization = "0.1-0.2"
 
 [1]
 DiffEqBase = "6"
-LinearSolve = "1"
-SciMLBase = "1.73.0-1"
 SimpleNonlinearSolve = "0.1"
-SnoopPrecompile = "1"
 StaticArraysCore = "1.4.0-1"
+
+["1-1.6"]
+LinearSolve = "1"
+SnoopPrecompile = "1"
+
+["1-1.7"]
+SciMLBase = "1.73.0-1"
 
 ["1.0"]
 ArrayInterfaceCore = "0.1.1-0.1"
@@ -91,3 +95,10 @@ ArrayInterface = "6.0.24-7"
 ["1.5.1-1"]
 EnumX = "1"
 SparseDiffTools = "1-2"
+
+["1.7-1"]
+LinearSolve = "2"
+PrecompileTools = "1"
+
+["1.8-1"]
+SciMLBase = "1.92.4-1"

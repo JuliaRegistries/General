@@ -27,14 +27,14 @@ julia = "1"
 LightGraphs = "1"
 SimpleWeightedGraphs = "1"
 
-["0.1.1-0"]
-StatsBase = "0.32-0.33"
-
 ["0.1.1-0.1.3"]
 ManifoldsBase = "0.7.3-0.7"
 
 ["0.1.1-0.1.7"]
 Distributions = "0.22-0.23"
+
+["0.1.1-0.8.69"]
+StatsBase = "0.32-0.33"
 
 ["0.1.2-0.4.8"]
 SpecialFunctions = "0.8-0.10"
@@ -200,7 +200,7 @@ ManifoldDiff = "0.2.1-0.2"
 ["0.8.45-0.8.47"]
 ManifoldsBase = "0.13.30-0.13"
 
-["0.8.47-0"]
+["0.8.47-0.8.68"]
 ManifoldDiff = "0.2.1-0.3"
 
 ["0.8.48"]
@@ -208,3 +208,9 @@ ManifoldsBase = "0.14"
 
 ["0.8.49-0"]
 ManifoldsBase = "0.14.1-0.14"
+
+["0.8.69-0"]
+ManifoldDiff = "0.3.3-0.3"
+
+["0.8.70-0"]
+StatsBase = "0.32-0.34"

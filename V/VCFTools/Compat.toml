@@ -1,7 +1,6 @@
 [0]
 CodecZlib = "0.7"
 Distributions = "0.24-0.25"
-HypothesisTests = "0.10"
 ProgressMeter = "1"
 VariantCallFormat = "0.5"
 julia = "1"
@@ -12,5 +11,14 @@ SpecialFunctions = "1"
 ["0-0.2.6"]
 DelimitedFiles = "1"
 
+["0-0.2.9"]
+HypothesisTests = "0.10"
+
+["0.2.10-0"]
+HypothesisTests = "0.10-0.11"
+
 ["0.2.5-0"]
 SpecialFunctions = "1-2"
+
+["0.2.9-0"]
+DelimitedFiles = "1"

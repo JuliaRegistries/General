@@ -235,14 +235,14 @@ PencilFFTs = "0.12-0.13"
 ["0.72-0.78.5"]
 NCDatasets = "0.10-0.12"
 
-["0.76-0"]
-CUDA = "3.8.0-3"
-
 ["0.76-0.77"]
 CUDAKernels = "0.3.3-0.4"
 
 ["0.76-0.78.5"]
 KernelAbstractions = "0.7-0.8"
+
+["0.76-0.81.0"]
+CUDA = "3.8.0-3"
 
 ["0.76.1-0.77"]
 SeawaterPolynomials = "0.2.3-0.2"
@@ -284,12 +284,16 @@ NCDatasets = "0.12.10-0.12"
 ["0.78.6-0.79.2"]
 KernelAbstractions = "0.7.2-0.7"
 
-["0.79.3-0"]
+["0.79.3-0.81.0"]
 CUDAKernels = "0.4.7-0.4"
 KernelAbstractions = "0.8"
 
 ["0.81-0"]
 SeawaterPolynomials = "0.3.2-0.3"
+
+["0.81.1-0"]
+CUDA = "4"
+KernelAbstractions = "0.9"
 
 ["0.9-0.11"]
 JLD2 = "0.0.0-0.2"

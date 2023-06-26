@@ -35,11 +35,13 @@ PyPlot = "2.10.0-2"
 [1]
 GeoInterface = "1.0.1-1"
 LibGEOS = "0.7.2-0.7"
-SnoopPrecompile = "1"
 
 ["1-1.1.1"]
 LoopVectorization = "0.12.122-0.12"
 PolygonOps = "0.1.2-0.1"
+
+["1-1.6.0"]
+SnoopPrecompile = "1"
 
 ["1.1.2-1"]
 LoopVectorization = "0.12"
@@ -52,3 +54,6 @@ Triangulate = "2.2.0-2"
 ["1.2-1"]
 LoggingExtras = "1"
 MetalSurfaceImpedance = "1"
+
+["1.6.1-1"]
+PrecompileTools = "1"

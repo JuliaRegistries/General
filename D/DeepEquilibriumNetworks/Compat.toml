@@ -1,6 +1,7 @@
 [0]
 DiffEqBase = "6"
 DiffEqCallbacks = "2.20.1-2"
+LinearSolve = "1"
 SteadyStateDiffEq = "1.6.0-1"
 UnPack = "1"
 
@@ -22,7 +23,6 @@ CUDA = "3"
 
 [0-1]
 ChainRulesCore = "1"
-LinearSolve = "1"
 Lux = "0.4"
 OrdinaryDiffEq = "6"
 SciMLBase = "1.19.0-1"
@@ -58,3 +58,9 @@ SimpleNonlinearSolve = "0.1.14-0.1"
 SteadyStateDiffEq = "1.12.0-1"
 TruncatedStacktraces = "1.1.0-1"
 ZygoteRules = "0.2"
+
+["1.0"]
+LinearSolve = "1"
+
+["1.1-1"]
+LinearSolve = "1-2"

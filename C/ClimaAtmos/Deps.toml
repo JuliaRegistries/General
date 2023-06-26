@@ -1,7 +1,5 @@
 [0]
 ClimaCore = "d414da3d-4745-48bb-8d80-42e94e092884"
-ClimaCorePlots = "cf7c7e5a-b407-4c48-9047-11a94a308626"
-ClimaCoreVTK = "c8b6d40d-e815-466f-95ae-c48aefa668fa"
 CloudMicrophysics = "6a9e3e04-43cd-43ba-94b9-e8782df3c71b"
 DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
 IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
@@ -16,6 +14,10 @@ Thermodynamics = "b60c26fb-14c3-4610-9d3e-2d17fe7ff00c"
 
 ["0-0.1"]
 CLIMAParameters = "6eacf6c3-8458-43b9-ae03-caf5306d3d53"
+
+["0-0.14"]
+ClimaCorePlots = "cf7c7e5a-b407-4c48-9047-11a94a308626"
+ClimaCoreVTK = "c8b6d40d-e815-466f-95ae-c48aefa668fa"
 
 ["0-0.7"]
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
@@ -41,7 +43,7 @@ ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
 ["0.12-0"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.13-0"]
+["0.13-0.14"]
 Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
 
 ["0.14-0"]

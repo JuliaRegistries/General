@@ -1,9 +1,15 @@
 [1]
 CSVFiles = "1.0.1-1"
 DataFrames = "1.2.2-1"
-Interpolations = "0.13"
 Mimi = "1.3.0-1"
 Missings = "1"
 Query = "1"
-XLSX = "0.7"
 julia = "1.6.0-1"
+
+["1.0.0"]
+Interpolations = "0.13"
+XLSX = "0.7"
+
+["1.0.1-1"]
+Interpolations = "0.13-0.14"
+XLSX = "0.7-0.9"

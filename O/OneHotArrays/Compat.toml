@@ -1,12 +1,14 @@
 [0]
 Adapt = "3"
 ChainRulesCore = "1.13.0-1"
-NNlib = "0.8"
 julia = "1.6.0-1"
 
 ["0-0.1"]
 GPUArrays = "8.2.1-8"
 MLUtils = "0.2"
+
+["0-0.2.3"]
+NNlib = "0.8"
 
 ["0.2-0"]
 GPUArraysCore = "0.1"
@@ -16,3 +18,6 @@ MLUtils = "0.2-0.3"
 
 ["0.2.1-0"]
 Compat = "4.2.0-4"
+
+["0.2.4-0"]
+NNlib = "0.8-0.9"

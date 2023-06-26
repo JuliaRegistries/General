@@ -27,9 +27,11 @@ DiffRules = ["0.1", "1"]
 IfElse = "0.1"
 MacroTools = "0.5"
 Reexport = ["0.2", "1"]
-RuntimeGeneratedFunctions = "0.4.3-0.5"
 SciMLBase = "1.8.0-1"
 TreeViews = "0.3"
+
+["0-5.3"]
+RuntimeGeneratedFunctions = "0.4.3-0.5"
 
 ["0.1.11-0.1.20"]
 AbstractAlgebra = "0.13-0.15"
@@ -167,3 +169,9 @@ Groebner = "0.3"
 
 ["5.3-5"]
 Latexify = "0.11-0.16"
+
+["5.4"]
+RuntimeGeneratedFunctions = "0.5.10-0.5"
+
+["5.5-5"]
+RuntimeGeneratedFunctions = "0.5.9"

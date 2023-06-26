@@ -62,9 +62,6 @@ Reexport = "0.0.0-0.2"
 Shapefile = "0.0.0-0.6"
 julia = "1"
 
-["0.14.1-0"]
-IterTools = "1.1.0-1"
-
 ["0.14.1-0.14"]
 AxisArrays = "0.3.0-0.4"
 BinDeps = "0.4.0-0.8"
@@ -87,6 +84,9 @@ PyCall = "1.90.0-1"
 ["0.14.1-0.18.1"]
 ArgCheck = "1"
 
+["0.14.1-0.23"]
+IterTools = "1.1.0-1"
+
 ["0.14.1-0.23.0"]
 Reexport = "0.2"
 
@@ -104,7 +104,6 @@ PyPlot = "2.6.0-2"
 
 ["0.15-0"]
 AxisArrays = "0.3-0.4"
-NaNMath = "0.3"
 ProgressMeter = "1"
 
 ["0.15-0.18.1"]
@@ -125,6 +124,9 @@ Distances = "0.7-0.8"
 
 ["0.15-0.22"]
 julia = "1.2.0-1"
+
+["0.15-0.23"]
+NaNMath = "0.3"
 
 ["0.15-0.23.0"]
 Interpolations = "0.12"
@@ -155,38 +157,58 @@ GeoStats = "0.11"
 ClimateBase = "0.6"
 
 ["0.21-0"]
-Extremes = "0.1"
 Polynomials = ["0.5-0.8", "1"]
-PyCall = "1.91.0-1"
 
 ["0.21-0.22"]
 InverseDistanceWeighting = "0.3"
 
+["0.21-0.23"]
+Extremes = "0.1"
+PyCall = "1.91.0-1"
+
 ["0.21-0.23.0"]
 NetCDF = "0.7-0.10"
 
-["0.21.1-0"]
+["0.21.1-0.23"]
 RollingFunctions = "0.6"
 
 ["0.21.1-0.23.0"]
 DataFrames = "0.19-0.21"
 Distances = "0.7-0.9"
 
-["0.23-0"]
+["0.23"]
 HDF5 = "0.15"
 InverseDistanceWeighting = "0.3-0.4"
+
+["0.23-0"]
 julia = "1.5.0-1"
 
 ["0.23.0"]
 GeoStats = ["0.11", "0.13-0.14"]
 
 ["0.23.1-0"]
-ClimateBase = ["0.6", "0.13"]
 DataFrames = ["0.19-0.21", "1"]
 Distances = "0.7-0.10"
+NetCDF = "0.7-0.11"
+Reexport = ["0.2", "1"]
+
+["0.23.1-0.23"]
+ClimateBase = ["0.6", "0.13"]
 GeoStats = "0.11-0.26"
 Interpolations = "0.12-0.13"
 NCDatasets = "0.9-0.11"
-NetCDF = "0.7-0.11"
-Reexport = ["0.2", "1"]
 Shapefile = "0.4-0.7"
+
+["0.24-0"]
+Extremes = "0.3"
+HDF5 = "0.15-0.16"
+Interpolations = "0.12-0.14"
+IterTools = "1"
+NCDatasets = "0.9-0.12"
+NaNMath = ["0.3", "1"]
+PyCall = "1"
+RollingFunctions = "0.6-0.7"
+Shapefile = "0.4-0.10"
+
+["0.24.0"]
+ClimateBase = "0.6"

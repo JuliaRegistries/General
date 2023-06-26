@@ -8,11 +8,16 @@ LazySets = "2"
 MshReader = "0.1"
 Reexport = "1"
 Roots = "2"
-SafeTestsets = "0.0.1"
 StaticArrays = "1"
 Tensors = "1"
 julia = "1"
 
+["0.0"]
+SafeTestsets = "0.0.1"
+
 ["0.0.2-0"]
 Suppressor = "0.2"
 WriteVTK = "1"
+
+["0.1-0"]
+SafeTestsets = ["0.0.1", "0.1"]

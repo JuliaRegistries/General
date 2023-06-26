@@ -108,7 +108,6 @@ Ipopt = "1"
 MINLPTests = "0.5.2-0.5"
 MathOptInterface = "1"
 McCormick = "0.13"
-PrettyTables = "1"
 Reexport = ["0.2", "1"]
 Requires = "1"
 SpecialFunctions = "1-2"
@@ -117,10 +116,13 @@ SpecialFunctions = "1-2"
 NaNMath = "0.3.5-0.3"
 julia = "1.6-1.7"
 
+["0.7-0.8.0"]
+PrettyTables = "1"
+
 ["0.7.0"]
 JuMP = "0.23"
 
-["0.7.1-0"]
+["0.7.1-0.7"]
 JuMP = "1.0.0-1.1.1"
 
 ["0.7.2-0"]
@@ -129,3 +131,9 @@ julia = "1.6.0-1"
 
 ["0.7.3-0"]
 DocStringExtensions = "0.8-0.9"
+
+["0.8-0"]
+JuMP = "1.11.0-1"
+
+["0.8.1-0"]
+PrettyTables = "2"

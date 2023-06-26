@@ -1,7 +1,5 @@
 [0]
-JuMP = "0.21"
 LightGraphs = "1.3.0-1"
-MathOptInterface = "0.9"
 
 ["0-0.1"]
 Flux = "0.11"
@@ -25,6 +23,10 @@ Zygote = "0.5-0.6"
 
 ["0-0.4.0"]
 DataStructures = "0.18"
+
+["0-0.4.3"]
+JuMP = "0.21"
+MathOptInterface = "0.9"
 
 ["0.2"]
 ProgressBars = ["0.8", "1"]
@@ -62,19 +64,28 @@ ReinforcementLearning = "0.10"
 Zygote = "0.6.26-0.6"
 
 ["0.4.1-0"]
-Cairo = "1"
 Compose = "0.0.0-0.9.1"
 DataStructures = "0.15.0-0.18.13"
-GraphPlot = "0.1.0-0.4.4"
 Graphs = "1-1.7.4"
 KernelAbstractions = "0.0.0-0.8.3"
 NNlib = "0.8.4-0.8"
-Plots = "1-2"
 Revise = "1-4"
 StatsBase = "0.0.0-0.33.20"
 Suppressor = "0.1.0-0.2.0"
 TensorBoardLogger = "0.0.0-0.1.18"
+
+["0.4.1-0.4.3"]
+Cairo = "1"
+GraphPlot = "0.1.0-0.4.4"
+Plots = "1-2"
 julia = "1.7.0-1"
 
 ["0.4.2-0"]
 ChainRulesCore = "1.0-1.15.6"
+
+["0.4.4-0"]
+ArgParse = "1.1.4-1"
+CSV = "0.8-0.10"
+DataFrames = "1"
+XML = "0.2"
+julia = "1.8-1.9"

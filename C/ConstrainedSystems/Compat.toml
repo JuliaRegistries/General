@@ -43,10 +43,16 @@ LinearMaps = ["2.4.0-2", "3.2.0-3"]
 ["0.2.3-0.2.5"]
 IterativeSolvers = "0.8-0.9"
 
-["0.2.6-0"]
+["0.2.6-0.2"]
 KrylovKit = "0.5"
 
 ["0.2.8-0"]
 BenchmarkTools = ["0.5", "1"]
-OrdinaryDiffEq = "5.47.0-6"
 julia = "1.6.0-1"
+
+["0.2.8-0.2"]
+OrdinaryDiffEq = "5.47.0-6"
+
+["0.3-0"]
+LinearSolve = "2.2.0-2"
+OrdinaryDiffEq = "6.49.0-6"

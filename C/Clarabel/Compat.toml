@@ -35,8 +35,10 @@ julia = "1.2.0-1"
 DataFrames = "1"
 
 ["0.3-0"]
-MathOptInterface = "1.2.0-1"
 StaticArrays = "1"
+
+["0.3-0.5.0"]
+MathOptInterface = "1.2.0-1"
 
 ["0.4"]
 PrettyTables = "1-2"
@@ -48,3 +50,6 @@ Requires = "1"
 ["0.5-0"]
 GenericLinearAlgebra = "0.3"
 SnoopPrecompile = "1"
+
+["0.5.1-0"]
+MathOptInterface = "1.6.0-1"
