@@ -6,7 +6,6 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
@@ -21,6 +20,9 @@ Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0-0.4.48"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+
+["0-0.4.56"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.4.25-0"]
 LuxLib = "82251201-b29d-42c6-8e01-566dec8acb11"
@@ -52,6 +54,9 @@ LuxCUDA = "d0bbae9a-e099-4d5b-a835-1c6931763bda"
 
 ["0.4.56-0"]
 WeightInitializers = "d49dbf32-c5c2-4618-8acc-27bb2598ef2d"
+
+["0.4.57-0"]
+PackageExtensionCompat = "65ce6f38-6b18-4e1d-a461-8949797d7930"
 
 ["0.4.6-0"]
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
