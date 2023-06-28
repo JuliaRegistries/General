@@ -1,6 +1,14 @@
 [0]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-PositiveFactorizations = "85a6dd25-e78a-55b7-8502-1745935b8125"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 StatsModels = "3eaba693-59b7-5ba5-a881-562e759f1c8d"
+
+["0-0.2"]
+PositiveFactorizations = "85a6dd25-e78a-55b7-8502-1745935b8125"
+
+["0.3-0"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+StatsAPI = "82ae8749-77ed-4fe6-ae5f-f523153014b0"
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
