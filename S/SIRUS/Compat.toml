@@ -3,12 +3,17 @@ AbstractTrees = "0.3-0.4"
 CategoricalArrays = "0.10"
 InlineStrings = "1"
 MLJModelInterface = "1.4.0-1"
-PrecompileSignatures = "3"
 Tables = "1.7.0-1"
 julia = "1.6.0-1"
+
+["1-1.1"]
+PrecompileSignatures = "3"
 
 ["1.1.0"]
 MLJLinearModels = "0.8"
 
 ["1.1.1-1"]
 MLJLinearModels = "0.8-0.9"
+
+["1.2-1"]
+MLJBase = "0.21"
