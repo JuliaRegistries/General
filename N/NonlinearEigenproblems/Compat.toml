@@ -22,16 +22,18 @@ julia = "1"
 ["0.2.8-1.0.2"]
 ArnoldiMethod = "0.0.0-0.0.4"
 
-[1]
-FFTW = "1"
-
 ["1-1.0.2"]
 LinearMaps = "2"
 
+["1-1.1.0"]
+FFTW = "1"
+
 ["1.0.3-1"]
-ArnoldiMethod = "0.2"
 IterativeSolvers = "0.9"
 LinearMaps = "2-3"
+
+["1.0.3-1.1.0"]
+ArnoldiMethod = "0.2"
 Polynomials = ["1", "3"]
 Reexport = "1"
 SpecialFunctions = "1-2"
