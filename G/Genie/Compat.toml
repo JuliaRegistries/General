@@ -143,12 +143,15 @@ JuliaFormatter = "0.22"
 ["4.17-4.18"]
 JuliaFormatter = "0.12-0.22"
 
-["4.19-4"]
+["4.19-4.20.1"]
 julia = "1.6-1.7"
 
 ["4.19-5"]
 JuliaFormatter = "1"
 Nettle = "1"
+
+["4.20.2-5"]
+julia = "1.6.0-1"
 
 ["4.3-4"]
 VersionCheck = ["0.1-0.2", "1"]
@@ -162,7 +165,6 @@ JuliaFormatter = "0.21"
 [5]
 Reexport = "1"
 Revise = "3"
-julia = "1.6.0-1"
 
 ["5-5.11.0"]
 LoggingExtras = "0.4"
