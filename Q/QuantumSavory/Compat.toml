@@ -3,12 +3,14 @@ Graphs = "1.7.3-1"
 IterTools = "1.4.0-1"
 Makie = "0.19"
 NetworkLayout = "0.4.4-0.4"
-QuantumClifford = "0.6.3-0.6"
-QuantumInterface = "0.1"
 QuantumOptics = "1.0.5-1"
-QuantumOpticsBase = "0.3.3-0.3"
 Reexport = "1.2.2-1"
 ResumableFunctions = "0.6.1-0.6"
+
+["0-0.1"]
+QuantumClifford = "0.6.3-0.6"
+QuantumInterface = "0.1"
+QuantumOpticsBase = "0.3.3-0.3"
 SimJulia = "0.8.2-0.8"
 SnoopPrecompile = "1"
 julia = "1.8.0-1"
@@ -19,5 +21,14 @@ SymbolicUtils = "0.19.11-0.19"
 Symbolics = "4.10.4-4"
 TermInterface = "0.2.3-0.3"
 
-["0.1.1-0"]
+["0.1.1-0.1"]
 QuantumSymbolics = "0.1.1-0.1"
+
+["0.2-0"]
+ConcurrentSim = "1"
+PrecompileTools = "1"
+QuantumClifford = "0.8"
+QuantumInterface = "0.3"
+QuantumOpticsBase = "0.4"
+QuantumSymbolics = "0.2"
+julia = "1.9.0-1"
