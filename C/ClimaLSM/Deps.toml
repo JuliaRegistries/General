@@ -1,5 +1,4 @@
 [0]
-CLIMAParameters = "6eacf6c3-8458-43b9-ae03-caf5306d3d53"
 ClimaCore = "d414da3d-4745-48bb-8d80-42e94e092884"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
@@ -7,6 +6,9 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 SurfaceFluxes = "49b00bb7-8bd4-4f2b-b78c-51cd0450215f"
 Thermodynamics = "b60c26fb-14c3-4610-9d3e-2d17fe7ff00c"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0-0.2.5"]
+CLIMAParameters = "6eacf6c3-8458-43b9-ae03-caf5306d3d53"
 
 ["0.2.2-0"]
 ArtifactWrappers = "a14bc488-3040-4b00-9dc1-f6467924858a"
@@ -16,8 +18,11 @@ Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
 
-["0.2.3-0"]
+["0.2.3-0.2.5"]
 Insolation = "e98cc03f-d57e-4e3c-b70c-8d51efe9e0d8"
 
 ["0.2.4-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["0.2.6-0"]
+DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
