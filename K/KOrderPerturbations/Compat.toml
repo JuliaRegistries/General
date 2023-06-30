@@ -1,6 +1,12 @@
 [0]
 Combinatorics = "1.0.2-1"
-FastLapackInterface = "1"
-GeneralizedSylvesterSolver = "0.2"
 KroneckerTools = "0.2"
 julia = "1.6.3-1"
+
+["0-0.1.0"]
+FastLapackInterface = "1"
+GeneralizedSylvesterSolver = "0.2"
+
+["0.1.1-0"]
+FastLapackInterface = "2"
+GeneralizedSylvesterSolver = "0.2.1-0.2"
