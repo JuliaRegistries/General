@@ -2,16 +2,23 @@
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.4"]
 SimpleTraits = "699a6c99-e7fa-54fc-8d76-47d257e15c1d"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0.3-0"]
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0.3-0.4"]
 FrankWolfe = "f55ce6ea-fdc5-4628-88c5-0087fe54bd30"
 Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
 LinearOperators = "5c8ed15e-5a4c-59e4-a42b-c7e8811fb125"
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 ["0.4-0"]
 ThreadsX = "ac1d9e8a-700a-412c-b207-f0111f4b6c0d"
+
+["0.5-0"]
+DifferentiableFrankWolfe = "b383313e-5450-4164-a800-befbd27b574d"
