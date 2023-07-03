@@ -11,12 +11,25 @@ DelimitedFiles = ["0.7", "1"]
 Interpolations = "0.8.0-0.12"
 julia = ["0.7", "1"]
 
-["0.10-0"]
+["0.10"]
 Interpolations = "0.14"
 PrettyTables = ["0.12", "1-2"]
 ReferenceFrameRotations = "3"
 RemoteFiles = "0.4.2-0.5"
+
+["0.10-0"]
 julia = "1.6.0-1"
+
+["0.11-0"]
+SatelliteToolboxAtmosphericModels = "0.1"
+SatelliteToolboxBase = "0.2"
+SatelliteToolboxCelestialBodies = "0.1"
+SatelliteToolboxGeomagneticField = "0.1"
+SatelliteToolboxGravityModels = "0.1"
+SatelliteToolboxPropagators = "0.2"
+SatelliteToolboxSgp4 = "2"
+SatelliteToolboxTle = "1"
+SatelliteToolboxTransformations = "0.1"
 
 ["0.3.2-0.5"]
 Parameters = "0.10.1-0.12"
@@ -32,7 +45,7 @@ RemoteFiles = "0.2.1-0.3"
 ["0.5-0.7"]
 PolynomialRoots = "0.2"
 
-["0.6-0"]
+["0.6-0.10"]
 Crayons = "4"
 
 ["0.6-0.6.3"]
@@ -58,7 +71,7 @@ PrettyTables = "0.0.0-0.7"
 OptionalData = "0.2"
 PrettyTables = "0.7"
 
-["0.6.4-0"]
+["0.6.4-0.10"]
 Parameters = "0.12"
 
 ["0.6.4-0.7"]
@@ -82,8 +95,10 @@ OptionalData = "0.3"
 PrettyTables = "0.10"
 
 ["0.8-0"]
-PolynomialRoots = "1"
 Reexport = "1"
+
+["0.8-0.10"]
+PolynomialRoots = "1"
 StaticArrays = "1"
 
 ["0.8-0.9.0"]
@@ -102,7 +117,7 @@ PrettyTables = ["0.12", "1"]
 ReferenceFrameRotations = ["0.5", "1"]
 RemoteFiles = "0.4.2-0.4"
 
-["0.9.1-0"]
+["0.9.1-0.10"]
 OptionalData = ["0.3", "1"]
 
 ["0.9.1-0.9"]
