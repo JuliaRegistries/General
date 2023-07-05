@@ -45,7 +45,7 @@ LazyArrays = "0.22"
 ArrayLayouts = "0.7.7-0.7"
 FillArrays = "0.12"
 
-["0.10.1-0"]
+["0.10.1-0.12"]
 BandedMatrices = "0.16-0.17"
 
 ["0.10.1-0.12.4"]
@@ -55,7 +55,7 @@ FillArrays = "0.12-0.13"
 ["0.10.2"]
 IntervalSets = "0.5-0.6"
 
-["0.10.3-0"]
+["0.10.3-0.12"]
 IntervalSets = "0.5-0.7"
 
 ["0.11-0.11.1"]
@@ -64,19 +64,29 @@ DomainSets = "0.5"
 ["0.11-0.12.3"]
 QuasiArrays = "0.9.3-0.9"
 
-["0.11.2-0"]
+["0.11.2-0.12"]
 DomainSets = "0.5-0.6"
 
 ["0.12.3-0"]
 AbstractFFTs = "1"
 
-["0.12.4-0"]
+["0.12.4-0.12"]
 QuasiArrays = "0.9.6-0.9"
 
-["0.12.5-0"]
+["0.12.5-0.12"]
 ArrayLayouts = ["0.7.7-0.8", "1"]
 FillArrays = ["0.12-0.13", "1"]
 LazyArrays = ["0.22", "1"]
+
+["0.13-0"]
+ArrayLayouts = "1"
+BandedMatrices = "0.17"
+DomainSets = "0.6"
+FillArrays = "1"
+IntervalSets = "0.7"
+LazyArrays = "1"
+QuasiArrays = "0.10"
+julia = "1.9.0-1"
 
 ["0.2"]
 julia = "1.3.0-1"
@@ -217,6 +227,8 @@ ArrayLayouts = "0.7"
 
 ["0.8-0"]
 StaticArrays = "1"
+
+["0.8-0.12"]
 julia = "1.6.0-1"
 
 ["0.8-0.8.3"]
