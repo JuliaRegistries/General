@@ -13,7 +13,6 @@ PlanetaryEphemeris = "d83715d0-7e5f-11e9-1a59-4137b20d8363"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Quadmath = "be4d8f0f-7fa4-5f49-b795-2f01399ab2dd"
 SPICE = "5bab7191-041a-5c2e-a744-024b9c3a5062"
-SatelliteToolbox = "6ac157d9-b43d-51bb-8fab-48bf53814f4a"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 TaylorIntegration = "92b13dbe-c966-51a2-8445-caca9f8a7d42"
 TaylorSeries = "6aa5eb33-94cf-58f4-a9d0-e4b2c4fc25ea"
@@ -30,6 +29,9 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 ["0-0.5"]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Query = "1a8c2f83-1ff3-5112-b086-8aa67b057ba1"
+
+["0-0.6"]
+SatelliteToolbox = "6ac157d9-b43d-51bb-8fab-48bf53814f4a"
 
 ["0-0.6.3"]
 EarthOrientation = "732a3c5d-d6c0-58bc-adb1-1b51709a25e2"
@@ -49,3 +51,6 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 ["0.6.3-0"]
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+
+["0.7-0"]
+SatelliteToolboxTransformations = "6b019ec1-7a1e-4f04-96c7-a9db1ca5514d"
