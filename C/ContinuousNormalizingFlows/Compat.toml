@@ -8,7 +8,6 @@ Distributions = "0.25"
 DistributionsAD = "0.6"
 Flux = "0.13"
 Lux = "0.4"
-LuxCUDA = "0.1"
 LuxCore = "0.1"
 MLJBase = "0.21"
 MLUtils = "0.4"
@@ -32,6 +31,9 @@ ProgressMeter = "1.7.0-1"
 SciMLBase = "1.27.0-1"
 SparseDiffTools = "1.31.0-2"
 
+["0-0.7"]
+LuxCUDA = "0.1"
+
 ["0.6-0"]
 ADTypes = "0.1"
 DataFrames = "1"
@@ -49,3 +51,8 @@ IterTools = "1"
 ["0.7-0"]
 ChainRulesCore = "1"
 cuDNN = "1"
+
+["0.8-0"]
+DiffEqGPU = "2"
+LuxCUDA = "0.1-0.3"
+OrdinaryDiffEq = "6"
