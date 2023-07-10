@@ -1,8 +1,13 @@
 [0]
 DecisionMakingEnvironments = "c2d78f9d-1393-4ac0-9d65-4613f9d81ffe"
-DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.1.0"]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+
+["0.1.1-0"]
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
