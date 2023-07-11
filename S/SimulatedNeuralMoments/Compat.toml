@@ -27,7 +27,7 @@ PrettyTables = "0.10"
 ["0.2.1-1.0.1"]
 Flux = "0.12"
 
-["0.2.2-1"]
+["0.2.2-1.0.5"]
 julia = "1.5-1.8"
 
 ["1-1.0.3"]
@@ -42,10 +42,17 @@ AdvancedMH = "0.6"
 Turing = "0.22"
 
 ["1.0.4-1"]
-MCMCChains = "5.5.0-5"
 PrettyTables = "2"
 StatsPlots = "0.15"
+
+["1.0.4-1.0.5"]
+MCMCChains = "5.5.0-5"
 
 ["1.0.5-1"]
 AdvancedMH = "0.6-0.7"
 Turing = "0.22-0.24"
+
+["1.0.6-1"]
+MCMCChains = "6"
+StatsBase = "0.33"
+julia = "1.5-1.9"
