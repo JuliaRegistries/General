@@ -32,7 +32,6 @@ DiffEqBase = "6"
 ImageFiltering = "0.7"
 Interpolations = "0.14"
 NCDatasets = "0.11-0.12"
-RRTMGP = "0.7-0.8"
 SurfaceFluxes = "0.6"
 TerminalLoggers = "0.1"
 YAML = "0.4"
@@ -40,13 +39,16 @@ YAML = "0.4"
 ["0.10-0.11"]
 ClimaComms = "0.3"
 
+["0.10-0.15.1"]
+RRTMGP = "0.7-0.8"
+
 ["0.11-0"]
 ArgParse = "1"
 
 ["0.12"]
 Insolation = "0.4"
 
-["0.12-0"]
+["0.12-0.15.1"]
 ClimaComms = "0.4"
 
 ["0.13-0"]
@@ -57,6 +59,10 @@ Krylov = "0.9.1-0.9"
 
 ["0.14-0"]
 CUDA = "4"
+
+["0.15.2-0"]
+ClimaComms = "0.5"
+RRTMGP = "0.9"
 
 ["0.2-0.11"]
 Insolation = "0.3"
