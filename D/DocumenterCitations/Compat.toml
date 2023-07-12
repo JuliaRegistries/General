@@ -1,9 +1,11 @@
 [0]
-Bibliography = "0.2"
 julia = "1.4.0-1"
 
 ["0-0.2.0"]
 Documenter = "0.25"
+
+[0-1]
+Bibliography = "0.2"
 
 ["0.2.1-0.2.2"]
 Documenter = "0.25-0.26"
@@ -13,3 +15,8 @@ Documenter = "0.25-0.27"
 
 ["0.2.5-0"]
 DataStructures = "0.18"
+
+[1]
+Documenter = "0.27"
+OrderedCollections = "1"
+julia = "1.6.0-1"
