@@ -12,9 +12,14 @@ Turing = "0.22-0.24"
 julia = "1.6.0-1"
 
 ["0.1-0"]
-SciMLBase = "1"
 SciMLExpectations = "2"
+
+["0.1-0.1.10"]
+SciMLBase = "1"
 
 ["0.1.1-0"]
 NLopt = "0.6"
 OptimizationMOI = "0.1"
+
+["0.1.11-0"]
+SciMLBase = "1.93.1-1"
