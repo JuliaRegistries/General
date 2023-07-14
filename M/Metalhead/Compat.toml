@@ -77,10 +77,16 @@ MLUtils = "0.2.10-0.4"
 ["0.8-0"]
 CUDA = "4"
 ChainRulesCore = "1"
-Flux = "0.13.16-0.13"
 Functors = "0.4"
 JLD2 = "0.4"
 MLUtils = "0.4"
-NNlib = "0.8"
 NNlibCUDA = "0.2"
 PartialFunctions = "1"
+
+["0.8.0"]
+Flux = "0.13.16-0.13"
+NNlib = "0.8"
+
+["0.8.1-0"]
+Flux = "0.13.16-0.14"
+NNlib = "0.8-0.9"
