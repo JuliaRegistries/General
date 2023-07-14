@@ -1,15 +1,19 @@
 [0]
 BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
-CUTEst = "1b53aba6-35b6-5f92-a507-53c67d53f819"
 Coverage = "a2441757-f6aa-5fb2-8edb-039e3f45d037"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NLPModels = "a4795742-8479-5a88-8948-cc11e1c8c1a6"
-NLPModelsJuMP = "792afdf1-32c1-5681-94e0-d7bf7a5df49e"
 SolverTools = "b5612192-2639-5dc1-abfe-fbedd65fab29"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0-0.6.0"]
+CUTEst = "1b53aba6-35b6-5f92-a507-53c67d53f819"
+NLPModelsJuMP = "792afdf1-32c1-5681-94e0-d7bf7a5df49e"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0.5-0"]
-ADNLPModels = "54578032-b7ea-4c30-94aa-7cbd1cce6c9a"
 SolverCore = "ff4d7338-4cf1-434d-91df-b86cb86fb843"
+
+["0.5-0.6.0"]
+ADNLPModels = "54578032-b7ea-4c30-94aa-7cbd1cce6c9a"
