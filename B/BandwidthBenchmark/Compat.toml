@@ -2,5 +2,10 @@
 DataFrames = "1"
 PrettyTables = "1-2"
 Requires = "1"
-ThreadPinning = "0.6"
 julia = "1"
+
+["0-0.1.0"]
+ThreadPinning = "0.6"
+
+["0.1.1-0"]
+ThreadPinning = "0.6-0.7"
