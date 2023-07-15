@@ -1,7 +1,5 @@
 [0]
-OffsetArrays = ["0.10-0.11", "1"]
 QuadratureRules = "0.1"
-julia = "1.5.0-1"
 
 ["0-0.2.0"]
 StaticArrays = "1"
@@ -12,7 +10,11 @@ ContinuumArrays = "0.3"
 ["0-0.2.2"]
 FastTransforms = "0.10-0.11"
 
-["0.2.1-0"]
+["0-0.2.7"]
+OffsetArrays = ["0.10-0.11", "1"]
+julia = "1.5.0-1"
+
+["0.2.1-0.2.7"]
 StaticArrays = ["0.12", "1"]
 
 ["0.2.2"]
@@ -32,8 +34,15 @@ ContinuumArrays = "0.3-0.11"
 ["0.2.5-0.2.6"]
 FastTransforms = "0.10-0.14"
 
-["0.2.6-0"]
+["0.2.6-0.2.7"]
 ContinuumArrays = "0.3-0.12"
 
-["0.2.7-0"]
+["0.2.7"]
 FastTransforms = "0.10-0.15"
+
+["0.2.8-0"]
+ContinuumArrays = "0.8-0.14"
+FastTransforms = "0.13-0.15"
+OffsetArrays = "1"
+StaticArrays = "1"
+julia = "1.6.0-1"
