@@ -1,6 +1,5 @@
 [0]
 AbstractFFTs = ["0.4-0.5", "1"]
-ArrayTools = "0.2"
 FFTW = ["0.3", "1"]
 StructuredArrays = "0.2"
 ZippedArrays = "0.1"
@@ -11,6 +10,9 @@ MayOptimize = "0.2"
 ["0-0.2.4"]
 julia = "1"
 
+["0-0.2.5"]
+ArrayTools = "0.2"
+
 ["0.2.3-0"]
 Requires = "1.1.0-1"
 
@@ -19,3 +21,6 @@ MayOptimize = "0.2-0.3"
 
 ["0.2.5-0"]
 julia = "1.3.0-1"
+
+["0.2.6-0"]
+ArrayTools = "0.2-0.3"
