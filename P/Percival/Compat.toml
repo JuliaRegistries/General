@@ -68,15 +68,17 @@ julia = "1.6.0-1"
 ["0.5-0.6.0"]
 Krylov = "0.8"
 
-["0.5.2-0"]
+["0.5.2-0.6"]
 NLPModelsModifiers = "0.2-0.6"
 
 ["0.5.2-0.6.4"]
 NLPModels = "0.15-0.19"
 
+["0.6"]
+SolverTools = "0.7-0.8"
+
 ["0.6-0"]
 SolverCore = "0.3"
-SolverTools = "0.7-0.8"
 
 ["0.6-0.6.4"]
 JSOSolvers = "0.9"
@@ -84,6 +86,12 @@ JSOSolvers = "0.9"
 ["0.6.1-0"]
 Krylov = "0.8-0.9"
 
-["0.6.5-0"]
+["0.6.5-0.6"]
 JSOSolvers = "0.9-0.10"
 NLPModels = "0.15-0.20"
+
+["0.7-0"]
+JSOSolvers = "0.11"
+NLPModels = "0.20"
+NLPModelsModifiers = "0.6"
+SolverTools = "0.8"
