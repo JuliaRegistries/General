@@ -62,8 +62,10 @@ ImageSegmentation = "1"
 ["0.8-2"]
 FFTW = "1"
 ImageFiltering = "0.7"
-LocalFilters = "1"
 OffsetArrays = "1"
+
+["0.8-2.1"]
+LocalFilters = "1"
 StatsBase = "0.33"
 
 ["0.8.1-1.0.4"]
@@ -75,12 +77,21 @@ ROMEO = "1"
 ["1.0.4-2"]
 Interpolations = "0.12-0.14"
 
-["1.0.5-2"]
+["1.0.5-2.1"]
 ImageMorphology = "0.2-0.3"
 
-["1.0.6-2"]
+["1.0.6-2.1"]
 NIfTI = "0.4-0.5.7"
 
 [2]
-QSM = "0.4"
 julia = "1.6.0-1"
+
+["2-2.1"]
+QSM = "0.4"
+
+["2.2-2"]
+ImageMorphology = "0.2-0.4"
+LocalFilters = "1-2"
+NIfTI = ["0.4-0.5.7", "0.6"]
+QSM = "0.4-0.5"
+StatsBase = "0.33-0.34"
