@@ -20,7 +20,7 @@ StaticArraysCore = "1.4.0-1"
 ["0.1.1-0.1.14"]
 SnoopPrecompile = "1"
 
-["0.1.11-0"]
+["0.1.11-0.1.16"]
 Requires = "1"
 
 ["0.1.12-0"]
@@ -30,8 +30,14 @@ ArrayInterface = "6-7"
 DiffEqBase = "6.119.0-6"
 
 ["0.1.15-0"]
-DiffEqBase = "6.123.0-6"
 PrecompileTools = "1"
+
+["0.1.15-0.1.16"]
+DiffEqBase = "6.123.0-6"
+
+["0.1.17-0"]
+DiffEqBase = "6.126.0-6"
+PackageExtensionCompat = "1"
 
 ["0.1.6-0.1.12"]
 DiffEqBase = "6.114.0-6"
