@@ -9,6 +9,15 @@ Documenter = "0.27"
 OrdinaryDiffEq = "6"
 SafeTestsets = "0.0.1"
 
+["0.2"]
+EarthSciMLBase = "0.4"
+
 ["0.2-0"]
 Catalyst = "10-12"
-EarthSciMLBase = "0.4"
+
+["0.3-0"]
+BenchmarkTools = "1"
+EarthSciMLBase = "0.4-0.6"
+Interpolations = "0.14"
+SafeTestsets = ["0.0.1", "0.1"]
+StaticArrays = "1"
