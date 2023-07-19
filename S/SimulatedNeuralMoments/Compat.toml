@@ -33,9 +33,11 @@ julia = "1.5-1.8"
 ["1-1.0.3"]
 PrettyTables = "1"
 
+["1.0.2-1"]
+Flux = "0.13"
+
 ["1.0.2-2"]
 BSON = "0.3"
-Flux = "0.13"
 
 ["1.0.4"]
 AdvancedMH = "0.6"
@@ -54,10 +56,20 @@ StatsPlots = "0.15"
 AdvancedMH = "0.6-0.7"
 Turing = "0.22-0.24"
 
+["1.0.6-1"]
+StatsBase = "0.33"
+
 ["1.0.6-2"]
 MCMCChains = "6"
-StatsBase = "0.33"
 julia = "1.5-1.9"
 
 [2]
 Distributions = "0.25"
+
+["2.0.0"]
+Flux = "0.13"
+StatsBase = "0.33"
+
+["2.0.1-2"]
+Flux = "0.13-0.14"
+StatsBase = "0.33-0.34"
