@@ -43,8 +43,10 @@ Zygote = "0.6.10-0.6"
 ChainRulesCore = "0.9-0.10"
 
 ["0.4-0"]
-StatsBase = "0.33"
 Tullio = "0.3"
+
+["0.4-0.7.1"]
+StatsBase = "0.33"
 
 ["0.5"]
 Zygote = "0.6.19-0.6"
@@ -61,11 +63,17 @@ Zygote = "0.6"
 
 ["0.7-0"]
 Interpolations = "0.12.10-0.14"
-SnoopPrecompile = "1"
 julia = "1"
+
+["0.7-0.7.1"]
+SnoopPrecompile = "1"
 
 ["0.7.0"]
 FillArrays = "0.12-0.13"
 
 ["0.7.1-0"]
 FillArrays = ["0.12-0.13", "1"]
+
+["0.7.2-0"]
+PrecompileTools = "1"
+StatsBase = "0.33-0.34"
