@@ -2,7 +2,6 @@
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 KernelDensityEstimate = "2472808a-b354-52ea-a80e-1658a3c6056d"
-NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
@@ -13,14 +12,17 @@ Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 
+["0-0.33"]
+NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
+
 ["0-0.4.0"]
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 
-["0.10.3-0"]
-NLSolversBase = "d41bc354-129a-5804-8e4c-c37616107c6c"
-
 ["0.10.3-0.11.1"]
 ValueShapes = "136a8f8c-c49b-4edb-8b98-f3d64d48be8f"
+
+["0.10.3-0.33"]
+NLSolversBase = "d41bc354-129a-5804-8e4c-c37616107c6c"
 
 ["0.14-0"]
 TimeZones = "f269a46b-ccf7-5d73-abea-4c690281aa53"
@@ -59,12 +61,21 @@ RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 ["0.30.1-0"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 
-["0.31-0"]
+["0.31-0.33"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 
 ["0.33-0"]
 JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 StructTypes = "856f2bd8-1eba-4b0a-8007-ebc267875bd4"
+
+["0.34-0"]
+BlockArrays = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+FiniteDifferences = "26cc04aa-876d-5657-8c51-4c34ba976000"
+ManifoldDiff = "af67fdf4-a580-4b9f-bbec-742ef357defd"
+Manopt = "0fc0a36d-df90-57f3-8f93-d78a9fc72bb5"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
 
 ["0.4-0"]
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
@@ -89,7 +100,7 @@ SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
 ["0.5-0"]
 ApproxManifoldProducts = "9bbbb610-88a1-53cd-9763-118ce10c1f89"
 
-["0.5.5-0"]
+["0.5.5-0.33"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.5.5-0.5.6"]

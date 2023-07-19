@@ -23,12 +23,12 @@ DistributedFactorGraphs = "0.7"
 ["0.10.1-0.10.2"]
 DistributedFactorGraphs = "0.7.1-0.7"
 
-["0.10.3-0"]
-NLSolversBase = "7.6.0-7"
-
 ["0.10.3-0.11.1"]
 DistributedFactorGraphs = "0.7.2-0.7"
 ValueShapes = "0.6"
+
+["0.10.3-0.33"]
+NLSolversBase = "7.6.0-7"
 
 ["0.11.2-0.11"]
 DistributedFactorGraphs = "0.7.3-0.7"
@@ -161,7 +161,6 @@ ApproxManifoldProducts = "0.3.3-0.3"
 Distributions = "0.24-0.25"
 FileIO = "1"
 ProgressMeter = "1"
-StatsBase = "0.32-0.33"
 
 ["0.24.1-0.24"]
 ApproxManifoldProducts = "0.3.4-0.3"
@@ -183,6 +182,9 @@ DocStringExtensions = "0.8"
 
 ["0.24.1-0.32"]
 JSON2 = "0.3"
+
+["0.24.1-0.33"]
+StatsBase = "0.32-0.33"
 
 ["0.24.4-0.24"]
 DistributedFactorGraphs = "0.14.5-0.14"
@@ -237,12 +239,14 @@ DistributedFactorGraphs = "0.17"
 
 ["0.27-0"]
 Reexport = "1"
-Requires = "1"
 
 ["0.27-0.28"]
 ApproxManifoldProducts = "0.4.24-0.4"
 DistributedFactorGraphs = "0.18"
 Manifolds = "0.7"
+
+["0.27-0.33"]
+Requires = "1"
 
 ["0.27.2-0"]
 MetaGraphs = "0.7"
@@ -282,7 +286,7 @@ RecursiveArrayTools = "2"
 OrderedCollections = "1"
 RecursiveArrayTools = "2.31.1-2"
 
-["0.31-0"]
+["0.31-0.33"]
 SnoopPrecompile = "1"
 julia = "1.8.0-1"
 
@@ -292,17 +296,33 @@ DistributedFactorGraphs = "0.18.10-0.18"
 ["0.32.2"]
 DistributedFactorGraphs = "0.19"
 
-["0.32.2-0"]
+["0.32.2-0.33"]
 ApproxManifoldProducts = "0.6.3-0.6"
 
 ["0.32.3-0.32"]
 DistributedFactorGraphs = "0.19.3-0.19"
 
-["0.33-0"]
+["0.33"]
 DistributedFactorGraphs = "0.20"
+
+["0.33-0"]
 JSON3 = "1"
 ManifoldsBase = "0.13.12-0.14"
 StructTypes = "1"
+
+["0.34-0"]
+ApproxManifoldProducts = "0.7"
+BlockArrays = "0.16"
+DelimitedFiles = "1"
+DistributedFactorGraphs = "0.23"
+FiniteDiff = "2"
+FiniteDifferences = "0.12"
+ManifoldDiff = "0.3"
+Manopt = "0.4.27-0.4"
+PrecompileTools = "1"
+SparseDiffTools = "2"
+StatsBase = "0.32-0.34"
+julia = "1.9.0-1"
 
 ["0.4"]
 KernelDensityEstimate = "0.4"
@@ -419,9 +439,6 @@ DistributedFactorGraphs = "0.4"
 ["0.7.8-0.24"]
 KernelDensityEstimate = "0.5.1-0.6"
 
-["0.7.9-0"]
-NLsolve = "3-4"
-
 ["0.7.9-0.11"]
 Distributions = ["0.18-0.25", "1"]
 StatsBase = ["0.25-0.40", "1"]
@@ -437,6 +454,9 @@ JSON2 = ["0.3-0.7", "1"]
 ProgressMeter = ["0.6-0.9", "1"]
 Reexport = ["0.2-0.5", "1"]
 Requires = ["0.5-0.10", "1"]
+
+["0.7.9-0.33"]
+NLsolve = "3-4"
 
 ["0.7.9-0.7"]
 DistributedFactorGraphs = "0.4.1-0.4"
