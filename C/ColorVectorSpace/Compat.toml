@@ -10,6 +10,9 @@ SpecialFunctions = "0.0.0-0.9"
 StatsBase = "0.8.2-0.32"
 julia = ["0.7", "1"]
 
+["0.10-0"]
+Requires = "1"
+
 ["0.6.1-0.7"]
 ColorTypes = "0.7.4-0.8"
 
@@ -79,5 +82,5 @@ FixedPointNumbers = "0.8.2-0.8"
 ["0.9.4-0"]
 ColorTypes = "0.10-0.11"
 
-["0.9.8-0"]
+["0.9.8-0.9"]
 SpecialFunctions = ["0.8-0.10", "1-2"]
