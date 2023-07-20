@@ -18,7 +18,6 @@ MLJBase = "a7f614a8-145f-11e9-1d2a-a57a1082229d"
 MLJModelInterface = "e80e1ace-859a-464e-9ed9-23947d8ae3ea"
 MLUtils = "f1d291b0-491e-4a28-83b9-f70985020b54"
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
-NNlibCUDA = "a00861dc-f156-4864-bf3c-e6376f28a68d"
 Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
 Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
 OptimizationOptimisers = "42dfb2eb-d2b4-4451-abcd-913932933ac1"
@@ -35,6 +34,9 @@ Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 ["0-0.7.1"]
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
 
+["0-0.8"]
+NNlibCUDA = "a00861dc-f156-4864-bf3c-e6376f28a68d"
+
 ["0.6-0"]
 ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 
@@ -42,6 +44,8 @@ ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
 
-["0.8-0"]
+["0.8"]
 DiffEqGPU = "071ae1c0-96b5-11e9-1965-c90190d839ea"
+
+["0.8-0"]
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
