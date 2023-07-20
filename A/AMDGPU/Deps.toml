@@ -1,7 +1,6 @@
 [0]
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
 GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
 GPUCompiler = "61eb1bfa-7361-4325-ad38-22787b887f55"
@@ -15,9 +14,14 @@ Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 ["0-0.4.8"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
+["0-0.5.0"]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+
 ["0.2.10-0"]
-HIP_jll = "2696aab5-0948-5276-aa9a-2a86a37016b8"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["0.2.10-0.5.0"]
+HIP_jll = "2696aab5-0948-5276-aa9a-2a86a37016b8"
 ROCmDeviceLibs_jll = "873c0968-716b-5aa7-bb8d-d1e2e2aeff2d"
 
 ["0.2.16-0"]
@@ -30,16 +34,18 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 ["0.2.3-0"]
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 
-["0.2.4-0"]
-hsa_rocr_jll = "dd59ff1a-a01a-568d-8b29-0669330f116a"
-
 ["0.2.4-0.2.9"]
 hsakmt_roct_jll = "1cecccd7-a9b6-5045-9cdc-a44c19b16d76"
+
+["0.2.4-0.5.0"]
+hsa_rocr_jll = "dd59ff1a-a01a-568d-8b29-0669330f116a"
 
 ["0.3-0"]
 ExprTools = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
 LLVM_jll = "86de99a1-58d6-5da7-8064-bd56ce2e322c"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0.3-0.5.0"]
 rocRAND_jll = "a6151927-a32b-54c0-bc8c-bbd7b3f1a996"
 
 ["0.4-0"]
@@ -48,7 +54,7 @@ LLD_jll = "d55e3150-da41-5e91-b323-ecfd1eec6109"
 ["0.4.2-0"]
 Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 
-["0.4.3-0"]
+["0.4.3-0.5.0"]
 rocBLAS_jll = "1ef8cab2-a151-54b4-a57f-5fbb4046a4ab"
 rocSPARSE_jll = "8c6ce2ba-659c-5ec7-ba4c-37596cf1f22a"
 
