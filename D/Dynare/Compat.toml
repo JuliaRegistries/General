@@ -65,11 +65,13 @@ Tokenize = "0.5.21"
 TimeDataFrames = "0.3"
 
 ["0.5.5-0"]
-FastLapackInterface = "1"
 PolynomialMatrixEquations = "0.2"
 
 ["0.5.5-0.5"]
 LinearRationalExpectations = "0.3"
+
+["0.5.5-0.7"]
+FastLapackInterface = "1"
 
 ["0.5.7-0"]
 Optim = "1.7.3-1"
@@ -115,12 +117,14 @@ AdvancedMH = "0.6.8-0.7"
 ["0.6.3-0.6"]
 DynarePreprocessor_jll = "6.0.2-6.0"
 
+["0.7"]
+LinearRationalExpectations = "0.5"
+
 ["0.7-0"]
 AbstractMCMC = "4.4.0-4"
 DynarePreprocessor_jll = "6.3"
 ExtendedDates = "0.2"
 KalmanFilterTools = "0.1.3-0.1"
-LinearRationalExpectations = "0.5"
 MCMCChains = "5.3.1-6"
 MCMCDiagnosticTools = "0.3"
 Requires = "1.3.0-1"
@@ -138,3 +142,11 @@ AxisArrayTables = "0.1.2-0.1"
 
 ["0.7.4-0"]
 AdvancedMH = "0.7.4-0.7"
+
+["0.8-0"]
+FastLapackInterface = "2"
+KOrderPerturbations = "0.1.2-0.1"
+LinearRationalExpectations = "0.5.5-0.5"
+MKL = "0.6"
+Pardiso = "0.5"
+PrecompileTools = "1.1.2-1"
