@@ -215,12 +215,14 @@ Contour = "0.5-0.6"
 ["0.18-0"]
 FreeTypeAbstraction = "0.10"
 MathTeXEngine = "0.5"
-MiniQhull = "0.4"
 RelocatableFolders = ["0.1-0.3", "1"]
 TriplotBase = "0.1.0"
 
 ["0.18-0.19.4"]
 SnoopPrecompile = "1"
+
+["0.18-0.19.6"]
+MiniQhull = "0.4"
 
 ["0.18.0"]
 MakieCore = "0.5.0"
@@ -250,7 +252,7 @@ StableHashTraits = "0.3"
 ["0.19.2"]
 MakieCore = "0.6.2"
 
-["0.19.3-0"]
+["0.19.3-0.19.6"]
 MakieCore = "0.6.3"
 
 ["0.19.5-0"]
@@ -259,6 +261,11 @@ PrecompileTools = "1"
 
 ["0.19.6-0"]
 StatsBase = "0.31-0.34"
+
+["0.19.7-0"]
+DelaunayTriangulation = "0.6.2-0.7"
+MakieCore = "0.6.4"
+ShaderAbstractions = "0.3"
 
 ["0.9.1-0.9.2"]
 AbstractPlotting = "0.9.2-0.9"
