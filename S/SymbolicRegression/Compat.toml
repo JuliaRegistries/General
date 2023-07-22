@@ -49,10 +49,10 @@ PrecompileTools = "1"
 DynamicExpressions = "0.8"
 StaticArrays = "1"
 
-["0.18-0"]
+["0.18-0.20"]
 LossFunctions = ["0.6-0.8", "0.10"]
 
-["0.19-0"]
+["0.19-0.20"]
 DynamicExpressions = "0.9"
 Requires = "1"
 
@@ -71,6 +71,14 @@ SymbolicUtils = "0.6"
 ["0.20-0"]
 MLJModelInterface = "1.5.0-1"
 MacroTools = "0.4-0.5"
+
+["0.21-0"]
+Compat = "4.2.0-4"
+DynamicExpressions = "0.10"
+DynamicQuantities = "0.6.2-0.6"
+LossFunctions = "0.10"
+PackageExtensionCompat = "1"
+Tricks = "0.1"
 
 ["0.4-0"]
 Pkg = "1"
@@ -94,7 +102,7 @@ Optim = ["0.19", "1.1.0-1"]
 ["0.6-0.9.2"]
 LossFunctions = "0.6-0.7"
 
-["0.6.1-0"]
+["0.6.1-0.20"]
 JSON3 = "1"
 
 ["0.6.11-0.6.14"]
