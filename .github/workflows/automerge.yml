@@ -81,7 +81,10 @@ jobs:
             additional_statuses = String[],
             additional_check_runs = String[],
             check_license = true,
-            public_registries = String["https://github.com/HolyLab/HolyLabRegistry"],
+            public_registries = String[
+              "https://github.com/HolyLab/HolyLabRegistry",
+              "https://github.com/cossio/CossioJuliaRegistry"
+            ],
             point_to_slack = true,
           )
         shell: julia --color=yes --project=.ci/ {0}
