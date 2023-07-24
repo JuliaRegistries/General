@@ -262,13 +262,15 @@ Meshes = "0.24"
 ["0.33-0"]
 DensityRatioEstimation = "1"
 KrigingEstimators = "0.10"
-Variography = "0.15"
 
 ["0.33-0.34"]
 GeoStatsSolvers = "0.1"
 
 ["0.33-0.35"]
 GeoStatsBase = "0.28"
+
+["0.33-0.40"]
+Variography = "0.15"
 
 ["0.34-0.35"]
 Meshes = "0.25"
@@ -325,6 +327,9 @@ PointPatterns = "0.5"
 
 ["0.40.5-0"]
 Meshes = "0.31-0.32"
+
+["0.41-0"]
+Variography = "0.16"
 
 ["0.7.2-0.7"]
 GeoStatsBase = "0.2.5-0.5"
