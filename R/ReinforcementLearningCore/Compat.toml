@@ -27,6 +27,9 @@ julia = "1.9.0-1"
 ["0.11.1-0"]
 TimerOutputs = "0.5"
 
+["0.11.3-0"]
+Flux = "0.13-0.14"
+
 ["0.2"]
 ReinforcementLearningBase = "0.6"
 
@@ -212,9 +215,11 @@ FillArrays = "0.8-0.13"
 ["0.9-0"]
 Adapt = "3"
 ChainRulesCore = "1"
-Flux = "0.13"
 Parsers = "2"
 Reexport = "1"
+
+["0.9-0.11.2"]
+Flux = "0.13"
 
 ["0.9.0"]
 ReinforcementLearningBase = "0.10"
