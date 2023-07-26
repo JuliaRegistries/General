@@ -11,7 +11,16 @@ Interpolations = "0.14"
 LazyGrids = "0.5"
 Literate = "2.14.0-2"
 PythonCall = "0.9"
-StatsBase = "0.33"
 Tables = "1.10.0-1"
 YAML = "0.4"
 julia = "1.8.0-1"
+
+["0-0.1"]
+StatsBase = "0.33"
+
+["0.2-0"]
+ColorSchemes = "3.21.0-3"
+HDF5_jll = "1.12.2-1"
+OpenSSL_jll = "1.1.21-1"
+Plots = "1"
+StatsBase = "0.33-0.34"
