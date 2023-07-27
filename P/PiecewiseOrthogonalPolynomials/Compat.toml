@@ -33,15 +33,22 @@ BlockBandedMatrices = "0.11.10-0.12"
 ClassicalOrthogonalPolynomials = "0.7-0.8"
 LazyArrays = ["0.22.9-0.22", "1"]
 
-["0.1-0"]
-ArrayLayouts = "1.0.12-1"
+["0.1"]
 BandedMatrices = "0.17.30-0.17"
 BlockBandedMatrices = "0.12"
+LazyBandedMatrices = "0.8.13-0.8"
+
+["0.1-0"]
+ArrayLayouts = "1.0.12-1"
 ClassicalOrthogonalPolynomials = "0.11"
 ContinuumArrays = "0.14"
 FillArrays = "1"
 LazyArrays = "1"
-LazyBandedMatrices = "0.8.13-0.8"
 MatrixFactorizations = "2"
 QuasiArrays = "0.11"
 julia = "1.9.0-1"
+
+["0.2-0"]
+BandedMatrices = "0.17.33-0.17"
+BlockBandedMatrices = "0.12.2-0.12"
+LazyBandedMatrices = "0.8.15-0.8"
