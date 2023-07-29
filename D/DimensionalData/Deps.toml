@@ -29,9 +29,15 @@ IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
 Extents = "411431e0-e8b7-467b-b5e0-f676ba4f2910"
 
 ["0.21-0"]
-ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
 IteratorInterfaceExtensions = "82899510-4779-5014-852e-03e436cf321d"
 TableTraits = "3783bdb8-4a98-5b6b-af9a-565f29a5fe9c"
 
-["0.24.8-0"]
+["0.21-0.24.12"]
+ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
+
+["0.24.13-0"]
+ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["0.24.8-0.24.12"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
