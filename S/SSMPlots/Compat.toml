@@ -2,8 +2,13 @@
 Interpolations = "0.14"
 KernelDensity = "0.6"
 Plots = "1"
-SequentialSamplingModels = "0.5"
 julia = "1"
+
+["0-0.0.3"]
+SequentialSamplingModels = "0.5"
 
 ["0.0.2-0"]
 SafeTestsets = ["0.0.1", "0.1"]
+
+["0.0.4-0"]
+SequentialSamplingModels = "0.5-0.6"
