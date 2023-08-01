@@ -52,9 +52,11 @@ Metatheory = "1.2.0-1"
 TermInterface = "0.2.1-0.2"
 
 ["0.18.2-1"]
+SpecialFunctions = ["0.10", "1-2"]
+
+["0.18.2-1.1"]
 DynamicPolynomials = "0.3-0.4"
 MultivariatePolynomials = "0.3-0.4"
-SpecialFunctions = ["0.10", "1-2"]
 
 ["0.19.10-0.19"]
 TermInterface = "0.2.1-0.3"
@@ -122,3 +124,7 @@ AbstractAlgebra = "0.9-0.14"
 
 ["0.9.3-0.11.0"]
 AbstractAlgebra = "0.9-0.15"
+
+["1.2-1"]
+DynamicPolynomials = "0.5"
+MultivariatePolynomials = "0.5"
