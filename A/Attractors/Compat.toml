@@ -6,7 +6,6 @@ Neighborhood = "0.2.2-0.2"
 Optim = "1.7.0-1"
 ProgressMeter = "1.7.0-1"
 Reexport = "1"
-StateSpaceSets = "1"
 
 ["0-1.1"]
 DynamicalSystemsBase = "3"
@@ -17,6 +16,9 @@ Clustering = "0.14"
 ["0-1.5"]
 julia = "1.8.0-1"
 
+["0-1.7"]
+StateSpaceSets = "1"
+
 ["1.2-1"]
 DynamicalSystemsBase = "3.0.3-3"
 
@@ -25,3 +27,7 @@ Clustering = "0.15"
 
 ["1.6-1"]
 julia = "1.9.0-1"
+
+["1.8-1"]
+BlackBoxOptim = "0.6"
+StateSpaceSets = "1.4.2-1"
