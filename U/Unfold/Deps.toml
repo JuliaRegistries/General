@@ -1,5 +1,4 @@
 [0]
-CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
@@ -10,7 +9,6 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MLBase = "f0e99cf1-93fa-52ec-9ecc-5026115318e0"
 Missings = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
 MixedModels = "ff71e718-51f3-5ec2-a782-8ffcbfa3c316"
-PkgBenchmark = "32113eaa-f34f-5b0d-bd6c-c81e245fc73d"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
@@ -31,6 +29,10 @@ PyMNE = "6c5003b2-cbe8-491c-a0d1-70088e6a0fd6"
 ["0-0.4"]
 BSplines = "488c2830-172b-11e9-1591-253b8a7df96d"
 
+["0-0.5"]
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+PkgBenchmark = "32113eaa-f34f-5b0d-bd6c-c81e245fc73d"
+
 ["0.3.5-0"]
 Effects = "8f03c58b-bd97-4933-a826-f71b64d2cca2"
 
@@ -45,3 +47,7 @@ RobustModels = "d6ea1423-9682-4bbd-952f-b1577cbf8c98"
 BSplineKit = "093aae92-e908-43d7-9660-e50ee39d5a0a"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+
+["0.6-0"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
