@@ -34,7 +34,6 @@ Zygote = "0.6.17-0.6"
 
 ["0.10-0"]
 DiffEqCallbacks = "2.26.0-2"
-DifferentialEquations = "7.7.0-7"
 ThreadPools = "2.1.1-2"
 
 ["0.10-0.10.1"]
@@ -42,14 +41,31 @@ FMIImport = "0.15.2-0.15"
 Flux = "0.13.14-0.13"
 SciMLSensitivity = "7.27.0-7"
 
+["0.10-0.10.3"]
+DifferentialEquations = "7.7.0-7"
+
 ["0.10.0"]
 SciMLBase = "1.91.0-1"
 
-["0.10.2-0"]
-ChainRulesCore = "1.16.0-1"
+["0.10.2-0.10.3"]
 FMIImport = "0.15.6-0.15"
 Flux = "0.13.16-0.13"
 SciMLSensitivity = "7.31.0-7"
+
+["0.10.2-0.10.5"]
+ChainRulesCore = "1.16.0-1"
+
+["0.10.4-0"]
+DifferentiableEigen = "0.2"
+DifferentialEquations = "7.8.0-7"
+
+["0.10.4-0.10.5"]
+FMIImport = "0.15.7-0.15"
+Flux = "0.13.17-0.13"
+
+["0.10.6-0"]
+FMIImport = "0.15.8-0.15"
+Flux = "0.13-0.14"
 
 ["0.2-0.3"]
 DifferentialEquations = "6.20.0-6"

@@ -138,8 +138,10 @@ GridVisualize = "0.5.2-0.5"
 Krylov = "0.8.4-0.9"
 
 ["0.18.5-1"]
-ExtendableGrids = "0.9.16-0.9"
 JLD2 = "0.4.29-0.4"
+
+["0.18.5-1.12.0"]
+ExtendableGrids = "0.9.16-0.9"
 
 ["0.18.6-0.18"]
 ExtendableSparse = "0.9.4-0.9"
@@ -244,13 +246,16 @@ LinearSolve = "1.37.0-1"
 ["1.1.1-1"]
 ForwardDiff = "0.10.35-0.10"
 
+["1.12.1-1"]
+ExtendableGrids = ["0.9.16-0.9", "1"]
+
 ["1.2.1-1"]
 SparseDiffTools = "1.19.0-2"
 
 ["1.3-1"]
 RecursiveFactorization = "0.2.18-0.2"
 
-["1.3.2-1"]
+["1.3.2-1.13.1"]
 PrecompileTools = "1"
 
 ["1.4"]

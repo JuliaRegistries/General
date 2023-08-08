@@ -18,13 +18,20 @@ DiffEqFlux = "aae7a2af-3d4f-5e19-a356-7da93b79d9d0"
 DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
 
 ["0.10-0"]
-SciMLSensitivity = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
 ThreadPools = "b189fb0b-2eb5-4ed4-bc0c-d34c51242431"
 
+["0.10-0.10.3"]
+SciMLSensitivity = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
+
+["0.10.4-0"]
+DifferentiableEigen = "73a20539-4e65-4dcb-a56d-dc20f210a01b"
+
 ["0.2-0"]
-ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+
+["0.2-0.10.5"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 
 ["0.2-0.9"]
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"

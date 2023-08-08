@@ -2,14 +2,11 @@
 AxisKeys = "0.2"
 BlockTriangularForm = "0.1"
 ForwardDiff = "0.10"
-IterativeSolvers = "0.9"
 LaTeXStrings = "1"
-LinearMaps = "3"
 MacroTools = "0.5"
 RuntimeGeneratedFunctions = "0.5"
 SpecialFunctions = "2"
 Subscripts = "0.1"
-SymPy = "1"
 julia = "1.8.0-1"
 
 ["0-0.1.0"]
@@ -29,6 +26,13 @@ Plots = "1.36.3-1"
 
 ["0-0.1.16"]
 SnoopPrecompile = "1"
+
+["0-0.1.24"]
+SymPy = "1"
+
+["0-0.1.25"]
+IterativeSolvers = "0.9"
+LinearMaps = "3"
 
 ["0-0.1.6"]
 FiniteDifferences = "0.12"
@@ -57,8 +61,10 @@ Optimization = "3.12.1"
 OptimizationNLopt = "0.1.2"
 
 ["0.1.13-0"]
-ComponentArrays = "0.13"
 RecursiveFactorization = "0.2"
+
+["0.1.13-0.1.25"]
+ComponentArrays = "0.13"
 
 ["0.1.14-0"]
 DocStringExtensions = "0.8-0.9"
@@ -73,8 +79,19 @@ Requires = "1"
 PrecompileTools = "1"
 Reexport = "1"
 
-["0.1.24-0"]
+["0.1.24-0.1.25"]
 CondaPkg = "0.2"
+
+["0.1.25"]
+CommonEq = "0.2"
+CommonSolve = "0.2"
+PythonCall = "0.9"
+
+["0.1.26-0"]
+ComponentArrays = "0.13-0.14"
+Krylov = "0.9"
+LinearOperators = "2"
+SymPyPythonCall = "0.1"
 
 ["0.1.4-0.1.14"]
 StatsPlots = "0.15"

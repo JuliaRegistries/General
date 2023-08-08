@@ -1,5 +1,4 @@
 [0]
-ForwardDiff = "0.10"
 Optim = "1"
 PositiveFactorizations = "0.2"
 julia = "1.5.0-1"
@@ -10,18 +9,23 @@ LinearMaps = "2"
 StaticArrays = "0.12"
 Zygote = "0.5.14-0.5"
 
+["0-0.2"]
+ForwardDiff = "0.10"
+
 ["0-0.2.0"]
 ValueShapes = "0.7"
 
 ["0-0.2.2"]
 Distributions = "0.23-0.24"
 
+["0.2"]
+Zygote = "0.5.14-0.6"
+
 ["0.2-0"]
 DistributionsAD = "0.6"
 IterativeSolvers = "0.8-0.9"
 LinearMaps = "3"
 StaticArrays = ["0.12", "1"]
-Zygote = "0.5.14-0.6"
 
 ["0.2-0.2.3"]
 ChainRulesCore = "0.9"
@@ -32,7 +36,7 @@ ValueShapes = "0.7-0.8"
 ["0.2.3"]
 ValueShapes = "0.7-0.9"
 
-["0.2.3-0"]
+["0.2.3-0.2"]
 Distributions = "0.23-0.25"
 
 ["0.2.4"]
@@ -42,8 +46,16 @@ ValueShapes = "0.9"
 ["0.2.5-0"]
 ChainRulesCore = ["0.9.44-0.10", "1"]
 DocStringExtensions = "0.8-0.9"
-FillArrays = "0.7-0.13"
 LineSearches = "7"
 PDMats = "0.11.5-0.11"
 Parameters = "0.12"
 ValueShapes = "0.9-0.10"
+
+["0.2.5-0.2"]
+FillArrays = "0.7-0.13"
+
+["0.3-0"]
+AutoDiffOperators = "0.1.3-0.1"
+Distributions = "0.25"
+FillArrays = "1.1.1-1"
+HeterogeneousComputing = "0.2"

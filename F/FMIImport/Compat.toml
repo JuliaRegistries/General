@@ -63,10 +63,16 @@ FMICore = "0.17"
 ["0.15.6"]
 FMICore = "0.17.2-0.17"
 
-["0.15.7-0"]
+["0.15.7"]
 ChainRulesCore = ["0.10.7-0.10", "1"]
-FMICore = "0.17.3-0.17"
 SciMLSensitivity = "7.31.0-7"
+
+["0.15.7-0"]
+FMICore = "0.17.3-0.17"
+
+["0.15.8-0"]
+ChainRulesCore = "1.16.0-1"
+SciMLSensitivity = "7.35.0-7"
 
 ["0.6-0.6.1"]
 FMICore = "0.6.1-0.6"
