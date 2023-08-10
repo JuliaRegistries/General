@@ -6,7 +6,13 @@ DensityInterface = "b429d917-457f-4dbc-8f4c-0cc954292b1d"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
+
+["0-0.1"]
+PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
+
+["0.2-0"]
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
