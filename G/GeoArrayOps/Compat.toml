@@ -1,5 +1,4 @@
 [0]
-ImageCore = "0.9"
 OffsetArrays = "1.10.0-1"
 
 ["0-0.3"]
@@ -7,6 +6,9 @@ julia = "1.5.0-1"
 
 ["0-0.3.0"]
 ImageFiltering = "0.7"
+
+["0-0.5.1"]
+ImageCore = "0.9"
 
 ["0.2-0"]
 DataStructures = "0.18"
@@ -21,10 +23,16 @@ FillArrays = "0.12"
 ProgressMeter = "1.7.0-1"
 
 ["0.3.1-0"]
-FillArrays = "0.12-0.13"
 ImageFiltering = "0.6-0.7"
 StatsBase = "0.33"
+
+["0.3.1-0.5.1"]
+FillArrays = "0.12-0.13"
 
 ["0.4-0"]
 LocalFilters = "1.2.0-1"
 julia = "1.6.0-1"
+
+["0.5.2-0"]
+FillArrays = ["0.12-0.13", "1"]
+ImageCore = "0.9-0.10"
