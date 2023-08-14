@@ -6,7 +6,6 @@ Turing = "0.20"
 GLM = "1.5.0-1"
 MixedModels = "4.5.0-4"
 Reexport = "1.2.0-1"
-StatsBase = "0.33"
 TableOperations = "1.2.0-1"
 Tables = "1.6.0-1"
 
@@ -16,6 +15,9 @@ julia = "1.6.0-1"
 ["1-2.5"]
 LazyArrays = "0.22"
 StatsModels = "0.6.28-0.6"
+
+["1-2.7"]
+StatsBase = "0.33"
 
 ["2.0"]
 Distributions = "0.25"
@@ -45,6 +47,12 @@ Turing = "0.20-0.24"
 LazyArrays = ["0.22", "1"]
 StatsModels = "0.6.28-0.7"
 
-["2.7-2"]
+["2.7"]
 Turing = "0.20-0.25"
+
+["2.7-2"]
 julia = "1"
+
+["2.8-2"]
+StatsBase = "0.33-0.34"
+Turing = "0.20-0.28"

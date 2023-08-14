@@ -10,8 +10,12 @@ RecipesBase = "0.0.0-1"
 SpecialFunctions = "0.0.0-0.10"
 StaticArrays = "0.0.0-0.12"
 
-["0.1.13-0"]
+["0.1.13-0.1.15"]
 WignerSymbols = "1"
+
+["0.1.16-0"]
+SpecialFunctions = ["0.7-0.10", "1-2"]
+WignerSymbols = "1-2"
 
 ["0.1.4"]
 GSL = "0.6"
@@ -32,5 +36,5 @@ GSL = ["0.6-0.9", "1"]
 OffsetArrays = ["0.23", "1"]
 StaticArrays = "0.8-0.12"
 
-["0.1.6-0"]
+["0.1.6-0.1.15"]
 SpecialFunctions = "0.7-0.10"

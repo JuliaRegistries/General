@@ -216,14 +216,14 @@ TableTransforms = "0.1-0.3"
 GeoSimulation = "0.6"
 Meshes = "0.20"
 
-["0.30-0"]
-julia = "1.6.0-1"
-
 ["0.30-0.31"]
 DensityRatioEstimation = "0.5"
 
 ["0.30-0.32"]
 Variography = "0.14"
+
+["0.30-0.41"]
+julia = "1.6.0-1"
 
 ["0.31"]
 GeoSimulation = "0.7"
@@ -261,7 +261,6 @@ Meshes = "0.24"
 
 ["0.33-0"]
 DensityRatioEstimation = "1"
-KrigingEstimators = "0.10"
 
 ["0.33-0.34"]
 GeoStatsSolvers = "0.1"
@@ -272,13 +271,16 @@ GeoStatsBase = "0.28"
 ["0.33-0.40"]
 Variography = "0.15"
 
+["0.33-0.41"]
+KrigingEstimators = "0.10"
+
 ["0.34-0.35"]
 Meshes = "0.25"
 
 ["0.34.1-0.36"]
 TableTransforms = "1.6.0-1"
 
-["0.35-0"]
+["0.35-0.41"]
 GeoStatsSolvers = "0.2"
 
 ["0.36"]
@@ -287,6 +289,8 @@ Meshes = "0.26"
 
 ["0.36-0"]
 Chain = "0.5"
+
+["0.36-0.41"]
 GeoClustering = "0.3"
 
 ["0.37"]
@@ -304,13 +308,13 @@ Meshes = "0.28"
 ["0.37.2"]
 LossFunctions = "0.9"
 
-["0.37.3-0"]
+["0.37.3-0.41"]
 LossFunctions = "0.10"
 
 ["0.38"]
 Meshes = "0.29"
 
-["0.38-0"]
+["0.38-0.41"]
 GeoStatsBase = "0.31"
 
 ["0.38.1-0"]
@@ -322,14 +326,36 @@ Meshes = "0.30"
 ["0.40-0.40.4"]
 Meshes = "0.31"
 
-["0.40.1-0"]
+["0.40.1-0.41"]
 PointPatterns = "0.5"
 
-["0.40.5-0"]
+["0.40.5-0.41"]
 Meshes = "0.31-0.32"
 
-["0.41-0"]
+["0.41"]
 Variography = "0.16"
+
+["0.42"]
+GeoStatsBase = "0.32"
+GeoStatsSolvers = "0.4"
+
+["0.42-0"]
+CategoricalArrays = "0.10"
+GeoClustering = "0.4"
+KrigingEstimators = "0.11"
+LossFunctions = "0.11"
+Meshes = "0.34"
+PointPatterns = "0.6"
+Unitful = "1.15.0-1"
+Variography = "0.17"
+julia = "1.9.0-1"
+
+["0.42.2-0"]
+Tables = "1.10.0-1"
+
+["0.43-0"]
+GeoStatsBase = "0.33"
+GeoStatsSolvers = "0.5"
 
 ["0.7.2-0.7"]
 GeoStatsBase = "0.2.5-0.5"

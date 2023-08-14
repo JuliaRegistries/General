@@ -1,5 +1,4 @@
 [0]
-CategoricalArrays = "0.10"
 DSP = "0.7"
 DataFrames = "1"
 Distributions = "0.25"
@@ -8,7 +7,6 @@ IterativeSolvers = "0.9"
 MLBase = "0.9"
 Missings = "1"
 MixedModels = "4"
-PkgBenchmark = "0.2"
 ProgressMeter = "1"
 StaticArrays = "1"
 StatsBase = "0.33"
@@ -31,6 +29,10 @@ MixedModelsPermutations = "0.1"
 ["0-0.4"]
 BSplines = "0.3"
 
+["0-0.5"]
+CategoricalArrays = "0.10"
+PkgBenchmark = "0.2"
+
 ["0.3.12-0"]
 DocStringExtensions = "0.9"
 StatsFuns = "1"
@@ -51,3 +53,7 @@ RobustModels = "0.4"
 BSplineKit = "0.16"
 FileIO = "1"
 JLD2 = "0.4"
+
+["0.6-0"]
+CUDA = "4"
+Krylov = "0.9"
