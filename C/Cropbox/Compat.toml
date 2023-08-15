@@ -1,16 +1,12 @@
 [0]
-Cairo = "1"
 Crayons = "4"
 DataStructures = "0.18"
-FileIO = "1"
 Gadfly = "1"
 Highlights = "0.5"
-ImageMagick = "1"
 Interact = "0.10"
 MacroTools = "0.5"
 PolynomialRoots = "1"
 QuadGK = "2"
-StatsBase = "0.33"
 SymPy = "1"
 TimeZones = "1"
 TypedTables = "1"
@@ -39,6 +35,12 @@ LightGraphs = "1"
 ["0-0.3.3"]
 DataFrames = "0.22"
 Distributions = "0.23"
+
+["0-0.3.40"]
+Cairo = "1"
+FileIO = "1"
+ImageMagick = "1"
+StatsBase = "0.33"
 
 ["0-0.3.7"]
 ProgressMeter = "1"
@@ -87,6 +89,9 @@ DataFrames = ["0.22", "1"]
 
 ["0.3.4-0.3.7"]
 Distributions = "0.23-0.24"
+
+["0.3.41-0"]
+StatsBase = "0.33-0.34"
 
 ["0.3.8-0"]
 Distributions = "0.23-0.25"
