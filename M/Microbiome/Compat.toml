@@ -3,6 +3,7 @@ Clustering = "0.0.0-0.14"
 DataFrames = "0.15"
 Distances = "0.7"
 SpatialEcology = "0.4"
+Statistics = ["0.7", "1.0"]
 julia = ["0.7", "1.0"]
 
 ["0-0.5"]
@@ -17,6 +18,7 @@ SpatialEcology = "0.0.0-0.7"
 MultivariateStats = "0.7"
 
 ["0.5-0.7"]
+Statistics = "1.1.0-1"
 julia = "1.1.0-1"
 
 ["0.6"]
@@ -58,6 +60,7 @@ NamedDims = "0.2"
 
 ["0.8-0"]
 EcoBase = "0.1.4-0.1"
+Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0.8.3-0"]
