@@ -14,5 +14,10 @@ julia = "1"
 
 ["1.2-1"]
 DataDeps = "0.7"
-MathOptInterface = ["0.10", "1"]
 julia = "1.6.0-1"
+
+["1.2-1.5"]
+MathOptInterface = ["0.10", "1"]
+
+["1.6-1"]
+MathOptInterface = "1.19.0-1"
