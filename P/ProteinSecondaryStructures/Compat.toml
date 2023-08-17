@@ -1,9 +1,11 @@
 [0]
 Chemfiles = "0.10"
-PDBTools = "0.13.14-0.13"
 ProgressMeter = "1.7.0-1"
 TestItems = "0.1"
 julia = "1.6.0-1"
+
+["0-0.3.2"]
+PDBTools = "0.13.14-0.13"
 
 ["0.3-0"]
 STRIDE_jll = "1"
@@ -13,3 +15,6 @@ DSSP_jll = "4"
 
 ["0.3.2-0"]
 DSSP_jll = "4.4.0"
+
+["0.3.3-0"]
+PDBTools = "0.13.14-0.14"
