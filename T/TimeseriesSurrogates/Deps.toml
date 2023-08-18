@@ -12,9 +12,11 @@ AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Wavelets = "29a6e085-ba6d-5f35-a997-948ac2efa89a"
+
+["0-2.4"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.3-0"]
 UncertainData = "dcd9ba68-c27b-5cea-ae21-829cd07325bf"
