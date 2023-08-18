@@ -1,10 +1,12 @@
 [0]
 FFTW = "1.4.0-1"
 JSON = "0.21"
-StatsBase = "0.33"
 
 ["0-0.1"]
 DSP = "0.6"
+
+["0-0.10.1"]
+StatsBase = "0.33"
 
 ["0-0.3.0"]
 ImageSegmentation = "1.5.0-1"
@@ -22,6 +24,9 @@ PrettyTables = "1"
 
 ["0.10-0"]
 CUDA = "3.2.0-4"
+
+["0.10.2-0"]
+StatsBase = "0.33-0.34"
 
 ["0.2-0"]
 CircularArrays = "1.2.0-1"
