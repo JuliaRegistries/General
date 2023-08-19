@@ -37,10 +37,17 @@ Gridap = ["0.15", "0.16.1-0.16"]
 ["0.4.3-0.4"]
 Gridap = ["0.15", "0.16.1-0.17"]
 
-["0.5-0"]
+["0.5-0.6"]
 Gridap = "0.17"
 
-["0.6-0"]
+["0.6"]
 GridapDistributed = "0.2.4-0.2"
-Metis = "1"
 PartitionedArrays = "0.2"
+
+["0.6-0"]
+Metis = "1"
+
+["0.7-0"]
+Gridap = "0.17.18-0.17"
+GridapDistributed = "0.3"
+PartitionedArrays = "0.3.3-0.3"

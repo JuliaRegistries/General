@@ -13,8 +13,10 @@ NLsolve = "4"
 P4est_wrapper = "0.1"
 SparseMatricesCSR = "0.6"
 
-["0.2-0"]
+["0.2"]
 FillArrays = "0.8.4-0.12"
+
+["0.2-0"]
 WriteVTK = "1.12.0-1"
 
 ["0.2-0.2.1"]
@@ -45,6 +47,13 @@ PartitionedArrays = "0.2.10-0.2"
 Gridap = "0.17.11-0.17"
 
 ["0.2.7-0"]
-Gridap = "0.17.17-0.17"
 MPI = "0.16-0.20"
+
+["0.2.7-0.2"]
+Gridap = "0.17.17-0.17"
 PartitionedArrays = "0.2.13-0.2"
+
+["0.3-0"]
+FillArrays = "0.8.4-0.13"
+Gridap = "0.17.18-0.17"
+PartitionedArrays = "0.3.3-0.3"
