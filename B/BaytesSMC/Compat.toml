@@ -34,7 +34,6 @@ ModelWrappers = "0.3"
 DocStringExtensions = "0.8-0.9"
 
 ["0.3-0"]
-BaytesDiff = "0.2"
 BaytesFilters = "0.3"
 BaytesMCMC = "0.3"
 BaytesPMCMC = "0.3"
@@ -42,9 +41,14 @@ BaytesPMCMC = "0.3"
 ["0.3-0.3.2"]
 ModelWrappers = "0.4"
 
+["0.3-0.3.5"]
+BaytesDiff = "0.2"
+
 ["0.3.2-0"]
 BaytesCore = "0.2"
 SimpleUnPack = "1"
+
+["0.3.2-0.3.5"]
 julia = "1.8.0-1"
 
 ["0.3.3-0"]
@@ -52,3 +56,7 @@ ModelWrappers = "0.5"
 
 ["0.3.5-0"]
 BaytesOptim = "0.1"
+
+["0.3.6-0"]
+BaytesDiff = "0.3"
+julia = "1.9.0-1"
