@@ -1,10 +1,5 @@
 [0]
 ArgCheck = "2"
-ChainRulesCore = "1"
-DiffResults = "1"
-DistributionsAD = "0.6"
-ForwardDiff = "0.10"
-Zygote = "0.6"
 
 ["0-0.1"]
 ModelWrappers = "0.3"
@@ -12,6 +7,13 @@ ReverseDiff = "1.12.0-1"
 
 ["0-0.1.0"]
 DocStringExtensions = "0.8"
+
+["0-0.2"]
+ChainRulesCore = "1"
+DiffResults = "1"
+DistributionsAD = "0.6"
+ForwardDiff = "0.10"
+Zygote = "0.6"
 
 ["0-0.2.3"]
 BaytesCore = "0.1"
@@ -32,8 +34,10 @@ ReverseDiff = "1.14.0-1"
 
 ["0.2.4-0"]
 BaytesCore = "0.2"
-Enzyme = "0.11"
 SimpleUnPack = "1"
+
+["0.2.4-0.2"]
+Enzyme = "0.11"
 
 ["0.2.4-0.2.6"]
 julia = "1.8.0-1"
@@ -42,5 +46,7 @@ julia = "1.8.0-1"
 ModelWrappers = "0.5"
 
 ["0.2.7-0"]
-ReverseDiff = "1.15.0-1"
 julia = "1.9.0-1"
+
+["0.2.7-0.2"]
+ReverseDiff = "1.15.0-1"
