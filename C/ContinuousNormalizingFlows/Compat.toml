@@ -1,6 +1,5 @@
 [0]
 AbstractDifferentiation = "0.5"
-CUDA = "4"
 ComputationalResources = "0.3"
 DifferentialEquations = "7"
 Distributions = "0.25"
@@ -36,12 +35,21 @@ Flux = "0.13"
 Lux = "0.4"
 NNlibCUDA = "0.2"
 
+["0-0.9"]
+CUDA = "4"
+
+["0.10-0"]
+Optimization = "3.15.0-3"
+PackageExtensionCompat = "1"
+
+["0.10.1-0"]
+Preferences = "1"
+
 ["0.6-0"]
 ADTypes = "0.1"
 DataFrames = "1"
 FillArrays = "1"
 MLJModelInterface = "1"
-Optimization = "3"
 ProgressMeter = "1"
 SciMLBase = "1"
 SparseDiffTools = "2"
@@ -52,8 +60,13 @@ IterTools = "1"
 ["0.6-0.8"]
 NNlib = "0.8-0.9"
 
+["0.6-0.9"]
+Optimization = "3"
+
 ["0.7-0"]
 ChainRulesCore = "1"
+
+["0.7-0.9"]
 cuDNN = "1"
 
 ["0.8"]
@@ -63,9 +76,11 @@ LuxCUDA = "0.1-0.3"
 ["0.8-0"]
 OrdinaryDiffEq = "6"
 
+["0.9"]
+LuxCUDA = "0.3"
+
 ["0.9-0"]
 ComponentArrays = "0.14"
 Flux = "0.14"
 Lux = "0.5"
-LuxCUDA = "0.3"
 NNlib = "0.9"

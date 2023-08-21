@@ -283,7 +283,6 @@ BlockArrays = "0.14-0.15"
 ["0.5-0"]
 BlockArrays = "0.14-0.16"
 DSP = "0.6-0.7"
-LowRankApprox = "0.2-0.5"
 
 ["0.5-0.5.1"]
 InfiniteLinearAlgebra = "0.5"
@@ -297,13 +296,16 @@ ToeplitzMatrices = "0.6-0.7"
 ["0.5-0.7.44"]
 DomainSets = "0.5"
 
+["0.5-0.8.45"]
+LowRankApprox = "0.2-0.5"
+
 ["0.5.0"]
 InfiniteArrays = "0.11"
 
-["0.5.1-0"]
+["0.5.1-0.8.44"]
 InfiniteArrays = "0.11-0.12"
 
-["0.5.2-0"]
+["0.5.2-0.8"]
 InfiniteLinearAlgebra = "0.5-0.6"
 
 ["0.5.2-0.8.7"]
@@ -327,7 +329,7 @@ IntervalSets = "0.5-0.6"
 ["0.5.7-0"]
 IntervalSets = "0.5-0.7"
 
-["0.7.23-0"]
+["0.7.23-0.8"]
 julia = "1.6.0-1"
 
 ["0.7.40-0"]
@@ -339,7 +341,17 @@ DomainSets = "0.5-0.6"
 ["0.8.35-0.8.37"]
 SimpleTraits = "0.9"
 
+["0.8.45-0.8"]
+InfiniteArrays = "0.11-0.13"
+
+["0.8.46-0"]
+LowRankMatrices = "1"
+
 ["0.8.8-0"]
 BlockBandedMatrices = "0.10-0.12"
 FillArrays = ["0.11-0.13", "1"]
 LazyArrays = ["0.20-0.22", "1"]
+
+["0.9-0"]
+InfiniteArrays = "0.13"
+julia = "1.9.0-1"

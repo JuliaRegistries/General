@@ -20,16 +20,22 @@ RemoteFiles = "0.4.2-0.5"
 ["0.10-0"]
 julia = "1.6.0-1"
 
+["0.11"]
+SatelliteToolboxBase = "0.2"
+SatelliteToolboxPropagators = "0.2"
+
 ["0.11-0"]
 SatelliteToolboxAtmosphericModels = "0.1"
-SatelliteToolboxBase = "0.2"
 SatelliteToolboxCelestialBodies = "0.1"
 SatelliteToolboxGeomagneticField = "0.1"
 SatelliteToolboxGravityModels = "0.1"
-SatelliteToolboxPropagators = "0.2"
 SatelliteToolboxSgp4 = "2"
 SatelliteToolboxTle = "1"
 SatelliteToolboxTransformations = "0.1"
+
+["0.12-0"]
+SatelliteToolboxBase = "0.3"
+SatelliteToolboxPropagators = "0.3"
 
 ["0.3.2-0.5"]
 Parameters = "0.10.1-0.12"

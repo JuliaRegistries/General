@@ -75,15 +75,27 @@ MacroTools = "0.4-0.5"
 ["0.21-0"]
 Compat = "4.2.0-4"
 DynamicQuantities = "0.6.2-0.6"
-LossFunctions = "0.10"
 PackageExtensionCompat = "1"
 Tricks = "0.1"
+
+["0.21-0.21.3"]
+LossFunctions = "0.10"
 
 ["0.21.0"]
 DynamicExpressions = "0.10"
 
-["0.21.1-0"]
+["0.21.1-0.21"]
 DynamicExpressions = "0.11"
+
+["0.21.4-0"]
+LossFunctions = "0.10-0.11"
+
+["0.22-0.22.2"]
+DynamicExpressions = "0.12.2-0.12"
+
+["0.22.3-0"]
+DynamicExpressions = "0.13"
+Optim = ["0.19", "1.1-1.7.6"]
 
 ["0.4-0"]
 Pkg = "1"
@@ -102,6 +114,8 @@ FromFile = "0.1"
 
 ["0.5.13-0"]
 LineSearches = "7"
+
+["0.5.13-0.22.2"]
 Optim = ["0.19", "1.1.0-1"]
 
 ["0.6-0.9.2"]

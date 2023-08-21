@@ -17,8 +17,10 @@ julia = "1"
 ["0.1.1-0.2.0"]
 CuArrays = "1"
 
-["0.10-0"]
+["0.10"]
 NaiveNASlib = "2.0.6-2"
+
+["0.10-0"]
 julia = "1.7.0-1"
 
 ["0.10-0.10.3"]
@@ -28,11 +30,18 @@ Flux = "0.13.4-0.13"
 Functors = "0.2-0.4"
 Setfield = ["0.3.4-0.3", "0.5-0.8", "1"]
 
-["0.10.2-0"]
+["0.10.2-0.10"]
 CUDA = "3-4"
 
 ["0.10.4-0"]
 Flux = "0.13.4-0.14"
+
+["0.11-0"]
+NaiveNASflux = "2.0.10-2"
+NaiveNASlib = "2.0.11-2"
+Optimisers = "0.2"
+PackageExtensionCompat = "1"
+PrecompileTools = "1"
 
 ["0.2"]
 NaiveNASflux = "1.1.0-1"
@@ -78,7 +87,7 @@ NaiveNASflux = "1.6.0-1"
 ["0.9"]
 NaiveNASlib = "2"
 
-["0.9-0"]
+["0.9-0.10"]
 NaiveNASflux = "2"
 
 ["0.9-0.10.0"]

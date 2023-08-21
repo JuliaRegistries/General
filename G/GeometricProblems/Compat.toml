@@ -110,12 +110,14 @@ julia = "1.6.0-1"
 GeometricBase = "0.4"
 
 ["0.4-0"]
-ModelingToolkit = "8"
 RuntimeGeneratedFunctions = "0.5"
-Symbolics = "4"
 
 ["0.4-0.4.1"]
 GeometricEquations = "0.8"
+
+["0.4-0.5.3"]
+ModelingToolkit = "8"
+Symbolics = "4"
 
 ["0.4.2-0.4.4"]
 GeometricEquations = "0.9"
@@ -127,6 +129,13 @@ GeometricBase = "0.4-0.5"
 GeometricBase = "0.4-0.6"
 GeometricEquations = "0.10"
 
-["0.5.1-0"]
+["0.5.1-0.5.2"]
 GeometricBase = "0.4-0.7"
 GeometricEquations = "0.10-0.11"
+
+["0.5.3-0"]
+GeometricBase = "0.7-0.8"
+GeometricEquations = "0.11-0.12"
+
+["0.5.4-0"]
+Symbolics = "5"

@@ -65,6 +65,10 @@ Nemo = "0.33"
 ["0.18.1-0.18.2"]
 AbstractAlgebra = "0.28-0.29"
 
+["0.18.10-0"]
+Singular_jll = "403.206.600-403.206"
+libsingular_julia_jll = "0.39"
+
 ["0.18.2-0.18.3"]
 Singular_jll = "403.201.1-403.201"
 libsingular_julia_jll = "0.30"
@@ -92,10 +96,15 @@ libsingular_julia_jll = "0.34"
 ["0.18.7-0"]
 AbstractAlgebra = "0.28-0.31"
 Nemo = "0.33-0.35"
+
+["0.18.7-0.18.9"]
 Singular_jll = "403.203.202-403.203"
 
-["0.18.8-0"]
+["0.18.8"]
 libsingular_julia_jll = "0.35"
+
+["0.18.9"]
+libsingular_julia_jll = "0.36"
 
 ["0.2"]
 CxxWrap = "0.9"
