@@ -8,7 +8,6 @@ Missings = ["0.4", "1"]
 NearestNeighbors = "0.4"
 Requires = "1.2.0-1"
 SCTransform = "0.1"
-SingleCell10x = "0.1"
 StaticArrays = ["0.12", "1"]
 Statistics = "1.8.0-1"
 ThreadedSparseArrays = "0.2"
@@ -27,5 +26,11 @@ ThreadPools = "1.2.0-2"
 ["0-0.2.3"]
 SnoopPrecompile = "1"
 
+["0-0.3.2"]
+SingleCell10x = "0.1"
+
 ["0.2.4-0"]
 PrecompileTools = "1"
+
+["0.3.3-0"]
+SingleCell10x = "0.1-0.2"
