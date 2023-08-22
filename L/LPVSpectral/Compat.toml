@@ -39,9 +39,15 @@ StatsBase = "0.32-0.33"
 ["0.3-0"]
 Requires = "1"
 
+["0.3.2"]
+ProximalOperators = ["0.10", "0.15"]
+StatsBase = "0.33"
+
 ["0.3.2-0"]
 DSP = "0.7"
 FFTW = "1.1.0-1"
-ProximalOperators = ["0.10", "0.15"]
 RecipesBase = "1"
-StatsBase = "0.33"
+
+["0.3.3-0"]
+ProximalOperators = ["0.10", "0.15-0.16"]
+StatsBase = "0.33-0.34"
