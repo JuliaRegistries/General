@@ -176,9 +176,6 @@ DomainSets = "0.5"
 ["0.2.1-0.2.3"]
 ContinuumArrays = "0.8-0.9"
 
-["0.2.2-0"]
-InfiniteArrays = "0.12"
-
 ["0.2.2-0.2"]
 BlockArrays = "0.16.7-0.16"
 BlockBandedMatrices = "0.11"
@@ -189,6 +186,9 @@ QuasiArrays = "0.8"
 
 ["0.2.2-0.2.4"]
 LazyBandedMatrices = "0.7"
+
+["0.2.2-0.5"]
+InfiniteArrays = "0.12"
 
 ["0.2.3"]
 LazyArrays = "0.21.8-0.22"
@@ -230,7 +230,6 @@ LazyBandedMatrices = "0.8"
 
 ["0.3-0"]
 BlockArrays = "0.16.14-0.16"
-InfiniteLinearAlgebra = "0.6.6-0.6"
 
 ["0.3-0.4"]
 BandedMatrices = "0.17"
@@ -239,11 +238,11 @@ BandedMatrices = "0.17"
 ArrayLayouts = "0.8.6-0.8"
 BlockBandedMatrices = "0.11.5-0.11"
 
+["0.3-0.5"]
+InfiniteLinearAlgebra = "0.6.6-0.6"
+
 ["0.4"]
 julia = "1.7.0-1"
-
-["0.4-0"]
-LazyBandedMatrices = "0.8.4-0.8"
 
 ["0.4-0.4.1"]
 FastTransforms = "0.14"
@@ -251,13 +250,13 @@ FastTransforms = "0.14"
 ["0.4-0.4.2"]
 FillArrays = "0.13"
 
+["0.4-0.5"]
+LazyBandedMatrices = "0.8.4-0.8"
+
 ["0.4.0"]
 ClassicalOrthogonalPolynomials = "0.6.9-0.6"
 ContinuumArrays = "0.11"
 HarmonicOrthogonalPolynomials = "0.3"
-
-["0.4.1-0"]
-HarmonicOrthogonalPolynomials = "0.4"
 
 ["0.4.1-0.4"]
 ContinuumArrays = "0.12"
@@ -265,6 +264,9 @@ DomainSets = "0.5-0.6"
 
 ["0.4.1-0.4.2"]
 ClassicalOrthogonalPolynomials = "0.7"
+
+["0.4.1-0.5"]
+HarmonicOrthogonalPolynomials = "0.4"
 
 ["0.4.2-0"]
 FastTransforms = "0.15"
@@ -276,10 +278,12 @@ ClassicalOrthogonalPolynomials = "0.7-0.8"
 FillArrays = ["0.13", "1"]
 LazyArrays = ["0.22.10-0.22", "1"]
 
+["0.5"]
+BlockBandedMatrices = "0.12"
+
 ["0.5-0"]
 ArrayLayouts = "1.0.9-1"
 BandedMatrices = "0.17.30-0.17"
-BlockBandedMatrices = "0.12"
 DomainSets = "0.6"
 FillArrays = "1"
 LazyArrays = "1"
@@ -290,7 +294,17 @@ ClassicalOrthogonalPolynomials = "0.10"
 ContinuumArrays = "0.13"
 QuasiArrays = "0.10"
 
-["0.5.1-0"]
+["0.5.1-0.5"]
 ClassicalOrthogonalPolynomials = "0.10-0.11"
 ContinuumArrays = "0.13-0.14"
 QuasiArrays = "0.10-0.11"
+
+["0.6-0"]
+BlockBandedMatrices = "0.12.5-0.12"
+ClassicalOrthogonalPolynomials = "0.11"
+ContinuumArrays = "0.15"
+HarmonicOrthogonalPolynomials = "0.5"
+InfiniteArrays = "0.12-0.13"
+InfiniteLinearAlgebra = "0.7"
+LazyBandedMatrices = "0.9"
+QuasiArrays = "0.11"
