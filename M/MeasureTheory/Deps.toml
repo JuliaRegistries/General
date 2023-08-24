@@ -56,12 +56,17 @@ IfElse = "615f187c-cbe4-4ef1-ba3b-2fcf58d6d173"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0.16.4-0"]
+["0.16.4-0.18"]
 LazyArrays = "5078a376-72f3-5289-bfd5-ec5146d43c02"
 
 ["0.17-0"]
-DistributionMeasures = "35643b39-bfd4-4670-843f-16596ca89bf3"
 StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
+
+["0.17-0.18"]
+DistributionMeasures = "35643b39-bfd4-4670-843f-16596ca89bf3"
+
+["0.19-0"]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 
 ["0.2.3-0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
