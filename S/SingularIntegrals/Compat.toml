@@ -3,9 +3,7 @@ BandedMatrices = "0.17.17-0.17"
 FastTransforms = "0.15"
 FillArrays = "1"
 HypergeometricFunctions = "0.3.4-0.3"
-InfiniteArrays = "0.12.11-0.12"
 LazyArrays = "1"
-LazyBandedMatrices = "0.8.5-0.8"
 SpecialFunctions = "1-2"
 
 ["0-0.0.1"]
@@ -13,6 +11,10 @@ ClassicalOrthogonalPolynomials = "0.8"
 
 ["0-0.0.2"]
 ArrayLayouts = "1"
+
+["0-0.2.0"]
+InfiniteArrays = "0.12.11-0.12"
+LazyBandedMatrices = "0.8.5-0.8"
 
 ["0.0"]
 ContinuumArrays = "0.12.6-0.12"
@@ -36,5 +38,12 @@ julia = "1.9.0-1"
 ["0.2-0"]
 ArrayLayouts = "1.0.11-1"
 ClassicalOrthogonalPolynomials = "0.11"
-ContinuumArrays = "0.14"
 QuasiArrays = "0.11"
+
+["0.2.0"]
+ContinuumArrays = "0.14"
+
+["0.2.1-0"]
+ContinuumArrays = "0.14-0.15"
+InfiniteArrays = "0.12.11-0.13"
+LazyBandedMatrices = "0.8.5-0.9"
