@@ -16,7 +16,6 @@ RandomNumbers = "1.5.3-1"
 RecursiveArrayTools = "2.4.2-2"
 Reexport = ["0.2", "1"]
 ReverseDiff = "1.9.0-1"
-Statistics = "1.6.0-1"
 StochasticDiffEq = "6.20.0-6"
 Tracker = "0.2"
 Zygote = "0.6"
@@ -35,6 +34,9 @@ ArrayInterfaceTracker = "0.1"
 
 ["7-7.32"]
 LinearSolve = "1"
+
+["7-7.37.0"]
+Statistics = "1.6.0-1"
 
 ["7-7.6.2"]
 DiffEqOperators = "4.34.0-4"
@@ -100,7 +102,7 @@ Enzyme = "0.11.0"
 ["7.31"]
 SparseDiffTools = "1"
 
-["7.32-7"]
+["7.32-7.37.0"]
 SparseDiffTools = "2"
 
 ["7.33-7.35"]
@@ -118,6 +120,10 @@ Enzyme = "0.11.0"
 ["7.36-7"]
 Enzyme = "0.11.6-0.11"
 LinearSolve = "2"
+
+["7.37.1-7"]
+ADTypes = "0.1-0.2"
+SparseDiffTools = "2.4.0-2"
 
 ["7.4-7.20"]
 StaticArrays = "1"
