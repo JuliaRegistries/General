@@ -29,10 +29,16 @@ Plots = "1"
 Pluto = "0.19"
 RecipesBase = "1"
 Revise = "3"
-SatelliteToolbox = "0.10-0.11"
 ShapML = "0.3"
 SpecialFunctions = "2"
 StatsBase = "0.33-0.34"
 ZipFile = "0.10"
 Zygote = "0.6"
 julia = "1.6.0-1"
+
+["1-1.1.1"]
+SatelliteToolbox = "0.10-0.11"
+Statistics = "1.6.0-1"
+
+["1.1.2-1"]
+SatelliteToolboxGeomagneticField = "0.1"

@@ -7,13 +7,16 @@ DistributionsAD = "0.6"
 LuxCore = "0.1"
 MLJBase = "0.21"
 MLUtils = "0.4"
-Optimisers = "0.2"
 OptimizationOptimisers = "0.1"
 PrecompileTools = "1"
 SciMLSensitivity = "7"
 ScientificTypes = "3"
 Zygote = "0.6"
 julia = "1.6.0-1"
+
+["0-0.10"]
+Optimisers = "0.2"
+Statistics = "1.6.0-1"
 
 ["0-0.5"]
 DataFrames = "1.2.0-1"
@@ -45,14 +48,20 @@ PackageExtensionCompat = "1"
 ["0.10.1-0"]
 Preferences = "1"
 
+["0.11-0"]
+ADTypes = "0.1-0.2"
+Optimisers = "0.2-0.3"
+
 ["0.6-0"]
-ADTypes = "0.1"
 DataFrames = "1"
 FillArrays = "1"
 MLJModelInterface = "1"
 ProgressMeter = "1"
 SciMLBase = "1"
 SparseDiffTools = "2"
+
+["0.6-0.10"]
+ADTypes = "0.1"
 
 ["0.6-0.7.1"]
 IterTools = "1"
