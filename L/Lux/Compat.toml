@@ -1,6 +1,5 @@
 [0]
 ChainRulesCore = "1"
-Optimisers = "0.2"
 
 ["0-0.3"]
 Statistics = "1.6.0-1"
@@ -31,6 +30,9 @@ Requires = "1"
 
 ["0-0.4.6"]
 Functors = "0.2"
+
+["0-0.5.2"]
+Optimisers = "0.2"
 
 ["0.4-0.4.3"]
 Statistics = "1.7.0-1"
@@ -90,11 +92,13 @@ ReverseDiff = "1"
 LuxCore = "0.1.3-0.1"
 
 ["0.4.49-0"]
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0.4.49-0.4"]
 LuxCUDA = "0.1"
+
+["0.4.49-0.5.2"]
+Statistics = "1.6.0-1"
 
 ["0.4.52-0.4"]
 LuxLib = "0.2"
@@ -122,3 +126,7 @@ ADTypes = "0.1"
 
 ["0.5.1-0"]
 ADTypes = "0.1-0.2"
+
+["0.5.3-0"]
+Adapt = "3"
+Optimisers = "0.2-0.3"
