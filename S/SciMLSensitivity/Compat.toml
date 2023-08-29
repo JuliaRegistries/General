@@ -2,7 +2,6 @@
 Adapt = "1-3"
 Cassette = "0.3.6-0.3"
 ChainRulesCore = ["0.10.7-0.10", "1"]
-DiffEqCallbacks = "2.17.0-2"
 DiffEqNoiseProcess = "4.1.4-5"
 DiffRules = "1"
 Distributions = "0.24-0.25"
@@ -34,6 +33,9 @@ ArrayInterfaceTracker = "0.1"
 
 ["7-7.32"]
 LinearSolve = "1"
+
+["7-7.37"]
+DiffEqCallbacks = "2.17.0-2"
 
 ["7-7.37.0"]
 Statistics = "1.6.0-1"
@@ -124,6 +126,9 @@ LinearSolve = "2"
 ["7.37.1-7"]
 ADTypes = "0.1-0.2"
 SparseDiffTools = "2.4.0-2"
+
+["7.38-7"]
+DiffEqCallbacks = "2.29.0-2"
 
 ["7.4-7.20"]
 StaticArrays = "1"
