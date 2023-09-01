@@ -77,11 +77,13 @@ Meshes = "0.33"
 
 ["0.3-0"]
 Statistics = "1.9.0-1"
-Variography = "0.17"
 julia = "1.9.0-1"
 
 ["0.3-0.4.0"]
 KrigingEstimators = "0.11"
+
+["0.3-0.5"]
+Variography = "0.17"
 
 ["0.4-0.4.1"]
 Meshes = "0.33-0.34"
@@ -89,14 +91,21 @@ Meshes = "0.33-0.34"
 ["0.4.0"]
 GeoStatsBase = "0.32.2-0.32"
 
-["0.4.1-0"]
-KrigingEstimators = "0.11.3-0.11"
-
 ["0.4.1-0.4"]
 GeoStatsBase = "0.32.4-0.32"
 
-["0.4.2-0"]
+["0.4.1-0.5"]
+KrigingEstimators = "0.11.3-0.11"
+
+["0.4.2-0.5"]
 Meshes = "0.34.7-0.34"
 
-["0.5-0"]
+["0.5"]
 GeoStatsBase = "0.33"
+
+["0.6-0"]
+GeoStatsBase = "0.34"
+GeoTables = "1.5.0-1"
+KrigingEstimators = "0.12"
+Meshes = "0.35"
+Variography = "0.18"
