@@ -48,6 +48,9 @@ Documenter = "0.10.0-0.25"
 Homebrew = "0.4.0-0.7"
 julia = ["0.7", "1"]
 
+["3.5-3"]
+Statistics = ["0.7", "1"]
+
 [4]
 BinDeps = "0.8.10-0.8"
 CSV = "0.4.2-0.7"
@@ -61,6 +64,9 @@ Mamba = "0.12"
 
 [4-10]
 julia = "1"
+
+[4-5]
+Statistics = "1"
 
 ["5.0"]
 StanDiagnose = "1"
@@ -171,6 +177,7 @@ StanVariational = "2-3"
 ["7.1-10"]
 Distributions = "0.25"
 MonteCarloMeasurements = "1"
+Statistics = "1"
 
 ["7.1-10.4.0"]
 StatsBase = "0.33"

@@ -5,6 +5,7 @@ DelimitedFiles = ["0.7", "1"]
 FileIO = "0-1"
 JLD = "0.0.0-0.10"
 ScikitLearnBase = "0.0.2-0.5"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0-0.3.1"]
@@ -28,6 +29,9 @@ julia = "1"
 ["0.3.1-0.3.6"]
 DelimitedFiles = "1"
 
+["0.3.1-0.3.7"]
+Statistics = "1"
+
 ["0.3.2"]
 Arpack = "0.4"
 Clustering = "0.13"
@@ -46,7 +50,6 @@ ScikitLearnBase = "0.5"
 Compat = "3.6.0-3"
 
 ["0.3.3-0"]
-Clustering = "0.14"
 RDatasets = "0.6-0.7"
 StatsBase = "0.33"
 
@@ -56,6 +59,9 @@ Distributions = "0.23-0.24"
 JLD2 = "0.2-0.3"
 PDMats = "0.10"
 SpecialFunctions = ["0.8-0.10", "1"]
+
+["0.3.3-0.3.7"]
+Clustering = "0.14"
 
 ["0.3.5-0"]
 Arpack = "0.3-0.5"
@@ -69,3 +75,6 @@ SpecialFunctions = "1"
 ["0.3.7-0"]
 Compat = "3.6.0-4"
 SpecialFunctions = "1-2"
+
+["0.3.8-0"]
+Clustering = "0.15"

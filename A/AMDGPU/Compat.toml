@@ -51,6 +51,9 @@ hsa_rocr_jll = "4"
 ["0.2.11-0.2.16"]
 GPUArrays = "6-7"
 
+["0.2.16-0.2"]
+Statistics = "1.6.0-1"
+
 ["0.2.17-0.4"]
 GPUArrays = "6-8"
 
@@ -102,6 +105,7 @@ GPUCompiler = "0.12-0.13"
 
 ["0.3-0.4"]
 SpecialFunctions = "1-2"
+Statistics = "1.7.0-1"
 julia = "1.7.0-1"
 
 ["0.3-0.4.2"]
@@ -173,12 +177,15 @@ LLVM = "5"
 AbstractFFTs = "1"
 CEnum = "0.4"
 GPUArrays = "8"
-GPUCompiler = "0.21"
 LLD_jll = "14-15"
 LLVM = "6"
 LLVM_jll = "14-15"
 SpecialFunctions = "2"
+Statistics = "1.9.0-1"
 julia = "1.9.0-1"
+
+["0.5-0.5.4"]
+GPUCompiler = "0.21"
 
 ["0.5.0"]
 HIP_jll = "5"
@@ -187,3 +194,6 @@ hsa_rocr_jll = "5"
 rocBLAS_jll = "5"
 rocRAND_jll = "5"
 rocSPARSE_jll = "5"
+
+["0.5.5-0"]
+GPUCompiler = "0.22"

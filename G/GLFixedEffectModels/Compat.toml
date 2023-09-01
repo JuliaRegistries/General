@@ -18,15 +18,15 @@ StatsBase = "0.0.0-0.33"
 Compat = "2-3"
 StatsModels = "0.6"
 
+["0-0.5.1"]
+Statistics = "1"
+
 ["0.1.2-0.1"]
 DataFrames = "0.21"
 
 ["0.1.2-0.4"]
 Combinatorics = "1"
 Tables = "1"
-
-["0.1.3-0"]
-StatsBase = "0.33"
 
 ["0.1.3-0.1"]
 FillArrays = "0.9"
@@ -39,9 +39,11 @@ Distributions = "0.24"
 ["0.1.3-0.4"]
 Parameters = "0.12"
 
+["0.1.3-0.5.1"]
+StatsBase = "0.33"
+
 ["0.2-0"]
 DataFrames = "1"
-FillArrays = "0.11"
 Reexport = "1"
 
 ["0.2-0.3.0"]
@@ -49,6 +51,9 @@ FixedEffects = "2.0.0-2.0.3"
 
 ["0.2-0.4"]
 CategoricalArrays = "0.9"
+
+["0.2-0.5.1"]
+FillArrays = "0.11"
 
 ["0.3-0"]
 LoopVectorization = "0.12"
@@ -69,3 +74,7 @@ Vcov = "0.7"
 
 ["0.5.1-0"]
 StatsModels = "0.6-0.7"
+
+["0.5.2-0"]
+FillArrays = "1"
+StatsBase = "0.33-0.34"

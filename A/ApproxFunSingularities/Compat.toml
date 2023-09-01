@@ -7,6 +7,7 @@ LazyArrays = "0.7.1-0.7"
 BandedMatrices = "0.9"
 DualNumbers = "0.4-0.6"
 StaticArrays = "0.8.3-0.9"
+Statistics = ["0.7", "1"]
 ToeplitzMatrices = "0.4-0.5"
 julia = ["0.7", "1"]
 
@@ -61,6 +62,7 @@ StaticArrays = "0.8.3-0.12"
 ToeplitzMatrices = "0.4.0-0.5"
 
 ["0.1.1-0.1"]
+Statistics = "1"
 julia = "1"
 
 ["0.1.1-0.1.2"]
@@ -123,6 +125,7 @@ DomainSets = "0.4"
 IntervalSets = "0.5"
 
 ["0.2-0.3.2"]
+Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["0.2.1-0"]
@@ -159,11 +162,17 @@ SpecialFunctions = "1-2"
 HalfIntegers = "1.5.0-1"
 OddEvenIntegers = "0.1.8-0.1"
 
-["0.3.13-0"]
+["0.3.13-0.3.14"]
 ApproxFunBase = "0.8.36-0.9"
+
+["0.3.15-0"]
+ApproxFunBase = ["0.8.56-0.8", "0.9.12-0.9"]
 
 ["0.3.3-0"]
 julia = "1.6.0-1"
+
+["0.3.3-0.3.12"]
+Statistics = "1.6.0-1"
 
 ["0.3.3-0.3.4"]
 ApproxFunBase = "0.7"

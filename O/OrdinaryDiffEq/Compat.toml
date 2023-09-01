@@ -6,6 +6,7 @@ Parameters = "0.5.0-0.12"
 
 ["4-4.13"]
 DiffEqBase = "3.8-5"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["4-4.18"]
@@ -47,6 +48,9 @@ DiffEqBase = "4.27-5"
 
 ["4.14-5.31"]
 julia = "1"
+
+["4.14-5.5"]
+Statistics = "1"
 
 ["4.15-5.6.0"]
 ExponentialUtilities = "1.2-1"
@@ -461,12 +465,14 @@ PrecompileTools = "1"
 LinearSolve = "1.40.0-1"
 
 ["6.52-6"]
-ADTypes = "0.1"
-DiffEqBase = "6.125.0-6"
 SparseDiffTools = "2.3.0-2"
 
 ["6.52-6.53.0"]
 SciMLOperators = "0.2.8-0.2"
+
+["6.52-6.54"]
+ADTypes = "0.1"
+DiffEqBase = "6.125.0-6"
 
 ["6.53-6"]
 LinearSolve = "2.1.10-2"
@@ -479,6 +485,10 @@ SciMLOperators = "0.2.12-0.3"
 
 ["6.54-6"]
 SciMLBase = "1.94.0-1"
+
+["6.55-6"]
+ADTypes = "0.1-0.2"
+DiffEqBase = "6.128.2-6"
 
 ["6.6.3-6.14"]
 DiffEqBase = "6.81.3-6.84"
