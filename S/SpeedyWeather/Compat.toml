@@ -37,15 +37,24 @@ JLD2 = "0.4"
 CUDA = "3"
 
 ["0.4-0"]
-CUDAKernels = "0.3-0.4"
 GenericFFT = "0.1"
+
+["0.4-0.5"]
+CUDAKernels = "0.3-0.4"
 KernelAbstractions = "0.7-0.8"
 
-["0.5-0"]
+["0.5"]
 CUDA = "3-4"
+Statistics = "1.8.0-1"
+UnicodePlots = "3.3.2-3"
+
+["0.5-0"]
 DocStringExtensions = "0.9"
 FLoops = "0.2"
 FastGaussQuadrature = "0.4-0.5"
-Statistics = "1.8.0-1"
-UnicodePlots = "3.3.2-3"
 julia = "1.8.0-1"
+
+["0.6-0"]
+CUDA = "4"
+KernelAbstractions = "0.9"
+UnicodePlots = "3.3.0-3"
