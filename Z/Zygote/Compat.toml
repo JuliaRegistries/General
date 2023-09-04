@@ -213,15 +213,19 @@ ChainRules = "1.36.2-1"
 ["0.6.41-0"]
 DiffRules = "1.4.0-1"
 LogExpFunctions = "0.3.1-0.3"
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
+["0.6.41-0.6.63"]
+Statistics = "1.6.0-1"
+
 ["0.6.42-0"]
-GPUArrays = "8.4.2-8"
 GPUArraysCore = "0.1.1-0.1"
 
 ["0.6.42-0.6.44"]
 ChainRules = "1.37.0-1"
+
+["0.6.42-0.6.63"]
+GPUArrays = "8.4.2-8"
 
 ["0.6.45-0"]
 ChainRules = "1.44.1-1"
@@ -246,3 +250,6 @@ FillArrays = ["0.8-0.13", "1"]
 
 ["0.6.61-0"]
 PrecompileTools = "1"
+
+["0.6.64-0"]
+GPUArrays = "8.4.2-9"
