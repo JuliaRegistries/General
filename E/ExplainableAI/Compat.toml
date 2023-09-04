@@ -1,6 +1,4 @@
 [0]
-ImageCore = "0.8-0.9"
-Statistics = "1.6.0-1"
 Tullio = "0.3"
 Zygote = "0.6"
 julia = "1.6.0-1"
@@ -10,6 +8,10 @@ ColorSchemes = "3"
 
 ["0-0.3.2"]
 Flux = "0.12"
+
+["0-0.5"]
+ImageCore = "0.8-0.9"
+Statistics = "1.6.0-1"
 
 ["0-0.5.6"]
 PrettyTables = "1"
@@ -23,11 +25,17 @@ Flux = "0.12-0.13"
 ["0.4-0"]
 ColorSchemes = "3.18.0-3"
 
-["0.5.2-0"]
+["0.5.2-0.5"]
 ImageTransformations = "0.9"
 
-["0.5.6-0"]
+["0.5.6-0.5"]
 Flux = "0.13"
 
-["0.5.7-0"]
+["0.5.7-0.5"]
 PrettyTables = "1-2"
+
+["0.6-0"]
+Flux = "0.13-0.14"
+ImageCore = "0.9-0.10"
+ImageTransformations = "0.9-0.10"
+MacroTools = "0.5"
