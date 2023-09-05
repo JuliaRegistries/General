@@ -316,7 +316,6 @@ ManifoldsBase = "0.13.12-0.14"
 StructTypes = "1"
 
 ["0.34-0"]
-ApproxManifoldProducts = "0.7"
 BlockArrays = "0.16"
 DelimitedFiles = "1"
 DistributedFactorGraphs = "0.23"
@@ -326,9 +325,15 @@ ManifoldDiff = "0.3"
 Manopt = "0.4.27-0.4"
 PrecompileTools = "1"
 SparseDiffTools = "2"
-Statistics = "1.9.0-1"
 StatsBase = "0.32-0.34"
 julia = "1.9.0-1"
+
+["0.34.0"]
+ApproxManifoldProducts = "0.7"
+Statistics = "1.9.0-1"
+
+["0.34.1-0"]
+ApproxManifoldProducts = "0.7-0.8"
 
 ["0.4"]
 KernelDensityEstimate = "0.4"
