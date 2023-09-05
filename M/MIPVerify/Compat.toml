@@ -1,6 +1,5 @@
 [0]
 ProgressMeter = "1"
-julia = "1"
 
 ["0-0.2"]
 AutoHashEquals = "0.2"
@@ -21,6 +20,9 @@ DocStringExtensions = "0.8"
 
 ["0-0.4"]
 DelimitedFiles = "1"
+
+["0-0.5.0"]
+julia = "1"
 
 ["0.2.1"]
 DataFrames = "0.19-0.20"
@@ -57,9 +59,16 @@ MathOptInterface = "0.9"
 ["0.3.2-0"]
 CSV = "0.7-0.10"
 DataFrames = ["0.21-0.22", "1"]
-IntervalArithmetic = "0.14-0.20"
 JuMP = ["0.21.4-0.23", "1"]
 MathOptInterface = ["0.9-0.10", "1"]
 
+["0.3.2-0.5.0"]
+IntervalArithmetic = "0.14-0.20"
+
 ["0.4-0"]
 DocStringExtensions = "0.8-0.9"
+
+["0.5.1-0"]
+DelimitedFiles = "1"
+IntervalArithmetic = "0.14-0.21"
+julia = "1.6.0-1"
