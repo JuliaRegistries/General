@@ -344,21 +344,34 @@ GeoStatsSolvers = "0.4"
 
 ["0.42-0"]
 CategoricalArrays = "0.10"
+LossFunctions = "0.11"
+Unitful = "1.15.0-1"
+julia = "1.9.0-1"
+
+["0.42-0.43"]
 GeoClustering = "0.4"
 KrigingEstimators = "0.11"
-LossFunctions = "0.11"
 Meshes = "0.34"
 PointPatterns = "0.6"
-Unitful = "1.15.0-1"
 Variography = "0.17"
-julia = "1.9.0-1"
 
 ["0.42.2-0"]
 Tables = "1.10.0-1"
 
-["0.43-0"]
+["0.43"]
 GeoStatsBase = "0.33"
 GeoStatsSolvers = "0.5"
+
+["0.44-0"]
+Distributions = "0.25"
+GeoClustering = "0.5"
+GeoStatsBase = "0.34"
+GeoStatsSolvers = "0.6"
+GeoTables = "1.5.0-1"
+KrigingEstimators = "0.12"
+Meshes = "0.35"
+PointPatterns = "0.7"
+Variography = "0.18"
 
 ["0.7.2-0.7"]
 GeoStatsBase = "0.2.5-0.5"
