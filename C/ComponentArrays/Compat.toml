@@ -16,11 +16,11 @@ ArrayInterface = "2-6"
 ["0.11.2-0"]
 ChainRulesCore = ["0.8-0.10", "1"]
 
-["0.11.3-0"]
-Requires = "1"
-
 ["0.11.3-0.11.8"]
 ArrayInterface = "2-3"
+
+["0.11.3-0.14.0"]
+Requires = "1"
 
 ["0.11.9-0.11.10"]
 ArrayInterface = "2-4"
@@ -39,13 +39,18 @@ ArrayInterface = "6-7"
 StaticArrayInterface = "1"
 
 ["0.13.9-0"]
-ConstructionBase = "1"
 ForwardDiff = "0.10"
+
+["0.13.9-0.14.0"]
+ConstructionBase = "1"
 GPUArrays = "8"
 RecursiveArrayTools = "2"
 ReverseDiff = "1"
 SciMLBase = "1"
 StaticArrays = "1"
+
+["0.14.1-0"]
+PackageExtensionCompat = "1"
 
 ["0.3-0.11.2"]
 Requires = "1.0.1-1"
