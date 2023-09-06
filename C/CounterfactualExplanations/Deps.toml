@@ -1,12 +1,14 @@
 [0]
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 ["0-0.1.1"]
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
+
+["0-0.1.15"]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 
 ["0-0.1.3"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -21,7 +23,6 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 
 ["0.1.13-0"]
-Chain = "8be319e6-bccf-4806-a6f7-6fae938471bc"
 DecisionTree = "7806a523-6efd-50cb-b5f6-3fa6f1930dbb"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 EvoTrees = "f6006082-12f8-11e9-0c9c-0d5d367ab1e5"
@@ -33,8 +34,15 @@ JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
 PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
 RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
 
+["0.1.13-0.1.15"]
+Chain = "8be319e6-bccf-4806-a6f7-6fae938471bc"
+
 ["0.1.15-0"]
 PackageExtensionCompat = "65ce6f38-6b18-4e1d-a461-8949797d7930"
+
+["0.1.16-0"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
 ["0.1.2-0"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
@@ -58,10 +66,12 @@ DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 LaplaceRedux = "c52c1a26-f7c5-402b-80be-ba1e638ad478"
 MultivariateStats = "6f286f6a-111f-5878-ab1e-185364afe411"
 NearestNeighborModels = "636a865e-7cf4-491e-846c-de09b730eb36"
-UMAP = "c4f8c510-2410-5be4-91d7-4fbaeb39457e"
 
 ["0.1.3-0.1.14"]
 SliceMap = "82cb661a-3f19-5665-9e27-df437c7e54c8"
+
+["0.1.3-0.1.15"]
+UMAP = "c4f8c510-2410-5be4-91d7-4fbaeb39457e"
 
 ["0.1.4-0"]
 CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
