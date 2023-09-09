@@ -79,8 +79,10 @@ Distributions = "0.22"
 Bijectors = "0.5.2-0.5"
 
 ["0.20-0"]
-ConstructionBase = "1"
 julia = "1.6.0-1"
+
+["0.20-0.23.16"]
+ConstructionBase = "1"
 
 ["0.20.0"]
 DocStringExtensions = "0.8"
@@ -109,6 +111,10 @@ Bijectors = "0.12.4-0.12"
 
 ["0.23.1-0"]
 Bijectors = "0.13"
+
+["0.23.17-0"]
+ConstructionBase = "1.5.4-1"
+Requires = "1"
 
 ["0.23.7-0"]
 AbstractPPL = "0.6"
