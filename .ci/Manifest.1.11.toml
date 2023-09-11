@@ -2,7 +2,7 @@
 
 julia_version = "1.11.0-DEV"
 manifest_format = "2.0"
-project_hash = "30e148600b065e5a2f698fa2078354a9606c0282"
+project_hash = "81536532d92fdce8b056377887b242ac1520dc9e"
 
 [[deps.ArgTools]]
 uuid = "0dad84c5-d112-42e6-8d28-ef12dabb789f"
@@ -98,9 +98,9 @@ version = "5.8.2"
 
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "ConcurrentUtilities", "Dates", "ExceptionUnwrapping", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
-git-tree-sha1 = "cb56ccdd481c0dd7f975ad2b3b62d9eda088f7e2"
+git-tree-sha1 = "19e974eced1768fb46fd6020171f2cec06b1edb5"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "1.9.14"
+version = "1.9.15"
 
 [[deps.InlineStrings]]
 deps = ["Parsers"]
@@ -299,9 +299,9 @@ version = "1.11.0"
 
 [[deps.StaticArrays]]
 deps = ["LinearAlgebra", "Random", "StaticArraysCore"]
-git-tree-sha1 = "9cabadf6e7cd2349b6cf49f1915ad2028d65e881"
+git-tree-sha1 = "51621cca8651d9e334a659443a74ce50a3b6dfab"
 uuid = "90137ffa-7385-5640-81b9-e52037218182"
-version = "1.6.2"
+version = "1.6.3"
 weakdeps = ["Statistics"]
 
     [deps.StaticArrays.extensions]
@@ -319,9 +319,9 @@ version = "1.9.0"
 
 [[deps.StatsAPI]]
 deps = ["LinearAlgebra"]
-git-tree-sha1 = "45a7769a04a3cf80da1c1c7c60caf932e6f4c9f7"
+git-tree-sha1 = "1ff449ad350c9c4cbc756624d6f8a8c3ef56d3ed"
 uuid = "82ae8749-77ed-4fe6-ae5f-f523153014b0"
-version = "1.6.0"
+version = "1.7.0"
 
 [[deps.StringDistances]]
 deps = ["Distances", "StatsAPI"]
