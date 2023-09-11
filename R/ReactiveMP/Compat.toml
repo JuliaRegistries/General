@@ -17,13 +17,15 @@ ForwardDiff = "0.10"
 MacroTools = "0.5"
 Optim = "1"
 PositiveFactorizations = "0.2"
-StatsBase = "0.33"
 TupleTools = "1.2.0-1"
 
 ["1-3.1"]
 DomainIntegrals = "0.3.2-0.3"
 DomainSets = "0.5.2-0.5"
 FastGaussQuadrature = "0.4"
+
+["1-3.9.2"]
+StatsBase = "0.33"
 
 ["1.0.0"]
 Distributions = "0.24"
@@ -35,7 +37,7 @@ Distributions = "0.24-0.25"
 LoopVectorization = "0.12"
 StaticArrays = "1.2.0-1"
 
-["1.1-3"]
+["1.1-3.9.2"]
 LazyArrays = "0.21-0.22"
 
 ["1.2.1-3"]
@@ -77,3 +79,7 @@ FastGaussQuadrature = "0.4-0.5"
 
 ["3.7-3"]
 Rocket = "1.7.0-1"
+
+["3.9.3-3"]
+LazyArrays = ["0.21-0.22", "1"]
+StatsBase = "0.33-0.34"
