@@ -2,14 +2,21 @@
 BlockArrays = "0.16"
 BlockBandedMatrices = "0.12"
 ClassicalOrthogonalPolynomials = "0.11"
-ContinuumArrays = "0.14"
 DomainSets = "0.6"
 FastTransforms = "0.15"
 FillArrays = "1"
-HarmonicOrthogonalPolynomials = "0.4"
 LazyArrays = "1"
-MultivariateOrthogonalPolynomials = "0.5"
 QuasiArrays = "0.11"
 SemiclassicalOrthogonalPolynomials = "0.5"
 StaticArrays = "1"
 julia = "1.9.0-1"
+
+["0-0.0.1"]
+ContinuumArrays = "0.14"
+HarmonicOrthogonalPolynomials = "0.4"
+MultivariateOrthogonalPolynomials = "0.5"
+
+["0.0.2-0"]
+ContinuumArrays = "0.14-0.16"
+HarmonicOrthogonalPolynomials = "0.4-0.5"
+MultivariateOrthogonalPolynomials = "0.5-0.6"
