@@ -64,7 +64,6 @@ ParameterJuMP = "0.4"
 
 ["0.15-0"]
 CSV = "0.10"
-HDF5 = "0.16"
 MathOptInterface = "1"
 PowerModels = "0.19"
 TimeSeries = "0.23"
@@ -77,6 +76,9 @@ DocStringExtensions = "0.8"
 InfrastructureSystems = "1.16.0-1"
 JuMP = ["0.23", "1"]
 PrettyTables = "1.3.0-1"
+
+["0.15-0.22"]
+HDF5 = "0.16"
 
 ["0.15.5-0.16"]
 PowerSystems = "1.24.0-1"
@@ -161,9 +163,14 @@ PowerSystems = "0.12"
 ["0.21-0.21.3"]
 PowerSystems = "2.3.0-2"
 
-["0.21.4-0"]
+["0.21.4-0.22"]
 PowerNetworkMatrices = "0.8"
 PowerSystems = "2.6.0-2"
+
+["0.23-0"]
+HDF5 = "0.17"
+PowerNetworkMatrices = "0.9"
+PowerSystems = "3"
 
 ["0.4.1-0.4.2"]
 PowerSystems = "0.13"
