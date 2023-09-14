@@ -1,8 +1,5 @@
 [0]
-Adapt = "3.4.0-3"
-JLD2 = "0.4.31-0.4"
 Roots = "2"
-StructArrays = "0.6.15-0.6"
 
 ["0-0.1"]
 KernelAbstractions = "0.8.6-0.8"
@@ -13,6 +10,11 @@ Oceananigans = "0.79.6-0.79"
 ["0-0.3"]
 DiffEqBase = "6.100.0-6"
 julia = "1.8.0-1"
+
+["0-0.5"]
+Adapt = "3.4.0-3"
+JLD2 = "0.4.31-0.4"
+StructArrays = "0.6.15-0.6"
 
 ["0.1.1"]
 Oceananigans = "0.80"
@@ -27,5 +29,13 @@ KernelAbstractions = "0.9"
 Oceananigans = "0.83"
 
 ["0.4-0"]
-Oceananigans = "0.84.1-0.85"
 julia = "1.9.0-1"
+
+["0.4-0.5"]
+Oceananigans = "0.84.1-0.85"
+
+["0.6-0"]
+Adapt = "3"
+JLD2 = "0.4"
+Oceananigans = "0.84.1-0.87"
+StructArrays = "0.4-0.6"
