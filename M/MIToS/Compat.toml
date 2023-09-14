@@ -55,13 +55,15 @@ LightXML = "0.8-0.9"
 ProgressMeter = "1"
 RecipesBase = "1"
 Requires = "1"
-Statistics = "1"
 StatsBase = "0.32-0.33"
 TranscodingStreams = "0.9"
 julia = "1"
 
 ["2.5-2.11"]
 NamedArrays = "0.9"
+
+["2.5-2.13.0"]
+Statistics = "1"
 
 ["2.5-2.9"]
 DelimitedFiles = "1"
