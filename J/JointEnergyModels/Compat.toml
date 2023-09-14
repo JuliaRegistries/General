@@ -24,12 +24,17 @@ PkgTemplates = "0.7"
 CategoricalArrays = "0.10"
 ComputationalResources = "0.3"
 Distributions = "0.25"
-MLJFlux = "0.2"
 MLUtils = "0.4"
 ProgressMeter = "1.7.0-1"
 StatsBase = "0.33-0.34"
 Tables = "1.10.0-1"
 Zygote = "0.6"
 
+["0.1.1-0.1.2"]
+MLJFlux = "0.2"
+
 ["0.1.2-0"]
 Flux = "0.13-0.14"
+
+["0.1.3-0"]
+MLJFlux = "0.2-0.3"
