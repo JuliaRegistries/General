@@ -40,6 +40,9 @@ StanSample = "7"
 ["10.4.1-10"]
 StatsBase = "0.33-0.34"
 
+["10.4.3-10"]
+NamedArrays = "0.9-0.10"
+
 [3]
 BinDeps = "0.4.3-0.8"
 Compat = "0.17-2"
@@ -177,10 +180,12 @@ StanVariational = "2-3"
 ["7.1-10"]
 Distributions = "0.25"
 MonteCarloMeasurements = "1"
-Statistics = "1"
 
 ["7.1-10.4.0"]
 StatsBase = "0.33"
+
+["7.1-10.4.2"]
+Statistics = "1"
 
 ["7.1-7"]
 DimensionalData = "0.18"
@@ -351,8 +356,10 @@ NamedArrays = "0.9.6-0.9"
 DataStructures = "0.18.11-0.18"
 
 ["9.6-10"]
-NamedArrays = "0.9"
 NamedTupleTools = "0.14"
+
+["9.6-10.4.2"]
+NamedArrays = "0.9"
 
 ["9.6-9.9"]
 AxisKeys = "0.2"
