@@ -26,17 +26,26 @@ DocStringExtensions = "0.4-0.7"
 DocStringExtensions = "0.4-0.8"
 
 ["0.23-0"]
-JSON = "0.19-0.21"
 julia = "1"
+
+["0.23-1"]
+JSON = "0.19-0.21"
 
 ["0.25.3-0.26"]
 IOCapture = "0.1"
 
-["0.27-0"]
+["0.27-1"]
 IOCapture = "0.2"
 
-["0.27.22-0"]
+["0.27.22-1"]
 DocStringExtensions = "0.4-0.9"
 
-["0.27.4-0"]
+["0.27.4-1"]
 ANSIColoredPrinters = "0.0.1"
+
+[1]
+AbstractTrees = "0.4"
+MarkdownAST = "0.1.1-0.1"
+PrecompileTools = "1"
+RegistryInstances = "0.1"
+julia = "1.6.0-1"
