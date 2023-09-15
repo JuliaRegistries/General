@@ -9,6 +9,12 @@ ProgressMeter = "1"
 PyCall = "1"
 Reexport = "1"
 Revise = "3"
-Sleipnir = "0.3.2-0.3"
 Tullio = "0.3"
 julia = "1.7.0-1"
+
+["0-0.1"]
+Sleipnir = "0.3.2-0.3"
+
+["0.2-0"]
+Muninn = "0.2.4-0.2"
+Sleipnir = "0.3.4-0.3"
