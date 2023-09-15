@@ -9,13 +9,13 @@ SimpleWeightedGraphs = "0.0.0-1"
 Statistics = "1"
 julia = "1"
 
-["0.10.1-0"]
-Flux = "0.12-0.13"
-
 ["0.10.1-0.11"]
 GraphSignals = "0.4"
 
-["0.11-0"]
+["0.10.1-0.13"]
+Flux = "0.12-0.13"
+
+["0.11-0.13"]
 NNlib = "0.8"
 NNlibCUDA = "0.2"
 Optimisers = "0.2"
@@ -43,12 +43,22 @@ ChainRulesCore = "1"
 MLDatasets = "0.7"
 Reexport = "1"
 
-["0.13.8-0"]
+["0.13.8-0.13"]
 GraphSignals = "0.7-0.8"
 
-["0.13.9-0"]
+["0.13.9-0.13"]
 CUDA = "3-4"
 FillArrays = ["0.13", "1"]
+
+["0.14-0"]
+DelimitedFiles = "1"
+FillArrays = "1"
+Flux = "0.14"
+GraphSignals = "0.9"
+NNlib = "0.9"
+Optimisers = "0.2-0.3"
+Requires = "1"
+julia = "1.9.0-1"
 
 ["0.2"]
 CUDAapi = "2.0"
@@ -215,8 +225,10 @@ julia = "1.6-1.7"
 
 ["0.9-0"]
 Graphs = "1"
-Statistics = "1.6.0-1"
 Word2Vec = "0.5"
+
+["0.9-0.13"]
+Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0.9-0.13.5"]
