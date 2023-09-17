@@ -2,12 +2,7 @@
 JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 
 [0-1]
-AlgRemez_jll = "acb6dc63-88f0-54c7-a126-ccdc963b8b3f"
-CLIME_jll = "3c6ae550-c37b-5556-a07e-d40b4910cf1c"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-EzXML = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
-FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
 GR = "28b8d3ca-fb5f-59d9-8090-bfdbd6d07a71"
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -16,11 +11,20 @@ REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0-1.0.3"]
+AlgRemez_jll = "acb6dc63-88f0-54c7-a126-ccdc963b8b3f"
+CLIME_jll = "3c6ae550-c37b-5556-a07e-d40b4910cf1c"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+EzXML = "8f5d6c58-4d21-5cfd-889c-e3ad7ee6a615"
+FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
 ["0.1.1-1"]
-ArnoldiMethod = "ec485272-7323-5ecc-a04f-4719b315124d"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+
+["0.1.1-1.0.3"]
+ArnoldiMethod = "ec485272-7323-5ecc-a04f-4719b315124d"
 KrylovKit = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
 
 [1]
