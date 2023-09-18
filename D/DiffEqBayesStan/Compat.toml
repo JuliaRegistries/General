@@ -26,8 +26,10 @@ ForwardDiff = "0.10"
 MacroTools = "0.5"
 ParameterizedFunctions = "5"
 Parameters = "0.12"
-StatsPlots = "0.14"
 julia = "1.6.0-1"
+
+["0-3.1.2"]
+StatsPlots = "0.14"
 
 [1]
 StanSample = "5"
@@ -41,7 +43,6 @@ DiffResults = "1"
 Distances = "0.10"
 Distributions = "0.25"
 LabelledArrays = "1"
-MCMCChains = "5"
 Missings = "1"
 Optim = "1"
 PDMats = "0.11"
@@ -49,6 +50,9 @@ RecursiveArrayTools = "2"
 Reexport = "1"
 Requires = "1"
 StructArrays = "0.6"
+
+["1-3.1.2"]
+MCMCChains = "5"
 
 ["1.1-1.2"]
 CSV = "0.9"
@@ -121,3 +125,7 @@ StanSample = "6.7.0-7"
 
 ["3.1.2-3"]
 StatsBase = "0.33-0.34"
+
+["3.1.3-3"]
+MCMCChains = "5-6"
+StatsPlots = "0.15"
