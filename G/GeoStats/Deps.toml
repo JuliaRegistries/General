@@ -1,8 +1,10 @@
 [0]
 GeoStatsBase = "323cb8eb-fbf6-51c0-afd0-f8fba70507b2"
-KrigingEstimators = "d293930c-a38c-56c5-8ebb-12008647b47a"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Variography = "04a0146e-e6df-5636-8d7f-62fa9eb0b20c"
+
+["0-0.44"]
+KrigingEstimators = "d293930c-a38c-56c5-8ebb-12008647b47a"
 
 ["0-0.7"]
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
@@ -39,11 +41,11 @@ GeoSimulation = "220efe8a-9139-4e14-a4fa-f683d572f4c5"
 ["0.22-0"]
 Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"
 
-["0.24-0"]
-GeoClustering = "7472b188-6dde-460e-bd07-96c4bc049f7e"
-
 ["0.24-0.32"]
 GeoLearning = "90c4468e-a93e-43b4-8fb5-87d804bc629f"
+
+["0.24-0.44"]
+GeoClustering = "7472b188-6dde-460e-bd07-96c4bc049f7e"
 
 ["0.25.2-0"]
 DensityRatioEstimation = "ab46fb84-d57c-11e9-2f65-6f72e4a7229f"
@@ -79,6 +81,10 @@ GeoTables = "e502b557-6362-48c1-8219-d30d308dcdb0"
 
 ["0.44.0"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
+["0.45-0"]
+GeoStatsModels = "ad987403-13c5-47b5-afee-0a48f6ac4f12"
+GeoStatsTransforms = "725d9659-360f-4996-9c94-5f19c7e4a8a6"
 
 ["0.7.2-0.7"]
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
