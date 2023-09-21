@@ -31,11 +31,15 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 ["0.2.2-0.3.3"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
-["0.21-0"]
+["0.21-0.22"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 
 ["0.21.2-0"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
+["0.23-0"]
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["0.3-0"]
 ApproxManifoldProducts = "9bbbb610-88a1-53cd-9763-118ce10c1f89"
@@ -50,5 +54,7 @@ Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
 ["0.7-0"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 TensorCast = "02d47bb6-7ce6-556a-be16-bb1710789e2b"
+
+["0.7-0.22"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"

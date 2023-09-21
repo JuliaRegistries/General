@@ -197,28 +197,39 @@ Manifolds = "0.8.11-0.8"
 ["0.20-0.21.1"]
 ApproxManifoldProducts = "0.6"
 
-["0.21-0"]
+["0.21-0.21.1"]
+IncrementalInference = "0.31"
+
+["0.21-0.22"]
 SnoopPrecompile = "1"
 Statistics = "1.8.0-1"
 julia = "1.8.0-1"
 
-["0.21-0.21.1"]
-IncrementalInference = "0.31"
-
 ["0.21.2-0"]
-ApproxManifoldProducts = "0.6.2-0.6"
 OrderedCollections = "1"
 
 ["0.21.2-0.21"]
 DistributedFactorGraphs = "0.18.4-0.19"
 IncrementalInference = "0.32"
 
+["0.21.2-0.22"]
+ApproxManifoldProducts = "0.6.2-0.6"
+
 ["0.21.3-0"]
 ManifoldsBase = "0.13-0.14"
 
-["0.22-0"]
+["0.22"]
 DistributedFactorGraphs = "0.20"
 IncrementalInference = "0.33"
+
+["0.23-0"]
+ApproxManifoldProducts = "0.7-0.8"
+DelimitedFiles = "1"
+DistributedFactorGraphs = "0.23"
+ImageCore = "0.9-0.10"
+IncrementalInference = "0.33-0.34"
+PrecompileTools = "1"
+julia = "1.9.0-1"
 
 ["0.3"]
 ApproxManifoldProducts = "0.0.3"
@@ -345,7 +356,6 @@ julia = "1.2.0-1"
 
 ["0.7-0"]
 ProgressMeter = "1"
-Requires = "1"
 
 ["0.7-0.11.1"]
 Reexport = "0.2"
@@ -355,6 +365,9 @@ TensorCast = "0.2-0.3"
 
 ["0.7-0.15.0"]
 Rotations = ["0.12.1-0.13", "1"]
+
+["0.7-0.22"]
+Requires = "1"
 
 ["0.7-0.7.1"]
 IncrementalInference = "0.11-0.12"
