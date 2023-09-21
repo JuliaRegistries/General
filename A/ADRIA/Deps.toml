@@ -8,7 +8,6 @@ CpuId = "adafc99b-e345-5852-983c-f28acb93d879"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
@@ -41,7 +40,6 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Surrogates = "6fc51010-71bc-11e9-0e15-a3fcc6593c49"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
-ThreadsX = "ac1d9e8a-700a-412c-b207-f0111f4b6c0d"
 Zarr = "0a941bbe-ad1d-11e8-39d9-ab76183a1d99"
 
 ["0-0.4"]
@@ -54,6 +52,10 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 ["0-0.5"]
 IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0-0.8"]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+ThreadsX = "ac1d9e8a-700a-412c-b207-f0111f4b6c0d"
 
 ["0.5-0"]
 AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
@@ -80,3 +82,6 @@ ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
 MLJ = "add582a8-e3ab-11e8-2d5e-e98b27df1bc7"
 SIRUS = "cdeec39e-fb35-4959-aadb-a1dd5dede958"
 StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"
+
+["0.9-0"]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
