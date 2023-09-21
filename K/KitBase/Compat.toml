@@ -83,12 +83,14 @@ Parameters = "0.12"
 CSV = "0.8-0.9"
 
 ["0.7.4-0"]
-MultivariatePolynomials = "0.3-0.4"
 SpecialFunctions = ["0.7-0.10", "1-2"]
-TypedPolynomials = "0.2-0.3"
 
 ["0.7.4-0.9.13"]
 DiffEqOperators = "4"
+
+["0.7.4-0.9.15"]
+MultivariatePolynomials = "0.3-0.4"
+TypedPolynomials = "0.2-0.3"
 
 ["0.8-0"]
 ForwardDiff = "0.10"
@@ -103,10 +105,17 @@ CSV = "0.8-0.10"
 BSON = "0.3"
 
 ["0.9.12-0"]
-CUDA = "2-4"
 JLD2 = "0.4"
 NonlinearSolve = "1"
 SciMLNLSolve = "0.1"
+
+["0.9.12-0.9.15"]
+CUDA = "2-4"
+
+["0.9.16-0"]
+CUDA = "2-5"
+MultivariatePolynomials = "0.3-0.5"
+TypedPolynomials = "0.2-0.4"
 
 ["0.9.5-0"]
 Parameters = "0.12"
