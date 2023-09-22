@@ -18,8 +18,14 @@ SciMLExpectations = "2"
 SciMLBase = "1"
 
 ["0.1.1-0"]
-NLopt = "0.6"
 OptimizationMOI = "0.1"
 
-["0.1.11-0"]
+["0.1.1-0.1.11"]
+NLopt = "0.6"
+
+["0.1.11"]
 SciMLBase = "1.93.1-1"
+
+["0.1.12-0"]
+NLopt = ["0.6", "1"]
+SciMLBase = "1.93.1-2"
