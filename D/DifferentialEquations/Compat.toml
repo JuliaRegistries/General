@@ -184,6 +184,9 @@ BoundaryValueDiffEq = "2.3.0-2"
 DelayDiffEq = "5.18.0-5"
 DiffEqCallbacks = "2.10.0-2"
 
+["7.10-7"]
+SciMLBase = "1.92.0-2"
+
 ["7.2-7.4"]
 JumpProcesses = "9"
 StochasticDiffEq = "6.50.0-6"
@@ -229,10 +232,12 @@ LinearSolve = "2.1.12-2"
 NonlinearSolve = "1.7.0-1"
 OrdinaryDiffEq = "6.53.0-6"
 RecursiveArrayTools = "2.38.0-2"
-SciMLBase = "1.92.0-1"
 SteadyStateDiffEq = "1.15.0-1"
 StochasticDiffEq = "6.61.0-6"
 Sundials = "4.19.0-4"
+
+["7.8-7.9"]
+SciMLBase = "1.92.0-1"
 
 ["7.9.0"]
 BoundaryValueDiffEq = "2.11.0-3"
