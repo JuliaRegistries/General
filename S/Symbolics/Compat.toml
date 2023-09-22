@@ -27,11 +27,13 @@ DiffRules = ["0.1", "1"]
 IfElse = "0.1"
 MacroTools = "0.5"
 Reexport = ["0.2", "1"]
-SciMLBase = "1.8.0-1"
 TreeViews = "0.3"
 
 ["0-5.3"]
 RuntimeGeneratedFunctions = "0.4.3-0.5"
+
+["0-5.5"]
+SciMLBase = "1.8.0-1"
 
 ["0.1.11-0.1.20"]
 AbstractAlgebra = "0.13-0.15"
@@ -185,3 +187,7 @@ RuntimeGeneratedFunctions = "0.5.9-0.5"
 ["5.5.2-5"]
 Bijections = "0.1"
 DynamicPolynomials = "0.5"
+
+["5.6-5"]
+PrecompileTools = "1"
+SciMLBase = "1.8.0-2"
