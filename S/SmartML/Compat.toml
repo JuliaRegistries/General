@@ -22,10 +22,18 @@ JLD = ["0.10-0.14", "1"]
 MLJ = "0.19-0.20"
 MLJLIBSVMInterface = "0.2-0.3"
 MLJXGBoostInterface = "0.3-0.4"
+Suppressor = ["0.2-0.3", "1"]
+XGBoost = "2.3.0-3"
+julia = "1.9.2-1"
+
+["1.0.0"]
 Mads = "1.4.3-1"
 NMFk = "1.2.11-1"
 NTFk = "1.1.8-1"
 Statistics = "1.9.2-1"
-Suppressor = ["0.2-0.3", "1"]
-XGBoost = "2.3.0-3"
-julia = "1.9.2-1"
+
+["1.0.1-1"]
+Mads = "1.5.1-1"
+NMFk = "1.2.13-1"
+NTFk = "1.2.0-1"
+Statistics = "1-2"
