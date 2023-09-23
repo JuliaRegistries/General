@@ -1,10 +1,12 @@
 [0]
 Suppressor = "0.2"
-julia = "1"
 
 ["0-0.1.0"]
 KaHyPar = "0.1"
 OMEinsum = "0.4.1-0.4"
+
+["0-0.8.2"]
+julia = "1"
 
 ["0.1.1-0.4"]
 KaHyPar = "0.2"
@@ -16,7 +18,7 @@ BetterExp = "0.1"
 ["0.5"]
 OMEinsum = "0.6"
 
-["0.5-0"]
+["0.5-0.8.2"]
 Requires = "1"
 
 ["0.6.0"]
@@ -33,3 +35,6 @@ AbstractTrees = "0.4"
 
 ["0.8-0"]
 AbstractTrees = "0.3-0.4"
+
+["0.8.3-0"]
+julia = "1.9.0-1"
