@@ -1,12 +1,3 @@
-[0]
-CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
-Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
-
 ["0-0.1"]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 
@@ -16,17 +7,26 @@ CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 ["0-0.7.1"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
-["0.10-0"]
+[0-1]
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
+
+["0.10-1"]
 ComputationalResources = "ed09eef8-17a6-5b46-8889-db040fac31e3"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
-["0.11-0"]
-MLJModelInterface = "e80e1ace-859a-464e-9ed9-23947d8ae3ea"
-
 ["0.11-0.18.11"]
 MLJScientificTypes = "2e2323e0-db8b-457b-ae0d-bdfb3bc63afd"
+
+["0.11-1"]
+MLJModelInterface = "e80e1ace-859a-464e-9ed9-23947d8ae3ea"
 
 ["0.11.5-0.17"]
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
@@ -35,46 +35,54 @@ JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 ["0.12.1-0.17"]
 JLSO = "9da8a3cd-07a3-59c0-a743-3fdc52c30d11"
 
-["0.12.6-0"]
+["0.12.6-1"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
 ["0.13.6"]
 StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"
 
-["0.17-0"]
+["0.17-1"]
 StatisticalTraits = "64bff920-2084-43da-a3e6-9bb72801c0c9"
 
-["0.18.12-0"]
+["0.18.12-1"]
 ScientificTypes = "321657f4-b219-11e9-178b-2701a2544e81"
 
-["0.19-0"]
+["0.19-1"]
 CategoricalDistributions = "af321ab8-2d2e-40a6-b165-3d674595d28e"
 
 ["0.2.4-0.3"]
 ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 
-["0.20-0"]
+["0.20-1"]
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 
 ["0.3-0.7.3"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["0.4-0"]
-OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
-
 ["0.4-0.14"]
 ScientificTypes = "321657f4-b219-11e9-178b-2701a2544e81"
 
-["0.7-0"]
+["0.4-1"]
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
+["0.7-1"]
 Missings = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
 
 ["0.7.4-0"]
-DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 LossFunctions = "30fc2ffe-d236-52d8-8643-a9d8f7c094a7"
 
-["0.8.1-0"]
+["0.7.4-1"]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+
+["0.8.1-1"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 
-["0.8.4-0"]
+["0.8.4-1"]
 InvertedIndices = "41ab1584-1d38-5bbf-9106-f11c6c58b48f"
+
+[1]
+LearnAPI = "92ad9a40-7767-427a-9ee6-6e577f1266cb"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+StatisticalMeasures = "a19d573c-0a75-4610-95b3-7071388c7541"
+StatisticalMeasuresBase = "c062fc1d-0d66-479b-b6ac-8b44719de4cc"
