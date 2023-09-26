@@ -35,23 +35,34 @@ SpecialFunctions = ["0.3", "0.7-0.10", "1"]
 ["0.3.1-0"]
 HCubature = "1"
 IterTools = "1"
-Statistics = "1.5.0-1"
 julia = "1.5.0-1"
+
+["0.3.1-0.3.4"]
+Statistics = "1.5.0-1"
 
 ["0.3.2"]
 MultipleScattering = "0.1.11-0.1"
 
 ["0.3.2-0"]
-ClassicalOrthogonalPolynomials = "0.3-0.5"
 Interpolations = "0.12-0.13"
 Reexport = ["0.2", "1"]
 SpecialFunctions = ["0.3", "0.7-0.10", "1-2"]
 StaticArrays = ["0.12", "1"]
 
+["0.3.2-0.3.4"]
+ClassicalOrthogonalPolynomials = "0.3-0.5"
+
 ["0.3.3"]
 MultipleScattering = "0.1.12-0.1"
+
+["0.3.4"]
+MultipleScattering = "0.1.14-0.1"
 
 ["0.3.4-0"]
 Accessors = "0.1"
 CSV = "0.10"
-MultipleScattering = "0.1.14-0.1"
+
+["0.3.5-0"]
+ClassicalOrthogonalPolynomials = "0.3-0.11"
+MultipleScattering = "0.1.17-0.1"
+ParticleCorrelations = "0.0.1"
