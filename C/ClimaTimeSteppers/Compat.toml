@@ -1,6 +1,5 @@
 [0]
 DiffEqBase = "6"
-SciMLBase = "1"
 StaticArrays = "1"
 
 ["0-0.2.4"]
@@ -12,6 +11,9 @@ CUDA = "3"
 
 ["0-0.7.3"]
 KernelAbstractions = "0.7-0.8"
+
+["0-0.7.8"]
+SciMLBase = "1"
 
 ["0.2-0"]
 DiffEqCallbacks = "2"
@@ -47,3 +49,6 @@ ClimaComms = "0.4-0.5"
 ["0.7.8-0"]
 Colors = "0.12"
 NVTX = "0.3"
+
+["0.7.9-0"]
+SciMLBase = "1-2"
