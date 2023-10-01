@@ -110,7 +110,6 @@ Flux = "0.13"
 
 ["0.1.17-0"]
 ChainRulesCore = "1.15.0-1"
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0.1.17-0.1.20"]
@@ -118,6 +117,9 @@ DelimitedFiles = "1.6.0-1"
 
 ["0.1.17-0.2.1"]
 CUDA = "3.10.0-3"
+
+["0.1.17-0.2.7"]
+Statistics = "1.6.0-1"
 
 ["0.1.18-0"]
 Flux = "0.13.4-0.13"
@@ -260,7 +262,6 @@ Functors = "0.2"
 Functors = "0.2-0.4"
 JSON3 = "1.12.0-1"
 Static = "0.7-0.8"
-TextEncodeBase = "0.6"
 
 ["0.2-0.2.2"]
 NeuralAttentionlib = "0.2.4-0.2"
@@ -268,9 +269,14 @@ NeuralAttentionlib = "0.2.4-0.2"
 ["0.2-0.2.3"]
 FillArrays = "0.13"
 
+["0.2-0.2.7"]
+TextEncodeBase = "0.6"
+
 ["0.2.2-0"]
-CUDA = "3.10.0-4"
 DoubleArrayTries = "0.1"
+
+["0.2.2-0.2.7"]
+CUDA = "3.10.0-4"
 
 ["0.2.3-0"]
 Zygote = "0.6.59-0.6"
@@ -284,6 +290,13 @@ FillArrays = ["0.13", "1"]
 ["0.2.6"]
 NeuralAttentionlib = "0.2.10-0.2"
 
-["0.2.7-0"]
+["0.2.7"]
 BytePairEncoding = "0.3.2-0.3"
 NeuralAttentionlib = "0.2.11-0.2"
+
+["0.2.8-0"]
+BytePairEncoding = "0.4"
+CUDA = "3.10.0-5"
+LRUCache = "1.5.0-1"
+NeuralAttentionlib = "0.2.12-0.2"
+TextEncodeBase = "0.7"
