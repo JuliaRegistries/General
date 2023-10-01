@@ -4,6 +4,7 @@ Compat = "0.69-2"
 DelimitedFiles = ["0.7", "1"]
 Documenter = "0.10.0-0.25"
 Homebrew = "0.4.0-0.7"
+Pkg = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["4-4.3"]
@@ -12,6 +13,7 @@ Compat = "0.69-2"
 DelimitedFiles = ["0.7", "1"]
 Documenter = "0.10.0-0.25"
 Homebrew = "0.4.0-0.7"
+Pkg = ["0.7", "1"]
 Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
@@ -22,6 +24,7 @@ NamedArrays = "0.9.1-0.9"
 
 ["4.4-5.1.0"]
 DelimitedFiles = "1"
+Pkg = "1"
 Statistics = "1"
 julia = "1"
 
@@ -51,8 +54,12 @@ CSV = "0.0.0-0.5"
 
 ["5.1.1-5.2.0"]
 DelimitedFiles = "1.1.0-1"
+Pkg = "1.1.0-1"
 Statistics = "1.1.0-1"
 julia = "1.1.0-1"
+
+["5.2.1-5.5"]
+Pkg = "1"
 
 ["5.2.1-6"]
 DelimitedFiles = "1"

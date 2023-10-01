@@ -1,4 +1,5 @@
 ["4-4.2"]
+Pkg = "1"
 julia = "1"
 
 [4-5]
@@ -8,10 +9,12 @@ JLLWrappers = "1.2.0-1"
 HIP_jll = "4.2.0-4"
 
 ["4.5-4"]
+Pkg = "1.8.0-1"
 julia = "1.8.0-1"
 
 [5]
 HIP_jll = "5.2.3-5"
+Pkg = "1.9.0-1"
 ROCmCompilerSupport_jll = "5.2.3-5"
 ROCmDeviceLibs_jll = "5.2.3-5"
 ROCmOpenCLRuntime_jll = "5.2.3-5"

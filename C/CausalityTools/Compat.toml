@@ -128,6 +128,9 @@ Requires = ["0.5", "1"]
 ["0.5.2-0.7"]
 TimeseriesSurrogates = ["0.4", "1"]
 
+["0.5.2-0.8"]
+Pkg = "1.1.0-1"
+
 ["0.8"]
 TimeseriesSurrogates = ["0.5", "1"]
 TransferEntropy = ["0.5", "1"]
@@ -145,9 +148,13 @@ TransferEntropy = ["0.5.4-0.5", "1"]
 ["0.9.1-0"]
 TransferEntropy = ["0.5.6-0.5", "1"]
 
+["0.9.3-0"]
+Pkg = "1.1.0-1"
+
 [1]
 ChaosTools = "2"
 DelayEmbeddings = "2"
+Pkg = "1.6.0-1"
 Requires = "1"
 
 ["1-1.1"]

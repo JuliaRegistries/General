@@ -11,6 +11,9 @@ Requires = ["0.5", "1"]
 ["0.2.3-0.2.12"]
 Requires = "0.5"
 
+["0.2.3-0.2.49"]
+Pkg = "1"
+
 ["0.2.30-0.2.33"]
 AbstractFFTs = "0.4-0.5"
 
@@ -24,5 +27,6 @@ CovarianceEstimation = "0.2.4-0.2"
 ChainRulesCore = "1"
 
 ["0.2.50-1"]
+Pkg = "1.6.0-1"
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"

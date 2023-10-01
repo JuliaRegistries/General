@@ -7,6 +7,7 @@ Colors = "0.0.0-0.12"
 Compat = "0.60-2"
 Graphics = "0.2.0-0.4"
 IniFile = "0.3.0-0.5"
+Pkg = ["0.7", "1"]
 Reexport = "0.0.0-0.2"
 StatsBase = "0.13.1-0.33"
 julia = ["0.7", "1"]
@@ -25,6 +26,7 @@ Reexport = "0.2"
 Gtk = "1.1.0-1"
 
 ["0.15.1-0.15.2"]
+Pkg = "1"
 julia = "1"
 
 ["0.15.1-1"]
@@ -40,6 +42,7 @@ StatsBase = "0.33.2-0.33"
 Reexport = ["0.2", "1"]
 
 ["0.15.3-1"]
+Pkg = "1.6.0-1"
 SnoopPrecompile = "1"
 julia = "1.6.0-1"
 
