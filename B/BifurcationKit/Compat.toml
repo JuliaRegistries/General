@@ -37,7 +37,6 @@ DataStructures = "0.17-0.18"
 ForwardDiff = "0.10"
 IterativeSolvers = "0.8.4-0.9"
 LinearMaps = "2.7.0-3"
-RecursiveArrayTools = "2.4.0-2"
 Requires = "1.1.2-1"
 
 ["0.1.2-0.1"]
@@ -55,6 +54,9 @@ Arpack = "0.4-0.5"
 
 ["0.1.2-0.2.5"]
 StructArrays = "0.4"
+
+["0.1.2-0.3.0"]
+RecursiveArrayTools = "2.4.0-2"
 
 ["0.1.4-0.1.5"]
 BlockArrays = ["0.12", "0.14"]
@@ -74,12 +76,14 @@ SciMLBase = "1.21.0-1"
 ["0.2-0"]
 ArnoldiMethod = ["0.0.4", "0.1-0.2"]
 Parameters = "0.12.3-0.12"
-SciMLBase = "1.42.1-1"
 julia = "1.5.0-1"
 
 ["0.2-0.2.5"]
 KrylovKit = "0.5.4-0.5"
 Setfield = ["0.5", "0.7-0.8", "1"]
+
+["0.2-0.3.0"]
+SciMLBase = "1.42.1-1"
 
 ["0.2.3-0"]
 Arpack = "0.5.3"
@@ -95,3 +99,7 @@ StructArrays = ["0.4", "0.6"]
 
 ["0.2.7-0"]
 Reexport = "1.2.2-1"
+
+["0.3.1-0"]
+RecursiveArrayTools = "2.3.0-2"
+SciMLBase = "2.0.7-2"
