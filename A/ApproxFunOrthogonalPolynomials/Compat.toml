@@ -287,11 +287,11 @@ FastTransforms = "0.12-0.13"
 ["0.4.6-0"]
 SpecialFunctions = ["0.10", "1-2"]
 
-["0.4.7-0"]
-BandedMatrices = "0.16-0.17"
-
 ["0.4.7-0.6.24"]
 FillArrays = "0.11-0.13"
+
+["0.4.7-0.6.47"]
+BandedMatrices = "0.16-0.17"
 
 ["0.4.8-0.4.9"]
 IntervalSets = "0.5-0.6"
@@ -308,7 +308,7 @@ julia = "1.6.0-1"
 ["0.5.11-0.6.40"]
 Statistics = "1.6.0-1"
 
-["0.5.13-0"]
+["0.5.13-0.6.47"]
 FastGaussQuadrature = "0.4-0.5"
 
 ["0.5.15-0"]
@@ -400,8 +400,15 @@ ApproxFunBase = "0.8.39-0.9"
 ApproxFunBase = ["0.8.49-0.8", "0.9.4-0.9"]
 
 ["0.6.46-0"]
-ApproxFunBase = ["0.8.57-0.8", "0.9.13-0.9"]
 Polynomials = "2-4"
+
+["0.6.46-0.6.47"]
+ApproxFunBase = ["0.8.57-0.8", "0.9.13-0.9"]
+
+["0.6.48-0"]
+ApproxFunBase = ["0.8.60-0.8", "0.9.16-0.9"]
+BandedMatrices = ["0.16-0.17", "1"]
+FastGaussQuadrature = ["0.4-0.5", "1"]
 
 ["0.6.7-0.6.8"]
 ApproxFunBase = "0.7.67-0.7"
