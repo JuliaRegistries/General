@@ -47,8 +47,10 @@ QuasiArrays = "0.10"
 
 ["0.10-0"]
 DomainSets = "0.6"
-FastGaussQuadrature = "0.5"
 IntervalSets = "0.7"
+
+["0.10-0.11.7"]
+FastGaussQuadrature = "0.5"
 
 ["0.11-0"]
 QuasiArrays = "0.11"
@@ -75,6 +77,9 @@ ContinuumArrays = "0.16"
 
 ["0.11.7-0"]
 BandedMatrices = ["0.17.17-0.17", "1"]
+
+["0.11.8-0"]
+FastGaussQuadrature = ["0.5", "1"]
 
 ["0.2"]
 InfiniteArrays = "0.10"
