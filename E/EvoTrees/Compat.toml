@@ -23,11 +23,14 @@ Tables = "1.9.0-1"
 ["0.12-0.14"]
 LoopVectorization = "0.12"
 
-["0.14.8-0"]
+["0.14.8-0.16.1"]
 CUDA = "3-4"
 
 ["0.14.9-0"]
 StatsBase = "0.32-0.34"
+
+["0.16.2-0"]
+CUDA = "3-5"
 
 ["0.2.2-0.3"]
 CodeTracking = "0.0.0-1"
@@ -135,5 +138,7 @@ NetworkLayout = "0.4"
 SpecialFunctions = "1-2"
 
 ["0.9.4-0"]
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
+
+["0.9.4-0.16.1"]
+Statistics = "1.6.0-1"
