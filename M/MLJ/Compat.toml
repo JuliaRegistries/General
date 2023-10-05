@@ -175,13 +175,13 @@ MLJBase = "0.19"
 ["0.17.1-0.17"]
 MLJBase = "0.19.4-0.19"
 
-["0.18-0"]
+["0.18-0.18.3"]
+MLJBase = "0.20"
+
+["0.18-0.19"]
 MLJEnsembles = "0.3"
 MLJIteration = "0.5"
 MLJTuning = "0.7"
-
-["0.18-0.18.3"]
-MLJBase = "0.20"
 
 ["0.18.1-0.18"]
 MLJModels = "0.15.5-0.15"
@@ -205,10 +205,12 @@ MLJBase = "0.21.3-0.21"
 StatsBase = "0.32-0.34"
 
 ["0.19.3-0"]
-MLJFlow = "0.1"
 Reexport = "1.2.0-1"
 
-["0.19.4-0"]
+["0.19.3-0.19"]
+MLJFlow = "0.1"
+
+["0.19.4-0.19"]
 MLJBase = "0.21.14-0.21"
 
 ["0.2"]
@@ -219,6 +221,14 @@ MLJBase = "0.2"
 
 ["0.2.4-0.2"]
 MLJBase = "0.2.3-0.2"
+
+["0.20-0"]
+MLJBase = "1"
+MLJEnsembles = "0.4"
+MLJFlow = "0.2"
+MLJIteration = "0.6"
+MLJTuning = "0.8"
+StatisticalMeasures = "0.1"
 
 ["0.3"]
 MLJBase = "0.4"

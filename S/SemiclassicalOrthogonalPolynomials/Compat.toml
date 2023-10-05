@@ -125,7 +125,6 @@ LazyArrays = "0.22"
 QuasiArrays = "0.9"
 
 ["0.3-0"]
-BandedMatrices = "0.17"
 SpecialFunctions = "1-2"
 
 ["0.3-0.3.2"]
@@ -137,6 +136,9 @@ FillArrays = "0.13"
 
 ["0.3-0.3.4"]
 julia = "1.7.0-1"
+
+["0.3-0.5.2"]
+BandedMatrices = "0.17"
 
 ["0.3.1-0.3.2"]
 ContinuumArrays = "0.10-0.11"
@@ -200,3 +202,6 @@ InfiniteLinearAlgebra = "0.7"
 
 ["0.5.2-0"]
 ContinuumArrays = "0.15-0.16"
+
+["0.5.3-0"]
+BandedMatrices = ["0.17", "1"]

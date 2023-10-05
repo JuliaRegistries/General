@@ -321,7 +321,7 @@ LazyArrays = "0.20-0.22"
 ["0.5.4-0"]
 SpecialFunctions = ["0.10", "1-2"]
 
-["0.5.5-0"]
+["0.5.5-0.8.60"]
 BandedMatrices = "0.16-0.17"
 
 ["0.5.5-0.8.7"]
@@ -354,6 +354,9 @@ InfiniteArrays = "0.11-0.13"
 ["0.8.46-0"]
 LowRankMatrices = "1"
 
+["0.8.61-0.8"]
+BandedMatrices = ["0.16-0.17", "1"]
+
 ["0.8.8-0"]
 BlockBandedMatrices = "0.10-0.12"
 FillArrays = ["0.11-0.13", "1"]
@@ -365,3 +368,9 @@ julia = "1.9.0-1"
 
 ["0.9-0.9.11"]
 Statistics = "1.9.0-1"
+
+["0.9-0.9.16"]
+BandedMatrices = "0.16-0.17"
+
+["0.9.17-0"]
+BandedMatrices = ["0.16-0.17", "1"]

@@ -61,17 +61,22 @@ VectorizationBase = ["0.19.38-0.19", "0.20.1-0.21"]
 SLEEFPirates = "0.6.29-0.6"
 
 ["0.2.16-0"]
-StaticArraysCore = "1"
 julia = "1.6.0-1"
 
 ["0.2.16-0.2.21"]
 StrideArraysCore = "0.3"
 
+["0.2.16-0.2.24"]
+StaticArraysCore = "1"
+
 ["0.2.2"]
 VectorizationBase = "0.13-0.14"
 
-["0.2.22-0"]
+["0.2.22-0.2.24"]
 StrideArraysCore = "0.3-0.4"
+
+["0.2.25-0"]
+Requires = "1"
 
 ["0.2.3"]
 VectorizationBase = "0.13-0.15"

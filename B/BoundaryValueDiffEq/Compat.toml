@@ -38,7 +38,7 @@ Reexport = "0.2"
 ["2.3.1-2.8"]
 DiffEqBase = "6.5.0-6"
 
-["2.3.1-4"]
+["2.3.1-5"]
 ForwardDiff = "0.10"
 
 ["2.4-2.7"]
@@ -50,7 +50,7 @@ FiniteDiff = "2"
 ["2.5-2.6"]
 BandedMatrices = "0.14-0.15"
 
-["2.6-4"]
+["2.6-5"]
 Reexport = ["0.2", "1"]
 
 ["2.7"]
@@ -63,14 +63,27 @@ julia = "1.6.0-1"
 ["2.9"]
 SciMLBase = "1.43.0-1"
 
-["2.9-4"]
+["2.9-5"]
 DiffEqBase = "6.94.2-6"
 
 [3-4]
 NonlinearSolve = "1"
+
+[3-5]
 Setfield = "1"
 TruncatedStacktraces = "1"
 
-[4]
+[4-5]
 ArrayInterface = "7"
 UnPack = "1"
+
+[5]
+ADTypes = "0.2"
+Adapt = "3"
+ConcreteStructs = "0.2"
+NonlinearSolve = "2"
+PreallocationTools = "0.4"
+RecursiveArrayTools = "2.38.10-2"
+SciMLBase = "2"
+SparseDiffTools = "2.6.0-2"
+julia = "1.9.0-1"

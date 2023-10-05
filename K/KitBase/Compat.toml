@@ -106,16 +106,21 @@ BSON = "0.3"
 
 ["0.9.12-0"]
 JLD2 = "0.4"
-NonlinearSolve = "1"
 SciMLNLSolve = "0.1"
 
 ["0.9.12-0.9.15"]
 CUDA = "2-4"
 
+["0.9.12-0.9.16"]
+NonlinearSolve = "1"
+
 ["0.9.16-0"]
 CUDA = "2-5"
 MultivariatePolynomials = "0.3-0.5"
 TypedPolynomials = "0.2-0.4"
+
+["0.9.17-0"]
+NonlinearSolve = "1-2"
 
 ["0.9.5-0"]
 Parameters = "0.12"
