@@ -1,4 +1,4 @@
-[0]
+["0-0.8.3"]
 julia = "1.6.0-1"
 
 ["0.0.2-0.0"]
@@ -16,7 +16,7 @@ DrWatson = "2"
 ["0.2"]
 LocalCoverage = "0.2"
 
-["0.2-0"]
+["0.2-0.8.3"]
 Coverage = "1.4.0-1"
 
 ["0.2.1"]
@@ -49,11 +49,11 @@ QuantumPropagators = "0.1.6-0.1"
 ["0.4"]
 PrettyTables = "1"
 
-["0.4-0"]
-LocalCoverage = "0.4"
-
 ["0.4-0.5"]
 QuantumPropagators = "0.2"
+
+["0.4-0.8.3"]
+LocalCoverage = "0.4"
 
 ["0.5-0.8.0"]
 Zygote = "0.0.0-0.6"
@@ -82,3 +82,6 @@ QuantumPropagators = "0.5"
 
 ["0.8.3-0"]
 QuantumPropagators = "0.6"
+
+["0.8.4-0"]
+julia = "1.9.0-1"
