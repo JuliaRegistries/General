@@ -105,10 +105,12 @@ BioSymbols = "4-5"
 Graphs = "1"
 MetaGraphs = "0.7"
 
+["1.2-1"]
+Statistics = "1.6.0-1"
+
 ["1.2-2"]
 Format = "1.3.0-1"
 MMTF = "1"
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 [2]
@@ -118,3 +120,10 @@ BioSymbols = "5"
 CodecZlib = "0.7"
 DataFrames = "1"
 RecipesBase = "1"
+
+["2.0"]
+Statistics = "1.6.0-1"
+
+["2.1-2"]
+DSSP_jll = "4.4.0-4"
+STRIDE_jll = "1"
