@@ -2,7 +2,6 @@
 IterTools = "1"
 MacroTools = "0.5"
 Primes = "0.5"
-TestSetExtensions = "2"
 
 ["0-0.1"]
 AbstractAlgebra = ["0.13", "0.18-0.20"]
@@ -14,6 +13,9 @@ GroebnerBasis = "0.1-0.3"
 
 ["0-0.3.1"]
 julia = "1.5.0-1"
+
+["0-0.4.10"]
+TestSetExtensions = "2"
 
 ["0.2"]
 AbstractAlgebra = ["0.13", "0.18-0.21"]
@@ -85,9 +87,17 @@ Groebner = "0.2"
 AbstractAlgebra = ["0.13", "0.18-0.27"]
 Nemo = "0.24-0.32"
 
-["0.4.10-0"]
+["0.4.10"]
 AbstractAlgebra = ["0.13", "0.18-0.30"]
 Nemo = "0.24-0.34"
+
+["0.4.11-0"]
+AbstractAlgebra = ["0.13", "0.18-0.32"]
+Combinatorics = "1"
+Groebner = "0.4"
+Nemo = "0.24-0.36"
+ParamPunPam = "0.1"
+PrecompileTools = "1"
 
 ["0.4.2"]
 Hecke = "0.14-0.15"
@@ -99,7 +109,7 @@ Hecke = "0.14-0.16"
 SymbolicUtils = "1"
 Symbolics = "5"
 
-["0.4.7-0"]
+["0.4.7-0.4.10"]
 Groebner = "0.2-0.3"
 
 ["0.4.8-0.4.9"]
