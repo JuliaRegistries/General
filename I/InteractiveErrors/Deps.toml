@@ -1,14 +1,20 @@
 [0]
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
-InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
-IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
-REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 
 ["0-0.1.0"]
 Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
 
+[0-1]
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
+
 ["0.1.1-0"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["0.1.5-0"]
+["0.1.5-1"]
 FoldingTrees = "1eca21be-9b9b-4ed8-839a-6d8ae26b1781"
+
+[1]
+PackageExtensionCompat = "65ce6f38-6b18-4e1d-a461-8949797d7930"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
