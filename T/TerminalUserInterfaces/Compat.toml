@@ -13,11 +13,19 @@ Crossterm = "0.2"
 Crossterm = "0.3"
 
 ["0.5-0"]
-Crossterm = "0.5"
 LoggingExtras = "1"
 LoggingFormats = "1"
 
+["0.5-0.7"]
+Crossterm = "0.5"
+
+["0.7"]
+KiwiConstraintSolver = "1"
+
 ["0.7-0"]
 InlineTest = "0.2"
-KiwiConstraintSolver = "1"
 Tables = "1"
+
+["0.8-0"]
+Crossterm = "0.5.1-0.5"
+KiwiConstraintSolver = "1.1.1-1"
