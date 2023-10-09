@@ -17,6 +17,11 @@ Distributions = "0.16-0.25"
 GSL = ["0.4", "1"]
 julia = ["0.7", "1"]
 
-["0.5.2-0"]
+["0.5.2"]
 FastGaussQuadrature = "0.3-0.5"
+
+["0.5.2-0"]
 SpecialFunctions = ["0.7", "1-2"]
+
+["0.5.3-0"]
+FastGaussQuadrature = ["0.3-0.5", "1"]
