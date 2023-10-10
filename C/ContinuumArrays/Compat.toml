@@ -83,7 +83,6 @@ QuasiArrays = "0.10"
 
 ["0.13-0"]
 ArrayLayouts = "1"
-DomainSets = "0.6"
 FillArrays = "1"
 IntervalSets = "0.7"
 julia = "1.9.0-1"
@@ -93,6 +92,9 @@ LazyArrays = "1"
 
 ["0.13-0.16.0"]
 BandedMatrices = "0.17"
+
+["0.13-0.16.1"]
+DomainSets = "0.6"
 
 ["0.14"]
 QuasiArrays = "0.11"
@@ -111,6 +113,9 @@ LazyArrays = "1.7.0-1"
 
 ["0.16.1-0"]
 BandedMatrices = ["0.17", "1"]
+
+["0.16.2-0"]
+DomainSets = "0.6-0.7"
 
 ["0.2"]
 julia = "1.3.0-1"
