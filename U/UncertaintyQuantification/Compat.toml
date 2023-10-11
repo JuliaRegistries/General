@@ -60,13 +60,18 @@ Symbolics = "4"
 ["0.3.1-0.6"]
 QuasiMonteCarlo = "0.2.10-0.2"
 
-["0.4-0"]
-FastGaussQuadrature = "0.4-0.5"
-
 ["0.4-0.6"]
 DynamicPolynomials = "0.4.5-0.4"
+
+["0.4-0.7"]
+FastGaussQuadrature = "0.4-0.5"
 
 ["0.7-0"]
 DelimitedFiles = "1"
 DynamicPolynomials = "0.5"
 QuasiMonteCarlo = "0.3"
+
+["0.8-0"]
+FastGaussQuadrature = ["0.4-0.5", "1"]
+KernelDensity = "0.6"
+StatsBase = "0.33"
