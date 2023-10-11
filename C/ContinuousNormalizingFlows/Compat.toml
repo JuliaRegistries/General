@@ -4,7 +4,6 @@ ComputationalResources = "0.3"
 Distributions = "0.25"
 DistributionsAD = "0.6"
 LuxCore = "0.1"
-MLJBase = "0.21"
 MLUtils = "0.4"
 OptimizationOptimisers = "0.1"
 PrecompileTools = "1"
@@ -19,6 +18,9 @@ Statistics = "1.6.0-1"
 
 ["0-0.12"]
 DifferentialEquations = "7"
+
+["0-0.13"]
+MLJBase = "0.21"
 
 ["0-0.5"]
 DataFrames = "1.2.0-1"
@@ -57,16 +59,22 @@ Optimisers = "0.2-0.3"
 ["0.13-0"]
 ComponentArrays = "0.14-0.15"
 
+["0.14-0"]
+MLJBase = ["0.21", "1"]
+SciMLBase = "1-2"
+
 ["0.6-0"]
 DataFrames = "1"
 FillArrays = "1"
 MLJModelInterface = "1"
 ProgressMeter = "1"
-SciMLBase = "1"
 SparseDiffTools = "2"
 
 ["0.6-0.10"]
 ADTypes = "0.1"
+
+["0.6-0.13"]
+SciMLBase = "1"
 
 ["0.6-0.7.1"]
 IterTools = "1"
