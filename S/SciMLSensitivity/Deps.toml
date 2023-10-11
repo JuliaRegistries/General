@@ -1,11 +1,9 @@
 [7]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
 DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
-DiffRules = "b552c78f-8df3-52c6-915a-8e097449b14b"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 EllipsisNotation = "da5c29d0-fa7d-589e-88eb-ea29b0a81949"
 Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
@@ -34,6 +32,10 @@ ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
 ArrayInterfaceTracker = "a2b0951a-f94f-4742-8780-617792921f9b"
 
+["7-7.41.0"]
+Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
+DiffRules = "b552c78f-8df3-52c6-915a-8e097449b14b"
+
 ["7-7.6.2"]
 DiffEqOperators = "9fdde737-9c7f-55bf-ade8-46b3f136cc48"
 
@@ -57,6 +59,9 @@ ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 
 ["7.4-7.20"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["7.41.1-7"]
+FunctionProperties = "f62d2435-5019-4c03-9749-2d4c77af0cbc"
 
 ["7.6-7"]
 FunctionWrappersWrappers = "77dc65aa-8811-40c2-897b-53d922fa7daf"
