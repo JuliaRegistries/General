@@ -7,7 +7,6 @@ JLD2 = "0.4"
 NLsolve = "4.5.0-4"
 RecipesBase = "1.2.0-1"
 Revise = "3.1.0-3"
-SciMLBase = "1.29.0-1"
 SparsityTracing = "0.2.3-0.2"
 SpecialFunctions = "1-2"
 StaticArrays = "1.2.0-1"
@@ -28,6 +27,9 @@ SparseDiffTools = "1.13.0-1"
 
 ["0-0.15.32"]
 Sundials = "4.5.0-4"
+
+["0-0.15.33"]
+SciMLBase = "1.29.0-1"
 
 ["0.14.1"]
 PALEOboxes = "0.15-0.16"
@@ -77,5 +79,11 @@ PALEOboxes = "0.21.17-0.21"
 ["0.15.3-0.15.9"]
 PALEOboxes = "0.20.2-0.20"
 
-["0.15.33-0"]
+["0.15.33"]
 Sundials = "4.5-4.19.3"
+
+["0.15.34-0"]
+MultiFloats = "1"
+SciMLBase = "1.29.0-2"
+Sparspak = "0.3.9-0.3"
+Sundials = "4.5.0-4"
