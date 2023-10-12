@@ -60,8 +60,10 @@ PowerModelsStability = "0.3"
 
 ["2.1-3"]
 InfrastructureModels = "0.7"
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
+
+["2.1-3.4"]
+Statistics = "1.6.0-1"
 
 [3]
 ArgParse = "1.1.0-1"
@@ -73,13 +75,15 @@ JSONSchema = ["0.3.3-0.3", "1"]
 JuMP = ["0.22-0.23", "1"]
 Juniper = "0.8-0.9"
 PolyhedralRelaxations = "0.3.3-0.3"
-PowerModelsDistribution = "0.14.4-0.14"
 PowerModelsProtection = "0.5.2-0.5"
 PowerModelsStability = "0.3.2-0.3"
 Requires = "1.1.3-1"
 
 ["3-3.3"]
 HiGHS = "1.1.3-1"
+
+["3-3.4"]
+PowerModelsDistribution = "0.14.4-0.14"
 
 ["3.3"]
 StatsBase = "0.33"
@@ -90,3 +94,6 @@ Combinatorics = "1"
 ["3.4-3"]
 HiGHS = "1.5.2-1"
 StatsBase = "0.33-0.34"
+
+["3.5-3"]
+PowerModelsDistribution = "0.14.4-0.15"
