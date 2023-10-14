@@ -139,6 +139,7 @@ DocStringExtensions = "0.8"
 Manifolds = "0.6.3-0.7"
 
 ["0.16.1-0.20"]
+Distributed = "1.6.0-1"
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
@@ -184,6 +185,9 @@ TransformUtils = "0.2.2-0.2"
 ["0.2.2-0.2.3"]
 IncrementalInference = "0.4.4-0.4"
 
+["0.2.2-0.3.3"]
+Distributed = ["0.7-0", "1.0"]
+
 ["0.2.4-0.2"]
 IncrementalInference = "0.4.6-0.4"
 KernelDensityEstimate = "0.4.1-0.4.2"
@@ -201,6 +205,7 @@ ApproxManifoldProducts = "0.6"
 IncrementalInference = "0.31"
 
 ["0.21-0.22"]
+Distributed = "1.8.0-1"
 SnoopPrecompile = "1"
 Statistics = "1.8.0-1"
 julia = "1.8.0-1"
@@ -225,6 +230,7 @@ IncrementalInference = "0.33"
 ["0.23-0"]
 ApproxManifoldProducts = "0.7-0.8"
 DelimitedFiles = "1"
+Distributed = "1.9.0-1"
 DistributedFactorGraphs = "0.23"
 ImageCore = "0.9-0.10"
 IncrementalInference = "0.33-0.34"
@@ -275,6 +281,7 @@ Rotations = "0.11.0-1"
 
 ["0.4-0.6"]
 DelimitedFiles = "1"
+Distributed = "1"
 Statistics = "1"
 julia = "1"
 
@@ -350,6 +357,7 @@ IncrementalInference = "0.10.3-0.11"
 
 ["0.7"]
 DelimitedFiles = "1.2.0-1"
+Distributed = "1.2.0-1"
 DistributedFactorGraphs = "0.7.1-0.8"
 Statistics = "1.2.0-1"
 julia = "1.2.0-1"
@@ -391,6 +399,7 @@ ApproxManifoldProducts = "0.1.4-0.1"
 
 ["0.8-0.16.0"]
 DelimitedFiles = "1.4.0-1"
+Distributed = "1.4.0-1"
 Statistics = "1.4.0-1"
 julia = "1.4.0-1"
 

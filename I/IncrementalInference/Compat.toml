@@ -15,6 +15,7 @@ HDF5 = "0.8.5-0.13"
 
 ["0.10-0.11"]
 DelimitedFiles = "1.2.0-1"
+Distributed = "1.2.0-1"
 Statistics = "1.2.0-1"
 julia = "1.2.0-1"
 
@@ -39,6 +40,7 @@ DistributedFactorGraphs = "0.8"
 
 ["0.12-0.24"]
 DelimitedFiles = "1.4.0-1"
+Distributed = "1.4.0-1"
 Statistics = "1.4.0-1"
 julia = "1.4.0-1"
 
@@ -206,6 +208,7 @@ Manifolds = "0.6.3-0.6"
 
 ["0.25-0.25.2"]
 DelimitedFiles = "1.5.0-1"
+Distributed = "1.5.0-1"
 Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
@@ -228,6 +231,7 @@ Manifolds = "0.6.3-0.7"
 DistributedFactorGraphs = "0.16.2-0.16"
 
 ["0.25.3-0.30"]
+Distributed = "1.6.0-1"
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
@@ -291,6 +295,7 @@ OrderedCollections = "1"
 RecursiveArrayTools = "2.31.1-2"
 
 ["0.31-0.33"]
+Distributed = "1.8.0-1"
 SnoopPrecompile = "1"
 Statistics = "1.8.0-1"
 julia = "1.8.0-1"
@@ -318,6 +323,7 @@ StructTypes = "1"
 ["0.34-0"]
 BlockArrays = "0.16"
 DelimitedFiles = "1"
+Distributed = "1.9.0-1"
 DistributedFactorGraphs = "0.23"
 FiniteDiff = "2"
 FiniteDifferences = "0.12"
@@ -360,6 +366,9 @@ julia = ["0.7", "1"]
 
 ["0.4.4-0.4.5"]
 NLsolve = "2.1-2"
+
+["0.4.4-0.6"]
+Distributed = ["0.7", "1"]
 
 ["0.4.6-0.5.4"]
 NLsolve = "3-4"
@@ -418,6 +427,7 @@ StatsBase = "0.25.0-0.33"
 JSON2 = "0.0.0-0.3"
 
 ["0.7-0.9"]
+Distributed = "1"
 Statistics = "1"
 julia = "1"
 

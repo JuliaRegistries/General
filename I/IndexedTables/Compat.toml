@@ -32,6 +32,7 @@ DataValues = "0.4.6-0.4"
 Statistics = "1"
 
 ["0.12-1"]
+Distributed = "1"
 julia = "1"
 
 ["0.12.1"]
@@ -94,6 +95,9 @@ TableTraitsUtils = "0.2-1"
 
 ["0.9-0.10"]
 StructArrays = "0.2.0-0.3"
+
+["0.9-0.11"]
+Distributed = ["0.7", "1"]
 
 ["0.9-0.12.0"]
 OnlineStatsBase = "0.9.1-0.10"

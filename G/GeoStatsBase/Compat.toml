@@ -20,6 +20,7 @@ Optim = ["0.18", "0.20-0.22"]
 CSV = "0.5-0.7"
 
 ["0.11-0.17"]
+Distributed = "1.4.0-1"
 Statistics = "1.4.0-1"
 julia = "1.4.0-1"
 
@@ -64,8 +65,12 @@ TypedTables = "1.2.0-1"
 Meshes = "0.10"
 
 ["0.18-0.24.5"]
+Distributed = "1.5.0-1"
 Statistics = "1.5.0-1"
 julia = "1.5.0-1"
+
+["0.2.2-0.4.0"]
+Distributed = ["0.7", "1"]
 
 ["0.20-0.21.0"]
 Meshes = "0.11"
@@ -125,6 +130,7 @@ ReferenceFrameRotations = "3"
 DensityRatioEstimation = "0.5"
 
 ["0.24.6-0.31"]
+Distributed = "1.6.0-1"
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
@@ -231,6 +237,7 @@ Rotations = "1.5.0-1"
 Meshes = "0.31-0.32"
 
 ["0.32-0"]
+Distributed = "1.9.0-1"
 julia = "1.9.0-1"
 
 ["0.32-0.32.2"]
@@ -270,6 +277,7 @@ ColumnSelectors = "0.1"
 GeoTables = "1.8.0-1"
 
 ["0.4.1-0.8.2"]
+Distributed = "1"
 julia = "1"
 
 ["0.5-0.17"]
@@ -367,6 +375,7 @@ Optim = ["0.18", "0.20"]
 DataFrames = ["0.18", "0.20"]
 
 ["0.8.3-0.10"]
+Distributed = "1.1.0-1"
 Statistics = "1.1.0-1"
 julia = "1.1.0-1"
 
