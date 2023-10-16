@@ -1,10 +1,12 @@
 [0]
 Combinatorics = "1"
 Meshes = "0.35"
-ScientificTypes = "3"
-TableTransforms = "1.15.0-1"
 Tables = "1.10.0-1"
 julia = "1.9.0-1"
+
+["0-0.1"]
+ScientificTypes = "3"
+TableTransforms = "1.15.0-1"
 
 ["0-0.1.0"]
 GeoTables = "1.6.0-1"
@@ -15,6 +17,8 @@ CategoricalArrays = "0.10"
 Clustering = "0.15"
 Distances = "0.10"
 GeoStatsModels = "0.1"
+
+["0.1.1-0.1"]
 GeoTables = "1.7.0-1"
 TableDistances = "0.2"
 
@@ -23,3 +27,9 @@ Unitful = "1.17.0-1"
 
 ["0.1.8-0"]
 ColumnSelectors = "0.1"
+
+["0.2-0"]
+DataScienceTraits = "0.1"
+GeoTables = "1.9.0-1"
+TableDistances = "0.3"
+TableTransforms = "1.16.0-1"
