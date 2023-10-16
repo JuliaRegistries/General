@@ -14,16 +14,14 @@ StatsBase = "0.30.0-0.32"
 julia = "1"
 
 ["0.10-0"]
-UnicodePlots = "2"
-
-["0.10-1"]
 Statistics = "1.6.0-1"
+UnicodePlots = "2"
 julia = "1.6.0-1"
 
 ["0.10.0"]
 TableTransforms = "0.4"
 
-["0.10.1-1"]
+["0.10.1-0"]
 StaticArrays = "1"
 
 ["0.10.1-1.0.1"]
@@ -48,11 +46,11 @@ StatsBase = "0.32-0.33"
 ["0.2.2-0.4.0"]
 DataFrames = "0.21"
 
+["0.4-0"]
+Tables = "1.1.0-1"
+
 ["0.4-0.9"]
 julia = "1.5.0-1"
-
-["0.4-1"]
-Tables = "1.1.0-1"
 
 ["0.4.1-0.5"]
 CSV = "0.5-0.8"
@@ -98,11 +96,18 @@ RecipesBase = "1.2.0-1"
 ["0.9.1"]
 ScientificTypes = "2.3.0-3"
 
-["0.9.2-1"]
+["0.9.2-0"]
 ScientificTypes = "3"
 
 ["0.9.3-0.9"]
 TableTransforms = "0.1-0.4"
+
+["1.0"]
+ScientificTypes = "3"
+StaticArrays = "1"
+Statistics = "1.6.0-1"
+Tables = "1.1.0-1"
+julia = "1.6.0-1"
 
 ["1.0.0"]
 FillArrays = "0.12"
@@ -120,9 +125,18 @@ TableTransforms = "1.4.0-1"
 ["1.0.5-1.0.6"]
 TableTransforms = "1.6.0-1"
 
-["1.0.7-1"]
+["1.0.7-1.0"]
 TableTransforms = "1.9.0-1"
 
-["1.0.8-1"]
+["1.0.8-1.0"]
 FillArrays = "1.5.0-1"
 StatsBase = "0.32-0.34"
+
+["1.1-1"]
+DataScienceTraits = "0.1"
+FillArrays = "1.6.0-1"
+StaticArrays = "1.6.0-1"
+StatsBase = "0.34"
+TableTransforms = "1.16.0-1"
+Tables = "1.11.0-1"
+julia = "1.9.0-1"
