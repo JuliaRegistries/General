@@ -1,7 +1,6 @@
 [0]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 FITSIO = "525bcba6-941b-5504-bd06-fd0dc1a4d2eb"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 UnitfulAstro = "6112ee07-acf9-5e0f-b108-d242c714bf9f"
 
@@ -20,6 +19,9 @@ AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
+["0-0.3.15"]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
 ["0.1.1-0"]
 AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
 
@@ -31,16 +33,21 @@ DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 
 ["0.3-0"]
-DataPipes = "02685ad9-2d12-40c3-9f73-c6aeda6a7ff5"
 DateFormats = "44557152-fe0a-4de1-8405-416d90313ce6"
 InterferometricModels = "b395d269-c2ec-4df6-b679-36919ad600ca"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
+["0.3-0.3.15"]
+DataPipes = "02685ad9-2d12-40c3-9f73-c6aeda6a7ff5"
+
 ["0.3.10-0"]
 PyFormattedStrings = "5f89f4a4-a228-4886-b223-c468a82ed5b9"
 
-["0.3.13-0"]
+["0.3.13-0.3.15"]
 FlexiMaps = "6394faf6-06db-4fa8-b750-35ccc60383f7"
+
+["0.3.16-0"]
+DataManipulation = "38052440-ad76-4236-8414-61389b2c5143"
 
 ["0.3.2-0"]
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
