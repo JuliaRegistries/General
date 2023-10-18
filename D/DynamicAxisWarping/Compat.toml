@@ -1,8 +1,6 @@
 [0]
 BinDeps = "1"
-Plots = "1"
 ProgressMeter = "1.2.0-1"
-Statistics = "1"
 julia = "1"
 
 ["0-0.1.1"]
@@ -23,6 +21,10 @@ FillArrays = "0.8"
 
 ["0-0.4.11"]
 DelimitedFiles = "1"
+
+["0-0.4.16"]
+Plots = "1"
+Statistics = "1"
 
 ["0.1.1-0"]
 Requires = "1"
@@ -59,6 +61,9 @@ FillArrays = "1"
 
 ["0.4.16-0"]
 DelimitedFiles = "1"
+
+["0.4.17-0"]
+RecipesBase = "1"
 
 ["0.4.2"]
 FillArrays = "0.8-0.9"
