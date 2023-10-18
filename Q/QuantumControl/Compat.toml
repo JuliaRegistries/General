@@ -1,8 +1,8 @@
-[0]
-julia = "1.6.0-1"
-
 ["0-0.0.2"]
 QuantumControlBase = "0.0"
+
+["0-0.8.0"]
+julia = "1.6.0-1"
 
 ["0.0.2"]
 Krotov = "0.0"
@@ -87,10 +87,17 @@ QuantumPropagators = "0.4.2-0.4"
 QuantumControlBase = "0.8.2-0.8"
 QuantumPropagators = "0.5"
 
-["0.7-0"]
+["0.7-0.8.0"]
 GRAPE = "0.5.4-0.5"
 Krotov = "0.5.3-0.5"
 
-["0.8-0"]
+["0.8.0"]
 QuantumControlBase = "0.8.3-0.8"
 QuantumPropagators = "0.6"
+
+["0.8.1-0"]
+GRAPE = "0.5.5-0.5"
+Krotov = "0.5.4-0.5"
+QuantumControlBase = "0.8.4-0.8"
+QuantumPropagators = "0.6.1-0.6"
+julia = "1.9.0-1"
