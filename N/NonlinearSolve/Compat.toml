@@ -76,8 +76,10 @@ SnoopPrecompile = "1"
 SciMLBase = "1.73.0-1"
 
 [1-2]
-SimpleNonlinearSolve = "0.1"
 StaticArraysCore = "1.4.0-1"
+
+["1-2.2"]
+SimpleNonlinearSolve = "0.1"
 
 ["1.0"]
 ArrayInterfaceCore = "0.1.1-0.1"
@@ -123,3 +125,6 @@ SciMLBase = "1.97.0-2"
 
 ["2.2-2"]
 SciMLBase = "2.4.0-2"
+
+["2.3-2"]
+SimpleNonlinearSolve = "0.1.22-0.1"
