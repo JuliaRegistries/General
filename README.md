@@ -113,8 +113,11 @@ documentation, tests, and continuous integration.
 
 Some types of packages should not be registered, or are not yet ready for registration:
 
-* The General registry is not a place for "personal packages" that consist of
-collections of "utility functions" nor for packages that are only useful for a closed group
+* The General registry is not a place for "personal packages" that are only
+useful for a few individuals, e.g. collections of "utility functions"
+or jokes (e.g. [StarWarsArrays.jl](https://github.com/giordano/StarWarsArrays.jl)). For this,
+one should advertise`]add <URL>` as a way to get their package.
+* Packages that are only useful for a closed group
 (like a research group or a company). For that, it is easy to set up your own registry using
 for example [LocalRegistry.jl](https://github.com/GunnarFarneback/LocalRegistry.jl). The
 [Pkg documentation about registries](https://pkgdocs.julialang.org/v1/registries/) might be useful
