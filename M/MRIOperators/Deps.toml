@@ -7,5 +7,12 @@ MRIBase = "f7771a9a-6e57-4e71-863b-6e4b6a2f17df"
 NFFT = "efe261a4-0d2b-5849-be55-fc731d526b0d"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-SparsityOperators = "a5ff1dd3-4e0a-50db-9022-6d011c1d5846"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0-0.1"]
+SparsityOperators = "a5ff1dd3-4e0a-50db-9022-6d011c1d5846"
+
+["0.2-0"]
+LinearOperatorCollection = "a4a2c56f-fead-462a-a3ab-85921a5f2575"
+LinearOperators = "5c8ed15e-5a4c-59e4-a42b-c7e8811fb125"
+Wavelets = "29a6e085-ba6d-5f35-a997-948ac2efa89a"
