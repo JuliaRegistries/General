@@ -46,11 +46,13 @@ ContinuumArrays = "0.13"
 QuasiArrays = "0.10"
 
 ["0.10-0"]
-DomainSets = "0.6"
 IntervalSets = "0.7"
 
 ["0.10-0.11.7"]
 FastGaussQuadrature = "0.5"
+
+["0.10-0.11.9"]
+DomainSets = "0.6"
 
 ["0.11-0"]
 QuasiArrays = "0.11"
@@ -60,6 +62,10 @@ ContinuumArrays = "0.14"
 
 ["0.11.1-0"]
 InfiniteArrays = "0.12.11-0.13"
+
+["0.11.10-0"]
+DomainSets = "0.6-0.7"
+FastTransforms = "0.15.10-0.15"
 
 ["0.11.2-0.11.3"]
 ContinuumArrays = "0.15"
@@ -341,7 +347,7 @@ FastTransforms = "0.15"
 ["0.7.5-0.11.2"]
 InfiniteLinearAlgebra = "0.6.16-0.6"
 
-["0.7.6-0"]
+["0.7.6-0.11.9"]
 FastTransforms = "0.15.2-0.15"
 
 ["0.7.6-0.7"]
