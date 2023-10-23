@@ -278,10 +278,15 @@ GeoTables = "1.9.0-1"
 MLJModelInterface = "1.9.0-1"
 ProgressMeter = "1.9.0-1"
 Rotations = "1.6.0-1"
-StatsBase = "0.34"
 TableTransforms = "1.16.0-1"
 Tables = "1.11.0-1"
 TypedTables = "1.4.0-1"
+
+["0.39.0"]
+StatsBase = "0.34"
+
+["0.39.1-0"]
+StatsBase = "0.33-0.34"
 
 ["0.4.1-0.8.2"]
 julia = "1"
