@@ -274,14 +274,14 @@ DistributedFactorGraphs = "0.18.4-0.18"
 ["0.3.8-0.3"]
 StatsBase = "0.0.0-0.33"
 
-["0.30-0"]
-Manifolds = "0.8.15-0.8"
-
 ["0.30-0.32"]
 ManifoldsBase = "0.13.12-0.13"
 
 ["0.30-0.32.1"]
 ApproxManifoldProducts = "0.6"
+
+["0.30-0.34"]
+Manifolds = "0.8.15-0.8"
 
 ["0.30.0"]
 RecursiveArrayTools = "2"
@@ -312,17 +312,21 @@ DistributedFactorGraphs = "0.20"
 
 ["0.33-0"]
 JSON3 = "1"
-ManifoldsBase = "0.13.12-0.14"
 StructTypes = "1"
 
-["0.34-0"]
+["0.33-0.34"]
+ManifoldsBase = "0.13.12-0.14"
+
+["0.34"]
 BlockArrays = "0.16"
+Manopt = "0.4.27-0.4"
+
+["0.34-0"]
 DelimitedFiles = "1"
 DistributedFactorGraphs = "0.23"
 FiniteDiff = "2"
 FiniteDifferences = "0.12"
 ManifoldDiff = "0.3"
-Manopt = "0.4.27-0.4"
 PrecompileTools = "1"
 SparseDiffTools = "2"
 StatsBase = "0.32-0.34"
@@ -334,6 +338,11 @@ Statistics = "1.9.0-1"
 
 ["0.34.1-0"]
 ApproxManifoldProducts = "0.7-0.8"
+
+["0.35-0"]
+Manifolds = "0.9"
+ManifoldsBase = "0.15"
+Manopt = "0.4.40-0.4"
 
 ["0.4"]
 KernelDensityEstimate = "0.4"
