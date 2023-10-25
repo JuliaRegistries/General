@@ -35,12 +35,14 @@ libcint_jll = ["3.0", "4.4"]
 
 ["0.2.2-0"]
 SpecialFunctions = "2"
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0.2.2-0.3"]
 SymbolicUtils = "0.19"
 Symbolics = "4"
+
+["0.2.2-0.5.7"]
+Statistics = "1.6.0-1"
 
 ["0.2.3-0.4.1"]
 QuadGK = "2.4.2-2"
@@ -60,7 +62,7 @@ Tullio = "0.3"
 ["0.4-0.5.3"]
 Optim = "1.7.0-1"
 
-["0.4.1-0"]
+["0.4.1-0.5.7"]
 TensorOperations = "3"
 
 ["0.4.2-0.5.2"]
@@ -69,9 +71,19 @@ FastGaussQuadrature = "0.4"
 ["0.5.2-0"]
 DoubleFloats = "1.2.0-1"
 
-["0.5.3-0"]
+["0.5.3-0.5.7"]
 FastGaussQuadrature = "0.5"
 
 ["0.5.4-0"]
 LBFGSB = "0.4"
+
+["0.5.4-0.5.7"]
 SPGBox = "0.5"
+
+["0.5.8-0"]
+FastGaussQuadrature = "1"
+LinearAlgebra = "1"
+Printf = "1"
+SPGBox = "0.7"
+Statistics = "1"
+TensorOperations = "4.0.5-4"
