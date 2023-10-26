@@ -11,10 +11,8 @@ StanRun = "0.0.0-0.2"
 StanSamples = "0.0.0-0.1"
 
 [0-4]
-julia = "1"
-
-["0-4.2.3"]
 DelimitedFiles = "1"
+julia = "1"
 
 ["1.0"]
 StanBase = "1"
@@ -148,12 +146,10 @@ StanSample = "6"
 
 ["4.2-4"]
 NamedTupleTools = "0.14"
+Statistics = "1"
 
 ["4.2-4.2.3"]
 DocStringExtensions = "0.8-0.9"
-
-["4.2-4.3.2"]
-Statistics = "1"
 
 ["4.2.1-4"]
 StanBase = "4.7.0-4"
