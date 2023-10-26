@@ -2,7 +2,6 @@
 DataStructures = "0.18"
 MathOptInterface = "1"
 MathOptSetDistances = "0.2"
-SCIP = "0.11"
 julia = "1.6.0-1"
 
 ["0-0.1.11"]
@@ -11,11 +10,21 @@ Distributions = "0.25"
 ["0-0.1.12"]
 Statistics = "1.6.0-1"
 
+["0-0.1.13"]
+SCIP = "0.11"
+
 ["0-0.1.7"]
 Bonobo = "0.1.2-0.1"
 
 ["0-0.1.8"]
 FrankWolfe = "0.2.11-0.2"
+
+["0.1.14-0"]
+Dates = "1.6.0-1"
+LinearAlgebra = "1.6.0-1"
+Printf = "1.6.0-1"
+Random = "1.6.0-1"
+Statistics = "1.6.0-1"
 
 ["0.1.2"]
 HiGHS = "1"
