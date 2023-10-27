@@ -122,7 +122,6 @@ DataStructures = "0.17-0.18"
 Distributions = "0.25"
 DocStringExtensions = "0.8-0.9"
 JSON = "0.20-0.21"
-Manifolds = "0.8"
 NLsolve = "4"
 ProgressMeter = "1"
 Reexport = "1"
@@ -141,6 +140,9 @@ ApproxManifoldProducts = "0.6"
 ImageCore = "0.8-0.9"
 ImageMagick = "1"
 Requires = "1"
+
+["0.13.2-0.16.0"]
+Manifolds = "0.8"
 
 ["0.13.3-0"]
 NearestNeighbors = "0.4"
@@ -186,10 +188,18 @@ DistributedFactorGraphs = "0.22-0.23"
 FixedPointNumbers = "0.8"
 ImageCore = "0.8-0.10"
 ImageDraw = "0.2"
-IncrementalInference = "0.33-0.34"
-RoME = "0.21-0.23"
 StatsBase = "0.33-0.34"
 julia = "1.9.0-1"
+
+["0.16.0"]
+IncrementalInference = "0.33-0.34"
+RoME = "0.21-0.23"
+
+["0.16.1-0"]
+IncrementalInference = "0.34-0.35"
+Manifolds = "0.8-0.9"
+PrecompileTools = "1"
+RoME = "0.23-0.24"
 
 ["0.2.1"]
 IncrementalInference = "0.4.3-0.4"
