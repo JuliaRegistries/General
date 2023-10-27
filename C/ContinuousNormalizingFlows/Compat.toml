@@ -1,5 +1,4 @@
 [0]
-AbstractDifferentiation = "0.5"
 ComputationalResources = "0.3"
 Distributions = "0.25"
 DistributionsAD = "0.6"
@@ -21,6 +20,9 @@ DifferentialEquations = "7"
 
 ["0-0.13"]
 MLJBase = "0.21"
+
+["0-0.14.0"]
+AbstractDifferentiation = "0.5"
 
 ["0-0.5"]
 DataFrames = "1.2.0-1"
@@ -52,16 +54,24 @@ PackageExtensionCompat = "1"
 ["0.10.1-0"]
 Preferences = "1"
 
-["0.11-0"]
+["0.11-0.14.0"]
 ADTypes = "0.1-0.2"
 Optimisers = "0.2-0.3"
 
-["0.13-0"]
+["0.13-0.14.0"]
 ComponentArrays = "0.14-0.15"
 
-["0.14-0"]
+["0.14.0"]
 MLJBase = ["0.21", "1"]
 SciMLBase = "1-2"
+
+["0.14.1-0"]
+ADTypes = "0.2"
+AbstractDifferentiation = "0.6"
+ComponentArrays = "0.15"
+MLJBase = "1"
+Optimisers = "0.3"
+SciMLBase = "2"
 
 ["0.6-0"]
 DataFrames = "1"
