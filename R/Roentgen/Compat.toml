@@ -1,6 +1,5 @@
 [0]
 Adapt = "3"
-CUDA = "4"
 CoordinateTransformations = "0.6"
 DICOM = "0.10"
 DelimitedFiles = "1"
@@ -10,7 +9,6 @@ Interpolations = "0.14"
 JLD2 = "0.4"
 JSON = "0.21"
 MeshIO = "0.4"
-Meshes = "0.34"
 NRRD = "0.6"
 Optim = "1"
 Polyester = "0.7"
@@ -20,3 +18,11 @@ Rotations = "1"
 StaticArrays = "1"
 WriteVTK = "1"
 julia = "1.8.0-1"
+
+["0-0.13.3"]
+CUDA = "4"
+Meshes = "0.34"
+
+["0.13.4-0"]
+CUDA = "4-5"
+Meshes = "0.34-0.35"
