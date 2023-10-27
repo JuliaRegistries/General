@@ -1,15 +1,17 @@
 [0]
 Distributions = "0.25"
-IrrationalConstants = "0.1"
 Reexport = "1"
-Statistics = "1.6.0-1"
-julia = "1.6.0-1"
 
 ["0-0.1"]
 SpecialFunctions = "1"
 
 ["0-0.2"]
 FillArrays = "0.12"
+
+["0-0.4.16"]
+IrrationalConstants = "0.1"
+Statistics = "1.6.0-1"
+julia = "1.6.0-1"
 
 ["0-0.4.5"]
 GPLikelihoods = "0.2"
@@ -53,10 +55,18 @@ MeasureBase = "0.9-0.12"
 ["0.4.15-0"]
 TupleVectors = "0.1-0.2"
 
-["0.4.16-0"]
-ArraysOfArrays = "0.5-0.6"
+["0.4.16"]
 MeasureBase = "0.9-0.13"
 MeasureTheory = "0.14-0.17"
+
+["0.4.16-0"]
+ArraysOfArrays = "0.5-0.6"
+
+["0.4.17-0"]
+IrrationalConstants = "0.1-0.2"
+MeasureBase = "0.13-0.14"
+MeasureTheory = "0.16-0.18"
+julia = "1.8.0-1"
 
 ["0.4.5-0"]
 ChainRulesCore = "1"
