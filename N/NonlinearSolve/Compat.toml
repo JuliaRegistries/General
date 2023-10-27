@@ -106,8 +106,10 @@ SparseDiffTools = "1-2"
 EnumX = "1"
 
 ["1.7-2"]
-LinearSolve = "2"
 PrecompileTools = "1"
+
+["1.7-2.4"]
+LinearSolve = "2"
 
 ["1.8-1.10.0"]
 SciMLBase = "1.92.4-1"
@@ -131,3 +133,6 @@ SimpleNonlinearSolve = "0.1.22-0.1"
 
 ["2.4-2"]
 SimpleNonlinearSolve = "0.1.23-0.1"
+
+["2.5-2"]
+LinearSolve = "2.12.0-2"
