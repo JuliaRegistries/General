@@ -3,7 +3,6 @@ CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 GeoStatsBase = "323cb8eb-fbf6-51c0-afd0-f8fba70507b2"
 ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
-KrigingEstimators = "d293930c-a38c-56c5-8ebb-12008647b47a"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"
 MultivariateStats = "6f286f6a-111f-5878-ab1e-185364afe411"
@@ -24,8 +23,15 @@ LossFunctions = "30fc2ffe-d236-52d8-8643-a9d8f7c094a7"
 ["0-0.1.4"]
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 
+["0-0.3"]
+KrigingEstimators = "d293930c-a38c-56c5-8ebb-12008647b47a"
+
 ["0.1.5-0"]
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 
 ["0.3.0"]
 TiledIteration = "06e1c1a7-607b-532d-9fad-de7d9aa2abac"
+
+["0.4-0"]
+GeoStatsModels = "ad987403-13c5-47b5-afee-0a48f6ac4f12"
+GeoTables = "e502b557-6362-48c1-8219-d30d308dcdb0"
