@@ -1,6 +1,4 @@
 [0]
-DataFrames = ["0.14-0.22", "1"]
-Parameters = "0.10-0.12"
 PyFortran90Namelists = "0.1"
 ReadableRegex = "0.1-0.3"
 VersionParsing = "1"
@@ -17,6 +15,10 @@ AbInitioSoftwareBase = "0.2-0.3"
 
 ["0-0.3.9"]
 Compat = "2.1.0-3"
+
+["0-0.4"]
+DataFrames = ["0.14-0.22", "1"]
+Parameters = "0.10-0.12"
 
 ["0.1.1-0.3.2"]
 Crystallography = "0.3"
@@ -39,13 +41,13 @@ QuantumESPRESSOBase = "0.3-0.4"
 ["0.3.1"]
 AbInitioSoftwareBase = "0.2-0.7"
 
-["0.3.10-0"]
+["0.3.10-0.4"]
 Compat = "2.1.0-4"
 
 ["0.3.11"]
 QuantumESPRESSOBase = "0.3-0.8"
 
-["0.3.11-0"]
+["0.3.11-0.4"]
 Crystallography = "0.3-0.6"
 
 ["0.3.12"]
@@ -75,6 +77,13 @@ QuantumESPRESSOBase = "0.3-0.7"
 ["0.3.8-0.3.10"]
 Crystallography = "0.3-0.5"
 
+["0.4"]
+QuantumESPRESSOBase = "0.10-0.11"
+
 ["0.4-0"]
 AbInitioSoftwareBase = "0.10"
-QuantumESPRESSOBase = "0.10-0.11"
+
+["0.5-0"]
+CrystallographyBase = "0.14"
+Dates = "1"
+QuantumESPRESSOBase = "0.12"
