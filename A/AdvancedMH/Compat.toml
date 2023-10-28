@@ -37,7 +37,7 @@ Distributions = "0.20-0.24"
 ["0.5.8-0.6.6"]
 AbstractMCMC = "2-3"
 
-["0.5.9-0"]
+["0.5.9-0.7"]
 Distributions = "0.20-0.25"
 
 ["0.6.7-0.6"]
@@ -53,7 +53,13 @@ AbstractMCMC = "4"
 ["0.7.5-0"]
 FillArrays = "1"
 
-["0.7.6-0"]
+["0.7.6-0.7"]
 AbstractMCMC = "4-5"
 LinearAlgebra = "1.6-1.11"
 Random = "1.6-1.11"
+
+["0.8-0"]
+AbstractMCMC = "5"
+Distributions = "0.25"
+LinearAlgebra = "1.6.0-1"
+Random = "1.6.0-1"
