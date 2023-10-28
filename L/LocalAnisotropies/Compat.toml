@@ -46,12 +46,14 @@ ReferenceFrameRotations = "1"
 
 ["0.1.4-0"]
 StaticArrays = "1.2.0-1"
-Tables = "1.5.0-1"
 WriteVTK = "1.10.0-1"
-julia = "1.5.0-1"
 
 ["0.1.4-0.1"]
 Meshes = "0.17"
+
+["0.1.4-0.3"]
+Tables = "1.5.0-1"
+julia = "1.5.0-1"
 
 ["0.1.5-0"]
 Graphs = "1.4.0-1"
@@ -91,13 +93,15 @@ KrigingEstimators = "0.8-0.9"
 Meshes = "0.21-0.22"
 Setfield = ["0.7-0.8", "1"]
 
+["0.3"]
+KrigingEstimators = "0.10"
+Variography = "0.15"
+
 ["0.3-0"]
 CSV = "0.10"
-KrigingEstimators = "0.10"
 MultivariateStats = "0.10"
 ReferenceFrameRotations = "3"
 Setfield = "1"
-Variography = "0.15"
 
 ["0.3-0.3.1"]
 StatsBase = "0.33"
@@ -116,6 +120,17 @@ Meshes = "0.26-0.27"
 ImageFiltering = "0.7"
 
 ["0.3.2-0"]
+StatsBase = "0.33-0.34"
+
+["0.3.2-0.3"]
 GeoStatsBase = "0.29-0.31"
 Meshes = "0.26-0.31"
-StatsBase = "0.33-0.34"
+
+["0.4-0"]
+GeoStatsBase = "0.39"
+GeoStatsModels = "0.1"
+GeoTables = "1.8.0-1"
+Meshes = "0.35"
+Tables = "1.10.0-1"
+Variography = "0.19"
+julia = "1.9.0-1"
