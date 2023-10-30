@@ -13,7 +13,7 @@ Interpolations = "0.13"
 ["0.10.0"]
 FastGaussQuadrature = "0.4"
 
-["0.10.1-0"]
+["0.10.1-0.24"]
 FastGaussQuadrature = "0.4-0.5"
 
 ["0.14-0"]
@@ -40,6 +40,14 @@ DSP = "0.7"
 
 ["0.23.1-0"]
 HDF5 = "0.15-0.17"
+
+["0.25-0"]
+Downloads = "1"
+FastGaussQuadrature = ["0.4-0.5", "1"]
+LinearAlgebra = "1.7-1"
+SparseArrays = "1.7-1"
+Statistics = "1"
+Trapz = "2"
 
 ["0.3-0.7.0"]
 CSV = "0.8-0.9"
