@@ -117,13 +117,15 @@ SciMLBase = "1.92.4-1"
 [2]
 ADTypes = "0.2"
 ConcreteStructs = "0.2"
-DiffEqBase = "6.130.0-6"
 LineSearches = "7"
-SparseDiffTools = "2.6.0-2"
 julia = "1.9.0-1"
 
 ["2-2.1"]
 SciMLBase = "1.97.0-2"
+
+["2-2.5"]
+DiffEqBase = "6.130.0-6"
+SparseDiffTools = "2.6.0-2"
 
 ["2.2-2"]
 SciMLBase = "2.4.0-2"
@@ -136,3 +138,10 @@ SimpleNonlinearSolve = "0.1.23-0.1"
 
 ["2.5-2"]
 LinearSolve = "2.12.0-2"
+
+["2.6-2"]
+DiffEqBase = "6.136.0-6"
+FastBroadcast = "0.1.9-0.2"
+LinearAlgebra = "1.6.0-1"
+SparseArrays = "1.6.0-1"
+SparseDiffTools = "2.9.0-2"
