@@ -1,5 +1,4 @@
 [0]
-CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
@@ -17,6 +16,12 @@ MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
 ["0-0.6"]
 FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+["0-0.9"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+
+["0.10-0"]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 
 ["0.7-0.8"]
 CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
