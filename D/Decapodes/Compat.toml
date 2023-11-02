@@ -28,7 +28,16 @@ julia = "1.8.0-1"
 DataStructures = "0.18.13-0.18"
 
 ["0.3-0"]
+julia = "1.9.0-1"
+
+["0.3-0.4"]
 AlgebraicRewriting = "0.2"
 Catlab = "0.15"
 CombinatorialSpaces = "0.5"
-julia = "1.9.0-1"
+
+["0.5-0"]
+Artifacts = "1"
+Catlab = "0.15-0.16"
+CombinatorialSpaces = "0.5-0.6"
+LinearAlgebra = "1.9.0-1"
+Unicode = "1.9.0-1"

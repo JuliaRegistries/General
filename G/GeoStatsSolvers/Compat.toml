@@ -3,7 +3,6 @@ CpuId = "0.3"
 Distances = "0.10"
 Distributions = "0.25"
 FFTW = "1.5.0-1"
-MLJModelInterface = "1.6.0-1"
 Tables = "1.7.0-1"
 
 ["0-0.1.1"]
@@ -26,6 +25,9 @@ Variography = "0.15"
 
 ["0-0.3"]
 NearestNeighbors = "0.4"
+
+["0-0.7.5"]
+MLJModelInterface = "1.6.0-1"
 
 ["0.1.2-0"]
 Bessels = "0.2"
@@ -119,7 +121,6 @@ GeoStatsBase = "0.35"
 GeoTables = "1.6.0-1"
 
 ["0.7-0"]
-GeoStatsModels = "0.1"
 Variography = "0.19"
 
 ["0.7-0.7.2"]
@@ -128,9 +129,25 @@ GeoStatsBase = "0.36"
 ["0.7-0.7.3"]
 GeoTables = "1.7.0-1"
 
+["0.7-0.7.7"]
+GeoStatsModels = "0.1"
+
 ["0.7.3"]
 GeoStatsBase = "0.37"
 
-["0.7.4-0"]
+["0.7.4"]
 GeoStatsBase = "0.38"
+
+["0.7.4-0"]
 GeoTables = "1.8.0-1"
+
+["0.7.5-0"]
+GeoStatsBase = "0.39"
+
+["0.7.6-0"]
+StatsLearnModels = "0.2"
+
+["0.7.8-0"]
+GeoStatsModels = "0.2"
+LinearAlgebra = "1.9.0-1"
+Random = "1.9.0-1"

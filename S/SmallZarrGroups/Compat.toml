@@ -5,17 +5,21 @@ Blosc_jll = "1.21.0-1"
 CodecZlib = "0.7"
 DataStructures = "0.18"
 JSON3 = "1"
+StructArrays = "0.6"
+julia = "1.8.0-1"
+
+["0-0.6"]
 StaticArraysCore = "1"
 StaticStrings = "0.2"
-StructArrays = "0.6"
-TranscodingStreams = "0.9"
-julia = "1.8.0-1"
 
 ["0-0.6.0"]
 ZipFile = "0.10"
 
 ["0-0.6.3"]
 CodecBzip2 = "0.7"
+
+["0-0.6.5"]
+TranscodingStreams = "0.9"
 
 ["0.6.1"]
 ZipArchives = "0.3"
@@ -26,8 +30,14 @@ ZipArchives = "0.3-0.4"
 ["0.6.3-0.6.4"]
 ZipArchives = "0.3-0.5"
 
-["0.6.4-0"]
+["0.6.4-0.6"]
 CodecBzip2 = "0.7-0.8"
 
 ["0.6.5-0"]
 ZipArchives = ["0.3-0.5", "1"]
+
+["0.6.6-0"]
+TranscodingStreams = "0.9-0.10"
+
+["0.7-0"]
+Base64 = "1.8.0-1"

@@ -26,11 +26,16 @@ Functors = "0.2"
 ["0.10-0"]
 UnitfulEquivalences = "0.2"
 
-["0.10.1-0"]
+["0.10.1-0.11"]
 ChemicalFormula = "0.2-0.3"
 
 ["0.11-0"]
 AbInitioSoftwareBase = "0.10"
+
+["0.12-0"]
+Accessors = "0.1"
+CrystallographyBase = "0.14"
+CrystallographyCore = "0.5-0.6"
 
 ["0.3.1"]
 AbInitioSoftwareBase = "0.2-0.5"
@@ -71,7 +76,7 @@ Crystallography = "0.3-0.5"
 ["0.7.3-0"]
 OrderedCollections = "1"
 
-["0.7.6-0"]
+["0.7.6-0.11"]
 Setfield = ["0.3-0.8", "1"]
 
 ["0.7.6-0.7"]
@@ -80,16 +85,18 @@ Compat = "3.14.0-4"
 ["0.7.7"]
 Functors = "0.2-0.3"
 
-["0.7.7-0"]
+["0.7.7-0.11"]
 Spglib = "0.2-0.6"
 
 ["0.7.8-0.8"]
 Functors = "0.2-0.4"
 
 ["0.8-0"]
-CrystallographyBase = "0.9-0.10"
 StructEquality = "2"
 julia = "1.6.0-1"
+
+["0.8-0.11"]
+CrystallographyBase = "0.9-0.10"
 
 ["0.9-0.10.0"]
 ChemicalFormula = "0.2"
