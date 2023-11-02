@@ -1,6 +1,4 @@
 [0]
-ClimaCore = "0.10"
-JLD2 = "0.4"
 julia = "1.7.0-1"
 
 ["0-0.1"]
@@ -11,6 +9,10 @@ Thermodynamics = "0.8"
 ["0-0.14"]
 ClimaCorePlots = "0.2"
 ClimaCoreVTK = "0.6-0.7"
+
+["0-0.16.2"]
+ClimaCore = "0.10"
+JLD2 = "0.4"
 
 ["0-0.2"]
 IntervalSets = "0.5-0.6"
@@ -25,12 +27,8 @@ UnPack = "1"
 
 ["0.10-0"]
 ArtifactWrappers = "0.2"
-CLIMAParameters = "0.7"
-ClimaTimeSteppers = "0.7"
 ImageFiltering = "0.7"
 Interpolations = "0.14"
-NCDatasets = "0.11-0.12"
-TerminalLoggers = "0.1"
 YAML = "0.4"
 
 ["0.10-0.11"]
@@ -43,6 +41,12 @@ RRTMGP = "0.7-0.8"
 CloudMicrophysics = "0.10"
 DiffEqBase = "6"
 SurfaceFluxes = "0.6"
+
+["0.10-0.16.2"]
+CLIMAParameters = "0.7"
+ClimaTimeSteppers = "0.7"
+NCDatasets = "0.11-0.12"
+TerminalLoggers = "0.1"
 
 ["0.11-0"]
 ArgParse = "1"
@@ -65,7 +69,7 @@ Krylov = "0.9.1-0.9"
 ["0.14-0.15.6"]
 CUDA = "4"
 
-["0.15.2-0"]
+["0.15.2-0.16.2"]
 ClimaComms = "0.5"
 RRTMGP = "0.9"
 
@@ -73,23 +77,46 @@ RRTMGP = "0.9"
 CUDA = "3-4"
 
 ["0.16-0"]
-CUDA = "4"
 Pkg = "1.8.0-1"
+
+["0.16-0.16.2"]
+CUDA = "4"
 
 ["0.16.1"]
 SciMLBase = "1"
 
 ["0.16.1-0"]
-CloudMicrophysics = "0.14"
 RootSolvers = "0.2-0.4"
-SurfaceFluxes = "0.7"
 Thermodynamics = "0.11"
+
+["0.16.1-0.16.2"]
+CloudMicrophysics = "0.14"
+SurfaceFluxes = "0.7"
 
 ["0.16.2-0"]
 DiffEqBase = "6"
 Krylov = "0.9"
 SciMLBase = "1-2"
 StatsBase = "0.33-0.34"
+
+["0.16.3-0"]
+Artifacts = "1"
+CLIMAParameters = "0.7.24-0.7"
+ClimaComms = "0.5.5-0.5"
+ClimaCore = "0.10.55-0.10"
+ClimaTimeSteppers = "0.7.14-0.7"
+CloudMicrophysics = "0.15"
+Dates = "1"
+FastGaussQuadrature = ["0.4-0.5", "1"]
+LinearAlgebra = "1"
+Logging = "1"
+NCDatasets = "0.0.0-0.12"
+Printf = "1"
+RRTMGP = "0.9.2-0.9"
+Random = "1"
+Statistics = "1"
+SurfaceFluxes = "0.8"
+Test = "1"
 
 ["0.2-0.11"]
 Insolation = "0.3"
@@ -105,13 +132,15 @@ StochasticDiffEq = "6.41.0-6"
 
 ["0.3-0"]
 Dierckx = "0.5"
-Distributions = "0.25"
 DocStringExtensions = "0.8-0.9"
 IntervalSets = "0.5-0.7"
-LambertW = "0.4"
 
 ["0.3-0.16.1"]
 StatsBase = "0.33"
+
+["0.3-0.16.2"]
+Distributions = "0.25"
+LambertW = "0.4"
 
 ["0.3-0.6"]
 FastGaussQuadrature = "0.4"
@@ -138,12 +167,14 @@ RRTMGP = "0.6"
 
 ["0.7-0"]
 DiffEqCallbacks = "2"
-FastGaussQuadrature = "0.4-0.5"
-OrdinaryDiffEq = "5-6"
 StaticArrays = "1"
 
 ["0.7-0.16.0"]
 Thermodynamics = "0.10"
+
+["0.7-0.16.2"]
+FastGaussQuadrature = "0.4-0.5"
+OrdinaryDiffEq = "5-6"
 
 ["0.9"]
 SurfaceFluxes = "0.5"
