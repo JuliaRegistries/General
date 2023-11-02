@@ -151,11 +151,20 @@ ControlSystemsBase = "1"
 StatsBase = ["0.29-0.30", "0.32-0.34"]
 
 ["3.3.9-3"]
-NonlinearSolve = "1"
 SeeToDee = "1"
+
+["3.3.9-3.6.0"]
+NonlinearSolve = "1"
 
 ["3.4.1-3"]
 DelimitedFiles = "1"
 
 ["3.6-3"]
 SciMLBase = "1.29.0-2"
+
+["3.6.1-3"]
+LinearAlgebra = "1.7.0-1"
+NonlinearSolve = "1-2"
+Printf = "1.7.0-1"
+Random = "1.7.0-1"
+Statistics = "1.7.0-1"

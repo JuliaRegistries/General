@@ -24,14 +24,20 @@ SimpleWorkflows = ["0.16", "0.23-0.25"]
 ["0.4.5"]
 SimpleWorkflows = ["0.16", "0.23-0.26"]
 
-["0.4.6-0"]
+["0.4.6-0.6"]
 SimpleWorkflows = ["0.16", "0.23-0.27"]
+
+["0.6"]
+Thinkers = "0.3"
 
 ["0.6-0"]
 AbInitioSoftwareBase = "0.10"
 Configurations = "0.17"
 Formatting = "0.4"
 Pseudopotentials = "0.8"
-Thinkers = "0.3"
 Unitful = "1"
 UnitfulAtomic = "1"
+
+["0.7-0"]
+SimpleWorkflows = "0.29"
+Thinkers = "0.3-0.4"

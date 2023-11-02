@@ -256,7 +256,7 @@ GeoSimulation = "0.8"
 GeoStatsBase = "0.26"
 KrigingEstimators = "0.9"
 
-["0.32-0"]
+["0.32-0.45"]
 ScientificTypes = "3"
 
 ["0.33"]
@@ -381,10 +381,12 @@ GeoTables = "1.5.0-1"
 GeoStatsBase = "0.35"
 GeoTables = "1.6.0-1"
 
+["0.45"]
+GeoStatsTransforms = "0.1"
+
 ["0.45-0"]
 GeoStatsModels = "0.1"
 GeoStatsSolvers = "0.7"
-GeoStatsTransforms = "0.1"
 Variography = "0.19"
 
 ["0.45-0.45.2"]
@@ -397,11 +399,20 @@ GeoStatsBase = "0.36"
 GeoStatsBase = "0.37"
 
 ["0.45.3-0"]
-GeoStatsBase = "0.38"
 GeoTables = "1.8.0-1"
+
+["0.45.3-0.45"]
+GeoStatsBase = "0.38"
 
 ["0.45.4-0"]
 StatsLearnModels = "0.2"
+
+["0.46-0"]
+CoDa = "1.2.0-1"
+DataScienceTraits = "0.1"
+GeoStatsBase = "0.39"
+GeoStatsTransforms = "0.2"
+Statistics = "1.9.0-1"
 
 ["0.7.2-0.7"]
 GeoStatsBase = "0.2.5-0.5"
