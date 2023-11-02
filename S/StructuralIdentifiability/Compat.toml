@@ -91,13 +91,25 @@ Nemo = "0.24-0.32"
 AbstractAlgebra = ["0.13", "0.18-0.30"]
 Nemo = "0.24-0.34"
 
-["0.4.11-0"]
+["0.4.11"]
 AbstractAlgebra = ["0.13", "0.18-0.32"]
-Combinatorics = "1"
 Groebner = "0.4"
 Nemo = "0.24-0.36"
 ParamPunPam = "0.1"
+
+["0.4.11-0"]
+Combinatorics = "1"
 PrecompileTools = "1"
+
+["0.4.12-0"]
+AbstractAlgebra = ["0.13", "0.18-0.33"]
+Dates = "1.6.0-1"
+Groebner = "0.4-0.5"
+LinearAlgebra = "1.6.0-1"
+Logging = "1.6.0-1"
+Nemo = "0.24-0.37"
+ParamPunPam = "0.2"
+Random = "1.6.0-1"
 
 ["0.4.2"]
 Hecke = "0.14-0.15"
