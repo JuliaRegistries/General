@@ -5,14 +5,11 @@ FillArrays = "1.6.0-1"
 ForwardDiff = "0.10"
 HCubature = "1.5.0-1"
 HypergeometricFunctions = "0.3"
-IntervalSets = "0.7"
-IrrationalConstants = "0.2"
 LogExpFunctions = "0.3"
 LoopVectorization = "0.12"
 PositiveFactorizations = "0.2"
 SpecialFunctions = "2"
 StaticArrays = "1"
-StatsFuns = "1"
 TinyHugeNumbers = "1"
 julia = "1.9.0-1"
 
@@ -20,13 +17,26 @@ julia = "1.9.0-1"
 DomainSets = "0.6"
 StatsBase = "0.33"
 
+["1-1.2.0"]
+IntervalSets = "0.7"
+IrrationalConstants = "0.2"
+StatsFuns = "1"
+
 ["1.0"]
 BlockArrays = "0.16"
 
 ["1.2-1"]
 BayesBase = "1.1.0-1"
-DomainSets = "0.7"
 LinearAlgebra = "1.9.0-1"
 Random = "1.9.0-1"
 SparseArrays = "1.9.0-1"
 StatsBase = "0.34"
+
+["1.2.0"]
+DomainSets = "0.7"
+
+["1.2.1-1"]
+DomainSets = "0.5.2-0.7"
+IntervalSets = "0.6-0.7"
+IrrationalConstants = "0.1-0.2"
+StatsFuns = ["0.9", "1"]
