@@ -23,17 +23,17 @@ julia = "1"
 Distributions = "0.0.0-0.23"
 StatsBase = "0.0.0-0.33"
 
-["2.2-2"]
+["2.2-2.3"]
 StatsModels = "0.6"
 
 ["2.2.0"]
 DataFrames = "0.19.0-0.21"
 
-["2.2.1-2"]
-StatsBase = "0.33"
-
 ["2.2.1-2.2"]
 Distributions = "0.23"
+
+["2.2.1-2.3"]
+StatsBase = "0.33"
 
 ["2.2.1-2.3.1"]
 DataFrames = "0.19-0.22"
@@ -46,3 +46,8 @@ DataFrames = ["0.19-0.22", "1"]
 
 ["2.3.3-2"]
 Distributions = "0.23-0.25"
+
+["2.4-2"]
+Random = ["0.0.0", "1"]
+StatsBase = "0.33-0.34"
+StatsModels = "0.6-0.7"
