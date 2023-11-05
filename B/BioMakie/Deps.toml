@@ -7,7 +7,6 @@ Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
 GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
-JSServe = "824d6782-a2ef-11e9-3a09-e5662e0c26f9"
 MIToS = "51bafb47-8a16-5ded-8b04-24ef4eede0b5"
 SplitApplyCombine = "03a91e81-4c3e-53e1-a0a4-9c0c8f19dd66"
 TableTraitsUtils = "382cd787-c1b6-5bf2-a167-d5b971a19bda"
@@ -24,6 +23,9 @@ MakieLayout = "5a521ce4-ebb9-4793-b5b7-b334dfe8393c"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 WGLMakie = "276b4fcb-3e11-5398-bf8b-a0c2d153d008"
 
+["0-0.2"]
+JSServe = "824d6782-a2ef-11e9-3a09-e5662e0c26f9"
+
 ["0-0.2.0"]
 AbstractPlotting = "537997a7-5e4e-5d89-9595-2241ea00577e"
 BioSequences = "7e6ae17a-c86d-528c-b3b9-7f778a29fe59"
@@ -31,13 +33,15 @@ ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
 GLFW = "f7f18e0c-5ee9-5ccd-a5bf-e8befd85ed98"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 
+["0.2"]
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
 ["0.2-0"]
 FastaIO = "a0c94c4b-ebed-5953-b5fc-82fe598ac79f"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 Hyperscript = "47d2ed2b-36de-50cf-bf87-49c2cf4b8b91"
-Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 ["0.2-0.2.1"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
@@ -70,16 +74,18 @@ PkgDeps = "839e9fc8-855b-5b3c-a3b7-2833d3dd1f59"
 
 ["0.2.2-0"]
 BioAlignments = "00701ae9-d1dc-5365-b64a-a3a3ebf5695e"
-BioSequences = "7e6ae17a-c86d-528c-b3b9-7f778a29fe59"
 ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
 ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 GLFW = "f7f18e0c-5ee9-5ccd-a5bf-e8befd85ed98"
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
 NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
 PairwiseListMatrices = "f9da4da7-9382-5435-b973-175f5d8dfb32"
+
+["0.2.2-0.2"]
+BioSequences = "7e6ae17a-c86d-528c-b3b9-7f778a29fe59"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 WGLMakie = "276b4fcb-3e11-5398-bf8b-a0c2d153d008"
 
 ["0.2.3-0"]
