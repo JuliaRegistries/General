@@ -22,8 +22,10 @@ AbstractFFTs = ["0.4-0.5", "1"]
 MacroTools = "0.5"
 TimerOutputs = "0.5"
 
-[0-5]
+[0-4]
 CEnum = "0.2-0.4"
+
+[0-5]
 ExprTools = "0.1"
 Reexport = ["0.2", "1"]
 Requires = ["0.5", "1"]
@@ -275,12 +277,30 @@ GPUCompiler = "0.21"
 LLVM = "6"
 
 [5]
-CUDA_Driver_jll = "0.6"
-CUDA_Runtime_jll = "0.9"
 Crayons = "4"
 DataFrames = "1"
 GPUArrays = "9"
-GPUCompiler = "0.24"
 NVTX = "0.3.2-0.3"
 PrettyTables = "2"
 julia = "1.8.0-1"
+
+["5.0"]
+CEnum = "0.2-0.4"
+CUDA_Driver_jll = "0.6"
+CUDA_Runtime_jll = "0.9"
+GPUCompiler = "0.24"
+
+["5.1-5"]
+CEnum = "0.2-0.5"
+CUDA_Driver_jll = "0.7"
+CUDA_Runtime_jll = "0.10"
+GPUCompiler = "0.24-0.25"
+LLVMLoopInfo = "1"
+LazyArtifacts = "1"
+Libdl = "1"
+LinearAlgebra = "1"
+Logging = "1"
+Printf = "1"
+Random = "1"
+SparseArrays = "1"
+Statistics = "1"
