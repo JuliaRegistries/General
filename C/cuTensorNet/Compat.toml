@@ -23,5 +23,12 @@ CUDA = "4.4"
 cuTENSOR = "1.0-1.1"
 
 ["1.1-1"]
-CUDA = "5.0"
 cuTENSOR = "1.0-1.2"
+
+["1.1.0"]
+CUDA = "5.0"
+
+["1.1.1-1"]
+CUDA = "5.1"
+CUDA_Runtime_Discovery = "0.2"
+LinearAlgebra = "1"
