@@ -39,9 +39,7 @@ DocStringExtensions = "0.8-0.9"
 Flux = "0.12-0.13"
 
 ["0.2.5-0"]
-Flux = "0.13"
 ForwardDiff = "0.10"
-Lux = "0.4"
 Optimization = "3"
 OptimizationFlux = "0.1"
 OptimizationOptimJL = "0.1"
@@ -49,12 +47,26 @@ OptimizationPolyalgorithms = "0.1"
 Zygote = "0.6"
 ZygoteRules = "0.2"
 
+["0.2.5-0.2.8"]
+Flux = "0.13"
+Lux = "0.4"
+
 ["0.2.6-0"]
-CUDA = "3-4"
 IterTools = "1"
 
-["0.2.7-0"]
+["0.2.6-0.2.8"]
+CUDA = "3-4"
+
+["0.2.7-0.2.8"]
 ComponentArrays = "0.13"
 
 ["0.2.8-0"]
 ProgressLogging = "0.1"
+
+["0.2.9-0"]
+CUDA = "3-5"
+ComponentArrays = "0.13-0.15"
+Flux = "0.13-0.14"
+LinearAlgebra = ["0.0.0", "1"]
+Lux = "0.4-0.5"
+Random = ["0.0.0", "1"]
