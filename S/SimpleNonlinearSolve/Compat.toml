@@ -1,8 +1,6 @@
 [0]
 FiniteDiff = "2"
 ForwardDiff = "0.10.3-0.10"
-Reexport = ["0.2", "1"]
-julia = "1.6.0-1"
 
 ["0-0.1.0"]
 RecursiveArrayTools = "2"
@@ -16,6 +14,10 @@ ArrayInterfaceCore = "0.1.1-0.1"
 ["0-0.1.19"]
 SciMLBase = "1.73.0-1"
 
+["0-0.1.24"]
+Reexport = ["0.2", "1"]
+julia = "1.6.0-1"
+
 ["0.1.1-0"]
 StaticArraysCore = "1.4.0-1"
 
@@ -25,7 +27,7 @@ SnoopPrecompile = "1"
 ["0.1.11-0.1.16"]
 Requires = "1"
 
-["0.1.12-0"]
+["0.1.12-0.1.24"]
 ArrayInterface = "6-7"
 
 ["0.1.13-0.1.14"]
@@ -39,13 +41,22 @@ DiffEqBase = "6.123.0-6"
 
 ["0.1.17-0"]
 DiffEqBase = "6.126.0-6"
+
+["0.1.17-0.1.24"]
 PackageExtensionCompat = "1"
 
-["0.1.20-0"]
+["0.1.20-0.1.24"]
 SciMLBase = "1.73.0-2"
 
-["0.1.24-0"]
+["0.1.24"]
 LinearAlgebra = "1.6.0-1"
+
+["0.1.25-0"]
+ArrayInterface = "7"
+LinearAlgebra = "1.9.0-1"
+Reexport = "1"
+SciMLBase = "2.7.0-2"
+julia = "1.9.0-1"
 
 ["0.1.6-0.1.12"]
 DiffEqBase = "6.114.0-6"
