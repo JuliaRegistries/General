@@ -233,13 +233,13 @@ FastClosures = "0.3"
 ["5.42.4-6"]
 DataStructures = "0.18"
 
-["5.46-6"]
+["5.46-6.58"]
 StaticArrays = ["0.11-0.12", "1"]
 
-["5.47-6"]
+["5.47-6.58"]
 Reexport = ["0.2", "1"]
 
-["5.48-6"]
+["5.48-6.58"]
 Adapt = "1.1.0-3"
 
 ["5.5-5.6"]
@@ -288,7 +288,7 @@ DiffEqBase = "6.75.0-6.84"
 ["5.66-6.10"]
 PreallocationTools = "0.2"
 
-["5.69-6"]
+["5.69-6.58"]
 julia = "1.6.0-1"
 
 ["5.7"]
@@ -343,22 +343,22 @@ ArrayInterfaceStaticArrays = "0.1"
 ["6.13"]
 SciMLBase = "1.34.0-1"
 
-["6.13.1-6"]
+["6.13.1-6.58"]
 DocStringExtensions = "0.8-0.9"
 
 ["6.14-6.19.0"]
 SciMLBase = "1.35.1-1"
 
-["6.15-6"]
-FastBroadcast = "0.1.9-0.2"
-
 ["6.15-6.25"]
 DiffEqBase = "6.81.3-6.108"
+
+["6.15-6.58"]
+FastBroadcast = "0.1.9-0.2"
 
 ["6.17-6.44"]
 ArrayInterfaceGPUArrays = "0.1-0.2"
 
-["6.18-6"]
+["6.18-6.58"]
 PreallocationTools = "0.2-0.4"
 
 ["6.19.1-6.21"]
@@ -417,7 +417,7 @@ SimpleNonlinearSolve = "0.1.4-0.1"
 ["6.36-6.56"]
 NonlinearSolve = "1.1.0-1"
 
-["6.37-6"]
+["6.37-6.58"]
 Polyester = "0.3-0.7"
 
 ["6.41-6"]
@@ -429,7 +429,7 @@ SciMLBase = "1.83.0-1"
 ["6.44.1-6.49.0"]
 DiffEqBase = "6.116.0-6"
 
-["6.45-6"]
+["6.45-6.58"]
 ArrayInterface = "6-7"
 
 ["6.46-6"]
@@ -482,27 +482,48 @@ LinearSolve = "2.1.10-2"
 ["6.53.1"]
 SciMLOperators = "0.2.12-0.2"
 
-["6.53.2-6"]
+["6.53.2-6.58"]
 SciMLOperators = "0.2.12-0.3"
 
 ["6.54-6.55"]
 SciMLBase = "1.94.0-1"
 
 ["6.55-6"]
-ADTypes = "0.1-0.2"
 DiffEqBase = "6.128.2-6"
 
-["6.56-6"]
+["6.55-6.58"]
+ADTypes = "0.1-0.2"
+
+["6.56-6.58"]
 SciMLBase = "1.94.0-2"
 
-["6.57-6"]
+["6.57-6.58"]
 NonlinearSolve = "1.1.0-2"
 
-["6.58.1-6"]
+["6.58.1-6.58"]
 InteractiveUtils = "1.6.0-1"
 LinearAlgebra = "1.6.0-1"
 Logging = "1.6.0-1"
 SparseArrays = "1.6.0-1"
+
+["6.59-6"]
+ADTypes = "0.2"
+Adapt = "3"
+ArrayInterface = "7"
+DocStringExtensions = "0.9"
+FastBroadcast = "0.2"
+InteractiveUtils = "1.9.0-1"
+LinearAlgebra = "1.9.0-1"
+Logging = "1.9.0-1"
+NonlinearSolve = "2"
+Polyester = "0.7"
+PreallocationTools = "0.4"
+Reexport = "1"
+SciMLBase = "2"
+SciMLOperators = "0.3"
+SparseArrays = "1.9.0-1"
+StaticArrays = "1"
+julia = "1.9.0-1"
 
 ["6.6.3-6.14"]
 DiffEqBase = "6.81.3-6.84"
