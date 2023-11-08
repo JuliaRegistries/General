@@ -72,13 +72,13 @@ SciMLBase = "1.32.0-1"
 ["1.17-1.35"]
 ArrayInterfaceCore = "0.1.1-0.1"
 
-["1.18-2"]
+["1.18-2.16"]
 Setfield = ["0.7-0.8", "1"]
 
 ["1.19-2"]
 GPUArraysCore = "0.1"
 
-["1.20-2"]
+["1.20-2.16"]
 DocStringExtensions = "0.8-0.9"
 
 ["1.21-2.2"]
@@ -145,6 +145,8 @@ ArrayInterface = "7.4.7-7"
 ["2.14-2"]
 InteractiveUtils = "1.6.0-1"
 Libdl = "1.6.0-1"
+
+["2.14-2.16"]
 LinearAlgebra = "1.6.0-1"
 SparseArrays = "1.6.0-1"
 SuiteSparse = "1.6.0-1"
@@ -153,23 +155,34 @@ SuiteSparse = "1.6.0-1"
 MKL = "0.6"
 julia = "1.9.0-1"
 
-["2.2-2"]
+["2.17-2"]
+DocStringExtensions = "0.9"
+EnzymeCore = "0.6"
+FastLapackInterface = "2"
+LinearAlgebra = "1.9.0-1"
+SciMLBase = "2"
+SciMLOperators = "0.3"
+Setfield = "1"
+SparseArrays = "1.9.0-1"
+SuiteSparse = "1.9.0-1"
+
+["2.2-2.16"]
 SciMLOperators = "0.2-0.3"
 
 ["2.2.1-2"]
 ArrayInterface = "7.4.11-7"
 
-["2.3-2"]
+["2.3-2.16"]
 FastLapackInterface = "1-2"
 
 ["2.6-2"]
 ConcreteStructs = "0.2"
 
-["2.7-2"]
+["2.7-2.16"]
 SciMLBase = "1.82.0-2"
 
 ["2.8.0"]
 EnzymeCore = "0.6"
 
-["2.8.1-2"]
+["2.8.1-2.16"]
 EnzymeCore = "0.5-0.6"
