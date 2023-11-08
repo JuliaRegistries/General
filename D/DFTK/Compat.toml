@@ -87,7 +87,7 @@ Libxc = "0.3"
 ["0.1.4-0.5.12"]
 Primes = "0.4-0.5"
 
-["0.1.5-0"]
+["0.1.5-0.6.11"]
 spglib_jll = "1.15.0-1"
 
 ["0.1.6-0.1.8"]
@@ -210,13 +210,15 @@ TimerOutputs = "0.5.13-0.5"
 Interpolations = "0.14"
 IterativeSolvers = "0.9"
 LinearMaps = "3"
-Polynomials = "3"
 Primes = "0.5"
 Roots = "2"
 SpecialFunctions = "2"
 
 ["0.5.13-0.5"]
 Brillouin = "0.5.10-0.5"
+
+["0.5.13-0.6.11"]
+Polynomials = "3"
 
 ["0.5.14"]
 TimerOutputs = "0.5.14-0.5"
@@ -243,8 +245,10 @@ Spglib = "0.6"
 GPUArraysCore = "0.1"
 
 ["0.6-0"]
-Brillouin = "0.5.11-0.5"
 TimerOutputs = "0.5.12-0.5"
+
+["0.6-0.6.11"]
+Brillouin = "0.5.11-0.5"
 
 ["0.6.0"]
 ASEconvert = "0.1"
@@ -252,6 +256,8 @@ AtomsIO = "0.1.1-0.1"
 
 ["0.6.10-0"]
 Preferences = "1"
+
+["0.6.10-0.6.11"]
 Spglib = "0.6-0.7"
 
 ["0.6.11-0"]
@@ -259,13 +265,28 @@ FFTW = "1.5.0-1"
 MPI = "0.20.13-0.20"
 PkgVersion = "0.3"
 
+["0.6.12-0"]
+Artifacts = "1"
+Brillouin = "0.5.14-0.5"
+Dates = "1"
+LinearAlgebra = "1"
+Markdown = "1"
+Polynomials = "3-4"
+Printf = "1"
+Random = "1"
+SparseArrays = "1"
+Spglib = "0.8.4"
+Statistics = "1"
+
 ["0.6.2-0.6.7"]
 SnoopPrecompile = "1"
 
 ["0.6.3-0"]
 Libxc = "0.3.14-0.3"
-Statistics = "1.7.0-1"
 julia = "1.7.0-1"
+
+["0.6.3-0.6.11"]
+Statistics = "1.7.0-1"
 
 ["0.6.4-0"]
 AtomsBase = "0.3.1-0.3"
