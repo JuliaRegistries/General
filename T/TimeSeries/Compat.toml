@@ -32,12 +32,10 @@ Reexport = "0.1-0.2"
 RecipesBase = ["0.5", "0.7-0.8"]
 
 ["0.17-0"]
+DelimitedFiles = "1"
 Statistics = "1"
 Tables = "1"
 julia = "1"
-
-["0.17-0.23.0"]
-DelimitedFiles = "1"
 
 ["0.18-0"]
 RecipesBase = ["0.5", "0.7-0.8", "1"]
@@ -50,6 +48,3 @@ Reexport = "1"
 
 ["0.23.1-0"]
 DocStringExtensions = "0.8-0.9"
-
-["0.23.2-0"]
-DelimitedFiles = "1"

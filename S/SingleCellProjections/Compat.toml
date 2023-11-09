@@ -8,12 +8,14 @@ NearestNeighbors = "0.4"
 Requires = "1.2.0-1"
 SCTransform = "0.1"
 StaticArrays = ["0.12", "1"]
+Statistics = "1.8.0-1"
 ThreadedSparseArrays = "0.2"
 julia = "1.8.0-1"
 
 ["0-0.2.1"]
 CodecZlib = "0.7"
 Colors = "0.11.2-0.12"
+DelimitedFiles = "1.8.0-1"
 KernelDensitySJ = "0.1.1-0.2"
 Optim = "1.2.0-1"
 ProgressMeter = "1"
@@ -29,7 +31,6 @@ SingleCell10x = "0.1"
 
 ["0-0.3.3"]
 HDF5 = "0.16"
-Statistics = "1.8.0-1"
 
 ["0.2.4-0"]
 PrecompileTools = "1"
