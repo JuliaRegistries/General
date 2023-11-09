@@ -30,7 +30,7 @@ AbstractMCMC = "2-3"
 ["0.10.17-0"]
 ZygoteRules = "0.2"
 
-["0.10.18-0"]
+["0.10.18-0.23"]
 Distributions = "0.23.8-0.25"
 
 ["0.10.6-0"]
@@ -48,7 +48,7 @@ AbstractPPL = "0.2"
 ["0.14-0"]
 BangBang = "0.3"
 
-["0.15.1-0"]
+["0.15.1-0.23"]
 ChainRulesCore = ["0.9.7-0.10", "1"]
 
 ["0.16-0.16.1"]
@@ -69,7 +69,7 @@ AbstractPPL = "0.3-0.4"
 ["0.17.7-0.21.3"]
 AbstractPPL = "0.5.1-0.5"
 
-["0.18-0"]
+["0.18-0.23"]
 AbstractMCMC = "2-4"
 
 ["0.2-0.4"]
@@ -88,10 +88,12 @@ ConstructionBase = "1"
 DocStringExtensions = "0.8"
 
 ["0.20.1-0"]
-DocStringExtensions = "0.8-0.9"
 OrderedCollections = "1"
 
-["0.21-0"]
+["0.20.1-0.23"]
+DocStringExtensions = "0.8-0.9"
+
+["0.21-0.23"]
 Setfield = ["0.7.1-0.8", "1"]
 
 ["0.21.4-0.23.6"]
@@ -119,8 +121,19 @@ Requires = "1"
 ["0.23.19-0"]
 Compat = "4"
 
-["0.23.7-0"]
+["0.23.7-0.23"]
 AbstractPPL = "0.6"
+
+["0.24-0"]
+AbstractMCMC = "5"
+AbstractPPL = "0.7"
+ChainRulesCore = "1"
+Distributions = "0.25"
+DocStringExtensions = "0.9"
+LinearAlgebra = "1.6.0-1"
+Random = "1.6.0-1"
+Setfield = "1"
+Test = "1.6.0-1"
 
 ["0.3"]
 AbstractMCMC = "0.3"
