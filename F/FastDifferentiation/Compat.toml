@@ -2,13 +2,10 @@
 DataStructures = "0.18"
 DiffRules = "1"
 FiniteDifferences = "0.12"
-Memoize = "0.4"
 NaNMath = "1"
 RuntimeGeneratedFunctions = "0.5"
 SpecialFunctions = "2"
 StaticArrays = "1"
-TestItemRunner = "0.2"
-TestItems = "0.1"
 julia = "1.8.0-1"
 
 ["0-0.2.0"]
@@ -17,3 +14,11 @@ ElectronDisplay = "1"
 ["0-0.2.8"]
 SymbolicUtils = "1"
 TermInterface = "0.3"
+
+["0-0.3.2"]
+Memoize = "0.4"
+TestItemRunner = "0.2"
+TestItems = "0.1"
+
+["0.3.3-0"]
+ElectronDisplay = "1"
