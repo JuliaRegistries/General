@@ -1,6 +1,5 @@
 [0]
 Intervals = "1.4.0-1"
-StatsBase = "0.33"
 UnPack = "1"
 
 ["0-0.1"]
@@ -10,6 +9,9 @@ julia = "1.5.0-1"
 
 ["0-0.3"]
 Reexport = "0.2"
+
+["0-0.4"]
+StatsBase = "0.33"
 
 ["0-0.4.1"]
 Distributions = "0.23-0.24"
@@ -46,7 +48,7 @@ ParameterJuMP = "0.2"
 ["0.3-0.4.3"]
 Roots = "1"
 
-["0.4-0"]
+["0.4"]
 Reexport = ["0.2", "1"]
 
 ["0.4-0.4.3"]
@@ -67,6 +69,8 @@ ParameterJuMP = "0.3"
 
 ["0.4.4-0"]
 Distributions = "0.24.7-0.25"
+
+["0.4.4-0.4"]
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
@@ -75,8 +79,23 @@ CSV = "0.8-0.10"
 JuMP = "1"
 LinearFractional = "0.7.5-0.7"
 MathOptInterface = "1"
-Optim = "1.6.0-1"
 ParameterJuMP = "0.4"
-RangeHelpers = "0.1.8-0.1"
 RecipesBase = "1.2.0-1"
+
+["0.4.6-0.4"]
+Optim = "1.6.0-1"
+RangeHelpers = "0.1.8-0.1"
 Setfield = ["0.8", "1"]
+
+["0.5-0"]
+Hypatia = "0.7.3-0.7"
+LinearAlgebra = "1.9.0-1"
+LogExpFunctions = "0.3"
+Random = "1.9.0-1"
+RangeHelpers = "0.1.9-0.1"
+Reexport = "1"
+Setfield = "1"
+SpecialFunctions = "2"
+Statistics = "1.9.0-1"
+StatsBase = "0.33-0.34"
+julia = "1.9.0-1"
