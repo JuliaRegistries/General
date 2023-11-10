@@ -42,12 +42,23 @@ HTTP = "1.9.14-1"
 
 ["0.2.3-0"]
 DataFrames = "1.3.0-1"
-SoleData = "0.10.1-0.10"
-StatsBase = "0.33"
 
 ["0.2.3-0.2"]
 SoleLogics = "0.4.8-0.4"
 
+["0.2.3-0.3"]
+SoleData = "0.10.1-0.10"
+StatsBase = "0.33"
+
+["0.3"]
+SoleLogics = "0.5"
+
 ["0.3-0"]
 HTTP = "1.9.0-1"
-SoleLogics = "0.5"
+
+["0.4-0"]
+AbstractTrees = "0.4"
+Random = "1"
+SoleData = "0.11"
+SoleLogics = "0.6"
+StatsBase = "0.34"
