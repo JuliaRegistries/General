@@ -20,12 +20,14 @@ Reexport = "1"
 ResumableFunctions = "0.6"
 Revise = "3"
 SoleBase = "0.11"
-SoleData = "0.10"
-Statistics = "1"
 Suppressor = "0.2"
 Tables = "1"
 ThreadsX = "0.1"
 julia = "1"
+
+["0-0.1"]
+SoleData = "0.10"
+Statistics = "1"
 
 ["0-0.1.5"]
 StatsBase = "0.34"
@@ -35,9 +37,16 @@ PProf = "2"
 SoleLogics = "0.4"
 SoleModels = "0.2"
 
-["0.1.6-0"]
+["0.1.6-0.1"]
 StatsBase = "0.33"
 
-["0.1.7-0"]
+["0.1.7-0.1"]
 SoleLogics = "0.5"
 SoleModels = "0.3"
+
+["0.2-0"]
+Random = "1"
+SoleData = "0.11"
+SoleLogics = "0.6"
+SoleModels = "0.4"
+StatsBase = "0.34"
