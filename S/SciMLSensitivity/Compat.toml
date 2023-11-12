@@ -13,12 +13,10 @@ RandomNumbers = "1.5.3-1"
 RecursiveArrayTools = "2.4.2-2"
 Reexport = ["0.2", "1"]
 ReverseDiff = "1.9.0-1"
-Statistics = "1.6.0-1"
 StochasticDiffEq = "6.20.0-6"
 Tracker = "0.2"
 Zygote = "0.6"
 ZygoteRules = "0.2"
-julia = "1.6.0-1"
 
 ["7-7.13"]
 Enzyme = "0.8-0.10"
@@ -39,6 +37,10 @@ DiffEqCallbacks = "2.17.0-2"
 ["7-7.41.0"]
 Cassette = "0.3.6-0.3"
 DiffRules = "1"
+
+["7-7.46"]
+Statistics = "1.6.0-1"
+julia = "1.6.0-1"
 
 ["7-7.6.2"]
 DiffEqOperators = "4.34.0-4"
@@ -146,6 +148,10 @@ FunctionProperties = "0.1"
 
 ["7.42-7"]
 Functors = "0.4"
+
+["7.47-7"]
+Statistics = "1"
+julia = "1.9.0-1"
 
 ["7.5-7.6.1"]
 SciMLBase = "1.50.0-1"
