@@ -1,6 +1,3 @@
-[0]
-ElasticArrays = "1.2.0-1"
-
 ["0-0.1.0"]
 ExtendableGrids = "0.3"
 
@@ -12,6 +9,9 @@ julia = "1.3.0-1"
 
 ["0-0.5.15"]
 DocStringExtensions = "0.8"
+
+[0-1]
+ElasticArrays = "1.2.0-1"
 
 ["0.1.1-0.2.0"]
 ExtendableGrids = "0.4"
@@ -55,13 +55,13 @@ GridVisualize = "0.2-0.5"
 ["0.5.13"]
 ExtendableGrids = "0.7.2-0.9"
 
-["0.5.15-0"]
-julia = "1.6.0-1"
-
 ["0.5.15-0.5.19"]
 ExtendableGrids = "0.9.5-0.9"
 
-["0.5.16-0"]
+["0.5.15-1"]
+julia = "1.6.0-1"
+
+["0.5.16-1"]
 DocStringExtensions = "0.8-0.9"
 FileIO = "1"
 MeshIO = "0.4"
@@ -72,7 +72,7 @@ GridVisualize = "0.2-0.6"
 ["0.5.19-0"]
 GridVisualize = ["0.2-0.6", "1"]
 
-["0.5.20-0"]
+["0.5.20-1"]
 ExtendableGrids = ["0.9.5-0.9", "1"]
 
 ["0.5.4-0.5.6"]
@@ -83,3 +83,7 @@ GridVisualize = "0.2-0.3"
 
 ["0.5.8-0.5.12"]
 ExtendableGrids = "0.7.2-0.8"
+
+[1]
+LinearAlgebra = "1.6.0-1"
+Printf = "1.6.0-1"
