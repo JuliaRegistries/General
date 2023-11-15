@@ -95,8 +95,14 @@ SnoopPrecompile = "1"
 ["0.9.11-0"]
 InteractiveUtils = "1.6.0-1"
 LinearAlgebra = "1.6.0-1"
+
+["0.9.11-0.9.12"]
 SparseArrays = "1.6.0-1"
 UUIDs = "1.6.0-1"
+
+["0.9.13-0"]
+SparseArrays = ["0.0.0", "1.6.0-1"]
+UUIDs = ["0.0.0", "1.6.0-1"]
 
 ["0.9.3-0"]
 PrecompileTools = "1"
