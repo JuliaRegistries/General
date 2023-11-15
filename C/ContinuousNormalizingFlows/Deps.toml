@@ -18,7 +18,6 @@ NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
 Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
 OptimizationOptimisers = "42dfb2eb-d2b4-4451-abcd-913932933ac1"
-PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
@@ -30,6 +29,9 @@ Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0-0.12"]
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+
+["0-0.15.0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["0-0.7.1"]
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
@@ -44,7 +46,7 @@ LuxCUDA = "d0bbae9a-e099-4d5b-a835-1c6931763bda"
 ["0.10-0"]
 PackageExtensionCompat = "65ce6f38-6b18-4e1d-a461-8949797d7930"
 
-["0.10.1-0"]
+["0.10.1-0.15.0"]
 Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 
 ["0.6-0"]
