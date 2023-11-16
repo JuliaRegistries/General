@@ -39,11 +39,13 @@ ClimaComms = "0.3"
 Static = "0.4-0.7"
 
 ["0.10.18-0"]
-Statistics = "1.8.0-1"
 julia = "1.8.0-1"
 
 ["0.10.18-0.10.31"]
 ClimaComms = "0.3.1-0.3"
+
+["0.10.18-0.10.55"]
+Statistics = "1.8.0-1"
 
 ["0.10.22-0"]
 Static = "0.4-0.8"
@@ -69,7 +71,7 @@ CUDA = ["3", "4.2.0-4"]
 ["0.10.37-0"]
 Requires = "1"
 
-["0.10.42-0"]
+["0.10.42-0.10.55"]
 ClimaComms = "0.5"
 
 ["0.10.45-0.10.52"]
@@ -92,6 +94,13 @@ BandedMatrices = ["0.17", "1"]
 
 ["0.10.54-0"]
 CUDA = "4.2.0-5"
+
+["0.10.56-0"]
+ClimaComms = "0.5.6-0.5"
+InteractiveUtils = "1"
+LinearAlgebra = "1"
+SparseArrays = "1"
+Statistics = "1"
 
 ["0.10.6-0"]
 DocStringExtensions = "0.8-0.9"
