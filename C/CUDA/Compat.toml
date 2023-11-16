@@ -119,8 +119,10 @@ GPUCompiler = "0.9"
 Statistics = "1.6.0-1"
 
 ["2.5-4"]
-LazyArtifacts = "1.6.0-1"
 julia = "1.6.0-1"
+
+["2.5-5"]
+LazyArtifacts = "1"
 
 ["2.6-2"]
 Adapt = "3.1.0-3"
@@ -290,7 +292,6 @@ CEnum = "0.2-0.4"
 CUDA_Driver_jll = "0.6"
 CUDA_Runtime_jll = "0.9"
 GPUCompiler = "0.24"
-LazyArtifacts = "1.8.0-1"
 Statistics = "1.8.0-1"
 
 ["5.1-5"]
@@ -299,7 +300,6 @@ CUDA_Driver_jll = "0.7"
 CUDA_Runtime_jll = "0.10"
 GPUCompiler = "0.24-0.25"
 LLVMLoopInfo = "1"
-LazyArtifacts = "1"
 Libdl = "1"
 LinearAlgebra = "1"
 Logging = "1"
