@@ -32,8 +32,10 @@ FMI = "0.1.7-0.1"
 ["0.1.3-0.5"]
 Zygote = "0.6.17-0.6"
 
-["0.10-0"]
+["0.10"]
 DiffEqCallbacks = "2.26.0-2"
+
+["0.10-0"]
 ThreadPools = "2.1.1-2"
 
 ["0.10-0.10.1"]
@@ -57,15 +59,24 @@ ChainRulesCore = "1.16.0-1"
 
 ["0.10.4-0"]
 DifferentiableEigen = "0.2"
+
+["0.10.4-0.10"]
 DifferentialEquations = "7.8.0-7"
 
 ["0.10.4-0.10.5"]
 FMIImport = "0.15.7-0.15"
 Flux = "0.13.17-0.13"
 
-["0.10.6-0"]
+["0.10.6-0.10"]
 FMIImport = "0.15.8-0.15"
 Flux = "0.13-0.14"
+
+["0.11-0"]
+DifferentialEquations = "7.10.0-7.11"
+FMIImport = "0.16.2-0.16"
+FMISensitivity = "0.1.2-0.1"
+Flux = "0.13.0-0.14"
+ProgressMeter = "1.7.0-1.9"
 
 ["0.2-0.3"]
 DifferentialEquations = "6.20.0-6"
@@ -164,7 +175,7 @@ DiffEqFlux = "1.52.0-1"
 ["0.8"]
 FMIImport = "0.12.2-0.12"
 
-["0.8-0"]
+["0.8-0.10"]
 ProgressMeter = "1.7.0-1"
 Statistics = "1.6.0-1"
 
