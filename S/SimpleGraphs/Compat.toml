@@ -21,8 +21,10 @@ SimpleTools = "0.0.0-0.4"
 
 ["0.4-0"]
 IterTools = "1"
-Statistics = "1"
 julia = "1"
+
+["0.4-0.8.4"]
+Statistics = "1"
 
 ["0.4.4-0"]
 Combinatorics = "1"
@@ -35,7 +37,6 @@ SimplePolynomials = "0.0.0-0.2"
 RingLists = "0.0.0-0.2"
 
 ["0.6.2-0"]
-AbstractLattices = "0.1-0.2"
 DataStructures = "0.9-0.18"
 LightXML = "0.7-0.9"
 LinearAlgebraX = ["0.0.1-0.0.8", "0.1"]
@@ -50,8 +51,14 @@ SimpleRandom = "0.1-0.2"
 ["0.6.2-0.7.6"]
 Optim = "0.15-0.22"
 
+["0.6.2-0.8.4"]
+AbstractLattices = "0.1-0.2"
+
 ["0.7.6-0"]
 SimpleRandom = "0.1-0.3"
 
 ["0.7.7-0"]
 Optim = ["0.15-0.22", "1"]
+
+["0.8.5-0"]
+AbstractLattices = "0.1-0.3"
