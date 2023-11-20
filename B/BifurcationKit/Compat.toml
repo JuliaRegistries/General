@@ -88,18 +88,27 @@ SciMLBase = "1.42.1-1"
 ["0.2.3-0"]
 Arpack = "0.5.3"
 
-["0.2.4-0"]
+["0.2.4-0.3.1"]
 DocStringExtensions = "0.8.2-0.9"
 
 ["0.2.6-0"]
-FastGaussQuadrature = "0.4-0.5"
 KrylovKit = "0.5.4-0.6"
 Setfield = ["0.5", "0.7-0.8", "1.1.0-1"]
 StructArrays = ["0.4", "0.6"]
 
+["0.2.6-0.3.1"]
+FastGaussQuadrature = "0.4-0.5"
+
 ["0.2.7-0"]
 Reexport = "1.2.2-1"
 
+["0.3.1"]
+SciMLBase = "2.0.7-2"
+
 ["0.3.1-0"]
 RecursiveArrayTools = "2.3.0-2"
-SciMLBase = "2.0.7-2"
+
+["0.3.2-0"]
+DocStringExtensions = "0.8-0.9"
+FastGaussQuadrature = ["0.4-0.5", "1"]
+SciMLBase = "1-2"
