@@ -45,7 +45,7 @@ RecipesBase = ["0.7-0.8", "1"]
 ["1.0.33-1.1.0"]
 SpecialFunctions = ["0.8-0.10", "1"]
 
-["1.0.44-1"]
+["1.0.44-2"]
 CommonSolve = "0.2"
 
 ["1.0.51-1.2.0"]
@@ -73,3 +73,11 @@ Latexify = "0.15-0.16"
 CommonEq = "0.2.0"
 LinearAlgebra = ["0.0.0", "1"]
 Markdown = ["0.0.0", "1"]
+
+[2]
+CommonEq = "0.2.1-0.2"
+LinearAlgebra = ["0.0.0", "1.6.0-1"]
+PyCall = "1.96.2-1"
+SpecialFunctions = ["0.7-0.8", "0.10", "1-2"]
+SymPyCore = ["0.1.6-0.1", "1"]
+julia = "1.6.0-1"
