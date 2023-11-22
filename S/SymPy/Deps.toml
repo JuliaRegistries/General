@@ -2,15 +2,17 @@
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
 [0-1]
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
-SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
-["0.8-1"]
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+[0-2]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
 ["0.8-1.0.2"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.8-2"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["1-1.0.2"]
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
@@ -18,11 +20,14 @@ OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 ["1.0.37-1"]
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 
-["1.0.44-1"]
+["1.0.44-2"]
 CommonSolve = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
 
-["1.0.51-1"]
+["1.0.51-2"]
 CommonEq = "3709ef60-1bee-4518-9f2f-acd86f176c50"
 
 ["1.0.53-1"]
 Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
+
+[2]
+SymPyCore = "458b697b-88f0-4a86-b56b-78b75cfb3531"
