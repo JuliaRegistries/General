@@ -1,7 +1,6 @@
 [0]
 Compat = "3.29.0-4"
 DocStringExtensions = "0.9"
-Makie = "0.19"
 NLopt = ["0.6", "1"]
 PrecompileTools = "1"
 StatsAPI = "1.6.0-1"
@@ -14,6 +13,9 @@ julia = "1.6.0-1"
 ["0-0.2.2"]
 Statistics = "1.6.0-1"
 
+["0-0.2.3"]
+Makie = "0.19"
+
 ["0.2-0"]
 MixedModels = "4"
 
@@ -21,3 +23,6 @@ MixedModels = "4"
 LinearAlgebra = "1"
 Printf = "1"
 Statistics = "1"
+
+["0.2.4-0"]
+Makie = "0.19-0.20"
