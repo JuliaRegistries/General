@@ -52,7 +52,7 @@ Tracker = "0.2"
 ["0.8-1.7.0"]
 DiffEqBase = "6"
 
-["0.8-2"]
+["0.8-3"]
 ForwardDiff = "0.10"
 
 ["0.9-0"]
@@ -67,7 +67,7 @@ Flux = "0.10.1-0.10"
 ["1-1.3"]
 DiffEqSensitivity = "6"
 
-[1-2]
+[1-3]
 RecursiveArrayTools = "2"
 ZygoteRules = "0.2"
 
@@ -101,7 +101,7 @@ Zygote = "0.5"
 ["1.18-1.34"]
 Flux = "0.11"
 
-["1.18-2"]
+["1.18-3"]
 DiffEqBase = "6.41.0-6"
 DistributionsAD = "0.6"
 
@@ -145,7 +145,7 @@ StaticArrays = ["0.11-0.12", "1"]
 ["1.27-1.29"]
 Adapt = "2"
 
-["1.28-2"]
+["1.28-3"]
 Zygote = "0.5-0.6"
 
 ["1.3.2-1.7.0"]
@@ -164,10 +164,10 @@ GalacticOptim = "1"
 ["1.35-1.43"]
 Flux = "0.11-0.12"
 
-["1.36-2"]
+["1.36-3"]
 Adapt = "3"
 
-["1.37-2"]
+["1.37-3"]
 Distributions = "0.23-0.25"
 
 ["1.39"]
@@ -185,7 +185,7 @@ Cassette = "0.3.7-0.3"
 ["1.40-1.44.0"]
 DiffEqSensitivity = "6.52.0-6"
 
-["1.40-2"]
+["1.40-3"]
 Reexport = ["0.2", "1"]
 
 ["1.41-1.46"]
@@ -223,16 +223,16 @@ Lux = "0.4"
 ["1.5-1.26"]
 ReverseDiff = "1.1.0-1"
 
-["1.51-2"]
+["1.51-3"]
 SciMLSensitivity = "7"
 
-["1.52-2"]
+["1.52-3"]
 ChainRulesCore = "1"
 
 ["1.53-2"]
 LoggingExtras = ["0.4", "1"]
 
-["1.54-2"]
+["1.54-3"]
 Functors = "0.4"
 
 ["1.7.1-1.11"]
@@ -246,7 +246,21 @@ BlackBoxOptim = "0.5"
 
 [2]
 DataInterpolations = "3.3.0-4"
+
+[2-3]
 LuxCore = "0.1"
 
 ["2.2-2"]
 Flux = "0.12-0.14"
+
+[3]
+ADTypes = "0.2"
+ComponentArrays = "0.15.5-0.15"
+ConcreteStructs = "0.2"
+LinearAlgebra = ["0.0.0", "1"]
+Lux = "0.5.5-0.5"
+PrecompileTools = "1"
+Random = ["0.0.0", "1"]
+SciMLBase = "1-2"
+Tracker = "0.2.29-0.2"
+julia = "1.9.0-1"
