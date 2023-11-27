@@ -21,10 +21,12 @@ DataToolkitBase = "0.3"
 DataToolkitBase = "0.4"
 
 ["0.4-0"]
-AbstractTrees = "0.2-0.4"
 BaseDirs = "1"
 PrecompileTools = "1"
 julia = "1.8.0-1"
+
+["0.4-0.7"]
+AbstractTrees = "0.2-0.4"
 
 ["0.5"]
 DataToolkitBase = "0.5"
@@ -32,7 +34,7 @@ DataToolkitBase = "0.5"
 ["0.6"]
 DataToolkitBase = "0.5-0.6"
 
-["0.7-0"]
+["0.7"]
 DataToolkitBase = "0.7"
 
 ["0.7.2-0"]
@@ -44,3 +46,6 @@ REPL = "1"
 Serialization = "1"
 TOML = "1"
 UUIDs = "1"
+
+["0.8-0"]
+DataToolkitBase = "0.8"
