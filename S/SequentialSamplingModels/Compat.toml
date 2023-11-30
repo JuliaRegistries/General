@@ -43,8 +43,10 @@ StatsAPI = "1.3.0-1"
 DynamicPPL = "0.23"
 
 ["0.4.3-0"]
-DynamicPPL = "0.22-0.23"
 StatsAPI = "1"
+
+["0.4.3-0.8.4"]
+DynamicPPL = "0.22-0.23"
 
 ["0.7.1-0"]
 SpecialFunctions = "1-2"
@@ -56,9 +58,11 @@ FunctionZeros = "0.2"
 FunctionZeros = "0.2-0.3"
 
 ["0.8-0"]
-Interpolations = "0.14"
 KernelDensity = "0.6.5-0.6"
 Plots = "1"
+
+["0.8-0.8.4"]
+Interpolations = "0.14"
 
 ["0.8.1-0"]
 Statistics = "1"
@@ -67,3 +71,7 @@ Statistics = "1"
 HCubature = "1"
 LinearAlgebra = "1"
 Random = "1"
+
+["0.8.5-0"]
+DynamicPPL = "0.22-0.24"
+Interpolations = "0.14-0.15"
