@@ -354,7 +354,6 @@ Dates = "1"
 Distributed = "1"
 Documenter = ["0.25-0.27", "1"]
 LinearAlgebra = "1"
-LsqFit = "0.15"
 Markdown = "1"
 Mmap = "1"
 Pkg = "1"
@@ -367,6 +366,12 @@ Statistics = "1"
 Test = "1"
 XLSX = ["0.7-0.10", "1"]
 
+["1.5.3-1.5.4"]
+LsqFit = "0.15"
+
 ["1.5.4-1"]
 AffineInvariantMCMC = "1.2.2-2"
 SHA = ["0.7", "1"]
+
+["1.5.5-1"]
+LsqFit = ["0.15-0.16", "1"]
