@@ -27,6 +27,8 @@ DiffRules = ["0.1", "1"]
 IfElse = "0.1"
 MacroTools = "0.5"
 Reexport = ["0.2", "1"]
+
+["0-5.10"]
 TreeViews = "0.3"
 
 ["0-5.3"]
@@ -168,6 +170,9 @@ ArrayInterface = "6-7"
 ["5.10-5"]
 RecursiveArrayTools = "2"
 
+["5.11-5"]
+Groebner = "0.3-0.5"
+
 ["5.2-5"]
 DomainSets = "0.6"
 
@@ -184,8 +189,10 @@ RuntimeGeneratedFunctions = "0.5.10-0.5"
 RuntimeGeneratedFunctions = "0.5.9"
 
 ["5.5.1-5"]
-Groebner = "0.3-0.4"
 RuntimeGeneratedFunctions = "0.5.9-0.5"
+
+["5.5.1-5.10"]
+Groebner = "0.3-0.4"
 
 ["5.5.2-5"]
 Bijections = "0.1"
