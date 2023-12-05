@@ -21,11 +21,11 @@ LLSModels = "0.1"
 NLPModelsModifiers = "0.1.2-0.1"
 SolverCore = "0.1.1-0.1"
 
-["0.2.1-0"]
-DelimitedFiles = "1"
-
 ["0.2.1-0.6.1"]
 MatrixMarket = "0.3"
+
+["0.2.1-0.6.2"]
+DelimitedFiles = "1"
 
 ["0.2.2"]
 Krylov = "0.7.3-0.7"
@@ -93,17 +93,26 @@ NLPModelsModifiers = "0.6"
 SparseMatricesCOO = "0.2"
 
 ["0.5-0"]
-QuadraticModels = "0.9.3-0.9"
 SolverCore = "0.3"
 
+["0.5-0.6.2"]
+QuadraticModels = "0.9.3-0.9"
+
 ["0.6-0"]
-HSL = "0.3"
 LDLFactorizations = "0.10"
 LimitedLDLFactorizations = "0.5"
+
+["0.6-0.6.2"]
+HSL = "0.3"
 
 ["0.6.1-0"]
 Krylov = "0.9"
 OperatorScaling = "0.1"
 
-["0.6.2-0"]
+["0.6.2"]
 MatrixMarket = "0.3-0.4"
+
+["0.6.3-0"]
+HSL = "0.4.1-0.4"
+MatrixMarket = "0.3-0.5"
+QuadraticModels = "0.9.5-0.9"
