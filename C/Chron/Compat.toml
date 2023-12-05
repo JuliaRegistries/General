@@ -4,7 +4,6 @@ Distributions = "0.15-0.25"
 KernelDensity = "0.4-0.6"
 Plots = "1"
 ProgressMeter = "1"
-Statistics = "1"
 julia = "1"
 
 ["0-0.1"]
@@ -23,6 +22,9 @@ LsqFit = "0.7-0.12"
 
 ["0-0.4.13"]
 StatsBase = "0.28-0.33"
+
+["0-0.4.14"]
+Statistics = "1"
 
 ["0.2-0"]
 Reexport = ["0.2", "1"]
@@ -87,9 +89,11 @@ StatGeochemBase = "0.3.2-0.4"
 ["0.4.12-0.4.13"]
 Isoplot = "0.2.10-0.2"
 
+["0.4.14"]
+StatsBase = "0.28-0.34"
+
 ["0.4.14-0"]
 Isoplot = "0.3"
-StatsBase = "0.28-0.34"
 
 ["0.4.2-0"]
 VectorizedStatistics = "0.5"
