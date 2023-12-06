@@ -13,16 +13,13 @@ GeoDataFrames = "0.3-0.4"
 GeoFormatTypes = "0.4"
 GeoInterface = "1"
 Graphs = "1.4.0-1"
-Interpolations = "0.14"
 JSON = "0.21.3-0.21"
 MAT = "0.10"
-NCDatasets = "0.12"
 NamedDims = "1"
 OnlineStats = "1.5.0-1"
 PkgVersion = "0.2-0.3"
 ProgressMeter = "1"
 RelocatableFolders = "1"
-SciMLBase = "1"
 Setfield = ["0.8", "1"]
 StaticArrays = "1"
 Statistics = "1"
@@ -52,6 +49,21 @@ SparseArrayKit = "0.2"
 DifferentialEquations = "7.2.0-7"
 ThreadsX = "0.1"
 
+["0-0.9"]
+Interpolations = "0.14"
+NCDatasets = "0.12"
+SciMLBase = "1"
+
+["0.10-0"]
+DimensionalData = "0.25"
+Interpolations = "0.14-0.15"
+MLJ = "0.19.2-0.20"
+NetCDF = "0.11"
+SIRUS = "1.3.0-2"
+SciMLBase = "1-2"
+TOML = "1"
+YAXArrays = "0.5"
+
 ["0.4.5-0"]
 ArchGDAL = "0.9-0.10"
 
@@ -79,10 +91,12 @@ JuliennedArrays = "0.4"
 ["0.8-0"]
 FLoops = "0.2"
 ImageIO = "0.6"
-MLJ = "0.19.2-0.19"
-SIRUS = "1.3.0-1"
 SparseArrayKit = "0.2-0.3"
 StableRNGs = "1"
+
+["0.8-0.9"]
+MLJ = "0.19.2-0.19"
+SIRUS = "1.3.0-1"
 
 ["0.9-0"]
 OrdinaryDiffEq = "6"
