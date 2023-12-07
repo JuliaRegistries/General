@@ -12,15 +12,17 @@ julia = "0.6-1"
 ["0.3.3-0.3"]
 RecipesBase = "0.0.0-0.8"
 
+["0.4"]
+Statistics = "1"
+julia = "1"
+
 ["0.4-0"]
 AxisArrays = "0.4"
 IterableTables = "1"
 Requires = "1"
 SimpleTraits = "0.9"
-Statistics = "1"
 Tokenize = "0.5"
 Unitful = "1"
-julia = "1"
 
 ["0.4-0.4.1"]
 OnlineStats = "1"
@@ -66,6 +68,8 @@ RecipesBase = "1"
 
 ["0.4.24-0"]
 Distances = "0.10"
+
+["0.4.24-0.4"]
 Printf = "1"
 Random = "1"
 
@@ -84,3 +88,11 @@ DataFrames = "0.21-0.22"
 
 ["0.4.5-0.4.21"]
 RecipesBase = ["0.7-0.8", "1"]
+
+["0.5-0"]
+ParserCombinator = "2"
+Plots = "1"
+Printf = "1.6.0-1"
+Random = "1.6.0-1"
+Statistics = "1.6.0-1"
+julia = "1.6.0-1"
