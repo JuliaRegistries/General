@@ -8,7 +8,6 @@ OptimizationOptimisers = "0.1"
 SciMLSensitivity = "7"
 ScientificTypes = "3"
 Zygote = "0.6"
-julia = "1.6.0-1"
 
 ["0-0.10"]
 Optimisers = "0.2"
@@ -24,6 +23,9 @@ AbstractDifferentiation = "0.5"
 
 ["0-0.14.1"]
 Statistics = "1.6.0-1"
+
+["0-0.15"]
+julia = "1.6.0-1"
 
 ["0-0.15.0"]
 PrecompileTools = "1"
@@ -72,16 +74,22 @@ SciMLBase = "1-2"
 ["0.14.1-0"]
 ADTypes = "0.2"
 AbstractDifferentiation = "0.6"
-ComponentArrays = "0.15"
 MLJBase = "1"
 Optimisers = "0.3"
 SciMLBase = "2"
+
+["0.14.1-0.15"]
+ComponentArrays = "0.15"
 
 ["0.14.2-0"]
 Dates = "1"
 LinearAlgebra = "1"
 Random = "1"
 Statistics = "1"
+
+["0.16-0"]
+ComponentArrays = "0.15.5-0.15"
+julia = "1.9.0-1"
 
 ["0.6-0"]
 DataFrames = "1"
@@ -122,9 +130,11 @@ OrdinaryDiffEq = "6"
 LuxCUDA = "0.3"
 
 ["0.9-0"]
-Flux = "0.14"
 Lux = "0.5"
 NNlib = "0.9"
 
 ["0.9-0.12"]
 ComponentArrays = "0.14"
+
+["0.9-0.15"]
+Flux = "0.14"
