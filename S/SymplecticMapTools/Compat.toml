@@ -1,6 +1,5 @@
 [0]
 Arpack = "0.5"
-CairoMakie = "0.10"
 Colors = "0.12"
 FFTW = "1"
 IterativeSolvers = "0.9"
@@ -15,6 +14,12 @@ julia = "1"
 ["0-0.1.0"]
 Polynomials = "3"
 
+["0-0.1.3"]
+CairoMakie = "0.10"
+
 ["0.1.1-0"]
 ColorSchemes = "3"
 Polynomials = "3-4"
+
+["0.1.4-0"]
+CairoMakie = "0.10-0.11"
