@@ -412,10 +412,12 @@ DiffEqBase = "6.109.0-6"
 
 ["6.36-6"]
 SciMLNLSolve = "0.1"
-SimpleNonlinearSolve = "0.1.4-0.1"
 
 ["6.36-6.56"]
 NonlinearSolve = "1.1.0-1"
+
+["6.36-6.59"]
+SimpleNonlinearSolve = "0.1.4-0.1"
 
 ["6.37-6.58"]
 Polyester = "0.3-0.7"
@@ -506,6 +508,9 @@ LinearAlgebra = "1.6.0-1"
 Logging = "1.6.0-1"
 SparseArrays = "1.6.0-1"
 
+["6.59"]
+NonlinearSolve = "2"
+
 ["6.59-6"]
 ADTypes = "0.2"
 Adapt = "3"
@@ -515,7 +520,6 @@ FastBroadcast = "0.2"
 InteractiveUtils = "1.9.0-1"
 LinearAlgebra = "1.9.0-1"
 Logging = "1.9.0-1"
-NonlinearSolve = "2"
 Polyester = "0.7"
 PreallocationTools = "0.4"
 Reexport = "1"
@@ -527,6 +531,10 @@ julia = "1.9.0-1"
 
 ["6.6.3-6.14"]
 DiffEqBase = "6.81.3-6.84"
+
+["6.60-6"]
+NonlinearSolve = "3"
+SimpleNonlinearSolve = "1"
 
 ["6.7"]
 SciMLBase = "1.28.0-1"
