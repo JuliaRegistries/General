@@ -11,7 +11,7 @@ julia = "1"
 ["0-0.3.3"]
 Reexport = "0.2"
 
-[0-2]
+[0-3]
 FiniteDiff = "2"
 ForwardDiff = "0.10.3-0.10"
 RecursiveArrayTools = "2"
@@ -19,7 +19,7 @@ RecursiveArrayTools = "2"
 ["0.2"]
 StaticArrays = "1"
 
-["0.2-2"]
+["0.2-3"]
 UnPack = "1"
 
 ["0.3-0"]
@@ -44,7 +44,7 @@ SciMLBase = "1.32.0-1"
 ["0.3.18-0"]
 Setfield = ["0.7-0.8", "1"]
 
-["0.3.4-2"]
+["0.3.4-3"]
 Reexport = ["0.2", "1"]
 
 ["0.3.5-0.3.16"]
@@ -96,29 +96,23 @@ SciMLBase = "1.92.4-2"
 ["1.4"]
 ArrayInterface = "6-7"
 
-["1.5-2"]
+["1.5-3"]
 ArrayInterface = "6.0.24-7"
 
 ["1.5.1-1"]
 SparseDiffTools = "1-2"
 
-["1.5.1-2"]
+["1.5.1-3"]
 EnumX = "1"
-
-["1.7-2"]
-PrecompileTools = "1"
 
 ["1.7-2.4"]
 LinearSolve = "2"
 
+["1.7-3"]
+PrecompileTools = "1"
+
 ["1.8-1.10.0"]
 SciMLBase = "1.92.4-1"
-
-[2]
-ADTypes = "0.2"
-ConcreteStructs = "0.2"
-LineSearches = "7"
-julia = "1.9.0-1"
 
 ["2-2.1"]
 SciMLBase = "1.97.0-2"
@@ -126,6 +120,12 @@ SciMLBase = "1.97.0-2"
 ["2-2.5"]
 DiffEqBase = "6.130.0-6"
 SparseDiffTools = "2.6.0-2"
+
+[2-3]
+ADTypes = "0.2"
+ConcreteStructs = "0.2"
+LineSearches = "7"
+julia = "1.9.0-1"
 
 ["2.2-2.8.1"]
 SciMLBase = "2.4.0-2"
@@ -136,7 +136,7 @@ SimpleNonlinearSolve = "0.1.22-0.1"
 ["2.4-2"]
 SimpleNonlinearSolve = "0.1.23-0.1"
 
-["2.5-2"]
+["2.5-3"]
 LinearSolve = "2.12.0-2"
 
 ["2.6"]
@@ -144,6 +144,8 @@ SparseDiffTools = "2.9.0-2"
 
 ["2.6-2"]
 DiffEqBase = "6.136.0-6"
+
+["2.6-3"]
 FastBroadcast = "0.1.9-0.2"
 
 ["2.6.0"]
@@ -157,9 +159,21 @@ SparseArrays = "1.9.0-1"
 ["2.7-2.8.1"]
 SparseDiffTools = "2.11.0-2"
 
-["2.8.1-2"]
+["2.8.1-3"]
 SciMLOperators = "0.3"
 
 ["2.8.2-2"]
 SciMLBase = "2.8.2-2"
 SparseDiffTools = "2.12.0-2"
+
+[3]
+DiffEqBase = "6.141.0-6"
+LazyArrays = "1.8.0-1"
+LinearAlgebra = ["0.0.0", "1"]
+MaybeInplace = "0.1"
+Printf = ["0.0.0", "1"]
+SciMLBase = "2.9.0-2"
+SimpleNonlinearSolve = "1"
+SparseArrays = ["0.0.0", "1"]
+SparseDiffTools = "2.14.0-2"
+StaticArrays = "1"
