@@ -2,7 +2,6 @@
 ArgParse = "1"
 BlackBoxOptim = "0.6"
 CSV = "0.9-0.10"
-CoolProp = "0.1"
 Cubature = "1.5.1-1"
 DSP = "0.7.3-0.7"
 DataStructures = "0.18.10-0.18"
@@ -47,6 +46,9 @@ Polynomials = "2-3"
 ["0-0.4.0"]
 Pidfile = "1.2.0-1"
 
+["0-0.4.2"]
+CoolProp = "0.1"
+
 ["0.1.5-0"]
 Roots = "2"
 
@@ -68,7 +70,7 @@ julia = "1.9.0-1"
 ["0.4-0.4.1"]
 Statistics = "1.9.0-1"
 
-["0.4.2-0"]
+["0.4.2"]
 Dates = "1"
 Distributed = "1"
 FileWatching = "1"
@@ -80,3 +82,17 @@ Printf = "1"
 Random = "1"
 Statistics = "1"
 Test = "1"
+
+["0.4.3-0"]
+CoolProp = "0.1-0.2"
+Dates = "1.9.0-1"
+Distributed = "1.9.0-1"
+FileWatching = "1.9.0-1"
+LibGit2 = "1.9.0-1"
+LinearAlgebra = "1.9.0-1"
+Logging = "1.9.0-1"
+Pkg = "1.9.0-1"
+Printf = "1.9.0-1"
+Random = "1.9.0-1"
+Statistics = "1.9.0-1"
+Test = "1.9.0-1"
