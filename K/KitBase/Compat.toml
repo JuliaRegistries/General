@@ -119,11 +119,15 @@ CUDA = "2-5"
 MultivariatePolynomials = "0.3-0.5"
 TypedPolynomials = "0.2-0.4"
 
-["0.9.17-0"]
+["0.9.17"]
 NonlinearSolve = "1-2"
+
+["0.9.18-0"]
+FastGaussQuadrature = ["0.2-0.5", "1"]
+NonlinearSolve = "1-3"
 
 ["0.9.5-0"]
 Parameters = "0.12"
 
-["0.9.8-0"]
+["0.9.8-0.9.17"]
 FastGaussQuadrature = "0.2-0.5"
