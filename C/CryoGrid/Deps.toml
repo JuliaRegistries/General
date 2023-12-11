@@ -19,7 +19,6 @@ LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 ModelParameters = "4744a3fa-6c31-4707-899e-a3298e4618ad"
 NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
-NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
@@ -39,8 +38,14 @@ Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 ["0-0.18"]
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 
+["0-0.20"]
+NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
+
 ["0-0.20.2"]
 SimulationLogs = "e3c6736c-93d9-479d-93f3-96ff5e8836d5"
 
 ["0.19-0"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+
+["0.21-0"]
+SimpleNonlinearSolve = "727e6d20-b764-4bd8-a329-72de5adea6c7"
