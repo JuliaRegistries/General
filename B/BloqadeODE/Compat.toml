@@ -1,14 +1,16 @@
 [0]
 Adapt = "3"
-BloqadeExpr = "0.1"
-BloqadeKrylov = "0.1"
-BloqadeMIS = "0.1"
 Configurations = "0.17"
 DiffEqBase = "6"
 DiffEqCallbacks = "2"
 OrdinaryDiffEq = "6"
 Reexport = "1"
 SciMLBase = "1"
+
+["0-0.1"]
+BloqadeExpr = "0.1"
+BloqadeKrylov = "0.1"
+BloqadeMIS = "0.1"
 YaoSubspaceArrayReg = "0.1"
 
 ["0-0.1.4"]
@@ -25,3 +27,10 @@ julia = "1.6.0-1"
 ["0.1.5-0"]
 Yao = "0.8"
 YaoArrayRegister = "0.9"
+
+["0.2-0"]
+BloqadeExpr = "0.2"
+BloqadeKrylov = "0.2"
+BloqadeMIS = "0.2"
+BloqadeWaveforms = "0.2"
+YaoSubspaceArrayReg = "0.2"
