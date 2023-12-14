@@ -4,23 +4,23 @@ DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
 ["0-0.1"]
 FastClosures = "9aa1b823-49e4-5ca5-8b0f-3971ec8bab6a"
 
-[0-1]
+[0-2]
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["0.1.2-1"]
+["0.1.2-2"]
 PCHIPInterpolation = "afe20452-48d1-4729-9a8b-50fb251f06cd"
 
 ["0.2-1.1.2"]
 ResumableFunctions = "c5292f4c-5179-55e1-98c5-05642aab7184"
 
-["0.2.4-1"]
+["0.2.4-2"]
 LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
 
-["0.2.5-1"]
+["0.2.5-2"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 ToeplitzMatrices = "c751599d-da0a-543b-9d20-d0a503d91d24"
 
@@ -30,9 +30,13 @@ DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
 ["1.1.3"]
 Semicoroutines = "b37d3d51-cc38-4fad-93cd-e6859934553f"
 
-["1.1.4-1"]
+["1.1.4-2"]
 ResumableFunctions = "c5292f4c-5179-55e1-98c5-05642aab7184"
 
-["1.2-1"]
+["1.2-2"]
 NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
+
+[2]
+NaNMath = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
