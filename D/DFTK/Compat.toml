@@ -4,8 +4,6 @@ IterTools = "1"
 LineSearches = "7"
 OrderedCollections = "1"
 PeriodicTable = "1"
-ProgressMeter = "1"
-Requires = "1"
 
 ["0-0.1"]
 SpecialFunctions = "0.10"
@@ -56,6 +54,10 @@ Roots = "1"
 
 ["0-0.6.10"]
 FFTW = "1"
+
+["0-0.6.14"]
+ProgressMeter = "1"
+Requires = "1"
 
 ["0.1.1"]
 Libxc = "0.1-0.2"
@@ -182,11 +184,11 @@ Polynomials = "1-3"
 ["0.5.0"]
 AtomsBase = "0.2.1-0.2"
 
-["0.5.1-0"]
-InteratomicPotentials = "0.2"
-
 ["0.5.1-0.5.12"]
 Roots = "1-2"
+
+["0.5.1-0.6.14"]
+InteratomicPotentials = "0.2"
 
 ["0.5.1-0.6.3"]
 AtomsBase = "0.2.2-0.2"
@@ -207,7 +209,6 @@ PseudoPotentialIO = "0.1"
 TimerOutputs = "0.5.13-0.5"
 
 ["0.5.13-0"]
-Interpolations = "0.14"
 IterativeSolvers = "0.9"
 LinearMaps = "3"
 Primes = "0.5"
@@ -219,6 +220,9 @@ Brillouin = "0.5.10-0.5"
 
 ["0.5.13-0.6.11"]
 Polynomials = "3"
+
+["0.5.13-0.6.14"]
+Interpolations = "0.14"
 
 ["0.5.14"]
 TimerOutputs = "0.5.14-0.5"
@@ -282,20 +286,29 @@ Statistics = "1"
 
 ["0.6.13-0"]
 LoopVectorization = "0.12"
+
+["0.6.13-0.6.14"]
 Spglib = "0.8.5-0.8"
 julia = "1.8.0-1"
 
+["0.6.15-0"]
+DocStringExtensions = "0.9"
+Interpolations = "0.14-0.15"
+Libxc = "0.3.17-0.3"
+Spglib = "0.9"
+julia = "1.9.0-1"
+
 ["0.6.2-0.6.7"]
 SnoopPrecompile = "1"
-
-["0.6.3-0"]
-Libxc = "0.3.14-0.3"
 
 ["0.6.3-0.6.11"]
 Statistics = "1.7.0-1"
 
 ["0.6.3-0.6.12"]
 julia = "1.7.0-1"
+
+["0.6.3-0.6.14"]
+Libxc = "0.3.14-0.3"
 
 ["0.6.4-0"]
 AtomsBase = "0.3.1-0.3"
