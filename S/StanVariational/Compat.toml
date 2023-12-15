@@ -11,8 +11,10 @@ StanRun = "0.0.0-0.2"
 StanSamples = "0.0.0-0.1"
 
 [0-4]
-DelimitedFiles = "1"
 julia = "1"
+
+["0-4.3"]
+DelimitedFiles = "1"
 
 ["1.0"]
 StanBase = "1"
@@ -146,10 +148,12 @@ StanSample = "6"
 
 ["4.2-4"]
 NamedTupleTools = "0.14"
-Statistics = "1"
 
 ["4.2-4.2.3"]
 DocStringExtensions = "0.8-0.9"
+
+["4.2-4.3"]
+Statistics = "1"
 
 ["4.2.1-4"]
 StanBase = "4.7.0-4"
@@ -167,5 +171,8 @@ StanSample = "6.7.0-6"
 DataFrames = "1"
 DocStringExtensions = "0.9"
 
-["4.2.5-4"]
+["4.2.5-4.3"]
 StanSample = "7"
+
+["4.4-4"]
+StanSample = "7-8"
