@@ -37,7 +37,6 @@ DataFrames = ["0.22", "1"]
 Distributions = "0.24-0.25"
 
 ["0.2.2-0"]
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0.2.2-0.3.0"]
@@ -46,6 +45,9 @@ QuasiMonteCarlo = "0.2.4-0.2"
 ["0.2.2-0.6"]
 DelimitedFiles = "1.6.0-1"
 Primes = "0.5"
+
+["0.2.2-0.8.0"]
+Statistics = "1.6.0-1"
 
 ["0.3"]
 FastGaussQuadrature = "0.4"
@@ -70,4 +72,9 @@ QuasiMonteCarlo = "0.3"
 ["0.8-0"]
 FastGaussQuadrature = ["0.4-0.5", "1"]
 KernelDensity = "0.6"
+
+["0.8.0"]
 StatsBase = "0.33"
+
+["0.8.1-0"]
+StatsBase = "0.33-0.34"

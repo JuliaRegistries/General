@@ -40,11 +40,13 @@ QuasiArrays = "0.10"
 julia = "1.9.0-1"
 
 ["0.2-0"]
-ClassicalOrthogonalPolynomials = "0.11"
 QuasiArrays = "0.11"
 
 ["0.2-0.2.2"]
 ArrayLayouts = "1.0.11-1"
+
+["0.2-0.2.5"]
+ClassicalOrthogonalPolynomials = "0.11"
 
 ["0.2.0"]
 ContinuumArrays = "0.14"
@@ -61,10 +63,16 @@ ContinuumArrays = "0.14-0.16"
 
 ["0.2.3-0"]
 ArrayLayouts = "1.4.0-1"
-ContinuumArrays = "0.16"
 InfiniteArrays = "0.13"
 LazyArrays = "1.8.0-1"
 LazyBandedMatrices = "0.9"
 
+["0.2.3-0.2.5"]
+ContinuumArrays = "0.16"
+
 ["0.2.5-0"]
 BandedMatrices = ["0.17.17-0.17", "1"]
+
+["0.2.6-0"]
+ClassicalOrthogonalPolynomials = "0.11-0.12"
+ContinuumArrays = "0.16-0.17"

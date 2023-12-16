@@ -57,16 +57,23 @@ CImGui_jll = "1.78"
 ["1.79"]
 CImGui_jll = "1.79"
 
+["1.82"]
+ImGuiGLFWBackend = "0.1"
+ImGuiOpenGLBackend = "0.1"
+
 ["1.82-1"]
 CEnum = "0.4"
-ImGuiGLFWBackend = "0.1"
 ImGuiOpenGL2Backend = "0.1"
-ImGuiOpenGLBackend = "0.1"
 Preferences = "1"
 julia = "1.6.0-1"
 
 ["1.82.0"]
 LibCImGui = "1.82.2-1"
 
-["1.82.1-1"]
+["1.82.1-1.82"]
 LibCImGui = "1.82"
+
+["1.89-1"]
+ImGuiGLFWBackend = "0.2"
+ImGuiOpenGLBackend = "0.2"
+LibCImGui = "1.89"

@@ -11,17 +11,23 @@ ImageTransformations = "0.10"
 JSON = "0.21"
 JpegTurbo = "0.1"
 KernelAbstractions = "0.9"
-NerfUtils = "0.1"
 Preferences = "1.4.0-1"
 Quaternions = "0.7"
 Rotations = "1.6.0-1"
 StaticArrays = "1.6.0-1"
-Statistics = "1.9.0-1"
 Zygote = "0.6"
 julia = "1.9.0-1"
 
 ["0-0.1.0"]
 AMDGPU = "0.6"
 
-["0.1.1-0"]
+["0-0.1.1"]
+NerfUtils = "0.1"
+Statistics = "1.9.0-1"
+
+["0.1.1"]
 AMDGPU = "0.6-0.7"
+
+["0.1.2-0"]
+AMDGPU = "0.8"
+NerfUtils = "0.1.4-0.1"

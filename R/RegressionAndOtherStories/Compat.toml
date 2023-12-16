@@ -1,12 +1,9 @@
 [0]
 DataFrames = "1.3.0-1"
 DataStructures = "0.18.11-0.18"
-DelimitedFiles = "1"
 LaTeXStrings = "1.3.0-1"
-NamedArrays = "0.9.6-0.9"
 NamedTupleTools = "0.14"
 Reexport = "1.2.2-1"
-Statistics = "1"
 julia = "1"
 
 ["0-0.13"]
@@ -16,6 +13,11 @@ StatsBase = "0.33.16-0.33"
 CSV = "0.10.3-0.10"
 CategoricalArrays = "0.10.5-0.10"
 Distributions = "0.25.53-0.25"
+
+["0-0.15.6"]
+DelimitedFiles = "1"
+NamedArrays = "0.9.6-0.9"
+Statistics = "1"
 
 ["0.1.6-0.2"]
 AlgebraOfGraphics = "0.6.6-0.6"
@@ -39,18 +41,26 @@ MetaGraphs = "0.7.2-0.7"
 ["0.14-0.15.2"]
 StatsBase = "0.33.16-0.34"
 
-["0.15-0"]
+["0.15-0.15.6"]
 CausalInference = "0.11"
 
 ["0.15.3-0"]
 CSV = "0.10.11-0.10"
-CairoMakie = "0.10"
 CategoricalArrays = "0.10"
 Distributions = "0.25"
 DocStringExtensions = "0.9"
 KernelDensity = "0.6"
 StatsBase = "0.33-0.34"
 StatsFuns = "1.3.0-1"
+
+["0.15.3-0.15.6"]
+CairoMakie = "0.10"
+
+["0.15.7-0"]
+CairoMakie = "0.11"
+CausalInference = "0.11-0.12"
+Makie = "0.20"
+NamedArrays = "0.10"
 
 ["0.2.2-0"]
 Parameters = "0.12"
@@ -88,7 +98,7 @@ PlutoPDF = "0.1.4-0.1"
 ["0.9"]
 StanSample = "7.1.0-7"
 
-["0.9-0"]
+["0.9-0.15.6"]
 Makie = "0.19"
 
 ["0.9.3-0"]

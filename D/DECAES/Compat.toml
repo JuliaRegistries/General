@@ -24,7 +24,6 @@ TimerOutputs = "0.5"
 LoggingExtras = "0.4"
 
 ["0.2-0"]
-NLopt = "0.6"
 PolynomialRoots = "1"
 
 ["0.2-0.3"]
@@ -34,11 +33,13 @@ Polynomials = "1.1.0-1"
 ["0.2-0.4.2"]
 LightXML = "0.9"
 
+["0.2-0.5.0"]
+NLopt = "0.6"
+
 ["0.4-0"]
 ArgParse = "1"
 Dierckx = "0.4-0.5"
 MAT = "0.7-0.10"
-NIfTI = "0.4-0.5"
 StaticArrays = ["0.12", "1"]
 UnsafeArrays = "1"
 
@@ -53,6 +54,9 @@ SpecialFunctions = ["0.10", "1"]
 ["0.4-0.4.3"]
 DocStringExtensions = "0.8"
 ProgressMeter = "1.6.0-1"
+
+["0.4-0.5.0"]
+NIfTI = "0.4-0.5"
 
 ["0.4.2-0.4"]
 Statistics = "1.6.0-1"
@@ -81,5 +85,17 @@ LoggingExtras = "0.4-0.5"
 LoggingExtras = ["0.4-0.5", "1"]
 ParXRec = "0.1-0.2"
 PrecompileTools = "1"
-Statistics = "1.9.0-1"
 julia = "1.9.0-1"
+
+["0.5.0"]
+Statistics = "1.9.0-1"
+
+["0.5.1-0"]
+Dates = "1"
+LinearAlgebra = "1"
+Logging = "1"
+NIfTI = "0.4-0.6"
+NLopt = ["0.6", "1"]
+Random = "1"
+Scratch = "1"
+Statistics = "1"

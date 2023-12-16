@@ -8,15 +8,21 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressBars = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 Sobol = "ed01d8cd-4d21-5b2a-85b4-cc3bdc58bad4"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 
+["0-0.2"]
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+
 ["0.2-0"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["0.3-0"]
+LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"

@@ -5,17 +5,19 @@ DataStructures = "0.18"
 Distributions = "0.25"
 LabelledArrays = "1.6.1-1"
 NLopt = "0.6"
-NodeJS = "1"
 OrdinaryDiffEq = "6"
 ProgressMeter = "1"
 RecipesBase = "1"
 RecursiveArrayTools = "2"
 Reexport = "1"
-Sundials = "4.7.0-4"
 julia = "1.6.0-1"
 
 ["0-0.4.11"]
 XLSX = "0.7"
+
+["0-0.4.13"]
+NodeJS = "1"
+Sundials = "4.7.0-4"
 
 ["0-0.4.8"]
 DiffEqBase = "6.78.0-6"
@@ -24,8 +26,13 @@ DiffEqBase = "6.78.0-6"
 NaNMath = "1"
 XLSX = "0.7-0.8"
 
+["0.4.14-0"]
+DiffEqBase = "6.122.0-6"
+NodeJS = "2"
+Sundials = "4.16-4.19.3"
+
 ["0.4.5-0.4.11"]
 NaNMath = "0.3"
 
-["0.4.9-0"]
+["0.4.9-0.4.13"]
 DiffEqBase = "6.82.0-6"

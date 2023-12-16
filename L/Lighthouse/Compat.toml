@@ -1,5 +1,4 @@
 [0]
-StatsBase = "0.33"
 TensorBoardLogger = "0.1"
 
 ["0-0.11"]
@@ -8,6 +7,9 @@ StatsPlots = "0.14"
 ["0-0.12.1"]
 Statistics = "1.3.0-1"
 julia = "1.3.0-1"
+
+["0-0.15"]
+StatsBase = "0.33"
 
 ["0.12.0"]
 AbstractPlotting = "0.18"
@@ -29,11 +31,13 @@ Makie = "0.13.14-0.15"
 Makie = "0.16.5-0.16"
 
 ["0.14-0"]
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0.14-0.14.17"]
 Legolas = "0.3"
+
+["0.14-0.15"]
+Statistics = "1.6.0-1"
 
 ["0.14.1-0"]
 Tables = "1.7.0-1"
@@ -51,6 +55,12 @@ Legolas = "0.3-0.4"
 ArrowTypes = "1-2"
 DataFrames = "1.3.0-1"
 
+["0.15"]
+Makie = "0.17.4-0.18"
+
 ["0.15-0"]
 Legolas = "0.5"
-Makie = "0.17.4-0.18"
+
+["0.16-0"]
+Makie = "0.20"
+StatsBase = "0.33-0.34"

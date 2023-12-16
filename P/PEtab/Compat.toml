@@ -21,7 +21,6 @@ PyCall = "1"
 ReverseDiff = "1"
 RuntimeGeneratedFunctions = "0.4-0.5"
 SciMLSensitivity = "6-7"
-SteadyStateDiffEq = "1"
 Sundials = "4"
 YAML = "0.4"
 Zygote = "0.6"
@@ -29,6 +28,9 @@ julia = "1"
 
 ["1-2.0.1"]
 NonlinearSolve = "1"
+
+["1-2.4.1"]
+SteadyStateDiffEq = "1"
 
 ["1.0"]
 DataFrames = "1"
@@ -45,12 +47,14 @@ StatsBase = "0.33-0.34"
 
 ["1.4-2"]
 QuasiMonteCarlo = "0.2-0.3"
+
+["1.4-2.3"]
 SBML = "1"
 
 ["1.4.0"]
 Revise = "3"
 
-["1.4.2-2"]
+["1.4.2-2.3"]
 SpecialFunctions = "2"
 
 [2]
@@ -65,7 +69,7 @@ SciMLBase = "1"
 ["2.0.1-2"]
 SciMLBase = "2"
 
-["2.0.2-2"]
+["2.0.2-2.5.1"]
 NonlinearSolve = "1-2"
 
 ["2.1.1-2"]
@@ -73,3 +77,15 @@ Distributed = "1"
 LinearAlgebra = "1"
 Printf = "1"
 Random = "1"
+
+["2.3-2"]
+Optimization = "3"
+
+["2.4-2"]
+SBMLImporter = "0.1"
+
+["2.4.2-2"]
+SteadyStateDiffEq = "1-2"
+
+["2.5.2-2"]
+NonlinearSolve = "2-3"

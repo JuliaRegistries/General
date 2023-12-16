@@ -75,7 +75,7 @@ Statistics = "1"
 ["0.8.4-0.9.0"]
 KernelDensity = "0.0.0-0.5"
 
-["0.9-4"]
+["0.9-4.7.3"]
 Statistics = "1"
 
 ["0.9.0"]
@@ -341,13 +341,13 @@ CSV = "0.9-0.10"
 ["4.5.1"]
 StatsFuns = ["0.9", "1"]
 
-["4.5.1-4"]
-NamedTupleTools = "0.13-0.14"
-
 ["4.5.1-4.5"]
 AxisKeys = "0.1-0.2"
 
-["4.5.2-4"]
+["4.5.1-4.7.3"]
+NamedTupleTools = "0.13-0.14"
+
+["4.5.2-4.7.3"]
 StatsFuns = ["0.8-0.9", "1"]
 
 ["4.6-4"]
@@ -359,6 +359,13 @@ PrettyTables = "2"
 MCMCChains = "5.6.0-6"
 StatsBase = "0.33-0.34"
 
+["4.7.3"]
+NamedArrays = "0.9-0.10"
+
 ["4.7.3-4"]
 Documenter = ["0.27", "1"]
-NamedArrays = "0.9-0.10"
+
+["4.7.4-4"]
+NamedArrays = "0.10"
+NamedTupleTools = "0.14"
+StatsFuns = "1"

@@ -1,10 +1,13 @@
-[1]
-BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
-BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
-
 ["1-1.0.1"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["1.0.3-1"]
+["1-1.1"]
+BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+
+["1.0.3-1.1"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+["1.2-1"]
+CALCEPH_jll = "dd3044d3-6c85-52eb-b239-9fbeaa51d7ac"

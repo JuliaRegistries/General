@@ -23,7 +23,6 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
 ModelParameters = "4744a3fa-6c31-4707-899e-a3298e4618ad"
-NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
 NamedDims = "356022a1-0364-5f58-8944-0da4b18d706f"
 OnlineStats = "a15396b6-48d5-5d58-9928-6d29437db91e"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -56,6 +55,14 @@ SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 ["0-0.8"]
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 ThreadsX = "ac1d9e8a-700a-412c-b207-f0111f4b6c0d"
+
+["0-0.9"]
+NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
+
+["0.10-0"]
+DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
+NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
+YAXArrays = "c21b50f5-aa40-41ea-b809-c0f5e47bfa5c"
 
 ["0.5-0"]
 AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"

@@ -1,6 +1,5 @@
 [0]
 ConstructionBase = "1"
-UnicodeGraphics = "0.1"
 julia = "1.6.0-1"
 
 ["0-0.1"]
@@ -12,6 +11,9 @@ StaticArrays = ["0.12", "1"]
 
 ["0-0.2.0"]
 SparseArrays = "1"
+
+["0-0.2.1"]
+UnicodeGraphics = "0.1"
 
 ["0.2-0"]
 Adapt = "3"
@@ -27,3 +29,6 @@ Dates = ["0.1", "1"]
 LinearAlgebra = ["0.1", "1"]
 Random = "1"
 SparseArrays = ["0.1", "1"]
+
+["0.2.2-0"]
+UnicodeGraphics = "0.2"

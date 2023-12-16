@@ -69,7 +69,7 @@ GPUArrays = "6"
 ["0.2.2-0.2.3"]
 GPUCompiler = "0.9"
 
-["0.2.3-0"]
+["0.2.3-0.8.0"]
 MacroTools = "0.5"
 
 ["0.2.4-0.2.5"]
@@ -180,7 +180,6 @@ LLD_jll = "14-15"
 LLVM = "6"
 LLVM_jll = "14-15"
 SpecialFunctions = "2"
-Statistics = "1.9.0-1"
 julia = "1.9.0-1"
 
 ["0.5-0.5.4"]
@@ -188,6 +187,9 @@ GPUCompiler = "0.21"
 
 ["0.5-0.5.5"]
 GPUArrays = "8"
+
+["0.5-0.7.3"]
+Statistics = "1.9.0-1"
 
 ["0.5.0"]
 HIP_jll = "5"
@@ -210,7 +212,20 @@ GPUCompiler = "0.23"
 GPUCompiler = "0.24"
 
 ["0.7-0"]
-GPUCompiler = "0.24-0.25"
 HIP_jll = "5.4.0-5"
-ROCmDeviceLibs_jll = "5.4.0-5"
 hsa_rocr_jll = "5.4.0-5"
+
+["0.7-0.7.3"]
+ROCmDeviceLibs_jll = "5.4.0-5"
+
+["0.7-0.8.0"]
+GPUCompiler = "0.24-0.25"
+
+["0.7.4-0"]
+ROCmDeviceLibs_jll = "5.6.1-5"
+
+["0.8.1-0"]
+Atomix = "0.1"
+GPUCompiler = "0.25"
+Random123 = "1.6.0-1"
+RandomNumbers = "1.5.0-1"

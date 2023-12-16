@@ -2,12 +2,14 @@
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Metis = "2679e427-3c69-5b7f-982b-ece356f1e94b"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
+
+["0-0.10"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+Metis = "2679e427-3c69-5b7f-982b-ece356f1e94b"
 
 ["0-0.5"]
 IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
@@ -22,6 +24,10 @@ CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
 ["0.10-0"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+
+["0.11-0"]
+KLU = "ef3ab10e-7fda-4108-b977-705223b18434"
+KrylovPreconditioners = "45d422c2-293f-44ce-8315-2cb988662dec"
 
 ["0.7-0.8"]
 CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"

@@ -1,6 +1,4 @@
 [0]
-BloqadeExpr = "0.1"
-BloqadeWaveforms = "0.1"
 Configurations = "0.17"
 
 ["0-0.1.1"]
@@ -12,6 +10,10 @@ OrderedCollections = "1"
 
 ["0-0.1.3"]
 Yao = "0.7"
+
+["0-0.3"]
+BloqadeExpr = "0.1"
+BloqadeWaveforms = "0.1"
 
 ["0.1.2-0"]
 julia = "1.6.0-1"
@@ -28,9 +30,11 @@ BitBasis = "0.8"
 Yao = "0.8"
 
 ["0.2-0"]
-BloqadeODE = "0.1"
 Roots = "2"
 Unitful = "1"
+
+["0.2-0.3"]
+BloqadeODE = "0.1"
 
 ["0.2.4-0"]
 AWS = "1.78.0-1"
@@ -48,3 +52,8 @@ Braket = "0.6"
 ["0.3-0"]
 Braket = "0.7"
 OrderedCollections = "1.5.0-1"
+
+["0.4-0"]
+BloqadeExpr = "0.2"
+BloqadeODE = "0.2"
+BloqadeWaveforms = "0.2"

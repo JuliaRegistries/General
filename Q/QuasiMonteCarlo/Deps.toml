@@ -1,9 +1,11 @@
 [0]
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Sobol = "ed01d8cd-4d21-5b2a-85b4-cc3bdc58bad4"
 
 ["0-0.2"]
 LatinHypercubeSampling = "a5e1c1ea-c99a-51d3-a14d-a9a37257b02d"
+
+["0-0.3.2"]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 
 ["0.2.1-0"]
 LatticeRules = "73f95e8e-ec14-4e6a-8b18-0d2e271c4e55"
@@ -21,3 +23,6 @@ ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
 
 ["0.3.1-0"]
 Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
+
+["0.3.3-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
