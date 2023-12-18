@@ -61,8 +61,10 @@ Static = "0.8"
 SnoopPrecompile = "1"
 
 [7]
-Adapt = "3"
 Requires = "1"
+
+["7-7.6"]
+Adapt = "3"
 
 ["7.5"]
 LinearAlgebra = "1.6.0-1"
@@ -74,3 +76,6 @@ LinearAlgebra = "1.9.0-1"
 SparseArrays = "1.9.0-1"
 SuiteSparse = "1.9.0-1"
 julia = "1.9.0-1"
+
+["7.7-7"]
+Adapt = "3-4"
