@@ -66,10 +66,12 @@ HDF5 = "0.10-0.16"
 
 ["0.4-0"]
 DataStructures = "0.18"
-RedPitayaDAQServer = "0.6"
 
 ["0.4-0.4.1"]
 MPIFiles = "0.12.6-0.12"
+
+["0.4-0.4.2"]
+RedPitayaDAQServer = "0.6"
 
 ["0.4.1-0"]
 HDF5 = "0.16"
@@ -78,3 +80,14 @@ HDF5 = "0.16"
 DocStringExtensions = "0.8-0.9"
 MPIFiles = "0.12-0.14"
 Unitful = "1.13.0-1"
+
+["0.4.3-0"]
+Dates = "1"
+InteractiveUtils = "1"
+LinearAlgebra = "1"
+Mmap = "1"
+REPL = "1"
+RedPitayaDAQServer = "0.6-0.7"
+Sockets = "1"
+TOML = "1"
+UUIDs = "1"
