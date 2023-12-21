@@ -1,7 +1,6 @@
 [0]
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
-DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DynamicalSystemsBase = "6e36e845-645a-534a-86f2-f5d4aa5a06b4"
@@ -16,5 +15,12 @@ OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 ParallelStencil = "94395366-693c-11ea-3b26-d9b7aac5d958"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.1"]
+DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.2-0"]
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
