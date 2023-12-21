@@ -1,13 +1,25 @@
 [0]
 ComponentArrays = "0.12-0.15"
 DiffEqBase = "6"
-DifferentialEquations = "7.1.0-7"
 Distributions = "0.25"
-Infiltrator = "1"
 LabelledArrays = "1.7.0-1"
 ModelingToolkit = "8"
 NamedArrays = "0.9-0.10"
-RecursiveArrayTools = "2.38.0-2"
 Requires = "1.3.0-1"
 StaticArrays = "1.3.0-1"
 julia = "1.6.0-1"
+
+["0-0.2"]
+DifferentialEquations = "7.1.0-7"
+Infiltrator = "1"
+RecursiveArrayTools = "2.38.0-2"
+
+["0.3-0"]
+Chain = "0.5"
+DomainSets = "0.6-0.7"
+InlineStrings = "1"
+OrdinaryDiffEq = "6"
+PDEBase = "0.1"
+RecursiveArrayTools = "2.38.0-3"
+SciMLBase = "2"
+SymbolicUtils = "1"
