@@ -19,15 +19,14 @@ jobs:
       fail-fast: false
       matrix:
         version:
+          # Keep this list in sync with `update_manifests.yml`.
           - '1.3'
           - '1.4'
           - '1.5'
           - '1.6'
           - '1.7'
           - '1.8'
-          # - '1.9' # TODO: uncomment this line once Julia 1.10.0 is released
-          # - '~1.10.0-0' # TODO: uncomment this line once the first Julia 1.10.0 release candidate comes out. TODO: delete this line once Julia 1.10.0 is released
-          - '1'
+          - '1.9'
           # - 'nightly'
         os:
           - ubuntu-latest
