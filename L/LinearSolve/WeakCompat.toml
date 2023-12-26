@@ -21,15 +21,25 @@ KrylovKit = "0.6"
 
 ["2.20.1-2"]
 CUDA = "5"
-Enzyme = "0.11"
-EnzymeCore = "0.6"
 FastAlmostBandedMatrices = "0.1"
 Metal = "0.5"
 Pardiso = "0.5"
 
-["2.21-2"]
+["2.20.1-2.21"]
+Enzyme = "0.11"
+EnzymeCore = "0.6"
+
+["2.21"]
 RecursiveArrayTools = "2-3"
 
+["2.22-2"]
+BlockDiagonals = "0.1.42-0.1"
+Enzyme = "0.11.10-0.11"
+EnzymeCore = "0.6.2-0.6"
+RecursiveArrayTools = "2.38.0-3"
+
 ["2.6-2"]
-BlockDiagonals = "0.1"
 KernelAbstractions = "0.9"
+
+["2.6-2.21"]
+BlockDiagonals = "0.1"
