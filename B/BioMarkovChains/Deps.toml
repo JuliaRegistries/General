@@ -1,11 +1,13 @@
 [0]
 BioSequences = "7e6ae17a-c86d-528c-b3b9-7f778a29fe59"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
-TestItemRunner = "f8b46487-2199-4994-9208-9a1283c18c0a"
-TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
 
 ["0-0.5"]
 MarkovChainHammer = "38c40fd0-bccb-4723-b30d-b2caea0ad8d9"
+
+["0-0.8"]
+TestItemRunner = "f8b46487-2199-4994-9208-9a1283c18c0a"
+TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
 
 ["0.1.1-0.1.3"]
 Kmers = "445028e4-d31f-4f27-89ad-17affd83fc22"
@@ -14,5 +16,7 @@ Kmers = "445028e4-d31f-4f27-89ad-17affd83fc22"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 ["0.5-0"]
-StatsAPI = "82ae8749-77ed-4fe6-ae5f-f523153014b0"
 VectorizedKmers = "2ef45bd6-4c2b-43d8-88b3-40597287359a"
+
+["0.5-0.8"]
+StatsAPI = "82ae8749-77ed-4fe6-ae5f-f523153014b0"
