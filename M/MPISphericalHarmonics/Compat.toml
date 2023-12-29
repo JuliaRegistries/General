@@ -1,6 +1,5 @@
 [0]
 DocStringExtensions = "0.8-0.9"
-MPIFiles = "0.12"
 SphericalHarmonicExpansions = "0.1"
 Unitful = "1.11.0-1"
 julia = "1"
@@ -8,11 +7,21 @@ julia = "1"
 ["0-0.0.2"]
 MPIMagneticFields = "0.0.2"
 
+["0-0.0.6"]
+MPIFiles = "0.12"
+
 ["0.0.3-0.0.4"]
 MPIMagneticFields = "0.0.2-0.0.3"
 
 ["0.0.5"]
 MPIMagneticFields = "0.0.4"
 
-["0.0.6-0"]
+["0.0.6"]
 MPIMagneticFields = "0.0.4-0.0.5"
+
+["0.0.7-0"]
+HDF5 = "0.14-0.17"
+LinearAlgebra = "1"
+MPIFiles = "0.12-0.14"
+MPIMagneticFields = "0.0.4-0.0.6"
+NLsolve = "4"
