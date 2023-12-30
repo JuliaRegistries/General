@@ -1,8 +1,15 @@
 [0]
-BeliefUpdaters = "8bb6e9a1-7d73-552c-a44a-e5dc5634aac4"
 POMDPFiles = "9cf5b727-2e06-5671-8c87-8c6b0f729d5d"
-POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
-POMDPPolicies = "182e52fb-cfd0-5e46-8c26-fd0667c990f4"
 POMDPs = "a93abf59-7444-517b-a68a-c42f96afdd7d"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+["0-0.2"]
+BeliefUpdaters = "8bb6e9a1-7d73-552c-a44a-e5dc5634aac4"
+POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
+POMDPPolicies = "182e52fb-cfd0-5e46-8c26-fd0667c990f4"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.3-0"]
+POMDPSolve_jll = "7dc2201c-deb4-56f8-b3a0-2ab29a2c732a"
+POMDPTools = "7588e00f-9cae-40de-98dc-e0c70c48cdd7"
+Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
