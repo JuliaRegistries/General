@@ -162,9 +162,14 @@ AxisArrays = "0.4.7-0.4"
 BipartiteMatching = "0.1"
 DynarePreprocessor_jll = "6.4"
 FillArrays = "1.9.3-1"
-LoggingExtras = "0.4.9-0.4"
 MKL = "0.4.3-0.6"
 MPI = "0.20"
 MUMPS = "1"
 Metaheuristics = "3"
 ProximalOperators = "0.15.3-0.16"
+
+["0.9.0"]
+LoggingExtras = "0.4.9-0.4"
+
+["0.9.1-0"]
+LoggingExtras = ["0.4.9-0.4", "1"]
