@@ -92,15 +92,19 @@ JSON3 = "1.13.1"
 ["0.7.5-0"]
 AWSS3 = "0.11.2"
 AxisArrays = "0.4.7"
-CSV = "0.10.11"
 DecFP = "1.3.2"
+
+["0.7.5-0.8.0"]
+CSV = "0.10.11"
 OrderedCollections = "1.6.2"
 
 ["0.7.6-0"]
 AWS = "1.90.3"
-Compat = "4.10.0"
 DataStructures = "0.18.15"
 Graphs = "1.9.0"
+
+["0.7.6-0.8.0"]
+Compat = "4.10.0"
 HTTP = "1.10.0"
 JSON3 = "1.13.2"
 
@@ -111,8 +115,18 @@ Dates = "1.6.0-1"
 Distributed = "1.6.0-1"
 Downloads = "1"
 InteractiveUtils = "1.6.0-1"
-JLD2 = "0.4.38"
 LinearAlgebra = "1.6.0-1"
 Logging = "1.6.0-1"
 Random = "1.6.0-1"
 UUIDs = "1.6.0-1"
+
+["0.8.0"]
+JLD2 = "0.4.38"
+
+["0.8.1-0"]
+CSV = "0.10.12"
+Compat = "4.10.1"
+HTTP = "1.10.1"
+JLD2 = "0.4.41"
+JSON3 = "1.14.0"
+OrderedCollections = "1.6.3"
