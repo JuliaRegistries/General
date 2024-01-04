@@ -1,5 +1,4 @@
 [0]
-AlgebraicMultigrid = "0.5.1-0.5"
 DataStructures = "0.18.13-0.18"
 ForwardDiff = "0.10.30-0.10"
 LoopVectorization = "0.12.115-0.12"
@@ -18,6 +17,9 @@ Krylov = "0.8.1-0.8"
 
 ["0-0.2.10"]
 Statistics = "1.7.0-1"
+
+["0-0.2.12"]
+AlgebraicMultigrid = "0.5.1-0.5"
 
 ["0-0.2.2"]
 Polyester = "0.6.11-0.6"
@@ -61,8 +63,12 @@ LinearAlgebra = "1"
 SparseArrays = "1"
 Statistics = "1"
 
-["0.2.12-0"]
+["0.2.12"]
 Jutul = "0.2.17-0.2"
+
+["0.2.13-0"]
+AlgebraicMultigrid = "0.5.1-0.6"
+Jutul = "0.2.18-0.2"
 
 ["0.2.2"]
 Jutul = "0.2.5-0.2"
