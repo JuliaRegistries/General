@@ -11,11 +11,9 @@ Flux = "0.13-0.14"
 FluxOptTools = "0.1"
 ForwardDiff = "0.10"
 GLMNet = "0.7"
-GR = "0.72"
 Geodesy = "1"
 GlobalSensitivity = "2"
 Inflate = "0.1"
-Interpolations = "0.14"
 IterTools = "1"
 KernelFunctions = "0.10"
 LazyArtifacts = "1"
@@ -47,6 +45,10 @@ MLJLinearModels = "0.9"
 ["1-1.1.5"]
 Statistics = "1.6.0-1"
 
+["1-1.1.6"]
+GR = "0.72"
+Interpolations = "0.14"
+
 ["1.1.2-1"]
 SatelliteToolboxGeomagneticField = "0.1"
 
@@ -67,3 +69,7 @@ Pkg = "1"
 Random = "1"
 Statistics = "1"
 TOML = "1"
+
+["1.1.7-1"]
+GR = "0.72-0.73"
+Interpolations = "0.14-0.15"
