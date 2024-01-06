@@ -50,11 +50,11 @@ SnoopPrecompile = "1"
 ["0.3.5-0.3"]
 AbstractAlgebra = "0.23-0.30"
 
-["0.4-0"]
-SIMD = "3"
-
 ["0.4-0.4.3"]
 AbstractAlgebra = "0.23-0.31"
+
+["0.4-0.5"]
+SIMD = "3"
 
 ["0.4.0"]
 MultivariatePolynomials = "0.5"
@@ -76,5 +76,12 @@ TimerOutputs = "0.5"
 AbstractAlgebra = "0.23-0.33"
 
 ["0.5.1-0"]
-AbstractAlgebra = "0.23-0.34"
 PrettyTables = "2"
+
+["0.5.1-0.5"]
+AbstractAlgebra = "0.23-0.34"
+
+["0.6-0"]
+AbstractAlgebra = "0.34"
+Atomix = "0.1"
+Nemo = "0.38.3-0.38"
