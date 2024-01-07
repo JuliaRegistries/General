@@ -114,12 +114,23 @@ documentation, tests, and continuous integration.
 Some types of packages should not be registered, or are not yet ready for registration:
 
 * The General registry is not a place for "personal packages" that consist of
-collections of "utility functions" nor for packages that are only useful for a closed group
-(like a research group or a company). For that, it is easy to set up your own registry using
+collections of "utility functions". For that, it is easy to set up your own registry using
 for example [LocalRegistry.jl](https://github.com/GunnarFarneback/LocalRegistry.jl). The
 [Pkg documentation about registries](https://pkgdocs.julialang.org/v1/registries/) might be useful
 if you decide to go this route.
 * "Empty" packages that do not yet have functionality are not ready to be registered.
+
+#### Should I register a package that is only useful to a small group of people
+
+For for packages that are only useful in a narrow domain, go ahead! Just make sure the
+pacakge name clearly indicates the domain which the package is useful for.
+
+For packages that are only useful to a closed group (like a research group, a company, 
+or a course at a specific college), please consider either making the package more 
+broadly useful or setting up your own registry, for example using
+[LocalRegistry.jl](https://github.com/GunnarFarneback/LocalRegistry.jl). However, even 
+packages only useful to a closed group may still be registered in the General registry 
+so long as their name clearly identifies the closed group the package is useful to.
 
 #### Can my package in this registry depend on unregistered packages?
 
