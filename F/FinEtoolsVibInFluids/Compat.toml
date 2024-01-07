@@ -7,7 +7,7 @@ JSON = "0.21"
 Statistics = "1.5"
 julia = "1.5"
 
-[1]
+["1.0"]
 Arpack = "0.5"
 DelimitedFiles = "1.6"
 FinEtools = "5"
@@ -15,3 +15,14 @@ FinEtoolsDeforLinear = "1"
 FinEtoolsVoxelMesher = "1"
 Statistics = "1.6"
 julia = "1.6"
+
+["1.1-1"]
+Arpack = "0.5.3"
+DelimitedFiles = "1.9.1-1"
+FinEtools = "7.3.0-7"
+FinEtoolsDeforLinear = "2.1.1-2"
+FinEtoolsVoxelMesher = "2.0.1-2"
+LinearAlgebra = "1.10.0-1"
+SparseArrays = "1.10.0-1"
+Statistics = "1.10.0-1"
+julia = "1.10.0-1"
