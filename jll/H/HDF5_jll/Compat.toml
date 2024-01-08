@@ -15,5 +15,14 @@ JLLWrappers = "1.2.0-1"
 JLLWrappers = "1.4.0-1"
 LazyArtifacts = "1"
 MPIPreferences = "0.1"
-MPItrampoline_jll = "5.3.0-5"
 OpenSSL_jll = "3.0.8-3"
+
+["1.14-1.14.2"]
+MPItrampoline_jll = "5.3.0-5"
+
+["1.14.3-1"]
+Artifacts = "1"
+Libdl = "1"
+MPItrampoline_jll = "5.3.1-5"
+OpenMPI_jll = "4.1.6-4"
+TOML = "1"
