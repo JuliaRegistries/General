@@ -1,5 +1,4 @@
 [0]
-Adapt = "2-3"
 ColorTypes = "0.10-0.11"
 ConstructionBase = "1"
 Flatten = "0.4"
@@ -12,6 +11,9 @@ Requires = ["0.5", "1"]
 ["0-0.1"]
 ArchGDAL = "0.7"
 DimensionalData = "0.19.1-0.19"
+
+["0-0.10.0"]
+Adapt = "2-3"
 
 ["0-0.2"]
 GeoInterface = "0.5"
@@ -36,6 +38,9 @@ RasterDataSources = "0.5"
 
 ["0-0.7.0"]
 julia = "1"
+
+["0.10.1-0"]
+Adapt = "2-4"
 
 ["0.2-0.2.1"]
 ArchGDAL = "0.7-0.8"

@@ -8,11 +8,13 @@ Distributions = "0.24"
 FFTW = "1.2.0-1"
 ForwardDiff = "0.10"
 Parameters = "0.12"
-RecursiveArrayTools = "2.7.0-2"
 Statistics = "1.4.0-1"
 
 ["0-2.1"]
 QuasiMonteCarlo = "0.2"
+
+["0-2.4"]
+RecursiveArrayTools = "2.7.0-2"
 
 ["0.0.2-1.2"]
 julia = "1"
@@ -49,3 +51,8 @@ Copulas = "0.1"
 
 ["2.4-2"]
 Copulas = "0.1.13"
+
+["2.5-2"]
+LinearAlgebra = "1"
+Random = "1"
+RecursiveArrayTools = "3"

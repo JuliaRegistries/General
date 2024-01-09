@@ -47,18 +47,26 @@ DSP = "0.6-0.7"
 DataStructures = "0.18"
 Distributions = "0.23-0.25"
 FFTW = "1"
-NLopt = "0.5-0.6"
 Optim = "1"
 Primes = "0.4-0.5"
 
 ["0.16.3-0.16.4"]
 StatsBase = "0.33"
 
+["0.16.3-0.16.5"]
+NLopt = "0.5-0.6"
+
 ["0.16.4-0"]
 Graphs = "1.6.0-1"
 SpecialFunctions = "1-2"
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
+
+["0.16.4-0.16.5"]
+Statistics = "1.6.0-1"
 
 ["0.16.5-0"]
 StatsBase = "0.33-0.34"
+
+["0.16.6-0"]
+NLopt = ["0.5-0.6", "1"]
+Statistics = "1"

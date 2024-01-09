@@ -29,7 +29,7 @@ FastClosures = "0.3"
 ["0.10-0.10.2"]
 SciMLBase = "1.29.0-1"
 
-["0.10.3-0"]
+["0.10.3-0.12"]
 SciMLBase = "1.45.0-1"
 
 ["0.10.4-0"]
@@ -50,14 +50,26 @@ PowerSystems = "2"
 
 ["0.11.1-0"]
 InfrastructureSystems = "1.21.0-1"
+
+["0.11.1-0.12"]
 PowerFlows = "0.3"
 PowerNetworkMatrices = "0.7"
 
 ["0.11.1-0.12.1"]
 PowerSystems = "2.2.0-2"
 
-["0.12.2-0"]
+["0.12.2-0.12"]
 PowerSystems = "2.4.0-2"
+
+["0.13-0"]
+LinearAlgebra = "1"
+Logging = "1"
+PowerFlows = "0.6"
+PowerNetworkMatrices = "0.9"
+PowerSystems = "3.1.2-3"
+Random = "1"
+SciMLBase = "2"
+SparseArrays = "1"
 
 ["0.2"]
 InfrastructureSystems = "0.15"

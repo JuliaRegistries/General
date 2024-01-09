@@ -1,6 +1,4 @@
 [0]
-NLopt = "0.6"
-Parameters = "0.12"
 Reexport = "1"
 Zygote = "0.6"
 julia = "1"
@@ -8,8 +6,16 @@ julia = "1"
 ["0-0.1.2"]
 NonconvexCore = "0.1.3-0.1"
 
+["0-0.1.7"]
+NLopt = "0.6"
+Parameters = "0.12"
+
 ["0.1.3-0"]
 NonconvexCore = "1"
 
 ["0.1.7-0"]
 StringDistances = "0.11"
+
+["0.1.8-0"]
+NLopt = ["0.6", "1"]
+Parameters = "0.12-0.13"
