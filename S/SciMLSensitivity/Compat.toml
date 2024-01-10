@@ -1,19 +1,11 @@
 [7]
 ChainRulesCore = ["0.10.7-0.10", "1"]
-DiffEqNoiseProcess = "4.1.4-5"
-Distributions = "0.24-0.25"
 EllipsisNotation = "1"
 FiniteDiff = "2"
 ForwardDiff = "0.10"
 GPUArraysCore = "0.1"
 Parameters = "0.12"
-QuadGK = "2.1.0-2"
 RandomNumbers = "1.5.3-1"
-Reexport = ["0.2", "1"]
-ReverseDiff = "1.9.0-1"
-StochasticDiffEq = "6.20.0-6"
-Tracker = "0.2"
-Zygote = "0.6"
 
 ["7-7.13"]
 Enzyme = "0.8-0.10"
@@ -48,6 +40,16 @@ ZygoteRules = "0.2"
 ["7-7.49"]
 Adapt = "1-3"
 
+["7-7.51"]
+DiffEqNoiseProcess = "4.1.4-5"
+Distributions = "0.24-0.25"
+QuadGK = "2.1.0-2"
+Reexport = ["0.2", "1"]
+ReverseDiff = "1.9.0-1"
+StochasticDiffEq = "6.20.0-6"
+Tracker = "0.2"
+Zygote = "0.6"
+
 ["7-7.6.2"]
 DiffEqOperators = "4.34.0-4"
 
@@ -55,11 +57,11 @@ DiffEqOperators = "4.34.0-4"
 DiffEqBase = "6.90.0-6"
 SciMLBase = "1.24.0-1"
 
-["7.1-7"]
-DiffEqBase = "6.93.0-6"
-
 ["7.1-7.4"]
 SciMLBase = "1.42.3-1"
+
+["7.1-7.51"]
+DiffEqBase = "6.93.0-6"
 
 ["7.11-7.39"]
 SciMLBase = "1.66.0-1"
@@ -76,7 +78,7 @@ SimpleNonlinearSolve = "0.1.8-0.1"
 ["7.2-7.8"]
 PreallocationTools = "0.4"
 
-["7.2.1-7"]
+["7.2.1-7.51"]
 OrdinaryDiffEq = "6.19.1-6"
 
 ["7.21"]
@@ -118,7 +120,7 @@ SparseDiffTools = "2"
 ["7.33-7.35"]
 LinearSolve = "1-2"
 
-["7.33.1-7"]
+["7.33.1-7.51"]
 SciMLOperators = "0.1-0.3"
 
 ["7.35.0"]
@@ -137,7 +139,7 @@ ADTypes = "0.1-0.2"
 ["7.37.1-7.38"]
 SparseDiffTools = "2.4.0-2"
 
-["7.38-7"]
+["7.38-7.51"]
 DiffEqCallbacks = "2.29.0-2"
 
 ["7.39-7"]
@@ -146,7 +148,7 @@ SparseDiffTools = "2.5.0-2"
 ["7.4-7.20"]
 StaticArrays = "1"
 
-["7.40-7"]
+["7.40-7.51"]
 SciMLBase = "1.66.0-2"
 
 ["7.41.1-7"]
@@ -155,24 +157,47 @@ FunctionProperties = "0.1"
 ["7.42-7"]
 Functors = "0.4"
 
-["7.47-7"]
+["7.47-7.51"]
 Statistics = "1"
 julia = "1.9.0-1"
 
-["7.48-7"]
+["7.48-7.51"]
 RecursiveArrayTools = "2.4.2-3"
 
 ["7.49-7"]
+StaticArrays = "1.8.0-1"
+
+["7.49-7.51"]
 LinearAlgebra = ["0.0.0", "1"]
 Markdown = ["0.0.0", "1"]
 Random = ["0.0.0", "1"]
-StaticArrays = "1.8.0-1"
 
 ["7.5-7.6.1"]
 SciMLBase = "1.50.0-1"
 
 ["7.50-7"]
 Adapt = "1-4"
+
+["7.52-7"]
+DiffEqBase = "6.145.4-6"
+DiffEqCallbacks = "2.34.0-2"
+DiffEqNoiseProcess = "5.19.0-5"
+Distributions = "0.25"
+LinearAlgebra = "1.10.0-1"
+Markdown = "1.10.0-1"
+OrdinaryDiffEq = "6.68.1-6"
+QuadGK = "2.9.1-2"
+Random = "1.10.0-1"
+RecursiveArrayTools = "3.5.1-3"
+Reexport = "1"
+ReverseDiff = "1.15.1-1"
+SciMLBase = "2.17.1-2"
+SciMLOperators = "0.3"
+Statistics = "1.10.0-1"
+StochasticDiffEq = "6.63.2-6"
+Tracker = "0.2.30-0.2"
+Zygote = "0.6.67-0.6"
+julia = "1.10.0-1"
 
 ["7.6-7"]
 FunctionWrappersWrappers = "0.1"
