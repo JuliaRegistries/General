@@ -2,8 +2,14 @@
 DifferentialEquations = "7"
 Distributions = "0.25"
 FFTW = "1"
-Interpolations = "0.14"
 PreallocationTools = "0.4"
 SpectralDensities = "0.2"
-Statistics = "1.7.0-1"
 julia = "1.7.0-1"
+
+["0-0.1"]
+Interpolations = "0.14"
+Statistics = "1.7.0-1"
+
+["0.2-0"]
+Interpolations = "0.14-0.15"
+Statistics = "1"
