@@ -113,7 +113,6 @@ Printf = "1"
 Random = "1"
 Statistics = "1"
 SurfaceFluxes = "0.8"
-Test = "1"
 
 ["0.16.3-0.16"]
 CLIMAParameters = "0.7.24-0.7"
@@ -122,12 +121,17 @@ ClimaCore = "0.10.55-0.10"
 NCDatasets = "0.0.0-0.12"
 RRTMGP = "0.9.2-0.9"
 
+["0.16.3-0.18"]
+Test = "1"
+
 ["0.17-0"]
 CLIMAParameters = "0.7.25-0.7"
 ClimaComms = "0.5.6-0.5"
 Insolation = "0.8"
-NCDatasets = "0.11-0.13"
 RRTMGP = "0.10"
+
+["0.17-0.18"]
+NCDatasets = "0.11-0.13"
 
 ["0.17.0"]
 ClimaCore = "0.11"
@@ -135,9 +139,15 @@ ClimaCore = "0.11"
 ["0.17.1-0.17"]
 ClimaCore = "0.11.1-0.11"
 
-["0.18-0"]
+["0.18"]
 ClimaCore = "0.11.5-0.11"
+
+["0.18-0"]
 Interpolations = "0.14-0.15"
+
+["0.19-0"]
+ClimaCore = "0.11.7-0.11"
+NCDatasets = "0.13.1-0.14"
 
 ["0.2-0.11"]
 Insolation = "0.3"
