@@ -2,7 +2,6 @@
 Conda = "1.7.0-1"
 GaussianProcesses = "0.12"
 PyCall = "1.93.0-1"
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0-0.1"]
@@ -17,17 +16,21 @@ AdvancedMH = "0.6"
 ScikitLearn = "0.6"
 StatsBase = "0.33"
 
+["0-0.4"]
+Statistics = "1.6.0-1"
+
 ["0.2"]
 EnsembleKalmanProcesses = "0.8-0.13"
 MCMCChains = "4.14.0-5"
 
 ["0.2-0"]
-AbstractMCMC = "3.3.0-4"
 Distributions = "0.24-0.25"
 DocStringExtensions = "0.8-0.9"
 
+["0.2-0.4"]
+AbstractMCMC = "3.3.0-4"
+
 ["0.3-0"]
-AdvancedMH = "0.6-0.7"
 EnsembleKalmanProcesses = "1.1.0-1"
 MCMCChains = "4.14.0-6"
 ProgressBars = "1"
@@ -35,3 +38,13 @@ RandomFeatures = "0.3"
 ScikitLearn = "0.6-0.7"
 StableRNGs = "1"
 StatsBase = "0.33-0.34"
+
+["0.3-0.4"]
+AdvancedMH = "0.6-0.7"
+
+["0.5-0"]
+AbstractMCMC = "3.3.0-5"
+AdvancedMH = "0.6-0.8"
+Printf = "1"
+Random = "1"
+Statistics = "1"
