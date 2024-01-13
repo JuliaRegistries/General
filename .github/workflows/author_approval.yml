@@ -30,4 +30,6 @@ jobs:
         if: ${{ steps.verify-author.outputs.verified == 'true' }}
         env:
           PR_NUM: ${{ github.event.issue.number }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
         run: gh pr edit "$PR_NUM" --add-label "author-approved"
