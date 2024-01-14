@@ -57,9 +57,6 @@ Statistics = "1.6.0-1"
 ["0.2.17-0.4"]
 GPUArrays = "6-8"
 
-["0.2.2-0"]
-Adapt = "3"
-
 ["0.2.2-0.2"]
 julia = "1.6.0-1"
 
@@ -68,6 +65,9 @@ GPUArrays = "6"
 
 ["0.2.2-0.2.3"]
 GPUCompiler = "0.9"
+
+["0.2.2-0.8.3"]
+Adapt = "3"
 
 ["0.2.3-0.8.0"]
 MacroTools = "0.5"
@@ -204,11 +204,11 @@ rocSPARSE_jll = "5"
 ["0.5.5"]
 GPUCompiler = "0.22"
 
-["0.5.6-0"]
-GPUArrays = "9"
-
 ["0.5.6-0.6.0"]
 GPUCompiler = "0.23"
+
+["0.5.6-0.8.3"]
+GPUArrays = "9"
 
 ["0.6.1-0.6"]
 GPUCompiler = "0.24"
@@ -234,3 +234,7 @@ RandomNumbers = "1.5.0-1"
 
 ["0.8.3-0"]
 CEnum = "0.4-0.5"
+
+["0.8.4-0"]
+Adapt = "4"
+GPUArrays = "10"
