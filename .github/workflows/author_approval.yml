@@ -39,4 +39,4 @@ jobs:
           PR_NUM: ${{ github.event.issue.number }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
-        run: gh pr edit "$PR_NUM" --add-label "author-approved"
+        run: gh pr edit "$PR_NUM" --add-label "package-author-approved"
