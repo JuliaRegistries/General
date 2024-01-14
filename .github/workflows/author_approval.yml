@@ -17,6 +17,8 @@ jobs:
       - name: Verify package author
         id: verify-author
         env:
+          # We use an env variable, not direct interpolation into the script, for security:
+          # https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-an-intermediate-environment-variable
           PR_BODY: ${{ github.event.issue.body }}
           COMMENTER: ${{ github.event.comment.user.login }}
         shell: julia --color=yes {0}
