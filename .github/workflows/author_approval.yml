@@ -5,6 +5,8 @@ on:
 
 jobs:
   label:
+    permissions:
+        pull-requests: write
     runs-on: ubuntu-latest
     # Run on comments that are:
     # 1) on PRs, not issues,
@@ -21,10 +23,13 @@ jobs:
           # https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-an-intermediate-environment-variable
           PR_BODY: ${{ github.event.issue.body }}
           COMMENTER: ${{ github.event.comment.user.login }}
-        shell: julia --color=yes {0}
+        shell: julia --compile=min --optimize=0 --color=yes {0}
         run: |
           m = match(r"Created by: @([^\s]+)", ENV["PR_BODY"])
           verified = !isnothing(m) && m[1] == ENV["COMMENTER"]
+          println("Matched user: ", m === nothing ? nothing : m[1])
+          println("Commenter: ", ENV["COMMENTER"])
+          println("Verified: ", verified)
           open(ENV["GITHUB_OUTPUT"], "a") do io
             println(io, "verified=$verified")
           end
