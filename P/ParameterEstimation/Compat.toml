@@ -1,21 +1,40 @@
 [0]
 DifferentialEquations = "7"
-Groebner = "0.2-0.3"
 HomotopyContinuation = "2"
-LinearSolve = "1"
 ModelingToolkit = "8"
 OrderedCollections = "1"
-Oscar = "0.10-0.11"
 ProgressMeter = "1"
-SIAN = "1"
-TaylorSeries = "0.12-0.13"
 TestSetExtensions = "2"
-julia = "1"
 
 ["0-0.1"]
 Symbolics = "4"
 
-["0.2-0"]
+["0-0.2"]
+Groebner = "0.2-0.3"
+LinearSolve = "1"
+Oscar = "0.10-0.11"
+SIAN = "1"
+TaylorSeries = "0.12-0.13"
+julia = "1"
+
+["0.2"]
 BenchmarkTools = "1"
 StructuralIdentifiability = "0.4"
+
+["0.2-0"]
 Symbolics = "4-5"
+
+["0.3-0"]
+ArbNumerics = "1"
+BaryRational = "1"
+ForwardDiff = "0.10"
+Groebner = "0.2-0.5"
+LinearSolve = "2"
+Oscar = "0.10-0.20"
+PrecompileTools = "1"
+SIAN = "1-1.5.10"
+StructuralIdentifiability = "0.4.9-0.5.30"
+Suppressor = "0.2"
+TaylorDiff = "0.2"
+TaylorSeries = "0.12-0.30"
+julia = "1.9.0-1"
