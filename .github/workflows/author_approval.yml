@@ -14,6 +14,7 @@ jobs:
     # 3) include the string "approved"
     # If so, we will do the work to check that the commenter is the package author,
     # and conditionally apply the author-approved label.
+    # note: `approved` here is case-sensitive 
     if: ${{ github.event.issue.pull_request && github.event.issue.user.type != 'Bot' && contains(github.event.comment.body, 'approved') }}
     steps:
       - name: Verify package author
