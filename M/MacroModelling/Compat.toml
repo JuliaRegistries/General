@@ -114,15 +114,23 @@ MatrixEquations = "2"
 
 ["0.1.31-0"]
 AbstractDifferentiation = "0.5-0.6"
-JuMP = "1"
 LinearAlgebra = "1"
-MadNLP = "0.7"
 NLopt = ["0.6", "1"]
 REPL = "1"
 Random = "1"
 SparseArrays = "1"
 SymPyPythonCall = "0.2"
 Unicode = "1"
+
+["0.1.31-0.1.32"]
+JuMP = "1"
+MadNLP = "0.7"
+
+["0.1.33-0"]
+LineSearches = "7"
+Optim = "1"
+Suppressor = "0.2"
+ThreadedSparseArrays = "0.2.3-0.2"
 
 ["0.1.4-0.1.14"]
 StatsPlots = "0.15"

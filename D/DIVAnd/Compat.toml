@@ -91,17 +91,27 @@ IterativeSolvers = "0.8-0.9"
 ["2.6.7-2.7.5"]
 AlgebraicMultigrid = "0.2-0.4"
 
+["2.7.10"]
+NCDatasets = "0.10-0.13"
+
 ["2.7.10-2"]
 DelimitedFiles = "1"
 HTTP = "1"
-NCDatasets = "0.10-0.13"
+
+["2.7.11-2"]
+AlgebraicMultigrid = "0.2-0.6"
+Interpolations = "0.12-0.15"
+NCDatasets = "0.10-0.14"
+Statistics = "1"
 
 ["2.7.4-2"]
 Missings = ["0.4", "1"]
 
 ["2.7.6-2"]
-AlgebraicMultigrid = "0.2-0.5"
 SpecialFunctions = ["0.8", "0.10", "1-2"]
+
+["2.7.6-2.7.10"]
+AlgebraicMultigrid = "0.2-0.5"
 
 ["2.7.7-2.7.9"]
 NCDatasets = "0.10-0.12"
@@ -112,5 +122,5 @@ ZipFile = "0.8-0.10"
 ["2.7.8-2.7.9"]
 HTTP = ["0.8-0.9", "1"]
 
-["2.7.9-2"]
+["2.7.9-2.7.10"]
 Interpolations = "0.12-0.14"

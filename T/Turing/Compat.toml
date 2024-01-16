@@ -236,9 +236,6 @@ Libtask = "0.6.7-0.6"
 ["0.20.4-0.22"]
 AdvancedPS = "0.3.4-0.3"
 
-["0.21-0"]
-AbstractMCMC = "4"
-
 ["0.21-0.21.2"]
 EllipticalSliceSampling = "0.5"
 
@@ -247,6 +244,9 @@ DynamicPPL = "0.19.1-0.19"
 
 ["0.21-0.22"]
 Libtask = "0.6.7-0.7"
+
+["0.21-0.29"]
+AbstractMCMC = "4"
 
 ["0.21.10-0"]
 DocStringExtensions = "0.8-0.9"
@@ -263,7 +263,7 @@ LogDensityProblems = ["0.12", "1"]
 ["0.21.2-0"]
 StatsFuns = ["0.8-0.9", "1"]
 
-["0.21.3-0"]
+["0.21.3-0.29"]
 EllipticalSliceSampling = ["0.5", "1"]
 
 ["0.21.5-0.29.1"]
@@ -282,10 +282,12 @@ Setfield = ["0.8", "1"]
 DynamicPPL = "0.21"
 
 ["0.23-0"]
-AdvancedPS = "0.4"
 Libtask = "0.7-0.8"
-Statistics = "1.7.0-1"
 julia = "1.7.0-1"
+
+["0.23-0.29"]
+AdvancedPS = "0.4"
+Statistics = "1.7.0-1"
 
 ["0.23.1-0"]
 LogDensityProblems = "2"
@@ -293,11 +295,11 @@ LogDensityProblems = "2"
 ["0.23.1-0.24.1"]
 LogDensityProblemsAD = "1"
 
-["0.23.3-0"]
-AdvancedMH = "0.6.8-0.7"
-
 ["0.23.3-0.27.0"]
 AdvancedHMC = "0.3-0.4"
+
+["0.23.3-0.29"]
+AdvancedMH = "0.6.8-0.7"
 
 ["0.24"]
 DynamicPPL = "0.21.5-0.21"
@@ -305,7 +307,7 @@ DynamicPPL = "0.21.5-0.21"
 ["0.24.1-0"]
 MCMCChains = "5-6"
 
-["0.24.2-0"]
+["0.24.2-0.29"]
 LogDensityProblemsAD = "1.4.0-1"
 
 ["0.25"]
@@ -332,7 +334,7 @@ StatsAPI = "1.6.0-1"
 ["0.26.5"]
 FillArrays = "1.4.1-1"
 
-["0.27.1-0"]
+["0.27.1-0.29"]
 AdvancedHMC = ["0.3-0.4", "0.5.2-0.5"]
 
 ["0.28.2-0"]
@@ -342,11 +344,27 @@ NamedArrays = "0.9-0.10"
 ["0.29.0"]
 DynamicPPL = "0.23.15-0.23"
 
-["0.29.1-0"]
+["0.29.1-0.29"]
 DynamicPPL = "0.23.17-0.23"
 
 ["0.29.2-0"]
 SciMLBase = "1.37.1-2"
+
+["0.30-0"]
+ADTypes = "0.2"
+AdvancedHMC = ["0.3-0.4", "0.5.2-0.6"]
+AdvancedMH = "0.8"
+AdvancedPS = "0.5.4-0.5"
+DynamicPPL = "0.24"
+EllipticalSliceSampling = ["0.5", "1-2"]
+LogDensityProblemsAD = "1.7.0-1"
+Statistics = "1.6.0-1"
+
+["0.30.0"]
+AbstractMCMC = "4-5"
+
+["0.30.1-0"]
+AbstractMCMC = "5"
 
 ["0.5.1-0.6.14"]
 Bijectors = "0-0.2"

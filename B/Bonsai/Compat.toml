@@ -57,6 +57,8 @@ JET = "0.6"
 ["0.4-0"]
 HTTP = "1"
 OrderedCollections = "1"
+
+["0.4-0.6.0"]
 Term = "1"
 
 ["0.5.3"]
@@ -67,12 +69,24 @@ DataStructures = "0.18"
 
 ["0.5.4-0"]
 ExproniconLite = "0.7.1-0.7"
+StructTypes = "1.10.0-1"
+
+["0.5.4-0.6.0"]
 MacroTools = "0.5.10-0.5"
 SnoopPrecompile = "1"
-StructTypes = "1.10.0-1"
 
 ["0.6-0"]
 AbstractTrees = "0.4"
-JET = "0.7"
 PkgVersion = "0.3"
 julia = "1.8.0-1"
+
+["0.6.0"]
+JET = "0.7"
+
+["0.6.1-0"]
+JET = "0.8.9-0.8"
+MacroTools = "0.5"
+MbedTLS = "1"
+Mkcert = "0.1"
+PrecompileTools = "1"
+Term = "2"

@@ -2,7 +2,6 @@
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
-AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
 BasicInterpolators = "26cce99e-4866-4b6d-ab74-862489e035e0"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 ComradeBase = "6d8c423b-a35f-4ef1-850c-862fe21f82c4"
@@ -26,6 +25,9 @@ Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 
+["0-0.3"]
+AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
+
 ["0.2-0"]
 PolarizedTypes = "d3c5d4cd-a8ee-40d6-aac7-e34df5a20044"
 
@@ -34,3 +36,6 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.3.2-0"]
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+
+["0.4-0"]
+DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"

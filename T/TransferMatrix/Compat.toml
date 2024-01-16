@@ -1,11 +1,17 @@
 [1]
-CSV = "0.10"
 StaticArrays = "1"
-YAML = "0.4"
 julia = "1.9.0-1"
+
+["1.0"]
+CSV = "0.10"
+YAML = "0.4"
 
 ["1.0.0"]
 DataInterpolations = "3-4"
 
 ["1.0.1-1"]
 DataInterpolations = "4"
+
+["1.1-1"]
+DelimitedFiles = "1"
+RefractiveIndex = "0.4"

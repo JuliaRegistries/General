@@ -2,22 +2,32 @@
 DataFrames = "1"
 Distributions = "0.25"
 FiniteDiff = "2"
-LazyArtifacts = "1"
 LineSearches = "7"
 NLSolversBase = "7"
-NLopt = "0.6"
 Optim = "1"
-PrettyTables = "1"
-StatsBase = "0.33"
 StenoGraphs = "0.2"
-Symbolics = "4"
 
 ["0-0.1"]
 DelimitedFiles = "1.7.0-1"
 Statistics = "1.7.0-1"
 julia = "1.7.0-1"
 
+["0-0.2.1"]
+LazyArtifacts = "1"
+NLopt = "0.6"
+PrettyTables = "1"
+StatsBase = "0.33"
+Symbolics = "4"
+
 ["0.2-0"]
+julia = "1.9.0-1"
+
+["0.2-0.2.1"]
 DelimitedFiles = "1.9.0-1"
 Statistics = "1.9.0-1"
-julia = "1.9.0-1"
+
+["0.2.2-0"]
+NLopt = ["0.6", "1"]
+PrettyTables = "2"
+StatsBase = "0.33-0.34"
+Symbolics = "4-5"
