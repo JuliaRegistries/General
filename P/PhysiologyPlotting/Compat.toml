@@ -1,10 +1,12 @@
 [0]
-PyCall = "1"
-PyPlot = "2"
 julia = "1"
 
 ["0-0.1.0"]
 ElectroPhysiology = "0.3"
+
+["0-0.1.10"]
+PyCall = "1"
+PyPlot = "2"
 
 ["0-0.1.2"]
 Plots = "1"
@@ -13,13 +15,17 @@ Plots = "1"
 ElectroPhysiology = "0.4"
 
 ["0.1.3-0"]
+Requires = "1"
+
+["0.1.3-0.1.10"]
 CairoMakie = "0.10"
 Conda = "1"
 DataFrames = "1"
 Query = "1"
-Requires = "1"
 
 ["0.1.5-0"]
 Distributions = "0.25"
-GLMakie = "0.8"
 Statistics = "1"
+
+["0.1.5-0.1.10"]
+GLMakie = "0.8"
