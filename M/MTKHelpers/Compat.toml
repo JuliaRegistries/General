@@ -51,6 +51,13 @@ DiffEqBase = "6.130.0-6"
 Distributions = "0.25.106-0.25"
 ModelingToolkit = "8.70.0-8"
 NamedArrays = "0.9.8-0.10"
-RecursiveArrayTools = "2.38.10-2"
 SciMLBase = "1.98.1-2"
 StaticArrays = "1.9.0-1"
+
+["0.5.0"]
+RecursiveArrayTools = "2.38.10-2"
+
+["0.5.1-0"]
+Logging = "1.6.0-1"
+LoggingExtras = "1"
+RecursiveArrayTools = "2.38.10-3"

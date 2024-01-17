@@ -1,7 +1,5 @@
 [0]
-Distributions = "0.25"
 StaticArrays = "1.2.0-1"
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0-0.3.0"]
@@ -9,6 +7,10 @@ FillArrays = "0.12"
 
 ["0-0.3.4"]
 StatsBase = "0.33"
+
+["0-0.3.6"]
+Distributions = "0.25"
+Statistics = "1.6.0-1"
 
 ["0.1.1-0"]
 Reexport = "1.2.0-1"
@@ -25,14 +27,22 @@ Requires = "1.2.0-1"
 ["0.3.1-0.3.4"]
 FillArrays = "0.12-0.13"
 
-["0.3.2-0"]
+["0.3.2-0.3.6"]
 StatsFuns = ["0.9", "1"]
 
 ["0.3.5"]
 StatsBase = "0.33-0.34"
 
-["0.3.5-0"]
+["0.3.5-0.3.6"]
 FillArrays = ["0.12-0.13", "1"]
 
-["0.3.6-0"]
+["0.3.6"]
 StatsAPI = "1"
+
+["0.3.7-0"]
+Distributions = "0.25.102-0.25"
+FillArrays = "1"
+LinearAlgebra = "1.6.0-1"
+Statistics = "1"
+StatsAPI = "1.6.0-1"
+StatsFuns = ["0.9.15-0.9", "1"]
