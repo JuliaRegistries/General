@@ -142,7 +142,7 @@ RandomNumbers = "1.4.0-1"
 ["3-3.5"]
 SpecialFunctions = "1.3.0-1"
 
-[3-5]
+["3-5.1"]
 Adapt = "3.3.0-3"
 
 ["3.0.0"]
@@ -228,8 +228,10 @@ CUDA_Runtime_Discovery = "0.1"
 LLVM = "4.15.0-4"
 
 [4-5]
-BFloat16s = "0.2-0.4"
 Preferences = "1"
+
+["4-5.1"]
+BFloat16s = "0.2-0.4"
 
 ["4.0"]
 CUDA_Driver_jll = "0.2"
@@ -246,7 +248,7 @@ CUDA_Runtime_jll = "0.4"
 ["4.1-4.1.2"]
 GPUCompiler = "0.18"
 
-["4.1-5"]
+["4.1-5.1"]
 UnsafeAtomicsLLVM = "0.1"
 
 ["4.1.2-4"]
@@ -282,10 +284,12 @@ LLVM = "6"
 [5]
 Crayons = "4"
 DataFrames = "1"
-GPUArrays = "9"
 NVTX = "0.3.2-0.3"
 PrettyTables = "2"
 julia = "1.8.0-1"
+
+["5-5.1"]
+GPUArrays = "9"
 
 ["5.0"]
 CEnum = "0.2-0.4"
@@ -294,10 +298,12 @@ CUDA_Runtime_jll = "0.9"
 GPUCompiler = "0.24"
 Statistics = "1.8.0-1"
 
+["5.1"]
+CUDA_Runtime_jll = "0.10"
+
 ["5.1-5"]
 CEnum = "0.2-0.5"
 CUDA_Driver_jll = "0.7"
-CUDA_Runtime_jll = "0.10"
 GPUCompiler = "0.24-0.25"
 LLVMLoopInfo = "1"
 Libdl = "1"
@@ -307,3 +313,10 @@ Printf = "1"
 Random = "1"
 SparseArrays = "1"
 Statistics = "1"
+
+["5.2-5"]
+Adapt = "4"
+BFloat16s = "0.2-0.5"
+CUDA_Runtime_jll = "0.11"
+GPUArrays = "10.0.1-10"
+StaticArrays = "1"
