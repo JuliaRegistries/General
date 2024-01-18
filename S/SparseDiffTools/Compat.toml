@@ -116,9 +116,11 @@ FiniteDiff = "2"
 ArrayInterface = "7"
 
 ["1.31-2"]
-Adapt = "3"
 Compat = "4"
 DataStructures = "0.18"
+
+["1.31-2.15"]
+Adapt = "3"
 
 ["1.31-2.4"]
 Requires = "1"
@@ -154,8 +156,15 @@ SciMLOperators = "0.3.7-0.3"
 
 ["2.14-2"]
 LinearAlgebra = ["0.0.0", "1"]
-Random = ["0.0.0", "1"]
 SparseArrays = ["0.0.0", "1"]
+
+["2.14-2.15"]
+Random = ["0.0.0", "1"]
+
+["2.16-2"]
+ADTypes = "0.2.6-0.2"
+Adapt = "3-4"
+Random = "1.6.0-1"
 
 ["2.4-2"]
 Setfield = "1"
@@ -167,9 +176,11 @@ SciMLOperators = "0.2.11-0.2"
 SciMLOperators = "0.2.11-0.3"
 
 ["2.5-2"]
-ADTypes = "0.2.1-0.2"
 PackageExtensionCompat = "1"
 UnPack = "1"
+
+["2.5-2.15"]
+ADTypes = "0.2.1-0.2"
 
 ["2.9.1-2.13"]
 LinearAlgebra = "1.6.0-1"
