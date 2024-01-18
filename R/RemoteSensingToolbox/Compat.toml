@@ -18,13 +18,26 @@ Shapefile = "0.9-0.10"
 
 ["0.1-0"]
 ArchGDAL = "0.10"
-Rasters = "0.8"
-ReadableRegex = "0.3"
-Statistics = "1.9.0-1"
 Tables = "1"
 julia = "1.9.0-1"
 
-["0.2-0"]
-ImageCore = "0.8-0.10"
+["0.1-0.2"]
+Rasters = "0.8"
+ReadableRegex = "0.3"
+Statistics = "1.9.0-1"
+
+["0.2"]
 OrderedCollections = "1"
 TableOperations = "1"
+
+["0.2-0"]
+ImageCore = "0.8-0.10"
+
+["0.3-0"]
+Bijections = "0.1"
+DataFrames = "1"
+Match = "2"
+Rasters = "0.10"
+Reexport = "1"
+SatelliteDataSources = "0.1"
+Statistics = "1"
