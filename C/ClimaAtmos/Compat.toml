@@ -27,7 +27,6 @@ UnPack = "1"
 
 ["0.10-0"]
 ArtifactWrappers = "0.2"
-ImageFiltering = "0.7"
 YAML = "0.4"
 
 ["0.10-0.11"]
@@ -49,6 +48,9 @@ TerminalLoggers = "0.1"
 
 ["0.10-0.17"]
 Interpolations = "0.14"
+
+["0.10-0.19.0"]
+ImageFiltering = "0.7"
 
 ["0.11-0"]
 ArgParse = "1"
@@ -146,8 +148,13 @@ ClimaCore = "0.11.5-0.11"
 Interpolations = "0.14-0.15"
 
 ["0.19-0"]
-ClimaCore = "0.11.7-0.11"
 NCDatasets = "0.13.1-0.14"
+
+["0.19.0"]
+ClimaCore = "0.11.7-0.11"
+
+["0.19.1-0"]
+ClimaCore = "0.11.8-0.11"
 
 ["0.2-0.11"]
 Insolation = "0.3"
