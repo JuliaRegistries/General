@@ -3,9 +3,7 @@ AssetRegistry = "0.1"
 Blink = "0.12"
 Interact = "0.10"
 MAT = "0.10"
-PlotlyJS = "0.18"
 Reexport = "1"
-julia = "1.6.0-1"
 
 ["0-0.6.2"]
 Interpolations = "0.13"
@@ -24,6 +22,10 @@ LinearOperators = "2"
 MathOptInterface = ["0.9-0.10", "1"]
 Mux = "0.7"
 PackageCompiler = "1-2"
+
+["0-0.7"]
+PlotlyJS = "0.18"
+julia = "1.6.0-1"
 
 ["0-0.7.1"]
 Hwloc = "2"
@@ -60,9 +62,17 @@ MRIReco = "0.6-0.7"
 Adapt = "3"
 Functors = "0.4"
 
-["0.7.4-0"]
+["0.7.4-0.7"]
 KomaMRICore = "0.7"
 KomaMRIPlots = "0.7"
 
 ["0.7.5-0"]
 MRIReco = "0.6-0.8"
+
+["0.8-0"]
+FFTW = "1"
+KomaMRICore = "0.8"
+KomaMRIFiles = "0.8"
+KomaMRIPlots = "0.8"
+Pkg = "1.4.0-1"
+julia = "1.9.0-1"

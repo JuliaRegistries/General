@@ -1,6 +1,18 @@
 [0]
-DelimitedFiles = "1.4.0-1"
 Distributions = "0.25"
 ITensors = "0.3"
+
+["0-0.1"]
+DelimitedFiles = "1.4.0-1"
 OrdinaryDiffEq = "6"
 julia = "1.4.0-1"
+
+["0.2-0"]
+Combinatorics = "1"
+DelimitedFiles = "1"
+HDF5 = "0.17"
+ITensorTDVP = "0.1"
+OrdinaryDiffEq = "6.55.0"
+PackageCompiler = "2"
+Reexport = "1"
+julia = "1.8.0-1"
