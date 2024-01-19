@@ -3,10 +3,12 @@ Combinatorics = "1"
 DiffEqBase = "6"
 IfElse = "0.1"
 OrdinaryDiffEq = "6"
-julia = "1.6.0-1"
 
 ["0-0.1"]
 TermInterface = "0.2"
+
+["0-0.10.4"]
+julia = "1.6.0-1"
 
 ["0-0.3.0"]
 DiffEqOperators = "4.41.0-4"
@@ -35,6 +37,10 @@ PDEBase = "0.1.6-0.1"
 
 ["0.10.4-0"]
 PDEBase = "0.1.8-0.1"
+
+["0.10.5-0"]
+SymbolicIndexingInterface = "0.3"
+julia = "1.9.0-1"
 
 ["0.2-0"]
 TermInterface = "0.2-0.3"
