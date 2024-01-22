@@ -1,8 +1,17 @@
 [0]
 AdditionalUnits = "02d9b4f0-7821-44c6-acbd-01a1ab91b72e"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
 Multigraphs = "7ebac608-6c66-46e6-9856-b5f43e107bac"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+["0-0.1"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
+["0.2-0"]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
