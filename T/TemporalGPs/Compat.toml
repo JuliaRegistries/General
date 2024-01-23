@@ -117,8 +117,14 @@ Bessels = "0.2.8-0.2"
 FillArrays = ["0.13.0-0.13.7", "1"]
 Zygote = "0.6.65-0.6"
 
-["0.6.7-0"]
+["0.6.7"]
 ChainRulesCore = "1.0.0-1.16.0"
 FillArrays = "0.13.0-0.13.7"
 StaticArrays = "1.0.0-1.6.5"
 Zygote = "0.6.65"
+
+["0.6.8-0"]
+ChainRulesCore = "1"
+FillArrays = ["0.13.0-0.13.7", "1"]
+StaticArrays = "1"
+Zygote = "0.6.65-0.6"
