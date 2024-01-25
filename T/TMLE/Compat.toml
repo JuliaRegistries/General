@@ -46,6 +46,9 @@ MetaGraphsNext = "0.7"
 ["0.13-0"]
 SplitApplyCombine = "1.2.2-1"
 
+["0.14-0"]
+Zygote = "0.6.69-0.6"
+
 ["0.3-0.11"]
 HypothesisTests = "0.10"
 
@@ -79,12 +82,14 @@ MLJGLMInterface = "0.1-0.3"
 ["0.8-0"]
 Distributions = "0.25"
 LogExpFunctions = "0.3"
-Zygote = "0.6"
 julia = "1"
 
 ["0.8-0.11"]
 Statistics = "1"
 YAML = "0.4"
+
+["0.8-0.13"]
+Zygote = "0.6"
 
 ["0.8-0.9"]
 AbstractDifferentiation = "0.4"
