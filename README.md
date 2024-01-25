@@ -258,8 +258,8 @@ legal to use together, such as GPL2 with Apache2.
 
 New packages must typically wait for the 3 day timer to expire before they are merged, either automatically by the bot or manually. 
 However, exceptions may be made with proper justification, and opportunity for public comment, for instance if there is a time constraint. 
-To make this request please post in the [#pkg-registration](https://julialang.slack.com/archives/C6M4DQA5P) channel on the public Julia Language slack,
-with a link to the PR and proper justification.
+To make this request please post either in the [#pkg-registration](https://julialang.slack.com/archives/C6M4DQA5P) channel on the 
+public Julia Language Slack, or directly on the PR itself. Proper justification should be provided on the pull request.
 
 #### Who can approve an early merge?
 
