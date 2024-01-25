@@ -264,8 +264,8 @@ with a link to the PR and proper justification.
 #### Who can approve an early merge?
 
 Any registry maintainer may merge a package registration PR early.
-Early merges should still be discussed on the [#pkg-registration](https://julialang.slack.com/archives/C6M4DQA5P) slack channel before merging,
-and registry maintainers are discouraged from merging packages they directly or indirectly maintain.
+Early merges should still be discussed on the [#pkg-registration](https://julialang.slack.com/archives/C6M4DQA5P) slack channel before merging.
+Registry maintainers are discouraged from merging packages they directly *or* indirectly maintain as mentioned in [CONTRIBUTING.md](https://github.com/JuliaRegistries/General/blob/master/CONTRIBUTING.md#other-ways-to-help).
 
 ## Registry maintenance
 
