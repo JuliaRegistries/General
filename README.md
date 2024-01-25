@@ -254,6 +254,19 @@ See [these](https://github.com/JuliaRegistries/General/pull/31549#issuecomment-7
 [^1]: Note that even within the world of OSI licenses, there are combinations of OSI licenses which are not
 legal to use together, such as GPL2 with Apache2.
 
+#### Can my package registration PR be merged early?
+
+New packages must typically wait for the 3 day timer to expire before they are merged, either automatically by the bot or manually. 
+However, exceptions may be made with proper justification, and opportunity for public comment, for instance if there is a time constraint. 
+To make this request please post in the [#pkg-registration](https://julialang.slack.com/archives/C6M4DQA5P) channel on the public Julia Language slack,
+with a link to the PR and proper justification.
+
+#### Who can approve an early merge?
+
+Any registry maintainer may merge a package registration PR early.
+Early merges should still be discussed on the [#pkg-registration](https://julialang.slack.com/archives/C6M4DQA5P) slack channel before merging,
+and registry maintainers are discouraged from merging packages they directly or indirectly maintain.
+
 ## Registry maintenance
 
 The General registry is a shared resource that belongs to the entire Julia community. Therefore, we welcome comments and suggestions from everyone in the Julia community. However, all decisions regarding the General registry are ultimately up to the discretion of the registry maintainers.
