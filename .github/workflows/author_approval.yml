@@ -11,11 +11,11 @@ jobs:
     # Run on comments that are:
     # 1) on PRs, not issues,
     # 2) not from bot users and,
-    # 3) include the string "approved"
+    # 3) include the string "merge approved"
     # If so, we will do the work to check that the commenter is the package author,
     # and conditionally apply the author-approved label.
-    # note: `approved` here is case-sensitive 
-    if: ${{ github.event.issue.pull_request && github.event.issue.user.type != 'Bot' && contains(github.event.comment.body, 'approved') }}
+    # note: `merge approved` here is NOT case-sensitive, see https://docs.github.com/en/actions/learn-github-actions/expressions#contains
+    if: ${{ github.event.issue.pull_request && github.event.issue.user.type != 'Bot' && contains(github.event.comment.body, 'merge approved') }}
     steps:
       - name: Verify package author
         id: verify-author
