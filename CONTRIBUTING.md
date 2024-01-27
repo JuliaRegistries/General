@@ -86,7 +86,7 @@ Additionally, if you have elevated [permissions](permissions) to General, there'
 * [triage] You can close PRs if the package author requests it or the registration is superseded by another registration request.
 * [write] You can merge PRs that have the _needs to be manually merged in 3 days_ label once the requisite waiting period has passed, assuming there are no outstanding objections in the PR comments.
 * [write] You can choose to facilitate expedited merge requests, after manually reviewing the package.
-You generally should not merge your own registrations (though you can make requests to another maintainer).
+You generally should not merge your own registrations or those you are involved with (though you can make requests to another maintainer). See also [this FAQ entry](https://github.com/JuliaRegistries/General/#who-can-approve-an-early-merge).
 * [write] You can merge improvements to the README, these guidelines, or our workflows.
 * [admin] You can give other contributors triage-level access so they can apply labels to PRs, or write-level permissions to merge PRs.
 
