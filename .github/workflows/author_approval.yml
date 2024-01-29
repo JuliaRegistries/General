@@ -14,11 +14,12 @@ jobs:
     # Run on comments that are satisfy all of the following:
     # 1) on PRs, not issues,
     # 2) not from bot users
-    # 3) include the string "merge approved"
+    # 3) include the string "[merge approved]"
+    # 4) include the string "[noblock]"
     # If so, we will do the work to check that the commenter is the package author,
     # and conditionally apply the author-approved label.
-    # note: `merge approved` here is NOT case-sensitive, see https://docs.github.com/en/actions/learn-github-actions/expressions#contains
-    if: ${{ github.event.issue.pull_request && github.event.issue.user.type != 'Bot' && contains(github.event.comment.body, 'merge approved') }}
+    # note: `[merge approved]` here is NOT case-sensitive, see https://docs.github.com/en/actions/learn-github-actions/expressions#contains
+    if: ${{ github.event.issue.pull_request && github.event.issue.user.type != 'Bot' && contains(github.event.comment.body, '[merge approved]') }}
     steps:
       - name: Verify package author
         id: verify-author
@@ -46,4 +47,4 @@ jobs:
           # will not trigger any further GitHub Actions.
           GH_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
           GH_REPO: ${{ github.repository }}
-        run: gh pr edit "$PR_NUM" --add-label "package-author-approved"
+        run: gh pr edit "$PR_NUM" --add-label "Override AutoMerge: package author approved"
