@@ -15,7 +15,6 @@ jobs:
     # 1) on PRs, not issues,
     # 2) not from bot users
     # 3) include the string "[merge approved]"
-    # 4) include the string "[noblock]"
     # If so, we will do the work to check that the commenter is the package author,
     # and conditionally apply the author-approved label.
     # note: `[merge approved]` here is NOT case-sensitive, see https://docs.github.com/en/actions/learn-github-actions/expressions#contains
