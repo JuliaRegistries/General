@@ -35,7 +35,7 @@ jobs:
           if length(ENV["COMMENTER"]) != length(strip(ENV["COMMENTER"]))
               error("COMMENTER has leading or lagging whitespace")
           end
-          regex = r"Created by: @([A-Za-z0-9]*+)(?:$|\n|\r\n)"
+          regex = r"Created by: @([A-Za-z0-9\-]*+)(?:$|\n|\r\n)"
           m = match(regex, ENV["PR_BODY"])
           verified = !isnothing(m) && m[1] == ENV["COMMENTER"]
           println("Matched user: ", m === nothing ? nothing : m[1])
