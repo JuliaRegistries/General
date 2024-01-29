@@ -237,7 +237,7 @@ Registrator will complain if the second step is skipped.
 #### How do I transfer a package to General from another registry?
 
 You can simply register your next release in General (and don't change the package's name or UUID!).
-This will be treated as a new package registration in General and be subject to the usual 3 day waiting period.
+This will be treated as a new package registration in General and be subject to the usual 3-day waiting period.
 Once registered, Pkg.jl will look at all the versions from all registries it knows about, and use the compat
 mechanism to figure out what version to resolve to as usual, regardless if some versions are in different registries
 from others.
