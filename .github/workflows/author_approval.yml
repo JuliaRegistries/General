@@ -29,6 +29,10 @@ jobs:
           COMMENTER: ${{ github.event.comment.user.login }}
         shell: julia --compile=min --optimize=0 --color=yes {0}
         run: |
+          isempty(ENV["COMMENTER"]) && error("COMMENTER is empty")
+          if length(ENV["COMMENTER"]) != length(strip(ENV["COMMENTER"]))
+               error("COMMENTER has leading or lagging whitespace")
+          end
           m = match(r"Created by: @(\S+)", ENV["PR_BODY"])
           verified = !isnothing(m) && m[1] == ENV["COMMENTER"]
           println("Matched user: ", m === nothing ? nothing : m[1])
