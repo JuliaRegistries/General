@@ -6,11 +6,14 @@ on:
 jobs:
   label:
     permissions:
+        # We need `write` permissions on `pull-requests` in order to be able to
+        # add/remove labels from PRs. As far as we can tell, there is no narrower
+        # permission that we can use.
         pull-requests: write
     runs-on: ubuntu-latest
-    # Run on comments that are:
+    # Run on comments that are satisfy all of the following:
     # 1) on PRs, not issues,
-    # 2) not from bot users and,
+    # 2) not from bot users
     # 3) include the string "merge approved"
     # If so, we will do the work to check that the commenter is the package author,
     # and conditionally apply the author-approved label.
@@ -26,7 +29,7 @@ jobs:
           COMMENTER: ${{ github.event.comment.user.login }}
         shell: julia --compile=min --optimize=0 --color=yes {0}
         run: |
-          m = match(r"Created by: @([^\s]+)", ENV["PR_BODY"])
+          m = match(r"Created by: @([A-Za-z0-9]*+)(?:$|\n)", ENV["PR_BODY"])
           verified = !isnothing(m) && m[1] == ENV["COMMENTER"]
           println("Matched user: ", m === nothing ? nothing : m[1])
           println("Commenter: ", ENV["COMMENTER"])
@@ -38,6 +41,9 @@ jobs:
         if: ${{ steps.verify-author.outputs.verified == 'true' }}
         env:
           PR_NUM: ${{ github.event.issue.number }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # We cannot use `${{ secrets.GITHUB_TOKEN }}` here, because
+          # if we use `GITHUB_TOKEN` here, then the "label created" event
+          # will not trigger any further GitHub Actions.
+          GH_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
           GH_REPO: ${{ github.repository }}
         run: gh pr edit "$PR_NUM" --add-label "package-author-approved"
