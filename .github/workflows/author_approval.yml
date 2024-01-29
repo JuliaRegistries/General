@@ -29,7 +29,14 @@ jobs:
           COMMENTER: ${{ github.event.comment.user.login }}
         shell: julia --compile=min --optimize=0 --color=yes {0}
         run: |
-          m = match(r"Created by: @([A-Za-z0-9]*+)(?:$|\n)", ENV["PR_BODY"])
+          if isempty(ENV["COMMENTER"])
+              error("COMMENTER is empty")
+          end
+          if length(ENV["COMMENTER"]) != length(strip(ENV["COMMENTER"]))
+              error("COMMENTER has leading or lagging whitespace")
+          end
+          regex = r"Created by: @([A-Za-z0-9]*+)(?:$|\n|\r\n)"
+          m = match(regex, ENV["PR_BODY"])
           verified = !isnothing(m) && m[1] == ENV["COMMENTER"]
           println("Matched user: ", m === nothing ? nothing : m[1])
           println("Commenter: ", ENV["COMMENTER"])
