@@ -48,7 +48,7 @@ jobs:
           # We cannot use `${{ secrets.GITHUB_TOKEN }}` here, because
           # if we use `GITHUB_TOKEN` here, then the "label created" event
           # will not trigger any further GitHub Actions.
-          GH_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
+          GH_TOKEN: ${{ secrets.RegistryCI }}
           GH_REPO: ${{ github.repository }}
         run: |
           gh pr edit "${PR_NUM:?}" --add-label "Override AutoMerge: package author approved"
