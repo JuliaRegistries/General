@@ -1,5 +1,4 @@
 [0]
-Adapt = "3.4.0-3"
 FFTW = "1.5.0-1"
 Reexport = "1.2.2-1"
 julia = "1.6.0-1"
@@ -9,6 +8,9 @@ CUDA = "3.12.0-3"
 
 ["0-0.1.0"]
 AbstractPDEInterfaces = "0.1"
+
+["0-0.2.4"]
+Adapt = "3.4.0-3"
 
 ["0.1.1"]
 AbstractPDEInterfaces = "0.1.3-0.1"
@@ -38,3 +40,6 @@ SciMLOperators = "0.3"
 ["0.2.4-0"]
 AbstractFFTs = "1"
 CalculustCore = "0.4.3-0.4"
+
+["0.2.5-0"]
+Adapt = "3.4.0-4"
