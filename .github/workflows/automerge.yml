@@ -13,8 +13,15 @@ env:
     JULIA_PKG_USE_CLI_GIT: true
 jobs:
   AutoMerge:
+    # Run if:
+    # - not from a PR event
+    # - or it is from a PR event AND it is not from a fork, AND either:
+    #      - we are not triggered by a label OR
+    #      - we are triggered by a label, and that label is one that affects the execution of the workflow
+    # Note: since the label contains a colon, we need to use a workaround like https://github.com/actions/runner/issues/1019#issuecomment-810482716
+    # for the syntax to parse correctly.
+    if: "${{ github.event_name != 'pull_request' || (github.repository == github.event.pull_request.head.repo.full_name && (github.event.action != 'labeled' || (github.event.action == 'labeled' && (github.event.label.name == 'Override AutoMerge: name similarity is okay' || github.event.label.name == 'Override AutoMerge: package author approved')))) }}"
     timeout-minutes: 60
-    if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
