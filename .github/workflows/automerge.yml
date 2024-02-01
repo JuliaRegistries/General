@@ -1,6 +1,7 @@
 name: AutoMerge
 on:
   pull_request:
+    types: ['opened', 'synchronize', 'reopened', 'labeled']
   schedule:
     # The cron job is just a fallback.
     # The "stopwatch" functionality that we have implemented should
