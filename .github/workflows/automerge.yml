@@ -13,6 +13,12 @@ on:
   workflow_dispatch:
 env:
     JULIA_PKG_USE_CLI_GIT: true
+    # We only need the merging token
+    # if we are on the master branch and running either a workflow dispatch
+    # (possibly from the stopwatch mechanism) or a scheduled job.
+    # See also the same logic inside RegistryCI:
+    # https://github.com/JuliaRegistries/RegistryCI.jl/blob/ee1d7cdb165202f4f3929a122c3188fbdd7afc16/src/AutoMerge/ciservice.jl#L53-L67
+    NEED_MERGE_TOKEN: ${{ github.ref == 'refs/heads/master' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
 jobs:
   AutoMerge:
     # Run if:
@@ -34,6 +40,9 @@ jobs:
         arch:
           - x64
     steps:
+      # For debugging purposes, we print this value first
+      - name: Print env variable NEED_MERGE_TOKEN
+        run: echo "NEED_MERGE_TOKEN=$NEED_MERGE_TOKEN"
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v3.3.0
       - uses: julia-actions/setup-julia@58ad1cdde70774ab0693de31c3cd4e751b46aea2 # v1.9.4
         with:
@@ -69,7 +78,9 @@ jobs:
           MERGE_NEW_PACKAGES: true
           MERGE_NEW_VERSIONS: true
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          AUTOMERGE_TAGBOT_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
+          # populate the actual token below only if `NEED_MERGE_TOKEN` is true, otherwise pass the empty string
+          # this uses the ternary syntax: https://docs.github.com/en/actions/learn-github-actions/expressions#example
+          AUTOMERGE_TAGBOT_TOKEN: ${{ env.NEED_MERGE_TOKEN && secrets.TAGBOT_TOKEN || '' }}
           JULIA_DEBUG: RegistryCI,AutoMerge
         run: |
           using RegistryCI
