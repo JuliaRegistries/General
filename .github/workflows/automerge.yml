@@ -80,7 +80,7 @@ jobs:
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # populate the actual token below only if `NEED_MERGE_TOKEN` is true, otherwise pass the empty string
           # this uses the ternary syntax: https://docs.github.com/en/actions/learn-github-actions/expressions#example
-          AUTOMERGE_TAGBOT_TOKEN: ${{ env.NEED_MERGE_TOKEN && secrets.TAGBOT_TOKEN || '' }}
+          AUTOMERGE_TAGBOT_TOKEN: ${{ env.NEED_MERGE_TOKEN == 'true' && secrets.TAGBOT_TOKEN || '' }}
           JULIA_DEBUG: RegistryCI,AutoMerge
         run: |
           using RegistryCI
