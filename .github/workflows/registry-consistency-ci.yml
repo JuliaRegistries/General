@@ -1,4 +1,4 @@
-name: CI
+name: Registry Consistency
 on:
   pull_request:
     branches:
@@ -12,7 +12,7 @@ env:
 permissions:
   contents: read
 jobs:
-  CI:
+  check:
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
     strategy:

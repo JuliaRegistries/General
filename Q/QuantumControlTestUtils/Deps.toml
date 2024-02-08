@@ -4,15 +4,20 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LocalCoverage = "5f6e1e16-694c-5876-87ef-16b5274f298e"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-QuantumControl = "8a270532-f23f-47a8-83a9-b33d10cad486"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0-0.1.1"]
 QuantumPropagators = "7bf12567-5742-4b91-a078-644e72a65fc1"
 
+["0-0.2"]
+QuantumControl = "8a270532-f23f-47a8-83a9-b33d10cad486"
+
 ["0.1.1-0"]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 
 ["0.2-0"]
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
+
+["0.3-0"]
+QuantumControlBase = "f10a33bc-5a64-497c-be7b-6f86b4f0c2aa"

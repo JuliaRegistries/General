@@ -1,6 +1,11 @@
 [0]
 DocStringExtensions = "0.9"
 JLD2 = "0.4"
-Pkg = "1"
 PyCall = "1"
 julia = "1"
+
+["0-0.1.1"]
+Pkg = "1"
+
+["0.1.2-0"]
+Pkg = ["0.0.0", "1"]
