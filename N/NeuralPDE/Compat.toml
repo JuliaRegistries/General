@@ -51,7 +51,7 @@ DiffEqFlux = "1.21.0-1"
 ["2.3"]
 GalacticOptim = "0.1.1-0.2"
 
-["2.3-5"]
+["2.3-5.9"]
 Optim = "1"
 
 ["2.4-2.5"]
@@ -83,7 +83,7 @@ Cubature = "1.5.1-1"
 ["3-4.7"]
 Quadrature = "1.5.0-1"
 
-[3-5]
+["3-5.9"]
 QuasiMonteCarlo = "0.2.1-0.2"
 
 ["3.10-3.14"]
@@ -180,12 +180,14 @@ SymbolicUtils = "0.18"
 
 ["4.1-5"]
 RuntimeGeneratedFunctions = "0.5"
-Statistics = "1.6.0-1"
 Zygote = "0.6"
 julia = "1.6.0-1"
 
 ["4.1-5.6.0"]
 Symbolics = "4"
+
+["4.1-5.9"]
+Statistics = "1.6.0-1"
 
 ["4.10-4"]
 Quadrature = "2.1.0-2"
@@ -227,12 +229,8 @@ Quadrature = "1.5.0-2"
 ArrayInterface = "3.1.0-6"
 
 [5]
-Adapt = "3"
 ChainRulesCore = "1"
-Integrals = "3.1.0-3"
-IntegralsCubature = "0.2"
 ModelingToolkit = "8"
-RecursiveArrayTools = "2.31.0-2"
 Reexport = "1"
 UnPack = "1"
 
@@ -248,11 +246,27 @@ Lux = "0.4"
 ["5-5.8"]
 Optimisers = "0.2"
 
+["5-5.9"]
+Adapt = "3"
+Integrals = "3.1.0-3"
+IntegralsCubature = "0.2"
+RecursiveArrayTools = "2.31.0-2"
+
 ["5.0"]
 ComponentArrays = "0.12"
 
 ["5.1"]
 ComponentArrays = "0.13"
+
+["5.10-5"]
+Adapt = "3-4"
+Cubature = "1.5.0-1"
+DomainSets = "0.6-0.7"
+Integrals = "4"
+Optim = "1.7.8-1"
+QuasiMonteCarlo = "0.3.2-0.3"
+SciMLBase = "2"
+Statistics = "1"
 
 ["5.2-5.7"]
 ComponentArrays = "0.13.2-0.13"
@@ -267,7 +281,7 @@ Symbolics = "5"
 ["5.6.1-5.8"]
 SciMLBase = "1.91.0-1"
 
-["5.7-5"]
+["5.7-5.9"]
 DomainSets = "0.6"
 
 ["5.8"]
@@ -277,6 +291,9 @@ ComponentArrays = "0.13.2-0.14"
 Flux = "0.13-0.14"
 Lux = "0.4-0.5"
 
+["5.9"]
+SciMLBase = "1.91.0-2"
+
 ["5.9-5"]
 AdvancedHMC = "0.5"
 ComponentArrays = "0.13.2-0.15"
@@ -285,4 +302,3 @@ LogDensityProblems = "2"
 MCMCChains = "6"
 MonteCarloMeasurements = "1"
 Optimisers = "0.2-0.3"
-SciMLBase = "1.91.0-2"

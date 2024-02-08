@@ -28,14 +28,14 @@ QuantumPropagators = "0.1.2-0.1"
 ["0.3"]
 LocalCoverage = "0.2-0.3"
 
-["0.3-0"]
-FiniteDifferences = "0.12"
-
 ["0.3-0.4"]
 Zygote = "0.6"
 
 ["0.3-0.7"]
 ChainRules = "1.18.1-1"
+
+["0.3-0.8"]
+FiniteDifferences = "0.12"
 
 ["0.3.0"]
 QuantumPropagators = "0.1.3-0.1"
@@ -75,13 +75,25 @@ QuantumPropagators = "0.4.2-0.4"
 
 ["0.8.1-0"]
 JLD2 = "0.4"
+
+["0.8.1-0.8"]
 Zygote = "0.6"
 
 ["0.8.2"]
 QuantumPropagators = "0.5"
 
-["0.8.3-0"]
+["0.8.3-0.8.4"]
 QuantumPropagators = "0.6"
 
 ["0.8.4-0"]
 julia = "1.9.0-1"
+
+["0.8.5-0.8"]
+QuantumPropagators = "0.7"
+
+["0.9-0"]
+Dates = "1"
+LinearAlgebra = "1"
+Logging = "1"
+Printf = "1"
+QuantumPropagators = "0.7.3-0.7"

@@ -59,7 +59,6 @@ QuantumPropagators = "0.3"
 
 ["0.6-0"]
 FileIO = "1"
-FiniteDifferences = "0.12"
 JLD2 = "0.4"
 
 ["0.6-0.6.1"]
@@ -68,20 +67,23 @@ Krotov = "0.5.1-0.5"
 QuantumControlBase = "0.8"
 Zygote = "0.0.0-0.6"
 
+["0.6-0.8"]
+FiniteDifferences = "0.12"
+
 ["0.6.0"]
 QuantumPropagators = "0.4"
 
 ["0.6.1"]
 QuantumPropagators = "0.4.1-0.4"
 
-["0.6.2-0"]
-Zygote = "0.6"
-
 ["0.6.2-0.6"]
 GRAPE = "0.5.3-0.5"
 Krotov = "0.5.2-0.5"
 QuantumControlBase = "0.8.1-0.8"
 QuantumPropagators = "0.4.2-0.4"
+
+["0.6.2-0.8"]
+Zygote = "0.6"
 
 ["0.7"]
 QuantumControlBase = "0.8.2-0.8"
@@ -95,9 +97,24 @@ Krotov = "0.5.3-0.5"
 QuantumControlBase = "0.8.3-0.8"
 QuantumPropagators = "0.6"
 
-["0.8.1-0"]
+["0.8.1"]
 GRAPE = "0.5.5-0.5"
 Krotov = "0.5.4-0.5"
 QuantumControlBase = "0.8.4-0.8"
 QuantumPropagators = "0.6.1-0.6"
+
+["0.8.1-0"]
 julia = "1.9.0-1"
+
+["0.8.2-0.8"]
+GRAPE = "0.5.7-0.5"
+Krotov = "0.5.5-0.5"
+QuantumControlBase = "0.8.5-0.8"
+QuantumPropagators = "0.7.2-0.7"
+
+["0.8.3-0"]
+IOCapture = "0.2.4-0.2"
+
+["0.9-0"]
+QuantumControlBase = "0.9.1-0.9"
+QuantumPropagators = "0.7.3-0.7"
