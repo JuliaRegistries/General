@@ -11,11 +11,9 @@ julia = "1"
 ["0.1.1-0"]
 Distributions = "0.25"
 FileIO = "1.16.0-1"
-GLMakie = "0.8"
 JLD2 = "0.4"
 JSON = "0.21"
 MLStyle = "0.4.17-0.4"
-MultiScaleArrays = "1.10.0-1"
 OrdinaryDiffEq = "6.47.0-6"
 
 ["0.1.1-0.2"]
@@ -23,6 +21,10 @@ AlgebraicRewriting = "0.1"
 Catlab = "0.14"
 CombinatorialSpaces = "0.4"
 julia = "1.8.0-1"
+
+["0.1.1-0.5.0"]
+GLMakie = "0.8"
+MultiScaleArrays = "1.10.0-1"
 
 ["0.2.1-0"]
 DataStructures = "0.18.13-0.18"
@@ -41,3 +43,10 @@ Catlab = "0.15-0.16"
 CombinatorialSpaces = "0.5-0.6"
 LinearAlgebra = "1.9.0-1"
 Unicode = "1.9.0-1"
+
+["0.5.1-0"]
+ACSets = "0.2"
+ComponentArrays = "0.15"
+DiagrammaticEquations = "0.1"
+SparseArrays = "1.9.0-1"
+StaticArrays = "1.7.0-1"
