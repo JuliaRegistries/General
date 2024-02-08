@@ -1,7 +1,6 @@
 [0]
 InfrastructureSystems = "1"
 JuMP = "1"
-PowerModels = "0.19"
 julia = "1.6.0-1"
 
 ["0-0.2.0"]
@@ -9,6 +8,9 @@ PowerSimulations = "0.20"
 
 ["0-0.3"]
 PowerSystems = "2"
+
+["0-0.6"]
+PowerModels = "0.19"
 
 ["0.2.1-0.2"]
 PowerSimulations = "0.21"
@@ -28,5 +30,11 @@ Dates = "1"
 ["0.5.0"]
 PowerSimulations = "0.24"
 
-["0.5.1-0"]
+["0.5.1-0.6"]
 PowerSimulations = "0.25"
+
+["0.7"]
+PowerSimulations = "0.26"
+
+["0.8-0"]
+PowerSimulations = "0.27"

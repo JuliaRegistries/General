@@ -29,12 +29,22 @@ FinEtools = "6"
 Arpack = "0.5.3"
 
 [2]
-FinEtools = "7"
 FinEtoolsDeforLinear = "2"
+
+["2-2.1"]
+FinEtools = "7"
 Statistics = "1.9.0-1"
 julia = "1.9.0-1"
 
-["2.0.7-2"]
+["2.0.7-2.1"]
 LinearAlgebra = "1.9.0-1"
 SparseArrays = "1.9.0-1"
 Test = "1.9.0-1"
+
+["2.2-2"]
+FinEtools = "7.3.0-7"
+LinearAlgebra = "1.10.0-1"
+SparseArrays = "1.10.0-1"
+Statistics = "1.10.0-1"
+Test = "1.10.0-1"
+julia = "1.10.0-1"
