@@ -2,7 +2,6 @@
 BoteSalvatICX = "fe54227b-96c7-489b-9963-dd1ce2905f30"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 NeXLUncertainties = "7127f3d6-1721-46bc-bb38-8fc703dd438e"
 PeriodicTable = "7b2266bf-644c-5ea3-82d8-af4bbd25a884"
 PhysicalConstants = "5ad8b20f-a522-5ce9-bfc9-ddf1d5bda6ab"
@@ -17,6 +16,9 @@ Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 ["0-0.3.11"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
+["0-0.3.14"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
 ["0-0.3.4"]
 FFAST = "10506e09-08cd-5f0b-aee5-631de1bcc925"
 
@@ -30,7 +32,7 @@ GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["0.2.2-0"]
+["0.2.2-0.3.14"]
 LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 
 ["0.2.7-0"]

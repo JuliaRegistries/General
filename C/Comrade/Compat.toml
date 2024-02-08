@@ -89,9 +89,6 @@ ArgCheck = "2"
 ["0.3.0"]
 ComradeBase = "0.2.5-0.2"
 
-["0.3.1-0"]
-AbstractMCMC = "3-4"
-
 ["0.3.1-0.3"]
 ComradeBase = "0.3"
 
@@ -100,6 +97,9 @@ FLoops = "0.2"
 
 ["0.3.1-0.6.5"]
 NFFT = "0.10-0.12"
+
+["0.3.1-0.9.0"]
+AbstractMCMC = "3-4"
 
 ["0.4"]
 BlockDiagonals = "0.1"
@@ -157,7 +157,6 @@ NFFT = "0.10-0.13"
 FITSIO = "0.16-0.17"
 
 ["0.7-0"]
-AxisKeys = "0.2"
 PrettyTables = "1-2"
 Static = "0.6-0.8"
 StaticArraysCore = "1"
@@ -177,6 +176,9 @@ RectiGrids = "0.1"
 ["0.7-0.8.0"]
 TransformVariables = "0.5-0.7"
 VLBILikelihoods = "0.1"
+
+["0.7-0.9.0"]
+AxisKeys = "0.2"
 
 ["0.7.2-0"]
 LogDensityProblems = "2"
@@ -214,10 +216,19 @@ TransformVariables = "0.8"
 VLBILikelihoods = "0.1.3-0.1"
 
 ["0.9-0"]
-ComradeBase = "0.5"
 HypercubeTransform = "0.4"
 PolarizedTypes = "0.1"
 Statistics = "1.8.0-1"
+julia = "1.8.0-1"
+
+["0.9.0"]
+ComradeBase = "0.5"
 VLBILikelihoods = "0.2"
 VLBISkyModels = "0.3.1-0.3"
-julia = "1.8.0-1"
+
+["0.9.1-0"]
+AbstractMCMC = "3-5"
+ComradeBase = "0.6"
+DimensionalData = "0.25"
+VLBILikelihoods = "0.2.1-0.2"
+VLBISkyModels = "0.4"

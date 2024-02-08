@@ -1,8 +1,14 @@
 [0]
 DataStructures = "0.18"
 DiskArrays = "0.3"
-GRIB = "0.3"
 julia = "1"
 
-["0.2-0"]
+["0-0.3.0"]
+GRIB = "0.3"
+
+["0.2-0.3.0"]
 CommonDataModel = "0.2.1-0.2"
+
+["0.3.1-0"]
+CommonDataModel = "0.2.1-0.3"
+GRIB = "0.3-0.4"

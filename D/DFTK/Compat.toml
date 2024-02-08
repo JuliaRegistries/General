@@ -297,8 +297,16 @@ julia = "1.8.0-1"
 DocStringExtensions = "0.9"
 Interpolations = "0.14-0.15"
 Libxc = "0.3.17-0.3"
-Spglib = "0.9"
 julia = "1.9.0-1"
+
+["0.6.15-0.6.17"]
+Spglib = "0.9"
+
+["0.6.17-0"]
+AtomsCalculators = "0.1"
+
+["0.6.18-0"]
+Spglib = "0.9-0.9.2"
 
 ["0.6.2-0.6.7"]
 SnoopPrecompile = "1"

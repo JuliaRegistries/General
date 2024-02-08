@@ -1,4 +1,4 @@
-name: CI
+name: Registry Consistency
 on:
   pull_request:
     branches:
@@ -12,7 +12,7 @@ env:
 permissions:
   contents: read
 jobs:
-  CI:
+  check:
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
     strategy:
@@ -20,6 +20,9 @@ jobs:
       matrix:
         version:
           # Keep this list in sync with `update_manifests.yml`.
+          # - '1.0' # RegistryCI currently doesn't support Julia 1.0
+          # - '1.1' # RegistryCI currently doesn't support Julia 1.1
+          # - '1.2' # RegistryCI currently doesn't support Julia 1.2
           - '1.3'
           - '1.4'
           - '1.5'
@@ -27,7 +30,9 @@ jobs:
           - '1.7'
           - '1.8'
           - '1.9'
-          # - 'nightly'
+          - '1.10'
+          # - '1.11' # TODO: uncomment once Julia 1.11 is released
+          # - 'nightly' # TODO: uncomment this line
         os:
           - ubuntu-latest
         arch:

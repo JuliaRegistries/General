@@ -3,7 +3,6 @@ ConcreteStructs = "0.2"
 DataStructures = "0.18"
 Distributions = "0.25"
 DocStringExtensions = "0.9"
-Interpolations = "0.14"
 MPI = "0.20"
 MPIPreferences = "0.1"
 MacroTools = "0.5"
@@ -14,6 +13,9 @@ SplittableRandoms = "0.1"
 ArgMacros = "0.2"
 Plots = "1"
 Turing = "0.22-0.23"
+
+["0-0.2"]
+Interpolations = "0.14"
 
 ["0-0.2.0"]
 DynamicPPL = "0.21"
@@ -29,6 +31,8 @@ julia = "1.6.0-1"
 ["0.1.1-0"]
 Expect = "0.3"
 LogExpFunctions = "0.3"
+
+["0.1.1-0.2"]
 RecipesBase = "1.3.0-1"
 
 ["0.1.1-0.2.0"]
@@ -38,17 +42,19 @@ StaticArrays = "1.5.0-1"
 ["0.1.1-0.2.1"]
 Statistics = "1.6.0-1"
 
-["0.2-0"]
+["0.2"]
 BridgeStan = "2.1.0-2"
-ForwardDiff = "0.10"
 LogDensityProblems = "2.1.0-2"
 LogDensityProblemsAD = "1.6.0-1"
+
+["0.2-0"]
+ForwardDiff = "0.10"
 ZipFile = "0.10"
 
 ["0.2.1"]
 StatsBase = "0.34"
 
-["0.2.1-0"]
+["0.2.1-0.2"]
 DynamicPPL = "0.23"
 Graphs = "1.8.0-1"
 OnlineStats = "1.6.0-1"
@@ -59,6 +65,22 @@ StaticArrays = "1.6.0-1"
 
 ["0.2.2-0"]
 DataFrames = "1"
-Statistics = "1.8.0-1"
 StatsBase = "0.33-0.34"
 julia = "1.8.0-1"
+
+["0.2.2-0.2"]
+Statistics = "1.8.0-1"
+
+["0.3-0"]
+Graphs = "1"
+Interpolations = "0.14-0.15"
+LogDensityProblems = "2"
+LogDensityProblemsAD = "1"
+OnlineStats = "1"
+OrderedCollections = "1"
+Preferences = "1"
+RecipesBase = "1"
+Requires = "1"
+SpecialFunctions = "2"
+StaticArrays = "1"
+Statistics = "1"

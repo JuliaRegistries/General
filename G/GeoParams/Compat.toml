@@ -46,15 +46,15 @@ Requires = "1.0-1.3"
 DelimitedFiles = "1.6.0-1"
 julia = "1.6.0-1"
 
-["0.2.9-0"]
-Loess = "0.5"
-
 ["0.2.9-0.3.16"]
 Statistics = "1.6.0-1"
 StatsBase = "0.33"
 
 ["0.2.9-0.3.7"]
 KernelDensity = "0.6"
+
+["0.2.9-0.5.5"]
+Loess = "0.5"
 
 ["0.3.11-0"]
 LaTeXStrings = "1.2.0-1"
@@ -69,11 +69,8 @@ Unitful = "1"
 Roots = "1"
 
 ["0.3.17-0"]
-Interpolations = "0.13-0.14"
 Requires = ["0.5-0.8", "1.0-1.3"]
 Setfield = ["0.5.1-0.8", "1"]
-StaticArrays = "1.5.0-1"
-StatsBase = "0.1-0.33"
 Unidecode = "1"
 julia = "1.7.0-1"
 
@@ -81,9 +78,18 @@ julia = "1.7.0-1"
 DelimitedFiles = "1.7.0-1"
 Statistics = "1.7.0-1"
 
+["0.3.17-0.5.4"]
+StaticArrays = "1.5.0-1"
+
+["0.3.17-0.5.5"]
+Interpolations = "0.13-0.14"
+StatsBase = "0.1-0.33"
+
 ["0.3.18-0"]
-ForwardDiff = "0.10"
 Roots = "1-2"
+
+["0.3.18-0.5.4"]
+ForwardDiff = "0.10"
 
 ["0.3.8-0"]
 KernelDensitySJ = "0.2"
@@ -91,9 +97,26 @@ KernelDensitySJ = "0.2"
 ["0.4-0"]
 DelimitedFiles = "1"
 SpecialFunctions = "2"
-Static = "0.7"
 Statistics = "1"
 
+["0.4-0.5.5"]
+Static = "0.7"
+
 ["0.5.1-0"]
-GLMakie = "0.8"
 LinearAlgebra = "1"
+
+["0.5.1-0.5.3"]
+GLMakie = "0.8"
+
+["0.5.4-0"]
+GLMakie = "0.8-0.9"
+
+["0.5.5-0"]
+ForwardDiff = "0.10.36-0.10"
+StaticArrays = "1.9.1-1"
+
+["0.5.6-0"]
+Interpolations = "0.13-0.15"
+Loess = "0.5-0.6"
+Static = "0.7-0.8"
+StatsBase = "0.1-0.34"
