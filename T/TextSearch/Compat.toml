@@ -17,11 +17,11 @@ Intersections = "0.2"
 ["0.10.1"]
 SimilaritySearch = "0.6-0.7"
 
-["0.10.2-0"]
-julia = "1.6.0-1"
-
 ["0.10.2-0.11"]
 SimilaritySearch = "0.8"
+
+["0.10.2-0.17"]
+julia = "1.6.0-1"
 
 ["0.11"]
 InvertedFiles = "0.3"
@@ -31,27 +31,38 @@ InvertedFiles = "0.4"
 Polyester = "0.6"
 SimilaritySearch = "0.9"
 
-["0.14-0"]
-Polyester = "0.6-0.7"
-SimilaritySearch = "0.10"
-
 ["0.14-0.15.1"]
 InvertedFiles = "0.5"
+
+["0.14-0.17"]
+Polyester = "0.6-0.7"
+SimilaritySearch = "0.10"
 
 ["0.14.2-0.15.1"]
 Intersections = "0.3"
 
 ["0.15.2-0"]
 Intersections = "0.4"
-InvertedFiles = "0.6"
 JLD2 = "0.4"
+
+["0.15.2-0.17"]
+InvertedFiles = "0.6"
 
 ["0.17.2-0"]
 LinearAlgebra = "1"
 Random = "1"
 SparseArrays = "1"
-Test = "1"
 Unicode = "1"
+
+["0.17.2-0.17"]
+Test = "1"
+
+["0.18-0"]
+InvertedFiles = "0.7"
+Polyester = "0.7"
+SimilaritySearch = "0.11"
+StatsBase = "0.32-0.34"
+julia = "1.8-1.10"
 
 ["0.2.14"]
 KernelMethods = "0.1"
@@ -98,7 +109,7 @@ SimilaritySearch = "0.4.2-0.4"
 ["0.6"]
 CategoricalArrays = "0.8.3-0.9"
 
-["0.6-0"]
+["0.6-0.17"]
 StatsBase = "0.32-0.33"
 
 ["0.7-0.7.1"]

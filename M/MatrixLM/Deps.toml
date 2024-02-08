@@ -1,9 +1,14 @@
 [0]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
-GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.1"]
+GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.2-0"]
+StatsModels = "3eaba693-59b7-5ba5-a881-562e759f1c8d"

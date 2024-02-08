@@ -51,7 +51,7 @@ DocStringExtensions = "0.7-0.8"
 ["0.11.2"]
 IncrementalInference = "0.17-0.19"
 
-["0.11.2-0"]
+["0.11.2-0.24.0"]
 Reexport = ["0.2", "1"]
 
 ["0.11.3-0.11"]
@@ -115,10 +115,12 @@ Distributions = "0.23-0.25"
 
 ["0.16-0"]
 CoordinateTransformations = "0.5-0.6"
-TransformUtils = "0.2.11-0.2"
 
 ["0.16-0.18"]
 ManifoldsBase = "0.12.6-0.12"
+
+["0.16-0.24.0"]
+TransformUtils = "0.2.11-0.2"
 
 ["0.16.0"]
 ApproxManifoldProducts = "0.3.3-0.4"
@@ -227,22 +229,39 @@ IncrementalInference = "0.33"
 IncrementalInference = "0.33-0.34"
 
 ["0.23-0"]
-ApproxManifoldProducts = "0.7-0.8"
 DelimitedFiles = "1"
 DistributedFactorGraphs = "0.23"
 ImageCore = "0.9-0.10"
 PrecompileTools = "1"
+
+["0.23-0.24.0"]
+ApproxManifoldProducts = "0.7-0.8"
 Statistics = "1.9.0-1"
 julia = "1.9.0-1"
 
 ["0.24-0"]
-Dates = "1.9.0-1"
-Distributed = "1.9.0-1"
 IncrementalInference = "0.35"
-LinearAlgebra = "1.9.0-1"
 Manifolds = "0.9"
 ManifoldsBase = "0.15"
+
+["0.24.0"]
+Dates = "1.9.0-1"
+Distributed = "1.9.0-1"
+LinearAlgebra = "1.9.0-1"
 Random = "1.9.0-1"
+
+["0.24.1-0"]
+ApproxManifoldProducts = "0.8"
+Dates = "1.10.0-1"
+Distributed = "1.10.0-1"
+Interpolations = "0.14-0.15"
+LinearAlgebra = "1.10.0-1"
+Random = "1.10.0-1"
+Reexport = "1"
+Statistics = "1.10.0-1"
+TimeZones = "1"
+TransformUtils = "0.2.17-0.2"
+julia = "1.10.0-1"
 
 ["0.3"]
 ApproxManifoldProducts = "0.0.3"
