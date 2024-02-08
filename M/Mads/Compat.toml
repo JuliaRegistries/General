@@ -346,6 +346,9 @@ DelimitedFiles = "1.9.0-1"
 DelimitedFiles = "1"
 Images = ["0.3", "0.22-0.26"]
 
+["1.5.11-1"]
+AffineInvariantMCMC = "1.2.3-2"
+
 ["1.5.3"]
 SHA = "0.7"
 
@@ -370,8 +373,10 @@ XLSX = ["0.7-0.10", "1"]
 LsqFit = "0.15"
 
 ["1.5.4-1"]
-AffineInvariantMCMC = "1.2.2-2"
 SHA = ["0.7", "1"]
+
+["1.5.4-1.5.10"]
+AffineInvariantMCMC = "1.2.2-2"
 
 ["1.5.5-1"]
 LsqFit = ["0.15-0.16", "1"]
