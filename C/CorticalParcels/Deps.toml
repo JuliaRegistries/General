@@ -2,10 +2,12 @@
 CIFTI = "8026ff91-9e86-4f19-bd27-c139e9e8bf7a"
 Chain = "8be319e6-bccf-4806-a6f7-6fae938471bc"
 CorticalSurfaces = "db9f6742-bc38-4697-955a-0a5dbec8c5c6"
-HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
-JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0-0.8"]
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 
 ["0.2-0"]
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
