@@ -138,8 +138,16 @@ julia = "1.5.0-1"
 
 ["2.10-2"]
 Flux = "0.13.16-0.14"
-Statistics = "1.9.0-1"
 julia = "1.9.0-1"
+
+["2.10.0"]
+Statistics = "1.9.0-1"
+
+["2.10.1-2"]
+Accessors = "0.1"
+Preferences = "1"
+SparseArrays = "1"
+Statistics = "1"
 
 ["2.2-2.4"]
 Zygote = "0.5.10-0.6"
@@ -168,6 +176,8 @@ ChainRulesCore = "1"
 Combinatorics = "1"
 DataFrames = "1"
 MacroTools = "0.5"
+
+["2.6-2.10.0"]
 Preferences = "1.2.0-1"
 
 ["2.6-2.7"]
@@ -189,6 +199,8 @@ Flux = "0.13"
 
 ["2.8-2"]
 HierarchicalUtils = "2.1.5-2"
+
+["2.8-2.10.0"]
 Setfield = "1"
 
 ["2.8.1-2.8.2"]

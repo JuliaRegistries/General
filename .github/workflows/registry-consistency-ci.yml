@@ -12,7 +12,7 @@ env:
 permissions:
   contents: read
 jobs:
-  CI:
+  check:
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
     strategy:
