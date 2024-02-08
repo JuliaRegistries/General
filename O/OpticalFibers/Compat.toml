@@ -1,9 +1,6 @@
 [0]
 ArnoldiMethod = "0.2"
 Arpack = "0.5.4-0.5"
-FastGaussQuadrature = "0.4.9-0.5"
-Gridap = "0.17.19-0.17"
-Interpolations = "0.14"
 LinearMaps = "3"
 MPI = "0.20"
 MUMPS = "1.4.0-1"
@@ -13,3 +10,15 @@ julia = "1.9.0-1"
 
 ["0-0.1.0"]
 GridapGmsh = "0.7"
+
+["0-0.1.1"]
+FastGaussQuadrature = "0.4.9-0.5"
+Gridap = "0.17.19-0.17"
+Interpolations = "0.14"
+
+["0.1.2-0"]
+FastGaussQuadrature = ["0.4.9-0.5", "1"]
+Gridap = "0.17.20-0.17"
+Interpolations = "0.15"
+LinearAlgebra = "1"
+SparseArrays = "1"

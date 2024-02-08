@@ -35,13 +35,24 @@ julia = "1.7.0-1"
 ["0.3.2-0.3.3"]
 CairoMakie = "0.7.3-0.7"
 
-["0.3.4-0"]
+["0.3.4"]
 CairoMakie = "0.10.1-0.10"
 ColorSchemes = "3.20.0-3"
-Colors = "0.12.10-0.12"
 DataFrames = "1.4.4-1"
 DifferentialEquations = "7.6.0-7"
-Interpolations = "0.14.7-0.14"
 Polynomials = "3.2.3-3"
 Roots = "2.0.8-2"
 julia = "1.8.0-1"
+
+["0.3.4-0"]
+Colors = "0.12.10-0.12"
+Interpolations = "0.14.7-0.14"
+
+["0.3.5-0"]
+CairoMakie = "0.11.8-0.11"
+ColorSchemes = "3.24.0-3"
+DataFrames = "1.6.1-1"
+DifferentialEquations = "7.12.0-7"
+Polynomials = "4.0.6-4"
+Roots = "2.1.2-2"
+julia = "1.10.0-1"
