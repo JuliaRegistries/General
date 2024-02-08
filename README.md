@@ -234,6 +234,14 @@ Technically if you skip the second step things will keep working, because GitHub
 but it is best practice. For this reason, when you try to register a new release, the Julia
 Registrator will complain if the second step is skipped.
 
+#### How do I transfer a package to General from another registry?
+
+You can simply register your next release in General (and don't change the package's name or UUID!).
+This will be treated as a new package registration in General and be subject to the usual 3-day waiting period.
+Once registered, Pkg.jl will look at all the versions from all registries it knows about, and use the compat
+mechanism to figure out what version to resolve to as usual, regardless if some versions are in different registries
+from others.
+
 #### Where do I report a problem with a package in the General registry?
 
 Report it to the package repository.
@@ -253,6 +261,25 @@ See [these](https://github.com/JuliaRegistries/General/pull/31549#issuecomment-7
 
 [^1]: Note that even within the world of OSI licenses, there are combinations of OSI licenses which are not
 legal to use together, such as GPL2 with Apache2.
+
+#### Can my package registration PR be merged early?
+
+New packages must typically wait for the 3 day timer to expire before they are merged, either automatically by the bot or manually. 
+This waiting period allows time for community comment and review, and to provide time to check things like:
+
+- the name is appropriate (e.g. "safe for work", not typosquatting, and fitting with the [Pkg naming guidelines](https://pkgdocs.julialang.org/v1/creating-packages/#Package-naming-guidelines))
+- the package is functional and non-empty
+- the code is not malicious (e.g. exploiting security vulnerabilities)
+- there is some form of README or documentation to enable users to use the package
+
+If there is some urgent need for the package to be registered (for example, an upcoming talk featuring the package or other external deadline), the waiting period can be expedited by request made in the [#pkg-registration](https://julialang.slack.com/archives/C6M4DQA5P) channel on the 
+public Julia Language Slack, or directly on the PR itself. This request should include a link to the registration PR and why an expedited merge is needed. In this case, a registry maintainer (see below) can manually review the package (often with stricter standards than the typical package faces, given the lack of bandwidth to review all packages thoroughly).
+
+#### Who can approve an early merge?
+
+Any registry maintainer may merge a package registration PR early.
+Early merges should still be discussed on the [#pkg-registration](https://julialang.slack.com/archives/C6M4DQA5P) slack channel before merging.
+Registry maintainers are discouraged from merging packages they directly *or* indirectly maintain as mentioned in [CONTRIBUTING.md](https://github.com/JuliaRegistries/General/blob/master/CONTRIBUTING.md#other-ways-to-help).
 
 ## Registry maintenance
 
