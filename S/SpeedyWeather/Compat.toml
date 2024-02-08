@@ -30,13 +30,15 @@ CUDAKernels = "0.3"
 KernelAbstractions = "0.7"
 
 ["0.3-0"]
-Adapt = "3"
 BitInformation = "0.6"
 CodecZlib = "0.7"
 JLD2 = "0.4"
 
 ["0.3-0.4"]
 CUDA = "3"
+
+["0.3-0.7"]
+Adapt = "3"
 
 ["0.4-0"]
 GenericFFT = "0.1"
@@ -65,12 +67,18 @@ CUDA = "4"
 KernelAbstractions = "0.9"
 UnicodePlots = "3.3.0-3"
 
+["0.7"]
+NCDatasets = "0.12-0.13"
+
 ["0.7-0"]
 CUDA = "4-5"
 Dates = "1.8.0-1"
 FastGaussQuadrature = ["0.4-0.5", "1"]
 LinearAlgebra = "1.8.0-1"
-NCDatasets = "0.12-0.13"
 Printf = "1.8.0-1"
 Random = "1.8.0-1"
 TOML = "1"
+
+["0.8-0"]
+Adapt = "3-4"
+NCDatasets = "0.12-0.14"
