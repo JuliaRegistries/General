@@ -21,7 +21,7 @@ ForwardDiff = "0.10.3-0.10"
 ["0.2"]
 StaticArrays = "1"
 
-["0.2-3"]
+["0.2-3.4"]
 UnPack = "1"
 
 ["0.3-0"]
@@ -104,7 +104,7 @@ ArrayInterface = "6.0.24-7"
 ["1.5.1-1"]
 SparseDiffTools = "1-2"
 
-["1.5.1-3"]
+["1.5.1-3.4"]
 EnumX = "1"
 
 ["1.7-2.4"]
@@ -123,13 +123,13 @@ SciMLBase = "1.97.0-2"
 DiffEqBase = "6.130.0-6"
 SparseDiffTools = "2.6.0-2"
 
-[2-3]
-ConcreteStructs = "0.2"
-julia = "1.9.0-1"
-
 ["2-3.1.0"]
 ADTypes = "0.2"
 LineSearches = "7"
+
+["2-3.4"]
+ConcreteStructs = "0.2"
+julia = "1.9.0-1"
 
 ["2.2-2.8.1"]
 SciMLBase = "2.4.0-2"
@@ -171,7 +171,6 @@ SciMLBase = "2.8.2-2"
 SparseDiffTools = "2.12.0-2"
 
 [3]
-LinearAlgebra = ["0.0.0", "1"]
 SparseDiffTools = "2.14.0-2"
 
 ["3-3.1"]
@@ -186,6 +185,9 @@ SciMLBase = "2.9.0-2"
 SimpleNonlinearSolve = "1"
 StaticArrays = "1"
 
+["3-3.4"]
+LinearAlgebra = ["0.0.0", "1"]
+
 ["3.0"]
 RecursiveArrayTools = "2"
 
@@ -193,8 +195,6 @@ RecursiveArrayTools = "2"
 RecursiveArrayTools = "2-3"
 
 ["3.1.1-3"]
-ADTypes = "0.2.5-0.2"
-DiffEqBase = "6.144.0-6"
 FastBroadcast = "0.2.8-0.2"
 FiniteDiff = "2.21.0-2"
 ForwardDiff = "0.10.36-0.10"
@@ -204,20 +204,41 @@ LinearSolve = "2.21.0-2"
 MaybeInplace = "0.1.1-0.1"
 PrecompileTools = "1.2.0-1"
 Reexport = "1.2.0-1"
-SciMLBase = "2.11.0-2"
-SciMLOperators = "0.3.7-0.3"
-SimpleNonlinearSolve = "1.0.2-1"
-StaticArrays = "1.7.0-1"
 
 ["3.1.1-3.1"]
 ArrayInterface = "7.6.0-7"
 RecursiveArrayTools = "3"
 
+["3.1.1-3.4"]
+ADTypes = "0.2.5-0.2"
+DiffEqBase = "6.144.0-6"
+SciMLBase = "2.11.0-2"
+SciMLOperators = "0.3.7-0.3"
+SimpleNonlinearSolve = "1.0.2-1"
+StaticArrays = "1.7.0-1"
+
 ["3.2-3"]
 ArrayInterface = "7.7.0-7"
+
+["3.2-3.4"]
 Printf = "1.9.0-1"
 RecursiveArrayTools = "3.2.0-3"
 SparseArrays = "1.9.0-1"
 
 ["3.4-3"]
 FastClosures = "0.3"
+
+["3.5-3"]
+ADTypes = "0.2.6-0.2"
+ConcreteStructs = "0.2.3-0.2"
+DiffEqBase = "6.146.0-6"
+LinearAlgebra = "1.10.0-1"
+Preferences = "1.4.0-1"
+Printf = "1.10.0-1"
+RecursiveArrayTools = "3.4.0-3"
+SciMLBase = "2.19.0-2"
+SimpleNonlinearSolve = "1.2.0-1"
+SparseArrays = "1.10.0-1"
+StaticArraysCore = "1.4.0-1"
+TimerOutputs = "0.5.23-0.5"
+julia = "1.10.0-1"
