@@ -2,20 +2,29 @@
 QuantumControlBase = "f10a33bc-5a64-497c-be7b-6f86b4f0c2aa"
 
 ["0.0.2-0"]
-Krotov = "b05dcdc7-62f6-4360-bf2c-0898bba419de"
 QuantumPropagators = "7bf12567-5742-4b91-a078-644e72a65fc1"
 
+["0.0.2-0.8"]
+Krotov = "b05dcdc7-62f6-4360-bf2c-0898bba419de"
+
 ["0.0.3-0"]
-GRAPE = "6b52fcaf-80fe-489a-93e9-9f92080510be"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
+["0.0.3-0.8"]
+GRAPE = "6b52fcaf-80fe-489a-93e9-9f92080510be"
+
 ["0.6-0"]
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-FiniteDifferences = "26cc04aa-876d-5657-8c51-4c34ba976000"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["0.6-0.8"]
+FiniteDifferences = "26cc04aa-876d-5657-8c51-4c34ba976000"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0.8.0"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.8.3-0"]
+IOCapture = "b5f81e59-6552-4d32-b1f0-c071b021bf89"

@@ -7,8 +7,20 @@ JSON = "0.0.0-0.21"
 ["0-0.5.0"]
 julia = ["0.7", "1"]
 
-["0.10.4-0"]
+["0.10.4-0.10"]
 julia = "1.7.0-1"
+
+["0.11-0"]
+StatsBase = "0.32-0.34"
+StrideArraysCore = "0.3-0.5"
+julia = "1.8.0-1"
+
+["0.11.1-0"]
+Dates = "1"
+LinearAlgebra = "1"
+Polyester = "0.7"
+Random = "1"
+SparseArrays = "1"
 
 ["0.3.20"]
 DataStructures = "0.0.0-0.18"
@@ -21,6 +33,8 @@ JSON = ["0.19", "0.21"]
 
 ["0.4-0"]
 Distances = "0.10"
+
+["0.4-0.10"]
 StatsBase = ["0.30", "0.32-0.33"]
 
 ["0.4.4-0.4"]
@@ -57,7 +71,7 @@ Intersections = "0.2.8-0.2"
 ["0.9-0.9.13"]
 Polyester = "0.6"
 
-["0.9.14-0"]
+["0.9.14-0.11.0"]
 Polyester = "0.6-0.7"
 
 ["0.9.15-0"]
@@ -69,5 +83,5 @@ StrideArraysCore = "0.3"
 ["0.9.8-0"]
 LoopVectorization = "0.12"
 
-["0.9.9-0"]
+["0.9.9-0.10"]
 StrideArraysCore = "0.3-0.4"
