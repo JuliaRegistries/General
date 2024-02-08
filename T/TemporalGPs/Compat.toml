@@ -43,7 +43,6 @@ StaticArrays = "0.12.1-0.12"
 
 ["0.3.7-0"]
 BlockDiagonals = "0.1.7-0.1"
-StaticArrays = "1"
 
 ["0.3.7-0.3"]
 BlockArrays = "0.13"
@@ -54,6 +53,9 @@ FillArrays = "0.10"
 
 ["0.3.7-0.5.7"]
 Distributions = "0.24"
+
+["0.3.7-0.6.6"]
+StaticArrays = "1"
 
 ["0.4-0.5.10"]
 ChainRulesCore = "0.9"
@@ -92,7 +94,6 @@ AbstractGPs = "0.2-0.3"
 KernelFunctions = ["0.9", "0.10.1-0.10"]
 
 ["0.6-0"]
-ChainRulesCore = "1"
 StructArrays = "0.5-0.6"
 julia = "1.6.0-1"
 
@@ -102,11 +103,28 @@ AbstractGPs = "0.5"
 ["0.6-0.6.4"]
 FillArrays = "0.13.0-0.13.7"
 
+["0.6-0.6.6"]
+ChainRulesCore = "1"
+
 ["0.6.2-0.6.4"]
 AbstractGPs = "0.5.15-0.5"
 
 ["0.6.5-0"]
 AbstractGPs = "0.5.17-0.5"
 Bessels = "0.2.8-0.2"
+
+["0.6.5-0.6.6"]
 FillArrays = ["0.13.0-0.13.7", "1"]
+Zygote = "0.6.65-0.6"
+
+["0.6.7"]
+ChainRulesCore = "1.0.0-1.16.0"
+FillArrays = "0.13.0-0.13.7"
+StaticArrays = "1.0.0-1.6.5"
+Zygote = "0.6.65"
+
+["0.6.8-0"]
+ChainRulesCore = "1"
+FillArrays = ["0.13.0-0.13.7", "1"]
+StaticArrays = "1"
 Zygote = "0.6.65-0.6"

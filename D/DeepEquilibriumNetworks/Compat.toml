@@ -23,7 +23,6 @@ MLUtils = "0.2"
 CUDA = "3"
 
 [0-1]
-ChainRulesCore = "1"
 OrdinaryDiffEq = "6"
 Zygote = "0.6.34-0.6"
 
@@ -32,6 +31,9 @@ Lux = "0.4"
 
 ["0-1.2"]
 SciMLBase = "1.19.0-1"
+
+[0-2]
+ChainRulesCore = "1"
 
 ["0.1.1-0.2.3"]
 Static = "0.6-0.7"
@@ -58,9 +60,7 @@ SciMLOperators = "0.1.20-0.1"
 CUDA = "3-4"
 
 [1]
-DiffEqBase = "6.119.0-6"
 Setfield = "1"
-TruncatedStacktraces = "1.1.0-1"
 
 ["1-1.1"]
 SteadyStateDiffEq = "1.12.0-1"
@@ -68,6 +68,10 @@ SteadyStateDiffEq = "1.12.0-1"
 ["1-1.3"]
 SimpleNonlinearSolve = "0.1.14-0.1"
 ZygoteRules = "0.2"
+
+[1-2]
+DiffEqBase = "6.119.0-6"
+TruncatedStacktraces = "1.1.0-1"
 
 ["1.0"]
 LinearSolve = "1"
@@ -86,11 +90,26 @@ CUDA = "3-5"
 SciMLBase = "1.19.0-2"
 
 ["1.4-1"]
-ConcreteStructs = "0.2"
 Lux = "0.5.7-0.5"
 NonlinearSolve = "2"
 Reexport = "1"
-SciMLBase = "2"
 SciMLSensitivity = "7.43.0-7"
 Statistics = "1.9.0-1"
+
+["1.4-2"]
+ConcreteStructs = "0.2"
+SciMLBase = "2"
 julia = "1.9.0-1"
+
+[2]
+ADTypes = "0.2.5-0.2"
+ConstructionBase = "1"
+LinearAlgebra = "1"
+Lux = "0.5.11-0.5"
+Random = "1"
+Statistics = "1"
+SteadyStateDiffEq = "2"
+
+["2.0.3-2"]
+FastClosures = "0.3"
+PrecompileTools = "1"

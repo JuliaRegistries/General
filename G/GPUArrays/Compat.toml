@@ -35,6 +35,10 @@ Adapt = ["0.4.1-0.4", "1"]
 FFTW = ["0.2-0.3", "1"]
 FillArrays = "0.3-0.7"
 
+[10]
+Adapt = "4"
+GPUArraysCore = "0.1.6"
+
 ["2.0.0"]
 AbstractFFTs = "0.4"
 
@@ -66,11 +70,11 @@ julia = "1.6.0-1"
 ["8.2-8.6.5"]
 LLVM = "3.9.0-4"
 
+["8.4-10"]
+Reexport = "1"
+
 ["8.4-8.4.1"]
 GPUArraysCore = "0.1.0"
-
-["8.4-9"]
-Reexport = "1"
 
 ["8.4.2-8.4"]
 GPUArraysCore = "0.1.1"
@@ -90,16 +94,16 @@ LLVM = "3.9.0-5"
 ["8.7-9"]
 GPUArraysCore = "0.1.5"
 
-["8.8.1-9"]
+["8.8.1-10"]
 LLVM = "3.9.0-6"
 
-[9]
+[9-10]
 julia = "1.8.0-1"
 
 ["9.0"]
 Statistics = "1.8.0-1"
 
-["9.1-9"]
+["9.1-10"]
 LinearAlgebra = "1"
 Printf = "1"
 Random = "1"

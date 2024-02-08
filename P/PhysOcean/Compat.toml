@@ -20,9 +20,7 @@ Statistics = ["0.7.0", "1"]
 julia = ["0.7.0", "1"]
 
 ["0.6-0"]
-DelimitedFiles = "1"
 Glob = "1"
-Statistics = "1"
 julia = "1"
 
 ["0.6-0.6.1"]
@@ -30,6 +28,10 @@ HTTP = "0.8"
 
 ["0.6-0.6.3"]
 Missings = "0.4"
+
+["0.6-0.6.8"]
+DelimitedFiles = "1"
+Statistics = "1"
 
 ["0.6.0"]
 AbstractTrees = "0.2"
@@ -67,5 +69,8 @@ AbstractTrees = "0.2-0.4"
 ["0.6.7-0"]
 HTTP = ["0.8-0.9", "1"]
 
-["0.6.8-0"]
+["0.6.8"]
 NCDatasets = "0.8-0.13"
+
+["0.6.9-0"]
+NCDatasets = "0.8-0.14"

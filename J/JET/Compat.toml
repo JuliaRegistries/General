@@ -31,8 +31,10 @@ julia = "1.7.0-1"
 
 ["0.5.4-0"]
 JuliaInterpreter = "0.9"
-LoweredCodeUtils = "2.2.0-2"
 Revise = "3.3.0-3"
+
+["0.5.4-0.8.22"]
+LoweredCodeUtils = "2.2.0-2"
 
 ["0.6.16-0.6.20"]
 julia = "1.8.1-1.8.3"
@@ -52,13 +54,22 @@ PrecompileTools = "1"
 ["0.7.14-0"]
 Preferences = "1.4.0-1"
 
-["0.7.15-0"]
+["0.7.15-0.8.21"]
 julia = "1.9.0-1"
 
 ["0.7.2-0.7.11"]
 SnoopPrecompile = "1"
 
-["0.8.16-0"]
+["0.8.16-0.8.21"]
 InteractiveUtils = "1.9.0-1"
 Pkg = "1.9.0-1"
 Test = "1.9.0-1"
+
+["0.8.22-0"]
+InteractiveUtils = "1.10.0-1"
+Pkg = "1.10.0-1"
+Test = "1.10.0-1"
+julia = "1.10.0-1"
+
+["0.8.23-0"]
+LoweredCodeUtils = "2.2-2.3"

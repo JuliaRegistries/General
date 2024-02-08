@@ -1,0 +1,75 @@
+name: Registry Consistency
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+env:
+    JULIA_PKG_USE_CLI_GIT: true
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        version:
+          # Keep this list in sync with `update_manifests.yml`.
+          # - '1.0' # RegistryCI currently doesn't support Julia 1.0
+          # - '1.1' # RegistryCI currently doesn't support Julia 1.1
+          # - '1.2' # RegistryCI currently doesn't support Julia 1.2
+          - '1.3'
+          - '1.4'
+          - '1.5'
+          - '1.6'
+          - '1.7'
+          - '1.8'
+          - '1.9'
+          - '1.10'
+          # - '1.11' # TODO: uncomment once Julia 1.11 is released
+          # - 'nightly' # TODO: uncomment this line
+        os:
+          - ubuntu-latest
+        arch:
+          - x64
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v3.3.0
+      - uses: julia-actions/setup-julia@58ad1cdde70774ab0693de31c3cd4e751b46aea2 # v1.9.4
+        with:
+          version: ${{ matrix.version }}
+          arch: ${{ matrix.arch }}
+      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
+        shell: julia --color=yes --project=.ci/ {0}
+        id: manifest_version
+      - run: echo "The manifest is .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml"
+      - run: rm -rf .ci/Manifest.toml
+      - run: mv .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
+      - run: rm -rf .ci/Manifest.*.toml
+      - run: chmod 400 .ci/Project.toml
+      - run: chmod 400 .ci/Manifest.toml
+        if: ${{ matrix.version != 'nightly' }}
+      - name: Cache artifacts and packages
+        uses: actions/cache@704facf57e6136b1bc63b828d79edcd491f0ee84 # v3.3.2
+        env:
+          cache-name: cache-artifacts
+        with:
+          path: |
+            ~/.julia/artifacts
+            ~/.julia/packages
+          key: ${{ runner.os }}-test-${{ env.cache-name }}-${{ hashFiles('**/.ci/Manifest.toml') }}
+          restore-keys: |
+            ${{ runner.os }}-test-${{ env.cache-name }}-
+            ${{ runner.os }}-test-
+            ${{ runner.os }}-
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
+        env:
+          JULIA_PKG_SERVER: ""
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
+      - run: .ci/instantiate.sh
+      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
+      - run: julia --color=yes --project=.ci/ -e 'import RegistryCI; RegistryCI.test()'

@@ -119,13 +119,24 @@ MathOptInterface = "1.18.0-1"
 
 ["1.15-1"]
 MacroTools = "0.5"
-MathOptInterface = "1.19.0-1"
 MutableArithmetics = "1.1.0-1"
 
-["1.16-1"]
+["1.15-1.18"]
+MathOptInterface = "1.19.0-1"
+
+["1.16-1.17"]
 LinearAlgebra = "1.6.0-1"
 Printf = "1.6.0-1"
 SparseArrays = "1.6.0-1"
+
+["1.18-1"]
+LinearAlgebra = ["0.0.0", "1.6.0-1"]
+PrecompileTools = "1"
+Printf = ["0.0.0", "1.6.0-1"]
+SparseArrays = ["0.0.0", "1.6.0-1"]
+
+["1.19-1"]
+MathOptInterface = "1.25.2-1"
 
 ["1.2-1.4"]
 MathOptInterface = "1.3.0-1"
@@ -136,7 +147,7 @@ MathOptInterface = "1.10.0-1"
 ["1.6-1.7"]
 MathOptInterface = "1.11.0-1"
 
-["1.7-1"]
+["1.7-1.17"]
 SnoopPrecompile = "1"
 
 ["1.8-1.9"]

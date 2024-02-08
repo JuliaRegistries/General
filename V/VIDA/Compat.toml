@@ -41,26 +41,46 @@ LoopVectorization = "0.12"
 BlackBoxOptim = "0.5-0.6"
 
 ["0.10.8-0"]
-HDF5 = "0.14-0.16"
 SpecialFunctions = ["0.10", "1-2"]
+
+["0.10.8-0.11.0"]
+HDF5 = "0.14-0.16"
 
 ["0.10.9-0"]
 DocStringExtensions = "0.8-0.9"
 FITSIO = "0.14-0.17"
-Interpolations = "0.12-0.14"
 
 ["0.10.9-0.10"]
 ImageFiltering = "0.6-0.7"
 
+["0.10.9-0.11.0"]
+Interpolations = "0.12-0.14"
+
 ["0.11-0"]
-AxisKeys = "0.2"
-ComradeBase = "0.5"
 Distributions = "0.24-0.25"
 HypercubeTransform = "0.4"
 Optimization = "3"
 Reexport = "1"
-VLBISkyModels = "0.3"
 julia = "1.6.0-1"
+
+["0.11.0"]
+AxisKeys = "0.2"
+ComradeBase = "0.5"
+VLBISkyModels = "0.3"
+
+["0.11.1-0"]
+ComradeBase = "0.6"
+DimensionalData = "0.25"
+HDF5 = "0.14-0.17"
+Interpolations = "0.12-0.15"
+VLBISkyModels = "0.4"
+
+["0.11.2-0"]
+ChainRulesCore = "1"
+NamedTupleTools = "0.14"
+
+["0.11.3-0"]
+StatsBase = "0.33-0.34"
 
 ["0.2"]
 FITSIO = "0.14-0.15"

@@ -299,7 +299,7 @@ GeoClustering = "0.3"
 ["0.37"]
 GeoStatsBase = "0.30"
 
-["0.37-0"]
+["0.37-0.49"]
 TableTransforms = "1.9.0-1"
 
 ["0.37.0"]
@@ -389,9 +389,6 @@ GeoTables = "1.6.0-1"
 ["0.45"]
 GeoStatsTransforms = "0.1"
 
-["0.45-0"]
-GeoStatsSolvers = "0.7"
-
 ["0.45-0.45.2"]
 GeoTables = "1.7.0-1"
 
@@ -400,6 +397,9 @@ GeoStatsModels = "0.1"
 
 ["0.45-0.47"]
 Variography = "0.19"
+
+["0.45-0.48"]
+GeoStatsSolvers = "0.7"
 
 ["0.45.0"]
 GeoStatsBase = "0.36"
@@ -413,12 +413,11 @@ GeoTables = "1.8.0-1"
 ["0.45.3-0.45"]
 GeoStatsBase = "0.38"
 
-["0.45.4-0"]
+["0.45.4-0.48"]
 StatsLearnModels = "0.2"
 
 ["0.46-0"]
 CoDa = "1.2.0-1"
-GeoStatsTransforms = "0.2"
 
 ["0.46-0.47.1"]
 GeoStatsBase = "0.39"
@@ -426,8 +425,13 @@ GeoStatsBase = "0.39"
 ["0.46-0.47.7"]
 DataScienceTraits = "0.1"
 
+["0.46-0.50.0"]
+GeoStatsTransforms = "0.2"
+
 ["0.47-0"]
 Dates = "1.9.0-1"
+
+["0.47-0.50.0"]
 GeoStatsModels = "0.2"
 GeoStatsProcesses = "0.3"
 
@@ -444,7 +448,7 @@ Distributions = "0.25"
 ["0.47.9-0.48.3"]
 GeoStatsBase = "0.41"
 
-["0.48-0"]
+["0.48"]
 Meshes = "0.37"
 
 ["0.48-0.48.3"]
@@ -453,11 +457,45 @@ Variography = "0.20"
 ["0.48.4"]
 Variography = "0.21"
 
-["0.48.4-0"]
+["0.48.4-0.48"]
 GeoStatsBase = "0.42"
 
-["0.48.5-0"]
+["0.48.5-0.50.0"]
 Variography = "0.22"
+
+["0.49-0"]
+StatsLearnModels = "0.3"
+
+["0.49-0.50.0"]
+GeoStatsValidation = "0.1"
+
+["0.49-0.50.1"]
+GeoStatsBase = "0.43"
+
+["0.49.0"]
+Meshes = "0.38"
+
+["0.49.1-0.49"]
+Meshes = "0.39"
+
+["0.50-0"]
+Meshes = "0.40"
+TableTransforms = "1.29.0-1"
+
+["0.50.1-0"]
+GeoStatsFunctions = "0.1"
+GeoStatsModels = "0.3"
+GeoStatsTransforms = "0.3"
+GeoStatsValidation = "0.2"
+
+["0.50.1-0.50"]
+GeoStatsProcesses = "0.4"
+
+["0.50.2-0"]
+GeoStatsBase = "0.43.7-0.43"
+
+["0.51-0"]
+GeoStatsProcesses = "0.5"
 
 ["0.7.2-0.7"]
 GeoStatsBase = "0.2.5-0.5"

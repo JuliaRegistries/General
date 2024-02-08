@@ -144,7 +144,7 @@ ChainRules = "0.7.16-0.7"
 ["0.5.8-0"]
 ForwardDiff = "0.10"
 
-["0.6-0"]
+["0.6-0.6.67"]
 ZygoteRules = "0.2.1-0.2"
 
 ["0.6.1"]
@@ -213,8 +213,10 @@ ChainRules = "1.36.2-1"
 ["0.6.41-0"]
 DiffRules = "1.4.0-1"
 LogExpFunctions = "0.3.1-0.3"
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
+
+["0.6.41-0.6.67"]
+Statistics = "1.6.0-1"
 
 ["0.6.42-0"]
 GPUArraysCore = "0.1.1-0.1"
@@ -249,8 +251,18 @@ FillArrays = ["0.8-0.13", "1"]
 ["0.6.61-0"]
 PrecompileTools = "1"
 
-["0.6.64-0"]
+["0.6.64-0.6.67"]
 GPUArrays = "8.4.2-9"
 
 ["0.6.66-0"]
 IRTools = "0.4.11-0.4"
+
+["0.6.68"]
+ZygoteRules = "0.2.4-0.2"
+
+["0.6.68-0"]
+GPUArrays = "8.4.2-10"
+Statistics = "1"
+
+["0.6.69-0"]
+ZygoteRules = "0.2.5-0.2"

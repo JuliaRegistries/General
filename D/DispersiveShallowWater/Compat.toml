@@ -1,17 +1,28 @@
 [0]
-DiffEqBase = "6.121.0-6"
 PolynomialBases = "0.4.15-0.4"
 RecipesBase = "1.1.0-1"
 Reexport = "1"
 Roots = "2.0.17-2"
-SciMLBase = "1.90.0-2"
 SimpleUnPack = "1.1.0-1"
 StaticArrays = "1"
 SummationByPartsOperators = "0.5.41-0.5"
+
+["0-0.2.0"]
+DiffEqBase = "6.121.0-6"
+SciMLBase = "1.90.0-2"
 julia = "1.8.0-1"
 
 ["0.2-0"]
-Interpolations = "0.14"
 LinearAlgebra = "1"
 Printf = "1"
 SparseArrays = "1"
+
+["0.2.0"]
+Interpolations = "0.14"
+
+["0.2.1-0"]
+DiffEqBase = "6.128.0-6"
+Interpolations = "0.14.2-0.15"
+SciMLBase = "1.93.0-2"
+TimerOutputs = "0.5.7-0.5"
+julia = "1.9.0-1"

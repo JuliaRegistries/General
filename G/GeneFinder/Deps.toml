@@ -1,8 +1,6 @@
 [0]
 BioSequences = "7e6ae17a-c86d-528c-b3b9-7f778a29fe59"
 FASTX = "c2308a5c-f048-11e8-3e8a-31650f418d12"
-TestItemRunner = "f8b46487-2199-4994-9208-9a1283c18c0a"
-TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
 
 ["0-0.0.16"]
 GenomicFeatures = "899a7d2d-5c61-547b-bef9-6698a8d05446"
@@ -10,13 +8,17 @@ GenomicFeatures = "899a7d2d-5c61-547b-bef9-6698a8d05446"
 ["0-0.0.21"]
 BioSymbols = "3c28c6f8-a34d-59c4-9654-267d177fcfa9"
 
+["0.0"]
+TestItemRunner = "f8b46487-2199-4994-9208-9a1283c18c0a"
+TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
+
 ["0.0.15-0"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["0.0.17"]
 MarkovChainHammer = "38c40fd0-bccb-4723-b30d-b2caea0ad8d9"
 
-["0.0.17-0"]
+["0.0.17-0.1"]
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 ["0.0.19-0.0.21"]
@@ -27,3 +29,6 @@ IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
 
 ["0.0.9-0.0.10"]
 StringViews = "354b36f9-a18e-4713-926e-db85100087ba"
+
+["0.1"]
+BioMarkovChains = "f861b655-cb5f-42ce-b66a-341b542d4f2c"

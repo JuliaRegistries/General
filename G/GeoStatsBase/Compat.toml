@@ -26,7 +26,7 @@ julia = "1.4.0-1"
 ["0.12.1-0.21.8"]
 ScientificTypes = ["0.7-0.8", "1"]
 
-["0.13-0"]
+["0.13-0.42"]
 Transducers = "0.4"
 
 ["0.14-0"]
@@ -160,11 +160,11 @@ DensityRatioEstimation = "0.5-0.6"
 ["0.26.1"]
 Meshes = "0.22"
 
-["0.26.1-0"]
-Distributions = "0.25"
-
 ["0.26.1-0.27"]
 DensityRatioEstimation = "0.6"
+
+["0.26.1-0.42"]
+Distributions = "0.25"
 
 ["0.26.2-0.26"]
 Meshes = "0.22-0.23"
@@ -239,7 +239,7 @@ julia = "1.9.0-1"
 ["0.32-0.32.2"]
 Meshes = "0.33"
 
-["0.32.1-0"]
+["0.32.1-0.42"]
 LossFunctions = "0.11"
 
 ["0.32.3-0.33"]
@@ -260,7 +260,7 @@ GeoTables = "1.7.0-1"
 ["0.36-0.38"]
 TableTransforms = "1.15.0-1"
 
-["0.37.2-0"]
+["0.37.2-0.42"]
 Unitful = "1.17.0-1"
 
 ["0.37.6-0"]
@@ -272,9 +272,7 @@ GeoTables = "1.8.0-1"
 ["0.39-0"]
 DensityRatioEstimation = "1.2.0-1"
 GeoTables = "1.9.0-1"
-ProgressMeter = "1.9.0-1"
 Rotations = "1.6.0-1"
-TableTransforms = "1.16.0-1"
 Tables = "1.11.0-1"
 TypedTables = "1.4.0-1"
 
@@ -284,6 +282,10 @@ MLJModelInterface = "1.9.0-1"
 ["0.39-0.40.1"]
 DataScienceTraits = "0.1"
 
+["0.39-0.42"]
+ProgressMeter = "1.9.0-1"
+TableTransforms = "1.16.0-1"
+
 ["0.39.0"]
 StatsBase = "0.34"
 
@@ -291,8 +293,10 @@ StatsBase = "0.34"
 StatsBase = "0.33-0.34"
 
 ["0.39.2-0"]
-Distributed = "1.9.0-1"
 LinearAlgebra = "1.9.0-1"
+
+["0.39.2-0.42"]
+Distributed = "1.9.0-1"
 Random = "1.9.0-1"
 
 ["0.4.1-0.8.2"]
@@ -307,8 +311,20 @@ Meshes = "0.36"
 ["0.40.2-0"]
 DataScienceTraits = "0.2"
 
-["0.41.1-0"]
+["0.41.1-0.42"]
 Meshes = "0.37"
+
+["0.43-0.43.3"]
+Meshes = "0.38"
+
+["0.43.1-0"]
+StaticArrays = "1.8.0-1"
+
+["0.43.4-0.43.5"]
+Meshes = "0.39"
+
+["0.43.6-0"]
+Meshes = "0.40"
 
 ["0.5-0.17"]
 NearestNeighbors = "0.4"

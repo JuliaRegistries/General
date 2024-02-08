@@ -1,8 +1,5 @@
 [0]
 Colors = "0.12"
-EzXML = "1.1.0-1"
-OnlineStats = "1.5.0-1"
-Requires = "1"
 
 ["0-0.1"]
 NeXLCore = "0.1"
@@ -29,6 +26,11 @@ Reexport = "0.2"
 
 ["0-0.3.1"]
 DataAPI = "1.3.0-1"
+
+["0-0.3.6"]
+EzXML = "1.1.0-1"
+OnlineStats = "1.5.0-1"
+Requires = "1"
 
 ["0.2.0"]
 Cairo = "1.0.3-1"
@@ -142,16 +144,16 @@ HDF5 = "0.15"
 LoopVectorization = ["0.9", "0.12"]
 Polynomials = "1.1.0-2"
 
-["0.2.7-0"]
-Statistics = "1.6.4-1"
-julia = "1.6.4-1"
-
 ["0.2.7-0.2"]
 NeXLCore = "0.2.8-0.2"
 
 ["0.2.7-0.3.1"]
 CSV = "0.7.3-0.9"
 Images = "0.23-0.25"
+
+["0.2.7-0.3.6"]
+Statistics = "1.6.4-1"
+julia = "1.6.4-1"
 
 ["0.3-0"]
 DataDeps = "0.7"
@@ -173,6 +175,13 @@ ImageIO = "0.5-0.6"
 ["0.3.1-0.3.2"]
 FourierTools = "0.2-0.3"
 
+["0.3.10-0"]
+DataFrames = "1.3.0-1"
+GeometryBasics = "0.4"
+NeXLCore = "0.3.14-0.3"
+NeXLUncertainties = "0.2.14-0.2"
+TiffImages = "0.6-0.8"
+
 ["0.3.2"]
 MultivariateStats = "0.8-0.9"
 NeXLCore = "0.3.2-0.3"
@@ -181,19 +190,23 @@ NeXLUncertainties = "0.2.9-0.2"
 Polynomials = "2"
 
 ["0.3.2-0"]
-CSV = "0.9-0.10"
 Compose = "0.9"
-DataAPI = "1.6.0-1"
-DataFrames = "1"
 Distributions = "0.25"
+LoopVectorization = "0.12"
+Reexport = "1"
+
+["0.3.2-0.3.6"]
+CSV = "0.9-0.10"
+DataAPI = "1.6.0-1"
 FileIO = "1.10.0-1"
 HDF5 = "0.15-0.16"
 Images = "0.25"
-LoopVectorization = "0.12"
-Reexport = "1"
 ThreadsX = "0.1.8-0.1"
 TimeZones = "1.6.0-1"
 Unitful = "1.9.0-1"
+
+["0.3.2-0.3.9"]
+DataFrames = "1"
 
 ["0.3.3"]
 FourierTools = "0.3.3-0.3"
@@ -204,8 +217,10 @@ NeXLUncertainties = "0.2.10-0.2"
 
 ["0.3.3-0"]
 CubicSplines = "0.2"
-Polynomials = "3"
 Procrastinate = "0.1"
+
+["0.3.3-0.3.6"]
+Polynomials = "3"
 
 ["0.3.4"]
 NeXLCore = "0.3.6-0.3"
@@ -213,6 +228,8 @@ NeXLMatrixCorrection = "0.3.4-0.3"
 
 ["0.3.4-0"]
 FourierTools = "0.3.3-0.4"
+
+["0.3.4-0.3.6"]
 Interpolations = "0.14"
 LsqFit = "0.12-0.13"
 NeXLUncertainties = "0.2.11-0.2"
@@ -221,6 +238,31 @@ NeXLUncertainties = "0.2.11-0.2"
 NeXLCore = "0.3.7-0.3"
 NeXLMatrixCorrection = "0.3.5-0.3"
 
-["0.3.6-0"]
+["0.3.6"]
 NeXLCore = "0.3.10-0.3"
 NeXLMatrixCorrection = "0.3.9-0.3"
+
+["0.3.7-0"]
+CSV = "0.10"
+DataAPI = "1"
+EzXML = "1"
+FileIO = "1"
+HDF5 = "0.15-0.17"
+Images = "0.26"
+Interpolations = "0.14-0.15"
+LsqFit = "0.12-0.15"
+NeXLMatrixCorrection = "0.3.10-0.3"
+OnlineStats = "1.6.0-1"
+Polynomials = "3-4"
+ThreadsX = "0.1"
+TimeZones = "1"
+Unitful = "1"
+julia = "1.9.0-1"
+
+["0.3.7-0.3.9"]
+NeXLCore = "0.3.12-0.3"
+NeXLUncertainties = "0.2.12-0.2"
+TiffImages = "0.6"
+
+["0.3.8-0"]
+AxisArrays = "0.4"

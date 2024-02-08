@@ -1,7 +1,6 @@
 [0]
 Dictionaries = "0.3"
 ForwardDiff = "0.10"
-Gmsh = "0.2"
 IterativeSolvers = "0.9"
 LazySets = "2"
 MshReader = "0.1"
@@ -13,6 +12,9 @@ julia = "1"
 
 ["0-0.4.0"]
 AutoHashEquals = "0.2"
+
+["0-0.4.3"]
+Gmsh = "0.2"
 
 ["0.0"]
 SafeTestsets = "0.0.1"
@@ -35,3 +37,7 @@ AutoHashEquals = ["0.2", "1"]
 
 ["0.4.2-0"]
 AutoHashEquals = ["0.2", "1-2"]
+
+["0.4.4-0"]
+Gmsh = "0.2-0.3"
+LinearSolve = "2"

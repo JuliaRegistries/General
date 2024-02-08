@@ -21,19 +21,19 @@ jobs:
       fail-fast: false
       matrix:
         version:
+          # Keep this list in sync with `ci.yml`.
           - '1.3'
           - '1.4'
           - '1.5'
           - '1.6'
           - '1.7'
           - '1.8'
-          # - '1.9' # TODO: uncomment this line once Julia 1.10.0 is released
-          # - '~1.10.0-0' # TODO: uncomment this line once the first Julia 1.10.0 release candidate comes out. TODO: delete this line once Julia 1.10.0 is released
-          - '1'
+          - '1.9'
+          - '1.10'
           - 'nightly'
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v3.3.0
-      - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc # v1.9.2
+      - uses: julia-actions/setup-julia@58ad1cdde70774ab0693de31c3cd4e751b46aea2 # v1.9.4
         with:
           version: ${{ matrix.version }}
           arch: x64
@@ -77,7 +77,7 @@ jobs:
         shell: julia --color=yes {0}
       - run: mv .ci/Manifest.toml .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml
       - run: git status
-      - uses: actions/upload-artifact@a8a3f3ad30e3422c9c7b888a15615d19a852ae32 # v3.1.3
+      - uses: actions/upload-artifact@c7d193f32edcb7bfad88892161225aeda64e9392 # v4.0.0
         with:
           name: manifest_file_for_${{ steps.manifest_version.outputs.manifest_version }}
           path: .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml
@@ -93,7 +93,7 @@ jobs:
       - run: rm -rf /tmp/manifest_updater
       - run: mkdir /tmp/manifest_updater
       - run: chmod 700 /tmp/manifest_updater
-      - uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
+      - uses: actions/download-artifact@f44cd7b40bfd40b6aa1cc1b9b5b7bf03d3c67110 # v4.1.0
         with:
           path: /tmp/manifest_updater/download_artifacts
       - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml .ci

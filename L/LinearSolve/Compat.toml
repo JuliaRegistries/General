@@ -102,7 +102,7 @@ SciMLBase = "1.25.0-1"
 ["1.30-2"]
 Krylov = "0.9"
 
-["1.31-2"]
+["1.31-2.21"]
 Preferences = "1"
 
 ["1.32-1.33.0"]
@@ -132,24 +132,24 @@ ArrayInterface = "3-4"
 ["1.41-2"]
 EnumX = "1"
 
-["1.8-2"]
+["1.8-2.21"]
 RecursiveFactorization = "0.2.8-0.2"
-
-[2]
-PrecompileTools = "1"
-Requires = "1"
 
 ["2-2.2.0"]
 ArrayInterface = "7.4.7-7"
 
-["2.14-2"]
-InteractiveUtils = "1.6.0-1"
-Libdl = "1.6.0-1"
+["2-2.21"]
+PrecompileTools = "1"
+Requires = "1"
 
 ["2.14-2.16"]
 LinearAlgebra = "1.6.0-1"
 SparseArrays = "1.6.0-1"
 SuiteSparse = "1.6.0-1"
+
+["2.14-2.21"]
+InteractiveUtils = "1.6.0-1"
+Libdl = "1.6.0-1"
 
 ["2.15-2"]
 julia = "1.9.0-1"
@@ -175,11 +175,20 @@ EnzymeCore = "0.6"
 ["2.2-2.16"]
 SciMLOperators = "0.2-0.3"
 
-["2.2.1-2"]
+["2.2.1-2.21"]
 ArrayInterface = "7.4.11-7"
 
-["2.20.1-2"]
+["2.20.1-2.21"]
 StaticArraysCore = "1"
+
+["2.22-2"]
+ArrayInterface = "7.5.0-7"
+InteractiveUtils = "1.9.0-1"
+Libdl = "1.9.0-1"
+PrecompileTools = "1.1.0-1"
+Preferences = "1.4.0-1"
+RecursiveFactorization = "0.2.14-0.2"
+StaticArraysCore = "1.2.0-1"
 
 ["2.3-2.16"]
 FastLapackInterface = "1-2"

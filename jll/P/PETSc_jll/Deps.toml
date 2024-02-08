@@ -13,11 +13,13 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 
 ["3.16.6-3"]
-LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
 MPItrampoline_jll = "f1f71cc9-e9ae-5b93-9b94-4fe0e1ad3748"
 OpenMPI_jll = "fe0851c0-eecd-5654-98d4-656369965a5c"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+["3.16.6-3.18.6"]
+LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 
 ["3.16.8-3"]
 METIS_jll = "d00139f3-1899-568f-a2f0-47f597d42d70"
@@ -25,5 +27,10 @@ MUMPS_jll = "ca64183c-ec4f-5579-95d5-17e128c21291"
 PARMETIS_jll = "b247a4be-ddc1-5759-8008-7e02fe3dbdaa"
 SCALAPACK32_jll = "aabda75e-bfe4-5a37-92e3-ffe54af3c273"
 SCOTCH_jll = "a8d0f55d-b80e-548d-aff6-1a04c175f0f9"
-SuiteSparse_jll = "bea87d4a-7f5b-5778-9afe-8cc45184846c"
 SuperLU_DIST_jll = "9a1356b0-3c82-5da3-b77c-7c198e8bd7ab"
+
+["3.16.8-3.18.7"]
+SuiteSparse_jll = "bea87d4a-7f5b-5778-9afe-8cc45184846c"
+
+["3.18.7"]
+libblastrampoline_jll = "8e850b90-86db-534c-a0d3-1478176c7d93"

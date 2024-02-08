@@ -3,6 +3,15 @@ GLPK = "60bf3e95-4087-53dc-ae20-288a0d20c6a6"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 POMDPLinter = "f3bd98c0-eb40-45e2-9eb1-f2763262d755"
+POMDPs = "a93abf59-7444-517b-a68a-c42f96afdd7d"
+
+["0-0.2"]
 POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
 POMDPPolicies = "182e52fb-cfd0-5e46-8c26-fd0667c990f4"
-POMDPs = "a93abf59-7444-517b-a68a-c42f96afdd7d"
+
+["0.3-0"]
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
+POMDPTools = "7588e00f-9cae-40de-98dc-e0c70c48cdd7"
+
+["0.3.1-0"]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
