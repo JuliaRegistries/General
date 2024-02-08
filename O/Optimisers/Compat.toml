@@ -1,10 +1,12 @@
 [0]
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0-0.1"]
 Functors = "0.1-0.2"
 Requires = ["0.5", "1"]
+
+["0-0.3.1"]
+Statistics = "1.6.0-1"
 
 ["0.2-0"]
 ChainRulesCore = "1"
@@ -23,3 +25,6 @@ Functors = "0.4"
 
 ["0.2.7-0.2.9"]
 Functors = "0.2.8-0.3"
+
+["0.3.2-0"]
+Statistics = "1"

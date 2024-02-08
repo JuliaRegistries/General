@@ -1,4 +1,9 @@
 [0-1]
 CUDA = "3.12.0-5"
-CUDASIMDTypes = "1.5.0-1"
 julia = "1.6.0-1"
+
+["0-1.1"]
+CUDASIMDTypes = "1.5.0-1"
+
+["1.2-1"]
+CUDASIMDTypes = "1.6.0-1"

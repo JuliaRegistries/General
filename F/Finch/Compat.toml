@@ -1,6 +1,5 @@
 [0]
 Requires = "1"
-RewriteTools = "0.1"
 julia = "1.6.7-1"
 
 ["0-0.1"]
@@ -12,6 +11,9 @@ Revise = "3"
 
 ["0-0.5.2"]
 SnoopPrecompile = "1"
+
+["0-0.6.7"]
+RewriteTools = "0.1"
 
 ["0.2-0"]
 Compat = "3.29.0-4"
@@ -27,3 +29,6 @@ PrecompileTools = "1"
 ["0.6-0"]
 AbstractTrees = "0.3.4-0.4"
 CIndices = "0.3"
+
+["0.6.8-0"]
+RewriteTools = "0.2"
