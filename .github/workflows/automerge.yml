@@ -44,7 +44,7 @@ jobs:
       - name: Print env variable NEED_MERGE_TOKEN
         run: echo "NEED_MERGE_TOKEN=$NEED_MERGE_TOKEN"
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v3.3.0
-      - uses: julia-actions/setup-julia@58ad1cdde70774ab0693de31c3cd4e751b46aea2 # v1.9.4
+      - uses: julia-actions/setup-julia@a1561e938c17e7aaf8236334d6d533e774c71dcd # v1.9.5
         with:
           version: ${{ matrix.version }}
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
@@ -115,7 +115,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v3.3.0
-      - uses: julia-actions/setup-julia@58ad1cdde70774ab0693de31c3cd4e751b46aea2 # v1.9.4
+      - uses: julia-actions/setup-julia@a1561e938c17e7aaf8236334d6d533e774c71dcd # v1.9.5
         with:
           version: '1.9'
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
