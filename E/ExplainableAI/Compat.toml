@@ -1,6 +1,4 @@
 [0]
-Statistics = "1.6.0-1"
-Tullio = "0.3"
 Zygote = "0.6"
 julia = "1.6.0-1"
 
@@ -16,13 +14,17 @@ ImageCore = "0.8-0.9"
 ["0-0.5.6"]
 PrettyTables = "1"
 
+["0-0.6"]
+Statistics = "1.6.0-1"
+Tullio = "0.3"
+
 ["0.3.2-0"]
 Distributions = "0.25"
 
 ["0.3.3-0.5.5"]
 Flux = "0.12-0.13"
 
-["0.4-0"]
+["0.4-0.6"]
 ColorSchemes = "3.18.0-3"
 
 ["0.5.2-0.5"]
@@ -34,8 +36,14 @@ Flux = "0.13"
 ["0.5.7-0.5"]
 PrettyTables = "1-2"
 
-["0.6-0"]
+["0.6"]
 Flux = "0.13-0.14"
 ImageCore = "0.9-0.10"
 ImageTransformations = "0.9-0.10"
 MacroTools = "0.5"
+
+["0.7-0"]
+Random = "1"
+Reexport = "1"
+Statistics = "1"
+XAIBase = "1.2.0-1"
