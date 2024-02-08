@@ -2,7 +2,6 @@
 AbstractFFTs = "1"
 Accessors = "0.1"
 ArgCheck = "2"
-AxisKeys = "0.2"
 BasicInterpolators = "0.6-0.7"
 ChainRulesCore = "1"
 DelimitedFiles = "1"
@@ -26,6 +25,9 @@ julia = "1.8.0-1"
 ["0-0.1"]
 ComradeBase = "0.4"
 
+["0-0.3"]
+AxisKeys = "0.2"
+
 ["0-0.3.1"]
 EnzymeCore = "0.3-0.5"
 
@@ -42,8 +44,14 @@ Requires = "1"
 PolarizedTypes = "0.1.1-0.1"
 
 ["0.3.2-0"]
-ComradeBase = "0.5.4-0.5"
 EnzymeCore = "0.3-0.6"
 LinearAlgebra = "1.8.0-1"
 Printf = "1.8.0-1"
 Serialization = "1.8.0-1"
+
+["0.3.2-0.3"]
+ComradeBase = "0.5.4-0.5"
+
+["0.4-0"]
+ComradeBase = "0.6"
+DimensionalData = "0.25"

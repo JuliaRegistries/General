@@ -1,6 +1,5 @@
 [0]
 Suppressor = "0.2"
-julia = "1.8.0-1"
 
 ["0-0.2"]
 Term = "1"
@@ -8,8 +7,15 @@ Term = "1"
 ["0-0.4.6"]
 PackageCompiler = "2.1.0-2"
 
+["0-0.4.7"]
+julia = "1.8.0-1"
+
 ["0.3-0"]
 Term = "2"
 
-["0.4.7-0"]
+["0.4.7"]
 PackageCompiler = "2.1.9"
+
+["0.4.8-0"]
+PackageCompiler = "2.1.17"
+julia = "1.9.0-1"

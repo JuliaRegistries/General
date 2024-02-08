@@ -1,5 +1,4 @@
 [0]
-AutoHashEquals = "0.2"
 Quadmath = "0.5"
 julia = "1.6.0-1"
 
@@ -12,6 +11,9 @@ TaylorIntegration = "0.8"
 
 ["0-0.6"]
 DelimitedFiles = "1.6.0-1"
+
+["0-0.7.4"]
+AutoHashEquals = "0.2"
 
 ["0.2"]
 TaylorSeries = "0.12"
@@ -27,11 +29,11 @@ JLD2 = "0.4"
 ["0.3-0.5"]
 SnoopPrecompile = "1"
 
-["0.4-0"]
-TaylorSeries = "0.15"
-
 ["0.4-0.5"]
 TaylorIntegration = "0.12"
+
+["0.4-0.7.6"]
+TaylorSeries = "0.15"
 
 ["0.6-0"]
 PrecompileTools = "1.1.0-1"
@@ -44,3 +46,9 @@ DelimitedFiles = "1"
 
 ["0.7.2-0"]
 TaylorIntegration = "0.14"
+
+["0.7.5-0"]
+AutoHashEquals = ["0.2", "2"]
+
+["0.7.7-0"]
+TaylorSeries = "0.15-0.16"

@@ -12,7 +12,6 @@ FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
-Knet = "1902f260-5fb4-5aff-8c31-6271790ab950"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
@@ -35,3 +34,11 @@ Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 UnitfulAstro = "6112ee07-acf9-5e0f-b108-d242c714bf9f"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["0-0.1.0"]
+Knet = "1902f260-5fb4-5aff-8c31-6271790ab950"
+
+["0.1.1-0"]
+AstroSimBase = "c6a34d98-f626-4d8d-b450-a3f124eaada6"
+PhysicalFDM = "4fd04e27-7767-4ec9-b70f-09a3b509a447"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
