@@ -78,18 +78,27 @@ FastGaussQuadrature = "0.5"
 ["0.12.1-0.12"]
 TaylorIntegration = ["0.8-0.11", "0.14"]
 
+["0.13"]
+PSDMatrices = "0.4.6-0.4"
+
 ["0.13-0"]
 ArrayAllocators = "0.3"
 FastGaussQuadrature = ["0.5", "1"]
 Kronecker = "0.5.4-0.5"
 LinearAlgebra = "1"
-PSDMatrices = "0.4.6-0.4"
 SciMLBase = "1.90.0-2"
 Statistics = "1"
 TaylorIntegration = "0.8-0.14"
 
 ["0.13.1-0"]
 RecursiveArrayTools = "2-3"
+
+["0.14-0"]
+FillArrays = "1.9.0-1"
+FiniteHorizonGramians = "0.2"
+MatrixEquations = "2"
+PSDMatrices = "0.4.7-0.4"
+julia = "1.9.0-1"
 
 ["0.2-0.6"]
 TaylorIntegration = "0.8"
@@ -103,11 +112,11 @@ ModelingToolkit = "3-7"
 ["0.5.1"]
 OrdinaryDiffEq = "5-6"
 
-["0.5.1-0"]
-julia = "1.6.0-1"
-
 ["0.5.1-0.12"]
 Statistics = "1.6.0-1"
+
+["0.5.1-0.13"]
+julia = "1.6.0-1"
 
 ["0.5.1-0.5.4"]
 ModelingToolkit = "3-8"
