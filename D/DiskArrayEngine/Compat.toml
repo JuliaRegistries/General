@@ -1,13 +1,11 @@
 [0]
 Dagger = "0.18"
 DiskArrays = "0.3"
-Interpolations = "0.14"
 Ipopt = "1"
 OffsetArrays = "1"
 OnlineStats = "1"
 Optimization = "3"
 OptimizationMOI = "0.1"
-OptimizationOptimJL = "0.1"
 OrderedCollections = "1"
 Primes = "0.5"
 ProgressMeter = "1"
@@ -15,3 +13,12 @@ Statistics = "1"
 StatsBase = "0.34"
 Zarr = "0.9"
 julia = "1"
+
+["0-0.1.0"]
+Interpolations = "0.14"
+OptimizationOptimJL = "0.1"
+
+["0.1.1-0"]
+Graphs = "1"
+Interpolations = "0.14-0.15"
+OptimizationOptimJL = "0.1-0.2"
