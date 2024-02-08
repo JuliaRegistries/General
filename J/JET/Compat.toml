@@ -31,8 +31,10 @@ julia = "1.7.0-1"
 
 ["0.5.4-0"]
 JuliaInterpreter = "0.9"
-LoweredCodeUtils = "2.2.0-2"
 Revise = "3.3.0-3"
+
+["0.5.4-0.8.22"]
+LoweredCodeUtils = "2.2.0-2"
 
 ["0.6.16-0.6.20"]
 julia = "1.8.1-1.8.3"
@@ -68,3 +70,6 @@ InteractiveUtils = "1.10.0-1"
 Pkg = "1.10.0-1"
 Test = "1.10.0-1"
 julia = "1.10.0-1"
+
+["0.8.23-0"]
+LoweredCodeUtils = "2.2-2.3"

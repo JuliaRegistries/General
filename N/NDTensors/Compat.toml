@@ -31,9 +31,11 @@ StaticArrays = ["0.12", "1"]
 Requires = "1.1.0-1"
 
 ["0.1.19-0"]
-Dictionaries = "0.3.5-0.3"
 TimerOutputs = "0.5.5-0.5"
 TupleTools = "1.2.0-1"
+
+["0.1.19-0.2.26"]
+Dictionaries = "0.3.5-0.3"
 
 ["0.1.22-0.1.37"]
 HDF5 = "0.14-0.15"
@@ -80,7 +82,7 @@ HDF5 = "0.14-0.17"
 BlockArrays = "0.16"
 InlineStrings = "1"
 
-["0.2.15-0"]
+["0.2.15-0.2.23"]
 Adapt = "3.7.0-3"
 
 ["0.2.16-0"]
@@ -106,6 +108,17 @@ Accessors = "0.1.33-0.1"
 ArrayLayouts = "1.4.0-1"
 MappedArrays = "0.4"
 StridedViews = "0.2.2-0.2"
+
+["0.2.24-0"]
+Adapt = "3.7.0-4"
+EllipsisNotation = "1.8.0-1"
+
+["0.2.25-0"]
+FillArrays = "1"
+HalfIntegers = "1"
+
+["0.2.27-0"]
+Dictionaries = "0.4"
 
 ["0.2.7-0"]
 Compat = "4.9.0-4"

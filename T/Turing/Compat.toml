@@ -352,7 +352,6 @@ SciMLBase = "1.37.1-2"
 
 ["0.30-0"]
 ADTypes = "0.2"
-AbstractMCMC = "4-5"
 AdvancedHMC = ["0.3-0.4", "0.5.2-0.6"]
 AdvancedMH = "0.8"
 AdvancedPS = "0.5.4-0.5"
@@ -360,6 +359,12 @@ DynamicPPL = "0.24"
 EllipticalSliceSampling = ["0.5", "1-2"]
 LogDensityProblemsAD = "1.7.0-1"
 Statistics = "1.6.0-1"
+
+["0.30.0"]
+AbstractMCMC = "4-5"
+
+["0.30.1-0"]
+AbstractMCMC = "5"
 
 ["0.5.1-0.6.14"]
 Bijectors = "0-0.2"

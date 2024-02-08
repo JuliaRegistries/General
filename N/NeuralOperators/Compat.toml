@@ -38,23 +38,23 @@ ChainRulesCore = "1.12.0-1"
 ["0.2-0.3.1"]
 CUDA = "3.8.0-3"
 
-["0.3-0"]
-CUDAKernels = "0.3-0.4"
-KernelAbstractions = "0.7-0.8"
-
 ["0.3-0.3.1"]
 ChainRulesCore = "1.13.0-1"
+
+["0.3-0.4.7"]
+CUDAKernels = "0.3-0.4"
+KernelAbstractions = "0.7-0.8"
 
 ["0.3.2"]
 GeometricFlux = "0.11"
 
-["0.3.2-0"]
-Flux = "0.13"
-Statistics = "1.6.0-1"
-
 ["0.3.2-0.3"]
 CUDA = "3.9.0-3"
 ChainRulesCore = "1.14.0-1"
+
+["0.3.2-0.4.7"]
+Flux = "0.13"
+Statistics = "1.6.0-1"
 
 ["0.3.3-0.4.1"]
 GeometricFlux = "0.12"
@@ -66,7 +66,7 @@ FFTW = "1"
 ["0.4-0.4.5"]
 CUDA = "3"
 
-["0.4.2-0"]
+["0.4.2-0.4.7"]
 GeometricFlux = "0.13"
 
 ["0.4.6"]
@@ -74,3 +74,9 @@ CUDA = "3-4"
 
 ["0.4.7-0"]
 CUDA = "3-5"
+
+["0.4.8-0"]
+Flux = "0.13-0.14"
+GeometricFlux = "0.13-0.14"
+KernelAbstractions = "0.7-0.9"
+Statistics = "1"
