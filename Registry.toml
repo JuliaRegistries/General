@@ -95,6 +95,7 @@ some amount of consideration when choosing package names.
 01da207a-183e-480e-93ab-a94ea6491b8c = { name = "SpectralResampling", path = "S/SpectralResampling" }
 01db5350-6ea1-5d9a-9a47-8a31a394cb9c = { name = "AWSCRT_jll", path = "jll/A/AWSCRT_jll" }
 01e79fc4-f247-5fa3-af0e-2bd1d4cc767f = { name = "Cumulants", path = "C/Cumulants" }
+01ee8da8-f58f-4cf6-bc56-622232f1a41a = { name = "DimensionReductionRegression", path = "D/DimensionReductionRegression" }
 01eff828-7024-11e9-3df0-8b77921d67e3 = { name = "Limbdark", path = "L/Limbdark" }
 01f381cc-face-5a0a-ade9-ef63dc65d628 = { name = "ProjectiveVectors", path = "P/ProjectiveVectors" }
 01fcc997-4f28-56b8-8a06-30002c134abb = { name = "FTPClient", path = "F/FTPClient" }
@@ -828,6 +829,7 @@ some amount of consideration when choosing package names.
 131cd6a8-f02b-4a66-8ce5-0a80ec47b73f = { name = "Inequality", path = "I/Inequality" }
 13204c95-a6e5-4c09-8c7b-ee09b09e0944 = { name = "StructuredLight", path = "S/StructuredLight" }
 1322d9e5-2885-5d14-b40b-5d6c7dfe9ea1 = { name = "seatd_jll", path = "jll/S/seatd_jll" }
+13235c25-d339-4138-a8bf-65c4e89d8d0a = { name = "GeneralizedPhase", path = "G/GeneralizedPhase" }
 132c30aa-f267-4189-9183-c8a63c7e05e6 = { name = "ProfileSVG", path = "P/ProfileSVG" }
 133052f7-5177-44e4-ab05-826656cf3c53 = { name = "AirfoilDatabase", path = "A/AirfoilDatabase" }
 133c4774-c510-5f25-b650-129312f89f69 = { name = "Jackknife", path = "J/Jackknife" }
@@ -7393,6 +7395,7 @@ b20c7882-2490-4592-a606-fbbfe9e745e8 = { name = "LinearInterpolations", path = "
 b2108857-7c20-44ae-9111-449ecde12c47 = { name = "Lux", path = "L/Lux" }
 b218df9c-8706-40c8-80f9-13e28a209add = { name = "Dubins3D", path = "D/Dubins3D" }
 b2197e8e-fe20-5781-846b-d7979e3cddf2 = { name = "tree_sitter_rust_jll", path = "jll/T/tree_sitter_rust_jll" }
+b21ddb9f-2587-4215-bf7c-fbe182daf540 = { name = "TemplateMatching", path = "T/TemplateMatching" }
 b21e61f3-bafc-59ac-ab14-4c5c62d6588d = { name = "CURL_jll", path = "jll/C/CURL_jll" }
 b21f74c0-b399-568f-9643-d20f4fa2c814 = { name = "FunctionZeros", path = "F/FunctionZeros" }
 b22a6f82-2f65-5046-a5b2-351ab43fb4e5 = { name = "FFMPEG_jll", path = "jll/F/FFMPEG_jll" }
@@ -9655,6 +9658,7 @@ e88e6eb3-aa80-5325-afca-941959d7151f = { name = "Zygote", path = "Z/Zygote" }
 e89237b0-9201-11e9-31b0-6361926203f7 = { name = "Turf", path = "T/Turf" }
 e89f7d12-3494-54d1-8411-f7d8b9ae1f27 = { name = "Media", path = "M/Media" }
 e8a05a0c-2c7d-51b7-a4ec-976abaf7f9a3 = { name = "GstPluginsBase_jll", path = "jll/G/GstPluginsBase_jll" }
+e8a07092-c156-4455-ab8e-ed8bc81edefb = { name = "Handcalcs", path = "H/Handcalcs" }
 e8a6717a-069f-43d5-9ac2-a49b1ec5be7b = { name = "BundleMethod", path = "B/BundleMethod" }
 e8aa6df9-e6ca-548a-97ff-1f85fc5b8b98 = { name = "GLPK_jll", path = "jll/G/GLPK_jll" }
 e8b5fb6c-218f-5c08-bc3d-6b0e551bbffd = { name = "MPFI_jll", path = "jll/M/MPFI_jll" }
@@ -9746,6 +9750,7 @@ eab79ae3-43af-4078-b4a3-b180fd2797a7 = { name = "PlotRNA", path = "P/PlotRNA" }
 eacbb407-ea5a-433e-ab97-5258b1ca43fa = { name = "Meshes", path = "M/Meshes" }
 eacce8a8-16e1-4f0a-a125-bfe7a196bd66 = { name = "MRINavigator", path = "M/MRINavigator" }
 eacd9ca4-7f43-55e5-94d9-9be91740ea79 = { name = "Exafmmt_jll", path = "jll/E/Exafmmt_jll" }
+ead79d5d-eeb6-4e9e-b9c0-d4b75b0c44ab = { name = "QuasiGrad", path = "Q/QuasiGrad" }
 ead7e11d-4ba5-55c3-9d74-177ea73ef1fd = { name = "TuringModels", path = "T/TuringModels" }
 eadaa1a4-d27c-401d-8699-e962e1bbc33b = { name = "MeasureTheory", path = "M/MeasureTheory" }
 eadc2687-ae89-51f9-a5d9-86b5a6373a9c = { name = "Pandas", path = "P/Pandas" }
@@ -10433,6 +10438,7 @@ fd22d563-a49f-4a45-896b-231dbcd7c5a0 = { name = "DocumentationOverview", path = 
 fd36aebc-0777-11ea-1be3-eb1bdc5c01e1 = { name = "MLSuite", path = "M/MLSuite" }
 fd372b59-0929-42ec-9982-92b7b2350263 = { name = "NiceNumbers", path = "N/NiceNumbers" }
 fd4345fa-c73f-4ad5-b086-dba238792776 = { name = "LifeInsuranceContracts", path = "L/LifeInsuranceContracts" }
+fd4958d8-5e5c-566c-bfe6-815b1420e10d = { name = "OpenFOAM_com_jll", path = "jll/O/OpenFOAM_com_jll" }
 fd4f9bdd-bf75-4419-92eb-a4eb745abf0e = { name = "Pedigree", path = "P/Pedigree" }
 fd6f9641-d78f-43ce-a379-ceb0bddb468a = { name = "PlanetOrbits", path = "P/PlanetOrbits" }
 fd83a0a4-5223-4bbc-b61e-d20f1d446444 = { name = "MSTM4Runner", path = "M/MSTM4Runner" }
