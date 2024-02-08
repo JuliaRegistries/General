@@ -5,6 +5,13 @@ julia = ["0.7", "1"]
 julia = "1"
 
 ["0.6-0"]
-ChainRulesCore = "1.12.0-1"
 GPUArraysCore = "0.1"
 julia = "1.6.0-1"
+
+["0.6.0"]
+ChainRulesCore = "1.12.0-1"
+
+["0.6.1-0"]
+ChainRulesCore = "1"
+LinearAlgebra = "1"
+Printf = "1"
