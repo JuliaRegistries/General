@@ -3,11 +3,17 @@ Colors = "0.12"
 DataFrames = "1"
 GraphMakie = "0.5"
 Graphs = "1.8.0-1"
-HDF5 = "0.16"
 MPI = "0.20"
 MPIPreferences = "0.1"
-Makie = "0.19"
 Metis = "1.4.0-1"
 NamedTupleTools = "0.14"
 Requires = "1"
 julia = "1"
+
+["1.0"]
+HDF5 = "0.16"
+Makie = "0.19"
+
+["1.1-1"]
+HDF5 = "0.17"
+Makie = "0.20"

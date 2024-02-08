@@ -4,7 +4,6 @@ DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
-DynamicPPL = "366bfd00-2699-11ea-058f-f148b4cae6d8"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -28,6 +27,9 @@ ArgMacros = "dbc42088-9de8-42a0-8ec8-2cd114e1ea3e"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
 
+["0-0.2"]
+DynamicPPL = "366bfd00-2699-11ea-058f-f148b4cae6d8"
+
 ["0.1.1-0"]
 Expect = "6a31a4e8-6e70-5a2d-b005-bc2d500d80a5"
 LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
@@ -38,8 +40,10 @@ RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.2-0"]
+["0.2"]
 BridgeStan = "c88b6f0a-829e-4b0b-94b7-f06ab5908f5a"
+
+["0.2-0"]
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
 LogDensityProblemsAD = "996a588d-648d-4e1f-a8f0-a84b347e47b1"
@@ -47,3 +51,6 @@ ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
 
 ["0.2.2-0"]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
+["0.3-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"

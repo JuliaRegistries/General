@@ -1,8 +1,16 @@
 [0]
 DataFrames = "1.6.1-1"
-Distributions = "0.0.0-0.25.101"
 GLM = "1.9.0-1"
 Parameters = "0.0.0-0.12.3"
-Statistics = "0.0.0-1.9.0"
 StatsBase = "0.0.0-0.34.2"
 julia = "1.9.0-1"
+
+["0-0.1.0"]
+Distributions = "0.0.0-0.25.101"
+Statistics = "0.0.0-1.9.0"
+
+["0.1.1"]
+Statistics = "0.0.0-1"
+
+["0.1.1-0"]
+Distributions = "0.0.0-0.25"
