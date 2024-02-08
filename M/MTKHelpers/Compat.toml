@@ -1,12 +1,5 @@
 [0]
-ComponentArrays = "0.12-0.15"
-DiffEqBase = "6"
-Distributions = "0.25"
-LabelledArrays = "1.7.0-1"
-ModelingToolkit = "8"
-NamedArrays = "0.9-0.10"
 Requires = "1.3.0-1"
-StaticArrays = "1.3.0-1"
 julia = "1.6.0-1"
 
 ["0-0.2"]
@@ -14,8 +7,16 @@ DifferentialEquations = "7.1.0-7"
 Infiltrator = "1"
 RecursiveArrayTools = "2.38.0-2"
 
-["0.3-0"]
-Chain = "0.5"
+["0-0.3"]
+ComponentArrays = "0.12-0.15"
+DiffEqBase = "6"
+Distributions = "0.25"
+LabelledArrays = "1.7.0-1"
+ModelingToolkit = "8"
+NamedArrays = "0.9-0.10"
+StaticArrays = "1.3.0-1"
+
+["0.3"]
 DomainSets = "0.6-0.7"
 InlineStrings = "1"
 OrdinaryDiffEq = "6"
@@ -23,3 +24,40 @@ PDEBase = "0.1"
 RecursiveArrayTools = "2.38.0-3"
 SciMLBase = "2"
 SymbolicUtils = "1"
+
+["0.3-0"]
+Chain = "0.5"
+
+["0.4"]
+ComponentArrays = "0.15.7-0.15"
+DiffEqBase = "6.136.0-6"
+Distributions = "0.25.104-0.25"
+ModelingToolkit = "8.72.2-8"
+NamedArrays = "0.10"
+RecursiveArrayTools = "2.38.10-3"
+SciMLBase = "2.6.0-2"
+StaticArrays = "1.8.1-1"
+
+["0.4-0"]
+DomainSets = "0.6.7-0.7"
+InlineStrings = "1.4.0-1"
+LabelledArrays = "1.15.0-1"
+OrdinaryDiffEq = "6.58.2-6"
+SymbolicUtils = "1.4.0-1"
+
+["0.5-0"]
+ComponentArrays = "0.13.10-0.15"
+DiffEqBase = "6.130.0-6"
+Distributions = "0.25.106-0.25"
+ModelingToolkit = "8.70.0-8"
+NamedArrays = "0.9.8-0.10"
+SciMLBase = "1.98.1-2"
+StaticArrays = "1.9.0-1"
+
+["0.5.0"]
+RecursiveArrayTools = "2.38.10-2"
+
+["0.5.1-0"]
+Logging = "1.6.0-1"
+LoggingExtras = "1"
+RecursiveArrayTools = "2.38.10-3"

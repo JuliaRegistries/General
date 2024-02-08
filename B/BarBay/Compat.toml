@@ -5,12 +5,19 @@ ComponentArrays = "0.15"
 DataFrames = "1.6.0-1"
 Distributions = "0.25"
 DynamicHMC = "3.4.0-3"
-DynamicPPL = "0.23"
 JLD2 = "0.4"
 MCMCChains = "6"
 Memoization = "0.2"
 ReverseDiff = "1.15.0-1"
 StatsBase = "0.34"
-Turing = "0.29"
 UnPack = "1"
 julia = "1"
+
+["0-0.0.1"]
+DynamicPPL = "0.23"
+Turing = "0.29"
+
+["0.0.2-0"]
+AdvancedVI = "0.2"
+DynamicPPL = "0.24"
+Turing = "0.30"

@@ -1,0 +1,54 @@
+name: Author Approval Label
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  label:
+    permissions:
+        # We need `write` permissions on `pull-requests` in order to be able to
+        # add/remove labels from PRs. As far as we can tell, there is no narrower
+        # permission that we can use.
+        pull-requests: write
+    runs-on: ubuntu-latest
+    # Run on comments that are satisfy all of the following:
+    # 1) on PRs, not issues,
+    # 2) not from bot users
+    # 3) include the string "[merge approved]"
+    # If so, we will do the work to check that the commenter is the package author,
+    # and conditionally apply the author-approved label.
+    # note: `[merge approved]` here is NOT case-sensitive, see https://docs.github.com/en/actions/learn-github-actions/expressions#contains
+    if: ${{ github.event.issue.pull_request && github.event.issue.user.type != 'Bot' && contains(github.event.comment.body, '[merge approved]') }}
+    steps:
+      - name: Verify package author
+        id: verify-author
+        env:
+          # We use an env variable, not direct interpolation into the script, for security:
+          # https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-an-intermediate-environment-variable
+          PR_BODY: ${{ github.event.issue.body }}
+          COMMENTER: ${{ github.event.comment.user.login }}
+        shell: julia --compile=min --optimize=0 --color=yes {0}
+        run: |
+          isempty(ENV["COMMENTER"]) && error("COMMENTER is empty")
+          if length(ENV["COMMENTER"]) != length(strip(ENV["COMMENTER"]))
+               error("COMMENTER has leading or lagging whitespace")
+          end
+          m = match(r"Created by: @(\S+)", ENV["PR_BODY"])
+          verified = !isnothing(m) && m[1] == ENV["COMMENTER"]
+          println("Matched user: ", m === nothing ? nothing : m[1])
+          println("Commenter: ", ENV["COMMENTER"])
+          println("Verified: ", verified)
+          open(ENV["GITHUB_OUTPUT"], "a") do io
+            println(io, "verified=$verified")
+          end
+      - name: Add label
+        if: ${{ steps.verify-author.outputs.verified == 'true' }}
+        env:
+          PR_NUM: ${{ github.event.issue.number }}
+          # We cannot use `${{ secrets.GITHUB_TOKEN }}` here, because
+          # if we use `GITHUB_TOKEN` here, then the "label created" event
+          # will not trigger any further GitHub Actions.
+          GH_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh pr edit "${PR_NUM:?}" --add-label "Override AutoMerge: package author approved"

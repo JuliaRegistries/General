@@ -13,11 +13,17 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 Infiltrator = "5903a43b-9cc3-4c30-8d17-598619ec4e9b"
 
+["0.3"]
+PDEBase = "a7812802-0625-4b9e-961c-d332478797e5"
+
 ["0.3-0"]
 Chain = "8be319e6-bccf-4806-a6f7-6fae938471bc"
 DomainSets = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
 InlineStrings = "842dd82b-1e85-43dc-bf29-5d0ee9dffc48"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
-PDEBase = "a7812802-0625-4b9e-961c-d332478797e5"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
+
+["0.5.1-0"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+LoggingExtras = "e6f89c97-d47a-5376-807f-9c37f3926c36"

@@ -1,5 +1,4 @@
 [0]
-RecursiveArrayTools = "2"
 Requires = ["0.5", "1"]
 
 ["0-0.1"]
@@ -29,6 +28,9 @@ MathematicalSystems = "0.11"
 
 ["0-0.2"]
 IntervalArithmetic = "0.16"
+
+["0-0.22.1"]
+RecursiveArrayTools = "2"
 
 ["0-0.4"]
 UnPack = "0.1"
@@ -73,7 +75,7 @@ IntervalArithmetic = "0.16-0.19"
 ["0.15.1-0.18.7"]
 LazySets = "1.49.0-1"
 
-["0.15.2-0"]
+["0.15.2-0.22.1"]
 IntervalMatrices = "0.6-0.8"
 
 ["0.15.3-0"]
@@ -87,10 +89,12 @@ TaylorSeries = "0.10-0.12"
 
 ["0.18-0"]
 TaylorModels = "0.6"
-TaylorSeries = "0.12"
 
 ["0.18-0.21.0"]
 TaylorIntegration = "0.9"
+
+["0.18-0.22.1"]
+TaylorSeries = "0.12"
 
 ["0.18.1-0"]
 CarlemanLinearization = "0.3"
@@ -132,6 +136,16 @@ LazySets = "2.7.5-2"
 
 ["0.22.1-0"]
 LazySets = "2.11.0-2"
+
+["0.22.2"]
+IntervalMatrices = "0.6-0.9"
+
+["0.22.2-0"]
+RecursiveArrayTools = "2-3"
+TaylorSeries = "0.12.0"
+
+["0.22.3-0"]
+IntervalMatrices = "0.6-0.10"
 
 ["0.3-0.12.0"]
 IntervalArithmetic = "0.16-0.17"
