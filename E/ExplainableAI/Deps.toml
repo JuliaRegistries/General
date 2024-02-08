@@ -1,22 +1,28 @@
 [0]
-ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
-Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
-ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
-Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0-0.5"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 
+["0-0.6"]
+ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
+
 ["0.3.2-0"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["0.5.2-0"]
+["0.5.2-0.6"]
 ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
 
-["0.6-0"]
+["0.6"]
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+
+["0.7-0"]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+XAIBase = "9b48221d-a747-4c1b-9860-46a1d8ba24a7"
