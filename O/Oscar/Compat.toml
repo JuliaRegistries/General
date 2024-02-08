@@ -61,7 +61,7 @@ Singular = "0.16"
 AlgebraicSolving = "0.3"
 Polymake = "0.9"
 
-["0.12-0"]
+["0.12-0.13"]
 GAP = "0.9.4-0.9"
 
 ["0.12.0"]
@@ -80,7 +80,7 @@ Hecke = "0.18.13-0.18"
 Nemo = "0.34.3-0.34"
 Singular = "0.18.2-0.18"
 
-["0.13-0"]
+["0.13"]
 AbstractAlgebra = "0.31.1-0.31"
 AlgebraicSolving = "0.3.3-0.3"
 Hecke = "0.20"
@@ -88,6 +88,22 @@ LazyArtifacts = "1"
 Nemo = "0.35.1-0.35"
 Polymake = "0.11.1-0.11"
 Singular = "0.18.10-0.18"
+
+["0.14-0"]
+AbstractAlgebra = "0.35.2-0.35"
+AlgebraicSolving = "0.4.6-0.4"
+Distributed = "1.6.0-1"
+GAP = "0.10"
+Hecke = "0.24"
+JSON3 = "1.13.2-1"
+LazyArtifacts = "1.6.0-1"
+Nemo = "0.39.1-0.39"
+Pkg = "1.6.0-1"
+Polymake = "0.11.8-0.11"
+Random = "1.6.0-1"
+Serialization = "1.6.0-1"
+Singular = "0.21.2-0.21"
+UUIDs = "1.6.0-1"
 
 ["0.3"]
 GAP = "0.3"
@@ -200,9 +216,11 @@ Hecke = "0.14.1-0.14"
 
 ["0.9-0"]
 JSON = "0.20-0.21"
-RecipesBase = "1.2.1-1"
 
 ["0.9-0.10.0"]
 AbstractAlgebra = "0.26"
 Nemo = "0.31"
 Singular = "0.10.2-0.10"
+
+["0.9-0.13"]
+RecipesBase = "1.2.1-1"
