@@ -1,7 +1,5 @@
 [0]
 ChainRulesCore = "1"
-Statistics = "1.6.0-1"
-julia = "1.6.0-1"
 
 ["0-0.1.12"]
 CUDAKernels = "0.3-0.4"
@@ -13,6 +11,10 @@ CUDA = "3"
 
 ["0-0.2.3"]
 NNlib = "0.8"
+
+["0-0.3.8"]
+Statistics = "1.6.0-1"
+julia = "1.6.0-1"
 
 ["0.1.10-0.1"]
 Tracker = "0.2"
@@ -47,8 +49,14 @@ PackageExtensionCompat = "1"
 ["0.3.1"]
 Requires = "1"
 
-["0.3.2-0"]
+["0.3.2-0.3.8"]
 PackageExtensionCompat = "1"
 
 ["0.3.6-0"]
 PrecompileTools = "1"
+
+["0.3.9-0"]
+Markdown = "1"
+Random = "1"
+Statistics = "1"
+julia = "1.9.0-1"
