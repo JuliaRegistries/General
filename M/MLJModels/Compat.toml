@@ -114,8 +114,19 @@ PrettyPrinting = "0.3-0.4"
 MLJModelInterface = "1.4.0-1"
 
 ["0.15.9-0"]
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
+
+["0.15.9-0.16.12"]
+Statistics = "1.6.0-1"
+
+["0.16.13-0"]
+Dates = ["0.0.0", "1"]
+InteractiveUtils = ["0.0.0", "1"]
+LinearAlgebra = ["0.0.0", "1"]
+Markdown = ["0.0.0", "1"]
+Pkg = ["0.0.0", "1"]
+Random = ["0.0.0", "1"]
+Statistics = ["0.0.0", "1"]
 
 ["0.16.7-0"]
 StatsBase = "0.32-0.34"
