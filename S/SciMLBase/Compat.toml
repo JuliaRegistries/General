@@ -129,16 +129,27 @@ FillArrays = "1.9.0-1"
 IteratorInterfaceExtensions = "1"
 PrecompileTools = "1.2.0-1"
 RecipesBase = "1"
-RecursiveArrayTools = "3"
 SciMLOperators = "0.3.7-0.3"
 StaticArraysCore = "1.4.0-1"
 Statistics = "1.9.0-1"
-SymbolicIndexingInterface = "0.3"
 Tables = "1.11.0-1"
 TruncatedStacktraces = "1.4.0-1"
 
+["2.11-2.15"]
+RecursiveArrayTools = "3"
+SymbolicIndexingInterface = "0.3"
+
 ["2.11.0"]
 QuasiMonteCarlo = "0.2.19-0.3"
+
+["2.16-2"]
+RecursiveArrayTools = "3.3.4-3"
+
+["2.16-2.20"]
+SymbolicIndexingInterface = "0.3.2-0.3"
+
+["2.21-2"]
+SymbolicIndexingInterface = "0.3.3-0.3"
 
 ["2.6"]
 Distributed = "1.6.0-1"

@@ -1,9 +1,5 @@
 [3]
-ConsoleProgressMonitor = "0.1"
-DocStringExtensions = "0.8-0.9"
 ProgressLogging = "0.1"
-Reexport = ["0.2", "1"]
-Requires = "1"
 TerminalLoggers = "0.1"
 
 ["3-3.11"]
@@ -11,6 +7,12 @@ ArrayInterfaceCore = "0.1.1-0.1"
 
 ["3-3.19"]
 julia = "1.6.0-1"
+
+["3-3.20"]
+ConsoleProgressMonitor = "0.1"
+DocStringExtensions = "0.8-0.9"
+Reexport = ["0.2", "1"]
+Requires = "1"
 
 ["3-3.6"]
 SciMLBase = "1.37.1-1"
@@ -24,7 +26,7 @@ LoggingExtras = "0.4-0.5"
 ["3.11-3.18"]
 SciMLBase = "1.79.0-1"
 
-["3.12-3"]
+["3.12-3.20"]
 ArrayInterface = "6-7"
 
 ["3.14.1"]
@@ -36,20 +38,56 @@ ADTypes = "0.1"
 ["3.16"]
 Symbolics = "5"
 
-["3.16-3"]
+["3.16-3.20"]
 ADTypes = "0.1.5-0.2"
 
-["3.19-3"]
+["3.19-3.20"]
 SciMLBase = "1.79.0-2"
 
-["3.20-3"]
+["3.20"]
 LinearAlgebra = "1"
 Logging = "1"
-Pkg = "1"
 Printf = "1"
 SparseArrays = "1"
-SymbolicIndexingInterface = "0.3"
+
+["3.20-3"]
+Pkg = "1"
 julia = "1.9.0-1"
+
+["3.20-3.21.0"]
+SymbolicIndexingInterface = "0.3"
+
+["3.21-3"]
+ADTypes = "0.2.5-0.2"
+ArrayInterface = "7.6.0-7"
+ConsoleProgressMonitor = "0.1.1-0.1"
+DocStringExtensions = "0.9"
+LoggingExtras = ["0.4", "1"]
+Reexport = "1.2.0-1"
+
+["3.21-3.21.1"]
+SciMLBase = "2.16.3-2"
+
+["3.21.0"]
+LinearAlgebra = "1.9.0-1"
+Logging = "1.9.0-1"
+Printf = "1.9.0-1"
+SparseArrays = "1.9.0-1"
+
+["3.21.1-3"]
+LinearAlgebra = "1.10.0-1"
+Logging = "1.10.0-1"
+Printf = "1.10.0-1"
+SparseArrays = "1.10.0-1"
+
+["3.21.1-3.21"]
+SymbolicIndexingInterface = "0.3.2-0.3"
+
+["3.21.2-3.21"]
+SciMLBase = "2.20.0-2"
+
+["3.22-3"]
+SciMLBase = "2.23.0-2"
 
 ["3.7-3.9.0"]
 SciMLBase = "1.39.0-1"
@@ -60,5 +98,5 @@ SciMLBase = "1.61.0-1"
 ["3.9.3"]
 ModelingToolkit = "8.30"
 
-["3.9.3-3"]
+["3.9.3-3.20"]
 LoggingExtras = ["0.4-0.5", "1"]

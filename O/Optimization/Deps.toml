@@ -7,12 +7,14 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
 
 ["3-3.11"]
 ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
+
+["3-3.20"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["3-3.9.1"]
 DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
@@ -32,7 +34,7 @@ ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 ["3.16"]
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 
-["3.20-3"]
+["3.20-3.21"]
 SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
 
 ["3.6-3"]

@@ -8,9 +8,14 @@ JSON = "0.21"
 Kronecker = "0.5"
 OrdinaryDiffEq = "6"
 Reexport = "1.2.0-1"
-SciMLBase = "1"
 StatsBase = "0.34"
 YaoArrayRegister = "0.9"
 YaoBlocks = "0.13"
 YaoSubspaceArrayReg = "0.2"
 julia = "1.6.0-1"
+
+["0-0.1.0"]
+SciMLBase = "1"
+
+["0.1.1-0"]
+SciMLBase = "2"
