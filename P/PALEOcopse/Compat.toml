@@ -4,7 +4,6 @@ Infiltrator = "1"
 MAT = "0.10"
 Roots = "1-2"
 TestEnv = "1"
-julia = "1.6.0-1"
 
 ["0-0.1"]
 PALEOboxes = "0.15"
@@ -12,6 +11,9 @@ PALEOboxes = "0.15"
 ["0-0.4.0"]
 Interpolations = "0.13"
 XLSX = "0.7"
+
+["0-0.4.7"]
+julia = "1.6.0-1"
 
 ["0.2.0"]
 PALEOboxes = "0.16"
@@ -31,11 +33,11 @@ PALEOboxes = "0.19.1-0.19"
 ["0.4-0.4.1"]
 PALEOboxes = "0.19.1-0.20"
 
-["0.4.1-0"]
-Interpolations = "0.13-0.14"
-
 ["0.4.1-0.4.4"]
 XLSX = "0.7-0.8"
+
+["0.4.1-0.4.7"]
+Interpolations = "0.13-0.14"
 
 ["0.4.2"]
 PALEOboxes = "0.20.4-0.20"
@@ -55,3 +57,7 @@ XLSX = "0.7-0.10"
 
 ["0.4.7-0"]
 PALEOboxes = "0.21.18-0.21"
+
+["0.4.8-0"]
+Interpolations = "0.13-0.15"
+julia = "1.9.0-1"
