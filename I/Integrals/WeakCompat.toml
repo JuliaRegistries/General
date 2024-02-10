@@ -1,11 +1,21 @@
-["3.6-4"]
+["3.6-4.1"]
 ChainRulesCore = ["0.10.7-0.10", "1"]
 ForwardDiff = "0.10"
 Zygote = "0.4.22-0.6"
 
-["3.7-4"]
+["3.7-4.1"]
 FastGaussQuadrature = "0.5"
 
-[4]
+["4-4.1"]
 Cuba = "2"
 Cubature = "1"
+
+["4.2-4"]
+Arblib = "1"
+ChainRulesCore = "1.16.0-1"
+Cuba = "2.2.0-2"
+Cubature = "1.5.0-1"
+FastGaussQuadrature = ["0.5", "1"]
+ForwardDiff = "0.10.36-0.10"
+MCIntegration = "0.4.2-0.4"
+Zygote = "0.6.69-0.6"
