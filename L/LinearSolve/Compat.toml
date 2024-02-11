@@ -75,7 +75,7 @@ ArrayInterfaceCore = "0.1.1-0.1"
 ["1.18-2.16"]
 Setfield = ["0.7-0.8", "1"]
 
-["1.19-2"]
+["1.19-2.22"]
 GPUArraysCore = "0.1"
 
 ["1.20-2.16"]
@@ -87,7 +87,7 @@ FastLapackInterface = "1"
 ["1.26.1-1"]
 SnoopPrecompile = "1"
 
-["1.27.1-2"]
+["1.27.1-2.22"]
 KLU = "0.3-0.4"
 
 ["1.28-1"]
@@ -129,7 +129,7 @@ ArrayInterface = "7.3.0-7"
 ["1.4-1.12"]
 ArrayInterface = "3-4"
 
-["1.41-2"]
+["1.41-2.22"]
 EnumX = "1"
 
 ["1.8-2.21"]
@@ -151,26 +151,28 @@ SuiteSparse = "1.6.0-1"
 InteractiveUtils = "1.6.0-1"
 Libdl = "1.6.0-1"
 
-["2.15-2"]
-julia = "1.9.0-1"
-
 ["2.15-2.18"]
 MKL = "0.6"
+
+["2.15-2.22"]
+julia = "1.9.0-1"
 
 ["2.17"]
 SuiteSparse = "1.9.0-1"
 
 ["2.17-2"]
-DocStringExtensions = "0.9"
 FastLapackInterface = "2"
-LinearAlgebra = "1.9.0-1"
-SciMLBase = "2"
-SciMLOperators = "0.3"
 Setfield = "1"
-SparseArrays = "1.9.0-1"
 
 ["2.17-2.20.0"]
 EnzymeCore = "0.6"
+
+["2.17-2.22"]
+DocStringExtensions = "0.9"
+LinearAlgebra = "1.9.0-1"
+SciMLBase = "2"
+SciMLOperators = "0.3"
+SparseArrays = "1.9.0-1"
 
 ["2.2-2.16"]
 SciMLOperators = "0.2-0.3"
@@ -181,19 +183,38 @@ ArrayInterface = "7.4.11-7"
 ["2.20.1-2.21"]
 StaticArraysCore = "1"
 
-["2.22-2"]
+["2.22"]
 ArrayInterface = "7.5.0-7"
 InteractiveUtils = "1.9.0-1"
 Libdl = "1.9.0-1"
 PrecompileTools = "1.1.0-1"
+StaticArraysCore = "1.2.0-1"
+
+["2.22-2"]
 Preferences = "1.4.0-1"
 RecursiveFactorization = "0.2.14-0.2"
-StaticArraysCore = "1.2.0-1"
+
+["2.23-2"]
+ArrayInterface = "7.7.0-7"
+ConcreteStructs = "0.2.3-0.2"
+DocStringExtensions = "0.9.3-0.9"
+EnumX = "1.0.4-1"
+GPUArraysCore = "0.1.6-0.1"
+InteractiveUtils = "1.10.0-1"
+KLU = "0.5"
+Libdl = "1.10.0-1"
+LinearAlgebra = "1.10.0-1"
+PrecompileTools = "1.2.0-1"
+SciMLBase = "2.23.0-2"
+SciMLOperators = "0.3.7-0.3"
+SparseArrays = "1.10.0-1"
+StaticArraysCore = "1.4.2-1"
+julia = "1.10.0-1"
 
 ["2.3-2.16"]
 FastLapackInterface = "1-2"
 
-["2.6-2"]
+["2.6-2.22"]
 ConcreteStructs = "0.2"
 
 ["2.7-2.16"]
