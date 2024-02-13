@@ -13,7 +13,6 @@ DocStringExtensions = "0.8-0.9"
 Flux = "0.14"
 HTTP = "1.10.0-1"
 IntervalSets = "0.5-0.7"
-JLD2 = "0.4"
 LinearAlgebra = "1"
 NCDatasets = "0.11-0.14"
 SciMLBase = "1-2"
@@ -22,4 +21,11 @@ StatsBase = "0.34"
 SurfaceFluxes = "0.9.1-0.9"
 Thermodynamics = "0.11"
 cuDNN = "1"
+
+["0-0.8"]
+JLD2 = "0.4"
 julia = "1.8.0-1"
+
+["0.9-0"]
+Insolation = "0.9"
+julia = "1.9.0-1"
