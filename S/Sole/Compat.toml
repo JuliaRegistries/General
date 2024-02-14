@@ -1,6 +1,5 @@
 [0]
 Reexport = "1.2.0-1"
-SoleBase = "0.11"
 julia = "1"
 
 ["0-0.1"]
@@ -8,14 +7,25 @@ SoleData = "0.10"
 SoleLogics = "0.4"
 SoleModels = "0.2"
 
+["0-0.3"]
+SoleBase = "0.11"
+
 ["0.2"]
 SoleData = "0.11"
 SoleModels = "0.4"
 
-["0.2-0"]
+["0.2-0.3"]
 SoleLogics = "0.6"
+
+["0.3"]
+SoleData = "0.12"
+SoleModels = "0.5"
 
 ["0.3-0"]
 Random = "1"
-SoleData = "0.12"
-SoleModels = "0.5"
+
+["0.4-0"]
+SoleBase = "0.12"
+SoleData = "0.13"
+SoleLogics = "0.7"
+SoleModels = "0.6"
