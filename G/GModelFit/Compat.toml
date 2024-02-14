@@ -2,12 +2,20 @@
 CMPFit = "0.3"
 DataStructures = "0.18"
 Distributions = "0.25"
-GZip = "0.5"
 Gnuplot = "1.4.0-1"
 JSON = "0.21"
-LsqFit = "0.13"
 MacroTools = "0.5"
 PrettyTables = "2.2.0-2"
+julia = "1.8.0-1"
+
+["0-0.1"]
+GZip = "0.5"
+LsqFit = "0.13"
 ProgressMeter = "1.7.0-1"
 Statistics = "1.8.0-1"
-julia = "1.8.0-1"
+
+["0.2-0"]
+GZip = "0.5-0.6"
+LsqFit = "0.13-0.15"
+PrecompileTools = "1.1.0-1"
+ProgressMeter = "1.9.0-1"
