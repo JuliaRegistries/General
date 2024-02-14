@@ -20,8 +20,6 @@ StatsBase = "0.33"
 ["0.2-0"]
 Graphs = "1.8.0-1"
 MLJModelInterface = "1.8.0-1"
-SoleBase = "0.11"
-UniqueVectors = "1.2.0-1"
 
 ["0.2-0.2.2"]
 DataFrames = "1.6.0-1"
@@ -35,6 +33,10 @@ CategoricalArrays = "0.10.8-0.10"
 Lazy = "0.15.1-0.15"
 MLJBase = "0.21.11-0.21"
 Tables = "1.10.1-1"
+
+["0.2-0.5"]
+SoleBase = "0.11"
+UniqueVectors = "1.2.0-1"
 
 ["0.2.1-0.2"]
 HTTP = "1.9.14-1"
@@ -65,15 +67,26 @@ StatsBase = "0.34"
 ["0.4-0"]
 AbstractTrees = "0.4"
 Random = "1"
+
+["0.4-0.5"]
 SoleLogics = "0.6"
+
+["0.5"]
+Lazy = "0.15"
+MLJBase = "0.21"
+SoleData = "0.12"
 
 ["0.5-0"]
 CSV = "0.10"
 CategoricalArrays = "0.10"
 DataFrames = "1"
-Lazy = "0.15"
-MLJBase = "0.21"
-SoleData = "0.12"
 StatsBase = "0.30-0.34"
 Tables = "1"
 ZipFile = "0.10"
+
+["0.6-0"]
+Lazy = "0.15.1-0.15"
+MLJBase = "0.21.11-0.21"
+SoleBase = "0.12"
+SoleData = "0.13"
+SoleLogics = "0.7"
