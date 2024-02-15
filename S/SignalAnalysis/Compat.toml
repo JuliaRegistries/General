@@ -47,8 +47,14 @@ FFTW = "1"
 Statistics = "1"
 julia = "1"
 
-["0.6-0"]
+["0.6"]
 Optim = "1.7.0-1"
-Peaks = "0.4"
 Statistics = "1.6.0-1"
+
+["0.6-0"]
+Peaks = "0.4"
 julia = "1.6.0-1"
+
+["0.7-0"]
+Optim = "1"
+PrecompileTools = "1"
