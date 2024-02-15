@@ -1,7 +1,9 @@
 [0]
+julia = "1.6.0-1"
+
+["0-0.1"]
 OptimizationOptimJL = "0.1"
 OptimizationOptimisers = "0.1"
-julia = "1.6.0-1"
 
 ["0-0.1.1"]
 Optimization = "3"
@@ -9,5 +11,10 @@ Optimization = "3"
 ["0.1.1-0"]
 Reexport = "1.2.0-1"
 
-["0.1.2-0"]
+["0.1.2-0.1"]
 Optimization = "3.15.0-3"
+
+["0.2-0"]
+Optimization = "3.21.0-3"
+OptimizationOptimJL = "0.1-0.2"
+OptimizationOptimisers = "0.1-0.2"
