@@ -16,14 +16,20 @@ ChooseOptimizer = "0.0.0-0.1"
 JuMP = "0.21-0.23"
 
 ["0.3.1-0"]
-ChooseOptimizer = "0.1"
 MathProgBase = "0.7"
 
 ["0.3.1-0.3.2"]
 Cbc = "0.9"
 
+["0.3.1-0.3.4"]
+ChooseOptimizer = "0.1"
+
 ["0.3.2-0"]
 JuMP = ["0.21-0.23", "1"]
 
-["0.3.3-0"]
+["0.3.3-0.3.4"]
 Cbc = ["0.9", "1"]
+
+["0.3.5-0"]
+ChooseOptimizer = "0.2"
+GLPK = "1"
