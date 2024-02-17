@@ -1,5 +1,4 @@
 [0]
-ClimaCore = "0.10"
 ClimaCorePlots = "0.2"
 NCDatasets = "0.12"
 Plots = "1.29.0-1"
@@ -17,6 +16,9 @@ CloudMicrophysics = "0.6"
 ["0-0.3.3"]
 Thermodynamics = "0.9"
 julia = "1.7.0-1"
+
+["0-0.4"]
+ClimaCore = "0.10"
 
 ["0.1.1-0.2"]
 CloudMicrophysics = "0.8"
@@ -57,3 +59,7 @@ CloudMicrophysics = "0.15"
 LinearAlgebra = "1"
 Logging = "1"
 Random = "1"
+
+["0.5-0"]
+ClimaCore = "0.11"
+SpecialFunctions = "2.3.0-2"

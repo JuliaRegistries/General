@@ -4,7 +4,6 @@ IterTools = "1.4.0-1"
 NetworkLayout = "0.4.4-0.4"
 QuantumOptics = "1.0.5-1"
 Reexport = "1.2.2-1"
-ResumableFunctions = "0.6.1-0.6"
 
 ["0-0.1"]
 QuantumClifford = "0.6.3-0.6"
@@ -23,6 +22,9 @@ TermInterface = "0.2.3-0.3"
 
 ["0-0.3.1"]
 Makie = "0.19"
+
+["0-0.3.2"]
+ResumableFunctions = "0.6.1-0.6"
 
 ["0.1.1-0.1"]
 QuantumSymbolics = "0.1.1-0.1"
@@ -57,12 +59,22 @@ DocStringExtensions = "0.9"
 QuantumInterface = "0.3.3-0.3"
 QuantumOpticsBase = "0.4.17-0.4"
 
+["0.3.2"]
+LinearAlgebra = "1.9.0-1"
+Printf = "1.9.0-1"
+SumTypes = "0.5"
+
 ["0.3.2-0"]
 Combinatorics = "1"
 ConcurrentSim = "1.4.0-1"
-LinearAlgebra = "1.9.0-1"
 Makie = "0.19-0.20"
-Printf = "1.9.0-1"
 QuantumSymbolics = "0.2.5-0.2"
 Statistics = "1"
-SumTypes = "0.5"
+
+["0.3.3-0"]
+Distributions = "0.25"
+LinearAlgebra = "1"
+Printf = "1"
+Random = "1"
+ResumableFunctions = "0.6"
+SumTypes = "0.5.1-0.5"

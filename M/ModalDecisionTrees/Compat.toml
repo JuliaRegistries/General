@@ -19,7 +19,6 @@ ProgressMeter = "1"
 Reexport = "1"
 ResumableFunctions = "0.6"
 Revise = "3"
-SoleBase = "0.11"
 Suppressor = "0.2"
 Tables = "1"
 ThreadsX = "0.1"
@@ -37,6 +36,9 @@ PProf = "2"
 SoleLogics = "0.4"
 SoleModels = "0.2"
 
+["0-0.3"]
+SoleBase = "0.11"
+
 ["0.1.6-0.1"]
 StatsBase = "0.33"
 
@@ -51,12 +53,24 @@ StatsBase = "0.34"
 
 ["0.2-0"]
 Random = "1"
+
+["0.2-0.3"]
 SoleLogics = "0.6"
 
-["0.3-0"]
+["0.3"]
 SoleData = "0.12"
 SoleModels = "0.5"
+
+["0.3-0"]
 StatsBase = "0.30-0.34"
 
-["0.3.2-0"]
+["0.3.2-0.3"]
 Sole = "0.3"
+
+["0.4-0"]
+MultiData = "0-0.1"
+Sole = "0.4"
+SoleBase = "0.12"
+SoleData = "0.13"
+SoleLogics = "0.7"
+SoleModels = "0.6"

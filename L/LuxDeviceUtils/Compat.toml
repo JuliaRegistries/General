@@ -1,8 +1,5 @@
 [0]
-ChainRulesCore = "1"
-Functors = "0.2-0.4"
 LuxCore = "0.1.4-0.1"
-Preferences = "1"
 
 ["0-0.1.0"]
 Requires = "1"
@@ -12,6 +9,11 @@ julia = "1.6.0-1"
 
 ["0-0.1.11"]
 Adapt = "3"
+
+["0-0.1.13"]
+ChainRulesCore = "1"
+Functors = "0.2-0.4"
+Preferences = "1"
 
 ["0.1.1-0.1.10"]
 PackageExtensionCompat = "1"
@@ -23,12 +25,21 @@ SparseArrays = ["0.0.0", "1"]
 ["0.1.11-0"]
 julia = "1.9.0-1"
 
-["0.1.12-0"]
+["0.1.12-0.1.13"]
 Adapt = "3-4"
 
-["0.1.13-0"]
+["0.1.13"]
 Random = "1"
 SparseArrays = "1"
+
+["0.1.14-0"]
+Adapt = "4"
+ChainRulesCore = "1.20.0-1"
+Functors = "0.4.4-0.4"
+PrecompileTools = "1.2.0-1"
+Preferences = "1.4.0-1"
+Random = "1.9.0-1"
+SparseArrays = "1.9.0-1"
 
 ["0.1.3-0.1.4"]
 TruncatedStacktraces = "1"
