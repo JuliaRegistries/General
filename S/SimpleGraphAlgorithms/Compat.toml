@@ -45,9 +45,11 @@ SimpleGraphs = "0.8"
 SimpleGraphs = "0.2-0.6"
 
 ["0.4.4-0"]
-ChooseOptimizer = "0.1"
 SimplePartitions = ["0.0.1", "0.1-0.3"]
 SimplePolynomials = ["0.0.1-0.0.6", "0.1-0.2"]
+
+["0.4.4-0.4"]
+ChooseOptimizer = "0.1"
 
 ["0.4.4-0.4.14"]
 JuMP = "0.18-0.21"
@@ -57,3 +59,7 @@ Cbc = "0.4-0.7"
 
 ["0.4.5-0.4.18"]
 SimpleGraphs = "0.5-0.7"
+
+["0.5-0"]
+ChooseOptimizer = "0.1-0.2"
+GLPK = "1"
