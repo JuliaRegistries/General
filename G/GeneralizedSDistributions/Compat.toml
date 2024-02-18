@@ -1,11 +1,13 @@
 [0]
-HypergeometricFunctions = "0.3"
-LsqFit = "0.12"
 QuadGK = "2.4.0-2"
-julia = "1.4.0-1"
 
 ["0-0.2"]
 Distributions = "0.24"
+
+["0-0.3.0"]
+HypergeometricFunctions = "0.3"
+LsqFit = "0.12"
+julia = "1.4.0-1"
 
 ["0.2"]
 DifferentialEquations = "6.16.0-6"
@@ -13,3 +15,8 @@ DifferentialEquations = "6.16.0-6"
 ["0.3-0"]
 Distributions = "0.24-0.25"
 OrdinaryDiffEq = "6"
+
+["0.3.1-0"]
+LsqFit = "0.12-0.15"
+SpecialFunctions = "2"
+julia = "1.6.0-1"
