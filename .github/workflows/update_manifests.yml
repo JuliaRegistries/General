@@ -33,7 +33,7 @@ jobs:
           - 'nightly'
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v3.3.0
-      - uses: julia-actions/setup-julia@58ad1cdde70774ab0693de31c3cd4e751b46aea2 # v1.9.4
+      - uses: julia-actions/setup-julia@ac0d62164df5a47de404f4e96ce86a1a28a28d56 # v1.9.6
         with:
           version: ${{ matrix.version }}
           arch: x64
@@ -50,7 +50,7 @@ jobs:
               echo "The manifest file does not exist, so I will create a new manifest from scratch."
           fi
       - name: Cache artifacts
-        uses: actions/cache@704facf57e6136b1bc63b828d79edcd491f0ee84 # v3.3.2
+        uses: actions/cache@13aacd865c20de90d75de3b17ebe84f7a17d57d2 # v4.0.0
         env:
           cache-name: cache-artifacts
         with:

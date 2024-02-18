@@ -65,8 +65,10 @@ SpecialFunctions = ["0.7-0.10", "1"]
 ["1.3-2"]
 Combinatorics = ["0.7", "1"]
 IterativeSolvers = "0.9"
-SparseMatrixDicts = "0.2"
 StaticArrays = ["0.8.3-0.12", "1"]
+
+["1.3-2.1"]
+SparseMatrixDicts = "0.2"
 
 ["1.4"]
 CompScienceMeshes = "0.3.2-0.3"
@@ -116,8 +118,10 @@ FastGaussQuadrature = "0.3-0.5"
 AbstractTrees = "0.4.4-0.4"
 ConvolutionOperators = "0.4"
 LiftedMaps = "0.5.1-0.5"
-LinearMaps = "3.7-3.9"
 NestedUnitRanges = "0.2"
+
+["2-2.1"]
+LinearMaps = "3.7-3.9"
 
 ["2.0"]
 CompScienceMeshes = "0.5.1-0.5"
@@ -133,3 +137,12 @@ FillArrays = ["0.11-0.13", "1"]
 Requires = "1"
 SauterSchwabQuadrature = "2.3.0-2"
 WiltonInts84 = "0.2.5-0.2"
+
+["2.2-2"]
+LinearMaps = ["3.7-3.9", "3.11.2-3"]
+
+["2.2.0"]
+SparseMatrixDicts = "0.0.0-0.2.7"
+
+["2.2.1-2"]
+ExtendableSparse = "1.4.0-1"

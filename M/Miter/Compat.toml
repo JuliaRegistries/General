@@ -2,11 +2,13 @@
 ArgCheck = "2"
 ColorTypes = "0.11"
 DocStringExtensions = "0.9"
-Poppler_jll = "21"
 StaticArrays = "1"
 Unitful = "1"
 julia = "1.8.0-1"
 tectonic_jll = "0"
+
+["0-0.6"]
+Poppler_jll = "21"
 
 ["0.4-0"]
 Reexport = "1"
@@ -17,3 +19,8 @@ Statistics = "1.8.0-1"
 ["0.6.1-0"]
 Printf = "1.8.0-1"
 Statistics = "1"
+
+["0.7-0"]
+Accessors = "0.1"
+ConstructionBase = "1"
+Poppler_jll = "21-22"
