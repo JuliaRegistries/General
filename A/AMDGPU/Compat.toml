@@ -175,9 +175,7 @@ LLVM = "5"
 
 ["0.5-0"]
 AbstractFFTs = "1"
-LLD_jll = "14-15"
 LLVM = "6"
-LLVM_jll = "14-15"
 SpecialFunctions = "2"
 julia = "1.9.0-1"
 
@@ -192,6 +190,10 @@ Statistics = "1.9.0-1"
 
 ["0.5-0.8.2"]
 CEnum = "0.4"
+
+["0.5-0.8.7"]
+LLD_jll = "14-15"
+LLVM_jll = "14-15"
 
 ["0.5.0"]
 HIP_jll = "5"
@@ -238,3 +240,7 @@ CEnum = "0.4-0.5"
 ["0.8.4-0"]
 Adapt = "4"
 GPUArrays = "10"
+
+["0.8.8-0"]
+LLD_jll = "14-16"
+LLVM_jll = "14-16"
