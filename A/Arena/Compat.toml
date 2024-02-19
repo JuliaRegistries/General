@@ -1,4 +1,7 @@
-[0]
+["0-0.1"]
+julia = ["0.7-0", "1.0"]
+
+["0-0.2"]
 Caesar = "0.2.3-0.6"
 ColorTypes = "0.0.0-0.10"
 Colors = "0.0.0-0.12"
@@ -22,13 +25,25 @@ Requires = "0.0.0-0.5"
 Rotations = "0.0.0-0.13"
 TransformUtils = "0.2.2-0.2"
 
-["0-0.1"]
-julia = ["0.7-0", "1.0"]
-
-["0.2-0"]
+["0.2"]
 JSON2 = "0.0.0-0.3"
 Mongoc = "0-0.2"
 PlotUtils = "0.0.0-0.6"
 RoME = "0.0.0-0.9"
 StaticArrays = "0.0.0-0.12"
 julia = "1.0"
+
+["0.3-0"]
+ColorSchemes = "3"
+Colors = "0.12"
+DistributedFactorGraphs = "0.23"
+DocStringExtensions = "0.9"
+GLMakie = "0.9"
+GeometryBasics = "0.4"
+Manifolds = "0.9"
+Pkg = "1"
+ProgressMeter = "1"
+RoME = "0.24"
+StaticArrays = "1"
+TensorCast = "0.4"
+julia = "1.10.0-1"
