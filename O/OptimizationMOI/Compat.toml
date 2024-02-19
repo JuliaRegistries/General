@@ -1,11 +1,13 @@
 [0]
 MathOptInterface = "1"
-julia = "1"
 
 ["0-0.1.4"]
 Optimization = "3"
 
-["0.1.11-0"]
+["0-0.3"]
+julia = "1"
+
+["0.1.11-0.3"]
 Ipopt_jll = "300.1400.400"
 
 ["0.1.12-0.1.13"]
@@ -32,3 +34,7 @@ SymbolicIndexingInterface = "0.3"
 
 ["0.3-0"]
 Optimization = "3.21.0-3"
+
+["0.4-0"]
+SparseArrays = "1.6.0-1"
+julia = "1.6.0-1"
