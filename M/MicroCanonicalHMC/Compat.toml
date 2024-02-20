@@ -3,7 +3,6 @@ AbstractMCMC = "4.4.0-4"
 DataFrames = "1.6.0-1"
 Distributions = "0.25"
 DistributionsAD = "0.6"
-DynamicPPL = "0.23"
 ForwardDiff = "0.10"
 LogDensityProblems = "2.1.0-2"
 LogDensityProblemsAD = "1.6.0-1"
@@ -12,3 +11,9 @@ MCMCDiagnosticTools = "0.3"
 ProgressMeter = "1.9.0-1"
 Statistics = "1.8.0-1"
 julia = "1.9.0-1"
+
+["0-0.1.0"]
+DynamicPPL = "0.23"
+
+["0.1.1-0"]
+DynamicPPL = "0.23-0.24"
