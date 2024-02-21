@@ -1,6 +1,12 @@
 [0]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
-LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
-NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Tensors = "48a634ad-e948-5137-8d70-aa71f2a747f4"
+
+["0-0.1.0"]
+LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
+NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
+
+["0.1.1-0"]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+MuladdMacro = "46d2c3a1-f734-5fdb-9937-b9b9aeba4221"
