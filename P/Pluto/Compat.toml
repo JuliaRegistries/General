@@ -97,7 +97,6 @@ Malt = "1.1.0-1"
 
 ["0.19.31-0"]
 Base64 = "1"
-Dates = "1"
 Downloads = "1"
 FileWatching = "1"
 InteractiveUtils = "1"
@@ -109,8 +108,15 @@ Sockets = "1"
 TOML = "1"
 UUIDs = "1"
 
+["0.19.31-0.19.38"]
+Dates = "1"
+
 ["0.19.33-0"]
 ExpressionExplorer = ["0.5-0.6", "1"]
+
+["0.19.39-0"]
+Dates = "0-1"
+PlutoDependencyExplorer = "1.0"
 
 ["0.19.4-0"]
 PrecompileSignatures = "3"
