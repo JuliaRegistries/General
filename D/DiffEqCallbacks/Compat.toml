@@ -49,7 +49,7 @@ DataStructures = "0.18"
 ["2.15-2.25"]
 StaticArrays = ["0.10-0.12", "1"]
 
-["2.17-2"]
+["2.17-3"]
 Parameters = "0.12"
 
 ["2.18-2.23"]
@@ -67,7 +67,7 @@ julia = "1"
 ["2.24-2.30"]
 SciMLBase = "1.48.1-1"
 
-["2.26-2"]
+["2.26-3"]
 StaticArraysCore = "1.4.0-1"
 
 ["2.27-2.36"]
@@ -76,7 +76,7 @@ DiffEqBase = "6.53.3-6"
 ["2.3-2.5"]
 DiffEqBase = "4.29-5"
 
-["2.30-2"]
+["2.30-3"]
 Functors = "0.4"
 
 ["2.31-2.36"]
@@ -91,15 +91,17 @@ Markdown = "1"
 julia = "1.9.0-1"
 
 ["2.37-2"]
-DataStructures = "0.18.13-0.18"
 DiffEqBase = "6.141.0-6"
 ForwardDiff = "0.10.19-0.10"
-LinearAlgebra = "1.10.0-1"
-Markdown = "1.10.0-1"
 NLsolve = "4.5.0-4"
 RecipesBase = "1.1.0-1"
 RecursiveArrayTools = "2.38.0-3"
 SciMLBase = "2.9.0-2"
+
+["2.37-3"]
+DataStructures = "0.18.13-0.18"
+LinearAlgebra = "1.10.0-1"
+Markdown = "1.10.0-1"
 julia = "1.10.0-1"
 
 ["2.5"]
@@ -124,3 +126,11 @@ RecursiveArrayTools = "1"
 ["2.8-2.9"]
 ForwardDiff = "0.0.0-0.10"
 NLsolve = "0.0.0-4"
+
+[3]
+DiffEqBase = "6.146.0-6"
+ForwardDiff = "0.10.36-0.10"
+NonlinearSolve = "3.6.0-3"
+RecipesBase = "1.3.4-1"
+RecursiveArrayTools = "3.9.0-3"
+SciMLBase = "2.26.0-2"
