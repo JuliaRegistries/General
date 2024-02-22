@@ -10,13 +10,15 @@ Symbolics = ["0.1", "1-4"]
 
 [0-2]
 IfElse = "0.1"
+
+["0-2.3"]
 julia = "1.6.0-1"
 
 ["1-1.5"]
 ModelingToolkit = "8"
 OrdinaryDiffEq = "5.56.0-6"
 
-["1.11-2"]
+["1.11-2.3"]
 Symbolics = "4.9.0-5"
 
 ["1.12-2.2"]
@@ -33,7 +35,16 @@ ModelingToolkit = "8.26.0-8"
 
 ["2.1.1-2"]
 ChainRulesCore = "1"
+
+["2.1.1-2.3"]
 DiffEqBase = "6"
 
-["2.3-2"]
+["2.3"]
 ModelingToolkit = "8.67.0-8"
+
+["2.4-2"]
+DiffEqBase = "6.103.0-6"
+LinearAlgebra = "1.10.0-1"
+ModelingToolkit = "8.69.0-8"
+Symbolics = "5.2.0-5"
+julia = "1.10.0-1"
