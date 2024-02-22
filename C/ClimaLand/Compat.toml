@@ -5,7 +5,6 @@ CFTime = "0.1"
 CSV = "0.10"
 CUDA = "5"
 ClimaComms = "0.5.6-0.5"
-ClimaCore = "0.11.5-0.11"
 ClimaCoreTempestRemap = "0.3"
 DataFrames = "1"
 Dates = "1"
@@ -18,13 +17,21 @@ NCDatasets = "0.11-0.14"
 SciMLBase = "1-2"
 StaticArrays = "1"
 StatsBase = "0.34"
-SurfaceFluxes = "0.9.1-0.9"
-Thermodynamics = "0.11"
 cuDNN = "1"
 
 ["0-0.8"]
 JLD2 = "0.4"
 julia = "1.8.0-1"
+
+["0-0.9"]
+ClimaCore = "0.11.5-0.11"
+SurfaceFluxes = "0.9.1-0.9"
+Thermodynamics = "0.11"
+
+["0.10-0"]
+ClimaCore = "0.12"
+SurfaceFluxes = "0.9"
+Thermodynamics = "0.12"
 
 ["0.9-0"]
 Insolation = "0.9"
