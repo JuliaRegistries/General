@@ -1,10 +1,6 @@
 [0]
 AbstractMCMC = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-DistributionsAD = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
-DynamicPPL = "366bfd00-2699-11ea-058f-f148b4cae6d8"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
@@ -14,6 +10,12 @@ MCMCDiagnosticTools = "be115224-59cd-429b-ad48-344e309966f0"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.1.2"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+DistributionsAD = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
+DynamicPPL = "366bfd00-2699-11ea-058f-f148b4cae6d8"
 
 ["0.1.2-0"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"

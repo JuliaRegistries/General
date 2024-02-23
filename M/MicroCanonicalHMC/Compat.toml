@@ -1,7 +1,5 @@
 [0]
-DataFrames = "1.6.0-1"
 Distributions = "0.25"
-DistributionsAD = "0.6"
 ForwardDiff = "0.10"
 LogDensityProblems = "2.1.0-2"
 LogDensityProblemsAD = "1.6.0-1"
@@ -17,10 +15,19 @@ DynamicPPL = "0.23"
 ["0-0.1.1"]
 AbstractMCMC = "4.4.0-4"
 
-["0.1.1-0"]
+["0-0.1.2"]
+DataFrames = "1.6.0-1"
+DistributionsAD = "0.6"
+
+["0.1.1-0.1.2"]
 DynamicPPL = "0.23-0.24"
+
+["0.1.2"]
+Adapt = "3"
 
 ["0.1.2-0"]
 AbstractMCMC = "4.4.0-5"
-Adapt = "3"
 HDF5 = "0.17"
+
+["0.1.3-0"]
+Adapt = "3-4"
