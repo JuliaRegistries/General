@@ -180,7 +180,6 @@ Adapt = "1-4"
 
 ["7.52-7"]
 DiffEqBase = "6.145.4-6"
-DiffEqCallbacks = "2.34.0-2"
 DiffEqNoiseProcess = "5.19.0-5"
 Distributions = "0.25"
 LinearAlgebra = "1.10.0-1"
@@ -198,6 +197,12 @@ StochasticDiffEq = "6.63.2-6"
 Tracker = "0.2.30-0.2"
 Zygote = "0.6.67-0.6"
 julia = "1.10.0-1"
+
+["7.52-7.55"]
+DiffEqCallbacks = "2.34.0-2"
+
+["7.56-7"]
+DiffEqCallbacks = "2.34.0-3"
 
 ["7.6-7"]
 FunctionWrappersWrappers = "0.1"
