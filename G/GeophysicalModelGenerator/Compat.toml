@@ -66,8 +66,10 @@ WriteVTK = "1"
 ["0.4.5-0"]
 FileIO = "1"
 Geodesy = "1"
-Requires = "1-2"
 SpecialFunctions = "1-2"
+
+["0.4.5-0.5.8"]
+Requires = "1-2"
 
 ["0.4.6-0"]
 ImageIO = "0.1-0.6"
@@ -90,9 +92,6 @@ julia = "1.7.0-1"
 ["0.4.9-0.5.7"]
 Interpolations = "0.13-0.14"
 
-["0.5-0"]
-julia = "1.8.0-1"
-
 ["0.5-0.5.4"]
 GMT = "1"
 
@@ -100,9 +99,15 @@ GMT = "1"
 DelimitedFiles = "1.8.0-1"
 Statistics = "1.8.0-1"
 
+["0.5-0.5.8"]
+julia = "1.8.0-1"
+
 ["0.5.4-0"]
 Downloads = "1"
 JLD2 = "0.4"
 
 ["0.5.8-0"]
 Interpolations = "0.14-0.15"
+
+["0.5.9-0"]
+julia = "1.9.0-1"
