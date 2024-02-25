@@ -21,12 +21,18 @@ DataStructures = "0.15.0-0.18"
 Combinatorics = "0.0.0-1"
 QuadGK = "0.0.0-2"
 
+["1.5"]
+StaticArrays = ["0.8-0.12", "1"]
+julia = "1"
+
 ["1.5-1"]
 Combinatorics = "1"
 DataStructures = "0.15-0.18"
 QuadGK = "2"
-StaticArrays = ["0.8-0.12", "1"]
-julia = "1"
 
 ["1.5.2-1"]
 LinearAlgebra = ["0.0.0", "1"]
+
+["1.6-1"]
+StaticArrays = "1.6.4-1"
+julia = "1.6.0-1"
