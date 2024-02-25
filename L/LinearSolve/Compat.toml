@@ -205,11 +205,18 @@ KLU = "0.5"
 Libdl = "1.10.0-1"
 LinearAlgebra = "1.10.0-1"
 PrecompileTools = "1.2.0-1"
-SciMLBase = "2.23.0-2"
 SciMLOperators = "0.3.7-0.3"
 SparseArrays = "1.10.0-1"
 StaticArraysCore = "1.4.2-1"
 julia = "1.10.0-1"
+
+["2.23-2.24"]
+SciMLBase = "2.23.0-2"
+
+["2.25-2"]
+ChainRulesCore = "1.22.0-1"
+Markdown = "1.10.0-1"
+SciMLBase = "2.26.3-2"
 
 ["2.3-2.16"]
 FastLapackInterface = "1-2"
