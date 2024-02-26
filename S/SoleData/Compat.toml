@@ -40,7 +40,6 @@ BenchmarkTools = "1"
 CategoricalArrays = "0.10"
 Graphs = "1.8.0-1"
 HTTP = "1.9.0-1"
-MLJBase = ["0.21.11-0.21", "1"]
 MultiData = "0-0.1"
 ProgressMeter = "1"
 SoleBase = "0.12"
@@ -48,6 +47,9 @@ SoleLogics = "0.7"
 ThreadSafeDicts = "0.1"
 UniqueVectors = "1.2.0-1"
 ZipFile = "0.10"
+
+["0.13.0"]
+MLJBase = ["0.21.11-0.21", "1"]
 
 ["0.9.1-0.9"]
 SoleBase = "0.9.2-0.9"
