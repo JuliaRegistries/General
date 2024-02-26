@@ -1,5 +1,4 @@
 [0]
-JLD2 = "0.4"
 LazyArtifacts = "1"
 
 ["0-0.1"]
@@ -15,7 +14,10 @@ Lux = "0.4"
 ["0-0.2.0"]
 NNlib = "0.8"
 
-["0.1.1-0"]
+["0-0.3.2"]
+JLD2 = "0.4"
+
+["0.1.1-0.3.2"]
 ChainRulesCore = "1.15.0-1"
 
 ["0.1.2-0.3.1"]
@@ -50,13 +52,22 @@ NNlib = "0.8-0.9"
 ["0.2.1-0.3.1"]
 PackageExtensionCompat = "1"
 
-["0.3-0"]
+["0.3-0.3.2"]
 Lux = "0.5"
+
+["0.3.2"]
+GPUArraysCore = "0.1"
+PrecompileTools = "1"
 
 ["0.3.2-0"]
 Artifacts = "1"
-GPUArraysCore = "0.1"
-PrecompileTools = "1"
 Random = "1"
 Statistics = "1"
 julia = "1.9.0-1"
+
+["0.3.3-0"]
+ChainRulesCore = "1.21.0-1"
+GPUArraysCore = "0.1.6-0.1"
+JLD2 = "0.4.28-0.4"
+Lux = "0.5.18-0.5"
+PrecompileTools = "1.2.0-1"
