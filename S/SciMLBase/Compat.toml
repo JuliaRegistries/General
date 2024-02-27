@@ -125,13 +125,11 @@ ADTypes = "0.2.5-0.2"
 ArrayInterface = "7.6.0-7"
 ConstructionBase = "1.5.0-1"
 DocStringExtensions = "0.9"
-FillArrays = "1.9.0-1"
 IteratorInterfaceExtensions = "1"
 PrecompileTools = "1.2.0-1"
 SciMLOperators = "0.3.7-0.3"
 StaticArraysCore = "1.4.0-1"
 Tables = "1.11.0-1"
-TruncatedStacktraces = "1.4.0-1"
 
 ["2.11-2.15"]
 RecursiveArrayTools = "3"
@@ -140,6 +138,10 @@ SymbolicIndexingInterface = "0.3"
 ["2.11-2.24"]
 RecipesBase = "1"
 Statistics = "1.9.0-1"
+
+["2.11-2.28"]
+FillArrays = "1.9.0-1"
+TruncatedStacktraces = "1.4.0-1"
 
 ["2.11.0"]
 QuasiMonteCarlo = "0.2.19-0.3"
