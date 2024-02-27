@@ -21,9 +21,15 @@ Turing = ["0.23-0.24", "0.29"]
 ["0.2-0"]
 Requires = "1"
 
-["0.3-0"]
+["0.3"]
 DynamicPPL = "0.23"
 Turing = "0.29"
 
 ["0.3.2-0"]
 PrettyTables = "2"
+
+["0.4-0"]
+ADTypes = "0.2"
+DynamicPPL = "0.23-0.24"
+ForwardDiff = "0.10.3-0.10"
+Turing = "0.30"
