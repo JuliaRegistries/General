@@ -33,11 +33,9 @@ YAML = "0.0.0-0.3"
 YAML = "0.3"
 
 ["0.3-0"]
-Formatting = "0.4"
 JSON = "0.21"
 LaTeXStrings = "1"
 ParallelProcessingTools = "0.4"
-ProgressMeter = "1.2.0-1"
 TypedTables = "1.2.0-1"
 
 ["0.3-0.4"]
@@ -59,6 +57,10 @@ StaticArrays = "0.12"
 ["0.3-0.6"]
 RadiationDetectorSignals = "0.1"
 
+["0.3-0.9.5"]
+Formatting = "0.4"
+ProgressMeter = "1.2.0-1"
+
 ["0.3.0"]
 Distributions = "0.21"
 IntervalSets = "0.3"
@@ -73,9 +75,7 @@ Unitful = "0.18"
 Distributions = "0.21-0.22"
 
 ["0.3.1-0"]
-Requires = ["0.5", "1"]
 Tables = ["0.2", "1"]
-Unitful = ["0.18", "1"]
 
 ["0.3.1-0.3"]
 NamedTupleTools = "0.12-0.13"
@@ -84,6 +84,10 @@ NamedTupleTools = "0.12-0.13"
 IntervalSets = "0.3-0.4"
 RecipesBase = "0.7-0.8"
 Rotations = "0.12-0.13"
+
+["0.3.1-0.9.5"]
+Requires = ["0.5", "1"]
+Unitful = ["0.18", "1"]
 
 ["0.3.2-0.4"]
 Distributions = "0.21-0.23"
@@ -94,10 +98,6 @@ YAML = "0.3-0.4"
 ["0.4.1-0.8.8"]
 StatsBase = "0.32-0.33"
 
-["0.4.2-0"]
-RecipesBase = ["0.7-0.8", "1"]
-Rotations = ["0.12-0.13", "1"]
-
 ["0.4.2-0.7"]
 IntervalSets = "0.3-0.5"
 
@@ -106,6 +106,10 @@ ArraysOfArrays = "0.4-0.5"
 
 ["0.4.2-0.8.7"]
 Clustering = "0.13-0.14"
+
+["0.4.2-0.9.5"]
+RecipesBase = ["0.7-0.8", "1"]
+Rotations = ["0.12-0.13", "1"]
 
 ["0.4.3-0.4"]
 FillArrays = "0.8-0.9"
@@ -119,18 +123,18 @@ Distributions = "0.21-0.24"
 ["0.5-0.8.1"]
 Interpolations = "0.12-0.13"
 
-["0.5.1-0"]
+["0.5.1-0.9.5"]
 DataStructures = "0.18"
 StaticArrays = ["0.12", "1"]
 
 ["0.5.2"]
 FillArrays = "0.8-0.11"
 
-["0.5.3-0"]
-Distributions = "0.21-0.25"
-
 ["0.5.3-0.7"]
 FillArrays = "0.8-0.12"
+
+["0.5.3-0.9.5"]
+Distributions = "0.21-0.25"
 
 ["0.6-0"]
 Parameters = "0.12"
@@ -157,9 +161,6 @@ GPUArrays = "8"
 ["0.7-0.9.4"]
 Adapt = "3"
 
-["0.8-0"]
-IntervalSets = "0.3-0.7"
-
 ["0.8-0.8.7"]
 KernelAbstractions = "0.8"
 
@@ -173,6 +174,9 @@ julia = "1.7.0-1"
 ["0.8-0.9.2"]
 Polynomials = "2-3"
 
+["0.8-0.9.5"]
+IntervalSets = "0.3-0.7"
+
 ["0.8.0"]
 RadiationDetectorSignals = "0.1.7-0.2"
 
@@ -185,19 +189,23 @@ julia = "1.6.0-1"
 ["0.8.10-0.9.3"]
 Statistics = "1.6.0-1"
 
-["0.8.2-0"]
-ArraysOfArrays = "0.4-0.6"
-
 ["0.8.2-0.9.4"]
 Interpolations = "0.14"
 
+["0.8.2-0.9.5"]
+ArraysOfArrays = "0.4-0.6"
+
 ["0.8.8-0"]
-Clustering = "0.13-0.15"
 KernelAbstractions = "0.8-0.9"
 
+["0.8.8-0.9.5"]
+Clustering = "0.13-0.15"
+
 ["0.8.9-0"]
-FillArrays = ["0.8-0.13", "1"]
 StatsBase = "0.32-0.34"
+
+["0.8.9-0.9.5"]
+FillArrays = ["0.8-0.13", "1"]
 
 ["0.9.3-0"]
 Polynomials = "2-4"
@@ -205,7 +213,7 @@ Polynomials = "2-4"
 ["0.9.3-0.9.4"]
 GPUArrays = "8-9"
 
-["0.9.4-0"]
+["0.9.4-0.9.5"]
 LinearAlgebra = "1"
 Random = "1"
 Statistics = "1"
@@ -214,3 +222,21 @@ Statistics = "1"
 Adapt = "3-4"
 GPUArrays = "8-10"
 Interpolations = "0.14-0.15"
+
+["0.9.6-0"]
+ArraysOfArrays = "0.5-0.6"
+Clustering = "0.15"
+DataStructures = "0.11-0.18"
+Distributions = "0.24.5-0.25"
+FillArrays = ["0.9-0.13", "1"]
+Format = "1.2.0-1"
+IntervalSets = "0.5-0.7"
+LinearAlgebra = ["0.0.0", "1"]
+ProgressMeter = "1.5.0-1"
+Random = ["0.0.0", "1"]
+RecipesBase = "1"
+Requires = "1.1.0-1"
+Rotations = "1"
+StaticArrays = "1"
+Statistics = ["0.0.0", "1"]
+Unitful = "1.11.0-1"
