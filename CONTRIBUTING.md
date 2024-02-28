@@ -8,7 +8,7 @@ You can register your package!
 See [Registering a package in General](https://github.com/JuliaRegistries/General#registering-a-package-in-general) in the README for how to do that.
 The "FAQ" section in the README helps answer many more questions, like [do I need to register a package to install it?](https://github.com/JuliaRegistries/General#do-i-need-to-register-a-package-to-install-it), [should I register my package?](https://github.com/JuliaRegistries/General#should-i-register-my-package), and more.
 
-* Please be aware of the [package naming guidelines](https://pkgdocs.julialang.org/dev/creating-packages/#Package-naming-guidelines-1)
+* Please be aware of the [package naming guidelines](https://docs.julialang.org/en/v1.12-dev/tutorials/creating-packages/#Package-naming-guidelines)
 * We strongly encourage authors to follow best practices like having documentation (or a descriptive README), tests, and continuous integration.
 
 ## As a Julia community member
