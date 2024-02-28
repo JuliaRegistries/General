@@ -91,11 +91,13 @@ SciMLBase = "1"
 
 ["0.16.1-0"]
 RootSolvers = "0.2-0.4"
-Thermodynamics = "0.11"
 
 ["0.16.1-0.16.2"]
 CloudMicrophysics = "0.14"
 SurfaceFluxes = "0.7"
+
+["0.16.1-0.20"]
+Thermodynamics = "0.11"
 
 ["0.16.2-0"]
 DiffEqBase = "6"
@@ -169,7 +171,7 @@ CloudMicrophysics = "0.6"
 ["0.2-0.6"]
 Thermodynamics = "0.9"
 
-["0.20-0"]
+["0.20"]
 CLIMAParameters = "0.8.4-0.8"
 ClimaCore = "0.11.9-0.11"
 CloudMicrophysics = "0.15.2-0.15"
@@ -179,6 +181,16 @@ SurfaceFluxes = "0.9.1-0.9"
 
 ["0.20.1-0"]
 NCDatasets = ["0.13.1-0.13", "0.14.1"]
+
+["0.21-0"]
+Adapt = "3.7.0-3"
+CLIMAParameters = "0.9"
+ClimaCore = "0.12"
+CloudMicrophysics = "0.16"
+Insolation = "0.9.1"
+RRTMGP = "0.12"
+SurfaceFluxes = "0.9"
+Thermodynamics = "0.12"
 
 ["0.3"]
 StochasticDiffEq = "6.41.0-6"
