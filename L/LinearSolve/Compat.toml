@@ -201,7 +201,6 @@ DocStringExtensions = "0.9.3-0.9"
 EnumX = "1.0.4-1"
 GPUArraysCore = "0.1.6-0.1"
 InteractiveUtils = "1.10.0-1"
-KLU = "0.5"
 Libdl = "1.10.0-1"
 LinearAlgebra = "1.10.0-1"
 PrecompileTools = "1.2.0-1"
@@ -213,10 +212,16 @@ julia = "1.10.0-1"
 ["2.23-2.24"]
 SciMLBase = "2.23.0-2"
 
+["2.23-2.25"]
+KLU = "0.5"
+
 ["2.25-2"]
 ChainRulesCore = "1.22.0-1"
 Markdown = "1.10.0-1"
 SciMLBase = "2.26.3-2"
+
+["2.26-2"]
+KLU = "0.6"
 
 ["2.3-2.16"]
 FastLapackInterface = "1-2"
