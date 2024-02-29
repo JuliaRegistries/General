@@ -1,10 +1,15 @@
 [0]
-Adapt = "3"
 KernelAbstractions = "0.9"
 LightGraphs = "1"
 Metis = "1"
 julia = "1.9.0-1"
 
+["0-0.2.1"]
+Adapt = "3"
+
 ["0.2-0"]
 LinearAlgebra = "1.9.0-1"
 SparseArrays = "1.9.0-1"
+
+["0.2.2-0"]
+Adapt = "3-4"
