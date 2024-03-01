@@ -42,9 +42,6 @@ Singular = "0.14"
 AbstractAlgebra = "0.27.6-0.27"
 Hecke = "0.15.4-0.15"
 
-["0.11.1-0"]
-DocStringExtensions = "0.8-0.9"
-
 ["0.11.1-0.11"]
 AbstractAlgebra = "0.27.7-0.27"
 GAP = "0.9"
@@ -52,6 +49,9 @@ Nemo = "0.32.5-0.32"
 
 ["0.11.1-0.11.2"]
 Hecke = "0.16.2-0.16"
+
+["0.11.1-1"]
+DocStringExtensions = "0.8-0.9"
 
 ["0.11.3-0.11"]
 Hecke = "0.17.4-0.17"
@@ -70,15 +70,15 @@ Hecke = "0.18.8-0.18"
 Nemo = "0.33.7-0.33"
 Singular = "0.17-0.18"
 
-["0.12.1-0"]
-TOPCOM_jll = "0.17.8-0.17"
-cohomCalg_jll = "0.32"
-
 ["0.12.1-0.12"]
 AbstractAlgebra = "0.30.7-0.30"
 Hecke = "0.18.13-0.18"
 Nemo = "0.34.3-0.34"
 Singular = "0.18.2-0.18"
+
+["0.12.1-1"]
+TOPCOM_jll = "0.17.8-0.17"
+cohomCalg_jll = "0.32"
 
 ["0.13"]
 AbstractAlgebra = "0.31.1-0.31"
@@ -92,17 +92,19 @@ Singular = "0.18.10-0.18"
 ["0.14-0"]
 AbstractAlgebra = "0.35.2-0.35"
 AlgebraicSolving = "0.4.6-0.4"
-Distributed = "1.6.0-1"
 GAP = "0.10"
 Hecke = "0.24"
+Nemo = "0.39.1-0.39"
+Polymake = "0.11.8-0.11"
+Singular = "0.21.2-0.21"
+
+["0.14-1"]
+Distributed = "1.6.0-1"
 JSON3 = "1.13.2-1"
 LazyArtifacts = "1.6.0-1"
-Nemo = "0.39.1-0.39"
 Pkg = "1.6.0-1"
-Polymake = "0.11.8-0.11"
 Random = "1.6.0-1"
 Serialization = "1.6.0-1"
-Singular = "0.21.2-0.21"
 UUIDs = "1.6.0-1"
 
 ["0.3"]
@@ -135,12 +137,12 @@ Hecke = "0.9.3-0.9"
 Nemo = "0.20"
 Singular = "0.4.5-0.4"
 
-["0.5.1-0"]
-RandomExtensions = "0.4.3-0.4"
-
 ["0.5.1-0.5"]
 GAP = "0.5"
 Polymake = "0.5.5-0.5"
+
+["0.5.1-1"]
+RandomExtensions = "0.4.3-0.4"
 
 ["0.5.2-0.5"]
 AbstractAlgebra = "0.16"
@@ -161,11 +163,11 @@ GAP = "0.7.2-0.7"
 Polymake = "0.6"
 Singular = "0.9"
 
-["0.7-0"]
-julia = "1.6.0-1"
-
 ["0.7-0.8.1"]
 msolve_jll = "0.1.7-0.1"
+
+["0.7-1"]
+julia = "1.6.0-1"
 
 ["0.7.0"]
 AbstractAlgebra = "0.22.2-0.22"
@@ -199,9 +201,6 @@ GAP = "0.7.7-0.7"
 ["0.8.1-0.9"]
 Polymake = "0.7.1-0.7"
 
-["0.8.2-0"]
-Preferences = "1"
-
 ["0.8.2-0.10.0"]
 msolve_jll = "0.2.3-0.2"
 
@@ -210,12 +209,12 @@ AbstractAlgebra = "0.25"
 Hecke = "0.13"
 Nemo = "0.30"
 
+["0.8.2-1"]
+Preferences = "1"
+
 ["0.9"]
 GAP = "0.8"
 Hecke = "0.14.1-0.14"
-
-["0.9-0"]
-JSON = "0.20-0.21"
 
 ["0.9-0.10.0"]
 AbstractAlgebra = "0.26"
@@ -224,3 +223,15 @@ Singular = "0.10.2-0.10"
 
 ["0.9-0.13"]
 RecipesBase = "1.2.1-1"
+
+["0.9-1"]
+JSON = "0.20-0.21"
+
+[1]
+AbstractAlgebra = "0.40.1-0.40"
+AlgebraicSolving = "0.4.11-0.4"
+GAP = "0.10.2-0.10"
+Hecke = "0.30"
+Nemo = "0.43"
+Polymake = "0.11.14-0.11"
+Singular = "0.22.4-0.22"

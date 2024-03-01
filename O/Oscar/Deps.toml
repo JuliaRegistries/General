@@ -1,57 +1,57 @@
-[0]
-AbstractAlgebra = "c3fe647b-3220-5bb0-a1ea-a7954cac585d"
-Hecke = "3e1990a7-5d81-5526-99ce-9ba3ff248f21"
-Nemo = "2edaba10-b0f1-5616-af89-8c11ac63239a"
-Polymake = "d720cf60-89b5-51f5-aff5-213f193123e7"
-Singular = "bcd08a7b-43d2-5ff7-b6d4-c458787f915c"
-
 ["0-0.11"]
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 
 ["0-0.12.0"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.11-0"]
+[0-1]
+AbstractAlgebra = "c3fe647b-3220-5bb0-a1ea-a7954cac585d"
+Hecke = "3e1990a7-5d81-5526-99ce-9ba3ff248f21"
+Nemo = "2edaba10-b0f1-5616-af89-8c11ac63239a"
+Polymake = "d720cf60-89b5-51f5-aff5-213f193123e7"
+Singular = "bcd08a7b-43d2-5ff7-b6d4-c458787f915c"
+
+["0.11-1"]
 AlgebraicSolving = "66b61cbe-0446-4d5d-9090-1ff510639f9d"
 
-["0.13-0"]
+["0.13-1"]
 LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 
-["0.14-0"]
+["0.14-1"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 
-["0.3-0"]
+["0.3-1"]
 GAP = "c863536a-3901-11e9-33e7-d5cd0df7b904"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 ["0.4-0.6"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["0.5-0"]
+["0.5-1"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 
 ["0.5.1"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
-["0.5.1-0"]
+["0.5.1-1"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 RandomExtensions = "fb686558-2515-59ef-acaa-46db3789a887"
 
 ["0.7-0.10"]
 msolve_jll = "6d01cc9a-e8f6-580e-8c54-544227e08205"
 
-["0.8.1-0"]
+["0.8.1-1"]
 cohomCalg_jll = "5558cf25-a90e-53b0-b813-cadaa3ae7ade"
 
-["0.8.2-0"]
+["0.8.2-1"]
 Preferences = "21216c6a-2e73-6563-6e65-726566657250"
-
-["0.9-0"]
-JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-TOPCOM_jll = "36f60fef-b880-50dc-9289-4aaecee93cc3"
-UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
 ["0.9-0.13"]
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+
+["0.9-1"]
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+TOPCOM_jll = "36f60fef-b880-50dc-9289-4aaecee93cc3"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
