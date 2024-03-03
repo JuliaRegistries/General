@@ -3,6 +3,12 @@ JLD2 = "0.4.5-0.4"
 Triangulate = "1"
 
 [0-1]
+julia = "1"
+
+["0-1.1"]
+LoggingExtras = "0.4"
+
+["0-1.7.1"]
 DelimitedFiles = "1"
 FFTW = "1.4.0-1"
 FileIO = "1.8.0-1"
@@ -14,13 +20,6 @@ Reexport = "1"
 StaticArrays = "1.1.0-1"
 Statistics = "1"
 Unitful = "1.7.0-1"
-julia = "1"
-
-["0-1.1"]
-LoggingExtras = "0.4"
-
-["0.1.4-1"]
-JLD2 = "0.4.11-0.4"
 
 ["0.1.4-1.1.1"]
 PkgVersion = "0.1.1-0.1"
@@ -28,12 +27,11 @@ PkgVersion = "0.1.1-0.1"
 ["0.1.4-1.1.2"]
 Triangulate = "1-2"
 
+["0.1.4-1.7.1"]
+JLD2 = "0.4.11-0.4"
+
 ["0.1.6-0.1.8"]
 PyPlot = "2.10.0-2"
-
-[1]
-GeoInterface = "1.0.1-1"
-LibGEOS = "0.7.2-0.7"
 
 ["1-1.1.1"]
 LoopVectorization = "0.12.122-0.12"
@@ -42,17 +40,44 @@ PolygonOps = "0.1.2-0.1"
 ["1-1.6.0"]
 SnoopPrecompile = "1"
 
-["1.1.2-1"]
+["1-1.7.1"]
+GeoInterface = "1.0.1-1"
+LibGEOS = "0.7.2-0.7"
+
+["1.1.2-1.7.1"]
 LoopVectorization = "0.12"
 PkgVersion = "0.3"
 PolygonOps = "0.1"
 
-["1.1.3-1"]
+["1.1.3-1.7.1"]
 Triangulate = "2.2.0-2"
 
 ["1.2-1"]
-LoggingExtras = "1"
 MetalSurfaceImpedance = "1"
 
-["1.6.1-1"]
+["1.2-1.7.1"]
+LoggingExtras = "1"
+
+["1.6.1-1.7.1"]
 PrecompileTools = "1"
+
+["1.7.2-1"]
+FFTW = "1.8.0-1"
+FileIO = "1.16.2-1"
+GeoInterface = "1.3.3-1"
+JLD2 = "0.4.46-0.4"
+LibGEOS = "0.8.6-0.8"
+LoggingExtras = "1.0.3-1"
+LoopVectorization = "0.12.166-0.12"
+NearestNeighbors = "0.4.16-0.4"
+OffsetArrays = "1.13.0-1"
+OhMyThreads = "0.4.6-0.4"
+PkgVersion = "0.3.3-0.3"
+PolygonOps = "0.1.2-0.1"
+PrecompileTools = "1.2.0-1"
+ProgressMeter = "1.9.0-1"
+RecipesBase = "1.3.4-1"
+Reexport = "1.2.2-1"
+StaticArrays = "1.9.2-1"
+Triangulate = "2.3.2-2"
+Unitful = "1.19.0-1"
