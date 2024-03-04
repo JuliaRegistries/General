@@ -20,7 +20,6 @@ DecFP = "1"
 GeometricSolutions = "0.3"
 OffsetArrays = "1"
 Reexport = "1"
-julia = "1.6.0-1"
 
 ["0.10-0.11"]
 GeometricBase = "0.4"
@@ -31,6 +30,9 @@ RungeKutta = "0.3"
 ["0.10-0.12"]
 Documenter = "0.25-0.27"
 HDF5 = "0.15-0.16"
+
+["0.10-0.13.2"]
+julia = "1.6.0-1"
 
 ["0.11-0.11.1"]
 GeometricEquations = "0.8"
@@ -63,10 +65,17 @@ GeometricEquations = "0.12"
 
 ["0.13-0"]
 Documenter = ["0.25-0.27", "1"]
-GeometricBase = "0.9"
-GeometricEquations = "0.14"
 HDF5 = "0.15-0.17"
 StaticArrays = "1"
+
+["0.13-0.13.2"]
+GeometricBase = "0.9"
+GeometricEquations = "0.14"
+
+["0.13.3-0"]
+GeometricBase = "0.10"
+GeometricEquations = "0.16"
+julia = "1.8.0-1"
 
 ["0.2"]
 DecFP = "0.4.7-0.4"
