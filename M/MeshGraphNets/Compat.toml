@@ -4,7 +4,6 @@ ChainRulesCore = "1.16.0-1.18"
 DataFrames = "1.6.0-1"
 DifferentialEquations = "7.11.0-7"
 Distributions = "0.25"
-GraphNetCore = "0.1"
 HDF5 = "0.17"
 JLD2 = "0.4"
 JSON = "0.21"
@@ -22,3 +21,10 @@ TFRecord = "0.4.2-0.4"
 Zygote = "0.6"
 cuDNN = "1.1.1-1"
 julia = "1.9.0-1"
+
+["0-0.1"]
+GraphNetCore = "0.1"
+
+["0.2-0"]
+GraphNetCore = "0.2"
+Wandb = "0.5"
