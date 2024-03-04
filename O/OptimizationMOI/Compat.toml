@@ -29,8 +29,10 @@ Reexport = "1.2.0-1"
 Optimization = "3.9.0-3"
 
 ["0.2-0"]
-ModelingToolkit = "8.74.0-8"
 SymbolicIndexingInterface = "0.3"
+
+["0.2-0.4.0"]
+ModelingToolkit = "8.74.0-8"
 
 ["0.3-0"]
 Optimization = "3.21.0-3"
@@ -38,3 +40,7 @@ Optimization = "3.21.0-3"
 ["0.4-0"]
 SparseArrays = "1.6.0-1"
 julia = "1.6.0-1"
+
+["0.4.1-0"]
+ModelingToolkit = "9"
+SciMLStructures = "1"
