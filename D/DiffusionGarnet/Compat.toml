@@ -1,6 +1,5 @@
 [0]
 DiffEqBase = "6"
-DiffEqCallbacks = "2"
 Documenter = "1"
 OrdinaryDiffEq = "6"
 Parameters = "0.12"
@@ -22,6 +21,9 @@ BenchmarkTools = "1"
 Requires = "1"
 Symbolics = "5"
 
+["0-0.1.5"]
+DiffEqCallbacks = "2"
+
 ["0.0.2-0"]
 CUDA = "3-5"
 HDF5 = "0.17"
@@ -32,5 +34,12 @@ julia = "1.9.0-1"
 
 ["0.1-0"]
 JLD2 = "0.4"
+
+["0.1-0.1.5"]
 ParallelStencil = "0.8-0.10"
 julia = "1.8.0-1"
+
+["0.1.6-0"]
+DiffEqCallbacks = "2-3"
+ParallelStencil = "0.8-0.11"
+julia = "1.9.0-1"
