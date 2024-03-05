@@ -96,15 +96,17 @@ CUDA = ["3", "4.2.0-4"]
 ["0.10.53-0"]
 BandedMatrices = ["0.17", "1"]
 
-["0.10.54-0"]
+["0.10.54-0.12"]
 CUDA = "4.2.0-5"
 
 ["0.10.56-0"]
-ClimaComms = "0.5.6-0.5"
 InteractiveUtils = "1"
 LinearAlgebra = "1"
 SparseArrays = "1"
 Statistics = "1"
+
+["0.10.56-0.12"]
+ClimaComms = "0.5.6-0.5"
 
 ["0.10.6-0"]
 DocStringExtensions = "0.8-0.9"
@@ -134,6 +136,10 @@ Unrolled = "0.1"
 ["0.11.7-0"]
 Adapt = "3-4"
 RecursiveArrayTools = "2-3"
+
+["0.13-0"]
+CUDA = "5"
+ClimaComms = "0.5.7-0.5"
 
 ["0.4-0.10.47"]
 DiffEqBase = "6.75.0-6"
