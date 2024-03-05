@@ -35,6 +35,11 @@ CSV = "0.8-0.9"
 NNlib = "0.8-0.9"
 cuDNN = "1"
 
+["0.2.11-0"]
+OptimizationFlux = "0.1-0.2"
+OptimizationOptimJL = "0.1-0.2"
+OptimizationPolyalgorithms = "0.1-0.2"
+
 ["0.2.2-0"]
 CSV = "0.8-0.10"
 DocStringExtensions = "0.8-0.9"
@@ -45,11 +50,13 @@ Flux = "0.12-0.13"
 ["0.2.5-0"]
 ForwardDiff = "0.10"
 Optimization = "3"
+Zygote = "0.6"
+ZygoteRules = "0.2"
+
+["0.2.5-0.2.10"]
 OptimizationFlux = "0.1"
 OptimizationOptimJL = "0.1"
 OptimizationPolyalgorithms = "0.1"
-Zygote = "0.6"
-ZygoteRules = "0.2"
 
 ["0.2.5-0.2.8"]
 Flux = "0.13"
