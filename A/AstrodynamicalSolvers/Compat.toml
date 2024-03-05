@@ -1,6 +1,5 @@
 [0]
 DocStringExtensions = "0.9"
-ModelingToolkit = "8.69.0-8"
 OrdinaryDiffEq = "6.55.0-6"
 Reexport = "1"
 StaticArrays = "1.6.0-1"
@@ -13,6 +12,9 @@ AstrodynamicalCalculations = "0.2.1-0.2"
 
 ["0-0.2"]
 julia = "1.6.0-1"
+
+["0-0.4"]
+ModelingToolkit = "8.69.0-8"
 
 ["0.1.1-0.2"]
 AstrodynamicalCalculations = "0.3"
@@ -27,6 +29,12 @@ AstrodynamicalModels = "3.2.0-3"
 ["0.3-0"]
 julia = "1.7.0-1"
 
+["0.4"]
+AstrodynamicalModels = "3.3.0-3"
+
 ["0.4-0"]
 AstrodynamicalCalculations = "0.5.1-0.5"
-AstrodynamicalModels = "3.3.0-3"
+
+["0.5-0"]
+AstrodynamicalModels = "3.7.0-3"
+ModelingToolkit = "9"
