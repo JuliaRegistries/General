@@ -3,7 +3,6 @@ CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LabelledArrays = "2ee39098-c373-598a-b85f-a56591580800"
@@ -13,10 +12,16 @@ NodeJS = "2bd173c7-0d6d-553b-b6af-13a54713934c"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
-RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
 XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
 
+["0-0.4"]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
+
 ["0.4.5-0"]
 NaNMath = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
+
+["0.5-0"]
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
