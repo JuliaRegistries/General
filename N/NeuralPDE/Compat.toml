@@ -279,6 +279,9 @@ OptimizationOptimisers = "0.1"
 LinearAlgebra = "1"
 Random = "1"
 
+["5.12"]
+DomainSets = "0.6"
+
 ["5.12-5"]
 Adapt = "4"
 AdvancedHMC = "0.6"
@@ -286,9 +289,11 @@ ArrayInterface = "7"
 ComponentArrays = "0.15"
 Distributions = "0.25"
 DocStringExtensions = "0.9"
-DomainSets = "0.6"
 Lux = "0.5"
 OptimizationOptimisers = "0.2"
+
+["5.13-5"]
+DomainSets = "0.6-0.7"
 
 ["5.2-5.7"]
 ComponentArrays = "0.13.2-0.13"
