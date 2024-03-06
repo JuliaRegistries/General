@@ -30,7 +30,7 @@ Statistics = "1.9.0-1"
 ["0.11.1-0"]
 TimerOutputs = "0.5"
 
-["0.11.3-0"]
+["0.11.3-0.13"]
 Flux = "0.13-0.14"
 
 ["0.12-0.13.0"]
@@ -41,12 +41,17 @@ GPUArrays = "8"
 
 ["0.13.1-0"]
 Adapt = "3-4"
-CUDA = "4-5"
 CircularArrayBuffers = "0.1.12-0.1"
 GPUArrays = "8-10"
 ReinforcementLearningTrajectories = "0.3.7-0.3"
 Statistics = "1"
+
+["0.13.1-0.13"]
+CUDA = "4-5"
 cuDNN = "1"
+
+["0.14-0"]
+Flux = "0.14"
 
 ["0.2"]
 ReinforcementLearningBase = "0.6"
