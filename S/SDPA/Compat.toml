@@ -38,9 +38,16 @@ MathOptInterface = "0.9.14-0.9"
 MathOptInterface = "0.10"
 
 ["0.4-0"]
-CxxWrap = "0.12"
 MathOptInterface = "1"
 julia = "1.6.0-1"
 
-["0.5-0"]
+["0.4-0.5.0"]
+CxxWrap = "0.12"
+
+["0.5.0"]
 SDPA_jll = "700.300.801"
+
+["0.5.1-0"]
+CxxWrap = "0.14"
+LinearAlgebra = ["0.0.0", "1.6.0-1"]
+SDPA_jll = "700.300.1701"
