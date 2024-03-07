@@ -136,13 +136,15 @@ ReinforcementLearningCore = "0.9"
 StatsBase = "0.33"
 
 ["0.6-0"]
-CUDA = "4"
 ChainRulesCore = "1"
 Distributions = "0.25"
 Functors = "0.2-0.4"
 LogExpFunctions = "0.3"
 Optim = "1"
 Zygote = "0.6"
+
+["0.6-0.8"]
+CUDA = "4"
 
 ["0.6-0.8.0"]
 NNlib = "0.8"
@@ -169,8 +171,15 @@ NNlib = "0.8-0.9"
 ["0.8.2"]
 ReinforcementLearningCore = "0.12"
 
-["0.8.2-0"]
+["0.8.2-0.8"]
 Flux = "0.13-0.14"
 
-["0.8.3-0"]
+["0.8.3-0.8"]
 ReinforcementLearningCore = "0.12-0.13"
+
+["0.9-0"]
+Adapt = "3-4"
+CircularArrayBuffers = "0.1.12-0.1"
+Flux = "0.14"
+MLUtils = "0.4"
+ReinforcementLearningCore = "0.14"
