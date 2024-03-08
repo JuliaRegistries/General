@@ -235,9 +235,15 @@ MLJFlow = "0.2"
 ["0.20.1-0"]
 MLJBalancing = "0.1"
 
-["0.20.2-0"]
+["0.20.2"]
 MLJFlow = "0.3"
 Statistics = "1"
+
+["0.20.3-0"]
+MLJFlow = "0.4"
+Pkg = ["0.0.0", "1"]
+Random = ["0.0.0", "1"]
+Statistics = ["0.0.0", "1"]
 
 ["0.3"]
 MLJBase = "0.4"
