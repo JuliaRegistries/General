@@ -30,9 +30,20 @@ MadNLP = "0.5"
 ["0.5"]
 MadNLP = "0.6"
 
-["0.5-0"]
+["0.5-0.6"]
 CUDA = "4"
+
+["0.6"]
+MadNLP = "0.7"
 
 ["0.6-0"]
 KernelAbstractions = "0.9"
-MadNLP = "0.7"
+
+["0.7-0"]
+AMD = "0.5"
+CUDA = "5"
+CUDSS = "0.1"
+CUSOLVERRF = "0.2"
+MadNLP = "0.7-0.8"
+MadNLPTests = "0.5"
+Metis = "1"
