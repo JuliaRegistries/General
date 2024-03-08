@@ -1,10 +1,8 @@
 [4]
 AccessibleOptimization = "0.1.1-0.1"
 Accessors = "0.1"
-BSplineKit = "0.16"
 IntervalSets = "0.7"
 Optimization = "3.15.0-3"
-OptimizationMetaheuristics = "0.1.2-0.1"
 PrecompileTools = "1.1.0-1"
 Reexport = "1.2.0-1"
 StaticArrays = "1.6.0-1"
@@ -17,8 +15,16 @@ Distributions = "0.25"
 FinanceCore = "2"
 OptimizationOptimJL = "0.1.9-0.1"
 
+["4-4.6"]
+BSplineKit = "0.16"
+OptimizationMetaheuristics = "0.1.2-0.1"
+
 ["4.3-4"]
 Dates = "1.6.0-1"
 FinanceCore = "2.1.0-2"
 LinearAlgebra = "1.6.0-1"
 SpecialFunctions = "2"
+
+["4.7-4"]
+BSplineKit = "0.16-0.17"
+OptimizationMetaheuristics = "0.1.2-0.2"
