@@ -14,7 +14,7 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 [1-4]
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 
-[1-5]
+[1-6]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
@@ -22,16 +22,16 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
 Fontconfig = "186bb1d3-e1f7-5a2c-a377-96d770f13627"
 
-["1.1.7-5"]
+["1.1.7-6"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
-["2.2-5"]
+["2.2-6"]
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 [3]
 SQLite = "0aa819cd-b072-5ff4-a722-6bc24af294d9"
 
-[3-5]
+[3-6]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 [4]
@@ -44,31 +44,37 @@ RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 ["4.1-5.14"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["4.2-5"]
+["4.2-6"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
-["4.3-5"]
+["4.3-6"]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 
-["4.4-5"]
+["4.4-6"]
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
 
-[5]
+[5-6]
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 LightOSM = "d1922b25-af4e-4ba3-84af-fe9bea896051"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-["5.15.1-5"]
+["5.15.1-6"]
 CommonSolve = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
 
 ["5.7"]
 StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
 
-["5.8-5"]
+["5.8-6"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[6]
+IteratorSampling = "ef79a3d2-ae9f-5cd2-ab61-e13847810a6e"
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+MixedStructTypes = "3d69f371-6fa5-5add-b11c-3293622cad62"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
