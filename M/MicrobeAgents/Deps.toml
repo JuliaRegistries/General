@@ -1,12 +1,20 @@
 [0]
 Agents = "46ada45e-f475-11e8-01d0-f70cc89e6671"
-AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 CellListMap = "69e1c6dd-3888-40e6-b3c8-31ac5f578864"
-DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.1"]
+AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
+DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
+OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
+Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
+
+["0.2-0"]
+Autocorrelations = "b9118d5e-f165-4cbd-b2ae-b030566b7b26"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+MeanSquaredDisplacement = "13c93d70-909c-440c-af92-39d48ffa2ba2"
+Quaternions = "94ee1d12-ae83-5a48-8b1c-48b8ff168ae0"

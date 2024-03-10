@@ -1,11 +1,20 @@
 [0]
-Agents = "5"
-AxisArrays = "0.4"
 CellListMap = "0.8"
-DSP = "0.7"
 Distributions = "0.25"
 GeometryBasics = "0.4"
-OffsetArrays = "1"
-Rotations = "1"
 StaticArrays = "1"
 julia = "1"
+
+["0-0.1"]
+Agents = "5"
+AxisArrays = "0.4"
+DSP = "0.7"
+OffsetArrays = "1"
+Rotations = "1"
+
+["0.2-0"]
+Agents = "6"
+Autocorrelations = "0.1"
+DataFrames = "1"
+MeanSquaredDisplacement = "0.2"
+Quaternions = "0.7"
