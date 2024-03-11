@@ -179,7 +179,6 @@ SciMLBase = "1.50.0-1"
 Adapt = "1-4"
 
 ["7.52-7"]
-DiffEqBase = "6.145.4-6"
 DiffEqNoiseProcess = "5.19.0-5"
 Distributions = "0.25"
 LinearAlgebra = "1.10.0-1"
@@ -190,7 +189,6 @@ Random = "1.10.0-1"
 RecursiveArrayTools = "3.5.1-3"
 Reexport = "1"
 ReverseDiff = "1.15.1-1"
-SciMLBase = "2.17.1-2"
 SciMLOperators = "0.3"
 Statistics = "1.10.0-1"
 StochasticDiffEq = "6.63.2-6"
@@ -201,8 +199,17 @@ julia = "1.10.0-1"
 ["7.52-7.55"]
 DiffEqCallbacks = "2.34.0-2"
 
-["7.56-7"]
+["7.52-7.56.0"]
+DiffEqBase = "6.145.4-6"
+SciMLBase = "2.17.1-2"
+
+["7.56.0"]
 DiffEqCallbacks = "2.34.0-3"
+
+["7.56.1-7"]
+DiffEqBase = "6.147.1-6"
+DiffEqCallbacks = "3.3.0-3"
+SciMLBase = "2.28.0-2"
 
 ["7.6-7"]
 FunctionWrappersWrappers = "0.1"
