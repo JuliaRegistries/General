@@ -78,7 +78,7 @@ Currently the waiting period is as follows:
 
 ## FAQ
 
-#### Do I need to register a package to install it?
+### Do I need to register a package to install it?
 
 No, you can simply do `using Pkg; Pkg.add(url="https://github.com/JuliaLang/Example.jl")`
 or `] add https://github.com/JuliaLang/Example.jl` in the Pkg REPL mode
@@ -90,7 +90,7 @@ Registering allows the package to be added by `Pkg.add("Example")` or `] add Exa
 in the Pkg REPL mode. This is true if the package is installed in any registry
 you have installed, not just General; you can even create your own registry!
 
-#### Should I register my package now?
+### Should I register my package now?
 
 If your package is at a stage where it might be useful to others, or provide functionality other
 packages in General might want to rely on, go for it!
@@ -121,14 +121,14 @@ for example [LocalRegistry.jl](https://github.com/GunnarFarneback/LocalRegistry.
 if you decide to go this route.
 * "Empty" packages that do not yet have functionality are not ready to be registered.
 
-#### Can my package in this registry depend on unregistered packages?
+### Can my package in this registry depend on unregistered packages?
 
 No. In this registry, your package cannot depend on other packages that are
 unregistered. In addition, your package cannot depend on an unregistered
 version of an otherwise registered package. Both of these scenarios would cause
 this registry to be unreproducible.
 
-#### My pull request was not approved for automatic merging, what do I do?
+### My pull request was not approved for automatic merging, what do I do?
 
 It is recommended that you fix the release to conform to the guidelines and
 then retrigger Registrator on the branch/commit that includes the fix.
@@ -137,7 +137,7 @@ If you for some reason can't (or won't) adhere to the guidelines you will have
 to wait for a human to review/merge the pull request. You can contact a human
 in the `#pkg-registration` channel in the official Julia Slack to expedite this process.
 
-#### My package fails to load because it needs proprietary software/additional setup to work, what can I do?
+### My package fails to load because it needs proprietary software/additional setup to work, what can I do?
 
 Before merging a pull request, AutoMerge will check that your package can be installed and
 loaded.  It is OK for your package to not be fully functional, but making it at least load
@@ -153,17 +153,17 @@ packages with proprietary software that use the environment variable check inclu
 [`Gurobi.jl`](https://github.com/jump-dev/Gurobi.jl) and
 [`CPLEX.jl`](https://github.com/jump-dev/CPLEX.jl).
 
-#### My pull request has a merge conflict, what do I do?
+### My pull request has a merge conflict, what do I do?
 
 Retrigger Registrator.
 
-#### How do I retrigger Registrator in order to update my pull request?
+### How do I retrigger Registrator in order to update my pull request?
 
 Do what you did when you triggered Registrator the first time.
 
 For more details, please see the [Registrator.jl README](https://github.com/JuliaRegistries/Registrator.jl/blob/master/README.md).
 
-#### I commented `@JuliaRegistrator register` on a pull request in the General registry, but nothing happened.
+### I commented `@JuliaRegistrator register` on a pull request in the General registry, but nothing happened.
 
 If you want to retrigger Registrator by using the Registrator comment-bot,
 you need to post the `@JuliaRegistrator register` comment on a commit in
@@ -171,19 +171,19 @@ you need to post the `@JuliaRegistrator register` comment on a commit in
 any comments of the form `@JuliaRegistrator ...` in the `JuliaRegistries/General`
 repository.
 
-#### AutoMerge is blocked by one of my comments, how do I unblock it?
+### AutoMerge is blocked by one of my comments, how do I unblock it?
 
 Simply edit `[noblock]` into all your comments. AutoMerge periodically
 checks each PR, and if there are no blocking comments when it checks
 (i.e. all comments have `[noblock]` present), it will continue to merge
 (assuming of course that all of its other checks have passed).
 
-#### Are there any requirements for package names in the General registry?
+### Are there any requirements for package names in the General registry?
 
 There are no hard requirements, but it is *highly recommended* to follow
 the [package naming guidelines][naming-guidelines].
 
-#### What to do when asked to reconsider/update the package name?
+### What to do when asked to reconsider/update the package name?
 
 If someone comments on the name of your package when you first release it it is often
 because it does not follow the [naming guidelines][naming-guidelines]. If you think that
@@ -204,7 +204,7 @@ As long as the package is not yet registered, renaming the package from
   This will make a new pull request to General. It is helpful to comment
   in the old pull request that it can be closed, linking to the new one.
 
-#### How do I rename an existing registered package?
+### How do I rename an existing registered package?
 
 Technically, you can't rename a package once registered, as this would break existing users.
 But you can re-register the package again under a new name with a new UUID, which basically
@@ -225,7 +225,7 @@ has the same effect.
 You also should let your users know about the rename, e.g. by placing a note in the README,
 or opening PRs/issues on downstream packages to change over.
 
-#### How do I transfer a package to an organization or another user?
+### How do I transfer a package to an organization or another user?
 
  - Use the [GitHub transfer option][github-transfer] in the settings.
  - Manually, in the General edit the repo URL in package's `Package.toml` file (e.g [E/Example/Package.toml](https://github.com/JuliaRegistries/General/blob/master/E/Example/Package.toml#L3))
@@ -234,7 +234,7 @@ Technically if you skip the second step things will keep working, because GitHub
 but it is best practice. For this reason, when you try to register a new release, the Julia
 Registrator will complain if the second step is skipped.
 
-#### How do I transfer a package to General from another registry?
+### How do I transfer a package to General from another registry?
 
 You can simply register your next release in General (and don't change the package's name or UUID!).
 This will be treated as a new package registration in General and be subject to the usual 3-day waiting period.
@@ -242,17 +242,16 @@ Once registered, Pkg.jl will look at all the versions from all registries it kno
 mechanism to figure out what version to resolve to as usual, regardless if some versions are in different registries
 from others.
 
-#### Where do I report a problem with a package in the General registry?
+### Where do I report a problem with a package in the General registry?
 
 Report it to the package repository.
 
-#### How do I remove a package or version from the registry?
+### How do I remove a package or version from the registry?
 
 You can't. Package registrations are **permanent**. A version can not be overwritten in the
 registry, and code cannot be deleted.
 
-#### Can my package be registered without an [OSI approved license](https://opensource.org/licenses)?
-
+### Can my package be registered without an [OSI approved license](https://opensource.org/licenses)?
 
 No, sorry. The registry is maintained by volunteers, and we don't have a legal team who can thoroughly review licenses.
 It is very easy to accidentally wander into legally murky territory when combining common OSI licenses[^1] like GPL
@@ -262,7 +261,7 @@ See [these](https://github.com/JuliaRegistries/General/pull/31549#issuecomment-7
 [^1]: Note that even within the world of OSI licenses, there are combinations of OSI licenses which are not
 legal to use together, such as GPL2 with Apache2.
 
-#### Can my package registration PR be merged early?
+### Can my package registration PR be merged early?
 
 New packages must typically wait for the 3 day timer to expire before they are merged, either automatically by the bot or manually. 
 This waiting period allows time for community comment and review, and to provide time to check things like:
@@ -275,11 +274,22 @@ This waiting period allows time for community comment and review, and to provide
 If there is some urgent need for the package to be registered (for example, an upcoming talk featuring the package or other external deadline), the waiting period can be expedited by request made in the [#pkg-registration](https://julialang.slack.com/archives/C6M4DQA5P) channel on the 
 public Julia Language Slack, or directly on the PR itself. This request should include a link to the registration PR and why an expedited merge is needed. In this case, a registry maintainer (see below) can manually review the package (often with stricter standards than the typical package faces, given the lack of bandwidth to review all packages thoroughly).
 
-#### Who can approve an early merge?
+### Who can approve an early merge?
 
 Any registry maintainer may merge a package registration PR early.
 Early merges should still be discussed on the [#pkg-registration](https://julialang.slack.com/archives/C6M4DQA5P) slack channel before merging.
 Registry maintainers are discouraged from merging packages they directly *or* indirectly maintain as mentioned in [CONTRIBUTING.md](https://github.com/JuliaRegistries/General/blob/master/CONTRIBUTING.md#other-ways-to-help).
+
+### When is yanking a release appropriate?
+
+Releases that have already merged can be marked as "yanked" by adding `yanked = true` under the release entry in `Versions.toml`. This will mean 
+that Pkg will no longer consider them to exist and not resolve those versions, but that version cannot be re-registed in General. Yanking should 
+only be used when either:
+1) adding a standard patch release will not resolve the issue i.e. say `v2.10.0` was released using a feature not on julia `v1.6` but the compat entry for julia
+was not raised in the release. In this case releasing a `v2.10.1` with the corrected julia compat would not solve the issue as on julia v1.6 Pkg would still
+resolve the broken `v2.10.0`, and as a minor bump, reverting the code changes would not be valid in a patch bump.
+3) there are security issues with the release
+
 
 ## Registry maintenance
 
