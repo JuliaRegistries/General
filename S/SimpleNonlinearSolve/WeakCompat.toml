@@ -10,6 +10,15 @@ StaticArrays = "1"
 ["1.3.2-1.4"]
 ChainRulesCore = "1"
 
-["1.5-1"]
+["1.5"]
 ChainRulesCore = "1.21.0-1"
+
+["1.5-1"]
 StaticArrays = "1.9.0-1"
+
+["1.6-1"]
+ChainRulesCore = "1.22.0-1"
+PolyesterForwardDiff = "0.1.1-0.1"
+ReverseDiff = "1.15.0-1"
+Tracker = "0.2.32-0.2"
+Zygote = "0.6.69-0.6"
