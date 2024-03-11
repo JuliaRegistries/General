@@ -288,8 +288,9 @@ only be used when either:
 1) adding a standard patch release will not resolve the issue i.e. say `v2.10.0` was released using a feature not on julia `v1.6` but the compat entry for julia
 was not raised in the release. In this case releasing a `v2.10.1` with the corrected julia compat would not solve the issue as on julia v1.6 Pkg would still
 resolve the broken `v2.10.0`, and as a minor bump, reverting the code changes would not be valid in a patch bump.
-3) there are security issues with the release
+2) there are security issues with the release
 
+If yanking is urgent, open a PR and raise it on the `#pkg-registration` slack channel
 
 ## Registry maintenance
 
