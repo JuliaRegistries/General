@@ -283,12 +283,15 @@ Registry maintainers are discouraged from merging packages they directly *or* in
 ### When is yanking a release appropriate?
 
 Releases that have already merged can be marked as "yanked" by adding `yanked = true` under the release entry in `Versions.toml`. This will mean 
-that Pkg will no longer consider them to exist and not resolve those versions, but that version cannot be re-registed in General. Yanking should 
-only be used when either:
-1) adding a standard patch release will not resolve the issue i.e. say `v2.10.0` was released using a feature not on julia `v1.6` but the compat entry for julia
+that Pkg will no longer consider them to exist and not resolve those versions, but that version cannot be re-registed in General. 
+
+The primary reason yanking exists is to make a release impossible to install.
+This is intended to be used for circumstances when having this release installed poses a risk to security or safety.
+It is not intended for avoiding people installing releases with bugs, for that use a patch release -- potentially after doing nothing more than revert. All patch releases prior to the most recent have known bugs by definition.
+
+There is however, a special category of bugged releases that can not be resolved by having a patch release. These also need to be resolved by yanking. That special category is when the compat bounds have been set too wide.    i.e. say `v2.10.0` was released using a feature not on julia `v1.6` but the compat entry for julia
 was not raised in the release. In this case releasing a `v2.10.1` with the corrected julia compat would not solve the issue as on julia v1.6 Pkg would still
 resolve the broken `v2.10.0`, and as a minor bump, reverting the code changes would not be valid in a patch bump.
-2) there are security issues with the release
 
 If yanking is urgent, open a PR and raise it on the `#pkg-registration` slack channel
 
