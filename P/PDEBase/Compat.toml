@@ -1,12 +1,18 @@
 [0]
 DomainSets = "0.5-0.6"
-ModelingToolkit = "8"
 SymbolicUtils = "1"
 Symbolics = "5"
-julia = "1.6.0-1"
 
 ["0-0.1.4"]
 SciMLBase = "1.91.0-1"
 
+["0-0.1.8"]
+ModelingToolkit = "8"
+julia = "1.6.0-1"
+
 ["0.1.5-0"]
 SciMLBase = "1.94.0-2"
+
+["0.1.9-0"]
+ModelingToolkit = "9"
+julia = "1"
