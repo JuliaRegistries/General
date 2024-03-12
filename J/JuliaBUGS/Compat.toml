@@ -3,7 +3,6 @@ BangBang = "0.3"
 Bijectors = "0.13"
 Distributions = "0.23.8-0.25"
 Graphs = "1.4.1-1"
-InverseFunctions = "0.1"
 JuliaSyntax = "0.4"
 LogDensityProblems = "2"
 LogDensityProblemsAD = "1.6.0-1"
@@ -23,6 +22,9 @@ MetaGraphsNext = "0.5"
 Statistics = "1.8.0-1"
 julia = "1.8.0-1"
 
+["0-0.3"]
+InverseFunctions = "0.1"
+
 ["0.2-0"]
 PDMats = "0.10-0.11"
 
@@ -38,3 +40,6 @@ Statistics = "1.9.0-1"
 AbstractMCMC = "5"
 AbstractPPL = "0.6-0.7"
 DynamicPPL = "0.22-0.24"
+
+["0.4-0"]
+StaticArrays = "1.9.0-1"
