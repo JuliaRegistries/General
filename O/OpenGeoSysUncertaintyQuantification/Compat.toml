@@ -5,10 +5,19 @@ DistributedMonteCarlo = "0.1.1-0.1"
 DistributedSparseGrids = "0.1.8-0.1"
 Distributions = "0.25"
 LinearAlgebra = "1"
-Ogs6InputFileHandler = "0.0.2"
 StaticArrays = "1.4.4-1"
 Test = "1"
 VTUFileHandler = "1"
-XDMFFileHandler = "0.1.1-0.1"
 XMLParser = "0.2.1-0.2"
 julia = "1"
+
+["0-0.1.0"]
+Ogs6InputFileHandler = "0.0.2"
+XDMFFileHandler = "0.1.1-0.1"
+
+["0.1.1-0"]
+Format = "1"
+Ogs6InputFileHandler = "0.0.3"
+PGFPlotsX = "1"
+PrettyTables = "2"
+XDMFFileHandler = "0.1.2-0.1"
