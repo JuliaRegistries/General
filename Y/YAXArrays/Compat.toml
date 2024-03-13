@@ -50,12 +50,14 @@ DataFrames = ["0.19-0.22", "1"]
 YAXArrayBase = "0.3"
 
 ["0.2-0"]
-DiskArrays = "0.3"
 OrderedCollections = "1"
 ParallelUtilities = "0.8"
 
 ["0.2-0.4.1"]
 DocStringExtensions = "0.8"
+
+["0.2-0.5.3"]
+DiskArrays = "0.3"
 
 ["0.2.1-0.4.1"]
 IntervalSets = "0.3-0.6"
@@ -87,8 +89,12 @@ DimensionalData = "0.24"
 ["0.5.1-0"]
 StatsBase = "0.32-0.34"
 
-["0.5.2-0"]
+["0.5.2-0.5.3"]
 DimensionalData = "0.24-0.25"
 
 ["0.5.3-0"]
 Interpolations = "0.12-0.15"
+
+["0.5.4-0"]
+DimensionalData = "0.24-0.26"
+DiskArrays = "0.3-0.4"
