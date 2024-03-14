@@ -107,7 +107,6 @@ StatsBase = "0.33-0.34"
 
 ["0.16.3-0"]
 Artifacts = "1"
-ClimaTimeSteppers = "0.7.14-0.7"
 Dates = "1"
 FastGaussQuadrature = ["0.4-0.5", "1"]
 LinearAlgebra = "1"
@@ -130,8 +129,8 @@ Test = "1"
 CloudMicrophysics = "0.15"
 SurfaceFluxes = "0.8"
 
-["0.17-0"]
-ClimaComms = "0.5.6-0.5"
+["0.16.3-0.21"]
+ClimaTimeSteppers = "0.7.14-0.7"
 
 ["0.17-0.18"]
 NCDatasets = "0.11-0.13"
@@ -140,6 +139,9 @@ NCDatasets = "0.11-0.13"
 CLIMAParameters = "0.7.25-0.7"
 Insolation = "0.8"
 RRTMGP = "0.10"
+
+["0.17-0.21"]
+ClimaComms = "0.5.6-0.5"
 
 ["0.17.0"]
 ClimaCore = "0.11"
@@ -182,7 +184,7 @@ SurfaceFluxes = "0.9.1-0.9"
 ["0.20.1-0"]
 NCDatasets = ["0.13.1-0.13", "0.14.1"]
 
-["0.21-0"]
+["0.21"]
 Adapt = "3.7.0-3"
 CLIMAParameters = "0.9"
 ClimaCore = "0.12"
@@ -191,6 +193,18 @@ Insolation = "0.9.1"
 RRTMGP = "0.12"
 SurfaceFluxes = "0.9"
 Thermodynamics = "0.12"
+
+["0.22-0"]
+Adapt = "4"
+ClimaComms = "0.5"
+ClimaCore = "0.13"
+ClimaParams = "0.10"
+ClimaTimeSteppers = "0.7.18-0.7"
+CloudMicrophysics = "0.18"
+Insolation = "0.9.2-0.9"
+RRTMGP = "0.13.1-0.13"
+SurfaceFluxes = "0.11"
+Thermodynamics = "0.12.4-0.12"
 
 ["0.3"]
 StochasticDiffEq = "6.41.0-6"
