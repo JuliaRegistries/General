@@ -1,16 +1,25 @@
 [0]
 DataStructures = "0.17-0.18"
 HerbConstraints = "0.1"
-HerbGrammar = "0.1"
 StatsBase = "0.34"
 julia = "1.8.0-1"
+
+["0-0.1"]
+HerbGrammar = "0.1"
 
 ["0-0.1.0"]
 HerbCore = "0.1"
 HerbData = "0.1"
 HerbEvaluation = "0.1"
 
-["0.1.1-0"]
+["0.1.1-0.1"]
 HerbCore = "0.1.1-0.1"
 HerbData = "0.1.1-0.1"
 HerbInterpret = "0.1"
+
+["0.2-0"]
+HerbCore = "0.2"
+HerbGrammar = "0.2"
+HerbInterpret = "0.1.1-0.1"
+HerbSpecification = "0.1"
+MLStyle = "0.4.17-0.4"
