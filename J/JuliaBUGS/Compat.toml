@@ -2,15 +2,10 @@
 BangBang = "0.3"
 Bijectors = "0.13"
 Distributions = "0.23.8-0.25"
-Graphs = "1.4.1-1"
 JuliaSyntax = "0.4"
 LogDensityProblems = "2"
-LogDensityProblemsAD = "1.6.0-1"
 LogExpFunctions = "0.3"
-MacroTools = "0.5.6-0.5"
-Setfield = ["0.7.1-0.8", "1"]
 SpecialFunctions = "2"
-UnPack = "1"
 
 ["0-0.2"]
 AbstractPPL = "0.6"
@@ -25,16 +20,25 @@ julia = "1.8.0-1"
 ["0-0.3"]
 InverseFunctions = "0.1"
 
+["0-0.4"]
+Graphs = "1.4.1-1"
+LogDensityProblemsAD = "1.6.0-1"
+MacroTools = "0.5.6-0.5"
+Setfield = ["0.7.1-0.8", "1"]
+UnPack = "1"
+
 ["0.2-0"]
 PDMats = "0.10-0.11"
 
 ["0.2.4-0"]
 Documenter = ["0.27", "1"]
-MetaGraphsNext = "0.5-0.6"
 julia = "1.9.0-1"
 
 ["0.2.4-0.2"]
 Statistics = "1.9.0-1"
+
+["0.2.4-0.4"]
+MetaGraphsNext = "0.5-0.6"
 
 ["0.3-0"]
 AbstractMCMC = "5"
@@ -43,3 +47,10 @@ DynamicPPL = "0.22-0.24"
 
 ["0.4-0"]
 StaticArrays = "1.9.0-1"
+
+["0.5-0"]
+Graphs = "1"
+LogDensityProblemsAD = "1"
+MacroTools = "0.5"
+MetaGraphsNext = "0.6-0.7"
+Statistics = "1.9.0-1"
