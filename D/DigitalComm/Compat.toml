@@ -15,19 +15,24 @@ FFTW = "1"
 ["1.0.1"]
 FFTW = ["0.3", "1"]
 
-["1.0.2-1"]
-Parameters = "0.10-0.12"
-
 ["1.0.2-1.0"]
 FFTW = ["0.2-0.3", "1"]
 SpecialFunctions = "0.7.2-0.8"
 
+["1.0.2-1.1"]
+Parameters = "0.10-0.12"
+
 ["1.0.5-1.0"]
 DSP = "0.5-0.7"
+
+["1.1"]
+Statistics = "1.6.0-1"
 
 ["1.1-1"]
 DSP = "0.7"
 FFTW = "1.4.5-1"
 SpecialFunctions = "2"
-Statistics = "1.6.0-1"
 julia = "1.6.0-1"
+
+["1.2-1"]
+Parameters = "0.12"
