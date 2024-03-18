@@ -8,13 +8,15 @@ FileIO = "1"
 Interpolations = "0.14"
 LibSndFile = "2"
 Memoize = "0.4"
-PortAudio = "1"
 SampledSignals = "2"
 julia = "1.8.0-1"
 
 ["0-0.1"]
 DelimitedFiles = "1.8.0-1"
 StatsBase = "0.34"
+
+["0-0.2"]
+PortAudio = "1"
 
 ["0-0.2.1"]
 Statistics = "1.8.0-1"
