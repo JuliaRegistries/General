@@ -39,7 +39,12 @@ Arb_jll = "200.2300"
 FLINT_jll = "200.900"
 
 [1]
-FLINT_jll = "300.0"
 LinearAlgebra = "1.6.0-1"
 Random = "1.6.0-1"
 Serialization = "1.6.0-1"
+
+["1-1.1"]
+FLINT_jll = "300.0"
+
+["1.2-1"]
+FLINT_jll = "300.100.100-300.100"
