@@ -1,10 +1,18 @@
 [2]
-CUDA = "3.8.0-3"
-Knet = "1.4.0-1"
-NCDatasets = "0.11-0.12"
-Statistics = "1"
 ThreadsX = "0.1"
 julia = "1"
 
 ["2-2.0.1"]
 LearnBase = "0.6"
+
+["2-2.0.2"]
+CUDA = "3.8.0-3"
+Knet = "1.4.0-1"
+NCDatasets = "0.11-0.12"
+Statistics = "1"
+
+["2.0.3-2"]
+CUDA = "3.8.0-5"
+ChainRulesCore = "1"
+Flux = "0.14"
+NCDatasets = "0.11-0.14"
