@@ -82,7 +82,7 @@ julia = "1.6.0-1"
 ["0.4.40-0.4.47"]
 Tracker = "0.2"
 
-["0.4.42-0"]
+["0.4.42-0.5.26"]
 TruncatedStacktraces = "1.1.0-1"
 
 ["0.4.43-0.4.47"]
@@ -142,9 +142,6 @@ ConstructionBase = "1.5.0-1"
 ["0.5.14-0.5.16"]
 Adapt = "3-4"
 
-["0.5.15-0"]
-julia = "1.9.0-1"
-
 ["0.5.15-0.5.16"]
 LinearAlgebra = "1"
 Markdown = "1"
@@ -152,6 +149,9 @@ PrecompileTools = "1"
 Random = "1"
 SparseArrays = "1"
 Statistics = "1"
+
+["0.5.15-0.5.26"]
+julia = "1.9.0-1"
 
 ["0.5.16"]
 ArrayInterface = "7"
@@ -170,15 +170,17 @@ ArrayInterface = "7.7.0-7"
 ChainRulesCore = "1.21.0-1"
 Functors = "0.4.4-0.4"
 GPUArraysCore = "0.1.6-0.1"
-LinearAlgebra = "1.9.0-1"
 LuxDeviceUtils = "0.1.14-0.1"
 LuxLib = "0.3.10-0.3"
 MacroTools = "0.5.13-0.5"
+PrecompileTools = "1.2.0-1"
+Setfield = "1"
+
+["0.5.17-0.5.26"]
+LinearAlgebra = "1.9.0-1"
 Markdown = "1.9.0-1"
 Optimisers = "0.3"
-PrecompileTools = "1.2.0-1"
 Random = "1.9.0-1"
-Setfield = "1"
 SparseArrays = "1.9.0-1"
 Statistics = "1.9.0-1"
 
@@ -190,6 +192,14 @@ LuxCore = "0.1.11-0.1"
 
 ["0.5.23-0"]
 LuxCore = "0.1.12-0.1"
+
+["0.5.27-0"]
+LinearAlgebra = "1.10.0-1"
+Markdown = "1.10.0-1"
+Random = "1.10.0-1"
+Statistics = "1.10.0-1"
+TruncatedStacktraces = "1.4.0-1"
+julia = "1.10.0-1"
 
 ["0.5.3-0.5.13"]
 Adapt = "3"
