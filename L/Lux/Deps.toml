@@ -2,10 +2,8 @@
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 ["0-0.4"]
@@ -25,6 +23,10 @@ CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
 ["0-0.4.56"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0-0.5.26"]
+Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0.4.25-0"]
 LuxLib = "82251201-b29d-42c6-8e01-566dec8acb11"
