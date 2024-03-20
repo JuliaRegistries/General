@@ -41,12 +41,14 @@ MLJBase = "0.21"
 Flux = "0.12-0.14"
 
 ["0.1.15-0"]
-EvoTrees = "0.14-0.16"
 PackageExtensionCompat = "1"
 julia = "1.6.0-1"
 
 ["0.1.15-0.1.30"]
 Statistics = "1.6.0-1"
+
+["0.1.15-0.1.31"]
+EvoTrees = "0.14-0.16"
 
 ["0.1.16-0.1.30"]
 MultivariateStats = "0.10"
@@ -67,7 +69,7 @@ RCall = "0.13"
 ["0.1.2-0.1.5"]
 CUDA = "3"
 
-["0.1.20-0"]
+["0.1.20-0.1.31"]
 PrecompileTools = "1"
 cuDNN = "1"
 
@@ -86,14 +88,16 @@ Zygote = "0.6"
 
 ["0.1.3-0"]
 DataFrames = "1"
-LaplaceRedux = "0.1"
-NearestNeighborModels = "0.2"
 
 ["0.1.3-0.1.14"]
 SliceMap = "0.2"
 
 ["0.1.3-0.1.15"]
 UMAP = "0.1"
+
+["0.1.3-0.1.31"]
+LaplaceRedux = "0.1"
+NearestNeighborModels = "0.2"
 
 ["0.1.31-0"]
 LinearAlgebra = "1.6.0-1"
@@ -123,9 +127,6 @@ MLUtils = "0.2-0.3"
 Plots = "1.37.2-1"
 
 ["0.1.6-0"]
-CSV = "0.10"
-MLDatasets = "0.7"
-MLJModels = "0.16"
 MLUtils = "0.2-0.4"
 ProgressMeter = "1"
 Tables = "1"
@@ -135,6 +136,11 @@ Plots = "1.38.2-1"
 
 ["0.1.6-0.1.24"]
 CUDA = "3-4"
+
+["0.1.6-0.1.31"]
+CSV = "0.10"
+MLDatasets = "0.7"
+MLJModels = "0.16"
 
 ["0.1.6-0.1.7"]
 PkgTemplates = "0.7"

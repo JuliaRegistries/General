@@ -25,7 +25,6 @@ ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 ["0.1.13-0"]
 DecisionTree = "7806a523-6efd-50cb-b5f6-3fa6f1930dbb"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-EvoTrees = "f6006082-12f8-11e9-0c9c-0d5d367ab1e5"
 MLJDecisionTreeInterface = "c6f25543-311c-4c74-83dc-3ea6d1015661"
 
 ["0.1.13-0.1.14"]
@@ -36,6 +35,9 @@ RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
 
 ["0.1.13-0.1.15"]
 Chain = "8be319e6-bccf-4806-a6f7-6fae938471bc"
+
+["0.1.13-0.1.31"]
+EvoTrees = "f6006082-12f8-11e9-0c9c-0d5d367ab1e5"
 
 ["0.1.15-0"]
 PackageExtensionCompat = "65ce6f38-6b18-4e1d-a461-8949797d7930"
@@ -55,7 +57,7 @@ ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
 
-["0.1.20-0"]
+["0.1.20-0.1.31"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
 
@@ -67,9 +69,7 @@ Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0.1.3-0"]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-LaplaceRedux = "c52c1a26-f7c5-402b-80be-ba1e638ad478"
 MultivariateStats = "6f286f6a-111f-5878-ab1e-185364afe411"
-NearestNeighborModels = "636a865e-7cf4-491e-846c-de09b730eb36"
 
 ["0.1.3-0.1.14"]
 SliceMap = "82cb661a-3f19-5665-9e27-df437c7e54c8"
@@ -77,18 +77,24 @@ SliceMap = "82cb661a-3f19-5665-9e27-df437c7e54c8"
 ["0.1.3-0.1.15"]
 UMAP = "c4f8c510-2410-5be4-91d7-4fbaeb39457e"
 
+["0.1.3-0.1.31"]
+LaplaceRedux = "c52c1a26-f7c5-402b-80be-ba1e638ad478"
+NearestNeighborModels = "636a865e-7cf4-491e-846c-de09b730eb36"
+
 ["0.1.4-0"]
 CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
 LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 MLJBase = "a7f614a8-145f-11e9-1d2a-a57a1082229d"
 
 ["0.1.6-0"]
-CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
-MLDatasets = "eb30cadb-4394-5ae3-aed4-317e484a6458"
-MLJModels = "d491faf4-2d78-11e9-2867-c94bc002c0b7"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
+
+["0.1.6-0.1.31"]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+MLDatasets = "eb30cadb-4394-5ae3-aed4-317e484a6458"
+MLJModels = "d491faf4-2d78-11e9-2867-c94bc002c0b7"
 
 ["0.1.6-0.1.7"]
 PkgTemplates = "14b8a8f1-9102-5b29-a752-f990bacb7fe1"
