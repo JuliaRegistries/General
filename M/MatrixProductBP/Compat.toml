@@ -1,6 +1,5 @@
 [0]
 Distributions = "0.25"
-IndexedGraphs = "0.3-0.4"
 InvertedIndices = "1"
 Lazy = "0.15"
 LinearAlgebra = "1.8.0-1"
@@ -15,7 +14,6 @@ SparseArrays = "1.8.0-1"
 Statistics = "1"
 StatsBase = "0.34"
 TensorCast = "0.4"
-TensorTrains = "0.7-0.8"
 Tullio = "0.3"
 UnPack = "1"
 Unzip = "0.2"
@@ -24,8 +22,17 @@ julia = "1.8.0-1"
 ["0-0.2"]
 CavityTools = "0.2.1-0.2"
 
+["0-0.3"]
+IndexedGraphs = "0.3-0.4"
+TensorTrains = "0.7-0.8"
+
 ["0.2-0"]
 Kronecker = "0.5"
 
-["0.3-0"]
+["0.3"]
 CavityTools = "0.3"
+
+["0.4-0"]
+CavityTools = ["0.3", "1"]
+IndexedGraphs = "0.5"
+TensorTrains = "0.9"
