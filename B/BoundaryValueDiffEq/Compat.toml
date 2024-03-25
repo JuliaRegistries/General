@@ -38,7 +38,7 @@ Reexport = "0.2"
 ["2.3.1-2.8"]
 DiffEqBase = "6.5.0-6"
 
-["2.3.1-5"]
+["2.3.1-5.6"]
 ForwardDiff = "0.10"
 
 ["2.4-2.7"]
@@ -50,7 +50,7 @@ FiniteDiff = "2"
 ["2.5-2.6"]
 BandedMatrices = "0.14-0.15"
 
-["2.6-5"]
+["2.6-5.6"]
 Reexport = ["0.2", "1"]
 
 ["2.7"]
@@ -71,17 +71,16 @@ NonlinearSolve = "1"
 
 [3-5]
 Setfield = "1"
+
+["3-5.6"]
 TruncatedStacktraces = "1"
 
-[4-5]
+["4-5.6"]
 ArrayInterface = "7"
 UnPack = "1"
 
 [5]
-ADTypes = "0.2"
-ConcreteStructs = "0.2"
 PreallocationTools = "0.4"
-julia = "1.9.0-1"
 
 ["5-5.2"]
 NonlinearSolve = "2"
@@ -89,6 +88,11 @@ SparseDiffTools = "2.6.0-2"
 
 ["5-5.4"]
 RecursiveArrayTools = "2.38.10-2"
+
+["5-5.6"]
+ADTypes = "0.2"
+ConcreteStructs = "0.2"
+julia = "1.9.0-1"
 
 ["5-5.6.1"]
 Adapt = "3"
@@ -99,7 +103,7 @@ SciMLBase = "2"
 ["5.1-5.2"]
 SciMLBase = "2.2.0-2"
 
-["5.2-5"]
+["5.2-5.6"]
 BandedMatrices = "1"
 
 ["5.3"]
@@ -108,7 +112,7 @@ LinearAlgebra = "1.6.0-1"
 NonlinearSolve = "2.5.0-2"
 SparseArrays = "1.6.0-1"
 
-["5.3-5"]
+["5.3-5.6"]
 PrecompileTools = "1"
 SparseDiffTools = "2.9.0-2"
 
@@ -118,32 +122,56 @@ SciMLBase = "2.5.0-2"
 ["5.4"]
 LinearSolve = "2"
 
-["5.4-5"]
+["5.4-5.5"]
+NonlinearSolve = "2.6.1-2"
+
+["5.4-5.6"]
 LinearAlgebra = "1.9.0-1"
 Preferences = "1"
 SparseArrays = "1.9.0-1"
 Tricks = "0.1"
 
-["5.4-5.5"]
-NonlinearSolve = "2.6.1-2"
-
 ["5.4-5.6.0"]
 DiffEqBase = "6.138.0-6"
 
-["5.5-5"]
+["5.5-5.6"]
 FastAlmostBandedMatrices = "0.1"
 LinearSolve = "2.20.0-2"
 RecursiveArrayTools = "2.38.10-3"
 
-["5.6-5"]
+["5.6"]
 NonlinearSolve = "2.6.1-3"
 
 ["5.6.1"]
 DiffEqBase = "6.138-6.143"
 
-["5.6.2-5"]
+["5.6.2-5.6"]
 Adapt = "3-4"
 DiffEqBase = "6.145.0-6"
 
-["5.6.3-5"]
+["5.6.3-5.6"]
 SciMLBase = "2.6.2-2"
+
+["5.7-5"]
+ADTypes = "0.2.6-0.2"
+Adapt = "4"
+ArrayInterface = "7.7.0-7"
+BandedMatrices = "1.4.0-1"
+ConcreteStructs = "0.2.3-0.2"
+DiffEqBase = "6.146.0-6"
+FastAlmostBandedMatrices = "0.1.1-0.1"
+FastClosures = "0.3"
+ForwardDiff = "0.10.36-0.10"
+LinearAlgebra = "1.10.0-1"
+LinearSolve = "2.21.0-2"
+Logging = "1.10.0-1"
+NonlinearSolve = "3.8.1-3"
+OrdinaryDiffEq = "6.63.0-6"
+PrecompileTools = "1.2.0-1"
+Preferences = "1.4.0-1"
+RecursiveArrayTools = "3.4.0-3"
+Reexport = "1.2.0-1"
+SciMLBase = "2.31.0-2"
+SparseArrays = "1.10.0-1"
+SparseDiffTools = "2.14.0-2"
+julia = "1.10.0-1"
