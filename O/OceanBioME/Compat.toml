@@ -24,7 +24,13 @@ Oceananigans = "0.81"
 
 ["0.10-0"]
 CUDA = "5"
+
+["0.10.0"]
 Oceananigans = "0.90.6-0.90"
+
+["0.10.1-0"]
+Adapt = "3-4"
+Oceananigans = "0.90.11-0.90"
 
 ["0.2-0"]
 KernelAbstractions = "0.9"
@@ -42,9 +48,11 @@ Oceananigans = "0.84.1-0.85"
 Oceananigans = "0.84.1-0.87"
 
 ["0.6-0"]
-Adapt = "3"
 JLD2 = "0.4"
 StructArrays = "0.4-0.6"
+
+["0.6-0.10.0"]
+Adapt = "3"
 
 ["0.7"]
 Oceananigans = "0.84.1-0.88"
