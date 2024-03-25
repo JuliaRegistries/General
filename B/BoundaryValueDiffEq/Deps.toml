@@ -28,10 +28,14 @@ SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 [3-5]
 NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+
+["3-5.6"]
 TruncatedStacktraces = "781d530d-4396-4725-bb49-402e4bee1e77"
 
 [4-5]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
+
+["4-5.6"]
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
 [5]
@@ -51,7 +55,14 @@ PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 ["5.4-5"]
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+
+["5.4-5.6"]
 Tricks = "410a4b4d-49e4-4fbc-ab6d-cb71b17b3775"
 
 ["5.5-5"]
 FastAlmostBandedMatrices = "9d29842c-ecb8-4973-b1e9-a27b1157504e"
+
+["5.7-5"]
+FastClosures = "9aa1b823-49e4-5ca5-8b0f-3971ec8bab6a"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
