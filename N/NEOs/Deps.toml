@@ -6,7 +6,6 @@ Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 HORIZONS = "5a3ac768-beb4-554a-9c98-3342fe3377f5"
 Healpix = "9f4e344d-96bc-545a-84a3-ae6b9e1b672b"
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
-IntervalArithmetic = "d1acc4aa-44c8-5952-acd4-ba5d80a2a253"
 LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 PlanetaryEphemeris = "d83715d0-7e5f-11e9-1a59-4137b20d8363"
@@ -36,16 +35,21 @@ SatelliteToolbox = "6ac157d9-b43d-51bb-8fab-48bf53814f4a"
 ["0-0.6.3"]
 EarthOrientation = "732a3c5d-d6c0-58bc-adb1-1b51709a25e2"
 
+["0-0.7"]
+IntervalArithmetic = "d1acc4aa-44c8-5952-acd4-ba5d80a2a253"
+
 ["0.3"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 ["0.3-0"]
 AutoHashEquals = "15f4f7f2-30c1-5605-9d31-71845cf9641f"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-IntervalRootFinding = "d2bf35a9-74e0-55ec-b149-d360ff49b807"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 
-["0.6-0"]
+["0.3-0.7"]
+IntervalRootFinding = "d2bf35a9-74e0-55ec-b149-d360ff49b807"
+
+["0.6-0.7"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.6.3-0"]
@@ -54,3 +58,11 @@ Scratch = "6c6a2e73-6563-6170-7368-637461726353"
 
 ["0.7-0"]
 SatelliteToolboxTransformations = "6b019ec1-7a1e-4f04-96c7-a9db1ca5514d"
+
+["0.8-0"]
+Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
