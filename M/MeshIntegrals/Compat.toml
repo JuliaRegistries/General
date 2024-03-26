@@ -1,8 +1,13 @@
 [0]
 FastGaussQuadrature = "1"
-Meshes = "0.36-0.40"
 QuadGK = "2"
 julia = "1.6.0-1"
+
+["0-0.11.1"]
+Meshes = "0.36-0.40"
+
+["0.11.2-0"]
+Meshes = "0.36-0.41"
 
 ["0.8-0"]
 HCubature = "1.5.0-1"
