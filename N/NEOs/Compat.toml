@@ -1,8 +1,6 @@
 [0]
-HORIZONS = "0.3"
 Quadmath = "0.5"
 SPICE = "0.2"
-julia = "1.6.0-1"
 
 ["0-0.2"]
 JLD = "0.12"
@@ -31,6 +29,10 @@ Query = "1"
 ["0-0.6.3"]
 EarthOrientation = "0.7"
 
+["0-0.7"]
+HORIZONS = "0.3"
+julia = "1.6.0-1"
+
 ["0-0.7.1"]
 LazyArtifacts = "1"
 
@@ -42,11 +44,13 @@ Statistics = "1.6.0-1"
 ["0.3-0"]
 AutoHashEquals = "0.2"
 HTTP = "1.9.5-1"
-IntervalRootFinding = "0.5.11-0.5"
 JLD2 = "0.4"
 
 ["0.3-0.6"]
 SatelliteToolbox = "0.10"
+
+["0.3-0.7"]
+IntervalRootFinding = "0.5.11-0.5"
 
 ["0.3-0.7.4"]
 TaylorSeries = "0.15"
@@ -74,22 +78,39 @@ StatsBase = "0.33-0.34"
 ["0.5-0"]
 DelimitedFiles = "1"
 
-["0.6-0"]
+["0.6-0.7"]
 Requires = ["0.5.2-0.5", "1"]
 
 ["0.6.3-0"]
 Scratch = "1.2.0-1"
 
-["0.7-0"]
+["0.7"]
 PlanetaryEphemeris = "0.7"
-SatelliteToolboxTransformations = "0.1"
 TaylorIntegration = "0.14"
+
+["0.7-0"]
+SatelliteToolboxTransformations = "0.1"
 
 ["0.7.4-0"]
 Artifacts = "1"
 Downloads = "1"
-IntervalArithmetic = ["0.20", "0.22"]
 LazyArtifacts = "1"
 
-["0.7.5-0"]
+["0.7.4-0.7"]
+IntervalArithmetic = ["0.20", "0.22"]
+
+["0.7.5-0.7"]
 TaylorSeries = "0.16"
+
+["0.8-0"]
+Clustering = "0.15"
+DataFrames = "1.5.0-1"
+HORIZONS = "0.4"
+JSON = "0.21"
+LsqFit = "0.15"
+PlanetaryEphemeris = "0.8"
+Roots = "2"
+Tables = "1.10.0-1"
+TaylorIntegration = "0.15"
+TaylorSeries = "0.17"
+julia = "1.9.0-1"
