@@ -2,7 +2,6 @@
 FFTW = "1.4.5-1"
 OffsetArrays = "1.10.8-1"
 SpecialFunctions = "2.1.0-2"
-StaticArrays = "1.3.4-1"
 
 ["0-0.1"]
 CrystalInfoFramework = "0.4.8-0.4"
@@ -17,6 +16,9 @@ Requires = "1.3.0-1"
 
 ["0-0.4.1"]
 Tullio = "0.3.3-0.3"
+
+["0-0.5.8"]
+StaticArrays = "1.3.4-1"
 
 ["0.2-0"]
 FilePathsBase = "0.9.18-0.9"
@@ -69,5 +71,11 @@ LinearAlgebra = "1.9.0-1"
 Printf = "1.9.0-1"
 Random = "1.9.0-1"
 
-["0.5.8-0"]
+["0.5.8"]
 Spglib = "0.9.1-0.9"
+
+["0.5.9-0"]
+HCubature = "1.5.1-1"
+PrecompileTools = "1.2.0-1"
+Spglib = "0.9.4-0.9"
+StaticArrays = "1.9.1-1"
