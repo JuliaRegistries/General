@@ -1,5 +1,12 @@
 [0]
 JLLWrappers = "1.2.0-1"
 aws_c_compression_jll = "0.2.17-0.2"
-aws_c_io_jll = "0.13.32-0.13"
 julia = "1.6.0-1"
+
+["0-0.7"]
+aws_c_io_jll = "0.13.32-0.13"
+
+["0.8-0"]
+Artifacts = "1"
+Libdl = "1"
+aws_c_io_jll = "0.14.6-0.14"
