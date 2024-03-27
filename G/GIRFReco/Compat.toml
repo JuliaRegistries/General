@@ -8,8 +8,6 @@ FileIO = "1.16.1-1"
 FourierTools = "0.4.2-0.4"
 ImageUtils = "0.2.9-0.2"
 MAT = "0.10.5-0.10"
-MRIBase = "0.3.3-0.3"
-MRIFiles = "0.1.6-0.1"
 MRIGradients = "0.1.2-0.1"
 Measures = "0.3.2-0.3"
 MosaicViews = "0.3.4-0.3"
@@ -45,6 +43,20 @@ RegularizedLeastSquares = "0.9.1-0.9"
 SparsityOperators = "0.4.7-0.4"
 Waveforms = "0.1.1-0.1"
 
+["0-0.1.2"]
+MRIBase = "0.3.3-0.3"
+MRIFiles = "0.1.6-0.1"
+
+["0.1.2"]
+MRIFieldmaps = "0.0.1"
+
 ["0.1.2-0"]
 Flux = "0.14"
-MRIFieldmaps = "0.0.1"
+
+["0.1.3-0"]
+MRIBase = "0.3"
+MRICoilSensitivities = "0.1"
+MRIFieldmaps = "0.0.3"
+MRIFiles = "0.1"
+MRIReco = "0.7.1-0.7"
+RegularizedLeastSquares = "0.9.1-0.9"
