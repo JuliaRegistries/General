@@ -128,6 +128,15 @@ unregistered. In addition, your package cannot depend on an unregistered
 version of an otherwise registered package. Both of these scenarios would cause
 this registry to be unreproducible.
 
+#### Can my package be registered if it requires a version of Julia that is not yet released?
+
+Yes, if your package is ready for use, it can be registered before Julia itself has a compatible release.
+The [`compat` mechanism](https://pkgdocs.julialang.org/v1/compatibility/)
+should be used to indicate which versions of Julia your package is compatible with.
+However, AutoMerge will fail to load your package (as currently it only operates on the latest release of Julia),
+so the initial package registration and every new version will require manual merging until a compatible version
+of Julia has been released.
+
 #### My pull request was not approved for automatic merging, what do I do?
 
 It is recommended that you fix the release to conform to the guidelines and
