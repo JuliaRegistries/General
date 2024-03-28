@@ -35,12 +35,19 @@ SciMLBase = "1.94.0-2"
 ["0.10.2-0.10.3"]
 PDEBase = "0.1.6-0.1"
 
-["0.10.4-0"]
+["0.10.4-0.10"]
 PDEBase = "0.1.8-0.1"
 
 ["0.10.5-0"]
 SymbolicIndexingInterface = "0.3"
+
+["0.10.5-0.10"]
 julia = "1.9.0-1"
+
+["0.11-0"]
+ModelingToolkit = "9.7.1-9"
+PDEBase = "0.1.10-0.1"
+julia = "1.10.0-1"
 
 ["0.2-0"]
 TermInterface = "0.2-0.3"
@@ -71,7 +78,7 @@ DomainSets = "0.5-0.6"
 SymbolicUtils = ["0.19", "1"]
 Symbolics = "4-5"
 
-["0.8.3-0"]
+["0.8.3-0.10"]
 ModelingToolkit = "8"
 
 ["0.8.3-0.8.4"]
