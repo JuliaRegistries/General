@@ -2,7 +2,6 @@
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
-Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 HORIZONS = "5a3ac768-beb4-554a-9c98-3342fe3377f5"
 Healpix = "9f4e344d-96bc-545a-84a3-ae6b9e1b672b"
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
@@ -15,7 +14,6 @@ SPICE = "5bab7191-041a-5c2e-a744-024b9c3a5062"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 TaylorIntegration = "92b13dbe-c966-51a2-8445-caca9f8a7d42"
 TaylorSeries = "6aa5eb33-94cf-58f4-a9d0-e4b2c4fc25ea"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0-0.2"]
 RemoteFiles = "cbe49d4c-5af1-5b60-bb70-0a60aa018e1b"
@@ -37,6 +35,10 @@ EarthOrientation = "732a3c5d-d6c0-58bc-adb1-1b51709a25e2"
 
 ["0-0.7"]
 IntervalArithmetic = "d1acc4aa-44c8-5952-acd4-ba5d80a2a253"
+
+["0-0.8.0"]
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0.3"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
