@@ -1,14 +1,23 @@
 [0]
 ChainRulesCore = "1.15.0-1"
-Flux = "0.13"
-Zygote = "0.6"
-julia = "1.8.0-1"
 
 ["0-0.1"]
 CUDA = "4"
 
-["0.2-0"]
+[0-1]
+Flux = "0.13"
+Zygote = "0.6"
+julia = "1.8.0-1"
+
+["0.2-1"]
 CUDA = "3-4"
 
-["0.3-0"]
+["0.3-1"]
 ForwardDiff = "0.10"
+
+[1]
+ChainRulesCore = "1.23.0-1"
+Distributions = "0.25"
+OneHotArrays = "0.2"
+SliceMap = "0.2"
+Statistics = "1.10.0-1"
