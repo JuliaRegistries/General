@@ -2,14 +2,16 @@
 CategoricalArrays = "0.10"
 DataFrames = "1"
 Distributions = "0.21-0.25"
-GLM = "1.8.2-1"
-Metida = "0.14.6-0.14"
-MixedModels = "4.11.0-4"
 julia = "1"
 
 ["0-0.1"]
 MetidaNCA = "0.5.2-0.5"
 StatsBase = "0.29-0.33"
+
+["0-0.2.2"]
+GLM = "1.8.2-1"
+Metida = "0.14.6-0.14"
+MixedModels = "4.11.0-4"
 
 ["0.2-0"]
 StatsBase = "0.30-0.34"
@@ -17,5 +19,11 @@ StatsBase = "0.30-0.34"
 ["0.2.0"]
 MetidaNCA = "0.5.6-0.5"
 
-["0.2.1-0"]
+["0.2.1-0.2.2"]
 MetidaNCA = "0.5.7-0.5"
+
+["0.2.3-0"]
+GLM = "1.8.0-1"
+Metida = "0.15"
+MetidaNCA = "0.5"
+MixedModels = "4"
