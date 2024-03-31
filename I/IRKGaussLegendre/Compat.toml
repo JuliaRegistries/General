@@ -1,6 +1,5 @@
 [0]
 Parameters = "0.12"
-RecursiveArrayTools = "2.7.0-2"
 
 ["0-0.1.0"]
 Reexport = "0.2"
@@ -12,19 +11,31 @@ julia = "1.5.0-1"
 ["0-0.2.2"]
 DiffEqBase = "6.48.0-6"
 
+["0-0.2.6"]
+RecursiveArrayTools = "2.7.0-2"
+
 ["0.1.1"]
 Reexport = ["0.2", "1"]
 
 ["0.1.2-0"]
-OrdinaryDiffEq = "5-6"
 Reexport = "1"
+
+["0.1.2-0.2.6"]
+OrdinaryDiffEq = "5-6"
 julia = "1.6.0-1"
 
 ["0.2.3"]
 SciMLBase = "1.90.0-1"
 
-["0.2.3-0"]
+["0.2.3-0.2.6"]
 DiffEqBase = "6.122.0-6"
 
-["0.2.4-0"]
+["0.2.4-0.2.6"]
 SciMLBase = "1.90.0-2"
+
+["0.2.7-0"]
+DiffEqBase = "6.144.0-6"
+OrdinaryDiffEq = "6"
+RecursiveArrayTools = "3"
+SciMLBase = "2"
+julia = "1.9.0-1"
