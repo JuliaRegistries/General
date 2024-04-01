@@ -33,7 +33,6 @@ InformationMeasures = "0.3"
 Interpolations = "0.14-0.15"
 JLD2 = "0.4"
 JSON = "0.21"
-Jacobi = "0.5-0.6"
 Loess = "0.6"
 MAT = "0.10"
 MultivariateStats = "0.10"
@@ -56,5 +55,12 @@ WaveletsExt = "0.2"
 XDF = "0.2"
 julia = "1.10.0-1"
 
+["0.24.2-0.24.3"]
+Jacobi = "0.5-0.6"
+
 ["0.24.3-0"]
 WAV = "1.2.0-1"
+
+["0.24.4-0"]
+Jacobi = "0.5-0.7"
+Reexport = "1"
