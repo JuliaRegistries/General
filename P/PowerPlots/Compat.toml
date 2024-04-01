@@ -23,7 +23,6 @@ OMEinsum = "0.3"
 ["0.2-0"]
 ColorSchemes = "3"
 Memento = "1"
-RecursiveArrayTools = "2"
 
 ["0.2-0.3"]
 GeometryBasics = "0.3"
@@ -33,6 +32,9 @@ NetworkLayout = "0.3"
 NLopt = "0.6"
 Setfield = "0.7"
 VegaLite = "2"
+
+["0.2-0.4.8"]
+RecursiveArrayTools = "2"
 
 ["0.3"]
 OMEinsum = "0.3-0.4"
@@ -47,7 +49,7 @@ NetworkLayout = "0.4"
 ["0.4-0.4.1"]
 Graphs = "1.4"
 
-["0.4.1-0"]
+["0.4.1-0.4.8"]
 PowerModels = "0.17-0.19"
 
 ["0.4.2-0"]
@@ -61,3 +63,7 @@ NLopt = ["0.6", "1"]
 Random = "1"
 Setfield = "1"
 VegaLite = "3"
+
+["0.4.9-0"]
+PowerModels = "0.17-0.21"
+RecursiveArrayTools = "2-3"
