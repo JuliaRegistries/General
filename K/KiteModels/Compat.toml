@@ -39,14 +39,14 @@ Sundials = "4.9.0-4"
 KitePodModels = "0.1.2-0.1"
 KiteUtils = "0.3.1-0.3"
 
-["0.3.1-0"]
-Reexport = "1.2.0-1"
-
 ["0.3.1-0.3.2"]
 KiteUtils = "0.3.3-0.3"
 
 ["0.3.1-0.3.4"]
 KitePodModels = "0.1.3-0.1"
+
+["0.3.1-0.5.9"]
+Reexport = "1.2.0-1"
 
 ["0.3.3"]
 KiteUtils = "0.3.4-0.3"
@@ -93,6 +93,11 @@ julia = "1.9.0-1"
 KitePodModels = "0.3"
 KiteUtils = "0.5"
 
+["0.5.10-0"]
+KiteUtils = "0.6.5-0.6"
+OrdinaryDiffEq = "6.66.0-6"
+Reexport = "1.1.0-1"
+
 ["0.5.2-0"]
 PrecompileTools = "1.2.0-1"
 
@@ -102,5 +107,5 @@ KiteUtils = "0.6"
 ["0.5.4-0"]
 KitePodModels = "0.3.1-0.3"
 
-["0.5.5-0"]
+["0.5.5-0.5.9"]
 KiteUtils = "0.6.3-0.6"
