@@ -52,7 +52,6 @@ StatsBase = "0.33-0.34"
 AdvancedHMC = "0.6"
 CovarianceEstimation = "0.2"
 Dates = "1"
-Enzyme = "0.11"
 FITSIO = "0.16-0.17"
 Interpolations = "0.13-0.15"
 Logging = "1"
@@ -63,8 +62,15 @@ Random = "1"
 Statistics = "1"
 Transducers = "0.4"
 
+["2-2.4"]
+Enzyme = "0.11"
+
 ["2.0"]
 AbstractMCMC = "5"
 
 ["2.1-2"]
 AbstractMCMC = "4-5"
+
+["2.5-2"]
+HDF5 = "0.17"
+StringDistances = "0.11"
