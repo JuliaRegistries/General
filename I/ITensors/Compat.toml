@@ -175,10 +175,12 @@ NDTensors = "0.1.44-0.1"
 
 ["0.3.21-0"]
 Functors = "0.2-0.4"
-KrylovKit = "0.4.2-0.6"
 
 ["0.3.21-0.3.24"]
 NDTensors = "0.1.45-0.1"
+
+["0.3.21-0.3.62"]
+KrylovKit = "0.4.2-0.6"
 
 ["0.3.25-0.3.26"]
 NDTensors = "0.1.46-0.1"
@@ -251,11 +253,18 @@ Dictionaries = "0.4"
 NDTensors = "0.2.28-0.2"
 
 ["0.3.58-0"]
-NDTensors = "0.2.29-0.2"
 Reexport = "1"
+
+["0.3.58-0.3.62"]
+NDTensors = "0.2.29-0.2"
 
 ["0.3.59-0"]
 Observers = "0.2"
+
+["0.3.63-0"]
+KrylovKit = "0.4.2-0.7"
+NDTensors = "0.2.30-0.2"
+PackageExtensionCompat = "1"
 
 ["0.3.8-0.3.34"]
 BitIntegers = "0.2"
