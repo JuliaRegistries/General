@@ -3,7 +3,6 @@ Colors = "0.12"
 GeoInterface = "1"
 GeometryBasics = "0.4"
 HTTP = "1"
-ImageMagick = "1"
 LRUCache = "1"
 MapTiles = "1"
 OrderedCollections = "1"
@@ -17,10 +16,18 @@ Extents = "0.1"
 ["0-0.1.1"]
 Makie = "0.19"
 
+["0-0.1.3"]
+ImageMagick = "1"
+
 ["0.1.1-0"]
 Extents = "0.1.2-0.1"
-ImageMagick_jll = "6.9.12-6.9"
 LinearAlgebra = "1"
+
+["0.1.1-0.1.3"]
+ImageMagick_jll = "6.9.12-6.9"
 
 ["0.1.2-0"]
 Makie = "0.20"
+
+["0.1.4-0"]
+ImageMagick = "1.3.0-1"
