@@ -20,9 +20,11 @@ Interpolations = "0.14"
 
 ["0.3-0"]
 BenchmarkTools = "1"
-EarthSciMLBase = "0.4-0.6"
 SafeTestsets = ["0.0.1", "0.1"]
 StaticArrays = "1"
+
+["0.3-0.5.0"]
+EarthSciMLBase = "0.4-0.6"
 
 ["0.3.1-0"]
 Catalyst = "10-13"
@@ -30,3 +32,6 @@ Catalyst = "10-13"
 ["0.4-0"]
 AllocCheck = "0.1"
 Interpolations = "0.14-0.15"
+
+["0.5.1-0"]
+EarthSciMLBase = ["0.4-0.6", "0.8"]
