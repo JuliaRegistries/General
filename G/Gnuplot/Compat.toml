@@ -25,11 +25,19 @@ ReplMaker = "0.2"
 julia = "1.5.0-1"
 
 ["1.4-1"]
-ColorSchemes = "3.12.0-3"
 ColorTypes = "0.11"
 DataStructures = "0.18"
 
+["1.4-1.6.4"]
+ColorSchemes = "3.12.0-3"
+
 ["1.5-1"]
-PrecompileTools = "1.1.0-1"
 StatsBase = "0.33-0.34"
 julia = "1.9.0-1"
+
+["1.5-1.6.4"]
+PrecompileTools = "1.1.0-1"
+
+["1.6.5-1"]
+ColorSchemes = "3.24.0-3"
+PrecompileTools = "1.2.0-1"
