@@ -40,7 +40,6 @@ VegaLite = "2"
 julia = "1.8.0-1"
 
 ["1.1-1"]
-BandedMatrices = "0.17"
 BlackBoxOptim = "0.6"
 CategoricalArrays = "0.10"
 CircStats = "1"
@@ -53,10 +52,8 @@ FileIO = "1"
 HCubature = "1.5.0-1"
 ImageFiltering = "0.6-0.7"
 ImageSegmentation = "1.7.0-1"
-Images = "0.24-0.25"
 JLD2 = "0.4"
 LoopVectorization = "0.12.54-0.12"
-LsqFit = "0.11-0.13"
 MAT = "0.10"
 OffsetArrays = "1.10.0-1"
 Optim = "1.7.0-1"
@@ -69,6 +66,11 @@ StatsPlots = "0.14-0.15"
 ["1.1-1.2.0"]
 DataStructures = "0.17-0.18"
 
+["1.1-1.2.1"]
+BandedMatrices = "0.17"
+Images = "0.24-0.25"
+LsqFit = "0.11-0.13"
+
 ["1.2-1"]
 StatsBase = "0.33-0.34"
 StatsModels = "0.6-0.7"
@@ -77,3 +79,9 @@ julia = "1.9.0-1"
 
 ["1.2.1-1"]
 HypothesisTests = "0.10-0.11"
+
+["1.2.2-1"]
+BandedMatrices = "1"
+Images = "0.24-0.26"
+LsqFit = "0.11-0.15"
+NaNMath = "1"
