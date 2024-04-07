@@ -1,9 +1,3 @@
-[1]
-DelimitedFiles = "1"
-FFTW = "1.4.0-1"
-Primes = "0.5"
-SIMDTypes = "0.1"
-
 ["1-1.0.2"]
 Graphs = "1.4.0-1"
 
@@ -32,11 +26,14 @@ Polynomials = "2-3"
 ["1-1.4"]
 Mods = "1.3.0-1"
 
+[1-2]
+DelimitedFiles = "1"
+FFTW = "1.4.0-1"
+Primes = "0.5"
+SIMDTypes = "0.1"
+
 ["1.0.3-1.0.4"]
 Graphs = "1.6.0-1"
-
-["1.0.5-1"]
-Graphs = "1.7.0-1"
 
 ["1.0.5-1.2.0"]
 AbstractTrees = "0.3-0.4"
@@ -47,13 +44,16 @@ LuxorGraphPlot = "0.1"
 ["1.0.5-1.3.1"]
 CUDA = "3"
 
+["1.0.5-2"]
+Graphs = "1.7.0-1"
+
 ["1.2.1-1.2"]
 AbstractTrees = "0.4"
 
 ["1.2.1-1.4"]
 OMEinsum = "0.7"
 
-["1.3-1"]
+["1.3-2"]
 AbstractTrees = "0.3-0.4"
 DocStringExtensions = "0.8-0.9"
 
@@ -66,14 +66,14 @@ CUDA = "4"
 ["1.3.3-1.4.0"]
 StatsBase = "0.33-0.34"
 
-["1.3.6-1"]
+["1.3.6-2"]
 Polynomials = "4"
 
-["1.4-1"]
+["1.4-2"]
 TropicalNumbers = "0.4-0.6"
 julia = "1.9.0-1"
 
-["1.4.1-1"]
+["1.4.1-2"]
 Distributed = "1"
 LinearAlgebra = "1"
 LuxorGraphPlot = "0.3"
@@ -82,5 +82,5 @@ Random = "1"
 Serialization = "1"
 StatsBase = "0.33-0.35"
 
-["1.5-1"]
+["1.5-2"]
 OMEinsum = "0.8"
