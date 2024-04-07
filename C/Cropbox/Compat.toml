@@ -7,7 +7,6 @@ Interact = "0.10"
 MacroTools = "0.5"
 PolynomialRoots = "1"
 QuadGK = "2"
-SymPy = "1"
 TimeZones = "1"
 TypedTables = "1"
 julia = "1.6.0-1"
@@ -42,6 +41,9 @@ FileIO = "1"
 ImageMagick = "1"
 StatsBase = "0.33"
 
+["0-0.3.44"]
+SymPy = "1"
+
 ["0-0.3.7"]
 ProgressMeter = "1"
 
@@ -74,9 +76,11 @@ Graphviz_jll = "2"
 
 ["0.3.24-0"]
 Graphs = "1"
-Interpolations = "0.14"
 Setfield = "1"
 UnicodePlots = "3"
+
+["0.3.24-0.3.44"]
+Interpolations = "0.14"
 
 ["0.3.29-0"]
 DataFrames = "1"
@@ -92,6 +96,10 @@ Distributions = "0.23-0.24"
 
 ["0.3.41-0"]
 StatsBase = "0.33-0.34"
+
+["0.3.45-0"]
+Interpolations = "0.14-0.15"
+SymPy = "2"
 
 ["0.3.8-0"]
 Distributions = "0.23-0.25"
