@@ -264,7 +264,6 @@ ComponentArrays = "0.13"
 
 ["5.10-5"]
 Cubature = "1.5.0-1"
-Integrals = "4"
 Optim = "1.7.8-1"
 QuasiMonteCarlo = "0.3.2-0.3"
 
@@ -275,6 +274,9 @@ DomainSets = "0.6-0.7"
 ["5.10-5.14"]
 SciMLBase = "2"
 Statistics = "1"
+
+["5.10-5.15"]
+Integrals = "4"
 
 ["5.11"]
 OptimizationOptimisers = "0.1"
@@ -301,18 +303,22 @@ OptimizationOptimisers = "0.2"
 ["5.13-5"]
 DomainSets = "0.6-0.7"
 
+["5.15"]
+ArrayInterface = "7.8.0-7"
+DiffEqBase = "6.148.0-6"
+ModelingToolkit = "9.7.0-9"
+SymbolicUtils = "1.4.0-1"
+Symbolics = "5.24.0-5"
+
 ["5.15-5"]
 AdvancedHMC = "0.6.1-0.6"
-ArrayInterface = "7.8.0-7"
 ChainRulesCore = "1.21.0-1"
 ComponentArrays = "0.15.8-0.15"
-DiffEqBase = "6.148.0-6"
 DiffEqNoiseProcess = "5.20.0-5"
 Distributions = "0.25.107-0.25"
 ForwardDiff = "0.10.36-0.10"
 Functors = "0.4.4-0.4"
 Lux = "0.5.22-0.5"
-ModelingToolkit = "9.7.0-9"
 MonteCarloMeasurements = "1.1.0-1"
 Optimization = "3.24.0-3"
 OptimizationOptimisers = "0.2.1-0.2"
@@ -320,10 +326,15 @@ Reexport = "1.2.0-1"
 RuntimeGeneratedFunctions = "0.5.12-0.5"
 SciMLBase = "2.28.0-2"
 Statistics = "1.10.0-1"
-SymbolicUtils = "1.4.0-1"
-Symbolics = "5.24.0-5"
 Zygote = "0.6.69-0.6"
 julia = "1.10.0-1"
+
+["5.16-5"]
+ArrayInterface = "7.9.0-7"
+Integrals = "4.4.0-4"
+ModelingToolkit = "9.9.0-9"
+SymbolicUtils = "1.5.0-1"
+Symbolics = "5.27.1-5"
 
 ["5.2-5.7"]
 ComponentArrays = "0.13.2-0.13"
