@@ -104,11 +104,14 @@ OptimizationOptimisers = "0.2"
 ["0.20-0"]
 Octavian = "0.3.27-0.3"
 
+["0.21-0"]
+DifferentialEquations = "7"
+Lux = "0.5.31-0.5"
+
 ["0.6-0"]
 DataFrames = "1"
 FillArrays = "1"
 MLJModelInterface = "1"
-ProgressMeter = "1"
 SparseDiffTools = "2"
 
 ["0.6-0.10"]
@@ -116,6 +119,9 @@ ADTypes = "0.1"
 
 ["0.6-0.13"]
 SciMLBase = "1"
+
+["0.6-0.20"]
+ProgressMeter = "1"
 
 ["0.6-0.7.1"]
 IterTools = "1"
@@ -136,14 +142,13 @@ cuDNN = "1"
 DiffEqGPU = "2"
 LuxCUDA = "0.1-0.3"
 
-["0.8-0"]
+["0.8-0.20"]
 OrdinaryDiffEq = "6"
 
 ["0.9"]
 LuxCUDA = "0.3"
 
 ["0.9-0"]
-Lux = "0.5"
 NNlib = "0.9"
 
 ["0.9-0.12"]
@@ -151,3 +156,6 @@ ComponentArrays = "0.14"
 
 ["0.9-0.15"]
 Flux = "0.14"
+
+["0.9-0.20"]
+Lux = "0.5"
