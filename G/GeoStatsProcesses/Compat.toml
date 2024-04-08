@@ -5,7 +5,6 @@ Distances = "0.10"
 Distributed = "1.9.0-1"
 Distributions = "0.25"
 FFTW = "1.7.0-1"
-GeoTables = "1.9.0-1"
 LinearAlgebra = "1.9.0-1"
 ProgressMeter = "1.9.0-1"
 Random = "1.9.0-1"
@@ -24,6 +23,9 @@ Meshes = "0.35"
 
 ["0-0.3.6"]
 Variography = "0.19"
+
+["0-0.5.9"]
+GeoTables = "1.9.0-1"
 
 ["0.3.10-0.3"]
 Variography = "0.22"
@@ -67,8 +69,12 @@ GeoStatsModels = "0.3"
 ["0.4-0.5.3"]
 GeoStatsFunctions = "0.1"
 
+["0.5.10-0"]
+GeoTables = "1.19.0-1"
+Meshes = "0.42"
+
 ["0.5.4-0"]
 GeoStatsFunctions = "0.2"
 
-["0.5.9-0"]
+["0.5.9"]
 Meshes = "0.41"
