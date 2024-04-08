@@ -1,16 +1,26 @@
 [0]
 AMDGPU = "0.6-0.8"
-Adapt = "3.7.2-3"
 CUDA = "4.4.1-5"
-CellArrays = "0.1"
 GeoParams = "0.5"
 HDF5 = "0.17.1-0.17"
-ImplicitGlobalGrid = "0.14"
 MPI = "0.20"
 MuladdMacro = "0.2"
-ParallelStencil = "0.9-0.10"
 Reexport = "1.2.2-1"
-StaticArrays = "1.6.5-1"
-Statistics = "1.9.0-1"
 WriteVTK = "1.18.0-1"
 julia = "1.9.0-1"
+
+["0-0.1.1"]
+Adapt = "3.7.2-3"
+CellArrays = "0.1"
+ImplicitGlobalGrid = "0.14"
+ParallelStencil = "0.9-0.10"
+StaticArrays = "1.6.5-1"
+Statistics = "1.9.0-1"
+
+["0.1.2-0"]
+Adapt = "3"
+CellArrays = "0.2"
+ImplicitGlobalGrid = "0.15"
+ParallelStencil = "0.12"
+StaticArrays = "1"
+Statistics = "1"
