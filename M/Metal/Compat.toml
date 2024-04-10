@@ -39,8 +39,10 @@ StaticArrays = "1"
 ["0.4"]
 GPUCompiler = "0.20"
 
-["0.4-1"]
+["0.4-0"]
 Metal_LLVM_Tools_jll = "0.5"
+
+["0.4-1"]
 ObjectFile = "0.4"
 
 ["0.5-1"]
@@ -62,5 +64,17 @@ Adapt = "4"
 Artifacts = "1"
 CEnum = "0.4-0.5"
 GPUArrays = "10"
+
+["1.0"]
 GPUCompiler = "0.23-0.25"
+Metal_LLVM_Tools_jll = "0.5"
 ObjectiveC = "1.1.0-1"
+
+["1.1-1"]
+BFloat16s = "0.5"
+CodecBzip2 = "0.8"
+GPUCompiler = "0.26"
+LLVMDowngrader_jll = "0.1"
+ObjectiveC = "2.1.0-2"
+Preferences = "1"
+SHA = "0.7"
