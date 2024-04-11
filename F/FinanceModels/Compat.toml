@@ -8,7 +8,6 @@ Reexport = "1.2.0-1"
 StaticArrays = "1.6.0-1"
 Transducers = "0.4"
 UnicodePlots = "3.6.0-3"
-julia = "1.9.0-1"
 
 ["4-4.2"]
 Distributions = "0.25"
@@ -19,12 +18,24 @@ OptimizationOptimJL = "0.1.9-0.1"
 BSplineKit = "0.16"
 OptimizationMetaheuristics = "0.1.2-0.1"
 
+["4-4.7"]
+julia = "1.9.0-1"
+
 ["4.3-4"]
 Dates = "1.6.0-1"
 FinanceCore = "2.1.0-2"
-LinearAlgebra = "1.6.0-1"
 SpecialFunctions = "2"
 
-["4.7-4"]
+["4.3-4.7"]
+LinearAlgebra = "1.6.0-1"
+
+["4.7"]
 BSplineKit = "0.16-0.17"
+
+["4.7-4"]
 OptimizationMetaheuristics = "0.1.2-0.2"
+
+["4.8-4"]
+DataInterpolations = "4.7.1-4"
+LinearAlgebra = "1"
+julia = "1.10.0-1"
