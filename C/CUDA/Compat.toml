@@ -304,8 +304,6 @@ CUDA_Runtime_jll = "0.10"
 
 ["5.1-5"]
 CEnum = "0.2-0.5"
-CUDA_Driver_jll = "0.7"
-GPUCompiler = "0.24-0.25"
 LLVMLoopInfo = "1"
 Libdl = "1"
 LinearAlgebra = "1"
@@ -315,9 +313,20 @@ Random = "1"
 SparseArrays = "1"
 Statistics = "1"
 
+["5.1-5.2"]
+CUDA_Driver_jll = "0.7"
+GPUCompiler = "0.24-0.25"
+
+["5.2"]
+CUDA_Runtime_jll = "0.11"
+
 ["5.2-5"]
 Adapt = "4"
 BFloat16s = "0.2-0.5"
-CUDA_Runtime_jll = "0.11"
 GPUArrays = "10.0.1-10"
 StaticArrays = "1"
+
+["5.3-5"]
+CUDA_Driver_jll = "0.8"
+CUDA_Runtime_jll = "0.12"
+GPUCompiler = "0.24-0.26"
