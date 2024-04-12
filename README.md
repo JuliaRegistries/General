@@ -291,9 +291,12 @@ Registry maintainers are discouraged from merging packages they directly *or* in
 
 ### When is yanking a release appropriate?
 
-Releases that have already merged can be marked as "yanked" by adding `yanked = true` under the release entry in `Versions.toml`
-([example](https://github.com/JuliaRegistries/General/pull/94858/files)). This will mean that Pkg will no
-longer consider them to exist and not resolve those versions, but that version cannot be re-registed in General.
+Releases that have already merged can be marked as "yanked" by adding `yanked = true` under the release
+entry in `Versions.toml` ([example](https://github.com/JuliaRegistries/General/pull/94858/files)). This
+tells Pkg to no longer resolve those versions (e.g. when running `Pkg.add()` or `Pkg.resolve()`). However,
+to maintain perfect reproducibility of environments specified with a full manifest, yanked versions that
+are specifically listed in a manifest will continue to instantiate when running `Pkg.instantiate()` and
+yanked versions cannot be re-registered in General with different source code.
 
 The primary reason yanking exists is to make a release impossible to install. This is intended to be used for circumstances when having this
 release installed poses a risk to security or safety. It is not intended for avoiding people installing releases with bugs, for that use a
