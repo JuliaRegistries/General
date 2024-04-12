@@ -30,8 +30,6 @@ ITensors = "0.3.23-0.3"
 ["0.3-0"]
 AbstractTrees = "0.4.4-0.4"
 IterTools = "1.4.0-1"
-KrylovKit = "0.6"
-SparseArrayKit = "0.2.1-0.2"
 StaticArrays = "1.5.12-1"
 TimerOutputs = "0.5.22-0.5"
 
@@ -40,6 +38,10 @@ Observers = "0.0.8"
 
 ["0.3-0.4.0"]
 IsApprox = "0.1.7-0.1"
+
+["0.3-0.6"]
+KrylovKit = "0.6"
+SparseArrayKit = "0.2.1-0.2"
 
 ["0.3.2-0"]
 Combinatorics = "1"
@@ -72,3 +74,7 @@ NamedGraphs = "0.1.20-0.1"
 
 ["0.6-0"]
 NamedGraphs = "0.1.23-0.1"
+
+["0.7-0"]
+KrylovKit = "0.6-0.7"
+SparseArrayKit = "0.2.1-0.3"
