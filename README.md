@@ -298,17 +298,27 @@ to maintain perfect reproducibility of environments specified with a full manife
 are specifically listed in a manifest will continue to instantiate when running `Pkg.instantiate()` and
 yanked versions cannot be re-registered in General with different source code.
 
-The primary reason yanking exists is to make a release impossible to install. This is intended to be used for circumstances when having this
-release installed poses a risk to security or safety. It is not intended for avoiding people installing releases with bugs, for that use a
-patch release -- potentially after doing nothing more than `git revert`  in the package repo. All patch releases prior to the most recent have known bugs by definition.
+If a release is very broken (e.g. contains security vulnerabilities or bugs that are significantly worse 
+than the package erroring on load), then it may be yanked. Releasing an ordinary patch release—potentially 
+reusing the exact same source code as a previous release without the major bug—is a faster, easier to 
+deploy, and less disruptive way to prevent most users from installing a specific version. If you seek to
+yank a very broken release, you should typically also release a patch release.
 
-There is however, a special category of bugged releases that can not be resolved by having a patch release. These also need to be resolved by
-yanking. That special category is when the compat bounds have been set too wide. i.e. say `v2.10.0` was released using a feature not on julia
-`v1.6` but the compat entry for julia was not raised in the release. In this case releasing a `v2.10.1` with the corrected julia compat would
-not solve the issue as on julia v1.6 Pkg would still resolve the broken `v2.10.0`, and as a minor bump, reverting the code changes would not
-be valid in a patch bump.
+There is however, a special category of bugged releases that can not be resolved by having a patch release.
+These also may to be resolved by yanking. That special category is when the compat bounds have been set too
+wide. i.e. say `v2.10.0` was released using a feature not on julia `v1.6` but the compat entry for julia was
+not raised in the release. In this case releasing a `v2.10.1` with the corrected julia compat would not 
+solve the issue as on julia v1.6 Pkg would still resolve the broken `v2.10.0`, and as a minor bump, reverting
+the code changes would not be valid in a patch bump. In this case one may either submit a PR to retroactively
+adjust the compat bounds of previous versions (best user-facing results, but slow and error-prone to implement)
+or yank the offending release.
 
 If yanking is urgent, open a PR and raise it on the `#pkg-registration` [slack channel](https://julialang.org/slack/)
+
+For releases with actively exploited security vulnerabilities (i.e. malicious code) yanking is not suficient.
+In this case, the release should be completely deleated from the registry and a new patch release should be
+issued. This is a drastic measure that breaks reporoducivility garuntees and has never been warrented as of 
+April, 2024.
 
 ## Registry maintenance
 
