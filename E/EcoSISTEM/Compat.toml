@@ -8,13 +8,15 @@ IndexedTables = ["0.12.6-0.13", "1"]
 Measures = "0.3.1-0.3"
 OnlineStats = "1.5.8-1"
 Optim = ["0.18-0.22", "1"]
+SpatialEcology = "0.9"
+Unitful = "1.7.0-1"
+
+["0-0.1"]
 Phylo = "0.4.18-0.4"
 Plots = ["0.28.4-0.29", "1"]
 Requires = "1"
-SpatialEcology = "0.9"
 Statistics = "1.6.0-1"
 StatsBase = "0.32.2-0.33"
-Unitful = "1.7.0-1"
 julia = "1.6.0-1"
 
 ["0-0.1.0"]
@@ -57,8 +59,31 @@ JLD2 = "0.4.3-0.4"
 
 ["0.1.4-0"]
 ArchGDAL = "0.6-0.10"
+RasterDataSources = "0.5.6-0.5"
+
+["0.1.4-0.1"]
 Interpolations = "0.13.1-0.14"
 MPI = "0.17.2-0.20"
 NetCDF = "0.11"
 Pluto = "0.19.22-0.19"
-RasterDataSources = "0.5.6-0.5"
+
+["0.2-0"]
+Dates = "1.9.0-1"
+Interpolations = "0.13.1-0.15"
+LibGit2 = "1.9.0-1"
+Libdl = "1.9.0-1"
+LinearAlgebra = "1.9.0-1"
+Logging = "1.9.0-1"
+Markdown = "1.9.0-1"
+NetCDF = "0.10-0.11"
+Phylo = "0.4.18-0.5"
+Printf = "1.9.0-1"
+REPL = "1.9.0-1"
+Random = "1.9.0-1"
+RecipesBase = "1"
+SHA = "0.7"
+Statistics = "1.9.0-1"
+StatsBase = "0.32.2-0.34"
+UUIDs = "1.9.0-1"
+ZipArchives = "2"
+julia = "1.9.0-1"
