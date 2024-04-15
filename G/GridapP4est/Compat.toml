@@ -26,8 +26,10 @@ PartitionedArrays = "0.2.14-0.2"
 
 ["0.3-0"]
 MPI = "0.20"
-P4est_wrapper = "0.2"
 PartitionedArrays = "0.3.3-0.3"
+
+["0.3-0.3.5"]
+P4est_wrapper = "0.2"
 
 ["0.3.0"]
 Gridap = "0.17.18-0.17"
@@ -35,10 +37,17 @@ GridapDistributed = "0.3"
 
 ["0.3.1-0"]
 FillArrays = ["0.8.4-0.12", "1"]
-GridapDistributed = "0.3.1-0.3"
 
 ["0.3.1-0.3.4"]
 Gridap = "0.17.20-0.17"
 
-["0.3.5-0"]
+["0.3.1-0.3.5"]
+GridapDistributed = "0.3.1-0.3"
+
+["0.3.5"]
 Gridap = "0.17.22-0.17"
+
+["0.3.6-0"]
+Gridap = "0.17.22-0.18"
+GridapDistributed = "0.3.1-0.4"
+P4est_wrapper = "0.2.2-0.2"
