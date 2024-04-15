@@ -43,7 +43,7 @@ Juno = ["0.5.3-0.5", "0.7"]
 ["1.8-2.4"]
 QuartzImageIO = "0.6"
 
-["1.8-3"]
+["1.8-4"]
 FileIO = "1"
 
 ["1.9"]
@@ -74,11 +74,11 @@ Cairo = ["0.7-0.8", "1"]
 ["2.5-2.16"]
 QuartzImageIO = "0.6-0.7"
 
-["2.8-3"]
-Rsvg = "1"
-
 ["2.8-3.2"]
 julia = "1.3.0-1"
+
+["2.8-4"]
+Rsvg = "1"
 
 [3]
 LaTeXStrings = "1.1.0-1"
@@ -89,6 +89,18 @@ julia = "1.6.0-1"
 ["3.6-3.7"]
 SnoopPrecompile = "1"
 
-["3.8-3"]
+["3.8-4"]
 DataStructures = "0.18"
 PrecompileTools = "1"
+
+[4]
+Base64 = "1.6.0-1"
+Cairo = "1"
+Colors = "0.11-0.12"
+Dates = "1.6.0-1"
+FFMPEG = "0.4.1-0.4"
+LaTeXStrings = "1.2.0-1"
+MathTeXEngine = "0.5"
+PolygonAlgorithms = "0.2"
+Random = "1.6.0-1"
+julia = "1.9.0-1"
