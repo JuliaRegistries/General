@@ -33,11 +33,17 @@ CSV = "0.8-0.10"
 
 [1]
 CSV = "0.8"
-CUDA = "4.4.0-4"
 DocStringExtensions = "0.9"
 HDF5 = "0.17"
 JLD2 = "0.4"
 MKL = "0.4.2-0.4"
 MetaGraphs = "0.7"
 SparseArrays = "1.9.0-1"
+
+["1.0"]
+CUDA = "4.4.0-4"
 SpinGlassTensors = "1"
+
+["1.1-1"]
+CUDA = "5"
+SpinGlassTensors = "1.1.0-1"
