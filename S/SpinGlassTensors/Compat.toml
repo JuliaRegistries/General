@@ -23,7 +23,6 @@ TensorCast = "0.4"
 julia = "1.7.0-1"
 
 [1]
-CUDA = "4.4.1-4"
 DocStringExtensions = "0.9.3-0.9"
 LowRankApprox = "0.5.5-0.5"
 MKL = "0.4.2-0.4"
@@ -34,3 +33,9 @@ TSVD = "0.4.4-0.4"
 TensorOperations = "4"
 cuTENSOR = "1.1.0-1"
 julia = "1.9.0-1"
+
+["1.0"]
+CUDA = "4.4.1-4"
+
+["1.1-1"]
+CUDA = "5"
