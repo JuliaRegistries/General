@@ -33,11 +33,13 @@ Proj = "1"
 Scratch = "1"
 
 ["0.4-0"]
-AllocCheck = "0.1"
 Interpolations = "0.14-0.15"
 
 ["0.4-0.4.1"]
 NCDatasets = "0.13"
+
+["0.4-0.4.2"]
+AllocCheck = "0.1"
 
 ["0.4.2-0"]
 EarthSciMLBase = ["0.5-0.6", "0.8"]
