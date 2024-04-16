@@ -30,13 +30,15 @@ OrdinaryDiffEq = "5.64.0-5"
 ["0.3-0"]
 DiffEqBase = "6.75.0-6"
 Distributions = "0.25"
-Interpolations = "0.14"
 JLD2 = "0.4"
 Optim = "1.7.0-1"
 OrdinaryDiffEq = "6.29.0-6"
 
 ["0.3-0.3.1"]
 CloudMicrophysics = "0.10"
+
+["0.3-0.5"]
+Interpolations = "0.14"
 
 ["0.3.0"]
 EnsembleKalmanProcesses = "0.13"
@@ -63,3 +65,6 @@ Random = "1"
 ["0.5-0"]
 ClimaCore = "0.11"
 SpecialFunctions = "2.3.0-2"
+
+["0.6-0"]
+Interpolations = "0.15"
