@@ -108,11 +108,13 @@ Octavian = "0.3.27-0.3"
 DifferentialEquations = "7"
 Lux = "0.5.31-0.5"
 
+["0.22-0"]
+DifferentiationInterface = "0.1-0.2"
+
 ["0.6-0"]
 DataFrames = "1"
 FillArrays = "1"
 MLJModelInterface = "1"
-SparseDiffTools = "2"
 
 ["0.6-0.10"]
 ADTypes = "0.1"
@@ -122,6 +124,9 @@ SciMLBase = "1"
 
 ["0.6-0.20"]
 ProgressMeter = "1"
+
+["0.6-0.21"]
+SparseDiffTools = "2"
 
 ["0.6-0.7.1"]
 IterTools = "1"
