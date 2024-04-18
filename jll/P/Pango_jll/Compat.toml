@@ -3,15 +3,22 @@ JLLWrappers = "1.1.0-1"
 julia = "1"
 
 ["1.47-1"]
-Cairo_jll = "1.16.1-1"
-Glib_jll = "2.68.1-2"
 HarfBuzz_jll = "2.8.1-2"
 JLLWrappers = "1.2.0-1"
 julia = "1.6.0-1"
 
-["1.50.14-1"]
+["1.47-1.52.1"]
+Cairo_jll = "1.16.1-1"
+Glib_jll = "2.68.1-2"
+
+["1.50.14-1.52.1"]
 FreeType2_jll = "2.10.4-2"
 
 ["1.52-1"]
 Artifacts = "1"
 Libdl = "1"
+
+["1.52.2-1"]
+Cairo_jll = "1.18.0-1"
+FreeType2_jll = "2.13.1-2"
+Glib_jll = "2.74.0-2"
