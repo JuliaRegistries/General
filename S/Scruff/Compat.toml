@@ -1,6 +1,4 @@
 [0]
-DataStructures = "0.18.11-0.18"
-Distributions = "0.25.52-0.25"
 Folds = "0.2.7-0.2"
 MacroTools = "0.5.9-0.5"
 Parameters = "0.12.3-0.12"
@@ -23,14 +21,27 @@ SimpleTraits = "0.9.4-0.9"
 StatsBase = "0.33.16-0.33"
 TensorOperations = "3.2.3-3"
 
+["0-0.8.4"]
+DataStructures = "0.18.11-0.18"
+Distributions = "0.25.52-0.25"
+
 ["0.8.2"]
 PyCall = "1.95.1-1"
 
 ["0.8.2-0"]
 AbstractTrees = "0.3.4-0.4"
+
+["0.8.2-0.8.4"]
 StatsFuns = "1"
 
-["0.8.4-0"]
+["0.8.4"]
 Cassette = "0.3"
+
+["0.8.4-0"]
 Plots = "1"
 StatsBase = "0.33-0.34"
+
+["0.8.5-0"]
+DataStructures = "0.18"
+Distributions = "0.25"
+StatsFuns = ["0.7-0.9", "1"]
