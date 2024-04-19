@@ -23,9 +23,17 @@ QuantumLattices = "0.9"
 QuantumLattices = "0.9.4-0.9"
 julia = "1.8.0-1"
 
+["0.1.6"]
+QuantumLattices = "0.9.10-0.9"
+julia = "1.8-1.9"
+
 ["0.1.6-0"]
 LinearAlgebra = "1.8-1"
 Printf = "1.8-1"
-QuantumLattices = "0.9.10-0.9"
 SparseArrays = "1.8-1"
-julia = "1.8-1.9"
+
+["0.1.7-0"]
+LuxurySparse = "0.7"
+QuantumLattices = "0.9.14-0.9"
+TimerOutputs = "0.5"
+julia = "1.8-1.10"
