@@ -45,7 +45,7 @@ ChainRulesCore = "0.9.7-0.10"
 ["0.13-0.15"]
 AbstractPPL = "0.2"
 
-["0.14-0"]
+["0.14-0.24"]
 BangBang = "0.3"
 
 ["0.15.1-0.23"]
@@ -124,15 +124,17 @@ Compat = "4"
 ["0.23.7-0.23"]
 AbstractPPL = "0.6"
 
+["0.24"]
+AbstractPPL = "0.7"
+Setfield = "1"
+
 ["0.24-0"]
 AbstractMCMC = "5"
-AbstractPPL = "0.7"
 ChainRulesCore = "1"
 Distributions = "0.25"
 DocStringExtensions = "0.9"
 LinearAlgebra = "1.6.0-1"
 Random = "1.6.0-1"
-Setfield = "1"
 Test = "1.6.0-1"
 
 ["0.24.11-0"]
@@ -141,6 +143,11 @@ Bijectors = "0.13.9-0.13"
 ["0.24.7-0"]
 ADTypes = "0.2"
 LogDensityProblemsAD = "1.7.0-1"
+
+["0.25-0"]
+AbstractPPL = "0.8.4-0.8"
+Accessors = "0.1"
+BangBang = "0.4.1-0.4"
 
 ["0.3"]
 AbstractMCMC = "0.3"
