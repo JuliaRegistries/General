@@ -1,12 +1,9 @@
 [0]
 CodecZlib = "0.7"
-DataFrames = "1"
 Downloads = "1"
 FortranFiles = "0.6"
 Glob = "1"
-OrderedCollections = "1"
 Scratch = "1"
-Suppressor = "0.2"
 Tar = "1"
 julia = "1.9.0-1"
 
@@ -14,6 +11,16 @@ julia = "1.9.0-1"
 ClimateModels = "0.2-0.3"
 MeshArrays = "0.2-0.3"
 
+["0-0.3.5"]
+DataFrames = "1"
+OrderedCollections = "1"
+Suppressor = "0.2"
+
 ["0.3.1-0"]
 ClimateModels = "0.3"
 MeshArrays = "0.3"
+
+["0.3.6-0"]
+Dataverse = "0.2"
+SparseArrays = "1"
+Statistics = "1"
