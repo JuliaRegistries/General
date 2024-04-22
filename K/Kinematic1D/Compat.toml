@@ -1,6 +1,5 @@
 [0]
 ClimaCorePlots = "0.2"
-NCDatasets = "0.12"
 Plots = "1.29.0-1"
 ProgressLogging = "0.1"
 TerminalLoggers = "0.1"
@@ -19,6 +18,9 @@ julia = "1.7.0-1"
 
 ["0-0.4"]
 ClimaCore = "0.10"
+
+["0-0.6"]
+NCDatasets = "0.12"
 
 ["0.1.1-0.2"]
 CloudMicrophysics = "0.8"
@@ -50,21 +52,35 @@ EnsembleKalmanProcesses = "1.1.0-1"
 CloudMicrophysics = "0.11.1-0.11"
 
 ["0.3.4-0"]
-Thermodynamics = "0.11"
 julia = "1.8.0-1"
 
 ["0.3.4-0.3"]
 CloudMicrophysics = "0.13.3-0.13"
 
+["0.3.4-0.6"]
+Thermodynamics = "0.11"
+
 ["0.4-0"]
-CloudMicrophysics = "0.15"
 LinearAlgebra = "1"
 Logging = "1"
 Random = "1"
 
+["0.4-0.6"]
+CloudMicrophysics = "0.15"
+
 ["0.5-0"]
-ClimaCore = "0.11"
 SpecialFunctions = "2.3.0-2"
+
+["0.5-0.6"]
+ClimaCore = "0.11"
 
 ["0.6-0"]
 Interpolations = "0.15"
+
+["0.7-0"]
+ClimaCore = "0.13"
+ClimaParams = "0.10.5-0.10"
+CloudMicrophysics = "0.18"
+DocStringExtensions = "0.9.3-0.9"
+NCDatasets = "0.14"
+Thermodynamics = "0.12.6-0.12"
