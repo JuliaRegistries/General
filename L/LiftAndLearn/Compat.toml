@@ -1,4 +1,4 @@
-[0]
+[0-1]
 BlockDiagonals = "0.1"
 FFTW = "1.7.0-1"
 Ipopt = "1.5.0-1"
@@ -7,3 +7,11 @@ MatrixEquations = "2.3.0-2"
 Parameters = "0.12"
 SCS = "2"
 julia = "1.8.0-1"
+
+[1]
+Alpine = "0.5-0.6"
+Distributions = "0.25-0.26"
+DocStringExtensions = "0.9"
+Kronecker = "0.5"
+QuasiMonteCarlo = "0.3-0.4"
+StatsBase = "0.34-0.35"
