@@ -1,7 +1,6 @@
 [0]
 CSV = "0.10"
 DataFrames = "1"
-DataFramesMeta = "0.14"
 Distributions = "0.25"
 DoubleFloats = "1"
 FiniteDiff = "2"
@@ -19,6 +18,9 @@ Turing = "0.24-0.26"
 DimensionalData = "0.24"
 Statistics = "1.8.0-1"
 
+["0-0.2.6"]
+DataFramesMeta = "0.14"
+
 ["0.2.2"]
 Turing = "0.24-0.28"
 
@@ -26,11 +28,18 @@ Turing = "0.24-0.28"
 Turing = "0.24-0.29"
 
 ["0.2.4-0"]
-DimensionalData = "0.24-0.25"
 Distributed = "1.8.0-1"
 LinearAlgebra = "1.8.0-1"
 Logging = "1.8.0-1"
 Statistics = "1"
 
-["0.2.6-0"]
+["0.2.4-0.2.6"]
+DimensionalData = "0.24-0.25"
+
+["0.2.6"]
 Turing = "0.24-0.30"
+
+["0.2.7-0"]
+DataFramesMeta = "0.14-0.15"
+DimensionalData = "0.24-0.26"
+Turing = "0.24-0.31"
