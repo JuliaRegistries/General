@@ -141,13 +141,18 @@ Test = "1.6.0-1"
 Bijectors = "0.13.9-0.13"
 
 ["0.24.7-0"]
-ADTypes = "0.2"
 LogDensityProblemsAD = "1.7.0-1"
+
+["0.24.7-0.25.2"]
+ADTypes = "0.2"
 
 ["0.25-0"]
 AbstractPPL = "0.8.4-0.8"
 Accessors = "0.1"
 BangBang = "0.4.1-0.4"
+
+["0.25.3-0"]
+ADTypes = ["0.2", "1"]
 
 ["0.3"]
 AbstractMCMC = "0.3"
