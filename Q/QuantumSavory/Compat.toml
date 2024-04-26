@@ -1,5 +1,4 @@
 [0]
-Graphs = "1.7.3-1"
 IterTools = "1.4.0-1"
 NetworkLayout = "0.4.4-0.4"
 QuantumOptics = "1.0.5-1"
@@ -26,6 +25,9 @@ Makie = "0.19"
 ["0-0.3.2"]
 ResumableFunctions = "0.6.1-0.6"
 
+["0-0.3.3"]
+Graphs = "1.7.3-1"
+
 ["0.1.1-0.1"]
 QuantumSymbolics = "0.1.1-0.1"
 
@@ -35,7 +37,6 @@ QuantumSymbolics = "0.2"
 
 ["0.2-0"]
 PrecompileTools = "1"
-QuantumClifford = "0.8"
 julia = "1.9.0-1"
 
 ["0.2-0.3.0"]
@@ -44,6 +45,9 @@ QuantumOpticsBase = "0.4"
 
 ["0.2-0.3.1"]
 Statistics = "1.9.0-1"
+
+["0.2-0.3.3"]
+QuantumClifford = "0.8"
 
 ["0.3-0.3.1"]
 ConcurrentSim = "1.1.0-1"
@@ -56,6 +60,8 @@ QuantumSymbolics = "0.2.4-0.2"
 
 ["0.3.1-0"]
 DocStringExtensions = "0.9"
+
+["0.3.1-0.3.3"]
 QuantumInterface = "0.3.3-0.3"
 QuantumOpticsBase = "0.4.17-0.4"
 
@@ -67,14 +73,28 @@ SumTypes = "0.5"
 ["0.3.2-0"]
 Combinatorics = "1"
 ConcurrentSim = "1.4.0-1"
-Makie = "0.19-0.20"
 QuantumSymbolics = "0.2.5-0.2"
 Statistics = "1"
 
-["0.3.3-0"]
+["0.3.2-0.3.3"]
+Makie = "0.19-0.20"
+
+["0.3.3"]
 Distributions = "0.25"
+ResumableFunctions = "0.6"
+SumTypes = "0.5.1-0.5"
+
+["0.3.3-0"]
 LinearAlgebra = "1"
 Printf = "1"
 Random = "1"
-ResumableFunctions = "0.6"
-SumTypes = "0.5.1-0.5"
+
+["0.3.4-0"]
+Distributions = "0.25.90-0.25"
+Graphs = "1.9.0-1"
+Makie = "0.20"
+QuantumClifford = "0.8.20-0.9"
+QuantumInterface = "0.3.4-0.3"
+QuantumOpticsBase = "0.4.18-0.4"
+ResumableFunctions = "0.6.9-0.6"
+SumTypes = "0.5.5-0.5"
