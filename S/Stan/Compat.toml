@@ -48,18 +48,26 @@ StanSample = "7"
 ["10.4.1-10"]
 StatsBase = "0.33-0.34"
 
-["10.4.3-10"]
+["10.4.3-10.7.0"]
 NamedArrays = "0.9-0.10"
 
-["10.4.5-10"]
+["10.4.5-10.7.0"]
 DimensionalData = "0.24-0.25"
 InferenceObjects = "0.3"
 
 ["10.5-10"]
-DocStringExtensions = "0.8-0.9"
 PosteriorDB = "0.4-0.5"
 StanSample = "7-8"
 StanVariational = "4"
+
+["10.5-10.7.0"]
+DocStringExtensions = "0.8-0.9"
+
+["10.7.1-10"]
+DimensionalData = ["0.24-0.25", "0.27"]
+DocStringExtensions = "0.9"
+InferenceObjects = "0.3-0.4"
+NamedArrays = "0.10"
 
 [3]
 BinDeps = "0.4.3-0.8"
