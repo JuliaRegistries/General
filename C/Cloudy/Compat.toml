@@ -35,11 +35,16 @@ RecursiveArrayTools = "2.38.0-2"
 DocStringExtensions = "0.9"
 LinearAlgebra = "1"
 Logging = "1"
-NumericalIntegration = "0.3.3-0.3"
 QuadGK = "2.9.0-2"
 SpecialFunctions = "2.3.0-2"
 TerminalLoggers = "0.1"
 julia = "1.9.0-1"
 
+["0.3-0.4"]
+NumericalIntegration = "0.3.3-0.3"
+
 ["0.4-0"]
 Optim = "1.7.0-1"
+
+["0.5-0"]
+StaticArrays = "1.9.0-1"
