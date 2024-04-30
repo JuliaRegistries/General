@@ -69,11 +69,13 @@ ComradeBase = "0.5"
 VLBISkyModels = "0.3"
 
 ["0.11.1-0"]
-ComradeBase = "0.6"
-DimensionalData = "0.25"
 HDF5 = "0.14-0.17"
 Interpolations = "0.12-0.15"
 VLBISkyModels = "0.4"
+
+["0.11.1-0.11.6"]
+ComradeBase = "0.6"
+DimensionalData = "0.25"
 
 ["0.11.2-0"]
 ChainRulesCore = "1"
@@ -81,6 +83,11 @@ NamedTupleTools = "0.14"
 
 ["0.11.3-0"]
 StatsBase = "0.33-0.34"
+
+["0.11.7-0"]
+ComradeBase = "0.6-0.7"
+DimensionalData = "0.25-0.27"
+StructArrays = "0.6"
 
 ["0.2"]
 FITSIO = "0.14-0.15"
