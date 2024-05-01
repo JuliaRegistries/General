@@ -1,21 +1,23 @@
 ["0-0.3.0"]
 Bootstrap = "0-2"
-CSV = "0.0.0 - 0.7"
-CategoricalArrays = "0.0.0 - 0.8"
-Clustering = "0.0.0 - 0.14"
-DataFrames = "0.0.0 - 0.21"
-Distances = "0.0.0 - 0.9"
-Distributions = "0.0.0 - 0.23"
+CSV = "0.0.0-0.7"
+CategoricalArrays = "0.0.0-0.8"
+Clustering = "0.0.0-0.14"
+DataFrames = "0.0.0-0.21"
+Distances = "0.0.0-0.9"
+Distributions = "0.0.0-0.23"
 GLM = "0-1"
-HypothesisTests = "0.0.0 - 0.10"
-KernelDensity = "0.0.0 - 0.6"
-Loess = "0.0.0 - 0.5"
-MultivariateStats = "0.0.0 - 0.7"
-Reexport = "0.0.0 - 0.2"
-StatsBase = "0.0.0 - 0.33"
-TimeSeries = "0.0.0 - 0.19"
+HypothesisTests = "0.0.0-0.10"
+KernelDensity = "0.0.0-0.6"
+Loess = "0.0.0-0.5"
+MultivariateStats = "0.0.0-0.7"
+Reexport = "0.0.0-0.2"
+Statistics = ["0.7", "1"]
+StatsBase = "0.0.0-0.33"
+TimeSeries = "0.0.0-0.19"
 julia = ["0.7", "1"]
 
 ["0.3.1-0"]
 Reexport = ["0.2", "1"]
+Statistics = "1"
 julia = "1"

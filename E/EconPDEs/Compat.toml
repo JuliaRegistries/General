@@ -1,11 +1,11 @@
 ["0-0.2.0"]
-DataStructures = "0.0.0 - 0.18"
+DataStructures = "0.0.0-0.18"
 
 ["0-0.2.1"]
-ForwardDiff = "0.0.0 - 0.10"
-Interpolations = "0.0.0 - 0.12"
+ForwardDiff = "0.0.0-0.10"
+Interpolations = "0.0.0-0.12"
 NLsolve = "0-4"
-Reexport = "0.0.0 - 0.2"
+Reexport = "0.0.0-0.2"
 
 ["0-0.2.2"]
 julia = ["0.7", "1"]
@@ -15,28 +15,30 @@ DifferentialEquations = "0-6"
 OrderedCollections = "0-1"
 
 ["0.2.2"]
-MINPACK = "0.0.0 - 1"
+MINPACK = "0.0.0-1"
 
 ["0.2.2-0.3"]
-NLsolve = "0.0.0 - 4"
-OrderedCollections = "0.0.0 - 1"
+NLsolve = "0.0.0-4"
+OrderedCollections = "0.0.0-1"
 
 ["0.2.3"]
-SparseDiffTools = "0.3.0 - 1"
+SparseDiffTools = "0.3.0-1"
 
 ["0.2.3-0.3"]
-BlockBandedMatrices = "0.0.0 - 0.7"
-DiffEqDiffTools = "0.0.0 - 1"
+BlockBandedMatrices = "0.0.0-0.7"
+DiffEqDiffTools = "0.0.0-1"
 julia = "1.1.0-1"
 
 ["0.2.4-0.3"]
-SparseDiffTools = "0.8.0 - 1"
+SparseDiffTools = "0.8.0-1"
 
 ["0.4-1"]
 NLsolve = "1-4"
 OrderedCollections = "1"
-SparseDiffTools = "1.2.0-1"
 julia = "1.2.0-1"
+
+["0.4-1.0.1"]
+SparseDiffTools = "1.2.0-1"
 
 ["0.4.0"]
 BlockBandedMatrices = "0.7"
@@ -51,5 +53,12 @@ FiniteDiff = "2"
 ["1.0.0"]
 BlockBandedMatrices = "0.7-0.10"
 
-["1.0.1-1"]
+["1.0.1-1.0.2"]
 BlockBandedMatrices = "0.7-0.11"
+
+["1.0.2-1"]
+LinearAlgebra = "1"
+SparseDiffTools = "1.2.0-2"
+
+["1.0.3-1"]
+BlockBandedMatrices = "0.7-0.12"

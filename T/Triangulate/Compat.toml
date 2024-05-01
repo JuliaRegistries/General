@@ -2,14 +2,22 @@
 BinDeps = "0.8.10-0.8"
 julia = "1"
 
-[0-2]
+["0-2.1"]
 DocStringExtensions = "0.8"
 
 ["0.2-0.4"]
 BinaryProvider = "0.5.8-0.5"
 
-["0.5-2"]
+["0.5-2.2"]
 julia = "1.3.0-1"
 
-[1-2]
+["1-2.1"]
 Triangle_jll = "1.6.0-1"
+
+["2.2-2"]
+DocStringExtensions = "0.8-0.9"
+Triangle_jll = "1.6.2-1"
+
+["2.3-2"]
+Printf = "1.6.0-1"
+julia = "1.6.0-1"

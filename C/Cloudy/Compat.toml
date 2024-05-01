@@ -1,4 +1,4 @@
-[0]
+["0-0.1"]
 Coverage = ["0.9.3-0.9", "1"]
 DifferentialEquations = "6.8.0-6"
 DocStringExtensions = "0.8.1-0.8"
@@ -8,4 +8,43 @@ Optim = "0.19.4-0.20"
 PyPlot = "2.8.2-2"
 SpecialFunctions = "0.8"
 TaylorSeries = "0.10.1-0.10"
+
+["0-0.2"]
 julia = "1.1.0-1"
+
+["0.2"]
+Coverage = "1.4.0-1"
+DifferentialEquations = "7.1.0-7"
+DocStringExtensions = "0.8"
+ForwardDiff = "0.10"
+NLPModels = "0.18"
+NLPModelsIpopt = "0.9"
+Optim = "1.6.0-1"
+PyPlot = "2.10.0-2"
+Requires = "1.3.0-1"
+SpecialFunctions = "2.1.0-2"
+TaylorSeries = "0.12"
+
+["0.2-0.3"]
+HCubature = "1.5.0-1"
+
+["0.3"]
+RecursiveArrayTools = "2.38.0-2"
+
+["0.3-0"]
+DocStringExtensions = "0.9"
+LinearAlgebra = "1"
+Logging = "1"
+QuadGK = "2.9.0-2"
+SpecialFunctions = "2.3.0-2"
+TerminalLoggers = "0.1"
+julia = "1.9.0-1"
+
+["0.3-0.4"]
+NumericalIntegration = "0.3.3-0.3"
+
+["0.4-0"]
+Optim = "1.7.0-1"
+
+["0.5-0"]
+StaticArrays = "1.9.0-1"

@@ -1,8 +1,5 @@
 [0]
-BeliefUpdaters = "8bb6e9a1-7d73-552c-a44a-e5dc5634aac4"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
-POMDPPolicies = "182e52fb-cfd0-5e46-8c26-fd0667c990f4"
 POMDPs = "a93abf59-7444-517b-a68a-c42f96afdd7d"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
@@ -10,11 +7,20 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 ["0-0.2"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.3.13"]
+BeliefUpdaters = "8bb6e9a1-7d73-552c-a44a-e5dc5634aac4"
+POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
+POMDPPolicies = "182e52fb-cfd0-5e46-8c26-fd0667c990f4"
+
 ["0.1.1-0"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 ["0.3-0"]
 NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
+
+["0.3.14-0"]
+POMDPTools = "7588e00f-9cae-40de-98dc-e0c70c48cdd7"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["0.3.6-0"]
 POMDPLinter = "f3bd98c0-eb40-45e2-9eb1-f2763262d755"

@@ -1,6 +1,4 @@
 [0]
-ConstrainedRootSolvers = "7e2492bd-0955-4089-8696-9df2af57a479"
-DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 WaterPhysics = "20dd5ee6-61da-454b-ac5d-c09c2977e03a"
@@ -8,19 +6,35 @@ WaterPhysics = "20dd5ee6-61da-454b-ac5d-c09c2977e03a"
 ["0-0.1.0"]
 Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 
+["0-0.2"]
+ConstrainedRootSolvers = "7e2492bd-0955-4089-8696-9df2af57a479"
+
 ["0-0.2.5"]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 CLIMAParameters = "6eacf6c3-8458-43b9-ae03-caf5306d3d53"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 
-["0.2.10-0"]
+["0-0.3"]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+
+["0.2.10-0.2"]
 HypergeometricFunctions = "34004b35-14d8-5ef3-9330-4cdb6864b03a"
 
-["0.2.2-0"]
+["0.2.2-0.3"]
 PkgUtility = "0d262f2c-28e9-492c-8e19-d7a5c4f11611"
 
 ["0.2.6-0"]
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
-["0.2.9-0"]
+["0.2.9-0.2"]
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0.3-0"]
+ClimaCache = "781d2db2-48ae-11ec-81d3-0242ac130003"
+SoilHydraulics = "a476b75e-cbd8-4dc1-9f75-18b781368c48"
+
+["0.3.1-0"]
+ConstrainedRootSolvers = "7e2492bd-0955-4089-8696-9df2af57a479"
+
+["0.4.3-0"]
+EmeraldConstants = "f1e47f7f-56cf-4a63-9b2b-695e95ad7a29"

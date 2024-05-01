@@ -7,8 +7,10 @@ AxisArrays = "0.3-0.4"
 julia = "1"
 
 ["0.10-0"]
-NCDatasets = "0.10-0.11"
 StaticArrays = ["0.12", "1"]
+
+["0.10-0.15"]
+NCDatasets = "0.10-0.11"
 
 ["0.11-0.12.2"]
 DimensionalData = "0.16"
@@ -19,11 +21,40 @@ DimensionalData = "0.16-0.17"
 ["0.12.5-0.13.5"]
 DimensionalData = "0.17.2-0.17"
 
-["0.13.5-0"]
+["0.13.5-0.16.3"]
 Interpolations = "0.13.2-0.13"
 
-["0.13.6-0"]
+["0.13.6-0.13"]
 DimensionalData = "0.18"
+
+["0.14-0.14.1"]
+DimensionalData = "0.20"
+
+["0.14-0.16"]
+Requires = "1"
+
+["0.14.2-0.16.3"]
+DimensionalData = "0.20.1-0.20"
+
+["0.16-0.16.1"]
+NCDatasets = "0.11"
+
+["0.16.2-0"]
+NCDatasets = "0.11-0.12"
+
+["0.16.4-0"]
+DimensionalData = "0.20.1-0.24"
+
+["0.16.4-0.16"]
+Interpolations = "0.13.2-0.14"
+
+["0.16.5-0"]
+StatsBase = "0.33-0.34"
+
+["0.17-0"]
+Interpolations = "0.13.2-0.15"
+SignalDecomposition = "1.1.0-1"
+julia = "1.9.0-1"
 
 ["0.3"]
 Images = "0.18-0.22"
@@ -31,13 +62,19 @@ Images = "0.18-0.22"
 ["0.3-0.6"]
 ArgCheck = "1-2"
 
+["0.5-0.6"]
+Statistics = "1"
+
 ["0.7"]
 DimensionalData = "0.12.1-0.12"
 
-["0.7-0"]
+["0.7-0.16"]
 SignalDecomposition = "1"
-StatsBase = "0.33"
+Statistics = "1.5.0-1"
 julia = "1.5.0-1"
+
+["0.7-0.16.4"]
+StatsBase = "0.33"
 
 ["0.7-0.9"]
 NCDatasets = "0.10"

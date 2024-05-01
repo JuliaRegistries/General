@@ -1,23 +1,28 @@
 ["0-0.3"]
 julia = ["0.7", "1"]
 
-["0-0.5.0"]
-MacroTools = "0.4.4 - 0.5"
+[0-1]
+MacroTools = "0.4.4-0.5"
 
 ["0.4-0"]
 julia = "1"
 
 ["0.5.0"]
-ConstructionBase = "0.0.0 - 0.1"
+ConstructionBase = "0.0.0-0.1"
 
 ["0.5.1"]
 ConstructionBase = "0.1"
 
-["0.5.1-0"]
-MacroTools = "0.4.4-0.5"
-
-["0.5.2-0"]
+["0.5.2-1"]
 ConstructionBase = ["0.1", "1"]
 
 ["0.5.3-0"]
 Requires = ["0.5", "1"]
+
+["1.0"]
+Requires = ["0.5", "1"]
+julia = "1"
+
+["1.1-1"]
+StaticArraysCore = "1"
+julia = "1.6.0-1"

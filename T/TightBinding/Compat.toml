@@ -6,3 +6,10 @@ Dierckx = "0.4-0.5"
 Plots = "1.4.0-1"
 Requires = "1"
 StatsBase = "0.33"
+
+["0.1.4"]
+GR = "0.64"
+
+["0.1.5-0"]
+GR = ["0.64", "0.71"]
+ProgressBars = "1"

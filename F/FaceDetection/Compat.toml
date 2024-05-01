@@ -1,8 +1,4 @@
-["0-0.1.0"]
-Images = "0.22.4-0.22"
-Netpbm = "0.4.1-0.4"
-
-[0-1]
+[0]
 ColorTypes = "0.10.9-0.10"
 FileIO = "1.4.3-1"
 ImageDraw = "0.2.3-0.2"
@@ -13,6 +9,37 @@ ProgressMeter = "1.3.2-1"
 QuartzImageIO = "0.7.3-0.7"
 julia = "1"
 
-["0.1.1-1"]
+["0-0.1.0"]
+Images = "0.22.4-0.22"
+Netpbm = "0.4.1-0.4"
+
+["0.1.1-0"]
 Images = "0.22.4-0.23"
 Netpbm = ["0.4.1-0.4", "1"]
+
+["1.0"]
+ColorTypes = "0.10.9-0.10"
+FileIO = "1.4.3-1"
+ImageDraw = "0.2.3-0.2"
+ImageIO = "0.3"
+ImageMagick = "1.1.6-1"
+ImageView = "0.10.9-0.10"
+Images = "0.22.4-0.23"
+Netpbm = ["0.4.1-0.4", "1"]
+ProgressMeter = "1.3.2-1"
+QuartzImageIO = "0.7.3-0.7"
+julia = "1"
+
+["1.1-1"]
+ColorTypes = "0.11"
+FileIO = "1"
+ImageDraw = "0.2"
+ImageIO = "0.5-0.6"
+ImageMagick = "1"
+ImageView = "0.10"
+Images = "0.25"
+IntegralArrays = "0.1"
+Netpbm = "1"
+ProgressMeter = "1"
+QuartzImageIO = "0.7"
+julia = "1.4.0-1"

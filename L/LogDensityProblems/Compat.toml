@@ -1,5 +1,5 @@
 ["0-0.4.0"]
-ForwardDiff = "0.0.0 - 0.10"
+ForwardDiff = "0.0.0-0.10"
 
 ["0-0.8.0"]
 ArgCheck = "0-1"
@@ -7,23 +7,23 @@ TransformVariables = "0-0.2"
 julia = ["0.7", "1"]
 
 ["0-0.9.1"]
-DiffResults = "0.0.0 - 0.0.4"
-DocStringExtensions = "0.0.0 - 0.8"
-Parameters = "0.0.0 - 0.12"
+DiffResults = "0.0.0-0.0.4"
+DocStringExtensions = "0.0.0-0.8"
+Parameters = "0.0.0-0.12"
 
-["0.10-0"]
+["0.10-1.0.1"]
 DiffResults = ["0.0", "1"]
 
-["0.10.1-0"]
+["0.10.1-1"]
 Requires = ["0.5", "1"]
 
-["0.10.2-0"]
+["0.10.2-2"]
 ArgCheck = "1-2"
 
 ["0.10.3-0.10.4"]
 BenchmarkTools = "0.4-0.5"
 
-["0.10.4-0"]
+["0.10.4-2.1.0"]
 UnPack = ["0.1", "1"]
 
 ["0.10.5-0.10"]
@@ -32,17 +32,23 @@ BenchmarkTools = "0.4-0.7"
 ["0.10.5-0.11.0"]
 TransformVariables = "0.2-0.4"
 
-["0.11.1-0"]
+["0.11.1"]
 TransformVariables = "0.2-0.5"
 
+["0.11.2-0"]
+TransformVariables = "0.2-0.6"
+
+["0.11.3-2"]
+DocStringExtensions = "0.8-0.9"
+
 ["0.3-0.4.0"]
-Flux = "0.0.0 - 0.11"
+Flux = "0.0.0-0.11"
 
 ["0.3-0.9.1"]
-BenchmarkTools = "0.0.0 - 0.4"
+BenchmarkTools = "0.0.0-0.4"
 
 ["0.4.1-0.9.1"]
-Requires = "0.0.0 - 0.5"
+Requires = "0.0.0-0.5"
 
 ["0.8.1"]
 TransformVariables = "0.2"
@@ -51,16 +57,13 @@ TransformVariables = "0.2"
 julia = "1"
 
 ["0.8.1-0.9.1"]
-ArgCheck = "0.0.0 - 1"
+ArgCheck = "0.0.0-1"
 
 ["0.8.2"]
-TransformVariables = "0.2.0 - 0.3"
+TransformVariables = "0.2.0-0.3"
 
 ["0.8.3-0.10.4"]
 TransformVariables = "0.2-0.3"
-
-["0.9.2-0"]
-DocStringExtensions = "0.8"
 
 ["0.9.2-0.10.0"]
 Requires = "0.5"
@@ -74,5 +77,11 @@ BenchmarkTools = "0.4"
 ["0.9.2-0.10.3"]
 Parameters = "0.12"
 
+["0.9.2-0.11.2"]
+DocStringExtensions = "0.8"
+
 ["0.9.2-0.9"]
 DiffResults = "0.0.4"
+
+[1-2]
+julia = "1.6.0-1"

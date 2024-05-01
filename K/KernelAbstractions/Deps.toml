@@ -1,6 +1,5 @@
 [0]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
@@ -12,7 +11,10 @@ CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
 ["0-0.2.3"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["0.2.5-0"]
+["0-0.7"]
+Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
+
+["0.2.5-0.7"]
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
 ["0.3"]
@@ -26,3 +28,23 @@ InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
 ["0.4.4-0"]
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+
+["0.8-0"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0.8.2-0"]
+Atomix = "a9b6321e-bd34-4604-b9c9-b65b8de01458"
+UnsafeAtomicsLLVM = "d80eeb9a-aca5-4d75-85e5-170c8b632249"
+
+["0.8.3-0"]
+UnsafeAtomics = "013be700-e6cd-48c3-b4a1-df204f14c38f"
+
+["0.9-0.9.2"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.9.3-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["0.9.7-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"

@@ -1,4 +1,5 @@
 ["0-0.4"]
+LowRankApprox = "0.2"
 SpecialFunctions = "0.7"
 
 ["0-0.4.0"]
@@ -11,13 +12,12 @@ julia = ["0.7", "1"]
 ["0-0.4.2"]
 DualNumbers = "0.5-0.6"
 FastTransforms = "0.4.1-0.4"
-LowRankApprox = "0.2.0 - 0.2"
 RecipesBase = "0.1"
 
 ["0.4.1"]
 ApproxFun = "0.10"
 BandedMatrices = "0.7.1-0.7"
-DomainSets = "0.0.0 - 0.0.2"
+DomainSets = "0.0.0-0.0.2"
 
 ["0.4.2"]
 ApproxFun = "0.11.1-0.11"
@@ -47,7 +47,6 @@ BlockArrays = "0.9.1-0.9"
 BlockBandedMatrices = "0.4.5-0.4"
 FastTransforms = "0.5"
 InfiniteArrays = "0.1.1-0.1"
-LowRankApprox = "0.2"
 RecipesBase = "0.7"
 
 ["0.4.3-0.5"]
@@ -66,9 +65,11 @@ HypergeometricFunctions = "0.1"
 LowRankApprox = "0.2-0.3"
 SpecialFunctions = "0.7-0.8"
 
+["0.6"]
+julia = "1.3.0-1"
+
 ["0.6-0"]
 ApproxFunFourier = "0.2"
-julia = "1.3.0-1"
 
 ["0.6-0.6.1"]
 SpecialFunctions = "0.7-0.9"
@@ -117,6 +118,8 @@ ApproxFun = "0.11.8-0.12"
 
 ["0.6.6-0"]
 ApproxFunSingularities = "0.1.6-0.2"
+
+["0.6.6-0.6"]
 BandedMatrices = "0.14.2-0.16"
 SpecialFunctions = ["0.7-0.10", "1.1.0-1"]
 
@@ -136,3 +139,8 @@ LowRankApprox = "0.4-0.5"
 
 ["0.6.9-0"]
 ApproxFun = "0.11.8-0.13"
+
+["0.7-0"]
+BandedMatrices = "0.14.2-0.17"
+SpecialFunctions = ["0.7-0.10", "1.1.0-2"]
+julia = "1.6.0-1"

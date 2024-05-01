@@ -1,6 +1,6 @@
 [0]
-DocumentFunction = "0.0.0 - 0.6"
-NearestNeighbors = "0.0.0 - 0.4"
+DocumentFunction = "0.0.0-0.6"
+NearestNeighbors = "0.0.0-0.4"
 
 ["0-0.3"]
 julia = "1"
@@ -17,4 +17,14 @@ julia = "1.4.0-1"
 [1]
 DocumentFunction = "1"
 NearestNeighbors = "0.4-0.5"
+
+["1-1.1"]
 julia = "1.5.0-1"
+
+["1.2-1"]
+LinearAlgebra = "1"
+Random = "1"
+julia = "1.9.0-1"
+
+["1.3-1"]
+Test = "1"

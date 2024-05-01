@@ -1,4 +1,9 @@
-[0]
+["0-0.1"]
+Parameters = "0.12"
+StatsBase = "0.33"
+StatsFuns = "0.9"
+
+["0-0.2"]
 Distributions = "0.24"
 Documenter = "0.27"
 ForwardDiff = "0.10"
@@ -11,13 +16,22 @@ StatsPlots = "0.14"
 TransformVariables = "0.4"
 julia = "1.6.0-1"
 
-["0-0.1"]
-Parameters = "0.12"
-StatsBase = "0.33"
-StatsFuns = "0.9"
-
-["0.2-0"]
+["0.2"]
 DataStructures = "0.18"
 GalacticOptim = "2"
 OffsetArrays = "1.10.0-1"
 Zygote = "0.6"
+
+["0.3"]
+Distributions = "0.25.66-0.25"
+
+["0.3-0"]
+DensityInterface = "0.4"
+julia = "1.7.0-1"
+
+["0.3-0.4"]
+Statistics = "1.7.0-1"
+
+["0.4-0"]
+Distributions = "0.25"
+StatsAPI = "1.6.0-1"

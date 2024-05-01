@@ -4,7 +4,7 @@ WeakRefStrings = "0.4.4-0.5"
 ["0-0.7"]
 Compat = "0.19-2"
 NamedTuples = "2.1-5"
-PooledArrays = "0.2.0 - 0.5"
+PooledArrays = "0.2.0-0.5"
 TableTraits = "0-1"
 TableTraitsUtils = "0-1"
 julia = "0.6-1"
@@ -13,26 +13,30 @@ julia = "0.6-1"
 OnlineStats = "0.17-0.23"
 
 ["0.10"]
-DataValues = "0.0.0 - 0.4"
+DataValues = "0.0.0-0.4"
 
 ["0.10-0.12.0"]
 TableTraits = "0-1"
 
 ["0.11-0.12.0"]
-DataValues = "0.4.6 - 0.4"
-StructArrays = "0.3.2 - 0.3"
 TableTraitsUtils = "0-1"
 WeakRefStrings = "0.5.7-0.5"
 
+["0.11-0.12.1"]
+StructArrays = "0.3.2-0.3"
+
+["0.11-1"]
+DataValues = "0.4.6-0.4"
+
 ["0.12-1"]
+Statistics = "1"
 julia = "1"
 
 ["0.12.1"]
-StructArrays = "0.3.2-0.3"
-TableTraitsUtils = "0.0.0 - 1"
+TableTraitsUtils = "0.0.0-1"
 
 ["0.12.1-0"]
-PooledArrays = "0.4.1-0.5"
+WeakRefStrings = "0.5.7-0.6"
 
 ["0.12.1-0.12.2"]
 OnlineStatsBase = "0.9.1-0.13"
@@ -41,10 +45,8 @@ OnlineStatsBase = "0.9.1-0.13"
 Tables = "0.2.4-0.2"
 
 ["0.12.1-1"]
-DataValues = "0.4.6-0.4"
 IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
 TableTraits = ["0.3-0.4", "1"]
-WeakRefStrings = "0.5.7-0.6"
 
 ["0.12.2-0.12.4"]
 StructArrays = "0.4"
@@ -55,11 +57,11 @@ TableTraitsUtils = ["0.2.1-0.4", "1"]
 ["0.12.3"]
 OnlineStatsBase = ["0.9.1-0.13", "1"]
 
-["0.12.3-1"]
+["0.12.3-0"]
 DataAPI = "1.0.1-1"
 
 ["0.12.4"]
-OnlineStatsBase = "0.9.1 - 1"
+OnlineStatsBase = "0.9.1-1"
 
 ["0.12.5-1"]
 OnlineStatsBase = "1"
@@ -68,30 +70,43 @@ StructArrays = "0.4.1-0.4"
 ["0.12.6-1"]
 Tables = ["0.2.4-0.2", "1"]
 
-["0.13-1"]
+["0.13-0"]
 StatsBase = "0.32-0.33"
 
 ["0.8"]
-DataValues = "0.0.0 - 0.4"
+DataValues = "0.0.0-0.4"
+
+["0.8-0"]
+PooledArrays = "0.4.1-0.5"
 
 ["0.8-0.11"]
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.8-0.12.0"]
 IteratorInterfaceExtensions = "0.1-1"
-PooledArrays = "0.4.1 - 0.5"
 
 ["0.8-0.9"]
 TableTraits = "0.3-1"
 TableTraitsUtils = "0.2-1"
 
 ["0.9-0.10"]
-StructArrays = "0.2.0 - 0.3"
+StructArrays = "0.2.0-0.3"
 
 ["0.9-0.12.0"]
 OnlineStatsBase = "0.9.1-0.10"
-Tables = "0.0.0 - 0.2"
+Tables = "0.0.0-0.2"
 
 [1]
 InvertedIndices = "1"
 PooledArrays = ["0.4.1-0.5", "1"]
+
+["1.0.0"]
+DataAPI = "1.0.1-1"
+StatsBase = "0.32-0.33"
+WeakRefStrings = "0.5.7-0.6"
+
+["1.0.1-1"]
+DataAPI = "1.3.0-1"
+StatsBase = "0.32-0.34"
+WeakRefStrings = ["0.5.7-0.6", "1"]

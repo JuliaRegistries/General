@@ -1,39 +1,47 @@
 ["0-0.3"]
-ArnoldiMethod = "0.0.0 - 0.0.4"
-ColorTypes = "0.0.0 - 0.9"
-Colors = "0.0.0 - 0.11"
-Compose = "0.7.0 - 0.9"
+ArnoldiMethod = "0.0.0-0.0.4"
+ColorTypes = "0.0.0-0.9"
+Colors = "0.0.0-0.11"
+Compose = "0.7.0-0.9"
+DelimitedFiles = ["0.7", "1"]
 LightGraphs = "1.1-1"
 julia = ["0.7", "1"]
 
 ["0-0.3.0"]
-VisualRegressionTests = "0.2.2 - 0.3"
+VisualRegressionTests = "0.2.2-0.3"
 
 ["0.4"]
 LightGraphs = "1.1.0-1"
 
-["0.4-0.4.1"]
-Compose = ["0.7", "0.8"]
-
 ["0.4-0.4.2"]
 ColorTypes = "0.9"
 Colors = "0.11"
+DelimitedFiles = "1"
 julia = "1"
 
 ["0.4-0.4.3"]
 ArnoldiMethod = "0.0.4"
-
-["0.4.2-0.4.3"]
 Compose = "0.7-0.8"
 
 ["0.4.3-0"]
-ColorTypes = "0.9-0.10"
 Colors = "0.11-0.12"
+DelimitedFiles = "1.3.0-1"
 julia = "1.3.0-1"
 
+["0.4.3-0.5.0"]
+ColorTypes = "0.9-0.10"
+
 ["0.4.4-0"]
-ArnoldiMethod = ["0.0.4", "0.1"]
 Compose = "0.8-0.9"
+
+["0.4.4-0.5.1"]
+ArnoldiMethod = ["0.0.4", "0.1"]
 
 ["0.5-0"]
 Graphs = "1.4.0-1"
+
+["0.5.1-0"]
+ColorTypes = "0.9-0.11"
+
+["0.5.2-0"]
+ArnoldiMethod = ["0.0.4", "0.1-0.2"]

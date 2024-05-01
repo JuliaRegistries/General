@@ -1,8 +1,8 @@
 ["0-0.6"]
-Calculus = "0.0.0 - 0.5"
+Calculus = "0.0.0-0.5"
 
 ["0-0.8"]
-Distributions = "0.0.0 - 0.21"
+Distributions = "0.0.0-0.21"
 OptimBase = "0-2"
 
 ["0-0.9"]
@@ -16,12 +16,14 @@ julia = "1"
 ["0.10-0"]
 ForwardDiff = "0.10"
 NLSolversBase = "7.5.0-7"
+
+["0.10-0.13"]
 OptimBase = "2"
 
 ["0.11"]
 Distributions = "0.18-0.23"
 
-["0.11-0"]
+["0.11-0.13"]
 StatsBase = "0.32-0.33"
 julia = "1.1.0-1"
 
@@ -31,14 +33,23 @@ Distributions = "0.18-0.24"
 ["0.12.1-0"]
 Distributions = "0.18-0.25"
 
+["0.14"]
+StatsBase = "0.32-0.34"
+
+["0.14-0"]
+julia = "1.6.0-1"
+
+["0.15-0"]
+StatsAPI = "1"
+
 ["0.7-0.8"]
 NLSolversBase = "0-7"
 
 ["0.7-0.9"]
-StatsBase = "0.0.0 - 0.32"
+StatsBase = "0.0.0-0.32"
 
 ["0.9"]
 Distributions = "0.18-0.21"
-ForwardDiff = "0.0.0 - 0.10"
-NLSolversBase = "0.0.0 - 7"
-OptimBase = "0.0.0 - 2"
+ForwardDiff = "0.0.0-0.10"
+NLSolversBase = "0.0.0-7"
+OptimBase = "0.0.0-2"

@@ -1,7 +1,6 @@
 [0]
 Accessors = "0.1"
 BangBang = "0.3"
-NamedTupleTools = "0.13"
 
 ["0-0.1.1"]
 julia = "1"
@@ -9,10 +8,13 @@ julia = "1"
 ["0-0.2"]
 GeneralizedGenerated = "0.2"
 
-["0.1.2-0"]
+["0-0.3.6"]
+NamedTupleTools = "0.13"
+
+["0.1.2-0.3.10"]
 julia = "1.4.0-1"
 
-["0.2-0"]
+["0.2-0.3.10"]
 ArraysOfArrays = "0.5"
 
 ["0.2-0.3.4"]
@@ -20,3 +22,11 @@ ArrayInterface = "3"
 
 ["0.3-0"]
 GeneralizedGenerated = "0.3"
+
+["0.3.11-0"]
+ArraysOfArrays = "0.6"
+julia = "1.6.0-1"
+
+["0.3.7-0"]
+NamedTupleTools = "0.13-0.14"
+Static = "0.6"

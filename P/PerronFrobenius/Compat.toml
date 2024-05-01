@@ -1,44 +1,45 @@
 [0]
 Conda = "0-1"
-InplaceOps = "0.0.0 - 0.3"
-Parameters = "0.0.0 - 0.12"
+InplaceOps = "0.0.0-0.3"
+Parameters = "0.0.0-0.12"
 PyCall = "0-1"
-RecipesBase = "0.0.0 - 0.8"
-Reexport = "0.0.0 - 0.2"
-StaticArrays = "0.0.0 - 0.12"
+RecipesBase = "0.0.0-0.8"
+Reexport = "0.0.0-0.2"
+StaticArrays = "0.0.0-0.12"
 
 ["0-0.1"]
-StateSpaceReconstruction = "0.2.1 - 0.3"
+StateSpaceReconstruction = "0.2.1-0.3"
 julia = ["0.7", "1"]
 
 ["0-0.2"]
-Simplices = "0.2.1 - 0.5"
+Simplices = "0.2.1-0.5"
 
 ["0-0.2.3"]
-Documenter = "0.0.0 - 0.25"
+Documenter = "0.0.0-0.25"
 
 ["0.2-0"]
 julia = "1"
 
 ["0.2-0.2.2"]
-StateSpaceReconstruction = "0.3.0 - 0.3"
+StateSpaceReconstruction = "0.3"
 
 ["0.2.3-0.2"]
 StateSpaceReconstruction = "0.3-0.3.1"
 
 ["0.4"]
-CausalityToolsBase = "0.3.1 - 0.7"
-StateSpaceReconstruction = "0.4.0 - 0.4"
+CausalityToolsBase = "0.3.1-0.7"
+StateSpaceReconstruction = "0.4"
 
 ["0.4-0"]
 DelayEmbeddings = "0-1"
-Simplices = "0.4.0 - 0.5"
+Simplices = "0.4.0-0.5"
+Statistics = "1"
 
 ["0.5-0"]
-CausalityToolsBase = "0.3.4 - 0.7"
-IntervalArithmetic = "0.0.0 - 0.17"
+CausalityToolsBase = "0.3.4-0.7"
+IntervalArithmetic = "0.0.0-0.17"
 LaTeXStrings = "0-1"
-StateSpaceReconstruction = "0.4.1 - 0.4"
+StateSpaceReconstruction = "0.4.1-0.4"
 
 [1]
 CausalityToolsBase = "1"
@@ -51,4 +52,5 @@ NearestNeighbors = "0.4.3-0.4"
 Reexport = "0.2"
 Requires = "1"
 StaticArrays = "0.12.3-0.12"
+Statistics = "1.1.0-1"
 julia = "1.1.0-1"

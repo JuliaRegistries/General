@@ -1,11 +1,13 @@
 [0]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0-0.2"]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 GeometryTypes = "4d00f742-c7ba-57c2-abde-4428a4b178cb"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.4.5"]
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0.3-0"]
 GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
@@ -13,3 +15,6 @@ GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
 ["0.4-0"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.4.5-0"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"

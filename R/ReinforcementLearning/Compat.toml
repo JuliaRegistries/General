@@ -3,24 +3,30 @@ PyCall = "0-1"
 julia = "0.6-1"
 
 ["0-0.3"]
-Colors = "0.0.0 - 0.12"
+Colors = "0.0.0-0.12"
 Compat = "0-2"
-DataFrames = "0.0.0 - 0.21"
-DataStructures = "0.0.0 - 0.18"
+DataFrames = "0.0.0-0.21"
+DataStructures = "0.0.0-0.18"
 FileIO = "0-1"
-Flux = "0.0.0 - 0.11"
-JLD2 = "0.0.0 - 0.2"
-PGFPlotsX = "0.0.0 - 0.3"
-Parameters = "0.0.0 - 0.12"
-Requires = "0.0.0 - 0.5"
-StatsBase = "0.0.0 - 0.33"
+Flux = "0.0.0-0.11"
+JLD2 = "0.0.0-0.2"
+PGFPlotsX = "0.0.0-0.3"
+Parameters = "0.0.0-0.12"
+Requires = "0.0.0-0.5"
+StatsBase = "0.0.0-0.33"
 
-["0.10-0"]
+["0.10"]
 ReinforcementLearningZoo = "0.5"
 
+["0.11-0"]
+ReinforcementLearningBase = "0.13"
+ReinforcementLearningCore = "0.15"
+ReinforcementLearningEnvironments = "0.9"
+
 ["0.3"]
-ReinforcementLearningBase = "0.0.0 - 0.6"
-ReinforcementLearningEnvironmentDiscrete = "0.0.0 - 0.2"
+ReinforcementLearningBase = "0.0.0-0.6"
+ReinforcementLearningEnvironmentDiscrete = "0.0.0-0.2"
+Statistics = "1"
 julia = "1"
 
 ["0.4"]
@@ -60,7 +66,7 @@ ReinforcementLearningCore = "0.7"
 ReinforcementLearningEnvironments = "0.4"
 ReinforcementLearningZoo = "0.3"
 
-["0.8-0"]
+["0.8-0.10"]
 ReinforcementLearningBase = "0.9"
 
 ["0.9"]
@@ -68,6 +74,8 @@ ReinforcementLearningZoo = "0.4"
 
 ["0.9-0"]
 Reexport = ["0.2", "1"]
+julia = "1.6.0-1"
+
+["0.9-0.10"]
 ReinforcementLearningCore = "0.8"
 ReinforcementLearningEnvironments = "0.6"
-julia = "1.6.0-1"

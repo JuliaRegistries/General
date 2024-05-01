@@ -1,10 +1,16 @@
-[0]
-ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
-FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
-
 ["0-0.0.1"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.3"]
+ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0-0.6"]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.4-0.6"]
+GeoStatsBase = "323cb8eb-fbf6-51c0-afd0-f8fba70507b2"
+Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"

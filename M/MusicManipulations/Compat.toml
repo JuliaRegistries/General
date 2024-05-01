@@ -2,13 +2,14 @@
 MIDI = "0.8-1"
 
 ["0-0.5"]
-MotifSequenceGenerator = "0.0.0 - 0.2"
+MotifSequenceGenerator = "0.0.0-0.2"
 
 ["0-0.6"]
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0-0.9"]
-Reexport = "0.0.0 - 0.2"
+Reexport = "0.0.0-0.2"
 
 ["0.10-0"]
 DefaultApplication = "0.1"
@@ -22,28 +23,29 @@ MotifSequenceGenerator = "1"
 StatsBase = "0.32"
 
 ["0.3-0.9"]
-DefaultApplication = "0.0.0 - 0.1"
+DefaultApplication = "0.0.0-0.1"
 
 ["0.4-0.6"]
 MIDI = "1.1-1"
 
 ["0.5-0.9"]
-StatsBase = "0.0.0 - 0.32"
+StatsBase = "0.0.0-0.32"
 
 ["0.6"]
-MotifSequenceGenerator = "0.2.0 - 0.2"
+MotifSequenceGenerator = "0.2"
 
 ["0.7"]
 MIDI = "1.1.0-1"
 
 ["0.7-0.9"]
-MotifSequenceGenerator = "0.2.0 - 1"
+MotifSequenceGenerator = "0.2.0-1"
 
 ["0.7-1"]
+Statistics = "1.1.0-1"
 julia = "1.1.0-1"
 
 ["0.8-0.9"]
-Requires = "0.0.0 - 0.5"
+Requires = "0.0.0-0.5"
 
 ["0.8-1.6.2"]
 MIDI = "1.4.1-1"
@@ -51,12 +53,19 @@ MIDI = "1.4.1-1"
 [1]
 Reexport = ["0.2-0.3", "1"]
 
-["1.6-1"]
-StatsBase = "0.32-0.33"
-
 ["1.6-1.6.2"]
 ARFIMA = "0.3"
+
+["1.6-1.7.0"]
+StatsBase = "0.32-0.33"
 
 ["1.6.3-1"]
 ARFIMA = "0.3-0.4"
 MIDI = "1.4.1-2"
+
+["1.7-1"]
+DataStructures = "0.18"
+
+["1.7.1-1"]
+Random = "1.1.0-1"
+StatsBase = "0.32-0.34"

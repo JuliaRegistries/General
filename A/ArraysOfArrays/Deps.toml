@@ -1,7 +1,5 @@
 [0]
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-UnsafeArrays = "c4a57d5a-5b31-53a6-b365-19f8c011fbd6"
 
 ["0-0.1"]
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
@@ -9,5 +7,15 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 ["0-0.3"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.5"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+UnsafeArrays = "c4a57d5a-5b31-53a6-b365-19f8c011fbd6"
+
 ["0.5.1-0"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+
+["0.5.9-0"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+
+["0.6-0"]
+StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"

@@ -15,6 +15,12 @@ Tectonic = "0.2"
 ["0-0.8"]
 julia = "1"
 
+["0.10-0"]
+FileTrees = "0.1-0.3"
+LiveServer = "0.5-0.7"
+RelocatableFolders = "0.1-0.2"
+Tectonic = "0.8"
+
 ["0.2-0"]
 FilePathsBase = "0.9"
 Requires = "1"
@@ -31,7 +37,6 @@ DataStructures = "0.17-0.18"
 ["0.5-0"]
 HTTP = "0.8-0.9"
 IOCapture = "0.2"
-LiveServer = "0.5-0.6"
 
 ["0.5-0.6.0"]
 PrettyTables = "0.10"
@@ -42,14 +47,17 @@ Tectonic = "0.3"
 ["0.5-0.6.4"]
 CommonMark = "0.7"
 
+["0.5-0.9"]
+LiveServer = "0.5-0.6"
+
 ["0.6.1-0.7.1"]
 PrettyTables = "0.10-0.11"
 
-["0.6.4-0"]
-FileTrees = "0.1-0.2"
-
 ["0.6.4-0.8"]
 Tectonic = "0.3-0.4"
+
+["0.6.4-0.9"]
+FileTrees = "0.1-0.2"
 
 ["0.6.5-0"]
 CommonMark = "0.7-0.8"
@@ -63,7 +71,9 @@ PrettyTables = ["0.10-0.12", "1"]
 ["0.8-0"]
 PrettyTables = "1"
 
-["0.9-0"]
+["0.9"]
 RelocatableFolders = "0.1"
 Tectonic = "0.3-0.6"
+
+["0.9-0"]
 julia = "1.6.0-1"

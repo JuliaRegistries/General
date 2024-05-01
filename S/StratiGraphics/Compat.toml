@@ -1,20 +1,19 @@
 ["0-0.1.0"]
-Distributions = "0.16.4 - 0.20"
-RecipesBase = "0.6.0 - 0.6"
+Distributions = "0.16.4-0.20"
+
+["0-0.2.0"]
+RecipesBase = "0.6"
 
 ["0.0"]
-GeoStatsBase = "0.3.3 - 0.5"
-GeoStatsDevTools = "0.3.7 - 0.5"
+GeoStatsBase = "0.3.3-0.5"
+GeoStatsDevTools = "0.3.7-0.5"
 julia = "1.1-1"
 
 ["0.1.0"]
-GeoStatsBase = "0.4.2 - 0.5"
-GeoStatsDevTools = "0.4.3 - 0.5"
-ImageFiltering = "0.5.4 - 0.6"
+GeoStatsBase = "0.4.2-0.5"
+GeoStatsDevTools = "0.4.3-0.5"
+ImageFiltering = "0.5.4-0.6"
 julia = "1.1.0-1"
-
-["0.1.1-0"]
-ImageFiltering = "0.6"
 
 ["0.1.1-0.1"]
 GeoStatsBase = "0.5"
@@ -24,7 +23,9 @@ julia = "1"
 
 ["0.1.1-0.2.0"]
 Distributions = "0.20"
-RecipesBase = "0.6"
+
+["0.1.1-0.4"]
+ImageFiltering = "0.6"
 
 ["0.2-0.2.1"]
 GeoStatsBase = "0.6"
@@ -76,13 +77,13 @@ GeoStatsBase = "0.13-0.15"
 ["0.3.5"]
 GeoStatsBase = "0.16"
 
-["0.3.6-0"]
-RecipesBase = "1"
-
 ["0.3.6-0.3"]
 GeoStatsBase = "0.17"
 
-["0.4-0"]
+["0.3.6-0.7"]
+RecipesBase = "1"
+
+["0.4"]
 julia = "1.5.0-1"
 
 ["0.4.0"]
@@ -95,9 +96,15 @@ GeoStatsBase = "0.20"
 ["0.4.1-0.4.2"]
 Meshes = "0.11"
 
-["0.4.10-0"]
+["0.4.10"]
 GeoStatsBase = "0.21-0.23"
 Meshes = "0.16-0.18"
+
+["0.4.11-0.4"]
+Meshes = "0.16-0.19"
+
+["0.4.11-0.5.0"]
+GeoStatsBase = "0.21-0.24"
 
 ["0.4.2-0.4.7"]
 GeoStatsBase = "0.21"
@@ -108,7 +115,7 @@ Meshes = "0.11-0.12"
 ["0.4.4"]
 Meshes = "0.11-0.13"
 
-["0.4.4-0"]
+["0.4.4-0.5.2"]
 Distributions = "0.21-0.25"
 
 ["0.4.5"]
@@ -122,3 +129,117 @@ Meshes = "0.16-0.17"
 
 ["0.4.8-0.4.9"]
 GeoStatsBase = "0.21-0.22"
+
+["0.5"]
+julia = "1.6.0-1"
+
+["0.5-0.5.8"]
+ImageFiltering = "0.6-0.7"
+
+["0.5.0"]
+Meshes = "0.16-0.20"
+
+["0.5.1"]
+Meshes = "0.16-0.21"
+
+["0.5.1-0.5.2"]
+GeoStatsBase = "0.21-0.25"
+
+["0.5.10"]
+Meshes = "0.27-0.28"
+
+["0.5.11"]
+GeoStatsBase = "0.30-0.31"
+Meshes = "0.27-0.29"
+
+["0.5.12"]
+Meshes = "0.30"
+
+["0.5.12-0.5"]
+GeoStatsBase = "0.31"
+
+["0.5.13"]
+Meshes = "0.31"
+
+["0.5.14-0.5"]
+Meshes = "0.31-0.32"
+
+["0.5.2"]
+Meshes = "0.16-0.22"
+
+["0.5.3"]
+Meshes = "0.22"
+
+["0.5.3-0"]
+Distributions = "0.25"
+
+["0.5.3-0.5.4"]
+GeoStatsBase = "0.26"
+
+["0.5.4"]
+Meshes = "0.22-0.23"
+
+["0.5.5"]
+GeoStatsBase = "0.26-0.27"
+Meshes = "0.22-0.24"
+
+["0.5.6"]
+Meshes = "0.24"
+
+["0.5.6-0.5.7"]
+GeoStatsBase = "0.28"
+
+["0.5.7"]
+Meshes = "0.24-0.25"
+
+["0.5.8"]
+GeoStatsBase = "0.29"
+Meshes = "0.26"
+
+["0.5.9"]
+Meshes = "0.27"
+
+["0.5.9-0"]
+ImageFiltering = "0.7"
+
+["0.5.9-0.5.10"]
+GeoStatsBase = "0.30"
+
+["0.6-0"]
+julia = "1.9.0-1"
+
+["0.6-0.6.1"]
+GeoStatsBase = "0.32"
+
+["0.6.0"]
+Meshes = "0.33"
+
+["0.6.1-0.6"]
+Meshes = "0.33-0.34"
+
+["0.6.2-0.6"]
+GeoStatsBase = "0.33"
+
+["0.7"]
+Meshes = "0.35"
+
+["0.7.0"]
+GeoStatsBase = "0.34"
+
+["0.7.1"]
+GeoStatsBase = "0.35"
+
+["0.7.2"]
+GeoStatsBase = "0.36"
+
+["0.7.3"]
+GeoStatsBase = "0.37"
+
+["0.7.4"]
+GeoStatsBase = "0.38"
+
+["0.7.5-0.7"]
+GeoStatsBase = "0.39"
+
+["0.8-0"]
+Random = "1.9.0-1"

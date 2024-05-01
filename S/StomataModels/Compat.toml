@@ -11,7 +11,7 @@ PlantHydraulics = "0.0"
 WaterPhysics = "0.0"
 julia = "1.5.0-1"
 
-["0.1-0"]
+["0.1"]
 ConstrainedRootSolvers = "0.1"
 DocStringExtensions = "0.8"
 WaterPhysics = "0.1"
@@ -26,7 +26,7 @@ Photosynthesis = "0.1"
 ["0.1-0.1.7"]
 Parameters = "0.12"
 
-["0.1.10-0"]
+["0.1.10-0.1"]
 Photosynthesis = "0.2"
 
 ["0.1.2-0.1.7"]
@@ -38,10 +38,48 @@ PkgUtility = "0.1.1-0.1"
 ["0.1.6-0.1.7"]
 Photosynthesis = "0.1.4-0.1"
 
-["0.1.8-0"]
+["0.1.8-0.1"]
 PkgUtility = "0.1.10-0.1"
 PlantHydraulics = "0.2.7-0.2"
 UnPack = "1"
 
 ["0.1.8-0.1.9"]
 Photosynthesis = "0.1.5-0.1"
+
+["0.2"]
+ConstrainedRootSolvers = "0.1.4-0.1"
+Photosynthesis = "0.3.7-0.3"
+
+["0.2-0"]
+UnPack = "1.0.2-1"
+julia = "1.6.0-1"
+
+["0.2-0.3.1"]
+PkgUtility = "0.2"
+WaterPhysics = "0.1.4-0.1"
+
+["0.2.0"]
+ClimaCache = "0.3.1-0.3"
+DocStringExtensions = "0.8.6-0.8"
+PlantHydraulics = "0.2.13-0.2"
+
+["0.2.1-0.2"]
+ClimaCache = "0.3.2-0.3"
+DocStringExtensions = "0.8.6-0.9"
+PlantHydraulics = "0.3.1-0.3"
+SoilHydraulics = "0.1.1-0.1"
+
+["0.3-0"]
+ClimaCache = "1"
+
+["0.3-0.3.1"]
+Photosynthesis = "0.4.1-0.4"
+PlantHydraulics = "0.4"
+SoilHydraulics = "0.2"
+
+["0.3.2-0"]
+EmeraldConstants = "0.1"
+Photosynthesis = "0.4.5-0.4"
+PlantHydraulics = "0.4.3-0.4"
+SoilHydraulics = "0.2.3-0.2"
+WaterPhysics = "0.1.5-0.1"

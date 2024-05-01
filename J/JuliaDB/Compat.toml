@@ -1,46 +1,49 @@
 ["0-0.10"]
-Dagger = "0.7.3 - 0.8"
-MemPool = "0.1.1 - 0.2"
+Dagger = "0.7.3-0.8"
+MemPool = "0.1.1-0.2"
 
 ["0-0.12"]
 Glob = "1.2-1"
 Nullables = "0-1"
 OnlineStats = "0.17-0.23"
 OnlineStatsBase = "0-0.10"
+Statistics = "1"
 WeakRefStrings = "0-0.5"
 julia = "1"
 
 ["0-0.13.0"]
-DataValues = "0.0.0 - 0.4"
-PooledArrays = "0.4.1 - 0.5"
-RecipesBase = "0.0.0 - 0.7"
-StatsBase = "0.0.0 - 0.32"
-TextParse = "0.6.0 - 0.9"
+DataValues = "0.0.0-0.4"
+PooledArrays = "0.4.1-0.5"
+RecipesBase = "0.0.0-0.7"
+StatsBase = "0.0.0-0.32"
+TextParse = "0.6.0-0.9"
 
 ["0-0.9"]
 IndexedTables = "0.8.1-0.8"
 
 ["0.10"]
-IndexedTables = "0.9.0 - 0.12"
+IndexedTables = "0.9.0-0.12"
+
+["0.11-0"]
+Dagger = "0.8"
 
 ["0.11-0.12"]
-IndexedTables = "0.10.0 - 0.12"
+IndexedTables = "0.10.0-0.12"
 
 ["0.11-0.13.0"]
-Dagger = "0.8.0 - 0.8"
-MemPool = "0.2.0 - 0.2"
+MemPool = "0.2"
 
 ["0.13.0"]
-Glob = "1.2.0 - 1"
-IndexedTables = "0.12.1 - 0.12"
-Nullables = "0.0.0 - 0.0.8"
-OnlineStats = "1.0.0 - 1"
-OnlineStatsBase = "0.0.0 - 1"
-WeakRefStrings = "0.0.0 - 0.6"
+Glob = "1.2.0-1"
+IndexedTables = "0.12.1-0.12"
+Nullables = "0.0.0-0.0.8"
+OnlineStats = "1"
+OnlineStatsBase = "0.0.0-1"
+Statistics = "1.0.0-*"
+WeakRefStrings = "0.0.0-0.6"
 julia = "1.0.0-*"
 
 ["0.13.1-0"]
-Dagger = "0.8"
 DataValues = "0.4.12"
 Glob = "1.2.0"
 IndexedTables = "0.12.4"
@@ -50,6 +53,7 @@ OnlineStats = "1.0.2"
 OnlineStatsBase = "1.0.2"
 PooledArrays = "0.5.2"
 RecipesBase = "0.7.0"
+Statistics = "1"
 StatsBase = "0.32.0"
 TextParse = "0.9.1"
 WeakRefStrings = "0.6.1"

@@ -1,13 +1,15 @@
 [0]
-Distances = "0.0.0 - 0.9"
-LIBSVM = "0.0.0 - 0.5"
+Distances = "0.0.0-0.9"
+LIBSVM = "0.0.0-0.5"
 
 ["0-0.2.3"]
-Combinatorics = "0.0.0 - 0.7"
+Combinatorics = "0.0.0-0.7"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.2.4-0"]
-Arpack = "0.0.0 - 0.4"
-Combinatorics = "0.0.0 - 1"
-StatsBase = "0.0.0 - 0.33"
+Arpack = "0.0.0-0.4"
+Combinatorics = "0.0.0-1"
+Statistics = "1"
+StatsBase = "0.0.0-0.33"
 julia = "1"

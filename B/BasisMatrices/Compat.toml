@@ -1,9 +1,11 @@
 ["0-0.6"]
-Combinatorics = "0.0.0 - 0.7"
-QuantEcon = "0.0.0 - 0.16"
+Combinatorics = "0.0.0-0.7"
+QuantEcon = "0.0.0-0.16"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.7-0"]
 Combinatorics = "1"
 QuantEcon = "0.16"
+Statistics = "1.4.0-1"
 julia = "1.4.0-1"

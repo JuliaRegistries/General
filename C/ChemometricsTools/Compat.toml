@@ -1,48 +1,52 @@
 ["0-0.2.3"]
 Revise = "0-2"
+Statistics = "1"
 julia = "1"
 
 ["0-0.4.2"]
-Plots = "0.0.0 - 0.29"
+Plots = "0.0.0-0.29"
 
 ["0-0.5.1"]
-Documenter = "0.0.0 - 0.25"
-DocumenterTools = "0.0.0 - 0.1"
+Documenter = "0.0.0-0.25"
+DocumenterTools = "0.0.0-0.1"
 
 ["0-0.5.6"]
-CSV = "0.0.0 - 0.5"
-DSP = "0.0.0 - 0.6"
-Distributions = "0.0.0 - 0.21"
-StatsBase = "0.0.0 - 0.32"
+CSV = "0.0.0-0.5"
+DSP = "0.0.0-0.6"
+Distributions = "0.0.0-0.21"
+StatsBase = "0.0.0-0.32"
 
 ["0.2.5-0.4.2"]
+Statistics = "1.0.3-1"
 julia = "1.0.3-1"
 
 ["0.4-0.5.6"]
-DataFrames = "0.0.0 - 0.19"
+DataFrames = "0.0.0-0.19"
 
 ["0.4.6-0.5.0"]
-Plots = "0.0.0 - 1"
+Plots = "0.0.0-1"
 
-["0.4.6-0.5.6"]
+["0.4.6-0.5.8"]
+Statistics = "1"
 julia = "1"
 
 ["0.5-0.5.6"]
-Arpack = "0.0.0 - 0.3"
-HypothesisTests = "0.0.0 - 0.8"
-LaTeXStrings = "0.0.0 - 1"
-SpecialFunctions = "0.0.0 - 0.7"
+Arpack = "0.0.0-0.3"
+HypothesisTests = "0.0.0-0.8"
+LaTeXStrings = "0.0.0-1"
+SpecialFunctions = "0.0.0-0.7"
 
 ["0.5.0"]
-JuliaDB = "0.0.0 - 0.13"
-LambertW = "0.0.0 - 0.4"
-StatsPlots = "0.0.0 - 0.14"
+JuliaDB = "0.0.0-0.13"
+LambertW = "0.0.0-0.4"
+StatsPlots = "0.0.0-0.14"
 
 ["0.5.1-0.5.6"]
-FFTW = "0.0.0 - 1"
-RecipesBase = "0.0.0 - 0.7"
+FFTW = "0.0.0-1"
+RecipesBase = "0.0.0-0.7"
 
 ["0.5.10-0"]
+Statistics = "1"
 julia = "1"
 
 ["0.5.11"]
@@ -89,39 +93,14 @@ RecipesBase = "1"
 StatsBase = "0.33"
 
 ["0.5.5-0.5.6"]
-BenchmarkTools = "0.0.0 - 0.4"
-IntervalArithmetic = "0.0.0 - 0.15"
-IntervalRootFinding = "0.0.0 - 0.4"
-Revise = "0.0.0 - 2"
-Roots = "0.0.0 - 0.8"
-StaticArrays = "0.0.0 - 0.11"
+BenchmarkTools = "0.0.0-0.4"
+IntervalArithmetic = "0.0.0-0.15"
+IntervalRootFinding = "0.0.0-0.4"
+Revise = "0.0.0-2"
+Roots = "0.0.0-0.8"
+StaticArrays = "0.0.0-0.11"
 
-["0.5.7"]
-Arpack = "0.3.1 - 0.3"
-BenchmarkTools = "0.4.3 - 0.4"
-CSV = "0.5.14 - 0.5"
-Combinatorics = "0.7.0 - 0.7"
-DSP = "0.6.0 - 0.6"
-DataFrames = "0.19.4 - 0.19"
-Distributions = "0.21.3 - 0.21"
-FFTW = "1.0.1 - 1"
-HypothesisTests = "0.8.0 - 0.8"
-IntervalArithmetic = "0.15.2 - 0.15"
-IntervalRootFinding = "0.4.0 - 0.4"
-LaTeXStrings = "1.0.3 - 1"
-RecipesBase = "0.7.0 - 0.7"
-Revise = "2.2.2 - 2"
-Roots = "0.8.3 - 0.8"
-SpecialFunctions = "0.7.2 - 0.7"
-StaticArrays = "0.11.1 - 0.11"
-StatsBase = "0.32.0 - 0.32"
-julia = "1.0.0-1"
-
-["0.5.8"]
-DSP = "0.6"
-julia = "1"
-
-["0.5.8-0.5.10"]
+["0.5.7-0.5.10"]
 Arpack = "0.3.1-0.3"
 BenchmarkTools = "0.4.3-0.4"
 Combinatorics = "0.7"
@@ -138,11 +117,15 @@ Roots = "0.8.3-0.8"
 SpecialFunctions = "0.7.2-0.7"
 StaticArrays = "0.11.1-0.11"
 
-["0.5.8-0.5.12"]
+["0.5.7-0.5.12"]
 CSV = "0.5.14-0.5"
 
-["0.5.8-0.5.13"]
+["0.5.7-0.5.13"]
 StatsBase = "0.32"
 
+["0.5.7-0.5.8"]
+DSP = "0.6"
+
 ["0.5.9"]
+Statistics = "1.1.0-1"
 julia = "1.1.0-1"

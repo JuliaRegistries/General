@@ -2,11 +2,19 @@
 CategoricalArrays = "0.10"
 Distributions = "0.25"
 Intervals = "1.5.0-1"
-MLDataPattern = "0.5"
-MultipleTesting = "0.5"
 Reexport = "1.2.0-1"
 SplitApplyCombine = "1.1.0-1"
-StatsBase = "0.33"
+Statistics = "1.6.0-1"
 Tables = "1.6.0-1"
 UnPack = "1"
 julia = "1.6.0-1"
+
+["0-0.1"]
+MLDataPattern = "0.5"
+MultipleTesting = "0.5"
+StatsBase = "0.33"
+
+["0.2-0"]
+MLUtils = "0.4"
+MultipleTesting = "0.6"
+StatsBase = "0.34"

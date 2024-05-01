@@ -1,20 +1,22 @@
 [0]
-ColorTypes = "0.0.0 - 0.10"
-Colors = "0.0.0 - 0.12"
-Contour = "0.0.0 - 0.5"
-DataStructures = "0.0.0 - 0.18"
-Hiccup = "0.0.0 - 0.2"
-Interpolations = "0.0.0 - 0.12"
-Media = "0.0.0 - 0.5"
+ColorTypes = "0.0.0-0.10"
+Colors = "0.0.0-0.12"
+Contour = "0.0.0-0.5"
+DataStructures = "0.0.0-0.18"
+Hiccup = "0.0.0-0.2"
+Interpolations = "0.0.0-0.12"
+Media = "0.0.0-0.5"
 
 ["0-0.2.0"]
 Cairo = "0-0.5"
-ProgressMeter = "0.0.0 - 0.9"
-Requires = "0.0.0 - 0.5"
+ProgressMeter = "0.0.0-0.9"
+Requires = "0.0.0-0.5"
 julia = ["0.7", "1"]
 
 ["0.2.1-0"]
-Cairo = "0.0.0 - 1"
-ProgressMeter = "0.0.0 - 1"
-Requires = "0.0.0 - 1"
+Cairo = "0.0.0-1"
+DelimitedFiles = "1"
+ProgressMeter = "0.0.0-1"
+Requires = "0.0.0-1"
+Statistics = "1"
 julia = "1"

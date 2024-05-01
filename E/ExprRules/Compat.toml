@@ -1,17 +1,17 @@
 ["0-0.3"]
-AbstractTrees = "0.2.0 - 0.3"
+AbstractTrees = "0.2.0-0.3"
 Nullables = "0.0.5-1"
-StatsBase = "0.24.0 - 0.33"
-TreeView = "0.0.0 - 0.3"
+StatsBase = "0.24.0-0.33"
+TreeView = "0.0.0-0.3"
 julia = ["0.7", "1"]
 
 ["0.3.3-0.3"]
-DataStructures = "0.0.0 - 0.18"
+DataStructures = "0.0.0-0.18"
+Statistics = ["0.7", "1"]
 
 ["0.4-0"]
 AbstractTrees = "0.2-0.3"
 StatsBase = "0.33"
-julia = "1"
 
 ["0.4-0.4.1"]
 DataStructures = "0.17"
@@ -20,6 +20,15 @@ TreeView = "0.3"
 ["0.4-0.4.2"]
 Nullables = "1"
 
+["0.4-0.4.3"]
+julia = "1"
+
 ["0.4.2-0"]
 DataStructures = "0.17-0.18"
+
+["0.4.2-0.4.3"]
 TreeView = "0.3-0.4"
+
+["0.4.4-0"]
+TreeView = "0.5"
+julia = "1.6.0-1"

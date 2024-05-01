@@ -1,7 +1,6 @@
 [0]
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
-Cbc = "9961bab8-2fa3-5c5a-9d89-47fab24efd76"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DisplayAs = "0b91fe84-8a4c-11e9-3e1d-67c38462b6d6"
@@ -27,9 +26,15 @@ TimeSeries = "9e3dc215-6440-5c97-bce1-76c03772f85e"
 TimeZones = "f269a46b-ccf7-5d73-abea-4c690281aa53"
 WebIO = "0f1e0344-ec1d-5b48-a673-e5cf874b6c29"
 
-["0.1.4-0"]
+["0-0.1"]
+Cbc = "9961bab8-2fa3-5c5a-9d89-47fab24efd76"
+
+["0.1.4-0.1"]
 GLPK = "60bf3e95-4087-53dc-ae20-288a0d20c6a6"
 
 ["0.1.5-0"]
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
+
+["0.2-0"]
+HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"

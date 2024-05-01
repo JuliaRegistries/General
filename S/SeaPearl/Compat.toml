@@ -1,8 +1,5 @@
 [0]
-DataStructures = "0.18"
-JuMP = "0.21"
 LightGraphs = "1.3.0-1"
-MathOptInterface = "0.9"
 
 ["0-0.1"]
 Flux = "0.11"
@@ -11,6 +8,7 @@ ReinforcementLearning = "0.7"
 ReinforcementLearningBase = "0.8.5-0.9"
 ReinforcementLearningCore = "0.5-0.6"
 ReinforcementLearningZoo = "0.2.1-0.3"
+Statistics = "1.4.0-1"
 julia = "1.4.0-1"
 
 ["0-0.2"]
@@ -24,6 +22,13 @@ SimpleWeightedGraphs = "1.1.1-1"
 ["0-0.3"]
 Zygote = "0.5-0.6"
 
+["0-0.4.0"]
+DataStructures = "0.18"
+
+["0-0.4.3"]
+JuMP = "0.21"
+MathOptInterface = "0.9"
+
 ["0.2"]
 ProgressBars = ["0.8", "1"]
 ReinforcementLearning = "0.8"
@@ -33,6 +38,9 @@ ReinforcementLearningZoo = "0.3"
 
 ["0.2-0"]
 Flux = "0.11-0.12"
+
+["0.2-0.4.0"]
+Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0.3"]
@@ -46,11 +54,45 @@ ReinforcementLearning = "0.8-0.9"
 CUDA = "2-3"
 Distributions = "0.24-0.25"
 FillArrays = "0.11-0.12"
-NNlib = "0.7"
 ProgressBars = "1"
 RollingFunctions = "0.6"
 SimpleWeightedGraphs = "1.1.0-1"
 
+["0.3-0.4.0"]
+NNlib = "0.7"
+
 ["0.4-0"]
 ReinforcementLearning = "0.10"
 Zygote = "0.6.26-0.6"
+
+["0.4.1-0"]
+Compose = "0.0.0-0.9.1"
+DataStructures = "0.15.0-0.18.13"
+Graphs = "1-1.7.4"
+KernelAbstractions = "0.0.0-0.8.3"
+NNlib = "0.8.4-0.8"
+Revise = "1-4"
+StatsBase = "0.0.0-0.33.20"
+Suppressor = "0.1.0-0.2.0"
+TensorBoardLogger = "0.0.0-0.1.18"
+
+["0.4.1-0.4.3"]
+Cairo = "1"
+GraphPlot = "0.1.0-0.4.4"
+Plots = "1-2"
+Statistics = "1.7.0-1"
+julia = "1.7.0-1"
+
+["0.4.2-0"]
+ChainRulesCore = "1.0-1.15.6"
+
+["0.4.4-0"]
+ArgParse = "1.1.4-1"
+CSV = "0.8-0.10"
+DataFrames = "1"
+Statistics = "1.8-1.9"
+XML = "0.2"
+julia = "1.8-1.9"
+
+["0.4.5-0"]
+JSON = "0.21.4-0.21"

@@ -1,28 +1,35 @@
 ["0-0.1.1"]
+Statistics = "1.1-1"
 julia = "1.1-1"
 
 ["0-0.1.3"]
-Distributions = "0.0.0 - 0.19"
-Reexport = "0.0.0 - 0.2"
-StatsBase = "0.0.0 - 0.30"
+Distributions = "0.0.0-0.19"
+Reexport = "0.0.0-0.2"
+StatsBase = "0.0.0-0.30"
 
-["0-0.5.1"]
-GenericLinearAlgebra = "0.0.0 - 0.2"
-Lazy = "0.0.0 - 0.13"
-RecipesBase = "0.0.0 - 0.7"
-StaticArrays = "0.0.0 - 0.11"
+["0-0.5.3"]
+Lazy = "0.0.0-0.13"
+StaticArrays = "0.0.0-0.11"
+
+["0-0.8.3"]
+RecipesBase = "0.0.0-0.7"
+
+["0-0.9.13"]
+GenericLinearAlgebra = "0.0.0-0.2"
 
 ["0.1.2-0.9"]
+Statistics = "1"
 julia = "1"
 
 ["0.1.4-0.2.0"]
-Distributions = "0.17.0 - 0.19"
-StatsBase = "0.29.0 - 0.30"
+Distributions = "0.17.0-0.19"
+StatsBase = "0.29.0-0.30"
 
-["0.1.4-0.5.1"]
-MacroTools = "0.0.0 - 0.5"
+["0.1.4-1"]
+MacroTools = "0.0.0-0.5"
 
 ["0.10-0"]
+Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["0.10.3-1"]
@@ -34,27 +41,11 @@ Distributions = "0.17-0.19"
 ["0.2.1-0.5.2"]
 StatsBase = "0.29-0.30"
 
-["0.3.2-0.5.1"]
-Requires = "0.0.0 - 0.5"
-
 ["0.3.2-0.5.3"]
 Distributions = "0.17-0.20"
 
-["0.5.2-0.5.3"]
-Lazy = "0.0.0-0.13"
-StaticArrays = "0.0.0-0.11"
-
-["0.5.2-0.6.3"]
+["0.3.2-0.6.3"]
 Requires = "0.0.0-0.5"
-
-["0.5.2-0.8.3"]
-RecipesBase = "0.0.0-0.7"
-
-["0.5.2-0.9.13"]
-GenericLinearAlgebra = "0.0.0-0.2"
-
-["0.5.2-1"]
-MacroTools = "0.0.0-0.5"
 
 ["0.5.3-0.8.4"]
 StatsBase = ["0.29-0.30", "0.32"]
@@ -80,7 +71,7 @@ RecipesBase = "0.0.0-0.8"
 ["0.8.4-0.9.7"]
 Distributions = "0.17-0.23"
 
-["0.8.5-1"]
+["0.8.5-1.1.4"]
 StatsBase = ["0.29-0.30", "0.32-0.33"]
 
 ["0.8.9-1"]
@@ -97,4 +88,14 @@ StaticArrays = ["0.0.0-0.12", "1"]
 Distributions = "0.17-0.24"
 
 [1]
+Statistics = "1.6.0-1"
 julia = "1.6.0-1"
+
+["1.0.10-1"]
+ForwardDiff = "0.10"
+
+["1.0.13-1"]
+GenericSchur = "0.5"
+
+["1.1.5-1"]
+StatsBase = ["0.29-0.30", "0.32-0.34"]

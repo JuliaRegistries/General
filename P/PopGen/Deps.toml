@@ -19,11 +19,13 @@ LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 
 ["0.1-0"]
 PooledArrays = "2dfb63ee-cc39-5dd5-95bd-886bf059d720"
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
 ["0.1-0.6"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.1-0.8"]
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
 ["0.4.3-0.6"]
 RandomNumbers = "e6cf234a-135c-5ec9-84dd-332b85af5143"
@@ -34,3 +36,14 @@ NaturalSort = "c020b1a1-e9b0-503a-9c33-f039bfc54a85"
 ["0.7-0"]
 PopGenCore = "45b36091-5ef7-4b08-b448-aaf24c763a14"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.8-0"]
+Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+MultivariateStats = "6f286f6a-111f-5878-ab1e-185364afe411"
+
+["0.9-0"]
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
+OnlineStats = "a15396b6-48d5-5d58-9928-6d29437db91e"
+TSne = "24678dba-d5e9-5843-a4c6-250288b04835"
+Term = "22787eb5-b846-44ae-b979-8e399b8463ab"

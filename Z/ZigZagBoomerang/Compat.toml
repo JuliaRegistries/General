@@ -2,7 +2,18 @@
 julia = "1"
 
 ["0-0.5"]
-Trajectories = "0.0.0 - 0.2"
+Trajectories = "0.0.0-0.2"
+
+["0.11-0"]
+Dictionaries = "0.3"
+Graphs = "1.7.0-1"
+StaticArrays = "1.4.0-1"
+
+["0.12-0"]
+PDMats = "0.11"
+
+["0.2-0"]
+Statistics = "1"
 
 ["0.2-0.5"]
 DataStructures = "0.17"

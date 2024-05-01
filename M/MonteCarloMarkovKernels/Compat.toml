@@ -3,15 +3,20 @@ Compat = "0-2"
 julia = "0.6-1"
 
 [0-1]
-KernelDensity = "0.0.0 - 0.6"
-ProgressMeter = "0.0.0 - 0.9"
-StaticArrays = "0.0.0 - 0.12"
+KernelDensity = "0.0.0-0.6"
+ProgressMeter = "0.0.0-0.9"
+StaticArrays = "0.0.0-0.12"
+
+["0.0"]
+Statistics = "0.6-1"
 
 [1]
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 [2]
 KernelDensity = "0.6"
 ProgressMeter = "1"
 StaticArrays = "1"
+Statistics = "1"
 julia = "1"

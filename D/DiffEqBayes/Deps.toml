@@ -6,11 +6,16 @@ OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 Stan = "682df890-35be-576f-97d0-3d8c8b33a550"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-[0-2]
+["0-2.25"]
+ApproxBayes = "f5f396d3-230c-5e07-80e6-9fadf06146cc"
+
+["0-2.6"]
+ParameterizedFunctions = "65888b18-ceab-5e60-b2b9-181511a3b968"
+
+[0-3]
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
@@ -18,17 +23,17 @@ RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
 Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
 
-["0-2.25"]
-ApproxBayes = "f5f396d3-230c-5e07-80e6-9fadf06146cc"
-
-["0-2.6"]
-ParameterizedFunctions = "65888b18-ceab-5e60-b2b9-181511a3b968"
+["0-3.3"]
+LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
 
 ["1.2-1"]
 CmdStan = "593b3428-ca2f-500c-ae53-031589ec8ddd"
 StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
 
-["1.2-2"]
+["1.2-2.5"]
+Mamba = "5424a776-8be3-5c5b-a13f-3551f69ba0e6"
+
+["1.2-3"]
 DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
@@ -39,19 +44,22 @@ PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 
-["1.2-2.5"]
-Mamba = "5424a776-8be3-5c5b-a13f-3551f69ba0e6"
-
-[2]
+[2-3]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["2.1-2"]
+["2.1-3"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 DynamicHMC = "bbc10e6e-7c05-544b-b16e-64fede858acb"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["2.26-2"]
+["2.26-3"]
 StanSample = "c1514b29-d3a0-5178-b312-660c88baa699"
 
-["2.7-2"]
+["2.7-3"]
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+
+["3.1-3"]
+TransformedLogDensities = "f9bc47f6-f3f8-4f3b-ab21-f8bc73906f26"
+
+["3.4-3"]
+LogDensityProblemsAD = "996a588d-648d-4e1f-a8f0-a84b347e47b1"

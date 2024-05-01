@@ -1,9 +1,5 @@
 [0]
-ExtXYZ = "352459e4-ddd7-4360-8937-99dcb397b478"
-LAMMPS = "ee2e13b9-eee9-4449-aafa-cfa6a2dbe14d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 ["0-0.1.1"]
 GalacticOptim = "a75be94c-b780-496d-a8a9-0878b188d577"
@@ -11,3 +7,17 @@ Hyperopt = "93e5fe13-2215-51db-baaf-2e9a34fb2712"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.1.2"]
+ExtXYZ = "352459e4-ddd7-4360-8937-99dcb397b478"
+LAMMPS = "ee2e13b9-eee9-4449-aafa-cfa6a2dbe14d"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.1.15-0"]
+AtomsBase = "a963bdd2-2df7-4f54-a1ee-49d51e6be12a"
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+UnitfulAtomic = "a7773ee8-282e-5fa2-be4e-bd808c38a91a"

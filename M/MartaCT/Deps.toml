@@ -1,18 +1,28 @@
 [0]
-CurveFit = "5a033b19-8c74-5913-a970-47c3779ef25c"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SimpleTraits = "699a6c99-e7fa-54fc-8d76-47d257e15c1d"
-SnoopCompile = "aa65fe97-06da-5843-b5b1-d5d13cad87d2"
-SnoopCompileCore = "e2b509da-e806-4183-be48-004708413034"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0-0.2"]
+CurveFit = "5a033b19-8c74-5913-a970-47c3779ef25c"
+Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
+RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+SnoopCompile = "aa65fe97-06da-5843-b5b1-d5d13cad87d2"
+SnoopCompileCore = "e2b509da-e806-4183-be48-004708413034"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+
+["0.3-0.3.6"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.3.7-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"

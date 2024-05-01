@@ -3,25 +3,31 @@ GLM = "1"
 
 ["0-0.1"]
 Compat = "0-2"
-DataFrames = "0.0.0 - 0.21"
-DataStructures = "0.0.0 - 0.18"
-Distributions = "0.0.0 - 0.23"
-Formatting = "0.3.3 - 0.4"
-Parameters = "0.0.0 - 0.12"
-StatsBase = "0.0.0 - 0.33"
+DataFrames = "0.0.0-0.21"
+DataStructures = "0.0.0-0.18"
+Distributions = "0.0.0-0.23"
+Parameters = "0.0.0-0.12"
+Statistics = ["0.7", "1"]
+StatsBase = "0.0.0-0.33"
 StatsModels = "0.5"
 julia = ["0.7", "1"]
 
-["0.2-0"]
-Compat = "3"
+["0-0.2"]
 Formatting = "0.3.3-0.4"
-Parameters = "0.12"
-StatsBase = "0.33"
-StatsModels = "0.6"
+
+["0.2"]
 julia = "1"
+
+["0.2-0"]
+Parameters = "0.12"
 
 ["0.2-0.2.3"]
 Distributions = "0.20-0.24"
+
+["0.2-0.2.6"]
+Compat = "3"
+StatsBase = "0.33"
+StatsModels = "0.6"
 
 ["0.2.0"]
 DataFrames = "0.19-0.21"
@@ -38,3 +44,12 @@ DataFrames = ["0.21-0.22", "1"]
 
 ["0.2.4-0"]
 Distributions = "0.20-0.25"
+
+["0.2.7-0"]
+Compat = "3-4"
+StatsBase = "0.33-0.34"
+StatsModels = "0.6-0.7"
+
+["0.3-0"]
+Format = "1"
+julia = "1.4.0-1"

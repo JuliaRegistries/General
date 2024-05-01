@@ -1,65 +1,66 @@
 ["0-0.1"]
-DynamicHMC = "0.0.0 - 1"
-GR = "0.0.0 - 0.52"
-LaTeXStrings = "0.0.0 - 1"
-LogDensityProblems = "0.0.0 - 0.8"
-LowLevelParticleFilters = "0.0.0 - 0.4"
-MonteCarloMeasurements = "0.0.0 - 0.3"
-Rebugger = "0.0.0 - 0.3"
-ReverseDiff = "0.0.0 - 1"
-Sobol = "0.0.0 - 1"
-StaticArrays = "0.0.0 - 0.12"
-StatsBase = "0.0.0 - 0.33"
-TikzGraphs = "0.0.0 - 1"
-TikzPictures = "0.0.0 - 3"
-Traceur = "0.0.0 - 0.3"
+DynamicHMC = "0.0.0-1"
+GR = "0.0.0-0.52"
+LaTeXStrings = "0.0.0-1"
+LogDensityProblems = "0.0.0-0.8"
+LowLevelParticleFilters = "0.0.0-0.4"
+MonteCarloMeasurements = "0.0.0-0.3"
+Rebugger = "0.0.0-0.3"
+ReverseDiff = "0.0.0-1"
+Sobol = "0.0.0-1"
+StaticArrays = "0.0.0-0.12"
+StatsBase = "0.0.0-0.33"
+TikzGraphs = "0.0.0-1"
+TikzPictures = "0.0.0-3"
+Traceur = "0.0.0-0.3"
 
 ["0-0.2"]
-Flux = "0.0.0 - 0.11"
-Plots = "0.0.0 - 1"
-PyCall = "0.0.0 - 1"
-ResumableFunctions = "0.0.0 - 0.5"
-Revise = "0.0.0 - 2"
-SymPy = "0.0.0 - 1"
-Zygote = "0.0.0 - 0.5"
+Flux = "0.0.0-0.11"
+Plots = "0.0.0-1"
+PyCall = "0.0.0-1"
+ResumableFunctions = "0.0.0-0.5"
+Revise = "0.0.0-2"
+Statistics = "1"
+SymPy = "0.0.0-1"
+Zygote = "0.0.0-0.5"
 julia = "1"
 
 ["0-0.6"]
-DataFrames = "0.0.0 - 0.21"
-DataStructures = "0.0.0 - 0.18"
-DataValueInterfaces = "0.0.0 - 1"
-IteratorInterfaceExtensions = "0.0.0 - 1"
-Lazy = "0.0.0 - 0.15"
-LightGraphs = "0.0.0 - 1"
-MCMCDiagnostics = "0.0.0 - 0.3"
-MetaGraphs = "0.0.0 - 0.6"
-NLSolversBase = "0.0.0 - 7"
-Optim = "0.0.0 - 1"
-PDMats = "0.0.0 - 0.10"
-Parameters = "0.0.0 - 0.12"
-PositiveFactorizations = "0.0.0 - 0.2"
-Requires = "0.0.0 - 1"
-TableTraits = "0.0.0 - 1"
-Tokenize = "0.0.0 - 0.5"
+DataFrames = "0.0.0-0.21"
+DataStructures = "0.0.0-0.18"
+DataValueInterfaces = "0.0.0-1"
+IteratorInterfaceExtensions = "0.0.0-1"
+Lazy = "0.0.0-0.15"
+LightGraphs = "0.0.0-1"
+MCMCDiagnostics = "0.0.0-0.3"
+MetaGraphs = "0.0.0-0.6"
+NLSolversBase = "0.0.0-7"
+Optim = "0.0.0-1"
+PDMats = "0.0.0-0.10"
+Parameters = "0.0.0-0.12"
+PositiveFactorizations = "0.0.0-0.2"
+Requires = "0.0.0-1"
+TableTraits = "0.0.0-1"
+Tokenize = "0.0.0-0.5"
 
 ["0-0.7"]
-Distributions = "0.0.0 - 0.21"
-ForwardDiff = "0.0.0 - 0.10"
-Graphs = "0.0.0 - 0.10"
-IterTools = "0.0.0 - 1"
-MLStyle = "0.0.0 - 0.3"
-MacroTools = "0.0.0 - 0.5"
-NamedTupleTools = "0.0.0 - 0.12"
-Reexport = "0.0.0 - 0.2"
-SimpleGraphs = "0.0.0 - 0.3"
-SimplePartitions = "0.0.0 - 0.2"
-SimplePosets = "0.0.0 - 0.1"
-StatsFuns = "0.0.0 - 0.9"
-TransformVariables = "0.0.0 - 0.3"
+Distributions = "0.0.0-0.21"
+ForwardDiff = "0.0.0-0.10"
+Graphs = "0.0.0-0.10"
+IterTools = "0.0.0-1"
+MLStyle = "0.0.0-0.3"
+MacroTools = "0.0.0-0.5"
+NamedTupleTools = "0.0.0-0.12"
+Reexport = "0.0.0-0.2"
+SimpleGraphs = "0.0.0-0.3"
+SimplePartitions = "0.0.0-0.2"
+SimplePosets = "0.0.0-0.1"
+StatsFuns = "0.0.0-0.9"
+TransformVariables = "0.0.0-0.3"
 
 ["0.10"]
 MonteCarloMeasurements = "0.5-0.6"
-SpecialFunctions = "0.0.0 - 0.10"
+SpecialFunctions = "0.0.0-0.10"
 
 ["0.11"]
 LazyArrays = "0.14-0.15"
@@ -67,7 +68,6 @@ RecipesBase = "0.7-0.8"
 
 ["0.11-0"]
 DiffResults = "1"
-NamedTupleTools = "0.12-0.13"
 
 ["0.11-0.12"]
 MonteCarloMeasurements = "0.6-0.8"
@@ -82,20 +82,24 @@ ReverseDiff = "1"
 ["0.11-0.16.0"]
 SpecialFunctions = "0.10"
 
+["0.11-0.20"]
+NamedTupleTools = "0.12-0.13"
+
 ["0.12"]
 Setfield = "0.6"
 
 ["0.12-0"]
 MLStyle = "0.3-0.4"
-RecipesBase = ["0.7-0.8", "1"]
 
 ["0.12-0.13"]
 LazyArrays = "0.14-0.16"
 
+["0.12-0.20"]
+RecipesBase = ["0.7-0.8", "1"]
+
 ["0.13-0"]
 Requires = "1"
 SimplePartitions = "0.2-0.3"
-SimplePosets = "0.0-0.1"
 
 ["0.13-0.15.0"]
 SimpleGraphs = "0.3-0.5"
@@ -103,6 +107,9 @@ SimpleGraphs = "0.3-0.5"
 ["0.13-0.16"]
 MonteCarloMeasurements = "0.6-0.9"
 Setfield = "0.6-0.7"
+
+["0.13-0.20"]
+SimplePosets = "0.0-0.1"
 
 ["0.13.1-0.13"]
 GeneralizedGenerated = "0.2.6-0.2"
@@ -120,6 +127,7 @@ GeneralizedGenerated = "0.2"
 
 ["0.14-0.16.0"]
 CategoricalArrays = "0.8"
+Statistics = "1.4.0-1"
 julia = "1.4.0-1"
 
 ["0.14.4-0.16.0"]
@@ -142,24 +150,19 @@ MappedArrays = "0.3"
 ["0.16-0"]
 StatsBase = "0.33"
 
-["0.16.1-0"]
-julia = "1.5.0-1"
-
 ["0.16.1-0.16"]
 CategoricalArrays = "0.8-0.9"
 LazyArrays = "0.14-0.19"
 SpecialFunctions = "0.9-0.10"
 
+["0.16.1-0.20"]
+Statistics = "1.5.0-1"
+julia = "1.5.0-1"
+
 ["0.17-0"]
-ArrayInterface = "3"
-GeneralizedGenerated = "0.3"
-IRTools = "0.4"
 MappedArrays = "0.3-0.4"
-NestedTuples = "0.3"
 Reexport = "1"
 RuntimeGeneratedFunctions = "0.5"
-SpecialFunctions = ["0.9-0.10", "1"]
-SymbolicCodegen = "0.2"
 
 ["0.17-0.18"]
 SampleChains = "0.3"
@@ -176,47 +179,58 @@ LazyArrays = "0.14-0.21"
 MeasureTheory = "0.6-0.7"
 SymbolicUtils = "0.8-0.10"
 
+["0.17-0.20"]
+ArrayInterface = "3"
+IRTools = "0.4"
+NestedTuples = "0.3"
+SpecialFunctions = ["0.9-0.10", "1"]
+SymbolicCodegen = "0.2"
+
+["0.17-0.21.0"]
+GeneralizedGenerated = "0.3"
+
 ["0.18.1-0.19.0"]
 Distributions = "0.19-0.24"
 
 ["0.18.3-0"]
 JuliaVariables = "0.2"
 
-["0.19-0"]
-TupleVectors = "0.1"
-
 ["0.19-0.19.1"]
 SampleChains = "0.4"
+
+["0.19-0.21.1"]
+TupleVectors = "0.1"
 
 ["0.19.1-0.19"]
 Distributions = "0.19-0.25"
 
 ["0.19.2-0"]
 SampleChains = "0.5"
-TransformVariables = "0.4"
 
 ["0.19.2-0.19"]
 MeasureTheory = "0.8"
 SymbolicUtils = "0.8-0.12"
 
+["0.19.2-0.20"]
+TransformVariables = "0.4"
+
 ["0.2"]
 DynamicHMC = "1.0.5-1"
 LogDensityProblems = "0.8.3-0.8"
-MCMCChains = "0.0.0 - 4"
+MCMCChains = "0.0.0-4"
 MonteCarloMeasurements = "0.3.4-0.3"
-Turing = "0.0.0 - 0.14"
+Turing = "0.0.0-0.14"
 
 ["0.2-0.6"]
-CodeTracking = "0.0.0 - 1"
-Transducers = "0.0.0 - 0.4"
+CodeTracking = "0.0.0-1"
+Transducers = "0.0.0-0.4"
 
 ["0.2-0.7"]
-AdvancedHMC = "0.0.0 - 0.2"
-DiffResults = "0.0.0 - 0.0.4"
+AdvancedHMC = "0.0.0-0.2"
+DiffResults = "0.0.0-0.0.4"
 
 ["0.20-0"]
 Distributions = "0.23-0.25"
-SimpleGraphs = "0.5-0.7"
 
 ["0.20-0.20.1"]
 FillArrays = "0.9-0.11"
@@ -227,6 +241,9 @@ Tullio = "0.2-0.3"
 
 ["0.20-0.20.8"]
 SymbolicUtils = "0.11-0.13"
+
+["0.20-0.21.1"]
+SimpleGraphs = "0.5-0.7"
 
 ["0.20.2-0.20.3"]
 MeasureTheory = "0.10"
@@ -243,51 +260,82 @@ MeasureTheory = "0.12"
 ["0.20.8"]
 MeasureBase = "0.4"
 
-["0.20.8-0"]
+["0.20.8-0.20"]
 MeasureTheory = "0.13"
 
-["0.20.9-0"]
+["0.20.9-0.20"]
 FillArrays = "0.10-0.12"
 MeasureBase = "0.5"
 SymbolicUtils = "0.15-0.17"
 
+["0.21-0"]
+ArrayInterface = "5-6"
+DensityInterface = "0.4"
+FillArrays = "0.11-0.13"
+IfElse = "0.1"
+MeasureTheory = "0.16"
+NamedTupleTools = "0.12-0.14"
+NestedTuples = "0.3.9-0.3"
+RecipesBase = "1"
+SpecialFunctions = "1-2"
+Static = "0.5-0.6"
+Statistics = "1.6.0-1"
+StatsFuns = ["0.9", "1"]
+SymbolicUtils = "0.17-0.19"
+TransformVariables = "0.5-0.6"
+julia = "1.6.0-1"
+
+["0.21-0.21.1"]
+MeasureBase = "0.9"
+SimplePosets = "0.1"
+
+["0.21.1-0"]
+DataStructures = "0.18"
+
+["0.21.2-0"]
+MeasureBase = "0.10-0.12"
+SimpleGraphs = "0.7.18"
+SimplePosets = "0.1.5"
+TupleVectors = "0.1-0.2"
+
 ["0.3-0.6"]
-BangBang = "0.0.0 - 0.3"
-BenchmarkTools = "0.0.0 - 0.5"
-CSV = "0.0.0 - 0.7"
-Cassette = "0.0.0 - 0.3"
-Measurements = "0.0.0 - 2"
-OnlineStats = "0.0.0 - 1"
-Sobol = "0.0.0 - 1"
-StaticArrays = "0.0.0 - 0.12"
-StatsBase = "0.0.0 - 0.33"
+BangBang = "0.0.0-0.3"
+BenchmarkTools = "0.0.0-0.5"
+CSV = "0.0.0-0.7"
+Cassette = "0.0.0-0.3"
+Measurements = "0.0.0-2"
+OnlineStats = "0.0.0-1"
+Sobol = "0.0.0-1"
+StaticArrays = "0.0.0-0.12"
+StatsBase = "0.0.0-0.33"
 
 ["0.3-0.7"]
-DynamicHMC = "0.0.0 - 2"
-GeneralizedGenerated = "0.0.0 - 0.2"
-LogDensityProblems = "0.0.0 - 0.9"
-MonteCarloMeasurements = "0.3.5 - 0.5"
+DynamicHMC = "0.0.0-2"
+GeneralizedGenerated = "0.0.0-0.2"
+LogDensityProblems = "0.0.0-0.9"
+MonteCarloMeasurements = "0.3.5-0.5"
+Statistics = "1.2.0-1"
 julia = "1.2.0-1"
 
 ["0.5-0.7"]
-ResumableFunctions = "0.0.0 - 0.5"
+ResumableFunctions = "0.0.0-0.5"
 
 ["0.6"]
-CanonicalTraits = "0.0.0 - 0.2"
-DistributionsAD = "0.0.0 - 0.6"
-FunctionWrappers = "0.0.0 - 1"
-Infiltrator = "0.0.0 - 0.3"
-JuliaVariables = "0.0.0 - 0.2"
-MLJ = "0.0.0 - 0.13"
-NameResolution = "0.0.0 - 0.1"
-Plots = "0.0.0 - 1"
+CanonicalTraits = "0.0.0-0.2"
+DistributionsAD = "0.0.0-0.6"
+FunctionWrappers = "0.0.0-1"
+Infiltrator = "0.0.0-0.3"
+JuliaVariables = "0.0.0-0.2"
+MLJ = "0.0.0-0.13"
+NameResolution = "0.0.0-0.1"
+Plots = "0.0.0-1"
 
 ["0.7"]
-Bijectors = "0.0.0 - 0.4"
-PyCall = "0.0.0 - 1"
-ReverseDiff = "0.0.0 - 0.3"
-Stheno = "0.0.0 - 0.3"
-SymPy = "0.0.0 - 1"
+Bijectors = "0.0.0-0.4"
+PyCall = "0.0.0-1"
+ReverseDiff = "0.0.0-0.3"
+Stheno = "0.0.0-0.3"
+SymPy = "0.0.0-1"
 
 ["0.8"]
 Bijectors = "0.4"
@@ -297,7 +345,6 @@ Zygote = "0.4"
 
 ["0.8-0"]
 MacroTools = "0.5"
-StatsFuns = "0.9"
 
 ["0.8-0.10"]
 DiffResults = "0.0.4"
@@ -320,6 +367,7 @@ SimplePosets = "0.0"
 ["0.8-0.13"]
 FillArrays = "0.8"
 PyCall = "1.91.0-1"
+Statistics = "1.3.0-1"
 SymPy = "1"
 julia = "1.3.0-1"
 
@@ -335,6 +383,9 @@ Reexport = "0.2"
 
 ["0.8-0.19.1"]
 TransformVariables = "0.3"
+
+["0.8-0.20"]
+StatsFuns = "0.9"
 
 ["0.8-0.20.8"]
 Graphs = "0.10"

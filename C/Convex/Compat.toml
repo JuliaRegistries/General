@@ -1,18 +1,20 @@
 ["0-0.10"]
-DataStructures = "0.0.0 - 0.18"
+DataStructures = "0.0.0-0.18"
 
 ["0-0.11"]
-MathProgBase = "0.7.0 - 0.7"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
+
+["0-0.12"]
+MathProgBase = "0.7"
 
 ["0.11"]
 OrderedCollections = "0-1"
 
-["0.12"]
-MathProgBase = "0.7"
-
 ["0.12-0"]
 OrderedCollections = "1"
+
+["0.12-0.14"]
 julia = "1"
 
 ["0.12.5-0.12.6"]
@@ -27,19 +29,19 @@ AbstractTrees = "0.2.1-0.3"
 ["0.12.7-0.14.2"]
 BenchmarkTools = "0.4-0.5"
 
-["0.13-0"]
-AbstractTrees = "0.2-0.3"
-
 ["0.13-0.14.16"]
 MathOptInterface = "0.9"
 
-["0.14.10-0"]
+["0.13-0.15.1"]
+AbstractTrees = "0.2-0.3"
+
+["0.14.10-0.14"]
 BenchmarkTools = ["0.4-0.7", "1"]
 
-["0.14.15-0"]
+["0.14.15-0.15.1"]
 LDLFactorizations = "0.8.1-0.8"
 
-["0.14.17-0"]
+["0.14.17-0.14"]
 MathOptInterface = "0.9-0.10"
 
 ["0.14.3-0.14.6"]
@@ -47,3 +49,17 @@ BenchmarkTools = "0.4-0.6"
 
 ["0.14.7-0.14.9"]
 BenchmarkTools = "0.4-0.7"
+
+["0.15-0"]
+BenchmarkTools = "1"
+MathOptInterface = "1"
+julia = "1.6.0-1"
+
+["0.15.2"]
+LDLFactorizations = "0.8.1-0.9"
+
+["0.15.2-0"]
+AbstractTrees = "0.2-0.4"
+
+["0.15.3-0"]
+LDLFactorizations = "0.8.1-0.10"

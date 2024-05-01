@@ -1,8 +1,17 @@
 [0]
-PyCall = "0.0.0 - 1"
+PyCall = "0.0.0-1"
 
 [0-1]
 julia = "1"
 
-[1]
+[1-2]
 PyCall = "1.91.0-1"
+
+[2]
+DocStringExtensions = "0.8"
+Documenter = "0.27"
+DocumenterTools = "0.1"
+JuliaFormatter = "0.22"
+MySQL = "1"
+SQLite = "1"
+julia = "1.5.0-1"

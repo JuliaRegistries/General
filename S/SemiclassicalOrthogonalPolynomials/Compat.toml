@@ -21,9 +21,6 @@ julia = "1.5.0-1"
 ContinuumArrays = "0.4"
 QuasiArrays = "0.3.8-0.3"
 
-["0.0.2-0"]
-BandedMatrices = "0.16"
-
 ["0.0.2-0.0.3"]
 ArrayLayouts = "0.5.1-0.5"
 InfiniteArrays = "0.8-0.9"
@@ -34,6 +31,9 @@ LazyArrays = "0.20"
 
 ["0.0.2-0.1"]
 SpecialFunctions = ["0.10", "1"]
+
+["0.0.2-0.2"]
+BandedMatrices = "0.16"
 
 ["0.0.3"]
 ClassicalOrthogonalPolynomials = "0.1"
@@ -88,7 +88,7 @@ ContinuumArrays = "0.7-0.8"
 ["0.1.2-0.1"]
 QuasiArrays = "0.5-0.6"
 
-["0.2-0"]
+["0.2"]
 ArrayLayouts = "0.7"
 SpecialFunctions = "1"
 julia = "1.6.0-1"
@@ -110,10 +110,109 @@ QuasiArrays = "0.6-0.7"
 ["0.2.2"]
 ContinuumArrays = "0.8-0.9"
 
-["0.2.3-0"]
+["0.2.3-0.2"]
 ClassicalOrthogonalPolynomials = "0.5"
-ContinuumArrays = "0.10"
 FillArrays = "0.12"
+
+["0.2.3-0.3.0"]
+ContinuumArrays = "0.10"
+
+["0.2.3-0.3.1"]
 InfiniteArrays = "0.12"
 LazyArrays = "0.22"
+
+["0.2.3-0.3.4"]
 QuasiArrays = "0.9"
+
+["0.3-0"]
+SpecialFunctions = "1-2"
+
+["0.3-0.3.2"]
+ClassicalOrthogonalPolynomials = "0.6"
+
+["0.3-0.3.3"]
+ArrayLayouts = "0.8"
+FillArrays = "0.13"
+
+["0.3-0.3.4"]
+julia = "1.7.0-1"
+
+["0.3-0.5.2"]
+BandedMatrices = "0.17"
+
+["0.3.1-0.3.2"]
+ContinuumArrays = "0.10-0.11"
+
+["0.3.2-0.3.3"]
+LazyArrays = "0.22.14-0.22"
+
+["0.3.2-0.5.0"]
+InfiniteArrays = "0.12.9-0.12"
+
+["0.3.3"]
+ClassicalOrthogonalPolynomials = "0.6-0.7"
+ContinuumArrays = "0.10-0.12"
+
+["0.3.4"]
+ClassicalOrthogonalPolynomials = "0.8"
+ContinuumArrays = "0.12"
+SingularIntegrals = "0.0.1"
+
+["0.3.4-0"]
+ArrayLayouts = "1"
+FillArrays = "1"
+LazyArrays = "1"
+
+["0.3.5"]
+SingularIntegrals = "0.0.2"
+
+["0.3.5-0"]
+julia = "1.9.0-1"
+
+["0.3.5-0.3"]
+ClassicalOrthogonalPolynomials = "0.9-0.10"
+
+["0.3.5-0.4"]
+ContinuumArrays = "0.12-0.13"
+QuasiArrays = "0.9-0.10"
+
+["0.3.5-0.5.0"]
+InfiniteLinearAlgebra = "0.6.19-0.6"
+
+["0.3.6-0.3"]
+SingularIntegrals = ["0.0.2", "0.1"]
+
+["0.4"]
+ClassicalOrthogonalPolynomials = "0.10.1-0.10"
+SingularIntegrals = "0.1"
+
+["0.5-0"]
+QuasiArrays = "0.11"
+
+["0.5-0.5.3"]
+ClassicalOrthogonalPolynomials = "0.11"
+
+["0.5.0"]
+ContinuumArrays = "0.14"
+
+["0.5.1"]
+ContinuumArrays = "0.15"
+
+["0.5.1-0"]
+InfiniteArrays = "0.13"
+InfiniteLinearAlgebra = "0.7"
+
+["0.5.2-0.5.3"]
+ContinuumArrays = "0.15-0.16"
+
+["0.5.3-0"]
+BandedMatrices = ["0.17", "1"]
+
+["0.5.4"]
+ClassicalOrthogonalPolynomials = "0.11-0.12"
+
+["0.5.4-0"]
+ContinuumArrays = "0.15-0.17"
+
+["0.5.5-0"]
+ClassicalOrthogonalPolynomials = "0.12.4-0.12"

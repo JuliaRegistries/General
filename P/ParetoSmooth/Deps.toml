@@ -1,7 +1,6 @@
 [0]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
 
 ["0-0.1"]
 MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
@@ -9,13 +8,18 @@ MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
 ["0-0.6"]
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 
+["0-0.7.3"]
+Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
+
 ["0.1.2-0.6"]
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 
 ["0.2-0"]
 AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
-InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 MCMCDiagnosticTools = "be115224-59cd-429b-ad48-344e309966f0"
+
+["0.2-0.7.4"]
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
 ["0.2.1-0"]
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"

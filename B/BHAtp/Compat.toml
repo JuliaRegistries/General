@@ -1,17 +1,19 @@
 [0]
 Compat = "0.69-2"
-Interpolations = "0.0.0 - 0.12"
+Interpolations = "0.0.0-0.12"
 PtFEM = "0-1"
-Reexport = "0.0.0 - 0.2"
+Reexport = "0.0.0-0.2"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 [1]
+Statistics = "1"
 julia = "1"
 
 ["1.0.0"]
-CSV = "0.0.0 - 0.5"
-DataFrames = "0.0.0 - 0.19"
-Interpolations = "0.0.0 - 0.12"
+CSV = "0.0.0-0.5"
+DataFrames = "0.0.0-0.19"
+Interpolations = "0.0.0-0.12"
 
 ["1.0.1"]
 DataFrames = "0.19"

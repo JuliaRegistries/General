@@ -12,10 +12,7 @@ function _shorten_manifest_version_master(; manifest_filename::AbstractString)
     manifest_dict = TOML.parsefile(manifest_filename)
     old_julia_version = get(manifest_dict, julia_version_key, nothing)
     if old_julia_version !== nothing
-        m = match(
-            r"^([0-9]*?)\.([0-9]*?)\.([0-9]*?)\-DEV\.([0-9]*?)$",
-            old_julia_version,
-        )
+        m = match(r"^([0-9]*?)\.([0-9]*?)\.([0-9]*?)\-DEV\.([0-9]*?)$", old_julia_version)
         if m !== nothing
             major = m[1]
             minor = m[2]

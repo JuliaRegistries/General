@@ -1,6 +1,5 @@
 [0]
 BasisFunctions = "4343a256-5453-507d-8aad-01a9d7189916"
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 CompositeTypes = "b152e2b5-7a66-4b01-a709-34e65c35f657"
 DomainSets = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
@@ -16,3 +15,13 @@ QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.4.2"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["0.4.3-0"]
+GenericFFT = "a8297547-1b15-4a5a-a998-a2ac5f1cef28"
+
+["0.4.8-0"]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"

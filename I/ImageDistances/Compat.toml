@@ -1,17 +1,19 @@
 ["0-0.1"]
-Distances = "0.5.0 - 0.8"
-ProgressMeter = "0.5.2 - 0.9"
+Distances = "0.5.0-0.8"
+ProgressMeter = "0.5.2-0.9"
 julia = ["0.7", "1"]
 
 ["0-0.2.2"]
-Colors = "0.8.2 - 0.9"
+Colors = "0.8.2-0.9"
 
-["0.2-0.2.1"]
-ProgressMeter = "0.9.0 - 0.9"
+["0.2-0"]
 julia = "1"
 
+["0.2-0.2.1"]
+ProgressMeter = "0.9"
+
 ["0.2-0.2.4"]
-Distances = "0.8.0 - 0.8"
+Distances = "0.8"
 
 ["0.2.10-0.2.12"]
 ImageMorphology = "0.2"
@@ -22,30 +24,35 @@ ColorVectorSpace = "0.7-0.9"
 ["0.2.13-0.2.14"]
 ImageMorphology = "0.2.6-0.2"
 
-["0.2.14-0"]
+["0.2.14-0.2.16"]
 ImageCore = "0.9"
 
-["0.2.15-0"]
+["0.2.15"]
 ImageMorphology = "0.2.6-0.3"
 
+["0.2.16-0"]
+ImageMorphology = "0.2.6-0.4"
+
+["0.2.17-0"]
+ImageCore = "0.9-0.10"
+
 ["0.2.2"]
-FixedPointNumbers = "0.0.0 - 0.7"
-ImageCore = "0.0.0 - 0.8"
-julia = "1.0.0-1"
+FixedPointNumbers = "0.0.0-0.7"
+ImageCore = "0.0.0-0.8"
 
 ["0.2.2-0.2.4"]
-ColorVectorSpace = "0.0.0 - 0.7"
-
-["0.2.3-0"]
-julia = "1"
+ColorVectorSpace = "0.0.0-0.7"
 
 ["0.2.3-0.2.4"]
-Colors = "0.9.0 - 0.9"
-FixedPointNumbers = "0.5.0 - 0.7"
-ImageCore = "0.7.0 - 0.8"
+Colors = "0.9"
+FixedPointNumbers = "0.5.0-0.7"
+ImageCore = "0.7.0-0.8"
 
 ["0.2.5"]
 ColorVectorSpace = "0.7"
+
+["0.2.5-0"]
+Statistics = "1"
 
 ["0.2.5-0.2.6"]
 Colors = "0.9.6-0.9"

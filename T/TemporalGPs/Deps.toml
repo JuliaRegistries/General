@@ -4,10 +4,12 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
-ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 
 ["0-0.4"]
 Stheno = "8188c328-b5d6-583d-959b-9690869a5511"
+
+["0-0.5"]
+ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 
 ["0.2-0"]
 BlockDiagonals = "0a1fb500-61f7-11e9-3c65-f5ef3456f9f0"
@@ -26,3 +28,6 @@ StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 ["0.5-0"]
 AbstractGPs = "99985d1d-32ba-4be9-9821-2ec096f28918"
 KernelFunctions = "ec8451be-7e33-11e9-00cf-bbf324bd1392"
+
+["0.6.5-0"]
+Bessels = "0e736298-9ec6-45e8-9647-e4fc86a2fe38"

@@ -1,5 +1,13 @@
 [0]
 Cairo = "1"
 Gtk = "1.1.7-1"
-SafeTestsets = "0.0.1"
 julia = "1"
+
+["0-0.2.1"]
+SafeTestsets = "0.0.1"
+Statistics = "1"
+
+["0.2.2-0"]
+Random = "1.9.0-1"
+SafeTestsets = ["0.0.1", "0.1"]
+Statistics = "1.9.0-1"

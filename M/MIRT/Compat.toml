@@ -2,17 +2,17 @@
 julia = "1.1-1"
 
 ["0-0.7"]
-Colors = "0.0.0 - 0.9"
-DSP = "0.0.0 - 0.6"
-Distributions = "0.0.0 - 0.23"
-FFTViews = "0.0.0 - 0.3"
-FFTW = "0.0.0 - 1"
-FileIO = "0.0.0 - 1"
-LaTeXStrings = "0.0.0 - 1"
-LinearMaps = "0.0.0 - 2"
-MosaicViews = "0.0.0 - 0.1"
-Plots = "0.0.0 - 0.27"
-Wavelets = "0.0.0 - 0.9"
+Colors = "0.0.0-0.9"
+DSP = "0.0.0-0.6"
+Distributions = "0.0.0-0.23"
+FFTViews = "0.0.0-0.3"
+FFTW = "0.0.0-1"
+FileIO = "0.0.0-1"
+LaTeXStrings = "0.0.0-1"
+LinearMaps = "0.0.0-2"
+MosaicViews = "0.0.0-0.1"
+Plots = "0.0.0-0.27"
+Wavelets = "0.0.0-0.9"
 
 ["0.10-0.12"]
 LinearMapsAA = "0.6"
@@ -22,38 +22,59 @@ MosaicViews = "0.2"
 NFFT = "0.5"
 SpecialFunctions = "0.10"
 
-["0.13-0"]
+["0.13-0.14"]
 LinearMapsAA = "0.6.5-0.6"
+
+["0.14"]
+FillArrays = "0.9-0.11"
+MIRTio = "0.3"
+Reexport = ["0.2", "1"]
+SpecialFunctions = ["0.10", "1"]
+julia = "1.5.0-1"
 
 ["0.14-0"]
 AVSfldIO = "0.2"
 FFTW = "1"
 FileIO = "1.9.0-1"
-FillArrays = "0.9-0.11"
+
+["0.14-0.15"]
 Interpolations = "0.12-0.13"
-MIRTio = "0.3"
 NFFT = "0.6"
-Reexport = ["0.2", "1"]
-SpecialFunctions = ["0.10", "1"]
-julia = "1.5.0-1"
 
 ["0.14.0"]
 MIRTjim = "0.6"
 
-["0.14.1-0"]
+["0.14.1-0.14"]
 MIRTjim = "0.6-0.7"
+
+["0.15"]
+FillArrays = "0.12"
+LinearMapsAA = "0.7"
+SpecialFunctions = ["0.10", "1-2"]
+
+["0.15-0"]
+julia = "1.6.0-1"
+
+["0.16-0"]
+FillArrays = "0.12-0.13"
+ImageFiltering = "0.6-0.7"
+ImageTransformations = "0.8-0.9"
+Interpolations = "0.12-0.14"
+LinearMapsAA = "0.11"
+NFFT = "0.13"
+SpecialFunctions = "1-2"
 
 ["0.2-0.8"]
 julia = "1.1.0-1"
 
 ["0.4-0.7"]
-BenchmarkTools = "0.0.0 - 0.4"
-NFFT = "0.0.0 - 0.4"
+BenchmarkTools = "0.0.0-0.4"
+NFFT = "0.0.0-0.4"
 
 ["0.6-0.7"]
-Elliptic = "0.0.0 - 1"
-ImageFiltering = "0.0.0 - 0.6"
-ImageTransformations = "0.0.0 - 0.8"
+Elliptic = "0.0.0-1"
+ImageFiltering = "0.0.0-0.6"
+ImageTransformations = "0.0.0-0.8"
 
 ["0.8"]
 Colors = "0.9.6-0.9"
@@ -137,10 +158,6 @@ LaTeXStrings = "1.1.0-1"
 Colors = "0.8-0.11"
 Plots = "0.29"
 
-["0.9.3-0"]
-ImageFiltering = "0.6"
-ImageTransformations = "0.8"
-
 ["0.9.3-0.12"]
 FileIO = "1.2.0-1"
 LinearMaps = "2.6.0-2"
@@ -149,6 +166,10 @@ LinearMaps = "2.6.0-2"
 FFTViews = "0.3"
 Interpolations = "0.12"
 MIRTio = "0.2"
+
+["0.9.3-0.15"]
+ImageFiltering = "0.6"
+ImageTransformations = "0.8"
 
 ["0.9.3-0.9"]
 SpecialFunctions = "0.8-0.10"

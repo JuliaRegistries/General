@@ -1,8 +1,12 @@
 [0]
-Distances = "0.0.0 - 0.9"
-LearnBase = "0.0.0 - 0.4"
+DelimitedFiles = ["0.7", "1"]
+Distances = "0.0.0-0.9"
+LearnBase = "0.0.0-0.4"
 LightGraphs = "0-1"
-MLDataPattern = "0.0.0 - 0.5"
-MLLabelUtils = "0.0.0 - 0.5"
+MLDataPattern = "0.0.0-0.5"
+MLLabelUtils = "0.0.0-0.5"
 SimpleWeightedGraphs = "0-1"
 julia = ["0.7", "1"]
+
+["0.1.1-0"]
+Statistics = ["0.7", "1"]

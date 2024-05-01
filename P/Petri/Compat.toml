@@ -1,35 +1,32 @@
 ["0-0.1"]
-MacroTools = "0.0.0 - 0.5"
-ModelingToolkit = "0.0.0 - 0.10"
+MacroTools = "0.0.0-0.5"
+ModelingToolkit = "0.0.0-0.10"
 
-[0-1]
+["0-1.2"]
 julia = "1"
 
-["0.1.1"]
-Catlab = "0.3.0 - 0.3"
-
 ["0.1.1-0.1"]
-GeneralizedGenerated = "0.0.0 - 0.2"
+GeneralizedGenerated = "0.0.0-0.2"
 
-["0.1.2"]
+["0.1.1-0.1.2"]
 Catlab = "0.3"
 
 ["0.1.2-0.1"]
 StaticArrays = "0.11"
 
 ["0.1.3-0"]
-Catlab = "0.0.0 - 0.7"
+Catlab = "0.0.0-0.7"
 
 ["0.3.1-0"]
-AutoHashEquals = "0.0.0 - 0.2"
+AutoHashEquals = "0.0.0-0.2"
 
 ["1.0"]
-AutoHashEquals = "0.0.0 - 0.2"
-Catlab = "0.0.0 - 0.7"
+AutoHashEquals = "0.0.0-0.2"
+Catlab = "0.0.0-0.7"
 OrdinaryDiffEq = "0.0.0-5"
 StochasticDiffEq = "0.0.0-6"
 
-["1.1-1"]
+["1.1-1.2"]
 AutoHashEquals = "0.2"
 
 ["1.1-1.2.0"]
@@ -44,10 +41,12 @@ StochasticDiffEq = "6.24.0-6"
 
 ["1.1.1-1"]
 DiffEqBase = "6"
-DiffEqJump = "6"
-OrdinaryDiffEq = "5"
 SteadyStateDiffEq = "1"
 StochasticDiffEq = "6"
+
+["1.1.1-1.2"]
+DiffEqJump = "6"
+OrdinaryDiffEq = "5"
 
 ["1.2.1-1.2.2"]
 Catlab = "0.7.4-0.8"
@@ -64,5 +63,12 @@ Catlab = "0.7.4-0.11"
 ["1.2.6"]
 Catlab = "0.7.4-0.12"
 
-["1.2.7-1"]
+["1.2.7-1.2"]
 Catlab = "0.7.4-0.13"
+
+["1.3-1"]
+Catlab = "0.7.4-0.14"
+JumpProcesses = "9"
+OrdinaryDiffEq = "5-6"
+StructEquality = "2.1.0-2"
+julia = "1.6.0-1"

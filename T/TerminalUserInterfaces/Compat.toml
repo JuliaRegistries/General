@@ -1,5 +1,36 @@
 [0]
 Crayons = "4"
-TERMIOS = "0.2"
 TextWrap = "1"
 julia = "1"
+
+["0-0.2"]
+TERMIOS = "0.2"
+
+["0.3"]
+Crossterm = "0.2"
+
+["0.4"]
+Crossterm = "0.3"
+
+["0.5-0"]
+LoggingExtras = "1"
+LoggingFormats = "1"
+
+["0.5-0.7"]
+Crossterm = "0.5"
+
+["0.7"]
+KiwiConstraintSolver = "1"
+
+["0.7-0"]
+InlineTest = "0.2"
+Tables = "1"
+
+["0.8-0"]
+KiwiConstraintSolver = "1.1.1-1"
+
+["0.8.0"]
+Crossterm = "0.5.1-0.5"
+
+["0.8.1-0"]
+Crossterm = "0.6"

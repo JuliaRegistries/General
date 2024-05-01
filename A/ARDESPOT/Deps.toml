@@ -1,11 +1,16 @@
 [0]
 BasicPOMCP = "d721219e-3fc6-5570-a8ef-e5402f47c49e"
-BeliefUpdaters = "8bb6e9a1-7d73-552c-a44a-e5dc5634aac4"
 CPUTime = "a9c8d775-2e2e-55fc-8582-045d282d599e"
 D3Trees = "e3df1716-f71e-5df9-9e2d-98e193103c45"
-POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
 POMDPs = "a93abf59-7444-517b-a68a-c42f96afdd7d"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 ParticleFilters = "c8b314e2-9260-5cf8-ae76-3be7461ca6d0"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0-0.3.5"]
+BeliefUpdaters = "8bb6e9a1-7d73-552c-a44a-e5dc5634aac4"
+POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
+
+["0.3.6-0"]
+POMDPTools = "7588e00f-9cae-40de-98dc-e0c70c48cdd7"

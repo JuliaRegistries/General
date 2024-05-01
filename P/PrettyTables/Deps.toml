@@ -4,16 +4,30 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ["0-0.9"]
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 
-["0.10-1"]
+["0.10-2"]
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 
 ["0.2"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
-["0.2-1"]
+["0.2-2"]
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 
-["0.3-1"]
+["0.3-2"]
 Crayons = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
-Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.3-2.2.6"]
+Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
+
+[2]
+StringManipulation = "892a3eda-7b42-436c-8928-eab12a02cf0e"
+
+["2.2-2"]
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+
+["2.2.7-2"]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+["2.3-2"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

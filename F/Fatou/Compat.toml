@@ -9,12 +9,17 @@ PyPlot = "1-2"
 
 ["1.1.0"]
 ColorSchemes = "0-3"
-Requires = "0.0.0 - 0.5"
+Requires = "0.0.0-0.5"
 
 ["1.1.1-1"]
 ColorSchemes = "3"
 LaTeXStrings = "1"
-Reduce = "1.2.0-1"
 Requires = "1"
 SyntaxTree = "1"
 julia = "1"
+
+["1.1.1-1.2.0"]
+Reduce = "1.2.0-1"
+
+["1.2.1-1"]
+Reduce = "1.2.13-1"

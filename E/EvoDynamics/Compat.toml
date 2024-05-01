@@ -9,17 +9,24 @@ Agents = "2"
 ["0.1-0.4"]
 Agents = "2.2.0-2"
 
+["0.13-0"]
+Agents = "5"
+RandomNumbers = "1"
+StaticArrays = "1"
+
 ["0.5-0.6"]
 Agents = "3"
-StaticArrays = "0.0.0 - 0.12"
+StaticArrays = "0.0.0-0.12"
 
 ["0.7"]
 Agents = "3.7.0-3"
 
 ["0.7-0"]
-StaticArrays = "0.12"
 StatsBase = "0.33"
 julia = "1.5.0-1"
+
+["0.7-0.12"]
+StaticArrays = "0.12"
 
 ["0.7.0"]
 Distributions = ["0.24", "1"]
@@ -28,6 +35,8 @@ Distributions = ["0.24", "1"]
 Distributions = ["0.22-0.24", "1"]
 
 ["0.8-0"]
-Agents = "4"
 Distributions = "0.25"
 YAML = "0.4"
+
+["0.8-0.12"]
+Agents = "4"

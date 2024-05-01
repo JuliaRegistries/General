@@ -1,5 +1,6 @@
 [0]
 SortingLab = "0.2"
+Statistics = "1"
 julia = "1"
 
 ["0-0.1.0"]
@@ -16,7 +17,7 @@ Missings = "0.4"
 WeakRefStrings = "0.6"
 
 ["0.1.1"]
-Flux = "0.0.0 - 0.11"
+Flux = "0.0.0-0.11"
 
 ["0.1.1-0.1.3"]
 CategoricalArrays = "0.7"
@@ -68,5 +69,8 @@ WeakRefStrings = ["0.6", "1"]
 PooledArrays = "1"
 ShortStrings = "0.3"
 
-["0.3.4-0"]
+["0.3.4"]
 CSV = "0.7-0.9"
+
+["0.3.5-0"]
+CSV = "0.7-0.10"

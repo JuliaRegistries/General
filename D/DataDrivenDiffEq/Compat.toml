@@ -15,6 +15,7 @@ Compat = "2.2.0-3"
 ModelingToolkit = ["0.9-0.10", "1"]
 
 ["0.1.2-0.1"]
+Statistics = "1"
 StatsBase = "0.32"
 
 ["0.1.2-0.1.3"]
@@ -32,15 +33,16 @@ ModelingToolkit = "1.2.9-1"
 ["0.1.4-0.5"]
 DSP = "0.6"
 
-["0.2-0"]
-StatsBase = "0.32-0.33"
-
 ["0.2-0.3.1"]
 DiffEqBase = "6.29.0-6"
 ModelingToolkit = "3"
 
 ["0.2-0.5"]
+Statistics = "1.3.0-1"
 julia = "1.3.0-1"
+
+["0.2-1.2"]
+StatsBase = "0.32-0.33"
 
 ["0.3-0.3.1"]
 DataInterpolations = "2"
@@ -64,16 +66,16 @@ DataInterpolations = "3.1.0-3"
 ["0.4"]
 ModelingToolkit = "3.17.0-3"
 
-["0.4-0"]
-QuadGK = "2.4.0-2"
-
 ["0.4-0.5"]
 DiffEqBase = "6.45.0-6"
+
+["0.4-1"]
+QuadGK = "2.4.0-2"
 
 ["0.4.1-0.5.1"]
 ProximalOperators = "0.11-0.12"
 
-["0.5-0"]
+["0.5-0.8.1"]
 DocStringExtensions = "0.7-0.8"
 
 ["0.5.0"]
@@ -90,11 +92,18 @@ ProximalOperators = "0.11-0.13"
 ModelingToolkit = "4.0.8-5"
 
 ["0.6-0"]
-Compat = "3"
 DataInterpolations = "3"
+
+["0.6-0.8.1"]
+Compat = "3"
+
+["0.6-1"]
 DiffEqBase = "6"
 ProgressMeter = "1.6.0-1"
 Reexport = "1"
+
+["0.6-1.3"]
+Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
 ["0.6.0"]
@@ -127,6 +136,60 @@ ModelingToolkit = "6"
 ["0.6.7"]
 Symbolics = "3-4"
 
-["0.6.8-0"]
+["0.6.8"]
 ModelingToolkit = "7"
+
+["0.6.8-0.8.1"]
 Symbolics = "4"
+
+["0.6.9-1.3"]
+ModelingToolkit = "7-8"
+
+["0.8-0"]
+Literate = "2"
+Measurements = "2.7.0-2"
+
+["0.8-0.8.1"]
+PkgVersion = "0.1"
+
+["0.8-1"]
+CommonSolve = "0.2"
+Parameters = "0.12"
+RecipesBase = "1"
+
+["0.8.2"]
+Symbolics = "4.3"
+
+["0.8.2-0"]
+SymbolicUtils = "0.19"
+
+["0.8.2-1"]
+DocStringExtensions = "0.7-0.9"
+
+["0.8.3-0"]
+Symbolics = "4"
+
+[1]
+Setfield = "1"
+
+["1-1.1"]
+DataInterpolations = "3.7.0-3"
+
+["1.0"]
+MLUtils = "0.3"
+
+["1.1-1"]
+MLUtils = "0.3-0.4"
+SymbolicUtils = "1"
+Symbolics = "5"
+
+["1.2-1"]
+DataInterpolations = "4"
+
+["1.3-1"]
+StatsBase = "0.32-0.34"
+
+["1.4-1"]
+ModelingToolkit = "9"
+Statistics = "1"
+julia = "1.10.0-1"

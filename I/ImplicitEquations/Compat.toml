@@ -1,24 +1,32 @@
 [0]
-IntervalArithmetic = "0.15.0 - 0.17"
+IntervalArithmetic = "0.15.0-0.17"
 
 ["0-0.5"]
-RecipesBase = "0.5.0 - 0.8"
+RecipesBase = "0.5.0-0.8"
 julia = ["0.7", "1"]
 
 ["0.6-0"]
-RecipesBase = "0.5.0 - 1"
-julia = "1.0.0-1"
+RecipesBase = "0.5.0-1"
 
-[1]
+["0.6-1"]
 julia = "1"
 
 ["1.0.0"]
 IntervalArithmetic = "0.15-0.16"
 RecipesBase = "0.5-0.8"
 
-["1.0.1-1"]
+["1.0.1-1.0.6"]
 IntervalArithmetic = "0.15-0.17"
 RecipesBase = ["0.5-0.8", "1.0-1.1"]
 
 ["1.0.5-1"]
 CommonEq = "0.2"
+
+["1.0.7-1"]
+IntervalArithmetic = "0.15-0.20"
+
+["1.0.7-1.0.8"]
+RecipesBase = ["0.5-0.8", "1.0-1.2"]
+
+["1.0.9-1"]
+RecipesBase = ["0.5-0.8", "1"]

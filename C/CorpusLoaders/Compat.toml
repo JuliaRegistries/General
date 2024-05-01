@@ -2,14 +2,14 @@
 julia = "1"
 
 ["0-0.3.0"]
-CSV = "0.0.0 - 0.5"
-DataDeps = "0.0.0 - 0.7"
-Glob = "0.0.0 - 1"
-InternedStrings = "0.0.0 - 0.7"
-LightXML = "0.0.0 - 0.8"
-MultiResolutionIterators = "0.0.0 - 0.5"
-StringEncodings = "0.0.0 - 0.3"
-WordTokenizers = "0.0.0 - 0.5"
+CSV = "0.0.0-0.5"
+DataDeps = "0.0.0-0.7"
+Glob = "0.0.0-1"
+InternedStrings = "0.0.0-0.7"
+LightXML = "0.0.0-0.8"
+MultiResolutionIterators = "0.0.0-0.5"
+StringEncodings = "0.0.0-0.3"
+WordTokenizers = "0.0.0-0.5"
 
 ["0.3.1"]
 CSV = "0.5"
@@ -28,8 +28,11 @@ LightXML = "0.8"
 ["0.3.2"]
 CSV = "0.5-0.8"
 
-["0.3.3-0"]
+["0.3.3-0.3.4"]
 CSV = "0.5-0.9"
 
 ["0.3.4-0"]
 LightXML = "0.8-0.9"
+
+["0.3.5-0"]
+CSV = "0.5-0.10"

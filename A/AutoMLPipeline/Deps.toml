@@ -1,6 +1,5 @@
 [0]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
@@ -14,6 +13,9 @@ MLBase = "f0e99cf1-93fa-52ec-9ecc-5026115318e0"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
+["0-0.3"]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
 ["0.1.7"]
 CodecBzip2 = "523fee87-0ab8-5b00-afb7-3ecf72e48cfd"
 Impute = "f7bf1975-0170-51b9-8c5f-a992d46b9575"
@@ -25,5 +27,15 @@ PooledArrays = "2dfb63ee-cc39-5dd5-95bd-886bf059d720"
 ["0.2.1-0"]
 AMLPipelineBase = "e3c3008a-8869-4d53-9f34-c96f99c8a2b6"
 
-["0.2.2-0"]
+["0.2.2-0.3"]
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
+
+["0.4-0"]
+CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+
+["0.4.1"]
+MicroMamba = "0b3b1443-0f03-428d-bdfb-f27f9c1191ea"
+
+["0.4.3"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

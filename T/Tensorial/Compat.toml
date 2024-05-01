@@ -3,10 +3,15 @@ ForwardDiff = "0.10"
 StaticArrays = "1"
 
 ["0-0.10"]
+Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["0.11-0"]
+Statistics = "1"
 julia = "1"
+
+["0.13.1-0"]
+LinearAlgebra = "1"
 
 ["0.4-0.9"]
 SIMD = "3"

@@ -1,27 +1,27 @@
 ["0-0.1"]
-Cassette = "0.2.2 - 0.2"
-Espresso = "0.6.0 - 0.6"
-Requires = "0.5.2 - 0.5"
+Cassette = "0.2.2-0.2"
+Requires = "0.5.2-0.5"
 
 ["0-0.3"]
+Statistics = "1"
 julia = "1"
+
+["0-0.4"]
+Espresso = "0.6"
 
 ["0.2"]
 Cassette = "0.2.6-0.2"
 
 ["0.2-0.2.1"]
-JuliaInterpreter = "0.0.0 - 0.7"
-
-["0.2-0.4"]
-Espresso = "0.6"
+JuliaInterpreter = "0.0.0-0.7"
 
 ["0.2.0"]
-Requires = "0.0.0 - 1"
+Requires = "0.0.0-1"
 
 ["0.2.1"]
-CUDAapi = "0.0.0 - 1"
-CUDAnative = "0.0.0 - 2"
-CuArrays = "0.0.0 - 1"
+CUDAapi = "0.0.0-1"
+CUDAnative = "0.0.0-2"
+CuArrays = "0.0.0-1"
 
 ["0.2.2"]
 CUDAapi = "1.2.0-1"
@@ -50,6 +50,7 @@ Cassette = "0.2.6-0.3"
 ["0.4"]
 ChainRulesCore = "0.9.5-0.9"
 IRTools = "0.4"
+Statistics = "1.4.0-1"
 julia = "1.4.0-1"
 
 ["0.4-0.4.1"]
@@ -63,8 +64,11 @@ Ghost = "0.1"
 
 ["0.5-0"]
 FiniteDifferences = "0.12"
-OrderedCollections = "1.4.0-1"
+Statistics = "1.6.0-1"
 julia = "1.6.0-1"
+
+["0.5-0.6"]
+OrderedCollections = "1.4.0-1"
 
 ["0.5-0.6.0"]
 ChainRules = "0.8"
@@ -74,8 +78,38 @@ ChainRulesCore = "0.10"
 Ghost = "0.2"
 NNlib = "0.7"
 
-["0.6.1-0"]
-ChainRules = "1"
-ChainRulesCore = "1"
+["0.6.1-0.6"]
 Ghost = "0.2.1-0.2"
 NNlib = "0.7.27-0.7"
+
+["0.6.1-0.7.3"]
+ChainRules = "1"
+ChainRulesCore = "1"
+
+["0.7-0.8.3"]
+NNlib = "0.8"
+
+["0.7.0"]
+Umlaut = "0.2.2-0.2"
+
+["0.7.1-0.7.3"]
+Umlaut = "0.2.3-0.2"
+
+["0.7.4-0"]
+ChainRules = "1.43.0-1"
+ChainRulesCore = "1.15.0-1"
+
+["0.7.4-0.7"]
+Umlaut = "0.4.2-0.4"
+
+["0.8-0.8.1"]
+Umlaut = "0.4.4-0.4"
+
+["0.8.2"]
+Umlaut = "0.4.8-0.4"
+
+["0.8.3-0"]
+Umlaut = "0.5.1-0.5"
+
+["0.8.4-0"]
+NNlib = "0.8-0.9"

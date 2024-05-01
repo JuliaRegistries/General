@@ -1,9 +1,21 @@
 [0]
-DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Memoize = "c03570c3-d221-55d1-a50c-7939bbd78826"
 TensorCast = "02d47bb6-7ce6-556a-be16-bb1710789e2b"
-TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
 
 ["0-0.1"]
 LowRankApprox = "898213cb-b102-5a47-900c-97e73b919f73"
+
+[0-1]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
+
+[1]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+LowRankApprox = "898213cb-b102-5a47-900c-97e73b919f73"
+MKL = "33e6dc65-8f57-5167-99aa-e5a354878fb2"
+Memoization = "6fafb56a-5788-4b4e-91ca-c0cea6611c73"
+NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+TSVD = "9449cd9e-2762-5aa3-a617-5413e99d722e"
+cuTENSOR = "011b41b2-24ef-40a8-b3eb-fa098493e9e1"

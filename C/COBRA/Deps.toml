@@ -2,10 +2,19 @@
 CPLEX = "a076750e-1247-5638-91d2-ce28b192dca0"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 GLPK = "60bf3e95-4087-53dc-ae20-288a0d20c6a6"
-GLPKMathProgInterface = "3c7084bd-78ad-589a-b5bb-dbd673274bea"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
-MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0-0.3"]
+GLPKMathProgInterface = "3c7084bd-78ad-589a-b5bb-dbd673274bea"
+MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
+
+["0.4-0"]
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
+
+["0.4.3-0"]
+Ipopt = "b6b21f68-93f8-5de0-b562-5493be1d77c9"

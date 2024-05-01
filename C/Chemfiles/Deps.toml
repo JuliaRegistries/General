@@ -1,13 +1,23 @@
-[0]
+["0-0.10.3"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 ["0-0.9.1"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0.10-0"]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 
+["0.10-0.10.2"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["0.10.41-0"]
+AtomsBase = "a963bdd2-2df7-4f54-a1ee-49d51e6be12a"
+PeriodicTable = "7b2266bf-644c-5ea3-82d8-af4bbd25a884"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+UnitfulAtomic = "a7773ee8-282e-5fa2-be4e-bd808c38a91a"
+
 ["0.9.3-0"]
-BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 Chemfiles_jll = "78a364fa-1a3c-552a-b4bb-8fa0f9c1fcca"
+
+["0.9.3-0.10.3"]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"

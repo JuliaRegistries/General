@@ -1,27 +1,45 @@
 ["0-0.2.5"]
-FFTW = "0.0.0 - 0.3"
+FFTW = "0.0.0-0.3"
 LinearMaps = "0-2"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0-0.2.7"]
-Arpack = "0.0.0 - 0.4"
+Arpack = "0.0.0-0.4"
 
-[0-1]
-IterativeSolvers = "0.0.0 - 0.8"
-Polynomials = "0.0.0 - 0.8"
-Reexport = "0.0.0 - 0.2"
-SpecialFunctions = "0.0.0 - 0.10"
+["0-1.0.2"]
+IterativeSolvers = "0.0.0-0.8"
+Polynomials = "0.0.0-0.8"
+Reexport = "0.0.0-0.2"
+SpecialFunctions = "0.0.0-0.10"
 
 ["0.2.6-0"]
-FFTW = "0.0.0 - 1"
-LinearMaps = "0.0.0 - 2"
+FFTW = "0.0.0-1"
+LinearMaps = "0.0.0-2"
 
 ["0.2.6-1"]
+Statistics = "1"
 julia = "1"
 
-["0.2.8-1"]
-ArnoldiMethod = "0.0.0 - 0.0.4"
+["0.2.8-1.0.2"]
+ArnoldiMethod = "0.0.0-0.0.4"
 
-[1]
-FFTW = "1"
+["1-1.0.2"]
 LinearMaps = "2"
+
+["1-1.1.0"]
+FFTW = "1"
+
+["1.0.3-1"]
+ArnoldiMethod = "0.2"
+IterativeSolvers = "0.9"
+LinearMaps = "2-3"
+
+["1.0.3-1.1.0"]
+Polynomials = ["1", "3"]
+Reexport = "1"
+SpecialFunctions = "1-2"
+
+["1.1.1-1"]
+Reexport = "1.2.0-1"
+SpecialFunctions = "2"

@@ -1,31 +1,53 @@
 ["0-0.1.3"]
 Compat = "0-2"
 DifferentialEquations = "0-6"
-DocStringExtensions = "0.0.0 - 0.8"
-Documenter = "0.0.0 - 0.25"
+DocStringExtensions = "0.0.0-0.8"
+Documenter = "0.0.0-0.25"
 NLsolve = "0-4"
 julia = "0.6-1"
 
 ["0-0.1.5"]
-ColorTypes = "0.0.0 - 0.10"
-FastGaussQuadrature = "0.0.0 - 0.4"
-RecipesBase = "0.0.0 - 0.8"
-Reexport = "0.0.0 - 0.2"
+ColorTypes = "0.0.0-0.10"
+FastGaussQuadrature = "0.0.0-0.4"
+RecipesBase = "0.0.0-0.8"
+Reexport = "0.0.0-0.2"
+
+["0.1.12-0"]
+FastGaussQuadrature = "0.4-0.5"
+
+["0.1.13-0"]
+Statistics = "1.6.0-1"
+UnPack = "1"
+julia = "1.6.0-1"
 
 ["0.1.4"]
-Compat = "0.0.0 - 3"
-NLsolve = "0.0.0 - 4"
-OrdinaryDiffEq = "0.0.0 - 5"
+Compat = "0.0.0-3"
+NLsolve = "0.0.0-4"
+OrdinaryDiffEq = "0.0.0-5"
 
-["0.1.4-0"]
+["0.1.4-0.1.12"]
 julia = "1"
 
 ["0.1.5-0"]
 NLsolve = "4"
+
+["0.1.5-0.1.12"]
+Statistics = "1"
+
+["0.1.5-0.1.7"]
 OrdinaryDiffEq = "5"
 
 ["0.1.6-0"]
-ColorTypes = "0.10"
-FastGaussQuadrature = "0.4"
 RecipesBase = "1"
+
+["0.1.6-0.1.11"]
+FastGaussQuadrature = "0.4"
+
+["0.1.6-0.1.7"]
+ColorTypes = "0.10"
 Reexport = "0.2"
+
+["0.1.8-0"]
+ColorTypes = "0.10-0.11"
+OrdinaryDiffEq = "5-6"
+Reexport = ["0.2", "1"]

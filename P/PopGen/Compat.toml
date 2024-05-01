@@ -2,16 +2,16 @@
 julia = "1.3.1-1"
 
 ["0.0"]
-BenchmarkTools = "0.0.0 - 0.5"
-CSV = "0.0.0 - 0.7"
-DataFrames = "0.0.0 - 0.21"
-Distributions = "0.0.0 - 0.23"
-FileIO = "0.0.0 - 1"
-GeneticVariation = "0.0.0 - 0.4"
-JLD2 = "0.0.0 - 0.2"
-LoopVectorization = "0.0.0 - 0.8"
-MultipleTesting = "0.0.0 - 0.4"
-StatsBase = "0.0.0 - 0.33"
+BenchmarkTools = "0.0.0-0.5"
+CSV = "0.0.0-0.7"
+DataFrames = "0.0.0-0.21"
+Distributions = "0.0.0-0.23"
+FileIO = "0.0.0-1"
+GeneticVariation = "0.0.0-0.4"
+JLD2 = "0.0.0-0.2"
+LoopVectorization = "0.0.0-0.8"
+MultipleTesting = "0.0.0-0.4"
+StatsBase = "0.0.0-0.33"
 
 ["0.1"]
 CSV = "0.7"
@@ -19,7 +19,6 @@ DataFrames = "0.21"
 JLD2 = "0.1-0.2"
 
 ["0.1-0"]
-ProgressMeter = "1.4.0-1"
 StatsBase = "0.33"
 
 ["0.1-0.4"]
@@ -37,6 +36,9 @@ Distributions = "0.23-0.24"
 
 ["0.1-0.6.4"]
 MultipleTesting = "0.4"
+
+["0.1-0.8"]
+ProgressMeter = "1.4.0-1"
 
 ["0.4"]
 JLD2 = "0.1-0.3"
@@ -69,10 +71,38 @@ MultipleTesting = "0.4-0.5"
 NaturalSort = "1"
 StaticArrays = "1"
 
+["0.7"]
+julia = "1.5.0-1"
+
 ["0.7-0"]
-DataFrames = "1.1.0-1"
 Distributions = "0.25"
 MultipleTesting = "0.5"
-PopGenCore = "0.5.1-0.5"
 Reexport = "1"
-julia = "1.5.0-1"
+
+["0.7-0.8"]
+PopGenCore = "0.5.1-0.5"
+
+["0.7-0.9.2"]
+DataFrames = "1.1.0-1"
+
+["0.8-0"]
+Clustering = "0.14"
+julia = "1.6.0-1"
+
+["0.8-0.9.0"]
+MultivariateStats = "0.9.1-0.9"
+
+["0.9-0"]
+Distances = "0.10"
+NamedArrays = "0.9"
+OnlineStats = "1"
+PopGenCore = "0.7"
+TSne = "1"
+Term = "1"
+
+["0.9.1-0.9.2"]
+MultivariateStats = "0.9.1-0.10"
+
+["0.9.3-0"]
+DataFrames = "1.4.0-1"
+MultivariateStats = "0.9"

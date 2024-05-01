@@ -1,17 +1,28 @@
 [0]
+Parameters = "0.12"
+julia = "1.6.0-1"
+
+["0-0.3"]
 ForwardDiff = "0.10"
 Interpolations = "0.13"
 Measurements = "2.3.0-2"
-Parameters = "0.12"
 PyCall = "1.92.3-1"
 QuadGK = "2.3.0-2"
 RecipesBase = "1.1.0-1"
-julia = "1.6.0-1"
 
 ["0-0.3.3"]
 Optim = "0.21"
 StaticArrays = "0.12.4-0.12"
 
 ["0.3.4-0"]
-Optim = ["0.21", "1"]
 StaticArrays = ["0.12", "1"]
+
+["0.3.4-0.3"]
+Optim = ["0.21", "1"]
+
+["0.4-0"]
+Interpolations = "0.14"
+Measurements = "2.8.0-2"
+QuadGK = "2.6.0-2"
+RecipesBase = "1.3.2-1"
+SpecialFunctions = "2.1.7-2"

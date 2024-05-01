@@ -7,14 +7,16 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
-Seaborn = "d2ef9438-c967-53ab-8060-373fdd9e13eb"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 SteadyStateDiffEq = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
 Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
 
+["0-0.5"]
+Seaborn = "d2ef9438-c967-53ab-8060-373fdd9e13eb"
+
 ["0.4-0"]
 DelayDiffEq = "bcd4f6db-9728-5f36-b5f7-82caef46ccdb"
 
-["0.4.2-0"]
+["0.4.2-0.8.0"]
 CMAEvolutionStrategy = "8d3b24bd-414e-49e0-94fb-163cc3a3e411"

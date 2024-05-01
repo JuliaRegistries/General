@@ -1,40 +1,40 @@
 [0]
-BinDeps = "0.0.0 - 0.8"
+BinDeps = "0.0.0-0.8"
 
 ["0-0.1"]
-CharSetEncodings = "0.1.8 - 0.2"
-MurmurHash3 = "0.1.5 - 0.2"
-WinRPM = "0.0.0 - 0.4"
+CharSetEncodings = "0.1.8-0.2"
+MurmurHash3 = "0.1.5-0.2"
+WinRPM = "0.0.0-0.4"
 julia = "0.6-1"
 
 ["0-0.1.3"]
-ChrBase = "0.1.4 - 0.2"
-StrAPI = "0.1.7 - 0.2"
-StrBase = "0.1.7 - 0.3"
+ChrBase = "0.1.4-0.2"
+StrAPI = "0.1.7-0.2"
+StrBase = "0.1.7-0.3"
 
 ["0-0.1.4"]
-ModuleInterfaceTools = "0.1.6 - 0.2"
+ModuleInterfaceTools = "0.1.6-0.2"
 
 ["0.1.4"]
-ChrBase = "0.1.7 - 0.2"
+ChrBase = "0.1.7-0.2"
 
 ["0.1.4-0.1"]
-StrAPI = "0.1.8 - 0.2"
-StrBase = "0.1.10 - 0.3"
+StrAPI = "0.1.8-0.2"
+StrBase = "0.1.10-0.3"
 
 ["0.1.5-0.1"]
-ChrBase = "0.1.9 - 0.2"
-ModuleInterfaceTools = "0.1.7 - 0.2"
+ChrBase = "0.1.9-0.2"
+ModuleInterfaceTools = "0.1.7-0.2"
 
 ["0.2-0"]
-CharSetEncodings = "0.2.0 - 0.2"
-ChrBase = "0.2.0 - 0.2"
-ModuleInterfaceTools = "0.2.0 - 0.2"
-MurmurHash3 = "0.2.0 - 0.2"
-StrAPI = "0.2.0 - 0.2"
-StrBase = "0.2.0 - 0.3"
+CharSetEncodings = "0.2"
+ChrBase = "0.2"
+ModuleInterfaceTools = "0.2"
+MurmurHash3 = "0.2"
+StrAPI = "0.2"
+StrBase = "0.2.0-0.3"
 
-["0.2-1"]
+["0.2-1.1"]
 julia = "1"
 
 [1]
@@ -42,5 +42,9 @@ ModuleInterfaceTools = "1"
 StrBase = "1"
 
 ["1.0"]
-BinDeps = "0.0.0 - 1"
-WinRPM = "0.0.0 - 1"
+BinDeps = "0.0.0-1"
+WinRPM = "0.0.0-1"
+
+["1.2-1"]
+ICU_jll = "74.1.0"
+julia = "1.6.0-1"

@@ -9,6 +9,7 @@ FillArrays = "0.3-0.5"
 BlockArrays = "0.5-0.7"
 
 ["0-0.4.5"]
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.10-0.10.1"]
@@ -36,7 +37,7 @@ BlockArrays = "0.14-0.15"
 ArrayLayouts = "0.6.3-0.6"
 BlockArrays = "0.15"
 
-["0.10.4-0"]
+["0.10.4-0.11.2"]
 BandedMatrices = "0.16.8-0.16"
 
 ["0.10.5-0.10"]
@@ -48,16 +49,71 @@ BlockArrays = "0.15.2-0.15"
 ["0.10.7-0.10"]
 BlockArrays = "0.15.2-0.16"
 
-["0.10.8-0"]
+["0.10.8-0.11.1"]
 FillArrays = "0.11-0.12"
 
 ["0.11-0"]
-ArrayLayouts = "0.7"
-BlockArrays = "0.16.6-0.16"
 julia = "1.6.0-1"
 
-["0.11.1-0"]
+["0.11-0.11.1"]
+ArrayLayouts = "0.7"
+
+["0.11-0.11.4"]
+BlockArrays = "0.16.6-0.16"
+
+["0.11-0.12.3"]
+Statistics = "1.6.0-1"
+
+["0.11.1-0.11.3"]
 MatrixFactorizations = "0.8.5-0.8"
+
+["0.11.2-0.11"]
+FillArrays = "0.13"
+
+["0.11.2-0.11.6"]
+ArrayLayouts = "0.8.2-0.8"
+
+["0.11.3-0.11.6"]
+BandedMatrices = "0.16.8-0.17"
+
+["0.11.4-0.11.6"]
+MatrixFactorizations = "0.8.5-0.9"
+
+["0.11.5"]
+BlockArrays = "0.16.14-0.16"
+
+["0.11.6"]
+BlockArrays = "0.16.16-0.16"
+
+["0.11.7"]
+BandedMatrices = "0.17"
+
+["0.11.7-0.11"]
+ArrayLayouts = "0.8.7-0.8"
+BlockArrays = "0.16.18-0.16"
+MatrixFactorizations = "0.9"
+
+["0.11.8-0.12.6"]
+BandedMatrices = "0.17.2-0.17"
+
+["0.12-0"]
+ArrayLayouts = "1"
+FillArrays = "1"
+
+["0.12.0"]
+BlockArrays = "0.16.26-0.16"
+MatrixFactorizations = "1"
+
+["0.12.1-0"]
+BlockArrays = "0.16.34-0.16"
+MatrixFactorizations = "1-2"
+
+["0.12.7-0"]
+BandedMatrices = ["0.17.2-0.17", "1"]
+
+["0.12.8-0"]
+LinearAlgebra = "1.6.0-1"
+SparseArrays = "1.6.0-1"
 
 ["0.3-0.3.2"]
 BandedMatrices = "0.7.2-0.7"
@@ -109,6 +165,7 @@ LazyArrays = "0.10"
 MatrixFactorizations = "0.1"
 
 ["0.4.6-0.6"]
+Statistics = "1"
 julia = "1"
 
 ["0.5-0.5.2"]
@@ -149,6 +206,7 @@ BandedMatrices = "0.14"
 BlockArrays = "0.11"
 
 ["0.7-0.8"]
+Statistics = "1.2.0-1"
 julia = "1.2.0-1"
 
 ["0.7.2-0.7"]
@@ -195,6 +253,7 @@ ArrayLayouts = "0.4.1-0.4"
 BandedMatrices = "0.15.16-0.15"
 
 ["0.9-0.10"]
+Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["0.9-0.9.2"]

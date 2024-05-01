@@ -1,26 +1,27 @@
 ["0-0.1.0"]
 PyPlot = "1-2"
-StatsBase = "0.0.0 - 0.33"
+StatsBase = "0.0.0-0.33"
 
 ["0-0.2"]
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0-0.3.0"]
-EllipsisNotation = "0.0.0 - 0.4"
-HDF5 = "0.0.0 - 0.12"
-JLD = "0.0.0 - 0.9"
+EllipsisNotation = "0.0.0-0.4"
+HDF5 = "0.0.0-0.12"
+JLD = "0.0.0-0.9"
+
+["0.3-0"]
+Statistics = "1"
+julia = "1"
 
 ["0.3.0"]
-BinningAnalysis = "0.0.0 - 0.3"
-Lazy = "0.0.0 - 0.14"
-Reexport = "0.0.0 - 0.2"
-julia = "1.0.0-1"
+BinningAnalysis = "0.0.0-0.3"
+Lazy = "0.0.0-0.14"
+Reexport = "0.0.0-0.2"
 
 ["0.3.1"]
 Lazy = "0.14"
-
-["0.3.1-0"]
-julia = "1"
 
 ["0.3.1-0.3.2"]
 BinningAnalysis = "0.3.2-0.3"

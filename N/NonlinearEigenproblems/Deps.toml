@@ -10,12 +10,10 @@ Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
 
 [0-1]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
-FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
-Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
@@ -23,6 +21,10 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
+
+["0-1.1.0"]
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
 
 ["0.2.1-0.2.5"]
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"

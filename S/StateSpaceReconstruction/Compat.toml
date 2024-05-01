@@ -1,37 +1,39 @@
 [0]
 Conda = "0-1"
-Distributions = "0.0.0 - 0.23"
+Distributions = "0.0.0-0.23"
 PyCall = "0-1"
-Reexport = "0.0.0 - 0.2"
-StaticArrays = "0.0.0 - 0.12"
+Reexport = "0.0.0-0.2"
+StaticArrays = "0.0.0-0.12"
 
 ["0-0.2"]
 DynamicalSystems = "0-1"
 DynamicalSystemsBase = "0-1"
-Parameters = "0.0.0 - 0.12"
+Parameters = "0.0.0-0.12"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0-0.2.1"]
-Plots = "0.0.0 - 0.29"
+Plots = "0.0.0-0.29"
 
 ["0-0.2.2"]
-RecipesBase = "0.0.0 - 0.8"
+RecipesBase = "0.0.0-0.8"
 
 ["0-0.3"]
-Simplices = "0.2.1 - 0.5"
+Simplices = "0.2.1-0.5"
 
 ["0.3-0"]
+Statistics = "1"
 julia = "1"
 
 ["0.3.1-0"]
-Distances = "0.0.0 - 0.9"
-NearestNeighbors = "0.0.0 - 0.4"
+Distances = "0.0.0-0.9"
+NearestNeighbors = "0.0.0-0.4"
 
 ["0.3.2-0.3"]
 DynamicalSystemsBase = "0-1"
 
 ["0.4-0"]
-CausalityToolsBase = "0.3.1 - 0.7"
+CausalityToolsBase = "0.3.1-0.7"
 DelayEmbeddings = "0-1"
-RecipesBase = "0.0.0 - 0.8"
-Simplices = "0.4.0 - 0.5"
+RecipesBase = "0.0.0-0.8"
+Simplices = "0.4.0-0.5"

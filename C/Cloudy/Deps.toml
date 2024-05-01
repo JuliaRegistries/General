@@ -1,12 +1,38 @@
 [0]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0-0.2"]
 Coverage = "a2441757-f6aa-5fb2-8edb-039e3f45d037"
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
-DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
-HCubature = "19dc6840-f33b-545b-b366-655c7e3ffd49"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
-SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 TaylorSeries = "6aa5eb33-94cf-58f4-a9d0-e4b2c4fc25ea"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.3"]
+HCubature = "19dc6840-f33b-545b-b366-655c7e3ffd49"
+
+["0.2"]
+NLPModels = "a4795742-8479-5a88-8948-cc11e1c8c1a6"
+NLPModelsIpopt = "f4238b75-b362-5c4c-b852-0801c9a21d71"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.3"]
+RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
+
+["0.3-0"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
+
+["0.3-0.4"]
+NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
+
+["0.4-0"]
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+
+["0.5-0"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"

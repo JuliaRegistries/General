@@ -1,6 +1,11 @@
 [0]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 VoronoiDelaunay = "72f80fcb-8c52-57d9-aff0-40c1a3526986"
+
+["0.0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.1-0"]
+SpeciesDistributionToolkit = "72b53823-5c0b-4575-ad0e-8e97227ad13b"

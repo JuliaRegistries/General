@@ -1,28 +1,54 @@
 [0]
-AWSCore = "4f1ea46c-232b-54a6-9b17-cc2d0f3e6598"
-AWSS3 = "1c724243-ef5b-51ab-93f4-b0a88ac62a95"
-ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
-CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
-GeoArrays = "2fb1d81b-e6a0-5fc5-82e6-8e06903437ab"
-GeoDataFrames = "62cb38b5-d8d2-4862-a48e-6a340996859f"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
+
+["0-0.1"]
+AWSCore = "4f1ea46c-232b-54a6-9b17-cc2d0f3e6598"
+AWSS3 = "1c724243-ef5b-51ab-93f4-b0a88ac62a95"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+GeoArrays = "2fb1d81b-e6a0-5fc5-82e6-8e06903437ab"
+GeoDataFrames = "62cb38b5-d8d2-4862-a48e-6a340996859f"
 ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
-JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 LazIO = "c3605908-9f0f-11e8-0a72-0d361c15a277"
 NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 PolygonOps = "647866c9-e3ac-4575-94e7-e3d426903924"
-Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 StarTIN = "152385ed-0447-47b3-b417-bbbf3d580ece"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
+
+["0-0.1.3"]
+ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
 TypedTables = "9d95f2ec-7b3d-5a63-8d20-e2491e220bb9"
+
+["0-0.2"]
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+
+["0.1.4-0"]
+Proj = "c94c279d-25a6-4763-9509-64d165bea63e"
+
+["0.1.4-0.1"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
+["0.2-0"]
+GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
+TableOperations = "ab02a1b2-a7df-11e8-156e-fb1833f50b87"
+
+["0.2.1-0"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
+["0.3-0"]
+AWSS3 = "1c724243-ef5b-51ab-93f4-b0a88ac62a95"
+Extents = "411431e0-e8b7-467b-b5e0-f676ba4f2910"
+GeoFormatTypes = "68eda718-8dee-11e9-39e7-89f7f65f511f"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+TimeZones = "f269a46b-ccf7-5d73-abea-4c690281aa53"

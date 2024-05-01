@@ -1,13 +1,44 @@
 [0]
+CategoricalArrays = "0.10"
+DataFrames = "1.2.0-1"
+
+["0-0.1.10"]
+Chain = "0.4"
+NamedDims = "0.2"
+
+["0-0.1.11"]
+StatsBase = "0.33"
+
+["0-0.1.7"]
 AlgebraOfGraphics = "0.6"
 CairoMakie = "0.6"
-CategoricalArrays = "0.10"
-Chain = "0.4"
 DataFrameMacros = "0.1"
-DataFrames = "1.2.0-1"
 Makie = "0.15"
-NamedDims = "0.2"
+
+["0-0.1.9"]
 PlutoUI = "0.7"
-StatsBase = "0.33"
+Statistics = "1"
 UnPack = "1"
 julia = "1"
+
+["0.1.10-0"]
+Statistics = "1.6.0-1"
+julia = "1.6.0-1"
+
+["0.1.11-0"]
+Chain = "0.4-0.5"
+DataFrameMacros = "0.4"
+NamedDims = "1"
+
+["0.1.12-0"]
+StatsBase = "0.33-0.34"
+
+["0.1.8-0"]
+AlgebraOfGraphics = "0.6.4-0.6"
+
+["0.1.8-0.1.10"]
+DataFrameMacros = "0.1-0.2"
+
+["0.1.8-0.1.9"]
+Makie = "0.15-0.16"
+PlutoTest = "0.2"

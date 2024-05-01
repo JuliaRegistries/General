@@ -1,45 +1,67 @@
 ["0-0.4.1"]
-Distributions = "0.16.2 - 0.23"
-DocStringExtensions = "0.4.6 - 0.8"
-StatsBase = "0.25.0 - 0.33"
+Distributions = "0.16.2-0.23"
+DocStringExtensions = "0.4.6-0.8"
+Statistics = "1"
+StatsBase = "0.25.0-0.33"
 TensorOperations = "0.6.1-1"
 julia = "1"
 
 ["0.4.1"]
-Convex = "0.8.0 - 0.13"
-SCS = "0.4.1 - 0.6"
+Convex = "0.8.0-0.13"
+SCS = "0.4.1-0.6"
+
+["0.4.10-0"]
+Convex = "0.13.7-0.15"
+DocStringExtensions = "0.8.3-0.9"
+StatsBase = "0.33.2-0.34"
 
 ["0.4.2-0.4.3"]
+Statistics = "1.0"
 julia = "1.0"
 
 ["0.4.2-0.4.5"]
 TensorOperations = "0-1"
 
 ["0.4.2-0.4.6"]
-Convex = "0.0.0 - 0.13"
-Distributions = "0.0.0 - 0.23"
-DocStringExtensions = "0.0.0 - 0.8"
-SCS = "0.0.0 - 0.6"
-StatsBase = "0.0.0 - 0.33"
+Convex = "0.0.0-0.13"
+Distributions = "0.0.0-0.23"
+DocStringExtensions = "0.0.0-0.8"
+SCS = "0.0.0-0.6"
+StatsBase = "0.0.0-0.33"
 
 ["0.4.4-0.4.5"]
+Statistics = "1"
 julia = "1"
 
 ["0.4.6"]
-TensorOperations = "0.0.0 - 3"
+TensorOperations = "0.0.0-3"
 julia = ["0.7", "1"]
 
 ["0.4.7"]
 Convex = "0.13.7-0.13"
 
 ["0.4.7-0"]
-DocStringExtensions = "0.8.3-0.8"
-SCS = "0.7"
-StatsBase = "0.33.2-0.33"
 TensorOperations = "3.0.1-3"
+
+["0.4.7-0.4.8"]
+SCS = "0.7"
 julia = "1.4.0-1"
 
-["0.4.8-0"]
+["0.4.7-0.4.9"]
+DocStringExtensions = "0.8.3-0.8"
+StatsBase = "0.33.2-0.33"
+
+["0.4.8"]
 Convex = "0.13.7-0.14"
-MatrixEnsembles = "0.1"
 TensorCast = "0.3.2-0.3"
+
+["0.4.8-0"]
+MatrixEnsembles = "0.1"
+
+["0.4.9"]
+Convex = "0.15"
+
+["0.4.9-0"]
+SCS = "1.1.0-1"
+TensorCast = "0.3.2-0.4"
+julia = "1.7.0-1"

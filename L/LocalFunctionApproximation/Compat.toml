@@ -1,11 +1,15 @@
-[1]
-Distances = "0.0.0 - 0.9"
-NearestNeighbors = "0.0.0 - 0.4"
+["1-1.1.0"]
+Distances = "0.0.0-0.9"
+GridInterpolations = "0.1.1-1"
+NearestNeighbors = "0.0.0-0.4"
 
 ["1.0"]
-GridInterpolations = "0.1.1-1"
 julia = "0.6-1"
 
 ["1.1-1"]
-GridInterpolations = "0.1.1 - 1"
-julia = "1.0.0-1"
+julia = "1"
+
+["1.1.1-1"]
+Distances = ["0.7", "0.10.10-0.10"]
+GridInterpolations = ["0.1.1-0.1", "1.1.2-1"]
+NearestNeighbors = "0.4"

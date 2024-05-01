@@ -1,10 +1,32 @@
 [0]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 MetaGraphs = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["0.2.2-0"]
+["0-0.3.0"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
+["0-0.6.0"]
+IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
+
+["0.2.2-0.6.0"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.3.1-0"]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+
+["0.3.4-0"]
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0.4-0"]
+NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
+
+["0.5-0"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["0.5.2-0"]
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0.5.3-0"]
+Chain = "8be319e6-bccf-4806-a6f7-6fae938471bc"

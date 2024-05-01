@@ -1,15 +1,17 @@
 ["0-0.1"]
-Plots = "0.0.0 - 0.29"
+Plots = "0.0.0-0.29"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.2-0.2.1"]
-RecipesBase = "0.0.0 - 0.7"
+RecipesBase = "0.0.0-0.7"
 
 ["0.2-0.3"]
+Statistics = "1"
 julia = "1"
 
 ["0.2.1"]
-Requires = "0.0.0 - 0.5"
+Requires = "0.0.0-0.5"
 
 ["0.2.2-0.3.0"]
 RecipesBase = "0.7"
@@ -28,7 +30,9 @@ Requires = ["0.5", "1"]
 RecipesBase = ["0.7-0.8", "1"]
 
 ["0.4"]
+Statistics = "1.4.0-1"
 julia = "1.4.0-1"
 
 ["0.5-0"]
+Statistics = "1.6.0-1"
 julia = "1.6.0-1"

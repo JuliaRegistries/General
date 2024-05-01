@@ -1,13 +1,29 @@
 [0]
-Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LSODA = "7f56f5a3-f504-529b-bc02-0b1fe5e64312"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-Profile = "9abbd945-dff8-562f-b5e8-e1ebf5ef1b79"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.0.1"]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Profile = "9abbd945-dff8-562f-b5e8-e1ebf5ef1b79"
+
+["0.0.4-0"]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
+
+["0.0.4-0.0.5"]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+DiffEqJump = "c894b116-72e5-5b58-be3c-e6d8d4ac2b12"
+
+["0.0.6-0"]
+JumpProcesses = "ccbc3e58-028d-4f4c-8cd5-9ae44345cda5"
+PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"

@@ -1,11 +1,16 @@
 [0]
 IntervalArithmetic = "d1acc4aa-44c8-5952-acd4-ba5d80a2a253"
 IntervalContractors = "15111844-de3b-5229-b4ba-526f2f385dc9"
-IntervalRootFinding = "d2bf35a9-74e0-55ec-b149-d360ff49b807"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 
 ["0-0.10"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.10-0"]
+["0-0.12"]
+IntervalRootFinding = "d2bf35a9-74e0-55ec-b149-d360ff49b807"
+
+["0.10-0.12"]
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+
+["0.13-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"

@@ -1,4 +1,4 @@
-[0]
+[0-1]
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
 CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
@@ -6,7 +6,11 @@ LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-["0.2-0"]
-DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+["0.2"]
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+["0.2-0.3"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.2-1"]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"

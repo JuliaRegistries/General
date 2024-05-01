@@ -1,13 +1,22 @@
 [1]
-DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
-DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["1-1.4"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["1.6.1-1"]
+[1-2]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["1.12"]
+EnumX = "4e289a0a-7415-4d19-859d-a7e5c4648b56"
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+
+["1.6.1-2"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+
+[2]
+ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"

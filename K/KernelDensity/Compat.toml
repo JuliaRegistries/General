@@ -1,25 +1,29 @@
 ["0-0.5"]
-Distributions = "0.0.0 - 0.23"
+Distributions = "0.0.0-0.23"
 FFTW = "0-1"
-StatsBase = "0.0.0 - 0.33"
+StatsBase = "0.0.0-0.33"
 julia = ["0.7", "1"]
 
 ["0-0.5.0"]
-Interpolations = "0.0.0 - 0.12"
-Optim = "0.0.0 - 0.22"
+Interpolations = "0.0.0-0.12"
+Optim = "0.0.0-0.22"
 
 ["0.5.1-0.5"]
-Interpolations = "0.9.0 - 0.12"
-Optim = "0.16.0 - 0.22"
+Interpolations = "0.9.0-0.12"
+Optim = "0.16.0-0.22"
 
 ["0.6-0"]
-DocStringExtensions = "0.8"
 FFTW = "1"
-StatsBase = "0.33"
 julia = "1"
 
 ["0.6-0.6.1"]
 Interpolations = "0.9-0.12"
+
+["0.6-0.6.3"]
+DocStringExtensions = "0.8"
+
+["0.6-0.6.6"]
+StatsBase = "0.33"
 
 ["0.6.0"]
 Distributions = "0.23"
@@ -27,8 +31,20 @@ Distributions = "0.23"
 ["0.6.1-0.6.2"]
 Distributions = "0.23-0.24"
 
-["0.6.2-0"]
+["0.6.2-0.6.4"]
 Interpolations = "0.9-0.13"
 
 ["0.6.3-0"]
 Distributions = "0.23-0.25"
+
+["0.6.4-0"]
+DocStringExtensions = "0.8-0.9"
+
+["0.6.5-0.6.7"]
+Interpolations = "0.9-0.14"
+
+["0.6.7-0"]
+StatsBase = "0.33-0.34"
+
+["0.6.8-0"]
+Interpolations = "0.9-0.15"

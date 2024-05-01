@@ -1,15 +1,23 @@
-[0]
-MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
-
 ["0-0.3"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[0-1]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 
 ["0.3"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
-["0.5-0"]
+["0.5-1"]
 ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
 
 ["0.5.3-0"]
-Future = "9fa8497b-333b-5362-9e8d-4d0656e87820"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.5.3-1"]
+Future = "9fa8497b-333b-5362-9e8d-4d0656e87820"
+
+["1.0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["1.1-1"]
+StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"

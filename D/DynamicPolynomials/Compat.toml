@@ -2,22 +2,19 @@
 julia = ["0.7", "1"]
 
 ["0-0.1.0"]
-MultivariatePolynomials = "0.1.3 - 0.2"
+MultivariatePolynomials = "0.1.3-0.2"
 
 ["0.1.1"]
-MultivariatePolynomials = "0.2.0 - 0.2"
+MultivariatePolynomials = "0.2"
 
-["0.1.2-0.2.0"]
-MultivariatePolynomials = "0.2.1 - 0.2"
+["0.1.2-0.2"]
+MultivariatePolynomials = "0.2.1-0.2"
 
-["0.1.2-0.3.3"]
-Reexport = "0.2.0 - 0.2"
+["0.1.2-0.3.15"]
+Reexport = "0.2"
 
 ["0.2-0"]
 julia = "1"
-
-["0.2.1-0.2"]
-MultivariatePolynomials = "0.2.1-0.2"
 
 ["0.3.0"]
 MultivariatePolynomials = "0.2.1-0.3"
@@ -25,10 +22,10 @@ MultivariatePolynomials = "0.2.1-0.3"
 ["0.3.1-0.3.2"]
 MultivariatePolynomials = "0.3"
 
-["0.3.13-0"]
+["0.3.13-0.4"]
 DataStructures = "0.17-0.18"
 
-["0.3.16-0"]
+["0.3.16-0.4"]
 Reexport = ["0.2", "1"]
 
 ["0.3.3"]
@@ -40,9 +37,6 @@ MultivariatePolynomials = "0.3.3-0.3"
 ["0.3.4-0.3.12"]
 DataStructures = "0.17"
 
-["0.3.4-0.3.15"]
-Reexport = "0.2"
-
 ["0.3.4-0.3.5"]
 MutableArithmetics = "0.1.1-0.1"
 
@@ -53,11 +47,19 @@ MultivariatePolynomials = "0.3.4-0.3"
 MultivariatePolynomials = "0.3.5-0.3"
 MutableArithmetics = "0.2"
 
-["0.4-0"]
+["0.4-0.4.3"]
 MutableArithmetics = "0.3"
 
 ["0.4.0"]
 MultivariatePolynomials = "0.4"
 
-["0.4.1-0"]
+["0.4.1-0.4"]
 MultivariatePolynomials = "0.4.1-0.4"
+
+["0.4.4-0.4"]
+MutableArithmetics = ["0.3", "1"]
+
+["0.5-0"]
+MultivariatePolynomials = "0.5"
+MutableArithmetics = "1"
+Reexport = "1"

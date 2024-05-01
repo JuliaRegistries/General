@@ -1,7 +1,15 @@
 [0]
 AMDGPU = "21141c5a-9bdb-4563-92ae-f87d6854732e"
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
-SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.2"]
+Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0.3.1-0"]
+UnsafeAtomicsLLVM = "d80eeb9a-aca5-4d75-85e5-170c8b632249"
+
+["0.3.3-0"]
+LLVM = "929cbde3-209d-540e-8aea-75f648917ca0"

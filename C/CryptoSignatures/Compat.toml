@@ -2,11 +2,20 @@
 julia = "1"
 
 ["0-0.1"]
-Nettle = "0.0.0 - 0.5"
-Paillier = "0.0.0 - 0.3"
+Nettle = "0.0.0-0.5"
+Paillier = "0.0.0-0.3"
 
 ["0.2.0"]
 CryptoGroups = "0.1.1-0.1"
 
-["0.2.1-0"]
+["0.2.1-0.2"]
 CryptoGroups = "0.1.2-0.1"
+
+["0.3-0"]
+Nettle = "1"
+
+["0.3-0.3.1"]
+CryptoGroups = "0.3"
+
+["0.3.2-0"]
+CryptoGroups = "0.3-0.4"

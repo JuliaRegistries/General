@@ -1,11 +1,19 @@
 [0]
-DSP = "0.6"
 FFTW = "1"
-Interpolations = "0.12.5-0.12"
-Requires = "0.5.2-0.5"
 SeisMain = "0.1"
 julia = "1"
 
-["0.1.1-0"]
+["0-0.1.1"]
+DSP = "0.6"
+Interpolations = "0.12.5-0.12"
+Requires = "0.5.2-0.5"
+
+["0.1.1"]
 Documenter = "0.23"
 DocumenterTools = "0.1.2-0.1"
+
+["0.1.2-0"]
+DSP = "0.6-0.7"
+Documenter = "0.27"
+DocumenterTools = "0.1"
+Interpolations = "0.14"

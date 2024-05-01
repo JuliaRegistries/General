@@ -8,10 +8,12 @@ ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["2-3.1"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["2-3.10"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 [3]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -20,3 +22,9 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 ["3-3.1"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
+["3.10-3"]
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+
+["3.11-3"]
+StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"

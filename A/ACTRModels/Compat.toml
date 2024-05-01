@@ -2,17 +2,44 @@
 julia = "1"
 
 ["0-0.1"]
-Distributions = "0.0.0 - 0.23"
-Parameters = "0.0.0 - 0.12"
-Reexport = "0.0.0 - 0.2"
-StatsBase = "0.0.0 - 0.33"
-StatsFuns = "0.0.0 - 0.9"
+Distributions = "0.0.0-0.23"
+Parameters = "0.0.0-0.12"
+Reexport = "0.0.0-0.2"
+StatsBase = "0.0.0-0.33"
+StatsFuns = "0.0.0-0.9"
 
-["0.2-0"]
-Parameters = "0.12"
-SafeTestsets = "0.0.1"
+["0.10.10-0.11.1"]
+SequentialSamplingModels = "0.1-0.2"
+
+["0.10.11-0.12.0"]
+StatsBase = "0.32-0.34"
+
+["0.10.6-0.12.0"]
+StatsFuns = ["0.9", "1"]
+
+["0.10.7-0"]
+PrettyTables = "1.1.0-2"
+
+["0.11.2-0"]
+SafeTestsets = ["0.0.1", "0.1"]
+
+["0.11.2-0.12.0"]
+SequentialSamplingModels = "0.1-0.3"
+
+["0.12.6-0"]
+Random = "1.9.0-1"
+
+["0.2-0.10.10"]
 StatsBase = "0.32-0.33"
+
+["0.2-0.10.5"]
 StatsFuns = "0.9"
+
+["0.2-0.11.1"]
+SafeTestsets = "0.0.1"
+
+["0.2-0.12.0"]
+Parameters = "0.12"
 
 ["0.2-0.4"]
 Reexport = "0.2"
@@ -29,7 +56,7 @@ SequentialSamplingModels = "0.1.1-0.1"
 ["0.4.8-0.6.9"]
 DataFrames = "0.22"
 
-["0.5-0"]
+["0.5-0.12.0"]
 Reexport = ["0.2", "1"]
 
 ["0.6.10-0.8.0"]
@@ -37,6 +64,8 @@ DataFrames = ["0.22", "1"]
 
 ["0.6.11-0"]
 Distributions = "0.22-0.25"
+
+["0.6.11-0.10.9"]
 SequentialSamplingModels = "0.1"
 
 ["0.6.12-0"]
@@ -45,5 +74,5 @@ ConcreteStructs = "0.2"
 ["0.6.6-0.6.11"]
 DiscreteEventsLite = "0.1"
 
-["0.7.3-0"]
+["0.7.3-0.10.6"]
 PrettyTables = "1.1.0-1"

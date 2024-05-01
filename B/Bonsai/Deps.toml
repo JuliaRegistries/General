@@ -1,8 +1,64 @@
 [0]
-Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
 FilePaths = "8fc22ac5-c921-52a6-82fd-178b2807b824"
 FilePathsBase = "48062228-2e41-5def-b9a4-89aafe57970f"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.1"]
+Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+
+["0.2-0"]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+FileWatching = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+StructTypes = "856f2bd8-1eba-4b0a-8007-ebc267875bd4"
+URIs = "5c2747f8-b7ea-4ff2-ba2e-563bfd36b1d4"
+
+["0.2-0.3"]
+LRUCache = "8ac3fa9e-de4c-5943-b1dc-09c6b5f20637"
+
+["0.3"]
+PkgVersion = "eebad327-c553-4316-9ea0-9fa01ccd7688"
+
+["0.3-0"]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+CodeInfoTools = "bc773b8a-8374-437a-b9f2-0e9785855863"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+JET = "c3a54625-cd67-489e-a8e7-0a5a0ff4e31b"
+NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
+Parsers = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
+Term = "22787eb5-b846-44ae-b979-8e399b8463ab"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+
+["0.3-0.3.2"]
+NodeJS = "2bd173c7-0d6d-553b-b6af-13a54713934c"
+
+["0.3-0.5.2"]
+ExprManipulation = "49bccec5-5f8e-4a37-813c-bb803a7e462a"
+
+["0.4-0"]
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
+["0.5.3"]
+CompositeStructs = "534720e6-2374-40c5-8712-bf9a2f1643c6"
+
+["0.5.3-0"]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+
+["0.5.4-0"]
+ExproniconLite = "55351af7-c7e9-48d6-89ff-24e801d99491"
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+
+["0.5.4-0.6.0"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.6-0"]
+PkgVersion = "eebad327-c553-4316-9ea0-9fa01ccd7688"
+
+["0.6.1-0"]
+MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
+Mkcert = "f2e023e7-06c5-4a31-9859-21762dffa823"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

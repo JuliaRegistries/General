@@ -1,0 +1,41 @@
+[0]
+CoordinateTransformations = "0.6"
+DICOM = "0.10"
+DelimitedFiles = "1"
+FileIO = "1"
+Glob = "1"
+Interpolations = "0.14"
+JLD2 = "0.4"
+JSON = "0.21"
+MeshIO = "0.4"
+NRRD = "0.6"
+Optim = "1"
+Polyester = "0.7"
+ProgressMeter = "1"
+Roots = "2"
+Rotations = "1"
+StaticArrays = "1"
+WriteVTK = "1"
+
+["0-0.13.3"]
+CUDA = "4"
+Meshes = "0.34"
+
+["0-0.13.6"]
+Adapt = "3"
+julia = "1.8.0-1"
+
+["0.13.4-0"]
+Meshes = "0.34-0.35"
+
+["0.13.4-0.13.6"]
+CUDA = "4-5"
+
+["0.13.5-0"]
+LinearAlgebra = "1"
+Printf = "1"
+SparseArrays = "1"
+Test = "1"
+
+["0.13.7-0"]
+julia = "1.9.0-1"

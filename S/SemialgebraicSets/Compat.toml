@@ -1,6 +1,6 @@
 ["0-0.1"]
 Compat = "1-2"
-MultivariatePolynomials = "0.1.0 - 0.3"
+MultivariatePolynomials = "0.1.0-0.3"
 
 ["0.0"]
 julia = "0.6-1"
@@ -8,12 +8,23 @@ julia = "0.6-1"
 ["0.1"]
 julia = ["0.7", "1"]
 
-["0.2-0"]
+["0.2"]
 julia = "1"
 
 ["0.2-0.2.3"]
 MultivariatePolynomials = "0.3"
 
-["0.2.4-0"]
-MultivariatePolynomials = "0.4.2-0.4"
+["0.2.4"]
 MutableArithmetics = "0.3.1-0.3"
+
+["0.2.4-0.2"]
+MultivariatePolynomials = "0.4.2-0.4"
+
+["0.2.5-0.2"]
+MutableArithmetics = ["0.3.1-0.3", "1"]
+
+["0.3-0"]
+CommonSolve = "0.2"
+MultivariatePolynomials = "0.5"
+MutableArithmetics = "1"
+julia = "1.6.0-1"

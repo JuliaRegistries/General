@@ -1,45 +1,48 @@
 [0]
+Statistics = "1"
 julia = "1"
 
 ["0-0.0.1"]
-IndexedTables = "0.0.0 - 0.13"
+IndexedTables = "0.0.0-0.13"
 
 ["0-0.0.4"]
-Distributions = "0.0.0 - 0.22"
+Distributions = "0.0.0-0.22"
 
 ["0-0.0.5"]
-Tables = "0.0.0 - 0.2"
+Tables = "0.0.0-0.2"
 
 ["0-0.0.6"]
-AbstractPlotting = "0.9.1 - 0.9"
-FreqTables = "0.3.1 - 0.3"
-IntervalSets = "0.0.0 - 0.3"
-KernelDensity = "0.0.0 - 0.5"
-Loess = "0.0.0 - 0.5"
-NamedArrays = "0.0.0 - 0.9"
-Observables = "0.0.0 - 0.2"
-StatsBase = "0.0.0 - 0.32"
+IntervalSets = "0.0.0-0.3"
+KernelDensity = "0.0.0-0.5"
+Loess = "0.0.0-0.5"
+NamedArrays = "0.0.0-0.9"
+Observables = "0.0.0-0.2"
+StatsBase = "0.0.0-0.32"
+
+["0.0"]
+AbstractPlotting = "0.9.1-0.9"
+FreqTables = "0.3.1-0.3"
 
 ["0.0.2"]
-Widgets = "0.0.0 - 0.5"
+Widgets = "0.0.0-0.5"
 
 ["0.0.2-0.0.4"]
 FileIO = "0-1"
 OrderedCollections = "0-1"
 
 ["0.0.2-0.0.6"]
-StructArrays = "0.2.0 - 0.4"
+StructArrays = "0.2.0-0.4"
 
-["0.0.3-0.0.6"]
-Widgets = "0.5.0 - 0.5"
+["0.0.3-0.0"]
+Widgets = "0.5"
 
 ["0.0.5-0.0.6"]
-Distributions = "0.15.0 - 0.22"
-FileIO = "0.0.0 - 1"
-OrderedCollections = "0.0.0 - 1"
+Distributions = "0.15.0-0.22"
+FileIO = "0.0.0-1"
+OrderedCollections = "0.0.0-1"
 
-["0.0.6"]
-Tables = "0.2.2 - 0.2"
+["0.0.6-0.0"]
+Tables = "0.2.2-0.2"
 
 ["0.0.7-0"]
 KernelDensity = "0.5"
@@ -47,14 +50,10 @@ Loess = "0.5"
 StructArrays = "0.2-0.4"
 
 ["0.0.7-0.0"]
-AbstractPlotting = "0.9.1-0.9"
 FileIO = "1.2.0-1"
-FreqTables = "0.3.1-0.3"
 IntervalSets = "0.3"
 NamedArrays = "0.9"
 OrderedCollections = "1.1.0-1"
-Tables = "0.2.2-0.2"
-Widgets = "0.5"
 
 ["0.0.7-0.1.1"]
 Observables = "0.2"

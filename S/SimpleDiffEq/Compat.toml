@@ -1,27 +1,25 @@
 ["0-0.3"]
-RecursiveArrayTools = "0.0.0 - 0.20"
-StaticArrays = "0.0.0 - 0.12"
-julia = "1"
+RecursiveArrayTools = "0.0.0-0.20"
+StaticArrays = "0.0.0-0.12"
 
 ["0-0.4"]
 DiffEqBase = "5"
 
 ["0-0.5"]
-Reexport = "0.0.0 - 0.2"
+Reexport = "0.0.0-0.2"
+
+["0-1.5"]
+julia = "1"
 
 ["0.4"]
-StaticArrays = "0.8.0 - 0.12"
-julia = "1.0.0-1"
+StaticArrays = "0.8.0-0.12"
 
 ["0.4-0.5"]
-RecursiveArrayTools = "0.0.0 - 1"
+RecursiveArrayTools = "0.0.0-1"
 
 ["0.5"]
-DiffEqBase = "0.0.0 - 6"
-StaticArrays = "0.0.0 - 0.12"
-
-["0.5-1"]
-julia = "1"
+DiffEqBase = "0.0.0-6"
+StaticArrays = "0.0.0-0.12"
 
 ["0.6-0"]
 DiffEqBase = "6.5.0-6"
@@ -40,12 +38,26 @@ StaticArrays = "0.10-0.12"
 DiffEqBase = "6.5.0-6"
 RecursiveArrayTools = "1"
 
-["1.1-1"]
-DiffEqBase = "6.11.0-6"
+["1.1-1.11.0"]
 RecursiveArrayTools = "2"
+
+["1.1-1.8"]
+DiffEqBase = "6.11.0-6"
+
+["1.11.1-1"]
+RecursiveArrayTools = "2-3"
 
 ["1.4-1"]
 Reexport = ["0.2", "1"]
 
 ["1.5-1"]
 StaticArrays = ["0.10-0.12", "1"]
+
+["1.6-1"]
+julia = "1.6.0-1"
+
+["1.8-1"]
+Parameters = "0.12"
+
+["1.9-1"]
+DiffEqBase = "6.122.0-6"

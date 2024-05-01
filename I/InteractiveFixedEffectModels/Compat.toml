@@ -1,72 +1,78 @@
 [0]
-Reexport = "0.0.0 - 0.2"
+Reexport = "0.0.0-0.2"
 
 ["0-0.3"]
 StatsModels = "0.2.4-0.5"
 
 ["0-0.3.0"]
-FixedEffectModels = "0.5.0 - 0.10"
+FixedEffectModels = "0.5.0-0.10"
 
 ["0-0.3.1"]
-LeastSquaresOptim = "0.5.0 - 0.7"
+LeastSquaresOptim = "0.5.0-0.7"
 
 ["0-0.3.4"]
-DataFrames = "0.11.0 - 0.19"
+DataFrames = "0.11.0-0.19"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0-0.5"]
-CategoricalArrays = "0.0.0 - 0.8"
-StatsBase = "0.22.0 - 0.33"
+CategoricalArrays = "0.0.0-0.8"
+StatsBase = "0.22.0-0.33"
 
 ["0.3.1-0.3.2"]
-FixedEffectModels = "0.6.1 - 0.10"
+FixedEffectModels = "0.6.1-0.10"
 
-["0.3.2-0.5"]
-LeastSquaresOptim = "0.7.0 - 0.7"
+["0.3.2-1.1.0"]
+LeastSquaresOptim = "0.7"
 
 ["0.3.3"]
-FixedEffectModels = "0.7.0 - 0.10"
-FixedEffects = "0.0.0 - 0.1"
+FixedEffectModels = "0.7.0-0.10"
+FixedEffects = "0.0.0-0.1"
 
 ["0.3.4"]
 FillArrays = "0-0.5"
-FixedEffectModels = "0.7.1 - 0.10"
+FixedEffectModels = "0.7.1-0.10"
 FixedEffects = "0.1.1"
 
 ["0.3.5-0"]
-FillArrays = "0.0.0 - 0.9"
+FillArrays = "0.0.0-0.9"
 
 ["0.3.5-0.3"]
-FixedEffectModels = "0.7.4 - 0.10"
+FixedEffectModels = "0.7.4-0.10"
+Statistics = ["0.7.0", "1"]
 julia = ["0.7.0", "1"]
 
 ["0.3.5-0.4.1"]
-FixedEffects = "0.1.1 - 0.5"
+FixedEffects = "0.1.1-0.5"
 
 ["0.3.5-0.5"]
-DataFrames = "0.19.1 - 0.19"
+DataFrames = "0.19.1-0.19"
 
 ["0.4"]
-FixedEffectModels = "0.8.0 - 0.10"
+FixedEffectModels = "0.8.0-0.10"
 
 ["0.4-0.5"]
-StatsModels = "0.6.0 - 0.6"
+Statistics = "1.1.0-1"
 julia = "1.1.0-1"
 
+["0.4-1.1"]
+StatsModels = "0.6"
+
 ["0.4.1-0"]
-Distributions = "0.0.0 - 0.23"
+Distributions = "0.0.0-0.23"
 
 ["0.4.2"]
-FixedEffects = "0.2.0 - 0.5"
+FixedEffects = "0.2.0-0.5"
 
 ["0.4.3-0.5"]
-FixedEffects = "0.3.0 - 0.5"
+FixedEffects = "0.3.0-0.5"
 
 ["0.5"]
-FixedEffectModels = "0.9.0 - 0.10"
+FixedEffectModels = "0.9.0-0.10"
 
 ["0.6-0"]
-StatsBase = "0.0.0 - 0.33"
+Statistics = "1"
+StatsBase = "0.0.0-0.33"
 julia = "1"
 
 ["0.6-0.6.1"]
@@ -74,13 +80,7 @@ DataFrames = "0.19"
 FixedEffectModels = "0.9-0.10"
 
 ["0.6-0.6.2"]
-Tables = "0.0.0 - 0.2"
-
-["0.6-1"]
-StatsModels = "0.6"
-
-["0.6-1.1.0"]
-LeastSquaresOptim = "0.7"
+Tables = "0.0.0-0.2"
 
 ["0.6.0"]
 FixedEffects = "0.4-0.5"
@@ -101,21 +101,21 @@ Tables = "0-1"
 ["0.6.4-0"]
 DataFrames = "0.19-0.21"
 
-[1]
+["1-1.1"]
+Statistics = "1.3.0-1"
 julia = "1.3.0-1"
 
 ["1.0.0"]
 DataFrames = "0.19-0.21"
-Distributions = "0.0.0 - 0.23"
-FillArrays = "0.0.0 - 0.9"
+Distributions = "0.0.0-0.23"
+FillArrays = "0.0.0-0.9"
 FixedEffectModels = ["0.11", "1"]
 FixedEffects = ["0.7", "1"]
-Reexport = "0.0.0 - 0.2"
-StatsBase = "0.0.0 - 0.33"
+Reexport = "0.0.0-0.2"
+StatsBase = "0.0.0-0.33"
 Tables = "0-1"
 
 ["1.0.1-1"]
-StatsBase = "0.33"
 Tables = "1"
 
 ["1.0.1-1.0"]
@@ -131,15 +131,20 @@ FillArrays = "0.7-0.9"
 ["1.0.1-1.1.1"]
 Reexport = "0.2"
 
+["1.0.1-1.2.0"]
+StatsBase = "0.33"
+
 ["1.1-1"]
 FixedEffects = "2"
-StatsFuns = "0.9"
 
 ["1.1-1.1.1"]
 FixedEffectModels = "1.3.0-1"
 
 ["1.1-1.1.3"]
 Vcov = "0.4"
+
+["1.1-1.1.5"]
+StatsFuns = "0.9"
 
 ["1.1.1"]
 FillArrays = "0.7-0.10"
@@ -161,6 +166,32 @@ FillArrays = "0.7-0.11"
 DataFrames = ["0.21-0.22", "1"]
 
 ["1.1.4-1"]
-FillArrays = "0.7-0.12"
 GroupedArrays = "0.3"
+
+["1.1.4-1.1.5"]
+FillArrays = "0.7-0.12"
+
+["1.1.4-1.1.6"]
 Vcov = "0.5"
+
+["1.1.6-1"]
+StatsFuns = ["0.9", "1"]
+
+["1.1.6-1.2.0"]
+FillArrays = "0.7-0.13"
+
+["1.1.7"]
+Vcov = "0.5-0.6"
+
+["1.1.8-1"]
+Vcov = "0.5-0.7"
+
+["1.2-1"]
+Statistics = "1.6.0-1"
+StatsAPI = "1"
+StatsModels = "0.7"
+julia = "1.6.0-1"
+
+["1.2.1-1"]
+FillArrays = ["0.7-0.13", "1"]
+StatsBase = "0.33-0.34"

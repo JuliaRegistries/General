@@ -10,10 +10,12 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 JLD = "4138dd39-2aa7-5051-a626-17a0bb65d9c8"
 
 ["0.0.13-0"]
-Convex = "f65535da-76fb-5f13-bab9-19810c17039a"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 Observers = "338f10d5-c7f1-4033-a7d1-f9dec39bcaa0"
 Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
+
+["0.0.13-0.0.19"]
+Convex = "f65535da-76fb-5f13-bab9-19810c17039a"
 SCS = "c946c3f1-0d1f-5ce8-9dea-7daa1f7e2d13"
 
 ["0.0.14-0.0.16"]
@@ -21,3 +23,9 @@ TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
 
 ["0.0.17-0"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+
+["0.0.20-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.1-0"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"

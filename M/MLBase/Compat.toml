@@ -1,11 +1,16 @@
 ["0-0.8"]
 IterTools = "0-1"
-Reexport = "0.0.0 - 0.2"
-StatsBase = "0.6.9 - 0.33"
+Reexport = "0.0.0-0.2"
+StatsBase = "0.6.9-0.33"
 julia = ["0.7", "1"]
 
 ["0.9-0"]
 IterTools = "1"
 Reexport = "1"
-StatsBase = "0.33"
 julia = "1"
+
+["0.9-0.9.1"]
+StatsBase = "0.33"
+
+["0.9.2-0"]
+StatsBase = "0.33-0.34"

@@ -1,8 +1,6 @@
 [0]
-BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
@@ -10,5 +8,12 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ["0-0.4"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.7.1"]
+BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
 ["0.7-0"]
 LSODA_jll = "aae0fff6-70f8-51e1-979a-8150c7cc74bd"
+
+["0.7.3-0"]
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"

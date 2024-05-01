@@ -1,9 +1,11 @@
 [0]
-DocStringExtensions = "0.8"
 Primes = "0.5"
 julia = "1"
 
-["0.2-0"]
+["0-0.2.3"]
+DocStringExtensions = "0.8"
+
+["0.2-0.2.2"]
 LoopVectorization = "0.12"
 
 ["0.2.1-0"]
@@ -11,3 +13,10 @@ MuladdMacro = "0.2"
 
 ["0.2.2-0"]
 Documenter = "0.27"
+
+["0.2.3-0"]
+AbstractFFTs = "1"
+Reexport = "1"
+
+["0.2.4-0"]
+DocStringExtensions = "0.9"

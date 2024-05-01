@@ -1,17 +1,23 @@
 ["0-0.9.2"]
-Combinatorics = "0.2.1 - 0.7"
-DataStructures = "0.4.4 - 0.18"
-Requires = "0.0.0 - 0.5"
+Combinatorics = "0.2.1-0.7"
+DataStructures = "0.4.4-0.18"
+DelimitedFiles = ["0.7", "1"]
+Requires = "0.0.0-0.5"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.9.3-0"]
 julia = "1"
 
+["0.9.3-0.10.0"]
+DelimitedFiles = "1"
+Statistics = "1"
+
 ["0.9.3-0.9.4"]
-Combinatorics = "0.0.0 - 1"
-DataStructures = "0.0.0 - 0.18"
-InvertedIndices = "0.0.0 - 1"
-Requires = "0.0.0 - 1"
+Combinatorics = "0.0.0-1"
+DataStructures = "0.0.0-0.18"
+InvertedIndices = "0.0.0-1"
+Requires = "0.0.0-1"
 
 ["0.9.5-0"]
 Combinatorics = "1"

@@ -1,9 +1,16 @@
-[0]
-Distributions = "0.24"
-HDF5 = "0.15"
-
 ["0-0.1.0"]
 julia = "1"
 
+["0-0.2.0"]
+Distributions = "0.24"
+HDF5 = "0.15"
+
 ["0.1.1-0"]
 julia = "1.4.0-1"
+
+["0.2.1-0"]
+Distributions = "0.25"
+HDF5 = "0.16"
+
+["0.2.2-0"]
+Statistics = "1.4.0-1"

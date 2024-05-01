@@ -2,26 +2,25 @@
 julia = "1"
 
 ["0.0.5-0.2.1"]
-CSV = "0.0.0 - 0.5"
-DataFrames = "0.0.0 - 0.19"
-Distances = "0.0.0 - 0.8"
-DistributedArrays = "0.0.0 - 0.6"
-Distributions = "0.0.0 - 0.21"
-FCSFiles = "0.0.0 - 0.1"
-FileIO = "0.0.0 - 1"
-XLSX = "0.0.0 - 0.5"
+CSV = "0.0.0-0.5"
+DataFrames = "0.0.0-0.19"
+Distances = "0.0.0-0.8"
+DistributedArrays = "0.0.0-0.6"
+Distributions = "0.0.0-0.21"
+FCSFiles = "0.0.0-0.1"
+FileIO = "0.0.0-1"
+XLSX = "0.0.0-0.5"
 
 ["0.1-0.2.1"]
-JSON = "0.0.0 - 0.21"
+JSON = "0.0.0-0.21"
 
 ["0.2-0.2.1"]
-NearestNeighbors = "0.0.0 - 0.4"
+NearestNeighbors = "0.0.0-0.4"
 
 ["0.2.2-0"]
 DistributedArrays = "0.6.4-0.6"
 FCSFiles = "0.1.1-0.1"
 FileIO = "1.0.7-1"
-JSON = "0.21"
 NearestNeighbors = "0.4.3-0.4"
 
 ["0.2.2-0.2"]
@@ -34,6 +33,9 @@ CSV = "0.5.12-0.5"
 
 ["0.2.2-0.4"]
 Distances = "0.8.2-0.8"
+
+["0.2.2-0.6"]
+JSON = "0.21"
 
 ["0.3-0.3.1"]
 Distributions = "0.21.1-0.22"
@@ -54,7 +56,7 @@ Distributions = "0.21.1-0.23"
 DataFrames = "0.20-0.21"
 Distances = "0.8.2-0.9"
 
-["0.5.1-0"]
+["0.5.1-0.6"]
 XLSX = "0.5.5-0.7"
 
 ["0.5.1-0.6.1"]
@@ -64,8 +66,10 @@ CSV = "0.5.12-0.7"
 StableRNGs = "1"
 
 ["0.6.2-0"]
-CSV = "0.5.12-0.8"
 Distances = "0.8.2-0.10"
+
+["0.6.2-0.6"]
+CSV = "0.5.12-0.8"
 
 ["0.6.2-0.6.4"]
 DataFrames = "0.20-0.22"
@@ -74,3 +78,7 @@ Distributions = "0.21.1-0.24"
 ["0.6.5-0"]
 DataFrames = ["0.20-0.22", "1"]
 Distributions = "0.21.1-0.25"
+
+["0.7-0"]
+CSV = ["0.5.12-0.8", "0.10"]
+DistributedData = "0.1.4-0.2"

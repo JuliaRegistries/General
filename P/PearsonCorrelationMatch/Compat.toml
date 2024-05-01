@@ -1,0 +1,41 @@
+[0]
+PolynomialRoots = "1"
+PrecompileTools = "1"
+
+["0-0.1"]
+julia = "1.6.0-1"
+
+["0-0.1.0"]
+FastGaussQuadrature = "0.5"
+
+["0-0.2"]
+Reexport = "1"
+
+["0-0.3"]
+Distributions = "0.25"
+StatsFuns = "1"
+
+["0.1.1-0.3"]
+FastGaussQuadrature = ["0.5", "1"]
+
+["0.1.2-0.3"]
+IrrationalConstants = "0.2"
+
+["0.2-0.3"]
+SharedArrays = "1"
+julia = "1.7.0-1"
+
+["0.2-0.3.0"]
+NearestCorrelationMatrix = "0.2"
+
+["0.3.1-0.3"]
+LinearAlgebra = "1"
+
+["0.4-0"]
+Distributions = ["0.24.5-0.24", "0.25.57-0.25"]
+FastGaussQuadrature = "1"
+IrrationalConstants = "0.1.1-0.2"
+LinearAlgebra = ["0.0.0", "1"]
+SharedArrays = ["0.0.0", "1"]
+StatsFuns = ["0.9.15-0.9", "1"]
+julia = "1.6.0-1"

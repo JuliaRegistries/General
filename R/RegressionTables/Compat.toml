@@ -1,32 +1,34 @@
 ["0-0.2.0"]
 Compat = "1.3-2"
-Distributions = "0.16.0 - 0.21"
-FixedEffectModels = "0.6.1 - 0.10"
-Formatting = "0.3.0 - 0.4"
+Distributions = "0.16.0-0.21"
+FixedEffectModels = "0.6.1-0.10"
+Formatting = "0.3.0-0.4"
 GLM = "1"
-StatsBase = "0.25.0 - 0.32"
+StatsBase = "0.25.0-0.32"
 StatsModels = "0.3.1-0.5"
+
+["0-0.2.1"]
+Statistics = "1"
 julia = "1"
 
-["0.2.1"]
-julia = "1.0.0-1"
-
 ["0.2.1-0.2"]
-Compat = "0.0.0 - 2"
-Distributions = "0.0.0 - 0.21"
-Formatting = "0.0.0 - 0.4"
-GLM = "0.0.0 - 1"
-StatsBase = "0.0.0 - 0.32"
-StatsModels = "0.0.0 - 0.6"
+Compat = "0.0.0-2"
+Distributions = "0.0.0-0.21"
+Formatting = "0.0.0-0.4"
+GLM = "0.0.0-1"
+StatsBase = "0.0.0-0.32"
+StatsModels = "0.0.0-0.6"
 
 ["0.2.1-0.2.3"]
-FixedEffectModels = "0.0.0 - 0.10"
+FixedEffectModels = "0.0.0-0.10"
 
 ["0.2.2-0.2.3"]
+Statistics = "1.1.0-1"
 julia = "1.1.0-1"
 
 ["0.2.4-0.2"]
-FixedEffectModels = "0.10.1 - 0.10"
+FixedEffectModels = "0.10.1-0.10"
+Statistics = "1.1.0-*"
 julia = "1.1.0-*"
 
 ["0.3"]
@@ -34,20 +36,22 @@ Compat = "2"
 Distributions = "0.21"
 StatsBase = "0.32"
 
-["0.3-0"]
-Formatting = "0.4"
-GLM = "1.3.0-1"
-StatsModels = "0.6"
-julia = "1"
-
 ["0.3-0.4"]
 FixedEffectModels = "0.10"
 
+["0.3-0.5"]
+GLM = "1.3.0-1"
+
+["0.3-0.5.9"]
+Statistics = "1"
+StatsModels = "0.6"
+julia = "1"
+
+["0.3-0.7.0"]
+Formatting = "0.4"
+
 ["0.4"]
 Distributions = ["0.21", "0.23"]
-
-["0.4-0"]
-StatsBase = "0.32-0.33"
 
 ["0.4-0.5.0"]
 Parameters = "0.12"
@@ -55,12 +59,41 @@ Parameters = "0.12"
 ["0.4-0.5.1"]
 Compat = ["2", "3.2.0-3"]
 
-["0.5-0"]
+["0.4-0.5.9"]
+StatsBase = "0.32-0.33"
+
+["0.5-0.5.3"]
 Distributions = ["0.21", "0.23-0.24"]
+
+["0.5-0.5.9"]
 FixedEffectModels = ["0.10-0.11", "1"]
 
-["0.5.1-0"]
+["0.5.1-0.5.9"]
 UnPack = "1"
 
-["0.5.2-0"]
+["0.5.10-0"]
+StatsAPI = "1.6.0-1"
+StatsBase = "0.32-0.34"
+
+["0.5.10-0.5"]
+FixedEffectModels = "1.9.0-1"
+Statistics = "1.8.0-1"
+StatsModels = "0.7"
+julia = "1.8.0-1"
+
+["0.5.2-0.5.8"]
 Compat = "2-3"
+
+["0.5.4-0"]
+Distributions = ["0.21", "0.23-0.25"]
+
+["0.5.9-0.5"]
+Compat = "2-4"
+
+["0.6-0"]
+Statistics = "1"
+StatsModels = "0.7.3-0.7"
+julia = "1.9.0-1"
+
+["0.7.1-0"]
+Format = "1.3.0-1"

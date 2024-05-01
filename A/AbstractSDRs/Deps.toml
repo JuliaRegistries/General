@@ -1,14 +1,23 @@
 [0]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-RTLSDR = "71cfaeeb-f3e6-59e7-80b9-1b8c23d8f010"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
 UHDBindings = "4d90b16f-829e-4b78-80d9-fb9bcf8c06e0"
 ZMQ = "c2297ded-f4af-51ae-bb23-16f91089e4e1"
+
+["0-0.3.0"]
+RTLSDR = "71cfaeeb-f3e6-59e7-80b9-1b8c23d8f010"
 
 ["0.1.1-0"]
 AdalmPluto = "af34ca7c-e544-47d5-a6fe-72495f08728e"
 
 ["0.2-0"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.3.1-0"]
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+librtlsdr_jll = "d1c10d9e-0af6-511b-a44d-62fc8e59b084"
+
+["0.5-0"]
+BladeRFHardwareDriver_jll = "ddcda2f0-0770-5eff-b02e-03a583a735ee"

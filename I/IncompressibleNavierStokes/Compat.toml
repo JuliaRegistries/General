@@ -1,0 +1,26 @@
+[0]
+FFTW = "1"
+IterativeSolvers = "0.9"
+WriteVTK = "1"
+
+["0-0.1"]
+Statistics = "1"
+julia = "1"
+
+["0-0.2"]
+Makie = "0.15-0.17"
+
+["0-0.3"]
+Interpolations = "0.13-0.14"
+UnPack = "1"
+
+["0.2-0"]
+Statistics = "1.7.0-1"
+julia = "1.7.0-1"
+
+["0.3"]
+Makie = "0.15-0.19"
+
+["0.4-0"]
+Adapt = "3"
+Makie = "0.19"

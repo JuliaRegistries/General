@@ -1,10 +1,8 @@
 [0]
-Animations = "27a7e980-b3e6-11e9-2bcd-0b925532e340"
 BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 OnlineStats = "a15396b6-48d5-5d58-9928-6d29437db91e"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
@@ -17,6 +15,12 @@ Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 ["0-0.1.0"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 
+["0-0.2"]
+Animations = "27a7e980-b3e6-11e9-2bcd-0b925532e340"
+
+["0-0.2.3"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
 ["0.1.1-0"]
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
@@ -24,3 +28,23 @@ PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 ["0.2-0"]
 EarlyStopping = "792122b4-ca99-40de-a6bc-6742525f08b6"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.2.4-0"]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+InlineTest = "bd334432-b1e7-49c7-a2dc-dd9149e4ebd6"
+
+["0.3-0"]
+ParameterSchedulers = "d7d3b36b-41b8-4d0d-a2bf-768c6151755e"
+
+["0.3.1-0"]
+Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
+Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+
+["0.3.3-0"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+
+["0.3.4-0.3.7"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.3.8-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

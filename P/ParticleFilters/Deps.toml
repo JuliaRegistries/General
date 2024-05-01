@@ -1,6 +1,4 @@
 [0]
-POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
-POMDPPolicies = "182e52fb-cfd0-5e46-8c26-fd0667c990f4"
 POMDPs = "a93abf59-7444-517b-a68a-c42f96afdd7d"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
@@ -10,5 +8,13 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.5.3"]
+POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
+POMDPPolicies = "182e52fb-cfd0-5e46-8c26-fd0667c990f4"
+
 ["0.5-0"]
 POMDPLinter = "f3bd98c0-eb40-45e2-9eb1-f2763262d755"
+
+["0.5.4-0"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+POMDPTools = "7588e00f-9cae-40de-98dc-e0c70c48cdd7"

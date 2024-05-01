@@ -1,41 +1,45 @@
 [0]
-Reexport = "0.0.0 - 0.2"
+Gadfly = "1"
+Reexport = "0.0.0-0.2"
 
 ["0-0.12.0"]
-Distributions = "0.10.0 - 0.23"
+Distributions = "0.10.0-0.23"
 
 ["0-0.12.1"]
 Cairo = "0.2.31-0.5"
-Gadfly = "1"
+DelimitedFiles = "1"
 LightGraphs = "0.7-1"
+Statistics = "1"
 julia = "1"
 
 ["0-0.12.2"]
-Calculus = "0.1.13 - 0.5"
-Compose = "0.3.18 - 0.9"
-PDMats = "0.3.6 - 0.9"
-Showoff = "0.0.6 - 0.3"
-SpecialFunctions = "0.0.0 - 0.10"
-StatsBase = "0.7.4 - 0.33"
+Calculus = "0.1.13-0.5"
+Compose = "0.3.18-0.9"
+PDMats = "0.3.6-0.9"
+Showoff = "0.0.6-0.3"
+SpecialFunctions = "0.0.0-0.10"
+StatsBase = "0.7.4-0.33"
 
 ["0.12.1-0.12.2"]
-Distributions = "0.17.0 - 0.23"
+Distributions = "0.17.0-0.23"
 
 ["0.12.2"]
-Cairo = "0.2.31 - 1"
-Gadfly = "1.0.0 - 1"
-LightGraphs = "0.7.0 - 1"
+Cairo = "0.2.31-1"
+DelimitedFiles = "1.0.0-*"
+LightGraphs = "0.7.0-1"
+Statistics = "1.0.0-*"
 julia = "1.0.0-*"
 
 ["0.12.3-0"]
 Cairo = "1"
-Calculus = "0.0.0 - 0.5"
-Compose = "0.0.0 - 0.9"
+Calculus = "0.0.0-0.5"
+Compose = "0.0.0-0.9"
+DelimitedFiles = "1"
 Distributions = "0.23"
-Gadfly = "1"
 LightGraphs = "1"
 PDMats = "0.9"
-Showoff = "0.0.0 - 0.3"
+Showoff = "0.0.0-0.3"
 SpecialFunctions = "0.8-0.10"
+Statistics = "1"
 StatsBase = "0.32-0.33"
 julia = "1"

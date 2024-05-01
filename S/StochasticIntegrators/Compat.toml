@@ -1,8 +1,21 @@
 [0]
+Parameters = "0.12"
+
+["0-0.1"]
 GeometricIntegrators = "0.7-0.8"
 HDF5 = "0.14-0.15"
 OffsetArrays = ["0.10-0.11", "1"]
-Parameters = "0.12"
 Reexport = ["0.2", "1"]
 SimpleSolvers = "0.1"
 julia = "1.5.0-1"
+
+["0.2-0"]
+GeometricBase = "0.2"
+GeometricEquations = "0.2"
+GeometricIntegrators = "0.9"
+HDF5 = "0.15-0.16"
+OffsetArrays = "1"
+Reexport = "1"
+RungeKutta = "0.3"
+SimpleSolvers = "0.2"
+julia = "1.6.0-1"

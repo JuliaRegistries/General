@@ -1,28 +1,28 @@
 ["0-0.4.1"]
-Parameters = "0.10.3 - 0.12"
+Parameters = "0.10.3-0.12"
 
 [0-1]
 julia = "1"
 
-["0.11-1"]
+["0.11-2"]
 Reexport = ["0.2", "1"]
 
 ["0.2-0.4.1"]
-Tables = "0.1.14 - 0.2"
+Tables = "0.1.14-0.2"
 
 ["0.3-0.4.1"]
 Crayons = "1-4"
-Formatting = "0.3.5 - 0.4"
-Reexport = "0.2.0 - 0.2"
+Formatting = "0.3.5-0.4"
+Reexport = "0.2"
 
 ["0.4.2-0.4"]
-Tables = "0.0.0 - 0.2"
+Tables = "0.0.0-0.2"
 
 ["0.4.2-0.6"]
-Crayons = "0.0.0 - 4"
-Formatting = "0.0.0 - 0.4"
-Parameters = "0.0.0 - 0.12"
-Reexport = "0.0.0 - 0.2"
+Crayons = "0.0.0-4"
+Formatting = "0.0.0-0.4"
+Parameters = "0.0.0-0.12"
+Reexport = "0.0.0-0.2"
 
 ["0.5-0.8.2"]
 Tables = "0.2"
@@ -33,9 +33,26 @@ Reexport = "0.2"
 ["0.7-0.9"]
 Parameters = "0.12"
 
-["0.7-1"]
+["0.7-2"]
 Crayons = "4"
+
+["0.7-2.2.6"]
 Formatting = "0.4"
 
-["0.8.3-1"]
+["0.8.3-2"]
 Tables = ["0.2", "1"]
+
+[2]
+StringManipulation = "0.3"
+
+["2.0"]
+julia = "1"
+
+["2.1-2"]
+julia = "1.6.0-1"
+
+["2.2-2"]
+LaTeXStrings = "1"
+
+["2.3-2"]
+PrecompileTools = "1"

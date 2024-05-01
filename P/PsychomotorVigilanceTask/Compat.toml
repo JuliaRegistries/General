@@ -3,5 +3,10 @@ Cairo = "1.0.5-1"
 ConcreteStructs = "0.2.2-0.2"
 Distributions = "0.24-0.25"
 Gtk = "1.1.7-1"
-SafeTestsets = "0.0.1"
 julia = "1"
+
+["0-0.1.0"]
+SafeTestsets = "0.0.1"
+
+["0.1.1-0"]
+SafeTestsets = ["0.0.1", "0.1"]

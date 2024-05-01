@@ -1,18 +1,24 @@
 ["0-0.2"]
-AbstractOperators = "0.1.0 - 0.2"
+AbstractOperators = "0.1.0-0.2"
+DelimitedFiles = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0-0.3.0"]
-ProximalOperators = "0.8.0 - 0.11"
+ProximalOperators = "0.8.0-0.11"
 
 ["0.2.1-0.2"]
-RecursiveArrayTools = "0.17.0 - 0.20"
+RecursiveArrayTools = "0.17.0-0.20"
 
-["0.3-0"]
+["0.3-0.4"]
 julia = "1"
 
 ["0.3.1-0.4.0"]
-ProximalOperators = "0.0.0 - 0.11"
+ProximalOperators = "0.0.0-0.11"
 
-["0.4.1-0"]
+["0.4.1-0.4"]
 ProximalOperators = "0.14"
+
+["0.5-0"]
+ProximalCore = "0.1"
+Zygote = "0.6"
+julia = "1.2.0-1"

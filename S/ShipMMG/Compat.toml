@@ -1,19 +1,36 @@
 [0]
 Dierckx = "0.5"
-DifferentialEquations = "6.15.0-6"
 ParameterizedFunctions = "5.6.0-5"
 Plots = "1.6.0-1"
-julia = "1"
 
 ["0-0.0.2"]
 LaTeXStrings = "1.2.0-1"
 Sundials = "4.3.0-4"
 
+["0-0.0.3"]
+DifferentialEquations = "6.15.0-6"
+julia = "1"
+
 ["0.0.2"]
 Documenter = "0.27"
 Revise = "3"
 
+["0.0.3"]
+Turing = "0.19"
+
 ["0.0.3-0"]
 Distributions = "0.25"
 Parameters = "0.12"
-Turing = "0.19"
+
+["0.0.4-0"]
+DifferentialEquations = "6.15.0-7"
+Turing = "0.20-0.21"
+julia = "1.6.0-1"
+
+["0.0.4-0.0.5"]
+AdvancedPS = "0.3"
+Libtask = "0.7"
+
+["0.0.6-0"]
+AdvancedPS = "0.3-0.4"
+Libtask = "0.7-0.8"

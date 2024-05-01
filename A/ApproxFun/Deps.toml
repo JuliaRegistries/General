@@ -2,7 +2,6 @@
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 Calculus = "49dc2e85-a5d0-5ad3-a950-438e2897f1b9"
 DualNumbers = "fa6b7ba4-c1ee-5f82-b5fc-ecf0adba8f74"
-FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 FastTransforms = "057dd010-8810-581a-b7be-e3fc3b93f78c"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
@@ -22,6 +21,9 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.13.20"]
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 
 ["0.10"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
@@ -44,3 +46,9 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["0.12.4-0"]
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0.13.12-0"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.13.12-0.13.20"]
+BandedMatrices = "aae01518-5342-5314-be14-df237901396f"

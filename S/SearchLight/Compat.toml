@@ -1,26 +1,26 @@
 ["0-0.11"]
-MiniLogging = "0.0.0 - 0.2"
+MiniLogging = "0.0.0-0.2"
 
 ["0-0.13"]
-DataFrames = "0.0.0 - 0.19"
-DataStreams = "0.0.0 - 0.4"
-JSON = "0.0.0 - 0.21"
-LibPQ = "0.0.0 - 0.11"
-MbedTLS = "0.0.0 - 0.7"
-Millboard = "0.0.0 - 0.2"
-MySQL = "0.0.0 - 0.7"
-Nullables = "0.0.0 - 1"
-OrderedCollections = "0.0.0 - 1"
-Reexport = "0.0.0 - 0.2"
-Revise = "0.0.0 - 2"
-SQLite = "0.0.0 - 0.8"
-YAML = "0.0.0 - 0.3"
+DataFrames = "0.0.0-0.19"
+DataStreams = "0.0.0-0.4"
+JSON = "0.0.0-0.21"
+LibPQ = "0.0.0-0.11"
+MbedTLS = "0.0.0-0.7"
+Millboard = "0.0.0-0.2"
+MySQL = "0.0.0-0.7"
+Nullables = "0.0.0-1"
+OrderedCollections = "0.0.0-1"
+Reexport = "0.0.0-0.2"
+Revise = "0.0.0-2"
+SQLite = "0.0.0-0.8"
+YAML = "0.0.0-0.3"
 
 ["0-0.8.4"]
-Codecs = "0.0.0 - 0.5"
-IterableTables = "0.0.0 - 1"
+Codecs = "0.0.0-0.5"
+IterableTables = "0.0.0-1"
 
-[0-1]
+[0-2]
 julia = "1"
 
 ["0.14"]
@@ -60,7 +60,7 @@ YAML = "0.3"
 ["0.15-0.19"]
 Revise = "2"
 
-["0.15-1"]
+["0.15-2"]
 Millboard = "0.2"
 OrderedCollections = "1"
 
@@ -70,7 +70,7 @@ SQLite = "0.9"
 ["0.16.1-0.19"]
 DataFrames = "0.20"
 
-["0.19-1"]
+["0.19-2"]
 YAML = "0.4"
 
 ["0.20-0.21"]
@@ -79,9 +79,15 @@ DataFrames = "0.21"
 ["0.22-0"]
 DataFrames = "0.22"
 
-["0.22-1"]
+["0.22-2"]
 Reexport = ["0.2", "1"]
 
-[1]
+[1-2]
 DataFrames = "1"
 Inflector = "1"
+
+[2]
+JSON3 = "1.9.0-1"
+
+["2.2.1-2"]
+Intervals = "1.5.0-1"

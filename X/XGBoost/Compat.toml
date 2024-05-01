@@ -1,21 +1,73 @@
 ["0-0.3"]
-BinDeps = "0.8.10 - 0.8"
+BinDeps = "0.8.10-0.8"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.4-0.4.2"]
+Statistics = ["0.7.0", "1"]
 julia = ["0.7.0", "1"]
 
 ["0.4.0"]
-BinDeps = "0.8.10 - 1"
+BinDeps = "0.8.10-1"
 
 ["0.4.1-0.4.2"]
-BinaryProvider = "0.3.0 - 0.5"
+BinaryProvider = "0.3.0-0.5"
 
 ["0.4.3-0"]
 XGBoost_jll = "0.82"
 
-["0.4.3-1"]
+["0.4.3-1.1"]
+Statistics = "1.3.0-1"
 julia = "1.3.0-1"
 
-[1]
+["1-1.1"]
 XGBoost_jll = "1.1.1-1"
+
+["1.5-1"]
+XGBoost_jll = "1.5.2-1"
+
+["1.5-2"]
+julia = "1.6.0-1"
+
+["1.5-2.4"]
+Statistics = "1.6.0-1"
+
+[2]
+AbstractTrees = "0.4"
+JSON3 = "1"
+OrderedCollections = "1"
+Tables = "1"
+
+["2-2.2.4"]
+Term = "1"
+
+["2-2.4.0"]
+CEnum = "0.4"
+
+["2.0"]
+XGBoost_jll = "1.5.2-1"
+
+["2.1"]
+XGBoost_jll = "1.7.0-1"
+
+["2.1-2"]
+SparseMatricesCSR = "0.6"
+
+["2.2-2.2.3"]
+CUDA = "3"
+
+["2.2-2.3"]
+XGBoost_jll = "1.7.2-1"
+
+["2.2.4-2.3"]
+CUDA = "3-4"
+
+["2.2.5-2"]
+Term = "1-2"
+
+["2.4-2"]
+CUDA = "3-5"
+XGBoost_jll = "2"
+
+["2.4.1-2"]
+CEnum = "0.4-0.5"

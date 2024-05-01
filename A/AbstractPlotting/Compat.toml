@@ -1,22 +1,23 @@
 ["0-0.9.0"]
-GeometryTypes = "0.4.5 - 0.7"
-Reactive = "0.0.0 - 0.8"
+GeometryTypes = "0.4.5-0.7"
+Reactive = "0.0.0-0.8"
 
 ["0-0.9.10"]
-ColorBrewer = "0.0.0 - 0.4"
-ColorTypes = "0.0.0 - 0.8"
-Colors = "0.0.0 - 0.9"
-IntervalSets = "0.0.0 - 0.3"
-Packing = "0.0.0 - 0.3"
-PlotUtils = "0.0.0 - 0.6"
-Showoff = "0.0.0 - 0.3"
-SignedDistanceFields = "0.0.0 - 0.4"
-StaticArrays = "0.0.0 - 0.12"
-UnicodeFun = "0.0.0 - 0.4"
+ColorBrewer = "0.0.0-0.4"
+ColorTypes = "0.0.0-0.8"
+Colors = "0.0.0-0.9"
+IntervalSets = "0.0.0-0.3"
+Packing = "0.0.0-0.3"
+PlotUtils = "0.0.0-0.6"
+Showoff = "0.0.0-0.3"
+SignedDistanceFields = "0.0.0-0.4"
+StaticArrays = "0.0.0-0.12"
+UnicodeFun = "0.0.0-0.4"
 
 ["0-0.9.7"]
 FreeType = "1-2"
-FreeTypeAbstraction = "0.0.0 - 0.4"
+FreeTypeAbstraction = "0.0.0-0.4"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.10-0.10.4"]
@@ -94,6 +95,7 @@ GridLayoutBase = "0.3.4-0.3"
 GeometryBasics = "0.2.6-0.3"
 
 ["0.13-0"]
+Statistics = "1.3.0-1"
 julia = "1.3.0-1"
 
 ["0.13.10-0"]
@@ -136,30 +138,25 @@ Distributions = "0.17-0.25"
 StatsFuns = "0.9"
 
 ["0.9.1-0.9.10"]
-Contour = "0.0.0 - 0.5"
-GeometryTypes = "0.7.2 - 0.7"
+Contour = "0.0.0-0.5"
+
+["0.9.1-0.9.22"]
+GeometryTypes = "0.7.2-0.7"
 
 ["0.9.1-0.9.7"]
 FileIO = "0-1"
 FixedPointNumbers = "0-0.5"
-Observables = "0.0.0 - 0.2"
-
-["0.9.10"]
-julia = "1.0.0-1"
+Observables = "0.0.0-0.2"
 
 ["0.9.11-0"]
 ColorBrewer = "0.4"
 Contour = "0.5"
-DocStringExtensions = "0.8"
 FileIO = "1.1.0-1"
 SignedDistanceFields = "0.4"
 UnicodeFun = "0.4"
 
 ["0.9.11-0.10.0"]
 ImageMagick = ["0.7", "1"]
-
-["0.9.11-0.12"]
-julia = "1"
 
 ["0.9.11-0.13.9"]
 StaticArrays = "0.12"
@@ -183,15 +180,10 @@ PlotUtils = "0.6"
 
 ["0.9.11-0.9.17"]
 FreeType = "2.1.0-2"
-FreeTypeAbstraction = "0.4.2-0.4"
 IntervalSets = "0.3"
 
 ["0.9.11-0.9.21"]
 FFMPEG = "0.2"
-Observables = "0.2"
-
-["0.9.11-0.9.22"]
-GeometryTypes = "0.7.2-0.7"
 
 ["0.9.14-0"]
 ColorSchemes = "3.5.0-3"
@@ -222,7 +214,7 @@ FreeType = "2.1.0-3"
 FreeTypeAbstraction = "0.4.2-0.5"
 
 ["0.9.2-0.9.7"]
-ImageMagick = "0.0.0 - 0.7"
+ImageMagick = "0.0.0-0.7"
 
 ["0.9.22"]
 Observables = "0.3"
@@ -248,18 +240,25 @@ Colors = "0.9-0.12"
 ["0.9.27-0.18.0"]
 ColorTypes = "0.8-0.10"
 
-["0.9.8-0.9.10"]
-FileIO = "0.0.0 - 1"
-FixedPointNumbers = "0.0.0 - 0.6"
-FreeType = "0.0.0 - 2"
-FreeTypeAbstraction = "0.4.2 - 0.4"
-ImageMagick = "0.0.0 - 1"
-Observables = "0.2.0 - 0.2"
-StructArrays = "0.3.0 - 0.4"
-
-["0.9.8-0.9.9"]
+["0.9.8-0.12"]
+Statistics = "1"
 julia = "1"
 
+["0.9.8-0.9.10"]
+FileIO = "0.0.0-1"
+FixedPointNumbers = "0.0.0-0.6"
+FreeType = "0.0.0-2"
+ImageMagick = "0.0.0-1"
+StructArrays = "0.3.0-0.4"
+
+["0.9.8-0.9.17"]
+FreeTypeAbstraction = "0.4.2-0.4"
+
+["0.9.8-0.9.21"]
+Observables = "0.2"
+
+["0.9.9-0"]
+DocStringExtensions = "0.8"
+
 ["0.9.9-0.9.10"]
-DocStringExtensions = "0.8.0 - 0.8"
-FFMPEG = "0.0.0 - 0.2"
+FFMPEG = "0.0.0-0.2"

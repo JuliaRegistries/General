@@ -1,13 +1,32 @@
 [0]
-CSV = "0.9"
-Coverage = "1"
 DataFrames = "1"
-PrettyTables = "1"
 julia = "1.6.0-1"
+
+["0-0.1.2"]
+CSV = "0.9"
+PrettyTables = "1"
+
+["0-0.1.3"]
+Coverage = "1"
 
 ["0.1.1-0"]
 BenchmarkTools = "1"
 OrderedCollections = "1"
 PGFPlotsX = "1"
 Plots = "1"
+
+["0.1.1-0.1.2"]
 StatsPlots = "0.14"
+
+["0.1.3"]
+PrettyTables = "2"
+
+["0.1.3-0"]
+CSV = "0.10"
+StatsPlots = "0.15"
+
+["0.1.4-0"]
+CoverageTools = "1"
+Pkg = "1"
+Term = "2"
+TypedTables = "1"

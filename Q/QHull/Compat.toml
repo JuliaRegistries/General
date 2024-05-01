@@ -1,22 +1,23 @@
 ["0-0.1"]
-StaticArrays = "0.0.0 - 0.12"
+StaticArrays = "0.0.0-0.12"
 
 ["0.0"]
 Polyhedra = "0.4.2-0.4"
 PyCall = "0-1"
-RecipesBase = "0.0.0 - 0.8"
+RecipesBase = "0.0.0-0.8"
 julia = ["0.7", "1"]
+
+["0.1"]
+Polyhedra = "0.5"
 
 ["0.1-0"]
 julia = "1"
 
 ["0.1.0"]
-Polyhedra = "0.5.0 - 0.5"
 PyCall = "1.90-1"
 
 ["0.1.1-0.1"]
-Polyhedra = "0.5"
-PyCall = "1.90.0 - 1"
+PyCall = "1.90.0-1"
 
 ["0.2-0"]
 PyCall = "1.91.0-1"
@@ -30,6 +31,11 @@ Polyhedra = "0.6"
 ["0.2.1"]
 Polyhedra = "0.6.5-0.6"
 
-["0.2.2-0"]
+["0.2.2"]
 Polyhedra = "0.6.8-0.6"
+
+["0.2.2-0"]
 StaticArrays = ["0.12", "1"]
+
+["0.2.3-0"]
+Polyhedra = "0.6.8-0.7"

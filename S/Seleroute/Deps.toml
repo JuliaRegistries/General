@@ -6,10 +6,18 @@ DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Fontconfig = "186bb1d3-e1f7-5a2c-a377-96d770f13627"
 GraphPlot = "a2cc645c-3eea-5389-862e-a155d0052231"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MetaGraphs = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.1"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
+["0.2-0"]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+
+["0.2.4-0"]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"

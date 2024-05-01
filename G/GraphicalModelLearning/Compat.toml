@@ -3,15 +3,16 @@ JuMP = "0.17-0.18"
 
 ["0.0"]
 Compat = "1-2"
-Ipopt = "0.0.0 - 0.5"
-MathProgBase = "0.0.0 - 0.7"
-StatsBase = "0.0.0 - 0.30"
+Ipopt = "0.0.0-0.5"
+MathProgBase = "0.0.0-0.7"
+StatsBase = "0.0.0-0.30"
 julia = "0.6-1"
 
 ["0.1"]
 MathProgBase = "0.7"
 
 ["0.1-0"]
+Statistics = "1"
 julia = "1"
 
 ["0.1-0.2.0"]
@@ -21,7 +22,12 @@ StatsBase = "0.25-0.30"
 ["0.2.0"]
 JuMP = "0.19"
 
-["0.2.1-0"]
+["0.2.1"]
 Ipopt = "0.4-0.6"
 JuMP = "0.19-0.21"
 StatsBase = "0.25-0.32"
+
+["0.2.2-0"]
+Ipopt = ["0.4-0.9", "1"]
+JuMP = ["0.21-0.23", "1"]
+StatsBase = "0.25-0.33"

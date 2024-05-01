@@ -1,12 +1,25 @@
 [0]
-Clustering = "0.14.2-0.14"
-Combinatorics = "1.0.2-1"
-DSP = "0.6.8-0.6"
+DelimitedFiles = "1.5.0-1"
 Dierckx = "0.4.2-0.4"
 FFTW = "1.2.4-1"
-GroupSlices = "0.0.3"
 HTTP = "0.8.19-0.8"
 Plots = "1.10.3-1"
+Statistics = "1.5.0-1"
 StatsBase = "0.33.2-0.33"
 StatsFuns = "0.9.6-0.9"
 julia = "1.5.0-1"
+
+[0-2]
+Clustering = "0.14.2-0.14"
+Combinatorics = "1.0.2-1"
+DSP = "0.6.8-0.6"
+GroupSlices = "0.0.3"
+
+[1-2]
+DataInterpolations = "4.6.0-4"
+FFTW = "1.8.0-1"
+HTTP = "0.9.17-0.9"
+Plots = "1.39.0-1"
+StatsBase = "0.33.21-0.33"
+StatsFuns = "0.9.7-0.9"
+julia = "1.8.4-1"

@@ -1,9 +1,18 @@
 [0]
-Documenter = "0.23"
 DocumenterTools = "0.1"
 FFTW = "1"
+SeisMain = "0.1"
+Statistics = "1"
+julia = "1"
+
+["0-0.1.0"]
+Documenter = "0.23"
 PyCall = "1.91.2-1"
 PyPlot = "2.8.2-2"
 Requires = "0.5.2-0.5"
-SeisMain = "0.1"
-julia = "1"
+
+["0.1.1-0"]
+Conda = "1"
+Documenter = "0.27"
+PyCall = "1"
+PyPlot = "2"

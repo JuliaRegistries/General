@@ -1,8 +1,10 @@
 ["0-0.1"]
 Knet = "1.0.1-1"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.2-0"]
+Statistics = "1"
 julia = "1"
 
 ["0.2-0.3"]
@@ -20,6 +22,7 @@ ZipFile = "0.3-0.9"
 ["0.3-0"]
 ArgParse = "1"
 CodecZlib = "0.7"
+DelimitedFiles = "1"
 InternedStrings = "0.7"
 LightXML = "0.9"
 NPZ = "0.4"

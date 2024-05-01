@@ -1,0 +1,28 @@
+[2]
+DiffEqBase = "6.100.0-6"
+Distributions = "0.23-0.25"
+KernelDensity = "0.6"
+Parameters = "0.12"
+Reexport = ["0.2", "1"]
+StaticArrays = "1"
+Zygote = "0.6"
+julia = "1.6.0-1"
+
+["2-2.1"]
+Integrals = "3.1.0-3"
+RecursiveArrayTools = "2"
+Statistics = "1.6.0-1"
+
+["2.1"]
+SciMLBase = "1-2"
+
+["2.1-2"]
+DiffEqNoiseProcess = "5"
+
+["2.2-2"]
+Integrals = "4.4.0-4"
+LinearAlgebra = "1"
+Random = "1"
+RecursiveArrayTools = "2-3"
+SciMLBase = "2"
+Statistics = "1"

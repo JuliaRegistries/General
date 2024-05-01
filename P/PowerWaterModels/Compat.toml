@@ -1,4 +1,4 @@
-[0]
+["0-0.2"]
 julia = "1"
 
 ["0.0"]
@@ -13,8 +13,15 @@ WaterModels = "0.3"
 PowerModelsDistribution = "0.9"
 WaterModels = "0.6"
 
-["0.2-0"]
+["0.2"]
 InfrastructureModels = "0.6"
 PowerModels = "0.18"
 PowerModelsDistribution = "0.11"
 WaterModels = "0.8"
+
+["0.3-0"]
+InfrastructureModels = "0.7"
+PowerModels = "0.19"
+PowerModelsDistribution = "0.14"
+WaterModels = "0.9"
+julia = "1.6-1"

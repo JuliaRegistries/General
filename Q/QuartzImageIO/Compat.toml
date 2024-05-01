@@ -7,16 +7,13 @@ FixedPointNumbers = "0.3-0.5"
 ImageCore = "0.7"
 
 ["0-0.6"]
-ColorTypes = "0.3.0 - 0.9"
+ColorTypes = "0.3.0-0.9"
 julia = ["0.7", "1"]
 
 ["0.6"]
-ColorVectorSpace = "0.2.0 - 0.8"
-FixedPointNumbers = "0.3.0 - 0.7"
-ImageCore = "0.7.0 - 0.8"
-
-["0.7-0"]
-julia = "1"
+ColorVectorSpace = "0.2.0-0.8"
+FixedPointNumbers = "0.3.0-0.7"
+ImageCore = "0.7.0-0.8"
 
 ["0.7-0.7.1"]
 FixedPointNumbers = "0.6.1-0.7"
@@ -24,6 +21,9 @@ ImageCore = "0.7-0.8"
 
 ["0.7-0.7.3"]
 ColorVectorSpace = "0.8"
+
+["0.7-0.7.4"]
+julia = "1"
 
 ["0.7.0"]
 ColorTypes = "0.9"
@@ -34,5 +34,9 @@ ColorTypes = "0.9-0.10"
 ["0.7.2-0.7.3"]
 ImageCore = "0.8.1-0.8"
 
-["0.7.4-0"]
+["0.7.4"]
 ImageCore = "0.9"
+
+["0.7.5-0"]
+ImageCore = "0.10"
+julia = "1.6.0-1"

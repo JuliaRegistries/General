@@ -1,11 +1,19 @@
 [1]
-Compat = "2.1.0-3"
 ProxyInterfaces = "1"
 SimpleMatch = "1"
+
+["1-1.1"]
 StructEquality = "1"
+
+["1-1.2.0"]
+Compat = "2.1.0-3"
 
 ["1.0"]
 julia = "1"
 
-["1.1-1"]
+["1.1"]
 julia = "1.1.0-1"
+
+["1.2-1"]
+StructEquality = "2"
+julia = "1.6.0-1"

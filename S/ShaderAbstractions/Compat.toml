@@ -1,19 +1,18 @@
+[0]
+julia = "1"
+
 ["0-0.1.0"]
-ColorTypes = "0.0.0 - 0.9"
-FixedPointNumbers = "0.0.0 - 0.7"
-GeometryBasics = "0.0.0 - 0.1"
-GeometryTypes = "0.0.0 - 0.7"
-Observables = "0.0.0 - 0.2"
-StaticArrays = "0.0.0 - 0.12"
-StructArrays = "0.0.0 - 0.4"
-Tables = "0.0.0 - 0.2"
-julia = "1.0.0-1"
+ColorTypes = "0.0.0-0.9"
+FixedPointNumbers = "0.0.0-0.7"
+GeometryBasics = "0.0.0-0.1"
+GeometryTypes = "0.0.0-0.7"
+Observables = "0.0.0-0.2"
+StaticArrays = "0.0.0-0.12"
+StructArrays = "0.0.0-0.4"
+Tables = "0.0.0-0.2"
 
 ["0.1.1"]
 Tables = "0.2"
-
-["0.1.1-0"]
-julia = "1"
 
 ["0.1.1-0.1"]
 ColorTypes = "0.8-0.9"
@@ -57,11 +56,11 @@ GeometryBasics = "0.2-0.3"
 ["0.2.4-0"]
 StaticArrays = ["0.11-0.12", "1"]
 
-["0.2.5-0"]
-Observables = "0.2-0.4"
-
 ["0.2.5-0.2.6"]
 StructArrays = "0.3-0.5"
+
+["0.2.5-0.2.8"]
+Observables = "0.2-0.4"
 
 ["0.2.6-0"]
 ColorTypes = "0.8-0.11"
@@ -71,3 +70,6 @@ StructArrays = "0.3-0.6"
 
 ["0.2.8-0"]
 GeometryBasics = "0.4.1-0.4"
+
+["0.2.9-0"]
+Observables = "0.2-0.5"

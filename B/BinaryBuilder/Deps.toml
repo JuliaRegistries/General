@@ -8,7 +8,6 @@ Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 ObjectFile = "d8793406-e978-5875-9003-1fc021f44a92"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 PkgLicenses = "fc669557-7ec9-5e45-bca9-462afbc28879"
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
@@ -25,6 +24,9 @@ InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 ["0-0.2.5"]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
+
+["0-0.5.3"]
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
 ["0.2-0"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -50,3 +52,6 @@ OutputCollectors = "6c11c7d4-943b-4e2b-80de-f2cfc2930a8c"
 ["0.3-0"]
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+
+["0.5.3-0"]
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"

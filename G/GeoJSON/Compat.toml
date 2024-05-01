@@ -1,14 +1,45 @@
 ["0-0.4"]
-GeoInterface = "0.4.0 - 0.5"
-JSON = "0.19.0 - 0.21"
+GeoInterface = "0.4.0-0.5"
+JSON = "0.19.0-0.21"
 julia = ["0.7", "1"]
 
-["0.5-0"]
+["0.5"]
 GeoInterface = "0.4-0.5"
 julia = "1"
 
 ["0.5.0"]
 JSON3 = "0.1.5-0.1"
 
-["0.5.1-0"]
+["0.5.1-0.5"]
 JSON3 = ["0.1.5-0.1", "1"]
+
+["0.6"]
+GeoInterface = "1"
+
+["0.6-0"]
+Extents = "0.1"
+GeoFormatTypes = "0.4"
+Tables = "1"
+
+["0.6-0.6.1"]
+JSON3 = "1"
+
+["0.6-0.7"]
+julia = "1.6.0-1"
+
+["0.6.1-0"]
+GeoInterfaceRecipes = "1"
+
+["0.6.2-0.7.2"]
+JSON3 = "1.12.0-1"
+
+["0.7-0"]
+GeoInterface = "1.2.1-1"
+StructTypes = "1"
+
+["0.7.3-0"]
+JSON3 = "1.13.0-1"
+
+["0.8-0"]
+GeoInterfaceMakie = "0.1"
+julia = "1.9.0-1"

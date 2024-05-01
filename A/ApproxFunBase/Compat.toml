@@ -1,42 +1,51 @@
 ["0-0.0.1"]
-RecipesBase = "0.5.0 - 0.8"
+RecipesBase = "0.5.0-0.8"
 
 ["0-0.0.3"]
-DualNumbers = "0.4.0 - 0.6"
+DualNumbers = "0.4.0-0.6"
 FillArrays = "0.5"
 LazyArrays = "0.7.1-0.7"
 
 ["0-0.0.4"]
-DomainSets = "0.0.0 - 0.0.2"
+DomainSets = "0.0.0-0.0.2"
 
 ["0-0.1.0"]
 BlockArrays = "0.8"
 BlockBandedMatrices = "0.4"
 
 ["0-0.1.3"]
-AbstractFFTs = "0.3.1 - 0.4"
+AbstractFFTs = "0.3.1-0.4"
 BandedMatrices = "0.9"
-Calculus = "0.1.15 - 0.5"
-DSP = "0.5.1 - 0.6"
-FFTW = "0.2.4 - 0.3"
-FastGaussQuadrature = "0.3.2 - 0.3"
-FastTransforms = "0.4.2 - 0.5"
-IntervalSets = "0.3.1 - 0.3"
-SpecialFunctions = "0.7.0 - 0.7"
-StaticArrays = "0.8.3 - 0.11"
-ToeplitzMatrices = "0.4.0 - 0.5"
+Calculus = "0.1.15-0.5"
+DSP = "0.5.1-0.6"
+FFTW = "0.2.4-0.3"
+FastTransforms = "0.4.2-0.5"
+StaticArrays = "0.8.3-0.11"
+Statistics = ["0.7", "1"]
+ToeplitzMatrices = "0.4.0-0.5"
 julia = ["0.7", "1"]
+
+["0-0.1.4"]
+FastGaussQuadrature = "0.3.2-0.3"
+
+["0-0.1.5"]
+SpecialFunctions = "0.7"
+
+["0-0.3.2"]
+IntervalSets = "0.3.1-0.3"
 
 ["0.0"]
 InfiniteArrays = "0.0.3"
 LowRankApprox = "0.1.4-0.1"
 
 ["0.0.4-0.1.1"]
-DualNumbers = "0.6.2 - 0.6"
 LazyArrays = "0.8"
 
 ["0.0.4-0.1.3"]
-FillArrays = "0.5.0 - 0.6"
+FillArrays = "0.5.0-0.6"
+
+["0.0.4-0.9.24"]
+DualNumbers = "0.6.2-0.6"
 
 ["0.0.5-0.1.2"]
 DomainSets = "0.0.2"
@@ -51,9 +60,6 @@ InfiniteArrays = "0.1"
 BlockArrays = "0.9"
 BlockBandedMatrices = "0.4.3-0.4"
 
-["0.1.2-0"]
-DualNumbers = "0.6.2-0.6"
-
 ["0.1.2-0.1.3"]
 LazyArrays = "0.8-0.9"
 
@@ -61,7 +67,6 @@ LazyArrays = "0.8-0.9"
 DomainSets = ["0.0.2", "0.1"]
 
 ["0.1.4"]
-FastGaussQuadrature = "0.3.2-0.3"
 FastTransforms = "0.5"
 FillArrays = "0.6"
 LazyArrays = "0.8-0.10"
@@ -75,9 +80,9 @@ FFTW = "0.3"
 
 ["0.1.4-0.1.5"]
 BandedMatrices = "0.9-0.10"
-SpecialFunctions = "0.7"
 
 ["0.1.4-0.2"]
+Statistics = "1"
 julia = "1"
 
 ["0.1.4-0.2.1"]
@@ -87,7 +92,6 @@ StaticArrays = "0.9-0.11"
 
 ["0.1.4-0.3.2"]
 DomainSets = "0.1"
-IntervalSets = "0.3.1-0.3"
 
 ["0.1.5"]
 InfiniteArrays = "0.1-0.2"
@@ -113,11 +117,11 @@ BlockArrays = "0.9-0.10"
 BlockBandedMatrices = "0.5"
 SpecialFunctions = "0.7-0.8"
 
-["0.2-0"]
-FFTW = ["0.3", "1"]
-
 ["0.2-0.2.1"]
 LowRankApprox = "0.2-0.3"
+
+["0.2-0.9.24"]
+FFTW = ["0.3", "1"]
 
 ["0.2.0"]
 BandedMatrices = "0.11-0.12"
@@ -134,9 +138,6 @@ LazyArrays = "0.11-0.13"
 InfiniteArrays = "0.4"
 LowRankApprox = "0.3-0.4"
 SpecialFunctions = "0.8"
-
-["0.2.2-0"]
-FastGaussQuadrature = "0.4"
 
 ["0.2.2-0.2"]
 BlockArrays = "0.10"
@@ -161,6 +162,9 @@ FillArrays = "0.8"
 DSP = "0.6"
 ToeplitzMatrices = "0.6"
 
+["0.2.2-0.6"]
+FastGaussQuadrature = "0.4"
+
 ["0.2.3-0.2"]
 InfiniteArrays = "0.4-0.5"
 
@@ -171,6 +175,7 @@ SpecialFunctions = "0.8-0.9"
 LowRankApprox = "0.2-0.4"
 
 ["0.3"]
+Statistics = "1.3.0-1"
 julia = "1.3.0-1"
 
 ["0.3-0.3.2"]
@@ -188,11 +193,11 @@ LazyArrays = "0.14-0.19"
 ["0.3.11"]
 BlockArrays = "0.12.11-0.13"
 
-["0.3.11-0"]
-StaticArrays = ["0.12", "1"]
-
 ["0.3.11-0.3"]
 SpecialFunctions = ["0.8-0.10", "1"]
+
+["0.3.11-0.9.24"]
+StaticArrays = ["0.12", "1"]
 
 ["0.3.12-0.3"]
 AbstractFFTs = ["0.4-0.5", "1"]
@@ -219,11 +224,11 @@ BlockBandedMatrices = "0.7-0.8"
 InfiniteArrays = "0.4-0.7"
 LazyArrays = "0.14-0.16"
 
-["0.3.4-0"]
-IntervalSets = "0.5"
-
 ["0.3.4-0.3.5"]
 DomainSets = "0.3"
+
+["0.3.4-0.5.5"]
+IntervalSets = "0.5"
 
 ["0.3.6"]
 LazyArrays = "0.14-0.17"
@@ -253,9 +258,6 @@ InfiniteArrays = "0.10"
 
 ["0.4-0"]
 AbstractFFTs = ["0.5", "1"]
-BandedMatrices = "0.16"
-SpecialFunctions = ["0.10", "1"]
-julia = "1.5.0-1"
 
 ["0.4-0.4.1"]
 LazyArrays = "0.20"
@@ -266,32 +268,132 @@ BlockArrays = "0.14"
 ["0.4-0.5.1"]
 BlockBandedMatrices = "0.10"
 
+["0.4-0.5.3"]
+SpecialFunctions = ["0.10", "1"]
+
+["0.4-0.5.4"]
+BandedMatrices = "0.16"
+
+["0.4-0.7.22"]
+Statistics = "1.5.0-1"
+julia = "1.5.0-1"
+
 ["0.4.2-0.5.2"]
 LazyArrays = "0.20-0.21"
 
 ["0.4.3-0.4"]
 BlockArrays = "0.14-0.15"
 
-["0.5-0"]
-BlockArrays = "0.14-0.16"
-DSP = "0.6-0.7"
-DomainSets = "0.5"
-FillArrays = "0.11-0.12"
-LowRankApprox = "0.2-0.5"
-ToeplitzMatrices = "0.6-0.7"
-
 ["0.5-0.5.1"]
 InfiniteLinearAlgebra = "0.5"
+
+["0.5-0.5.4"]
+FillArrays = "0.11-0.12"
+
+["0.5-0.6"]
+ToeplitzMatrices = "0.6-0.7"
+
+["0.5-0.7.44"]
+DomainSets = "0.5"
+
+["0.5-0.8.45"]
+LowRankApprox = "0.2-0.5"
+
+["0.5-0.9.24"]
+BlockArrays = "0.14-0.16"
+DSP = "0.6-0.7"
 
 ["0.5.0"]
 InfiniteArrays = "0.11"
 
-["0.5.1-0"]
+["0.5.1-0.8.44"]
 InfiniteArrays = "0.11-0.12"
 
-["0.5.2-0"]
-BlockBandedMatrices = "0.10-0.11"
+["0.5.2-0.8"]
 InfiniteLinearAlgebra = "0.5-0.6"
 
-["0.5.3-0"]
+["0.5.2-0.8.7"]
+BlockBandedMatrices = "0.10-0.11"
+
+["0.5.3-0.8.7"]
 LazyArrays = "0.20-0.22"
+
+["0.5.4-0.9.24"]
+SpecialFunctions = ["0.10", "1-2"]
+
+["0.5.5-0.8.60"]
+BandedMatrices = "0.16-0.17"
+
+["0.5.5-0.8.7"]
+FillArrays = "0.11-0.13"
+
+["0.5.6"]
+IntervalSets = "0.5-0.6"
+
+["0.5.7-0.9.24"]
+IntervalSets = "0.5-0.7"
+
+["0.7.23-0.8"]
+julia = "1.6.0-1"
+
+["0.7.23-0.8.61"]
+Statistics = "1.6.0-1"
+
+["0.7.40-0"]
+Combinatorics = "1.0.2-1"
+
+["0.7.45-0.9.17"]
+DomainSets = "0.5-0.6"
+
+["0.8.35-0.8.37"]
+SimpleTraits = "0.9"
+
+["0.8.45-0.8"]
+InfiniteArrays = "0.11-0.13"
+
+["0.8.46-0"]
+LowRankMatrices = "1"
+
+["0.8.61-0.8"]
+BandedMatrices = ["0.16-0.17", "1"]
+
+["0.8.8-0.9.22"]
+FillArrays = ["0.11-0.13", "1"]
+
+["0.8.8-0.9.24"]
+BlockBandedMatrices = "0.10-0.12"
+LazyArrays = ["0.20-0.22", "1"]
+
+["0.9-0"]
+InfiniteArrays = "0.13"
+Statistics = "1.9.0-1"
+julia = "1.9.0-1"
+
+["0.9-0.9.16"]
+BandedMatrices = "0.16-0.17"
+
+["0.9.17-0.9.24"]
+BandedMatrices = ["0.16-0.17", "1"]
+
+["0.9.18-0.9.24"]
+DomainSets = "0.5-0.7"
+
+["0.9.19-0"]
+LinearAlgebra = "1.9.0-1"
+SparseArrays = "1.9.0-1"
+
+["0.9.23-0"]
+FillArrays = "1"
+
+["0.9.25-0"]
+BandedMatrices = ["0.17.18-0.17", "1"]
+BlockArrays = "0.16.26-0.16"
+BlockBandedMatrices = "0.12"
+DSP = "0.7.4-0.7"
+DomainSets = "0.6-0.7"
+DualNumbers = "0.6.6-0.6"
+FFTW = "1.1.0-1"
+IntervalSets = "0.7.4-0.7"
+LazyArrays = "1"
+SpecialFunctions = "2"
+StaticArrays = "1.3.0-1"

@@ -3,18 +3,15 @@ DiffEqBase = "3-5"
 DiffEqCallbacks = "0-2"
 FileIO = "0-1"
 OrdinaryDiffEq = "3-5"
-RecipesBase = "0.0.0 - 0.7"
-RecursiveArrayTools = "0.0.0 - 0.20"
-Reexport = "0.0.0 - 0.2"
-StaticArrays = "0.0.0 - 0.12"
+RecipesBase = "0.0.0-0.7"
+RecursiveArrayTools = "0.0.0-0.20"
+Reexport = "0.0.0-0.2"
+StaticArrays = "0.0.0-0.12"
 julia = ["0.7", "1"]
 
 [1]
-DiffEqBase = "6"
 DiffEqCallbacks = "2.9.0-2"
 FileIO = "1"
-OrdinaryDiffEq = "5"
-julia = "1"
 
 ["1-1.1"]
 RecipesBase = "0.7"
@@ -25,11 +22,21 @@ Reexport = "0.2"
 ["1-1.5"]
 StaticArrays = "0.10-0.12"
 
+["1-1.6"]
+OrdinaryDiffEq = "5"
+julia = "1"
+
+["1-1.9"]
+DiffEqBase = "6"
+
 ["1.0"]
 RecursiveArrayTools = "1"
 
 ["1.1-1"]
 RecursiveArrayTools = "2"
+
+["1.10-1"]
+DiffEqBase = "6.122.0-6"
 
 ["1.2"]
 RecipesBase = "0.7-0.8"
@@ -43,5 +50,12 @@ Reexport = ["0.2", "1"]
 ["1.6-1"]
 StaticArrays = ["0.10-0.12", "1"]
 
-["1.6.1-1"]
+["1.6.1-1.7"]
 DocStringExtensions = "0.8"
+
+["1.7-1"]
+OrdinaryDiffEq = "5-6"
+julia = "1.6.0-1"
+
+["1.8-1"]
+DocStringExtensions = "0.8-0.9"

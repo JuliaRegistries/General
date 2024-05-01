@@ -1,4 +1,13 @@
 [0]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
+
+["0-0.3.0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.3-0"]
+TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
+VectorInterface = "409d34a3-91d5-4945-b6ec-7529ddf182d8"
+
+["0.3.1-0"]
+PackageExtensionCompat = "65ce6f38-6b18-4e1d-a461-8949797d7930"

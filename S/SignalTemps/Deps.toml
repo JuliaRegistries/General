@@ -3,10 +3,15 @@ CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MetaGraphs = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
 Query = "1a8c2f83-1ff3-5112-b086-8aa67b057ba1"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 UMAP = "c4f8c510-2410-5be4-91d7-4fbaeb39457e"
+
+["0-0.3.0"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
+["0.3.1-0"]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"

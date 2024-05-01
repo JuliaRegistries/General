@@ -1,14 +1,30 @@
 ["0-1.1.0"]
-ForwardDiff = "0.0.0 - 0.10"
+ForwardDiff = "0.0.0-0.10"
 SIMD = "0-2"
 julia = ["0.7", "1"]
 
+["1-1.1.0"]
+Statistics = ["0.7", "1"]
+
 ["1.1.1-1"]
 ForwardDiff = "0.10"
+Statistics = "1"
 julia = "1"
 
 ["1.1.1-1.4.2"]
 SIMD = "2"
+
+["1.11-1"]
+StaticArrays = "1"
+
+["1.13.1-1.13"]
+SnoopPrecompile = "1"
+
+["1.14-1"]
+PrecompileTools = "1"
+
+["1.16.1-1"]
+LinearAlgebra = "1"
 
 ["1.4.3-1"]
 SIMD = "2-3"

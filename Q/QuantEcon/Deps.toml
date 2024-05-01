@@ -1,7 +1,6 @@
 [0]
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 Primes = "27ebfcd6-29c5-5fa9-bf4b-fb8fc14df3ae"
@@ -10,6 +9,9 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 ["0-0.14"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Nullables = "4d1e1d77-625e-5b40-9113-a560ec7a8ecd"
+
+["0-0.16.3"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 
 ["0.15-0"]
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
@@ -24,3 +26,6 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0.16-0"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+
+["0.16.4-0"]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"

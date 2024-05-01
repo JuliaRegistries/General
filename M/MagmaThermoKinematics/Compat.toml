@@ -1,0 +1,48 @@
+[0]
+JLD2 = "0.4"
+MAT = "0.10"
+Parameters = "0.12"
+Plots = "1"
+Reexport = "1"
+StaticArrays = "1.4.0-1"
+StructArrays = "0.6"
+TimerOutputs = "0.5"
+WriteVTK = "1.14.0-1"
+
+["0-0.4.0"]
+GeoParams = "0.3"
+
+["0-0.4.1"]
+CUDA = "3.9.0-3"
+CairoMakie = "0.7"
+GLMakie = "0.5"
+Interpolations = "0.13"
+ParallelStencil = "0.6"
+Statistics = "1.5.0-1"
+julia = "1.5.0-1"
+
+["0.4.1"]
+GeoParams = "0.3.8-0.3"
+
+["0.4.2-0"]
+CUDA = "4-5"
+GeoParams = "0.5"
+julia = "1.9.0-1"
+
+["0.4.2-0.4"]
+CairoMakie = "0.8-0.10"
+GLMakie = "0.6-0.8"
+Interpolations = "0.13-0.14"
+ParallelStencil = "0.8-0.9"
+Statistics = "1.9.0-1"
+
+["0.5-0"]
+CairoMakie = "0.8-0.20"
+Interpolations = "0.13-0.15"
+ParallelStencil = "0.8-0.10"
+
+["0.5-0.5.1"]
+GeophysicalModelGenerator = "0.3-0.5"
+
+["0.5.2-0"]
+GeophysicalModelGenerator = "0.7"

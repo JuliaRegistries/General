@@ -2,20 +2,40 @@
 DataStructures = "0.17-0.18"
 DiffEqBase = "5-6"
 DiffEqSensitivity = "6"
-DiffResults = ["0.0", "1.0"]
 DocStringExtensions = "0.8"
 ElasticArrays = "1"
+Polynomials = "1.2"
+Requires = "1"
+Sundials = "3-4"
+
+["0-0.1"]
+DiffResults = ["0.0", "1.0"]
 ForwardDiff = "0.10"
 McCormick = "0.7-0.11"
-Polynomials = "1.2"
 Reexport = "0.2"
-Requires = "1"
 StaticArrays = ["0.6-0.12", "1"]
-Sundials = "3-4"
 julia = "1.6"
 
 ["0-0.1.0"]
 DynamicBoundsBase = "0.5.4-0.5"
 
-["0.1.1-0"]
+["0.1.1-0.1"]
 DynamicBoundsBase = "0.5.5-0.5"
+
+["0.2"]
+DynamicBoundsBase = "0.7"
+McCormick = "0.13"
+julia = "1.6-1.7"
+
+["0.2-0"]
+DiffResults = "1.0"
+ForwardDiff = "0.10.25-0.10"
+OrdinaryDiffEq = "6"
+Reexport = "1"
+StaticArrays = "1"
+
+["0.3-0"]
+DynamicBoundsBase = "0.7.1-0.7"
+McCormick = "0.13.2-0.13"
+UnPack = "1"
+julia = "1.6-1.8"

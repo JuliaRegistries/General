@@ -1,12 +1,39 @@
 [0]
 FITSIO = "525bcba6-941b-5504-bd06-fd0dc1a4d2eb"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
-ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
-Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
-Interact = "c601a237-2ae4-5e1e-952c-7a85b0c7eef1"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 WCS = "15f3aee2-9e10-537f-b834-a6fb8bdb944d"
 
+["0-0.2"]
+ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+Interact = "c601a237-2ae4-5e1e-952c-7a85b0c7eef1"
+
+["0.2"]
+Reproject = "d1dcc2e6-806e-11e9-2897-3f99785db2ae"
+
 ["0.2-0"]
 MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
-Reproject = "d1dcc2e6-806e-11e9-2897-3f99785db2ae"
+
+["0.3-0"]
+AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
+AstroAngles = "5c4adb95-c1fc-4c53-b4ea-2a94080c53d2"
+ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
+DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
+ImageAxes = "2803e5a7-5153-5ecf-9a86-9b4c37f5f5ac"
+ImageBase = "c817782e-172a-44cc-b673-b171935fbb9e"
+ImageShow = "4e3cecfd-b093-5904-9786-8bbb286a6a31"
+PlotUtils = "995b91a9-d308-5afd-9ec6-746e21dbc043"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+
+["0.3.1-0"]
+ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
+
+["0.3.3-0.4.0"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+
+["0.4.1-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

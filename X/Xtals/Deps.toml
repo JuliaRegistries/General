@@ -4,6 +4,8 @@ DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MetaGraphs = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+["0-0.3.10"]
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 
 ["0-0.3.7"]
@@ -11,11 +13,23 @@ LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 
 ["0.3-0"]
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
-Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
-UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
 ["0.3-0.3.1"]
 FIGlet = "3064a664-84fe-4d92-92c7-ed492f3d8fae"
+
+["0.3-0.4.1"]
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+
+["0.3-0.4.6"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+
+["0.3.11-0.4.10"]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+
+["0.3.12-0"]
+AtomsBase = "a963bdd2-2df7-4f54-a1ee-49d51e6be12a"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 ["0.3.2-0"]
 Bio3DView = "99c8bb3a-9d13-5280-9740-b4880ed9c598"
@@ -23,6 +37,14 @@ Bio3DView = "99c8bb3a-9d13-5280-9740-b4880ed9c598"
 ["0.3.8-0"]
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 
-["0.3.9-0"]
+["0.3.9-0.3.10"]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+["0.3.9-0.4.11"]
 FIGlet = "3064a664-84fe-4d92-92c7-ed492f3d8fae"
+
+["0.4.10-0"]
+PrecompileSignatures = "91cefc8d-f054-46dc-8f8c-26e11d7c5411"
+
+["0.4.11-0"]
+PeriodicTable = "7b2266bf-644c-5ea3-82d8-af4bbd25a884"

@@ -1,9 +1,7 @@
 [0]
-CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 WindowAbstractions = "e18202ca-4a7d-4de8-b056-fa6bbd7de157"
 Xorg_libxcb_jll = "c7cfdc94-dc32-55de-ac96-5a1b8d977c5b"
-xkbcommon_jll = "d8fb68d0-12a3-5cfd-a85a-d49703b185fd"
 
 ["0-0.2"]
 Xorg_xcb_util_keysyms_jll = "975044d2-76e6-5fbe-bf08-97ce7c6574c7"
@@ -11,9 +9,19 @@ Xorg_xcb_util_keysyms_jll = "975044d2-76e6-5fbe-bf08-97ce7c6574c7"
 ["0-0.3.1"]
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 
+["0-0.5"]
+CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
+xkbcommon_jll = "d8fb68d0-12a3-5cfd-a85a-d49703b185fd"
+
 ["0.3-0"]
 Xorg_xcb_util_jll = "2def613f-5ad1-5310-b15b-b15d46f528f5"
 
 ["0.3.2-0"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.3.2-0.5"]
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0.6-0"]
+BitMasks = "a3e06817-fd65-4797-8291-16f435bc2529"
+XKeyboard = "0c8a7d74-93ea-4f23-9ed1-b26578bfdfe6"

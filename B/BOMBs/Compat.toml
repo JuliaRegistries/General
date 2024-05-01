@@ -10,14 +10,20 @@ DifferentialEquations = "6.16.0-6"
 Distributions = "0.23"
 GaussianMixtures = "0.3"
 GaussianProcesses = "0.12"
-JLD = "0.10"
 ODEInterfaceDiffEq = "3.7.0-3"
 OrdinaryDiffEq = "5.41.0-5"
 Plots = "1.5.0-1"
 Roots = "1"
 ScikitLearn = "0.6"
 ScikitLearnBase = "0.5"
+Statistics = "1"
 StatsBase = "0.33"
 StatsPlots = "0.14"
 Sundials = "4.2.0-4"
 julia = "1"
+
+["0-0.2.1"]
+JLD = "0.10"
+
+["0.2.2-0"]
+JLD = "0.12"

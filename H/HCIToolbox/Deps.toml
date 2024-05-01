@@ -11,17 +11,19 @@ NMF = "6ef6ca0d-6ad7-5ff6-b225-e928bfa0a386"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 
 ["0.2-0"]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
-Photometry = "af68cb61-81ac-52ed-8703-edc140936be4"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 ["0.2-0.4"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.2-0.5"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
+Photometry = "af68cb61-81ac-52ed-8703-edc140936be4"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 ["0.3-0"]
 Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
@@ -30,6 +32,11 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 ["0.3.4-0"]
 PaddedViews = "5432bcbf-9aad-5242-b902-cca2824c8663"
 
+["0.5"]
+PSFModels = "9ba017d1-7760-46cd-84a3-1e79e9ae9ddc"
+
 ["0.5-0"]
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
-PSFModels = "9ba017d1-7760-46cd-84a3-1e79e9ae9ddc"
+
+["0.6.1-0"]
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"

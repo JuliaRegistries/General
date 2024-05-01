@@ -2,12 +2,31 @@
 CEnum = "0.4"
 Cassette = "0.3"
 Requires = "1"
-StaticArrays = "0.12"
 UnsafeArrays = "1"
-julia = "1.5.0-1"
 
 ["0-0.1.0"]
 libCEED_jll = "0.7"
 
-["0.1.1-0"]
+["0-0.1.1"]
+StaticArrays = "0.12"
+julia = "1.5.0-1"
+
+["0.1.1"]
 libCEED_jll = "0.8"
+
+["0.1.2-0"]
+JLLWrappers = "1"
+Preferences = "1"
+StaticArrays = "1"
+julia = "1.6.0-1"
+
+["0.1.2-0.1"]
+libCEED_jll = "0.10"
+
+["0.2"]
+libCEED_jll = "0.11"
+
+["0.3-0"]
+Libdl = ["0.0.0", "1"]
+LinearAlgebra = ["0.0.0", "1"]
+libCEED_jll = "0.12"

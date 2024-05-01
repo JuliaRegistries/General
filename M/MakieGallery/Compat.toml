@@ -1,73 +1,74 @@
 ["0-0.0.1"]
-AbstractPlotting = "0.0.0 - 0.9"
-GeometryTypes = "0.4.5 - 0.8"
-Makie = "0.0.0 - 0.11"
+AbstractPlotting = "0.0.0-0.9"
+GeometryTypes = "0.4.5-0.8"
+Makie = "0.0.0-0.11"
 
 ["0-0.0.7"]
 ColorVectorSpace = "0-0.6"
-DataFrames = "0.0.0 - 0.21"
+DataFrames = "0.0.0-0.21"
 FileIO = "0-1"
 FixedPointNumbers = "0-0.5"
-GDAL = "0.0.0 - 0.2"
+GDAL = "0.0.0-0.2"
 ImageCore = "0-0.7"
 ImageFiltering = "0-0.5"
-ImageMagick = "0.0.0 - 0.7"
-MeshIO = "0.0.0 - 0.4"
+ImageMagick = "0.0.0-0.7"
+MeshIO = "0.0.0-0.4"
 ModernGL = "0-1"
-QuartzImageIO = "0.0.0 - 0.7"
-RDatasets = "0.0.0 - 0.6"
+QuartzImageIO = "0.0.0-0.7"
+RDatasets = "0.0.0-0.6"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0-0.1.0"]
-BinaryProvider = "0.0.0 - 0.5"
-ColorTypes = "0.0.0 - 0.9"
-Colors = "0.0.0 - 0.11"
-Documenter = "0.0.0 - 0.24"
-ImageTransformations = "0.0.0 - 0.8"
+BinaryProvider = "0.0.0-0.5"
+ColorTypes = "0.0.0-0.9"
+Colors = "0.0.0-0.11"
+Documenter = "0.0.0-0.24"
+ImageTransformations = "0.0.0-0.8"
 
 ["0.0.2-0.0"]
-GeometryTypes = "0.7.2 - 0.8"
+GeometryTypes = "0.7.2-0.8"
 
-["0.0.2-0.1.0"]
-AbstractPlotting = "0.9.1 - 0.9"
+["0.0.2-0.1.1"]
+AbstractPlotting = "0.9.1-0.9"
 
 ["0.0.3-0.0.7"]
-StatsMakie = "0.0.0 - 0.2"
+StatsMakie = "0.0.0-0.2"
 
 ["0.0.4-0.0"]
-ZipFile = "0.0.0 - 0.9"
+ZipFile = "0.0.0-0.9"
 
 ["0.0.5-0.0.7"]
 ColorSchemes = "0-3"
 
+["0.0.8-0"]
+Statistics = "1"
+julia = "1"
+
 ["0.0.8-0.0"]
-ColorSchemes = "0.0.0 - 3"
-ColorVectorSpace = "0.0.0 - 0.8"
-DifferentialEquations = "0.0.0 - 6"
-Distributions = "0.0.0 - 0.23"
-ImageCore = "0.7.0 - 0.8"
-ImageMagick = "0.0.0 - 1"
-StatsMakie = "0.0.6 - 0.2"
+ColorSchemes = "0.0.0-3"
+ColorVectorSpace = "0.0.0-0.8"
+DifferentialEquations = "0.0.0-6"
+Distributions = "0.0.0-0.23"
+ImageCore = "0.7.0-0.8"
+ImageMagick = "0.0.0-1"
+StatsMakie = "0.0.6-0.2"
 
 ["0.0.8-0.1.0"]
-FileIO = "0.0.0 - 1"
-FixedPointNumbers = "0.0.0 - 0.7"
-ImageFiltering = "0.0.0 - 0.6"
-ModernGL = "0.0.0 - 1"
-OrdinaryDiffEq = "0.0.0 - 5"
-ParameterizedFunctions = "0.0.0 - 5"
-julia = "1.0.0-1"
+FileIO = "0.0.0-1"
+FixedPointNumbers = "0.0.0-0.7"
+ImageFiltering = "0.0.0-0.6"
+ModernGL = "0.0.0-1"
+OrdinaryDiffEq = "0.0.0-5"
+ParameterizedFunctions = "0.0.0-5"
 
 ["0.0.9-0.1.0"]
-FFMPEG = "0.0.0 - 0.2"
+FFMPEG = "0.0.0-0.2"
 
 ["0.1.0"]
-Highlights = "0.0.0 - 0.4"
-Observables = "0.0.0 - 0.3"
-RDatasets = "0.0.0 - 0.6"
-
-["0.1.1"]
-AbstractPlotting = "0.9.1-0.9"
+Highlights = "0.0.0-0.4"
+Observables = "0.0.0-0.3"
+RDatasets = "0.0.0-0.6"
 
 ["0.1.1-0"]
 FileIO = "1.1.0-1"
@@ -75,7 +76,6 @@ Highlights = "0.4"
 ImageFiltering = "0.6"
 ImageTransformations = "0.8"
 SyntaxTree = "1"
-julia = "1"
 
 ["0.1.1-0.1"]
 BinaryProvider = "0.3-0.5"
@@ -141,15 +141,15 @@ FixedPointNumbers = "0.6-0.8"
 HTTP = "0.8"
 ImageMagick = ["0.7", "1.1.0-1"]
 JSON = "0.21"
-KernelDensity = "0.0.0 - 0.5"
-MakieLayout = "0.0.0 - 0.5"
+KernelDensity = "0.0.0-0.5"
+MakieLayout = "0.0.0-0.5"
 PlotUtils = "0.6"
 
 ["0.1.4-0"]
 Observables = "0.3"
 
 ["0.1.4-0.1.7"]
-StatsMakie = "0.0.0 - 0.1"
+StatsMakie = "0.0.0-0.1"
 
 ["0.1.4-0.2.16"]
 FFMPEG = "0.2-0.3"

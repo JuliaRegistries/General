@@ -19,9 +19,39 @@ SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 
 ["0.4-0"]
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
-ModiaLang = "34b37210-eaa3-4b48-8781-0b87bf559981"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
+["0.4-0.7"]
+ModiaLang = "34b37210-eaa3-4b48-8781-0b87bf559981"
+
 ["0.5-0"]
-Modia3D = "07f2c1e0-90b0-56cf-bda7-b44b56e34eed"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
+["0.5-0.7"]
+Modia3D = "07f2c1e0-90b0-56cf-bda7-b44b56e34eed"
+
+["0.8"]
+ModiaResult = "16a87621-1533-42f6-8e19-4a825980cec2"
+
+["0.8-0"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
+ModiaBase = "ec7bf1ca-419d-4510-bbab-199861c55244"
+MonteCarloMeasurements = "0987c9cc-fe09-11e8-30f0-b96dd679fdca"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+RecursiveFactorization = "f2c3362d-daeb-58d1-803e-2bc74f2840b4"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
+TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+["0.9-0"]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+SignalTables = "3201582d-3078-4276-ba5d-0a1254d79d7c"
+
+["0.9.4-0"]
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"

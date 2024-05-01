@@ -1,16 +1,7 @@
 [0]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
-NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
-Optim = "429524aa-4258-5aef-a3af-852621145aeb"
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-Quadrature = "67601950-bd08-11e9-3c89-fd23fb4432d2"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
-TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
 
 ["0-0.1"]
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
@@ -18,8 +9,26 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.2-0"]
+["0-0.2"]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
+NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+Quadrature = "67601950-bd08-11e9-3c89-fd23fb4432d2"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
+
+["0.2"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 GalacticOptim = "a75be94c-b780-496d-a8a9-0878b188d577"
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["0.3-0"]
+DensityInterface = "b429d917-457f-4dbc-8f4c-0cc954292b1d"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.4-0"]
+StatsAPI = "82ae8749-77ed-4fe6-ae5f-f523153014b0"

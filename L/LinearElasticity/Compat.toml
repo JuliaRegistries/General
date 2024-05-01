@@ -4,11 +4,16 @@ julia = "1"
 ["0-0.1"]
 Tensorial = "0.1-0.10"
 
-["0.2-0"]
+["0.2-0.6"]
 Tensorial = "0.1-0.11"
 
-["0.4-0"]
+["0.4-0.6"]
 CrystallographyBase = "0.1-0.4"
 
 ["0.6-0"]
 ConstructionBase = ["0.1", "1"]
+
+["0.7-0"]
+Compat = "2.2.0-4"
+Crystallography = "0.4-0.5"
+Tensorial = "0.1-0.12"

@@ -1,6 +1,15 @@
 [0]
+julia = "1"
+
+["0-0.15"]
 CodecBzip2 = "0.7"
 CodecLz4 = "0.4"
 CodecZstd = "0.7"
 HDF5 = "0.15"
-julia = "1"
+
+["0.16-0"]
+H5Zblosc = "0.1"
+H5Zbzip2 = "0.1"
+H5Zlz4 = "0.1"
+H5Zzstd = "0.1"
+HDF5 = "0.16"

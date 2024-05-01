@@ -1,13 +1,16 @@
+[0]
+Statistics = "1"
+julia = "1"
+
 ["0-0.1.2"]
-CSV = "0.0.0 - 0.5"
-Compose = "0.0.0 - 0.7"
-DataFrames = "0.0.0 - 0.19"
-Distributions = "0.0.0 - 0.21"
-Gadfly = "0.0.0 - 1"
-IterableTables = "0.0.0 - 0.11"
-StatsBase = "0.0.0 - 0.32"
-TimeSeries = "0.0.0 - 0.16"
-julia = "1.0.0-1"
+CSV = "0.0.0-0.5"
+Compose = "0.0.0-0.7"
+DataFrames = "0.0.0-0.19"
+Distributions = "0.0.0-0.21"
+Gadfly = "0.0.0-1"
+IterableTables = "0.0.0-0.11"
+StatsBase = "0.0.0-0.32"
+TimeSeries = "0.0.0-0.16"
 
 ["0.1.3"]
 CSV = "0.5.14-0.5"
@@ -20,14 +23,27 @@ TimeSeries = "0.16"
 
 ["0.1.3-0"]
 Gadfly = "1"
-julia = "1"
 
-["0.1.4-0"]
+["0.1.4"]
 CSV = "0.7"
 Colors = ["0.11", "0.12.3-0.12"]
 Compose = "0.8"
 DataFrames = "0.21"
 Distributions = ["0.22", "0.23.8-0.23"]
-IterableTables = "1"
 StatsBase = ["0.30", "0.33"]
 TimeSeries = ["0.19", "1.19.1-1"]
+
+["0.1.4-0"]
+IterableTables = "1"
+
+["0.1.5-0"]
+CSV = "0.8"
+Colors = "0.10-0.12"
+Compose = "0.9"
+DataFrames = "1"
+Distributions = "0.20-0.25"
+StatsBase = "0.33"
+TimeSeries = "0.20"
+
+["0.1.6-0"]
+DataFramesMeta = "0.9-0.12"

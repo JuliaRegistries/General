@@ -1,7 +1,4 @@
 [0]
-DocStringExtensions = "0.8"
-LaTeXStrings = "1.1.0-1"
-Parameters = "0.12"
 RecipesBase = "1"
 
 ["0-0.1"]
@@ -11,8 +8,15 @@ Documenter = "0.24"
 FITSIO = "0.14"
 Optim = "0.21"
 
+["0-0.10"]
+LaTeXStrings = "1.1.0-1"
+Parameters = "0.12"
+
 ["0-0.10.2"]
 BlackBoxOptim = "0.5"
+
+["0-0.10.8"]
+DocStringExtensions = "0.8"
 
 ["0-0.2"]
 PhysicalConstants = "0.2"
@@ -27,14 +31,63 @@ SpecialFunctions = "0.10"
 ["0-0.8"]
 julia = "1"
 
-["0.10-0"]
+["0.10"]
 DataFrames = ["0.19-0.22", "1"]
 
 ["0.10.2"]
 LoopVectorization = "0.12"
 
-["0.10.3-0"]
+["0.10.3-0.10"]
 BlackBoxOptim = "0.5-0.6"
+
+["0.10.8-0"]
+SpecialFunctions = ["0.10", "1-2"]
+
+["0.10.8-0.11.0"]
+HDF5 = "0.14-0.16"
+
+["0.10.9-0"]
+DocStringExtensions = "0.8-0.9"
+FITSIO = "0.14-0.17"
+
+["0.10.9-0.10"]
+ImageFiltering = "0.6-0.7"
+
+["0.10.9-0.11.0"]
+Interpolations = "0.12-0.14"
+
+["0.11-0"]
+Distributions = "0.24-0.25"
+HypercubeTransform = "0.4"
+Optimization = "3"
+Reexport = "1"
+julia = "1.6.0-1"
+
+["0.11.0"]
+AxisKeys = "0.2"
+ComradeBase = "0.5"
+VLBISkyModels = "0.3"
+
+["0.11.1-0"]
+HDF5 = "0.14-0.17"
+Interpolations = "0.12-0.15"
+VLBISkyModels = "0.4"
+
+["0.11.1-0.11.6"]
+ComradeBase = "0.6"
+DimensionalData = "0.25"
+
+["0.11.2-0"]
+ChainRulesCore = "1"
+NamedTupleTools = "0.14"
+
+["0.11.3-0"]
+StatsBase = "0.33-0.34"
+
+["0.11.7-0"]
+ComradeBase = "0.6-0.7"
+DimensionalData = "0.25-0.27"
+StructArrays = "0.6"
 
 ["0.2"]
 FITSIO = "0.14-0.15"
@@ -46,7 +99,7 @@ Documenter = "0.24-0.25"
 ["0.2-0.6"]
 DataFrames = "0.19-0.21"
 
-["0.3-0"]
+["0.3-0.10.8"]
 FITSIO = "0.14-0.16"
 
 ["0.3.0"]
@@ -59,9 +112,13 @@ Optim = "0.20-0.22"
 Interpolations = "0.12"
 
 ["0.6-0"]
-Interpolations = "0.12-0.13"
-Optim = ["0.20-0.22", "1"]
 Requires = "1.1.0-1"
+
+["0.6-0.10"]
+Optim = ["0.20-0.22", "1"]
+
+["0.6-0.10.8"]
+Interpolations = "0.12-0.13"
 
 ["0.6-0.8"]
 CMAEvolutionStrategy = "0.1"
@@ -72,14 +129,18 @@ Measures = "0.3"
 ["0.6.2-0.8"]
 HDF5 = "0.14"
 
-["0.7-0"]
-ImageFiltering = "0.6"
+["0.7-0.10.7"]
 SpecialFunctions = ["0.10", "1"]
+
+["0.7-0.10.8"]
+ImageFiltering = "0.6"
 
 ["0.7-0.9"]
 DataFrames = "0.19-0.22"
 
-["0.9-0"]
+["0.9-0.10"]
 CMAEvolutionStrategy = "0.1-0.2"
-HDF5 = "0.14-0.15"
 julia = "1.4.0-1"
+
+["0.9-0.10.7"]
+HDF5 = "0.14-0.15"

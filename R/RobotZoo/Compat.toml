@@ -1,5 +1,4 @@
 [0]
-Parameters = "0.12"
 Rotations = "1"
 julia = "1"
 
@@ -9,11 +8,19 @@ RobotDynamics = "0.1.2-0.1"
 ["0-0.1.2"]
 StaticArrays = "0.12"
 
+["0-0.2"]
+Parameters = "0.12"
+
 ["0.1.1"]
 RobotDynamics = "0.1-0.2"
 
-["0.1.2-0"]
+["0.1.2-0.2"]
 RobotDynamics = "0.1-0.3"
 
 ["0.1.3-0"]
 StaticArrays = ["0.12", "1"]
+
+["0.3-0"]
+FiniteDiff = "2.10.0-2"
+ForwardDiff = "0.10"
+RobotDynamics = "0.4.1-0.4"

@@ -1,10 +1,16 @@
 [0]
-ForwardDiff = "0.0.0 - 0.10"
-Optim = "0.0.0 - 0.19"
+ForwardDiff = "0.0.0-0.10"
+Optim = "0.0.0-0.19"
 
 [0-1]
+Statistics = "1"
 julia = "1"
 
 [1]
 ForwardDiff = "0.10"
+
+["1-1.0.1"]
 Optim = "0.19"
+
+["1.0.2-1"]
+Optim = "1"

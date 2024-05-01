@@ -1,9 +1,20 @@
 [0]
+HypothesisTests = "0.10"
+Statistics = "1"
+julia = "1"
+
+["0-0.1.2"]
 DataFrames = "0.21"
 Distributions = "0.23"
 Graphs = "0.10"
-HypothesisTests = "0.10"
 MultipleTesting = "0.4"
 PGFPlots = "3.3.0-3"
 Requires = "1.1.0-1"
-julia = "1"
+
+["0.1.3-0"]
+DataFrames = ["0.21-0.22", "1.0-1.3"]
+Distributions = "0.23-0.25"
+Graphs = "1.4-1.6"
+MultipleTesting = "0.4-0.5"
+PGFPlots = "3.3-3.4"
+Requires = "1.1-1.3"

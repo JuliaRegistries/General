@@ -1,14 +1,31 @@
 [0]
-AWSS3 = "1c724243-ef5b-51ab-93f4-b0a88ac62a95"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Tar = "a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e"
 Zstd_jll = "3161d3a3-bdf6-5164-811a-617609db77b4"
 rr_jll = "e86bdf43-55f7-5ea2-9fd0-e7daa2c0f2b4"
 
+["0-0.1"]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
 ["0-0.1.5"]
 AWSCore = "4f1ea46c-232b-54a6-9b17-cc2d0f3e6598"
 
-["0.1.6-0"]
+["0-0.2.7"]
+AWSS3 = "1c724243-ef5b-51ab-93f4-b0a88ac62a95"
+
+["0.1.6-0.2.7"]
 AWS = "fbe9abb3-538b-5e4e-ba9e-bc94f4f92ebc"
+
+["0.2-0"]
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+GDB_jll = "a8b33d9f-0f8b-5197-9986-f85cbaa50c6c"
+
+["0.2.4-0"]
+Elfutils_jll = "ab5a07f8-06af-567f-a878-e8bb879eba5a"
+Git = "d7ba0133-e1db-5d97-8f8c-041e4b3a1eb2"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+
+["0.2.8-0"]
+s5cmd_jll = "9c7924da-da29-52d4-adf6-81e6cfbf5c74"

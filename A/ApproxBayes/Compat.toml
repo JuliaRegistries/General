@@ -1,27 +1,33 @@
 [0]
-Distances = "0.0.0 - 0.9"
-Distributions = "0.0.0 - 0.23"
-StatsBase = "0.0.0 - 0.33"
+Distances = "0.0.0-0.9"
+Distributions = "0.0.0-0.23"
+StatsBase = "0.0.0-0.33"
 
 ["0-0.1"]
-Colors = "0.0.0 - 0.12"
+Colors = "0.0.0-0.12"
 Compat = "0-2"
-DataFrames = "0.0.0 - 0.21"
-Plots = "0.0.0 - 0.29"
+DataFrames = "0.0.0-0.21"
+Plots = "0.0.0-0.29"
 
 ["0-0.3.0"]
-ProgressMeter = "0.0.0 - 0.9"
+DelimitedFiles = ["0.7", "1"]
+ProgressMeter = "0.0.0-0.9"
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.2-0.3.0"]
-RecipesBase = "0.0.0 - 0.8"
+RecipesBase = "0.0.0-0.8"
 
 ["0.3.1"]
+DelimitedFiles = ["0.7.0", "1"]
+Statistics = ["0.7.0", "1"]
 julia = ["0.7.0", "1"]
 
 ["0.3.1-0"]
-ProgressMeter = "0.0.0 - 1"
-RecipesBase = "0.0.0 - 1"
+ProgressMeter = "0.0.0-1"
+RecipesBase = "0.0.0-1"
 
 ["0.3.2-0"]
+DelimitedFiles = "0.7.0-*"
+Statistics = "0.7.0-*"
 julia = "0.7.0-*"

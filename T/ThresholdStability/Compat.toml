@@ -1,6 +1,9 @@
 [0]
-CSDP = "0.7"
 Combinatorics = "1"
+julia = "1"
+
+["0-0.1"]
+CSDP = "0.7"
 DynamicPolynomials = "0.3"
 HybridSystems = "0.3"
 JuMP = "0.21"
@@ -10,4 +13,23 @@ MultivariatePolynomials = "0.3"
 Reexport = "0.2"
 SumOfSquares = "0.4"
 SwitchOnSafety = "0.1"
-julia = "1"
+
+["0.2"]
+DynamicPolynomials = "0.4"
+MathematicalSystems = "0.12"
+MultivariatePolynomials = "0.3-0.4"
+SumOfSquares = "0.4-0.6"
+
+["0.2-0"]
+CSDP = ["0.7", "1"]
+Graphs = "1"
+HybridSystems = "0.4"
+JuMP = ["0.21-0.23", "1"]
+Reexport = "1"
+SwitchOnSafety = "0.2"
+
+["0.3-0"]
+DynamicPolynomials = "0.4-0.5"
+MathematicalSystems = "0.12-0.13"
+MultivariatePolynomials = "0.3-0.5"
+SumOfSquares = "0.4-0.7"

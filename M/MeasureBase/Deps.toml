@@ -1,7 +1,4 @@
 [0]
-ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
-KeywordCalls = "4d827475-d3e4-43d6-abe3-9688362ede9f"
-MLStyle = "d8e11817-5142-5d16-987a-aa16d5891078"
 MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
@@ -11,6 +8,21 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
+
+["0-0.5"]
+ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
+KeywordCalls = "4d827475-d3e4-43d6-abe3-9688362ede9f"
+MLStyle = "d8e11817-5142-5d16-987a-aa16d5891078"
+
+["0.11-0"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+ChangesOfVariables = "9e997f8a-9a97-42d5-a9f1-ce6bfc15e2c0"
+InverseFunctions = "3587e190-3f89-42d0-90ee-14403ec27112"
+
+["0.14-0"]
+FunctionChains = "8e6b2b91-af83-483e-ba35-d00930e4cf9b"
+IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
 ["0.2-0"]
 ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
@@ -23,3 +35,24 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.5-0"]
 PrettyPrinting = "54e16d92-306c-5ea0-a30b-337be88ac337"
+
+["0.6-0"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+DensityInterface = "b429d917-457f-4dbc-8f4c-0cc954292b1d"
+IfElse = "615f187c-cbe4-4ef1-ba3b-2fcf58d6d173"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.6.1-0"]
+LogarithmicNumbers = "aa2f6b4e-9042-5d33-9679-40d3a6b85899"
+
+["0.6.1-0.6"]
+StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
+
+["0.7-0"]
+NaNMath = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
+
+["0.9.3-0"]
+IrrationalConstants = "92d709cd-6900-40b7-9082-c6be49f344b6"

@@ -16,9 +16,36 @@ Gridap = "0.7"
 Gridap = "0.8-0.10"
 MPI = "0.0.0-0.14.1"
 
-["0.3-0"]
+["0.3"]
 Gridap = "0.16"
 MPI = "0.14-0.16"
-PETSc_jll = "3.13.0-3"
 SparseMatricesCSR = "0.6.1-0.6"
+
+["0.3-0"]
 julia = "1.3.0-1"
+
+["0.3-0.4"]
+PETSc_jll = "3.13.0-3"
+
+["0.4"]
+GridapDistributed = "0.2"
+MPI = "0.14-0.19"
+PartitionedArrays = "0.2.4-0.2"
+
+["0.4-0"]
+SparseMatricesCSR = "0.6.6-0.6"
+
+["0.4-0.5.1"]
+Gridap = "0.17"
+
+["0.5-0"]
+MPI = "0.14-0.20"
+PETSc_jll = ["3.13.4", "3.15.2"]
+PartitionedArrays = "0.3"
+
+["0.5-0.5.1"]
+GridapDistributed = "0.3"
+
+["0.5.2-0"]
+Gridap = "0.17-0.18"
+GridapDistributed = "0.3-0.4"

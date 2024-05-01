@@ -1,19 +1,22 @@
 ["0-1.0.1"]
-DiffEqBase = "5.0.0 - 6"
-Flux = "0.0.0 - 0.9"
-Reexport = "0.0.0 - 0.2"
+DiffEqBase = "5.0.0-6"
+Flux = "0.0.0-0.9"
+Reexport = "0.0.0-0.2"
 
 ["0-1.1"]
 julia = "1"
 
+["0.1-1.1"]
+Statistics = "1"
+
 ["1-1.0.1"]
-StochasticDiffEq = "0.0.0 - 6"
+StochasticDiffEq = "0.0.0-6"
 
 ["1.0.0"]
-DiffEqFlux = "0.0.0 - 0.8"
+DiffEqFlux = "0.0.0-0.8"
 
 ["1.0.1"]
-DiffEqFlux = "0.0.0 - 0.9"
+DiffEqFlux = "0.0.0-0.9"
 
 ["1.0.2-1"]
 DiffEqBase = "6"
@@ -32,6 +35,7 @@ DiffEqFlux = "0.8-0.10"
 ["1.2-1"]
 DiffEqSensitivity = "6.5.0-6"
 Flux = "0.10.1-0.10"
+Statistics = "1.3.0-1"
 Tracker = "0.2"
 julia = "1.3.0-1"
 

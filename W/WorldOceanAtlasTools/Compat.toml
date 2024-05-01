@@ -1,17 +1,17 @@
 ["0-0.2"]
-Memoize = "0.0.0 - 0.4"
+Memoize = "0.0.0-0.4"
 julia = "1"
 
 ["0-0.3.1"]
-DataDeps = "0.0.0 - 0.7"
-Match = "0.0.0 - 1"
-NCDatasets = "0.0.0 - 0.10"
-StatsBase = "0.0.0 - 0.32"
-Unitful = "0.0.0 - 1"
+DataDeps = "0.0.0-0.7"
+Match = "0.0.0-1"
+NCDatasets = "0.0.0-0.10"
+StatsBase = "0.0.0-0.32"
+Unitful = "0.0.0-1"
 
 ["0.3-0.3.1"]
-NearestNeighbors = "0.0.0 - 0.4"
-OceanGrids = "0.0.0 - 0.3"
+NearestNeighbors = "0.0.0-0.4"
+OceanGrids = "0.0.0-0.3"
 julia = "1.1.0-1"
 
 ["0.3.2-0"]
@@ -33,6 +33,9 @@ StatsBase = "0.32"
 ["0.3.4-0.4.1"]
 Unitful = "0.18"
 
+["0.4-0"]
+Statistics = "1"
+
 ["0.4.1-0.4"]
 MetadataArrays = "0.1"
 
@@ -48,9 +51,12 @@ StatsBase = "0.33"
 ["0.4.3-0.4"]
 OceanGrids = "0.1-0.3"
 
-["0.4.4-0"]
+["0.4.4-0.6.0"]
 NCDatasets = "0.9-0.11"
 
 ["0.5-0"]
 DataFrames = "1"
 OceanGrids = "0.1-0.4"
+
+["0.6.1-0"]
+NCDatasets = "0.9-0.12"

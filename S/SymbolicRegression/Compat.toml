@@ -6,14 +6,123 @@ SpecialFunctions = "1.1.0-1"
 ["0-0.4"]
 julia = "1.2.0-1"
 
-["0.2-0"]
-SpecialFunctions = ["0.10.1-0.10", "1"]
+["0.10.2-0"]
+julia = "1.6.0-1"
+
+["0.10.2-0.12"]
+PreallocationTools = "0.0.0-0.4.1"
+
+["0.13-0.13.2"]
+DynamicExpressions = "0.3"
+
+["0.13-0.19.0"]
+StatsBase = "0.33"
+
+["0.13.3-0.13"]
+DynamicExpressions = "0.3.2-0.3"
+
+["0.14-0.14.4"]
+DynamicExpressions = "0.4"
+
+["0.14.3-0.23"]
+ProgressBars = "1.4.0-1"
+
+["0.14.5-0.15"]
+DynamicExpressions = "0.4.2-0.4"
+
+["0.14.5-0.17.0"]
+SnoopPrecompile = "1"
+
+["0.16"]
+DynamicExpressions = "0.5"
+
+["0.16.3-0.18"]
+SymbolicUtils = ["0.19", "1.0.5-1"]
+
+["0.17"]
+DynamicExpressions = "0.6"
+
+["0.17.1-0"]
+PrecompileTools = "1"
+
+["0.18"]
+DynamicExpressions = "0.8"
+StaticArrays = "1"
+
+["0.18-0.20"]
+LossFunctions = ["0.6-0.8", "0.10"]
+
+["0.19-0.20"]
+DynamicExpressions = "0.9"
+Requires = "1"
+
+["0.19.1-0"]
+StatsBase = "0.33-0.34"
 
 ["0.2-0.5.12"]
 Optim = ["0.17", "1.1.0-1"]
 
+["0.2-0.7.0"]
+SpecialFunctions = ["0.10.1-0.10", "1"]
+
 ["0.2.1-0.6.10"]
 SymbolicUtils = "0.6"
+
+["0.20-0"]
+MacroTools = "0.4-0.5"
+
+["0.20-0.23"]
+MLJModelInterface = "1.5.0-1"
+
+["0.21-0"]
+Compat = "4.2.0-4"
+PackageExtensionCompat = "1"
+
+["0.21-0.21.3"]
+LossFunctions = "0.10"
+
+["0.21-0.22.4"]
+DynamicQuantities = "0.6.2-0.6"
+
+["0.21-0.24.3"]
+Tricks = "0.1"
+
+["0.21.0"]
+DynamicExpressions = "0.10"
+
+["0.21.1-0.21"]
+DynamicExpressions = "0.11"
+
+["0.21.4-0"]
+LossFunctions = "0.10-0.11"
+
+["0.22-0.22.2"]
+DynamicExpressions = "0.12.2-0.12"
+
+["0.22.3-0.23"]
+DynamicExpressions = "0.13"
+Optim = ["0.19", "1.1-1.7.6"]
+
+["0.22.5-0.23"]
+DynamicQuantities = "0.10"
+
+["0.24-0"]
+DynamicExpressions = "0.16"
+DynamicQuantities = "0.10-0.13"
+Optim = "1.8-1.9"
+
+["0.24.0"]
+MLJModelInterface = "1.5-1.8"
+ProgressBars = "1.4"
+
+["0.24.1-0"]
+Dates = "1"
+Distributed = "1"
+MLJModelInterface = "1.5-1.9"
+Printf = "1"
+ProgressBars = "1.4-1.5"
+Random = "1"
+TOML = "1"
 
 ["0.4-0"]
 Pkg = "1"
@@ -22,18 +131,24 @@ Pkg = "1"
 LossFunctions = "0.6"
 
 ["0.5-0"]
-FromFile = "0.1"
 Reexport = "1"
+
+["0.5-0.10.1"]
 julia = "1.5.0-1"
+
+["0.5-0.8.5"]
+FromFile = "0.1"
 
 ["0.5.13-0"]
 LineSearches = "7"
+
+["0.5.13-0.22.2"]
 Optim = ["0.19", "1.1.0-1"]
 
-["0.6-0"]
+["0.6-0.9.2"]
 LossFunctions = "0.6-0.7"
 
-["0.6.1-0"]
+["0.6.1-0.20"]
 JSON3 = "1"
 
 ["0.6.11-0.6.14"]
@@ -42,5 +157,20 @@ SymbolicUtils = "0.13"
 ["0.6.15"]
 SymbolicUtils = "0.18"
 
-["0.6.16-0"]
+["0.6.16-0.6"]
 SymbolicUtils = "0.13-0.18"
+
+["0.7-0.8"]
+SymbolicUtils = "0.6"
+
+["0.7.1-0"]
+SpecialFunctions = ["0.10.1-0.10", "1-2"]
+
+["0.8.4-0.12"]
+Zygote = "0.6"
+
+["0.9-0.16.2"]
+SymbolicUtils = "0.19"
+
+["0.9.3-0.17"]
+LossFunctions = "0.6-0.8"

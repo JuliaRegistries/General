@@ -1,36 +1,39 @@
 ["2.0"]
-Distributions = "0.16.1 - 0.23"
-StatsBase = "0.24.0 - 0.33"
+Distributions = "0.16.1-0.23"
+Statistics = ["0.7", "1"]
+StatsBase = "0.24.0-0.33"
 StatsModels = "0.2-0.5"
 julia = ["0.7", "1"]
 
 ["2.0.0"]
-DataFrames = "0.14.0 - 0.21"
+DataFrames = "0.14.0-0.21"
 
 ["2.0.1-2.0"]
-DataFrames = "0.16.0 - 0.21"
+DataFrames = "0.16.0-0.21"
 
 ["2.1"]
-DataFrames = "0.0.0 - 0.21"
+DataFrames = "0.0.0-0.21"
 StatsModels = "0.0.0-0.5"
 
 ["2.1-2"]
+Statistics = "1"
 julia = "1"
 
 ["2.1-2.2.0"]
-Distributions = "0.0.0 - 0.23"
-StatsBase = "0.0.0 - 0.33"
+Distributions = "0.0.0-0.23"
+StatsBase = "0.0.0-0.33"
+
+["2.2-2.3"]
+StatsModels = "0.6"
 
 ["2.2.0"]
-DataFrames = "0.19.0 - 0.21"
-StatsModels = "0.6.0 - 0.6"
-
-["2.2.1-2"]
-StatsBase = "0.33"
-StatsModels = "0.6"
+DataFrames = "0.19.0-0.21"
 
 ["2.2.1-2.2"]
 Distributions = "0.23"
+
+["2.2.1-2.3"]
+StatsBase = "0.33"
 
 ["2.2.1-2.3.1"]
 DataFrames = "0.19-0.22"
@@ -43,3 +46,8 @@ DataFrames = ["0.19-0.22", "1"]
 
 ["2.3.3-2"]
 Distributions = "0.23-0.25"
+
+["2.4-2"]
+Random = ["0.0.0", "1"]
+StatsBase = "0.33-0.34"
+StatsModels = "0.6-0.7"

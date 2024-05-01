@@ -1,7 +1,5 @@
 [0]
-UnPack = "1"
 julia = "1.3.0-1"
-spglib_jll = "1.14.0-1"
 
 ["0-0.1.0"]
 StaticArrays = "1"
@@ -9,11 +7,41 @@ StaticArrays = "1"
 ["0-0.4.0"]
 StructEquality = "1"
 
+["0-0.5"]
+UnPack = "1"
+
+["0-0.6.0"]
+spglib_jll = "1.14.0-1"
+
 ["0.1.1-0"]
 StaticArrays = ["0.8.3-0.12", "1"]
 
 ["0.4.1-0.5.0"]
 AutoHashEquals = "0.2"
 
-["0.5.1-0"]
+["0.5.1-0.6.1"]
 StructHelpers = "0.1"
+
+["0.6.1-0.7"]
+spglib_jll = "1.15.0-1"
+
+["0.6.2-0.6"]
+StructHelpers = ["0.1", "1"]
+
+["0.7-0"]
+StructEquality = "1-2"
+
+["0.8-0.9.3"]
+spglib_jll = "2"
+
+["0.8.0"]
+CrystallographyCore = "0.1-0.2"
+
+["0.8.1-0"]
+CrystallographyCore = "0.1-0.3"
+
+["0.9.3"]
+SumTypes = "0.4-0.5"
+
+["0.9.4-0"]
+spglib_jll = "2-2.1"

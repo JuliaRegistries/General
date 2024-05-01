@@ -1,20 +1,24 @@
 [0]
 Reexport = ["0.2", "1"]
 StaticArrays = ["0.12", "1"]
-julia = "1.5.0-1"
 
 ["0-0.1"]
 Catlab = "0.10"
 LazyArrays = "0.20"
 
+["0-0.4"]
+julia = "1.5.0-1"
+
 ["0.2-0"]
 FileIO = "1"
-LazyArrays = "0.20-0.21"
 MeshIO = "0.4"
 Requires = "1"
 
 ["0.2-0.2.2"]
 GeometryBasics = "0.3"
+
+["0.2-0.2.4"]
+LazyArrays = "0.20-0.21"
 
 ["0.2.0"]
 Catlab = "0.10-0.11"
@@ -25,5 +29,38 @@ Catlab = "0.11-0.12"
 ["0.2.3-0"]
 GeometryBasics = "0.3-0.4"
 
-["0.2.4-0"]
+["0.2.4"]
 Catlab = "0.12"
+
+["0.2.5-0.3"]
+Catlab = "0.13.1-0.13"
+
+["0.2.5-0.4"]
+LazyArrays = "0.20-0.22"
+
+["0.4"]
+Catlab = "0.14"
+
+["0.5"]
+Catlab = "0.15"
+
+["0.5-0"]
+ACSets = "0.2"
+LazyArrays = ["0.20-0.22", "1"]
+julia = "1.9.0-1"
+
+["0.6-0"]
+Catlab = "0.16"
+LinearAlgebra = "1.9.0-1"
+SparseArrays = "1.9.0-1"
+
+["0.6.1"]
+Artifacts = "1.9.0-1"
+
+["0.6.1-0"]
+BenchmarkTools = "1.4.0-1"
+JSON = "0.21.4-0.21"
+
+["0.6.2-0"]
+Artifacts = "1"
+DataMigrations = "0.0.3"

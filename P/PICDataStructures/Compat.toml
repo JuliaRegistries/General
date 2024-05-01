@@ -1,6 +1,5 @@
 [0]
 CoordinateTransformations = "0.6"
-IntervalSets = "0.5"
 RecursiveArrayTools = "2"
 StaticArrays = "1"
 Unitful = "1"
@@ -15,7 +14,10 @@ AbstractPlotting = "0.15"
 ["0-0.5.4"]
 ImageTransformations = "0.8"
 
-["0.1.1-0"]
+["0-0.5.8"]
+IntervalSets = "0.5"
+
+["0.1.1-0.5.8"]
 ArrayInterface = "2.14.0-3"
 
 ["0.1.2-0.3"]
@@ -53,3 +55,7 @@ Makie = "0.14-0.15"
 
 ["0.5.5-0"]
 ImageTransformations = "0.8-0.9"
+
+["0.5.9-0"]
+ArrayInterface = "2.14.0-5"
+IntervalSets = "0.5-0.6"

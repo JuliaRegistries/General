@@ -2,7 +2,6 @@
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [5-8]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 FunctionWrappers = "069b7b12-0de2-55c6-9aab-29f3d0a68a2e"
@@ -10,6 +9,9 @@ PoissonRandom = "e409e4f3-bfea-5376-8464-e040bb5c01ab"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 RandomNumbers = "e6cf234a-135c-5ec9-84dd-332b85af5143"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
+
+["5-8.4"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
 ["5.0"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
@@ -36,7 +38,7 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 ["6.6.3-8"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["6.8-8"]
+["6.8-8.4"]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 
 ["6.9.4-8"]
@@ -44,3 +46,13 @@ UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
 [8]
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+
+["8.3.1-8"]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+
+["8.5-8"]
+ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
+
+["8.6.3-8"]
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"

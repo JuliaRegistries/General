@@ -1,4 +1,5 @@
 [0]
+Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["0-0.2"]
@@ -20,9 +21,15 @@ UnivariateFunctions = "0.2-0.999999"
 ["0.3.1"]
 UnivariateFunctions = "0.2"
 
-["0.3.1-0"]
+["0.3.1-0.3"]
 Distributions = "0.24"
 StochasticIntegrals = "0.5"
 
 ["0.3.2-0"]
 UnivariateFunctions = "0.3"
+
+["0.4-0"]
+Distributions = "0.25"
+Gadfly = "1"
+StableRNGs = "1"
+StochasticIntegrals = "0.6"

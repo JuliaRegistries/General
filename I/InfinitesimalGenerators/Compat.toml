@@ -1,8 +1,8 @@
 ["0-0.1"]
-Arpack = "0.0.0 - 0.4"
+Arpack = "0.0.0-0.4"
 DiffEqDiffTools = "1"
 Distributions = "0.21"
-FillArrays = "0.0.0 - 0.8"
+FillArrays = "0.0.0-0.8"
 julia = "1"
 
 ["0-0.2"]
@@ -10,10 +10,6 @@ Roots = "0.8"
 
 ["0-0.3.3"]
 KrylovKit = "0.4"
-
-["0.2-0"]
-FiniteDiff = "2"
-julia = "1.2.0-1"
 
 ["0.2-0.3.1"]
 Distributions = "0.21-0.22"
@@ -24,7 +20,13 @@ FillArrays = "0.8"
 ["0.2-0.3.4"]
 Arpack = "0.3-0.4"
 
-["0.3-0"]
+["0.2-0.4.0"]
+FiniteDiff = "2"
+
+["0.2-0.4.1"]
+julia = "1.2.0-1"
+
+["0.3-0.4.1"]
 Roots = ["0.8", "1"]
 
 ["0.3.2-0.3.3"]
@@ -34,10 +36,25 @@ Distributions = "0.21-0.23"
 Distributions = "0.22-0.24"
 FillArrays = "0.8-0.9"
 
-["0.3.4-0"]
+["0.3.4-0.4"]
 KrylovKit = "0.4-0.5"
 
 ["0.3.5-0"]
 Arpack = "0.3-0.5"
 Distributions = "0.22-0.25"
+
+["0.3.5-0.4.0"]
 FillArrays = "0.8-0.12"
+
+["0.4.1-0.5.0"]
+FillArrays = "0.8-0.13"
+
+["0.4.2-0"]
+Roots = ["0.8", "1-2"]
+julia = "1.4.0-1"
+
+["0.5-0"]
+KrylovKit = "0.4-0.6"
+
+["0.5.1-0"]
+FillArrays = ["0.8-0.13", "1"]

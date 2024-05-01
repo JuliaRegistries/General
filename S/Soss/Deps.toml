@@ -92,17 +92,19 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.17-0"]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
-IRTools = "7869d1d1-7146-5819-86e3-90919afe41df"
 MeasureTheory = "eadaa1a4-d27c-401d-8699-e962e1bbc33b"
 NestedTuples = "a734d2a7-8d68-409b-9419-626914d4061d"
 RuntimeGeneratedFunctions = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
 SampleChains = "754583d1-7fc4-4dab-93b5-5eaca5c9622e"
-SymbolicCodegen = "fc9b0551-4f1b-42e1-8440-e8a535f5a551"
 SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 
 ["0.17-0.19.1"]
 CanonicalTraits = "a603d957-0e48-4f86-8fbd-0b7bc66df689"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+
+["0.17-0.20"]
+IRTools = "7869d1d1-7146-5819-86e3-90919afe41df"
+SymbolicCodegen = "fc9b0551-4f1b-42e1-8440-e8a535f5a551"
 
 ["0.17-0.20.2"]
 Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
@@ -133,9 +135,20 @@ Transducers = "28d57a85-8fef-5791-bfe6-a80928e7c999"
 ["0.20.8-0"]
 MeasureBase = "fa1605e6-acd5-459c-a1e6-7e635759db14"
 
+["0.21-0"]
+DensityInterface = "b429d917-457f-4dbc-8f4c-0cc954292b1d"
+IfElse = "615f187c-cbe4-4ef1-ba3b-2fcf58d6d173"
+Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
+
+["0.21.1-0"]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+
 ["0.3-0"]
-GeneralizedGenerated = "6b9d7cbe-bcb9-11e9-073f-15a7a543e2eb"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.3-0.21.0"]
+GeneralizedGenerated = "6b9d7cbe-bcb9-11e9-073f-15a7a543e2eb"
 
 ["0.3-0.6"]
 BangBang = "198e06fe-97b7-11e9-32a5-e1d131e6ad66"

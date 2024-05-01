@@ -7,8 +7,8 @@ VectorizationBase = "0.1.2-0.1"
 julia = "1"
 
 ["0.1.1"]
-SIMDPirates = "0.0.0 - 0.5"
-VectorizationBase = "0.0.0 - 0.5"
+SIMDPirates = "0.0.0-0.5"
+VectorizationBase = "0.0.0-0.5"
 
 ["0.1.11-0.1"]
 SIMDPirates = "0.8.24-0.8"
@@ -44,10 +44,12 @@ SIMDPirates = "0.8"
 
 ["0.2-0"]
 UnPack = "1"
-julia = "1.5.0-1"
 
 ["0.2-0.2.1"]
 VectorizationBase = "0.13"
+
+["0.2-0.2.15"]
+julia = "1.5.0-1"
 
 ["0.2.11"]
 VectorizationBase = ["0.19.38-0.19", "0.20.1-0.20"]
@@ -55,8 +57,26 @@ VectorizationBase = ["0.19.38-0.19", "0.20.1-0.20"]
 ["0.2.12-0"]
 VectorizationBase = ["0.19.38-0.19", "0.20.1-0.21"]
 
+["0.2.14-0"]
+SLEEFPirates = "0.6.29-0.6"
+
+["0.2.16-0"]
+julia = "1.6.0-1"
+
+["0.2.16-0.2.21"]
+StrideArraysCore = "0.3"
+
+["0.2.16-0.2.24"]
+StaticArraysCore = "1"
+
 ["0.2.2"]
 VectorizationBase = "0.13-0.14"
+
+["0.2.22-0.2.24"]
+StrideArraysCore = "0.3-0.4"
+
+["0.2.25-0"]
+Requires = "1"
 
 ["0.2.3"]
 VectorizationBase = "0.13-0.15"

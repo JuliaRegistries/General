@@ -4,36 +4,56 @@ LightGraphs = "0-1"
 julia = ["0.7", "1"]
 
 ["0-0.3.0"]
-MathematicalSystems = "0.0.0 - 0.11"
+MathematicalSystems = "0.0.0-0.11"
 
 ["0.1.1-0.3.0"]
-MappedArrays = "0.0.0 - 0.2"
+MappedArrays = "0.0.0-0.2"
 
 ["0.2-0"]
 julia = "1"
 
 ["0.2-0.3.0"]
-FillArrays = "0.0.0 - 0.8"
-LightGraphs = "0.0.0 - 1"
+FillArrays = "0.0.0-0.8"
+LightGraphs = "0.0.0-1"
 
 ["0.3.1"]
 FillArrays = "0.8"
 
-["0.3.1-0"]
+["0.3.1-0.3"]
 LightGraphs = "1"
-MathematicalSystems = "0.11"
 
 ["0.3.1-0.3.2"]
 MappedArrays = "0.2"
 
+["0.3.1-0.4.0"]
+MathematicalSystems = "0.11"
+
 ["0.3.2"]
 FillArrays = "0.8-0.9"
-
-["0.3.3-0"]
-MappedArrays = "0.2-0.3"
 
 ["0.3.3-0.3.4"]
 FillArrays = "0.8-0.10"
 
-["0.3.5-0"]
+["0.3.3-0.3.5"]
+MappedArrays = "0.2-0.3"
+
+["0.3.5"]
 FillArrays = "0.8-0.12"
+
+["0.3.6-0"]
+MappedArrays = "0.2-0.4"
+
+["0.3.6-0.4.2"]
+FillArrays = "0.8-0.13"
+
+["0.4-0"]
+Graphs = "1"
+
+["0.4.1"]
+MathematicalSystems = "0.11-0.12"
+
+["0.4.2-0"]
+MathematicalSystems = "0.11-0.13"
+
+["0.4.3-0"]
+FillArrays = ["0.8-0.13", "1"]

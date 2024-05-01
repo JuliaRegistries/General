@@ -1,22 +1,22 @@
 ["0-0.5"]
-AxisArrays = "0.0.0 - 0.4"
+AxisArrays = "0.0.0-0.4"
 ColorVectorSpace = "0-0.6"
-Colors = "0.0.0 - 0.12"
+Colors = "0.0.0-0.12"
 FileIO = "0-1"
 FixedPointNumbers = "0.3-0.5"
-ImageAxes = "0.0.0 - 0.6"
+ImageAxes = "0.0.0-0.6"
 ImageCore = "0-0.7"
 Libz = "0-1"
-MappedArrays = "0.0.0 - 0.2"
-Quaternions = "0.0.0 - 0.4"
-StaticArrays = "0.0.0 - 0.12"
-Unitful = "0.0.0 - 0.18"
+MappedArrays = "0.0.0-0.2"
+Quaternions = "0.0.0-0.4"
+StaticArrays = "0.0.0-0.12"
+Statistics = ["0.7", "1"]
+Unitful = "0.0.0-0.18"
 julia = ["0.7", "1"]
 
 ["0.6-0"]
 FileIO = "1"
 ImageAxes = "0.6"
-Quaternions = "0.4"
 julia = "1"
 
 ["0.6-0.6.1"]
@@ -31,6 +31,9 @@ StaticArrays = "0.11-0.12"
 ["0.6-0.6.3"]
 AxisArrays = "0.3-0.4"
 
+["0.6-0.6.4"]
+Quaternions = "0.4"
+
 ["0.6.0"]
 Unitful = "0.14-0.18"
 
@@ -44,5 +47,11 @@ CodecZlib = "0.6-0.7"
 MappedArrays = "0.2-0.4"
 
 ["0.6.3-0"]
-ImageCore = "0.9"
 StaticArrays = ["0.11-0.12", "1"]
+
+["0.6.3-0.6.4"]
+ImageCore = "0.9"
+
+["0.6.5-0"]
+ImageCore = "0.9-0.10"
+Quaternions = ["0.4", "0.7"]

@@ -1,8 +1,8 @@
 ["0-0.4"]
-BinDeps = "0.4.3 - 0.8"
+BinDeps = "0.4.3-0.8"
 Compat = "0.17-2"
 DiffEqBase = "3-5"
-Parameters = "0.5.0 - 0.12"
+Parameters = "0.5.0-0.12"
 julia = ["0.7", "1"]
 
 ["0.5"]
@@ -12,14 +12,27 @@ DiffEqBase = "5"
 julia = "1"
 
 ["0.5-0.6.1"]
-BinDeps = "0.0.0 - 1"
-Compat = "0.0.0 - 3"
-Parameters = "0.0.0 - 0.12"
+BinDeps = "0.0.0-1"
+Compat = "0.0.0-3"
+Parameters = "0.0.0-0.12"
 
 ["0.6-0"]
 DiffEqBase = "6"
 
 ["0.6.2-0"]
-BinDeps = "1"
-Compat = "3.13.0-3"
 Parameters = "0.12"
+
+["0.6.2-0.7.0"]
+Compat = "3.13.0-3"
+
+["0.6.2-0.7.1"]
+BinDeps = "1"
+
+["0.7.1-0"]
+Compat = "4"
+
+["0.7.3-0.7.4"]
+SciMLBase = "1.80.0-1"
+
+["0.7.5-0"]
+SciMLBase = "1.80.0-2"

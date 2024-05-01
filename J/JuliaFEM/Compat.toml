@@ -1,22 +1,24 @@
 [0]
-AbaqusReader = "0.0.0 - 0.2"
-Arpack = "0.0.0 - 0.4"
-AsterReader = "0.0.0 - 0.2"
-FEMBase = "0.0.0 - 0.3"
-FEMBasis = "0.0.0 - 0.3"
-FEMBeam = "0.0.0 - 0.3"
-FEMQuad = "0.0.0 - 0.3"
-ForwardDiff = "0.0.0 - 0.10"
-HDF5 = "0.7.0 - 0.13"
-HeatTransfer = "0.0.0 - 0.3"
-LightXML = "0.4.0 - 0.9"
-MortarContact2D = "0.0.0 - 0.3"
-MortarContact2DAD = "0.0.0 - 0.2"
-Reexport = "0.0.0 - 0.2"
-TimerOutputs = "0.0.0 - 0.5"
+AbaqusReader = "0.0.0-0.2"
+Arpack = "0.0.0-0.4"
+AsterReader = "0.0.0-0.2"
+FEMBase = "0.0.0-0.3"
+FEMBasis = "0.0.0-0.3"
+FEMBeam = "0.0.0-0.3"
+FEMQuad = "0.0.0-0.3"
+ForwardDiff = "0.0.0-0.10"
+HDF5 = "0.7.0-0.13"
+HeatTransfer = "0.0.0-0.3"
+LightXML = "0.4.0-0.9"
+MortarContact2D = "0.0.0-0.3"
+MortarContact2DAD = "0.0.0-0.2"
+Reexport = "0.0.0-0.2"
+TimerOutputs = "0.0.0-0.5"
 
 ["0-0.5.0"]
+Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.5.1-0"]
-julia = "1.0.0-1"
+Statistics = "1"
+julia = "1"

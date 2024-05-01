@@ -1,13 +1,24 @@
 [0]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 spglib_jll = "ac4a9f1e-bdb2-5204-990c-47c8b2f70d4e"
 
 ["0-0.4.0"]
 StructEquality = "6ec83bb0-ed9f-11e9-3b4c-2b04cb4e219c"
 
+["0-0.5"]
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
 ["0.4.1-0.5.0"]
 AutoHashEquals = "15f4f7f2-30c1-5605-9d31-71845cf9641f"
 
-["0.5.1-0"]
+["0.5.1-0.6"]
 StructHelpers = "4093c41a-2008-41fd-82b8-e3f9d02b504f"
+
+["0.7-0"]
+StructEquality = "6ec83bb0-ed9f-11e9-3b4c-2b04cb4e219c"
+
+["0.8-0"]
+CrystallographyCore = "80545937-1184-4bc9-b283-396e91386b5c"
+
+["0.9.3"]
+SumTypes = "8e1ec7a9-0e02-4297-b0fe-6433085c89f2"

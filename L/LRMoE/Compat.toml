@@ -5,13 +5,22 @@ HypothesisTests = "0.10"
 InvertedIndices = "1"
 Optim = "1-2"
 QuadGK = "2"
+
+["0-0.1"]
+Statistics = "1.2.0-1"
+julia = "1.2.0-1"
+
+["0-0.3.0"]
 Roots = "1"
 SpecialFunctions = "0.8"
 StatsFuns = "0.9"
 
-["0-0.1"]
-julia = "1.2.0-1"
-
 ["0.2-0"]
 Random = "1"
+Statistics = "1.4.0-1"
 julia = "1.4.0-1"
+
+["0.3.1-0"]
+Roots = "2"
+SpecialFunctions = "1.8.0-1"
+StatsFuns = "1"
