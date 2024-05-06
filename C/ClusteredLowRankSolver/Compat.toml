@@ -24,7 +24,7 @@ AbstractAlgebra = "0.24-0.28"
 ["0.2.3-0"]
 KrylovKit = "0.5-0.6"
 
-["0.2.3-1"]
+["0.2.3-1.0.4"]
 Arblib = "0.6-0.8"
 
 ["0.2.4-0.2"]
@@ -42,5 +42,11 @@ AbstractAlgebra = "0.24-0.33"
 [1]
 Combinatorics = "1"
 KrylovKit = "0.5-0.7"
-Nemo = "0.43"
 RowEchelon = "0.2"
+
+["1-1.0.4"]
+Nemo = "0.43"
+
+["1.0.5-1"]
+Arblib = ["0.6-0.8", "1"]
+Nemo = "0.43-0.45"
