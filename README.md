@@ -312,9 +312,11 @@ These also may to be resolved by yanking. That special category is when the comp
 wide. i.e. say `v2.10.0` was released using a feature not on julia `v1.6` but the compat entry for julia was
 not raised in the release. In this case releasing a `v2.10.1` with the corrected julia compat would not 
 solve the issue as on julia v1.6 Pkg would still resolve the broken `v2.10.0`, and as a minor bump, reverting
-the code changes would not be valid in a patch bump. In this case one may either submit a PR to retroactively
-adjust the compat bounds of previous versions (best user-facing results, but slow and error-prone to implement)
-or yank the offending release. See the [SciML collaborative practices for more guidance](https://github.com/SciML/ColPrac?tab=readme-ov-file#accidental-support-for-an-unsupported-dependency).
+the code changes would not be valid in a patch bump. 
+
+In this case it is best to submit a PR to retroactively adjust the compat bounds of previous versions, which has the best user-facing results.
+It may also be possible to yank the offending release, but this has has possible negative consequences
+for existing evironments # and other reasons from people who know better than me #. See the [SciML collaborative practices for more guidance](https://github.com/SciML/ColPrac?tab=readme-ov-file#accidental-support-for-an-unsupported-dependency).
 
 If yanking is urgent, open a PR and raise it on the `#pkg-registration` [slack channel](https://julialang.org/slack/)
 
