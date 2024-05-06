@@ -315,7 +315,7 @@ solve the issue as on julia v1.6 Pkg would still resolve the broken `v2.10.0`, a
 the code changes would not be valid in a patch bump. 
 
 In this case it is best to submit a PR to retroactively adjust the compat bounds of previous versions, which has the best user-facing results.
-It may also be possible to yank the offending release, but this has has possible negative consequences
+It may also be possible to yank the offending release, but this has possible negative consequences
 for existing evironments # and other reasons from people who know better than me #. See the [SciML collaborative practices for more guidance](https://github.com/SciML/ColPrac?tab=readme-ov-file#accidental-support-for-an-unsupported-dependency).
 
 If yanking is urgent, open a PR and raise it on the `#pkg-registration` [slack channel](https://julialang.org/slack/)
