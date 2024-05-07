@@ -68,8 +68,14 @@ JuMP = ["0.23", "1"]
 
 ["0.5.6-0"]
 AbstractTrees = "0.4"
-JuMP = "1.2.0-1"
 LeftChildRightSiblingTrees = "0.2"
 
-["0.5.7-0"]
+["0.5.6-0.5.8"]
+JuMP = "1.2.0-1"
+
+["0.5.7-0.5.8"]
 FastGaussQuadrature = "0.3.2-0.5"
+
+["0.5.9-0"]
+FastGaussQuadrature = ["0.3.2-0.5", "1"]
+JuMP = "1.15.0-1"

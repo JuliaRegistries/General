@@ -5,7 +5,6 @@ DistributionsAD = "0.6"
 LuxCore = "0.1"
 MLUtils = "0.4"
 SciMLSensitivity = "7"
-ScientificTypes = "3"
 Zygote = "0.6"
 
 ["0-0.10"]
@@ -31,6 +30,9 @@ PrecompileTools = "1"
 
 ["0-0.16"]
 OptimizationOptimisers = "0.1"
+
+["0-0.22.1"]
+ScientificTypes = "3"
 
 ["0-0.5"]
 DataFrames = "1.2.0-1"
@@ -110,11 +112,17 @@ Octavian = "0.3.27-0.3"
 DifferentialEquations = "7"
 Lux = "0.5.31-0.5"
 
-["0.22-0"]
+["0.22-0.22.1"]
 DifferentiationInterface = "0.1-0.2"
 
 ["0.22.1-0"]
 ADTypes = ["0.2", "1"]
+
+["0.22.2-0"]
+DifferentiationInterface = "0.1-0.3"
+OrdinaryDiffEq = "6"
+ScientificTypesBase = "3"
+Static = "0.8"
 
 ["0.6-0"]
 DataFrames = "1"

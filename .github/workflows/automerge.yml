@@ -43,7 +43,7 @@ jobs:
       # For debugging purposes, we print this value first
       - name: Print env variable NEED_MERGE_TOKEN
         run: echo "NEED_MERGE_TOKEN=$NEED_MERGE_TOKEN"
-      - uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v3.3.0
+      - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v3.3.0
       - uses: julia-actions/setup-julia@f2258781c657ad9b4b88072c5eeaf9ec8c370874 # v2.0.0
         with:
           version: ${{ matrix.version }}
@@ -57,7 +57,7 @@ jobs:
       - run: chmod 400 .ci/Project.toml
       - run: chmod 400 .ci/Manifest.toml
       - name: Cache artifacts
-        uses: julia-actions/cache@dc1a3cdeacb521b0ca93cfc66143fcadb15a5bd0 # v1.5.2
+        uses: julia-actions/cache@d48542bb7b6239a9391789f01d21a6bdde9ad5df # v2.0.0
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
@@ -105,7 +105,7 @@ jobs:
     environment: stopwatch
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633 # v3.3.0
+      - uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v3.3.0
       - uses: julia-actions/setup-julia@f2258781c657ad9b4b88072c5eeaf9ec8c370874 # v2.0.0
         with:
           version: '1.9'
@@ -118,7 +118,7 @@ jobs:
       - run: chmod 400 .ci/Project.toml
       - run: chmod 400 .ci/Manifest.toml
       - name: Cache artifacts
-        uses: julia-actions/cache@dc1a3cdeacb521b0ca93cfc66143fcadb15a5bd0 # v1.5.2
+        uses: julia-actions/cache@d48542bb7b6239a9391789f01d21a6bdde9ad5df # v2.0.0
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
