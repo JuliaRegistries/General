@@ -1,11 +1,9 @@
 [0]
-AbstractNeuralNetworks = "0.1"
 ChainRules = "1"
 ChainRulesCore = "1"
 Distances = "0.10"
 ForwardDiff = "0.10"
 KernelAbstractions = "0.9"
-Lux = "0.4-0.5"
 NNlib = "0.8-0.9"
 ProgressMeter = "1"
 StatsBase = "0.33-0.34"
@@ -24,14 +22,26 @@ HDF5 = "0.16"
 NLsolve = "4"
 Optimisers = "0.2"
 
-["0.2-0"]
-BandedMatrices = ["0.17", "1"]
+["0-0.2"]
+AbstractNeuralNetworks = "0.1"
+Lux = "0.4-0.5"
+
+["0.2"]
 CUDA = "4-5"
-ChainRulesTestUtils = "1"
-Documenter = ["0.27", "1"]
 GPUArrays = "8-10"
 GeometricBase = "0.9"
 GeometricEquations = "0.14"
+
+["0.2-0"]
+BandedMatrices = ["0.17", "1"]
+ChainRulesTestUtils = "1"
+Documenter = ["0.27", "1"]
 GeometricIntegrators = "0.13"
 HDF5 = "0.16-0.17"
 SafeTestsets = "0.1"
+
+["0.3-0"]
+AbstractNeuralNetworks = "0.3"
+GeometricBase = "0.10"
+GeometricEquations = "0.16"
+GeometricSolutions = "0.3.24-0.3"
