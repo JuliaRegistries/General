@@ -2,19 +2,21 @@
 Chairmarks = "1.2.1-1"
 ComponentArrays = "0.15"
 DocStringExtensions = "0.9"
-JET = "0.8"
 JLArrays = "0.1"
-LinearAlgebra = "1"
 ProgressMeter = "1"
 StaticArrays = "1.9.0-1"
-Test = "1"
-julia = "1.10.0-1"
 
 ["0-0.1"]
 DifferentiationInterface = "0.1"
 
 ["0-0.2"]
 ADTypes = "0.2.7-0.2"
+
+["0-0.3.0"]
+JET = "0.8"
+LinearAlgebra = "1"
+Test = "1"
+julia = "1.10.0-1"
 
 ["0.2.0"]
 DifferentiationInterface = "0.2"
@@ -24,5 +26,16 @@ DifferentiationInterface = "0.2.1-0.2"
 
 ["0.3-0"]
 ADTypes = "1"
+
+["0.3.0"]
 DifferentiationInterface = "0.3"
 SparseArrays = "1"
+
+["0.3.1-0"]
+Compat = "4"
+DifferentiationInterface = "0.3.4-0.3"
+JET = "0.4-0.8"
+LinearAlgebra = ["0.0.0", "1"]
+SparseArrays = ["0.0.0", "1"]
+Test = ["0.0.0", "1"]
+julia = "1.6.0-1"
