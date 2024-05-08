@@ -248,7 +248,7 @@ Registrator will complain if the second step is skipped.
 Follow these steps to move a [subdirectory package](https://pkgdocs.julialang.org/v1/managing-packages/#Adding-a-package-in-a-subdirectory-of-a-repository) to its own repository:
 - Follow Github's documentation on [splitting a subfolder out into a new repository](https://docs.github.com/en/get-started/using-git/splitting-a-subfolder-out-into-a-new-repository).
 - [Check that the new repository contains all registered versions of the package](https://github.com/JuliaRegistries/General/blob/master/CONTRIBUTING.md#appendix-checking-if-a-repository-contains-all-registered-versions-of-a-package).
-- [Update the URL of the package in the General registry to point towards the new repository](https://github.com/JuliaRegistries/General#how-do-i-transfer-a-package-to-an-organization-or-another-user).
+- [Update the URL of the package in the General registry to point towards the new repository](https://github.com/JuliaRegistries/General#how-do-i-transfer-a-package-to-an-organization-or-another-user). Be sure to include the printed output from the second step in your pull request, so the reviewer can see that the new repository indeed contains all registered versions fo the package.
 
 ### How do I transfer a package to General from another registry?
 
