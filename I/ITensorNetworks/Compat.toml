@@ -33,8 +33,12 @@ julia = "1.10.0-1"
 DataGraphs = "0.2.3-0.2"
 NamedGraphs = "0.6"
 
-["0.11-0"]
+["0.11-0.11.4"]
 ITensors = "0.4-0.5"
+
+["0.11.5-0"]
+ITensorMPS = "0.1"
+ITensors = "0.4-0.6"
 
 ["0.2.2-0.3.1"]
 NamedGraphs = "0.1.8-0.1"
