@@ -64,13 +64,15 @@ ChainRulesCore = "1.20.0-1"
 
 ["0.3.12-0"]
 FastClosures = "0.3.2-0.3"
-KernelAbstractions = "0.9.15-0.9"
 LuxCore = "0.1.13-0.1"
 Markdown = "1.10.0-1"
-NNlib = "0.9.10-0.9"
 Random = "1.10.0-1"
 Statistics = "1.10.0-1"
 julia = "1.10.0-1"
+
+["0.3.12-0.3.22"]
+KernelAbstractions = "0.9.15-0.9"
+NNlib = "0.9.10-0.9"
 
 ["0.3.14-0"]
 ChainRulesCore = "1.23.0-1"
@@ -92,6 +94,10 @@ Polyester = "0.7.13-0.7"
 
 ["0.3.2-0.3.8"]
 PackageExtensionCompat = "1"
+
+["0.3.23-0"]
+EnzymeCore = "0.7"
+NNlib = "0.9.13-0.9"
 
 ["0.3.6-0.3.9"]
 PrecompileTools = "1"
