@@ -1,8 +1,6 @@
 [0]
-DecFP = "55939f99-70c6-5e9b-8bb0-5071ed7d61fd"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
-HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
@@ -11,6 +9,10 @@ SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 
 ["0-0.1"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.13.3"]
+DecFP = "55939f99-70c6-5e9b-8bb0-5071ed7d61fd"
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 
 ["0-0.6"]
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
@@ -30,7 +32,7 @@ PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 ["0.13-0"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["0.2-0"]
+["0.2-0.13.3"]
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 
 ["0.2-0.6"]
