@@ -238,7 +238,7 @@ or opening PRs/issues on downstream packages to change over.
 
  - Use the [GitHub transfer option][github-transfer] in the settings.
  - Make a pull request to [this repository](https://github.com/JuliaRegistries/General/pulls) in which you edit the repo URL in the package's Package.toml file (e.g [E/Example/Package.toml](https://github.com/JuliaRegistries/General/blob/master/E/Example/Package.toml#L3)).
- - Ask for a manual merge in the `#pkg-registration` Slack channel.
+ - Ask for a manual merge in the `#pkg-registration` Slack channel if the PR is not attended to or if you have any questions.
 
 Technically if you skip the second step things will keep working, because GitHub will redirect;
 but it is best practice. For this reason, when you try to register a new release, the Julia
