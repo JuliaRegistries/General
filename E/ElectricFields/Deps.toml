@@ -1,6 +1,5 @@
 [0]
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
-Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -10,6 +9,15 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 UnitfulAtomic = "a7773ee8-282e-5fa2-be4e-bd808c38a91a"
 
+["0-0.2.2"]
+Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
+
 ["0.2-0"]
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
+
+["0.2.3-0"]
+Format = "1fa38f19-a742-5d3f-a2b9-30dd87b9d5f8"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
