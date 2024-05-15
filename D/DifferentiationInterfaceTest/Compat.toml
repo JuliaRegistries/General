@@ -33,9 +33,14 @@ SparseArrays = "1"
 
 ["0.3.1-0"]
 Compat = "4"
-DifferentiationInterface = "0.3.4-0.3"
 JET = "0.4-0.8"
 LinearAlgebra = ["0.0.0", "1"]
 SparseArrays = ["0.0.0", "1"]
 Test = ["0.0.0", "1"]
 julia = "1.6.0-1"
+
+["0.3.1-0.3"]
+DifferentiationInterface = "0.3.4-0.3"
+
+["0.4-0"]
+DifferentiationInterface = "0.4"
