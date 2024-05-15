@@ -1,7 +1,6 @@
 [0]
 ClimaCore = "d414da3d-4745-48bb-8d80-42e94e092884"
 CloudMicrophysics = "6a9e3e04-43cd-43ba-94b9-e8782df3c71b"
-DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
 IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -22,6 +21,9 @@ OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 
 ["0-0.18"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.23"]
+DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
 
 ["0-0.7"]
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
@@ -79,6 +81,10 @@ ClimaParams = "5c42b081-d73a-476f-9059-fd94b934656c"
 
 ["0.23-0"]
 ClimaUtilities = "b3f4f4ca-9299-4f7f-bd9b-81e1242a7513"
+
+["0.24-0"]
+ClimaDiagnostics = "1ecacbb8-0713-4841-9a07-eb5aa8a2d53f"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 
 ["0.3-0"]
 Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
