@@ -45,11 +45,11 @@ Krylov = "0.7.6-0.7"
 ["0.2.4-0"]
 julia = "1.6.0-1"
 
-["0.2.5-0"]
-SolverTools = "0.6-0.8"
-
 ["0.2.5-0.3.0"]
 NLPModels = "0.15-0.18"
+
+["0.2.5-0.4.4"]
+SolverTools = "0.6-0.8"
 
 ["0.3-0.4.2"]
 Krylov = "0.8"
@@ -74,6 +74,8 @@ LDLFactorizations = "0.8.1-0.10"
 
 ["0.4.3-0"]
 Krylov = "0.8-0.9"
+
+["0.4.3-0.4.4"]
 NLPModels = "0.15-0.20"
 
 ["0.4.4-0"]
@@ -81,3 +83,7 @@ HSL = "0.3-0.4"
 LinearAlgebra = "1"
 Printf = "1"
 SparseArrays = "1"
+
+["0.4.5-0"]
+NLPModels = "0.15-0.21"
+SolverTools = "0.6-0.9"
