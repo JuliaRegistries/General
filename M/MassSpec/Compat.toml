@@ -1,8 +1,10 @@
 [1]
 DataFrames = "1.6.0-1"
 DelimitedFiles = "1.9.0-1"
-Interpolations = "0.14"
 julia = "1.9.0-1"
+
+["1-1.0.12"]
+Interpolations = "0.14"
 
 ["1-1.0.4"]
 Plots = "1.38.0-1"
@@ -21,10 +23,16 @@ ProgressMeter = "1.8.0-1"
 ["1.0.11-1"]
 JSON = "0.21"
 
+["1.0.13-1"]
+DataStructures = "0.18"
+Interpolations = "0.15"
+JLD2 = "0.4"
+Plots = "1.40.0-1"
+
 ["1.0.4-1"]
 ProgressMeter = "1.9.0-1"
 
-["1.0.5-1"]
+["1.0.5-1.0.12"]
 Plots = "1.39.0-1"
 
 ["1.0.6-1"]
