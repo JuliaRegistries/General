@@ -7,7 +7,6 @@ CommonSolve = "0.2"
 ComponentArrays = "0.15"
 CondaPkg = "0.2"
 DiffEqBase = "5-6"
-DimensionalData = "0.26"
 Distributions = "0.25"
 EnsembleKalmanProcesses = "1"
 FileIO = "1"
@@ -33,3 +32,9 @@ Tables = "1"
 UnPack = "1"
 Zygote = "0.6"
 julia = "1.6.0-1"
+
+["0-0.1.0"]
+DimensionalData = "0.26"
+
+["0.1.1-0"]
+DimensionalData = "0.26-0.27"
