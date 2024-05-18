@@ -35,11 +35,13 @@ julia = "1.5.0-1"
 ["0.14-0"]
 AVSfldIO = "0.2"
 FFTW = "1"
-FileIO = "1.9.0-1"
 
 ["0.14-0.15"]
 Interpolations = "0.12-0.13"
 NFFT = "0.6"
+
+["0.14-0.17"]
+FileIO = "1.9.0-1"
 
 ["0.14.0"]
 MIRTjim = "0.6"
@@ -52,17 +54,31 @@ FillArrays = "0.12"
 LinearMapsAA = "0.7"
 SpecialFunctions = ["0.10", "1-2"]
 
-["0.15-0"]
+["0.15-0.17"]
 julia = "1.6.0-1"
 
 ["0.16-0"]
+NFFT = "0.13"
+
+["0.16-0.17"]
 FillArrays = "0.12-0.13"
 ImageFiltering = "0.6-0.7"
 ImageTransformations = "0.8-0.9"
 Interpolations = "0.12-0.14"
 LinearMapsAA = "0.11"
-NFFT = "0.13"
 SpecialFunctions = "1-2"
+
+["0.18-0"]
+FileIO = "1"
+FillArrays = "1"
+ImageFiltering = "0.7"
+ImageTransformations = "0.10"
+Interpolations = "0.15"
+LazyGrids = "1"
+LinearMapsAA = "0.12"
+SpecialFunctions = "2"
+Wavelets = "0.10"
+julia = "1.10.0-1"
 
 ["0.2-0.8"]
 julia = "1.1.0-1"
@@ -87,11 +103,11 @@ MIRTio = "0.1"
 Plots = "0.27"
 SpecialFunctions = "0.8"
 
-["0.8-0"]
-Wavelets = "0.9"
-
 ["0.8-0.13"]
 Reexport = "0.2"
+
+["0.8-0.17"]
+Wavelets = "0.9"
 
 ["0.8-0.9"]
 NFFT = "0.4"
