@@ -1,5 +1,4 @@
 [0]
-CEnum = "0.4"
 CountDownLatches = "2"
 
 ["0-0.1"]
@@ -8,6 +7,9 @@ LibAWSCRT = "0.1"
 
 ["0-0.1.1"]
 julia = "1.7.0-1"
+
+["0-0.2"]
+CEnum = "0.4"
 
 ["0.1.2-0"]
 julia = "1.9.0-1"
@@ -18,7 +20,12 @@ JSON = "0.21"
 ["0.1.4-0.1"]
 AWSCRT_jll = "0.1"
 
-["0.2-0"]
+["0.2"]
 AWSCRT_jll = "0.1.2"
 ForeignCallbacks = "0.1.1-0.1"
 LibAWSCRT = "0.1.0"
+
+["0.3-0"]
+LibAwsCommon = "1"
+LibAwsIO = "1"
+LibAwsMqtt = "1"

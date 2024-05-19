@@ -32,6 +32,15 @@ CLIMAParameters = "0.9"
 Adapt = "3.3.0-4"
 ClimaParams = "0.10"
 
+["0.13.3"]
+ClimaComms = "0.5.1-0.6"
+julia = "1.9.0-1"
+
+["0.13.4-0"]
+CUDA = "4-5"
+ClimaComms = "0.5.1-0.5"
+julia = "1.7.0-1"
+
 ["0.2"]
 Adapt = "3.3.1-3"
 CUDA = "3.4.1-3"
@@ -56,10 +65,12 @@ Coverage = "1.4.0-1"
 ["0.3-0"]
 GaussQuadrature = "0.5"
 StaticArrays = "1.4.0-1"
-julia = "1.7.0-1"
 
 ["0.3-0.12"]
 Adapt = "3.3.0-3"
+
+["0.3-0.13.2"]
+julia = "1.7.0-1"
 
 ["0.3-0.6.1"]
 DocStringExtensions = "0.8"
@@ -88,8 +99,8 @@ CUDA = "4"
 ["0.9.0"]
 ClimaComms = "0.5"
 
-["0.9.1-0"]
+["0.9.1-0.13.2"]
 ClimaComms = "0.5.1-0.5"
 
-["0.9.2-0"]
+["0.9.2-0.13.2"]
 CUDA = "4-5"

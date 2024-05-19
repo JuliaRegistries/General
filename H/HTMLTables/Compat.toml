@@ -1,9 +1,15 @@
 [0]
 Cascadia = "1"
-DataFrames = "1"
 Gumbo = "0.8"
 HTTP = "1"
 julia = "1"
 
+["0-0.2"]
+DataFrames = "1"
+
 ["0.2-0"]
 Tables = "1.11.0-1"
+
+["0.3-0"]
+ColorSchemes = "3"
+Colors = "0.12"
