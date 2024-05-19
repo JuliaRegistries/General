@@ -1,16 +1,27 @@
 [0]
-DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Memoize = "c03570c3-d221-55d1-a50c-7939bbd78826"
+
+[0-1]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MetaGraphs = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
 SpinGlassNetworks = "b7f6bd3e-55dc-4da6-96a9-ef9dbec6ac19"
 SpinGlassTensors = "7584fc6a-5a23-4eeb-8277-827aab0146ea"
 TensorCast = "02d47bb6-7ce6-556a-be16-bb1710789e2b"
 TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
 
-["0.1.1-0"]
+["0.1.1-1"]
 LabelledGraphs = "605abd48-4d17-4660-b914-d4df33194460"
 
-["0.2-0"]
+["0.2-1"]
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+
+[1]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+MKL = "33e6dc65-8f57-5167-99aa-e5a354878fb2"
+Memoization = "6fafb56a-5788-4b4e-91ca-c0cea6611c73"
+NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
+SpinGlassExhaustive = "a894d7c4-7f54-4100-9d77-d00d924adeb3"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"

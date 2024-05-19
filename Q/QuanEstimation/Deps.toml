@@ -8,7 +8,6 @@ IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-ReinforcementLearning = "158674fc-8238-5cab-b5ba-03dfc80d1318"
 SCS = "c946c3f1-0d1f-5ce8-9dea-7daa1f7e2d13"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"
@@ -18,6 +17,9 @@ Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0-0.1.2"]
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+
+["0-0.1.5"]
+ReinforcementLearning = "158674fc-8238-5cab-b5ba-03dfc80d1318"
 
 ["0.1.2-0"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
@@ -30,5 +32,5 @@ OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 
-["0.1.5-0"]
+["0.1.5"]
 ReinforcementLearningCore = "de1b191a-4ae0-4afa-a27b-92d07f46b2d6"

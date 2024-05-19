@@ -1,6 +1,5 @@
 [0]
 FLoops = "0.2-0.3"
-FastGaussQuadrature = "0.5-0.6"
 FoldsThreads = "0.1-0.2"
 GSL = "1.0-1.2"
 IncompleteLU = "0.2-0.3"
@@ -12,7 +11,6 @@ OffsetArrays = "1.1-1.30"
 Primes = "0.5-0.6"
 ProgressMeter = "1.5-1.10"
 SpecialFunctions = "2.0-2.5"
-StaticArrays = "1.5-1.6"
 ThreadsX = "0.1-0.2"
 UnicodePlots = "3"
 
@@ -23,12 +21,22 @@ MoM_Basics = "0.0-0.9"
 Statistics = "1.8-1.9"
 julia = "1.8-1.9"
 
+["0.0"]
+FastGaussQuadrature = "0.5-0.6"
+StaticArrays = "1.5-1.6"
+
 ["0.0.2-0.0.3"]
 MoM_Basics = "0.0.6-0.1"
 
-["0.0.3-0"]
+["0.0.3-0.0"]
 Statistics = "1.8-1.10"
 julia = "1.8-1.10"
 
-["0.0.4-0"]
+["0.0.4-0.0"]
 MoM_Basics = "0.0.8-0.1"
+
+["0.1-0"]
+FastGaussQuadrature = "1.0-1.6"
+MoM_Basics = "0.0.8-0.9"
+StaticArrays = "1.5-2.6"
+julia = "1.8-1.20"
