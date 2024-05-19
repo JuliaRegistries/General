@@ -36,6 +36,10 @@ PrettyTables = "1.1.0-2"
 Interpolations = "0.14"
 KernelDensity = "0.6.5-0.6"
 
+["0.10-0"]
+DynamicPPL = "0.22-0.26"
+StatsBase = "0.33-0.34"
+
 ["0.3.3-0.4.2"]
 StatsAPI = "1.3.0-1"
 
@@ -76,8 +80,10 @@ LinearAlgebra = "1"
 Random = "1"
 
 ["0.8.5-0"]
-DynamicPPL = "0.22-0.24"
 Interpolations = "0.14-0.15"
+
+["0.8.5-0.9"]
+DynamicPPL = "0.22-0.24"
 
 ["0.8.6-0"]
 PrettyTables = "2"

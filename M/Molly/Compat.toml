@@ -1,6 +1,5 @@
 [0]
 Colors = "0.10-0.12"
-Requires = "1"
 
 ["0-0.1"]
 KernelDensity = "0.5"
@@ -10,6 +9,9 @@ julia = "1"
 Distributions = "0.23"
 Reexport = "0.2"
 StaticArrays = "0.12"
+
+["0-0.20"]
+Requires = "1"
 
 ["0-0.3"]
 BioStructures = "0.10-0.11"
@@ -22,11 +24,13 @@ Zygote = "0.6.37-0.6"
 
 ["0.11-0"]
 DataStructures = "0.18"
-Statistics = "1.7.0-1"
 
 ["0.11-0.12.0"]
 UnitfulChainRules = "0.1"
 Zygote = "0.6.37-0.6.40"
+
+["0.11-0.20"]
+Statistics = "1.7.0-1"
 
 ["0.12-0"]
 FLoops = "0.2"
@@ -102,12 +106,14 @@ SimpleCrystals = "0.1.6-0.1"
 
 ["0.18.1-0"]
 ChainRules = "1.44.0-1"
-LinearAlgebra = "1.7.0-1"
-Random = "1.7.0-1"
 SimpleCrystals = "0.2"
-SparseArrays = "1.7.0-1"
 UnitfulAtomic = "1"
 Zygote = "0.6.67-0.6"
+
+["0.18.1-0.20"]
+LinearAlgebra = "1.7.0-1"
+Random = "1.7.0-1"
+SparseArrays = "1.7.0-1"
 
 ["0.18.3"]
 Enzyme = "0.11.11-0.11"
@@ -143,8 +149,16 @@ StaticArrays = ["0.12", "1"]
 Distances = "0.10"
 NearestNeighbors = "0.4"
 
-["0.20-0"]
+["0.20"]
 Enzyme = "0.11.15-0.11"
+
+["0.21-0"]
+Enzyme = "0.11.15-0.12"
+LinearAlgebra = "1.9.0-1"
+Random = "1.9.0-1"
+SparseArrays = "1.9.0-1"
+Statistics = "1.9.0-1"
+julia = "1.9.0-1"
 
 ["0.3-0"]
 Distributions = "0.23-0.25"
@@ -178,7 +192,6 @@ NNlib = "0.7"
 ["0.6-0"]
 ChainRulesCore = "1"
 Reexport = "1"
-julia = "1.7.0-1"
 
 ["0.6-0.10.2"]
 Zygote = "0.6.30-0.6"
@@ -192,6 +205,9 @@ StaticArrays = "1"
 ["0.6-0.14.2"]
 BioStructures = "1"
 ForwardDiff = "0.10"
+
+["0.6-0.20"]
+julia = "1.7.0-1"
 
 ["0.7-0.14"]
 AtomsBase = "0.2"
