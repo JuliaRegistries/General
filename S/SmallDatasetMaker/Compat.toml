@@ -2,8 +2,14 @@
 CSV = "0.10.9-0.10"
 CodecZlib = "0.7.1-0.7"
 DataFrames = "1.5.0-1"
-GZip = "0.5.1-0.5"
-OkFiles = "0.4.1-0.4"
 OrderedCollections = "1.4.1-1"
 PrettyTables = "2.2.2-2"
 julia = "1.6.0-1"
+
+["0-0.1"]
+GZip = "0.5.1-0.5"
+OkFiles = "0.4.1-0.4"
+
+["0.2-0"]
+GZip = ["0.5.1-0.5", "0.6.2-0.6"]
+OkFiles = "0.4.1-0.5"
