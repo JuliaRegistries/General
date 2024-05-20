@@ -1,5 +1,4 @@
 [0]
-Statistics = "1.2.0-1"
 julia = "1.2.0-1"
 
 ["0-0.1"]
@@ -11,6 +10,9 @@ PhyloNetworks = "0.10.0-0.11"
 SpecialFunctions = "0.8.0-0.10"
 StatsBase = "0.0.0-0.33"
 StatsFuns = "0.0.0-0.9"
+
+["0-0.5.0"]
+Statistics = "1.2.0-1"
 
 ["0.2"]
 SpecialFunctions = "0.8-0.10"
@@ -24,15 +26,15 @@ DataFrames = "0.13-0.20"
 NLopt = "0.5.1-0.5"
 PhyloNetworks = "0.11"
 
-["0.2.1-0"]
-NLopt = "0.5.1-0.6"
-
 ["0.2.1-0.2"]
 CSV = "0.4-0.7"
 DataFrames = "0.13-0.21"
 
 ["0.2.1-0.3.0"]
 PhyloNetworks = "0.11-0.12"
+
+["0.2.1-0.5.0"]
+NLopt = "0.5.1-0.6"
 
 ["0.3-0.3.1"]
 CSV = "0.4-0.8"
@@ -68,3 +70,7 @@ PhyloCoalSimulations = ["0.1", "1"]
 ["0.5-0"]
 PhyloNetworks = "0.16"
 StaticArrays = ["0.9-0.12", "1"]
+
+["0.5.1-0"]
+NLopt = ["0.5.1-0.6", "1"]
+Statistics = "1"
