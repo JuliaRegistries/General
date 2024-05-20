@@ -97,8 +97,13 @@ OptimizationBase = "0.0.5"
 ["3.25-3"]
 ADTypes = ["0.2.5-0.2", "1"]
 LBFGSB = "0.4.1-0.4"
-OptimizationBase = "0.0.7"
 SciMLBase = "2.30.0-2"
+
+["3.25.0"]
+OptimizationBase = "0.0.7"
+
+["3.25.1-3"]
+OptimizationBase = ["0.0.7", "1"]
 
 ["3.7-3.9.0"]
 SciMLBase = "1.39.0-1"
