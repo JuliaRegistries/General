@@ -1,16 +1,26 @@
 [0]
 AbstractFFTs = "1"
-FFTW = "1.4.0-1"
 LinearInterpolators = "0.1"
-OffsetArrays = "1.10.0-1"
-julia = "1.6.0-1"
 
 ["0-0.0.1"]
 ImageFiltering = "0.7"
 
+["0-0.1"]
+FFTW = "1.4.0-1"
+OffsetArrays = "1.10.0-1"
+julia = "1.6.0-1"
+
 ["0.0.2-0.0"]
 ImageFiltering = "0.6"
 
+["0.1"]
+LinearMapsAA = "0.10"
+
 ["0.1-0"]
 ImageFiltering = "0.6-0.7"
-LinearMapsAA = "0.10"
+
+["0.2-0"]
+FFTW = "1"
+LinearMapsAA = "0.12"
+OffsetArrays = "1"
+julia = "1.10.0-1"
