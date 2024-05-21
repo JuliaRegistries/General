@@ -29,12 +29,14 @@ HyperbolicCrossApprox = "0.1.2-0.1"
 ChebyshevApprox = "0.1.5-0.1"
 
 ["0.4.26-0"]
-HyperbolicCrossApprox = "0.2"
-SmolyakApprox = "0.2"
 julia = "1.6.0-1"
 
 ["0.4.26-0.5.5"]
 ChebyshevApprox = "0.2"
+
+["0.4.26-0.5.6"]
+HyperbolicCrossApprox = "0.2"
+SmolyakApprox = "0.2"
 
 ["0.4.3-0"]
 ThreadPools = "2"
@@ -55,5 +57,10 @@ NLboxsolve = "0.2"
 ["0.5.1-0"]
 NLboxsolve = "0.4"
 
-["0.5.6-0"]
+["0.5.6"]
 ChebyshevApprox = "0.3"
+
+["0.5.7-0"]
+ChebyshevApprox = "0.4"
+HyperbolicCrossApprox = "0.3"
+SmolyakApprox = "0.3"
