@@ -94,7 +94,7 @@ LazyBandedMatrices = "0.3.6-0.6"
 BlockBandedMatrices = "0.9-0.11"
 LazyBandedMatrices = "0.3.6-0.7"
 
-["0.3-0"]
+["0.3"]
 julia = "1.6.0-1"
 
 ["0.3-0.3.1"]
@@ -126,16 +126,24 @@ LazyBandedMatrices = "0.7.2-0.8"
 ["0.3.6"]
 MatrixFactorizations = ["0.8-0.9", "1"]
 
-["0.3.6-0"]
+["0.3.6-0.3"]
 ArrayLayouts = ["0.7-0.8", "1"]
 BlockBandedMatrices = "0.11-0.12"
 LazyArrays = ["0.22", "1"]
 
-["0.3.7-0"]
+["0.3.7-0.3"]
 MatrixFactorizations = ["0.8-0.9", "1-2"]
 
-["0.3.8-0"]
+["0.3.8-0.3"]
 LazyBandedMatrices = "0.7.2-0.9"
 
-["0.3.9-0"]
+["0.3.9-0.3"]
 BandedMatrices = ["0.16-0.17", "1"]
+
+["0.4-0"]
+ArrayLayouts = "1"
+BandedMatrices = "1.7.0-1"
+BlockBandedMatrices = "0.13"
+LazyArrays = "2"
+MatrixFactorizations = "3"
+julia = "1.10.0-1"
