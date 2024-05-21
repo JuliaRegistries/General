@@ -50,9 +50,11 @@ BenchmarkTools = "0.4-0.6"
 ["0.14.7-0.14.9"]
 BenchmarkTools = "0.4-0.7"
 
+["0.15"]
+MathOptInterface = "1"
+
 ["0.15-0"]
 BenchmarkTools = "1"
-MathOptInterface = "1"
 julia = "1.6.0-1"
 
 ["0.15.2"]
@@ -63,3 +65,9 @@ AbstractTrees = "0.2-0.4"
 
 ["0.15.3-0"]
 LDLFactorizations = "0.8.1-0.10"
+
+["0.16-0"]
+LinearAlgebra = ["0.0.0", "1.6.0-1"]
+MathOptInterface = "1.17.0-1"
+SparseArrays = ["0.0.0", "1.6.0-1"]
+Test = ["0.0.0", "1.6.0-1"]
