@@ -55,7 +55,6 @@ QuasiArrays = "0.4-0.6"
 julia = "1.6.0-1"
 
 ["0.2-0"]
-BlockArrays = "0.16"
 StaticArrays = "1"
 
 ["0.2-0.2.1"]
@@ -70,6 +69,9 @@ FastTransforms = "0.12"
 
 ["0.2-0.2.4"]
 SpecialFunctions = "1"
+
+["0.2-0.5"]
+BlockArrays = "0.16"
 
 ["0.2.0"]
 QuasiArrays = "0.6"
@@ -168,9 +170,11 @@ QuasiArrays = "0.9-0.11"
 ["0.4.7-0.5.2"]
 InfiniteArrays = "0.12-0.13"
 
+["0.5"]
+julia = "1.9.0-1"
+
 ["0.5-0"]
 QuasiArrays = "0.11"
-julia = "1.9.0-1"
 
 ["0.5-0.5.1"]
 DomainSets = "0.6"
@@ -192,12 +196,24 @@ FastTransforms = "0.15"
 InfiniteArrays = "0.13"
 
 ["0.5.3-0"]
-BlockBandedMatrices = "0.12"
-ClassicalOrthogonalPolynomials = "0.12"
-ContinuumArrays = "0.17"
 DomainSets = "0.7"
 IntervalSets = "0.7"
 
+["0.5.3-0.5"]
+BlockBandedMatrices = "0.12"
+ClassicalOrthogonalPolynomials = "0.12"
+ContinuumArrays = "0.17"
+
 ["0.5.4-0"]
 FastTransforms = "0.15-0.16"
+
+["0.5.4-0.5"]
 InfiniteArrays = "0.13.8-0.13"
+
+["0.6-0"]
+BlockArrays = "1"
+BlockBandedMatrices = "0.13"
+ClassicalOrthogonalPolynomials = "0.13"
+ContinuumArrays = "0.18"
+InfiniteArrays = "0.14"
+julia = "1.10.0-1"
