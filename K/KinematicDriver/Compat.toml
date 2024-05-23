@@ -1,8 +1,4 @@
 [0]
-ClimaCore = "0.13"
-ClimaCorePlots = "0.2"
-ClimaParams = "0.10.5-0.10"
-CloudMicrophysics = "0.19"
 DiffEqBase = "6"
 Distributions = "0.25"
 DocStringExtensions = "0.9.3-0.9"
@@ -21,3 +17,15 @@ SpecialFunctions = "2.3.0-2"
 TerminalLoggers = "0.1"
 Thermodynamics = "0.12.6-0.12"
 julia = "1.8.0-1"
+
+["0-0.8"]
+ClimaCore = "0.13"
+ClimaCorePlots = "0.2"
+ClimaParams = "0.10.5-0.10"
+CloudMicrophysics = "0.19"
+
+["0.9-0"]
+ClimaCore = "0.14"
+ClimaParams = "0.10.7-0.10"
+CloudMicrophysics = "0.20"
+Cloudy = "0.5.3-0.5"

@@ -1,6 +1,5 @@
 [0]
 ClimaCore = "d414da3d-4745-48bb-8d80-42e94e092884"
-ClimaCorePlots = "cf7c7e5a-b407-4c48-9047-11a94a308626"
 ClimaParams = "5c42b081-d73a-476f-9059-fd94b934656c"
 CloudMicrophysics = "6a9e3e04-43cd-43ba-94b9-e8782df3c71b"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
@@ -20,3 +19,9 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
 Thermodynamics = "b60c26fb-14c3-4610-9d3e-2d17fe7ff00c"
+
+["0-0.8"]
+ClimaCorePlots = "cf7c7e5a-b407-4c48-9047-11a94a308626"
+
+["0.9-0"]
+Cloudy = "9e3b23bb-e7cc-4b94-886c-65de2234ba87"
