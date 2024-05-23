@@ -22,27 +22,43 @@ Flatten = "0.0.0-0.2"
 ["0.10-0.10.10"]
 StringDistances = "0.10"
 
-["0.10.11-0"]
+["0.10.11-0.13.2"]
 ImageFiltering = "0.6-0.7"
 StringDistances = "0.10-0.11"
 
-["0.11.1-0"]
+["0.11.1-0.13.2"]
 SciMLBase = "1"
 
-["0.11.2-0"]
+["0.11.2-0.13.2"]
 Bijectors = "0.8-0.10"
 
-["0.11.3-0"]
+["0.11.3-0.13.2"]
 NCDatasets = "0.10-0.12"
 
 ["0.12-0"]
 MAT = "0.10"
 
-["0.13-0"]
+["0.13-0.13.2"]
 Shapefile = "0.6-0.8"
 
-["0.13.1-0"]
+["0.13.1-0.13.2"]
 Interpolations = "0.12-0.14"
+
+["0.13.3-0"]
+Bijectors = "0.13"
+DataFrames = "1"
+Distances = "0.10"
+Distributions = "0.25"
+Downloads = "1"
+Flatten = "0.4"
+ImageFiltering = "0.7"
+Interpolations = "0.15"
+NCDatasets = "0.14"
+Reexport = "1"
+SciMLBase = "2"
+Shapefile = "0.13"
+SparseArrays = "1"
+StringDistances = "0.11"
 
 ["0.2"]
 BSON = "0.0.0-0.2"
@@ -194,12 +210,12 @@ Interpolations = "0.12-0.13"
 ["0.7.12-0.8.6"]
 Distributions = "0.23-0.24"
 
-["0.7.13-0"]
-Distances = "0.9-0.10"
-Flatten = "0.3-0.4"
-
 ["0.7.13-0.13.1"]
 UnitfulRecipes = ["0.2", "1"]
+
+["0.7.13-0.13.2"]
+Distances = "0.9-0.10"
+Flatten = "0.3-0.4"
 
 ["0.7.13-0.7"]
 TransformVariables = "0.3"
@@ -219,7 +235,7 @@ DataFrames = "0.20-0.22"
 ["0.8.2-0.11.2"]
 NCDatasets = "0.10-0.11"
 
-["0.8.3-0"]
+["0.8.3-0.13.2"]
 Reexport = ["0.2", "1"]
 
 ["0.8.4-0.12"]
@@ -231,12 +247,12 @@ BSON = "0.2-0.3"
 ["0.8.6-0.10.10"]
 ImageFiltering = "0.6"
 
-["0.8.7-0"]
-DataFrames = ["0.20-0.22", "1"]
-Distributions = "0.23-0.25"
-
 ["0.8.7-0.11.1"]
 Bijectors = "0.8-0.9"
+
+["0.8.7-0.13.2"]
+DataFrames = ["0.20-0.22", "1"]
+Distributions = "0.23-0.25"
 
 ["0.9-0"]
 CodecZlib = "0.7"
