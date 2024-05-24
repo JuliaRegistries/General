@@ -175,7 +175,6 @@ LLVM = "5"
 
 ["0.5-0"]
 AbstractFFTs = "1"
-LLVM = "6"
 SpecialFunctions = "2"
 julia = "1.9.0-1"
 
@@ -194,6 +193,9 @@ CEnum = "0.4"
 ["0.5-0.8.7"]
 LLD_jll = "14-15"
 LLVM_jll = "14-15"
+
+["0.5-0.9.1"]
+LLVM = "6"
 
 ["0.5.0"]
 HIP_jll = "5"
@@ -248,6 +250,12 @@ LLD_jll = "14-16"
 LLVM_jll = "14-16"
 
 ["0.8.9-0"]
-GPUCompiler = "0.25-0.26"
 PrettyTables = "2"
 StaticArraysCore = "1"
+
+["0.8.9-0.9.1"]
+GPUCompiler = "0.25-0.26"
+
+["0.9.2-0"]
+GPUCompiler = "0.26.5-0.26"
+LLVM = "7"
