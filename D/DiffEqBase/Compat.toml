@@ -125,7 +125,6 @@ SciMLBase = "1.73.0-1"
 
 ["6.109-6"]
 DocStringExtensions = "0.9"
-FastBroadcast = "0.2"
 Reexport = "1"
 
 ["6.109-6.110"]
@@ -144,6 +143,9 @@ ArrayInterfaceCore = "0.1.26-0.1"
 ChainRulesCore = "1"
 Distributions = "0.25"
 Requires = "1"
+
+["6.109-6.151.1"]
+FastBroadcast = "0.2"
 
 ["6.11-6.142"]
 RecursiveArrayTools = "2"
@@ -250,6 +252,9 @@ ArrayInterface = "7.8.0-7"
 ["6.149-6"]
 ConcreteStructs = "0.2.3-0.2"
 FastClosures = "0.3.2-0.3"
+
+["6.151.2-6"]
+FastBroadcast = "0.2-0.3"
 
 ["6.18-6.34"]
 ChainRulesCore = "0.4-0.7"
