@@ -84,7 +84,6 @@ ConcreteStructs = "0.2.3-0.2"
 FiniteDiff = "2.22.0-2"
 ForwardDiff = "0.10.36-0.10"
 LinearAlgebra = "1.10.0-1"
-MaybeInplace = "0.1.1-0.1"
 PrecompileTools = "1.2.0-1"
 Reexport = "1.2.0-1"
 StaticArraysCore = "1.4.2-1"
@@ -94,6 +93,9 @@ julia = "1.10.0-1"
 ArrayInterface = "7.7.0-7"
 DiffEqBase = "6.146.0-6"
 
+["1.5-1.8.0"]
+MaybeInplace = "0.1.1-0.1"
+
 ["1.6"]
 SciMLBase = "2.26.3-2"
 
@@ -101,10 +103,18 @@ SciMLBase = "2.26.3-2"
 DiffResults = "1.1.0-1"
 
 ["1.7-1"]
-ArrayInterface = "7.8.0-7"
 DiffEqBase = "6.149.0-6"
 FastClosures = "0.3.2-0.3"
+
+["1.7-1.8.0"]
+ArrayInterface = "7.8.0-7"
 SciMLBase = "2.28.0-2"
 
-["1.8-1"]
+["1.8.0"]
 ADTypes = ["0.2.6-0.2", "1"]
+
+["1.8.1-1"]
+ADTypes = "1.2.0-1"
+ArrayInterface = "7.9.0-7"
+MaybeInplace = "0.1.3-0.1"
+SciMLBase = "2.37.0-2"
