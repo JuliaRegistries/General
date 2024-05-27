@@ -46,7 +46,7 @@ TimeSeriesEcon = "0.3.2-0.3"
 ["0.3"]
 TimeSeriesEcon = "0.4"
 
-["0.3-0"]
+["0.3-0.5.1"]
 JLD2 = "0.4"
 
 ["0.3.0"]
@@ -69,15 +69,23 @@ TimeSeriesEcon = "0.5.1-0.5"
 
 ["0.5-0"]
 ModelBaseEcon = "0.6"
-TimeSeriesEcon = "0.6"
 TimerOutputs = "0.5"
+
+["0.5-0.5.1"]
+TimeSeriesEcon = "0.6"
 
 ["0.5.0"]
 Pardiso = "0.5"
 
+["0.5.1"]
+Pardiso = "0.5.4-0.5"
+
 ["0.5.1-0"]
 LinearAlgebra = "1.7.0-1"
-Pardiso = "0.5.4-0.5"
 Printf = "1.7.0-1"
 Random = "1.7.0-1"
 SparseArrays = "1.7.0-1"
+
+["0.5.2-0"]
+Pardiso = "0.5"
+TimeSeriesEcon = "0.7"
