@@ -109,8 +109,13 @@ ForwardDiff = "0.10.13-0.10"
 LogDensityProblems = "2.1.0-2"
 Optim = "1.6.2-1"
 Optimization = "3.5.0-3"
-OptimizationOptimJL = "0.1.1-0.2"
 Requires = "1.1.0-1"
 SciMLBase = "1.61.2-2"
 StatsBase = "0.33.1-0.34"
 Transducers = "0.4.66-0.4"
+
+["0.8.3-0.8.6"]
+OptimizationOptimJL = "0.1.1-0.2"
+
+["0.8.7-0"]
+OptimizationOptimJL = "0.1.1-0.3"
