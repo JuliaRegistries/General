@@ -257,7 +257,7 @@ CUDA_Driver_jll = "0.5"
 ["4.1.2-4.1"]
 CUDA_Runtime_jll = "0.5"
 
-["4.1.2-5"]
+["4.1.2-5.3"]
 CUDA_Runtime_Discovery = "0.2"
 
 ["4.1.3-4.2"]
@@ -278,7 +278,7 @@ GPUCompiler = "0.20"
 ["4.4-4"]
 GPUCompiler = "0.21"
 
-["4.4-5"]
+["4.4-5.3"]
 LLVM = "6"
 
 [5]
@@ -326,7 +326,15 @@ BFloat16s = "0.2-0.5"
 GPUArrays = "10.0.1-10"
 StaticArrays = "1"
 
-["5.3-5"]
+["5.3"]
 CUDA_Driver_jll = "0.8"
 CUDA_Runtime_jll = "0.12"
+
+["5.3-5"]
 GPUCompiler = "0.24-0.26"
+
+["5.4-5"]
+CUDA_Driver_jll = "0.9"
+CUDA_Runtime_Discovery = "0.3.3-0.3"
+CUDA_Runtime_jll = "0.14"
+LLVM = "6-7"
