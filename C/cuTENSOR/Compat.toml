@@ -30,8 +30,10 @@ CUDA = "5.0"
 CUDA = "5.1"
 
 ["1.2.1-2"]
-CUDA_Runtime_Discovery = "0.2"
 LinearAlgebra = "1"
+
+["1.2.1-2.1.0"]
+CUDA_Runtime_Discovery = "0.2"
 
 [2]
 CEnum = "0.2-0.5"
@@ -41,5 +43,9 @@ julia = "1.8.0-1"
 ["2.0"]
 CUDA = "5.1-5.2"
 
-["2.1-2"]
+["2.1.0"]
 CUDA = "5.3"
+
+["2.1.1-2"]
+CUDA = "5.4"
+CUDA_Runtime_Discovery = "0.2-0.3"
