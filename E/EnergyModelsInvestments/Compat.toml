@@ -1,7 +1,9 @@
 [0]
 JuMP = "1.5.0-1"
-TimeStruct = "0.7"
 julia = "1.9.0-1"
+
+["0-0.5"]
+TimeStruct = "0.7"
 
 ["0-0.5.2"]
 EnergyModelsBase = "0.6"
@@ -9,5 +11,10 @@ EnergyModelsBase = "0.6"
 ["0.5.3"]
 EnergyModelsBase = "0.6.6-0.6"
 
-["0.5.4-0"]
+["0.5.4-0.5"]
 EnergyModelsBase = "0.6.7-0.6"
+
+["0.6-0"]
+EnergyModelsBase = "0.7"
+SparseVariables = "0.7.2-0.7"
+TimeStruct = "0.8"
