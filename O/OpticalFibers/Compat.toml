@@ -19,7 +19,6 @@ Gridap = "0.17.19-0.17"
 Interpolations = "0.14"
 
 ["0.1.2-0"]
-Gridap = "0.17.20-0.17"
 LinearAlgebra = "1"
 SparseArrays = "1"
 
@@ -27,11 +26,13 @@ SparseArrays = "1"
 FastGaussQuadrature = ["0.4.9-0.5", "1"]
 Interpolations = "0.15"
 
+["0.1.2-0.2.0"]
+Gridap = "0.17.20-0.17"
+
 ["0.2-0"]
 ArnoldiMethod = "0.4"
 Bessels = "0.2"
 FFTW = "1.7.0-1"
-GridapGmsh = "0.7"
 HCubature = "1.5.0-1"
 Interpolations = "0.14-0.15"
 MUMPS = "1.4.0"
@@ -39,3 +40,9 @@ NearestNeighbors = "0.4"
 ProgressMeter = "1"
 Roots = "2"
 StaticArrays = "1"
+
+["0.2.0"]
+GridapGmsh = "0.7"
+
+["0.2.1-0"]
+Gridap = "0.17.20-0.18"
