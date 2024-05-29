@@ -1,6 +1,4 @@
 [0]
-AMDGPU = "0.6-0.8"
-GeoParams = "0.5"
 HDF5 = "0.17.1-0.17"
 MPI = "0.20"
 MuladdMacro = "0.2"
@@ -19,10 +17,20 @@ ParallelStencil = "0.9-0.10"
 StaticArrays = "1.6.5-1"
 Statistics = "1.9.0-1"
 
+["0-0.2.0"]
+AMDGPU = "0.6-0.8"
+GeoParams = "0.5"
+
 ["0.1.2-0"]
-Adapt = "3"
 CellArrays = "0.2"
 ImplicitGlobalGrid = "0.15"
 ParallelStencil = "0.12"
 StaticArrays = "1"
 Statistics = "1"
+
+["0.1.2-0.2.0"]
+Adapt = "3"
+
+["0.2.1-0"]
+Adapt = "4"
+GeoParams = "0.5-0.6"
