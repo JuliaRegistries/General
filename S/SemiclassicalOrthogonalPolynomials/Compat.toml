@@ -161,13 +161,12 @@ SingularIntegrals = "0.0.1"
 ["0.3.4-0"]
 ArrayLayouts = "1"
 FillArrays = "1"
+
+["0.3.4-0.5.5"]
 LazyArrays = "1"
 
 ["0.3.5"]
 SingularIntegrals = "0.0.2"
-
-["0.3.5-0"]
-julia = "1.9.0-1"
 
 ["0.3.5-0.3"]
 ClassicalOrthogonalPolynomials = "0.9-0.10"
@@ -178,6 +177,9 @@ QuasiArrays = "0.9-0.10"
 
 ["0.3.5-0.5.0"]
 InfiniteLinearAlgebra = "0.6.19-0.6"
+
+["0.3.5-0.5.5"]
+julia = "1.9.0-1"
 
 ["0.3.6-0.3"]
 SingularIntegrals = ["0.0.2", "0.1"]
@@ -198,7 +200,7 @@ ContinuumArrays = "0.14"
 ["0.5.1"]
 ContinuumArrays = "0.15"
 
-["0.5.1-0"]
+["0.5.1-0.5.5"]
 InfiniteArrays = "0.13"
 InfiniteLinearAlgebra = "0.7"
 
@@ -211,8 +213,16 @@ BandedMatrices = ["0.17", "1"]
 ["0.5.4"]
 ClassicalOrthogonalPolynomials = "0.11-0.12"
 
-["0.5.4-0"]
+["0.5.4-0.5.5"]
 ContinuumArrays = "0.15-0.17"
 
-["0.5.5-0"]
+["0.5.5"]
 ClassicalOrthogonalPolynomials = "0.12.4-0.12"
+
+["0.5.6-0"]
+ClassicalOrthogonalPolynomials = "0.13"
+ContinuumArrays = "0.18"
+InfiniteArrays = "0.14"
+InfiniteLinearAlgebra = "0.8"
+LazyArrays = "2"
+julia = "1.10.0-1"
