@@ -20,6 +20,11 @@ DocInventories = "0.2-0.3"
 DocInventories = "0.3"
 
 ["0.3-0"]
-DocInventories = "0.3-0.4"
 DocumenterInventoryWritingBackport = "0.1"
 TOML = "1"
+
+["0.3-0.3.1"]
+DocInventories = "0.3-0.4"
+
+["0.3.2-0"]
+DocInventories = ["0.3-0.4", "1"]
