@@ -21,6 +21,15 @@ NetCDF = "0.10-0.11"
 Primes = "0.5"
 ProgressMeter = "1.7.0-1"
 
+["0.10-0"]
+Dates = "1.9.0-1"
+GPUArrays = "10"
+LinearAlgebra = "1.9.0-1"
+Printf = "1.9.0-1"
+Random = "1.9.0-1"
+Statistics = "1.9.0-1"
+julia = "1.9.0-1"
+
 ["0.2-0.4"]
 UnicodePlots = "2.10.0-3"
 julia = "1.7.0-1"
@@ -54,11 +63,13 @@ UnicodePlots = "3.3.2-3"
 ["0.5-0"]
 DocStringExtensions = "0.9"
 FLoops = "0.2"
-Statistics = "1.8.0-1"
-julia = "1.8.0-1"
 
 ["0.5-0.6"]
 FastGaussQuadrature = "0.4-0.5"
+
+["0.5-0.9"]
+Statistics = "1.8.0-1"
+julia = "1.8.0-1"
 
 ["0.6"]
 CUDA = "4"
@@ -72,12 +83,14 @@ NCDatasets = "0.12-0.13"
 
 ["0.7-0"]
 CUDA = "4-5"
-Dates = "1.8.0-1"
 FastGaussQuadrature = ["0.4-0.5", "1"]
+TOML = "1"
+
+["0.7-0.9"]
+Dates = "1.8.0-1"
 LinearAlgebra = "1.8.0-1"
 Printf = "1.8.0-1"
 Random = "1.8.0-1"
-TOML = "1"
 
 ["0.8-0"]
 Adapt = "3-4"
