@@ -32,9 +32,9 @@ version = "0.7.4"
 
 [[deps.Compat]]
 deps = ["Dates", "LinearAlgebra", "TOML", "UUIDs"]
-git-tree-sha1 = "c955881e3c981181362ae4088b35995446298b80"
+git-tree-sha1 = "b1c55339b7c6c350ee89f2c1604299660525b248"
 uuid = "34da2185-b29b-5c13-b0c7-acf172513d20"
-version = "4.14.0"
+version = "4.15.0"
 
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
@@ -88,9 +88,9 @@ version = "5.9.0"
 
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "ConcurrentUtilities", "Dates", "ExceptionUnwrapping", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
-git-tree-sha1 = "2c3ec1f90bb4a8f7beafb0cffea8a4c3f4e636ab"
+git-tree-sha1 = "d1d712be3164d61d1fb98e7ce9bcbc6cc06b45ed"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "1.10.6"
+version = "1.10.8"
 
 [[deps.InlineStrings]]
 deps = ["Parsers"]
@@ -290,9 +290,9 @@ uuid = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 [[deps.StaticArrays]]
 deps = ["LinearAlgebra", "PrecompileTools", "Random", "StaticArraysCore", "Statistics"]
-git-tree-sha1 = "bf074c045d3d5ffd956fa0a461da38a44685d6b2"
+git-tree-sha1 = "9ae599cd7529cfce7fea36cf00a62cfc56f0f37c"
 uuid = "90137ffa-7385-5640-81b9-e52037218182"
-version = "1.9.3"
+version = "1.9.4"
 
 [[deps.StaticArraysCore]]
 git-tree-sha1 = "36b3d696ce6366023a0ea192b4cd442268995a0d"
@@ -337,15 +337,15 @@ uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [[deps.TimeZones]]
 deps = ["Dates", "Downloads", "InlineStrings", "Mocking", "Printf", "RecipesBase", "Scratch", "TZJData", "Unicode", "p7zip_jll"]
-git-tree-sha1 = "96793c9316d6c9f9be4641f2e5b1319a205e6f27"
+git-tree-sha1 = "a6ae8d7a27940c33624f8c7bde5528de21ba730d"
 uuid = "f269a46b-ccf7-5d73-abea-4c690281aa53"
-version = "1.15.0"
+version = "1.17.0"
 
 [[deps.TranscodingStreams]]
 deps = ["Random", "Test"]
-git-tree-sha1 = "71509f04d045ec714c4748c785a59045c3736349"
+git-tree-sha1 = "a947ea21087caba0a798c5e494d0bb78e3a1a3a0"
 uuid = "3bb67fe8-82b1-5028-8e26-92a6c54297fa"
-version = "0.10.7"
+version = "0.10.9"
 
 [[deps.URIs]]
 git-tree-sha1 = "67db6cc7b3821e19ebe75791a9dd19c9b1188f2b"
