@@ -8,6 +8,11 @@ julia = "1"
 ["2-2.9.0"]
 zfp_jll = "0.5.5"
 
+["2.10-2"]
+HDF5_jll = "1.14.3-1.14"
+MPItrampoline_jll = "5.3.3-5"
+OpenMPI_jll = "4.1.6-5"
+
 ["2.8-2"]
 JLLWrappers = "1.4.0-1"
 LazyArtifacts = "1"
@@ -24,9 +29,11 @@ MPItrampoline_jll = "5.0.1-5"
 HDF5_jll = "1.12"
 
 ["2.9.1-2"]
+zfp_jll = "1"
+
+["2.9.1-2.9"]
 HDF5_jll = "1.14"
 MPItrampoline_jll = "5.3.0-5"
-zfp_jll = "1"
 
 ["2.9.3-2"]
 Artifacts = "1"
