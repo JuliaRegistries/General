@@ -21,19 +21,19 @@ jobs:
       fail-fast: false
       matrix:
         version:
+          # Keep this list in sync with `ci.yml`.
           - '1.3'
           - '1.4'
           - '1.5'
           - '1.6'
           - '1.7'
           - '1.8'
-          # - '1.9' # TODO: uncomment this line once Julia 1.10.0 is released
-          # - '~1.10.0-0' # TODO: uncomment this line once the first Julia 1.10.0 release candidate comes out. TODO: delete this line once Julia 1.10.0 is released
-          - '1'
-          - 'nightly'
+          - '1.9'
+          - '1.10'
+          # - 'nightly' # TODO: uncomment this line
     steps:
-      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.3.0
-      - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc # v1.9.2
+      - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v3.3.0
+      - uses: julia-actions/setup-julia@f2258781c657ad9b4b88072c5eeaf9ec8c370874 # v2.0.0
         with:
           version: ${{ matrix.version }}
           arch: x64
@@ -50,7 +50,7 @@ jobs:
               echo "The manifest file does not exist, so I will create a new manifest from scratch."
           fi
       - name: Cache artifacts
-        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # v3.3.1
+        uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4.0.2
         env:
           cache-name: cache-artifacts
         with:
@@ -77,7 +77,7 @@ jobs:
         shell: julia --color=yes {0}
       - run: mv .ci/Manifest.toml .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml
       - run: git status
-      - uses: actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce # v3.1.2
+      - uses: actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808 # v4.3.3
         with:
           name: manifest_file_for_${{ steps.manifest_version.outputs.manifest_version }}
           path: .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml
@@ -89,11 +89,11 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9
+      - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29
       - run: rm -rf /tmp/manifest_updater
       - run: mkdir /tmp/manifest_updater
       - run: chmod 700 /tmp/manifest_updater
-      - uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
+      - uses: actions/download-artifact@65a9edc5881444af0b9093a5e628f2fe47ea3b2e # v4.1.7
         with:
           path: /tmp/manifest_updater/download_artifacts
       - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml .ci
@@ -102,7 +102,7 @@ jobs:
       - run: chmod 600 .ci/Project.toml
       - run: chmod 600 .ci/Manifest.*.toml
       - run: git status
-      - uses: peter-evans/create-pull-request@153407881ec5c347639a548ade7d8ad1d6740e38 # v5.0.2
+      - uses: peter-evans/create-pull-request@6d6857d36972b65feb161a90e484f2984215f83e # v6.0.5
         with:
           token: ${{ secrets.TAGBOT_TOKEN }}
           delete-branch: true

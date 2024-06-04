@@ -1,5 +1,4 @@
 [0]
-Formatting = "0.3.3-0.4"
 GLM = "1"
 
 ["0-0.1"]
@@ -13,9 +12,14 @@ StatsBase = "0.0.0-0.33"
 StatsModels = "0.5"
 julia = ["0.7", "1"]
 
+["0-0.2"]
+Formatting = "0.3.3-0.4"
+
+["0.2"]
+julia = "1"
+
 ["0.2-0"]
 Parameters = "0.12"
-julia = "1"
 
 ["0.2-0.2.3"]
 Distributions = "0.20-0.24"
@@ -45,3 +49,7 @@ Distributions = "0.20-0.25"
 Compat = "3-4"
 StatsBase = "0.33-0.34"
 StatsModels = "0.6-0.7"
+
+["0.3-0"]
+Format = "1"
+julia = "1.4.0-1"

@@ -1,5 +1,4 @@
 [0]
-Interpolations = "0.14"
 PeriodicTable = "1"
 PhysicalConstants = "0.2.1-0.2"
 ProgressMeter = "1.7.2-1"
@@ -12,10 +11,19 @@ julia = "1.6.0-1"
 AtomicData = "0.1.2-0.1"
 Transparency = "0.2"
 
+["0-0.2.0"]
+Interpolations = "0.14"
+
 ["0.2-0"]
 AtomicData = "0.1.4-0.1"
 DelimitedFiles = "1.6.0-1"
 FortranFiles = "0.6"
-HDF5 = "0.16"
 SpecialFunctions = "2"
 Transparency = "0.2.1-0.2"
+
+["0.2.0"]
+HDF5 = "0.16"
+
+["0.2.1-0"]
+HDF5 = "0.17"
+Interpolations = "0.13-0.15"

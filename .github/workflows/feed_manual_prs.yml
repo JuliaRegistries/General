@@ -9,10 +9,10 @@ jobs:
     if: (github.event.pull_request.user.login != 'JuliaRegistrator') && (github.event.pull_request.user.login != 'jlbuild') && (github.event.pull_request.user.login != 'JuliaTagBot')
     runs-on: ubuntu-latest
     steps:
-    - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc # v1.9.2
+    - uses: julia-actions/setup-julia@f2258781c657ad9b4b88072c5eeaf9ec8c370874 # v2.0.0
       with:
         version: 1.6.2
-    - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.3.0
+    - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v3.3.0
     - name: Send to Slack
       shell: julia --color=yes {0}
       run: |

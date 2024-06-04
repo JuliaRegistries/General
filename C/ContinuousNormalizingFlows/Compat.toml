@@ -1,20 +1,38 @@
 [0]
-AbstractDifferentiation = "0.5"
 ComputationalResources = "0.3"
-DifferentialEquations = "7"
 Distributions = "0.25"
 DistributionsAD = "0.6"
 LuxCore = "0.1"
-MLJBase = "0.21"
 MLUtils = "0.4"
-Optimisers = "0.2"
-OptimizationOptimisers = "0.1"
-PrecompileTools = "1"
 SciMLSensitivity = "7"
-ScientificTypes = "3"
-Statistics = "1.6.0-1"
 Zygote = "0.6"
+
+["0-0.10"]
+Optimisers = "0.2"
+
+["0-0.12"]
+DifferentialEquations = "7"
+
+["0-0.13"]
+MLJBase = "0.21"
+
+["0-0.14.0"]
+AbstractDifferentiation = "0.5"
+
+["0-0.14.1"]
+Statistics = "1.6.0-1"
+
+["0-0.15"]
 julia = "1.6.0-1"
+
+["0-0.15.0"]
+PrecompileTools = "1"
+
+["0-0.16"]
+OptimizationOptimisers = "0.1"
+
+["0-0.22.1"]
+ScientificTypes = "3"
 
 ["0-0.5"]
 DataFrames = "1.2.0-1"
@@ -39,20 +57,108 @@ NNlibCUDA = "0.2"
 ["0-0.9"]
 CUDA = "4"
 
-["0.10-0"]
-Optimization = "3.15.0-3"
+["0.10-0.16"]
 PackageExtensionCompat = "1"
 
-["0.10.1-0"]
+["0.10-0.22.3"]
+Optimization = "3.15.0-3"
+
+["0.10.1-0.15.0"]
 Preferences = "1"
 
+["0.11-0.14.0"]
+ADTypes = "0.1-0.2"
+Optimisers = "0.2-0.3"
+
+["0.13-0.14.0"]
+ComponentArrays = "0.14-0.15"
+
+["0.14.0"]
+MLJBase = ["0.21", "1"]
+SciMLBase = "1-2"
+
+["0.14.1-0"]
+AbstractDifferentiation = "0.6"
+MLJBase = "1"
+Optimisers = "0.3"
+SciMLBase = "2"
+
+["0.14.1-0.15"]
+ComponentArrays = "0.15"
+
+["0.14.1-0.22.0"]
+ADTypes = "0.2"
+
+["0.14.2-0"]
+Dates = "1"
+LinearAlgebra = "1"
+Random = "1"
+Statistics = "1"
+
+["0.16-0"]
+julia = "1.9.0-1"
+
+["0.16-0.22.3"]
+ComponentArrays = "0.15.5-0.15"
+
+["0.17-0.18"]
+OptimizationOptimisers = "0.1-0.2"
+
+["0.19-0"]
+OptimizationOptimisers = "0.2"
+
+["0.20-0.22.3"]
+Octavian = "0.3.27-0.3"
+
+["0.21-0.22"]
+DifferentialEquations = "7"
+
+["0.21-0.22.3"]
+Lux = "0.5.31-0.5"
+
+["0.22-0.22.1"]
+DifferentiationInterface = "0.1-0.2"
+
+["0.22.1-0"]
+ADTypes = ["0.2", "1"]
+
+["0.22.2-0"]
+OrdinaryDiffEq = "6"
+ScientificTypesBase = "3"
+
+["0.22.2-0.22"]
+Static = "0.8"
+
+["0.22.2-0.22.3"]
+DifferentiationInterface = "0.1-0.3"
+
+["0.22.4-0"]
+ComponentArrays = "0.15"
+Lux = "0.5"
+Octavian = "0.3"
+Optimization = "3"
+
+["0.22.4-0.23.1"]
+DifferentiationInterface = "0.1-0.4"
+
+["0.23.2-0"]
+DifferentiationInterface = "0.1-0.5"
+
 ["0.6-0"]
-ADTypes = "0.1"
 DataFrames = "1"
 FillArrays = "1"
 MLJModelInterface = "1"
-ProgressMeter = "1"
+
+["0.6-0.10"]
+ADTypes = "0.1"
+
+["0.6-0.13"]
 SciMLBase = "1"
+
+["0.6-0.20"]
+ProgressMeter = "1"
+
+["0.6-0.21"]
 SparseDiffTools = "2"
 
 ["0.6-0.7.1"]
@@ -74,14 +180,20 @@ cuDNN = "1"
 DiffEqGPU = "2"
 LuxCUDA = "0.1-0.3"
 
-["0.8-0"]
+["0.8-0.20"]
 OrdinaryDiffEq = "6"
 
 ["0.9"]
 LuxCUDA = "0.3"
 
 ["0.9-0"]
-ComponentArrays = "0.14"
-Flux = "0.14"
-Lux = "0.5"
 NNlib = "0.9"
+
+["0.9-0.12"]
+ComponentArrays = "0.14"
+
+["0.9-0.15"]
+Flux = "0.14"
+
+["0.9-0.20"]
+Lux = "0.5"

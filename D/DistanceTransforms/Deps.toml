@@ -1,10 +1,23 @@
-[0]
+["0-0.1"]
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 ImageEdgeDetection = "2b14c160-480b-11ea-1b58-656063328ff7"
-ImageMorphology = "787d08f9-d448-5407-9aad-5290dd7ab264"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 TestSetExtensions = "98d24dd4-01ad-11ea-1b02-c9a08f80db04"
 Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
+
+["0-0.2.0"]
+ImageMorphology = "787d08f9-d448-5407-9aad-5290dd7ab264"
+
+["0.2-0.2.1"]
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+
+["0.2.0"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+FLoops = "cc61a311-1640-44b5-9fba-1b764f453329"
+
+["0.2.1-0"]
+GPUArraysCore = "46192b85-c4d5-4398-a991-12ede77f4527"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"

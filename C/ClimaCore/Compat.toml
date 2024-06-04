@@ -1,14 +1,18 @@
 [0]
-Adapt = "3"
 BlockArrays = "0.16"
 ForwardDiff = "0.10"
 GaussQuadrature = "0.5"
-RecursiveArrayTools = "2"
 StaticArrays = "1"
+
+["0-0.10"]
 UnPack = "1"
 
 ["0-0.10.27"]
 CUDA = "3"
+
+["0-0.11.6"]
+Adapt = "3"
+RecursiveArrayTools = "2"
 
 ["0-0.2"]
 Plots = "1"
@@ -38,12 +42,14 @@ ClimaComms = "0.3"
 ["0.10.10-0.10.21"]
 Static = "0.4-0.7"
 
-["0.10.18-0"]
-Statistics = "1.8.0-1"
-julia = "1.8.0-1"
-
 ["0.10.18-0.10.31"]
 ClimaComms = "0.3.1-0.3"
+
+["0.10.18-0.10.55"]
+Statistics = "1.8.0-1"
+
+["0.10.18-0.11.0"]
+julia = "1.8.0-1"
 
 ["0.10.22-0"]
 Static = "0.4-0.8"
@@ -63,17 +69,44 @@ ClimaComms = "0.3"
 ["0.10.33-0.10.41"]
 ClimaComms = "0.4.2-0.4"
 
-["0.10.35-0"]
+["0.10.35-0.10.51"]
 CUDA = ["3", "4.2.0-4"]
 
-["0.10.37-0"]
+["0.10.37-0.11.0"]
 Requires = "1"
 
-["0.10.42-0"]
+["0.10.42-0.10.55"]
 ClimaComms = "0.5"
 
-["0.10.45-0"]
+["0.10.45-0.10.52"]
 BandedMatrices = "0.17"
+
+["0.10.49-0"]
+RootSolvers = "0.3-0.4"
+
+["0.10.50-0"]
+HDF5 = "0.16-0.17"
+
+["0.10.52"]
+CUDA = ["3", "4.2.0-5"]
+
+["0.10.53"]
+CUDA = ["3", "4.2.0-4"]
+
+["0.10.53-0"]
+BandedMatrices = ["0.17", "1"]
+
+["0.10.54-0.12"]
+CUDA = "4.2.0-5"
+
+["0.10.56-0"]
+InteractiveUtils = "1"
+LinearAlgebra = "1"
+SparseArrays = "1"
+Statistics = "1"
+
+["0.10.56-0.12"]
+ClimaComms = "0.5.6-0.5"
 
 ["0.10.6-0"]
 DocStringExtensions = "0.8-0.9"
@@ -83,11 +116,40 @@ IntervalSets = "0.5-0.7"
 ["0.10.8"]
 PkgVersion = "0.1"
 
-["0.10.8-0"]
+["0.10.8-0.10.49"]
 HDF5 = "0.16"
 
 ["0.10.9-0"]
 PkgVersion = "0.1-0.3"
+
+["0.11-0.11.7"]
+Memoize = "0.4"
+WeakValueDicts = "0.1"
+
+["0.11.1-0"]
+KrylovKit = "0.6"
+julia = "1.9.0-1"
+
+["0.11.6-0"]
+Unrolled = "0.1"
+
+["0.11.7-0"]
+Adapt = "3-4"
+RecursiveArrayTools = "2-3"
+
+["0.13"]
+CUDA = "5"
+ClimaComms = "0.5.7-0.5"
+
+["0.13.4-0.13"]
+MultiBroadcastFusion = "0.2"
+
+["0.14-0"]
+ClimaComms = "0.5.7-0.6"
+MultiBroadcastFusion = "0.3"
+
+["0.14.4-0"]
+NVTX = "0.3"
 
 ["0.4-0.10.47"]
 DiffEqBase = "6.75.0-6"
@@ -107,11 +169,11 @@ TriplotBase = "0.1"
 ["0.6-0.7"]
 Static = "0.4-0.5"
 
-["0.7-0"]
-RootSolvers = "0.3"
-
 ["0.7-0.10.17"]
 julia = "1.7.0-1"
+
+["0.7-0.10.48"]
+RootSolvers = "0.3"
 
 ["0.7-0.9"]
 ClimaComms = "0.1"

@@ -19,6 +19,9 @@ TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 ["0.12.2-0"]
 GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
 
+["0.13.1-0.13"]
+cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
+
 ["0.2.1-0"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
@@ -48,7 +51,7 @@ Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 ["0.3.2-0.8"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
-["0.4-0"]
+["0.4-0.13"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
 ["0.4-0.8"]
@@ -59,6 +62,8 @@ ElasticArrays = "fdbdab4c-e67f-52f5-8c3f-e7b388dad3d4"
 
 ["0.6-0"]
 CircularArrayBuffers = "9de3a189-e0c0-4e15-ba3b-b14b9fb0aec1"
+
+["0.6-0.14"]
 Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
 
 ["0.6-0.8"]
@@ -78,9 +83,11 @@ ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 
 ["0.9-0"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
-Parsers = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 ReinforcementLearningTrajectories = "6486599b-a3cd-4e92-a99a-2cea90cc8c3c"
+
+["0.9-0.14"]
+Parsers = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
 
 ["0.9.1-0"]
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"

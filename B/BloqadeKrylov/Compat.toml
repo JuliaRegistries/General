@@ -1,11 +1,13 @@
 [0]
 Adapt = "3"
-BloqadeExpr = "0.1"
-BloqadeLattices = "0.1"
-BloqadeWaveforms = "0.1"
 Configurations = "0.17"
 ExponentialUtilities = "1"
 ProgressLogging = "0.1"
+
+["0-0.1"]
+BloqadeExpr = "0.1"
+BloqadeLattices = "0.1"
+BloqadeWaveforms = "0.1"
 YaoSubspaceArrayReg = "0.1"
 
 ["0-0.1.2"]
@@ -22,3 +24,9 @@ YaoArrayRegister = "0.9"
 
 ["0.1.8-0"]
 GaussQuadrature = "0.5"
+
+["0.2-0"]
+BloqadeExpr = "0.2.1-0.2"
+BloqadeLattices = "0.2"
+BloqadeWaveforms = "0.2"
+YaoSubspaceArrayReg = "0.2"

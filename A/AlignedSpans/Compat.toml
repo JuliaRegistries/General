@@ -2,11 +2,16 @@
 ArrowTypes = "1-2"
 Intervals = "1.5.0-1"
 StructTypes = "1"
-TimeSpans = "0.2-0.3"
 julia = "1.6.0-1"
 
 ["0-0.2.2"]
 Onda = "0.14"
 
+["0-0.2.6"]
+TimeSpans = "0.2-0.3"
+
 ["0.2.3-0"]
 Onda = "0.14-0.15"
+
+["0.2.7-0"]
+TimeSpans = ["0.2-0.3", "1"]

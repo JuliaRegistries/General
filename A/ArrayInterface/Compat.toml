@@ -44,7 +44,7 @@ Static = "0.6"
 ArrayInterfaceCore = "0.1"
 Compat = "3"
 
-[6-7]
+["6-7.5"]
 julia = "1.6.0-1"
 
 ["6.0.18-6.0.23"]
@@ -60,6 +60,29 @@ Static = "0.8"
 ["6.0.25-7.4.3"]
 SnoopPrecompile = "1"
 
-[7]
+["7-7.6"]
 Adapt = "3"
+
+["7-7.8.0"]
 Requires = "1"
+
+["7.5"]
+LinearAlgebra = "1.6.0-1"
+SparseArrays = "1.6.0-1"
+SuiteSparse = "1.6.0-1"
+
+["7.6-7.7"]
+LinearAlgebra = "1.9.0-1"
+SparseArrays = "1.9.0-1"
+SuiteSparse = "1.9.0-1"
+julia = "1.9.0-1"
+
+["7.7"]
+Adapt = "3-4"
+
+["7.8-7"]
+Adapt = "4"
+LinearAlgebra = "1.10.0-1"
+SparseArrays = "1.10.0-1"
+SuiteSparse = "1.10.0-1"
+julia = "1.10.0-1"

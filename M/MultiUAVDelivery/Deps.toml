@@ -1,9 +1,15 @@
 [0]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MultiAgentPOMDPs = "9ac5fd70-7902-42e7-9745-ff446b44e779"
-POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
 POMDPs = "a93abf59-7444-517b-a68a-c42f96afdd7d"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.1"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+POMDPModelTools = "08074719-1b2a-587c-a292-00f91cc44415"
+
+["0.2-0"]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+POMDPTools = "7588e00f-9cae-40de-98dc-e0c70c48cdd7"

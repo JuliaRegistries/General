@@ -7,7 +7,6 @@ IterTools = "1"
 OnlineStats = "1"
 ProgressMeter = "1"
 Requires = "1"
-StatsBase = "0.32-0.33"
 Tables = ["0.2", "1"]
 
 ["0-0.1"]
@@ -37,6 +36,9 @@ Interpolations = "0.12-0.13"
 Combinatorics = "1"
 FFTW = "1"
 
+["0-0.5.0"]
+StatsBase = "0.32-0.33"
+
 ["0.1.2-0"]
 OffsetArrays = "1"
 Reexport = "1"
@@ -48,12 +50,14 @@ DataFrames = ["0.19-0.22", "1"]
 YAXArrayBase = "0.3"
 
 ["0.2-0"]
-DiskArrays = "0.3"
 OrderedCollections = "1"
 ParallelUtilities = "0.8"
 
 ["0.2-0.4.1"]
 DocStringExtensions = "0.8"
+
+["0.2-0.5.3"]
+DiskArrays = "0.3"
 
 ["0.2.1-0.4.1"]
 IntervalSets = "0.3-0.6"
@@ -62,8 +66,12 @@ IntervalSets = "0.3-0.6"
 YAXArrayBase = "0.4"
 
 ["0.3-0"]
-Statistics = "1.6.0-1"
 WeightedOnlineStats = "0.3-0.6"
+
+["0.3-0.5.2"]
+Statistics = "1.6.0-1"
+
+["0.3-0.5.4"]
 julia = "1.6.0-1"
 
 ["0.4-0"]
@@ -72,8 +80,34 @@ YAXArrayBase = "0.6"
 
 ["0.4.2-0"]
 DocStringExtensions = "0.8-0.9"
-Interpolations = "0.12-0.14"
 IntervalSets = "0.3-0.7"
 
-["0.5-0"]
+["0.4.2-0.5.2"]
+Interpolations = "0.12-0.14"
+
+["0.5-0.5.1"]
 DimensionalData = "0.24"
+
+["0.5.1-0"]
+StatsBase = "0.32-0.34"
+
+["0.5.2-0.5.3"]
+DimensionalData = "0.24-0.25"
+
+["0.5.3-0"]
+Interpolations = "0.12-0.15"
+
+["0.5.4"]
+DimensionalData = "0.24-0.26"
+
+["0.5.4-0"]
+DiskArrays = "0.3-0.4"
+
+["0.5.5"]
+DimensionalData = "0.26"
+
+["0.5.5-0"]
+julia = "1.9.0-1"
+
+["0.5.6-0"]
+DimensionalData = "0.27"

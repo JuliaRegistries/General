@@ -1,18 +1,22 @@
 [0]
 FiniteDifferences = "0.12"
 ForwardDiff = "0.10"
-Optimisers = "0.2"
 Preferences = "1"
 ReverseDiff = "1"
 Tracker = "0.2"
 Zygote = "0.6"
-julia = "1.6.0-1"
 
 ["0-0.1.0"]
 JET = "0.5-0.7"
 
 ["0-0.1.10"]
 ComponentArrays = "0.13"
+
+["0-0.1.11"]
+Optimisers = "0.2"
+
+["0-0.1.13"]
+julia = "1.6.0-1"
 
 ["0.1.1-0.1.7"]
 JET = "0.4-0.7"
@@ -21,8 +25,18 @@ JET = "0.4-0.7"
 LuxCore = "0.1"
 LuxDeviceUtils = "0.1"
 
-["0.1.11-0"]
+["0.1.11-0.1.12"]
 ComponentArrays = "0.13-0.14"
+
+["0.1.12-0"]
+Optimisers = "0.2-0.3"
+
+["0.1.13-0"]
+ComponentArrays = "0.13-0.15"
+
+["0.1.14-0"]
+JET = "0.8"
+julia = "1.9.0-1"
 
 ["0.1.7-0"]
 Functors = "0.4"
@@ -32,7 +46,7 @@ Adapt = "3"
 CUDA = "4"
 cuDNN = "1"
 
-["0.1.8-0"]
+["0.1.8-0.1.13"]
 JET = "0.4-0.8"
 
 ["0.1.9"]

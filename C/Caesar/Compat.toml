@@ -94,6 +94,7 @@ Manifolds = "0.6.3-0.7"
 IncrementalInference = "0.26-0.27"
 
 ["0.12-0.13"]
+DelimitedFiles = "1.6.0-1"
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
@@ -102,9 +103,6 @@ RoME = "0.17-0.18"
 
 ["0.12-0.13.1"]
 DistributedFactorGraphs = "0.17-0.18"
-
-["0.12-0.13.4"]
-DelimitedFiles = "1.6.0-1"
 
 ["0.13.0"]
 IncrementalInference = "0.26-0.28"
@@ -117,19 +115,14 @@ Manifolds = "0.6.3-0.8"
 RoME = "0.17-0.19"
 
 ["0.13.2-0"]
-ApproxManifoldProducts = "0.6"
 Combinatorics = "1"
 DataStructures = "0.17-0.18"
 Distributions = "0.25"
 DocStringExtensions = "0.8-0.9"
-ImageCore = "0.8-0.9"
-ImageMagick = "1"
 JSON = "0.20-0.21"
-Manifolds = "0.8"
 NLsolve = "4"
 ProgressMeter = "1"
 Reexport = "1"
-Requires = "1"
 TensorCast = "0.4"
 TransformUtils = "0.2.14-0.2"
 
@@ -140,8 +133,19 @@ DistributedFactorGraphs = "0.18"
 IncrementalInference = "0.30"
 RoME = "0.20"
 
+["0.13.2-0.15"]
+ApproxManifoldProducts = "0.6"
+ImageCore = "0.8-0.9"
+ImageMagick = "1"
+Requires = "1"
+
+["0.13.2-0.16.0"]
+Manifolds = "0.8"
+
 ["0.13.3-0"]
 NearestNeighbors = "0.4"
+
+["0.13.3-0.15"]
 StatsBase = "0.33"
 
 ["0.13.5-0.13"]
@@ -157,18 +161,53 @@ RoME = "0.21"
 Colors = "0.12"
 GeometryBasics = "0.4"
 MultivariateStats = "0.10"
+
+["0.14-0.15"]
+DelimitedFiles = "1.8.0-1"
 Statistics = "1.8.0-1"
 julia = "1.8.0-1"
 
-["0.15-0"]
+["0.15"]
 ColorVectorSpace = "0.9"
 DistributedFactorGraphs = "0.19-0.20"
-GeometricalPredicates = "0.4"
 IncrementalInference = "0.31-0.33"
-Interpolations = "0.14"
-JSON3 = "1"
 LasIO = "0.3"
 RoME = "0.21-0.22"
+
+["0.15-0"]
+GeometricalPredicates = "0.4"
+JSON3 = "1"
+
+["0.15-0.16.1"]
+Interpolations = "0.14"
+
+["0.16-0"]
+ApproxManifoldProducts = "0.7-0.8"
+ColorVectorSpace = "0.9-0.10"
+DelimitedFiles = "1"
+DistributedFactorGraphs = "0.22-0.23"
+FixedPointNumbers = "0.8"
+ImageCore = "0.8-0.10"
+ImageDraw = "0.2"
+StatsBase = "0.33-0.34"
+julia = "1.9.0-1"
+
+["0.16-0.16.1"]
+Statistics = "1.9.0-1"
+
+["0.16.0"]
+IncrementalInference = "0.33-0.34"
+RoME = "0.21-0.23"
+
+["0.16.1-0"]
+IncrementalInference = "0.34-0.35"
+Manifolds = "0.8-0.9"
+PrecompileTools = "1"
+RoME = "0.23-0.24"
+
+["0.16.2-0"]
+Interpolations = "0.14-0.15"
+Statistics = "1"
 
 ["0.2.1"]
 IncrementalInference = "0.4.3-0.4"

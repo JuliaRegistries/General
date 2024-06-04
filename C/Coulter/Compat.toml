@@ -7,9 +7,11 @@ KernelDensity = "0.0.0-0.5"
 StatsBase = "0.0.0-0.32"
 julia = ["0.7", "1"]
 
+["0.2"]
+Gadfly = "1"
+
 ["0.2-0"]
 FileIO = "1"
-Gadfly = "1"
 julia = "1"
 
 ["0.2.0"]
@@ -23,3 +25,6 @@ DataStructures = "0.17-0.18"
 Distributions = "0.22-0.25"
 KernelDensity = "0.5-0.6"
 StatsBase = "0.32-0.34"
+
+["0.3-0"]
+Dates = "1"

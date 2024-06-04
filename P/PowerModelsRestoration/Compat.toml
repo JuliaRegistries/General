@@ -1,6 +1,3 @@
-[0]
-julia = "1"
-
 ["0-0.1"]
 PowerModels = "0.13-0.14"
 
@@ -15,6 +12,9 @@ Memento = "0.10-0.12"
 
 ["0-0.5.0"]
 MathOptInterface = "0.8-0.9"
+
+["0-0.7"]
+julia = "1"
 
 ["0.1.1-0.2"]
 InfrastructureModels = "0.3-0.4"
@@ -56,8 +56,21 @@ PowerModels = "0.18"
 Memento = "1.0-1.2"
 PowerModels = "0.18.3-0.18"
 
+["0.7"]
+JuMP = ["0.22-0.23", "1"]
+PowerModels = "0.19.2-0.19"
+
 ["0.7-0"]
 InfrastructureModels = "0.6-0.7"
-JuMP = ["0.22-0.23", "1"]
 Memento = "1.0-1.4"
-PowerModels = "0.19.2-0.19"
+
+["0.8"]
+JuMP = "1"
+PowerModels = "0.20"
+
+["0.8-0"]
+julia = "1.6.0-1"
+
+["0.9-0"]
+JuMP = "1.15.0-1"
+PowerModels = "0.21"

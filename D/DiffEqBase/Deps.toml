@@ -8,6 +8,8 @@ FunctionWrappers = "069b7b12-0de2-55c6-9aab-29f3d0a68a2e"
 
 [3-6]
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
+
+["3-6.136"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["3-6.17"]
@@ -81,7 +83,7 @@ DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 ["6.1-6"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
-["6.10.1-6"]
+["6.10.1-6.136"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 
 ["6.100-6"]
@@ -108,6 +110,16 @@ TruncatedStacktraces = "781d530d-4396-4725-bb49-402e4bee1e77"
 
 ["6.125-6"]
 SciMLOperators = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
+
+["6.129-6"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["6.130.2-6"]
+EnzymeCore = "f151be2c-9106-41f4-ab19-57ee4f262869"
+
+["6.149-6"]
+ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
+FastClosures = "9aa1b823-49e4-5ca5-8b0f-3971ec8bab6a"
 
 ["6.2.4-6.12"]
 DiffEqDiffTools = "01453d9d-ee7c-5054-8395-0335cb756afa"
@@ -147,8 +159,10 @@ Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 FastBroadcast = "7034ab61-46d4-4ed7-9d0f-46aef9175898"
 
 ["6.71-6"]
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
+["6.71-6.136"]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 
 ["6.71-6.88"]
 PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
@@ -159,7 +173,7 @@ DEDataArrays = "754358af-613d-5f8d-9788-280bf1605d4c"
 ["6.87-6.119"]
 ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
 
-["6.9-6"]
+["6.9-6.136"]
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 
 ["6.95.3-6"]

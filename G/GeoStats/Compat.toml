@@ -256,14 +256,11 @@ GeoSimulation = "0.8"
 GeoStatsBase = "0.26"
 KrigingEstimators = "0.9"
 
-["0.32-0"]
+["0.32-0.45"]
 ScientificTypes = "3"
 
 ["0.33"]
 Meshes = "0.24"
-
-["0.33-0"]
-DensityRatioEstimation = "1"
 
 ["0.33-0.34"]
 GeoStatsSolvers = "0.1"
@@ -276,6 +273,9 @@ Variography = "0.15"
 
 ["0.33-0.41"]
 KrigingEstimators = "0.10"
+
+["0.33-0.56"]
+DensityRatioEstimation = "1"
 
 ["0.34-0.35"]
 Meshes = "0.25"
@@ -290,16 +290,16 @@ GeoStatsSolvers = "0.2"
 GeoStatsBase = "0.29"
 Meshes = "0.26"
 
-["0.36-0"]
-Chain = "0.5"
-
 ["0.36-0.41"]
 GeoClustering = "0.3"
+
+["0.36-0.51.1"]
+Chain = "0.5"
 
 ["0.37"]
 GeoStatsBase = "0.30"
 
-["0.37-0"]
+["0.37-0.49"]
 TableTransforms = "1.9.0-1"
 
 ["0.37.0"]
@@ -320,7 +320,7 @@ Meshes = "0.29"
 ["0.38-0.41"]
 GeoStatsBase = "0.31"
 
-["0.38.1-0"]
+["0.38.1-0.56"]
 Rotations = "1.5.0-1"
 
 ["0.39"]
@@ -344,21 +344,208 @@ GeoStatsSolvers = "0.4"
 
 ["0.42-0"]
 CategoricalArrays = "0.10"
+LossFunctions = "0.11"
+julia = "1.9.0-1"
+
+["0.42-0.43"]
 GeoClustering = "0.4"
 KrigingEstimators = "0.11"
-LossFunctions = "0.11"
 Meshes = "0.34"
 PointPatterns = "0.6"
-Unitful = "1.15.0-1"
 Variography = "0.17"
-julia = "1.9.0-1"
+
+["0.42-0.56"]
+Unitful = "1.15.0-1"
 
 ["0.42.2-0"]
 Tables = "1.10.0-1"
 
-["0.43-0"]
+["0.43"]
 GeoStatsBase = "0.33"
 GeoStatsSolvers = "0.5"
+
+["0.43.5-0"]
+Statistics = "1.9.0-1"
+
+["0.44"]
+GeoClustering = "0.5"
+GeoStatsSolvers = "0.6"
+KrigingEstimators = "0.12"
+Variography = "0.18"
+
+["0.44-0.46"]
+PointPatterns = "0.7"
+
+["0.44-0.47.4"]
+Meshes = "0.35"
+
+["0.44.0"]
+Distributions = "0.25"
+GeoStatsBase = "0.34"
+GeoTables = "1.5.0-1"
+
+["0.44.1-0.44"]
+GeoStatsBase = "0.35"
+GeoTables = "1.6.0-1"
+
+["0.45"]
+GeoStatsTransforms = "0.1"
+
+["0.45-0.45.2"]
+GeoTables = "1.7.0-1"
+
+["0.45-0.46"]
+GeoStatsModels = "0.1"
+
+["0.45-0.47"]
+Variography = "0.19"
+
+["0.45-0.48"]
+GeoStatsSolvers = "0.7"
+
+["0.45.0"]
+GeoStatsBase = "0.36"
+
+["0.45.1-0.45.2"]
+GeoStatsBase = "0.37"
+
+["0.45.3-0.45"]
+GeoStatsBase = "0.38"
+
+["0.45.3-0.53"]
+GeoTables = "1.8.0-1"
+
+["0.45.4-0.48"]
+StatsLearnModels = "0.2"
+
+["0.46-0"]
+CoDa = "1.2.0-1"
+
+["0.46-0.47.1"]
+GeoStatsBase = "0.39"
+
+["0.46-0.47.7"]
+DataScienceTraits = "0.1"
+
+["0.46-0.50.0"]
+GeoStatsTransforms = "0.2"
+
+["0.47-0"]
+Dates = "1.9.0-1"
+
+["0.47-0.50.0"]
+GeoStatsModels = "0.2"
+GeoStatsProcesses = "0.3"
+
+["0.47.2-0.47.8"]
+GeoStatsBase = "0.40"
+
+["0.47.5-0.47"]
+Meshes = "0.36"
+
+["0.47.8-0"]
+DataScienceTraits = "0.2"
+Distributions = "0.25"
+
+["0.47.9-0.48.3"]
+GeoStatsBase = "0.41"
+
+["0.48"]
+Meshes = "0.37"
+
+["0.48-0.48.3"]
+Variography = "0.20"
+
+["0.48.4"]
+Variography = "0.21"
+
+["0.48.4-0.48"]
+GeoStatsBase = "0.42"
+
+["0.48.5-0.50.0"]
+Variography = "0.22"
+
+["0.49-0"]
+StatsLearnModels = "0.3"
+
+["0.49-0.50.0"]
+GeoStatsValidation = "0.1"
+
+["0.49-0.50.1"]
+GeoStatsBase = "0.43"
+
+["0.49.0"]
+Meshes = "0.38"
+
+["0.49.1-0.49"]
+Meshes = "0.39"
+
+["0.50-0.51"]
+Meshes = "0.40"
+
+["0.50-0.55"]
+TableTransforms = "1.29.0-1"
+
+["0.50.1-0.50"]
+GeoStatsProcesses = "0.4"
+
+["0.50.1-0.51.0"]
+GeoStatsFunctions = "0.1"
+
+["0.50.1-0.52"]
+GeoStatsTransforms = "0.3"
+
+["0.50.1-0.56"]
+GeoStatsModels = "0.3"
+GeoStatsValidation = "0.2"
+
+["0.50.2-0.56"]
+GeoStatsBase = "0.43.7-0.43"
+
+["0.51-0.56"]
+GeoStatsProcesses = "0.5"
+
+["0.51.1-0.56"]
+GeoStatsFunctions = "0.2"
+
+["0.51.2-0"]
+Chain = "0.6"
+
+["0.52-0.53"]
+Meshes = "0.41"
+
+["0.53-0.54"]
+GeoStatsTransforms = "0.4"
+
+["0.54-0.55"]
+GeoTables = "1.19.0-1"
+
+["0.54-0.56"]
+Meshes = "0.42"
+
+["0.55"]
+GeoStatsTransforms = "0.5"
+
+["0.56"]
+GeoStatsTransforms = "0.6"
+GeoTables = "1.20.0-1"
+
+["0.56-0"]
+TableTransforms = "1.31.0-1"
+
+["0.57-0"]
+CoordRefSystems = "0.7"
+DensityRatioEstimation = "1.2.0-1"
+GeoStatsBase = "0.44"
+GeoStatsFunctions = "0.3"
+GeoStatsModels = "0.4"
+GeoStatsProcesses = "0.6"
+GeoStatsTransforms = "0.7"
+GeoStatsValidation = "0.3"
+GeoTables = "1.21.0-1"
+Meshes = "0.43"
+Rotations = "1.7.0-1"
+Unitful = "1.20.0-1"
 
 ["0.7.2-0.7"]
 GeoStatsBase = "0.2.5-0.5"

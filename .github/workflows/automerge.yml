@@ -1,6 +1,8 @@
 name: AutoMerge
 on:
   pull_request:
+    # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request
+    types: [opened, reopened, labeled, synchronize]
   schedule:
     # The cron job is just a fallback.
     # The "stopwatch" functionality that we have implemented should
@@ -11,22 +13,38 @@ on:
   workflow_dispatch:
 env:
     JULIA_PKG_USE_CLI_GIT: true
+    # We only need the merging token
+    # if we are on the master branch and running either a workflow dispatch
+    # (possibly from the stopwatch mechanism) or a scheduled job.
+    # See also the same logic inside RegistryCI:
+    # https://github.com/JuliaRegistries/RegistryCI.jl/blob/ee1d7cdb165202f4f3929a122c3188fbdd7afc16/src/AutoMerge/ciservice.jl#L53-L67
+    NEED_MERGE_TOKEN: ${{ github.ref == 'refs/heads/master' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
 jobs:
   AutoMerge:
+    # Run if:
+    # - not from a PR event
+    # - or it is from a PR event AND it is not from a fork, AND either:
+    #      - we are not triggered by a label OR
+    #      - we are triggered by a label, and that label is one that affects the execution of the workflow
+    # Note: since the label contains a colon, we need to use a workaround like https://github.com/actions/runner/issues/1019#issuecomment-810482716
+    # for the syntax to parse correctly.
+    if: "${{ github.event_name != 'pull_request' || (github.repository == github.event.pull_request.head.repo.full_name && (github.event.action != 'labeled' || (github.event.action == 'labeled' && (github.event.label.name == 'Override AutoMerge: name similarity is okay' || github.event.label.name == 'Override AutoMerge: package author approved')))) }}"
     timeout-minutes: 60
-    if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         version:
-          - '1'
+          - '1.10'
         os:
           - ubuntu-latest
         arch:
           - x64
     steps:
-      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.3.0
-      - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc # v1.9.2
+      # For debugging purposes, we print this value first
+      - name: Print env variable NEED_MERGE_TOKEN
+        run: echo "NEED_MERGE_TOKEN=$NEED_MERGE_TOKEN"
+      - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v3.3.0
+      - uses: julia-actions/setup-julia@f2258781c657ad9b4b88072c5eeaf9ec8c370874 # v2.0.0
         with:
           version: ${{ matrix.version }}
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
@@ -39,16 +57,7 @@ jobs:
       - run: chmod 400 .ci/Project.toml
       - run: chmod 400 .ci/Manifest.toml
       - name: Cache artifacts
-        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # v3.3.1
-        env:
-          cache-name: cache-artifacts
-        with:
-          path: ~/.julia/artifacts
-          key: ${{ runner.os }}-test-${{ env.cache-name }}-${{ hashFiles('**/.ci/Manifest.toml') }}
-          restore-keys: |
-            ${{ runner.os }}-test-${{ env.cache-name }}-
-            ${{ runner.os }}-test-
-            ${{ runner.os }}-
+        uses: julia-actions/cache@d48542bb7b6239a9391789f01d21a6bdde9ad5df # v2.0.0
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
@@ -60,7 +69,9 @@ jobs:
           MERGE_NEW_PACKAGES: true
           MERGE_NEW_VERSIONS: true
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          AUTOMERGE_TAGBOT_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
+          # populate the actual token below only if `NEED_MERGE_TOKEN` is true, otherwise pass the empty string
+          # this uses the ternary syntax: https://docs.github.com/en/actions/learn-github-actions/expressions#example
+          AUTOMERGE_TAGBOT_TOKEN: ${{ env.NEED_MERGE_TOKEN == 'true' && secrets.TAGBOT_TOKEN || '' }}
           JULIA_DEBUG: RegistryCI,AutoMerge
         run: |
           using RegistryCI
@@ -94,10 +105,10 @@ jobs:
     environment: stopwatch
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.3.0
-      - uses: julia-actions/setup-julia@f40c4b69330df1d22e7590c12e76dc2f9c66e0bc # v1.9.2
+      - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v3.3.0
+      - uses: julia-actions/setup-julia@f2258781c657ad9b4b88072c5eeaf9ec8c370874 # v2.0.0
         with:
-          version: '1'
+          version: '1.9'
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes --project=.ci/ {0}
         id: manifest_version
@@ -107,16 +118,7 @@ jobs:
       - run: chmod 400 .ci/Project.toml
       - run: chmod 400 .ci/Manifest.toml
       - name: Cache artifacts
-        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # v3.3.1
-        env:
-          cache-name: cache-artifacts
-        with:
-          path: ~/.julia/artifacts
-          key: ${{ runner.os }}-test-${{ env.cache-name }}-${{ hashFiles('**/.ci/Manifest.toml') }}
-          restore-keys: |
-            ${{ runner.os }}-test-${{ env.cache-name }}-
-            ${{ runner.os }}-test-
-            ${{ runner.os }}-
+        uses: julia-actions/cache@d48542bb7b6239a9391789f01d21a6bdde9ad5df # v2.0.0
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""

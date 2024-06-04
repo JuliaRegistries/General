@@ -1,5 +1,4 @@
 [0]
-Interpolations = "0.13-0.14"
 PALEOboxes = "0.20.4-0.21"
 SIMD = "3.4.0-3"
 SnoopPrecompile = "1"
@@ -13,8 +12,15 @@ MAT = "0.10"
 Roots = "1-2"
 XLSX = "0.7-0.9"
 
+["0-0.4.3"]
+Interpolations = "0.13-0.14"
+
 ["0.4-0"]
 MAT = "0.10.4-0.10"
 PALEOaqchem = "0.3.1-0.3"
 Preferences = "1.3.0-1"
 SpecialFunctions = "1-2"
+
+["0.4.4-0"]
+Infiltrator = "1"
+Interpolations = "0.13-0.15"

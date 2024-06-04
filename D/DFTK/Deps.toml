@@ -11,13 +11,10 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
-OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 PeriodicTable = "7b2266bf-644c-5ea3-82d8-af4bbd25a884"
 Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
 Primes = "27ebfcd6-29c5-5fa9-bf4b-fb8fc14df3ae"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
@@ -37,6 +34,13 @@ Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 
+["0-0.6.14"]
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0-0.6.15"]
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
 ["0.1.1-0"]
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 
@@ -46,7 +50,7 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 ["0.1.15-0"]
 MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
 
-["0.1.5-0"]
+["0.1.5-0.6.11"]
 spglib_jll = "ac4a9f1e-bdb2-5204-990c-47c8b2f70d4e"
 
 ["0.2.3-0"]
@@ -67,7 +71,7 @@ Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 ["0.5-0"]
 AtomsBase = "a963bdd2-2df7-4f54-a1ee-49d51e6be12a"
 
-["0.5.1-0"]
+["0.5.1-0.6.14"]
 InteratomicPotentials = "a9efe35a-c65d-452d-b8a8-82646cd5cb04"
 
 ["0.5.12-0"]
@@ -95,6 +99,15 @@ Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 
 ["0.6.11-0"]
 PkgVersion = "eebad327-c553-4316-9ea0-9fa01ccd7688"
+
+["0.6.13-0"]
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+
+["0.6.15-0"]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+
+["0.6.17-0"]
+AtomsCalculators = "a3e0e189-c65a-42c1-833c-339540406eb1"
 
 ["0.6.2-0.6.7"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"

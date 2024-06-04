@@ -3,5 +3,11 @@ HCubature = "1"
 LegendrePolynomials = "0.3-0.4"
 MultipleScattering = "0.1"
 Reexport = ["0.2", "1"]
-Statistics = "1"
 julia = "1"
+
+["0-0.0.1"]
+Statistics = "1"
+
+["0.0.2-0"]
+Optim = ["0.22", "1"]
+SpecialFunctions = ["0.3", "0.7-0.10", "1-2"]

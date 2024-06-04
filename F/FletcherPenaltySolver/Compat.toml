@@ -1,7 +1,5 @@
 [0]
 FastClosures = "0.2-0.3"
-LinearOperators = "1-2"
-NLPModelsModifiers = "0.5-0.6"
 julia = "1.6.0-1"
 
 ["0-0.1"]
@@ -20,6 +18,10 @@ Krylov = "0.8"
 ["0-0.2.2"]
 NLPModels = "0.18-0.19"
 
+["0-0.2.4"]
+LinearOperators = "1-2"
+NLPModelsModifiers = "0.5-0.6"
+
 ["0.1.1-0.2.1"]
 LDLFactorizations = "0.8-0.9"
 
@@ -36,11 +38,13 @@ StoppingInterface = "0.4"
 
 ["0.2.1-0"]
 NLPModelsIpopt = "0.10"
-NLPModelsKnitro = "0.7"
 StoppingInterface = "0.5"
 
 ["0.2.1-0.2.2"]
 JSOSolvers = "0.9"
+
+["0.2.1-0.2.4"]
+NLPModelsKnitro = "0.7"
 
 ["0.2.2-0"]
 Krylov = "0.8-0.9"
@@ -54,3 +58,8 @@ NLPModels = "0.18-0.20"
 
 ["0.2.4-0"]
 JSOSolvers = "0.9-0.11"
+
+["0.2.5-0"]
+LinearOperators = "2.7.0-2"
+NLPModelsKnitro = "0.7-0.9"
+NLPModelsModifiers = "0.5-0.7"

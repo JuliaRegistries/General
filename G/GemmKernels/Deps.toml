@@ -1,7 +1,12 @@
 [0]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
-GPUifyLoops = "ba82f77b-6841-5d2e-bd9f-4daf811aec27"
 LLVM = "929cbde3-209d-540e-8aea-75f648917ca0"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["0-0.1"]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+GPUifyLoops = "ba82f77b-6841-5d2e-bd9f-4daf811aec27"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.2-0"]
+LLVMLoopInfo = "8b046642-f1f6-4319-8d3c-209ddc03c586"

@@ -1,8 +1,10 @@
 [0]
 ForwardDiff = "0.10"
+SparseDiffTools = "1"
+
+["0-0.10"]
 LightGraphs = "1.3.0-1"
 Metis = "1"
-SparseDiffTools = "1"
 
 ["0-0.4"]
 KernelAbstractions = "0.4.5-0.4"
@@ -17,6 +19,20 @@ julia = "1.5.0-1"
 ["0-0.6"]
 FiniteDiff = "2.7.0-2"
 TimerOutputs = "0.5"
+
+["0.10-0"]
+Adapt = "3.3.0-3"
+LinearAlgebra = "1.9.0-1"
+Printf = "1.9.0-1"
+SparseArrays = "1.9.0-1"
+julia = "1.9.0-1"
+
+["0.10.1-0"]
+LazyArtifacts = "1.9.0-1"
+
+["0.11-0"]
+KLU = "0.4"
+KrylovPreconditioners = "0.2"
 
 ["0.5"]
 KernelAbstractions = "0.5"
@@ -39,8 +55,18 @@ KernelAbstractions = "0.8"
 Krylov = "0.8"
 julia = "1.7.0-1"
 
+["0.8-0.10.0"]
+LazyArtifacts = "1"
+
+["0.9"]
+julia = "1.8.0-1"
+
 ["0.9-0"]
-CUDA = "4.1.0-4"
 KernelAbstractions = "0.9"
 Krylov = "0.9"
-julia = "1.8.0-1"
+
+["0.9-0.9.1"]
+CUDA = "4.1.0-4"
+
+["0.9.2-0.9"]
+CUDA = "4.1.0-5"

@@ -130,6 +130,9 @@ Distributions = "0.0.0-0.23"
 ["1.1"]
 Distributions = "0.0.0-0.24"
 
+["1.10-1"]
+Vcov = "0.8"
+
 ["1.2"]
 FixedEffects = "1.1.0-1"
 Vcov = "0.3"
@@ -143,11 +146,11 @@ StatsFuns = "0.9"
 ["1.2-1.9.2"]
 StatsBase = "0.33"
 
-["1.3-1"]
-FixedEffects = "2"
-
 ["1.3-1.6.3"]
 Vcov = "0.4"
+
+["1.3-1.9.4"]
+FixedEffects = "2"
 
 ["1.3.1-1.6.0"]
 DataFrames = "0.21-0.22"
@@ -170,13 +173,15 @@ Vcov = "0.6"
 ["1.7-1"]
 StatsAPI = "1"
 
-["1.8-1"]
+["1.8-1.9"]
 Vcov = "0.7"
 
 ["1.9-1"]
-Statistics = "1.6.0-1"
 StatsModels = "0.7"
 julia = "1.6.0-1"
+
+["1.9-1.9.4"]
+Statistics = "1.6.0-1"
 
 ["1.9.0"]
 SnoopPrecompile = "1"
@@ -186,3 +191,7 @@ PrecompileTools = "1"
 
 ["1.9.3-1"]
 StatsBase = "0.33-0.34"
+
+["1.9.5-1"]
+FixedEffects = "2.3.0-2"
+Statistics = "1"

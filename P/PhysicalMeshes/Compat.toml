@@ -1,12 +1,22 @@
 [0]
 PhysicalParticles = "1"
-Reexport = "1"
 StaticArrays = "1"
 StructArrays = "0.6"
 Unitful = "1"
 UnitfulAstro = "1"
 julia = "1.6.0-1"
 
-["0.1.1-0"]
+["0-0.1.2"]
+Reexport = "1"
+
+["0.1.1"]
 CUDA = "3"
 DocStringExtensions = "0.8"
+
+["0.1.2-0"]
+AstroSimBase = "0.1"
+CUDA = "3-5"
+DocStringExtensions = "0.8-0.9"
+
+["0.1.3-0"]
+PrecompileTools = "1"

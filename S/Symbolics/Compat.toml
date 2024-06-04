@@ -26,12 +26,18 @@ DiffRules = ["0.1", "1"]
 [0-5]
 IfElse = "0.1"
 MacroTools = "0.5"
-Reexport = ["0.2", "1"]
-SciMLBase = "1.8.0-1"
+
+["0-5.10"]
 TreeViews = "0.3"
+
+["0-5.14"]
+Reexport = ["0.2", "1"]
 
 ["0-5.3"]
 RuntimeGeneratedFunctions = "0.4.3-0.5"
+
+["0-5.5"]
+SciMLBase = "1.8.0-1"
 
 ["0.1.11-0.1.20"]
 AbstractAlgebra = "0.13-0.15"
@@ -57,7 +63,7 @@ AbstractAlgebra = "0.13-0.16"
 ["0.1.26-1.1"]
 AbstractAlgebra = "0.13-0.17"
 
-["0.1.26-5"]
+["0.1.26-5.14"]
 Distributions = "0.23-0.25"
 
 ["0.1.27-5.1"]
@@ -88,7 +94,7 @@ StaticArrays = "1.1.0-1"
 ["1.2-3.2"]
 SymbolicUtils = "0.13"
 
-["1.2-5"]
+["1.2-5.14"]
 ConstructionBase = "1.1.0-1"
 
 ["3.3"]
@@ -119,7 +125,7 @@ DataStructures = "0.18"
 LaTeXStrings = "1.3.0-1"
 LambertW = "0.4.5-0.4"
 
-["4.2-5"]
+["4.2-5.14"]
 SpecialFunctions = ["0.7-0.10", "1-2"]
 julia = "1.6.0-1"
 
@@ -135,11 +141,11 @@ ArrayInterface = "3-4"
 ["4.3.1-4.5"]
 ArrayInterface = "3-5"
 
-["4.3.1-5"]
-NaNMath = ["0.3", "1"]
-
 ["4.3.1-5.1"]
 Groebner = "0.1-0.2"
+
+["4.3.1-5.14"]
+NaNMath = ["0.3", "1"]
 
 ["4.4-4"]
 TermInterface = "0.2-0.3"
@@ -147,29 +153,78 @@ TermInterface = "0.2-0.3"
 ["4.6-4"]
 ArrayInterfaceCore = "0.1.1-0.1"
 
-["4.6.1-5"]
+["4.6.1-5.14"]
 DocStringExtensions = "0.7-0.9"
 Setfield = ["0.7-0.8", "1"]
 
 ["4.9-5"]
 DiffRules = "1.4.0-1"
 
-[5]
+["5-5.6"]
 SymbolicUtils = "1.0.1-1"
 
 ["5.0"]
 ArrayInterfaceCore = "0.1.1-0.1"
 
-["5.1-5"]
+["5.1-5.14"]
 ArrayInterface = "6-7"
 
-["5.2-5"]
+["5.10-5.11"]
+RecursiveArrayTools = "2"
+
+["5.11-5.14"]
+Groebner = "0.3-0.5"
+
+["5.12-5.25"]
+SymbolicIndexingInterface = "0.3"
+
+["5.15"]
+Groebner = "0.5"
+
+["5.15-5"]
+ArrayInterface = "7"
+ConstructionBase = "1.2.0-1"
+Distributions = "0.25"
+DocStringExtensions = "0.9"
+Latexify = "0.16"
+NaNMath = "1"
+Reexport = "1"
+SciMLBase = "2"
+Setfield = "1"
+SpecialFunctions = "2"
+julia = "1.10.0-1"
+
+["5.16"]
+Groebner = "0.5-0.6"
+
+["5.17-5"]
+ForwardDiff = "0.10.36-0.10"
+Groebner = "0.5-0.7"
+
+["5.18-5"]
+DomainSets = "0.6-0.7"
+
+["5.2-5.17"]
 DomainSets = "0.6"
 
 ["5.2-5.5.0"]
 Groebner = "0.3"
 
-["5.3-5"]
+["5.26"]
+SymbolicIndexingInterface = "0.3.12-0.3"
+
+["5.26-5"]
+SymbolicLimits = "0.2"
+
+["5.27-5"]
+SymbolicIndexingInterface = "0.3.14-0.3"
+
+["5.29-5"]
+ADTypes = "1"
+SymbolicUtils = "2.0.2-2"
+TermInterface = "0.4"
+
+["5.3-5.14"]
 Latexify = "0.11-0.16"
 
 ["5.4"]
@@ -179,5 +234,23 @@ RuntimeGeneratedFunctions = "0.5.10-0.5"
 RuntimeGeneratedFunctions = "0.5.9"
 
 ["5.5.1-5"]
-Groebner = "0.3-0.4"
 RuntimeGeneratedFunctions = "0.5.9-0.5"
+
+["5.5.1-5.10"]
+Groebner = "0.3-0.4"
+
+["5.5.2-5"]
+Bijections = "0.1"
+DynamicPolynomials = "0.5"
+
+["5.6-5"]
+PrecompileTools = "1"
+
+["5.6-5.14"]
+SciMLBase = "1.8.0-2"
+
+["5.7-5.28"]
+SymbolicUtils = "1.4.0-1"
+
+["5.9-5"]
+LogExpFunctions = "0.3"

@@ -1,7 +1,11 @@
 [0]
 GeoStatsBase = "323cb8eb-fbf6-51c0-afd0-f8fba70507b2"
-KrigingEstimators = "d293930c-a38c-56c5-8ebb-12008647b47a"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0-0.44"]
+KrigingEstimators = "d293930c-a38c-56c5-8ebb-12008647b47a"
+
+["0-0.50.0"]
 Variography = "04a0146e-e6df-5636-8d7f-62fa9eb0b20c"
 
 ["0-0.7"]
@@ -24,7 +28,7 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 ["0-0.9.0"]
 GeoStatsDevTools = "19e549d1-356f-5655-9f3d-c1d6136da705"
 
-["0.11-0"]
+["0.11-0.46"]
 PointPatterns = "e61b41b6-3414-4803-863f-2b69057479eb"
 
 ["0.16-0.21.0"]
@@ -39,11 +43,11 @@ GeoSimulation = "220efe8a-9139-4e14-a4fa-f683d572f4c5"
 ["0.22-0"]
 Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"
 
-["0.24-0"]
-GeoClustering = "7472b188-6dde-460e-bd07-96c4bc049f7e"
-
 ["0.24-0.32"]
 GeoLearning = "90c4468e-a93e-43b4-8fb5-87d804bc629f"
+
+["0.24-0.44"]
+GeoClustering = "7472b188-6dde-460e-bd07-96c4bc049f7e"
 
 ["0.25.2-0"]
 DensityRatioEstimation = "ab46fb84-d57c-11e9-2f65-6f72e4a7229f"
@@ -51,10 +55,12 @@ Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 LossFunctions = "30fc2ffe-d236-52d8-8643-a9d8f7c094a7"
 
 ["0.28-0"]
-ScientificTypes = "321657f4-b219-11e9-178b-2701a2544e81"
 TableTransforms = "0d432bfd-3ee1-4ac1-886a-39f05cc69a3e"
 
-["0.33-0"]
+["0.28-0.45"]
+ScientificTypes = "321657f4-b219-11e9-178b-2701a2544e81"
+
+["0.33-0.48"]
 GeoStatsSolvers = "50e95529-e670-4fa6-84ad-e28f686cc091"
 
 ["0.36-0"]
@@ -73,6 +79,38 @@ Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 
 ["0.43.5-0"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.44-0"]
+GeoTables = "e502b557-6362-48c1-8219-d30d308dcdb0"
+
+["0.44.0"]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
+["0.45-0"]
+GeoStatsModels = "ad987403-13c5-47b5-afee-0a48f6ac4f12"
+GeoStatsTransforms = "725d9659-360f-4996-9c94-5f19c7e4a8a6"
+
+["0.45.4-0"]
+StatsLearnModels = "c146b59d-1589-421c-8e09-a22e554fd05c"
+
+["0.46-0"]
+CoDa = "5900dafe-f573-5c72-b367-76665857777b"
+DataScienceTraits = "6cb2f572-2d2b-4ba6-bdb3-e710fa044d6c"
+
+["0.47-0"]
+GeoStatsProcesses = "aa102bde-5a27-4b0c-b2c1-e7a7dcc4c3e7"
+
+["0.47.8-0"]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
+["0.49-0"]
+GeoStatsValidation = "36f43c0d-3673-45fc-9557-6860e708e7aa"
+
+["0.50.1-0"]
+GeoStatsFunctions = "6771c435-bc22-4842-b0c3-41852a255103"
+
+["0.57-0"]
+CoordRefSystems = "b46f11dc-f210-4604-bfba-323c1ec968cb"
 
 ["0.7.2-0.7"]
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"

@@ -83,6 +83,8 @@ StaticArrays = "0.11-0.12"
 ["2.3.2-3"]
 Lazy = "0.14-0.15"
 RecipesBase = ["0.7-0.8", "1"]
+
+["2.3.2-3.1.5"]
 SteadyStateDiffEq = "1.5.1-1"
 
 ["2.4-3"]
@@ -100,9 +102,11 @@ DiffEqCallbacks = "2"
 
 [3]
 Graphs = "1.4.0-1"
+julia = "1.6.0-1"
+
+["3-3.1.5"]
 PowerModels = "0.18-0.19"
 Setfield = "0.4-0.8"
-julia = "1.6.0-1"
 
 ["3.0"]
 BlockSystems = "0.3.1-0.3"
@@ -117,15 +121,29 @@ PowerModelsACDC = "0.4"
 ["3.0.1-3"]
 Ipopt = ["0.7-0.9", "1"]
 OrdinaryDiffEq = "5.17.2-6"
+
+["3.0.1-3.1.5"]
 PowerModelsACDC = "0.4-0.5"
 
 ["3.1-3"]
 BlockSystems = "0.4.2-0.4"
+
+["3.1-3.1.5"]
 NetworkDynamics = "0.7-0.8"
 
 ["3.1.3-3"]
 StaticArrays = "1"
 
-["3.1.5-3"]
+["3.1.5"]
 SciMLBase = "1"
+
+["3.1.5-3"]
 SciMLNLSolve = "0.1"
+
+["3.1.6-3"]
+NetworkDynamics = "0.8"
+PowerModels = "0.18-0.20"
+PowerModelsACDC = "0.4-0.7"
+SciMLBase = ["1", "2.0-2.10"]
+Setfield = "1"
+SteadyStateDiffEq = "1-2"

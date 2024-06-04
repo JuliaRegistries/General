@@ -167,17 +167,21 @@ DataFrames = "0.0.0-0.20"
 JuMP = "0.0.0-0.20"
 
 ["0.8-1"]
-Conda = "1"
-FileIO = "1"
 Gadfly = "1"
-PyCall = "1"
-PyPlot = "2"
 
 ["0.8-1.0.7"]
 OrderedCollections = "1"
 
 ["0.8-1.2.19"]
 OrdinaryDiffEq = "5"
+
+["0.8-1.5.19"]
+FileIO = "1"
+
+["0.8-1.5.20"]
+Conda = "1"
+PyCall = "1"
+PyPlot = "2"
 
 ["0.9"]
 DelimitedFiles = "1.3.0-1"
@@ -188,12 +192,10 @@ julia = "1.3.0-1"
 JuMP = "0.0.0-0.20.1"
 
 [1]
-AffineInvariantMCMC = "1"
 Anasol = "1"
 Colors = "0.12-0.13"
 Compose = "0.8-0.9"
 DocumentFunction = "1"
-DocumenterMarkdown = "0.2-0.3"
 JSON = "0.21-0.22"
 Kriging = "1"
 Measures = "0.3.1-0.4"
@@ -233,6 +235,12 @@ NMF = "0.4-0.5"
 ["1-1.4.3"]
 StatsBase = "0.33-0.34"
 
+["1-1.5.19"]
+DocumenterMarkdown = "0.2-0.3"
+
+["1-1.5.3"]
+AffineInvariantMCMC = "1"
+
 ["1.0"]
 Images = "0.23-0.24"
 
@@ -241,8 +249,10 @@ DataStructures = ["0.17", "0.19"]
 Distributions = ["0.23", "0.25"]
 
 ["1.0.1-1"]
-DataStructures = "0.17-0.19"
 Distributions = "0.23-0.25"
+
+["1.0.1-1.5.19"]
+DataStructures = "0.17-0.19"
 
 ["1.0.10-1.3.18"]
 JLD2 = "0.2-0.5"
@@ -264,14 +274,18 @@ julia = "1.6.0-1"
 ["1.2-1"]
 BlackBoxOptim = "0.5-0.7"
 DataFrames = "1"
-Optim = "1"
 
-["1.2.20-1"]
-Documenter = "0.25-0.27"
-OrdinaryDiffEq = "5-6"
+["1.2-1.5.18"]
+Optim = "1"
 
 ["1.2.20-1.2.22"]
 Ipopt = "0.6-0.9"
+
+["1.2.20-1.5.19"]
+OrdinaryDiffEq = "5-6"
+
+["1.2.20-1.5.2"]
+Documenter = "0.25-0.27"
 
 ["1.2.23"]
 JuMP = "0.21-0.23"
@@ -289,11 +303,9 @@ BIGUQ = "1"
 IJulia = "1"
 
 ["1.3"]
+DelimitedFiles = "1.7.0-1"
 Statistics = "1.7.0-1"
 julia = "1.7.0-1"
-
-["1.3-1.3.4"]
-DelimitedFiles = "1.7.0-1"
 
 ["1.3.1-1"]
 Cairo = "1"
@@ -302,8 +314,10 @@ Fontconfig = "0.4-0.5"
 ["1.3.12-1"]
 Ipopt = "1"
 JuMP = "1"
-LsqFit = "0.11-0.14"
 MathOptInterface = "1"
+
+["1.3.12-1.5.2"]
+LsqFit = "0.11-0.14"
 
 ["1.3.17-1"]
 NMF = ["0.4-0.5", "1"]
@@ -313,9 +327,12 @@ CSV = ["0.10-0.11", "1"]
 JLD = ["0.10-0.14", "1"]
 JLD2 = ["0.2-0.5", "1"]
 LightXML = ["0.9-0.10", "1"]
+
+["1.3.19-1.5.2"]
 XLSX = ["0.7-0.9", "1"]
 
 ["1.4"]
+DelimitedFiles = "1.8.0-1"
 Statistics = "1.8.0-1"
 julia = "1.8.0-1"
 
@@ -327,9 +344,56 @@ OrderedCollections = "1.5.0-1"
 StatsBase = ["0.33-0.35", "1"]
 
 ["1.5-1"]
-Statistics = "1.9.0-1"
 julia = "1.9.0-1"
+
+["1.5-1.5.2"]
+Statistics = "1.9.0-1"
+
+["1.5.0"]
+DelimitedFiles = "1.9.0-1"
 
 ["1.5.1-1"]
 DelimitedFiles = "1"
+
+["1.5.1-1.5.18"]
 Images = ["0.3", "0.22-0.26"]
+
+["1.5.11-1"]
+AffineInvariantMCMC = "1.2.3-2"
+
+["1.5.19-1"]
+Images = "0.25-0.26"
+
+["1.5.3"]
+SHA = "0.7"
+
+["1.5.3-1"]
+Dates = "1"
+Distributed = "1"
+Documenter = ["0.25-0.27", "1"]
+LinearAlgebra = "1"
+Markdown = "1"
+Pkg = "1"
+Printf = "1"
+Random = "1"
+SharedArrays = "1"
+Sockets = "1"
+SparseArrays = "1"
+Statistics = "1"
+Test = "1"
+XLSX = ["0.7-0.10", "1"]
+
+["1.5.3-1.5.19"]
+Mmap = "1"
+
+["1.5.3-1.5.4"]
+LsqFit = "0.15"
+
+["1.5.4-1"]
+SHA = ["0.7", "1"]
+
+["1.5.4-1.5.10"]
+AffineInvariantMCMC = "1.2.2-2"
+
+["1.5.5-1"]
+LsqFit = ["0.15-0.16", "1"]

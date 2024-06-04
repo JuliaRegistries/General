@@ -137,9 +137,40 @@ Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["2.10-2"]
-Flux = "0.13.16-0.14"
-Statistics = "1.9.0-1"
 julia = "1.9.0-1"
+
+["2.10-2.10.1"]
+Flux = "0.13.16-0.14"
+
+["2.10.0"]
+Statistics = "1.9.0-1"
+
+["2.10.1"]
+Accessors = "0.1"
+Preferences = "1"
+
+["2.10.1-2"]
+SparseArrays = "1"
+Statistics = "1"
+
+["2.10.2"]
+Accessors = "0.1.35-0.1"
+Flux = "0.14"
+
+["2.10.2-2"]
+ChainRulesCore = "1.21.0-1"
+DataFrames = "1.6.1-1"
+DataStructures = "0.18.15-0.18"
+FiniteDifferences = "0.12.31-0.12"
+MLUtils = "0.4.4-0.4"
+MacroTools = "0.5.13-0.5"
+OneHotArrays = "0.2.5-0.2"
+PooledArrays = "1.4.2-1"
+Preferences = "1.4.1-1"
+
+["2.10.3-2"]
+Accessors = "0.1.36-0.1"
+Flux = "0.14.13-0.14"
 
 ["2.2-2.4"]
 Zygote = "0.5.10-0.6"
@@ -152,7 +183,7 @@ DataFrames = "0.21-0.22"
 Flux = "0.12"
 Zygote = "0.6"
 
-["2.5-2"]
+["2.5-2.10.1"]
 DataStructures = "0.17-0.18"
 FiniteDifferences = "0.12"
 
@@ -164,11 +195,15 @@ StatsBase = "0.30-0.33"
 Zygote = "0.6.34-0.6"
 
 ["2.6-2"]
-ChainRulesCore = "1"
 Combinatorics = "1"
+
+["2.6-2.10.0"]
+Preferences = "1.2.0-1"
+
+["2.6-2.10.1"]
+ChainRulesCore = "1"
 DataFrames = "1"
 MacroTools = "0.5"
-Preferences = "1.2.0-1"
 
 ["2.6-2.7"]
 HierarchicalUtils = "2"
@@ -189,6 +224,8 @@ Flux = "0.13"
 
 ["2.8-2"]
 HierarchicalUtils = "2.1.5-2"
+
+["2.8-2.10.0"]
 Setfield = "1"
 
 ["2.8.1-2.8.2"]
@@ -200,13 +237,13 @@ Flux = "0.13.6-0.13"
 ["2.8.3"]
 MLUtils = "0.2-0.3"
 
-["2.8.3-2"]
+["2.8.3-2.10.1"]
 OneHotArrays = "0.1-0.2"
 
 ["2.8.3-2.8.4"]
 StatsAPI = "1.5.0-1"
 
-["2.8.4-2"]
+["2.8.4-2.10.1"]
 MLUtils = "0.2-0.4"
 
 ["2.8.4-2.8"]
@@ -215,5 +252,5 @@ Flux = "0.13.14-0.13"
 ["2.9"]
 Flux = "0.13.16-0.13"
 
-["2.9.1-2"]
+["2.9.1-2.10.1"]
 PooledArrays = "1"

@@ -1,5 +1,10 @@
 [0]
-BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
-Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
+
+["0-0.1"]
+BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+["0.2-0"]
+DSDP_jll = "1065e140-e56c-5613-be8b-7480bf7138df"

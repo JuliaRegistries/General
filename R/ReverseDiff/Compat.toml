@@ -14,7 +14,6 @@ FunctionWrappers = "1"
 [1]
 DiffResults = "1"
 ForwardDiff = "0.10"
-Statistics = "1"
 julia = "1"
 
 ["1-1.10"]
@@ -22,6 +21,9 @@ DiffRules = ["0.1", "1"]
 
 ["1-1.13"]
 NaNMath = "0.3"
+
+["1-1.15.1"]
+Statistics = "1"
 
 ["1-1.4.4"]
 StaticArrays = "0.10-0.12"

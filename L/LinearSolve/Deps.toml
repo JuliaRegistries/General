@@ -20,7 +20,7 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 ["0.1.3-1.15"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["0.1.4-2"]
+["0.1.4-2.17"]
 SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
 
 ["0.1.5-2"]
@@ -61,10 +61,34 @@ EnumX = "4e289a0a-7415-4d19-859d-a7e5c4648b56"
 
 [2]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["2-2.21"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["2.1.7-2"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
+["2.15-2.18"]
+MKL = "33e6dc65-8f57-5167-99aa-e5a354878fb2"
+
+["2.20.1-2"]
+StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
+
+["2.25-2"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+
+["2.28-2"]
+LazyArrays = "5078a376-72f3-5289-bfd5-ec5146d43c02"
+
 ["2.5-2"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+["2.6-2"]
+ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
+
+["2.8-2.20.0"]
+EnzymeCore = "f151be2c-9106-41f4-ab19-57ee4f262869"
+
+["2.9-2"]
+MKL_jll = "856f044c-d86e-5d09-b602-aeab76dc8ba7"

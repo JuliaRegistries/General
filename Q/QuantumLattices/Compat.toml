@@ -45,9 +45,11 @@ RecipesBase = "1.1.2-1"
 RecipesBase = "1.2.0-1"
 StaticArrays = "1.4.0-1"
 
+["0.8.15-0.9.0"]
+DelimitedFiles = "1.6.0-1"
+
 ["0.8.2-0"]
 DataStructures = "0.18"
-Formatting = "0.4"
 LaTeXStrings = "1.3.0-1"
 NearestNeighbors = "0.4"
 TimerOutputs = "0.5"
@@ -60,13 +62,23 @@ Reexport = "1.2.0-1"
 RecipesBase = "1.1.0-1"
 StaticArrays = "1.2.0-1"
 
+["0.8.2-0.9.12"]
+Formatting = "0.4"
+
 ["0.9-0.9.8"]
 Latexify = "0.15"
 
 ["0.9.1-0.9.8"]
+DelimitedFiles = "1.8.0-1"
 julia = "1.8.0-1"
+
+["0.9.13-0"]
+Format = "1.3.0-1"
+julia = "1.8-1.10"
 
 ["0.9.9-0"]
 DelimitedFiles = "1.8-1"
 Latexify = "0.16"
+
+["0.9.9-0.9.12"]
 julia = "1.8-1.9"

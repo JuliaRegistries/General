@@ -2,8 +2,13 @@
 CSV = "0.10"
 DataFrames = "1.5.0-1"
 DocStringExtensions = "0.9"
-Pipe = "1.3.0-1"
 PrecompileTools = "1.1.0-1"
 Reexport = "1.2.0-1"
-TidierData = ["0.10", "1"]
 julia = "1.8.0-1"
+
+["0-0.1.0"]
+Pipe = "1.3.0-1"
+TidierData = ["0.10", "1"]
+
+["0.1.1-0"]
+TidierData = ["0.11-0.12", "1"]

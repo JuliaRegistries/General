@@ -13,7 +13,7 @@ Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 ["0.1.1-0.2.0"]
 SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
 
-["0.1.11-0"]
+["0.1.11-0.8"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
 ["0.1.2-0"]
@@ -25,9 +25,11 @@ NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 ["0.3-0"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
-NNlibCUDA = "a00861dc-f156-4864-bf3c-e6376f28a68d"
 SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0.3-0.8"]
+NNlibCUDA = "a00861dc-f156-4864-bf3c-e6376f28a68d"
 
 ["0.3.2-0"]
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
@@ -44,3 +46,6 @@ Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 
 ["0.6.5-0"]
 MLUtils = "f1d291b0-491e-4a28-83b9-f70985020b54"
+
+["0.9-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"

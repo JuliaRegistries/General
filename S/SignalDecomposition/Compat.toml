@@ -1,11 +1,11 @@
 [0]
 Neighborhood = "0.1"
+Statistics = "1.4.0-1"
+julia = "1.4.0-1"
 
 [0-1]
 FFTW = "1.2.0-1"
 LPVSpectral = "0.3"
-Statistics = "1.4.0-1"
-julia = "1.4.0-1"
 
 ["0-1.0.1"]
 StaticArrays = "0.12"
@@ -16,18 +16,27 @@ DelayEmbeddings = "1.5.0-1"
 ["0-1.0.3"]
 BandedMatrices = "0.15"
 
+["1.0"]
+Statistics = "1.4.0-1"
+julia = "1.4.0-1"
+
 ["1.0.0"]
 Neighborhood = "0.1"
 
 ["1.0.1-1.0.2"]
 Neighborhood = "0.1-0.2"
 
-["1.0.2-1"]
+["1.0.2-1.0"]
 StaticArrays = ["0.12", "1"]
 
 ["1.0.3-1"]
 DelayEmbeddings = "2"
 Neighborhood = "0.2"
 
-["1.0.4-1"]
+["1.0.4-1.0"]
 BandedMatrices = "0.15-0.17"
+
+["1.1-1"]
+BandedMatrices = "1"
+StaticArrays = "1"
+julia = "1.9.0-1"

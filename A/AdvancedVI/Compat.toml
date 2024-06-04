@@ -2,7 +2,6 @@
 DistributionsAD = "0.2-0.6"
 ForwardDiff = "0.10.3-0.10"
 ProgressMeter = "1"
-Requires = ["0.5", "1"]
 Tracker = "0.2.3-0.2"
 
 ["0-0.1"]
@@ -22,6 +21,9 @@ DocStringExtensions = "0.8"
 
 ["0-0.2.2"]
 StatsBase = "0.32-0.33"
+
+["0-0.2.4"]
+Requires = ["0.5", "1"]
 
 ["0.1.1-0.1.2"]
 Distributions = "0.21-0.24"
@@ -52,3 +54,10 @@ StatsBase = "0.32-0.34"
 
 ["0.2.4-0"]
 Bijectors = "0.11-0.13"
+
+["0.2.5-0"]
+ADTypes = ["0.2", "1"]
+DiffResults = "1"
+LinearAlgebra = "1.6.0-1"
+Random = "1.6.0-1"
+Requires = "1"

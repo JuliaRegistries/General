@@ -1,7 +1,12 @@
 [0]
-Cbc = "9961bab8-2fa3-5c5a-9d89-47fab24efd76"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 NonconvexCore = "035190e5-69f1-488f-aaab-becca2889735"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0-0.1"]
+Cbc = "9961bab8-2fa3-5c5a-9d89-47fab24efd76"
+
+["0.2-0"]
+HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"

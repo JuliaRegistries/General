@@ -1,6 +1,5 @@
 [0]
 Optim = "1"
-Tracker = "0.2"
 julia = "1"
 
 ["0-0.1"]
@@ -8,6 +7,9 @@ FileIO = "1"
 Flux = "0.11"
 JLD2 = "0.1-0.3"
 OrdinaryDiffEq = "5"
+
+["0-0.2.12"]
+Tracker = "0.2"
 
 ["0-0.2.4"]
 DiffEqFlux = "1"
@@ -31,6 +33,15 @@ CSV = "0.8"
 ["0.2.1"]
 CSV = "0.8-0.9"
 
+["0.2.10-0"]
+NNlib = "0.8-0.9"
+cuDNN = "1"
+
+["0.2.11-0"]
+OptimizationFlux = "0.1-0.2"
+OptimizationOptimJL = "0.1-0.2"
+OptimizationPolyalgorithms = "0.1-0.2"
+
 ["0.2.2-0"]
 CSV = "0.8-0.10"
 DocStringExtensions = "0.8-0.9"
@@ -39,22 +50,36 @@ DocStringExtensions = "0.8-0.9"
 Flux = "0.12-0.13"
 
 ["0.2.5-0"]
-Flux = "0.13"
 ForwardDiff = "0.10"
-Lux = "0.4"
 Optimization = "3"
-OptimizationFlux = "0.1"
-OptimizationOptimJL = "0.1"
-OptimizationPolyalgorithms = "0.1"
 Zygote = "0.6"
 ZygoteRules = "0.2"
 
+["0.2.5-0.2.10"]
+OptimizationFlux = "0.1"
+OptimizationOptimJL = "0.1"
+OptimizationPolyalgorithms = "0.1"
+
+["0.2.5-0.2.8"]
+Flux = "0.13"
+Lux = "0.4"
+
 ["0.2.6-0"]
-CUDA = "3-4"
 IterTools = "1"
 
-["0.2.7-0"]
+["0.2.6-0.2.8"]
+CUDA = "3-4"
+
+["0.2.7-0.2.8"]
 ComponentArrays = "0.13"
 
 ["0.2.8-0"]
 ProgressLogging = "0.1"
+
+["0.2.9-0"]
+CUDA = "3-5"
+ComponentArrays = "0.13-0.15"
+Flux = "0.13-0.14"
+LinearAlgebra = ["0.0.0", "1"]
+Lux = "0.4-0.5"
+Random = ["0.0.0", "1"]

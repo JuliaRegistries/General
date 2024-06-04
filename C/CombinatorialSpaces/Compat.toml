@@ -12,13 +12,15 @@ julia = "1.5.0-1"
 ["0.2-0"]
 FileIO = "1"
 MeshIO = "0.4"
-Requires = "1"
 
 ["0.2-0.2.2"]
 GeometryBasics = "0.3"
 
 ["0.2-0.2.4"]
 LazyArrays = "0.20-0.21"
+
+["0.2-0.6.3"]
+Requires = "1"
 
 ["0.2.0"]
 Catlab = "0.10-0.11"
@@ -41,8 +43,32 @@ LazyArrays = "0.20-0.22"
 ["0.4"]
 Catlab = "0.14"
 
+["0.5"]
+Catlab = "0.15"
+
 ["0.5-0"]
 ACSets = "0.2"
-Catlab = "0.15"
 LazyArrays = ["0.20-0.22", "1"]
+
+["0.5-0.6.3"]
 julia = "1.9.0-1"
+
+["0.6-0"]
+Catlab = "0.16"
+LinearAlgebra = "1.9.0-1"
+SparseArrays = "1.9.0-1"
+
+["0.6.1"]
+Artifacts = "1.9.0-1"
+
+["0.6.1-0"]
+BenchmarkTools = "1.4.0-1"
+JSON = "0.21.4-0.21"
+
+["0.6.2-0"]
+Artifacts = "1"
+DataMigrations = "0.0.3"
+
+["0.6.4-0"]
+Krylov = "0.9.6-0.9"
+julia = "1.10.0-1"

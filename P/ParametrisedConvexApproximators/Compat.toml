@@ -1,5 +1,4 @@
 [0]
-Transducers = "0.4"
 julia = "1"
 
 ["0-0.1"]
@@ -8,6 +7,9 @@ Flux = "0.12"
 Optim = "1.5.0-1"
 SCS = "0.8"
 UnPack = "1"
+
+["0-0.2"]
+Transducers = "0.4"
 
 ["0.2-0"]
 Convex = "0.15"
@@ -21,3 +23,9 @@ SCS = "1.1.0-1"
 
 ["0.2.1-0"]
 ECOS = "1.1.0-1"
+
+["0.3-0"]
+AccessorsExtra = "0.1"
+ComponentArrays = "0.13"
+ImplicitDifferentiation = "0.5"
+ProgressMeter = "1.7.0-1"

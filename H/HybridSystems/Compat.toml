@@ -41,8 +41,10 @@ MappedArrays = "0.2-0.3"
 FillArrays = "0.8-0.12"
 
 ["0.3.6-0"]
-FillArrays = "0.8-0.13"
 MappedArrays = "0.2-0.4"
+
+["0.3.6-0.4.2"]
+FillArrays = "0.8-0.13"
 
 ["0.4-0"]
 Graphs = "1"
@@ -52,3 +54,6 @@ MathematicalSystems = "0.11-0.12"
 
 ["0.4.2-0"]
 MathematicalSystems = "0.11-0.13"
+
+["0.4.3-0"]
+FillArrays = ["0.8-0.13", "1"]

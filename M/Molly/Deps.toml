@@ -5,8 +5,10 @@ Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.20"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0-0.8"]
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
@@ -32,6 +34,16 @@ Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 
 ["0.17-0"]
 SimpleCrystals = "64031d72-e220-11ed-1a7e-43a2532b2fa8"
+
+["0.18-0"]
+PeriodicTable = "7b2266bf-644c-5ea3-82d8-af4bbd25a884"
+
+["0.18.1-0"]
+ChainRules = "082447d4-558c-5d27-93f4-14fc19e9eca2"
+UnitfulAtomic = "a7773ee8-282e-5fa2-be4e-bd808c38a91a"
+
+["0.18.3-0"]
+AtomsCalculators = "a3e0e189-c65a-42c1-833c-339540406eb1"
 
 ["0.2-0"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"

@@ -1,10 +1,19 @@
 [0]
 AbInitioSoftwareBase = "df5135bc-470e-46c6-b451-292e27ca5b84"
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
-Crystallography = "3bff3928-7a76-11e9-2089-d112443085a5"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 PyFortran90Namelists = "e44308e6-bd5b-11e9-2850-49daf8f1ec40"
 QuantumESPRESSOBase = "51b62caa-b28f-11e9-38c2-1f67cb498e05"
 ReadableRegex = "cbbcb084-453d-4c4c-b292-e315607ba6a4"
 VersionParsing = "81def892-9a0e-5fdd-b105-ffc91e053289"
+
+["0-0.4"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+Crystallography = "3bff3928-7a76-11e9-2089-d112443085a5"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+
+["0.5-0"]
+CrystallographyBase = "93b1d1cd-a8ea-4aa5-adb1-b2407ea0ba8d"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
+["0.5.2-0"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"

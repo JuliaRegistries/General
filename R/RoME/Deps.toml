@@ -5,7 +5,6 @@ Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 IncrementalInference = "904591bb-b899-562f-9e6f-b8df64c7d480"
-JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 KernelDensityEstimate = "2472808a-b354-52ea-a80e-1658a3c6056d"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
@@ -16,6 +15,9 @@ TransformUtils = "9b8138ad-1b09-5408-aa39-e87ed6d21b63"
 
 ["0-0.10"]
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+
+["0-0.23"]
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 
 ["0-0.3.3"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -31,11 +33,19 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 ["0.2.2-0.3.3"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
-["0.21-0"]
+["0.21-0.22"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 
 ["0.21.2-0"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
+["0.23-0"]
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["0.24.1-0"]
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+TimeZones = "f269a46b-ccf7-5d73-abea-4c690281aa53"
 
 ["0.3-0"]
 ApproxManifoldProducts = "9bbbb610-88a1-53cd-9763-118ce10c1f89"
@@ -50,5 +60,7 @@ Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
 ["0.7-0"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 TensorCast = "02d47bb6-7ce6-556a-be16-bb1710789e2b"
+
+["0.7-0.22"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"

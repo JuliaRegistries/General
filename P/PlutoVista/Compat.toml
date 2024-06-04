@@ -1,6 +1,3 @@
-[0]
-ColorSchemes = "3"
-
 ["0-0.2"]
 GridVisualize = "0.2.6-0.2"
 
@@ -10,10 +7,13 @@ Colors = "0.12"
 ["0-0.8.12"]
 julia = "1.5.0-1"
 
+[0-1]
+ColorSchemes = "3"
+
 ["0.3-0.4"]
 GridVisualize = "0.2.6-0.3"
 
-["0.4.1-0"]
+["0.4.1-1"]
 Colors = ["0.12", "1"]
 
 ["0.5.0"]
@@ -37,13 +37,13 @@ GridVisualize = "0.3.3-0.3"
 ["0.8-0.8.7"]
 GridVisualize = "0.3.3-0.4"
 
-["0.8.10-0"]
+["0.8.10-1"]
 HypertextLiteral = "0.9"
 
-["0.8.13-0"]
+["0.8.13-1"]
 julia = "1.6.0-1"
 
-["0.8.14-0"]
+["0.8.14-1"]
 DocStringExtensions = "0.8-0.9"
 
 ["0.8.15"]
@@ -66,3 +66,10 @@ DocStringExtensions = "0.8"
 
 ["0.8.8-0.8.14"]
 GridVisualize = "0.4-0.5"
+
+[1]
+AbstractPlutoDingetjes = "1.2.0-1"
+GridVisualizeTools = ["0.3", "1"]
+
+["1.0.0"]
+Pluto = "0.19.28-0.19"

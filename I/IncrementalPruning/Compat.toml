@@ -1,14 +1,27 @@
 [0]
-JuMP = "0.19"
 POMDPLinter = "0.1"
-POMDPModelTools = "0.3.2-0.3"
 POMDPs = "0.9"
-julia = "1"
+
+["0-0.2"]
+JuMP = "0.19"
+POMDPModelTools = "0.3.2-0.3"
 
 ["0-0.2.5"]
 GLPK = "0.10"
 POMDPPolicies = "0.3.3-0.3"
 
-["0.2.6-0"]
+["0-0.3.0"]
+julia = "1"
+
+["0.2.6-0.2"]
 GLPK = ["0.10", "0.13-0.15"]
 POMDPPolicies = "0.3.3-0.4"
+
+["0.3-0"]
+GLPK = "1"
+JuMP = "1"
+MathOptInterface = "1"
+POMDPTools = "0.1"
+
+["0.3.1-0"]
+julia = "1.6.0-1"

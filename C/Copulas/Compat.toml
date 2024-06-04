@@ -6,14 +6,53 @@ julia = "1.6.0-1"
 StatsBase = "0.33"
 
 ["0.1.1-0"]
-GSL = "1"
 SpecialFunctions = "2"
 
-["0.1.10-0"]
+["0.1.1-0.1.18"]
+GSL = "1"
+
+["0.1.10-0.1.11"]
 AlphaStableDistributions = "1"
+
+["0.1.11"]
+PrecompileTools = "1"
+
+["0.1.11-0"]
+MvNormalCDF = "0.2-0.3"
+
+["0.1.11-0.1.20"]
+TaylorSeries = "0.12-0.15"
+
+["0.1.13-0"]
+Random = "1.6.0-1"
+
+["0.1.14-0"]
+WilliamsonTransforms = "0.1"
+
+["0.1.17-0"]
+Combinatorics = "1"
+
+["0.1.18-0"]
+LogExpFunctions = "0.3"
+
+["0.1.19-0"]
+InteractiveUtils = "1.6.0-1"
+QuadGK = "2"
 
 ["0.1.2-0"]
 Roots = "1-2"
+
+["0.1.21"]
+TaylorSeries = "0.12-0.16"
+
+["0.1.21-0"]
+PrecompileTools = "1"
+
+["0.1.22-0"]
+TaylorSeries = "0.12-0.17"
+
+["0.1.23-0"]
+LinearAlgebra = "1.6.0-1"
 
 ["0.1.4-0"]
 ForwardDiff = "0.10"
@@ -24,10 +63,10 @@ TaylorSeries = "0.12"
 ["0.1.5-0"]
 Cubature = "1.5.0-1"
 
-["0.1.6-0"]
+["0.1.6-0.1.10"]
 MvNormalCDF = "0.2"
 
-["0.1.8-0"]
+["0.1.8-0.1.10"]
 TaylorSeries = "0.12-0.14"
 
 ["0.1.9-0"]

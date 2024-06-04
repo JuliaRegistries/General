@@ -2,11 +2,8 @@
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 ["0-0.4"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
@@ -25,6 +22,13 @@ CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
 ["0-0.4.56"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0-0.5.26"]
+Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0-0.5.44"]
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 ["0.4.25-0"]
 LuxLib = "82251201-b29d-42c6-8e01-566dec8acb11"
@@ -45,7 +49,7 @@ cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
 ["0.4.40-0.4.47"]
 Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 
-["0.4.42-0"]
+["0.4.42-0.5.28"]
 TruncatedStacktraces = "781d530d-4396-4725-bb49-402e4bee1e77"
 
 ["0.4.43-0.4.47"]
@@ -57,7 +61,7 @@ LuxCUDA = "d0bbae9a-e099-4d5b-a835-1c6931763bda"
 ["0.4.56-0"]
 WeightInitializers = "d49dbf32-c5c2-4618-8acc-27bb2598ef2d"
 
-["0.4.57-0"]
+["0.4.57-0.5.14"]
 PackageExtensionCompat = "65ce6f38-6b18-4e1d-a461-8949797d7930"
 
 ["0.4.6-0"]
@@ -68,3 +72,31 @@ ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
 LuxDeviceUtils = "34f89e08-e1d5-43b4-8944-0b49ac560553"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.5.13-0"]
+ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
+
+["0.5.15-0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["0.5.16-0"]
+ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
+GPUArraysCore = "46192b85-c4d5-4398-a991-12ede77f4527"
+
+["0.5.29-0"]
+FastClosures = "9aa1b823-49e4-5ca5-8b0f-3971ec8bab6a"
+
+["0.5.3-0"]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+
+["0.5.33-0"]
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+
+["0.5.43-0"]
+OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"
+
+["0.5.5-0"]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+
+["0.5.51-0"]
+ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"

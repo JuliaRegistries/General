@@ -51,14 +51,14 @@ FillArrays = "0.12"
 ["0.3.0"]
 Metaheuristics = "3"
 
-["0.3.1-0"]
-ThermoState = "0.5"
-
 ["0.3.1-0.3.10"]
 BlackBoxOptim = "0.6.1-0.6"
 
 ["0.3.1-0.3.9"]
 CSV = "0.9-0.10"
+
+["0.3.1-0.5.6"]
+ThermoState = "0.5"
 
 ["0.3.10-0"]
 CSV = "0.10"
@@ -73,7 +73,7 @@ Roots = "2.0.4-2"
 ["0.3.11-0"]
 BlackBoxOptim = "0.6.2-0.6"
 
-["0.3.12-0"]
+["0.3.12-0.5.10"]
 NLSolvers = "0.4"
 
 ["0.3.3-0.4.8"]
@@ -94,8 +94,8 @@ NLSolvers = "0.3"
 ["0.3.8-0.3.9"]
 Roots = "2"
 
-["0.4.10-0"]
-Roots = "2.0.14-2"
+["0.4.10-0.5.10"]
+Roots = "2.0.14-2.0.22"
 
 ["0.4.11-0"]
 PrecompileTools = "1"
@@ -110,3 +110,16 @@ FillArrays = ["0.12-0.13", "1"]
 ["0.5-0"]
 JSON3 = "1"
 LogExpFunctions = "0.3.24-0.3"
+
+["0.5.11-0"]
+NLSolvers = "0.5"
+Roots = "2.1.0-2"
+StableTasks = "0.1"
+
+["0.5.4-0"]
+OrderedCollections = "1.5.0-1"
+
+["0.5.5-0"]
+Downloads = "1"
+LinearAlgebra = "1"
+UUIDs = "1"

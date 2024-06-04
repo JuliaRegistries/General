@@ -64,14 +64,16 @@ Optim = ["0.16-0.23", "1"]
 
 ["0.1.5-0"]
 Reexport = ["0.2", "1"]
-Statistics = "1.4.0-1"
-julia = "1.4.0-1"
 
 ["0.1.5-0.3"]
 KernelDensityEstimate = "0.5.3-0.5"
 
 ["0.1.5-0.4.19"]
 SLEEFPirates = "0.5-0.6"
+
+["0.1.5-0.7"]
+Statistics = "1.4.0-1"
+julia = "1.4.0-1"
 
 ["0.2-0.3.3"]
 ManifoldsBase = "0.10"
@@ -123,20 +125,38 @@ Manifolds = "0.6-0.7"
 ["0.4.27-0"]
 KernelDensityEstimate = "0.5.10-0.5"
 
-["0.5-0"]
-Manifolds = "0.8"
-
 ["0.5-0.6.3"]
 ManifoldsBase = "0.13"
 
-["0.6-0"]
+["0.5-0.8.2"]
+Manifolds = "0.8"
+
+["0.6-0.8.3"]
 RecursiveArrayTools = "2"
 
 ["0.6.1-0"]
 Rotations = "1"
 
-["0.6.4-0"]
+["0.6.4-0.8.2"]
 ManifoldsBase = "0.13-0.14"
 
 ["0.7.1-0"]
 Colors = "0.12"
+
+["0.8-0"]
+Distributions = "0.25"
+
+["0.8-0.8.2"]
+Statistics = "1.7.0-1"
+julia = "1.7.0-1"
+
+["0.8.3"]
+Statistics = "1.9.0-1"
+
+["0.8.3-0"]
+Manifolds = "0.9"
+ManifoldsBase = "0.14-0.15"
+julia = "1.9.0-1"
+
+["0.8.4-0"]
+RecursiveArrayTools = ["2", "3.3.0-3"]

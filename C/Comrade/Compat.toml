@@ -1,13 +1,9 @@
 [0]
-Accessors = "0.1"
 AstroTime = "0.6-0.7"
 Distributions = "0.24-0.25"
-FFTW = "1"
 PaddedViews = "0.5"
 SpecialFunctions = ["0.10", "1-2"]
-Statistics = "1.6.0-1"
 StructArrays = "0.3-0.6"
-julia = "1.6.0-1"
 
 ["0-0.1"]
 Interpolations = "0.12-0.13"
@@ -25,11 +21,9 @@ MeasureBase = "0.5"
 MappedArrays = "0.3-0.4"
 
 ["0-0.6"]
+DelimitedFiles = "1.6.0-1"
 KeywordCalls = "0.2"
 StaticArrays = "1"
-
-["0-0.6.4"]
-DelimitedFiles = "1.6.0-1"
 
 ["0-0.7"]
 StatsBase = "0.31-0.33"
@@ -37,11 +31,28 @@ StatsBase = "0.31-0.33"
 ["0-0.7.4"]
 PyCall = "1"
 
+["0-0.8"]
+Accessors = "0.1"
+FFTW = "1"
+Statistics = "1.6.0-1"
+julia = "1.6.0-1"
+
+["0.10-0"]
+Accessors = "0.1"
+ComradeBase = "0.7"
+DimensionalData = "0.26-0.27"
+Enzyme = "0.11-0.12"
+IntervalSets = "0.6-0.7"
+LogDensityProblemsAD = "1"
+VLBIImagePriors = "0.8"
+VLBILikelihoods = "0.2.1-0.2"
+VLBISkyModels = "0.5"
+julia = "1.9.0-1"
+
 ["0.2"]
 ComradeBase = "0.2"
 
 ["0.2-0"]
-AbstractFFTs = "1"
 ChainRulesCore = "1"
 ForwardDiff = "0.9-0.10"
 Reexport = "1"
@@ -52,12 +63,14 @@ MeasureTheory = "0.13"
 ["0.2-0.6"]
 BasicInterpolators = "0.6"
 
+["0.2-0.8"]
+AbstractFFTs = "1"
+
 ["0.2.2"]
 NFFT = "0.10"
 
 ["0.2.2-0"]
 DensityInterface = "0.4"
-ParameterHandling = "0.4"
 RecipesBase = "1"
 
 ["0.2.2-0.3"]
@@ -78,6 +91,9 @@ ValueShapes = "0.10"
 ["0.2.2-0.7.1"]
 AbstractDifferentiation = "0.4"
 
+["0.2.2-0.9.3"]
+ParameterHandling = "0.4"
+
 ["0.2.3-0.3.0"]
 NFFT = "0.10-0.11"
 
@@ -87,9 +103,6 @@ ArgCheck = "2"
 ["0.3.0"]
 ComradeBase = "0.2.5-0.2"
 
-["0.3.1-0"]
-AbstractMCMC = "3-4"
-
 ["0.3.1-0.3"]
 ComradeBase = "0.3"
 
@@ -98,6 +111,9 @@ FLoops = "0.2"
 
 ["0.3.1-0.6.5"]
 NFFT = "0.10-0.12"
+
+["0.3.1-0.9.0"]
+AbstractMCMC = "3-4"
 
 ["0.4"]
 BlockDiagonals = "0.1"
@@ -148,31 +164,37 @@ FillArrays = "0.12-0.13"
 ["0.6.5-0.6"]
 ComradeBase = "0.3.4-0.3"
 
-["0.6.6-0"]
+["0.6.6-0.8"]
 NFFT = "0.10-0.13"
 
-["0.6.7-0"]
+["0.6.7-0.8"]
 FITSIO = "0.16-0.17"
 
 ["0.7-0"]
-AxisKeys = "0.2"
+PrettyTables = "1-2"
+StaticArraysCore = "1"
+
+["0.7-0.7.2"]
+Enzyme = "0.10"
+
+["0.7-0.8"]
 BasicInterpolators = "0.6-0.7"
 ComradeBase = "0.4"
 FastBroadcast = "0.2"
 HypercubeTransform = "0.3-0.4"
 PDMats = "0.10-0.11"
-PrettyTables = "1-2"
 RectiGrids = "0.1"
-Static = "0.6-0.8"
-StaticArraysCore = "1"
-TypedTables = "1"
-
-["0.7-0.7.2"]
-Enzyme = "0.10"
 
 ["0.7-0.8.0"]
 TransformVariables = "0.5-0.7"
 VLBILikelihoods = "0.1"
+
+["0.7-0.9"]
+Static = "0.6-0.8"
+TypedTables = "1"
+
+["0.7-0.9.0"]
+AxisKeys = "0.2"
 
 ["0.7.2-0"]
 LogDensityProblems = "2"
@@ -194,14 +216,52 @@ Enzyme = "0.11"
 FillArrays = ["0.12-0.13", "1"]
 
 ["0.8-0"]
-Requires = "1"
 StatsBase = "0.31-0.34"
 
+["0.8-0.9"]
+Requires = "1"
+
 ["0.8.0"]
+DelimitedFiles = "1.6.0-1"
 Enzyme = "0.11.0"
 
 ["0.8.1-0"]
 DelimitedFiles = "1"
-Enzyme = "0.11"
 TransformVariables = "0.8"
+
+["0.8.1-0.8"]
 VLBILikelihoods = "0.1.3-0.1"
+
+["0.8.1-0.9"]
+Enzyme = "0.11"
+
+["0.9"]
+julia = "1.8.0-1"
+
+["0.9-0"]
+HypercubeTransform = "0.4"
+PolarizedTypes = "0.1"
+Statistics = "1.8.0-1"
+
+["0.9.0"]
+ComradeBase = "0.5"
+VLBILikelihoods = "0.2"
+VLBISkyModels = "0.3.1-0.3"
+
+["0.9.1-0"]
+AbstractMCMC = "3-5"
+
+["0.9.1-0.9"]
+ComradeBase = "0.6"
+VLBISkyModels = "0.4"
+
+["0.9.1-0.9.3"]
+DimensionalData = "0.25"
+VLBILikelihoods = "0.2.1-0.2"
+
+["0.9.4-0"]
+ParameterHandling = "0.4-0.5"
+
+["0.9.4-0.9"]
+DimensionalData = "0.25-0.26"
+VLBILikelihoods = "0.2.1-0.2.3"

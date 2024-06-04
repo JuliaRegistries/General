@@ -1,8 +1,29 @@
 [0]
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
-IndirectArrays = "9b13fd28-a010-5f03-acff-a1bbcff69959"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
-LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
+
+["0-0.3"]
+IndirectArrays = "9b13fd28-a010-5f03-acff-a1bbcff69959"
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0.4-0"]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+MultipleTesting = "f8716d33-7c4a-5097-896f-ce0ecbd3ef6b"
+Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
+OptimizationNLopt = "4e6fcdb7-1186-4e1f-a706-475e75c168bb"
+OptimizationOptimJL = "36348300-93cb-4f02-beb5-3c3902f8871e"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"

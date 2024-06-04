@@ -40,7 +40,7 @@ SymbolicUtils = "0.18"
 ["0.3.2"]
 ModelingToolkit = "8"
 
-["0.3.2-0"]
+["0.3.2-0.4.5"]
 SymbolicUtils = "0.18-0.19"
 
 ["0.3.3"]
@@ -50,14 +50,24 @@ ModelingToolkit = "7-8"
 ModelingToolkit = "7"
 Symbolics = "4.3"
 
-["0.4-0"]
+["0.4-0.4.5"]
 SciMLBase = "1"
 
 ["0.4.2-0"]
 DocStringExtensions = "0.7-0.9"
-ModelingToolkit = "7-8"
 Reexport = "1"
+
+["0.4.2-0.4.5"]
+ModelingToolkit = "7-8"
 Symbolics = "4.3.0-4"
 
-["0.4.5-0"]
+["0.4.5"]
 SnoopPrecompile = "1"
+
+["0.4.6-0"]
+ModelingToolkit = "8"
+PrecompileTools = "1"
+SciMLBase = "1-2"
+SimpleNonlinearSolve = "1"
+SymbolicUtils = "1"
+Symbolics = "5"

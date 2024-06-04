@@ -1,15 +1,27 @@
 [1]
-CSV = "0.10"
-DataDeps = "0.7"
-Distributions = "0.25"
 LoopVectorization = "0.12"
 Octofitter = "1.0.1-1"
 PlanetOrbits = "0.6"
+StrideArrays = "0.1.26-0.1"
+StructArrays = "0.6"
+
+[1-2]
+CSV = "0.10"
+DataDeps = "0.7"
+Distributions = "0.25"
 RecipesBase = "1.3.0-1"
 StaticArrays = "1.6.0-1"
-StrideArrays = "0.1.26-0.1"
 StringDistances = "0.11"
-StructArrays = "0.6"
 Tables = "1.10.0-1"
 TypedTables = "1.4.0-1"
 julia = "1.9.0-1"
+
+[2]
+AbstractGPs = "0.5"
+Distances = "0.10"
+FITSIO = "0.16-0.17"
+MCMCChains = "6"
+Octofitter = "2"
+PlanetOrbits = "0.7"
+StatsBase = "0.33-0.34"
+TemporalGPs = "0.6"

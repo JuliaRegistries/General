@@ -124,12 +124,8 @@ SimpleNonlinearSolve = "0.1"
 SciMLBase = "1.73.0-1"
 
 ["6.109-6"]
-ChainRulesCore = "1"
-Distributions = "0.25"
 DocStringExtensions = "0.9"
-FastBroadcast = "0.2"
 Reexport = "1"
-Requires = "1"
 
 ["6.109-6.110"]
 Static = "0.8"
@@ -143,7 +139,15 @@ StaticArrays = "1"
 ["6.109-6.119"]
 ArrayInterfaceCore = "0.1.26-0.1"
 
-["6.11-6"]
+["6.109-6.136"]
+ChainRulesCore = "1"
+Distributions = "0.25"
+Requires = "1"
+
+["6.109-6.151.1"]
+FastBroadcast = "0.2"
+
+["6.11-6.142"]
 RecursiveArrayTools = "2"
 
 ["6.110-6"]
@@ -167,7 +171,7 @@ EnumX = "1"
 ["6.12.3-6.13.0"]
 ChainRulesCore = "0.4-0.5"
 
-["6.120-6"]
+["6.120-6.147"]
 ArrayInterface = "7"
 
 ["6.121-6"]
@@ -182,14 +186,75 @@ SciMLOperators = "0.2"
 ["6.126-6"]
 SciMLOperators = "0.2-0.3"
 
-["6.127-6"]
+["6.127-6.130.0"]
 SciMLBase = "1.93.3-1"
+
+["6.129-6"]
+PrecompileTools = "1"
 
 ["6.13.1-6.17"]
 ChainRulesCore = "0.4-0.6"
 
+["6.130.1-6.132"]
+SciMLBase = "2.0.1-2"
+
+["6.130.2-6.147.1"]
+EnzymeCore = "0.5-0.6"
+
+["6.133-6.136"]
+SciMLBase = "2.4.0-2"
+
+["6.136"]
+LinearAlgebra = "1.6.0-1"
+Logging = "1.6.0-1"
+Markdown = "1.6.0-1"
+Printf = "1.6.0-1"
+SparseArrays = "1.6.0-1"
+
+["6.136-6"]
+Statistics = "1"
+
+["6.137-6"]
+LinearAlgebra = "1.9.0-1"
+Logging = "1.9.0-1"
+Markdown = "1.9.0-1"
+Printf = "1.9.0-1"
+SparseArrays = "1.9.0-1"
+julia = "1.9.0-1"
+
+["6.137-6.145.2"]
+SciMLBase = "2.7.0-2"
+
 ["6.14-6.25"]
 RecipesBase = "0.7-0.8"
+
+["6.143-6"]
+RecursiveArrayTools = "2-3"
+
+["6.145.3-6.145"]
+SciMLBase = "2.12.0-2"
+
+["6.146"]
+SciMLBase = "2.19.0-2"
+
+["6.147.0"]
+SciMLBase = "2.26.0-2"
+
+["6.147.1-6"]
+SciMLBase = "2.28.0-2"
+
+["6.147.2-6"]
+EnzymeCore = "0.5-0.7"
+
+["6.148-6"]
+ArrayInterface = "7.8.0-7"
+
+["6.149-6"]
+ConcreteStructs = "0.2.3-0.2"
+FastClosures = "0.3.2-0.3"
+
+["6.151.2-6"]
+FastBroadcast = "0.2-0.3"
 
 ["6.18-6.34"]
 ChainRulesCore = "0.4-0.7"
@@ -338,8 +403,10 @@ julia = "1.6.0-1"
 Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
-["6.67-6"]
+["6.67-6.135"]
 Statistics = "1.6.0-1"
+
+["6.67-6.136"]
 julia = "1.6.0-1"
 
 ["6.69"]
@@ -406,7 +473,7 @@ SciMLBase = "1.38.0-1"
 ["6.89.2-6.108"]
 FastBroadcast = "0.1.9-0.2"
 
-["6.9-6"]
+["6.9-6.136"]
 ZygoteRules = "0.2"
 
 ["6.90-6.97"]

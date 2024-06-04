@@ -1,11 +1,16 @@
 [1-2]
 CodecZlib = "0.7"
 StringEncodings = "0.3"
-TranscodingStreams = "0.9"
 julia = "1.7.0-1"
+
+["1-2.1.0"]
+TranscodingStreams = "0.9"
 
 ["2.0"]
 Zlib_jll = "1.2.0-1"
 
 ["2.1-2"]
 CRC32 = "1"
+
+["2.1.1-2"]
+TranscodingStreams = "0.9-0.10"

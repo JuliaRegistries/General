@@ -3,10 +3,12 @@ Combinatorics = "1"
 DiffEqBase = "6"
 IfElse = "0.1"
 OrdinaryDiffEq = "6"
-julia = "1.6.0-1"
 
 ["0-0.1"]
 TermInterface = "0.2"
+
+["0-0.10.4"]
+julia = "1.6.0-1"
 
 ["0-0.3.0"]
 DiffEqOperators = "4.41.0-4"
@@ -25,6 +27,27 @@ DomainSets = "0.5"
 ["0-0.8.1"]
 SymbolicUtils = "0.19"
 Symbolics = "4"
+
+["0.10-0"]
+RuntimeGeneratedFunctions = "0.5.9-0.5"
+SciMLBase = "1.94.0-2"
+
+["0.10.2-0.10.3"]
+PDEBase = "0.1.6-0.1"
+
+["0.10.4-0.10"]
+PDEBase = "0.1.8-0.1"
+
+["0.10.5-0"]
+SymbolicIndexingInterface = "0.3"
+
+["0.10.5-0.10"]
+julia = "1.9.0-1"
+
+["0.11-0"]
+ModelingToolkit = "9.7.1-9"
+PDEBase = "0.1.10-0.1"
+julia = "1.10.0-1"
 
 ["0.2-0"]
 TermInterface = "0.2-0.3"
@@ -55,7 +78,7 @@ DomainSets = "0.5-0.6"
 SymbolicUtils = ["0.19", "1"]
 Symbolics = "4-5"
 
-["0.8.3-0"]
+["0.8.3-0.10"]
 ModelingToolkit = "8"
 
 ["0.8.3-0.8.4"]
@@ -68,8 +91,10 @@ SciMLBase = "1.91.0-1"
 SymbolicUtils = "0.19"
 Symbolics = "4"
 
-["0.9-0"]
+["0.9"]
 SciMLBase = "1.90.0-1"
+
+["0.9-0"]
 SymbolicUtils = "1"
 Symbolics = "5"
 
@@ -82,5 +107,8 @@ PDEBase = "0.1"
 ["0.9.4"]
 PDEBase = "0.1.2-0.1"
 
-["0.9.5-0"]
+["0.9.5-0.10.1"]
 PDEBase = "0.1.4-0.1"
+
+["0.9.6-0"]
+PrecompileTools = "1"

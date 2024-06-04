@@ -1,7 +1,13 @@
 [0]
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 
-["0.1.1-0"]
+[0-1]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["0.1.1-1"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[1]
+CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"

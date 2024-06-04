@@ -1,5 +1,25 @@
 [0]
-CUDA = "4"
 KernelAbstractions = "0.9"
 SpecialFunctions = "2"
 oneAPI = "1"
+
+["0-0.4"]
+CUDA = "4"
+
+["0.3-0.4"]
+AMDGPU = "0.5"
+
+["0.5-0"]
+CUDA = "5"
+MathOptInterface = "1.19.0-1"
+
+["0.5-0.7.0"]
+AMDGPU = "0.7"
+
+["0.6-0"]
+Ipopt = "1.6.0-1"
+MadNLP = "0.8"
+NLPModelsIpopt = "0.10"
+
+["0.7.1-0"]
+AMDGPU = "0.7-0.8"

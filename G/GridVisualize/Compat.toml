@@ -64,10 +64,12 @@ PkgVersion = "0.1-0.3"
 
 ["0.6-1"]
 Observables = "0.5"
-julia = "1.6.0-1"
 
 ["0.6-1.1.3"]
 ExtendableGrids = "0.9"
+
+["0.6-1.5"]
+julia = "1.6.0-1"
 
 ["0.6.0"]
 GridVisualizeTools = "0.2"
@@ -75,7 +77,7 @@ GridVisualizeTools = "0.2"
 ["0.6.1-0"]
 GridVisualizeTools = "0.2.1-0.2"
 
-[1]
+["1-1.2"]
 GridVisualizeTools = "0.3"
 
 ["1.0"]
@@ -83,3 +85,23 @@ PkgVersion = "0.1-0.3"
 
 ["1.1.4-1"]
 ExtendableGrids = ["0.9", "1"]
+
+["1.2-1"]
+LinearAlgebra = "1.6.0-1"
+Printf = "1.6.0-1"
+
+["1.2.0"]
+CairoMakie = "0.10"
+
+["1.3-1.4"]
+GridVisualizeTools = ["0.3", "1"]
+
+["1.4-1"]
+Interpolations = "0.14-0.15"
+IntervalSets = "0.7"
+
+["1.5-1"]
+GridVisualizeTools = "1.1.0-1"
+
+["1.6-1"]
+julia = "1.9.0-1"

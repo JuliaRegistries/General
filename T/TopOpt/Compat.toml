@@ -8,7 +8,6 @@ Reexport = "1"
 Requires = "1.1.0-1"
 Revise = "3"
 StaticArrays = "1"
-Statistics = "1.5.0-1"
 Tensors = "1.4.0-1"
 TimerOutputs = "0.5"
 VTKDataTypes = "0.1"
@@ -50,6 +49,9 @@ StatsFuns = "0.9"
 ["0-0.7.2"]
 ForwardDiff = "0.10"
 
+["0-0.8.1"]
+Statistics = "1.5.0-1"
+
 ["0.4.1"]
 Nonconvex = "0.2-0.3"
 
@@ -72,13 +74,15 @@ NonconvexMMA = "0.1"
 ["0.5-0"]
 ChainRulesCore = "1"
 FileIO = "1"
-NonconvexPercival = "0.1"
 
 ["0.5-0.5.2"]
 Preconditioners = "0.3-0.4"
 
 ["0.5-0.5.3"]
 NonconvexSemidefinite = "0.1"
+
+["0.5-0.8"]
+NonconvexPercival = "0.1"
 
 ["0.5.1-0.5.2"]
 Flux = "0.11-0.12"
@@ -89,13 +93,17 @@ MappedArrays = "0.4"
 NearestNeighbors = "0.4"
 
 ["0.5.3-0"]
-AbstractDifferentiation = "0.4"
-Flux = "0.11-0.13"
-Preconditioners = "0.3-0.5"
 StatsFuns = ["0.9", "1"]
 
 ["0.5.3-0.5"]
 Setfield = "0.7-0.8"
+
+["0.5.3-0.7"]
+AbstractDifferentiation = "0.4"
+Preconditioners = "0.3-0.5"
+
+["0.5.3-0.8.1"]
+Flux = "0.11-0.13"
 
 ["0.5.4-0"]
 NonconvexSemidefinite = "0.1.7-0.1"
@@ -110,5 +118,20 @@ Setfield = ["0.7-0.8", "1"]
 ["0.7-0"]
 ColorSchemes = "3"
 
-["0.7.3-0"]
+["0.7.3-0.7"]
 ForwardDiff = "0.0.0-0.10.34"
+
+["0.8-0"]
+ForwardDiff = "0.0.0-0.10"
+Preconditioners = "0.3-0.6"
+
+["0.8-0.8.1"]
+AbstractDifferentiation = "0.4-0.5"
+
+["0.8.2-0"]
+AbstractDifferentiation = "0.4-0.6"
+Flux = "0.11-0.14"
+Statistics = "1"
+
+["0.9-0"]
+NonconvexPercival = "0.1.4-0.1"

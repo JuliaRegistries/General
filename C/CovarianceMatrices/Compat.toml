@@ -8,7 +8,7 @@ Reexport = "0.0.0-0.2"
 StatsModels = "0.5"
 julia = ["0.7", "1"]
 
-["0.10-0"]
+["0.10"]
 CategoricalArrays = "0.8-0.10"
 Documenter = "0.27"
 Requires = "1.1.0-1"
@@ -16,8 +16,17 @@ StatsBase = "0.33"
 StatsModels = "0.6"
 Tables = "1.4.0-1"
 
+["0.20-0"]
+Combinatorics = "1"
+GroupedArrays = "0.3"
+SparseArrays = "1"
+StatsBase = "0.34"
+julia = "1.9.0-1"
+
 ["0.9.1-0"]
 Statistics = "1"
+
+["0.9.1-0.10"]
 julia = "1"
 
 ["0.9.1-0.9"]

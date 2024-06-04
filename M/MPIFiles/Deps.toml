@@ -10,8 +10,10 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+["0-0.14.1"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0-0.5.2"]
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
@@ -43,7 +45,7 @@ StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 UnitfulAngles = "6fb2a4bd-7999-5318-a3b2-8ad61056cd98"
 
-["0.12.2-0"]
+["0.12.2-0.13"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["0.12.3-0"]
@@ -54,13 +56,20 @@ REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 ImageAxes = "2803e5a7-5153-5ecf-9a86-9b4c37f5f5ac"
 ImageMetadata = "bc367c6b-8a6b-528e-b4bd-a4b897500b49"
 
+["0.12.7-0"]
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+LinearOperatorCollection = "a4a2c56f-fead-462a-a3ab-85921a5f2575"
+
+["0.14.2-0"]
+UnitfulParsableString = "06c00241-927a-4d5b-bb5e-6b5a2ada3567"
+
 ["0.6-0.7.0"]
 RegularizedLeastSquares = "1e9c538a-f78c-5de5-8ffb-0b6dbe892d23"
 
 ["0.6.2-0"]
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
-["0.7.1-0"]
+["0.7.1-0.12.6"]
 SparsityOperators = "a5ff1dd3-4e0a-50db-9022-6d011c1d5846"
 
 ["0.8-0.12.5"]

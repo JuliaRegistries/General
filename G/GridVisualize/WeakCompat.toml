@@ -1,6 +1,30 @@
 ["1.1-1"]
+Plots = "1"
+PyPlot = "2"
+
+["1.1-1.1.5"]
+PlutoVista = "0.8.24-0.8"
+
+["1.1-1.2"]
 CairoMakie = "0.10"
 GLMakie = "0.8"
-Plots = "1"
-PlutoVista = "0.8.24-0.8"
-PyPlot = "2"
+
+["1.1.6-1"]
+PlutoVista = ["0.8.24-0.8", "1"]
+
+["1.3.0"]
+CairoMakie = "0.10.12-0.10"
+GLMakie = "0.8.12-0.8"
+
+["1.3.1-1.3"]
+CairoMakie = "0.11"
+
+["1.3.1-1.5"]
+GLMakie = "0.9"
+
+["1.4-1.5"]
+CairoMakie = "0.11.3-0.11"
+
+["1.6-1"]
+CairoMakie = "0.11.3-0.12"
+GLMakie = "0.9-0.10"

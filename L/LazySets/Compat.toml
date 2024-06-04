@@ -114,7 +114,7 @@ IntervalArithmetic = "0.15-0.19"
 ["1.51-1.55"]
 GLPK = "0.11-0.15"
 
-["1.53.2-2"]
+["1.53.2-2.10"]
 IntervalArithmetic = "0.15-0.20"
 
 ["1.53.3-1.55"]
@@ -138,6 +138,22 @@ julia = "1.6.0-1"
 ["2-2.1"]
 ReachabilityBase = "0.1"
 
+["2.11-2"]
+IntervalArithmetic = "0.15-0.21"
+
+["2.11.1-2.12"]
+ReachabilityBase = "0.2.1-0.2"
+
+["2.12-2"]
+Distributed = ["0.0.0", "1.6.0-1"]
+LinearAlgebra = ["0.0.0", "1.6.0-1"]
+Random = ["0.0.0", "1.6.0-1"]
+SharedArrays = ["0.0.0", "1.6.0-1"]
+SparseArrays = ["0.0.0", "1.6.0-1"]
+
+["2.13-2"]
+ReachabilityBase = "0.2.5-0.2"
+
 ["2.2"]
 ReachabilityBase = "0.1.1-0.1"
 
@@ -156,5 +172,5 @@ ReachabilityBase = "0.1.5-0.1"
 ["2.7.4-2.8"]
 ReachabilityBase = "0.1.7-0.1"
 
-["2.9-2"]
+["2.9-2.11.0"]
 ReachabilityBase = "0.2"

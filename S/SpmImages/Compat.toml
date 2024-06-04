@@ -11,9 +11,18 @@ Plots = "1.25.0-1"
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
-["0.3-0"]
-CoordinateTransformations = "0.6"
-ImageFiltering = "0.7"
+["0.3"]
 ImageTransformations = "0.9"
 Statistics = "1.8.0-1"
 julia = "1.8.0-1"
+
+["0.3-0"]
+CoordinateTransformations = "0.6"
+ImageFiltering = "0.7"
+
+["0.4-0"]
+ImageTransformations = "0.10"
+NetCDF = "0.11.7"
+StaticArrays = "1.7.0-1"
+StructIO = "0.3"
+julia = "1.9.0-1"

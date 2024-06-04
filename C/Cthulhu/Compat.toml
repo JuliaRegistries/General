@@ -24,6 +24,21 @@ FoldingTrees = "1"
 ["2-2.8"]
 julia = "1.7.0-1"
 
+["2.10"]
+julia = "1.9.0-1"
+
+["2.10-2"]
+InteractiveUtils = "1.9.0-1"
+REPL = "1.9.0-1"
+UUIDs = "1.9.0-1"
+Unicode = "1.9.0-1"
+
+["2.11-2"]
+julia = "1.10.0-1"
+
+["2.12-2"]
+TypedSyntax = "1.3.0-1"
+
 ["2.6-2"]
 Preferences = "1"
 
@@ -36,7 +51,7 @@ TypedSyntax = "1.0.2-1"
 ["2.8-2.8.14"]
 JuliaSyntax = "0.3.2-0.3"
 
-["2.8.10-2"]
+["2.8.10-2.9.2"]
 TypedSyntax = "1.1.7-1"
 
 ["2.8.14-2"]
@@ -51,5 +66,14 @@ TypedSyntax = "1.0.6-1"
 ["2.8.6-2"]
 WidthLimitedIO = "1"
 
-["2.9-2"]
+["2.9"]
 julia = "1.8.5-1"
+
+["2.9.3-2.11"]
+TypedSyntax = "1.2.2-1"
+
+["2.9.5-2.9"]
+InteractiveUtils = "1.8.0-1"
+REPL = "1.8.0-1"
+UUIDs = "1.8.0-1"
+Unicode = "1.8.0-1"

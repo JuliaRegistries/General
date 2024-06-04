@@ -42,15 +42,15 @@ VectorizationBase = "0.12.13-0.16"
 LoopVectorization = "0.10"
 VectorizationBase = "0.16"
 
-["0.1.9-0"]
+["0.1.9-0.2.22"]
 julia = "1.5.0-1"
-
-["0.2-0"]
-TriangularSolve = "0.1.1-0.1"
 
 ["0.2-0.2.2"]
 Polyester = "0.3.2-0.3"
 StrideArraysCore = "0.1.13-0.1"
+
+["0.2-0.2.22"]
+TriangularSolve = "0.1.1-0.1"
 
 ["0.2.10-0.2.12"]
 StrideArraysCore = ["0.1.13-0.1", "0.2.1-0.3"]
@@ -58,7 +58,7 @@ StrideArraysCore = ["0.1.13-0.1", "0.2.1-0.3"]
 ["0.2.12-0.2.18"]
 SnoopPrecompile = "1"
 
-["0.2.13-0"]
+["0.2.13-0.2.20"]
 StrideArraysCore = ["0.1.13-0.1", "0.2.1-0.3", "0.4.1-0.4"]
 
 ["0.2.14-0"]
@@ -66,6 +66,17 @@ Polyester = ["0.3.2-0.3", "0.4.1-0.7"]
 
 ["0.2.19-0"]
 PrecompileTools = "1"
+
+["0.2.21-0"]
+LinearAlgebra = "1.5.0-1"
+
+["0.2.21-0.2.22"]
+StrideArraysCore = ["0.1.13-0.1", "0.2.1-0.3", "0.4.1-0.5"]
+
+["0.2.23-0"]
+StrideArraysCore = "0.5.5-0.5"
+TriangularSolve = "0.2"
+julia = "1.10.0-1"
 
 ["0.2.3"]
 Polyester = ["0.3.2-0.3", "0.4.1-0.4"]

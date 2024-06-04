@@ -4,10 +4,12 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 [0-1]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 ["0-1.0.5"]
 UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
+
+["0-1.2.0"]
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 ["0.2-0.5"]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
@@ -29,14 +31,20 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.6.2-1"]
+["0.6.2-0"]
 ScientificTypes = "321657f4-b219-11e9-178b-2701a2544e81"
 
 ["0.6.3-1"]
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 
-["0.7-1"]
+["0.7-1.1"]
 TableTransforms = "0d432bfd-3ee1-4ac1-886a-39f05cc69a3e"
 
 ["0.8.5-0"]
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+
+["1.0"]
+ScientificTypes = "321657f4-b219-11e9-178b-2701a2544e81"
+
+["1.1"]
+DataScienceTraits = "6cb2f572-2d2b-4ba6-bdb3-e710fa044d6c"

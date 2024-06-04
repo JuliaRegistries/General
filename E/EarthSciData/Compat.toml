@@ -1,13 +1,15 @@
 [0]
 DocStringExtensions = "0.9"
-Interpolations = "0.14"
 ModelingToolkit = "8"
-NetCDF = "0.11"
 Symbolics = "4-5"
 julia = "1.6.0-1"
 
 ["0-0.1.0"]
 EarthSciMLBase = "0.4"
+
+["0-0.3"]
+Interpolations = "0.14"
+NetCDF = "0.11"
 
 ["0.1.1-0"]
 Unitful = "1"
@@ -21,5 +23,24 @@ Latexify = "0.16"
 ["0.2.1-0"]
 Latexify = "0.11-0.16"
 
-["0.2.2-0"]
+["0.2.2-0.4.1"]
 EarthSciMLBase = "0.5-0.6"
+
+["0.3-0"]
+Downloads = "1"
+ProgressMeter = "1"
+Proj = "1"
+Scratch = "1"
+
+["0.4-0"]
+Interpolations = "0.14-0.15"
+
+["0.4-0.4.1"]
+NCDatasets = "0.13"
+
+["0.4-0.4.2"]
+AllocCheck = "0.1"
+
+["0.4.2-0"]
+EarthSciMLBase = ["0.5-0.6", "0.8"]
+NCDatasets = "0.13-0.14"

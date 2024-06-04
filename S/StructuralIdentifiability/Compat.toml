@@ -2,7 +2,6 @@
 IterTools = "1"
 MacroTools = "0.5"
 Primes = "0.5"
-TestSetExtensions = "2"
 
 ["0-0.1"]
 AbstractAlgebra = ["0.13", "0.18-0.20"]
@@ -14,6 +13,9 @@ GroebnerBasis = "0.1-0.3"
 
 ["0-0.3.1"]
 julia = "1.5.0-1"
+
+["0-0.4.10"]
+TestSetExtensions = "2"
 
 ["0.2"]
 AbstractAlgebra = ["0.13", "0.18-0.21"]
@@ -47,19 +49,23 @@ AbstractAlgebra = ["0.13", "0.18-0.26"]
 Nemo = "0.24-0.31"
 
 ["0.3.3-0"]
-SpecialFunctions = "1-2"
 julia = "1.6.0-1"
 
 ["0.3.3-0.3.8"]
 Singular = "0.4-0.9"
 
-["0.3.4-0"]
-BenchmarkTools = "1"
-ModelingToolkit = "7-8"
+["0.3.3-0.5.1"]
+SpecialFunctions = "1-2"
 
 ["0.3.4-0.3.6"]
 AbstractAlgebra = ["0.13", "0.18-0.23"]
 Nemo = "0.24-0.28"
+
+["0.3.4-0.5.1"]
+ModelingToolkit = "7-8"
+
+["0.3.4-0.5.2"]
+BenchmarkTools = "1"
 
 ["0.3.7-0.3.8"]
 AbstractAlgebra = ["0.13", "0.18-0.24"]
@@ -85,9 +91,38 @@ Groebner = "0.2"
 AbstractAlgebra = ["0.13", "0.18-0.27"]
 Nemo = "0.24-0.32"
 
-["0.4.10-0"]
+["0.4.10"]
 AbstractAlgebra = ["0.13", "0.18-0.30"]
 Nemo = "0.24-0.34"
+
+["0.4.11"]
+AbstractAlgebra = ["0.13", "0.18-0.32"]
+Groebner = "0.4"
+Nemo = "0.24-0.36"
+ParamPunPam = "0.1"
+
+["0.4.11-0"]
+Combinatorics = "1"
+
+["0.4.11-0.5.1"]
+PrecompileTools = "1"
+
+["0.4.12-0"]
+Dates = "1.6.0-1"
+LinearAlgebra = "1.6.0-1"
+Logging = "1.6.0-1"
+Random = "1.6.0-1"
+
+["0.4.12-0.4"]
+AbstractAlgebra = ["0.13", "0.18-0.33"]
+Nemo = "0.24-0.37"
+
+["0.4.12-0.5.1"]
+Groebner = "0.4-0.5"
+ParamPunPam = "0.2"
+
+["0.4.15-0"]
+TimerOutputs = "0.5"
 
 ["0.4.2"]
 Hecke = "0.14-0.15"
@@ -95,13 +130,35 @@ Hecke = "0.14-0.15"
 ["0.4.3"]
 Hecke = "0.14-0.16"
 
-["0.4.6-0"]
+["0.4.6-0.5.1"]
 SymbolicUtils = "1"
 Symbolics = "5"
 
-["0.4.7-0"]
+["0.4.7-0.4.10"]
 Groebner = "0.2-0.3"
 
 ["0.4.8-0.4.9"]
 AbstractAlgebra = ["0.13", "0.18-0.29"]
 Nemo = "0.24-0.33"
+
+["0.5-0.5.1"]
+AbstractAlgebra = ["0.13", "0.18-0.34"]
+Nemo = "0.24-0.38"
+
+["0.5.2"]
+SpecialFunctions = "2"
+
+["0.5.2-0"]
+PrecompileTools = "1.2.0-1"
+
+["0.5.2-0.5.4"]
+AbstractAlgebra = "0.34.5-0.35"
+Groebner = "0.6.3-0.6"
+Nemo = "0.38.3-0.39"
+ParamPunPam = "0.3.1-0.3"
+
+["0.5.5-0"]
+AbstractAlgebra = "0.40"
+Groebner = "0.7.3-0.7"
+Nemo = "0.43"
+ParamPunPam = "0.4"

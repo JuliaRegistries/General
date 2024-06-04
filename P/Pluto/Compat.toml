@@ -58,7 +58,7 @@ julia = "1.6.0-1"
 ["0.18-0.18.1"]
 RelocatableFolders = "0.1"
 
-["0.18.1-0"]
+["0.18.1-0.19.40"]
 FuzzyCompletions = "0.3-0.5"
 
 ["0.18.2-0.19.4"]
@@ -83,11 +83,47 @@ SnoopPrecompile = "1"
 HTTP = "1.5.2-1"
 LoggingExtras = ["0.4", "1"]
 
-["0.19.26-0"]
+["0.19.26-0.19.40"]
 PrecompileTools = "1"
+
+["0.19.28"]
+Malt = "1.0.3-1"
+
+["0.19.28-0"]
+Scratch = "1.1.0-1"
+
+["0.19.29-0"]
+Malt = "1.1.0-1"
+
+["0.19.31-0"]
+Base64 = "1"
+Downloads = "1"
+FileWatching = "1"
+InteractiveUtils = "1"
+Logging = "1"
+Markdown = "1"
+Pkg = "1"
+REPL = "1"
+Sockets = "1"
+TOML = "1"
+UUIDs = "1"
+
+["0.19.31-0.19.38"]
+Dates = "1"
+
+["0.19.33-0"]
+ExpressionExplorer = ["0.5-0.6", "1"]
+
+["0.19.39-0"]
+Dates = "0-1"
+PlutoDependencyExplorer = "1.0"
 
 ["0.19.4-0"]
 PrecompileSignatures = "3"
+
+["0.19.41-0"]
+FuzzyCompletions = "0.5.4"
+PrecompileTools = "1.2.1"
 
 ["0.19.5-0"]
 HypertextLiteral = "0.7-0.9"

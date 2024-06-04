@@ -31,18 +31,25 @@ StatsBase = "0.33"
 ThreadsX = "0.1"
 julia = "1.6.0-1"
 
+["0.10-0"]
+Statistics = "1"
+TOML = "1"
+VectorInterface = "0.2-0.4"
+
 ["0.7-0"]
 Folds = "0.2"
 
 ["0.7.1-0"]
 Setfield = ["0.7-0.8", "1"]
 
+["0.9"]
+Statistics = "1.7.0-1"
+VectorInterface = "0.2"
+
 ["0.9-0"]
 Combinatorics = "1"
 HypergeometricFunctions = "0.3"
 MPI = "0.20"
-Statistics = "1.7.0-1"
 StatsBase = "0.33-0.34"
 TupleTools = "1"
-VectorInterface = "0.2"
 julia = "1.7.0-1"

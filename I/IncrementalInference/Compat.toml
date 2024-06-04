@@ -228,11 +228,9 @@ Manifolds = "0.6.3-0.7"
 DistributedFactorGraphs = "0.16.2-0.16"
 
 ["0.25.3-0.30"]
+DelimitedFiles = "1.6.0-1"
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
-
-["0.25.3-0.30.3"]
-DelimitedFiles = "1.6.0-1"
 
 ["0.25.4-0.27.1"]
 MetaGraphs = "0.6.4-0.7"
@@ -274,23 +272,26 @@ DistributedFactorGraphs = "0.18.4-0.18"
 ["0.3.8-0.3"]
 StatsBase = "0.0.0-0.33"
 
-["0.30-0"]
-Manifolds = "0.8.15-0.8"
-
 ["0.30-0.32"]
 ManifoldsBase = "0.13.12-0.13"
 
 ["0.30-0.32.1"]
 ApproxManifoldProducts = "0.6"
 
+["0.30-0.34"]
+Manifolds = "0.8.15-0.8"
+
 ["0.30.0"]
 RecursiveArrayTools = "2"
 
 ["0.30.1-0"]
 OrderedCollections = "1"
+
+["0.30.1-0.35.1"]
 RecursiveArrayTools = "2.31.1-2"
 
 ["0.31-0.33"]
+DelimitedFiles = "1.8.0-1"
 SnoopPrecompile = "1"
 Statistics = "1.8.0-1"
 julia = "1.8.0-1"
@@ -312,23 +313,55 @@ DistributedFactorGraphs = "0.20"
 
 ["0.33-0"]
 JSON3 = "1"
-ManifoldsBase = "0.13.12-0.14"
 StructTypes = "1"
 
-["0.34-0"]
-ApproxManifoldProducts = "0.7"
+["0.33-0.34"]
+ManifoldsBase = "0.13.12-0.14"
+
+["0.34"]
 BlockArrays = "0.16"
+Manopt = "0.4.27-0.4"
+
+["0.34-0"]
 DelimitedFiles = "1"
 DistributedFactorGraphs = "0.23"
 FiniteDiff = "2"
 FiniteDifferences = "0.12"
 ManifoldDiff = "0.3"
-Manopt = "0.4.27-0.4"
 PrecompileTools = "1"
 SparseDiffTools = "2"
-Statistics = "1.9.0-1"
 StatsBase = "0.32-0.34"
+
+["0.34-0.35.0"]
+Statistics = "1.9.0-1"
+
+["0.34-0.35.2"]
 julia = "1.9.0-1"
+
+["0.34.0"]
+ApproxManifoldProducts = "0.7"
+
+["0.34.1-0"]
+ApproxManifoldProducts = "0.7-0.8"
+
+["0.35-0"]
+ManifoldsBase = "0.15"
+Manopt = "0.4.40-0.4"
+
+["0.35-0.35.2"]
+Manifolds = "0.9"
+
+["0.35.1-0.35.2"]
+Statistics = "1"
+
+["0.35.2-0"]
+RecursiveArrayTools = "2.31.1-3"
+
+["0.35.3-0"]
+LinearAlgebra = "1.10.0-1"
+Manifolds = "0.9.12-0.9"
+Statistics = "1.10.0-1"
+julia = "1.10.0-1"
 
 ["0.4"]
 KernelDensityEstimate = "0.4"

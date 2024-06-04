@@ -1,0 +1,48 @@
+[0]
+LinearMaps = "3"
+MPI = "0.20"
+Trapz = "2"
+julia = "1.9.0-1"
+
+["0-0.1"]
+ArnoldiMethod = "0.2"
+Arpack = "0.5.4-0.5"
+MUMPS = "1.4.0-1"
+SpecialFunctions = "2"
+
+["0-0.1.0"]
+GridapGmsh = "0.7"
+
+["0-0.1.1"]
+FastGaussQuadrature = "0.4.9-0.5"
+Gridap = "0.17.19-0.17"
+Interpolations = "0.14"
+
+["0.1.2-0"]
+LinearAlgebra = "1"
+SparseArrays = "1"
+
+["0.1.2-0.1"]
+FastGaussQuadrature = ["0.4.9-0.5", "1"]
+Interpolations = "0.15"
+
+["0.1.2-0.2.0"]
+Gridap = "0.17.20-0.17"
+
+["0.2-0"]
+ArnoldiMethod = "0.4"
+Bessels = "0.2"
+FFTW = "1.7.0-1"
+HCubature = "1.5.0-1"
+Interpolations = "0.14-0.15"
+MUMPS = "1.4.0"
+NearestNeighbors = "0.4"
+ProgressMeter = "1"
+Roots = "2"
+StaticArrays = "1"
+
+["0.2.0"]
+GridapGmsh = "0.7"
+
+["0.2.1-0"]
+Gridap = "0.17.20-0.18"
