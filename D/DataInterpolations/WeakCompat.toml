@@ -14,7 +14,17 @@ ForwardDiff = "0.10"
 ["4.7"]
 ForwardDiff = "0.10.19-0.10"
 
-["4.7-5"]
+["4.7-4"]
 ChainRulesCore = "1"
-Optim = "1.6.0-1"
 Symbolics = "5.1.0-5"
+
+["4.7-5"]
+Optim = "1.6.0-1"
+
+["5.0"]
+ChainRulesCore = "1"
+Symbolics = "5.1.0-5"
+
+["5.1-5"]
+ChainRulesCore = "1.18.0-1"
+Symbolics = "5.29.0-5"
