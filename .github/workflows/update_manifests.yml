@@ -30,7 +30,7 @@ jobs:
           - '1.8'
           - '1.9'
           - '1.10'
-          - 'nightly'
+          # - 'nightly' # TODO: uncomment this line
     steps:
       - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v3.3.0
       - uses: julia-actions/setup-julia@f2258781c657ad9b4b88072c5eeaf9ec8c370874 # v2.0.0
