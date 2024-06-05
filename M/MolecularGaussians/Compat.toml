@@ -32,14 +32,22 @@ GeometryBasics = "0.4"
 Graphs = "1.8.0-1"
 LinearAlgebra = "1.7.0-1"
 MakieCore = "0.6"
-MolecularGraph = "0.14"
 Optim = "1.7.0-1"
-Rotations = "1.4.0-1"
 StaticArrays = "1.5.0-1"
+
+["0.3-0.3.1"]
+MolecularGraph = "0.14"
+Rotations = "1.4.0-1"
 julia = "1.7.0-1"
 
 ["0.3.0"]
 GaussianMixtureAlignment = "0.1.7-0.1"
 
-["0.3.1-0"]
+["0.3.1"]
 GaussianMixtureAlignment = "0.1.9-0.1"
+
+["0.3.2-0"]
+GaussianMixtureAlignment = "0.2"
+MolecularGraph = "0.14-0.16"
+Rotations = "1.7.0-1"
+julia = "1.10.0-1"
