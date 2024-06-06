@@ -400,8 +400,14 @@ DynamicPPL = "0.27.1-0.27"
 ["0.32.1-0"]
 OrderedCollections = "1"
 
-["0.32.3-0"]
+["0.32.3-0.32"]
 ADTypes = "1"
+
+["0.33-0"]
+ADTypes = ["0.2", "1"]
+Compat = "4.15.0-4"
+Optimization = "3"
+OptimizationOptimJL = "0.1-0.3"
 
 ["0.5.1-0.6.14"]
 Bijectors = "0-0.2"
