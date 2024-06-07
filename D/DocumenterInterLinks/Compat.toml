@@ -1,16 +1,16 @@
-[0]
+["0-0.1"]
+DocInventories = "0.1"
+
+[0-1]
 Documenter = "1"
 Markdown = "1"
 MarkdownAST = "0.1.2-0.1"
 julia = "1.6.0-1"
 
-["0-0.1"]
-DocInventories = "0.1"
-
 ["0.2-0.2.3"]
 DocInventories = "0.2"
 
-["0.2.1-0"]
+["0.2.1-1"]
 CodecZlib = "0.7"
 
 ["0.2.4"]
@@ -19,12 +19,12 @@ DocInventories = "0.2-0.3"
 ["0.2.5-0.2"]
 DocInventories = "0.3"
 
-["0.3-0"]
-DocumenterInventoryWritingBackport = "0.1"
-TOML = "1"
-
 ["0.3-0.3.1"]
 DocInventories = "0.3-0.4"
 
-["0.3.2-0"]
+["0.3-1"]
+DocumenterInventoryWritingBackport = "0.1"
+TOML = "1"
+
+["0.3.2-1"]
 DocInventories = ["0.3-0.4", "1"]
