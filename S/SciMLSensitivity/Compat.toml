@@ -185,7 +185,6 @@ DiffEqNoiseProcess = "5.19.0-5"
 Distributions = "0.25"
 LinearAlgebra = "1.10.0-1"
 Markdown = "1.10.0-1"
-OrdinaryDiffEq = "6.68.1-6"
 QuadGK = "2.9.1-2"
 Random = "1.10.0-1"
 Reexport = "1"
@@ -206,6 +205,9 @@ SciMLBase = "2.17.1-2"
 
 ["7.52-7.57"]
 RecursiveArrayTools = "3.5.1-3"
+
+["7.52-7.60"]
+OrdinaryDiffEq = "6.68.1-6"
 
 ["7.56.0"]
 DiffEqCallbacks = "2.34.0-3"
@@ -235,6 +237,9 @@ FunctionWrappersWrappers = "0.1"
 
 ["7.6.2-7.10"]
 SciMLBase = "1.51.0-1"
+
+["7.61-7"]
+OrdinaryDiffEq = "6.81.1-6"
 
 ["7.9-7"]
 PreallocationTools = "0.4.4-0.4"
