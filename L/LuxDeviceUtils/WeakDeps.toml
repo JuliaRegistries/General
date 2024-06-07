@@ -1,8 +1,10 @@
 [0]
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
-LuxAMDGPU = "83120cb1-ca15-4f04-bf3b-6967d2e6b60b"
 LuxCUDA = "d0bbae9a-e099-4d5b-a835-1c6931763bda"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["0-0.1.20"]
+LuxAMDGPU = "83120cb1-ca15-4f04-bf3b-6967d2e6b60b"
 
 ["0.1.1-0"]
 Metal = "dde4c033-4e86-420c-a63e-0dd931031962"
@@ -17,6 +19,11 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 ["0.1.19-0"]
 AMDGPU = "21141c5a-9bdb-4563-92ae-f87d6854732e"
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+
+["0.1.21-0"]
+ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
+Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
+oneAPI = "8f75cd03-7ff8-4ecb-9b8f-daf728133b1b"
 
 ["0.1.6-0.1.7"]
 ComponentArrays = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
