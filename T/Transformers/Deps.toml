@@ -44,8 +44,10 @@ ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 Fetch = "bb354801-46f6-40b6-9c3d-d42d7a74c775"
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
-NNlibCUDA = "a00861dc-f156-4864-bf3c-e6376f28a68d"
 PrimitiveOneHot = "13d12f88-f12b-451e-9b9f-13b97e01cc85"
+
+["0.1.14-0.2"]
+NNlibCUDA = "a00861dc-f156-4864-bf3c-e6376f28a68d"
 
 ["0.1.16-0"]
 TextEncodeBase = "f92c20c0-9f2a-4705-8116-881385faba05"
@@ -74,7 +76,6 @@ DoubleArrayTries = "abbaa0e5-f788-499c-92af-c35ff4258c82"
 StringViews = "354b36f9-a18e-4713-926e-db85100087ba"
 
 ["0.1.4-0"]
-CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
 Pickle = "fbb45041-c46e-462f-888f-7c521cafbc2c"
@@ -82,6 +83,9 @@ SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 
 ["0.1.4-0.1"]
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+
+["0.1.4-0.2"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
 ["0.2-0"]
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
@@ -93,3 +97,9 @@ Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0.2.8-0"]
 LRUCache = "8ac3fa9e-de4c-5943-b1dc-09c6b5f20637"
+
+["0.3-0"]
+BangBang = "198e06fe-97b7-11e9-32a5-e1d131e6ad66"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+SafeTensors = "eeda0dda-7046-4914-a807-2495fc7abb89"
+Tricks = "410a4b4d-49e4-4fbc-ab6d-cb71b17b3775"
