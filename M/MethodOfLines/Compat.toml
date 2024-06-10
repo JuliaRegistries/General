@@ -30,6 +30,8 @@ Symbolics = "4"
 
 ["0.10-0"]
 RuntimeGeneratedFunctions = "0.5.9-0.5"
+
+["0.10-0.11.0"]
 SciMLBase = "1.94.0-2"
 
 ["0.10.2-0.10.3"]
@@ -45,11 +47,22 @@ SymbolicIndexingInterface = "0.3"
 julia = "1.9.0-1"
 
 ["0.11-0"]
-ModelingToolkit = "9.7.1-9"
-PDEBase = "0.1.10-0.1"
 julia = "1.10.0-1"
 
-["0.2-0"]
+["0.11.0"]
+ModelingToolkit = "9.7.1-9"
+PDEBase = "0.1.10-0.1"
+
+["0.11.1-0"]
+DomainSets = "0.7"
+ModelingToolkit = "9.17.0-9"
+PDEBase = "0.1.12-0.1"
+SciMLBase = "2"
+SymbolicUtils = "2"
+Symbolics = "5.30.1-5"
+TermInterface = "0.4"
+
+["0.2-0.11.0"]
 TermInterface = "0.2-0.3"
 
 ["0.3.1"]
@@ -71,7 +84,7 @@ SciMLBase = "1.57.0-1"
 ["0.5.1-0.9.1"]
 Latexify = "0.15"
 
-["0.7.2-0"]
+["0.7.2-0.11.0"]
 DomainSets = "0.5-0.6"
 
 ["0.8.2"]
@@ -94,7 +107,7 @@ Symbolics = "4"
 ["0.9"]
 SciMLBase = "1.90.0-1"
 
-["0.9-0"]
+["0.9-0.11.0"]
 SymbolicUtils = "1"
 Symbolics = "5"
 
