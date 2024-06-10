@@ -99,11 +99,19 @@ Statistics = "1.6.0-1"
 DirectedAcyclicGraphs = "0.1.2-0.1"
 LogicCircuits = "0.3.2-0.3"
 
-["0.4-0"]
+["0.4"]
 CUDA = "3.8.1-3"
 ChowLiuTrees = "0.1.1-0.1"
-CodecZlib = "0.7"
 DirectedAcyclicGraphs = "0.1.3-0.1"
+
+["0.4-0"]
+CodecZlib = "0.7"
 Graphs = "1"
 SpecialFunctions = "2.1.0-2"
 TikzGraphs = "1.3.0-1"
+
+["0.5-0"]
+CUDA = "3.8.1-5"
+ChowLiuTrees = "0.2"
+DirectedAcyclicGraphs = "0.1.3-0.2"
+Random = "1"
