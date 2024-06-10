@@ -10,8 +10,6 @@ Distributions = "0.25"
 FillArrays = "1"
 FunctionWrappers = "1"
 LoggingExtras = "1"
-MLJ = "0.19"
-MLJBase = "0.21"
 MLJModelInterface = "1"
 Memoization = "0.2"
 OpenML = "0.3"
@@ -38,6 +36,10 @@ SoleModels = "0.2"
 
 ["0-0.3"]
 SoleBase = "0.11"
+
+["0-0.4.0"]
+MLJ = "0.19"
+MLJBase = "0.21"
 
 ["0.1.6-0.1"]
 StatsBase = "0.33"
@@ -69,8 +71,18 @@ Sole = "0.3"
 
 ["0.4-0"]
 MultiData = "0-0.1"
-Sole = "0.4"
 SoleBase = "0.12"
+
+["0.4.0"]
+Sole = "0.4"
 SoleData = "0.13"
 SoleLogics = "0.7"
 SoleModels = "0.6"
+
+["0.4.1-0"]
+Lazy = "0.15"
+ScientificTypes = "3"
+Sole = "0.5"
+SoleData = "0.14"
+SoleLogics = "0.9"
+SoleModels = "0.7"
