@@ -1,5 +1,4 @@
 [0]
-DocStringExtensions = "0.8"
 Glob = "1"
 
 ["0-0.1"]
@@ -9,6 +8,20 @@ CitableParserBuilder = "0.6"
 CitableObject = "0.6"
 Documenter = "0.26"
 julia = "1.5.0-1"
+
+["0-0.9"]
+DocStringExtensions = "0.8"
+
+["0.10-0"]
+CitableCorpus = "0.13"
+CitableObject = "0.16"
+CitableParserBuilder = "0.27"
+CitableText = "0.16"
+Compat = "4"
+DocStringExtensions = "0.9"
+Documenter = ["0.27", "1"]
+LatinOrthography = "0.7"
+Orthography = "0.22"
 
 ["0.2-0.5"]
 HTTP = "0.9"
@@ -21,8 +34,10 @@ CitableObject = "0.7"
 CitableParserBuilder = "0.14"
 
 ["0.2.1-0"]
-Documenter = "0.27"
 julia = "1"
+
+["0.2.1-0.9"]
+Documenter = "0.27"
 
 ["0.2.2-0.2"]
 CitableParserBuilder = "0.17"
@@ -42,6 +57,9 @@ LatinOrthography = "0.4"
 
 ["0.5-0"]
 CitableBase = "10"
+TestSetExtensions = "2"
+
+["0.5-0.9"]
 CitableCorpus = "0.12"
 CitableObject = "0.15"
 CitableParserBuilder = "0.23"
@@ -49,4 +67,3 @@ CitableText = "0.15"
 Compat = "3"
 LatinOrthography = "0.5"
 Orthography = "0.16"
-TestSetExtensions = "2"
