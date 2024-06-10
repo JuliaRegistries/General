@@ -84,9 +84,15 @@ StatsBase = "0.30-0.34"
 Tables = "1"
 ZipFile = "0.10"
 
-["0.6-0"]
-Lazy = "0.15.1-0.15"
+["0.6"]
 MLJBase = "0.21.11-0.21"
-SoleBase = "0.12"
 SoleData = "0.13"
 SoleLogics = "0.7"
+
+["0.6-0"]
+Lazy = "0.15.1-0.15"
+SoleBase = "0.12"
+
+["0.7-0"]
+SoleData = "0.14"
+SoleLogics = "0.9"
