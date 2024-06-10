@@ -2,8 +2,14 @@
 Colors = "0.12"
 CoordinateTransformations = "0.6"
 GeometryBasics = "0.4"
-InPartS = "0.4.0-0.6"
 InPartSObstacles = "0.1"
-Makie = "0.20.1-0.20"
 Requires = "1"
 Rotations = "1"
+
+["0-0.1.12"]
+InPartS = "0.4.0-0.6"
+Makie = "0.20.1-0.20"
+
+["0.1.13-0"]
+InPartS = "0.4.0-0.7"
+Makie = "0.21"
