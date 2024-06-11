@@ -1,11 +1,13 @@
 [0]
 Distributions = "0.25"
-ITensors = "0.3"
 
 ["0-0.1"]
 DelimitedFiles = "1.4.0-1"
 OrdinaryDiffEq = "6"
 julia = "1.4.0-1"
+
+["0-0.2.1"]
+ITensors = "0.3"
 
 ["0.2-0"]
 Combinatorics = "1"
@@ -19,7 +21,16 @@ julia = "1.8.0-1"
 ITensorTDVP = "0.1"
 OrdinaryDiffEq = "6.55.0"
 
+["0.2.1"]
+ITensorTDVP = "0.2"
+
 ["0.2.1-0"]
 FLoops = "0.2"
-ITensorTDVP = "0.2"
 OrdinaryDiffEq = "6"
+
+["0.2.2-0"]
+BaryRational = "1"
+ITensorTDVP = "0.4"
+ITensors = "0.6"
+Interpolations = "0.15"
+Statistics = "1"
