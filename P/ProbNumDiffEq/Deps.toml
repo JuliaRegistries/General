@@ -1,6 +1,5 @@
 [0]
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
-GaussianDistributions = "43dcc890-d446-5863-8d1a-14597580bb8d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
@@ -9,6 +8,9 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 TaylorSeries = "6aa5eb33-94cf-58f4-a9d0-e4b2c4fc25ea"
+
+["0-0.15"]
+GaussianDistributions = "43dcc890-d446-5863-8d1a-14597580bb8d"
 
 ["0-0.5.4"]
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
@@ -37,7 +39,7 @@ SimpleUnPack = "ce78b400-467f-4804-87d8-8f486da07d0a"
 ["0.11.2-0"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
-["0.12-0"]
+["0.12-0.15"]
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
 
 ["0.13-0"]
@@ -54,10 +56,13 @@ DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
+["0.16-0"]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
 ["0.2-0"]
 TaylorIntegration = "92b13dbe-c966-51a2-8445-caca9f8a7d42"
 
-["0.2.4-0"]
+["0.2.4-0.15"]
 DiffEqDevTools = "f3b72e0c-5b89-59e1-b016-84e28bfd966d"
 
 ["0.7-0"]
@@ -71,9 +76,11 @@ SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 
 ["0.9-0"]
+ToeplitzMatrices = "c751599d-da0a-543b-9d20-d0a503d91d24"
+
+["0.9-0.15"]
 ExponentialUtilities = "d4d017d3-3776-5f7e-afef-a10c40355c18"
 SpecialMatrices = "928aab9d-ef52-54ac-8ca1-acd7ca42c160"
-ToeplitzMatrices = "c751599d-da0a-543b-9d20-d0a503d91d24"
 
 ["0.9.2-0"]
 FastBroadcast = "7034ab61-46d4-4ed7-9d0f-46aef9175898"
