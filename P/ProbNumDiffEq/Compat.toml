@@ -1,5 +1,4 @@
 [0]
-GaussianDistributions = "0.5"
 RecipesBase = "1"
 
 ["0-0.1.1"]
@@ -13,6 +12,9 @@ ModelingToolkit = "3-5"
 
 ["0-0.13.0"]
 RecursiveArrayTools = "2"
+
+["0-0.15"]
+GaussianDistributions = "0.5"
 
 ["0-0.5.0"]
 OrdinaryDiffEq = "5"
@@ -85,11 +87,13 @@ PSDMatrices = "0.4.6-0.4"
 
 ["0.13-0"]
 ArrayAllocators = "0.3"
-FastGaussQuadrature = ["0.5", "1"]
 Kronecker = "0.5.4-0.5"
 LinearAlgebra = "1"
 SciMLBase = "1.90.0-2"
 Statistics = "1"
+
+["0.13-0.15"]
+FastGaussQuadrature = ["0.5", "1"]
 TaylorIntegration = "0.8-0.14"
 
 ["0.13.1-0"]
@@ -102,16 +106,25 @@ MatrixEquations = "2"
 PSDMatrices = "0.4.7-0.4"
 julia = "1.9.0-1"
 
-["0.15-0"]
+["0.15"]
 DiffEqCallbacks = "2.36.0-2"
+TaylorSeries = "0.10-0.16"
+
+["0.15-0"]
 DocStringExtensions = "0.9"
 Printf = "1"
-TaylorSeries = "0.10-0.16"
+
+["0.16-0"]
+DiffEqCallbacks = "2.36.0-3"
+FastBroadcast = "0.2-0.3"
+Random = "1"
+TaylorIntegration = "0.8-0.15"
+TaylorSeries = "0.10-0.17"
 
 ["0.2-0.6"]
 TaylorIntegration = "0.8"
 
-["0.2.4-0"]
+["0.2.4-0.15"]
 DiffEqDevTools = "2"
 
 ["0.5.0"]
@@ -195,7 +208,7 @@ Octavian = "0.3.17-0.3"
 ["0.9"]
 ToeplitzMatrices = "0.7"
 
-["0.9-0"]
+["0.9-0.15"]
 ExponentialUtilities = "1"
 SpecialMatrices = "3"
 
@@ -208,7 +221,7 @@ TaylorSeries = "0.10-0.13"
 ["0.9.1-0.12.0"]
 TaylorIntegration = "0.8-0.11"
 
-["0.9.2-0"]
+["0.9.2-0.15"]
 FastBroadcast = "0.2"
 
 ["0.9.3-0"]
