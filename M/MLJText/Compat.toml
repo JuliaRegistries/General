@@ -1,6 +1,5 @@
 [0]
 CorpusLoaders = "0.3"
-TextAnalysis = "0.7.3-0.7"
 
 ["0-0.1.1"]
 ScientificTypes = "2.2.2-2"
@@ -11,6 +10,9 @@ MLJModelInterface = "1.3.0-1"
 
 ["0-0.2.1"]
 julia = "1.3.0-1"
+
+["0-0.2.2"]
+TextAnalysis = "0.7.3-0.7"
 
 ["0.1.1-0.2.1"]
 Statistics = "1.3.0-1"
@@ -24,3 +26,7 @@ MLJModelInterface = "1.4.0-1"
 
 ["0.2.2-0"]
 julia = "1.6.0-1"
+
+["0.2.3-0"]
+Statistics = ["0.0.0", "1"]
+TextAnalysis = "0.7.3-0.8"
