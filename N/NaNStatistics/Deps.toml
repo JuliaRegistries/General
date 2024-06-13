@@ -1,10 +1,10 @@
-[0]
-IfElse = "615f187c-cbe4-4ef1-ba3b-2fcf58d6d173"
-LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
-
 ["0-0.5"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0-0.6.35"]
+IfElse = "615f187c-cbe4-4ef1-ba3b-2fcf58d6d173"
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 
 ["0-0.6.9"]
 VectorizationBase = "3d5dd08c-fd9d-11e8-17fa-ed2836048c2f"
@@ -18,5 +18,8 @@ SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 ["0.6.26-0"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
-["0.6.33-0"]
+["0.6.33-0.6.35"]
 VectorizationBase = "3d5dd08c-fd9d-11e8-17fa-ed2836048c2f"
+
+["0.6.36-0"]
+StaticArrayInterface = "0d7ed370-da01-4f52-bd93-41d350b8b718"
