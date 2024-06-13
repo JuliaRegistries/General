@@ -4,8 +4,6 @@ CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-DocumenterLaTeX = "cd674d7a-5f81-5cf3-af33-235ef1834b99"
 GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
@@ -16,6 +14,13 @@ SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
 
 ["0-0.7"]
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
+["0-0.9"]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+DocumenterLaTeX = "cd674d7a-5f81-5cf3-af33-235ef1834b99"
+
+["0.10-0"]
+DataLoaders = "2e981812-ef13-4a9c-bfa0-ab13047b12a9"
 
 ["0.7-0"]
 Embeddings = "c5bfea45-b7f1-5224-a596-15500f5db411"
