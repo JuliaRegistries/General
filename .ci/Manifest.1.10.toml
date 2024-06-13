@@ -11,11 +11,6 @@ version = "1.1.1"
 [[deps.Artifacts]]
 uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
-[[deps.AutoHashEquals]]
-git-tree-sha1 = "45bb6705d93be619b81451bb2006b7ee5d4e4453"
-uuid = "15f4f7f2-30c1-5605-9d31-71845cf9641f"
-version = "0.2.0"
-
 [[deps.Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
@@ -260,15 +255,15 @@ uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [[deps.RegistryCI]]
 deps = ["Base64", "Dates", "GitHub", "HTTP", "JSON", "LibGit2", "LicenseCheck", "Pkg", "Printf", "Random", "RegistryTools", "SHA", "StringDistances", "TOML", "Tar", "Test", "TimeZones", "VisualStringDistances"]
-git-tree-sha1 = "0e8a8b73d021efb9798d17ad172c67acebb19a8e"
+git-tree-sha1 = "7f6018121571e34f33eaae00e03ea1a62c779c62"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "10.1.0"
+version = "10.2.0"
 
 [[deps.RegistryTools]]
-deps = ["AutoHashEquals", "LibGit2", "Pkg", "SHA", "UUIDs"]
-git-tree-sha1 = "3dd9eaa965a2925b0a34d994b4d886d797f54b20"
+deps = ["LibGit2", "Pkg", "SHA", "UUIDs"]
+git-tree-sha1 = "c0ac28884fab9ae94ed8cf3448aa950afc2ff9c1"
 uuid = "d1eb7eb1-105f-429d-abf5-b0f65cb9e2c4"
-version = "2.2.3"
+version = "2.3.0"
 
 [[deps.SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
