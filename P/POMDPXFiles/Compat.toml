@@ -1,10 +1,18 @@
 [0]
 LightXML = "0.9"
+
+["0-0.2"]
 POMDPs = "0.7.3-0.9"
 julia = "1"
 
 ["0-0.2.2"]
 POMDPModelTools = "0.3.2-0.3"
 
-["0.2.3-0"]
+["0.2.3-0.2"]
 POMDPTools = "0.1"
+
+["0.3-0"]
+POMDPTools = ["0.1", "1"]
+POMDPs = ["0.9", "1"]
+ProgressMeter = "1"
+julia = "1.6.0-1"
