@@ -46,8 +46,13 @@ IntervalSets = "0.6-0.7"
 LogDensityProblemsAD = "1"
 VLBIImagePriors = "0.8"
 VLBILikelihoods = "0.2.1-0.2"
-VLBISkyModels = "0.5"
 julia = "1.9.0-1"
+
+["0.10-0.10.3"]
+VLBISkyModels = "0.5"
+
+["0.10.4-0"]
+VLBISkyModels = "0.5.5-0.5"
 
 ["0.2"]
 ComradeBase = "0.2"
