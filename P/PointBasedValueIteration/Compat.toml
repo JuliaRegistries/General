@@ -1,7 +1,5 @@
 [0]
 POMDPLinter = "0.1"
-POMDPs = "0.9"
-julia = "1.1.0-1"
 
 ["0-0.1"]
 POMDPModelTools = "0.3"
@@ -10,12 +8,16 @@ POMDPPolicies = "0.3"
 ["0-0.2.2"]
 BeliefUpdaters = "0.2"
 
-["0.2-0"]
-FiniteHorizonPOMDPs = "0.3"
+["0-0.2.3"]
+POMDPs = "0.9"
+julia = "1.1.0-1"
 
 ["0.2-0.2.2"]
 POMDPModelTools = "0.3.2-0.3"
 POMDPPolicies = "0.3-0.4"
+
+["0.2-0.2.3"]
+FiniteHorizonPOMDPs = "0.3"
 
 ["0.2.0"]
 Distributions = "0.24"
@@ -23,5 +25,11 @@ Distributions = "0.24"
 ["0.2.1-0"]
 Distributions = "0.24-0.25"
 
-["0.2.3-0"]
+["0.2.3"]
 POMDPTools = "0.1"
+
+["0.2.4-0"]
+FiniteHorizonPOMDPs = "0.3-0.4"
+POMDPTools = ["0.1", "1"]
+POMDPs = ["0.9", "1"]
+julia = "1.6.0-1"
