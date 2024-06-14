@@ -2,7 +2,6 @@
 BasicPOMCP = "0.3"
 CPUTime = "1"
 D3Trees = "0.3"
-POMDPs = "0.9"
 Parameters = "0.12"
 ParticleFilters = "0.4-0.5"
 julia = "1"
@@ -11,5 +10,12 @@ julia = "1"
 BeliefUpdaters = "0.1-0.2"
 POMDPModelTools = "0.2-0.3"
 
-["0.3.6-0"]
+["0-0.3.6"]
+POMDPs = "0.9"
+
+["0.3.6"]
 POMDPTools = "0.1"
+
+["0.3.7-0"]
+POMDPTools = ["0.1", "1"]
+POMDPs = ["0.9", "1"]
