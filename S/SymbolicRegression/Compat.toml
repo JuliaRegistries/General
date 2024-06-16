@@ -108,8 +108,10 @@ DynamicQuantities = "0.10"
 
 ["0.24-0"]
 DynamicExpressions = "0.16"
-DynamicQuantities = "0.10-0.13"
 Optim = "1.8-1.9"
+
+["0.24-0.24.4"]
+DynamicQuantities = "0.10-0.13"
 
 ["0.24.0"]
 MLJModelInterface = "1.5-1.8"
@@ -118,11 +120,18 @@ ProgressBars = "1.4"
 ["0.24.1-0"]
 Dates = "1"
 Distributed = "1"
-MLJModelInterface = "1.5-1.9"
 Printf = "1"
 ProgressBars = "1.4-1.5"
 Random = "1"
 TOML = "1"
+
+["0.24.1-0.24.4"]
+MLJModelInterface = "1.5-1.9"
+
+["0.24.5-0"]
+DispatchDoctor = "0.4"
+DynamicQuantities = "0.10-0.14"
+MLJModelInterface = "1.5-1.10"
 
 ["0.4-0"]
 Pkg = "1"
