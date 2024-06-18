@@ -12,16 +12,21 @@ julia = "1.5.0-1"
 ["0-0.9"]
 DocStringExtensions = "0.8"
 
+["0.10"]
+CitableParserBuilder = "0.27"
+
 ["0.10-0"]
 CitableCorpus = "0.13"
 CitableObject = "0.16"
-CitableParserBuilder = "0.27"
 CitableText = "0.16"
 Compat = "4"
 DocStringExtensions = "0.9"
 Documenter = ["0.27", "1"]
 LatinOrthography = "0.7"
 Orthography = "0.22"
+
+["0.11-0"]
+CitableParserBuilder = "0.29"
 
 ["0.2-0.5"]
 HTTP = "0.9"

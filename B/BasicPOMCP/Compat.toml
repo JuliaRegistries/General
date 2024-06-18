@@ -3,10 +3,12 @@ CPUTime = "1"
 Colors = "0.9-0.12"
 D3Trees = "0.3"
 POMDPLinter = "0.1"
-POMDPs = "0.9"
 Parameters = "0.12"
 ParticleFilters = "0.5"
 julia = "1.1.0-1"
+
+["0-0.3.10"]
+POMDPs = "0.9"
 
 ["0-0.3.6"]
 BeliefUpdaters = "0.2"
@@ -17,7 +19,11 @@ POMDPSimulators = "0.3"
 ["0-0.3.7"]
 MCTS = "0.4"
 
-["0.3.7-0"]
+["0.3.11-0"]
+POMDPTools = ["0.1", "1"]
+POMDPs = ["0.9", "1"]
+
+["0.3.7-0.3.10"]
 POMDPTools = "0.1"
 
 ["0.3.8-0"]

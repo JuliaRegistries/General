@@ -1,6 +1,5 @@
 [0]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0-0.1"]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
@@ -12,6 +11,9 @@ LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
 Quadmath = "be4d8f0f-7fa4-5f49-b795-2f01399ab2dd"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0-0.14"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0-0.2"]
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
@@ -42,10 +44,12 @@ UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
 ["0.2-0"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-GaussQuadrature = "d54b0c1a-921d-58e0-8e36-89d8069c0969"
 
 ["0.2-0.13.2"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+
+["0.2-0.14"]
+GaussQuadrature = "d54b0c1a-921d-58e0-8e36-89d8069c0969"
 
 ["0.2-0.3"]
 CLIMAParameters = "6eacf6c3-8458-43b9-ae03-caf5306d3d53"

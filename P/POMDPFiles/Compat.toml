@@ -1,13 +1,22 @@
-[0]
-POMDPXFiles = "0.2"
-POMDPs = "0.9"
-julia = "1"
-
 ["0-0.2.3"]
 POMDPModelTools = "0.2-0.3"
 Reexport = "0.2"
 
-["0.2.4-0"]
-POMDPModels = "0.4"
+["0-0.2.4"]
+POMDPXFiles = "0.2"
+POMDPs = "0.9"
+julia = "1"
+
+["0.2.4"]
 POMDPTools = "0.1.4-0.1"
 Reexport = ["0.2", "1"]
+
+["0.2.4-0"]
+POMDPModels = "0.4"
+
+["0.2.5-0"]
+POMDPTools = ["0.1.4-0.1", "1"]
+POMDPXFiles = "0.2.3-0.3"
+POMDPs = ["0.9", "1"]
+Reexport = "1"
+julia = "1.6.0-1"

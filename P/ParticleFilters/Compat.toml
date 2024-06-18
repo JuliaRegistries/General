@@ -24,18 +24,25 @@ StatsBase = "0.32-0.33"
 
 ["0.5-0"]
 POMDPLinter = "0.1"
-POMDPs = "0.9"
-Statistics = "1.1.0-1"
 julia = "1.1.0-1"
 
 ["0.5-0.5.3"]
 POMDPModelTools = "0.3"
 
+["0.5-0.5.6"]
+POMDPs = "0.9"
+Statistics = "1.1.0-1"
+
 ["0.5.1-0.5.3"]
 POMDPPolicies = "0.2-0.4"
 
-["0.5.4-0"]
+["0.5.4-0.5.6"]
 POMDPTools = "0.1"
 
 ["0.5.6-0"]
 StatsBase = "0.32-0.34"
+
+["0.5.7-0"]
+POMDPTools = ["0.1", "1"]
+POMDPs = ["0.9", "1"]
+Statistics = "1"
