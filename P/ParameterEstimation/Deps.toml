@@ -7,7 +7,6 @@ LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
-Oscar = "f1435218-dba5-11e9-1e4d-f1a5fab5fc13"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 SIAN = "cf7bdac0-b945-4905-b5ad-bc3f1a757483"
@@ -15,6 +14,9 @@ Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 TaylorSeries = "6aa5eb33-94cf-58f4-a9d0-e4b2c4fc25ea"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 TestSetExtensions = "98d24dd4-01ad-11ea-1b02-c9a08f80db04"
+
+["0-0.3"]
+Oscar = "f1435218-dba5-11e9-1e4d-f1a5fab5fc13"
 
 ["0.2"]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
@@ -29,3 +31,6 @@ ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
 TaylorDiff = "b36ab563-344f-407b-a36a-4f200bebf99c"
+
+["0.4-0"]
+Nemo = "2edaba10-b0f1-5616-af89-8c11ac63239a"
