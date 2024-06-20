@@ -1,13 +1,15 @@
 [0]
 Distributions = "0.25"
 Measurements = "2"
-julia = "1"
 
 ["0-0.1"]
 Roots = "2"
 
 ["0-0.3.2"]
 Plots = "1"
+
+["0-0.3.5"]
+julia = "1"
 
 ["0.2.1-0"]
 LoopVectorization = "0.12"
@@ -17,3 +19,6 @@ VectorizedStatistics = "0.5"
 
 ["0.3.3-0"]
 SpecialFunctions = "2"
+
+["0.3.6-0"]
+julia = "1.9.0-1"
