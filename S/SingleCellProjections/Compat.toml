@@ -6,7 +6,6 @@ H5Zblosc = "0.1"
 Missings = ["0.4", "1"]
 NearestNeighbors = "0.4"
 Requires = "1.2.0-1"
-SCTransform = "0.1"
 StaticArrays = ["0.12", "1"]
 ThreadedSparseArrays = "0.2"
 julia = "1.8.0-1"
@@ -24,6 +23,9 @@ ThreadPools = "1.2.0-2"
 
 ["0-0.2.3"]
 SnoopPrecompile = "1"
+
+["0-0.3"]
+SCTransform = "0.1"
 
 ["0-0.3.2"]
 SingleCell10x = "0.1"
@@ -48,3 +50,6 @@ LinearAlgebra = "1"
 Random = "1"
 SparseArrays = "1"
 Statistics = "1"
+
+["0.4-0"]
+SCTransform = "0.2"
