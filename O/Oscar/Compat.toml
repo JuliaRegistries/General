@@ -42,6 +42,9 @@ Singular = "0.14"
 AbstractAlgebra = "0.27.6-0.27"
 Hecke = "0.15.4-0.15"
 
+["0.11.1-0"]
+DocStringExtensions = "0.8-0.9"
+
 ["0.11.1-0.11"]
 AbstractAlgebra = "0.27.7-0.27"
 GAP = "0.9"
@@ -49,9 +52,6 @@ Nemo = "0.32.5-0.32"
 
 ["0.11.1-0.11.2"]
 Hecke = "0.16.2-0.16"
-
-["0.11.1-1"]
-DocStringExtensions = "0.8-0.9"
 
 ["0.11.3-0.11"]
 Hecke = "0.17.4-0.17"
@@ -201,6 +201,9 @@ GAP = "0.7.7-0.7"
 ["0.8.1-0.9"]
 Polymake = "0.7.1-0.7"
 
+["0.8.2-0"]
+Preferences = "1"
+
 ["0.8.2-0.10.0"]
 msolve_jll = "0.2.3-0.2"
 
@@ -208,9 +211,6 @@ msolve_jll = "0.2.3-0.2"
 AbstractAlgebra = "0.25"
 Hecke = "0.13"
 Nemo = "0.30"
-
-["0.8.2-1"]
-Preferences = "1"
 
 ["0.9"]
 GAP = "0.8"
@@ -228,15 +228,27 @@ RecipesBase = "1.2.1-1"
 JSON = "0.20-0.21"
 
 [1]
-AlgebraicSolving = "0.4.11-0.4"
 GAP = "0.10.2-0.10"
+Polymake = "0.11.14-0.11"
+
+["1.0"]
+AlgebraicSolving = "0.4.11-0.4"
+DocStringExtensions = "0.8-0.9"
 Hecke = "0.30"
 Nemo = "0.43"
-Polymake = "0.11.14-0.11"
+Preferences = "1"
 Singular = "0.22.4-0.22"
 
 ["1.0.0"]
 AbstractAlgebra = "0.40.1-0.40"
 
-["1.0.1-1"]
+["1.0.1-1.0"]
 AbstractAlgebra = "0.40.8-0.40"
+
+["1.1-1"]
+AbstractAlgebra = "0.41.3-0.41"
+AlgebraicSolving = "0.4.15-0.4"
+Hecke = "0.32"
+Markdown = "1.6.0-1"
+Nemo = "0.45.5-0.45"
+Singular = "0.23.1-0.23"
