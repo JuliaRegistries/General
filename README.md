@@ -137,7 +137,7 @@ However, AutoMerge will fail to load your package (as currently it only operates
 so the initial package registration and every new version will require manual merging until a compatible version
 of Julia has been released.
 
-#### My pull request was not approved for automatic merging, what do I do?
+### My pull request was not approved for automatic merging, what do I do?
 
 It is recommended that you fix the release to conform to the guidelines and
 then retrigger Registrator on the branch/commit that includes the fix.
