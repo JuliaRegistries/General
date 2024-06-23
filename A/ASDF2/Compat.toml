@@ -3,6 +3,13 @@ Blosc = "0.7.3-0.7"
 CodecBzip2 = "0.8.1-0.8"
 CodecZlib = "0.7.3-0.7"
 MD5 = "0.2.1-0.2"
-StridedViews = "0.2.1-0.2"
 YAML = "0.4.9-0.4"
 julia = "1.6.0-1"
+
+["0-0.1.1"]
+StridedViews = "0.2.1-0.2"
+
+["0.1.2-0"]
+BlockArrays = ["0.16.43-0.16", "1"]
+CodecLz4 = "0.4.3-0.4"
+StridedViews = "0.2.1-0.3"
