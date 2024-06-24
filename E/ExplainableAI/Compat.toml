@@ -46,9 +46,14 @@ MacroTools = "0.5"
 XAIBase = "1.2.0-1"
 
 ["0.7-0"]
-Random = "1"
 Reexport = "1"
 Statistics = "1"
 
+["0.7-0.8.0"]
+Random = "1"
+
 ["0.8-0"]
 XAIBase = "3"
+
+["0.8.1-0"]
+Random = ["0.0.0", "1"]
