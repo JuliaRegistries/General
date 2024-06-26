@@ -1,10 +1,8 @@
 [0]
-Documenter = "0.27"
 DoubleExponentialFormulas = "0.1"
 QuadGK = "2"
 Requires = "1"
 StaticArrays = "1"
-julia = "1.6.0-1"
 
 ["0-0.4.0"]
 PlasmaEquilibriumToolkit = "0.4"
@@ -17,7 +15,11 @@ Interpolations = "0.12-0.13"
 ["0-0.6"]
 Polyester = "0.4-0.6"
 
-["0.4-0"]
+["0-0.7"]
+Documenter = "0.27"
+julia = "1.6.0-1"
+
+["0.4-0.7"]
 ArnoldiMethod = "0.2"
 NetCDF = "0.8-0.11"
 
@@ -40,18 +42,28 @@ VMEC = "0.5.6-0.5"
 ["0.5.4-0.6.0"]
 PlasmaEquilibriumToolkit = "0.5.5-0.5"
 
-["0.5.5-0"]
+["0.5.5-0.7"]
 Interpolations = "0.14.3-0.14"
 
 ["0.6.0"]
 VMEC = "0.6"
 
-["0.6.1-0"]
-VMEC = "0.6-0.7"
-
 ["0.6.1-0.6"]
 PlasmaEquilibriumToolkit = "0.5.5-0.6"
 
-["0.7-0"]
+["0.6.1-0.7"]
+VMEC = "0.6-0.7"
+
+["0.7"]
 PlasmaEquilibriumToolkit = "0.5.5-0.7"
+
+["0.7-0"]
 Polyester = "0.4-0.7"
+
+["0.8-0"]
+ArnoldiMethod = "0.2-0.4"
+Documenter = ["0.27", "1"]
+Interpolations = "0.14.3-0.15"
+NetCDF = "0.8-0.12"
+PlasmaEquilibriumToolkit = "0.7.2-0.7"
+julia = "1.7.0-1"
