@@ -1,6 +1,5 @@
 [0]
 Dagger = "0.18"
-DiskArrays = "0.3"
 Ipopt = "1"
 OffsetArrays = "1"
 OnlineStats = "1"
@@ -18,7 +17,13 @@ julia = "1"
 Interpolations = "0.14"
 OptimizationOptimJL = "0.1"
 
+["0-0.1.1"]
+DiskArrays = "0.3"
+
 ["0.1.1-0"]
 Graphs = "1"
 Interpolations = "0.14-0.15"
 OptimizationOptimJL = "0.1-0.2"
+
+["0.1.2-0"]
+DiskArrays = "0.3-0.4"
