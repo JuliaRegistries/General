@@ -22,7 +22,6 @@ KrylovKit = "0.6"
 ["2.20.1-2"]
 CUDA = "5"
 FastAlmostBandedMatrices = "0.1"
-Pardiso = "0.5"
 
 ["2.20.1-2.21"]
 Enzyme = "0.11"
@@ -30,6 +29,9 @@ EnzymeCore = "0.6"
 
 ["2.20.1-2.26"]
 Metal = "0.5"
+
+["2.20.1-2.30.1"]
+Pardiso = "0.5"
 
 ["2.21"]
 RecursiveArrayTools = "2-3"
@@ -62,7 +64,7 @@ Metal = "1"
 ["2.29-2.30.0"]
 CUDSS = "0.1"
 
-["2.29.2-2"]
+["2.29.2-2.30.1"]
 KrylovKit = "0.6-0.7"
 
 ["2.30-2"]
@@ -71,6 +73,10 @@ EnzymeCore = "0.6.5-0.7"
 
 ["2.30.1-2"]
 CUDSS = "0.1-0.2"
+
+["2.30.2-2"]
+KrylovKit = "0.8"
+Pardiso = "0.5.7-0.5"
 
 ["2.6-2.21"]
 BlockDiagonals = "0.1"
