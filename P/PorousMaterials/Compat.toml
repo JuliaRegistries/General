@@ -83,9 +83,11 @@ FIGlet = "0.2"
 JLD2 = "0.4"
 Roots = "0.8"
 
+["0.4"]
+FileIO = "1"
+
 ["0.4-0"]
 DataFrames = "1"
-FileIO = "1"
 Graphs = "1"
 Optim = "1"
 ProgressMeter = "1"
@@ -98,15 +100,25 @@ StatsBase = "0.32"
 Xtals = "0.3"
 
 ["0.4.1-0"]
-Aqua = "0.5.5-0.5"
-CSV = "0.10.4-0.10"
-FIGlet = "0.2.1-0.2"
-JLD2 = "0.4.22-0.4"
 OffsetArrays = "1"
 Polynomials = "3"
 Roots = "2"
 SpecialFunctions = "2"
+
+["0.4.1-0.4"]
+Aqua = "0.5.5-0.5"
+CSV = "0.10.4-0.10"
+FIGlet = "0.2.1-0.2"
+JLD2 = "0.4.22-0.4"
 Statistics = "1.7.0-1"
 StatsBase = "0.33.16-0.33"
 Xtals = "0.4"
 julia = "1.7.0-1"
+
+["0.5-0"]
+CSV = "0.10"
+JLD2 = "0.4"
+PrecompileSignatures = "3"
+StatsBase = "0.34"
+Xtals = "0.5"
+julia = "1.6.0-1"
