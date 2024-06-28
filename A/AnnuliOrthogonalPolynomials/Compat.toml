@@ -1,13 +1,8 @@
 [0]
-BlockArrays = "0.16"
-BlockBandedMatrices = "0.12"
-FastTransforms = "0.15"
 FillArrays = "1"
-LazyArrays = "1"
 QuasiArrays = "0.11"
 SemiclassicalOrthogonalPolynomials = "0.5"
 StaticArrays = "1"
-julia = "1.9.0-1"
 
 ["0-0.0.1"]
 ContinuumArrays = "0.14"
@@ -18,14 +13,34 @@ MultivariateOrthogonalPolynomials = "0.5"
 ClassicalOrthogonalPolynomials = "0.11"
 DomainSets = "0.6"
 
+["0-0.0.5"]
+BlockArrays = "0.16"
+BlockBandedMatrices = "0.12"
+FastTransforms = "0.15"
+LazyArrays = "1"
+julia = "1.9.0-1"
+
 ["0.0.2"]
 ContinuumArrays = "0.14-0.16"
 HarmonicOrthogonalPolynomials = "0.4-0.5"
 MultivariateOrthogonalPolynomials = "0.5-0.6"
 
 ["0.0.3-0"]
+DomainSets = "0.7"
+
+["0.0.3-0.0.5"]
 ClassicalOrthogonalPolynomials = "0.12"
 ContinuumArrays = "0.17"
-DomainSets = "0.7"
 HarmonicOrthogonalPolynomials = "0.5"
 MultivariateOrthogonalPolynomials = "0.6"
+
+["0.0.6-0"]
+BlockArrays = "1.1.0-1"
+BlockBandedMatrices = "0.13"
+ClassicalOrthogonalPolynomials = "0.13"
+ContinuumArrays = "0.18"
+FastTransforms = "0.16"
+HarmonicOrthogonalPolynomials = "0.6"
+LazyArrays = "2.1.0-2"
+MultivariateOrthogonalPolynomials = "0.7"
+julia = "1.10.0-1"
