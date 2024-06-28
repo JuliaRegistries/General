@@ -263,7 +263,6 @@ Functors = "0.2"
 ["0.2-0"]
 Functors = "0.2-0.4"
 JSON3 = "1.12.0-1"
-Static = "0.7-0.8"
 
 ["0.2-0.2.2"]
 NeuralAttentionlib = "0.2.4-0.2"
@@ -273,6 +272,9 @@ FillArrays = "0.13"
 
 ["0.2-0.2.7"]
 TextEncodeBase = "0.6"
+
+["0.2-0.3.0"]
+Static = "0.7-0.8"
 
 ["0.2.2-0"]
 DoubleArrayTries = "0.1"
@@ -306,14 +308,24 @@ NeuralAttentionlib = "0.2.12-0.2"
 TextEncodeBase = "0.7"
 
 ["0.3-0"]
-BangBang = "0.3"
 BytePairEncoding = "0.5.1-0.5"
 Flux = "0.14"
 NNlib = "0.9"
-NeuralAttentionlib = "0.3"
 Pickle = "0.3.5-0.3"
 PrimitiveOneHot = "0.2"
 SafeTensors = "1.1.1-1"
 TextEncodeBase = "0.8.1-0.8"
 Tricks = "0.1.8-0.1"
 julia = "1.10.0-1"
+
+["0.3.0"]
+BangBang = "0.3"
+NeuralAttentionlib = "0.3"
+
+["0.3.1-0"]
+BangBang = "0.3-0.4"
+DelimitedFiles = "1"
+NeuralAttentionlib = "0.3.1-0.3"
+SHA = "0.7"
+Static = ["0.7-0.8", "1"]
+Statistics = "1"
