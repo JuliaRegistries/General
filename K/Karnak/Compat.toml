@@ -1,15 +1,15 @@
 [0]
 Colors = "0.12"
 Graphs = "1"
+Luxor = "3"
+SimpleWeightedGraphs = "1"
 julia = "1.5.0-1"
 
 ["0-0.1"]
 NetworkLayout = "0.4"
 
 [0-1]
-Luxor = "3"
 Reexport = ["0.2", "1"]
-SimpleWeightedGraphs = "1"
 
 ["0.2-1"]
 NetworkLayout = "0.4.4-0.4"
@@ -18,9 +18,19 @@ NetworkLayout = "0.4.4-0.4"
 DelimitedFiles = "1.5.0-1"
 
 [1]
-CSV = "0.10"
 Colors = "0.10-0.12"
+julia = "1.6.0-1"
+
+["1.0"]
+CSV = "0.10"
 DataFrames = "1"
 DelimitedFiles = "1"
 Graphs = "1.7.0-1"
-julia = "1.6.0-1"
+Luxor = "3"
+SimpleWeightedGraphs = "1"
+
+["1.1-1"]
+Graphs = "1.9.0-1"
+InteractiveUtils = "1.6.0-1"
+Luxor = "3-4"
+SimpleWeightedGraphs = "1.4.0-1"
