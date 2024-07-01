@@ -66,12 +66,14 @@ julia = "1.6.0-1"
 RegressionFormulae = "0.1"
 
 ["0.2.8-1"]
-CategoricalArrays = "0.10"
 DataFrames = "1"
 Distributions = "0.25"
 MixedModels = "4"
 StatsModels = "0.6-0.7"
 Tables = "1"
+
+["0.2.8-1.2.1"]
+CategoricalArrays = "0.10"
 
 ["1.0.0"]
 StatsBase = "0.31-0.33"
@@ -84,3 +86,6 @@ LinearAlgebra = "0-1"
 
 ["1.2.1-1"]
 RCall = "0.13-0.14"
+
+["1.2.2-1"]
+CategoricalArrays = "0.8-0.10"
