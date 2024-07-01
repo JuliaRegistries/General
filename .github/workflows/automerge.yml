@@ -57,7 +57,7 @@ jobs:
       - run: chmod 400 .ci/Project.toml
       - run: chmod 400 .ci/Manifest.toml
       - name: Cache artifacts
-        uses: julia-actions/cache@d48542bb7b6239a9391789f01d21a6bdde9ad5df # v2.0.0
+        uses: julia-actions/cache@580d2b69d895343992af2cbad49c32a0149c2cde # v2.0.1
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
@@ -118,7 +118,7 @@ jobs:
       - run: chmod 400 .ci/Project.toml
       - run: chmod 400 .ci/Manifest.toml
       - name: Cache artifacts
-        uses: julia-actions/cache@d48542bb7b6239a9391789f01d21a6bdde9ad5df # v2.0.0
+        uses: julia-actions/cache@580d2b69d895343992af2cbad49c32a0149c2cde # v2.0.1
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
