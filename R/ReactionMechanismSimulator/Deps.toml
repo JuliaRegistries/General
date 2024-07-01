@@ -1,11 +1,18 @@
 [0]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+
+["0-0.1"]
+Clp = "e2554f3b-3117-50c0-817c-e040a3ddf72d"
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
+
+[0-1]
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
-PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
@@ -13,16 +20,13 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 
-["0-0.1"]
-Clp = "e2554f3b-3117-50c0-817c-e040a3ddf72d"
-DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
-MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
-
 ["0.2-0"]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+
+["0.2-1"]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 Calculus = "49dc2e85-a5d0-5ad3-a950-438e2897f1b9"
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
-DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 QuartzImageIO = "dca85d43-d64c-5e67-8c65-017450d5d020"
 Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
@@ -30,18 +34,36 @@ Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
 ["0.2.0"]
 Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
 
-["0.2.1-0"]
+["0.2.1-1"]
 SmoothingSplines = "102930c3-cf33-599f-b3b1-9a29a5acab30"
 
 ["0.3-0"]
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
 DiffEqSensitivity = "41bf760c-e81c-5289-8e54-58b1f1f8abe2"
+
+["0.3-1"]
 ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 
 ["0.4-0"]
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["0.4-1"]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
-Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+[1]
+CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
+IncompleteLU = "40713840-3770-5561-ab4c-a76e7d0d7895"
+MicroMamba = "0b3b1443-0f03-428d-bdfb-f27f9c1191ea"
+PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+PythonPlot = "274fc56d-3b97-40fa-a1cd-1b4a50311bf9"
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+SciMLSensitivity = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
