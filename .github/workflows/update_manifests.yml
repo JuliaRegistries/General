@@ -33,7 +33,7 @@ jobs:
           # - 'nightly' # TODO: uncomment this line
     steps:
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v3.3.0
-      - uses: julia-actions/setup-julia@f2258781c657ad9b4b88072c5eeaf9ec8c370874 # v2.0.0
+      - uses: julia-actions/setup-julia@3645a07f58c7f83b9f82ac8e0bb95583e69149e6 # v2.2.0
         with:
           version: ${{ matrix.version }}
           arch: x64
