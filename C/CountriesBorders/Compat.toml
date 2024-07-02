@@ -8,9 +8,15 @@ julia = "1.9.0-1"
 Meshes = "0.28.1-0.28"
 
 ["0.3-0"]
-Artifacts = "1.9.0-1"
-CoordRefSystems = "0.7"
 GeoJSON = "0.8"
 Meshes = "0.45"
 PrecompileTools = "1"
 Unitful = "1"
+
+["0.3-0.3.1"]
+Artifacts = "1.9.0-1"
+CoordRefSystems = "0.7"
+
+["0.3.2-0"]
+Artifacts = "1"
+CoordRefSystems = "0.7-0.9"
