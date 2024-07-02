@@ -5,11 +5,16 @@ Manifolds = "0.9"
 ManifoldsBase = "0.15"
 Random = "1.10.0-1"
 RecursiveArrayTools = "3"
-Static = "0.8"
 julia = "1.10.0-1"
+
+["1-1.1.0"]
+Static = "0.8"
 
 ["1.0"]
 ExponentialFamily = "1.4.0-1"
 
 ["1.1-1"]
 ExponentialFamily = "1.4.3-1"
+
+["1.1.1-1"]
+Static = ["0.8", "1"]
