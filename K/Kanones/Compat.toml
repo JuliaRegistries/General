@@ -57,13 +57,15 @@ Orthography = "0.17"
 CSV = "0.9-0.10"
 DocStringExtensions = "0.9"
 HTTP = "1"
-julia = "1.8.0-1"
 
 ["0.16.2-0.16.3"]
 CitableParserBuilder = "0.23"
 
 ["0.16.2-0.23"]
 DelimitedFiles = "1.8.0-1"
+
+["0.16.2-0.24"]
+julia = "1.8.0-1"
 
 ["0.16.3"]
 Orthography = "0.18"
@@ -75,11 +77,11 @@ Compat = "4"
 ["0.16.3-0.18.1"]
 PolytonicGreek = "0.18"
 
-["0.16.4-0"]
-Orthography = "0.21"
-
 ["0.16.4-0.18.3"]
 CitableParserBuilder = "0.24"
+
+["0.16.4-0.24"]
+Orthography = "0.21"
 
 ["0.16.7-0"]
 CitableObject = "0.16"
@@ -94,8 +96,10 @@ PolytonicGreek = "0.19"
 
 ["0.18.4-0"]
 AtticGreek = "0.9"
-CitableParserBuilder = "0.25"
 PolytonicGreek = "0.21"
+
+["0.18.4-0.24"]
+CitableParserBuilder = "0.25"
 
 ["0.2"]
 CitableBase = "5"
@@ -110,6 +114,14 @@ Tables = "1"
 
 ["0.24-0"]
 Documenter = ["0.27", "1"]
+
+["0.25-0"]
+CitableParserBuilder = "0.29"
+DelimitedFiles = "1"
+Downloads = "1"
+Orthography = "0.22"
+StatsBase = "0.34"
+julia = "1.10.0-1"
 
 ["0.3-0"]
 CitableBase = "10"
