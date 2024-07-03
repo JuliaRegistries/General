@@ -347,7 +347,7 @@ DynamicPPL = "0.23.15-0.23"
 ["0.29.1-0.29"]
 DynamicPPL = "0.23.17-0.23"
 
-["0.29.2-0"]
+["0.29.2-0.33.0"]
 SciMLBase = "1.37.1-2"
 
 ["0.30-0"]
@@ -394,7 +394,7 @@ AdvancedPS = "0.6"
 ["0.31.3-0.32.2"]
 ADTypes = ["0.2", "1"]
 
-["0.32-0"]
+["0.32-0.33.0"]
 DynamicPPL = "0.27.1-0.27"
 
 ["0.32.1-0"]
@@ -408,6 +408,13 @@ ADTypes = ["0.2", "1"]
 Compat = "4.15.0-4"
 Optimization = "3"
 OptimizationOptimJL = "0.1-0.3"
+
+["0.33.1-0"]
+DynamicPPL = "0.28"
+LinearAlgebra = "1"
+Printf = "1"
+Random = "1"
+SciMLBase = "1.92.1-2"
 
 ["0.5.1-0.6.14"]
 Bijectors = "0-0.2"
