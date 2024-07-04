@@ -19,10 +19,16 @@ BasicInterpolators = "0.6.5-0.6"
 
 ["0.13.1-0"]
 FFTW = "1.5.0-1"
+
+["0.13.1-0.13.3"]
 SnoopPrecompile = "1"
 
 ["0.13.3-0"]
 BasicInterpolators = "0.6.5-0.7"
+
+["0.13.4-0"]
+PrecompileTools = "1"
+julia = "1.9.0-1"
 
 ["0.4"]
 FFTW = "0.0.0-1"
@@ -62,6 +68,8 @@ AbstractNFFTs = "0.2.2-0.2"
 ["0.7-0"]
 Reexport = "1"
 SpecialFunctions = ["0.8", "0.10", "1-2"]
+
+["0.7-0.13.3"]
 julia = "1.6.0-1"
 
 ["0.7-0.8"]
