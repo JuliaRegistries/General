@@ -48,8 +48,14 @@ NNlib = "0.9.14-0.9"
 ProgressMeter = "1.10.0-1"
 SpinGlassExhaustive = "1"
 SpinGlassNetworks = "1.1.2-1"
-SpinGlassTensors = "1.1.1-1"
 Statistics = "1.7.0-1"
 TensorCast = "0.4"
 TensorOperations = "4"
+
+["1.0"]
+SpinGlassTensors = "1.1.1-1"
 julia = "1.9.0-1"
+
+["1.1-1"]
+SpinGlassTensors = "1.1.2-1"
+julia = "1.10.0-1"
