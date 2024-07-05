@@ -17,6 +17,12 @@ VectorInterface = "0.2-0.4"
 ["0.10.1-0"]
 LinearAlgebra = "1.6.0-1"
 
+["0.11-0"]
+KrylovKit = "0.8.1-0.8"
+LoggingExtras = "1"
+Printf = "1"
+julia = "1.8.0-1"
+
 ["0.3.0"]
 KrylovKit = "0.4-1"
 OptimKit = "0.1-1"
@@ -62,7 +68,7 @@ TensorKit = "0.10"
 ["0.6.1"]
 FLoops = "0.1"
 
-["0.6.1-0"]
+["0.6.1-0.10"]
 KrylovKit = "0.4-0.6"
 
 ["0.6.1-0.7"]
@@ -78,6 +84,8 @@ TensorOperations = "3"
 ["0.8-0"]
 FoldsThreads = "0.1"
 Transducers = "0.4"
+
+["0.8-0.10"]
 julia = "1.6.0-1"
 
 ["0.9"]
