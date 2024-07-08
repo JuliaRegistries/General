@@ -29,17 +29,22 @@ HTTP = ["0.9", "1"]
 NamedArrays = "0.9.0-0.9.6"
 
 ["2.13.2-2"]
-AutoHashEquals = ["0.2", "1-2"]
 Clustering = "0.14-0.15"
-StatsBase = "0.32-0.34"
 TranscodingStreams = "0.9-0.10"
 
-["2.14-2"]
+["2.13.2-3"]
+AutoHashEquals = ["0.2", "1-2"]
+StatsBase = "0.32-0.34"
+
+["2.14-3"]
 OrderedCollections = "1.1.0-1"
 
 ["2.16-2"]
-Dates = "1"
 Distributed = "1"
+julia = "1.6.0-1"
+
+["2.16-3"]
+Dates = "1"
 Format = "1"
 JSON3 = "1"
 LinearAlgebra = "1"
@@ -50,7 +55,6 @@ Pkg = "1"
 Random = "1"
 Serialization = "1"
 Statistics = "1"
-julia = "1.6.0-1"
 
 ["2.4"]
 ArgParse = "0.0.0-1"
@@ -70,11 +74,7 @@ StaticArrays = "0.12"
 
 ["2.5-2"]
 ArgParse = "1"
-CodecZlib = "0.6-0.7"
-FastaIO = "1"
-LightXML = "0.8-0.9"
 ProgressMeter = "1"
-RecipesBase = "1"
 Requires = "1"
 
 ["2.5-2.11"]
@@ -94,8 +94,11 @@ julia = "1"
 ["2.5-2.9"]
 DelimitedFiles = "1"
 
-["2.6-2"]
-StaticArrays = ["0.12", "1"]
+["2.5-3"]
+CodecZlib = "0.6-0.7"
+FastaIO = "1"
+LightXML = "0.8-0.9"
+RecipesBase = "1"
 
 ["2.6-2.13"]
 DataStructures = "0.17-0.18"
@@ -109,5 +112,14 @@ PairwiseListMatrices = "0.10"
 ["2.6-2.9"]
 HTTP = "0.8-0.9"
 
-["2.8.2-2"]
+["2.6-3"]
+StaticArrays = ["0.12", "1"]
+
+["2.8.2-3"]
 PairwiseListMatrices = "0.11"
+
+[3]
+BioStructures = "4"
+Downloads = "1"
+TranscodingStreams = "0.9-0.11"
+julia = "1.9.0-1"
