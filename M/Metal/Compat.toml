@@ -45,7 +45,7 @@ Metal_LLVM_Tools_jll = "0.5"
 ["0.4-1"]
 ObjectFile = "0.4"
 
-["0.5-1"]
+["0.5-1.1"]
 LLVM = "6"
 
 ["0.5.0"]
@@ -63,6 +63,8 @@ Requires = "1"
 Adapt = "4"
 Artifacts = "1"
 CEnum = "0.4-0.5"
+
+["1-1.1"]
 GPUArrays = "10"
 
 ["1.0"]
@@ -70,11 +72,20 @@ GPUCompiler = "0.23-0.25"
 Metal_LLVM_Tools_jll = "0.5"
 ObjectiveC = "1.1.0-1"
 
+["1.1"]
+LLVMDowngrader_jll = "0.1"
+ObjectiveC = "2.1.0-2"
+
 ["1.1-1"]
 BFloat16s = "0.5"
 CodecBzip2 = "0.8"
 GPUCompiler = "0.26"
-LLVMDowngrader_jll = "0.1"
-ObjectiveC = "2.1.0-2"
 Preferences = "1"
 SHA = "0.7"
+
+["1.2-1"]
+GPUArrays = "10.1.0-10"
+LLVM = "7.2.0-8"
+LLVMDowngrader_jll = "0.3"
+ObjectiveC = "2.1.0-3"
+PrecompileTools = "1"
