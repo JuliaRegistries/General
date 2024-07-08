@@ -1,11 +1,13 @@
 [0]
 DataFrames = "1"
-InfrastructureSystems = "1"
 NLsolve = "4"
 julia = "1.6.0-1"
 
 ["0-0.1.1"]
 PowerSystems = "1.20.0-1"
+
+["0-0.6"]
+InfrastructureSystems = "1"
 
 ["0.1.2-0.1"]
 PowerSystems = "1.22.0-1"
@@ -23,7 +25,7 @@ PowerNetworkMatrices = "0.7"
 ["0.4"]
 PowerNetworkMatrices = "0.8"
 
-["0.5-0"]
+["0.5-0.6"]
 PowerSystems = "3"
 
 ["0.5-0.6.1"]
@@ -33,5 +35,10 @@ PowerNetworkMatrices = "0.9"
 LinearAlgebra = "1"
 SparseArrays = "1"
 
-["0.6.2-0"]
+["0.6.2-0.6"]
 PowerNetworkMatrices = "0.9-0.10"
+
+["0.7-0"]
+InfrastructureSystems = "2"
+PowerNetworkMatrices = "0.11"
+PowerSystems = "4"
