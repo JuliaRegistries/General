@@ -6,6 +6,9 @@ PlanetOrbits = "0.6"
 Statistics = "1.9.0-1"
 
 [1-2]
+MathTeXEngine = "0.5"
+
+[1-3]
 BasicInterpolators = "0.7"
 DataDeps = "0.7"
 DelimitedFiles = "1"
@@ -15,7 +18,6 @@ DistributionsAD = "0.6"
 ForwardDiff = "0.10"
 LogDensityProblems = "2"
 MCMCChains = "6"
-MathTeXEngine = "0.5"
 NamedTupleTools = "0.13-0.14"
 OrderedCollections = "1.6.0-1"
 Preferences = "1"
@@ -41,14 +43,22 @@ StatsBase = "0.33"
 AdvancedHMC = "0.5.2-0.5"
 
 ["1.0.1-2"]
+RecipesBase = "1.3.0-1"
+
+["1.0.1-3"]
 Bijectors = "0.13"
 Latexify = "0.15-0.16"
 PrecompileTools = "1.1.2-1"
-RecipesBase = "1.3.0-1"
 StaticArrays = "1.6.0-1"
 StatsBase = "0.33-0.34"
 
 [2]
+PlanetOrbits = "0.7"
+
+["2-2.4"]
+Enzyme = "0.11"
+
+[2-3]
 AdvancedHMC = "0.6"
 CovarianceEstimation = "0.2"
 Dates = "1"
@@ -56,21 +66,25 @@ FITSIO = "0.16-0.17"
 Interpolations = "0.13-0.15"
 Logging = "1"
 Pathfinder = "0.8"
-PlanetOrbits = "0.7"
 Printf = "1"
 Random = "1"
 Statistics = "1"
 Transducers = "0.4"
 
-["2-2.4"]
-Enzyme = "0.11"
-
 ["2.0"]
 AbstractMCMC = "5"
 
-["2.1-2"]
+["2.1-3"]
 AbstractMCMC = "4-5"
 
-["2.5-2"]
+["2.5-3"]
 HDF5 = "0.17"
 StringDistances = "0.11"
+
+[3]
+HORIZONS = "0.4"
+KernelDensity = "0.6"
+MathTeXEngine = "0.6"
+Optimization = "3.25.0-3"
+OptimizationOptimJL = "0.3"
+PlanetOrbits = "0.9"
