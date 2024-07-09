@@ -2,7 +2,6 @@
 AtomsBase = "0.3.5-0.3"
 DocStringExtensions = "0.9"
 IterativeSolvers = "0.9"
-MKL = "0.6"
 NPZ = "0.4"
 TensorOperations = "3.2.5-4"
 Unitful = "1"
@@ -12,7 +11,14 @@ julia = "1.8.5-1"
 ["0-0.11"]
 GaussianBasis = "0.4"
 
+["0-0.12"]
+MKL = "0.6"
+
 ["0.12-0"]
 ITensors = "0.4.0-0.7"
 StaticArrays = "1.4.0-1"
 libcint_jll = "5.1.0-5"
+
+["0.13-0"]
+MKL = "0.6-0.7"
+PrecompileTools = "1"
