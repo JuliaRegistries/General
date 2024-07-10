@@ -8,6 +8,10 @@ Lazy = "0.15"
 Intervals = "1"
 Reexport = "1"
 
-["0.2.3-0"]
+["0.2.3-0.2.4"]
 TestItemRunner = "0.2"
 TestItems = "0.1"
+
+["0.2.5-0"]
+TestItemRunner = ["0.2", "1"]
+TestItems = ["0.1", "1"]
