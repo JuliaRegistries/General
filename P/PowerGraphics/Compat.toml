@@ -23,7 +23,7 @@ DataFrames = "0.20"
 ["0.11.2-0.11"]
 PowerSimulations = "0.14.4-0.14"
 
-["0.11.3-0"]
+["0.11.3-0.17"]
 TimeSeries = "0.23"
 
 ["0.11.4-0.11"]
@@ -50,14 +50,20 @@ PowerAnalytics = "0.4"
 ["0.16"]
 PowerAnalytics = "0.5"
 
-["0.16-0"]
+["0.16-0.17"]
 PowerSystems = "3"
 
 ["0.17.0"]
 PowerAnalytics = "0.6"
 
-["0.17.1-0"]
+["0.17.1-0.17"]
 PowerAnalytics = "0.6.1-0.6"
+
+["0.18-0"]
+InfrastructureSystems = "2"
+PowerAnalytics = "0.7"
+PowerSystems = "4"
+TimeSeries = "0.24"
 
 ["0.2-0.3.1"]
 PowerSystems = "0.12"
@@ -123,11 +129,11 @@ PowerSystems = "0.28"
 ["0.5.4-0.6.1"]
 TimeSeries = "0.19"
 
-["0.6-0"]
-InfrastructureSystems = "1"
-
 ["0.6-0.13"]
 PowerSystems = "1"
+
+["0.6-0.17"]
+InfrastructureSystems = "1"
 
 ["0.6.1-0.11.3"]
 CSV = "0.8"
