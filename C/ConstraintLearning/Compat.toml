@@ -43,9 +43,11 @@ Constraints = "0.4"
 ["0.1.5-0"]
 DataFrames = "1"
 Memoization = "0.2"
+julia = "1.8.0-1"
+
+["0.1.5-0.1.7"]
 TestItemRunner = "0.2"
 TestItems = "0.1"
-julia = "1.8.0-1"
 
 ["0.1.6-0"]
 Constraints = "0.5"
@@ -53,3 +55,6 @@ Constraints = "0.5"
 ["0.1.7-0"]
 Dictionaries = "0.4"
 Flux = "0.13-0.14"
+
+["0.1.8-0"]
+TestItems = ["0.1", "1"]
