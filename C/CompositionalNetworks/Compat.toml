@@ -90,7 +90,7 @@ ConstraintDomains = "0.3"
 ["0.5.2-0.5.5"]
 ConstraintCommons = "0.1"
 
-["0.5.4-0"]
+["0.5.4-0.5.7"]
 TestItemRunner = "0.2"
 TestItems = "0.1"
 
@@ -102,3 +102,6 @@ julia = "1.8.0-1"
 ConstraintCommons = "0.2"
 JuliaFormatter = "1"
 Random = "1"
+
+["0.5.8-0"]
+TestItems = ["0.1", "1"]
