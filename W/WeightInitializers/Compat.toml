@@ -8,19 +8,23 @@ julia = "1.6.0-1"
 ["0-0.1.8"]
 SpecialFunctions = "2"
 
+["0.1.10-0"]
+ArgCheck = "2.3.0-2"
+ConcreteStructs = "0.2.3-0.2"
+
 ["0.1.3"]
 PackageExtensionCompat = "1"
 Random = ["0.0.0", "1"]
 Statistics = ["0.0", "1"]
-
-["0.1.4-0"]
-PartialFunctions = "1.2.0-1"
 
 ["0.1.4-0.1.7"]
 PrecompileTools = "1.2.0-1"
 Random = "1.9.0-1"
 Statistics = "1.9.0-1"
 julia = "1.9.0-1"
+
+["0.1.4-0.1.9"]
+PartialFunctions = "1.2.0-1"
 
 ["0.1.5-0.1.7"]
 ChainRulesCore = "1.21.0-1"
