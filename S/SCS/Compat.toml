@@ -84,5 +84,10 @@ MathOptInterface = "1.17.0-1"
 MathOptInterface = "1.20.0-1"
 
 [2]
-SCS_jll = "3.2.4"
 SparseArrays = ["0.0.0", "1.6.0-1"]
+
+["2.0.0"]
+SCS_jll = "3.2.4"
+
+["2.0.1-2"]
+SCS_jll = ["3.2.4", "3.2.6"]
