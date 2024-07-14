@@ -5,8 +5,6 @@ Dates = "1.10.4-1"
 DelimitedFiles = "1.9.1-1"
 Distributions = "0.25"
 Dualization = "0.5"
-Graphs = "1.10.0-1"
-GraphsFlows = "0.1.1-0.1"
 Gurobi = "1"
 JuMP = "1.10.0-1"
 Parameters = "0.10-0.12"
@@ -15,3 +13,13 @@ Random = "1.10.4-1"
 Revise = "3.5.0-3"
 Suppressor = "0.2"
 julia = "1.10.0-1"
+
+["0-0.1.0"]
+Graphs = "1.10.0-1"
+GraphsFlows = "0.1.1-0.1"
+
+["0.1.1-0"]
+Aqua = "0.4.2-0.8"
+Graphs = "1.4.0-1"
+GraphsFlows = "0.1"
+Test = "1.7.0-1"
