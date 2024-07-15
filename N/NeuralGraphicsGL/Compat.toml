@@ -10,9 +10,15 @@ StaticArrays = "1.5.16-1"
 julia = "1.6.0-1"
 
 ["0.1.1-0"]
-CImGui = "1.82"
 ImageCore = "0.10"
 ImageIO = "0.6"
-LibCImGui = "1.82"
 StaticArrays = "1.6.0-1"
 julia = "1.9.0-1"
+
+["0.1.1-0.2"]
+CImGui = "1.82"
+LibCImGui = "1.82"
+
+["0.3-0"]
+CImGui = "2"
+GLFW = "3.4.0-3"
