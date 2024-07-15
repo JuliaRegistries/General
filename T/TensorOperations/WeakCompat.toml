@@ -1,9 +1,16 @@
 [4]
-ChainRulesCore = "1"
 cuTENSOR = "1"
 
 ["4-4.0.2"]
 Requires = "1"
 
+[4-5]
+ChainRulesCore = "1"
+
 ["4.0.7-4"]
 CUDA = "4-5"
+
+[5]
+Bumper = "0.6"
+CUDA = "5.4.0-5"
+cuTENSOR = "2.1.1-2"
