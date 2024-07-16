@@ -6,11 +6,22 @@ LocalApproximationValueIteration = "0.4.3-0.4"
 LocalFunctionApproximation = "1.1.1-1"
 MCTS = "0.5.5-0.5"
 ManifoldLearning = "0.9"
-MultivariateStats = "0.9"
 NearestNeighbors = "0.4"
 POMDPModels = "0.4.20-0.4"
-POMDPTools = "0.1.6-0.1"
-POMDPs = "0.9.6-0.9"
 ParticleFilters = "0.5.6-0.5"
 StaticArrays = "1.9.3-1"
 julia = "1"
+
+["1.0"]
+MultivariateStats = "0.9"
+POMDPTools = "0.1.6-0.1"
+POMDPs = "0.9.6-0.9"
+
+["1.1-1"]
+Distributions = "0.25"
+MultivariateStats = "0.9-0.10"
+POMDPTools = ["0.1.6-0.1", "1"]
+POMDPs = ["0.9.6-0.9", "1"]
+Parameters = "0.12"
+Plots = "1"
+ProgressMeter = "1"
