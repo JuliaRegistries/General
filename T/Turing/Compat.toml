@@ -409,12 +409,17 @@ Compat = "4.15.0-4"
 Optimization = "3"
 OptimizationOptimJL = "0.1-0.3"
 
-["0.33.1-0"]
+["0.33.1"]
 DynamicPPL = "0.28"
+
+["0.33.1-0"]
 LinearAlgebra = "1"
 Printf = "1"
 Random = "1"
 SciMLBase = "1.92.1-2"
+
+["0.33.2-0"]
+DynamicPPL = "0.28.1-0.28"
 
 ["0.5.1-0.6.14"]
 Bijectors = "0-0.2"
