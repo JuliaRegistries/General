@@ -29,11 +29,21 @@ METIS_jll = "5.1.1"
 MUMPS_seq_jll = "5.4.1"
 Osi_jll = "0.10800.600"
 
-["100.1700.601-100"]
+["100.1700.601-100.1700.700"]
 julia = "1.6.0-1"
 
-["100.1700.700-100"]
+["100.1700.700"]
 CoinUtils_jll = "200.1100.600"
 METIS_jll = "5.1.1-5"
 MUMPS_seq_jll = "500.500.101-500"
 Osi_jll = "0.10800.700"
+
+["100.1700.900-100"]
+Artifacts = "1"
+CoinUtils_jll = "200.1100.1100"
+Libdl = "1"
+METIS_jll = "5.1.2"
+MUMPS_seq_jll = "500.700.200"
+Osi_jll = "0.10800.1000"
+julia = "1.9.0-1"
+libblastrampoline_jll = "5.4.0-5"
