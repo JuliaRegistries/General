@@ -3,12 +3,14 @@ OrdinaryDiffEq = "6"
 SBML = "1"
 
 [0-1]
-DiffEqCallbacks = "2"
 ModelingToolkit = "8"
 PrecompileTools = "1"
 RuntimeGeneratedFunctions = "0.5"
 SpecialFunctions = "2"
 julia = "1"
+
+["0-1.1"]
+DiffEqCallbacks = "2"
 
 ["0.3-1"]
 Catalyst = "13"
@@ -19,3 +21,6 @@ JumpProcesses = "9"
 ReactionNetworkImporters = "0.14"
 SBML = "1.5.1-1"
 Setfield = "1"
+
+["1.2-1"]
+SciMLBase = "2.39.0-2"
