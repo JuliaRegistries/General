@@ -2,13 +2,15 @@
 ColorTypes = "0.11.4-0.11"
 FileIO = "1.16.1-1"
 GeometryBasics = "0.4.7-0.4"
-Makie = "0.19.6-0.19"
 Unrolled = "0.1.5-0.1"
 julia = "1.9.0-1"
 
 ["0-0.0.1"]
 PlantGeomPrimitives = "0.0.1"
 PlantRayTracer = "0.0.1"
+
+["0-0.0.4"]
+Makie = "0.19.6-0.19"
 
 ["0.0.2"]
 PlantRayTracer = "0.0.2"
@@ -19,6 +21,12 @@ PlantGeomPrimitives = "0.0.2"
 ["0.0.3"]
 PlantRayTracer = "0.0.3"
 
+["0.0.4"]
+PlantRayTracer = "0.0.4"
+
 ["0.0.4-0"]
 LinearAlgebra = "1.9.0-1"
-PlantRayTracer = "0.0.4"
+
+["0.0.5-0"]
+Makie = "0.20"
+PlantRayTracer = "0.0.5"
