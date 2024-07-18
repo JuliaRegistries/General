@@ -223,7 +223,6 @@ MLJBase = "0.2"
 MLJBase = "0.2.3-0.2"
 
 ["0.20-0"]
-MLJBase = "1"
 MLJEnsembles = "0.4"
 MLJIteration = "0.6"
 MLJTuning = "0.8"
@@ -231,6 +230,9 @@ StatisticalMeasures = "0.1"
 
 ["0.20-0.20.1"]
 MLJFlow = "0.2"
+
+["0.20-0.20.6"]
+MLJBase = "1"
 
 ["0.20.1-0"]
 MLJBalancing = "0.1"
@@ -253,9 +255,15 @@ MLJFlow = "0.4.2-0.4"
 ["0.20.5-0"]
 MLJFlow = "0.5"
 
-["0.20.6-0"]
+["0.20.6"]
 FeatureSelection = "0.1.1-0.1"
+
+["0.20.6-0"]
 MLJModels = "0.17"
+
+["0.20.7-0"]
+FeatureSelection = "0.2"
+MLJBase = "1.5.0-1"
 
 ["0.3"]
 MLJBase = "0.4"
