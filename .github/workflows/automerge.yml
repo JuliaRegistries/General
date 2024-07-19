@@ -47,6 +47,8 @@ jobs:
       - uses: julia-actions/setup-julia@3645a07f58c7f83b9f82ac8e0bb95583e69149e6 # v2.2.0
         with:
           version: ${{ matrix.version }}
+      - name: Cache artifacts
+        uses: julia-actions/cache@580d2b69d895343992af2cbad49c32a0149c2cde # v2.0.1
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes --project=.ci/ {0}
         id: manifest_version
@@ -56,8 +58,6 @@ jobs:
       - run: rm -rf .ci/Manifest.*.toml
       - run: chmod 400 .ci/Project.toml
       - run: chmod 400 .ci/Manifest.toml
-      - name: Cache artifacts
-        uses: julia-actions/cache@580d2b69d895343992af2cbad49c32a0149c2cde # v2.0.1
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
@@ -109,6 +109,8 @@ jobs:
       - uses: julia-actions/setup-julia@3645a07f58c7f83b9f82ac8e0bb95583e69149e6 # v2.2.0
         with:
           version: '1.9'
+      - name: Cache artifacts
+        uses: julia-actions/cache@580d2b69d895343992af2cbad49c32a0149c2cde # v2.0.1
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes --project=.ci/ {0}
         id: manifest_version
@@ -117,8 +119,6 @@ jobs:
       - run: rm -rf .ci/Manifest.*.toml
       - run: chmod 400 .ci/Project.toml
       - run: chmod 400 .ci/Manifest.toml
-      - name: Cache artifacts
-        uses: julia-actions/cache@580d2b69d895343992af2cbad49c32a0149c2cde # v2.0.1
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
