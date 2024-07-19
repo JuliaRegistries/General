@@ -9,6 +9,12 @@ Reexport = "0.2"
 Statistics = "1"
 julia = "1"
 
+["0.10-0"]
+CovarianceEstimation = "0.2"
+DynamicPolynomials = "0.5-0.6"
+MeshAdaptiveDirectSearch = "0.1"
+julia = "1.10.0-1"
+
 ["0.2-0"]
 Bootstrap = "2.2.0-2"
 Dierckx = "0.5"
@@ -36,9 +42,6 @@ QuasiMonteCarlo = "0.2"
 DataFrames = ["0.22", "1"]
 Distributions = "0.24-0.25"
 
-["0.2.2-0"]
-julia = "1.6.0-1"
-
 ["0.2.2-0.3.0"]
 QuasiMonteCarlo = "0.2.4-0.2"
 
@@ -48,6 +51,9 @@ Primes = "0.5"
 
 ["0.2.2-0.8.0"]
 Statistics = "1.6.0-1"
+
+["0.2.2-0.9"]
+julia = "1.6.0-1"
 
 ["0.3"]
 FastGaussQuadrature = "0.4"
@@ -66,8 +72,10 @@ FastGaussQuadrature = "0.4-0.5"
 
 ["0.7-0"]
 DelimitedFiles = "1"
-DynamicPolynomials = "0.5"
 QuasiMonteCarlo = "0.3"
+
+["0.7-0.9"]
+DynamicPolynomials = "0.5"
 
 ["0.8-0"]
 FastGaussQuadrature = ["0.4-0.5", "1"]
