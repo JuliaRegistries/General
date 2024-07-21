@@ -24,8 +24,10 @@ ProgressMeter = "1"
 HistoricalStdlibVersions = "0.1"
 
 ["1.21-1"]
-HistoricalStdlibVersions = ["0.1", "1"]
 JLLWrappers = "1.4.0-1"
+
+["1.21-1.30.0"]
+HistoricalStdlibVersions = ["0.1", "1"]
 
 ["1.27-1"]
 Bzip2_jll = "1.0.8-1"
@@ -49,6 +51,9 @@ Zstd_jll = "1.5.5-1"
 p7zip_jll = ["16.2.1-16", "17.4.0-17"]
 pigz_jll = "2.7.0-2"
 unzip_jll = "6.0.2-6"
+
+["1.30.1-1"]
+HistoricalStdlibVersions = "2"
 
 ["1.4-1"]
 julia = "1.7.0-1"
