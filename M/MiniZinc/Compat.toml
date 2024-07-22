@@ -1,5 +1,4 @@
 [0]
-Chuffed_jll = "0.10.4"
 julia = "1.6.0-1"
 
 ["0-0.1"]
@@ -7,6 +6,9 @@ MathOptInterface = "1.4.0-1"
 
 ["0-0.2.1"]
 MiniZinc_jll = "2.6.2-2"
+
+["0-0.3.10"]
+Chuffed_jll = "0.10.4"
 
 ["0.1.1-0.2.1"]
 LazyArtifacts = "1"
@@ -20,7 +22,11 @@ MiniZinc_jll = "2.7.4"
 ["0.3-0.3.4"]
 MathOptInterface = "1.19.0-1"
 
-["0.3.4-0"]
+["0.3.11-0"]
+Chuffed_jll = ["0.10.4", "0.13.2"]
+MiniZinc_jll = ["2.7.6", "2.8.5"]
+
+["0.3.4-0.3.10"]
 MiniZinc_jll = "2.7.6"
 
 ["0.3.5-0"]
