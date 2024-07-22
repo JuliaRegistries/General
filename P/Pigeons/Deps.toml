@@ -1,6 +1,4 @@
 [0]
-ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
-DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
@@ -10,8 +8,6 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
-OnlineStats = "a15396b6-48d5-5d58-9928-6d29437db91e"
-Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
@@ -30,6 +26,12 @@ Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
 ["0-0.2"]
 DynamicPPL = "366bfd00-2699-11ea-058f-f148b4cae6d8"
 
+["0-0.4.2"]
+ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+OnlineStats = "a15396b6-48d5-5d58-9928-6d29437db91e"
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+
 ["0.1.1-0"]
 Expect = "6a31a4e8-6e70-5a2d-b005-bc2d500d80a5"
 LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
@@ -37,20 +39,30 @@ OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.1.1-0.4.2"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0.2"]
 BridgeStan = "c88b6f0a-829e-4b0b-94b7-f06ab5908f5a"
 
 ["0.2-0"]
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
 LogDensityProblemsAD = "996a588d-648d-4e1f-a8f0-a84b347e47b1"
 ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
+
+["0.2-0.4.2"]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 
 ["0.2.2-0"]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 
 ["0.3-0"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.4.3-0"]
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+OnlineStatsBase = "925886fa-5bf2-5e8e-b522-a9147a512338"
+StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"

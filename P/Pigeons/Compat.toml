@@ -1,6 +1,4 @@
 [0]
-ConcreteStructs = "0.2"
-DataStructures = "0.18"
 Distributions = "0.25"
 DocStringExtensions = "0.9"
 MPI = "0.20"
@@ -28,6 +26,10 @@ StatsBase = "0.33"
 ["0-0.2.1"]
 julia = "1.6.0-1"
 
+["0-0.4.2"]
+ConcreteStructs = "0.2"
+DataStructures = "0.18"
+
 ["0.1.1-0"]
 Expect = "0.3"
 LogExpFunctions = "0.3"
@@ -48,8 +50,10 @@ LogDensityProblems = "2.1.0-2"
 LogDensityProblemsAD = "1.6.0-1"
 
 ["0.2-0"]
-ForwardDiff = "0.10"
 ZipFile = "0.10"
+
+["0.2-0.4.2"]
+ForwardDiff = "0.10"
 
 ["0.2.1"]
 StatsBase = "0.34"
@@ -76,11 +80,19 @@ Graphs = "1"
 Interpolations = "0.14-0.15"
 LogDensityProblems = "2"
 LogDensityProblemsAD = "1"
-OnlineStats = "1"
 OrderedCollections = "1"
-Preferences = "1"
 RecipesBase = "1"
 Requires = "1"
 SpecialFunctions = "2"
-StaticArrays = "1"
 Statistics = "1"
+
+["0.3-0.4.2"]
+OnlineStats = "1"
+Preferences = "1"
+StaticArrays = "1"
+
+["0.4.3-0"]
+FillArrays = "1"
+JSON = "0.21"
+OnlineStatsBase = "1"
+StaticArraysCore = "1"
