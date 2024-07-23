@@ -3,6 +3,14 @@ Documenter = "1"
 DocumenterTools = "0.1"
 JLD2 = "0.4"
 KernelAbstractions = "0.9"
+julia = "1"
+
+["0-0.1.0"]
 Oceananigans = "0.90"
 OffsetArrays = "1.13.0-1"
-julia = "1"
+
+["0.1.1-0"]
+Adapt = "4"
+MPI = "0.20"
+Oceananigans = "0.91.3-0.91"
+OffsetArrays = "1"
