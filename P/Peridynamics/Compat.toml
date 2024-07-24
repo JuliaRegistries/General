@@ -21,11 +21,16 @@ Dates = "1.8.0-1"
 LibGit2 = "1.8.0-1"
 LinearAlgebra = "1.8.0-1"
 MPI = "0.20"
-PointNeighbors = "0.4"
-Polyester = "0.7.5-0.7"
 PrecompileTools = "1"
 Printf = "1.8.0-1"
 ThreadPinning = "0.7"
 TimerOutputs = "0.5"
 WriteVTK = "1.19.0-1"
 julia = "1.9.0-1"
+
+["0.3.0"]
+PointNeighbors = "0.4"
+Polyester = "0.7.5-0.7"
+
+["0.3.1-0"]
+PointNeighbors = "0.4.5-0.4"
