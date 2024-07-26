@@ -162,12 +162,10 @@ Entropies = "1"
 Neighborhood = "0.2.3-0.2"
 
 [1-2]
-Distances = "0.10"
 Distributions = "0.24-0.25"
 LabelledArrays = "1.6.7-1"
 NearestNeighbors = "0.4"
 SimpleDiffEq = "1"
-StaticArrays = "1"
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
@@ -175,6 +173,10 @@ julia = "1.6.0-1"
 HypothesisTests = ["0.8", "0.10", "1"]
 StatsBase = "0.33"
 Wavelets = "0.9"
+
+[1-3]
+Distances = "0.10"
+StaticArrays = "1"
 
 ["1.2-1.2.1"]
 TransferEntropy = "1.4.0-1"
@@ -209,25 +211,27 @@ TransferEntropy = "1.10"
 StateSpaceSets = "0.1"
 
 [2]
-Combinatorics = "1"
-DSP = "0.7"
 Graphs = "1.8.0-1"
-Scratch = "1"
-SpecialFunctions = "2"
 
 ["2-2.7"]
 DelayEmbeddings = "2.6.0-2"
 DynamicalSystemsBase = "2.9.0-2"
 StateSpaceSets = "1.1.0-1"
 
+[2-3]
+Combinatorics = "1"
+DSP = "0.7"
+Scratch = "1"
+SpecialFunctions = "2"
+
 ["2.0"]
 ComplexityMeasures = "2.4.0-2"
 
-["2.1-2"]
-Accessors = "0.1.28-0.1"
-
 ["2.1-2.7"]
 ComplexityMeasures = "2.6.0-2"
+
+["2.1-3"]
+Accessors = "0.1.28-0.1"
 
 ["2.1.3-2.7"]
 TimeseriesSurrogates = "2.1"
@@ -235,19 +239,35 @@ TimeseriesSurrogates = "2.1"
 ["2.10-2"]
 ProgressMeter = "1.7.0-1"
 
-["2.2-2"]
+["2.2-3"]
 RecurrenceAnalysis = "2"
 
 ["2.8"]
 ComplexityMeasures = "2.8.0-2"
 
 ["2.8-2"]
-DelayEmbeddings = "2.7.0-2"
 DynamicalSystemsBase = "3"
 HypothesisTests = ["0.8", "0.10-0.11", "1"]
 StateSpaceSets = "1.4.0-1"
 StatsBase = "0.33-0.34"
 TimeseriesSurrogates = "2.5.0-2"
 
+["2.8-3"]
+DelayEmbeddings = "2.7.0-2"
+
 ["2.9-2"]
 ComplexityMeasures = "2-2.8"
+
+[3]
+ComplexityMeasures = "3.6.5-3"
+Distributions = "0.25"
+Graphs = "1.11.0-1"
+HypothesisTests = "0.11"
+Neighborhood = "0.2.4-0.2"
+ProgressMeter = "1.10.0-1"
+Reexport = "1"
+StateSpaceSets = "1.5.0-1"
+StatsBase = "0.34"
+StyledStrings = "1"
+TimeseriesSurrogates = "2.6.0-2"
+julia = "1.10.0-1"
