@@ -1,6 +1,8 @@
 [0]
-PowerModelsDistribution = "0.14"
 julia = "1"
+
+["0-0.4.0"]
+PowerModelsDistribution = "0.14"
 
 ["0.2-0"]
 Graphs = "1.8.0-1"
@@ -12,6 +14,12 @@ MetaGraphs = "0.7"
 JuMP = "1"
 
 ["0.4-0"]
-MetaGraphsNext = "0.6"
 Parameters = "0.12"
 YAML = "0.4"
+
+["0.4.0"]
+MetaGraphsNext = "0.6"
+
+["0.4.1-0"]
+MetaGraphsNext = "0.7"
+OpenDSSDirect = "0.9"
