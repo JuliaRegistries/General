@@ -159,7 +159,7 @@ julia = "1.9.0-1"
 ArrayInterface = "7"
 GPUArraysCore = "0.1"
 
-["0.5.16-0"]
+["0.5.16-0.5.61"]
 WeightInitializers = "0.1.5-0.1"
 
 ["0.5.17"]
@@ -246,12 +246,14 @@ LuxDeviceUtils = "0.1.19-0.1"
 Reexport = "1.2.2-1"
 
 ["0.5.38-0"]
-ADTypes = ["0.2", "1"]
 ArrayInterface = "7.9.0-7"
-ChainRulesCore = "1.23.0-1"
 
 ["0.5.38-0.5.57"]
 LuxCore = "0.1.14-0.1"
+
+["0.5.38-0.5.61"]
+ADTypes = ["0.2", "1"]
+ChainRulesCore = "1.23.0-1"
 
 ["0.5.40-0.5.44"]
 LuxLib = "0.3.18-0.3"
@@ -265,7 +267,7 @@ LuxLib = "0.3.21-0.3"
 ["0.5.46-0.5.47"]
 LuxLib = "0.3.22-0.3"
 
-["0.5.48-0"]
+["0.5.48-0.5.61"]
 LuxLib = "0.3.23-0.3"
 
 ["0.5.5-0.5.16"]
@@ -275,7 +277,7 @@ MacroTools = "0.5"
 ["0.5.51-0"]
 ArgCheck = "2.1.0-2"
 
-["0.5.53-0"]
+["0.5.53-0.5.61"]
 Functors = "0.4.10-0.4"
 
 ["0.5.55-0.5.60"]
@@ -283,9 +285,11 @@ Compat = "4.12.0-4"
 LuxDeviceUtils = "0.1.22-0.1"
 
 ["0.5.56-0"]
-EnzymeCore = "0.7.5-0.7"
 LossFunctions = "0.11.1-0.11"
 Statistics = "1.10.0-1"
+
+["0.5.56-0.5.61"]
+EnzymeCore = "0.7.5-0.7"
 
 ["0.5.58-0"]
 LuxCore = "0.1.16-0.1"
@@ -296,6 +300,16 @@ Compat = "4.15.0-4"
 ForwardDiff = "0.10.36-0.10"
 LuxDeviceUtils = "0.1.26-0.1"
 Optimisers = "0.3"
+
+["0.5.63-0"]
+ADTypes = "1.5.0-1"
+ChainRulesCore = "1.24.0-1"
+DispatchDoctor = "0.4.12-0.4"
+EnzymeCore = "0.7.7-0.7"
+Functors = "0.4.11-0.4"
+LuxLib = "0.3.33-0.3"
+NNlib = "0.9.21-0.9"
+WeightInitializers = ["0.1.5-0.1", "1"]
 
 ["0.5.9"]
 LinearAlgebra = "1.6.0-1"
