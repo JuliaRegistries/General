@@ -1,4 +1,5 @@
 [0]
+LuxDeviceUtils = "0.1.24-0.1"
 julia = "1.9.0-1"
 
 [0-1]
@@ -8,7 +9,6 @@ Functors = "0.4.1-0.4"
 Graphs = "1.4.0-1"
 KrylovKit = "0.8"
 LinearAlgebra = "1"
-LuxDeviceUtils = "0.1.24-0.1"
 MLUtils = "0.4"
 NNlib = "0.9"
 NearestNeighbors = "0.4"
@@ -19,3 +19,9 @@ StatsBase = "0.34"
 
 [1]
 julia = "1.10.0-1"
+
+["1.0"]
+LuxDeviceUtils = "0.1.24-0.1"
+
+["1.1-1"]
+MLDataDevices = "1"
