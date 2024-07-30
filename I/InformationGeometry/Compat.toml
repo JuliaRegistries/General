@@ -1,5 +1,4 @@
 [1]
-DiffEqCallbacks = "2"
 RecipesBase = "1"
 julia = "1"
 
@@ -29,6 +28,9 @@ Roots = "1"
 
 ["1-1.14.4"]
 BoundaryValueDiffEq = "2"
+
+["1-1.14.5"]
+DiffEqCallbacks = "2"
 
 ["1-1.4"]
 BenchmarkTools = "0.5"
@@ -68,11 +70,13 @@ SpecialFunctions = ["0.9-0.10", "1-2"]
 ModelingToolkit = "5-7"
 
 ["1.10.1-1"]
-ModelingToolkit = "5-8"
 OrdinaryDiffEq = "5-6"
 
 ["1.10.1-1.14.1"]
 SymbolicUtils = "0.11.3-0.19"
+
+["1.10.1-1.14.5"]
+ModelingToolkit = "5-8"
 
 ["1.10.2-1.11.2"]
 PlotUtils = "1.0.9-1.1"
@@ -108,18 +112,31 @@ DistributionsAD = "0.5-0.6"
 SymbolicUtils = "0.11.3-0.20"
 
 ["1.14.3-1"]
-SymbolicUtils = ["0.11.3-0.20", "1"]
 Symbolics = "1-5"
 
-["1.14.4-1"]
+["1.14.3-1.14.5"]
+SymbolicUtils = ["0.11.3-0.20", "1"]
+
+["1.14.4-1.14.5"]
 DataInterpolations = "3-4"
+
+["1.14.5"]
+LibGEOS = "0.6-0.8"
 
 ["1.14.5-1"]
 BoundaryValueDiffEq = "2-5"
-LibGEOS = "0.6-0.8"
 LsqFit = "0.9-0.15"
 SciMLBase = "1-2"
 SnoopPrecompile = "1"
+
+["1.14.6-1"]
+ComponentArrays = "0.13-0.15"
+DataInterpolations = "3-6"
+DiffEqCallbacks = "2-3"
+LibGEOS = "0.6-0.9"
+ModelingToolkit = "5-9"
+Optimization = "3"
+SymbolicUtils = ["0.11.3-0.20", "1-9"]
 
 ["1.2-1"]
 Combinatorics = "1"
