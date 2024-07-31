@@ -286,12 +286,12 @@ Random = "1"
 SparseArrays = "1"
 Statistics = "1"
 
-["0.6.13-0"]
-LoopVectorization = "0.12"
-
 ["0.6.13-0.6.14"]
 Spglib = "0.8.5-0.8"
 julia = "1.8.0-1"
+
+["0.6.13-0.6.19"]
+LoopVectorization = "0.12"
 
 ["0.6.15-0"]
 DocStringExtensions = "0.9"
@@ -302,7 +302,7 @@ julia = "1.9.0-1"
 ["0.6.15-0.6.17"]
 Spglib = "0.9"
 
-["0.6.17-0"]
+["0.6.17-0.6.19"]
 AtomsCalculators = "0.1"
 
 ["0.6.18"]
@@ -313,6 +313,9 @@ Spglib = "0.9.4-0.9"
 
 ["0.6.2-0.6.7"]
 SnoopPrecompile = "1"
+
+["0.6.20-0"]
+AtomsCalculators = "0.2"
 
 ["0.6.3-0.6.11"]
 Statistics = "1.7.0-1"
