@@ -1,6 +1,3 @@
-[0]
-DocStringExtensions = "0.9.3-0.9"
-
 ["0-0.2"]
 ADTypes = "0.2.7-0.2"
 
@@ -9,6 +6,9 @@ FillArrays = "1.9.3-1"
 LinearAlgebra = "1"
 julia = "1.10.0-1"
 
+["0-0.5.9"]
+DocStringExtensions = "0.9.3-0.9"
+
 ["0.3"]
 ADTypes = "1"
 
@@ -16,18 +16,26 @@ ADTypes = "1"
 SparseArrays = "1"
 
 ["0.3.4-0"]
-Compat = "3-4"
 FillArrays = "1.7.0-1"
 LinearAlgebra = ["0.0.0", "1"]
 PackageExtensionCompat = "1.0.2-1"
 SparseArrays = ["0.0.0", "1"]
 julia = "1.6.0-1"
 
+["0.3.4-0.5.9"]
+Compat = "3-4"
+
 ["0.4-0.5.7"]
 ADTypes = "1.2.0-1"
 
-["0.4.1-0"]
+["0.4.1-0.5.9"]
 SparseMatrixColorings = "0.3.2-0.3"
 
-["0.5.8-0"]
+["0.5.10-0"]
+ADTypes = "1.6.1-1"
+Compat = ["3.46.0-3", "4.2.0-4"]
+DocStringExtensions = "0.8-0.9"
+SparseMatrixColorings = "0.3.5-0.3"
+
+["0.5.8-0.5.9"]
 ADTypes = "1.5.0-1"
