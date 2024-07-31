@@ -1,10 +1,15 @@
 [0]
 DBInterface = "2.4.1-2"
-TranscodingStreams = "0.9.5-0.9"
 julia = "1.6.0-1"
 
 ["0-0.1.0"]
 SQLite = "1.1.4-1"
 
-["0.1.1-0"]
+["0-0.1.1"]
+TranscodingStreams = "0.9.5-0.9"
+
+["0.1.1"]
 SQLite = "1.3.0-1"
+
+["0.1.2-0"]
+TranscodingStreams = ["0.9.5-0.9", "0.11"]
