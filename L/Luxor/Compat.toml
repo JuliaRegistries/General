@@ -100,7 +100,12 @@ Colors = "0.11-0.12"
 Dates = "1.6.0-1"
 FFMPEG = "0.4.1-0.4"
 LaTeXStrings = "1.2.0-1"
-MathTeXEngine = "0.5"
 PolygonAlgorithms = "0.2"
 Random = "1.6.0-1"
 julia = "1.9.0-1"
+
+["4.0"]
+MathTeXEngine = "0.5"
+
+["4.1-4"]
+MathTeXEngine = "0.5-0.6"
