@@ -1,8 +1,11 @@
 [0]
+DataStructures = "0.18"
+julia = "1"
+
+["0-0.0.1"]
 CSV = "0.10"
 CairoMakie = "0.11"
 DataFrames = "1"
-DataStructures = "0.18"
 GLMakie = "0.9"
 HTTP = "1"
 JSON3 = "1"
@@ -10,4 +13,11 @@ Makie = "0.20"
 RPRMakie = "0.6"
 WGLMakie = "0.9"
 XLSX = "0.10"
-julia = "1"
+
+["0.0.2-0"]
+DataFrames = "1.6.0-1"
+Graphviz_jll = "2"
+LinearAlgebra = "1"
+Poppler_jll = "24"
+Statistics = "1"
+Transformers = "0.3"
