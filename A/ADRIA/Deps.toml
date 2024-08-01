@@ -1,6 +1,5 @@
 [0]
 ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
-BlackBoxOptim = "a134a8b2-14d6-55f6-9291-3336d3ab0209"
 Bootstrap = "e28b5b4c-05e8-5b66-bc03-6f0c0a0a06e0"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
@@ -23,7 +22,6 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
 ModelParameters = "4744a3fa-6c31-4707-899e-a3298e4618ad"
-NamedDims = "356022a1-0364-5f58-8944-0da4b18d706f"
 OnlineStats = "a15396b6-48d5-5d58-9928-6d29437db91e"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 PkgVersion = "eebad327-c553-4316-9ea0-9fa01ccd7688"
@@ -32,7 +30,6 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 RelocatableFolders = "05181044-ff0b-4ac5-8273-598c1e38db00"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
-SparseArrayKit = "a9a3c162-d163-4c15-8926-b8794fbefed2"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
@@ -40,6 +37,11 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Surrogates = "6fc51010-71bc-11e9-0e15-a3fcc6593c49"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 Zarr = "0a941bbe-ad1d-11e8-39d9-ab76183a1d99"
+
+["0-0.10"]
+BlackBoxOptim = "a134a8b2-14d6-55f6-9291-3336d3ab0209"
+NamedDims = "356022a1-0364-5f58-8944-0da4b18d706f"
+SparseArrayKit = "a9a3c162-d163-4c15-8926-b8794fbefed2"
 
 ["0-0.4"]
 Compose = "a81c6b42-2e10-5240-aca2-a61377ecd94b"
@@ -64,9 +66,16 @@ DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
 NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
 YAXArrays = "c21b50f5-aa40-41ea-b809-c0f5e47bfa5c"
 
+["0.11-0"]
+GDAL_jll = "a7073274-a066-55f0-b90d-d619367d196c"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
+
 ["0.5-0"]
-AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+["0.5-0.10"]
+AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
 
 ["0.6-0"]
 Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
