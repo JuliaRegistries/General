@@ -1,14 +1,9 @@
 [0]
-AbstractFFTs = "1.5.0-1"
-DelimitedFiles = "1.9.0-1"
 Distributions = "0.25"
 FFTW = "1.7.0-1"
 JLD2 = "0.4"
-NLsolve = "4.5.0-4"
 Reexport = "1.2.0-1"
 SpecialFunctions = "2.3.0-2"
-Statistics = "1.9.0-1"
-julia = "1.9.0-1"
 
 ["0-0.1"]
 DSP = "0.7.8-0.7"
@@ -23,19 +18,38 @@ StaticArrays = "1.6.0-1"
 CUDA = "4.4.0-4"
 Interpolations = "0.14"
 
+[0-1]
+AbstractFFTs = "1.5.0-1"
+DelimitedFiles = "1.9.0-1"
+NLsolve = "4.5.0-4"
+Statistics = "1.9.0-1"
+julia = "1.9.0-1"
+
 ["0.2"]
 NCDatasets = "0.13"
 ParallelStencil = "0.9"
 
 ["0.2-0"]
+EnsembleKalmanProcesses = "1"
+
+["0.2-1"]
 Downloads = "1.6.0-1"
 DynamicalSystemsBase = "3.4.0-3"
-EnsembleKalmanProcesses = "1"
 FastGaussQuadrature = "1"
 OrdinaryDiffEq = "6.58.0-6"
 
 ["0.3-0"]
 CUDA = "5"
-Interpolations = "0.14-0.15"
 NCDatasets = "0.13-0.14"
 ParallelStencil = "0.9-0.10"
+
+["0.3-1"]
+Interpolations = "0.14-0.15"
+
+[1]
+CUDA = "4-5"
+FFTW = "1.8.0-1"
+NetCDF = "0.11"
+ParallelStencil = "0.13"
+Reexport = "1"
+SpecialFunctions = "2.4.0-2"
