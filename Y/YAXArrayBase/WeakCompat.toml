@@ -2,6 +2,13 @@
 ArchGDAL = "0.10"
 AxisArrays = "0.4"
 AxisKeys = "0.2"
+
+["0.7.0"]
 DimensionalData = "0.24"
 NetCDF = "0.11"
 Zarr = "0.8"
+
+["0.7.1-0"]
+DimensionalData = ["0.24", "0.27"]
+NetCDF = "0.11-0.12"
+Zarr = "0.8-0.9"
