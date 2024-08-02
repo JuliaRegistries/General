@@ -15,7 +15,7 @@ Images = "0.25.3-0.25"
 ["0.1.1-0.1"]
 Images = "0.17.3-0.25.3"
 
-["0.2-0"]
+["0.2"]
 ColorSchemes = "3"
 FourierTools = "0.4"
 Images = "0.26"
@@ -23,4 +23,12 @@ KernelAbstractions = "0.9"
 Reexport = "1"
 Tullio = "0.3"
 VideoIO = "1"
+
+["0.2-0"]
 julia = "1.10.0-1"
+
+["0.3-0"]
+Bessels = "0.2"
+FFTW = "1"
+KernelAbstractions = "0.8-0.9"
+PrecompileTools = "1"
