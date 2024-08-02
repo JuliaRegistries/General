@@ -2,7 +2,6 @@
 Cuba = "2"
 Cubature = "1"
 Distributions = "0.25"
-FLoops = "0.2"
 ForwardDiff = "0.10"
 HCubature = "1"
 Interpolations = "0.13-0.14"
@@ -36,13 +35,26 @@ SparseMatricesCSR = "0.6"
 StatFiles = "0.8"
 StatsBase = "0.33"
 
+["0-0.2.0"]
+FLoops = "0.2"
+
 ["0.2-0"]
 Accessors = "0.1"
 AutoHashEquals = "2"
 ConstructionBase = "1"
-DocStringExtensions = "0.9"
 FillArrays = ["0.13", "1.5.0-1"]
-FittedItemBanks = "0.3.1-0.4"
 LogarithmicNumbers = "1"
-PsychometricsBazaarBase = "0.6"
 StatsBase = "0.33-0.34"
+
+["0.2.0"]
+DocStringExtensions = "0.9"
+FittedItemBanks = "0.3.1-0.4"
+PsychometricsBazaarBase = "0.6"
+
+["0.2.1-0"]
+DocStringExtensions = "0.8-0.9"
+EffectSizes = "1.0.1-1"
+FittedItemBanks = "0.6"
+HypothesisTests = "0.11"
+KernelAbstractions = "0.9.22-0.9"
+PsychometricsBazaarBase = "0.7"
