@@ -2,7 +2,6 @@
 Cuba = "8a292aeb-7a57-582c-b821-06e4c11590b1"
 Cubature = "667455a9-e2ce-5579-9412-b964f529a492"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-FLoops = "cc61a311-1640-44b5-9fba-1b764f453329"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 FittedItemBanks = "3f797b09-34e4-41d7-acf6-3302ae3248a5"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
@@ -40,9 +39,17 @@ Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 SparseMatricesCSR = "a0a7dd2c-ebf4-11e9-1f05-cf50bc540ca1"
 StatFiles = "1463e38c-9381-5320-bcd4-4134955f093a"
 
+["0-0.2.0"]
+FLoops = "cc61a311-1640-44b5-9fba-1b764f453329"
+
 ["0.2-0"]
 Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
 AutoHashEquals = "15f4f7f2-30c1-5605-9d31-71845cf9641f"
 ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 LogarithmicNumbers = "aa2f6b4e-9042-5d33-9679-40d3a6b85899"
+
+["0.2.1-0"]
+EffectSizes = "e248de7e-9197-5860-972e-353a2af44d75"
+HypothesisTests = "09f84164-cd44-5f33-b23f-e6b0d136a0d5"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
