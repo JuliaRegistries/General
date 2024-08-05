@@ -2,18 +2,15 @@
 ConstructionBase = "1.4.0-1"
 DataStructures = "0.18"
 DiffEqBase = "6"
-DiffEqCallbacks = "2"
 Downloads = "1"
 Flatten = "0.4"
 ForwardDiff = "0.10"
-FreezeCurves = "0.8"
 IfElse = "0.1"
 IntervalSets = "0.7"
 JSON3 = "1.10.0-1"
 LoopVectorization = "0.12"
 ModelParameters = "0.3-0.4"
 PreallocationTools = "0.4"
-RecursiveArrayTools = "2"
 Reexport = "1"
 Requires = "1"
 ReverseDiff = "1"
@@ -45,18 +42,25 @@ SciMLBase = "1"
 SimulationLogs = "0.3"
 Statistics = "1.6.0-1"
 
-["0.19-0"]
+["0-0.21"]
+DiffEqCallbacks = "2"
+FreezeCurves = "0.8"
+RecursiveArrayTools = "2"
+
+["0.19-0.21"]
 Adapt = "3"
 
 ["0.20.2-0"]
 ComponentArrays = "0.13-0.15"
-DimensionalData = ["0.19-0.21", "0.24-0.25"]
 LinearSolve = "1-2"
 SciMLBase = "1-2"
 
 ["0.20.2-0.20"]
 NCDatasets = "0.12-0.13"
 NonlinearSolve = ["0.3", "1-2"]
+
+["0.20.2-0.21"]
+DimensionalData = ["0.19-0.21", "0.24-0.25"]
 
 ["0.20.3-0"]
 Dates = "1"
@@ -73,3 +77,10 @@ SimpleNonlinearSolve = "1"
 
 ["0.21.1-0"]
 SimpleNonlinearSolve = ["0.1", "1"]
+
+["0.22-0"]
+Adapt = "3-4"
+DiffEqCallbacks = "2-3"
+DimensionalData = ["0.19-0.21", "0.24-0.27"]
+FreezeCurves = "0.9"
+RecursiveArrayTools = "2-3"
