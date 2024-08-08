@@ -2,5 +2,11 @@
 DataStructures = "0.18"
 Graphs = "1"
 SimpleTraits = "0.9"
-Statistics = "1.7.0-1"
 julia = "1.7.0-1"
+
+["0-0.2"]
+Statistics = "1.7.0-1"
+
+["0.3-0"]
+SparseArrays = ["0.0.0", "1"]
+Statistics = ["0.0.0", "1"]
