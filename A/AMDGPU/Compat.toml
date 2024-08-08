@@ -97,9 +97,6 @@ LLVM = "4"
 ["0.3"]
 LLVM_jll = "12-13"
 
-["0.3-0"]
-ExprTools = "0.1"
-
 ["0.3-0.3.4"]
 GPUCompiler = "0.12-0.13"
 
@@ -116,6 +113,9 @@ rocRAND_jll = "4.2.0-4"
 
 ["0.3-0.4.8"]
 LLVM = "4.6.0-4"
+
+["0.3-1"]
+ExprTools = "0.1"
 
 ["0.3.5-0.3"]
 GPUCompiler = "0.14"
@@ -141,7 +141,7 @@ LLVM_jll = "12-15"
 ["0.4.15-0.4"]
 LLD_jll = "12-15"
 
-["0.4.2-0"]
+["0.4.2-1"]
 Preferences = "1"
 
 ["0.4.3-0.4"]
@@ -166,16 +166,16 @@ GPUCompiler = "0.17"
 TimespanLogging = "0.1"
 
 ["0.4.9-0"]
-KernelAbstractions = "0.9.2-0.9"
 UnsafeAtomicsLLVM = "0.1"
 
 ["0.4.9-0.4"]
 GPUCompiler = "0.19"
 LLVM = "5"
 
+["0.4.9-1"]
+KernelAbstractions = "0.9.2-0.9"
+
 ["0.5-0"]
-AbstractFFTs = "1"
-SpecialFunctions = "2"
 julia = "1.9.0-1"
 
 ["0.5-0.5.4"]
@@ -197,6 +197,10 @@ LLVM_jll = "14-15"
 ["0.5-0.9.1"]
 LLVM = "6"
 
+["0.5-1"]
+AbstractFFTs = "1"
+SpecialFunctions = "2"
+
 ["0.5.0"]
 HIP_jll = "5"
 ROCmDeviceLibs_jll = "5"
@@ -217,31 +221,31 @@ GPUArrays = "9"
 ["0.6.1-0.6"]
 GPUCompiler = "0.24"
 
-["0.7-0"]
-HIP_jll = "5.4.0-5"
-hsa_rocr_jll = "5.4.0-5"
-
 ["0.7-0.7.3"]
 ROCmDeviceLibs_jll = "5.4.0-5"
 
 ["0.7-0.8.0"]
 GPUCompiler = "0.24-0.25"
 
-["0.7.4-0"]
-ROCmDeviceLibs_jll = "5.6.1-5"
+["0.7-1"]
+HIP_jll = "5.4.0-5"
+hsa_rocr_jll = "5.4.0-5"
 
-["0.8.1-0"]
-Atomix = "0.1"
-Random123 = "1.6.0-1"
-RandomNumbers = "1.5.0-1"
+["0.7.4-1"]
+ROCmDeviceLibs_jll = "5.6.1-5"
 
 ["0.8.1-0.8.8"]
 GPUCompiler = "0.25"
 
-["0.8.3-0"]
+["0.8.1-1"]
+Atomix = "0.1"
+Random123 = "1.6.0-1"
+RandomNumbers = "1.5.0-1"
+
+["0.8.3-1"]
 CEnum = "0.4-0.5"
 
-["0.8.4-0"]
+["0.8.4-1"]
 Adapt = "4"
 GPUArrays = "10"
 
@@ -249,13 +253,22 @@ GPUArrays = "10"
 LLD_jll = "14-16"
 LLVM_jll = "14-16"
 
-["0.8.9-0"]
-PrettyTables = "2"
-StaticArraysCore = "1"
-
 ["0.8.9-0.9.1"]
 GPUCompiler = "0.25-0.26"
+
+["0.8.9-1"]
+PrettyTables = "2"
+StaticArraysCore = "1"
 
 ["0.9.2-0"]
 GPUCompiler = "0.26.5-0.26"
 LLVM = "7"
+
+[1]
+GPUCompiler = "0.26-0.27"
+LLD_jll = "15-17"
+LLVM = "8.1.0-8"
+LLVM_jll = "15-17"
+UnsafeAtomics = "0.2"
+UnsafeAtomicsLLVM = "0.2"
+julia = "1.10.0-1"
