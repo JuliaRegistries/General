@@ -59,13 +59,13 @@ Symbolics = "5.0.3-5"
 ["13-13.3"]
 ModelingToolkit = "8.47.0-8"
 
-[13-14]
+["13-14.1"]
 JumpProcesses = "9.3.2-9"
 
 ["13.1-14"]
 Unitful = "1.12.4-1"
 
-["13.3-14"]
+["13.3-14.1"]
 Latexify = "0.14-0.16"
 
 ["13.4-13"]
@@ -75,11 +75,19 @@ ModelingToolkit = "8.66.0-8"
 Combinatorics = "1.0.2-1"
 DynamicPolynomials = "0.5"
 DynamicQuantities = "0.13.2-0.13"
-ModelingToolkit = "9.16.0-9"
 RuntimeGeneratedFunctions = "0.5.12-0.5"
 Setfield = "1"
 Symbolics = "5.30.1-5"
 julia = "1.10.0-1"
+
+["14-14.1"]
+ModelingToolkit = "9.16.0-9"
+
+["14.2-14"]
+JumpProcesses = "9.13.1-9"
+Latexify = "0.16.5-0.16"
+ModelingToolkit = "9.30.1-9"
+SciMLBase = "2.46.0-2"
 
 [5]
 Reexport = "0.2"
