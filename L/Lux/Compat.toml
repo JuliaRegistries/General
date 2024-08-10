@@ -169,7 +169,6 @@ LuxCore = "0.1.7-0.1"
 Adapt = "4"
 GPUArraysCore = "0.1.6-0.1"
 MacroTools = "0.5.13-0.5"
-Setfield = "1"
 
 ["0.5.17-0.5.26"]
 LinearAlgebra = "1.9.0-1"
@@ -195,6 +194,9 @@ Functors = "0.4.4-0.4"
 
 ["0.5.17-0.5.57"]
 PrecompileTools = "1.2.0-1"
+
+["0.5.17-0.5.62"]
+Setfield = "1"
 
 ["0.5.18"]
 LuxCore = "0.1.8-0.1"
@@ -299,17 +301,27 @@ UnrolledUtilities = "0.1.2-0.1"
 Compat = "4.15.0-4"
 ForwardDiff = "0.10.36-0.10"
 LuxDeviceUtils = "0.1.26-0.1"
+
+["0.5.61-0.5.62"]
 Optimisers = "0.3"
+
+["0.5.62"]
+Functors = "0.4.11-0.4"
+LuxLib = "0.3.33-0.3"
 
 ["0.5.62-0"]
 ADTypes = "1.5.0-1"
 ChainRulesCore = "1.24.0-1"
 DispatchDoctor = "0.4.12-0.4"
 EnzymeCore = "0.7.7-0.7"
-Functors = "0.4.11-0.4"
-LuxLib = "0.3.33-0.3"
 NNlib = "0.9.21-0.9"
 WeightInitializers = ["0.1.5-0.1", "1"]
+
+["0.5.63-0"]
+Functors = "0.4.12-0.4"
+LuxLib = "0.3.40-0.3"
+Optimisers = "0.3.3-0.3"
+Setfield = "1.1.1-1"
 
 ["0.5.9"]
 LinearAlgebra = "1.6.0-1"
