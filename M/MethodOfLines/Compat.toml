@@ -53,14 +53,22 @@ julia = "1.10.0-1"
 ModelingToolkit = "9.7.1-9"
 PDEBase = "0.1.10-0.1"
 
+["0.11.1"]
+SymbolicUtils = "2"
+Symbolics = "5.30.1-5"
+TermInterface = "0.4"
+
 ["0.11.1-0"]
 DomainSets = "0.7"
 ModelingToolkit = "9.17.0-9"
 PDEBase = "0.1.12-0.1"
 SciMLBase = "2"
-SymbolicUtils = "2"
-Symbolics = "5.30.1-5"
-TermInterface = "0.4"
+
+["0.11.2-0"]
+Interpolations = "0.14-0.15"
+SymbolicUtils = "2-3"
+Symbolics = "5.30.1-6"
+TermInterface = ["0.4", "2"]
 
 ["0.2-0.11.0"]
 TermInterface = "0.2-0.3"
@@ -74,7 +82,7 @@ StaticArrays = "1"
 ["0.3.2-0.6.1"]
 StableRNGs = "1"
 
-["0.5-0"]
+["0.5-0.11.1"]
 Interpolations = "0.14"
 
 ["0.5-0.8.2"]
