@@ -23,10 +23,6 @@ DocStringExtensions = "0.7-0.8"
 ["0-4.8"]
 DiffRules = ["0.1", "1"]
 
-[0-5]
-IfElse = "0.1"
-MacroTools = "0.5"
-
 ["0-5.10"]
 TreeViews = "0.3"
 
@@ -38,6 +34,10 @@ RuntimeGeneratedFunctions = "0.4.3-0.5"
 
 ["0-5.5"]
 SciMLBase = "1.8.0-1"
+
+[0-6]
+IfElse = "0.1"
+MacroTools = "0.5"
 
 ["0.1.11-0.1.20"]
 AbstractAlgebra = "0.13-0.15"
@@ -69,13 +69,13 @@ Distributions = "0.23-0.25"
 ["0.1.27-5.1"]
 DomainSets = "0.5"
 
-["0.1.29-5"]
+["0.1.29-5.35"]
 Requires = "1.1.0-1"
 
 ["0.1.3-0.1.12"]
 SymbolicUtils = "0.9"
 
-["0.1.3-5"]
+["0.1.3-6"]
 RecipesBase = "1.1.0-1"
 
 ["0.1.8-0.1.10"]
@@ -118,10 +118,10 @@ SymbolicUtils = "0.18"
 ["4-4.3"]
 TermInterface = "0.2"
 
-["4.1-5"]
+["4.1-6"]
 DataStructures = "0.18"
 
-["4.11-5"]
+["4.11-6"]
 LaTeXStrings = "1.3.0-1"
 LambertW = "0.4.5-0.4"
 
@@ -157,7 +157,7 @@ ArrayInterfaceCore = "0.1.1-0.1"
 DocStringExtensions = "0.7-0.9"
 Setfield = ["0.7-0.8", "1"]
 
-["4.9-5"]
+["4.9-6"]
 DiffRules = "1.4.0-1"
 
 ["5-5.6"]
@@ -181,7 +181,7 @@ SymbolicIndexingInterface = "0.3"
 ["5.15"]
 Groebner = "0.5"
 
-["5.15-5"]
+["5.15-6"]
 ArrayInterface = "7"
 ConstructionBase = "1.2.0-1"
 Distributions = "0.25"
@@ -197,11 +197,11 @@ julia = "1.10.0-1"
 ["5.16"]
 Groebner = "0.5-0.6"
 
-["5.17-5"]
+["5.17-6"]
 ForwardDiff = "0.10.36-0.10"
 Groebner = "0.5-0.7"
 
-["5.18-5"]
+["5.18-6"]
 DomainSets = "0.6-0.7"
 
 ["5.2-5.17"]
@@ -216,15 +216,17 @@ SymbolicIndexingInterface = "0.3.12-0.3"
 ["5.26-5"]
 SymbolicLimits = "0.2"
 
-["5.27-5"]
+["5.27-6"]
 SymbolicIndexingInterface = "0.3.14-0.3"
 
 ["5.29-5"]
-ADTypes = "1"
 TermInterface = "0.4"
 
 ["5.29-5.30"]
 SymbolicUtils = "2.0.2-2"
+
+["5.29-6"]
+ADTypes = "1"
 
 ["5.3-5.14"]
 Latexify = "0.11-0.16"
@@ -232,10 +234,10 @@ Latexify = "0.11-0.16"
 ["5.31-5"]
 SymbolicUtils = "2.1.0-2"
 
-["5.32-5"]
+["5.32-6"]
 StaticArraysCore = "1.4.0-1"
 
-["5.33-5"]
+["5.33-6"]
 CommonWorldInvalidations = "1"
 
 ["5.4"]
@@ -244,24 +246,30 @@ RuntimeGeneratedFunctions = "0.5.10-0.5"
 ["5.5.0"]
 RuntimeGeneratedFunctions = "0.5.9"
 
-["5.5.1-5"]
-RuntimeGeneratedFunctions = "0.5.9-0.5"
-
 ["5.5.1-5.10"]
 Groebner = "0.3-0.4"
 
-["5.5.2-5"]
+["5.5.1-6"]
+RuntimeGeneratedFunctions = "0.5.9-0.5"
+
+["5.5.2-6"]
 Bijections = "0.1"
 DynamicPolynomials = "0.5"
-
-["5.6-5"]
-PrecompileTools = "1"
 
 ["5.6-5.14"]
 SciMLBase = "1.8.0-2"
 
+["5.6-6"]
+PrecompileTools = "1"
+
 ["5.7-5.28"]
 SymbolicUtils = "1.4.0-1"
 
-["5.9-5"]
+["5.9-6"]
 LogExpFunctions = "0.3"
+
+[6]
+SymPyCore = "0.2.5-0.2"
+SymbolicLimits = "0.2.2-0.2"
+SymbolicUtils = "2-3"
+TermInterface = "2"
