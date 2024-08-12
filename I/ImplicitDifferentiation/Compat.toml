@@ -28,9 +28,15 @@ AbstractDifferentiation = "0.5-0.6"
 LinearAlgebra = "1.6.0-1"
 
 ["0.6-0"]
-ADTypes = "1"
-DifferentiationInterface = "0.5"
 Krylov = "0.9.5-0.9"
 LinearAlgebra = "1.10.0-1"
 LinearOperators = "2.7.0-2"
 julia = "1.10.0-1"
+
+["0.6.0"]
+ADTypes = "1"
+DifferentiationInterface = "0.5"
+
+["0.6.1-0"]
+ADTypes = "1.7.1-1"
+DifferentiationInterface = "0.5.12-0.5"
