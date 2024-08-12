@@ -2,11 +2,6 @@
 ComputationalResources = "0.3"
 DistributedArrays = "0.6"
 Functors = "0.4"
-OffsetArrays = "1.12.0-1"
-StaticArrays = "1.6.0-1"
-Unitful = "1.15.0-1"
-Unitless = "2.1.0-2"
-julia = "1.9.0-1"
 
 ["0-0.2.0"]
 CUDA = "4.4.0-4"
@@ -14,13 +9,20 @@ CUDA = "4.4.0-4"
 ["0-0.3"]
 Adapt = "3.6.0-3"
 
+["0-0.6.0"]
+OffsetArrays = "1.12.0-1"
+StaticArrays = "1.6.0-1"
+Unitful = "1.15.0-1"
+Unitless = "2.1.0-2"
+julia = "1.9.0-1"
+
 ["0.2-0"]
 StructArrays = "0.6"
 
 ["0.2.1"]
 CUDA = "5"
 
-["0.2.2-0"]
+["0.2.2-0.6.0"]
 CUDA = "3-5"
 
 ["0.2.3-0"]
@@ -28,5 +30,14 @@ Distributed = "1"
 InteractiveUtils = "1"
 LinearAlgebra = "1"
 
-["0.4-0"]
+["0.4-0.6.0"]
 Adapt = "3-4"
+
+["0.6.1-0"]
+Adapt = "4"
+CUDA = "5"
+OffsetArrays = "1.14.0-1"
+StaticArrays = "1.9.0-1"
+Unitful = "1.21.0-1"
+Unitless = "2.2.0-2"
+julia = "1.10.0-1"
