@@ -1,3 +1,6 @@
+[0]
+NaNMath = "0.2.4-0.3"
+
 ["0-0.14"]
 Cairo = "0-0.5"
 Gtk = "0-0.16"
@@ -11,9 +14,6 @@ Reexport = "0.0.0-0.2"
 StatsBase = "0.13.1-0.33"
 julia = ["0.7", "1"]
 
-[0-1]
-NaNMath = "0.2.4-0.3"
-
 ["0.15.0"]
 Cairo = "0.0.0-1"
 Gtk = "0.0.0-1"
@@ -22,7 +22,9 @@ Gtk = "0.0.0-1"
 Reexport = "0.2"
 
 ["0.15.1-0"]
+Compat = "3"
 Gtk = "1.1.0-1"
+StatsBase = "0.33.2-0.33"
 
 ["0.15.1-0.15.2"]
 julia = "1"
@@ -30,18 +32,32 @@ julia = "1"
 ["0.15.1-1"]
 Cairo = "1"
 Colors = "0.12"
-Compat = "3"
 Graphics = "1"
 Grisu = "1"
 IniFile = "0.5"
-StatsBase = "0.33.2-0.33"
 
-["0.15.2-1"]
+["0.15.2-0"]
 Reexport = ["0.2", "1"]
 
-["0.15.3-1"]
+["0.15.3-0"]
 SnoopPrecompile = "1"
+
+["0.15.3-1"]
 julia = "1.6.0-1"
 
 [1]
 Gtk4 = "0.3"
+
+["1.0.0"]
+Compat = "3"
+NaNMath = "0.2.4-0.3"
+Reexport = ["0.2", "1"]
+SnoopPrecompile = "1"
+StatsBase = "0.33.2-0.33"
+
+["1.0.1-1"]
+Compat = "4"
+NaNMath = "1"
+PrecompileTools = "1"
+Reexport = "1"
+StatsBase = "0.34"
