@@ -83,11 +83,17 @@ julia = "1.10.0-1"
 ["14-14.1"]
 ModelingToolkit = "9.16.0-9"
 
-["14.2-14"]
+["14.2"]
 JumpProcesses = "9.13.1-9"
-Latexify = "0.16.5-0.16"
 ModelingToolkit = "9.30.1-9"
+
+["14.2-14"]
+Latexify = "0.16.5-0.16"
 SciMLBase = "2.46.0-2"
+
+["14.3-14"]
+JumpProcesses = "9.13.2-9"
+ModelingToolkit = "9.32.0-9"
 
 [5]
 Reexport = "0.2"
