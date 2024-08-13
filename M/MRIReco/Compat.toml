@@ -171,8 +171,14 @@ RegularizedLeastSquares = "0.9"
 AxisArrays = "0.4.6-0.4"
 Unitful = "1.2.0-1"
 
+["0.8"]
+MRIOperators = "0.2"
+RegularizedLeastSquares = "0.9-0.10"
+
 ["0.8-0"]
 MRIBase = "0.3-0.4"
-MRIOperators = "0.2"
 PrecompileTools = "1"
-RegularizedLeastSquares = "0.9-0.10"
+
+["0.9-0"]
+MRIOperators = "0.3"
+RegularizedLeastSquares = "0.16"
