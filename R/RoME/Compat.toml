@@ -253,7 +253,6 @@ LinearAlgebra = "1.9.0-1"
 Random = "1.9.0-1"
 
 ["0.24.1-0"]
-ApproxManifoldProducts = "0.8"
 Dates = "1.10.0-1"
 Distributed = "1.10.0-1"
 Interpolations = "0.14-0.15"
@@ -265,8 +264,14 @@ TimeZones = "1"
 TransformUtils = "0.2.17-0.2"
 julia = "1.10.0-1"
 
+["0.24.1-0.24.4"]
+ApproxManifoldProducts = "0.8"
+
 ["0.24.4-0"]
 DistributedFactorGraphs = "0.23-0.24"
+
+["0.24.5-0"]
+ApproxManifoldProducts = "0.8.5-0.8"
 
 ["0.3"]
 ApproxManifoldProducts = "0.0.3"
