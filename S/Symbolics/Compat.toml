@@ -197,7 +197,7 @@ julia = "1.10.0-1"
 ["5.16"]
 Groebner = "0.5-0.6"
 
-["5.17-6"]
+["5.17-5"]
 ForwardDiff = "0.10.36-0.10"
 Groebner = "0.5-0.7"
 
@@ -269,7 +269,11 @@ SymbolicUtils = "1.4.0-1"
 LogExpFunctions = "0.3"
 
 [6]
-SymPyCore = "0.2.5-0.2"
 SymbolicLimits = "0.2.2-0.2"
 SymbolicUtils = "2-3"
 TermInterface = "2"
+
+["6.0"]
+ForwardDiff = "0.10.36-0.10"
+Groebner = "0.5-0.7"
+SymPyCore = "0.2.5-0.2"
