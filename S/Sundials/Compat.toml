@@ -63,11 +63,11 @@ SnoopPrecompile = "1"
 ["4.11-4.15"]
 SciMLBase = "1.71.0-1"
 
-["4.16-4"]
-DiffEqBase = "6.122.0-6"
-
 ["4.16-4.17"]
 SciMLBase = "1.89.0-1"
+
+["4.16-4.24"]
+DiffEqBase = "6.122.0-6"
 
 ["4.17-4"]
 PrecompileTools = "1"
@@ -100,6 +100,9 @@ Reexport = "1"
 ["4.22-4"]
 SciMLBase = "2.9.0-2"
 julia = "1.9.0-1"
+
+["4.25-4"]
+DiffEqBase = "6.154.0-6"
 
 ["4.3-4"]
 DataStructures = "0.18"
