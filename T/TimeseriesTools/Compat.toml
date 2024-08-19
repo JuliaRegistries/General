@@ -29,16 +29,26 @@ julia = "1.7.0-1"
 
 ["0.2.1-0"]
 DelimitedFiles = "1.9.0-1"
-Normalization = "0.4-0.5"
 julia = "1.9.0-1"
 
 ["0.2.1-0.2.2"]
 Statistics = "1.9.0-1"
 
-["0.2.3-0"]
+["0.2.1-0.3"]
+Normalization = "0.4-0.5"
+
+["0.2.3-0.3"]
 DimensionalData = "0.19-0.25"
+
+["0.3"]
+MakieCore = "0.7"
+Peaks = "0.4"
 
 ["0.3-0"]
 Distributions = "0.25"
-MakieCore = "0.7"
-Peaks = "0.4"
+
+["0.4-0"]
+DimensionalData = "0.27"
+MakieCore = "0.8"
+Normalization = "0.7"
+Peaks = "0.4-0.5"
