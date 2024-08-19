@@ -262,12 +262,17 @@ RRTMGP = "0.16"
 RRTMGP = "0.17"
 
 ["0.27-0"]
-ClimaParams = "0.10.8-0.10"
 CloudMicrophysics = "0.22"
+
+["0.27-0.27.2"]
+ClimaParams = "0.10.8-0.10"
 
 ["0.27.1-0"]
 AtmosphericProfilesLibrary = "0.1.6-0.1"
 ClimaTimeSteppers = "0.7.33-0.7"
+
+["0.27.3-0"]
+ClimaParams = "0.10.12-0.10"
 
 ["0.3"]
 StochasticDiffEq = "6.41.0-6"
@@ -326,8 +331,10 @@ DiffEqCallbacks = "2"
 SurfaceFluxes = "0.5"
 
 ["0.9-0"]
-Colors = "0.12"
 NVTX = "0.3"
 
 ["0.9-0.16.0"]
 RootSolvers = "0.2-0.3"
+
+["0.9-0.27.2"]
+Colors = "0.12"
