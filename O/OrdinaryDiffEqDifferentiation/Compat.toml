@@ -6,13 +6,18 @@ FastBroadcast = "0.3"
 FiniteDiff = "2"
 ForwardDiff = "0.10"
 FunctionWrappersWrappers = "0.1"
-InteractiveUtils = "1.10.0-1"
 LinearAlgebra = "1.10.0-1"
 LinearSolve = "2"
-OrdinaryDiffEqCore = ["0.0.0", "1"]
 SciMLBase = "2"
 SparseArrays = "1"
 SparseDiffTools = "2"
 StaticArrayInterface = "1"
 StaticArrays = "1"
 julia = "1.10.0-1"
+
+["1.0"]
+InteractiveUtils = "1.10.0-1"
+OrdinaryDiffEqCore = ["0.0.0", "1"]
+
+["1.1-1"]
+OrdinaryDiffEqCore = "1.1.0-1"
