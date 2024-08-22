@@ -22,8 +22,14 @@ MathOptInterface = "0.9.20-0.9"
 MathOptInterface = "0.10.5-0.10"
 
 ["0.15-0"]
-MathOptInterface = "1"
 julia = "1.6.0-1"
+
+["0.15-0.16"]
+MathOptInterface = "1"
+
+["0.17-0"]
+Libdl = ["0.0.0", "1.6.0-1"]
+MathOptInterface = "1.26.0-1"
 
 ["0.9.1-0.9"]
 LinQuadOptInterface = "0.6"
