@@ -61,18 +61,23 @@ DocStringExtensions = "0.8-0.9"
 GPUArraysCore = "0.1"
 IntervalSets = "0.7"
 KernelAbstractions = "0.8-0.9"
-StatsBase = "0.32-0.34"
 StructArrays = "0.6"
 
 ["0.2-0.2.8"]
 FillArrays = ["0.7-0.13", "1"]
 Requires = "1"
 
+["0.2-0.2.9"]
+StatsBase = "0.32-0.34"
+
 ["0.2.1-0"]
 julia = "1.6.0-1"
 
 ["0.2.1-0.2.3"]
 Statistics = "1.6.0-1"
+
+["0.2.10-0"]
+StatsBase = "0.33.7-0.34"
 
 ["0.2.4-0.2.8"]
 LinearAlgebra = "1"
