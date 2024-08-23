@@ -5,6 +5,14 @@ julia = "1"
 
 ["0.15-0"]
 Bzip2_jll = "1.0.8-1"
-HarfBuzz_jll = "2.8.1-2"
 JLLWrappers = "1.2.0-1"
 julia = "1.6.0-1"
+
+["0.15-0.15.1"]
+HarfBuzz_jll = "2.8.1-2"
+
+["0.15.2-0"]
+Artifacts = ["0.0.0", "1"]
+FreeType2_jll = "2.10.4-2"
+HarfBuzz_jll = "8.3.1-8"
+Libdl = ["0.0.0", "1"]
