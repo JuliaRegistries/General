@@ -33,17 +33,22 @@ StatsBase = "0.33-0.34"
 ["0.10.3-0"]
 CUDA = "3.2.0-5"
 OffsetArrays = "1"
-Quaternions = "0.7"
-StaticArrays = "1"
 
 ["0.10.3-0.11.0"]
 Images = "0.24-0.26"
+
+["0.10.3-0.12"]
+Quaternions = "0.7"
+StaticArrays = "1"
 
 ["0.11-0"]
 Statistics = "1"
 
 ["0.11.1-0"]
 ImageFiltering = "0.7.1-0.7"
+
+["0.13-0"]
+LinearAlgebra = "1.10.0-1"
 
 ["0.2-0"]
 CircularArrays = "1.2.0-1"
