@@ -86,7 +86,6 @@ WinchModels = "0.2"
 
 ["0.5-0"]
 AtmosphericModels = "0.2"
-DiffEqBase = "6.145.0-6"
 StaticArrays = "1.9.0-1"
 Sundials = "4.24.0-4"
 
@@ -96,6 +95,9 @@ julia = "1.9.0-1"
 ["0.5-0.5.3"]
 KitePodModels = "0.3"
 KiteUtils = "0.5"
+
+["0.5-0.6.4"]
+DiffEqBase = "6.145.0-6"
 
 ["0.5.10-0"]
 OrdinaryDiffEq = "6.66.0-6"
@@ -138,9 +140,18 @@ WinchModels = "0.3"
 KitePodModels = "0.3.3-0.3"
 WinchModels = "0.3.2-0.3"
 
-["0.6.2-0"]
+["0.6.2-0.6.4"]
 KiteUtils = "0.7.4-0.7"
 
 ["0.6.4-0"]
 BenchmarkTools = "1.2.0-1"
 Pkg = "1.10.0-1"
+
+["0.6.5-0"]
+DataInterpolations = "6.2.0-6"
+DiffEqBase = "6.152.2-6"
+KiteUtils = "0.7.8-0.7"
+ModelingToolkit = "9.32.0-9"
+SteadyStateDiffEq = "2.3.0-2"
+SymbolicIndexingInterface = "0.3.27-0.3"
+Timers = "0.1.5-0.1"
