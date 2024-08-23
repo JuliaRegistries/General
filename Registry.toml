@@ -2017,6 +2017,7 @@ some amount of consideration when choosing package names.
 2d06aeeb-b05a-4dff-b7c9-38070db02149 = { name = "Hymod", path = "H/Hymod" }
 2d09df54-9d0f-5258-8220-54c2a3d4fbee = { name = "StatisticalRethinking", path = "S/StatisticalRethinking" }
 2d0ec36b-e807-5756-994b-45af29551fcf = { name = "OMETIFF", path = "O/OMETIFF" }
+2d112036-d095-4a1e-ab9a-08536f3ecdbf = { name = "OrdinaryDiffEqSDIRK", path = "O/OrdinaryDiffEqSDIRK" }
 2d3116d5-4b8f-5680-861c-71f149790274 = { name = "Bridge", path = "B/Bridge" }
 2d3f9b48-ba2d-11e9-1a3f-97e029ee3d3c = { name = "OpenMDAO", path = "O/OpenMDAO" }
 2d4b2e14-ccd6-4284-b8b0-2378ace7c126 = { name = "DiskArrayEngine", path = "D/DiskArrayEngine" }
@@ -3005,6 +3006,7 @@ some amount of consideration when choosing package names.
 43133aba-3931-5066-b004-a34c79b93f2e = { name = "abseil_cpp_jll", path = "jll/A/abseil_cpp_jll" }
 43182933-f65b-495a-9e05-4d939cea427d = { name = "DigitalAssetExchangeFormatIO", path = "D/DigitalAssetExchangeFormatIO" }
 432009dd-59a1-4b72-8c93-6462ce9b220f = { name = "Flux3D", path = "F/Flux3D" }
+43230ef6-c299-4910-a778-202eb28ce4ce = { name = "OrdinaryDiffEqRosenbrock", path = "O/OrdinaryDiffEqRosenbrock" }
 4327cdd6-4902-11ea-0272-430cea0431bd = { name = "SearchLightPostgreSQL", path = "S/SearchLightPostgreSQL" }
 43287f4e-b6f4-7ad1-bb20-aadabca52c3d = { name = "PtrArrays", path = "P/PtrArrays" }
 432ab697-7a72-484f-bc4a-bc531f5c819b = { name = "BesselK", path = "B/BesselK" }
@@ -3587,6 +3589,7 @@ some amount of consideration when choosing package names.
 502039d7-87d7-456d-8cc8-96307cceeee2 = { name = "TruncatedMVN", path = "T/TruncatedMVN" }
 5022dd56-1d41-4538-9f4c-b20739ff8283 = { name = "COPIERTemplate", path = "C/COPIERTemplate" }
 502467ad-4a4a-57e4-9860-6b433130b33f = { name = "UBPF_jll", path = "jll/U/UBPF_jll" }
+50262376-6c5a-4cf5-baba-aaf4f84d72d7 = { name = "OrdinaryDiffEqDefault", path = "O/OrdinaryDiffEqDefault" }
 50296a37-19d4-5487-a1d5-621c23d0d175 = { name = "SPIRV_Headers_jll", path = "jll/S/SPIRV_Headers_jll" }
 5036cc39-ae6e-5f00-bcd6-dacb213bf05a = { name = "MomentOpt", path = "M/MomentOpt" }
 5043a3e8-8306-400d-ba57-2ed3b7fadd60 = { name = "MzPlots", path = "M/MzPlots" }
@@ -3666,6 +3669,7 @@ some amount of consideration when choosing package names.
 51fcb6bd-ecd8-522c-95bc-4099d1d03463 = { name = "NamedColors", path = "N/NamedColors" }
 5203de40-99df-439e-afbc-014de65cb9ef = { name = "Dynare", path = "D/Dynare" }
 5207ad80-27db-4d23-8732-fa0bd339ea89 = { name = "FNVHash", path = "F/FNVHash" }
+521117fe-8c41-49f8-b3b6-30780b3f0fb5 = { name = "OrdinaryDiffEqLinear", path = "O/OrdinaryDiffEqLinear" }
 52145ff8-3717-48bc-b8ab-44d3704098ee = { name = "ScalarRadau", path = "S/ScalarRadau" }
 521615e9-e573-4eb2-bc7e-702d55c0bb95 = { name = "MusicXML", path = "M/MusicXML" }
 5217a498-cd5d-4ec6-b8c2-9b85a09b6e3e = { name = "Changelog", path = "C/Changelog" }
@@ -4170,6 +4174,7 @@ some amount of consideration when choosing package names.
 5dc4ea12-f621-4038-8458-a22eae100703 = { name = "SHTns", path = "S/SHTns" }
 5dc68c43-2cae-45c1-9c9f-30d6e2b9e002 = { name = "EasyCurl", path = "E/EasyCurl" }
 5dcf52e5-e2fb-48e0-b826-96f46d2e3e73 = { name = "Altro", path = "A/Altro" }
+5dd0a6cf-3d4b-4314-aa06-06d4e299bc89 = { name = "OrdinaryDiffEqPDIRK", path = "O/OrdinaryDiffEqPDIRK" }
 5dd19120-8766-11e9-1ef9-27094038a7db = { name = "OpenQuantumBase", path = "O/OpenQuantumBase" }
 5dd3f0b1-72a9-48ad-ae6e-79f673da005f = { name = "MatchCore", path = "M/MatchCore" }
 5dd52a3f-0bef-5ba1-8e18-ffde86b716e1 = { name = "VLFeat_jll", path = "jll/V/VLFeat_jll" }
@@ -4549,6 +4554,7 @@ some amount of consideration when choosing package names.
 66877b0d-840f-4af8-a0b5-b62f5ea465b3 = { name = "MultiBisect", path = "M/MultiBisect" }
 6690c6e9-4e12-53b8-b8fd-4bffaef8839f = { name = "normaliz_jll", path = "jll/N/normaliz_jll" }
 6694b27a-7f2b-41da-9dea-d3f4793b6534 = { name = "OnlineLogBinning", path = "O/OnlineLogBinning" }
+669c94d9-1f4b-4b64-b377-1aa079aa2388 = { name = "OrdinaryDiffEqSSPRK", path = "O/OrdinaryDiffEqSSPRK" }
 66a33bbf-0c2b-5fc8-a008-9da813334f0a = { name = "MLLabelUtils", path = "M/MLLabelUtils" }
 66b61cbe-0446-4d5d-9090-1ff510639f9d = { name = "AlgebraicSolving", path = "A/AlgebraicSolving" }
 66b63344-7bd8-483a-a4f0-15733e6c45d1 = { name = "RangeTrees", path = "R/RangeTrees" }
@@ -4734,6 +4740,7 @@ some amount of consideration when choosing package names.
 6accb78c-d340-5052-9dc3-a835939e19d0 = { name = "SimpleRoots", path = "S/SimpleRoots" }
 6ad125db-dd91-5488-b820-c1df6aab299d = { name = "MeshCatMechanisms", path = "M/MeshCatMechanisms" }
 6ad363e8-653f-4efd-a04b-f033e69a984c = { name = "RvSpectMLPlots", path = "R/RvSpectMLPlots" }
+6ad6398a-0878-4a85-9266-38940aa047c8 = { name = "OrdinaryDiffEqBDF", path = "O/OrdinaryDiffEqBDF" }
 6ad8dad8-821c-43d6-81bb-8d3dfb5c0fb6 = { name = "NipponColors", path = "N/NipponColors" }
 6add18c4-b38d-439d-96f6-d6bc489c04c5 = { name = "ContextVariablesX", path = "C/ContextVariablesX" }
 6aee034a-9508-47b1-8e11-813cc29af79f = { name = "Experimenter", path = "E/Experimenter" }
@@ -8999,6 +9006,7 @@ c9661a82-1e2c-4ef3-adad-5e80c329bd66 = { name = "RemBG", path = "R/RemBG" }
 c967b8ff-7eea-41b9-8a9d-36c76a634080 = { name = "RunStatistics", path = "R/RunStatistics" }
 c9817921-aac3-4215-a82e-d746b8a84f94 = { name = "CStructures", path = "C/CStructures" }
 c9880795-194d-450c-832d-1e8a03a8ecd1 = { name = "OCReract", path = "O/OCReract" }
+c9986a66-5c92-4813-8696-a7ec84c806c8 = { name = "OrdinaryDiffEqNordsieck", path = "O/OrdinaryDiffEqNordsieck" }
 c9a035f4-d403-5e6b-8649-6be755bc4798 = { name = "JWAS", path = "J/JWAS" }
 c9b2f978-7543-4802-ae44-75068f23ee64 = { name = "IntelITT", path = "I/IntelITT" }
 c9b9de95-37f0-4dea-82f9-4245f29ba0b6 = { name = "TSPSolvers", path = "T/TSPSolvers" }
@@ -9956,6 +9964,7 @@ e034b28e-924e-41b2-b98f-d2bbeb830c6a = { name = "ONNXRunTime", path = "O/ONNXRun
 e03d614a-b766-59b2-b90b-cbee90a02c36 = { name = "SoapyMultiSDR_jll", path = "jll/S/SoapyMultiSDR_jll" }
 e03d936e-b143-417e-99f1-948e30aaf057 = { name = "Flavio", path = "F/Flavio" }
 e03f8fd3-a2ff-47f5-ac97-ba7f0577c430 = { name = "EnsembleInversion", path = "E/EnsembleInversion" }
+e0540318-69ee-4070-8777-9e2de6de23de = { name = "OrdinaryDiffEqExponentialRK", path = "O/OrdinaryDiffEqExponentialRK" }
 e0585029-f0fd-471c-997a-b805c9f71f28 = { name = "MultiPrecisionArrays", path = "M/MultiPrecisionArrays" }
 e0630bc5-6e1f-509c-a3e4-0aea24bd2b1c = { name = "JetPackTransforms", path = "J/JetPackTransforms" }
 e0774970-6faf-4e9a-8c34-3860fa82b5ca = { name = "EarthEngine", path = "E/EarthEngine" }
@@ -10122,6 +10131,7 @@ e3dcb5d8-23d5-4a0a-a175-b3f280ae1849 = { name = "CriticalDifferenceDiagrams", pa
 e3df14af-082c-4778-8c88-0319331ee7b3 = { name = "SampleChainsAbstractMCMC", path = "S/SampleChainsAbstractMCMC" }
 e3df1716-f71e-5df9-9e2d-98e193103c45 = { name = "D3Trees", path = "D/D3Trees" }
 e3df3e69-96de-4eec-b47e-79221dc7d16c = { name = "GroupedTemporalTerms", path = "G/GroupedTemporalTerms" }
+e3e12d00-db14-5390-b879-ac3dd2ef6296 = { name = "OrdinaryDiffEqStabilizedIRK", path = "O/OrdinaryDiffEqStabilizedIRK" }
 e3e22cc6-7a1b-468c-b496-76d63e0a57cd = { name = "Labelyst", path = "L/Labelyst" }
 e3e34ffb-84e9-5012-9490-92c94d0c60a4 = { name = "VoronoiCells", path = "V/VoronoiCells" }
 e3e6debb-e142-42bc-8e83-ba8646d1d252 = { name = "MaskedArrays", path = "M/MaskedArrays" }
@@ -11068,6 +11078,7 @@ fa45d1ab-b616-567a-ad77-664fd15b62b2 = { name = "RequiredKeywords", path = "R/Re
 fa4ea961-1416-484e-bda2-883ee1634ba5 = { name = "ChemicalIdentifiers", path = "C/ChemicalIdentifiers" }
 fa51a905-6db9-5d43-b62f-5461347a870a = { name = "BioTools", path = "B/BioTools" }
 fa5322f5-bd84-5069-834a-abf3230fb8f8 = { name = "BiobakeryUtils", path = "B/BiobakeryUtils" }
+fa646aed-7ef9-47eb-84c4-9443fc8cbfa8 = { name = "OrdinaryDiffEqSymplecticRK", path = "O/OrdinaryDiffEqSymplecticRK" }
 fa6b7ba4-c1ee-5f82-b5fc-ecf0adba8f74 = { name = "DualNumbers", path = "D/DualNumbers" }
 fa774e86-460a-546b-b195-92e8193e3324 = { name = "ShowSet", path = "S/ShowSet" }
 fa8bd995-216d-47f1-8a91-f3b68fbeb377 = { name = "MetaGraphsNext", path = "M/MetaGraphsNext" }
