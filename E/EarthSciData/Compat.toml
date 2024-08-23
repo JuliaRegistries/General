@@ -1,7 +1,5 @@
 [0]
 DocStringExtensions = "0.9"
-ModelingToolkit = "8"
-Symbolics = "4-5"
 julia = "1.6.0-1"
 
 ["0-0.1.0"]
@@ -11,11 +9,15 @@ EarthSciMLBase = "0.4"
 Interpolations = "0.14"
 NetCDF = "0.11"
 
-["0.1.1-0"]
-Unitful = "1"
+["0-0.8"]
+ModelingToolkit = "8"
+Symbolics = "4-5"
 
 ["0.1.1-0.2.1"]
 EarthSciMLBase = "0.5"
+
+["0.1.1-0.8"]
+Unitful = "1"
 
 ["0.2.0"]
 Latexify = "0.16"
@@ -68,11 +70,21 @@ EarthSciMLBase = "0.13"
 ["0.7.3-0"]
 DiffEqCallbacks = "2"
 DifferentialEquations = "7"
-DomainSets = "0.6"
 SciMLOperators = "0.3"
+
+["0.7.3-0.8"]
+DomainSets = "0.6"
 
 ["0.7.4-0.7"]
 EarthSciMLBase = "0.14"
 
-["0.8-0"]
+["0.8"]
 EarthSciMLBase = "0.15"
+
+["0.9-0"]
+DomainSets = "0.7"
+DynamicQuantities = "0.13"
+EarthSciMLBase = "0.16"
+ModelingToolkit = "9"
+SciMLBase = "2"
+Symbolics = "4-6"
