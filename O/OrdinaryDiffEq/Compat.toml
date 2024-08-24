@@ -218,7 +218,7 @@ DiffEqBase = "5.5.1-5"
 ["5.4-5.8.0"]
 StaticArrays = "0.10.3-0.10"
 
-["5.4-6"]
+["5.4-6.87"]
 ForwardDiff = "0.10.3-0.10"
 
 ["5.40-5.47"]
@@ -398,11 +398,11 @@ ArrayInterface = "2.7.0-4"
 ["6.31-6.41"]
 SciMLBase = "1.68.0-1"
 
-["6.32-6"]
-ExponentialUtilities = "1.22.0-1"
-
 ["6.32-6.35"]
 SimpleNonlinearSolve = "0.1"
+
+["6.32-6.87"]
+ExponentialUtilities = "1.22.0-1"
 
 ["6.34"]
 DiffEqBase = "6.108.0-6"
@@ -434,7 +434,7 @@ DiffEqBase = "6.116.0-6"
 ["6.45-6.58"]
 ArrayInterface = "6-7"
 
-["6.46-6"]
+["6.46-6.87"]
 IfElse = "0.1"
 
 ["6.47-6"]
@@ -468,9 +468,6 @@ PrecompileTools = "1"
 ["6.51-6.52"]
 LinearSolve = "1.40.0-1"
 
-["6.52-6"]
-SparseDiffTools = "2.3.0-2"
-
 ["6.52-6.53.0"]
 SciMLOperators = "0.2.8-0.2"
 
@@ -478,7 +475,10 @@ SciMLOperators = "0.2.8-0.2"
 ADTypes = "0.1"
 DiffEqBase = "6.125.0-6"
 
-["6.53-6"]
+["6.52-6.87"]
+SparseDiffTools = "2.3.0-2"
+
+["6.53-6.87"]
 LinearSolve = "2.1.10-2"
 
 ["6.53.1"]
@@ -520,7 +520,6 @@ Logging = "1.9.0-1"
 Polyester = "0.7"
 Reexport = "1"
 SciMLOperators = "0.3"
-SparseArrays = "1.9.0-1"
 StaticArrays = "1"
 
 ["6.59-6.63"]
@@ -538,6 +537,9 @@ ADTypes = "0.2"
 
 ["6.59-6.79"]
 FastBroadcast = "0.2"
+
+["6.59-6.87"]
+SparseArrays = "1.9.0-1"
 
 ["6.6.3-6.14"]
 DiffEqBase = "6.81.3-6.84"
@@ -558,11 +560,13 @@ RecursiveArrayTools = "2.36.0-3"
 Adapt = "3-4"
 
 ["6.67-6"]
-PreallocationTools = "0.4.15-0.4"
 julia = "1.10.0-1"
 
 ["6.67-6.71"]
 NonlinearSolve = "3.3.0-3"
+
+["6.67-6.87"]
+PreallocationTools = "0.4.15-0.4"
 
 ["6.69-6.70"]
 SciMLBase = "2.17.0-2"
@@ -576,7 +580,7 @@ ArrayInterface = "2.7.0-5"
 ["6.71"]
 SciMLBase = "2.26.0-2"
 
-["6.71-6"]
+["6.71-6.87"]
 DiffEqBase = "6.147.0-6"
 
 ["6.72-6"]
@@ -600,11 +604,50 @@ SciMLBase = "1.29.0-1"
 ["6.80-6"]
 FastBroadcast = "0.2-0.3"
 
-["6.81-6"]
+["6.81-6.87"]
 NonlinearSolve = "3.12.3-3"
 
 ["6.85-6"]
 Static = ["0.8", "1"]
+
+["6.88-6"]
+DiffEqBase = "6.154.0-6"
+ExponentialUtilities = "1"
+ForwardDiff = "0.10"
+LinearSolve = "2"
+NonlinearSolve = "3"
+OrdinaryDiffEqAdamsBashforthMoulton = "1"
+OrdinaryDiffEqBDF = "1"
+OrdinaryDiffEqCore = "1"
+OrdinaryDiffEqDefault = "1"
+OrdinaryDiffEqDifferentiation = "1"
+OrdinaryDiffEqExplicitRK = "1"
+OrdinaryDiffEqExponentialRK = "1"
+OrdinaryDiffEqExtrapolation = "1"
+OrdinaryDiffEqFIRK = "1"
+OrdinaryDiffEqFeagin = "1"
+OrdinaryDiffEqFunctionMap = "1"
+OrdinaryDiffEqHighOrderRK = "1"
+OrdinaryDiffEqIMEXMultistep = "1"
+OrdinaryDiffEqLinear = "1"
+OrdinaryDiffEqLowOrderRK = "1"
+OrdinaryDiffEqLowStorageRK = "1"
+OrdinaryDiffEqNonlinearSolve = "1"
+OrdinaryDiffEqNordsieck = "1"
+OrdinaryDiffEqPDIRK = "1"
+OrdinaryDiffEqPRK = "1"
+OrdinaryDiffEqQPRK = "1"
+OrdinaryDiffEqRKN = "1"
+OrdinaryDiffEqRosenbrock = "1"
+OrdinaryDiffEqSDIRK = "1"
+OrdinaryDiffEqSSPRK = "1"
+OrdinaryDiffEqStabilizedIRK = "1"
+OrdinaryDiffEqStabilizedRK = "1"
+OrdinaryDiffEqSymplecticRK = "1"
+OrdinaryDiffEqTsit5 = "1"
+OrdinaryDiffEqVerner = "1"
+PreallocationTools = "0.4"
+SparseDiffTools = "2"
 
 ["6.9-6.40"]
 RecursiveArrayTools = "2.26.3-2"
