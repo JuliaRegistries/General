@@ -1,6 +1,5 @@
 [0]
 DocStringExtensions = "0.9"
-ModelingToolkit = "8"
 OrdinaryDiffEq = "6"
 SciMLBase = "2"
 SciMLOperators = "0.3"
@@ -12,9 +11,17 @@ EarthSciMLBase = "0.12"
 ["0-0.1.1"]
 EarthSciData = "0.7"
 
+["0-0.1.3"]
+ModelingToolkit = "8"
+
 ["0.1.1"]
 EarthSciMLBase = "0.14"
 
-["0.1.2-0"]
+["0.1.2-0.1.3"]
 EarthSciData = "0.8"
 EarthSciMLBase = "0.15"
+
+["0.1.4-0"]
+EarthSciData = "0.9"
+EarthSciMLBase = "0.16"
+ModelingToolkit = "9"
