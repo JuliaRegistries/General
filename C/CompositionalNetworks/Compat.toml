@@ -75,14 +75,14 @@ JuliaFormatter = "0.22"
 ["0.3.2-0.4"]
 Evolutionary = "0.11"
 
-["0.3.3-0"]
-ThreadSafeDicts = "0.1"
-
 ["0.3.3-0.3"]
 ConstraintDomains = "0.3.1-0.3"
 
 ["0.3.3-0.5.5"]
 JuliaFormatter = ["0.22", "1"]
+
+["0.3.3-0.5.8"]
+ThreadSafeDicts = "0.1"
 
 ["0.4-0"]
 ConstraintDomains = "0.3"
@@ -96,6 +96,8 @@ TestItems = "0.1"
 
 ["0.5.5-0"]
 Dictionaries = "0.4"
+
+["0.5.5-0.5.8"]
 julia = "1.8.0-1"
 
 ["0.5.6-0"]
@@ -105,3 +107,6 @@ Random = "1"
 
 ["0.5.8-0"]
 TestItems = ["0.1", "1"]
+
+["0.5.9-0"]
+julia = "1.9.0-1"

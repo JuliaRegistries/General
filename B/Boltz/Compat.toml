@@ -62,15 +62,27 @@ LuxDeviceUtils = "0.1.26-0.1"
 
 ["0.3.10-0"]
 ForwardDiff = "0.10.36-0.10"
+
+["0.3.10-0.3.11"]
 WeightInitializers = ["0.1.7-0.1", "1"]
 
-["0.3.11-0"]
-ADTypes = "1.5.0-1"
+["0.3.11"]
 Artifacts = "1"
 Lux = "0.5.62-0.5"
 LuxCore = "0.1.21-0.1"
 MLDataDevices = "1"
+
+["0.3.11-0"]
+ADTypes = "1.5.0-1"
 NNlib = "0.9.21-0.9"
+
+["0.3.12-0"]
+Artifacts = "1.10.0-1"
+Compat = "4.15.0-4"
+Lux = "0.5.65-0.5"
+LuxCore = "0.1.24-0.1"
+MLDataDevices = "1.0.1-1"
+WeightInitializers = "1"
 
 ["0.3.2"]
 GPUArraysCore = "0.1"

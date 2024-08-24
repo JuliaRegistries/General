@@ -111,7 +111,7 @@ GPUArrays = "8"
 ["5.12-5"]
 GPUArraysCore = "0.1"
 
-["5.16-5"]
+["5.16-5.22"]
 Requires = "1"
 
 ["5.17-5"]
@@ -123,7 +123,12 @@ SciMLBase = "1-2"
 ["5.20-5"]
 RecursiveArrayTools = "2-3"
 Statistics = "1"
+
+["5.20-5.22"]
 julia = "1.9.0-1"
+
+["5.23-5"]
+julia = "1.10.0-1"
 
 ["5.4-5.7.1"]
 Distributions = "0.22-0.24"
