@@ -1,6 +1,13 @@
 [0]
-ChooseOptimizer = "0.2"
 Graphs = "1"
 HiGHS = "1"
 JuMP = "1"
 julia = "1"
+
+["0-0.2"]
+ChooseOptimizer = "0.2"
+
+["0.3-0"]
+AbstractLattices = "0.3"
+ChooseOptimizer = "0.2-0.3"
+Hungarian = "0.7"
