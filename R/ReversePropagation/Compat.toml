@@ -1,7 +1,3 @@
-[0]
-IntervalContractors = "0.4"
-OrderedCollections = "1.4.0-1"
-
 ["0-0.1"]
 julia = "1.5.0-1"
 
@@ -12,6 +8,10 @@ SymbolicUtils = "0.8-0.9"
 ChainRules = "0.7"
 IntervalArithmetic = "0.17"
 Symbolics = "0.1"
+
+["0-0.2"]
+IntervalContractors = "0.4"
+OrderedCollections = "1.4.0-1"
 
 ["0.1.1"]
 ChainRulesCore = "0.9.44-0.9"
@@ -31,10 +31,12 @@ IntervalArithmetic = "0.17-0.20"
 SymbolicUtils = "0.8-0.18"
 Symbolics = ["0.1", "1-4"]
 
+["0.2"]
+IntervalArithmetic = "0.20"
+
 ["0.2-0"]
 ChainRules = "1"
 ChainRulesCore = "1"
-IntervalArithmetic = "0.20"
 
 ["0.2-0.2.1"]
 SymbolicUtils = "0.19"
@@ -46,6 +48,13 @@ julia = "1.7.0-1"
 ["0.2.1-0"]
 julia = "1"
 
-["0.2.2-0"]
+["0.2.2-0.2"]
 SymbolicUtils = "1"
 Symbolics = "5"
+
+["0.3-0"]
+IntervalArithmetic = "0.22.12-0.22"
+IntervalContractors = "0.5"
+OrderedCollections = "1"
+SymbolicUtils = ["1", "3"]
+Symbolics = "5-6"
