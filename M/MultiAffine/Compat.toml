@@ -1,7 +1,13 @@
 [0]
-ManifoldDiff = "0.3"
-ManifoldGroupTesting = "0.1"
-ManifoldGroupUtils = "0.1"
 Manifolds = "0.9.18-0.9"
 ManifoldsBase = "0.15"
 julia = "1.6.7-1"
+
+["0-0.1.0"]
+ManifoldDiff = "0.3"
+ManifoldGroupTesting = "0.1"
+ManifoldGroupUtils = "0.1"
+
+["0.1.1-0"]
+ManifoldGroupTesting = "0.2"
+ManifoldGroupUtils = "0.2.1-0.2"
