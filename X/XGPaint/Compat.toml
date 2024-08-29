@@ -5,7 +5,6 @@ DataFrames = "1"
 Distributions = "0.24-0.25"
 FFTW = "1"
 Healpix = "3-4"
-Interpolations = "0.13-0.14"
 Parameters = "0.12"
 PhysicalConstants = "0.2"
 Pixell = "0.2"
@@ -18,6 +17,9 @@ UnitfulAstro = "1"
 WCS = "0.5-0.6"
 julia = "1.6.0-1"
 
+["0-0.1"]
+Interpolations = "0.13-0.14"
+
 ["0-0.1.0"]
 DataInterpolations = "3"
 StatsBase = "0.33"
@@ -27,13 +29,23 @@ HDF5 = "0.15-0.16"
 NonlinearSolve = "1"
 
 ["0.1.1-0"]
-DataInterpolations = "3-4"
 StatsBase = "0.33-0.34"
+
+["0.1.1-0.1"]
+DataInterpolations = "3-4"
 
 ["0.1.2-0"]
 FileIO = "1"
 HDF5 = "0.15-0.17"
 JLD2 = "0.4"
 LazyArtifacts = "1"
-NonlinearSolve = "1-2"
 SpecialFunctions = "2"
+
+["0.1.2-0.1"]
+NonlinearSolve = "1-2"
+
+["0.2-0"]
+DataInterpolations = "3-6"
+DelimitedFiles = "1"
+Interpolations = "0.13-0.15"
+NonlinearSolve = "1-3"
