@@ -37,7 +37,7 @@ ForwardDiff = "0.10"
 ["0.1.9-0.2.4"]
 Requires = "1"
 
-["0.2-0"]
+["0.2-1"]
 Reexport = "1"
 
 ["0.2.4-0.3.9"]
@@ -62,13 +62,6 @@ ChainRulesCore = "1.20.0-1"
 ["0.3.10-0.3.28"]
 PrecompileTools = "1.2.0-1"
 
-["0.3.12-0"]
-FastClosures = "0.3.2-0.3"
-Markdown = "1.10.0-1"
-Random = "1.10.0-1"
-Statistics = "1.10.0-1"
-julia = "1.10.0-1"
-
 ["0.3.12-0.3.22"]
 KernelAbstractions = "0.9.15-0.9"
 NNlib = "0.9.10-0.9"
@@ -76,21 +69,28 @@ NNlib = "0.9.10-0.9"
 ["0.3.12-0.3.50"]
 LuxCore = "0.1.13-0.1"
 
+["0.3.12-1"]
+FastClosures = "0.3.2-0.3"
+Markdown = "1.10.0-1"
+Random = "1.10.0-1"
+Statistics = "1.10.0-1"
+julia = "1.10.0-1"
+
 ["0.3.14-0.3.36"]
 ChainRulesCore = "1.23.0-1"
 
 ["0.3.15"]
 Strided = "2"
 
-["0.3.15-0"]
-ArrayInterface = "7.9.0-7"
-LinearAlgebra = "1.10.0-1"
-
 ["0.3.15-0.3.26"]
 FastBroadcast = "0.2.8-0.2"
 
 ["0.3.15-0.3.28"]
 GPUArraysCore = "0.1.6-0.1"
+
+["0.3.15-1"]
+ArrayInterface = "7.9.0-7"
+LinearAlgebra = "1.10.0-1"
 
 ["0.3.16-0.3.18"]
 Strided = "1.2.0-2"
@@ -117,45 +117,45 @@ LuxDeviceUtils = "0.1.23-0.1"
 ["0.3.30-0.3.36"]
 DispatchDoctor = "0.4.9-0.4"
 
-["0.3.31-0"]
+["0.3.31-0.3.36"]
+LuxDeviceUtils = "0.1.26-0.1"
+
+["0.3.31-1"]
 EnzymeCore = "0.7.7-0.7"
 ForwardDiff = "0.10.36-0.10"
 KernelAbstractions = "0.9.22-0.9"
 NNlib = "0.9.21-0.9"
 UnrolledUtilities = "0.1.2-0.1"
 
-["0.3.31-0.3.36"]
-LuxDeviceUtils = "0.1.26-0.1"
-
-["0.3.33-0"]
+["0.3.33-1"]
 StaticArraysCore = "1.4.3-1"
 
-["0.3.34-0"]
+["0.3.34-1"]
 SLEEFPirates = "0.6.43-0.6"
 
-["0.3.37-0"]
+["0.3.37-1"]
 ChainRulesCore = "1.24.0-1"
 DispatchDoctor = "0.4.12-0.4"
 MLDataDevices = "1"
 
-["0.3.38-0"]
-LoopVectorization = "0.12.171-0.12"
-
 ["0.3.38-0.3.39"]
 Setfield = "1.1.1-1"
 
-["0.3.39-0"]
+["0.3.38-1"]
+LoopVectorization = "0.12.171-0.12"
+
+["0.3.39-1"]
 Octavian = "0.3.28-0.3"
 
-["0.3.40-0"]
+["0.3.40-1"]
 Compat = "4.15.0-4"
 Polyester = "0.7.15-0.7"
 Static = ["0.8.4-0.8", "1"]
 
-["0.3.41-0"]
+["0.3.41-1"]
 Hwloc = "3.2.0-3"
 
-["0.3.42-0"]
+["0.3.42-1"]
 CpuId = "0.3"
 
 ["0.3.51-0"]
@@ -171,3 +171,6 @@ Statistics = "1"
 
 ["0.3.9-0.3.11"]
 julia = "1.9.0-1"
+
+[1]
+LuxCore = "1"
