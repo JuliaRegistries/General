@@ -1,5 +1,4 @@
 [0]
-Adapt = "3-4"
 ArtifactWrappers = "0.2"
 DataFrames = "1"
 Dates = "1"
@@ -24,6 +23,9 @@ CSV = "0.10"
 Flux = "0.14"
 HTTP = "1.10.0-1"
 cuDNN = "1"
+
+["0-0.14.2"]
+Adapt = "3-4"
 
 ["0-0.8"]
 JLD2 = "0.4"
@@ -61,10 +63,15 @@ ClimaCore = "0.13.2-0.14"
 
 ["0.12.2-0"]
 LazyArtifacts = "1"
+
+["0.12.2-0.14.2"]
 UnrolledUtilities = "0.1"
 
-["0.12.5-0"]
+["0.12.5-0.14.2"]
 ClimaDiagnostics = "0.2"
+
+["0.14.3-0"]
+ClimaDiagnostics = "0.2.4-0.2"
 
 ["0.9-0"]
 julia = "1.9.0-1"
