@@ -73,15 +73,17 @@ ModelingToolkit = "8.66.0-8"
 
 [14]
 Combinatorics = "1.0.2-1"
-DynamicPolynomials = "0.5"
 DynamicQuantities = "0.13.2-0.13"
 RuntimeGeneratedFunctions = "0.5.12-0.5"
 Setfield = "1"
-Symbolics = "5.30.1-5"
 julia = "1.10.0-1"
 
 ["14-14.1"]
 ModelingToolkit = "9.16.0-9"
+
+["14-14.3"]
+DynamicPolynomials = "0.5"
+Symbolics = "5.30.1-5"
 
 ["14.2"]
 JumpProcesses = "9.13.1-9"
@@ -95,8 +97,13 @@ SciMLBase = "2.46.0-2"
 JumpProcesses = "9.13.2-9"
 ModelingToolkit = "9.32.0-9"
 
-["14.3.2-14"]
+["14.3.2-14.3"]
 SymbolicUtils = "2.1.2-2"
+
+["14.4-14"]
+DynamicPolynomials = "0.5-0.6"
+SymbolicUtils = ["2.1.2-2", "3.3.0-3"]
+Symbolics = "5.30.1-6"
 
 [5]
 Reexport = "0.2"
