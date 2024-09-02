@@ -13,7 +13,6 @@ GPUArraysCore = "46192b85-c4d5-4398-a991-12ede77f4527"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
-OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
@@ -23,7 +22,6 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
 Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
@@ -40,6 +38,10 @@ ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 
 ["7-7.6.2"]
 DiffEqOperators = "9fdde737-9c7f-55bf-ade8-46b3f136cc48"
+
+["7-7.66.0"]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
 
 ["7.17-7.48"]
 SimpleNonlinearSolve = "727e6d20-b764-4bd8-a329-72de5adea6c7"
