@@ -1,10 +1,6 @@
 [0]
 Chairmarks = "1.2.1-1"
-ComponentArrays = "0.15"
-DocStringExtensions = "0.9"
-JLArrays = "0.1"
 ProgressMeter = "1"
-StaticArrays = "1.9.0-1"
 
 ["0-0.1"]
 DifferentiationInterface = "0.1"
@@ -18,13 +14,19 @@ LinearAlgebra = "1"
 Test = "1"
 julia = "1.10.0-1"
 
+["0-0.5"]
+ComponentArrays = "0.15"
+DocStringExtensions = "0.9"
+JLArrays = "0.1"
+StaticArrays = "1.9.0-1"
+
 ["0.2.0"]
 DifferentiationInterface = "0.2"
 
 ["0.2.1-0.2"]
 DifferentiationInterface = "0.2.1-0.2"
 
-["0.3-0"]
+["0.3-0.5"]
 ADTypes = "1"
 
 ["0.3.0"]
@@ -32,7 +34,6 @@ DifferentiationInterface = "0.3"
 SparseArrays = "1"
 
 ["0.3.1-0"]
-Compat = "4"
 LinearAlgebra = ["0.0.0", "1"]
 SparseArrays = ["0.0.0", "1"]
 Test = ["0.0.0", "1"]
@@ -43,6 +44,9 @@ DifferentiationInterface = "0.3.4-0.3"
 
 ["0.3.1-0.4.0"]
 JET = "0.4-0.8"
+
+["0.3.1-0.5"]
+Compat = "4"
 
 ["0.4.0"]
 DifferentiationInterface = "0.4"
@@ -59,6 +63,16 @@ Random = ["0.0.0", "1"]
 ["0.4.3-0.4"]
 DifferentiationInterface = "0.5.4-0.5"
 
+["0.5"]
+DifferentiationInterface = "0.5.6-0.5"
+
 ["0.5-0"]
 DataFrames = "1.6.1-1"
-DifferentiationInterface = "0.5.6-0.5"
+
+["0.6-0"]
+ADTypes = "1.7.0-1"
+Compat = ["3.46.0-3", "4.2.0-4"]
+DifferentiationInterface = "0.5.16-0.5"
+DocStringExtensions = "0.8-0.9"
+Functors = "0.4"
+PackageExtensionCompat = "1"
