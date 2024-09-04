@@ -26,9 +26,15 @@ Krotov = "0.1"
 QuantumControlBase = "0.2"
 QuantumPropagators = "0.1"
 
-["0.10-0"]
+["0.10"]
 QuantumControlBase = "0.10"
 QuantumPropagators = "0.8"
+
+["0.11-0"]
+LinearAlgebra = "1"
+Logging = "1"
+Printf = "1"
+QuantumPropagators = "0.8.1-0.8"
 
 ["0.2"]
 GRAPE = "0.2"
