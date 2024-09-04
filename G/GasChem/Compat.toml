@@ -1,6 +1,4 @@
 [0]
-ModelingToolkit = "8"
-Unitful = "1"
 julia = "1"
 
 ["0-0.1"]
@@ -8,6 +6,10 @@ Catalyst = "10"
 Documenter = "0.27"
 OrdinaryDiffEq = "6"
 SafeTestsets = "0.0.1"
+
+["0-0.6"]
+ModelingToolkit = "8"
+Unitful = "1"
 
 ["0.2"]
 EarthSciMLBase = "0.4"
@@ -28,7 +30,7 @@ SafeTestsets = ["0.0.1", "0.1"]
 ["0.3-0.5.0"]
 EarthSciMLBase = "0.4-0.6"
 
-["0.3.1-0"]
+["0.3.1-0.6"]
 Catalyst = "10-13"
 
 ["0.4-0"]
@@ -43,5 +45,11 @@ EarthSciMLBase = ["0.4-0.6", "0.8"]
 ["0.6.0"]
 EarthSciMLBase = "0.10"
 
-["0.6.1-0"]
+["0.6.1-0.6"]
 EarthSciMLBase = "0.15"
+
+["0.7-0"]
+Catalyst = "14"
+DynamicQuantities = "0.13"
+EarthSciMLBase = "0.16"
+ModelingToolkit = "9"
