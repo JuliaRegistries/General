@@ -9,7 +9,7 @@ jobs:
     if: (github.event.pull_request.user.login != 'JuliaRegistrator') && (github.event.pull_request.user.login != 'jlbuild') && (github.event.pull_request.user.login != 'JuliaTagBot')
     runs-on: ubuntu-latest
     steps:
-    - uses: julia-actions/setup-julia@780022b48dfc0c2c6b94cfee6a9284850107d037 # v2.3.0
+    - uses: julia-actions/setup-julia@512e2ab44f5848ea62bddd21d1ee906e989b0360 # v2.4.0
       with:
         version: 1.6.2
     - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v3.3.0
