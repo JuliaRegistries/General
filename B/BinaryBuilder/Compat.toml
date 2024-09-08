@@ -120,12 +120,17 @@ BinaryBuilderBase = "1.18.0-1"
 HTTP = ["0.8-0.9", "1"]
 
 ["0.5.7-0"]
-BinaryBuilderBase = "1.29.0-1"
 Downloads = "1"
 LoggingExtras = ["0.4", "1"]
 RegistryTools = "2.1.0-2"
 SHA = ["0.7", "1"]
 TOML = "1"
 
+["0.5.7-0.5"]
+BinaryBuilderBase = "1.29.0-1"
+
 ["0.5.8-0"]
 ObjectFile = "0.4"
+
+["0.6-0"]
+BinaryBuilderBase = "1.31.0-1"
