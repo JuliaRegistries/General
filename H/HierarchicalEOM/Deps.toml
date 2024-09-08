@@ -1,4 +1,5 @@
 [0-1]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["0-1.4"]
@@ -12,7 +13,6 @@ FastExpm = "7868e603-8603-432e-a1a1-694bd70b01f2"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
-OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
@@ -29,3 +29,12 @@ DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
 
 [2]
 QuantumToolbox = "6c2fb7c5-b903-41d2-bc5e-5a7c320b9fab"
+
+["2.0"]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+
+["2.1-2"]
+OrdinaryDiffEqCore = "bbf590c4-e513-4bbe-9b18-05decba2e5d8"
+OrdinaryDiffEqLowOrderRK = "1344f307-1e59-4825-a18e-ace9aa3fa4c6"
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
