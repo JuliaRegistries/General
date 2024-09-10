@@ -2,7 +2,6 @@
 Distributions = "0.25"
 ExponentialAction = "0.2"
 ForwardDiff = "0.10"
-JLD2 = "0.4"
 Reexport = "1.2.0-1"
 
 ["0-0.1"]
@@ -26,6 +25,9 @@ LiveServer = "1.1.0-1"
 MathOptInterface = "1.13.0-1"
 Symbolics = "5.2.0-5"
 Zygote = "0.6"
+
+["0-0.2.1"]
+JLD2 = "0.4"
 
 ["0.1.2-0"]
 Einsum = "0.4"
@@ -55,16 +57,25 @@ Symbolics = "5.8.0-5"
 
 ["0.2-0"]
 BenchmarkTools = "1.5.0-1"
-CairoMakie = "0.10-0.12"
 IJulia = "1.25.0-1"
 Ipopt = "1.6.0-1"
 MathOptInterface = "1.31.0-1"
 NamedTrajectories = "0.2"
 ProgressMeter = "1.10.0-1"
+julia = "1.10.0-1"
+
+["0.2-0.2.1"]
+CairoMakie = "0.10-0.12"
 Symbolics = "6.2.0-6"
 TestItemRunner = "0.2"
 TestItems = "0.1"
-julia = "1.10.0-1"
 
 ["0.2.1-0"]
 Interpolations = "0.15"
+
+["0.2.2-0"]
+CairoMakie = "0.12"
+JLD2 = "0.5"
+Symbolics = "6.11.0-6"
+TestItemRunner = "1"
+TestItems = "1"
