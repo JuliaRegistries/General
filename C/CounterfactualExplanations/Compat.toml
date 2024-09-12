@@ -50,6 +50,8 @@ EvoTrees = "0.14-0.16"
 
 ["0.1.15-1"]
 PackageExtensionCompat = "1"
+
+["0.1.15-1.1"]
 julia = "1.6.0-1"
 
 ["0.1.16-0.1.30"]
@@ -102,12 +104,14 @@ NearestNeighborModels = "0.2"
 DataFrames = "1"
 
 ["0.1.31-1"]
+MultivariateStats = "0.9-0.10"
+Statistics = "1"
+
+["0.1.31-1.1"]
 LinearAlgebra = "1.6.0-1"
 Logging = "1.6.0-1"
-MultivariateStats = "0.9-0.10"
 Random = "1.6.0-1"
 Serialization = "1.6.0-1"
-Statistics = "1"
 UUIDs = "1.6.0-1"
 
 ["0.1.35-1"]
@@ -152,3 +156,14 @@ Tables = "1"
 
 ["0.1.9-0.1.18"]
 SnoopPrecompile = "1"
+
+["1.2-1"]
+CausalInference = "0.17"
+EnergySamplers = "1"
+Graphs = "1.11.1-1"
+LinearAlgebra = "1.10.0-1"
+Logging = "1.10.0-1"
+Random = "1.10.0-1"
+Serialization = "1.10.0-1"
+UUIDs = "1.10.0-1"
+julia = "1.10.0-1"
