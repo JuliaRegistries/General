@@ -52,7 +52,7 @@ Tracker = "0.2"
 ["0.8-1.7.0"]
 DiffEqBase = "6"
 
-["0.8-3"]
+["0.8-3.5"]
 ForwardDiff = "0.10"
 
 ["0.9-0"]
@@ -67,11 +67,11 @@ Flux = "0.10.1-0.10"
 ["1-1.3"]
 DiffEqSensitivity = "6"
 
-[1-3]
-ZygoteRules = "0.2"
-
 ["1-3.1"]
 RecursiveArrayTools = "2"
+
+["1-3.5"]
+ZygoteRules = "0.2"
 
 ["1.10-1.16"]
 Optim = "0.20-0.21"
@@ -103,7 +103,7 @@ Zygote = "0.5"
 ["1.18-1.34"]
 Flux = "0.11"
 
-["1.18-3"]
+["1.18-3.5"]
 DiffEqBase = "6.41.0-6"
 DistributionsAD = "0.6"
 
@@ -234,7 +234,7 @@ ChainRulesCore = "1"
 ["1.53-2"]
 LoggingExtras = ["0.4", "1"]
 
-["1.54-3"]
+["1.54-3.5"]
 Functors = "0.4"
 
 ["1.7.1-1.11"]
@@ -257,9 +257,6 @@ Flux = "0.12-0.14"
 
 [3]
 ConcreteStructs = "0.2"
-PrecompileTools = "1"
-SciMLBase = "1-2"
-Tracker = "0.2.29-0.2"
 
 ["3-3.4"]
 ADTypes = "0.2"
@@ -269,25 +266,41 @@ Lux = "0.5.5-0.5"
 Random = ["0.0.0", "1"]
 julia = "1.9.0-1"
 
+["3-3.5"]
+PrecompileTools = "1"
+SciMLBase = "1-2"
+Tracker = "0.2.29-0.2"
+
 ["3.0"]
 Distributions = "0.23-0.25"
 Zygote = "0.5-0.6"
 
 ["3.1-3"]
 Distributions = "0.25"
+
+["3.1-3.5"]
 Zygote = "0.6"
 
-["3.2-3"]
+["3.2-3.5"]
 RecursiveArrayTools = "2-3"
 
 ["3.3-3.4"]
 Adapt = "3-4"
 
-["3.5-3"]
+["3.5"]
 ADTypes = "1"
 Adapt = "4"
-LinearAlgebra = "1.10.0-1"
 Lux = "0.5.50-0.5"
+
+["3.5-3"]
+LinearAlgebra = "1.10.0-1"
 Random = "1.10.0-1"
 Setfield = "1.1.1-1"
 julia = "1.10.0-1"
+
+["3.6-3"]
+ADTypes = "1.5.0-1"
+Boltz = "0.4.2-0.4"
+Lux = "0.5.65-0.5"
+LuxLib = "0.3.50-0.3"
+SciMLBase = "2"
