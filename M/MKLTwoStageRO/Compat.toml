@@ -3,7 +3,12 @@ CDDLib = "0.9.4-0.9"
 HiGHS = "1.9.2-1"
 Ipopt = "1.6.6-1"
 JuMP = "1.23.1-1"
-MKLOneClassSVM = "0.1.1-0.1"
 Polyhedra = "0.7.8-0.7"
 Reexport = "1.2.2-1"
 julia = "1.10.0-1"
+
+["0-0.1.0"]
+MKLOneClassSVM = "0.1.1-0.1"
+
+["0.1.1-0"]
+MKLOneClassSVM = "0.1.2-0.1"
