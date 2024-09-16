@@ -1,8 +1,13 @@
 [0]
 Distributions = "0.25"
 DrWatson = "2.15.0-2"
-Interpolations = "0.15"
 Plots = "1"
 Revise = "3.5.0-3"
 Roots = "2"
 julia = "1.8.0-1"
+
+["0-0.1.0"]
+Interpolations = "0.15"
+
+["0.1.1-0"]
+PCHIPInterpolation = "0.2"
