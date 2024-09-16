@@ -49,10 +49,7 @@ StructTypes = "1.9.0-1"
 DocStringExtensions = "0.9.3-0.9"
 Parameters = "0.12.3-0.12"
 PrecompileTools = "1.2.1-1"
-Rotations = "1.7.0-1"
-StaticArrays = "1.9.3-1"
 StructArrays = "0.6.18-0.6"
-StructTypes = "1.10.0-1"
 
 ["0.5-0.6.11"]
 Arrow = "2.7.1-2"
@@ -61,17 +58,33 @@ RecursiveArrayTools = "3.3.3-3"
 YAML = "0.4.9-0.4"
 julia = "1.9.0-1"
 
+["0.5-0.7.9"]
+Rotations = "1.7.0-1"
+StaticArrays = "1.9.3-1"
+StructTypes = "1.10.0-1"
+
 ["0.6.12"]
 RecursiveArrayTools = "3.24.0-3"
 
 ["0.6.12-0"]
-Arrow = "2.7.2-2"
 CSV = "0.10.14-0.10"
-YAML = "0.4.11-0.4"
 julia = "1.10.0-1"
 
-["0.6.13-0"]
+["0.6.12-0.7.9"]
+Arrow = "2.7.2-2"
+YAML = "0.4.11-0.4"
+
+["0.6.13-0.7.9"]
 RecursiveArrayTools = "3.23.0-3"
 
-["0.7.9-0"]
+["0.7.10-0"]
+Arrow = "2.7.3-2"
+Parsers = "2.8.1-2"
+RecursiveArrayTools = "3.27.0-3"
+Rotations = "1.7.1-1"
+StaticArrays = "1.9.7-1"
+StructTypes = "1.11.0-1"
+YAML = "0.4.12-0.4"
+
+["0.7.9"]
 Parsers = "2.8.0-2"
