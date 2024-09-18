@@ -29,15 +29,17 @@ ArnoldiMethod = "0.2"
 GR = ["0.62", "0.71"]
 
 [1]
-Gaugefields = "0.2"
 LatticeDiracOperators = "0.2"
-QCDMeasurements = "0.1.3-0.1"
-Wilsonloop = "0.1.4-0.1"
 
 ["1-1.0.3"]
 KrylovKit = "0.5-0.6"
 
-["1.0.4-1"]
+["1-1.0.7"]
+Gaugefields = "0.2"
+QCDMeasurements = "0.1.3-0.1"
+Wilsonloop = "0.1.4-0.1"
+
+["1.0.4-1.0.7"]
 GR = ["0.62", "0.71-0.72"]
 
 ["1.0.7-1"]
@@ -48,3 +50,9 @@ REPL = "1"
 Random = "1"
 SparseArrays = "1"
 TOML = "1"
+
+["1.0.8-1"]
+GR = ["0.62", "0.71-0.73"]
+Gaugefields = "0.2.8-0.2"
+QCDMeasurements = "0.1.6-0.1"
+Wilsonloop = "0.1.5-0.1"
