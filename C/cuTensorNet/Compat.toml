@@ -37,9 +37,11 @@ CUDA = "5.1"
 ["1.1.1-1.2.0"]
 CUDA_Runtime_Discovery = "0.2"
 
+["1.2"]
+julia = "1.8.0-1"
+
 ["1.2-1"]
 CEnum = "0.2-0.5"
-julia = "1.8.0-1"
 
 ["1.2.0"]
 CUDA = "5.1-5.2"
@@ -47,7 +49,13 @@ cuQuantum_jll = "23.10"
 cuTENSOR = "1.2"
 
 ["1.2.1-1"]
-CUDA = "5.4"
 CUDA_Runtime_Discovery = "0.2-0.3"
 cuQuantum_jll = "24.3"
 cuTENSOR = "2"
+
+["1.2.1-1.2"]
+CUDA = "5.4"
+
+["1.3-1"]
+CUDA = "5.5"
+julia = "1.10.0-1"
