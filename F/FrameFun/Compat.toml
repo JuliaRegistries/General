@@ -1,6 +1,5 @@
 [0]
 QuadGK = "2.4.0-2"
-RecipesBase = "1"
 Reexport = "1"
 
 ["0-0.4.0"]
@@ -20,6 +19,9 @@ DomainSets = "0.5.9-0.5"
 GridArrays = "0.1.12-0.1"
 julia = "1.5.0-1"
 
+["0-0.5.6"]
+RecipesBase = "1"
+
 ["0.4.1"]
 BasisFunctions = "0.4.3-0.4"
 
@@ -30,7 +32,6 @@ Compat = "3.42.0-3"
 ["0.4.2-0"]
 GenericLinearAlgebra = "0.3"
 LowRankApprox = "0.5"
-PGFPlotsX = "1.4.0-1"
 StaticArrays = "1.4.0-1"
 
 ["0.4.2-0.4.5"]
@@ -39,18 +40,21 @@ CompositeTypes = "0.1.2-0.1"
 ["0.4.2-0.5.5"]
 FillArrays = "0.12-0.13"
 
+["0.4.2-0.5.6"]
+PGFPlotsX = "1.4.0-1"
+
 ["0.4.3"]
 BasisFunctions = "0.4.5-0.4"
 GridArrays = "0.1.13-0.1"
-
-["0.4.3-0"]
-julia = "1.7.0-1"
 
 ["0.4.3-0.4.4"]
 DomainSets = "0.5.11-0.5"
 
 ["0.4.3-0.5.2"]
 GenericFFT = "0.1"
+
+["0.4.3-0.5.6"]
+julia = "1.7.0-1"
 
 ["0.4.4"]
 BasisFunctions = "0.5"
@@ -103,7 +107,13 @@ DomainSets = "0.7"
 BasisFunctions = "0.6.3-0.6"
 GridArrays = "0.2.1-0.2"
 
-["0.5.6-0"]
+["0.5.6"]
 BasisFunctions = "0.6.4-0.6"
+
+["0.5.6-0"]
 FillArrays = ["0.13", "1"]
 GridArrays = "0.2.2-0.2"
+
+["0.5.7-0"]
+BasisFunctions = "0.6.5-0.6"
+julia = "1.9.0-1"
