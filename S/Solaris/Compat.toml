@@ -39,14 +39,16 @@ CSV = "0.8-0.9"
 
 ["0.2.10-0"]
 NNlib = "0.8-0.9"
-cuDNN = "1"
 
-["0.2.11-0"]
-OptimizationFlux = "0.1-0.2"
-OptimizationPolyalgorithms = "0.1-0.2"
+["0.2.10-0.2.17"]
+cuDNN = "1"
 
 ["0.2.11-0.2.13"]
 OptimizationOptimJL = "0.1-0.2"
+
+["0.2.11-0.2.17"]
+OptimizationFlux = "0.1-0.2"
+OptimizationPolyalgorithms = "0.1-0.2"
 
 ["0.2.14-0"]
 Functors = "0.4"
@@ -59,14 +61,22 @@ OptimizationOptimJL = "0.2-0.3"
 
 ["0.2.16-0"]
 CSV = "0.9-0.10"
-CUDA = "4-5"
 ComponentArrays = "0.14-0.15"
 Lux = "1"
+
+["0.2.16-0.2.17"]
+CUDA = "4-5"
+
+["0.2.17"]
+OptimizationOptimJL = "0.3-0.4"
 
 ["0.2.17-0"]
 JLD2 = "0.4-0.5"
 Optimization = "3-4"
-OptimizationOptimJL = "0.3-0.4"
+
+["0.2.18-0"]
+OptimizationOptimisers = "0.2-0.3"
+OptimizationPolyalgorithms = "0.2-0.3"
 
 ["0.2.2-0"]
 DocStringExtensions = "0.8-0.9"
