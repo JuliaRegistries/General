@@ -12,10 +12,21 @@ InverseFunctions = "3587e190-3f89-42d0-90ee-14403ec27112"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
-NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
+
+["0-0.1"]
+NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.2-0"]
+CommonSolve = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
+ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+LuxCore = "bb33d45b-7691-41d6-9220-0943567d0623"
+Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+WeightInitializers = "d49dbf32-c5c2-4618-8acc-27bb2598ef2d"
