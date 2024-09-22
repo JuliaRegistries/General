@@ -29,8 +29,10 @@ Distributions = "0.23-0.24"
 Distances = "0.7-0.10"
 
 ["1.12-2"]
-Statistics = "1.5.0-1"
 julia = "1.5.0-1"
+
+["1.12-2.7"]
+Statistics = "1.5.0-1"
 
 ["1.15-2.6"]
 StaticArrays = ["0.8", "0.11-0.12", "1"]
@@ -78,10 +80,15 @@ StateSpaceSets = ["0.1.2-0.1", "1"]
 ["2.6-2"]
 Reexport = "1"
 
+["2.7"]
+StateSpaceSets = "1"
+
 ["2.7-2"]
 Distances = "0.10"
 Distributions = "0.25"
-StateSpaceSets = "1"
 
 ["2.7.3-2"]
 StatsBase = ["0.24", "0.32-0.34"]
+
+["2.8-2"]
+StateSpaceSets = "2"
