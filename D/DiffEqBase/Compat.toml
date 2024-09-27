@@ -262,18 +262,23 @@ FastBroadcast = "0.2-0.3"
 Static = ["0.7-0.8", "1"]
 
 ["6.152-6"]
-EnzymeCore = "0.7"
 FastBroadcast = "0.3"
 RecursiveArrayTools = "3"
 SciMLOperators = "0.3"
 Setfield = "1"
 Static = "1"
 
+["6.152-6.155.1"]
+EnzymeCore = "0.7"
+
 ["6.155-6"]
 SciMLStructures = "1.5.0-1"
 
 ["6.155.1-6"]
 SciMLBase = "2.53.0-2"
+
+["6.155.2-6"]
+EnzymeCore = "0.7-0.8"
 
 ["6.18-6.34"]
 ChainRulesCore = "0.4-0.7"
