@@ -48,10 +48,12 @@ SparseArrays = "1.9.0-1"
 SteadyStateDiffEq = "2"
 
 ["1.5-2"]
-DiffEqCallbacks = "2-3"
 LinearAlgebra = ["0.0.0", "1"]
 Pkg = ["0.0.0", "1"]
 SparseArrays = ["0.0.0", "1"]
+
+["1.5-2.2.1"]
+DiffEqCallbacks = "2-3"
 
 ["2.0"]
 OrdinaryDiffEq = "6.53.4-6"
@@ -70,6 +72,12 @@ julia = "1.10.0-1"
 ["2.1-2.2.0"]
 QuantumToolbox = "0.13"
 
+["2.2.1"]
+QuantumToolbox = "0.13-0.14"
+
 ["2.2.1-2"]
 JLD2 = "0.4.31-0.5"
-QuantumToolbox = "0.13-0.14"
+
+["2.2.2-2"]
+DiffEqCallbacks = "2-4"
+QuantumToolbox = "0.13-0.16"
