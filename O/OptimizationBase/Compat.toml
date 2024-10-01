@@ -45,8 +45,14 @@ Symbolics = "5.12.0-6"
 SymbolicAnalysis = "0.3"
 
 [2]
-ADTypes = "1.5.0-1"
-DifferentiationInterface = "0.5"
 FastClosures = "0.3"
 SparseConnectivityTracer = "0.6"
 SparseMatrixColorings = "0.4"
+
+["2.0"]
+ADTypes = "1.5.0-1"
+DifferentiationInterface = "0.5"
+
+["2.1-2"]
+ADTypes = "1.9.0-1"
+DifferentiationInterface = "0.6.1-0.6"
