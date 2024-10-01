@@ -36,7 +36,7 @@ jobs:
       - run: rm -rf .ci/Manifest.toml
       - run: rm -rf .ci/Project.toml
       - name: Cache artifacts
-        uses: julia-actions/cache@8608484607cba0bdb5437a7bad85d6502499d029 # v2.0.4
+        uses: julia-actions/cache@824243901fb567ccb490b0d0e2483ccecde46834 # v2.0.5
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
