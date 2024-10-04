@@ -120,8 +120,11 @@ EnzymeCore = "0.7.5-0.7"
 ["0.9.23-0"]
 UnsafeAtomicsLLVM = "0.1-0.2"
 
-["0.9.27-0"]
+["0.9.27"]
 EnzymeCore = "0.8.1-0.8"
+
+["0.9.28-0"]
+EnzymeCore = ["0.7", "0.8.1-0.8"]
 
 ["0.9.3-0"]
 PrecompileTools = "1"
