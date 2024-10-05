@@ -161,13 +161,19 @@ DifferentiationInterface = "0.5"
 ADTypes = "1"
 
 ["0.25-0"]
-DifferentiationInterface = "0.5-0.6"
-Enzyme = "0.12-0.13"
 Lux = "1"
 LuxCore = "1"
 Optimization = "4"
 OptimizationOptimisers = "0.3"
 OrdinaryDiffEqDefault = "1"
+
+["0.25.0"]
+DifferentiationInterface = "0.5-0.6"
+Enzyme = "0.12-0.13"
+
+["0.25.1-0"]
+DifferentiationInterface = "0.6"
+Enzyme = "0.13"
 
 ["0.6-0"]
 DataFrames = "1"
