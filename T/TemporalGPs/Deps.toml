@@ -3,13 +3,15 @@ FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0-0.4"]
 Stheno = "8188c328-b5d6-583d-959b-9690869a5511"
 
 ["0-0.5"]
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
+
+["0-0.6"]
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0.2-0"]
 BlockDiagonals = "0a1fb500-61f7-11e9-3c65-f5ef3456f9f0"
@@ -22,8 +24,10 @@ Kronecker = "2c470bb0-bcc8-11e8-3dad-c9649493f05e"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 
 ["0.4-0"]
-ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
+
+["0.4-0.6"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 
 ["0.5-0"]
 AbstractGPs = "99985d1d-32ba-4be9-9821-2ec096f28918"

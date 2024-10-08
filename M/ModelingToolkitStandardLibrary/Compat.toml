@@ -39,8 +39,14 @@ DiffEqBase = "6"
 ["2.1.1-2.6"]
 ChainRulesCore = "1"
 
-["2.11-2"]
+["2.11"]
 Symbolics = "5.20.0-6"
+
+["2.12-2"]
+ChainRulesCore = "1.24.0-1"
+DiffEqBase = "6.152.0-6"
+ModelingToolkit = "9.32.0-9"
+Symbolics = "5.36.0-6"
 
 ["2.3"]
 ModelingToolkit = "8.67.0-8"
@@ -59,15 +65,15 @@ Symbolics = "5.2.0-5"
 ["2.5-2.7.0"]
 ModelingToolkit = "9"
 
-["2.7-2"]
-ChainRulesCore = "1.18.0-1"
-
 ["2.7-2.10"]
 Symbolics = "5.20.0-5"
+
+["2.7-2.11"]
+ChainRulesCore = "1.18.0-1"
 
 ["2.7.0"]
 DiffEqBase = "6.143.0-6"
 
-["2.7.1-2"]
+["2.7.1-2.11"]
 DiffEqBase = "6.147.0-6"
 ModelingToolkit = "9.2.0-9"

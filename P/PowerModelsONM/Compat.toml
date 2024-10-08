@@ -18,8 +18,10 @@ ProgressMeter = "1.7.1-1.7"
 Requires = "1.1.3-1.1"
 
 [1-3]
-JSON = "0.21"
 LoggingExtras = "0.4.7-0.4"
+
+[1-4]
+JSON = "0.21"
 
 ["1.0.0"]
 PowerModelsDistribution = "0.11.4-0.11"
@@ -60,17 +62,18 @@ PowerModelsStability = "0.3"
 
 ["2.1-3"]
 InfrastructureModels = "0.7"
+
+["2.1-3.5.0"]
 Statistics = "1.6.0-1"
+
+["2.1-4"]
 julia = "1.6.0-1"
 
 [3]
-ArgParse = "1.1.0-1"
-EzXML = "1.1.0-1"
 Graphs = "1.4.1-1"
 Hwloc = "2"
 Ipopt = ["0.9", "1.0.2-1"]
 JSONSchema = ["0.3.3-0.3", "1"]
-JuMP = ["0.22-0.23", "1"]
 Juniper = "0.8-0.9"
 PolyhedralRelaxations = "0.3.3-0.3"
 PowerModelsProtection = "0.5.2-0.5"
@@ -83,15 +86,46 @@ HiGHS = "1.1.3-1"
 ["3-3.4"]
 PowerModelsDistribution = "0.14.4-0.14"
 
+["3-3.5.0"]
+EzXML = "1.1.0-1"
+JuMP = ["0.22-0.23", "1"]
+
+[3-4]
+ArgParse = "1.1.0-1"
+
 ["3.3"]
 StatsBase = "0.33"
 
-["3.3-3"]
+["3.3-4"]
 Combinatorics = "1"
 
 ["3.4-3"]
-HiGHS = "1.5.2-1"
 StatsBase = "0.33-0.34"
+
+["3.4-4"]
+HiGHS = "1.5.2-1"
 
 ["3.5-3"]
 PowerModelsDistribution = "0.14.4-0.15"
+
+["3.5.1-3"]
+JuMP = "1-1.14"
+
+["3.5.1-4"]
+EzXML = "1.2.0-1"
+
+[4]
+Graphs = "1.9.0-1"
+Hwloc = "2-3"
+InfrastructureModels = "0.7.8-0.7"
+Ipopt = "1.3.0-1"
+JSONSchema = "1"
+JuMP = "1.23.2-1"
+Juniper = "0.9"
+LoggingExtras = "0.4.9-0.4"
+PolyhedralRelaxations = "0.3.5-0.3"
+PowerModelsDistribution = "0.16"
+PowerModelsProtection = "0.7.1-0.7"
+PowerModelsStability = "0.4"
+Requires = "1.3.0-1"
+StatsBase = "0.34"

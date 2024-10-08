@@ -540,9 +540,6 @@ Meshes = "0.43"
 
 ["0.57-0"]
 DensityRatioEstimation = "1.2.0-1"
-GeoStatsModels = "0.4"
-GeoStatsProcesses = "0.6"
-GeoStatsTransforms = "0.7"
 GeoStatsValidation = "0.3"
 Rotations = "1.7.0-1"
 Unitful = "1.20.0-1"
@@ -558,6 +555,13 @@ GeoStatsBase = "0.44"
 
 ["0.57-0.61.0"]
 GeoTables = "1.21.0-1"
+
+["0.57-0.66"]
+GeoStatsModels = "0.4"
+GeoStatsTransforms = "0.7"
+
+["0.57-0.67"]
+GeoStatsProcesses = "0.6"
 
 ["0.57.1-0.60"]
 DataScienceTraits = "0.3"
@@ -581,7 +585,7 @@ GeoStatsBase = "0.45"
 ["0.61-0"]
 DataScienceTraits = "0.4"
 
-["0.61.1-0"]
+["0.61.1-0.68.2"]
 GeoTables = "1.22.0-1"
 
 ["0.62"]
@@ -602,14 +606,33 @@ Distances = "0.10"
 ["0.64.3-0.64"]
 CoordRefSystems = "0.11"
 
-["0.65-0"]
+["0.65"]
 Meshes = "0.50"
 
 ["0.65.0"]
 CoordRefSystems = "0.12"
 
-["0.65.1-0"]
+["0.65.1-0.68.0"]
 CoordRefSystems = "0.13"
+
+["0.66-0"]
+Meshes = "0.51"
+
+["0.67-0"]
+GeoStatsModels = "0.5"
+GeoStatsTransforms = "0.8"
+
+["0.68-0"]
+GeoStatsProcesses = "0.7"
+
+["0.68.1-0.68.3"]
+CoordRefSystems = "0.14"
+
+["0.68.3-0"]
+GeoTables = "1.24.0-1"
+
+["0.68.4-0"]
+CoordRefSystems = "0.15"
 
 ["0.7.2-0.7"]
 GeoStatsBase = "0.2.5-0.5"

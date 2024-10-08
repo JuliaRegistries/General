@@ -10,11 +10,13 @@ StaticArrays = "0.0.0-0.12"
 julia = ["0.7", "1"]
 
 [1]
-DiffEqCallbacks = "2.9.0-2"
 FileIO = "1"
 
 ["1-1.1"]
 RecipesBase = "0.7"
+
+["1-1.10"]
+DiffEqCallbacks = "2.9.0-2"
 
 ["1-1.4"]
 Reexport = "0.2"
@@ -32,11 +34,15 @@ DiffEqBase = "6"
 ["1.0"]
 RecursiveArrayTools = "1"
 
-["1.1-1"]
+["1.1-1.10"]
 RecursiveArrayTools = "2"
 
 ["1.10-1"]
 DiffEqBase = "6.122.0-6"
+
+["1.11-1"]
+DiffEqCallbacks = ["2.9.0-2", "4"]
+RecursiveArrayTools = "2-3"
 
 ["1.2"]
 RecipesBase = "0.7-0.8"

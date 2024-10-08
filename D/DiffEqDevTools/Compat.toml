@@ -95,14 +95,19 @@ LinearAlgebra = "1.9.0-1"
 Logging = "1.9.0-1"
 RecipesBase = "1"
 RootedTrees = "2"
-SciMLBase = "2"
 julia = "1.9.0-1"
+
+["2.40-2.44"]
+SciMLBase = "2"
 
 ["2.41-2"]
 StructArrays = "0.6"
 
 ["2.43-2"]
 RecursiveArrayTools = "2-3"
+
+["2.45-2"]
+SciMLBase = "2.52.2-2"
 
 ["2.6-2.27"]
 Statistics = "1"

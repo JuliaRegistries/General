@@ -60,11 +60,11 @@ Lux = "0.5.60-0.5"
 LuxCore = "0.1.16-0.1"
 LuxDeviceUtils = "0.1.26-0.1"
 
-["0.3.10-0"]
-ForwardDiff = "0.10.36-0.10"
-
 ["0.3.10-0.3.11"]
 WeightInitializers = ["0.1.7-0.1", "1"]
+
+["0.3.10-1"]
+ForwardDiff = "0.10.36-0.10"
 
 ["0.3.11"]
 Artifacts = "1"
@@ -72,19 +72,21 @@ Lux = "0.5.62-0.5"
 LuxCore = "0.1.21-0.1"
 MLDataDevices = "1"
 
-["0.3.11-0"]
+["0.3.11-1"]
 ADTypes = "1.5.0-1"
 NNlib = "0.9.21-0.9"
 
 ["0.3.12-0"]
-Artifacts = "1.10.0-1"
-Compat = "4.15.0-4"
 LuxCore = "0.1.24-0.1"
 MLDataDevices = "1.0.1-1"
-WeightInitializers = "1"
 
 ["0.3.12-0.3"]
 Lux = "0.5.65-0.5"
+
+["0.3.12-1"]
+Artifacts = "1.10.0-1"
+Compat = "4.15.0-4"
+WeightInitializers = "1"
 
 ["0.3.2"]
 GPUArraysCore = "0.1"
@@ -101,21 +103,11 @@ ChainRulesCore = "1.21.0-1"
 JLD2 = "0.4.28-0.4"
 Lux = "0.5.18-0.5"
 
-["0.3.3-0"]
-GPUArraysCore = "0.1.6-0.1"
-
 ["0.3.3-0.3.9"]
 PrecompileTools = "1.2.0-1"
 
-["0.3.4-0"]
-ArgCheck = "2.3.0-2"
-ChainRulesCore = "1.24.0-1"
-ConcreteStructs = "0.2.3-0.2"
-LazyArtifacts = "1.10.0-1"
-Random = "1.10.0-1"
-Reexport = "1.2.2-1"
-Statistics = "1.10.0-1"
-julia = "1.10.0-1"
+["0.3.3-1"]
+GPUArraysCore = "0.1.6-0.1"
 
 ["0.3.4-0.3"]
 JLD2 = "0.4.48-0.4"
@@ -129,8 +121,15 @@ Lux = "0.5.50-0.5"
 LuxCore = "0.1.15-0.1"
 WeightInitializers = "0.1.7-0.1"
 
-["0.3.6-0"]
-Markdown = "1.10.0-1"
+["0.3.4-1"]
+ArgCheck = "2.3.0-2"
+ChainRulesCore = "1.24.0-1"
+ConcreteStructs = "0.2.3-0.2"
+LazyArtifacts = "1.10.0-1"
+Random = "1.10.0-1"
+Reexport = "1.2.2-1"
+Statistics = "1.10.0-1"
+julia = "1.10.0-1"
 
 ["0.3.6-0.3.10"]
 ADTypes = "1.3.0-1"
@@ -138,5 +137,15 @@ ADTypes = "1.3.0-1"
 ["0.3.6-0.3.9"]
 LuxDeviceUtils = "0.1.21-0.1"
 
+["0.3.6-1"]
+Markdown = "1.10.0-1"
+
 ["0.4-0"]
 Lux = "0.5.66-0.5"
+
+[1]
+Functors = "0.4.12-0.4"
+Lux = "1"
+LuxCore = "1"
+MLDataDevices = "1.1.0-1"
+Static = "1.1.1-1"

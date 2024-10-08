@@ -29,12 +29,17 @@ DifferentiableEigen = "73a20539-4e65-4dcb-a56d-dc20f210a01b"
 ["0.11-0"]
 FMISensitivity = "3e748fe5-cd7f-4615-8419-3159287187d2"
 
+["0.13-0"]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+
 ["0.2-0"]
-DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 
 ["0.2-0.10.5"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+
+["0.2-0.12"]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 
 ["0.2-0.9"]
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
@@ -47,12 +52,14 @@ DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 
 ["0.3-0"]
 FMIImport = "9fcbc62e-52a0-44e9-a616-1359a0008194"
+
+["0.3-0.12"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.5-0.9"]
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 
-["0.6-0"]
+["0.6-0.12"]
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
 ["0.8-0"]

@@ -1,25 +1,48 @@
 [0]
+CSV = "0.10"
+CategoricalArrays = "0.10.2-0.10"
+DataFrames = "1.3.2-1"
 MCMCChains = "5"
+MixedModels = "4.6.0-4"
+StatsBase = "0.33"
+StatsModels = "0.6.3-0.6"
 
 ["0-0.1"]
 StatsPlots = "0.14"
 
 [0-1]
-CSV = "0.10"
-CategoricalArrays = "0.10.2-0.10"
-DataFrames = "1.3.2-1"
 DataStructures = "0.18"
 DelimitedFiles = "1"
 Distributions = "0.25.58-0.25"
-MixedModels = "4.6.0-4"
 ProgressMeter = "1"
-StatsBase = "0.33"
-StatsModels = "0.6.3-0.6"
+
+["0-1.1"]
 julia = "1"
 
 ["0.2-0"]
+PrettyTables = "1.3.1-1"
 StatsPlots = "0.14-0.15"
 
 ["0.2-1"]
 PedigreeBase = "0.1"
+
+["1.0"]
+CSV = "0.10"
+CategoricalArrays = "0.10.2-0.10"
+DataFrames = "1.3.2-1"
+MixedModels = "4.6.0-4"
 PrettyTables = "1.3.1-1"
+StatsBase = "0.33"
+StatsModels = "0.6.3-0.6"
+
+["1.1-1"]
+CSV = "0.10.14-0.10"
+CategoricalArrays = "0.10.8-0.10"
+DataFrames = "1.7.0-1"
+MixedModels = "4.8.2-4"
+PrettyTables = "1.3.1-2"
+StatsBase = "0.34.3-0.34"
+StatsModels = "0.7.4-0.7"
+
+["1.2-1"]
+julia = "1.10.0-1"

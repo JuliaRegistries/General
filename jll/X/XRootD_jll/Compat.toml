@@ -1,8 +1,15 @@
 [5]
 JLLWrappers = "1.2.0-1"
-OpenSSL_jll = "1.1.10-1"
 julia = "1.6.0-1"
 
-["5.6-5"]
+["5-5.6"]
+OpenSSL_jll = "1.1.10-1"
+
+["5.6"]
 Artifacts = "1"
 Libdl = "1"
+
+["5.7-5"]
+Artifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]
+OpenSSL_jll = "3.0.15-3"

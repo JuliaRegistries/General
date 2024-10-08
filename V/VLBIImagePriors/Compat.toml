@@ -72,14 +72,24 @@ julia = "1.8.0-1"
 ["0.7"]
 ComradeBase = "0.6"
 
-["0.8-0"]
+["0.8"]
 Enzyme = "0.11-0.12"
 EnzymeCore = "0.6-0.7"
+
+["0.8-0"]
 HypercubeTransform = "0.4.3-0.4"
 
 ["0.8-0.8.2"]
 ComradeBase = "0.7"
 
 ["0.8.3-0"]
-ComradeBase = "0.7-0.8"
 julia = "1.10.0-1"
+
+["0.8.3-0.8"]
+ComradeBase = "0.7-0.8"
+
+["0.9-0"]
+AbstractFFTs = "1"
+ComradeBase = "0.8"
+EnzymeCore = "0.8"
+FastBroadcast = "0.3"

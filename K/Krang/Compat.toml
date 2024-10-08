@@ -1,6 +1,16 @@
 [0]
 DocStringExtensions = "0.9"
-JacobiElliptic = "0.1-0.2"
 PolarizedTypes = "0.1"
 StaticArrays = "1"
 julia = "1.10.0-1"
+
+["0-0.2.1"]
+JacobiElliptic = "0.1-0.2"
+
+["0.2-0"]
+GeometryBasics = "0.4"
+KernelAbstractions = "0.9"
+Rotations = "1"
+
+["0.2.2-0"]
+JacobiElliptic = "0.1-0.3"
