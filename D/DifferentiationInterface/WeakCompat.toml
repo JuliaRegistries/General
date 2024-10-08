@@ -2,7 +2,6 @@
 ChainRulesCore = "1.23.0-1"
 FiniteDifferences = "0.12.31-0.12"
 ForwardDiff = "0.10.36-0.10"
-PolyesterForwardDiff = "0.1.1-0.1"
 ReverseDiff = "1.15.1-1"
 Tracker = "0.2.33-0.2"
 Zygote = "0.6.69-0.6"
@@ -23,6 +22,9 @@ Tapir = "0.1.2-0.1"
 
 ["0-0.5.12"]
 Symbolics = "5.27.1-5"
+
+["0-0.6.6"]
+PolyesterForwardDiff = "0.1.1-0.1"
 
 ["0.2-0"]
 Diffractor = "0.2.6"
@@ -75,3 +77,6 @@ SparseMatrixColorings = "0.4.4-0.4"
 
 ["0.6.5-0"]
 SparseMatrixColorings = "0.4.5-0.4"
+
+["0.6.7-0"]
+PolyesterForwardDiff = "0.1.2-0.1"
