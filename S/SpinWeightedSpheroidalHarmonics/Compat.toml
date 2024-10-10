@@ -1,4 +1,4 @@
-[0]
+[0-1]
 AbstractTrees = "0.4.2-0.4"
 julia = "1"
 
@@ -6,5 +6,11 @@ julia = "1"
 QuadGK = "2.4.2-2"
 
 ["0.5.4-0"]
-ApproxFun = "0.13"
 TaylorSeries = "0.15"
+
+["0.5.4-1"]
+ApproxFun = "0.13"
+
+[1]
+LogarithmicNumbers = "1"
+TaylorSeries = "0.18"
