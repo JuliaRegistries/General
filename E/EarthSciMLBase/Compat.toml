@@ -45,10 +45,16 @@ ModelingToolkit = "9"
 ["0.16.0"]
 DynamicQuantities = "0.13"
 
-["0.16.1-0"]
+["0.16.1"]
 DiffEqCallbacks = "2-3"
+
+["0.16.1-0"]
 DynamicQuantities = ["0.13", "1"]
 Symbolics = "5-6"
+
+["0.16.2-0"]
+Accessors = "0.1"
+DiffEqCallbacks = "2-4"
 
 ["0.4.2-0.11"]
 Catalyst = "10-13"
