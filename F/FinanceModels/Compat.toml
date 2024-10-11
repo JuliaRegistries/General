@@ -1,12 +1,14 @@
 [4]
-AccessibleOptimization = "0.1.1-0.1"
 Accessors = "0.1"
 IntervalSets = "0.7"
-Optimization = "3.15.0-3"
 PrecompileTools = "1.1.0-1"
 Reexport = "1.2.0-1"
 StaticArrays = "1.6.0-1"
 Transducers = "0.4"
+
+["4-4.11"]
+AccessibleOptimization = "0.1.1-0.1"
+Optimization = "3.15.0-3"
 
 ["4-4.2"]
 Distributions = "0.25"
@@ -23,8 +25,14 @@ julia = "1.9.0-1"
 ["4-4.9.2"]
 UnicodePlots = "3.6.0-3"
 
-["4.10-4"]
+["4.10-4.11"]
 DataInterpolations = "5"
+
+["4.12-4"]
+AccessibleOptimization = "0.1.2-0.1"
+DataInterpolations = "5-6"
+Optimization = "4"
+OptimizationMetaheuristics = "0.3"
 
 ["4.3-4"]
 Dates = "1.6.0-1"
@@ -37,7 +45,7 @@ LinearAlgebra = "1.6.0-1"
 ["4.7"]
 BSplineKit = "0.16-0.17"
 
-["4.7-4"]
+["4.7-4.11"]
 OptimizationMetaheuristics = "0.1.2-0.2"
 
 ["4.8-4"]

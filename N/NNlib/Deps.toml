@@ -1,6 +1,5 @@
 [0]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0-0.5"]
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
@@ -8,6 +7,9 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0-0.7.9"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+["0-0.9.22"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.6-0"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
@@ -18,11 +20,11 @@ TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 ["0.6.1-0.6"]
 BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 
-["0.7-0"]
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-
 ["0.7-0.7.3"]
 NNPACK_jll = "a6bfbf70-4841-5cb9-aa18-3a8ad3c413ee"
+
+["0.7-0.9.22"]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 ["0.7.10-0"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"

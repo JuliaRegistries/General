@@ -4,6 +4,14 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Manifolds = "1cead3c2-87b3-11e9-0ccd-23c62b72b94e"
 ManifoldsBase = "3362f125-f0bb-47a3-aa74-596ffd7ef2fb"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
-OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+
+["0-0.1"]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+
+["0.2-0"]
+Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
+ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
+OrdinaryDiffEqCore = "bbf590c4-e513-4bbe-9b18-05decba2e5d8"
+SimpleUnPack = "ce78b400-467f-4804-87d8-8f486da07d0a"

@@ -191,7 +191,6 @@ Reexport = "1"
 ReverseDiff = "1.15.1-1"
 SciMLOperators = "0.3"
 Statistics = "1.10.0-1"
-StochasticDiffEq = "6.63.2-6"
 Tracker = "0.2.30-0.2"
 Zygote = "0.6.67-0.6"
 julia = "1.10.0-1"
@@ -209,6 +208,9 @@ RecursiveArrayTools = "3.5.1-3"
 ["7.52-7.60"]
 OrdinaryDiffEq = "6.68.1-6"
 
+["7.52-7.66.0"]
+StochasticDiffEq = "6.63.2-6"
+
 ["7.56.0"]
 DiffEqCallbacks = "2.34.0-3"
 
@@ -221,7 +223,7 @@ SciMLBase = "2.28.0-2"
 ["7.56.1-7.58"]
 DiffEqBase = "6.147.1-6"
 
-["7.57-7"]
+["7.57-7.67"]
 Enzyme = "0.12"
 
 ["7.58-7"]
@@ -240,18 +242,27 @@ FunctionWrappersWrappers = "0.1"
 ["7.6.2-7.10"]
 SciMLBase = "1.51.0-1"
 
-["7.61-7"]
+["7.61-7.66.0"]
 OrdinaryDiffEq = "6.81.1-6"
 
 ["7.62"]
 SymbolicIndexingInterface = "0.3"
 
 ["7.62-7"]
-SciMLBase = "2.39.0-2"
 SciMLStructures = "1.3.0-1"
+
+["7.62-7.65"]
+SciMLBase = "2.39.0-2"
 
 ["7.63-7"]
 SymbolicIndexingInterface = "0.3.26-0.3"
+
+["7.66-7"]
+Accessors = "0.1.36-0.1"
+SciMLBase = "2.51.4-2"
+
+["7.68-7"]
+Enzyme = "0.12-0.13"
 
 ["7.9-7"]
 PreallocationTools = "0.4.4-0.4"

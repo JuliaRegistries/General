@@ -1,6 +1,17 @@
 ["0.4.81-0"]
-BlockArrays = "0.16"
 DataFrames = "1"
-LazyArrays = "1"
 OnlineStatsBase = "1"
 Referenceables = "0.1"
+
+["0.4.81-0.4.82"]
+BlockArrays = "0.16"
+
+["0.4.81-0.4.83"]
+LazyArrays = "1"
+
+["0.4.83-0"]
+Adapt = "1-4"
+BlockArrays = ["0.16", "1"]
+
+["0.4.84-0"]
+LazyArrays = "1-2"

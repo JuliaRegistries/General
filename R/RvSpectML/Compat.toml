@@ -88,7 +88,7 @@ LsqFit = "0.11-0.12"
 Statistics = "1.4.0-1"
 julia = "1.4.0-1"
 
-["0.1.9-0"]
+["0.1.9-0.2.8"]
 JLD2 = "0.2-0.4"
 
 ["0.2-0"]
@@ -151,10 +151,16 @@ KernelFunctions = "0.9.7-0.10"
 ["0.2.7"]
 TemporalGPs = "0.3-0.6"
 
+["0.2.8"]
+StatsBase = "0.33-0.34"
+
 ["0.2.8-0"]
 Interpolations = "0.12-0.15"
 Polynomials = "1-4"
 Statistics = "1"
-StatsBase = "0.33-0.34"
 TemporalGPs = "0.6-0.6.7"
 julia = "1.6.0-1"
+
+["0.2.9-0"]
+JLD2 = "0.2-0.5"
+StatsBase = "0.33-0.35"

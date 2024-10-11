@@ -1,6 +1,5 @@
 [0]
 DocStringExtensions = "0.8-0.9"
-Setfield = ["0.8", "1"]
 
 ["0-0.1.10"]
 DiffEqBase = "6"
@@ -15,14 +14,20 @@ ArrayInterfaceCore = "0.1"
 Lazy = "0.15"
 julia = "1.6.0-1"
 
+["0-0.3.9"]
+Setfield = ["0.8", "1"]
+
 ["0.1.13-0.3.7"]
 Tricks = "0.1.6-0.1"
 
-["0.1.16-0"]
+["0.1.16-0.3.9"]
 StaticArraysCore = "1"
 
 ["0.1.22-0"]
 ArrayInterface = "7"
+
+["0.3.10-0"]
+Accessors = "0.1"
 
 ["0.3.7-0"]
 LinearAlgebra = "1.6.0-1"

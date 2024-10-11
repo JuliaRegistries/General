@@ -44,11 +44,11 @@ jobs:
       - name: Print env variable NEED_MERGE_TOKEN
         run: echo "NEED_MERGE_TOKEN=$NEED_MERGE_TOKEN"
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v3.3.0
-      - uses: julia-actions/setup-julia@780022b48dfc0c2c6b94cfee6a9284850107d037 # v2.3.0
+      - uses: julia-actions/setup-julia@512e2ab44f5848ea62bddd21d1ee906e989b0360 # v2.4.0
         with:
           version: ${{ matrix.version }}
       - name: Cache artifacts
-        uses: julia-actions/cache@580d2b69d895343992af2cbad49c32a0149c2cde # v2.0.1
+        uses: julia-actions/cache@8608484607cba0bdb5437a7bad85d6502499d029 # v2.0.4
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes --project=.ci/ {0}
         id: manifest_version
@@ -106,11 +106,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v3.3.0
-      - uses: julia-actions/setup-julia@780022b48dfc0c2c6b94cfee6a9284850107d037 # v2.3.0
+      - uses: julia-actions/setup-julia@512e2ab44f5848ea62bddd21d1ee906e989b0360 # v2.4.0
         with:
           version: '1.9'
       - name: Cache artifacts
-        uses: julia-actions/cache@580d2b69d895343992af2cbad49c32a0149c2cde # v2.0.1
+        uses: julia-actions/cache@8608484607cba0bdb5437a7bad85d6502499d029 # v2.0.4
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes --project=.ci/ {0}
         id: manifest_version

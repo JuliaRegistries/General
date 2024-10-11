@@ -6,7 +6,6 @@ Literate = "2"
 Metis = "1"
 OffsetArrays = "1"
 PrettyTables = "2"
-Tables = "1"
 julia = "1"
 
 ["0-0.1"]
@@ -21,14 +20,19 @@ StatsBase = "0.33"
 Documenter = "0.27"
 Revise = "3"
 
+["0-0.3.4"]
+Tables = "1"
+
 ["0.2-0"]
-DataFrames = "1"
 Plots = "1"
 
 ["0.2-0.3.1"]
 DifferentialEquations = "7"
 
-["0.3.1-0"]
+["0.2-0.3.4"]
+DataFrames = "1"
+
+["0.3.1-0.3.4"]
 StatsBase = "0.34"
 
 ["0.3.2-0"]

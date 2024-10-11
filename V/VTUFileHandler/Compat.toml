@@ -1,9 +1,9 @@
 [0]
+TranscodingStreams = "0.9.6-0.9"
 XMLParser = "0.1.4-0.1"
 
 [0-1]
 CodecZlib = "0.7"
-TranscodingStreams = "0.9.6-0.9"
 julia = "1"
 
 [1]
@@ -15,3 +15,9 @@ Printf = "1"
 StaticArrays = "1.4.4-1"
 Test = "1"
 XMLParser = "0.2.1-0.2"
+
+["1.0.0"]
+TranscodingStreams = "0.9.6-0.9"
+
+["1.0.1-1"]
+TranscodingStreams = "0.9.6-0.11"

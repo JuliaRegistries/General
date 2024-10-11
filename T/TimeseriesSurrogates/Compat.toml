@@ -90,7 +90,7 @@ Interpolations = ["0.12-0.13", "1"]
 ["2.0.1-2.7.0"]
 Interpolations = ["0.12-0.14", "1"]
 
-["2.1-2"]
+["2.1-2.7.1"]
 StateSpaceSets = "1"
 
 ["2.3-2"]
@@ -105,8 +105,13 @@ StatsBase = ["0.32-0.34", "1"]
 ["2.5.1-2.6.3"]
 Statistics = "1.9.0-1"
 
-["2.6.1-2"]
+["2.6.1-2.7.1"]
 Wavelets = "0.8-0.10"
 
 ["2.7.1-2"]
 Interpolations = ["0.12-0.15", "1"]
+
+["2.7.2-2"]
+StateSpaceSets = "2"
+Statistics = "1"
+Wavelets = "0.9-0.10"

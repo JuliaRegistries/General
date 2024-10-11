@@ -10,7 +10,6 @@ MacroTools = "0.5.13-0.5"
 MuladdMacro = "0.2.4-0.2"
 OrdinaryDiffEqCore = "1.1.0-1"
 OrdinaryDiffEqDifferentiation = ["0.0.0", "1"]
-OrdinaryDiffEqNonlinearSolve = ["0.0.0", "1"]
 Polyester = "0.7.16-0.7"
 PrecompileTools = "1.2.1-1"
 Preferences = "1.4.3-1"
@@ -18,3 +17,6 @@ RecursiveArrayTools = "3.27.0-3"
 Reexport = "1.2.2-1"
 Static = "1.1.1-1"
 julia = "1.10.0-1"
+
+["1-1.1"]
+OrdinaryDiffEqNonlinearSolve = ["0.0.0", "1"]

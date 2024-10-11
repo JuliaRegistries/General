@@ -33,16 +33,18 @@ WinchModels = "7dcfa46b-7979-4771-bbf4-0aee0da42e1f"
 ["0.4.5-0"]
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 
-["0.5.10-0"]
+["0.5.10-0.6.5"]
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 
 ["0.5.2-0"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["0.6.4-0"]
-BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+
+["0.6.4-0.6.5"]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 
 ["0.6.5-0"]
 DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
@@ -50,3 +52,8 @@ ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 SteadyStateDiffEq = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
 SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
 Timers = "21f18d07-b854-4dab-86f0-c15a3821819a"
+
+["0.6.6-0"]
+OrdinaryDiffEqBDF = "6ad6398a-0878-4a85-9266-38940aa047c8"
+OrdinaryDiffEqCore = "bbf590c4-e513-4bbe-9b18-05decba2e5d8"
+OrdinaryDiffEqSDIRK = "2d112036-d095-4a1e-ab9a-08536f3ecdbf"

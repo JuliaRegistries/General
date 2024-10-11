@@ -81,8 +81,10 @@ Plots = "1.40.3"
 Plots = "1.40.3-1.40"
 
 ["0.3.10-0"]
-KiteUtils = "0.6.16-0.6"
 julia = "1.10.0-1"
+
+["0.3.10-0.3"]
+KiteUtils = "0.6.16-0.6"
 
 ["0.3.10-0.3.11"]
 KiteControllers = "0.2.6-0.2"
@@ -92,15 +94,24 @@ KiteModels = "0.5.16-0.5"
 
 ["0.3.12-0"]
 GLMakie = "0.10"
+
+["0.3.12-0.3"]
 KiteControllers = "0.2.7-0.2"
 
-["0.3.13-0"]
+["0.3.13-0.3"]
 KiteModels = "0.5"
 KitePodModels = "0.3.1"
 
-["0.3.7-0"]
+["0.3.7-0.3"]
 ControlPlots = "0.0.12"
 
 ["0.3.7-0.3.9"]
 KiteControllers = "0.2.3-0.2"
 KiteModels = "0.5.14-0.5"
+
+["0.4-0"]
+ControlPlots = "0.1.6-0.1"
+KiteControllers = "0.2.10-0.2"
+KiteModels = "0.6"
+KitePodModels = "0.3.3"
+KiteUtils = "0.7"

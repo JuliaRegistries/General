@@ -32,7 +32,7 @@ AbstractAlgebra = "0.23-0.25"
 ["0.2.5-0.2.7"]
 AbstractAlgebra = "0.23-0.26"
 
-["0.2.7-0"]
+["0.2.7-0.7"]
 julia = "1.6.0-1"
 
 ["0.2.8-0.3.0"]
@@ -62,7 +62,7 @@ MultivariatePolynomials = "0.5"
 ["0.4.1-0.7.0"]
 MultivariatePolynomials = "0.4-0.5"
 
-["0.4.3-0"]
+["0.4.3-0.7"]
 ExprTools = "0.1"
 
 ["0.4.4-0.4"]
@@ -70,16 +70,18 @@ AbstractAlgebra = "0.23-0.32"
 
 ["0.5-0"]
 PrecompileTools = "1"
+
+["0.5-0.7"]
 TimerOutputs = "0.5"
 
 ["0.5.0"]
 AbstractAlgebra = "0.23-0.33"
 
-["0.5.1-0"]
-PrettyTables = "2"
-
 ["0.5.1-0.5"]
 AbstractAlgebra = "0.23-0.34"
+
+["0.5.1-0.7"]
+PrettyTables = "2"
 
 ["0.6-0"]
 Atomix = "0.1"
@@ -92,12 +94,12 @@ Nemo = "0.38.3-0.38"
 AbstractAlgebra = "0.34-0.35"
 Nemo = "0.38.3-0.39"
 
-["0.6.4-0"]
-HostCPUFeatures = "0.1"
-
 ["0.6.4-0.6"]
 AbstractAlgebra = "0.34-0.36"
 Nemo = "0.38.3-0.40"
+
+["0.6.4-0.8.0"]
+HostCPUFeatures = "0.1"
 
 ["0.7.0"]
 AbstractAlgebra = "0.34-0.37"
@@ -114,7 +116,12 @@ MultivariatePolynomials = "0.5"
 AbstractAlgebra = "0.40"
 Nemo = "0.43"
 
-["0.7.5-0"]
+["0.7.5-0.7"]
 AbstractAlgebra = "0.41"
 MultivariatePolynomials = "0.5.6-0.5"
 Nemo = "0.45.4-0.45"
+
+["0.8-0"]
+AbstractAlgebra = "0.41-0.43"
+Nemo = "0.45.4-0.47"
+julia = "1.10.0-1"

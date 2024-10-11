@@ -70,11 +70,13 @@ SciMLBase = "1.90.0-1"
 TaylorSeries = "0.10-0.14"
 
 ["0.11.2-0"]
-OrdinaryDiffEq = "6.52.0-6"
 PrecompileTools = "1"
 
 ["0.11.2-0.14"]
 TaylorSeries = "0.10-0.15"
+
+["0.11.2-0.16.0"]
+OrdinaryDiffEq = "6.52.0-6"
 
 ["0.12"]
 FastGaussQuadrature = "0.5"
@@ -103,6 +105,8 @@ RecursiveArrayTools = "2-3"
 FillArrays = "1.9.0-1"
 FiniteHorizonGramians = "0.2"
 MatrixEquations = "2"
+
+["0.14-0.16.0"]
 PSDMatrices = "0.4.7-0.4"
 julia = "1.9.0-1"
 
@@ -118,8 +122,20 @@ Printf = "1"
 DiffEqCallbacks = "2.36.0-3"
 FastBroadcast = "0.2-0.3"
 Random = "1"
+
+["0.16.0"]
 TaylorIntegration = "0.8-0.15"
 TaylorSeries = "0.10-0.17"
+
+["0.16.1-0"]
+OrdinaryDiffEqCore = "1.3.0-1"
+OrdinaryDiffEqDifferentiation = "1.1.0-1"
+OrdinaryDiffEqRosenbrock = "1.1.0-1"
+OrdinaryDiffEqVerner = "1.1.0-1"
+PSDMatrices = "0.5"
+TaylorIntegration = "0.8-0.16"
+TaylorSeries = "0.10-0.18"
+julia = "1.10.0-1"
 
 ["0.2-0.6"]
 TaylorIntegration = "0.8"

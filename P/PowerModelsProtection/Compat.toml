@@ -33,11 +33,11 @@ JuMP = "0.21-0.22"
 ["0.4.2-0.5.0"]
 Graphs = "1.4.1-1.4"
 
-["0.5-0"]
-PowerModels = "0.19.1-0.19"
-
 ["0.5-0.5.2"]
 PowerModelsDistribution = "0.13.3-0.14"
+
+["0.5-0.6"]
+PowerModels = "0.19.1-0.19"
 
 ["0.5.0"]
 InfrastructureModels = "0.7.2-0.7"
@@ -47,12 +47,28 @@ JuMP = "0.22"
 JuMP = "0.22-0.23"
 
 ["0.5.1-0"]
-Graphs = "1.4.1-1"
-InfrastructureModels = "0.7.3-0.7"
 julia = "1.6.0-1"
 
-["0.5.2-0"]
+["0.5.1-0.6"]
+Graphs = "1.4.1-1"
+InfrastructureModels = "0.7.3-0.7"
+
+["0.5.2-0.6"]
 JuMP = ["0.22-0.23", "1"]
 
-["0.5.3-0"]
+["0.5.3-0.6"]
 PowerModelsDistribution = "0.13.3-0.15"
+
+["0.6"]
+Ipopt = ["0.9", "1.0.2-1"]
+
+["0.6-0"]
+JSON = "0.21"
+
+["0.7-0"]
+Graphs = "1.9.0-1"
+InfrastructureModels = "0.7.8-0.7"
+Ipopt = "1"
+JuMP = "1.23.2-1"
+PowerModels = "0.21"
+PowerModelsDistribution = "0.16"

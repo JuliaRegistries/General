@@ -9,9 +9,19 @@ ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 PolyesterForwardDiff = "98d1487c-24ca-40b6-b7ab-df2af84e126b"
 ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
-Tapir = "07d77754-e150-4737-8c94-cd238a1fb45b"
 Tracker = "9f7883ad-71c0-57eb-9f7f-b5c9e6d3789c"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0-0.3.3"]
 SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
+
+["0-0.5"]
+Tapir = "07d77754-e150-4737-8c94-cd238a1fb45b"
+
+["0.6-0"]
+Mooncake = "da2b9cff-9c12-43a0-ae48-6db2b0edb7d6"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+SparseMatrixColorings = "0a514795-09f3-496d-8182-132a7b665d35"
+
+["0.6.10-0"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"

@@ -6,6 +6,14 @@ Random = "1"
 Reexport = "1"
 SparseArrays = "1"
 StructArrays = "0.6"
-Tensorial = "0.14"
 WriteVTK = "1.18.0-1"
 julia = "1.9.0-1"
+
+["0-0.1.8"]
+Tensorial = "0.14"
+
+["0.1.11-0"]
+Tensorial = "0.14-0.16"
+
+["0.1.9-0.1.10"]
+Tensorial = "0.14-0.15"

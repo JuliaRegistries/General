@@ -99,9 +99,9 @@ uuid = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
 [[deps.JLLWrappers]]
 deps = ["Artifacts", "Preferences"]
-git-tree-sha1 = "7e5d6779a1e09a36db2a7b6cff50942a0a7d0fca"
+git-tree-sha1 = "f389674c99bfcde17dc57454011aa44d5a260a40"
 uuid = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-version = "1.5.0"
+version = "1.6.0"
 
 [[deps.JSON]]
 deps = ["Dates", "Mmap", "Parsers", "Unicode"]
@@ -170,9 +170,9 @@ uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 
 [[deps.Mocking]]
 deps = ["Compat", "ExprTools"]
-git-tree-sha1 = "ead0dbb33b6808578c385ffaab20d9b57053661b"
+git-tree-sha1 = "2c140d60d7cb82badf06d8783800d0bcd1a7daa2"
 uuid = "78c3b35d-d492-501b-9361-3d52fe80e533"
-version = "0.8.0"
+version = "0.8.1"
 
 [[deps.MozillaCACerts_jll]]
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
@@ -195,9 +195,9 @@ version = "1.4.3"
 
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
-git-tree-sha1 = "a028ee3cb5641cccc4c24e90c36b0a4f7707bdf5"
+git-tree-sha1 = "7493f61f55a6cce7325f197443aa80d32554ba10"
 uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
-version = "3.0.14+0"
+version = "3.0.15+1"
 
 [[deps.Parsers]]
 deps = ["Dates", "PrecompileTools", "UUIDs"]
@@ -266,9 +266,9 @@ version = "1.2.1"
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 
 [[deps.SimpleBufferStream]]
-git-tree-sha1 = "874e8867b33a00e784c8a7e4b60afe9e037b74e1"
+git-tree-sha1 = "f305871d2f381d21527c770d4788c06c097c9bc1"
 uuid = "777ac1f9-54b0-4bf8-805c-2214025038e7"
-version = "1.1.0"
+version = "1.2.0"
 
 [[deps.Sockets]]
 uuid = "6462fe0b-24de-5631-8697-dd941f90decc"
@@ -317,9 +317,9 @@ version = "1.0.0"
 
 [[deps.TZJData]]
 deps = ["Artifacts"]
-git-tree-sha1 = "1607ad46cf8d642aa779a1d45af1c8620dbf6915"
+git-tree-sha1 = "36b40607bf2bf856828690e097e1c799623b0602"
 uuid = "dc5dba14-91b3-4cab-a142-028a31da12f7"
-version = "1.2.0+2024a"
+version = "1.3.0+2024b"
 
 [[deps.Tar]]
 deps = ["ArgTools", "SHA"]
@@ -332,9 +332,9 @@ uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [[deps.TimeZones]]
 deps = ["Dates", "Downloads", "InlineStrings", "Mocking", "Printf", "RecipesBase", "Scratch", "TZJData", "Unicode", "p7zip_jll"]
-git-tree-sha1 = "b92aebdd3555f3a7e3267cf17702033c2814ef48"
+git-tree-sha1 = "8323074bc977aa85cf5ad71099a83ac75b0ac107"
 uuid = "f269a46b-ccf7-5d73-abea-4c690281aa53"
-version = "1.18.0"
+version = "1.18.1"
 
 [[deps.TranscodingStreams]]
 git-tree-sha1 = "e84b3a11b9bece70d14cce63406bbc79ed3464d2"
@@ -377,9 +377,9 @@ version = "5.1.1+0"
 
 [[deps.libsodium_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
-git-tree-sha1 = "848ab3d00fe39d6fbc2a8641048f8f272af1c51e"
+git-tree-sha1 = "f76d682d87eefadd3f165d8d9fda436464213142"
 uuid = "a9144af2-ca23-56d9-984f-0d03f7b5ccf8"
-version = "1.0.20+0"
+version = "1.0.20+1"
 
 [[deps.licensecheck_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]

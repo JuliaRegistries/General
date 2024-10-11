@@ -18,9 +18,16 @@ Parameters = "0.12"
 Scanf = "0.5"
 julia = "1.6.0-1"
 
-["0.8-0"]
-Adapt = "3-4"
+["0.8"]
 CUDA = "3-5"
 KomaMRIBase = "0.8"
 Pkg = "1.4.0-1"
 julia = "1.9.0-1"
+
+["0.8-0"]
+Adapt = "3-4"
+
+["0.9-0"]
+KernelAbstractions = "0.9"
+KomaMRIBase = "0.9"
+julia = "1.10.0-1"

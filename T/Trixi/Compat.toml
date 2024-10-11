@@ -339,7 +339,6 @@ HDF5 = "0.16.10-0.17"
 LoopVectorization = "0.12.151-0.12"
 Octavian = "0.3.21-0.3"
 OffsetArrays = "1.12.0-1"
-StartUpDG = "0.17.7-0.17"
 Static = "0.8.7-0.8"
 StaticArrays = "1.5.0-1"
 StrideArrays = "0.1.26-0.1"
@@ -348,6 +347,9 @@ Triangulate = "2.2.0-2"
 
 ["0.6.10-0.7.3"]
 Setfield = "1"
+
+["0.6.10-0.8.8"]
+StartUpDG = "0.17.7-0.17"
 
 ["0.6.2-0"]
 P4est = "0.4.9-0.4"
@@ -388,3 +390,8 @@ TrixiBase = "0.1.3-0.1"
 
 ["0.7.5-0"]
 Polyester = "0.7.10-0.7"
+
+["0.8.9-0"]
+Accessors = "0.1.12-0.1"
+RecursiveArrayTools = "2.38.10-2"
+StartUpDG = ["0.17.7-0.17", "1.1.5-1"]
