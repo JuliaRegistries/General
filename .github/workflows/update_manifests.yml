@@ -30,6 +30,8 @@ jobs:
           - '1.8'
           - '1.9'
           - '1.10'
+          - '1.11'
+          # - '1.12' # Uncomment this line once Julia 1.12 is released
           # - 'nightly' # TODO: uncomment this line
     steps:
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v3.3.0
