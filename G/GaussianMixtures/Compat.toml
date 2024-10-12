@@ -30,6 +30,9 @@ julia = "1"
 DelimitedFiles = "1"
 Statistics = "1"
 
+["0.3.10-0"]
+StatsBase = "0.33-0.34"
+
 ["0.3.2"]
 Arpack = "0.4"
 Clustering = "0.13"
@@ -47,9 +50,6 @@ ScikitLearnBase = "0.5"
 ["0.3.2-0.3.6"]
 Compat = "3.6.0-3"
 
-["0.3.3-0"]
-StatsBase = "0.33"
-
 ["0.3.3-0.3.4"]
 Arpack = "0.3-0.4"
 Distributions = "0.23-0.24"
@@ -62,6 +62,9 @@ Clustering = "0.14"
 
 ["0.3.3-0.3.8"]
 RDatasets = "0.6-0.7"
+
+["0.3.3-0.3.9"]
+StatsBase = "0.33"
 
 ["0.3.5-0"]
 Arpack = "0.3-0.5"
