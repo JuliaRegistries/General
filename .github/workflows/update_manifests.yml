@@ -21,7 +21,7 @@ jobs:
       fail-fast: false
       matrix:
         version:
-          # Keep this list in sync with `ci.yml`.
+          # Keep this list in sync with `registry-consistency-ci-cron.yml`.
           - '1.3'
           - '1.4'
           - '1.5'
