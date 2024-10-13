@@ -148,7 +148,6 @@ ComponentArrays = "0.15"
 DiffEqCallbacks = "3"
 Ipopt = "1"
 MCMCChains = "6"
-ModelingToolkit = "9"
 Optim = "1"
 Optimization = "3"
 OrdinaryDiffEqBDF = "1"
@@ -160,3 +159,10 @@ SBMLImporter = "2.4.0-2"
 SciMLSensitivity = "7.60.0-7"
 Setfield = "1.1.0-1"
 StyledStrings = "1"
+
+["3-3.1"]
+ModelingToolkit = "9"
+
+["3.2-3"]
+Distributed = "1"
+ModelingToolkit = "9.40.0-9"
