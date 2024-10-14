@@ -23,9 +23,11 @@ Colors = "0.12"
 PackageExtensionCompat = "1"
 
 ["0.4-0"]
-BaseDirs = "1"
 HypertextLiteral = "0.9.4-0.9"
 julia = "1.9.0-1"
+
+["0.4-0.5"]
+BaseDirs = "1"
 
 ["0.4.2-0"]
 Dates = "1.9.0-1"
@@ -37,3 +39,8 @@ TOML = "1"
 
 ["0.5-0"]
 Artifacts = "1"
+
+["0.6-0"]
+PrecompileTools = "1.2.1-1"
+ScopedValues = "1.2.1-1"
+Scratch = "1"
