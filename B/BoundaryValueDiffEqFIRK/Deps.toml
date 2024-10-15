@@ -3,7 +3,6 @@ ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
-BoundaryValueDiffEq = "764a87c0-6b3e-53db-9096-fe964310641d"
 ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 FastAlmostBandedMatrices = "9d29842c-ecb8-4973-b1e9-a27b1157504e"
@@ -22,3 +21,11 @@ SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
+
+["1.0.0"]
+BoundaryValueDiffEq = "764a87c0-6b3e-53db-9096-fe964310641d"
+
+["1.0.1-1"]
+BoundaryValueDiffEqCore = "56b672f2-a5fe-4263-ab2d-da677488eb3a"
+LineSearch = "87fe0de2-c867-4266-b59a-2f0a94fc965b"
+LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
