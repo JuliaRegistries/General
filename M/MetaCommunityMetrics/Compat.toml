@@ -31,22 +31,38 @@ StatsBase = "0.33"
 julia = "1"
 
 ["0.1.1-0"]
-CSV = ["0.10", "1"]
-Clustering = ["0.15", "1"]
-DataFrames = "1"
 SortingAlgorithms = "1.1.0-1"
 Statistics = "1"
 
+["0.1.1-0.1.4"]
+CSV = ["0.10", "1"]
+Clustering = ["0.15", "1"]
+DataFrames = "1"
+
 ["0.1.2-0"]
+julia = "1.6.0-1"
+
+["0.1.2-0.1.4"]
 DataStructures = ["0.18", "1"]
 Distributions = ["0.16", "0.25.111-0.25"]
 SpecialFunctions = "1-2"
 StatsBase = ["0.24", "0.34.3-0.34"]
-julia = "1.6.0-1"
 
 ["0.1.3"]
 Distances = ["0.10", "1"]
 
-["0.1.4-0"]
+["0.1.4"]
 Distances = ["0.8", "1"]
+
+["0.1.4-0"]
 ProgressMeter = "1"
+
+["0.1.5-0"]
+CSV = "0.10"
+Clustering = "0.15"
+DataFrames = "0.11.7-0.11"
+DataStructures = "0.9"
+Distances = "0.7"
+Distributions = "0.16"
+SpecialFunctions = "1"
+StatsBase = "0.24"
