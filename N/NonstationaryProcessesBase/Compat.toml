@@ -5,7 +5,6 @@ FFTW = "1"
 KernelDensity = "0.6"
 Reexport = "1"
 Requires = "1.1.0-1"
-Setfield = ["0.7", "1"]
 StaticArrays = "1.1.0-1"
 Tullio = "0.2-0.3"
 
@@ -16,10 +15,22 @@ SciMLBase = "1"
 StatsBase = "0.33"
 julia = "1.6-1.7"
 
+["0-0.2.0"]
+Setfield = ["0.7", "1"]
+
 ["0.2-0"]
 DelimitedFiles = "1.9.0-1"
+StatsBase = "0.33-0.34"
+
+["0.2.0"]
 DimensionalData = "0.18-0.25"
 SciMLBase = "1-2"
-StatsBase = "0.33-0.34"
 TimeseriesTools = "0.2"
 julia = "1.6.0-1"
+
+["0.2.1-0"]
+DimensionalData = "0.27-0.28"
+SciMLBase = "2"
+Setfield = "1"
+TimeseriesTools = "0.5"
+julia = "1.10.0-1"
