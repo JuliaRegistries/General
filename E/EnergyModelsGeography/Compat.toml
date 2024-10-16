@@ -11,14 +11,21 @@ TimeStruct = "0.7"
 julia = "1.6.0-1"
 
 ["0.10-0"]
-EnergyModelsBase = "0.8"
 SparseVariables = "0.7.3-0.7"
+
+["0.10.0"]
+EnergyModelsBase = "0.8"
 julia = "1.9.0-1"
+
+["0.10.1-0"]
+EnergyModelsBase = "0.8.1-0.8"
+TimeStruct = "0.9"
+julia = "1.10.0-1"
 
 ["0.8.3-0.8.4"]
 EnergyModelsBase = "0.6.7-0.6"
 
-["0.8.5-0"]
+["0.8.5-0.10.0"]
 TimeStruct = "0.8"
 
 ["0.8.5-0.9"]
