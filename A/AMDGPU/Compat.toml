@@ -276,5 +276,11 @@ GPUCompiler = "0.26-0.27"
 LLVM = "8.1.0-8"
 
 ["1.0.2-1"]
-GPUCompiler = "0.27"
 LLVM = "9"
+
+["1.0.2-1.0.4"]
+GPUCompiler = "0.27"
+
+["1.0.5-1"]
+AcceleratedKernels = "0.1"
+GPUCompiler = ["0.27", "1"]
