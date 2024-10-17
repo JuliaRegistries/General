@@ -11,10 +11,15 @@ DynamicPPL = "0.23-0.27"
 MCMCChains = "6"
 
 ["0.4.3-0"]
-DynamicPPL = "0.23-0.28"
 ForwardDiff = "0.10"
 HypothesisTests = "0.11"
 ReverseDiff = "1"
 
+["0.4.3-0.4.5"]
+DynamicPPL = "0.23-0.28"
+
 ["0.4.5-0"]
 Enzyme = "0.12"
+
+["0.4.6-0"]
+DynamicPPL = ["0.23-0.28", "0.30"]
