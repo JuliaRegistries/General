@@ -230,13 +230,13 @@ Quadrature = "1.5.0-2"
 ["4.9-4"]
 ArrayInterface = "3.1.0-6"
 
-[5]
-UnPack = "1"
-
 ["5-5.14"]
 ChainRulesCore = "1"
 ModelingToolkit = "8"
 Reexport = "1"
+
+["5-5.16"]
+UnPack = "1"
 
 ["5-5.3"]
 ArrayInterfaceCore = "0.1.13-0.1"
@@ -264,7 +264,6 @@ ComponentArrays = "0.13"
 
 ["5.10-5"]
 Cubature = "1.5.0-1"
-Optim = "1.7.8-1"
 QuasiMonteCarlo = "0.3.2-0.3"
 
 ["5.10-5.11"]
@@ -278,19 +277,23 @@ Statistics = "1"
 ["5.10-5.15"]
 Integrals = "4"
 
+["5.10-5.16"]
+Optim = "1.7.8-1"
+
 ["5.11"]
 OptimizationOptimisers = "0.1"
 
 ["5.11-5"]
-LinearAlgebra = "1"
 Random = "1"
+
+["5.11-5.16"]
+LinearAlgebra = "1"
 
 ["5.12"]
 DomainSets = "0.6"
 
 ["5.12-5"]
 Adapt = "4"
-DocStringExtensions = "0.9"
 
 ["5.12-5.14"]
 AdvancedHMC = "0.6"
@@ -300,7 +303,10 @@ Distributions = "0.25"
 Lux = "0.5"
 OptimizationOptimisers = "0.2"
 
-["5.13-5"]
+["5.12-5.16"]
+DocStringExtensions = "0.9"
+
+["5.13-5.16"]
 DomainSets = "0.6-0.7"
 
 ["5.15"]
@@ -312,29 +318,59 @@ Symbolics = "5.24.0-5"
 
 ["5.15-5"]
 AdvancedHMC = "0.6.1-0.6"
+Distributions = "0.25.107-0.25"
+ForwardDiff = "0.10.36-0.10"
+MonteCarloMeasurements = "1.1.0-1"
+Reexport = "1.2.0-1"
+RuntimeGeneratedFunctions = "0.5.12-0.5"
+Statistics = "1.10.0-1"
+julia = "1.10.0-1"
+
+["5.15-5.16"]
 ChainRulesCore = "1.21.0-1"
 ComponentArrays = "0.15.8-0.15"
 DiffEqNoiseProcess = "5.20.0-5"
-Distributions = "0.25.107-0.25"
-ForwardDiff = "0.10.36-0.10"
 Functors = "0.4.4-0.4"
 Lux = "0.5.22-0.5"
-MonteCarloMeasurements = "1.1.0-1"
 Optimization = "3.24.0-3"
 OptimizationOptimisers = "0.2.1-0.2"
-Reexport = "1.2.0-1"
-RuntimeGeneratedFunctions = "0.5.12-0.5"
 SciMLBase = "2.28.0-2"
-Statistics = "1.10.0-1"
 Zygote = "0.6.69-0.6"
-julia = "1.10.0-1"
 
-["5.16-5"]
+["5.16"]
 ArrayInterface = "7.9.0-7"
 Integrals = "4.4.0-4"
 ModelingToolkit = "9.9.0-9"
 SymbolicUtils = "1.5.0-1"
 Symbolics = "5.27.1-5"
+
+["5.17-5"]
+ADTypes = "1.9.0-1"
+ArrayInterface = "7.11.0-7"
+ChainRulesCore = "1.24.0-1"
+ComponentArrays = "0.15.16-0.15"
+ConcreteStructs = "0.2.3-0.2"
+DocStringExtensions = "0.9.3-0.9"
+DomainSets = "0.7"
+Functors = "0.4.12-0.4"
+Integrals = "4.5.0-4"
+IntervalSets = "0.7.10-0.7"
+LinearAlgebra = "1.10.0-1"
+Lux = "1.1.0-1"
+LuxCore = "1.0.1-1"
+MLDataDevices = "1.2.0-1"
+ModelingToolkit = "9.46.0-9"
+Optimisers = "0.3.3-0.3"
+Optimization = "4"
+OptimizationOptimisers = "0.3"
+Printf = "1.10.0-1"
+RecursiveArrayTools = "3.27.0-3"
+SciMLBase = "2.56.0-2"
+SymbolicIndexingInterface = "0.3.31-0.3"
+SymbolicUtils = "3.7.2-3"
+Symbolics = "6.14.0-6"
+WeightInitializers = "1.0.3-1"
+Zygote = "0.6.71-0.6"
 
 ["5.2-5.7"]
 ComponentArrays = "0.13.2-0.13"
