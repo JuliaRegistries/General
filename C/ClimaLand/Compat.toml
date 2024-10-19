@@ -2,7 +2,6 @@
 ArtifactWrappers = "0.2"
 Dates = "1"
 LinearAlgebra = "1"
-StaticArrays = "1"
 
 ["0-0.11"]
 CUDA = "5"
@@ -28,6 +27,9 @@ SciMLBase = "1-2"
 
 ["0-0.14.2"]
 Adapt = "3-4"
+
+["0-0.15.2"]
+StaticArrays = "1"
 
 ["0-0.8"]
 JLD2 = "0.4"
@@ -82,7 +84,6 @@ ClimaDiagnostics = "0.2.4-0.2"
 ["0.15-0"]
 ClimaComms = "0.6"
 ClimaDiagnostics = "0.2.5-0.2"
-ClimaUtilities = "0.1.6-0.1"
 DocStringExtensions = "0.9"
 NCDatasets = "0.13.1-0.14"
 SciMLBase = "2"
@@ -91,14 +92,22 @@ Thermodynamics = "0.12.4-0.12"
 ["0.15-0.15.1"]
 ClimaCore = "0.14"
 
+["0.15-0.15.2"]
+ClimaUtilities = "0.1.6-0.1"
+
 ["0.15.0"]
 SurfaceFluxes = "0.11"
 
 ["0.15.1-0"]
 SurfaceFluxes = "0.11-0.12"
 
-["0.15.2-0"]
+["0.15.2"]
 ClimaCore = "0.14.18-0.14"
+
+["0.15.3-0"]
+ClimaCore = "0.14.19-0.14"
+ClimaUtilities = "0.1.15-0.1"
+StaticArrays = "1.5.0-1"
 
 ["0.9-0"]
 julia = "1.9.0-1"
