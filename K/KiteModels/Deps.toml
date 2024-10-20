@@ -47,13 +47,20 @@ Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 
 ["0.6.5-0"]
-DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 SteadyStateDiffEq = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
 SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
 Timers = "21f18d07-b854-4dab-86f0-c15a3821819a"
 
+["0.6.5-0.6.6"]
+DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
+
 ["0.6.6-0"]
 OrdinaryDiffEqBDF = "6ad6398a-0878-4a85-9266-38940aa047c8"
 OrdinaryDiffEqCore = "bbf590c4-e513-4bbe-9b18-05decba2e5d8"
 OrdinaryDiffEqSDIRK = "2d112036-d095-4a1e-ab9a-08536f3ecdbf"
+
+["0.6.7-0"]
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+Xfoil = "19641d66-a62d-11e8-2441-8f57a969a9c4"
