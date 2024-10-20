@@ -20,11 +20,13 @@ Graphs = "1.9.0-1"
 MLStyle = "0.4"
 Plots = "1.35.3-1"
 StatsBase = "0.33-0.34"
-StringManipulation = "0.3"
-julia = "1.9-1.10"
 
 ["0.2-0.2.2"]
 GraphViz = "0.2"
+
+["0.2-0.2.3"]
+StringManipulation = "0.3"
+julia = "1.9-1.10"
 
 ["0.2.0"]
 AlgebraicRewriting = "0.2.1-0.3.1"
@@ -37,3 +39,7 @@ Catlab = "0.15.5-0.16.8"
 ["0.2.2-0"]
 AlgebraicRewriting = ["0.2.1-0.3.2", "0.4"]
 Catlab = "0.15.5-0.16"
+
+["0.2.4-0"]
+StringManipulation = "0.3-0.4"
+julia = "1.9-1.11"
