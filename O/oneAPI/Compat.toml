@@ -148,12 +148,22 @@ NEO_jll = "24.13.29138"
 Adapt = "4"
 CEnum = "0.4-0.5"
 GPUArrays = "10"
-GPUCompiler = "0.23-0.26"
 SPIRV_LLVM_Translator_unified_jll = "0.4"
 StaticArrays = "1"
+
+["1.5-1.6.0"]
+GPUCompiler = "0.23-0.26"
 oneAPI_Support_jll = "0.5"
 
 ["1.6-1"]
+julia = "1.10.0-1"
+
+["1.6.0"]
 LLVM = "6-8"
 NEO_jll = "24.22.29735"
-julia = "1.10.0-1"
+
+["1.6.1-1"]
+GPUCompiler = "0.23-0.27"
+LLVM = "6-9"
+NEO_jll = "24.26.30049"
+oneAPI_Support_jll = "0.6"

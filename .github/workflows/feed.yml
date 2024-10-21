@@ -10,10 +10,10 @@ jobs:
     if: ${{ github.event.label.name == 'new package' && github.repository == github.event.pull_request.head.repo.full_name }}
     runs-on: ubuntu-latest
     steps:
-    - uses: julia-actions/setup-julia@512e2ab44f5848ea62bddd21d1ee906e989b0360 # v2.4.0
+    - uses: julia-actions/setup-julia@9b79636afcfb07ab02c256cede01fe2db6ba808c # v2.6.0
       with:
         version: 1.6.2
-    - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v3.3.0
+    - uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4.2.1
     - name: Send to Slack
       shell: julia --color=yes {0}
       run: |
@@ -54,10 +54,10 @@ jobs:
     if: ${{ (github.event.label.name == 'new package' || github.event.label.name == 'zulip test') && github.repository == github.event.pull_request.head.repo.full_name }}
     runs-on: ubuntu-latest
     steps:
-    - uses: julia-actions/setup-julia@512e2ab44f5848ea62bddd21d1ee906e989b0360
+    - uses: julia-actions/setup-julia@9b79636afcfb07ab02c256cede01fe2db6ba808c
       with:
         version: 1.6.2
-    - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v2.3.4
+    - uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4.2.1
     - name: Collect Zulip info
       id: zulip
       shell: julia --color=yes {0}

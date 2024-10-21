@@ -1,10 +1,8 @@
 [7]
 ChainRulesCore = ["0.10.7-0.10", "1"]
-EllipsisNotation = "1"
 FiniteDiff = "2"
 ForwardDiff = "0.10"
 GPUArraysCore = "0.1"
-Parameters = "0.12"
 RandomNumbers = "1.5.3-1"
 
 ["7-7.13"]
@@ -53,6 +51,10 @@ Zygote = "0.6"
 ["7-7.6.2"]
 DiffEqOperators = "4.34.0-4"
 
+["7-7.68"]
+EllipsisNotation = "1"
+Parameters = "0.12"
+
 ["7.0"]
 DiffEqBase = "6.90.0-6"
 SciMLBase = "1.24.0-1"
@@ -99,7 +101,7 @@ SparseDiffTools = "1"
 ["7.25-7.33.0"]
 SciMLOperators = "0.1-0.2"
 
-["7.26-7"]
+["7.26-7.68"]
 TruncatedStacktraces = "1.2.0-1"
 
 ["7.28-7.30"]
@@ -144,7 +146,7 @@ ADTypes = "0.1-0.2"
 ["7.38-7.51"]
 DiffEqCallbacks = "2.29.0-2"
 
-["7.39-7"]
+["7.39-7.68"]
 SparseDiffTools = "2.5.0-2"
 
 ["7.4-7.20"]
@@ -214,24 +216,26 @@ StochasticDiffEq = "6.63.2-6"
 ["7.56.0"]
 DiffEqCallbacks = "2.34.0-3"
 
-["7.56.1-7"]
-DiffEqCallbacks = "3.3.0-3"
-
 ["7.56.1-7.57"]
 SciMLBase = "2.28.0-2"
 
 ["7.56.1-7.58"]
 DiffEqBase = "6.147.1-6"
 
-["7.57-7"]
+["7.56.1-7.68"]
+DiffEqCallbacks = "3.3.0-3"
+
+["7.57-7.67"]
 Enzyme = "0.12"
 
 ["7.58-7"]
-ADTypes = ["0.1-0.2", "1"]
 RecursiveArrayTools = "3.18.1-3"
 
 ["7.58-7.61"]
 SciMLBase = "2.37.0-2"
+
+["7.58-7.68"]
+ADTypes = ["0.1-0.2", "1"]
 
 ["7.59-7"]
 DiffEqBase = "6.151.1-6"
@@ -260,6 +264,16 @@ SymbolicIndexingInterface = "0.3.26-0.3"
 ["7.66-7"]
 Accessors = "0.1.36-0.1"
 SciMLBase = "2.51.4-2"
+
+["7.68"]
+Enzyme = "0.12-0.13"
+
+["7.69-7"]
+ADTypes = "1.9.0-1"
+DiffEqCallbacks = "4"
+Enzyme = "0.13"
+FastBroadcast = "0.3.5-0.3"
+SciMLJacobianOperators = "0.1"
 
 ["7.9-7"]
 PreallocationTools = "0.4.4-0.4"

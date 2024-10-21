@@ -1,9 +1,7 @@
 [0]
-CartesianGrids = "3e975e5d-2cf8-4263-9573-8460aaf534d9"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-RigidBodyTools = "befc5f09-81d5-499c-a4b2-d0464ba9f9c8"
 
 ["0-0.2"]
 ConstrainedSystems = "c257ce95-4918-4279-a47c-50fdbcb74a04"
@@ -12,9 +10,17 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
+["0-0.3"]
+CartesianGrids = "3e975e5d-2cf8-4263-9573-8460aaf534d9"
+RigidBodyTools = "befc5f09-81d5-499c-a4b2-d0464ba9f9c8"
+
 ["0.2.2-0"]
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 
 ["0.3-0"]
 LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
+
+["0.4-0"]
+ImmersedLayers = "cdc13194-334e-4e1c-bc8d-fc3a28509c85"
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"

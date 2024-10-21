@@ -96,11 +96,11 @@ DataStructures = "0.0.0-0.17"
 ["6.10.1-6.12.2"]
 ChainRulesCore = "0.4"
 
-["6.100-6"]
-Tricks = "0.1.6-0.1"
-
 ["6.100-6.108"]
 ArrayInterfaceCore = "0.1.19-0.1"
+
+["6.100-6.157"]
+Tricks = "0.1.6-0.1"
 
 ["6.103"]
 SciMLBase = "1.54.1-1"
@@ -219,13 +219,15 @@ LinearAlgebra = "1.9.0-1"
 Logging = "1.9.0-1"
 Markdown = "1.9.0-1"
 Printf = "1.9.0-1"
-julia = "1.9.0-1"
 
 ["6.137-6.145.2"]
 SciMLBase = "2.7.0-2"
 
 ["6.137-6.151"]
 SparseArrays = "1.9.0-1"
+
+["6.137-6.157"]
+julia = "1.9.0-1"
 
 ["6.14-6.25"]
 RecipesBase = "0.7-0.8"
@@ -262,18 +264,29 @@ FastBroadcast = "0.2-0.3"
 Static = ["0.7-0.8", "1"]
 
 ["6.152-6"]
-EnzymeCore = "0.7"
 FastBroadcast = "0.3"
 RecursiveArrayTools = "3"
 SciMLOperators = "0.3"
 Setfield = "1"
 Static = "1"
 
+["6.152-6.155.1"]
+EnzymeCore = "0.7"
+
 ["6.155-6"]
 SciMLStructures = "1.5.0-1"
 
-["6.155.1-6"]
+["6.155.1-6.156"]
 SciMLBase = "2.53.0-2"
+
+["6.155.2-6"]
+EnzymeCore = "0.7-0.8"
+
+["6.157-6"]
+SciMLBase = "2.56.0-2"
+
+["6.158-6"]
+julia = "1.10.0-1"
 
 ["6.18-6.34"]
 ChainRulesCore = "0.4-0.7"

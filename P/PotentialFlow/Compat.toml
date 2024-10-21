@@ -26,7 +26,6 @@ FFTW = "1"
 ["0.2-0"]
 DiffRules = "1"
 MacroTools = "0.5.6-0.5"
-MappedArrays = "0.3"
 PlotUtils = "1"
 RecipesBase = "1"
 
@@ -42,6 +41,9 @@ Reexport = "0.2"
 Interpolations = "0.12.10-0.13"
 SchwarzChristoffel = "0.1.7-0.1"
 
+["0.2-0.2.8"]
+MappedArrays = "0.3"
+
 ["0.2.4"]
 ForwardDiff = "0.10.12-0.10.19"
 
@@ -50,19 +52,31 @@ DocStringExtensions = "0.8"
 
 ["0.2.5-0"]
 ColorTypes = "0.10-0.11"
-ForwardDiff = "0.0.0-0.10.19"
 Reexport = ["0.2", "1"]
+
+["0.2.5-0.2.8"]
+ForwardDiff = "0.0.0-0.10.19"
 
 ["0.2.6"]
 SchwarzChristoffel = "0.1.11-0.1"
 
 ["0.2.6-0"]
 DocStringExtensions = "0.8-0.9"
+
+["0.2.6-0.2.8"]
 Interpolations = "0.12.10-0.14"
 
 ["0.2.7-0"]
 SchwarzChristoffel = "0.1.13-0.1"
+
+["0.2.7-0.2.8"]
 julia = "1.6.0-1"
 
 ["0.2.8-0"]
 UnPack = "1"
+
+["0.2.9-0"]
+ForwardDiff = "0.10"
+Interpolations = "0.12.10-0.15"
+MappedArrays = "0.3-0.4"
+julia = "1.8.0-1"

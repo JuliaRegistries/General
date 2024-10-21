@@ -328,6 +328,10 @@ In this case, the release should be completely deleted from the registry and a n
 issued. This is a drastic measure that breaks reproducibility guarantees and has never been performed as of 
 April, 2024.
 
+### My new package registration PR fails one or more AutoMerge checks because of reason [X]. However, the General registry already contains a package PastPackage that does thing [X]. Will registry maintainers consider this PastPackage when they evaluate my new package registration PR?
+
+As a general rule, no. If your package registration does not meet AutoMerge guidelines, then the presence of previous exceptions to those guidelines does not justify an exception for your package, and registry maintainers will not consider past packages to be any kind of precedent that applies to current and future registrations.
+
 ## Registry maintenance
 
 The General registry is a shared resource that belongs to the entire Julia community. Therefore, we welcome comments and suggestions from everyone in the Julia community. However, all decisions regarding the General registry are ultimately up to the discretion of the registry maintainers.

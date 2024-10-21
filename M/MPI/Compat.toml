@@ -33,12 +33,17 @@ Distributed = "1"
 Libdl = "1"
 MPICH_jll = "4"
 MPItrampoline_jll = "5"
-OpenMPI_jll = "4"
 Serialization = "1"
 Sockets = "1"
 
+["0.20.17-0.20.21"]
+OpenMPI_jll = "4"
+
 ["0.20.2-0.20.12"]
 MPIPreferences = "0.1.6-0.1"
+
+["0.20.22-0"]
+OpenMPI_jll = "4-5"
 
 ["0.20.9-0"]
 PrecompileTools = "1.0.1-1"

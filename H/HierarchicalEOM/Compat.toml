@@ -14,11 +14,13 @@ Crayons = "4.1.0-4"
 
 [0-2]
 FastExpm = "1.1.0-1"
-JLD2 = "0.4.31-0.4"
 Reexport = "1"
 
 ["0-2.1"]
 ProgressMeter = "1.7.0-1"
+
+["0-2.2.0"]
+JLD2 = "0.4.31-0.4"
 
 ["0.2-1"]
 OrdinaryDiffEq = "6.53.4-6"
@@ -45,8 +47,10 @@ Pkg = "1.9.0-1"
 SparseArrays = "1.9.0-1"
 SteadyStateDiffEq = "2"
 
-["1.5-2"]
+["1.5-2.2.1"]
 DiffEqCallbacks = "2-3"
+
+["1.5-2.2.2"]
 LinearAlgebra = ["0.0.0", "1"]
 Pkg = ["0.0.0", "1"]
 SparseArrays = ["0.0.0", "1"]
@@ -60,8 +64,28 @@ julia = "1.9.0-1"
 ["2.1-2"]
 OrdinaryDiffEqCore = "1"
 OrdinaryDiffEqLowOrderRK = "1"
-QuantumToolbox = "0.13"
 SciMLBase = "2"
 SciMLOperators = "0.3"
 StaticArraysCore = "1"
 julia = "1.10.0-1"
+
+["2.1-2.2.0"]
+QuantumToolbox = "0.13"
+
+["2.2.1"]
+QuantumToolbox = "0.13-0.14"
+
+["2.2.1-2"]
+JLD2 = "0.4.31-0.5"
+
+["2.2.2"]
+QuantumToolbox = "0.13-0.16"
+
+["2.2.2-2"]
+DiffEqCallbacks = "2-4"
+
+["2.2.3-2"]
+LinearAlgebra = "1"
+Pkg = "1"
+QuantumToolbox = "0.13-0.18"
+SparseArrays = "1"

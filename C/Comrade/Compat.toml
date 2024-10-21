@@ -1,12 +1,14 @@
 [0]
 AstroTime = "0.6-0.7"
-Distributions = "0.24-0.25"
 PaddedViews = "0.5"
 SpecialFunctions = ["0.10", "1-2"]
-StructArrays = "0.3-0.6"
 
 ["0-0.1"]
 Interpolations = "0.12-0.13"
+
+["0-0.10"]
+Distributions = "0.24-0.25"
+StructArrays = "0.3-0.6"
 
 ["0-0.2.1"]
 FillArrays = "0.12"
@@ -37,22 +39,38 @@ FFTW = "1"
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
-["0.10-0"]
-Accessors = "0.1"
+["0.10"]
 ComradeBase = "0.7"
 DimensionalData = "0.26-0.27"
 Enzyme = "0.11-0.12"
-IntervalSets = "0.6-0.7"
 LogDensityProblemsAD = "1"
 VLBIImagePriors = "0.8"
 VLBILikelihoods = "0.2.1-0.2"
 julia = "1.9.0-1"
 
+["0.10-0"]
+Accessors = "0.1"
+IntervalSets = "0.6-0.7"
+
 ["0.10-0.10.3"]
 VLBISkyModels = "0.5"
 
-["0.10.4-0"]
+["0.10.4-0.10"]
 VLBISkyModels = "0.5.5-0.5"
+
+["0.11-0"]
+ComradeBase = "0.8"
+DimensionalData = "0.27-0.28"
+Distributions = "0.25"
+DocStringExtensions = "0.8-0.9"
+EnzymeCore = "0.8"
+FillArrays = "1"
+StatsBase = "0.33-0.34"
+StructArrays = "0.5-0.6"
+VLBIImagePriors = "0.9"
+VLBILikelihoods = "0.2.6-0.2"
+VLBISkyModels = "0.6"
+julia = "1.10.0-1"
 
 ["0.2"]
 ComradeBase = "0.2"
@@ -125,8 +143,10 @@ BlockDiagonals = "0.1"
 NamedTupleTools = "0.14"
 
 ["0.4-0"]
-DocStringExtensions = "0.6-0.9"
 Tables = "1"
+
+["0.4-0.10"]
+DocStringExtensions = "0.6-0.9"
 
 ["0.4-0.5"]
 HypercubeTransform = "0.2.7-0.2"
@@ -217,10 +237,10 @@ PythonCall = "0.9"
 ["0.7.7-0.7"]
 Enzyme = "0.11"
 
-["0.7.8-0"]
+["0.7.8-0.10"]
 FillArrays = ["0.12-0.13", "1"]
 
-["0.8-0"]
+["0.8-0.10"]
 StatsBase = "0.31-0.34"
 
 ["0.8-0.9"]

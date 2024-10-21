@@ -196,7 +196,6 @@ RecursiveArrayTools = "2-3"
 
 ["3.1.1-3"]
 ForwardDiff = "0.10.36-0.10"
-LineSearches = "7.2.0-7"
 PrecompileTools = "1.2.0-1"
 Reexport = "1.2.0-1"
 
@@ -217,6 +216,9 @@ LazyArrays = "1.8.2-1"
 ["3.1.1-3.12.2"]
 MaybeInplace = "0.1.1-0.1"
 
+["3.1.1-3.14"]
+LineSearches = "7.2.0-7"
+
 ["3.1.1-3.4"]
 ADTypes = "0.2.5-0.2"
 DiffEqBase = "6.144.0-6"
@@ -231,7 +233,7 @@ SymbolicIndexingInterface = "0.3.3-0.3"
 ["3.11-3.12.0"]
 LinearSolve = "2.29.0-2"
 
-["3.12-3"]
+["3.12-3.14"]
 ADTypes = "1.1.0-1"
 FiniteDiff = "2.22.0-2"
 SciMLBase = "2.34.0-2"
@@ -240,12 +242,35 @@ SparseDiffTools = "2.19.0-2"
 SymbolicIndexingInterface = "0.3.15-0.3"
 
 ["3.12.1-3"]
-FastBroadcast = "0.2.8-0.3"
 LazyArrays = "1.8.2-2"
+
+["3.12.1-3.14"]
+FastBroadcast = "0.2.8-0.3"
 LinearSolve = "2.30.0-2"
 
-["3.12.3-3"]
+["3.12.3-3.14"]
 MaybeInplace = "0.1.3-0.1"
+
+["3.15-3"]
+ADTypes = "1.9.0-1"
+ArrayInterface = "7.16.0-7"
+DiffEqBase = "6.155.3-6"
+DifferentiationInterface = "0.6.1-0.6"
+FastBroadcast = "0.3.5-0.3"
+FiniteDiff = "2.24.0-2"
+LineSearch = "0.1.2-0.1"
+LineSearches = "7.3.0-7"
+LinearSolve = "2.35.0-2"
+MaybeInplace = "0.1.4-0.1"
+RecursiveArrayTools = "3.27.0-3"
+SciMLBase = "2.54.0-2"
+SciMLJacobianOperators = "0.1"
+SciMLOperators = "0.3.10-0.3"
+Setfield = "1.1.1-1"
+SimpleNonlinearSolve = "1.12.3-1"
+SparseConnectivityTracer = "0.6.5-0.6"
+SparseMatrixColorings = "0.4.2-0.4"
+SymbolicIndexingInterface = "0.3.31-0.3"
 
 ["3.2-3.4"]
 Printf = "1.9.0-1"
@@ -278,11 +303,13 @@ RecursiveArrayTools = "3.4.0-3"
 SciMLBase = "2.19.0-2"
 
 ["3.9-3"]
-ArrayInterface = "7.9.0-7"
-DiffEqBase = "6.149.0-6"
 FastClosures = "0.3.2-0.3"
-RecursiveArrayTools = "3.8.0-3"
 
 ["3.9-3.11"]
 SciMLBase = "2.28.0-2"
 SparseDiffTools = "2.17.0-2"
+
+["3.9-3.14"]
+ArrayInterface = "7.9.0-7"
+DiffEqBase = "6.149.0-6"
+RecursiveArrayTools = "3.8.0-3"

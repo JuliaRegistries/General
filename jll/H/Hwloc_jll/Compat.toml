@@ -2,8 +2,8 @@
 julia = "1"
 
 ["2.10-2"]
-Artifacts = "1"
-Libdl = "1"
+Artifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]
 
 ["2.4-2"]
 JLLWrappers = "1.2.0-1"

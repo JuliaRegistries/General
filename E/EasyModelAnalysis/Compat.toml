@@ -1,5 +1,6 @@
 [0]
 ModelingToolkit = "8"
+Optimization = "3"
 OptimizationBBO = "0.1"
 OptimizationNLopt = "0.1"
 Turing = "0.22-0.24"
@@ -9,7 +10,6 @@ julia = "1.6.0-1"
 DifferentialEquations = "7"
 Distributions = "0.25"
 GlobalSensitivity = "2"
-Optimization = "3"
 Plots = "1"
 Reexport = "1"
 
@@ -36,9 +36,20 @@ NLopt = ["0.6", "1"]
 
 [1]
 LinearAlgebra = "1"
+julia = "1.10.0-1"
+
+["1.0"]
 ModelingToolkit = "9.12.0-9"
+Optimization = "3"
 OptimizationBBO = "0.2"
 OptimizationNLopt = "0.2"
 SciMLBase = "2.32.1-2"
 Turing = "0.30"
-julia = "1.10.0-1"
+
+["1.1-1"]
+ModelingToolkit = "9.42.0-9"
+Optimization = "3-4"
+OptimizationBBO = "0.2-0.4"
+OptimizationNLopt = "0.2-0.3"
+SciMLBase = "2.54.0-2"
+Turing = "0.33-0.34"

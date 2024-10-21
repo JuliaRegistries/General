@@ -1,6 +1,5 @@
 [0]
 Primes = "0.5"
-julia = "1.6.0-1"
 
 ["0-0.0.1"]
 Groebner = "0.3"
@@ -8,14 +7,17 @@ Groebner = "0.3"
 ["0-0.0.2"]
 AbstractAlgebra = "0.27-0.30"
 
+["0-0.4"]
+julia = "1.6.0-1"
+
 ["0.0"]
 Nemo = "0.32"
 
-["0.0.2-0"]
-ProgressMeter = "1.7.0-1"
-
 ["0.0.2-0.2.0"]
 Groebner = "0.3-0.4"
+
+["0.0.2-0.4"]
+ProgressMeter = "1.7.0-1"
 
 ["0.0.3-0.2.1"]
 AbstractAlgebra = "0.27-0.31"
@@ -30,7 +32,7 @@ Groebner = "0.3-0.5"
 AbstractAlgebra = "0.27-0.33"
 Nemo = "0.32-0.37"
 
-["0.2.3-0"]
+["0.2.3-0.4"]
 Logging = "1.6.0-1"
 Random = "1.6.0-1"
 
@@ -56,7 +58,16 @@ AbstractAlgebra = "0.40"
 Groebner = "0.7.3-0.7"
 Nemo = "0.43"
 
-["0.4.1-0"]
+["0.4.1-0.4"]
 AbstractAlgebra = "0.41"
 Groebner = "0.7.5-0.7"
 Nemo = "0.45.4-0.45"
+
+["0.5-0"]
+AbstractAlgebra = "0.42-0.43"
+Groebner = "0.8.1-0.8"
+Logging = "1.10.0-1"
+Nemo = "0.46-0.47"
+ProgressMeter = "1.10.0-1"
+Random = "1.10.0-1"
+julia = "1.10.0-1"

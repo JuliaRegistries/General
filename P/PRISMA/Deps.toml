@@ -1,6 +1,5 @@
 [0]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 
 ["0-0.0.1"]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
@@ -13,19 +12,31 @@ RPRMakie = "22d9f318-5e34-4b44-b769-6e3734a732a6"
 WGLMakie = "276b4fcb-3e11-5398-bf8b-a0c2d153d008"
 XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
 
+["0-0.0.6"]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+
 ["0.0.2-0"]
 Graphviz_jll = "3c863552-8265-54e4-a6dc-903eb78fde85"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Poppler_jll = "9c32591e-4766-534b-9725-b71a8799265b"
+
+["0.0.2-0.0.6"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.0.2-0.0.7"]
 Transformers = "21ca0261-441d-5938-ace7-c90938fde4d4"
 
-["0.0.4-0"]
+["0.0.4-0.0.6"]
 TidierStrings = "248e6834-d0f8-40ef-8fbb-8e711d883e9c"
 
-["0.0.6-0"]
-CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+["0.0.6"]
 HTMLTables = "b1afcece-b80e-4563-b90e-36b4cc56d3fa"
 JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 JSONTables = "b9914132-a727-11e9-1322-f18e41205b0b"
 XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
+
+["0.0.6-0"]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+
+["0.0.7-0"]
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"

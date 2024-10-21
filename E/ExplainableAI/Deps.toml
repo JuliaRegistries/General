@@ -1,6 +1,5 @@
 [0]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0-0.5"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -12,6 +11,9 @@ Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
+
+["0-0.8"]
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0.3.2-0"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
@@ -26,3 +28,7 @@ MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 ["0.7-0"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 XAIBase = "9b48221d-a747-4c1b-9860-46a1d8ba24a7"
+
+["0.9-0"]
+ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
+DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"

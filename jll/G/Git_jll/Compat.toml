@@ -25,7 +25,13 @@ LibCURL_jll = ["7.73.0-7", "8.0.1-8"]
 PCRE2_jll = "10.35.0-10"
 
 ["2.42-2"]
-Artifacts = "1"
 LibCURL_jll = "7.73.0-8"
-Libdl = "1"
 OpenSSL_jll = "3.0.8-3"
+
+["2.42-2.44"]
+Artifacts = "1"
+Libdl = "1"
+
+["2.46-2"]
+Artifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]

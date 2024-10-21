@@ -227,7 +227,7 @@ ROCmDeviceLibs_jll = "5.4.0-5"
 ["0.7-0.8.0"]
 GPUCompiler = "0.24-0.25"
 
-["0.7-1"]
+["0.7-1.0.1"]
 HIP_jll = "5.4.0-5"
 hsa_rocr_jll = "5.4.0-5"
 
@@ -265,10 +265,22 @@ GPUCompiler = "0.26.5-0.26"
 LLVM = "7"
 
 [1]
-GPUCompiler = "0.26-0.27"
 LLD_jll = "15-17"
-LLVM = "8.1.0-8"
 LLVM_jll = "15-17"
 UnsafeAtomics = "0.2"
 UnsafeAtomicsLLVM = "0.2"
 julia = "1.10.0-1"
+
+["1-1.0.1"]
+GPUCompiler = "0.26-0.27"
+LLVM = "8.1.0-8"
+
+["1.0.2-1"]
+LLVM = "9"
+
+["1.0.2-1.0.4"]
+GPUCompiler = "0.27"
+
+["1.0.5-1"]
+AcceleratedKernels = "0.1"
+GPUCompiler = ["0.27", "1"]

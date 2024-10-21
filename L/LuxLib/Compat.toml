@@ -121,8 +121,10 @@ DispatchDoctor = "0.4.9-0.4"
 LuxDeviceUtils = "0.1.26-0.1"
 
 ["0.3.31-1"]
-EnzymeCore = "0.7.7-0.7"
 ForwardDiff = "0.10.36-0.10"
+
+["0.3.31-1.2"]
+EnzymeCore = "0.7.7-0.7"
 KernelAbstractions = "0.9.22-0.9"
 NNlib = "0.9.21-0.9"
 
@@ -132,7 +134,7 @@ UnrolledUtilities = "0.1.2-0.1"
 ["0.3.33-1"]
 StaticArraysCore = "1.4.3-1"
 
-["0.3.34-1"]
+["0.3.34-1.3.3"]
 SLEEFPirates = "0.6.43-0.6"
 
 ["0.3.37-1"]
@@ -145,10 +147,10 @@ MLDataDevices = "1"
 ["0.3.38-0.3.39"]
 Setfield = "1.1.1-1"
 
-["0.3.38-1"]
+["0.3.38-1.3.3"]
 LoopVectorization = "0.12.171-0.12"
 
-["0.3.39-1"]
+["0.3.39-1.3.3"]
 Octavian = "0.3.28-0.3"
 
 ["0.3.40-1"]
@@ -179,5 +181,16 @@ julia = "1.9.0-1"
 [1]
 LuxCore = "1"
 
-["1.2.1-1"]
+["1.2.1-1.3.1"]
 MLDataDevices = "1.1.1-1"
+
+["1.3-1"]
+EnzymeCore = "0.8.1-0.8"
+KernelAbstractions = "0.9.27-0.9"
+NNlib = "0.9.24-0.9"
+
+["1.3.2-1"]
+MLDataDevices = "1.2.0-1"
+
+["1.3.4-1"]
+Preferences = "1.4.3-1"

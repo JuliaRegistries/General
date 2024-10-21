@@ -73,8 +73,10 @@ UnsafeAtomicsLLVM = "d80eeb9a-aca5-4d75-85e5-170c8b632249"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0.7-1"]
-HIP_jll = "2696aab5-0948-5276-aa9a-2a86a37016b8"
 ROCmDeviceLibs_jll = "873c0968-716b-5aa7-bb8d-d1e2e2aeff2d"
+
+["0.7-1.0.1"]
+HIP_jll = "2696aab5-0948-5276-aa9a-2a86a37016b8"
 hsa_rocr_jll = "dd59ff1a-a01a-568d-8b29-0669330f116a"
 
 ["0.8.1-1"]
@@ -88,3 +90,6 @@ StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
 
 [1]
 UnsafeAtomics = "013be700-e6cd-48c3-b4a1-df204f14c38f"
+
+["1.0.5-1"]
+AcceleratedKernels = "6a4ca0a5-0e36-4168-a932-d9be78d558f1"

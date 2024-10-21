@@ -1,10 +1,12 @@
-[1]
-CEnum = "0.4"
-SparseMatricesCSR = "0.6"
-julia = "1.6.0-1"
-
 ["1-1.4"]
 PartitionedArrays = "0.2"
+
+["1-1.5"]
+CEnum = "0.4"
+
+["1-1.6"]
+SparseMatricesCSR = "0.6"
+julia = "1.6.0-1"
 
 ["1.0"]
 MPI = "0.19"
@@ -12,5 +14,14 @@ MPI = "0.19"
 ["1.1-1"]
 MPI = "0.19-0.20"
 
-["1.5-1"]
+["1.5"]
 PartitionedArrays = "0.3"
+
+["1.6"]
+PartitionedArrays = "0.5"
+
+["1.6-1"]
+CEnum = "0.4-0.5"
+
+["1.7-1"]
+julia = "1.10.0-1"

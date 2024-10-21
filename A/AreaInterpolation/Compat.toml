@@ -6,11 +6,17 @@ GeoInterface = "1"
 GeometryOps = "0.1"
 LibGEOS = "0.8-0.9"
 NaNMath = "1"
-OhMyThreads = "0.5"
 ProgressMeter = "1"
-Rasters = "0.9-0.11"
 SIMD = "3"
 SortTileRecursiveTree = "0.1"
 Stencils = "0.3"
 Tables = "1"
 julia = "1.9.0-1"
+
+["0-0.0.1"]
+OhMyThreads = "0.5"
+Rasters = "0.9-0.11"
+
+["0.0.2-0"]
+OhMyThreads = "0.5-0.7"
+Rasters = "0.9-0.12"

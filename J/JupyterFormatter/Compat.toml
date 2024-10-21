@@ -1,4 +1,9 @@
 [0]
 IJulia = "1.23.2-1"
-JuliaFormatter = "0.14.1-0.14"
 julia = "1"
+
+["0-0.1.0"]
+JuliaFormatter = "0.14.1-0.14"
+
+["0.1.1-0"]
+JuliaFormatter = ["0.14.1-0.14", "1"]

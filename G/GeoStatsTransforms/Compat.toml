@@ -32,7 +32,7 @@ ArnoldiMethod = "0.2"
 ["0.1.4-0"]
 Unitful = "1.17.0-1"
 
-["0.1.8-0"]
+["0.1.8-0.8.3"]
 ColumnSelectors = "0.1"
 
 ["0.2-0.2.4"]
@@ -118,13 +118,17 @@ Meshes = "0.42"
 ["0.6"]
 GeoTables = "1.20.0-1"
 
-["0.7-0"]
+["0.7"]
 GeoStatsModels = "0.4"
-GeoStatsProcesses = "0.6"
+
+["0.7-0"]
 GeoTables = "1.21.0-1"
 
 ["0.7-0.7.1"]
 Meshes = "0.43"
+
+["0.7-0.8.0"]
+GeoStatsProcesses = "0.6"
 
 ["0.7.1-0.7.4"]
 DataScienceTraits = "0.3"
@@ -132,7 +136,7 @@ DataScienceTraits = "0.3"
 ["0.7.10-0"]
 TiledIteration = "0.5"
 
-["0.7.13-0"]
+["0.7.13-0.8.1"]
 OhMyThreads = "0.5-0.6"
 
 ["0.7.14"]
@@ -141,7 +145,7 @@ Meshes = "0.47-0.49"
 ["0.7.15"]
 Meshes = "0.50"
 
-["0.7.16-0"]
+["0.7.16-0.8.3"]
 Meshes = "0.50-0.51"
 
 ["0.7.2"]
@@ -153,7 +157,7 @@ Meshes = "0.45"
 ["0.7.4-0.7.5"]
 Meshes = "0.46"
 
-["0.7.5-0"]
+["0.7.5-0.8.4"]
 DataScienceTraits = "0.4"
 
 ["0.7.6"]
@@ -167,3 +171,23 @@ OhMyThreads = "0.5"
 
 ["0.7.9-0"]
 PrecompileTools = "1.2.0-1"
+
+["0.8-0.8.2"]
+GeoStatsModels = "0.5"
+
+["0.8.1"]
+GeoStatsProcesses = "0.7"
+
+["0.8.2-0"]
+GeoStatsProcesses = "0.8"
+OhMyThreads = "0.5-0.7"
+
+["0.8.3-0"]
+GeoStatsModels = "0.6"
+
+["0.8.4-0"]
+ColumnSelectors = "1"
+Meshes = "0.50-0.52"
+
+["0.8.5-0"]
+DataScienceTraits = "1"

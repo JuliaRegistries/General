@@ -66,13 +66,21 @@ Functors = "0.4"
 KomaMRICore = "0.7"
 KomaMRIPlots = "0.7"
 
-["0.7.5-0"]
+["0.7.5-0.8"]
 MRIReco = "0.6-0.8"
 
-["0.8-0"]
-FFTW = "1"
+["0.8"]
 KomaMRICore = "0.8"
 KomaMRIFiles = "0.8"
 KomaMRIPlots = "0.8"
 Pkg = "1.4.0-1"
+
+["0.8-0"]
+FFTW = "1"
 julia = "1.9.0-1"
+
+["0.9-0"]
+KomaMRICore = "0.9"
+KomaMRIFiles = "0.9"
+KomaMRIPlots = "0.9"
+MRIReco = "0.6-0.9"

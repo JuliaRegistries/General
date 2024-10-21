@@ -1,20 +1,31 @@
 [0]
-Reexport = "1"
 Tensors = "1"
 
 ["0-0.3.1"]
 WriteVTK = "1"
 julia = "1"
 
-["0.3.1-0"]
+[0-1]
+Reexport = "1"
+
+["0.3.1-1"]
 NearestNeighbors = "0.4"
 
 ["0.3.2-0"]
-WriteVTK = "1.13.0-1"
 julia = "1.6.0-1"
 
-["0.3.5-0"]
+["0.3.2-1"]
+WriteVTK = "1.13.0-1"
+
+["0.3.5-1"]
 EnumX = "1"
 
-["0.3.9-0"]
+["0.3.9-1"]
 Preferences = "1"
+
+[1]
+ForwardDiff = "0.10"
+OrderedCollections = "1"
+StaticArrays = "1"
+Tensors = "1.14.0-1"
+julia = "1.9.0-1"

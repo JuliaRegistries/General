@@ -29,6 +29,10 @@ Suppressor = "0.2"
 Tables = "1.1.0-1"
 julia = "1.10.0-1"
 
+["0.10.1-0"]
+OrderedCollections = "1.1.0-1"
+YAML = "0.4.2-0.4"
+
 ["0.2"]
 IntervalSets = "0.0.0-0.3"
 LaTeXStrings = "0.0.0-1"
@@ -102,7 +106,7 @@ Unitful = ["0.18", "1"]
 ["0.3.2-0.4"]
 Distributions = "0.21-0.23"
 
-["0.4-0"]
+["0.4-0.10.0"]
 YAML = "0.3-0.4"
 
 ["0.4.1-0.8.8"]
@@ -236,7 +240,6 @@ Interpolations = "0.14-0.15"
 ["0.9.6-0"]
 ArraysOfArrays = "0.5-0.6"
 Clustering = "0.15"
-DataStructures = "0.11-0.18"
 Distributions = "0.24.5-0.25"
 FillArrays = ["0.9-0.13", "1"]
 Format = "1.2.0-1"
@@ -250,6 +253,9 @@ Rotations = "1"
 StaticArrays = "1"
 Statistics = ["0.0.0", "1"]
 Unitful = "1.11.0-1"
+
+["0.9.6-0.10.0"]
+DataStructures = "0.11-0.18"
 
 ["0.9.8-0"]
 StatsBase = "0.33.7-0.34"

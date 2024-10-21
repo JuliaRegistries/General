@@ -3,7 +3,6 @@ ADTypes = ["0.2", "1"]
 Adapt = "3-4"
 ArrayInterface = "7"
 DataStructures = "0.18"
-DiffEqBase = "6.147.0-6"
 DocStringExtensions = "0.9"
 EnumX = "1"
 FastBroadcast = "0.2-0.3"
@@ -32,5 +31,16 @@ julia = "1.10.0-1"
 ["1-1.4.0"]
 SciMLBase = "2.27.1-2"
 
-["1.4.1-1"]
+["1-1.6"]
+DiffEqBase = "6.147.0-6"
+
+["1.4.1-1.6"]
 SciMLBase = "2.50.4-2"
+
+["1.7-1"]
+Accessors = "0.1.36-0.1"
+DiffEqBase = "6.157.0-6"
+SciMLBase = "2.56.0-2"
+
+["1.8-1"]
+FastPower = "1"

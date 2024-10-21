@@ -1,15 +1,24 @@
 [0]
-CBinding = "0.9"
 CodecZlib = "0.7"
-CodecZstd = "0.7"
-DocStringExtensions = "0.8"
-FlagSets = "0.1"
 Parameters = "0.12"
-TranscodingStreams = "0.9"
 julia = "1.5.0-1"
 
 ["0-0.1.6"]
 Setfield = "0.7"
 
-["0.1.7-0"]
+["0-0.1.7"]
+CBinding = "0.9"
+CodecZstd = "0.7"
+DocStringExtensions = "0.8"
+FlagSets = "0.1"
+TranscodingStreams = "0.9"
+
+["0.1.7"]
 Setfield = "0.6-0.7"
+
+["0.1.8-0"]
+CodecZstd = "0.8"
+DocStringExtensions = "0.9"
+FlagSets = "0.3"
+Setfield = ["0.6-0.7", "1"]
+TranscodingStreams = "0.9-0.11"

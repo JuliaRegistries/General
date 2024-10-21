@@ -1,10 +1,16 @@
 [2]
-Artifacts = "1"
 Blosc_jll = "1.21.1-1"
 Bzip2_jll = "1.0.8-1"
 JLLWrappers = "1.2.0-1"
-Libdl = "1"
 Lz4_jll = "1.9.3-1"
 XZ_jll = "5.2.5-5"
 Zlib_jll = "1.2.12-1"
 julia = "1.6.0-1"
+
+["2-2.0.17"]
+Artifacts = "1"
+Libdl = "1"
+
+["2.0.18-2"]
+Artifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]

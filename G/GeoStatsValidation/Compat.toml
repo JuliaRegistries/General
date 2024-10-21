@@ -1,5 +1,4 @@
 [0]
-ColumnSelectors = "0.1"
 DensityRatioEstimation = "1.2.0-1"
 LossFunctions = "0.11"
 StatsLearnModels = "0.3"
@@ -15,6 +14,9 @@ Meshes = "0.37"
 
 ["0-0.2.2"]
 GeoTables = "1.14.0-1"
+
+["0-0.3.15"]
+ColumnSelectors = "0.1"
 
 ["0-0.3.7"]
 Transducers = "0.4"
@@ -57,12 +59,14 @@ GeoStatsTransforms = "0.5"
 GeoStatsTransforms = "0.6"
 
 ["0.3-0"]
-GeoStatsModels = "0.4"
-GeoStatsTransforms = "0.7"
 GeoTables = "1.21.0-1"
 
 ["0.3-0.3.1"]
 Meshes = "0.43"
+
+["0.3-0.3.12"]
+GeoStatsModels = "0.4"
+GeoStatsTransforms = "0.7"
 
 ["0.3-0.3.4"]
 GeoStatsBase = "0.44"
@@ -76,8 +80,27 @@ Meshes = "0.47-0.49"
 ["0.3.11"]
 Meshes = "0.47-0.50"
 
-["0.3.12-0"]
+["0.3.12-0.3.15"]
 Meshes = "0.47-0.51"
+
+["0.3.13-0"]
+GeoStatsTransforms = "0.8"
+
+["0.3.13-0.3.14"]
+GeoStatsModels = "0.5"
+
+["0.3.14-0"]
+GeoStatsBase = "0.46"
+
+["0.3.15-0"]
+GeoStatsModels = "0.6"
+
+["0.3.16-0"]
+ColumnSelectors = "1"
+Meshes = "0.47-0.52"
+
+["0.3.17-0"]
+DataScienceTraits = "1"
 
 ["0.3.2"]
 Meshes = "0.44"
@@ -88,10 +111,10 @@ Meshes = "0.45"
 ["0.3.4-0.3.6"]
 Meshes = "0.46"
 
-["0.3.5-0"]
+["0.3.5-0.3.13"]
 GeoStatsBase = "0.45"
 
-["0.3.6-0"]
+["0.3.6-0.3.16"]
 DataScienceTraits = "0.4"
 
 ["0.3.7-0.3.8"]

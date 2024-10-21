@@ -2,7 +2,6 @@
 MacroTools = "0.5"
 OrderedCollections = "1.2.0-1"
 QuadGK = "2.4.0-2"
-RecipesBase = "1"
 Reexport = "1"
 
 ["0-0.4.0"]
@@ -37,6 +36,9 @@ DSP = "0.6-0.7"
 ["0-0.5.4"]
 FastGaussQuadrature = "0.4"
 
+["0-0.6.4"]
+RecipesBase = "1"
+
 ["0.4.1-0.4.2"]
 DomainIntegrals = "0.3.3-0.3"
 
@@ -54,7 +56,6 @@ BlockArrays = "0.16"
 GaussQuadrature = "0.5.7-0.5"
 GenericLinearAlgebra = "0.3"
 IterativeSolvers = "0.9"
-PGFPlotsX = "1.4.0-1"
 SpecialFunctions = "1-2"
 StaticArrays = "1.4.0-1"
 
@@ -67,15 +68,20 @@ DomainIntegrals = "0.3.6-0.3"
 ["0.4.4-0.6.3"]
 FillArrays = "0.12-0.13"
 
+["0.4.4-0.6.4"]
+PGFPlotsX = "1.4.0-1"
+
 ["0.4.5-0.5"]
 GenericFFT = "0.1"
 
 ["0.4.6-0"]
 ToeplitzMatrices = "0.7"
-julia = "1.6.0-1"
 
 ["0.4.6-0.5.0"]
 DomainSets = "0.5.11-0.5"
+
+["0.4.6-0.6.4"]
+julia = "1.6.0-1"
 
 ["0.5-0.5.4"]
 GridArrays = "0.1.14-0.1"
@@ -120,3 +126,6 @@ DomainSets = "0.7"
 ["0.6.4-0"]
 FillArrays = ["0.13", "1"]
 GridArrays = "0.2.2-0.2"
+
+["0.6.5-0"]
+julia = "1.9.0-1"

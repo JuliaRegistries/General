@@ -2,7 +2,6 @@
 ComputationalResources = "0.3"
 Distributions = "0.25"
 DistributionsAD = "0.6"
-LuxCore = "0.1"
 MLUtils = "0.4"
 SciMLSensitivity = "7"
 Zygote = "0.6"
@@ -33,6 +32,9 @@ OptimizationOptimisers = "0.1"
 
 ["0-0.22.1"]
 ScientificTypes = "3"
+
+["0-0.24"]
+LuxCore = "0.1"
 
 ["0-0.5"]
 DataFrames = "1.2.0-1"
@@ -78,7 +80,6 @@ MLJBase = ["0.21", "1"]
 SciMLBase = "1-2"
 
 ["0.14.1-0"]
-AbstractDifferentiation = "0.6"
 MLJBase = "1"
 Optimisers = "0.3"
 SciMLBase = "2"
@@ -89,22 +90,25 @@ ComponentArrays = "0.15"
 ["0.14.1-0.22.0"]
 ADTypes = "0.2"
 
+["0.14.1-0.24"]
+AbstractDifferentiation = "0.6"
+
 ["0.14.2-0"]
 Dates = "1"
 LinearAlgebra = "1"
 Random = "1"
 Statistics = "1"
 
-["0.16-0"]
-julia = "1.9.0-1"
-
 ["0.16-0.22.3"]
 ComponentArrays = "0.15.5-0.15"
+
+["0.16-0.25"]
+julia = "1.9.0-1"
 
 ["0.17-0.18"]
 OptimizationOptimisers = "0.1-0.2"
 
-["0.19-0"]
+["0.19-0.24"]
 OptimizationOptimisers = "0.2"
 
 ["0.20-0.22.3"]
@@ -123,7 +127,6 @@ DifferentiationInterface = "0.1-0.2"
 ADTypes = ["0.2", "1"]
 
 ["0.22.2-0"]
-OrdinaryDiffEq = "6"
 ScientificTypesBase = "3"
 
 ["0.22.2-0.22"]
@@ -132,10 +135,11 @@ Static = "0.8"
 ["0.22.2-0.22.3"]
 DifferentiationInterface = "0.1-0.3"
 
+["0.22.2-0.24"]
+OrdinaryDiffEq = "6"
+
 ["0.22.4-0"]
 ComponentArrays = "0.15"
-Lux = "0.5"
-Optimization = "3"
 
 ["0.22.4-0.23"]
 Octavian = "0.3"
@@ -143,12 +147,36 @@ Octavian = "0.3"
 ["0.22.4-0.23.1"]
 DifferentiationInterface = "0.1-0.4"
 
+["0.22.4-0.24"]
+Lux = "0.5"
+Optimization = "3"
+
 ["0.23.2-0.23"]
 DifferentiationInterface = "0.1-0.5"
 
+["0.24"]
+DifferentiationInterface = "0.5"
+
 ["0.24-0"]
 ADTypes = "1"
-DifferentiationInterface = "0.5"
+
+["0.25-0"]
+Lux = "1"
+LuxCore = "1"
+Optimization = "4"
+OptimizationOptimisers = "0.3"
+OrdinaryDiffEqDefault = "1"
+
+["0.25.0"]
+DifferentiationInterface = "0.5-0.6"
+Enzyme = "0.12-0.13"
+
+["0.25.1-0"]
+DifferentiationInterface = "0.6"
+Enzyme = "0.13"
+
+["0.26-0"]
+julia = "1.10.0-1"
 
 ["0.6-0"]
 DataFrames = "1"

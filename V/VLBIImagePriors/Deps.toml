@@ -4,7 +4,6 @@ Bessels = "0e736298-9ec6-45e8-9647-e4fc86a2fe38"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 DensityInterface = "b429d917-457f-4dbc-8f4c-0cc954292b1d"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 HypercubeTransform = "9ec9aee3-0fd3-44c2-8e61-a50acc66f3c8"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -13,6 +12,9 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
+
+["0-0.8"]
+Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
 
 ["0.1.3-0"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
@@ -32,3 +34,7 @@ NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
 
 ["0.5-0"]
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+
+["0.9-0"]
+AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
+FastBroadcast = "7034ab61-46d4-4ed7-9d0f-46aef9175898"

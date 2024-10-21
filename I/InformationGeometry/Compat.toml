@@ -111,7 +111,7 @@ DistributionsAD = "0.5-0.6"
 ["1.14.2"]
 SymbolicUtils = "0.11.3-0.20"
 
-["1.14.3-1"]
+["1.14.3-1.14"]
 Symbolics = "1-5"
 
 ["1.14.3-1.14.5"]
@@ -132,11 +132,21 @@ SnoopPrecompile = "1"
 ["1.14.6-1"]
 ComponentArrays = "0.13-0.15"
 DataInterpolations = "3-6"
-DiffEqCallbacks = "2-3"
 LibGEOS = "0.6-0.9"
 ModelingToolkit = "5-9"
-Optimization = "3"
 SymbolicUtils = ["0.11.3-0.20", "1-9"]
+
+["1.14.6-1.15.0"]
+DiffEqCallbacks = "2-3"
+Optimization = "3"
+
+["1.15-1"]
+LineSearches = "5-7"
+Symbolics = "1-6"
+
+["1.15.1-1"]
+DiffEqCallbacks = "2-4"
+Optimization = "3-4"
 
 ["1.2-1"]
 Combinatorics = "1"

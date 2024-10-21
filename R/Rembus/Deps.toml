@@ -2,7 +2,6 @@
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
 Arrow = "69666777-d1a9-59fb-9406-91d4454c9d45"
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
-CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -25,3 +24,11 @@ URIs = "5c2747f8-b7ea-4ff2-ba2e-563bfd36b1d4"
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 Visor = "cf786855-3531-4b86-ba6e-3e33dce7dcdb"
 ZMQ = "c2297ded-f4af-51ae-bb23-16f91089e4e1"
+
+["0-0.3"]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+
+["0.4-0"]
+DuckDB = "d2f5444f-75bc-4fdf-ac35-56f514c445e1"
+JSONTables = "b9914132-a727-11e9-1322-f18e41205b0b"
+Parquet = "626c502c-15b0-58ad-a749-f091afb673ae"

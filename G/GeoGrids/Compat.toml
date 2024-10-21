@@ -1,11 +1,20 @@
 [0]
 AngleBetweenVectors = "0.3"
-CoordRefSystems = "0.9"
-CountriesBorders = "0.3.4-0.3"
 Dictionaries = "0.4.2-0.4"
 LinearAlgebra = "1"
-Meshes = "0.46.5-0.46"
 PlotlyExtensionsHelper = "0.2"
 StaticArrays = "1.9.7-1"
 Unitful = "1.21.0-1"
+
+["0-0.4"]
+CoordRefSystems = "0.9"
+CountriesBorders = "0.3.4-0.3"
+Meshes = "0.46.5-0.46"
 julia = "1.9.0-1"
+
+["0.5-0"]
+Clipper = "0.6.3-0.6"
+CoordRefSystems = "0.10"
+CountriesBorders = "0.4"
+Meshes = "0.48"
+julia = "1.10.0-1"

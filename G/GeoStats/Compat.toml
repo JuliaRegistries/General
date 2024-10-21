@@ -540,9 +540,6 @@ Meshes = "0.43"
 
 ["0.57-0"]
 DensityRatioEstimation = "1.2.0-1"
-GeoStatsModels = "0.4"
-GeoStatsProcesses = "0.6"
-GeoStatsTransforms = "0.7"
 GeoStatsValidation = "0.3"
 Rotations = "1.7.0-1"
 Unitful = "1.20.0-1"
@@ -559,6 +556,13 @@ GeoStatsBase = "0.44"
 ["0.57-0.61.0"]
 GeoTables = "1.21.0-1"
 
+["0.57-0.66"]
+GeoStatsModels = "0.4"
+GeoStatsTransforms = "0.7"
+
+["0.57-0.67"]
+GeoStatsProcesses = "0.6"
+
 ["0.57.1-0.60"]
 DataScienceTraits = "0.3"
 
@@ -568,20 +572,20 @@ Meshes = "0.44"
 ["0.59"]
 Meshes = "0.45"
 
-["0.59.1-0"]
+["0.59.1-0.69"]
 GeoStatsFunctions = "0.4"
 
 ["0.60-0.61"]
 CoordRefSystems = "0.9"
 Meshes = "0.46"
 
-["0.60.2-0"]
+["0.60.2-0.68"]
 GeoStatsBase = "0.45"
 
-["0.61-0"]
+["0.61-0.70.0"]
 DataScienceTraits = "0.4"
 
-["0.61.1-0"]
+["0.61.1-0.68.2"]
 GeoTables = "1.22.0-1"
 
 ["0.62"]
@@ -608,11 +612,34 @@ Meshes = "0.50"
 ["0.65.0"]
 CoordRefSystems = "0.12"
 
-["0.65.1-0"]
+["0.65.1-0.68.0"]
 CoordRefSystems = "0.13"
 
-["0.66-0"]
+["0.66-0.69"]
 Meshes = "0.51"
+
+["0.67-0"]
+GeoStatsTransforms = "0.8"
+
+["0.67-0.68"]
+GeoStatsModels = "0.5"
+
+["0.68"]
+GeoStatsProcesses = "0.7"
+
+["0.68.1-0.68.3"]
+CoordRefSystems = "0.14"
+
+["0.68.3-0"]
+GeoTables = "1.24.0-1"
+
+["0.68.4-0"]
+CoordRefSystems = "0.15"
+
+["0.69-0"]
+GeoStatsBase = "0.46"
+GeoStatsModels = "0.6"
+GeoStatsProcesses = "0.8"
 
 ["0.7.2-0.7"]
 GeoStatsBase = "0.2.5-0.5"
@@ -620,6 +647,13 @@ GeoStatsDevTools = "0.2.3-0.5"
 KrigingEstimators = "0.1.1-0.2"
 StatsBase = "0.25.0-0.33"
 Variography = "0.2.2-0.3"
+
+["0.70-0"]
+GeoStatsFunctions = "0.5"
+Meshes = "0.52"
+
+["0.70.1-0"]
+DataScienceTraits = "1"
 
 ["0.8-0.8.1"]
 GeoStatsBase = "0.3.0-0.5"

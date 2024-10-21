@@ -5,7 +5,6 @@ DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
 DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-EllipsisNotation = "da5c29d0-fa7d-589e-88eb-ea29b0a81949"
 Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
 FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
@@ -13,7 +12,6 @@ GPUArraysCore = "46192b85-c4d5-4398-a991-12ede77f4527"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
-Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 RandomNumbers = "e6cf234a-135c-5ec9-84dd-332b85af5143"
@@ -43,6 +41,10 @@ DiffEqOperators = "9fdde737-9c7f-55bf-ade8-46b3f136cc48"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
 
+["7-7.68"]
+EllipsisNotation = "da5c29d0-fa7d-589e-88eb-ea29b0a81949"
+Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+
 ["7.17-7.48"]
 SimpleNonlinearSolve = "727e6d20-b764-4bd8-a329-72de5adea6c7"
 
@@ -55,6 +57,8 @@ StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
 
 ["7.25-7"]
 SciMLOperators = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
+
+["7.25-7.68"]
 SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
 TruncatedStacktraces = "781d530d-4396-4725-bb49-402e4bee1e77"
 
@@ -82,3 +86,7 @@ SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
 
 ["7.66-7"]
 Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
+
+["7.69-7"]
+FastBroadcast = "7034ab61-46d4-4ed7-9d0f-46aef9175898"
+SciMLJacobianOperators = "19f34311-ddf3-4b8b-af20-060888a46c0e"

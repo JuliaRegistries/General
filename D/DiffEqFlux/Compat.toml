@@ -187,7 +187,7 @@ Cassette = "0.3.7-0.3"
 ["1.40-1.44.0"]
 DiffEqSensitivity = "6.52.0-6"
 
-["1.40-3"]
+["1.40-4"]
 Reexport = ["0.2", "1"]
 
 ["1.41-1.46"]
@@ -225,10 +225,10 @@ Lux = "0.4"
 ["1.5-1.26"]
 ReverseDiff = "1.1.0-1"
 
-["1.51-3"]
+["1.51-4"]
 SciMLSensitivity = "7"
 
-["1.52-3"]
+["1.52-4"]
 ChainRulesCore = "1"
 
 ["1.53-2"]
@@ -255,9 +255,6 @@ LuxCore = "0.1"
 ["2.2-2"]
 Flux = "0.12-0.14"
 
-[3]
-ConcreteStructs = "0.2"
-
 ["3-3.4"]
 ADTypes = "0.2"
 ComponentArrays = "0.15.5-0.15"
@@ -271,15 +268,18 @@ PrecompileTools = "1"
 SciMLBase = "1-2"
 Tracker = "0.2.29-0.2"
 
+[3-4]
+ConcreteStructs = "0.2"
+
 ["3.0"]
 Distributions = "0.23-0.25"
 Zygote = "0.5-0.6"
 
-["3.1-3"]
-Distributions = "0.25"
-
 ["3.1-3.5"]
 Zygote = "0.6"
+
+["3.1-4"]
+Distributions = "0.25"
 
 ["3.2-3.5"]
 RecursiveArrayTools = "2-3"
@@ -292,15 +292,24 @@ ADTypes = "1"
 Adapt = "4"
 Lux = "0.5.50-0.5"
 
-["3.5-3"]
+["3.5-4"]
 LinearAlgebra = "1.10.0-1"
 Random = "1.10.0-1"
 Setfield = "1.1.1-1"
 julia = "1.10.0-1"
 
 ["3.6-3"]
-ADTypes = "1.5.0-1"
 Boltz = "0.4.2-0.4"
 Lux = "0.5.65-0.5"
 LuxLib = "0.3.50-0.3"
+
+["3.6-4"]
+ADTypes = "1.5.0-1"
 SciMLBase = "2"
+
+[4]
+Boltz = "1"
+Lux = "1"
+LuxCore = "1"
+LuxLib = "1.2.0-1"
+Static = "1.1.1-1"

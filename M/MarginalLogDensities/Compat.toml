@@ -16,11 +16,24 @@ julia = "1.7.0-1"
 
 ["0.3-0"]
 ADTypes = "1"
-DifferentiationInterface = "0.5.3-0.5"
 LinearAlgebra = "1"
-Optimization = "3.25.0-3"
-OptimizationOptimJL = "0.3"
 Reexport = "1"
 SparseArrays = "1"
+
+["0.3.0"]
+DifferentiationInterface = "0.5.3-0.5"
+Optimization = "3.25.0-3"
+OptimizationOptimJL = "0.3"
 SparseConnectivityTracer = "0.5"
 julia = "1.9.0-1"
+
+["0.3.1-0"]
+DifferentiationInterface = "0.6.13-0.6"
+Optimization = "4.0.3-4"
+OptimizationOptimJL = "0.4.1-0.4"
+SparseConnectivityTracer = "0.5-0.6"
+SparseMatrixColorings = "0.4.7-0.4"
+julia = "1.10.0-1"
+
+["0.3.2-0"]
+ComponentArrays = "0.15.17-0.15"
