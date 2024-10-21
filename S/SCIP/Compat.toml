@@ -6,7 +6,7 @@ julia = ["0.7", "1"]
 ["0.10-0.10.1"]
 MathOptInterface = "0.10.4-0.10"
 
-["0.10.1-0"]
+["0.10.1-0.11"]
 julia = "1.6.0-1"
 
 ["0.10.2-0.11.13"]
@@ -24,9 +24,14 @@ SCIP_jll = "0.2"
 MathOptInterface = "1.7.0-1"
 OpenBLAS32_jll = "0.3"
 
-["0.11.7-0"]
+["0.11.7-0.11"]
 SCIP_PaPILO_jll = "800"
 SCIP_jll = "800"
+
+["0.12-0"]
+SCIP_PaPILO_jll = "900"
+SCIP_jll = "900"
+julia = "1.10.0-1"
 
 ["0.7"]
 MathOptInterface = "0.8"
