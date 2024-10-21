@@ -1,4 +1,12 @@
-["0.1.2-0"]
+["0.1.16-0"]
+Adapt = "4"
+CUDA = "5.5.0-5"
+ClimaComms = "0.6"
+ClimaCore = "0.14.19-0.14"
+ClimaCoreTempestRemap = "0.3.15-0.3"
+Interpolations = "0.15.1-0.15"
+
+["0.1.2-0.1.15"]
 Interpolations = "0.15"
 
 ["0.1.2-0.1.5"]
@@ -18,9 +26,11 @@ ClimaCore = "0.11-0.14"
 CUDA = "4-5"
 
 ["0.1.8-0"]
+NCDatasets = "0.13.1-0.14"
+
+["0.1.8-0.1.15"]
 Adapt = "3.3.0-4"
 CUDA = "5"
 ClimaComms = "0.5.6-0.6"
 ClimaCore = "0.12-0.14"
 ClimaCoreTempestRemap = "0.3.13-0.3"
-NCDatasets = "0.13.1-0.14"
