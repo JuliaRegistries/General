@@ -195,8 +195,10 @@ Setfield = "1"
 
 ["0.5.17-1"]
 Adapt = "4"
-GPUArraysCore = "0.1.6-0.1"
 MacroTools = "0.5.13-0.5"
+
+["0.5.17-1.1"]
+GPUArraysCore = "0.1.6-0.1"
 
 ["0.5.18"]
 LuxCore = "0.1.8-0.1.23"
@@ -254,7 +256,7 @@ LuxCore = "0.1.14-0.1.23"
 ADTypes = ["0.2", "1"]
 ChainRulesCore = "1.23.0-1"
 
-["0.5.38-1"]
+["0.5.38-1.1"]
 ArrayInterface = "7.9.0-7"
 
 ["0.5.40-0.5.44"]
@@ -290,8 +292,10 @@ LuxDeviceUtils = "0.1.22-0.1"
 EnzymeCore = "0.7.5-0.7"
 
 ["0.5.56-1"]
-LossFunctions = "0.11.1-0.11"
 Statistics = "1.10.0-1"
+
+["0.5.56-1.1"]
+LossFunctions = "0.11.1-0.11"
 
 ["0.5.58-0.5.63"]
 LuxCore = "0.1.16-0.1.23"
@@ -344,9 +348,11 @@ Static = "1.1.1-1"
 ["0.5.66-1"]
 SIMDTypes = "0.1"
 StaticArraysCore = "1.4.3-1"
+
+["0.5.66-1.1"]
 VectorizationBase = "0.21.70-0.21"
 
-["0.5.67-1"]
+["0.5.67-1.1"]
 MLDataDevices = "1.1.0-1"
 
 ["0.5.9"]
@@ -366,8 +372,16 @@ EnzymeCore = "0.7.7-0.7"
 LuxLib = "1.2.0-1"
 NNlib = "0.9.21-0.9"
 
+["1.1"]
+LuxLib = "1.3.0-1"
+
 ["1.1-1"]
 ADTypes = "1.8.1-1"
 EnzymeCore = "0.8.1-0.8"
-LuxLib = "1.3.0-1"
 NNlib = "0.9.24-0.9"
+
+["1.2-1"]
+ArrayInterface = "7.10.0-7"
+GPUArraysCore = "0.1.6-0.2"
+LuxLib = "1.3.4-1"
+MLDataDevices = "1.3.0-1"
