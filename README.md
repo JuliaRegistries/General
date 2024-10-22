@@ -325,8 +325,8 @@ If yanking is urgent, open a PR and raise it on the `#pkg-registration` [slack c
 
 For releases with actively exploited security vulnerabilities (i.e. malicious code) yanking is not suficient.
 In this case, the release should be completely deleted from the registry and a new patch release should be
-issued. This is a drastic measure that breaks reproducibility guarantees and has never been performed as of 
-April, 2024.
+issued. This is a drastic measure that breaks reproducibility guarantees and has been performed once as of 
+October, 2024.
 
 ### My new package registration PR fails one or more AutoMerge checks because of reason [X]. However, the General registry already contains a package PastPackage that does thing [X]. Will registry maintainers consider this PastPackage when they evaluate my new package registration PR?
 
