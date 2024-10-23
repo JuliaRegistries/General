@@ -281,13 +281,13 @@ DynamicPPL = "0.21"
 ["0.22-0.30"]
 Setfield = ["0.8", "1"]
 
-["0.23-0"]
-Libtask = "0.7-0.8"
-julia = "1.7.0-1"
-
 ["0.23-0.29"]
 AdvancedPS = "0.4"
 Statistics = "1.7.0-1"
+
+["0.23-0.34"]
+Libtask = "0.7-0.8"
+julia = "1.7.0-1"
 
 ["0.23.1-0"]
 LogDensityProblems = "2"
@@ -386,6 +386,8 @@ DynamicPPL = "0.25.1-0.25"
 
 ["0.31-0"]
 Accessors = "0.1"
+
+["0.31-0.34"]
 BangBang = "0.4"
 
 ["0.31.2-0"]
@@ -404,10 +406,12 @@ OrderedCollections = "1"
 ADTypes = "1"
 
 ["0.33-0"]
-ADTypes = ["0.2", "1"]
 Compat = "4.15.0-4"
 Optimization = "3"
 OptimizationOptimJL = "0.1-0.3"
+
+["0.33-0.34"]
+ADTypes = ["0.2", "1"]
 
 ["0.33.1"]
 DynamicPPL = "0.28"
@@ -416,13 +420,23 @@ DynamicPPL = "0.28"
 LinearAlgebra = "1"
 Printf = "1"
 Random = "1"
+
+["0.33.1-0.34"]
 SciMLBase = "1.92.1-2"
 
 ["0.33.2"]
 DynamicPPL = "0.28.1-0.28"
 
-["0.33.3-0"]
+["0.33.3-0.34"]
 DynamicPPL = "0.28.2-0.28"
+
+["0.35-0"]
+ADTypes = "1.9.0-1"
+BangBang = "0.4.2-0.4"
+DynamicPPL = "0.29"
+Libtask = "0.8.8-0.8"
+SciMLBase = "2"
+julia = "1.10.0-1"
 
 ["0.5.1-0.6.14"]
 Bijectors = "0-0.2"
@@ -570,7 +584,7 @@ Requires = "1"
 ["0.8.1"]
 AdvancedHMC = "0.2.17-0.2"
 
-["0.8.1-0"]
+["0.8.1-0.34"]
 Requires = ["0.5", "1"]
 
 ["0.8.1-0.8"]
