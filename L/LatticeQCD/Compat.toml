@@ -7,13 +7,15 @@ GR = "0.62"
 [0-1]
 Plots = "1"
 Requires = "1"
-julia = "1.6.0-1"
 
 ["0-1.0.3"]
 Distributions = "0.25"
 EzXML = "1"
 FastGaussQuadrature = "0.4"
 SpecialFunctions = "1"
+
+["0-1.1"]
+julia = "1.6.0-1"
 
 ["0.1.1-0"]
 KrylovKit = "0.5"
@@ -56,3 +58,6 @@ GR = ["0.62", "0.71-0.73"]
 Gaugefields = "0.2.8-0.2"
 QCDMeasurements = "0.1.6-0.1"
 Wilsonloop = "0.1.5-0.1"
+
+["1.2-1"]
+julia = "1.10.0-1"
