@@ -1,14 +1,16 @@
 [0]
 BenchmarkTools = "1"
-Dates = "1"
 JuliaFormatter = "1"
+RegularExpressions = "0.1"
+julia = "1"
+
+["0-0.4.18"]
+Dates = "1"
 LinearAlgebra = "1"
 Logging = "1"
 Printf = "1"
-RegularExpressions = "0.1"
 SparseArrays = "1"
 Test = "1"
-julia = "1"
 
 ["0-0.4.8"]
 HTTP = "1"
@@ -17,3 +19,10 @@ UUIDs = "1"
 
 ["0.4.11-0"]
 Documenter = "1"
+
+["0.4.19-0"]
+Dates = "1.11.0-1"
+LinearAlgebra = "1.11.0-1"
+Logging = "1.11.0-1"
+Printf = "1.11.0-1"
+SparseArrays = "1.11.0-1"
