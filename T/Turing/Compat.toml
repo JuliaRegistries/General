@@ -407,11 +407,13 @@ ADTypes = "1"
 
 ["0.33-0"]
 Compat = "4.15.0-4"
-Optimization = "3"
-OptimizationOptimJL = "0.1-0.3"
 
 ["0.33-0.34"]
 ADTypes = ["0.2", "1"]
+
+["0.33-0.35.0"]
+Optimization = "3"
+OptimizationOptimJL = "0.1-0.3"
 
 ["0.33.1"]
 DynamicPPL = "0.28"
@@ -433,10 +435,17 @@ DynamicPPL = "0.28.2-0.28"
 ["0.35-0"]
 ADTypes = "1.9.0-1"
 BangBang = "0.4.2-0.4"
-DynamicPPL = "0.29"
 Libtask = "0.8.8-0.8"
 SciMLBase = "2"
 julia = "1.10.0-1"
+
+["0.35.0"]
+DynamicPPL = "0.29"
+
+["0.35.1-0"]
+DynamicPPL = ["0.29", "0.30.2-0.30"]
+Optimization = "3-4"
+OptimizationOptimJL = "0.1-0.4"
 
 ["0.5.1-0.6.14"]
 Bijectors = "0-0.2"
