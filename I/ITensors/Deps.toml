@@ -1,5 +1,4 @@
 [0]
-KrylovKit = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
@@ -11,6 +10,9 @@ NDTensors = "23ae76d9-e61a-49c4-8f12-3f1a16adf9cf"
 
 ["0-0.3"]
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+
+["0-0.6"]
+KrylovKit = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
 
 ["0.1.13-0.4"]
 PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
@@ -35,8 +37,10 @@ ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 
 ["0.2.11-0"]
-LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
 Zeros = "bd1ec220-6eb4-527a-9b49-e79c3db6233b"
+
+["0.2.11-0.6"]
+LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
 
 ["0.2.12-0"]
 NDTensors = "23ae76d9-e61a-49c4-8f12-3f1a16adf9cf"
@@ -58,7 +62,7 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 ["0.3.59-0.3.64"]
 Observers = "338f10d5-c7f1-4033-a7d1-f9dec39bcaa0"
 
-["0.3.63-0"]
+["0.3.63-0.6"]
 PackageExtensionCompat = "65ce6f38-6b18-4e1d-a461-8949797d7930"
 
 ["0.3.8-0"]
