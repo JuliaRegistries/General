@@ -1,4 +1,18 @@
 [0]
-ITensorTDVP = "25707e16-a4db-4a07-99d9-4d67b7af0342"
 ITensors = "9136182c-28ba-11e9-034c-db9fb085ebd5"
+
+["0-0.2"]
+ITensorTDVP = "25707e16-a4db-4a07-99d9-4d67b7af0342"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.3-0"]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+IsApprox = "28f27b66-4bd8-47e7-9110-e2746eb8bed7"
+KrylovKit = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+NDTensors = "23ae76d9-e61a-49c4-8f12-3f1a16adf9cf"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SerializedElementArrays = "d3ce8812-9567-47e9-a7b5-65a6d70a3065"
+TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"

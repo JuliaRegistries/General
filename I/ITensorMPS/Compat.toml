@@ -1,11 +1,11 @@
-[0]
-Reexport = "1"
-
 ["0-0.1"]
 ITensorTDVP = "0.3"
 
 ["0-0.1.0"]
 ITensors = "0.5.2-0.5"
+
+["0-0.2"]
+Reexport = "1"
 
 ["0-0.2.5"]
 julia = "1.6.0-1"
@@ -19,11 +19,24 @@ ITensors = "0.3-0.6"
 ["0.2.0"]
 ITensorTDVP = "0.4"
 
-["0.2.1-0"]
+["0.2.1-0.2"]
 ITensorTDVP = "0.4.1-0.4"
 
-["0.2.2-0"]
+["0.2.2-0.2"]
 ITensors = "0.6.7-0.6"
 
 ["0.2.6-0"]
 julia = "1.10.0-1"
+
+["0.3-0"]
+Adapt = "4.1.0-4"
+Compat = "4.16.0-4"
+ITensors = "0.7"
+IsApprox = "2"
+KrylovKit = "0.8.1-0.8"
+LinearAlgebra = "1.10.0-1"
+NDTensors = "0.3.46-0.3"
+Printf = "1.10.0-1"
+Random = "1.10.0-1"
+SerializedElementArrays = "0.1"
+TupleTools = "1.5.0-1"
