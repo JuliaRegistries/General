@@ -10,7 +10,6 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NFFT = "efe261a4-0d2b-5849-be55-fc731d526b0d"
 Nullables = "4d1e1d77-625e-5b40-9113-a560ec7a8ecd"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
@@ -20,5 +19,11 @@ Wavelets = "29a6e085-ba6d-5f35-a997-948ac2efa89a"
 ["0-0.7"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.8"]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
 ["0.8.4-0"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+
+["0.9-0"]
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
