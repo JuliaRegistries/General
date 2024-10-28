@@ -22,8 +22,10 @@ Primes = "0.5"
 ProgressMeter = "1.7.0-1"
 
 ["0.10-0"]
-Dates = "1.9.0-1"
 GPUArrays = "10"
+
+["0.10-0.11"]
+Dates = "1.9.0-1"
 LinearAlgebra = "1.9.0-1"
 Printf = "1.9.0-1"
 Random = "1.9.0-1"
@@ -32,6 +34,14 @@ julia = "1.9.0-1"
 
 ["0.11-0"]
 JLD2 = "0.4-0.5"
+
+["0.12-0"]
+Dates = "1.10.0-1"
+LinearAlgebra = "1.10.0-1"
+Printf = "1.10.0-1"
+Random = "1.10.0-1"
+Statistics = "1.10.0-1"
+julia = "1.10.0-1"
 
 ["0.2-0.4"]
 UnicodePlots = "2.10.0-3"
@@ -89,9 +99,11 @@ UnicodePlots = "3.3.0-3"
 NCDatasets = "0.12-0.13"
 
 ["0.7-0"]
-CUDA = "4-5"
 FastGaussQuadrature = ["0.4-0.5", "1"]
 TOML = "1"
+
+["0.7-0.11"]
+CUDA = "4-5"
 
 ["0.7-0.9"]
 Dates = "1.8.0-1"
