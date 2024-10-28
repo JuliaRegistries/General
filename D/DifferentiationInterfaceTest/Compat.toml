@@ -37,7 +37,6 @@ SparseArrays = "1"
 LinearAlgebra = ["0.0.0", "1"]
 SparseArrays = ["0.0.0", "1"]
 Test = ["0.0.0", "1"]
-julia = "1.6.0-1"
 
 ["0.3.1-0.3"]
 DifferentiationInterface = "0.3.4-0.3"
@@ -47,6 +46,9 @@ JET = "0.4-0.8"
 
 ["0.3.1-0.5"]
 Compat = "4"
+
+["0.3.1-0.8.2"]
+julia = "1.6.0-1"
 
 ["0.4.0"]
 DifferentiationInterface = "0.4"
@@ -83,3 +85,7 @@ PackageExtensionCompat = "1"
 
 ["0.7-0"]
 DifferentiationInterface = "0.6"
+
+["0.8.5-0"]
+AllocCheck = "0.2"
+julia = "1.10.0-1"
