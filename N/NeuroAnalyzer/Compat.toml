@@ -1,32 +1,53 @@
-["0-0.24.1"]
+["0 - 0.24.1"]
 julia = "1"
 
-["0.24.10-0"]
-DICOM = "0.11"
+["0.24.10"]
 JLD2 = "0.4-0.5"
-Jacobi = "0.7"
 TimeZones = "1.18.0-1"
+
+["0.24.10 - 0"]
+DICOM = "0.11"
+Jacobi = "0.7"
 WaveletsExt = "0.2"
 
-["0.24.2-0"]
+["0.24.11 - 0"]
+CUDA = "5.5.0 - 5"
+Cairo = "1.1.0 - 1"
+DataFrames = "1.6.0 - 1"
+FFTW = "1.8.0 - 1"
+FileIO = "1.16.0 - 1"
+FindPeaks1D = "0.1.8 - 0.1"
+GLM = "1.8.0 - 1"
+Git = "1.3.0 - 1"
+Gtk = "1.3.0 - 1"
+Interpolations = "0.14 - 0.15"
+JLD2 = "0.4 - 0.5"
+Logging = "1.11.0 - 1"
+Plots = "1.40.0 - 1"
+Polynomials = "3.2.0 - 4"
+Preferences = "1.4.0 - 1"
+PrettyTables = "2.3.0 - 2"
+ProgressMeter = "1.10.0 - 1"
+Simpson = "1.0.1 - 1"
+Static = "1.1.0 - 1"
+StatsFuns = "1.3.0 - 1"
+TimeZones = "1.18.0 - 1"
+WAV = "1.2.0 - 1"
+Wavelets = "0.9 - 0.10"
+julia = "1.10.0 - 1"
+
+["0.24.2 - 0"]
 CSV = "0.10"
-CUDA = "5"
-Cairo = "1"
 ColorSchemes = "3"
 ContinuousWavelets = "1"
 CubicSplines = "0.2"
 DSP = "0.7"
-DataFrames = "1.6.0-1"
 Deconvolution = "1"
 Distances = "0.10"
 FIRLSFilterDesign = "0.1"
-FindPeaks1D = "0.1.8-0.1"
 FourierTools = "0.4"
-GLM = "1.8.0-1"
 GPUArrays = "10"
 GeometryBasics = "0.4"
-Git = "1.3.0-1"
-Gtk = "1.3.0-1"
 HypothesisTests = "0.11"
 ImageBinarization = "0.3"
 ImageFiltering = "0.7"
@@ -34,28 +55,37 @@ ImageIO = "0.6"
 ImageMorphology = "0.4"
 Images = "0.26"
 InformationMeasures = "0.3"
-Interpolations = "0.14-0.15"
 JSON = "0.21"
 Loess = "0.6"
 MAT = "0.10"
 MultivariateStats = "0.10"
 NPZ = "0.4"
-Preferences = "1.4.0-1"
-PrettyTables = "2.3.0-2"
 SavitzkyGolay = "0.7"
 ScatteredInterpolation = "0.3"
-Simpson = "1.0.1-1"
 StatsKit = "0.3"
 StatsModels = "0.7"
 StatsPlots = "0.15"
-Wavelets = "0.9-0.10"
 XDF = "0.2"
+
+["0.24.2 - 0.24.10"]
+CUDA = "5"
+Cairo = "1"
+DataFrames = "1.6.0-1"
+FindPeaks1D = "0.1.8-0.1"
+GLM = "1.8.0-1"
+Git = "1.3.0-1"
+Gtk = "1.3.0-1"
+Interpolations = "0.14-0.15"
+Preferences = "1.4.0-1"
+PrettyTables = "2.3.0-2"
+Simpson = "1.0.1-1"
+Wavelets = "0.9-0.10"
 julia = "1.10.0-1"
 
-["0.24.2-0.24.3"]
+["0.24.2 - 0.24.3"]
 Jacobi = "0.5-0.6"
 
-["0.24.2-0.24.6"]
+["0.24.2 - 0.24.6"]
 DICOM = "0.10"
 FFTW = "1.7.0-1"
 FileIO = "1.10.0-1"
@@ -66,23 +96,23 @@ StatsFuns = "1"
 TimeZones = "1.10.0-1"
 WaveletsExt = "0.2"
 
-["0.24.2-0.24.9"]
+["0.24.2 - 0.24.9"]
 JLD2 = "0.4"
 
-["0.24.3-0"]
+["0.24.3 - 0.24.10"]
 WAV = "1.2.0-1"
 
-["0.24.4-0"]
+["0.24.4 - 0"]
 LibSerialPort = "0.5"
 PiGPIO = "0.2"
 
-["0.24.4-0.24.9"]
+["0.24.4 - 0.24.9"]
 Jacobi = "0.5-0.7"
 
-["0.24.5-0"]
+["0.24.5 - 0"]
 MLJ = "0.20"
 
-["0.24.7-0"]
+["0.24.7 - 0.24.10"]
 FFTW = "1.8.0-1"
 FileIO = "1.16.0-1"
 Plots = "1.40.0-1"
@@ -90,11 +120,13 @@ Polynomials = "3.2.0-4"
 ProgressMeter = "1.10.0-1"
 StatsFuns = "1.3.0-1"
 
-["0.24.7-0.24.9"]
+["0.24.7 - 0.24.9"]
 DICOM = "0.10-0.11"
 TimeZones = "1.17.0-1"
 WaveletsExt = "0.1.10-0.2"
 
-["0.24.8-0"]
+["0.24.8 - 0"]
 LinRegOutliers = "0.11"
+
+["0.24.8 - 0.24.10"]
 Static = "1.1.0-1"
