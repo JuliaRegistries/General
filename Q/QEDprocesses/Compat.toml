@@ -1,12 +1,19 @@
-[0]
-julia = "1.6.0-1"
-
 ["0-0.1"]
 DocStringExtensions = "0.9"
 QEDbase = "0.1"
 
-["0.2-0"]
+["0-0.2"]
+julia = "1.6.0-1"
+
+["0.2"]
 QEDbase = "0.2.2-0.2"
 QEDcore = "0.1"
+
+["0.2-0"]
 QuadGK = "2"
 StaticArrays = "1"
+
+["0.3-0"]
+QEDbase = "0.3"
+QEDcore = "0.2"
+julia = "1.10.0-1"
