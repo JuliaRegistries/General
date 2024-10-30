@@ -1,17 +1,14 @@
 [0]
 CSV = "0.10"
 DataFrames = "1.6.0-1"
-DiffEqCallbacks = "2.25.0-3"
 FastPow = "0.1"
 ForwardDiff = "0.10"
 JSON = "0.21"
 MuladdMacro = "0.2"
 RecipesBase = "1"
 Reexport = "1"
-SciMLBase = "1-2"
 StaticArrays = "1"
 StrideArrays = "0.1"
-TimerOutputs = "0.5"
 WriteVTK = "1"
 julia = "1.9.0-1"
 
@@ -25,6 +22,11 @@ TrixiBase = "0.1"
 ["0-0.2.0"]
 Polyester = "0.7.5-0.7"
 
+["0-0.2.2"]
+DiffEqCallbacks = "2.25.0-3"
+SciMLBase = "1-2"
+TimerOutputs = "0.5"
+
 ["0.1.2-0"]
 Adapt = "3-4"
 
@@ -35,9 +37,11 @@ PointNeighbors = "0.2"
 TrixiBase = "0.1.3-0.1"
 
 ["0.2-0"]
-GPUArraysCore = "0.1"
 KernelAbstractions = "0.9"
 PointNeighbors = "0.4.2-0.4"
+
+["0.2-0.2.2"]
+GPUArraysCore = "0.1"
 
 ["0.2.1-0"]
 FileIO = "1"
@@ -45,3 +49,9 @@ Polyester = "0.7.10-0.7"
 
 ["0.2.2-0"]
 DelimitedFiles = "1"
+
+["0.2.3-0"]
+DiffEqCallbacks = "2-4"
+GPUArraysCore = "0.1-0.2"
+SciMLBase = "2"
+TimerOutputs = "0.5.25-0.5"
