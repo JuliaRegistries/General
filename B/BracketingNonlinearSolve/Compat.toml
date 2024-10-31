@@ -1,7 +1,14 @@
 [1]
 CommonSolve = "0.2.4-0.2"
 ConcreteStructs = "0.2.3-0.2"
-NonlinearSolveBase = "1"
 PrecompileTools = "1.2.0-1"
-SciMLBase = "2.50.0-2"
 julia = "1.10.0-1"
+
+["1.0"]
+NonlinearSolveBase = "1"
+SciMLBase = "2.50.0-2"
+
+["1.1-1"]
+NonlinearSolveBase = "1.1.0-1"
+Reexport = "1.2.0-1"
+SciMLBase = "2.58.0-2"
