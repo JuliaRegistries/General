@@ -85,12 +85,14 @@ ContinuumArrays = "0.16-0.17"
 
 ["0.3-0"]
 BandedMatrices = "1"
-FastTransforms = "0.15-0.16"
 julia = "1.10.0-1"
 
 ["0.3-0.3.1"]
 ClassicalOrthogonalPolynomials = "0.12"
 LazyArrays = "1.10.0-1"
+
+["0.3-0.3.2"]
+FastTransforms = "0.15-0.16"
 
 ["0.3.0"]
 ContinuumArrays = "0.17"
@@ -98,9 +100,19 @@ ContinuumArrays = "0.17"
 ["0.3.1"]
 ContinuumArrays = "0.17.2-0.17"
 
-["0.3.2-0"]
+["0.3.2"]
 ClassicalOrthogonalPolynomials = "0.12-0.13"
 ContinuumArrays = "0.17.2-0.18"
 InfiniteArrays = "0.13-0.14"
 LazyArrays = "1.10.0-2"
 LazyBandedMatrices = "0.9-0.10"
+
+["0.3.3-0"]
+ClassicalOrthogonalPolynomials = "0.13.7-0.13"
+ContinuumArrays = "0.18"
+FastTransforms = "0.16"
+InfiniteArrays = "0.14"
+LazyArrays = "2"
+LazyBandedMatrices = "0.10"
+RecurrenceRelationshipArrays = "0.1"
+RecurrenceRelationships = "0.1"
