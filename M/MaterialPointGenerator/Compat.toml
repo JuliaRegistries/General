@@ -1,4 +1,13 @@
 [0]
 DelimitedFiles = "1"
-Interpolations = "0.15"
 julia = "1.10.0-1"
+
+["0-0.1.0"]
+Interpolations = "0.15"
+
+["0.1.1-0"]
+Gmsh = "0.3"
+KernelAbstractions = "0.9"
+PrecompileTools = "1.2.0-1"
+Suppressor = "0.2"
+Surrogates = "6.10.0-6"
