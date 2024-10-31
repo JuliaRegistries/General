@@ -11,6 +11,19 @@ FunctionProperties = "0.1.2-0.1"
 LinearAlgebra = "1.10.0-1"
 Markdown = "1.10.0-1"
 RecursiveArrayTools = "3"
-SciMLBase = "2.50.0-2"
 StaticArraysCore = "1.4.0-1"
 julia = "1.10.0-1"
+
+["1.0"]
+SciMLBase = "2.50.0-2"
+
+["1.1-1"]
+Adapt = "4.1.0-4"
+MaybeInplace = "0.1.4-0.1"
+Preferences = "1.4.0-1"
+Printf = "1.10.0-1"
+SciMLBase = "2.58.0-2"
+SciMLJacobianOperators = "0.1.1-0.1"
+SciMLOperators = "0.3.10-0.3"
+SymbolicIndexingInterface = "0.3.31-0.3"
+TimerOutputs = "0.5.23-0.5"
