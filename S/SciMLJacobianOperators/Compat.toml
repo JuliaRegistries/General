@@ -2,9 +2,16 @@
 ADTypes = "1.8.1-1"
 ConcreteStructs = "0.2.3-0.2"
 ConstructionBase = "1.5.0-1"
-DifferentiationInterface = "0.6.1-0.6"
 FastClosures = "0.3.2-0.3"
 LinearAlgebra = "1.10.0-1"
-SciMLBase = "2.54.0-2"
 SciMLOperators = "0.3"
 julia = "1.10.0-1"
+
+["0-0.1.0"]
+DifferentiationInterface = "0.6.1-0.6"
+SciMLBase = "2.54.0-2"
+
+["0.1.1-0"]
+ArrayInterface = "7.16.0-7"
+DifferentiationInterface = "0.6.16-0.6"
+SciMLBase = "2.58.0-2"
