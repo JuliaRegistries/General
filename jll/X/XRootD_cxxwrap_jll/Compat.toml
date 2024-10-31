@@ -1,7 +1,15 @@
 [0]
-Artifacts = "1"
 JLLWrappers = "1.2.0-1"
+julia = "1.6.0-1"
+
+["0-0.1"]
+Artifacts = "1"
 Libdl = "1"
 XRootD_jll = "5.6.9-5.6"
-julia = "1.6.0-1"
 libcxxwrap_julia_jll = "0.11.2-0.11"
+
+["0.2-0"]
+Artifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]
+XRootD_jll = "5.7.1-5.7"
+libcxxwrap_julia_jll = "0.13.2-0.13"
