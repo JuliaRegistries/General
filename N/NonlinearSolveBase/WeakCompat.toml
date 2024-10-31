@@ -1,4 +1,13 @@
 [1]
-DiffEqBase = "6.149.0-6"
 ForwardDiff = "0.10.36-0.10"
 SparseArrays = "1.10.0-1"
+
+["1.0"]
+DiffEqBase = "6.149.0-6"
+
+["1.1-1"]
+BandedMatrices = "1.5.0-1"
+DiffEqBase = "6.158.3-6"
+LineSearch = "0.1.4-0.1"
+LinearSolve = "2.36.1-2"
+SparseMatrixColorings = "0.4.5-0.4"
