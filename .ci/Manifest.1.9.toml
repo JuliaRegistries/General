@@ -97,9 +97,9 @@ version = "5.9.0"
 
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "ConcurrentUtilities", "Dates", "ExceptionUnwrapping", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
-git-tree-sha1 = "d1d712be3164d61d1fb98e7ce9bcbc6cc06b45ed"
+git-tree-sha1 = "bc3f416a965ae61968c20d0ad867556367f2817d"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "1.10.8"
+version = "1.10.9"
 
 [[deps.InlineStrings]]
 git-tree-sha1 = "45521d31238e87ee9f9732561bfee12d4eebd52d"
@@ -257,9 +257,9 @@ uuid = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [[deps.RegistryCI]]
 deps = ["Base64", "Dates", "GitHub", "HTTP", "JSON", "LibGit2", "LicenseCheck", "Pkg", "Printf", "Random", "RegistryTools", "SHA", "StringDistances", "TOML", "Tar", "Test", "TimeZones", "VisualStringDistances"]
-git-tree-sha1 = "214e2ab7d5adcb5c76c9fa45eff2b9208685f32d"
+git-tree-sha1 = "0ffd5ddfdbb91778e24078d98a96511c82d8c69d"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "10.8.1"
+version = "10.9.0"
 
 [[deps.RegistryTools]]
 deps = ["LibGit2", "Pkg", "SHA", "UUIDs"]
@@ -361,9 +361,9 @@ uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [[deps.TimeZones]]
 deps = ["Dates", "Downloads", "InlineStrings", "Mocking", "Printf", "Scratch", "TZJData", "Unicode", "p7zip_jll"]
-git-tree-sha1 = "8323074bc977aa85cf5ad71099a83ac75b0ac107"
+git-tree-sha1 = "33c771f2157712ff4c85931186a4984efbe58934"
 uuid = "f269a46b-ccf7-5d73-abea-4c690281aa53"
-version = "1.18.1"
+version = "1.19.0"
 
     [deps.TimeZones.extensions]
     TimeZonesRecipesBaseExt = "RecipesBase"
