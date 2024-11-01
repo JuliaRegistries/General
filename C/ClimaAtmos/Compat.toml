@@ -286,7 +286,6 @@ ClimaParams = "0.10.12-0.10"
 ClimaCore = "0.14.11-0.14"
 
 ["0.27.5-0"]
-Adapt = "3.7.0-4"
 AtmosphericProfilesLibrary = "0.1.7-0.1"
 ClimaComms = "0.6.4-0.6"
 ClimaCore = "0.14.12-0.14"
@@ -302,13 +301,21 @@ StaticArrays = "1.7.0-1"
 SurfaceFluxes = "0.11-0.12"
 julia = "1.9.0-1"
 
+["0.27.5-0.27.7"]
+Adapt = "3.7.0-4"
+
 ["0.27.6-0"]
 CloudMicrophysics = "0.22.3-0.22"
 Thermodynamics = "0.12.8-0.12"
+
+["0.27.6-0.27.7"]
 UnrolledUtilities = "0.1.5-0.1"
 
 ["0.27.7-0"]
 Random = "1"
+
+["0.27.8-0"]
+UnrolledUtilities = "0.1.6-0.1"
 
 ["0.3"]
 StochasticDiffEq = "6.41.0-6"
