@@ -1,5 +1,11 @@
 [0]
-ITensorTDVP = "0.4"
-ITensors = ["0.3.62-0.3", "0.6"]
 StaticArrays = "1"
 julia = "1"
+
+["0-0.2.5"]
+ITensorTDVP = "0.4"
+ITensors = ["0.3.62-0.3", "0.6"]
+
+["0.2.6-0"]
+ITensorMPS = "0.3.1-0.3"
+ITensors = "0.7"
