@@ -8,7 +8,7 @@ UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 ["0-0.1.11"]
 ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
 
-[0-1]
+[0-2]
 FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
@@ -17,38 +17,44 @@ SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 ["0.1.1-0.1.14"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 
-["0.1.1-1"]
+["0.1.1-2"]
 StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
 
 ["0.1.11-0.1.16"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["0.1.12-1"]
+["0.1.12-2"]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 
-["0.1.15-1"]
+["0.1.15-2"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["0.1.17-0.1.24"]
 PackageExtensionCompat = "65ce6f38-6b18-4e1d-a461-8949797d7930"
 
-["0.1.5-1"]
+["0.1.5-2"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.1.6-1"]
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 
-[1]
+[1-2]
 ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
 MaybeInplace = "bb5d69b7-63fc-4a16-80bd-7e42200c7bdb"
 
-["1.3-1"]
+["1.3-2"]
 FastClosures = "9aa1b823-49e4-5ca5-8b0f-3971ec8bab6a"
 
 ["1.6-1"]
 DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
 
-["1.9-1"]
+["1.9-2"]
 DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+
+[2]
+BracketingNonlinearSolve = "70df07ce-3d50-431d-a3e7-ca6ddb60ac1e"
+CommonSolve = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
+LineSearch = "87fe0de2-c867-4266-b59a-2f0a94fc965b"
+NonlinearSolveBase = "be0214bd-f91f-a760-ac4e-3421ce2b2da0"
