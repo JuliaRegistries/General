@@ -1,7 +1,16 @@
 [0]
-AstroForceModels = "0.3.3-0.3"
 ComponentArrays = "0.15"
 LinearAlgebra = "1"
-Reexport = "1.2.0-1"
 StaticArraysCore = "1"
+
+["0-0.1.0"]
+AstroForceModels = "0.3.3-0.3"
+Reexport = "1.2.0-1"
 julia = "1.10.0-1"
+
+["0.1.1-0"]
+AstroCoords = "0.2"
+AstroForceModels = "0.3"
+OrdinaryDiffEqAdamsBashforthMoulton = "1.1.0-1"
+OrdinaryDiffEqCore = "1.6.0-1"
+julia = "1.11.0-1"
