@@ -9,7 +9,7 @@ Makie = "0.15-0.17"
 Interpolations = "0.13-0.14"
 UnPack = "1"
 
-[0-1]
+[0-2]
 FFTW = "1"
 IterativeSolvers = "0.9"
 WriteVTK = "1"
@@ -30,6 +30,8 @@ Makie = "0.20"
 
 ["0.5-1"]
 Adapt = "3-4"
+
+["0.5-2"]
 ChainRulesCore = "1"
 KernelAbstractions = "0.9"
 LinearAlgebra = "1"
@@ -43,8 +45,14 @@ Statistics = "1"
 julia = "1.9.0-1"
 
 ["0.6-1"]
-DocStringExtensions = "0.9"
 Makie = "0.20-0.21"
 
-[1]
+["0.6-2"]
+DocStringExtensions = "0.9"
+
+[1-2]
 PrecompileTools = "1"
+
+[2]
+Adapt = "4"
+Makie = "0.21"
