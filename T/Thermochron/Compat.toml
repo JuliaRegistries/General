@@ -1,9 +1,11 @@
 [0]
 ProgressMeter = "1"
-julia = "1.8.0-1"
 
 ["0-0.5"]
 Statistics = "1.8.0-1"
+
+["0-0.9.1"]
+julia = "1.8.0-1"
 
 ["0.2-0"]
 LoopVectorization = "0.12"
@@ -28,3 +30,7 @@ StatGeochemBase = "0.4.3-0.5"
 
 ["0.9.1-0"]
 StatGeochemBase = "0.4.3-0.6"
+
+["0.9.2-0"]
+LinearAlgebra = "1.11.0-1"
+julia = "1.11.0-1"
