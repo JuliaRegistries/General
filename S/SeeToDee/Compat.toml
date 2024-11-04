@@ -2,10 +2,12 @@
 ForwardDiff = "0.10"
 PreallocationTools = "0.4"
 StaticArrays = "1"
-julia = "1.9.0-1"
 
 ["1-1.1.2"]
 NonlinearSolve = "1"
+
+["1-1.2"]
+julia = "1.9.0-1"
 
 ["1-1.2.1"]
 FastGaussQuadrature = "0.5"
@@ -13,8 +15,12 @@ FastGaussQuadrature = "0.5"
 ["1.1.3-1.2.0"]
 SimpleNonlinearSolve = "0.1"
 
-["1.2.1-1"]
+["1.2.1-1.2"]
 SimpleNonlinearSolve = "1"
 
 ["1.2.2-1"]
 FastGaussQuadrature = "1"
+
+["1.3-1"]
+SimpleNonlinearSolve = "2"
+julia = "1.10.0-1"
