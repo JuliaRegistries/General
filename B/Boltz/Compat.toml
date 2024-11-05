@@ -72,7 +72,7 @@ Lux = "0.5.62-0.5"
 LuxCore = "0.1.21-0.1"
 MLDataDevices = "1"
 
-["0.3.11-1"]
+["0.3.11-1.0.1"]
 ADTypes = "1.5.0-1"
 NNlib = "0.9.21-0.9"
 
@@ -84,9 +84,11 @@ MLDataDevices = "1.0.1-1"
 Lux = "0.5.65-0.5"
 
 ["0.3.12-1"]
-Artifacts = "1.10.0-1"
 Compat = "4.15.0-4"
 WeightInitializers = "1"
+
+["0.3.12-1.0.1"]
+Artifacts = "1.10.0-1"
 
 ["0.3.2"]
 GPUArraysCore = "0.1"
@@ -106,7 +108,7 @@ Lux = "0.5.18-0.5"
 ["0.3.3-0.3.9"]
 PrecompileTools = "1.2.0-1"
 
-["0.3.3-1"]
+["0.3.3-1.0.1"]
 GPUArraysCore = "0.1.6-0.1"
 
 ["0.3.4-0.3"]
@@ -145,7 +147,17 @@ Lux = "0.5.66-0.5"
 
 [1]
 Functors = "0.4.12-0.4"
-Lux = "1"
 LuxCore = "1"
-MLDataDevices = "1.1.0-1"
 Static = "1.1.1-1"
+
+["1-1.0.1"]
+Lux = "1"
+MLDataDevices = "1.1.0-1"
+
+["1.0.2-1"]
+ADTypes = "1.9.0-1"
+Artifacts = "1"
+GPUArraysCore = "0.1.6-0.2"
+Lux = "1.2.0-1"
+MLDataDevices = "1.5.0-1"
+NNlib = "0.9.24-0.9"
