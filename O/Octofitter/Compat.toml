@@ -8,7 +8,7 @@ Statistics = "1.9.0-1"
 [1-2]
 MathTeXEngine = "0.5"
 
-[1-4]
+[1-5]
 BasicInterpolators = "0.7"
 DataDeps = "0.7"
 DelimitedFiles = "1"
@@ -47,6 +47,8 @@ RecipesBase = "1.3.0-1"
 
 ["1.0.1-4"]
 Bijectors = "0.13"
+
+["1.0.1-5"]
 Latexify = "0.15-0.16"
 PrecompileTools = "1.1.2-1"
 StaticArrays = "1.6.0-1"
@@ -61,7 +63,7 @@ Enzyme = "0.11"
 [2-3]
 Pathfinder = "0.8"
 
-[2-4]
+[2-5]
 AdvancedHMC = "0.6"
 CovarianceEstimation = "0.2"
 Dates = "1"
@@ -76,10 +78,10 @@ Transducers = "0.4"
 ["2.0"]
 AbstractMCMC = "5"
 
-["2.1-4"]
+["2.1-5"]
 AbstractMCMC = "4-5"
 
-["2.5-4"]
+["2.5-5"]
 HDF5 = "0.17"
 StringDistances = "0.11"
 
@@ -87,15 +89,23 @@ StringDistances = "0.11"
 PlanetOrbits = "0.9"
 
 [3-4]
-HORIZONS = "0.4"
-KernelDensity = "0.6"
-MathTeXEngine = "0.6"
 Optimization = "3.25.0-3"
 OptimizationOptimJL = "0.3"
 
-[4]
+[3-5]
+HORIZONS = "0.4"
+KernelDensity = "0.6"
+MathTeXEngine = "0.6"
+
+[4-5]
 CSV = "0.10"
 Distances = "0.10"
 HTTP = "1"
 Pathfinder = "0.9"
 PlanetOrbits = "0.10"
+
+[5]
+Bijectors = "0.14"
+Bumper = "0.7"
+Optimization = "4"
+OptimizationOptimJL = "0.4"
