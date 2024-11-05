@@ -2,7 +2,6 @@
 ChainRulesCore = ["0.10.7-0.10", "1"]
 FiniteDiff = "2"
 ForwardDiff = "0.10"
-GPUArraysCore = "0.1"
 RandomNumbers = "1.5.3-1"
 
 ["7-7.13"]
@@ -54,6 +53,9 @@ DiffEqOperators = "4.34.0-4"
 ["7-7.68"]
 EllipsisNotation = "1"
 Parameters = "0.12"
+
+["7-7.69"]
+GPUArraysCore = "0.1"
 
 ["7.0"]
 DiffEqBase = "6.90.0-6"
@@ -158,7 +160,7 @@ SciMLBase = "1.66.0-2"
 ["7.41.1-7"]
 FunctionProperties = "0.1"
 
-["7.42-7"]
+["7.42-7.69"]
 Functors = "0.4"
 
 ["7.47-7.51"]
@@ -228,14 +230,14 @@ DiffEqCallbacks = "3.3.0-3"
 ["7.57-7.67"]
 Enzyme = "0.12"
 
-["7.58-7"]
-RecursiveArrayTools = "3.18.1-3"
-
 ["7.58-7.61"]
 SciMLBase = "2.37.0-2"
 
 ["7.58-7.68"]
 ADTypes = ["0.1-0.2", "1"]
+
+["7.58-7.69"]
+RecursiveArrayTools = "3.18.1-3"
 
 ["7.59-7"]
 DiffEqBase = "6.151.1-6"
@@ -274,6 +276,11 @@ DiffEqCallbacks = "4"
 Enzyme = "0.13"
 FastBroadcast = "0.3.5-0.3"
 SciMLJacobianOperators = "0.1"
+
+["7.70-7"]
+Functors = "0.4-0.5"
+GPUArraysCore = "0.1-0.2"
+RecursiveArrayTools = "3.27.2-3"
 
 ["7.9-7"]
 PreallocationTools = "0.4.4-0.4"
