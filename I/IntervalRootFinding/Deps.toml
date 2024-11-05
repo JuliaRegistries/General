@@ -2,11 +2,16 @@
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 IntervalArithmetic = "d1acc4aa-44c8-5952-acd4-ba5d80a2a253"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0-0.4"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0-0.5"]
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
+
 ["0.5.8-0"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["0.6-0"]
+BranchAndPrune = "d3bc4f2e-91e6-11e9-365e-cd067da536ce"
