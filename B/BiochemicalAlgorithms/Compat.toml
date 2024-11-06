@@ -8,7 +8,6 @@ DataFrames = "1"
 DataStructures = "0.18"
 DocStringExtensions = "0.9"
 EnumX = "1"
-GraphDataFrameBridge = "0.3"
 Graphs = "1"
 JSON3 = "1"
 LinearAlgebra = "1.9.0-1"
@@ -30,5 +29,11 @@ julia = "1.9.0-1"
 ["0-0.2.0"]
 MolecularGraph = "0.16"
 
+["0-0.4.0"]
+GraphDataFrameBridge = "0.3"
+
 ["0.2.1-0"]
 MolecularGraph = "0.16-0.17"
+
+["0.4.1-0"]
+MetaGraphs = "0.7.2-0.8"
