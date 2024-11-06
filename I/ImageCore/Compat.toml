@@ -21,11 +21,20 @@ Colors = "0.0.0-0.9"
 OffsetArrays = "0.8.0-0.11"
 
 ["0.10-0"]
-ColorVectorSpace = "0.10"
 PrecompileTools = "1"
+
+["0.10-0.10.2"]
+ColorVectorSpace = "0.10"
 
 ["0.10.1-0"]
 julia = "1.6.0-1"
+
+["0.10.3-0"]
+ColorVectorSpace = "0.10-0.11"
+Colors = "0.12-0.13"
+MappedArrays = "0.3-0.4"
+OffsetArrays = ["0.11", "1.0.1-1"]
+Reexport = "1"
 
 ["0.7.2-0.8.4"]
 ColorTypes = "0.7.5-0.8"
@@ -43,7 +52,7 @@ Reexport = "0.2"
 ["0.8.1-0.8.4"]
 FixedPointNumbers = "0.3.0-0.7"
 
-["0.8.11-0"]
+["0.8.11-0.10.2"]
 OffsetArrays = ["0.8-0.11", "1.0.1-1"]
 
 ["0.8.11-0.8.12"]
@@ -68,13 +77,13 @@ MappedArrays = "0.2-0.3"
 ["0.8.19"]
 AbstractFFTs = "0.4-0.5"
 
-["0.8.20-0"]
-Reexport = ["0.2", "1"]
-
 ["0.8.20-0.10.1"]
 AbstractFFTs = ["0.4-0.5", "1"]
 
-["0.8.21-0"]
+["0.8.20-0.10.2"]
+Reexport = ["0.2", "1"]
+
+["0.8.21-0.10.2"]
 MappedArrays = "0.2-0.4"
 
 ["0.8.22-0"]
@@ -113,8 +122,10 @@ Colors = "0.9-0.11"
 Requires = ["0.5", "1"]
 
 ["0.9-0"]
-Colors = "0.12"
 FixedPointNumbers = "0.8"
+
+["0.9-0.10.2"]
+Colors = "0.12"
 
 ["0.9-0.9.2"]
 ColorVectorSpace = "0.9"
