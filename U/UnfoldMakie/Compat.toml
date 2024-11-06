@@ -21,7 +21,6 @@ Makie = "0.15-0.17"
 ["0.2-0"]
 CategoricalArrays = "0.10"
 ColorSchemes = "3"
-Colors = "0.12"
 GeometryBasics = "0.4"
 ImageFiltering = "0.7"
 TopoPlots = "0.1"
@@ -30,8 +29,10 @@ TopoPlots = "0.1"
 CairoMakie = "0.9"
 Makie = "0.17-0.18"
 
+["0.2-0.5.8"]
+Colors = "0.12"
+
 ["0.2.2-0"]
-ColorTypes = "0.11"
 DataStructures = "0.18"
 
 ["0.2.2-0.2"]
@@ -39,6 +40,9 @@ SciPy = "0.1"
 
 ["0.2.2-0.3"]
 GridLayoutBase = "0.9"
+
+["0.2.2-0.5.8"]
+ColorTypes = "0.11"
 
 ["0.2.4-0.2"]
 CairoMakie = "0.9-0.10"
@@ -71,7 +75,7 @@ Interpolations = "0.14-0.15"
 GridLayoutBase = "0.9-0.10"
 Makie = "0.17-0.20"
 
-["0.5.3-0"]
+["0.5.3-0.5.8"]
 Unfold = "0.3-0.7"
 
 ["0.5.4-0"]
@@ -84,3 +88,8 @@ AlgebraOfGraphics = "0.7-0.8"
 
 ["0.5.8-0"]
 BSplineKit = "0.16-0.17"
+
+["0.5.9-0"]
+ColorTypes = "0.11-0.12"
+Colors = "0.12-0.13"
+Unfold = "0.6-0.7"
