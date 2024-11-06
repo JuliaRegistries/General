@@ -8,7 +8,7 @@
 
 [AutoMerge-url]: https://github.com/JuliaRegistries/General/actions/workflows/automerge.yml
 [AutoMerge-img]: https://github.com/JuliaRegistries/General/actions/workflows/automerge.yml/badge.svg "AutoMerge status"
-[CI-url]: https://github.com/JuliaRegistries/General/actions/workflows/ci.yml
+[CI-url]: https://github.com/JuliaRegistries/General/actions/workflows/registry-consistency-ci.yml
 [CI-img]: https://github.com/JuliaRegistries/General/actions/workflows/registry-consistency-ci.yml/badge.svg?branch=master "Registry consistency tests"
 [TagBotTriggers-url]: https://github.com/JuliaRegistries/General/actions/workflows/TagBotTriggers.yml
 [TagBotTriggers-img]: https://github.com/JuliaRegistries/General/actions/workflows/TagBotTriggers.yml/badge.svg "TagBot Triggers status"
