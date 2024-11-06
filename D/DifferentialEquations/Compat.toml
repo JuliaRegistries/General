@@ -194,7 +194,6 @@ NonlinearSolve = "1.7.0-2"
 BoundaryValueDiffEq = "5"
 
 ["7.12-7"]
-NonlinearSolve = "3"
 RecursiveArrayTools = "3"
 SteadyStateDiffEq = "2"
 julia = "1.9.0-1"
@@ -202,12 +201,19 @@ julia = "1.9.0-1"
 ["7.12-7.13"]
 SciMLBase = "2"
 
-["7.13-7"]
+["7.12-7.14"]
+NonlinearSolve = "3"
+
+["7.13-7.14"]
 DiffEqCallbacks = "2.26.0-3"
 
 ["7.14-7"]
 SciMLBase = "2.51.0-2"
 StochasticDiffEq = "6.69.0-6"
+
+["7.15-7"]
+DiffEqCallbacks = "2.26.0-4"
+NonlinearSolve = "3-4"
 
 ["7.2-7.4"]
 JumpProcesses = "9"
