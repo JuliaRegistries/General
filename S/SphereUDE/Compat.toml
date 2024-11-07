@@ -2,18 +2,36 @@
 ComponentArrays = "0.15"
 Distributions = "0.25"
 Infiltrator = "1.2.0-1"
-Lux = "0.5"
-Optimization = "3.12.0-3"
-OptimizationOptimJL = "0.1.5-0.1"
-OptimizationOptimisers = "0.1.2-0.1"
-OrdinaryDiffEq = "5-6"
 PyCall = "1.9.0-1"
 PyPlot = "2.11.0-2"
 Revise = "3.1.0-3"
 SciMLSensitivity = "7.20.0-7"
 Statistics = "1"
 Zygote = "0.6"
+
+["0-0.1.1"]
+Lux = "0.5"
+Optimization = "3.12.0-3"
+OptimizationOptimJL = "0.1.5-0.1"
+OptimizationOptimisers = "0.1.2-0.1"
+OrdinaryDiffEq = "5-6"
 julia = "1.7.0-1"
 
 ["0.1.1-0"]
 BenchmarkTools = "1"
+
+["0.1.3-0"]
+ChainRules = "1"
+DiffEqFlux = "4"
+FastGaussQuadrature = "1"
+ForwardDiff = "0.10"
+LineSearches = "7"
+Lux = "1"
+Optimization = "3.12.0-4"
+OptimizationOptimJL = ["0.1.5-0.1", "0.4"]
+OptimizationOptimisers = ["0.1.2-0.1", "0.3"]
+OrdinaryDiffEqCore = "1.6.0-1"
+OrdinaryDiffEqTsit5 = "1.1.0-1"
+Plots = "1"
+PrettyTables = "2"
+julia = "1.10.0-1"
