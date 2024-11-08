@@ -6,12 +6,14 @@ BandedMatrices = "1"
 BlockBandedMatrices = "0.13"
 CUDA = "5"
 ChainRules = "1"
-GPUArraysCore = "0.1"
 ReverseDiff = "1"
 Tracker = "0.2"
 
 ["7.11-7.13"]
 StaticArraysCore = "1"
+
+["7.11-7.16"]
+GPUArraysCore = "0.1"
 
 ["7.12-7"]
 CUDSS = "0.2-0.3"
@@ -21,3 +23,7 @@ SparseArrays = "1.10.0-1"
 
 ["7.15-7"]
 StaticArraysCore = "1"
+
+["7.17-7"]
+ChainRulesCore = "1"
+GPUArraysCore = "0.1-0.2"
