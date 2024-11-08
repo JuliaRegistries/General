@@ -1,6 +1,21 @@
 [0]
 AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
-ProgressBars = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
 Transducers = "28d57a85-8fef-5791-bfe6-a80928e7c999"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+["0-0.1"]
+ProgressBars = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
+
+["0.2-0"]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+ModuleMixins = "2b5f0a26-aae2-5c4c-af55-bc6d20297121"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
