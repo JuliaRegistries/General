@@ -1,7 +1,15 @@
 [0]
 ArgCheck = "2.1.0-2"
 DocStringExtensions = "0.9"
-GPUArraysCore = "0.1"
 KernelAbstractions = "0.9"
 Polyester = "0.7"
+
+["0-0.1"]
+GPUArraysCore = "0.1"
 julia = "1.6.7-1"
+
+["0.2-0"]
+GPUArraysCore = "0.2"
+Markdown = "1.10.0-1"
+Unrolled = "0.1.5-0.1"
+julia = "1.10.0-1"
