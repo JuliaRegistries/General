@@ -245,9 +245,11 @@ RandomNumbers = "1.5.0-1"
 ["0.8.3-1"]
 CEnum = "0.4-0.5"
 
+["0.8.4-0"]
+GPUArrays = "10"
+
 ["0.8.4-1"]
 Adapt = "4"
-GPUArrays = "10"
 
 ["0.8.8-0"]
 LLD_jll = "14-16"
@@ -275,6 +277,9 @@ julia = "1.10.0-1"
 GPUCompiler = "0.26-0.27"
 LLVM = "8.1.0-8"
 
+["1.0"]
+GPUArrays = "10"
+
 ["1.0.2-1"]
 LLVM = "9"
 
@@ -282,5 +287,11 @@ LLVM = "9"
 GPUCompiler = "0.27"
 
 ["1.0.5-1"]
-AcceleratedKernels = "0.1"
 GPUCompiler = ["0.27", "1"]
+
+["1.0.5-1.0"]
+AcceleratedKernels = "0.1"
+
+["1.1-1"]
+AcceleratedKernels = "0.2"
+GPUArrays = "11.1.0-11"
