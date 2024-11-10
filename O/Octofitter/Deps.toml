@@ -1,6 +1,10 @@
 [1-2]
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 
+[1-4]
+Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
 [1-5]
 AbstractMCMC = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
 AdvancedHMC = "0bf59076-c3b1-5ca4-86bd-e02cd72cde3d"
@@ -29,14 +33,12 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 RuntimeGeneratedFunctions = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
-Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 TypedTables = "9d95f2ec-7b3d-5a63-8d20-e2491e220bb9"
-UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
 ["1.0.0"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
@@ -62,10 +64,17 @@ KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
 Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
 OptimizationOptimJL = "36348300-93cb-4f02-beb5-3c3902f8871e"
 
+[4]
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+
 [4-5]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
-Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 
 [5]
 Bumper = "8ce10254-0962-460f-a3d8-1f77fea1446e"
+
+["5.0"]
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
