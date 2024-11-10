@@ -8,6 +8,10 @@ Statistics = "1.9.0-1"
 [1-2]
 MathTeXEngine = "0.5"
 
+[1-4]
+Setfield = "1.1.0-1"
+UnPack = "1"
+
 [1-5]
 BasicInterpolators = "0.7"
 DataDeps = "0.7"
@@ -23,11 +27,9 @@ OrderedCollections = "1.6.0-1"
 Preferences = "1"
 Reexport = "1.2.0-1"
 RuntimeGeneratedFunctions = "0.5"
-Setfield = "1.1.0-1"
 TOML = "1"
 Tables = "1.6.0-1"
 TypedTables = "1.4.0-1"
-UnPack = "1"
 julia = "1.9.0-1"
 
 ["1.0.0"]
@@ -97,9 +99,11 @@ HORIZONS = "0.4"
 KernelDensity = "0.6"
 MathTeXEngine = "0.6"
 
+[4]
+Distances = "0.10"
+
 [4-5]
 CSV = "0.10"
-Distances = "0.10"
 HTTP = "1"
 Pathfinder = "0.9"
 PlanetOrbits = "0.10"
@@ -109,3 +113,8 @@ Bijectors = "0.14"
 Bumper = "0.7"
 Optimization = "4"
 OptimizationOptimJL = "0.4"
+
+["5.0"]
+Distances = "0.10"
+Setfield = "1.1.0-1"
+UnPack = "1"
