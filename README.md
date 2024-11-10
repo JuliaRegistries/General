@@ -259,6 +259,12 @@ Once registered, Pkg.jl will look at all the versions from all registries it kno
 mechanism to figure out what version to resolve to as usual, regardless if some versions are in different registries
 from others.
 
+### How do I close a PR that Registrator has opened for my package?
+
+If the PR is blocked from merging (which you can do by leaving a comment), then you can just ignore it, as it will eventually be closed by stale-PR automation.
+If you need it closed sooner for some reason, you can make a request on the [#pkg-registration](https://julialang.slack.com/archives/C6M4DQA5P) channel on the
+public Julia Language Slack for someone to close it.
+
 ### Where do I report a problem with a package in the General registry?
 
 Report it to the package repository.
