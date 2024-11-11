@@ -1,11 +1,19 @@
-[1-2]
+[1]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 
-["1.1.4-2"]
+[1-2]
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+
+["1.1.4-1"]
 DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
 
 [2]
 Bessels = "0e736298-9ec6-45e8-9647-e4fc86a2fe38"
+
+["2.0"]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
