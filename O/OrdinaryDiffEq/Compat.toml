@@ -544,11 +544,11 @@ SparseArrays = "1.9.0-1"
 ["6.6.3-6.14"]
 DiffEqBase = "6.81.3-6.84"
 
-["6.60-6"]
-SimpleNonlinearSolve = "1"
-
 ["6.60-6.66"]
 NonlinearSolve = "3"
+
+["6.60-6.89"]
+SimpleNonlinearSolve = "1"
 
 ["6.61-6"]
 FillArrays = "1.9.0-1"
@@ -583,11 +583,11 @@ SciMLBase = "2.26.0-2"
 ["6.71-6.87"]
 DiffEqBase = "6.147.0-6"
 
-["6.72-6"]
-SciMLBase = "2.27.1-2"
-
 ["6.72-6.80"]
 NonlinearSolve = "3.7.3-3"
+
+["6.72-6.89"]
+SciMLBase = "2.27.1-2"
 
 ["6.75-6"]
 ADTypes = ["0.2", "1"]
@@ -615,7 +615,6 @@ DiffEqBase = "6.154.0-6"
 ExponentialUtilities = "1"
 ForwardDiff = "0.10"
 LinearSolve = "2"
-NonlinearSolve = "3"
 OrdinaryDiffEqAdamsBashforthMoulton = "1"
 OrdinaryDiffEqBDF = "1"
 OrdinaryDiffEqCore = "1"
@@ -649,5 +648,13 @@ OrdinaryDiffEqVerner = "1"
 PreallocationTools = "0.4"
 SparseDiffTools = "2"
 
+["6.88-6.89"]
+NonlinearSolve = "3"
+
 ["6.9-6.40"]
 RecursiveArrayTools = "2.26.3-2"
+
+["6.90-6"]
+NonlinearSolve = "3-4"
+SciMLBase = "2.53.2-2"
+SimpleNonlinearSolve = "1-2"
