@@ -13,5 +13,10 @@ DataInterpolations = "5"
 HDF5 = "0.16.14-0.16"
 
 ["2.2-2"]
-DataInterpolations = ["5", "6.0"]
 HDF5 = "0.17"
+
+["2.2-2.4.4"]
+DataInterpolations = ["5", "6.0"]
+
+["2.4.5-2"]
+DataInterpolations = ["5", "6.0", "6.2.0-6"]
