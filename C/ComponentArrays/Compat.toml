@@ -13,7 +13,7 @@ ArrayInterface = "2-5"
 ["0.11.16-0.12.0"]
 ArrayInterface = "2-6"
 
-["0.11.2-0"]
+["0.11.2-0.15.17"]
 ChainRulesCore = ["0.8-0.10", "1"]
 
 ["0.11.3-0.11.8"]
@@ -25,21 +25,20 @@ Requires = "1"
 ["0.11.9-0.11.10"]
 ArrayInterface = "2-4"
 
-["0.12.1-0"]
-julia = "1.6.0-1"
-
 ["0.12.1-0.13.7"]
 ArrayInterface = "6"
 
-["0.13.11-0"]
+["0.12.1-0.15.17"]
+julia = "1.6.0-1"
+
+["0.13.11-0.15.17"]
 Functors = "0.4.4-0.4"
 
 ["0.13.8-0"]
-ArrayInterface = "6-7"
 StaticArrayInterface = "1"
 
-["0.13.9-0"]
-ForwardDiff = "0.10"
+["0.13.8-0.15.17"]
+ArrayInterface = "6-7"
 
 ["0.13.9-0.14.0"]
 ConstructionBase = "1"
@@ -49,14 +48,26 @@ ReverseDiff = "1"
 SciMLBase = "1"
 StaticArrays = "1"
 
-["0.14.1-0"]
+["0.13.9-0.15.17"]
+ForwardDiff = "0.10"
+
+["0.14.1-0.15.17"]
 PackageExtensionCompat = "1"
 
-["0.15-0"]
+["0.15-0.15.17"]
 StaticArraysCore = "1"
 
-["0.15.11-0"]
+["0.15.11-0.15.17"]
 LinearAlgebra = "1"
+
+["0.15.18-0"]
+ArrayInterface = "7.10.0-7"
+ChainRulesCore = "1.24.0-1"
+ForwardDiff = "0.10.36-0.10"
+Functors = "0.4.12-0.5"
+LinearAlgebra = "1.10.0-1"
+StaticArraysCore = "1.4.0-1"
+julia = "1.10.0-1"
 
 ["0.3-0.11.2"]
 Requires = "1.0.1-1"
