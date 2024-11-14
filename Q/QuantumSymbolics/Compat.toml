@@ -61,15 +61,24 @@ SymbolicUtils = "2.0.2-2"
 
 ["0.3-0"]
 Latexify = "0.16"
-Symbolics = "5.30.3-5"
 julia = "1.10.0-1"
 
 ["0.3-0.3.1"]
 TermInterface = ["0.4-0.5", "1"]
 
-["0.3.2-0"]
+["0.3-0.4.4"]
+Symbolics = "5.30.3-5"
+
+["0.3.2-0.4.4"]
 TermInterface = ["0.4-0.5", "1-2"]
 
 ["0.4-0"]
 MacroTools = "0.5.13-0.5"
+
+["0.4-0.4.4"]
 SymbolicUtils = "2.0.2-3"
+
+["0.4.5-0"]
+SymbolicUtils = "3.7.0-3"
+Symbolics = "6"
+TermInterface = "2"
