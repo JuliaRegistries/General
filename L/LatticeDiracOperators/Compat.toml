@@ -1,10 +1,12 @@
 [0]
 Requires = "1"
-julia = "1.6.0-1"
 
 ["0-0.1.0"]
 Gaugefields = "0.1"
 Wilsonloop = "0.1"
+
+["0-0.2"]
+julia = "1.6.0-1"
 
 ["0.1.1-0.1.2"]
 Gaugefields = "0.1.10-0.1"
@@ -34,5 +36,11 @@ SparseArrays = "1-2"
 Wilsonloop = "0.1.5-0.1"
 
 ["0.2.7-0"]
-Gaugefields = "0.2-0.3"
 JLD2 = "0.4-0.5"
+
+["0.2.7-0.2"]
+Gaugefields = "0.2-0.3"
+
+["0.3-0"]
+Gaugefields = "0.4"
+julia = "1.10.0-1"
