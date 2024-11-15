@@ -312,8 +312,10 @@ LuxDeviceUtils = "0.1.26-0.1"
 Optimisers = "0.3"
 
 ["0.5.61-1"]
-Compat = "4.15.0-4"
 ForwardDiff = "0.10.36-0.10"
+
+["0.5.61-1.2"]
+Compat = "4.15.0-4"
 
 ["0.5.62"]
 Functors = "0.4.11-0.4"
@@ -333,8 +335,10 @@ DispatchDoctor = "0.4.12-0.4"
 LuxLib = "0.3.40-0.3"
 
 ["0.5.63-1"]
-Functors = "0.4.12-0.4"
 Setfield = "1.1.1-1"
+
+["0.5.63-1.2"]
+Functors = "0.4.12-0.4"
 
 ["0.5.63-1.2.2"]
 Optimisers = "0.3.3-0.3"
@@ -367,8 +371,10 @@ SparseArrays = "1.6.0-1"
 
 [1]
 ArgCheck = "2.3.0-2"
-LuxCore = "1"
 WeightInitializers = "1"
+
+["1-1.2"]
+LuxCore = "1"
 
 ["1.0"]
 ADTypes = "1.5.0-1"
@@ -380,8 +386,10 @@ NNlib = "0.9.21-0.9"
 LuxLib = "1.3.0-1"
 
 ["1.1-1"]
-ADTypes = "1.8.1-1"
 NNlib = "0.9.24-0.9"
+
+["1.1-1.2"]
+ADTypes = "1.8.1-1"
 
 ["1.1-1.2.0"]
 EnzymeCore = "0.8.1-0.8"
@@ -398,7 +406,17 @@ MLDataDevices = "1.3.0-1"
 Adapt = "4.1.0-4"
 EnzymeCore = "0.8.5-0.8"
 LuxLib = "1.3.7-1"
+
+["1.2.1-1.2"]
 MLDataDevices = "1.5.0-1"
 
-["1.2.3-1"]
+["1.2.3-1.2"]
 Optimisers = "0.3.3-0.4"
+
+["1.3-1"]
+ADTypes = "1.10.0-1"
+Compat = "4.16.0-4"
+Functors = "0.5"
+LuxCore = "1.2.0-1"
+MLDataDevices = "1.6.0-1"
+Optimisers = "0.3.4-0.4"
