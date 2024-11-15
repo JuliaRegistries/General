@@ -6,7 +6,6 @@ LinearAlgebra = "1"
 OptimKit = "0.3"
 Printf = "1"
 Statistics = "1"
-VectorInterface = "0.4"
 Zygote = "0.6"
 
 ["0-0.1"]
@@ -15,6 +14,12 @@ MPSKit = "0.10"
 TensorKit = "0.12"
 julia = "1.6.0-1"
 
+["0-0.2"]
+VectorInterface = "0.4"
+
+["0.2"]
+julia = "1.9.0-1"
+
 ["0.2-0"]
 KrylovKit = "0.8"
 LoggingExtras = "1"
@@ -22,8 +27,12 @@ MPSKit = "0.11"
 Random = "1"
 TensorKit = "0.12.5-0.12"
 TensorOperations = "4"
-julia = "1.9.0-1"
 
 ["0.2.2-0"]
 FiniteDifferences = "0.12"
 MPSKitModels = "0.3"
+
+["0.3-0"]
+OhMyThreads = "0.7"
+VectorInterface = "0.4-0.5"
+julia = "1.10.0-1"
