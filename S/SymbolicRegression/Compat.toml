@@ -42,7 +42,7 @@ SymbolicUtils = ["0.19", "1.0.5-1"]
 ["0.17"]
 DynamicExpressions = "0.6"
 
-["0.17.1-0"]
+["0.17.1-1"]
 PrecompileTools = "1"
 
 ["0.18"]
@@ -56,7 +56,7 @@ LossFunctions = ["0.6-0.8", "0.10"]
 DynamicExpressions = "0.9"
 Requires = "1"
 
-["0.19.1-0"]
+["0.19.1-1"]
 StatsBase = "0.33-0.34"
 
 ["0.2-0.5.12"]
@@ -68,11 +68,11 @@ SpecialFunctions = ["0.10.1-0.10", "1"]
 ["0.2.1-0.6.10"]
 SymbolicUtils = "0.6"
 
-["0.20-0"]
-MacroTools = "0.4-0.5"
-
 ["0.20-0.23"]
 MLJModelInterface = "1.5.0-1"
+
+["0.20-1"]
+MacroTools = "0.4-0.5"
 
 ["0.21-0"]
 Compat = "4.2.0-4"
@@ -93,7 +93,7 @@ DynamicExpressions = "0.10"
 ["0.21.1-0.21"]
 DynamicExpressions = "0.11"
 
-["0.21.4-0"]
+["0.21.4-1"]
 LossFunctions = "0.10-0.11"
 
 ["0.22-0.22.2"]
@@ -108,17 +108,18 @@ DynamicQuantities = "0.10"
 
 ["0.24-0"]
 DynamicExpressions = "0.16"
-Optim = "1.8-1.9"
 
 ["0.24-0.24.4"]
 DynamicQuantities = "0.10-0.13"
+
+["0.24-1"]
+Optim = "1.8-1.9"
 
 ["0.24.0"]
 MLJModelInterface = "1.5-1.8"
 ProgressBars = "1.4"
 
 ["0.24.1-0"]
-Dates = "1"
 Distributed = "1"
 Printf = "1"
 ProgressBars = "1.4-1.5"
@@ -127,6 +128,9 @@ TOML = "1"
 
 ["0.24.1-0.24.4"]
 MLJModelInterface = "1.5-1.9"
+
+["0.24.1-1"]
+Dates = "1"
 
 ["0.24.5-0"]
 DispatchDoctor = "0.4"
@@ -139,20 +143,20 @@ Pkg = "1"
 ["0.5"]
 LossFunctions = "0.6"
 
-["0.5-0"]
-Reexport = "1"
-
 ["0.5-0.10.1"]
 julia = "1.5.0-1"
 
 ["0.5-0.8.5"]
 FromFile = "0.1"
 
-["0.5.13-0"]
-LineSearches = "7"
+["0.5-1"]
+Reexport = "1"
 
 ["0.5.13-0.22.2"]
 Optim = ["0.19", "1.1.0-1"]
+
+["0.5.13-1"]
+LineSearches = "7"
 
 ["0.6-0.9.2"]
 LossFunctions = "0.6-0.7"
@@ -172,7 +176,7 @@ SymbolicUtils = "0.13-0.18"
 ["0.7-0.8"]
 SymbolicUtils = "0.6"
 
-["0.7.1-0"]
+["0.7.1-1"]
 SpecialFunctions = ["0.10.1-0.10", "1-2"]
 
 ["0.8.4-0.12"]
@@ -183,3 +187,22 @@ SymbolicUtils = "0.19"
 
 ["0.9.3-0.17"]
 LossFunctions = "0.6-0.8"
+
+[1]
+ADTypes = "1.4.0-1"
+Compat = "4.16.0-4"
+ConstructionBase = "1.0.0-1.5.6"
+DifferentiationInterface = "0.5-0.6"
+DispatchDoctor = "0.4.17-0.4"
+Distributed = ["0.0.0", "1"]
+DynamicExpressions = "1.5.0-1"
+DynamicQuantities = "1"
+Logging = "1"
+MLJModelInterface = "1.5-1.11"
+Pkg = ["0.0.0", "1"]
+Printf = ["0.0.0", "1"]
+ProgressMeter = "1.10.0-1"
+Random = ["0.0.0", "1"]
+StyledStrings = "1"
+TOML = ["0.0.0", "1"]
+julia = "1.10.0-1"
