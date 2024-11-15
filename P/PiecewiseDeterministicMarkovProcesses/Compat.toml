@@ -7,11 +7,8 @@ Sundials = "0-3"
 julia = "1"
 
 ["0.0.4-0"]
-DifferentialEquations = "6-7"
-Distributions = "0.23-0.25"
 ForwardDiff = "0.10"
 Parameters = "0.12"
-StatsBase = "0.33"
 julia = "1.3.0-1"
 
 ["0.0.4-0.0.5"]
@@ -22,6 +19,11 @@ LSODA = "0.6.2-0.6"
 ["0.0.4-0.0.7"]
 RecursiveArrayTools = "2.8.0-2"
 Sundials = "4.5.0-4"
+
+["0.0.4-0.0.8"]
+DifferentialEquations = "6-7"
+Distributions = "0.23-0.25"
+StatsBase = "0.33"
 
 ["0.0.6-0"]
 JumpProcesses = "9.2.0-9"
