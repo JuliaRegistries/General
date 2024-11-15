@@ -1,7 +1,13 @@
 [0]
 EllipsisNotation = "1"
 FastMPOContractions = "0.2.2-0.2"
-ITensors = "0.3.42-0.6"
 SparseIR = ["0.96-0.97", "1"]
 StaticArrays = "1"
 julia = "1"
+
+["0-0.3"]
+ITensors = "0.3.42-0.6"
+
+["0.4-0"]
+ITensorMPS = "0.3.1-0.3"
+ITensors = "0.7"
