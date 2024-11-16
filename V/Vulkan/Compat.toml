@@ -2,13 +2,15 @@
 MLStyle = "0.4"
 Preferences = "1.2.0-1"
 Reexport = "1"
-ResultTypes = "3"
 
 ["0-0.1.2"]
 VulkanCore = "1.2.0-1"
 
 ["0-0.4"]
 julia = "1.5.0-1"
+
+["0-0.6.23"]
+ResultTypes = "3"
 
 ["0-0.6.3"]
 DocStringExtensions = "0.8"
@@ -49,6 +51,9 @@ ColorTypes = "0.11"
 
 ["0.6.23-0"]
 ColorTypes = "0.11-0.12"
+
+["0.6.24-0"]
+ResultTypes = "3-4"
 
 ["0.6.4"]
 SnoopPrecompile = "1"
