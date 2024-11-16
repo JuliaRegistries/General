@@ -193,8 +193,10 @@ NaNMath = "1"
 Reexport = "1"
 SciMLBase = "2"
 Setfield = "1"
-SpecialFunctions = "2"
 julia = "1.10.0-1"
+
+["5.15-6.20"]
+SpecialFunctions = "2"
 
 ["5.16"]
 Groebner = "0.5-0.6"
@@ -286,6 +288,9 @@ SymPyCore = "0.2.5-0.2"
 
 ["6.12-6"]
 SymbolicUtils = "3.7.0-3"
+
+["6.21-6"]
+SpecialFunctions = "1.8.0-2"
 
 ["6.3"]
 DynamicPolynomials = "0.6"
