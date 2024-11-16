@@ -11,7 +11,6 @@ ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
-NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 Preferences = "21216c6a-2e73-6563-6e65-726566657250"
@@ -22,10 +21,15 @@ Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
 
+["1.0"]
+NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
+
 ["1.0.0"]
 BoundaryValueDiffEq = "764a87c0-6b3e-53db-9096-fe964310641d"
 
 ["1.0.1-1"]
 BoundaryValueDiffEqCore = "56b672f2-a5fe-4263-ab2d-da677488eb3a"
+
+["1.0.1-1.0"]
 LineSearch = "87fe0de2-c867-4266-b59a-2f0a94fc965b"
 LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"

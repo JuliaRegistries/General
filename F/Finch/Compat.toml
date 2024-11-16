@@ -1,6 +1,5 @@
 [0]
 Requires = "1"
-julia = "1.6.7-1"
 
 ["0-0.1"]
 MacroTools = "0.5"
@@ -11,6 +10,9 @@ Revise = "3"
 
 ["0-0.5.2"]
 SnoopPrecompile = "1"
+
+["0-0.6.32"]
+julia = "1.6.7-1"
 
 ["0-0.6.7"]
 RewriteTools = "0.1"
@@ -45,6 +47,10 @@ RewriteTools = "0.2.1-0.2"
 
 ["0.6.31-0"]
 RewriteTools = "0.2.4-0.2"
+
+["0.6.33-0"]
+UnsafeAtomics = "0.2.1-0.2"
+julia = "1.10.0-1"
 
 ["0.6.8-0.6.25"]
 RewriteTools = "0.2"

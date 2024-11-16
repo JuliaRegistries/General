@@ -50,10 +50,16 @@ MutableArithmetics = "1"
 [4]
 Setfield = "1"
 
-["4.0.11-4"]
+["4.0.11"]
 Requires = "1"
 
-["4.0.5-4"]
+["4.0.12-4"]
+LinearAlgebra = ["0.0.0", "1"]
+OrderedCollections = "1.6.3-1"
+Requires = "1.1.0-1"
+SparseArrays = ["0.0.0", "1"]
+
+["4.0.5-4.0.11"]
 LinearAlgebra = "1.6.0-1"
 SparseArrays = "1.6.0-1"
 
