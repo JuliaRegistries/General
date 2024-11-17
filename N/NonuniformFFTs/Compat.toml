@@ -3,8 +3,10 @@ Bessels = "0.2"
 FFTW = "1.7.0-1"
 LinearAlgebra = "1.9.0-1"
 StaticArrays = "1.7.0-1"
-StructArrays = "0.6"
 julia = "1.9.0-1"
+
+["0-0.6.2"]
+StructArrays = "0.6"
 
 ["0.2-0"]
 TimerOutputs = "0.5"
@@ -43,3 +45,6 @@ Adapt = "4.0.4-4"
 
 ["0.6-0"]
 GPUArraysCore = "0.1.6-0.2"
+
+["0.6.3-0"]
+StructArrays = "0.6-0.7"
