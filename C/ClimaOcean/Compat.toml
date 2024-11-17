@@ -3,7 +3,6 @@ CUDA = "4-5"
 CubicSplines = "0.2"
 DataDeps = "0.7"
 Downloads = "1.6.0-1"
-JLD2 = "0.4"
 KernelAbstractions = "0.9"
 NCDatasets = "0.12-0.14"
 Statistics = "1.9.0-1"
@@ -14,6 +13,9 @@ Oceananigans = "0.90"
 
 ["0-0.2.0"]
 SeawaterPolynomials = "0.3"
+
+["0-0.2.2"]
+JLD2 = "0.4"
 
 ["0.2.0"]
 Oceananigans = "0.90.10-0.90"
@@ -26,13 +28,25 @@ Oceananigans = "0.91.11-0.92"
 Adapt = "4"
 CFTime = "0.1"
 ImageMorphology = "0.4"
-OrthogonalSphericalShellGrids = "0.1.2-0.1"
 Scratch = "1"
 SeawaterPolynomials = "0.3.4-0.3"
 StaticArrays = "1"
-SurfaceFluxes = "0.11"
 Thermodynamics = "0.12"
+
+["0.2.1-0.2.2"]
+OrthogonalSphericalShellGrids = "0.1.2-0.1"
+SurfaceFluxes = "0.11"
+
+["0.2.2"]
+Oceananigans = "0.92"
 
 ["0.2.2-0"]
 ClimaSeaIce = "0.1.3-0.1"
-Oceananigans = "0.92"
+
+["0.2.3-0"]
+JLD2 = "0.4-0.5"
+MPI = "0.20"
+Oceananigans = "0.94"
+OffsetArrays = "1.14.0-1"
+OrthogonalSphericalShellGrids = "0.1.2-0.2"
+SurfaceFluxes = "0.11-0.12"
