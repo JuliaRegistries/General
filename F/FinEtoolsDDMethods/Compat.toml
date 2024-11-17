@@ -4,10 +4,16 @@ DataDrop = "0.1"
 FinEtools = "8"
 Krylov = "0.9"
 LinearAlgebra = "1.10.0-1"
-LinearOperators = "2.8.0-2"
 MPI = "0.20"
 Metis = "1.4.0-1"
 ShellStructureTopo = "0.6"
 SparseArrays = "1.10.0-1"
 Statistics = "1.10.0-1"
 julia = "1.10.0-1"
+
+["0-0.6"]
+LinearOperators = "2.8.0-2"
+
+["0.7-0"]
+LinearOperators = "2.9.0-2"
+OrderedCollections = "1.6.0-1"
