@@ -16,7 +16,6 @@ RecipesBase = "1"
 Reexport = "1"
 SpecialFunctions = ["0.10", "1-2"]
 StaticArrays = "1"
-StructArrays = "0.3-0.6"
 
 ["0-0.1"]
 ComradeBase = "0.4"
@@ -34,6 +33,9 @@ julia = "1.8.0-1"
 
 ["0-0.5.4"]
 FastBroadcast = "0.2"
+
+["0-0.6.3"]
+StructArrays = "0.3-0.6"
 
 ["0.2-0.3.0"]
 PolarizedTypes = "0.1"
@@ -86,6 +88,12 @@ FITSIO = "0.17"
 ["0.6-0"]
 ComradeBase = "0.8"
 
-["0.6.3-0"]
+["0.6.3"]
 DimensionalData = "0.27-0.28"
+
+["0.6.3-0"]
 EnzymeCore = "0.8"
+
+["0.6.4-0"]
+DimensionalData = "0.27-0.29"
+StructArrays = "0.6"
