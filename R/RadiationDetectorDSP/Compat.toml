@@ -1,6 +1,5 @@
 [0]
 ArgCheck = "1-2"
-DSP = "0.6-0.7"
 ElasticArrays = "1"
 Parameters = "0.12"
 SIMD = "2-3"
@@ -23,6 +22,9 @@ StaticArrays = ["0.11-0.12", "1"]
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
+["0-0.2.11"]
+DSP = "0.6-0.7"
+
 ["0.1.1"]
 RadiationDetectorSignals = "0.1-0.2"
 
@@ -35,7 +37,6 @@ ArraysOfArrays = "0.4-0.6"
 ["0.1.4-0"]
 ChainRulesCore = "1"
 CompositionsBase = "0.1"
-FFTW = "1"
 FunctionChains = "0.1"
 RadiationDetectorSignals = "0.3.3-0.3"
 UnPack = "1"
@@ -52,6 +53,9 @@ julia = "1.7.0-1"
 ["0.1.4-0.2.10"]
 Unitful = "1"
 
+["0.1.4-0.2.11"]
+FFTW = "1"
+
 ["0.1.4-0.2.4"]
 Adapt = "1-3"
 
@@ -60,9 +64,11 @@ InverseFunctions = "0.1"
 
 ["0.2-0"]
 DocStringExtensions = "0.8-0.9"
-GPUArraysCore = "0.1"
 IntervalSets = "0.7"
 KernelAbstractions = "0.8-0.9"
+
+["0.2-0.2.11"]
+GPUArraysCore = "0.1"
 StructArrays = "0.6"
 
 ["0.2-0.2.8"]
@@ -81,9 +87,18 @@ Statistics = "1.6.0-1"
 ["0.2.10-0"]
 StatsBase = "0.33.7-0.34"
 
-["0.2.11-0"]
+["0.2.11"]
 FillArrays = ["0.13", "1"]
+
+["0.2.11-0"]
 Unitful = "1.6.0-1"
+
+["0.2.12-0"]
+DSP = "0.6.2-0.7"
+FFTW = "1.2.0-1"
+FillArrays = ["0.13.8-0.13", "1"]
+GPUArraysCore = "0.1-0.2"
+StructArrays = "0.6-0.7"
 
 ["0.2.4-0.2.8"]
 LinearAlgebra = "1"
