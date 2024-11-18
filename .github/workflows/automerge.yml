@@ -52,10 +52,10 @@ jobs:
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes --project=.ci/ {0}
         id: manifest_version
-      - run: echo "The manifest is .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml"
+      - run: echo "The manifest is .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml"
       - run: rm -rf .ci/Manifest.toml
-      - run: mv .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
-      - run: rm -rf .ci/Manifest.*.toml
+      - run: mv .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
+      - run: rm -rf .ci/Manifest-*.toml
       - run: chmod 400 .ci/Project.toml
       - run: chmod 400 .ci/Manifest.toml
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
@@ -115,8 +115,8 @@ jobs:
         shell: julia --color=yes --project=.ci/ {0}
         id: manifest_version
       - run: rm -rf .ci/Manifest.toml
-      - run: mv .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
-      - run: rm -rf .ci/Manifest.*.toml
+      - run: mv .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
+      - run: rm -rf .ci/Manifest-*.toml
       - run: chmod 400 .ci/Project.toml
       - run: chmod 400 .ci/Manifest.toml
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'

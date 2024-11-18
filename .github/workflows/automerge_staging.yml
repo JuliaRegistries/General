@@ -30,11 +30,10 @@ jobs:
         with:
           version: ${{ matrix.version }}
       # No Project/Manifest for staging run
-      - run: rm -rf .ci/JuliaManifest.*.toml
-      - run: rm -rf .ci/JuliaManifest.toml
-      - run: rm -rf .ci/Manifest.*.toml
-      - run: rm -rf .ci/Manifest.toml
-      - run: rm -rf .ci/Project.toml
+      - run: rm -rf .ci/JuliaManifest*.toml
+      - run: rm -rf .ci/Manifest*.toml
+      - run: rm -rf .ci/JuliaProject*.toml
+      - run: rm -rf .ci/Project*.toml
       - name: Cache artifacts
         uses: julia-actions/cache@824243901fb567ccb490b0d0e2483ccecde46834 # v2.0.5
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'

@@ -44,12 +44,12 @@ jobs:
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes {0}
         id: manifest_version
-      - run: echo "We will update the manifest at .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml"
+      - run: echo "We will update the manifest at .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml"
       - run: rm -rf .ci/Manifest.toml
       - run: |
-          if [ -f ".ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml" ]; then
+          if [ -f ".ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml" ]; then
               echo "The manifest file exists, so I will update the existing manifest."
-              mv .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
+              mv .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
           else
               echo "The manifest file does not exist, so I will create a new manifest from scratch."
           fi
@@ -68,12 +68,12 @@ jobs:
               end
           end
         shell: julia --color=yes {0}
-      - run: mv .ci/Manifest.toml .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml
+      - run: mv .ci/Manifest.toml .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml
       - run: git status
       - uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882 # v4.4.3
         with:
           name: manifest_file_for_${{ steps.manifest_version.outputs.manifest_version }}
-          path: .ci/Manifest.${{ steps.manifest_version.outputs.manifest_version }}.toml
+          path: .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml
           if-no-files-found: error
   make_single_pr:
     needs: update_each_manifest
@@ -89,11 +89,11 @@ jobs:
       - uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
         with:
           path: /tmp/manifest_updater/download_artifacts
-      - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest.*.toml .ci
+      - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest-v*.toml .ci
       - run: rm -rf /tmp/manifest_updater
       - run: rm -rf .ci/Manifest.toml
       - run: chmod 600 .ci/Project.toml
-      - run: chmod 600 .ci/Manifest.*.toml
+      - run: chmod 600 .ci/Manifest-*.toml
       - run: git status
       - uses: peter-evans/create-pull-request@5e914681df9dc83aa4e4905692ca88beb2f9e91f # v7.0.5
         with:
