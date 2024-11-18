@@ -88,14 +88,14 @@ NamedTupleTools = "0.14"
 ["0.11.3-0"]
 StatsBase = "0.33-0.34"
 
-["0.11.7-0"]
-StructArrays = "0.6"
-
 ["0.11.7-0.11"]
 ComradeBase = "0.6-0.7"
 
 ["0.11.7-0.12.5"]
 DimensionalData = "0.25-0.27"
+
+["0.11.7-0.12.8"]
+StructArrays = "0.6"
 
 ["0.12-0.12.2"]
 ComradeBase = "0.7"
@@ -108,10 +108,16 @@ ComradeBase = "0.7-0.8"
 VLBISkyModels = "0.5-0.6"
 
 ["0.12.6-0"]
-DimensionalData = "0.27-0.28"
 Optimization = "3-4"
 SpecialFunctions = "2"
 VLBISkyModels = "0.6"
+
+["0.12.6-0.12.8"]
+DimensionalData = "0.27-0.28"
+
+["0.12.9-0"]
+DimensionalData = "0.27-0.29"
+StructArrays = "0.6-0.7"
 
 ["0.2"]
 FITSIO = "0.14-0.15"
