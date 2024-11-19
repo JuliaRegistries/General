@@ -81,10 +81,12 @@ BasisFunctions = "0.5.6-0.5"
 
 ["0.4.8-0"]
 MacroTools = "0.5"
-SpecialFunctions = "1-2"
 
 ["0.4.8-0.5.0"]
 BasisFunctions = "0.5.7-0.5"
+
+["0.4.8-0.5.7"]
+SpecialFunctions = "1-2"
 
 ["0.5.1"]
 BasisFunctions = "0.5.9-0.5"
@@ -111,9 +113,17 @@ GridArrays = "0.2.1-0.2"
 BasisFunctions = "0.6.4-0.6"
 
 ["0.5.6-0"]
-FillArrays = ["0.13", "1"]
 GridArrays = "0.2.2-0.2"
 
-["0.5.7-0"]
+["0.5.6-0.5.7"]
+FillArrays = ["0.13", "1"]
+
+["0.5.7"]
 BasisFunctions = "0.6.5-0.6"
 julia = "1.9.0-1"
+
+["0.5.8-0"]
+BasisFunctions = "0.7"
+FillArrays = "1"
+SpecialFunctions = "2"
+julia = "1.10.0-1"
