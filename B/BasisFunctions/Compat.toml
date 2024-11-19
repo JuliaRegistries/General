@@ -52,7 +52,6 @@ DomainSets = "0.5.9-0.5"
 DomainIntegrals = "0.3.4-0.3"
 
 ["0.4.4-0"]
-BlockArrays = "0.16"
 GaussQuadrature = "0.5.7-0.5"
 GenericLinearAlgebra = "0.3"
 IterativeSolvers = "0.9"
@@ -65,6 +64,9 @@ GridArrays = "0.1.13-0.1"
 ["0.4.4-0.5.0"]
 DomainIntegrals = "0.3.6-0.3"
 
+["0.4.4-0.6"]
+BlockArrays = "0.16"
+
 ["0.4.4-0.6.3"]
 FillArrays = "0.12-0.13"
 
@@ -74,11 +76,11 @@ PGFPlotsX = "1.4.0-1"
 ["0.4.5-0.5"]
 GenericFFT = "0.1"
 
-["0.4.6-0"]
-ToeplitzMatrices = "0.7"
-
 ["0.4.6-0.5.0"]
 DomainSets = "0.5.11-0.5"
+
+["0.4.6-0.6"]
+ToeplitzMatrices = "0.7"
 
 ["0.4.6-0.6.4"]
 julia = "1.6.0-1"
@@ -120,12 +122,24 @@ GridArrays = "0.2"
 GridArrays = "0.2.1-0.2"
 
 ["0.6.3-0"]
-DomainIntegrals = "0.4.5-0.4"
 DomainSets = "0.7"
 
-["0.6.4-0"]
+["0.6.3-0.6"]
+DomainIntegrals = "0.4.5-0.4"
+
+["0.6.4-0.6"]
 FillArrays = ["0.13", "1"]
 GridArrays = "0.2.2-0.2"
 
-["0.6.5-0"]
+["0.6.5-0.6"]
 julia = "1.9.0-1"
+
+["0.7-0"]
+BlockArrays = "1"
+DomainIntegrals = "0.5.1-0.5"
+FillArrays = "1"
+GridArrays = "0.2.4-0.2"
+LinearAlgebra = "1"
+Test = "1"
+ToeplitzMatrices = "0.8"
+julia = "1.10.0-1"
