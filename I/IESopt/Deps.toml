@@ -1,4 +1,7 @@
 [1]
+Tectonic = "9ac5f52a-99c6-489f-af81-462ef484790f"
+
+[1-2]
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
@@ -18,7 +21,6 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 RuntimeGeneratedFunctions = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
 Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
-Tectonic = "9ac5f52a-99c6-489f-af81-462ef484790f"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
 
@@ -26,5 +28,14 @@ ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
 HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
 
 ["1.0.2-1"]
-HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
 IESoptLib = "b98f706d-40ec-4ce6-a66c-1c6e71d3cef6"
+
+["1.0.2-2"]
+HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
+
+[2]
+DuckDB = "d2f5444f-75bc-4fdf-ac35-56f514c445e1"
+JuliaSyntax = "70703baa-626e-46a2-a12c-08ffd08c73b4"
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+RelocatableFolders = "05181044-ff0b-4ac5-8273-598c1e38db00"
+TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
