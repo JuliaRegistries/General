@@ -1,14 +1,11 @@
 [0]
-Dictionaries = "0.3"
 ForwardDiff = "0.10"
 IterativeSolvers = "0.9"
 LazySets = "2"
 MshReader = "0.1"
 Reexport = "1"
-Roots = "2"
 StaticArrays = "1"
 Tensors = "1"
-julia = "1"
 
 ["0-0.4.0"]
 AutoHashEquals = "0.2"
@@ -16,14 +13,21 @@ AutoHashEquals = "0.2"
 ["0-0.4.3"]
 Gmsh = "0.2"
 
+["0-0.4.4"]
+Dictionaries = "0.3"
+Roots = "2"
+julia = "1"
+
 ["0.0"]
 SafeTestsets = "0.0.1"
 
 ["0.0.2-0"]
-Suppressor = "0.2"
 WriteVTK = "1"
 
-["0.1-0"]
+["0.0.2-0.4.4"]
+Suppressor = "0.2"
+
+["0.1-0.4.4"]
 SafeTestsets = ["0.0.1", "0.1"]
 
 ["0.3-0"]
@@ -35,9 +39,18 @@ CommonSolve = "0.2"
 ["0.4.1"]
 AutoHashEquals = ["0.2", "1"]
 
-["0.4.2-0"]
+["0.4.2-0.4.4"]
 AutoHashEquals = ["0.2", "1-2"]
 
-["0.4.4-0"]
+["0.4.4"]
 Gmsh = "0.2-0.3"
+
+["0.4.4-0"]
 LinearSolve = "2"
+
+["0.4.6-0"]
+Dictionaries = "0.4"
+InteractiveUtils = "1"
+LinearAlgebra = "1"
+SparseArrays = "1"
+julia = "1.11.0-1"
