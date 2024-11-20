@@ -1,6 +1,5 @@
 [0]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0-0.1"]
@@ -20,6 +19,9 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 ["0-0.6"]
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 
+["0-0.8"]
+NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
+
 ["0.2-0.7.0"]
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 
@@ -28,3 +30,27 @@ Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 
 ["0.7.1-0"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+
+["0.9-0"]
+ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
+Atomix = "a9b6321e-bd34-4604-b9c9-b65b8de01458"
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+FastClosures = "9aa1b823-49e4-5ca5-8b0f-3971ec8bab6a"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+Mixers = "2a8e4939-dab8-5edc-8f64-72a8776f13de"
+NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
+NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
+Polyester = "f517fe37-dbe3-4b94-8317-1923a5111588"
+PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+SteadyStateDiffEq = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
+StyledStrings = "f489334b-da3d-4c2e-b8f0-e476e12c162b"
+SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
+Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
