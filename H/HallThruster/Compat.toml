@@ -4,17 +4,19 @@ DocStringExtensions = "0.9"
 JLD2 = "0.4"
 JSON3 = "1"
 Measures = "0.3"
-PartialFunctions = "1"
-QuadGK = "2"
 RecipesBase = "1"
 SnoopPrecompile = "1"
-StatsBase = "0.34"
 Unitful = "1"
 julia = "1.7.0-1"
 
 ["0-0.16"]
 FunctionWrappers = "1"
 Measurements = "2"
+
+["0-0.17.2"]
+PartialFunctions = "1"
+QuadGK = "2"
+StatsBase = "0.34"
 
 ["0-0.8"]
 Documenter = "0.27"
@@ -23,6 +25,8 @@ Statistics = "1.7.0-1"
 ["0.10-0"]
 Documenter = ["0.27", "1"]
 LinearAlgebra = ["0.0.0", "1"]
+
+["0.10-0.17.2"]
 Printf = ["0.0.0", "1"]
 SparseArrays = ["0.0.0", "1.1.0-1"]
 Statistics = ["0.0.0", "1"]
