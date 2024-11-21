@@ -96,7 +96,7 @@ TaylorSeries = "0.12"
 ["0.18-0.24"]
 TaylorModels = "0.6"
 
-["0.18.1-0"]
+["0.18.1-0.26"]
 CarlemanLinearization = "0.3"
 
 ["0.18.6-0"]
@@ -150,7 +150,7 @@ TaylorSeries = "0.12.0"
 ["0.22.2-0.25"]
 RecursiveArrayTools = "2-3"
 
-["0.22.3-0"]
+["0.22.3-0.26"]
 IntervalMatrices = "0.6-0.10"
 
 ["0.24.1-0"]
@@ -166,9 +166,15 @@ TaylorSeries = "0.17"
 ["0.25-0.26.0"]
 LazySets = "2.12.0-2"
 
-["0.26.1-0"]
+["0.26.1-0.26"]
 LazySets = "2.14.0-2"
 ReachabilityBase = "0.1-0.3"
+
+["0.27-0"]
+CarlemanLinearization = "0.3-0.4"
+IntervalMatrices = "0.11"
+LazySets = "2.14.0-3"
+ReachabilityBase = "0.3.1-0.3"
 
 ["0.3-0.12.0"]
 IntervalArithmetic = "0.16-0.17"
