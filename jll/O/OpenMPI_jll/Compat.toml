@@ -7,14 +7,14 @@ JLLWrappers = "1.2.0-1"
 ["4.1-5"]
 julia = "1.6.0-1"
 
-["4.1.2-5"]
+["4.1.2-5.0.5"]
 LazyArtifacts = "1"
 
 ["4.1.3-5"]
 JLLWrappers = "1.4.0-1"
 MPIPreferences = "0.1"
 
-[5]
+["5-5.0.5"]
 Artifacts = "1"
 Libdl = "1"
 TOML = "1"
@@ -22,3 +22,9 @@ TOML = "1"
 ["5.0.4-5"]
 Hwloc_jll = "2.5.0-2"
 Zlib_jll = "1.2.12-1"
+
+["5.0.6-5"]
+Artifacts = ["0.0.0", "1"]
+LazyArtifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]
+TOML = ["0.0.0", "1"]
