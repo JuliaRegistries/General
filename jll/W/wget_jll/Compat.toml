@@ -5,9 +5,19 @@ JLLWrappers = "1.2.0-1"
 julia = "1"
 
 ["1.21-1"]
-Nettle_jll = "3.7.2-3.7"
 julia = "1.6.0-1"
 
-["1.21.4-1"]
+["1.21-1.24"]
+Nettle_jll = "3.7.2-3.7"
+
+["1.21.4-1.24"]
 Artifacts = "1"
 Libdl = "1"
+
+["1.25-1"]
+Artifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]
+Libuuid_jll = "2.40.2-2"
+OpenSSL_jll = "3.0.15-3"
+libidn2_jll = "2.3.7-2"
+libpsl_jll = "0.21.5-0.21"
