@@ -251,9 +251,11 @@ Manifolds = "0.7"
 Requires = "1"
 
 ["0.27.2-0"]
-MetaGraphs = "0.7"
 Optim = "1"
 StaticArrays = "1"
+
+["0.27.2-0.35.4"]
+MetaGraphs = "0.7"
 
 ["0.27.3-0.32"]
 JSON = "0.21"
@@ -343,31 +345,45 @@ DistributedFactorGraphs = "0.23"
 ["0.34.0"]
 ApproxManifoldProducts = "0.7"
 
-["0.34.1-0"]
+["0.34.1-0.35.4"]
 ApproxManifoldProducts = "0.7-0.8"
 
 ["0.35-0"]
 ManifoldsBase = "0.15"
-Manopt = "0.4.40-0.4"
 
 ["0.35-0.35.2"]
 Manifolds = "0.9"
 
+["0.35-0.35.4"]
+Manopt = "0.4.40-0.4"
+
 ["0.35.1-0.35.2"]
 Statistics = "1"
 
-["0.35.2-0"]
+["0.35.2-0.35.4"]
 RecursiveArrayTools = "2.31.1-3"
 
 ["0.35.3-0"]
 LinearAlgebra = "1.10.0-1"
-Manifolds = "0.9.12-0.9"
 Statistics = "1.10.0-1"
 julia = "1.10.0-1"
 
-["0.35.4-0"]
+["0.35.3-0.35.4"]
+Manifolds = "0.9.12-0.9"
+
+["0.35.4"]
 DistributedFactorGraphs = "0.23-0.24"
+
+["0.35.4-0"]
 FunctionalStateMachine = "0.2.9-0.3"
+
+["0.35.5-0"]
+ApproxManifoldProducts = "0.9"
+DistributedFactorGraphs = "0.25"
+Manifolds = "0.10"
+Manopt = "0.4.40-0.5"
+MetaGraphs = "0.7-0.8"
+RecursiveArrayTools = "3"
 
 ["0.4"]
 KernelDensityEstimate = "0.4"
