@@ -8,13 +8,15 @@ Revise = "3.1.0-3"
 SIMD = "3.3.0-3"
 SLEEF_jll = "3.4.0-3"
 StaticArrays = "1.4.0-1"
-StructArrays = "0.6"
 TestEnv = "1"
 YAML = "0.4.7-0.4"
 julia = "1.6.0-1"
 
 ["0-0.21.20"]
 NCDatasets = "0.12"
+
+["0-0.21.30"]
+StructArrays = "0.6"
 
 ["0.15-0"]
 MAT = "0.10"
@@ -46,3 +48,6 @@ NCDatasets = "0.12-0.14"
 
 ["0.21.3-0"]
 TimerOutputs = "0.5"
+
+["0.21.31-0"]
+StructArrays = "0.6-0.7"
