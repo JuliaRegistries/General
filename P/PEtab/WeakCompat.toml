@@ -22,10 +22,12 @@ Plots = "1"
 SciMLSensitivity = "7.55.0-7"
 
 ["2.12-3"]
-Bijectors = "0.13"
 LogDensityProblems = "2.1.0-2"
 LogDensityProblemsAD = "1.7.0-1"
 MCMCChains = "6"
+
+["2.12-3.5.1"]
+Bijectors = "0.13"
 
 ["2.14-2"]
 Pigeons = "0.4"
@@ -41,3 +43,6 @@ SciMLSensitivity = "7.60.0-7"
 
 ["3.3-3"]
 Optimization = "4"
+
+["3.5.2-3"]
+Bijectors = ["0.13", "0.15"]
