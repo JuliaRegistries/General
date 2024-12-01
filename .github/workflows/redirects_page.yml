@@ -5,28 +5,33 @@ on:
 
 jobs:
   build-and-deploy:
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
     runs-on: ubuntu-latest
 
     steps:
-    # Checkout the repository
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    # Install Julia
-    - name: Install Julia
-      uses: julia-actions/setup-julia@v2
-      with:
-        version: '1'
+      # Install Julia
+      - name: Install Julia
+        uses: julia-actions/setup-julia@v2
+        with:
+          version: '1'
 
-    # Run the Julia script
-    - name: Run Julia script
-      run: julia generate_redirects.jl
+      # Run the Julia script
+      - name: Run Julia script
+        run: julia generate_redirects.jl
 
-    - name: Upload static files as artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: packages/
+      - name: Upload static files as artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: packages/
 
-    # Deploy to GitHub Pages
-    - name: Deploy to GitHub Pages
-      uses: actions/deploy-pages@v4
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
