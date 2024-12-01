@@ -16,7 +16,7 @@ jobs:
     - name: Install Julia
       uses: julia-actions/setup-julia@v2
       with:
-        version: 'stable'  # Use the stable version of Julia
+        version: '1'
 
     # Run the Julia script
     - name: Run Julia script
