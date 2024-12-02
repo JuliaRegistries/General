@@ -11,7 +11,6 @@ julia = "1.5.0-1"
 
 ["0.2-0"]
 FileIO = "1"
-MeshIO = "0.4"
 
 ["0.2-0.2.2"]
 GeometryBasics = "0.3"
@@ -22,13 +21,16 @@ LazyArrays = "0.20-0.21"
 ["0.2-0.6.3"]
 Requires = "1"
 
+["0.2-0.6.7"]
+MeshIO = "0.4"
+
 ["0.2.0"]
 Catlab = "0.10-0.11"
 
 ["0.2.1-0.2.3"]
 Catlab = "0.11-0.12"
 
-["0.2.3-0"]
+["0.2.3-0.6.7"]
 GeometryBasics = "0.3-0.4"
 
 ["0.2.4"]
@@ -64,8 +66,10 @@ SparseArrays = "1.9.0-1"
 Artifacts = "1.9.0-1"
 
 ["0.6.1-0"]
-BenchmarkTools = "1.4.0-1"
 JSON = "0.21.4-0.21"
+
+["0.6.1-0.6.7"]
+BenchmarkTools = "1.4.0-1"
 
 ["0.6.2-0"]
 Artifacts = "1"
@@ -80,3 +84,9 @@ julia = "1.10.0-1"
 ["0.6.5-0"]
 DataMigrations = ["0.0.3", "0.1"]
 LazyArrays = ["0.20-0.22", "1-2"]
+
+["0.6.8-0"]
+GeometryBasics = "0.3-0.5"
+KernelAbstractions = "0.9"
+MeshIO = "0.4-0.5"
+Statistics = "1"
