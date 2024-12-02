@@ -2,12 +2,17 @@
 ArrayLayouts = "1"
 BandedMatrices = "1"
 FillArrays = "1"
-InfiniteArrays = "0.14"
 LazyArrays = "2"
 julia = "1.10.0-1"
+
+["0-0.1.0"]
+InfiniteArrays = "0.14"
 
 ["0.0"]
 RecurrenceRelationships = "0.0.1-0.0.2"
 
 ["0.1-0"]
 RecurrenceRelationships = "0.1"
+
+["0.1.1-0"]
+InfiniteArrays = "0.14-0.15"
