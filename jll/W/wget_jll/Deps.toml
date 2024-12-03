@@ -1,11 +1,21 @@
 [1]
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
-GnuTLS_jll = "0951126a-58fd-58f1-b5b3-b08c7c4a876d"
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 ["1-1.21.1"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-["1.21-1"]
+["1-1.24"]
+GnuTLS_jll = "0951126a-58fd-58f1-b5b3-b08c7c4a876d"
+
+["1.21-1.24"]
 Nettle_jll = "4c82536e-c426-54e4-b420-14f461c4ed8b"
+
+["1.25-1"]
+Libuuid_jll = "38a345b3-de98-5d2b-a5d3-14cd9215e700"
+OpenSSL_jll = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
+PCRE2_jll = "efcefdf7-47ab-520b-bdef-62a2eaa19f15"
+Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
+libidn2_jll = "e3d30ef0-22f3-5ccc-b703-2e063d8d1f30"
+libpsl_jll = "c4fadf96-db99-5883-8c55-41cf0165eeb0"

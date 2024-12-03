@@ -2,9 +2,15 @@
 CUDA = "5"
 GenericLinearAlgebra = "0.3"
 IntervalArithmetic = "0.20"
-JLD2 = "0.4"
 JSON3 = "1"
 Plots = "1"
 Wannier = "0.3.2-0.3"
 WriteVTK = "1"
 wannier90_jll = "3.1.0-3"
+
+["0.6.15-0.6"]
+JLD2 = "0.4"
+
+["0.7-0"]
+GeometryOptimization = "0.1"
+JLD2 = "0.4-0.5"
