@@ -1,8 +1,10 @@
 [0]
-KernelAbstractions = "0.9"
 RuntimeGeneratedFunctions = "0.5"
-SafeTestsets = "0.1"
 julia = "1.6.0-1"
+
+["0-0.1"]
+KernelAbstractions = "0.9"
+SafeTestsets = "0.1"
 
 ["0-0.1.0"]
 AbstractNeuralNetworks = "0.1"
@@ -14,5 +16,9 @@ AbstractNeuralNetworks = ["0.1", "0.3"]
 ["0.1.1-0"]
 Symbolics = "5-6"
 
-["0.1.2-0"]
+["0.1.2-0.1"]
 AbstractNeuralNetworks = ["0.1", "0.3-0.4"]
+
+["0.2-0"]
+AbstractNeuralNetworks = "0.3-0.4"
+Latexify = "0.16.5-0.16"
