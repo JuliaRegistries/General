@@ -1,9 +1,17 @@
 [0]
 ForwardDiff = "0.10"
+StatsBase = "0.34"
+
+["0-0.1"]
 LsqFit = "0.15"
 NLsolve = "4"
 Optim = "1"
 Revise = "3"
 Roots = "2"
-StatsBase = "0.34"
 julia = "1.9.0-1"
+
+["0.2-0"]
+DelimitedFiles = "1.9.1-1"
+Optimization = "4.0.5-4"
+SimpleNonlinearSolve = "2"
+julia = "1.10.0-1"

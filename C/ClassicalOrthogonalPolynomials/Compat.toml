@@ -108,13 +108,15 @@ BandedMatrices = "1"
 BlockArrays = "1"
 BlockBandedMatrices = "0.13"
 FastGaussQuadrature = "1"
-InfiniteArrays = "0.14"
-InfiniteLinearAlgebra = "0.8"
-LazyBandedMatrices = "0.10"
 julia = "1.10.0-1"
 
 ["0.13-0.13.2"]
 ContinuumArrays = "0.18"
+
+["0.13-0.13.8"]
+InfiniteArrays = "0.14"
+InfiniteLinearAlgebra = "0.8"
+LazyBandedMatrices = "0.10"
 
 ["0.13.0"]
 LazyArrays = "2"
@@ -132,6 +134,11 @@ LazyArrays = "2.2.0-2"
 ["0.13.7-0"]
 RecurrenceRelationshipArrays = "0.1"
 RecurrenceRelationships = "0.1"
+
+["0.13.9-0"]
+InfiniteArrays = "0.14-0.15"
+InfiniteLinearAlgebra = "0.8-0.9"
+LazyBandedMatrices = "0.10-0.11"
 
 ["0.2"]
 InfiniteArrays = "0.10"

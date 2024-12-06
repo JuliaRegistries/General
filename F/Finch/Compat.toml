@@ -1,6 +1,3 @@
-[0]
-Requires = "1"
-
 ["0-0.1"]
 MacroTools = "0.5"
 SyntaxInterface = "0.1"
@@ -17,40 +14,48 @@ julia = "1.6.7-1"
 ["0-0.6.7"]
 RewriteTools = "0.1"
 
-["0.2-0"]
+[0-1]
+Requires = "1"
+
+["0.2-1"]
 Compat = "3.29.0-4"
 SyntaxInterface = "0.2.1-0.2"
 
-["0.5-0"]
+["0.5-1"]
 DataStructures = "0.18"
 
-["0.5.3-0"]
+["0.5.3-1"]
 JSON = "0.21"
 PrecompileTools = "1"
-
-["0.6-0"]
-AbstractTrees = "0.3.4-0.4"
 
 ["0.6-0.6.20"]
 CIndices = "0.3"
 
-["0.6.21-0"]
-Distributions = "0.25"
+["0.6-1"]
+AbstractTrees = "0.3.4-0.4"
 
-["0.6.26-0"]
-Preferences = "1.4.3-1"
-TOML = "1"
-UUIDs = "1.4.0-1"
+["0.6.21-1"]
+Distributions = "0.25"
 
 ["0.6.26-0.6.30"]
 RewriteTools = "0.2.1-0.2"
 
-["0.6.31-0"]
+["0.6.26-1"]
+Preferences = "1.4.3-1"
+TOML = "1"
+UUIDs = "1.4.0-1"
+
+["0.6.31-1"]
 RewriteTools = "0.2.4-0.2"
 
-["0.6.33-0"]
+["0.6.33-1"]
 UnsafeAtomics = "0.2.1-0.2"
 julia = "1.10.0-1"
 
 ["0.6.8-0.6.25"]
 RewriteTools = "0.2"
+
+[1]
+AutoHashEquals = "2.2.0-2"
+IterTools = "1.10.0-1"
+Statistics = "1"

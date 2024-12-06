@@ -243,8 +243,10 @@ DistributedFactorGraphs = "0.23"
 
 ["0.24-0"]
 IncrementalInference = "0.35"
-Manifolds = "0.9"
 ManifoldsBase = "0.15"
+
+["0.24-0.24.5"]
+Manifolds = "0.9"
 
 ["0.24.0"]
 Dates = "1.9.0-1"
@@ -267,11 +269,17 @@ julia = "1.10.0-1"
 ["0.24.1-0.24.4"]
 ApproxManifoldProducts = "0.8"
 
-["0.24.4-0"]
+["0.24.4-0.24.5"]
 DistributedFactorGraphs = "0.23-0.24"
 
-["0.24.5-0"]
+["0.24.5"]
 ApproxManifoldProducts = "0.8.5-0.8"
+
+["0.24.6-0"]
+ApproxManifoldProducts = "0.9"
+DistributedFactorGraphs = "0.25"
+Manifolds = "0.10.1-0.10"
+RecursiveArrayTools = "3"
 
 ["0.3"]
 ApproxManifoldProducts = "0.0.3"

@@ -410,9 +410,14 @@ BandedMatrices = "1"
 BlockArrays = "1"
 BlockBandedMatrices = "0.13"
 FillArrays = "1.11.0-1"
-InfiniteArrays = "0.13-0.14"
 LazyArrays = "1-2"
 LinearAlgebra = "1"
 SparseArrays = "1"
 Statistics = "1"
 julia = "1.10.0-1"
+
+["0.9.28-0.9.30"]
+InfiniteArrays = "0.13-0.14"
+
+["0.9.31-0"]
+InfiniteArrays = "0.13-0.15"
