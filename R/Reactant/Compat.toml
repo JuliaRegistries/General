@@ -43,9 +43,11 @@ Scratch = "1.2.0-1"
 Reactant_jll = "0.0.19"
 
 ["0.2.1-0"]
-Enzyme = "0.13"
 OrderedCollections = "1"
 julia = "1.10.0-1"
+
+["0.2.1-0.2.7"]
+Enzyme = "0.13"
 
 ["0.2.2-0"]
 Adapt = "4"
@@ -63,9 +65,17 @@ ReactantCore = "0.1"
 Reactant_jll = "0.0.24"
 
 ["0.2.6-0"]
-GPUArraysCore = "0.1-0.2"
 LinearAlgebra = "1.10.0-1"
 ReactantCore = "0.1.2-0.1"
 
-["0.2.7-0"]
+["0.2.6-0.2.7"]
+GPUArraysCore = "0.1-0.2"
+
+["0.2.7"]
 Reactant_jll = "0.0.25"
+
+["0.2.8-0"]
+Enzyme = "0.13.15-0.13"
+EnzymeCore = "0.8.6-0.8"
+GPUArraysCore = "0.1.6-0.2"
+Reactant_jll = "0.0.26"
