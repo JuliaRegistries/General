@@ -74,10 +74,12 @@ JLD = "0.9-0.10"
 
 [1]
 FileIO = "1.6.0-1"
-julia = "1.6.0-1"
 
 ["1-1.7"]
 GtkObservables = "1"
+
+["1-1.8"]
+julia = "1.6.0-1"
 
 ["1.0"]
 Gtk = ["0.18", "1"]
@@ -113,7 +115,7 @@ IntervalSets = "0.2-0.7"
 ["1.6-1.7.1"]
 SnoopPrecompile = "1"
 
-["1.7-1"]
+["1.7-1.8"]
 Requires = "1"
 
 ["1.7.2-1"]
@@ -126,5 +128,15 @@ GtkObservables = "2"
 Gtk4 = "0.5-0.6"
 
 ["1.8.1-1"]
-Colors = "0.9-0.13"
 Gtk4 = "0.5-0.7"
+
+["1.8.1-1.8"]
+Colors = "0.9-0.13"
+
+["1.9-1"]
+Colors = "0.12-0.13"
+Dates = "1"
+InteractiveUtils = "1"
+Profile = "1"
+UUIDs = "1"
+julia = "1.10.0-1"
