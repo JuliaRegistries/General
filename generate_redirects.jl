@@ -9,8 +9,29 @@ function get_packages_info()
     return [(; name = dict["name"], path = dict["path"]) for (uuid, dict) in reg["packages"]]
 end
 
+function get_host(repo)
+    m = match(r"^https://([a-z\.]+)", repo)
+    if m === nothing
+        error("Repo url $(repr(repo)) did not match expected format")
+    end
+    return m[1]
+end
+
+function known_host(host)
+    host in ("github.com", "gitlab.com", "codeberg.org")
+end
+
 function create_redirect_page(; name, path)
     repo = get_repo(path)
+    host = get_host(repo)
+    should_redirect = known_host(host)
+    meta_redirection = should_redirect ? """<meta http-equiv="refresh" content="0; url=$repo">""" : ""
+    message = if should_redirect
+        """Click this link if you are not redirected automatically to the repository page of the registered Julia package <b>$name</b>: <a href="$repo">$repo</a>"""
+    else
+        """Click this link to go to the repository page of the registered Julia package <b>$name</b>: <a href="$repo">$repo</a>"""
+    end
+
     open(joinpath("packages", name * ".html"), "w") do io
         write(io, """
         <!DOCTYPE html>
@@ -19,10 +40,10 @@ function create_redirect_page(; name, path)
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Redirecting...</title>
-            <meta http-equiv="refresh" content="0; url=$repo">
+            $meta_redirection
         </head>
         <body>
-            <p>If you are not redirected automatically, follow this <a href="$repo">link</a>.</p>
+            <p>$message</p>
         </body>
         </html>
         """)
