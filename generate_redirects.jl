@@ -27,9 +27,9 @@ function create_redirect_page(; name, path)
     should_redirect = known_host(host)
     meta_redirection = should_redirect ? """<meta http-equiv="refresh" content="0; url=$repo">""" : ""
     message = if should_redirect
-        """Click this link if you are not redirected automatically to the repository page of the registered Julia package <b>$name</b>: <a href="$repo">$repo</a>"""
+        """Click the link below if you are not redirected automatically to the registered repository for the Julia package $name<br><br><a href="$repo">$repo</a>"""
     else
-        """Click this link to go to the repository page of the registered Julia package <b>$name</b>: <a href="$repo">$repo</a>"""
+        """Click the link below to go to the registered repository for the Julia package $name<br><br><a href="$repo">$repo</a>"""
     end
 
     open(joinpath("packages", name * ".html"), "w") do io
@@ -39,11 +39,38 @@ function create_redirect_page(; name, path)
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Redirecting...</title>
+            <title>Redirecting to $name...</title>
             $meta_redirection
+            <style>
+                body {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 100vh;
+                    margin: 0;
+                    padding: 20px;
+                    font-family: Arial, sans-serif;
+                    background-color: #f9f9f9;
+                }
+                .centered-div {
+                    border: 2px solid #1E88E5;
+                    border-radius: 10px;
+                    padding: 20px;
+                    text-align: center;
+                    color: #333;
+                    max-width: 30em;
+                    word-wrap: break-word;
+                }
+                .centered-div a {
+                    color: #1E88E5;
+                    font-weight: bold;
+                }
+            </style>
         </head>
         <body>
-            <p>$message</p>
+            <div class="centered-div">
+                <p>$message</p>
+            </div>
         </body>
         </html>
         """)
