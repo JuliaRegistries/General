@@ -13,9 +13,15 @@ julia = "1.6.0-1"
 
 [8]
 Artifacts = ["0.0.0", "1"]
-FreeType2_jll = "2.10.4-2"
-Glib_jll = "2.68.1-2"
 JLLWrappers = "1.2.0-1"
 Libdl = ["0.0.0", "1"]
 Libffi_jll = "3.2.2-3.2"
 julia = "1.6.0-1"
+
+["8-8.3"]
+FreeType2_jll = "2.10.4-2"
+Glib_jll = "2.68.1-2"
+
+["8.5-8"]
+FreeType2_jll = "2.13.3-2"
+Glib_jll = "2.82.2-2"
