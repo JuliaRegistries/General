@@ -27,9 +27,9 @@ function create_redirect_page(; name, path)
     should_redirect = known_host(host)
     meta_redirection = should_redirect ? """<meta http-equiv="refresh" content="0; url=$repo">""" : ""
     message = if should_redirect
-        """Click the link below if you are not redirected automatically to the registered repository for the Julia package $name<br><br><a href="$repo">$repo</a>"""
+        """Click the link below if you are not redirected automatically to the registered repository for the Julia package $name<br><br><a href="$repo" rel="nofollow">$repo</a>"""
     else
-        """Click the link below to go to the registered repository for the Julia package $name<br><br><a href="$repo">$repo</a>"""
+        """Click the link below to go to the registered repository for the Julia package $name<br><br><a href="$repo" rel="nofollow">$repo</a>"""
     end
 
     open(joinpath("packages", name * ".html"), "w") do io
