@@ -13,18 +13,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Install Julia
       - name: Install Julia
         uses: julia-actions/setup-julia@v2
         with:
           version: '1'
 
-      # Run the Julia script
-      - name: Run Julia script
+      - name: Run the "generate_redirects.jl" Julia script
         run: julia generate_redirects.jl
 
       - name: Upload static files as artifact
@@ -32,6 +29,5 @@ jobs:
         with:
           path: packages/
 
-      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
