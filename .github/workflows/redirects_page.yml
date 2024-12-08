@@ -2,6 +2,8 @@ name: Generate and Deploy Redirects
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"  # every 6 hours
 
 jobs:
   build-and-deploy:
