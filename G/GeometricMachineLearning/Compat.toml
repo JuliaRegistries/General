@@ -33,14 +33,18 @@ GeometricBase = "0.9"
 GeometricEquations = "0.14"
 
 ["0.2-0"]
-BandedMatrices = ["0.17", "1"]
 ChainRulesTestUtils = "1"
-GeometricIntegrators = "0.13"
 HDF5 = "0.16-0.17"
 SafeTestsets = "0.1"
 
 ["0.2-0.3.0"]
 Documenter = ["0.27", "1"]
+
+["0.2-0.3.5"]
+GeometricIntegrators = "0.13"
+
+["0.2-0.3.6"]
+BandedMatrices = ["0.17", "1"]
 
 ["0.3-0"]
 GeometricBase = "0.10"
@@ -53,9 +57,22 @@ AbstractNeuralNetworks = "0.3"
 GeometricEquations = "0.16"
 
 ["0.3.1-0"]
-GeometricEquations = "0.16-0.17"
 LazyArrays = "2"
 UpdateJulia = "0.4"
 
-["0.3.4-0"]
+["0.3.1-0.3.5"]
+GeometricEquations = "0.16-0.17"
+
+["0.3.4-0.3.5"]
 AbstractNeuralNetworks = "0.3.2-0.3"
+
+["0.3.6"]
+AbstractNeuralNetworks = "0.3.2-0.4"
+
+["0.3.6-0"]
+GeometricEquations = "0.18"
+GeometricIntegrators = "0.14"
+
+["0.3.7-0"]
+AbstractNeuralNetworks = "0.4"
+BandedMatrices = "1"
