@@ -1,4 +1,4 @@
-using TOML
+import TOML
 
 function get_repo(path::String)
     return TOML.parsefile(joinpath(path, "Package.toml"))["repo"]
