@@ -2,8 +2,11 @@ name: Generate and Deploy Redirects
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 */6 * * *"  # every 6 hours
+  push:
+    branches:
+      - master
+    paths:
+      - '**/Package.toml' # avoids redeploys on version or compat changes
 
 jobs:
   build-and-deploy:
