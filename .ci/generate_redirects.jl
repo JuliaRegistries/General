@@ -90,10 +90,12 @@ function create_redirect_page(; name, path)
 end
 
 function main()
-    mkpath(package_path())
-    packages_info = get_packages_info()
-    for (; name, path) in packages_info
-        create_redirect_page(; name, path)
+    cd(joinpath(@__DIR__, "..")) do
+        mkpath(package_path())
+        packages_info = get_packages_info()
+        for (; name, path) in packages_info
+            create_redirect_page(; name, path)
+        end
     end
 end
 
