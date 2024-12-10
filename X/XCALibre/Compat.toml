@@ -1,8 +1,6 @@
 [0]
 Accessors = "0.1.30-0.1"
 Adapt = "4"
-Atomix = "0.1"
-GPUArrays = "10.2.0-10"
 ILUZero = "0.2"
 IncompleteLU = "0.2"
 KernelAbstractions = "0.9.25-0.9"
@@ -15,3 +13,14 @@ Reexport = "1.2.0-1"
 Setfield = "1.1.0-1"
 StaticArrays = "1.9.0-1"
 julia = "1.8.0-1"
+
+["0-0.3.2"]
+Atomix = "0.1"
+GPUArrays = "10.2.0-10"
+
+["0.3.3-0"]
+Atomix = ["0.1", "1"]
+GPUArrays = "10.2.0-11"
+KrylovPreconditioners = "0.3"
+SparseMatricesCSR = "0.6"
+Statistics = "1"
