@@ -27,6 +27,37 @@ function package_path(args...)
     joinpath("webroot", "packages", "redirect_to_repo", args...)
 end
 
+function style_block(backgroundcolor, color)
+    """
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .centered-div {
+            border: 3px solid $color;
+            background-color: $backgroundcolor;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            color: #333;
+            max-width: 30em;
+            word-wrap: break-word;
+        }
+        .centered-div a {
+            color: $color;
+            font-weight: bold;
+        }
+    </style>
+    """
+end
+
 function create_redirect_page(; name, path)
     repo = get_repo(path)
     host = get_host(repo)
@@ -52,32 +83,7 @@ function create_redirect_page(; name, path)
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>$title</title>
             $meta_redirection
-            <style>
-                body {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    min-height: 100vh;
-                    margin: 0;
-                    font-family: Arial, sans-serif;
-                    background-color: #f9f9f9;
-                }
-                .centered-div {
-                    border: 3px solid #9558B2;
-                    background-color: #f8e9ff;
-                    border-radius: 10px;
-                    padding: 20px;
-                    margin: 20px;
-                    text-align: center;
-                    color: #333;
-                    max-width: 30em;
-                    word-wrap: break-word;
-                }
-                .centered-div a {
-                    color: #9558B2;
-                    font-weight: bold;
-                }
-            </style>
+            $(style_block("#f8e9ff", "#9558B2"))
         </head>
         <body>
             <div class="centered-div">
@@ -89,6 +95,52 @@ function create_redirect_page(; name, path)
     end
 end
 
+function create_404_page()
+    open(joinpath("webroot", "404.html"), "w") do io
+        write(io, """
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Page not found</title>
+            $(style_block("#ffcbc8", "#CB3C33"))
+        </head>
+        <body>
+            <div class="centered-div">
+                <p>No page exists here.<br><br>Redirection pages for registered Julia packages follow the format packages/redirect_to_repo/SomePackage.</p>
+            </div>
+
+            <script>
+            // Get the current URL path
+            const urlPath = window.location.pathname;
+
+            // Define the regex pattern to match the URL structure
+            const pattern = /\\/packages\\/redirect_to_repo\\/([^\\/]+?)(\\.html)?\$/;
+
+            // Check if the URL matches the pattern
+            const match = urlPath.match(pattern);
+
+            if (match) {
+                const packageName = match[1]; // Extract the package name
+                const messageElement = document.querySelector(".centered-div p");
+                // Update the paragraph text
+                messageElement.innerHTML = `\
+                    There is no package \${packageName} registered in the Julia General Registry.\
+                    <br><br>\
+                    Would you like to try searching <a href="https://github.com/search?q=\${packageName}.jl&type=repositories">Github</a>, \
+                    <a href="https://about.gitlab.com/search/?searchText=\${packageName}.jl">Gitlab</a>, \
+                    <a href="https://www.google.com/search?q=\${packageName}.jl">Google</a>, \
+                    or <a href="https://duckduckgo.com/?t=h_&q=\${packageName}.jl">DuckDuckGo</a> for it?`;
+            }
+        </script>
+        </body>
+        </html>
+        """)
+    end
+    return
+end
+
 function main()
     cd(joinpath(@__DIR__, "..")) do
         mkpath(package_path())
@@ -96,6 +148,7 @@ function main()
         for (; name, path) in packages_info
             create_redirect_page(; name, path)
         end
+        create_404_page()
     end
 end
 
