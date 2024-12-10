@@ -37,6 +37,11 @@ function create_redirect_page(; name, path)
     else
         """Click the link below to go to the registered repository for the Julia package $name<br><br><a href="$repo" rel="nofollow">$repo</a>"""
     end
+    title = if should_redirect
+        "Redirecting to $name..."
+    else
+        "Confirm redirect to $name"
+    end
 
     open(package_path(name * ".html"), "w") do io
         write(io, """
@@ -45,7 +50,7 @@ function create_redirect_page(; name, path)
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Redirecting to $name...</title>
+            <title>$title</title>
             $meta_redirection
             <style>
                 body {
