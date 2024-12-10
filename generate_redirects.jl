@@ -58,7 +58,8 @@ function create_redirect_page(; name, path)
                     background-color: #f9f9f9;
                 }
                 .centered-div {
-                    border: 2px solid #1E88E5;
+                    border: 3px solid #9558B2;
+                    background-color: #f8e9ff;
                     border-radius: 10px;
                     padding: 20px;
                     margin: 20px;
@@ -68,7 +69,7 @@ function create_redirect_page(; name, path)
                     word-wrap: break-word;
                 }
                 .centered-div a {
-                    color: #1E88E5;
+                    color: #9558B2;
                     font-weight: bold;
                 }
             </style>
