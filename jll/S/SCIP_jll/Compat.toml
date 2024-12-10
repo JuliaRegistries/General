@@ -33,10 +33,16 @@ Artifacts = "1"
 Libdl = "1"
 
 [900]
-Artifacts = "1"
 Bzip2_jll = "1.0.8-1"
 Ipopt_jll = "300.1400.1400-300"
 JLLWrappers = "1.2.0-1"
-Libdl = "1"
 boost_jll = "1.79.0"
 julia = "1.6.0-1"
+
+["900.0"]
+Artifacts = "1"
+Libdl = "1"
+
+["900.200-900"]
+Artifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]
