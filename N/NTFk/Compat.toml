@@ -135,7 +135,7 @@ DelimitedFiles = "1.6.0-1"
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
-["1.1-1"]
+["1.1-1.2"]
 Interpolations = "0.12-0.14"
 
 ["1.1.2-1"]
@@ -156,7 +156,7 @@ JLD = "0.10-0.14"
 ["1.1.9-1.1"]
 TensorOperations = "1-3"
 
-["1.2-1"]
+["1.2"]
 TensorOperations = "1-4"
 julia = "1.9.0-1"
 
@@ -168,7 +168,6 @@ Statistics = "1.9.0-1"
 Dates = "1"
 DelimitedFiles = "1"
 Distributed = "1"
-Images = ["0.3", "0.22-0.25"]
 LinearAlgebra = "1"
 Pkg = "1"
 Printf = "1"
@@ -177,3 +176,12 @@ SharedArrays = "1"
 SparseArrays = "1"
 Statistics = "1"
 Test = "1"
+
+["1.2.1-1.2"]
+Images = ["0.3", "0.22-0.25"]
+
+["1.3-1"]
+Images = ["0.25-0.27", "1"]
+Interpolations = ["0.14-0.15", "1"]
+TensorOperations = "1-5"
+julia = "1.11.0-1"

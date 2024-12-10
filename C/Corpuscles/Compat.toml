@@ -2,12 +2,18 @@
 Unitful = "0.18"
 
 [0-2]
+julia = "1"
+
+["0-2.1.1"]
 DelimitedFiles = "1"
 UnitfulAtomic = "0.3"
-julia = "1"
 
 ["0.2.2-2"]
 Unitful = ["0.18", "1"]
 
-[1-2]
+["1-2.1.1"]
 DocStringExtensions = "0.8"
+
+["2.1.2-2"]
+DocStringExtensions = "0.8-0.9"
+UnitfulAtomic = ["0.3", "1"]

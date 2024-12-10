@@ -55,14 +55,16 @@ BitIntegers = "0.3"
 CodecLz4 = "0.4"
 CodecXz = "0.7"
 CodecZstd = "0.8"
-HTTP = "1"
 Memoization = "0.2"
 Mmap = "1"
 PrecompileTools = "1.2.0-1"
 PrettyTables = "2.1.0-2"
-StaticArrays = "1"
 Tables = "1.9.0-1"
 XXHashNative = "1.0.1-1"
+
+["0.10.24-0.10.32"]
+HTTP = "1"
+StaticArrays = "1"
 julia = "1.7.0-1"
 
 ["0.10.25-0.10.30"]
@@ -72,8 +74,15 @@ xrootdgo_jll = ["0.32.1", "0.34.1"]
 FHist = "0.10-0.11"
 TOML = "1"
 
-["0.10.31-0"]
+["0.10.31-0.10.32"]
 XRootD = "0.1"
+
+["0.10.33-0"]
+Accessors = "0.1.36-0.1"
+HTTP = "1.10.0-1"
+StaticArrays = "1.5.0-1"
+XRootD = "0.1-0.2"
+julia = "1.10.0-1"
 
 ["0.2-0.10.16"]
 CodecZstd = "0.6-0.7"
