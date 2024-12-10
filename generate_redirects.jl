@@ -17,11 +17,13 @@ function get_host(repo)
     return m[1]
 end
 
+# only for these hosts will we redirect automatically, for all others the user needs to click the link
 function known_host(host)
     host in ("github.com", "gitlab.com", "codeberg.org")
 end
 
 function package_path(args...)
+    # results in URLs like juliaregistries.github.io/General/packages/redirect_to_repo/SomePackage
     joinpath("webroot", "packages", "redirect_to_repo", args...)
 end
 
