@@ -131,7 +131,7 @@ function create_404_page()
                     Would you like to try searching <a href="https://github.com/search?q=\${packageName}.jl&type=repositories">Github</a>, \
                     <a href="https://about.gitlab.com/search/?searchText=\${packageName}.jl">Gitlab</a>, \
                     <a href="https://www.google.com/search?q=\${packageName}.jl">Google</a>, \
-                    or <a href="https://duckduckgo.com/?t=h_&q=\${packageName}.jl">DuckDuckGo</a> for it?`;
+                    or <a href="https://duckduckgo.com/?q=\${packageName}.jl">DuckDuckGo</a> for it?`;
             }
         </script>
         </body>
