@@ -1,5 +1,4 @@
 [0]
-AtomsBase = "0.3"
 UnitfulAtomic = "1"
 
 ["0-0.0.1"]
@@ -11,8 +10,10 @@ StaticArrays = "1.8.0-1"
 Unitful = "1.19.0-1"
 julia = "1.9.0-1"
 
+["0-0.1.0"]
+AtomsBase = "0.3"
+
 ["0.0.2-0"]
-AtomsCalculators = "0.2"
 DocStringExtensions = "0.9"
 LineSearches = "7"
 Optimization = "3"
@@ -21,6 +22,13 @@ StaticArrays = "1"
 Unitful = "1"
 julia = "1.10.0-1"
 
+["0.0.2-0.1.0"]
+AtomsCalculators = "0.2"
+
 ["0.1-0"]
 PrettyTables = "2"
 TimerOutputs = "0.5.12-0.5"
+
+["0.1.1-0"]
+AtomsBase = "0.5"
+AtomsCalculators = "0.2.3-0.2"
