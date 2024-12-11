@@ -1,14 +1,23 @@
 [0]
 DifferentialEquations = "7"
-IfElse = "0.1"
-ModelingToolkit = "8"
-SafeTestsets = "0.1"
 StaticArrays = "1"
-Unitful = "1"
 julia = "1"
 
 ["0-0.2.0"]
 EarthSciMLBase = "0.6"
 
-["0.2.1-0"]
+["0-0.2.1"]
+IfElse = "0.1"
+ModelingToolkit = "8"
+SafeTestsets = "0.1"
+Unitful = "1"
+
+["0.2.1"]
 EarthSciMLBase = ["0.6", "0.8"]
+
+["0.2.2-0"]
+DataInterpolations = "6"
+DynamicQuantities = "1"
+EarthSciMLBase = "0.20"
+ModelingToolkit = "9"
+SymbolicUtils = "3"
