@@ -101,7 +101,6 @@ ModelingToolkit = "6-7"
 Symbolics = "3-4"
 
 ["0.3-0"]
-GeometricSolutions = "0.3"
 Reexport = "1"
 
 ["0.3-0.4.3"]
@@ -113,8 +112,8 @@ Documenter = "0.25-0.27"
 ["0.3-0.5.7"]
 julia = "1.6.0-1"
 
-["0.4-0"]
-RuntimeGeneratedFunctions = "0.5"
+["0.3-0.6.6"]
+GeometricSolutions = "0.3"
 
 ["0.4-0.4.1"]
 GeometricEquations = "0.8"
@@ -122,6 +121,9 @@ GeometricEquations = "0.8"
 ["0.4-0.5.3"]
 ModelingToolkit = "8"
 Symbolics = "4"
+
+["0.4-0.6.6"]
+RuntimeGeneratedFunctions = "0.5"
 
 ["0.4.2-0.4.4"]
 GeometricEquations = "0.9"
@@ -168,7 +170,7 @@ Documenter = ["0.25-0.27", "1"]
 ["0.5.8-0.5.10"]
 julia = "1.8.0-1"
 
-["0.5.9-0"]
+["0.5.9-0.6.6"]
 EulerLagrange = "0.3"
 
 ["0.6.3"]
@@ -180,5 +182,9 @@ GeometricEquations = "0.11-0.18"
 ["0.6.5-0"]
 GeometricEquations = "0.18"
 
-["0.6.6-0"]
+["0.6.6"]
 Symbolics = "5-6"
+
+["0.6.7-0"]
+EulerLagrange = "0.4"
+GeometricSolutions = "0.4"
