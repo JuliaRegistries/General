@@ -11,11 +11,13 @@ SortingAlgorithms = "0.0.0-0.3"
 DelimitedFiles = ["0.7", "1"]
 
 ["0.30-0"]
-Statistics = "1"
 julia = "1"
 
 ["0.30-0.32.0"]
 DataStructures = "0.0.0-0.17"
+
+["0.30-0.34.3"]
+Statistics = "1"
 
 ["0.32.0"]
 DataAPI = "0.0.0-1"
@@ -55,3 +57,7 @@ LinearAlgebra = ["0.0.0", "1"]
 Printf = ["0.0.0", "1"]
 Random = ["0.0.0", "1"]
 SparseArrays = ["0.0.0", "1"]
+
+["0.34.4-0"]
+AliasTables = "1"
+Statistics = ["0.0.0", "1"]
