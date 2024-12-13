@@ -17,6 +17,7 @@ NLopt = "0.5.1-0.6"
 BioSequences = "1"
 BioSymbols = "3"
 Combinatorics = "0.7"
+Distributed = ["0.7", "1"]
 Statistics = ["0.7", "1"]
 StatsModels = "0.3-0.5"
 julia = ["0.7", "1"]
@@ -25,6 +26,7 @@ julia = ["0.7", "1"]
 BioSequences = "1.0.0-2"
 BioSymbols = "3.0.0-4"
 Combinatorics = "0.7.0-1"
+Distributed = ["0.7.0", "1"]
 Distributions = "0.15.0-0.23"
 Statistics = ["0.7.0", "1"]
 julia = ["0.7.0", "1"]
@@ -51,6 +53,7 @@ BioSequences = "2"
 FASTX = "1.1.0-1"
 
 ["0.12-0.16"]
+Distributed = "1.1.0-1"
 GLM = "1.1.0-1"
 julia = "1.1.0-1"
 
@@ -116,6 +119,7 @@ StatsBase = "0.26-0.34"
 NLopt = ["0.5.1-0.6", "1"]
 
 ["0.17-1"]
+Distributed = "1.5.0-1"
 Functors = "0.2-0.5"
 julia = "1.5.0-1"
 

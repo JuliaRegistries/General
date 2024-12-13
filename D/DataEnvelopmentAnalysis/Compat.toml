@@ -57,6 +57,7 @@ Ipopt = ["0.6.5-0.9", "1"]
 JuMP = ["0.21-0.23", "1"]
 
 ["0.8-0"]
+Distributed = "1.6.0-1"
 Distributions = "0.25"
 GLPK = "1"
 Ipopt = "1"
@@ -75,7 +76,6 @@ PrecompileTools = "1"
 StatsBase = "0.33-0.34"
 
 ["0.8.2-0"]
-Distributed = "1.6.0-1"
 LinearAlgebra = "1.6.0-1"
 Printf = "1.6.0-1"
 Random = "1.6.0-1"
