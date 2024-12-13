@@ -6,6 +6,7 @@ Optim = "0.0.0-0.22"
 StaticArrays = "0.0.0-0.12"
 
 ["0-0.2"]
+Distributed = "1"
 julia = "1"
 
 ["0.1.2-0.1"]
@@ -27,6 +28,7 @@ StaticArrays = "0.0.0-0.12"
 JuMP = "0.0.0-0.20"
 
 ["0.3"]
+Distributed = "1.3.0-1"
 Mads = "0.9"
 julia = "1.3.0-1"
 
@@ -34,6 +36,7 @@ julia = "1.3.0-1"
 JuMP = "0.0.0-0.20.1"
 
 ["0.4-0"]
+Distributed = "1.4.0-1"
 JuMP = "0.0.0-0.21"
 Mads = "0.10"
 julia = "1.4.0-1"
@@ -48,11 +51,13 @@ Ipopt = "0.6-0.7"
 JuMP = "0.21-0.22"
 
 ["1.0"]
+Distributed = "1.5.0-1"
 Optim = "0.22-0.23"
 StaticArrays = "0.12-0.13"
 julia = "1.5.0-1"
 
 ["1.1-1"]
+Distributed = "1.6.0-1"
 Optim = "1"
 StaticArrays = "1"
 julia = "1.6.0-1"

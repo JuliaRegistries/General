@@ -5,6 +5,7 @@ Thrift = "0.6"
 DataFrames = "0.14.1-0.18"
 
 ["0-0.5.0"]
+Distributed = "1.0.1-1"
 julia = "1.0.1-1"
 
 ["0.2-0"]
@@ -32,17 +33,22 @@ DataFrames = "0.18"
 Decimals = "0.4"
 
 ["0.5.1-0.5.2"]
+Distributed = "1.1.0-1"
 julia = "1.1.0-1"
 
 ["0.5.1-0.7"]
 DataFrames = "0.19"
 
 ["0.5.3-0.5"]
+Distributed = "1.1.0-*"
 julia = "1.1.0-*"
 
 ["0.6-0"]
 LibGEOS = "0.5"
 julia = "1.1.0-1"
+
+["0.6-0.7"]
+Distributed = "1.1.0-1"
 
 ["0.7-0"]
 Tables = "0.2"
