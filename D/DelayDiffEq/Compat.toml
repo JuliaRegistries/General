@@ -206,13 +206,15 @@ julia = "1.9.0-1"
 ["5.46-5"]
 OrdinaryDiffEq = "6.69.0-6"
 
+["5.49"]
+SciMLBase = "2.59.2-2"
+
 ["5.49-5"]
 OrdinaryDiffEqCore = "1.9.0-1"
 OrdinaryDiffEqDefault = "1.1.0-1"
 OrdinaryDiffEqDifferentiation = "1.1.0-1"
 OrdinaryDiffEqNonlinearSolve = "1.2.2-1"
 OrdinaryDiffEqRosenbrock = "1.2.0-1"
-SciMLBase = "2.59.2-2"
 SimpleNonlinearSolve = ["0.1", "1-2"]
 
 ["5.5"]
@@ -220,6 +222,10 @@ DiffEqBase = "5.12.0-6"
 
 ["5.5-5.14"]
 Parameters = "0.0.0-0.12"
+
+["5.50-5"]
+SciMLBase = "2.68.0-2"
+SymbolicIndexingInterface = "0.3.36-0.3"
 
 ["5.6-5.12"]
 DiffEqBase = "5.13.0-6"
