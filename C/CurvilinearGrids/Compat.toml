@@ -9,7 +9,6 @@ BenchmarkTools = "1"
 Revise = "3"
 
 ["0.3-0"]
-ChunkSplitters = "2"
 FillArrays = "1"
 FiniteDifferences = "0.12"
 KernelAbstractions = "0.9"
@@ -18,7 +17,10 @@ OffsetArrays = "1"
 Polyester = "0.7"
 WriteVTK = "1"
 
-["0.4-0"]
+["0.3-0.6"]
+ChunkSplitters = "2"
+
+["0.4-0.6"]
 StructArrays = "0.6"
 
 ["0.5-0"]
@@ -26,3 +28,7 @@ Adapt = "4"
 
 ["0.6.5-0"]
 CartesianDomains = "0.1"
+
+["0.7-0"]
+ChunkSplitters = "2-3"
+StructArrays = "0.3-0.7"
