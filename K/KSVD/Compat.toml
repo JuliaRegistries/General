@@ -4,13 +4,15 @@ Distributions = "0.22-0.25"
 ProgressMeter = "1"
 SparseArrays = "1.9.0-1"
 TimerOutputs = "0.5"
-julia = "1.9.0-1"
 
 ["1-1.1"]
 Transducers = "0.4"
 
 ["1-1.7"]
 TSVD = "0.4"
+
+["1-1.8.1"]
+julia = "1.9.0-1"
 
 ["1.0"]
 ThreadedDenseSparseMul = "0.2"
@@ -34,3 +36,6 @@ KrylovKit = "0.8"
 
 ["1.8.1-1"]
 OhMyThreads = "0.5-0.8"
+
+["1.8.2-1"]
+julia = "1.10.0-1"
