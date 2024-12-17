@@ -97,6 +97,7 @@ jobs:
               "https://github.com/cossio/CossioJuliaRegistry"
             ],
             point_to_slack = true,
+            check_breaking_explanation = true,
           )
         shell: julia --color=yes --project=.ci/ {0}
   AutoMerge-stopwatch:
