@@ -128,8 +128,8 @@ function create_404_page()
                 messageElement.innerHTML = `\
                     There is no package \${packageName} registered in the Julia General Registry.\
                     <br><br>\
-                    Would you like to try searching <a href="https://github.com/search?q=\${packageName}.jl&type=repositories">Github</a>, \
-                    <a href="https://about.gitlab.com/search/?searchText=\${packageName}.jl">Gitlab</a>, \
+                    Would you like to try searching <a href="https://github.com/search?q=\${packageName}.jl&type=repositories">GitHub</a>, \
+                    <a href="https://about.gitlab.com/search/?searchText=\${packageName}.jl">GitLab</a>, \
                     <a href="https://www.google.com/search?q=\${packageName}.jl">Google</a>, \
                     or <a href="https://duckduckgo.com/?q=\${packageName}.jl">DuckDuckGo</a> for it?`;
             }
