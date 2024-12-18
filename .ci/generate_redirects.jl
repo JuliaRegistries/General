@@ -61,17 +61,18 @@ end
 function create_redirect_page(; name, path)
     repo = get_repo(path)
     host = get_host(repo)
+    jlname = name * ".jl"
     should_redirect = known_host(host)
     meta_redirection = should_redirect ? """<meta http-equiv="refresh" content="0; url=$repo">""" : ""
     message = if should_redirect
-        """Redirecting to $name...<br><br>Click the link below if you are not redirected automatically to the registered repository for the Julia package $name<br><br><a href="$repo" rel="nofollow">$repo</a>"""
+        """Redirecting to $jlname...<br><br>Click the link below if you are not redirected automatically to the registered repository for the Julia package $jlname<br><br><a href="$repo" rel="nofollow">$repo</a>"""
     else
-        """Click the link below to go to the registered repository for the Julia package $name<br><br><a href="$repo" rel="nofollow">$repo</a>"""
+        """Click the link below to go to the registered repository for the Julia package $jlname<br><br><a href="$repo" rel="nofollow">$repo</a>"""
     end
     title = if should_redirect
-        "Redirecting to $name..."
+        "Redirecting to $jlname..."
     else
-        "Confirm redirect to $name"
+        "Confirm redirect to $jlname"
     end
 
     open(package_path(name * ".html"), "w") do io
@@ -126,7 +127,7 @@ function create_404_page()
                 const messageElement = document.querySelector(".centered-div p");
                 // Update the paragraph text
                 messageElement.innerHTML = `\
-                    There is no package \${packageName} registered in the Julia General Registry.\
+                    There is no package \${packageName}.jl registered in the Julia General Registry.\
                     <br><br>\
                     Would you like to try searching <a href="https://github.com/search?q=\${packageName}.jl&type=repositories">GitHub</a>, \
                     <a href="https://about.gitlab.com/search/?searchText=\${packageName}.jl">GitLab</a>, \
