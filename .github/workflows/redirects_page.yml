@@ -7,6 +7,9 @@ on:
       - master
     paths:
       - '**/Package.toml' # avoids redeploys on version or compat changes
+      - '.github/workflows/redirects_page.yml'
+      - '.ci/generate_redirects.jl'
+
 
 jobs:
   build-and-deploy:
