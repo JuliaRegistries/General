@@ -1,8 +1,5 @@
 [0]
-DelimitedFiles = "1.7.0-1"
 Distributions = "0.25"
-FastGaussQuadrature = "0.4"
-LazyArtifacts = "1"
 Parameters = "0.12"
 QuadGK = "2"
 SpecialFunctions = "2"
@@ -10,11 +7,16 @@ UnicodePlots = "3"
 Unitful = "1"
 UnitfulEquivalences = "0.2"
 YAML = "0.4"
-julia = "1.7.0-1"
 
 ["0-0.1.0"]
 DocStringExtensions = "0.9"
 Polynomials = "3"
+
+["0-0.1.3"]
+DelimitedFiles = "1.7.0-1"
+FastGaussQuadrature = "0.4"
+LazyArtifacts = "1"
+julia = "1.7.0-1"
 
 ["0.1.1-0"]
 DocStringExtensions = "0.8-0.9"
@@ -23,7 +25,14 @@ Polynomials = "2-3"
 ["0.1.2"]
 CUDA = "3"
 
-["0.1.3-0"]
+["0.1.3"]
 CUDA = "3-4"
+
+["0.1.3-0"]
 DiffRules = "1.15.0-1"
 ForwardDiff = "0.10"
+
+["0.1.4-0"]
+CUDA = "5.5.0-5"
+FastGaussQuadrature = "0.4-0.5"
+julia = "1.8.0-1"
