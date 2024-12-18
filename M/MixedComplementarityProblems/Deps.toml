@@ -2,11 +2,16 @@
 BlockArrays = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
-FastDifferentiation = "eb9bf01b-bf85-4b60-bf87-ee5de06c00be"
 FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 TrajectoryGamesBase = "ac1ac542-73eb-4349-ae1b-660ab3609574"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["0-0.1.4"]
+FastDifferentiation = "eb9bf01b-bf85-4b60-bf87-ee5de06c00be"
+Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+
+["0.1.5-0"]
+SymbolicTracingUtils = "77ddf47f-b2ab-4ded-95ee-54f4fa148129"
