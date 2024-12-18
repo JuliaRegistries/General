@@ -42,7 +42,6 @@ GPUArrays = "8"
 ["0.13.1-0"]
 Adapt = "3-4"
 CircularArrayBuffers = "0.1.12-0.1"
-GPUArrays = "8-10"
 Statistics = "1"
 
 ["0.13.1-0.13"]
@@ -52,12 +51,19 @@ cuDNN = "1"
 ["0.13.1-0.14"]
 ReinforcementLearningTrajectories = "0.3.7-0.3"
 
-["0.14-0"]
+["0.13.1-0.15.3"]
+GPUArrays = "8-10"
+
+["0.14-0.15.3"]
 Flux = "0.14"
 
 ["0.15-0"]
 ReinforcementLearningBase = "0.13"
 ReinforcementLearningTrajectories = "0.4"
+
+["0.15.4-0"]
+Flux = "0.14-0.16"
+GPUArrays = "8-11"
 
 ["0.2"]
 ReinforcementLearningBase = "0.6"
