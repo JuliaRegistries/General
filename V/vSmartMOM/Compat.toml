@@ -12,6 +12,7 @@ NCDatasets = "0.11"
 NNlib = "0.8"
 Polynomials = "2"
 StatsBase = "0.33"
+julia = "1.6.0-1"
 
 [0-1]
 DiffResults = "1"
@@ -26,6 +27,8 @@ SpecialFunctions = "2"
 StaticArrays = "1.2.0-1"
 TimerOutputs = "0.5"
 YAML = "0.4"
+
+["1.0"]
 julia = "1.6.0-1"
 
 ["1.0.0"]
@@ -44,9 +47,6 @@ Polynomials = "2"
 StatsBase = "0.33"
 
 ["1.0.2-1"]
-CUDA = "4-5"
-CanopyOptics = "0.1"
-DataInterpolations = "3.6.0-4"
 DelimitedFiles = "1"
 DocStringExtensions = "0.8-0.9"
 FastGaussQuadrature = "0.4-0.5"
@@ -67,3 +67,14 @@ UnicodePlots = "3"
 Unitful = "1"
 UnitfulEquivalences = "0.2"
 WignerSymbols = "2"
+
+["1.0.2-1.0"]
+CUDA = "4-5"
+CanopyOptics = "0.1"
+DataInterpolations = "3.6.0-4"
+
+["1.1-1"]
+CUDA = "5.5.0-5"
+CanopyOptics = "0.1.4-0.1"
+DataInterpolations = "4"
+julia = "1.9.0-1"
