@@ -6,9 +6,11 @@ BinDeps = "0.8"
 Optim = "0.16"
 
 ["0-0.5.0"]
+Distributed = ["0.7", "1"]
 julia = ["0.7", "1"]
 
 ["0.5.1-0"]
+Distributed = "1"
 julia = "1"
 
 ["0.6-0"]
