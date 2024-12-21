@@ -107,12 +107,6 @@ Combinatorics = "1"
 ["0.4.11-0.5.1"]
 PrecompileTools = "1"
 
-["0.4.12-0"]
-Dates = "1.6.0-1"
-LinearAlgebra = "1.6.0-1"
-Logging = "1.6.0-1"
-Random = "1.6.0-1"
-
 ["0.4.12-0.4"]
 AbstractAlgebra = ["0.13", "0.18-0.33"]
 Nemo = "0.24-0.37"
@@ -120,6 +114,12 @@ Nemo = "0.24-0.37"
 ["0.4.12-0.5.1"]
 Groebner = "0.4-0.5"
 ParamPunPam = "0.2"
+
+["0.4.12-0.5.10"]
+Dates = "1.6.0-1"
+LinearAlgebra = "1.6.0-1"
+Logging = "1.6.0-1"
+Random = "1.6.0-1"
 
 ["0.4.15-0"]
 TimerOutputs = "0.5"
@@ -145,9 +145,20 @@ Nemo = "0.24-0.33"
 AbstractAlgebra = ["0.13", "0.18-0.34"]
 Nemo = "0.24-0.38"
 
-["0.5.10-0"]
+["0.5.10"]
 AbstractAlgebra = "0.40-0.43"
 Nemo = "0.43-0.47"
+
+["0.5.11-0"]
+AbstractAlgebra = "0.42-0.44"
+Dates = "1.10.0-1"
+Groebner = "0.8.1-0.8"
+LinearAlgebra = "1.10.0-1"
+Logging = "1.10.0-1"
+Nemo = "0.46-0.48"
+ParamPunPam = "0.5"
+Random = "1.10.0-1"
+julia = "1.10.4-1"
 
 ["0.5.2"]
 SpecialFunctions = "2"
@@ -161,7 +172,7 @@ Groebner = "0.6.3-0.6"
 Nemo = "0.38.3-0.39"
 ParamPunPam = "0.3.1-0.3"
 
-["0.5.5-0"]
+["0.5.5-0.5.10"]
 Groebner = "0.7.3-0.7"
 ParamPunPam = "0.4"
 
@@ -173,7 +184,7 @@ Nemo = "0.43"
 AbstractAlgebra = "0.40-0.41"
 Nemo = "0.43-0.45"
 
-["0.5.8-0"]
+["0.5.8-0.5.10"]
 julia = ["1.6-1.10.2", "1.10.4-1"]
 
 ["0.5.9"]
