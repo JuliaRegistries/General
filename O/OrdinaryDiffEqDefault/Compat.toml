@@ -4,7 +4,6 @@ EnumX = "1.0.4-1"
 LinearAlgebra = ["0.0.0", "1"]
 LinearSolve = "2.32.0-2"
 OrdinaryDiffEqBDF = ["0.0.0", "1"]
-OrdinaryDiffEqCore = "1.1.0-1"
 OrdinaryDiffEqRosenbrock = ["0.0.0", "1"]
 OrdinaryDiffEqTsit5 = ["0.0.0", "1"]
 OrdinaryDiffEqVerner = ["0.0.0", "1"]
@@ -12,3 +11,10 @@ PrecompileTools = "1.2.1-1"
 Preferences = "1.4.3-1"
 Reexport = "1.2.2-1"
 julia = "1.10.0-1"
+
+["1-1.1"]
+OrdinaryDiffEqCore = "1.1.0-1"
+
+["1.2-1"]
+ADTypes = "1.11.0-1"
+OrdinaryDiffEqCore = "1.14.0-1"
