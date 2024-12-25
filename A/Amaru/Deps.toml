@@ -8,10 +8,21 @@ Gmsh = "705231aa-382f-11e9-3f0c-b7cb4346fdeb"
 LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0.6.1-0"]
+["0-0.6"]
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+
+["0.6.1-0.6"]
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
+["0.7-0"]
+Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+FreeTypeAbstraction = "663a7486-cb36-511b-a19d-713bb74d65c9"
+MathTeXEngine = "0a4f8689-d25c-4efe-a92b-7142dfc1aa53"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+TranscodingStreams = "3bb67fe8-82b1-5028-8e26-92a6c54297fa"
