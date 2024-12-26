@@ -1,6 +1,5 @@
 [0]
 CoordinateTransformations = "0.6"
-julia = "1"
 
 ["0-0.1"]
 Interpolations = "0.12"
@@ -15,6 +14,9 @@ ImageCore = "0.8"
 
 ["0-0.5"]
 Statistics = "1"
+
+["0-0.7.2"]
+julia = "1"
 
 ["0.2"]
 Interpolations = "0.12-0.13"
@@ -48,7 +50,20 @@ PythonCall = "0.9"
 ["0.7-0"]
 ImageBase = "0.1.7-0.1"
 ImageTransformations = "0.9-0.10"
-OpenCV = "4.6.1-4"
 Polynomials = "3-4"
+
+["0.7-0.7.2"]
+OpenCV = "4.6.1-4"
 Serde = "3.4.1-3"
 Statistics = "1.11.0-1"
+
+["0.7.3-0"]
+CondaPkg = "0.2"
+JSON3 = "1.14.1-1"
+LinearAlgebra = "1"
+OpenCV_jll = "4.10.0-4"
+PythonCall = "0.9"
+Random = "1.10.0-1"
+Statistics = "1"
+StructTypes = "1.11.0-1"
+julia = "1.10.0-1"
