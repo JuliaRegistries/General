@@ -3,8 +3,15 @@ BlockArrays = "1"
 LinearAlgebra = "1"
 Random = "1"
 Strided = "2"
-TensorKit = "0.13.2-0.13"
 TensorOperations = "5"
 TupleTools = "1"
+
+["0-0.1.1"]
+TensorKit = "0.13.2-0.13"
 VectorInterface = "0.4.8-0.4"
 julia = "1.8.0-1"
+
+["0.1.2-0"]
+TensorKit = "0.13.2-0.14"
+VectorInterface = "0.4.8-0.5"
+julia = "1.10.0-1"
