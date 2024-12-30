@@ -27,6 +27,15 @@ JuMP = "0.21"
 
 ["0.1.4-0"]
 DataStructures = "0.16-0.18"
+
+["0.1.4-0.2.0"]
 Distributions = "0.16-0.24"
 Hungarian = "0.6"
 JuMP = "0.21-0.22"
+
+["0.2.1-0"]
+Distributions = "0.16-0.25"
+Hungarian = "0.6-0.7"
+JuMP = ["0.21-0.23", "1"]
+Kombinator = "0.1"
+NonsmoothOptim = "0.1"
