@@ -1,7 +1,6 @@
 [2]
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 Bzip2_jll = "6e34b625-4abd-537c-b88f-471c36dfa7a0"
-GnuTLS_jll = "0951126a-58fd-58f1-b5b3-b08c7c4a876d"
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 Libassuan_jll = "3c934f36-e25c-5265-85bb-28494e4832bb"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
@@ -10,8 +9,14 @@ Libgpg_error_jll = "7add5ba3-2f88-524e-9cd5-f83b8a55f7b8"
 Libksba_jll = "52a58d30-3731-5a3f-8361-26ffb4f63669"
 Nettle_jll = "4c82536e-c426-54e4-b420-14f461c4ed8b"
 OpenLDAPClient_jll = "234f2d50-f964-585e-b1c8-17cd4567e563"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 SQLite_jll = "76ed43ae-9a5d-5a62-8c75-30186b810ce8"
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
 libusb_jll = "a877fdc9-fe69-5ed6-b93d-11ecd0dc2d49"
 nPth_jll = "58695248-dc95-54d8-8aad-a18bc9fe19aa"
+
+["2-2.2"]
+GnuTLS_jll = "0951126a-58fd-58f1-b5b3-b08c7c4a876d"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["2.4-2"]
+OpenSSL_jll = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
