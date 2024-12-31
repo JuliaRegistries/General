@@ -2,19 +2,26 @@
 julia = "1"
 
 ["0.10-0"]
-Distributions = "0.25.36-0.25"
 LinearAlgebra = "1.10.0-1"
 PartialFunctions = "1.2.0-1"
 Random = "1.10.0-1"
 Statistics = "1.10.0-1"
 julia = "1.10.0-1"
 
+["0.10-0.10.3"]
+Distributions = "0.25.36-0.25"
+
 ["0.10.0"]
 SparseArrays = "1.10.0-1"
 WeightInitializers = "0.1.5-0.1"
 
-["0.10.1-0"]
+["0.10.1-0.10.3"]
 WeightInitializers = "0.1.6-0.1"
+
+["0.10.4-0"]
+Reexport = "1.2.2-1"
+StatsBase = "0.34.4-0.34"
+WeightInitializers = "1.0.4-1"
 
 ["0.6"]
 MLJLinearModels = "0.4-0.5"
@@ -46,6 +53,8 @@ julia = "1.5.0-1"
 
 ["0.7-0"]
 Distances = "0.10"
+
+["0.7-0.10.3"]
 Optim = "1"
 
 ["0.7-0.8.2"]
