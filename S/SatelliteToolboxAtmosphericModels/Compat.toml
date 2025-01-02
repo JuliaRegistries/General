@@ -1,15 +1,17 @@
 [0]
-Accessors = "0.1"
-Crayons = "4"
-PolynomialRoots = "1"
-Reexport = "1"
 SatelliteToolboxCelestialBodies = "0.1"
-SatelliteToolboxLegendre = "1"
-SpaceIndices = "1"
 julia = "1.6.0-1"
 
 ["0-0.1.0"]
 SatelliteToolboxBase = "0.2"
+
+[0-1]
+Accessors = "0.1"
+Crayons = "4"
+PolynomialRoots = "1"
+Reexport = "1"
+SatelliteToolboxLegendre = "1"
+SpaceIndices = "1"
 
 ["0.1.1-0"]
 SatelliteToolboxBase = "0.2-0.3"
@@ -17,3 +19,10 @@ SatelliteToolboxBase = "0.2-0.3"
 ["0.1.3-0"]
 LinearAlgebra = "1.6.0-1"
 Printf = "1.6.0-1"
+
+[1]
+LinearAlgebra = "1.10.0-1"
+Printf = "1.10.0-1"
+SatelliteToolboxBase = "1"
+SatelliteToolboxCelestialBodies = "1"
+julia = "1.10.0-1"
