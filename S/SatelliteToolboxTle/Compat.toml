@@ -1,9 +1,14 @@
+[0]
+julia = "1.6.0-1"
+
 [0-1]
 Crayons = "4"
-julia = "1.6.0-1"
 
 [1]
 URIs = "1.4.0-1"
+
+["1.0"]
+julia = "1.6.0-1"
 
 ["1.0.2-1.0.3"]
 SnoopPrecompile = "1"
@@ -12,6 +17,13 @@ SnoopPrecompile = "1"
 PrecompileTools = "1"
 
 ["1.0.6-1"]
-Dates = "1.6.0-1"
 Downloads = "1.4.0-1"
+
+["1.0.6-1.0"]
+Dates = "1.6.0-1"
 Printf = "1.6.0-1"
+
+["1.1-1"]
+Dates = "1.10.0-1"
+Printf = "1.10.0-1"
+julia = "1.10.0-1"
