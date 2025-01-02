@@ -23,7 +23,7 @@ ModelingToolkit = "8"
 BenchmarkTools = "1"
 StructuralIdentifiability = "0.4"
 
-["0.2-0"]
+["0.2-0.4.0"]
 Symbolics = "4-5"
 
 ["0.3"]
@@ -44,10 +44,20 @@ TaylorDiff = "0.2"
 TaylorSeries = "0.12-0.30"
 
 ["0.4-0"]
-Groebner = "0.6-0.7"
 ModelingToolkit = "9"
+Test = "1.10.0-1"
+
+["0.4.0"]
+Groebner = "0.6-0.7"
 Nemo = "0.40-0.43"
 SIAN = "1.5.0-1"
 StructuralIdentifiability = "0.5.7-0.5"
-Test = "1.10.0-1"
 julia = "1.10.0-1"
+
+["0.4.1-0"]
+Groebner = "0.6-0.8"
+Nemo = "0.40-0.48"
+SIAN = "1.6.0-1"
+StructuralIdentifiability = "0.5"
+Symbolics = "4-6"
+julia = "1"
