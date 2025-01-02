@@ -1,7 +1,4 @@
 [0]
-Crayons = "4"
-Reexport = "1"
-SatelliteToolboxTle = "1"
 julia = "1.6.0-1"
 
 ["0-0.1"]
@@ -10,13 +7,18 @@ SatelliteToolboxSgp4 = "2"
 ["0-0.2"]
 SatelliteToolboxBase = "0.2"
 
-["0.2-0"]
-StaticArrays = "1"
+[0-1]
+Crayons = "4"
+Reexport = "1"
+SatelliteToolboxTle = "1"
 
 ["0.2-0.3.1"]
 SatelliteToolboxSgp4 = "2.1.0-2"
 
-["0.2.1-0"]
+["0.2-1"]
+StaticArrays = "1"
+
+["0.2.1-1"]
 PrecompileTools = "1"
 
 ["0.3-0.3.1"]
@@ -30,3 +32,11 @@ Printf = "1.6.0-1"
 ["0.3.2-0"]
 SatelliteToolboxBase = "0.3.2-0.3"
 SatelliteToolboxSgp4 = "2.2.0-2"
+
+[1]
+Dates = "1.10.0-1"
+LinearAlgebra = "1.10.0-1"
+Printf = "1.10.0-1"
+SatelliteToolboxBase = "1"
+SatelliteToolboxSgp4 = "2.3.0-2"
+julia = "1.10.0-1"
