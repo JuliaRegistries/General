@@ -1,11 +1,13 @@
 ["0-0.2"]
 Compat = "0.70-2"
+Distributed = ["0.7", "1"]
 MbedTLS = "0.0.0-0.7"
 ProtoBuf = "0.0.0-0.7"
 URIParser = "0.0.0-0.4"
 julia = ["0.7", "1"]
 
 ["0.3-0"]
+Distributed = "1"
 URIParser = "0.4"
 julia = "1"
 
