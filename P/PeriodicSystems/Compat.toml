@@ -1,7 +1,5 @@
 [0]
 ApproxFun = "0.13"
-MatrixEquations = "2.2.0-2"
-MatrixPencils = "1.7.0-1"
 
 ["0-0.2"]
 OrdinaryDiffEq = "5-6"
@@ -27,7 +25,11 @@ Symbolics = "4"
 FFTW = "1"
 Primes = "0.5"
 
-["0.3-0"]
+[0-1]
+MatrixEquations = "2.2.0-2"
+MatrixPencils = "1.7.0-1"
+
+["0.3-1"]
 OrdinaryDiffEq = "5.72.2-6"
 
 ["0.3.1-0.8"]
@@ -36,20 +38,17 @@ SLICOT_jll = "5.8.0-5"
 ["0.4-0.6"]
 Interpolations = "0.13-0.14"
 
-["0.4.1-0"]
+["0.4.1-1"]
 IRKGaussLegendre = "0.2"
 
 ["0.4.2-0"]
 PeriodicSchurDecompositions = "0.1.1-0.1"
 
-["0.5.2-0"]
+["0.5.2-1"]
 Symbolics = "4-5"
 
 ["0.6"]
 julia = "1.8.0-1"
-
-["0.6-0"]
-Optim = "1.7.0-1"
 
 ["0.6-0.6.1"]
 Polynomials = "3.2.0-3"
@@ -57,10 +56,13 @@ Polynomials = "3.2.0-3"
 ["0.6-0.7"]
 DescriptorSystems = "1.3.0-1"
 
+["0.6-1"]
+Optim = "1.7.0-1"
+
 ["0.6.0"]
 Sundials = "4.17.0-4"
 
-["0.6.1-0"]
+["0.6.1-1"]
 LinearAlgebra = "1"
 Random = "1"
 
@@ -70,16 +72,23 @@ Polynomials = "3.2.0-4"
 ["0.7"]
 julia = "1.9.0-1"
 
-["0.7-0"]
+["0.7-1"]
 FastLapackInterface = "2"
 Interpolations = "0.15"
 LineSearches = "7.2.0-7"
 QuadGK = "2.9.0-2"
 
-["0.8-0"]
+["0.8-1"]
 DescriptorSystems = "1.4.0-1"
 julia = "1.10.0-1"
 
 ["0.9-0"]
 PeriodicMatrices = "0.1.1-0.1"
+
+["0.9-1"]
 Reexport = "1.2.2-1"
+
+[1]
+PeriodicMatrices = "0.1.2-0.1"
+PeriodicMatrixEquations = "0.1"
+PeriodicSchurDecompositions = "0.1.5-0.1"
