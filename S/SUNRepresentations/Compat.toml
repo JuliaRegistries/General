@@ -30,18 +30,27 @@ julia = "1"
 ["0.1.5"]
 TensorKit = "0.11"
 
-["0.1.5-0"]
+["0.1.5-0.2"]
 SparseArrayKit = "0.3"
 TensorOperations = "4"
 julia = "1.6.0-1"
 
-["0.1.6-0"]
+["0.1.6-0.2"]
 TensorKit = "0.11-0.12"
 
-["0.2-0"]
+["0.2"]
 JLD2 = "0.4"
+
+["0.2-0"]
 LRUCache = "1.6.0-1"
 LinearAlgebra = "1"
 Pidfile = "1.3.0-1"
 Preferences = "1.2.0-1"
 Scratch = "1"
+
+["0.3-0"]
+JLD2 = "0.5"
+SparseArrayKit = "0.4"
+TensorKitSectors = "0.1.1-0.1"
+TensorOperations = "5"
+julia = "1.10.0-1"
