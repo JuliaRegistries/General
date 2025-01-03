@@ -1,4 +1,5 @@
 name: AutoMerge
+
 on:
   pull_request:
     # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request
@@ -11,6 +12,7 @@ on:
     # We will choose to run the fallback job every 4 hours.
     - cron:  '0 */4 * * *'
   workflow_dispatch:
+
 env:
     JULIA_PKG_USE_CLI_GIT: true
     # We only need the merging token
@@ -19,6 +21,13 @@ env:
     # See also the same logic inside RegistryCI:
     # https://github.com/JuliaRegistries/RegistryCI.jl/blob/ee1d7cdb165202f4f3929a122c3188fbdd7afc16/src/AutoMerge/ciservice.jl#L53-L67
     NEED_MERGE_TOKEN: ${{ github.ref == 'refs/heads/master' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
+
+concurrency:
+  # Skip intermediate builds: always.
+  # Cancel intermediate builds: always.
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   AutoMerge:
     # Run if:
