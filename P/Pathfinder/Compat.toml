@@ -21,10 +21,6 @@ Optim = "1.4.0-1"
 ["0.2.3-0.3.0"]
 PSIS = "0.2"
 
-["0.3-0"]
-Statistics = "1.6.0-1"
-julia = "1.6.0-1"
-
 ["0.3-0.4.2"]
 GalacticOptim = "2"
 
@@ -33,6 +29,10 @@ AbstractDifferentiation = "0.4"
 
 ["0.3-0.8.2"]
 ForwardDiff = "0.10"
+
+["0.3-0.9.8"]
+Statistics = "1.6.0-1"
+julia = "1.6.0-1"
 
 ["0.3.1-0.3.4"]
 PSIS = "0.2-0.3"
@@ -49,10 +49,12 @@ Transducers = "0.4.5-0.4"
 
 ["0.4-0"]
 ProgressLogging = "0.1.4-0.1"
-UnPack = "1"
 
 ["0.4-0.7.1"]
 IrrationalConstants = "0.1.1-0.1"
+
+["0.4-0.9.8"]
+UnPack = "1"
 
 ["0.4.1-0.7.2"]
 Accessors = "0.1"
@@ -92,8 +94,10 @@ PSIS = "0.2-0.9"
 StatsBase = "0.33-0.34"
 
 ["0.7.7-0"]
-LinearAlgebra = "1.6.0-1"
 PDMats = "0.11.26-0.11"
+
+["0.7.7-0.9.8"]
+LinearAlgebra = "1.6.0-1"
 Random = "1.6.0-1"
 
 ["0.7.8-0.8.2"]
@@ -124,22 +128,35 @@ StatsBase = "0.33.1-0.34"
 ["0.8.7-0.8"]
 OptimizationOptimJL = "0.1.1-0.3"
 
-["0.8.8-0"]
+["0.8.8-0.9.8"]
 StatsBase = "0.33.7-0.34"
 
 ["0.9-0"]
-ADTypes = ["0.2", "1"]
 Distributions = "0.25.87-0.25"
 Folds = "0.2.9-0.2"
 LogDensityProblemsAD = "1.7.0-1"
 Optim = "1.7.2-1"
-SciMLBase = "1.95.0-2"
 Transducers = "0.4.81-0.4"
 
 ["0.9-0.9.2"]
 Optimization = "3.16.0-3"
 OptimizationOptimJL = "0.1.7-0.3"
 
-["0.9.3-0"]
+["0.9-0.9.8"]
+ADTypes = ["0.2", "1"]
+SciMLBase = "1.95.0-2"
+
+["0.9.3-0.9.8"]
 Optimization = "3.16.0-4"
 OptimizationOptimJL = "0.1.7-0.4"
+
+["0.9.9-0"]
+ADTypes = ["0.2.5-0.2", "1"]
+LinearAlgebra = "1"
+Optimization = "3.21.0-4"
+OptimizationOptimJL = "0.2.1-0.4"
+Random = "1"
+SciMLBase = "2.30.0-2"
+Statistics = "1"
+StatsBase = "0.33.17-0.34"
+julia = "1.10.0-1"
