@@ -38,7 +38,7 @@ jobs:
     concurrency:
       # Skip intermediate builds: always.
       # Cancel intermediate builds: only pull request builds
-      group: ${{ github.job }}-${{ github.ref }}
+      group: automerge-${{ github.ref }}
       cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
     strategy:
       matrix:
