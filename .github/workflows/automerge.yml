@@ -27,7 +27,6 @@ concurrency:
   # Cancel intermediate builds: only pull request builds
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
-env:
 
 jobs:
   AutoMerge:
