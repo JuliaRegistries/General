@@ -25,7 +25,7 @@ env:
 concurrency:
   # Skip intermediate builds: always.
   # Cancel intermediate builds: only pull request builds
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{ github.job }}-${{ github.ref }}
   cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
 
 jobs:
