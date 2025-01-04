@@ -22,13 +22,6 @@ env:
     # https://github.com/JuliaRegistries/RegistryCI.jl/blob/ee1d7cdb165202f4f3929a122c3188fbdd7afc16/src/AutoMerge/ciservice.jl#L53-L67
     NEED_MERGE_TOKEN: ${{ github.ref == 'refs/heads/master' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
 
-concurrency:
-  # Skip intermediate builds: always.
-  # Cancel intermediate builds: only pull request builds
-  group: ${{ github.job }}-${{ github.ref }}
-  cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
-
-
 jobs:
   AutoMerge:
     # Run if:
@@ -41,6 +34,11 @@ jobs:
     if: "${{ github.event_name != 'pull_request' || (github.repository == github.event.pull_request.head.repo.full_name && (github.event.action != 'labeled' || (github.event.action == 'labeled' && (github.event.label.name == 'Override AutoMerge: name similarity is okay' || github.event.label.name == 'Override AutoMerge: package author approved')))) }}"
     timeout-minutes: 60
     runs-on: ${{ matrix.os }}
+    concurrency:
+      # Skip intermediate builds: always.
+      # Cancel intermediate builds: only pull request builds
+      group: ${{ github.job }}-${{ github.ref }}
+      cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
     strategy:
       matrix:
         version:
