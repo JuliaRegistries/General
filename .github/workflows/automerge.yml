@@ -28,6 +28,7 @@ concurrency:
   group: ${{ github.job }}-${{ github.ref }}
   cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
 
+
 jobs:
   AutoMerge:
     # Run if:
