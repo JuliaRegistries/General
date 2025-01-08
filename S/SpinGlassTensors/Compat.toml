@@ -30,6 +30,8 @@ Memoization = "0.2.1-0.2"
 NNlib = "0.9.13-0.9"
 SparseArrays = "1.9.0-1"
 TSVD = "0.4.4-0.4"
+
+["1-1.1"]
 TensorOperations = "4"
 cuTENSOR = "1.1.0-1"
 julia = "1.9.0-1"
@@ -37,5 +39,11 @@ julia = "1.9.0-1"
 ["1.0"]
 CUDA = "4.4.1-4"
 
-["1.1-1"]
+["1.1"]
 CUDA = "5"
+
+["1.3-1"]
+CUDA = "5.5.0-5"
+TensorOperations = "5"
+cuTENSOR = "2"
+julia = "1.11.0-1"
