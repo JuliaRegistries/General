@@ -33,9 +33,6 @@ FastTransforms_jll = "0.4"
 ["0.11.1-0.11"]
 FastTransforms_jll = "0.4.1-0.4"
 
-["0.11.2-0"]
-Reexport = ["0.2", "1"]
-
 ["0.11.2-0.12"]
 AbstractFFTs = ["0.5", "1"]
 
@@ -44,6 +41,9 @@ ArrayLayouts = "0.4-0.5"
 
 ["0.11.2-0.12.4"]
 FillArrays = "0.9-0.11"
+
+["0.11.2-0.16"]
+Reexport = ["0.2", "1"]
 
 ["0.12-0.12.1"]
 FastTransforms_jll = "0.5"
@@ -127,12 +127,15 @@ FastGaussQuadrature = ["0.4-0.5", "1"]
 ["0.16-0"]
 BandedMatrices = "1.5.0-1"
 
-["0.16.6-0"]
+["0.16.6-0.16"]
 RecurrenceRelationships = "0.1"
 
 ["0.16.7-0"]
 ArrayLayouts = "1.10.0-1"
 LazyArrays = "2.2.0-2"
+
+["0.17-0"]
+RecurrenceRelationships = "0.2"
 
 ["0.6"]
 HierarchicalMatrices = "0.2"
