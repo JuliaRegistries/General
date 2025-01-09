@@ -362,7 +362,7 @@ not a curated list of Julia packages. In particular this means that:
 [registrator-web]: https://github.com/JuliaRegistries/Registrator.jl#via-the-web-interface
 [registrator-readme]: https://github.com/JuliaRegistries/Registrator.jl/blob/master/README.md
 [tagbot]: https://github.com/JuliaRegistries/TagBot
-[naming-guidelines]: https://julialang.github.io/Pkg.jl/v1/creating-packages/#Package-naming-guidelines-1
+[naming-guidelines]: https://pkgdocs.julialang.org/v1/creating-packages/#Package-naming-rules
 [automerge-guidelines]: https://juliaregistries.github.io/RegistryCI.jl/stable/guidelines/
 [registryci]: https://github.com/JuliaRegistries/RegistryCI.jl
 [github-rename]: https://help.github.com/en/github/administering-a-repository/renaming-a-repository
