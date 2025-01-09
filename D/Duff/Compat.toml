@@ -1,10 +1,10 @@
-[0]
-Statistics = "1"
-julia = "1"
-
 ["0-0.4.0"]
 HypothesisTests = "0.0.0-0.9"
 StatsBase = "0.0.0-0.32"
+
+["0-0.6.0"]
+Statistics = "1"
+julia = "1"
 
 ["0.4.1-0.4"]
 StatsBase = "0.24-0.32"
@@ -12,8 +12,14 @@ StatsBase = "0.24-0.32"
 ["0.4.1-0.5"]
 HypothesisTests = "0.8-0.9"
 
-["0.5-0"]
+["0.5-0.6.0"]
 StatsBase = "0.24-0.33"
 
-["0.6-0"]
+["0.6.0"]
 HypothesisTests = "0.8-0.10"
+
+["0.6.1-0"]
+HypothesisTests = "0.8-0.11"
+Random = "1"
+StatsBase = "0.24-0.34"
+julia = "1.5.0-1"
