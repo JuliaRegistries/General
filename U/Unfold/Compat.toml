@@ -1,12 +1,10 @@
 [0]
-DSP = "0.7"
 DataFrames = "1"
 Distributions = "0.25"
 GLM = "1"
 IterativeSolvers = "0.9"
 MLBase = "0.9"
 Missings = "1"
-MixedModels = "4"
 ProgressMeter = "1"
 StaticArrays = "1"
 Tables = "1"
@@ -37,6 +35,10 @@ StatsModels = "0.6"
 
 ["0-0.6.3"]
 Statistics = "1.6.0-1"
+
+["0-0.7"]
+DSP = "0.7"
+MixedModels = "4"
 
 ["0.3.12-0"]
 DocStringExtensions = "0.9"
@@ -111,3 +113,6 @@ Interpolations = "0.15.1-0.15"
 ["0.7.9-0"]
 ImageTransformations = "0.9-0.10"
 Interpolations = "0.15"
+
+["0.8-0"]
+DSP = "0.7-0.8"
