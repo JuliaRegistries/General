@@ -40,7 +40,7 @@ jobs:
           version: ${{ matrix.version }}
           arch: x64
       - name: Cache artifacts
-        uses: julia-actions/cache@824243901fb567ccb490b0d0e2483ccecde46834 # v2.0.5
+        uses: julia-actions/cache@2b1bf4d8a138668ac719ea7ca149b53ed8d8401e # v2.0.7
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes {0}
         id: manifest_version
