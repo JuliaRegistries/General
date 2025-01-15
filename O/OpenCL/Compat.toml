@@ -3,7 +3,6 @@ julia = "1"
 
 ["0.10-0"]
 Adapt = "4"
-GPUArrays = "11.1.0-11"
 GPUCompiler = ["0.27", "1"]
 KernelAbstractions = "0.9.1-0.9"
 LLVM = "9.1.0-9"
@@ -16,6 +15,12 @@ SPIRVIntrinsics = "0.2"
 SPIRV_LLVM_Translator_unified_jll = "0.7"
 StaticArrays = "1"
 julia = "1.10.0-1"
+
+["0.10.0"]
+GPUArrays = "11.1.0-11"
+
+["0.10.1-0"]
+GPUArrays = "11.2.1-11"
 
 ["0.9"]
 OpenCL_jll = "2022.9.23-2022"
