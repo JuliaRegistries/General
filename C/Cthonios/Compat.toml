@@ -43,15 +43,22 @@ Enzyme = "0.11"
 ConstitutiveModels = "0.1"
 Exodus = "0.13"
 LimitedLDLFactorizations = "0.5"
-LinearSolve = "2"
 RuntimeGeneratedFunctions = "0.5"
+
+["0.2-0.2.1"]
+LinearSolve = "2"
 SciMLOperators = "0.3"
 UnPack = "1"
 
-["0.2.1-0"]
+["0.2.1"]
 Atomix = "0.1"
+
+["0.2.1-0"]
 Enzyme = "0.13"
 ForwardDiff = "0.10"
 IterativeSolvers = "0.9"
 ReferenceFiniteElements = "0.12"
 Tensors = "1"
+
+["0.2.2-0"]
+Reexport = "1"
