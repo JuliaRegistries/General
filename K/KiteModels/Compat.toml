@@ -26,7 +26,6 @@ BenchmarkTools = "1.2.0-1"
 KiteUtils = "0.2.5-0.3"
 
 ["0.3-0"]
-Dierckx = "0.5"
 Parameters = "0.12"
 
 ["0.3-0.4"]
@@ -34,6 +33,9 @@ TestEnv = "1"
 
 ["0.3-0.4.3"]
 Sundials = "4.9.0-4"
+
+["0.3-0.6.13"]
+Dierckx = "0.5"
 
 ["0.3.0"]
 KitePodModels = "0.1.2-0.1"
@@ -159,12 +161,22 @@ KiteUtils = "0.9.3-0.9"
 DSP = "0.7.10-0.7"
 DiscretePIDs = "0.1.5-0.1"
 ModelingToolkit = "9.54"
+StatsBase = "0.34"
+
+["0.6.12-0.6.13"]
 OrdinaryDiffEqBDF = "1.1.2-1"
 OrdinaryDiffEqCore = "1.12.1-1"
-StatsBase = "0.34"
 
 ["0.6.13-0"]
 KiteUtils = "0.9.5-0.9"
+
+["0.6.14-0"]
+ADTypes = "1.11.0-1"
+Dierckx = "0.5.4-0.5"
+DiffEqBase = "6.161.0-6"
+OrdinaryDiffEqBDF = "1.2.0-1"
+OrdinaryDiffEqCore = "1.14.1-1"
+OrdinaryDiffEqSDIRK = "1.2.0-1"
 
 ["0.6.2-0.6.4"]
 KiteUtils = "0.7.4-0.7"
@@ -179,10 +191,12 @@ BenchmarkTools = "1.2.0-1"
 ModelingToolkit = "9.32.0-9"
 
 ["0.6.5-0"]
-DiffEqBase = "6.152.2-6"
 SteadyStateDiffEq = "2.3.0-2"
 SymbolicIndexingInterface = "0.3.27-0.3"
 Timers = "0.1.5-0.1"
+
+["0.6.5-0.6.13"]
+DiffEqBase = "6.152.2-6"
 
 ["0.6.5-0.6.6"]
 DataInterpolations = "6.2.0-6"
@@ -191,12 +205,12 @@ KiteUtils = "0.7.8-0.7"
 ["0.6.6"]
 ModelingToolkit = "9.35"
 
-["0.6.6-0"]
-OrdinaryDiffEqSDIRK = "1.1.0-1"
-
 ["0.6.6-0.6.11"]
 OrdinaryDiffEqBDF = "1.1.1-1"
 OrdinaryDiffEqCore = "1.4.0-1"
+
+["0.6.6-0.6.13"]
+OrdinaryDiffEqSDIRK = "1.1.0-1"
 
 ["0.6.6-0.6.8"]
 WinchModels = "0.3.3-0.3"
