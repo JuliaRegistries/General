@@ -1,4 +1,4 @@
-[0]
+["0-0.1"]
 ForwardDiff = "0.10"
 RowEchelon = "0.2"
 
@@ -10,8 +10,18 @@ Symbolics = "4.8.3-4"
 julia = "1.6.0-1"
 
 ["0.1.1-0"]
-COBREXA = "1-2"
 DocStringExtensions = "0.9"
 JuMP = "1"
-Symbolics = "5"
 julia = "1"
+
+["0.1.1-0.1"]
+COBREXA = "1-2"
+Symbolics = "5"
+
+["0.2-0"]
+AbstractFBCModels = "1.2.0-1"
+COBREXA = "2.5.0-2"
+ConstraintTrees = "1.8.1-1"
+FastDifferentiation = "0.4.2-0.4"
+LinearAlgebra = "1.11.0-1"
+SparseArrays = "1.11.0-1"
