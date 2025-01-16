@@ -1,10 +1,16 @@
 [1]
 julia = "1"
 
-["1.0.2-1"]
+["1.0.2-1.0.4"]
 DelimitedFiles = "1"
 
-["1.0.4-1"]
+["1.0.4"]
 DataFrames = "1"
 LinearSolve = "1"
+
+["1.0.4-1"]
 TableTraits = "1"
+
+["1.0.5-1"]
+DataFrames = "1.7.0-1"
+LinearSolve = "2"
