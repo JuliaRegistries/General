@@ -1,4 +1,7 @@
-[2]
+["2-2.4.12"]
+PCHIPInterpolation = "0.2"
+
+[2-3]
 AbstractTrees = "0.4"
 JSON = "0.21"
 OrderedCollections = "1"
@@ -7,21 +10,22 @@ StaticArraysCore = "1"
 TimerOutputs = "0.5"
 julia = "1"
 
-["2-2.4.12"]
-PCHIPInterpolation = "0.2"
-
 ["2.0"]
 DataInterpolations = "5"
 HDF5 = "0.16.14-0.16"
 
-["2.2-2"]
-HDF5 = "0.17"
-
 ["2.2-2.4.4"]
 DataInterpolations = ["5", "6.0"]
+
+["2.2-3"]
+HDF5 = "0.17"
 
 ["2.4.13-2"]
 DataInterpolations = ["5", "6.2.0-6"]
 
 ["2.4.5-2.4.12"]
 DataInterpolations = ["5", "6.0", "6.2.0-6"]
+
+[3]
+CoordinateConventions = "1"
+DataInterpolations = "6"
