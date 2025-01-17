@@ -173,8 +173,13 @@ LLVM = "6-9"
 NEO_jll = "24.26.30049"
 
 [2]
-GPUArrays = "11.1.0-11"
 GPUCompiler = ["0.23-0.27", "1"]
 SPIRVIntrinsics = "0.2"
 SPIRV_LLVM_Translator_unified_jll = "0.7"
 oneAPI_Support_jll = "0.7"
+
+["2.0.0"]
+GPUArrays = "11.1.0-11"
+
+["2.0.1-2"]
+GPUArrays = "11.2.1-11"
