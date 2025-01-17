@@ -46,7 +46,6 @@ SciMLBase = "2.0-2.10"
 
 ["0.9-0"]
 ArgCheck = "2.3.0-2"
-Atomix = "0.1"
 DocStringExtensions = "0.9.3-0.9"
 FastClosures = "0.3.2-0.3"
 ForwardDiff = "0.10.36-0.10"
@@ -68,15 +67,21 @@ StaticArrays = "1.9.4-1"
 SteadyStateDiffEq = "2.2.0-2"
 StyledStrings = "1.0.3-1"
 SymbolicIndexingInterface = "0.3.27-0.3"
-Symbolics = "6.19"
 TimerOutputs = "0.5.23-0.5"
 julia = "1.10.0-1"
 
 ["0.9-0.9.3"]
 NonlinearSolve = "3.13.0-3"
 
+["0.9-0.9.4"]
+Atomix = "0.1"
+Symbolics = "6.19"
+
 ["0.9.3-0"]
 Static = "1.1.1-1"
 
 ["0.9.4-0"]
 NonlinearSolve = "4"
+
+["0.9.5-0"]
+Atomix = ["0.1", "1"]
