@@ -1,7 +1,6 @@
 [1]
 ADTypes = "1.9.0-1"
 Adapt = "4.1.1-4"
-ArrayInterface = "7.16.0-7"
 BandedMatrices = "1.7.5-1"
 BoundaryValueDiffEqCore = "1"
 ConcreteStructs = "0.2.3-0.2"
@@ -18,8 +17,15 @@ PrecompileTools = "1.2.0-1"
 Preferences = "1.4.0-1"
 RecursiveArrayTools = "3.27.0-3"
 Reexport = "1.2.0-1"
-SciMLBase = "2.60.0-2"
 Setfield = "1.1.1-1"
 SparseArrays = "1.10.0-1"
 SparseDiffTools = "2.23.0-2"
 julia = "1.10.0-1"
+
+["1-1.1"]
+ArrayInterface = "7.16.0-7"
+SciMLBase = "2.60.0-2"
+
+["1.2-1"]
+ArrayInterface = "7.18.0-7"
+SciMLBase = "2.71.0-2"
