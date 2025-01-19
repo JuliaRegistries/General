@@ -139,11 +139,11 @@ KrylovKit = "0.6"
 ["0.11.6-0.14.19"]
 Unrolled = "0.1"
 
-["0.11.7-0"]
-Adapt = "3-4"
-
 ["0.11.7-0.14.19"]
 RecursiveArrayTools = "2-3"
+
+["0.11.7-0.14.22"]
+Adapt = "3-4"
 
 ["0.13"]
 CUDA = "5"
@@ -158,12 +158,12 @@ MultiBroadcastFusion = "0.3"
 ["0.14-0.14.9"]
 ClimaComms = "0.5.7-0.6"
 
-["0.14.10-0"]
-KrylovKit = "0.6-0.8"
-
 ["0.14.10-0.14.19"]
 BlockArrays = ["0.16", "1"]
 ClimaComms = "0.6"
+
+["0.14.10-0.14.22"]
+KrylovKit = "0.6-0.8"
 
 ["0.14.13-0"]
 CubedSphere = "0.2-0.3"
@@ -177,10 +177,17 @@ ForwardDiff = "0.10.15-0.10"
 GaussQuadrature = "0.5.8-0.5"
 HDF5 = "0.16.16-0.17"
 MultiBroadcastFusion = "0.3.1-0.4"
-RecursiveArrayTools = "3.1.0-3"
 StaticArrays = "1.6.0-1"
 Unrolled = "0.1.5-0.1"
 julia = "1.10.0-1"
+
+["0.14.20-0.14.22"]
+RecursiveArrayTools = "3.1.0-3"
+
+["0.14.23-0"]
+Adapt = "3.2.0-4"
+KrylovKit = "0.6-0.9"
+RecursiveArrayTools = "3.2.0-3"
 
 ["0.14.4-0"]
 NVTX = "0.3"
