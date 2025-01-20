@@ -10,6 +10,7 @@ Parameters = "0.0.0-0.12"
 RecipesBase = "0.0.0-0.7"
 
 ["0.2-0.3"]
+Distributed = "1"
 Statistics = "1"
 julia = "1"
 
@@ -64,6 +65,7 @@ RecipesBase = ["0.7-0.8", "1"]
 GaussianProcesses = "0.12"
 
 ["0.4"]
+Distributed = "1.5.0-1"
 Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
@@ -71,6 +73,7 @@ julia = "1.5.0-1"
 ThreadPools = "1"
 
 ["0.5-0"]
+Distributed = "1.6.0-1"
 Distributions = "0.24-0.25"
 MultiKDE = "0.1"
 ProgressMeter = "1.7.0-1"
