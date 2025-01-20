@@ -9,6 +9,8 @@ LazyArtifacts = "1"
 [2024]
 Artifacts = "1"
 Libdl = "1"
+
+[2024-2025]
 julia = "1.6.0-1"
 
 ["2024.0"]
@@ -19,3 +21,10 @@ IntelOpenMP_jll = "2024.1.0-2024"
 
 ["2024.2-2024"]
 IntelOpenMP_jll = "2024.2.0-2024"
+
+[2025]
+Artifacts = ["0.0.0", "1"]
+IntelOpenMP_jll = "2025.0.4-2025"
+JLLWrappers = "1.7.0-1"
+LazyArtifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]
