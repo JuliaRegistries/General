@@ -1,6 +1,5 @@
 [0]
 ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
-Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
 DiskArrayEngine = "2d4b2e14-ccd6-4284-b8b0-2378ace7c126"
 DiskArrayTools = "fcd2136c-9f69-4db6-97e5-f31981721d63"
@@ -9,11 +8,17 @@ Extents = "411431e0-e8b7-467b-b5e0-f676ba4f2910"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
 Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
-MakieCore = "20f20a25-4f0e-4fdf-b5d1-57303727442b"
-Observables = "510215fc-4207-5dde-b226-833fc4488ee2"
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 Proj = "c94c279d-25a6-4763-9509-64d165bea63e"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 YAXArrayBase = "90b8fcef-0c2d-428d-9c56-5f86629e9d14"
 YAXArrays = "c21b50f5-aa40-41ea-b809-c0f5e47bfa5c"
 Zarr = "0a941bbe-ad1d-11e8-39d9-ab76183a1d99"
+
+["0-0.1.0"]
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+MakieCore = "20f20a25-4f0e-4fdf-b5d1-57303727442b"
+Observables = "510215fc-4207-5dde-b226-833fc4488ee2"
+
+["0.1.1-0"]
+Flatten = "4c728ea3-d9ee-5c9a-9642-b6f7d7dc04fa"
