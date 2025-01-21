@@ -172,7 +172,6 @@ ImageTransformations = "0.9"
 ImageAxes = "0.6.9-0.6"
 ImageBase = "0.1.5-0.1"
 ImageFiltering = "0.7.1-0.7"
-ImageMagick = "1"
 ImageMetadata = "0.9.7-0.9"
 ImageQualityIndexes = "0.3"
 ImageSegmentation = "1.7.0-1"
@@ -183,7 +182,10 @@ Reexport = "1.1.0-1"
 ["0.25-0.26.0"]
 IndirectArrays = ["0.5", "1"]
 
-["0.25.1-0"]
+["0.25-0.26.1"]
+ImageMagick = "1"
+
+["0.25.1-0.26.1"]
 ImageIO = "0.3-0.6"
 
 ["0.25.3-0.26.0"]
@@ -212,3 +214,7 @@ StaticArrays = "1"
 Statistics = "1"
 StatsBase = "0.30-0.34"
 TiledIteration = "0.3-0.5"
+
+["0.26.2-0"]
+ImageIO = "0.5-0.6"
+ImageMagick = "1.4.0-1"
