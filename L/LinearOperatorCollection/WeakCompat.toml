@@ -9,5 +9,11 @@ NFFT = "0.13"
 Wavelets = "0.9-0.10"
 
 [2]
-GPUArrays = "8-10"
 RadonKA = "0.6"
+
+["2-2.0.7"]
+GPUArrays = "8-10"
+
+["2.0.8-2"]
+GPUArrays = "11"
+KernelAbstractions = "0.9"
