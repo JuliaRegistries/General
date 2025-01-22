@@ -1,9 +1,15 @@
 [0]
 ChainRulesCore = "1"
-Flux = "0.14"
 LegendrePolynomials = "0.4"
 MLDatasets = "0.7"
+
+["0.0"]
+Flux = "0.14"
 julia = "1.6.7-1"
 
 ["0.0.3-0"]
 BenchmarkTools = "1.5.0-1"
+
+["0.1-0"]
+Flux = ["0.14", "0.16"]
+julia = "1.1.0-1"
