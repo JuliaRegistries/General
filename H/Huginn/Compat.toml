@@ -1,12 +1,10 @@
 [0]
 BenchmarkTools = "1"
-Infiltrator = "1"
 JLD2 = "0.4"
 OrdinaryDiffEq = "6"
 PlotThemes = "3"
 Plots = "1"
 ProgressMeter = "1"
-PyCall = "1"
 Reexport = "1"
 Revise = "3"
 Tullio = "0.3"
@@ -14,6 +12,10 @@ julia = "1.7.0-1"
 
 ["0-0.1"]
 Sleipnir = "0.3.2-0.3"
+
+["0-0.6"]
+Infiltrator = "1"
+PyCall = "1"
 
 ["0.2"]
 Muninn = "0.2.4-0.2"
@@ -38,9 +40,16 @@ CairoMakie = "0.11"
 Muninn = "0.2.7-0.2"
 Sleipnir = "0.5"
 
+["0.6"]
+Muninn = "0.3"
+Sleipnir = "0.6"
+
 ["0.6-0"]
 CairoMakie = "0.11-0.12"
-Muninn = "0.3"
 Optimization = "3"
 OptimizationOptimJL = "0.3"
-Sleipnir = "0.6"
+
+["0.7-0"]
+Infiltrator = "1.8.0-1"
+Muninn = "0.4"
+Sleipnir = "0.7"
