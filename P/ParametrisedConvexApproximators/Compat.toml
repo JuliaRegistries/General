@@ -1,6 +1,3 @@
-[0]
-julia = "1"
-
 ["0-0.1"]
 Convex = "0.14"
 Flux = "0.12"
@@ -11,10 +8,15 @@ UnPack = "1"
 ["0-0.2"]
 Transducers = "0.4"
 
+["0-0.3"]
+julia = "1"
+
 ["0.2-0"]
+ForwardDiff = "0.10"
+
+["0.2-0.3"]
 Convex = "0.15"
 Flux = "0.13"
-ForwardDiff = "0.10"
 Optim = "1.7.0-1"
 
 ["0.2.0"]
@@ -24,8 +26,18 @@ SCS = "1.1.0-1"
 ["0.2.1-0"]
 ECOS = "1.1.0-1"
 
+["0.3"]
+ComponentArrays = "0.13"
+ProgressMeter = "1.7.0-1"
+
 ["0.3-0"]
 AccessorsExtra = "0.1"
-ComponentArrays = "0.13"
 ImplicitDifferentiation = "0.5"
-ProgressMeter = "1.7.0-1"
+
+["0.4-0"]
+ComponentArrays = "0.15"
+Convex = "0.16"
+Flux = "0.16"
+Optim = "1.11.0-1"
+ProgressMeter = "1.10.0-1"
+julia = "1.10.0-1"
