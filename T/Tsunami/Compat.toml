@@ -20,7 +20,7 @@ julia = "1.8.0-1"
 ["0-0.1.5"]
 Optimisers = "0.2"
 
-["0.1.1-0"]
+["0.1.1-0.2"]
 Zygote = "0.6"
 
 ["0.1.2-0.1"]
@@ -43,13 +43,19 @@ Optimisers = "0.2-0.3"
 Flux = "0.14.5-0.14"
 Optimisers = "0.3"
 
+["0.2"]
+GPUArraysCore = "0.1"
+
 ["0.2-0"]
 Compat = "4.16.0-4"
 EnzymeCore = "0.8.8-0.8"
 Flux = "0.16"
 Functors = "0.5.2-0.5"
-GPUArraysCore = "0.1"
 JLD2 = "0.5.10-0.5"
 MLDataDevices = "1.6.0-1"
 Optimisers = "0.4"
 julia = "1.10.0-1"
+
+["0.3-0"]
+BFloat16s = "0.5"
+Zygote = "0.6-0.7"
