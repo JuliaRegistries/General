@@ -1,12 +1,23 @@
 [0]
-MPSKitModels = "0.3"
-TensorKit = "0.12"
 julia = "1.9-1.11"
 
 ["0-0.1.0"]
 MPSKit = "0.11.4-0.11"
 QuantumLattices = "0.10"
 
-["0.1.1-0"]
+["0-0.1.1"]
+MPSKitModels = "0.3"
+TensorKit = "0.12"
+
+["0.1.1"]
 MPSKit = "0.11"
 QuantumLattices = "0.9"
+
+["0.1.2-0"]
+JLD2 = "0.5.11-0.5"
+KrylovKit = "0.9.2-0.9"
+MPSKit = "0.12.1-0.12"
+MPSKitModels = "0.4"
+Printf = "1.11.0-1"
+QuantumLattices = "0.11"
+TensorKit = "0.14.3-0.14"
