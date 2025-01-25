@@ -299,7 +299,7 @@ OrdinaryDiffEq = "6.85.0-6"
 ["6.66-6"]
 julia = "1.10.0-1"
 
-["6.67-6"]
+["6.67-6.72"]
 OrdinaryDiffEq = "6.87.0-6"
 
 ["6.68-6"]
@@ -317,10 +317,17 @@ FastPower = "1"
 ["6.71.1-6.71"]
 SciMLBase = "2.59.2-2"
 
+["6.72"]
+SciMLBase = "2.65.0-2"
+
 ["6.72-6"]
 ADTypes = "1"
 OrdinaryDiffEqCore = "1.12.1-1"
-SciMLBase = "2.65.0-2"
+
+["6.73-6"]
+OrdinaryDiffEqDifferentiation = "1"
+OrdinaryDiffEqNonlinearSolve = "1"
+SciMLBase = "2.71.0-2"
 
 ["6.8-6.13"]
 ArrayInterface = "1.1.0-1"
