@@ -1,10 +1,24 @@
 [0]
 julia = "1"
 
-["0.2-0"]
+["0.2"]
 DataStructures = "0.18"
-DoubleExponentialFormulas = "0.1"
 Nemo = "0.27"
-Optim = "1"
 Roots = "1"
 SpecialFunctions = "1"
+
+["0.2-0"]
+DoubleExponentialFormulas = "0.1"
+Optim = "1"
+
+["0.4-0"]
+BenchmarkTools = "1"
+FFTW = "1"
+FastGaussQuadrature = "1"
+ForwardDiff = "0.10"
+Nemo = ["0.27", "0.30"]
+Roots = "1-2"
+SpecialFunctions = "1-2"
+StatsBase = "0.34"
+TaylorSeries = "0.15"
+TestEnv = "1"
