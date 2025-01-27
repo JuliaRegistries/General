@@ -1,4 +1,4 @@
-[6]
+["6-6.3"]
 JLLWrappers = "1.2.0-1"
 SCOTCH_jll = "7.0.4-7"
 
@@ -6,7 +6,15 @@ SCOTCH_jll = "7.0.4-7"
 julia = "1.6.0-1"
 
 ["6.3.2-6"]
-Artifacts = "1"
-Libdl = "1"
 julia = "1.9.0-1"
 libblastrampoline_jll = "5.4.0-5"
+
+["6.3.2-6.3"]
+Artifacts = "1"
+Libdl = "1"
+
+["6.4-6"]
+Artifacts = ["0.0.0", "1"]
+JLLWrappers = "1.7.0-1"
+Libdl = ["0.0.0", "1"]
+SCOTCH_jll = "7.0.6-7.0"
