@@ -1,13 +1,15 @@
+[0]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+FLoops = "cc61a311-1640-44b5-9fba-1b764f453329"
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+
 [0-1]
 BioStructures = "de9282ab-8554-53be-b2d6-f6c222edabfc"
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 Chemfiles = "46823bd8-5fb3-5f92-9aa0-96921f3dd015"
 Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
-FLoops = "cc61a311-1640-44b5-9fba-1b764f453329"
-FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
@@ -37,6 +39,19 @@ cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
 [1]
 Bonito = "824d6782-a2ef-11e9-3a09-e5662e0c26f8"
 GraphMakie = "1ecd5474-83a3-4783-bb4f-06765db800d2"
-KernelFunctions = "ec8451be-7e33-11e9-00cf-bbf324bd1392"
 ThreadPools = "b189fb0b-2eb5-4ed4-bc0c-d34c51242431"
 WGLMakie = "276b4fcb-3e11-5398-bf8b-a0c2d153d008"
+
+["1.0"]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+FLoops = "cc61a311-1640-44b5-9fba-1b764f453329"
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+KernelFunctions = "ec8451be-7e33-11e9-00cf-bbf324bd1392"
+
+["1.1-1"]
+AverageShiftedHistograms = "77b51b56-6f8f-5c3a-9cb4-d71f9594ea6e"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
+Measures = "442fdcdd-2543-5da2-b0f3-8c86c306513e"
+SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
