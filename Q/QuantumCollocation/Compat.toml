@@ -78,13 +78,15 @@ NamedTrajectories = "0.2"
 Interpolations = "0.15"
 
 ["0.2.2-0"]
-CairoMakie = "0.12"
 JLD2 = "0.5"
 TestItemRunner = "1"
 TestItems = "1"
 
 ["0.2.2-0.3.0"]
 Symbolics = "6.11.0-6"
+
+["0.2.2-0.5.0"]
+CairoMakie = "0.12"
 
 ["0.3.1-0.3"]
 Symbolics = "6.14.0-6"
@@ -96,10 +98,16 @@ NamedTrajectories = "0.2.4-0.2"
 BenchmarkTools = "1.6.0-1"
 LinearAlgebra = "1.10.0-1"
 MathOptInterface = "1.35.0-1"
-NamedTrajectories = "0.2"
 PiccoloQuantumObjects = "0.1"
 PkgTemplates = "0.7"
 QuantumCollocationCore = "0.1"
 Random = "1.10.0-1"
 SparseArrays = "1.10.0-1"
 Symbolics = "6.22.0-6"
+
+["0.5.0"]
+NamedTrajectories = "0.2"
+
+["0.5.1-0"]
+CairoMakie = "0.13"
+NamedTrajectories = "0.2.6-0.2"
