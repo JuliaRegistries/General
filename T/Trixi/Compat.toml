@@ -123,7 +123,7 @@ P4est = "0.2.2-0.2"
 LoopVectorization = "0.12.54-0.12"
 StrideArrays = "0.1.12-0.1"
 
-["0.3.5-0"]
+["0.3.5-0.9.14"]
 RecipesBase = "1.1.0-1"
 
 ["0.3.50"]
@@ -188,14 +188,14 @@ StartUpDG = "0.12.3-0.12"
 ["0.4.14-0.4.54"]
 SummationByPartsOperators = "0.5.10-0.5"
 
-["0.4.16-0"]
-ConstructionBase = "1.3.0-1"
-
 ["0.4.16-0.4.23"]
 Static = "0.3-0.5"
 
 ["0.4.16-0.5.2"]
 Polyester = ["0.3.4-0.3", "0.5-0.6"]
+
+["0.4.16-0.9.14"]
+ConstructionBase = "1.3.0-1"
 
 ["0.4.20-0.4.29"]
 StartUpDG = "0.12.5-0.12"
@@ -288,7 +288,7 @@ julia = "1.8.0-1"
 ["0.5.14-0"]
 SimpleUnPack = "1.1.0-1"
 
-["0.5.15-0"]
+["0.5.15-0.9.14"]
 FillArrays = ["0.13.2-0.13", "1"]
 
 ["0.5.16"]
@@ -298,10 +298,12 @@ StartUpDG = "0.15-0.16"
 StartUpDG = "0.16"
 
 ["0.5.19-0"]
-DiffEqCallbacks = "2.25.0-2"
 StaticArrayInterface = "1.4.0-1"
 
-["0.5.20-0"]
+["0.5.19-0.9.14"]
+DiffEqCallbacks = "2.25.0-2"
+
+["0.5.20-0.9.14"]
 PrecompileTools = "1.1.0-1"
 
 ["0.5.28-0.6.9"]
@@ -310,7 +312,7 @@ StartUpDG = "0.17"
 ["0.5.3-0.5.35"]
 Polyester = ["0.3.4-0.3", "0.5-0.7"]
 
-["0.5.34-0"]
+["0.5.34-0.9.14"]
 SummationByPartsOperators = "0.5.41-0.5"
 
 ["0.5.36-0.7.4"]
@@ -322,7 +324,7 @@ T8code = "0.4.1-0.4"
 ["0.5.41-0.6.9"]
 HDF5 = "0.14-0.17"
 
-["0.5.45-0"]
+["0.5.45-0.9.14"]
 SciMLBase = "1.90.0-2"
 
 ["0.5.48-0"]
@@ -338,11 +340,7 @@ ForwardDiff = "0.10.24-0.10"
 HDF5 = "0.16.10-0.17"
 LoopVectorization = "0.12.151-0.12"
 Octavian = "0.3.21-0.3"
-OffsetArrays = "1.12.0-1"
-Static = "0.8.7-0.8"
-StaticArrays = "1.5.0-1"
 StrideArrays = "0.1.26-0.1"
-StructArrays = "0.6.11-0.6"
 Triangulate = "2.2.0-2"
 
 ["0.6.10-0.7.3"]
@@ -350,6 +348,12 @@ Setfield = "1"
 
 ["0.6.10-0.8.8"]
 StartUpDG = "0.17.7-0.17"
+
+["0.6.10-0.9.14"]
+OffsetArrays = "1.12.0-1"
+Static = "0.8.7-0.8"
+StaticArrays = "1.5.0-1"
+StructArrays = "0.6.11-0.6"
 
 ["0.6.2-0.6.4"]
 T8code = "0.4.3-0.4"
@@ -391,7 +395,7 @@ TrixiBase = "0.1.3-0.1"
 ["0.7.5-0"]
 Polyester = "0.7.10-0.7"
 
-["0.8.9-0"]
+["0.8.9-0.9.14"]
 Accessors = "0.1.12-0.1"
 RecursiveArrayTools = "2.38.10-2"
 StartUpDG = ["0.17.7-0.17", "1.1.5-1"]
@@ -401,6 +405,22 @@ T8code = "0.7.4-0.7"
 
 ["0.9.13-0"]
 julia = "1.10.0-1"
+
+["0.9.15-0"]
+Accessors = "0.1.36-0.1"
+ConstructionBase = "1.5.0-1"
+DiffEqCallbacks = "2.35.0-2"
+FillArrays = "1.9.0-1"
+OffsetArrays = "1.13.0-1"
+PrecompileTools = "1.2.0-1"
+RecipesBase = "1.3.4-1"
+RecursiveArrayTools = "3.27.1-3"
+SciMLBase = "2.67.0-2"
+StartUpDG = "1.1.5-1"
+Static = ["0.8.7-0.8", "1"]
+StaticArrays = "1.7.0-1"
+StructArrays = "0.6.18-0.6"
+SummationByPartsOperators = "0.5.52-0.5"
 
 ["0.9.4-0"]
 MPI = "0.20.6-0.20"
