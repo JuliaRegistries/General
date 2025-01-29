@@ -147,8 +147,10 @@ BoundaryValueDiffEqMIRKN = "1"
 FastClosures = "0.3.2-0.3"
 ForwardDiff = "0.10.38-0.10"
 
-["5.14-5"]
+["5.14"]
 ADTypes = "1"
+
+["5.14-5"]
 ArrayInterface = "7.18.0-7"
 BoundaryValueDiffEqCore = "1"
 BoundaryValueDiffEqFIRK = "1"
@@ -156,6 +158,9 @@ BoundaryValueDiffEqMIRK = "1"
 BoundaryValueDiffEqShooting = "1"
 DiffEqBase = "6.161.0-6"
 SciMLBase = "2.71.0-2"
+
+["5.15-5"]
+ADTypes = "1.11.0-1"
 
 ["5.2-5.6"]
 BandedMatrices = "1"
