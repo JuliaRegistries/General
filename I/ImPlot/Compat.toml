@@ -22,8 +22,14 @@ Setfield = "0.7"
 LibCImGui = "1.82.2-1.82"
 
 ["0.3-0"]
-Setfield = "1"
 julia = "1.6.0-1"
 
-["0.4-0"]
+["0.3-0.4"]
+Setfield = "1"
+
+["0.4"]
 LibCImGui = "1.89"
+
+["0.5-0"]
+CImGui = "4"
+CImGuiPack_jll = "0.7"
