@@ -41,14 +41,14 @@ QuasiArrays = "0.10"
 ["0.1-0.2"]
 julia = "1.9.0-1"
 
-["0.2-0"]
-QuasiArrays = "0.11"
-
 ["0.2-0.2.2"]
 ArrayLayouts = "1.0.11-1"
 
 ["0.2-0.2.5"]
 ClassicalOrthogonalPolynomials = "0.11"
+
+["0.2-0.3.7"]
+QuasiArrays = "0.11"
 
 ["0.2.0"]
 ContinuumArrays = "0.14"
@@ -112,7 +112,6 @@ InfiniteArrays = "0.14"
 LazyBandedMatrices = "0.10"
 
 ["0.3.3-0"]
-ContinuumArrays = "0.18"
 LazyArrays = "2"
 RecurrenceRelationshipArrays = "0.1"
 
@@ -123,13 +122,21 @@ ClassicalOrthogonalPolynomials = "0.13.7-0.13"
 FastTransforms = "0.16"
 RecurrenceRelationships = "0.1"
 
+["0.3.3-0.3.7"]
+ContinuumArrays = "0.18"
+
 ["0.3.4-0"]
 InfiniteArrays = "0.14-0.15"
 LazyBandedMatrices = "0.10-0.11"
 
-["0.3.5-0"]
+["0.3.5-0.3.7"]
 ClassicalOrthogonalPolynomials = "0.13.7-0.14"
 
 ["0.3.7-0"]
 FastTransforms = "0.16-0.17"
 RecurrenceRelationships = "0.1-0.2"
+
+["0.3.8-0"]
+ClassicalOrthogonalPolynomials = "0.13.7-0.15"
+ContinuumArrays = "0.18-0.19"
+QuasiArrays = "0.11-0.12"
