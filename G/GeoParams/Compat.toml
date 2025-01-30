@@ -120,11 +120,16 @@ StaticArrays = "1.9.1-1"
 ["0.5.6-0"]
 Interpolations = "0.13-0.15"
 Loess = "0.5-0.6"
-Static = "0.7-0.8"
 StatsBase = "0.1-0.34"
+
+["0.5.6-0.6"]
+Static = "0.7-0.8"
 
 ["0.5.8-0"]
 MuladdMacro = "0.2.4-0.2"
 
 ["0.6-0"]
 InternedStrings = "0.7"
+
+["0.7-0"]
+Static = ["0.7-0.9", "1"]
