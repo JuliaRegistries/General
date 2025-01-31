@@ -188,11 +188,11 @@ SingularIntegrals = ["0.0.2", "0.1"]
 ClassicalOrthogonalPolynomials = "0.10.1-0.10"
 SingularIntegrals = "0.1"
 
-["0.5-0"]
-QuasiArrays = "0.11"
-
 ["0.5-0.5.3"]
 ClassicalOrthogonalPolynomials = "0.11"
+
+["0.5-0.6.0"]
+QuasiArrays = "0.11"
 
 ["0.5.0"]
 ContinuumArrays = "0.14"
@@ -227,7 +227,6 @@ ContinuumArrays = "0.15-0.17"
 ClassicalOrthogonalPolynomials = "0.12.4-0.12"
 
 ["0.5.6-0"]
-ContinuumArrays = "0.18"
 julia = "1.10.0-1"
 
 ["0.5.6-0.5"]
@@ -238,7 +237,17 @@ ClassicalOrthogonalPolynomials = "0.13"
 InfiniteArrays = "0.14"
 InfiniteLinearAlgebra = "0.8"
 
+["0.5.6-0.6.0"]
+ContinuumArrays = "0.18"
+
 ["0.6-0"]
-ClassicalOrthogonalPolynomials = "0.14.3-0.14"
 InfiniteLinearAlgebra = "0.9.1-0.9"
 LazyArrays = "2.4.0-2"
+
+["0.6.0"]
+ClassicalOrthogonalPolynomials = "0.14.3-0.14"
+
+["0.6.1-0"]
+ClassicalOrthogonalPolynomials = "0.14.3-0.15"
+ContinuumArrays = "0.18-0.19"
+QuasiArrays = "0.11-0.12"
