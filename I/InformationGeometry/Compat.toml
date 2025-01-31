@@ -133,7 +133,6 @@ BoundaryValueDiffEq = "2-5"
 
 ["1.14.6-1"]
 ComponentArrays = "0.13-0.15"
-DataInterpolations = "3-6"
 LibGEOS = "0.6-0.9"
 ModelingToolkit = "5-9"
 SymbolicUtils = ["0.11.3-0.20", "1-9"]
@@ -142,6 +141,9 @@ SymbolicUtils = ["0.11.3-0.20", "1-9"]
 DiffEqCallbacks = "2-3"
 Optimization = "3"
 
+["1.14.6-1.16.3"]
+DataInterpolations = "3-6"
+
 ["1.15-1"]
 LineSearches = "5-7"
 Symbolics = "1-6"
@@ -149,6 +151,12 @@ Symbolics = "1-6"
 ["1.15.1-1"]
 DiffEqCallbacks = "2-4"
 Optimization = "3-4"
+
+["1.16.4-1"]
+BoundaryValueDiffEq = "3-5"
+DataInterpolations = "3-7"
+PreallocationTools = "0.4"
+Requires = "1"
 
 ["1.2-1"]
 Combinatorics = "1"
