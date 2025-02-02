@@ -8,13 +8,23 @@ Libtiff_jll = "4.3.0-4.4"
 OpenJpeg_jll = "2.3.1-2.3"
 
 ["1.81-1"]
-JLLWrappers = "1.2.0-1"
 julia = "1.6.0-1"
 
 ["1.81-1.82"]
 OpenJpeg_jll = "2.4"
 
-["1.83-1"]
+["1.81-1.83"]
+JLLWrappers = "1.2.0-1"
+
+["1.83"]
 Libtiff_jll = "4.5.1-4.5"
+
+["1.83-1"]
 OpenJpeg_jll = "2.5"
 libwebp_jll = "1.2.4-1"
+
+["1.85-1"]
+Artifacts = ["0.0.0", "1"]
+JLLWrappers = "1.7.0-1"
+Libdl = ["0.0.0", "1"]
+Libtiff_jll = "4.7.0-4"
