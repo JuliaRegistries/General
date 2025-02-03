@@ -3,10 +3,8 @@ Accessors = "0.1"
 ChainRulesCore = "1"
 Compat = ["3.46.0-3", "4.2.0-4"]
 LinearAlgebra = "1"
-OptimKit = "0.3"
 Printf = "1"
 Statistics = "1"
-Zygote = "0.6"
 
 ["0-0.1"]
 KrylovKit = "0.6-0.7"
@@ -17,22 +15,39 @@ julia = "1.6.0-1"
 ["0-0.2"]
 VectorInterface = "0.4"
 
+["0-0.3"]
+OptimKit = "0.3"
+Zygote = "0.6"
+
 ["0.2"]
 julia = "1.9.0-1"
 
 ["0.2-0"]
-KrylovKit = "0.8"
 LoggingExtras = "1"
-MPSKit = "0.11"
 Random = "1"
+
+["0.2-0.3"]
+KrylovKit = "0.8"
+MPSKit = "0.11"
 TensorKit = "0.12.5-0.12"
 TensorOperations = "4"
 
 ["0.2.2-0"]
 FiniteDifferences = "0.12"
+
+["0.2.2-0.3"]
 MPSKitModels = "0.3"
 
 ["0.3-0"]
 OhMyThreads = "0.7"
 VectorInterface = "0.4-0.5"
 julia = "1.10.0-1"
+
+["0.4-0"]
+KrylovKit = "0.8-0.9"
+MPSKit = "0.12"
+MPSKitModels = "0.4"
+OptimKit = "0.3-0.4"
+TensorKit = "0.14"
+TensorOperations = "5"
+Zygote = "0.6-0.7"
