@@ -7,13 +7,15 @@ CodecZlib = "0.7"
 julia = "1"
 
 [1]
-AltInplaceOpsInterface = "0.1"
 Base64 = "1"
 Dates = "1"
 LinearAlgebra = "1"
 Printf = "1"
 StaticArrays = "1.4.4-1"
 Test = "1"
+
+["1-1.0.1"]
+AltInplaceOpsInterface = "0.1"
 XMLParser = "0.2.1-0.2"
 
 ["1.0.0"]
@@ -21,3 +23,7 @@ TranscodingStreams = "0.9.6-0.9"
 
 ["1.0.1-1"]
 TranscodingStreams = "0.9.6-0.11"
+
+["1.0.2-1"]
+AltInplaceOpsInterface = "0.1.1-0.1"
+XMLParser = "0.2.3-0.2"
