@@ -4,14 +4,18 @@ Rotations = "0.3.0-0.13"
 StaticArrays = "0.0.0-0.12"
 julia = "0.6-1"
 
-["0.5.1-0"]
-julia = "1"
-
 ["0.5.1-0.5"]
 Rotations = "0.10-0.13"
 
 ["0.5.1-0.6.0"]
 StaticArrays = "0.11-0.12"
 
+["0.5.1-0.6.3"]
+julia = "1"
+
 ["0.6.1-0"]
 StaticArrays = ["0.11-0.12", "1"]
+
+["0.6.4-0"]
+LinearAlgebra = "1"
+julia = "1.10.0-1"
