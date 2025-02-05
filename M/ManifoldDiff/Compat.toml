@@ -24,10 +24,13 @@ ManifoldsBase = "0.13.29-0.14"
 ["0.3.6"]
 ManifoldsBase = "0.14.10-0.14"
 
-["0.3.7-0"]
+["0.3.7-0.4.1"]
 ManifoldsBase = "0.15"
 
 ["0.4-0"]
 ADTypes = "1.11.0-1"
 DifferentiationInterface = "0.6.23-0.6"
 julia = "1.10.0-1"
+
+["0.4.2-0"]
+ManifoldsBase = ["0.15", "1"]
