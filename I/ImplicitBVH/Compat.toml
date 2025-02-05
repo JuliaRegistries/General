@@ -10,11 +10,13 @@ julia = "1.7.0-1"
 julia = "1.6.0-1"
 
 ["0.5-0"]
-AcceleratedKernels = "0.2"
 ArgCheck = "2"
 GPUArraysCore = "0.1-0.2"
 KernelAbstractions = "0.9"
 LinearAlgebra = "1"
+
+["0.5-0.5.1"]
+AcceleratedKernels = "0.2"
 
 ["0.5.0"]
 Atomix = "0.1-0.2"
@@ -22,3 +24,6 @@ Atomix = "0.1-0.2"
 ["0.5.1-0"]
 Atomix = ["0.1", "1"]
 julia = "1.10.0-1"
+
+["0.5.2-0"]
+AcceleratedKernels = "0.3"
