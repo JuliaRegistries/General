@@ -1,7 +1,4 @@
 [0]
-DataFrames = "1"
-DataStructures = "0.18"
-YAML = "0.4"
 julia = "1.6.0-1"
 
 ["0-0.2"]
@@ -13,6 +10,11 @@ PowerSimulations = "0.15"
 ["0-0.6"]
 InfrastructureSystems = "1"
 TimeSeries = "0.23"
+
+[0-1]
+DataFrames = "1"
+DataStructures = "0.18"
+YAML = "0.4"
 
 ["0.2.1-0.2"]
 PowerSimulations = "0.16"
@@ -41,12 +43,12 @@ PowerSystems = "3"
 ["0.5.0"]
 PowerSimulations = "0.23"
 
-["0.5.1-0"]
-Dates = "1"
-InteractiveUtils = "1"
-
 ["0.5.1-0.5.2"]
 PowerSimulations = "0.24"
+
+["0.5.1-1"]
+Dates = "1"
+InteractiveUtils = "1"
 
 ["0.5.3-0.5"]
 PowerSimulations = "0.25"
@@ -60,10 +62,14 @@ PowerSimulations = "0.27.1-0.27"
 ["0.7"]
 PowerSimulations = "0.28"
 
-["0.7-0"]
+["0.7-1"]
 InfrastructureSystems = "2"
 PowerSystems = "4"
 TimeSeries = "0.24"
 
 ["0.8-0"]
 PowerSimulations = "0.29"
+
+[1]
+PowerSimulations = "0.30"
+julia = "1.10.0-1"
