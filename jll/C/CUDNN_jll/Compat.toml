@@ -1,9 +1,11 @@
 [8-9]
-JLLWrappers = "1.4.0-1"
 julia = "1.6.0-1"
 
 ["8-9.1"]
 LazyArtifacts = "1"
+
+["8-9.4"]
+JLLWrappers = "1.4.0-1"
 
 ["8.2.4-8.2"]
 Artifacts = "1"
@@ -20,3 +22,6 @@ Artifacts = ["0.0.0", "1"]
 LazyArtifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
 TOML = ["0.0.0", "1"]
+
+["9.7-9"]
+JLLWrappers = "1.7.0-1"
