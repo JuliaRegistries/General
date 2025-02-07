@@ -1,6 +1,15 @@
 ["1.0"]
 Makie = ["0.19.3-0.20", "1"]
 
+["1.1"]
+Makie = ["0.20", "1"]
+
 ["1.1-1"]
 GeometryBasics = "0.4"
-Makie = ["0.20", "1"]
+
+["1.2-1"]
+ArnoldiMethod = "0.2-0.4"
+Arpack = "0.5"
+KrylovKit = "0.6-0.7"
+LinearMaps = "3"
+Makie = ["0.21", "1"]
