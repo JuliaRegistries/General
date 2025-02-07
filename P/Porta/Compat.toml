@@ -44,7 +44,19 @@ StatsBase = "0.33"
 
 ["0.1.5-0"]
 CSV = "0.10"
-DataFrames = "1.6.0-1"
 FileIO = "1.16.0-1"
+
+["0.1.5-0.1.6"]
+DataFrames = "1.6.0-1"
 GLMakie = "0.9"
 julia = "1.10.0-1"
+
+["0.1.7-0"]
+DataFrames = "1.7.0-1"
+ForwardDiff = "0.10"
+GLMakie = "0.10"
+GeometryBasics = "0.4.11-0.4"
+NonlinearSolve = "4.3.0-4"
+OrdinaryDiffEq = "6.90.0-6"
+Sockets = "1.10.0-1"
+julia = "1.11.0-1"
