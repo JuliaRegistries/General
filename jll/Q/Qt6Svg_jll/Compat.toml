@@ -1,6 +1,8 @@
 [6]
-JLLWrappers = "1.2.0-1"
 julia = "1.6.0-1"
+
+["6-6.7"]
+JLLWrappers = "1.2.0-1"
 
 ["6.4"]
 Qt6Base_jll = "6.4.2"
@@ -8,7 +10,13 @@ Qt6Base_jll = "6.4.2"
 ["6.5"]
 Qt6Base_jll = "6.5.2"
 
-["6.7-6"]
+["6.7"]
 Artifacts = "1"
 Libdl = "1"
 Qt6Base_jll = "6.7.1"
+
+["6.8-6"]
+Artifacts = ["0.0.0", "1"]
+JLLWrappers = "1.7.0-1"
+Libdl = ["0.0.0", "1"]
+Qt6Base_jll = "6.8.2"
