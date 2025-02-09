@@ -3,11 +3,16 @@ Chain = "0.6"
 DataFrames = "1"
 DataFramesMeta = "0.15"
 DocStringExtensions = "0.9"
-LightweightCharts = "2"
 NanoDates = ["0.3", "1"]
 OnlineTechnicalIndicators = "0.1"
 TidyTest = "0.1.1-0.1"
 julia = "1"
 
+["0-0.6.3"]
+LightweightCharts = "2"
+
 ["0.6.1-0"]
 DataStructures = "0.18.20-0.18"
+
+["0.6.4-0"]
+LightweightCharts = "2-3"
