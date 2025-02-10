@@ -133,11 +133,11 @@ Enzyme = "0.11.2-0.11"
 ["7.35.1-7.35"]
 Enzyme = "0.11.0"
 
-["7.36-7"]
-LinearSolve = "2"
-
 ["7.36-7.56"]
 Enzyme = "0.11.6-0.11"
+
+["7.36-7.72"]
+LinearSolve = "2"
 
 ["7.37.1-7.38"]
 SparseDiffTools = "2.4.0-2"
@@ -196,7 +196,6 @@ ReverseDiff = "1.15.1-1"
 SciMLOperators = "0.3"
 Statistics = "1.10.0-1"
 Tracker = "0.2.30-0.2"
-Zygote = "0.6.67-0.6"
 julia = "1.10.0-1"
 
 ["7.52-7.55"]
@@ -214,6 +213,9 @@ OrdinaryDiffEq = "6.68.1-6"
 
 ["7.52-7.66.0"]
 StochasticDiffEq = "6.63.2-6"
+
+["7.52-7.72"]
+Zygote = "0.6.67-0.6"
 
 ["7.56.0"]
 DiffEqCallbacks = "2.34.0-3"
@@ -281,6 +283,10 @@ SciMLJacobianOperators = "0.1"
 Functors = "0.4-0.5"
 GPUArraysCore = "0.1-0.2"
 RecursiveArrayTools = "3.27.2-3"
+
+["7.73-7"]
+LinearSolve = "2-3"
+Zygote = "0.6.67-0.7"
 
 ["7.9-7"]
 PreallocationTools = "0.4.4-0.4"
