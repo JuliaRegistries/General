@@ -1,7 +1,7 @@
 ["0-0.2.1"]
 Requires = "0.0.0-0.5"
 
-[0-3]
+[0-2]
 julia = "1"
 
 ["0.2.2-0.2.3"]
@@ -21,6 +21,7 @@ CategoricalArrays = "0.7.3-0.7"
 PrettyTables = "0.6"
 
 [2]
+ColorTypes = "0.9-0.11"
 PrettyTables = "1"
 StatisticalTraits = "2"
 Tables = "1"
@@ -30,7 +31,6 @@ PersistenceDiagramsBase = "0.1"
 
 [2-3]
 CategoricalArrays = "0.8-0.10"
-ColorTypes = "0.9-0.11"
 
 ["2.0.0"]
 ScientificTypesBase = "1"
@@ -67,8 +67,16 @@ ScientificTypesBase = "3"
 StatisticalTraits = "3"
 Tables = "1.6.1-1"
 
+["3.0"]
+ColorTypes = "0.9-0.11"
+julia = "1"
+
 ["3.0.0"]
 PrettyTables = "1"
 
 ["3.0.1-3"]
 PrettyTables = "1-2"
+
+["3.1-3"]
+ColorTypes = "0.9-0.12"
+julia = "1.10.0-1"
