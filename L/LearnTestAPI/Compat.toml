@@ -4,7 +4,6 @@ InteractiveUtils = ["0.0.0", "1"]
 IsURL = "0.2"
 LearnAPI = "0.2"
 LinearAlgebra = ["0.0.0", "1"]
-MLUtils = "0.4"
 MacroTools = "0.5"
 Random = ["0.0.0", "1"]
 ScientificTypes = "3.0.2-3"
@@ -16,3 +15,9 @@ Tables = "1"
 Test = ["0.0.0", "1"]
 UnPack = "1.0.2-1"
 julia = "1.10.0-1"
+
+["0-0.2.0"]
+MLUtils = "0.4"
+
+["0.2.1-0"]
+MLCore = "1"
