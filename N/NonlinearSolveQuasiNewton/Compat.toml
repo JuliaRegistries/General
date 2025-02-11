@@ -4,7 +4,6 @@ CommonSolve = "0.2.4-0.2"
 ConcreteStructs = "0.2.3-0.2"
 DiffEqBase = "6.158.3-6"
 LinearAlgebra = "1.10.0-1"
-LinearSolve = "2.36.1-2"
 MaybeInplace = "0.1.4-0.1"
 PrecompileTools = "1.2.0-1"
 Reexport = "1"
@@ -13,8 +12,14 @@ SciMLOperators = "0.3.11-0.3"
 StaticArraysCore = "1.4.3-1"
 julia = "1.10.0-1"
 
+["1-1.1"]
+LinearSolve = "2.36.1-2"
+
 ["1.0"]
 NonlinearSolveBase = "1.1.0-1"
 
 ["1.1-1"]
 NonlinearSolveBase = "1.4.0-1"
+
+["1.2-1"]
+LinearSolve = "2.36.1-3"
