@@ -35,12 +35,14 @@ Distributions = "0.24-0.25"
 
 ["1.0.5-4"]
 LoopVectorization = "0.12"
+
+["1.0.5-4.6.1"]
 StaticArrays = "1.2.0-1"
 
 ["1.1-3.9.2"]
 LazyArrays = "0.21-0.22"
 
-["1.2.1-4"]
+["1.2.1-4.6.1"]
 SpecialFunctions = "1.4.0-2"
 
 [2]
@@ -61,7 +63,7 @@ HCubature = "1"
 ["2.0.3-2.0"]
 Rocket = "1.3.21-1"
 
-["2.0.4-4"]
+["2.0.4-4.6.1"]
 StatsFuns = ["0.9", "1"]
 
 ["2.1-2"]
@@ -84,7 +86,6 @@ FastCholesky = "1.3.0-1"
 julia = "1.9.0-1"
 
 ["3.12-4"]
-BayesBase = "1.1.0-1"
 DiffResults = "1.1.0-1"
 DomainSets = "0.5.2-0.7"
 LinearAlgebra = "1.9.0-1"
@@ -92,6 +93,9 @@ Random = "1.9.0-1"
 
 ["3.12-4.4.3"]
 ExponentialFamily = "1.2.0-1"
+
+["3.12-4.6.1"]
+BayesBase = "1.1.0-1"
 
 ["3.13-4"]
 FixedArguments = "0.1"
@@ -106,11 +110,11 @@ FastGaussQuadrature = "0.4-0.5"
 ["3.7-3"]
 Rocket = "1.7.0-1"
 
-["3.9.3-4"]
-StatsBase = "0.33-0.34"
-
 ["3.9.3-4.2"]
 LazyArrays = ["0.21-0.22", "1"]
+
+["3.9.3-4.6.1"]
+StatsBase = "0.33-0.34"
 
 [4]
 Rocket = "1.8.0-1"
@@ -132,3 +136,10 @@ PolyaGammaHybridSamplers = "1.2.6-1"
 
 ["4.6-4"]
 ExponentialFamily = "1.7.0-1"
+
+["4.6.2-4"]
+BayesBase = "1.5.0-1"
+SpecialFunctions = "2.3.0-2"
+StaticArrays = "1.9.0-1"
+StatsBase = "0.34"
+StatsFuns = "1.3.0-1"
