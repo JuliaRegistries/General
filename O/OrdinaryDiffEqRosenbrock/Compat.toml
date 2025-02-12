@@ -4,7 +4,6 @@ FastBroadcast = "0.3.5-0.3"
 FiniteDiff = "2.24.0-2"
 ForwardDiff = "0.10.36-0.10"
 LinearAlgebra = ["0.0.0", "1"]
-LinearSolve = "2.32.0-2"
 MacroTools = "0.5.13-0.5"
 MuladdMacro = "0.2.4-0.2"
 Polyester = "0.7.16-0.7"
@@ -23,7 +22,13 @@ ADTypes = "1.7.1-1"
 OrdinaryDiffEqCore = "1.1.0-1"
 OrdinaryDiffEqDifferentiation = ["0.0.0", "1"]
 
+["1-1.4"]
+LinearSolve = "2.32.0-2"
+
 ["1.4-1"]
 ADTypes = "1.11.0-1"
 OrdinaryDiffEqCore = "1.14.0-1"
 OrdinaryDiffEqDifferentiation = ["0.0.0", "1.2.0-1"]
+
+["1.5-1"]
+LinearSolve = "2.32.0-3"
