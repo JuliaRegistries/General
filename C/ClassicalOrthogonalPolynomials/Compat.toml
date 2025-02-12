@@ -127,11 +127,11 @@ LazyArrays = "2.0.3-2"
 ["0.13.3-0.14"]
 ContinuumArrays = "0.18.3-0.18"
 
-["0.13.6-0"]
-LazyArrays = "2.2.0-2"
-
 ["0.13.6-0.14.0"]
 FastTransforms = "0.16.6-0.16"
+
+["0.13.6-0.15.0"]
+LazyArrays = "2.2.0-2"
 
 ["0.13.7-0.13"]
 RecurrenceRelationshipArrays = "0.1"
@@ -157,10 +157,16 @@ RecurrenceRelationships = "0.1.1-0.2"
 ["0.15-0"]
 ContinuumArrays = "0.19"
 InfiniteArrays = "0.15"
-InfiniteLinearAlgebra = "0.9"
 LazyBandedMatrices = "0.11"
 QuasiArrays = "0.12"
 RecurrenceRelationships = "0.2"
+
+["0.15.0"]
+InfiniteLinearAlgebra = "0.9"
+
+["0.15.1-0"]
+InfiniteLinearAlgebra = "0.10"
+LazyArrays = "2.5.1-2"
 
 ["0.2"]
 InfiniteArrays = "0.10"
