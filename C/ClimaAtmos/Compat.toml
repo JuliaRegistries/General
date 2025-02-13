@@ -289,14 +289,10 @@ ClimaCore = "0.14.11-0.14"
 
 ["0.27.5-0"]
 AtmosphericProfilesLibrary = "0.1.7-0.1"
-ClimaComms = "0.6.4-0.6"
-ClimaDiagnostics = "0.2.4-0.2"
-ClimaUtilities = "0.1.14-0.1"
 DiffEqBase = "6.145.0-6"
 FastGaussQuadrature = ["0.5", "1"]
 Interpolations = "0.15.1-0.15"
 LazyArtifacts = "1"
-RRTMGP = "0.19"
 SciMLBase = "2.12.0-2"
 StaticArrays = "1.7.0-1"
 SurfaceFluxes = "0.11-0.12"
@@ -308,12 +304,20 @@ Adapt = "3.7.0-4"
 ["0.27.5-0.28.1"]
 ClimaCore = "0.14.12-0.14"
 
+["0.27.5-0.28.4"]
+ClimaComms = "0.6.4-0.6"
+ClimaDiagnostics = "0.2.4-0.2"
+ClimaUtilities = "0.1.14-0.1"
+RRTMGP = "0.19"
+
 ["0.27.6-0"]
-CloudMicrophysics = "0.22.3-0.22"
 Thermodynamics = "0.12.8-0.12"
 
 ["0.27.6-0.27.7"]
 UnrolledUtilities = "0.1.5-0.1"
+
+["0.27.6-0.28.4"]
+CloudMicrophysics = "0.22.3-0.22"
 
 ["0.27.7-0"]
 Random = "1"
@@ -321,7 +325,7 @@ Random = "1"
 ["0.27.8-0"]
 UnrolledUtilities = "0.1.6-0.1"
 
-["0.28-0"]
+["0.28-0.28.4"]
 ClimaParams = "0.10.17-0.10"
 
 ["0.28.2-0.28.3"]
@@ -333,9 +337,21 @@ ClimaTimeSteppers = "0.7.38-0.7"
 ["0.28.3-0"]
 LazyBroadcast = "1"
 
+["0.28.4"]
+ClimaTimeSteppers = "0.8.1-0.8"
+
 ["0.28.4-0"]
 ClimaCore = "0.14.24-0.14"
-ClimaTimeSteppers = "0.8.1-0.8"
+
+["0.28.5-0"]
+ClimaComms = "0.6.6-0.6"
+ClimaDiagnostics = "0.2.12-0.2"
+ClimaParams = "0.10.19-0.10"
+ClimaTimeSteppers = "0.8.2-0.8"
+ClimaUtilities = "0.1.22-0.1"
+CloudMicrophysics = "0.22.8-0.22"
+NullBroadcasts = "0.1"
+RRTMGP = "0.20.1-0.20"
 
 ["0.3"]
 StochasticDiffEq = "6.41.0-6"
