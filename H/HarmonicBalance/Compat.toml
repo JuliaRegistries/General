@@ -29,7 +29,6 @@ Distances = "0.10.7-0.10"
 DelimitedFiles = "1.9.0-1"
 Distances = "0.10.11-0.10"
 DocStringExtensions = "0.9.3-0.9"
-Latexify = "0.16"
 OrderedCollections = "1.6.0-1"
 julia = "1.10.0-1"
 
@@ -39,6 +38,9 @@ Symbolics = "5.30.0-5"
 
 ["0.10-0.10.3"]
 JLD2 = "0.4.48-0.4"
+
+["0.10-0.12"]
+Latexify = "0.16"
 
 ["0.10-0.12.3"]
 DSP = "0.7.9-0.7"
@@ -78,9 +80,14 @@ DSP = "0.7.9-0.8"
 
 ["0.12.4-0"]
 HomotopyContinuation = "2.12.0-2"
-Plots = "1.40.9-1"
 SymbolicUtils = "3.11.0-3"
 Symbolics = "6.23.0-6"
+
+["0.12.4-0.12"]
+Plots = "1.40.9-1"
+
+["0.13-0"]
+SciMLBase = "2.72.0-2"
 
 ["0.5"]
 Symbolics = "4.4.1"
