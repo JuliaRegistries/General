@@ -204,17 +204,17 @@ ContinuumArrays = "0.15"
 InfiniteArrays = "0.13"
 InfiniteLinearAlgebra = "0.7"
 
-["0.5.10-0"]
-InfiniteArrays = "0.14-0.15"
-
 ["0.5.10-0.5"]
 ClassicalOrthogonalPolynomials = "0.13-0.14"
 InfiniteLinearAlgebra = "0.8-0.9"
 
+["0.5.10-0.6"]
+InfiniteArrays = "0.14-0.15"
+
 ["0.5.2-0.5.3"]
 ContinuumArrays = "0.15-0.16"
 
-["0.5.3-0"]
+["0.5.3-0.6"]
 BandedMatrices = ["0.17", "1"]
 
 ["0.5.4"]
@@ -240,14 +240,24 @@ InfiniteLinearAlgebra = "0.8"
 ["0.5.6-0.6.0"]
 ContinuumArrays = "0.18"
 
-["0.6-0"]
+["0.6"]
 InfiniteLinearAlgebra = "0.9.1-0.9"
+
+["0.6-0"]
 LazyArrays = "2.4.0-2"
 
 ["0.6.0"]
 ClassicalOrthogonalPolynomials = "0.14.3-0.14"
 
-["0.6.1-0"]
+["0.6.1-0.6"]
 ClassicalOrthogonalPolynomials = "0.14.3-0.15"
 ContinuumArrays = "0.18-0.19"
 QuasiArrays = "0.11-0.12"
+
+["0.7-0"]
+BandedMatrices = "1"
+ClassicalOrthogonalPolynomials = "0.15.1-0.15"
+ContinuumArrays = "0.19"
+InfiniteArrays = "0.15"
+InfiniteLinearAlgebra = "0.10"
+QuasiArrays = "0.12"
