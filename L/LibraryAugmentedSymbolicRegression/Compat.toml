@@ -1,35 +1,52 @@
 [0]
 ADTypes = "1.4.0-1"
+Distributed = ["0.0.0", "1"]
+LineSearches = "7"
+MLJModelInterface = "1.5-1.11"
+MacroTools = "0.4-0.5"
+Pkg = ["0.0.0", "1"]
+PrecompileTools = "1"
+Random = ["0.0.0", "1"]
+Reexport = "1"
+StatsBase = "0.33-0.34"
+TOML = ["0.0.0", "1"]
+
+["0-0.1"]
 Compat = "4.2.0-4"
 ConstructionBase = "1.5.7-1"
 Dates = "1"
 DifferentiationInterface = "0.5"
 DispatchDoctor = "0.4"
-Distributed = ["0.0.0", "1"]
 DynamicExpressions = "0.19.3-0.19"
 DynamicQuantities = ["0.10-0.14", "1"]
-LineSearches = "7"
 LossFunctions = "0.10-0.11"
-MLJModelInterface = "1.5-1.11"
-MacroTools = "0.4-0.5"
 Optim = "1.8-1.9"
 PackageExtensionCompat = "1"
-Pkg = ["0.0.0", "1"]
-PrecompileTools = "1"
 Printf = ["0.0.0", "1"]
 ProgressBars = "1.4-1.5"
-Random = ["0.0.0", "1"]
-Reexport = "1"
 SpecialFunctions = ["0.10.1-0.10", "1-2"]
-StatsBase = "0.33-0.34"
-TOML = ["0.0.0", "1"]
 
 ["0.0"]
 JSON = "0.21.4-0.21"
 PromptingTools = "0.54"
 julia = "1.6.0-1"
 
+["0.1"]
+PromptingTools = ["0.53-0.54", "0.56"]
+
 ["0.1-0"]
 JSON = "0.21"
-PromptingTools = ["0.53-0.54", "0.56"]
 julia = "1.10.0-1"
+
+["0.2-0"]
+Compat = "4.16.0-4"
+ConstructionBase = ["1.0.0-1.5.6", "1.5.8-1"]
+DispatchDoctor = "0.4.17-0.4"
+DynamicExpressions = "1.8-1.9"
+DynamicQuantities = "1"
+Logging = "1"
+LossFunctions = ["0.10-0.11", "1"]
+Optim = "1.8-1.10"
+PackageExtensionCompat = "1.0.2-1"
+PromptingTools = "0.65-0.72"
+SymbolicRegression = "1.7.0-1"
