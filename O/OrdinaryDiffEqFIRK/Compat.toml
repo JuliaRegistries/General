@@ -2,7 +2,6 @@
 DiffEqBase = "6.152.2-6"
 FastBroadcast = "0.3.5-0.3"
 LinearAlgebra = ["0.0.0", "1"]
-LinearSolve = "2.32.0-2"
 MuladdMacro = "0.2.4-0.2"
 OrdinaryDiffEqNonlinearSolve = ["0.0.0", "1"]
 RecursiveArrayTools = "3.27.0-3"
@@ -13,6 +12,9 @@ julia = "1.10.0-1"
 ["1-1.5"]
 OrdinaryDiffEqCore = "1.1.0-1"
 OrdinaryDiffEqDifferentiation = ["0.0.0", "1"]
+
+["1-1.6"]
+LinearSolve = "2.32.0-2"
 
 ["1.2-1"]
 FastPower = "1"
@@ -30,3 +32,7 @@ FastGaussQuadrature = "1.0.2-1"
 OrdinaryDiffEqCore = "1.14.0-1"
 OrdinaryDiffEqDifferentiation = ["0.0.0", "1.2.0-1"]
 SciMLBase = "2.60.0-2"
+
+["1.7-1"]
+LinearSolve = "2.32.0-3"
+Polyester = "0.7.16-0.7"
