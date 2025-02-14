@@ -111,12 +111,16 @@ function check_all_found(table)
 end
 
 function check_packages_versions(pkg_names, repo_url; registry_uuid=GENERAL_UUID, verbose=true, throw=true)
-    dir = mktempdir()
-    run(`$(git()) clone $(repo_url) $dir`)
+    if isdir(repo_url)
+        dir = repo_url
+    else
+        dir = mktempdir()
+        run(`$(git()) clone $(repo_url) $dir`)
+    end
 
     registry = only(filter!(r -> r.uuid == registry_uuid, reachable_registries()))
 
-    table = @NamedTuple{pkg_name::String, version::VersionNumber, found::Bool}[]
+    table = @NamedTuple{pkg_name::String, version::VersionNumber, found::Bool, tree_sha::Base.SHA1}[]
 
     for pkg_name in pkg_names
         pkg = registry.pkgs[only(uuids_from_name(registry, pkg_name))]
@@ -125,7 +129,7 @@ function check_packages_versions(pkg_names, repo_url; registry_uuid=GENERAL_UUID
             tree_sha = versions[version].git_tree_sha1
             found = success(`$(git()) -C $dir rev-parse -q --verify "$(tree_sha)^{tree}"`)
 
-            push!(table, (; pkg_name, version, found))
+            push!(table, (; pkg_name, version, found, tree_sha))
         end
     end
     verbose && pretty_print_table(table)
@@ -138,12 +142,14 @@ check_package_versions(pkg_name, repo_url; kw...) = check_packages_versions([pkg
 
 For example, in [General#75319](https://github.com/JuliaRegistries/General/pull/75319), a package author wanted to update the URL associated
 to their package "FastParzenWindows". At the time, the package had 1 registered version. We can check that it is present in the new repository via:
+
 ```julia
 julia> check_package_versions("FastParzenWindows", "https://github.com/ngiann/FastParzenWindows.jl.git");
 Cloning into '/var/folders/jb/plyyfc_d2bz195_0rc0n_zcw0000gp/T/jl_ke9E8C'...
 ...text omitted...
 FastParzenWindows: v0.1.2 found
 ```
+
 We see that this version was found in the new repository. This script was based on [this comment from General#35965](https://github.com/JuliaRegistries/General/pull/35965#issuecomment-832721704),
 which involved checking if 4 packages in the same repository all had their versions present in the new repository. That example can be handled as follows:
 
@@ -151,6 +157,12 @@ which involved checking if 4 packages in the same repository all had their versi
 pkg_names = ["ReinforcementLearningBase", "ReinforcementLearningCore",
              "ReinforcementLearningEnvironments", "ReinforcementLearningZoo"]
 check_packages_versions(pkg_names, "https://github.com/JuliaReinforcementLearning/ReinforcementLearning.jl.git")
+```
+
+You can also use this script against local repositories when modifying Git commit history:
+
+```julia
+check_package_versions("FastParzenWindows", ".")
 ```
 
 [FAQ]: https://github.com/JuliaRegistries/General#faq]
