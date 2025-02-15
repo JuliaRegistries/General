@@ -94,7 +94,6 @@ AbstractGPs = "0.2-0.3"
 KernelFunctions = ["0.9", "0.10.1-0.10"]
 
 ["0.6-0"]
-StructArrays = "0.5-0.6"
 julia = "1.6.0-1"
 
 ["0.6-0.6.1"]
@@ -105,6 +104,9 @@ FillArrays = "0.13.0-0.13.7"
 
 ["0.6-0.6.6"]
 ChainRulesCore = "1"
+
+["0.6-0.7.2"]
+StructArrays = "0.5-0.6"
 
 ["0.6.2-0.6.4"]
 AbstractGPs = "0.5.15-0.5"
@@ -130,3 +132,6 @@ StaticArrays = "1"
 ["0.6.8-0.6"]
 ChainRulesCore = "1"
 Zygote = "0.6.65-0.6"
+
+["0.7.3-0"]
+StructArrays = "0.5-0.7"
