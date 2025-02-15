@@ -18,14 +18,20 @@ DiffEqBase = "6"
 StaticArrays = "1"
 
 ["0.10-0"]
-DataInterpolations = "5.1.0-6"
 julia = "1.10.0-1"
+
+["0.10-0.10.4"]
+DataInterpolations = "5.1.0-6"
 
 ["0.10.3-0"]
 OrdinaryDiffEqVerner = "1.1.0-1"
 
 ["0.10.4-0"]
 Quaternionic = "1.5.2-2"
+
+["0.10.5-0"]
+DataInterpolations = "5.1.0-7"
+SphericalFunctions = "2.2.7-2"
 
 ["0.2-0.5"]
 DataInterpolations = "3.9.0-3"
@@ -40,6 +46,8 @@ Symbolics = "5"
 
 ["0.6-0"]
 MacroTools = "0.5.10-0.5"
+
+["0.6-0.10.4"]
 SphericalFunctions = "2.1.4-2"
 
 ["0.6-0.7"]
