@@ -32,7 +32,7 @@ PrettyTables = "1"
 ["4.1-5.2.5"]
 NCDatasets = ["0.11", "0.12.7-0.12"]
 
-["4.1-7"]
+["4.1-8"]
 PrettyTables = "2"
 
 ["5.2-6"]
@@ -46,5 +46,15 @@ NCDatasets = "0.13-0.14"
 
 [7]
 GeometryBasics = "0.4"
+
+[7-8]
 GeometryOps = "0.1"
 julia = "1.9.0-1"
+
+[8]
+Dates = "1"
+Distances = "0.10"
+GeometryBasics = "0.5"
+Glob = "1"
+JSON3 = "1"
+Logging = "1"
