@@ -12,19 +12,34 @@ JLLWrappers = "1.2.0-1"
 julia = "1.6.0-1.11"
 
 ["1.14-1"]
-JLLWrappers = "1.4.0-1"
-LazyArtifacts = "1"
 MPIPreferences = "0.1"
-OpenSSL_jll = "3.0.8-3"
 
 ["1.14-1.14.2"]
 MPItrampoline_jll = "5.3.0-5"
 
-["1.14.3-1"]
+["1.14-1.14.3"]
+JLLWrappers = "1.4.0-1"
+LazyArtifacts = "1"
+OpenSSL_jll = "3.0.8-3"
+
+["1.14.3"]
 Artifacts = "1"
-LibCURL_jll = "7.73.0-8"
 Libdl = "1"
 MPItrampoline_jll = "5.3.1-5"
 OpenMPI_jll = "4.1.6-4"
 TOML = "1"
+
+["1.14.3-1"]
+LibCURL_jll = "7.73.0-8"
 julia = "1.6.0-1"
+
+["1.14.5-1"]
+Artifacts = ["0.0.0", "1"]
+JLLWrappers = "1.7.0-1"
+LazyArtifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]
+MPICH_jll = "4.2.3-4"
+MPItrampoline_jll = "5.5.1-5"
+OpenMPI_jll = "4.1.6-5"
+OpenSSL_jll = "3.0.15-3"
+TOML = ["0.0.0", "1"]
