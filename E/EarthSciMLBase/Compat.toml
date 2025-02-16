@@ -30,12 +30,14 @@ OrdinaryDiffEq = "6"
 ProgressLogging = "0.1"
 
 ["0.13-0"]
-BlockBandedMatrices = "0.13"
 SciMLBase = "2"
 SciMLOperators = "0.3"
 
 ["0.13-0.16.0"]
 DiffEqCallbacks = "2"
+
+["0.13-0.20.5"]
+BlockBandedMatrices = "0.13"
 
 ["0.16-0"]
 Catalyst = "14"
@@ -64,6 +66,10 @@ SymbolicIndexingInterface = "0.3"
 
 ["0.20.1-0"]
 Statistics = "1"
+
+["0.20.6-0"]
+ArrayInterface = "7.18.0-7"
+BlockDiagonals = "0.1.42-0.1"
 
 ["0.4.2-0.11"]
 Catalyst = "10-13"
