@@ -1,13 +1,22 @@
 [0]
-Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 GeoRegions = "b001f823-fa75-4bff-bf55-6610c8f3688a"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.3"]
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+
+["0.4-0"]
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+LandSea = "cbf7bb22-a1a6-46cb-8b24-174e3bc5fc04"
+RegionGrids = "ecebd26c-3930-4a82-94f6-9df2a191b288"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+UnitfulParsableString = "06c00241-927a-4d5b-bb5e-6b5a2ada3567"
