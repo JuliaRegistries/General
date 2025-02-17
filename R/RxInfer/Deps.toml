@@ -1,13 +1,13 @@
-[1-3]
+[1-4]
 GraphPPL = "b3f8163a-e979-4e85-b43e-1f63d8c8b42c"
 ReactiveMP = "a194aa59-28ba-4574-a09c-4a745416d6e3"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Rocket = "df971d30-c9d6-4b37-b8ff-e965b2cb3a40"
 
-["1.1-3"]
+["1.1-4"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 
-[2-3]
+[2-4]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 DomainSets = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -17,12 +17,22 @@ ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 TupleTools = "9d95972d-f1c8-5527-a6e0-b4b365fa01f6"
 
-["2.13.2-3"]
+["2.13.2-4"]
 FastCholesky = "2d5283b6-8564-42b6-bb00-83ed8e915756"
 
-["2.14-3"]
+["2.14-4"]
 BayesBase = "b4ee3484-f114-42fe-b91c-797d54a0c67e"
 ExponentialFamily = "62312e5e-252a-4322-ace9-a5f4bf9b357b"
 
-["3.7-3"]
+["3.7-4"]
 Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
+
+[4]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
