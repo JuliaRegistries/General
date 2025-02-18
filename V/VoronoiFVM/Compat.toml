@@ -345,8 +345,13 @@ ExtendableGrids = "1.10.1-1"
 
 ["2.4-2"]
 ExtendableSparse = "1.6.0-1"
+
+["2.4-2.6"]
 LinearSolve = "2.36.0-2"
 
 ["2.5-2"]
 ExtendableGrids = "1.11.0-1"
 TextWrap = "1.0.2-1"
+
+["2.7-2"]
+LinearSolve = ["2.36.0-2", "3.3.0-3"]
