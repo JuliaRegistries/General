@@ -246,10 +246,11 @@ Registrator will complain if the second step is skipped.
 
 ### How do I move a subdirectory package to its own repository?
 
-Follow these steps to move a [subdirectory package](https://pkgdocs.julialang.org/v1/managing-packages/#Adding-a-package-in-a-subdirectory-of-a-repository) to its own repository:
-- Follow Github's documentation on [splitting a subfolder out into a new repository][github-subfolder]. If you aren't hosting your package on GitHub, most of the steps are still applicable.
-- [Check that the new repository contains all registered versions of the package](./CONTRIBUTING.md#appendix-checking-if-a-repository-contains-all-registered-versions-of-a-package).
-- Make a pull request to [this repository](https://github.com/JuliaRegistries/General/pulls) in which you edit the repo URL in the package's Package.toml file (e.g [E/Example/Package.toml](https://github.com/JuliaRegistries/General/blob/master/E/Example/Package.toml#L3)), and remove the subdir line. Be sure to include the printed output from the second step in your pull request, so the reviewer can see that the new repository indeed contains all registered versions fo the package. See [this pull request](https://github.com/JuliaRegistries/General/pull/106369) for an example of moving a subdirectory package to its own repository.
+Follow these steps to move a [subdirectory package](https://pkgdocs.julialang.org/v1/managing-packages/#Adding-a-package-in-a-subdirectory-of-a-repository) to its own repository. These steps are focused on GitHub hosted packages but are still applicable for packages hosted elsewhere:
+
+1. Follow Github's documentation on [splitting a subfolder out into a new repository][github-subfolder] and set the subdirectory package to be the new root folder of the new repository via `git-filter-repo`'s `--subdirectory-filter` flag. In order to avoid having to modify the package's `git-tree-sha1` entries in the registry it is important that subdirectory package's contents remain identical for the registered releases. Specifically, this means one should not use `git-filter-repo`'s `--path` functionality to transfer additional top-level directories (such as `.github/workflows`) when transferring the history, as this would modify root tree SHA.
+2. [Check that the new repository contains all registered versions of the package](./CONTRIBUTING.md#appendix-checking-if-a-repository-contains-all-registered-versions-of-a-package).
+3. Make a pull request to [this repository](https://github.com/JuliaRegistries/General/pulls) in which you edit the repo URL in the package's `Package.toml` file (e.g [`E/Example/Package.toml`](https://github.com/JuliaRegistries/General/blob/master/E/Example/Package.toml#L3)), and remove the `subdir` line. Be sure to include the printed output from the second step in your pull request, so the reviewer can see that the new repository indeed contains all registered versions fo the package. See [this pull request](https://github.com/JuliaRegistries/General/pull/106369) for an example of moving a subdirectory package to its own repository.
 
 ### How do I transfer a package to General from another registry?
 
