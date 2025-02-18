@@ -1,7 +1,12 @@
 [0]
 CategoricalArrays = "0.10"
-LearnAPI = "0.2"
 MLCore = "1"
 StatsModels = "0.7.4-0.7"
 Tables = "1"
 julia = "1.10.0-1"
+
+["0-0.1.0"]
+LearnAPI = "0.2"
+
+["0.1.1-0"]
+LearnAPI = ["0.2", "1"]
