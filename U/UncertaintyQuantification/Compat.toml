@@ -21,6 +21,11 @@ julia = "1.10.0-1"
 Format = "1.3.0-1"
 Monomials = "1"
 
+["0.12-0"]
+Optim = "1.9.4-1"
+QuadGK = "2.11.1-2"
+Roots = "2.2.2-2"
+
 ["0.2-0"]
 Bootstrap = "2.2.0-2"
 Dierckx = "0.5"
@@ -87,6 +92,8 @@ DynamicPolynomials = "0.5"
 
 ["0.8-0"]
 FastGaussQuadrature = ["0.4-0.5", "1"]
+
+["0.8-0.11"]
 KernelDensity = "0.6"
 
 ["0.8.0"]

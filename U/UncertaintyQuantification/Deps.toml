@@ -15,6 +15,11 @@ MeshAdaptiveDirectSearch = "f4d74008-4565-11e9-04bd-4fe404e6a92a"
 Format = "1fa38f19-a742-5d3f-a2b9-30dd87b9d5f8"
 Monomials = "272bfe72-f66c-432f-a94d-600f29493792"
 
+["0.12-0"]
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
+
 ["0.2-0"]
 Bootstrap = "e28b5b4c-05e8-5b66-bc03-6f0c0a0a06e0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -51,8 +56,10 @@ Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 DynamicPolynomials = "7c1d4256-1411-5781-91ec-d7bc3513ac07"
 
 ["0.8-0"]
-KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0.8-0.11"]
+KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
 
 ["0.9-0"]
 Primes = "27ebfcd6-29c5-5fa9-bf4b-fb8fc14df3ae"
