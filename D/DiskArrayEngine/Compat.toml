@@ -3,8 +3,6 @@ Dagger = "0.18"
 Ipopt = "1"
 OffsetArrays = "1"
 OnlineStats = "1"
-Optimization = "3"
-OptimizationMOI = "0.1"
 OrderedCollections = "1"
 Primes = "0.5"
 ProgressMeter = "1"
@@ -20,10 +18,22 @@ OptimizationOptimJL = "0.1"
 ["0-0.1.1"]
 DiskArrays = "0.3"
 
+["0-0.2.0"]
+Optimization = "3"
+OptimizationMOI = "0.1"
+
 ["0.1.1-0"]
 Graphs = "1"
 Interpolations = "0.14-0.15"
+
+["0.1.1-0.2.0"]
 OptimizationOptimJL = "0.1-0.2"
 
-["0.1.2-0"]
+["0.1.2-0.2.0"]
 DiskArrays = "0.3-0.4"
+
+["0.2.1-0"]
+DiskArrays = ["0.3", "0.4.10-0.4"]
+Optimization = "3-4"
+OptimizationMOI = "0.1-0.5"
+OptimizationOptimJL = "0.1-0.4"
