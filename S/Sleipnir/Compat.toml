@@ -1,5 +1,4 @@
 [0]
-JLD2 = "0.4"
 Revise = "3"
 
 ["0-0.3.5"]
@@ -9,6 +8,9 @@ Statistics = "1.7.0-1"
 Infiltrator = "1"
 PyCall = "1"
 julia = "1.7.0-1"
+
+["0-0.7"]
+JLD2 = "0.4"
 
 ["0.3.6-0"]
 Statistics = "1"
@@ -20,14 +22,24 @@ CairoMakie = "0.11"
 Downloads = "1"
 HDF5 = "0.17"
 
+["0.7"]
+CairoMakie = "0.12.18-0.12"
+Rasters = "0.13"
+Tar = "1.10.0-1"
+
 ["0.7-0"]
 CSV = "0.10.15-0.10"
-CairoMakie = "0.12.18-0.12"
 CodecZlib = "0.7.6-0.7"
 ComponentArrays = "0.15"
 Infiltrator = "1.8.0-1"
 JSON = "0.21.4-0.21"
 NCDatasets = "0.14.6-0.14"
-Rasters = "0.13"
-Tar = "1.10.0-1"
 julia = "1.9.0-1"
+
+["0.8-0"]
+CairoMakie = "0.12.18-0.13"
+CoordRefSystems = "0.16"
+JLD2 = "0.4-0.5"
+Rasters = "0.13-0.14"
+Tar = "1"
+Unitful = "1"
