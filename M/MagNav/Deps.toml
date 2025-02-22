@@ -9,7 +9,6 @@ DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 ExponentialUtilities = "d4d017d3-3776-5f7e-afef-a10c40355c18"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
-FluxOptTools = "ca11d760-9bce-11e9-0b7e-4f72fcadb4f9"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 GLMNet = "8d5ece8b-de18-5317-b113-243142960cc6"
 GR = "28b8d3ca-fb5f-59d9-8090-bfdbd6d07a71"
@@ -19,7 +18,6 @@ HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 Inflate = "d25df0c9-e2be-5dd7-82c8-3ad0b3e990b9"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
-KernelFunctions = "ec8451be-7e33-11e9-00cf-bbf324bd1392"
 LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
@@ -43,6 +41,10 @@ Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["1 - 1.1.1"]
 SatelliteToolbox = "6ac157d9-b43d-51bb-8fab-48bf53814f4a"
+
+["1 - 1.2"]
+FluxOptTools = "ca11d760-9bce-11e9-0b7e-4f72fcadb4f9"
+KernelFunctions = "ec8451be-7e33-11e9-00cf-bbf324bd1392"
 
 ["1.1.2 - 1"]
 SatelliteToolboxGeomagneticField = "9fc549ba-b5d7-49a2-b268-8171e5fb6e89"
