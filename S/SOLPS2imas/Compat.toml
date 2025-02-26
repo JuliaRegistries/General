@@ -1,7 +1,6 @@
 [2]
 ArgParse = "1"
 DelimitedFiles = "1.9.1-1"
-IMASggd = "2"
 NCDatasets = "0.14.4-0.14"
 YAML = "0.4.11-0.4"
 julia = "1.10.0-1"
@@ -9,5 +8,12 @@ julia = "1.10.0-1"
 ["2-2.0.1"]
 IMASdd = "2"
 
-["2.0.2-2"]
+["2.0"]
+IMASggd = "2"
+
+["2.0.2-2.0"]
 IMASdd = "2-3"
+
+["2.1-2"]
+IMASdd = "2-4"
+IMASggd = "3.1.0-3"
