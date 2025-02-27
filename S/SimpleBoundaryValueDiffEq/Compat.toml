@@ -2,8 +2,10 @@
 DiffEqBase = "6.148.0-6"
 Reexport = "1.2.2-1"
 SciMLBase = "2.30.3-2"
-SimpleNonlinearSolve = "1.6.0-1"
 julia = "1.10.0-1"
+
+["1-1.1"]
+SimpleNonlinearSolve = "1.6.0-1"
 
 ["1.0"]
 FiniteDiff = "2.23.0-2"
@@ -11,3 +13,6 @@ FiniteDiff = "2.23.0-2"
 ["1.1-1"]
 FiniteDiff = "2.24.0-2"
 OrdinaryDiffEqTsit5 = "1.1.0-1"
+
+["1.2-1"]
+SimpleNonlinearSolve = "1.6.0-2"

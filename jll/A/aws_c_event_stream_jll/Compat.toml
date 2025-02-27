@@ -1,13 +1,15 @@
 [0]
-JLLWrappers = "1.2.0-1"
-aws_checksums_jll = "0.1.17-0.1"
 julia = "1.6.0-1"
 
 ["0-0.3"]
 aws_c_common_jll = "0.9.3-0.9"
 aws_c_io_jll = "0.13.32-0.13"
 
-["0.4-0"]
+["0-0.4"]
+JLLWrappers = "1.2.0-1"
+aws_checksums_jll = "0.1.17-0.1"
+
+["0.4"]
 aws_c_common_jll = "0.9.14-0.9"
 aws_c_io_jll = "0.14.7-0.14"
 
@@ -18,3 +20,9 @@ Libdl = "1"
 ["0.4.3-0"]
 Artifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
+
+["0.5-0"]
+JLLWrappers = "1.7.0-1"
+aws_c_common_jll = "0.11.1-0.11"
+aws_c_io_jll = "0.17"
+aws_checksums_jll = "0.2.3-0.2"

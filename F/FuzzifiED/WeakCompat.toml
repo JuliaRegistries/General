@@ -1,9 +1,19 @@
 [0]
-CUDA = "5"
 HDF5 = "0.14-0.17"
 ITensorMPS = "0.2-0.3"
 ITensors = "0.6-0.7"
 
-["0.10.5-0"]
+["0 - 1"]
+CUDA = "5"
+
+["0.10.5 - 0"]
 KrylovKit = "0.4-0.8"
+
+["0.10.5 - 1"]
 SparseArrays = "1"
+
+[1]
+HDF5 = "0.14 - 0.17"
+ITensorMPS = "0.2 - 0.3"
+ITensors = "0.6 - 0.7"
+KrylovKit = "0.4 - 0.8"

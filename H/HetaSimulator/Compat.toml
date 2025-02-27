@@ -3,7 +3,6 @@ DataFrames = "1"
 DataStructures = "0.18"
 Distributions = "0.25"
 LabelledArrays = "1.6.1-1"
-NLopt = "0.6"
 ProgressMeter = "1"
 RecipesBase = "1"
 Reexport = "1"
@@ -25,6 +24,9 @@ OrdinaryDiffEq = "6"
 
 ["0-0.4.8"]
 DiffEqBase = "6.78.0-6"
+
+["0-0.7.3"]
+NLopt = "0.6"
 
 ["0.4.12-0"]
 NaNMath = "1"
@@ -55,3 +57,7 @@ julia = "1.9.0-1"
 
 ["0.7.3-0"]
 ArtifactUtils = "0.2.4-0.2"
+
+["0.7.4-0"]
+NLopt = "1.0.3-1"
+NLopt_jll = "2.8.0"

@@ -1,10 +1,10 @@
-[0]
-julia = "1"
-
 ["0-0.1"]
 Distributions = "0.16.4-0.21"
 Optim = "0.17.2-0.19"
 Statistics = "1"
+
+["0-0.6"]
+julia = "1"
 
 ["0.2"]
 Distributions = "0.0.0-0.21"
@@ -22,26 +22,26 @@ StatsBase = "0.32"
 ["0.3.2-0.4"]
 Optim = "0.20"
 
-["0.5-0"]
-Statistics = "1"
-
 ["0.5-0.5.3"]
 Optim = "0.20-0.22"
 
 ["0.5-0.5.9"]
 Distributions = "0.23-0.24"
 
-["0.5.10-0"]
-Optim = ["0.17-0.22", "1.2.0-1"]
-StatsBase = "0.27-0.33"
+["0.5-0.6"]
+Statistics = "1"
 
 ["0.5.10-0.5"]
 Distributions = "0.16-0.24"
 
+["0.5.10-0.6"]
+Optim = ["0.17-0.22", "1.2.0-1"]
+StatsBase = "0.27-0.33"
+
 ["0.5.17-0"]
 SeasonalTrendLoess = "0.1"
 
-["0.5.2-0"]
+["0.5.2-0.6"]
 ShiftedArrays = "1"
 
 ["0.5.3-0"]
@@ -60,7 +60,16 @@ StatsBase = "0.33"
 ["0.5.9-0"]
 OrderedCollections = "1"
 
-["0.6-0"]
+["0.6"]
 Distributions = "0.16-0.25"
 MatrixEquations = "1-2"
 Polynomials = "1-2"
+
+["0.7-0"]
+Distributions = "0.25"
+MatrixEquations = "2"
+Optim = "1"
+Polynomials = "4"
+ShiftedArrays = "2"
+StatsBase = "0.34"
+julia = "1.6.0-1"

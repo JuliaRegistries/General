@@ -1,4 +1,4 @@
-[2]
+["2-2.10.3"]
 Bzip2_jll = "1.0.8-1"
 
 ["2-2.7"]
@@ -8,33 +8,53 @@ julia = "1"
 ["2-2.9.0"]
 zfp_jll = "0.5.5"
 
-["2.10-2"]
-HDF5_jll = "1.14.3"
-OpenMPI_jll = "4.1.6-5"
-
 ["2.10-2.10.2"]
 MPItrampoline_jll = "5.3.3-5"
+
+["2.10-2.10.3"]
+HDF5_jll = "1.14.3"
+OpenMPI_jll = "4.1.6-5"
 
 ["2.10.2"]
 Blosc2_jll = "201.1500.0-201"
 
-["2.10.3-2"]
-Artifacts = ["0.0.0", "1"]
+["2.10.3"]
 Blosc2_jll = "201.1500.101-201"
-LazyArtifacts = ["0.0.0", "1"]
-Libdl = ["0.0.0", "1"]
 MPICH_jll = "4.2.3-4"
 MPItrampoline_jll = "5.5.0-5"
-TOML = ["0.0.0", "1"]
 zfp_jll = "1.0.1-1"
 
+["2.10.3-2"]
+Artifacts = ["0.0.0", "1"]
+LazyArtifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]
+TOML = ["0.0.0", "1"]
+
+["2.10.4-2"]
+Blosc2_jll = "201.1700.0-201"
+Bzip2_jll = "1.0.9-1"
+HDF5_jll = "1.14.6-1.14"
+JLLWrappers = "1.7.0-1"
+Libffi_jll = "3.4.7-3"
+MPICH_jll = "4.3.0-4"
+MPItrampoline_jll = "5.5.3-5"
+OpenMPI_jll = ["4.1.8-4", "5.0.7-5"]
+ZeroMQ_jll = "4.3.6-4"
+libpng_jll = "1.6.47-1"
+nlohmann_json_jll = "3.11.3-3"
+pugixml_jll = "1.14.1-1"
+yaml_cpp_jll = "0.8.1-0.8"
+zfp_jll = "1.0.2-1"
+
 ["2.8-2"]
-JLLWrappers = "1.4.0-1"
 MPIPreferences = "0.1"
 julia = "1.6.0-1"
 
 ["2.8-2.10.2"]
 LazyArtifacts = "1"
+
+["2.8-2.10.3"]
+JLLWrappers = "1.4.0-1"
 
 ["2.8.3"]
 MPItrampoline_jll = "5"
