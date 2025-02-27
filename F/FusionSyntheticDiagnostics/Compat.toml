@@ -1,7 +1,6 @@
 [2]
 ArgParse = "1"
 DelimitedFiles = "1.9.1-1"
-IMASggd = "2"
 Interpolations = "0.15.1-0.15"
 LsqFit = "0.15"
 PhysicalConstants = "0.2.3-0.2"
@@ -11,6 +10,9 @@ StaticArrays = "1.9.2-1"
 Statistics = "1.9.0-1"
 julia = "1.10.0-1"
 
+["2.0"]
+IMASggd = "2"
+
 ["2.0.0"]
 DSP = "0.7.9-0.7"
 IMASdd = "2"
@@ -18,3 +20,9 @@ IMASdd = "2"
 ["2.0.1-2"]
 DSP = "0.7.9-0.8"
 IMAS = "1.2.2-3"
+
+["2.1-2"]
+CoordinateTransformations = "0.6"
+HCubature = "1.7.0-1"
+IMASggd = "3.1.0-3"
+Rotations = "1.7.0-1"
