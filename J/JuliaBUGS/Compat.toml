@@ -36,13 +36,15 @@ PDMats = "0.10-0.11"
 
 ["0.2.4-0"]
 Documenter = ["0.27", "1"]
-julia = "1.9.0-1"
 
 ["0.2.4-0.2"]
 Statistics = "1.9.0-1"
 
 ["0.2.4-0.4"]
 MetaGraphsNext = "0.5-0.6"
+
+["0.2.4-0.8"]
+julia = "1.9.0-1"
 
 ["0.3-0"]
 AbstractMCMC = "5"
@@ -59,6 +61,8 @@ Graphs = "1"
 LogDensityProblemsAD = "1"
 MacroTools = "0.5"
 MetaGraphsNext = "0.6-0.7"
+
+["0.5-0.8"]
 Statistics = "1.9.0-1"
 
 ["0.5.2-0"]
@@ -72,13 +76,23 @@ AbstractPPL = "0.8.4-0.8"
 DynamicPPL = "0.25-0.28"
 
 ["0.6.2-0"]
-AbstractPPL = "0.8.4-0.9"
 Accessors = "0.1"
-LinearAlgebra = "1.9.0-1"
 OrderedCollections = "1"
 
-["0.6.4-0"]
+["0.6.2-0.8"]
+AbstractPPL = "0.8.4-0.9"
+LinearAlgebra = "1.9.0-1"
+
+["0.6.4-0.8"]
 Bijectors = "0.13-0.14"
 
-["0.8-0"]
+["0.8"]
 Serialization = "1.9.0-1"
+
+["0.9-0"]
+AbstractPPL = "0.8.4-0.10"
+Bijectors = ["0.13-0.14", "0.15.5-0.15"]
+LinearAlgebra = "1.10.0-1"
+Serialization = "1.10.0-1"
+Statistics = "1.10.0-1"
+julia = "1.10.8-1"
