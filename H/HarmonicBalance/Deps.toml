@@ -3,7 +3,6 @@ BijectiveHilbert = "91e7fc40-53cd-4118-bd19-d7fcd1de2a54"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 HomotopyContinuation = "f213a82b-91d6-5c5d-acf7-10f1c761b327"
-JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
@@ -15,6 +14,9 @@ Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 Peaks = "18e31ff7-3703-566c-8e60-38913d67486b"
+
+["0-0.13"]
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 
 ["0-0.5"]
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
@@ -47,11 +49,11 @@ SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 ["0.5-0"]
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
-["0.6-0"]
-DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
-
 ["0.6-0.12"]
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
+["0.6-0.13"]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 
 ["0.6.3-0"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
