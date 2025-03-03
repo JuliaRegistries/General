@@ -10,9 +10,11 @@ julia = ["0.7", "1"]
 ["0.10.4-0.10"]
 julia = "1.7.0-1"
 
+["0.11"]
+StrideArraysCore = "0.3-0.5"
+
 ["0.11-0"]
 StatsBase = "0.32-0.34"
-StrideArraysCore = "0.3-0.5"
 julia = "1.8.0-1"
 
 ["0.11.1-0"]
@@ -27,6 +29,11 @@ Statistics = "1"
 
 ["0.11.6-0.11.9"]
 PrecompileTools = "1"
+
+["0.12-0"]
+ProgressMeter = "1.10.0-1"
+SearchModels = "0.4"
+StrideArraysCore = "0.5"
 
 ["0.3.20"]
 DataStructures = "0.0.0-0.18"
@@ -62,7 +69,7 @@ SearchModels = "0.2"
 ["0.7.1-0.8.15"]
 Intersections = "0.2.5-0.2"
 
-["0.7.4-0"]
+["0.7.4-0.11"]
 SearchModels = "0.3"
 
 ["0.8-0.8.9"]
@@ -86,7 +93,7 @@ JLD2 = "0.4"
 ["0.9.3-0.9.8"]
 StrideArraysCore = "0.3"
 
-["0.9.8-0"]
+["0.9.8-0.11"]
 LoopVectorization = "0.12"
 
 ["0.9.9-0.10"]
