@@ -35,7 +35,6 @@ Adapt = "4.1.1-4"
 DiffEqBase = "6.158.3-6"
 ForwardDiff = "0.10.38-0.10"
 LineSearch = "0.1.4-0.1"
-SparseDiffTools = "2.23.0-2"
 
 ["1.1-1.4"]
 ArrayInterface = "7.16.0-7"
@@ -48,6 +47,9 @@ ADTypes = "1.9.0-1"
 ["1.1-1.6"]
 LinearSolve = "2.36.2-2"
 
+["1.1-1.7"]
+SparseDiffTools = "2.23.0-2"
+
 ["1.5-1"]
 ArrayInterface = "7.18.0-7"
 NonlinearSolveFirstOrder = "1.2.0-1"
@@ -58,3 +60,7 @@ ADTypes = "1.11.0-1"
 
 ["1.7-1"]
 LinearSolve = "2.36.2-3"
+
+["1.8-1"]
+SparseConnectivityTracer = "0.6.13-0.6"
+SparseMatrixColorings = "0.4.13-0.4"
