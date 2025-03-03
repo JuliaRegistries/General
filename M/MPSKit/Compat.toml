@@ -44,7 +44,6 @@ KrylovKit = "0.8.3-0.8"
 VectorInterface = "0.2-0.5"
 
 ["0.12-0"]
-BlockTensorKit = "0.1.1-0.1"
 Compat = ["3.47.0-3", "4.10.0-4"]
 DocStringExtensions = "0.9.3-0.9"
 HalfIntegers = "1.6.0-1"
@@ -52,12 +51,20 @@ KrylovKit = ["0.8.3-0.8", "0.9.2-0.9"]
 LoggingExtras = "1.0"
 OhMyThreads = "0.7"
 Random = "1"
-TensorKit = "0.13-0.14"
 TensorKitManifolds = "0.7"
 julia = "1.10.0-1"
 
+["0.12-0.12.5"]
+BlockTensorKit = "0.1.1-0.1"
+TensorKit = "0.13-0.14"
+
 ["0.12.3-0"]
 OptimKit = "0.3.1-0.4"
+
+["0.12.6-0"]
+BlockTensorKit = "0.1.4-0.1"
+TensorKit = "0.14"
+TensorOperations = "5"
 
 ["0.3.0"]
 KrylovKit = "0.4-1"
