@@ -5,12 +5,14 @@ ProgressMeter = "1.8.0-1"
 Random = "1"
 Reexport = "1"
 SparseArrays = "1"
-StructArrays = "0.6"
 WriteVTK = "1.18.0-1"
 julia = "1.9.0-1"
 
 ["0-0.1.8"]
 Tensorial = "0.14"
+
+["0-0.2.9"]
+StructArrays = "0.6"
 
 ["0.1.11-0.1.13"]
 Tensorial = "0.14-0.16"
@@ -23,3 +25,7 @@ Tensorial = "0.14-0.15"
 
 ["0.2-0"]
 Tensorial = "0.18"
+
+["0.2.10-0"]
+StaticArrays = "1"
+StructArrays = "0.6-0.7"
