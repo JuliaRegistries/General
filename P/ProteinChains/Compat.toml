@@ -14,16 +14,28 @@ AssigningSecondaryStructure = "0.5"
 LinearAlgebra = "1"
 
 ["0.3-0"]
-Compat = "4.10.0-4"
 HDF5 = "0.17"
 StaticArrays = "1"
 
+["0.3-0.6.8"]
+Compat = "4.10.0-4"
+
 ["0.6-0"]
 DynamicStructs = "0.2"
+
+["0.6-0.6.8"]
 JSON = "0.21.4-0.21"
 
-["0.6.2-0"]
+["0.6.2-0.6.8"]
 Reexport = "1.2.2-1"
 
-["0.6.7-0"]
+["0.6.7-0.6.8"]
 Graphs = "1.12.0-1"
+
+["0.6.9-0"]
+AssigningSecondaryStructure = "0.5"
+Compat = "4"
+Graphs = "1"
+JSON = "0.21"
+Reexport = "1"
+Statistics = "1"
