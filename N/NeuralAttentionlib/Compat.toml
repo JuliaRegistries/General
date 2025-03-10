@@ -1,6 +1,3 @@
-[0]
-ChainRulesCore = "1.3.0-1"
-
 ["0-0.0.2"]
 NNlib = "0.7"
 Static = "0.3"
@@ -9,6 +6,9 @@ Static = "0.3"
 Adapt = "3.3.0-3"
 Requires = "1.1.0-1"
 julia = "1.6.0-1"
+
+["0-0.3.2"]
+ChainRulesCore = "1.3.0-1"
 
 ["0.0"]
 PartialFunctions = "1"
@@ -53,3 +53,6 @@ FuncTransforms = "0.1"
 ["0.3.2-0"]
 Adapt = "4"
 Static = ["0.7-0.8", "1"]
+
+["0.3.3-0"]
+ChainRulesCore = "1.25.1-1"
