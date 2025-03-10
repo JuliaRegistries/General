@@ -8,7 +8,18 @@ OpenSSL_jll = "1.1.10-1"
 julia = "1.6.0-1"
 
 [16]
+julia = "1.6.0-1"
+
+["16.0"]
 ICU_jll = "69.1.0-69"
 JLLWrappers = "1.2.0-1"
 OpenSSL_jll = "3.0.8-3"
-julia = "1.6.0-1"
+
+["16.8-16"]
+Artifacts = ["0.0.0", "1"]
+ICU_jll = "76.1.0-76"
+JLLWrappers = "1.7.0-1"
+Kerberos_krb5_jll = "1.21.3-1"
+Libdl = ["0.0.0", "1"]
+OpenSSL_jll = "3.0.16-3"
+Zstd_jll = "1.5.7-1"
