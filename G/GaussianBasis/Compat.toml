@@ -1,10 +1,10 @@
-[0]
-Formatting = "0.4"
-HDF5 = "0.15.6-0.15"
-
 ["0-0.3"]
 Molecules = "0.1.1-0.1"
 julia = "1.5.0-1"
+
+["0-0.4"]
+Formatting = "0.4"
+HDF5 = "0.15.6-0.15"
 
 ["0.2-0"]
 libcint_jll = "5"
@@ -17,3 +17,7 @@ SpecialFunctions = "2"
 Molecules = "0.3"
 StaticArrays = "1.4.0-1"
 julia = "1.6.0-1"
+
+["0.5-0"]
+Format = "1.3.0-1"
+LinearAlgebra = "1"
