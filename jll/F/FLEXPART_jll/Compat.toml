@@ -1,10 +1,19 @@
 [10]
 JLLWrappers = "1.2.0-1"
+
+[10-11]
 julia = "1.6.0-1"
 
 ["10.4.2-10"]
 Artifacts = "1"
 JasPer_jll = "2.0.33-2"
 Libdl = "1"
+
+["10.4.2-11"]
 NetCDFF_jll = "4.6.1-4"
 eccodes_jll = "2.36.0-2"
+
+[11]
+Artifacts = ["0.0.0", "1"]
+JLLWrappers = "1.7.0-1"
+Libdl = ["0.0.0", "1"]
