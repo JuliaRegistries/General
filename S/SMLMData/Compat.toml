@@ -1,6 +1,5 @@
 [0]
 MAT = "0.10"
-julia = "1.6.0-1"
 
 ["0-0.1"]
 CSV = "0.10"
@@ -11,7 +10,13 @@ Distributions = "0.25"
 Images = "0.25"
 StatsBase = "0.33"
 
+["0-0.2.1"]
+julia = "1.6.0-1"
+
 ["0.1.2-0.1"]
 Images = "0.26"
 StatsBase = "0.33-0.34"
 StatsFuns = "1"
+
+["0.2.2-0"]
+julia = "1.9.0-1"
