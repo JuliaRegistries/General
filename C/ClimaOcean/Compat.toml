@@ -31,13 +31,15 @@ Adapt = "4"
 CFTime = "0.1"
 ImageMorphology = "0.4"
 Scratch = "1"
-SeawaterPolynomials = "0.3.4-0.3"
 StaticArrays = "1"
 Thermodynamics = "0.12"
 
 ["0.2.1-0.2.2"]
 OrthogonalSphericalShellGrids = "0.1.2-0.1"
 SurfaceFluxes = "0.11"
+
+["0.2.1-0.5.4"]
+SeawaterPolynomials = "0.3.4-0.3"
 
 ["0.2.2"]
 Oceananigans = "0.92"
@@ -111,5 +113,9 @@ PrecompileTools = "1"
 ["0.5.2-0.5.3"]
 Oceananigans = "0.95.27-0.99"
 
-["0.5.4-0"]
+["0.5.4"]
 Oceananigans = "0.95.28-0.99"
+
+["0.5.5-0"]
+Oceananigans = "0.96-0.99"
+SeawaterPolynomials = "0.3.5-0.3"
