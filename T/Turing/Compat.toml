@@ -157,7 +157,7 @@ AdvancedMH = "0.6"
 ["0.15.23-0.16.4"]
 AdvancedPS = "0.2"
 
-["0.15.24-0"]
+["0.15.24-0.36"]
 Distributions = "0.23.3-0.25"
 
 ["0.15.3-0.15.15"]
@@ -353,10 +353,8 @@ DynamicPPL = "0.23.17-0.23"
 SciMLBase = "1.37.1-2"
 
 ["0.30-0"]
-AdvancedHMC = ["0.3-0.4", "0.5.2-0.6"]
 AdvancedMH = "0.8"
 EllipticalSliceSampling = ["0.5", "1-2"]
-LogDensityProblemsAD = "1.7.0-1"
 Statistics = "1.6.0-1"
 
 ["0.30-0.30.4"]
@@ -367,6 +365,10 @@ AdvancedPS = "0.5.4-0.5"
 
 ["0.30-0.31.2"]
 ADTypes = "0.2"
+
+["0.30-0.36"]
+AdvancedHMC = ["0.3-0.4", "0.5.2-0.6"]
+LogDensityProblemsAD = "1.7.0-1"
 
 ["0.30.0"]
 AbstractMCMC = "4-5"
@@ -470,8 +472,13 @@ AbstractMCMC = "5.5.0-5"
 ["0.36.1"]
 DynamicPPL = "0.33-0.34"
 
-["0.36.2-0"]
+["0.36.2-0.36"]
 DynamicPPL = "0.34.1-0.34"
+
+["0.37-0"]
+AdvancedHMC = ["0.3-0.4", "0.5.2-0.7"]
+Distributions = "0.25.77-0.25"
+DynamicPPL = "0.35"
 
 ["0.5.1-0.6.14"]
 Bijectors = "0-0.2"
