@@ -178,11 +178,13 @@ GaussQuadrature = "0.5.8-0.5"
 HDF5 = "0.16.16-0.17"
 MultiBroadcastFusion = "0.3.1-0.4"
 StaticArrays = "1.6.0-1"
-Unrolled = "0.1.5-0.1"
 julia = "1.10.0-1"
 
 ["0.14.20-0.14.22"]
 RecursiveArrayTools = "3.1.0-3"
+
+["0.14.20-0.14.26"]
+Unrolled = "0.1.5-0.1"
 
 ["0.14.23"]
 KrylovKit = "0.6-0.9"
@@ -196,6 +198,9 @@ KrylovKit = "0.6-0.8"
 
 ["0.14.26-0"]
 NVTX = ["0.3", "1"]
+
+["0.14.27-0"]
+UnrolledUtilities = "0.1.6-0.1"
 
 ["0.14.4-0.14.25"]
 NVTX = "0.3"
