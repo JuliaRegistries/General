@@ -39,10 +39,16 @@ NLopt_jll = "2.8.0"
 
 [1]
 DataFrames = "1.7.0-1"
-DataInterpolations = "6.5.2-6"
 Distributions = "0.25"
 OptimizationBase = "2.4.0-2"
 PreallocationTools = "0.4"
 Reexport = "1.2.2-1"
 SciMLBase = "2"
 julia = "1.10.0-1"
+
+["1.0.0"]
+DataInterpolations = "6.5.2-6"
+
+["1.0.1-1"]
+DataInterpolations = "6.5.2-7"
+LiveServer = "1.4.0-1"
