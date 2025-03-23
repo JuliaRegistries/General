@@ -83,12 +83,14 @@ Functors = "0.1-0.8"
 Optimisers = ["0.1-0.6", "1"]
 
 ["1.0.19 - 1"]
-ChainRulesCore = "1 - 2"
 Flux = "0.14 - 0.18"
-Functors = "0.1 - 0.8"
-ImageMorphology = "0.4 - 0.6"
 Optimisers = ["0.1 - 0.6", "1"]
 Zygote = ["0.6 - 0.8", "1"]
+
+["1.0.19 - 1.0.22"]
+ChainRulesCore = "1 - 2"
+Functors = "0.1 - 0.8"
+ImageMorphology = "0.4 - 0.6"
 
 ["1.0.5 - 1.0.7"]
 Flux = ["0.16-0.19", "1"]
