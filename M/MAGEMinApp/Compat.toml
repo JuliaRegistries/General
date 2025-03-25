@@ -1,6 +1,5 @@
 [0]
 CSV = "0.10"
-ConcaveHull = "1"
 DataFrames = "1"
 DelimitedFiles = "1"
 HTTP = "1"
@@ -28,6 +27,9 @@ JSON3 = "1.14.0-1"
 Pkg = "1.9.0-1"
 PolygonOps = "0.1.2-0.1"
 julia = "1.9.0-1"
+
+["0 - 0.8.4"]
+ConcaveHull = "1"
 
 ["0.1.1 - 0.1.2"]
 PlotlyJS = "0.18.12-0.18"
@@ -217,6 +219,12 @@ MAGEMin_C = "1.8.1"
 ["0.8.2 - 0.8.3"]
 MAGEMin_C = "1.8.2"
 
-["0.8.4 - 0"]
+["0.8.4"]
 MAGEMin_C = "1.8.3"
+
+["0.8.4 - 0"]
 TOML = "1.0.3 - 1"
+
+["0.8.5 - 0"]
+ConcaveHull = "1.1.0 - 1"
+MAGEMin_C = "1.8.4"
