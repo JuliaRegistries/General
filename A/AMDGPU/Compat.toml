@@ -292,11 +292,11 @@ LLVM = "9"
 ["1.0.2-1.0.4"]
 GPUCompiler = "0.27"
 
-["1.0.5-1"]
-GPUCompiler = ["0.27", "1"]
-
 ["1.0.5-1.0"]
 AcceleratedKernels = "0.1"
+
+["1.0.5-1.2.5"]
+GPUCompiler = ["0.27", "1"]
 
 ["1.1"]
 GPUArrays = "11.1.0-11"
@@ -325,8 +325,15 @@ GPUToolbox = "0.1"
 
 ["1.2.4-1"]
 AcceleratedKernels = "0.3.1-0.3"
+
+["1.2.4-1.2.5"]
 LLD_jll = "15-18"
 LLVM_jll = "15-18"
 
 ["1.2.5-1"]
 GPUToolbox = "0.1-0.2"
+
+["1.2.6-1"]
+GPUCompiler = "1.0.0-1.2.0"
+LLD_jll = "15-19"
+LLVM_jll = "15-19"
