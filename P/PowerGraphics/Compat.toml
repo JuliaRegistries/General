@@ -1,12 +1,12 @@
-[0]
-julia = "1"
-
 ["0-0.1"]
 Colors = "0.11"
 GR = "0.47"
 ORCA = "0.3"
 PowerSystems = "0.11"
 WebIO = "0.8"
+
+["0-0.19"]
+julia = "1"
 
 ["0-0.3"]
 PlotlyJS = "0.13"
@@ -67,7 +67,7 @@ InfrastructureSystems = "2"
 PowerSystems = "4"
 TimeSeries = "0.24"
 
-["0.19-0"]
+["0.19"]
 PowerAnalytics = "0.8"
 
 ["0.2-0.3.1"]
@@ -79,6 +79,10 @@ GR = "0.47-0.48"
 
 ["0.2-0.8.0"]
 Reexport = "0.2"
+
+["0.20-0"]
+PowerAnalytics = "1"
+julia = "1.10.0-1"
 
 ["0.3.2"]
 PowerSystems = "0.13"
