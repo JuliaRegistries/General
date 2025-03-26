@@ -120,9 +120,6 @@ DispatchDoctor = "0.4.9-0.4"
 ["0.3.31-0.3.36"]
 LuxDeviceUtils = "0.1.26-0.1"
 
-["0.3.31-1"]
-ForwardDiff = "0.10.36-0.10"
-
 ["0.3.31-1.2"]
 EnzymeCore = "0.7.7-0.7"
 KernelAbstractions = "0.9.22-0.9"
@@ -130,6 +127,9 @@ NNlib = "0.9.21-0.9"
 
 ["0.3.31-1.2.0"]
 UnrolledUtilities = "0.1.2-0.1"
+
+["0.3.31-1.7.0"]
+ForwardDiff = "0.10.36-0.10"
 
 ["0.3.33-1"]
 StaticArraysCore = "1.4.3-1"
@@ -229,3 +229,6 @@ Functors = "0.5"
 ["1.6.2-1"]
 CPUSummary = "0.2.6-0.2"
 MLDataDevices = "1.6.10-1"
+
+["1.7.1-1"]
+ForwardDiff = ["0.10.36-0.10", "1"]
