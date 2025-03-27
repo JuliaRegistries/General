@@ -57,12 +57,20 @@ Unicode = "1"
 ["0.17.2-0.17"]
 Test = "1"
 
-["0.18-0"]
+["0.18"]
 InvertedFiles = "0.7"
-Polyester = "0.7"
 SimilaritySearch = "0.11"
-StatsBase = "0.32-0.34"
 julia = "1.8-1.10"
+
+["0.18-0"]
+Polyester = "0.7"
+StatsBase = "0.32-0.34"
+
+["0.19-0"]
+InvertedFiles = "0.8"
+ProgressMeter = "1"
+SimilaritySearch = "0.12"
+julia = "1.8.0-1"
 
 ["0.2.14"]
 KernelMethods = "0.1"
