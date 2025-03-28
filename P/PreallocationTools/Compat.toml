@@ -36,10 +36,15 @@ ForwardDiff = "0.10.19-0.10"
 ["0.4.2-0.4.3"]
 ReverseDiff = "1"
 
+["0.4.25"]
+ForwardDiff = "0.10.38-0.10"
+
 ["0.4.25-0"]
 Adapt = "4.1.1-4"
 ArrayInterface = "7.18.0-7"
-ForwardDiff = "0.10.38-0.10"
+
+["0.4.26-0"]
+ForwardDiff = ["0.10.38-0.10", "1"]
 
 ["0.4.9-0.4.13"]
 Requires = "1"
