@@ -13,7 +13,6 @@ FunctionWrappers = "1"
 
 [1]
 DiffResults = "1"
-ForwardDiff = "0.10"
 julia = "1"
 
 ["1-1.10"]
@@ -21,6 +20,9 @@ DiffRules = ["0.1", "1"]
 
 ["1-1.13"]
 NaNMath = "0.3"
+
+["1-1.15"]
+ForwardDiff = "0.10"
 
 ["1-1.15.1"]
 Statistics = "1"
@@ -46,6 +48,12 @@ SpecialFunctions = ["0.8-0.10", "1-2"]
 
 ["1.14-1"]
 NaNMath = ["0.3", "1"]
+
+["1.16-1"]
+ForwardDiff = ["0.10", "1"]
+LinearAlgebra = ["0.0.0", "1"]
+Random = ["0.0.0", "1"]
+Statistics = ["0.0.0", "1"]
 
 ["1.2-1"]
 MacroTools = "0.5"
