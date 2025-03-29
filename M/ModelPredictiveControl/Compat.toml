@@ -32,15 +32,17 @@ RecipesBase = "1"
 ["0.5.1-1.1"]
 PreallocationTools = "0.4"
 
-["0.6-1"]
+["0.6-1.5.0"]
 ForwardDiff = "0.10"
 
 ["0.8-1"]
 ControlSystemsBase = "1.9.0-1"
 
 ["1.2-1"]
-PreallocationTools = "0.4.14-0.4"
 julia = "1.10.0-1"
+
+["1.2-1.5.0"]
+PreallocationTools = "0.4.14-0.4"
 
 ["1.4-1"]
 LinearAlgebra = "1.10.0-1"
@@ -51,3 +53,6 @@ Random = "1.10.0-1"
 DifferentiationInterface = "0.6.45-0.6"
 SparseConnectivityTracer = "0.6.13-0.6"
 SparseMatrixColorings = "0.4.14-0.4"
+
+["1.5.1-1"]
+ForwardDiff = ["0.10", "1"]
