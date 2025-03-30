@@ -31,20 +31,24 @@ Flux = "0.13.4-0.13"
 Statistics = "1.7.0-1"
 
 ["0.10.1-0"]
-Functors = "0.2-0.4"
 Setfield = ["0.3.4-0.3", "0.5-0.8", "1"]
+
+["0.10.1-0.11.2"]
+Functors = "0.2-0.4"
 
 ["0.10.2-0.10"]
 CUDA = "3-4"
 
-["0.10.4-0"]
+["0.10.4-0.11.2"]
 Flux = "0.13.4-0.14"
 
 ["0.11-0"]
-NaiveNASflux = "2.0.10-2"
 NaiveNASlib = "2.0.11-2"
 PackageExtensionCompat = "1"
 PrecompileTools = "1"
+
+["0.11-0.11.2"]
+NaiveNASflux = "2.0.10-2"
 
 ["0.11.0"]
 Optimisers = "0.2"
@@ -55,8 +59,14 @@ Optimisers = "0.2-0.3"
 ["0.11.1-0"]
 Statistics = "1"
 
-["0.11.2-0"]
+["0.11.2"]
 Optimisers = "0.3.2-0.3"
+
+["0.11.3-0"]
+Flux = "0.16"
+Functors = "0.2-0.5"
+NaiveNASflux = "2.0.15-2"
+Optimisers = "0.4"
 
 ["0.2"]
 NaiveNASflux = "1.1.0-1"
