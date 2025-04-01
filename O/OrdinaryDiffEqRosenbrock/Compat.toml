@@ -27,10 +27,12 @@ LinearSolve = "2.32.0-2"
 
 ["1.4-1"]
 ADTypes = "1.11.0-1"
-OrdinaryDiffEqDifferentiation = ["0.0.0", "1.2.0-1"]
 
 ["1.4-1.5"]
 OrdinaryDiffEqCore = "1.14.0-1"
+
+["1.4-1.8"]
+OrdinaryDiffEqDifferentiation = ["0.0.0", "1.2.0-1"]
 
 ["1.5-1"]
 LinearSolve = "2.32.0-3"
@@ -38,5 +40,10 @@ LinearSolve = "2.32.0-3"
 ["1.6"]
 OrdinaryDiffEqCore = "1.18.0-1"
 
-["1.7-1"]
+["1.7-1.8"]
 OrdinaryDiffEqCore = "1.19.0-1"
+
+["1.9-1"]
+DifferentiationInterface = "0.6.48-0.6"
+OrdinaryDiffEqCore = "1.21.0-1"
+OrdinaryDiffEqDifferentiation = "1.5.0-1"
