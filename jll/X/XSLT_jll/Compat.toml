@@ -4,17 +4,29 @@ Libgpg_error_jll = "1.36.0"
 julia = "1"
 
 ["1.1.34-1"]
-JLLWrappers = "1.2.0-1"
 julia = "1.6.0-1"
 
 ["1.1.34-1.1.41"]
 Libgpg_error_jll = "1.42.0-1"
 
+["1.1.34-1.1.42"]
+JLLWrappers = "1.2.0-1"
+
 ["1.1.41"]
 Artifacts = "1"
 Libdl = "1"
 
+["1.1.42"]
+Libgpg_error_jll = "1.50.0-1"
+
 ["1.1.42-1"]
 Artifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
-Libgpg_error_jll = "1.50.0-1"
+
+["1.1.43-1"]
+JLLWrappers = "1.7.0-1"
+Libgcrypt_jll = "1.11.1-1"
+Libgpg_error_jll = "1.51.1-1"
+Libiconv_jll = "1.18.0-1"
+XML2_jll = "2.13.6-2"
+Zlib_jll = "1.2.12-1"
