@@ -38,9 +38,6 @@ Roots = "1-2"
 ["0.0.17-0.1.0"]
 QuizQuestions = "0.1-0.4"
 
-["0.0.2-0"]
-ForwardDiff = "0.10"
-
 ["0.0.2-0.0.10"]
 DataFrames = ["0.21", "1"]
 Weave = "0.10"
@@ -70,6 +67,9 @@ Mustache = "1"
 ["0.0.2-0.1.1"]
 Contour = "0.5"
 
+["0.0.2-0.2.8"]
+ForwardDiff = "0.10"
+
 ["0.0.3-0.0.10"]
 Tectonic = "0.2"
 
@@ -92,3 +92,6 @@ SpecialFunctions = "1-2"
 
 ["0.2.7-0"]
 Printf = "1"
+
+["0.2.9-0"]
+ForwardDiff = ["0.10", "1"]
