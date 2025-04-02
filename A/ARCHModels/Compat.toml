@@ -51,7 +51,7 @@ DataStructures = "0.17.5-0.17"
 ["0.5.2-1.2.2"]
 Reexport = "0.2"
 
-["0.5.2-2"]
+["0.5.2-2.5"]
 ForwardDiff = "0.10.4-0.10"
 
 ["0.5.3-1.0.2"]
@@ -145,3 +145,6 @@ PrecompileTools = "1"
 HypothesisTests = "0.8-0.11"
 StatsBase = "0.31-0.34"
 StatsModels = "0.6-0.7"
+
+["2.6-2"]
+ForwardDiff = ["0.10.4-0.10", "1"]
