@@ -39,9 +39,11 @@ NLSolversBase = "7"
 Mamba = "0.12"
 
 ["0.2-1"]
-ForwardDiff = "0.10"
 Gadfly = "1"
 ProgressMeter = "1"
+
+["0.2-1.0.3"]
+ForwardDiff = "0.10"
 
 ["0.2.0"]
 Optim = "0.20-0.22"
@@ -81,3 +83,6 @@ Statistics = "1"
 
 ["1.0.2-1"]
 PDMats = "0.11"
+
+["1.0.4-1"]
+ForwardDiff = ["0.10", "1"]
