@@ -21,7 +21,7 @@ IterableTables = "0.11"
 StatsBase = "0.32"
 TimeSeries = "0.16"
 
-["0.1.3-0"]
+["0.1.3-0.1"]
 Gadfly = "1"
 
 ["0.1.4"]
@@ -37,13 +37,29 @@ TimeSeries = ["0.19", "1.19.1-1"]
 IterableTables = "1"
 
 ["0.1.5-0"]
+TimeSeries = "0.20"
+
+["0.1.5-0.1"]
 CSV = "0.8"
 Colors = "0.10-0.12"
 Compose = "0.9"
 DataFrames = "1"
 Distributions = "0.20-0.25"
 StatsBase = "0.33"
-TimeSeries = "0.20"
 
-["0.1.6-0"]
+["0.1.6-0.1"]
 DataFramesMeta = "0.9-0.12"
+
+["0.2-0"]
+CSV = "0.9.0-0.10"
+DataFrames = "1.0-2.0"
+DataFramesMeta = "0.15"
+Dates = "1.8.0-1"
+Distributions = "0.23.2-0.25.118"
+GraphRecipes = "0.5.13-0.5"
+HypothesisTests = "0.11.3-0.11"
+InlineStrings = "1.0-1.4"
+Plots = "1.29.0-1"
+StatsAPI = "1.6.0-1"
+StatsBase = "0.24-0.34"
+StatsPlots = "0.15"
