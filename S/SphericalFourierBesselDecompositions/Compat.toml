@@ -41,7 +41,13 @@ Roots = "1-2"
 Scanf = "0.5"
 WignerD = "0.1"
 
-["0.4-0"]
+["0.4"]
 FastTransforms = "0.13-0.14"
-Healpix = "3-4"
 ThreadsX = "0.1"
+
+["0.4-0"]
+Healpix = "3-4"
+
+["0.5-0"]
+FastTransforms = "0.13-0.17"
+KrylovKit = "0.7-0.9"
