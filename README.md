@@ -23,7 +23,7 @@ dependencies and compatibility constraints.
 The General registry is open for everyone to use and provides access to a large ecosystem
 of packages.
 
-If you are registering a new package, please make sure that you have read the [package naming guidelines](https://pkgdocs.julialang.org/v1/creating-packages/#Package-naming-guidelines).
+If you are registering a new package, please make sure that you have read the [package naming rules](https://pkgdocs.julialang.org/v1/creating-packages/#Package-naming-rules).
 
 Follow along new package registrations with the `#new-packages-feed` channels in the
 [community Slack](https://julialang.org/slack/) or [Zulip](https://julialang.zulipchat.com/register/)!
