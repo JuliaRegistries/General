@@ -3,9 +3,17 @@ Expat_jll = "2.2.7-2"
 JLLWrappers = "1.1.0-1"
 julia = "1"
 
-["1.14-1"]
+["1.14"]
 Artifacts = "1"
 Expat_jll = "2.2.10-2"
 JLLWrappers = "1.2.0-1"
 Libdl = "1"
+
+["1.14-1"]
 julia = "1.6.0-1"
+
+["1.16-1"]
+Artifacts = ["0.0.0", "1"]
+Expat_jll = "2.6.5-2"
+JLLWrappers = "1.7.0-1"
+Libdl = ["0.0.0", "1"]
