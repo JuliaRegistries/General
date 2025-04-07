@@ -73,7 +73,7 @@ SimilaritySearch = "0.6-0.7"
 ["0.6"]
 KCenters = "0.5"
 
-["0.6-0"]
+["0.6-0.7"]
 SearchModels = "0.3"
 
 ["0.6-0.7.0"]
@@ -93,8 +93,10 @@ KCenters = "0.7"
 
 ["0.7.2-0"]
 LossFunctions = "0.8"
-MLUtils = "0.2.9-0.2"
 StatsAPI = "1.4.0-1"
+
+["0.7.2-0.7"]
+MLUtils = "0.2.9-0.2"
 
 ["0.7.3-0.7.5"]
 SimilaritySearch = "0.10"
@@ -106,9 +108,21 @@ KCenters = "0.8"
 SimilaritySearch = "0.10-0.11"
 
 ["0.7.6-0"]
-KCenters = "0.9"
 StatsBase = "0.32-0.34"
 
-["0.7.7-0"]
+["0.7.6-0.7"]
+KCenters = "0.9"
+
+["0.7.7-0.7"]
 SimilaritySearch = "0.11"
 julia = "1.6-1.10"
+
+["0.8-0"]
+KCenters = "0.10"
+LinearAlgebra = "1"
+MLUtils = "0.4"
+Random = "1"
+SearchModels = "0.4"
+SimilaritySearch = "0.12"
+SparseArrays = "1"
+julia = "1.10.0-1"
