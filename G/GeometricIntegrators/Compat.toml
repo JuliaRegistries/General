@@ -98,17 +98,22 @@ GeometricSolutions = "0.3-0.4"
 ["0.14.4-0"]
 GeometricSolutions = "0.4"
 
+["0.14.5-0"]
+ForwardDiff = ["0.10", "1"]
+
 ["0.2"]
 DecFP = "0.4.7-0.4"
 DelimitedFiles = "1.1.0-1"
 julia = "1.1.0-1"
 
 ["0.2-0"]
-ForwardDiff = "0.10"
 ProgressMeter = "1"
 
 ["0.2-0.13.3"]
 NLsolve = "4"
+
+["0.2-0.14.4"]
+ForwardDiff = "0.10"
 
 ["0.2-0.3.1"]
 FastTransforms = ["0.6", "0.8"]
