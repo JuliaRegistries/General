@@ -79,7 +79,7 @@ LinearMaps = "3.5.0-3"
 ["1.4-1.5"]
 SauterSchwabQuadrature = "2.1.3-2"
 
-["1.4-2"]
+["1.4-2.5"]
 BlockArrays = "0.10-0.16"
 julia = "1.6.0-1"
 
@@ -103,7 +103,7 @@ CompScienceMeshes = "0.4.1-0.4"
 ["1.6-1"]
 SauterSchwabQuadrature = "2.2.0-2"
 
-["1.6-2"]
+["1.6-2.5"]
 CollisionDetection = "0.1.5-0.1"
 
 ["1.7"]
@@ -134,13 +134,15 @@ WiltonInts84 = "0.2.3-0.2"
 FastGaussQuadrature = ["0.3-0.5", "1"]
 FillArrays = ["0.11-0.13", "1"]
 Requires = "1"
-WiltonInts84 = "0.2.5-0.2"
 
 ["2.1-2.3"]
 CompScienceMeshes = "0.6"
 
 ["2.1-2.4"]
 SauterSchwabQuadrature = "2.3.0-2"
+
+["2.1-2.5"]
+WiltonInts84 = "0.2.5-0.2"
 
 ["2.2-2"]
 LinearMaps = ["3.7-3.9", "3.11.2-3"]
@@ -154,8 +156,18 @@ ExtendableSparse = "1.4.0-1"
 ["2.4"]
 CompScienceMeshes = "0.7"
 
-["2.5-2"]
+["2.5"]
 CompScienceMeshes = "0.8"
+TestItems = "0.1.1-0.1"
+
+["2.5-2"]
 Infiltrator = "1.8.2-1"
 SauterSchwabQuadrature = "2.4.0-2"
-TestItems = "0.1.1-0.1"
+
+["2.6-2"]
+BlockArrays = ["0.10-0.16", "1"]
+CollisionDetection = "0.1.6-0.1"
+CompScienceMeshes = "0.9.3-0.9"
+TestItems = ["0.1.1-0.1", "1"]
+WiltonInts84 = "0.2.8-0.2"
+julia = "1.10.0-1"
