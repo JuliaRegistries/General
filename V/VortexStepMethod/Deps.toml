@@ -9,10 +9,12 @@ Measures = "442fdcdd-2543-5da2-b0f3-8c86c306513e"
 NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
-SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Timers = "21f18d07-b854-4dab-86f0-c15a3821819a"
+
+["1-1.2.0"]
+SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 
 ["1.0.0"]
 ControlPlots = "23c2ee80-7a9e-4350-b264-8e670f12517c"
@@ -30,3 +32,6 @@ Xfoil = "19641d66-a62d-11e8-2441-8f57a969a9c4"
 DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
 FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+
+["1.2.1-1"]
+YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"

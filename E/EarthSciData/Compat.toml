@@ -34,6 +34,9 @@ EarthSciMLBase = "0.20"
 ["0.12.3-0"]
 EarthSciMLBase = "0.21"
 
+["0.12.6-0"]
+DataInterpolations = ["3-6", "8"]
+
 ["0.2.0"]
 Latexify = "0.16"
 
@@ -113,8 +116,10 @@ Symbolics = "4-6"
 DynamicQuantities = "0.13"
 
 ["0.9.1-0"]
-DataInterpolations = "3-6"
 DynamicQuantities = ["0.13", "1"]
+
+["0.9.1-0.12.5"]
+DataInterpolations = "3-6"
 
 ["0.9.1-0.9"]
 DiffEqCallbacks = "2-3"

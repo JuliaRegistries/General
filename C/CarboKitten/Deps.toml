@@ -1,11 +1,13 @@
 [0]
-AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
-Transducers = "28d57a85-8fef-5791-bfe6-a80928e7c999"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 ["0-0.1"]
 ProgressBars = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
+
+["0-0.3"]
+AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
+Transducers = "28d57a85-8fef-5791-bfe6-a80928e7c999"
 
 ["0.2-0"]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
@@ -19,3 +21,6 @@ ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
+
+["0.4-0"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"

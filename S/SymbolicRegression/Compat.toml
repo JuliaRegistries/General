@@ -196,7 +196,6 @@ Logging = "1"
 MLJModelInterface = "1.5-1.11"
 Pkg = ["0.0.0", "1"]
 Printf = ["0.0.0", "1"]
-ProgressMeter = "1.10.0-1"
 Random = ["0.0.0", "1"]
 StyledStrings = "1"
 TOML = ["0.0.0", "1"]
@@ -207,6 +206,9 @@ DynamicExpressions = "1.5.0-1"
 
 ["1-1.5"]
 DifferentiationInterface = "0.5-0.6"
+
+["1-1.9.0"]
+ProgressMeter = "1.10.0-1"
 
 ["1.0"]
 LossFunctions = "0.10-0.11"
@@ -250,3 +252,6 @@ Optim = "1.8-1.11"
 
 ["1.9-1"]
 DynamicExpressions = "1.10"
+
+["1.9.1-1"]
+ProgressMeter = "1.10.0-1.10.2"

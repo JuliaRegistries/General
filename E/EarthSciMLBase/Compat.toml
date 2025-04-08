@@ -1,7 +1,3 @@
-[0]
-DocStringExtensions = "0.9"
-julia = "1.6.0-1"
-
 ["0-0.1"]
 DifferentialEquations = "7"
 DomainSets = "0.5"
@@ -12,6 +8,10 @@ Symbolics = "4-5"
 
 ["0-0.15"]
 ModelingToolkit = "8"
+
+["0-0.21.2"]
+DocStringExtensions = "0.9"
+julia = "1.6.0-1"
 
 ["0-0.4.1"]
 Catalyst = "10-12"
@@ -29,17 +29,17 @@ OrdinaryDiffEq = "6"
 ["0.12.2-0.17"]
 ProgressLogging = "0.1"
 
-["0.13-0"]
-SciMLBase = "2"
-SciMLOperators = "0.3"
-
 ["0.13-0.16.0"]
 DiffEqCallbacks = "2"
 
 ["0.13-0.20.5"]
 BlockBandedMatrices = "0.13"
 
-["0.16-0"]
+["0.13-0.21.2"]
+SciMLBase = "2"
+SciMLOperators = "0.3"
+
+["0.16-0.21.2"]
 Catalyst = "14"
 DomainSets = "0.7"
 ModelingToolkit = "9"
@@ -50,21 +50,21 @@ DynamicQuantities = "0.13"
 ["0.16.1"]
 DiffEqCallbacks = "2-3"
 
-["0.16.1-0"]
+["0.16.1-0.21.2"]
 DynamicQuantities = ["0.13", "1"]
 Symbolics = "5-6"
 
-["0.16.2-0"]
+["0.16.2-0.21.2"]
 Accessors = "0.1"
 DiffEqCallbacks = "2-4"
 
 ["0.19.2-0.19"]
 SymbolicIndexingInterface = "0.3.34-0.3"
 
-["0.20-0"]
+["0.20-0.21.2"]
 SymbolicIndexingInterface = "0.3"
 
-["0.20.1-0"]
+["0.20.1-0.21.2"]
 Statistics = "1"
 
 ["0.20.6"]
@@ -78,13 +78,29 @@ MacroTools = "0.5.15-0.5"
 RuntimeGeneratedFunctions = "0.5.13-0.5"
 ThreadsX = "0.1.12-0.1"
 
+["0.21.3-0"]
+Accessors = "0.1.42-0.1"
+Catalyst = "14.4.1-14"
+DiffEqCallbacks = "4.3.0-4"
+DocStringExtensions = "0.9.3-0.9"
+DomainSets = "0.7.15-0.7"
+DynamicQuantities = "1"
+Graphs = "1.12.0-1"
+ModelingToolkit = "9.71.0-9"
+SciMLBase = "2.82.0-2"
+SciMLOperators = "0.3.13-0.3"
+Statistics = "1.10.0-1"
+SymbolicIndexingInterface = "0.3.38-0.3"
+Symbolics = "6.37.1-6"
+julia = "1.10.0-1"
+
 ["0.4.2-0.11"]
 Catalyst = "10-13"
 
 ["0.5-0.15"]
 Unitful = "1"
 
-["0.6-0"]
+["0.6-0.21.2"]
 Graphs = "1"
 
 ["0.6.0"]
