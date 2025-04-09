@@ -5,9 +5,7 @@ DSP = "0.8"
 DataInterpolations = "7"
 DocStringExtensions = "0.9.3-0.9"
 DrWatson = "2.18.0-2"
-Enzyme = "0.13.28-0.13"
 FFTW = "1.7.0-1"
-ForwardDiff = "0.10.35-0.10"
 Integrals = "4.5.0-4"
 LinearSolve = "3"
 NaNMath = "1.0.2-1"
@@ -17,13 +15,17 @@ Parameters = "0.12"
 ProgressMeter = "1.9.0-1"
 QuadGK = "2.10.0-2"
 Roots = "2.2.0-2"
-SciMLSensitivity = "7.70.0-7"
 StaticArrays = "1.9.9-1"
 UnPack = "1.0.2-1"
 julia = "1.10.0-1"
 
 ["0-0.2.0"]
 Statistics = "1.11.0-1"
+
+["0-0.2.1"]
+Enzyme = "0.13.28-0.13"
+ForwardDiff = "0.10.35-0.10"
+SciMLSensitivity = "7.70.0-7"
 
 ["0.2.1-0"]
 Statistics = "1.10.0-1"
