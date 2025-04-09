@@ -12,7 +12,6 @@ DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 FastTransformsForwardDiff = "77fa7db0-1c81-401d-9fde-3592fc42b8bc"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
-JET = "c3a54625-cd67-489e-a8e7-0a5a0ff4e31b"
 KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
@@ -21,7 +20,6 @@ LombScargle = "fc60dff9-86e7-5f2f-a8a0-edeadbb75bd9"
 Missings = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
 NaNStatistics = "b946abbf-3ea7-4610-9019-9858bfdeaf2d"
 NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
-PkgSkeleton = "d254efa0-af53-535e-b7f1-03c1c9fbcbe7"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Preferences = "21216c6a-2e73-6563-6e65-726566657250"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
@@ -36,6 +34,12 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
 
+["0-0.2.0"]
+JET = "c3a54625-cd67-489e-a8e7-0a5a0ff4e31b"
+PkgSkeleton = "d254efa0-af53-535e-b7f1-03c1c9fbcbe7"
+
 ["0.2-0"]
-Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 Romberg = "ff01fdde-158c-414c-948f-c94b4a236685"
+
+["0.2.0"]
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
