@@ -173,7 +173,6 @@ BandedMatrices = "1"
 BlockArrays = "1"
 ClimaComms = "0.6.2-0.6"
 DataStructures = "0.18.13-0.18"
-ForwardDiff = "0.10.15-0.10"
 GaussQuadrature = "0.5.8-0.5"
 HDF5 = "0.16.16-0.17"
 MultiBroadcastFusion = "0.3.1-0.4"
@@ -185,6 +184,9 @@ RecursiveArrayTools = "3.1.0-3"
 
 ["0.14.20-0.14.26"]
 Unrolled = "0.1.5-0.1"
+
+["0.14.20-0.14.29"]
+ForwardDiff = "0.10.15-0.10"
 
 ["0.14.23"]
 KrylovKit = "0.6-0.9"
@@ -201,6 +203,10 @@ NVTX = ["0.3", "1"]
 
 ["0.14.27-0"]
 UnrolledUtilities = "0.1.6-0.1"
+
+["0.14.30-0"]
+ForwardDiff = ["0.10.15-0.10", "1"]
+LazyBroadcast = "1"
 
 ["0.14.4-0.14.25"]
 NVTX = "0.3"
