@@ -1,14 +1,25 @@
 [1]
-ArchGDAL = "0.10.8-0.10"
-CSV = "0.10.15-0.10"
 DataFrames = "1.7.0-1"
 Downloads = "1"
-GeoInterface = "1.4.1-1"
 GeoJSON = "0.8"
 HTTP = "1.10.0-1"
-JSON = "0.21.4-0.21"
-Proj = "1.8.1-1"
-Shapefile = "0.13.2-0.13"
 TestItems = "1"
 ZipArchives = "2.4.0-2"
 julia = "1.10.0-1"
+
+["1.0.0"]
+ArchGDAL = "0.10.8-0.10"
+CSV = "0.10.15-0.10"
+GeoInterface = "1.4.1-1"
+JSON = "0.21.4-0.21"
+Proj = "1.8.1-1"
+Shapefile = "0.13.2-0.13"
+
+["1.0.1-1"]
+ArchGDAL = "0.10"
+CSV = "0.10"
+GeoInterface = "1.4.0-1"
+JSON = "0.21"
+Proj = "1.8.0-1"
+Shapefile = "0.13"
+SimpleSDMDatasets = "1"
