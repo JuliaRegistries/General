@@ -6,7 +6,6 @@ Dates = "1"
 DimensionalData = "0.29"
 DimensionfulAngles = "0.2.1-0.2"
 FFTW = "1"
-InteractiveViz = "0.6"
 Intervals = "1.10.0-1"
 InverseFunctions = "0.1"
 Latexify = "0.16"
@@ -18,7 +17,6 @@ RollingWindowArrays = "1.0.1-1"
 SignalAnalysis = "0.10"
 StaticArrays = "1"
 Statistics = "1"
-StructArrays = "0.7"
 TOML = "1"
 TimeseriesTools = "0.6"
 Tullio = "0.3"
@@ -28,6 +26,10 @@ julia = "1.10.0-1"
 
 ["0-0.1.0"]
 NaNMath = "1"
+
+["0-0.1.2"]
+InteractiveViz = "0.6"
+StructArrays = "0.7"
 
 ["0.1.1-0"]
 Accessors = "0.1"
