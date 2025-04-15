@@ -93,11 +93,11 @@ Roots = "1-2"
 ["1.12.2-1.16.4"]
 ColorSchemes = "2-3"
 
-["1.12.3-1"]
-ForwardDiff = "0.10"
-
 ["1.12.3-1.13.2"]
 PrettyTables = "1"
+
+["1.12.3-1.18.4"]
+ForwardDiff = "0.10"
 
 ["1.13.3-1"]
 PrettyTables = "1-2"
@@ -155,12 +155,14 @@ DiffEqCallbacks = "2-4"
 Optimization = "3-4"
 
 ["1.16.4-1"]
-DataInterpolations = "3-7"
 PreallocationTools = "0.4"
 Requires = "1"
 
 ["1.16.4-1.17"]
 BoundaryValueDiffEq = "3-5"
+
+["1.16.4-1.18.4"]
+DataInterpolations = "3-7"
 
 ["1.18-1"]
 BoundaryValueDiffEqShooting = "1"
@@ -178,6 +180,10 @@ Optim = "1-1.11"
 
 ["1.18.4-1"]
 Optim = "1"
+
+["1.18.5-1"]
+DataInterpolations = "3-8"
+ForwardDiff = ["0.10", "1"]
 
 ["1.2-1"]
 Combinatorics = "1"
