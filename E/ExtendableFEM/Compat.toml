@@ -1,10 +1,3 @@
-[0]
-CommonSolve = "0.2"
-DiffResults = "1"
-DocStringExtensions = "0.8-0.9"
-SparseDiffTools = "1.19.0-2"
-julia = "1.9.0-1"
-
 ["0-0.1"]
 ExtendableFEMBase = "0.1"
 
@@ -24,6 +17,13 @@ Requires = "1.3.0-1"
 ["0-0.9.0"]
 ForwardDiff = "0.10.35-0.10"
 Symbolics = "4.2.0-5"
+
+[0-1]
+CommonSolve = "0.2"
+DiffResults = "1"
+DocStringExtensions = "0.8-0.9"
+SparseDiffTools = "1.19.0-2"
+julia = "1.9.0-1"
 
 ["0.2"]
 ExtendableFEMBase = "0.2-0.3"
@@ -47,30 +47,35 @@ ExtendableSparse = "1.4.0-1"
 ["0.5-0.6"]
 ExtendableFEMBase = "0.6"
 
-["0.6-0"]
-LinearAlgebra = "1.9.0-1"
-Printf = "1.9.0-1"
-SciMLBase = "2.6.0-2"
-SparseArrays = "1.9.0-1"
-
 ["0.6-0.8"]
 ExtendableGrids = "1.9.2-1"
 ExtendableSparse = "1.5.1-1"
 GridVisualize = "1.7.0-1"
+
+["0.6-1"]
+LinearAlgebra = "1.9.0-1"
+Printf = "1.9.0-1"
+SciMLBase = "2.6.0-2"
+SparseArrays = "1.9.0-1"
 
 ["0.7-0.8.0"]
 ExtendableFEMBase = "0.7"
 
 ["0.8.1-0"]
 ExtendableFEMBase = "0.8"
+
+["0.8.1-1"]
 UnicodePlots = "3.6.5-3"
 
-["0.9-0"]
+["0.9-1"]
 ExtendableGrids = "1.10.3-1"
 ExtendableSparse = "1.5.3-1"
 GridVisualize = "1.8.1-1"
 LinearSolve = "2-3"
 
-["0.9.1-0"]
+["0.9.1-1"]
 ForwardDiff = ["0.10.35-0.10", "1"]
 Symbolics = "4.2.0-6"
+
+[1]
+ExtendableFEMBase = "1"
