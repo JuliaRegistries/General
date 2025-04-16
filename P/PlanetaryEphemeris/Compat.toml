@@ -1,6 +1,5 @@
 [0]
 Quadmath = "0.5"
-julia = "1.6.0-1"
 
 ["0-0.1"]
 TaylorSeries = "0.11"
@@ -14,6 +13,9 @@ DelimitedFiles = "1.6.0-1"
 
 ["0-0.7.4"]
 AutoHashEquals = "0.2"
+
+["0-0.8"]
+julia = "1.6.0-1"
 
 ["0.2"]
 TaylorSeries = "0.12"
@@ -61,14 +63,19 @@ TaylorSeries = "0.17"
 ["0.8-0.8.4"]
 TaylorIntegration = "0.15"
 
-["0.8.4-0"]
+["0.8.4-0.8"]
 TaylorSeries = "0.18"
 
 ["0.8.5"]
 TaylorIntegration = "0.15.3-0.15"
 
-["0.8.6-0"]
+["0.8.6-0.8"]
 TaylorIntegration = "0.16"
 
 ["0.8.7-0"]
 JLD2 = "0.5"
+
+["0.9-0"]
+TaylorIntegration = "0.17"
+TaylorSeries = "0.19"
+julia = "1.10.0-1"
