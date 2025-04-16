@@ -42,11 +42,15 @@ Markdown = ["0.0.0", "1"]
 Reexport = "1"
 Requires = "1"
 
-["0.15.3-0"]
+["0.15.3-0.16"]
 TaylorSeries = "0.18"
 
 ["0.16.2-0"]
 julia = "1.10.0-1"
+
+["0.17-0"]
+Parameters = "0.12"
+TaylorSeries = "0.19"
 
 ["0.5"]
 DiffEqBase = "5.0.0-6"
