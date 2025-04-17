@@ -158,23 +158,31 @@ LinearAlgebra = ["0.0.0", "1.6.0-1"]
 Random = ["0.0.0", "1.6.0-1"]
 SparseArrays = ["0.0.0", "1.6.0-1"]
 
-["0.25-0"]
+["0.25-0.26.0"]
+LazySets = "2.12.0-2"
+
+["0.25-0.27"]
 TaylorIntegration = "0.15"
 TaylorModels = "0.7"
 TaylorSeries = "0.17"
-
-["0.25-0.26.0"]
-LazySets = "2.12.0-2"
 
 ["0.26.1-0.26"]
 LazySets = "2.14.0-2"
 ReachabilityBase = "0.1-0.3"
 
+["0.27"]
+LazySets = "2.14.0-3"
+
 ["0.27-0"]
 CarlemanLinearization = "0.3-0.4"
 IntervalMatrices = "0.11"
-LazySets = "2.14.0-3"
 ReachabilityBase = "0.3.1-0.3"
+
+["0.28-0"]
+LazySets = "2.14.0-4"
+TaylorIntegration = "0.15-0.16"
+TaylorModels = "0.7-0.8"
+TaylorSeries = "0.17-0.18"
 
 ["0.3-0.12.0"]
 IntervalArithmetic = "0.16-0.17"
