@@ -48,10 +48,12 @@ KrylovKit = "0.5"
 
 ["0.2.8-0"]
 BenchmarkTools = ["0.5", "1"]
-julia = "1.6.0-1"
 
 ["0.2.8-0.2"]
 OrdinaryDiffEq = "5.47.0-6"
+
+["0.2.8-0.3.8"]
+julia = "1.6.0-1"
 
 ["0.3-0.3.3"]
 LinearSolve = "2.2.0-2"
@@ -72,8 +74,19 @@ RecursiveArrayTools = "2.2-2"
 OrdinaryDiffEq = "6.50.0-6"
 
 ["0.3.7-0"]
-LinearAlgebra = "1.6.0-1"
 RecursiveArrayTools = "2.2-3"
 
-["0.3.8-0"]
+["0.3.7-0.3.8"]
+LinearAlgebra = "1.6.0-1"
+
+["0.3.8"]
 OrdinaryDiffEq = "6.50-6.87"
+
+["0.3.9-0"]
+DiffEqBase = "6.167.2-6"
+LinearAlgebra = "1.10.0-1"
+MuladdMacro = "0.2.4-0.2"
+OrdinaryDiffEqCore = "1.22.0-1"
+OrdinaryDiffEqTsit5 = "1.1.0-1"
+SciMLBase = "2.84.0-2"
+julia = "1.10.0-1"
