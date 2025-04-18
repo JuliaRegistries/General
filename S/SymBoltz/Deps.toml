@@ -6,7 +6,6 @@ GraphRecipes = "bd48cda9-67a9-57be-86fa-5b3c104eda73"
 MatterPower = "743831d1-0e6a-4e86-a0c4-1a098a68aca3"
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
-NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
 OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 PeriodicTable = "7b2266bf-644c-5ea3-82d8-af4bbd25a884"
@@ -27,8 +26,17 @@ Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
+["0-0.3"]
+NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
+
 ["0.2.1-0"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["0.3-0"]
 SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
+
+["0.4-0"]
+Integrals = "de52edbc-65ea-441a-8357-d3a637375a31"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
+SciMLStructures = "53ae85a6-f571-4167-b2af-e1d143709226"

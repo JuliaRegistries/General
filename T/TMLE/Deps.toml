@@ -19,8 +19,10 @@ PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 Configurations = "5218b696-f38b-4ac9-8b61-a12ec717816d"
 
 ["0.11.2-0"]
-PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.11.2-0.18.0"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["0.12-0"]
 Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
@@ -37,6 +39,9 @@ SplitApplyCombine = "03a91e81-4c3e-53e1-a0a4-9c0c8f19dd66"
 AutoHashEquals = "15f4f7f2-30c1-5605-9d31-71845cf9641f"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 
+["0.18-0"]
+DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
+
 ["0.3-0"]
 HypothesisTests = "09f84164-cd44-5f33-b23f-e6b0d136a0d5"
 MLJModels = "d491faf4-2d78-11e9-2867-c94bc002c0b7"
@@ -48,7 +53,6 @@ TableOperations = "ab02a1b2-a7df-11e8-156e-fb1833f50b87"
 Missings = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
 
 ["0.8-0"]
-AbstractDifferentiation = "c29ec348-61ec-40c8-8164-b8c60e9d9f3d"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
@@ -56,3 +60,6 @@ Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0.8-0.11"]
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+
+["0.8-0.17"]
+AbstractDifferentiation = "c29ec348-61ec-40c8-8164-b8c60e9d9f3d"

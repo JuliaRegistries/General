@@ -61,13 +61,23 @@ TidierDB = ["0.1", "1"]
 TidierFiles = ["0.1", "1"]
 TidierPlots = ["0.7", "1"]
 
-["1.5-1"]
-TidierCats = ["0.2", "1"]
+["1.5"]
 TidierDB = ["0.6", "1"]
 TidierData = ["0.16", "1"]
 TidierDates = ["0.3", "1"]
 TidierFiles = ["0.2", "1"]
 TidierPlots = ["0.9", "1"]
+
+["1.5-1"]
+TidierCats = ["0.2", "1"]
 TidierStrings = ["0.3", "1"]
 TidierText = ["0.2", "1"]
 julia = "1.10.0-1"
+
+["1.6-1"]
+TidierDB = ["0.8", "1"]
+TidierData = ["0.17", "1"]
+TidierDates = ["0.4", "1"]
+TidierFiles = ["0.3", "1"]
+TidierIteration = "1"
+TidierPlots = ["0.11", "1"]

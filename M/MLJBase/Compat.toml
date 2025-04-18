@@ -201,7 +201,7 @@ Statistics = "1.6.0-1"
 ["0.19.4-0.21.11"]
 DelimitedFiles = "1.6.0-1"
 
-["0.19.4-1"]
+["0.19.4-1.7"]
 julia = "1.6.0-1"
 
 ["0.2.2-0.2"]
@@ -309,10 +309,12 @@ InvertedIndices = "1"
 ScientificTypes = "0.3"
 
 [1]
-LearnAPI = "0.1"
 Reexport = "1.2.0-1"
-StatisticalMeasures = "0.1.1-0.1"
 StatisticalMeasuresBase = "0.1.1-0.1"
+
+["1-1.7"]
+LearnAPI = "0.1"
+StatisticalMeasures = "0.1.1-0.1"
 
 ["1.0"]
 Statistics = "1.6.0-1"
@@ -328,3 +330,7 @@ StatisticalTraits = "3.3.0-3"
 ["1.6-1"]
 MLJModelInterface = "1.11.0-1"
 StatisticalTraits = "3.4.0-3"
+
+["1.8-1"]
+LearnAPI = "1"
+julia = "1.10.0-1"

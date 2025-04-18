@@ -23,9 +23,17 @@ ImplicitDifferentiation = "0.4.4"
 ImplicitDifferentiation = "0.5"
 
 ["0.2.1-0"]
-FrankWolfe = "0.3"
 LinearAlgebra = "1"
 
-["0.3-0"]
+["0.2.1-0.3"]
+FrankWolfe = "0.3"
+
+["0.3"]
 ImplicitDifferentiation = "0.6"
+
+["0.3-0"]
 julia = "1.10.0-1"
+
+["0.4-0"]
+FrankWolfe = "0.3-0.4"
+ImplicitDifferentiation = "0.7"

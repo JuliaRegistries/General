@@ -2,8 +2,10 @@
 LibCURL_jll = ["7.81.0-7", "8.0.1-8.6"]
 
 [7-8]
-JLLWrappers = "1.2.0-1"
 julia = "1.8.0-1"
+
+["7-8.11"]
+JLLWrappers = "1.2.0-1"
 
 ["7-8.6"]
 MbedTLS_jll = "2.28"
@@ -15,16 +17,23 @@ LibCURL_jll = "8.5.0-8.6"
 Artifacts = "1"
 Libdl = "1"
 
+["8.11"]
+OpenSSL_jll = "3.0.15-3"
+
 ["8.11-8"]
 Artifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
-OpenSSL_jll = "3.0.15-3"
 
 ["8.11.0"]
 LibCURL_jll = "8.11.0-8.11"
 
-["8.11.1-8"]
+["8.11.1-8.11"]
 LibCURL_jll = "8.11.1-8.11"
+
+["8.13-8"]
+JLLWrappers = "1.7.0-1"
+LibCURL_jll = "8.13.0-8"
+OpenSSL_jll = "3.0.16-3"
 
 ["8.6"]
 LibCURL_jll = "8.6.0-8.6"

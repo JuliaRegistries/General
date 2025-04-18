@@ -22,8 +22,6 @@ AMDGPU = "0.6-0.8"
 GeoParams = "0.5"
 
 ["0.1.2-0"]
-CellArrays = "0.2"
-ImplicitGlobalGrid = "0.15"
 StaticArrays = "1"
 Statistics = "1"
 
@@ -32,6 +30,10 @@ Adapt = "3"
 
 ["0.1.2-0.3.0"]
 ParallelStencil = "0.12"
+
+["0.1.2-0.4.0"]
+CellArrays = "0.2"
+ImplicitGlobalGrid = "0.15"
 
 ["0.2.1-0"]
 Adapt = "4"
@@ -42,10 +44,20 @@ GeoParams = "0.5-0.6"
 ["0.3"]
 JLD2 = "0.4"
 
-["0.3.1-0"]
+["0.3.1-0.4.0"]
 ParallelStencil = "0.12-0.13"
 
 ["0.4-0"]
-GeoParams = "0.6.4-0.6"
 JLD2 = "0.4-0.5"
 JustPIC = "0.5"
+
+["0.4.0"]
+GeoParams = "0.6.4-0.6"
+
+["0.4.1-0"]
+CellArrays = "0.2-0.3"
+Crayons = "4.1.1-4"
+GeoParams = "0.6.8-0.7"
+ImplicitGlobalGrid = "0.15-0.16"
+ParallelStencil = "0.13.6-0.14"
+TOML = "1.0.3-1"

@@ -1,10 +1,12 @@
 [0]
-ForwardDiff = "0.10"
 LinearMaps = "3"
-Zygote = "0.6"
 
 ["0-0.1"]
 Requires = "1"
+
+["0-0.2.2"]
+ForwardDiff = "0.10"
+Zygote = "0.6"
 
 ["0.1.1-0.1.7"]
 Enzyme = "0.11"
@@ -18,3 +20,7 @@ Enzyme = "0.11-0.12"
 ["0.2-0"]
 DifferentiationInterface = "0.5-0.6"
 Enzyme = "0.11-0.13"
+
+["0.2.3-0"]
+ForwardDiff = ["0.10", "1"]
+Zygote = "0.6-0.7"

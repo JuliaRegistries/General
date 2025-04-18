@@ -1,8 +1,10 @@
 [0]
-GeometryBasics = "0.4.1-0.4"
 Graphs = "1.4.1-1"
-MetaGraphs = "0.7.1-0.7"
 NetworkLayout = "0.4.3-0.4"
+
+["0-0.1.12"]
+GeometryBasics = "0.4.1-0.4"
+MetaGraphs = "0.7.1-0.7"
 
 ["0-0.1.2"]
 ITensors = "0.2.12-0.2"
@@ -16,11 +18,18 @@ Compat = "3.40.0-3"
 ["0.1.10-0.1.11"]
 ITensorMPS = "0.1-0.2"
 
+["0.1.12"]
+ITensors = "0.7"
+
 ["0.1.12-0"]
 ITensorMPS = "0.3"
-ITensors = "0.7"
 Statistics = "1.10.0-1"
 julia = "1.10.0-1"
+
+["0.1.13-0"]
+GeometryBasics = "0.4.1-0.5"
+ITensors = "0.7-0.9"
+MetaGraphs = "0.7.1-0.8"
 
 ["0.1.3-0.1.11"]
 julia = "1.6.0-1"

@@ -46,24 +46,26 @@ MacroTools = "0.5"
 ["0.11.18"]
 IsApprox = ["0.1", "1"]
 
-["0.11.18-0"]
+["0.11.18-0.13.0"]
 KrylovKit = "0.6-0.8"
 
 ["0.11.19-0"]
 IsApprox = ["0.1", "1-2"]
 
-["0.11.21-0"]
+["0.11.21-0.13.1"]
 SparseArrayKit = "0.3-0.4"
-
-["0.11.22-0"]
-ITensorMPS = "0.3"
 
 ["0.11.22-0.11.24"]
 ITensors = "0.7"
 
+["0.11.22-0.12"]
+ITensorMPS = "0.3"
+
 ["0.11.25-0"]
-ITensors = "0.7-0.8"
 NDTensors = "0.3-0.4"
+
+["0.11.25-0.13.1"]
+ITensors = "0.7-0.8"
 
 ["0.11.5-0.11.8"]
 ITensorMPS = "0.1"
@@ -72,6 +74,12 @@ ITensors = "0.4-0.6"
 ["0.11.9-0.11.21"]
 ITensorMPS = "0.2.2-0.2"
 ITensors = "0.6.8-0.6"
+
+["0.13.1-0"]
+KrylovKit = "0.6-0.9"
+
+["0.13.2-0"]
+ITensors = "0.7-0.9"
 
 ["0.2.2-0.3.1"]
 NamedGraphs = "0.1.8-0.1"
@@ -120,12 +128,14 @@ TupleTools = "1.4.0-1"
 
 ["0.4.1-0"]
 Dictionaries = "0.4"
-PackageExtensionCompat = "1"
 SerializedElementArrays = "0.1"
 StructWalk = "0.2"
 
 ["0.4.1-0.11.17"]
 IsApprox = "0.1"
+
+["0.4.1-0.12.1"]
+PackageExtensionCompat = "1"
 
 ["0.4.1-0.5"]
 NamedGraphs = "0.1.20-0.1"

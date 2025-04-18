@@ -1,7 +1,14 @@
 [0]
-ArrowMacros = "0.1"
 ForwardDiff = "0.10"
 julia = "1"
 
+["0-0.2"]
+ArrowMacros = "0.1"
+
 ["0.2.1-0.2.3"]
 Suppressor = "0.2"
+
+["0.3-0"]
+ArrowMacros = "0.1-0.2"
+FiniteDifferences = "0.12"
+RecipesBase = ["0.7-0.8", "1"]

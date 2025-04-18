@@ -8,11 +8,11 @@ ADTypes = "0.1"
 ["0-0.1.4"]
 AbstractDifferentiation = "0.5"
 
-["0.1.1-0"]
-FunctionChains = "0.1"
-
 ["0.1.1-0.1.5"]
 AffineMaps = "0.2"
+
+["0.1.1-0.2.1"]
+FunctionChains = "0.1"
 
 ["0.1.4-0.1.7"]
 ADTypes = "0.1-0.2"
@@ -21,11 +21,16 @@ ADTypes = "0.1-0.2"
 AbstractDifferentiation = "0.5-0.6"
 
 ["0.1.6-0"]
-AffineMaps = "0.2-0.3"
 LinearAlgebra = "1"
 
-["0.1.8-0"]
+["0.1.6-0.2.1"]
+AffineMaps = "0.2-0.3"
+
+["0.1.8-0.2.1"]
 ADTypes = ["0.1-0.2", "1"]
 
 ["0.2-0"]
 julia = "1.10.0-1"
+
+["0.2.2-0"]
+ADTypes = ["0.2", "1"]

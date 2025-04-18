@@ -1,5 +1,4 @@
 [0]
-ComputationalResources = "0.3"
 Distributions = "0.25"
 DistributionsAD = "0.6"
 MLUtils = "0.4"
@@ -34,6 +33,9 @@ ScientificTypes = "3"
 
 ["0-0.24"]
 LuxCore = "0.1"
+
+["0-0.26"]
+ComputationalResources = "0.3"
 
 ["0-0.26.0"]
 Zygote = "0.6"
@@ -98,10 +100,12 @@ AbstractDifferentiation = "0.6"
 Optimisers = "0.3"
 
 ["0.14.2-0"]
-Dates = "1"
 LinearAlgebra = "1"
 Random = "1"
 Statistics = "1"
+
+["0.14.2-0.26"]
+Dates = "1"
 
 ["0.16-0.22.3"]
 ComponentArrays = "0.15.5-0.15"
@@ -187,6 +191,9 @@ julia = "1.10.0-1"
 ["0.26.1-0"]
 Optimisers = "0.4"
 Zygote = "0.6-0.7"
+
+["0.27-0"]
+MLDataDevices = "1"
 
 ["0.6-0"]
 DataFrames = "1"

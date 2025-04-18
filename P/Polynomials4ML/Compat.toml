@@ -4,7 +4,6 @@ BenchmarkTools = "1"
 ChainRulesCore = "1"
 Combinatorics = "1"
 ForwardDiff = "0.10"
-LuxCore = "0.1.3-0.1"
 QuadGK = "2"
 SpecialFunctions = "2.2.0-2"
 StaticArrays = "1.5.0-1"
@@ -17,6 +16,9 @@ julia = "1.8.0-1"
 
 ["0-0.2.1"]
 ObjectPools = "0.2.1-0.2"
+
+["0-0.3.1"]
+LuxCore = "0.1.3-0.1"
 
 ["0.1.4-0"]
 HyperDualNumbers = "4.0.10-4"
@@ -39,12 +41,24 @@ SpheriCart = "0.0.3"
 ObjectPools = "0.3.1-0.3"
 
 ["0.3-0"]
+SpheriCart = "0.1.1-0.1"
+WithAlloc = "0.1"
+
+["0.3-0.3.1"]
 Bumper = "0.6"
 LinearAlgebra = "1.9.0-1"
 Printf = "1.9.0-1"
 Random = "1.9.0-1"
 SparseArrays = "1.9.0-1"
-SpheriCart = "0.1.1-0.1"
 Test = "1.9.0-1"
-WithAlloc = "0.1"
 julia = "1.9.0-1"
+
+["0.3.2-0"]
+Bumper = "0.7"
+LinearAlgebra = "1.10.0-1"
+LuxCore = "1.2.0-1"
+Printf = "1.10.0-1"
+Random = "1.10.0-1"
+SparseArrays = "1.10.0-1"
+Test = "1.10.0-1"
+julia = "1.10.0-1"

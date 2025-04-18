@@ -269,8 +269,6 @@ GPUCompiler = "0.26.5-0.26"
 LLVM = "7"
 
 [1]
-LLD_jll = "15-17"
-LLVM_jll = "15-17"
 julia = "1.10.0-1"
 
 ["1-1.0.1"]
@@ -281,6 +279,10 @@ LLVM = "8.1.0-8"
 UnsafeAtomics = "0.2"
 UnsafeAtomicsLLVM = "0.2"
 
+["1-1.2.3"]
+LLD_jll = "15-17"
+LLVM_jll = "15-17"
+
 ["1.0"]
 GPUArrays = "10"
 
@@ -290,11 +292,11 @@ LLVM = "9"
 ["1.0.2-1.0.4"]
 GPUCompiler = "0.27"
 
-["1.0.5-1"]
-GPUCompiler = ["0.27", "1"]
-
 ["1.0.5-1.0"]
 AcceleratedKernels = "0.1"
+
+["1.0.5-1.2.5"]
+GPUCompiler = ["0.27", "1"]
 
 ["1.1"]
 GPUArrays = "11.1.0-11"
@@ -315,5 +317,28 @@ GPUArrays = "11.2.0-11"
 ["1.2.2-1"]
 GPUArrays = "11.2.1-11"
 
-["1.2.3-1"]
+["1.2.3"]
 AcceleratedKernels = "0.3"
+
+["1.2.4"]
+GPUToolbox = "0.1"
+
+["1.2.4-1"]
+AcceleratedKernels = "0.3.1-0.3"
+
+["1.2.4-1.2.5"]
+LLD_jll = "15-18"
+LLVM_jll = "15-18"
+
+["1.2.5-1"]
+GPUToolbox = "0.1-0.2"
+
+["1.2.6"]
+GPUCompiler = "1.0.0-1.2.0"
+
+["1.2.6-1"]
+LLD_jll = "15-19"
+LLVM_jll = "15-19"
+
+["1.2.7-1"]
+GPUCompiler = "1"

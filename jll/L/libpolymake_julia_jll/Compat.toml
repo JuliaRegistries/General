@@ -64,12 +64,18 @@ Libdl = ["0.0.0", "1"]
 libcxxwrap_julia_jll = "0.13.2-0.13"
 polymake_jll = "400.1300.1-400.1300"
 
-["0.13.1-0"]
+["0.13.1"]
 FLINT_jll = "300.100.301-300.100"
+polymake_jll = "400.1300.2-400.1300"
+
+["0.13.1-0"]
 JLLWrappers = "1.7.0-1"
 julia = "1.6-1.13"
 libcxxwrap_julia_jll = "0.13.4-0.13"
-polymake_jll = "400.1300.2-400.1300"
+
+["0.13.2-0"]
+FLINT_jll = "300.200"
+polymake_jll = "400.1300.3-400.1300"
 
 ["0.2"]
 polymake_jll = "4.2.0"

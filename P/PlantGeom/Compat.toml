@@ -24,6 +24,11 @@ Colors = "0.12"
 ["0.10-0"]
 OrderedCollections = "1.7.0-1"
 
+["0.11-0"]
+Makie = "0.21-0.22"
+Meshes = "0.52-0.53"
+MultiScaleTreeGraph = "0.14.3-0.14"
+
 ["0.2"]
 MultiScaleTreeGraph = "0.3-0.4"
 
@@ -67,13 +72,17 @@ julia = "1.9.0-1"
 Meshes = "0.44"
 
 ["0.7-0"]
-MultiScaleTreeGraph = "0.14"
 Rotations = "1"
 Tables = "1"
 TransformsBase = "1"
 Unitful = "1.17.0-1"
 
+["0.7-0.10"]
+MultiScaleTreeGraph = "0.14"
+
 ["0.8-0"]
 Colors = "0.12-0.13"
+
+["0.8-0.10"]
 Makie = "0.21"
 Meshes = "0.52"
