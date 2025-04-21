@@ -70,11 +70,11 @@ CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 ["0.16.1-0"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
-["0.16.2-0"]
-DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
-
 ["0.16.2-0.27.4"]
 Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
+
+["0.16.2-0.29"]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 
 ["0.2-0"]
 Insolation = "e98cc03f-d57e-4e3c-b70c-8d51efe9e0d8"
@@ -113,7 +113,6 @@ NullBroadcasts = "0d71be07-595a-4f89-9529-4065a4ab43a6"
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 
 ["0.3-0"]
-FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
 SurfaceFluxes = "49b00bb7-8bd4-4f2b-b78c-51cd0450215f"
 
 ["0.3-0.16.2"]
@@ -127,6 +126,9 @@ Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0.3-0.29"]
+FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
 
 ["0.3-0.6"]
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
