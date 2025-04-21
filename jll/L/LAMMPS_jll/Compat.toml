@@ -11,8 +11,10 @@ MPItrampoline_jll = "2"
 LazyArtifacts = "1"
 
 ["2.2.2-2"]
-JLLWrappers = "1.4.0-1"
 MPIPreferences = "0.1"
+
+["2.2.2-2.7"]
+JLLWrappers = "1.4.0-1"
 
 ["2.2.3-2.2"]
 MPItrampoline_jll = "5"
@@ -38,3 +40,7 @@ libblastrampoline_jll = "5.4.0-5"
 
 ["2.7-2"]
 julia = "1.7.0-1"
+
+["2.8-2"]
+JLLWrappers = "1.7.0-1"
+MPICH_jll = "4.3.0-4"
