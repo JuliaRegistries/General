@@ -329,6 +329,9 @@ OrdinaryDiffEqDifferentiation = "1"
 OrdinaryDiffEqNonlinearSolve = "1"
 SciMLBase = "2.71.0-2"
 
+["6.76-6"]
+ForwardDiff = ["0.10.3-0.10", "1"]
+
 ["6.8-6.13"]
 ArrayInterface = "1.1.0-1"
 
@@ -336,7 +339,6 @@ ArrayInterface = "1.1.0-1"
 DiffEqBase = "5.20.0-5"
 
 ["6.9-6"]
-ForwardDiff = "0.10.3-0.10"
 MuladdMacro = "0.2.1-0.2"
 NLsolve = "4"
 
@@ -366,6 +368,9 @@ Reexport = "0.2"
 
 ["6.9-6.36"]
 RandomNumbers = "1"
+
+["6.9-6.75"]
+ForwardDiff = "0.10.3-0.10"
 
 ["6.9.0"]
 Parameters = "0.11"
