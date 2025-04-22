@@ -289,8 +289,6 @@ ClimaCore = "0.14.11-0.14"
 
 ["0.27.5-0"]
 AtmosphericProfilesLibrary = "0.1.7-0.1"
-DiffEqBase = "6.145.0-6"
-FastGaussQuadrature = ["0.5", "1"]
 Interpolations = "0.15.1-0.15"
 LazyArtifacts = "1"
 SciMLBase = "2.12.0-2"
@@ -309,6 +307,10 @@ ClimaComms = "0.6.4-0.6"
 ClimaDiagnostics = "0.2.4-0.2"
 ClimaUtilities = "0.1.14-0.1"
 RRTMGP = "0.19"
+
+["0.27.5-0.29"]
+DiffEqBase = "6.145.0-6"
+FastGaussQuadrature = ["0.5", "1"]
 
 ["0.27.6-0"]
 Thermodynamics = "0.12.8-0.12"
@@ -367,7 +369,7 @@ RRTMGP = "0.21"
 ["0.29-0"]
 CloudMicrophysics = "0.22.9-0.22"
 
-["0.29.1-0"]
+["0.29.1-0.29"]
 ClimaParams = "0.10.23-0.10"
 
 ["0.3"]
@@ -394,6 +396,9 @@ OperatorFlux = "0.1"
 
 ["0.3-0.8"]
 SurfaceFluxes = "0.4"
+
+["0.30-0"]
+ClimaParams = "0.10.27-0.10"
 
 ["0.4"]
 CloudMicrophysics = "0.8"
