@@ -1,7 +1,5 @@
 [0]
-CFTime = "0.1"
 DocStringExtensions = "0.9"
-julia = "1.9.0-1"
 
 ["0-0.1.7"]
 DataFrames = "1.5.0-1"
@@ -17,6 +15,10 @@ StatsBase = "0.33-0.34"
 ["0-0.1.9"]
 CategoricalArrays = "0.10"
 LoopVectorization = "0.12"
+
+["0-0.2.1"]
+CFTime = "0.1"
+julia = "1.9.0-1"
 
 ["0.1.10"]
 DiskArrays = "0.3"
@@ -41,10 +43,12 @@ NCDatasets = "0.12-0.13"
 
 ["0.1.8-0"]
 DataFrames = "1.6.0-1"
-PrecompileTools = "1.2.0-1"
 
 ["0.1.8-0.1.9"]
 Interpolations = "0.14-0.15"
+
+["0.1.8-0.2.1"]
+PrecompileTools = "1.2.0-1"
 
 ["0.1.9"]
 Ipaper = "0.1.13-0.1"
@@ -56,5 +60,11 @@ StatsBase = "0.34-0.35"
 ["0.2.0"]
 Ipaper = "0.1.16-0.2"
 
-["0.2.1-0"]
+["0.2.1"]
 Ipaper = "0.2"
+
+["0.2.2-0"]
+CFTime = "0.1-0.2"
+Ipaper = "0.2.5-0.2"
+PrecompileTools = "1"
+julia = "1"
