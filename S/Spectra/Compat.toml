@@ -20,17 +20,41 @@ Conda = "0.0.0-1"
 Polynomials = "0.0.0-1"
 
 ["0.4.2-1"]
-PyCall = "1.91.0-1"
 PyPlot = "2.8.1-2"
+
+["0.4.2-2"]
+PyCall = "1.91.0-1"
 
 [1]
 Conda = "1.10.0-1"
-Dierckx = "0.5.3-0.5"
-Distributions = "0.25.106-0.25"
 IJulia = "1.24.2-1"
 Ipopt = "1.6.0-1"
 JuMP = "1.18.1-1"
+StatsBase = "0.34.2-0.34"
+
+[1-2]
+Dierckx = "0.5.3-0.5"
+Distributions = "0.25.106-0.25"
 LsqFit = "0.15"
 Optim = "1.7.8-1"
 Polynomials = "4.0.6-4"
-StatsBase = "0.34.2-0.34"
+
+[2]
+Conda = "1.10.2-1"
+DSP = "0.8.3-0.8"
+DataInterpolations = "8"
+ForwardDiff = "0.10.38-0.10"
+LinearAlgebra = "1.10.0-1"
+Measurements = "2.12.0-2"
+Peaks = "0.5.3-0.5"
+Plots = "1.40.11-1"
+QHull = "0.2.6-0.2"
+Random = "1.10.0-1"
+RegularizationTools = "0.6"
+SavitzkyGolay = "0.9.1-0.9"
+SparseArrays = "1.10.0-1"
+SpecialFunctions = "2.5.0-2"
+Statistics = "1.10.0-1"
+StatsBase = "0.34.4-0.34"
+Test = "1.11.0-1"
+julia = "1.10.0-1"
