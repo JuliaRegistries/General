@@ -7,7 +7,6 @@ NNlib = "0.9"
 Reexport = "1"
 RuntimeGeneratedFunctions = "0.5"
 SparseArrays = "1"
-StableRNGs = "1"
 SymbolicUtils = "3"
 Symbolics = "6"
 
@@ -35,6 +34,9 @@ Integrals = "4"
 LuxCore = "1"
 julia = "1.10.0-1"
 
+["0 - 0.2.5"]
+StableRNGs = "1"
+
 ["0.1.1 - 0"]
 LinearAlgebra = "1"
 Random = "1"
@@ -54,8 +56,13 @@ CSV = "0.10"
 DataFrames = "1"
 HydroModelTools = "0.1"
 
-["0.2.4 - 0"]
+["0.2.4 - 0.2.5"]
 MLUtils = "0.4"
 
-["0.2.5 - 0"]
+["0.2.5"]
 HydroModelCore = "0.1"
+
+["0.2.6 - 0"]
+DataInterpolations = "8"
+OrdinaryDiffEq = "6.95.0 - 6"
+SciMLSensitivity = "7"
