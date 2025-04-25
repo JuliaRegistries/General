@@ -589,7 +589,7 @@ NonlinearSolve = "3.7.3-3"
 ["6.72-6.89"]
 SciMLBase = "2.27.1-2"
 
-["6.75-6"]
+["6.75-6.93"]
 ADTypes = ["0.2", "1"]
 
 ["6.76-6"]
@@ -644,7 +644,6 @@ OrdinaryDiffEqSymplecticRK = "1"
 OrdinaryDiffEqTsit5 = "1"
 OrdinaryDiffEqVerner = "1"
 PreallocationTools = "0.4"
-SparseDiffTools = "2"
 
 ["6.88-6.89"]
 NonlinearSolve = "3"
@@ -654,6 +653,9 @@ LinearSolve = "2"
 
 ["6.88-6.92"]
 DiffEqBase = "6.154.0-6"
+
+["6.88-6.93"]
+SparseDiffTools = "2"
 
 ["6.9-6.40"]
 RecursiveArrayTools = "2.26.3-2"
@@ -674,3 +676,6 @@ SciMLBase = "2.69.0-2"
 ["6.93-6"]
 DiffEqBase = "6.166.1-6"
 SciMLBase = "2.78.0-2"
+
+["6.94-6"]
+ADTypes = "1.13.0-1"

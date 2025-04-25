@@ -1,8 +1,10 @@
 [0]
-ForwardDiff = "0.10"
 StaticArrays = "1"
 UnPack = "1"
 julia = "1.7.0-1"
+
+["0-0.7.3"]
+ForwardDiff = "0.10"
 
 ["0.3"]
 BenchmarkTools = "1"
@@ -26,7 +28,7 @@ StructArrays = "0.6"
 ["0.5-0"]
 Adapt = "4"
 
-["0.6.5-0"]
+["0.6.5-0.7.3"]
 CartesianDomains = "0.1"
 
 ["0.7-0"]
@@ -36,3 +38,7 @@ StructArrays = "0.3-0.7"
 ["0.7.3-0"]
 Roots = "2.2.7-2"
 Unitful = "1.22.0-1"
+
+["0.7.4-0"]
+CartesianDomains = "0.1-0.2"
+ForwardDiff = ["0.10", "1"]
