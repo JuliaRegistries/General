@@ -399,9 +399,13 @@ GPUArrays = "10.3.0-10"
 GPUArrays = ["10.3.0-10", "11.2.2-11"]
 TimesDates = "0.3"
 
-["0.96.20-0"]
+["0.96.20"]
 Krylov = "0.9.10-0.9"
 KrylovPreconditioners = "0.3"
+
+["0.96.21-0"]
+Krylov = "0.10"
+KrylovPreconditioners = "0.3.2-0.3"
 
 ["0.96.4"]
 Reactant = "0.2.48-0.2"

@@ -147,7 +147,6 @@ NonlinearSolve = "3"
 SBMLImporter = "1"
 
 [3]
-Catalyst = "14"
 ComponentArrays = "0.15"
 Ipopt = "1"
 MCMCChains = "6"
@@ -157,7 +156,6 @@ OrdinaryDiffEqRosenbrock = "1"
 OrdinaryDiffEqSDIRK = "1"
 Plots = "1"
 PyCall = "1"
-SciMLSensitivity = "7.60.0-7"
 Setfield = "1.1.0-1"
 StyledStrings = "1"
 
@@ -171,6 +169,10 @@ Optimization = "3"
 ["3-3.3.0"]
 SBMLImporter = "2.4.0-2"
 
+["3-3.7"]
+Catalyst = "14"
+SciMLSensitivity = "7.60.0-7"
+
 ["3.2-3"]
 Distributed = "1"
 ModelingToolkit = "9.40.0-9"
@@ -179,7 +181,7 @@ ModelingToolkit = "9.40.0-9"
 DiffEqCallbacks = "4"
 Optimization = "4"
 
-["3.3.1-3"]
+["3.3.1-3.7"]
 SBMLImporter = "2.6.0-2"
 
 ["3.5.1-3"]
@@ -187,3 +189,7 @@ NonlinearSolve = "4"
 
 ["3.5.2-3"]
 Bijectors = ["0.13", "0.15"]
+
+["3.8-3"]
+Catalyst = "15"
+SBMLImporter = "3"
