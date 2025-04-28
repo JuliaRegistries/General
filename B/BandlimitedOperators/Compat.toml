@@ -2,5 +2,10 @@
 FINUFFT = "3.3.1 - 3"
 FastGaussQuadrature = "1.0.2 - 1"
 LinearAlgebra = "1.11.0 - 1"
-StaticArrays = "1.9.13 - 1"
 julia = "1"
+
+["0 - 0.1.1"]
+StaticArrays = "1.9.13 - 1"
+
+["0.1.2 - 0"]
+StaticArraysCore = "1.4.3 - 1"
