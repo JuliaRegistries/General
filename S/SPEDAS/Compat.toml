@@ -18,7 +18,6 @@ SignalAnalysis = "0.10"
 StaticArrays = "1"
 Statistics = "1"
 TOML = "1"
-TimeseriesTools = "0.6"
 Tullio = "0.3"
 Unitful = "1"
 UnitfulLatexify = "1.6.4-1"
@@ -31,11 +30,17 @@ NaNMath = "1"
 InteractiveViz = "0.6"
 StructArrays = "0.7"
 
+["0-0.1.4"]
+TimeseriesTools = "0.6"
+
 ["0.1.1-0"]
 Accessors = "0.1"
 NaNStatistics = "0.6"
 NamedTupleTools = "0.14.3-0.14"
 Reexport = "1"
 
-["0.1.2-0"]
+["0.1.2-0.1.4"]
 SpaceDataModel = "0.1"
+
+["0.1.6-0"]
+SpaceDataModel = "0.1.7-0.1"
