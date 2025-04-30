@@ -1,5 +1,4 @@
 [0]
-ForwardDiff = "0.10"
 julia = "1.6.0-1"
 
 ["0-0.3"]
@@ -18,6 +17,9 @@ DifferentialEquations = "7.1.0-7"
 
 ["0-0.4.3"]
 Reexport = "1.2.0-1"
+
+["0-0.5.2"]
+ForwardDiff = "0.10"
 
 ["0.3-0"]
 HypertextLiteral = "0.9"
@@ -58,3 +60,6 @@ Interpolations = "0.14-0.15"
 ["0.5-0"]
 ForwardDiffOverMeasurements = "0.1"
 Measurements = "2"
+
+["0.5.3-0"]
+ForwardDiff = ["0.10", "1"]
