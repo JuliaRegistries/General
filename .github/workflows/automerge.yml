@@ -24,6 +24,7 @@ env:
 
 jobs:
   AutoMerge:
+    name: "AutoMerge-${{ github.event.action }}"
     # Run if:
     # - not from a PR event
     # - or it is from a PR event AND it is not from a fork, AND either:
