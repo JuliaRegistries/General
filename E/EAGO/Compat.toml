@@ -104,7 +104,6 @@ Cbc = "1"
 ForwardDiff = "0.10"
 IntervalArithmetic = "0.20"
 IntervalContractors = "0.4"
-Ipopt = "1"
 MINLPTests = "0.5.2-0.5"
 MathOptInterface = "1"
 McCormick = "0.13"
@@ -118,6 +117,9 @@ julia = "1.6-1.7"
 
 ["0.7-0.8.0"]
 PrettyTables = "1"
+
+["0.7-0.8.2"]
+Ipopt = "1"
 
 ["0.7.0"]
 JuMP = "0.23"
@@ -140,3 +142,6 @@ PrettyTables = "2"
 
 ["0.8.2-0"]
 JuMP = "1.12.0-1"
+
+["0.8.3-0"]
+Ipopt = "1.10.0-1"
