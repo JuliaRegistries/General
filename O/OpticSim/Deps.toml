@@ -1,23 +1,28 @@
 [0]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MeshIO = "7269a6da-0436-5bbc-96c2-40638cbb6118"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+StringEncodings = "69024149-9ee7-55f6-a4c4-859efe599b68"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+["0-0.6"]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
 ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 ImageView = "86fae568-95e7-573e-a6b2-d8a6b900c9ef"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
-InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 Ipopt = "b6b21f68-93f8-5de0-b562-5493be1d77c9"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Luxor = "ae8d54c2-7ccd-5906-9d76-62fc9837b5bc"
 Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
-MeshIO = "7269a6da-0436-5bbc-96c2-40638cbb6118"
 NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
@@ -26,34 +31,41 @@ Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
 ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-StringEncodings = "69024149-9ee7-55f6-a4c4-859efe599b68"
-Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 ["0.4.1-0"]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.4.1-0.6"]
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
 Format = "1fa38f19-a742-5d3f-a2b9-30dd87b9d5f8"
 GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
 Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 WGLMakie = "276b4fcb-3e11-5398-bf8b-a0c2d153d008"
 
-["0.4.3-0"]
+["0.4.3-0.6"]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 
-["0.4.4-0"]
+["0.4.4-0.6"]
 Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 
 ["0.5.2-0"]
 GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
-JSServe = "824d6782-a2ef-11e9-3a09-e5662e0c26f9"
 LazySets = "b4f0291d-fe17-52bc-9479-3d1a343d9043"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.6-0"]
+["0.5.2-0.6"]
+JSServe = "824d6782-a2ef-11e9-3a09-e5662e0c26f9"
+
+["0.6"]
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
+
+["0.6-0"]
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0.7-0"]
+AGFFileReader = "36dd7d7d-c279-4b5c-a024-2ba417cea492"
+JET = "c3a54625-cd67-489e-a8e7-0a5a0ff4e31b"
