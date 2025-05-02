@@ -14,7 +14,7 @@ julia = "1"
 ["0.3-0.3.8"]
 ArgCheck = "0.0.0-1"
 
-["0.3.10-0"]
+["0.3.10-1"]
 ArgCheck = "1-2"
 
 ["0.3.11-0.6"]
@@ -42,27 +42,30 @@ UnPack = "1"
 ChangesOfVariables = "0.1"
 InverseFunctions = "0.1"
 
-["0.6.1-0"]
+["0.6.1-1"]
 LogExpFunctions = "0.3"
 
-["0.6.2-0"]
+["0.6.2-1"]
 DocStringExtensions = "0.8-0.9"
 
 ["0.7-0.8.11"]
 julia = "1.6.0-1"
 
-["0.8-0"]
+["0.8-1"]
 StaticArrays = "1"
 
-["0.8.12-0"]
+["0.8.12-1"]
 julia = "1.10.0-1"
 
-["0.8.15-0"]
+["0.8.15-1"]
 ForwardDiff = ["0.10", "1"]
 
 ["0.8.7-0.8.11"]
 SimpleUnPack = "1"
 
-["0.8.9-0"]
+["0.8.9-1"]
 LinearAlgebra = "1.6.0-1"
 Random = "1.6.0-1"
+
+[1]
+CompositionsBase = "0.1.2-0.1"
