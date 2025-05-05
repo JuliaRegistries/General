@@ -84,11 +84,13 @@ MLDataDevices = "1.0.1-1"
 Lux = "0.5.65-0.5"
 
 ["0.3.12-1"]
-Compat = "4.15.0-4"
 WeightInitializers = "1"
 
 ["0.3.12-1.0.1"]
 Artifacts = "1.10.0-1"
+
+["0.3.12-1.4"]
+Compat = "4.15.0-4"
 
 ["0.3.2"]
 GPUArraysCore = "0.1"
@@ -125,13 +127,15 @@ WeightInitializers = "0.1.7-0.1"
 
 ["0.3.4-1"]
 ArgCheck = "2.3.0-2"
-ChainRulesCore = "1.24.0-1"
 ConcreteStructs = "0.2.3-0.2"
 LazyArtifacts = "1.10.0-1"
 Random = "1.10.0-1"
 Reexport = "1.2.2-1"
 Statistics = "1.10.0-1"
 julia = "1.10.0-1"
+
+["0.3.4-1.4"]
+ChainRulesCore = "1.24.0-1"
 
 ["0.3.6-0.3.10"]
 ADTypes = "1.3.0-1"
@@ -146,7 +150,6 @@ Markdown = "1.10.0-1"
 Lux = "0.5.66-0.5"
 
 [1]
-LuxCore = "1"
 Static = "1.1.1-1"
 
 ["1-1.0.1"]
@@ -156,15 +159,20 @@ MLDataDevices = "1.1.0-1"
 ["1-1.0.2"]
 Functors = "0.4.12-0.4"
 
+["1-1.4"]
+LuxCore = "1"
+
 ["1.0.2-1"]
-ADTypes = "1.9.0-1"
 Artifacts = "1"
+
+["1.0.2-1.4"]
+ADTypes = "1.9.0-1"
 GPUArraysCore = "0.1.6-0.2"
 Lux = "1.2.0-1"
 MLDataDevices = "1.5.0-1"
 NNlib = "0.9.24-0.9"
 
-["1.0.3-1"]
+["1.0.3-1.4"]
 Functors = "0.4.12-0.5"
 
 ["1.3-1"]
@@ -174,3 +182,13 @@ Setfield = "1.1.2-1"
 
 ["1.4.1-1"]
 ForwardDiff = ["0.10.36-0.10", "1"]
+
+["1.5-1"]
+ADTypes = "1.10.0-1"
+ChainRulesCore = "1.25.0-1"
+Compat = "4.16.0-4"
+Functors = "0.5"
+Lux = "1.12.0-1"
+LuxCore = "1.2.0-1"
+MLDataDevices = "1.6.10-1"
+NNlib = "0.9.26-0.9"
