@@ -1,27 +1,29 @@
 [0]
 BitFlags = "0.1"
-CBinding = "1"
 CImGui = "1.82.0"
-CSyntax = "0.4"
-DataStructures = "0.18.15-0.18"
 GLFW = "3.4.1"
 JSON3 = "1.14.0-1"
 LibCImGui = "1.82.2"
-MacroTools = "0.5.12-0.5"
 NamedTupleTools = "0.14"
 Setfield = "1.1.0-1"
+
+["0-0.1.0"]
+BplusCore = "0.1.0"
+
+["0-0.2"]
+CBinding = "1"
+CSyntax = "0.4"
+DataStructures = "0.18.15-0.18"
+MacroTools = "0.5.12-0.5"
 StaticArrays = "1.8.0-1"
 StructTypes = "1.10.0-1"
 TupleTools = "1.4.0-1"
 julia = "1.9.0-1"
 
-["0-0.1.0"]
-BplusCore = "0.1.0"
-
 ["0.1.1-0.1"]
 BplusCore = "0.1"
 
-["0.2-0"]
+["0.2"]
 ColorTypes = "0.11.4-0.11"
 FileIO = "1.16.3-1"
 FixedPointNumbers = "0.8.4-0.8"
@@ -30,5 +32,22 @@ ImageIO = "0.6.7-0.6"
 ["0.2.0"]
 BplusCore = "0.2"
 
-["0.2.1-0"]
+["0.2.1-0.2"]
 BplusCore = "0.2.1-0.2"
+
+["0.3-0"]
+BplusCore = "0.3"
+CBinding = "1.1.0-1"
+CSyntax = "0.4.1-0.4"
+ColorTypes = "0.12"
+DataStructures = "0.18"
+Dates = "1.11.0-1"
+FileIO = "1.17.0-1"
+FixedPointNumbers = "0.8"
+ImageIO = "0.6"
+InteractiveUtils = "1.11.0-1"
+MacroTools = "0.5.16-0.5"
+StaticArrays = "1.9.0-1"
+StructTypes = "1.11.0-1"
+TupleTools = "1.6.0-1"
+julia = "1.11.0-1"
