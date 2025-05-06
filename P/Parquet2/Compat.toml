@@ -3,7 +3,6 @@ DataAPI = "1"
 DecFP = "1"
 FilePathsBase = "0.9"
 JSON3 = "1"
-LightBSON = "0.2"
 OrderedCollections = "1"
 PooledArrays = "1"
 SentinelArrays = "1"
@@ -39,6 +38,9 @@ CodecZstd = "0.7"
 CodecZlib = "0.7"
 Tables = "1.7.0-1"
 
+["0 - 0.2.29"]
+LightBSON = "0.2"
+
 ["0.1.1 - 0.2.27"]
 Snappy = "0.3-0.4"
 
@@ -50,6 +52,8 @@ AbstractTrees = "0.3-0.4"
 
 ["0.2.12 - 0"]
 FillArrays = ["0.13", "1"]
+
+["0.2.12 - 0.2.29"]
 LazyArrays = ["0.22", "1"]
 
 ["0.2.14 - 0"]
@@ -83,6 +87,10 @@ ChunkCodecLibZlib = "0.1.2 - 0.1"
 ChunkCodecLibZstd = "0.1.2 - 0.1"
 Tables = "1.7.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.2.30 - 0"]
+LazyArrays = ["0.22", "1 - 2"]
+LightBSON = ["0.2", "1"]
 
 ["0.2.9 - 0.2.13"]
 SnoopPrecompile = "1"
