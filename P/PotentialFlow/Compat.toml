@@ -44,6 +44,10 @@ SchwarzChristoffel = "0.1.7-0.1"
 ["0.2-0.2.8"]
 MappedArrays = "0.3"
 
+["0.2.12-0"]
+ColorTypes = "0.10-0.12"
+ForwardDiff = ["0.10", "1"]
+
 ["0.2.4"]
 ForwardDiff = "0.10.12-0.10.19"
 
@@ -51,8 +55,10 @@ ForwardDiff = "0.10.12-0.10.19"
 DocStringExtensions = "0.8"
 
 ["0.2.5-0"]
-ColorTypes = "0.10-0.11"
 Reexport = ["0.2", "1"]
+
+["0.2.5-0.2.11"]
+ColorTypes = "0.10-0.11"
 
 ["0.2.5-0.2.8"]
 ForwardDiff = "0.0.0-0.10.19"
@@ -76,7 +82,9 @@ julia = "1.6.0-1"
 UnPack = "1"
 
 ["0.2.9-0"]
-ForwardDiff = "0.10"
 Interpolations = "0.12.10-0.15"
 MappedArrays = "0.3-0.4"
 julia = "1.8.0-1"
+
+["0.2.9-0.2.11"]
+ForwardDiff = "0.10"
