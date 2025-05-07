@@ -30,9 +30,14 @@ LazyArtifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
 TOML = ["0.0.0", "1"]
 
-["0.16-0"]
+["0.16"]
 CUDA_Driver_jll = "0.12"
+
+["0.16-0"]
 JLLWrappers = "1.7.0-1"
+
+["0.17-0"]
+CUDA_Driver_jll = "0.13"
 
 ["0.2.0"]
 CUDA_Driver_jll = "0.1-0.2"
