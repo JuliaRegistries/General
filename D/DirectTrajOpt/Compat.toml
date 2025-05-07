@@ -5,7 +5,6 @@ Ipopt = "1.7.0-1"
 JLD2 = "0.5"
 Libdl = "1.10.0-1"
 LinearAlgebra = "1.10.0-1"
-MathOptInterface = "1.36.0-1"
 NamedTrajectories = "0.3"
 Reexport = "1.2.0-1"
 SparseArrays = "1.10.0-1"
@@ -18,5 +17,11 @@ julia = "1.10.0-1"
 ["0-0.2.1"]
 ForwardDiff = "0.10"
 
+["0-0.2.2"]
+MathOptInterface = "1.36.0-1"
+
 ["0.2.2-0"]
 ForwardDiff = "1"
+
+["0.2.3-0"]
+MathOptInterface = "1.38.0-1"
