@@ -171,6 +171,8 @@ LowLevelParticleFilters = "2"
 
 ["2.10-2"]
 ChainRules = "1.58.0-1"
+
+["2.10-2.11.5"]
 ForwardDiffChainRules = "0.2.1-0.2"
 
 ["2.11-2"]
@@ -178,6 +180,10 @@ julia = "1.10.0-1"
 
 ["2.11.1-2"]
 DSP = "0.8"
+
+["2.11.6-2"]
+ForwardDiff = ["0.10", "1"]
+ForwardDiffChainRules = "0.2.1-0.3"
 
 ["2.2.3-2.2.4"]
 ControlSystems = "0.11.12-0.12"
@@ -188,7 +194,7 @@ TotalLeastSquares = "1.7.2-1"
 ["2.2.5"]
 ControlSystems = "0.12.7-0.12"
 
-["2.2.5-2"]
+["2.2.5-2.11.5"]
 ForwardDiff = "0.10"
 
 ["2.2.5-2.6.1"]
