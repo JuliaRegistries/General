@@ -18,7 +18,6 @@ FITSIO = "0.16"
 
 ["0.3-0"]
 AbstractFFTs = "1.1.0-1"
-AstroAngles = "0.1"
 ColorSchemes = "3.18.0-3"
 ImageAxes = "0.6"
 ImageBase = "0.1.5-0.1"
@@ -34,6 +33,9 @@ julia = "1.6.0-1"
 
 ["0.3-0.4.1"]
 Statistics = "1.6.0-1"
+
+["0.3-0.5.0"]
+AstroAngles = "0.1"
 
 ["0.3.0"]
 FileIO = "1.14.0-1"
@@ -58,6 +60,12 @@ PrecompileTools = "1"
 DimensionalData = "0.23-0.24"
 
 ["0.5-0"]
-DimensionalData = "0.27"
 Statistics = "1"
 julia = "1.9.0-1"
+
+["0.5.0"]
+DimensionalData = "0.27"
+
+["0.5.1-0"]
+AstroAngles = "0.1-0.2"
+DimensionalData = ["0.27", "0.29"]
