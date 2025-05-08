@@ -31,10 +31,12 @@ FLoops = "0.2"
 OrdinaryDiffEq = "6"
 
 ["0.2.14-0"]
-AtomsIO = "0.2"
 JSON3 = "1"
 Unitful = "1"
 UnitfulAtomic = "1"
+
+["0.2.14-0.2.28"]
+AtomsIO = "0.2"
 
 ["0.2.15-0"]
 PrecompileTools = "1"
@@ -50,11 +52,20 @@ Statistics = "1"
 ["0.2.2-0.2.27"]
 ITensors = "0.6"
 
+["0.2.28"]
+ITensors = "0.7"
+
 ["0.2.28-0"]
 ITensorMPS = "0.3"
-ITensors = "0.7"
 Printf = "1.10.0-1"
 julia = "1.11.0-1"
+
+["0.2.29-0"]
+AtomsIO = "0.3"
+FFTW = "1.8.1-1"
+ITensors = "0.9"
+TestItemRunner = "1.1.0-1"
+TestItems = "1"
 
 ["0.2.3-0.2.27"]
 ITensorMPS = "0.2.1-0.2"
