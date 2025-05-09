@@ -7,12 +7,12 @@ julia = "1.6.0-1"
 ["22-22.7"]
 CUTENSOR_jll = "1.6"
 
-[22-24]
-julia = "1.6.0-1"
-
 ["22-24.3"]
 JLLWrappers = "1.4.0-1"
 LazyArtifacts = "1"
+
+[22-25]
+julia = "1.6.0-1"
 
 ["23-23.6"]
 CUTENSOR_jll = "1.6.1-1"
@@ -28,9 +28,12 @@ TOML = "1"
 [24]
 CUTENSOR_jll = "2"
 
-["24.11-24"]
+["24.11-25"]
 Artifacts = ["0.0.0", "1"]
 JLLWrappers = "1.7.0-1"
 LazyArtifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
 TOML = ["0.0.0", "1"]
+
+[25]
+CUTENSOR_jll = "2.2.0-2"
