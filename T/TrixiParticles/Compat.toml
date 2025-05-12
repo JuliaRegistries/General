@@ -9,7 +9,6 @@ RecipesBase = "1"
 Reexport = "1"
 StaticArrays = "1"
 StrideArrays = "0.1"
-WriteVTK = "1"
 
 ["0-0.1.1"]
 Morton = "0.1"
@@ -17,6 +16,9 @@ ThreadingUtilities = "0.5"
 
 ["0-0.1.2"]
 TrixiBase = "0.1"
+
+["0-0.2"]
+WriteVTK = "1"
 
 ["0-0.2.0"]
 Polyester = "0.7.5-0.7"
@@ -72,5 +74,12 @@ julia = "1.10.0-1"
 PointNeighbors = "0.4.7-0.4"
 
 ["0.2.7-0"]
-PointNeighbors = "0.4.8-0.4"
 TrixiBase = "0.1.5-0.1"
+
+["0.2.7-0.2"]
+PointNeighbors = "0.4.8-0.4"
+
+["0.3-0"]
+PointNeighbors = "0.6.1-0.6"
+ReadVTK = "0.2"
+WriteVTK = "1.21.2-1"
