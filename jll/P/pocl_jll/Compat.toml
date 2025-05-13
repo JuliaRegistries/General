@@ -1,5 +1,7 @@
 [6]
 LazyArtifacts = ["0.0.0", "1"]
+
+[6-7]
 julia = "1.6.0-1"
 
 ["6.0.0"]
@@ -9,7 +11,12 @@ Libdl = "1"
 TOML = "1"
 
 ["6.0.1-6"]
+TOML = ["0.0.0", "1"]
+
+["6.0.1-7"]
 Artifacts = ["0.0.0", "1"]
 JLLWrappers = "1.7.0-1"
 Libdl = ["0.0.0", "1"]
-TOML = ["0.0.0", "1"]
+
+[7]
+SPIRV_LLVM_Translator_jll = "20.1.0-20"
