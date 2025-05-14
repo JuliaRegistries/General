@@ -269,7 +269,7 @@ LLVM = "5"
 ["4.2-4"]
 CUDA_Runtime_jll = "0.6"
 
-["4.2-5"]
+["4.2-5.7"]
 KernelAbstractions = "0.9.2-0.9"
 
 ["4.3"]
@@ -372,9 +372,11 @@ GPUArrays = "11.1.0-11"
 ["5.6.1-5"]
 GPUArrays = "11.2.1-11"
 
-["5.7-5"]
+["5.7"]
 CUDA_Driver_jll = "0.12"
 CUDA_Runtime_jll = "0.16"
+
+["5.7-5"]
 NVTX = "1"
 julia = "1.10.0-1"
 
@@ -386,3 +388,8 @@ GPUToolbox = "0.1-0.2"
 
 ["5.7.3-5"]
 GPUToolbox = "0.2"
+
+["5.8-5"]
+CUDA_Driver_jll = "0.13"
+CUDA_Runtime_jll = "0.17"
+KernelAbstractions = "0.9.32-0.9"
