@@ -1,5 +1,4 @@
 [0]
-DSP = "0.7"
 DataFrames = "1"
 Distributions = "0.25"
 ImageFiltering = "0.7"
@@ -17,6 +16,9 @@ SignalAnalysis = "0.4"
 ["0-0.1.5"]
 StatsModels = "0.6"
 
+["0-0.4.0"]
+DSP = "0.7"
+
 ["0.1.2-0"]
 ToeplitzMatrices = "0.7-0.8"
 
@@ -24,8 +26,10 @@ ToeplitzMatrices = "0.7-0.8"
 SignalAnalysis = "0.4-0.5"
 
 ["0.1.6-0"]
-SignalAnalysis = "0.4-0.6"
 StatsModels = "0.6-0.7"
+
+["0.1.6-0.4.0"]
+SignalAnalysis = "0.4-0.6"
 
 ["0.1.7-0"]
 Artifacts = "1"
@@ -34,3 +38,7 @@ HDF5 = "0.17"
 LinearAlgebra = "1"
 Random = "1"
 Statistics = "1"
+
+["0.4.1-0"]
+DSP = "0.7-0.8"
+SignalAnalysis = "0.4-0.10"
