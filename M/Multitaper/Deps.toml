@@ -1,12 +1,19 @@
 [0]
+NFFT = "efe261a4-0d2b-5849-be55-fc731d526b0d"
+
+[0-1]
 Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-NFFT = "efe261a4-0d2b-5849-be55-fc731d526b0d"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
+
+[1]
+Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
+FINUFFT = "d8beea63-0952-562e-9c6a-8e8ef7364055"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
