@@ -1,5 +1,4 @@
 [0]
-Colors = "0.10-0.12"
 julia = "1.6.0-1"
 
 ["0-0.1"]
@@ -21,19 +20,22 @@ Interpolations = "0.12-0.13"
 ["0-0.5.9"]
 LoopVectorization = "0.11-0.12"
 
+["0-0.6.15"]
+Colors = "0.10-0.12"
+
 ["0.2.1"]
 NaNStatistics = "0.3-0.4"
 
 ["0.2.2-0.3.2"]
 NaNStatistics = "0.3-0.5"
 
-["0.2.3-0"]
-IndirectArrays = ["0.5", "1"]
-
 ["0.2.3-0.5.9"]
 VectorizationBase = "0.18-0.21"
 
-["0.2.4-0"]
+["0.2.3-0.6.15"]
+IndirectArrays = ["0.5", "1"]
+
+["0.2.4-0.6.15"]
 SpecialFunctions = ["0.5-0.10", "1-2"]
 
 ["0.2.7"]
@@ -53,3 +55,8 @@ DelimitedFiles = "1"
 
 ["0.6.12-0"]
 NaNStatistics = "0.6.44-0.6"
+
+["0.6.16-0"]
+Colors = "0.10-0.13"
+IndirectArrays = "1"
+SpecialFunctions = "1-2"
