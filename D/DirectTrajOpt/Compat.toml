@@ -1,7 +1,6 @@
 [0]
 ExponentialAction = "0.2"
 FiniteDiff = "2.27.0-2"
-Ipopt = "1.7.0-1"
 JLD2 = "0.5"
 Libdl = "1.10.0-1"
 LinearAlgebra = "1.10.0-1"
@@ -20,11 +19,18 @@ ForwardDiff = "0.10"
 ["0-0.2.2"]
 MathOptInterface = "1.36.0-1"
 
+["0-0.2.4"]
+Ipopt = "1.7.0-1"
+
 ["0.2.2-0.2.3"]
 ForwardDiff = "1"
 
-["0.2.3-0"]
+["0.2.3-0.2.4"]
 MathOptInterface = "1.38.0-1"
 
 ["0.2.4-0"]
 ForwardDiff = ["0.10", "1"]
+
+["0.2.5-0"]
+Ipopt = "1.10.0-1"
+MathOptInterface = "1.40.0-1"
