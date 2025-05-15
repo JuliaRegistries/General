@@ -20,8 +20,11 @@ ForwardDiff = "0.10"
 ["0-0.2.2"]
 MathOptInterface = "1.36.0-1"
 
-["0.2.2-0"]
+["0.2.2-0.2.3"]
 ForwardDiff = "1"
 
 ["0.2.3-0"]
 MathOptInterface = "1.38.0-1"
+
+["0.2.4-0"]
+ForwardDiff = ["0.10", "1"]
