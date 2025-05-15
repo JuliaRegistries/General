@@ -81,6 +81,9 @@ DimensionalData = "0.27-0.28"
 ["0.11.1-0.11.7"]
 DimensionalData = "0.27-0.29"
 
+["0.11.12-0"]
+HypercubeTransform = "0.4.4-0.4"
+
 ["0.11.3-0"]
 StructArrays = "0.5-0.7"
 
@@ -96,8 +99,10 @@ ComradeBase = "0.2"
 
 ["0.2-0"]
 ChainRulesCore = "1"
-ForwardDiff = "0.9-0.10"
 Reexport = "1"
+
+["0.2-0.11.11"]
+ForwardDiff = "0.9-0.10"
 
 ["0.2-0.3"]
 MeasureTheory = "0.13"
@@ -283,9 +288,11 @@ Enzyme = "0.11"
 julia = "1.8.0-1"
 
 ["0.9-0"]
-HypercubeTransform = "0.4"
 PolarizedTypes = "0.1"
 Statistics = "1.8.0-1"
+
+["0.9-0.11.11"]
+HypercubeTransform = "0.4"
 
 ["0.9.0"]
 ComradeBase = "0.5"
