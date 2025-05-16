@@ -11,7 +11,7 @@ DataStructures = "0.18.13-0.18"
 ["0.0"]
 Catlab = "0.15"
 
-["0.1-0"]
+["0.1"]
 Catlab = "0.15-0.16"
 
 ["0.1.1-0"]
@@ -26,11 +26,13 @@ ACSets = "0.2"
 ["0.1.8-0"]
 Colors = "0.12.11-0.13"
 DataStructures = "0.18.20-0.18"
-LinearAlgebra = "1.10.8-1"
 Reexport = "1.2.2-1"
-StatsBase = "0.34.4-0.34"
 StructEquality = "2.1.0-2"
 SymbolicUtils = "3.1.2-3"
+
+["0.1.8-0.1"]
+LinearAlgebra = "1.10.8-1"
+StatsBase = "0.34.4-0.34"
 
 ["0.1.8-0.1.9"]
 ColorSchemeTools = "1.6.0-1"
@@ -38,3 +40,9 @@ ColorSchemes = "3.28.0-3"
 
 ["0.1.9-0"]
 ACSets = ["0.2-0.2.21", "0.2.23-0.2"]
+
+["0.2-0"]
+Catlab = "0.16.20-0.16"
+LinearAlgebra = "1.10.0-1"
+PEG = "1"
+StatsBase = "0.34"
