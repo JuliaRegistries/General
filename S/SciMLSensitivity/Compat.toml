@@ -1,7 +1,6 @@
 [7]
 ChainRulesCore = ["0.10.7-0.10", "1"]
 FiniteDiff = "2"
-ForwardDiff = "0.10"
 RandomNumbers = "1.5.3-1"
 
 ["7-7.13"]
@@ -56,6 +55,9 @@ Parameters = "0.12"
 
 ["7-7.69"]
 GPUArraysCore = "0.1"
+
+["7-7.79"]
+ForwardDiff = "0.10"
 
 ["7.0"]
 DiffEqBase = "6.90.0-6"
@@ -299,8 +301,11 @@ SciMLBase = "2.79.0-2"
 ["7.78-7"]
 OrdinaryDiffEqCore = "1"
 
-["7.79-7"]
+["7.79"]
 SciMLOperators = "0.3-0.4"
+
+["7.80-7"]
+ForwardDiff = ["0.10", "1"]
 
 ["7.9-7"]
 PreallocationTools = "0.4.4-0.4"
