@@ -1,10 +1,10 @@
-[0]
-julia = "1.9.0-1"
-
 ["0-0.1.1"]
 BplusApp = "0.1.1"
 BplusCore = "0.1.1"
 BplusTools = "0.1.0"
+
+["0-0.2"]
+julia = "1.9.0-1"
 
 ["0.1.2-0.1"]
 BplusApp = "0.1.1-0.1"
@@ -16,7 +16,13 @@ BplusApp = "0.2"
 BplusCore = "0.2"
 BplusTools = "0.2"
 
-["0.2.1-0"]
+["0.2.1-0.2"]
 BplusApp = "0.2.1-0.2"
 BplusCore = "0.2.1-0.2"
 BplusTools = "0.2.1-0.2"
+
+["0.3-0"]
+BplusApp = "0.3"
+BplusCore = "0.3.1-0.3"
+BplusTools = "0.3"
+julia = "1.11.0-1"

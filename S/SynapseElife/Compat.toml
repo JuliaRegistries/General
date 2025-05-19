@@ -3,9 +3,7 @@ DataFrames = "1.6.0-1"
 Distributions = "0.25"
 DocStringExtensions = "0.8-0.9"
 LabelledArrays = "1.14.0-1"
-LazySets = "2"
 Parameters = "0.12"
-Plots = "1.39.0-1"
 ProgressMeter = "1.9.0-1"
 StaticArrays = "1.6.0-1"
 
@@ -18,11 +16,27 @@ StatsBase = "0.33"
 ["0-0.0.2"]
 julia = "1.8.0-1"
 
+["0-0.0.3"]
+LazySets = "2"
+Plots = "1.39.0-1"
+
 ["0.0.2-0"]
-Catalyst = "10.4.2-13"
-PiecewiseDeterministicMarkovProcesses = ["0.0.4-0.0.5", "0.0.7-0.0.8"]
 RecursiveArrayTools = "2.8.0-3"
 StatsBase = "0.33-0.34"
 
+["0.0.2-0.0.3"]
+Catalyst = "10.4.2-13"
+PiecewiseDeterministicMarkovProcesses = ["0.0.4-0.0.5", "0.0.7-0.0.8"]
+
 ["0.0.3-0"]
 julia = "1.9.0-1"
+
+["0.0.4"]
+PiecewiseDeterministicMarkovProcesses = ["0.0.4-0.0.5", "0.0.7-0.0.9"]
+
+["0.0.4-0"]
+Catalyst = "10.4.2-15"
+LazySets = "2-4"
+
+["0.0.5-0"]
+PiecewiseDeterministicMarkovProcesses = ["0.0.4-0.0.5", "0.0.7-0.0.10"]

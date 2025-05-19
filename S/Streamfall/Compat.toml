@@ -9,9 +9,6 @@ Compose = "0.9"
 DataFrames = "1.6.0-1"
 DataStructures = "0.18.10-0.18"
 Distributions = "0.25.100-0.25"
-GR = "0.72.9-0.73"
-GR_jll = "0.73"
-GraphPlot = "0.5-0.6"
 Graphs = "1.9.0-1"
 JSON = "0.20.1-0.21"
 LaTeXStrings = "1.3.0-1"
@@ -21,12 +18,10 @@ ModelParameters = "0.4.4-0.4"
 OnlineStats = "1.6.0-1"
 OrderedCollections = "1.6.0-1"
 Parameters = "0.12"
-Plots = "1.39.0-1"
 PrettyTables = "2.3.0-2"
 Setfield = "1"
 StatsBase = "0.34"
 StatsFuns = "1.3.0-1"
-StatsPlots = "0.15"
 YAML = "0.4"
 ZipFile = "0.10"
 julia = "1"
@@ -34,5 +29,15 @@ julia = "1"
 ["0-0.4"]
 Statistics = "1.11.1-1"
 
+["0-0.5"]
+GR = "0.72.9-0.73"
+GR_jll = "0.73"
+GraphPlot = "0.5-0.6"
+Plots = "1.39.0-1"
+StatsPlots = "0.15"
+
 ["0.5-0"]
 Statistics = "1.10.0-1"
+
+["0.6-0"]
+Dates = "1.11.0-1"

@@ -11,7 +11,6 @@ QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-StrideArrays = "d1fa6d79-ef01-42a6-86c9-f7c551f8593b"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0-0.2"]
@@ -19,11 +18,14 @@ Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 ObjectPools = "658cac36-ff0f-48ad-967c-110375d98c9d"
 
-["0.1.4-0"]
-HyperDualNumbers = "50ceba7f-c3ee-5a84-a6e8-3ad40456ec97"
+["0-0.3"]
+StrideArrays = "d1fa6d79-ef01-42a6-86c9-f7c551f8593b"
 
 ["0.1.4-0.2"]
 NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
+
+["0.1.4-0.3"]
+HyperDualNumbers = "50ceba7f-c3ee-5a84-a6e8-3ad40456ec97"
 
 ["0.2.11-0"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
@@ -35,3 +37,7 @@ BlockDiagonals = "0a1fb500-61f7-11e9-3c65-f5ef3456f9f0"
 ["0.3-0"]
 Bumper = "8ce10254-0962-460f-a3d8-1f77fea1446e"
 WithAlloc = "fb1aa66a-603c-4c1d-9bc4-66947c7b08dd"
+
+["0.4-0"]
+GPUArraysCore = "46192b85-c4d5-4398-a991-12ede77f4527"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"

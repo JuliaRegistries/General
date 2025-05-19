@@ -1,16 +1,23 @@
 [0]
 Dates = "1"
-Documenter = "1"
 EnumX = "1"
 HTTP = "1"
 JSON = "0.21"
-PyFormattedStrings = "0.1"
 Reexport = "1"
 Unitful = "1"
 
 ["0 - 0.5"]
 julia = "1.9.0-1"
 
+["0 - 0.6.4"]
+Documenter = "1"
+PyFormattedStrings = "0.1"
+
 ["0.6 - 0"]
 DynamicQuantities = "1.1.0 - 1"
+
+["0.6 - 0.6.4"]
 julia = "1.9.0 - 1"
+
+["0.6.5 - 0"]
+julia = "1.11.0 - 1"
