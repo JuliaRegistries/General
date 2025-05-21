@@ -78,8 +78,10 @@ IMASdd = "4"
 IMASutils = "1.5.0-1"
 
 [4-5]
-DataInterpolations = "7-8"
 HelpPlots = "1.1.0-1"
+
+["4-5.1"]
+DataInterpolations = "7-8"
 IMASdd = "5"
 
 ["5.0"]
@@ -87,3 +89,7 @@ IMASutils = "1.5.0-1"
 
 ["5.1-5"]
 IMASutils = "1.5.1-1"
+
+["5.2-5"]
+DataInterpolations = ["7", "8.0.0", "8.0.2-8"]
+IMASdd = "6"
