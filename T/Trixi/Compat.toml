@@ -21,7 +21,6 @@ ForwardDiff = "0.10.36-0.10"
 LoopVectorization = "0.12.171-0.12"
 MuladdMacro = "0.2.4-0.2"
 Octavian = "0.3.28-0.3"
-Polyester = "0.7.16-0.7"
 Preferences = "1.4.0-1"
 Reexport = "1.2.0-1"
 Static = "1.1.1-1"
@@ -30,8 +29,14 @@ StaticArrays = "1.9.0-1"
 StrideArrays = "0.1.29-0.1"
 TimerOutputs = "0.5.23-0.5"
 
+["0.10-0.11.15"]
+Polyester = "0.7.16-0.7"
+
 ["0.10.2-0"]
 StructArrays = "0.6.18-0.7"
+
+["0.11.16-0"]
+Polyester = "0.7.16"
 
 ["0.11.2-0"]
 RecursiveArrayTools = "3.31.1-3"
