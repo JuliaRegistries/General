@@ -3,30 +3,32 @@ CMPFit = "0.3"
 DataStructures = "0.18"
 JSON = "0.21"
 MacroTools = "0.5"
-julia = "1.8.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 GZip = "0.5"
 LsqFit = "0.13"
 ProgressMeter = "1.7.0-1"
 Statistics = "1.8.0-1"
 
-["0-0.2"]
+["0 - 0.2"]
 Gnuplot = "1.4.0-1"
 PrettyTables = "2.2.0-2"
 
-["0-0.3.0"]
+["0 - 0.3.0"]
 Distributions = "0.25"
+
+["0 - 0.4"]
+julia = "1.8.0-1"
 
 ["0.2"]
 PrecompileTools = "1.1.0-1"
 ProgressMeter = "1.9.0-1"
 
-["0.2-0"]
+["0.2 - 0.4"]
 GZip = "0.5-0.6"
 LsqFit = "0.13-0.15"
 
-["0.3-0"]
+["0.3 - 0.4"]
 Gnuplot = "1.6.0-1"
 PrecompileTools = "1.2.0-1"
 PrettyTables = "2.3.0-2"
@@ -34,3 +36,14 @@ ProgressMeter = "1.10.0-1"
 
 ["0.3.0"]
 Polyester = "0.7"
+
+["0.5 - 0"]
+ForwardDiff = "1.0.1 - 1"
+GZip = "0.5 - 0.6"
+Gnuplot = "1.6.0 - 1"
+LsqFit = "0.13 - 0.15"
+NonlinearSolve = "4.9.0 - 4"
+PrecompileTools = "1.2.0 - 1"
+PrettyTables = "2.4.0 - 2"
+ProgressMeter = "1.10.0 - 1"
+julia = "1.8.0 - 1"
