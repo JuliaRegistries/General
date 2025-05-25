@@ -10,7 +10,6 @@ LineSearches = "7.2.0-7"
 LinearAlgebra = ["0.0.0", "1"]
 LogDensityProblems = "1-2"
 LoopVectorization = "0.12"
-MCMCChains = "6"
 Optim = "1.7.0-1"
 Printf = ["0.0.0", "1"]
 QuadGK = "2"
@@ -22,6 +21,9 @@ StatsBase = "0.32-0.34"
 Trapz = "2"
 VectorizationBase = "0.21"
 julia = "1.7.0-1"
+
+["0-1.0.1"]
+MCMCChains = "6"
 
 ["0.1.1-1"]
 IrrationalConstants = "0.2"
@@ -39,3 +41,6 @@ Interpolations = "0.13.4-0.15"
 
 ["1.0.1-1"]
 Interpolations = "0.13.4-0.16"
+
+["1.0.2-1"]
+MCMCChains = "6-7"
