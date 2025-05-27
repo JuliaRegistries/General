@@ -254,11 +254,11 @@ Spglib = "0.6"
 ["0.5.9-0.7.6"]
 GPUArraysCore = "0.1"
 
-["0.6-0"]
-TimerOutputs = "0.5.12-0.5"
-
 ["0.6-0.6.11"]
 Brillouin = "0.5.11-0.5"
+
+["0.6-0.7.12"]
+TimerOutputs = "0.5.12-0.5"
 
 ["0.6.0"]
 ASEconvert = "0.1"
@@ -301,7 +301,6 @@ LoopVectorization = "0.12"
 
 ["0.6.15-0"]
 DocStringExtensions = "0.9"
-Interpolations = "0.14-0.15"
 Libxc = "0.3.17-0.3"
 
 ["0.6.15-0.6"]
@@ -309,6 +308,9 @@ julia = "1.9.0-1"
 
 ["0.6.15-0.6.17"]
 Spglib = "0.9"
+
+["0.6.15-0.7.12"]
+Interpolations = "0.14-0.15"
 
 ["0.6.17-0.6.19"]
 AtomsCalculators = "0.1"
@@ -353,6 +355,10 @@ DiffResults = "1.1.0-1"
 
 ["0.7.12-0"]
 DifferentiationInterface = "0.6.39-0.7"
+
+["0.7.13-0"]
+Interpolations = "0.14-0.16"
+TimerOutputs = "0.5.29-0.5"
 
 ["0.7.3-0"]
 AtomsBase = "0.5"
