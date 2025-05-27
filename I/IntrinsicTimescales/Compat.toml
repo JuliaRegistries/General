@@ -62,14 +62,11 @@ OptimizationOptimJL = "0.4.2-0.4"
 
 ["0.4-0"]
 AbstractFFTs = "1"
-BenchmarkTools = "1"
 ComponentArrays = "0.15"
 DifferentiationInterface = "0.6"
-DifferentiationInterfaceTest = "0.9"
 ForwardDiff = "0.10"
 KernelDensity = "0.6"
 LinearAlgebra = "1"
-LogExpFunctions = "0.3"
 Logging = "1"
 LombScargle = "1"
 Missings = "1"
@@ -84,3 +81,8 @@ SciMLSensitivity = "7"
 SciMLStructures = "1"
 StaticArrays = "1"
 StochasticDiffEq = "6"
+
+["0.4.0"]
+BenchmarkTools = "1"
+DifferentiationInterfaceTest = "0.9"
+LogExpFunctions = "0.3"
