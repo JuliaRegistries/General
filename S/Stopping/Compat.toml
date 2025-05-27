@@ -37,11 +37,13 @@ NLPModels = "0.14-0.15"
 SolverTools = "0.4-0.6"
 
 ["0.3.5-0"]
-LLSModels = "0.1-0.3"
 LinearOperators = "1-2"
 
 ["0.3.5-0.3"]
 NLPModels = ["0.14-0.15", "0.17"]
+
+["0.3.5-0.6.5"]
+LLSModels = "0.1-0.3"
 
 ["0.3.6-0.3"]
 SolverTools = "0.4-0.7"
@@ -64,3 +66,7 @@ NLPModels = ["0.14-0.15", "0.17-0.20"]
 ["0.6.5-0"]
 NLPModels = ["0.14-0.15", "0.17-0.21"]
 SolverTools = "0.4-0.9"
+
+["0.6.6-0"]
+GPUArrays = "8-11"
+LLSModels = "0.1-0.5"
