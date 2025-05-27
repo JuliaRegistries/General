@@ -35,7 +35,7 @@ See our **[Contributing Guidelines](./CONTRIBUTING.md)** for ways to get involve
 New packages and new versions of packages are added to the General registry by pull requests
 against this GitHub repository. It is ***highly recommended*** that you use
 [Registrator.jl][registrator] to automate this process. Registrator can either be used as a
-[GitHub App][registrator-app] or through a [web interface][registrator-web], as decribed in
+[GitHub App][registrator-app] or through a [web interface][registrator-web], as described in
 the [Registrator README][registrator-readme].
 
 When Registrator is triggered a pull request is opened against this repository. Pull
@@ -227,7 +227,7 @@ has the same effect.
  - Increment the version in the Project.toml as a breaking change.
  - [Register](#registering-a-package-in-general) it as if it were a new package
  - Comment on the PR, that this is a rename.
- - It will have to go though the normal criteria for registring a new package.
+ - It will have to go through the normal criteria for registering a new package.
     - In particular, even if you get it merged manually, it will need to wait 3 days from the PR being opened.
     - This gives others and yourself the chance to point out any naming issues.
 
@@ -330,7 +330,7 @@ or yank the offending release. See the [SciML collaborative practices for more g
 
 If yanking is urgent, open a PR and raise it on the `#pkg-registration` [slack channel](https://julialang.org/slack/)
 
-For releases with actively exploited security vulnerabilities (i.e. malicious code) yanking is not suficient.
+For releases with actively exploited security vulnerabilities (i.e. malicious code) yanking is not sufficient.
 In this case, the release should be completely deleted from the registry and a new patch release should be
 issued. This is a drastic measure that breaks reproducibility guarantees and has never been performed as of 
 April, 2024.
