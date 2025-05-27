@@ -3,14 +3,12 @@ CSV = "0.10"
 DataFrames = "1"
 DifferentialEquations = "7"
 EzXML = "1"
-ForwardDiff = "0.10"
 GraphIO = "0.7"
 GraphMakie = "0.5"
 GraphRecipes = "0.5"
 Graphs = "1"
 HypertextLiteral = "0.9"
 Integrals = "3-4"
-Interpolations = "0.14-0.15"
 Intervals = "1"
 JSServe = "2"
 LsqFit = "0.15"
@@ -35,6 +33,10 @@ Pluto = "0.19"
 IntegralsCubature = "0.2"
 Symbolics = "5"
 
+["0-0.2.3"]
+ForwardDiff = "0.10"
+Interpolations = "0.14-0.15"
+
 ["0.2.2-0"]
 CairoMakie = "0.11-0.13"
 GLMakie = "0.9-0.11"
@@ -43,3 +45,7 @@ Pluto = "0.19-0.20"
 
 ["0.2.3-0"]
 Symbolics = "5-6"
+
+["0.2.4-0"]
+ForwardDiff = ["0.10", "1"]
+Interpolations = "0.15-0.16"
