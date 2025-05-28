@@ -614,7 +614,6 @@ Static = ["0.8", "1"]
 
 ["6.88-6"]
 ExponentialUtilities = "1"
-ForwardDiff = "0.10"
 OrdinaryDiffEqAdamsBashforthMoulton = "1"
 OrdinaryDiffEqBDF = "1"
 OrdinaryDiffEqCore = "1"
@@ -659,6 +658,9 @@ DiffEqBase = "6.154.0-6"
 ["6.88-6.93"]
 SparseDiffTools = "2"
 
+["6.88-6.97"]
+ForwardDiff = "0.10"
+
 ["6.9-6.40"]
 RecursiveArrayTools = "2.26.3-2"
 
@@ -687,3 +689,6 @@ SciMLOperators = "0.3-0.4"
 
 ["6.97-6"]
 SciMLOperators = ["0.3-0.4", "1"]
+
+["6.98-6"]
+ForwardDiff = ["0.10", "1"]
