@@ -4,7 +4,6 @@ ArrayInterface = "7.15.0-7"
 DiffEqBase = "6.152.2-6"
 FastBroadcast = "0.3.5-0.3"
 FastClosures = "0.3.2-0.3"
-ForwardDiff = "0.10.36-0.10"
 LinearAlgebra = ["0.0.0", "1"]
 MuladdMacro = "0.2.4-0.2"
 PreallocationTools = "0.4.23-0.4"
@@ -28,6 +27,9 @@ OrdinaryDiffEqDifferentiation = ["0.0.0", "1"]
 
 ["1-1.7"]
 SciMLOperators = "0.3.9-0.3"
+
+["1-1.9.0"]
+ForwardDiff = "0.10.36-0.10"
 
 ["1.0"]
 OrdinaryDiffEqCore = ["0.0.0", "1"]
@@ -59,3 +61,6 @@ SciMLOperators = "0.3.9-0.4"
 
 ["1.9-1"]
 SciMLOperators = ["0.3.9-0.4", "1"]
+
+["1.9.1-1"]
+ForwardDiff = ["0.10.36-0.10", "1"]
