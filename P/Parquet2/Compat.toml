@@ -80,17 +80,27 @@ Thrift2 = "0.2"
 ["0.2.28 - 0"]
 AbstractTrees = "0.3 - 0.4"
 BitIntegers = "0.2 - 0.3"
+Tables = "1.7.0 - 1"
+julia = "1.10.0 - 1"
+
+["0.2.28 - 0.2.30"]
 ChunkCodecCore = "0.4.2 - 0.4"
 ChunkCodecLibLz4 = "0.1.2 - 0.1"
 ChunkCodecLibSnappy = "0.1.2 - 0.1"
 ChunkCodecLibZlib = "0.1.2 - 0.1"
 ChunkCodecLibZstd = "0.1.2 - 0.1"
-Tables = "1.7.0 - 1"
-julia = "1.10.0 - 1"
 
 ["0.2.30 - 0"]
 LazyArrays = ["0.22", "1 - 2"]
 LightBSON = ["0.2", "1"]
+
+["0.2.31 - 0"]
+ChunkCodecCore = "0.4.2 - 0.5"
+ChunkCodecLibBrotli = "0.1.1 - 0.2"
+ChunkCodecLibLz4 = "0.1.2 - 0.2"
+ChunkCodecLibSnappy = "0.1.2 - 0.2"
+ChunkCodecLibZlib = "0.1.2 - 0.2"
+ChunkCodecLibZstd = "0.1.2 - 0.2"
 
 ["0.2.9 - 0.2.13"]
 SnoopPrecompile = "1"
