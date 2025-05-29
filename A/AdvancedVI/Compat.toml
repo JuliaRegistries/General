@@ -15,9 +15,11 @@ DocStringExtensions = "0.8"
 
 ["0-0.2"]
 DistributionsAD = "0.2-0.6"
-ForwardDiff = "0.10.3-0.10"
 ProgressMeter = "1"
 Tracker = "0.2.3-0.2"
+
+["0-0.2.11"]
+ForwardDiff = "0.10.3-0.10"
 
 ["0-0.2.2"]
 StatsBase = "0.32-0.33"
@@ -54,6 +56,9 @@ Bijectors = "0.11-0.14"
 
 ["0.2.11-0.2"]
 Bijectors = "0.11-0.15"
+
+["0.2.12-0.2"]
+ForwardDiff = ["0.10.3-0.10", "1"]
 
 ["0.2.3-0"]
 StatsBase = "0.32-0.34"
