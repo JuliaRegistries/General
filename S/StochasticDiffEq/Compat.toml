@@ -260,14 +260,14 @@ ArrayInterface = "6-7"
 ["6.60-6.62"]
 DiffEqBase = "6.122.0-6"
 
-["6.61-6"]
-SparseDiffTools = "2"
-
 ["6.61-6.63"]
 FillArrays = ["0.6-0.13", "1"]
 
 ["6.61-6.65"]
 OrdinaryDiffEq = "6.52.0-6"
+
+["6.61-6.79"]
+SparseDiffTools = "2"
 
 ["6.61.0"]
 SciMLOperators = "0.2.9-0.2"
@@ -325,9 +325,11 @@ ADTypes = "1"
 OrdinaryDiffEqCore = "1.12.1-1"
 
 ["6.73-6"]
-OrdinaryDiffEqDifferentiation = "1"
 OrdinaryDiffEqNonlinearSolve = "1"
 SciMLBase = "2.71.0-2"
+
+["6.73-6.79"]
+OrdinaryDiffEqDifferentiation = "1"
 
 ["6.76-6"]
 ForwardDiff = ["0.10.3-0.10", "1"]
@@ -343,6 +345,9 @@ ArrayInterface = "1.1.0-1"
 
 ["6.8-6.9"]
 DiffEqBase = "5.20.0-5"
+
+["6.80-6"]
+OrdinaryDiffEqDifferentiation = "1.9.0-1"
 
 ["6.9-6"]
 MuladdMacro = "0.2.1-0.2"
