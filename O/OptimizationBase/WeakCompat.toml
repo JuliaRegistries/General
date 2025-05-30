@@ -13,11 +13,13 @@ Symbolics = "5.12.0-5"
 
 [0-2]
 FiniteDiff = "2.12.0-2"
-ForwardDiff = "0.10.26-0.10"
 ReverseDiff = "1.14.0-1"
 
 ["0-2.4"]
 Zygote = "0.6.67-0.6"
+
+["0-2.7"]
+ForwardDiff = "0.10.26-0.10"
 
 ["0.0.5-1.2"]
 ModelingToolkit = "8.74.0-9"
@@ -55,3 +57,6 @@ Zygote = "0.6.67-0.7"
 
 ["2.7-2"]
 ModelingToolkit = "9-10"
+
+["2.8-2"]
+ForwardDiff = ["0.10.26-0.10", "1"]
