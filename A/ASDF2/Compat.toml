@@ -16,11 +16,22 @@ StridedViews = "0.2.1-0.3"
 
 ["0.1.3 - 0"]
 BlockArrays = ["0.16.43 - 0.16", "1"]
+MD5 = "0.2.1 - 0.2"
+StridedViews = "0.2.1 - 0.4"
+YAML = "0.4.9 - 0.4"
+
+["0.1.3 - 0.1"]
 Blosc = "0.7.3 - 0.7"
 CodecBzip2 = "0.8.1 - 0.8"
 CodecLz4 = "0.4.3 - 0.4"
 CodecZlib = "0.7.3 - 0.7"
-MD5 = "0.2.1 - 0.2"
-StridedViews = "0.2.1 - 0.4"
-YAML = "0.4.9 - 0.4"
 julia = "1.6.0 - 1"
+
+["0.2 - 0"]
+ChunkCodecLibBlosc = "0.2"
+ChunkCodecLibBzip2 = "0.2"
+ChunkCodecLibLz4 = "0.2.1 - 0.2"
+ChunkCodecLibZlib = "0.2"
+ChunkCodecLibZstd = "0.2"
+CodecXz = "0.7.4 - 0.7"
+julia = "1.10.0 - 1"

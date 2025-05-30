@@ -1,11 +1,23 @@
 [0]
-Blosc = "a74b3585-a348-5f62-a45c-50e91977d574"
-CodecBzip2 = "523fee87-0ab8-5b00-afb7-3ecf72e48cfd"
-CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
 MD5 = "6ac74813-4b46-53a4-afec-0b5dc9d7885c"
 StridedViews = "4db3bf67-4bd7-4b4e-b153-31dc3fb37143"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 
+["0 - 0.1"]
+Blosc = "a74b3585-a348-5f62-a45c-50e91977d574"
+CodecBzip2 = "523fee87-0ab8-5b00-afb7-3ecf72e48cfd"
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+
 ["0.1.2 - 0"]
 BlockArrays = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
+
+["0.1.2 - 0.1"]
 CodecLz4 = "5ba52731-8f18-5e0d-9241-30f10d1ec561"
+
+["0.2 - 0"]
+ChunkCodecLibBlosc = "c6a955be-ab7f-4fbb-b38f-caf93db6b928"
+ChunkCodecLibBzip2 = "2b723af9-f480-4e8d-a1e4-4a9f5a906122"
+ChunkCodecLibLz4 = "7e9cc85e-5614-42a3-ad86-b78f920b38a5"
+ChunkCodecLibZlib = "4c0bbee4-addc-4d73-81a0-b6caacae83c8"
+ChunkCodecLibZstd = "55437552-ac27-4d47-9aa3-63184e8fd398"
+CodecXz = "ba30903b-d9e8-5048-a5ec-d1f5b0d4b47b"
