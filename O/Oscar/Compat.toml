@@ -262,16 +262,18 @@ Hecke = "0.34.3-0.34"
 Nemo = "0.47.1-0.47"
 Singular = "0.23.8-0.23"
 
-["1.2-1"]
+["1.2-1.3"]
 AlgebraicSolving = "0.8"
 
 ["1.2-1.3.0"]
 Polymake = "0.11.20-0.11"
 
-["1.3-1"]
-GAP = "0.13.1-0.13"
+["1.3"]
 Hecke = "0.35.10-0.35"
 Nemo = "0.49"
+
+["1.3-1"]
+GAP = "0.13.1-0.13"
 ProgressMeter = "1.10.2-1"
 Singular = "0.25"
 lib4ti2_jll = "1.6.10-1"
@@ -279,6 +281,14 @@ lib4ti2_jll = "1.6.10-1"
 ["1.3.0"]
 AbstractAlgebra = "0.44.6-0.44"
 
-["1.3.1-1"]
+["1.3.1-1.3"]
 AbstractAlgebra = "0.44.9-0.44"
 Polymake = "0.11.28-0.11"
+
+["1.4-1"]
+AbstractAlgebra = "0.45.1-0.45"
+AlgebraicSolving = "0.9"
+Compat = "4.13.0-4"
+Hecke = "0.36"
+Nemo = "0.50"
+Polymake = "0.12"
