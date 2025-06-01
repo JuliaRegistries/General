@@ -1,5 +1,4 @@
 [0]
-Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
 ["0-0.2"]
@@ -9,6 +8,9 @@ Distributions = "0.24"
 Documenter = "0.26"
 StochasticIntegrals = "0.4"
 UnivariateFunctions = "0.2"
+
+["0-0.4"]
+Statistics = "1.5.0-1"
 
 ["0.3-0"]
 DataFrames = "1"
@@ -28,8 +30,16 @@ StochasticIntegrals = "0.5"
 ["0.3.2-0"]
 UnivariateFunctions = "0.3"
 
+["0.4"]
+Gadfly = "1"
+
 ["0.4-0"]
 Distributions = "0.25"
-Gadfly = "1"
 StableRNGs = "1"
 StochasticIntegrals = "0.6"
+
+["0.5-0"]
+Clustering = "0.15.8-0.15"
+Distances = "0.10.12-0.10"
+PlotlyJS = "0.18.16-0.18"
+VegaLite = "3.3.0-3"
