@@ -2,11 +2,18 @@
 AbstractGPs = "0.5"
 DataFrames = "1"
 DecisionTree = "0.12"
-Flux = "0.14"
 GLM = "1.9.0-1"
-Lux = "0.5"
 PythonCall = "0.9.20-0.9"
 StatsModels = "0.7"
+
+["0-0.1.10"]
+Flux = "0.14"
+Lux = "0.5"
+
+["0.1.11-0"]
+EvoTrees = "0.17"
+Flux = "0.14-0.16"
+Lux = "1"
 
 ["0.1.9-0"]
 Ipopt = "1.8.0-1"
