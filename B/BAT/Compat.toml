@@ -245,7 +245,6 @@ DoubleFloats = "1.1.25-1"
 ElasticArrays = "1.2.5-1"
 EmpiricalDistributions = "0.3.4-0.3"
 FFTW = "1.3.0-1"
-ForwardDiff = "0.10.24-0.10"
 ForwardDiffPullbacks = "0.1.4-0.2"
 Functors = "0.2-0.5"
 HypothesisTests = "0.10.4-0.11"
@@ -261,5 +260,12 @@ StaticArrays = ["0.12.5-0.12", "1"]
 StatsBase = "0.33.7-0.34"
 StructArrays = "0.4-0.7"
 
+["3.3.4-3.3"]
+ForwardDiff = "0.10.24-0.10"
+
 ["3.3.5-3"]
 FunctionChains = "0.1.4-0.2"
+
+["3.4-3"]
+ForwardDiff = ["0.10.24-0.10", "1"]
+LazyReports = "0.2.1-0.2"
