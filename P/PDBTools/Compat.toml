@@ -1,7 +1,7 @@
 ["0-0.13.5"]
 julia = "1"
 
-["0.11.2-2"]
+["0.11.2-3"]
 Parameters = "0.12"
 
 ["0.12.4-1.1.0"]
@@ -36,15 +36,17 @@ Format = "1"
 
 ["1.4-2"]
 Dates = "1.9.0-1"
-Downloads = "1.6.0-1"
-Format = "1.3.0-1"
 InteractiveUtils = "1.9.0-1"
 LinearAlgebra = "1.9.0-1"
 Printf = "1.9.0-1"
-StaticArrays = "1.6.0-1"
 julia = "1.9.0-1"
 
-["1.7.1-2"]
+["1.4-3"]
+Downloads = "1.6.0-1"
+Format = "1.3.0-1"
+StaticArrays = "1.6.0-1"
+
+["1.7.1-3"]
 OrderedCollections = "1.6.3-1"
 
 ["1.8.2-2.1.4"]
@@ -53,15 +55,22 @@ TestItems = ["0.1", "1"]
 ["1.8.4-1"]
 AtomsBase = "0.3.4-0.4"
 
-[2]
+[2-3]
 InlineStrings = "1.4.2-1"
 PrecompileTools = "1.2.1-1"
 
 ["2.0"]
 AtomsBase = "0.3.4-0.4"
 
-["2.1.5-2"]
+["2.1.5-3"]
 TestItems = "1"
 
-["2.2.4-2"]
+["2.2.4-3"]
 MolSimToolkitShared = "1.1.2-1"
+
+[3]
+Dates = "1.10.0-1"
+InteractiveUtils = "1.10.0-1"
+LinearAlgebra = "1.10.0-1"
+Printf = "1.10.0-1"
+julia = "1.10.0-1"
