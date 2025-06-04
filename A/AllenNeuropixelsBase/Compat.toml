@@ -9,7 +9,6 @@ GeometryBasics = "0.4"
 IntervalSets = "0.6-0.7"
 JSON = "0.21"
 NRRD = "0.6"
-NWBStream = "0.1"
 Preferences = "1"
 ProgressLogging = "0.1"
 julia = "1.6.0-1"
@@ -21,15 +20,24 @@ HDF5 = "0.15-0.16.10"
 PythonCall = "0.9"
 TimeseriesTools = "0.3"
 
+["0-0.3"]
+NWBStream = "0.1"
+
 ["0.2"]
 TimeseriesTools = "0.4"
 
 ["0.2-0"]
-AllenSDK = "0.2"
 DimensionalData = "0.27"
 HDF5 = ["0.15", "0.16.0-0.16.10"]
 PythonCall = "0.9.16-0.9"
 Scratch = "1.2.0-1"
 
+["0.2-0.3"]
+AllenSDK = "0.2"
+
 ["0.3-0"]
 TimeseriesTools = "0.5"
+
+["0.4-0"]
+AllenSDK = "0.3"
+NWBStream = "0.2"
