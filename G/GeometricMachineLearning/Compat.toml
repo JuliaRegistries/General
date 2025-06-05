@@ -2,7 +2,6 @@
 ChainRules = "1"
 ChainRulesCore = "1"
 Distances = "0.10"
-ForwardDiff = "0.10"
 KernelAbstractions = "0.9"
 NNlib = "0.8-0.9"
 ProgressMeter = "1"
@@ -25,6 +24,9 @@ Optimisers = "0.2"
 ["0-0.2"]
 AbstractNeuralNetworks = "0.1"
 Lux = "0.4-0.5"
+
+["0-0.4.3"]
+ForwardDiff = "0.10"
 
 ["0.2"]
 CUDA = "4-5"
@@ -94,3 +96,6 @@ LazyArrays = "2.3.2"
 SymbolicNeuralNetworks = "0.3"
 Symbolics = "6.22.0-6"
 ZygoteRules = "0.2.7-0.2"
+
+["0.4.4-0"]
+ForwardDiff = ["0.10", "1"]
