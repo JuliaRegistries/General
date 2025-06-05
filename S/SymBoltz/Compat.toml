@@ -3,7 +3,6 @@ Bessels = "0.2.8-0.2"
 CommonSolve = "0.2.4-0.2"
 GraphRecipes = "0.5.13-0.5"
 MatterPower = "0.5"
-ModelingToolkit = "9.61.0-9"
 NonlinearSolve = "4.3.0-4"
 OrdinaryDiffEq = "6.90.1-6"
 PeriodicTable = "1.2.1-1"
@@ -32,6 +31,9 @@ DataInterpolations = "7.0.1-7"
 NumericalIntegration = "0.3.3-0.3"
 OhMyThreads = "0.7"
 
+["0-0.4"]
+ModelingToolkit = "9.61.0-9"
+
 ["0.1.1-0"]
 SciMLBase = "2.72.2-2"
 
@@ -48,3 +50,10 @@ LinearAlgebra = "1.11.0-1"
 OhMyThreads = "0.8"
 PreallocationTools = "0.4.25-0.4"
 SciMLStructures = "1.7.0-1"
+
+["0.5-0"]
+ChainRulesCore = "1.25.1-1"
+ForwardDiff = "0.10.38-0.10"
+ForwardDiffChainRules = "0.3"
+ModelingToolkit = "9.76"
+RecursiveFactorization = "0.2.23-0.2"
