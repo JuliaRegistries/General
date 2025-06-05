@@ -1,35 +1,26 @@
 [0]
-AllenSDK = "0.2"
 CSV = "0.5-0.10"
 Clustering = "0.15"
 Colors = "0.1-0.12"
 ContinuousWavelets = "1"
 DSP = "0.3-0.7"
 DataFrames = "1.4.0-1"
-DelayEmbeddings = "2.4.0-2"
 Dierckx = "0.5"
 DimensionalData = "0.27"
 Distances = "0.10"
 FFTW = "1.4.0-1"
 FileIO = "1.9.0-1"
-GLFW = "3"
 GeometryBasics = "0.4"
 HDF5 = "0.15-0.16"
-HTTP = "1"
 HypothesisTests = "0.10-0.11"
-ImageMagick = "1"
 ImageMorphology = "0.3-0.4"
-ImageTransformations = "0.5-0.10"
 Images = "0.17.3-0.26"
 Interpolations = ["0.3.6-0.4", "0.9", "0.10.1-0.15"]
 IntervalSets = "0.6-0.7"
-JSON = "0.20-0.21"
 LsqFit = "0.5-0.15"
 MeshIO = "0.4"
 Meshing = "0.5-0.7"
 MultivariateStats = "0.5-0.10"
-NWBStream = "0.1"
-Observables = "0.5"
 Preferences = "1"
 ProgressLogging = "0.1"
 PyFOOOF = "0.2"
@@ -46,6 +37,22 @@ julia = "1.8.0-1"
 AllenNeuropixelsBase = "0.2"
 TimeseriesTools = "0.4"
 
-["0.2-0"]
+["0-0.2"]
+AllenSDK = "0.2"
+DelayEmbeddings = "2.4.0-2"
+GLFW = "3"
+HTTP = "1"
+ImageMagick = "1"
+ImageTransformations = "0.5-0.10"
+JSON = "0.20-0.21"
+NWBStream = "0.1"
+Observables = "0.5"
+
+["0.2"]
 AllenNeuropixelsBase = "0.3"
+
+["0.2-0"]
 TimeseriesTools = "0.5"
+
+["0.3-0"]
+AllenNeuropixelsBase = "0.4"
