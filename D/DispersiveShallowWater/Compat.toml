@@ -80,11 +80,11 @@ Interpolations = "0.15.1-0.15"
 ["0.6-0"]
 SciMLBase = "2.78.0-2"
 
-["0.6.3-0"]
-ForwardDiff = "0.10.36-0.10"
-
 ["0.6.3-0.7.0"]
 PreallocationTools = "0.4.14-0.4"
+
+["0.6.3-0.7.2"]
+ForwardDiff = "0.10.36-0.10"
 
 ["0.7.1-0"]
 BandedMatrices = "1.5.0-1"
@@ -94,3 +94,6 @@ TimerOutputs = "0.5.23-0.5"
 
 ["0.7.2-0"]
 SummationByPartsOperators = "0.5.79-0.5"
+
+["0.7.3-0"]
+ForwardDiff = ["0.10.36-0.10", "1"]
