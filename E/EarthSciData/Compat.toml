@@ -42,7 +42,6 @@ DataInterpolations = "8"
 DiffEqCallbacks = "4.3.0-4"
 DocStringExtensions = "0.9.3-0.9"
 DynamicQuantities = "1"
-EarthSciMLBase = "0.22.1-0.22"
 Interpolations = "0.16"
 Latexify = "0.16.7-0.16"
 ModelingToolkit = "9.79.1"
@@ -51,6 +50,12 @@ Proj = "1.8.0-1"
 SciMLBase = "2.90.0-2"
 Symbolics = "6.37.1-6"
 julia = "1.10.0-1"
+
+["0.12.7-0.12"]
+EarthSciMLBase = "0.22.1-0.22"
+
+["0.13-0"]
+EarthSciMLBase = "0.23"
 
 ["0.2.0"]
 Latexify = "0.16"
