@@ -1,7 +1,3 @@
-[0]
-ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
-FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
-
 ["0-0.1.0"]
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
 Fetch = "bb354801-46f6-40b6-9c3d-d42d7a74c775"
@@ -18,20 +14,29 @@ Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 ["0-0.4.7"]
 CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
 
+["0-0.5"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+
 ["0.3.2-0.4"]
 GeometricFlux = "7e08b658-56d3-11e9-2997-919d5b31e4ea"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.5-0"]
+["0.5"]
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
+Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
+
+["0.5-0"]
 ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
 Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
 LuxCore = "bb33d45b-7691-41d6-9220-0943567d0623"
 LuxLib = "82251201-b29d-42c6-8e01-566dec8acb11"
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
 WeightInitializers = "d49dbf32-c5c2-4618-8acc-27bb2598ef2d"
 
-["0.5.1-0"]
+["0.5.1-0.5"]
 MLDataDevices = "7e8f7934-dd98-4c1a-8fe8-92b47a384d40"
+
+["0.6-0"]
+AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
