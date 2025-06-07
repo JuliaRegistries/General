@@ -1,11 +1,7 @@
 [0]
-DataStructures = "0.18"
 FillArrays = "1"
 FunctionWrappers = "1"
-ProgressMeter = "1"
 Reexport = "1"
-Revise = "3"
-Suppressor = "0.2"
 ThreadSafeDicts = "0.1"
 julia = "1"
 
@@ -16,15 +12,29 @@ SoleData = "0.9.1-0.9"
 SoleLogics = "0.3"
 StatsBase = "0.33"
 
+["0-0.10.0"]
+DataStructures = "0.18"
+ProgressMeter = "1"
+Revise = "3"
+Suppressor = "0.2"
+
 ["0-0.9"]
 BenchmarkTools = "1"
 
 ["0.10-0"]
 IterTools = "1"
+
+["0.10.0"]
 SoleData = "0.15-0.16"
 SoleLogics = "0.11"
 
-["0.2-0"]
+["0.10.1-0"]
+Lazy = "0.15"
+SoleBase = "0.13"
+SoleData = "0.16"
+SoleLogics = "0.13"
+
+["0.2-0.10.0"]
 Graphs = "1.8.0-1"
 
 ["0.2-0.2.2"]
@@ -66,7 +76,7 @@ DataFrames = "1.3.0-1"
 ["0.3"]
 SoleLogics = "0.5"
 
-["0.3-0"]
+["0.3-0.10.0"]
 HTTP = "1.9.0-1"
 
 ["0.4"]
@@ -88,9 +98,11 @@ MLJBase = "0.21"
 SoleData = "0.12"
 
 ["0.5-0"]
-CSV = "0.10"
 CategoricalArrays = "0.10"
 StatsBase = "0.30-0.34"
+
+["0.5-0.10.0"]
+CSV = "0.10"
 Tables = "1"
 ZipFile = "0.10"
 
@@ -102,7 +114,7 @@ MLJBase = "0.21.11-0.21"
 SoleData = "0.13"
 SoleLogics = "0.7"
 
-["0.6-0"]
+["0.6-0.10.0"]
 Lazy = "0.15.1-0.15"
 SoleBase = "0.12"
 
