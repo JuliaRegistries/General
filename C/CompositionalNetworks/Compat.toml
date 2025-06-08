@@ -114,9 +114,17 @@ TestItems = ["0.1", "1"]
 julia = "1.9.0-1"
 
 ["0.6 - 0"]
+TestItems = "1"
+julia = "1.10.0 - 1"
+
+["0.6.0"]
 ConstraintCommons = "0.2 - 0.3"
 ConstraintDomains = "0.3 - 0.4"
 ExproniconLite = "0.10.13 - 0.10"
 JuliaFormatter = "1 - 2"
-TestItems = "1"
-julia = "1.10.0 - 1"
+
+["0.6.1 - 0"]
+ConstraintCommons = "0.3"
+ConstraintDomains = "0.4"
+ExproniconLite = "0.10"
+JuliaFormatter = "2"
