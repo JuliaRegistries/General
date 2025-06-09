@@ -1,5 +1,4 @@
 [0]
-ForwardDiff = "0.10"
 GaussQuadrature = "0.5"
 StaticArrays = "1"
 
@@ -9,5 +8,11 @@ StructArrays = "0.6"
 ["0-0.1.0"]
 julia = "1.7.2-1"
 
+["0-0.2"]
+ForwardDiff = "0.10"
+
 ["0.1.1-0"]
 julia = "1.7.0-1"
+
+["0.3-0"]
+ForwardDiff = "1"
