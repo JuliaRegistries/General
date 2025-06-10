@@ -6,7 +6,6 @@ ImageMorphology = "0.4.5-0.4"
 ImageSegmentation = "1"
 Images = "0.26.2-0.26"
 Interpolations = "0.15.1-0.15"
-Krylov = "0.9.10-0.9"
 LinearSolve = "3"
 NaNStatistics = "0.6.48-0.6"
 Random = "1"
@@ -19,5 +18,11 @@ julia = "1.10.0-1"
 CondaPkg = "0.2.26-0.2"
 PythonCall = "0.9.24-0.9"
 
+["0-0.0.3"]
+Krylov = "0.9.10-0.9"
+
 ["0.0.3-0"]
 LinearAlgebra = "1"
+
+["0.0.4-0"]
+Krylov = "0.9.10-0.10"
