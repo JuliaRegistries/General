@@ -45,6 +45,14 @@ DifferentiationInterface = "0.5.12-0.5"
 
 ["0.6.2-0"]
 ADTypes = "1.9.0-1"
+LinearOperators = "2.8.0-2"
+
+["0.6.2-0.7"]
 DifferentiationInterface = "0.6.1-0.6"
 Krylov = "0.9.6-0.9"
-LinearOperators = "2.8.0-2"
+
+["0.8-0"]
+DifferentiationInterface = "0.6.1-0.7"
+IterativeSolvers = "0.9.4-0.9"
+Krylov = "0.9.6-0.10"
+LinearMaps = "3.11.4-3"
