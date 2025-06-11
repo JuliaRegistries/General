@@ -11,11 +11,15 @@ OrderedCollections = "1"
 ["0.2-0.5.2"]
 NCDatasets = "0.12-0.14"
 
-["0.5.11-0"]
+["0.5.11-0.5.17"]
 NaNStatistics = "0.6.8-0.6"
 
 ["0.5.12-0"]
 Artifacts = "1"
+
+["0.5.18-0"]
+Interpolations = "0.14-0.16"
+NaNStatistics = ["0.6.8-0.6.50", "0.6.53-0.6"]
 
 ["0.5.3-0"]
 NCDatasets = "0.13.1-0.14"
@@ -26,10 +30,12 @@ Reexport = "1"
 
 ["0.5.7-0"]
 Dates = "1"
-Interpolations = "0.14-0.15"
 
 ["0.5.7-0.5.10"]
 NaNStatistics = "0.6"
+
+["0.5.7-0.5.17"]
+Interpolations = "0.14-0.15"
 
 ["0.5.8-0"]
 Unitful = "1"
