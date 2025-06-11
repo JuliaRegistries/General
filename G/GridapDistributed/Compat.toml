@@ -87,8 +87,14 @@ Gridap = "0.18.3-0.18"
 ["0.4.5-0"]
 BlockArrays = "1"
 FillArrays = "1"
-Gridap = "0.18.7-0.18"
 LinearAlgebra = "1"
 
-["0.4.6-0"]
+["0.4.5-0.4.7"]
+Gridap = "0.18.7-0.18"
+
+["0.4.6-0.4.7"]
 ForwardDiff = "0.10"
+
+["0.4.8-0"]
+ForwardDiff = ["0.10", "1"]
+Gridap = "0.19.1-0.19"
