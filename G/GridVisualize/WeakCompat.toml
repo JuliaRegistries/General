@@ -17,10 +17,15 @@ CairoMakie = "0.11.3-0.13"
 GLMakie = "0.9-0.11"
 WGLMakie = "0.10-0.11"
 
-["1.13-1"]
+["1.13"]
 CairoMakie = "0.11.3-0.15"
 GLMakie = "0.9-0.13"
 WGLMakie = "0.10-0.13"
+
+["1.14-1"]
+Makie = ["0.21", "0.22.10-0.23"]
+MeshCat = "1"
+VTKView = "0.1"
 
 ["1.3.0"]
 CairoMakie = "0.10.12-0.10"
