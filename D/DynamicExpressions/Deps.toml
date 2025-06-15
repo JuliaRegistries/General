@@ -8,7 +8,7 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ["0-0.8"]
 SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 
-[0-1]
+[0-2]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
@@ -16,13 +16,13 @@ TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 ["0.11-0"]
 PackageExtensionCompat = "65ce6f38-6b18-4e1d-a461-8949797d7930"
 
-["0.17-1"]
+["0.17-2"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 
 ["0.18"]
 TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
 
-["0.18-1"]
+["0.18-2"]
 DispatchDoctor = "8d63f2c5-f18a-4cf2-ba9d-b3f60fc568c8"
 Interfaces = "85a1e053-f937-4924-92a5-1367d23b7b87"
 
@@ -32,10 +32,10 @@ LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 ["0.4.2-0.6.0"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 
-["0.6.1-1"]
+["0.6.1-2"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
-["0.7-1"]
+["0.7-2"]
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 
 ["0.8-0"]
@@ -47,3 +47,6 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 ["1.0"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 PackageExtensionCompat = "65ce6f38-6b18-4e1d-a461-8949797d7930"
+
+[2]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
