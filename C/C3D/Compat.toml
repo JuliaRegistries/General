@@ -16,16 +16,25 @@ DelimitedFiles = "1.6.0-1"
 VaxData = "0.5-0.6"
 julia = "1.6.0-1"
 
-["0.7.3-0"]
-VaxData = ["0.5-0.6", "1"]
-
 ["0.7.3-0.7"]
 DelimitedFiles = "1.8.0-1"
 LazyArtifacts = "1"
 SnoopPrecompile = "1"
 julia = "1.8.0-1"
 
+["0.7.3-0.8.0"]
+VaxData = ["0.5-0.6", "1"]
+
 ["0.8-0"]
 OrderedCollections = "1.6.0-1"
 PrecompileTools = "1"
+
+["0.8.0"]
 julia = "1.9.0-1"
+
+["0.8.1-0"]
+Dates = "1"
+DelimitedFiles = "1"
+LazyArtifacts = "1"
+VaxData = "1"
+julia = "1.10.0-1"
