@@ -1,7 +1,6 @@
 [0]
 AMD = "0.5"
 Distributions = "0.25"
-Ferrite = "1"
 GeometryBasics = "0.4"
 Gmsh = "0.3"
 IterativeSolvers = "0.9"
@@ -20,11 +19,20 @@ SparseInverseSubset = "0.1"
 Tensors = "1.16.0 - 1"
 julia = "1.10.0 - 1"
 
+["0-0.2"]
+Ferrite = "1"
+
+["0.2"]
+SelectedInversion = "0.1"
+
 ["0.2-0"]
 FerriteGmsh = "1.2.0-1"
 GeoInterface = "1.4.0-1"
 LibGEOS = "0.8-0.9"
 LinearMaps = "3.11.0-3"
-SelectedInversion = "0.1"
 Tensors = "1.16.0-1"
 julia = "1.10.0-1"
+
+["0.3-0"]
+Ferrite = "1.0"
+SelectedInversion = "0.1.2-0.2"
