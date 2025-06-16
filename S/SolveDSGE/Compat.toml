@@ -2,7 +2,6 @@
 julia = ["0.7", "1"]
 
 ["0.3-0"]
-ForwardDiff = "0.10"
 GaussQuadrature = "0.5"
 NLsolve = "4.3.0-4"
 PiecewiseLinearApprox = "0.1"
@@ -15,6 +14,9 @@ julia = "1.1.0-1"
 
 ["0.3-0.4.5"]
 SmolyakApprox = "0.1"
+
+["0.3-0.5.8"]
+ForwardDiff = "0.10"
 
 ["0.4.1-0.4.2"]
 ThreadPools = "1.2.1-1"
@@ -67,3 +69,6 @@ SmolyakApprox = "0.3"
 
 ["0.5.8-0"]
 Hungarian = "0.7"
+
+["0.5.9-0"]
+ForwardDiff = "1"
