@@ -2,7 +2,6 @@
 CSV = "0.10"
 DataFrames = "1.6.0-1"
 FastPow = "0.1"
-ForwardDiff = "0.10"
 JSON = "0.21"
 MuladdMacro = "0.2"
 RecipesBase = "1"
@@ -30,6 +29,9 @@ TimerOutputs = "0.5"
 
 ["0-0.2.4"]
 julia = "1.9.0-1"
+
+["0-0.3.0"]
+ForwardDiff = "0.10"
 
 ["0.1.2-0.1"]
 PointNeighbors = "0.2"
@@ -80,6 +82,12 @@ TrixiBase = "0.1.5-0.1"
 PointNeighbors = "0.4.8-0.4"
 
 ["0.3-0"]
-PointNeighbors = "0.6.1-0.6"
 ReadVTK = "0.2"
 WriteVTK = "1.21.2-1"
+
+["0.3.0"]
+PointNeighbors = "0.6.1-0.6"
+
+["0.3.1-0"]
+ForwardDiff = "1"
+PointNeighbors = "0.6.3-0.6"
