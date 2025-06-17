@@ -2,9 +2,11 @@
 BenchmarkTools = "1"
 ChainRulesCore = "1"
 CircularArrays = "1"
-Gridap = "0.18"
 GridapDistributed = "0.4"
 GridapPETSc = "0.5"
+
+["0-0.1"]
+Gridap = "0.18"
 JLD2 = "0.4"
 SparseMatricesCSR = "0.6.6-0.6"
 julia = "1.6.7-1"
@@ -19,6 +21,22 @@ PartitionedArrays = "0.3"
 ["0.1.2-0"]
 BlockArrays = "1"
 FillArrays = "1"
+PartitionedArrays = "0.3.3-0.3"
+
+["0.1.2-0.1"]
 GridapSolvers = "0.4"
 MPI = "0.16-0.20"
-PartitionedArrays = "0.3.3-0.3"
+
+["0.2-0"]
+DataStructures = "0.18"
+FiniteDiff = "2"
+ForwardDiff = ["0.10.14-0.10", "1"]
+Gridap = "0.19"
+GridapEmbedded = "0.9"
+GridapGmsh = "0.7"
+GridapSolvers = "0.6"
+JLD2 = "0.5"
+MPI = "0.20"
+STLCutters = "0.3"
+SparseMatricesCSR = "0.6.7-0.6"
+julia = "1.9.0-1"
