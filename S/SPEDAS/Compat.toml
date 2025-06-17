@@ -10,7 +10,6 @@ Intervals = "1.10.0-1"
 InverseFunctions = "0.1"
 Latexify = "0.16"
 LinearAlgebra = "1"
-Makie = "0.21-0.22"
 NanoDates = "1"
 OhMyThreads = "0.7-0.8"
 RollingWindowArrays = "1.0.1-1"
@@ -33,6 +32,9 @@ StructArrays = "0.7"
 ["0-0.1.4"]
 TimeseriesTools = "0.6"
 
+["0-0.1.8"]
+Makie = "0.21-0.22"
+
 ["0.1.1-0"]
 Accessors = "0.1"
 NaNStatistics = "0.6"
@@ -51,8 +53,16 @@ AstroLib = "0.4.3-0.4"
 ["0.1.7-0"]
 Dictionaries = "0.4"
 IRBEM = "0.1"
-MakieCore = "0.9"
 SpaceDataModel = "0.1.8-0.1"
+
+["0.1.7-0.1.8"]
+MakieCore = "0.9"
 
 ["0.1.8-0"]
 GeoCotrans = ["0.0.1", "0.1"]
+
+["0.1.9-0"]
+HybridArrays = "0.4"
+Makie = "0.21-0.23"
+MakieCore = "0.9-0.10"
+VectorizedStatistics = "0.5"
