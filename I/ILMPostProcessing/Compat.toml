@@ -1,16 +1,24 @@
-[0]
+["0-0.2.1"]
+ImmersedLayers = "0.5"
+
+["0-0.2.4"]
 LinearAlgebra = "1.7.0-1"
 Statistics = "1.7.0-1"
 julia = "1.7.0-1"
 
-["0-0.2.1"]
-ImmersedLayers = "0.5"
-
 ["0.2.1-0"]
 ColorTypes = "0.0.0-0.11"
-OrdinaryDiffEq = "6.50-6.87"
 RecipesBase = "1"
+
+["0.2.1-0.2.4"]
+OrdinaryDiffEq = "6.50-6.87"
 
 ["0.2.2-0"]
 Interpolations = "0.12.10-0.15"
 RecursiveArrayTools = "2.2-3"
+
+["0.2.5-0"]
+LinearAlgebra = "1.10.0-1"
+OrdinaryDiffEq = "6"
+Statistics = "1.10.0-1"
+julia = "1.10.0-1"
