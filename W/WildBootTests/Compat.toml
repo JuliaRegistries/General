@@ -11,26 +11,31 @@ SortingAlgorithms = "1"
 ["0.6.3-0.7.6"]
 LoopVectorization = "0.12.99-0.12"
 
-["0.7.13-0"]
+["0.7.13-1"]
 StableRNGs = "1"
 
 ["0.7.5-0.8.1"]
 julia = "1.7.0-1"
 
-["0.8.2-0"]
-julia = "1.8.0-1"
-
 ["0.8.2-0.9.7"]
 SnoopPrecompile = "1.0.1-1"
+
+["0.8.2-1"]
+julia = "1.8.0-1"
 
 ["0.8.3-0.9.7"]
 LoopVectorization = "0.12.141-0.12"
 
-["0.9.7-0"]
+["0.9.7-1"]
 ThreadsX = "0.1.11-0.1"
 
-["0.9.8-0"]
+["0.9.8-1"]
 Distributions = "0.25.96-0.25"
 LoopVectorization = "0.12.159-0.12"
 PrecompileTools = "1.1.2-1"
 SortingAlgorithms = "1.1.1-1"
+
+[1]
+OrderedCollections = "1.8.0-1"
+SharedArrays = "1.11.0-1"
+SparseArrays = "1.11.0-1"
