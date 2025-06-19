@@ -256,6 +256,9 @@ Rotations = "1.7.0-1"
 KiteUtils = "0.8.4-0.8"
 WinchModels = "0.3.4-0.3"
 
+["0.7"]
+SciMLOperators = "0.3.13-0.3"
+
 ["0.7-0"]
 ADTypes = "1.14.0-1"
 AtmosphericModels = "0.2.4-0.2"
@@ -266,7 +269,6 @@ KitePodModels = "0.3.8-0.3"
 NLSolversBase = "7.8.3-7.8"
 REPL = "1.10.0-1"
 SciMLBase = "2.82.1-2"
-SciMLOperators = "0.3.13-0.3"
 StaticArrays = "1.9.7-1"
 Statistics = "1"
 SymbolicIndexingInterface = "0.3"
@@ -294,7 +296,7 @@ KiteUtils = "0.10.3-0.10"
 LinearAlgebra = "1.10.0-1"
 Serialization = "1.10.0-1"
 
-["0.7.2-0"]
+["0.7.2-0.7"]
 KiteUtils = "0.10.5-0.10"
 
 ["0.7.4-0"]
@@ -307,3 +309,8 @@ OrdinaryDiffEqNonlinearSolve = "1.6.1-1"
 PrecompileTools = "1.2.0-1"
 SymbolicUtils = "3.25.0-3"
 VortexStepMethod = "1.2.6-1"
+
+["0.8-0"]
+KiteUtils = "0.10.10-0.10"
+SHA = "0.7"
+SciMLOperators = ["0.3.13-0.3", "1"]
