@@ -1,18 +1,27 @@
 ["1.10-1"]
 BenchmarkTools = "1"
-ForwardDiff = "0.10"
 ReverseDiff = "1"
 Tracker = "0.2"
+
+["1.10-1.13.0"]
+ForwardDiff = "0.10"
 Zygote = "0.6"
 
 ["1.10.1-1.10"]
 Enzyme = "0.11-0.13"
 
-["1.11-1"]
+["1.11-1.13.0"]
 Enzyme = "0.13.3-0.13"
 
-["1.12-1"]
+["1.12-1.13.0"]
 DifferentiationInterface = "0.6.1-0.6"
+
+["1.13.1-1"]
+ADTypes = "1"
+DifferentiationInterface = "0.6-0.7"
+Enzyme = "0.13"
+ForwardDiff = ["0.10", "1"]
+Zygote = "0.6-0.7"
 
 ["1.4.2-1.7"]
 Enzyme = "0.11"
@@ -32,5 +41,5 @@ Enzyme = "0.11-0.12"
 ["1.9.0"]
 ADTypes = ["0.1.7-0.2", "1"]
 
-["1.9.1-1"]
+["1.9.1-1.13.0"]
 ADTypes = "1.5.0-1"
