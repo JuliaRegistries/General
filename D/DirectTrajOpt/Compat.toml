@@ -4,7 +4,6 @@ FiniteDiff = "2.27.0-2"
 JLD2 = "0.5"
 Libdl = "1.10.0-1"
 LinearAlgebra = "1.10.0-1"
-NamedTrajectories = "0.3"
 Reexport = "1.2.0-1"
 SparseArrays = "1.10.0-1"
 Test = "1.10.0-1"
@@ -12,6 +11,9 @@ TestItemRunner = "1.1.0-1"
 TestItems = "1"
 TrajectoryIndexingUtils = "0.1"
 julia = "1.10.0-1"
+
+["0-0.2"]
+NamedTrajectories = "0.3"
 
 ["0-0.2.1"]
 ForwardDiff = "0.10"
@@ -38,3 +40,6 @@ MathOptInterface = "1.40.0-1"
 ["0.2.7-0"]
 OrdinaryDiffEq = "6.97.0-6"
 SciMLBase = "2.86.0-2"
+
+["0.3-0"]
+NamedTrajectories = "0.4"
