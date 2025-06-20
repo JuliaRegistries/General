@@ -35,16 +35,16 @@ ForwardDiff = "0.10"
 ["0.2.2-0.2.3"]
 DiffEqBase = "6.67.0-6"
 
-["0.2.4-0"]
-NLsolve = "4"
-OffsetArrays = "1"
-
 ["0.2.4-0.3.1"]
 DiffEqBase = "6"
 
 ["0.2.4-0.5.1"]
 LinearMaps = "2-3"
 WriteVTK = "1"
+
+["0.2.4-1"]
+NLsolve = "4"
+OffsetArrays = "1"
 
 ["0.3-0.3.2"]
 Roots = "1"
@@ -58,31 +58,31 @@ Roots = "1-2"
 ["0.4"]
 FillArrays = "0.13"
 
-["0.4-0"]
-UnPack = "1"
-julia = "1.6.0-1"
-
 ["0.4-0.5.1"]
 FLOWMath = "0.3"
 
-["0.4.1-0"]
-ChainRulesCore = "1"
+["0.4-1"]
+UnPack = "1"
+julia = "1.6.0-1"
 
 ["0.4.1-0.5.0"]
 ImplicitAD = "0.2.2-0.2"
 
-["0.5-0"]
-FillArrays = ["0.13", "1"]
-ReverseDiff = "1"
+["0.4.1-1"]
+ChainRulesCore = "1"
 
 ["0.5-0.5.1"]
 IterativeSolvers = "0.9"
 SparseDiffTools = "1-2"
 
+["0.5-1"]
+FillArrays = ["0.13", "1"]
+ReverseDiff = "1"
+
 ["0.5.1"]
 ImplicitAD = "0.3.1-0.3"
 
-["0.5.2-0"]
+["0.5.2-1"]
 ArnoldiMethod = "0.0.4-0.5"
 FLOWMath = "0.3-0.5"
 ForwardDiff = ["0.10", "1"]
@@ -94,3 +94,6 @@ SparseArrays = "1.6-2"
 SparseDiffTools = "2"
 StaticArrays = "1.9-2"
 WriteVTK = "1.21-2"
+
+[1]
+SciMLBase = "1-2"
