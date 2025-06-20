@@ -50,12 +50,12 @@ AbstractPlotting = "0.11"
 ["0.11.1"]
 AbstractPlotting = "0.12"
 
-["0.11.2-0"]
-julia = "1.3.0-1"
-
 ["0.11.2-0.11"]
 AbstractPlotting = "0.14"
 GLMakie = "0.1.18-0.1"
+
+["0.11.2-0.23"]
+julia = "1.3.0-1"
 
 ["0.12"]
 AbstractPlotting = "0.15"
@@ -462,9 +462,16 @@ MakieCore = "0.9.4"
 ["0.22.9-0.22"]
 MakieCore = "0.9.5"
 
+["0.23"]
+MakieCore = "0.10.0"
+
 ["0.23-0"]
 GeometryBasics = "0.5.9-0.5"
-MakieCore = "0.10.0"
+
+["0.24-0"]
+ComputePipeline = "0.1.1-0.1"
+Pkg = "1.10.0-1"
+julia = "1.10.0-1"
 
 ["0.9.1-0.9.2"]
 AbstractPlotting = "0.9.2-0.9"
