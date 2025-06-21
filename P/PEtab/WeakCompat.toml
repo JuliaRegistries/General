@@ -8,8 +8,10 @@ SciMLSensitivity = "6-7"
 QuasiMonteCarlo = "0.2-0.3"
 
 ["1.4-3"]
-Optim = "1"
 PyCall = "1"
+
+["1.4-3.8.4"]
+Optim = "1"
 
 ["2-2.6"]
 Catalyst = "13"
@@ -24,10 +26,12 @@ SciMLSensitivity = "7.55.0-7"
 ["2.12-3"]
 LogDensityProblems = "2.1.0-2"
 LogDensityProblemsAD = "1.7.0-1"
-MCMCChains = "6"
 
 ["2.12-3.5.1"]
 Bijectors = "0.13"
+
+["2.12-3.8.4"]
+MCMCChains = "6"
 
 ["2.14-2"]
 Pigeons = "0.4"
@@ -49,3 +53,7 @@ Bijectors = ["0.13", "0.15"]
 
 ["3.8.2-3"]
 SciMLSensitivity = "7.81.0-7"
+
+["3.8.5-3"]
+MCMCChains = "7"
+Optim = "1.13.0-1"
