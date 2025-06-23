@@ -1,18 +1,30 @@
 [0]
-DataFrames = ["0.21-0.22", "1"]
 Distributions = "0.25"
-LinearAlgebra = "1.6.0-1"
 NLsolve = "4"
 Optim = "1"
 Parameters = "0.12"
 PrecompileTools = "1"
-Random = "1.6.0-1"
-Reexport = ["0.1-0.2", "1"]
 Roots = "2"
 Statistics = "1"
 StatsAPI = "1"
-StatsBase = "0.33-0.34"
 StatsFuns = ["0.9", "1"]
 StatsModels = "0.7"
 Tables = "1"
+
+["0 - 0.1"]
+DataFrames = ["0.21-0.22", "1"]
+LinearAlgebra = "1.6.0-1"
+Random = "1.6.0-1"
+Reexport = ["0.1-0.2", "1"]
+StatsBase = "0.33-0.34"
 julia = "1.6.7-1"
+
+["0.2 - 0"]
+DataFrames = ["0.21 - 0.22", "1"]
+FixedEffectModels = "1.12.0 - 1"
+FixedEffects = "2.3.0 - 2"
+LinearAlgebra = "1.6.0 - 1"
+Random = "1.6.0 - 1"
+Reexport = ["0.1 - 0.2", "1"]
+StatsBase = "0.33 - 0.34"
+julia = "1.9.0 - 1"
