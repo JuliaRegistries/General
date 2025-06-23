@@ -1,73 +1,94 @@
 [0]
 BinningAnalysis = "0.6"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 MuTuner = "1.2.2-1"
 
-["0-0.2"]
+["0 - 0.2"]
 JDQMCMeasurements = "1.3.2-1"
 
-[0-1]
-Checkerboard = "1.2.0-1"
+["0 - 1"]
 FFTW = "1"
-FastLapackInterface = "1-2"
 LatticeUtilities = "2"
 OffsetArrays = "1"
 PkgVersion = "0.3"
 Reexport = "1"
 StaticArrays = "1"
-Statistics = "1.8.0-1"
-julia = "1.8.0-1"
 
-["0-1.0.11"]
+["0 - 1.0.11"]
 JDQMCFramework = "1"
 StableLinearAlgebra = "1"
 
-["0-1.0.6"]
+["0 - 1.0.24"]
+Checkerboard = "1.2.0-1"
+FastLapackInterface = "1-2"
+Statistics = "1.8.0-1"
+julia = "1.8.0-1"
+
+["0 - 1.0.6"]
 JLD2 = "0.4"
 
-["0.1.1-1.0.22"]
+["0.1.1 - 1.0.22"]
 MuTuner = "1.2.3-1"
 
-["0.2-1"]
-Glob = "1.3.0-1"
+["0.2 - 1"]
 MPI = "0.20"
 
-["0.2.6-1"]
+["0.2 - 1.0.24"]
+Glob = "1.3.0-1"
+
+["0.2.6 - 1"]
+TOML = "1"
+
+["0.2.6 - 1.0.24"]
 LinearAlgebra = "1.8.0-1"
 Printf = "1.8.0-1"
 Random = "1.8.0-1"
-TOML = "1"
 
-["0.3-0"]
+["0.3 - 0"]
 JDQMCMeasurements = "1.4.0-1"
 
-["1-1.0.9"]
+["1 - 1.0.9"]
 JDQMCMeasurements = "1.5.0-1"
 
-["1.0.10-1.0.13"]
+["1.0.10 - 1.0.13"]
 JDQMCMeasurements = "1.6.0-1"
 
-["1.0.12-1"]
-StableLinearAlgebra = "1.5.0-1"
-
-["1.0.12-1.0.21"]
+["1.0.12 - 1.0.21"]
 JDQMCFramework = "1.1.0-1"
 
-["1.0.14-1.0.15"]
+["1.0.12 - 1.0.24"]
+StableLinearAlgebra = "1.5.0-1"
+
+["1.0.14 - 1.0.15"]
 JDQMCMeasurements = "1.6.1-1"
 
-["1.0.16-1"]
+["1.0.16 - 1.0.24"]
 JDQMCMeasurements = "1.6.2-1"
 
-["1.0.22-1"]
+["1.0.22 - 1.0.24"]
 JDQMCFramework = "1.1.1-1"
 
-["1.0.23-1"]
+["1.0.23 - 1.0.24"]
 MuTuner = "1.2.5-1"
 
-["1.0.6-1"]
+["1.0.25 - 1"]
+Checkerboard = "1.2.0 - 1"
+FastLapackInterface = "1 - 2"
+Glob = "1.3.0 - 1"
+JDQMCFramework = "1.1.1 - 1"
+JDQMCMeasurements = "1.8.0 - 1"
+JLD2 = "0.4 - 0.5"
+LinearAlgebra = "1.8.0 - 1"
+MuTuner = "1.2.5 - 1"
+Printf = "1.8.0 - 1"
+Random = "1.8.0 - 1"
+StableLinearAlgebra = "1.5.0 - 1"
+Statistics = "1.8.0 - 1"
+julia = "1.8.0 - 1"
+
+["1.0.6 - 1"]
 CodecZlib = "0.7"
 
-["1.0.7-1"]
+["1.0.7 - 1.0.24"]
 JLD2 = "0.4-0.5"
