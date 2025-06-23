@@ -1,21 +1,20 @@
 [0]
 Distributions = "0.25"
 ExponentialAction = "0.2"
-Reexport = "1.2.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 BenchmarkTools = "1.3.0-1"
 IJulia = "1.24.0-1"
 Manifolds = "0.8"
 Revise = "3.5.0-3"
 julia = "1.8.0-1"
 
-["0-0.1.1"]
+["0 - 0.1.1"]
 CairoMakie = "0.10"
 Makie = "0.19"
 NamedTrajectories = "0.1"
 
-["0-0.1.3"]
+["0 - 0.1.3"]
 Documenter = "0.27"
 HDF5 = "0.16"
 Ipopt = "1.2.0-1"
@@ -25,32 +24,35 @@ MathOptInterface = "1.13.0-1"
 Symbolics = "5.2.0-5"
 Zygote = "0.6"
 
-["0-0.2.1"]
+["0 - 0.2.1"]
 JLD2 = "0.4"
 
-["0-0.5"]
+["0 - 0.5"]
 ForwardDiff = "0.10"
 
-["0.1.2-0"]
+["0 - 0.7"]
+Reexport = "1.2.0-1"
+
+["0.1.2 - 0"]
 TrajectoryIndexingUtils = "0.1"
 
-["0.1.2-0.1.3"]
+["0.1.2 - 0.1.3"]
 CairoMakie = "0.10.4-0.10"
 FiniteDiff = "2.19.0-2"
 Makie = "0.19.4-0.19"
 NamedTrajectories = "0.1.1-0.1"
 
-["0.1.2-0.5"]
+["0.1.2 - 0.5"]
 Einsum = "0.4"
 
 ["0.1.3"]
 LaTeXStrings = "1"
 PGFPlotsX = "1"
 
-["0.1.3-0.1"]
+["0.1.3 - 0.1"]
 Colors = "0.12"
 
-["0.1.4-0.1"]
+["0.1.4 - 0.1"]
 CairoMakie = "0.10"
 HDF5 = "0.17"
 Ipopt = "1.4.0-1"
@@ -59,47 +61,47 @@ MathOptInterface = "1.20.0-1"
 NamedTrajectories = "0.1"
 Symbolics = "5.8.0-5"
 
-["0.2-0"]
-julia = "1.10.0-1"
-
-["0.2-0.2.1"]
+["0.2 - 0.2.1"]
 CairoMakie = "0.10-0.12"
 Symbolics = "6.2.0-6"
 TestItemRunner = "0.2"
 TestItems = "0.1"
 
-["0.2-0.3"]
+["0.2 - 0.3"]
 BenchmarkTools = "1.5.0-1"
 Ipopt = "1.6.0-1"
 MathOptInterface = "1.31.0-1"
 
-["0.2-0.3.1"]
+["0.2 - 0.3.1"]
 IJulia = "1.25.0-1"
 NamedTrajectories = "0.2"
 
-["0.2-0.5"]
+["0.2 - 0.5"]
 ProgressMeter = "1.10.0-1"
 
-["0.2.1-0"]
+["0.2 - 0.7"]
+julia = "1.10.0-1"
+
+["0.2.1 - 0.7"]
 Interpolations = "0.15"
 
-["0.2.2-0"]
+["0.2.2 - 0"]
 JLD2 = "0.5"
 TestItems = "1"
 
-["0.2.2-0.3.0"]
+["0.2.2 - 0.3.0"]
 Symbolics = "6.11.0-6"
 
-["0.2.2-0.5"]
+["0.2.2 - 0.5"]
 TestItemRunner = "1"
 
-["0.2.2-0.5.0"]
+["0.2.2 - 0.5.0"]
 CairoMakie = "0.12"
 
-["0.3.1-0.3"]
+["0.3.1 - 0.3"]
 Symbolics = "6.14.0-6"
 
-["0.3.2-0.3"]
+["0.3.2 - 0.3"]
 NamedTrajectories = "0.2.4-0.2"
 
 ["0.5"]
@@ -110,7 +112,7 @@ PkgTemplates = "0.7"
 QuantumCollocationCore = "0.1"
 Symbolics = "6.22.0-6"
 
-["0.5-0"]
+["0.5 - 0.7"]
 LinearAlgebra = "1.10.0-1"
 Random = "1.10.0-1"
 SparseArrays = "1.10.0-1"
@@ -118,7 +120,7 @@ SparseArrays = "1.10.0-1"
 ["0.5.0"]
 NamedTrajectories = "0.2"
 
-["0.5.1-0.5"]
+["0.5.1 - 0.5"]
 CairoMakie = "0.13"
 NamedTrajectories = "0.2.6-0.2"
 
@@ -126,13 +128,13 @@ NamedTrajectories = "0.2.6-0.2"
 NamedTrajectories = "0.2"
 QuantumCollocationCore = "0.3"
 
-["0.6-0"]
+["0.6 - 0.7"]
 TestItemRunner = "1.1.0-1"
 
-["0.6-0.7.0"]
+["0.6 - 0.7.0"]
 PiccoloQuantumObjects = "0.3"
 
-["0.7-0"]
+["0.7"]
 NamedTrajectories = "0.3"
 
 ["0.7.0"]
@@ -141,8 +143,19 @@ DirectTrajOpt = "0.1"
 ["0.7.1"]
 DirectTrajOpt = "0.2"
 
-["0.7.1-0"]
+["0.7.1 - 0.7"]
 PiccoloQuantumObjects = "0.4"
 
-["0.7.2-0"]
+["0.7.2 - 0.7"]
 DirectTrajOpt = "0.2.3-0.2"
+
+["0.8 - 0"]
+DirectTrajOpt = "0.3"
+LinearAlgebra = "1.10.0 - 1"
+NamedTrajectories = "0.4"
+PiccoloQuantumObjects = "0.6"
+Random = "1.10.0 - 1"
+Reexport = "1.2.0 - 1"
+SparseArrays = "1.10.0 - 1"
+TestItemRunner = "1.1.0 - 1"
+julia = "1.10.0 - 1"
