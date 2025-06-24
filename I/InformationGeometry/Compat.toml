@@ -2,169 +2,171 @@
 RecipesBase = "1"
 julia = "1"
 
-["1-1.0.1"]
+["1 - 1.0.1"]
 LsqFit = "0.0.0-0.11"
 Optim = "0.22"
 
-["1-1.0.2"]
+["1 - 1.0.2"]
 DataFrames = "0.0.0-0.21"
 SpecialFunctions = "0.0.0-0.10"
 
-["1-1.1"]
+["1 - 1.1"]
 Combinatorics = "1.0"
 Measurements = "2.2.0-2"
 
-["1-1.10"]
+["1 - 1.10"]
 ForwardDiff = "0.10"
 
-["1-1.10.0"]
+["1 - 1.10.0"]
 OrdinaryDiffEq = "5"
 
-["1-1.10.1"]
+["1 - 1.10.1"]
 Plots = "1"
 
-["1-1.12.0"]
+["1 - 1.12.0"]
 Roots = "1"
 
-["1-1.14.4"]
+["1 - 1.14.4"]
 BoundaryValueDiffEq = "2"
 
-["1-1.14.5"]
+["1 - 1.14.5"]
 DiffEqCallbacks = "2"
 
-["1-1.4"]
+["1 - 1.4"]
 BenchmarkTools = "0.5"
 
-["1-1.5"]
+["1 - 1.5"]
 Distributions = "0.21-0.24"
 
 ["1.0.0"]
 TensorOperations = "2.2.0-2"
 
-["1.0.1-1.7"]
+["1.0.1 - 1.7"]
 TensorOperations = "2.2.0-3"
 
 ["1.0.2"]
 LsqFit = "0.0.0-0.10"
 
-["1.0.2-1.1"]
+["1.0.2 - 1.1"]
 Optim = ["0.22", "1"]
 
 ["1.0.3"]
 LsqFit = "0.9-0.10"
 
-["1.0.3-1.2.1"]
+["1.0.3 - 1.2.1"]
 DataFrames = "0.20-0.21"
 SpecialFunctions = "0.9-0.10"
 
-["1.0.4-1.2.3"]
+["1.0.4 - 1.2.3"]
 LsqFit = "0.9-0.11"
 
-["1.1-1.2.2"]
+["1.1 - 1.2.2"]
 StaticArrays = "0.11-0.12"
 
-["1.10-1"]
+["1.10 - 1.19.2"]
 SpecialFunctions = ["0.9-0.10", "1-2"]
 
 ["1.10.0"]
 ModelingToolkit = "5-7"
 
-["1.10.1-1.14.1"]
+["1.10.1 - 1.14.1"]
 SymbolicUtils = "0.11.3-0.19"
 
-["1.10.1-1.14.5"]
+["1.10.1 - 1.14.5"]
 ModelingToolkit = "5-8"
 
-["1.10.1-1.17"]
+["1.10.1 - 1.17"]
 OrdinaryDiffEq = "5-6"
 
-["1.10.2-1.11.2"]
+["1.10.2 - 1.11.2"]
 PlotUtils = "1.0.9-1.1"
 
-["1.11-1.18.0"]
+["1.11 - 1.18.0"]
 DerivableFunctionsBase = "0.1"
 
-["1.11.3-1"]
+["1.11.3 - 1.19.2"]
 PlotUtils = ["1.0.9-1.1", "1.2.0-1"]
 
-["1.12.1-1"]
+["1.12.1 - 1.19.2"]
 Roots = "1-2"
 
-["1.12.2-1.16.4"]
+["1.12.2 - 1.16.4"]
 ColorSchemes = "2-3"
 
-["1.12.3-1.13.2"]
+["1.12.3 - 1.13.2"]
 PrettyTables = "1"
 
-["1.12.3-1.18.4"]
+["1.12.3 - 1.18.4"]
 ForwardDiff = "0.10"
 
-["1.13.3-1"]
-PrettyTables = "1-2"
-
-["1.13.3-1.14.4"]
+["1.13.3 - 1.14.4"]
 LsqFit = "0.9-0.13"
 
-["1.14-1"]
+["1.13.3 - 1.19.2"]
+PrettyTables = "1-2"
+
+["1.14 - 1.19.2"]
 DistributionsAD = "0.5-0.6"
 
 ["1.14.2"]
 SymbolicUtils = "0.11.3-0.20"
 
-["1.14.3-1.14"]
+["1.14.3 - 1.14"]
 Symbolics = "1-5"
 
-["1.14.3-1.14.5"]
+["1.14.3 - 1.14.5"]
 SymbolicUtils = ["0.11.3-0.20", "1"]
 
-["1.14.4-1.14.5"]
+["1.14.4 - 1.14.5"]
 DataInterpolations = "3-4"
 
 ["1.14.5"]
 LibGEOS = "0.6-0.8"
 
-["1.14.5-1"]
-LsqFit = "0.9-0.15"
-SciMLBase = "1-2"
+["1.14.5 - 1"]
 SnoopPrecompile = "1"
 
-["1.14.5-1.16.0"]
+["1.14.5 - 1.16.0"]
 BoundaryValueDiffEq = "2-5"
 
-["1.14.6-1"]
+["1.14.5 - 1.19.2"]
+LsqFit = "0.9-0.15"
+SciMLBase = "1-2"
+
+["1.14.6 - 1.15.0"]
+DiffEqCallbacks = "2-3"
+Optimization = "3"
+
+["1.14.6 - 1.16.3"]
+DataInterpolations = "3-6"
+
+["1.14.6 - 1.17"]
+ModelingToolkit = "5-9"
+
+["1.14.6 - 1.19.2"]
 ComponentArrays = "0.13-0.15"
 LibGEOS = "0.6-0.9"
 SymbolicUtils = ["0.11.3-0.20", "1-9"]
 
-["1.14.6-1.15.0"]
-DiffEqCallbacks = "2-3"
-Optimization = "3"
-
-["1.14.6-1.16.3"]
-DataInterpolations = "3-6"
-
-["1.14.6-1.17"]
-ModelingToolkit = "5-9"
-
-["1.15-1"]
+["1.15 - 1.19.2"]
 LineSearches = "5-7"
 Symbolics = "1-6"
 
-["1.15.1-1"]
+["1.15.1 - 1.19.2"]
 DiffEqCallbacks = "2-4"
 Optimization = "3-4"
 
-["1.16.4-1"]
+["1.16.4 - 1"]
 PreallocationTools = "0.4"
 Requires = "1"
 
-["1.16.4-1.17"]
+["1.16.4 - 1.17"]
 BoundaryValueDiffEq = "3-5"
 
-["1.16.4-1.18.4"]
+["1.16.4 - 1.18.4"]
 DataInterpolations = "3-7"
 
-["1.18-1"]
+["1.18 - 1"]
 BoundaryValueDiffEqShooting = "1"
 OrdinaryDiffEqCore = "1"
 OrdinaryDiffEqLowOrderRK = "1"
@@ -172,120 +174,151 @@ OrdinaryDiffEqRosenbrock = "1"
 OrdinaryDiffEqTsit5 = "1"
 OrdinaryDiffEqVerner = "1"
 
-["1.18.1-1"]
+["1.18.1 - 1.19.2"]
 DerivableFunctionsBase = "0.1-0.2"
 
 ["1.18.3"]
 Optim = "1-1.11"
 
-["1.18.4-1"]
+["1.18.4 - 1"]
 Optim = "1"
 
-["1.18.5-1"]
-DataInterpolations = "3-8"
+["1.18.5 - 1"]
 ForwardDiff = ["0.10", "1"]
 
-["1.2-1"]
+["1.18.5 - 1.19.2"]
+DataInterpolations = "3-8"
+
+["1.19.3 - 1"]
+ADTypes = "1"
+BenchmarkTools = ["0.5 - 0.7", "1"]
+ComponentArrays = "0.13 - 0.15"
+DataFrames = ["0.20 - 0.22", "1"]
+DataInterpolations = "3 - 8"
+DerivableFunctionsBase = "0.1 - 0.2"
+DiffEqCallbacks = "2 - 4"
+Distributions = "0.21 - 0.25"
+DistributionsAD = "0.5 - 0.6"
+HCubature = "1.4.0 - 1"
+LibGEOS = "0.6 - 0.9"
+LineSearches = "5 - 7"
+LsqFit = "0.9 - 0.15"
+Optimization = "3 - 4"
+PlotUtils = ["1.0.9 - 1.1", "1.2.0 - 1"]
+PrettyTables = "1 - 2"
+ProgressMeter = "1.5.0 - 1"
+Roots = "1 - 2"
+SciMLBase = "1 - 2"
+Sobol = "1.3.0 - 1"
+SpecialFunctions = ["0.9 - 0.10", "1 - 2"]
+StaticArrays = ["0.11 - 0.12", "1"]
+Suppressor = "0.1 - 0.2"
+SymbolicUtils = ["0.11.3 - 0.20", "1 - 9"]
+Symbolics = "1 - 6"
+
+["1.2 - 1"]
 Combinatorics = "1"
-HCubature = "1.4.0-1"
 Measurements = "2"
 
-["1.2-1.18.2"]
+["1.2 - 1.18.2"]
 Optim = "1"
 
-["1.2.2-1.3.2"]
+["1.2 - 1.19.2"]
+HCubature = "1.4.0-1"
+
+["1.2.2 - 1.3.2"]
 ModelingToolkit = "4"
 
-["1.2.2-1.5.1"]
+["1.2.2 - 1.5.1"]
 DataFrames = "0.20-0.22"
 
-["1.2.2-1.9"]
+["1.2.2 - 1.9"]
 SpecialFunctions = ["0.9-0.10", "1"]
 
-["1.2.3-1"]
+["1.2.3 - 1.19.2"]
 StaticArrays = ["0.11-0.12", "1"]
 
-["1.2.4-1"]
+["1.2.4 - 1"]
 TreeViews = "0.3"
 
-["1.2.4-1.13.2"]
+["1.2.4 - 1.13.2"]
 LsqFit = "0.9-0.12"
 
-["1.2.4-1.2"]
+["1.2.4 - 1.2"]
 Reexport = "0.2"
 
-["1.3-1.6"]
+["1.3 - 1.6"]
 Reexport = ["0.2", "1"]
 
-["1.3.1-1.10.1"]
+["1.3.1 - 1.10.1"]
 PlotUtils = "1.0.9-1"
 
-["1.3.3-1.3"]
+["1.3.3 - 1.3"]
 ModelingToolkit = "4-5"
 
-["1.4-1.14.3"]
+["1.4 - 1.14.3"]
 DataInterpolations = "3"
 
-["1.4-1.6"]
+["1.4 - 1.6"]
 ModelingToolkit = "5"
 
-["1.4.2-1.14.4"]
+["1.4.2 - 1.14.4"]
 LibGEOS = "0.6-0.7"
 SciMLBase = "1"
 
 ["1.5.0"]
 BenchmarkTools = "0.5-0.6"
 
-["1.5.1-1.5"]
+["1.5.1 - 1.5"]
 BenchmarkTools = "0.5-0.7"
 
-["1.5.2-1"]
+["1.5.2 - 1.19.2"]
 DataFrames = ["0.20-0.22", "1"]
 
-["1.6-1"]
+["1.6 - 1.19.2"]
 BenchmarkTools = ["0.5-0.7", "1"]
 Distributions = "0.21-0.25"
 
-["1.6.1-1.6"]
+["1.6.1 - 1.6"]
 FiniteDifferences = "0.11"
 SymbolicUtils = "0.11.3-0.12"
 Symbolics = "1"
 
-["1.6.1-1.8"]
+["1.6.1 - 1.8"]
 ReverseDiff = "1.8.0-1"
 Zygote = "0.6"
 
-["1.7-1"]
+["1.7 - 1.19.2"]
 Sobol = "1.3.0-1"
 
-["1.7-1.8"]
+["1.7 - 1.8"]
 FiniteDifferences = "0.11-0.12"
 Symbolics = "1-3"
 
-["1.7-1.9"]
+["1.7 - 1.9"]
 ModelingToolkit = "5-6"
 
 ["1.7.0"]
 SymbolicUtils = "0.11.3-0.15"
 
-["1.7.1-1"]
+["1.7.1 - 1.19.2"]
 ProgressMeter = "1.5.0-1"
 Suppressor = "0.1-0.2"
 
-["1.7.1-1.7"]
+["1.7.1 - 1.7"]
 SymbolicUtils = "0.11.3-0.16"
 
 ["1.8"]
 SymbolicUtils = "0.11.3-0.17"
 
-["1.8-1"]
+["1.8 - 1"]
 Tullio = "0.3"
 
-["1.9-1.10"]
+["1.9 - 1.10"]
 DerivableFunctions = "0.1"
 
-["1.9-1.10.0"]
+["1.9 - 1.10.0"]
 SymbolicUtils = "0.11.3-0.18"
 
-["1.9-1.14.2"]
+["1.9 - 1.14.2"]
 Symbolics = "1-4"
