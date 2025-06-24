@@ -1,7 +1,7 @@
 [0]
 Requires = "1"
 
-["0-0.1"]
+["0 - 0.1"]
 ChainRules = "1"
 ChainRulesCore = "1"
 ForwardDiff = "0.10"
@@ -9,28 +9,33 @@ Manifolds = "0.8"
 RecursiveArrayTools = "2"
 StaticArrays = "1"
 
-["0-0.2.0"]
+["0 - 0.2.0"]
 ManifoldsBase = "0.13"
 
-["0-0.3"]
+["0 - 0.3"]
 julia = "1.6.0-1"
 
-["0.2.1-0.3.0"]
+["0.2.1 - 0.3.0"]
 ManifoldsBase = "0.13.29-0.13"
 
-["0.3.1-0.3.5"]
+["0.3.1 - 0.3.5"]
 ManifoldsBase = "0.13.29-0.14"
 
 ["0.3.6"]
 ManifoldsBase = "0.14.10-0.14"
 
-["0.3.7-0.4.1"]
+["0.3.7 - 0.4.1"]
 ManifoldsBase = "0.15"
 
-["0.4-0"]
+["0.4 - 0.4.2"]
 ADTypes = "1.11.0-1"
 DifferentiationInterface = "0.6.23-0.6"
 julia = "1.10.0-1"
 
-["0.4.2-0"]
+["0.4.2 - 0"]
 ManifoldsBase = ["0.15", "1"]
+
+["0.4.3 - 0"]
+ADTypes = "1.11.0 - 1"
+DifferentiationInterface = "0.6.23 - 0.7"
+julia = "1.10.0 - 1"
