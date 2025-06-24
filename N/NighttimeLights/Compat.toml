@@ -1,4 +1,22 @@
-[0]
+["0 - 0.4"]
+ArchGDAL = "0.8.3-0.8"
+CubicSplines = "0.1.1-0.1"
+GeoInterface = "0.5.7-0.5"
+RecursiveArrayTools = "2.26.3-2"
+Shapefile = "0.7.4-0.7"
+SparseArrays = "1.7.0-1"
+
+["0 - 0.5"]
+GeoArrays = "0.7.2-0.7"
+JLD = "0.13.1-0.13"
+ProgressMeter = "1.7.2-1"
+
+["0 - 0.6"]
+HypothesisTests = "0.10.9-0.10"
+StatsBase = "0.33.16-0.33"
+julia = "1"
+
+["0 - 0.7"]
 CSV = "0.10.4-0.10"
 DataFrames = "1.3.3-1"
 Dates = "1.7.0-1"
@@ -8,45 +26,48 @@ Images = "0.25.2-0.25"
 SmoothingSplines = "0.3.1-0.3"
 Statistics = "1.7.0-1"
 
-["0-0.4"]
-ArchGDAL = "0.8.3-0.8"
-CubicSplines = "0.1.1-0.1"
-GeoInterface = "0.5.7-0.5"
-RecursiveArrayTools = "2.26.3-2"
-Shapefile = "0.7.4-0.7"
-SparseArrays = "1.7.0-1"
-
-["0-0.5"]
-GeoArrays = "0.7.2-0.7"
-JLD = "0.13.1-0.13"
-ProgressMeter = "1.7.2-1"
-
-["0-0.6"]
-HypothesisTests = "0.10.9-0.10"
-StatsBase = "0.33.16-0.33"
-julia = "1"
-
 ["0.5"]
 ArchGDAL = "0.8.3-0.9"
 GeoInterface = ["0.5.7-0.5", "1"]
 
-["0.5-0"]
-CubicSplines = "0.1.1-0.2"
+["0.5 - 0"]
 Plots = "1"
 
-["0.5-0.6"]
+["0.5 - 0.6"]
 Shapefile = "0.7.4-0.8"
+
+["0.5 - 0.7"]
+CubicSplines = "0.1.1-0.2"
 
 ["0.6"]
 DimensionalData = "0.21"
 Rasters = "0.4"
 
-["0.7-0"]
+["0.7"]
 ArchGDAL = "0.9-0.10"
 DimensionalData = "0.27.3-0.27"
 HypothesisTests = "0.10.9-0.11"
 NCDatasets = "0.13-0.14"
-Rasters = "0.11"
-Shapefile = ["0.10", "0.12"]
 StatsBase = "0.33.16-0.34"
 julia = "1.10.0-1"
+
+["0.7 - 0"]
+Rasters = "0.11"
+Shapefile = ["0.10", "0.12"]
+
+["0.8 - 0"]
+ArchGDAL = "0.9 - 0.10"
+CSV = "0.10.4 - 0.10"
+CubicSplines = "0.1.1 - 0.2"
+DataFrames = "1.3.3 - 1"
+Dates = "1.7.0 - 1"
+DimensionalData = "0.27.3 - 0.27"
+Distributions = "0.25.53 - 0.25"
+GLM = "1.7.0 - 1"
+HypothesisTests = "0.10.9 - 0.11"
+Images = "0.25.2 - 0.25"
+NCDatasets = "0.13 - 0.14"
+SmoothingSplines = "0.3.1 - 0.3"
+Statistics = "1.7.0 - 1"
+StatsBase = "0.33.16 - 0.34"
+julia = "1.10.0 - 1"
