@@ -1,4 +1,4 @@
-["0-0.1"]
+["0 - 0.1"]
 CTBase = "0.14"
 DocStringExtensions = "0.9.3-0.9"
 MLStyle = "0.4.17-0.4"
@@ -9,24 +9,34 @@ julia = "1.11.0-1"
 ["0.2"]
 CTBase = "0.15"
 
-["0.2-0"]
+["0.2 - 0"]
 DocStringExtensions = "0.9"
 LinearAlgebra = "1"
 MLStyle = "0.4"
 MacroTools = "0.5"
 Parameters = "0.12"
+
+["0.2 - 0.3"]
+Interpolations = "0.15"
+
+["0.2 - 0.6.0"]
 PrettyTables = "2.4.0-2"
 julia = "1.10.0-1"
 
-["0.2-0.3"]
-Interpolations = "0.15"
-
-["0.2.2-0"]
+["0.2.2 - 0.6.0"]
 RecipesBase = "1.3.0-1"
 
-["0.3-0"]
+["0.3 - 0"]
 CTBase = "0.16"
+
+["0.3 - 0.6.0"]
 OrderedCollections = "1.8.0-1"
 
-["0.4-0"]
+["0.4 - 0"]
 Interpolations = "0.16"
+
+["0.6.1 - 0"]
+OrderedCollections = "1.8.0 - 1"
+PrettyTables = "2.4.0 - 2"
+RecipesBase = "1.3.0 - 1"
+julia = "1.10.0 - 1"
