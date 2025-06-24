@@ -2,13 +2,12 @@
 Cuba = "2"
 FillArrays = ["0.13", "1"]
 Lazy = "0.15"
-QuadGK = "2.5.0-2"
 UnPack = "1"
 
-["0-0.5"]
+["0 - 0.5"]
 MonteCarloIntegration = "0.1"
 
-["0-0.7"]
+["0 - 0.7"]
 Cubature = "1"
 Distributions = "0.25"
 DocStringExtensions = "0.9"
@@ -21,16 +20,22 @@ Optim = "1"
 OrderedCollections = "1"
 julia = "1.8.0-1"
 
+["0 - 0.8.4"]
+QuadGK = "2.5.0-2"
+
 ["0.6"]
 MonteCarloIntegration = "0.1-0.2"
 
 ["0.7"]
 LinearAlgebra = "1"
 
-["0.7-0"]
+["0.7 - 0.8.4"]
 QuasiMonteCarlo = "0.3.3-0.3"
 
-["0.8-0"]
+["0.8 - 0.8.1"]
+julia = "1.10.0-1"
+
+["0.8 - 0.8.4"]
 Cubature = "1.5.1-1"
 Distributions = "0.25.49-0.25"
 DocStringExtensions = "0.8-0.9"
@@ -43,8 +48,21 @@ NLSolversBase = "7.8.0-7"
 Optim = "1.6.2-1"
 OrderedCollections = "1.6.0-1"
 
-["0.8-0.8.1"]
-julia = "1.10.0-1"
-
-["0.8.2-0"]
+["0.8.2 - 0.8.4"]
 julia = "1.11.0-1"
+
+["0.8.5 - 0"]
+Cubature = "1.5.1 - 1"
+Distributions = "0.25.49 - 0.25"
+DocStringExtensions = "0.8 - 0.9"
+HCubature = "1.1.0 - 1"
+Interpolations = "0.13 - 0.15"
+LinearAlgebra = "1.10.0 - 1"
+MacroTools = "0.5.6 - 0.5"
+Measurements = "2.10.0 - 2"
+NLSolversBase = "7.8.0 - 7"
+Optim = "1.6.2 - 1"
+OrderedCollections = "1.6.0 - 1"
+QuadGK = "2.5.0 - 2"
+QuasiMonteCarlo = "0.3.3 - 0.3"
+julia = "1.11.0 - 1"
