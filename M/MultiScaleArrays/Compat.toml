@@ -1,30 +1,38 @@
-["1-1.2"]
+["1 - 1.2"]
 julia = ["0.7", "1"]
 
-["1-1.4"]
+["1 - 1.4"]
 DiffEqBase = "0.11-5"
 RecursiveArrayTools = "0.8.0-0.20"
 
-["1.1-1.2"]
+["1.1 - 1.2"]
 Statistics = ["0.7", "1"]
 
-["1.10.1-1"]
+["1.10.1 - 1.13"]
 SparseDiffTools = "1.6.0-2"
 
-["1.11-1"]
+["1.11 - 1"]
 Statistics = "1"
 
-["1.12-1"]
+["1.12 - 1.13"]
 RecursiveArrayTools = "1-3"
 
-["1.3-1.6"]
+["1.14 - 1"]
+DiffEqBase = "6.5.0 - 6"
+FiniteDiff = "2.3.0 - 2"
+OrdinaryDiffEq = "5.33.0 - 6"
+RecursiveArrayTools = "1 - 3"
+StochasticDiffEq = "6.13.0 - 6"
+julia = "1.10.0 - 1"
+
+["1.3 - 1.6"]
 Statistics = "1"
 julia = "1"
 
 ["1.4"]
 StochasticDiffEq = "0-6"
 
-["1.4-1.5"]
+["1.4 - 1.5"]
 TreeViews = "0.0.0-0.3"
 
 ["1.5"]
@@ -32,31 +40,33 @@ DiffEqBase = "0.0.0-6"
 RecursiveArrayTools = "0.20.0-2"
 StochasticDiffEq = "0.0.0-6"
 
-["1.6-1"]
+["1.6 - 1.10"]
+TreeViews = "0.3"
+
+["1.6 - 1.11"]
+RecursiveArrayTools = "1-2"
+
+["1.6 - 1.13"]
 DiffEqBase = "6.5.0-6"
 StochasticDiffEq = "6.13.0-6"
 
-["1.6-1.10"]
-TreeViews = "0.3"
-
-["1.6-1.11"]
-RecursiveArrayTools = "1-2"
-
-["1.7-1"]
-FiniteDiff = "2.3.0-2"
+["1.7 - 1"]
 ForwardDiff = "0.10"
 
-["1.7-1.10.0"]
+["1.7 - 1.10.0"]
 SparseDiffTools = "1.6.0-1"
 
-["1.7-1.8"]
+["1.7 - 1.13"]
+FiniteDiff = "2.3.0-2"
+
+["1.7 - 1.8"]
 OrdinaryDiffEq = "5.33.0-5"
 Statistics = "1.3.0-1"
 julia = "1.3.0-1"
 
-["1.9-1"]
+["1.9 - 1.10"]
+Statistics = "1.6.0-1"
+
+["1.9 - 1.13"]
 OrdinaryDiffEq = "5.33.0-6"
 julia = "1.6.0-1"
-
-["1.9-1.10"]
-Statistics = "1.6.0-1"
