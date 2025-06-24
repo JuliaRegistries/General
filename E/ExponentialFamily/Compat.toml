@@ -1,17 +1,15 @@
-["1-1.1"]
+["1 - 1.1"]
 DomainSets = "0.6"
 StatsBase = "0.33"
 
-["1-1.2.0"]
+["1 - 1.2.0"]
 IntervalSets = "0.7"
 IrrationalConstants = "0.2"
 StatsFuns = "1"
 
-[1-2]
+["1 - 2"]
 Distributions = "0.25"
 FastCholesky = "1"
-FillArrays = "1.6.0-1"
-HCubature = "1.5.0-1"
 HypergeometricFunctions = "0.3"
 LogExpFunctions = "0.3"
 LoopVectorization = "0.12"
@@ -19,10 +17,14 @@ PositiveFactorizations = "0.2"
 SpecialFunctions = "2"
 StaticArrays = "1"
 TinyHugeNumbers = "1"
-julia = "1.9.0-1"
 
-["1-2.0.3"]
+["1 - 2.0.3"]
 ForwardDiff = "0.10"
+
+["1 - 2.0.5"]
+FillArrays = "1.6.0-1"
+HCubature = "1.5.0-1"
+julia = "1.9.0-1"
 
 ["1.0"]
 BlockArrays = "0.16"
@@ -30,32 +32,49 @@ BlockArrays = "0.16"
 ["1.2"]
 BayesBase = "1.1.0-1"
 
-["1.2-2"]
+["1.2 - 2"]
+StatsBase = "0.34"
+
+["1.2 - 2.0.5"]
 LinearAlgebra = "1.9.0-1"
 Random = "1.9.0-1"
 SparseArrays = "1.9.0-1"
-StatsBase = "0.34"
 
 ["1.2.0"]
 DomainSets = "0.7"
 
-["1.2.1-2"]
+["1.2.1 - 2"]
+StatsFuns = ["0.9", "1"]
+
+["1.2.1 - 2.0.5"]
 DomainSets = "0.5.2-0.7"
 IntervalSets = "0.6-0.7"
 IrrationalConstants = "0.1-0.2"
-StatsFuns = ["0.9", "1"]
 
-["1.3-1.5"]
+["1.3 - 1.5"]
 BayesBase = "1.2.0-1"
 
-["1.6-2"]
+["1.6 - 2.0.5"]
 BayesBase = "1.5.0-1"
 
-["1.7-2"]
+["1.7 - 2.0.5"]
 BlockArrays = "1.3.0-1"
 
 ["2.0.4"]
 ForwardDiff = ["0.10", "1"]
 
-["2.0.5-2"]
+["2.0.5 - 2"]
 ForwardDiff = "0.10"
+
+["2.0.6 - 2"]
+BayesBase = "1.5.0 - 1"
+BlockArrays = "1.3.0 - 1"
+DomainSets = "0.5.2 - 0.7"
+FillArrays = "1.6.0 - 1"
+HCubature = "1.5.0 - 1"
+IntervalSets = "0.6 - 0.7"
+IrrationalConstants = "0.1 - 0.2"
+LinearAlgebra = "1.9.0 - 1"
+Random = "1.9.0 - 1"
+SparseArrays = "1.9.0 - 1"
+julia = "1.9.0 - 1"
