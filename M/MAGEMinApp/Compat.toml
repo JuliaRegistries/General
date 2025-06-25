@@ -1,12 +1,3 @@
-[0]
-CSV = "0.10"
-DataFrames = "1"
-DelimitedFiles = "1"
-HTTP = "1"
-ProgressMeter = "1"
-StaticArrays = "1"
-Statistics = "1"
-
 ["0 - 0.1.0"]
 Dash = "1.4.0-1"
 DashBootstrapComponents = "1.4.0-1"
@@ -30,6 +21,15 @@ julia = "1.9.0-1"
 
 ["0 - 0.8.4"]
 ConcaveHull = "1"
+
+["0 - 1"]
+CSV = "0.10"
+DataFrames = "1"
+DelimitedFiles = "1"
+HTTP = "1"
+ProgressMeter = "1"
+StaticArrays = "1"
+Statistics = "1"
 
 ["0.1.1 - 0.1.2"]
 PlotlyJS = "0.18.12-0.18"
@@ -58,7 +58,7 @@ MAGEMin_C = "1.4.0-1"
 MAGEMin_C = "1.4.1-1"
 MAGEMin_jll = "1.4.0-1"
 
-["0.1.8 - 0"]
+["0.1.8 - 1"]
 PCHIPInterpolation = "0.2"
 
 ["0.2 - 0.2.1"]
@@ -141,10 +141,6 @@ MAGEMin_C = "1.6.4"
 ["0.5.6"]
 MAGEMin_C = "1.6.5"
 
-["0.5.7 - 0"]
-LazyGrids = "0.5"
-PolygonInbounds = "0.2"
-
 ["0.5.7 - 0.5"]
 MAGEMin_C = "1.6.6"
 
@@ -154,6 +150,10 @@ Random = "1.9.4-1"
 ["0.5.7 - 0.7"]
 Graphs = "1.12.0-1"
 Images = "0.26.1-0.26"
+
+["0.5.7 - 1"]
+LazyGrids = "0.5"
+PolygonInbounds = "0.2"
 
 ["0.6.0"]
 MAGEMin_C = "1.6.7"
@@ -194,7 +194,7 @@ MAGEMin_C = "1.7.6"
 ["0.7.4 - 0.7"]
 MAGEMin_C = "1.7.7"
 
-["0.8 - 0"]
+["0.8 - 1"]
 Bibliography = "0.2.20 - 0.2"
 Contour = "0.6.3 - 0.6"
 Dash = "1.5.0 - 1"
@@ -222,14 +222,14 @@ MAGEMin_C = "1.8.2"
 ["0.8.4"]
 MAGEMin_C = "1.8.3"
 
-["0.8.4 - 0"]
+["0.8.4 - 1"]
 TOML = "1.0.3 - 1"
-
-["0.8.5 - 0"]
-ConcaveHull = "1.1.0 - 1"
 
 ["0.8.5 - 0.8.7"]
 MAGEMin_C = "1.8.4"
+
+["0.8.5 - 1"]
+ConcaveHull = "1.1.0 - 1"
 
 ["0.8.8"]
 MAGEMin_C = "1.8.5"
@@ -260,4 +260,9 @@ MAGEMin_C = "1.9.3"
 
 ["0.9.9 - 0"]
 MAGEMin_C = "1.9.5"
+
+["0.9.9 - 1"]
 XLSX = "0.10.4 - 0.10"
+
+[1]
+MAGEMin_C = "1.9.6"
