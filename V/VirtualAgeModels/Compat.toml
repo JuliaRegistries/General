@@ -1,11 +1,23 @@
 [0]
-DataFrames = "1.5.0-1"
 Distributions = "0.25"
+
+["0 - 0.1.1"]
+DataFrames = "1.5.0-1"
 Optim = "1.7.0-1"
 julia = "1.9.0-1"
 
-["0.1.1-0"]
-AbstractTrees = "0.4"
+["0.1.1"]
 OrderedCollections = "1.6.0-1"
+
+["0.1.1 - 0"]
+AbstractTrees = "0.4"
 Plots = "1"
 RCall = "0.14"
+
+["0.1.2 - 0"]
+DataFrames = "1.5.0 - 1"
+Integrals = "4.6.0 - 4"
+Optim = "1.7.0 - 1"
+OrderedCollections = "1.6.0 - 1"
+StatsBase = "0.34.5 - 0.34"
+julia = "1.9.0 - 1"
