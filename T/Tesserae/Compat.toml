@@ -1,40 +1,51 @@
 [0]
 PoissonDiskSampling = "0.11"
 Preferences = "1"
-ProgressMeter = "1.8.0-1"
 Random = "1"
 Reexport = "1"
 SparseArrays = "1"
+
+["0 - 0.1.8"]
+Tensorial = "0.14"
+
+["0 - 0.2"]
+ProgressMeter = "1.8.0-1"
 WriteVTK = "1.18.0-1"
 julia = "1.9.0-1"
 
-["0-0.1.8"]
-Tensorial = "0.14"
-
-["0-0.2.9"]
+["0 - 0.2.9"]
 StructArrays = "0.6"
 
-["0.1.11-0.1.13"]
+["0.1.11 - 0.1.13"]
 Tensorial = "0.14-0.16"
 
-["0.1.14-0.1"]
+["0.1.14 - 0.1"]
 Tensorial = "0.17"
 
-["0.1.9-0.1.10"]
+["0.1.9 - 0.1.10"]
 Tensorial = "0.14-0.15"
 
-["0.2-0"]
+["0.2 - 0"]
 Tensorial = "0.18"
 
-["0.2.10-0"]
+["0.2.10 - 0"]
 StaticArrays = "1"
+
+["0.2.10 - 0.2"]
 StructArrays = "0.6-0.7"
 
-["0.2.12-0.2.15"]
+["0.2.12 - 0.2.15"]
 FastClosures = "0.3"
 
-["0.2.13-0"]
+["0.2.13 - 0"]
 Adapt = "4"
 Atomix = "1"
 GPUArraysCore = "0.2"
 KernelAbstractions = "0.9"
+
+["0.3 - 0"]
+MacroTools = "0.5"
+ProgressMeter = "1.8.0 - 1"
+StructArrays = "0.6 - 0.7"
+WriteVTK = "1.18.0 - 1"
+julia = "1.9.0 - 1"
