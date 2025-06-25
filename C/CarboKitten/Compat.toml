@@ -1,22 +1,33 @@
 [0]
 HDF5 = "0.17"
 Unitful = "1"
-julia = "1.10.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 ProgressBars = "1.5.0-1"
 
-["0-0.3"]
+["0 - 0.3"]
 AxisArrays = "0.4"
 Transducers = "0.4"
 
-["0.2-0"]
+["0 - 0.4"]
+julia = "1.10.0-1"
+
+["0.2 - 0"]
 CSV = "0.10"
 CategoricalArrays = "0.10"
 DataFrames = "1"
 ModuleMixins = "0.2"
 ProgressLogging = "0.1"
+
+["0.2 - 0.4"]
 TerminalLoggers = "0.1.7-0.1"
 
-["0.4-0"]
+["0.4"]
 StaticArrays = "1.9.12-1"
+
+["0.5 - 0"]
+GeometryBasics = "0.5.7 - 0.5"
+LinearAlgebra = "1.10.0 - 1"
+StaticArrays = "1.9.12 - 1"
+TerminalLoggers = "0.1.7 - 0.1"
+julia = "1.10.0 - 1"
