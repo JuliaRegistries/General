@@ -1,11 +1,10 @@
 [9]
 PoissonRandom = "0.4"
-UnPack = "1.0.2-1"
 
-["9-9.1"]
+["9 - 9.1"]
 SciMLBase = "1.35.1-1"
 
-["9-9.10"]
+["9 - 9.10"]
 DataStructures = "0.17-0.18"
 DocStringExtensions = "0.8.6-0.9"
 FunctionWrappers = "1"
@@ -15,16 +14,19 @@ Reexport = ["0.2", "1"]
 StaticArrays = ["0.10-0.12", "1"]
 julia = "1.6.0-1"
 
-["9-9.3"]
+["9 - 9.16.0"]
+UnPack = "1.0.2-1"
+
+["9 - 9.3"]
 ArrayInterfaceCore = "0.1.1-0.1"
 
-["9-9.5"]
+["9 - 9.5"]
 DiffEqBase = "6.45.0-6"
 
-["9-9.8"]
+["9 - 9.8"]
 TreeViews = "0.3"
 
-["9-9.9"]
+["9 - 9.9"]
 RecursiveArrayTools = "2"
 
 ["9.10"]
@@ -33,50 +35,65 @@ RecursiveArrayTools = "2-3"
 ["9.11"]
 SciMLBase = "2.30.1-2"
 
-["9.11-9"]
-ArrayInterface = "7.9.0-7"
+["9.11 - 9"]
 DataStructures = "0.18"
 DocStringExtensions = "0.9"
+Reexport = "1"
+
+["9.11 - 9.13.4"]
+DiffEqBase = "6.148.0-6"
+
+["9.11 - 9.16.0"]
+ArrayInterface = "7.9.0-7"
 FunctionWrappers = "1.1.0-1"
 Graphs = "1.9.0-1"
 RandomNumbers = "1.5.0-1"
 RecursiveArrayTools = "3.12.0-3"
-Reexport = "1"
 StaticArrays = "1.9.0-1"
 julia = "1.10.0-1"
-
-["9.11-9.13.4"]
-DiffEqBase = "6.148.0-6"
 
 ["9.11.0"]
 SymbolicIndexingInterface = "0.3.11-0.3"
 
-["9.11.1-9"]
+["9.11.1 - 9.16.0"]
 SymbolicIndexingInterface = "0.3.13-0.3"
 
-["9.12-9.14.0"]
+["9.12 - 9.14.0"]
 SciMLBase = "2.46.0-2"
 
-["9.13.4-9"]
+["9.13.4 - 9"]
 Setfield = "1"
 
-["9.13.5-9"]
+["9.13.5 - 9.16.0"]
 DiffEqBase = "6.154.0-6"
 
-["9.14.1-9"]
+["9.14.1 - 9.16.0"]
 SciMLBase = "2.59.0-2"
 
-["9.15-9"]
+["9.15 - 9.16.0"]
 DiffEqCallbacks = "4.3.0-4"
 
-["9.2-9.7"]
+["9.16.1 - 9"]
+ArrayInterface = "7.9.0 - 7"
+DiffEqBase = "6.154.0 - 6"
+DiffEqCallbacks = "4.3.0 - 4"
+FunctionWrappers = "1.1.0 - 1"
+Graphs = "1.9.0 - 1"
+RecursiveArrayTools = "3.12.0 - 3"
+SciMLBase = "2.59.0 - 2"
+StaticArrays = "1.9.0 - 1"
+SymbolicIndexingInterface = "0.3.13 - 0.3"
+UnPack = "1.0.2 - 1"
+julia = "1.10.0 - 1"
+
+["9.2 - 9.7"]
 SciMLBase = "1.51.0-1"
 
-["9.4-9.10"]
+["9.4 - 9.10"]
 ArrayInterface = "6-7"
 
-["9.6-9.10"]
+["9.6 - 9.10"]
 DiffEqBase = "6.122.0-6"
 
-["9.8-9.10"]
+["9.8 - 9.10"]
 SciMLBase = "1.51.0-2"
