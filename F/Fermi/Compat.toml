@@ -1,8 +1,4 @@
-[0]
-Formatting = "0.4.1-0.4"
-TensorOperations = "3"
-
-["0-0.1"]
+["0 - 0.1"]
 ArnoldiMethod = "0.0.4"
 CuArrays = "2.2.2-2"
 HDF5 = "0.13.3-0.13"
@@ -11,16 +7,20 @@ MPI = "0.15.1-0.15"
 PrettyTables = "0.9.1-0.9"
 TBLIS = "0.0.0-0.1"
 
-["0-0.2"]
+["0 - 0.2"]
 Combinatorics = "1.0.2-1"
 DistributedArrays = "0.6.5-0.6"
 IterativeSolvers = "0.8.4-0.8"
 julia = "1.4.0-1"
 
+["0 - 0.4"]
+Formatting = "0.4.1-0.4"
+TensorOperations = "3"
+
 ["0.0"]
 Lints = "0.2.1-0.2"
 
-["0.1-0.2"]
+["0.1 - 0.2"]
 Lints = "0.4"
 
 ["0.2"]
@@ -34,16 +34,30 @@ TBLIS = "0.1"
 ["0.3"]
 julia = "1.5.0-1"
 
-["0.3-0"]
+["0.3 - 0"]
+Suppressor = "0.2"
+
+["0.3 - 0.4"]
 Memoize = "0.4"
 PrettyTables = "1"
 Strided = "1"
-Suppressor = "0.2"
 TBLIS = "0.2"
 
-["0.4-0"]
+["0.4"]
 GaussianBasis = "0.2"
-LoopVectorization = "0.12"
 Molecules = "0.1.1-0.1"
-Octavian = "0.3"
 julia = "1.6.0-1"
+
+["0.4 - 0"]
+LoopVectorization = "0.12"
+Octavian = "0.3"
+
+["0.5 - 0"]
+Combinatorics = "1"
+Formatting = "0.4.1 - 0.4"
+GaussianBasis = "0.4 - 0.5"
+Molecules = "0.3"
+PrettyTables = "1 - 2"
+Strided = "1 - 2"
+TensorOperations = ["3", "5"]
+julia = "1.6.0 - 1"
