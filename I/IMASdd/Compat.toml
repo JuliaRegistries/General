@@ -1,7 +1,7 @@
-["2-2.4.12"]
+["2 - 2.4.12"]
 PCHIPInterpolation = "0.2"
 
-[2-7]
+["2 - 7"]
 AbstractTrees = "0.4"
 JSON = "0.21"
 OrderedCollections = "1"
@@ -14,33 +14,39 @@ julia = "1"
 DataInterpolations = "5"
 HDF5 = "0.16.14-0.16"
 
-["2.2-2.4.4"]
+["2.2 - 2.4.4"]
 DataInterpolations = ["5", "6.0"]
 
-["2.2-7"]
+["2.2 - 7"]
 HDF5 = "0.17"
 
-["2.4.13-2"]
+["2.4.13 - 2"]
 DataInterpolations = ["5", "6.2.0-6"]
 
-["2.4.5-2.4.12"]
+["2.4.5 - 2.4.12"]
 DataInterpolations = ["5", "6.0", "6.2.0-6"]
 
-["3-4.0.1"]
+["3 - 4.0.1"]
 DataInterpolations = "6"
 
-[3-7]
+["3 - 7"]
 CoordinateConventions = "1"
 
-["3.2-7"]
+["3.2 - 7.1.2"]
 Dates = "1.11.0-1"
 
-["4.0.2-4"]
+["4.0.2 - 4"]
 DataInterpolations = "7"
 
-[5-7]
+["5 - 7.1.2"]
 DataInterpolations = "7-8"
 
-["6.0.5-7"]
+["6.0.5 - 7.1.2"]
 Memoization = "0.2.2-0.2"
 ThreadSafeDicts = "0.1.6-0.1"
+
+["7.1.3 - 7"]
+DataInterpolations = "7 - 8"
+Dates = "1.11.0 - 1"
+Memoization = "0.2.2 - 0.2"
+ThreadSafeDicts = "0.1.6 - 0.1"
