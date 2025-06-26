@@ -4,9 +4,14 @@ Manifolds = "0.8.43-0.8"
 ["0.3.2 - 0.3"]
 ForwardDiff = "0.10"
 
+["0.4.3"]
+ForwardDiff = "0.10"
+
 ["0.4.3 - 0"]
 FiniteDiff = "2"
 FiniteDifferences = "0.12"
-ForwardDiff = "0.10"
 ReverseDiff = "1"
 Zygote = "0.7"
+
+["0.4.4 - 0"]
+ForwardDiff = ["0.10", "1"]
