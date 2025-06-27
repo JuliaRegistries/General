@@ -14,12 +14,16 @@ Distances = "0.10"
 ["0.3"]
 julia = "1.6.0-1"
 
-["0.3.4 - 0"]
+["0.3.4 - 0.4.0"]
 GeometricBase = "0.10"
 
-["0.3.7 - 0"]
+["0.3.7 - 0.4.0"]
 ForwardDiff = ["0.10", "1"]
 
 ["0.4 - 0"]
 StaticArrays = "1.9.13 - 1"
 julia = "1.6.0 - 1"
+
+["0.4.1 - 0"]
+ForwardDiff = "1"
+GeometricBase = "0.10 - 0.11"
