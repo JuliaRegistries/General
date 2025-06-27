@@ -2,42 +2,44 @@
 NLsolve = "4.5.1-4"
 Unitful = "1.15.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 ExtendableGrids = "0.9.17-0.9"
 ForwardDiff = "0.10.35-0.10"
 VoronoiFVM = "1.10.0-1"
 
-["0-0.2.1"]
+["0 - 0.2.1"]
 RecursiveArrayTools = "2.38.7-2"
 
-["0-0.2.3"]
+["0 - 0.2.3"]
 LessUnitful = "0.6.1-0.6"
 
-[0-2]
+["0 - 1"]
 DocStringExtensions = "0.9.3-0.9"
 PhysicalConstants = "0.2.3-0.2"
 ProgressLogging = "0.1.4-0.1"
 StaticArrays = "1.6.0-1"
 julia = "1.9.0-1"
 
-["0.2-0"]
+["0.2 - 0"]
 ExtendableGrids = ["0.9.17-0.9", "1"]
 ForwardDiff = "0.10.35-0.11"
 
-["0.2-0.2.1"]
+["0.2 - 0.2.1"]
 VoronoiFVM = "1.13.0-1"
 
-["0.2.2-0.2.3"]
+["0.2.2 - 0.2.3"]
 VoronoiFVM = "1.18.3-1"
 
-["0.2.4-0"]
+["0.2.4 - 0"]
 VoronoiFVM = "1.18.3-2"
 
-["0.2.4-2"]
+["0.2.4 - 1"]
 LessUnitful = "1.1.0-1"
 
-[1-2]
+[1]
 ProgressMeter = "1.7.0-1"
+
+["1 - 2"]
 SciMLBase = "2"
 
 ["1.0"]
@@ -47,15 +49,42 @@ NLsolve = "4.5.1-4"
 Unitful = "1.15.0-1"
 VoronoiFVM = "2.6.0-2"
 
-["1.1-2"]
+["1.1 - 1"]
 ExtendableGrids = "1.12.0-1"
 ForwardDiff = ["0.10.35-0.11", "1"]
+Unitful = "1.22.0-1"
+VoronoiFVM = "2.8.0-2"
+
+["1.1 - 2"]
 InteractiveUtils = "1"
 LinearAlgebra = "1"
 Markdown = "1"
 Printf = "1"
+
+["2.0"]
+DocStringExtensions = "0.9.3-0.9"
+ExtendableGrids = "1.12.0-1"
+ForwardDiff = ["0.10.35-0.11", "1"]
+LessUnitful = "1.1.0-1"
+PhysicalConstants = "0.2.3-0.2"
+PreallocationTools = "0.4.27-0.4"
+ProgressLogging = "0.1.4-0.1"
+ProgressMeter = "1.7.0-1"
+StaticArrays = "1.6.0-1"
 Unitful = "1.22.0-1"
 VoronoiFVM = "2.8.0-2"
+julia = "1.9.0-1"
 
-[2]
-PreallocationTools = "0.4.27-0.4"
+["2.1 - 2"]
+DocStringExtensions = "0.9.3 - 0.9"
+ExtendableGrids = "1.12.0 - 1"
+ForwardDiff = ["0.10.35 - 0.11", "1"]
+LessUnitful = "1.1.0 - 1"
+PhysicalConstants = "0.2.3 - 0.2"
+PreallocationTools = "0.4.27 - 0.4"
+ProgressLogging = "0.1.4 - 0.1"
+ProgressMeter = "1.7.0 - 1"
+StaticArrays = "1.6.0 - 1"
+Unitful = "1.22.0 - 1"
+VoronoiFVM = "2.8.0 - 2"
+julia = "1.9.0 - 1"
