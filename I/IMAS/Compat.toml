@@ -34,17 +34,15 @@ DataInterpolations = "5-6"
 FFMPEG = "0.4"
 IMASutils = "1.3.0-1"
 
-["3-3.2"]
+["3 - 3.2"]
 IMASdd = "3"
 
-["3-3.2.2"]
+["3 - 3.2.2"]
 MillerExtendedHarmonic = "1"
 
-[3-5]
-Compat = "4.10.0-4"
+["3 - 5"]
 Contour = "0.6"
 CoordinateConventions = "1"
-DSP = "0.8.1-0.8"
 ExpiringCaches = "1"
 FuseExchangeProtocol = "2"
 GraphRecipes = "0.5"
@@ -67,47 +65,63 @@ Roots = "2"
 StaticArrays = "1"
 julia = "1"
 
-["3-5.2"]
+["3 - 5.2"]
 Interpolations = "0.14.7-0.15"
 
-["3.2.3-5"]
+["3 - 5.4.4"]
+Compat = "4.10.0-4"
+DSP = "0.8.1-0.8"
+
+["3.2.3 - 5.4.4"]
 MillerExtendedHarmonic = "1-2"
 
-["3.3-3"]
+["3.3 - 3"]
 IMASdd = "4"
 
 [4]
 IMASutils = "1.5.0-1"
 
-[4-5]
-HelpPlots = "1.1.0-1"
-
-["4-5.1"]
+["4 - 5.1"]
 DataInterpolations = "7-8"
 IMASdd = "5"
+
+["4 - 5.4.4"]
+HelpPlots = "1.1.0-1"
 
 ["5.0"]
 IMASutils = "1.5.0-1"
 
-["5.1-5"]
+["5.1 - 5.4.4"]
 IMASutils = "1.5.1-1"
 
 ["5.2"]
 DataInterpolations = ["7", "8.0.0", "8.0.2-8"]
 
-["5.2-5.3"]
+["5.2 - 5.3"]
 IMASdd = "6"
 
-["5.3-5"]
+["5.3 - 5.4.4"]
 DataInterpolations = "7-8"
 Interpolations = ["0.14.7-0.15", "0.16.1-0.16"]
 
-["5.4-5"]
+["5.4 - 5.4.4"]
 NaturalNeighbours = "1.3.6-1"
 Statistics = "1.11.1-1"
 
 ["5.4.0"]
 IMASdd = "7"
 
-["5.4.1-5"]
+["5.4.1 - 5.4.4"]
 IMASdd = "7.1.0-7"
+
+["5.4.5 - 5"]
+Compat = "4.10.0 - 4"
+DSP = "0.8.1 - 0.8"
+DataInterpolations = "7 - 8"
+HelpPlots = "1.1.0 - 1"
+IMASdd = "7.1.0 - 7"
+IMASutils = "1.5.1 - 1"
+Interpolations = ["0.14.7 - 0.15", "0.16.1 - 0.16"]
+MillerExtendedHarmonic = "1 - 2"
+NaturalNeighbours = "1.3.6 - 1"
+Statistics = "1.11.1 - 1"
