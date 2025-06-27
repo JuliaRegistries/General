@@ -173,6 +173,9 @@ julia = "1.8.0-1"
 ["0.5.9 - 0.6.6"]
 EulerLagrange = "0.3"
 
+["0.6.10 - 0"]
+Documenter = "1"
+
 ["0.6.3"]
 GeometricEquations = "0.11-0.17"
 
@@ -191,8 +194,10 @@ EulerLagrange = "0.4"
 ["0.6.7 - 0.6.8"]
 GeometricSolutions = "0.4"
 
-["0.6.9 - 0"]
+["0.6.9"]
 Documenter = ["0.25 - 0.27", "1"]
+
+["0.6.9 - 0"]
 GeometricBase = "0.11"
 GeometricEquations = "0.19"
 GeometricSolutions = "0.5"
