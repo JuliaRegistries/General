@@ -99,7 +99,6 @@ VLBIImagePriors = "0.10"
 AbstractMCMC = "3 - 5"
 AstroTime = "0.6 - 0.7"
 DocStringExtensions = "0.8 - 0.9"
-HypercubeTransform = "0.4.4 - 0.4"
 IntervalSets = "0.6 - 0.7"
 NamedTupleTools = "0.13 - 0.14"
 ParameterHandling = "0.4 - 0.5"
@@ -110,6 +109,12 @@ StatsBase = "0.33 - 0.34"
 StructArrays = "0.5 - 0.7"
 VLBILikelihoods = "0.2.6 - 0.2"
 julia = "1.10.0 - 1"
+
+["0.11.14 - 0.11.15"]
+HypercubeTransform = "0.4.4 - 0.4"
+
+["0.11.16 - 0"]
+HypercubeTransform = "0.4.11 - 0.4"
 
 ["0.11.3 - 0.11.13"]
 StructArrays = "0.5-0.7"
