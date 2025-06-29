@@ -15,21 +15,30 @@ julia = "1.7.0-1"
 
 ["0.2-0"]
 GeophysicalModelGenerator = "0.7"
-Interpolations = "0.14-0.15"
 Revise = "3.5.0-3"
 julia = "1.9.0-1"
 
 ["0.2-0.2.1"]
 LaMEM = "0.3"
 
+["0.2-0.2.4"]
+Interpolations = "0.14-0.15"
+
 ["0.2.2-0"]
-ForwardDiff = "0.10"
-GeoParams = "0.6"
 SparseArrays = "1"
 SparseDiffTools = "2"
 
 ["0.2.2-0.2.3"]
 LaMEM = "0.3.8-0.3"
 
+["0.2.2-0.2.4"]
+ForwardDiff = "0.10"
+GeoParams = "0.6"
+
 ["0.2.4-0"]
 LaMEM = "0.3-0.4"
+
+["0.2.5-0"]
+ForwardDiff = "0-1"
+GeoParams = "0"
+Interpolations = "0"
