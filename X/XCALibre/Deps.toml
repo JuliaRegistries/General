@@ -4,7 +4,6 @@ Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 Atomix = "a9b6321e-bd34-4604-b9c9-b65b8de01458"
 GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
 ILUZero = "88f59080-6952-5380-9ea5-54057fb9a43f"
-IncompleteLU = "40713840-3770-5561-ab4c-a76e7d0d7895"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
 LDLFactorizations = "40e66cde-538c-5869-a4ad-c39174c6795b"
@@ -19,6 +18,9 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.3.3-0"]
+["0 - 0.4"]
+IncompleteLU = "40713840-3770-5561-ab4c-a76e7d0d7895"
+
+["0.3.3 - 0"]
 KrylovPreconditioners = "45d422c2-293f-44ce-8315-2cb988662dec"
 SparseMatricesCSR = "a0a7dd2c-ebf4-11e9-1f05-cf50bc540ca1"
