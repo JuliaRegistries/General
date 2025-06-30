@@ -1,39 +1,52 @@
 [0]
 Arpack = "0.5"
-ProgressMeter = "1.4.0-1"
 TimerOutputs = "0.5"
 julia = "1"
 
-["0-0.1"]
+["0 - 0.1"]
 DoubleFloats = "1.1.0-1"
 FiniteDifferences = "0.12"
 PlotThemes = "2"
 Plots = "1.10.0-1"
 
-["0-0.1.11"]
+["0 - 0.1.11"]
 MathOptInterface = "0.9.19-0.9"
 
-["0-0.1.5"]
+["0 - 0.1.5"]
 ReverseDiff = "1.7.0-1"
 
-["0-0.2.16"]
+["0 - 0.2.16"]
 Hungarian = "0.6"
 
-["0.1.12-0.1.19"]
+["0 - 0.5.1"]
+ProgressMeter = "1.4.0-1"
+
+["0.1.12 - 0.1.19"]
 MathOptInterface = "0.10"
 
-["0.1.20-0"]
+["0.1.20 - 0"]
 MathOptInterface = "1"
 
-["0.2-0"]
-GenericSchur = "0.5.3-0.5"
+["0.2 - 0"]
 Setfield = "1"
 
-["0.2.17-0"]
+["0.2 - 0.5.1"]
+GenericSchur = "0.5.3-0.5"
+
+["0.2.17 - 0.5.1"]
 Hungarian = "0.6-0.7"
 
-["0.4.10-0"]
+["0.4.10 - 0"]
 ProximalCore = "0.1"
 
-["0.5.1-0"]
+["0.5.1"]
 Hypatia = "0.8.2-0.8"
+
+["0.5.2 - 0"]
+GenericSchur = "0.5.3 - 0.5"
+Hungarian = "0.6 - 0.7"
+LinearAlgebra = "1"
+Printf = "1"
+ProgressMeter = "1.4.0 - 1"
+Random = "1"
+SparseArrays = "1"
