@@ -1,7 +1,7 @@
-["0-0.3.4"]
+["0 - 0.3.4"]
 julia = "1.1.0-1"
 
-["0.10.1-0"]
+["0.10.1 - 0.13"]
 Artifacts = "1.6.0-1"
 Downloads = "1.4.3-1"
 InteractiveUtils = "1.6.0-1"
@@ -11,34 +11,34 @@ Pkg = "1.6.0-1"
 REPL = "1.6.0-1"
 Random = "1.6.0-1"
 
-["0.11-0.11.1"]
+["0.11 - 0.11.1"]
 GAP_jll = "400.1300"
 GAP_lib_jll = "400.1300"
 GAP_pkg_juliainterface_jll = "0.900.0"
 
-["0.11.1-0"]
+["0.11.1 - 0.13"]
 MacroTools = "0.5.13-0.5"
 
-["0.11.2-0.11"]
+["0.11.2 - 0.11"]
 GAP_pkg_juliainterface_jll = "0.900.100"
 
-["0.11.2-0.12"]
+["0.11.2 - 0.12"]
 GAP_jll = "400.1300.101-400.1300"
 GAP_lib_jll = "400.1300.100-400.1300"
 
 ["0.11.3"]
 AbstractAlgebra = ["0.41.11-0.41", "0.42.1-0.42"]
 
-["0.11.4-0.12.1"]
+["0.11.4 - 0.12.1"]
 AbstractAlgebra = ["0.41.11-0.41", "0.42.1-0.43"]
 
 ["0.12"]
 GAP_pkg_juliainterface_jll = "0.1200.0"
 
-["0.12.2-0.13.2"]
+["0.12.2 - 0.13.2"]
 AbstractAlgebra = ["0.41.11-0.41", "0.42.1-0.44"]
 
-["0.13-0"]
+["0.13"]
 BinaryWrappers = "0.1.3-0.1"
 Compat = "4.11.0-4"
 GAP_pkg_ace_jll = "500.600.200-500"
@@ -67,11 +67,13 @@ GAP_pkg_nq_jll = "200.500.1100-200"
 GAP_pkg_orb_jll = "400.900.100-400"
 GAP_pkg_profiling_jll = "200.600.0-200"
 GAP_pkg_simpcomp_jll = "200.100.1400-200"
-GAP_pkg_zeromqinterface_jll = "0.1600"
 Singular_jll = "404.1.700-404"
-TOML = ["0.0.0", "1"]
 lib4ti2_jll = "1.6.10-1"
 nauty_jll = "2.6.13-2"
+
+["0.13 - 0"]
+GAP_pkg_zeromqinterface_jll = "0.1600"
+TOML = ["0.0.0", "1"]
 
 ["0.13.0"]
 GAP_jll = "400.1400.2-400.1400"
@@ -81,72 +83,124 @@ GAP_pkg_juliainterface_jll = "0.1300.2"
 ["0.13.1"]
 GAP_pkg_juliainterface_jll = "0.1300.101"
 
-["0.13.1-0"]
+["0.13.1 - 0.13"]
 GAP_pkg_semigroups_jll = "500.400.0-500"
 
-["0.13.1-0.13.3"]
+["0.13.1 - 0.13.3"]
 GAP_jll = "400.1400.3-400.1400"
 GAP_lib_jll = "400.1400.3-400.1400"
 
-["0.13.2-0.13.3"]
+["0.13.2 - 0.13.3"]
 GAP_pkg_juliainterface_jll = "0.1300.102"
 
-["0.13.3-0"]
+["0.13.3 - 0.13"]
 AbstractAlgebra = ["0.41.11-0.41", "0.42.1-0.45"]
 
-["0.13.4-0"]
-GAP_jll = "400.1400.4-400.1400"
-GAP_lib_jll = "400.1400.4-400.1400"
+["0.13.4 - 0"]
 GAP_pkg_juliainterface_jll = "0.1300.103"
 
-["0.2-0.2.1"]
+["0.13.4 - 0.13"]
+GAP_jll = "400.1400.4-400.1400"
+GAP_lib_jll = "400.1400.4-400.1400"
+
+["0.14 - 0"]
+AbstractAlgebra = ["0.41.11 - 0.41", "0.42.1 - 0.45"]
+Artifacts = "1.6.0 - 1"
+BinaryWrappers = "0.1.3 - 0.1"
+Compat = "4.11.0 - 4"
+Downloads = "1.4.3 - 1"
+GAP_jll = "400.1400.4 - 400.1400"
+GAP_lib_jll = "400.1400.4 - 400.1400"
+GAP_pkg_ace_jll = "500.600.200 - 500"
+GAP_pkg_anupq_jll = "300.300.100 - 300"
+GAP_pkg_browse_jll = "100.800.2101 - 100"
+GAP_pkg_caratinterface_jll = "200.300.701 - 200"
+GAP_pkg_cddinterface_jll = "202400.900.200 - 202400"
+GAP_pkg_cohomolo_jll = "100.600.1100 - 100"
+GAP_pkg_crypting_jll = "0.1000.500 - 0.1000"
+GAP_pkg_curlinterface_jll = "200.400.0 - 200"
+GAP_pkg_cvec_jll = "200.800.200 - 200"
+GAP_pkg_datastructures_jll = "0.300.100 - 0.300"
+GAP_pkg_deepthought_jll = "100.0.700 - 100"
+GAP_pkg_digraphs_jll = "100.900.0 - 100"
+GAP_pkg_edim_jll = "100.300.801 - 100"
+GAP_pkg_ferret_jll = "100.0.1400 - 100"
+GAP_pkg_float_jll = "100.0.500 - 100"
+GAP_pkg_fplsa_jll = "100.200.600 - 100"
+GAP_pkg_gauss_jll = "202400.1100.100 - 202400"
+GAP_pkg_guava_jll = "300.1900.0 - 300"
+GAP_pkg_io_jll = "400.900.100 - 400"
+GAP_pkg_json_jll = "200.200.200 - 200"
+GAP_pkg_kbmag_jll = "100.500.1100 - 100"
+GAP_pkg_normalizinterface_jll = "100.300.700 - 100"
+GAP_pkg_nq_jll = "200.500.1100 - 200"
+GAP_pkg_orb_jll = "400.900.100 - 400"
+GAP_pkg_profiling_jll = "200.600.0 - 200"
+GAP_pkg_semigroups_jll = "500.400.0 - 500"
+GAP_pkg_simpcomp_jll = "200.100.1400 - 200"
+InteractiveUtils = "1.6.0 - 1"
+Libdl = "1.6.0 - 1"
+MacroTools = "0.5.13 - 0.5"
+Markdown = "1.6.0 - 1"
+Ncurses_jll = "6.4.1 - 6"
+Pidfile = "1.3.0 - 1"
+Pkg = "1.6.0 - 1"
+REPL = "1.6.0 - 1"
+Random = "1.6.0 - 1"
+Scratch = "1.1.0 - 1"
+Singular_jll = "404.1.700 - 404"
+julia = "1.6.0 - 1"
+lib4ti2_jll = "1.6.10 - 1"
+nauty_jll = "2.6.13 - 2"
+
+["0.2 - 0.2.1"]
 GAPTypes = "0.0.0-1"
 
-["0.2.2-0.2.4"]
+["0.2.2 - 0.2.4"]
 GAPTypes = "1"
 
-["0.3.5-0.6"]
+["0.3.5 - 0.6"]
 julia = "1.3.0-1"
 
-["0.4-0.4.1"]
+["0.4 - 0.4.1"]
 BinaryProvider = "0.5.8-0.5"
 
-["0.4.2-0.5.1"]
+["0.4.2 - 0.5.1"]
 BinaryProvider = "0.5.10-0.5"
 
-["0.5-0.5.1"]
+["0.5 - 0.5.1"]
 GAP_jll = "4.11"
 GAP_lib_jll = "4.11"
 
-["0.5.2-0.5"]
+["0.5.2 - 0.5"]
 GAP_jll = "400.1100.1-400.1100"
 GAP_lib_jll = "400.1100"
 
-["0.6-0.11.0"]
+["0.6 - 0.11.0"]
 MacroTools = "0.5"
 
-["0.6-0.6.1"]
+["0.6 - 0.6.1"]
 GAP_jll = "400.1190.100-400.1190"
 GAP_lib_jll = "400.1190.100-400.1190"
 
-["0.6.2-0.7.0"]
+["0.6.2 - 0.7.0"]
 GAP_jll = "400.1190.200-400.1190"
 GAP_lib_jll = "400.1190.200-400.1190"
 
-["0.7-0"]
+["0.7 - 0.13"]
 julia = "1.6.0-1"
 
 ["0.7.0"]
 Downloads = "1.4.2-1"
 
-["0.7.1-0.7"]
+["0.7.1 - 0.7"]
 GAP_jll = "400.1191.1-400.1191"
 GAP_lib_jll = "400.1191"
 
-["0.7.2-0.7.3"]
+["0.7.2 - 0.7.3"]
 GAP_pkg_juliainterface_jll = "0.700.100"
 
-["0.7.4-0.7"]
+["0.7.4 - 0.7"]
 GAP_pkg_juliainterface_jll = "0.700.300"
 
 ["0.8"]
@@ -154,27 +208,27 @@ GAP_jll = "400.1192.1-400.1192"
 GAP_lib_jll = "400.1192.2-400.1192"
 GAP_pkg_juliainterface_jll = "0.800.0"
 
-["0.8.3-0"]
+["0.8.3 - 0.13"]
 Scratch = "1.1.0-1"
 
-["0.9-0.10"]
+["0.9 - 0.10"]
 GAP_jll = "400.1200.101-400.1200"
 GAP_lib_jll = "400.1201.100-400.1201"
 
-["0.9-0.9.5"]
+["0.9 - 0.9.5"]
 GAP_pkg_juliainterface_jll = "0.800.201"
 
-["0.9.6-0.9.7"]
+["0.9.6 - 0.9.7"]
 GAP_pkg_juliainterface_jll = "0.800.201-0.800.202"
 
-["0.9.7-0"]
+["0.9.7 - 0.13"]
 Pidfile = "1.3.0-1"
 
-["0.9.8-0"]
-Ncurses_jll = "6.4.1-6"
-
-["0.9.8-0.10"]
+["0.9.8 - 0.10"]
 GAP_pkg_juliainterface_jll = "0.800.300"
 
-["0.9.8-0.12"]
+["0.9.8 - 0.12"]
 Compat = "4.4.0-4"
+
+["0.9.8 - 0.13"]
+Ncurses_jll = "6.4.1-6"
