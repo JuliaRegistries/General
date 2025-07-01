@@ -1,20 +1,15 @@
 [0]
-BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 DynarePreprocessor_jll = "23afba7c-24e5-5ee2-bc2c-b42e07f0492a"
 ExtendedDates = "78f5a1cc-aa73-4dda-b6b2-4d6b1976988f"
 FastLapackInterface = "29a986be-02c6-4525-aec4-84b980013641"
 IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 KalmanFilterTools = "ec016732-9331-11e9-305f-d53cb440b85a"
-LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
 LinearRationalExpectations = "45f42fbc-210c-4ecc-9452-59ec793b9bfd"
-Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 PolynomialMatrixEquations = "4f9d485d-518f-41ed-81c8-372cd804c93b"
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
@@ -25,6 +20,13 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
 Tokenize = "0796e94c-ce3b-5d07-9a54-7f471281c624"
+
+["0 - 0.10.1"]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
+LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
 ["0 - 0.6"]
 TimeDataFrames = "ff13af16-2f41-468a-a2e1-aff5c43aabf7"
@@ -37,23 +39,27 @@ Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
 
 ["0.10 - 0"]
 DualNumbers = "fa6b7ba4-c1ee-5f82-b5fc-ecf0adba8f74"
-GraphPlot = "a2cc645c-3eea-5389-862e-a155d0052231"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
-MINPACK = "4854310b-de5a-5eb6-a2a5-c1dee2bd17f9"
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+Tasmanian = "1e81e918-d094-11e8-0e93-1dd8855012cf"
+
+["0.10 - 0.10.1"]
+GraphPlot = "a2cc645c-3eea-5389-862e-a155d0052231"
+MINPACK = "4854310b-de5a-5eb6-a2a5-c1dee2bd17f9"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 Sundials = "c3572dad-4567-51f8-b174-8c6c989267f4"
-Tasmanian = "1e81e918-d094-11e8-0e93-1dd8855012cf"
 
 ["0.3 - 0.8"]
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 
 ["0.4 - 0"]
-PATHSolver = "f5f7c340-0bb3-5c69-969a-41884d311d1b"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["0.4 - 0.10.1"]
+PATHSolver = "f5f7c340-0bb3-5c69-969a-41884d311d1b"
 
 ["0.5.7 - 0"]
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
@@ -83,9 +89,11 @@ TransformedLogDensities = "f9bc47f6-f3f8-4f3b-ab21-f8bc73906f26"
 AbstractMCMC = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
 AxisArrayTables = "af8da316-43a4-49f0-bd76-7de0cd630fd6"
 MCMCDiagnosticTools = "be115224-59cd-429b-ad48-344e309966f0"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+
+["0.7 - 0.10.1"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["0.7.2 - 0"]
 ProximalOperators = "a725b495-10eb-56fe-b38b-717eba820537"
@@ -95,17 +103,21 @@ AdvancedMH = "5b7e9947-ddc0-4b3f-9b55-0d8042f74170"
 
 ["0.8 - 0"]
 KOrderPerturbations = "469b1a10-d817-41b3-9228-c19fbf63afb5"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["0.8 - 0.10.1"]
 MKL = "33e6dc65-8f57-5167-99aa-e5a354878fb2"
 Pardiso = "46dd5b70-b6fb-5a00-ae2d-e8fea33afaf2"
-PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["0.9 - 0"]
 AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 BipartiteMatching = "79040ab4-24c8-4c92-950c-d48b5991a0f6"
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 LoggingExtras = "e6f89c97-d47a-5376-807f-9c37f3926c36"
-MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
 Metaheuristics = "bcdb8e00-2c21-11e9-3065-2b553b22f898"
+
+["0.9 - 0.10.1"]
+MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
 
 ["0.9 - 0.9.13"]
 MUMPS = "55d2b088-9f4e-11e9-26c0-150b02ea6a46"

@@ -50,15 +50,12 @@ AbstractMCMC = "4.4.0 - 5"
 AdvancedMH = "0.7.4 - 0.8"
 AxisArrayTables = "0.1.2 - 0.1"
 AxisArrays = "0.4.7 - 0.4"
-BenchmarkTools = "1.2.2 - 1"
 CSV = "0.10.2 - 0.10"
 DataFrames = "1.3.2 - 1"
-Distances = "0.10.7 - 0.10"
 Distributions = "0.25.66 - 0.25"
 DualNumbers = "0.6"
 FillArrays = "1.9.3 - 1"
 FiniteDiff = "2.13.1 - 2"
-GraphPlot = "0.5.2 - 0.6"
 Graphs = "1"
 IntervalSets = "0.6.2 - 0.7"
 IterativeSolvers = "0.9.2 - 0.9"
@@ -66,12 +63,9 @@ JSON = "0.21.2 - 0.21"
 KOrderPerturbations = "0.1.2 - 0.1"
 KalmanFilterTools = "0.1.3 - 0.1"
 KernelDensity = "0.6.5 - 0.6"
-LineSearches = "7.1.1 - 7"
-LinearMaps = "3.5.1 - 3"
 LinearRationalExpectations = "0.5.5 - 0.5"
 LogDensityProblems = ["0.11.5 - 0.11", "2"]
 LoggingExtras = ["0.4.9 - 0.4", "1"]
-MINPACK = "1"
 NLsolve = "4"
 Optim = "1"
 Parameters = "0.12"
@@ -80,16 +74,24 @@ PrecompileTools = "1.1.2 - 1"
 PrettyTables = "1.3.1 - 2"
 ProximalOperators = "0.15.3 - 0.16"
 Reexport = "1"
-Requires = "1"
 Roots = "2"
 RuntimeGeneratedFunctions = "0.5"
-SciMLBase = "2"
 SpecialFunctions = "2"
 StatsFuns = ["0.9.15 - 0.9", "1"]
-Sundials = "4"
 Tasmanian = "0.1"
 Tokenize = "0.5.21 - 0.5"
 TransformVariables = "0.6.2 - 0.8"
+
+["0.10 - 0.10.1"]
+BenchmarkTools = "1.2.2 - 1"
+Distances = "0.10.7 - 0.10"
+GraphPlot = "0.5.2 - 0.6"
+LineSearches = "7.1.1 - 7"
+LinearMaps = "3.5.1 - 3"
+MINPACK = "1"
+Requires = "1"
+SciMLBase = "2"
+Sundials = "4"
 
 ["0.10.0"]
 LinearSolve = "2"
@@ -98,12 +100,14 @@ MKL = "0.4.3 - 0.7"
 NonlinearSolve = "3"
 julia = "1.6.3 - 1"
 
+["0.10.1"]
+MKL = "0.4.3 - 0.9"
+Pardiso = ["0.5", "1"]
+
 ["0.10.1 - 0"]
 LinearSolve = "2 - 3"
 MCMCChains = "5.3.1 - 7"
-MKL = "0.4.3 - 0.9"
 NonlinearSolve = "3 - 4"
-Pardiso = ["0.5", "1"]
 julia = "1.10.0 - 1"
 
 ["0.3 - 0.5.4"]
@@ -118,7 +122,7 @@ ExtendedDates = "0.1.2-0.1"
 ["0.4"]
 TimeDataFrames = "0.1.3-0.2"
 
-["0.4 - 0"]
+["0.4 - 0.10.1"]
 PATHSolver = "1"
 
 ["0.4 - 0.5.7"]
@@ -243,8 +247,10 @@ ProximalOperators = "0.15.3-0.16"
 ["0.9 - 0"]
 BipartiteMatching = "0.1"
 DynarePreprocessor_jll = "6.4"
-MPI = "0.20"
 Metaheuristics = "3"
+
+["0.9 - 0.10.1"]
+MPI = "0.20"
 
 ["0.9 - 0.9.3"]
 MUMPS = "1"
