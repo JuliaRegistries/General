@@ -1,73 +1,97 @@
 [0]
 CodecZlib = "0.7"
+
+["0 - 0.1"]
+julia = "1.6.0-1"
+
+["0 - 0.13"]
 SimpleBufferStream = "1.1.0-1"
 URIs = "1.3.0-1"
 
-["0-0.1"]
-julia = "1.6.0-1"
-
-["0-0.13.1"]
+["0 - 0.13.1"]
 CodecBzip2 = "0.7"
 FilePaths = "0.8"
 TranscodingStreams = "0.9"
 
-["0-0.7"]
+["0 - 0.7"]
 CrystalInfoFramework = "0.4.8-0.4"
 
 ["0.0"]
 HDF5 = "0.16"
 
-["0.1-0"]
+["0.1 - 0.13"]
 CBFlib_small_jll = "0.9.6-0.9"
 
-["0.1-0.13.1"]
+["0.1 - 0.13.1"]
 HDF5 = "0.15-0.16"
 
-["0.11-0"]
+["0.11 - 0.13"]
 InvertedIndices = "1.1.0-1"
 
 ["0.12"]
 CrystalInfoFramework = "0.4.8-0.6"
 
-["0.13-0.13.1"]
+["0.13 - 0.13.1"]
 CrystalInfoFramework = "0.4.8-0.8"
 
-["0.13.1-0"]
+["0.13.1 - 0.13"]
 ZipArchives = "2.4.0-2"
 
-["0.13.2-0"]
-CodecBzip2 = "0.7-0.8"
+["0.13.2 - 0"]
 CodecInflate64 = "0.1"
 CrystalInfoFramework = "1"
+InputBuffers = "1"
+
+["0.13.2 - 0.13"]
+CodecBzip2 = "0.7-0.8"
 H5Zbitshuffle = "0.1-0.2"
 HDF5 = "0.15-0.17"
 ImageBinarization = "0.2-0.3"
-InputBuffers = "1"
 TranscodingStreams = "0.9-0.11"
 
-["0.2-0.5"]
+["0.14 - 0"]
+CBFlib_small_jll = "0.9.6 - 0.9"
+CodecBzip2 = "0.7 - 0.8"
+DataFrames = "1.1.0 - 1"
+H5Zbitshuffle = "0.1 - 0.2"
+HDF5 = "0.15 - 0.17"
+ImageBinarization = "0.2 - 0.3"
+InvertedIndices = "1.1.0 - 1"
+Rotations = "1.3.0 - 1"
+SimpleBufferStream = "1.1.0 - 1"
+TiffImages = "0.11"
+TranscodingStreams = "0.9 - 0.11"
+URIs = "1.6.0 - 1"
+ZipArchives = "2.4.0 - 2"
+julia = "1.6.0 - 1"
+
+["0.2 - 0.5"]
 julia = "1.5.0-1"
 
-["0.6-0"]
-DataFrames = "1.1.0-1"
+["0.6 - 0"]
 H5Zblosc = "0.1"
 H5Zbzip2 = "0.1"
 H5Zlz4 = "0.1"
 H5Zzstd = "0.1"
+
+["0.6 - 0.13"]
+DataFrames = "1.1.0-1"
 julia = "1.6.0-1"
 
-["0.6.1-0.13.1"]
+["0.6.1 - 0.13.1"]
 H5Zbitshuffle = "0.1"
 
-["0.7-0"]
+["0.7 - 0"]
 ImageFiltering = "0.7"
-Rotations = "1.3.0-1"
 
-["0.7-0.12"]
+["0.7 - 0.12"]
 Statistics = "1.6.0-1"
 
-["0.7-0.13.1"]
+["0.7 - 0.13"]
+Rotations = "1.3.0-1"
+
+["0.7 - 0.13.1"]
 ImageBinarization = "0.2"
 
-["0.8-0.11"]
+["0.8 - 0.11"]
 CrystalInfoFramework = "0.4.8-0.5"
