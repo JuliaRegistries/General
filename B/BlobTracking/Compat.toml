@@ -1,15 +1,10 @@
-[0]
-ImageDraw = "0.2.2-0.2"
-Interact = "0.10.3-0.10"
-julia = "1.3.0-1"
-
-["0-0.1"]
+["0 - 0.1"]
 Statistics = "1.3.0-1"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 MultivariateStats = "0.7"
 
-["0-0.1.1"]
+["0 - 0.1.1"]
 Distances = "0.8.2-0.8"
 Distributions = "0.22"
 Hungarian = "0.5"
@@ -17,56 +12,77 @@ Images = "0.20"
 LowLevelParticleFilters = "0.2.2-0.2"
 VideoIO = "0.6.10-0.6"
 
-["0-0.1.3"]
+["0 - 0.1.3"]
 StaticArrays = "0.12"
 
-["0-0.1.6"]
+["0 - 0.1.6"]
 ImageFiltering = "0.6.9-0.6"
 JuliennedArrays = "0.2.2-0.2"
 
-["0.1.1-0"]
+["0 - 0.2.0"]
+ImageDraw = "0.2.2-0.2"
+Interact = "0.10.3-0.10"
+julia = "1.3.0-1"
+
+["0.1.1 - 0.2.0"]
 NearestNeighbors = "0.4.4-0.4"
 
 ["0.1.2"]
 VideoIO = "0.6.10-0.7"
 
-["0.1.2-0"]
-Hungarian = "0.5-0.6"
-
-["0.1.2-0.1.3"]
+["0.1.2 - 0.1.3"]
 Distances = "0.8.2-0.9"
 Distributions = "0.22-0.23"
 Images = "0.20-0.22"
 LowLevelParticleFilters = ["0.2.2-0.2", "0.4"]
 
-["0.1.3-0.1.4"]
+["0.1.2 - 0.2.0"]
+Hungarian = "0.5-0.6"
+
+["0.1.3 - 0.1.4"]
 VideoIO = "0.6.10-0.8"
 
-["0.1.4-0"]
-Distances = "0.8.2-0.10"
+["0.1.4 - 0"]
 StaticArrays = ["0.12", "1"]
 
-["0.1.4-0.1"]
+["0.1.4 - 0.1"]
 Distributions = "0.22-0.24"
 LowLevelParticleFilters = ["0.2.2-0.2", "0.4", "1"]
 
-["0.1.4-0.1.5"]
+["0.1.4 - 0.1.5"]
 Images = "0.20-0.23"
 
-["0.1.5-0.1.8"]
+["0.1.4 - 0.2.0"]
+Distances = "0.8.2-0.10"
+
+["0.1.5 - 0.1.8"]
 VideoIO = "0.9"
 
 ["0.1.6"]
 Images = "0.20-0.24"
 
-["0.1.7-0"]
+["0.1.7 - 0.2.0"]
 ImageFiltering = "0.6.9-0.7"
 Images = "0.20-0.25"
 JuliennedArrays = "0.2.2-0.3"
 
-["0.1.9-0"]
+["0.1.9 - 0"]
 VideoIO = ["0.9", "1"]
 
-["0.2-0"]
-Distributions = "0.22-0.25"
+["0.2 - 0"]
 LowLevelParticleFilters = "3"
+
+["0.2.0"]
+Distributions = "0.22-0.25"
+
+["0.2.1 - 0"]
+Distances = "0.8.2 - 0.10"
+Distributions = "0.22 - 0.25"
+Hungarian = "0.5 - 0.6"
+ImageDraw = "0.2.2 - 0.2"
+ImageFiltering = "0.6.9 - 0.7"
+Images = "0.20 - 0.25"
+Interact = "0.10.3 - 0.10"
+JuliennedArrays = "0.2.2 - 0.3"
+NearestNeighbors = "0.4.4 - 0.4"
+julia = "1.3.0 - 1"
