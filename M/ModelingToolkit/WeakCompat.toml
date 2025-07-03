@@ -1,5 +1,6 @@
 ["10 - 10.4"]
 CasADi = "1.0.7-1"
+LabelledArrays = "1.3.0-1"
 
 ["10.3 - 10"]
 Pyomo = "0.1"
@@ -14,11 +15,11 @@ DeepDiffs = "1"
 ["9.16 - 9.47"]
 BifurcationKit = "0.3"
 
-["9.34 - 10.4"]
-LabelledArrays = "1.3.0-1"
-
 ["9.34 - 9.79"]
 ChainRulesCore = "1"
+
+["9.34 - 9.80"]
+LabelledArrays = "1.3.0-1"
 
 ["9.47 - 9.64.1"]
 HomotopyContinuation = "2.11.0-2"
@@ -32,5 +33,9 @@ InfiniteOpt = "0.5"
 ["9.62 - 10"]
 FMI = "0.14"
 
-["9.79 - 9"]
+["9.79 - 9.80"]
 CasADi = "1.0.6-1"
+
+["9.81 - 9"]
+CasADi = "1.0.6 - 1"
+LabelledArrays = "1.3.0 - 1"
