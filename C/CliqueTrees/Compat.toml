@@ -1,26 +1,32 @@
-["0-0.2"]
+["0 - 0.2"]
 DataStructures = "0.18"
 julia = "1.10.0-1"
 
-["0-0.3"]
+["0 - 0.3"]
 Sparspak = "0.3"
 
-["0-0.4"]
+["0 - 0.4"]
 AMD = "0.5"
 Metis = "1"
 TreeWidthSolver = "0.3"
 
-[0-1]
+["0 - 1"]
 AbstractTrees = "0.4"
 Graphs = "1"
 LinearAlgebra = "1"
 SparseArrays = "1"
 
-["0.3-1"]
-julia = "1.8.0-1"
-
-["0.3-1.6"]
+["0.3 - 1.6"]
 DataStructures = "0.17-0.18"
 
-["0.5-1"]
+["0.3 - 1.7.2"]
+julia = "1.8.0-1"
+
+["0.5 - 1.7.2"]
 ArgCheck = "2.4.0-2"
+
+["1.7.3 - 1"]
+ArgCheck = "2.4.0 - 2"
+FillArrays = "1"
+FixedSizeArrays = "1"
+julia = "1.8.0 - 1"
