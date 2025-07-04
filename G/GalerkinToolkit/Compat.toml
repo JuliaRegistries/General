@@ -1,28 +1,40 @@
 [0]
 Combinatorics = "1"
 FastGaussQuadrature = "1"
-ForwardDiff = "0.10"
 Gmsh = "0.3"
 IterativeSolvers = "0.9"
 MPI = "0.20"
 Metis = "1"
 StaticArrays = "1"
 
-["0-0.1"]
+["0 - 0.1"]
 PartitionedArrays = "0.4"
 WriteVTK = "1"
 julia = "1"
 
-["0.2-0"]
+["0 - 0.3"]
+ForwardDiff = "0.10"
+
+["0.2 - 0"]
 BlockArrays = "1"
 FillArrays = "1"
 Metatheory = "2"
-PartitionedArrays = "0.5.4-0.5"
 SparseArrays = "1"
+
+["0.2 - 0.3"]
+PartitionedArrays = "0.5.4-0.5"
 julia = "1.10.0-1"
 
-["0.3-0"]
+["0.3"]
+MacroTools = "0.3-0.5"
+
+["0.3 - 0"]
 AbstractTrees = "0.4"
 AutoHashEquals = "2"
-MacroTools = "0.3-0.5"
 PartitionedSolvers = "0.3"
+
+["0.4 - 0"]
+ForwardDiff = ["0.10", "1"]
+MacroTools = "0.3 - 0.5"
+PartitionedArrays = "0.5.4 - 0.5"
+julia = "1.10.0 - 1"
