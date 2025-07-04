@@ -1,42 +1,40 @@
 [7]
-ChainRulesCore = ["0.10.7-0.10", "1"]
 FiniteDiff = "2"
-RandomNumbers = "1.5.3-1"
 
-["7-7.13"]
+["7 - 7.13"]
 Enzyme = "0.8-0.10"
 
-["7-7.2.0"]
+["7 - 7.2.0"]
 OrdinaryDiffEq = "5.60.0-6"
 
-["7-7.20"]
+["7 - 7.20"]
 ArrayInterfaceCore = "0.1.1-0.1"
 ArrayInterfaceTracker = "0.1"
 
-["7-7.32"]
+["7 - 7.32"]
 LinearSolve = "1"
 
-["7-7.37"]
+["7 - 7.37"]
 DiffEqCallbacks = "2.17.0-2"
 
-["7-7.41.0"]
+["7 - 7.41.0"]
 Cassette = "0.3.6-0.3"
 DiffRules = "1"
 
-["7-7.46"]
+["7 - 7.46"]
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
-["7-7.47"]
+["7 - 7.47"]
 RecursiveArrayTools = "2.4.2-2"
 
-["7-7.48"]
+["7 - 7.48"]
 ZygoteRules = "0.2"
 
-["7-7.49"]
+["7 - 7.49"]
 Adapt = "1-3"
 
-["7-7.51"]
+["7 - 7.51"]
 DiffEqNoiseProcess = "4.1.4-5"
 Distributions = "0.24-0.25"
 QuadGK = "2.1.0-2"
@@ -46,276 +44,315 @@ StochasticDiffEq = "6.20.0-6"
 Tracker = "0.2"
 Zygote = "0.6"
 
-["7-7.6.2"]
+["7 - 7.6.2"]
 DiffEqOperators = "4.34.0-4"
 
-["7-7.68"]
+["7 - 7.68"]
 EllipsisNotation = "1"
 Parameters = "0.12"
 
-["7-7.69"]
+["7 - 7.69"]
 GPUArraysCore = "0.1"
 
-["7-7.79"]
+["7 - 7.79"]
 ForwardDiff = "0.10"
+
+["7 - 7.86"]
+ChainRulesCore = ["0.10.7-0.10", "1"]
+RandomNumbers = "1.5.3-1"
 
 ["7.0"]
 DiffEqBase = "6.90.0-6"
 SciMLBase = "1.24.0-1"
 
-["7.1-7.4"]
+["7.1 - 7.4"]
 SciMLBase = "1.42.3-1"
 
-["7.1-7.51"]
+["7.1 - 7.51"]
 DiffEqBase = "6.93.0-6"
 
-["7.11-7.39"]
+["7.11 - 7.39"]
 SciMLBase = "1.66.0-1"
 
-["7.14-7.28"]
+["7.14 - 7.28"]
 Enzyme = "0.10.14-0.10"
 
 ["7.17.0"]
 SimpleNonlinearSolve = "0.1.7-0.1"
 
-["7.17.1-7.48"]
+["7.17.1 - 7.48"]
 SimpleNonlinearSolve = "0.1.8-0.1"
 
-["7.2-7.8"]
+["7.2 - 7.8"]
 PreallocationTools = "0.4"
 
-["7.2.1-7.51"]
+["7.2.1 - 7.51"]
 OrdinaryDiffEq = "6.19.1-6"
 
 ["7.21"]
 ArrayInterface = "6-7"
 
-["7.21-7"]
+["7.21 - 7.86"]
 StaticArraysCore = "1.4.0-1"
 
-["7.22-7"]
+["7.22 - 7"]
 ArrayInterface = "7"
 
 ["7.25"]
 TruncatedStacktraces = "1"
 
-["7.25-7.27"]
+["7.25 - 7.27"]
 SparseDiffTools = "1"
 
-["7.25-7.33.0"]
+["7.25 - 7.33.0"]
 SciMLOperators = "0.1-0.2"
 
-["7.26-7.68"]
+["7.26 - 7.68"]
 TruncatedStacktraces = "1.2.0-1"
 
-["7.28-7.30"]
+["7.28 - 7.30"]
 SparseDiffTools = "1-2"
 
 ["7.29"]
 Enzyme = "0.10.14-0.11"
 
-["7.30-7.34"]
+["7.30 - 7.34"]
 Enzyme = "0.11.0"
 
 ["7.31"]
 SparseDiffTools = "1"
 
-["7.32-7.37.0"]
+["7.32 - 7.37.0"]
 SparseDiffTools = "2"
 
-["7.33-7.35"]
+["7.33 - 7.35"]
 LinearSolve = "1-2"
 
-["7.33.1-7.51"]
+["7.33.1 - 7.51"]
 SciMLOperators = "0.1-0.3"
 
 ["7.35.0"]
 Enzyme = "0.11.2-0.11"
 
-["7.35.1-7.35"]
+["7.35.1 - 7.35"]
 Enzyme = "0.11.0"
 
-["7.36-7.56"]
+["7.36 - 7.56"]
 Enzyme = "0.11.6-0.11"
 
-["7.36-7.72"]
+["7.36 - 7.72"]
 LinearSolve = "2"
 
-["7.37.1-7.38"]
+["7.37.1 - 7.38"]
 SparseDiffTools = "2.4.0-2"
 
-["7.37.1-7.57"]
+["7.37.1 - 7.57"]
 ADTypes = "0.1-0.2"
 
-["7.38-7.51"]
+["7.38 - 7.51"]
 DiffEqCallbacks = "2.29.0-2"
 
-["7.39-7.68"]
+["7.39 - 7.68"]
 SparseDiffTools = "2.5.0-2"
 
-["7.4-7.20"]
+["7.4 - 7.20"]
 StaticArrays = "1"
 
-["7.40-7.51"]
+["7.40 - 7.51"]
 SciMLBase = "1.66.0-2"
 
-["7.41.1-7"]
+["7.41.1 - 7"]
 FunctionProperties = "0.1"
 
-["7.42-7.69"]
+["7.42 - 7.69"]
 Functors = "0.4"
 
-["7.47-7.51"]
+["7.47 - 7.51"]
 Statistics = "1"
 julia = "1.9.0-1"
 
-["7.48-7.51"]
+["7.48 - 7.51"]
 RecursiveArrayTools = "2.4.2-3"
 
-["7.49-7"]
-StaticArrays = "1.8.0-1"
-
-["7.49-7.51"]
+["7.49 - 7.51"]
 LinearAlgebra = ["0.0.0", "1"]
 Markdown = ["0.0.0", "1"]
 Random = ["0.0.0", "1"]
 
-["7.5-7.6.1"]
+["7.49 - 7.86"]
+StaticArrays = "1.8.0-1"
+
+["7.5 - 7.6.1"]
 SciMLBase = "1.50.0-1"
 
-["7.50-7"]
+["7.50 - 7.86"]
 Adapt = "1-4"
 
-["7.52-7"]
-DiffEqNoiseProcess = "5.19.0-5"
+["7.52 - 7"]
 Distributions = "0.25"
+Reexport = "1"
+
+["7.52 - 7.55"]
+DiffEqCallbacks = "2.34.0-2"
+
+["7.52 - 7.56.0"]
+DiffEqBase = "6.145.4-6"
+SciMLBase = "2.17.1-2"
+
+["7.52 - 7.57"]
+RecursiveArrayTools = "3.5.1-3"
+
+["7.52 - 7.60"]
+OrdinaryDiffEq = "6.68.1-6"
+
+["7.52 - 7.66.0"]
+StochasticDiffEq = "6.63.2-6"
+
+["7.52 - 7.72"]
+Zygote = "0.6.67-0.6"
+
+["7.52 - 7.78"]
+SciMLOperators = "0.3"
+
+["7.52 - 7.86"]
+DiffEqNoiseProcess = "5.19.0-5"
 LinearAlgebra = "1.10.0-1"
 Markdown = "1.10.0-1"
 QuadGK = "2.9.1-2"
 Random = "1.10.0-1"
-Reexport = "1"
 ReverseDiff = "1.15.1-1"
 Statistics = "1.10.0-1"
 Tracker = "0.2.30-0.2"
 julia = "1.10.0-1"
 
-["7.52-7.55"]
-DiffEqCallbacks = "2.34.0-2"
-
-["7.52-7.56.0"]
-DiffEqBase = "6.145.4-6"
-SciMLBase = "2.17.1-2"
-
-["7.52-7.57"]
-RecursiveArrayTools = "3.5.1-3"
-
-["7.52-7.60"]
-OrdinaryDiffEq = "6.68.1-6"
-
-["7.52-7.66.0"]
-StochasticDiffEq = "6.63.2-6"
-
-["7.52-7.72"]
-Zygote = "0.6.67-0.6"
-
-["7.52-7.78"]
-SciMLOperators = "0.3"
-
 ["7.56.0"]
 DiffEqCallbacks = "2.34.0-3"
 
-["7.56.1-7.57"]
+["7.56.1 - 7.57"]
 SciMLBase = "2.28.0-2"
 
-["7.56.1-7.58"]
+["7.56.1 - 7.58"]
 DiffEqBase = "6.147.1-6"
 
-["7.56.1-7.68"]
+["7.56.1 - 7.68"]
 DiffEqCallbacks = "3.3.0-3"
 
-["7.57-7.67"]
+["7.57 - 7.67"]
 Enzyme = "0.12"
 
-["7.58-7.61"]
+["7.58 - 7.61"]
 SciMLBase = "2.37.0-2"
 
-["7.58-7.68"]
+["7.58 - 7.68"]
 ADTypes = ["0.1-0.2", "1"]
 
-["7.58-7.69"]
+["7.58 - 7.69"]
 RecursiveArrayTools = "3.18.1-3"
 
-["7.59-7.75"]
+["7.59 - 7.75"]
 DiffEqBase = "6.151.1-6"
 
-["7.6-7"]
+["7.6 - 7"]
 FunctionWrappersWrappers = "0.1"
 
-["7.6.2-7.10"]
+["7.6.2 - 7.10"]
 SciMLBase = "1.51.0-1"
 
-["7.61-7.66.0"]
+["7.61 - 7.66.0"]
 OrdinaryDiffEq = "6.81.1-6"
 
 ["7.62"]
 SymbolicIndexingInterface = "0.3"
 
-["7.62-7"]
-SciMLStructures = "1.3.0-1"
-
-["7.62-7.65"]
+["7.62 - 7.65"]
 SciMLBase = "2.39.0-2"
 
-["7.63-7"]
+["7.62 - 7.86"]
+SciMLStructures = "1.3.0-1"
+
+["7.63 - 7.86"]
 SymbolicIndexingInterface = "0.3.26-0.3"
 
-["7.66-7"]
-Accessors = "0.1.36-0.1"
-
-["7.66-7.75"]
+["7.66 - 7.75"]
 SciMLBase = "2.51.4-2"
+
+["7.66 - 7.86"]
+Accessors = "0.1.36-0.1"
 
 ["7.68"]
 Enzyme = "0.12-0.13"
 
-["7.69-7"]
-ADTypes = "1.9.0-1"
+["7.69 - 7"]
 DiffEqCallbacks = "4"
-FastBroadcast = "0.3.5-0.3"
 SciMLJacobianOperators = "0.1"
 
-["7.69-7.84"]
+["7.69 - 7.84"]
 Enzyme = "0.13"
 
-["7.70-7"]
+["7.69 - 7.86"]
+ADTypes = "1.9.0-1"
+FastBroadcast = "0.3.5-0.3"
+
+["7.70 - 7.86"]
 Functors = "0.4-0.5"
 GPUArraysCore = "0.1-0.2"
 RecursiveArrayTools = "3.27.2-3"
 
-["7.73-7"]
+["7.73 - 7.86"]
 LinearSolve = "2-3"
 Zygote = "0.6.67-0.7"
 
-["7.76-7.83"]
+["7.76 - 7.83"]
 DiffEqBase = "6.166.1-6"
 SciMLBase = "2.79.0-2"
 
-["7.78-7"]
+["7.78 - 7"]
 OrdinaryDiffEqCore = "1"
 
 ["7.79"]
 SciMLOperators = "0.3-0.4"
 
-["7.80-7"]
+["7.80 - 7"]
 ForwardDiff = ["0.10", "1"]
 
-["7.84-7"]
+["7.84 - 7.86"]
 DiffEqBase = "6.175.0-6"
 Mooncake = "0.4.52-0.4"
 SciMLBase = "2.94.0-2"
 
-["7.85-7"]
+["7.85 - 7.86"]
 Enzyme = "0.13.50-0.13"
 
-["7.9-7"]
+["7.87 - 7"]
+ADTypes = "1.9.0 - 1"
+Accessors = "0.1.36 - 0.1"
+Adapt = "1 - 4"
+ChainRulesCore = ["0.10.7 - 0.10", "1"]
+DiffEqBase = "6.175.0 - 6"
+DiffEqNoiseProcess = "5.19.0 - 5"
+Enzyme = "0.13.50 - 0.13"
+FastBroadcast = "0.3.5 - 0.3"
+Functors = "0.4 - 0.5"
+GPUArraysCore = "0.1 - 0.2"
+LinearAlgebra = "1.10.0 - 1"
+LinearSolve = "2 - 3"
+Markdown = "1.10.0 - 1"
+Mooncake = "0.4.52 - 0.4"
+PreallocationTools = "0.4.4 - 0.4"
+QuadGK = "2.9.1 - 2"
+Random = "1.10.0 - 1"
+RandomNumbers = "1.5.3 - 1"
+RecursiveArrayTools = "3.27.2 - 3"
+ReverseDiff = "1.15.1 - 1"
+SciMLBase = "2.94.0 - 2"
+SciMLStructures = "1.3.0 - 1"
+StaticArrays = "1.8.0 - 1"
+StaticArraysCore = "1.4.0 - 1"
+Statistics = "1.10.0 - 1"
+SymbolicIndexingInterface = "0.3.26 - 0.3"
+Tracker = "0.2.30 - 0.2"
+Zygote = "0.6.67 - 0.7"
+julia = "1.10.0 - 1"
+
+["7.9 - 7.86"]
 PreallocationTools = "0.4.4-0.4"
