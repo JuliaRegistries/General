@@ -1,5 +1,4 @@
 [0]
-ConstructionBase = "1.4.0-1"
 DataStructures = "0.18"
 DiffEqBase = "6"
 Downloads = "1"
@@ -7,9 +6,7 @@ Flatten = "0.4"
 ForwardDiff = "0.10"
 IfElse = "0.1"
 IntervalSets = "0.7"
-JSON3 = "1.10.0-1"
 LoopVectorization = "0.12"
-ModelParameters = "0.3-0.4"
 PreallocationTools = "0.4"
 Reexport = "1"
 Requires = "1"
@@ -21,16 +18,15 @@ StructTypes = "1"
 Tables = "1"
 UnPack = "1"
 Unitful = "1"
-julia = "1.6.0-1"
 
-["0-0.18"]
+["0 - 0.18"]
 OrdinaryDiffEq = "6"
 
-["0-0.20"]
+["0 - 0.20"]
 Interpolations = "0.14"
 TimeSeries = "0.23"
 
-["0-0.20.1"]
+["0 - 0.20.1"]
 ComponentArrays = "0.13"
 DimensionalData = ["0.19-0.21", "0.24"]
 LinearSolve = "1"
@@ -38,36 +34,42 @@ NCDatasets = "0.12"
 NonlinearSolve = ["0.3", "1"]
 SciMLBase = "1"
 
-["0-0.20.2"]
+["0 - 0.20.2"]
 SimulationLogs = "0.3"
 Statistics = "1.6.0-1"
 
-["0-0.21"]
+["0 - 0.21"]
 DiffEqCallbacks = "2"
 FreezeCurves = "0.8"
 RecursiveArrayTools = "2"
 
-["0.19-0.21"]
+["0 - 0.23.2"]
+ConstructionBase = "1.4.0-1"
+JSON3 = "1.10.0-1"
+ModelParameters = "0.3-0.4"
+julia = "1.6.0-1"
+
+["0.19 - 0.21"]
 Adapt = "3"
 
-["0.20.2-0"]
+["0.20.2 - 0.20"]
+NCDatasets = "0.12-0.13"
+NonlinearSolve = ["0.3", "1-2"]
+
+["0.20.2 - 0.21"]
+DimensionalData = ["0.19-0.21", "0.24-0.25"]
+
+["0.20.2 - 0.23.2"]
 ComponentArrays = "0.13-0.15"
 LinearSolve = "1-2"
 SciMLBase = "1-2"
 
-["0.20.2-0.20"]
-NCDatasets = "0.12-0.13"
-NonlinearSolve = ["0.3", "1-2"]
-
-["0.20.2-0.21"]
-DimensionalData = ["0.19-0.21", "0.24-0.25"]
-
-["0.20.3-0"]
+["0.20.3 - 0"]
 Dates = "1"
 LinearAlgebra = "1"
 Statistics = "1"
 
-["0.21-0"]
+["0.21 - 0.23.2"]
 Interpolations = "0.14-0.15"
 NCDatasets = "0.12-0.14"
 TimeSeries = "0.23-0.24"
@@ -75,23 +77,43 @@ TimeSeries = "0.23-0.24"
 ["0.21.0"]
 SimpleNonlinearSolve = "1"
 
-["0.21.1-0.23.1"]
+["0.21.1 - 0.23.1"]
 SimpleNonlinearSolve = ["0.1", "1"]
 
-["0.22-0"]
-Adapt = "3-4"
+["0.22 - 0"]
 FreezeCurves = "0.9"
-RecursiveArrayTools = "2-3"
 
-["0.22-0.23.1"]
+["0.22 - 0.23.1"]
 DiffEqCallbacks = "2-3"
+
+["0.22 - 0.23.2"]
+Adapt = "3-4"
+RecursiveArrayTools = "2-3"
 
 ["0.22.0"]
 DimensionalData = ["0.19-0.21", "0.24-0.27"]
 
-["0.22.1-0"]
+["0.22.1 - 0.23.2"]
 DimensionalData = ["0.19-0.21", "0.24-0.28"]
 
-["0.23.2-0"]
+["0.23.2"]
 DiffEqCallbacks = "2-4"
+
+["0.23.2 - 0"]
 NonlinearSolve = "4"
+
+["0.23.3 - 0"]
+Adapt = "3 - 4"
+ComponentArrays = "0.13 - 0.15"
+ConstructionBase = "1.4.0 - 1"
+DiffEqCallbacks = "2 - 4"
+DimensionalData = ["0.19 - 0.21", "0.24 - 0.28"]
+Interpolations = "0.14 - 0.15"
+JSON3 = "1.10.0 - 1"
+LinearSolve = "1 - 2"
+ModelParameters = "0.3 - 0.4"
+NCDatasets = "0.12 - 0.14"
+RecursiveArrayTools = "2 - 3"
+SciMLBase = "1 - 2"
+TimeSeries = "0.23 - 0.24"
+julia = "1.6.0 - 1"
