@@ -1,34 +1,47 @@
 [0]
+TestItems = "1"
+
+["0 - 0.1"]
+TestItemRunner = "1"
+
+["0 - 0.4.1"]
+ForwardDiff = "0.10"
+
+["0 - 0.6.0"]
 LinearAlgebra = "1.10.0-1"
 Reexport = "1.2.0-1"
 SparseArrays = "1.10.0-1"
-TestItems = "1"
 julia = "1.10.0-1"
 
-["0-0.1"]
-TestItemRunner = "1"
-
-["0-0.4.1"]
-ForwardDiff = "0.10"
-
-["0.2-0"]
+["0.2 - 0.6.0"]
 TestItemRunner = "1.1.0-1"
 
-["0.3-0"]
+["0.3 - 0"]
 ExponentialAction = "0.2"
+
+["0.3 - 0.6.0"]
 ProgressMeter = "1.10.0-1"
 
 ["0.3.0"]
 NamedTrajectories = "0.2"
 
-["0.3.1-0.5"]
+["0.3.1 - 0.5"]
 NamedTrajectories = "0.3"
 
 ["0.4.2"]
 ForwardDiff = "1"
 
-["0.4.3-0"]
+["0.4.3 - 0"]
 ForwardDiff = ["0.10", "1"]
 
-["0.6-0"]
+["0.6.0"]
 NamedTrajectories = "0.4"
+
+["0.6.1 - 0"]
+LinearAlgebra = "1.10.0 - 1"
+NamedTrajectories = "0.5"
+ProgressMeter = "1.10.0 - 1"
+Reexport = "1.2.0 - 1"
+SparseArrays = "1.10.0 - 1"
+TestItemRunner = "1.1.0 - 1"
+julia = "1.10.0 - 1"
