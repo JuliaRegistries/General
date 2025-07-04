@@ -110,6 +110,9 @@ MCMCChains = "5.3.1 - 7"
 NonlinearSolve = "3 - 4"
 julia = "1.10.0 - 1"
 
+["0.10.3 - 0"]
+DynarePreprocessor_jll = "7.0"
+
 ["0.3 - 0.5.4"]
 LinearRationalExpectations = "0.2"
 
@@ -246,11 +249,13 @@ ProximalOperators = "0.15.3-0.16"
 
 ["0.9 - 0"]
 BipartiteMatching = "0.1"
-DynarePreprocessor_jll = "6.4"
 Metaheuristics = "3"
 
 ["0.9 - 0.10.1"]
 MPI = "0.20"
+
+["0.9 - 0.10.2"]
+DynarePreprocessor_jll = "6.4"
 
 ["0.9 - 0.9.3"]
 MUMPS = "1"
