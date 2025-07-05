@@ -1,9 +1,16 @@
 [0]
 ChooseOptimizer = "0.3"
-DataFrames = "1"
 JuMP = "1"
+Test = "1"
+julia = "1"
+
+["0 - 0.0.2"]
+DataFrames = "1"
 LinearAlgebra = "1"
 SimpleDrawing = "0.2"
 SimpleDrawingObjects = "0.1"
-Test = "1"
-julia = "1"
+
+["0.0.3 - 0"]
+LatexPrint = "1"
+LinearAlgebraX = "0.2"
+PrettyTables = "2"
