@@ -1,22 +1,22 @@
 [0]
 julia = "1"
 
-["0-0.3.1"]
+["0 - 0.3.1"]
 PosDefManifold = "0.4.2-0.4"
 
-["0-0.3.2"]
+["0 - 0.3.2"]
 Distributions = "0.21.11-0.21"
 
-["0-0.3.7"]
+["0 - 0.3.7"]
 GLMNet = "0.4.2-0.4"
 
-["0-0.4"]
+["0 - 0.4"]
 Statistics = "1"
 
-["0-0.4.3"]
+["0 - 0.4.3"]
 StatsBase = "0.32"
 
-["0-0.4.6"]
+["0 - 0.4.6"]
 LIBSVM = "0.4"
 
 ["0.3.2"]
@@ -25,23 +25,23 @@ PosDefManifold = "0.4.4-0.4"
 ["0.3.3"]
 Distributions = "0.21.12-0.21"
 
-["0.3.3-0.3.7"]
+["0.3.3 - 0.3.7"]
 PosDefManifold = "0.4.6-0.4"
 
 ["0.3.4"]
 Distributions = "0.22.4-0.22"
 
-["0.3.5-0.4.3"]
+["0.3.5 - 0.4.3"]
 Distributions = "0.22"
 
-["0.3.8-0.4.3"]
+["0.3.8 - 0.4.3"]
 GLMNet = "0.5.1-0.5"
 PosDefManifold = "0.4.7-0.4"
 
-["0.4.4-0.4.5"]
+["0.4.4 - 0.4.5"]
 PosDefManifold = "0.4.8-0.4"
 
-["0.4.4-0.4.6"]
+["0.4.4 - 0.4.6"]
 Distributions = "0.22.6-0.22"
 GLMNet = "0.5.2-0.5"
 StatsBase = "0.32.2-0.32"
@@ -49,19 +49,31 @@ StatsBase = "0.32.2-0.32"
 ["0.4.6"]
 PosDefManifold = "0.4.9-0.4"
 
-["0.4.7-0"]
-Distributions = "0.22-0.25"
+["0.4.7 - 0"]
 GLMNet = "0.7"
 LIBSVM = "0.8"
 PosDefManifold = "0.5"
+
+["0.4.7 - 0.5.11"]
+Distributions = "0.22-0.25"
 StatsBase = "0.32-0.34"
 
-["0.5-0"]
+["0.5 - 0"]
 Diagonalizations = "0.2"
-Folds = "0.2.10-0.2"
 PermutationTests = "0.2"
+
+["0.5 - 0.5.11"]
+Folds = "0.2.10-0.2"
 Serialization = "1.11.0-1"
 StatsAPI = "1.7.0-1"
 
-["0.5.1-0"]
+["0.5.1 - 0.5.11"]
 DataFrames = "1.7.0-1"
+
+["0.5.12 - 0"]
+DataFrames = "1.7.0 - 1"
+Distributions = "0.22 - 0.25"
+Folds = "0.2.10 - 0.2"
+Serialization = "1.11.0 - 1"
+StatsAPI = "1.7.0 - 1"
+StatsBase = "0.32 - 0.34"
