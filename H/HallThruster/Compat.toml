@@ -5,38 +5,43 @@ JSON3 = "1"
 Measures = "0.3"
 RecipesBase = "1"
 
-["0-0.16"]
+["0 - 0.16"]
 FunctionWrappers = "1"
 Measurements = "2"
 
-["0-0.17"]
+["0 - 0.17"]
 JLD2 = "0.4"
 SnoopPrecompile = "1"
 Unitful = "1"
 julia = "1.7.0-1"
 
-["0-0.17.2"]
+["0 - 0.17.2"]
 PartialFunctions = "1"
 QuadGK = "2"
 StatsBase = "0.34"
 
-["0-0.8"]
+["0 - 0.8"]
 Documenter = "0.27"
 Statistics = "1.7.0-1"
 
-["0.10-0"]
-LinearAlgebra = ["0.0.0", "1"]
-
-["0.10-0.17"]
+["0.10 - 0.17"]
 Documenter = ["0.27", "1"]
 
-["0.10-0.17.2"]
+["0.10 - 0.17.2"]
 Printf = ["0.0.0", "1"]
 SparseArrays = ["0.0.0", "1.1.0-1"]
 Statistics = ["0.0.0", "1"]
 
-["0.18-0"]
+["0.10 - 0.18.6"]
+LinearAlgebra = ["0.0.0", "1"]
+
+["0.18 - 0"]
 Documenter = "1"
 OrderedCollections = "1"
 PrecompileTools = "1"
+
+["0.18 - 0.18.6"]
 julia = "1.10.0-1"
+
+["0.18.7 - 0"]
+julia = "1.10.0 - 1"
