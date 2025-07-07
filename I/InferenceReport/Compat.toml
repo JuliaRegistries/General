@@ -4,14 +4,16 @@ DataFrames = "1"
 DocStringExtensions = "0.9"
 Documenter = "1"
 JSON = "0.21"
-MCMCChains = "6"
 MPIPreferences = "0.1"
-PairPlots = "2"
 PrettyTables = "2"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 Pigeons = "0.4"
 julia = "1.8.0-1"
+
+["0 - 0.1.1"]
+MCMCChains = "6"
+PairPlots = "2"
 
 ["0.0"]
 AlgebraOfGraphics = "0.6"
@@ -19,11 +21,25 @@ CairoMakie = "0.11"
 Plots = "1"
 StatsPlots = "0.15"
 
-["0.1-0"]
-AlgebraOfGraphics = "0.6-0.8"
-CairoMakie = "0.11-0.12"
+["0.1 - 0"]
 DocumenterCitations = "1"
 
-["0.1.1-0"]
+["0.1 - 0.1.1"]
+AlgebraOfGraphics = "0.6-0.8"
+CairoMakie = "0.11-0.12"
+
+["0.1.1"]
 Pigeons = "0.4-0.5"
 julia = "1.10.0-1"
+
+["0.1.2 - 0"]
+AlgebraOfGraphics = "0.6 - 0.11"
+CairoMakie = "0.11 - 0.15"
+Distributions = "0.20 - 0.25"
+FFTW = "1.9.0 - 1"
+MCMCChains = "6 - 7"
+MCMCDiagnosticTools = "0.3"
+PairPlots = "2 - 3"
+Pigeons = "0.4 - 0.5"
+Statistics = "1"
+julia = "1.10.0 - 1"
