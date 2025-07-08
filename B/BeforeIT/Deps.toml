@@ -1,28 +1,36 @@
 [0]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
-MutableNamedTuples = "af6c499f-54b4-48cc-bbd2-094bba7533c7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0-0.1"]
+["0 - 0.1"]
 JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.2-0"]
+["0 - 0.3"]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+MAT = "23992714-dd62-5051-b70f-ba57cb901cac"
+MutableNamedTuples = "af6c499f-54b4-48cc-bbd2-094bba7533c7"
+
+["0.2 - 0"]
 DynamicSampling = "2083aeaf-6258-5d07-89fc-32cf5060c837"
 LazyArrays = "5078a376-72f3-5289-bfd5-ec5146d43c02"
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["0.2 - 0.3"]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
 
-["0.3-0"]
+["0.3 - 0"]
 ChunkSplitters = "ae650224-84b6-46f8-82ea-d812ca08434e"
 CommonSolve = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
 
-["0.3.2-0"]
+["0.3.2 - 0.3"]
 FFMPEG = "c87230d0-a227-11e9-1b43-d7ebe4e7570a"
+
+["0.4 - 0"]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
