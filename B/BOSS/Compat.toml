@@ -1,28 +1,41 @@
-[0]
+["0 - 0.1"]
+Turing = "0.33.1-0.33"
+
+["0 - 0.3.1"]
+Optimization = "3.27.0-3"
+
+["0 - 0.4"]
 AbstractGPs = "0.5.21-0.5"
 Distributions = "0.25.109-0.25"
 LatinHypercubeSampling = "1.9.0-1"
 julia = "1.10.0-1"
 
-["0-0.1"]
-Turing = "0.33.1-0.33"
-
-["0-0.3.1"]
-Optimization = "3.27.0-3"
-
-["0.2-0.3.1"]
+["0.2 - 0.3.1"]
 Turing = "0.33.1-0.34"
 
 ["0.3.2"]
 Turing = "0.33.1-0.35"
 
-["0.3.2-0"]
+["0.3.2 - 0.4"]
 Distributed = "1.10.0-1"
 InteractiveUtils = "1.10.0-1"
 LinearAlgebra = "1.10.0-1"
 Optimization = "3.27.0-4"
 Random = "1.10.0-1"
 
-["0.4-0"]
+["0.4"]
 Bijectors = "0.15.6-0.15"
 InverseFunctions = "0.1.17-0.1"
+
+["0.5 - 0"]
+AbstractGPs = "0.5.21 - 0.5"
+Bijectors = "0.15.6 - 0.15"
+Distributed = "1.10.0 - 1"
+Distributions = "0.25.109 - 0.25"
+InteractiveUtils = "1.10.0 - 1"
+InverseFunctions = "0.1.17 - 0.1"
+LatinHypercubeSampling = "1.9.0 - 1"
+LinearAlgebra = "1.10.0 - 1"
+Optimization = "3.27.0 - 4"
+Random = "1.10.0 - 1"
+julia = "1.10.0 - 1"
