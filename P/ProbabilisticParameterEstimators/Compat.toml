@@ -3,10 +3,19 @@ Accessors = "0.1"
 BlockDiagonals = "0.1"
 Distributions = "0.25"
 DocStringExtensions = "0.9"
-ForwardDiff = "0.10"
 LinearAlgebra = "1"
 Logging = "1"
-NonlinearSolve = "3"
 Random = "1"
+
+["0 - 0.7"]
+ForwardDiff = "0.10"
+NonlinearSolve = "3"
 Turing = "0.32-0.33"
 julia = "1.9.0-1"
+
+["0.8 - 0"]
+ForwardDiff = ["0.9 - 0.10", "1"]
+NonlinearSolveBase = "1"
+SimpleNonlinearSolve = "2"
+Turing = "0.32 - 0.38"
+julia = "1.10.0 - 1"
