@@ -3,14 +3,11 @@ ChainRules = "1"
 ChainRulesCore = "1"
 Distances = "0.10"
 KernelAbstractions = "0.9"
-NNlib = "0.8-0.9"
 ProgressMeter = "1"
-StatsBase = "0.33-0.34"
 TimerOutputs = "0.5"
 Zygote = "0.6"
-julia = "1.8.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 BandedMatrices = "0.17"
 CUDA = "4"
 GPUArrays = "8"
@@ -21,12 +18,17 @@ HDF5 = "0.16"
 NLsolve = "4"
 Optimisers = "0.2"
 
-["0-0.2"]
+["0 - 0.2"]
 AbstractNeuralNetworks = "0.1"
 Lux = "0.4-0.5"
 
-["0-0.4.3"]
+["0 - 0.4.3"]
 ForwardDiff = "0.10"
+
+["0 - 0.4.4"]
+NNlib = "0.8-0.9"
+StatsBase = "0.33-0.34"
+julia = "1.8.0-1"
 
 ["0.2"]
 CUDA = "4-5"
@@ -34,68 +36,86 @@ GPUArrays = "8-10"
 GeometricBase = "0.9"
 GeometricEquations = "0.14"
 
-["0.2-0"]
+["0.2 - 0"]
 ChainRulesTestUtils = "1"
-HDF5 = "0.16-0.17"
 SafeTestsets = "0.1"
 
-["0.2-0.3.0"]
+["0.2 - 0.3.0"]
 Documenter = ["0.27", "1"]
 
-["0.2-0.3.5"]
+["0.2 - 0.3.5"]
 GeometricIntegrators = "0.13"
 
-["0.2-0.3.6"]
+["0.2 - 0.3.6"]
 BandedMatrices = ["0.17", "1"]
+
+["0.2 - 0.4.4"]
+HDF5 = "0.16-0.17"
 
 ["0.3"]
 GeometricSolutions = "0.3.24-0.3"
 
-["0.3-0"]
-GeometricBase = "0.10"
-
-["0.3-0.3.3"]
+["0.3 - 0.3.3"]
 AbstractNeuralNetworks = "0.3"
+
+["0.3 - 0.4.4"]
+GeometricBase = "0.10"
 
 ["0.3.0"]
 GeometricEquations = "0.16"
 
-["0.3.1-0"]
+["0.3.1 - 0"]
 UpdateJulia = "0.4"
 
-["0.3.1-0.3"]
+["0.3.1 - 0.3"]
 LazyArrays = "2"
 
-["0.3.1-0.3.5"]
+["0.3.1 - 0.3.5"]
 GeometricEquations = "0.16-0.17"
 
-["0.3.4-0.3.5"]
+["0.3.4 - 0.3.5"]
 AbstractNeuralNetworks = "0.3.2-0.3"
 
 ["0.3.6"]
 AbstractNeuralNetworks = "0.3.2-0.4"
 
-["0.3.6-0"]
-GeometricEquations = "0.18"
-
-["0.3.6-0.3"]
+["0.3.6 - 0.3"]
 GeometricIntegrators = "0.14"
 
-["0.3.7-0"]
+["0.3.6 - 0.4.4"]
+GeometricEquations = "0.18"
+
+["0.3.7 - 0"]
 BandedMatrices = "1"
 
-["0.3.7-0.3"]
+["0.3.7 - 0.3"]
 AbstractNeuralNetworks = "0.4"
 
-["0.4-0"]
-AbstractNeuralNetworks = "0.5-0.6"
-GeometricSolutions = "0.3.24-0.4"
+["0.4 - 0"]
 LazyArrays = "2.3.2"
 
-["0.4.2-0"]
+["0.4 - 0.4.4"]
+AbstractNeuralNetworks = "0.5-0.6"
+GeometricSolutions = "0.3.24-0.4"
+
+["0.4.2 - 0"]
 SymbolicNeuralNetworks = "0.3"
+
+["0.4.2 - 0.4.4"]
 Symbolics = "6.22.0-6"
 ZygoteRules = "0.2.7-0.2"
 
-["0.4.4-0"]
+["0.4.4 - 0"]
 ForwardDiff = ["0.10", "1"]
+
+["0.4.5 - 0"]
+AbstractNeuralNetworks = "0.5 - 0.6"
+GeometricBase = "0.11"
+GeometricEquations = "0.19"
+GeometricSolutions = "0.5"
+HDF5 = "0.16 - 0.17"
+NNlib = "0.8 - 0.9"
+StatsBase = "0.33 - 0.34"
+Symbolics = "6.22.0 - 6"
+ZygoteRules = "0.2.7 - 0.2"
+julia = "1.8.0 - 1"
