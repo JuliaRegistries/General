@@ -63,11 +63,17 @@ KernelAbstractions = "0.9.34-0.9"
 AbstractFFTs = "1.5.0 - 1"
 AbstractNFFTs = "0.8.2 - 0.8"
 Adapt = "4.0.4 - 4"
-Bumper = "0.6 - 0.7"
 FFTW = "1.7.0 - 1"
 GPUArraysCore = "0.1.6 - 0.2"
 KernelAbstractions = "0.9.34 - 0.9"
 LinearAlgebra = "1.9.0 - 1"
 PrecompileTools = "1.2.0 - 1"
 StaticArrays = "1.7.0 - 1"
+
+["0.8.1 - 0.8.2"]
+Bumper = "0.6 - 0.7"
 julia = "1.9.0 - 1"
+
+["0.8.3 - 0"]
+OhMyThreads = "0.8.3 - 0.8"
+julia = "1.10.0 - 1"
