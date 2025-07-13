@@ -28,7 +28,6 @@ StatsBase = "0.34"
 SymbolicIndexingInterface = "0.3"
 SymbolicUtils = "3.25.0 - 3"
 Timers = "0.1.5 - 0.1"
-VortexStepMethod = "1.2.6 - 1"
 WinchModels = "0.3.6 - 0.3"
 julia = "1.10.0 - 1"
 
@@ -37,7 +36,13 @@ AtmosphericModels = "0.2.4 - 0.2"
 ModelingToolkit = "9.78"
 NLSolversBase = "7.8.3 - 7.8"
 
+["0 - 0.1.1"]
+VortexStepMethod = "1.2.6 - 1"
+
 ["0.1.1 - 0"]
 AtmosphericModels = "0.3"
 ModelingToolkit = "10.10"
 SteadyStateDiffEq = "2.5.0 - 2"
+
+["0.1.2 - 0"]
+VortexStepMethod = "2"
