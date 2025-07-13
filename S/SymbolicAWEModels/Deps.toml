@@ -10,7 +10,6 @@ KiteUtils = "90980105-b163-44e5-ba9f-8b1c83bb0533"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
-NLSolversBase = "d41bc354-129a-5804-8e4c-c37616107c6c"
 NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 OrdinaryDiffEqBDF = "6ad6398a-0878-4a85-9266-38940aa047c8"
 OrdinaryDiffEqCore = "bbf590c4-e513-4bbe-9b18-05decba2e5d8"
@@ -33,3 +32,9 @@ SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 Timers = "21f18d07-b854-4dab-86f0-c15a3821819a"
 VortexStepMethod = "ed3cd733-9f0f-46a9-93e0-89b8d4998dd9"
 WinchModels = "7dcfa46b-7979-4771-bbf4-0aee0da42e1f"
+
+["0 - 0.1.0"]
+NLSolversBase = "d41bc354-129a-5804-8e4c-c37616107c6c"
+
+["0.1.1 - 0"]
+SteadyStateDiffEq = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
