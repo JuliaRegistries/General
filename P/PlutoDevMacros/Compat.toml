@@ -1,22 +1,22 @@
 [0]
 MacroTools = "0.5"
 
-["0-0.5.0"]
+["0 - 0.5.0"]
 julia = "1.6.0-1"
 
-["0-0.5.1"]
+["0 - 0.5.1"]
 Requires = "1"
 
-["0.4.6-0.7"]
+["0.4.6 - 0.7"]
 HypertextLiteral = "0.9"
 
-["0.5.1-0.5.5"]
+["0.5.1 - 0.5.5"]
 julia = "1.8.0-1"
 
-["0.5.6-0"]
+["0.5.6 - 0.9.0"]
 julia = "1.9.0-1"
 
-["0.6-0.7"]
+["0.6 - 0.7"]
 AbstractPlutoDingetjes = "1.2.0-1"
 DocStringExtensions = "0.9"
 
@@ -25,10 +25,16 @@ InteractiveUtils = "1"
 Markdown = "1"
 Random = "1"
 
-["0.7-0"]
+["0.7 - 0"]
 Pkg = "1"
 TOML = "1"
 
-["0.9-0"]
-JuliaInterpreter = "0.9"
+["0.9 - 0"]
 Logging = "1"
+
+["0.9.0"]
+JuliaInterpreter = "0.9"
+
+["0.9.1 - 0"]
+JuliaInterpreter = "0.9 - 0.10"
+julia = "1.10.0 - 1"
