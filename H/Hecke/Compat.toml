@@ -256,23 +256,40 @@ AbstractAlgebra = "0.45"
 Nemo = "0.50"
 
 ["0.36.1 - 0"]
+FLINT_jll = "301.300"
+RandomExtensions = "0.4.3 - 0.4"
+
+["0.36.1 - 0.36"]
 Dates = "1.6.0 - 1"
 Distributed = "1.6.0 - 1"
-FLINT_jll = "301.300"
 LazyArtifacts = "1.6.0 - 1"
 LinearAlgebra = "1.6.0 - 1"
 Markdown = "1.6.0 - 1"
 Pkg = "1.6.0 - 1"
 Printf = "1.6.0 - 1"
 Random = "1.6.0 - 1"
-RandomExtensions = "0.4.3 - 0.4"
 Serialization = "1.6.0 - 1"
 SparseArrays = "1.6.0 - 1"
 julia = "1.6.0 - 1"
 
-["0.36.2 - 0"]
+["0.36.2 - 0.36"]
 AbstractAlgebra = "0.45.3 - 0.46"
 Nemo = "0.50 - 0.51"
+
+["0.37 - 0"]
+AbstractAlgebra = "0.46"
+Dates = "1.10.0 - 1"
+Distributed = "1.10.0 - 1"
+LazyArtifacts = "1.10.0 - 1"
+LinearAlgebra = "1.10.0 - 1"
+Markdown = "1.10.0 - 1"
+Nemo = "0.51"
+Pkg = "1.10.0 - 1"
+Printf = "1.10.0 - 1"
+Random = "1.10.0 - 1"
+Serialization = "1.10.0 - 1"
+SparseArrays = "1.10.0 - 1"
+julia = "1.10.0 - 1"
 
 ["0.5.2"]
 Nemo = "0.10.1-0.10"
