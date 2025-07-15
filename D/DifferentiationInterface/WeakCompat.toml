@@ -144,6 +144,9 @@ PolyesterForwardDiff = "0.1.2-0.1"
 ["0.7.1"]
 Mooncake = "0.4.122-0.4"
 
+["0.7.2"]
+SparseConnectivityTracer = "0.6.14 - 0.6"
+
 ["0.7.2 - 0"]
 ChainRulesCore = "1.23.0 - 1"
 DiffResults = "1.1.0 - 1"
@@ -157,9 +160,11 @@ GTPSA = "1.4.0 - 1"
 Mooncake = "0.4.122 - 0.4"
 PolyesterForwardDiff = "0.1.2 - 0.1"
 ReverseDiff = "1.15.1 - 1"
-SparseConnectivityTracer = "0.6.14 - 0.6"
 SparseMatrixColorings = "0.4.9 - 0.4"
 StaticArrays = "1.9.7 - 1"
 Symbolics = "5.27.1 - 6"
 Tracker = "0.2.33 - 0.2"
 Zygote = "0.6.69 - 0.7"
+
+["0.7.3 - 0"]
+SparseConnectivityTracer = ["0.6.14 - 0.6", "1"]
