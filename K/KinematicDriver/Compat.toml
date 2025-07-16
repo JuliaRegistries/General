@@ -1,14 +1,7 @@
 [0]
-DiffEqBase = "6"
-Distributions = "0.25"
-Interpolations = "0.15"
-JLD2 = "0.4"
-LinearAlgebra = "1"
 Logging = "1"
 NCDatasets = "0.14"
 OrdinaryDiffEq = "6"
-ProgressLogging = "0.1"
-Random = "1"
 TerminalLoggers = "0.1"
 
 ["0 - 0.10"]
@@ -20,6 +13,15 @@ SpecialFunctions = "2.3.0-2"
 Thermodynamics = "0.12.6-0.12"
 julia = "1.8.0-1"
 
+["0 - 0.11"]
+DiffEqBase = "6"
+Distributions = "0.25"
+Interpolations = "0.15"
+JLD2 = "0.4"
+LinearAlgebra = "1"
+ProgressLogging = "0.1"
+Random = "1"
+
 ["0 - 0.8"]
 ClimaCore = "0.13"
 ClimaCorePlots = "0.2"
@@ -30,18 +32,25 @@ CloudMicrophysics = "0.19"
 CloudMicrophysics = "0.22.1-0.22"
 Statistics = "1.10.0-1"
 
-["0.11 - 0"]
+["0.11"]
 ClimaParams = "0.10.27 - 0.10"
 CloudMicrophysics = "0.24.1 - 0.24"
-Cloudy = "0.5.6 - 0.5"
-DocStringExtensions = "0.9.3 - 0.9"
 EnsembleKalmanProcesses = "1.1.0 - 1"
 Optim = "1.7.0 - 1"
 Plots = "1.29.0 - 1"
+Thermodynamics = "0.12.6 - 0.12"
+
+["0.11 - 0"]
+Cloudy = "0.5.6 - 0.5"
+DocStringExtensions = "0.9.3 - 0.9"
 SpecialFunctions = "2.3.0 - 2"
 Statistics = "1.10.0 - 1"
-Thermodynamics = "0.12.6 - 0.12"
 julia = "1.8.0 - 1"
+
+["0.12 - 0"]
+ClimaParams = "0.10.35 - 0.10"
+CloudMicrophysics = "0.25"
+Thermodynamics = "0.12.13 - 0.12"
 
 ["0.9"]
 CloudMicrophysics = "0.20"
