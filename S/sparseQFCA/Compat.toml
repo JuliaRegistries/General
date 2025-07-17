@@ -1,4 +1,4 @@
-["0-0.4"]
+["0 - 0.4"]
 DelimitedFiles = "1"
 GLPK = "0.0.0-0.12"
 JuMP = "0.0.0-0.20"
@@ -8,12 +8,12 @@ julia = "1"
 DelimitedFiles = "1.3.0-1"
 julia = "1.3.0-1"
 
-["0.5-0"]
+["0.5 - 0"]
 Colors = "0.10.2-0.10"
 GLPK = "0.12.1-0.12"
 JuMP = "0.20"
 
-["0.6-0"]
+["0.6 - 0"]
 DelimitedFiles = "1"
 julia = "1"
 
@@ -26,24 +26,24 @@ GLPK = "0.14"
 JuMP = "0.21"
 julia = "1.5.0-1"
 
-["1.1-1"]
+["1.1 - 1"]
 COBREXA = "1"
 GLPK = ["0.14", "1"]
 JuMP = ["0.21", "1"]
 
-["1.1-1.2"]
+["1.1 - 1.2"]
 DelimitedFiles = "1.6.0-1"
 julia = "1.6.0-1"
 
-["1.3-1.5"]
+["1.3 - 1.5"]
 DelimitedFiles = "1.7.0-1"
 julia = "1.7.0-1"
 
-["1.6-1"]
+["1.6 - 1"]
 DelimitedFiles = "1.8.0-1"
 julia = "1.8.0-1"
 
-["2-2.1"]
+["2 - 2.1"]
 CDDLib = "0.9"
 julia = "1.9.2-1"
 
@@ -58,21 +58,15 @@ MathOptInterface = "1.28.1-1"
 ["2.1"]
 Clarabel = ["0.7", "0.9"]
 
-["2.1-2"]
+["2.1 - 2"]
 AbstractFBCModels = "1"
-COBREXA = "1.5.0-2"
 Cbc = "1"
 Clp = "1"
-Colors = "0.12-0.13"
 DelimitedFiles = "1"
 Distributed = "1"
-ECOS = "1.1.0-1"
-GLPK = "1.1.0-1"
-HiGHS = "1.9.0-1"
 JLD2 = "0.5"
 JSON = "0.21"
 JSONFBCModels = "1"
-JuMP = "1.21.0-1"
 LinearAlgebra = "1"
 MathOptInterface = "1"
 SBMLFBCModels = "1"
@@ -81,7 +75,27 @@ SharedArrays = "1"
 SparseArrays = "1"
 Test = "1"
 
-["2.2-2"]
+["2.1 - 2.2"]
+COBREXA = "1.5.0-2"
+Colors = "0.12-0.13"
+ECOS = "1.1.0-1"
+GLPK = "1.1.0-1"
+HiGHS = "1.9.0-1"
+JuMP = "1.21.0-1"
+
+["2.2"]
 CDDLib = "0.9-0.10"
 Clarabel = ["0.7", "0.9-0.10"]
 julia = "1.10.7-1"
+
+["2.3 - 2"]
+CDDLib = "0.9 - 0.10"
+COBREXA = "1.5.0 - 2"
+Clarabel = ["0.7", "0.9 - 0.10"]
+Colors = "0.12 - 0.13"
+ECOS = "1.1.0 - 1"
+GLPK = "1.1.0 - 1"
+HDF5 = "0.17"
+HiGHS = "1.9.0 - 1"
+JuMP = "1.21.0 - 1"
+julia = "1.10.7 - 1"

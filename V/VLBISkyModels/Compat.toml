@@ -4,117 +4,134 @@ Accessors = "0.1"
 ArgCheck = "2"
 ChainRulesCore = "1"
 DelimitedFiles = "1"
-DocStringExtensions = "0.6-0.9"
 FFTW = "1"
 FillArrays = "1"
-NFFT = "0.10-0.13"
-NamedTupleTools = "0.13-0.14"
 PaddedViews = "0.5"
 RecipesBase = "1"
 Reexport = "1"
-SpecialFunctions = ["0.10", "1-2"]
 StaticArrays = "1"
 
-["0-0.1"]
+["0 - 0.1"]
 ComradeBase = "0.4"
 
-["0-0.3"]
+["0 - 0.3"]
 AxisKeys = "0.2"
 
-["0-0.3.1"]
+["0 - 0.3.1"]
 EnzymeCore = "0.3-0.5"
 
-["0-0.4"]
+["0 - 0.4"]
 Enzyme = "0.11"
 Static = "0.6-0.8"
 julia = "1.8.0-1"
 
-["0-0.5.4"]
+["0 - 0.5.4"]
 FastBroadcast = "0.2"
 
-["0-0.6.12"]
+["0 - 0.6.12"]
 ForwardDiff = "0.9-0.10"
 
-["0-0.6.3"]
+["0 - 0.6.13"]
+DocStringExtensions = "0.6-0.9"
+NFFT = "0.10-0.13"
+NamedTupleTools = "0.13-0.14"
+SpecialFunctions = ["0.10", "1-2"]
+
+["0 - 0.6.3"]
 StructArrays = "0.3-0.6"
 
-["0-0.6.5"]
+["0 - 0.6.5"]
 BasicInterpolators = "0.6-0.7"
 
-["0.2-0.3.0"]
+["0.2 - 0.3.0"]
 PolarizedTypes = "0.1"
 
-["0.2-0.3.1"]
+["0.2 - 0.3.1"]
 ComradeBase = "0.5.1-0.5"
 
-["0.2.1-0.6.2"]
+["0.2.1 - 0.6.2"]
 Requires = "1"
 
-["0.3.1-0"]
+["0.3.1 - 0.6.13"]
 PolarizedTypes = "0.1.1-0.1"
 
-["0.3.2-0"]
+["0.3.2 - 0.3"]
+ComradeBase = "0.5.4-0.5"
+
+["0.3.2 - 0.4.7"]
+EnzymeCore = "0.3-0.6"
+
+["0.3.2 - 0.6.13"]
 LinearAlgebra = "1.8.0-1"
 Printf = "1.8.0-1"
 Serialization = "1.8.0-1"
 
-["0.3.2-0.3"]
-ComradeBase = "0.5.4-0.5"
-
-["0.3.2-0.4.7"]
-EnzymeCore = "0.3-0.6"
-
 ["0.4"]
 ComradeBase = "0.6"
 
-["0.4-0.4.7"]
+["0.4 - 0.4.7"]
 DimensionalData = "0.25"
 
-["0.4.8-0.4"]
+["0.4.8 - 0.4"]
 DimensionalData = "0.25-0.26"
 
-["0.4.8-0.6.2"]
+["0.4.8 - 0.6.2"]
 EnzymeCore = "0.3-0.7"
 
 ["0.5"]
 ComradeBase = "0.7"
 
-["0.5-0"]
+["0.5 - 0.6.13"]
 julia = "1.9.0-1"
 
-["0.5-0.6.2"]
+["0.5 - 0.6.2"]
 DimensionalData = "0.25-0.27"
 Enzyme = "0.11-0.12"
 
-["0.5.2-0"]
+["0.5.2 - 0"]
 FITSIO = "0.17"
 
-["0.6-0.6.5"]
+["0.6 - 0.6.5"]
 ComradeBase = "0.8"
 
-["0.6.10-0.6.12"]
+["0.6.10 - 0.6.12"]
 ComradeBase = "0.9"
 
-["0.6.13-0"]
+["0.6.13"]
 ComradeBase = "0.9.3-0.9"
 ForwardDiff = ["0.9-0.10", "1"]
+
+["0.6.14 - 0"]
+ComradeBase = "0.9.3 - 0.9"
+DimensionalData = ["0.27 - 0.28", "0.29.0 - 0.29.18"]
+DocStringExtensions = "0.6 - 0.9"
+ForwardDiff = ["0.9 - 0.10", "1"]
+LinearAlgebra = "1.8.0 - 1"
+NFFT = "0.10 - 0.13"
+NamedTupleTools = "0.13 - 0.14"
+PolarizedTypes = "0.1.1 - 0.1"
+Printf = "1.8.0 - 1"
+Serialization = "1.8.0 - 1"
+SpecialFunctions = ["0.10", "1 - 2"]
+StructArrays = "0.6 - 0.7"
+julia = "1.9.0 - 1"
 
 ["0.6.3"]
 DimensionalData = "0.27-0.28"
 
-["0.6.3-0"]
+["0.6.3 - 0"]
 EnzymeCore = "0.8"
 
 ["0.6.4"]
 DimensionalData = "0.27-0.29"
 StructArrays = "0.6"
 
-["0.6.5-0"]
+["0.6.5 - 0.6.13"]
 DimensionalData = ["0.27-0.28", "0.29.2-0.29"]
 StructArrays = "0.6-0.7"
 
-["0.6.6-0"]
+["0.6.6 - 0"]
 GridInterpolations = "1"
 
-["0.6.6-0.6.9"]
+["0.6.6 - 0.6.9"]
 ComradeBase = "0.8.7-0.8"
