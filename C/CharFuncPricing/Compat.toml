@@ -7,21 +7,30 @@ Nemo = "0.27"
 Roots = "1"
 SpecialFunctions = "1"
 
-["0.2-0"]
+["0.2 - 0"]
 DoubleExponentialFormulas = "0.1"
 Optim = "1"
 
-["0.4-0"]
+["0.4 - 0"]
 BenchmarkTools = "1"
 FFTW = "1"
 FastGaussQuadrature = "1"
 ForwardDiff = "0.10"
 Nemo = ["0.27", "0.30"]
-Roots = "1-2"
-SpecialFunctions = "1-2"
 StatsBase = "0.34"
 TaylorSeries = "0.15"
 TestEnv = "1"
 
-["0.6-0"]
+["0.4 - 0.7"]
+Roots = "1-2"
+SpecialFunctions = "1-2"
+
+["0.6 - 0.7"]
 Revise = "3.7.2-3"
+
+["0.8 - 0"]
+AbstractFFTs = "1.5.0 - 1"
+NFFT = "0.13.7 - 0.13"
+Revise = "3.7.2 - 3"
+Roots = "1 - 2"
+SpecialFunctions = "1 - 2"
