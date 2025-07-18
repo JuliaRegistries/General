@@ -70,9 +70,14 @@ RecursiveArrayTools = "3.27.0 - 3"
 Reexport = "1.2.0 - 1"
 SciMLBase = "2.82.0 - 2"
 SparseArrays = "1.10.0 - 1"
-SparseConnectivityTracer = "0.6.13 - 0.6"
 SparseMatrixColorings = "0.4.13 - 0.4"
 julia = "1.10.0 - 1"
+
+["1.11.0"]
+SparseConnectivityTracer = "0.6.13 - 0.6"
+
+["1.11.1 - 1"]
+SparseConnectivityTracer = ["0.6.13 - 0.6", "1"]
 
 ["1.5 - 1.10"]
 ArrayInterface = "7.18.0-7"
