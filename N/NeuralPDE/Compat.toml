@@ -389,9 +389,11 @@ NeuralOperators = "0.5"
 ["5.18.1 - 5.18"]
 AdvancedHMC = "0.6.1-0.7"
 
+["5.19"]
+AdvancedHMC = "0.6.1 - 0.7"
+
 ["5.19 - 5"]
 ADTypes = "1.9.0 - 1"
-AdvancedHMC = "0.6.1 - 0.7"
 ArrayInterface = "7.11.0 - 7"
 ChainRulesCore = "1.24.0 - 1"
 ComponentArrays = "0.15.16 - 0.15"
@@ -427,6 +429,10 @@ julia = "1.10.0 - 1"
 ["5.2 - 5.7"]
 ComponentArrays = "0.13.2-0.13"
 
+["5.20 - 5"]
+AdvancedHMC = "0.8"
+MCMCChains = "7"
+
 ["5.4 - 5.11"]
 ArrayInterface = "6-7"
 
@@ -454,7 +460,6 @@ SciMLBase = "1.91.0-2"
 
 ["5.9 - 5"]
 LogDensityProblems = "2"
-MCMCChains = "6"
 
 ["5.9 - 5.10"]
 Optimisers = "0.2-0.3"
@@ -466,3 +471,6 @@ ComponentArrays = "0.13.2-0.15"
 ["5.9 - 5.14"]
 Functors = "0.4"
 MonteCarloMeasurements = "1"
+
+["5.9 - 5.19"]
+MCMCChains = "6"
