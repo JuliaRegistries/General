@@ -396,7 +396,7 @@ Accessors = "0.1"
 ["0.31 - 0.34"]
 BangBang = "0.4"
 
-["0.31.2 - 0"]
+["0.31.2 - 0.39.6"]
 AdvancedPS = "0.6"
 
 ["0.31.3 - 0.32.2"]
@@ -523,7 +523,6 @@ DocStringExtensions = "0.8 - 0.9"
 DynamicPPL = "0.36.3 - 0.36"
 EllipticalSliceSampling = ["0.5", "1 - 2"]
 ForwardDiff = ["0.10.3 - 0.10", "1"]
-Libtask = "0.8.8 - 0.8"
 MCMCChains = "5 - 7"
 NamedArrays = "0.9 - 0.10"
 Optimization = "3 - 4"
@@ -533,16 +532,24 @@ Statistics = "1.6.0 - 1"
 StatsAPI = "1.6.0 - 1"
 StatsBase = "0.32 - 0.34"
 StatsFuns = ["0.8 - 0.9", "1"]
-julia = "1.10.2 - 1"
 
 ["0.39.2 - 0.39.3"]
 AbstractPPL = "0.11"
+
+["0.39.2 - 0.39.6"]
+Libtask = "0.8.8 - 0.8"
+julia = "1.10.2 - 1"
 
 ["0.39.4 - 0.39.5"]
 AbstractPPL = "0.11 - 0.12"
 
 ["0.39.6 - 0"]
 AbstractPPL = "0.11 - 0.13"
+
+["0.39.7 - 0"]
+AdvancedPS = "0.7"
+Libtask = "0.9.3 - 0.9"
+julia = "1.10.8 - 1"
 
 ["0.5.1 - 0.6.14"]
 Bijectors = "0-0.2"
