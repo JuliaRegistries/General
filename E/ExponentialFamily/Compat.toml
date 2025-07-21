@@ -12,7 +12,6 @@ Distributions = "0.25"
 FastCholesky = "1"
 HypergeometricFunctions = "0.3"
 LogExpFunctions = "0.3"
-LoopVectorization = "0.12"
 PositiveFactorizations = "0.2"
 SpecialFunctions = "2"
 StaticArrays = "1"
@@ -25,6 +24,9 @@ ForwardDiff = "0.10"
 FillArrays = "1.6.0-1"
 HCubature = "1.5.0-1"
 julia = "1.9.0-1"
+
+["1 - 2.0.6"]
+LoopVectorization = "0.12"
 
 ["1.0"]
 BlockArrays = "0.16"
