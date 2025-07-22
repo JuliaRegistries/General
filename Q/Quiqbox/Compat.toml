@@ -1,27 +1,27 @@
-["0-0.1.0"]
+["0 - 0.1.0"]
 COSMO = "0.8"
 Convex = "0.14"
 SymbolicUtils = "0.13"
 
-["0-0.2.0"]
+["0 - 0.2.0"]
 Symbolics = "3"
 libcint_jll = "3.0"
 
-["0-0.2.1"]
+["0 - 0.2.1"]
 Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
-["0-0.3.1"]
+["0 - 0.3.1"]
 SeparableOptimization = "0.1"
 
-["0-0.4.0"]
+["0 - 0.4.0"]
 PiecewiseQuadratics = "0.1"
 
-["0.1.1-0"]
-Combinatorics = "1"
-
-["0.1.1-0.1"]
+["0.1.1 - 0.1"]
 SymbolicUtils = ["0.13", "0.15"]
+
+["0.1.1 - 0.5"]
+Combinatorics = "1"
 
 ["0.2.0"]
 SymbolicUtils = ["0.13", "0.15-0.16"]
@@ -30,67 +30,80 @@ SymbolicUtils = ["0.13", "0.15-0.16"]
 SymbolicUtils = ["0.13", "0.15-0.18"]
 Symbolics = "3-4"
 
-["0.2.1-0.2"]
+["0.2.1 - 0.2"]
 libcint_jll = ["3.0", "4.4"]
 
-["0.2.2-0"]
-SpecialFunctions = "2"
-
-["0.2.2-0.3"]
+["0.2.2 - 0.3"]
 SymbolicUtils = "0.19"
 Symbolics = "4"
 
-["0.2.2-0.5.7"]
+["0.2.2 - 0.5"]
+SpecialFunctions = "2"
+
+["0.2.2 - 0.5.7"]
 Statistics = "1.6.0-1"
 
-["0.2.2-0.5.8"]
+["0.2.2 - 0.5.8"]
 julia = "1.6.0-1"
 
-["0.2.3-0.4.1"]
+["0.2.3 - 0.4.1"]
 QuadGK = "2.4.2-2"
 
-["0.3-0"]
+["0.3 - 0.5"]
 ForwardDiff = "0.10.25-0.10"
 
-["0.3.2-0.3"]
+["0.3.2 - 0.3"]
 LBFGSB = "0.4"
 
-["0.4-0"]
+["0.4 - 0.5"]
 LineSearches = "7.1.1-7"
 
-["0.4-0.5.1"]
+["0.4 - 0.5.1"]
 Tullio = "0.3"
 
-["0.4-0.5.3"]
+["0.4 - 0.5.3"]
 Optim = "1.7.0-1"
 
-["0.4.1-0.5.7"]
+["0.4.1 - 0.5.7"]
 TensorOperations = "3"
 
-["0.4.2-0.5.2"]
+["0.4.2 - 0.5.2"]
 FastGaussQuadrature = "0.4"
 
-["0.5.2-0"]
+["0.5.2 - 0.5"]
 DoubleFloats = "1.2.0-1"
 
-["0.5.3-0.5.7"]
+["0.5.3 - 0.5.7"]
 FastGaussQuadrature = "0.5"
 
-["0.5.4-0"]
+["0.5.4 - 0.5"]
 LBFGSB = "0.4"
 
-["0.5.4-0.5.7"]
+["0.5.4 - 0.5.7"]
 SPGBox = "0.5"
 
-["0.5.8-0"]
-FastGaussQuadrature = "1"
+["0.5.8 - 0"]
 LinearAlgebra = "1"
 Printf = "1"
-SPGBox = "0.7"
 Statistics = "1"
+
+["0.5.8 - 0.5"]
+FastGaussQuadrature = "1"
+SPGBox = "0.7"
 TensorOperations = "4.0.5-4"
 
-["0.5.9-0"]
+["0.5.9 - 0.5"]
 LRUCache = "1.6.0-1"
 LazyArrays = "1.8.0-1"
 julia = "1.9.0-1"
+
+["0.6 - 0"]
+Combinatorics = "1.0.3 - 1"
+HCubature = "1.7.0 - 1"
+LBFGSB = "0.4.1 - 0.4"
+LRUCache = "1.6.0 - 1"
+PrecompileTools = "1.2.1 - 1"
+SPGBox = "0.7.2 - 0.7"
+SpecialFunctions = "2.5.1 - 2"
+TensorOperations = "5.2.0 - 5"
+julia = "1.11.0 - 1"
