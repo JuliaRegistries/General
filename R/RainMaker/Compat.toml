@@ -1,13 +1,20 @@
 [0]
-CairoMakie = "0.12"
 DocStringExtensions = "0.9"
-julia = "1.10.0-1"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 SpeedyWeather = "0.12"
 
-["0.1.1-0.2.0"]
+["0 - 0.2.1"]
+CairoMakie = "0.12"
+julia = "1.10.0-1"
+
+["0.1.1 - 0.2.0"]
 SpeedyWeather = "0.12-0.13"
 
-["0.2.1-0"]
+["0.2.1"]
 SpeedyWeather = "0.14"
+
+["0.2.2 - 0"]
+CairoMakie = "0.15"
+SpeedyWeather = "0.16"
+julia = "1.10.0 - 1"
