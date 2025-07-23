@@ -173,8 +173,14 @@ LazyBroadcast = "1"
 SciMLBase = "2.53.0 - 2"
 StaticArrays = "1.6.0 - 1"
 SurfaceFluxes = "0.11 - 0.12"
-Thermodynamics = "0.12.4 - 0.12"
 julia = "1.10.0 - 1"
+
+["0.16.3 - 0.17.1"]
+Thermodynamics = "0.12.4 - 0.12"
+
+["0.17.2 - 0"]
+ClimaParams = "0.10.2 - 0.10"
+Thermodynamics = "0.12.15 - 0.12"
 
 ["0.9 - 0.10"]
 Insolation = "0.9"
