@@ -1,18 +1,29 @@
 [0]
-Scratch = "1.2.0-1"
 TOML = "1"
-ThreadPools = "2.1.0-2"
 
-["0-0.2"]
+["0 - 0.2"]
 julia = "1.6.0-1"
 
-["0-0.3.0"]
+["0 - 0.3.0"]
 RegularizedLeastSquares = "0.10-0.11"
 
-["0.3-0"]
+["0 - 0.5.4"]
+Scratch = "1.2.0-1"
+ThreadPools = "2.1.0-2"
+
+["0.3 - 0.5.4"]
 LRUCache = "1.6.0-1"
 julia = "1.9.0-1"
 
-["0.4-0"]
+["0.4 - 0"]
 AbstractTrees = "0.4"
+
+["0.4 - 0.5.4"]
 Observables = "0.5.5-0.5"
+
+["0.5.5 - 0"]
+LRUCache = "1.6.0 - 1"
+Observables = "0.5.5 - 0.5"
+Scratch = "1.2.0 - 1"
+ThreadPools = "2.1.0 - 2"
+julia = "1.9.0 - 1"
