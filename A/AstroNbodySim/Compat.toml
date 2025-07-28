@@ -1,6 +1,5 @@
 [0]
 AstroIO = "0.1"
-BangBang = "0.3"
 DataFrames = "1"
 FFTW = "1"
 FileIO = "1"
@@ -16,14 +15,17 @@ PhysicalTrees = "0.1"
 ProgressMeter = "1"
 Reexport = "1"
 StaticArrays = "1"
-StructArrays = "0.6"
 Tullio = "0.3"
 Unitful = "1"
 UnitfulAstro = "1"
+
+["0 - 0.1"]
+BangBang = "0.3"
+StructArrays = "0.6"
 Zygote = "0.6"
 julia = "1.7.0-1"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 CSV = "0.9"
 CUDA = "3"
 DocStringExtensions = "0.8"
@@ -32,12 +34,29 @@ Images = "0.25"
 Knet = "1"
 Statistics = "1.7.0-1"
 
-["0.1.1-0"]
+["0.1.1 - 0"]
 AstroSimBase = "0.1"
+PhysicalFDM = "0.1"
+PrecompileTools = "1"
+
+["0.1.1 - 0.1"]
 CSV = "0.9-0.10"
 CUDA = "3-5"
 DocStringExtensions = "0.8-0.9"
 GLMakie = "0.9"
 Images = "0.25-0.26"
-PhysicalFDM = "0.1"
-PrecompileTools = "1"
+
+["0.2 - 0"]
+BangBang = "0.3 - 0.5"
+CSV = "0.9 - 0.10"
+CUDA = "4 - 5"
+DocStringExtensions = "0.8 - 0.9"
+GLMakie = "0.11 - 0.13"
+Images = "0.25 - 0.26"
+JLD2 = "0.4 - 0.5"
+MLUtils = "0.4"
+Optimisers = "0.4"
+PhysicalFFT = "0.1"
+StructArrays = "0.6 - 0.7"
+Zygote = "0.6 - 0.7"
+julia = "1.7.0 - 1"
