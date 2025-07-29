@@ -1,4 +1,4 @@
-["0-0.8"]
+["0 - 0.8"]
 BinDeps = "0.0.0-0.8"
 Compat = "0.66-2"
 julia = ["0.7", "1"]
@@ -9,26 +9,26 @@ Requires = "0.0.0-0.5"
 ["0.11"]
 Requires = "0.5"
 
-["0.12-0"]
+["0.12 - 0"]
 Requires = ["0.5", "1"]
 
-["0.12-0.19"]
+["0.12 - 0.19"]
 DocStringExtensions = "0.8"
 
-["0.20-0"]
+["0.20 - 0.20.1"]
+MPIPreferences = "0.1.3-0.1"
+
+["0.20 - 0.20.22"]
 DocStringExtensions = "0.8-0.9"
 julia = "1.6.0-1"
 
-["0.20-0.20.1"]
-MPIPreferences = "0.1.3-0.1"
-
-["0.20.11-0"]
+["0.20.11 - 0"]
 PkgVersion = "0.3"
 
-["0.20.13-0"]
+["0.20.13 - 0.20.22"]
 MPIPreferences = "0.1.8-0.1"
 
-["0.20.17-0"]
+["0.20.17 - 0"]
 Distributed = "1"
 Libdl = "1"
 MPICH_jll = "4"
@@ -36,24 +36,31 @@ MPItrampoline_jll = "5"
 Serialization = "1"
 Sockets = "1"
 
-["0.20.17-0.20.21"]
+["0.20.17 - 0.20.21"]
 OpenMPI_jll = "4"
 
-["0.20.2-0.20.12"]
+["0.20.2 - 0.20.12"]
 MPIPreferences = "0.1.6-0.1"
 
-["0.20.22-0"]
+["0.20.22"]
 OpenMPI_jll = "4-5"
 
-["0.20.9-0"]
+["0.20.23 - 0"]
+DocStringExtensions = "0.8 - 0.9"
+MPIPreferences = "0.1.8 - 0.1"
+OpenMPI_jll = "4 - 5"
+PrecompileTools = "1.0.1 - 1"
+julia = "1.6.0 - 1"
+
+["0.20.9 - 0.20.22"]
 PrecompileTools = "1.0.1-1"
 
-["0.7.1-0.8"]
+["0.7.1 - 0.8"]
 Statistics = ["0.7", "1"]
 
 ["0.9"]
 BinDeps = "0.0.0-1"
 Compat = "0.0.0-3"
 
-["0.9-0.19"]
+["0.9 - 0.19"]
 julia = "1"
