@@ -66,7 +66,6 @@ julia = "1.9.0-1"
 ["2.1 - 2"]
 OrdinaryDiffEqCore = "1"
 OrdinaryDiffEqLowOrderRK = "1"
-SciMLBase = "2"
 StaticArraysCore = "1"
 
 ["2.1 - 2.2.0"]
@@ -75,6 +74,9 @@ QuantumToolbox = "0.13"
 ["2.1 - 2.5.4"]
 SciMLOperators = "0.3"
 julia = "1.10.0-1"
+
+["2.1 - 2.5.5"]
+SciMLBase = "2"
 
 ["2.2.1"]
 QuantumToolbox = "0.13-0.14"
@@ -138,11 +140,18 @@ QuantumToolbox = "0.30"
 ["2.5.4"]
 QuantumToolbox = "0.31"
 
+["2.5.5"]
+QuantumToolbox = "0.31 - 0.33"
+SciMLOperators = "0.3 - 0.4"
+
 ["2.5.5 - 2"]
 DiffEqCallbacks = "2 - 4"
 FastExpm = "1.1.0 - 1"
 JLD2 = "0.4.31 - 0.5"
 LinearSolve = "2.4.2 - 3"
-QuantumToolbox = "0.31 - 0.33"
-SciMLOperators = "0.3 - 0.4"
 julia = "1.10.0 - 1"
+
+["2.5.6 - 2"]
+QuantumToolbox = "0.34"
+SciMLBase = "2.105.0 - 2"
+SciMLOperators = "1.4.0 - 1"
