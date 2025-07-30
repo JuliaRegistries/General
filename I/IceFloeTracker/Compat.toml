@@ -112,8 +112,15 @@ FileIO = "1.16.0 - 1"
 Images = "0.26.1 - 0.26"
 Interpolations = "0.16"
 OffsetArrays = "1.12.0 - 1"
-Proj = "1.8.1 - 1"
 PyCall = "1.95.0 - 1"
 StaticArrays = "1.5.0 - 1"
 TiledIteration = "0.5"
 TimeZones = "1.21.3 - 1"
+
+["0.8.3 - 0.8"]
+Proj = "1.8.1 - 1"
+
+["0.9 - 0"]
+ImageSegmentation = "1.9.0 - 1"
+Proj = "1.7.2 - 1"
+TiffImages = "0.10"
