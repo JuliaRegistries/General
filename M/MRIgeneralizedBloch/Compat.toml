@@ -3,45 +3,58 @@ Cubature = "1"
 NLsolve = "4"
 QuadGK = "2"
 StaticArrays = "1"
-julia = "1.6.0-1"
 
-["0-0.2"]
+["0 - 0.2"]
 ApproxFun = "0.12"
 DifferentialEquations = "6"
 SpecialFunctions = "1"
 
-["0-0.4.1"]
+["0 - 0.4.1"]
 Interpolations = "0.13"
 
-["0.3-0"]
-ApproxFun = "0.12-0.13"
-DifferentialEquations = "6-7"
-ExponentialUtilities = "1"
-SpecialFunctions = "1-2"
+["0 - 0.9"]
+julia = "1.6.0-1"
 
-["0.3-0.8.0"]
+["0.10 - 0"]
+ApproxFun = "0.12 - 0.13"
+DifferentialEquations = "6 - 7"
+Interpolations = "0.14.2 - 0.16"
+LinearAlgebra = "1.6.0 - 1"
+LsqFit = "0.13 - 0.15"
+SpecialFunctions = "1 - 2"
+julia = "1.6.0 - 1"
+
+["0.3 - 0"]
+ExponentialUtilities = "1"
+
+["0.3 - 0.8.0"]
 Polyester = "0.5-0.6"
 
-["0.3.1-0.3"]
+["0.3 - 0.9"]
+ApproxFun = "0.12-0.13"
+DifferentialEquations = "6-7"
+SpecialFunctions = "1-2"
+
+["0.3.1 - 0.3"]
 LsqFit = "0.12"
 
-["0.4-0.4.1"]
+["0.4 - 0.4.1"]
 LsqFit = "0.12.1-0.12"
 
-["0.4.2-0.8.4"]
+["0.4.2 - 0.8.4"]
 LsqFit = "0.13"
 
-["0.4.2-0.8.6"]
+["0.4.2 - 0.8.6"]
 Interpolations = "0.13-0.14"
 
-["0.8.1-0.8"]
+["0.8.1 - 0.8"]
 Polyester = "0.5-0.7"
 
-["0.8.5-0"]
+["0.8.5 - 0.9"]
 LsqFit = "0.13-0.15"
 
-["0.8.6-0"]
+["0.8.6 - 0.9"]
 LinearAlgebra = "1.6.0-1"
 
-["0.8.7-0"]
+["0.8.7 - 0.9"]
 Interpolations = "0.14.2-0.15"
