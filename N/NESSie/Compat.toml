@@ -12,8 +12,10 @@ julia = "1.6.0-1"
 ImplicitArrays = "0.2"
 
 ["1.4.4 - 1"]
-Distances = "0.7 - 0.10"
 IterativeSolvers = "0.8 - 0.9"
+
+["1.4.4 - 1.4"]
+Distances = "0.7 - 0.10"
 JSON3 = "1.9.0 - 1"
 LightXML = "0.8.1 - 0.9"
 LinearAlgebra = "1.6.0 - 1"
@@ -21,5 +23,21 @@ Preconditioners = "0.3 - 0.6"
 SpecialFunctions = ["0.7 - 0.10", "1 - 2"]
 julia = "1.6.0 - 1"
 
-["1.4.5 - 1"]
+["1.4.5 - 1.4"]
 ImplicitArrays = "0.2 - 0.3"
+
+["1.5 - 1"]
+AutoHashEquals = "2.2.0 - 2"
+ChunkSplitters = "3.1.2 - 3"
+Distances = "0.7.2 - 0.10"
+FileIO = "1.16.6 - 1"
+GeometryBasics = "0.5.5 - 0.5"
+Gmsh = "0.3.1 - 0.3"
+ImplicitArrays = "0.3"
+JSON3 = "1.11.1 - 1"
+LightXML = "0.9"
+LinearAlgebra = "1.10.0 - 1"
+MeshIO = "0.5.2 - 0.5"
+Preconditioners = "0.6"
+SpecialFunctions = ["0.9 - 0.10", "1 - 2"]
+julia = "1.10.0 - 1"
