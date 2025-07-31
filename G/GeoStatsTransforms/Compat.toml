@@ -17,13 +17,15 @@ julia = "1.9.0-1"
 Meshes = "0.35"
 
 ["0.1.1 - 0"]
-CategoricalArrays = "0.10"
 Clustering = "0.15"
 Distances = "0.10"
 
 ["0.1.1 - 0.1"]
 GeoTables = "1.7.0-1"
 TableDistances = "0.2"
+
+["0.1.1 - 0.12.14"]
+CategoricalArrays = "0.10"
 
 ["0.1.1 - 0.2.0"]
 GeoStatsModels = "0.1"
@@ -77,6 +79,9 @@ GeoStatsModels = "0.12"
 
 ["0.12.13 - 0"]
 Meshes = "0.54"
+
+["0.12.15 - 0"]
+CategoricalArrays = ["0.10", "1"]
 
 ["0.12.9 - 0"]
 GeoStatsFunctions = "0.11"
