@@ -1,7 +1,17 @@
 [0]
+julia = "1"
+
+["0 - 0.1"]
 DataFrames = "1.4.1-1"
 FileIO = "1.16.0-1"
 JLD2 = "0.4.25-0.4"
 Measurements = "2.8.0-2"
 Unitful = "1.12.0-1"
-julia = "1"
+
+["0.2 - 0"]
+Artifacts = "1"
+DataFrames = "1.4.1 - 1"
+FileIO = "1.16.0 - 1"
+JLD2 = "0.5"
+Measurements = "2.8.0 - 2"
+Unitful = "1.12.0 - 1"
