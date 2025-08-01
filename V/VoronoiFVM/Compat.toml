@@ -356,6 +356,9 @@ SparseMatrixColorings = "0.4.18-0.4"
 ["2.12.0"]
 DifferentiationInterface = "0.6.52-0.7"
 
+["2.12.1"]
+SparseConnectivityTracer = "0.6.17 - 0.6"
+
 ["2.12.1 - 2"]
 ADTypes = "1.14.0 - 1"
 Colors = "0.12 - 0.13"
@@ -375,11 +378,13 @@ RecursiveArrayTools = "2 - 3"
 RecursiveFactorization = "0.2.18 - 0.2"
 SciMLBase = "2.6.0 - 2"
 SparseArrays = "1.9.0 - 1"
-SparseConnectivityTracer = "0.6.17 - 0.6"
 SparseMatrixColorings = "0.4.18 - 0.4"
 Statistics = "1.9.0 - 1"
 TextWrap = "1.0.2 - 1"
 julia = "1.9.0 - 1"
+
+["2.12.2 - 2"]
+SparseConnectivityTracer = ["0.6.17 - 0.6", "1"]
 
 ["2.4 - 2.12.0"]
 ExtendableSparse = "1.6.0-1"
