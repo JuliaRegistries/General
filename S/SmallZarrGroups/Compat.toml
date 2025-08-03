@@ -1,31 +1,33 @@
 [0]
 AbstractTrees = "0.4"
 ArgCheck = "2"
-DataStructures = "0.18"
 JSON3 = "1"
 
-["0-0.6"]
+["0 - 0.6"]
 StaticArraysCore = "1"
 StaticStrings = "0.2"
 
-["0-0.6.0"]
+["0 - 0.6.0"]
 ZipFile = "0.10"
 
-["0-0.6.3"]
+["0 - 0.6.3"]
 CodecBzip2 = "0.7"
 
-["0-0.6.5"]
+["0 - 0.6.5"]
 TranscodingStreams = "0.9"
 
-["0-0.8.3"]
+["0 - 0.8.3"]
 julia = "1.8.0-1"
 
-["0-0.8.6"]
+["0 - 0.8.6"]
 StructArrays = "0.6"
 
-["0-0.8.7"]
+["0 - 0.8.7"]
 Blosc_jll = "1.21.0-1"
 CodecZlib = "0.7"
+
+["0 - 0.8.9"]
+DataStructures = "0.18"
 
 ["0.6.1"]
 ZipArchives = "0.3"
@@ -33,34 +35,40 @@ ZipArchives = "0.3"
 ["0.6.2"]
 ZipArchives = "0.3-0.4"
 
-["0.6.3-0.6.4"]
+["0.6.3 - 0.6.4"]
 ZipArchives = "0.3-0.5"
 
-["0.6.4-0.6"]
+["0.6.4 - 0.6"]
 CodecBzip2 = "0.7-0.8"
 
-["0.6.5-0.7"]
+["0.6.5 - 0.7"]
 ZipArchives = ["0.3-0.5", "1"]
 
-["0.6.6-0.8.5"]
+["0.6.6 - 0.8.5"]
 TranscodingStreams = "0.9-0.10"
 
-["0.7-0"]
+["0.7 - 0.8.9"]
 Base64 = "1.8.0-1"
 
-["0.8-0.8.4"]
+["0.8 - 0.8.4"]
 ZipArchives = "1"
 
-["0.8.4-0.8.7"]
+["0.8.10 - 0"]
+Base64 = "1.8.0 - 1"
+DataStructures = "0.18 - 0.19"
+StructArrays = "0.6 - 0.7"
+julia = "1.11.0 - 1"
+
+["0.8.4 - 0.8.7"]
 julia = "1.9.0-1"
 
-["0.8.5-0"]
+["0.8.5 - 0"]
 ZipArchives = "2"
 
-["0.8.6-0.8.7"]
+["0.8.6 - 0.8.7"]
 TranscodingStreams = "0.9-0.11"
 
-["0.8.7-0"]
+["0.8.7 - 0.8.9"]
 StructArrays = "0.6-0.7"
 
 ["0.8.8"]
@@ -68,10 +76,10 @@ ChunkCodecCore = "0.4"
 ChunkCodecLibBlosc = "0.1.1-0.1"
 ChunkCodecLibZlib = "0.1.1-0.1"
 
-["0.8.8-0"]
+["0.8.8 - 0.8.9"]
 julia = "1.11.0-1"
 
-["0.8.9-0"]
+["0.8.9 - 0"]
 ChunkCodecCore = "0.5"
 ChunkCodecLibBlosc = "0.2"
 ChunkCodecLibZlib = "0.2"
