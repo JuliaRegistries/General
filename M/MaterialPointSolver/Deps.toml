@@ -6,22 +6,32 @@ DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
-Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
 SysInfo = "90a7ee08-a23f-48b9-9006-0e0e2a9e4608"
 
-["0-0.2"]
+["0 - 0.2"]
 ArrayAllocators = "c9d4266f-a5cb-439d-837c-c97b191379f5"
 JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 StructTypes = "856f2bd8-1eba-4b0a-8007-ebc267875bd4"
 
-["0-0.3.6"]
+["0 - 0.3.6"]
 WriteVTK = "64499a7a-5c06-52f2-abe2-ccb03c286192"
 
-["0.3.1-0.3.2"]
+["0 - 0.4"]
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
+
+["0.3.1 - 0.3.2"]
 Gmsh = "705231aa-382f-11e9-3f0c-b7cb4346fdeb"
 
-["0.4.6-0"]
+["0.4.6 - 0"]
 CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+
+["0.4.6 - 0.4"]
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0.5 - 0"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
