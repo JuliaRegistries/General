@@ -1,26 +1,34 @@
-["0-0.5"]
+["0 - 0.5"]
 ArgCheck = "2.1.0-2"
 LaTeXStrings = "1.1.0-1"
 YAML = "0.4.2-0.4"
 julia = "1.5.0-1"
 
-["0.6-0"]
+["0.6 - 0.8"]
 ArgCheck = "2.3.0-2"
 LaTeXStrings = "1.3.0-1"
 YAML = "0.4.7-0.4"
 julia = "1.6.0-1"
 
-["0.7-0.8.4"]
+["0.7 - 0.8.4"]
 Setfield = "0.8.2-0.8"
 
-["0.8-0"]
+["0.8"]
 Configurations = "0.17.3-0.17"
 
-["0.8.11-0"]
+["0.8.11 - 0.8"]
 PrecompileTools = "1.2.1-1"
 
-["0.8.5-0"]
+["0.8.5 - 0"]
 Setfield = ["0.8", "1"]
 
-["0.8.9-0.8.10"]
+["0.8.9 - 0.8.10"]
 SnoopPrecompile = "1"
+
+["0.9 - 0"]
+ArgCheck = "2.3.0 - 2"
+Configurations = "0.17.3 - 0.17"
+LaTeXStrings = "1.3.0 - 1"
+PrecompileTools = "1.2.1 - 1"
+YAML = "0.4.7 - 0.4"
+julia = "1.6.0 - 1"
