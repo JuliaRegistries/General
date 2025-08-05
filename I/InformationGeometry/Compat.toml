@@ -158,7 +158,6 @@ Optimization = "3-4"
 
 ["1.16.4 - 1"]
 PreallocationTools = "0.4"
-Requires = "1"
 
 ["1.16.4 - 1.17"]
 BoundaryValueDiffEq = "3-5"
@@ -166,13 +165,18 @@ BoundaryValueDiffEq = "3-5"
 ["1.16.4 - 1.18.4"]
 DataInterpolations = "3-7"
 
+["1.16.4 - 1.19"]
+Requires = "1"
+
 ["1.18 - 1"]
-BoundaryValueDiffEqShooting = "1"
 OrdinaryDiffEqCore = "1"
 OrdinaryDiffEqLowOrderRK = "1"
 OrdinaryDiffEqRosenbrock = "1"
 OrdinaryDiffEqTsit5 = "1"
 OrdinaryDiffEqVerner = "1"
+
+["1.18 - 1.19"]
+BoundaryValueDiffEqShooting = "1"
 
 ["1.18.1 - 1.19.2"]
 DerivableFunctionsBase = "0.1-0.2"
@@ -200,7 +204,6 @@ DiffEqCallbacks = "2 - 4"
 Distributions = "0.21 - 0.25"
 DistributionsAD = "0.5 - 0.6"
 HCubature = "1.4.0 - 1"
-LibGEOS = "0.6 - 0.9"
 LineSearches = "5 - 7"
 LsqFit = "0.9 - 0.15"
 Optimization = "3 - 4"
@@ -215,6 +218,9 @@ StaticArrays = ["0.11 - 0.12", "1"]
 Suppressor = "0.1 - 0.2"
 SymbolicUtils = ["0.11.3 - 0.20", "1 - 9"]
 Symbolics = "1 - 6"
+
+["1.19.3 - 1.19"]
+LibGEOS = "0.6 - 0.9"
 
 ["1.2 - 1"]
 Combinatorics = "1"
@@ -246,6 +252,9 @@ LsqFit = "0.9-0.12"
 
 ["1.2.4 - 1.2"]
 Reexport = "0.2"
+
+["1.20 - 1"]
+RecursiveArrayTools = "3"
 
 ["1.3 - 1.6"]
 Reexport = ["0.2", "1"]
