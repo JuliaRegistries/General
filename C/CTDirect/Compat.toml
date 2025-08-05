@@ -54,8 +54,13 @@ CTParser = "0.2"
 MKL = "0.8"
 NLPModelsIpopt = "0.10"
 
+["0.15"]
+SparseArrays = "1.10.0 - 1"
+
 ["0.15 - 0"]
 CTModels = "0.6"
 MKL = "0.9"
-SparseArrays = "1.10.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.16 - 0"]
+SparseArrays = "1"
