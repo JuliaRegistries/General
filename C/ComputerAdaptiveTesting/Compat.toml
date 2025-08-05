@@ -3,7 +3,7 @@ Lazy = "0.15"
 Reexport = "1"
 StaticArrays = "1"
 
-["0-0.1"]
+["0 - 0.1"]
 ArgParse = "1"
 Faker = "0.3"
 FillArrays = "0.13"
@@ -18,13 +18,13 @@ SparseMatricesCSR = "0.6"
 StatFiles = "0.8"
 StatsBase = "0.33"
 
-["0-0.2"]
+["0 - 0.2"]
 julia = "1.8.0-1"
 
-["0-0.2.0"]
+["0 - 0.2.0"]
 FLoops = "0.2"
 
-["0-0.3.0"]
+["0 - 0.3.0"]
 Cuba = "2"
 Cubature = "1"
 Distributions = "0.25"
@@ -41,15 +41,17 @@ Requires = "1"
 Setfield = ["0.8", "1"]
 StatsFuns = "1"
 
-["0-0.3.1"]
+["0 - 0.3.1"]
 UnPack = "1"
 
-["0.2-0"]
+["0.2 - 0"]
 AutoHashEquals = "2"
-FillArrays = ["0.13", "1.5.0-1"]
 LogarithmicNumbers = "1"
 
-["0.2-0.3.0"]
+["0.2 - 0.3"]
+FillArrays = ["0.13", "1.5.0-1"]
+
+["0.2 - 0.3.0"]
 Accessors = "0.1"
 ConstructionBase = "1"
 StatsBase = "0.33-0.34"
@@ -59,22 +61,22 @@ DocStringExtensions = "0.9"
 FittedItemBanks = "0.3.1-0.4"
 PsychometricsBazaarBase = "0.6"
 
-["0.2.1-0"]
+["0.2.1 - 0.3"]
 EffectSizes = "1.0.1-1"
 
-["0.2.1-0.3.0"]
+["0.2.1 - 0.3.0"]
 DocStringExtensions = "0.8-0.9"
 FittedItemBanks = "0.6"
 HypothesisTests = "0.11"
 PsychometricsBazaarBase = "0.7"
 
-["0.2.1-0.3.1"]
+["0.2.1 - 0.3.1"]
 KernelAbstractions = "0.9.22-0.9"
 
-["0.3-0"]
+["0.3"]
 DataFrames = "1.6.1-1"
 
-["0.3-0.3.1"]
+["0.3 - 0.3.1"]
 julia = "1.10.0-1"
 
 ["0.3.1"]
@@ -83,21 +85,25 @@ Measurements = "2.10.0-2"
 OrderedCollections = "1.6.0-1"
 PsychometricsBazaarBase = "0.8"
 
-["0.3.1-0"]
+["0.3.1 - 0"]
+DocStringExtensions = "0.9"
+Setfield = "1"
+StatsBase = "0.34"
+
+["0.3.1 - 0.3"]
 Accessors = "0.1.12-0.1"
 ConstructionBase = "1.2.0-1"
 Distributions = "0.25.88-0.25"
-DocStringExtensions = "0.9"
 FittedItemBanks = "0.6.3-0.6"
 HypothesisTests = "0.10.12-0.11"
 Interpolations = "0.14-0.15"
 MacroTools = "0.5.6-0.5"
-Setfield = "1"
-StatsBase = "0.34"
 StatsFuns = ["0.9.15-0.9", "1"]
 
-["0.3.2-0"]
+["0.3.2 - 0"]
 ForwardDiff = "1"
+
+["0.3.2 - 0.3"]
 LinearAlgebra = "1.11.0-1"
 Mmap = "1.11.0-1"
 PrecompileTools = "1.2.1-1"
@@ -105,3 +111,25 @@ PsychometricsBazaarBase = "0.8.1-0.8"
 Random = "1.11.0-1"
 SparseArrays = "1.11.0-1"
 julia = "1.11.0-1"
+
+["0.4 - 0"]
+Accessors = "0.1.12 - 0.1"
+ConstructionBase = "1.2.0 - 1"
+DataFrames = "1.6.1 - 1"
+Distributions = "0.25.88 - 0.25"
+EffectSizes = "1.0.1 - 1"
+ElasticArrays = "1.2.12 - 1"
+FillArrays = ["0.13", "1.5.0 - 1"]
+FittedItemBanks = "0.7.2 - 0.7"
+HypothesisTests = "0.10.12 - 0.11"
+Interpolations = "0.14 - 0.15"
+LinearAlgebra = "1.11.0 - 1"
+MacroTools = "0.5.6 - 0.5"
+Mmap = "1.11.0 - 1"
+PrecompileTools = "1.2.1 - 1"
+PsychometricsBazaarBase = "0.8.4 - 0.8"
+QuickHeaps = "0.2.2 - 0.2"
+Random = "1.11.0 - 1"
+SparseArrays = "1.11.0 - 1"
+StatsFuns = ["0.9.15 - 0.9", "1"]
+julia = "1.11.0 - 1"

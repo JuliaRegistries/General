@@ -3,21 +3,29 @@ Distributions = "0.25"
 Random = "1"
 TOML = "1"
 YAML = "0.4"
-julia = "1.9.0-1"
 
-["0-0.0.3"]
+["0 - 0.0.3"]
 EnsembleKalmanProcesses = "1"
 JLD2 = "0.4"
 
-["0.0.16-0"]
+["0 - 0.1.1"]
+julia = "1.9.0-1"
+
+["0.0.16 - 0"]
 Dates = "1"
 
-["0.0.3-0"]
+["0.0.3 - 0"]
 Distributed = "1"
 
-["0.0.4-0"]
+["0.0.4 - 0.1.1"]
 EnsembleKalmanProcesses = "1-2"
 JLD2 = "0.4-0.5"
 
-["0.0.9-0"]
+["0.0.9 - 0.1.1"]
 Logging = "1.10.0-1"
+
+["0.1.2 - 0"]
+EnsembleKalmanProcesses = "1 - 2"
+JLD2 = "0.4 - 0.5"
+Logging = "1.10.0 - 1"
+julia = "1.9.0 - 1"

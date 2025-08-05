@@ -1,9 +1,7 @@
 [2]
-ArgParse = "1"
 EFIT = "1"
-julia = "1.10.0-1"
 
-["2-2.1"]
+["2 - 2.1"]
 Contour = "0.6.3-0.6"
 IMAS = "1.2.2-3"
 Interpolations = "0.15.1-0.15"
@@ -16,6 +14,10 @@ Statistics = "1.9.0-1"
 Unitful = "1.20.0-1"
 YAML = "0.4.11-0.4"
 
+["2 - 2.2.0"]
+ArgParse = "1"
+julia = "1.10.0-1"
+
 ["2.0"]
 IMASggd = "2"
 SOLPS2imas = "2"
@@ -23,22 +25,32 @@ SOLPS2imas = "2"
 ["2.1"]
 IMASggd = "3.1.0-3"
 
-["2.1-2"]
+["2.1 - 2.2.0"]
 SOLPS2imas = "2.2.0-2"
 
-["2.2-2"]
+["2.2 - 2"]
 Contour = "0.6"
 ControlSystemIdentification = "2"
 ControlSystemsBase = "1"
-DelimitedFiles = "1"
-IMAS = "1-5"
-IMASggd = "3.3.0-3"
 Interpolations = "0.16"
 JSON = "0.21"
 LinearAlgebra = "1"
-LsqFit = "0.15.1-0.15"
 PhysicalConstants = "0.2"
-PlotUtils = "1"
-Plots = "1"
 Statistics = "1"
 Unitful = "1"
+
+["2.2.0"]
+DelimitedFiles = "1"
+IMAS = "1-5"
+IMASggd = "3.3.0-3"
+LsqFit = "0.15.1-0.15"
+PlotUtils = "1"
+Plots = "1"
+
+["2.2.1 - 2"]
+DataStructures = "0.18.22 - 0.18"
+IMAS = "1 - 5"
+IMASggd = "3.3.0 - 3"
+LsqFit = "0.15.1 - 0.15"
+SOLPS2imas = "2.2.0 - 2"
+julia = "1.10.0 - 1"

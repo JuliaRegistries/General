@@ -1,6 +1,28 @@
 [1]
-BandedMatrices = "1.7.5-1"
 BoundaryValueDiffEqCore = "1"
+
+["1 - 1.1"]
+ArrayInterface = "7.16.0-7"
+SciMLBase = "2.60.0-2"
+
+["1 - 1.2"]
+ADTypes = "1.9.0-1"
+
+["1 - 1.3"]
+LinearSolve = "2.21.0-2"
+
+["1 - 1.4"]
+Adapt = "4.1.1-4"
+LineSearch = "0.1.3-0.1"
+Logging = "1.10.0-1"
+SparseDiffTools = "2.23.0-2"
+
+["1 - 1.5.0"]
+DiffEqBase = "6.158.3-6"
+ForwardDiff = "0.10.38-0.10"
+
+["1 - 1.7"]
+BandedMatrices = "1.7.5-1"
 ConcreteStructs = "0.2.3-0.2"
 FastAlmostBandedMatrices = "0.1.4-0.1"
 FastClosures = "0.3.2-0.3"
@@ -14,46 +36,47 @@ Setfield = "1.1.1-1"
 SparseArrays = "1.10.0-1"
 julia = "1.10.0-1"
 
-["1-1.1"]
-ArrayInterface = "7.16.0-7"
-SciMLBase = "2.60.0-2"
-
-["1-1.2"]
-ADTypes = "1.9.0-1"
-
-["1-1.3"]
-LinearSolve = "2.21.0-2"
-
-["1-1.4"]
-Adapt = "4.1.1-4"
-LineSearch = "0.1.3-0.1"
-Logging = "1.10.0-1"
-SparseDiffTools = "2.23.0-2"
-
-["1-1.5.0"]
-DiffEqBase = "6.158.3-6"
-ForwardDiff = "0.10.38-0.10"
-
-["1.2-1"]
-ArrayInterface = "7.18.0-7"
-
-["1.2-1.5.0"]
+["1.2 - 1.5.0"]
 SciMLBase = "2.71.0-2"
 
-["1.3-1.5.0"]
+["1.2 - 1.7"]
+ArrayInterface = "7.18.0-7"
+
+["1.3 - 1.5.0"]
 ADTypes = "1.11.0-1"
 
-["1.4-1.5.0"]
+["1.4 - 1.5.0"]
 LinearSolve = "2.21.0-3"
 
-["1.5-1.6.0"]
+["1.5 - 1.6.0"]
 DifferentiationInterface = "0.6.42-0.6"
 
-["1.5.1-1"]
+["1.5.1 - 1.7"]
 ADTypes = "1.14.0-1"
 DiffEqBase = "6.167.0-6"
 ForwardDiff = ["0.10.38-0.10", "1"]
 SciMLBase = "2.82.0-2"
 
-["1.6.1-1"]
+["1.6.1 - 1.7"]
 DifferentiationInterface = "0.6.42-0.7"
+
+["1.8 - 1"]
+ADTypes = "1.14.0 - 1"
+ArrayInterface = "7.18.0 - 7"
+BandedMatrices = "1.7.5 - 1"
+ConcreteStructs = "0.2.3 - 0.2"
+DiffEqBase = "6.167.0 - 6"
+DifferentiationInterface = "0.6.42 - 0.7"
+FastAlmostBandedMatrices = "0.1.4 - 0.1"
+FastClosures = "0.3.2 - 0.3"
+ForwardDiff = ["0.10.38 - 0.10", "1"]
+LinearAlgebra = "1.10.0 - 1"
+PreallocationTools = "0.4.24 - 0.4"
+PrecompileTools = "1.2.0 - 1"
+Preferences = "1.4.0 - 1"
+RecursiveArrayTools = "3.27.0 - 3"
+Reexport = "1.2.0 - 1"
+SciMLBase = "2.82.0 - 2"
+Setfield = "1.1.1 - 1"
+SparseArrays = "1.10.0 - 1"
+julia = "1.10.0 - 1"

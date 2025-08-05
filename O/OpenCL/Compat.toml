@@ -1,31 +1,45 @@
-["0-0.8"]
+["0 - 0.8"]
 julia = "1"
 
-["0.10-0"]
+["0.10 - 0"]
 Adapt = "4"
-GPUCompiler = ["0.27", "1"]
-LLVM = "9.1.0-9"
 LinearAlgebra = "1"
-OpenCL_jll = "2024.5.8"
 Printf = "1"
 Random = "1"
 Reexport = "1"
+StaticArrays = "1"
+
+["0.10 - 0.10.1"]
+KernelAbstractions = "0.9.1-0.9"
+
+["0.10 - 0.10.2"]
+GPUCompiler = ["0.27", "1"]
+LLVM = "9.1.0-9"
+OpenCL_jll = "2024.5.8"
 SPIRVIntrinsics = "0.2"
 SPIRV_LLVM_Translator_unified_jll = "0.7"
-StaticArrays = "1"
 julia = "1.10.0-1"
-
-["0.10-0.10.1"]
-KernelAbstractions = "0.9.1-0.9"
 
 ["0.10.0"]
 GPUArrays = "11.1.0-11"
 
-["0.10.1-0"]
+["0.10.1 - 0.10.2"]
 GPUArrays = "11.2.1-11"
 
-["0.10.2-0"]
+["0.10.2"]
 KernelAbstractions = "0.9.2-0.9"
+
+["0.10.3 - 0"]
+GPUArrays = "11.2.1 - 11"
+GPUCompiler = "1.2.0 - 1"
+KernelAbstractions = "0.9.2 - 0.9"
+LLVM = "9.1.0 - 9"
+OpenCL_jll = "2024.10.24"
+Preferences = "1"
+SPIRVIntrinsics = "0.3"
+SPIRV_LLVM_Backend_jll = "20"
+SPIRV_Tools_jll = "2025.1.0 - 2025"
+julia = "1.10.0 - 1"
 
 ["0.9"]
 OpenCL_jll = "2022.9.23-2022"

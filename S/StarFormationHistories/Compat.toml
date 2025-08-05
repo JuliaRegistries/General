@@ -1,46 +1,74 @@
 [0]
-Interpolations = "0.13.4-0.15"
-
-[0-1]
-Distributions = "0.25"
 DynamicHMC = "3.4.2-3"
+Interpolations = "0.13.4-0.15"
+LineSearches = "7.2.0-7"
+LogDensityProblems = "1-2"
+Optim = "1.7.0-1"
+SpecialFunctions = "1.2.0-2"
+StatsBase = "0.32-0.34"
+julia = "1.7.0-1"
+
+["0 - 1"]
+Distributions = "0.25"
 KissMCMC = "0.2"
 LBFGSB = "0.4"
-LineSearches = "7.2.0-7"
 LinearAlgebra = ["0.0.0", "1"]
-LogDensityProblems = "1-2"
 LoopVectorization = "0.12"
-Optim = "1.7.0-1"
 Printf = ["0.0.0", "1"]
 QuadGK = "2"
 Random = ["0.0.0", "1"]
 Roots = "2"
-SpecialFunctions = "1.2.0-2"
 StaticArrays = "1"
-StatsBase = "0.32-0.34"
 Trapz = "2"
 VectorizationBase = "0.21"
-julia = "1.7.0-1"
 
-["0-1.0.1"]
+["0 - 1.0.1"]
 MCMCChains = "6"
 
-["0.1.1-1"]
+["0.1.1 - 1"]
 IrrationalConstants = "0.2"
 
-["0.2-1"]
+["0.2 - 0"]
 Compat = "4.13.0-4"
 PDMats = "0.11.15-0.11"
+
+["0.2 - 1"]
 ProgressMeter = "1"
 
 [1]
 TaskLocalValues = "0.1"
 
+["1.0"]
+Compat = "4.13.0-4"
+DynamicHMC = "3.4.2-3"
+LineSearches = "7.2.0-7"
+LogDensityProblems = "1-2"
+Optim = "1.7.0-1"
+PDMats = "0.11.15-0.11"
+SpecialFunctions = "1.2.0-2"
+StatsBase = "0.32-0.34"
+julia = "1.7.0-1"
+
 ["1.0.0"]
 Interpolations = "0.13.4-0.15"
 
-["1.0.1-1"]
+["1.0.1 - 1.0"]
 Interpolations = "0.13.4-0.16"
 
-["1.0.2-1"]
+["1.0.2 - 1.0"]
 MCMCChains = "6-7"
+
+["1.1 - 1"]
+ArgCheck = "2"
+Compat = "4.13.0 - 4"
+DynamicHMC = "3.4.2 - 3"
+Interpolations = "0.13.4 - 0.16"
+LineSearches = "7.2.0 - 7"
+LogDensityProblems = "1 - 2"
+MCMCChains = "6 - 7"
+Optim = "1.7.0 - 1"
+PDMats = "0.11.15 - 0.11"
+SpecialFunctions = "1.2.0 - 2"
+StatsBase = "0.32 - 0.34"
+Tables = "1"
+julia = "1.7.0 - 1"

@@ -1,24 +1,35 @@
 [1]
 PooledArrays = "1.4.0-1"
 StructTypes = "1.10.0-1"
-Tables = "1"
 TypedTables = "1.4.0-1"
 
-["1-1.1"]
+["1 - 1.1"]
 julia = "1.6.0-1"
+
+["1 - 2"]
+Tables = "1"
 
 ["1.0"]
 DataStructures = "0.18"
 
-["1.1-1"]
+["1.1 - 1"]
 Compat = "3.42.0-4"
 DataStructures = "0.18.14-0.18"
 SumTypes = "0.4-0.5"
 
-["1.1.1-1"]
+["1.1.1 - 2"]
 Accessors = "0.1"
 
-["1.2-1"]
+["1.2 - 1"]
 AutoHashEquals = "2.2.0-2"
 ScopedValues = "1.3.0-1"
 julia = "1.10.0-1"
+
+[2]
+AutoHashEquals = "2.2.0 - 2"
+Compat = "3.42.0 - 4"
+DataStructures = "0.18.14 - 0.18"
+StructTypes = "1.10.0 - 1"
+SumTypes = "0.4 - 0.5"
+TypedTables = "1.4.0 - 1"
+julia = "1.10.0 - 1"

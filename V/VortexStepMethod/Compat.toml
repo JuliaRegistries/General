@@ -1,49 +1,64 @@
 [1]
+Interpolations = "0.15"
+julia = "1.10.0-1"
+
+["1 - 1.2.0"]
+NonlinearSolve = "4"
+
+["1 - 2"]
 Colors = "0.13"
 DelimitedFiles = "1"
-Interpolations = "0.15"
 LaTeXStrings = "1"
 Measures = "0.3"
 Pkg = "1"
 StaticArrays = "1"
 Statistics = "1"
 Timers = "0.1"
-julia = "1.10.0-1"
-
-["1-1.2.0"]
-NonlinearSolve = "4"
 
 ["1.0.0"]
 ControlPlots = "0.2.5-0.2"
 
-["1.0.1-1"]
+["1.0.1 - 2"]
 Parameters = "0.12"
 
-["1.1.2-1"]
+["1.1.2 - 1"]
+PreallocationTools = "0.4.25-0.4"
+PrecompileTools = "1.2.1-1"
+
+["1.1.2 - 1.2.0"]
+SharedArrays = "1"
+
+["1.1.2 - 2"]
 DefaultApplication = "1"
 LinearAlgebra = "1"
 Logging = "1"
-PreallocationTools = "0.4.25-0.4"
-PrecompileTools = "1.2.1-1"
 Serialization = "1"
 Xfoil = "0.5"
 
-["1.1.2-1.2.0"]
-SharedArrays = "1"
-
-["1.2-1"]
+["1.2 - 1"]
 DifferentiationInterface = "0.6.48-0.6"
 FiniteDiff = "2.27.0-2"
 
 ["1.2.0"]
 SciMLBase = "2.79.0-2"
 
-["1.2.1-1"]
+["1.2.1 - 1"]
 SciMLBase = "2.77.0-2"
 YAML = "0.4.13-0.4"
 
-["1.2.1-1.2.5"]
+["1.2.1 - 1.2.5"]
 NonlinearSolve = "4.5.0"
 
-["1.2.6-1"]
+["1.2.6 - 1"]
 NonlinearSolve = "4.8.0-4"
+
+[2]
+DifferentiationInterface = "0.6.48 - 0.6"
+FiniteDiff = "2.27.0 - 2"
+Interpolations = "0.15 - 0.16"
+NonlinearSolve = "4.8.0 - 4"
+PreallocationTools = "0.4.25 - 0.4"
+PrecompileTools = "1.2.1 - 1"
+SciMLBase = "2.77.0 - 2"
+YAML = "0.4.13 - 0.4"
+julia = "1.10.0 - 1"

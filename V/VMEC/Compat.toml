@@ -1,34 +1,36 @@
 [0]
 CoordinateTransformations = "0.6"
-FileIO = "1.6.0-1"
-GeometryBasics = "0.3-0.4"
-OrderedCollections = "1.3.0-1"
 StaticArrays = "1"
-StructArrays = "0.4-0.6"
-julia = "1.6.0-1"
 
-["0-0.2"]
+["0 - 0.2"]
 PlasmaEquilibriumToolkit = "0.2"
 
-["0-0.2.0"]
+["0 - 0.2.0"]
 VMEC_jll = "1"
 
-["0-0.3"]
+["0 - 0.3"]
 HDF5 = "0.13-0.15"
 Polyester = "0.4-0.5"
 
-["0-0.4.0"]
+["0 - 0.4.0"]
 MPI = "0.14-0.19"
 
-["0-0.5.1"]
+["0 - 0.5.1"]
 NetCDF = "0.10-0.11"
 
-["0-0.5.5"]
+["0 - 0.5.5"]
 Interpolations = "0.13"
 Roots = "1"
 
-["0-0.7.4"]
+["0 - 0.7.4"]
 Documenter = "0.25-0.27"
+
+["0 - 0.8.1"]
+FileIO = "1.6.0-1"
+GeometryBasics = "0.3-0.4"
+OrderedCollections = "1.3.0-1"
+StructArrays = "0.4-0.6"
+julia = "1.6.0-1"
 
 ["0.3"]
 PlasmaEquilibriumToolkit = "0.3"
@@ -36,46 +38,46 @@ PlasmaEquilibriumToolkit = "0.3"
 ["0.4"]
 PlasmaEquilibriumToolkit = "0.4"
 
-["0.4-0.4.2"]
+["0.4 - 0.4.2"]
 VMEC_jll = "1.0.301-1"
 
-["0.4-0.7.2"]
+["0.4 - 0.7.2"]
 Polyester = "0.4-0.6"
 
-["0.4-0.7.4"]
+["0.4 - 0.7.4"]
 HDF5 = "0.13-0.16"
 
-["0.4.1-0"]
+["0.4.1 - 0.8.1"]
 Requires = "1.2.0-1"
 
-["0.4.4-0.5.5"]
+["0.4.4 - 0.5.5"]
 VMEC_jll = "1.1.0-1"
 
-["0.5-0.5.6"]
+["0.5 - 0.5.6"]
 PlasmaEquilibriumToolkit = "0.5"
 
-["0.5.10-0"]
+["0.5.10 - 0"]
 Optim = "1"
 
-["0.5.10-0.7.4"]
+["0.5.10 - 0.7.4"]
 Interpolations = "0.14.3-0.14"
 
-["0.5.2-0.5.5"]
+["0.5.2 - 0.5.5"]
 NetCDF = ["0.10", "0.11.0-0.11.4"]
 
-["0.5.6-0"]
-Roots = "1-2"
-
-["0.5.6-0.5.9"]
+["0.5.6 - 0.5.9"]
 Interpolations = "0.13-0.14"
 
-["0.5.6-0.7"]
+["0.5.6 - 0.7"]
 VMEC_jll = "1.2.0-1"
 
-["0.5.6-0.8.0"]
+["0.5.6 - 0.8.0"]
 NetCDF = "0.10-0.11"
 
-["0.5.7-0.6"]
+["0.5.6 - 0.8.1"]
+Roots = "1-2"
+
+["0.5.7 - 0.6"]
 PlasmaEquilibriumToolkit = "0.5.5-0.5"
 
 ["0.7.0"]
@@ -84,19 +86,35 @@ PlasmaEquilibriumToolkit = "0.6"
 ["0.7.1"]
 PlasmaEquilibriumToolkit = "0.7"
 
-["0.7.2-0"]
+["0.7.2 - 0.8.1"]
 PlasmaEquilibriumToolkit = "0.7.2-0.7"
 
-["0.7.3-0"]
+["0.7.3 - 0.8.1"]
 Polyester = "0.4-0.7"
 
-["0.7.5-0"]
+["0.7.5 - 0.8.1"]
 Documenter = ["0.25-0.27", "1"]
 HDF5 = "0.13-0.17"
 Interpolations = "0.14.3-0.15"
 
-["0.8-0"]
+["0.8 - 0.8.1"]
 VMEC_jll = "0.0.0-1.2"
 
-["0.8.1-0"]
+["0.8.1"]
 NetCDF = "0.10-0.12"
+
+["0.8.2 - 0"]
+Documenter = ["0.25 - 0.27", "1"]
+FileIO = "1.6.0 - 1"
+GeometryBasics = "0.3 - 0.5"
+HDF5 = "0.13 - 0.17"
+Interpolations = "0.14.3 - 0.16"
+NetCDF = "0.10 - 0.12"
+OrderedCollections = "1.3.0 - 1"
+PlasmaEquilibriumToolkit = "0.7.2 - 0.7"
+Polyester = "0.4 - 0.7"
+Requires = "1.2.0 - 1"
+Roots = "1 - 2"
+StructArrays = "0.4 - 0.7"
+VMEC_jll = "0.0.0 - 1.2"
+julia = "1.6.0 - 1"

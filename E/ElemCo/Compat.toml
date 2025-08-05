@@ -2,13 +2,13 @@
 DocStringExtensions = "0.9"
 NPZ = "0.4"
 
-["0-0.11"]
+["0 - 0.11"]
 GaussianBasis = "0.4"
 
-["0-0.12"]
+["0 - 0.12"]
 MKL = "0.6"
 
-["0-0.13"]
+["0 - 0.13"]
 AtomsBase = "0.3.5-0.3"
 IterativeSolvers = "0.9"
 TensorOperations = "3.2.5-4"
@@ -16,20 +16,33 @@ Unitful = "1"
 UnitfulAtomic = "1"
 julia = "1.8.5-1"
 
-["0.12-0"]
+["0.12 - 0.13"]
+ITensors = "0.4.0-0.7"
+
+["0.12 - 0.14.0"]
 StaticArrays = "1.4.0-1"
 libcint_jll = "5.1.0-5"
 
-["0.12-0.13"]
-ITensors = "0.4.0-0.7"
-
-["0.13-0"]
-MKL = "0.6-0.7"
+["0.13 - 0"]
 PrecompileTools = "1"
 
-["0.14-0"]
+["0.13 - 0.14.0"]
+MKL = "0.6-0.7"
+
+["0.14 - 0"]
 Buffers = "0.2"
 HDF5 = "0.17"
+
+["0.14.0"]
 StridedViews = "0.3-0.4"
 TensorOperations = "3.2.5-5"
 julia = "1.9.0-1"
+
+["0.14.1 - 0"]
+MKL = "0.6 - 0.9"
+StaticArrays = "1.4.0 - 1"
+StridedViews = "0.3 - 0.4"
+TensorOperations = "3.2.5 - 5"
+XML = "0.3.5 - 0.3"
+julia = "1.9.0 - 1"
+libcint_jll = "5.1 - 6"

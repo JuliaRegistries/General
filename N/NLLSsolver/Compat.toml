@@ -2,34 +2,47 @@
 LinearSolve = "1"
 VisualGeometryDatasets = "0.2"
 
-[1-2]
+["1 - 2"]
 FLoops = "0.2"
 
-[1-4]
-ForwardDiff = "0.10"
+["1 - 4"]
 HybridArrays = "0.4"
 LDLFactorizations = "0.10"
 StaticArrays = "1"
+
+["1 - 4.0.2"]
+ForwardDiff = "0.10"
 julia = "1.6.0-1"
 
 [2]
 VisualGeometryDatasets = "0.2.1-0.2"
 
-["2-3.1.0"]
+["2 - 3.1.0"]
 LinearSolve = "2.1.0-2"
 
-[3-4]
+["3 - 4.0.2"]
 DiffResults = "1.1.0-1"
 IfElse = "0.1.1-0.1"
 Static = "0.8.7-0.8"
 
-["3.1.1-3.2.1"]
+["3.1.1 - 3.2.1"]
 OrderedCollections = "1.6.2-1"
 
-["3.2-4"]
+["3.2 - 4.0.2"]
 LoopVectorization = "0.12.165-0.12"
 
-["3.3.1-4"]
+["3.3.1 - 4.0.2"]
 LinearAlgebra = "1.6.0-1"
 Printf = "1.6.0-1"
 SparseArrays = "1.6.0-1"
+
+["4.0.3 - 4"]
+DiffResults = "1.1.0 - 1"
+ForwardDiff = ["0.10", "1"]
+IfElse = "0.1.1 - 0.1"
+LinearAlgebra = "1.6.0 - 1"
+LoopVectorization = "0.12.165 - 0.12"
+Printf = "1.6.0 - 1"
+SparseArrays = "1.6.0 - 1"
+Static = ["0.8.7 - 0.8", "1"]
+julia = "1.6.0 - 1"

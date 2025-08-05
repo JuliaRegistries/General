@@ -1,3 +1,10 @@
 [0]
-JLLWrappers = "1.2.0-1"
 julia = "1.6.0-1"
+
+["0-0.1.4"]
+JLLWrappers = "1.2.0-1"
+
+["0.1.5-0"]
+Artifacts = ["0.0.0", "1"]
+JLLWrappers = "1.7.0-1"
+Libdl = ["0.0.0", "1"]

@@ -2,27 +2,38 @@
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0-0.1"]
+["0 - 0.1"]
 ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 GridGraphs = "dd2b58c7-5af7-4f17-9e46-57c68ac813fb"
 
-["0-0.3"]
+["0 - 0.3"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0 - 0.4"]
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
 ["0.2"]
 SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
 
-["0.2-0"]
+["0.2 - 0.4"]
 CPUTime = "a9c8d775-2e2e-55fc-8582-045d282d599e"
 
-["0.4-0"]
+["0.4"]
+OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"
+
+["0.4 - 0"]
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
-OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"
 SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
+
+["0.5 - 0"]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"

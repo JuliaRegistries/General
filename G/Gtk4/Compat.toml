@@ -1,6 +1,5 @@
 [0]
 Cairo = "1"
-hicolor_icon_theme_jll = "0.17"
 
 ["0 - 0.1.0"]
 Graphics = ["0.4", "1"]
@@ -28,6 +27,9 @@ Cairo_jll = "1.16.0-1"
 JLLWrappers = "1.4.0-1"
 Scratch = "1.1.0-1"
 Xorg_xkeyboard_config_jll = "2.27.0-2"
+
+["0 - 0.7.8"]
+hicolor_icon_theme_jll = "0.17"
 
 ["0.1.1 - 0"]
 Graphics = "1"
@@ -99,15 +101,23 @@ BitFlags = "0.1.5 - 0.1"
 CEnum = "0.4 - 0.5"
 Cairo_jll = "1.18.0 - 1"
 ColorTypes = "0.10 - 0.12"
-GTK4_jll = "4.14.0 - 4"
-Glib_jll = "2.80.0 - 2"
 Graphene_jll = "1.10.0 - 1"
 JLLWrappers = "1.4.0 - 1"
 Libdl = "1.10.0 - 1"
 Librsvg_jll = "2.54.0 - 2"
-Pango_jll = "1.54.0 - 1"
 Scratch = "1.1.0 - 1"
 Xorg_xkeyboard_config_jll = "2.27.0 - 2"
 gdk_pixbuf_jll = "2.42.0 - 2"
 julia = "1.10.0 - 1"
 libpng_jll = "1.6.0 - 1"
+
+["0.7.7 - 0.7.8"]
+GTK4_jll = "4.14.0 - 4"
+Glib_jll = "2.80.0 - 2"
+Pango_jll = "1.54.0 - 1"
+
+["0.7.9 - 0"]
+GTK4_jll = "4.18.0 - 4"
+Glib_jll = "2.84.0 - 2"
+Pango_jll = "1.56.0 - 1"
+hicolor_icon_theme_jll = "0.17 - 0.18"

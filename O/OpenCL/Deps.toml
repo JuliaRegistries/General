@@ -2,13 +2,13 @@
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
-["0-0.8"]
+["0 - 0.8"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
-["0-0.8.0"]
+["0 - 0.8.0"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.10-0"]
+["0.10 - 0"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
 GPUCompiler = "61eb1bfa-7361-4325-ad38-22787b887f55"
@@ -17,8 +17,15 @@ LLVM = "929cbde3-209d-540e-8aea-75f648917ca0"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SPIRVIntrinsics = "71d1d633-e7e8-4a92-83a1-de8814b09ba8"
-SPIRV_LLVM_Translator_unified_jll = "85f0d8ed-5b39-5caa-b1ae-7472de402361"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["0.9-0"]
+["0.10 - 0.10.2"]
+SPIRV_LLVM_Translator_unified_jll = "85f0d8ed-5b39-5caa-b1ae-7472de402361"
+
+["0.10.3 - 0"]
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+SPIRV_LLVM_Backend_jll = "4376b9bf-cff8-51b6-bb48-39421dff0d0c"
+SPIRV_Tools_jll = "6ac6d60f-d740-5983-97d7-a4482c0689f4"
+
+["0.9 - 0"]
 OpenCL_jll = "6cb37087-e8b6-5417-8430-1f242f1e46e4"

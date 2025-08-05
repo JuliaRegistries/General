@@ -3,25 +3,27 @@ AbstractFFTs = "1"
 AssociatedLegendrePolynomials = "1"
 FFTW = "1"
 
-["0-0.1"]
+["0 - 0.1"]
 UnicodePlots = "2.10.0-2"
 julia = "1"
 
-["0-0.2"]
+["0 - 0.2"]
 BitInformation = "0.3-0.5"
 
-["0-0.4"]
+["0 - 0.4"]
 FastGaussQuadrature = "0.4"
 Parameters = "0.10-0.12"
 
-["0-0.6"]
+["0 - 0.6"]
 NetCDF = "0.10-0.11"
 
-["0.1.1-0"]
+["0.1.1 - 0"]
 Primes = "0.5"
+
+["0.1.1 - 0.15"]
 ProgressMeter = "1.7.0-1"
 
-["0.10-0.11"]
+["0.10 - 0.11"]
 Dates = "1.9.0-1"
 LinearAlgebra = "1.9.0-1"
 Printf = "1.9.0-1"
@@ -29,13 +31,13 @@ Random = "1.9.0-1"
 Statistics = "1.9.0-1"
 julia = "1.9.0-1"
 
-["0.10-0.12"]
+["0.10 - 0.12"]
 GPUArrays = "10"
 
-["0.11-0"]
+["0.11 - 0.15"]
 JLD2 = "0.4-0.5"
 
-["0.12-0"]
+["0.12 - 0.15"]
 Dates = "1.10.0-1"
 LinearAlgebra = "1.10.0-1"
 Printf = "1.10.0-1"
@@ -50,11 +52,24 @@ GPUArrays = "11"
 GPUArrays = "10"
 KernelAbstractions = "0.9.0-0.9.29"
 
-["0.15-0"]
+["0.15 - 0"]
 GPUArrays = "11"
 KernelAbstractions = "0.9"
 
-["0.2-0.4"]
+["0.16 - 0"]
+Adapt = "3 - 4"
+Dates = "1.10.0 - 1"
+FastGaussQuadrature = ["0.4 - 0.5", "1"]
+JLD2 = "0.4 - 0.5"
+LinearAlgebra = "1.10.0 - 1"
+NCDatasets = "0.12 - 0.14"
+Printf = "1.10.0 - 1"
+ProgressMeter = "1.7.0 - 1"
+Random = "1.10.0 - 1"
+Statistics = "1.10.0 - 1"
+julia = "1.10.0 - 1"
+
+["0.2 - 0.4"]
 UnicodePlots = "2.10.0-3"
 julia = "1.7.0-1"
 
@@ -62,23 +77,23 @@ julia = "1.7.0-1"
 CUDAKernels = "0.3"
 KernelAbstractions = "0.7"
 
-["0.3-0"]
+["0.3 - 0"]
 BitInformation = "0.6"
 CodecZlib = "0.7"
 
-["0.3-0.10"]
+["0.3 - 0.10"]
 JLD2 = "0.4"
 
-["0.3-0.4"]
+["0.3 - 0.4"]
 CUDA = "3"
 
-["0.3-0.7"]
+["0.3 - 0.7"]
 Adapt = "3"
 
-["0.4-0"]
+["0.4 - 0"]
 GenericFFT = "0.1"
 
-["0.4-0.5"]
+["0.4 - 0.5"]
 CUDAKernels = "0.3-0.4"
 KernelAbstractions = "0.7-0.8"
 
@@ -86,44 +101,46 @@ KernelAbstractions = "0.7-0.8"
 CUDA = "3-4"
 UnicodePlots = "3.3.2-3"
 
-["0.5-0"]
+["0.5 - 0"]
 DocStringExtensions = "0.9"
 
-["0.5-0.10"]
+["0.5 - 0.10"]
 FLoops = "0.2"
 
-["0.5-0.6"]
+["0.5 - 0.6"]
 FastGaussQuadrature = "0.4-0.5"
 
-["0.5-0.9"]
+["0.5 - 0.9"]
 Statistics = "1.8.0-1"
 julia = "1.8.0-1"
 
 ["0.6"]
 CUDA = "4"
 
-["0.6-0"]
-UnicodePlots = "3.3.0-3"
-
-["0.6-0.13"]
+["0.6 - 0.13"]
 KernelAbstractions = "0.9"
+
+["0.6 - 0.15"]
+UnicodePlots = "3.3.0-3"
 
 ["0.7"]
 NCDatasets = "0.12-0.13"
 
-["0.7-0"]
-FastGaussQuadrature = ["0.4-0.5", "1"]
+["0.7 - 0"]
 TOML = "1"
 
-["0.7-0.11"]
+["0.7 - 0.11"]
 CUDA = "4-5"
 
-["0.7-0.9"]
+["0.7 - 0.15"]
+FastGaussQuadrature = ["0.4-0.5", "1"]
+
+["0.7 - 0.9"]
 Dates = "1.8.0-1"
 LinearAlgebra = "1.8.0-1"
 Printf = "1.8.0-1"
 Random = "1.8.0-1"
 
-["0.8-0"]
+["0.8 - 0.15"]
 Adapt = "3-4"
 NCDatasets = "0.12-0.14"

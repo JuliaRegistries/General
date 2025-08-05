@@ -1,47 +1,65 @@
 [0]
 Bumper = "0.7"
-DSP = "0.7-0.8"
-DataInterpolations = "7-8"
 Dates = "1"
 DimensionalData = "0.29"
-DimensionfulAngles = "0.2.1-0.2"
 FFTW = "1"
-Intervals = "1.10.0-1"
 InverseFunctions = "0.1"
 Latexify = "0.16"
 LinearAlgebra = "1"
 NanoDates = "1"
-OhMyThreads = "0.7-0.8"
-RollingWindowArrays = "1.0.1-1"
 SignalAnalysis = "0.10"
 StaticArrays = "1"
 Statistics = "1"
 TOML = "1"
 Tullio = "0.3"
 Unitful = "1"
+
+["0 - 0.1.0"]
+NaNMath = "1"
+
+["0 - 0.1.10"]
+DSP = "0.7-0.8"
+DataInterpolations = "7-8"
+DimensionfulAngles = "0.2.1-0.2"
+Intervals = "1.10.0-1"
+OhMyThreads = "0.7-0.8"
+RollingWindowArrays = "1.0.1-1"
 UnitfulLatexify = "1.6.4-1"
 julia = "1.10.0-1"
 
-["0-0.1.0"]
-NaNMath = "1"
-
-["0-0.1.2"]
+["0 - 0.1.2"]
 InteractiveViz = "0.6"
 StructArrays = "0.7"
 
-["0-0.1.4"]
+["0 - 0.1.4"]
 TimeseriesTools = "0.6"
 
-["0-0.1.8"]
+["0 - 0.1.8"]
 Makie = "0.21-0.22"
 
-["0.1.1-0"]
+["0.1.1 - 0"]
 Accessors = "0.1"
 NaNStatistics = "0.6"
-NamedTupleTools = "0.14.3-0.14"
 Reexport = "1"
 
-["0.1.2-0.1.4"]
+["0.1.1 - 0.1.10"]
+NamedTupleTools = "0.14.3-0.14"
+
+["0.1.11 - 0"]
+DSP = "0.7 - 0.8"
+DataInterpolations = "7 - 8"
+DimensionfulAngles = "0.2.1 - 0.2"
+Intervals = "1.10.0 - 1"
+Makie = "0.21 - 0.23"
+MakieCore = "0.9 - 0.10"
+NamedTupleTools = "0.14.3 - 0.14"
+OhMyThreads = "0.7 - 0.8"
+SpaceDataModel = "0.1.8 - 0.1"
+TimeseriesUtilities = "0.1.1 - 0.1"
+UnitfulLatexify = "1.6.4 - 1"
+julia = "1.10.0 - 1"
+
+["0.1.2 - 0.1.4"]
 SpaceDataModel = "0.1"
 
 ["0.1.6"]
@@ -50,19 +68,23 @@ SpaceDataModel = "0.1.7-0.1"
 ["0.1.7"]
 AstroLib = "0.4.3-0.4"
 
-["0.1.7-0"]
+["0.1.7 - 0"]
 Dictionaries = "0.4"
 IRBEM = "0.1"
+
+["0.1.7 - 0.1.10"]
 SpaceDataModel = "0.1.8-0.1"
 
-["0.1.7-0.1.8"]
+["0.1.7 - 0.1.8"]
 MakieCore = "0.9"
 
-["0.1.8-0"]
+["0.1.8 - 0"]
 GeoCotrans = ["0.0.1", "0.1"]
 
-["0.1.9-0"]
+["0.1.9 - 0"]
 HybridArrays = "0.4"
+
+["0.1.9 - 0.1.10"]
 Makie = "0.21-0.23"
 MakieCore = "0.9-0.10"
 VectorizedStatistics = "0.5"

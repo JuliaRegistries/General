@@ -2,14 +2,20 @@
 Artifacts = ["0.0.0", "1"]
 JLLWrappers = "1.7.0-1"
 Libdl = ["0.0.0", "1"]
-aws_c_compression_jll = "0.3.1-0.3"
 julia = "1.6.0-1"
+
+["0-0.10.2"]
+aws_c_compression_jll = "0.3.1-0.3"
 
 ["0-0.9.5"]
 aws_c_io_jll = "0.17"
 
-["0.10.2-0"]
+["0.10.2"]
 aws_c_io_jll = "0.19"
+
+["0.10.4-0"]
+aws_c_compression_jll = "0.3.2-0.3"
+aws_c_io_jll = "0.21.2-0.21"
 
 ["0.9.7-0.10.1"]
 aws_c_io_jll = "0.18"

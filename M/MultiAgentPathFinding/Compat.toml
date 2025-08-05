@@ -1,37 +1,51 @@
-[0]
-DataStructures = "0.18.12-0.18"
-Graphs = "1.7.0-1"
-
-["0-0.1"]
+["0 - 0.1"]
 ColorTypes = "0.11.2-0.11"
 GridGraphs = "0.5"
 Statistics = "1.7.0-1"
 StatsBase = "0.33.16-0.33"
 julia = "1.7.0-1"
 
-["0-0.3"]
+["0 - 0.3"]
 ProgressMeter = "1.7.2-1"
+
+["0 - 0.4"]
+DataStructures = "0.18.12-0.18"
+Graphs = "1.7.0-1"
 
 ["0.2"]
 SimpleWeightedGraphs = "1.2.0-1"
 
-["0.2-0"]
-CPUTime = "1"
-
-["0.2-0.3"]
+["0.2 - 0.3"]
 Statistics = "1.8.0-1"
 StatsBase = "0.33"
 julia = "1.8.0-1"
 
-["0.4-0"]
+["0.2 - 0.4"]
+CPUTime = "1"
+
+["0.4"]
 Colors = "0.12-0.13"
+OhMyThreads = "0.8"
+ProgressMeter = "1.7.0-1"
+SimpleWeightedGraphs = "1.4.0-1"
+StatsBase = "0.33-0.34"
+julia = "1.10.0-1"
+
+["0.4 - 0"]
 DataDeps = "0.7"
 DocStringExtensions = "0.9"
 LinearAlgebra = "1"
-OhMyThreads = "0.8"
-ProgressMeter = "1.7.0-1"
 Random = "1"
-SimpleWeightedGraphs = "1.4.0-1"
 SparseArrays = "1"
-StatsBase = "0.33-0.34"
-julia = "1.10.0-1"
+
+["0.5 - 0"]
+CSV = "0.10.15 - 0.10"
+Colors = "0.12 - 0.13"
+DataFrames = "1.7.0 - 1"
+DataStructures = "0.18.12 - 0.18"
+Graphs = "1.7.0 - 1"
+Makie = "0.24.2 - 0.24"
+Printf = "1"
+SimpleWeightedGraphs = "1.4.0 - 1"
+StableRNGs = "1.0.3 - 1"
+julia = "1.10.0 - 1"

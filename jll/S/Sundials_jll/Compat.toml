@@ -23,5 +23,10 @@ SuiteSparse_jll = "7.5.0-7"
 julia = "1.11.0-1"
 libblastrampoline_jll = "5.8.0-5"
 
-[6]
+[6-7]
 julia = "1.10.0-1"
+
+[7]
+Artifacts = ["0.0.0", "1"]
+JLLWrappers = "1.7.0-1"
+Libdl = ["0.0.0", "1"]

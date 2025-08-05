@@ -3,27 +3,29 @@ JLD2 = "0.4"
 Tectonic = "0.8"
 julia = "1.10.0-1"
 
-[1-2]
-ArgCheck = "2.3.0-2"
+["1 - 2"]
 CSV = "0.10"
-DataFrames = "1.6.0-1"
 Dates = ["0.0.0", "1"]
 JSON = "0.21"
-JuMP = "1.22.0-1"
 LibGit2 = ["0.0.0", "1"]
 Logging = ["0.0.0", "1"]
 LoggingExtras = "1"
 Markdown = ["0.0.0", "1"]
+Printf = ["0.0.0", "1"]
+Suppressor = "0.2"
+YAML = "0.4"
+ZipFile = "0.10"
+
+["1 - 2.7"]
+ArgCheck = "2.3.0-2"
+DataFrames = "1.6.0-1"
+JuMP = "1.22.0-1"
 MultiObjectiveAlgorithms = "1.3.0-1"
 OrderedCollections = "1.6.0-1"
 Pkg = "1.10.0-1"
 PrecompileTools = "1.2.0-1"
-Printf = ["0.0.0", "1"]
 ProgressMeter = "1.10.0-1"
 RuntimeGeneratedFunctions = "0.5.13-0.5"
-Suppressor = "0.2"
-YAML = "0.4"
-ZipFile = "0.10"
 
 ["1.0.0"]
 HiGHS = "1.9.0-1"
@@ -31,36 +33,58 @@ HiGHS = "1.9.0-1"
 ["1.0.2"]
 IESoptLib = "0.1"
 
-["1.0.2-2"]
+["1.0.2 - 2.7"]
 HiGHS = "1.9.0-1"
 
-["1.0.3-1.0.4"]
+["1.0.3 - 1.0.4"]
 IESoptLib = "0.1-0.2"
 
-["1.0.5-1"]
+["1.0.5 - 1"]
 IESoptLib = "0.3"
 
 [2]
+TestItems = "1"
+
+["2 - 2.7"]
 JLD2 = "0.4-0.5"
 JuliaSyntax = "0.4.10-0.4"
 MacroTools = "0.5.13-0.5"
 RelocatableFolders = "1.0.1-1"
-TestItems = "1"
 julia = "1.11.0-1"
 
 ["2.0.0"]
 DuckDB = "1.1.0-1"
 
-["2.0.1-2.6.4"]
+["2.0.1 - 2.6.4"]
 DuckDB = ["0.10", "1.0"]
 DuckDB_jll = ["0.10", "1.0"]
 
-["2.3-2"]
+["2.3 - 2"]
 SHA = "0.7"
 
-["2.6-2"]
+["2.6 - 2.7"]
 Preferences = "1.4.3-1"
 
-["2.6.5-2"]
+["2.6.5 - 2.7"]
 DuckDB = "1.2.2-1"
 DuckDB_jll = "1.2.2-1"
+
+["2.8 - 2"]
+ArgCheck = "2.3.0 - 2"
+DataFrames = "1.6.0 - 1"
+DuckDB = "1.2.2 - 1"
+DuckDB_jll = "1.2.2 - 1"
+HiGHS = "1.9.0 - 1"
+JLD2 = "0.4 - 0.5"
+JuMP = "1.22.0 - 1"
+JuliaSyntax = "0.4.10 - 0.4"
+MacroTools = "0.5.13 - 0.5"
+MultiObjectiveAlgorithms = "1.3.0 - 1"
+OrderedCollections = "1.6.0 - 1"
+Pkg = "1.10.0 - 1"
+PrecompileTools = "1.2.0 - 1"
+Preferences = "1.4.3 - 1"
+ProgressMeter = "1.10.0 - 1"
+RelocatableFolders = "1.0.1 - 1"
+RuntimeGeneratedFunctions = "0.5.13 - 0.5"
+julia = "1.11.0 - 1"

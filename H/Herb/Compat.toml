@@ -1,4 +1,4 @@
-["0-0.1"]
+["0 - 0.1"]
 HerbConstraints = "0.1"
 HerbCore = "0.1.1-0.1"
 HerbData = "0.1.1-0.1"
@@ -6,7 +6,7 @@ HerbEvaluation = "0.1"
 HerbGrammar = "0.1"
 HerbSearch = "0.1"
 
-["0-0.5.0"]
+["0 - 0.5.0"]
 julia = "1.8.0-1"
 
 ["0.2"]
@@ -15,38 +15,46 @@ HerbCore = "0.2"
 HerbGrammar = "0.2.1-0.2"
 HerbSearch = "0.2"
 
-["0.2-0"]
-HerbInterpret = "0.1.2-0.1"
-
-["0.2-0.4.0"]
+["0.2 - 0.4.0"]
 HerbSpecification = "0.1"
+
+["0.2 - 0.5"]
+HerbInterpret = "0.1.2-0.1"
 
 ["0.3"]
 HerbGrammar = "0.3"
 
-["0.3-0"]
+["0.3 - 0"]
 HerbCore = "0.3"
 
-["0.3-0.4"]
+["0.3 - 0.4"]
 HerbConstraints = "0.2"
 
-["0.3-0.4.0"]
+["0.3 - 0.4.0"]
 HerbSearch = "0.3"
 
 ["0.4.0"]
 HerbGrammar = "0.4"
 
-["0.4.1-0"]
-HerbGrammar = "0.5"
+["0.4.1 - 0"]
 HerbSearch = "0.4"
 HerbSpecification = "0.2"
+
+["0.4.1 - 0.5"]
+HerbGrammar = "0.5"
 Reexport = "1.2.2-1"
 
-["0.5-0.5.1"]
+["0.5 - 0.5.1"]
 HerbConstraints = "0.3"
 
-["0.5.1-0"]
+["0.5.1 - 0.5"]
 julia = "1.10.0-1"
 
-["0.5.2-0"]
+["0.5.2 - 0"]
 HerbConstraints = "0.4"
+
+["0.6 - 0"]
+HerbGrammar = "0.6"
+HerbInterpret = "0.2"
+Reexport = "1.2.2 - 1"
+julia = "1.10.0 - 1"

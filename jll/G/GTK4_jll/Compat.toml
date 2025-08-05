@@ -1,8 +1,10 @@
 [4]
+julia = "1.6.0-1"
+
+["4-4.14"]
 Graphene_jll = "1.10.6-1"
 JLLWrappers = "1.2.0-1"
 Pango_jll = "1.50.3-1"
-julia = "1.6.0-1"
 
 ["4-4.6.0"]
 Wayland_protocols_jll = "1.23.0-1"
@@ -13,23 +15,36 @@ Glib_jll = "2.68.3-2"
 ["4.10"]
 Glib_jll = "2.74.0-2"
 
-["4.10.5-4"]
+["4.10.5-4.14"]
 FreeType2_jll = "2.10.4-2"
 
 ["4.12"]
 Artifacts = "1"
 Libdl = "1"
 
-["4.12-4"]
+["4.12-4.14"]
 Glib_jll = "2.76.5-2"
 Wayland_protocols_jll = "1.31.0-1"
 
-["4.12.5-4"]
+["4.12.5-4.14"]
 Libtiff_jll = "4.5.1-4"
 
 ["4.14-4"]
 Artifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
+
+["4.18-4"]
+Cairo_jll = "1.18.5-1"
+FreeType2_jll = "2.13.4-2"
+GettextRuntime_jll = "0.22.4-0.22"
+Glib_jll = "2.84.3-2"
+Graphene_jll = "1.10.8-1"
+JLLWrappers = "1.7.0-1"
+Libepoxy_jll = "1.5.11-1"
+Libtiff_jll = "4.7.1-4"
+PCRE2_jll = "10.42.0-10"
+Pango_jll = "1.56.3-1"
+Wayland_protocols_jll = "1.44.0-1"
 
 ["4.6.9-4.10"]
 Wayland_protocols_jll = "1.25.0-1"

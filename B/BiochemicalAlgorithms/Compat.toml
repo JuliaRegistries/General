@@ -1,19 +1,15 @@
 [0]
 AutoHashEquals = "2"
 BioSymbols = "5"
-CellListMap = "0.8-0.9"
 DocStringExtensions = "0.9"
 EnumX = "1"
 Mendeleev = "1"
-Quaternions = "0.7.6-0.7"
-TableOperations = "1.2.0-1"
-Tables = "1.11.0-1"
 UnitfulAtomic = "1"
 
-["0-0.2.0"]
+["0 - 0.2.0"]
 MolecularGraph = "0.16"
 
-["0-0.4"]
+["0 - 0.4"]
 BioStructures = "4"
 CSV = "0.10"
 DataFrames = "1"
@@ -31,16 +27,26 @@ StructTypes = "1"
 Unitful = "1"
 julia = "1.9.0-1"
 
-["0-0.4.0"]
+["0 - 0.4.0"]
 GraphDataFrameBridge = "0.3"
 
-["0.2.1-0.5.2"]
+["0 - 0.5.3"]
+CellListMap = "0.8-0.9"
+Quaternions = "0.7.6-0.7"
+TableOperations = "1.2.0-1"
+Tables = "1.11.0-1"
+
+["0.2.1 - 0.5.2"]
 MolecularGraph = "0.16-0.17"
 
-["0.4.1-0.4"]
+["0.4.1 - 0.4"]
 MetaGraphs = "0.7.2-0.8"
 
-["0.5-0"]
+["0.5 - 0"]
+MetaGraphs = "0.8"
+Optimization = "4"
+
+["0.5 - 0.5.3"]
 BioStructures = "4.2.0-4"
 CSV = "0.10.13-0.10"
 DataFrames = "1.6.0-1"
@@ -48,9 +54,7 @@ DataStructures = "0.18.13-0.18"
 Graphs = "1.8.0-1"
 JSON3 = "1.9.1-1"
 LinearAlgebra = "1.10.0-1"
-MetaGraphs = "0.8"
 Observables = "0.5.5-0.5"
-Optimization = "4"
 PhysicalConstants = "0.2.3-0.2"
 PrettyTables = "2.2.7-2"
 Printf = "1.10.0-1"
@@ -61,5 +65,29 @@ StructTypes = "1.5.0-1"
 Unitful = "1.12.0-1"
 julia = "1.10.0-1"
 
-["0.5.3-0"]
+["0.5.3"]
 MolecularGraph = "0.16-0.18"
+
+["0.5.4 - 0"]
+BioStructures = "4.2.0 - 4"
+CSV = "0.10.13 - 0.10"
+CellListMap = "0.8 - 0.9"
+DataFrames = "1.6.0 - 1"
+DataStructures = "0.18.13 - 0.18"
+Graphs = "1.8.0 - 1"
+JSON3 = "1.9.1 - 1"
+LinearAlgebra = "1.10.0 - 1"
+MolecularGraph = ["0.16 - 0.18", "0.19.1 - 0.19"]
+Observables = "0.5.5 - 0.5"
+PhysicalConstants = "0.2.3 - 0.2"
+PrettyTables = "2.2.7 - 2"
+Printf = "1.10.0 - 1"
+Quaternions = "0.7.6 - 0.7"
+Rotations = "1.3.4 - 1"
+StaticArrays = "1.5.0 - 1"
+Statistics = "1.10.0 - 1"
+StructTypes = "1.5.0 - 1"
+TableOperations = "1.2.0 - 1"
+Tables = "1.11.0 - 1"
+Unitful = "1.12.0 - 1"
+julia = "1.10.0 - 1"

@@ -2,20 +2,28 @@
 Combinatorics = "1"
 EliminateGraphs = "0.2"
 OptimalBranchingCore = "0.1"
-julia = "1.10.0-1"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 GenericTensorNetworks = "2"
+
+["0 - 0.2.0"]
+julia = "1.10.0-1"
 
 ["0.1.1"]
 GenericTensorNetworks = "3"
 KaHyPar = "0.3.1-0.3"
 
-["0.1.1-0"]
+["0.1.1 - 0.2.0"]
 SparseArrays = "1.11.0-1"
 
-["0.1.2-0"]
+["0.1.2 - 0.2.0"]
 GenericTensorNetworks = "3-4"
 
-["0.2-0"]
+["0.2.0"]
 ProblemReductions = "0.3.4-0.3"
+
+["0.2.1 - 0"]
+GenericTensorNetworks = "3 - 4"
+ProblemReductions = "0.3.4 - 0.3"
+SparseArrays = "1.11.0 - 1"
+julia = "1.10.0 - 1"

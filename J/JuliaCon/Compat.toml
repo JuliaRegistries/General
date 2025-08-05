@@ -1,36 +1,43 @@
-["0-0.2"]
+["0 - 0.2"]
 julia = "1"
 
 ["0.2"]
 PrettyTables = "1"
 
-["0.2-0"]
+["0.2 - 0"]
 JSON = "0.21"
 TimerOutputs = "0.5"
 
-["0.3-0"]
+["0.3 - 0"]
 Preferences = "1.2.0-1"
 PrettyTables = "1.1.0-1"
 julia = "1.6.0-1"
 
-["0.4-0"]
+["0.4 - 0"]
 TimeZones = "1.5.0-1"
 
-["2021-2023.0.1"]
+["2021 - 2023.0.1"]
 PrettyTables = "1.1.0-1"
 
-[2021-2024]
-JSON = "0.21"
+["2021 - 2024"]
 Preferences = "1.2.0-1"
 TimeZones = "1.5.0-1"
-TimerOutputs = "0.5"
 julia = "1.6.0-1"
 
-["2021.2-2024"]
+["2021 - 2025"]
+JSON = "0.21"
+TimerOutputs = "0.5"
+
+["2021.2 - 2025"]
 DataFrames = "1"
 
-["2023.0.2-2024"]
+["2023.0.2 - 2025"]
 PrettyTables = "2"
 
-["2024.0.1-2024"]
+["2024.0.1 - 2025"]
 PrecompileTools = "1"
+
+[2025]
+Preferences = "1.2.0 - 1"
+TimeZones = "1.5.0 - 1"
+julia = "1.6.0 - 1"

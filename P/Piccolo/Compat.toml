@@ -1,35 +1,37 @@
 [0]
-Reexport = "1.2.0-1"
 TrajectoryIndexingUtils = "0.1"
 
-["0-0.1"]
+["0 - 0.1"]
 NamedTrajectories = "0.1"
 QuantumCollocation = "0.1"
 julia = "1.8.0-1"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 IterativeLearningControl = "0.1"
 
-["0.1.1-0.1"]
+["0 - 0.7"]
+Reexport = "1.2.0-1"
+
+["0.1.1 - 0.1"]
 CairoMakie = "0.10"
 Revise = "3.5.0-3"
 
-["0.1.1-0.5"]
+["0.1.1 - 0.5"]
 IJulia = "1.24.0-1"
 
 ["0.2"]
 QuantumCollocation = "0.2"
 
-["0.2-0.2.1"]
+["0.2 - 0.2.1"]
 CairoMakie = "0.10-0.12"
 
-["0.2-0.5"]
+["0.2 - 0.5"]
 julia = "1.10.0-1"
 
-["0.2-0.6"]
+["0.2 - 0.6"]
 NamedTrajectories = "0.2"
 
-["0.2.2-0.5"]
+["0.2.2 - 0.5"]
 CairoMakie = "0.12"
 
 ["0.3"]
@@ -43,21 +45,29 @@ QuantumCollocation = "0.5"
 ["0.6"]
 QuantumCollocation = "0.6"
 
-["0.6-0"]
+["0.6 - 0.7"]
 PiccoloPlots = "0.1"
 
-["0.6-0.7.0"]
+["0.6 - 0.7.0"]
 PiccoloQuantumObjects = "0.3"
 
-["0.6-0.7.1"]
+["0.6 - 0.7.1"]
 julia = "1.11.0-1"
 
-["0.7-0"]
+["0.7"]
 NamedTrajectories = "0.3"
 QuantumCollocation = "0.7"
 
-["0.7.1-0"]
+["0.7.1 - 0.7"]
 PiccoloQuantumObjects = "0.4"
 
-["0.7.2-0"]
+["0.7.2 - 0.7"]
 julia = "1.10.0-1"
+
+["0.8 - 0"]
+NamedTrajectories = "0.5"
+PiccoloPlots = "0.2"
+PiccoloQuantumObjects = "0.6"
+QuantumCollocation = "0.8"
+Reexport = "1.2.0 - 1"
+julia = "1.10.0 - 1"

@@ -1,74 +1,89 @@
-["0-0.1"]
+[0]
+BlockDiagonals = "0.1"
+julia = "1"
+
+["0 - 0.1"]
 AbstractAlgebra = "0.24"
 Arblib = "0.6"
 GenericLinearAlgebra = "0.2"
 
-["0-0.2.2"]
+["0 - 0.2.2"]
 KrylovKit = "0.5"
 
-[0-1]
-BlockDiagonals = "0.1"
+["0 - 1"]
 IterTools = "1"
-julia = "1"
 
-["0.2-0.2.2"]
+["0.2 - 0"]
+GenericLinearAlgebra = "0.2-0.3"
+
+["0.2 - 0.2.2"]
 AbstractAlgebra = "0.24-0.26"
 Arblib = "0.6-0.7"
-
-["0.2-1"]
-GenericLinearAlgebra = "0.2-0.3"
 
 ["0.2.3"]
 AbstractAlgebra = "0.24-0.28"
 
-["0.2.3-0"]
+["0.2.3 - 0"]
 KrylovKit = "0.5-0.6"
 
-["0.2.3-1.0.4"]
+["0.2.3 - 1.0.4"]
 Arblib = "0.6-0.8"
 
-["0.2.4-0.2"]
+["0.2.4 - 0.2"]
 AbstractAlgebra = "0.24-0.29"
 
-["0.3-0.3.1"]
+["0.3 - 0.3.1"]
 AbstractAlgebra = "0.24-0.30"
 
 ["0.3.2"]
 AbstractAlgebra = "0.24-0.31"
 
-["0.3.3-0"]
+["0.3.3 - 0"]
 AbstractAlgebra = "0.24-0.33"
 
 [1]
 Combinatorics = "1"
 RowEchelon = "0.2"
 
-["1-1.0.4"]
+["1 - 1.0.4"]
 Nemo = "0.43"
 
-["1-1.0.6"]
+["1 - 1.0.6"]
 KrylovKit = "0.5-0.7"
 
-["1.0.11-1"]
+["1.0"]
+BlockDiagonals = "0.1"
+GenericLinearAlgebra = "0.2-0.3"
+julia = "1"
+
+["1.0.11 - 1"]
 PrecompileTools = "1"
 
-["1.0.12-1"]
+["1.0.12 - 1.0"]
 Nemo = "0.43-0.48"
 
-["1.0.13-1"]
+["1.0.13 - 1.0"]
 KrylovKit = "0.5-0.9"
 
-["1.0.5-1"]
+["1.0.5 - 1.0"]
 Arblib = ["0.6-0.8", "1"]
 
-["1.0.5-1.0.6"]
+["1.0.5 - 1.0.6"]
 Nemo = "0.43-0.45"
 
-["1.0.7-1.0.12"]
+["1.0.7 - 1.0.12"]
 KrylovKit = "0.5-0.8"
 
-["1.0.7-1.0.8"]
+["1.0.7 - 1.0.8"]
 Nemo = "0.43-0.46"
 
-["1.0.9-1.0.11"]
+["1.0.9 - 1.0.11"]
 Nemo = "0.43-0.47"
+
+["1.1 - 1"]
+Arblib = ["0.6 - 0.8", "1"]
+BlockDiagonals = "0.1 - 0.2"
+GenericLinearAlgebra = "0.2 - 0.3"
+KrylovKit = "0.5 - 0.9"
+Nemo = "0.43 - 0.51"
+julia = "1.9.0 - 1"

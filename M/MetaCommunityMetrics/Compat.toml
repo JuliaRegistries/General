@@ -1,4 +1,4 @@
-["0-0.1.0"]
+["0 - 0.1.0"]
 CSV = "0.10"
 Clustering = "0.15"
 DataFrames = "1.6.0-1"
@@ -8,16 +8,16 @@ Revise = "3.5.0-3"
 StatsBase = "0.34"
 julia = "1.6.0-1"
 
-["0-0.1.1"]
+["0 - 0.1.1"]
 DataStructures = "0.18"
 
-["0-0.1.2"]
+["0 - 0.1.2"]
 Distances = "0.10"
 
-["0-0.1.3"]
+["0 - 0.1.3"]
 ProgressMeter = "1.10.0-1"
 
-["0-0.1.4"]
+["0 - 0.1.4"]
 Combinatorics = "1"
 Documenter = "1.6.0-1"
 GaussianRandomFields = "2"
@@ -30,16 +30,16 @@ SpecialFunctions = "1"
 StatsBase = "0.33"
 julia = "1"
 
-["0.1.1-0"]
+["0.1.1 - 0"]
 Statistics = "1"
 
-["0.1.1-0.1.4"]
+["0.1.1 - 0.1.4"]
 CSV = ["0.10", "1"]
 Clustering = ["0.15", "1"]
 DataFrames = "1"
 SortingAlgorithms = "1.1.0-1"
 
-["0.1.2-0.1.4"]
+["0.1.2 - 0.1.4"]
 DataStructures = ["0.18", "1"]
 Distributions = ["0.16", "0.25.111-0.25"]
 SpecialFunctions = "1-2"
@@ -58,8 +58,13 @@ Distributions = "0.16-0.25"
 SpecialFunctions = ["0.8", "1", "2.0-2.4"]
 StatsBase = "0.24-0.34"
 
-["0.1.5-0"]
+["0.1.5 - 0"]
 CSV = "0.10"
+
+["0.1.5 - 0.3"]
+Plots = "1.40-2"
+
+["0.1.5 - 0.4"]
 Clustering = "0.15-0.16"
 Combinatorics = "1-2"
 DataFrames = "1-2"
@@ -72,13 +77,27 @@ ProgressMeter = "1-2"
 SortingAlgorithms = "1.1-2"
 julia = "1.6-1.11"
 
-["0.1.5-0.3"]
-Plots = "1.40-2"
-
-["0.1.6-0"]
+["0.1.6 - 0.4"]
 Distributions = "0.16-0.25.112"
 StatsBase = "0.24-0.33.21"
 
-["0.4-0"]
+["0.4"]
 JLD2 = "0.4-0.5"
 RCall = "0.13-0.14"
+
+["0.5 - 0"]
+Clustering = "0.15 - 0.16"
+Combinatorics = "1 - 2"
+DataFrames = "1 - 2"
+DataStructures = "0.18 - 0.19"
+Distances = "0.8 - 0.11"
+Distributions = "0.16 - 0.25.112"
+Documenter = "1.6 - 2"
+GaussianRandomFields = "2 - 3"
+JLD2 = "0.4 - 0.5"
+Pipe = "1.3 - 2"
+ProgressMeter = "1 - 2"
+RCall = "0.13 - 0.14"
+SortingAlgorithms = "1.1 - 2"
+StatsBase = "0.24 - 0.33.21"
+julia = "1.6 - 1.11"

@@ -1,28 +1,39 @@
 [0]
 DiffResults = "1"
-ForwardDiff = "0.10"
 
-["0-0.4.0"]
+["0 - 0.4.0"]
 julia = "1"
 
-["0.2.1-0"]
+["0 - 0.6"]
+ForwardDiff = "0.10"
+
+["0.2.1 - 0"]
 MacroTools = "0.5"
 
-["0.2.1-0.4.1"]
+["0.2.1 - 0.4.1"]
 Lazy = "0.15"
 
-["0.4.1-0"]
-OrderedCollections = "1.4.0-1"
-
-["0.4.1-0.4"]
+["0.4.1 - 0.4"]
 julia = "1.2.0-1"
 
-["0.5-0"]
+["0.4.1 - 0.6"]
+OrderedCollections = "1.4.0-1"
+
+["0.5 - 0.6"]
 julia = "1.7.0-1"
 
-["0.6-0"]
+["0.6 - 0"]
 Crayons = "4"
 
-["0.6.2-0"]
+["0.6.2 - 0.6"]
 Printf = "1.7.0-1"
 SparseArrays = "1.7.0-1"
+
+["0.7 - 0"]
+ComponentArrays = "0.15"
+ForwardDiff = ["0.10", "1"]
+LinearAlgebra = "1.8.0 - 1"
+OrderedCollections = "1"
+Printf = "1.8.0 - 1"
+SparseArrays = "1.8.0 - 1"
+julia = "1.8.0 - 1"

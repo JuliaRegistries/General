@@ -1,12 +1,22 @@
-["0-0.9.2"]
+[0]
+julia = "1.9.0-1"
+
+["0 - 0.9.2"]
 Optimization = "3-4"
 OptimizationOptimJL = "0.3"
 
-[0-1]
+["0 - 1"]
 DelimitedFiles = "1"
 NativeFileDialog = "0.2"
 PolygonOps = "0.1"
+
+["0.9.3 - 0"]
+Optim = "1.10.0-1"
+
+["1.0"]
+Optim = "1.10.0-1"
 julia = "1.9.0-1"
 
-["0.9.3-1"]
-Optim = "1.10.0-1"
+["1.1 - 1"]
+Optim = "1.10.0 - 1"
+julia = "1.9.0 - 1"
