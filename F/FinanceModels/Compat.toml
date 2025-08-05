@@ -52,9 +52,14 @@ Reexport = "1.2.0 - 1"
 StaticArrays = "1.6.0 - 1"
 julia = "1.10.0 - 1"
 
+["4.14"]
+OptimizationNLopt = "0.3.2 - 0.3"
+
 ["4.14 - 4"]
 DifferentiationInterface = "0.7.4 - 0.7"
-OptimizationNLopt = "0.3.2 - 0.3"
+
+["4.15 - 4"]
+OptimizationOptimJL = "0.4.3 - 0.4"
 
 ["4.3 - 4"]
 SpecialFunctions = "2"
