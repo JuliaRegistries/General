@@ -121,7 +121,6 @@ ForwardDiff = ["0.10.36 - 0.10", "1"]
 HYPRE = "1.4.0 - 1"
 IterativeSolvers = "0.9.3 - 0.9"
 KernelAbstractions = "0.9.27 - 0.9"
-KrylovKit = "0.8 - 0.9"
 Pardiso = ["0.5.7 - 0.5", "1"]
 RecursiveFactorization = "0.2.14 - 0.2"
 SparseArrays = "1.10.0 - 1"
@@ -130,11 +129,20 @@ Sparspak = "0.3.6 - 0.3"
 ["3.18.1 - 3.18"]
 CUDSS = "0.1 - 0.4"
 
+["3.18.1 - 3.24"]
+KrylovKit = "0.8 - 0.9"
+
 ["3.19 - 3.23"]
 CUDSS = "0.1 - 0.5"
 
 ["3.24 - 3"]
 CUDSS = "0.1 - 0.4"
+
+["3.25 - 3"]
+CUSOLVERRF = "0.2.6 - 0.2"
+KrylovKit = "0.8 - 0.10"
+LAPACK_jll = "3"
+blis_jll = "0.9"
 
 ["3.4 - 3.18.0"]
 SparseArrays = "1.10.0-1"
