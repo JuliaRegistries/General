@@ -1,17 +1,12 @@
 [0]
-ADTypes = "1.14.0 - 1"
-CodecXz = "0.7.4 - 0.7"
 DiffEqBase = "6.161.0 - 6"
-DiscretePIDs = "0.1.5 - 0.1"
 DocStringExtensions = "0.9.4 - 0.9"
 KiteUtils = "0.10.10 - 0.10"
-LinearSolve = "2 - 3"
 NonlinearSolve = "4.8.0 - 4"
 OrdinaryDiffEqBDF = "1.5.0 - 1"
 OrdinaryDiffEqCore = "1.23.0 - 1"
 OrdinaryDiffEqNonlinearSolve = "1.6.1 - 1"
 Parameters = "0.12"
-PrecompileTools = "1.2.0 - 1"
 Reexport = "1.1.0 - 1"
 Rotations = "1.7.0 - 1"
 SHA = "0.7"
@@ -41,6 +36,13 @@ NLSolversBase = "7.8.3 - 7.8"
 ["0 - 0.1.1"]
 VortexStepMethod = "1.2.6 - 1"
 
+["0 - 0.2"]
+ADTypes = "1.14.0 - 1"
+CodecXz = "0.7.4 - 0.7"
+DiscretePIDs = "0.1.5 - 0.1"
+LinearSolve = "2 - 3"
+PrecompileTools = "1.2.0 - 1"
+
 ["0.1.1 - 0"]
 AtmosphericModels = "0.3"
 SteadyStateDiffEq = "2.5.0 - 2"
@@ -51,11 +53,13 @@ ModelingToolkit = "10.10"
 ["0.1.2 - 0"]
 VortexStepMethod = "2"
 
-["0.2 - 0"]
+["0.2"]
 Interpolations = "0.15.1 - 0.16"
+ModelingToolkit = "10.13"
+
+["0.2 - 0"]
 LaTeXStrings = "1.4.0 - 1"
 LinearAlgebra = "1"
-ModelingToolkit = "10.13"
 Pkg = "1"
 Printf = "1"
 REPL = "1"
@@ -64,3 +68,11 @@ Serialization = "1"
 Suppressor = "0.2.8 - 0.2"
 UnPack = "1.0.2 - 1"
 julia = "1"
+
+["0.3 - 0"]
+CodecZlib = "0.7.8 - 0.7"
+ControlSystemsBase = "1.18.1 - 1"
+LinearSolve = "2 - 3.24"
+ModelingToolkit = "10.14"
+PrecompileTools = "1.2.1 - 1"
+Tar = "1.10.0 - 1"

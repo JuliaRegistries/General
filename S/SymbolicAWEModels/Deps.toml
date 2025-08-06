@@ -1,11 +1,7 @@
 [0]
-ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 AtmosphericModels = "c59cac55-771d-4f45-b14d-1c681463a295"
-CodecXz = "ba30903b-d9e8-5048-a5ec-d1f5b0d4b47b"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
-DiscretePIDs = "c1363496-6848-4723-8758-079b737f6baf"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
-Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 KiteUtils = "90980105-b163-44e5-ba9f-8b1c83bb0533"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
@@ -36,6 +32,12 @@ WinchModels = "7dcfa46b-7979-4771-bbf4-0aee0da42e1f"
 ["0 - 0.1.0"]
 NLSolversBase = "d41bc354-129a-5804-8e4c-c37616107c6c"
 
+["0 - 0.2"]
+ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
+CodecXz = "ba30903b-d9e8-5048-a5ec-d1f5b0d4b47b"
+DiscretePIDs = "c1363496-6848-4723-8758-079b737f6baf"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+
 ["0.1.1 - 0"]
 SteadyStateDiffEq = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
 
@@ -45,3 +47,8 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0.3 - 0"]
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+ControlSystemsBase = "aaaaaaaa-a6ca-5380-bf3e-84a91bcd477e"
+Tar = "a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e"
