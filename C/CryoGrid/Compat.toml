@@ -1,9 +1,7 @@
 [0]
-DataStructures = "0.18"
 DiffEqBase = "6"
 Downloads = "1"
 Flatten = "0.4"
-ForwardDiff = "0.10"
 IfElse = "0.1"
 IntervalSets = "0.7"
 LoopVectorization = "0.12"
@@ -48,6 +46,10 @@ ConstructionBase = "1.4.0-1"
 JSON3 = "1.10.0-1"
 ModelParameters = "0.3-0.4"
 julia = "1.6.0-1"
+
+["0 - 0.23.3"]
+DataStructures = "0.18"
+ForwardDiff = "0.10"
 
 ["0.19 - 0.21"]
 Adapt = "3"
@@ -102,18 +104,26 @@ DiffEqCallbacks = "2-4"
 ["0.23.2 - 0"]
 NonlinearSolve = "4"
 
+["0.23.3"]
+Interpolations = "0.14 - 0.15"
+LinearSolve = "1 - 2"
+
 ["0.23.3 - 0"]
 Adapt = "3 - 4"
 ComponentArrays = "0.13 - 0.15"
 ConstructionBase = "1.4.0 - 1"
 DiffEqCallbacks = "2 - 4"
 DimensionalData = ["0.19 - 0.21", "0.24 - 0.28"]
-Interpolations = "0.14 - 0.15"
 JSON3 = "1.10.0 - 1"
-LinearSolve = "1 - 2"
 ModelParameters = "0.3 - 0.4"
 NCDatasets = "0.12 - 0.14"
 RecursiveArrayTools = "2 - 3"
 SciMLBase = "1 - 2"
 TimeSeries = "0.23 - 0.24"
 julia = "1.6.0 - 1"
+
+["0.23.4 - 0"]
+DataStructures = "0.18 - 0.19"
+ForwardDiff = ["0.10", "1"]
+Interpolations = "0.14 - 0.16"
+LinearSolve = "1 - 3"
