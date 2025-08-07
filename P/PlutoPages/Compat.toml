@@ -1,18 +1,3 @@
-[0]
-BetterFileWatching = "0.1"
-Gumbo = "0.8"
-HypertextLiteral = "0.9"
-InteractiveUtils = "1"
-Logging = "1"
-Markdown = "1"
-MarkdownLiteral = "0.1"
-PlutoHooks = "0.0.5"
-ProgressLogging = "0.1"
-RelocatableFolders = "1"
-ThreadsX = "0.1"
-Unicode = "1"
-YAML = "0.4"
-
 ["0 - 0.1.1"]
 SHA = "0.7"
 
@@ -29,19 +14,36 @@ PlutoSliderServer = "0.3.28-0.3"
 ["0 - 0.1.7"]
 CommonMark = "0.8"
 
-["0.1.1 - 0"]
+["0 - 1"]
+BetterFileWatching = "0.1"
+Gumbo = "0.8"
+HypertextLiteral = "0.9"
+InteractiveUtils = "1"
+Logging = "1"
+Markdown = "1"
+MarkdownLiteral = "0.1"
+PlutoHooks = "0.0.5"
+ProgressLogging = "0.1"
+RelocatableFolders = "1"
+ThreadsX = "0.1"
+Unicode = "1"
+YAML = "0.4"
+
+["0.1.1 - 1"]
 Pkg = "1"
 
 ["0.1.12 - 0"]
-CommonMark = "0.8 - 0.9"
-LiveServer = "1.2.0 - 1"
 Pluto = "0.19.38 - 0.20"
-PlutoLinks = "0.1.6 - 0.1"
 PlutoSliderServer = ["0.3.28 - 0.3", "1"]
-PlutoUI = "0.7.55 - 0.7"
 julia = "1.6.0 - 1"
 
-["0.1.2 - 0"]
+["0.1.12 - 1"]
+CommonMark = "0.8 - 0.9"
+LiveServer = "1.2.0 - 1"
+PlutoLinks = "0.1.6 - 0.1"
+PlutoUI = "0.7.55 - 0.7"
+
+["0.1.2 - 1"]
 JSON = "0.21"
 Malt = "1"
 SHA = ["0.7", "1"]
@@ -52,3 +54,8 @@ PlutoSliderServer = ["0.3.28-0.3", "1"]
 
 ["0.1.8 - 0.1.11"]
 CommonMark = "0.8-0.9"
+
+[1]
+Pluto = "0.20"
+PlutoSliderServer = "1"
+julia = "1.10.0 - 1"
