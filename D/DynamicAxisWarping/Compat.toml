@@ -1,95 +1,108 @@
 [0]
-BinDeps = "1"
 DelimitedFiles = "1"
-ProgressMeter = "1.2.0-1"
 Statistics = "1"
-julia = "1"
 
-["0-0.1.1"]
+["0 - 0.1.1"]
 SlidingDistancesBase = "0.1"
 
-["0-0.1.2"]
+["0 - 0.1.2"]
 Distances = "0.8"
 
-["0-0.2.1"]
+["0 - 0.2.1"]
 StatsBase = "0.33"
 
-["0-0.2.2"]
+["0 - 0.2.2"]
 UnsafeArrays = "1"
 
-["0-0.4.1"]
+["0 - 0.4.1"]
 DataStructures = "0.17"
 FillArrays = "0.8"
 
-["0-0.4.16"]
+["0 - 0.4.16"]
 Plots = "1"
 
-["0.1.1-0"]
+["0 - 0.4.18"]
+BinDeps = "1"
+ProgressMeter = "1.2.0-1"
+julia = "1"
+
+["0.1.1 - 0"]
 Requires = "1"
 
-["0.1.2-0.1.3"]
+["0.1.2 - 0.1.3"]
 LoopVectorization = "0.7"
 
-["0.1.2-0.2"]
+["0.1.2 - 0.2"]
 SlidingDistancesBase = "0.1.3-0.1"
 
-["0.1.3-0.4.2"]
+["0.1.3 - 0.4.2"]
 Distances = "0.8-0.9"
 
-["0.1.4-0.4.4"]
+["0.1.4 - 0.4.4"]
 LoopVectorization = "0.7-0.8"
 
-["0.2.2-0.4.17"]
+["0.2.2 - 0.4.17"]
 StatsBase = "0.32-0.33"
 
-["0.2.3-0"]
+["0.2.3 - 0"]
 UnPack = ["0.1", "1"]
 
 ["0.3"]
 SlidingDistancesBase = "0.1.5-0.1"
 
-["0.4-0.4.8"]
+["0.4 - 0.4.8"]
 SlidingDistancesBase = "0.2"
 
-["0.4.11-0.4.14"]
+["0.4.11 - 0.4.14"]
 FillArrays = "0.8-0.13"
 
-["0.4.15-0"]
+["0.4.15 - 0"]
 FillArrays = "1"
 
-["0.4.17-0"]
+["0.4.17 - 0"]
 RecipesBase = "1"
 
-["0.4.18-0"]
-LinearAlgebra = ["0.0.0", "1"]
+["0.4.18"]
 StatsBase = "0.32-0.34"
+
+["0.4.18 - 0"]
+LinearAlgebra = ["0.0.0", "1"]
+
+["0.4.19 - 0"]
+DataStructures = "0.17 - 0.19"
+Distances = "0.8 - 0.10"
+LoopVectorization = "0.9 - 0.12"
+ProgressMeter = "1.2.0 - 1"
+SlidingDistancesBase = "0.2 - 0.3"
+StatsBase = "0.32 - 0.34"
+julia = "1.10.0 - 1"
 
 ["0.4.2"]
 FillArrays = "0.8-0.9"
 
-["0.4.2-0"]
+["0.4.2 - 0.4.18"]
 DataStructures = "0.17-0.18"
 
-["0.4.3-0"]
+["0.4.3 - 0.4.18"]
 Distances = "0.8-0.10"
 
-["0.4.3-0.4.4"]
+["0.4.3 - 0.4.4"]
 FillArrays = "0.8-0.10"
 
 ["0.4.5"]
 LoopVectorization = "0.9"
 
-["0.4.5-0.4.8"]
+["0.4.5 - 0.4.8"]
 FillArrays = "0.8-0.11"
 
-["0.4.6-0.4.7"]
+["0.4.6 - 0.4.7"]
 LoopVectorization = "0.9-0.11"
 
-["0.4.8-0"]
+["0.4.8 - 0.4.18"]
 LoopVectorization = "0.9-0.12"
 
-["0.4.9-0"]
-SlidingDistancesBase = "0.2-0.3"
-
-["0.4.9-0.4.10"]
+["0.4.9 - 0.4.10"]
 FillArrays = "0.8-0.12"
+
+["0.4.9 - 0.4.18"]
+SlidingDistancesBase = "0.2-0.3"
