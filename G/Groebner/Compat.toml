@@ -1,7 +1,7 @@
 [0]
 Primes = "0.5"
 
-["0-0.1"]
+["0 - 0.1"]
 AbstractAlgebra = "0.23"
 Combinatorics = "1.0.2-1"
 LoopVectorization = "0.12"
@@ -11,129 +11,136 @@ SortingAlgorithms = "1.0.1-1"
 StaticArrays = "1.2.0-1"
 julia = "1.6.0-1"
 
-["0.2-0"]
+["0.2 - 0"]
 Combinatorics = "1"
 
-["0.2-0.2.6"]
+["0.2 - 0.2.6"]
 julia = "1.7.0-1"
 
-["0.2-0.3"]
+["0.2 - 0.3"]
 MultivariatePolynomials = "0.4.3-0.4"
 
 ["0.2.0"]
 AbstractAlgebra = "0.24"
 
-["0.2.1-0.2.3"]
+["0.2.1 - 0.2.3"]
 AbstractAlgebra = "0.24-0.25"
 
 ["0.2.4"]
 AbstractAlgebra = "0.23-0.25"
 
-["0.2.5-0.2.7"]
+["0.2.5 - 0.2.7"]
 AbstractAlgebra = "0.23-0.26"
 
-["0.2.7-0.7"]
+["0.2.7 - 0.7"]
 julia = "1.6.0-1"
 
-["0.2.8-0.3.0"]
+["0.2.8 - 0.3.0"]
 AbstractAlgebra = "0.23-0.27"
 
 ["0.3.1"]
 AbstractAlgebra = "0.23-0.28"
 
-["0.3.2-0.3.4"]
+["0.3.2 - 0.3.4"]
 AbstractAlgebra = "0.23-0.29"
 
-["0.3.4-0.4"]
+["0.3.4 - 0.4"]
 SnoopPrecompile = "1"
 
-["0.3.5-0.3"]
+["0.3.5 - 0.3"]
 AbstractAlgebra = "0.23-0.30"
 
-["0.4-0.4.3"]
+["0.4 - 0.4.3"]
 AbstractAlgebra = "0.23-0.31"
 
-["0.4-0.5"]
+["0.4 - 0.5"]
 SIMD = "3"
 
 ["0.4.0"]
 MultivariatePolynomials = "0.5"
 
-["0.4.1-0.7.0"]
+["0.4.1 - 0.7.0"]
 MultivariatePolynomials = "0.4-0.5"
 
-["0.4.3-0.7"]
+["0.4.3 - 0.7"]
 ExprTools = "0.1"
 
-["0.4.4-0.4"]
+["0.4.4 - 0.4"]
 AbstractAlgebra = "0.23-0.32"
 
-["0.5-0"]
+["0.5 - 0"]
 PrecompileTools = "1"
 
-["0.5-0.7"]
+["0.5 - 0.7"]
 TimerOutputs = "0.5"
 
 ["0.5.0"]
 AbstractAlgebra = "0.23-0.33"
 
-["0.5.1-0.5"]
+["0.5.1 - 0.5"]
 AbstractAlgebra = "0.23-0.34"
 
-["0.5.1-0.7"]
+["0.5.1 - 0.7"]
 PrettyTables = "2"
 
-["0.6-0.8.2"]
+["0.6 - 0.8.2"]
 Atomix = "0.1"
 
 ["0.6.0"]
 AbstractAlgebra = "0.34"
 Nemo = "0.38.3-0.38"
 
-["0.6.1-0.6.3"]
+["0.6.1 - 0.6.3"]
 AbstractAlgebra = "0.34-0.35"
 Nemo = "0.38.3-0.39"
 
-["0.6.4-0.6"]
+["0.6.4 - 0.6"]
 AbstractAlgebra = "0.34-0.36"
 Nemo = "0.38.3-0.40"
 
-["0.6.4-0.8.0"]
+["0.6.4 - 0.8.0"]
 HostCPUFeatures = "0.1"
 
 ["0.7.0"]
 AbstractAlgebra = "0.34-0.37"
 Nemo = "0.38.3-0.41"
 
-["0.7.1-0.7.2"]
+["0.7.1 - 0.7.2"]
 AbstractAlgebra = "0.34-0.39"
 Nemo = "0.38.3-0.42"
 
-["0.7.1-0.7.4"]
+["0.7.1 - 0.7.4"]
 MultivariatePolynomials = "0.5"
 
-["0.7.3-0.7.4"]
+["0.7.3 - 0.7.4"]
 AbstractAlgebra = "0.40"
 Nemo = "0.43"
 
-["0.7.5-0.7"]
+["0.7.5 - 0.7"]
 AbstractAlgebra = "0.41"
 MultivariatePolynomials = "0.5.6-0.5"
 Nemo = "0.45.4-0.45"
 
-["0.8-0"]
-julia = "1.10.0-1"
-
-["0.8-0.8.2"]
+["0.8 - 0.8.2"]
 AbstractAlgebra = "0.41-0.43"
 Nemo = "0.45.4-0.47"
 
-["0.8.3-0"]
-AbstractAlgebra = "0.41-0.44"
+["0.8 - 0.9.4"]
+julia = "1.10.0-1"
+
+["0.8.3 - 0"]
 Atomix = ["0.1", "1"]
 
-["0.8.3-0.9.0"]
+["0.8.3 - 0.9.0"]
 Nemo = "0.45.4-0.48"
 
-["0.9.1-0"]
+["0.8.3 - 0.9.4"]
+AbstractAlgebra = "0.41-0.44"
+
+["0.9.1 - 0.9.4"]
 Nemo = "0.45.4-0.49"
+
+["0.9.5 - 0"]
+AbstractAlgebra = "0.41 - 0.46"
+Nemo = "0.45.4 - 0.51"
+julia = "1.10.0 - 1"
