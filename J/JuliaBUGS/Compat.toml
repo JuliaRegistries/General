@@ -1,95 +1,114 @@
 [0]
-Distributions = "0.23.8-0.25"
-JuliaSyntax = "0.4"
 LogDensityProblems = "2"
 LogExpFunctions = "0.3"
 SpecialFunctions = "2"
 
-["0-0.2"]
+["0 - 0.2"]
 AbstractPPL = "0.6"
 DynamicPPL = "0.22-0.23"
 
-["0-0.2.3"]
+["0 - 0.2.3"]
 Documenter = "0.27"
 MetaGraphsNext = "0.5"
 Statistics = "1.8.0-1"
 julia = "1.8.0-1"
 
-["0-0.3"]
+["0 - 0.3"]
 InverseFunctions = "0.1"
 
-["0-0.4"]
+["0 - 0.4"]
 Graphs = "1.4.1-1"
 LogDensityProblemsAD = "1.6.0-1"
 MacroTools = "0.5.6-0.5"
 Setfield = ["0.7.1-0.8", "1"]
 UnPack = "1"
 
-["0-0.5"]
+["0 - 0.5"]
 BangBang = "0.3"
 
-["0-0.6.3"]
+["0 - 0.6.3"]
 Bijectors = "0.13"
 
-["0.2-0"]
+["0 - 0.9"]
+Distributions = "0.23.8-0.25"
+JuliaSyntax = "0.4"
+
+["0.10 - 0"]
+ADTypes = "1.14.0 - 1"
+AbstractPPL = "0.8.4 - 0.13"
+BangBang = "0.4.1 - 0.4"
+Bijectors = ["0.13 - 0.14", "0.15.5 - 0.15"]
+Distributions = "0.23.8 - 0.25"
+JuliaSyntax = "1"
+LinearAlgebra = "1.10.0 - 1"
+MetaGraphsNext = "0.6 - 0.7"
+PDMats = "0.10 - 0.11"
+Serialization = "1.10.0 - 1"
+StaticArrays = "1.9.0 - 1"
+Statistics = "1.10.0 - 1"
+julia = "1.10.8 - 1"
+
+["0.2 - 0.9"]
 PDMats = "0.10-0.11"
 
-["0.2.4-0"]
+["0.2.4 - 0"]
 Documenter = ["0.27", "1"]
 
-["0.2.4-0.2"]
+["0.2.4 - 0.2"]
 Statistics = "1.9.0-1"
 
-["0.2.4-0.4"]
+["0.2.4 - 0.4"]
 MetaGraphsNext = "0.5-0.6"
 
-["0.2.4-0.8"]
+["0.2.4 - 0.8"]
 julia = "1.9.0-1"
 
-["0.3-0"]
+["0.3 - 0"]
 AbstractMCMC = "5"
 
-["0.3-0.5"]
+["0.3 - 0.5"]
 AbstractPPL = "0.6-0.7"
 DynamicPPL = "0.22-0.24"
 
-["0.4-0"]
+["0.4 - 0.9"]
 StaticArrays = "1.9.0-1"
 
-["0.5-0"]
+["0.5 - 0"]
 Graphs = "1"
 LogDensityProblemsAD = "1"
 MacroTools = "0.5"
-MetaGraphsNext = "0.6-0.7"
 
-["0.5-0.8"]
+["0.5 - 0.8"]
 Statistics = "1.9.0-1"
 
-["0.5.2-0"]
+["0.5 - 0.9"]
+MetaGraphsNext = "0.6-0.7"
+
+["0.5.2 - 0"]
 JSON = "0.21"
 
-["0.6-0"]
-BangBang = "0.4.1-0.4"
-
-["0.6-0.6.1"]
+["0.6 - 0.6.1"]
 AbstractPPL = "0.8.4-0.8"
 DynamicPPL = "0.25-0.28"
 
-["0.6.2-0"]
+["0.6 - 0.9"]
+BangBang = "0.4.1-0.4"
+
+["0.6.2 - 0"]
 Accessors = "0.1"
 OrderedCollections = "1"
 
-["0.6.2-0.8"]
+["0.6.2 - 0.8"]
 AbstractPPL = "0.8.4-0.9"
 LinearAlgebra = "1.9.0-1"
 
-["0.6.4-0.8"]
+["0.6.4 - 0.8"]
 Bijectors = "0.13-0.14"
 
 ["0.8"]
 Serialization = "1.9.0-1"
 
-["0.9-0"]
+["0.9"]
 AbstractPPL = "0.8.4-0.10"
 Bijectors = ["0.13-0.14", "0.15.5-0.15"]
 LinearAlgebra = "1.10.0-1"
