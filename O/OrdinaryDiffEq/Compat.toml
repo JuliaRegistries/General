@@ -230,7 +230,7 @@ DiffEqBase = "6.38.0-6.84"
 ["5.42.1 - 6"]
 FastClosures = "0.3"
 
-["5.42.4 - 6"]
+["5.42.4 - 6.101"]
 DataStructures = "0.18"
 
 ["5.46 - 6.58"]
@@ -328,6 +328,12 @@ ForwardDiff = ["0.10.36 - 0.10", "1"]
 LinearSolve = "3"
 NonlinearSolve = "4"
 RecursiveArrayTools = "3.27.0 - 3"
+
+["6.103 - 6"]
+ADTypes = "1.16.0 - 1"
+CommonSolve = "0.2"
+DataStructures = "0.18 - 0.19"
+ExplicitImports = "1.13.1 - 1"
 
 ["6.11"]
 ArrayInterface = "2.7.0-6"
@@ -712,7 +718,6 @@ NonlinearSolve = "3 - 4"
 RecursiveArrayTools = "2.36.0 - 3"
 
 ["6.99 - 6"]
-ADTypes = "1.13.0 - 1"
 Adapt = "3 - 4"
 FastBroadcast = "0.2 - 0.3"
 FillArrays = "1.9.0 - 1"
@@ -727,3 +732,6 @@ SimpleNonlinearSolve = "1 - 2"
 StaticArrayInterface = "1.2.0 - 1"
 TruncatedStacktraces = "1.2.0 - 1"
 julia = "1.10.0 - 1"
+
+["6.99 - 6.101"]
+ADTypes = "1.13.0 - 1"
