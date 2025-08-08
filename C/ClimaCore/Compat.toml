@@ -218,7 +218,6 @@ ForwardDiff = ["0.10.15-0.10", "1"]
 Adapt = "3.2.0 - 4"
 ClimaComms = "0.6.2 - 0.6"
 CubedSphere = "0.2 - 0.3"
-DataStructures = "0.18.13 - 0.18"
 ForwardDiff = ["0.10.15 - 0.10", "1"]
 GaussQuadrature = "0.5.8 - 0.5"
 HDF5 = "0.16.16 - 0.17"
@@ -227,10 +226,17 @@ KrylovKit = "0.6 - 0.8"
 MultiBroadcastFusion = "0.3.1 - 0.4"
 PkgVersion = "0.1 - 0.3"
 RecursiveArrayTools = "3.2.0 - 3"
-RootSolvers = "0.3 - 0.4"
 StaticArrays = "1.6.0 - 1"
 UnrolledUtilities = "0.1.9 - 0.1"
 julia = "1.10.0 - 1"
+
+["0.14.35 - 0.14.37"]
+DataStructures = "0.18.13 - 0.18"
+RootSolvers = "0.3 - 0.4"
+
+["0.14.38 - 0"]
+DataStructures = "0.18.13 - 0.19"
+RootSolvers = ["0.3 - 0.4", "1"]
 
 ["0.14.4 - 0.14.25"]
 NVTX = "0.3"
