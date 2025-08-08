@@ -1,35 +1,47 @@
 [0]
 AtomsCalculators = "0.2"
-Bumper = "0.6-0.7"
 DiffResults = "1"
+StaticArrays = "1"
+Unitful = "1"
+UnitfulAtomic = "1"
+
+["0 - 0.1.0"]
+AtomsBase = "0.3"
+
+["0 - 0.1.1"]
+NeighbourLists = "0.5.6-0.5"
+
+["0 - 0.1.4"]
+ChunkSplitters = "2"
+
+["0 - 0.1.7"]
+Bumper = "0.6-0.7"
 Folds = "0.2.10-0.2"
 ForwardDiff = "0.10"
 LinearAlgebra = "1.9.0-1"
 Printf = "1.9.0-1"
 Sockets = "1.9.0-1"
-StaticArrays = "1"
 StrideArrays = "0.1"
-Unitful = "1"
-UnitfulAtomic = "1"
 julia = "1.9.0-1"
 
-["0-0.1.0"]
-AtomsBase = "0.3"
-
-["0-0.1.1"]
-NeighbourLists = "0.5.6-0.5"
-
-["0-0.1.4"]
-ChunkSplitters = "2"
-
-["0.1.1-0.1.5"]
+["0.1.1 - 0.1.5"]
 AtomsBase = "0.3-0.4"
 
-["0.1.2-0"]
+["0.1.2 - 0.1.7"]
 NeighbourLists = "0.5.8-0.5"
 
-["0.1.5-0"]
+["0.1.5 - 0"]
 ChunkSplitters = "3"
 
-["0.1.6-0"]
+["0.1.6 - 0"]
 AtomsBase = "0.5"
+
+["0.1.8 - 0"]
+Bumper = "0.6 - 0.7"
+Folds = "0.2.10 - 0.2"
+ForwardDiff = ["0.10", "1"]
+LinearAlgebra = "1.9.0 - 1"
+NeighbourLists = "0.5.8 - 0.5"
+Printf = "1.9.0 - 1"
+Sockets = "1.9.0 - 1"
+julia = "1.9.0 - 1"
