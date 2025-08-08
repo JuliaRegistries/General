@@ -130,7 +130,6 @@ julia = "1.9.0-1"
 ["0.19.2 - 0"]
 AbstractTrees = "0.3.3 - 0.4"
 BSON = "0.3.4 - 0.3"
-DataStructures = "0.18.13 - 0.18"
 DocStringExtensions = "0.8.1 - 0.9"
 FastGaussQuadrature = ["0.4.5 - 0.4", "1"]
 FileIO = "1.5.0 - 1"
@@ -146,6 +145,12 @@ SparseMatricesCSR = "0.6.4 - 0.6"
 StaticArrays = "1.4.0 - 1"
 WriteVTK = "1.21.1 - 1"
 julia = "1.9.0 - 1"
+
+["0.19.2 - 0.19.3"]
+DataStructures = "0.18.13 - 0.18"
+
+["0.19.4 - 0"]
+DataStructures = "0.18.13 - 0.19"
 
 ["0.2"]
 TensorPolynomialBases = "0.1.1-0.1"
