@@ -39,7 +39,7 @@ against this GitHub repository. It is ***highly recommended*** that you use
 the [Registrator README][registrator-readme].
 
 When Registrator is triggered a pull request is opened against this repository. Pull
-requests that meet certain guidelines is merged automatically, see
+requests that meet certain guidelines are merged automatically, see
 [Automatic merging of pull requests](#automatic-merging-of-pull-requests). Other pull
 requests need to be manually reviewed and merged by a human.
 
