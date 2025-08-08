@@ -75,12 +75,10 @@ ParallelStencil = "0.13-0.14"
 CUDA = "5"
 
 ["0.2.3 - 0"]
+GeoParams = "0.7"
 Printf = "1.11.0-1"
 ProgressBars = "1.5.1-1"
 TOML = "1.0.3-1"
-
-["0.2.3 - 1"]
-GeoParams = "0.7"
 
 [1]
 DiffEqCallbacks = "3 - 4"
@@ -90,3 +88,9 @@ ProgressBars = "1.5.0 - 1"
 TOML = "1"
 UnPack = "1"
 julia = "1.10.0 - 1"
+
+["1.0"]
+GeoParams = "0.7"
+
+["1.1 - 1"]
+GeoParams = "0.7.6 - 0.7"
