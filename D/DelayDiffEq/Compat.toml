@@ -99,7 +99,7 @@ Roots = ["0.8", "1"]
 ["5.24 - 5.41.0"]
 UnPack = ["0.1", "1"]
 
-["5.24.2 - 5"]
+["5.24.2 - 5.55"]
 DataStructures = "0.18"
 
 ["5.25"]
@@ -114,7 +114,7 @@ OrdinaryDiffEq = "5.46.0-5"
 ["5.27 - 5.39"]
 NonlinearSolve = "0.3"
 
-["5.28 - 5"]
+["5.28 - 5.55"]
 Reexport = ["0.2", "1"]
 
 ["5.3 - 5.11"]
@@ -244,11 +244,13 @@ OrdinaryDiffEqDefault = "1.1.0 - 1"
 OrdinaryDiffEqDifferentiation = "1.6.0 - 1"
 OrdinaryDiffEqNonlinearSolve = "1.6.0 - 1"
 OrdinaryDiffEqRosenbrock = "1.2.0 - 1"
-RecursiveArrayTools = "2 - 3"
 SciMLBase = "2.68.0 - 2"
-SimpleNonlinearSolve = ["0.1", "1 - 2"]
 SymbolicIndexingInterface = "0.3.36 - 0.3"
 julia = "1.10.0 - 1"
+
+["5.54 - 5.55"]
+RecursiveArrayTools = "2 - 3"
+SimpleNonlinearSolve = ["0.1", "1 - 2"]
 
 ["5.55 - 5"]
 FastBroadcast = "0.3.5 - 0.3"
@@ -257,6 +259,12 @@ LinearAlgebra = "1"
 Logging = "1"
 OrdinaryDiffEqFunctionMap = "1.1.1 - 1"
 Printf = "1"
+
+["5.56 - 5"]
+DataStructures = "0.18 - 0.19"
+RecursiveArrayTools = "3"
+Reexport = "1"
+SimpleNonlinearSolve = "2"
 
 ["5.6 - 5.12"]
 DiffEqBase = "5.13.0-6"
