@@ -1,13 +1,12 @@
 [0]
 ComponentArrays = "0.15"
 Parameters = "0.12"
-julia = "1.9.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 AngleBetweenVectors = "0.3"
 ValSplit = "0.1"
 
-["0-0.3.6"]
+["0 - 0.3.6"]
 SatelliteToolboxAtmosphericModels = "0.1"
 SatelliteToolboxBase = "0.3"
 SatelliteToolboxCelestialBodies = "0.1"
@@ -16,14 +15,24 @@ SatelliteToolboxTransformations = "0.1"
 SpaceIndices = "1"
 StaticArraysCore = "1"
 
-["0.3-0"]
+["0 - 0.3.8"]
+julia = "1.9.0-1"
+
+["0.3 - 0"]
 LinearAlgebra = "1"
 
-["0.3.7-0"]
+["0.3.11 - 0"]
+SpaceIndices = "1.2.0 - 1"
+StaticArraysCore = "1.4.0 - 1"
+julia = "1.10.0 - 1"
+
+["0.3.7 - 0"]
 SatelliteToolboxAtmosphericModels = "1"
 SatelliteToolboxBase = "1"
 SatelliteToolboxCelestialBodies = "1"
 SatelliteToolboxGravityModels = "1"
 SatelliteToolboxTransformations = "1"
+
+["0.3.7 - 0.3.8"]
 SpaceIndices = "1.2.0-1"
 StaticArraysCore = "1.4.0-1"
