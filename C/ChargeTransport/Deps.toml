@@ -1,3 +1,7 @@
+[0]
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
 ["0 - 0.2.9"]
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 
@@ -8,12 +12,19 @@ ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 GridVisualize = "5eed8a63-0fb0-45eb-886d-8d5a387d12b8"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 VoronoiFVM = "82b139dc-5afc-11e9-35da-9b9bdfd336f3"
 
 ["0.2 - 1"]
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 
-["0.2.13 - 1"]
+["0.2.13 - 0"]
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+
+["1.0"]
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["1.1 - 1"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+LessUnitful = "f29f6376-6e90-4d80-80c9-fb8ec61203d5"
