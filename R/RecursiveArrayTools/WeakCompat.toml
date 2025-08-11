@@ -31,20 +31,32 @@ ForwardDiff = ["0.10.19-0.10", "1"]
 Zygote = "0.6.67 - 0.7"
 
 ["3.34 - 3"]
+ReverseDiff = "1.15.0 - 1"
+SparseArrays = "1.10.0 - 1"
+
+["3.34 - 3.36"]
 FastBroadcast = "0.2.8 - 0.3"
 ForwardDiff = ["0.10.19 - 0.10", "1"]
 Measurements = "2.3.0 - 2"
 MonteCarloMeasurements = "1.1.0 - 1"
-ReverseDiff = "1.15.0 - 1"
-SparseArrays = "1.10.0 - 1"
 StructArrays = "0.6.11 - 0.7"
 Tracker = "0.2.15 - 0.2"
 
 ["3.34.1 - 3"]
 KernelAbstractions = "0.9.36 - 0.9"
 
-["3.35 - 3"]
+["3.35 - 3.36"]
 Zygote = ["0.6.67 - 0.6", "0.7.10 - 0.7"]
+
+["3.37 - 3"]
+FastBroadcast = "0.3.5 - 0.3"
+ForwardDiff = ["0.10.38 - 0.10", "1"]
+Measurements = "2.11.0 - 2"
+MonteCarloMeasurements = "1.2.0 - 1"
+StructArrays = "0.7"
+Tables = "1.12.0 - 1"
+Tracker = "0.2.34 - 0.2"
+Zygote = "0.7.10 - 0.7"
 
 ["3.4 - 3.27"]
 Zygote = "0.6.67-0.6"
