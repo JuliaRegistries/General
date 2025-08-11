@@ -47,9 +47,11 @@ Reexport = "1.2.2 - 1"
 SciMLBase = "2"
 
 ["1.6 - 1"]
+julia = "1.10.0 - 1"
+
+["1.6 - 1.7"]
 OrdinaryDiffEqCore = "1.19.0 - 1"
 OrdinaryDiffEqDifferentiation = ["0.0.0", "1.2.0 - 1"]
-julia = "1.10.0 - 1"
 
 ["1.7 - 1"]
 ADTypes = "1.16.0 - 1"
@@ -62,3 +64,7 @@ Polyester = "0.7"
 RecursiveArrayTools = "3.36.0 - 3"
 Reexport = "1.2.0 - 1"
 SciMLBase = "2.99.0 - 2"
+
+["1.8 - 1"]
+OrdinaryDiffEqCore = "1.29.0 - 1"
+OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
