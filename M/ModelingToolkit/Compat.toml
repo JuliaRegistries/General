@@ -137,6 +137,10 @@ SciMLBase = "2.108.0 - 2"
 ImplicitDiscreteSolve = ["0.1.2 - 0.1", "1"]
 SymbolicUtils = "3.30.0 - 3"
 
+["10.18 - 10"]
+SCCNonlinearSolve = "1.4.0 - 1"
+StaticArrays = "1.9.14 - 1"
+
 ["10.3 - 10.4"]
 SciMLBase = "2.100.0-2"
 
@@ -168,7 +172,6 @@ RuntimeGeneratedFunctions = "0.5.9 - 0.5"
 SciMLStructures = "1.7.0 - 1"
 Setfield = ["0.7 - 0.8", "1"]
 SimpleNonlinearSolve = ["0.1", "1 - 2"]
-StaticArrays = ["0.10 - 0.12", "1"]
 SymbolicIndexingInterface = "0.3.39 - 0.3"
 Symbolics = "6.40.0 - 6"
 Unitful = "1.1.0 - 1"
@@ -187,6 +190,9 @@ NonlinearSolve = "4.3.0 - 4"
 ["10.5 - 10.16"]
 ImplicitDiscreteSolve = "0.1.2 - 0.1"
 SymbolicUtils = "3.26.1 - 3"
+
+["10.5 - 10.17"]
+StaticArrays = ["0.10 - 0.12", "1"]
 
 ["10.5 - 10.7"]
 DifferentiationInterface = "0.6.47 - 0.6"
@@ -833,7 +839,7 @@ Symbolics = "6.19.0-6"
 ["9.55"]
 SciMLBase = "2.64.0-2"
 
-["9.56 - 10"]
+["9.56 - 10.17"]
 SCCNonlinearSolve = "1"
 
 ["9.56 - 9.59"]
