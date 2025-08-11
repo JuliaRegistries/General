@@ -254,17 +254,22 @@ SimpleNonlinearSolve = ["0.1", "1 - 2"]
 
 ["5.55 - 5"]
 FastBroadcast = "0.3.5 - 0.3"
-ForwardDiff = "1.0.1 - 1"
 LinearAlgebra = "1"
 Logging = "1"
 OrdinaryDiffEqFunctionMap = "1.1.1 - 1"
 Printf = "1"
+
+["5.55 - 5.57"]
+ForwardDiff = "1.0.1 - 1"
 
 ["5.56 - 5"]
 DataStructures = "0.18 - 0.19"
 RecursiveArrayTools = "3"
 Reexport = "1"
 SimpleNonlinearSolve = "2"
+
+["5.58 - 5"]
+ForwardDiff = ["0.10.38 - 0.10", "1.0.1 - 1"]
 
 ["5.6 - 5.12"]
 DiffEqBase = "5.13.0-6"
