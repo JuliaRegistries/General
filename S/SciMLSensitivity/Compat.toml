@@ -283,7 +283,6 @@ Accessors = "0.1.36-0.1"
 Enzyme = "0.12-0.13"
 
 ["7.69 - 7"]
-DiffEqCallbacks = "4"
 SciMLJacobianOperators = "0.1"
 
 ["7.69 - 7.84"]
@@ -292,6 +291,9 @@ Enzyme = "0.13"
 ["7.69 - 7.86"]
 ADTypes = "1.9.0-1"
 FastBroadcast = "0.3.5-0.3"
+
+["7.69 - 7.88"]
+DiffEqCallbacks = "4"
 
 ["7.70 - 7.86"]
 Functors = "0.4-0.5"
@@ -333,14 +335,12 @@ Adapt = "1 - 4"
 ChainRulesCore = ["0.10.7 - 0.10", "1"]
 DiffEqBase = "6.175.0 - 6"
 DiffEqNoiseProcess = "5.19.0 - 5"
-Enzyme = "0.13.50 - 0.13"
 FastBroadcast = "0.3.5 - 0.3"
 Functors = "0.4 - 0.5"
 GPUArraysCore = "0.1 - 0.2"
 LinearAlgebra = "1.10.0 - 1"
 LinearSolve = "2 - 3"
 Markdown = "1.10.0 - 1"
-Mooncake = "0.4.52 - 0.4"
 PreallocationTools = "0.4.4 - 0.4"
 QuadGK = "2.9.1 - 2"
 Random = "1.10.0 - 1"
@@ -356,8 +356,16 @@ Tracker = "0.2.30 - 0.2"
 Zygote = "0.6.67 - 0.7"
 julia = "1.10.0 - 1"
 
+["7.87 - 7.88"]
+Enzyme = "0.13.50 - 0.13"
+Mooncake = "0.4.52 - 0.4"
+
 ["7.88 - 7"]
 SciMLBase = "2.103.1 - 2"
+
+["7.89 - 7"]
+DiffEqCallbacks = "4.8.0 - 4"
+Enzyme = "0.13.62 - 0.13"
 
 ["7.9 - 7.86"]
 PreallocationTools = "0.4.4-0.4"
