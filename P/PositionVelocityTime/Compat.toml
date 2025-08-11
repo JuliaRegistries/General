@@ -1,8 +1,10 @@
 [0]
 CoordinateTransformations = "0.6"
 Geodesy = ["0.5", "1"]
-Parameters = "0.11-0.12"
 Unitful = "1"
+
+["0 - 0.2.0"]
+Parameters = "0.11-0.12"
 
 ["0.0"]
 DocStringExtensions = "0.6-0.8"
@@ -13,15 +15,24 @@ julia = "1.4.0-1"
 ["0.1"]
 GNSSDecoder = "0.1"
 
-["0.1-0"]
+["0.1 - 0"]
 AstroTime = "0.7"
+StaticArrays = "1"
+Tracking = "0.15"
+
+["0.1 - 0.2.0"]
 DocStringExtensions = "0.6-0.9"
 GNSSSignals = "0.16"
 LsqFit = "0.12-0.13"
-StaticArrays = "1"
-Tracking = "0.15"
 julia = "1.6.0-1"
 
-["0.2-0"]
+["0.2.0"]
 GNSSDecoder = "0.1.1-0.1"
 Statistics = "1.6.0-1"
+
+["0.2.1 - 0"]
+DocStringExtensions = "0.6 - 0.9"
+GNSSDecoder = "0.1.2 - 0.1"
+GNSSSignals = "0.17"
+LsqFit = "0.12 - 0.15"
+julia = "1.6.0 - 1"
