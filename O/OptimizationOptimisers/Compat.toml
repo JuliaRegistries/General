@@ -1,6 +1,5 @@
 [0]
 ProgressLogging = "0.1"
-julia = "1"
 
 ["0 - 0.1.0"]
 Optimization = "3"
@@ -10,6 +9,9 @@ Optimisers = "0.2"
 
 ["0 - 0.3.7"]
 Reexport = "1.2.0-1"
+
+["0 - 0.3.8"]
+julia = "1"
 
 ["0.1.1 - 0.1.2"]
 Optimization = "3.9.0-3"
@@ -23,7 +25,7 @@ Optimisers = "0.2-0.3"
 ["0.2"]
 Optimization = "3.21.0-3"
 
-["0.3 - 0"]
+["0.3 - 0.3.8"]
 Optimization = "4"
 
 ["0.3.0"]
@@ -35,3 +37,7 @@ Optimisers = "0.2-0.4"
 ["0.3.8 - 0"]
 Optimisers = "0.2 - 0.4"
 Reexport = "1.2.0 - 1"
+
+["0.3.9 - 0"]
+Optimization = "4.4.0 - 4"
+julia = "1.10.0 - 1"
