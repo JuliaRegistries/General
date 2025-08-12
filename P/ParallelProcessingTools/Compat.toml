@@ -1,31 +1,40 @@
-["0-0.1"]
+["0 - 0.1"]
 julia = ["0.7", "1"]
 
-["0.2-0.4.3"]
+["0.2 - 0.4.3"]
 julia = "1"
 
-["0.4.4-0"]
-ArgCheck = "1-2"
+["0.4.4 - 0"]
 Distributed = "1"
 LinearAlgebra = "1"
 Logging = "1"
-Parameters = "0.12-0.13"
 Pkg = "1"
 Sockets = "1"
 
-["0.4.4-0.4.5"]
+["0.4.4 - 0.4.5"]
 ThreadPinning = "0.7.22-0.7"
 julia = "1.6.0-1"
 
-["0.4.4-0.4.6"]
+["0.4.4 - 0.4.6"]
 ClusterManagers = "0.4.6-0.4"
 
-["0.4.6-0"]
+["0.4.4 - 0.4.8"]
+ArgCheck = "1-2"
+Parameters = "0.12-0.13"
+
+["0.4.6 - 0"]
 Random = "1"
+
+["0.4.6 - 0.4.8"]
 julia = "1.10.0-1"
 
 ["0.4.7"]
 ClusterManagers = ["0.4.6-0.4", "1"]
 
-["0.4.8-0"]
+["0.4.8 - 0"]
 ElasticClusterManager = "2"
+
+["0.4.9 - 0"]
+ArgCheck = "1 - 2"
+Parameters = "0.12 - 0.13"
+julia = "1.10.0 - 1"
