@@ -68,7 +68,6 @@ DiffEqBase = "6.176.0 - 6"
 DifferentiationInterface = "0.7"
 FastBroadcast = "0.3"
 FiniteDiff = "2.27.0 - 2"
-ForwardDiff = "0.10.38 - 0.10"
 LinearAlgebra = "1.10.0 - 1"
 LinearSolve = "3.26.0 - 3"
 MacroTools = "0.5"
@@ -81,9 +80,15 @@ Reexport = "1.2.0 - 1"
 SciMLBase = "2.99.0 - 2"
 Static = "1.2.0 - 1"
 
+["1.15 - 1.16.0"]
+ForwardDiff = "0.10.38 - 0.10"
+
 ["1.16 - 1"]
 OrdinaryDiffEqCore = "1.29.0 - 1"
 OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
+
+["1.16.1 - 1"]
+ForwardDiff = ["0.10.38 - 0.10", "1"]
 
 ["1.4 - 1.11"]
 ADTypes = "1.11.0-1"
