@@ -1,6 +1,5 @@
 [0]
 AbstractMCMC = "5"
-BenchmarkTools = "1.6.0-1"
 CSV = "0.10"
 DataFrames = "1"
 Distributions = "0.25"
@@ -10,12 +9,23 @@ Interpolations = "0.15"
 KrylovKit = "0.9"
 LaTeXStrings = "1"
 MCMCChains = "6"
-MolecularEvolution = "0.2.3-0.2"
 NLopt = "1"
 NNlib = "0.9"
-PDMats = "0.11.32-0.11"
 ParameterHandling = "0.5"
 SimpleUnPack = "1"
 StatsBase = "0.34"
+
+["0 - 0.1"]
+BenchmarkTools = "1.6.0-1"
+MolecularEvolution = "0.2.3-0.2"
+PDMats = "0.11.32-0.11"
 Suppressor = "0.2.8-0.2"
 julia = "1.10.0-1"
+
+["0.2 - 0"]
+BenchmarkTools = "1.6.0 - 1"
+JSON = "0.21.4 - 0.21"
+MolecularEvolution = "0.2.3 - 0.2"
+PDMats = "0.11.32 - 0.11"
+Suppressor = "0.2.8 - 0.2"
+julia = "1.10.0 - 1"
