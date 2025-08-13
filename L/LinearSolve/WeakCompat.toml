@@ -29,7 +29,7 @@ Metal = "0.5"
 ["2.20.1 - 2.30.1"]
 Pardiso = "0.5"
 
-["2.20.1 - 3"]
+["2.20.1 - 3.28"]
 CUDA = "5"
 FastAlmostBandedMatrices = "0.1"
 
@@ -62,7 +62,7 @@ BandedMatrices = "1.5.0-1"
 ["2.23.4 - 2.29"]
 Enzyme = "0.11.15-0.11"
 
-["2.27 - 3"]
+["2.27 - 3.28"]
 Metal = "1"
 
 ["2.29 - 2.30.0"]
@@ -100,12 +100,12 @@ BlockDiagonals = "0.1"
 ["2.6 - 2.22"]
 KernelAbstractions = "0.9"
 
-[3]
-FastLapackInterface = "2"
-
 ["3 - 3.18.0"]
 RecursiveFactorization = "0.2.14-0.2"
 Sparspak = "0.3.6-0.3"
+
+["3 - 3.28"]
+FastLapackInterface = "2"
 
 ["3.0"]
 RecursiveArrayTools = "3.8.0-3"
@@ -114,16 +114,7 @@ RecursiveArrayTools = "3.8.0-3"
 ForwardDiff = ["0.10.36-0.10", "1"]
 
 ["3.18.1 - 3"]
-BandedMatrices = "1.5.0 - 1"
-EnzymeCore = "0.8.1 - 0.8"
-ForwardDiff = ["0.10.36 - 0.10", "1"]
-HYPRE = "1.4.0 - 1"
-IterativeSolvers = "0.9.3 - 0.9"
-KernelAbstractions = "0.9.27 - 0.9"
-Pardiso = ["0.5.7 - 0.5", "1"]
-RecursiveFactorization = "0.2.14 - 0.2"
 SparseArrays = "1.10.0 - 1"
-Sparspak = "0.3.6 - 0.3"
 
 ["3.18.1 - 3.18"]
 CUDSS = "0.1 - 0.4"
@@ -133,6 +124,17 @@ KrylovKit = "0.8 - 0.9"
 
 ["3.18.1 - 3.26"]
 BlockDiagonals = "0.1.42 - 0.2"
+
+["3.18.1 - 3.28"]
+BandedMatrices = "1.5.0 - 1"
+EnzymeCore = "0.8.1 - 0.8"
+ForwardDiff = ["0.10.36 - 0.10", "1"]
+HYPRE = "1.4.0 - 1"
+IterativeSolvers = "0.9.3 - 0.9"
+KernelAbstractions = "0.9.27 - 0.9"
+Pardiso = ["0.5.7 - 0.5", "1"]
+RecursiveFactorization = "0.2.14 - 0.2"
+Sparspak = "0.3.6 - 0.3"
 
 ["3.19 - 3.23"]
 CUDSS = "0.1 - 0.5"
@@ -153,8 +155,25 @@ BlockDiagonals = "0.2"
 CUDSS = "0.4"
 KrylovKit = "0.10"
 
-["3.28 - 3"]
+["3.28"]
 AMDGPU = "1"
+
+["3.29 - 3"]
+AMDGPU = "1.2.0 - 2"
+BandedMatrices = "1.8.0 - 1"
+CUDA = "5.5.0 - 5"
+CliqueTrees = "1.11.0 - 1"
+EnzymeCore = "0.8.5 - 0.8"
+FastAlmostBandedMatrices = "0.1.4 - 0.1"
+FastLapackInterface = "2.0.4 - 2"
+ForwardDiff = "0.10.38 - 0.10"
+HYPRE = "1.7.0 - 1"
+IterativeSolvers = "0.9.4 - 0.9"
+KernelAbstractions = "0.9.30 - 0.9"
+Metal = "1.4.0 - 1"
+Pardiso = "1"
+RecursiveFactorization = "0.2.23 - 0.2"
+Sparspak = "0.3.9 - 0.3"
 
 ["3.4 - 3.18.0"]
 SparseArrays = "1.10.0-1"
