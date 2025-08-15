@@ -41,11 +41,13 @@ DataInterpolations = ["3-6", "8"]
 DataInterpolations = "8"
 DynamicQuantities = "1"
 Interpolations = "0.16"
-ModelingToolkit = "9.79.1"
 NCDatasets = "0.14"
 
 ["0.12.7 - 0.12"]
 EarthSciMLBase = "0.22.1-0.22"
+
+["0.12.7 - 0.13"]
+ModelingToolkit = "9.79.1"
 
 ["0.12.7 - 0.13.1"]
 DiffEqCallbacks = "4.3.0-4"
@@ -56,7 +58,7 @@ SciMLBase = "2.90.0-2"
 Symbolics = "6.37.1-6"
 julia = "1.10.0-1"
 
-["0.13 - 0"]
+["0.13"]
 EarthSciMLBase = "0.23"
 
 ["0.13.2 - 0"]
@@ -67,6 +69,10 @@ Proj = "1.8.0 - 1"
 SciMLBase = "2.90.0 - 2"
 Symbolics = "6.37.1 - 6"
 julia = "1.10.0 - 1"
+
+["0.14 - 0"]
+EarthSciMLBase = "0.24"
+ModelingToolkit = "10.10.0 - 10"
 
 ["0.2.0"]
 Latexify = "0.16"
