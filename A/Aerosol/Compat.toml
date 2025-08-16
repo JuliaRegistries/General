@@ -1,4 +1,15 @@
 [0]
+julia = "1"
+
+["0 - 0.1"]
+Catalyst = "13"
+ModelingToolkit = "8"
+Unitful = "1"
+
+["0 - 0.1.0"]
+EarthSciMLBase = "0.6"
+
+["0 - 0.2"]
 DiffEqBase = "6"
 DifferentialEquations = "7"
 IfElse = "0.1"
@@ -7,20 +18,11 @@ Plots = "1"
 Reexport = "1"
 SafeTestsets = "0.1"
 StochasticDiffEq = "6"
-julia = "1"
 
-["0-0.1"]
-Catalyst = "13"
-ModelingToolkit = "8"
-Unitful = "1"
-
-["0-0.1.0"]
-EarthSciMLBase = "0.6"
-
-["0.1.1-0.1"]
+["0.1.1 - 0.1"]
 EarthSciMLBase = ["0.6", "0.8"]
 
-["0.2-0"]
+["0.2"]
 Catalyst = "14"
 DynamicQuantities = "1.4.0-1"
 Latexify = "0.16.7-0.16"
@@ -34,5 +36,11 @@ EarthSciMLBase = "0.21"
 ["0.2.1"]
 EarthSciMLBase = "0.21-0.22"
 
-["0.2.2-0"]
+["0.2.2 - 0.2"]
 EarthSciMLBase = "0.21-0.23"
+
+["0.3 - 0"]
+DynamicQuantities = "1.4.0 - 1"
+EarthSciMLBase = "0.24"
+ModelingToolkit = "10.10.0 - 10"
+Reexport = "1.2.0 - 1"
