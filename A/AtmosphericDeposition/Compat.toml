@@ -1,12 +1,14 @@
 [0]
-DifferentialEquations = "7"
 StaticArrays = "1"
 julia = "1"
 
-["0-0.2.0"]
+["0 - 0.2"]
+DifferentialEquations = "7"
+
+["0 - 0.2.0"]
 EarthSciMLBase = "0.6"
 
-["0-0.2.1"]
+["0 - 0.2.1"]
 IfElse = "0.1"
 ModelingToolkit = "8"
 SafeTestsets = "0.1"
@@ -18,25 +20,32 @@ EarthSciMLBase = ["0.6", "0.8"]
 ["0.2.2"]
 EarthSciMLBase = "0.20"
 
-["0.2.2-0"]
+["0.2.2 - 0"]
 DynamicQuantities = "1"
+
+["0.2.2 - 0.2"]
 ModelingToolkit = "9"
 SymbolicUtils = "3"
 
-["0.2.2-0.2.4"]
+["0.2.2 - 0.2.4"]
 DataInterpolations = "6"
 
-["0.2.3-0.2.4"]
+["0.2.3 - 0.2.4"]
 EarthSciMLBase = "0.20-0.21"
 
 ["0.2.5"]
 EarthSciMLBase = "0.21.4-0.21"
 
-["0.2.5-0"]
+["0.2.5 - 0.2"]
 DataInterpolations = "6-8"
 
 ["0.2.6"]
 EarthSciMLBase = "0.21.4-0.22"
 
-["0.2.7-0"]
+["0.2.7 - 0.2"]
 EarthSciMLBase = "0.21.4-0.23"
+
+["0.3 - 0"]
+DataInterpolations = "6 - 8"
+EarthSciMLBase = "0.24"
+ModelingToolkit = "10"
