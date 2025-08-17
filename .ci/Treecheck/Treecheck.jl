@@ -57,7 +57,7 @@ function generate_ci_matrix(registrytoml::RegistryToml)
             package_name = v["name"]
             package_relpath = v["path"]
             package = Package(package_name, package_uuid_str)
-            if startswith(element, package_relpath)
+            if element == package_relpath*"/Package.toml"
                 @info "" package element package_relpath
                 push!(package_list, package)
             end
@@ -84,7 +84,12 @@ function generate_ci_matrix(registrytoml::RegistryToml)
         push!(dict["include"], matrix_entry)
     end
 
-    json_str = JSON3.write(dict)
+    # Necessary to avoid erroring on empty matrix:
+    if isempty(dict["include"])
+        json_str = ""
+    else
+        json_str = JSON3.write(dict)
+    end
 
     println(Base.stderr, json_str)
 

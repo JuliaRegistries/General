@@ -53,6 +53,8 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
   treecheck:
     runs-on: ubuntu-latest
+    # Don't error on empty matrix:
+    if: ${{ needs.generate-matrix-treecheck.outputs.matrix != '[]' && needs.generate-matrix-treecheck.outputs.matrix != '' }}
     needs:
       - generate-matrix-treecheck
     timeout-minutes: 30
