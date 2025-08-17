@@ -1,6 +1,5 @@
 [4]
 Combinatorics = "1"
-DSP = "0.7"
 Distances = "0.10"
 Distributions = "0.25"
 HypothesisTests = "0.11"
@@ -17,6 +16,9 @@ RecurrenceAnalysis = "2"
 StateSpaceSets = "1.5.0-1"
 TimeseriesSurrogates = "2.6.0-2"
 julia = "1.10.0-1"
+
+["4 - 4.4"]
+DSP = "0.7"
 
 ["4 - 4.4.1"]
 Accessors = "0.1.28-0.1"
@@ -38,7 +40,7 @@ StateSpaceSets = "2.1.0-2"
 TimeseriesSurrogates = "2.7.0-2"
 julia = "1.10.6-1"
 
-["4.4.1 - 4"]
+["4.4.1 - 4.4"]
 ComplexityMeasures = "3.7"
 
 ["4.4.2 - 4"]
@@ -50,4 +52,11 @@ ProgressMeter = "1.10.0 - 1"
 RecurrenceAnalysis = "2.1.0 - 2"
 StateSpaceSets = "2.4.0 - 2"
 TimeseriesSurrogates = "2.7.0 - 2"
+
+["4.4.2 - 4.4"]
 julia = "1.10.6 - 1"
+
+["4.5 - 4"]
+ComplexityMeasures = "3.8.0 - 3"
+DSP = "0.7 - 0.8"
+julia = "1.10.10 - 1"
