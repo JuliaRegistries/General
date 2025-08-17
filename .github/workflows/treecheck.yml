@@ -2,6 +2,8 @@ name: Treecheck
 
 on:
   pull_request:
+    paths:
+      - '**/Package.toml'
 
 env:
     JULIA_PKG_USE_CLI_GIT: true
