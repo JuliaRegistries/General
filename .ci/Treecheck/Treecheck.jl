@@ -57,7 +57,7 @@ function generate_ci_matrix(registrytoml::RegistryToml)
             package_name = v["name"]
             package_relpath = v["path"]
             package = Package(package_name, package_uuid_str)
-            if startswith(element, package_relpath)
+            if element == package_relpath*"/Package.toml"
                 @info "" package element package_relpath
                 push!(package_list, package)
             end
