@@ -1,8 +1,15 @@
-[9]
-JLLWrappers = "1.2.0-1"
-
 ["9-9.53"]
 julia = "1"
 
+["9-9.55.0"]
+JLLWrappers = "1.2.0-1"
+
 ["9.55-9"]
 julia = "1.6.0-1"
+
+["9.55.1-9"]
+Artifacts = ["0.0.0", "1"]
+JLLWrappers = "1.7.0-1"
+JpegTurbo_jll = "3.0.4-3"
+Libdl = ["0.0.0", "1"]
+Zlib_jll = "1.2.12-1"
