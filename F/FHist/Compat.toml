@@ -1,8 +1,8 @@
-[0]
-RecipesBase = "1"
-
 ["0 - 0.10.1"]
 StatsBase = "0.33"
+
+["0 - 0.11.15"]
+RecipesBase = "1"
 
 ["0 - 0.3"]
 UnicodePlots = "1.3.0-1"
@@ -33,8 +33,10 @@ julia = "1.7.0 - 1"
 ["0.11.13 - 0"]
 BayesHistogram = "1.0.7 - 1"
 Measurements = "2.7.0 - 2"
-Requires = "1.3.0 - 1"
 StatsBase = "0.33 - 0.34"
+
+["0.11.13 - 0.11.15"]
+Requires = "1.3.0 - 1"
 
 ["0.11.14 - 0"]
 julia = "1.10.0 - 1"
