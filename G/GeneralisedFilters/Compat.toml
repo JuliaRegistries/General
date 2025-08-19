@@ -4,7 +4,6 @@ CUDA = "5"
 Distributions = "0.25"
 LogExpFunctions = "0.3"
 NNlib = "0.9"
-SSMProblems = "0.5"
 
 ["0 - 0.2"]
 AcceleratedKernels = "0.3"
@@ -16,11 +15,21 @@ Statistics = "1.11.1-1"
 StatsBase = "0.34.3-0.34"
 julia = "1.10.0-1"
 
+["0 - 0.3.0"]
+SSMProblems = "0.5"
+
 ["0.3 - 0"]
 AcceleratedKernels = "0.3 - 0.4"
 DataStructures = "0.18.20 - 0.19"
 OffsetArrays = "1.14.1 - 1"
-StaticArrays = "1.9.13 - 1"
 Statistics = "1.11.1 - 1"
 StatsBase = "0.34.3 - 0.34"
 julia = "1.10.0 - 1"
+
+["0.3.0"]
+StaticArrays = "1.9.13 - 1"
+
+["0.3.1 - 0"]
+PDMats = "0.11.35 - 0.11"
+SSMProblems = "0.6"
+StaticArrays = "1.9.14 - 1"
