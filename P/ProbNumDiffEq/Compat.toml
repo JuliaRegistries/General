@@ -1,158 +1,192 @@
 [0]
 RecipesBase = "1"
 
-["0-0.1.1"]
+["0 - 0.1.1"]
 StructArrays = "0.4"
 
-["0-0.1.4"]
+["0 - 0.1.4"]
 TaylorSeries = "0.10"
 
-["0-0.1.7"]
+["0 - 0.1.7"]
 ModelingToolkit = "3-5"
 
-["0-0.13.0"]
+["0 - 0.13.0"]
 RecursiveArrayTools = "2"
 
-["0-0.15"]
+["0 - 0.15"]
 GaussianDistributions = "0.5"
 
-["0-0.5.0"]
+["0 - 0.5.0"]
 OrdinaryDiffEq = "5"
 Statistics = "1"
 julia = "1"
 
-["0-0.6.2"]
+["0 - 0.6.2"]
 StaticArrays = ["0.12", "1"]
 
-["0-0.8.3"]
+["0 - 0.8.3"]
 Reexport = ["0.2", "1"]
 
-["0-0.9"]
+["0 - 0.9"]
 DiffEqBase = "6"
 UnPack = "1"
 
 ["0.1.2"]
 SciMLBase = "1"
 
-["0.1.2-0.1.5"]
+["0.1.2 - 0.1.5"]
 StructArrays = "0.4-0.5"
 
-["0.1.5-0.16.2"]
+["0.1.5 - 0.16.2"]
 ForwardDiff = "0.10"
 
-["0.1.5-0.5.6"]
+["0.1.5 - 0.5.6"]
 TaylorSeries = "0.10-0.11"
 
-["0.1.6-0.16.2"]
+["0.1.6 - 0.16.2"]
 StructArrays = "0.4-0.6"
 
-["0.1.7-0.5.6"]
+["0.1.7 - 0.5.6"]
 Octavian = "0.2-0.3"
 
-["0.1.7-0.7.0"]
+["0.1.7 - 0.7.0"]
 Tullio = "0.3"
 
-["0.1.8-0.4"]
+["0.1.8 - 0.4"]
 ModelingToolkit = "3-6"
 
-["0.10-0"]
-DiffEqBase = "6.122.0-6"
+["0.10 - 0"]
 SimpleUnPack = "1"
-ToeplitzMatrices = "0.7-0.8"
 
-["0.10-0.11.1"]
+["0.10 - 0.11.1"]
 OrdinaryDiffEq = "6.49.1-6"
 
-["0.10-0.12"]
+["0.10 - 0.12"]
 SciMLBase = "1.90.0-1"
 
-["0.10.2-0.11.1"]
+["0.10 - 0.16.3"]
+DiffEqBase = "6.122.0-6"
+ToeplitzMatrices = "0.7-0.8"
+
+["0.10.2 - 0.11.1"]
 TaylorSeries = "0.10-0.14"
 
-["0.11.2-0"]
+["0.11.2 - 0"]
 PrecompileTools = "1"
 
-["0.11.2-0.14"]
+["0.11.2 - 0.14"]
 TaylorSeries = "0.10-0.15"
 
-["0.11.2-0.16.0"]
+["0.11.2 - 0.16.0"]
 OrdinaryDiffEq = "6.52.0-6"
 
 ["0.12"]
 FastGaussQuadrature = "0.5"
 
-["0.12.1-0.12"]
+["0.12.1 - 0.12"]
 TaylorIntegration = ["0.8-0.11", "0.14"]
 
 ["0.13"]
 PSDMatrices = "0.4.6-0.4"
 
-["0.13-0"]
+["0.13 - 0"]
 ArrayAllocators = "0.3"
-Kronecker = "0.5.4-0.5"
 LinearAlgebra = "1"
-SciMLBase = "1.90.0-2"
 Statistics = "1"
 
-["0.13-0.15"]
+["0.13 - 0.15"]
 FastGaussQuadrature = ["0.5", "1"]
 TaylorIntegration = "0.8-0.14"
 
-["0.13.1-0"]
+["0.13 - 0.16.3"]
+Kronecker = "0.5.4-0.5"
+SciMLBase = "1.90.0-2"
+
+["0.13.1 - 0.16.3"]
 RecursiveArrayTools = "2-3"
 
-["0.14-0"]
-FillArrays = "1.9.0-1"
+["0.14 - 0"]
 FiniteHorizonGramians = "0.2"
 MatrixEquations = "2"
 
-["0.14-0.16.0"]
+["0.14 - 0.16.0"]
 PSDMatrices = "0.4.7-0.4"
 julia = "1.9.0-1"
+
+["0.14 - 0.16.3"]
+FillArrays = "1.9.0-1"
 
 ["0.15"]
 DiffEqCallbacks = "2.36.0-2"
 TaylorSeries = "0.10-0.16"
 
-["0.15-0"]
+["0.15 - 0"]
 DocStringExtensions = "0.9"
 Printf = "1"
 
-["0.16-0"]
-FastBroadcast = "0.2-0.3"
+["0.16 - 0"]
 Random = "1"
 
-["0.16-0.16.2"]
+["0.16 - 0.16.2"]
 DiffEqCallbacks = "2.36.0-3"
+
+["0.16 - 0.16.3"]
+FastBroadcast = "0.2-0.3"
 
 ["0.16.0"]
 TaylorIntegration = "0.8-0.15"
 TaylorSeries = "0.10-0.17"
 
-["0.16.1-0"]
+["0.16.1 - 0"]
+PSDMatrices = "0.5"
+
+["0.16.1 - 0.16.2"]
+TaylorIntegration = "0.8-0.16"
+TaylorSeries = "0.10-0.18"
+
+["0.16.1 - 0.16.3"]
 OrdinaryDiffEqCore = "1.3.0-1"
 OrdinaryDiffEqDifferentiation = "1.1.0-1"
 OrdinaryDiffEqRosenbrock = "1.1.0-1"
 OrdinaryDiffEqVerner = "1.1.0-1"
-PSDMatrices = "0.5"
 julia = "1.10.0-1"
 
-["0.16.1-0.16.2"]
-TaylorIntegration = "0.8-0.16"
-TaylorSeries = "0.10-0.18"
-
-["0.16.3-0"]
+["0.16.3"]
 ADTypes = "1.14.0-1"
 DiffEqCallbacks = "3-4"
-ForwardDiff = ["0.10", "1"]
 StructArrays = "0.4-0.7"
 TaylorIntegration = "0.8-0.17"
 TaylorSeries = "0.10-0.19"
 
-["0.2-0.6"]
+["0.16.3 - 0"]
+ForwardDiff = ["0.10", "1"]
+
+["0.16.4 - 0"]
+ADTypes = "1.14.0 - 1"
+DiffEqBase = "6.122.0 - 6"
+DiffEqCallbacks = "3 - 4"
+FastBroadcast = "0.2 - 0.3"
+FillArrays = "1.9.0 - 1"
+FunctionWrappersWrappers = "0.1.3 - 0.1"
+Kronecker = "0.5.4 - 0.5"
+Octavian = "0.3.17 - 0.3"
+OrdinaryDiffEqCore = "1.3.0 - 1"
+OrdinaryDiffEqDifferentiation = "1.1.0 - 1"
+OrdinaryDiffEqRosenbrock = "1.1.0 - 1"
+OrdinaryDiffEqVerner = "1.1.0 - 1"
+RecursiveArrayTools = "2 - 3"
+SciMLBase = "1.90.0 - 2"
+StaticArrayInterface = "1.3.0 - 1"
+StructArrays = "0.4 - 0.7"
+TaylorIntegration = "0.8 - 0.17"
+TaylorSeries = "0.10 - 0.20"
+ToeplitzMatrices = "0.7 - 0.8"
+julia = "1.10.0 - 1"
+
+["0.2 - 0.6"]
 TaylorIntegration = "0.8"
 
-["0.2.4-0.15"]
+["0.2.4 - 0.15"]
 DiffEqDevTools = "2"
 
 ["0.5.0"]
@@ -161,52 +195,52 @@ ModelingToolkit = "3-7"
 ["0.5.1"]
 OrdinaryDiffEq = "5-6"
 
-["0.5.1-0.12"]
+["0.5.1 - 0.12"]
 Statistics = "1.6.0-1"
 
-["0.5.1-0.13"]
+["0.5.1 - 0.13"]
 julia = "1.6.0-1"
 
-["0.5.1-0.5.4"]
+["0.5.1 - 0.5.4"]
 ModelingToolkit = "3-8"
 
-["0.5.2-0.5.6"]
+["0.5.2 - 0.5.6"]
 OrdinaryDiffEq = "5"
 
 ["0.5.7"]
 OrdinaryDiffEq = "5-5.69"
 
-["0.5.7-0.9.0"]
+["0.5.7 - 0.9.0"]
 TaylorSeries = "0.10-0.12"
 
-["0.5.8-0.5"]
+["0.5.8 - 0.5"]
 OrdinaryDiffEq = "5-5.70"
 
 ["0.6.0"]
 OrdinaryDiffEq = "5.71-6.5"
 
-["0.6.1-0.6.4"]
+["0.6.1 - 0.6.4"]
 OrdinaryDiffEq = "6.2-6.7"
 
-["0.6.5-0.6"]
+["0.6.5 - 0.6"]
 OrdinaryDiffEq = "6.2-6.8"
 
-["0.7-0.12"]
+["0.7 - 0.12"]
 PSDMatrices = "0.4.2-0.4"
 
-["0.7-0.7.1"]
+["0.7 - 0.7.1"]
 OrdinaryDiffEq = "6.2-6.10"
 
-["0.7-0.8"]
+["0.7 - 0.8"]
 TaylorIntegration = "0.8-0.9"
 
-["0.7-0.8.5"]
+["0.7 - 0.8.5"]
 Octavian = "0.3"
 
-["0.7.2-0.7"]
+["0.7.2 - 0.7"]
 OrdinaryDiffEq = "6.2-6.14"
 
-["0.7.2-0.9"]
+["0.7.2 - 0.9"]
 SciMLBase = "1.34.0-1"
 
 ["0.8.0"]
@@ -218,40 +252,40 @@ OrdinaryDiffEq = "6.2-6.20"
 ["0.8.2"]
 OrdinaryDiffEq = "6.2-6.21"
 
-["0.8.2-0.11.1"]
+["0.8.2 - 0.11.1"]
 SnoopPrecompile = "1"
 
 ["0.8.3"]
 OrdinaryDiffEq = "6.2-6.23"
 
-["0.8.4-0"]
+["0.8.4 - 0"]
 Reexport = "1"
 
-["0.8.4-0.9"]
+["0.8.4 - 0.9"]
 OrdinaryDiffEq = "6.2.0-6"
 
-["0.8.6-0"]
+["0.8.6 - 0.16.3"]
 Octavian = "0.3.17-0.3"
 
 ["0.9"]
 ToeplitzMatrices = "0.7"
 
-["0.9-0.15"]
+["0.9 - 0.15"]
 ExponentialUtilities = "1"
 SpecialMatrices = "3"
 
 ["0.9.0"]
 TaylorIntegration = "0.8-0.10"
 
-["0.9.1-0.10.1"]
+["0.9.1 - 0.10.1"]
 TaylorSeries = "0.10-0.13"
 
-["0.9.1-0.12.0"]
+["0.9.1 - 0.12.0"]
 TaylorIntegration = "0.8-0.11"
 
-["0.9.2-0.15"]
+["0.9.2 - 0.15"]
 FastBroadcast = "0.2"
 
-["0.9.3-0"]
+["0.9.3 - 0.16.3"]
 FunctionWrappersWrappers = "0.1.3-0.1"
 StaticArrayInterface = "1.3.0-1"
