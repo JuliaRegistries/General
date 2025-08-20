@@ -2,9 +2,15 @@
 FilterHelpers = "0.2"
 ForwardDiff = "0.10.38 - 0.10"
 LinearAlgebra = "1.9.0 - 1"
-ModelingToolkit = "9"
 SciMLBase = "2.107.0 - 2"
 julia = "1.9.0 - 1"
 
+["0 - 0.4"]
+ModelingToolkit = "9"
+
 ["0.3 - 0"]
 PrettyTables = "2.4.0 - 2"
+
+["0.5 - 0"]
+ModelingToolkit = "10"
+Symbolics = "6.51.0 - 6"
