@@ -1,5 +1,4 @@
 ["0.2.14 - 0"]
-AbstractFFTs = ["0.5", "1"]
 ChainRulesCore = "1"
 CovarianceEstimation = "0.2"
 InvertedIndices = "1"
@@ -9,7 +8,19 @@ LazyStack = "0.0.7-0.0.8"
 OffsetArrays = ["0.10-0.11", "1"]
 StatsBase = "0.32-0.34"
 
-["0.2.16 - 0"]
-LazyStack = "0.0.7 - 0.0.8"
+["0.2.14 - 0.2.16"]
+AbstractFFTs = ["0.5", "1"]
+
+["0.2.16"]
 OffsetArrays = ["0.10 - 0.11", "1"]
 StatsBase = "0.32 - 0.34"
+
+["0.2.16 - 0"]
+LazyStack = "0.0.7 - 0.0.8"
+
+["0.2.17 - 0"]
+AbstractFFTs = "1"
+Interpolations = "0.15"
+OffsetArrays = "1"
+Statistics = "1"
+StatsBase = "0.34"
