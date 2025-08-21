@@ -1,7 +1,13 @@
 [0]
-CxxWrap = "0.17"
 GLMakie = "0.13"
 ModernGL = "1"
 Observables = "0.5"
-QML = "0.10.1 - 0.10"
 julia = "1.10.0 - 1"
+
+["0 - 0.2"]
+CxxWrap = "0.17"
+QML = "0.10.1 - 0.10"
+
+["0.3 - 0"]
+CxxWrap = "0.17.3 - 0.17"
+QML = "0.11"
