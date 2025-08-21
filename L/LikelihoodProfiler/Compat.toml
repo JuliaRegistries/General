@@ -1,23 +1,23 @@
-["0-0.2"]
+["0 - 0.2"]
 NLopt = "0.0.0-0.6"
 Parameters = "0.0.0-0.12"
 RecipesBase = "0.0.0-0.8"
 julia = ["0.7", "1"]
 
-["0.3-0.4"]
+["0.3 - 0"]
+RecipesBase = "1.1.0-1"
+
+["0.3 - 0.4"]
 julia = "1.2.0-1"
 
-["0.3-0.5.0"]
+["0.3 - 0.5.0"]
 NLopt = "0.6"
 PlotUtils = "1.0.7-1"
 
-["0.3-1"]
-RecipesBase = "1.1.0-1"
-
-["0.4-0.5.0"]
+["0.4 - 0.5.0"]
 ForwardDiff = "0.9-0.10"
 
-["0.5-0"]
+["0.5 - 0"]
 Calculus = "0.5.1-0.5"
 
 ["0.5.0"]
@@ -27,23 +27,26 @@ julia = "1.6.0-1"
 ["0.5.1"]
 NLopt = ["0.6", "1.0.0-1.0.1", "1.0.3-1"]
 
-["0.5.1-0"]
+["0.5.1 - 0"]
 ForwardDiff = "0.10"
 PlotUtils = "1.4.0-1"
 ProgressMeter = "1.10.0-1"
 julia = "1.7.0-1"
 
-["0.5.2-0"]
+["0.5.2 - 0"]
 NLopt = "1.0.3-1"
 NLopt_jll = "2.8.0"
 
 [1]
-DataFrames = "1.7.0-1"
 Distributions = "0.25"
-OptimizationBase = "2.4.0-2"
 PreallocationTools = "0.4"
-Reexport = "1.2.2-1"
 SciMLBase = "2"
+
+["1.0"]
+DataFrames = "1.7.0-1"
+OptimizationBase = "2.4.0-2"
+RecipesBase = "1.1.0-1"
+Reexport = "1.2.2-1"
 julia = "1.10.0-1"
 
 ["1.0.0"]
@@ -52,8 +55,19 @@ DataInterpolations = "6.5.2-6"
 ["1.0.1"]
 LiveServer = "1.4.0-1"
 
-["1.0.1-1"]
+["1.0.1 - 1.0"]
 DataInterpolations = "6.5.2-7"
 
-["1.0.2-1"]
+["1.0.2 - 1.0"]
 Distributed = "1.10.0-1"
+
+["1.1 - 1"]
+CommonSolve = "0.2.4 - 0.2"
+DataFrames = "1.7.0 - 1"
+DataInterpolations = "6.5.2 - 7"
+Distributed = "1.10.0 - 1"
+LineSearch = "0.1.4 - 0.1"
+OptimizationBase = "2.4.0 - 2"
+RecipesBase = "1.1.0 - 1"
+Reexport = "1.2.2 - 1"
+julia = "1.10.0 - 1"
