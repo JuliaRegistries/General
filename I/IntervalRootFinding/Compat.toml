@@ -1,60 +1,69 @@
-["0-0.4"]
+["0 - 0.4"]
 ForwardDiff = "0.8.0-0.10"
 Polynomials = "0.0.0-0.5"
 StaticArrays = "0.8.0-0.11"
 julia = ["0.7", "1"]
 
-["0-0.5.0"]
+["0 - 0.5.0"]
 IntervalArithmetic = "0.15"
 
-["0.5-0"]
-ForwardDiff = "0.10"
+["0.5 - 0"]
 julia = "1"
 
-["0.5-0.5.1"]
+["0.5 - 0.5.1"]
 Polynomials = "0.5"
 StaticArrays = "0.11"
 
-["0.5.1-0.5.2"]
+["0.5 - 0.6.0"]
+ForwardDiff = "0.10"
+
+["0.5.1 - 0.5.2"]
 IntervalArithmetic = "0.15-0.16"
 
-["0.5.10-0.5"]
+["0.5.10 - 0.5"]
 IntervalArithmetic = "0.15-0.20"
 
-["0.5.11-0.5"]
+["0.5.11 - 0.5"]
 Polynomials = ["0.5-0.8", "1-3"]
 
 ["0.5.2"]
 Polynomials = "0.5-0.6"
 
-["0.5.2-0.5.4"]
+["0.5.2 - 0.5.4"]
 StaticArrays = "0.11-0.12"
 
 ["0.5.3"]
 Polynomials = "0.5-0.7"
 
-["0.5.3-0.5.6"]
+["0.5.3 - 0.5.6"]
 IntervalArithmetic = "0.15-0.17"
 
-["0.5.4-0.5.5"]
+["0.5.4 - 0.5.5"]
 Polynomials = ["0.5-0.8", "1"]
 
-["0.5.5-0.5"]
+["0.5.5 - 0.5"]
 StaticArrays = ["0.11-0.12", "1"]
 
-["0.5.6-0.5.10"]
+["0.5.6 - 0.5.10"]
 Polynomials = ["0.5-0.8", "1-2"]
 
-["0.5.7-0.5.8"]
+["0.5.7 - 0.5.8"]
 IntervalArithmetic = "0.15-0.18"
 
-["0.5.8-0"]
+["0.5.8 - 0"]
 Reexport = "1"
 
 ["0.5.9"]
 IntervalArithmetic = "0.15-0.19"
 
-["0.6-0"]
+["0.6 - 0"]
+StaticArrays = "1"
+
+["0.6.0"]
 BranchAndPrune = "0.2.1-0.2"
 IntervalArithmetic = "0.22.13-0.22"
-StaticArrays = "1"
+
+["0.6.1 - 0"]
+BranchAndPrune = "0.2.1 - 0.2"
+ForwardDiff = ["0.10", "1"]
+IntervalArithmetic = "0.22.13 - 0.23"
