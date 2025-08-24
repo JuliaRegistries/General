@@ -1,11 +1,11 @@
-["0-0.1"]
+["0 - 0.1"]
 OrdinaryDiffEq = "6.9.0-6"
 UnderwaterAcoustics = "0.2"
 
-["0-0.2.0"]
+["0 - 0.2.0"]
 Optim = "1.6.0-1"
 
-["0-0.2.1"]
+["0 - 0.2.1"]
 ForwardDiff = "0.10"
 julia = "1.6.0-1"
 
@@ -19,16 +19,25 @@ OrdinaryDiffEq = "6.9-6.49"
 Optim = "1.6-1.9"
 OrdinaryDiffEq = "6.9-6.70"
 
-["0.2.2-0"]
+["0.2.2 - 0"]
 ForwardDiff = ["0.10", "1"]
-julia = "1.10.0-1"
 
-["0.2.2-0.2"]
+["0.2.2 - 0.2"]
 Optim = "1"
 OrdinaryDiffEq = "6.93.0-6"
 
-["0.3-0"]
+["0.2.2 - 0.3.0"]
+julia = "1.10.0-1"
+
+["0.3 - 0"]
 LinearAlgebra = "1"
-NonlinearSolve = "4.8.0-4"
 OrdinaryDiffEq = "6"
+
+["0.3.0"]
+NonlinearSolve = "4.8.0-4"
 UnderwaterAcoustics = "0.4"
+
+["0.3.1 - 0"]
+NonlinearSolve = "4.8.0 - 4"
+UnderwaterAcoustics = "0.4 - 0.5"
+julia = "1.10.0 - 1"
