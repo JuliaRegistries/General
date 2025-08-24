@@ -1,31 +1,40 @@
 [0]
 Distributions = "0.25"
-GeometryBasics = "0.4"
 StaticArrays = "1"
 julia = "1"
 
-["0-0.1"]
+["0 - 0.1"]
 Agents = "5"
 AxisArrays = "0.4"
 DSP = "0.7"
 OffsetArrays = "1"
 Rotations = "1"
 
-["0-0.3"]
+["0 - 0.3"]
 CellListMap = "0.8"
 
-["0.2-0"]
+["0 - 0.5.2"]
+GeometryBasics = "0.4"
+
+["0.2 - 0"]
 Agents = "6"
 Autocorrelations = "0.1"
 DataFrames = "1"
-MeanSquaredDisplacement = "0.2"
 Quaternions = "0.7"
 
-["0.4-0"]
+["0.2 - 0.5.2"]
+MeanSquaredDisplacement = "0.2"
+
+["0.4 - 0"]
 StatsBase = "0.34"
 
-["0.4-0.4.1"]
+["0.4 - 0.4.1"]
 MixedStructTypes = "0.2"
 
-["0.4.2-0"]
+["0.4.2 - 0.5.2"]
 LightSumTypes = "4"
+
+["0.5.3 - 0"]
+GeometryBasics = "0.4 - 0.5"
+LightSumTypes = "4 - 5"
+MeanSquaredDisplacement = "0.3"
