@@ -13,12 +13,17 @@ CIFTI = "1"
 Chain = "0.5"
 NearestNeighbors = "0.4.13-0.4"
 
+["0.10"]
+CorticalSurfaces = "0.10"
+
 ["0.10 - 0"]
 CIFTI = "2"
-CorticalSurfaces = "0.10"
 Graphs = "1"
 NearestNeighbors = "0.4"
 julia = "1.9.0 - 1"
+
+["0.11 - 0"]
+CorticalSurfaces = "0.11"
 
 ["0.2"]
 CorticalSurfaces = "0.3.2-0.3"
