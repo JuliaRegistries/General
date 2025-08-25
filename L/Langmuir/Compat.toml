@@ -1,14 +1,31 @@
 [0]
+Integrals = "4"
+LinearAlgebra = "1"
+NLSolvers = "0.5"
+StaticArrays = "1"
+TableOperations = "1"
+
+["0 - 0.1.1"]
 BlackBoxOptim = "0.6.2-0.6"
 CommonSolve = "0.2.4-0.2"
 ForwardDiff = "0.10"
-Integrals = "4"
-LinearAlgebra = "1"
 LogExpFunctions = "0.3.24-0.3"
-NLSolvers = "0.5"
 PolyLog = "2.5.0-2"
 Roots = "2.1.0-2"
-StaticArrays = "1"
-TableOperations = "1"
 Tables = "1.8.0-1"
 julia = "1.9.0-1"
+
+["0.1.2 - 0"]
+BlackBoxOptim = "0.6.2 - 0.6"
+ChainRulesCore = "1"
+CommonSolve = "0.2.4 - 0.2"
+ForwardDiff = ["0.10", "1"]
+ForwardDiffChainRules = "0.2 - 0.3"
+LogExpFunctions = "0.3.24 - 0.3"
+PolyLog = "2.5.0 - 2"
+Polynomials = "4"
+PrettyTables = "2"
+RecipesBase = "1"
+Roots = "2.1.0 - 2"
+Tables = "1.8.0 - 1"
+julia = "1.10.0 - 1"
