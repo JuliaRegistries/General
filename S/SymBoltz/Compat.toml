@@ -69,11 +69,13 @@ ModelingToolkit = "9.76"
 ["0.5.1 - 0.5"]
 ModelingToolkit = "9.76.0-9"
 
+["0.6"]
+ForwardDiff = "0.10.38 - 0.10"
+
 ["0.6 - 0"]
 Bessels = "0.2.8 - 0.2"
 ChainRulesCore = "1.25.1 - 1"
 CommonSolve = "0.2.4 - 0.2"
-ForwardDiff = "0.10.38 - 0.10"
 GraphRecipes = "0.5.13 - 0.5"
 Integrals = "4.5.0 - 4"
 LinearAlgebra = "1.11.0 - 1"
@@ -98,3 +100,7 @@ TwoFAST = "0.1.5 - 0.1"
 Unitful = "1.22.0 - 1"
 UnitfulAstro = "1.2.1 - 1"
 julia = "1.11.0 - 1"
+
+["0.7 - 0"]
+ForwardDiff = ["0.10", "1"]
+LinearSolve = "3.19"
