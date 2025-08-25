@@ -28,12 +28,18 @@ ClimaParams = "0.10"
 RootSolvers = "0.4"
 Thermodynamics = "0.12.8-0.12"
 
-["0.12.1 - 0"]
+["0.12.1"]
 ClimaParams = "0.10 - 0.11"
+Thermodynamics = "0.12.15 - 0.13"
+
+["0.12.1 - 0"]
 DocStringExtensions = "0.8 - 0.9"
 RootSolvers = ["0.4", "1"]
-Thermodynamics = "0.12.15 - 0.13"
 julia = "1.9.0 - 1"
+
+["0.12.2 - 0"]
+ClimaParams = "0.10 - 0.12"
+Thermodynamics = "0.14"
 
 ["0.2"]
 julia = "1.5.0-1"
