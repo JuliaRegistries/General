@@ -476,15 +476,25 @@ ClimaUtilities = "0.1.23 - 0.1"
 SparseMatrixColorings = "0.4.20 - 0.4"
 StaticArrays = "1.9.0 - 1"
 
-["0.31.2 - 0"]
+["0.31.2"]
 ClimaParams = "0.11.1 - 0.11"
 CloudMicrophysics = "0.26.4 - 0.26"
-ForwardDiff = "1"
 Insolation = "0.9.5 - 0.9"
 RRTMGP = "0.21.4 - 0.21"
-SciMLBase = "2.108.0 - 2"
 SurfaceFluxes = "0.12.1 - 0.12"
 Thermodynamics = "0.13.1 - 0.13"
+
+["0.31.2 - 0"]
+ForwardDiff = "1"
+SciMLBase = "2.108.0 - 2"
+
+["0.31.3 - 0"]
+ClimaParams = "0.12.1 - 0.12"
+CloudMicrophysics = "0.27"
+Insolation = "0.10.1 - 0.10"
+RRTMGP = "0.21.5 - 0.21"
+SurfaceFluxes = "0.12.2 - 0.12"
+Thermodynamics = "0.14"
 
 ["0.4"]
 CloudMicrophysics = "0.8"
