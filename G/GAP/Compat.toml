@@ -73,6 +73,8 @@ nauty_jll = "2.6.13-2"
 
 ["0.13 - 0"]
 GAP_pkg_zeromqinterface_jll = "0.1600"
+
+["0.13 - 0.14"]
 TOML = ["0.0.0", "1"]
 
 ["0.13.0"]
@@ -103,12 +105,23 @@ GAP_lib_jll = "400.1400.4-400.1400"
 ["0.13.4 - 0.14.0"]
 GAP_pkg_juliainterface_jll = "0.1300.103"
 
-["0.14 - 0"]
+["0.14"]
 Artifacts = "1.6.0 - 1"
-BinaryWrappers = "0.1.3 - 0.1"
 Compat = "4.11.0 - 4"
-Downloads = "1.4.3 - 1"
 GAP_jll = "400.1400.4 - 400.1400"
+InteractiveUtils = "1.6.0 - 1"
+Libdl = "1.6.0 - 1"
+Markdown = "1.6.0 - 1"
+Ncurses_jll = "6.4.1 - 6"
+Pidfile = "1.3.0 - 1"
+Pkg = "1.6.0 - 1"
+REPL = "1.6.0 - 1"
+Random = "1.6.0 - 1"
+julia = "1.6.0 - 1"
+
+["0.14 - 0"]
+BinaryWrappers = "0.1.3 - 0.1"
+Downloads = "1.4.3 - 1"
 GAP_lib_jll = "400.1400.4 - 400.1400"
 GAP_pkg_ace_jll = "500.600.200 - 500"
 GAP_pkg_anupq_jll = "300.300.100 - 300"
@@ -137,29 +150,33 @@ GAP_pkg_orb_jll = "400.900.100 - 400"
 GAP_pkg_profiling_jll = "200.600.0 - 200"
 GAP_pkg_semigroups_jll = "500.400.0 - 500"
 GAP_pkg_simpcomp_jll = "200.100.1400 - 200"
-InteractiveUtils = "1.6.0 - 1"
-Libdl = "1.6.0 - 1"
 MacroTools = "0.5.13 - 0.5"
-Markdown = "1.6.0 - 1"
-Ncurses_jll = "6.4.1 - 6"
-Pidfile = "1.3.0 - 1"
-Pkg = "1.6.0 - 1"
-REPL = "1.6.0 - 1"
-Random = "1.6.0 - 1"
 Scratch = "1.1.0 - 1"
 Singular_jll = "404.1.700 - 404"
-julia = "1.6.0 - 1"
 lib4ti2_jll = "1.6.10 - 1"
 nauty_jll = "2.6.13 - 2"
 
 ["0.14 - 0.14.1"]
 AbstractAlgebra = ["0.41.11 - 0.41", "0.42.1 - 0.45"]
 
-["0.14.1 - 0"]
+["0.14.1 - 0.14"]
 GAP_pkg_juliainterface_jll = "0.1400.100"
 
 ["0.14.2 - 0"]
 AbstractAlgebra = ["0.41.11 - 0.41", "0.42.1 - 0.46"]
+
+["0.15 - 0"]
+Artifacts = "1.10.0 - 1"
+FileWatching = "1.10.0 - 1"
+GAP_jll = "400.1401.5 - 400.1401"
+GAP_pkg_juliainterface_jll = "0.1500.0"
+InteractiveUtils = "1.10.0 - 1"
+Libdl = "1.10.0 - 1"
+Markdown = "1.10.0 - 1"
+Pkg = "1.10.0 - 1"
+REPL = "1.10.0 - 1"
+Random = "1.10.0 - 1"
+julia = "1.10.0 - 1"
 
 ["0.2 - 0.2.1"]
 GAPTypes = "0.0.0-1"
