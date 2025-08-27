@@ -389,7 +389,7 @@ Meshes = "0.51-0.52"
 ["0.46.10 - 0"]
 Meshes = "0.54"
 
-["0.46.12 - 0"]
+["0.46.12 - 0.46"]
 CategoricalArrays = ["0.10", "1"]
 
 ["0.46.2 - 0"]
@@ -403,8 +403,6 @@ Meshes = "0.53"
 
 ["0.46.9 - 0"]
 DensityRatioEstimation = "1.2.0 - 1"
-GeoTables = "1.21.0 - 1"
-LinearAlgebra = "1.9.0 - 1"
 Optim = "1.7.0 - 1"
 Rotations = "1.6.0 - 1"
 StaticArrays = "1.8.0 - 1"
@@ -412,7 +410,17 @@ StatsBase = "0.33 - 0.34"
 Tables = "1.11.0 - 1"
 TypedTables = "1.4.0 - 1"
 Unitful = "1.20.0 - 1"
+
+["0.46.9 - 0.46"]
+GeoTables = "1.21.0 - 1"
+LinearAlgebra = "1.9.0 - 1"
 julia = "1.9.0 - 1"
+
+["0.47 - 0"]
+CategoricalArrays = "1"
+GeoTables = "1.25.0 - 1"
+LinearAlgebra = "1.10.0 - 1"
+julia = "1.10.0 - 1"
 
 ["0.5 - 0.17"]
 NearestNeighbors = "0.4"
