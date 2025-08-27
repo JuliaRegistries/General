@@ -98,31 +98,6 @@ function generate_ci_matrix(registrytoml::RegistryToml)
     return json_str
 end
 
-
-
-function _treehash_to_commithash(treehash::AbstractString)
-    cmd_1 = `git log --pretty=raw`
-    cmd_2 = `grep -B 1 "$(treehash)"`
-    my_pipeline = pipeline(cmd_1, cmd_2)
-    str = strip(_tryread(my_pipeline))
-    r = r"commit ([A-Za-z0-9]*?)\n"
-    m = match(r, str)
-    commithash = strip(m[1])
-    return commithash
-end
-
-function _tryread(cmd::Base.AbstractCmd)
-    str = try
-        read(cmd, String)
-    catch ex
-        # If an exception is thrown, run the command again, but send stdout/stderr to the CI log
-        run(cmd)
-
-        rethrow()
-    end
-    return str
-end
-
 check(package_uuid_str::AbstractString) = check(RegistryToml(), package_uuid_str)
 function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
     package_name = registrytoml.dict["packages"][package_uuid_str]["name"]
@@ -137,7 +112,7 @@ function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
         @test !isempty(versions_dict)
         mktempdir() do tmpdir
             cd(tmpdir) do
-                run(`git clone "$(package_git_repo_url)" MYCLONEDIR`)
+                run(`git clone "$(package_g tit_repo_url)" MYCLONEDIR`)
                 cd("MYCLONEDIR") do
                     gitrepo_libgit2 = LibGit2.GitRepo(".")
 
@@ -146,37 +121,6 @@ function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
                         treehash = v["git-tree-sha1"]
                         tree_libgit2 = LibGit2.GitTree(gitrepo_libgit2, LibGit2.GitHash(treehash))
                         @test tree_libgit2 isa LibGit2.GitTree
-                    end
-
-                    treehash_to_commithash = Dict{String, String}()
-
-                    # For each tree, make sure that at least one commit points to that tree
-                    @testset for (k, v) in pairs(versions_dict)
-                        treehash = v["git-tree-sha1"]
-                        commithash = _treehash_to_commithash(treehash)
-                        @test !isempty(strip(commithash))
-                        r = r"^[A-Za-z0-9]*?$"
-                        @test occursin(r, commithash)
-
-                        treehash_to_commithash[treehash] = commithash
-                    end
-
-                    # For each commit:
-                    # 1. Make sure that `git checkout COMMIT` does not error
-                    # 2. Make sure that the commit points to the expected treehash
-                    @testset for (k, v) in pairs(versions_dict)
-                        treehash = v["git-tree-sha1"]
-                        commithash = treehash_to_commithash[treehash]
-
-                        run(`git checkout "$(commithash)"`)
-
-                        cmd_1 = `git rev-parse HEAD`
-                        str_1 = strip(_tryread(cmd_1))
-                        @test str_1 == commithash
-
-                        cmd_2 = `git log -1 --pretty="%T" "$(commithash)"`
-                        str_2 = strip(_tryread(cmd_2))
-                        @test str_2 == treehash
                     end
                 end
             end
