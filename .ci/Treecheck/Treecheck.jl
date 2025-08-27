@@ -162,20 +162,21 @@ function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
             run(`git -C "$(tmpdir)" gc`)
 
             # For each tree, make sure the tree exists
-            @testset for (k, v) in pairs(versions_dict)
-                treehash = v["git-tree-sha1"]
-                tree_libgit2 = LibGit2.GitTree(gitrepo_libgit2, LibGit2.GitHash(treehash))
-                @test tree_libgit2 isa LibGit2.GitTree
+            @testset "Make sure trees exist" begin
+                for (k, v) in pairs(versions_dict)
+                    treehash = v["git-tree-sha1"]
+                    tree_libgit2 = LibGit2.GitTree(gitrepo_libgit2, LibGit2.GitHash(treehash))
+                    @test tree_libgit2 isa LibGit2.GitTree
+                end
             end
 
             # For each tree, make sure that `git archive` produces a tarball with the correct contents
-            @testset for (k, v) in pairs(versions_dict)
-                treehash = v["git-tree-sha1"]
-                tree_libgit2 = LibGit2.GitTree(gitrepo_libgit2, LibGit2.GitHash(treehash))
-                @test does_the_archive_roundtrip(tmpdir, treehash)
+            @testset "Make sure git archive produces good tarballs" begin
+                for (k, v) in pairs(versions_dict)
+                    treehash = v["git-tree-sha1"]
+                    @test does_the_archive_roundtrip(tmpdir, treehash)
+                end
             end
-            
-
         end
     end;
 end
