@@ -111,7 +111,7 @@ function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
     @testset "Treecheck for package: $(package_name)" begin
         @test !isempty(versions_dict)
         mktempdir() do tmpdir
-            run(`git clone "$(package_g tit_repo_url)" "$(tmpdir)"`)
+            run(`git clone "$(package_git_repo_url)" "$(tmpdir)"`)
             gitrepo_libgit2 = LibGit2.GitRepo(tmpdir)
 
             # For each tree, make sure the tree exists
