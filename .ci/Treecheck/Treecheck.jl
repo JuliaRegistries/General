@@ -100,16 +100,18 @@ function generate_ci_matrix(registrytoml::RegistryToml)
     return json_str
 end
 
-function test_archive_roundtrip(repo_dir::AbstractString, expected_treehash::AbstractString)
-    mktempdir() do tmpdir
+function does_the_archive_roundtrip(repo_dir::AbstractString, expected_treehash::AbstractString)
+    result = mktempdir() do tmpdir
         tgz_file = joinpath(tmpdir, "archive.tar.gz")
         cmd = `git -C "$(repo_dir)" archive --format=tar.gz -o "$(tgz_file)" "$(expected_treehash)"`
         proc = run(cmd)
         @test success(proc)
 
         # Verify that the .tar.gz file has the correct treehash
-        @test verify_archive_tree_hash(tgz_file, Base.SHA1(expected_treehash))
+        return verify_archive_tree_hash(tgz_file, Base.SHA1(expected_treehash))
     end
+
+    return result
 end
 
 # Verify the git-tree-sha1 hash of a compressed archive.
@@ -170,7 +172,7 @@ function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
             @testset for (k, v) in pairs(versions_dict)
                 treehash = v["git-tree-sha1"]
                 tree_libgit2 = LibGit2.GitTree(gitrepo_libgit2, LibGit2.GitHash(treehash))
-                @test test_archive_roundtrip(tmpdir, treehash)
+                @test does_the_archive_roundtrip(tmpdir, treehash)
             end
             
 
