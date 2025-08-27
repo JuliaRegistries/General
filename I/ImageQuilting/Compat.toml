@@ -305,11 +305,20 @@ StatsBase = "0.32-0.33"
 Primes = "0.4-0.5"
 
 ["1.1.2 - 1"]
-CUDA = "3.11.0 - 5"
 Graphs = "1.4.0 - 1"
 ProgressMeter = "1.1.0 - 1"
+StatsBase = "0.33 - 0.34"
+
+["1.1.2 - 1.1"]
+CUDA = "3.11.0 - 5"
 Random = "1.9.0 - 1"
 SparseArrays = "1.9.0 - 1"
 Statistics = "1.9.0 - 1"
-StatsBase = "0.33 - 0.34"
 julia = "1.9.0 - 1"
+
+["1.2 - 1"]
+CUDA = "5"
+Random = "1.10.0 - 1"
+SparseArrays = "1.10.0 - 1"
+Statistics = "1.10.0 - 1"
+julia = "1.10.0 - 1"
