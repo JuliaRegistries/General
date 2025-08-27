@@ -114,6 +114,9 @@ function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
             run(`git clone "$(package_git_repo_url)" "$(tmpdir)"`)
             gitrepo_libgit2 = LibGit2.GitRepo(tmpdir)
 
+            # First, run an explicit `git gc`, to guard against a tree hash being at risk of removal.
+            run(`git -C "$(tmpdir)" gc`)
+
             # For each tree, make sure the tree exists
             @testset for (k, v) in pairs(versions_dict)
                 treehash = v["git-tree-sha1"]
