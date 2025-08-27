@@ -3,7 +3,9 @@ module Treecheck
 import JSON3
 import LibGit2
 import TOML
+import Tar
 import Test
+import p7zip_jll
 
 # Bring some names into scope, just for convenience:
 using Test: @testset, @test
@@ -98,6 +100,46 @@ function generate_ci_matrix(registrytoml::RegistryToml)
     return json_str
 end
 
+function test_archive_roundtrip(repo_dir::AbstractString, expected_treehash::AbstractString)
+    mktempdir() do tmpdir
+        tgz_file = joinpath(tmpdir, "archive.tar.gz")
+        cmd = `git -C "$(repo_dir)" archive --format=tar.gz -o "$(tgz_file)" "$(expected_treehash)"`
+        proc = run(cmd)
+        @test success(proc)
+
+        # Verify that the .tar.gz file has the correct treehash
+        @test verify_archive_tree_hash(tgz_file, Base.SHA1(expected_treehash))
+    end
+end
+
+# Verify the git-tree-sha1 hash of a compressed archive.
+#
+# I copied this function from JuliaLang/Pkg.jl (license: MIT).
+# https://github.com/JuliaLang/Pkg.jl/blob/482399a51bc8bea0c58cb8722fd7ddf7637aff77/src/PlatformEngines.jl#L687-L703
+#
+# We're vendoring this function because IIUC, it's not part of Pkg.jl's public API, and
+# I don't want this script to randomly break.
+#
+# Note: The function `Tar.tree_hash()` is part of Tar.jl's public API.
+# See: https://github.com/JuliaIO/Tar.jl/blob/9dd8ed1b5f8503804de49da9272150dcc18ca7c7/README.md?plain=1#L17-L32
+function verify_archive_tree_hash(tar_gz::AbstractString, expected_hash::Base.SHA1)
+    # This can fail because unlike sha256 verification of the downloaded
+    # tarball, tree hash verification requires that the file can i) be
+    # decompressed and ii) is a proper archive.
+    calc_hash = try
+        Base.SHA1(open(Tar.tree_hash, `$(exe7z()) x $tar_gz -so`))
+    catch err
+        @warn "unable to decompress and read archive" exception = err
+        return false
+    end
+    if calc_hash != expected_hash
+        @warn "tarball content does not match expected git-tree-sha1"
+        return false
+    end
+    return true
+end
+exe7z() = p7zip_jll.p7zip()
+
 check(package_uuid_str::AbstractString) = check(RegistryToml(), package_uuid_str)
 function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
     package_name = registrytoml.dict["packages"][package_uuid_str]["name"]
@@ -123,6 +165,14 @@ function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
                 tree_libgit2 = LibGit2.GitTree(gitrepo_libgit2, LibGit2.GitHash(treehash))
                 @test tree_libgit2 isa LibGit2.GitTree
             end
+
+            # For each tree, make sure that `git archive` produces a tarball with the correct contents
+            @testset for (k, v) in pairs(versions_dict)
+                treehash = v["git-tree-sha1"]
+                tree_libgit2 = LibGit2.GitTree(gitrepo_libgit2, LibGit2.GitHash(treehash))
+                @test test_archive_roundtrip(tmpdir, treehash)
+            end
+            
 
         end
     end;
