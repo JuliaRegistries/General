@@ -116,7 +116,7 @@ DataStructures = "0.17"
 ["5.15 - 5.46"]
 Reexport = "0.2"
 
-["5.15 - 6"]
+["5.15 - 6.101"]
 MacroTools = "0.5"
 
 ["5.15.0"]
@@ -164,7 +164,7 @@ RecursiveArrayTools = "2"
 ["5.28"]
 DiffEqBase = "6.13.0-6.84"
 
-["5.28 - 6"]
+["5.28 - 6.101"]
 FiniteDiff = "2"
 
 ["5.29"]
@@ -227,10 +227,10 @@ Adapt = "1.1.0-2"
 ["5.42 - 5.61"]
 DiffEqBase = "6.38.0-6.84"
 
-["5.42.1 - 6"]
+["5.42.1 - 6.101"]
 FastClosures = "0.3"
 
-["5.42.4 - 6"]
+["5.42.4 - 6.101"]
 DataStructures = "0.18"
 
 ["5.46 - 6.58"]
@@ -321,13 +321,81 @@ Polyester = "0.3-0.5"
 ["6.1 - 6.36"]
 Polyester = "0.3-0.6"
 
-["6.100 - 6"]
+["6.100 - 6.101"]
 ArrayInterface = "7.15.0 - 7"
 DiffEqBase = "6.169.1 - 6"
 ForwardDiff = ["0.10.36 - 0.10", "1"]
 LinearSolve = "3"
 NonlinearSolve = "4"
 RecursiveArrayTools = "3.27.0 - 3"
+
+["6.102 - 6"]
+ADTypes = "1.16.0 - 1"
+Adapt = "4.3.0 - 4"
+ArrayInterface = "7.19.0 - 7"
+CommonSolve = "0.2.4 - 0.2"
+DataStructures = "0.18.22 - 0.19"
+DiffEqBase = "6.183.0 - 6"
+DocStringExtensions = "0.9.5 - 0.9"
+EnumX = "1.0.5 - 1"
+ExplicitImports = "1.13.1 - 1"
+ExponentialUtilities = "1.27.0 - 1"
+FastBroadcast = "0.3.5 - 0.3"
+FastClosures = "0.3.2 - 0.3"
+FillArrays = "1.13.0 - 1"
+FiniteDiff = "2.27.0 - 2"
+ForwardDiff = ["0.10.38 - 0.10", "1"]
+FunctionWrappersWrappers = "0.1.3 - 0.1"
+LineSearches = "7.4.0 - 7"
+LinearSolve = "3.27.0 - 3"
+MacroTools = "0.5.16 - 0.5"
+MuladdMacro = "0.2.4 - 0.2"
+NonlinearSolve = "4.10.0 - 4"
+OrdinaryDiffEqAdamsBashforthMoulton = "1.4.0 - 1"
+OrdinaryDiffEqBDF = "1.9.0 - 1"
+OrdinaryDiffEqCore = "1.29.0 - 1"
+OrdinaryDiffEqDefault = "1.7.0 - 1"
+OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
+OrdinaryDiffEqExplicitRK = "1.3.0 - 1"
+OrdinaryDiffEqExponentialRK = "1.7.0 - 1"
+OrdinaryDiffEqExtrapolation = "1.7.0 - 1"
+OrdinaryDiffEqFIRK = "1.15.0 - 1"
+OrdinaryDiffEqFeagin = "1.3.0 - 1"
+OrdinaryDiffEqFunctionMap = "1.4.0 - 1"
+OrdinaryDiffEqHighOrderRK = "1.4.0 - 1"
+OrdinaryDiffEqIMEXMultistep = "1.6.0 - 1"
+OrdinaryDiffEqLinear = "1.5.0 - 1"
+OrdinaryDiffEqLowOrderRK = "1.5.0 - 1"
+OrdinaryDiffEqLowStorageRK = "1.5.0 - 1"
+OrdinaryDiffEqNonlinearSolve = "1.13.0 - 1"
+OrdinaryDiffEqNordsieck = "1.3.0 - 1"
+OrdinaryDiffEqPDIRK = "1.5.0 - 1"
+OrdinaryDiffEqPRK = "1.3.0 - 1"
+OrdinaryDiffEqQPRK = "1.3.0 - 1"
+OrdinaryDiffEqRKN = "1.4.0 - 1"
+OrdinaryDiffEqRosenbrock = "1.15.1 - 1"
+OrdinaryDiffEqSDIRK = "1.6.0 - 1"
+OrdinaryDiffEqSSPRK = "1.5.0 - 1"
+OrdinaryDiffEqStabilizedIRK = "1.5.0 - 1"
+OrdinaryDiffEqStabilizedRK = "1.4.0 - 1"
+OrdinaryDiffEqSymplecticRK = "1.6.0 - 1"
+OrdinaryDiffEqTsit5 = "1.4.0 - 1"
+OrdinaryDiffEqVerner = "1.5.0 - 1"
+Polyester = "0.7.18 - 0.7"
+PreallocationTools = "0.4.30 - 0.4"
+PrecompileTools = "1.2.1 - 1"
+Preferences = "1.4.3 - 1"
+RecursiveArrayTools = "3.36.0 - 3"
+Reexport = "1.2.2 - 1"
+SciMLBase = "2.108.0 - 2"
+SciMLOperators = "1.4.0 - 1"
+SciMLStructures = "1.7.0 - 1"
+SimpleNonlinearSolve = "2.7.0 - 2"
+SimpleUnPack = "1.1.0 - 1"
+Static = "1.2.0 - 1"
+StaticArrayInterface = "1.8.0 - 1"
+StaticArrays = "1.9.14 - 1"
+TruncatedStacktraces = "1.4.0 - 1"
 
 ["6.11"]
 ArrayInterface = "2.7.0-6"
@@ -378,7 +446,7 @@ LinearSolve = "1.3.0-1"
 ["6.21 - 6.50"]
 SnoopPrecompile = "1"
 
-["6.22 - 6"]
+["6.22 - 6.101"]
 FunctionWrappersWrappers = "0.1"
 
 ["6.22 - 6.25"]
@@ -451,7 +519,7 @@ StaticArrayInterface = "1.2.0-1"
 ["6.48 - 6.49.1"]
 TruncatedStacktraces = "1"
 
-["6.49.1 - 6"]
+["6.49.1 - 6.101"]
 SimpleUnPack = "1"
 
 ["6.49.1 - 6.51"]
@@ -469,7 +537,7 @@ NonlinearSolve = "0.3.14-0.3"
 ["6.5 - 6.50"]
 LinearSolve = "1.9.0-1"
 
-["6.51 - 6"]
+["6.51 - 6.101"]
 LineSearches = "7"
 PrecompileTools = "1"
 
@@ -519,7 +587,7 @@ SparseArrays = "1.6.0-1"
 ["6.59"]
 NonlinearSolve = "2"
 
-["6.59 - 6"]
+["6.59 - 6.101"]
 DocStringExtensions = "0.9"
 Polyester = "0.7"
 Reexport = "1"
@@ -606,10 +674,10 @@ SciMLBase = "2.27.1-2"
 ["6.75 - 6.93"]
 ADTypes = ["0.2", "1"]
 
-["6.76 - 6"]
+["6.76 - 6.101"]
 SciMLStructures = "1"
 
-["6.78 - 6"]
+["6.78 - 6.101"]
 EnumX = "1"
 
 ["6.8 - 6.11.1"]
@@ -621,10 +689,10 @@ FastBroadcast = "0.2-0.3"
 ["6.81 - 6.87"]
 NonlinearSolve = "3.12.3-3"
 
-["6.85 - 6"]
+["6.85 - 6.101"]
 Static = ["0.8", "1"]
 
-["6.88 - 6"]
+["6.88 - 6.101"]
 ExponentialUtilities = "1"
 OrdinaryDiffEqAdamsBashforthMoulton = "1"
 OrdinaryDiffEqBDF = "1"
@@ -712,13 +780,16 @@ NonlinearSolve = "3 - 4"
 RecursiveArrayTools = "2.36.0 - 3"
 
 ["6.99 - 6"]
+InteractiveUtils = "1.9.0 - 1"
+LinearAlgebra = "1.9.0 - 1"
+Logging = "1.9.0 - 1"
+julia = "1.10.0 - 1"
+
+["6.99 - 6.101"]
 ADTypes = "1.13.0 - 1"
 Adapt = "3 - 4"
 FastBroadcast = "0.2 - 0.3"
 FillArrays = "1.9.0 - 1"
-InteractiveUtils = "1.9.0 - 1"
-LinearAlgebra = "1.9.0 - 1"
-Logging = "1.9.0 - 1"
 MuladdMacro = "0.2.1 - 0.2"
 Preferences = "1.3.0 - 1"
 SciMLBase = "2.78.0 - 2"
@@ -726,4 +797,3 @@ SciMLOperators = ["0.3 - 0.4", "1"]
 SimpleNonlinearSolve = "1 - 2"
 StaticArrayInterface = "1.2.0 - 1"
 TruncatedStacktraces = "1.2.0 - 1"
-julia = "1.10.0 - 1"
