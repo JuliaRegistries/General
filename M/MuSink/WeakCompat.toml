@@ -1,6 +1,11 @@
 [0]
 CUDA = "5"
 LoopVectorization = "0.12"
-Metal = "1.5.0-1"
 PythonCall = "0.9"
 oneAPI = "2"
+
+["0 - 0.1.0"]
+Metal = "1.5.0-1"
+
+["0.1.1 - 0"]
+Metal = "1.5.0 - 1"
