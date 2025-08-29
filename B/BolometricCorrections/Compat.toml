@@ -1,8 +1,6 @@
 [0]
-ArgCheck = "1-2"
 CSV = "0.10"
 CodecXz = "0.7"
-Compat = ["3.47.0-3", "4.10.0-4"]
 DataDeps = "0.7"
 Printf = ["0.0.0", "1"]
 StaticArrays = "1"
@@ -10,10 +8,24 @@ Tables = "1"
 Tar = ["0.0.0", "1"]
 TypedTables = "1"
 Unicode = ["0.0.0", "1"]
-julia = "1.7.0-1"
 
-["0-0.1.1"]
+["0 - 0.1.1"]
 Interpolations = "0.15"
 
-["0.1.2-0"]
+["0 - 0.1.3"]
+ArgCheck = "1-2"
+Compat = ["3.47.0-3", "4.10.0-4"]
+julia = "1.7.0-1"
+
+["0.1.2 - 0.1.3"]
 Interpolations = "0.15-0.16"
+
+["0.1.4 - 0"]
+ArgCheck = "1 - 2"
+Compat = ["3.47.0 - 3", "4.10.0 - 4"]
+FITSIO = "0.17.5 - 0.17"
+Git = "1.5.0 - 1"
+Interpolations = "0.15 - 0.16"
+Scratch = "1"
+StatsBase = "0.32 - 0.34"
+julia = "1.7.0 - 1"
