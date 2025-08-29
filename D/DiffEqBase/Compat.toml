@@ -165,7 +165,7 @@ SciMLBase = "1.84.0-1"
 ["6.118 - 6.176"]
 StaticArraysCore = "1.4.0-1"
 
-["6.119 - 6"]
+["6.119 - 6.183"]
 EnumX = "1"
 
 ["6.12.3 - 6.13.0"]
@@ -321,12 +321,14 @@ Logging = "1.9.0 - 1"
 Markdown = "1.9.0 - 1"
 MuladdMacro = "0.2.1 - 0.2"
 Printf = "1.9.0 - 1"
-SciMLBase = "2.94.0 - 2"
 SciMLOperators = "1"
 SciMLStructures = "1.5.0 - 1"
 StaticArraysCore = "1.4.0 - 1"
 SymbolicIndexingInterface = "0.3.39 - 0.3"
 julia = "1.10.0 - 1"
+
+["6.177 - 6.183"]
+SciMLBase = "2.94.0 - 2"
 
 ["6.178 - 6"]
 FastBroadcast = "0.3.5 - 0.3"
@@ -335,8 +337,11 @@ RecursiveArrayTools = "3.1.0 - 3"
 ["6.18 - 6.34"]
 ChainRulesCore = "0.4-0.7"
 
-["6.181 - 6"]
+["6.181 - 6.183"]
 DataStructures = "0.18 - 0.19"
+
+["6.184 - 6"]
+SciMLBase = "2.114.0 - 2"
 
 ["6.19 - 6.51"]
 Roots = ["0.8", "1"]
@@ -388,7 +393,6 @@ NonlinearSolve = "0.1"
 
 ["6.5 - 6"]
 FunctionWrappers = "1"
-Parameters = "0.12"
 
 ["6.5 - 6.10"]
 RecursiveArrayTools = "1"
@@ -401,6 +405,9 @@ Compat = "2.2.0-3"
 
 ["6.5 - 6.18"]
 Roots = "0.8"
+
+["6.5 - 6.183"]
+Parameters = "0.12"
 
 ["6.5 - 6.43"]
 DataStructures = "0.17"
