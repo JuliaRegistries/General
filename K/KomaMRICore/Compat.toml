@@ -3,7 +3,7 @@ ProgressMeter = "1"
 Reexport = "1"
 ThreadsX = "0.1"
 
-["0-0.7"]
+["0 - 0.7"]
 Adapt = "3"
 CUDA = "3"
 FileIO = "1"
@@ -17,7 +17,7 @@ Parameters = "0.12"
 Scanf = "0.5"
 julia = "1.6.0-1"
 
-["0-0.9.0"]
+["0 - 0.9.0"]
 Functors = "0.4"
 
 ["0.8"]
@@ -26,13 +26,22 @@ KomaMRIBase = "0.8"
 Pkg = "1.4.0-1"
 julia = "1.9.0-1"
 
-["0.8-0"]
+["0.8 - 0.9.1"]
 Adapt = "3-4"
 
-["0.9-0"]
-KernelAbstractions = "0.9"
+["0.9 - 0"]
 KomaMRIBase = "0.9"
+
+["0.9 - 0.9.1"]
+KernelAbstractions = "0.9"
 julia = "1.10.0-1"
 
-["0.9.1-0"]
+["0.9.1"]
 Functors = "0.4-0.5"
+
+["0.9.2 - 0"]
+AcceleratedKernels = "0.3.2 - 0.4"
+Adapt = "3 - 4"
+Functors = "0.4 - 0.5"
+KernelAbstractions = "0.9.34 - 0.9"
+julia = "1.10.0 - 1"
