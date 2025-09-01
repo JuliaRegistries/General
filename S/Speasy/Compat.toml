@@ -1,15 +1,15 @@
-[0]
-Dates = "1"
-
 ["0 - 0.3.2"]
 CondaPkg = "0.2.24-0.2"
 PythonCall = "0.9.23-0.9"
 julia = "1.10.0-1"
 
+["0 - 0.4.5"]
+Dates = "1"
+
 ["0.2 - 0.3.2"]
 Unitful = "1.22.0-1"
 
-["0.2.2 - 0"]
+["0.2.2 - 0.4.5"]
 NanoDates = "1"
 
 ["0.2.3 - 0.3.2"]
@@ -40,8 +40,13 @@ StatsBase = "0.34.4 - 0.34"
 CondaPkg = "0.2.24 - 0.2"
 SpaceDataModel = "0.1.6 - 0.1"
 
-["0.4.2 - 0"]
+["0.4.2 - 0.4.5"]
 Statistics = "1"
 
 ["0.4.3 - 0"]
 SpaceDataModel = "0.1.6 - 0.2"
+
+["0.4.6 - 0"]
+Accessors = "0.1"
+NetworkOptions = "1"
+UnixTimes = "1.7.0 - 1"
