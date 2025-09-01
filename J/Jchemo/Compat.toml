@@ -1,5 +1,4 @@
 [0]
-DataFrames = "1"
 Distances = "0.10"
 Distributions = "0.25"
 ImageFiltering = "0.7"
@@ -26,6 +25,9 @@ julia = "1"
 
 ["0 - 0.2"]
 Interpolations = "0.14"
+
+["0 - 0.8.12"]
+DataFrames = "1"
 
 ["0.1.16 - 0"]
 DecisionTree = "0.12"
@@ -97,11 +99,18 @@ Loess = "0.6"
 ["0.8 - 0.8.6"]
 DataInterpolations = "4-7"
 
-["0.8.12 - 0"]
+["0.8.12"]
 DataInterpolations = "4 - 8"
 Makie = "0.19 - 0.24"
 StatsBase = "0.33 - 0.34"
 julia = "1.8.0 - 1"
+
+["0.8.13 - 0"]
+DataFrames = "1.7.0 - 1"
+DataInterpolations = "8"
+Makie = "0.24"
+StatsBase = "0.34"
+julia = "1.10.0 - 1"
 
 ["0.8.2 - 0.8.11"]
 Makie = "0.19-0.22"
