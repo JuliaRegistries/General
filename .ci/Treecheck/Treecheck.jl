@@ -130,7 +130,6 @@ function verify_archive_tree_hash(tar_gz::AbstractString, expected_hash::String)
     # tarball, tree hash verification requires that the file can i) be
     # decompressed and ii) is a proper archive.
     calc_hash = try
-        # open(Tar.tree_hash, `$(exe7z()) x $tar_gz -so`)
         Tar.tree_hash(CodecZlib.GzipDecompressorStream(tar_gz))
     catch err
         @warn "unable to decompress and read archive" exception = err
