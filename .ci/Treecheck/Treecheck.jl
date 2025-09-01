@@ -108,7 +108,7 @@ function does_the_archive_roundtrip(repo_dir::AbstractString, expected_treehash:
         @test success(proc)
 
         # Verify that the .tar.gz file has the correct treehash
-        return verify_archive_tree_hash(tgz_file, Base.SHA1(expected_treehash))
+        return verify_archive_tree_hash(tgz_file, expected_treehash)
     end
 
     return result
@@ -116,7 +116,7 @@ end
 
 # Verify the git-tree-sha1 hash of a compressed archive.
 #
-# I copied this function from JuliaLang/Pkg.jl (license: MIT).
+# I copied (and slightly modified) this function from JuliaLang/Pkg.jl (license: MIT).
 # https://github.com/JuliaLang/Pkg.jl/blob/482399a51bc8bea0c58cb8722fd7ddf7637aff77/src/PlatformEngines.jl#L687-L703
 #
 # We're vendoring this function because IIUC, it's not part of Pkg.jl's public API, and
@@ -124,12 +124,12 @@ end
 #
 # Note: The function `Tar.tree_hash()` is part of Tar.jl's public API.
 # See: https://github.com/JuliaIO/Tar.jl/blob/9dd8ed1b5f8503804de49da9272150dcc18ca7c7/README.md?plain=1#L17-L32
-function verify_archive_tree_hash(tar_gz::AbstractString, expected_hash::Base.SHA1)
+function verify_archive_tree_hash(tar_gz::AbstractString, expected_hash::String)
     # This can fail because unlike sha256 verification of the downloaded
     # tarball, tree hash verification requires that the file can i) be
     # decompressed and ii) is a proper archive.
     calc_hash = try
-        Base.SHA1(open(Tar.tree_hash, `$(exe7z()) x $tar_gz -so`))
+        open(Tar.tree_hash, `$(exe7z()) x $tar_gz -so`)
     catch err
         @warn "unable to decompress and read archive" exception = err
         return false
