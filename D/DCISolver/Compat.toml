@@ -95,6 +95,11 @@ LDLFactorizations = "0.10"
 LinearAlgebra = "1.10.0 - 1"
 NLPModels = "0.21.5 - 0.21"
 Printf = "1.10.0 - 1"
-SolverTools = "0.9"
 SparseArrays = "1.10.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.5.0"]
+SolverTools = "0.9"
+
+["0.5.1 - 0"]
+SolverTools = "0.9 - 0.10"
