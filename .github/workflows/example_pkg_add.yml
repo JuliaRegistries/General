@@ -1,0 +1,63 @@
+name: Example `Pkg.add()`
+
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  # Skip intermediate builds: always.
+  # Cancel intermediate builds: only pull request builds
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
+
+jobs:
+  pkg-add-example:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        version:
+          # - '1.0' # TODO: Figure out how to get this to work on Julia 1.0
+          - '1.1'
+          - '1.2'
+          - '1.3'
+          - '1.4'
+          - '1.5'
+          - '1.6'
+          - '1.8'
+          - '1.9'
+          - '1.10'
+          - '1.11'
+          # - '1.12' # Uncomment this once Julia 1.12 is released
+          # - 'nightly' # TODO: uncomment this line
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          persist-credentials: false
+      - uses: julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71 # v2.6.1
+        with:
+          version: ${{ matrix.version }}
+      # There's no real benefit to caching artifacts or packages in this workflow.
+      # We only install Example.jl, which is a tiny package with no dependencies or artifacts.
+      - run: rm -rf ~/.julia # Make sure we don't already have any registries around; should be a no-op on a fresh GitHub Runner
+      - run: |
+          import Pkg
+          reg = Pkg.Registry.RegistrySpec(; path = pwd())
+          Pkg.Registry.add(reg)
+        shell: julia --color=yes {0}
+      - run: |
+            import Pkg
+            p = Pkg.PackageSpec(name = "Example", uuid = "7876af07-990d-54b4-ab0e-23690620f79a")
+            Pkg.add(p)
+            import Example
+        shell: julia --color=yes {0}
+      - run: julia --color=yes -e 'import Example'
