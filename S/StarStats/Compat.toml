@@ -1,10 +1,7 @@
 [0]
 CSV = "0.10"
-DataFrames = "1.4.0-1"
-QuadGK = "2.5.0-2"
-julia = "1.8.0-1"
 
-["0-0.12"]
+["0 - 0.12"]
 CairoMakie = "0.9"
 CodecZlib = "0.7"
 Interpolations = "0.14"
@@ -12,16 +9,34 @@ Makie = "0.18"
 StatsBase = "0.33"
 Turing = "0.23"
 
+["0 - 0.14"]
+DataFrames = "1.4.0-1"
+QuadGK = "2.5.0-2"
+julia = "1.8.0-1"
+
 ["0.13"]
 Turing = "0.35"
 
-["0.13-0"]
+["0.13 - 0.14"]
 Interpolations = "0.14-0.15"
 
-["0.14-0"]
+["0.14"]
 FTPClient = "1.2.1-1"
 LinearAlgebra = "1.11.0-1"
 Quickhull = "0.2.1-0.2"
 StaticArrays = "1.9.13-1"
 StatsBase = "0.34.5-0.34"
 Turing = "0.35-0.36"
+
+["0.15 - 0"]
+DataFrames = "1.4.0 - 1"
+FTPClient = "1.2.1 - 1"
+Interpolations = "0.14 - 0.16"
+LinearAlgebra = "1.11.0 - 1"
+QuadGK = "2.5.0 - 2"
+Quickhull = "0.2.1 - 0.2"
+StaticArrays = "1.9.13 - 1"
+Statistics = "1.11.1 - 1"
+StatsBase = "0.34.5 - 0.34"
+Turing = ["0.35 - 0.36", "0.40"]
+julia = "1.8.0 - 1"
