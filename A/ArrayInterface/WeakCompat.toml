@@ -1,7 +1,7 @@
 ["7.11"]
 CUDSS = "0.2"
 
-["7.11-7"]
+["7.11 - 7"]
 BandedMatrices = "1"
 BlockBandedMatrices = "0.13"
 CUDA = "5"
@@ -9,24 +9,32 @@ ChainRules = "1"
 ReverseDiff = "1"
 Tracker = "0.2"
 
-["7.11-7.13"]
+["7.11 - 7.13"]
 StaticArraysCore = "1"
 
-["7.11-7.16"]
+["7.11 - 7.16"]
 GPUArraysCore = "0.1"
 
-["7.12-7.17"]
+["7.12 - 7.17"]
 CUDSS = "0.2-0.3"
 
-["7.13-7"]
+["7.13 - 7.19"]
 SparseArrays = "1.10.0-1"
 
-["7.15-7"]
+["7.15 - 7"]
 StaticArraysCore = "1"
 
-["7.17-7"]
+["7.17 - 7"]
 ChainRulesCore = "1"
+
+["7.17 - 7.19"]
 GPUArraysCore = "0.1-0.2"
 
-["7.18-7"]
+["7.18 - 7.19"]
 CUDSS = "0.2-0.4"
+
+["7.20 - 7"]
+CUDSS = "0.2 - 0.4"
+GPUArraysCore = "0.1 - 0.2"
+Metal = "1"
+SparseArrays = "1.10.0 - 1"
