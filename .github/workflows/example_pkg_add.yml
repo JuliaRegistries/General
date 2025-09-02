@@ -2,8 +2,6 @@ name: Example `Pkg.add()`
 
 on:
   pull_request:
-    branches:
-      - master
   push:
     branches:
       - master
