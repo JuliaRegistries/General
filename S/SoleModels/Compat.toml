@@ -34,9 +34,15 @@ SoleBase = "0.13"
 SoleData = "0.16"
 SoleLogics = "0.13"
 
-["0.10.2 - 0"]
+["0.10.2"]
 PrettyTables = "2.2.0 - 2"
+
+["0.10.2 - 0"]
 StatsBase = "0.30 - 0.34"
+
+["0.10.3 - 0"]
+CategoricalArrays = ["0.10", "1"]
+PrettyTables = "2.2.0 - 3"
 
 ["0.2 - 0.10.0"]
 Graphs = "1.8.0-1"
@@ -101,9 +107,6 @@ Lazy = "0.15"
 MLJBase = "0.21"
 SoleData = "0.12"
 
-["0.5 - 0"]
-CategoricalArrays = "0.10"
-
 ["0.5 - 0.10.0"]
 CSV = "0.10"
 Tables = "1"
@@ -111,6 +114,9 @@ ZipFile = "0.10"
 
 ["0.5 - 0.10.1"]
 StatsBase = "0.30-0.34"
+
+["0.5 - 0.10.2"]
+CategoricalArrays = "0.10"
 
 ["0.5 - 0.9"]
 DataFrames = "1"
