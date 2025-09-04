@@ -15,7 +15,6 @@ NQCCalculators = "1"
 NQCDistributions = ["0.1", "1"]
 NQCModels = ["0.10", "1"]
 Optim = "1"
-OrdinaryDiffEq = "5 - 6"
 Parameters = "0.12"
 PeriodicTable = "1"
 ProgressMeter = "1"
@@ -39,3 +38,9 @@ UnicodePlots = "2 - 3"
 Unitful = "1"
 UnitfulAtomic = "1"
 julia = "1"
+
+["1 - 1.0.1"]
+OrdinaryDiffEq = "5 - 6"
+
+["1.0.2 - 1"]
+OrdinaryDiffEq = ["4 - 5", "6.0 - 6.101"]
