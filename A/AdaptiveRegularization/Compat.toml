@@ -1,4 +1,4 @@
-["0-0.1"]
+["0 - 0.1"]
 Krylov = "0.8.2-0.9"
 LinearOperators = "1-2"
 SolverCore = "0.2-0.3"
@@ -6,22 +6,32 @@ SparseMatricesCOO = "0.1-0.2"
 StoppingInterface = "0.3-0.5"
 julia = "1.6.0-1"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 NLPModels = "0.18-0.20"
 Stopping = "0.6"
 
-["0.1.1-0.1"]
+["0.1.1 - 0.1"]
 NLPModels = "0.18-0.21"
 SolverTools = "0.8.8-0.9"
 Stopping = "0.6.4-0.6"
 
-["0.2-0"]
+["0.2 - 0"]
 Krylov = "0.10"
 LinearOperators = "2"
-NLPModels = "0.21.5-0.21"
 SolverCore = "0.3"
+
+["0.2.0"]
+NLPModels = "0.21.5-0.21"
 SolverTools = "0.9"
 SparseMatricesCOO = "0.2.4-0.2"
 Stopping = "0.6.5-0.6"
 StoppingInterface = "0.5.4-0.5"
 julia = "1.10.0-1"
+
+["0.2.1 - 0"]
+NLPModels = "0.21.5 - 0.21"
+SolverTools = "0.9 - 0.10"
+SparseMatricesCOO = "0.2.4 - 0.2"
+Stopping = "0.6.5 - 0.6"
+StoppingInterface = "0.5.4 - 0.5"
+julia = "1.10.0 - 1"

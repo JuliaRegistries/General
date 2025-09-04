@@ -422,7 +422,6 @@ DocStringExtensions = "0.8 - 0.9"
 GPUArrays = ["10.3.0 - 10", "11.2.2 - 11"]
 Glob = "1.3.0 - 1"
 InteractiveUtils = "1.9.0 - 1"
-JLD2 = "0.4 - 0.5"
 KernelAbstractions = "0.9.21 - 0.9"
 LinearAlgebra = "1.9.0 - 1"
 Logging = "1.9.0 - 1"
@@ -439,6 +438,9 @@ julia = "1.9.0 - 1"
 
 ["0.96.34 - 0.96"]
 CUDA = "5.7.0 - 5"
+
+["0.96.34 - 0.97"]
+JLD2 = "0.4 - 0.5"
 
 ["0.96.34 - 0.97.3"]
 KrylovPreconditioners = "0.3.2 - 0.3"
@@ -460,3 +462,6 @@ KrylovPreconditioners = "0.3.2 - 0.3.4"
 
 ["0.97.6 - 0"]
 KrylovPreconditioners = "0.3.2 - 0.3"
+
+["0.98 - 0"]
+JLD2 = "0.4 - 0.6"
