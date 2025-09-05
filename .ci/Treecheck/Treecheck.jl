@@ -6,7 +6,6 @@ import LibGit2
 import TOML
 import Tar
 import Test
-import p7zip_jll
 
 # Bring some names into scope, just for convenience:
 using Test: @testset, @test
@@ -143,7 +142,6 @@ function verify_archive_tree_hash(tar_gz::AbstractString, expected_hash::String)
     end
     return true
 end
-exe7z() = p7zip_jll.p7zip()
 
 check(package_uuid_str::AbstractString) = check(RegistryToml(), package_uuid_str)
 function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
