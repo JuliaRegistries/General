@@ -5,40 +5,46 @@ FFTW = "1"
 NearestNeighbors = "0.4"
 julia = "1"
 
-["0-0.2"]
+["0 - 0.2"]
 WaveFD_jll = "0.1"
 
-["0-0.3.0"]
+["0 - 0.3.0"]
 SpecialFunctions = "0.10"
 StaticArrays = "0.12"
 
-["0-0.4"]
+["0 - 0.4"]
 DSP = "0.6"
 
-["0-0.6.2"]
+["0 - 0.6.2"]
 Statistics = "1"
 
 ["0.3"]
 WaveFD_jll = "0.2"
 
-["0.3.1-0"]
+["0.3.1 - 0"]
 StaticArrays = ["0.12", "1"]
 
-["0.3.1-0.4"]
+["0.3.1 - 0.4"]
 SpecialFunctions = ["0.10", "1"]
 
-["0.4-0.5.0"]
+["0.4 - 0.5.0"]
 WaveFD_jll = "0.3"
 
-["0.5-0"]
+["0.5 - 0.7.0"]
 DSP = "0.7"
 SpecialFunctions = ["0.10", "1-2"]
 
-["0.5.1-0.5"]
+["0.5.1 - 0.5"]
 WaveFD_jll = "0.5.1-0.5"
 
 ["0.6.0"]
 WaveFD_jll = "0.6"
 
-["0.6.1-0"]
+["0.6.1 - 0.7.0"]
 WaveFD_jll = "0.6.1-0.6"
+
+["0.7.1 - 0"]
+DSP = "0.7 - 0.8"
+SpecialFunctions = ["0.10", "1 - 2"]
+Statistics = "1"
+WaveFD_jll = "0.6.1 - 0.6"
