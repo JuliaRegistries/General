@@ -6,11 +6,9 @@ FerriteGmsh = "4f95f4f8-b27c-4ae5-9a39-ea55e634e36b"
 GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
 GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
 Gmsh = "705231aa-382f-11e9-3f0c-b7cb4346fdeb"
-IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
 LibGEOS = "a90b1aa1-3769-5649-ba7e-abc5a9d163eb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
-Preconditioners = "af69fa37-3177-5a40-98ee-561f696e4fcd"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
@@ -19,5 +17,18 @@ Tensors = "48a634ad-e948-5137-8d70-aa71f2a747f4"
 ["0 - 0.1"]
 SparseInverseSubset = "dc90abb0-5640-4711-901d-7e5b23a2fada"
 
+["0 - 0.3"]
+IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
+Preconditioners = "af69fa37-3177-5a40-98ee-561f696e4fcd"
+
 ["0.2 - 0"]
 SelectedInversion = "043bf095-3f01-458a-9f1c-8cf4448fe908"
+
+["0.4 - 0"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
+NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
+StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
