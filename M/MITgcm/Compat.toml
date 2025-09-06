@@ -2,30 +2,36 @@
 FortranFiles = "0.6"
 Glob = "1"
 Scratch = "1"
-julia = "1.9.0-1"
 
-["0-0.3.0"]
+["0 - 0.3.0"]
 ClimateModels = "0.2-0.3"
 MeshArrays = "0.2-0.3"
 
-["0-0.3.5"]
+["0 - 0.3.5"]
 DataFrames = "1"
 OrderedCollections = "1"
 Suppressor = "0.2"
 
-["0-0.3.6"]
+["0 - 0.3.6"]
 CodecZlib = "0.7"
 Downloads = "1"
 Tar = "1"
 
-["0.3.1-0"]
+["0 - 0.5.3"]
+julia = "1.9.0-1"
+
+["0.3.1 - 0"]
 ClimateModels = "0.3"
 MeshArrays = "0.3"
 
-["0.3.6-0"]
+["0.3.6 - 0"]
 Dataverse = "0.2"
 SparseArrays = "1"
 Statistics = "1"
 
-["0.4.4-0"]
+["0.4.4 - 0"]
 DataDeps = "0.7"
+
+["0.5.4 - 0"]
+StyledStrings = "1"
+julia = "1.9.0 - 1"
