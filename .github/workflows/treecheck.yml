@@ -1,0 +1,90 @@
+name: Treecheck
+
+on:
+  pull_request:
+    paths:
+      - '**/Package.toml'
+
+env:
+    JULIA_PKG_USE_CLI_GIT: true
+
+permissions:
+  contents: read
+
+concurrency:
+  # Skip intermediate builds: always.
+  # Cancel intermediate builds: only pull request builds
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
+
+jobs:
+  generate-matrix-treecheck:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          persist-credentials: false
+          #
+          # Number of commits to fetch. 0 indicates all history for all branches and tags.
+          # Default: 1
+          fetch-depth: '2'
+      - uses: julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71 # v2.6.1
+        with:
+          version: '1.11'
+      - name: Cache artifacts and packages
+        uses: julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9 # v2.1.0
+      - uses: tj-actions/changed-files@ed68ef82c095e0d48ec87eccea555d944a631a4c #v46.0.5
+        id: changed-files
+      - run: |
+          import Pkg
+          Pkg.instantiate()
+        shell: julia --startup-file=no --color=yes --project=.ci/Treecheck {0}
+        env:
+          JULIA_LOAD_PATH: '@:@stdlib'
+      - run: |
+          include("$(ENV["GITHUB_WORKSPACE"])/.ci/Treecheck/Treecheck.jl")
+
+          Treecheck.generate_ci_matrix()
+        id: set-matrix
+        shell: julia --startup-file=no --color=yes --project=.ci/Treecheck {0}
+        env:
+          JULIA_LOAD_PATH: '@'
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+  treecheck:
+    runs-on: ubuntu-latest
+    # Don't error on empty matrix:
+    if: ${{ needs.generate-matrix-treecheck.outputs.matrix != '[]' && needs.generate-matrix-treecheck.outputs.matrix != '' }}
+    needs:
+      - generate-matrix-treecheck
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix: ${{fromJson(needs.generate-matrix-treecheck.outputs.matrix)}}
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          persist-credentials: false
+      - uses: julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71 # v2.6.1
+        with:
+          version: '1.11'
+      - name: Cache artifacts and packages
+        uses: julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9 # v2.1.0
+      - run: |
+          import Pkg
+          Pkg.instantiate()
+        shell: julia --startup-file=no --color=yes --project=.ci/Treecheck {0}
+        env:
+          JULIA_LOAD_PATH: '@:@stdlib'
+      - run: |
+          include("$(ENV["GITHUB_WORKSPACE"])/.ci/Treecheck/Treecheck.jl")
+
+          uuid_str = strip(ENV["PACKAGE_UUID"])
+
+          Treecheck.check(uuid_str)
+        shell: julia --startup-file=no --color=yes --project=.ci/Treecheck {0}
+        env:
+          JULIA_LOAD_PATH: '@'
+          PACKAGE_UUID: ${{ matrix.PACKAGE_UUID }}
