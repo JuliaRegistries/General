@@ -1,5 +1,4 @@
 [1]
-DataStructures = "0.18"
 DocStringExtensions = "0.9"
 EnumX = "1"
 FastClosures = "0.3"
@@ -35,6 +34,9 @@ SciMLStructures = "1"
 SimpleUnPack = "1"
 Static = ["0.8", "1"]
 StaticArraysCore = "1"
+
+["1 - 1.32"]
+DataStructures = "0.18"
 
 ["1 - 1.4.0"]
 SciMLBase = "2.27.1-2"
@@ -106,7 +108,6 @@ DiffEqBase = "6.182.0 - 6"
 ADTypes = "1.16.0 - 1"
 Adapt = "4.3.0 - 4"
 ArrayInterface = "7.19.0 - 7"
-DiffEqBase = "6.176.0 - 6"
 FastBroadcast = "0.3"
 FastPower = "1.1.0 - 1"
 FillArrays = "1.13.0 - 1"
@@ -129,8 +130,15 @@ TruncatedStacktraces = "1.4.0 - 1"
 ["1.30 - 1.31"]
 SciMLBase = "2.99.0 - 2"
 
+["1.30 - 1.32"]
+DiffEqBase = "6.176.0 - 6"
+
 ["1.32 - 1"]
 SciMLBase = "2.115.0 - 2"
+
+["1.33 - 1"]
+DataStructures = "0.18.22 - 0.19"
+DiffEqBase = "6.187.0 - 6"
 
 ["1.4.1 - 1.6"]
 SciMLBase = "2.50.4-2"
