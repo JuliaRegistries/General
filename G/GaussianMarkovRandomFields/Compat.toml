@@ -3,9 +3,7 @@ AMD = "0.5"
 Distributions = "0.25"
 GeometryBasics = "0.4"
 Gmsh = "0.3"
-IterativeSolvers = "0.9"
 LinearAlgebra = ["0.0.0", "1"]
-Preconditioners = "0.6"
 Random = ["0.0.0", "1"]
 SparseArrays = ["0.0.0", "1"]
 SpecialFunctions = "2"
@@ -21,6 +19,10 @@ julia = "1.10.0 - 1"
 
 ["0 - 0.2"]
 Ferrite = "1"
+
+["0 - 0.3"]
+IterativeSolvers = "0.9"
+Preconditioners = "0.6"
 
 ["0.2"]
 SelectedInversion = "0.1"
@@ -44,6 +46,18 @@ FerriteGmsh = "1.2.0 - 1"
 GeoInterface = "1.4.0 - 1"
 LibGEOS = "0.8 - 0.9"
 LinearMaps = "3.11.0 - 3"
-SelectedInversion = "0.1.3 - 0.2"
 Tensors = "1.16.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.3.1 - 0.3"]
+SelectedInversion = "0.1.3 - 0.2"
+
+["0.4 - 0"]
+ChainRulesCore = "1"
+DifferentiationInterface = "0.6 - 0.7"
+Graphs = "1"
+LinearSolve = "2 - 3"
+NearestNeighbors = "0.4"
+NonlinearSolve = "4"
+SelectedInversion = "0.1.6 - 0.2"
+StatsFuns = "1"
