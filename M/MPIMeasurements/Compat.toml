@@ -1,36 +1,36 @@
-[0]
-ProgressMeter = "1.5.0-1"
-Reexport = ["0.2", "1"]
-
-["0-0.1"]
+["0 - 0.1"]
 RedPitayaDAQServer = "0.1-0.3"
 ThreadPools = "1.2.0-1"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 Gtk = "1"
 LibSerialPort = "0.5"
 MPIFiles = "0.9.3-0.10"
 Winston = "0.15"
 
-["0-0.2"]
+["0 - 0.2"]
 DelimitedFiles = "1.3.0-1"
 HDF5 = "0.10-0.15"
 Statistics = "1.3.0-1"
 julia = "1.3.0-1"
 
-["0-0.3"]
+["0 - 0.3"]
 Compat = "3.25.0-3"
 Graphics = "1.1.0-1"
 IniFile = "0.5"
 Interpolations = "0.13"
 
-["0-0.4.1"]
+["0 - 0.4.1"]
 Unitful = "1.6.0-1"
 
-["0.1.1-0.1"]
+["0 - 0.5"]
+ProgressMeter = "1.5.0-1"
+Reexport = ["0.2", "1"]
+
+["0.1.1 - 0.1"]
 MPIFiles = "0.11"
 
-["0.1.1-0.2"]
+["0.1.1 - 0.2"]
 LibSerialPort = "0.3"
 
 ["0.2"]
@@ -38,10 +38,10 @@ MPIFiles = "0.12"
 RedPitayaDAQServer = "0.4.2-0.4"
 ThreadPools = "1.2.0-2"
 
-["0.2-0.3"]
+["0.2 - 0.3"]
 UnitfulAngles = "0.6.1-0.6"
 
-["0.2-0.4.1"]
+["0.2 - 0.4.1"]
 DocStringExtensions = "0.8.5-0.8"
 
 ["0.3"]
@@ -52,7 +52,10 @@ PyTinkerforge = "2.1.29-2"
 RedPitayaDAQServer = "0.5.2-0.5"
 Statistics = "1.7.0-1"
 
-["0.3-0"]
+["0.3 - 0.4.0"]
+HDF5 = "0.10-0.16"
+
+["0.3 - 0.5"]
 LibSerialPort = "0.5.2-0.5"
 MacroTools = "0.5.6-0.5"
 ReplMaker = "0.2.7-0.2"
@@ -61,38 +64,58 @@ StringEncodings = "0.3.5-0.3"
 ThreadPools = "2.1.1-2"
 julia = "1.7.0-1"
 
-["0.3-0.4.0"]
-HDF5 = "0.10-0.16"
-
-["0.4-0"]
-DataStructures = "0.18"
-
-["0.4-0.4.1"]
+["0.4 - 0.4.1"]
 MPIFiles = "0.12.6-0.12"
 
-["0.4-0.4.2"]
+["0.4 - 0.4.2"]
 RedPitayaDAQServer = "0.6"
 
-["0.4.1-0"]
+["0.4 - 0.5"]
+DataStructures = "0.18"
+
+["0.4.1 - 0.5"]
 HDF5 = "0.16"
 
-["0.4.2-0"]
+["0.4.2 - 0.4"]
+MPIFiles = "0.12-0.14"
+
+["0.4.2 - 0.5"]
 DocStringExtensions = "0.8-0.9"
 Unitful = "1.13.0-1"
 
-["0.4.2-0.4"]
-MPIFiles = "0.12-0.14"
-
-["0.4.3-0"]
+["0.4.3 - 0"]
 Dates = "1"
 InteractiveUtils = "1"
 LinearAlgebra = "1"
 Mmap = "1"
 REPL = "1"
-RedPitayaDAQServer = "0.6-0.7"
 Sockets = "1"
 TOML = "1"
 UUIDs = "1"
 
-["0.5-0"]
+["0.4.3 - 0.5"]
+RedPitayaDAQServer = "0.6-0.7"
+
+["0.5"]
 MPIFiles = "0.14.2-0.15"
+
+["0.6 - 0"]
+DataStructures = "0.18 - 0.19"
+DocStringExtensions = "0.8 - 0.9"
+FFTW = "1.8.0 - 1"
+HDF5 = "0.16 - 0.17"
+LibSerialPort = "0.5.2 - 0.5"
+MPIFiles = "0.15 - 0.17"
+MacroTools = "0.5.6 - 0.5"
+NaturalSort = "1"
+ProgressMeter = "1.5.0 - 1"
+RedPitayaDAQServer = "0.6 - 0.11"
+RelocatableFolders = "1"
+ReplMaker = "0.2.7 - 0.2"
+Scratch = "1.1.0 - 1"
+Statistics = "1"
+StringEncodings = "0.3.5 - 0.3"
+ThreadPools = "2.1.1 - 2"
+UnicodePlots = "3"
+Unitful = "1.13.0 - 1"
+julia = "1.10.0 - 1"
