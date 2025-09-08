@@ -64,22 +64,30 @@ TensorOperations = "4.1.0-4"
 
 ["0.13 - 0"]
 Random = "1"
-TensorKitSectors = "0.1"
 
 ["0.13 - 0.14.6"]
 SparseArrays = "1"
 TensorOperations = "5.1.0-5"
 julia = "1.10.0-1"
 
+["0.13 - 0.14.9"]
+TensorKitSectors = "0.1"
+
 ["0.13.2 - 0.14.6"]
 VectorInterface = "0.4-0.5"
+
+["0.14.10 - 0"]
+TensorKitSectors = "0.1.4 - 0.2"
+VectorInterface = "0.4.8 - 0.5"
 
 ["0.14.7 - 0"]
 LRUCache = "1.0.2 - 1"
 TensorOperations = "5.1.0 - 5"
 TupleTools = "1.1.0 - 1"
-VectorInterface = "0.4 - 0.5"
 julia = "1.10.0 - 1"
+
+["0.14.7 - 0.14.9"]
+VectorInterface = "0.4 - 0.5"
 
 ["0.2 - 0.12"]
 HalfIntegers = "1"
