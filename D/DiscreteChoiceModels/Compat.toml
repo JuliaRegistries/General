@@ -1,6 +1,5 @@
 [0]
 DataFrames = "1"
-ForwardDiff = "0.10"
 FunctionWrappers = "1"
 MacroTools = "0.5"
 OnlineStats = "1"
@@ -8,7 +7,7 @@ Optim = "1"
 SplittablesBase = "0.1"
 Tables = "1"
 
-["0-0.0.1"]
+["0 - 0.0.1"]
 CSV = "0.9"
 Dagger = "0.14.1-0.14"
 FLoops = "0.1"
@@ -17,14 +16,31 @@ Statistics = "1.6.0-1"
 StatsBase = "0.33"
 julia = "1.6.0-1"
 
-["0.0.2-0"]
-CSV = "0.9-0.10"
+["0.0"]
+ForwardDiff = "0.10"
+
+["0.0.2 - 0"]
 DTables = "0.4"
 Dagger = "0.18"
 Distributions = "0.25"
+Primes = "0.5"
+
+["0.0.2 - 0.0"]
+CSV = "0.9-0.10"
 FLoops = "0.1-0.2"
 HaltonSequences = "0.1.1-0.2"
 PrettyTables = "1-2"
-Primes = "0.5"
 StatsBase = "0.33-0.34"
 julia = "1.8.0-1"
+
+["0.1 - 0"]
+CSV = "0.9 - 0.10"
+FLoops = "0.1 - 0.2"
+ForwardDiff = "1"
+HaltonSequences = "0.1.1 - 0.2"
+PrettyTables = "1 - 2"
+Serialization = "1.11.0 - 1"
+StatsBase = "0.33 - 0.34"
+ThreadsX = "0.1.12 - 0.1"
+UUIDs = "1.11.0 - 1"
+julia = "1.8.0 - 1"
