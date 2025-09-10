@@ -4,43 +4,51 @@ DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-["0-0.5"]
+["0 - 0.5"]
 AWSCore = "4f1ea46c-232b-54a6-9b17-cc2d0f3e6598"
 AWSSDK = "0d499d91-6ae5-5d63-9313-12987b87d5ad"
 
-["0-0.5.1"]
+["0 - 0.5.1"]
 AWSS3 = "1c724243-ef5b-51ab-93f4-b0a88ac62a95"
 
-["0.3-0"]
+["0.3 - 0"]
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 
-["0.3-0.5.1"]
+["0.3 - 0.5.1"]
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 
-["0.4-0"]
+["0.4 - 0"]
 DiskArrays = "3c3547ce-8d99-4f5e-a174-61eb10b00ae3"
 
-["0.4.1-0"]
+["0.4.1 - 0.9.4"]
 CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
 
-["0.4.2-0"]
+["0.4.2 - 0"]
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 
-["0.6-0.7"]
+["0.6 - 0.7"]
 AWS = "fbe9abb3-538b-5e4e-ba9e-bc94f4f92ebc"
 
-["0.6.1-0"]
+["0.6.1 - 0"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
-["0.7-0"]
-LRUCache = "8ac3fa9e-de4c-5943-b1dc-09c6b5f20637"
+["0.7 - 0"]
 URIs = "5c2747f8-b7ea-4ff2-ba2e-563bfd36b1d4"
 
-["0.8-0"]
+["0.7 - 0.9.4"]
+LRUCache = "8ac3fa9e-de4c-5943-b1dc-09c6b5f20637"
+
+["0.8 - 0"]
 AWSS3 = "1c724243-ef5b-51ab-93f4-b0a88ac62a95"
 
-["0.9-0"]
+["0.9 - 0"]
 OpenSSL = "4d8831e6-92b7-49fb-bdf8-b643e874388c"
 
-["0.9.3-0"]
+["0.9.3 - 0"]
 ZipArchives = "49080126-0e18-4c2a-b176-c102e4b3760c"
+
+["0.9.5 - 0"]
+ChunkCodecCore = "0b6fb165-00bc-4d37-ab8b-79f91016dbe1"
+ChunkCodecLibZlib = "4c0bbee4-addc-4d73-81a0-b6caacae83c8"
+ChunkCodecLibZstd = "55437552-ac27-4d47-9aa3-63184e8fd398"
+DateTimes64 = "b342263e-b350-472a-b1a9-8dfd21b51589"
