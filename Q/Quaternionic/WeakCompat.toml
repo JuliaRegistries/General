@@ -1,23 +1,37 @@
-["1.3-1.5.2"]
+["1.3 - 1.5.2"]
 Symbolics = ["0.1", "1-5"]
 
-["1.3-3"]
+["1.3 - 2"]
 ForwardDiff = "0.10"
 
-["1.3.2-3"]
+["1.3.2 - 2"]
 GenericLinearAlgebra = "0.3.11-0.3"
 
-["1.4-3"]
+["1.4 - 3"]
 ChainRulesCore = "1"
 
-["1.5-1.5.1"]
+["1.5 - 1.5.1"]
 FastDifferentiation = "0.3.14-0.3"
 
-["1.5.2-3"]
+["1.5.2 - 2"]
 FastDifferentiation = "0.3.15-0.3"
 
-["1.5.3-3"]
+["1.5.3 - 2"]
 Symbolics = ["0.1", "1-6"]
 
-[2-3]
+[2]
 Latexify = "0.15-0.16"
+
+["3.0.0"]
+FastDifferentiation = "0.3.15-0.3"
+ForwardDiff = "0.10"
+GenericLinearAlgebra = "0.3.11-0.3"
+Latexify = "0.15-0.16"
+Symbolics = ["0.1", "1-6"]
+
+["3.0.1 - 3"]
+FastDifferentiation = "0.3.15 - 0.3"
+ForwardDiff = ["0.10", "1"]
+GenericLinearAlgebra = "0.3.11 - 0.3"
+Latexify = "0.15 - 0.16"
+Symbolics = ["0.1", "1 - 6"]
