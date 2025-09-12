@@ -6,8 +6,10 @@ julia = "1.9.0-1"
 
 ["0 - 2"]
 DocStringExtensions = "0.9"
-Requires = "1"
 SciMLBase = "2"
+
+["0 - 2.10"]
+Requires = "1"
 
 ["0 - 2.8"]
 ArrayInterface = "7.6.0-7"
