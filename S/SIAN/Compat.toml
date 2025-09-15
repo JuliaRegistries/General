@@ -1,8 +1,8 @@
-["1-1.0.2"]
+["1 - 1.0.2"]
 MacroTools = "0.5.6-0.5"
 Oscar = "0.5"
 
-["1-1.4"]
+["1 - 1.4"]
 TestSetExtensions = "2"
 
 ["1.0.0"]
@@ -11,104 +11,117 @@ OrderedCollections = "1.3.2-1"
 Singular = "0.4.2-0.4"
 julia = "1.5.1-1"
 
-["1.0.1-1.0"]
+["1.0.1 - 1.0"]
 julia = "1.5.0-1"
 
-["1.0.1-1.0.2"]
+["1.0.1 - 1.0.2"]
 Singular = "0.4"
 
-["1.0.1-1.2"]
+["1.0.1 - 1.2"]
 GroebnerBasis = "0.1-0.3"
 
-["1.0.1-1.5"]
+["1.0.1 - 1.5"]
 OrderedCollections = "1.3.0-1"
 
-["1.0.3-1"]
+["1.0.3 - 1"]
 MacroTools = "0.5"
 
-["1.0.3-1.0"]
+["1.0.3 - 1.0"]
 Singular = "0.4-0.5"
 
-["1.0.3-1.1.0"]
+["1.0.3 - 1.1.0"]
 Oscar = "0.5-0.6"
 
-["1.1-1"]
+["1.1 - 1"]
 julia = "1"
 
-["1.1-1.1.1"]
+["1.1 - 1.1.1"]
 Singular = "0.4-0.7"
 
-["1.1-1.1.2"]
+["1.1 - 1.1.2"]
 ModelingToolkit = "6"
 SpecialFunctions = "1"
 
-["1.1-1.1.3"]
+["1.1 - 1.1.3"]
 Nemo = ["0.22", "0.24-0.27"]
 
-["1.1.1-1.2"]
+["1.1.1 - 1.2"]
 StructuralIdentifiability = "0.3"
 
 ["1.1.2"]
 Singular = "0.4-0.8"
 
-["1.1.3-1"]
-SpecialFunctions = "1-2"
-
-["1.1.3-1.1.6"]
+["1.1.3 - 1.1.6"]
 Singular = "0.4-0.9"
 
-["1.1.3-1.4"]
+["1.1.3 - 1.4"]
 ModelingToolkit = "6-8"
+
+["1.1.3 - 1.6"]
+SpecialFunctions = "1-2"
 
 ["1.1.4"]
 Nemo = ["0.22", "0.24-0.29"]
 
-["1.1.5-1.1"]
+["1.1.5 - 1.1"]
 Nemo = ["0.22", "0.24-0.30"]
 
-["1.1.7-1.2"]
+["1.1.7 - 1.2"]
 Singular = "0.4-0.10"
 
 ["1.2"]
 Nemo = ["0.22", "0.24-0.31"]
 
-["1.3-1.4.0"]
+["1.3 - 1.4.0"]
 Nemo = ["0.22", "0.24-0.32"]
 
-["1.3-1.4.1"]
+["1.3 - 1.4.1"]
 Groebner = "0.2"
 StructuralIdentifiability = "0.4"
 
-["1.4-1"]
+["1.4 - 1.6"]
 BenchmarkTools = "1"
 
 ["1.4.1"]
 Nemo = ["0.22", "0.24-0.33"]
 
-["1.4.1-1.4"]
+["1.4.1 - 1.4"]
 SymbolicUtils = ["0.18-0.19", "1"]
 
-["1.4.2-1"]
-LinearAlgebra = "1.0-2.0"
-Logging = "1.0-2.0"
-
-["1.4.2-1.4"]
+["1.4.2 - 1.4"]
 Groebner = "0.2-0.6"
 Nemo = "0.22-0.40"
 StructuralIdentifiability = "0.4-0.6"
 Test = "1.0-2.0"
+
+["1.4.2 - 1.6"]
+LinearAlgebra = "1.0-2.0"
+Logging = "1.0-2.0"
 
 ["1.5"]
 Groebner = "0.6-0.7"
 Nemo = "0.40-0.43"
 SymbolicUtils = "1"
 
-["1.5-1"]
-ModelingToolkit = "9"
+["1.5 - 1"]
 StructuralIdentifiability = "0.5"
 
-["1.6-1"]
+["1.5 - 1.6"]
+ModelingToolkit = "9"
+
+["1.6"]
 Groebner = "0.6-0.8"
 Nemo = "0.40-0.48"
-OrderedCollections = "1"
 SymbolicUtils = ["1", "3"]
+
+["1.6 - 1"]
+OrderedCollections = "1"
+
+["1.7 - 1"]
+Groebner = "0.9"
+LinearAlgebra = "1.0 - 2.0"
+Logging = "1.0 - 2.0"
+ModelingToolkit = "10"
+Nemo = "0.40 - 0.52"
+SpecialFunctions = "1 - 2"
+SymbolicUtils = "3"
