@@ -428,7 +428,6 @@ Compat = "4.16.0 - 4"
 ConcreteStructs = "0.2.3 - 0.2"
 DiffResults = "1.1.0 - 1"
 FastClosures = "0.3.2 - 0.3"
-ForwardDiff = ["0.10.36 - 0.10", "1"]
 LinearAlgebra = "1.10.0 - 1"
 MLDataDevices = "1.10.0 - 1"
 MacroTools = "0.5.13 - 0.5"
@@ -454,6 +453,9 @@ LuxCore = "1.2.0 - 1"
 
 ["1.13.6 - 1.21.0"]
 EnzymeCore = "0.8.11 - 0.8"
+
+["1.13.6 - 1.21.1"]
+ForwardDiff = ["0.10.36 - 0.10", "1"]
 
 ["1.16 - 1"]
 ADTypes = "1.15.0 - 1"
@@ -498,6 +500,9 @@ LuxLib = "1.11.0 - 1"
 
 ["1.21.1 - 1"]
 EnzymeCore = "0.8.13 - 0.8"
+
+["1.21.2 - 1"]
+ForwardDiff = ["0.10.36 - 0.10", "1.0.0"]
 
 ["1.3 - 1"]
 Functors = "0.5"
