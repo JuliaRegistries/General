@@ -7,7 +7,6 @@ Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LabelledArrays = "2ee39098-c373-598a-b85f-a56591580800"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
@@ -22,6 +21,9 @@ RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 ["0 - 0.5"]
 NodeJS = "2bd173c7-0d6d-553b-b6af-13a54713934c"
 
+["0 - 0.7"]
+NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
+
 ["0.4.5 - 0"]
 NaNMath = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
 
@@ -34,5 +36,9 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 ["0.7.3 - 0"]
 ArtifactUtils = "8b73e784-e7d8-4ea5-973d-377fed4e3bce"
 
-["0.7.4 - 0"]
+["0.7.4 - 0.7"]
 NLopt_jll = "079eb43e-fd8e-5478-9966-2cf3e3edb778"
+
+["0.8 - 0"]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+OptimizationNLopt = "4e6fcdb7-1186-4e1f-a706-475e75c168bb"
