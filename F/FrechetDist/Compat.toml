@@ -1,11 +1,19 @@
 [1]
 Documenter = "1.2"
-
-[1-2]
-DataStructures = "0.18"
-Parameters = "0.12"
 StaticArrays = "1.9"
 julia = "1.6.0-1"
 
-[2]
+["1 - 2"]
+DataStructures = "0.18"
+Parameters = "0.12"
+
+["2.0"]
 Documenter = "1"
+StaticArrays = "1.9"
+julia = "1.6.0-1"
+
+["2.1 - 2"]
+Distributions = "0.25.120 - 0.25"
+Random = "1.11.0 - 1"
+StaticArrays = "1.9.0 - 1"
+julia = "1.6.0 - 1"

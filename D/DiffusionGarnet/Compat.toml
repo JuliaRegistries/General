@@ -65,8 +65,10 @@ julia = "1.10.0-1"
 ParallelStencil = "0.13"
 
 ["0.1.9 - 1"]
-JLD2 = "0.5"
 OrdinaryDiffEqStabilizedRK = "1"
+
+["0.1.9 - 1.1"]
+JLD2 = "0.5"
 
 ["0.2 - 0"]
 ParallelStencil = "0.13-0.14"
@@ -83,17 +85,22 @@ TOML = "1.0.3-1"
 [1]
 DiffEqCallbacks = "3 - 4"
 ParallelStencil = "0.13 - 0.14"
-Printf = "1.11.0 - 1"
-ProgressBars = "1.5.0 - 1"
 TOML = "1"
 UnPack = "1"
 julia = "1.10.0 - 1"
 
+["1 - 1.1"]
+Printf = "1.11.0 - 1"
+ProgressBars = "1.5.0 - 1"
+
 ["1.0"]
 GeoParams = "0.7"
 
-["1.1 - 1"]
+["1.1"]
 GeoParams = "0.7.6 - 0.7"
 
 ["1.1.1 - 1"]
 MuladdMacro = "0.2.4 - 0.2"
+
+["1.2 - 1"]
+GeoParams = "0.7.7 - 0.7"

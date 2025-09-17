@@ -41,7 +41,7 @@ SymbolicIndexingInterface = "0.3.31-0.3"
 ["1.10 - 1.12"]
 SciMLBase = "2.92.0-2"
 
-["1.11 - 1"]
+["1.11 - 1.14"]
 SciMLOperators = ["0.4", "1"]
 
 ["1.13 - 1"]
@@ -51,18 +51,28 @@ ArrayInterface = "7.9.0 - 7"
 CommonSolve = "0.2.4 - 0.2"
 Compat = "4.15.0 - 4"
 ConcreteStructs = "0.2.3 - 0.2"
-DifferentiationInterface = "0.6.16 - 0.7"
 LinearAlgebra = "1.10.0 - 1"
 Markdown = "1.10.0 - 1"
 MaybeInplace = "0.1.4 - 0.1"
 Preferences = "1.4.0 - 1"
 Printf = "1.10.0 - 1"
-SciMLBase = "2.92.0 - 2"
 SciMLJacobianOperators = "0.1.1 - 0.1"
 StaticArraysCore = "1.4.0 - 1"
-SymbolicIndexingInterface = "0.3.36 - 0.3"
 TimerOutputs = "0.5.23 - 0.5"
 julia = "1.10.0 - 1"
+
+["1.13 - 1.14"]
+DifferentiationInterface = "0.6.16 - 0.7"
+SciMLBase = "2.92.0 - 2"
+SymbolicIndexingInterface = "0.3.36 - 0.3"
+
+["1.15 - 1"]
+DifferentiationInterface = "0.7.3 - 0.7"
+SciMLBase = "2.116.0 - 2"
+SciMLOperators = "1.7.0 - 1"
+SciMLStructures = "1.5.0 - 1"
+Setfield = "1.1.2 - 1"
+SymbolicIndexingInterface = "0.3.43 - 0.3"
 
 ["1.4 - 1.5"]
 SciMLBase = "2.68.1-2"

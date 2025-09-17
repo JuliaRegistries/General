@@ -21,12 +21,21 @@ LinearSolve = "3.15.0-3"
 
 ["1.13 - 1"]
 BandedMatrices = "1.5.0 - 1"
-DiffEqBase = "6.158.3 - 6"
 ForwardDiff = ["0.10.36 - 0.10", "1"]
 LineSearch = "0.1.4 - 0.1"
 LinearSolve = "3.15.0 - 3"
 SparseArrays = "1.10.0 - 1"
 SparseMatrixColorings = "0.4.5 - 0.4"
+
+["1.13 - 1.14"]
+DiffEqBase = "6.158.3 - 6"
+
+["1.15 - 1"]
+ChainRulesCore = "1"
+Enzyme = "0.13.12 - 0.13"
+Mooncake = "0.4"
+ReverseDiff = "1.15.0 - 1"
+Tracker = "0.2.35 - 0.2"
 
 ["1.4.1 - 1.11"]
 LinearSolve = "2.36.1-3"
