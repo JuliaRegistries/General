@@ -27,12 +27,14 @@ DiffEqCallbacks = "4.8.0 - 4"
 ForwardDiff = "1.0.1 - 1"
 Infiltrator = "1.8.0 - 1"
 JET = "0.9.18 - 0.9"
-JLD2 = "0.4 - 0.5"
 Polynomials = "2 - 4"
 julia = "1.10.0 - 1"
 
 ["0.10 - 0.10.3"]
 Muninn = "0.7"
+
+["0.10 - 0.10.6"]
+JLD2 = "0.4 - 0.5"
 
 ["0.10.0"]
 Sleipnir = "0.10"
@@ -49,7 +51,15 @@ Sleipnir = "0.10.4 - 0.10"
 
 ["0.10.5 - 0"]
 Muninn = "0.7"
+
+["0.10.5 - 0.10.6"]
 Sleipnir = "0.10.5 - 0.10"
+
+["0.10.7 - 0"]
+JLD2 = "0.4 - 0.6"
+OrdinaryDiffEqCore = "1"
+Sleipnir = "0.10.6 - 0.10"
+Statistics = "1"
 
 ["0.2"]
 Muninn = "0.2.4-0.2"
