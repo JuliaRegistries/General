@@ -1,40 +1,47 @@
-["2-2.4"]
+["2 - 2.4"]
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 
-[2-3]
+["2 - 3"]
 BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
 
-["2-3.3"]
+["2 - 3.3"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-[2-4]
+["2 - 5"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
-["3.4-3"]
+["3.4 - 3"]
 SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
 
-["3.4.1-4"]
+["3.4.1 - 5"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
-["3.5-4"]
+["3.5 - 5"]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
-[4]
+["4 - 5"]
 CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
 Sundials_jll = "fb77eaff-e24c-56d4-86b1-d163f2edb164"
 
-["4.10-4.16"]
+["4.10 - 4.16"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 
-["4.11-4"]
+["4.11 - 5"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
-["4.17-4"]
+["4.17 - 5"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+[5]
+Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
+ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
+LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
+NonlinearSolveBase = "be0214bd-f91f-a760-ac4e-3421ce2b2da0"
+SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
