@@ -1,4 +1,4 @@
-[1]
+["1 - 1.1.5"]
 MPI = "0.20"
 
 ["1.0"]
@@ -9,3 +9,10 @@ Zygote = "0.6"
 ["1.1 - 1"]
 PencilArrays = "0.19"
 PencilFFTs = "0.15"
+
+["1.1.6 - 1"]
+AMDGPU = "1"
+CUDA = "5"
+GPUArrays = "10 - 11"
+GPUArraysCore = "0.1 - 0.2"
+KernelAbstractions = "0.9"
