@@ -3,7 +3,7 @@ ChainRulesCore = "1"
 FiniteDiff = "2"
 HCubature = "1"
 
-["0-0.2"]
+["0 - 0.2"]
 Distributions = "0.25"
 Optim = "1"
 Optimization = "3"
@@ -13,10 +13,10 @@ SparseDiffTools = "2"
 Zygote = "0.6"
 julia = "1.7.0-1"
 
-["0-0.4.0"]
+["0 - 0.4.0"]
 ForwardDiff = "0.10"
 
-["0.3-0"]
+["0.3 - 0"]
 ADTypes = "1"
 LinearAlgebra = "1"
 Reexport = "1"
@@ -29,17 +29,17 @@ OptimizationOptimJL = "0.3"
 SparseConnectivityTracer = "0.5"
 julia = "1.9.0-1"
 
-["0.3.1-0"]
+["0.3.1 - 0.3.2"]
+DifferentiationInterface = "0.6.13-0.6"
+
+["0.3.1 - 0.4.1"]
 Optimization = "4.0.3-4"
 OptimizationOptimJL = "0.4.1-0.4"
 SparseConnectivityTracer = "0.5-0.6"
 SparseMatrixColorings = "0.4.7-0.4"
 julia = "1.10.0-1"
 
-["0.3.1-0.3.2"]
-DifferentiationInterface = "0.6.13-0.6"
-
-["0.3.2-0"]
+["0.3.2 - 0.4.1"]
 ComponentArrays = "0.15.17-0.15"
 
 ["0.3.3"]
@@ -51,12 +51,24 @@ DifferentiationInterface = "0.6.13-0.6"
 ["0.3.5"]
 DifferentiationInterface = "0.6.13-0.6.17"
 
-["0.3.6-0.4.0"]
+["0.3.6 - 0.4.0"]
 DifferentiationInterface = "0.6.24-0.6"
 
-["0.4-0"]
+["0.4 - 0.4.1"]
 LogDensityProblems = "2.1.2-2"
 
-["0.4.1-0"]
+["0.4.1"]
 DifferentiationInterface = "0.6.24-0.7"
+
+["0.4.1 - 0"]
 ForwardDiff = ["0.10", "1"]
+
+["0.4.2 - 0"]
+ComponentArrays = "0.15.17 - 0.15"
+DifferentiationInterface = "0.6.24 - 0.7"
+LogDensityProblems = "2.1.2 - 2"
+Optimization = "4.0.3 - 4"
+OptimizationOptimJL = "0.4.1 - 0.4"
+SparseConnectivityTracer = ["0.5 - 0.6", "1"]
+SparseMatrixColorings = "0.4.7 - 0.4"
+julia = "1.10.0 - 1"
