@@ -1,4 +1,4 @@
-["1.33.1 - 3.18.0"]
+["1.33.1 - 3.12.0"]
 HYPRE = "1.4.0-1"
 
 ["2 - 2.12"]
@@ -13,7 +13,7 @@ RecursiveArrayTools = "2"
 ["2.11 - 2.22"]
 BandedMatrices = "1"
 
-["2.13 - 3.18.0"]
+["2.13 - 3.12.0"]
 IterativeSolvers = "0.9.3-0.9"
 
 ["2.17 - 2.29.1"]
@@ -56,7 +56,7 @@ EnzymeCore = "0.6.5-0.6"
 ["2.23 - 2.34"]
 KernelAbstractions = "0.9.16-0.9"
 
-["2.23 - 3.18.0"]
+["2.23 - 3.12.0"]
 BandedMatrices = "1.5.0-1"
 
 ["2.23.4 - 2.29"]
@@ -85,11 +85,11 @@ Pardiso = "0.5.7-0.5"
 ["2.31 - 2.38"]
 CUDSS = "0.1-0.3"
 
-["2.35 - 3.18.0"]
+["2.35 - 3.12.0"]
 EnzymeCore = "0.8.1-0.8"
 KernelAbstractions = "0.9.27-0.9"
 
-["2.39 - 3.18.0"]
+["2.39 - 3.12.0"]
 CUDSS = "0.1-0.4"
 KrylovKit = "0.8-0.9"
 Pardiso = ["0.5.7-0.5", "1"]
@@ -100,7 +100,7 @@ BlockDiagonals = "0.1"
 ["2.6 - 2.22"]
 KernelAbstractions = "0.9"
 
-["3 - 3.18.0"]
+["3 - 3.12.0"]
 RecursiveFactorization = "0.2.14-0.2"
 Sparspak = "0.3.6-0.3"
 
@@ -109,6 +109,34 @@ FastLapackInterface = "2"
 
 ["3.0"]
 RecursiveArrayTools = "3.8.0-3"
+
+["3.12.1 - 3.12"]
+BandedMatrices = "1.5.0 - 1"
+BlockDiagonals = "0.1.42 - 0.2"
+CUDSS = "0.1 - 0.4"
+EnzymeCore = "0.8.1 - 0.8"
+HYPRE = "1.4.0 - 1"
+IterativeSolvers = "0.9.3 - 0.9"
+KernelAbstractions = "0.9.27 - 0.9"
+KrylovKit = "0.8 - 0.9"
+Pardiso = ["0.5.7 - 0.5", "1"]
+RecursiveFactorization = "0.2.14 - 0.2"
+SparseArrays = "1.10.0 - 1"
+Sparspak = "0.3.6 - 0.3"
+
+["3.13 - 3.18.0"]
+BandedMatrices = "1.5.0-1"
+BlockDiagonals = "0.1.42-0.2"
+CUDSS = "0.1-0.4"
+EnzymeCore = "0.8.1-0.8"
+HYPRE = "1.4.0-1"
+IterativeSolvers = "0.9.3-0.9"
+KernelAbstractions = "0.9.27-0.9"
+KrylovKit = "0.8-0.9"
+Pardiso = ["0.5.7-0.5", "1"]
+RecursiveFactorization = "0.2.14-0.2"
+SparseArrays = "1.10.0-1"
+Sparspak = "0.3.6-0.3"
 
 ["3.18.0"]
 ForwardDiff = ["0.10.36-0.10", "1"]
@@ -180,8 +208,8 @@ Sparspak = "0.3.9 - 0.3"
 ["3.30 - 3"]
 ForwardDiff = ["0.10.38 - 0.10", "1"]
 
-["3.4 - 3.18.0"]
+["3.4 - 3.12.0"]
 SparseArrays = "1.10.0-1"
 
-["3.5 - 3.18.0"]
+["3.5 - 3.12.0"]
 BlockDiagonals = "0.1.42-0.2"
