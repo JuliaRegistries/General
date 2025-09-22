@@ -17,11 +17,19 @@ CoinUtils_jll = "2.11.3"
 JLLWrappers = "1.1.0-1"
 Osi_jll = "0.108.5"
 
-[100]
-JLLWrappers = "1.2.0-1"
-
 ["100-100.1700.600"]
 julia = "1"
+
+["100-100.1700.901"]
+JLLWrappers = "1.2.0-1"
+
+["100.1700.1000-100"]
+Artifacts = ["0.0.0", "1"]
+CoinUtils_jll = "200.1100.1200"
+JLLWrappers = "1.7.0-1"
+Libdl = ["0.0.0", "1"]
+MUMPS_seq_jll = "500.800.100"
+Osi_jll = "0.10800.1100"
 
 ["100.1700.601"]
 CoinUtils_jll = "200.1100.400"
@@ -42,13 +50,15 @@ Osi_jll = "0.10800.700"
 MUMPS_seq_jll = "500.700.200"
 
 ["100.1700.900-100"]
-Artifacts = "1"
-CoinUtils_jll = "200.1100.1100"
-Libdl = "1"
 METIS_jll = "5.1.2"
-Osi_jll = "0.10800.1000"
 julia = "1.9.0-1"
 libblastrampoline_jll = "5.4.0-5"
 
-["100.1700.901-100"]
+["100.1700.900-100.1700.901"]
+Artifacts = "1"
+CoinUtils_jll = "200.1100.1100"
+Libdl = "1"
+Osi_jll = "0.10800.1000"
+
+["100.1700.901"]
 MUMPS_seq_jll = "500.700.300"
