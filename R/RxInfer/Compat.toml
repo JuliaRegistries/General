@@ -172,8 +172,10 @@ GraphPPL = "4.5"
 ReactiveMP = "4.5"
 
 [4]
-ExponentialFamily = "2"
 GraphPPL = "4.6"
+
+["4 - 4.5"]
+ExponentialFamily = "2"
 
 ["4 - 4.5.0"]
 BayesBase = "1.5.0-1"
@@ -201,7 +203,7 @@ ReactiveMP = "5.3"
 ["4.4"]
 ReactiveMP = "5.4"
 
-["4.5 - 4"]
+["4.5"]
 ReactiveMP = "5.5"
 
 ["4.5.1 - 4"]
@@ -223,3 +225,7 @@ Statistics = "1.10.0 - 1"
 TupleTools = "1.2.0 - 1"
 UUIDs = "1.10.0 - 1"
 julia = "1.10.0 - 1"
+
+["4.6 - 4"]
+ExponentialFamily = "2.1.0 - 2"
+ReactiveMP = "5.6"
