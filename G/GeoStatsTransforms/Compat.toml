@@ -62,29 +62,42 @@ GeoStatsFunctions = "0.10"
 
 ["0.12.10 - 0"]
 ArnoldiMethod = "0.2 - 0.4"
-GeoTables = "1.21.0 - 1"
-LinearAlgebra = "1.9.0 - 1"
 OhMyThreads = "0.5 - 0.8"
 PrecompileTools = "1.2.0 - 1"
-Random = "1.9.0 - 1"
-SparseArrays = "1.9.0 - 1"
-Statistics = "1.9.0 - 1"
 TableTransforms = "1.25.0 - 1"
 Tables = "1.10.0 - 1"
 Unitful = "1.17.0 - 1"
+
+["0.12.10 - 0.12"]
+GeoTables = "1.21.0 - 1"
+LinearAlgebra = "1.9.0 - 1"
+Random = "1.9.0 - 1"
+SparseArrays = "1.9.0 - 1"
+Statistics = "1.9.0 - 1"
 julia = "1.9.0 - 1"
 
-["0.12.12 - 0"]
+["0.12.12 - 0.12"]
 GeoStatsModels = "0.12"
 
 ["0.12.13 - 0"]
 Meshes = "0.54"
 
-["0.12.15 - 0"]
+["0.12.15 - 0.12"]
 CategoricalArrays = ["0.10", "1"]
 
-["0.12.9 - 0"]
+["0.12.9 - 0.12"]
 GeoStatsFunctions = "0.11"
+
+["0.13 - 0"]
+CategoricalArrays = "1"
+GeoStatsFunctions = "0.12"
+GeoStatsModels = "0.13"
+GeoTables = "1.25.0 - 1"
+LinearAlgebra = "1.10.0 - 1"
+Random = "1.10.0 - 1"
+SparseArrays = "1.10.0 - 1"
+Statistics = "1.10.0 - 1"
+julia = "1.10.0 - 1"
 
 ["0.2 - 0.2.4"]
 TableDistances = "0.3"
