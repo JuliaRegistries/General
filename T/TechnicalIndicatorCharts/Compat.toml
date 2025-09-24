@@ -20,7 +20,13 @@ DataStructures = "0.18.20-0.18"
 LightweightCharts = "2-3"
 
 ["0.6.7 - 0"]
-Chain = "1"
-DataStructures = "0.19"
 LightweightCharts = "2 - 3"
 TidyTest = "0.1.1 - 0.1"
+
+["0.6.7 - 0.6.8"]
+Chain = "1"
+DataStructures = "0.19"
+
+["0.6.9 - 0"]
+Chain = ["0.6", "1"]
+DataStructures = "0.18 - 0.19"
