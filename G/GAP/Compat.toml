@@ -169,17 +169,23 @@ AbstractAlgebra = ["0.41.11 - 0.41", "0.42.1 - 0.46"]
 Artifacts = "1.10.0 - 1"
 FileWatching = "1.10.0 - 1"
 GAP_jll = "400.1401.5 - 400.1401"
-GAP_pkg_juliainterface_jll = "0.1500.0"
 InteractiveUtils = "1.10.0 - 1"
 Libdl = "1.10.0 - 1"
 Markdown = "1.10.0 - 1"
-Pkg = "1.10.0 - 1"
 REPL = "1.10.0 - 1"
 Random = "1.10.0 - 1"
 julia = "1.10.0 - 1"
 
+["0.15 - 0.15.2"]
+GAP_pkg_juliainterface_jll = "0.1500.0"
+Pkg = "1.10.0 - 1"
+
 ["0.15.1 - 0"]
 AbstractAlgebra = ["0.41.11 - 0.41", "0.42.1 - 0.47"]
+
+["0.15.3 - 0"]
+GAP_pkg_juliainterface_jll = "0.1500.300"
+SHA = ["0.7", "1"]
 
 ["0.2 - 0.2.1"]
 GAPTypes = "0.0.0-1"
