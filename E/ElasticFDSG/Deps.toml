@@ -1,20 +1,24 @@
 [1]
-CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Metal = "dde4c033-4e86-420c-a63e-0dd931031962"
 NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 
-["1.0.2 - 1"]
+["1 - 1.0.2"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Metal = "dde4c033-4e86-420c-a63e-0dd931031962"
+
+["1.0.2"]
 AMDGPU = "21141c5a-9bdb-4563-92ae-f87d6854732e"
+oneAPI = "8f75cd03-7ff8-4ecb-9b8f-daf728133b1b"
+
+["1.0.2 - 1"]
 Einsum = "b7d42ee7-0b51-5a75-98ca-779d3107e4c0"
 GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
-oneAPI = "8f75cd03-7ff8-4ecb-9b8f-daf728133b1b"
