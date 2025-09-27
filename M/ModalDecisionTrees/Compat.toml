@@ -1,50 +1,52 @@
 [0]
 AbstractTrees = "0.4"
-BenchmarkTools = "1"
 CategoricalArrays = "0.10"
 CategoricalDistributions = "0.1"
 DataFrames = "1"
-DataStructures = "0.18"
-DelimitedFiles = "1"
 Distributions = "0.25"
 FillArrays = "1"
 FunctionWrappers = "1"
-LoggingExtras = "1"
 MLJModelInterface = "1"
 Memoization = "0.2"
 OpenML = "0.3"
 ProgressMeter = "1"
 Reexport = "1"
-ResumableFunctions = "0.6"
-Revise = "3"
-Suppressor = "0.2"
 Tables = "1"
-ThreadsX = "0.1"
 julia = "1"
 
-["0-0.1"]
+["0 - 0.1"]
 SoleData = "0.10"
 Statistics = "1"
 
-["0-0.1.5"]
+["0 - 0.1.5"]
 StatsBase = "0.34"
 
-["0-0.1.6"]
+["0 - 0.1.6"]
 PProf = "2"
 SoleLogics = "0.4"
 SoleModels = "0.2"
 
-["0-0.3"]
+["0 - 0.3"]
 SoleBase = "0.11"
 
-["0-0.4.0"]
+["0 - 0.4.0"]
 MLJ = "0.19"
 MLJBase = "0.21"
 
-["0.1.6-0.1"]
+["0 - 0.5.1"]
+BenchmarkTools = "1"
+DataStructures = "0.18"
+DelimitedFiles = "1"
+LoggingExtras = "1"
+ResumableFunctions = "0.6"
+Revise = "3"
+Suppressor = "0.2"
+ThreadsX = "0.1"
+
+["0.1.6 - 0.1"]
 StatsBase = "0.33"
 
-["0.1.7-0.1"]
+["0.1.7 - 0.1"]
 SoleLogics = "0.5"
 SoleModels = "0.3"
 
@@ -53,23 +55,23 @@ SoleData = "0.11"
 SoleModels = "0.4"
 StatsBase = "0.34"
 
-["0.2-0"]
+["0.2 - 0"]
 Random = "1"
 
-["0.2-0.3"]
+["0.2 - 0.3"]
 SoleLogics = "0.6"
 
 ["0.3"]
 SoleData = "0.12"
 SoleModels = "0.5"
 
-["0.3-0"]
+["0.3 - 0.5.1"]
 StatsBase = "0.30-0.34"
 
-["0.3.2-0.3"]
+["0.3.2 - 0.3"]
 Sole = "0.3"
 
-["0.4-0"]
+["0.4 - 0.5.1"]
 MultiData = "0-0.1"
 SoleBase = "0.12"
 
@@ -79,22 +81,33 @@ SoleData = "0.13"
 SoleLogics = "0.7"
 SoleModels = "0.6"
 
-["0.4.1-0"]
+["0.4.1 - 0"]
 Lazy = "0.15"
 ScientificTypes = "3"
 
-["0.4.1-0.4"]
+["0.4.1 - 0.4"]
 Sole = "0.5"
 SoleData = "0.14"
 SoleModels = "0.7"
 
-["0.4.1-0.5.0"]
+["0.4.1 - 0.5.0"]
 SoleLogics = "0.9"
 
-["0.5-0"]
+["0.5 - 0.5.1"]
 Sole = "0.6"
 SoleData = "0.15"
 SoleModels = "0.8"
 
-["0.5.1-0"]
+["0.5.1"]
 SoleLogics = "0.9-0.10"
+
+["0.5.2 - 0"]
+DataStructures = "0.18 - 0.19"
+Logging = "1"
+MultiData = "0 - 0.1"
+ResumableFunctions = "1"
+SoleBase = "0.13"
+SoleData = "0.16"
+SoleLogics = "0.13"
+SoleModels = "0.10"
+StatsBase = "0.33 - 0.34"
