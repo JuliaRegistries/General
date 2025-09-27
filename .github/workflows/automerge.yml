@@ -79,7 +79,7 @@ jobs:
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: .ci/instantiate.sh
+      - run: .ci/instantiate.sh .ci/
       - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
       - name: AutoMerge.run
         env:
@@ -164,7 +164,7 @@ jobs:
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: .ci/instantiate.sh
+      - run: .ci/instantiate.sh .ci/
       - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
       - name: AutoMerge.run
         env:
@@ -226,7 +226,7 @@ jobs:
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: .ci/instantiate.sh
+      - run: .ci/instantiate.sh .ci/
       - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
       - run: julia --project=.ci/ .ci/stopwatch.jl
         env:
