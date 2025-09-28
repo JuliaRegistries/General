@@ -46,7 +46,7 @@ jobs:
           name = "AutoMerge"
           uuid = "c5732277-7834-41e3-8e1f-5f375898cfe1"
           rev = "master"
-          subdir = "AutoMerge.jl"
+          subdir = "AutoMerge"
           url = "https://github.com/JuliaRegistries/RegistryCI.jl"
           Pkg.add(; name, uuid, rev, subdir, url)
         shell: julia --color=yes --project=.ci/AutoMerge/ {0}
