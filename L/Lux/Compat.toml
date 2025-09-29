@@ -355,14 +355,14 @@ MLDataDevices = "1.0.1-1"
 ["0.5.64 - 1.13.5"]
 Static = "1.1.1-1"
 
-["0.5.66 - 1"]
-SIMDTypes = "0.1"
-
 ["0.5.66 - 1.1"]
 VectorizationBase = "0.21.70-0.21"
 
 ["0.5.66 - 1.13.5"]
 StaticArraysCore = "1.4.3-1"
+
+["0.5.66 - 1.22.0"]
+SIMDTypes = "0.1"
 
 ["0.5.67 - 1.1"]
 MLDataDevices = "1.1.0-1"
@@ -424,12 +424,10 @@ Adapt = "4.1.0 - 4"
 ArgCheck = "2.3.0 - 2"
 ArrayInterface = "7.17.1 - 7"
 ChainRulesCore = "1.25.0 - 1"
-Compat = "4.16.0 - 4"
 ConcreteStructs = "0.2.3 - 0.2"
 DiffResults = "1.1.0 - 1"
 FastClosures = "0.3.2 - 0.3"
 LinearAlgebra = "1.10.0 - 1"
-MLDataDevices = "1.10.0 - 1"
 MacroTools = "0.5.13 - 0.5"
 Markdown = "1.10.0 - 1"
 NNlib = "0.9.26 - 0.9"
@@ -457,6 +455,10 @@ EnzymeCore = "0.8.11 - 0.8"
 ["1.13.6 - 1.21.1"]
 ForwardDiff = ["0.10.36 - 0.10", "1"]
 
+["1.13.6 - 1.22.0"]
+Compat = "4.16.0 - 4"
+MLDataDevices = "1.10.0 - 1"
+
 ["1.16 - 1"]
 ADTypes = "1.15.0 - 1"
 DispatchDoctor = "0.4.26 - 0.4"
@@ -467,7 +469,7 @@ LuxLib = "1.10.0 - 1"
 ["1.17 - 1.18"]
 LuxCore = "1.3.0 - 1"
 
-["1.19 - 1"]
+["1.19 - 1.22.0"]
 LuxCore = "1.4.0 - 1"
 
 ["1.2 - 1.3.3"]
@@ -495,7 +497,7 @@ LuxLib = "1.3.7-1"
 ["1.2.3 - 1.2"]
 Optimisers = "0.3.3-0.4"
 
-["1.21 - 1"]
+["1.21 - 1.22.0"]
 LuxLib = "1.11.0 - 1"
 
 ["1.21.1 - 1"]
@@ -507,6 +509,12 @@ ForwardDiff = ["0.10.36 - 0.10", "1.0.0"]
 ["1.22 - 1"]
 PrecompileTools = "1.2.1 - 1"
 ReactantCore = "0.1.16 - 0.1"
+
+["1.22.1 - 1"]
+LuxCore = "1.4.2 - 1"
+LuxLib = "1.12.1 - 1"
+MLDataDevices = "1.12.1 - 1"
+SciMLPublic = "1"
 
 ["1.3 - 1"]
 Functors = "0.5"
