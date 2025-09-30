@@ -1,17 +1,13 @@
 [0]
-ADTypes = "1.4.0-1"
 Distributed = ["0.0.0", "1"]
 LineSearches = "7"
-MLJModelInterface = "1.5-1.11"
-MacroTools = "0.4-0.5"
 Pkg = ["0.0.0", "1"]
 PrecompileTools = "1"
 Random = ["0.0.0", "1"]
 Reexport = "1"
-StatsBase = "0.33-0.34"
 TOML = ["0.0.0", "1"]
 
-["0-0.1"]
+["0 - 0.1"]
 Compat = "4.2.0-4"
 ConstructionBase = "1.5.7-1"
 Dates = "1"
@@ -26,6 +22,12 @@ Printf = ["0.0.0", "1"]
 ProgressBars = "1.4-1.5"
 SpecialFunctions = ["0.10.1-0.10", "1-2"]
 
+["0 - 0.3.0"]
+ADTypes = "1.4.0-1"
+MLJModelInterface = "1.5-1.11"
+MacroTools = "0.4-0.5"
+StatsBase = "0.33-0.34"
+
 ["0.0"]
 JSON = "0.21.4-0.21"
 PromptingTools = "0.54"
@@ -34,26 +36,48 @@ julia = "1.6.0-1"
 ["0.1"]
 PromptingTools = ["0.53-0.54", "0.56"]
 
-["0.1-0"]
+["0.1 - 0"]
 JSON = "0.21"
+
+["0.1 - 0.3.0"]
 julia = "1.10.0-1"
 
 ["0.2"]
 Optim = "1.8-1.10"
 SymbolicRegression = "1.7.0-1"
 
-["0.2-0"]
+["0.2 - 0"]
+DynamicQuantities = "1"
+Logging = "1"
+
+["0.2 - 0.3.0"]
 Compat = "4.16.0-4"
 ConstructionBase = ["1.0.0-1.5.6", "1.5.8-1"]
 DispatchDoctor = "0.4.17-0.4"
 DynamicExpressions = "1.8-1.9"
-DynamicQuantities = "1"
-Logging = "1"
 LossFunctions = ["0.10-0.11", "1"]
 PackageExtensionCompat = "1.0.2-1"
 PromptingTools = "0.65-0.72"
 
-["0.3-0"]
+["0.3 - 0"]
 Optim = "1"
-SymbolicRegression = "1.8.0-1"
 UUIDs = "1"
+
+["0.3.0"]
+SymbolicRegression = "1.8.0-1"
+
+["0.3.1 - 0"]
+ADTypes = "1.4.0 - 1"
+Compat = "4.16.0 - 4"
+ConstructionBase = ["1.0.0 - 1.5.6", "1.5.8 - 1"]
+DispatchDoctor = "0.4.17 - 0.4"
+Downloads = "1.6.0 - 1"
+DynamicExpressions = "1 - 2"
+LossFunctions = ["0.10 - 0.11", "1"]
+MLJModelInterface = "1"
+MacroTools = "0.4 - 0.5"
+PackageExtensionCompat = "1.0.2 - 1"
+PromptingTools = "0.65 - 0.81"
+StatsBase = "0.33 - 0.34"
+SymbolicRegression = "2"
+julia = "1.11 - 1.12"
