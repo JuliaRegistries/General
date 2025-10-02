@@ -728,7 +728,7 @@ CoordRefSystems = "0.17"
 ["0.78 - 0.81"]
 GeoStatsTransforms = "0.12"
 
-["0.79 - 0"]
+["0.79 - 0.82.1"]
 CoordRefSystems = "0.18"
 
 ["0.8 - 0.8.1"]
@@ -785,7 +785,6 @@ GeoStatsFunctions = "0.11"
 
 ["0.80.1 - 0"]
 CoDa = "1.2.0 - 1"
-Dates = "1.9.0 - 1"
 DensityRatioEstimation = "1.2.0 - 1"
 Rotations = "1.7.0 - 1"
 Tables = "1.10.0 - 1"
@@ -799,10 +798,13 @@ julia = "1.9.0 - 1"
 ["0.80.1 - 0.81.5"]
 TableTransforms = "1.31.0 - 1"
 
+["0.80.1 - 0.82.1"]
+Dates = "1.9.0 - 1"
+
 ["0.81"]
 GeoStatsModels = "0.12"
 
-["0.81.1 - 0"]
+["0.81.1 - 0.82.1"]
 Meshes = "0.54"
 
 ["0.81.3 - 0"]
@@ -827,6 +829,11 @@ GeoStatsValidation = "0.4"
 GeoTables = "1.25.0 - 1"
 Statistics = "1.10.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.82.2 - 0"]
+CoordRefSystems = "0.19"
+Dates = "1.10.0 - 1"
+Meshes = "0.55"
 
 ["0.9.0"]
 GeoStatsBase = "0.4.3-0.5"
