@@ -386,14 +386,19 @@ SimpleNonlinearSolve = "2.1.0 - 2"
 StaticArraysCore = "1.4.0 - 1"
 julia = "1.10.0 - 1"
 
+["4.11"]
+NonlinearSolveBase = "1.15.0 - 1"
+
 ["4.11 - 4"]
 DifferentiationInterface = "0.7.3 - 0.7"
-NonlinearSolveBase = "1.15.0 - 1"
 NonlinearSolveQuasiNewton = "1.8.0 - 1"
 Preferences = "1.4.3 - 1"
 Reexport = "1.2.2 - 1"
 SciMLBase = "2.116.0 - 2"
 SymbolicIndexingInterface = "0.3.43 - 0.3"
+
+["4.12 - 4"]
+NonlinearSolveBase = "2"
 
 ["4.3 - 4.9"]
 NonlinearSolveBase = "1.4.0-1"
