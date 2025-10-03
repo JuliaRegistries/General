@@ -17,11 +17,13 @@ WriteVTK = "1.21.0-1"
 julia = "1.11.0-1"
 
 ["0.1.11 - 0"]
-ColorSchemes = "3.30.0 - 3"
-FastPointQuery = "0.1"
 PrecompileTools = "1.2.0 - 1"
 WriteVTK = "1.21.0 - 1"
 julia = "1.11.0 - 1"
+
+["0.1.11 - 0.1"]
+ColorSchemes = "3.30.0 - 3"
+FastPointQuery = "0.1"
 
 ["0.1.2 - 0.1.10"]
 MaterialPointSolver = "0.4"
@@ -34,5 +36,11 @@ ColorSchemes = "3.29.0-3"
 Electron = "6"
 LiveServer = "1.4.0-1"
 
-["0.1.8 - 0"]
+["0.1.8 - 0.1"]
 WGLMakie = "0.11"
+
+["0.2 - 0"]
+ColorSchemes = "3.31.0 - 3"
+FastPointQuery = "0.2"
+ProgressMeter = "1.10.0 - 1"
+WGLMakie = "0.13"
