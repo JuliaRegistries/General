@@ -2,17 +2,17 @@
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.1.1-0.1.3"]
+["0.1.1 - 0.1.3"]
 Surrogates = "6fc51010-71bc-11e9-0e15-a3fcc6593c49"
 
-["0.1.1-0.1.4"]
+["0.1.1 - 0.1.4"]
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 
-["0.1.1-0.1.5"]
+["0.1.1 - 0.1.5"]
 Gmsh = "705231aa-382f-11e9-3f0c-b7cb4346fdeb"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
@@ -20,24 +20,30 @@ Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
 ["0.1.22"]
 GMT = "5752ebe1-31b9-557e-87aa-f909b540aa54"
 
-["0.1.22-0"]
+["0.1.22 - 0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LiveServer = "16fef848-5104-11e9-1b77-fb7a48bbb589"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["0.1.22 - 0.1.23"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.1.23-0"]
+["0.1.23"]
 LibGEOS = "a90b1aa1-3769-5649-ba7e-abc5a9d163eb"
 
-["0.1.4-0"]
+["0.1.24 - 0"]
+FastPointQuery = "b325ad68-3eea-4afa-b43e-4b8e378fd76d"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+
+["0.1.4 - 0"]
 NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 
-["0.1.5-0"]
+["0.1.5 - 0.1.10"]
+WriteVTK = "64499a7a-5c06-52f2-abe2-ccb03c286192"
+
+["0.1.5 - 0.1.23"]
 CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
 PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
 
-["0.1.5-0.1.10"]
-WriteVTK = "64499a7a-5c06-52f2-abe2-ccb03c286192"
-
-["0.1.9-0.1.22"]
+["0.1.9 - 0.1.22"]
 Gmsh = "705231aa-382f-11e9-3f0c-b7cb4346fdeb"
