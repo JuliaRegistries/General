@@ -7,5 +7,11 @@ Parsers = "0.0.0-1"
 ["0.21.1"]
 Parsers = ["0.1-0.3", "1"]
 
-["0.21.2-0"]
+["0.21.2 - 0"]
 Parsers = "1-2"
+
+[1]
+Parsers = "1 - 2"
+PrecompileTools = "1"
+StructUtils = "2.3.0 - 2"
+julia = "1.9.0 - 1"
