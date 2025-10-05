@@ -2,12 +2,14 @@
 CSV = "0.10"
 Dates = "1"
 HTTP = "1"
-JSON = "0.21"
 Tables = "1"
 
 ["0 - 0.1.6"]
 Unitful = "1.22.0-1"
 julia = "1.10.0-1"
+
+["0 - 0.2.0"]
+JSON = "0.21"
 
 ["0.1.2"]
 SpaceDataModel = "0.1"
@@ -19,11 +21,17 @@ SpaceDataModel = "0.1.5-0.1"
 SpaceDataModel = "0.1.7-0.1"
 
 ["0.1.7 - 0"]
-Unitful = "1.22.0 - 1"
 julia = "1.10.0 - 1"
 
 ["0.1.7 - 0.1"]
 SpaceDataModel = "0.1.7 - 0.1"
 
+["0.1.7 - 0.2.0"]
+Unitful = "1.22.0 - 1"
+
 ["0.2 - 0"]
 SpaceDataModel = "0.1.7 - 0.2"
+
+["0.2.1 - 0"]
+JSON = ["0.21", "1"]
+Unitful = "1"
