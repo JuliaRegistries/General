@@ -310,13 +310,15 @@ SciMLBase = "2"
 ADTypes = "1.5.0-1"
 
 [4]
-Boltz = "1"
-Lux = "1"
 LuxCore = "1"
 
 ["4 - 4.3"]
 LuxLib = "1.2.0-1"
 Static = "1.1.1-1"
+
+["4 - 4.4"]
+Boltz = "1"
+Lux = "1"
 
 ["4.4 - 4"]
 ADTypes = "1.5.0 - 1"
@@ -326,3 +328,7 @@ Random = "1.10.0 - 1"
 Setfield = "1.1.1 - 1"
 Static = "1.1.1 - 1"
 julia = "1.10.0 - 1"
+
+["4.5 - 4"]
+Boltz = "1.7.0 - 1"
+Lux = "1.22.0 - 1"
