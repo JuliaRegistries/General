@@ -189,7 +189,8 @@ checks each PR, and if there are no blocking comments when it checks
 
 ### Are there any requirements for package names in the General registry?
 
-There are no hard requirements, but it is *highly recommended* to follow
+Package names can only use ASCII letters and numbers. Beyond that, there are
+no *hard* requirements, but it is *highly recommended* to follow
 the [package naming guidelines][naming-guidelines].
 
 ### What to do when asked to reconsider/update the package name?
