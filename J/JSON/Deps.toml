@@ -1,12 +1,20 @@
 [0]
-Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
-Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
-["0-0.20.0"]
+["0 - 0.20.0"]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.21-0"]
+["0 - 1"]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+
+["0.21 - 1"]
 Parsers = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
+
+[1]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+StructUtils = "ec057cc2-7a8d-4b58-b3b3-92acb9f63b42"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"

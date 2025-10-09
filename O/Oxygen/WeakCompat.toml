@@ -8,7 +8,7 @@ ProtoBuf = "1"
 CairoMakie = "0.11"
 WGLMakie = "0.9"
 
-["1.6.1 - 1"]
+["1.6.1 - 1.7.3"]
 CairoMakie = "0.13"
 WGLMakie = "0.11"
 
@@ -17,3 +17,7 @@ TimeZones = "1.20.0-1"
 
 ["1.7.3 - 1"]
 TimeZones = "1.20.0 - 1"
+
+["1.7.4 - 1"]
+CairoMakie = ["0.13", "0.15"]
+WGLMakie = ["0.11", "0.13"]

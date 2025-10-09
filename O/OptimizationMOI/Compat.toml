@@ -52,14 +52,35 @@ Symbolics = "5-6"
 
 ["0.5 - 0"]
 LinearAlgebra = "1"
+
+["0.5 - 0.5.5"]
 Optimization = "4"
 
 ["0.5.4"]
 ModelingToolkit = "9-10"
 
-["0.5.5 - 0"]
+["0.5.5"]
 ModelingToolkit = "9 - 10"
-Reexport = "1.2.0 - 1"
-SparseArrays = "1.6.0 - 1"
 Symbolics = "5 - 6"
 julia = "1.6.0 - 1"
+
+["0.5.5 - 0"]
+Reexport = "1.2.0 - 1"
+SparseArrays = "1.6.0 - 1"
+
+["0.5.6"]
+ModelingToolkit = "10"
+
+["0.5.6 - 0"]
+Symbolics = "6"
+julia = "1.10.0 - 1"
+
+["0.5.6 - 0.5.7"]
+Optimization = "4.4.0 - 4"
+
+["0.5.7 - 0"]
+ModelingToolkit = "10.23.0 - 10"
+
+["0.5.8 - 0"]
+OptimizationBase = "3"
+SciMLBase = "2.58.0 - 2"

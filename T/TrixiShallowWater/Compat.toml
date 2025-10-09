@@ -1,14 +1,24 @@
 [0]
 LinearAlgebra = "1"
-MuladdMacro = "0.2.4-0.2"
 Printf = "1"
+
+["0 - 0.1"]
+Trixi = "0.11.10-0.11"
+
+["0 - 0.2.0"]
+MuladdMacro = "0.2.4-0.2"
 Roots = "2.1.6-2"
 Static = "1.1.1-1"
 StaticArrays = "1.9.0-1"
 julia = "1.10.0-1"
 
-["0-0.1"]
-Trixi = "0.11.10-0.11"
-
-["0.2-0"]
+["0.2.0"]
 Trixi = "0.12"
+
+["0.2.1 - 0"]
+MuladdMacro = "0.2.4 - 0.2"
+Roots = "2.1.6 - 2"
+Static = "1.1.1 - 1"
+StaticArrays = "1.9.0 - 1"
+Trixi = "0.13"
+julia = "1.10.0 - 1"

@@ -37,7 +37,6 @@ SciMLBase = "2.30.1-2"
 
 ["9.11 - 9"]
 DocStringExtensions = "0.9"
-Reexport = "1"
 
 ["9.11 - 9.13.4"]
 DiffEqBase = "6.148.0-6"
@@ -54,6 +53,9 @@ RecursiveArrayTools = "3.12.0-3"
 StaticArrays = "1.9.0-1"
 julia = "1.10.0-1"
 
+["9.11 - 9.17"]
+Reexport = "1"
+
 ["9.11.0"]
 SymbolicIndexingInterface = "0.3.11-0.3"
 
@@ -63,7 +65,7 @@ SymbolicIndexingInterface = "0.3.13-0.3"
 ["9.12 - 9.14.0"]
 SciMLBase = "2.46.0-2"
 
-["9.13.4 - 9"]
+["9.13.4 - 9.17"]
 Setfield = "1"
 
 ["9.13.5 - 9.16.0"]
@@ -76,23 +78,46 @@ SciMLBase = "2.59.0-2"
 DiffEqCallbacks = "4.3.0-4"
 
 ["9.16.1 - 9"]
-ArrayInterface = "7.9.0 - 7"
-DiffEqCallbacks = "4.3.0 - 4"
 FunctionWrappers = "1.1.0 - 1"
-Graphs = "1.9.0 - 1"
-RecursiveArrayTools = "3.12.0 - 3"
-SciMLBase = "2.59.0 - 2"
 StaticArrays = "1.9.0 - 1"
-SymbolicIndexingInterface = "0.3.13 - 0.3"
 UnPack = "1.0.2 - 1"
 julia = "1.10.0 - 1"
 
 ["9.16.1 - 9.16"]
 DiffEqBase = "6.154.0 - 6"
 
+["9.16.1 - 9.17"]
+ArrayInterface = "7.9.0 - 7"
+DiffEqCallbacks = "4.3.0 - 4"
+Graphs = "1.9.0 - 1"
+RecursiveArrayTools = "3.12.0 - 3"
+SciMLBase = "2.59.0 - 2"
+SymbolicIndexingInterface = "0.3.13 - 0.3"
+
+["9.17"]
+DiffEqBase = "6.180.0 - 6"
+
 ["9.17 - 9"]
 DataStructures = "0.18 - 0.19"
-DiffEqBase = "6.180.0 - 6"
+
+["9.18"]
+DiffEqBase = "6.181.0 - 6"
+SciMLBase = "2.95.0 - 2"
+
+["9.18 - 9"]
+ArrayInterface = "7.15.0 - 7"
+DiffEqCallbacks = "4.7.0 - 4"
+Graphs = "1.11.0 - 1"
+LinearAlgebra = "1"
+Random = "1"
+RecursiveArrayTools = "3.32.0 - 3"
+Reexport = "1.2.0 - 1"
+Setfield = "1.1.0 - 1"
+SymbolicIndexingInterface = "0.3.35 - 0.3"
+
+["9.19 - 9"]
+DiffEqBase = "6.186.0 - 6"
+SciMLBase = "2.115.0 - 2"
 
 ["9.2 - 9.7"]
 SciMLBase = "1.51.0-1"

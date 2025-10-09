@@ -63,7 +63,6 @@ ADTypes = "1.16.0 - 1"
 ArrayInterface = "7.19.0 - 7"
 ConcreteStructs = "0.2"
 DiffEqBase = "6.176.0 - 6"
-DifferentiationInterface = "0.7"
 FiniteDiff = "2.27.0 - 2"
 LinearSolve = "3.26.0 - 3"
 SciMLBase = "2.99.0 - 2"
@@ -77,11 +76,17 @@ ForwardDiff = "0.10.38 - 0.10"
 ["1.12 - 1.14"]
 SparseArrays = "1.10.0 - 1"
 
+["1.12 - 1.16.0"]
+DifferentiationInterface = "0.7"
+
 ["1.13 - 1"]
 OrdinaryDiffEqCore = "1.29.0 - 1"
 
 ["1.13.1 - 1"]
 ForwardDiff = ["0.10.38 - 0.10", "1"]
+
+["1.16.1 - 1"]
+DifferentiationInterface = "0.6.54 - 0.7"
 
 ["1.3 - 1.4"]
 ADTypes = "1.11.0-1"

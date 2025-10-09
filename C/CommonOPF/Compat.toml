@@ -1,19 +1,19 @@
 [0]
 julia = "1"
 
-["0-0.4.0"]
+["0 - 0.4.0"]
 PowerModelsDistribution = "0.14"
 
-["0.2-0"]
-Graphs = "1.8.0-1"
-
-["0.2-0.3"]
+["0.2 - 0.3"]
 MetaGraphs = "0.7"
 
-["0.3.5-0"]
+["0.2 - 0.4"]
+Graphs = "1.8.0-1"
+
+["0.3.5 - 0"]
 JuMP = "1"
 
-["0.4-0"]
+["0.4 - 0"]
 Parameters = "0.12"
 YAML = "0.4"
 
@@ -23,13 +23,18 @@ MetaGraphsNext = "0.6"
 ["0.4.1"]
 OpenDSSDirect = "0.9"
 
-["0.4.1-0"]
+["0.4.1 - 0"]
 MetaGraphsNext = "0.7"
 
-["0.4.3-0"]
+["0.4.3 - 0"]
 DataStructures = "0.18"
 OpenDSSDirect = "0.9.9"
 
-["0.4.7-0"]
+["0.4.7 - 0.4"]
 MathOptInterface = "1.40.2-1"
 PrettyTables = "2.4.0-2"
+
+["0.5 - 0"]
+Graphs = "1.8.0 - 1"
+MathOptInterface = "1.40.2 - 1"
+PrettyTables = "2.4.0 - 2"

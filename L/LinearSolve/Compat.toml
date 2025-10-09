@@ -195,7 +195,7 @@ StaticArraysCore = "1.2.0-1"
 ["2.22 - 2"]
 RecursiveFactorization = "0.2.14-0.2"
 
-["2.22 - 3.18.0"]
+["2.22 - 3.12.0"]
 Preferences = "1.4.0-1"
 
 ["2.23 - 2.24"]
@@ -210,7 +210,7 @@ GPUArraysCore = "0.1.6-0.1"
 ["2.23 - 3.10"]
 SciMLOperators = "0.3.7-0.3"
 
-["2.23 - 3.18.0"]
+["2.23 - 3.12.0"]
 ArrayInterface = "7.7.0-7"
 ConcreteStructs = "0.2.3-0.2"
 DocStringExtensions = "0.9.3-0.9"
@@ -228,7 +228,7 @@ SparseArrays = "1.10.0-1"
 ["2.25 - 2"]
 SciMLBase = "2.26.3-2.77"
 
-["2.25 - 3.18.0"]
+["2.25 - 3.12.0"]
 ChainRulesCore = "1.22.0-1"
 Markdown = "1.10.0-1"
 
@@ -241,13 +241,13 @@ LazyArrays = "1.8.0-1"
 ["2.3 - 2.16"]
 FastLapackInterface = "1-2"
 
-["2.30.1 - 3.18.0"]
+["2.30.1 - 3.12.0"]
 LazyArrays = "1.8.0-2"
 
 ["2.31 - 2.33"]
 CpuId = "0.3.1-0.3"
 
-["2.36.1 - 3.18.0"]
+["2.36.1 - 3.12.0"]
 GPUArraysCore = "0.1.6-0.2"
 
 ["2.6 - 2.22"]
@@ -262,17 +262,55 @@ EnzymeCore = "0.6"
 ["2.8.1 - 2.16"]
 EnzymeCore = "0.5-0.6"
 
-["3 - 3.18.0"]
+["3 - 3.12.0"]
 SciMLBase = "2.70.0-2"
 
 ["3.1 - 3.7"]
 RecursiveArrayTools = "3.8.0-3"
 
-["3.11 - 3.12"]
+["3.11 - 3.12.0"]
 SciMLOperators = "0.3.7-0.4"
 
+["3.12.1 - 3.12"]
+ArrayInterface = "7.7.0 - 7"
+ChainRulesCore = "1.22.0 - 1"
+ConcreteStructs = "0.2.3 - 0.2"
+DocStringExtensions = "0.9.3 - 0.9"
+EnumX = "1.0.4 - 1"
+GPUArraysCore = "0.1.6 - 0.2"
+InteractiveUtils = "1.10.0 - 1"
+LazyArrays = "1.8.0 - 2"
+Libdl = "1.10.0 - 1"
+LinearAlgebra = "1.10.0 - 1"
+MKL_jll = "2019 - 2025"
+Markdown = "1.10.0 - 1"
+PrecompileTools = "1.2.0 - 1"
+Preferences = "1.4.0 - 1"
+RecursiveArrayTools = "3.27.2 - 3"
+SciMLBase = "2.70.0 - 2"
+SciMLOperators = "0.3.7 - 0.4"
+StaticArraysCore = "1.4.2 - 1"
+julia = "1.10.0 - 1"
+
 ["3.13 - 3.18.0"]
+ArrayInterface = "7.7.0-7"
+ChainRulesCore = "1.22.0-1"
+ConcreteStructs = "0.2.3-0.2"
+DocStringExtensions = "0.9.3-0.9"
+EnumX = "1.0.4-1"
+GPUArraysCore = "0.1.6-0.2"
+InteractiveUtils = "1.10.0-1"
+LazyArrays = "1.8.0-2"
+Libdl = "1.10.0-1"
+LinearAlgebra = "1.10.0-1"
+Markdown = "1.10.0-1"
+PrecompileTools = "1.2.0-1"
+Preferences = "1.4.0-1"
+RecursiveArrayTools = "3.27.2-3"
+SciMLBase = "2.70.0-2"
 SciMLOperators = ["0.3.7-0.4", "1"]
+StaticArraysCore = "1.4.2-1"
+julia = "1.10.0-1"
 
 ["3.18.1 - 3"]
 ConcreteStructs = "0.2.3 - 0.2"
@@ -323,8 +361,11 @@ OpenBLAS_jll = "0.3"
 ["3.39 - 3"]
 SciMLOperators = "1.7.1 - 1"
 
+["3.40.1 - 3"]
+MKL_jll = "2019 - 2025"
+
 ["3.8 - 3"]
 Krylov = "0.10"
 
-["3.8 - 3.18.0"]
+["3.8 - 3.12.0"]
 RecursiveArrayTools = "3.27.2-3"

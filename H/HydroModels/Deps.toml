@@ -1,14 +1,11 @@
 [0]
 ComponentArrays = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 RuntimeGeneratedFunctions = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
@@ -42,6 +39,11 @@ DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
 ["0 - 0.2.5"]
 StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"
 
+["0 - 0.3"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
 ["0 - 0.3.1"]
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 
@@ -56,7 +58,7 @@ MLUtils = "f1d291b0-491e-4a28-83b9-f70985020b54"
 ["0.2.5"]
 HydroModelCore = "57609f06-44cb-4626-8f6d-47ea844d0af1"
 
-["0.2.6 - 0"]
+["0.2.6 - 0.3"]
 DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 SciMLSensitivity = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
@@ -64,8 +66,12 @@ SciMLSensitivity = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
 ["0.3.3"]
 BoundaryValueDiffEq = "764a87c0-6b3e-53db-9096-fe964310641d"
 
-["0.3.3 - 0"]
+["0.3.3 - 0.3"]
 DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
 
 ["0.3.6 - 0"]
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0.4 - 0"]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+HydroModelCore = "57609f06-44cb-4626-8f6d-47ea844d0af1"

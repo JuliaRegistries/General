@@ -30,18 +30,28 @@ StatsBase = "0.34.5 - 0.34"
 
 ["0.2 - 0"]
 BSON = "0.3"
-CategoricalArrays = "0.10"
 Distributions = "0.25.1 - 0.25"
 HDF5 = "0.17"
-Interpolations = "0.15"
-JLD2 = "0.5"
-JSON = "0.21"
 LIBSVM = "0.8"
-MLJ = "0.20"
 MultivariateStats = "0.10"
 NPZ = "0.4"
 Parameters = "0.12"
 RollingFunctions = "0.8"
-StatisticalMeasures = "0.1"
 Statistics = "1.11.0 - 1"
 StatsBase = "0.34"
+
+["0.2 - 0.2.4"]
+CategoricalArrays = "0.10"
+Interpolations = "0.15"
+JLD2 = "0.5"
+JSON = "0.21"
+MLJ = "0.20"
+StatisticalMeasures = "0.1"
+
+["0.2.5 - 0"]
+CategoricalArrays = ["0.10", "1"]
+Interpolations = "0.15 - 0.16"
+JLD2 = "0.5 - 0.6"
+JSON = ["0.21", "1"]
+MLJ = "0.20 - 0.21"
+StatisticalMeasures = ["0.1", "0.3"]

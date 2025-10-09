@@ -22,10 +22,12 @@ MathOptInterface = "1.19.0-1"
 
 ["0.6 - 0"]
 MadNLP = "0.8"
-NLPModelsIpopt = "0.10"
 
 ["0.6 - 0.8.2"]
 Ipopt = "1.6.0-1"
+
+["0.6 - 0.9.1"]
+NLPModelsIpopt = "0.10"
 
 ["0.7.1 - 0.7"]
 AMDGPU = "0.7-0.8"
@@ -40,10 +42,20 @@ JuMP = "1"
 oneAPI = "1-2"
 
 ["0.8.3 - 0"]
-Ipopt = "1.6.0 - 1"
 MathOptInterface = "1.19.0 - 1"
+
+["0.8.3 - 0.9.1"]
+Ipopt = "1.6.0 - 1"
 oneAPI = "1 - 2"
 
 ["0.9 - 0"]
-AMDGPU = "1 - 2"
 OpenCL = "0.10"
+
+["0.9 - 0.9.1"]
+AMDGPU = "1 - 2"
+
+["0.9.2 - 0"]
+AMDGPU = "2"
+Ipopt = "1.11.0 - 1"
+NLPModelsIpopt = "0.11"
+oneAPI = "2"

@@ -1,99 +1,126 @@
 [0]
-Optim = "1"
 PositiveFactorizations = "0.2"
 
-["0-0.1"]
+["0 - 0.1"]
 IterativeSolvers = "0.8"
 LinearMaps = "2"
 StaticArrays = "0.12"
 Zygote = "0.5.14-0.5"
 
-["0-0.2"]
+["0 - 0.2"]
 ForwardDiff = "0.10"
 
-["0-0.2.0"]
+["0 - 0.2.0"]
 ValueShapes = "0.7"
 
-["0-0.2.2"]
+["0 - 0.2.2"]
 Distributions = "0.23-0.24"
 
-["0-0.3.1"]
+["0 - 0.3.1"]
 julia = "1.5.0-1"
+
+["0 - 0.4.2"]
+Optim = "1"
 
 ["0.2"]
 Zygote = "0.5.14-0.6"
 
-["0.2-0"]
+["0.2 - 0"]
 DistributionsAD = "0.6"
-IterativeSolvers = "0.8-0.9"
 LinearMaps = "3"
 StaticArrays = ["0.12", "1"]
 
-["0.2-0.2.3"]
+["0.2 - 0.2.3"]
 ChainRulesCore = "0.9"
 
-["0.2.1-0.2.2"]
+["0.2 - 0.4.2"]
+IterativeSolvers = "0.8-0.9"
+
+["0.2.1 - 0.2.2"]
 ValueShapes = "0.7-0.8"
 
 ["0.2.3"]
 ValueShapes = "0.7-0.9"
 
-["0.2.3-0.2"]
+["0.2.3 - 0.2"]
 Distributions = "0.23-0.25"
 
 ["0.2.4"]
 ChainRulesCore = "0.9.44-0.10"
 ValueShapes = "0.9"
 
-["0.2.5-0"]
-ChainRulesCore = ["0.9.44-0.10", "1"]
-DocStringExtensions = "0.8-0.9"
+["0.2.5 - 0"]
 LineSearches = "7"
-PDMats = "0.11.5-0.11"
 
-["0.2.5-0.2"]
+["0.2.5 - 0.2"]
 FillArrays = "0.7-0.13"
 
-["0.2.5-0.3.0"]
+["0.2.5 - 0.3.0"]
 Statistics = "1.5.0-1"
 ValueShapes = "0.9-0.10"
 
-["0.2.5-0.3.1"]
+["0.2.5 - 0.3.1"]
 Parameters = "0.12"
 
-["0.3-0"]
-FillArrays = "1.1.1-1"
+["0.2.5 - 0.4.2"]
+ChainRulesCore = ["0.9.44-0.10", "1"]
+DocStringExtensions = "0.8-0.9"
+PDMats = "0.11.5-0.11"
+
+["0.3 - 0"]
 HeterogeneousComputing = "0.2"
 
-["0.3-0.3.1"]
+["0.3 - 0.3.1"]
 AutoDiffOperators = "0.1.3-0.1"
 
-["0.3-0.4.1"]
+["0.3 - 0.4.1"]
 Distributions = "0.25"
 
-["0.3.1-0"]
+["0.3 - 0.4.2"]
+FillArrays = "1.1.1-1"
+
+["0.3.1 - 0.4.2"]
 ValueShapes = "0.9-0.11"
 
-["0.3.2-0"]
-AutoDiffOperators = "0.2"
+["0.3.2 - 0"]
 Distributed = "1"
 LinearAlgebra = "1"
-Parameters = "0.12-0.13"
 Random = "1"
 SparseArrays = "1"
 Statistics = "1"
+
+["0.3.2 - 0.4.2"]
+AutoDiffOperators = "0.2"
+Parameters = "0.12-0.13"
 julia = "1.10.0-1"
 
-["0.4-0"]
+["0.4 - 0"]
 AffineMaps = "0.3"
 DensityInterface = "0.4"
+
+["0.4 - 0.4.2"]
 IrrationalConstants = "0.2.2-0.2"
 
 ["0.4.0"]
 LinearSolve = "2"
 
-["0.4.1-0"]
+["0.4.1 - 0.4.2"]
 LinearSolve = "2-3"
 
-["0.4.2-0"]
+["0.4.2"]
 Distributions = "0.25.65-0.25"
+
+["0.4.3 - 0"]
+AutoDiffOperators = "0.3"
+ChainRulesCore = ["0.9.44 - 0.10", "1"]
+Distributions = "0.25.65 - 0.25"
+DocStringExtensions = "0.8 - 0.9"
+FillArrays = "1.1.1 - 1"
+IrrationalConstants = "0.2.2 - 0.2"
+IterativeSolvers = "0.8 - 0.9"
+LinearSolve = "2 - 3"
+Optim = "1.12.0 - 1"
+PDMats = "0.11.5 - 0.11"
+Parameters = "0.12 - 0.13"
+ValueShapes = "0.9 - 0.11"
+julia = "1.10.0 - 1"

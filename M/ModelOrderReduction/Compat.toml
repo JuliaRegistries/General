@@ -1,9 +1,23 @@
 [0]
-DocStringExtensions = "0.8-0.9"
-ModelingToolkit = "8.21.0-8"
 RandomizedLinAlg = "0.1"
 Setfield = ["0.8", "1"]
+TSVD = "0.4"
+
+["0 - 0.1.0"]
+DocStringExtensions = "0.8-0.9"
+ModelingToolkit = "8.21.0-8"
 SymbolicUtils = "0.19"
 Symbolics = "4.10.0-4"
-TSVD = "0.4"
 julia = "1.6.0-1"
+
+["0.1.1"]
+ModelingToolkit = "9"
+
+["0.1.1 - 0"]
+DocStringExtensions = "0.8 - 0.9"
+LinearAlgebra = "1"
+SparseArrays = "1"
+julia = "1.10.0 - 1"
+
+["0.1.2 - 0"]
+ModelingToolkit = "10"

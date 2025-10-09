@@ -75,6 +75,9 @@ LineSearches = "7.3.0-7"
 MPI = "0.20.22-0.20"
 Sundials = "4.23.1-4"
 
+["4.10"]
+Sundials = "4.23.1 - 4"
+
 ["4.10 - 4"]
 LeastSquaresOptim = "0.8.5 - 0.8"
 LineSearches = "7.3.0 - 7"
@@ -82,7 +85,10 @@ MINPACK = "1.2.0 - 1"
 MPI = "0.20.22 - 0.20"
 NLsolve = "4.5.0 - 4"
 SIAMFANLEquations = "1.0.1 - 1"
-Sundials = "4.23.1 - 4"
+
+["4.11 - 4"]
+SparseArrays = "1.10.0 - 1"
+Sundials = "4.23.1 - 5"
 
 ["4.5 - 4"]
 FixedPointAcceleration = ["0.3", "1"]
