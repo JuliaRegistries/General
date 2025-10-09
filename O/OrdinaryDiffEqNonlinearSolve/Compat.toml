@@ -67,13 +67,11 @@ OrdinaryDiffEqDifferentiation = "1.5.0 - 1"
 ["1.13 - 1"]
 ADTypes = "1.16.0 - 1"
 ArrayInterface = "7.19.0 - 7"
-DiffEqBase = "6.176.0 - 6"
 FastBroadcast = "0.3"
 FastClosures = "0.3"
 LinearAlgebra = "1.10.0 - 1"
 LinearSolve = "3.26.0 - 3"
 MuladdMacro = "0.2"
-NonlinearSolve = "4.10.0 - 4"
 PreallocationTools = "0.4"
 RecursiveArrayTools = "3.36.0 - 3"
 SciMLBase = "2.99.0 - 2"
@@ -81,6 +79,10 @@ SciMLOperators = "1.4.0 - 1"
 SciMLStructures = "1.7.0 - 1"
 SimpleNonlinearSolve = "2.7.0 - 2"
 StaticArrays = "1.9.0 - 1"
+
+["1.13 - 1.14"]
+DiffEqBase = "6.176.0 - 6"
+NonlinearSolve = "4.10.0 - 4"
 
 ["1.13 - 1.14.0"]
 ForwardDiff = "0.10.38 - 0.10"
@@ -91,6 +93,10 @@ OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
 
 ["1.14.1 - 1"]
 ForwardDiff = ["0.10.38 - 0.10", "1"]
+
+["1.15 - 1"]
+DiffEqBase = "6.190.2 - 6"
+NonlinearSolve = "4.12.0 - 4"
 
 ["1.2.3 - 1.10"]
 NonlinearSolve = "3.14.0-4"
