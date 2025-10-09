@@ -135,13 +135,13 @@ ObjectiveC = "3.2.0-3"
 ["1.5.1 - 1.6.1"]
 GPUArrays = "11.2.1-11"
 
-["1.6 - 1"]
-BFloat16s = "0.5"
-
 ["1.6 - 1.6.1"]
 GPUToolbox = "0.1-0.2"
 ObjectiveC = "3.4.0-3"
 ScopedValues = "1.3.0-1"
+
+["1.6 - 1.8.1"]
+BFloat16s = "0.5"
 
 ["1.6.2 - 1"]
 CEnum = "0.4 - 0.5"
@@ -158,5 +158,11 @@ GPUToolbox = "0.1 - 0.2"
 KernelAbstractions = "0.9.1 - 0.9"
 
 ["1.7 - 1"]
-GPUToolbox = "0.1 - 0.3"
 KernelAbstractions = "0.9.38 - 0.9"
+
+["1.7 - 1.8.1"]
+GPUToolbox = "0.1 - 0.3"
+
+["1.8.2 - 1"]
+BFloat16s = "0.5 - 0.6"
+GPUToolbox = ["0.1 - 0.3", "1"]
