@@ -110,12 +110,18 @@ Interpolations = "0.14-0.15"
 NetCDF = "0.11-0.12"
 
 [1]
-CairoMakie = "0.13"
 NetCDF = "0.12"
 Requires = "1"
+
+["1.0"]
+CairoMakie = "0.13"
 
 ["1.0.0"]
 Interpolations = "0.15-0.16"
 
 ["1.0.1 - 1"]
 Interpolations = "0.15 - 0.16"
+
+["1.1 - 1"]
+CairoMakie = "0.13 - 0.17"
+PyCall = "1"
