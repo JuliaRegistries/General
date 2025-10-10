@@ -1,7 +1,7 @@
 [0]
 DocStringExtensions = "0.9"
 
-["0-0.1.7"]
+["0 - 0.1.7"]
 DataFrames = "1.5.0-1"
 Interpolations = "0.14"
 Ipaper = "0.1.9-0.1"
@@ -9,52 +9,54 @@ NCDatasets = "0.12"
 PrecompileTools = "1.1.0-1"
 Statistics = "1.9.0-1"
 
-["0-0.1.8"]
+["0 - 0.1.8"]
 StatsBase = "0.33-0.34"
 
-["0-0.1.9"]
+["0 - 0.1.9"]
 CategoricalArrays = "0.10"
 LoopVectorization = "0.12"
 
-["0-0.2.1"]
+["0 - 0.2.1"]
 CFTime = "0.1"
 julia = "1.9.0-1"
 
 ["0.1.10"]
 DiskArrays = "0.3"
 
-["0.1.10-0"]
-NCDatasets = "0.13-0.14"
+["0.1.10 - 0"]
 Parameters = "0.12"
-Reexport = "1.2.0-1"
 
-["0.1.10-0.1"]
+["0.1.10 - 0.1"]
 Ipaper = "0.1.16-0.1"
 
-["0.1.11-0"]
+["0.1.10 - 0.2.2"]
+NCDatasets = "0.13-0.14"
+Reexport = "1.2.0-1"
+
+["0.1.11 - 0"]
 ProgressMeter = "1"
 
-["0.1.11-0.1"]
+["0.1.11 - 0.1"]
 DiskArrays = "0.3-0.4"
 
 ["0.1.8"]
 Ipaper = "0.1.12-0.1"
 NCDatasets = "0.12-0.13"
 
-["0.1.8-0"]
-DataFrames = "1.6.0-1"
-
-["0.1.8-0.1.9"]
+["0.1.8 - 0.1.9"]
 Interpolations = "0.14-0.15"
 
-["0.1.8-0.2.1"]
+["0.1.8 - 0.2.1"]
 PrecompileTools = "1.2.0-1"
+
+["0.1.8 - 0.2.2"]
+DataFrames = "1.6.0-1"
 
 ["0.1.9"]
 Ipaper = "0.1.13-0.1"
 NCDatasets = "0.12-0.14"
 
-["0.1.9-0"]
+["0.1.9 - 0.2.2"]
 StatsBase = "0.34-0.35"
 
 ["0.2.0"]
@@ -63,8 +65,19 @@ Ipaper = "0.1.16-0.2"
 ["0.2.1"]
 Ipaper = "0.2"
 
-["0.2.2-0"]
+["0.2.2"]
 CFTime = "0.1-0.2"
 Ipaper = "0.2.5-0.2"
+
+["0.2.2 - 0"]
 PrecompileTools = "1"
 julia = "1"
+
+["0.2.4 - 0"]
+CFTime = "0.1 - 0.2"
+DataFrames = "1.6.0 - 1"
+Ipaper = "0.2 - 0.3"
+NCDatasets = "0.13 - 0.14"
+Reexport = "1.2.0 - 1"
+SpatialRasterLite = "0.1"
+StatsBase = "0.34 - 0.35"
