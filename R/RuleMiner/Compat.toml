@@ -1,11 +1,11 @@
-[0]
-DataFrames = "1"
-
 ["0 - 0.3"]
 LuxurySparse = "0.7"
 
 ["0 - 0.4"]
 julia = "1.6.7-1"
+
+["0 - 0.7"]
+DataFrames = "1"
 
 ["0.3 - 0.7.0"]
 Combinatorics = "1.0.2-1"
@@ -18,6 +18,13 @@ julia = "1.10.0-1"
 OhMyThreads = "0.7"
 
 ["0.7.1 - 0"]
+julia = "1.10.0 - 1"
+
+["0.7.1 - 0.7"]
 Combinatorics = "1.0.2 - 1"
 PrettyTables = "2.3 - 2.4"
-julia = "1.10.0 - 1"
+
+["0.8 - 0"]
+Combinatorics = "1"
+DataFrames = "1.8.0 - 1"
+PrettyTables = "3"
