@@ -14,7 +14,7 @@ defaults:
   run:
     shell: bash
 jobs:
-  update_each_manifest:
+  update_each_ci_manifest:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     strategy:
@@ -57,7 +57,7 @@ jobs:
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: .ci/instantiate.sh
+      - run: .ci/instantiate.sh .ci/
       - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.update()'
       - run: |
           if Base.VERSION >= v"1.6"
@@ -75,8 +75,50 @@ jobs:
           name: manifest_file_for_${{ steps.manifest_version.outputs.manifest_version }}
           path: .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml
           if-no-files-found: error
+  update_automerge_manifest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        version:
+          - '1.11'
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      - uses: julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71 # v2.6.1
+        with:
+          version: ${{ matrix.version }}
+          arch: x64
+      - name: Cache artifacts
+        uses: julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9 # v2.1.0
+      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
+        shell: julia --color=yes {0}
+        id: manifest_version
+      - run: echo "We will update the manifest at .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml"
+      - run: rm -rf .ci/AutoMerge/Manifest.toml
+      - run: |
+          if [ -f ".ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml" ]; then
+              echo "The manifest file exists, so I will update the existing manifest."
+              mv .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/AutoMerge/Manifest.toml
+          else
+              echo "The manifest file does not exist, so I will create a new manifest from scratch."
+          fi
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
+        env:
+          JULIA_PKG_SERVER: ""
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
+      - run: .ci/instantiate.sh .ci/AutoMerge/
+      - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.update()'
+        shell: julia --color=yes {0}
+      - run: mv .ci/AutoMerge/Manifest.toml .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml
+      - run: git status
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: automerge_manifest_file_for_${{ steps.manifest_version.outputs.manifest_version }}
+          path: .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml
+          if-no-files-found: error
   make_single_pr:
-    needs: update_each_manifest
+    needs: [update_each_ci_manifest, update_automerge_manifest]
     runs-on: ubuntu-latest
     timeout-minutes: 30
     strategy:
@@ -90,10 +132,14 @@ jobs:
         with:
           path: /tmp/manifest_updater/download_artifacts
       - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest-v*.toml .ci
+      - run: mv /tmp/manifest_updater/download_artifacts/automerge_manifest_file_for_*/Manifest-v*.toml .ci/AutoMerge
       - run: rm -rf /tmp/manifest_updater
       - run: rm -rf .ci/Manifest.toml
+      - run: rm -rf .ci/AutoMerge/Manifest.toml
       - run: chmod 600 .ci/Project.toml
       - run: chmod 600 .ci/Manifest-*.toml
+      - run: chmod 600 .ci/AutoMerge/Project.toml
+      - run: chmod 600 .ci/AutoMerge/Manifest-*.toml
       - run: git status
       - uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
         with:
