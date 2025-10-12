@@ -66,11 +66,13 @@ julia = "1.10.0-1"
 OptimKit = "0.3.1-0.4"
 
 ["0.12.6 - 0"]
-TensorKit = "0.14"
 TensorOperations = "5"
 
 ["0.12.6 - 0.12"]
 BlockTensorKit = "0.1.4-0.1"
+
+["0.12.6 - 0.13.7"]
+TensorKit = "0.14"
 
 ["0.13 - 0.13.3"]
 BlockTensorKit = "0.1.6-0.1"
@@ -91,8 +93,13 @@ RecipesBase = "1.1.0 - 1"
 VectorInterface = "0.2 - 0.5"
 julia = "1.10.0 - 1"
 
-["0.13.5 - 0"]
+["0.13.5 - 0.13.7"]
 BlockTensorKit = "0.2"
+
+["0.13.8 - 0"]
+BlockTensorKit = "0.3"
+MatrixAlgebraKit = "0.5"
+TensorKit = "0.15.1 - 0.15"
 
 ["0.3 - 0.3.1"]
 TensorKit = "0.7"

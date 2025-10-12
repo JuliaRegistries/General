@@ -11,9 +11,17 @@ NonlinearSolve = "4.9.0 - 4"
 Parameters = "0.12.3 - 0.12"
 Peaks = "0.5.3 - 0.5"
 Plots = "1.40.14 - 1"
-PowerModels = "0.19.10 - 0.19"
-PowerModelsACDC = "0.7.4 - 0.7"
 RobustAndOptimalControl = "0.4.41 - 0.4"
 SteadyStateDiffEq = "2.5.0 - 2"
 SymEngine = "0.12"
 julia = "1.2.0 - 1.11"
+
+["0 - 0.1"]
+PowerModels = "0.19.10 - 0.19"
+PowerModelsACDC = "0.7.4 - 0.7"
+
+["0.2 - 0"]
+DelimitedFiles = "1.9.1 - 1"
+Interpolations = "0.16.2 - 0.16"
+PowerModels = "0.21.5 - 0.21"
+PowerModelsACDC = "0.9.1 - 0.9"
