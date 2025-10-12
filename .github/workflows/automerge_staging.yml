@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         version:
-          - '1.9'
+          - '1.11'
         os:
           - ubuntu-latest
         arch:
@@ -30,36 +30,38 @@ jobs:
         with:
           version: ${{ matrix.version }}
       # No Project/Manifest for staging run
-      - run: rm -rf .ci/JuliaManifest*.toml
-      - run: rm -rf .ci/Manifest*.toml
-      - run: rm -rf .ci/JuliaProject*.toml
-      - run: rm -rf .ci/Project*.toml
+      - run: rm -rf .ci/AutoMerge/JuliaManifest*.toml
+      - run: rm -rf .ci/AutoMerge/Manifest*.toml
+      - run: rm -rf .ci/AutoMerge/JuliaProject*.toml
+      - run: rm -rf .ci/AutoMerge/Project*.toml
       - name: Cache artifacts
         uses: julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9 # v2.1.0
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: .ci/instantiate.sh
+      - run: .ci/instantiate.sh .ci/AutoMerge/
       - run: |
           import Pkg
-          name = "RegistryCI"
-          uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
+          name = "AutoMerge"
+          uuid = "c5732277-7834-41e3-8e1f-5f375898cfe1"
           rev = "master"
-          Pkg.add(; name, uuid, rev)
-        shell: julia --color=yes --project=.ci/ {0}
-      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.update()'
-      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
+          subdir = "AutoMerge"
+          url = "https://github.com/JuliaRegistries/RegistryCI.jl"
+          Pkg.add(; name, uuid, rev, subdir, url)
+        shell: julia --color=yes --project=.ci/AutoMerge/ {0}
+      - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.update()'
+      - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.precompile()'
       - name: AutoMerge.run
         env:
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AUTOMERGE_TAGBOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JULIA_DEBUG: RegistryCI,AutoMerge
         run: |
-          using RegistryCI
+          using AutoMerge
           using Dates
 
-          RegistryCI.AutoMerge.run(
+          AutoMerge.run(
             read_only = true,           # run in read-only mode
 
             merge_new_packages = false, # don't merge any PRs
@@ -81,4 +83,4 @@ jobs:
               "https://github.com/cossio/CossioJuliaRegistry"
             ],
           )
-        shell: julia --color=yes --project=.ci/ {0}
+        shell: julia --color=yes --project=.ci/AutoMerge/ {0}
