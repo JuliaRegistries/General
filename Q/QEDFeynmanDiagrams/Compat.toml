@@ -1,10 +1,19 @@
 [0]
 Combinatorics = "1"
-ComputableDAGs = "0.2.1-0.2"
-DataStructures = "0.18"
 LRUCache = "1"
 Memoization = "0.2"
+Reexport = "1"
+
+["0 - 0.1.0"]
+ComputableDAGs = "0.2.1-0.2"
+DataStructures = "0.18"
 QEDbase = "0.4"
 QEDcore = "0.3"
-Reexport = "1"
 julia = "1.10.0-1"
+
+["0.1.1 - 0"]
+ComputableDAGs = "0.2"
+DataStructures = "0.18 - 0.19"
+QEDbase = "0.5"
+QEDcore = "0.4"
+julia = "1.10.0 - 1"
