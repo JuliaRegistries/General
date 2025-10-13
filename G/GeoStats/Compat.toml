@@ -824,16 +824,21 @@ GeoStatsBase = "0.47"
 GeoStatsFunctions = "0.12"
 GeoStatsModels = "0.13"
 GeoStatsProcesses = "0.12"
-GeoStatsTransforms = "0.13"
 GeoStatsValidation = "0.4"
 GeoTables = "1.25.0 - 1"
 Statistics = "1.10.0 - 1"
 julia = "1.10.0 - 1"
 
+["0.82 - 0.82.2"]
+GeoStatsTransforms = "0.13"
+
 ["0.82.2 - 0"]
 CoordRefSystems = "0.19"
 Dates = "1.10.0 - 1"
 Meshes = "0.55"
+
+["0.82.3 - 0"]
+GeoStatsTransforms = "0.14"
 
 ["0.9.0"]
 GeoStatsBase = "0.4.3-0.5"
