@@ -1,23 +1,23 @@
-["0-0.1.0"]
+["0 - 0.1.0"]
 Statistics = "1"
 UnivariateFunctions = "0.0.2-0.2"
 julia = "1"
 
-["0-0.2"]
+["0 - 0.2"]
 Sobol = "0-1"
 
-["0-0.3"]
+["0 - 0.3"]
 Distributions = "0.0.0-0.23"
 
-["0.1.1-0.2"]
+["0.1.1 - 0.2"]
 MultivariateFunctions = "0.0.0-0.1"
 Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
-["0.2.2-0.3"]
+["0.2.2 - 0.3"]
 DataFrames = "0.0.0-0.21"
 
-["0.2.3-0.3"]
+["0.2.3 - 0.3"]
 FixedPointAcceleration = "0.0.0-0.1"
 
 ["0.3"]
@@ -26,7 +26,7 @@ Statistics = "1"
 UnivariateFunctions = "0.0.0-0.2"
 julia = "1"
 
-["0.4-0.6.0"]
+["0.4 - 0.6.0"]
 Statistics = "1.4.0-1"
 julia = "1.4.0-1"
 
@@ -41,26 +41,36 @@ UnivariateFunctions = "0.2"
 ["0.4.2"]
 DataFrames = "0.20-0.999999"
 
-["0.4.2-0"]
-DataStructures = "0.18-0.999999"
-Distributions = "0.20-0.999999"
-Documenter = "0.27-0.999999"
+["0.4.2 - 0"]
 Sobol = "1"
 
-["0.4.2-0.6.0"]
+["0.4.2 - 0.6.0"]
 FixedPointAcceleration = "0.3-0.999999"
 UnivariateFunctions = "0.2-0.999999"
 
-["0.4.3-0.4"]
+["0.4.2 - 0.6.1"]
+DataStructures = "0.18-0.999999"
+Distributions = "0.20-0.999999"
+Documenter = "0.27-0.999999"
+
+["0.4.3 - 0.4"]
 DataFrames = ["0.20", "1"]
 
-["0.5-0"]
+["0.5 - 0"]
 DataFrames = "1"
 
-["0.6-0"]
+["0.6 - 0"]
 StableRNGs = "1"
 
-["0.6.1-0"]
-FixedPointAcceleration = "1"
+["0.6.1"]
 UnivariateFunctions = "0.3"
+
+["0.6.1 - 0"]
+FixedPointAcceleration = "1"
 julia = "1"
+
+["0.6.2 - 0"]
+DataStructures = "0.18 - 0.999999"
+Distributions = "0.20 - 0.999999"
+Documenter = "0.27 - 0.999999"
+UnivariateFunctions = "0.4"
