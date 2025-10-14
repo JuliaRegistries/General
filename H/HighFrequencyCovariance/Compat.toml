@@ -1,7 +1,4 @@
-[0]
-julia = "1.5.0-1"
-
-["0-0.2"]
+["0 - 0.2"]
 DataFrames = "0.21"
 DataStructures = "0.18"
 Distributions = "0.24"
@@ -9,10 +6,13 @@ Documenter = "0.26"
 StochasticIntegrals = "0.4"
 UnivariateFunctions = "0.2"
 
-["0-0.4"]
+["0 - 0.4"]
 Statistics = "1.5.0-1"
 
-["0.3-0"]
+["0 - 0.5.0"]
+julia = "1.5.0-1"
+
+["0.3 - 0"]
 DataFrames = "1"
 
 ["0.3.0"]
@@ -23,23 +23,31 @@ UnivariateFunctions = "0.2-0.999999"
 ["0.3.1"]
 UnivariateFunctions = "0.2"
 
-["0.3.1-0.3"]
+["0.3.1 - 0.3"]
 Distributions = "0.24"
 StochasticIntegrals = "0.5"
 
-["0.3.2-0"]
+["0.3.2 - 0.5.0"]
 UnivariateFunctions = "0.3"
 
 ["0.4"]
 Gadfly = "1"
 
-["0.4-0"]
+["0.4 - 0"]
 Distributions = "0.25"
 StableRNGs = "1"
 StochasticIntegrals = "0.6"
 
-["0.5-0"]
+["0.5.0"]
 Clustering = "0.15.8-0.15"
 Distances = "0.10.12-0.10"
 PlotlyJS = "0.18.16-0.18"
 VegaLite = "3.3.0-3"
+
+["0.5.1 - 0"]
+Clustering = "0.15.8 - 0.15"
+Distances = "0.10.12 - 0.10"
+PlotlyJS = "0.18.16 - 0.18"
+UnivariateFunctions = "0.4"
+VegaLite = "3.3.0 - 3"
+julia = "1.5.0 - 1"
