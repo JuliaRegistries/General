@@ -1,4 +1,4 @@
-["0-0.3"]
+["0 - 0.3"]
 Compat = "0.18-2"
 Distributions = "0.0.0-0.23"
 DocStringExtensions = "0.4.1-0.8"
@@ -10,10 +10,10 @@ Optim = "0.0.0-0.22"
 ProgressMeter = "0.0.0-0.9"
 julia = "0.6-1"
 
-["0-0.4.0"]
+["0 - 0.4.0"]
 HDF5 = "0.8.5-0.13"
 
-["0.10-0.11"]
+["0.10 - 0.11"]
 DelimitedFiles = "1.2.0-1"
 Statistics = "1.2.0-1"
 julia = "1.2.0-1"
@@ -21,23 +21,23 @@ julia = "1.2.0-1"
 ["0.10.0"]
 DistributedFactorGraphs = "0.7"
 
-["0.10.1-0.10.2"]
+["0.10.1 - 0.10.2"]
 DistributedFactorGraphs = "0.7.1-0.7"
 
-["0.10.3-0.11.1"]
+["0.10.3 - 0.11.1"]
 DistributedFactorGraphs = "0.7.2-0.7"
 ValueShapes = "0.6"
 
-["0.10.3-0.33"]
+["0.10.3 - 0.33"]
 NLSolversBase = "7.6.0-7"
 
-["0.11.2-0.11"]
+["0.11.2 - 0.11"]
 DistributedFactorGraphs = "0.7.3-0.7"
 
-["0.12-0.12.1"]
+["0.12 - 0.12.1"]
 DistributedFactorGraphs = "0.8"
 
-["0.12-0.24"]
+["0.12 - 0.24"]
 DelimitedFiles = "1.4.0-1"
 Statistics = "1.4.0-1"
 julia = "1.4.0-1"
@@ -50,63 +50,63 @@ StatsBase = "0.25-0.33"
 ["0.12.1"]
 Optim = "0.20-0.21"
 
-["0.12.1-0.14"]
+["0.12.1 - 0.14"]
 FunctionalStateMachine = "0.2"
 
-["0.12.1-0.15"]
+["0.12.1 - 0.15"]
 Distributions = "0.20-0.23"
 
-["0.12.1-0.24.0"]
+["0.12.1 - 0.24.0"]
 StatsBase = "0.30-0.33"
 
-["0.12.2-0.13"]
+["0.12.2 - 0.13"]
 DistributedFactorGraphs = "0.8.1-0.8"
 
-["0.12.2-0.14.2"]
+["0.12.2 - 0.14.2"]
 Optim = "0.20-0.22"
 
 ["0.14"]
 DistributedFactorGraphs = "0.9"
 
-["0.14-0"]
+["0.14 - 0.35"]
 TimeZones = "1.3.1-1"
 
-["0.14.3-0.14"]
+["0.14.3 - 0.14"]
 Optim = ["0.20-0.22", "1"]
 
-["0.15-0.15.1"]
+["0.15 - 0.15.1"]
 DistributedFactorGraphs = "0.10"
 FunctionalStateMachine = "0.2.1-0.2"
 
-["0.15-0.15.2"]
+["0.15 - 0.15.2"]
 Optim = "0.20-0.22"
 
 ["0.15.2"]
 FunctionalStateMachine = "0.2.3-0.2"
 
-["0.15.2-0.15"]
+["0.15.2 - 0.15"]
 DistributedFactorGraphs = "0.10.2-0.10"
 
-["0.15.3-0.15"]
+["0.15.3 - 0.15"]
 FunctionalStateMachine = "0.2.7-0.2"
 
-["0.15.3-0.24.0"]
+["0.15.3 - 0.24.0"]
 Optim = ["0.20-0.22", "1"]
 
 ["0.16"]
 DistributedFactorGraphs = "0.10.6-0.10"
 
-["0.16-0.24.0"]
+["0.16 - 0.24.0"]
 Distributions = "0.20-0.24"
 
-["0.16-0.35.3"]
+["0.16 - 0.35.3"]
 FunctionalStateMachine = "0.2.9-0.2"
 
-["0.16.1-0"]
-DataStructures = "0.16-0.18"
-
-["0.16.1-0.21.1"]
+["0.16.1 - 0.21.1"]
 BSON = "0.2"
+
+["0.16.1 - 0.35"]
+DataStructures = "0.16-0.18"
 
 ["0.17"]
 DistributedFactorGraphs = "0.10.7-0.10"
@@ -114,103 +114,105 @@ DistributedFactorGraphs = "0.10.7-0.10"
 ["0.18"]
 DistributedFactorGraphs = "0.10.9-0.11"
 
-["0.19-0.21.0"]
+["0.19 - 0.21.0"]
 DistributedFactorGraphs = "0.11.2-0.11"
 
-["0.21-0.21.2"]
+["0.21 - 0.21.2"]
 ApproxManifoldProducts = "0.1.5-0.2"
 
-["0.21.1-0.22"]
+["0.21.1 - 0.22"]
 DistributedFactorGraphs = "0.12"
 
-["0.21.2-0"]
-BSON = "0.2-0.3"
-
-["0.21.2-0.24.0"]
+["0.21.2 - 0.24.0"]
 JLD2 = "0.2-0.4"
 
-["0.21.3-0.21"]
+["0.21.2 - 0.35"]
+BSON = "0.2-0.3"
+
+["0.21.3 - 0.21"]
 ApproxManifoldProducts = "0.2"
 
-["0.21.3-0.24.0"]
+["0.21.3 - 0.24.0"]
 ManifoldsBase = "0.10"
 
 ["0.22"]
 ApproxManifoldProducts = "0.3.1-0.3"
 
-["0.22-0.24.0"]
+["0.22 - 0.24.0"]
 Manifolds = "0.4"
 
 ["0.23"]
 ApproxManifoldProducts = "0.3.2-0.3"
 
-["0.23-0.23.1"]
+["0.23 - 0.23.1"]
 DistributedFactorGraphs = "0.13"
 
-["0.23.1-0.27.1"]
+["0.23.1 - 0.27.1"]
 StaticArrays = ["0.15", "1"]
 
-["0.23.2-0.23"]
+["0.23.2 - 0.23"]
 DistributedFactorGraphs = "0.13.1-0.13"
 
-["0.24-0.24.3"]
+["0.24 - 0.24.3"]
 DistributedFactorGraphs = "0.14"
 
 ["0.24.0"]
 ApproxManifoldProducts = "0.3.3-0.3"
 
-["0.24.1-0"]
-Distributions = "0.24-0.25"
+["0.24.1 - 0"]
 FileIO = "1"
 ProgressMeter = "1"
 
-["0.24.1-0.24"]
+["0.24.1 - 0.24"]
 ApproxManifoldProducts = "0.3.4-0.3"
 Manifolds = "0.5"
 ManifoldsBase = "0.11"
 
-["0.24.1-0.26"]
+["0.24.1 - 0.26"]
 Reexport = ["0.2", "1"]
 Requires = ["0.5", "1"]
 
-["0.24.1-0.26.0"]
+["0.24.1 - 0.26.0"]
 JLD2 = "0.3-0.4"
 
-["0.24.1-0.27.1"]
+["0.24.1 - 0.27.1"]
 Optim = ["0.22", "1"]
 
-["0.24.1-0.28"]
+["0.24.1 - 0.28"]
 DocStringExtensions = "0.8"
 
-["0.24.1-0.32"]
+["0.24.1 - 0.32"]
 JSON2 = "0.3"
 
-["0.24.1-0.33"]
+["0.24.1 - 0.33"]
 StatsBase = "0.32-0.33"
 
-["0.24.4-0.24"]
+["0.24.1 - 0.35"]
+Distributions = "0.24-0.25"
+
+["0.24.4 - 0.24"]
 DistributedFactorGraphs = "0.14.5-0.14"
 
-["0.24.5-0.24"]
+["0.24.5 - 0.24"]
 TensorCast = "0.3-0.4"
 
 ["0.25"]
 ApproxManifoldProducts = "0.4.16-0.4"
 
-["0.25-0"]
-KernelDensityEstimate = "0.5.6-0.5"
-TensorCast = "0.3.3-0.4"
-
-["0.25-0.25.1"]
+["0.25 - 0.25.1"]
 Manifolds = "0.6.3-0.6"
 
-["0.25-0.25.2"]
+["0.25 - 0.25.2"]
 DelimitedFiles = "1.5.0-1"
 Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
-["0.25-0.28"]
+["0.25 - 0.28"]
 ManifoldsBase = "0.12.6-0.12"
+
+["0.25 - 0.35"]
+KernelDensityEstimate = "0.5.6-0.5"
+TensorCast = "0.3.3-0.4"
 
 ["0.25.0"]
 DistributedFactorGraphs = "0.15.2-0.15"
@@ -221,43 +223,43 @@ DistributedFactorGraphs = "0.16"
 ["0.25.2"]
 DistributedFactorGraphs = "0.16.1-0.16"
 
-["0.25.2-0.26"]
+["0.25.2 - 0.26"]
 Manifolds = "0.6.3-0.7"
 
-["0.25.3-0.25"]
+["0.25.3 - 0.25"]
 DistributedFactorGraphs = "0.16.2-0.16"
 
-["0.25.3-0.30"]
+["0.25.3 - 0.30"]
 DelimitedFiles = "1.6.0-1"
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
-["0.25.4-0.27.1"]
+["0.25.4 - 0.27.1"]
 MetaGraphs = "0.6.4-0.7"
 
 ["0.26"]
 ApproxManifoldProducts = "0.4.21-0.4"
 DistributedFactorGraphs = "0.17"
 
-["0.27-0"]
+["0.27 - 0"]
 Reexport = "1"
 
-["0.27-0.28"]
+["0.27 - 0.28"]
 ApproxManifoldProducts = "0.4.24-0.4"
 DistributedFactorGraphs = "0.18"
 Manifolds = "0.7"
 
-["0.27-0.33"]
+["0.27 - 0.33"]
 Requires = "1"
 
-["0.27.2-0"]
+["0.27.2 - 0"]
 Optim = "1"
 StaticArrays = "1"
 
-["0.27.2-0.35.4"]
+["0.27.2 - 0.35.4"]
 MetaGraphs = "0.7"
 
-["0.27.3-0.32"]
+["0.27.3 - 0.32"]
 JSON = "0.21"
 
 ["0.29"]
@@ -265,34 +267,34 @@ ApproxManifoldProducts = "0.5"
 Manifolds = "0.8.8-0.8"
 ManifoldsBase = "0.13"
 
-["0.29-0"]
-DocStringExtensions = "0.8-0.9"
-
-["0.29-0.32.0"]
+["0.29 - 0.32.0"]
 DistributedFactorGraphs = "0.18.4-0.18"
 
-["0.3.8-0.3"]
+["0.29 - 0.35"]
+DocStringExtensions = "0.8-0.9"
+
+["0.3.8 - 0.3"]
 StatsBase = "0.0.0-0.33"
 
-["0.30-0.32"]
+["0.30 - 0.32"]
 ManifoldsBase = "0.13.12-0.13"
 
-["0.30-0.32.1"]
+["0.30 - 0.32.1"]
 ApproxManifoldProducts = "0.6"
 
-["0.30-0.34"]
+["0.30 - 0.34"]
 Manifolds = "0.8.15-0.8"
 
 ["0.30.0"]
 RecursiveArrayTools = "2"
 
-["0.30.1-0"]
+["0.30.1 - 0"]
 OrderedCollections = "1"
 
-["0.30.1-0.35.1"]
+["0.30.1 - 0.35.1"]
 RecursiveArrayTools = "2.31.1-2"
 
-["0.31-0.33"]
+["0.31 - 0.33"]
 DelimitedFiles = "1.8.0-1"
 SnoopPrecompile = "1"
 Statistics = "1.8.0-1"
@@ -304,108 +306,137 @@ DistributedFactorGraphs = "0.18.10-0.18"
 ["0.32.2"]
 DistributedFactorGraphs = "0.19"
 
-["0.32.2-0.33"]
+["0.32.2 - 0.33"]
 ApproxManifoldProducts = "0.6.3-0.6"
 
-["0.32.3-0.32"]
+["0.32.3 - 0.32"]
 DistributedFactorGraphs = "0.19.3-0.19"
 
 ["0.33"]
 DistributedFactorGraphs = "0.20"
 
-["0.33-0"]
+["0.33 - 0"]
 JSON3 = "1"
 StructTypes = "1"
 
-["0.33-0.34"]
+["0.33 - 0.34"]
 ManifoldsBase = "0.13.12-0.14"
 
 ["0.34"]
 BlockArrays = "0.16"
 Manopt = "0.4.27-0.4"
 
-["0.34-0"]
+["0.34 - 0"]
 DelimitedFiles = "1"
 FiniteDiff = "2"
 FiniteDifferences = "0.12"
 PrecompileTools = "1"
 SparseDiffTools = "2"
+
+["0.34 - 0.35"]
 StatsBase = "0.32-0.34"
 
-["0.34-0.35.0"]
+["0.34 - 0.35.0"]
 Statistics = "1.9.0-1"
 
-["0.34-0.35.2"]
+["0.34 - 0.35.2"]
 julia = "1.9.0-1"
 
-["0.34-0.35.3"]
+["0.34 - 0.35.3"]
 DistributedFactorGraphs = "0.23"
 
-["0.34-0.35.5"]
+["0.34 - 0.35.5"]
 ManifoldDiff = "0.3"
 
 ["0.34.0"]
 ApproxManifoldProducts = "0.7"
 
-["0.34.1-0.35.4"]
+["0.34.1 - 0.35.4"]
 ApproxManifoldProducts = "0.7-0.8"
 
-["0.35-0.35.2"]
+["0.35 - 0.35.2"]
 Manifolds = "0.9"
 
-["0.35-0.35.4"]
+["0.35 - 0.35.4"]
 Manopt = "0.4.40-0.4"
 
-["0.35-0.35.5"]
+["0.35 - 0.35.5"]
 ManifoldsBase = "0.15"
 
-["0.35.1-0.35.2"]
+["0.35.1 - 0.35.2"]
 Statistics = "1"
 
-["0.35.2-0.35.4"]
+["0.35.2 - 0.35.4"]
 RecursiveArrayTools = "2.31.1-3"
 
-["0.35.3-0"]
+["0.35.3 - 0.35"]
 LinearAlgebra = "1.10.0-1"
 Statistics = "1.10.0-1"
 julia = "1.10.0-1"
 
-["0.35.3-0.35.4"]
+["0.35.3 - 0.35.4"]
 Manifolds = "0.9.12-0.9"
 
 ["0.35.4"]
 DistributedFactorGraphs = "0.23-0.24"
 
-["0.35.4-0"]
+["0.35.4 - 0.35"]
 FunctionalStateMachine = "0.2.9-0.3"
 
 ["0.35.5"]
 DistributedFactorGraphs = "0.25"
 Manopt = "0.4.40-0.5"
 
-["0.35.5-0"]
+["0.35.5 - 0"]
+RecursiveArrayTools = "3"
+
+["0.35.5 - 0.35"]
 ApproxManifoldProducts = "0.9"
 Manifolds = "0.10"
 MetaGraphs = "0.7-0.8"
-RecursiveArrayTools = "3"
 
-["0.35.6-0"]
+["0.35.6 - 0"]
 CliqueTrees = ["0.5", "1"]
+
+["0.35.6 - 0.35"]
 DistributedFactorGraphs = "0.25-0.26"
 ManifoldDiff = "0.3-0.4"
 ManifoldsBase = ["0.15", "1"]
 Manopt = "0.5.14-0.5"
 
+["0.36 - 0"]
+ApproxManifoldProducts = "0.10"
+BSON = "0.2 - 0.3"
+DataStructures = "0.18 - 0.19"
+DistributedFactorGraphs = "0.27 - 0.28"
+Distributions = "0.24 - 0.25"
+DocStringExtensions = "0.8 - 0.9"
+FunctionalStateMachine = "0.2.9 - 0.3"
+IncrementalInferenceTypes = "0.1"
+KernelDensityEstimate = "0.5.6 - 0.5"
+LieGroups = "0.1.1 - 0.1"
+LinearAlgebra = "1.10.0 - 1"
+ManifoldDiff = "0.3 - 0.4"
+Manifolds = "0.10.17 - 0.11"
+ManifoldsBase = "1 - 2"
+Manopt = "0.5.14 - 0.5"
+MetaGraphs = "0.7 - 0.8"
+Statistics = "1.10.0 - 1"
+StatsBase = "0.32 - 0.34"
+TensorCast = "0.3.3 - 0.4"
+TimeZones = "1.3.1 - 1"
+julia = "1.10.0 - 1"
+
 ["0.4"]
 KernelDensityEstimate = "0.4"
 
-["0.4-0.4.3"]
+["0.4 - 0.4.3"]
 NLsolve = "2.1-4"
 
-["0.4-0.5.0"]
+["0.4 - 0.5.0"]
 Graphs = "0.10.1-0.10"
 
-["0.4-0.5.4"]
+["0.4 - 0.5.4"]
 Distributions = "0.16.4-0.23"
 DocStringExtensions = "0.5.0-0.8"
 FileIO = "1.0.2-1"
@@ -415,26 +446,26 @@ ProgressMeter = "0.6.0-0.9"
 Reexport = "0.2"
 StatsBase = "0.25.0-0.33"
 
-["0.4-0.6"]
+["0.4 - 0.6"]
 Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
-["0.4.4-0.4.5"]
+["0.4.4 - 0.4.5"]
 NLsolve = "2.1-2"
 
-["0.4.6-0.5.4"]
+["0.4.6 - 0.5.4"]
 NLsolve = "3-4"
 
 ["0.5.0"]
 ApproxManifoldProducts = "0.0.2-0.0.3"
 KernelDensityEstimate = "0.4.3-0.5"
 
-["0.5.1-0.5.4"]
+["0.5.1 - 0.5.4"]
 ApproxManifoldProducts = "0.0.3"
 Graphs = "0.10.2-0.10"
 KernelDensityEstimate = "0.5"
 
-["0.5.5-0.5"]
+["0.5.5 - 0.5"]
 ApproxManifoldProducts = "0.0.0-0.0.3"
 Distributions = "0.0.0-0.23"
 DocStringExtensions = "0.0.0-0.8"
@@ -448,23 +479,23 @@ ProgressMeter = "0.0.0-1"
 Reexport = "0.0.0-0.2"
 StatsBase = "0.0.0-0.33"
 
-["0.5.5-0.5.6"]
+["0.5.5 - 0.5.6"]
 DelimitedFiles = ["0.7", "1"]
 
-["0.5.5-0.7.8"]
+["0.5.5 - 0.7.8"]
 Requires = "0.0.0-1"
 
 ["0.6"]
 ApproxManifoldProducts = "0.0.3"
 
-["0.6-0.24.0"]
+["0.6 - 0.24.0"]
 FileIO = "1.0.2-1"
 
-["0.6-0.7.0"]
+["0.6 - 0.7.0"]
 FunctionalStateMachine = "0.1.0-0.2"
 KernelDensityEstimate = "0.5"
 
-["0.6-0.7.8"]
+["0.6 - 0.7.8"]
 Distributions = "0.18.0-0.23"
 DocStringExtensions = "0.7.0-0.8"
 Graphs = "0.10.2-0.10"
@@ -475,10 +506,10 @@ ProgressMeter = "0.6.0-1"
 Reexport = "0.2"
 StatsBase = "0.25.0-0.33"
 
-["0.7-0.7.8"]
+["0.7 - 0.7.8"]
 JSON2 = "0.0.0-0.3"
 
-["0.7-0.9"]
+["0.7 - 0.9"]
 Statistics = "1"
 julia = "1"
 
@@ -486,60 +517,60 @@ julia = "1"
 ApproxManifoldProducts = "0.1"
 DistributedFactorGraphs = "0.1.2-0.2"
 
-["0.7.1-0.12.0"]
+["0.7.1 - 0.12.0"]
 FunctionalStateMachine = "0.1-0.2"
 
-["0.7.1-0.20"]
+["0.7.1 - 0.20"]
 ApproxManifoldProducts = "0.1-0.2"
 
-["0.7.1-0.7.2"]
+["0.7.1 - 0.7.2"]
 DistributedFactorGraphs = "0.2"
 
-["0.7.1-0.7.7"]
+["0.7.1 - 0.7.7"]
 KernelDensityEstimate = "0.5-0.6"
 
-["0.7.3-0.7.4"]
+["0.7.3 - 0.7.4"]
 DistributedFactorGraphs = "0.2.2-0.2"
 
 ["0.7.5"]
 DistributedFactorGraphs = "0.3.2-0.3"
 
-["0.7.6-0.7.7"]
+["0.7.6 - 0.7.7"]
 DistributedFactorGraphs = "0.3.4-0.3"
 
 ["0.7.8"]
 DistributedFactorGraphs = "0.4"
 
-["0.7.8-0.24"]
+["0.7.8 - 0.24"]
 KernelDensityEstimate = "0.5.1-0.6"
 
-["0.7.9-0.11"]
+["0.7.9 - 0.11"]
 Distributions = ["0.18-0.25", "1"]
 StatsBase = ["0.25-0.40", "1"]
 
-["0.7.9-0.17"]
+["0.7.9 - 0.17"]
 Graphs = ["0.10.2-0.11", "1"]
 
-["0.7.9-0.21.1"]
+["0.7.9 - 0.21.1"]
 JLD2 = ["0.1-0.3", "1"]
 
-["0.7.9-0.24.0"]
+["0.7.9 - 0.24.0"]
 JSON2 = ["0.3-0.7", "1"]
 ProgressMeter = ["0.6-0.9", "1"]
 Reexport = ["0.2-0.5", "1"]
 Requires = ["0.5-0.10", "1"]
 
-["0.7.9-0.33"]
+["0.7.9 - 0.33"]
 NLsolve = "3-4"
 
-["0.7.9-0.7"]
+["0.7.9 - 0.7"]
 DistributedFactorGraphs = "0.4.1-0.4"
 
-["0.7.9-0.8.3"]
+["0.7.9 - 0.8.3"]
 DocStringExtensions = ["0.7-0.10", "1"]
 Optim = ["0.16-0.22", "0.231"]
 
-["0.8-0.8.1"]
+["0.8 - 0.8.1"]
 DistributedFactorGraphs = "0.5"
 
 ["0.8.2"]
@@ -548,25 +579,25 @@ DistributedFactorGraphs = "0.5.1-0.5"
 ["0.8.3"]
 DistributedFactorGraphs = "0.5.2-0.5"
 
-["0.8.3-0.9"]
+["0.8.3 - 0.9"]
 DelimitedFiles = "1"
 
 ["0.8.4"]
 DistributedFactorGraphs = "0.5.3-0.5"
 
-["0.8.4-0"]
+["0.8.4 - 0"]
 Combinatorics = "1"
 
-["0.8.4-0.11"]
+["0.8.4 - 0.11"]
 Optim = ["0.16-0.23", "1"]
 
-["0.8.4-0.24.0"]
+["0.8.4 - 0.24.0"]
 DocStringExtensions = ["0.8-0.10", "1"]
 
-["0.8.4-0.25.3"]
+["0.8.4 - 0.25.3"]
 MetaGraphs = "0.6.4-0.6"
 
-["0.8.5-0.8"]
+["0.8.5 - 0.8"]
 DistributedFactorGraphs = "0.5.4-0.5"
 
 ["0.9"]
