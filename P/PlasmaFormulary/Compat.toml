@@ -1,13 +1,22 @@
 [0]
 Unitful = "1"
 UnitfulEquivalences = "0.2"
-julia = "1.10.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 PermuteArgs = "1.2.1-1"
 
-["0.2-0"]
+["0 - 0.2.0"]
+julia = "1.10.0-1"
+
+["0.2 - 0"]
 ChargedParticles = "0.3"
-DimensionfulAngles = "0.2.1-0.2"
 LinearAlgebra = "1"
+
+["0.2.0"]
+DimensionfulAngles = "0.2.1-0.2"
 PermuteArgs = "1.2.2-1"
+
+["0.2.1 - 0"]
+DimensionfulAngles = "0.2.1 - 0.2"
+PermuteArgs = "1.2.2 - 1"
+julia = "1.10.0 - 1"
