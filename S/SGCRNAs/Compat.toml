@@ -1,4 +1,4 @@
-[1]
+["1 - 1.0.1"]
 CSV = "0.10.15 - 0.10"
 CairoMakie = "0.13.4 - 0.13"
 Clustering = "0.15.8 - 0.15"
@@ -24,9 +24,32 @@ UMAP = "0.1.11 - 0.1"
 ["1.0.0"]
 julia = "1.11.0 - 1"
 
-["1.0.1 - 1"]
+["1.0.1"]
 HypothesisTests = "0.11.5 - 0.11"
 JLD2 = "0.5.13 - 0.5"
-MultipleTesting = "0.6"
 Printf = "1.11.0 - 1"
+
+["1.0.1 - 1"]
+MultipleTesting = "0.6"
 julia = "1.6.7 - 1"
+
+["1.0.2 - 1"]
+CSV = "0.10"
+CairoMakie = "0.15"
+Clustering = "0.15"
+Colors = "0.12"
+Compose = "0.9"
+DataFrames = "1"
+Distributions = "0.25"
+Fontconfig = "0.4"
+GraphPlot = "0.6"
+Graphs = "1"
+HypothesisTests = "0.11"
+KernelDensity = "0.6"
+KrylovKit = "0.10"
+MultivariateStats = "0.10"
+NetworkLayout = "0.4"
+ParallelKMeans = "1"
+Statistics = "1"
+StatsBase = "0.34"
+UMAP = "0.1"
