@@ -328,9 +328,6 @@ CEnum = "0.2-0.5"
 ["5.2"]
 CUDA_Runtime_jll = "0.11"
 
-["5.2 - 5"]
-Adapt = "4"
-
 ["5.2 - 5.5"]
 GPUArrays = "10.0.1-10"
 
@@ -339,6 +336,9 @@ StaticArrays = "1"
 
 ["5.2 - 5.8.2"]
 BFloat16s = "0.2-0.5"
+
+["5.2 - 5.9.0"]
+Adapt = "4"
 
 ["5.3"]
 CUDA_Driver_jll = "0.8"
@@ -412,7 +412,6 @@ CUDA_Compiler_jll = "0.2"
 CUDA_Driver_jll = "13"
 CUDA_Runtime_Discovery = "1"
 CUDA_Runtime_jll = "0.19"
-GPUToolbox = "0.3"
 KernelAbstractions = "0.9.38 - 0.9"
 Random123 = "1.2.0 - 1"
 RandomNumbers = "1.5.3 - 1"
@@ -426,14 +425,25 @@ GPUArrays = "11.2.1 - 11"
 GPUCompiler = ["0.24 - 0.27", "1"]
 LLVM = "9.1.0 - 9"
 
+["5.8.3 - 5.9.0"]
+GPUToolbox = "0.3"
+
 ["5.9 - 5"]
 AbstractFFTs = ["0.5", "1"]
-BFloat16s = "0.5"
 DataFrames = "1.5.0 - 1"
 GPUArrays = "11.2.4 - 11"
 GPUCompiler = "1.1.0 - 1"
-LLVM = "9.1.1 - 9"
 PrettyTables = "3"
 Reexport = "1"
 Requires = "1"
 StaticArrays = "1.6.0 - 1"
+
+["5.9.0"]
+BFloat16s = "0.5"
+LLVM = "9.1.1 - 9"
+
+["5.9.1 - 5"]
+Adapt = "4.4.0 - 4"
+BFloat16s = "0.5 - 0.6"
+GPUToolbox = ["0.3", "1"]
+LLVM = "9.3.1 - 9"
