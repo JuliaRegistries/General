@@ -6,7 +6,6 @@ Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LuxCore = "bb33d45b-7691-41d6-9220-0943567d0623"
-Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
@@ -20,6 +19,9 @@ ObjectPools = "658cac36-ff0f-48ad-967c-110375d98c9d"
 
 ["0 - 0.3"]
 StrideArrays = "d1fa6d79-ef01-42a6-86c9-f7c551f8593b"
+
+["0 - 0.5.2"]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 ["0.1.4 - 0.2"]
 NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
@@ -41,3 +43,7 @@ WithAlloc = "fb1aa66a-603c-4c1d-9bc4-66947c7b08dd"
 ["0.4 - 0"]
 GPUArraysCore = "46192b85-c4d5-4398-a991-12ede77f4527"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+
+["0.5.3 - 0"]
+DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
+HyperDualNumbers = "50ceba7f-c3ee-5a84-a6e8-3ad40456ec97"
