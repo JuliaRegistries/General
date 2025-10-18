@@ -1,6 +1,5 @@
 [0]
 CSV = "0.10.15 - 0.10"
-CUDA = "5.8.4 - 5"
 DataFrames = "1.8.0 - 1"
 Dates = "1.11.0 - 1"
 Flux = "0.16.5 - 0.16"
@@ -9,7 +8,14 @@ RealLabelNormalization = "1.0.1 - 1"
 StatsBase = "0.34.6 - 0.34"
 julia = "1.11.6 - 1"
 
+["0 - 0.0.2"]
+CUDA = "5.8.4 - 5"
+
 ["0.0.2 - 0"]
 JSON3 = "1.14.3 - 1"
 Statistics = "1.11.1 - 1"
 StructTypes = "1.11.0 - 1"
+
+["0.0.3 - 0"]
+CUDA = "5"
+cuDNN = "1.4.5 - 1"
