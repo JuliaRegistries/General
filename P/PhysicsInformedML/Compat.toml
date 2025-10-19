@@ -1,4 +1,4 @@
-[0]
+["0 - 0.2"]
 DocumentFunction = "0.0.0-0.6"
 Mads = "0.10"
 NMFk = "0.6"
@@ -6,5 +6,19 @@ NTFk = "0.3"
 SVR = "0.7"
 julia = "1.4.0-1"
 
-["0.2-0"]
+["0.2"]
 Suppressor = "0.0.0-0.2"
+
+["0.5 - 0"]
+Cairo = "1"
+DocumentFunction = "1"
+FileIO = "1"
+Fontconfig = "0.4 - 0.5"
+Gadfly = "1"
+JLD = ["0.10 - 0.14", "1"]
+Mads = "1"
+NMFk = "1"
+NTFk = "1"
+SVR = "1"
+Suppressor = "0.2 - 0.3"
+julia = "1.7.0 - 1"
