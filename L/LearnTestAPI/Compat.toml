@@ -5,27 +5,38 @@ IsURL = "0.2"
 LinearAlgebra = ["0.0.0", "1"]
 MacroTools = "0.5"
 Random = ["0.0.0", "1"]
-ScientificTypes = "3.0.2-3"
 ScientificTypesBase = "3"
 Serialization = ["0.0.0", "1"]
 StableRNGs = "1"
 Statistics = ["0.0.0", "1"]
 Tables = "1"
 Test = ["0.0.0", "1"]
+
+["0 - 0.2"]
+ScientificTypes = "3.0.2-3"
 UnPack = "1.0.2-1"
 julia = "1.10.0-1"
 
-["0-0.2.0"]
+["0 - 0.2.0"]
 MLUtils = "0.4"
 
-["0-0.2.1"]
+["0 - 0.2.1"]
 LearnAPI = "0.2"
 
-["0.2.1-0"]
+["0.2.1 - 0"]
 MLCore = "1"
 
-["0.2.2-0"]
+["0.2.2 - 0.2"]
 CategoricalArrays = "0.10.8-0.10"
 CategoricalDistributions = "0.1.15-0.1"
 LearnAPI = ["0.2", "1"]
 LearnDataFrontEnds = "0.1"
+
+["0.3 - 0"]
+CategoricalArrays = "1"
+CategoricalDistributions = "0.2"
+LearnAPI = "2"
+LearnDataFrontEnds = "0.2"
+ScientificTypes = "3.0.2 - 3"
+UnPack = "1.0.2 - 1"
+julia = "1.10.0 - 1"
