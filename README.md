@@ -149,6 +149,9 @@ Collect and track coverage information.
 * Build and deploy documentation in CI, using a system like
 [Documenter.jl](https://documenter.juliadocs.org/stable/) where appropriate.
 
+When communicating about a package registration, never just blindly paste in an
+LLM response to a question raised in the registration PR on GitHub, Slack, etc.
+
 ### Can my package in this registry depend on unregistered packages?
 
 No. In this registry, your package cannot depend on other packages that are
