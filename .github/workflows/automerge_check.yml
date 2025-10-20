@@ -1,36 +1,24 @@
-name: AutoMerge
+name: AutoMerge (Check)
 
 on:
   pull_request:
     # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request
     types: [opened, reopened, labeled, synchronize]
-  schedule:
-    # The cron job is just a fallback.
-    # The "stopwatch" functionality that we have implemented should
-    # ensure that an AutoMerge merge job is run at least every 8 minutes.
-    # Therefore, it's sufficient for us to run the fallback job infrequently.
-    # We will choose to run the fallback job every 4 hours.
-    - cron:  '0 */4 * * *'
-  workflow_dispatch:
 
 env:
     JULIA_PKG_USE_CLI_GIT: true
 
-# AutoMerge v1 separates PR validation from PR merging for security:
-# - Check jobs: Validate PRs (runs untrusted code)
-# - Merge job: Merge approved PRs (elevated permissions, no untrusted code)
+# AutoMerge v1: PR validation workflow
+# This workflow runs untrusted package code and validates PRs.
+# It has read-only token permissions and never has merge access.
 #
-# We have four jobs:
+# We have two jobs:
 # 1. AutoMerge-check-regular:
 #    Validates all PR runs except PR labels using AutoMerge.check_pr()
 # 2. AutoMerge-check-label:
 #    Validates PR label runs using AutoMerge.check_pr()
 #    This is kept separate so label actions don't override the main AutoMerge job
 #    with a "skipped" status, making it difficult for PR authors to view CI logs.
-# 3. AutoMerge-merge:
-#    Merges approved PRs using AutoMerge.merge_prs() (cron/workflow_dispatch only)
-# 4. AutoMerge-stopwatch:
-#    Triggers periodic merge jobs via workflow_dispatch
 jobs:
   AutoMerge-check-regular:
     # Run if it is from a PR event AND it is not from a fork AND we are not triggered by a label
@@ -138,84 +126,3 @@ jobs:
           config = AutoMerge.general_registry_config()
           AutoMerge.check_pr(config.registry_config, config.check_pr_config)
         shell: julia --color=yes --project=.ci/AutoMerge/ {0}
-  AutoMerge-merge:
-    # Run only on master branch for scheduled/workflow_dispatch events
-    # This job has write permissions and actually merges approved PRs
-    if: "${{ github.ref == 'refs/heads/master' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}"
-    timeout-minutes: 60
-    runs-on: ${{ matrix.os }}
-    concurrency:
-      # Only one merge job should run at a time
-      group: automerge-merge
-      cancel-in-progress: false
-    strategy:
-      matrix:
-        version:
-          - '1.12'
-        os:
-          - ubuntu-latest
-        arch:
-          - x64
-    steps:
-      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
-      - uses: julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71 # v2.6.1
-        with:
-          version: ${{ matrix.version }}
-      - name: Cache artifacts
-        uses: julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9 # v2.1.0
-      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
-        shell: julia --color=yes --project=.ci/ {0}
-        id: manifest_version
-      - run: echo "The manifest is .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml"
-      - run: rm -rf .ci/AutoMerge/Manifest.toml
-      - run: mv .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/AutoMerge/Manifest.toml
-      - run: rm -rf .ci/AutoMerge/Manifest-*.toml
-      - run: chmod 400 .ci/AutoMerge/Project.toml
-      - run: chmod 400 .ci/AutoMerge/Manifest.toml
-      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
-        env:
-          JULIA_PKG_SERVER: ""
-      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: .ci/instantiate.sh .ci/AutoMerge/
-      - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.precompile()'
-      - name: AutoMerge.merge_prs
-        env:
-          AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          AUTOMERGE_MERGE_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
-          JULIA_DEBUG: RegistryCI,AutoMerge
-        run: |
-          using AutoMerge
-          config = AutoMerge.general_registry_config()
-          AutoMerge.merge_prs(config.registry_config, config.merge_prs_config)
-        shell: julia --color=yes --project=.ci/AutoMerge/ {0}
-  AutoMerge-stopwatch:
-    timeout-minutes: 20
-    if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
-    environment: stopwatch
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
-      - uses: julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71 # v2.6.1
-        with:
-          version: '1.12'
-      - name: Cache artifacts
-        uses: julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9 # v2.1.0
-      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
-        shell: julia --color=yes --project=.ci/ {0}
-        id: manifest_version
-      - run: rm -rf .ci/Manifest.toml
-      - run: mv .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
-      - run: rm -rf .ci/Manifest-*.toml
-      - run: chmod 400 .ci/Project.toml
-      - run: chmod 400 .ci/Manifest.toml
-      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
-        env:
-          JULIA_PKG_SERVER: ""
-      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: .ci/instantiate.sh .ci/
-      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
-      - run: julia --project=.ci/ .ci/stopwatch.jl
-        env:
-          AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # AutoMerge v1: Renamed from AUTOMERGE_TAGBOT_TOKEN to AUTOMERGE_MERGE_TOKEN
-          AUTOMERGE_MERGE_TOKEN: ${{ secrets.TAGBOT_TOKEN }}

@@ -1,0 +1,70 @@
+name: AutoMerge (Merge)
+
+on:
+  schedule:
+    # The cron job is just a fallback.
+    # The "stopwatch" functionality (separate workflow) should ensure that
+    # an AutoMerge merge job is run at least every 8 minutes.
+    # Therefore, it's sufficient for us to run the fallback job infrequently.
+    # We will choose to run the fallback job every 4 hours.
+    - cron:  '0 */4 * * *'
+  workflow_dispatch:
+
+env:
+    JULIA_PKG_USE_CLI_GIT: true
+
+# AutoMerge v1: PR merging workflow
+# This workflow has elevated permissions and actually merges approved PRs.
+# It only runs on schedule/workflow_dispatch events (never on PR events).
+# The separate stopwatch workflow triggers this via workflow_dispatch to maintain ~8 min cadence.
+jobs:
+  AutoMerge-merge:
+    # Run only on master branch for scheduled/workflow_dispatch events
+    # This job has write permissions and actually merges approved PRs
+    if: "${{ github.ref == 'refs/heads/master' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}"
+    timeout-minutes: 60
+    runs-on: ${{ matrix.os }}
+    concurrency:
+      # Only one merge job should run at a time
+      group: automerge-merge
+      cancel-in-progress: false
+    strategy:
+      matrix:
+        version:
+          - '1.12'
+        os:
+          - ubuntu-latest
+        arch:
+          - x64
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      - uses: julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71 # v2.6.1
+        with:
+          version: ${{ matrix.version }}
+      - name: Cache artifacts
+        uses: julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9 # v2.1.0
+      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
+        shell: julia --color=yes --project=.ci/ {0}
+        id: manifest_version
+      - run: echo "The manifest is .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml"
+      - run: rm -rf .ci/AutoMerge/Manifest.toml
+      - run: mv .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/AutoMerge/Manifest.toml
+      - run: rm -rf .ci/AutoMerge/Manifest-*.toml
+      - run: chmod 400 .ci/AutoMerge/Project.toml
+      - run: chmod 400 .ci/AutoMerge/Manifest.toml
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
+        env:
+          JULIA_PKG_SERVER: ""
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
+      - run: .ci/instantiate.sh .ci/AutoMerge/
+      - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.precompile()'
+      - name: AutoMerge.merge_prs
+        env:
+          AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUTOMERGE_MERGE_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
+          JULIA_DEBUG: RegistryCI,AutoMerge
+        run: |
+          using AutoMerge
+          config = AutoMerge.general_registry_config()
+          AutoMerge.merge_prs(config.registry_config, config.merge_prs_config)
+        shell: julia --color=yes --project=.ci/AutoMerge/ {0}

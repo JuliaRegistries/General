@@ -44,7 +44,7 @@ function most_recent_automerge(
         api = api,
         auth = auth,
         event = "workflow_dispatch",
-        workflow_name = "AutoMerge",
+        workflow_name = "AutoMerge (Merge)",
     )
     return workflow_dispatch
 end
@@ -92,7 +92,7 @@ function trigger_new_automerge_if_necessary()
             registry;
             api,
             auth,
-            workflow_file_name = "automerge.yml",
+            workflow_file_name = "automerge_merge.yml",
         )
         @info "Triggered a new AutoMerge workflow dispatch job"
     end
