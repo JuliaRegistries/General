@@ -10,7 +10,7 @@ env:
 
 # AutoMerge v1: PR validation workflow
 # This workflow runs untrusted package code and validates PRs.
-# It has read-only token permissions and never has merge access.
+# It has limited token permissions (read + commit status) and never has merge access.
 #
 # We have two jobs:
 # 1. AutoMerge-check-regular:
