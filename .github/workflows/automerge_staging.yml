@@ -82,7 +82,9 @@ jobs:
           using AutoMerge
 
           config = AutoMerge.general_registry_config()
-          AutoMerge.check_pr(config.registry_config, config.check_pr_config)
+          registry_config =
+          AutoMerge.RegistryConfiguration(config.registry_config; read_only=true)
+          AutoMerge.check_pr(registry_config, config.check_pr_config)
         shell: julia --color=yes --project=.ci/AutoMerge/ {0}
   AutoMerge_staging-label:
     # Run this job only if ALL of the following conditions are true:
@@ -144,5 +146,7 @@ jobs:
           using AutoMerge
 
           config = AutoMerge.general_registry_config()
-          AutoMerge.check_pr(config.registry_config, config.check_pr_config)
+          registry_config =
+          AutoMerge.RegistryConfiguration(config.registry_config; read_only=true)
+          AutoMerge.check_pr(registry_config, config.check_pr_config)
         shell: julia --color=yes --project=.ci/AutoMerge/ {0}
