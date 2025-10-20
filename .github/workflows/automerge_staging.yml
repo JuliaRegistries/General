@@ -74,38 +74,17 @@ jobs:
         shell: julia --color=yes --project=.ci/AutoMerge/ {0}
       - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.update()'
       - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.precompile()'
-      - name: AutoMerge.run
+      - name: AutoMerge.check_pr
         env:
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          AUTOMERGE_TAGBOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JULIA_DEBUG: RegistryCI,AutoMerge
         run: |
           using AutoMerge
-          using Dates
 
-          AutoMerge.run(
-            read_only = true,           # run in read-only mode
-
-            merge_new_packages = false, # don't merge any PRs
-            merge_new_versions = false, # don't merge any PRs
-            new_package_waiting_period = Day(3),
-            new_jll_package_waiting_period = Minute(20),
-            new_version_waiting_period = Minute(10),
-            new_jll_version_waiting_period = Minute(10),
-            registry = "JuliaRegistries/General",
-            tagbot_enabled = true,
-            authorized_authors = String["JuliaRegistrator"],
-            authorized_authors_special_jll_exceptions = String["jlbuild"],
-            suggest_onepointzero = false,
-            additional_statuses = String[],
-            additional_check_runs = String[],
-            check_license = true,
-            public_registries = String[
-              "https://github.com/HolyLab/HolyLabRegistry",
-              "https://github.com/cossio/CossioJuliaRegistry"
-            ],
-            check_breaking_explanation = true,
-          )
+          config = AutoMerge.general_registry_config()
+          registry_config =
+          AutoMerge.RegistryConfiguration(config.registry_config; read_only=true)
+          AutoMerge.check_pr(registry_config, config.check_pr_config)
         shell: julia --color=yes --project=.ci/AutoMerge/ {0}
   AutoMerge_staging-label:
     # Run this job only if ALL of the following conditions are true:
@@ -159,36 +138,15 @@ jobs:
         shell: julia --color=yes --project=.ci/AutoMerge/ {0}
       - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.update()'
       - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.precompile()'
-      - name: AutoMerge.run
+      - name: AutoMerge.check_pr
         env:
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          AUTOMERGE_TAGBOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JULIA_DEBUG: RegistryCI,AutoMerge
         run: |
           using AutoMerge
-          using Dates
 
-          AutoMerge.run(
-            read_only = true,           # run in read-only mode
-
-            merge_new_packages = false, # don't merge any PRs
-            merge_new_versions = false, # don't merge any PRs
-            new_package_waiting_period = Day(3),
-            new_jll_package_waiting_period = Minute(20),
-            new_version_waiting_period = Minute(10),
-            new_jll_version_waiting_period = Minute(10),
-            registry = "JuliaRegistries/General",
-            tagbot_enabled = true,
-            authorized_authors = String["JuliaRegistrator"],
-            authorized_authors_special_jll_exceptions = String["jlbuild"],
-            suggest_onepointzero = false,
-            additional_statuses = String[],
-            additional_check_runs = String[],
-            check_license = true,
-            public_registries = String[
-              "https://github.com/HolyLab/HolyLabRegistry",
-              "https://github.com/cossio/CossioJuliaRegistry"
-            ],
-            check_breaking_explanation = true,
-          )
+          config = AutoMerge.general_registry_config()
+          registry_config =
+          AutoMerge.RegistryConfiguration(config.registry_config; read_only=true)
+          AutoMerge.check_pr(registry_config, config.check_pr_config)
         shell: julia --color=yes --project=.ci/AutoMerge/ {0}
