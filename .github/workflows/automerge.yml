@@ -15,38 +15,34 @@ on:
 
 env:
     JULIA_PKG_USE_CLI_GIT: true
-    # We only need the merging token
-    # if we are on the master branch and running either a workflow dispatch
-    # (possibly from the stopwatch mechanism) or a scheduled job.
-    # See also the same logic inside RegistryCI:
-    # https://github.com/JuliaRegistries/RegistryCI.jl/blob/ee1d7cdb165202f4f3929a122c3188fbdd7afc16/src/AutoMerge/ciservice.jl#L53-L67
-    NEED_MERGE_TOKEN: ${{ github.ref == 'refs/heads/master' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
 
-# We have three jobs:
-# 1. AutoMerge-regular:
-#    This includes cron runs, workflow_dispatch runs, and all PR runs except PR labels.
-# 2. AutoMerge-pr-label
-#    This only includes PR label runs.
-#    It is important to keep this job separate.
-#    If we don't keep this job separate, then any label action will override the main/regular
-#    AutoMerge job with a "skipped" AutoMerge job, thus making it very difficult for PR authors
-#    to view the CI logs (which they need to do if they e.g. want to figure out why `import MyPackageName`
-#    failed during the AutoMerge run.)
-# 3. AutoMerge-stopwatch
+# AutoMerge v1 separates PR validation from PR merging for security:
+# - Check jobs: Validate PRs (runs untrusted code)
+# - Merge job: Merge approved PRs (elevated permissions, no untrusted code)
+#
+# We have four jobs:
+# 1. AutoMerge-check-regular:
+#    Validates all PR runs except PR labels using AutoMerge.check_pr()
+# 2. AutoMerge-check-label:
+#    Validates PR label runs using AutoMerge.check_pr()
+#    This is kept separate so label actions don't override the main AutoMerge job
+#    with a "skipped" status, making it difficult for PR authors to view CI logs.
+# 3. AutoMerge-merge:
+#    Merges approved PRs using AutoMerge.merge_prs() (cron/workflow_dispatch only)
+# 4. AutoMerge-stopwatch:
+#    Triggers periodic merge jobs via workflow_dispatch
 jobs:
-  AutoMerge-regular:
-    # Run if:
-    # - not from a PR event
-    # - or it is from a PR event AND it is not from a fork AND we are not triggered by a label
+  AutoMerge-check-regular:
+    # Run if it is from a PR event AND it is not from a fork AND we are not triggered by a label
     # Note: since the label contains a colon, we need to use a workaround like https://github.com/actions/runner/issues/1019#issuecomment-810482716
     # for the syntax to parse correctly.
-    if: "${{ github.event_name != 'pull_request' || (github.repository == github.event.pull_request.head.repo.full_name && (github.event.action != 'labeled')) }}"
+    if: "${{ (github.event_name == 'pull_request') && (github.repository == github.event.pull_request.head.repo.full_name) && (github.event.action != 'labeled') }}"
     timeout-minutes: 60
     runs-on: ${{ matrix.os }}
     concurrency:
       # Skip intermediate builds: always.
       # Cancel intermediate builds: only pull request builds
-      group: automerge-${{ github.ref }}
+      group: automerge-check-${{ github.ref }}
       cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
     strategy:
       matrix:
@@ -57,9 +53,6 @@ jobs:
         arch:
           - x64
     steps:
-      # For debugging purposes, we print this value first
-      - name: Print env variable NEED_MERGE_TOKEN
-        run: echo "NEED_MERGE_TOKEN=$NEED_MERGE_TOKEN"
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       - uses: julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71 # v2.6.1
         with:
@@ -69,55 +62,28 @@ jobs:
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes --project=.ci/ {0}
         id: manifest_version
-      - run: echo "The manifest is .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml"
-      - run: rm -rf .ci/Manifest.toml
-      - run: mv .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
-      - run: rm -rf .ci/Manifest-*.toml
-      - run: chmod 400 .ci/Project.toml
-      - run: chmod 400 .ci/Manifest.toml
+      - run: echo "The manifest is .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml"
+      - run: rm -rf .ci/AutoMerge/Manifest.toml
+      - run: mv .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/AutoMerge/Manifest.toml
+      - run: rm -rf .ci/AutoMerge/Manifest-*.toml
+      - run: chmod 400 .ci/AutoMerge/Project.toml
+      - run: chmod 400 .ci/AutoMerge/Manifest.toml
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: .ci/instantiate.sh .ci/
-      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
-      - name: AutoMerge.run
+      - run: .ci/instantiate.sh .ci/AutoMerge/
+      - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.precompile()'
+      - name: AutoMerge.check_pr
         env:
-          MERGE_NEW_PACKAGES: true
-          MERGE_NEW_VERSIONS: true
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # populate the actual token below only if `NEED_MERGE_TOKEN` is true, otherwise pass the empty string
-          # this uses the ternary syntax: https://docs.github.com/en/actions/learn-github-actions/expressions#example
-          AUTOMERGE_TAGBOT_TOKEN: ${{ env.NEED_MERGE_TOKEN == 'true' && secrets.TAGBOT_TOKEN || '' }}
           JULIA_DEBUG: RegistryCI,AutoMerge
         run: |
-          using RegistryCI
-          using Dates
-
-          RegistryCI.AutoMerge.run(
-            merge_new_packages = ENV["MERGE_NEW_PACKAGES"] == "true",
-            merge_new_versions = ENV["MERGE_NEW_VERSIONS"] == "true",
-            new_package_waiting_period = Day(3),
-            new_jll_package_waiting_period = Minute(20),
-            new_version_waiting_period = Minute(10),
-            new_jll_version_waiting_period = Minute(10),
-            registry = "JuliaRegistries/General",
-            tagbot_enabled = true,
-            authorized_authors = String["JuliaRegistrator"],
-            authorized_authors_special_jll_exceptions = String["jlbuild"],
-            suggest_onepointzero = false,
-            additional_statuses = String[],
-            additional_check_runs = String[],
-            check_license = true,
-            public_registries = String[
-              "https://github.com/HolyLab/HolyLabRegistry",
-              "https://github.com/cossio/CossioJuliaRegistry"
-            ],
-            point_to_slack = true,
-            check_breaking_explanation = true,
-          )
-        shell: julia --color=yes --project=.ci/ {0}
-  AutoMerge-label:
+          using AutoMerge
+          config = AutoMerge.general_registry_config()
+          AutoMerge.check_pr(config.registry_config, config.check_pr_config)
+        shell: julia --color=yes --project=.ci/AutoMerge/ {0}
+  AutoMerge-check-label:
     # Run this job only if ALL of the following conditions are true:
     # 1. It is from a PR event, AND
     # 2. The PR is not from a fork, AND
@@ -131,20 +97,17 @@ jobs:
     concurrency:
       # Skip intermediate builds: always.
       # Cancel intermediate builds: only pull request builds
-      group: automerge-${{ github.ref }}
+      group: automerge-check-${{ github.ref }}
       cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
     strategy:
       matrix:
         version:
-          - '1.11'
+          - '1.12'
         os:
           - ubuntu-latest
         arch:
           - x64
     steps:
-      # For debugging purposes, we print this value first
-      - name: Print env variable NEED_MERGE_TOKEN
-        run: echo "NEED_MERGE_TOKEN=$NEED_MERGE_TOKEN"
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       - uses: julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71 # v2.6.1
         with:
@@ -154,54 +117,77 @@ jobs:
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes --project=.ci/ {0}
         id: manifest_version
-      - run: echo "The manifest is .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml"
-      - run: rm -rf .ci/Manifest.toml
-      - run: mv .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
-      - run: rm -rf .ci/Manifest-*.toml
-      - run: chmod 400 .ci/Project.toml
-      - run: chmod 400 .ci/Manifest.toml
+      - run: echo "The manifest is .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml"
+      - run: rm -rf .ci/AutoMerge/Manifest.toml
+      - run: mv .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/AutoMerge/Manifest.toml
+      - run: rm -rf .ci/AutoMerge/Manifest-*.toml
+      - run: chmod 400 .ci/AutoMerge/Project.toml
+      - run: chmod 400 .ci/AutoMerge/Manifest.toml
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: .ci/instantiate.sh .ci/
-      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
-      - name: AutoMerge.run
+      - run: .ci/instantiate.sh .ci/AutoMerge/
+      - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.precompile()'
+      - name: AutoMerge.check_pr
         env:
-          MERGE_NEW_PACKAGES: true
-          MERGE_NEW_VERSIONS: true
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # populate the actual token below only if `NEED_MERGE_TOKEN` is true, otherwise pass the empty string
-          # this uses the ternary syntax: https://docs.github.com/en/actions/learn-github-actions/expressions#example
-          AUTOMERGE_TAGBOT_TOKEN: ${{ env.NEED_MERGE_TOKEN == 'true' && secrets.TAGBOT_TOKEN || '' }}
           JULIA_DEBUG: RegistryCI,AutoMerge
         run: |
-          using RegistryCI
-          using Dates
-
-          RegistryCI.AutoMerge.run(
-            merge_new_packages = ENV["MERGE_NEW_PACKAGES"] == "true",
-            merge_new_versions = ENV["MERGE_NEW_VERSIONS"] == "true",
-            new_package_waiting_period = Day(3),
-            new_jll_package_waiting_period = Minute(20),
-            new_version_waiting_period = Minute(10),
-            new_jll_version_waiting_period = Minute(10),
-            registry = "JuliaRegistries/General",
-            tagbot_enabled = true,
-            authorized_authors = String["JuliaRegistrator"],
-            authorized_authors_special_jll_exceptions = String["jlbuild"],
-            suggest_onepointzero = false,
-            additional_statuses = String[],
-            additional_check_runs = String[],
-            check_license = true,
-            public_registries = String[
-              "https://github.com/HolyLab/HolyLabRegistry",
-              "https://github.com/cossio/CossioJuliaRegistry"
-            ],
-            point_to_slack = true,
-            check_breaking_explanation = true,
-          )
+          using AutoMerge
+          config = AutoMerge.general_registry_config()
+          AutoMerge.check_pr(config.registry_config, config.check_pr_config)
+        shell: julia --color=yes --project=.ci/AutoMerge/ {0}
+  AutoMerge-merge:
+    # Run only on master branch for scheduled/workflow_dispatch events
+    # This job has write permissions and actually merges approved PRs
+    if: "${{ github.ref == 'refs/heads/master' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}"
+    timeout-minutes: 60
+    runs-on: ${{ matrix.os }}
+    concurrency:
+      # Only one merge job should run at a time
+      group: automerge-merge
+      cancel-in-progress: false
+    strategy:
+      matrix:
+        version:
+          - '1.12'
+        os:
+          - ubuntu-latest
+        arch:
+          - x64
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      - uses: julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71 # v2.6.1
+        with:
+          version: ${{ matrix.version }}
+      - name: Cache artifacts
+        uses: julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9 # v2.1.0
+      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes --project=.ci/ {0}
+        id: manifest_version
+      - run: echo "The manifest is .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml"
+      - run: rm -rf .ci/AutoMerge/Manifest.toml
+      - run: mv .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/AutoMerge/Manifest.toml
+      - run: rm -rf .ci/AutoMerge/Manifest-*.toml
+      - run: chmod 400 .ci/AutoMerge/Project.toml
+      - run: chmod 400 .ci/AutoMerge/Manifest.toml
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
+        env:
+          JULIA_PKG_SERVER: ""
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
+      - run: .ci/instantiate.sh .ci/AutoMerge/
+      - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.precompile()'
+      - name: AutoMerge.merge_prs
+        env:
+          AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUTOMERGE_MERGE_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
+          JULIA_DEBUG: RegistryCI,AutoMerge
+        run: |
+          using AutoMerge
+          config = AutoMerge.general_registry_config()
+          AutoMerge.merge_prs(config.registry_config, config.merge_prs_config)
+        shell: julia --color=yes --project=.ci/AutoMerge/ {0}
   AutoMerge-stopwatch:
     timeout-minutes: 20
     if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
@@ -211,7 +197,7 @@ jobs:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       - uses: julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71 # v2.6.1
         with:
-          version: '1.11'
+          version: '1.12'
       - name: Cache artifacts
         uses: julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9 # v2.1.0
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
@@ -231,4 +217,5 @@ jobs:
       - run: julia --project=.ci/ .ci/stopwatch.jl
         env:
           AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          AUTOMERGE_TAGBOT_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
+          # AutoMerge v1: Renamed from AUTOMERGE_TAGBOT_TOKEN to AUTOMERGE_MERGE_TOKEN
+          AUTOMERGE_MERGE_TOKEN: ${{ secrets.TAGBOT_TOKEN }}

@@ -81,7 +81,8 @@ end
 
 function trigger_new_automerge_if_necessary()
     api = GitHub.DEFAULT_API
-    auth = GitHub.OAuth2(ENV["AUTOMERGE_TAGBOT_TOKEN"])
+    # AutoMerge v1: Token renamed from AUTOMERGE_TAGBOT_TOKEN to AUTOMERGE_MERGE_TOKEN
+    auth = GitHub.OAuth2(ENV["AUTOMERGE_MERGE_TOKEN"])
     registry = GitHub.Repo("JuliaRegistries/General")
     t = time_since_last_automerge(registry; api, auth)
     @info "Time since last AutoMerge" t _canonicalize(t)
