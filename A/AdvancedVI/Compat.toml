@@ -1,100 +1,114 @@
-["0-0.1"]
+["0 - 0.1"]
 julia = "1"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 Distributions = "0.21-0.23"
 
-["0-0.1.1"]
+["0 - 0.1.1"]
 Bijectors = "0.4-0.8"
 
-["0-0.1.4"]
+["0 - 0.1.4"]
 StatsFuns = "0.8-0.9"
 
-["0-0.1.5"]
+["0 - 0.1.5"]
 DocStringExtensions = "0.8"
 
-["0-0.2"]
+["0 - 0.2"]
 DistributionsAD = "0.2-0.6"
 ProgressMeter = "1"
 Tracker = "0.2.3-0.2"
 
-["0-0.2.11"]
+["0 - 0.2.11"]
 ForwardDiff = "0.10.3-0.10"
 
-["0-0.2.2"]
+["0 - 0.2.2"]
 StatsBase = "0.32-0.33"
 
-["0-0.2.4"]
+["0 - 0.2.4"]
 Requires = ["0.5", "1"]
 
-["0.1.1-0.1.2"]
+["0.1.1 - 0.1.2"]
 Distributions = "0.21-0.24"
 
-["0.1.2-0.1.4"]
+["0.1.2 - 0.1.4"]
 Bijectors = "0.4-0.9"
 
-["0.1.3-0.2"]
+["0.1.3 - 0.2"]
 Distributions = "0.21-0.25"
 
-["0.1.5-0.1"]
+["0.1.5 - 0.1"]
 Bijectors = "0.4-0.10"
 
-["0.1.5-0.2"]
+["0.1.5 - 0.2"]
 StatsFuns = ["0.8-0.9", "1"]
 
-["0.1.6-0"]
+["0.1.6 - 0.4"]
 DocStringExtensions = "0.8-0.9"
 
 ["0.2"]
 julia = "1.6.0-1"
 
-["0.2-0.2.3"]
+["0.2 - 0.2.3"]
 Bijectors = "0.11-0.12"
 
 ["0.2.10"]
 Bijectors = "0.11-0.14"
 
-["0.2.11-0.2"]
+["0.2.11 - 0.2"]
 Bijectors = "0.11-0.15"
 
-["0.2.12-0.2"]
+["0.2.12 - 0.2"]
 ForwardDiff = ["0.10.3-0.10", "1"]
 
-["0.2.3-0"]
+["0.2.3 - 0.4"]
 StatsBase = "0.32-0.34"
 
-["0.2.4-0.2.9"]
+["0.2.4 - 0.2.9"]
 Bijectors = "0.11-0.13"
 
-["0.2.5-0"]
+["0.2.5 - 0"]
 DiffResults = "1"
 
-["0.2.5-0.2"]
+["0.2.5 - 0.2"]
 ADTypes = ["0.2", "1"]
 LinearAlgebra = "1.6.0-1"
 Random = "1.6.0-1"
 
-["0.2.5-0.3.0"]
+["0.2.5 - 0.3.0"]
 Requires = "1"
 
-["0.3-0"]
+["0.3 - 0"]
 ADTypes = "1"
 Accessors = "0.1"
+LinearAlgebra = "1"
+LogDensityProblems = "2"
+Random = "1"
+
+["0.3 - 0.3.1"]
+ChainRulesCore = "1.16.0-1"
+
+["0.3 - 0.4"]
 Distributions = "0.25.111-0.25"
 FillArrays = "1.3.0-1"
 Functors = "0.4-0.5"
-LinearAlgebra = "1"
-LogDensityProblems = "2"
 Optimisers = "0.2.16-0.4"
 ProgressMeter = "1.6.0-1"
-Random = "1"
 julia = "1.10.0-1"
 
-["0.3-0.3.1"]
-ChainRulesCore = "1.16.0-1"
-
-["0.3-0.4.0"]
+["0.3 - 0.4.0"]
 DifferentiationInterface = "0.6"
 
-["0.4.1-0"]
+["0.4.1 - 0.4"]
 DifferentiationInterface = "0.6-0.7"
+
+["0.5 - 0"]
+ChainRulesCore = "1"
+DifferentiationInterface = "0.6 - 0.7"
+Distributions = "0.25.111 - 0.25"
+DocStringExtensions = "0.8 - 0.9"
+FillArrays = "1.3.0 - 1"
+Functors = "0.4 - 0.5"
+Optimisers = "0.2.16 - 0.4"
+ProgressMeter = "1.6.0 - 1"
+StatsBase = "0.32 - 0.34"
+julia = "1.10.0 - 1"
