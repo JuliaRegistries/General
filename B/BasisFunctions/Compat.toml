@@ -1,18 +1,16 @@
 [0]
 MacroTools = "0.5"
-OrderedCollections = "1.2.0-1"
-QuadGK = "2.4.0-2"
 Reexport = "1"
 
-["0-0.4.0"]
+["0 - 0.4.0"]
 AbstractTrees = "0.3"
 DomainIntegrals = "0.3.2-0.3"
 
-["0-0.4.1"]
+["0 - 0.4.1"]
 DomainSets = "0.5.7-0.5"
 GridArrays = "0.1.11-0.1"
 
-["0-0.4.3"]
+["0 - 0.4.3"]
 BlockArrays = "0.14-0.16"
 FillArrays = "0.10-0.12"
 GaussQuadrature = "0.5.5-0.5"
@@ -22,130 +20,153 @@ PGFPlotsX = "1.2.0-1"
 SpecialFunctions = "1"
 StaticArrays = "1"
 
-["0-0.4.5"]
+["0 - 0.4.5"]
 ToeplitzMatrices = "0.6.3-0.6"
 julia = "1.5.0-1"
 
-["0-0.5.10"]
+["0 - 0.5.10"]
 FFTW = "1.3.0-1"
 
-["0-0.5.3"]
+["0 - 0.5.3"]
 CompositeTypes = "0.1.2-0.1"
 DSP = "0.6-0.7"
 
-["0-0.5.4"]
+["0 - 0.5.4"]
 FastGaussQuadrature = "0.4"
 
-["0-0.6.4"]
+["0 - 0.6.4"]
 RecipesBase = "1"
 
-["0.4.1-0.4.2"]
+["0 - 0.7.4"]
+OrderedCollections = "1.2.0-1"
+QuadGK = "2.4.0-2"
+
+["0.4.1 - 0.4.2"]
 DomainIntegrals = "0.3.3-0.3"
 
-["0.4.2-0.4.3"]
+["0.4.2 - 0.4.3"]
 GridArrays = "0.1.12-0.1"
 
-["0.4.2-0.4.5"]
+["0.4.2 - 0.4.5"]
 DomainSets = "0.5.9-0.5"
 
 ["0.4.3"]
 DomainIntegrals = "0.3.4-0.3"
 
-["0.4.4-0"]
-GaussQuadrature = "0.5.7-0.5"
+["0.4.4 - 0"]
 GenericLinearAlgebra = "0.3"
 IterativeSolvers = "0.9"
+
+["0.4.4 - 0.4"]
+GridArrays = "0.1.13-0.1"
+
+["0.4.4 - 0.5.0"]
+DomainIntegrals = "0.3.6-0.3"
+
+["0.4.4 - 0.6"]
+BlockArrays = "0.16"
+
+["0.4.4 - 0.6.3"]
+FillArrays = "0.12-0.13"
+
+["0.4.4 - 0.6.4"]
+PGFPlotsX = "1.4.0-1"
+
+["0.4.4 - 0.7.4"]
+GaussQuadrature = "0.5.7-0.5"
 SpecialFunctions = "1-2"
 StaticArrays = "1.4.0-1"
 
-["0.4.4-0.4"]
-GridArrays = "0.1.13-0.1"
-
-["0.4.4-0.5.0"]
-DomainIntegrals = "0.3.6-0.3"
-
-["0.4.4-0.6"]
-BlockArrays = "0.16"
-
-["0.4.4-0.6.3"]
-FillArrays = "0.12-0.13"
-
-["0.4.4-0.6.4"]
-PGFPlotsX = "1.4.0-1"
-
-["0.4.5-0.5"]
+["0.4.5 - 0.5"]
 GenericFFT = "0.1"
 
-["0.4.6-0.5.0"]
+["0.4.6 - 0.5.0"]
 DomainSets = "0.5.11-0.5"
 
-["0.4.6-0.6"]
+["0.4.6 - 0.6"]
 ToeplitzMatrices = "0.7"
 
-["0.4.6-0.6.4"]
+["0.4.6 - 0.6.4"]
 julia = "1.6.0-1"
 
-["0.5-0.5.4"]
+["0.5 - 0.5.4"]
 GridArrays = "0.1.14-0.1"
 
-["0.5.1-0.5.4"]
+["0.5.1 - 0.5.4"]
 DomainIntegrals = "0.3.7-0.3"
 DomainSets = "0.5.12-0.5"
 
-["0.5.10-0.6.2"]
+["0.5.10 - 0.6.2"]
 DomainIntegrals = "0.4.2-0.4"
 
-["0.5.11-0"]
+["0.5.11 - 0.7.4"]
 FFTW = "1.6.0-1"
 
-["0.5.4-0"]
+["0.5.4 - 0.7.4"]
 CompositeTypes = "0.1.3-0.1"
 
-["0.5.5-0.5"]
+["0.5.5 - 0.5"]
 DomainSets = "0.5.14-0.6"
 GridArrays = "0.1.15-0.1"
 
-["0.5.5-0.5.9"]
+["0.5.5 - 0.5.9"]
 DomainIntegrals = "0.4"
 
-["0.5.5-0.7.3"]
+["0.5.5 - 0.7.3"]
 FastGaussQuadrature = "0.4-0.5"
 
-["0.6-0"]
-GenericFFT = "0.1.3-0.1"
-
-["0.6-0.6.2"]
+["0.6 - 0.6.2"]
 DomainSets = "0.6.2-0.6"
 GridArrays = "0.2"
+
+["0.6 - 0.7.4"]
+GenericFFT = "0.1.3-0.1"
 
 ["0.6.3"]
 GridArrays = "0.2.1-0.2"
 
-["0.6.3-0"]
+["0.6.3 - 0"]
 DomainSets = "0.7"
 
-["0.6.3-0.6"]
+["0.6.3 - 0.6"]
 DomainIntegrals = "0.4.5-0.4"
 
-["0.6.4-0.6"]
+["0.6.4 - 0.6"]
 FillArrays = ["0.13", "1"]
 GridArrays = "0.2.2-0.2"
 
-["0.6.5-0.6"]
+["0.6.5 - 0.6"]
 julia = "1.9.0-1"
 
-["0.7-0"]
+["0.7 - 0"]
 BlockArrays = "1"
-DomainIntegrals = "0.5.1-0.5"
 FillArrays = "1"
-GridArrays = "0.2.4-0.2"
 LinearAlgebra = "1"
 Test = "1"
 ToeplitzMatrices = "0.8"
+
+["0.7 - 0.7.4"]
+DomainIntegrals = "0.5.1-0.5"
+GridArrays = "0.2.4-0.2"
 julia = "1.10.0-1"
 
-["0.7.3-0"]
+["0.7.3 - 0.7.4"]
 BandedMatrices = "1.7.6-1"
 
-["0.7.4-0"]
+["0.7.4"]
 FastGaussQuadrature = ["0.4-0.5", "1"]
+
+["0.7.5 - 0"]
+BandedMatrices = "1.7.6 - 1"
+CompositeTypes = "0.1.3 - 0.1"
+DomainIntegrals = "0.5.1 - 0.5"
+FFTW = "1.6.0 - 1"
+FastGaussQuadrature = ["0.4 - 0.5", "1"]
+GaussQuadrature = "0.5.7 - 0.5"
+GenericFFT = "0.1.3 - 0.1"
+GridArrays = "0.2.4 - 0.2"
+OrderedCollections = "1.2.0 - 1"
+QuadGK = "2.4.0 - 2"
+SpecialFunctions = "1 - 2"
+StaticArrays = "1.4.0 - 1"
+julia = "1.10.0 - 1"
