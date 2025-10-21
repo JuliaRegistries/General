@@ -10,11 +10,24 @@ boost_jll = "1.79.0"
 ["5.8.1-5"]
 JLLWrappers = "1.4.0-1"
 LazyArtifacts = "1"
-MPIPreferences = "0.1"
-julia = "1.6.0-1"
 
 ["5.8.1-5.8"]
 boost_jll = "1.76.0"
 
+["5.8.1-6"]
+MPIPreferences = "0.1"
+julia = "1.6.0-1"
+
 ["5.8.2-5.8"]
 MPItrampoline_jll = "5"
+
+[6]
+Artifacts = ["0.0.0", "1"]
+GMP_jll = "6.2.1-6"
+JLLWrappers = "1.7.0-1"
+LazyArtifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]
+MPICH_jll = "4.3.0-4"
+MPItrampoline_jll = "5.5.3-5"
+OpenMPI_jll = ["4.1.8-4", "5.0.7-5"]
+TOML = ["0.0.0", "1"]
