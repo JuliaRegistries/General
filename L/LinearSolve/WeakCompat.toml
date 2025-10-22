@@ -180,8 +180,10 @@ KrylovKit = "0.8 - 0.10"
 
 ["3.27 - 3"]
 BlockDiagonals = "0.2"
-CUDSS = "0.4"
 KrylovKit = "0.10"
+
+["3.27 - 3.44"]
+CUDSS = "0.4"
 
 ["3.28"]
 AMDGPU = "1"
@@ -213,6 +215,9 @@ SparseArrays = "1.10.0-1"
 
 ["3.44 - 3"]
 Mooncake = "0.4"
+
+["3.45 - 3"]
+CUDSS = ["0.4", "0.6.1 - 0.6"]
 
 ["3.5 - 3.12.0"]
 BlockDiagonals = "0.1.42-0.2"
