@@ -162,16 +162,23 @@ ForwardDiff = ["0.10.26 - 0.10", "1"]
 IrrationalConstants = "0.1.1 - 0.2"
 LogDensityProblems = "2.1.0 - 2"
 Optim = "1.7.2 - 1"
-Optimization = "3.21.0 - 4"
 OptimizationOptimJL = "0.2.1 - 0.4"
 PDMats = "0.11.35 - 0.11"
 PSIS = "0.2 - 0.9"
 ProgressLogging = "0.1.4 - 0.1"
-Requires = "1.1.0 - 1"
 SciMLBase = "2.30.0 - 2"
 StatsBase = "0.33.17 - 0.34"
 Transducers = "0.4.81 - 0.4"
 julia = "1.10.0 - 1"
+
+["0.9.18 - 0.9.22"]
+Optimization = "3.21.0 - 4"
+Requires = "1.1.0 - 1"
+
+["0.9.23 - 0"]
+Optimization = "3.22.0 - 5"
+OptimizationBase = ["0.0.5", "1 - 3"]
+Requires = "1.1.3 - 1"
 
 ["0.9.3 - 0.9.8"]
 Optimization = "3.16.0-4"
