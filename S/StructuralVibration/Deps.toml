@@ -1,4 +1,10 @@
 [0]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["0 - 0.1.0"]
+DispatchDoctor = "8d63f2c5-f18a-4cf2-ba9d-b3f60fc568c8"
+
+["0 - 1"]
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
@@ -6,11 +12,12 @@ Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 Peaks = "18e31ff7-3703-566c-8e60-38913d67486b"
-PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0-0.1.0"]
-DispatchDoctor = "8d63f2c5-f18a-4cf2-ba9d-b3f60fc568c8"
+[1]
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
+SkipNan = "aed68c70-c8b0-4309-8cd1-d392a74f991a"
+ToeplitzMatrices = "c751599d-da0a-543b-9d20-d0a503d91d24"
