@@ -1,22 +1,32 @@
 [0]
 Arrow = "2"
-DataStructures = "0.18"
 Distributions = "0.25"
-HiGHS = "1"
-JSON = "0.21"
 Requires = "1"
 TOML = "1"
+
+["0 - 0.10"]
+DataStructures = "0.18"
+HiGHS = "1"
+JSON = "0.21"
 julia = "1.8.0-1.11"
 
-["0-0.9.1"]
+["0 - 0.9.1"]
 JuMP = "1.20.0-1"
 SpineInterface = "0.15"
 
-["0.10-0"]
+["0.10"]
 SpineInterface = "0.15.2-0.15"
 
-["0.9.2-0"]
+["0.11 - 0"]
+DataStructures = "0.18 - 0.19"
+HiGHS = "1.9.0 - 1"
+JSON = ["0.21", "1"]
+JuMP = "1.23.5 - 1"
+SpineInterface = "0.15.2 - 0.16.0"
+julia = "1.10.10 - 1.11"
+
+["0.9.2 - 0.10"]
 JuMP = "1.23.5-1"
 
-["0.9.2-0.9"]
+["0.9.2 - 0.9"]
 SpineInterface = "0.15.1-0.15"
