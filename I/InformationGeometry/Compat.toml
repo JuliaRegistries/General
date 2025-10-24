@@ -216,11 +216,13 @@ Sobol = "1.3.0 - 1"
 SpecialFunctions = ["0.9 - 0.10", "1 - 2"]
 StaticArrays = ["0.11 - 0.12", "1"]
 Suppressor = "0.1 - 0.2"
-SymbolicUtils = ["0.11.3 - 0.20", "1 - 9"]
 Symbolics = "1 - 6"
 
 ["1.19.3 - 1.19"]
 LibGEOS = "0.6 - 0.9"
+
+["1.19.3 - 1.20"]
+SymbolicUtils = ["0.11.3 - 0.20", "1 - 9"]
 
 ["1.2 - 1"]
 Combinatorics = "1"
@@ -258,6 +260,9 @@ RecursiveArrayTools = "3"
 
 ["1.20.3 - 1"]
 GenericLinearAlgebra = "0.3"
+
+["1.21 - 1"]
+SymbolicUtils = ["0.11 - 0.20", "1 - 4"]
 
 ["1.3 - 1.6"]
 Reexport = ["0.2", "1"]
