@@ -44,8 +44,15 @@ SPIRV_Tools_jll = "2025.1.0 - 2025"
 julia = "1.10.0 - 1"
 
 ["0.10.4 - 0"]
-GPUCompiler = "1.6.0 - 1"
 SPIRVIntrinsics = "0.5"
+
+["0.10.4 - 0.10.5"]
+GPUCompiler = "1.6.0 - 1"
+
+["0.10.6 - 0"]
+GPUCompiler = "1.7.1 - 1"
+Random123 = "1.7.1 - 1"
+RandomNumbers = "1.6.0 - 1"
 
 ["0.9"]
 OpenCL_jll = "2022.9.23-2022"
