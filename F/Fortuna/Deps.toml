@@ -1,27 +1,34 @@
 [0]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["0.10-0"]
+["0 - 0.10.3"]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
+["0.10 - 0"]
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
-["0.10.2-0"]
+["0.10.2 - 0"]
 DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
+
+["0.10.2 - 0.10.3"]
 ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 
-["0.3-0"]
+["0.10.4 - 0"]
+ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
+
+["0.3 - 0"]
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
-["0.3.4-0"]
+["0.3.4 - 0"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
-["0.8-0"]
+["0.8 - 0.10.3"]
 FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 
-["0.8.2-0.10.2"]
+["0.8.2 - 0.10.2"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
