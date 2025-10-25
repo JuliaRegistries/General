@@ -17,9 +17,15 @@ Optimization = "4.4.0 - 4"
 PythonCall = "0.9.25 - 0.9"
 Reexport = "1.2.2 - 1"
 
+["1.1"]
+OptimizationBase = "3"
+SciMLBase = "2.58.0 - 2"
+
 ["1.1 - 1"]
 CondaPkg = "0.2"
-OptimizationBase = "3"
 PythonCall = "0.9"
 Reexport = "1.2.0 - 1"
-SciMLBase = "2.58.0 - 2"
+
+["1.2 - 1"]
+OptimizationBase = "4"
+SciMLBase = "2.122.1 - 2"
