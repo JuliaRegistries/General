@@ -13,8 +13,8 @@ uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 version = "1.11.0"
 
 [[deps.AutoMerge]]
-deps = ["Base64", "Dates", "GitHub", "HTTP", "JSON", "LibGit2", "LicenseCheck", "Pkg", "Printf", "Random", "RegistryCI", "RegistryTools", "SHA", "StringDistances", "TOML", "Tar", "TimeZones", "VisualStringDistances", "juliaup_jll"]
-git-tree-sha1 = "e5dc4a9d98ebf195a299af250f8efb1eef8c8d8a"
+deps = ["Base64", "Dates", "GitHub", "HTTP", "JSON", "LibGit2", "LicenseCheck", "Pkg", "Printf", "Random", "RegistryCI", "RegistryTools", "SHA", "StringDistances", "TOML", "Tar", "TimeZones", "UUIDs", "VisualStringDistances", "juliaup_jll"]
+git-tree-sha1 = "750b491f970d2274e479e6c235ec1d0f111d2e20"
 repo-rev = "master"
 repo-subdir = "AutoMerge"
 repo-url = "https://github.com/JuliaRegistries/RegistryCI.jl"
@@ -351,9 +351,9 @@ version = "1.9.15"
     Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 [[deps.StaticArraysCore]]
-git-tree-sha1 = "192954ef1208c7019899fbf8049e717f92959682"
+git-tree-sha1 = "6ab403037779dae8c514bad259f32a447262455a"
 uuid = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
-version = "1.4.3"
+version = "1.4.4"
 
 [[deps.Statistics]]
 deps = ["LinearAlgebra"]
