@@ -354,7 +354,6 @@ HarmonicOrthogonalPolynomials = "0.6"
 LazyArrays = "2"
 
 ["0.7 - 0"]
-BlockArrays = "1"
 BlockBandedMatrices = "0.13"
 
 ["0.7 - 0.7.1"]
@@ -368,6 +367,9 @@ ContinuumArrays = "0.18"
 
 ["0.7 - 0.9.1"]
 julia = "1.10.0-1"
+
+["0.7 - 0.9.3"]
+BlockArrays = "1"
 
 ["0.7.0"]
 LazyBandedMatrices = "0.10"
@@ -399,10 +401,6 @@ RecurrenceRelationships = "0.2"
 ["0.8 - 0.9.1"]
 LazyArrays = "2.3.1-2"
 
-["0.9 - 0"]
-ClassicalOrthogonalPolynomials = "0.15"
-HarmonicOrthogonalPolynomials = "0.7"
-
 ["0.9 - 0.9.1"]
 ArrayLayouts = "1.11.0-1"
 LazyBandedMatrices = "0.11.3-0.11"
@@ -411,17 +409,32 @@ LazyBandedMatrices = "0.11.3-0.11"
 ContinuumArrays = "0.19"
 QuasiArrays = "0.12"
 
+["0.9 - 0.9.3"]
+ClassicalOrthogonalPolynomials = "0.15"
+HarmonicOrthogonalPolynomials = "0.7"
+
 ["0.9.1"]
 InfiniteLinearAlgebra = "0.9-0.10"
 
 ["0.9.2 - 0"]
 ArrayLayouts = "1.11.0 - 1"
-InfiniteLinearAlgebra = "0.9 - 0.10"
 LazyArrays = "2.3.1 - 2"
-LazyBandedMatrices = "0.11.3 - 0.11"
 SpecialFunctions = "1 - 2"
 julia = "1.10.0 - 1"
 
-["0.9.3 - 0"]
+["0.9.2 - 0.9.3"]
+InfiniteLinearAlgebra = "0.9 - 0.10"
+LazyBandedMatrices = "0.11.3 - 0.11"
+
+["0.9.3"]
 ContinuumArrays = "0.19.5 - 0.19"
 QuasiArrays = "0.12.2 - 0.12"
+
+["0.9.4 - 0"]
+BlockArrays = "1.7.3 - 1"
+ClassicalOrthogonalPolynomials = "0.15.8 - 0.15"
+ContinuumArrays = "0.20"
+HarmonicOrthogonalPolynomials = "0.7.1 - 0.7"
+InfiniteLinearAlgebra = "0.10"
+LazyBandedMatrices = "0.11.7 - 0.11"
+QuasiArrays = "0.13.1 - 0.13"
