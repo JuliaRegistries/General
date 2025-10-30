@@ -4,7 +4,6 @@ CSV = "0.10"
 Combinatorics = "1"
 CpuId = "0.3"
 DataFrames = "1"
-DataStructures = ["0.2", "0.18"]
 Distances = "0.10"
 Distributions = "0.25"
 FileIO = "1"
@@ -29,6 +28,9 @@ OnlineStats = "1.5.0-1"
 PkgVersion = "0.2-0.3"
 Surrogates = "6"
 julia = "1"
+
+["0 - 0.12"]
+DataStructures = ["0.2", "0.18"]
 
 ["0 - 0.4"]
 Compose = ["0.9", "1"]
@@ -90,6 +92,12 @@ SparseArrays = "1"
 SpecialFunctions = "2"
 StatsFuns = "1"
 
+["0.12"]
+Interpolations = "0.14 - 0.15"
+JSON = "0.21.3 - 0.21"
+MLJ = "0.19.2 - 0.20"
+YAXArrays = "0.5 - 0.6"
+
 ["0.12 - 0"]
 ArchGDAL = "0.9 - 0.10"
 BlackBoxOptim = "0.6"
@@ -101,19 +109,23 @@ GeoDataFrames = "0.3 - 0.4"
 Glob = "1.3.1 - 1"
 Graphs = "1.4.0 - 1"
 HypothesisTests = "0.10 - 0.11"
-Interpolations = "0.14 - 0.15"
-JSON = "0.21.3 - 0.21"
 LERC_jll = "3 - 4"
-MLJ = "0.19.2 - 0.20"
 NetCDF = "0.11 - 0.12"
 OnlineStats = "1.5.0 - 1"
 PkgVersion = "0.2 - 0.3"
 QuasiMonteCarlo = "0.3.3 - 0.3"
 SIRUS = "1.3.0 - 2"
 StatsBase = "0.33 - 0.34"
-YAXArrays = "0.5 - 0.6"
 Zarr = "0.9"
 julia = "1.10.0 - 1"
+
+["0.13 - 0"]
+DataStructures = ["0.2", "0.18 - 0.19"]
+Interpolations = "0.14 - 0.16"
+JMcDM = "0.7 - 0.8"
+JSON = ["0.21.3 - 0.21", "1"]
+MLJ = "0.20 - 0.21"
+YAXArrays = "0.5 - 0.7"
 
 ["0.4.5 - 0.11"]
 ArchGDAL = "0.9-0.10"
@@ -126,7 +138,6 @@ AxisKeys = "0.2"
 
 ["0.6 - 0"]
 Clustering = "0.15"
-JMcDM = "0.7"
 OrderedCollections = "1"
 PrecompileTools = "1"
 Reexport = "1"
@@ -136,6 +147,9 @@ SimpleWeightedGraphs = "1"
 HypothesisTests = "0.10-0.11"
 StatsBase = "0.33-0.34"
 Zarr = ["0.7-0.9", "1"]
+
+["0.6 - 0.12"]
+JMcDM = "0.7"
 
 ["0.6 - 0.7"]
 ImageMagick = "1"
