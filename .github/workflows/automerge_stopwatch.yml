@@ -1,0 +1,64 @@
+name: AutoMerge (Stopwatch)
+
+on:
+  pull_request:
+    # PR events provide frequent polling opportunities to maintain ~8 minute merge cadence
+    # Without PR events, stopwatch would only check every 4 hours (cron schedule)
+    # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request
+    types: [opened, reopened, labeled, synchronize]
+  schedule:
+    # Fallback polling in case PR activity is low
+    # Runs every 4 hours to ensure stopwatch checks happen even without PRs
+    - cron:  '0 */4 * * *'
+  workflow_dispatch:
+
+env:
+    JULIA_PKG_USE_CLI_GIT: true
+
+# AutoMerge v1: Stopwatch orchestration workflow
+# This workflow is a polling mechanism that maintains the ~8 minute merge cadence.
+# It checks "Has it been ≥8 minutes since the last merge?" and triggers a new merge if needed.
+#
+# How it works:
+# 1. PR events (or schedule/dispatch) trigger this workflow to run stopwatch check
+# 2. Stopwatch queries GitHub API for last "AutoMerge (Merge)" workflow_dispatch run
+# 3. If ≥8 minutes have passed, it triggers a new workflow_dispatch on automerge_merge.yml
+# 4. This creates a continuous chain: merge → stopwatch (via PR) → merge → stopwatch → ...
+#
+# Why PR events are needed:
+# - Without PR events, stopwatch only checks every 4 hours (cron schedule)
+# - PR events act as frequent "polling intervals" during active periods
+# - This ensures merges happen every ~8 minutes when there's PR activity
+jobs:
+  AutoMerge-stopwatch:
+    # Run on all events except fork PRs
+    # PR events from non-forks provide polling, schedule/dispatch provide fallback
+    if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
+    timeout-minutes: 20
+    environment: stopwatch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      - uses: julia-actions/setup-julia@5c9647d97b78a5debe5164e9eec09d653d29bd71 # v2.6.1
+        with:
+          version: '1.12'
+      - name: Cache artifacts
+        uses: julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9 # v2.1.0
+      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
+        shell: julia --color=yes --project=.ci/ {0}
+        id: manifest_version
+      - run: rm -rf .ci/Manifest.toml
+      - run: mv .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
+      - run: rm -rf .ci/Manifest-*.toml
+      - run: chmod 400 .ci/Project.toml
+      - run: chmod 400 .ci/Manifest.toml
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
+        env:
+          JULIA_PKG_SERVER: ""
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
+      - run: .ci/instantiate.sh .ci/
+      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
+      - name: Run stopwatch check
+        run: julia --project=.ci/ .ci/stopwatch.jl
+        env:
+          AUTOMERGE_MERGE_TOKEN: ${{ secrets.TAGBOT_TOKEN }}
