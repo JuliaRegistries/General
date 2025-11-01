@@ -22,15 +22,15 @@ ProgressMeter = "1"
 ["0.10.3 - 0.10"]
 Zygote = "0.6.37-0.6"
 
-["0.11 - 0"]
-DataStructures = "0.18"
-
 ["0.11 - 0.12.0"]
 UnitfulChainRules = "0.1"
 Zygote = "0.6.37-0.6.40"
 
 ["0.11 - 0.20"]
 Statistics = "1.7.0-1"
+
+["0.11 - 0.22"]
+DataStructures = "0.18"
 
 ["0.12 - 0.21"]
 FLoops = "0.2"
@@ -211,8 +211,17 @@ Random = "1.9.0 - 1"
 SparseArrays = "1.9.0 - 1"
 StaticArrays = "1.8.2 - 1"
 Statistics = "1.9.0 - 1"
-UnsafeAtomicsLLVM = "0.1 - 0.2"
 julia = "1.10.0 - 1"
+
+["0.22.2 - 0.22"]
+UnsafeAtomicsLLVM = "0.1 - 0.2"
+
+["0.23 - 0"]
+AcceleratedKernels = "0.4.3 - 0.4"
+DataStructures = "0.18 - 0.19"
+FFTW = "1"
+SpecialFunctions = "2"
+StructArrays = "0.7.1 - 0.7"
 
 ["0.3 - 0.14"]
 CUDA = "3"
