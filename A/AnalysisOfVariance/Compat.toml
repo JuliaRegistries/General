@@ -1,4 +1,7 @@
-[0]
+["0 - 0.1.0"]
+GLM = "1.9.0 - 1"
+
+["0 - 0.1.2"]
 CategoricalArrays = "0.10"
 DataFrames = "1.7.0 - 1"
 Distributions = "0.25"
@@ -8,8 +11,16 @@ StatsBase = "0.34"
 SweepOperator = "0.3.4 - 0.3"
 julia = "1.6.0 - 1"
 
-["0 - 0.1.0"]
-GLM = "1.9.0 - 1"
-
-["0.1.2 - 0"]
+["0.1.2"]
 GLM = "1"
+
+["0.1.4 - 0"]
+CategoricalArrays = "0.5.0 - *"
+DataFrames = "1.7.0 - *"
+Distributions = "0.25.0 - *"
+GLM = "1.0.0 - *"
+PrettyTables = "2.0.0 - *"
+Printf = "0.5.0 - *"
+StatsModels = "0.5.0 - *"
+SweepOperator = "0.3.0 - *"
+julia = "1.6.0 - *"
