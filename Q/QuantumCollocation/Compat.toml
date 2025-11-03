@@ -86,7 +86,6 @@ julia = "1.10.0-1"
 Interpolations = "0.15"
 
 ["0.2.2 - 0"]
-JLD2 = "0.5"
 TestItems = "1"
 
 ["0.2.2 - 0.3.0"]
@@ -97,6 +96,9 @@ TestItemRunner = "1"
 
 ["0.2.2 - 0.5.0"]
 CairoMakie = "0.12"
+
+["0.2.2 - 0.8.1"]
+JLD2 = "0.5"
 
 ["0.3.1 - 0.3"]
 Symbolics = "6.14.0-6"
@@ -151,17 +153,24 @@ DirectTrajOpt = "0.2.3-0.2"
 
 ["0.8 - 0"]
 LinearAlgebra = "1.10.0 - 1"
-PiccoloQuantumObjects = "0.6"
 Random = "1.10.0 - 1"
 Reexport = "1.2.0 - 1"
 SparseArrays = "1.10.0 - 1"
 TestItemRunner = "1.1.0 - 1"
 julia = "1.10.0 - 1"
 
+["0.8 - 0.8.1"]
+PiccoloQuantumObjects = "0.6"
+
 ["0.8.0"]
 DirectTrajOpt = "0.3"
 NamedTrajectories = "0.4"
 
-["0.8.1 - 0"]
+["0.8.1"]
 DirectTrajOpt = "0.4"
 NamedTrajectories = "0.5"
+
+["0.8.2 - 0"]
+DirectTrajOpt = "0.5"
+NamedTrajectories = "0.6"
+PiccoloQuantumObjects = "0.7"
