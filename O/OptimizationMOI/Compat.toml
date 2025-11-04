@@ -1,11 +1,11 @@
-[0]
-MathOptInterface = "1"
-
 ["0 - 0.1.4"]
 Optimization = "3"
 
 ["0 - 0.3"]
 julia = "1"
+
+["0 - 0.5.10"]
+MathOptInterface = "1"
 
 ["0.1.11 - 0.3"]
 Ipopt_jll = "300.1400.400"
@@ -56,6 +56,10 @@ LinearAlgebra = "1"
 ["0.5 - 0.5.5"]
 Optimization = "4"
 
+["0.5.11 - 0"]
+MathOptInterface = "1.40.2 - 1"
+OptimizationBase = "3.3.1 - 4"
+
 ["0.5.4"]
 ModelingToolkit = "9-10"
 
@@ -86,5 +90,7 @@ OptimizationBase = "3"
 SciMLBase = "2.58.0 - 2"
 
 ["0.5.9 - 0"]
-OptimizationBase = "3 - 4"
 SciMLBase = "2.122.1 - 2"
+
+["0.5.9 - 0.5.10"]
+OptimizationBase = "3 - 4"
