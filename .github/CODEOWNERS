@@ -19,3 +19,8 @@ L/LLD_jj/ @vchuravy @staticfloat
 L/libLLVM_assert_jll/ @vchuravy @staticfloat
 L/libLLVM_jll/ @vchuravy @staticfloat
 M/MLIR_jll/ @vchuravy @staticfloat
+
+# StaticArrays.jl is used in the Pkg.jl test suite.
+# Thus, changes here can break Pkg tests (and thus Base Julia CI).
+# So ping some General registry and/or Pkg folks
+S/StaticArrays/ @DilumAluthge
