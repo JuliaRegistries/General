@@ -1,51 +1,63 @@
 [0]
-CategoricalArrays = "0.8-0.10"
 ComputationalResources = "0.3"
-Distributions = "0.21-0.25"
-ProgressMeter = "1.1.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 MLJBase = "0.18"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 ScientificTypes = "1.1.1-1"
 
-["0-0.2"]
+["0 - 0.2"]
 julia = "1.1.0-1"
 
-["0-0.3.2"]
+["0 - 0.3.2"]
 StatsBase = "0.32-0.33"
 
-["0-0.4.2"]
+["0 - 0.4.2"]
 MLJModelInterface = ["0.4.1-0.4", "1.1.0-1"]
+
+["0 - 0.4.3"]
+CategoricalArrays = "0.8-0.10"
+Distributions = "0.21-0.25"
+ProgressMeter = "1.1.0-1"
 
 ["0.1.1"]
 ScientificTypesBase = "1"
 
-["0.1.2-0.1"]
+["0.1.2 - 0.1"]
 ScientificTypes = "2"
 
 ["0.2"]
 MLJBase = "0.19"
 
-["0.2-0"]
+["0.2 - 0.4.3"]
 CategoricalDistributions = "0.1.2-0.1"
 ScientificTypesBase = "2-3"
 
-["0.3-0"]
-julia = "1.6.0-1"
-
-["0.3-0.3.1"]
+["0.3 - 0.3.1"]
 MLJBase = "0.20"
 
-["0.3.2-0.3"]
+["0.3 - 0.4.3"]
+julia = "1.6.0-1"
+
+["0.3.2 - 0.3"]
 MLJBase = "0.20-0.21"
 
-["0.3.3-0"]
+["0.3.3 - 0.4.3"]
 StatsBase = "0.32-0.34"
 
-["0.4-0"]
+["0.4 - 0"]
 StatisticalMeasuresBase = "0.1"
 
-["0.4.3-0"]
+["0.4.3"]
 MLJModelInterface = "1.10.0-1"
+
+["0.4.4 - 0"]
+CategoricalArrays = "1"
+CategoricalDistributions = "0.2"
+Distributions = "0.21 - 0.25"
+MLJModelInterface = "1.10.0 - 1"
+ProgressMeter = "1.1.0 - 1"
+ScientificTypesBase = "2 - 3"
+StatsBase = "0.32 - 0.34"
+julia = "1.10.0 - 1"
