@@ -131,7 +131,6 @@ AbstractPPL = "0.7"
 Setfield = "1"
 
 ["0.24 - 0"]
-AbstractMCMC = "5"
 ChainRulesCore = "1"
 Distributions = "0.25"
 DocStringExtensions = "0.9"
@@ -140,6 +139,9 @@ DocStringExtensions = "0.9"
 LinearAlgebra = "1.6.0-1"
 Random = "1.6.0-1"
 Test = "1.6.0-1"
+
+["0.24 - 0.38.7"]
+AbstractMCMC = "5"
 
 ["0.24.11 - 0.29"]
 Bijectors = "0.13.9-0.13"
@@ -246,6 +248,9 @@ AbstractPPL = "0.13.1 - 0.13"
 
 ["0.38.1 - 0"]
 Bijectors = "0.15.11 - 0.15"
+
+["0.38.8 - 0"]
+AbstractMCMC = "5.10.0 - 5"
 
 ["0.4.0"]
 AbstractMCMC = "0.4"
