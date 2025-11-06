@@ -39,6 +39,12 @@ julia = "1.11.0-1"
 ["0.1.1 - 0.5"]
 SciMLBase = "2.72.2-2"
 
+["0.10.1 - 0"]
+OrdinaryDiffEqNonlinearSolve = "1.12.0 - 1"
+OrdinaryDiffEqRosenbrock = "1.14.0 - 1"
+OrdinaryDiffEqSDIRK = "1.6.0 - 1"
+OrdinaryDiffEqTsit5 = "1.5.0 - 1"
+
 ["0.2.1 - 0.5"]
 PrecompileTools = "1.2.1-1"
 
@@ -81,7 +87,6 @@ Integrals = "4.5.0 - 4"
 LinearAlgebra = "1.11.0 - 1"
 NonlinearSolve = "4.3.0 - 4"
 NumericalIntegration = "0.3.4 - 0.3"
-OrdinaryDiffEq = "6.90.1 - 6"
 PeriodicTable = "1.2.1 - 1"
 PhysicalConstants = "0.2.4 - 0.2"
 PreallocationTools = "0.4.25 - 0.4"
@@ -98,6 +103,9 @@ TwoFAST = "0.1.5 - 0.1"
 Unitful = "1.22.0 - 1"
 UnitfulAstro = "1.2.1 - 1"
 julia = "1.11.0 - 1"
+
+["0.6 - 0.10.0"]
+OrdinaryDiffEq = "6.90.1 - 6"
 
 ["0.6 - 0.8.1"]
 PrecompileTools = "1.2.1 - 1"

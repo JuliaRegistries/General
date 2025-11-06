@@ -7,7 +7,6 @@ MatterPower = "743831d1-0e6a-4e86-a0c4-1a098a68aca3"
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"
-OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 PeriodicTable = "7b2266bf-644c-5ea3-82d8-af4bbd25a884"
 PhysicalConstants = "5ad8b20f-a522-5ce9-bfc9-ddf1d5bda6ab"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
@@ -19,6 +18,9 @@ TwoFAST = "0dd23c3e-f403-11e8-3e11-4dddf690af97"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 UnitfulAstro = "6112ee07-acf9-5e0f-b108-d242c714bf9f"
 
+["0 - 0.10.0"]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+
 ["0 - 0.2"]
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 
@@ -28,6 +30,12 @@ SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
 ["0 - 0.3"]
 NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
+
+["0.10.1 - 0"]
+OrdinaryDiffEqNonlinearSolve = "127b3ac7-2247-4354-8eb6-78cf4e7c58e8"
+OrdinaryDiffEqRosenbrock = "43230ef6-c299-4910-a778-202eb28ce4ce"
+OrdinaryDiffEqSDIRK = "2d112036-d095-4a1e-ab9a-08536f3ecdbf"
+OrdinaryDiffEqTsit5 = "b1df2697-797e-41e3-8120-5422d3b24e4a"
 
 ["0.2.1 - 0.8.1"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
