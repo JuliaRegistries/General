@@ -1,4 +1,19 @@
 [0]
+Roots = "2"
+
+["0 - 0.1"]
+FileIO = "1.14.0-1"
+SpecialFunctions = "2.1.4-2"
+
+["0 - 0.2"]
+DelimitedFiles = "1.5.3-1"
+Statistics = "1.5.3-1"
+julia = "1.5.3-1"
+
+["0 - 0.3.6"]
+PyPlot = "2.10.0-2"
+
+["0 - 0.4"]
 DataInterpolations = "3.6.1-3"
 Distances = "0.10.7-0.10"
 Distributions = "0.25.58-0.25"
@@ -9,39 +24,26 @@ Images = "0.25.2-0.25"
 LinearMaps = "3.5.1-3"
 NearestNeighbors = "0.4.10-0.4"
 PositiveFactorizations = "0.2.4-0.2"
-Roots = "2"
 StatsBase = "0.33.16-0.33"
 
-["0-0.1"]
-FileIO = "1.14.0-1"
-SpecialFunctions = "2.1.4-2"
-
-["0-0.2"]
-DelimitedFiles = "1.5.3-1"
-Statistics = "1.5.3-1"
-julia = "1.5.3-1"
-
-["0-0.3.6"]
-PyPlot = "2.10.0-2"
-
-["0-0.4.5"]
+["0 - 0.4.5"]
 Formatting = "0.4.2-0.4"
 
-["0-0.4.7"]
+["0 - 0.4.7"]
 DistributedArrays = "0.6.6-0.6"
 
-["0.2-0.3.0"]
+["0.2 - 0.3.0"]
 FileIO = "1.10-1.14.0"
 SpecialFunctions = "1.6-2.1.4"
 
-["0.3-0"]
+["0.3 - 0.4"]
 DelimitedFiles = "1.7.0-1"
 Statistics = "1.7.0-1"
 
-["0.3-0.4.12"]
+["0.3 - 0.4.12"]
 julia = "1.7.0-1"
 
-["0.3.1-0"]
+["0.3.1 - 0.4"]
 FileIO = "1.10.0-1"
 Interpolations = "0.14.7-0.14"
 KernelDensity = "0.6.5-0.6"
@@ -49,10 +51,10 @@ KernelDensitySJ = "0.2.1-0.2"
 LazyGrids = "0.5"
 SpecialFunctions = "1.6.0-2"
 
-["0.3.1-0.4.3"]
+["0.3.1 - 0.4.3"]
 Optim = "1.7.4-1"
 
-["0.3.13-0"]
+["0.3.13 - 0.4"]
 Dates = "1.7.0-1"
 Distributed = "1.7.0-1"
 LinearAlgebra = "1.7.0-1"
@@ -62,24 +64,61 @@ Random = "1.7.0-1"
 SparseArrays = "1.7.0-1"
 Test = "1.7.0-1"
 
-["0.3.6-0"]
+["0.3.6 - 0.4"]
 CSV = "0.10.9-0.10"
 WriteVTK = "1.18.0-1"
 
-["0.3.7-0"]
+["0.3.7 - 0.4"]
 Conda = "1.9.1-1"
 PyCall = "1.96.1-1"
 PyPlot = "2.11.1-2"
 
-["0.4.13-0"]
+["0.4.13 - 0.4"]
 julia = "1.7-1.10.8"
 
-["0.4.3-0"]
-Glob = "1.3.1-1"
+["0.4.3 - 0"]
 ReadVTK = "0.2"
 
-["0.4.4-0"]
+["0.4.3 - 0.4"]
+Glob = "1.3.1-1"
+
+["0.4.4 - 0.4"]
 Optim = "1.9.4-1"
 
-["0.4.8-0"]
+["0.4.8 - 0.4"]
 DistributedArrays = "0.6.7-0.6"
+
+["0.5 - 0"]
+CSV = "0.10.9 - 0.10"
+Conda = "1.9.1 - 1.9"
+DataInterpolations = "8.2.0 - 8"
+Dates = "1.10.0 - 1"
+DelimitedFiles = "1.9.0 - 1"
+Distances = "0.10.7 - 0.10"
+Distributed = "1.10.0 - 1"
+DistributedArrays = "0.6.7 - 0.6"
+Distributions = "0.25.58 - 0.25"
+FastGaussQuadrature = "1.0.2 - 1"
+Glob = "1.3.1 - 1"
+ImageIO = "0.6.9 - 0.6"
+Images = "0.26.2 - 0.26"
+Interpolations = "0.15.1 - 0.15"
+KernelDensity = "0.6.9 - 0.6"
+KernelDensitySJ = "0.2.1 - 0.2"
+LinearAlgebra = "1.10.0 - 1"
+LinearMaps = "3.5.1 - 3"
+NearestNeighbors = "0.4.10 - 0.4"
+Optim = "1.9.4 - 1"
+Pkg = "1.10.0 - 1"
+PositiveFactorizations = "0.2.4 - 0.2"
+Printf = "1.10.0 - 1"
+PyCall = "1.96.1 - 1"
+PyPlot = "2.11.1 - 2"
+Random = "1.10.0 - 1"
+SparseArrays = "1.10.0 - 1"
+SpecialFunctions = "1.6.0 - 2"
+Statistics = "1.10.0 - 1"
+StatsBase = "0.34.5 - 0.34"
+Test = "1.10.0 - 1"
+WriteVTK = "1.18.0 - 1"
+julia = ["1.10", "1.11.6 - 1.12"]
