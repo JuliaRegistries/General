@@ -5,8 +5,6 @@ Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-RuntimeGeneratedFunctions = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
-SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 
@@ -47,6 +45,10 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 ["0 - 0.3.1"]
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 
+["0 - 0.4"]
+RuntimeGeneratedFunctions = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
+SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
+
 ["0.2.0"]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
@@ -75,3 +77,6 @@ SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 ["0.4 - 0"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 HydroModelCore = "57609f06-44cb-4626-8f6d-47ea844d0af1"
+
+["0.5 - 0"]
+LuxCore = "bb33d45b-7691-41d6-9220-0943567d0623"
