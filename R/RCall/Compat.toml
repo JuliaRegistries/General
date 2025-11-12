@@ -76,17 +76,22 @@ julia = "1.6-1"
 ["0.14.1 - 0"]
 Preferences = "1"
 
+["0.14.10 - 0"]
+DataStructures = "0.5 - 0.19"
+
 ["0.14.2 - 0.14.6"]
 julia = "1.6.0-1"
 
 ["0.14.7 - 0.14.8"]
 julia = "1.10.0-1"
 
+["0.14.9"]
+DataStructures = "0.5 - 0.18"
+
 ["0.14.9 - 0"]
 CategoricalArrays = ["0.8 - 0.10", "1"]
 Conda = "1.4.0 - 1"
 DataFrames = ["0.21 - 0.22", "1"]
-DataStructures = "0.5 - 0.18"
 StatsModels = "0.6 - 0.7"
 WinReg = ["0.2 - 0.3", "1"]
 julia = "1.10.0 - 1"
