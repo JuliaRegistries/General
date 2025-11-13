@@ -44,6 +44,9 @@ ControlSystemsBase = "1.18.2 - 1"
 ["1.12 - 1"]
 MathOptInterface = "1.46.0 - 1"
 
+["1.13.2 - 1"]
+DifferentiationInterface = "0.7.11 - 0.7"
+
 ["1.2 - 1.5.0"]
 PreallocationTools = "0.4.14-0.4"
 
@@ -72,7 +75,6 @@ DifferentiationInterface = "0.6.45-0.7"
 SparseArrays = "1.10.0-1"
 
 ["1.8.2 - 1"]
-DifferentiationInterface = "0.6.45 - 0.7"
 JuMP = "1.21.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
 Logging = "1.10.0 - 1"
@@ -81,6 +83,9 @@ SparseArrays = "1.10.0 - 1"
 SparseConnectivityTracer = ["0.6.13 - 0.6", "1"]
 SparseMatrixColorings = "0.4.14 - 0.4"
 julia = "1.10.0 - 1"
+
+["1.8.2 - 1.13.1"]
+DifferentiationInterface = "0.6.45 - 0.7"
 
 ["1.8.2 - 1.9"]
 ControlSystemsBase = "1.9.0 - 1"

@@ -99,11 +99,11 @@ GeoStatsBase = "0.46"
 ["0.3.15 - 0.3.20"]
 GeoStatsModels = "0.6"
 
-["0.3.16 - 0"]
-ColumnSelectors = "1"
-
 ["0.3.16 - 0.3.27"]
 Meshes = "0.47-0.52"
+
+["0.3.16 - 0.4.2"]
+ColumnSelectors = "1"
 
 ["0.3.17 - 0"]
 DataScienceTraits = "1"
@@ -159,12 +159,14 @@ Meshes = "0.47 - 0.53"
 
 ["0.3.31 - 0"]
 DensityRatioEstimation = "1.2.0 - 1"
-StatsLearnModels = "1.1.0 - 1"
 
 ["0.3.31 - 0.3"]
 GeoStatsModels = "0.12"
 GeoTables = "1.21.0 - 1"
 julia = "1.9.0 - 1"
+
+["0.3.31 - 0.4.2"]
+StatsLearnModels = "1.1.0 - 1"
 
 ["0.3.32 - 0.3"]
 GeoStatsTransforms = "0.12"
@@ -190,14 +192,20 @@ Meshes = "0.47-0.48"
 ["0.4 - 0"]
 GeoStatsBase = "0.47"
 GeoStatsModels = "0.13"
-GeoTables = "1.25.0 - 1"
 julia = "1.10.0 - 1"
 
 ["0.4 - 0.4.1"]
 GeoStatsTransforms = "0.13"
+
+["0.4 - 0.4.2"]
+GeoTables = "1.25.0 - 1"
 
 ["0.4.1 - 0"]
 Meshes = "0.55"
 
 ["0.4.2 - 0"]
 GeoStatsTransforms = "0.14"
+
+["0.4.3 - 0"]
+GeoTables = "1.27.0 - 1"
+StatsLearnModels = "1.2.1 - 1"

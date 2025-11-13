@@ -4,9 +4,6 @@ Graphs = "1"
 Lux = "1"
 NNlib = "0.9"
 Reexport = "1"
-RuntimeGeneratedFunctions = "0.5"
-SymbolicUtils = "3"
-Symbolics = "6"
 
 ["0 - 0.1"]
 Accessors = "0.1"
@@ -40,6 +37,11 @@ SparseArrays = "1"
 
 ["0 - 0.3.1"]
 ModelingToolkit = "9"
+
+["0 - 0.4"]
+RuntimeGeneratedFunctions = "0.5"
+SymbolicUtils = "3"
+Symbolics = "6"
 
 ["0.1.1 - 0"]
 Random = "1"
@@ -82,7 +84,7 @@ DiffEqCallbacks = "4.8.0 - 4"
 ["0.3.6 - 0.4.1"]
 SpecialFunctions = "2.5.1 - 2"
 
-["0.4 - 0"]
+["0.4"]
 HydroModelCore = "0.2"
 
 ["0.4 - 0.4.1"]
@@ -91,3 +93,8 @@ DocStringExtensions = "0.9.5 - 0.9"
 ["0.4.2 - 0"]
 DocStringExtensions = "0.9"
 SpecialFunctions = "2"
+
+["0.5 - 0"]
+HydroModelCore = "0.3"
+LuxCore = "1"
+Symbolics = "6 - 7"
