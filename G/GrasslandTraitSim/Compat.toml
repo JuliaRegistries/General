@@ -1,24 +1,32 @@
 [0]
-Accessors = "0.1"
-CSV = "0.10"
-DataFrames = "1"
-DataFramesMeta = "0.15"
 DimensionalData = "0.28"
-Distributions = "0.25"
-DocStringExtensions = "0.9"
 JLD2 = "0.4"
-PrettyTables = "2"
 StatsBase = "0.34"
-UnPack = "1"
-Unitful = "1"
-julia = "1"
 
-["0-0.1"]
+["0 - 0.1"]
 CairoMakie = "0.12"
 FiniteDiff = "2"
 ForwardDiff = "0.10"
 TimeSeries = "0.24"
 TransformVariables = "0.8"
 
-["0.3-0"]
+["0 - 1"]
+Accessors = "0.1"
+CSV = "0.10"
+DataFrames = "1"
+DataFramesMeta = "0.15"
+Distributions = "0.25"
+DocStringExtensions = "0.9"
+PrettyTables = "2"
+UnPack = "1"
+Unitful = "1"
+julia = "1"
+
+["0.3 - 0"]
 Pkg = "1.11.0-1"
+
+[1]
+DimensionalData = "0.28 - 0.29"
+JLD2 = "0.4 - 0.5"
+Pkg = "1.11.0 - 1"
+Statistics = "1"

@@ -352,14 +352,16 @@ AbstractAlgebra = "0.44.13-0.44"
 AbstractAlgebra = "0.45"
 
 ["0.50.2 - 0"]
-FLINT_jll = "301.300"
 LinearAlgebra = "1.6.0 - 1"
 Random = "1.6.0 - 1"
 RandomExtensions = "0.4.2 - 0.4"
-SHA = ["0.7", "1.6 - 1.7"]
 
 ["0.50.2 - 0.50"]
 julia = "1.6.0 - 1"
+
+["0.50.2 - 0.52.1"]
+FLINT_jll = "301.300"
+SHA = ["0.7", "1.6 - 1.7"]
 
 ["0.51"]
 AbstractAlgebra = "0.46"
@@ -369,3 +371,7 @@ julia = "1.10.0 - 1"
 
 ["0.52 - 0"]
 AbstractAlgebra = "0.47"
+
+["0.52.2 - 0"]
+FLINT_jll = "301.300.102 - 301.300"
+SHA = ["0.7", "1"]

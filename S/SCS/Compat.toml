@@ -110,11 +110,18 @@ SCS_jll = "3.2.8"
 
 ["2.2 - 2"]
 MathOptInterface = "1.20.0 - 1"
-MutableArithmetics = "1"
 SparseArrays = "1"
 julia = "1.10.0 - 1"
+
+["2.2 - 2.3"]
+MutableArithmetics = "1"
+
+["2.3"]
+SCS_jll = "3.2.9"
 
 ["2.3 - 2"]
 LinearAlgebra = "1.10.0 - 1"
 OpenBLAS32_jll = "0.3.10 - 0.3"
-SCS_jll = "3.2.9"
+
+["2.4 - 2"]
+SCS_jll = "300.200.900"

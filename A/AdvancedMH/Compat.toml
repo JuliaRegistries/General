@@ -1,73 +1,83 @@
-["0-0.2"]
+["0 - 0.2"]
 AbstractMCMC = "0.1"
 Distributions = "0.21"
 MCMCChains = ["0.4", "1"]
 
-["0-0.3"]
+["0 - 0.3"]
 Reexport = "0.2"
 
-["0-0.6"]
+["0 - 0.6"]
 julia = "1"
 
 ["0.3"]
 AbstractMCMC = "0.3"
 StructArrays = "0.0.0-0.4"
 
-["0.3-0"]
+["0.3 - 0"]
 Requires = "1"
 
-["0.3-0.5.3"]
+["0.3 - 0.5.3"]
 Distributions = "0.20-0.23"
 
 ["0.4.0"]
 AbstractMCMC = "0.4"
 
-["0.4.1-0.4"]
+["0.4.1 - 0.4"]
 AbstractMCMC = "0.4-0.5"
 
-["0.5-0.5.1"]
+["0.5 - 0.5.1"]
 AbstractMCMC = "1"
 
-["0.5.2-0.5.7"]
+["0.5.2 - 0.5.7"]
 AbstractMCMC = "2"
 
-["0.5.4-0.5.8"]
+["0.5.4 - 0.5.8"]
 Distributions = "0.20-0.24"
 
-["0.5.8-0.6.6"]
+["0.5.8 - 0.6.6"]
 AbstractMCMC = "2-3"
 
-["0.5.9-0.7"]
+["0.5.9 - 0.7"]
 Distributions = "0.20-0.25"
 
-["0.6.7-0.6"]
+["0.6.7 - 0.6"]
 AbstractMCMC = "2-4"
 
-["0.7-0"]
+["0.7 - 0"]
 LogDensityProblems = "2"
-julia = "1.6.0-1"
 
-["0.7-0.7.5"]
+["0.7 - 0.7.5"]
 AbstractMCMC = "4"
 
-["0.7.5-0"]
+["0.7 - 0.8.8"]
+julia = "1.6.0-1"
+
+["0.7.5 - 0"]
 FillArrays = "1"
 
-["0.7.6-0.7"]
+["0.7.6 - 0.7"]
 AbstractMCMC = "4-5"
 LinearAlgebra = "1.6-1.11"
 Random = "1.6-1.11"
 
-["0.8-0"]
+["0.8 - 0"]
 Distributions = "0.25"
+
+["0.8 - 0.8.3"]
+AbstractMCMC = "5"
+
+["0.8 - 0.8.8"]
 LinearAlgebra = "1.6.0-1"
 Random = "1.6.0-1"
 
-["0.8-0.8.3"]
-AbstractMCMC = "5"
-
-["0.8.4-0"]
+["0.8.4 - 0.8.8"]
 AbstractMCMC = "5.6.0-5"
 
-["0.8.5-0"]
+["0.8.5 - 0"]
 DocStringExtensions = "0.9"
+
+["0.8.9 - 0"]
+AbstractMCMC = "5.9.0 - 5"
+LinearAlgebra = "1.6.0 - 1"
+Random = "1.6.0 - 1"
+julia = "1.6.0 - 1"

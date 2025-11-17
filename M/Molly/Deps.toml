@@ -32,10 +32,12 @@ FLoops = "cc61a311-1640-44b5-9fba-1b764f453329"
 
 ["0.15 - 0"]
 Atomix = "a9b6321e-bd34-4604-b9c9-b65b8de01458"
-UnsafeAtomicsLLVM = "d80eeb9a-aca5-4d75-85e5-170c8b632249"
 
 ["0.15 - 0.21"]
 Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
+
+["0.15 - 0.22"]
+UnsafeAtomicsLLVM = "d80eeb9a-aca5-4d75-85e5-170c8b632249"
 
 ["0.16 - 0"]
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
@@ -68,6 +70,12 @@ NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 ["0.22 - 0"]
 GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+
+["0.23 - 0"]
+AcceleratedKernels = "6a4ca0a5-0e36-4168-a932-d9be78d558f1"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 
 ["0.4 - 0"]
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"

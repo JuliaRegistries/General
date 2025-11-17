@@ -3,26 +3,39 @@ Artifacts = "1"
 CSV = "0.10"
 Continuables = "1"
 Printf = "1"
+
+["0 - 0.1"]
+CSVFiles = "1"
+
+["0 - 0.2"]
+Unfold = "0.5-0.6"
+
+["0 - 0.3.0"]
+DataFrames = "1-1.6"
+DataFramesMeta = "0.14"
+
+["0 - 0.3.3"]
 ProgressBars = "1.5.0-1"
 PyMNE = "0.1-0.2"
 Statistics = "1.1.0-1"
 StatsModels = "0.6-0.7"
 julia = "1"
 
-["0-0.1"]
-CSVFiles = "1"
-
-["0-0.2"]
-Unfold = "0.5-0.6"
-
-["0-0.3.0"]
-DataFrames = "1-1.6"
-DataFramesMeta = "0.14"
-
 ["0.3.0"]
 Unfold = "0.5-0.7"
 
-["0.3.1-0"]
+["0.3.1 - 0"]
 DataFrames = "1"
+
+["0.3.1 - 0.3.3"]
 DataFramesMeta = "0.14-0.15"
 Unfold = "0.5-0.8"
+
+["0.3.4 - 0"]
+DataFramesMeta = "0.14 - 0.15"
+ProgressBars = "1.5.0 - 1"
+PyMNE = "0.1 - 0.2"
+Statistics = "1.1.0 - 1"
+StatsModels = "0.6 - 0.7"
+Unfold = "0.5 - 0.8"
+julia = "1.11.0 - 1"

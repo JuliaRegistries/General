@@ -1,4 +1,7 @@
 [0]
+julia = "1"
+
+["0 - 0.8"]
 AbstractSDRs = "0.5"
 DSP = "0.7.8-0.7"
 DigitalComm = "1.1.0-1"
@@ -11,4 +14,18 @@ ImageView = "0.11"
 Images = "0.25"
 Makie = "0.19"
 Reexport = "1.2.0-1"
-julia = "1"
+
+["0.9 - 0"]
+AbstractSDRs = "0.5.1 - 0.5"
+DSP = "0.8.4 - 0.8"
+DigitalComm = "1.2.1 - 1"
+Distributed = "1.11.0 - 1"
+FFTW = "1.10.0 - 1"
+GLMakie = "0.13.6 - 0.13"
+ImageFiltering = "0.7.12 - 0.7"
+ImageInTerminal = "0.5.4 - 0.5"
+ImageView = "0.13"
+Images = "0.26.2 - 0.26"
+LinearAlgebra = "1.12.0 - 1"
+Makie = "0.24.6 - 0.24"
+Reexport = "1.2.2 - 1"
