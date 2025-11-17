@@ -9,8 +9,14 @@ julia = "1.6.0-1"
 
 [7]
 Artifacts = ["0.0.0", "1"]
-FFMPEG_jll = "7.1.0-7"
 JLLWrappers = "1.7.0-1"
 Libdl = ["0.0.0", "1"]
-OpenSSL_jll = "3.0.15-3"
 julia = "1.6.0-1"
+
+["7-7.1.0"]
+FFMPEG_jll = "7.1.0-7"
+OpenSSL_jll = "3.0.15-3"
+
+["7.1.1-7"]
+FFMPEG_jll = "7.1.1-7"
+OpenSSL_jll = "3.5.0-3"

@@ -1,20 +1,17 @@
 [0]
-ArgCheck = "1-2"
 ElasticArrays = "1"
 Parameters = "0.12"
-SIMD = "2-3"
-TypedTables = "1.2.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 StatsBase = "0.32-0.33"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 RadiationDetectorSignals = "0.1"
 
-["0-0.1.2"]
+["0 - 0.1.2"]
 ArraysOfArrays = "0.4-0.5"
 
-["0-0.1.3"]
+["0 - 0.1.3"]
 Distributions = "0.21-0.25"
 ParallelProcessingTools = "0.4"
 RecipesBase = ["0.7-0.8", "1"]
@@ -22,110 +19,141 @@ StaticArrays = ["0.11-0.12", "1"]
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
-["0-0.2.11"]
+["0 - 0.2.11"]
 DSP = "0.6-0.7"
+
+["0 - 0.2.15"]
+ArgCheck = "1-2"
+SIMD = "2-3"
+TypedTables = "1.2.0-1"
 
 ["0.1.1"]
 RadiationDetectorSignals = "0.1-0.2"
 
-["0.1.2-0.1.3"]
+["0.1.2 - 0.1.3"]
 RadiationDetectorSignals = "0.1-0.3"
 
-["0.1.3-0.2.8"]
+["0.1.3 - 0.2.8"]
 ArraysOfArrays = "0.4-0.6"
 
-["0.1.4-0"]
+["0.1.4 - 0"]
 ChainRulesCore = "1"
 CompositionsBase = "0.1"
-RadiationDetectorSignals = "0.3.3-0.3"
 UnPack = "1"
 
-["0.1.4-0.1"]
+["0.1.4 - 0.1"]
 DocStringExtensions = "0.8"
 FillArrays = "0.7-0.13"
 KernelAbstractions = "0.8"
 
-["0.1.4-0.2.0"]
+["0.1.4 - 0.2.0"]
 Statistics = "1.7.0-1"
 julia = "1.7.0-1"
 
-["0.1.4-0.2.10"]
+["0.1.4 - 0.2.10"]
 Unitful = "1"
 
-["0.1.4-0.2.11"]
+["0.1.4 - 0.2.11"]
 FFTW = "1"
 
-["0.1.4-0.2.14"]
+["0.1.4 - 0.2.14"]
 FunctionChains = "0.1"
 
-["0.1.4-0.2.4"]
+["0.1.4 - 0.2.15"]
+RadiationDetectorSignals = "0.3.3-0.3"
+
+["0.1.4 - 0.2.4"]
 Adapt = "1-3"
 
-["0.1.4-0.2.8"]
+["0.1.4 - 0.2.8"]
 InverseFunctions = "0.1"
 
-["0.2-0"]
-DocStringExtensions = "0.8-0.9"
+["0.2 - 0"]
 IntervalSets = "0.7"
-KernelAbstractions = "0.8-0.9"
 
-["0.2-0.2.11"]
+["0.2 - 0.2.11"]
 GPUArraysCore = "0.1"
 StructArrays = "0.6"
 
-["0.2-0.2.8"]
+["0.2 - 0.2.15"]
+DocStringExtensions = "0.8-0.9"
+KernelAbstractions = "0.8-0.9"
+
+["0.2 - 0.2.8"]
 FillArrays = ["0.7-0.13", "1"]
 Requires = "1"
 
-["0.2-0.2.9"]
+["0.2 - 0.2.9"]
 StatsBase = "0.32-0.34"
 
-["0.2.1-0"]
+["0.2.1 - 0.2.15"]
 julia = "1.6.0-1"
 
-["0.2.1-0.2.3"]
+["0.2.1 - 0.2.3"]
 Statistics = "1.6.0-1"
 
-["0.2.10-0"]
+["0.2.10 - 0.2.15"]
 StatsBase = "0.33.7-0.34"
 
 ["0.2.11"]
 FillArrays = ["0.13", "1"]
 
-["0.2.11-0"]
+["0.2.11 - 0.2.15"]
 Unitful = "1.6.0-1"
 
 ["0.2.12"]
 DSP = "0.6.2-0.7"
 
-["0.2.12-0"]
+["0.2.12 - 0.2.15"]
 FFTW = "1.2.0-1"
 FillArrays = ["0.13.8-0.13", "1"]
 GPUArraysCore = "0.1-0.2"
 StructArrays = "0.6-0.7"
 
-["0.2.13-0"]
+["0.2.13 - 0.2.15"]
 DSP = "0.6.2-0.8"
 
-["0.2.15-0"]
+["0.2.15 - 0"]
 FunctionChains = "0.2"
 
-["0.2.4-0.2.8"]
+["0.2.16 - 0"]
+Adapt = "2 - 4"
+ArgCheck = "1 - 2"
+ArraysOfArrays = "0.5 - 0.6"
+DSP = "0.6.2 - 0.8"
+DocStringExtensions = "0.8 - 0.9"
+FFTW = "1.2.0 - 1"
+FillArrays = ["0.13.8 - 0.13", "1"]
+GPUArraysCore = "0.1 - 0.2"
+InverseFunctions = "0.1.3 - 0.1"
+KernelAbstractions = "0.8 - 0.9"
+RadiationDetectorSignals = "0.3.3 - 0.3"
+Requires = "1.1.3 - 1"
+SIMD = "2 - 3"
+StatsBase = "0.33.7 - 0.34"
+StructArrays = "0.6 - 0.7"
+TypedTables = "1.2.0 - 1"
+Unitful = "1.6.0 - 1"
+julia = "1.6.0 - 1"
+
+["0.2.4 - 0.2.8"]
 LinearAlgebra = "1"
 Random = "1"
 Statistics = "1"
 
-["0.2.5-0.2.8"]
+["0.2.5 - 0.2.8"]
 Adapt = "1-4"
 
-["0.2.9-0"]
+["0.2.9 - 0"]
+LinearAlgebra = ["0.0.0", "1"]
+Random = ["0.0.0", "1"]
+Statistics = ["0.0.0", "1"]
+
+["0.2.9 - 0.2.10"]
+FillArrays = ["0.8.4-0.13", "1"]
+
+["0.2.9 - 0.2.15"]
 Adapt = "2-4"
 ArraysOfArrays = "0.5-0.6"
 InverseFunctions = "0.1.3-0.1"
-LinearAlgebra = ["0.0.0", "1"]
-Random = ["0.0.0", "1"]
 Requires = "1.1.0-1"
-Statistics = ["0.0.0", "1"]
-
-["0.2.9-0.2.10"]
-FillArrays = ["0.8.4-0.13", "1"]

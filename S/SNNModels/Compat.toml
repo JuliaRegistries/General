@@ -20,7 +20,6 @@ Statistics = "1"
 ThreadTools = "0.2"
 TimerOutputs = "0.5"
 UnPack = "1"
-julia = "1"
 
 ["1 - 1.5.0"]
 DSP = "0.8.2 - 0.8"
@@ -30,9 +29,14 @@ JLD2 = "0.5.11 - 0.5"
 StatsBase = "0.34.3 - 0.34"
 Unitful = "1"
 
+["1 - 1.6"]
+julia = "1"
+
 ["1.5.11 - 1"]
-Interpolations = "0.15 - 0.16"
 JLD2 = "0.5 - 0.6"
+
+["1.5.11 - 1.6.2"]
+Interpolations = "0.15 - 0.16"
 
 ["1.5.4 - 1"]
 DSP = "0.8"
@@ -45,3 +49,9 @@ JLD2 = "0.5"
 
 ["1.5.8 - 1"]
 Roots = "2.2.10 - 2"
+
+["1.6.3 - 1"]
+Interpolations = "0.16.2 - 0.16"
+
+["1.7 - 1"]
+julia = "1.12.0 - 1"

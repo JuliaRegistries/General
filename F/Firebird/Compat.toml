@@ -1,8 +1,17 @@
 [0]
+Decimals = "0.4"
+Tables = "1"
+julia = "1"
+
+["0 - 0.2.6"]
 DBInterface = "2.4.0-2"
 DecFP = "1.1.0-1"
-Decimals = "0.4"
 Parsers = "1"
-Tables = "1"
 TimeZones = "1"
-julia = "1"
+
+["0.2.7 - 0"]
+DBInterface = "2.4.0 - 2"
+DecFP = "1.1.0 - 1"
+Parsers = "2"
+TimeZones = "1.22.0 - 1"
+UpdateJulia = "0.4.4 - 0.4"

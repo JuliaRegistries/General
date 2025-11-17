@@ -91,12 +91,14 @@ Distributions = "0.22-0.25"
 ScientificTypes = "2"
 
 ["0.15 - 0"]
-CategoricalDistributions = "0.1"
 ScientificTypes = "3"
 StatisticalTraits = "3"
 
 ["0.15 - 0.15.1"]
 PrettyPrinting = "0.3"
+
+["0.15 - 0.18.1"]
+CategoricalDistributions = "0.1"
 
 ["0.15.11 - 0.15.12"]
 RelocatableFolders = "0.3"
@@ -135,7 +137,6 @@ StatsBase = "0.32-0.34"
 MLJModelInterface = "1.10.0-1"
 
 ["0.18 - 0"]
-CategoricalArrays = "0.9 - 0.10"
 Dates = "1"
 Distances = "0.9 - 0.10"
 InteractiveUtils = "1"
@@ -149,6 +150,13 @@ Random = "1"
 Statistics = "1"
 StatsBase = "0.32 - 0.34"
 julia = "1.10.0 - 1"
+
+["0.18 - 0.18.1"]
+CategoricalArrays = "0.9 - 0.10"
+
+["0.18.2 - 0"]
+CategoricalArrays = "1"
+CategoricalDistributions = "0.2"
 
 ["0.2 - 0.2.3"]
 MLJBase = "0.2"

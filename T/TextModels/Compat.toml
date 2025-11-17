@@ -40,7 +40,6 @@ CUDA = "3 - 5"
 DataStructures = "0.18 - 0.20"
 Flux = "0.16 - 0.17"
 Functors = "0.4 - 0.6"
-JSON = "0.21 - 0.22"
 Languages = "0.4"
 NNlib = "0.7 - 0.10"
 StatsBase = "0.33 - 0.35"
@@ -48,3 +47,10 @@ TextAnalysis = "0.8"
 WordTokenizers = "0.5 - 0.6"
 Zygote = "0.7 - 0.8"
 julia = "1.6.0 - 1"
+
+["0.2.0"]
+JSON = "0.21 - 0.22"
+
+["0.2.1 - 0"]
+DelimitedFiles = "1"
+JSON = ["0.21", "1"]

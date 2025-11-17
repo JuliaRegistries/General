@@ -1,20 +1,20 @@
 [0]
 Quadmath = "0.5"
 
-["0-0.1"]
+["0 - 0.1"]
 TaylorSeries = "0.11"
 
-["0-0.2"]
+["0 - 0.2"]
 JLD = "0.12"
 TaylorIntegration = "0.8"
 
-["0-0.6"]
+["0 - 0.6"]
 DelimitedFiles = "1.6.0-1"
 
-["0-0.7.4"]
+["0 - 0.7.4"]
 AutoHashEquals = "0.2"
 
-["0-0.8"]
+["0 - 0.8"]
 julia = "1.6.0-1"
 
 ["0.2"]
@@ -24,63 +24,71 @@ TaylorSeries = "0.12"
 TaylorIntegration = "0.11"
 TaylorSeries = "0.14"
 
-["0.3-0"]
-ArgParse = "1.1.0-1"
-
-["0.3-0.5"]
+["0.3 - 0.5"]
 SnoopPrecompile = "1"
 
-["0.3-0.8.6"]
+["0.3 - 0.8.6"]
 JLD2 = "0.4"
 
-["0.4-0.5"]
+["0.3 - 0.9.1"]
+ArgParse = "1.1.0-1"
+
+["0.4 - 0.5"]
 TaylorIntegration = "0.12"
 
-["0.4-0.7.6"]
+["0.4 - 0.7.6"]
 TaylorSeries = "0.15"
 
-["0.6-0"]
-PrecompileTools = "1.1.0-1"
-
-["0.6-0.7.1"]
+["0.6 - 0.7.1"]
 TaylorIntegration = "0.13"
 
-["0.7-0"]
+["0.6 - 0.9.1"]
+PrecompileTools = "1.1.0-1"
+
+["0.7 - 0"]
 DelimitedFiles = "1"
 
-["0.7.2-0.7"]
+["0.7.2 - 0.7"]
 TaylorIntegration = "0.14"
 
-["0.7.5-0"]
+["0.7.5 - 0"]
 AutoHashEquals = ["0.2", "2"]
 
-["0.7.7-0.7"]
+["0.7.7 - 0.7"]
 TaylorSeries = "0.15-0.16"
 
-["0.8-0.8.3"]
+["0.8 - 0.8.3"]
 TaylorSeries = "0.17"
 
-["0.8-0.8.4"]
+["0.8 - 0.8.4"]
 TaylorIntegration = "0.15"
 
-["0.8.4-0.8"]
+["0.8.4 - 0.8"]
 TaylorSeries = "0.18"
 
 ["0.8.5"]
 TaylorIntegration = "0.15.3-0.15"
 
-["0.8.6-0.8"]
+["0.8.6 - 0.8"]
 TaylorIntegration = "0.16"
 
-["0.8.7-0"]
+["0.8.7 - 0.9.1"]
 JLD2 = "0.5"
 
-["0.9-0"]
+["0.9 - 0"]
 TaylorIntegration = "0.17"
+
+["0.9 - 0.9.1"]
 julia = "1.10.0-1"
 
 ["0.9.0"]
 TaylorSeries = "0.19"
 
-["0.9.1-0"]
+["0.9.1 - 0"]
 TaylorSeries = "0.20"
+
+["0.9.2 - 0"]
+ArgParse = "1.1.0 - 1"
+JLD2 = "0.5 - 0.6"
+PrecompileTools = "1.1.0 - 1"
+julia = "1.10.0 - 1"

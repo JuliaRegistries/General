@@ -147,7 +147,6 @@ BFloat16s = "0.5"
 CEnum = "0.4 - 0.5"
 CodecBzip2 = "0.8.5 - 0.8"
 GPUArrays = "11.2.1 - 11"
-GPUCompiler = ["0.26 - 0.27", "1"]
 LLVM = "7.2.0 - 9"
 ObjectiveC = "3.4.0 - 3"
 ScopedValues = "1.3.0 - 1"
@@ -156,6 +155,9 @@ julia = "1.10.0 - 1"
 ["1.6.2 - 1.6"]
 GPUToolbox = "0.1 - 0.2"
 KernelAbstractions = "0.9.1 - 0.9"
+
+["1.6.2 - 1.8"]
+GPUCompiler = ["0.26 - 0.27", "1"]
 
 ["1.7 - 1"]
 KernelAbstractions = "0.9.38 - 0.9"
@@ -166,3 +168,8 @@ GPUToolbox = "0.1 - 0.3"
 ["1.8.2 - 1"]
 BFloat16s = "0.5 - 0.6"
 GPUToolbox = ["0.1 - 0.3", "1"]
+
+["1.9 - 1"]
+GPUCompiler = "1.7.1 - 1"
+Random123 = "1.7.1 - 1"
+RandomNumbers = "1.6.0 - 1"

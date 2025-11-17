@@ -329,6 +329,9 @@ LinearSolve = "3"
 NonlinearSolve = "4"
 RecursiveArrayTools = "3.27.0 - 3"
 
+["6.102"]
+SciMLOperators = "1.4.0 - 1"
+
 ["6.102 - 6"]
 ADTypes = "1.16.0 - 1"
 Adapt = "4.3.0 - 4"
@@ -385,7 +388,6 @@ PrecompileTools = "1.2.1 - 1"
 Preferences = "1.4.3 - 1"
 RecursiveArrayTools = "3.36.0 - 3"
 Reexport = "1.2.2 - 1"
-SciMLOperators = "1.4.0 - 1"
 SciMLStructures = "1.7.0 - 1"
 SimpleNonlinearSolve = "2.7.0 - 2"
 SimpleUnPack = "1.1.0 - 1"
@@ -400,8 +402,14 @@ ExplicitImports = "1.13.1 - 1"
 SciMLBase = "2.108.0 - 2"
 
 ["6.102.1 - 6"]
-DiffEqBase = "6.186.0 - 6"
 SciMLBase = "2.115.0 - 2"
+
+["6.102.1 - 6.102"]
+DiffEqBase = "6.186.0 - 6"
+
+["6.103 - 6"]
+DiffEqBase = "6.190.2 - 6"
+SciMLOperators = "1.8.0 - 1"
 
 ["6.11"]
 ArrayInterface = "2.7.0-6"

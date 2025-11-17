@@ -4,7 +4,6 @@ Statistics = "1.10.0-1"
 
 ["0 - 1"]
 Distributions = "0.25"
-JSON = "0.21"
 MultivariateStats = "0.10"
 StatsBase = "0.34"
 TestItems = "1"
@@ -12,6 +11,9 @@ TestItems = "1"
 ["0 - 1.4"]
 StatsAPI = "1.7.0-1"
 julia = "1.8.0-1"
+
+["0 - 1.5"]
+JSON = "0.21"
 
 ["0.0.7 - 1"]
 LinearAlgebra = "1"
@@ -21,3 +23,6 @@ Statistics = "1"
 ["1.5 - 1"]
 StatsAPI = "1.7.0 - 1"
 julia = "1.8.0 - 1"
+
+["1.6 - 1"]
+JSON = ["0.21", "1"]

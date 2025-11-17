@@ -37,13 +37,15 @@ AbstractAlgebra = "c3fe647b-3220-5bb0-a1ea-a7954cac585d"
 ["0.3.4 - 4"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 
+["0.8 - 3"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
 ["0.8 - 3.15"]
 IfElse = "615f187c-cbe4-4ef1-ba3b-2fcf58d6d173"
 
 ["0.8 - 4"]
 LabelledArrays = "2ee39098-c373-598a-b85f-a56591580800"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0.8.1 - 4"]
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
@@ -85,3 +87,9 @@ MutableArithmetics = "d8a4904e-b15c-11e9-3269-09a3773c0cb0"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 ReadOnlyArrays = "988b38a3-91fc-5605-94a2-ee2116b3bd83"
 WeakCacheSets = "d30d5f5c-d141-4870-aa07-aabb0f5fe7d5"
+
+["4.0"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["4.1 - 4"]
+StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"

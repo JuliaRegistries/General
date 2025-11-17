@@ -74,15 +74,17 @@ julia = "1.10.0 - 1"
 ["0.17 - 0"]
 Atomix = "1"
 ComponentArrays = "0.15"
-ConstructionBase = "1"
 DomainSets = "0.7"
 JLD2 = "0.4 - 0.6"
 LowerTriangularArrays = "0.1"
-MacroTools = "0.5"
-ModelParameters = "0.4"
 RingGrids = "0.1"
 SpeedyTransforms = "0.1"
 SpeedyWeatherInternals = "0.1"
+
+["0.17 - 0.17.2"]
+ConstructionBase = "1"
+MacroTools = "0.5"
+ModelParameters = "0.4"
 
 ["0.2 - 0.4"]
 UnicodePlots = "2.10.0-3"

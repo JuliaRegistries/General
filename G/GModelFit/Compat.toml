@@ -1,7 +1,5 @@
 [0]
 CMPFit = "0.3"
-DataStructures = "0.18"
-JSON = "0.21"
 MacroTools = "0.5"
 
 ["0 - 0.1"]
@@ -19,6 +17,10 @@ Distributions = "0.25"
 
 ["0 - 0.4"]
 julia = "1.8.0-1"
+
+["0 - 0.6"]
+DataStructures = "0.18"
+JSON = "0.21"
 
 ["0.2"]
 PrecompileTools = "1.1.0-1"
@@ -38,12 +40,22 @@ ProgressMeter = "1.10.0-1"
 Polyester = "0.7"
 
 ["0.5 - 0"]
-ForwardDiff = "1.0.1 - 1"
 GZip = "0.5 - 0.6"
 Gnuplot = "1.6.0 - 1"
-LsqFit = "0.13 - 0.15"
 NonlinearSolve = "4.9.0 - 4"
 PrecompileTools = "1.2.0 - 1"
-PrettyTables = "2.4.0 - 2"
 ProgressMeter = "1.10.0 - 1"
+
+["0.5 - 0.6"]
+ForwardDiff = "1.0.1 - 1"
+LsqFit = "0.13 - 0.15"
+PrettyTables = "2.4.0 - 2"
 julia = "1.8.0 - 1"
+
+["0.7 - 0"]
+DataStructures = "0.19"
+ForwardDiff = "1.2.0 - 1"
+JSON = "1.1.0 - 1"
+LsqFit = "0.14 - 0.15"
+PrettyTables = "3.1.0 - 3"
+julia = "1.11.0 - 1"

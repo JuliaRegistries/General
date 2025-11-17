@@ -1,106 +1,112 @@
 [0]
 UnPack = "1"
 
-["0-0.1"]
+["0 - 0.1"]
 DataStructures = "0.18"
 Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
-["0-0.3"]
+["0 - 0.3"]
 Reexport = "0.2"
 
-["0-0.4"]
+["0 - 0.4"]
 StatsBase = "0.33"
 
-["0-0.4.1"]
+["0 - 0.4.1"]
 Distributions = "0.23-0.24"
 
-["0-0.4.5"]
+["0 - 0.4.5"]
 JuMP = "0.21"
 Optim = "1.2.0-1"
 
-["0-0.5"]
+["0 - 0.5"]
 Intervals = "1.4.0-1"
 
 ["0.2"]
 Expectations = "1.6.0-1"
 
-["0.2-0"]
-DataStructures = "0.17-0.18"
+["0.2 - 0"]
 QuadGK = "2"
 
-["0.2-0.3"]
+["0.2 - 0.3"]
 Statistics = "1.4.0-1"
 julia = "1.4.0-1"
 
-["0.2-0.4.5"]
+["0.2 - 0.4.5"]
 MathOptInterface = "0.9"
 RecipesBase = "1.1.0-1"
 Setfield = "0.7"
 
-["0.3-0"]
+["0.2 - 0.6.1"]
+DataStructures = "0.17-0.18"
+
+["0.3 - 0"]
 KernelDensity = "0.6"
 
-["0.3-0.4.0"]
+["0.3 - 0.4.0"]
 LinearFractional = "0.7"
 
-["0.3-0.4.1"]
+["0.3 - 0.4.1"]
 ParameterJuMP = "0.2"
 
-["0.3-0.4.3"]
+["0.3 - 0.4.3"]
 Roots = "1"
 
 ["0.4"]
 Reexport = ["0.2", "1"]
 
-["0.4-0.4.3"]
+["0.4 - 0.4.3"]
 Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
-["0.4-0.4.5"]
+["0.4 - 0.4.5"]
 CSV = "0.8"
 
-["0.4.1-0.4.5"]
+["0.4.1 - 0.4.5"]
 LinearFractional = "0.7.4-0.7"
 
-["0.4.2-0.4.3"]
+["0.4.2 - 0.4.3"]
 Distributions = "0.24.7-0.24"
 
-["0.4.2-0.4.5"]
+["0.4.2 - 0.4.5"]
 ParameterJuMP = "0.3"
 
-["0.4.4-0"]
-Distributions = "0.24.7-0.25"
-
-["0.4.4-0.4"]
+["0.4.4 - 0.4"]
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
-["0.4.6-0"]
-CSV = "0.8-0.10"
+["0.4.4 - 0.6.1"]
+Distributions = "0.24.7-0.25"
+
+["0.4.6 - 0"]
 JuMP = "1"
 MathOptInterface = "1"
 ParameterJuMP = "0.4"
-RecipesBase = "1.2.0-1"
 
-["0.4.6-0.4"]
+["0.4.6 - 0.4"]
 Optim = "1.6.0-1"
 RangeHelpers = "0.1.8-0.1"
 Setfield = ["0.8", "1"]
 
-["0.4.6-0.6.0"]
+["0.4.6 - 0.6.0"]
 LinearFractional = "0.7.5-0.7"
+
+["0.4.6 - 0.6.1"]
+CSV = "0.8-0.10"
+RecipesBase = "1.2.0-1"
 
 ["0.5"]
 Reexport = "1"
 
-["0.5-0"]
-LinearAlgebra = "1.9.0-1"
+["0.5 - 0"]
 LogExpFunctions = "0.3"
-Random = "1.9.0-1"
-RangeHelpers = "0.1.9-0.1"
 Setfield = "1"
 SpecialFunctions = "2"
+
+["0.5 - 0.6.1"]
+LinearAlgebra = "1.9.0-1"
+Random = "1.9.0-1"
+RangeHelpers = "0.1.9-0.1"
 Statistics = "1.9.0-1"
 StatsBase = "0.33-0.34"
 julia = "1.9.0-1"
@@ -108,11 +114,24 @@ julia = "1.9.0-1"
 ["0.5.0"]
 Hypatia = "0.7.3-0.7"
 
-["0.5.1-0"]
+["0.5.1 - 0"]
 MultipleTesting = "0.6"
 
-["0.6-0"]
+["0.6 - 0"]
 StatsDiscretizations = "0.2"
 
-["0.6.1-0"]
+["0.6.1"]
 LinearFractional = "0.7.8-0.7"
+
+["0.6.2 - 0"]
+CSV = "0.8 - 0.10"
+DataStructures = "0.17 - 0.18"
+Distributions = "0.24.7 - 0.25"
+LinearAlgebra = "1.9.0 - 1"
+LinearFractional = "0.7.8 - 0.7"
+Random = "1.9.0 - 1"
+RangeHelpers = "0.1.9 - 0.1"
+RecipesBase = "1.2.0 - 1"
+Statistics = "1.9.0 - 1"
+StatsBase = "0.33 - 0.34"
+julia = "1.9.0 - 1"
