@@ -16,9 +16,11 @@ Base64 = "1.10.0-1"
 Dates = "1.10.0-1"
 Logging = "1.10.0-1"
 
+["0.2"]
+DataStructures = "0.18.20 - 0.18"
+
 ["0.2 - 0"]
 Base64 = "1"
-DataStructures = "0.18.20 - 0.18"
 Dates = "1"
 JSON3 = "1"
 Logging = "1"
@@ -27,3 +29,8 @@ OrderedCollections = "1"
 StructTypes = "1"
 URIs = "1"
 julia = "1.10.0 - 1"
+
+["0.3 - 0"]
+DataStructures = "0.18.20 - 0.19"
+HTTP = "1"
+UUIDs = "1"

@@ -1,4 +1,4 @@
-["0-0.2"]
+["0 - 0.2"]
 Compat = "1-2"
 JuMP = "0.18"
 MultivariatePolynomials = "0.1.1-0.2"
@@ -6,89 +6,89 @@ PolyJuMP = "0.2"
 SemialgebraicSets = "0.0.2-0.1"
 julia = "0.6-1"
 
-["0-0.3.1"]
+["0 - 0.3.1"]
 MultivariateMoments = "0.1.0-0.2"
 
-["0-0.3.5"]
+["0 - 0.3.5"]
 Reexport = "0.0.0-0.2"
 
-["0.3-0.3.2"]
+["0.3 - 0.3.2"]
 PolyJuMP = "0.3"
 
-["0.3-0.3.3"]
+["0.3 - 0.3.3"]
 MultivariatePolynomials = "0.2.7-0.2"
 SemialgebraicSets = "0.1"
 
-["0.3-0.3.4"]
+["0.3 - 0.3.4"]
 JuMP = "0.19"
 MathOptInterface = "0.8.2-0.8"
 
-["0.3-0.5"]
+["0.3 - 0.5"]
 julia = "1"
 
-["0.3.2-0.3.5"]
+["0.3.2 - 0.3.5"]
 MultivariateMoments = "0.2.1-0.2"
 
-["0.3.3-0.3.4"]
+["0.3.3 - 0.3.4"]
 PolyJuMP = "0.3.1-0.3"
 
-["0.3.4-0.3"]
+["0.3.4 - 0.3"]
 MultivariatePolynomials = "0.3"
 
-["0.3.4-0.6"]
+["0.3.4 - 0.6"]
 SemialgebraicSets = "0.2"
 
 ["0.3.5"]
 MathOptInterface = "0.9.1-0.9"
 PolyJuMP = "0.3.3-0.3"
 
-["0.3.5-0.3"]
+["0.3.5 - 0.3"]
 JuMP = "0.20"
 
-["0.3.6-0.3"]
+["0.3.6 - 0.3"]
 MathOptInterface = "0.9.7-0.9"
 MultivariateMoments = "0.2.3-0.2"
 PolyJuMP = "0.3.4-0.3"
 
-["0.3.6-0.4.5"]
+["0.3.6 - 0.4.5"]
 Reexport = "0.2"
 
 ["0.4"]
 MultivariatePolynomials = "0.3.5-0.3"
 MutableArithmetics = "0.2"
 
-["0.4-0.4.1"]
+["0.4 - 0.4.1"]
 MathOptInterface = "0.9.9-0.9"
 
-["0.4-0.4.5"]
+["0.4 - 0.4.5"]
 JuMP = "0.21"
 PolyJuMP = "0.4"
 
-["0.4-0.6"]
+["0.4 - 0.6"]
 MultivariateBases = "0.1.2-0.1"
 MultivariateMoments = "0.3"
 
 ["0.4.2"]
 MathOptInterface = "0.9.16-0.9"
 
-["0.4.3-0.4"]
+["0.4.3 - 0.4"]
 ComplexOptInterface = "0.0.2"
 MathOptInterface = "0.9.18-0.9"
 
-["0.4.4-0"]
+["0.4.4 - 0.7.4"]
 DataStructures = "0.18"
 
-["0.4.6-0"]
+["0.4.6 - 0"]
 Reexport = ["0.2", "1"]
 
-["0.4.6-0.4"]
+["0.4.6 - 0.4"]
 JuMP = "0.21.7-0.21"
 PolyJuMP = "0.4.2-0.4"
 
-["0.4.7-0.4"]
+["0.4.7 - 0.4"]
 SymbolicWedderburn = "0.1"
 
-["0.4.7-0.6"]
+["0.4.7 - 0.6"]
 Combinatorics = "1"
 
 ["0.5"]
@@ -98,10 +98,10 @@ MathOptInterface = "0.10"
 MutableArithmetics = "0.3"
 PolyJuMP = "0.5.1-0.5"
 
-["0.5-0.6"]
+["0.5 - 0.6"]
 MultivariatePolynomials = "0.4"
 
-["0.5-0.6.0"]
+["0.5 - 0.6.0"]
 SymbolicWedderburn = "0.2"
 
 ["0.6"]
@@ -109,24 +109,35 @@ ComplexOptInterface = "0.1"
 MathOptInterface = "1"
 PolyJuMP = "0.6"
 
-["0.6-0"]
+["0.6 - 0"]
 MutableArithmetics = "1"
-julia = "1.6.0-1"
 
-["0.6-0.6.1"]
+["0.6 - 0.6.1"]
 JuMP = "0.23"
 
-["0.6.1-0"]
+["0.6 - 0.7.4"]
+julia = "1.6.0-1"
+
+["0.6.1 - 0.7.4"]
 SymbolicWedderburn = "0.3"
 
-["0.6.2-0.6"]
+["0.6.2 - 0.6"]
 JuMP = ["0.23", "1"]
 
-["0.7-0"]
-JuMP = "1.10.0-1"
-MathOptInterface = "1.13.0-1"
+["0.7 - 0"]
 MultivariateBases = "0.2"
 MultivariateMoments = "0.4"
 MultivariatePolynomials = "0.5"
 PolyJuMP = "0.7"
 SemialgebraicSets = "0.3"
+
+["0.7 - 0.7.4"]
+JuMP = "1.10.0-1"
+MathOptInterface = "1.13.0-1"
+
+["0.7.5 - 0"]
+DataStructures = "0.18 - 0.19"
+JuMP = "1.10.0 - 1"
+MathOptInterface = "1.13.0 - 1"
+SymbolicWedderburn = "0.3 - 0.4"
+julia = "1.6.0 - 1"

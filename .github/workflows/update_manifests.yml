@@ -74,7 +74,7 @@ jobs:
         shell: julia --color=yes {0}
       - run: mv .ci/Manifest.toml .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml
       - run: git status
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+      - uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
         with:
           name: manifest_file_for_${{ steps.manifest_version.outputs.manifest_version }}
           path: .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml
@@ -115,7 +115,7 @@ jobs:
       - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.update()'
       - run: mv .ci/AutoMerge/Manifest.toml .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml
       - run: git status
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+      - uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
         with:
           name: automerge_manifest_file_for_${{ steps.manifest_version.outputs.manifest_version }}
           path: .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml
@@ -131,7 +131,7 @@ jobs:
       - run: rm -rf /tmp/manifest_updater
       - run: mkdir /tmp/manifest_updater
       - run: chmod 700 /tmp/manifest_updater
-      - uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5.0.0
+      - uses: actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53 # v6.0.0
         with:
           path: /tmp/manifest_updater/download_artifacts
       - run: mv /tmp/manifest_updater/download_artifacts/manifest_file_for_*/Manifest-v*.toml .ci

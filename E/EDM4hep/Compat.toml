@@ -2,20 +2,29 @@
 Accessors = "0.1"
 Corpuscles = "2"
 Graphs = "1"
-StaticArrays = "1.9.0-1"
 StructArrays = "0.6"
 YAML = "0.4"
 julia = "1"
 
-["0-0.2"]
+["0 - 0.2"]
 UnROOT = "0.10.22"
 
-["0.2-0.4.1"]
+["0 - 0.4.3"]
+StaticArrays = "1.9.0-1"
+
+["0.2 - 0.4.1"]
 FHist = "0.10"
 
-["0.3-0"]
+["0.3 - 0"]
 PrettyTables = "2"
 UnROOT = "0.10"
 
-["0.4.2-0"]
+["0.4.2 - 0"]
 FHist = "0.11"
+
+["0.4.4 - 0"]
+Combinatorics = "1.0.3 - 1"
+Preferences = "1.5.0 - 1"
+RecipesBase = "1"
+StaticArrays = "1.9.0 - 1"
+Statistics = "1"

@@ -1,7 +1,4 @@
-[0]
-julia = "1.6.0-1"
-
-["0-0.1.2"]
+["0 - 0.1.2"]
 ADNLPModels = "0.3.1-0.3"
 ForwardDiff = "0.10.25-0.10"
 JuMP = "0.21.5-0.21"
@@ -9,10 +6,13 @@ MathOptInterface = "0.9.22-0.9"
 ModelingToolkit = "3.20.1-3"
 ReverseDiff = "1.12.0-1"
 
+["0 - 0.2"]
+julia = "1.6.0-1"
+
 ["0.1.2"]
 NLPModelsJuMP = "0.8.3-0.8"
 
-["0.1.3-0.1.5"]
+["0.1.3 - 0.1.5"]
 ADNLPModels = "0.4"
 ForwardDiff = "0.10.32-0.10"
 JuMP = "1.1.1-1"
@@ -26,22 +26,29 @@ ADNLPModels = "0.4.0-0.5"
 MathOptInterface = "1.7-1.13"
 NLPModelsJuMP = "0.11.1-0.12"
 
-["0.1.6-0"]
+["0.1.6 - 0.1"]
+JuMP = "1.1.1-1.8"
+
+["0.1.6 - 0.2"]
 ForwardDiff = "0.10"
 ReverseDiff = "1.14.0-1"
 Symbolics = "4.10.4-5.1"
 
-["0.1.6-0.1"]
-JuMP = "1.1.1-1.8"
-
-["0.1.7-0"]
-ADNLPModels = "0.4.0-0.8"
-
-["0.1.7-0.1"]
+["0.1.7 - 0.1"]
 MathOptInterface = "1.7-1.27"
 NLPModelsJuMP = "0.11.1-0.13.0"
 
-["0.2-0"]
+["0.1.7 - 0.2"]
+ADNLPModels = "0.4.0-0.8"
+
+["0.2 - 0"]
 JuMP = "1"
 MathOptInterface = "1"
 NLPModelsJuMP = "0.13"
+
+["0.3 - 0"]
+ADNLPModels = "0.8"
+ForwardDiff = ["0.10", "1"]
+ReverseDiff = "1.14.0 - 1"
+Symbolics = "5 - 6"
+julia = "1.10.0 - 1"

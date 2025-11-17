@@ -192,8 +192,10 @@ ProgressMeter = "1.7.1-1"
 StatisticalTraits = "3"
 
 ["0.19 - 1"]
-CategoricalDistributions = "0.1"
 ScientificTypes = "3"
+
+["0.19 - 1.9"]
+CategoricalDistributions = "0.1"
 
 ["0.19.4 - 0"]
 Statistics = "1.6.0-1"
@@ -323,6 +325,11 @@ Statistics = "1.6.0-1"
 RecipesBase = "1"
 Statistics = "1"
 
+["1.10 - 1"]
+CategoricalArrays = "1"
+CategoricalDistributions = "0.2"
+LearnAPI = "2"
+
 ["1.4 - 1.5"]
 MLJModelInterface = "1.10.0-1"
 StatisticalTraits = "3.3.0-3"
@@ -331,14 +338,13 @@ StatisticalTraits = "3.3.0-3"
 MLJModelInterface = "1.11.0-1"
 StatisticalTraits = "3.4.0-3"
 
-["1.8 - 1"]
-LearnAPI = "1"
-
 ["1.8 - 1.8.1"]
 julia = "1.10.0-1"
 
+["1.8 - 1.9"]
+LearnAPI = "1"
+
 ["1.8.2 - 1"]
-CategoricalArrays = "0.9 - 0.10"
 Distributions = "0.25.3 - 0.25"
 MLJModelInterface = "1.11.0 - 1"
 OrderedCollections = "1.1.0 - 1"
@@ -349,3 +355,6 @@ StatisticalMeasuresBase = "0.1.1 - 0.1"
 StatisticalTraits = "3.4.0 - 3"
 StatsBase = "0.32 - 0.34"
 julia = "1.10.0 - 1"
+
+["1.8.2 - 1.9"]
+CategoricalArrays = "0.9 - 0.10"

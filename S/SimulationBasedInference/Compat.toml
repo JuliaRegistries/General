@@ -1,63 +1,81 @@
 [0]
 AbstractGPs = "0.5"
-AffineInvariantMCMC = "1"
 CommonSolve = "0.2"
 ComponentArrays = "0.15"
-DiffEqBase = "5-6"
 Distributions = "0.25"
 FileIO = "1"
-ForwardDiff = "0.10"
-JLD2 = "0.4"
 KernelFunctions = "0.10"
 LogDensityProblems = "2"
 LogDensityProblemsAD = "1"
-MCMCChains = "6"
 MLJModelInterface = "1"
 Optim = "1"
 PackageExtensionCompat = "1"
 ParameterHandling = "0.5"
-PosteriorStats = "0.2"
 Reexport = "1"
 Requires = "1"
-SciMLBase = "1-2"
 Statistics = "1"
 StatsBase = "0.34"
 StatsFuns = "1"
 Tables = "1"
 UnPack = "1"
+
+["0 - 0.1.0"]
+DimensionalData = "0.26"
+
+["0 - 0.1.1"]
+EnsembleKalmanProcesses = "1"
+
+["0 - 0.1.10"]
+CondaPkg = "0.2"
+
+["0 - 0.1.12"]
+AffineInvariantMCMC = "1"
+DiffEqBase = "5-6"
+ForwardDiff = "0.10"
+JLD2 = "0.4"
+MCMCChains = "6"
+PosteriorStats = "0.2"
+SciMLBase = "1-2"
 Zygote = "0.6"
 julia = "1.6.0-1"
 
-["0-0.1.0"]
-DimensionalData = "0.26"
-
-["0-0.1.1"]
-EnsembleKalmanProcesses = "1"
-
-["0-0.1.10"]
-CondaPkg = "0.2"
-
-["0-0.1.9"]
+["0 - 0.1.9"]
 AbstractMCMC = "4"
 Bijectors = "0.13"
 MultivariateStats = "0.10"
 
-["0.1.1-0.1.5"]
+["0.1.1 - 0.1.5"]
 DimensionalData = "0.26-0.27"
 
-["0.1.10-0"]
-AbstractMCMC = "4-5"
+["0.1.10 - 0"]
 Accessors = "0.1.36"
+
+["0.1.10 - 0.1.12"]
+AbstractMCMC = "4-5"
 Bijectors = "0.13-0.15"
 
-["0.1.11-0"]
+["0.1.11 - 0"]
 CondaPkg = "0.2.24"
 
-["0.1.2-0.1.3"]
+["0.1.13 - 0"]
+AbstractMCMC = "4 - 5"
+Bijectors = "0.13 - 0.15"
+DiffEqBase = "5 - 6"
+DimensionalData = "0.26 - 0.29"
+EnsembleKalmanProcesses = "1.1.6 - 1.1"
+ForwardDiff = ["0.10", "1"]
+JLD2 = "0.4 - 0.6"
+MCMCChains = "6 - 7"
+PosteriorStats = "0.2 - 0.4"
+SciMLBase = "1 - 2"
+Zygote = "0.6 - 0.7"
+julia = "1.6.0 - 1"
+
+["0.1.2 - 0.1.3"]
 EnsembleKalmanProcesses = "1.1.5-1"
 
-["0.1.4-0"]
+["0.1.4 - 0.1.12"]
 EnsembleKalmanProcesses = "1.1.6-1.1"
 
-["0.1.6-0"]
+["0.1.6 - 0.1.12"]
 DimensionalData = "0.26-0.28"

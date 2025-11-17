@@ -1,44 +1,46 @@
-["0-0.1"]
+["0 - 0.1"]
 JuMP = "0.21"
 MathOptInterface = "0.9.11-0.9"
 MutableArithmetics = "0.2"
 
-["0-0.3.1"]
+["0 - 0.3.1"]
 Distributions = "0.19-0.23"
 
-["0-0.5.0"]
+["0 - 0.5.0"]
 julia = "1"
 
-["0-0.5.6"]
+["0 - 0.5.6"]
 FastGaussQuadrature = "0.3.2-0.4"
 
-["0.2-0"]
-DataStructures = "0.14.2-0.18"
-
-["0.2-0.3"]
+["0.2 - 0.3"]
 JuMP = "0.21.4-0.21"
 MathOptInterface = "0.9.16-0.9"
+
+["0.2 - 0.5"]
+DataStructures = "0.14.2-0.18"
 
 ["0.3"]
 Polynomials = "1.0-1.1"
 
-["0.3.2-0.3"]
+["0.3.2 - 0.3"]
 Distributions = "0.19-0.24"
 
-["0.4-0"]
-Distributions = "0.19-0.25"
+["0.4 - 0"]
 Reexport = ["0.2", "1"]
 
-["0.4-0.4.1"]
+["0.4 - 0.4.1"]
 JuMP = "0.21.8-0.21"
 
-["0.4-0.4.2"]
+["0.4 - 0.4.2"]
 MathOptInterface = "0.9.20-0.9"
 
-["0.4.2-0.4"]
+["0.4 - 0.5"]
+Distributions = "0.19-0.25"
+
+["0.4.2 - 0.4"]
 JuMP = "0.21.9-0.21"
 
-["0.5-0.5.5"]
+["0.5 - 0.5.5"]
 AbstractTrees = "0.3"
 LeftChildRightSiblingTrees = "0.1"
 
@@ -50,32 +52,39 @@ SpecialFunctions = ["0.8-0.10", "1"]
 ["0.5.1"]
 JuMP = "0.22"
 
-["0.5.1-0"]
+["0.5.1 - 0.5"]
 SpecialFunctions = ["0.8-0.10", "1-2"]
 julia = "1.6.0-1"
 
-["0.5.1-0.5.2"]
+["0.5.1 - 0.5.2"]
 MutableArithmetics = "0.3"
 
 ["0.5.2"]
 JuMP = "0.22.2-0.22"
 
-["0.5.3-0"]
+["0.5.3 - 0"]
 MutableArithmetics = "1"
 
-["0.5.3-0.5.5"]
+["0.5.3 - 0.5.5"]
 JuMP = ["0.23", "1"]
 
-["0.5.6-0"]
+["0.5.6 - 0.5"]
 AbstractTrees = "0.4"
 LeftChildRightSiblingTrees = "0.2"
 
-["0.5.6-0.5.8"]
+["0.5.6 - 0.5.8"]
 JuMP = "1.2.0-1"
 
-["0.5.7-0.5.8"]
+["0.5.7 - 0.5.8"]
 FastGaussQuadrature = "0.3.2-0.5"
 
-["0.5.9-0"]
+["0.5.9 - 0.5"]
 FastGaussQuadrature = ["0.3.2-0.5", "1"]
 JuMP = "1.15.0-1"
+
+["0.6 - 0"]
+DataStructures = "0.14.2 - 0.19"
+Distributions = "0.19 - 0.25"
+FastGaussQuadrature = ["0.3.2 - 0.5", "1"]
+JuMP = "1.18.0 - 1"
+julia = "1.10.0 - 1"
