@@ -1,9 +1,19 @@
 [0]
 ComponentArrays = "0.15"
+NNlib = "0.9"
+SpecialFunctions = "2"
+
+["0 - 0.1.1"]
 HydroModelCore = "0.2"
 HydroModels = "0.4"
-NNlib = "0.9"
 Reexport = "1"
-SpecialFunctions = "2"
 Symbolics = "6"
 julia = "1.10.0 - 1"
+
+["0.1.2 - 0"]
+CSV = "0.10"
+DataFrames = "1"
+HydroModelCore = "0.3.1 - 0.3"
+HydroModels = "0.5"
+Symbolics = "6.57.0 - 7"
+julia = "1"
