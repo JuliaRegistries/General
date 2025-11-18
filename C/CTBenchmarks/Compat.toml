@@ -5,7 +5,6 @@ DataFrames = "1"
 Dates = "1"
 InteractiveUtils = "1"
 Ipopt = "1"
-JSON = "0.21"
 JuMP = "1"
 MadNLPGPU = "0.7"
 MadNLPMumps = "0.5"
@@ -17,3 +16,12 @@ Printf = "1"
 Sockets = "1"
 Tables = "1"
 julia = "1.10.0 - 1"
+
+["0 - 0.2"]
+JSON = "0.21"
+
+["0.3 - 0"]
+CTBase = "0.16"
+DocStringExtensions = "0.9"
+JSON = "1"
+Plots = "1.41.0 - 1"
