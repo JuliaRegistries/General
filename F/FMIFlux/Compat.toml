@@ -1,73 +1,73 @@
-["0-0.1.1"]
+["0 - 0.1.1"]
 FMI = "0.1.2-0.1"
 
-["0-0.1.2"]
+["0 - 0.1.2"]
 Zygote = "0.6.10-0.6"
 julia = "1.5.0-1"
 
-["0-0.2"]
+["0 - 0.2"]
 Plots = "1.14.0-1"
 
-["0-0.3"]
+["0 - 0.3"]
 OrdinaryDiffEq = "5.53.1-5"
 
-["0-0.5"]
+["0 - 0.5"]
 DiffEqFlux = "1.36.1-1"
 
-["0-0.6.0"]
+["0 - 0.6.0"]
 Flux = "0.12.1-0.12"
 
 ["0.1.2"]
 FMI = "0.1.4-0.1"
 
-["0.1.2-0.5"]
+["0.1.2 - 0.5"]
 DiffEqCallbacks = "2.16.1-2"
 
-["0.1.3-0"]
-julia = "1.6.0-1"
-
-["0.1.3-0.1"]
+["0.1.3 - 0.1"]
 FMI = "0.1.7-0.1"
 
-["0.1.3-0.5"]
+["0.1.3 - 0.13"]
+julia = "1.6.0-1"
+
+["0.1.3 - 0.5"]
 Zygote = "0.6.17-0.6"
 
 ["0.10"]
 DiffEqCallbacks = "2.26.0-2"
 
-["0.10-0.10.1"]
+["0.10 - 0.10.1"]
 FMIImport = "0.15.2-0.15"
 Flux = "0.13.14-0.13"
 SciMLSensitivity = "7.27.0-7"
 
-["0.10-0.10.3"]
+["0.10 - 0.10.3"]
 DifferentialEquations = "7.7.0-7"
 
-["0.10-0.12"]
+["0.10 - 0.12"]
 ThreadPools = "2.1.1-2"
 
 ["0.10.0"]
 SciMLBase = "1.91.0-1"
 
-["0.10.2-0.10.3"]
+["0.10.2 - 0.10.3"]
 FMIImport = "0.15.6-0.15"
 Flux = "0.13.16-0.13"
 SciMLSensitivity = "7.31.0-7"
 
-["0.10.2-0.10.5"]
+["0.10.2 - 0.10.5"]
 ChainRulesCore = "1.16.0-1"
 
-["0.10.4-0"]
+["0.10.4 - 0"]
 DifferentiableEigen = "0.2"
 
-["0.10.4-0.10"]
+["0.10.4 - 0.10"]
 DifferentialEquations = "7.8.0-7"
 
-["0.10.4-0.10.5"]
+["0.10.4 - 0.10.5"]
 FMIImport = "0.15.7-0.15"
 Flux = "0.13.17-0.13"
 
-["0.10.6-0.10"]
+["0.10.6 - 0.10"]
 FMIImport = "0.15.8-0.15"
 Flux = "0.13-0.14"
 
@@ -76,7 +76,7 @@ DifferentialEquations = "7.10.0-7.11"
 FMIImport = "0.16.2-0.16"
 FMISensitivity = "0.1.2-0.1"
 
-["0.11-0.12"]
+["0.11 - 0.12"]
 Flux = "0.13.0-0.14"
 ProgressMeter = "1.7.0-1.9"
 
@@ -85,20 +85,32 @@ DifferentialEquations = "7.7.0-7.12"
 FMIImport = "0.16.4-0.16"
 FMISensitivity = "0.1.4-0.1"
 
-["0.13-0"]
+["0.13"]
 Colors = "0.12"
 FMIImport = "1.0.6-1"
 FMISensitivity = "0.2"
 Flux = "0.9-0.14"
 Optim = "1.6.0-1"
-OrdinaryDiffEq = "6"
 Statistics = "1"
 ThreadPools = "2.1.0-2"
 
-["0.2-0.3"]
+["0.13 - 0"]
+OrdinaryDiffEq = "6"
+
+["0.14 - 0"]
+Colors = "0.12 - 0.13"
+FMIImport = "1.1.0 - 1"
+FMISensitivity = "0.3"
+Optim = "1.6.0 - 1"
+Statistics = "1.10.0 - 1"
+StatsBase = "0.34"
+ThreadPools = "2.1.0 - 2"
+julia = "1.10.0 - 1"
+
+["0.2 - 0.3"]
 DifferentialEquations = "6.20.0-6"
 
-["0.2-0.5"]
+["0.2 - 0.5"]
 ChainRulesCore = "1.11.1-1"
 ForwardDiff = "0.10.23-0.10"
 Optim = "1.5.0-1"
@@ -109,36 +121,36 @@ FMI = "0.3.1-0.3"
 ["0.2.1"]
 FMI = "0.3.2-0.3"
 
-["0.2.1-0.5"]
+["0.2.1 - 0.5"]
 DiffEqBase = "6.77.1-6"
 SciMLBase = "1.23.1-1"
 
-["0.2.2-0.2"]
+["0.2.2 - 0.2"]
 FMI = "0.3.8-0.3"
 
 ["0.3"]
 FMIImport = "0.6"
 
-["0.3-0.12"]
+["0.3 - 0.12"]
 Requires = "1.3.0-1"
 
 ["0.4"]
 FMIImport = "0.6.3-0.6"
 
-["0.4-0.5"]
+["0.4 - 0.5"]
 DifferentialEquations = "6.20.0-7"
 OrdinaryDiffEq = "5.53.1-6"
 
 ["0.5"]
 FMIImport = "0.7"
 
-["0.5-0.6.1"]
+["0.5 - 0.6.1"]
 Interpolations = "0.13.5-0.13"
 
 ["0.6"]
 DifferentialEquations = "7.1.0-7"
 
-["0.6-0.6.1"]
+["0.6 - 0.6.1"]
 ChainRulesCore = "1.13.0-1"
 DiffEqBase = "6.82.0-6"
 DiffEqCallbacks = "2.21.0-2"
@@ -149,7 +161,7 @@ OrdinaryDiffEq = "6.7.0-6"
 SciMLBase = "1.28.0-1"
 Zygote = "0.6.36-0.6"
 
-["0.6-0.7"]
+["0.6 - 0.7"]
 ProgressMeter = "1.7.2-1"
 
 ["0.6.0"]
@@ -158,10 +170,10 @@ FMIImport = "0.8"
 ["0.6.1"]
 Flux = "0.12.1-0.13"
 
-["0.6.1-0.6"]
+["0.6.1 - 0.6"]
 FMIImport = "0.8-0.9"
 
-["0.6.2-0.6"]
+["0.6.2 - 0.6"]
 ChainRulesCore = "1.14.0-1"
 DiffEqBase = "6.83.0-6"
 DiffEqCallbacks = "2.22.0-2"
@@ -183,23 +195,23 @@ ForwardDiff = "0.10.32-0.10"
 Interpolations = "0.13"
 SciMLBase = "1.46.0-1"
 
-["0.7-0.12"]
+["0.7 - 0.12"]
 Optim = "1.7.0-1"
 
-["0.7-0.9"]
+["0.7 - 0.9"]
 DiffEqFlux = "1.52.0-1"
 
 ["0.8"]
 FMIImport = "0.12.2-0.12"
 
-["0.8-0.10"]
+["0.8 - 0.10"]
 ProgressMeter = "1.7.0-1"
 Statistics = "1.6.0-1"
 
-["0.8-0.10.1"]
+["0.8 - 0.10.1"]
 ChainRulesCore = "1.15.0-1"
 
-["0.8-0.9"]
+["0.8 - 0.9"]
 DiffEqCallbacks = "2.24.0-2"
 DifferentialEquations = "7.5.0-7"
 Flux = "0.13"
@@ -208,11 +220,11 @@ Interpolations = "0.13-0.14"
 SciMLBase = "1.59.0-1"
 Zygote = "0.6"
 
-["0.9-0.12"]
+["0.9 - 0.12"]
 Colors = "0.12.8-0.12"
 
 ["0.9.0"]
 FMIImport = "0.13"
 
-["0.9.1-0.9"]
+["0.9.1 - 0.9"]
 FMIImport = "0.13-0.14"
