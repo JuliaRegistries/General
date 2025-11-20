@@ -13,12 +13,14 @@ CairoMakie = "0.11"
 AbstractGPs = "0.5"
 DelimitedFiles = "1"
 Distributions = "0.25"
-ForwardDiff = "0.10"
 KernelFunctions = "0.10"
 LombScargle = "1"
 ProgressMeter = "1"
 StatsBase = "0.34"
 julia = "1"
+
+["0 - 1.1"]
+ForwardDiff = "0.10"
 
 ["0.1.5 - 0.1.6"]
 Turing = "0.30-0.33"
@@ -31,12 +33,19 @@ CairoMakie = "0.11-0.12"
 Turing = "0.30-0.34"
 
 [1]
-ArviZ = "0.12.2 - 0.12"
 Bijectors = "0.15.6 - 0.15"
-CairoMakie = "0.11 - 0.13"
 LoopVectorization = "0.12.171 - 0.12"
-StructArrays = "0.6.21 - 0.6"
 Tonari = "0.2"
+
+["1 - 1.1"]
+ArviZ = "0.12.2 - 0.12"
+CairoMakie = "0.11 - 0.13"
+StructArrays = "0.6.21 - 0.6"
 
 ["1.0"]
 VectorizedStatistics = "0.5"
+
+["1.2 - 1"]
+CairoMakie = "0.15"
+ForwardDiff = "1"
+StructArrays = "0.7"
