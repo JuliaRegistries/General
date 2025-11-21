@@ -71,11 +71,13 @@ Polyester = "0.7"
 StatsBase = "0.32-0.34"
 
 ["0.19 - 0"]
-InvertedFiles = "0.8"
 ProgressMeter = "1"
 
 ["0.19 - 0.19.5"]
 SimilaritySearch = "0.12"
+
+["0.19 - 0.19.7"]
+InvertedFiles = "0.8"
 
 ["0.19.0"]
 julia = "1.8.0-1"
@@ -87,9 +89,16 @@ julia = "1.10.0-1"
 JLD2 = "0.5"
 
 ["0.19.6 - 0"]
-SimilaritySearch = "0.13"
 StatsBase = "0.32 - 0.34"
 julia = "1.10.0 - 1"
+
+["0.19.6 - 0.19.7"]
+SimilaritySearch = "0.13"
+
+["0.19.8 - 0"]
+Accessors = "0.1"
+InvertedFiles = "0.8.2 - 0.8"
+SimilaritySearch = "0.13.7 - 0.13"
 
 ["0.2.14"]
 KernelMethods = "0.1"
