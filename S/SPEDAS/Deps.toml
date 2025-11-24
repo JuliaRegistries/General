@@ -1,19 +1,13 @@
 [0]
-Bumper = "8ce10254-0962-460f-a3d8-1f77fea1446e"
-DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
 DimensionfulAngles = "2d4b8d7a-02d9-40f9-9abe-9c695b77de0d"
-FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
-Intervals = "d8418881-c3e1-53bb-8760-2df7ec849ed5"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"
 SignalAnalysis = "df1fea92-c066-49dd-8b36-eace3378ea47"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
-Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 ["0 - 0.1"]
@@ -36,13 +30,23 @@ StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 ["0 - 0.1.4"]
 TimeseriesTools = "380cddd1-6ef2-46ca-b087-e7151fb095ff"
 
+["0 - 0.2.1"]
+Bumper = "8ce10254-0962-460f-a3d8-1f77fea1446e"
+DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+Intervals = "d8418881-c3e1-53bb-8760-2df7ec849ed5"
+OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"
+Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
+
 ["0.1.1 - 0"]
-NaNStatistics = "b946abbf-3ea7-4610-9019-9858bfdeaf2d"
 NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["0.1.1 - 0.1"]
 Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
+
+["0.1.1 - 0.2.1"]
+NaNStatistics = "b946abbf-3ea7-4610-9019-9858bfdeaf2d"
 
 ["0.1.11 - 0"]
 TimeseriesUtilities = "31d49243-0742-49c1-b8d2-db113b74581e"
@@ -54,11 +58,13 @@ SpaceDataModel = "0b37b92c-f0c5-4a52-bd5c-390dec20857c"
 AstroLib = "c7932e45-9af1-51e7-9da9-f004cd3a462b"
 
 ["0.1.7 - 0"]
-Dictionaries = "85a47980-9c8c-11e8-2b9f-f7ca1fa99fb4"
 IRBEM = "d0b46c7b-8a8f-4d20-a1b4-6e9a4a1e4e5f"
 
 ["0.1.7 - 0.1"]
 MakieCore = "20f20a25-4f0e-4fdf-b5d1-57303727442b"
+
+["0.1.7 - 0.2.1"]
+Dictionaries = "85a47980-9c8c-11e8-2b9f-f7ca1fa99fb4"
 
 ["0.1.8 - 0"]
 GeoCotrans = "4624b3bc-fe35-44f8-bfa8-722ff9c0e307"
@@ -71,3 +77,7 @@ VectorizedStatistics = "3b853605-1c98-4422-8364-4bd93ee0529e"
 
 ["0.2.1 - 0"]
 MinimumVarianceAnalysis = "5a74c7d3-1edb-47ee-a7ac-bdb4b3eeab9d"
+
+["0.2.2 - 0"]
+MultiSpacecraftAnalysis = "162efcab-a561-4df9-ac40-20243229ff2c"
+PlasmaWaves = "12efb907-3f94-4823-94fe-a707db5a5005"
