@@ -352,8 +352,14 @@ InfrastructureSystems = "2.6.0-2"
 [5]
 DataStructures = "0.19"
 DocStringExtensions = ["0.8", "0.9.2 - 0.9"]
-InfrastructureSystems = "3"
 PowerFlowData = "1.5.0 - 1"
-PrettyTables = "2"
 TimeSeries = "0.25"
 julia = "1.10.0 - 1"
+
+["5 - 5.2"]
+InfrastructureSystems = "3"
+PrettyTables = "2"
+
+["5.3 - 5"]
+InfrastructureSystems = "3.1.0 - 3"
+PrettyTables = ["2.4.0 - 2", "3.1.0 - 3"]
