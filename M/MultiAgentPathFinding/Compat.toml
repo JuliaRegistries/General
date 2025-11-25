@@ -42,10 +42,15 @@ SparseArrays = "1"
 CSV = "0.10.15 - 0.10"
 Colors = "0.12 - 0.13"
 DataFrames = "1.7.0 - 1"
-DataStructures = "0.18.12 - 0.18"
 Graphs = "1.7.0 - 1"
 Makie = "0.24.2 - 0.24"
 Printf = "1"
 SimpleWeightedGraphs = "1.4.0 - 1"
 StableRNGs = "1.0.3 - 1"
 julia = "1.10.0 - 1"
+
+["0.5 - 0.5.2"]
+DataStructures = "0.18.12 - 0.18"
+
+["0.5.3 - 0"]
+DataStructures = "0.18.12 - 0.19"
