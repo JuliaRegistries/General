@@ -22,6 +22,9 @@ CubedSphere = "0.3.4 - 0.3"
 ["0.101 - 0"]
 KernelAbstractions = "0.9.39 - 0.9"
 
+["0.102 - 0"]
+Pkg = ["0.0.0", "1"]
+
 ["0.11"]
 OrderedCollections = "0.0.0-1"
 
@@ -427,7 +430,6 @@ MuladdMacro = "0.2"
 Adapt = "4.1.1 - 4"
 Dates = "1.9.0 - 1"
 DocStringExtensions = "0.8 - 0.9"
-GPUArrays = ["10.3.0 - 10", "11.2.2 - 11"]
 Glob = "1.3.0 - 1"
 InteractiveUtils = "1.9.0 - 1"
 LinearAlgebra = "1.9.0 - 1"
@@ -448,6 +450,9 @@ KernelAbstractions = "0.9.21 - 0.9"
 
 ["0.96.34 - 0.100.3"]
 CubedSphere = "0.2 - 0.3"
+
+["0.96.34 - 0.101"]
+GPUArrays = ["10.3.0 - 10", "11.2.2 - 11"]
 
 ["0.96.34 - 0.96"]
 CUDA = "5.7.0 - 5"
@@ -473,7 +478,7 @@ GPUArraysCore = "0.2"
 ["0.97.4 - 0.97.5"]
 KrylovPreconditioners = "0.3.2 - 0.3.4"
 
-["0.97.6 - 0"]
+["0.97.6 - 0.101"]
 KrylovPreconditioners = "0.3.2 - 0.3"
 
 ["0.98 - 0"]
