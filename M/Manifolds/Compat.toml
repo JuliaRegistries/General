@@ -62,7 +62,6 @@ Graphs = "1.4.0 - 1"
 Kronecker = "0.4 - 0.5"
 LinearAlgebra = "1.6.0 - 1"
 Markdown = "1.6.0 - 1"
-MatrixEquations = "2.2 - 2.4.2"
 Quaternions = "0.5 - 0.7"
 Random = "1.6.0 - 1"
 SimpleWeightedGraphs = "1.2.0 - 1"
@@ -71,6 +70,9 @@ StaticArrays = "1.4.3 - 1"
 Statistics = "1.6.0 - 1"
 StatsBase = "0.32 - 0.34"
 julia = "1.10.0 - 1"
+
+["0.10.21 - 0.11.6"]
+MatrixEquations = "2.2 - 2.4.2"
 
 ["0.10.3"]
 ManifoldsBase = "0.15.17-0.15"
@@ -92,6 +94,11 @@ ManifoldsBase = "2"
 
 ["0.11.3 - 0"]
 ManifoldsBase = "2.2.0 - 2"
+
+["0.11.7 - 0"]
+ADTypes = "1.19.0 - 1"
+DifferentiationInterface = "0.7.12 - 0.7"
+MatrixEquations = "2.5.0 - 2"
 
 ["0.2.1 - 0.2"]
 ManifoldsBase = "0.8.3-0.8"
