@@ -75,7 +75,6 @@ FileIO = "1.1.0 - 1"
 GLM = "1.7.0 - 1"
 GeometryBasics = "0.4.1 - 0.5"
 GridLayoutBase = "0.6 - 0.11"
-Loess = ["0.5.1 - 0.5", "0.6.1 - 0.6"]
 Makie = "0.23 - 0.24"
 PolygonOps = "0.1.1 - 0.1"
 RelocatableFolders = ["0.1 - 0.3", "1"]
@@ -83,11 +82,17 @@ StatsBase = "0.33 - 0.34"
 StructArrays = "0.5 - 0.7"
 Tables = "1.4.0 - 1"
 
+["0.11.2 - 0.11"]
+Loess = ["0.5.1 - 0.5", "0.6.1 - 0.6"]
+
 ["0.11.2 - 0.11.3"]
 julia = "1.6.0 - 1"
 
 ["0.11.4 - 0"]
 julia = "1.10.0 - 1"
+
+["0.12 - 0"]
+Loess = "0.6.5 - 0.6"
 
 ["0.2 - 0.2.2"]
 AbstractPlotting = "0.12.17-0.13"
