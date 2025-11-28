@@ -218,12 +218,17 @@ SymPyPythonCall = "0.2 - 0.5"
 ThreadedSparseArrays = "0.2.3 - 0.2"
 julia = "1.10.0 - 1"
 
+["0.1.42"]
+Symbolics = ["5 - 6", "7.1.0 - 7"]
+
 ["0.1.42 - 0"]
 Dates = "1"
 JSON = ["0.21", "1"]
 LineSearches = "7.4.0 - 7"
 Showoff = "1"
-Symbolics = ["5 - 6", "7.1.0 - 7"]
+
+["0.1.43 - 0"]
+Symbolics = "5 - 6"
 
 ["0.1.6 - 0"]
 ChainRulesCore = "1"
