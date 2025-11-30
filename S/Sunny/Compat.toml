@@ -112,7 +112,7 @@ Brillouin = "0.5.19-0.5"
 ["0.7.5"]
 CrystalInfoFramework = "0.8"
 
-["0.7.6 - 0"]
+["0.7.6 - 0.7"]
 CrystalInfoFramework = ["0.8", "1"]
 
 ["0.7.7 - 0"]
@@ -120,7 +120,6 @@ Brillouin = "0.5.19 - 0.5"
 ElasticArrays = "1.2.12 - 1"
 FFTW = "1.4.5 - 1"
 HCubature = "1.7.0 - 1"
-JLD2 = "0.5.4 - 0.5"
 LinearAlgebra = "1.10.0 - 1"
 OffsetArrays = "1.10.8 - 1"
 Optim = "1.13.0 - 1"
@@ -129,7 +128,17 @@ Printf = "1.10.0 - 1"
 Random = "1.10.0 - 1"
 RowEchelon = "0.2.1 - 0.2"
 SpecialFunctions = "2.1.0 - 2"
-Spglib = "0.9.4 - 0.9"
 StaticArrays = "1.9.1 - 1"
 Statistics = "1.10.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.7.7 - 0.7"]
+JLD2 = "0.5.4 - 0.5"
+Spglib = "0.9.4 - 0.9"
+
+["0.8 - 0"]
+CrystalInfoFramework = ["0.8", "1 - 2"]
+JLD2 = "0.6"
+LineSearches = "7.4.1 - 7"
+MatInt = "0.1.2 - 0.1"
+Spglib = ["0.9.4 - 0.9", "1"]
