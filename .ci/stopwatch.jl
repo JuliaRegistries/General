@@ -44,7 +44,7 @@ function most_recent_automerge(
         api = api,
         auth = auth,
         event = "workflow_dispatch",
-        workflow_name = "AutoMerge",
+        workflow_name = "AutoMerge (Merge)",
     )
     return workflow_dispatch
 end
@@ -81,7 +81,8 @@ end
 
 function trigger_new_automerge_if_necessary()
     api = GitHub.DEFAULT_API
-    auth = GitHub.OAuth2(ENV["AUTOMERGE_TAGBOT_TOKEN"])
+    # AutoMerge v1: Token renamed from AUTOMERGE_TAGBOT_TOKEN to AUTOMERGE_MERGE_TOKEN
+    auth = GitHub.OAuth2(ENV["AUTOMERGE_MERGE_TOKEN"])
     registry = GitHub.Repo("JuliaRegistries/General")
     t = time_since_last_automerge(registry; api, auth)
     @info "Time since last AutoMerge" t _canonicalize(t)
@@ -91,7 +92,7 @@ function trigger_new_automerge_if_necessary()
             registry;
             api,
             auth,
-            workflow_file_name = "automerge.yml",
+            workflow_file_name = "automerge_merge.yml",
         )
         @info "Triggered a new AutoMerge workflow dispatch job"
     end
