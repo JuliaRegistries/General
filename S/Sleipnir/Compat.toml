@@ -1,4 +1,4 @@
-[0]
+["0 - 0.12.4"]
 Revise = "3"
 
 ["0 - 0.3.5"]
@@ -14,8 +14,6 @@ JLD2 = "0.4"
 
 ["0.10 - 0"]
 CSV = "0.10.15 - 0.10"
-Infiltrator = "1.8.0 - 1"
-Rasters = "0.13 - 0.14"
 julia = "1.10.0 - 1"
 
 ["0.10 - 0.10.3"]
@@ -33,34 +31,98 @@ JET = "0.9.18 - 0.9"
 JSON = "0.21.4 - 0.21"
 NCDatasets = "0.14.6 - 0.14"
 
-["0.10.4 - 0"]
-CFTime = "0.2.1 - 0.2"
+["0.10 - 0.12.4"]
+Infiltrator = "1.8.0 - 1"
+Rasters = "0.13 - 0.14"
 
 ["0.10.4 - 0.11"]
 CoordRefSystems = "0.16 - 0.18"
 
-["0.10.5 - 0"]
+["0.10.4 - 0.12.4"]
+CFTime = "0.2.1 - 0.2"
+
+["0.10.5 - 0.12.4"]
 DataStructures = "0.18 - 0.19"
 
-["0.10.6 - 0"]
+["0.10.6 - 0.12.4"]
 JLD2 = "0.4 - 0.6"
 
-["0.10.7 - 0"]
+["0.10.7 - 0.12.4"]
 Contour = "0.6"
 FFTW = "1"
 MLStyle = "0.4"
 
-["0.11.1 - 0"]
+["0.11.1 - 0.12.4"]
 CairoMakie = "0.15"
 JET = "0.9 - 0.10"
 JSON = ["0.21.4 - 0.21", "1"]
 NCDatasets = "0.14"
 Zygote = "0.7"
 
-["0.12 - 0"]
+["0.12 - 0.12.4"]
 CodecZlib = "0.7"
 CoordRefSystems = "0.16 - 0.19"
 NaNStatistics = "0.6"
+
+["0.12.5"]
+BenchmarkTools = "1.6.3 - 1"
+CFTime = "0.2.4 - 0.2"
+CairoMakie = "0.15.6 - 0.15"
+CodecZlib = "0.7.8 - 0.7"
+ComponentArrays = "0.15.30 - 0.15"
+Contour = "0.6.3 - 0.6"
+CoordRefSystems = ["0.18.10 - 0.18", "0.19.4 - 0.19"]
+DataStructures = "0.19.3 - 0.19"
+DateFormats = "0.1.19 - 0.1"
+DimensionalData = "0.29.25 - 0.29"
+FFTW = "1.10.0 - 1"
+GR = "0.73.18 - 0.73"
+HDF5 = "0.17.2 - 0.17"
+ImageCore = "0.10.5 - 0.10"
+ImageInTerminal = "0.5.4 - 0.5"
+Infiltrator = "1.9.4 - 1"
+JET = "0.9.18 - 0.10"
+JLD2 = ["0.5.15 - 0.5", "0.6.2 - 0.6"]
+JSON = ["0.21.4 - 0.21", "1.3.0 - 1"]
+MLStyle = "0.4.17 - 0.4"
+NCDatasets = "0.14.10 - 0.14"
+NaNStatistics = "0.6.54 - 0.6"
+Observables = "0.5.5 - 0.5"
+Rasters = "0.14.7 - 0.14"
+Revise = "3.7.5 - 3"
+Tar = "1.10.0 - 1"
+Unitful = "1.25.1 - 1"
+Zygote = "0.7.10 - 0.7"
+
+["0.12.6 - 0"]
+BenchmarkTools = "1"
+CFTime = "0.2.1 - 0.2"
+CairoMakie = "0.15"
+CodecZlib = "0.7"
+ComponentArrays = "0.15"
+Contour = "0.6"
+CoordRefSystems = "0.16 - 0.19"
+DataStructures = "0.18 - 0.19"
+DateFormats = "0.1"
+DimensionalData = "0.29"
+FFTW = "1"
+GR = "0.73"
+HDF5 = "0.17"
+ImageCore = "0.10"
+ImageInTerminal = "0.5"
+Infiltrator = "1.8.0 - 1"
+JET = "0.9 - 0.10"
+JLD2 = "0.4 - 0.6"
+JSON = ["0.21.4 - 0.21", "1"]
+MLStyle = "0.4"
+NCDatasets = "0.14"
+NaNStatistics = "0.6"
+Observables = "0.5"
+Rasters = "0.13 - 0.14"
+Revise = "3"
+Tar = "1"
+Unitful = "1"
+Zygote = "0.7"
 
 ["0.3.6 - 0"]
 Statistics = "1"
@@ -70,6 +132,8 @@ CairoMakie = "0.11"
 
 ["0.4 - 0"]
 Downloads = "1"
+
+["0.4 - 0.12.4"]
 HDF5 = "0.17"
 
 ["0.7"]
@@ -77,7 +141,7 @@ CairoMakie = "0.12.18-0.12"
 Rasters = "0.13"
 Tar = "1.10.0-1"
 
-["0.7 - 0"]
+["0.7 - 0.12.4"]
 ComponentArrays = "0.15"
 
 ["0.7 - 0.8"]
@@ -90,7 +154,7 @@ Infiltrator = "1.8.0-1"
 JSON = "0.21.4-0.21"
 NCDatasets = "0.14.6-0.14"
 
-["0.8 - 0"]
+["0.8 - 0.12.4"]
 Tar = "1"
 Unitful = "1"
 
@@ -105,22 +169,22 @@ CoordRefSystems = "0.16"
 ["0.9"]
 julia = "1.10.0-1"
 
-["0.9 - 0"]
+["0.9 - 0.12.4"]
 DateFormats = "0.1"
 GR = "0.73"
 
 ["0.9 - 0.9.2"]
 NetCDF = "0.12"
 
-["0.9.1 - 0"]
+["0.9.1 - 0.10.4"]
+DataStructures = "0.18"
+
+["0.9.1 - 0.12.4"]
 BenchmarkTools = "1"
 ImageCore = "0.10"
 ImageInTerminal = "0.5"
 
-["0.9.1 - 0.10.4"]
-DataStructures = "0.18"
-
-["0.9.3 - 0"]
+["0.9.3 - 0.12.4"]
 DimensionalData = "0.29"
 Observables = "0.5"
 

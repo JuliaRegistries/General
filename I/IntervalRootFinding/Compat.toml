@@ -63,7 +63,12 @@ StaticArrays = "1"
 BranchAndPrune = "0.2.1-0.2"
 IntervalArithmetic = "0.22.13-0.22"
 
+["0.6.1"]
+IntervalArithmetic = "0.22.13 - 0.23"
+
 ["0.6.1 - 0"]
 BranchAndPrune = "0.2.1 - 0.2"
 ForwardDiff = ["0.10", "1"]
-IntervalArithmetic = "0.22.13 - 0.23"
+
+["0.6.2 - 0"]
+IntervalArithmetic = ["0.22.13 - 0.23", "1"]
