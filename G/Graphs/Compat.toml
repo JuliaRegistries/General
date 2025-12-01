@@ -8,11 +8,11 @@ DataStructures = "0.9.0-0.18"
 ["0.10.1 - 0"]
 DataStructures = "0.14.0-0.18"
 
-[1]
-SimpleTraits = "0.9"
-
 ["1 - 1.13.0"]
 DataStructures = "0.17-0.18"
+
+["1 - 1.13.1"]
+SimpleTraits = "0.9"
 
 ["1 - 1.4.0"]
 ArnoldiMethod = "0.1"
@@ -29,15 +29,21 @@ Statistics = "1"
 ["1.13.0"]
 julia = "1.10.0-1"
 
-["1.13.1 - 1"]
+["1.13.1"]
 DataStructures = "0.17 - 0.19"
 Distributed = "1"
+SharedArrays = "1"
+
+["1.13.1 - 1"]
 Inflate = "0.1.3 - 0.1"
 LinearAlgebra = "1"
 Random = "1"
-SharedArrays = "1"
 SparseArrays = "1"
 julia = "1.10.0 - 1"
+
+["1.13.2 - 1"]
+DataStructures = "0.19"
+SimpleTraits = "0.9.1 - 0.9"
 
 ["1.4.1 - 1.9"]
 ArnoldiMethod = "0.1-0.2"
