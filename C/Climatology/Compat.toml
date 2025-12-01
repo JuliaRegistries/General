@@ -2,13 +2,15 @@
 DataDeps = "0.7"
 Dataverse = "0.2"
 Glob = "1"
-MeshArrays = "0.3"
 Scratch = "1"
 Statistics = "1"
 TOML = "1"
 
 ["0 - 0.5.14"]
 julia = "1.9.0-1"
+
+["0 - 0.5.16"]
+MeshArrays = "0.3"
 
 ["0 - 0.5.6"]
 JLD2 = "0.4"
@@ -23,6 +25,9 @@ STAC = "0.1"
 DataStructures = "0.18 - 0.19"
 JLD2 = "0.4 - 0.6"
 julia = "1.9.0 - 1"
+
+["0.5.17 - 0"]
+MeshArrays = "0.3 - 0.4"
 
 ["0.5.5 - 0"]
 DataFrames = "1"
