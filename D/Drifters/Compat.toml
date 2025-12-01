@@ -5,7 +5,6 @@ DataDeps = "0.7"
 DataFrames = "1"
 Dataverse = "0.2"
 Glob = "1"
-MeshArrays = "0.3"
 NetCDF = "0.12"
 OrdinaryDiffEq = "6"
 
@@ -13,6 +12,12 @@ OrdinaryDiffEq = "6"
 JLD2 = "0.5"
 julia = "1.10.0-1"
 
+["0 - 0.6.7"]
+MeshArrays = "0.3"
+
 ["0.6.7 - 0"]
 JLD2 = "0.5 - 0.6"
 julia = "1.10.0 - 1"
+
+["0.6.8 - 0"]
+MeshArrays = "0.3 - 0.4"
