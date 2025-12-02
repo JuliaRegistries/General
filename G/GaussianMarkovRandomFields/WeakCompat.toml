@@ -1,5 +1,4 @@
 [0]
-ForwardDiff = "0.10"
 Pardiso = "1"
 SparseDiffTools = "2"
 Symbolics = "5"
@@ -7,6 +6,9 @@ Zygote = "0.6"
 
 ["0 - 0.2"]
 Makie = "0.19"
+
+["0 - 0.8.1"]
+ForwardDiff = "0.10"
 
 ["0.3"]
 LDLFactorizations = "0.10"
@@ -25,3 +27,6 @@ StatsModels = "0.7"
 
 ["0.4.2 - 0"]
 Enzyme = "0.13"
+
+["0.8.2 - 0"]
+ForwardDiff = ["0.10", "1"]
