@@ -7,25 +7,27 @@ ComponentArrays = "0.15.28 - 0.15"
 DataFrameMacros = "0.4"
 DataFrames = "1"
 Downloads = "1.6.0 - 1"
-Flux = "0.16"
-ForwardDiff = "1.0.1 - 1"
-Lux = "1.12.4 - 1"
 LuxCore = "1.2.4 - 1"
-MLJ = "0.20"
 MLUtils = "0.4.8 - 0.4"
 NCDatasets = "0.14.8 - 0.14"
-Optimisers = "0.4.6 - 0.4"
 OptimizationOptimisers = "0.3.7 - 0.3"
-Printf = "1.10.0 - 1"
 ProgressMeter = "1.10.4 - 1"
 Reexport = "1.2.2 - 1"
-Statistics = "1.10.0 - 1"
 StyledStrings = "1.0.3 - 1"
 Zygote = "0.7.7 - 0.7"
-julia = "1.9.0 - 1"
 
 ["0 - 0.1.1"]
 JLD2 = "0.5.13 - 0.5"
+
+["0 - 0.1.6"]
+Flux = "0.16"
+ForwardDiff = "1.0.1 - 1"
+Lux = "1.12.4 - 1"
+MLJ = "0.20"
+Optimisers = "0.4.6 - 0.4"
+Printf = "1.10.0 - 1"
+Statistics = "1.10.0 - 1"
+julia = "1.9.0 - 1"
 
 ["0.1.2 - 0"]
 Hyperopt = "0.5.6 - 0.5"
@@ -33,3 +35,10 @@ JLD2 = "0.5.13 - 0.6"
 
 ["0.1.4 - 0"]
 DimensionalData = "0.29.24 - 0.29"
+
+["0.1.7 - 0"]
+ForwardDiff = "1"
+Lux = "1.21.1 - 1"
+MLJ = "0.20 - 0.22"
+PrettyTables = "3.1.2 - 3"
+julia = "1.10.0 - 1"

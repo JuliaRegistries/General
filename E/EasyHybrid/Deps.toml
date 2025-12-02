@@ -7,7 +7,6 @@ ComponentArrays = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
 DataFrameMacros = "75880514-38bc-4a95-a458-c2aea5a3a702"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
-Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
@@ -15,7 +14,6 @@ LuxCore = "bb33d45b-7691-41d6-9220-0943567d0623"
 MLJ = "add582a8-e3ab-11e8-2d5e-e98b27df1bc7"
 MLUtils = "f1d291b0-491e-4a28-83b9-f70985020b54"
 NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
-Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
 OptimizationOptimisers = "42dfb2eb-d2b4-4451-abcd-913932933ac1"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
@@ -25,8 +23,15 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StyledStrings = "f489334b-da3d-4c2e-b8f0-e476e12c162b"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
+["0 - 0.1.6"]
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
+
 ["0.1.2 - 0"]
 Hyperopt = "93e5fe13-2215-51db-baaf-2e9a34fb2712"
 
 ["0.1.4 - 0"]
 DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
+
+["0.1.7 - 0"]
+PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
