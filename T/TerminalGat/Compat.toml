@@ -1,15 +1,26 @@
 [0]
-IOCapture = "0.2"
 Markdown = "1"
+
+["0 - 0.1.0"]
+TerminalPager = "0.5"
+
+["0 - 0.1.6"]
+IOCapture = "0.2"
 gat_jll = "0.19.1-0.19"
 julia = "1.10.0-1"
 
-["0-0.1.0"]
-TerminalPager = "0.5"
-
-["0.1.1-0"]
+["0.1.1 - 0"]
 InteractiveUtils = "1"
+
+["0.1.1 - 0.1.6"]
 TerminalPager = "0.5-0.6"
 
-["0.1.4-0"]
+["0.1.4 - 0.1.6"]
 JLFzf = "0.1.9-0.1"
+
+["0.1.7 - 0"]
+IOCapture = ["0.2", "1"]
+JLFzf = "0.1.9 - 0.1"
+TerminalPager = "0.5 - 0.6"
+gat_jll = "0.19.1 - 0.19"
+julia = "1.10.0 - 1"
