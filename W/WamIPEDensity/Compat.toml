@@ -8,10 +8,16 @@ EzXML = "1.2.2 - 1"
 HTTP = "1.10.17 - 1"
 Interpolations = "0.16.2 - 0.16"
 Logging = "1.11.0 - 1"
-NCDatasets = "0.14.8 - 0.14"
 Printf = "1.11.0 - 1"
 Revise = "3.9.0 - 3"
 Serialization = "1.11.0 - 1"
 Statistics = "1.11.1 - 1"
 URIs = "1.6.1 - 1"
 julia = "1.11.0 - 1"
+
+["0 - 0.2.0"]
+NCDatasets = "0.14.8 - 0.14"
+
+["0.2.5 - 0"]
+CommonDataModel = "0.4.2 - 0.4"
+NCDatasets = "0.14.10 - 0.14"
