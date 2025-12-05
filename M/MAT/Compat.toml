@@ -24,7 +24,6 @@ julia = "1.6.0-1"
 HDF5 = "0.16-0.17"
 
 ["0.11 - 0"]
-BufferedStreams = ["0.4.1 - 0.4", "1"]
 CodecZlib = "0.5 - 0.7"
 Dates = "1"
 HDF5 = "0.16 - 0.17"
@@ -32,6 +31,12 @@ PooledArrays = "1.4.3 - 1"
 StringEncodings = "0.3.7 - 0.3"
 Tables = "1.12.1 - 1"
 julia = "1.6.0 - 1"
+
+["0.11 - 0.11.2"]
+BufferedStreams = ["0.4.1 - 0.4", "1"]
+
+["0.11.3 - 0"]
+OrderedCollections = "1"
 
 ["0.5.1 - 0.6"]
 BufferedStreams = "0.2.0-1"
