@@ -1,33 +1,44 @@
 [0]
+FieldMetadata = "bf96fef3-21d2-5d20-8afa-0e7d4c32a885"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
+
+["0 - 0.4.0"]
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+
+["0 - 1"]
 BasicModelInterface = "59605e27-edc0-445a-b93d-c09a3a50b330"
 CFTime = "179af706-886a-5703-950a-314cd64e0468"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
-FieldMetadata = "bf96fef3-21d2-5d20-8afa-0e7d4c32a885"
 NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
-UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
-["0-0.4.0"]
-LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
-
-["0.4.1-0"]
+["0.4.1 - 1"]
 Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 
-["0.5.2-0"]
+["0.5.2 - 1"]
 LoggingExtras = "e6f89c97-d47a-5376-807f-9c37f3926c36"
 TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
 
-["0.6-0.6.1"]
+["0.6 - 0.6.1"]
 NetCDF_jll = "7243133f-43d8-5620-bbf4-c2c921802cf3"
 
-["0.7-0"]
+["0.7 - 0"]
 IfElse = "615f187c-cbe4-4ef1-ba3b-2fcf58d6d173"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+
+["0.7 - 1"]
 Polyester = "f517fe37-dbe3-4b94-8317-1923a5111588"
+
+[1]
+Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
+CompositionsBase = "a33af91c-f02d-484b-be07-31d278c5ca2b"
+EnumX = "4e289a0a-7415-4d19-859d-a7e5c4648b56"
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+PropertyDicts = "f8a19df8-e894-5f55-a973-672c1158cbca"
