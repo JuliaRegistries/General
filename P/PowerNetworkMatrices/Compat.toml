@@ -33,16 +33,16 @@ InfrastructureSystems = "2"
 ["0.12"]
 MKL = "0.7"
 
-["0.12 - 0"]
-AppleAccelerate = "0.4"
-
 ["0.12 - 0.13"]
 PowerSystems = "4.5.0-4"
+
+["0.12 - 0.16"]
+AppleAccelerate = "0.4"
 
 ["0.13"]
 MKL = "0.8"
 
-["0.13 - 0"]
+["0.13 - 0.16"]
 Pardiso = "1"
 
 ["0.14"]
@@ -52,6 +52,8 @@ PowerSystems = "5"
 DataStructures = "0.19"
 DocStringExtensions = "0.8 - 0.9"
 InfrastructureSystems = "3"
+
+["0.14 - 0.16"]
 JSON3 = "1.14.1 - 1"
 MKL = "0.9"
 julia = "1.6.0 - 1"
@@ -61,6 +63,9 @@ PowerSystems = "5.2.0 - 5"
 
 ["0.16 - 0"]
 PowerSystems = "5.3.0 - 5"
+
+["0.17 - 0"]
+julia = "1.9.0 - 1"
 
 ["0.2 - 0.10.0"]
 KLU = "0.4"
