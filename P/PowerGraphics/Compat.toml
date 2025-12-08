@@ -1,38 +1,38 @@
-["0-0.1"]
+["0 - 0.1"]
 Colors = "0.11"
 GR = "0.47"
 ORCA = "0.3"
 PowerSystems = "0.11"
 WebIO = "0.8"
 
-["0-0.19"]
+["0 - 0.19"]
 julia = "1"
 
-["0-0.3"]
+["0 - 0.3"]
 PlotlyJS = "0.13"
 Weave = "0.9"
 
-["0-0.3.2"]
+["0 - 0.3.2"]
 InfrastructureSystems = "0.5"
 Plots = "0.29"
 RecipesBase = "0.8"
 
-["0-0.4"]
+["0 - 0.4"]
 DataFrames = "0.20"
 
-["0.11.2-0.11"]
+["0.11.2 - 0.11"]
 PowerSimulations = "0.14.4-0.14"
 
-["0.11.3-0.17"]
+["0.11.3 - 0.17"]
 TimeSeries = "0.23"
 
-["0.11.4-0.11"]
+["0.11.4 - 0.11"]
 CSV = "0.8-0.9"
 
 ["0.12"]
 PowerSimulations = "0.15"
 
-["0.12-0"]
+["0.12 - 0.20"]
 CSV = "0.9-0.10"
 
 ["0.13"]
@@ -41,7 +41,7 @@ PowerAnalytics = "0.2"
 ["0.14"]
 PowerAnalytics = "0.3"
 
-["0.14-0.15"]
+["0.14 - 0.15"]
 PowerSystems = "2"
 
 ["0.15"]
@@ -50,19 +50,19 @@ PowerAnalytics = "0.4"
 ["0.16"]
 PowerAnalytics = "0.5"
 
-["0.16-0.17"]
+["0.16 - 0.17"]
 PowerSystems = "3"
 
 ["0.17.0"]
 PowerAnalytics = "0.6"
 
-["0.17.1-0.17"]
+["0.17.1 - 0.17"]
 PowerAnalytics = "0.6.1-0.6"
 
 ["0.18"]
 PowerAnalytics = "0.7"
 
-["0.18-0"]
+["0.18 - 0.20"]
 InfrastructureSystems = "2"
 PowerSystems = "4"
 TimeSeries = "0.24"
@@ -70,28 +70,37 @@ TimeSeries = "0.24"
 ["0.19"]
 PowerAnalytics = "0.8"
 
-["0.2-0.3.1"]
+["0.2 - 0.3.1"]
 PowerSystems = "0.12"
 
-["0.2-0.3.2"]
+["0.2 - 0.3.2"]
 Colors = "0.11-0.12"
 GR = "0.47-0.48"
 
-["0.2-0.8.0"]
+["0.2 - 0.8.0"]
 Reexport = "0.2"
 
-["0.20-0"]
+["0.20"]
 PowerAnalytics = "1"
 julia = "1.10.0-1"
+
+["0.21 - 0"]
+CSV = "0.9 - 0.10"
+DataStructures = "0.18 - 0.19"
+InfrastructureSystems = "3"
+PowerAnalytics = "1.1.0 - 1"
+PowerSystems = "5"
+TimeSeries = "0.25"
+julia = "1.10.0 - 1"
 
 ["0.3.2"]
 PowerSystems = "0.13"
 
-["0.3.3-0"]
+["0.3.3 - 0"]
 Colors = "0.12"
 Plots = "1"
 
-["0.3.3-0.3"]
+["0.3.3 - 0.3"]
 GR = "0.48"
 InfrastructureSystems = "0.6"
 PowerSystems = "0.14"
@@ -100,22 +109,22 @@ RecipesBase = "1"
 ["0.4"]
 CSV = "0.6"
 
-["0.4-0"]
+["0.4 - 0"]
 Requires = "1"
 YAML = "0.4"
 
-["0.4-0.4.1"]
+["0.4 - 0.4.1"]
 InfrastructureSystems = "0.8"
 PowerSystems = "0.18"
 
-["0.4.2-0.4"]
+["0.4.2 - 0.4"]
 InfrastructureSystems = "0.9"
 PowerSystems = "0.19"
 
-["0.5-0.5.3"]
+["0.5 - 0.5.3"]
 TimeSeries = "0.18"
 
-["0.5-0.6.0"]
+["0.5 - 0.6.0"]
 CSV = "0.7"
 DataFrames = "0.21"
 
@@ -126,53 +135,53 @@ PowerSystems = "0.24"
 ["0.5.1"]
 PowerSystems = "0.25"
 
-["0.5.1-0.5"]
+["0.5.1 - 0.5"]
 InfrastructureSystems = "0.15"
 
 ["0.5.2"]
 PowerSystems = "0.26"
 
-["0.5.3-0.5"]
+["0.5.3 - 0.5"]
 PowerSystems = "0.28"
 
-["0.5.4-0.6.1"]
+["0.5.4 - 0.6.1"]
 TimeSeries = "0.19"
 
-["0.6-0.13"]
+["0.6 - 0.13"]
 PowerSystems = "1"
 
-["0.6-0.17"]
+["0.6 - 0.17"]
 InfrastructureSystems = "1"
 
-["0.6.1-0.11.3"]
+["0.6.1 - 0.11.3"]
 CSV = "0.8"
 
-["0.6.1-0.8"]
+["0.6.1 - 0.8"]
 DataFrames = "0.22"
 
-["0.6.2-0.8.0"]
+["0.6.2 - 0.8.0"]
 TimeSeries = "0.20"
 
 ["0.7"]
 PowerSimulations = "0.9"
 
-["0.7-0"]
+["0.7 - 0.20"]
 DataStructures = "0.18"
 
 ["0.8"]
 PowerSimulations = "0.12"
 
-["0.8.1-0"]
+["0.8.1 - 0"]
 Reexport = "1"
 
-["0.8.1-0.8.3"]
+["0.8.1 - 0.8.3"]
 TimeSeries = "0.21"
 
-["0.8.4-0.11.2"]
+["0.8.4 - 0.11.2"]
 TimeSeries = "0.22"
 
-["0.9-0"]
+["0.9 - 0"]
 DataFrames = "1"
 
-["0.9-0.11.1"]
+["0.9 - 0.11.1"]
 PowerSimulations = "0.14"
