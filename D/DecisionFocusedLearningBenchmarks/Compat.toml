@@ -29,12 +29,14 @@ Images = "0.26.1 - 0.26"
 Ipopt = "1.6.0 - 1"
 JuMP = "1.22.0 - 1"
 Metalhead = "0.9.4 - 0.9"
-Printf = "1.11.0 - 1"
 Requires = "1.3.0 - 1"
 SCIP = "0.12"
 SimpleWeightedGraphs = "1.4.0 - 1"
-Statistics = "1.11.1 - 1"
 StatsBase = "0.34.4 - 0.34"
+
+["0.2 - 0.3"]
+Printf = "1.11.0 - 1"
+Statistics = "1.11.1 - 1"
 julia = "1.6.0 - 1"
 
 ["0.2.3 - 0"]
@@ -47,3 +49,8 @@ FileIO = "1.17.0 - 1"
 InferOpt = "0.7"
 IterTools = "1.10.0 - 1"
 JSON = "0.21.4 - 0.21"
+
+["0.4 - 0"]
+Printf = "1"
+Statistics = "1"
+julia = "1.10.0 - 1"
