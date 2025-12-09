@@ -1,6 +1,13 @@
 [0]
+LibCURL_jll = "7.73.0-8"
+julia = "1.6.0-1"
+
+["0-0.8"]
 Artifacts = "1"
 JLLWrappers = "1.2.0-1"
-LibCURL_jll = "7.73.0-8"
 Libdl = "1"
-julia = "1.6.0-1"
+
+["0.9-0"]
+Artifacts = ["0.0.0", "1"]
+JLLWrappers = "1.7.0-1"
+Libdl = ["0.0.0", "1"]
