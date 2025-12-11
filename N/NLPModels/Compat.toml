@@ -17,14 +17,19 @@ LinearOperators = "1.1.0-1"
 ["0.17 - 0"]
 LinearOperators = "2"
 
+["0.21.5"]
+julia = "1.6.0-1"
+
 ["0.21.5 - 0"]
 FastClosures = "0.3"
 
-["0.21.5 - 0.21"]
-julia = "1.6.0-1"
-
-["0.22 - 0"]
+["0.21.6 - 0"]
 julia = "1.10.0 - 1"
+
+["0.21.6 - 0.21"]
+LinearAlgebra = "1.10.0 - 1"
+Printf = "1.10.0 - 1"
+SparseArrays = "1.10.0 - 1"
 
 ["0.6.1 - 0.21.4"]
 FastClosures = "0.2.1-0.3"
