@@ -59,11 +59,14 @@ StatsFuns = ["0.8 - 0.9", "1"]
 SuiteSparse = "1.8.0 - 1"
 julia = "1.10.0 - 1"
 
-["0.2 - 0"]
-TransformVariables = "0.8"
+["0.10.4 - 0"]
+TransformVariables = "0.8.19 - 0.8"
 
 ["0.2 - 0.10.1"]
 StatsBase = "0.33-0.34"
+
+["0.2 - 0.10.3"]
+TransformVariables = "0.8"
 
 ["0.2 - 0.3"]
 ComradeBase = "0.4"
