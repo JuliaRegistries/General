@@ -67,14 +67,20 @@ GeoStatsModels = "0.11"
 Distributed = "1.10.0 - 1"
 GeoStatsFunctions = "0.12"
 GeoStatsModels = "0.13"
-GeoTables = "1.25.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
 Random = "1.10.0 - 1"
 Statistics = "1.10.0 - 1"
 julia = "1.10.0 - 1"
 
-["0.12.1 - 0"]
+["0.12 - 0.12.5"]
+GeoTables = "1.25.0 - 1"
+
+["0.12.1 - 0.12.5"]
 Meshes = "0.55"
+
+["0.12.6 - 0"]
+GeoTables = "1.28.0 - 1"
+Meshes = "0.56"
 
 ["0.3.10 - 0.3"]
 Variography = "0.22"
