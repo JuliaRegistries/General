@@ -1,31 +1,33 @@
 [2]
 ArnoldiMethod = "0.4"
 Arpack = "0.5.3 - 0.5"
-BenchmarkTools = "1.5.0 - 1"
 Dierckx = "0.5.1 - 0.5"
-DispatchDoctor = "0.4.22 - 0.4"
-DocumenterTools = "0.1.20 - 0.1"
 FFTW = "1"
-FillArrays = "1.13.0 - 1"
-JLD2 = "0.4 - 0.5"
 KrylovKit = "0.9.5 - 0.9"
-LazyGrids = "1.1.0 - 1"
 LinearAlgebra = "1.6.0 - 1"
 LinearMaps = "3.11.3 - 3"
-ModelingToolkit = "9.79.1 - 10"
-NonlinearSolve = "4.8.5 - 4"
 Parameters = "0.12.1 - 0.12"
-Random = "1.6.0 - 1"
-Reexport = ["0.2", "1"]
 SparseMatrixDicts = "0.3"
-SpecialFunctions = "2.5.1 - 2"
 StaticArrays = ["0.12", "1"]
 Statistics = "1.6.0 - 1"
 ToeplitzMatrices = "0.8.4 - 0.8"
-Tullio = "0.3.6 - 0.3"
 VectorInterface = "0.5"
 julia = "1.10.0 - 1"
 
-["2.0.4 - 2"]
+["2 - 2.0.5"]
+BenchmarkTools = "1.5.0 - 1"
+DispatchDoctor = "0.4.22 - 0.4"
+DocumenterTools = "0.1.20 - 0.1"
+FillArrays = "1.13.0 - 1"
+JLD2 = "0.4 - 0.5"
+LazyGrids = "1.1.0 - 1"
+ModelingToolkit = "9.79.1 - 10"
+NonlinearSolve = "4.8.5 - 4"
+Random = "1.6.0 - 1"
+Reexport = ["0.2", "1"]
+SpecialFunctions = "2.5.1 - 2"
+Tullio = "0.3.6 - 0.3"
+
+["2.0.4 - 2.0.5"]
 Bibliography = "0.3"
 Trapz = "2.0.3 - 2"
