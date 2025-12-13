@@ -8,8 +8,13 @@ julia = "1.10.0 - 1"
 
 ["0.1.1 - 0"]
 BaseType = "0.2"
-ConstructionBase = "1.6.0 - 1"
 Distributions = "0.25"
 Random = "1"
 SpecialFunctions = "2"
 Unitful = "1"
+
+["0.1.1 - 0.1"]
+ConstructionBase = "1.6.0 - 1"
+
+["0.2 - 0"]
+ConstructionBase = "1"
