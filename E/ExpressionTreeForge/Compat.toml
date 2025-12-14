@@ -42,13 +42,21 @@ NLPModelsJuMP = "0.11.1-0.13.0"
 ADNLPModels = "0.4.0-0.8"
 
 ["0.2 - 0"]
-JuMP = "1"
 MathOptInterface = "1"
+
+["0.2 - 0.3.0"]
+JuMP = "1"
 NLPModelsJuMP = "0.13"
 
 ["0.3 - 0"]
-ADNLPModels = "0.8"
 ForwardDiff = ["0.10", "1"]
 ReverseDiff = "1.14.0 - 1"
-Symbolics = "5 - 6"
 julia = "1.10.0 - 1"
+
+["0.3.0"]
+ADNLPModels = "0.8"
+Symbolics = "5 - 6"
+
+["0.3.1 - 0"]
+LinearAlgebra = "1.10.0 - 1"
+SparseArrays = "1.10.0 - 1"
