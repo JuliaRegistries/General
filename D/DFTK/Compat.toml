@@ -384,12 +384,14 @@ Interpolations = "0.14 - 0.16"
 Libxc = "0.3.17 - 0.3"
 MPI = "0.20.22 - 0.20"
 Polynomials = "3 - 4"
-Spglib = "0.9.4 - 0.9"
 TimerOutputs = "0.5.29 - 0.5"
 julia = "1.10.0 - 1"
 
 ["0.7.15 - 0.7.16"]
 KrylovKit = "0.8.3 - 0.9"
+
+["0.7.15 - 0.7.18"]
+Spglib = "0.9.4 - 0.9"
 
 ["0.7.16 - 0"]
 PseudoPotentialData = "0.2.4 - 0.2"
@@ -397,11 +399,15 @@ PseudoPotentialData = "0.2.4 - 0.2"
 ["0.7.17 - 0"]
 KrylovKit = "0.8.3 - 0.10"
 
-["0.7.3 - 0"]
-AtomsBase = "0.5"
+["0.7.19 - 0"]
+AtomsBase = "0.5.2 - 0.5"
+Spglib = ["0.9.4 - 0.9", "1"]
 
 ["0.7.3 - 0.7.14"]
 AtomsCalculators = "0.2.3-0.2"
+
+["0.7.3 - 0.7.18"]
+AtomsBase = "0.5"
 
 ["0.7.6 - 0.7.7"]
 KrylovKit = "0.8.3-0.8"

@@ -15,8 +15,8 @@ ImageCore = "0.8"
 ["0 - 0.5"]
 Statistics = "1"
 
-["0 - 0.7.2"]
-julia = "1"
+["0 - 0.9.4"]
+julia = "1.0.0-1.10"
 
 ["0.2"]
 Interpolations = "0.12-0.13"
@@ -68,14 +68,12 @@ OpenCV_jll = "4.10.0-4"
 PythonCall = "0.9"
 Random = "1.10.0-1"
 StructTypes = "1.11.0-1"
-julia = "1.10.0-1"
 
 ["0.9 - 0"]
 ImageTransformations = "0.9 - 0.10"
 OhMyThreads = "0.7 - 0.8"
 Polynomials = "3 - 4"
 Random = "1.10.0 - 1"
-julia = "1.10.0 - 1"
 
 ["0.9 - 0.9.2"]
 ImageBase = "0.1.7 - 0.1"
@@ -87,9 +85,15 @@ StructTypes = "1.11.0 - 1"
 MAT = "0.10.7 - 0.10"
 Optim = "1.13.2 - 1"
 
+["0.9.4"]
+MAT = "0.10"
+
 ["0.9.4 - 0"]
 ImageBase = "0.1"
 JSON = "1.2.0 - 1"
-MAT = "0.10"
 OpenCV = "4.6.0 - 4"
 Optim = "1.13.0 - 1"
+
+["0.9.5 - 0"]
+MAT = "0.10 - 0.11"
+julia = "1.10"

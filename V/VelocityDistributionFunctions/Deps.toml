@@ -1,6 +1,16 @@
 [0]
 Bumper = "8ce10254-0962-460f-a3d8-1f77fea1446e"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
+
+["0 - 0.2.0"]
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+
+["0.1.1 - 0"]
+BaseType = "7fbed51b-1ef5-4d67-9085-a4a9b26f478c"
+ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"

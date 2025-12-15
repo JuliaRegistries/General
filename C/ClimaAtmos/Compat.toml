@@ -423,11 +423,13 @@ UnrolledUtilities = "0.1.6 - 0.1"
 
 ["0.30.3 - 0"]
 AtmosphericProfilesLibrary = "0.1.7 - 0.1"
-ClimaDiagnostics = "0.2.12 - 0.2"
 ClimaTimeSteppers = "0.8.2 - 0.8"
 Interpolations = "0.15.1 - 0.16"
 NCDatasets = "0.14.2 - 0.14"
 julia = "1.9.0 - 1"
+
+["0.30.3 - 0.31"]
+ClimaDiagnostics = "0.2.12 - 0.2"
 
 ["0.30.3 - 0.31.0"]
 ClimaUtilities = "0.1.22 - 0.1"
@@ -471,10 +473,12 @@ Thermodynamics = "0.12.14 - 0.13"
 
 ["0.31.1 - 0"]
 ClimaComms = "0.6.9 - 0.6"
-ClimaCore = "0.14.37 - 0.14"
-ClimaUtilities = "0.1.23 - 0.1"
 SparseMatrixColorings = "0.4.20 - 0.4"
 StaticArrays = "1.9.0 - 1"
+
+["0.31.1 - 0.31"]
+ClimaCore = "0.14.37 - 0.14"
+ClimaUtilities = "0.1.23 - 0.1"
 
 ["0.31.2"]
 ClimaParams = "0.11.1 - 0.11"
@@ -514,13 +518,23 @@ ClimaParams = "1"
 ["0.31.6"]
 CloudMicrophysics = "0.28"
 
-["0.31.6 - 0"]
+["0.31.6 - 0.31"]
 SurfaceFluxes = "0.12.3 - 0.13"
 Thermodynamics = "0.14.1 - 0.15"
 
 ["0.31.7 - 0"]
-ClimaParams = "1.0.2 - 1"
 CloudMicrophysics = "0.28 - 0.29"
+
+["0.31.7 - 0.31"]
+ClimaParams = "1.0.2 - 1"
+
+["0.32 - 0"]
+ClimaCore = "0.14.43 - 0.14"
+ClimaDiagnostics = "0.2.13 - 0.2"
+ClimaParams = "1.0.7 - 1"
+ClimaUtilities = "0.1.27 - 0.1"
+SurfaceFluxes = "0.14.1 - 0.14"
+Thermodynamics = "0.14.2 - 0.15"
 
 ["0.4"]
 CloudMicrophysics = "0.8"

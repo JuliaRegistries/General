@@ -65,12 +65,14 @@ HDF5 = "0.16"
 ["0.5.2 - 0"]
 PowerSystems = "1.24.0-1"
 
+[1]
+PrettyTables = "2"
+
 ["1 - 1.1"]
 PowerSystems = "2"
 
 ["1 - 2"]
 LazyArtifacts = "1"
-PrettyTables = "2"
 
 ["1.0.4 - 1.2"]
 InfrastructureSystems = "1.21.0-1"
@@ -109,12 +111,20 @@ PowerSystems = "4.1.1-4"
 DataStructures = "0.18 - 0.19"
 DocStringExtensions = "0.9.3 - 0.9"
 Downloads = "1.6.0 - 1"
-InfrastructureSystems = "3"
 TimeSeries = "0.24 - 0.25"
 julia = "1.6.0 - 1"
+
+["2.0"]
+InfrastructureSystems = "3"
+PrettyTables = "2"
 
 ["2.0.0"]
 PowerSystems = "5"
 
-["2.0.1 - 2"]
+["2.0.1 - 2.0"]
 PowerSystems = "5.0.1 - 5"
+
+["2.1 - 2"]
+InfrastructureSystems = "3.1.0 - 3"
+PowerSystems = "5"
+PrettyTables = ["2.4.0 - 2", "3.1.0 - 3"]

@@ -14,6 +14,8 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0 - 1.6"]
 SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 
@@ -29,5 +31,13 @@ TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 ["1.5 - 1"]
 BlockArrays = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
 ChunkSplitters = "ae650224-84b6-46f8-82ea-d812ca08434e"
-FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["1.5 - 1.7.1"]
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+
+["1.7 - 1"]
+ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
+DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
+SparseConnectivityTracer = "9f842d2f-2579-4b1d-911e-f412cf18a3f5"
+SparseMatrixColorings = "0a514795-09f3-496d-8182-132a7b665d35"

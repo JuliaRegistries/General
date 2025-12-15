@@ -38,10 +38,18 @@ ADTypes = ["0.2", "1"]
 AdvancedHMC = "0.5 - 0.8"
 HDF5 = "0.15 - 0.17"
 MGVI = "0.4"
-Optimization = "3 - 4"
 
 ["4 - 4.0.3"]
 Optim = ["0.19 - 0.22", "1"]
 
+["4 - 4.0.4"]
+Optimization = "3 - 4"
+
 ["4.0.4 - 4"]
 Optim = "1.12.0 - 1"
+
+["4.0.5"]
+OptimizationBase = "3.3.0 - 3"
+
+["4.0.6 - 4"]
+OptimizationBase = "3.3.0 - 4"

@@ -1,4 +1,4 @@
-["10-10.3.0"]
+["10 - 10.3.0"]
 AbstractAlgebra = "0.21-0.22"
 
 ["10.0"]
@@ -6,128 +6,130 @@ LightGraphs = "1.3.0-1"
 ModelingToolkit = "6.3.0-6"
 Symbolics = "3"
 
-["10.1-10.2"]
+["10.1 - 10.2"]
 ModelingToolkit = "6.3.0-7"
 
-["10.1-12.1.1"]
+["10.1 - 12.1.1"]
 Symbolics = "3-4"
 
-["10.1-15"]
+["10.1 - 15.0.8"]
 Graphs = "1.4.0-1"
 
-["10.2-11"]
+["10.2 - 11"]
 DiffEqJump = "7-8"
 
-["10.3-12.1.1"]
+["10.3 - 12.1.1"]
 ModelingToolkit = "6.3.0-8"
 
-["10.3-13"]
+["10.3 - 13"]
 julia = "1.6.0-1"
 
-["10.3.1-10.5.0"]
+["10.3.1 - 10.5.0"]
 AbstractAlgebra = "0.21-0.23"
 
-["10.5.1-10.6"]
+["10.5.1 - 10.6"]
 AbstractAlgebra = "0.21-0.24"
 
-["10.7-10"]
+["10.7 - 10"]
 AbstractAlgebra = "0.21-0.25"
 
-["10.7-15"]
+["10.7 - 15.0.8"]
 LaTeXStrings = "1.3.0-1"
 
-[11-15]
+["11 - 15.0.8"]
 DocStringExtensions = "0.8-0.9"
 
 ["12.0"]
 DiffEqJump = "7-8"
 
-["12.1-12"]
+["12.1 - 12"]
 JumpProcesses = "9"
 
-["12.1.2-12"]
+["12.1.2 - 12"]
 ModelingToolkit = "8.15.1-8"
 Symbolics = "4.5.0-4"
 
-["12.1.2-14"]
+["12.1.2 - 14"]
 DiffEqBase = "6.83.0-6"
 
 [13]
 SymbolicUtils = "1.0.3-1"
 Symbolics = "5.0.3-5"
 
-["13-13.3"]
+["13 - 13.3"]
 ModelingToolkit = "8.47.0-8"
 
-["13-14.1"]
+["13 - 14.1"]
 JumpProcesses = "9.3.2-9"
 
-["13.1-15"]
+["13.1 - 15.0.8"]
 Unitful = "1.12.4-1"
 
-["13.3-14.1"]
+["13.3 - 14.1"]
 Latexify = "0.14-0.16"
 
-["13.4-13"]
+["13.4 - 13"]
 ModelingToolkit = "8.66.0-8"
 
-["14-14.1"]
+["14 - 14.1"]
 ModelingToolkit = "9.16.0-9"
 
-["14-14.3"]
+["14 - 14.3"]
 DynamicPolynomials = "0.5"
 Symbolics = "5.30.1-5"
 
-["14-14.4.0"]
+["14 - 14.4.0"]
 DynamicQuantities = "0.13.2-0.13"
 
-[14-15]
+["14 - 15"]
+Setfield = "1"
+
+["14 - 15.0.8"]
 Combinatorics = "1.0.2-1"
 RuntimeGeneratedFunctions = "0.5.12-0.5"
-Setfield = "1"
 julia = "1.10.0-1"
 
 ["14.2"]
 JumpProcesses = "9.13.1-9"
 ModelingToolkit = "9.30.1-9"
 
-["14.2-14"]
+["14.2 - 14"]
 Latexify = "0.16.5-0.16"
 SciMLBase = "2.46.0-2"
 
-["14.3-14"]
+["14.3 - 14"]
 ModelingToolkit = "9.32.0-9"
 
-["14.3-15"]
+["14.3 - 15.0.8"]
 JumpProcesses = "9.13.2-9"
 
-["14.3.2-14.3"]
+["14.3.2 - 14.3"]
 SymbolicUtils = "2.1.2-2"
 
-["14.4-14"]
+["14.4 - 14"]
 DynamicPolynomials = "0.5-0.6"
 SymbolicUtils = ["2.1.2-2", "3.3.0-3"]
 Symbolics = "5.30.1-6"
 
-["14.4.1-14"]
+["14.4.1 - 14"]
 DynamicQuantities = ["0.13.2-0.13", "1"]
 
-[15]
+["15 - 15.0.1"]
+ModelingToolkit = "9.72.0"
+SciMLBase = "2.84.0"
+
+["15 - 15.0.8"]
 DiffEqBase = "6.165.0-6"
 Latexify = "0.16.6-0.16"
 SymbolicUtils = "3.20.0-3"
 Symbolics = "6.31.1-6"
-
-["15-15.0.1"]
-ModelingToolkit = "9.72.0"
-SciMLBase = "2.84.0"
 
 ["15.0.0"]
 DynamicPolynomials = "0.5-0.6"
 DynamicQuantities = ["0.13.2-0.13", "1"]
 Reexport = ["0.2", "1"]
 
-["15.0.1-15"]
+["15.0.1 - 15"]
 DynamicPolynomials = "0.6"
 DynamicQuantities = "1"
 EnumX = "1"
@@ -136,7 +138,7 @@ Reexport = "1"
 ["15.0.2"]
 ModelingToolkit = "9.73.0"
 
-["15.0.2-15.0.4"]
+["15.0.2 - 15.0.4"]
 SciMLBase = "2.84-2.85.0"
 
 ["15.0.3"]
@@ -152,73 +154,91 @@ SciMLBase = "2.84-2.88.0"
 ["15.0.6"]
 SciMLBase = "2.84-2.89.1"
 
-["15.0.6-15"]
+["15.0.6 - 15.0.8"]
 ModelingToolkit = "9.73.0-9"
 
 ["15.0.7"]
 SciMLBase = "2.84-2.96.0"
 
-["15.0.8-15"]
+["15.0.8"]
 SciMLBase = "2.84.0-2"
+
+["15.0.9 - 15"]
+Combinatorics = "1.0.2 - 1"
+DataStructures = "0.18 - 0.19"
+DiffEqBase = "6.165.0 - 6"
+DocStringExtensions = "0.8 - 0.9"
+Graphs = "1.4.0 - 1"
+JumpProcesses = "9.19.2 - 9"
+LaTeXStrings = "1.3.0 - 1"
+Latexify = "0.16.6 - 0.16"
+MacroTools = "0.5.5 - 0.5"
+ModelingToolkit = "9.73.0 - 9"
+RuntimeGeneratedFunctions = "0.5.12 - 0.5"
+SciMLBase = "2.84.0 - 2"
+SymbolicUtils = "3.20.0 - 3"
+Symbolics = "6.31.1 - 6"
+Unitful = "1.12.4 - 1"
+julia = "1.10.0 - 1"
 
 [5]
 Reexport = "0.2"
 
-["5-5.0.3"]
+["5 - 5.0.3"]
 MacroTools = "0.5"
 
-["5-6.11"]
+["5 - 6.11"]
 julia = "1.3.0-1"
 
 ["5.0.0"]
 ModelingToolkit = "3.13.0-3"
 
-["5.0.1-5.0.3"]
+["5.0.1 - 5.0.3"]
 ModelingToolkit = "3.14.0-3"
 
-["5.0.1-5.0.5"]
+["5.0.1 - 5.0.5"]
 Latexify = "0.13.5-0.13"
 
-["5.0.2-5.0.3"]
+["5.0.2 - 5.0.3"]
 Catlab = "0.7.2-0.7"
 
-["5.0.4-15"]
+["5.0.4 - 15.0.8"]
 MacroTools = "0.5.5-0.5"
 
-["5.0.4-5"]
+["5.0.4 - 5"]
 ModelingToolkit = "3.14.2-3"
 
-["5.0.4-5.0"]
+["5.0.4 - 5.0"]
 Catlab = "0.7.3-0.7"
 
-["5.0.6-6.4"]
+["5.0.6 - 6.4"]
 Latexify = "0.13.5-0.14"
 
 ["5.1.0"]
 Catlab = "0.7.3-0.8"
 
-["5.1.1-6.1"]
+["5.1.1 - 6.1"]
 Catlab = "0.7.3-0.9"
 
-["6-6.2"]
+["6 - 6.2"]
 ModelingToolkit = "4.0.1-4"
 
 ["6.0"]
 Reexport = "0.2"
 
-["6.1-6.4"]
+["6.1 - 6.4"]
 Reexport = ["0.2", "1"]
 
-["6.10-6.11"]
+["6.10 - 6.11"]
 ModelingToolkit = "5.13.0-5"
 
 ["6.12"]
 ModelingToolkit = "5.14.0-5"
 
-["6.12-10.2"]
+["6.12 - 10.2"]
 julia = "1.5.0-1"
 
-["6.12-13.2"]
+["6.12 - 13.2"]
 Latexify = "0.14-0.15"
 
 ["6.13"]
@@ -226,18 +246,18 @@ AbstractAlgebra = "0.17"
 ModelingToolkit = "5.15.0-5"
 Symbolics = "0.1.22-0.1"
 
-["6.14-7"]
+["6.14 - 7"]
 AbstractAlgebra = ["0.17", "0.19"]
 ModelingToolkit = "5.21.0-5"
 Symbolics = ["0.1.22-0.1", "1"]
 
-["6.2-6.4"]
+["6.2 - 6.4"]
 Catlab = "0.7.3-0.10"
 
 ["6.3.0"]
 ModelingToolkit = "4.4.0-4"
 
-["6.3.1-6.3"]
+["6.3.1 - 6.3"]
 ModelingToolkit = "4.4.1-4"
 
 ["6.4"]
@@ -246,43 +266,45 @@ ModelingToolkit = "5"
 ["6.5"]
 Reexport = "1"
 
-["6.5-6.11"]
+["6.5 - 6.11"]
 Latexify = "0.14"
 
-["6.5-6.6"]
+["6.5 - 6.6"]
 ModelingToolkit = "5.4.0-5"
 
-["6.6-14"]
+["6.6 - 14"]
 Reexport = ["0.2", "1"]
 
-["6.7-6.8"]
+["6.7 - 6.8"]
 ModelingToolkit = "5.6.1-5"
 
-["6.8-15"]
-DataStructures = "0.18"
+["6.8 - 15"]
 Parameters = "0.12"
+
+["6.8 - 15.0.8"]
+DataStructures = "0.18"
 
 ["6.9"]
 ModelingToolkit = "5.12.0-5"
 
-["6.9.1-10"]
+["6.9.1 - 10"]
 DocStringExtensions = "0.8"
 
-["6.9.1-15"]
+["6.9.1 - 15"]
 Requires = "1"
 
-["8-10.1"]
+["8 - 10.1"]
 DiffEqJump = "7"
 
-["8-12.1.1"]
+["8 - 12.1.1"]
 DiffEqBase = "6.54.0-6"
 
-["8-8.1"]
+["8 - 8.1"]
 ModelingToolkit = "6.2.0-6"
 
-[8-9]
+["8 - 9"]
 AbstractAlgebra = ["0.19", "0.21"]
 Symbolics = "3"
 
-["8.2-9"]
+["8.2 - 9"]
 ModelingToolkit = "6.3.0-6"

@@ -26,7 +26,7 @@ julia = "1.10.0-1"
 ["0.2.2 - 0.6.0"]
 RecipesBase = "1.3.0-1"
 
-["0.3 - 0"]
+["0.3 - 0.6"]
 CTBase = "0.16"
 
 ["0.3 - 0.6.0"]
@@ -49,3 +49,11 @@ PrettyTables = "2"
 ["0.6.4 - 0"]
 OrderedCollections = "1"
 RecipesBase = "1"
+
+["0.7 - 0"]
+ADNLPModels = "0.8"
+CTBase = "0.17"
+ExaModels = "0.9"
+KernelAbstractions = "0.9"
+NLPModels = "0.21"
+SolverCore = "0.3"

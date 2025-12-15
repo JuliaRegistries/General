@@ -1,30 +1,41 @@
 [0]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 HaltonSequences = "13907d55-377f-55d6-a9d6-25ac19e11b95"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0.1.1-0"]
+["0 - 0.4"]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.1.1 - 0.2"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.1.1 - 0.4"]
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 SliceMap = "82cb661a-3f19-5665-9e27-df437c7e54c8"
 
-["0.1.1-0.2"]
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
-
-["0.2-0"]
+["0.2 - 0"]
 HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
-["0.4-0"]
+["0.4"]
 Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
+Term = "22787eb5-b846-44ae-b979-8e399b8463ab"
+
+["0.4 - 0"]
 DelaunayTriangulation = "927a84f5-c5f4-47a5-9785-b46e178433df"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
-GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
 GeometryOps = "3251bfac-6a57-4b6d-aa61-ac1fef2975ab"
 MultivariateStats = "6f286f6a-111f-5878-ab1e-185364afe411"
 SpeciesDistributionToolkit = "72b53823-5c0b-4575-ad0e-8e97227ad13b"
-Term = "22787eb5-b846-44ae-b979-8e399b8463ab"
 TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
+
+["0.5 - 0"]
+Extents = "411431e0-e8b7-467b-b5e0-f676ba4f2910"
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
+SimpleSDMLayers = "2c645270-77db-11e9-22c3-0f302a89c64c"
+SimpleSDMPolygons = "dd4c243c-bc7b-45f6-b2b3-6bd128d3a12b"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
