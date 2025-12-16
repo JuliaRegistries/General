@@ -1,11 +1,11 @@
 [0]
 DocumenterTools = "0.1"
 
-["0-0.2"]
+["0 - 0.2"]
 SPHKernels = "1.2.0-1"
 TriangularShapedCloudInterpolation = "0.1"
 
-["0-0.3"]
+["0 - 0.3"]
 DelimitedFiles = "1.4.0-1"
 Documenter = "0.25"
 FITSIO = "0.16"
@@ -13,10 +13,10 @@ ProgressMeter = "1.3.0-1"
 Unitful = "1.3.0-1"
 julia = "1.4.0-1"
 
-["0.2.2-0.2.4"]
+["0.2.2 - 0.2.4"]
 SpecialFunctions = "0.10"
 
-["0.2.5-0.3"]
+["0.2.5 - 0.3"]
 SpecialFunctions = ["0.10", "1"]
 
 ["0.3"]
@@ -26,52 +26,65 @@ TriangularShapedCloudInterpolation = "0.2"
 ["0.4"]
 GadgetIO = "0.5-0.7"
 
-["0.4-0"]
+["0.4 - 0"]
 Cosmology = "1"
-FITSIO = "0.16-0.17"
 Healpix = "4"
 ProgressMeter = "1"
 QuadGK = "2"
 Rotations = "1"
 SPHKernels = "2"
-SpecialFunctions = ["0.1", "1-2"]
 Unitful = "1"
-julia = "1.7.0-1"
 
-["0.4-0.4.2"]
+["0.4 - 0.4.2"]
 DelimitedFiles = "1.7.0-1"
 GadgetUnits = "0.2-0.3"
 SnoopPrecompile = "1-2"
 
-["0.4-0.4.5"]
+["0.4 - 0.4.5"]
 Documenter = "0.25-0.27"
 Statistics = "1.7.0-1"
 
-["0.4.3-0"]
+["0.4 - 0.5.2"]
+FITSIO = "0.16-0.17"
+SpecialFunctions = ["0.1", "1-2"]
+julia = "1.7.0-1"
+
+["0.4.3 - 0"]
 DelimitedFiles = "1"
 PrecompileTools = "1"
 
-["0.4.3-0.4.4"]
+["0.4.3 - 0.4.4"]
 GadgetUnits = "0.2-0.4"
 
-["0.4.4-0"]
+["0.4.4 - 0"]
 DiffusiveShockAccelerationModels = "0.1"
 SynchrotronKernel = "0.2"
 
 ["0.4.5"]
 GadgetUnits = "0.2-0.5"
 
-["0.4.6-0"]
+["0.4.6 - 0"]
 Distances = "0.10"
-Documenter = ["0.25-0.27", "1"]
 Downloads = "1"
-GadgetUnits = "0.2-0.6"
-Interpolations = "0.15"
 NearestNeighbors = "0.4"
 Statistics = "1"
 
-["0.5-0"]
+["0.4.6 - 0.5.2"]
+Documenter = ["0.25-0.27", "1"]
+GadgetUnits = "0.2-0.6"
+Interpolations = "0.15"
+
+["0.5 - 0.5.2"]
 GadgetIO = "0.5-0.8"
 
-["0.5.1-0"]
+["0.5.1 - 0"]
 WriteVTK = "1"
+
+["0.5.3 - 0"]
+Documenter = ["0.25 - 0.27", "1"]
+FITSIO = "0.16 - 0.17"
+GadgetIO = "0.5 - 0.8"
+GadgetUnits = "0.2 - 0.6"
+Interpolations = "0.15 - 0.16"
+SpecialFunctions = ["0.1", "1 - 2"]
+julia = "1.7.0 - 1"
