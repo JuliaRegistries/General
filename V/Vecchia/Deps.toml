@@ -1,8 +1,10 @@
 [0]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0 - 0.10"]
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 
 ["0 - 0.4.0"]
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
@@ -19,8 +21,10 @@ AdaptiveKDTrees = "68d1b5e8-2215-47d8-a76e-d1727e222b22"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 ["0.10.3 - 0"]
-Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
 HNSW = "540f64fa-c57e-11e8-081c-41422cda4629"
+
+["0.10.3 - 0.10"]
+Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
 
 ["0.10.4 - 0"]
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
