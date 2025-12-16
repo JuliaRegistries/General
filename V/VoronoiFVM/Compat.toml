@@ -370,7 +370,6 @@ ForwardDiff = ["0.10.35 - 0.10", "1"]
 GridVisualize = ["0.5.2 - 0.5", "0.6.1 - 0.6", "1"]
 InteractiveUtils = "1.9.0 - 1"
 LinearAlgebra = "1.9.0 - 1"
-LinearSolve = ["2.36.0 - 2", "3.3.0 - 3"]
 Printf = "1.9.0 - 1"
 Random = "1.9.0 - 1"
 RecursiveArrayTools = "2 - 3"
@@ -385,6 +384,9 @@ julia = "1.9.0 - 1"
 ["2.12.1 - 2.12"]
 JLD2 = "0.4.29 - 0.5"
 
+["2.12.1 - 2.14"]
+LinearSolve = ["2.36.0 - 2", "3.3.0 - 3"]
+
 ["2.12.2 - 2"]
 SparseConnectivityTracer = ["0.6.17 - 0.6", "1"]
 
@@ -393,6 +395,10 @@ JLD2 = "0.4.29 - 0.6"
 
 ["2.14.1"]
 IntervalSets = "0.0.0 - 0.7.11"
+
+["2.15 - 2"]
+LinearSolve = "3.52.0 - 3"
+SciMLOperators = "1.14.0 - 1"
 
 ["2.4 - 2.12.0"]
 ExtendableSparse = "1.6.0-1"
