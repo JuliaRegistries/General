@@ -121,9 +121,11 @@ Pathfinder = "0.9"
 [5]
 Bijectors = "0.14"
 
+["5 - 6"]
+Optimization = "4"
+
 ["5 - 7"]
 Bumper = "0.7"
-Optimization = "4"
 OptimizationOptimJL = "0.4"
 
 ["5.0"]
@@ -134,11 +136,11 @@ UnPack = "1"
 [6]
 AdvancedHMC = "0.6-0.7"
 Bijectors = "0.14-0.15"
+DifferentiationInterface = "0.6"
 LinearSolve = "2-3"
 
 ["6 - 7"]
 Combinatorics = "1"
-DifferentiationInterface = "0.6"
 OptimizationBBO = "0.4"
 PlanetOrbits = "0.11"
 
@@ -160,3 +162,11 @@ StatsBase = "0.33 - 0.34"
 Tables = "1.6.0 - 1"
 TypedTables = "1.4.0 - 1"
 julia = "1.9.0 - 1"
+
+["7.0.0"]
+DifferentiationInterface = "0.6"
+Optimization = "4"
+
+["7.0.1 - 7"]
+DifferentiationInterface = "0.6 - 0.7"
+Optimization = "4 - 5"
