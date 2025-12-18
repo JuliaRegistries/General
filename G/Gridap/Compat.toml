@@ -106,7 +106,6 @@ Test = "1"
 
 ["0.18.8 - 0"]
 BlockArrays = "1"
-JLD2 = "0.5"
 
 ["0.18.8 - 0.18"]
 ForwardDiff = "0.10.14-0.10"
@@ -122,6 +121,9 @@ PolynomialBases = "0.4.13-0.4"
 QuadGK = "2.4.0-2"
 StaticArrays = "1.4.0-1"
 WriteVTK = "1.21.1-1"
+
+["0.18.8 - 0.19.6"]
+JLD2 = "0.5"
 
 ["0.19 - 0.19.1"]
 ForwardDiff = ["0.10.14-0.10", "1"]
@@ -152,6 +154,10 @@ DataStructures = "0.18.13 - 0.18"
 ["0.19.4 - 0"]
 DataStructures = "0.18.13 - 0.19"
 
+["0.19.7 - 0"]
+JLD2 = "0.5 - 0.6"
+JSON = ["0.21", "1"]
+
 ["0.2"]
 TensorPolynomialBases = "0.1.1-0.1"
 TensorValues = "0.3.2-0.3"
@@ -174,7 +180,7 @@ FastGaussQuadrature = "0.3.3-0.3"
 QuadGK = "2.1.0-2"
 StaticArrays = "0.10.3-0.10"
 
-["0.4 - 0"]
+["0.4 - 0.19.6"]
 JSON = "0.21"
 
 ["0.4 - 0.5"]
