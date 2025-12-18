@@ -1,11 +1,11 @@
 [0]
 StaticArrays = "1"
 
-["0-0.1"]
+["0 - 0.1"]
 ReferenceFrameRotations = "1"
 SatelliteToolbox = "0.9"
 
-["0-0.3.0"]
+["0 - 0.3.0"]
 julia = "1"
 
 ["0.2"]
@@ -15,33 +15,44 @@ SatelliteToolbox = "0.10"
 Statistics = "1"
 TerminalPager = "0.4"
 
-["0.2-0"]
+["0.2 - 0"]
 DataFrames = "1"
 
-["0.3-0"]
+["0.3 - 0"]
 PrettyNumbers = "0.2"
 Reexport = "1"
 ReferenceFrameRotations = "3"
 
-["0.3-0.3.7"]
+["0.3 - 0.3.7"]
 SatelliteToolbox = "0.12.2-0.12"
 
-["0.3.1-0"]
+["0.3.1 - 0"]
 Downloads = "1"
+
+["0.3.1 - 0.3.8"]
 Scratch = "1.2.0-1"
 julia = "1.10.0-1"
 
-["0.3.2-0.3.7"]
+["0.3.2 - 0.3.7"]
 Dates = "1.6.0-1"
 LinearAlgebra = "1.6.0-1"
 Statistics = "1.6.0-1"
 
-["0.3.5-0.3.7"]
+["0.3.5 - 0.3.7"]
 Logging = "1.6.0-1"
 
-["0.3.8-0"]
+["0.3.8"]
 Dates = "1.10.0-1"
 LinearAlgebra = "1.10.0-1"
 Logging = "1.10.0-1"
 SatelliteToolbox = ["0.12.2-0.12", "1"]
 Statistics = "1.10.0-1"
+
+["0.3.9 - 0"]
+Dates = "1.10.0 - 1"
+LinearAlgebra = "1.10.0 - 1"
+Logging = "1.10.0 - 1"
+SatelliteToolbox = ["0.12.2 - 0.12", "1"]
+Scratch = "1.2.0 - 1"
+Statistics = "1.10.0 - 1"
+julia = "1.10.0 - 1"

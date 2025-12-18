@@ -20,10 +20,22 @@ ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
 
 ["0.3 - 0"]
-Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
 PolyesterForwardDiff = "98d1487c-24ca-40b6-b7ab-df2af84e126b"
 
+["0.3 - 0.4.1"]
+Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
+
 ["0.4 - 0"]
-BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0.4 - 0.4.3"]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.4.3 - 0"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.4.5 - 0"]
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"

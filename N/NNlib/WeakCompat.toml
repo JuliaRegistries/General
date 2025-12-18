@@ -40,12 +40,19 @@ SpecialFunctions = "2"
 ["0.9.30"]
 ForwardDiff = ["0.10.36-0.10", "1"]
 
+["0.9.31"]
+EnzymeCore = "0.5 - 0.8"
+ForwardDiff = ["0.10.36 - 0.10", "1"]
+
 ["0.9.31 - 0"]
 AMDGPU = "1 - 2"
 CUDA = "4 - 5"
-EnzymeCore = "0.5 - 0.8"
 FFTW = "1.8.0 - 1"
-ForwardDiff = ["0.10.36 - 0.10", "1"]
+
+["0.9.32 - 0"]
+EnzymeCore = "0.7 - 0.8"
+ForwardDiff = "1"
+Metal = "1.6.0 - 1"
 
 ["0.9.6 - 0.9.30"]
 CUDA = "4-5"

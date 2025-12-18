@@ -5,7 +5,13 @@ PrecompileTools = "1.2.1-1"
 julia = "1.10.0-1"
 
 ["0.1.1 - 0"]
-CodecBzip2 = "0.8.5 - 0.8"
-JLD2 = "0.5.11 - 0.5"
 PrecompileTools = "1.2.1 - 1"
 julia = "1.10.0 - 1"
+
+["0.1.1 - 0.2"]
+CodecBzip2 = "0.8.5 - 0.8"
+JLD2 = "0.5.11 - 0.5"
+
+["0.3 - 0"]
+DataStructures = "0.19.1 - 0.19"
+JLD2 = "0.6"

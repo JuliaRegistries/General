@@ -3,6 +3,11 @@ ExaModels = "0.9"
 InfiniteOpt = "0.6"
 JuMP = "1.15.0 - 1"
 MathOptInterface = "1.19.0 - 1"
-NLPModels = "0.21"
 SolverCore = "0.3"
 julia = "1.10.0 - 1"
+
+["0 - 0.1.0"]
+NLPModels = "0.21"
+
+["0.1.1 - 0"]
+NLPModels = "0.21 - 0.22"

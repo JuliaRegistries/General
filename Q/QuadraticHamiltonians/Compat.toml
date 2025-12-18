@@ -1,8 +1,19 @@
 [0]
 BenchmarkTools = "1"
 InteractiveUtils = "1"
-KrylovKit = "0.6"
 QuadGK = "2"
 RSCG = "0.1"
-SparseIR = "1"
+
+["0 - 0.1"]
+KrylovKit = "0.6"
 julia = "1.8.0-1"
+
+["0 - 0.2.0"]
+SparseIR = "1"
+
+["0.2 - 0"]
+KrylovKit = "0.10"
+julia = "1.9.0 - 1"
+
+["0.2.1 - 0"]
+SparseIR = "1.1.4 - 1"

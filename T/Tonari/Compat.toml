@@ -1,11 +1,20 @@
 [0]
 Distributions = "0.25"
 FFTW = "1"
-Interpolations = "0.15"
 StatsBase = "0.34"
 julia = "1"
 
-["0.2-0"]
-ProgressMeter = "1.10.2-1"
+["0 - 0.2.0"]
+Interpolations = "0.15"
+
+["0.2 - 0"]
 Random = "1"
+
+["0.2.0"]
+ProgressMeter = "1.10.2-1"
 Unitful = "1.22.0-1"
+
+["0.2.1 - 0"]
+Interpolations = "0.15 - 0.16"
+ProgressMeter = "1.10.2 - 1"
+Unitful = "1.22.0 - 1"

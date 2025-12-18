@@ -1,7 +1,16 @@
 [0]
+Requires = "1"
+SciMLBase = "2"
+
+["0 - 0.1"]
 DiffEqCallbacks = "2"
 FMICore = "0.20"
 FMIImport = "0.16.4-0.16"
-Requires = "1"
-SciMLBase = "2"
 julia = "1.10.0-1"
+
+["0.2 - 0"]
+DiffEqCallbacks = "2 - 4"
+FMIBase = "1"
+FMICore = "1"
+FMIImport = "1"
+julia = "1.6.0 - 1"

@@ -1,27 +1,39 @@
-["2-2.2"]
+["2 - 2.2"]
 JLLWrappers = "1.1.0-1"
 julia = "1"
 
-["2.3-2"]
-julia = "1.6.0-1"
-
-["2.3-2.8.0"]
+["2.3 - 2.8.0"]
 JLLWrappers = "1.2.0-1"
+
+["2.3 - 2.8.7"]
+julia = "1.6.0-1"
 
 ["2.8.1"]
 LazyArtifacts = "1"
 MPItrampoline_jll = "5.2.1-5"
 
-["2.8.1-2"]
-JLLWrappers = "1.4.0-1"
+["2.8.1 - 2"]
 MPIPreferences = "0.1"
 
-["2.8.6-2"]
+["2.8.1 - 2.8.7"]
+JLLWrappers = "1.4.0-1"
+
+["2.8.6 - 2"]
 Artifacts = ["0.0.0", "1"]
-Jansson_jll = "2.14.0-2"
 LazyArtifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
+TOML = ["0.0.0", "1"]
+
+["2.8.6 - 2.8.7"]
+Jansson_jll = "2.14.0-2"
 MPICH_jll = "4.2.3-4"
 MPItrampoline_jll = "5.5.0-5"
 OpenMPI_jll = "4.1.6-5"
-TOML = ["0.0.0", "1"]
+
+["2.8.8 - 2"]
+JLLWrappers = "1.7.0 - 1"
+Jansson_jll = "2.14.1 - 2"
+MPICH_jll = "4.3.0 - 4"
+MPItrampoline_jll = "5.5.3 - 5"
+OpenMPI_jll = ["4.1.8 - 4", "5.0.7 - 5"]
+julia = "1.6.0 - 1"

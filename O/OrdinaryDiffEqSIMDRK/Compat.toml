@@ -3,12 +3,17 @@ MuladdMacro = "0.2"
 Reexport = "1"
 SLEEFPirates = "0.6"
 Static = ["0.7 - 0.8", "1"]
-UnPack = "1"
 VectorizationBase = "0.21"
 julia = "1.10.0 - 1"
+
+["1 - 1.1"]
+UnPack = "1"
 
 ["1.0"]
 OrdinaryDiffEqCore = "1"
 
-["1.1 - 1"]
+["1.1"]
 OrdinaryDiffEqCore = "1.29.0 - 1"
+
+["1.2 - 1"]
+OrdinaryDiffEqCore = "2"

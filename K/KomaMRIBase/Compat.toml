@@ -1,5 +1,4 @@
 [0]
-MAT = "0.10"
 MRIBase = "0.4"
 Parameters = "0.12"
 Reexport = "1"
@@ -13,9 +12,15 @@ Interpolations = "0.13-0.14"
 ["0 - 0.9.1"]
 julia = "1.9.0-1"
 
+["0 - 0.9.6"]
+MAT = "0.10"
+
 ["0.8.1 - 0.9.1"]
 Interpolations = "0.13-0.15"
 
 ["0.9.2 - 0"]
 Interpolations = "0.13 - 0.16"
 julia = "1.9.0 - 1"
+
+["0.9.7 - 0"]
+MAT = "0.10 - 0.11"

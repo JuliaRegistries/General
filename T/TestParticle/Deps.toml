@@ -3,13 +3,22 @@ Elliptic = "b305315f-e792-5b7a-8f41-49f472929428"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"
-Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
+["0 - 0.17"]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
 ["0.11 - 0"]
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
+["0.16.2 - 0"]
+Tensors = "48a634ad-e948-5137-8d70-aa71f2a747f4"
+
+["0.18 - 0"]
+MuladdMacro = "46d2c3a1-f734-5fdb-9937-b9b9aeba4221"
+VelocityDistributionFunctions = "63a0b508-f74a-48f7-b6e7-0e65849b0078"
 
 ["0.2 - 0.2.3"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"

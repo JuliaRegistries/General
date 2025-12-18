@@ -4,7 +4,6 @@ CategoricalArrays = "0.10"
 GLMNet = "0.7"
 MLJ = "0.20"
 MLJLinearModels = "0.10"
-julia = "1"
 
 ["0 - 0.10.1"]
 EvoTrees = "0.16.5-0.16"
@@ -26,12 +25,17 @@ PackageCompiler = "2.1.16-2"
 Tables = "1.10.1-1"
 YAML = "0.4.9-0.4"
 
+["0 - 0.10.3"]
+julia = "1"
+
 ["0 - 0.9"]
 MKL = "0.6-0.7"
 
 ["0.10.2 - 0"]
 EvoTrees = "0.17"
 JLD2 = "0.5"
+
+["0.10.2 - 0.10.3"]
 TMLE = "0.18"
 
 ["0.10.3 - 0"]
@@ -48,3 +52,7 @@ MLJXGBoostInterface = "0.3.4 - 0.3"
 PackageCompiler = "2.1.16 - 2"
 Tables = "1.10.1 - 1"
 YAML = "0.4.9 - 0.4"
+
+["0.10.4 - 0"]
+TMLE = "0.20.3 - 0.20"
+julia = "1.10.0 - 1"

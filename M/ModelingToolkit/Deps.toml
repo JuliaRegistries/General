@@ -2,17 +2,19 @@
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0 - 10"]
-DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 DiffRules = "b552c78f-8df3-52c6-915a-8e097449b14b"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NaNMath = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0 - 11"]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0 - 8"]
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 
-["0.4 - 10"]
+["0.4 - 11"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
@@ -27,12 +29,23 @@ Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
 
 [10]
 ImplicitDiscreteSolve = "3263718b-31ed-49cf-8a0f-35a466e8af96"
+
+["10 - 10.31.1"]
 OrdinaryDiffEqCore = "bbf590c4-e513-4bbe-9b18-05decba2e5d8"
+
+["10 - 11"]
 SciMLPublic = "431bcebd-1456-4ced-9d72-93c2757fff0b"
 
-["10.28 - 10"]
+["10.28 - 11"]
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
+
+[11]
+BipartiteGraphs = "caf10ac8-0290-4205-88aa-f15908547e8d"
+ModelingToolkitBase = "7771a370-6774-4173-bd38-47e70ca0b839"
+ModelingToolkitTearing = "6bb917b9-1269-42b9-9f7c-b0dca72083ab"
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
+StateSelection = "64909d44-ed92-46a8-bbd9-f047dfbdc84b"
 
 ["2 - 10"]
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
@@ -43,7 +56,7 @@ TreeViews = "a2a6695c-b41b-5b7d-aed9-dbfdeacea5d7"
 ["2 - 8.5.4"]
 SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
 
-["3 - 10"]
+["3 - 11"]
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
 ["3 - 8.11"]
@@ -55,10 +68,10 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 ["3.12 - 9.33"]
 LabelledArrays = "2ee39098-c373-598a-b85f-a56591580800"
 
-["3.18 - 10"]
+["3.18 - 11"]
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
-["3.2 - 10"]
+["3.2 - 11"]
 SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 
 ["3.2 - 8.14"]
@@ -73,22 +86,22 @@ RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 ["3.4 - 6"]
 LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
 
-["3.6.2 - 10"]
+["3.6.2 - 11"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 
-["4 - 10"]
+["4 - 11"]
 RuntimeGeneratedFunctions = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
 
 ["4.3 - 10"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 
-["5 - 10"]
+["5 - 11"]
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 
-["5.10 - 10"]
+["5.10 - 11"]
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 
-["5.11 - 10"]
+["5.11 - 11"]
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 
 ["5.14 - 10"]
@@ -100,16 +113,16 @@ JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
 ["5.18 - 10"]
 DomainSets = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
 
-["5.2.1 - 10"]
+["5.2.1 - 11"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
-["5.22 - 10"]
+["5.22 - 11"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
 ["5.25 - 10"]
 DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
 
-["5.3 - 10"]
+["5.3 - 11"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["5.6.2 - 10"]
@@ -118,7 +131,7 @@ ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
 ["5.9 - 8.34"]
 NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 
-["7 - 10"]
+["7 - 11"]
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 
 ["8.12 - 8.47"]
@@ -127,7 +140,7 @@ ArrayInterfaceCore = "30b0a656-2188-435a-8636-2ec0e6a096e2"
 ["8.15 - 10"]
 JumpProcesses = "ccbc3e58-028d-4f4c-8cd5-9ae44345cda5"
 
-["8.15.2 - 10"]
+["8.15.2 - 11"]
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 
 ["8.20 - 10"]
@@ -139,10 +152,10 @@ SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
 ["8.31 - 10"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 
-["8.35 - 10"]
+["8.35 - 11"]
 SimpleNonlinearSolve = "727e6d20-b764-4bd8-a329-72de5adea6c7"
 
-["8.37 - 10"]
+["8.37 - 11"]
 SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
 
 ["8.48 - 10"]
@@ -157,19 +170,21 @@ URIs = "5c2747f8-b7ea-4ff2-ba2e-563bfd36b1d4"
 ["8.65 - 9.17"]
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 
-["8.69 - 10"]
+["8.69 - 11"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
-["8.9 - 10"]
+["8.9 - 11"]
 Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
 
 ["9 - 10"]
 DynamicQuantities = "06fc5a27-2a28-4c7c-a15d-362465fb6821"
 ExprTools = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
-FindFirstFunctions = "64ca27bc-2ba2-4a57-88aa-44e436879224"
 SciMLStructures = "53ae85a6-f571-4167-b2af-e1d143709226"
 
-["9.12.2 - 10"]
+["9 - 11"]
+FindFirstFunctions = "64ca27bc-2ba2-4a57-88aa-44e436879224"
+
+["9.12.2 - 11"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 
 ["9.18 - 10.14"]
@@ -184,28 +199,28 @@ DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
 ["9.27 - 9.64"]
 Expronicon = "6b7a57c9-7cc1-4fdf-b7f5-e857abae3636"
 
-["9.34 - 10"]
+["9.34 - 11"]
 BlockArrays = "8e7c35d0-a365-5155-bbbb-fb81a777f24e"
 
 ["9.40.1 - 10"]
 FunctionWrappers = "069b7b12-0de2-55c6-9aab-29f3d0a68a2e"
 
-["9.43 - 10"]
+["9.43 - 11"]
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 
-["9.47 - 10"]
+["9.47 - 11"]
 CommonSolve = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
 
 ["9.51 - 10"]
 EnumX = "4e289a0a-7415-4d19-859d-a7e5c4648b56"
 
-["9.56 - 10"]
+["9.56 - 11"]
 SCCNonlinearSolve = "9dfe8606-65a1-4bb3-9748-cb89d1561431"
 
-["9.65 - 10"]
+["9.65 - 11"]
 Moshi = "2e0e35c7-a2e4-4343-998d-7ef72827ed2d"
 
-["9.69 - 10"]
+["9.69 - 11"]
 ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
 

@@ -1,5 +1,4 @@
 [1]
-Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Discreet = "c2843242-4f35-58a6-a2a0-7e7527607317"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
@@ -8,8 +7,22 @@ Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 
+["1 - 1.1"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
 ["1.0"]
 BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 
-["1.1-1"]
+["1.1 - 1"]
 mvndst_jll = "78cd126e-648e-5a4b-8892-63be0e833cb1"
+
+["1.2 - 1"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["1.4 - 1"]
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
