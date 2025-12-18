@@ -7,7 +7,7 @@ Ipopt = "b6b21f68-93f8-5de0-b562-5493be1d77c9"
 JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
 
-["0-0.2"]
+["0 - 0.2"]
 BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 Calculus = "49dc2e85-a5d0-5ad3-a950-438e2897f1b9"
@@ -17,39 +17,44 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 
-["0-0.3"]
+["0 - 0.3"]
 DiffRules = "b552c78f-8df3-52c6-915a-8e097449b14b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["0-0.6"]
+["0 - 0.6"]
 GLPK = "60bf3e95-4087-53dc-ae20-288a0d20c6a6"
 
-["0.3-0"]
+["0.3 - 0"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
-["0.3-0.6"]
+["0.3 - 0.6"]
 NumericIO = "6c575b1c-77cb-5640-a5dc-a54116c90507"
 
-["0.3.1-0"]
+["0.3.1 - 0"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 
-["0.4-0"]
+["0.4 - 0"]
 FastRounding = "fa42c844-2597-5d31-933b-ebd51ab2693f"
 McCormick = "53c679d3-6890-5091-8386-c291e8c8aaa1"
 NaNMath = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
-["0.4-0.6"]
+["0.4 - 0.6"]
 ReverseMcCormick = "f9d89e60-3bef-4186-aa8f-bdf0d7614dd6"
 
-["0.5-0"]
+["0.5 - 0"]
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
-["0.7-0"]
-Cbc = "9961bab8-2fa3-5c5a-9d89-47fab24efd76"
+["0.7 - 0"]
 MINLPTests = "ee0a3090-8ee9-5cdb-b8cb-8eeba3165522"
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0.7 - 0.8.3"]
+Cbc = "9961bab8-2fa3-5c5a-9d89-47fab24efd76"
+
+["0.8.4 - 0"]
+GLPK = "60bf3e95-4087-53dc-ae20-288a0d20c6a6"
