@@ -1,17 +1,25 @@
 [0]
-AMRVW = "1"
-Convex = "0.16"
-ForwardDiff = "0.10"
 GenericFFT = "0.1"
 LazilyInitializedFields = "1"
 QuadGK = "2"
 Reexport = "1"
+
+["0 - 0.1"]
+AMRVW = "1"
+Convex = "0.16"
+ForwardDiff = "0.10"
 SCS = "2"
 SpecialMatrices = "3"
 julia = "1.6.0-1"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 Hecke = "0.32"
 
-["0.1.1-0"]
+["0.1.1 - 0.1"]
 Hecke = "0.32-0.35"
+
+["0.2 - 0"]
+ForwardDiff = ["0.10", "1"]
+Hecke = "0.38 - 0.39"
+LinearAlgebra = "1"
+julia = "1.11.0 - 1"
