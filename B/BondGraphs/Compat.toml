@@ -5,20 +5,30 @@ Graphs = "1"
 OrderedCollections = "1"
 RecipesBase = "1"
 Setfield = ["0.8", "1"]
-StaticArrays = "1"
 julia = "1"
 
-["0-0.4"]
+["0 - 0.4"]
 Catalyst = "12"
 Latexify = "0.15"
 ModelingToolkit = "8"
 SymbolicUtils = ["0.19", "1"]
 
-["0.4-0"]
+["0 - 0.5.0"]
+StaticArrays = "1"
+
+["0.4 - 0.5.0"]
 GraphMakie = "0.5"
 
-["0.5-0"]
+["0.5 - 0"]
+SymbolicUtils = "3"
+
+["0.5.0"]
 Catalyst = "14"
 Latexify = "0.16"
 ModelingToolkit = "9"
-SymbolicUtils = "3"
+
+["0.5.1 - 0"]
+Catalyst = "14 - 15"
+GraphMakie = "0.6"
+Latexify = "0.16.10 - 0.16"
+ModelingToolkit = "9 - 11"
