@@ -1,9 +1,9 @@
-["0-0.0.2"]
+["0 - 0.0.2"]
 JuMP = "0.19"
 MultivariateMoments = "0.2"
 SumOfSquares = "0.3.2-0.3"
 
-["0-0.2"]
+["0 - 0.2"]
 julia = "1"
 
 ["0.0"]
@@ -14,12 +14,12 @@ Polyhedra = "0.0.0-0.6"
 RecipesBase = "0.0.0-0.8"
 Reexport = "0.0.0-0.2"
 
-["0.0.3-0.0"]
+["0.0.3 - 0.0"]
 JuMP = "0.20"
 MultivariateMoments = "0.2.2-0.2"
 SumOfSquares = "0.3.5-0.3"
 
-["0.0.4-0.1"]
+["0.0.4 - 0.1"]
 MathOptInterface = "0.9.2-0.9"
 
 ["0.1"]
@@ -29,13 +29,13 @@ MultivariatePolynomials = "0.3.6-0.3"
 MutableArithmetics = "0.2.6-0.2"
 SumOfSquares = "0.4"
 
-["0.1-0.1.1"]
+["0.1 - 0.1.1"]
 Polyhedra = "0.6"
 
-["0.1-0.1.4"]
+["0.1 - 0.1.4"]
 Reexport = "0.2"
 
-["0.1-0.3"]
+["0.1 - 0.3"]
 MultivariateBases = "0.1.2-0.1"
 MultivariateMoments = "0.3"
 
@@ -43,22 +43,22 @@ MultivariateMoments = "0.3"
 DataStructures = "0.17"
 RecipesBase = "0.7-0.8"
 
-["0.1.1-0.1.3"]
+["0.1.1 - 0.1.3"]
 DataStructures = "0.17.11-0.17"
 
-["0.1.1-0.3"]
+["0.1.1 - 0.3"]
 RecipesBase = ["0.7-0.8", "1"]
 
-["0.1.2-0"]
+["0.1.2 - 0"]
 Combinatorics = "1"
 
-["0.1.2-0.2"]
+["0.1.2 - 0.2"]
 Polyhedra = "0.6.3-0.6"
 
-["0.1.4-0.3"]
+["0.1.4 - 0.3"]
 DataStructures = "0.17.11-0.18"
 
-["0.1.5-0.3"]
+["0.1.5 - 0.3"]
 Reexport = ["0.2", "1"]
 
 ["0.2"]
@@ -67,29 +67,30 @@ MathOptInterface = "0.10"
 MutableArithmetics = "0.3"
 SumOfSquares = "0.5"
 
-["0.2-0.3"]
+["0.2 - 0.3"]
 DynamicPolynomials = "0.4"
 MultivariatePolynomials = "0.4"
 
 ["0.3"]
 SumOfSquares = "0.6"
 
-["0.3-0"]
+["0.3 - 0"]
 MathOptInterface = "1"
 MutableArithmetics = "1"
-julia = "1.6.0-1"
 
-["0.3-0.3.1"]
+["0.3 - 0.3.1"]
 JuMP = "0.23"
 
-["0.3-0.4.0"]
+["0.3 - 0.4.0"]
 Polyhedra = "0.7"
 
-["0.3.2-0.3"]
+["0.3 - 0.4.1"]
+julia = "1.6.0-1"
+
+["0.3.2 - 0.3"]
 JuMP = ["0.23", "1"]
 
-["0.4-0"]
-DataStructures = "0.18"
+["0.4 - 0"]
 JuMP = "1"
 MultivariateBases = "0.2"
 MultivariateMoments = "0.4"
@@ -98,9 +99,18 @@ RecipesBase = "1"
 Reexport = "1"
 SumOfSquares = "0.7"
 
+["0.4 - 0.4.1"]
+DataStructures = "0.18"
+
 ["0.4.0"]
 DynamicPolynomials = "0.5"
 
-["0.4.1-0"]
+["0.4.1"]
 DynamicPolynomials = "0.5-0.6"
 Polyhedra = "0.7-0.8"
+
+["0.4.2 - 0"]
+DataStructures = "0.18 - 0.19"
+DynamicPolynomials = "0.5 - 0.6"
+Polyhedra = "0.7 - 0.8"
+julia = "1.6.0 - 1"
