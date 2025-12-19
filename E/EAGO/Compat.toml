@@ -1,4 +1,4 @@
-["0-0.2"]
+["0 - 0.2"]
 BandedMatrices = "0.8.0-0.15"
 BenchmarkTools = "0.0.0-0.5"
 Calculus = "0.4.1-0.5"
@@ -17,7 +17,7 @@ ReverseDiff = "0.3.1-0.3"
 StaticArrays = "0.8.3-0.8"
 julia = "1"
 
-["0-0.3"]
+["0 - 0.3"]
 Cassette = "0.2.1-0.2"
 
 ["0.3"]
@@ -26,11 +26,11 @@ JuMP = "0.19.2-0.20"
 MathOptInterface = "0.8.1-0.9"
 StaticArrays = "0.8-0.12"
 
-["0.3-0.5"]
+["0.3 - 0.5"]
 DataStructures = "0.17"
 GLPK = "0.9-0.12"
 
-["0.3-0.6"]
+["0.3 - 0.6"]
 ForwardDiff = "0.5-0.10"
 Ipopt = "0.6"
 NumericIO = "0.3.1"
@@ -40,41 +40,41 @@ DiffRules = ["0.0.5", "0.0.10"]
 IntervalArithmetic = "0.14-0.16"
 julia = ["0.7", "1.0-1.2"]
 
-["0.3.1-0.3"]
+["0.3.1 - 0.3"]
 DiffRules = ["0.0.5", "1"]
 IntervalArithmetic = "0.15"
 julia = ["0.7", "1.0-1.3"]
 
-["0.3.1-0.7.2"]
+["0.3.1 - 0.7.2"]
 DocStringExtensions = "0.8"
 
-["0.4-0"]
-Cassette = "0.3.1-0.3"
-
-["0.4-0.4.1"]
+["0.4 - 0.4.1"]
 McCormick = "0.6.1-0.6"
 ReverseMcCormick = "0.5.3-0.6"
 julia = "1.2-1.4"
 
-["0.4-0.5"]
+["0.4 - 0.5"]
 FastRounding = "0.2"
 
-["0.4-0.5.0"]
+["0.4 - 0.5.0"]
 IntervalArithmetic = "0.16.3-0.17"
 IntervalContractors = "0.4.2-0.4"
 
-["0.4-0.6"]
+["0.4 - 0.6"]
 JuMP = "0.21.2-0.21"
 MathOptInterface = "0.9.13-0.9"
 NaNMath = "0.3"
 Reexport = "0.2"
 
-["0.4.2-0.4"]
+["0.4 - 0.8.3"]
+Cassette = "0.3.1-0.3"
+
+["0.4.2 - 0.4"]
 McCormick = "0.7"
 ReverseMcCormick = "0.7"
 julia = "1.2-1.5"
 
-["0.5-0.6"]
+["0.5 - 0.6"]
 SpecialFunctions = "0.8-0.10"
 julia = "1"
 
@@ -82,11 +82,11 @@ julia = "1"
 McCormick = "0.9.1-0.9"
 ReverseMcCormick = "0.8"
 
-["0.5.1-0.5"]
+["0.5.1 - 0.5"]
 McCormick = "0.10"
 ReverseMcCormick = "0.9"
 
-["0.5.1-0.6"]
+["0.5.1 - 0.6"]
 IntervalArithmetic = "0.14-0.17"
 IntervalContractors = "0.3-0.4"
 
@@ -95,53 +95,68 @@ GLPK = "0.9-0.13"
 McCormick = "0.10.3-0.10"
 ReverseMcCormick = "0.8-0.9"
 
-["0.6-0"]
+["0.6 - 0.8.3"]
 DataStructures = "0.17-0.18"
 FastRounding = "0.2-0.3"
 
-["0.7-0"]
-Cbc = "1"
+["0.7 - 0"]
 ForwardDiff = "0.10"
 IntervalArithmetic = "0.20"
 IntervalContractors = "0.4"
-MINLPTests = "0.5.2-0.5"
 MathOptInterface = "1"
 McCormick = "0.13"
 Reexport = ["0.2", "1"]
 Requires = "1"
-SpecialFunctions = "1-2"
 
-["0.7-0.7.1"]
+["0.7 - 0.7.1"]
 NaNMath = "0.3.5-0.3"
 julia = "1.6-1.7"
 
-["0.7-0.8.0"]
+["0.7 - 0.8.0"]
 PrettyTables = "1"
 
-["0.7-0.8.2"]
+["0.7 - 0.8.2"]
 Ipopt = "1"
+
+["0.7 - 0.8.3"]
+Cbc = "1"
+MINLPTests = "0.5.2-0.5"
+SpecialFunctions = "1-2"
 
 ["0.7.0"]
 JuMP = "0.23"
 
-["0.7.1-0.7"]
+["0.7.1 - 0.7"]
 JuMP = "1.0.0-1.1.1"
 
-["0.7.2-0"]
+["0.7.2 - 0.8.3"]
 NaNMath = ["0.3.5-0.3", "1"]
 julia = "1.6.0-1"
 
-["0.7.3-0"]
+["0.7.3 - 0.8.3"]
 DocStringExtensions = "0.8-0.9"
 
-["0.8-0.8.1"]
+["0.8 - 0.8.1"]
 JuMP = "1.11.0-1"
 
-["0.8.1-0"]
+["0.8.1 - 0"]
 PrettyTables = "2"
 
-["0.8.2-0"]
+["0.8.2 - 0.8.3"]
 JuMP = "1.12.0-1"
 
-["0.8.3-0"]
+["0.8.3"]
 Ipopt = "1.10.0-1"
+
+["0.8.4 - 0"]
+Cassette = "0.3.1 - 0.3"
+DataStructures = "0.17 - 0.18"
+DocStringExtensions = "0.8 - 0.9"
+FastRounding = "0.2 - 0.3"
+GLPK = "1"
+Ipopt = "1.10.0 - 1"
+JuMP = "1.12.0 - 1"
+MINLPTests = "0.5.2 - 0.5"
+NaNMath = ["0.3.5 - 0.3", "1"]
+SpecialFunctions = "1 - 2"
+julia = "1.6.0 - 1"
