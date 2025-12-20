@@ -5,7 +5,12 @@ JLLWrappers = "1.7.0-1"
 LazyArtifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
 MPICH_jll = "4.3.0-4"
-NCCL_jll = "2.26.5-2"
 TOML = ["0.0.0", "1"]
 Zlib_jll = "1.2.12-1"
 julia = "1.10.0-1"
+
+["25-25.10.0"]
+NCCL_jll = "2.26.5-2"
+
+["25.10.1-25"]
+NCCL_jll = "2.27.7-2"
