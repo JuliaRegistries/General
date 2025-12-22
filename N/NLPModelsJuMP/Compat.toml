@@ -34,7 +34,7 @@ NLPModels = "0.18-0.20"
 ["0.12.2"]
 JuMP = "1.2-1.14.1"
 
-["0.12.2 - 0"]
+["0.12.2 - 0.13.3"]
 SolverCore = "0.3"
 
 ["0.12.3 - 0.13.2"]
@@ -51,14 +51,21 @@ NLPModels = "0.18-0.21"
 ["0.13.1 - 0.13.2"]
 MathOptInterface = "1.17.0-1"
 
+["0.13.3"]
+MathOptInterface = "1.40.0 - 1"
+NLPModels = "0.21.5 - 0.21"
+
 ["0.13.3 - 0"]
 JuMP = "1.25.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
-MathOptInterface = "1.40.0 - 1"
-NLPModels = "0.21.5 - 0.21"
 Printf = "1.10.0 - 1"
 SparseArrays = "1.10.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.13.4 - 0"]
+MathOptInterface = "1.46.0 - 1"
+NLPModels = "0.21.6 - 0.21"
+SolverCore = "0.3.9 - 0.3"
 
 ["0.2"]
 NLPModels = "0.7"
