@@ -138,7 +138,6 @@ ForwardDiff = ["0.10.36-0.10", "1"]
 julia = "1.10.0-1"
 
 ["0.6.14 - 0"]
-BlackBoxOptim = "0.6.2 - 0.6"
 DiffResults = "1.1.0 - 1"
 FillArrays = ["0.12 - 0.13", "1"]
 ForwardDiff = ["0.10.36 - 0.10", "1"]
@@ -151,3 +150,11 @@ StaticArrays = "1.5.9 - 1"
 Tables = "1.8.0 - 1"
 Unitful = "1.12.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.6.14 - 0.6.19"]
+BlackBoxOptim = "0.6.2 - 0.6"
+
+["0.6.20 - 0"]
+DifferentiationInterface = "0.6 - 0.7"
+Random = "1"
+SpecialFunctions = "2"

@@ -37,18 +37,28 @@ ConcreteStructs = "0.2.3 - 0.2"
 Functors = "0.5.2 - 0.5"
 GPUArraysCore = "0.2"
 KernelAbstractions = "0.9"
-LinearAlgebra = "1.10.0 - 1"
 Lux = "1"
 LuxCore = "1.2.4 - 1"
 MLDataDevices = "1.9.3 - 1"
 NamedTupleTools = "0.14"
-Random = "1.10.0 - 1"
 Rotations = "1.7.1 - 1"
-SparseArrays = "1.10.0 - 1"
 StaticArrays = "1.9.0 - 1"
 WignerD = "0.1.4 - 0.1"
 WithAlloc = "0.1.1 - 0.1"
+
+["0.2 - 0.3"]
+LinearAlgebra = "1.10.0 - 1"
+Random = "1.10.0 - 1"
+SparseArrays = "1.10.0 - 1"
 julia = "1.10.0 - 1"
 
-["0.3 - 0"]
+["0.3"]
 Polynomials4ML = "0.5.3 - 0.5"
+
+["0.4 - 0"]
+DecoratedParticles = "0.1"
+LinearAlgebra = "1.11.0 - 1"
+Polynomials4ML = "0.5.6 - 0.5"
+Random = "1.11.0 - 1"
+SparseArrays = "1.11.0 - 1"
+julia = "1.11.0 - 1"
