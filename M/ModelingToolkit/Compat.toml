@@ -233,9 +233,11 @@ DifferentiationInterface = "0.6.47 - 0.7"
 [11]
 BipartiteGraphs = "0.1.2 - 0.1"
 BlockArrays = "1.9.3 - 1"
-ModelingToolkitBase = "1"
 REPL = "1"
 Symbolics = "7"
+
+["11 - 11.2"]
+ModelingToolkitBase = "1"
 
 ["11.0"]
 ModelingToolkitTearing = "1"
@@ -243,9 +245,15 @@ StateSelection = "1"
 SymbolicUtils = "4.5.1 - 4"
 
 ["11.1 - 11"]
-ModelingToolkitTearing = "1.0.2 - 1"
 StateSelection = "1.1.1 - 1"
 SymbolicUtils = "4.7.1 - 4"
+
+["11.1 - 11.2"]
+ModelingToolkitTearing = "1.0.2 - 1"
+
+["11.3 - 11"]
+ModelingToolkitBase = "1.2.0 - 1"
+ModelingToolkitTearing = "1.1.0 - 1"
 
 ["2 - 5.13"]
 TreeViews = "0.3"

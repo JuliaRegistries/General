@@ -60,9 +60,16 @@ Interpolations = "0.13 - 0.15"
 LinearAlgebra = "1.10.0 - 1"
 MacroTools = "0.5.6 - 0.5"
 Measurements = "2.10.0 - 2"
-NLSolversBase = "7.8.0 - 7"
 Optim = "1.6.2 - 1"
 OrderedCollections = "1.6.0 - 1"
 QuadGK = "2.5.0 - 2"
 QuasiMonteCarlo = "0.3.3 - 0.3"
+
+["0.8.5 - 0.8.6"]
+NLSolversBase = "7.8.0 - 7"
 julia = "1.11.0 - 1"
+
+["0.8.7 - 0"]
+ForwardDiff = "1.1.0 - 1"
+NLSolversBase = "7.10.0 - 7"
+julia = "1.12.0 - 1"
