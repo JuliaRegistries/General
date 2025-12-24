@@ -1,40 +1,47 @@
-["0-0.1"]
+["0 - 0.1"]
 MacroTools = "0.4.4-0.5"
 MuladdMacro = "0.0.2-0.2"
 Reexport = "0.1.0-0.2"
 julia = ["0.7", "1"]
 
-["0-0.2"]
+["0 - 0.2"]
 EarthOrientation = "0.4"
 LeapSeconds = "0.2"
 
-["0.2-0"]
+["0.2 - 0"]
 MacroTools = "0.5"
 MuladdMacro = "0.2"
 
-["0.2-0.6"]
+["0.2 - 0.6"]
 julia = "1"
 
-["0.2-0.6.1"]
+["0.2 - 0.6.1"]
 Reexport = "0.2"
 
 ["0.3"]
 EarthOrientation = "0.5"
 LeapSeconds = "1"
 
-["0.4-0"]
+["0.4 - 0.6.1"]
+EarthOrientation = "0.6"
+
+["0.4 - 0.7.1"]
 ItemGraphs = "0.4"
 LeapSeconds = "1.1.0-1"
 
-["0.4-0.6.1"]
-EarthOrientation = "0.6"
-
-["0.6.2-0"]
+["0.6.2 - 0"]
 Reexport = ["0.2", "1"]
 
-["0.6.2-0.6"]
+["0.6.2 - 0.6"]
 EarthOrientation = "0.6-0.7"
 
-["0.7-0"]
+["0.7 - 0"]
 EarthOrientation = "0.7"
+
+["0.7 - 0.7.1"]
 julia = "1.3.0-1"
+
+["0.7.2 - 0"]
+Graphs = "1.12.0 - 1"
+LeapSeconds = "1.1.0 - 1"
+julia = "1.10.0 - 1"
