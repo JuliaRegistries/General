@@ -1,4 +1,4 @@
-["0-0.1"]
+["0 - 0.1"]
 Adapt = "3-4"
 ChainRulesCore = "1"
 Functors = "0.4.1-0.4"
@@ -11,7 +11,7 @@ SparseArrays = "1"
 StatsBase = "0.34"
 julia = "1.9.0-1"
 
-[0-1]
+["0 - 1"]
 DataStructures = "0.18"
 LinearAlgebra = "1"
 MLUtils = "0.4"
@@ -19,18 +19,23 @@ NNlib = "0.9"
 Random = "1"
 Statistics = "1"
 
-["0.2-0"]
-GNNGraphs = "1"
-
-["0.2-1"]
+["0.2 - 0"]
 ChainRulesCore = "1.24.0-1"
+GNNGraphs = "1"
 julia = "1.10.0-1"
 
-["0.2.3-0"]
+["0.2.3 - 0"]
 GPUArraysCore = "0.1"
 
-[1]
+["1.0"]
+ChainRulesCore = "1.24.0-1"
 GNNGraphs = "1.4.0-1"
+julia = "1.10.0-1"
 
 ["1.0.0"]
 GPUArraysCore = "0.1"
+
+["1.1 - 1"]
+ChainRulesCore = "1.24.0 - 1"
+GNNGraphs = "1.4.0 - 1"
+julia = "1.10.0 - 1"
