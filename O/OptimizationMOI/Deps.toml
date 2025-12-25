@@ -1,29 +1,35 @@
-[0]
-MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-
 ["0 - 0.5.7"]
 Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
+
+["0 - 1"]
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0.1.11 - 0.3"]
 Ipopt_jll = "9cc047cb-c261-5740-88fc-0cf96f7bdcc7"
 
 ["0.1.13 - 0"]
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+
+["0.1.13 - 1"]
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 
-["0.1.4 - 0"]
+["0.1.4 - 1"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
-["0.2 - 0"]
+["0.2 - 1"]
 SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
 
-["0.4.1 - 0"]
+["0.4.1 - 1"]
 SciMLStructures = "53ae85a6-f571-4167-b2af-e1d143709226"
 
-["0.5 - 0"]
+["0.5 - 1"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
-["0.5.8 - 0"]
+["0.5.8 - 1"]
 OptimizationBase = "bca83a33-5cc9-4baa-983d-23429ab6bcbb"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+
+[1]
+ModelingToolkitBase = "7771a370-6774-4173-bd38-47e70ca0b839"
+SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
