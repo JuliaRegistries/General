@@ -60,13 +60,15 @@ DiffEqBase = "6.176.0 - 6"
 FastBroadcast = "0.3"
 FastPower = "1.1.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
-LinearSolve = "3.26.0 - 3"
 MuladdMacro = "0.2"
 Polyester = "0.7"
 RecursiveArrayTools = "3.36.0 - 3"
 Reexport = "1.2.0 - 1"
 SciMLBase = "2.99.0 - 2"
 SciMLOperators = "1.4.0 - 1"
+
+["1.15 - 1.18"]
+LinearSolve = "3.26.0 - 3"
 
 ["1.16"]
 OrdinaryDiffEqCore = "1.29.0 - 1"
@@ -77,6 +79,9 @@ OrdinaryDiffEqNonlinearSolve = "1.13.0 - 1"
 
 ["1.17 - 1"]
 OrdinaryDiffEqCore = "2"
+
+["1.19 - 1"]
+LinearSolve = "3.46.0 - 3"
 
 ["1.2 - 1.14"]
 FastPower = "1"
