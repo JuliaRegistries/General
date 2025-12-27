@@ -70,7 +70,6 @@ ArrayInterface = "7.19.0 - 7"
 FastBroadcast = "0.3"
 FastClosures = "0.3"
 LinearAlgebra = "1.10.0 - 1"
-LinearSolve = "3.26.0 - 3"
 MuladdMacro = "0.2"
 PreallocationTools = "0.4"
 RecursiveArrayTools = "3.36.0 - 3"
@@ -87,6 +86,9 @@ NonlinearSolve = "4.10.0 - 4"
 ["1.13 - 1.14.0"]
 ForwardDiff = "0.10.38 - 0.10"
 
+["1.13 - 1.17"]
+LinearSolve = "3.26.0 - 3"
+
 ["1.14 - 1"]
 OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
 
@@ -102,6 +104,10 @@ NonlinearSolve = "4.12.0 - 4"
 
 ["1.16 - 1"]
 OrdinaryDiffEqCore = "2"
+
+["1.18 - 1"]
+LinearSolve = "3.46.0 - 3"
+SparseArrays = "1"
 
 ["1.2.3 - 1.10"]
 NonlinearSolve = "3.14.0-4"
