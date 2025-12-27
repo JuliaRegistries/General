@@ -176,6 +176,10 @@ NonlinearSolveBase = "1.1.0-1"
 ["2.1 - 2.5"]
 NonlinearSolveBase = "1.4.0-1"
 
+["2.10 - 2"]
+BracketingNonlinearSolve = "1.6.0 - 1"
+NonlinearSolveBase = "2.2.0 - 2"
+
 ["2.2.1 - 2.5"]
 ForwardDiff = ["0.10.36-0.10", "1"]
 
@@ -188,7 +192,6 @@ DifferentiationInterface = "0.6.16-0.7"
 ["2.6 - 2"]
 ADTypes = "1.2.0 - 1"
 ArrayInterface = "7.16.0 - 7"
-BracketingNonlinearSolve = "1.1.0 - 1"
 CommonSolve = "0.2.4 - 0.2"
 ConcreteStructs = "0.2.3 - 0.2"
 FastClosures = "0.3.2 - 0.3"
@@ -208,6 +211,9 @@ NonlinearSolveBase = "1.4.0 - 1"
 Reexport = "1.2.0 - 1"
 SciMLBase = "2.69.0 - 2"
 
+["2.6 - 2.9"]
+BracketingNonlinearSolve = "1.1.0 - 1"
+
 ["2.8"]
 NonlinearSolveBase = "1.15.0 - 1"
 
@@ -216,5 +222,5 @@ DifferentiationInterface = "0.7.3 - 0.7"
 Reexport = "1.2.2 - 1"
 SciMLBase = "2.116.0 - 2"
 
-["2.9 - 2"]
+["2.9"]
 NonlinearSolveBase = "2"
