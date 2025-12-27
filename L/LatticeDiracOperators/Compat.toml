@@ -65,12 +65,19 @@ julia = "1.10.0 - 1"
 Gaugefields = "0.5 - 0.6"
 
 ["0.5 - 0"]
-JACC = "0.5"
 StaticArrays = "1.9.15 - 1"
 julia = "1.11.0 - 1"
 
+["0.5 - 0.5.10"]
+JACC = "0.5"
+
 ["0.5 - 0.5.6"]
 MPI = "0.20.23 - 0.20"
+
+["0.5.11 - 0"]
+Gaugefields = "0.6.16 - 0.6"
+JACC = "0.5 - 0.6"
+LatticeMatrices = "0.2.5 - 0.2"
 
 ["0.5.3 - 0.5.4"]
 LatticeMatrices = "0.1.5 - 0.1"
@@ -83,11 +90,13 @@ LatticeMatrices = "0.1.11 - 0.1"
 LatticeMatrices = "0.1.12 - 0.1"
 
 ["0.5.7 - 0"]
-Gaugefields = "0.6.11 - 0.6"
 MPI = "0.20"
+
+["0.5.7 - 0.5.10"]
+Gaugefields = "0.6.11 - 0.6"
 
 ["0.5.8"]
 LatticeMatrices = "0.1.15 - 0.1"
 
-["0.5.9 - 0"]
+["0.5.9 - 0.5.10"]
 LatticeMatrices = "0.2.1 - 0.2"
