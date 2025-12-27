@@ -22,6 +22,9 @@ OrdinaryDiffEqCore = "1.1.0-1"
 ["1.10 - 1"]
 OrdinaryDiffEqCore = "2"
 
+["1.12 - 1"]
+LinearSolve = "3.46.0 - 3"
+
 ["1.2 - 1.6"]
 FastPower = "1"
 
@@ -61,12 +64,14 @@ ADTypes = "1.16.0 - 1"
 DiffEqBase = "6.176.0 - 6"
 FastBroadcast = "0.3"
 FastPower = "1.1.0 - 1"
-LinearSolve = "3.26.0 - 3"
 MuladdMacro = "0.2"
 Polyester = "0.7"
 RecursiveArrayTools = "3.36.0 - 3"
 Reexport = "1.2.0 - 1"
 SciMLBase = "2.99.0 - 2"
+
+["1.7 - 1.11"]
+LinearSolve = "3.26.0 - 3"
 
 ["1.8 - 1"]
 OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
