@@ -1,30 +1,32 @@
 [0]
 DSP = "0.7"
-DataStructures = "0.18"
 Dictionaries = "0.4"
 Distributions = "0.25"
 DomainSets = "0.7"
 IfElse = "0.1"
-LinearAlgebra = "1.10.0-1"
 LogExpFunctions = "0.3"
 PDMats = "0.11"
 RecursiveArrayTools = "3"
 StatsBase = "0.34"
-julia = "1.10.0-1"
 
-["0-0.2"]
+["0 - 0.2"]
 Symbolics = "5"
 
-["0-0.2.0"]
+["0 - 0.2.0"]
 SymbolicUtils = "2"
 
-["0-0.3.1"]
+["0 - 0.3.1"]
 Manifolds = "0.9"
 
-["0.2.1-0.2"]
+["0 - 0.3.2"]
+DataStructures = "0.18"
+LinearAlgebra = "1.10.0-1"
+julia = "1.10.0-1"
+
+["0.2.1 - 0.2"]
 SymbolicUtils = "2.1.1"
 
-["0.3-0"]
+["0.3 - 0"]
 Symbolics = "6"
 
 ["0.3.0"]
@@ -33,6 +35,13 @@ SymbolicUtils = "3.1.2-3"
 ["0.3.1"]
 SymbolicUtils = "3"
 
-["0.3.2-0"]
+["0.3.2"]
 Manifolds = "0.9-0.10"
 SymbolicUtils = "3.1.2-3"
+
+["0.3.3 - 0"]
+DataStructures = "0.18 - 0.19"
+LinearAlgebra = "1.10.0 - 1"
+Manifolds = "0.9 - 0.10"
+SymbolicUtils = "3.1.2 - 3"
+julia = "1.10.0 - 1"
