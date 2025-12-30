@@ -1,10 +1,18 @@
 [0]
 DiffEqBase = "6"
+
+["0 - 0.2.0"]
+Reexport = "0.2"
+
+["0 - 0.2.1"]
 PyCall = "1.91.0-1"
 julia = "1"
 
-["0-0.2.0"]
-Reexport = "0.2"
-
-["0.2.1-0"]
+["0.2.1"]
 Reexport = ["0.2", "1"]
+
+["0.2.2 - 0"]
+PrecompileTools = "1"
+PyCall = "1.91.0 - 1"
+Reexport = "1"
+julia = "1.10.0 - 1"
