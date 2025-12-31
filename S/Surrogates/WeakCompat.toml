@@ -4,5 +4,10 @@ Flux = "0.15 - 0.16"
 GaussianMixtures = "0.3.13 - 0.3"
 LIBSVM = "0.8"
 Optimisers = "0.4.4 - 0.4"
-PolyChaos = "0.2.5 - 0.2"
 XGBoost = "2"
+
+["7 - 7.2"]
+PolyChaos = "0.2.5 - 0.2"
+
+["7.3 - 7"]
+PolyChaos = ["0.2.5 - 0.2", "1"]
