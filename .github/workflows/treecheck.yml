@@ -36,7 +36,7 @@ jobs:
           version: '1.11'
       - name: Cache artifacts and packages
         uses: julia-actions/cache@d10a6fd8f31b12404a54613ebad242900567f2b9 # v2.1.0
-      - uses: tj-actions/changed-files@24d32ffd492484c1d75e0c0b894501ddb9d30d62 #v47.0.0
+      - uses: tj-actions/changed-files@e0021407031f5be11a464abee9a0776171c79891 #v47.0.1
         id: changed-files
       - run: |
           import Pkg
