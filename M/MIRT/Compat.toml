@@ -1,7 +1,7 @@
-["0-0.1"]
+["0 - 0.1"]
 julia = "1.1-1"
 
-["0-0.7"]
+["0 - 0.7"]
 Colors = "0.0.0-0.9"
 DSP = "0.0.0-0.6"
 Distributions = "0.0.0-0.23"
@@ -14,15 +14,15 @@ MosaicViews = "0.0.0-0.1"
 Plots = "0.0.0-0.27"
 Wavelets = "0.0.0-0.9"
 
-["0.10-0.12"]
+["0.10 - 0.12"]
 LinearMapsAA = "0.6"
 
-["0.10-0.13"]
+["0.10 - 0.13"]
 MosaicViews = "0.2"
 NFFT = "0.5"
 SpecialFunctions = "0.10"
 
-["0.13-0.14"]
+["0.13 - 0.14"]
 LinearMapsAA = "0.6.5-0.6"
 
 ["0.14"]
@@ -32,21 +32,21 @@ Reexport = ["0.2", "1"]
 SpecialFunctions = ["0.10", "1"]
 julia = "1.5.0-1"
 
-["0.14-0"]
+["0.14 - 0"]
 AVSfldIO = "0.2"
 FFTW = "1"
 
-["0.14-0.15"]
+["0.14 - 0.15"]
 Interpolations = "0.12-0.13"
 NFFT = "0.6"
 
-["0.14-0.17"]
+["0.14 - 0.17"]
 FileIO = "1.9.0-1"
 
 ["0.14.0"]
 MIRTjim = "0.6"
 
-["0.14.1-0.14"]
+["0.14.1 - 0.14"]
 MIRTjim = "0.6-0.7"
 
 ["0.15"]
@@ -54,13 +54,10 @@ FillArrays = "0.12"
 LinearMapsAA = "0.7"
 SpecialFunctions = ["0.10", "1-2"]
 
-["0.15-0.17"]
+["0.15 - 0.17"]
 julia = "1.6.0-1"
 
-["0.16-0"]
-NFFT = "0.13"
-
-["0.16-0.17"]
+["0.16 - 0.17"]
 FillArrays = "0.12-0.13"
 ImageFiltering = "0.6-0.7"
 ImageTransformations = "0.8-0.9"
@@ -68,35 +65,45 @@ Interpolations = "0.12-0.14"
 LinearMapsAA = "0.11"
 SpecialFunctions = "1-2"
 
-["0.18-0"]
+["0.16 - 0.18.2"]
+NFFT = "0.13"
+
+["0.18 - 0"]
 FileIO = "1"
 ImageFiltering = "0.7"
-Interpolations = "0.15"
 LazyGrids = "1"
 LinearMapsAA = "0.12"
 SpecialFunctions = "2"
 Wavelets = "0.10"
+
+["0.18 - 0.18.2"]
+Interpolations = "0.15"
 julia = "1.10.0-1"
 
 ["0.18.0"]
 FillArrays = "1"
 ImageTransformations = "0.10"
 
-["0.18.1-0"]
+["0.18.1 - 0"]
 Distributed = "1"
 LinearAlgebra = "1"
 Random = "1"
 SharedArrays = "1"
 SparseArrays = "1"
 
-["0.2-0.8"]
+["0.18.3 - 0"]
+Interpolations = "0.15 - 0.16"
+NFFT = "0.13 - 0.14"
+julia = "1.10.0 - 1"
+
+["0.2 - 0.8"]
 julia = "1.1.0-1"
 
-["0.4-0.7"]
+["0.4 - 0.7"]
 BenchmarkTools = "0.0.0-0.4"
 NFFT = "0.0.0-0.4"
 
-["0.6-0.7"]
+["0.6 - 0.7"]
 Elliptic = "0.0.0-1"
 ImageFiltering = "0.0.0-0.6"
 ImageTransformations = "0.0.0-0.8"
@@ -112,38 +119,38 @@ MIRTio = "0.1"
 Plots = "0.27"
 SpecialFunctions = "0.8"
 
-["0.8-0.13"]
+["0.8 - 0.13"]
 Reexport = "0.2"
 
-["0.8-0.17"]
+["0.8 - 0.17"]
 Wavelets = "0.9"
 
-["0.8-0.9"]
+["0.8 - 0.9"]
 NFFT = "0.4"
 
-["0.8-0.9.0"]
+["0.8 - 0.9.0"]
 FFTViews = "0.3"
 ImageFiltering = "0.6.5-0.6"
 ImageTransformations = "0.8"
 LinearMaps = "2.5.2-2"
 
-["0.8-0.9.1"]
+["0.8 - 0.9.1"]
 BenchmarkTools = "0.4.3-0.4"
 LaTeXStrings = "1.0.3-1"
 
-["0.8-0.9.3"]
+["0.8 - 0.9.3"]
 MosaicViews = "0.1"
 
-["0.9-0.13"]
+["0.9 - 0.13"]
 FFTW = "1.2.0-1"
 julia = "1.3.0-1"
 
-["0.9-0.9.1"]
+["0.9 - 0.9.1"]
 DSP = "0.6.2-0.6"
 Plots = "0.28.4-0.28"
 SpecialFunctions = "0.9"
 
-["0.9-0.9.2"]
+["0.9 - 0.9.2"]
 MIRTio = "0.2.1-0.2"
 
 ["0.9.0"]
@@ -158,12 +165,12 @@ ImageFiltering = "0.6.10-0.6"
 Interpolations = "0.12.7-0.12"
 LinearMaps = "2.6.0-2"
 
-["0.9.1-0.9.2"]
+["0.9.1 - 0.9.2"]
 Colors = "0.11.2-0.11"
 FFTViews = "0.3.1-0.3"
 ImageTransformations = "0.8.3-0.8"
 
-["0.9.1-0.9.5"]
+["0.9.1 - 0.9.5"]
 LinearMapsAA = "0.4"
 
 ["0.9.2"]
@@ -175,7 +182,7 @@ LinearMaps = "2.6.1-2"
 Plots = "0.29.3-0.29"
 SpecialFunctions = "0.10"
 
-["0.9.2-0.12"]
+["0.9.2 - 0.12"]
 BenchmarkTools = "0.5"
 LaTeXStrings = "1.1.0-1"
 
@@ -183,37 +190,37 @@ LaTeXStrings = "1.1.0-1"
 Colors = "0.8-0.11"
 Plots = "0.29"
 
-["0.9.3-0.12"]
+["0.9.3 - 0.12"]
 FileIO = "1.2.0-1"
 LinearMaps = "2.6.0-2"
 
-["0.9.3-0.13"]
+["0.9.3 - 0.13"]
 FFTViews = "0.3"
 Interpolations = "0.12"
 MIRTio = "0.2"
 
-["0.9.3-0.15"]
+["0.9.3 - 0.15"]
 ImageFiltering = "0.6"
 ImageTransformations = "0.8"
 
-["0.9.3-0.9"]
+["0.9.3 - 0.9"]
 SpecialFunctions = "0.8-0.10"
 
-["0.9.3-0.9.4"]
+["0.9.3 - 0.9.4"]
 DSP = "0.6"
 
 ["0.9.4"]
 Colors = "0.8-0.12"
 Plots = ["0.29", "1"]
 
-["0.9.4-0.9"]
+["0.9.4 - 0.9"]
 MosaicViews = "0.1-0.2"
 
 ["0.9.5"]
 Plots = "1.1.0-1"
 
-["0.9.6-0.13"]
+["0.9.6 - 0.13"]
 Plots = "1.4.0-1"
 
-["0.9.6-0.9"]
+["0.9.6 - 0.9"]
 LinearMapsAA = "0.5"
