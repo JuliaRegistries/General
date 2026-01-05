@@ -3,6 +3,8 @@ LazyArtifacts = "1"
 
 [1-3]
 JLLWrappers = "1.4.0-1"
+
+[1-4]
 MPIPreferences = "0.1"
 MPItrampoline_jll = "5.2.1-5"
 julia = "1.6.0-1"
@@ -13,8 +15,15 @@ Libdl = "1"
 TOML = "1"
 
 [3]
+MPICH_jll = "4.2.3-4"
+
+[3-4]
 Artifacts = ["0.0.0", "1"]
 LazyArtifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
-MPICH_jll = "4.2.3-4"
 TOML = ["0.0.0", "1"]
+
+[4]
+JLLWrappers = "1.7.0-1"
+MPICH_jll = "4.3.0-4"
+OpenMPI_jll = ["4.1.8-4", "5.0.7-5"]
