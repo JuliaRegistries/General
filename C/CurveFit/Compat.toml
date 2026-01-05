@@ -39,7 +39,6 @@ Polynomials = "1-4"
 
 [1]
 ADTypes = "1.20.0 - 1"
-CommonSolve = "0.2"
 ConcreteStructs = "0.2.3 - 0.2"
 DifferentiationInterface = "0.7.13 - 0.7"
 Distributions = "0.25.122 - 0.25"
@@ -56,3 +55,9 @@ SciMLBase = "2.90.0 - 2"
 Setfield = "1.1.2 - 1"
 StatsAPI = "1.8.0 - 1"
 julia = "1.10.0 - 1"
+
+["1.0"]
+CommonSolve = "0.2"
+
+["1.1 - 1"]
+CommonSolve = "0.2.6 - 0.2"
