@@ -12,7 +12,6 @@ Parameters = "0.12"
 ProgressBars = "1"
 Requires = ["0.5", "1"]
 Revise = "3"
-RollingFunctions = "0.8"
 SGtSNEpi = "0.4"
 SpecialFunctions = "2.5.0 - 2"
 StaticArrays = "1"
@@ -31,6 +30,9 @@ Unitful = "1"
 
 ["1 - 1.6"]
 julia = "1"
+
+["1 - 1.7.0"]
+RollingFunctions = "0.8"
 
 ["1.5.11 - 1"]
 JLD2 = "0.5 - 0.6"
