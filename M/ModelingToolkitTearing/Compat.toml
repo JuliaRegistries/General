@@ -9,14 +9,21 @@ OrderedCollections = "1.8.1 - 1"
 SciMLBase = "2.108.0 - 2"
 Setfield = ["0.7 - 0.8", "1"]
 SparseArrays = "1"
-StateSelection = "1.1.0 - 1"
 SymbolicIndexingInterface = "0.3"
 SymbolicUtils = "4.3.0 - 4"
 Symbolics = "7.1.0 - 7"
 julia = "1.10.0 - 1"
 
+["1 - 1.1"]
+StateSelection = "1.1.0 - 1"
+
 ["1.0"]
 ModelingToolkitBase = "1"
 
-["1.1 - 1"]
+["1.1"]
 ModelingToolkitBase = "1.2.0 - 1"
+
+["1.2 - 1"]
+LinearAlgebra = "1"
+ModelingToolkitBase = "1.4.0 - 1"
+StateSelection = "1.3.0 - 1"

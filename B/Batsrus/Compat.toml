@@ -63,14 +63,16 @@ NaturalNeighbours = "1.3.0 - 1"
 Parsers = "2.4.0 - 2"
 Printf = "1.10.0 - 1"
 ProgressMeter = "1.10.0 - 1"
-PyPlot = "2.9.0 - 2"
 RecipesBase = "1.1.0 - 1"
 Reexport = "1.2.0 - 1"
-Requires = "1.1.0 - 1"
 StaticArrays = "1.2.0 - 1"
 Unitful = "1.7.0 - 1"
 WriteVTK = "1.9.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.8.14 - 0.8"]
+PyPlot = "2.9.0 - 2"
+Requires = "1.1.0 - 1"
 
 ["0.8.3 - 0.8.13"]
 LinearAlgebra = "1.10.0-1"
@@ -82,3 +84,9 @@ ProgressMeter = "1.10.0-1"
 
 ["0.8.8 - 0"]
 PrecompileTools = "1"
+
+["0.9 - 0"]
+FHist = "0.11.17 - 0.11"
+
+["0.9.1 - 0"]
+GaussianMixtures = "0.3.13 - 0.3"

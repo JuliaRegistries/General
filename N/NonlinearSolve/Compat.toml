@@ -326,7 +326,7 @@ RecursiveArrayTools = "3.8.0-3"
 ["3.9 - 4.9"]
 FastClosures = "0.3.2-0.3"
 
-[4]
+["4 - 4.12"]
 BracketingNonlinearSolve = "1"
 
 ["4 - 4.2"]
@@ -375,30 +375,47 @@ CommonSolve = "0.2.4 - 0.2"
 ConcreteStructs = "0.2.3 - 0.2"
 FastClosures = "0.3.2 - 0.3"
 FiniteDiff = "2.24.0 - 2"
-ForwardDiff = ["0.10.36 - 0.10", "1"]
 LineSearch = "0.1.4 - 0.1"
 LinearAlgebra = "1.10.0 - 1"
+PrecompileTools = "1.2.0 - 1"
+StaticArraysCore = "1.4.0 - 1"
+julia = "1.10.0 - 1"
+
+["4.10 - 4.12"]
+ForwardDiff = ["0.10.36 - 0.10", "1"]
 LinearSolve = "2.36.1 - 3"
 NonlinearSolveFirstOrder = "1.2.0 - 1"
 NonlinearSolveSpectralMethods = "1.1.0 - 1"
-PrecompileTools = "1.2.0 - 1"
 SimpleNonlinearSolve = "2.1.0 - 2"
-StaticArraysCore = "1.4.0 - 1"
-julia = "1.10.0 - 1"
 
 ["4.11"]
 NonlinearSolveBase = "1.15.0 - 1"
 
 ["4.11 - 4"]
 DifferentiationInterface = "0.7.3 - 0.7"
-NonlinearSolveQuasiNewton = "1.8.0 - 1"
 Preferences = "1.4.3 - 1"
 Reexport = "1.2.2 - 1"
-SciMLBase = "2.116.0 - 2"
 SymbolicIndexingInterface = "0.3.43 - 0.3"
 
-["4.12 - 4"]
+["4.11 - 4.12"]
+NonlinearSolveQuasiNewton = "1.8.0 - 1"
+SciMLBase = "2.116.0 - 2"
+
+["4.12"]
 NonlinearSolveBase = "2"
+
+["4.13 - 4"]
+BracketingNonlinearSolve = "1.6.0 - 1"
+ForwardDiff = "1"
+LinearSolve = "3.48.0 - 3"
+NonlinearSolveBase = "2.2.0 - 2"
+NonlinearSolveFirstOrder = "1.11.0 - 1"
+NonlinearSolveQuasiNewton = "1.12.0 - 1"
+NonlinearSolveSpectralMethods = "1.6.0 - 1"
+ReTestItems = "1.24.0 - 1"
+SciMLBase = "2.127.0 - 2"
+SciMLLogging = "1.7.0 - 1"
+SimpleNonlinearSolve = "2.10.0 - 2"
 
 ["4.3 - 4.9"]
 NonlinearSolveBase = "1.4.0-1"

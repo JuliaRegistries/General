@@ -1,7 +1,7 @@
-["0-0.1"]
+["0 - 0.1"]
 DiffEqBase = "6"
 
-["0-0.2.0"]
+["0 - 0.2.0"]
 Reexport = "0.2"
 julia = "1"
 
@@ -11,16 +11,24 @@ GeometricIntegrators = "0.1"
 ["0.1"]
 GeometricIntegrators = "0.2"
 
-["0.2-0.2.1"]
+["0.2 - 0.2.1"]
 GeometricIntegrators = "0.6"
 
 ["0.2.0"]
 DiffEqBase = "6.49.0-6"
 
-["0.2.1-0"]
+["0.2.1 - 0"]
 DiffEqBase = "6.62.0-6"
-Reexport = ["0.2", "1"]
 julia = "1.6.0-1"
 
-["0.2.2-0"]
+["0.2.1 - 1"]
+Reexport = ["0.2", "1"]
+
+["0.2.2 - 0"]
 GeometricIntegrators = ["0.6", "0.9"]
+
+[1]
+DiffEqBase = "6.62.0 - 6"
+GeometricIntegrators = "0.15"
+SciMLBase = "2"
+julia = "1.10.0 - 1"

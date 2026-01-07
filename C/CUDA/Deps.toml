@@ -33,8 +33,10 @@ Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0 - 5.9.5"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 ["2 - 5"]
 BFloat16s = "ab4f0b2a-ad5b-11e8-123f-65d77653426b"
