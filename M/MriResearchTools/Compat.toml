@@ -1,99 +1,101 @@
-["0-0.1.3"]
+["0 - 0.1.3"]
 ROMEO = "0.1"
 
-["0-0.2.0"]
+["0 - 0.2.0"]
 NaNMath = "0.3.2-0.3"
 
-["0-0.4"]
+["0 - 0.4"]
 NIfTI = "0.4"
 Statistics = "1"
 julia = "1"
 
-["0-0.4.1"]
+["0 - 0.4.1"]
 Interpolations = "0.12"
 
-["0-0.5"]
+["0 - 0.5"]
 FFTW = "1"
 
-["0.1.4-0.2.0"]
+["0.1.4 - 0.2.0"]
 ROMEO = "0.1.4-0.1"
 
-["0.2-0.4"]
+["0.2 - 0.4"]
 DataStructures = "0.18"
 
-["0.2.1-0.5.1"]
+["0.2.1 - 0.5.1"]
 ROMEO = "0.1.4-0.2"
 
-["0.4.2-1.0.3"]
+["0.4.2 - 1.0.3"]
 Interpolations = "0.12-0.13"
 
-["0.5-0.5.1"]
+["0.5 - 0.5.1"]
 Statistics = "1.3.0-1"
 julia = "1.3.0-1"
 
-["0.5-1.0.5"]
+["0.5 - 1.0.5"]
 NIfTI = "0.4-0.5"
 
-["0.5-3"]
+["0.5 - 3.3"]
 DataStructures = "0.11-0.18"
 
-["0.5.2-0.5"]
+["0.5.2 - 0.5"]
 ImageMorphology = "0.2"
 
-["0.5.2-0.6"]
+["0.5.2 - 0.6"]
 ROMEO = "0.2.5-0.2"
 
-["0.5.2-1"]
+["0.5.2 - 1"]
 Statistics = "1.5.0-1"
 julia = "1.5.0-1"
 
-["0.5.2-3"]
+["0.5.2 - 3"]
 PaddedViews = "0.5"
 
-["0.6-0.7"]
+["0.6 - 0.7"]
 Requires = "1"
 
-["0.6-0.8.0"]
+["0.6 - 0.8.0"]
 ImageMorphology = "0.2-0.3"
 
-["0.7-0"]
+["0.7 - 0"]
 ROMEO = "0.3"
 
-["0.8-0"]
+["0.8 - 0"]
 ImageSegmentation = "1"
 
-["0.8-2.1"]
+["0.8 - 2.1"]
 LocalFilters = "1"
 StatsBase = "0.33"
 
-["0.8-3"]
-FFTW = "1"
+["0.8 - 3"]
 ImageFiltering = "0.7"
 OffsetArrays = "1"
 
-["0.8.1-1.0.4"]
+["0.8 - 3.3"]
+FFTW = "1"
+
+["0.8.1 - 1.0.4"]
 ImageMorphology = "0.2-0.4"
 
-[1-3]
+["1 - 3"]
 ROMEO = "1"
 
-["1.0.4-3.1.2"]
+["1.0.4 - 3.1.2"]
 Interpolations = "0.12-0.14"
 
-["1.0.5-2.1"]
+["1.0.5 - 2.1"]
 ImageMorphology = "0.2-0.3"
 
-["1.0.6-2.1"]
+["1.0.6 - 2.1"]
 NIfTI = "0.4-0.5.7"
 
 [2]
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
-["2-2.1"]
+["2 - 2.1"]
 QSM = "0.4"
 
-["2.2-3"]
+["2.2 - 3.3"]
 ImageMorphology = "0.2-0.4"
 LocalFilters = "1-2"
 NIfTI = ["0.4-0.5.7", "0.6"]
@@ -104,17 +106,29 @@ StatsBase = "0.33-0.34"
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
-["3.1-3"]
+["3.1 - 3.3"]
 julia = "1.7.0-1"
 
 ["3.1.0"]
 QuantitativeSusceptibilityMappingTGV = "0.2"
 Statistics = "1.7.0-1"
 
-["3.1.1-3.1.2"]
+["3.1.1 - 3.1.2"]
 QuantitativeSusceptibilityMappingTGV = "0.2-0.4"
 
-["3.1.3-3"]
+["3.1.3 - 3"]
+Statistics = "1"
+
+["3.1.3 - 3.3"]
 Interpolations = "0.12-0.15"
 QuantitativeSusceptibilityMappingTGV = "0.2-0.5"
-Statistics = "1"
+
+["3.4 - 3"]
+DataStructures = "0.11 - 0.18"
+FFTW = "1.6 - 1.8"
+ImageMorphology = "0.2 - 0.4"
+Interpolations = "0.12 - 0.15"
+LocalFilters = "1 - 2"
+NIfTI = ["0.4 - 0.5.7", "0.6"]
+StatsBase = "0.33 - 0.34"
+julia = "1.9.0 - 1"
