@@ -1,3 +1,7 @@
 name = "QuantumCliffordPlots"
 uuid = "4eeed724-23be-436c-a322-a8540588cc9f"
 repo = "https://github.com/QuantumSavory/QuantumCliffordPlots.jl.git"
+
+[metadata.deprecated]
+reason = "All of the plotting capabilities are now provided as a package extension within the base package, `QuantumClifford`. See the [visualizations page in the docs](https://qc.quantumsavory.org/dev/plotting/)."
+alternative = "QuantumClifford"
