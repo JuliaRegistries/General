@@ -1,4 +1,4 @@
-["2-2.1"]
+["2 - 2.1"]
 DiffEqBase = "3-5"
 DiffEqNoiseProcess = "0.3.1-3"
 RandomNumbers = "0-1"
@@ -7,18 +7,23 @@ julia = ["0.7", "1"]
 ["2.2"]
 DiffEqNoiseProcess = "3"
 
-["2.2-2"]
+["2.2 - 2"]
 DiffEqBase = "6"
 RandomNumbers = "1"
 
-["2.2-2.4"]
+["2.2 - 2.4"]
 julia = "1"
 
 ["2.3"]
 DiffEqNoiseProcess = ["3", "4.1.0-4"]
 
-["2.4-2"]
+["2.4 - 2.7"]
 DiffEqNoiseProcess = ["3", "4.1.0-5"]
 
-["2.5-2"]
+["2.5 - 2.7"]
 julia = "1.6.0-1"
+
+["2.8 - 2"]
+DiffEqNoiseProcess = "5"
+Distributions = "0.25.100 - 0.25"
+julia = "1.10.0 - 1"
