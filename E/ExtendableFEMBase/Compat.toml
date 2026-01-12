@@ -54,7 +54,6 @@ ForwardDiff = ["0.10.35-0.10", "1"]
 ["1.2 - 1"]
 DocStringExtensions = "0.8 - 0.9"
 ExtendableGrids = "1.13.0 - 1"
-ExtendableSparse = "1.5.1 - 1"
 ForwardDiff = ["0.10.35 - 0.10", "1"]
 LinearAlgebra = "1.9.0 - 1"
 Polynomials = "2.0.21 - 4"
@@ -63,7 +62,13 @@ SparseArrays = "1.9.0 - 1"
 SpecialPolynomials = "0.4.9 - 0.5"
 julia = "1.9.0 - 1"
 
+["1.2 - 1.5.0"]
+ExtendableSparse = "1.5.1 - 1"
+
 ["1.5 - 1"]
 DifferentiationInterface = "0.7.10 - 0.7"
 SparseConnectivityTracer = "1.1.2 - 1"
 SparseMatrixColorings = "0.4.22 - 0.4"
+
+["1.5.1 - 1"]
+ExtendableSparse = "1.5.1 - 2"
