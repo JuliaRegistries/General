@@ -1,14 +1,25 @@
 [0]
-AstroCallbacks = "0.3"
 AstroEpochs = "0.5"
+EpicycleBase = "0.1"
+NLsolve = "4.5.0 - 4"
+OrdinaryDiffEq = "6.101.0 - 6"
+SNOW = "0.3"
+julia = "1.10.0 - 1"
+
+["0 - 0.3"]
+AstroCallbacks = "0.3"
 AstroFrames = "0.1"
 AstroManeuvers = "0.1"
 AstroModels = "0.1"
 AstroProp = "0.3"
 AstroStates = "0.9"
 AstroUniverse = "0.1"
-EpicycleBase = "0.1"
-NLsolve = "4.5.0 - 4"
-OrdinaryDiffEq = "6.101.0 - 6"
-SNOW = "0.3"
-julia = "1.10.0 - 1"
+
+["0.4 - 0"]
+AstroCallbacks = "0.4"
+AstroFrames = "0.2"
+AstroManeuvers = "0.2"
+AstroModels = "0.2"
+AstroProp = "0.4"
+AstroStates = "0.10"
+AstroUniverse = "0.2"
