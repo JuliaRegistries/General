@@ -140,8 +140,10 @@ ImplicitDiscreteSolve = ["0.1.2 - 0.1", "1"]
 SymbolicUtils = "3.30.0 - 3"
 
 ["10.18 - 11"]
-SCCNonlinearSolve = "1.4.0 - 1"
 StaticArrays = "1.9.14 - 1"
+
+["10.18 - 11.5"]
+SCCNonlinearSolve = "1.4.0 - 1"
 
 ["10.22 - 10"]
 JumpProcesses = "9.19.0 - 9"
@@ -167,7 +169,7 @@ PreallocationTools = "0.4.27 - 0.4"
 ["10.3 - 10.4"]
 SciMLBase = "2.100.0-2"
 
-["10.30 - 11"]
+["10.30 - 11.5"]
 SciMLBase = "2.125.0 - 2"
 
 ["10.5 - 10"]
@@ -255,20 +257,28 @@ SymbolicUtils = "4.7.1 - 4"
 ["11.1 - 11.2"]
 ModelingToolkitTearing = "1.0.2 - 1"
 
-["11.3 - 11"]
-ModelingToolkitTearing = "1.1.0 - 1"
-
 ["11.3 - 11.4"]
 ModelingToolkitBase = "1.2.0 - 1"
+
+["11.3 - 11.5"]
+ModelingToolkitTearing = "1.1.0 - 1"
+
+["11.5"]
+ModelingToolkitBase = "1.4.0 - 1"
 
 ["11.5 - 11"]
 DataStructures = "0.18 - 0.19"
 DocStringExtensions = "0.8 - 0.9"
-ModelingToolkitBase = "1.4.0 - 1"
 Moshi = "0.3.6 - 0.3"
 PreallocationTools = ["0.4.27 - 0.4", "1"]
 PrecompileTools = "1.2.1 - 1"
 RuntimeGeneratedFunctions = "0.5.12 - 0.5"
+
+["11.6 - 11"]
+ModelingToolkitBase = "1.5.3 - 1"
+ModelingToolkitTearing = "1.2.1 - 1"
+SCCNonlinearSolve = "1.8.1 - 1"
+SciMLBase = "2.132.0 - 2"
 
 ["2 - 5.13"]
 TreeViews = "0.3"
