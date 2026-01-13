@@ -328,14 +328,14 @@ ADTypes = "1"
 ["6.72 - 6.80"]
 OrdinaryDiffEqCore = "1.12.1-1"
 
-["6.73 - 6"]
-OrdinaryDiffEqNonlinearSolve = "1"
-
 ["6.73 - 6.79"]
 OrdinaryDiffEqDifferentiation = "1"
 
 ["6.73 - 6.80"]
 SciMLBase = "2.71.0-2"
+
+["6.73 - 6.89"]
+OrdinaryDiffEqNonlinearSolve = "1"
 
 ["6.76 - 6.80"]
 ForwardDiff = ["0.10.3-0.10", "1"]
@@ -447,3 +447,6 @@ Parameters = "0.11"
 
 ["6.9.1 - 6.10"]
 Parameters = "0.10-0.11"
+
+["6.90 - 6"]
+OrdinaryDiffEqNonlinearSolve = "1.18.1 - 1"
