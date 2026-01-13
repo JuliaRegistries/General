@@ -289,6 +289,7 @@ If you have a package that has already been registered, and decide to change the
 Notes:
 - See the [Registrator instructions](https://github.com/JuliaRegistries/Registrator.jl?tab=readme-ov-file#registering-a-package-in-a-subdirectory) for how to register a package in a subdirectory.
 - If you fail to make the manual pull request, the next time you register your package, the Registrator PR will include the addition of the `subdir` field but it won't be AutoMerged. Since a PR that both adds a `subdir` and contains all other changes for a new version is hard for humans to review, you will be asked to do the manual pull request first.
+- A copy of the license file needs to be in the package subdirectory.
 - A new package that has not previously been registered can be placed directly in a subdirectory and will be handled by AutoMerge like any other package.
 
 ### How do I move a subdirectory package to its own repository?
