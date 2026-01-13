@@ -79,7 +79,6 @@ DiffEqCallbacks = "4.3.0-4"
 
 ["9.16.1 - 9"]
 FunctionWrappers = "1.1.0 - 1"
-StaticArrays = "1.9.0 - 1"
 julia = "1.10.0 - 1"
 
 ["9.16.1 - 9.16"]
@@ -92,6 +91,9 @@ Graphs = "1.9.0 - 1"
 RecursiveArrayTools = "3.12.0 - 3"
 SciMLBase = "2.59.0 - 2"
 SymbolicIndexingInterface = "0.3.13 - 0.3"
+
+["9.16.1 - 9.19"]
+StaticArrays = "1.9.0 - 1"
 
 ["9.16.1 - 9.19.2"]
 UnPack = "1.0.2 - 1"
@@ -112,9 +114,11 @@ DiffEqCallbacks = "4.7.0 - 4"
 Graphs = "1.11.0 - 1"
 LinearAlgebra = "1"
 Random = "1"
-RecursiveArrayTools = "3.32.0 - 3"
 Reexport = "1.2.0 - 1"
 Setfield = "1.1.0 - 1"
+
+["9.18 - 9.19"]
+RecursiveArrayTools = "3.32.0 - 3"
 SymbolicIndexingInterface = "0.3.35 - 0.3"
 
 ["9.19 - 9"]
@@ -128,6 +132,11 @@ DiffEqBase = "6.192.0 - 6"
 
 ["9.2 - 9.7"]
 SciMLBase = "1.51.0-1"
+
+["9.20 - 9"]
+RecursiveArrayTools = "3.35.0 - 3"
+StaticArrays = "1.9.8 - 1"
+SymbolicIndexingInterface = "0.3.36 - 0.3"
 
 ["9.4 - 9.10"]
 ArrayInterface = "6-7"
