@@ -22,9 +22,17 @@ julia = "1.11.0-1"
 ["0.1 - 0"]
 CoordinateTransformations = "0.6.3 - 0.6"
 FileIO = "1.16.1 - 1"
-GeometryBasics = "0.4.7 - 0.4"
 LinearAlgebra = "1.11.0 - 1"
-MeshIO = "0.4.10 - 0.4"
 Rotations = "1.5.1 - 1"
 StaticArrays = "1.5.25 - 1"
+
+["0.1.0"]
+GeometryBasics = "0.4.7 - 0.4"
+MeshIO = "0.4.10 - 0.4"
 julia = "1.11.0 - 1"
+
+["0.1.1 - 0"]
+ColorTypes = "0.12.1 - 0.12"
+GeometryBasics = "0.5.10 - 0.5"
+MeshIO = "0.5.3 - 0.5"
+julia = "1.12.0 - 1"
