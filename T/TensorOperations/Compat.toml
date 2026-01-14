@@ -104,7 +104,6 @@ Preferences = "1.4.0-1"
 StridedViews = "0.3-0.4"
 
 ["5.2.1 - 5"]
-CUDA = "5.4.0 - 5"
 LinearAlgebra = "1.6.0 - 1"
 PrecompileTools = "1.1.0 - 1"
 Preferences = "1.4.0 - 1"
@@ -115,3 +114,9 @@ TupleTools = "1.6.0 - 1"
 VectorInterface = "0.4.1 - 0.5"
 cuTENSOR = "2.1.1 - 2"
 julia = "1.8.0 - 1"
+
+["5.2.1 - 5.3"]
+CUDA = "5.4.0 - 5"
+
+["5.4 - 5"]
+CUDA = "5"

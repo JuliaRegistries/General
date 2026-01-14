@@ -22,7 +22,6 @@ julia = "1.6.0-1"
 
 ["0.2 - 0"]
 ConstrainedShortestPaths = "0.6"
-Flux = "0.14 - 0.16"
 Graphs = "1.11.0 - 1"
 HiGHS = "1.9.0 - 1"
 Images = "0.26.1 - 0.26"
@@ -39,6 +38,9 @@ Printf = "1.11.0 - 1"
 Statistics = "1.11.1 - 1"
 julia = "1.6.0 - 1"
 
+["0.2 - 0.4.0"]
+Flux = "0.14 - 0.16"
+
 ["0.2.3 - 0"]
 Colors = "0.13.1 - 0.13"
 LaTeXStrings = "1.4.0 - 1"
@@ -48,9 +50,15 @@ Combinatorics = "1.0.3 - 1"
 FileIO = "1.17.0 - 1"
 InferOpt = "0.7"
 IterTools = "1.10.0 - 1"
+
+["0.3 - 0.4.0"]
 JSON = "0.21.4 - 0.21"
 
 ["0.4 - 0"]
 Printf = "1"
 Statistics = "1"
 julia = "1.10.0 - 1"
+
+["0.4.1 - 0"]
+Flux = "0.16"
+JSON = "1"

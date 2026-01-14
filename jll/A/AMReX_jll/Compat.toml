@@ -4,7 +4,7 @@ julia = "1"
 ["21-22.6"]
 JLLWrappers = "1.2.0-1"
 
-[22-25]
+[22-26]
 julia = "1.6.0-1"
 
 ["22.7-24"]
@@ -13,7 +13,7 @@ JLLWrappers = "1.4.0-1"
 ["22.7-24.4"]
 LazyArtifacts = "1"
 
-["22.7-25"]
+["22.7-26"]
 MPIPreferences = "0.1"
 
 ["22.7.1-22.7"]
@@ -36,17 +36,17 @@ MPItrampoline_jll = "5.3.0-5"
 ["23.5-25.2"]
 HDF5_jll = "1.14.0-1.14.3"
 
-["24.10-25"]
-Artifacts = ["0.0.0", "1"]
-LazyArtifacts = ["0.0.0", "1"]
-Libdl = ["0.0.0", "1"]
-TOML = ["0.0.0", "1"]
-
 ["24.10-25.1"]
 MPItrampoline_jll = "5.5.0-5"
 
 ["24.10-25.2"]
 MPICH_jll = "4.2.3-4"
+
+["24.10-26"]
+Artifacts = ["0.0.0", "1"]
+LazyArtifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]
+TOML = ["0.0.0", "1"]
 
 ["24.2-25.2"]
 OpenMPI_jll = "4.1.6-5"
@@ -54,7 +54,7 @@ OpenMPI_jll = "4.1.6-5"
 ["24.4"]
 MPItrampoline_jll = "5.3.3-5"
 
-[25]
+[25-26]
 JLLWrappers = "1.7.0-1"
 
 ["25.2"]
@@ -62,6 +62,11 @@ MPItrampoline_jll = "5.5.1-5"
 
 ["25.3-25"]
 HDF5_jll = "1.14.6-1.14"
+
+["25.3-26"]
 MPICH_jll = "4.3.0-4"
 MPItrampoline_jll = "5.5.3-5"
 OpenMPI_jll = ["4.1.8-4", "5.0.7-5"]
+
+[26]
+HDF5_jll = "2"
