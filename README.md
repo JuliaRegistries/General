@@ -279,6 +279,19 @@ Technically if you skip the second step things will keep working, because GitHub
 but it is best practice. For this reason, when you try to register a new release, the Julia
 Registrator will complain if the second step is skipped.
 
+### How do I move a package into a subdirectory of a repository?
+
+If you have a package that has already been registered, and decide to change the repository layout so that it instead resides in a subdirectory, do this:
+
+- Move the files with normal git commands, without changing the revision history.
+- Make a manual pull request to [this repository](https://github.com/JuliaRegistries/General/pulls) in which you add a `subdir` field in the package's Package.toml file (e.g [M/Makie/Package.toml](https://github.com/JuliaRegistries/General/blob/af591c91b2377b5e24dce1c5917162493620447c/M/Makie/Package.toml#L4)).
+
+Notes:
+- See the [Registrator instructions](https://github.com/JuliaRegistries/Registrator.jl?tab=readme-ov-file#registering-a-package-in-a-subdirectory) for how to register a package in a subdirectory.
+- If you fail to make the manual pull request, the next time you register your package, the Registrator PR will include the addition of the `subdir` field but it won't be AutoMerged. Since a PR that both adds a `subdir` and contains all other changes for a new version is hard for humans to review, you will be asked to do the manual pull request first.
+- A copy (not a symbolic link) of the license file needs to be in the package subdirectory.
+- A new package that has not previously been registered can be placed directly in a subdirectory and will be handled by AutoMerge like any other package.
+
 ### How do I move a subdirectory package to its own repository?
 
 Follow these steps to move a [subdirectory package](https://pkgdocs.julialang.org/v1/managing-packages/#Adding-a-package-in-a-subdirectory-of-a-repository) to its own repository. These steps are focused on GitHub hosted packages but are still applicable for packages hosted elsewhere:
