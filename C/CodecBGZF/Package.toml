@@ -1,3 +1,7 @@
 name = "CodecBGZF"
 uuid = "d9d91ef6-315d-495b-8131-db2ca24339d6"
 repo = "https://github.com/jakobnissen/CodecBGZF.jl.git"
+
+[metadata.deprecated]
+reason = "This package has hard-to-fix bugs and is not maintained"
+alternative = "BGZFLib"
