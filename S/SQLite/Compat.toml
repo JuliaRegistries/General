@@ -29,8 +29,10 @@ WeakRefStrings = "0.4-0.6"
 BinaryProvider = "0.5"
 
 [1]
-SQLite_jll = "3"
 Tables = "1"
+
+["1 - 1.7.0"]
+SQLite_jll = "3"
 
 ["1.0"]
 DBInterface = "2"
@@ -57,3 +59,6 @@ julia = "1.6.0-1"
 DBInterface = "2.5.0 - 2"
 WeakRefStrings = ["0.4 - 0.6", "1"]
 julia = "1.9.0 - 1"
+
+["1.7.1 - 1"]
+SQLite_jll = "3.51.0 - 3"
