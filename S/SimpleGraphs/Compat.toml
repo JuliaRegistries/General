@@ -68,14 +68,19 @@ AbstractLattices = "0.1-0.3"
 ["0.8.6"]
 LinearAlgebraX = "0.1-0.2"
 
+["0.8.7"]
+Optim = ["0.15 - 0.22", "1"]
+
 ["0.8.7 - 0"]
 AbstractLattices = "0.1 - 0.3"
 DataStructures = "0.9 - 0.19"
 LightXML = "0.7 - 0.9"
 LinearAlgebraX = "0.1 - 0.2"
-Optim = ["0.15 - 0.22", "1"]
 Primes = "0.4 - 0.5"
 RingLists = "0.1 - 0.2"
 SimplePartitions = ["0.0.1", "0.1 - 0.3"]
 SimplePolynomials = ["0.0.1 - 0.0.6", "0.1 - 0.2"]
 SimpleRandom = "0.1 - 0.3"
+
+["0.8.8 - 0"]
+Optim = ["0.15 - 0.22", "1 - 2"]
