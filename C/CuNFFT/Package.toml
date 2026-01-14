@@ -2,3 +2,7 @@ name = "CuNFFT"
 uuid = "a9291f20-7f4c-4d50-b30d-4e07b13252e1"
 repo = "https://github.com/JuliaMath/NFFT.jl.git"
 subdir = "CuNFFT"
+
+[metadata.deprecated]
+reason = "GPU compatible NFFT plans are now provided as a package extension within the base package, `NFFT`"
+alternative = "NFFT"
