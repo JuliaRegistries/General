@@ -32,11 +32,17 @@ MultiScaleTreeGraph = "0.14.3-0.14"
 ["0.13 - 0"]
 Colors = "0.12 - 0.13"
 Makie = "0.24"
-Meshes = "0.54"
 MultiScaleTreeGraph = "0.14.3 - 0.14"
 OrderedCollections = "1.7.0 - 1"
 Unitful = "1.17.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.13 - 0.14.0"]
+Meshes = "0.54"
+
+["0.14.1 - 0"]
+FixedPointNumbers = "0.8.5 - 0.8"
+Meshes = ["0.54", "0.56"]
 
 ["0.2"]
 MultiScaleTreeGraph = "0.3-0.4"
