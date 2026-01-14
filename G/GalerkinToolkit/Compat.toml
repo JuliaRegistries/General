@@ -1,7 +1,6 @@
 [0]
 Combinatorics = "1"
 FastGaussQuadrature = "1"
-Gmsh = "0.3"
 IterativeSolvers = "0.9"
 MPI = "0.20"
 Metis = "1"
@@ -14,6 +13,9 @@ julia = "1"
 
 ["0 - 0.3"]
 ForwardDiff = "0.10"
+
+["0 - 0.5"]
+Gmsh = "0.3"
 
 ["0.2 - 0"]
 BlockArrays = "1"
