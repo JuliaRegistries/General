@@ -1,17 +1,25 @@
 [0]
-ArrayInterface = "7"
 ArrayLayouts = "1"
 BandedMatrices = "1"
 ConcreteStructs = "0.2"
 LinearAlgebra = "1"
 PrecompileTools = "1"
 Reexport = "1"
-julia = "1.9.0-1"
 
-["0-0.1.1"]
+["0 - 0.1.1"]
 LazyArrays = "1"
 MatrixFactorizations = "2"
 
-["0.1.2-0"]
+["0 - 0.1.5"]
+ArrayInterface = "7"
+julia = "1.9.0-1"
+
+["0.1.2 - 0.1.5"]
 LazyArrays = "1-2"
 MatrixFactorizations = "2-3"
+
+["0.1.6 - 0"]
+ArrayInterface = "7.5.0 - 7"
+LazyArrays = "1 - 2"
+MatrixFactorizations = "2 - 3"
+julia = "1.10.0 - 1"
