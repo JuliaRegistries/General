@@ -1,6 +1,5 @@
 [0]
 ArtifactUtils = "0.2.4 - 0.2"
-Artifacts = "1.11.0 - 1"
 Bonito = "4.1.11 - 4"
 CSV = "0.10"
 CovarianceEstimation = "0.2"
@@ -15,14 +14,12 @@ FourierAnalysis = "1.2.0 - 1"
 HDF5 = "0.17"
 HTTP = "1.10.19 - 1"
 IsURL = "0.2"
-JSON = "0.21.4 - 0.21"
 LinearAlgebra = "1.11.0 - 1"
 NPZ = "0.4"
 NativeFileDialog = "0.2.1 - 0.2"
 PermutationTests = "0.2"
 PosDefManifold = "0.5"
 PosDefManifoldML = "0.5"
-PrettyTables = "2.4.0 - 2"
 Reexport = "1.2.0 - 1"
 Revise = "3.8.0 - 3"
 Statistics = "1.11.0 - 1"
@@ -30,4 +27,16 @@ StatsBase = "0.34"
 Test = "1.11.0 - 1"
 YAML = "0.4"
 ZipFile = "0.10.1 - 0.10"
+
+["0 - 0.1.0"]
+Artifacts = "1.11.0 - 1"
+JSON = "0.21.4 - 0.21"
+PrettyTables = "2.4.0 - 2"
 julia = "1"
+
+["0.1.1 - 0"]
+Artifacts = "1"
+JSON = ["0.21.4 - 0.21", "1"]
+PrecompileSignatures = "3.0.3 - 3"
+PrettyTables = "2.4.0 - 3"
+julia = "1.8.0 - 1"
