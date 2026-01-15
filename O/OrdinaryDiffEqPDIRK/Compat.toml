@@ -16,6 +16,10 @@ FastBroadcast = "0.3.5-0.3"
 ["1 - 1.5"]
 OrdinaryDiffEqNonlinearSolve = ["0.0.0", "1"]
 
+["1.10 - 1"]
+OrdinaryDiffEqCore = "3"
+OrdinaryDiffEqNonlinearSolve = "1.16.0 - 1"
+
 ["1.2"]
 OrdinaryDiffEqCore = "1.14.0-1"
 
@@ -61,7 +65,9 @@ OrdinaryDiffEqCore = "1.29.0 - 1"
 
 ["1.6 - 1"]
 OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
+
+["1.6 - 1.9"]
 OrdinaryDiffEqNonlinearSolve = "1.13.0 - 1"
 
-["1.7 - 1"]
+["1.7 - 1.9"]
 OrdinaryDiffEqCore = "2"
