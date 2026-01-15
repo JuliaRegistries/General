@@ -15,6 +15,9 @@ julia = "1.10.0-1"
 ["1 - 1.4"]
 LinearAlgebra = ["0.0.0", "1"]
 
+["1.10 - 1"]
+OrdinaryDiffEqCore = "3"
+
 ["1.2"]
 SciMLOperators = "0.3.9-0.4"
 
@@ -49,5 +52,5 @@ SciMLOperators = "1.4.0 - 1"
 ["1.6"]
 OrdinaryDiffEqCore = "1.29.0 - 1"
 
-["1.7 - 1"]
+["1.7 - 1.9"]
 OrdinaryDiffEqCore = "2"
