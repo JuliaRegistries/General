@@ -19,9 +19,11 @@ CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 OpenBLAS_jll = "4536629a-c528-5b80-bd46-f80d51c5b363"
 
 ["5.4.2-5"]
-OpenBLAS32_jll = "656ef2d0-ae68-5445-9ca0-591084a874a2"
 SCALAPACK32_jll = "aabda75e-bfe4-5a37-92e3-ffe54af3c273"
 SCOTCH_jll = "a8d0f55d-b80e-548d-aff6-1a04c175f0f9"
+
+["5.4.2-5.8.1"]
+OpenBLAS32_jll = "656ef2d0-ae68-5445-9ca0-591084a874a2"
 
 ["5.5-5"]
 LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
@@ -33,3 +35,6 @@ TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 
 ["5.6.2-5.7"]
 PTSCOTCH_jll = "b3ec0f5a-9838-5c9b-9e77-5f2c6a4b089f"
+
+["5.8.2-5"]
+libblastrampoline_jll = "8e850b90-86db-534c-a0d3-1478176c7d93"
