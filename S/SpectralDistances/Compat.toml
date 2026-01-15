@@ -105,7 +105,6 @@ DoubleFloats = "1.1.0 - 1"
 FillArrays = ["0.11 - 0.13", "1"]
 Hungarian = "0.7"
 Lazy = "0.14 - 0.15"
-Optim = ["0.19 - 0.22", "1"]
 OrdinaryDiffEq = "5 - 6"
 ProgressMeter = "1.3.0 - 1"
 Roots = "2"
@@ -115,9 +114,17 @@ StatsBase = "0.32 - 0.34"
 ThreadTools = "0.1.1 - 0.2"
 TotalLeastSquares = "1.5.0 - 1"
 
+["0.1.16 - 0.1.17"]
+Optim = ["0.19 - 0.22", "1"]
+
 ["0.1.17 - 0"]
 DSP = "0.8"
 julia = "1.11.0 - 1"
+
+["0.1.18 - 0"]
+ADTypes = "1"
+NLSolversBase = "8"
+Optim = "2"
 
 ["0.1.2"]
 LoopVectorization = "0.7.7-0.8"
