@@ -106,13 +106,7 @@ Acquisition = ["0.0.2", "0.0.4-0.0.5"]
 Acquisition = ["0.0.2", "0.0.4-0.0.5", "0.1"]
 
 ["0.15.3 - 0"]
-Accessors = "0.1"
 Adapt = "4.3.0 - 4"
-Dictionaries = "0.4.1 - 0.4"
-DocStringExtensions = "0.6 - 0.9"
-LoopVectorization = "0.8 - 0.12"
-StaticArrays = ["0.9 - 0.12", "1"]
-Unitful = ["0.12 - 0.18", "1"]
 
 ["0.15.3 - 0.15.4"]
 julia = "1.8.0 - 1"
@@ -129,25 +123,40 @@ Acquisition = "0.1.1 - 0.1"
 ["0.15.3 - 0.17"]
 GNSSSignals = "0.17.3 - 0.17"
 
-["0.15.5 - 0"]
+["0.15.3 - 1"]
+Accessors = "0.1"
+Dictionaries = "0.4.1 - 0.4"
+DocStringExtensions = "0.6 - 0.9"
+LoopVectorization = "0.8 - 0.12"
+StaticArrays = ["0.9 - 0.12", "1"]
+Unitful = ["0.12 - 0.18", "1"]
+
+["0.15.5 - 1"]
 ConstructionBase = "1.6.0 - 1"
 julia = "1.10.0 - 1"
 
-["0.15.6 - 0"]
+["0.15.6 - 1"]
 Bumper = "0.7.1 - 0.7"
 
-["0.15.7 - 0"]
+["0.15.7 - 1"]
 StructArrays = ["0.4", "0.6.5 - 0.7"]
 
 ["0.16.1 - 0"]
 Acquisition = "0.1.1 - 0.2"
 
 ["0.18 - 0"]
-GNSSSignals = ["0.17.3 - 0.17", "1"]
 TrackingLoopFilters = "0.2"
+
+["0.18 - 1"]
+GNSSSignals = ["0.17.3 - 0.17", "1"]
 
 ["0.9.3 - 0.10"]
 Unitful = "0.12.0-0.18"
 
 ["0.9.4 - 0.10"]
 julia = ["0.7.0", "1"]
+
+[1]
+Acquisition = ["0.1.1 - 0.3", "1"]
+LinearAlgebra = "1"
+TrackingLoopFilters = ["0.2", "1"]
