@@ -341,7 +341,6 @@ GPUArraysCore = "0.1 - 0.2"
 LinearAlgebra = "1.10.0 - 1"
 LinearSolve = "2 - 3"
 Markdown = "1.10.0 - 1"
-PreallocationTools = "0.4.4 - 0.4"
 QuadGK = "2.9.1 - 2"
 Random = "1.10.0 - 1"
 RandomNumbers = "1.5.3 - 1"
@@ -360,6 +359,9 @@ julia = "1.10.0 - 1"
 Enzyme = "0.13.50 - 0.13"
 Mooncake = "0.4.52 - 0.4"
 
+["7.87 - 7.91"]
+PreallocationTools = "0.4.4 - 0.4"
+
 ["7.88 - 7"]
 SciMLBase = "2.103.1 - 2"
 
@@ -370,5 +372,12 @@ Enzyme = "0.13.62 - 0.13"
 ["7.9 - 7.86"]
 PreallocationTools = "0.4.4-0.4"
 
-["7.91 - 7"]
+["7.91 - 7.92"]
 OrdinaryDiffEqCore = "1 - 2"
+
+["7.92 - 7"]
+PreallocationTools = ["0.4.4 - 0.4", "1"]
+SciMLLogging = "1.7.0 - 1"
+
+["7.93 - 7"]
+OrdinaryDiffEqCore = "1 - 3"

@@ -127,15 +127,26 @@ MLDataDevices = "1.6.10-1"
 [2]
 ADTypes = "1.10.0 - 1"
 ArrayInterface = "7.17.1 - 7"
-ChainRulesCore = "1.24.0 - 1"
 ComponentArrays = "0.15.22 - 0.15"
 DispatchDoctor = "0.4.12 - 0.4"
-Enzyme = "0.13.35 - 0.13"
 FiniteDiff = "2.23.1 - 2"
 ForwardDiff = ["0.10.36 - 0.10", "1"]
-JET = "0.9.6 - 0.10"
-MLDataDevices = "1.6.10 - 1"
 Optimisers = "0.3.4 - 0.4"
 Test = "1.10.0 - 1"
-Zygote = "0.6.70 - 0.7"
 julia = "1.10.0 - 1"
+
+["2.0"]
+ChainRulesCore = "1.24.0 - 1"
+Enzyme = "0.13.35 - 0.13"
+JET = "0.9.6 - 0.10"
+MLDataDevices = "1.6.10 - 1"
+Zygote = "0.6.70 - 0.7"
+
+["2.1 - 2"]
+Adapt = "4.1.0 - 4"
+ChainRulesCore = "1.25.1 - 1"
+Enzyme = "0.13.81 - 0.13"
+JET = "0.9.6 - 0.11"
+MLDataDevices = "1.17.0 - 1"
+Pkg = "1.10.0 - 1"
+Zygote = "0.7"

@@ -1,47 +1,47 @@
-[0]
-julia = "1.6.0-1"
-
-["0-0.3"]
+["0 - 0.3"]
 DataFrames = "1.2.0-1"
 Plots = "1.25.0-1"
 
-["0-0.3.13"]
+["0 - 0.3.13"]
 CSV = "0.9"
 Interpolations = "0.13"
 
-["0-0.3.5"]
+["0 - 0.3.5"]
 QuadGK = "2.4.0-2"
 
-["0-0.3.7"]
+["0 - 0.3.7"]
 DifferentialEquations = "7.1.0-7"
 
-["0-0.4.3"]
+["0 - 0.4.3"]
 Reexport = "1.2.0-1"
 
-["0-0.5.2"]
+["0 - 0.5.2"]
 ForwardDiff = "0.10"
 
-["0.3-0"]
+["0 - 0.5.6"]
+julia = "1.6.0-1"
+
+["0.3 - 0"]
 HypertextLiteral = "0.9"
 PlutoUI = "0.7"
 
-["0.3.14-0.4.3"]
+["0.3.14 - 0.4.3"]
 CSV = "0.9-0.10"
 Interpolations = "0.13-0.14"
 
-["0.3.3-0.3"]
+["0.3.3 - 0.3"]
 ChemicalIdentifiers = "0.1.6-0.1"
 
-["0.3.5-0"]
+["0.3.5 - 0"]
 UrlDownload = "1"
 
-["0.3.6-0.4.3"]
+["0.3.6 - 0.4.3"]
 Integrals = "3"
 
-["0.3.8-0"]
+["0.3.8 - 0"]
 OrdinaryDiffEq = "6"
 
-["0.4-0"]
+["0.4 - 0"]
 ChemicalIdentifiers = "0.1"
 DataFrames = "1"
 Plots = "1"
@@ -49,17 +49,23 @@ Plots = "1"
 ["0.4.4"]
 Interpolations = "0.15"
 
-["0.4.4-0"]
+["0.4.4 - 0"]
 CSV = "0.10"
-Integrals = "3-4"
 Reexport = "1"
 
-["0.4.5-0"]
+["0.4.4 - 0.5.6"]
+Integrals = "3-4"
+
+["0.4.5 - 0.5.6"]
 Interpolations = "0.14-0.15"
 
-["0.5-0"]
+["0.5 - 0"]
 ForwardDiffOverMeasurements = "0.1"
 Measurements = "2"
 
-["0.5.3-0"]
+["0.5.3 - 0"]
 ForwardDiff = ["0.10", "1"]
+
+["0.5.7 - 0"]
+Integrals = "3 - 4"
+julia = "1.10.0 - 1"

@@ -1,4 +1,11 @@
-[0]
+["0 - 0.7"]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
+["0 - 0.9"]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+DocumenterLaTeX = "cd674d7a-5f81-5cf3-af33-235ef1834b99"
+
+["0 - 1"]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
@@ -12,23 +19,20 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 SuiteSparse = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
 
-["0-0.7"]
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
-
-["0-0.9"]
-Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-DocumenterLaTeX = "cd674d7a-5f81-5cf3-af33-235ef1834b99"
-
-["0.10-0"]
+["0.10 - 1"]
 DataLoaders = "2e981812-ef13-4a9c-bfa0-ab13047b12a9"
 
-["0.11-0"]
+["0.11 - 1"]
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 
-["0.7-0"]
+["0.7 - 1"]
 Embeddings = "c5bfea45-b7f1-5224-a596-15500f5db411"
 
-["0.8-0"]
+["0.8 - 1"]
 BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+[1]
+Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
