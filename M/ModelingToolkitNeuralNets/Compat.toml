@@ -44,7 +44,13 @@ ComponentArrays = "0.15.28 - 0.15"
 IntervalSets = "0.7.10 - 0.7"
 Lux = "1.14.0 - 1"
 LuxCore = "1.2.0 - 1"
-ModelingToolkit = "10"
 Random = "1.10.0 - 1"
-Symbolics = "6.43.0 - 6"
 julia = "1.10.0 - 1"
+
+["2 - 2.2"]
+ModelingToolkit = "10"
+Symbolics = "6.43.0 - 6"
+
+["2.3 - 2"]
+ModelingToolkitBase = "1.6.2 - 1"
+Symbolics = "7"
