@@ -12,14 +12,16 @@ SHTns_jll = "3.7.0 - 3"
 BenchmarkTools = "1"
 ChainRulesCore = "1"
 FFTW = "1.8.0 - 1"
+SparseArrays = "1"
+
+["1.1 - 1.1.15"]
 ForwardDiff = ["0.10", "1"]
 LoopVectorization = "0.12"
-SparseArrays = "1"
 Zygote = "0.6 - 0.7"
 
-["1.1.13 - 1"]
+["1.1.13 - 1.1.15"]
 PencilArrays = "0.19"
 PencilFFTs = "0.15"
 
-["1.1.6 - 1"]
+["1.1.6 - 1.1.15"]
 MPI = "0.20"
