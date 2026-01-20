@@ -10,9 +10,21 @@ Turing = "0.35.3-0.35"
 julia = "1.9.0-1"
 
 ["0.1.2 - 0"]
+julia = "1.10.0 - 1"
+
+["0.1.2 - 0.1"]
 DataStructures = "0.18.20 - 0.18"
 OceanBioME = "0.14"
 Oceananigans = "0.96"
 Plots = "1.40.10 - 1"
 StatsPlots = "0.15.7 - 0.15"
-julia = "1.10.0 - 1"
+
+["0.2 - 0"]
+Adapt = "3 - 4"
+Atomix = "1"
+CUDA = "5"
+JLD2 = "0.4 - 0.6"
+KernelAbstractions = "0.9"
+OceanBioME = "0.16"
+Oceananigans = "0.101.1 - 0.102"
+OffsetArrays = "1.14.0 - 1"
