@@ -6,7 +6,6 @@ DimensionfulAngles = "2d4b8d7a-02d9-40f9-9abe-9c695b77de0d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SignalAnalysis = "df1fea92-c066-49dd-8b36-eace3378ea47"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
@@ -37,6 +36,9 @@ FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 Intervals = "d8418881-c3e1-53bb-8760-2df7ec849ed5"
 OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"
 Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
+
+["0 - 0.2.3"]
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 ["0.1.1 - 0"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
@@ -71,11 +73,11 @@ Dictionaries = "85a47980-9c8c-11e8-2b9f-f7ca1fa99fb4"
 ["0.1.8 - 0"]
 GeoCotrans = "4624b3bc-fe35-44f8-bfa8-722ff9c0e307"
 
-["0.1.9 - 0"]
-HybridArrays = "1baab800-613f-4b0a-84e4-9cd3431bfbb9"
-
 ["0.1.9 - 0.1.10"]
 VectorizedStatistics = "3b853605-1c98-4422-8364-4bd93ee0529e"
+
+["0.1.9 - 0.2.3"]
+HybridArrays = "1baab800-613f-4b0a-84e4-9cd3431bfbb9"
 
 ["0.2.1 - 0"]
 MinimumVarianceAnalysis = "5a74c7d3-1edb-47ee-a7ac-bdb4b3eeab9d"
