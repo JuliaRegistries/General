@@ -1,12 +1,12 @@
-[0]
-MLStyle = "0.4.17-0.4"
-julia = "1.6.0-1"
-
-["0-0.1.0"]
+["0 - 0.1.0"]
 AlgebraicRewriting = "0.2"
 
-["0-0.1.7"]
+["0 - 0.1.7"]
 DataStructures = "0.18.13-0.18"
+
+["0 - 0.2.0"]
+MLStyle = "0.4.17-0.4"
+julia = "1.6.0-1"
 
 ["0.0"]
 Catlab = "0.15"
@@ -14,35 +14,50 @@ Catlab = "0.15"
 ["0.1"]
 Catlab = "0.15-0.16"
 
-["0.1.1-0"]
-Unicode = "1.6.0-1"
-
-["0.1.1-0.1.3"]
+["0.1.1 - 0.1.3"]
 AlgebraicRewriting = "0.2-0.3"
 
-["0.1.1-0.1.8"]
+["0.1.1 - 0.1.8"]
 ACSets = "0.2"
 
-["0.1.8-0"]
+["0.1.1 - 0.2.0"]
+Unicode = "1.6.0-1"
+
+["0.1.8 - 0.1"]
+LinearAlgebra = "1.10.8-1"
+StatsBase = "0.34.4-0.34"
+
+["0.1.8 - 0.1.9"]
+ColorSchemeTools = "1.6.0-1"
+ColorSchemes = "3.28.0-3"
+
+["0.1.8 - 0.2.0"]
 Colors = "0.12.11-0.13"
 DataStructures = "0.18.20-0.18"
 Reexport = "1.2.2-1"
 StructEquality = "2.1.0-2"
 SymbolicUtils = "3.1.2-3"
 
-["0.1.8-0.1"]
-LinearAlgebra = "1.10.8-1"
-StatsBase = "0.34.4-0.34"
-
-["0.1.8-0.1.9"]
-ColorSchemeTools = "1.6.0-1"
-ColorSchemes = "3.28.0-3"
-
-["0.1.9-0"]
+["0.1.9 - 0.2.0"]
 ACSets = ["0.2-0.2.21", "0.2.23-0.2"]
 
-["0.2-0"]
-Catlab = "0.16.20-0.16"
-LinearAlgebra = "1.10.0-1"
+["0.2 - 0"]
 PEG = "1"
 StatsBase = "0.34"
+
+["0.2.0"]
+Catlab = "0.16.20-0.16"
+LinearAlgebra = "1.10.0-1"
+
+["0.2.1 - 0"]
+ACSets = ["0.2 - 0.2.21", "0.2.23 - 0.2"]
+Catlab = "0.17.3 - 0.17"
+Colors = "0.12.11 - 0.13"
+DataStructures = "0.18.20 - 0.18"
+LinearAlgebra = "1.10.0 - 1"
+MLStyle = "0.4.17 - 0.4"
+Reexport = "1.2.2 - 1"
+StructEquality = "2.1.0 - 2"
+SymbolicUtils = "3.1.2 - 4"
+Unicode = "1.6.0 - 1"
+julia = "1.6.0 - 1"
