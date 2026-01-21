@@ -3,18 +3,25 @@ AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 DynamicalSystemsBase = "6e36e845-645a-534a-86f2-f5d4aa5a06b4"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
-HerbConstraints = "1fa96474-3206-4513-b4fa-23913f296dfc"
-HerbCore = "2b23ba43-8213-43cb-b5ea-38c12b45bd45"
-HerbGrammar = "4ef9e186-2fe5-4b24-8de7-9f7291f24af7"
-HerbSearch = "3008d8e8-f9aa-438a-92ed-26e9c7b4829f"
 MLStyle = "d8e11817-5142-5d16-987a-aa16d5891078"
 MetaGraphsNext = "fa8bd995-216d-47f1-8a91-f3b68fbeb377"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-["0.0.6 - 0"]
+["0 - 0.0.6"]
+HerbConstraints = "1fa96474-3206-4513-b4fa-23913f296dfc"
+HerbCore = "2b23ba43-8213-43cb-b5ea-38c12b45bd45"
+HerbGrammar = "4ef9e186-2fe5-4b24-8de7-9f7291f24af7"
+HerbSearch = "3008d8e8-f9aa-438a-92ed-26e9c7b4829f"
+
+["0.0.6"]
 AutoHashEquals = "15f4f7f2-30c1-5605-9d31-71845cf9641f"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 StructUtils = "ec057cc2-7a8d-4b58-b3b3-92acb9f63b42"
+
+["0.0.6 - 0"]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+
+["0.0.7 - 0"]
+TermInterface = "8ea1fca8-c5ef-4a55-8b96-4e9afe9c9a3c"
