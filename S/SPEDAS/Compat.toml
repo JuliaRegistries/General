@@ -4,7 +4,6 @@ DimensionalData = "0.29"
 LinearAlgebra = "1"
 SignalAnalysis = "0.10"
 StaticArrays = "1"
-Statistics = "1"
 TOML = "1"
 Unitful = "1"
 
@@ -41,6 +40,9 @@ Bumper = "0.7"
 FFTW = "1"
 Tullio = "0.3"
 
+["0 - 0.2.3"]
+Statistics = "1"
+
 ["0.1.1 - 0"]
 Reexport = "1"
 
@@ -56,7 +58,6 @@ NaNStatistics = "0.6"
 ["0.1.11 - 0"]
 DataInterpolations = "7 - 8"
 DimensionfulAngles = "0.2.1 - 0.2"
-TimeseriesUtilities = "0.1.1 - 0.1"
 julia = "1.10.0 - 1"
 
 ["0.1.11 - 0.1"]
@@ -72,6 +73,9 @@ OhMyThreads = "0.7 - 0.8"
 
 ["0.1.11 - 0.2.2"]
 NamedTupleTools = "0.14.3 - 0.14"
+
+["0.1.11 - 0.2.3"]
+TimeseriesUtilities = "0.1.1 - 0.1"
 
 ["0.1.2 - 0.1.4"]
 SpaceDataModel = "0.1"
@@ -95,15 +99,15 @@ IRBEM = "0.1"
 ["0.1.8 - 0"]
 GeoCotrans = ["0.0.1", "0.1"]
 
-["0.1.9 - 0"]
-HybridArrays = "0.4"
-
 ["0.1.9 - 0.1.10"]
 Makie = "0.21-0.23"
 MakieCore = "0.9-0.10"
 VectorizedStatistics = "0.5"
 
-["0.2 - 0"]
+["0.1.9 - 0.2.3"]
+HybridArrays = "0.4"
+
+["0.2 - 0.2.3"]
 SpaceDataModel = "0.2"
 
 ["0.2.1 - 0"]
@@ -113,3 +117,7 @@ MinimumVarianceAnalysis = "0.1"
 IRBEM = "0.1.7 - 0.1"
 MultiSpacecraftAnalysis = "0.1.1 - 0.1"
 PlasmaWaves = "0.1.1 - 0.1"
+
+["0.2.4 - 0"]
+SpaceDataModel = "0.2.3 - 0.2"
+TimeseriesUtilities = "0.1.5 - 0.1"
