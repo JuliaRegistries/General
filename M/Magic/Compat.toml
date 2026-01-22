@@ -2,7 +2,6 @@
 ArgParse = "1.2.0 - 1"
 Artifacts = "1.10.0 - 1"
 DataFrames = "1.8.0 - 1"
-JSON = ["0.18", "1"]
 Libdl = "1.10.0 - 1"
 Logging = "1.10.0 - 1"
 Parameters = "0.12"
@@ -12,3 +11,9 @@ Sockets = "1.10.0 - 1"
 TOML = "1"
 Tables = "1.12.0 - 1"
 julia = "1.10.0 - 1"
+
+["0 - 0.4.0"]
+JSON = ["0.18", "1"]
+
+["0.4.1 - 0"]
+JSON = ["0.21", "1"]
