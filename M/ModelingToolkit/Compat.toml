@@ -252,10 +252,12 @@ SymbolicUtils = "4.5.1 - 4"
 
 ["11.1 - 11"]
 StateSelection = "1.1.1 - 1"
-SymbolicUtils = "4.7.1 - 4"
 
 ["11.1 - 11.2"]
 ModelingToolkitTearing = "1.0.2 - 1"
+
+["11.1 - 11.7.1"]
+SymbolicUtils = "4.7.1 - 4"
 
 ["11.3 - 11.4"]
 ModelingToolkitBase = "1.2.0 - 1"
@@ -275,10 +277,16 @@ PrecompileTools = "1.2.1 - 1"
 RuntimeGeneratedFunctions = "0.5.12 - 0.5"
 
 ["11.6 - 11"]
-ModelingToolkitBase = "1.5.3 - 1"
 ModelingToolkitTearing = "1.2.1 - 1"
 SCCNonlinearSolve = "1.8.1 - 1"
 SciMLBase = "2.132.0 - 2"
+
+["11.6 - 11.7.1"]
+ModelingToolkitBase = "1.5.3 - 1"
+
+["11.7.2 - 11"]
+ModelingToolkitBase = "1.6.3 - 1"
+SymbolicUtils = "4.11.0 - 4"
 
 ["2 - 5.13"]
 TreeViews = "0.3"
