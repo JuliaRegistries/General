@@ -16,7 +16,7 @@ Optim = "1"
 ["2 - 2.6"]
 Catalyst = "13"
 
-["2 - 3"]
+["2 - 4"]
 Ipopt = "1"
 Plots = "1"
 
@@ -45,10 +45,10 @@ SciMLSensitivity = "7"
 ["3 - 3.8.1"]
 SciMLSensitivity = "7.60.0-7"
 
-["3.3 - 3"]
+["3.3 - 4"]
 Optimization = "4"
 
-["3.5.2 - 3"]
+["3.5.2 - 4"]
 Bijectors = ["0.13", "0.15"]
 
 ["3.8.2 - 3.8.5"]
@@ -57,11 +57,15 @@ SciMLSensitivity = "7.81.0-7"
 ["3.8.5"]
 Optim = "1.13.0-1"
 
-["3.8.5 - 3"]
+["3.8.5 - 4"]
 MCMCChains = "7"
 
-["3.8.6 - 3"]
+["3.8.6 - 4"]
 LogDensityProblems = "2.1.0 - 2"
 LogDensityProblemsAD = "1.7.0 - 1"
 Optim = "1.13.0 - 1"
 SciMLSensitivity = "7.81.0 - 7"
+
+[4]
+Fides = "1.1.0 - 1"
+PEtabSelect = "0.1"
