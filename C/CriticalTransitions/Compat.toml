@@ -7,8 +7,6 @@ Format = "1"
 Interpolations = "0.15.1 - 0.16"
 IntervalArithmetic = ["0.22.22 - 0.23", "1"]
 LinearAlgebra = "1.10.0 - 1"
-LinearSolve = "2.37.0 - 3"
-Optimization = "4"
 OptimizationOptimisers = "0.3"
 Printf = "1.10.0 - 1"
 ProgressMeter = "1.10.0 - 1"
@@ -21,3 +19,12 @@ StaticArrays = "1.9.8 - 1"
 Statistics = "1.9.0 - *"
 StochasticDiffEq = "6.71.0 - 6"
 julia = "1.10.0 - 1"
+
+["0 - 0.7"]
+LinearSolve = "2.37.0 - 3"
+Optimization = "4"
+
+["0.8 - 0"]
+LinearSolve = "3.47.0 - 3"
+Optimization = "4 - 5"
+OrdinaryDiffEqLowOrderRK = "1.10.0 - 1"
