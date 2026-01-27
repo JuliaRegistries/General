@@ -44,13 +44,15 @@ AccessibleOptimization = "0.1.2-0.1"
 DataInterpolations = "8"
 
 ["4.13.1 - 4"]
-AccessibleOptimization = "0.1.2 - 0.1"
 Dates = "1.6.0 - 1"
-FinanceCore = "2.1.0 - 2"
 PrecompileTools = "1.1.0 - 1"
 Reexport = "1.2.0 - 1"
 StaticArrays = "1.6.0 - 1"
 julia = "1.10.0 - 1"
+
+["4.13.1 - 4.15.0"]
+AccessibleOptimization = "0.1.2 - 0.1"
+FinanceCore = "2.1.0 - 2"
 
 ["4.14"]
 OptimizationNLopt = "0.3.2 - 0.3"
@@ -60,6 +62,10 @@ DifferentiationInterface = "0.7.4 - 0.7"
 
 ["4.15 - 4"]
 OptimizationOptimJL = "0.4.3 - 0.4"
+
+["4.15.1 - 4"]
+AccessibleModels = "0.1"
+FinanceCore = "2.1 - 2.2"
 
 ["4.3 - 4"]
 SpecialFunctions = "2"
