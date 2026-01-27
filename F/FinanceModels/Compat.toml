@@ -35,10 +35,12 @@ DataInterpolations = "5-6"
 
 ["4.12 - 4"]
 Optimization = "4"
-OptimizationMetaheuristics = "0.3"
 
 ["4.12 - 4.13.0"]
 AccessibleOptimization = "0.1.2-0.1"
+
+["4.12 - 4.15"]
+OptimizationMetaheuristics = "0.3"
 
 ["4.13 - 4"]
 DataInterpolations = "8"
@@ -65,7 +67,13 @@ OptimizationOptimJL = "0.4.3 - 0.4"
 
 ["4.15.1 - 4"]
 AccessibleModels = "0.1"
+
+["4.15.1 - 4.15"]
 FinanceCore = "2.1 - 2.2"
+
+["4.16 - 4"]
+AbstractTrees = "0.4.5 - 0.4"
+FinanceCore = "2.3.0 - 2"
 
 ["4.3 - 4"]
 SpecialFunctions = "2"
