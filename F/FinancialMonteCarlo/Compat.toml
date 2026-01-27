@@ -1,32 +1,43 @@
 [0]
-Dictionaries = "0.3"
-Distributions = ["0.16-0.18", "0.19.1-0.25"]
-DistributionsAD = "0.4-0.6"
 IterTools = "1"
 Requires = "1"
-Sobol = "1.0.2-1"
-SpecialFunctions = "1-2"
 Statistics = "1"
 julia = "1"
 
-["0-0.1"]
+["0 - 0.1"]
 DelimitedFiles = "1"
 
-["0-0.2"]
+["0 - 0.2"]
 Interpolations = "0.12-0.13"
 
-["0-0.2.0"]
+["0 - 0.2.0"]
 StatsFuns = "0.7-0.9"
 
-["0.2.1-0"]
+["0 - 0.3"]
+Dictionaries = "0.3"
+Distributions = ["0.16-0.18", "0.19.1-0.25"]
+DistributionsAD = "0.4-0.6"
+Sobol = "1.0.2-1"
+SpecialFunctions = "1-2"
+
+["0.2.1 - 0.3"]
 StatsFuns = ["0.7-0.9", "1"]
 
-["0.3-0"]
+["0.3 - 0"]
 Accessors = "0.1"
 ChainRulesCore = "1"
 
-["0.3-0.3.1"]
+["0.3 - 0.3.1"]
 Interpolations = "0.12-0.14"
 
-["0.3.2-0"]
+["0.3.2 - 0.3"]
 Interpolations = "0.12-0.15"
+
+["0.4 - 0"]
+Dictionaries = "0.3 - 0.4"
+Distributions = ["0.16 - 0.18", "0.19.1 - 0.25"]
+DistributionsAD = "0.4 - 0.6"
+Interpolations = "0.12 - 0.16"
+Sobol = "1.0.2 - 1"
+SpecialFunctions = "1 - 2"
+StatsFuns = ["0.7 - 0.9", "1"]
