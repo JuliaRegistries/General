@@ -1,12 +1,19 @@
-["0-0.3"]
+["0 - 0.3"]
 DocStringExtensions = "0.2.1-0.8"
 julia = ["0.7", "1"]
 
-["0.4-0"]
+["0.4 - 0.5"]
 julia = "1"
 
-["0.4-0.5.1"]
+["0.4 - 0.5.1"]
 DocStringExtensions = "0.4-0.8"
 
-["0.5.2-0"]
+["0.5.2 - 0.5"]
 DocStringExtensions = "0.4-0.9"
+
+["0.6 - 0"]
+Artifacts = "1.6.0 - 1"
+JSON = ["0.21", "1"]
+Pkg = "1.6.0 - 1"
+TreeSitter = "0.2"
+julia = "1.6.0 - 1"
