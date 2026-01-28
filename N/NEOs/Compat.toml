@@ -96,6 +96,10 @@ SatelliteToolboxTransformations = "1 - 1.1"
 ["0.19.3 - 0"]
 TaylorIntegration = "0.18"
 
+["0.21 - 0"]
+HORIZONS = "0.5"
+JSON = "1"
+
 ["0.3"]
 JLD = "0.13"
 ReferenceFrameRotations = "3"
@@ -170,8 +174,6 @@ TaylorSeries = "0.16"
 julia = "1.9.0-1"
 
 ["0.8 - 0"]
-HORIZONS = "0.4"
-JSON = "0.21"
 LsqFit = "0.15"
 Roots = "2"
 
@@ -181,6 +183,10 @@ Clustering = "0.15"
 ["0.8 - 0.14"]
 DataFrames = "1.5.0-1"
 Tables = "1.10.0-1"
+
+["0.8 - 0.20"]
+HORIZONS = "0.4"
+JSON = "0.21"
 
 ["0.8 - 0.8.8"]
 PlanetaryEphemeris = "0.8"
