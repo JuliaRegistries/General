@@ -29,9 +29,11 @@ Distributions = "0.25"
 ForwardDiff = ["0.10.36 - 0.10", "1"]
 Measurements = "2"
 MonteCarloMeasurements = "1"
-Mooncake = "0.4"
 ReverseDiff = "1"
 Tracker = "0.2"
+
+["2.112 - 2.135"]
+Mooncake = "0.4"
 
 ["2.117 - 2"]
 Enzyme = "0.13"
@@ -41,6 +43,9 @@ DifferentiationInterface = "0.6 - 0.7"
 
 ["2.135 - 2"]
 Zygote = "0.7"
+
+["2.136 - 2"]
+Mooncake = "0.4 - 0.5"
 
 ["2.18 - 2"]
 RCall = "0.14"
