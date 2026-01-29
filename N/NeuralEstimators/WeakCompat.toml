@@ -1,18 +1,28 @@
 [0]
-CUDA = "4-5"
-ColorSchemes = "2-3"
 Metal = "1"
 
-["0-0.1.1"]
+["0 - 0.1.1"]
 AlgebraOfGraphics = "0.8"
 CairoMakie = "0.12"
+
+["0 - 0.1.3"]
+CUDA = "4-5"
+ColorSchemes = "2-3"
 
 ["0.1.2"]
 AlgebraOfGraphics = "0.8-0.9"
 
-["0.1.2-0"]
-CairoMakie = "0.12-0.13"
+["0.1.2 - 0"]
 cuDNN = "1"
 
-["0.1.3-0"]
+["0.1.2 - 0.1.3"]
+CairoMakie = "0.12-0.13"
+
+["0.1.3"]
 AlgebraOfGraphics = "0.8-0.10"
+
+["0.1.4 - 0"]
+AlgebraOfGraphics = "0.8 - 0.12"
+CUDA = "4 - 5"
+CairoMakie = "0.12 - 0.15"
+ColorSchemes = "2 - 3"
