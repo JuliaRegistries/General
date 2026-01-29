@@ -1,6 +1,3 @@
-[0]
-StatsBase = "0.34"
-
 ["0 - 0.1"]
 HerbGrammar = "0.1"
 
@@ -17,6 +14,9 @@ julia = "1.8.0-1"
 
 ["0 - 0.4.7"]
 DataStructures = "0.17-0.18"
+
+["0 - 1"]
+StatsBase = "0.34"
 
 ["0.1.1 - 0.1"]
 HerbCore = "0.1.1-0.1"
@@ -67,7 +67,7 @@ HerbConstraints = "0.3"
 ["0.4.4 - 0.4.7"]
 julia = "1.10.0-1"
 
-["0.4.5 - 0"]
+["0.4.5 - 1"]
 DocStringExtensions = "0.9"
 
 ["0.4.6 - 0.4.7"]
@@ -83,9 +83,18 @@ HerbInterpret = "0.2.1-0.2"
 HerbGrammar = "0.6"
 
 ["0.4.8 - 0"]
-DataStructures = "0.19"
 HerbInterpret = "0.2.1 - 0.2"
+
+["0.4.8 - 1"]
+DataStructures = "0.19"
 MLStyle = "0.4.17 - 0.4"
 Random = "1.8.0 - 1"
 TimerOutputs = "0.5.28 - 0.5"
 julia = "1.10.0 - 1"
+
+[1]
+HerbConstraints = "1"
+HerbCore = "1"
+HerbGrammar = "1"
+HerbInterpret = "1"
+HerbSpecification = "1"
