@@ -29,7 +29,6 @@ LinearAlgebra = "1"
 NaNMath = ["0.3", "1"]
 OffsetArrays = "1"
 OrderedCollections = "1"
-PreallocationTools = "0.4.27 - 0.4"
 REPL = "1"
 Random = "1"
 ReadOnlyDicts = "1"
@@ -62,6 +61,9 @@ SymbolicUtils = "4.6.0 - 4"
 ["1 - 1.6.2"]
 Symbolics = "7.1.1 - 7"
 
+["1 - 1.7"]
+PreallocationTools = "0.4.27 - 0.4"
+
 ["1.4 - 1"]
 DataStructures = "0.18 - 0.19"
 DocStringExtensions = "0.8 - 0.9"
@@ -75,3 +77,6 @@ SymbolicUtils = "4.7.1 - 4"
 ["1.6.3 - 1"]
 SymbolicUtils = "4.12.0 - 4"
 Symbolics = "7.8.0 - 7"
+
+["1.8 - 1"]
+PreallocationTools = ["0.4.27 - 0.4", "1"]
