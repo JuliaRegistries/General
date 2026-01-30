@@ -505,7 +505,6 @@ SurfaceFluxes = "0.12.2 - 0.12"
 Thermodynamics = "0.14"
 
 ["0.31.4 - 0"]
-Insolation = "0.10.2 - 0.10"
 RRTMGP = "0.21.6 - 0.21"
 SciMLBase = "2.108 - 2.112"
 
@@ -516,6 +515,9 @@ Thermodynamics = "0.14.1 - 0.14"
 
 ["0.31.4 - 0.31.6"]
 ClimaParams = "1"
+
+["0.31.4 - 0.34"]
+Insolation = "0.10.2 - 0.10"
 
 ["0.31.6"]
 CloudMicrophysics = "0.28"
@@ -531,7 +533,6 @@ ClimaParams = "1.0.2 - 1"
 CloudMicrophysics = "0.28 - 0.29"
 
 ["0.32 - 0"]
-ClimaDiagnostics = "0.2.13 - 0.2"
 ClimaUtilities = "0.1.27 - 0.1"
 
 ["0.32 - 0.33"]
@@ -542,17 +543,31 @@ Thermodynamics = "0.14.2 - 0.15"
 ClimaCore = "0.14.43 - 0.14"
 ClimaParams = "1.0.7 - 1"
 
+["0.32 - 0.34"]
+ClimaDiagnostics = "0.2.13 - 0.2"
+
 ["0.33.1 - 0"]
 Adapt = "4.1.0 - 4"
-ClimaCore = "0.14.45 - 0.14"
 ClimaParams = "1.0.9 - 1"
 Flux = "0.16.7 - 0.16"
 JLD2 = "0.6.3 - 0.6"
 
-["0.34 - 0"]
+["0.33.1 - 0.34"]
+ClimaCore = "0.14.45 - 0.14"
+
+["0.34"]
 CloudMicrophysics = "0.29"
-SurfaceFluxes = "0.15"
 Thermodynamics = "0.15.2 - 0.15"
+
+["0.34 - 0"]
+SurfaceFluxes = "0.15"
+
+["0.35 - 0"]
+ClimaCore = "0.14.48 - 0.14"
+ClimaDiagnostics = "0.2.13 - 0.3"
+CloudMicrophysics = "0.30"
+Insolation = "1.1.0 - 1"
+Thermodynamics = "0.15.7 - 0.15"
 
 ["0.4"]
 CloudMicrophysics = "0.8"
