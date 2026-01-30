@@ -34,17 +34,27 @@ ForwardDiff = ["0.10.36 - 0.10", "1"]
 Lux = "1.2.0 - 1"
 LuxCore = "1.1.0 - 1"
 MLDataDevices = "1.5.0 - 1"
-ModelingToolkit = "9.77.0 - 9"
 NeuralPDE = "5.19.1 - 5"
-OrdinaryDiffEq = "6.92.0 - 6"
 QuasiMonteCarlo = "0.3.3 - 0.3"
 SymbolicIndexingInterface = "0.3.40 - 0.3"
-Symbolics = "6.37.0 - 6"
 julia = "1.11.0 - 1"
+
+["0.2.2 - 0.2"]
+ModelingToolkit = "9.77.0 - 9"
+OrdinaryDiffEq = "6.92.0 - 6"
+Symbolics = "6.37.0 - 6"
 
 ["0.2.2 - 0.2.4"]
 SciMLBase = "2.85.0 - 2"
 
 ["0.2.5 - 0"]
 DataFrames = "1.4.0 - 1"
+
+["0.2.5 - 0.2"]
 SciMLBase = "2.86.0 - 2"
+
+["0.3 - 0"]
+ModelingToolkit = "10"
+OrdinaryDiffEq = "6.96.0 - 6"
+SciMLBase = "2.91.1 - 2"
+Symbolics = "6.40.0 - 6"
