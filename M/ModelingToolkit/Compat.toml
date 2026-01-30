@@ -290,14 +290,19 @@ SciMLBase = "2.132.0 - 2"
 ["11.6 - 11.7.1"]
 ModelingToolkitBase = "1.5.3 - 1"
 
-["11.7.2 - 11"]
-SymbolicUtils = "4.11.0 - 4"
-
 ["11.7.2 - 11.7"]
 ModelingToolkitBase = "1.6.3 - 1"
 
-["11.8 - 11"]
+["11.7.2 - 11.8"]
+SymbolicUtils = "4.11.0 - 4"
+
+["11.8"]
 ModelingToolkitBase = "1.7.0 - 1"
+
+["11.9 - 11"]
+ModelingToolkitBase = "1.8.1 - 1"
+SymbolicCompilerPasses = "0.1"
+SymbolicUtils = "4.13.0 - 4"
 
 ["2 - 5.13"]
 TreeViews = "0.3"
