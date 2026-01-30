@@ -7,10 +7,16 @@ CUDA = "4"
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
+["0.2"]
+SMLMData = "0.4 - 0.5"
+
 ["0.2 - 0"]
 Adapt = "3 - 4"
 CUDA = "4 - 5"
 KernelAbstractions = "0.9"
-SMLMData = "0.4 - 0.5"
 StaticArrays = "1"
 julia = "1.6.0 - 1"
+
+["0.3 - 0"]
+SMLMData = "0.5 - 0.6"
+StatsAPI = "1"
