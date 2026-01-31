@@ -2,7 +2,6 @@
 ArgParse = "1"
 BlackBoxOptim = "0.6"
 EllipsisNotation = "1"
-GSL = "1"
 H5Zblosc = "0.1"
 PhysicalConstants = "0.2"
 ProgressLogging = "0.1"
@@ -52,6 +51,9 @@ PyPlot = "2.9.0-2"
 QuadGK = "2.4.0-2"
 Reexport = "1.2.0-1"
 SpecialFunctions = ["0.10.3-0.10", "1-2"]
+
+["0 - 0.6.1"]
+GSL = "1"
 
 ["0.1.5 - 0"]
 Roots = "2"
@@ -108,8 +110,6 @@ Peaks = "0.3.2-0.5"
 CSV = "0.9 - 0.10"
 CoolProp = "0.1 - 0.2"
 Cubature = "1.5.1 - 1"
-DSP = "0.7.3 - 0.7"
-DataStructures = "0.18.10 - 0.18"
 Dates = "1.9.0 - 1"
 Dierckx = "0.5.1 - 0.5"
 Distributed = "1.9.0 - 1"
@@ -126,7 +126,6 @@ LinearAlgebra = "1.9.0 - 1"
 Logging = "1.9.0 - 1"
 Memoize = "0.4.4 - 0.4"
 NumericalIntegration = "0.3.3 - 0.3"
-Peaks = "0.3.2 - 0.5"
 Pkg = "1.9.0 - 1"
 Polynomials = "2 - 4"
 Printf = "1.9.0 - 1"
@@ -143,5 +142,17 @@ julia = "1.9.0 - 1"
 ["0.5.1 - 0.6.0"]
 Optim = "1.4.0 - 1"
 
+["0.5.1 - 0.6.1"]
+DSP = "0.7.3 - 0.7"
+DataStructures = "0.18.10 - 0.18"
+Peaks = "0.3.2 - 0.5"
+
 ["0.6.1 - 0"]
 Optim = "1.4.0 - 2"
+
+["0.6.2 - 0"]
+DSP = "0.7.3 - 0.8"
+DataStructures = "0.18.10 - 0.19"
+FunctionZeros = "1.1.0 - 1"
+HypergeometricFunctions = "0.3.28 - 0.3"
+Peaks = "0.3.2 - 0.6"
