@@ -1,16 +1,20 @@
 [0]
 Dates = "1"
-Dictionaries = "0.4"
 Mmap = "1"
-StaticStrings = "0.2.6 - 0.2"
 julia = "1.10.0 - 1"
 
 ["0 - 0.1.2"]
 UnixTimes = "1.7.2 - 1"
 
+["0 - 0.1.9"]
+Dictionaries = "0.4"
+StaticStrings = "0.2.6 - 0.2"
+
 ["0.1.1 - 0"]
-CodecZlib = "0.7"
 LibDeflate = "0.4.3 - 0.4"
+
+["0.1.1 - 0.1.9"]
+CodecZlib = "0.7"
 
 ["0.1.2 - 0"]
 DiskArrays = "0.4"
