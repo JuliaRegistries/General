@@ -20,6 +20,11 @@ OrdinaryDiffEqNonlinearSolve = ["0.0.0", "1"]
 OrdinaryDiffEqCore = "3"
 OrdinaryDiffEqNonlinearSolve = "1.16.0 - 1"
 
+["1.11 - 1"]
+DiffEqBase = "6.194.0 - 6"
+OrdinaryDiffEqDifferentiation = "2"
+SciMLBase = "2.116.0 - 2"
+
 ["1.2"]
 OrdinaryDiffEqCore = "1.14.0-1"
 
@@ -52,18 +57,20 @@ OrdinaryDiffEqDifferentiation = ["0.0.0", "1.2.0 - 1"]
 
 ["1.5 - 1"]
 ADTypes = "1.16.0 - 1"
-DiffEqBase = "6.176.0 - 6"
 FastBroadcast = "0.3"
 MuladdMacro = "0.2"
 Polyester = "0.7"
 Reexport = "1.2.0 - 1"
-SciMLBase = "2.99.0 - 2"
 StaticArrays = "1.9.0 - 1"
+
+["1.5 - 1.10"]
+DiffEqBase = "6.176.0 - 6"
+SciMLBase = "2.99.0 - 2"
 
 ["1.6"]
 OrdinaryDiffEqCore = "1.29.0 - 1"
 
-["1.6 - 1"]
+["1.6 - 1.10"]
 OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
 
 ["1.6 - 1.9"]
