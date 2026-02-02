@@ -20,7 +20,7 @@ Tables = "1.6.0-1"
 TypedTables = "1.4.0-1"
 julia = "1.9.0-1"
 
-["1 - 7"]
+["1 - 8"]
 BasicInterpolators = "0.7"
 DataDeps = "0.7"
 DelimitedFiles = "1"
@@ -74,7 +74,7 @@ AdvancedHMC = "0.6"
 FITSIO = "0.16-0.17"
 Interpolations = "0.13-0.15"
 
-["2 - 7"]
+["2 - 8"]
 CovarianceEstimation = "0.2"
 Dates = "1"
 Logging = "1"
@@ -89,7 +89,7 @@ AbstractMCMC = "5"
 ["2.1 - 6"]
 AbstractMCMC = "4-5"
 
-["2.5 - 7"]
+["2.5 - 8"]
 HDF5 = "0.17"
 StringDistances = "0.11"
 
@@ -103,7 +103,7 @@ OptimizationOptimJL = "0.3"
 ["3 - 6"]
 HORIZONS = "0.4"
 
-["3 - 7"]
+["3 - 8"]
 KernelDensity = "0.6"
 MathTeXEngine = "0.6"
 
@@ -113,7 +113,7 @@ Distances = "0.10"
 ["4 - 5"]
 PlanetOrbits = "0.10"
 
-["4 - 7"]
+["4 - 8"]
 CSV = "0.10"
 HTTP = "1"
 Pathfinder = "0.9"
@@ -124,7 +124,7 @@ Bijectors = "0.14"
 ["5 - 6"]
 Optimization = "4"
 
-["5 - 7"]
+["5 - 8"]
 Bumper = "0.7"
 OptimizationOptimJL = "0.4"
 
@@ -139,19 +139,22 @@ Bijectors = "0.14-0.15"
 DifferentiationInterface = "0.6"
 LinearSolve = "2-3"
 
-["6 - 7"]
+["6 - 8"]
 Combinatorics = "1"
 OptimizationBBO = "0.4"
 PlanetOrbits = "0.11"
 
 [7]
+LinearSolve = "2 - 3"
+julia = "1.9.0 - 1"
+
+["7 - 8"]
 AbstractMCMC = "4 - 5"
 AdvancedHMC = "0.6 - 0.7"
 Bijectors = "0.14 - 0.15"
 FITSIO = "0.16 - 0.17"
 Interpolations = "0.13 - 0.15"
 Latexify = "0.15 - 0.16"
-LinearSolve = "2 - 3"
 NamedTupleTools = "0.13 - 0.14"
 OrderedCollections = "1.6.0 - 1"
 PrecompileTools = "1.1.2 - 1"
@@ -161,12 +164,15 @@ StaticArrays = "1.6.0 - 1"
 StatsBase = "0.33 - 0.34"
 Tables = "1.6.0 - 1"
 TypedTables = "1.4.0 - 1"
-julia = "1.9.0 - 1"
 
 ["7.0.0"]
 DifferentiationInterface = "0.6"
 Optimization = "4"
 
-["7.0.1 - 7"]
+["7.0.1 - 8"]
 DifferentiationInterface = "0.6 - 0.7"
 Optimization = "4 - 5"
+
+[8]
+Arrow = "2.8.1 - 2"
+julia = "1.10.0 - 1"
