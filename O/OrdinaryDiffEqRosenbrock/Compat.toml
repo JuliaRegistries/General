@@ -64,7 +64,6 @@ SciMLBase = "2"
 
 ["1.15 - 1"]
 ADTypes = "1.16.0 - 1"
-DiffEqBase = "6.176.0 - 6"
 FastBroadcast = "0.3"
 FiniteDiff = "2.27.0 - 2"
 LinearAlgebra = "1.10.0 - 1"
@@ -74,7 +73,6 @@ PrecompileTools = "1.2.0 - 1"
 Preferences = "1.4.0 - 1"
 RecursiveArrayTools = "3.36.0 - 3"
 Reexport = "1.2.0 - 1"
-SciMLBase = "2.99.0 - 2"
 Static = "1.2.0 - 1"
 
 ["1.15 - 1.16.0"]
@@ -87,11 +85,15 @@ DifferentiationInterface = "0.7"
 LinearSolve = "3.26.0 - 3"
 MacroTools = "0.5"
 
-["1.16 - 1"]
-OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
+["1.15 - 1.22"]
+DiffEqBase = "6.176.0 - 6"
+SciMLBase = "2.99.0 - 2"
 
 ["1.16 - 1.18"]
 OrdinaryDiffEqCore = "1.29.0 - 1"
+
+["1.16 - 1.22"]
+OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
 
 ["1.16.1 - 1"]
 ForwardDiff = ["0.10.38 - 0.10", "1"]
@@ -108,6 +110,11 @@ MacroTools = "0.5.6 - 0.5"
 
 ["1.22 - 1"]
 OrdinaryDiffEqCore = "3"
+
+["1.23 - 1"]
+DiffEqBase = "6.194.0 - 6"
+OrdinaryDiffEqDifferentiation = "2"
+SciMLBase = "2.116.0 - 2"
 
 ["1.4 - 1.11"]
 ADTypes = "1.11.0-1"
