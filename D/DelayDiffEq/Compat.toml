@@ -296,15 +296,23 @@ OrdinaryDiffEqCore = "2"
 ["5.65 - 5"]
 ForwardDiff = "1.0.1 - 1"
 OrdinaryDiffEqDefault = "1.9.0 - 1"
-OrdinaryDiffEqDifferentiation = "1.17.0 - 1"
 OrdinaryDiffEqFunctionMap = "1.6.0 - 1"
 OrdinaryDiffEqNonlinearSolve = "1.16.0 - 1"
 OrdinaryDiffEqRosenbrock = "1.19.0 - 1"
 
+["5.65 - 5.67"]
+OrdinaryDiffEqDifferentiation = "1.17.0 - 1"
+
+["5.67"]
+OrdinaryDiffEqCore = "3"
+
 ["5.67 - 5"]
 ConcreteStructs = "0.2.3 - 0.2"
-OrdinaryDiffEqCore = "3"
 SciMLLogging = "1.4.0 - 1"
+
+["5.68 - 5"]
+OrdinaryDiffEqCore = "3.2.0 - 3"
+OrdinaryDiffEqDifferentiation = "2"
 
 ["5.7"]
 OrdinaryDiffEq = "5.11.1-5"
