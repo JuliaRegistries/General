@@ -353,7 +353,6 @@ MuladdMacro = "0.2.4 - 0.2"
 OrdinaryDiffEqAdamsBashforthMoulton = "1.4.0 - 1"
 OrdinaryDiffEqBDF = "1.9.0 - 1"
 OrdinaryDiffEqDefault = "1.7.0 - 1"
-OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
 OrdinaryDiffEqExplicitRK = "1.3.0 - 1"
 OrdinaryDiffEqExponentialRK = "1.7.0 - 1"
 OrdinaryDiffEqExtrapolation = "1.7.0 - 1"
@@ -400,6 +399,9 @@ LinearSolve = "3.27.0 - 3"
 NonlinearSolve = "4.10.0 - 4"
 PreallocationTools = "0.4.30 - 0.4"
 
+["6.102 - 6.107"]
+OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
+
 ["6.102.0"]
 DiffEqBase = "6.183.0 - 6"
 ExplicitImports = "1.13.1 - 1"
@@ -427,6 +429,9 @@ NonlinearSolve = "4.12.0 - 4"
 OrdinaryDiffEqCore = "3"
 PreallocationTools = ["0.4.31 - 0.4", "1"]
 SciMLBase = "2.116.0 - 2"
+
+["6.108 - 6"]
+OrdinaryDiffEqDifferentiation = "2"
 
 ["6.11"]
 ArrayInterface = "2.7.0-6"
