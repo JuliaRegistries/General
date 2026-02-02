@@ -1,4 +1,4 @@
-["0-0.1"]
+["0 - 0.1"]
 CUDA = "2"
 ForwardDiff = "0.10"
 GPUifyLoops = "0.2"
@@ -6,8 +6,15 @@ LLVM = "3"
 StaticArrays = "0.12"
 julia = "1.5.0-1"
 
-["0.2-0"]
+["0.2 - 0"]
+LLVMLoopInfo = "1"
+
+["0.2.0"]
 CUDA = "3.5.0-5"
 LLVM = "3-6"
-LLVMLoopInfo = "1"
 julia = "1.8.0-1"
+
+["0.2.1 - 0"]
+CUDA = "3.5.0 - 5"
+LLVM = "3 - 9"
+julia = "1.8.0 - 1"
