@@ -28,6 +28,11 @@ LinearSolve = "3.46.0 - 3"
 ["1.13 - 1"]
 OrdinaryDiffEqCore = "3"
 
+["1.14 - 1"]
+DiffEqBase = "6.194.0 - 6"
+OrdinaryDiffEqDifferentiation = "2"
+SciMLBase = "2.116.0 - 2"
+
 ["1.2 - 1.6"]
 FastPower = "1"
 
@@ -64,19 +69,21 @@ OrdinaryDiffEqDifferentiation = ["0.0.0", "1.2.0 - 1"]
 
 ["1.7 - 1"]
 ADTypes = "1.16.0 - 1"
-DiffEqBase = "6.176.0 - 6"
 FastBroadcast = "0.3"
 FastPower = "1.1.0 - 1"
 MuladdMacro = "0.2"
 Polyester = "0.7"
 RecursiveArrayTools = "3.36.0 - 3"
 Reexport = "1.2.0 - 1"
-SciMLBase = "2.99.0 - 2"
 
 ["1.7 - 1.11"]
 LinearSolve = "3.26.0 - 3"
 
-["1.8 - 1"]
+["1.7 - 1.13"]
+DiffEqBase = "6.176.0 - 6"
+SciMLBase = "2.99.0 - 2"
+
+["1.8 - 1.13"]
 OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
 
 ["1.8 - 1.9"]
