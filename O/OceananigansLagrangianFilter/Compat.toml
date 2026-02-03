@@ -1,12 +1,19 @@
 [0]
 CUDA = ["5.8.5", "5.9.1 - 5"]
-CondaPkg = "0.2"
 DataStructures = "0.18"
 DocStringExtensions = "0.8 - 0.9"
 JLD2 = "0.4 - 0.6"
 KernelAbstractions = "0.9.21 - 0.9"
 NCDatasets = ["0.12.10 - 0.12", "0.13.1 - 0.14"]
-Oceananigans = "0.98 - 0.100"
-PythonCall = "0.9"
 Reexport = "1"
 julia = "1.10.0 - 1"
+
+["0 - 0.1.0"]
+CondaPkg = "0.2"
+Oceananigans = "0.98 - 0.100"
+PythonCall = "0.9"
+
+["0.1.1 - 0"]
+CondaPkg = "0.2.33 - 0.2"
+Oceananigans = "0.104"
+PythonCall = "0.9.31 - 0.9"
