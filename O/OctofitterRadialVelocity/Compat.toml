@@ -14,7 +14,7 @@ Tables = "1.10.0-1"
 TypedTables = "1.4.0-1"
 julia = "1.9.0-1"
 
-["1 - 7"]
+["1 - 8"]
 CSV = "0.10"
 DataDeps = "0.7"
 Distributions = "0.25"
@@ -29,7 +29,7 @@ TemporalGPs = "0.6"
 FITSIO = "0.16-0.17"
 StatsBase = "0.33-0.34"
 
-["2 - 7"]
+["2 - 8"]
 AbstractGPs = "0.5"
 Distances = "0.10"
 MCMCChains = "6"
@@ -44,28 +44,33 @@ Octofitter = "4"
 ["4 - 5"]
 PlanetOrbits = "0.10"
 
-["4 - 7"]
+["4 - 8"]
 AstroImages = "0.5"
 
 [5]
 Octofitter = "5"
 
-["5 - 7"]
+["5 - 8"]
 Bumper = "0.7"
 
 [6]
 Octofitter = "6"
 Polynomials = "4.0.19-4"
 
-["6 - 7"]
+["6 - 8"]
 PlanetOrbits = "0.11"
 
 [7]
-FITSIO = "0.16 - 0.17"
 Octofitter = "7"
+
+["7 - 8"]
+FITSIO = "0.16 - 0.17"
 Polynomials = "4.0.19 - 4"
 StaticArrays = "1.6.0 - 1"
 StatsBase = "0.33 - 0.34"
 Tables = "1.10.0 - 1"
 TypedTables = "1.4.0 - 1"
 julia = "1.9.0 - 1"
+
+[8]
+Octofitter = "8"
