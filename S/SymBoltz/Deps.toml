@@ -1,4 +1,17 @@
-[0]
+["0 - 0.10.0"]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+
+["0 - 0.2"]
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
+
+["0 - 0.2.0"]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["0 - 0.3"]
+NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
+
+["0 - 1"]
 Bessels = "0e736298-9ec6-45e8-9647-e4fc86a2fe38"
 CommonSolve = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
 DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
@@ -18,52 +31,43 @@ TwoFAST = "0dd23c3e-f403-11e8-3e11-4dddf690af97"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 UnitfulAstro = "6112ee07-acf9-5e0f-b108-d242c714bf9f"
 
-["0 - 0.10.0"]
-OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
-
-["0 - 0.2"]
-Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
-
-["0 - 0.2.0"]
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
-SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
-
-["0 - 0.3"]
-NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
-
-["0.10.1 - 0"]
+["0.10.1 - 1"]
 OrdinaryDiffEqNonlinearSolve = "127b3ac7-2247-4354-8eb6-78cf4e7c58e8"
 OrdinaryDiffEqRosenbrock = "43230ef6-c299-4910-a778-202eb28ce4ce"
 OrdinaryDiffEqSDIRK = "2d112036-d095-4a1e-ab9a-08536f3ecdbf"
 OrdinaryDiffEqTsit5 = "b1df2697-797e-41e3-8120-5422d3b24e4a"
 
-["0.13 - 0"]
+["0.13 - 1"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0.2.1 - 0.8.1"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
-["0.3 - 0"]
+["0.3 - 1"]
 SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
 
-["0.4 - 0"]
+["0.4 - 1"]
 Integrals = "de52edbc-65ea-441a-8357-d3a637375a31"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
 SciMLStructures = "53ae85a6-f571-4167-b2af-e1d143709226"
 
-["0.5 - 0"]
+["0.5 - 1"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 ForwardDiffChainRules = "c9556dd2-1aed-4cfe-8560-1557cf593001"
 RecursiveFactorization = "f2c3362d-daeb-58d1-803e-2bc74f2840b4"
 
-["0.6 - 0"]
+["0.6 - 1"]
 NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
-["0.7 - 0"]
+["0.7 - 1"]
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 
-["0.9 - 0"]
+["0.9 - 1"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[1]
+ModelingToolkitBase = "7771a370-6774-4173-bd38-47e70ca0b839"
+SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
