@@ -22,17 +22,25 @@ StructArrays = "0.6.18-0.6"
 Logging = "1.9.0-1"
 StructArrays = "0.6.18-0.7"
 
-["0.4.6 - 0"]
+["0.4.6 - 1"]
 CodecZlib = "0.7"
 CodecZstd = "0.8"
 
 ["0.4.8 - 0"]
+Logging = "1.9.0 - 1"
+LorentzVectors = "0.4.3 - 0.4"
+julia = "1.9.0 - 1"
+
+["0.4.8 - 1"]
 Accessors = "0.1.36 - 0.1"
 EnumX = "1.0.4 - 1"
-Logging = "1.9.0 - 1"
 LoopVectorization = "0.12.170 - 0.12"
 LorentzVectorHEP = "0.1.6 - 0.1"
-LorentzVectors = "0.4.3 - 0.4"
 MuladdMacro = "0.2.4 - 0.2"
 StructArrays = "0.6.18 - 0.7"
-julia = "1.9.0 - 1"
+
+[1]
+Logging = "1.10.0 - 1"
+LorentzVectorBase = "0.1"
+Statistics = "1.10.0 - 1"
+julia = "1.10.0 - 1"
