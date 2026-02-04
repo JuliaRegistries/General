@@ -72,15 +72,24 @@ julia = "1.8.0 - 1"
 Unitful = "1.25.0 - 1"
 julia = "1.11.0 - 1"
 
-["0.5.3 - 0"]
+["0.5.3 - 0.7.2"]
 GModelFitViewer = "0.4"
 
 ["0.6 - 0"]
 DataStructures = "0.19"
-GModelFit = "0.7"
 Gnuplot = "1.7.0 - 1"
 
+["0.6 - 0.7.2"]
+GModelFit = "0.7"
+
 ["0.7 - 0"]
+StatsBase = "0.34"
+
+["0.7 - 0.7.2"]
 GZip = "0.6"
 JSON = "1.2.0 - 1"
-StatsBase = "0.34"
+
+["0.7.3 - 0"]
+GModelFit = "0.8"
+GModelFitViewer = "0.5"
+TypedJSON = "0.1.1 - 0.1"
