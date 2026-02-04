@@ -1,16 +1,18 @@
 [0]
-Accessors = "0.1"
-Corpuscles = "2"
-Graphs = "1"
 StructArrays = "0.6"
-YAML = "0.4"
-julia = "1"
 
 ["0 - 0.2"]
 UnROOT = "0.10.22"
 
 ["0 - 0.4.3"]
 StaticArrays = "1.9.0-1"
+
+["0 - 1"]
+Accessors = "0.1"
+Corpuscles = "2"
+Graphs = "1"
+YAML = "0.4"
+julia = "1"
 
 ["0.2 - 0.4.1"]
 FHist = "0.10"
@@ -19,12 +21,21 @@ FHist = "0.10"
 PrettyTables = "2"
 UnROOT = "0.10"
 
-["0.4.2 - 0"]
+["0.4.2 - 1"]
 FHist = "0.11"
 
 ["0.4.4 - 0"]
 Combinatorics = "1.0.3 - 1"
 Preferences = "1.5.0 - 1"
 RecipesBase = "1"
-StaticArrays = "1.9.0 - 1"
 Statistics = "1"
+
+["0.4.4 - 1"]
+StaticArrays = "1.9.0 - 1"
+
+[1]
+Preferences = "1.5.1 - 1"
+PrettyTables = "3"
+StructArrays = "0.6 - 0.7"
+UnROOT = "0.11"
+XRootD = "0.2.3 - 0.2"
