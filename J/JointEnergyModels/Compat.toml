@@ -23,10 +23,12 @@ Flux = "0.13"
 PkgTemplates = "0.7"
 
 ["0.1.1 - 0"]
-CategoricalArrays = "0.10"
 ComputationalResources = "0.3"
 Distributions = "0.25"
 MLUtils = "0.4"
+
+["0.1.1 - 0.1"]
+CategoricalArrays = "0.10"
 Zygote = "0.6"
 
 ["0.1.1 - 0.1.2"]
@@ -83,3 +85,7 @@ julia = "1.10.0 - 1"
 
 ["0.1.9 - 0"]
 Optimisers = "0.3 - 0.4"
+
+["0.2 - 0"]
+CategoricalArrays = ["0.10", "1"]
+Zygote = "0.6 - 0.7"
