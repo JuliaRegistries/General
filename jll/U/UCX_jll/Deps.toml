@@ -4,5 +4,12 @@ CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 NUMA_jll = "7f51dc2b-bb24-59f8-b771-bb1490e4195d"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 rdma_core_jll = "69dc3629-5c98-505f-8bcd-225213cebe70"
+
+["1-1.18"]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["1.20-1"]
+CUDA_Runtime_jll = "76a88914-d11a-5bdc-97e0-2f5a05c973a2"
+LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
