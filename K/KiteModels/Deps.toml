@@ -10,6 +10,9 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 ["0 - 0.2"]
 KitePodSimulator = "558fcde3-b420-4fcf-b6fa-fc874c7e75b7"
 
+["0.10 - 0"]
+Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
+
 ["0.2"]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 
@@ -91,10 +94,12 @@ NLSolversBase = "d41bc354-129a-5804-8e4c-c37616107c6c"
 NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 OrdinaryDiffEqNonlinearSolve = "127b3ac7-2247-4354-8eb6-78cf4e7c58e8"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
-SciMLOperators = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 VortexStepMethod = "ed3cd733-9f0f-46a9-93e0-89b8d4998dd9"
+
+["0.7 - 0.9"]
+SciMLOperators = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
 
 ["0.8 - 0"]
 SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
