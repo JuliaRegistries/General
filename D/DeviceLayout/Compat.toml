@@ -4,13 +4,11 @@ Cairo = "1"
 Clipper = "0.6"
 ColorSchemes = "3"
 CoordinateTransformations = "0.6"
-ForwardDiff = "0.10"
 Graphs = "1"
 IntervalSets = "0.7"
 IntervalTrees = "1"
 LoggingExtras = "1"
 NamedTupleTools = "0.14"
-Optim = "1"
 PrecompileTools = "1"
 Preferences = "1"
 QuadGK = "2"
@@ -22,6 +20,10 @@ MetaGraphs = "0.7"
 
 ["1 - 1.4.1"]
 Memoize = "0.4"
+
+["1 - 1.8"]
+ForwardDiff = "0.10"
+Optim = "1"
 
 ["1.0"]
 FileIO = "1.6.0 - 1"
@@ -43,7 +45,7 @@ Unitful = "1.2.0-1"
 gmsh_jll = "4.13.0-4"
 julia = "1.10.0-1"
 
-["1.1.1 - 1"]
+["1.1.1 - 1.8"]
 MetaGraphs = "0.8"
 
 ["1.4 - 1"]
@@ -60,3 +62,10 @@ Interpolations = "0.14 - 0.15"
 Distances = "0.10.12 - 0.10"
 Interpolations = "0.14 - 0.16"
 NearestNeighbors = "0.4.24 - 0.4"
+
+["1.9 - 1"]
+ForwardDiff = ["0.10", "1"]
+Memoization = "0.2"
+MetaGraphs = "0.8 - 0.9"
+Optim = "1 - 2"
+ThreadSafeDicts = "0.1"
