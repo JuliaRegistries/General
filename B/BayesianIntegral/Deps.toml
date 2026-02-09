@@ -1,9 +1,14 @@
 [0]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-HCubature = "19dc6840-f33b-545b-b366-655c7e3ffd49"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0 - 0.1"]
+HCubature = "19dc6840-f33b-545b-b366-655c7e3ffd49"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Sobol = "ed01d8cd-4d21-5b2a-85b4-cc3bdc58bad4"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.2 - 0"]
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
