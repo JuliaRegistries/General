@@ -2,57 +2,70 @@
 JuMP = "0.21"
 MathOptInterface = "0.9"
 
-["0-0.1.6"]
+["0 - 0.1.6"]
 ChainRulesCore = ["0.10", "1"]
 
-["0-0.1.8"]
+["0 - 0.1.8"]
 IntervalArithmetic = "0.17-0.19"
 Setfield = "0.7"
 
-[0-1]
-ForwardDiff = "0.10"
-OrderedCollections = "1.4.0-1"
-Parameters = "0.12"
+["0 - 1"]
 Reexport = "1"
 Zygote = "0.6"
 julia = "1"
 
-["0-1.0.5"]
+["0 - 1.0.5"]
 NamedTupleTools = "0.13"
 
-["0.1.3-1"]
+["0 - 1.4"]
+ForwardDiff = "0.10"
+OrderedCollections = "1.4.0-1"
+Parameters = "0.12"
+
+["0.1.3 - 1"]
 Requires = "1"
 
-["0.1.7-1"]
+["0.1.7 - 1.4"]
 ChainRulesCore = ["0.9-0.10", "1"]
 
-["0.1.9-1"]
-IntervalArithmetic = "0.17-0.20"
-
-["0.1.9-1.1.1"]
+["0.1.9 - 1.1.1"]
 Setfield = "0.7-0.8"
 
-["1-1.0.2"]
+["0.1.9 - 1.4"]
+IntervalArithmetic = "0.17-0.20"
+
+["1 - 1.0.2"]
 JuMP = "0.22"
 MathOptInterface = "0.10"
 
-["1.0.3-1"]
+["1.0.3 - 1"]
 MathOptInterface = ["0.10", "1"]
 
-["1.0.3-1.0.4"]
+["1.0.3 - 1.0.4"]
 JuMP = "0.22-0.23"
 
-["1.0.5-1"]
+["1.0.5 - 1.4"]
 JuMP = ["0.22-0.23", "1"]
 
-["1.0.6-1"]
+["1.0.6 - 1.4"]
 NamedTupleTools = "0.13-0.14"
 
-["1.1.2-1"]
+["1.1.2 - 1.4"]
 Setfield = ["0.7-0.8", "1"]
 
-["1.2-1"]
+["1.2 - 1.4"]
 SolverCore = "0.2-0.3"
 
-["1.3-1"]
+["1.3 - 1"]
 DifferentiableFlatten = "0.1"
+
+["1.5 - 1"]
+ChainRulesCore = ["0.9 - 0.10", "1"]
+ForwardDiff = ["0.10", "1"]
+IntervalArithmetic = ["0.17 - 0.23", "1"]
+JuMP = ["0.22 - 0.23", "1"]
+NamedTupleTools = "0.13 - 0.14"
+OrderedCollections = "1.4.0 - 1"
+Parameters = "0.12 - 0.13"
+Setfield = ["0.7 - 0.8", "1"]
+SolverCore = "0.2 - 0.3"
