@@ -2,13 +2,13 @@
 Compat = "4"
 IfElse = "0.1"
 
-["1-1.4.0"]
+["1 - 1.4.0"]
 SnoopPrecompile = "1"
 
-["1-1.5.0"]
+["1 - 1.5.0"]
 Static = "0.8"
 
-["1-1.6"]
+["1 - 1.6"]
 Requires = "1"
 julia = "1.6.0-1"
 
@@ -18,14 +18,18 @@ ArrayInterface = "7"
 ["1.1"]
 ArrayInterface = "6-7"
 
-["1.2-1"]
+["1.2 - 1"]
 ArrayInterface = "7"
 
-["1.4.1-1"]
+["1.4.1 - 1"]
 PrecompileTools = "1"
 
-["1.5.1-1"]
+["1.5.1 - 1"]
 Static = ["0.8", "1"]
 
-["1.8-1"]
+["1.8"]
 julia = "1.10.0-1"
+
+["1.9 - 1"]
+SciMLPublic = "1"
+julia = "1.10.0 - 1"
