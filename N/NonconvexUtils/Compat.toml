@@ -41,8 +41,14 @@ SparseDiffTools = "2"
 AbstractDifferentiation = "0.6"
 ForwardDiff = ["0.10", "1"]
 IterativeSolvers = "0.8 - 0.9"
-LinearAlgebra = "1.12.0 - 1"
 NonconvexCore = "1.5.0 - 1"
-SparseArrays = "1.12.0 - 1"
 Symbolics = "6"
 Zygote = "0.5 - 0.6"
+
+["0.5.0"]
+LinearAlgebra = "1.12.0 - 1"
+SparseArrays = "1.12.0 - 1"
+
+["0.5.1 - 0"]
+LinearAlgebra = "1"
+SparseArrays = "1"
