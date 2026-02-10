@@ -137,12 +137,14 @@ Pkg = "1.10.0 - 1"
 REPL = "1.10.0 - 1"
 SparseArrays = "1.10.0 - 1"
 julia = "1.10.0 - 1"
-libpolymake_julia_jll = "0.14"
 polymake_jll = "400.1400.0 - 400"
 polymake_oscarnumber_jll = "0.3.9 - 0.3"
 
 ["0.13 - 0.13.1"]
 AbstractAlgebra = "0.45 - 0.46"
+
+["0.13 - 0.13.7"]
+libpolymake_julia_jll = "0.14"
 
 ["0.13.0"]
 Mongoc = "0.8 - 0.9"
@@ -161,6 +163,9 @@ BinaryWrappers = "0.1 - 0.2"
 
 ["0.13.6 - 0"]
 AbstractAlgebra = "0.45 - 0.48"
+
+["0.13.8 - 0"]
+libpolymake_julia_jll = "0.14.5 - 0.14"
 
 ["0.3"]
 CxxWrap = "0.9"
