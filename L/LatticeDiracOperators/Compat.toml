@@ -74,7 +74,7 @@ JACC = "0.5"
 ["0.5 - 0.5.6"]
 MPI = "0.20.23 - 0.20"
 
-["0.5.11 - 0"]
+["0.5.11 - 0.5"]
 Gaugefields = "0.6.16 - 0.6"
 JACC = "0.5 - 0.6"
 LatticeMatrices = "0.2.5 - 0.2"
@@ -100,3 +100,10 @@ LatticeMatrices = "0.1.15 - 0.1"
 
 ["0.5.9 - 0.5.10"]
 LatticeMatrices = "0.2.1 - 0.2"
+
+["0.6 - 0"]
+Enzyme = "0.13"
+Gaugefields = "0.7"
+JACC = ["0.6", "1"]
+LatticeMatrices = "0.3.9 - 0.3"
+PreallocatedArrays = ["0.0.1", "0.1"]
