@@ -93,8 +93,13 @@ TimerOutputs = "0.5.28 - 0.5"
 julia = "1.10.0 - 1"
 
 [1]
-HerbConstraints = "1"
 HerbCore = "1"
 HerbGrammar = "1"
 HerbInterpret = "1"
 HerbSpecification = "1"
+
+["1 - 1.0.1"]
+HerbConstraints = "1"
+
+["1.0.2 - 1"]
+HerbConstraints = "1.1.0 - 1"
