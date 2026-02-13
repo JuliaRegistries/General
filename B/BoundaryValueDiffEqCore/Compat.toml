@@ -84,9 +84,14 @@ SparseConnectivityTracer = ["0.6.13 - 0.6", "1"]
 ["1.12 - 1"]
 DiffEqBase = "6.183.0 - 6"
 Integrals = "4.7.1 - 4"
-OptimizationBase = "3.2.0 - 4"
 SciMLBase = "2.138.0 - 2"
 SciMLStructures = "1.7.0 - 1"
+
+["1.12.0"]
+OptimizationBase = "3.2.0 - 4"
+
+["1.12.1 - 1"]
+OptimizationBase = "3.2.0 - 5"
 
 ["1.5 - 1.10"]
 ArrayInterface = "7.18.0-7"
