@@ -155,7 +155,6 @@ FastClosures = "0.3.2-0.3"
 ADTypes = "1"
 
 ["5.14 - 5"]
-BoundaryValueDiffEqCore = "1"
 BoundaryValueDiffEqFIRK = "1"
 BoundaryValueDiffEqMIRK = "1"
 BoundaryValueDiffEqShooting = "1"
@@ -164,6 +163,9 @@ BoundaryValueDiffEqShooting = "1"
 ArrayInterface = "7.18.0-7"
 DiffEqBase = "6.161.0-6"
 SciMLBase = "2.71.0-2"
+
+["5.14 - 5.19.0"]
+BoundaryValueDiffEqCore = "1"
 
 ["5.15"]
 ADTypes = "1.11.0-1"
@@ -187,6 +189,9 @@ OrdinaryDiffEqTsit5 = "1.1.0 - 1"
 Reexport = "1.2.0 - 1"
 SciMLBase = "2.138.0 - 2"
 julia = "1.10.0 - 1"
+
+["5.19.1 - 5"]
+BoundaryValueDiffEqCore = "1.12.0 - 1"
 
 ["5.2 - 5.6"]
 BandedMatrices = "1"
