@@ -1,4 +1,4 @@
-[0]
+["0 - 0.2"]
 BinaryBuilderPlatformExtensions = "0.1"
 BinaryBuilderSources = "0.1"
 JLLPrefixes = "0.3.5-0.3"
@@ -6,5 +6,17 @@ Reexport = "1.2.2-1"
 Scratch = "1.2.0-1"
 julia = "1.9.0-1"
 
-["0.2-0"]
+["0.2"]
 HistoricalStdlibVersions = "1.2.4-2"
+
+["0.3 - 0"]
+BinaryBuilderPlatformExtensions = "0.2"
+BinaryBuilderSources = "0.2"
+HistoricalStdlibVersions = "2.0.1 - 2"
+JLLPrefixes = "0.3.8 - 0.4"
+LazyJLLWrappers = "1.1.0 - 1"
+PrecompileTools = "1.2.1 - 1"
+Reexport = "1.2.2 - 1"
+Scratch = "1.2.0 - 1"
+TreeArchival = "0.2"
+julia = "1.9.0 - 1"
