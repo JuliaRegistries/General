@@ -1,9 +1,7 @@
 [0]
-CImGui = "1.82.0"
 LibCImGui = "1.82.2"
-Setfield = "1.1.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 BitFlags = "0.1"
 BplusApp = "0.1.1-0.1"
 BplusCore = "0.1.1-0.1"
@@ -16,25 +14,41 @@ NamedTupleTools = "0.14"
 StructTypes = "1.10.0-1"
 TupleTools = "1.4.0-1"
 
-["0-0.2"]
+["0 - 0.2"]
 DataStructures = "0.18.15-0.18"
 MacroTools = "0.5.12-0.5"
 StaticArrays = "1.8.0-1"
 julia = "1.9.0-1"
 
+["0 - 0.3.0"]
+CImGui = "1.82.0"
+Setfield = "1.1.0-1"
+
 ["0.2.0"]
 BplusApp = "0.2"
 BplusCore = "0.2"
 
-["0.2.1-0.2"]
+["0.2.1 - 0.2"]
 BplusApp = "0.2.1-0.2"
 BplusCore = "0.2.1-0.2"
 
-["0.3-0"]
+["0.3 - 0"]
+DataStructures = "0.18"
+
+["0.3.0"]
 BplusApp = "0.3"
 BplusCore = "0.3"
-DataStructures = "0.18"
 Dates = "1.11.0-1"
 MacroTools = "0.5.16-0.5"
 StaticArrays = "1.9.0-1"
 julia = "1.11.0-1"
+
+["0.3.2 - 0"]
+BplusApp = "0.3.2 - 0.3"
+BplusCore = "0.3.2 - 0.3"
+CImGui = "1.82.2"
+Dates = "1.11.0 - 1"
+MacroTools = "0.5.16 - 0.5"
+Setfield = "1.1.0 - 1"
+StaticArrays = "1.9.0 - 1"
+julia = "1.11.0 - 1"

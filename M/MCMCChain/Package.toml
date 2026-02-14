@@ -1,3 +1,7 @@
 name = "MCMCChain"
 uuid = "1671dc4f-43c8-512c-ab25-e1704a74065e"
 repo = "https://github.com/TuringLang/MCMCChain.jl.git"
+
+[metadata.deprecated]
+reason = "MCMCChain (singular) is deprecated in favor of MCMCChains (plural)"
+alternative = "MCMCChains"

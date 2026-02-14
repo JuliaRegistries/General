@@ -23,11 +23,13 @@ ArrayInterface = "2.8.0-6"
 ArrayInterfaceStaticArrays = "0.1"
 
 ["1.11 - 1"]
-PreallocationTools = "0.4"
 StaticArrays = "1"
 
 ["1.11 - 1.14"]
 RecursiveArrayTools = "2"
+
+["1.11 - 1.17"]
+PreallocationTools = "0.4"
 
 ["1.11.1 - 1.12.3"]
 ArrayInterfaceCore = "0.1.13-0.1"
@@ -56,6 +58,10 @@ ForwardDiff = ["0.10.3-0.10", "1"]
 ForwardDiff = ["0.10.3 - 0.10", "1"]
 RecursiveArrayTools = "3.1.0 - 3"
 julia = "1.10.0 - 1"
+
+["1.18 - 1"]
+PreallocationTools = ["0.4", "1"]
+PrecompileTools = "1"
 
 ["1.2 - 1.4"]
 ArrayInterface = "2.8.0-2"

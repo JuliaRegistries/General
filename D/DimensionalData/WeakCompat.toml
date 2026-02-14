@@ -35,8 +35,10 @@ AlgebraOfGraphics = "0.8-0.10"
 Makie = "0.20 - 0.23"
 
 ["0.29.18 - 0"]
-AlgebraOfGraphics = "0.8 - 0.11"
 DiskArrays = "0.3 - 0.4"
+
+["0.29.18 - 0.29.25"]
+AlgebraOfGraphics = "0.8 - 0.11"
 
 ["0.29.19 - 0"]
 Makie = "0.20 - 0.24"
@@ -48,6 +50,12 @@ SparseArrays = "1"
 
 ["0.29.24 - 0"]
 ChainRulesCore = "1"
+
+["0.29.26 - 0"]
+Adapt = "2 - 4"
+AlgebraOfGraphics = "0.8 - 0.12"
+ArrayInterface = "7"
+RecipesBase = ["0.7 - 0.8", "1"]
 
 ["0.29.7 - 0"]
 PythonCall = "0.9"

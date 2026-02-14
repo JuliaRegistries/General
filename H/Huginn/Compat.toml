@@ -27,9 +27,6 @@ DiffEqCallbacks = "4.8.0 - 4"
 ForwardDiff = "1.0.1 - 1"
 JET = "0.9.18 - 0.9"
 
-["0.10 - 0"]
-julia = "1.10.0 - 1"
-
 ["0.10 - 0.10.3"]
 Muninn = "0.7"
 
@@ -39,6 +36,9 @@ JLD2 = "0.4 - 0.5"
 ["0.10 - 0.12.3"]
 Infiltrator = "1.8.0 - 1"
 Polynomials = "2 - 4"
+
+["0.10 - 0.12.6"]
+julia = "1.10.0 - 1"
 
 ["0.10.0"]
 Sleipnir = "0.10"
@@ -142,7 +142,6 @@ JLD2 = "0.4 - 0.6"
 MLStyle = "0.4"
 Muninn = "0.9.2 - 0.9"
 OrdinaryDiffEq = "6"
-OrdinaryDiffEqCore = "1"
 PlotThemes = "3"
 Plots = "1"
 Polynomials = "2 - 4"
@@ -152,13 +151,26 @@ Revise = "3"
 Sleipnir = "0.12.6 - 0.12"
 Tullio = "0.3"
 
-["0.12.6 - 0"]
+["0.12.5 - 0.12.6"]
+OrdinaryDiffEqCore = "1"
+
+["0.12.6"]
 Dates = "1.10.0 - 1"
 Distributed = "1.10.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
 Pkg = "1.10.0 - 1"
 Printf = "1.10.0 - 1"
 Random = "1.10.0 - 1"
+
+["0.12.7 - 0"]
+Dates = "1.11.0 - 1"
+Distributed = "1.11.0 - 1"
+LinearAlgebra = "1.11.0 - 1"
+OrdinaryDiffEqCore = "3"
+Pkg = "1.11.0 - 1"
+Printf = "1.11.0 - 1"
+Random = "1.11.0 - 1"
+julia = "1.11.0 - 1"
 
 ["0.2"]
 Muninn = "0.2.4-0.2"

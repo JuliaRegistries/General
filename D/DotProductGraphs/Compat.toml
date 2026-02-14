@@ -1,13 +1,27 @@
 [0]
-BlockArrays = "0.16"
 Graphs = "1"
-KrylovKit = "0.6"
 LowRankApprox = "0.5"
+
+["0 - 0.1"]
+BlockArrays = "0.16"
+KrylovKit = "0.6"
 julia = "1"
 
-["0.1.1-0"]
+["0.1.1 - 0"]
 Distributions = "0.25"
+
+["0.1.1 - 0.1"]
 StatsBase = "0.33"
 
-["0.1.3-0"]
+["0.1.3 - 0"]
 Arpack = "0.5"
+
+["0.2 - 0"]
+BandedMatrices = "1.11.0 - 1"
+BlockArrays = "1"
+JLD2 = "0.5 - 0.6"
+KrylovKit = "0.6 - 0.10"
+NPZ = "0.4"
+Optim = "2"
+StatsBase = "0.33 - 0.34"
+julia = "1.6.0 - 1"

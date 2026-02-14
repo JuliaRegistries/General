@@ -1,34 +1,54 @@
 [0]
-AbstractDifferentiation = "0.4"
 ChainRulesCore = "1"
-ForwardDiff = "0.10"
 julia = "1"
 
-["0.1.1-0"]
-IterativeSolvers = "0.8-0.9"
-LinearMaps = "3"
-Zygote = "0.5-0.6"
+["0 - 0.4"]
+AbstractDifferentiation = "0.4"
+ForwardDiff = "0.10"
 
-["0.1.1-0.2"]
+["0.1.1 - 0"]
+LinearMaps = "3"
+
+["0.1.1 - 0.2"]
 NonconvexCore = "1"
 
-["0.1.2-0"]
+["0.1.1 - 0.4"]
+IterativeSolvers = "0.8-0.9"
+Zygote = "0.5-0.6"
+
+["0.1.2 - 0"]
 MacroTools = "0.5"
 
-["0.2-0.4.1"]
+["0.2 - 0.4.1"]
 Symbolics = "4.6.0-4"
 
-["0.2-0.4.2"]
+["0.2 - 0.4.2"]
 SparseDiffTools = "1.24.0-1"
 
 ["0.3"]
 NonconvexCore = "1.0.8-1"
 
-["0.4-0"]
+["0.4"]
 NonconvexCore = "1.1.0-1"
 
-["0.4.2-0"]
+["0.4.2 - 0.4"]
 Symbolics = "5"
 
-["0.4.3-0"]
+["0.4.3 - 0.4"]
 SparseDiffTools = "2"
+
+["0.5 - 0"]
+AbstractDifferentiation = "0.6"
+ForwardDiff = ["0.10", "1"]
+IterativeSolvers = "0.8 - 0.9"
+NonconvexCore = "1.5.0 - 1"
+Symbolics = "6"
+Zygote = "0.5 - 0.6"
+
+["0.5.0"]
+LinearAlgebra = "1.12.0 - 1"
+SparseArrays = "1.12.0 - 1"
+
+["0.5.1 - 0"]
+LinearAlgebra = "1"
+SparseArrays = "1"

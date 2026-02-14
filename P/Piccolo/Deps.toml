@@ -1,11 +1,13 @@
 [0]
-NamedTrajectories = "538bc3a1-5ab9-4fc3-b776-35ca1e893e08"
 QuantumCollocation = "0dc23a59-5ffb-49af-b6bd-932a8ae77adf"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-TrajectoryIndexingUtils = "6dad8b7f-dd9a-4c28-9b70-85b9a079bfc8"
 
 ["0 - 0.1.0"]
 IterativeLearningControl = "55efb022-e1be-4044-9089-57a478d003fb"
+
+["0 - 1"]
+NamedTrajectories = "538bc3a1-5ab9-4fc3-b776-35ca1e893e08"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+TrajectoryIndexingUtils = "6dad8b7f-dd9a-4c28-9b70-85b9a079bfc8"
 
 ["0.1.1 - 0.1"]
 Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
@@ -17,3 +19,25 @@ IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
 ["0.5 - 0"]
 PiccoloPlots = "f42a522c-b487-4f73-ad5a-ad0c3e4a12c8"
 PiccoloQuantumObjects = "5a402ddf-f93c-42eb-975e-5582dcda653d"
+
+[1]
+DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
+DirectTrajOpt = "c823fa1f-8872-4af5-b810-2b9b72bbbf56"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+ExponentialAction = "e24c0720-ea99-47e8-929e-571b494574d3"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+OrdinaryDiffEqLinear = "521117fe-8c41-49f8-b3b6-30780b3f0fb5"
+OrdinaryDiffEqTsit5 = "b1df2697-797e-41e3-8120-5422d3b24e4a"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
+TestItemRunner = "f8b46487-2199-4994-9208-9a1283c18c0a"
+TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"

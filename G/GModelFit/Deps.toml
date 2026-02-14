@@ -2,9 +2,7 @@
 CMPFit = "a5944310-3432-5d93-8bb2-e3b5eb62a58f"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
 Gnuplot = "dc211083-a33a-5b79-959f-2ff34033469d"
-JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
@@ -17,6 +15,10 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ["0 - 0.3.0"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 
+["0 - 0.7"]
+GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+
 ["0.2 - 0"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
@@ -25,7 +27,12 @@ Polyester = "f517fe37-dbe3-4b94-8317-1923a5111588"
 
 ["0.5 - 0"]
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
+["0.5 - 0.7"]
 NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 
 ["0.7.4 - 0"]
 TypedJSON = "82102e82-2b72-4f25-ab3c-19001ac49e20"
+
+["0.8 - 0"]
+CurveFit = "5a033b19-8c74-5913-a970-47c3779ef25c"

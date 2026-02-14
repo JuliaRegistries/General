@@ -4,7 +4,13 @@ Images = "0.26.2 - 0.26"
 Interpolations = "0.14.2 - 0.16"
 LinearAlgebra = "1.6.0 - 1"
 OhMyThreads = "0.8.3 - 0.8"
-Optim = "1.13.2 - 1"
 StaticArrays = "1"
 Statistics = "1.10.0 - 1"
 julia = "1.10.0 - 1"
+
+["0 - 0.1.0"]
+Optim = "1.13.2 - 1"
+
+["0.1.1 - 0"]
+NLSolversBase = "7 - 8"
+Optim = "1.13.2 - 2"

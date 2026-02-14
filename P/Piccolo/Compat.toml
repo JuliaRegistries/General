@@ -1,6 +1,3 @@
-[0]
-TrajectoryIndexingUtils = "0.1"
-
 ["0 - 0.1"]
 NamedTrajectories = "0.1"
 QuantumCollocation = "0.1"
@@ -11,6 +8,9 @@ IterativeLearningControl = "0.1"
 
 ["0 - 0.7"]
 Reexport = "1.2.0-1"
+
+["0 - 1"]
+TrajectoryIndexingUtils = "0.1"
 
 ["0.1.1 - 0.1"]
 CairoMakie = "0.10"
@@ -23,10 +23,12 @@ IJulia = "1.24.0-1"
 QuantumCollocation = "0.9"
 
 ["0.11 - 0"]
-NamedTrajectories = "0.8"
 PiccoloPlots = "0.4"
 PiccoloQuantumObjects = "0.10"
 QuantumCollocation = "0.10"
+
+["0.11 - 1"]
+NamedTrajectories = "0.8"
 
 ["0.2"]
 QuantumCollocation = "0.2"
@@ -78,14 +80,35 @@ NamedTrajectories = "0.5"
 PiccoloPlots = "0.2"
 PiccoloQuantumObjects = "0.6"
 
-["0.8 - 0"]
-Reexport = "1.2.0 - 1"
-julia = "1.10.0 - 1"
-
 ["0.8 - 0.9"]
 QuantumCollocation = "0.8"
+
+["0.8 - 1"]
+Reexport = "1.2.0 - 1"
+julia = "1.10.0 - 1"
 
 ["0.9 - 0.10"]
 NamedTrajectories = "0.6"
 PiccoloPlots = "0.3"
 PiccoloQuantumObjects = "0.7"
+
+[1]
+DataInterpolations = "8.9.0 - 8"
+DirectTrajOpt = "0.8"
+Distributions = "0.25"
+ExponentialAction = "0.2"
+ForwardDiff = "1.3.0 - 1"
+JLD2 = "0.6"
+LaTeXStrings = "1.4.0 - 1"
+LinearAlgebra = "1.10.0 - 1"
+Makie = "0.24"
+OrdinaryDiffEqLinear = "1.10.0 - 1"
+OrdinaryDiffEqTsit5 = "1.9.0 - 1"
+ProgressMeter = "1.11.0 - 1"
+Random = "1.10.0 - 1"
+SciMLBase = "2.134.0 - 2"
+SparseArrays = "1.10.0 - 1"
+SpecialFunctions = "2.6.0 - 2"
+SymbolicIndexingInterface = "0.3"
+TestItemRunner = "1.1.0 - 1"
+TestItems = "1"

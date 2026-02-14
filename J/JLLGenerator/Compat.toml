@@ -1,9 +1,20 @@
 [0]
-BinaryBuilderPlatformExtensions = "0.1"
-MultiHashParsing = "0.1"
 Reexport = "1"
 StructEquality = "2"
+
+["0 - 0.3"]
+BinaryBuilderPlatformExtensions = "0.1"
 julia = "1.9.0-1"
 
-["0.3.1-0"]
+["0 - 0.4.0"]
+MultiHashParsing = "0.1"
+
+["0.3.1 - 0"]
 LicenseCheck = "0.2"
+
+["0.4 - 0"]
+BinaryBuilderPlatformExtensions = "0.2"
+julia = "1.9.0 - 1"
+
+["0.4.1 - 0"]
+MultiHashParsing = "0.2"

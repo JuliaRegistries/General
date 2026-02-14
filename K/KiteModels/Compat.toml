@@ -21,6 +21,14 @@ NLsolve = "4.5.0-4"
 ["0.1.1 - 0.4.3"]
 StaticArrays = ["1.2.5", "1.3.1-1"]
 
+["0.10 - 0"]
+KitePodModels = "0.4"
+KiteUtils = "0.11.1 - 0.11"
+ModelingToolkit = "9.73"
+SciMLBase = "2.114"
+Suppressor = "0.2.8 - 0.2"
+SymbolicUtils = "3.25"
+
 ["0.2"]
 BenchmarkTools = "1.2.0-1"
 KiteUtils = "0.2.5-0.3"
@@ -305,7 +313,6 @@ KiteUtils = "0.10.5-0.10"
 
 ["0.7.4 - 0"]
 LinearSolve = ["2.39", "3"]
-ModelingToolkit = "9.78"
 
 ["0.7.4 - 0.8"]
 NonlinearSolve = "4.8.0-4"
@@ -316,12 +323,22 @@ PrecompileTools = "1.2.0-1"
 SymbolicUtils = "3.25.0-3"
 VortexStepMethod = "1.2.6-1"
 
+["0.7.4 - 0.9"]
+ModelingToolkit = "9.78"
+
 ["0.8"]
 KiteUtils = "0.10.10-0.10"
 SciMLOperators = ["0.3.13-0.3", "1"]
 
 ["0.8 - 0"]
 SHA = "0.7"
+
+["0.9"]
+KitePodModels = "0.3.8 - 0.3"
+KiteUtils = "0.10.15 - 0.10"
+SciMLBase = "2.82.1 - 2"
+SciMLOperators = ["0.3.13 - 0.3", "1"]
+SymbolicUtils = "3.25.0 - 3"
 
 ["0.9 - 0"]
 ADTypes = "1.14.0 - 1"
@@ -332,8 +349,6 @@ DiffEqBase = "6.161.0 - 6"
 DiscretePIDs = "0.1.5 - 0.1"
 DocStringExtensions = "0.9.4 - 0.9"
 Interpolations = "0.15.1 - 0.15"
-KitePodModels = "0.3.8 - 0.3"
-KiteUtils = "0.10.15 - 0.10"
 LinearAlgebra = "1.10.0 - 1"
 NLSolversBase = "7.8.3 - 7.8"
 NLsolve = "4.5.0 - 4"
@@ -346,12 +361,9 @@ PrecompileTools = "1.2.0 - 1"
 REPL = "1.10.0 - 1"
 Reexport = "1.1.0 - 1"
 Rotations = "1.7.0 - 1"
-SciMLBase = "2.82.1 - 2"
-SciMLOperators = ["0.3.13 - 0.3", "1"]
 Serialization = "1.10.0 - 1"
 StaticArrays = "1.9.7 - 1"
 Sundials = "4.24.0 - 4"
-SymbolicUtils = "3.25.0 - 3"
 Timers = "0.1.5 - 0.1"
 VortexStepMethod = "1.2.6 - 1"
 WinchModels = "0.3.6 - 0.3"

@@ -20,9 +20,11 @@ julia = "1.8.0-1"
 ["0.11.1 - 0"]
 Dates = "1"
 LinearAlgebra = "1"
-Polyester = "0.7"
 Random = "1"
 SparseArrays = "1"
+
+["0.11.1 - 0.13.7"]
+Polyester = "0.7"
 
 ["0.11.6 - 0"]
 Statistics = "1"
@@ -31,11 +33,13 @@ Statistics = "1"
 PrecompileTools = "1"
 
 ["0.12 - 0"]
-SearchModels = "0.4"
 StrideArraysCore = "0.5"
 
 ["0.12 - 0.12.2"]
 ProgressMeter = "1.10.0-1"
+
+["0.12 - 0.13.7"]
+SearchModels = "0.4"
 
 ["0.12.3 - 0"]
 ProgressMeter = "1.10.0 - 1"
@@ -56,6 +60,9 @@ JLD2 = "0.5"
 
 ["0.13.4 - 0"]
 Accessors = "0.1"
+
+["0.13.8 - 0"]
+SearchModels = "0.5"
 
 ["0.3.20"]
 DataStructures = "0.0.0-0.18"

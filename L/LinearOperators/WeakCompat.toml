@@ -3,12 +3,19 @@ AMDGPU = ["0.6-0.9", "1"]
 JLArrays = "0.1-0.2"
 Metal = "1.1.0-1"
 
-["2.11 - 2"]
+["2.11"]
 AMDGPU = "2"
 CUDA = "5"
 JLArrays = "0.1 - 0.2"
 LDLFactorizations = "0.9 - 0.10"
 Metal = "1.1.0 - 1"
+
+["2.12 - 2"]
+AMDGPU = "2.2.0 - 2"
+CUDA = "5.9.6 - 5"
+JLArrays = "0.3"
+LDLFactorizations = "0.10"
+Metal = "1.9.1 - 1"
 
 ["2.7 - 2"]
 ChainRulesCore = "1"

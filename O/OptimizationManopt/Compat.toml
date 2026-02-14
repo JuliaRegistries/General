@@ -21,13 +21,21 @@ LinearAlgebra = "1.10.0 - 1"
 ManifoldDiff = "0.4"
 Manifolds = "0.10"
 ManifoldsBase = "1"
-Manopt = "0.5"
 Reexport = "1.2.0 - 1"
 julia = "1.10.0 - 1"
+
+["1 - 1.1"]
+Manopt = "0.5"
 
 ["1.0"]
 Optimization = "4.4.0 - 4"
 
-["1.1 - 1"]
+["1.1"]
 OptimizationBase = "4"
+
+["1.1 - 1"]
 SciMLBase = "2.122.1 - 2"
+
+["1.2 - 1"]
+Manopt = "0.5.25 - 0.5"
+OptimizationBase = "5"

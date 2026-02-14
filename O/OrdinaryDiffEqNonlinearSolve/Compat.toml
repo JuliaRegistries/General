@@ -72,8 +72,6 @@ FastClosures = "0.3"
 LinearAlgebra = "1.10.0 - 1"
 MuladdMacro = "0.2"
 RecursiveArrayTools = "3.36.0 - 3"
-SciMLBase = "2.99.0 - 2"
-SciMLOperators = "1.4.0 - 1"
 SciMLStructures = "1.7.0 - 1"
 SimpleNonlinearSolve = "2.7.0 - 2"
 StaticArrays = "1.9.0 - 1"
@@ -91,18 +89,24 @@ LinearSolve = "3.26.0 - 3"
 ["1.13 - 1.18.0"]
 PreallocationTools = "0.4"
 
-["1.14 - 1"]
-OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
+["1.13 - 1.19"]
+SciMLBase = "2.99.0 - 2"
+SciMLOperators = "1.4.0 - 1"
 
 ["1.14 - 1.15"]
 OrdinaryDiffEqCore = "1.29.0 - 1"
+
+["1.14 - 1.19"]
+OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
 
 ["1.14.1 - 1"]
 ForwardDiff = ["0.10.38 - 0.10", "1"]
 
 ["1.15 - 1"]
-DiffEqBase = "6.190.2 - 6"
 NonlinearSolve = "4.12.0 - 4"
+
+["1.15 - 1.19"]
+DiffEqBase = "6.190.2 - 6"
 
 ["1.16 - 1.18"]
 OrdinaryDiffEqCore = "2"
@@ -122,6 +126,12 @@ NonlinearSolve = "3.14.0-4"
 
 ["1.2.4 - 1.10"]
 SimpleNonlinearSolve = "1.12.0-2"
+
+["1.20 - 1"]
+DiffEqBase = "6.194.0 - 6"
+OrdinaryDiffEqDifferentiation = "2"
+SciMLBase = "2.116.0 - 2"
+SciMLOperators = "1.15.0 - 1"
 
 ["1.4"]
 OrdinaryDiffEqCore = "1.13.0-1"

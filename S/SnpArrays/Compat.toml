@@ -1,58 +1,72 @@
 [0]
 CodecXz = "0.7"
 CodecZlib = "0.7"
-DataFrames = ["0.20-0.22", "1"]
 Glob = "1"
-LoopVectorization = "0.12.43-0.12"
 Missings = ["0.4", "1"]
 Requires = "1"
 Tables = "1"
 TranscodingStreams = "0.9"
 VariantCallFormat = "0.5"
-julia = "1.5.0-1"
 
-["0-0.3.11"]
+["0 - 0.3.11"]
 CSV = "0.8"
 VectorizationBase = "0.20.19-0.20"
 
-["0-0.3.12"]
+["0 - 0.3.12"]
 SpecialFunctions = ["0.8-0.10", "1"]
 
-["0-0.3.18"]
+["0 - 0.3.18"]
 StatsBase = "0.24-0.33"
 
-["0-0.3.19"]
+["0 - 0.3.19"]
 DelimitedFiles = "1.5.0-1"
 
-["0-0.3.20"]
+["0 - 0.3.20"]
 CodecBzip2 = "0.7"
 CodecZstd = "0.7"
 
-["0-0.3.21"]
+["0 - 0.3.21"]
 Adapt = "3"
 Statistics = "1.5.0-1"
 
-["0.3.12-0"]
-VectorizationBase = "0.20.19-0.21"
+["0 - 0.3.22"]
+DataFrames = ["0.20-0.22", "1"]
+LoopVectorization = "0.12.43-0.12"
+julia = "1.5.0-1"
 
-["0.3.12-0.3.13"]
+["0.3.12 - 0.3.13"]
 CSV = "0.8-0.9"
 
-["0.3.13-0"]
+["0.3.12 - 0.3.22"]
+VectorizationBase = "0.20.19-0.21"
+
+["0.3.13 - 0.3.22"]
 SpecialFunctions = ["0.8-0.10", "1-2"]
 
-["0.3.14-0"]
+["0.3.14 - 0.3.22"]
 CSV = "0.8-0.10"
 
-["0.3.19-0"]
+["0.3.19 - 0.3.22"]
 StatsBase = "0.24-0.34"
 
-["0.3.20-0"]
+["0.3.20 - 0"]
 DelimitedFiles = "1"
 
-["0.3.21-0"]
+["0.3.21 - 0.3.22"]
 CodecBzip2 = "0.7-0.8"
 CodecZstd = "0.7-0.8"
 
-["0.3.22-0"]
+["0.3.22"]
 Adapt = "3-4"
+
+["0.3.23 - 0"]
+Adapt = "3 - 4"
+CSV = "0.8 - 0.10"
+CodecBzip2 = "0.7 - 0.8"
+CodecZstd = "0.7 - 0.8"
+DataFrames = ["0.20 - 0.22", "1"]
+LoopVectorization = "0.12.43 - 0.12"
+SpecialFunctions = ["0.8 - 0.10", "1 - 2"]
+StatsBase = "0.24 - 0.34"
+VectorizationBase = "0.20.19 - 0.21"
+julia = "1.5.0 - 1"

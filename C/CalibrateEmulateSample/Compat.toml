@@ -1,62 +1,88 @@
 [0]
 Conda = "1.7.0-1"
-GaussianProcesses = "0.12"
 PyCall = "1.93.0-1"
 julia = "1.6.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 AbstractMCMC = "3.3.0-3"
 Distributions = "0.24"
 DocStringExtensions = "0.8"
 EnsembleKalmanProcesses = "0.8"
 MCMCChains = "4.14.0-4"
 
-["0-0.2"]
+["0 - 0.2"]
 AdvancedMH = "0.6"
 ScikitLearn = "0.6"
 StatsBase = "0.33"
 
-["0-0.4"]
+["0 - 0.4"]
 Statistics = "1.6.0-1"
+
+["0 - 1"]
+GaussianProcesses = "0.12"
 
 ["0.2"]
 EnsembleKalmanProcesses = "0.8-0.13"
 MCMCChains = "4.14.0-5"
 
-["0.2-0"]
+["0.2 - 0"]
 Distributions = "0.24-0.25"
 DocStringExtensions = "0.8-0.9"
 
-["0.2-0.4"]
+["0.2 - 0.4"]
 AbstractMCMC = "3.3.0-4"
 
-["0.3-0"]
+["0.3 - 0"]
 MCMCChains = "4.14.0-6"
-ProgressBars = "1"
-RandomFeatures = "0.3"
 ScikitLearn = "0.6-0.7"
-StableRNGs = "1"
 StatsBase = "0.33-0.34"
 
-["0.3-0.4"]
+["0.3 - 0.4"]
 AdvancedMH = "0.6-0.7"
 
-["0.3-0.5"]
+["0.3 - 0.5"]
 EnsembleKalmanProcesses = "1.1.0-1"
 
-["0.5-0"]
+["0.3 - 1"]
+ProgressBars = "1"
+RandomFeatures = "0.3"
+StableRNGs = "1"
+
+["0.5 - 0"]
 AbstractMCMC = "3.3.0-5"
 AdvancedMH = "0.6-0.8"
+
+["0.5 - 1"]
 Printf = "1"
 Random = "1"
 Statistics = "1"
 
-["0.6-0"]
+["0.6 - 1"]
 EnsembleKalmanProcesses = "2"
 
-["0.7-0"]
+["0.7 - 0"]
 AbstractGPs = "0.5.21-0.5"
 ChunkSplitters = "3.1.2-3"
 ForwardDiff = ["0.10.38-0.10", "1"]
 KernelFunctions = "0.10.64-0.10"
 ReverseDiff = "1.15.3-1"
+
+[1]
+AbstractGPs = "0.5.21 - 0.5"
+AbstractMCMC = "5"
+AdvancedMH = "0.8"
+ChunkSplitters = "3.1.2 - 3"
+Conda = "1.7.0 - 1"
+Distributions = "0.24 - 0.25"
+DocStringExtensions = "0.8 - 0.9"
+ForwardDiff = "1"
+KernelFunctions = "0.10.64 - 0.10"
+LinearMaps = "3.11.4 - 3"
+LowRankApprox = "0.5.5 - 0.5"
+MCMCChains = "7"
+PyCall = "1.93.0 - 1"
+ReverseDiff = "1.15.3 - 1"
+ScikitLearn = "0.6 - 0.7"
+StatsBase = "0.33 - 0.34"
+TSVD = "0.4.4 - 0.4"
+julia = "1.6.0 - 1"

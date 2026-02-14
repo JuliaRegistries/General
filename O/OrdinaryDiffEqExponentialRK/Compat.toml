@@ -20,6 +20,11 @@ LinearAlgebra = ["0.0.0", "1"]
 ["1.12 - 1"]
 OrdinaryDiffEqCore = "3"
 
+["1.13 - 1"]
+DiffEqBase = "6.194.0 - 6"
+OrdinaryDiffEqDifferentiation = "2"
+SciMLBase = "2.116.0 - 2"
+
 ["1.2 - 1.3"]
 OrdinaryDiffEqCore = "1.13.0-1"
 
@@ -49,19 +54,21 @@ OrdinaryDiffEqDifferentiation = ["0.0.0", "1.2.0 - 1"]
 
 ["1.7 - 1"]
 ADTypes = "1.16.0 - 1"
-DiffEqBase = "6.176.0 - 6"
 ExponentialUtilities = "1.27.0 - 1"
 FastBroadcast = "0.3"
 LinearAlgebra = "1.10.0 - 1"
 MuladdMacro = "0.2"
 RecursiveArrayTools = "3.36.0 - 3"
 Reexport = "1.2.0 - 1"
+
+["1.7 - 1.12"]
+DiffEqBase = "6.176.0 - 6"
 SciMLBase = "2.99.0 - 2"
 
 ["1.8"]
 OrdinaryDiffEqCore = "1.29.0 - 1"
 
-["1.8 - 1"]
+["1.8 - 1.12"]
 OrdinaryDiffEqDifferentiation = "1.12.0 - 1"
 
 ["1.9 - 1.11"]

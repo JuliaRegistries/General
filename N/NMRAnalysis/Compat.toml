@@ -30,15 +30,17 @@ GLMakie = "0.11"
 Measurements = "2.13.0 - 2"
 
 ["0.2.3 - 0"]
+NativeFileDialog = "0.2.1 - 0.2"
+Plots = "1.40.0 - 1"
+julia = "1.10.0 - 1"
+
+["0.2.3 - 0.2"]
 DelimitedFiles = "1.9.1 - 1"
 LightGraphs = "1.3.5 - 1"
-NativeFileDialog = "0.2.1 - 0.2"
 OrderedCollections = "1.8.0 - 1"
-Plots = "1.40.0 - 1"
 PrecompileTools = "1.2.0 - 1"
 Reexport = "1.2.0 - 1"
 Statistics = "1.10.0 - 1"
-julia = "1.10.0 - 1"
 
 ["0.2.3 - 0.2.4"]
 CairoMakie = "0.13.1 - 0.13"
@@ -53,6 +55,8 @@ Random = "1.11.0 - 1"
 
 ["0.2.4 - 0"]
 Distributions = "0.25.117 - 0.25"
+
+["0.2.4 - 0.2"]
 Measurements = "2.11.0 - 2"
 MonteCarloMeasurements = "1.4.5 - 1"
 
@@ -62,10 +66,27 @@ NMRTools = "0.2.1 - 0.2"
 ["0.2.5 - 0"]
 CairoMakie = "0.15.7 - 0.15"
 GLMakie = "0.13.7 - 0.13"
+
+["0.2.5 - 0.2"]
 LinearAlgebra = "1.10.0 - 1"
 Printf = "1.10.0 - 1"
 REPL = "1.10.0 - 1"
 Random = "1.10.0 - 1"
 
-["0.2.6 - 0"]
+["0.2.6 - 0.2"]
 NMRTools = "0.2.3 - 0.2"
+
+["0.3 - 0"]
+DelimitedFiles = "1.9.0 - 1"
+LightGraphs = "1.3.0 - 1"
+LinearAlgebra = "1"
+Measurements = "2"
+MonteCarloMeasurements = "1"
+NMRTools = "0.2.5 - 0.2"
+OrderedCollections = "1"
+PrecompileTools = "1"
+Printf = "1"
+REPL = "1"
+Random = "1"
+Reexport = "1"
+Statistics = "1"

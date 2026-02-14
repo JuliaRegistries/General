@@ -50,18 +50,30 @@ Compat = "4.14.0-4"
 ["0.9.11 - 0"]
 ChunkSplitters = "3.1.0 - 3"
 Compat = "4.14.0 - 4"
-LinearAlgebra = "1.9.0 - 1"
 PrecompileTools = "1.2.1 - 1"
 ProgressMeter = "1.6.0 - 1"
-Random = "1.9.0 - 1"
 Setfield = ["0.7 - 0.9", "1"]
-julia = "1.9.0 - 1"
 
 ["0.9.11 - 0.9.14"]
 StaticArrays = "1.6.0 - 1"
 
+["0.9.11 - 0.9.15"]
+LinearAlgebra = "1.9.0 - 1"
+Random = "1.9.0 - 1"
+julia = "1.9.0 - 1"
+
 ["0.9.15 - 0"]
 StaticArrays = "1.9.15 - 1"
+
+["0.9.16"]
+LinearAlgebra = "1.10.0 - 1"
+Random = "1.10.0 - 1"
+julia = "1.10.0 - 1"
+
+["0.9.17 - 0"]
+LinearAlgebra = "1.9.0 - 1"
+Random = "1.9.0 - 1"
+julia = "1.9.0 - 1"
 
 ["0.9.5 - 0.9.6"]
 TestItems = ["0.1", "1"]
