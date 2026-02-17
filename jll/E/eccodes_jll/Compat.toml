@@ -4,15 +4,23 @@ julia = "1"
 ["2.19"]
 JLLWrappers = "1.1.0-1"
 
-["2.21-2"]
+["2.21-2.36"]
 JLLWrappers = "1.2.0-1"
 
 ["2.25-2"]
 julia = "1.6.0-1"
 
-["2.36-2"]
+["2.36"]
 Artifacts = "1"
 Libdl = "1"
-OpenJpeg_jll = "2.5.2-2.5"
 libaec_jll = "1.1.2-1.1"
+
+["2.36-2"]
+OpenJpeg_jll = "2.5.2-2.5"
 libpng_jll = "1.6.43-1.6"
+
+["2.45-2"]
+Artifacts = ["0.0.0", "1"]
+JLLWrappers = "1.7.0-1"
+Libdl = ["0.0.0", "1"]
+libaec_jll = "1.1.5-1.1"
