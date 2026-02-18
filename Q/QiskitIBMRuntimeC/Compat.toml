@@ -1,8 +1,14 @@
 [0]
 CEnum = "0.5"
-Compat = "3.47.0 - 3"
 Dates = "1"
 Libdl = "1"
-Qiskit = "0.3"
 julia = "1.10.0 - 1"
 qiskit_ibm_runtime_jll = "0.38"
+
+["0 - 0.1.0"]
+Compat = "3.47.0 - 3"
+Qiskit = "0.3"
+
+["0.1.1 - 0"]
+Compat = "3.47.0 - 4"
+Qiskit = "0.4"
