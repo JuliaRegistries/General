@@ -597,6 +597,7 @@ some amount of consideration when choosing package names.
 0b21cfa8-e591-48a4-a07b-a9d20be7c264 = { name = "Nevanlinna", path = "N/Nevanlinna" }
 0b2bc22c-b7e0-473f-8186-c840e49dfa80 = { name = "UncertainSkyCoords", path = "U/UncertainSkyCoords" }
 0b348230-5aa4-480a-91ab-d06d9d41a8e5 = { name = "MultiFlowSolver", path = "M/MultiFlowSolver" }
+0b3787ab-bd9c-4026-b901-8cf5c1b442b9 = { name = "BayesDensityRandomBernsteinPoly", path = "B/BayesDensityRandomBernsteinPoly" }
 0b37b92c-f0c5-4a52-bd5c-390dec20857c = { name = "SpaceDataModel", path = "S/SpaceDataModel" }
 0b3b1443-0f03-428d-bdfb-f27f9c1191ea = { name = "MicroMamba", path = "M/MicroMamba" }
 0b43b601-686d-58a3-8a1c-6623616c7cd4 = { name = "Groebner", path = "G/Groebner" }
@@ -2002,6 +2003,7 @@ some amount of consideration when choosing package names.
 2696aab5-0948-5276-aa9a-2a86a37016b8 = { name = "HIP_jll", path = "jll/H/HIP_jll" }
 26988f03-70df-4135-959e-06268cc6415a = { name = "ComradeOptimization", path = "C/ComradeOptimization" }
 269dd85f-649c-4475-a373-cd87bf6afec3 = { name = "Kraken", path = "K/Kraken" }
+26a9145d-e64c-4475-a766-b5ac12021523 = { name = "TclTk", path = "T/TclTk" }
 26aad666-b158-4e64-9d35-0e672562fa48 = { name = "SSMProblems", path = "S/SSMProblems" }
 26aafa55-59f7-45ac-9841-9c476cd28090 = { name = "SpectralStatistics", path = "S/SpectralStatistics" }
 26abab4e-b12e-45db-9809-c199ca6ddca8 = { name = "CausalELM", path = "C/CausalELM" }
@@ -4101,6 +4103,7 @@ some amount of consideration when choosing package names.
 4ebad81c-a51b-5e30-a6f2-7dd7a25f3aaf = { name = "bwamem2_jll", path = "jll/B/bwamem2_jll" }
 4ec4db44-c288-11e9-3202-272e944f779a = { name = "ScenTrees", path = "S/ScenTrees" }
 4ec54591-1743-56ec-8704-f258a6d96b61 = { name = "Epsteinlib_jll", path = "jll/E/Epsteinlib_jll" }
+4ec5b509-5e49-418c-a128-3e7a20b6d93e = { name = "BayesDensityHistSmoother", path = "B/BayesDensityHistSmoother" }
 4ec6fef6-ecd9-481e-97e1-75598c2ab6c2 = { name = "Bezier", path = "B/Bezier" }
 4ecb348a-8b88-51ea-b912-4c460483ee91 = { name = "licensecheck_jll", path = "jll/L/licensecheck_jll" }
 4ed8d1ce-aa1e-45bc-907d-4d37aaa2bb0b = { name = "BaytesInference", path = "B/BaytesInference" }
@@ -4599,6 +4602,7 @@ some amount of consideration when choosing package names.
 587fedb0-ad84-11e9-2bd6-d15ea4be1f9e = { name = "Org", path = "O/Org" }
 5880b2e8-ad0a-48c9-bacd-30dc9c1357e0 = { name = "HelpPlots", path = "H/HelpPlots" }
 5888135b-5456-5c80-a1b6-c91ef8180460 = { name = "KeywordDispatch", path = "K/KeywordDispatch" }
+588bb9d7-6d85-4df3-a9ca-7b66fb5e4296 = { name = "BayesDensityFiniteGaussianMixture", path = "B/BayesDensityFiniteGaussianMixture" }
 588c45af-af6b-483f-b667-6e294e895986 = { name = "FastRecurFlux", path = "F/FastRecurFlux" }
 58946fd8-f65e-4b58-ac25-0d711c9bbc40 = { name = "MetaPhylo", path = "M/MetaPhylo" }
 58948b4f-47e0-5654-a9ad-f609743f8632 = { name = "PROJ_jll", path = "jll/P/PROJ_jll" }
@@ -8178,6 +8182,7 @@ some amount of consideration when choosing package names.
 9d95972d-f1c8-5527-a6e0-b4b365fa01f6 = { name = "TupleTools", path = "T/TupleTools" }
 9d95f2ec-7b3d-5a63-8d20-e2491e220bb9 = { name = "TypedTables", path = "T/TypedTables" }
 9d9a57f5-5434-4194-99f6-8bfcf011f0e1 = { name = "BenchmarkingEconomicEfficiency", path = "B/BenchmarkingEconomicEfficiency" }
+9da0b0c8-0459-4567-a5a4-3605fb8f6d57 = { name = "BayesDensityPitmanYorMixture", path = "B/BayesDensityPitmanYorMixture" }
 9da27670-f782-11e9-1da1-f53579315bfe = { name = "GameZero", path = "G/GameZero" }
 9da8a3cd-07a3-59c0-a743-3fdc52c30d11 = { name = "JLSO", path = "J/JLSO" }
 9db26ae3-82ff-4374-85e9-9ed87405fd16 = { name = "H2Trees", path = "H/H2Trees" }
@@ -11470,6 +11475,7 @@ dbf15181-0796-4f0c-80cc-db9023881340 = { name = "Garamon", path = "G/Garamon" }
 dbf63f58-971e-4a9b-b153-820e5f7f543b = { name = "LibAwsMqtt", path = "L/LibAwsMqtt" }
 dc0c328b-2f26-4c4e-a741-3d78bb01adf9 = { name = "NeuralGraphPDE", path = "N/NeuralGraphPDE" }
 dc1670bf-010d-423c-baea-ccde1e2dde80 = { name = "CountdownNumbers", path = "C/CountdownNumbers" }
+dc1a60f9-7a32-4f65-8b9e-ee7db92abd95 = { name = "BayesDensityBSplineMixture", path = "B/BayesDensityBSplineMixture" }
 dc1af1da-aa00-46a0-b3ad-5cde4383c966 = { name = "SigMF", path = "S/SigMF" }
 dc1ff568-94fa-4ad3-b92b-d84550c04ff1 = { name = "SuperfluidRotSpec", path = "S/SuperfluidRotSpec" }
 dc211083-a33a-5b79-959f-2ff34033469d = { name = "Gnuplot", path = "G/Gnuplot" }
