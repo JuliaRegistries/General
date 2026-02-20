@@ -3,6 +3,8 @@ LinearAlgebra = "1"
 NNlib = "0.9"
 SparseArrays = "1"
 cuDNN = "1"
+
+["1 - 1.0.1"]
 julia = "1.9.0-1"
 
 ["1.0.0"]
@@ -12,10 +14,18 @@ ChainRules = "1.69.0-1"
 ChainRulesCore = "1.20.0-1"
 Zygote = "0.6"
 
-["1.0.1-1"]
+["1.0.1"]
 Adapt = "4-5"
 CUDA = "5"
+Zygote = "0.6-0.7"
+
+["1.0.1 - 1"]
 ChainRules = "1"
 ChainRulesCore = "1"
 MLUtils = "0.4"
-Zygote = "0.6-0.7"
+
+["1.0.2 - 1"]
+Adapt = "4 - 5"
+CUDA = "5.4.0 - 5"
+Zygote = "0.6"
+julia = "1.9.0 - 1"
