@@ -42,14 +42,13 @@ LinearAlgebra = "1.9.0-1"
 Meshes = "0.51-0.53"
 Printf = "1.9.0-1"
 
-["0.12.2 - 0"]
+["0.12.2 - 0.19.0"]
 ForwardDiff = ["0.10", "1"]
 
 ["0.14 - 0.14.1"]
 Interpolations = "0.14-0.16"
 
 ["0.14.2 - 0"]
-Interpolations = "0.14 - 0.16"
 LinearAlgebra = "1.9.0 - 1"
 SciMLBase = "2.24.0 - 2"
 SpecialFunctions = "1.5.0 - 2"
@@ -63,6 +62,9 @@ Printf = "1.9.0 - 1"
 
 ["0.14.2 - 0.18"]
 julia = "1.9.0 - 1"
+
+["0.14.2 - 0.19.0"]
+Interpolations = "0.14 - 0.16"
 
 ["0.16.2 - 0"]
 Tensors = "1.16.2 - 1"
@@ -91,6 +93,10 @@ DiffResults = "1"
 PhysicalConstants = "0.2.4 - 0.2"
 Unitful = "1.28.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.19.1 - 0"]
+ForwardDiff = "1"
+Interpolations = "0.15 - 0.16"
 
 ["0.2 - 0.14.1"]
 SpecialFunctions = "1.5.0-2"
@@ -134,7 +140,7 @@ julia = "1.9.0-1"
 ["0.3 - 0.4.1"]
 SciMLBase = "1-2"
 
-["0.4 - 0"]
+["0.4 - 0.19.0"]
 Statistics = "1"
 
 ["0.4.1"]
