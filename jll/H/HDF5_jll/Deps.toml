@@ -11,12 +11,14 @@ Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
 LibCURL_jll = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
 OpenSSL_jll = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
 
+["1.14-1"]
+LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
+
 ["1.14-1.14.2"]
 LLVMOpenMP_jll = "1d63c593-3942-5779-bab2-d838dc0a180e"
 
 ["1.14-2"]
 CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
-LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 MPICH_jll = "7cb0a576-ebde-5e09-9194-50597f1243b4"
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
 MPItrampoline_jll = "f1f71cc9-e9ae-5b93-9b94-4fe0e1ad3748"
@@ -28,3 +30,6 @@ libaec_jll = "477f73a3-ac25-53e9-8cc3-50b2fa2566f0"
 [2]
 aws_c_s3_jll = "bd1f34fb-993f-5903-a121-aaf302eed6d4"
 dlfcn_win32_jll = "c4b69c83-5512-53e3-94e6-de98773c479f"
+
+["2.0.0"]
+LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
