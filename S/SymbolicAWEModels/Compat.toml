@@ -1,23 +1,13 @@
 [0]
-DiffEqBase = "6.161.0 - 6"
 DocStringExtensions = "0.9.4 - 0.9"
-KiteUtils = "0.10.10 - 0.10"
 NonlinearSolve = "4.8.0 - 4"
-OrdinaryDiffEqBDF = "1.5.0 - 1"
-OrdinaryDiffEqCore = "1.23.0 - 1"
 OrdinaryDiffEqNonlinearSolve = "1.6.1 - 1"
 Parameters = "0.12"
-Reexport = "1.1.0 - 1"
-Rotations = "1.7.0 - 1"
 SHA = "0.7"
-SciMLBase = "2.82.1 - 2"
-SciMLOperators = ["0.3.13 - 0.3", "1"]
 StaticArrays = "1.9.7 - 1"
 Statistics = "1"
-StatsBase = "0.34"
 SymbolicIndexingInterface = "0.3"
 Timers = "0.1.5 - 0.1"
-WinchModels = "0.3.6 - 0.3"
 
 ["0 - 0.1"]
 Interpolations = "0.15.1 - 0.15"
@@ -45,14 +35,28 @@ PrecompileTools = "1.2.0 - 1"
 ["0 - 0.3"]
 SymbolicUtils = "3.25.0 - 3"
 
+["0 - 0.5"]
+DiffEqBase = "6.161.0 - 6"
+KiteUtils = "0.10.10 - 0.10"
+OrdinaryDiffEqBDF = "1.5.0 - 1"
+OrdinaryDiffEqCore = "1.23.0 - 1"
+Reexport = "1.1.0 - 1"
+Rotations = "1.7.0 - 1"
+SciMLBase = "2.82.1 - 2"
+SciMLOperators = ["0.3.13 - 0.3", "1"]
+StatsBase = "0.34"
+WinchModels = "0.3.6 - 0.3"
+
 ["0.1.1 - 0"]
-AtmosphericModels = "0.3"
 SteadyStateDiffEq = "2.5.0 - 2"
 
 ["0.1.1 - 0.1"]
 ModelingToolkit = "10.10"
 
-["0.1.2 - 0"]
+["0.1.1 - 0.5"]
+AtmosphericModels = "0.3"
+
+["0.1.2 - 0.5"]
 VortexStepMethod = "2"
 
 ["0.2"]
@@ -64,11 +68,13 @@ LaTeXStrings = "1.4.0 - 1"
 LinearAlgebra = "1"
 Pkg = "1"
 Printf = "1"
-REPL = "1"
 RecipesBase = "1.3.4 - 1"
 Serialization = "1"
 Suppressor = "0.2.8 - 0.2"
 UnPack = "1.0.2 - 1"
+
+["0.2 - 0.5"]
+REPL = "1"
 julia = "1"
 
 ["0.3"]
@@ -77,10 +83,27 @@ ModelingToolkit = "10.14"
 ["0.3 - 0"]
 CodecZlib = "0.7.8 - 0.7"
 ControlSystemsBase = "1.18.1 - 1"
-LinearSolve = "2 - 3.24"
 PrecompileTools = "1.2.1 - 1"
 Tar = "1.10.0 - 1"
 
-["0.4 - 0"]
+["0.3 - 0.5"]
+LinearSolve = "2 - 3.24"
+
+["0.4 - 0.5"]
 ModelingToolkit = "10.16"
 SymbolicUtils = "3.29"
+
+["0.6 - 0"]
+AtmosphericModels = "0.3.2 - 0.3"
+Dates = "1"
+KiteUtils = "0.11.1 - 0.11"
+Logging = "1"
+ModelingToolkit = "11"
+OrdinaryDiffEqBDF = "1.16.0 - 1"
+OrdinaryDiffEqCore = "3"
+SymbolicUtils = "4"
+Symbolics = "7"
+TOML = "1"
+VortexStepMethod = "3"
+YAML = "0.4"
+julia = "1.10.0 - 1"
