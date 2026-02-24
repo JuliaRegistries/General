@@ -118,7 +118,7 @@ SparseArrays = "1"
 ["1.18.1 - 1"]
 PreallocationTools = ["0.4", "1"]
 
-["1.19 - 1"]
+["1.19 - 1.22"]
 OrdinaryDiffEqCore = "3"
 
 ["1.2.3 - 1.10"]
@@ -130,8 +130,16 @@ SimpleNonlinearSolve = "1.12.0-2"
 ["1.20 - 1"]
 DiffEqBase = "6.194.0 - 6"
 OrdinaryDiffEqDifferentiation = "2"
-SciMLBase = "2.116.0 - 2"
 SciMLOperators = "1.15.0 - 1"
+
+["1.20 - 1.21"]
+SciMLBase = "2.116.0 - 2"
+
+["1.22 - 1"]
+SciMLBase = "2.141.0 - 2"
+
+["1.23 - 1"]
+OrdinaryDiffEqCore = "3.8.0 - 3"
 
 ["1.4"]
 OrdinaryDiffEqCore = "1.13.0-1"

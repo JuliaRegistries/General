@@ -1,9 +1,19 @@
 [0]
+Reexport = "1"
+julia = "1.12.0 - 1"
+
+["0 - 0.1"]
 BayesDensityBSplineMixture = "0.1"
 BayesDensityCore = "0.1"
 BayesDensityFiniteGaussianMixture = "0.1"
 BayesDensityHistSmoother = "0.1"
 BayesDensityPitmanYorMixture = "0.1"
 BayesDensityRandomBernsteinPoly = "0.1"
-Reexport = "1"
-julia = "1.12.0 - 1"
+
+["0.2 - 0"]
+BayesDensityBSplineMixture = "0.2"
+BayesDensityCore = "0.2"
+BayesDensityFiniteGaussianMixture = "0.2"
+BayesDensityHistSmoother = "0.2"
+BayesDensityPitmanYorMixture = "0.2"
+BayesDensityRandomBernsteinPoly = "0.2"
