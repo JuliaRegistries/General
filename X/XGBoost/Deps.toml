@@ -28,11 +28,13 @@ XGBoost_jll = "a5c6f535-4255-5ca2-a466-0e519f119c46"
 [2]
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
 CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
-JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 Term = "22787eb5-b846-44ae-b979-8e399b8463ab"
+
+["2 - 2.5.2"]
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 
 ["2.1 - 2"]
 SparseMatricesCSR = "a0a7dd2c-ebf4-11e9-1f05-cf50bc540ca1"
@@ -42,3 +44,6 @@ CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
 ["2.5.2 - 2"]
 XGBoost_GPU_jll = "bf13095a-df47-5f5c-aa1a-d897479947cc"
+
+["2.5.3 - 2"]
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
