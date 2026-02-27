@@ -48,7 +48,6 @@ InverseFunctions = "0.1"
 LinearAlgebra = "1.10.0 - 1"
 LinearSolve = "3.15.0 - 3"
 Markdown = "1.10.0 - 1"
-NonlinearSolveBase = "2"
 RecursiveArrayTools = "3.33.0 - 3"
 SciMLBase = "2.90.0 - 2"
 Setfield = "1.1.2 - 1"
@@ -57,6 +56,9 @@ julia = "1.10.0 - 1"
 
 ["1 - 1.4"]
 NonlinearSolve = "4.12.0 - 4"
+
+["1 - 1.5"]
+NonlinearSolveBase = "2"
 
 ["1.0"]
 CommonSolve = "0.2"
@@ -69,3 +71,6 @@ NonlinearSolveFirstOrder = "1.12.0 - 1"
 
 ["1.5.1 - 1"]
 NonlinearSolveFirstOrder = "2"
+
+["1.7 - 1"]
+NonlinearSolveBase = "2.14.0 - 2"
