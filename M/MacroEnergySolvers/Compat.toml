@@ -1,8 +1,15 @@
 [0]
 Dates = "1"
 Distributed = "1"
-DistributedArrays = "0.6.7 - 0.6"
-JuMP = "1.25.0 - 1"
 Logging = "1"
 Pkg = "1"
+
+["0 - 0.2.0"]
+DistributedArrays = "0.6.7 - 0.6"
+JuMP = "1.25.0 - 1"
 julia = "1"
+
+["0.2.1 - 0"]
+DistributedArrays = "0.6"
+JuMP = "1"
+julia = "1.9.0 - 1"

@@ -2,10 +2,20 @@
 DocStringExtensions = "0.8 - 0.9"
 Extents = "0.1"
 GeoInterface = "1"
-GeometryOps = "0.1.19 - 0.1"
-GeometryOpsCore = "0.1"
 LinearAlgebra = "1"
 ProgressMeter = "1"
 SortTileRecursiveTree = "0.1"
 SparseArrays = "1"
 julia = "1.10.0 - 1"
+
+["0 - 0.1"]
+GeometryOps = "0.1.19 - 0.1"
+GeometryOpsCore = "0.1"
+
+["0.2 - 0"]
+ChunkSplitters = "3"
+GeometryOps = "0.1.33 - 0.1"
+GeometryOpsCore = "0.1.9 - 0.1"
+SciMLPublic = "1"
+StableTasks = "0.1.7 - 0.1"
+StaticArrays = "1.9.0 - 1"
