@@ -98,7 +98,7 @@ OrdinaryDiffEqCore = "2"
 ["1.20"]
 LinearSolve = "3.46.0 - 3"
 
-["1.21 - 2"]
+["1.21 - 2.1"]
 LinearSolve = "3.54.0 - 3"
 
 ["1.22 - 2"]
@@ -135,5 +135,11 @@ ForwardDiff = ["0.10", "1"]
 
 [2]
 DiffEqBase = "6.194.0 - 6"
-SciMLBase = "2.116.0 - 2"
 SciMLOperators = "1.15.0 - 1"
+
+["2 - 2.1"]
+SciMLBase = "2.116.0 - 2"
+
+["2.2 - 2"]
+LinearSolve = "3.61.0 - 3"
+SciMLBase = "2.141.0 - 2"
