@@ -49,7 +49,6 @@ ForwardDiff = ["0.10", "1"]
 Interpolations = "0.14-0.16"
 
 ["0.14.2 - 0"]
-LinearAlgebra = "1.9.0 - 1"
 SciMLBase = "2.24.0 - 2"
 SpecialFunctions = "1.5.0 - 2"
 StaticArrays = "1.2.0 - 1"
@@ -65,6 +64,9 @@ julia = "1.9.0 - 1"
 
 ["0.14.2 - 0.19.0"]
 Interpolations = "0.14 - 0.16"
+
+["0.14.2 - 0.19.1"]
+LinearAlgebra = "1.9.0 - 1"
 
 ["0.16.2 - 0"]
 Tensors = "1.16.2 - 1"
@@ -97,6 +99,10 @@ julia = "1.10.0 - 1"
 ["0.19.1 - 0"]
 ForwardDiff = "1"
 Interpolations = "0.15 - 0.16"
+
+["0.19.2 - 0"]
+Distributed = "1"
+LinearAlgebra = "1"
 
 ["0.2 - 0.14.1"]
 SpecialFunctions = "1.5.0-2"
