@@ -193,14 +193,16 @@ LazySets = "2.14.0 - 4"
 MathematicalSystems = "0.11 - 0.13"
 
 ["0.28.1 - 0"]
-CarlemanLinearization = "0.3 - 0.4"
-IntervalArithmetic = "0.16 - 0.20"
 LinearAlgebra = ["0.0.0", "1.6.0 - 1"]
 Parameters = "0.10 - 0.12"
 Random = ["0.0.0", "1.6.0 - 1"]
 ReachabilityBase = "0.3.1 - 0.3"
 RecipesBase = ["0.6 - 0.8", "1"]
 SparseArrays = ["0.0.0", "1.6.0 - 1"]
+
+["0.28.1 - 0.29"]
+CarlemanLinearization = "0.3 - 0.4"
+IntervalArithmetic = "0.16 - 0.20"
 TaylorIntegration = "0.15 - 0.16"
 TaylorModels = "0.7 - 0.8"
 TaylorSeries = "0.17 - 0.18"
@@ -216,11 +218,21 @@ LazySets = "2.14.0 - 5"
 IntervalMatrices = "0.11 - 0.12"
 MathematicalSystems = "0.14.1 - 0.14"
 
-["0.28.5 - 0"]
+["0.28.5 - 0.29"]
 LazySets = "5"
 
 ["0.3 - 0.12.0"]
 IntervalArithmetic = "0.16-0.17"
+
+["0.30 - 0"]
+CarlemanLinearization = "0.4.1 - 0.4"
+IntervalArithmetic = "1"
+IntervalBoxes = "0.3"
+LazySets = "6"
+TaylorIntegration = "0.17"
+TaylorModels = "0.9"
+TaylorSeries = "0.20.6 - 0.20"
+julia = "1.10.0 - 1"
 
 ["0.4 - 0.7.6"]
 LazySets = "1.35.0-1"

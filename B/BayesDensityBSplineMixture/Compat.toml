@@ -1,7 +1,6 @@
 [0]
 BSplineKit = "0.19"
 BandedMatrices = "1"
-BayesDensityCore = "0.1"
 Distributions = "0.25"
 LinearAlgebra = "1"
 PolyaGammaHybridSamplers = "1"
@@ -12,3 +11,9 @@ SparseArrays = "1"
 SpecialFunctions = "2"
 StatsBase = "0.34"
 julia = "1.12.0 - 1"
+
+["0 - 0.1"]
+BayesDensityCore = "0.1"
+
+["0.2 - 0"]
+BayesDensityCore = "0.2"

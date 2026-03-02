@@ -432,7 +432,6 @@ CUDA_Compiler_jll = "0.2"
 
 ["5.9 - 5"]
 AbstractFFTs = ["0.5", "1"]
-DataFrames = "1.5.0 - 1"
 PrettyTables = "3"
 Reexport = "1"
 
@@ -447,6 +446,9 @@ GPUArrays = "11.2.4 - 11"
 
 ["5.9 - 5.9.5"]
 Requires = "1"
+
+["5.9 - 5.9.6"]
+DataFrames = "1.5.0 - 1"
 
 ["5.9.0"]
 BFloat16s = "0.5"
@@ -467,8 +469,11 @@ CUDA_Compiler_jll = "0.3"
 ["5.9.3 - 5"]
 StaticArrays = "1.9.8 - 1"
 
-["5.9.5 - 5"]
+["5.9.5 - 5.9.6"]
 GPUArrays = "11.3.1 - 11"
 
 ["5.9.6 - 5"]
 CUDA_Compiler_jll = "0.3 - 0.4"
+
+["5.9.7 - 5"]
+GPUArrays = "11.4.1 - 11"

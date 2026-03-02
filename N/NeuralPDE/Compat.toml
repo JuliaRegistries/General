@@ -437,14 +437,19 @@ ComponentArrays = "0.13.2-0.13"
 AdvancedHMC = "0.8"
 MCMCChains = "7"
 
+["5.21"]
+Integrals = "4.10.0 - 4"
+
 ["5.21 - 5"]
 Cubature = "1.5.1 - 1"
-Integrals = "4.10.0 - 4"
 ModelingToolkit = "11"
 NeuralOperators = "0.5 - 0.6"
 Optimization = "4 - 5"
 SymbolicUtils = "4.12.0 - 4"
 Symbolics = "7.8.0 - 7"
+
+["5.22 - 5"]
+Integrals = ["4.10.0 - 4", "5.1.0 - 5"]
 
 ["5.4 - 5.11"]
 ArrayInterface = "6-7"
