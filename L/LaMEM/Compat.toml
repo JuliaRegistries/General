@@ -101,6 +101,10 @@ julia = "1.10.0-1"
 MPI = "0.20"
 MPIPreferences = "0.1"
 
+["0.4.13 - 0"]
+LaMEM_jll = "2.2.0 - 2"
+MPICH_jll = "4.2 - 4.2.3"
+
 ["0.4.3 - 0.4.7"]
 Interpolations = "0.10-0.15"
 
@@ -113,7 +117,9 @@ GeoParams = "0.4-0.8"
 ["0.4.8 - 0"]
 GeoParams = "0.4 - 0.8"
 Interpolations = "0.10 - 0.16"
-LaMEM_jll = "2.1.4 - 2.1"
-MPICH_jll = "4.1 - 4.1.2"
 ReadVTK = "0.1 - 0.2"
 julia = "1.10.0 - 1"
+
+["0.4.8 - 0.4.12"]
+LaMEM_jll = "2.1.4 - 2.1"
+MPICH_jll = "4.1 - 4.1.2"
