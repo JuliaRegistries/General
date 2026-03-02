@@ -60,6 +60,7 @@ SciMLBase = "2.82.0 - 2"
 
 ["1.11 - 1"]
 NonlinearSolveFirstOrder = "1.2.0 - 1"
+PreallocationTools = "0.4.24 - 0.4"
 
 ["1.11 - 2"]
 ADTypes = "1.14.0 - 1"
@@ -70,7 +71,6 @@ ForwardDiff = ["0.10.38 - 0.10", "1"]
 LineSearch = "0.1.4 - 0.1"
 LinearAlgebra = "1.10.0 - 1"
 Logging = "1.10.0 - 1"
-PreallocationTools = "0.4.24 - 0.4"
 RecursiveArrayTools = "3.27.0 - 3"
 Reexport = "1.2.0 - 1"
 SparseArrays = "1.10.0 - 1"
@@ -125,3 +125,9 @@ Integrals = "4.7.1 - 5"
 NonlinearSolveBase = "2.11.2 - 2"
 NonlinearSolveFirstOrder = "1.2.0 - 2"
 SciMLLogging = "1.8.0 - 1"
+
+["2.0"]
+PreallocationTools = "0.4.24 - 0.4"
+
+["2.1 - 2"]
+PreallocationTools = ["0.4", "1"]
