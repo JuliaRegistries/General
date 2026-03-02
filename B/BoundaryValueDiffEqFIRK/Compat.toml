@@ -70,6 +70,9 @@ BoundaryValueDiffEqCore = "1.12.0 - 1"
 BoundaryValueDiffEqCore = "2"
 DifferentiationInterface = "0.7"
 
+["1.12 - 1"]
+PreallocationTools = ["0.4", "1"]
+
 ["1.4 - 1.10.0"]
 BoundaryValueDiffEqCore = "1"
 
@@ -108,7 +111,6 @@ FastAlmostBandedMatrices = "0.1.4 - 0.1"
 FastClosures = "0.3.2 - 0.3"
 ForwardDiff = ["0.10.38 - 0.10", "1"]
 LinearAlgebra = "1.10.0 - 1"
-PreallocationTools = "0.4.24 - 0.4"
 PrecompileTools = "1.2.0 - 1"
 Preferences = "1.4.0 - 1"
 RecursiveArrayTools = "3.27.0 - 3"
@@ -119,3 +121,6 @@ julia = "1.10.0 - 1"
 
 ["1.9 - 1.10"]
 DifferentiationInterface = "0.6.42 - 0.7"
+
+["1.9 - 1.11"]
+PreallocationTools = "0.4.24 - 0.4"
