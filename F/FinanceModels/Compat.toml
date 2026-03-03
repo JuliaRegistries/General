@@ -1,8 +1,3 @@
-[4]
-Accessors = "0.1"
-IntervalSets = "0.7"
-Transducers = "0.4"
-
 ["4 - 4.11"]
 AccessibleOptimization = "0.1.1-0.1"
 Optimization = "3.15.0-3"
@@ -27,14 +22,16 @@ julia = "1.9.0-1"
 ["4 - 4.9.2"]
 UnicodePlots = "3.6.0-3"
 
+["4 - 5"]
+Accessors = "0.1"
+IntervalSets = "0.7"
+Transducers = "0.4"
+
 ["4.10 - 4.11"]
 DataInterpolations = "5"
 
 ["4.12"]
 DataInterpolations = "5-6"
-
-["4.12 - 4"]
-Optimization = "4"
 
 ["4.12 - 4.13.0"]
 AccessibleOptimization = "0.1.2-0.1"
@@ -42,44 +39,44 @@ AccessibleOptimization = "0.1.2-0.1"
 ["4.12 - 4.15"]
 OptimizationMetaheuristics = "0.3"
 
-["4.13 - 4"]
+["4.12 - 5"]
+Optimization = "4"
+
+["4.13 - 5"]
 DataInterpolations = "8"
 
-["4.13.1 - 4"]
+["4.13.1 - 4.15.0"]
+AccessibleOptimization = "0.1.2 - 0.1"
+FinanceCore = "2.1.0 - 2"
+
+["4.13.1 - 5"]
 Dates = "1.6.0 - 1"
 PrecompileTools = "1.1.0 - 1"
 Reexport = "1.2.0 - 1"
 StaticArrays = "1.6.0 - 1"
 julia = "1.10.0 - 1"
 
-["4.13.1 - 4.15.0"]
-AccessibleOptimization = "0.1.2 - 0.1"
-FinanceCore = "2.1.0 - 2"
-
 ["4.14"]
 OptimizationNLopt = "0.3.2 - 0.3"
 
-["4.14 - 4"]
+["4.14 - 5"]
 DifferentiationInterface = "0.7.4 - 0.7"
 
-["4.15 - 4"]
+["4.15 - 5"]
 OptimizationOptimJL = "0.4.3 - 0.4"
-
-["4.15.1 - 4"]
-AccessibleModels = "0.1"
 
 ["4.15.1 - 4.15"]
 FinanceCore = "2.1 - 2.2"
 
-["4.16 - 4"]
+["4.15.1 - 5"]
+AccessibleModels = "0.1"
+
+["4.16 - 5"]
 AbstractTrees = "0.4.5 - 0.4"
 FinanceCore = "2.3.0 - 2"
 
-["4.17 - 4"]
+["4.17 - 5"]
 Random = "1"
-
-["4.3 - 4"]
-SpecialFunctions = "2"
 
 ["4.3 - 4.13.0"]
 Dates = "1.6.0-1"
@@ -88,17 +85,20 @@ FinanceCore = "2.1.0-2"
 ["4.3 - 4.7"]
 LinearAlgebra = "1.6.0-1"
 
+["4.3 - 5"]
+SpecialFunctions = "2"
+
 ["4.7"]
 BSplineKit = "0.16-0.17"
 
 ["4.7 - 4.11"]
 OptimizationMetaheuristics = "0.1.2-0.2"
 
-["4.8 - 4"]
-LinearAlgebra = "1"
-
 ["4.8 - 4.13.0"]
 julia = "1.10.0-1"
 
 ["4.8 - 4.9"]
 DataInterpolations = "4.7.1-4"
+
+["4.8 - 5"]
+LinearAlgebra = "1"
