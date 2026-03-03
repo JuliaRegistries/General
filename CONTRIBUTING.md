@@ -30,18 +30,18 @@ When we are helping maintain the General registry, we are acting as representati
 2. If an AutoMerge guideline fails and the package author does not seem to know how to address it, you can help guide them through the process.
 Pointing them to the [FAQ](FAQ) can help, as can updating the FAQ and other guidance to make the process more clear.
 Sometimes folks also just need a bit of help to understand the process, and writing a note can help.
-3. If an AutoMerge fails but you think the package should be manually merged, comment in the PR to explain why. 
+3. If an AutoMerge fails but you think the package should be manually merged, comment in the PR to explain why.
     * One common issue here is the name similarity check.
     This exists to prevent malicious [typosquatting](https://en.wikipedia.org/wiki/Typosquatting).
     For example, [Flux](https://github.com/FluxML/Flux.jl) is a popular machine learning package.
     A malicious actor could try to register FIux (with an uppercase-eye instead of a lowercase-ell), and encourage users to install it by writing a tutorial or such.
     They could then add malicious code to the package to try to steal secrets.
     Such an event would be an extreme security violation and the package would be yanked or removed from the registry as soon as possible-- but we try to be a bit safer by proactively screening names to require manual merging if they are "too similar" to an existing package name.
-    
+
       If a package fails the name similarity check, you can help out by taking a look at the two names as well as the package code itself, and try to make a determination if it looks "too close" (e.g. Websockets vs WebSocket), and if the package code contains anything that would indicate malicious activity.
       You can make a comment in the PR indicating whether or not you think the name similarity is okay. Include `[noblock]` in the comment if you don't want to block AutoMerge.
       If you have [triage](permissions)-level access or higher to General, you can additionally override automerge by adding the label _Override AutoMerge: name similarity is okay_.
-      
+
 4. Regardless of AutoMerge's status, if you think perhaps something more should be done before registration, feel free to leave a comment in the PR explaining what you think should be done first.
 Any comment without `[noblock]` included in it will block AutoMerge from automatically merging the pull request (editing `[noblock]` into old comments **will** allow it to resume).
     * For example, occasionally someone will register a package without any content in order to reserve the package name, with the intent to add content later.
@@ -78,7 +78,7 @@ Besides helping out with PRs to General, you can...
 * ...improve [General's README](https://github.com/JuliaRegistries/General#general), the [RegistryCI documentation](https://juliaregistries.github.io/RegistryCI.jl/stable/guidelines/), or these guidelines!
 * ...add new checks to AutoMerge (in [RegistryCI](RegistryCI)) or improve existing ones.
 * ...address open issues in [General](https://github.com/JuliaRegistries/General/issues), [RegistryCI.jl](https://github.com/JuliaRegistries/RegistryCI.jl/issues), or [Registrator.jl](https://github.com/JuliaRegistries/Registrator.jl/issues).
-* ...write blog posts and documentation to help folks get started with writing documentation, tests, and setting up CI for their own packages, and find appropriate places to link to it and help out new package authors. 
+* ...write blog posts and documentation to help folks get started with writing documentation, tests, and setting up CI for their own packages, and find appropriate places to link to it and help out new package authors.
 
 Additionally, if you have elevated [permissions](permissions) to General, there's a few more things you can do:
 
