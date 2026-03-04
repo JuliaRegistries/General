@@ -1,10 +1,12 @@
 [0]
-PythonCall = "0.9"
 Reexport = "1.2.0 - 1"
 
 ["0 - 0.4.1"]
 Optimization = "4"
 julia = "1"
+
+["0 - 0.4.5"]
+PythonCall = "0.9"
 
 ["0.4.2"]
 Optimization = "4.4.0 - 4"
@@ -22,5 +24,9 @@ OptimizationBase = "4"
 ["0.4.4 - 0"]
 SciMLBase = "2.122.1 - 2"
 
-["0.4.5 - 0"]
+["0.4.5"]
 OptimizationBase = "4.0.2 - 4"
+
+["0.4.6 - 0"]
+OptimizationBase = "5"
+PythonCall = "0.9.24 - 0.9"
