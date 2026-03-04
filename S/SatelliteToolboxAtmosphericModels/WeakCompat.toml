@@ -1,6 +1,14 @@
-["1.1 - 1"]
+["1.1"]
 ChainRulesCore = "1.25.0 - 1"
 ForwardDiff = ["0.10", "1"]
-ImplicitDifferentiation = "0.9"
 Mooncake = "0.4"
 Zygote = "0.6 - 0.7"
+
+["1.1 - 1"]
+ImplicitDifferentiation = "0.9"
+
+["1.2 - 1"]
+ChainRulesCore = "1"
+ForwardDiff = "1"
+Mooncake = "0.4 - 0.5"
+Zygote = "0.7"
