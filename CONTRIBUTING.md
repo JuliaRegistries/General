@@ -91,6 +91,10 @@ You generally should not merge your own registrations or those you are involved 
 * [write] You can merge improvements to the README, these guidelines, or our workflows.
 * [admin] You can give other contributors triage-level access so they can apply labels to PRs, or write-level permissions to merge PRs.
 
+## Expectations for registry maintainers
+
+We ask registry maintainers to refrain from merging their own PRs or PRs that they are closely involved in.
+
 ## Appendix: Checking if a repository contains all registered versions of a package
 
 When someone wishes to move a package from one repo to another, it is important that the new repo contains all of the tree hashes corresponding to registered versions of a package. That way these old versions of the package can continue to be installed from the new repository. In order to check if a given repository contains all of the registered versions of a package, the following script can be used:
