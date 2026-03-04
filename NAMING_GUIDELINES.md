@@ -48,7 +48,7 @@ may fit your package better.
      * `LibABC`
 
 7. Avoid naming a package closely to an existing package
-     * `Websocket` is too close to `WebSockets` and can be confusing to users. Rather use a new name such as `SimpleWebsockets`.
+     * `Websocket` is too close to `WebSockets` and can be confusing to users. Rather use a new name such as `ConcurrentWebsockets` that is descriptive of what distinguishes the package.
 
 8. Avoid using a distinctive name that is already in use in a well known, unrelated project.
      * Don't use the names `Tkinter.jl`, `TkinterGUI.jl`, etc. for a package that is unrelated
