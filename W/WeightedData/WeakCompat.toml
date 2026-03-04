@@ -1,8 +1,15 @@
 [0]
 ChainRulesCore = "1"
 Measurements = "2"
-OnlineSampleStatistics = "0.1"
 Plots = "1"
 RobustModels = "0.6"
 TwoDimensional = "0.4 - 0.5"
 Uncertain = "0.1"
+
+["0 - 0.2"]
+OnlineSampleStatistics = "0.1"
+
+["0.3 - 0"]
+Adapt = "4"
+GPUArrays = "11"
+OnlineSampleStatistics = ["0.1", "0.3"]
