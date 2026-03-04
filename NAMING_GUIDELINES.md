@@ -38,7 +38,7 @@ Since the `General` registry belongs to the entire community, people may have op
 7. <a id="rule-avoid-close-names" href="#rule-avoid-close-names">§</a> Avoid naming a package closely to an existing package.
      * `Websocket` is too close to `WebSockets` and can be confusing to users. Rather use a new name such as `ConcurrentWebsockets` that is descriptive of what distinguishes the package.
 
-8. <a id="rule-avoid-unrelated-project-names" href="rule-avoid-unrelated-project-names">§</a> Avoid using a distinctive name that is already in use in a well-known, unrelated project.
+8. <a id="rule-avoid-unrelated-project-names" href="#rule-avoid-unrelated-project-names">§</a> Avoid using a distinctive name that is already in use in a well-known, unrelated project.
      * Don't use the names `Tkinter.jl`, `TkinterGUI.jl`, etc., for a package that is unrelated to the popular `tkinter` Python package, even if it provides bindings to Tcl/Tk. A package name of `Tkinter.jl` would only be appropriate if the package used Python's library to accomplish its work or was spearheaded by the same community of developers.
      * It's okay to name a package `HTTP.jl` even though it is unrelated to the popular Rust crate `http` because, in most usages, the name "http" refers to the hypertext transfer protocol, not to the `http` rust crate.
      * It's okay to name a package `OpenSSL.jl` if it provides an interface to the OpenSSL library, even without explicit affiliation with the creators of the OpenSSL (provided there's no copyright or trademark infringement, etc.)
