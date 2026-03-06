@@ -325,6 +325,9 @@ GPUCompiler = "0.24-0.25"
 ["5.1 - 5.8.2"]
 CEnum = "0.2-0.5"
 
+["5.10 - 5"]
+CUDA_Runtime_jll = "0.20"
+
 ["5.2"]
 CUDA_Runtime_jll = "0.11"
 
@@ -410,7 +413,6 @@ KernelAbstractions = "0.9.32-0.9"
 CEnum = "0.2 - 0.5"
 CUDA_Driver_jll = "13"
 CUDA_Runtime_Discovery = "1"
-CUDA_Runtime_jll = "0.19"
 KernelAbstractions = "0.9.38 - 0.9"
 Random123 = "1.2.0 - 1"
 RandomNumbers = "1.5.3 - 1"
@@ -423,6 +425,9 @@ BFloat16s = "0.2 - 0.5"
 GPUArrays = "11.2.1 - 11"
 GPUCompiler = ["0.24 - 0.27", "1"]
 LLVM = "9.1.0 - 9"
+
+["5.8.3 - 5.9"]
+CUDA_Runtime_jll = "0.19"
 
 ["5.8.3 - 5.9.0"]
 GPUToolbox = "0.3"
