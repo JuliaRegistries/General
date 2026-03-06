@@ -29,10 +29,12 @@ TemporalGPs = "0.6"
 FITSIO = "0.16-0.17"
 StatsBase = "0.33-0.34"
 
+["2 - 7"]
+MCMCChains = "6"
+
 ["2 - 8"]
 AbstractGPs = "0.5"
 Distances = "0.10"
-MCMCChains = "6"
 
 [3]
 Octofitter = "3"
@@ -74,3 +76,9 @@ julia = "1.9.0 - 1"
 
 [8]
 Octofitter = "8"
+
+["8.0.0"]
+MCMCChains = "6"
+
+["8.0.1 - 8"]
+MCMCChains = "7"
