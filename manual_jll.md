@@ -66,7 +66,7 @@ If any registered binary artifacts are discovered not having a license that allo
 
 ## 5. FAQs
 
-1. Question: What if I want to distribute a package containing a proprietary binary (written in a non-Julia programming language)?
+1. Question: What if I want to distribute a package containing a proprietary binary (written in a non-Julia programming language) that has a license permitting redistribution?
     - Answer: This is doable in Yggdrasil, with an Yggdrasil recipe that reuses the existing binaries instead of building them from source. Prior art includes [CUDA_jll](https://github.com/JuliaBinaryWrappers/CUDA_jll.jl) ([recipes](https://github.com/JuliaPackaging/Yggdrasil/tree/master/C/CUDA)) and [MKL_jll](https://github.com/JuliaBinaryWrappers/MKL_jll.jl) ([recipe](https://github.com/JuliaPackaging/Yggdrasil/tree/master/M/MKL)).
 
 2. Question: What if the compiler itself is proprietary and cannot be run on Yggdrasil's infrastructure?
