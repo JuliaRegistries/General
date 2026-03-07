@@ -28,14 +28,14 @@ SimilaritySearch = "0.8.15-0.8"
 ["0.3"]
 KCenters = "0.6"
 
-["0.3 - 0"]
-Parameters = "0.12"
-
 ["0.3 - 0.6"]
 StatsBase = "0.32-0.33"
 
 ["0.3 - 0.7"]
 SearchModels = "0.3"
+
+["0.3 - 0.8"]
+Parameters = "0.12"
 
 ["0.4"]
 Polyester = "0.6"
@@ -83,7 +83,13 @@ SearchModels = "0.3-0.4"
 SimilaritySearch = "0.12"
 
 ["0.8.1 - 0"]
-SearchModels = "0.3 - 0.4"
-SimilaritySearch = "0.13"
 StatsBase = "0.32 - 0.34"
 julia = "1.10.0 - 1"
+
+["0.8.1 - 0.8"]
+SearchModels = "0.3 - 0.4"
+SimilaritySearch = "0.13"
+
+["0.9 - 0"]
+SearchModels = "0.5"
+SimilaritySearch = "0.14"
