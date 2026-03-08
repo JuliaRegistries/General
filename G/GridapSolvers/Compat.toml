@@ -29,7 +29,6 @@ GridapPETSc = "0.5"
 
 ["0.3 - 0"]
 AbstractTrees = "0.4"
-GridapDistributed = "0.4"
 
 ["0.3 - 0.4.1"]
 BlockArrays = "0.16"
@@ -38,6 +37,9 @@ Gridap = "0.18"
 
 ["0.3 - 0.6.0"]
 SparseMatricesCSR = "0.6.7-0.6"
+
+["0.3 - 0.6.1"]
+GridapDistributed = "0.4"
 
 ["0.4 - 0.6.0"]
 LineSearches = "7.0.1-7"
@@ -61,3 +63,6 @@ LineSearches = "7.0.1 - 7"
 NLsolve = "4.3.0 - 4"
 SparseMatricesCSR = "0.6.7 - 0.6"
 julia = "1.9.0 - 1"
+
+["0.6.2 - 0"]
+GridapDistributed = "0.4.11 - 0.4"
