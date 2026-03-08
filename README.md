@@ -23,7 +23,7 @@ dependencies and compatibility constraints.
 The General registry is open for everyone to use and provides access to a large ecosystem
 of packages.
 
-If you are registering a new package, please make sure that you have read the [package naming rules](https://pkgdocs.julialang.org/v1/creating-packages/#Package-naming-rules).
+If you are registering a new package, please make sure that you have read the [package naming rules][naming-guidelines].
 
 Follow along new package registrations with the `#new-packages-feed` channels in the
 [community Slack](https://julialang.org/slack/) or [Zulip](https://julialang.zulipchat.com/register/)!
@@ -338,7 +338,7 @@ legal to use together, such as GPL2 with Apache2.
 New packages must typically wait for the 3 day timer to expire before they are merged, either automatically by the bot or manually.
 This waiting period allows time for community comment and review, and to provide time to check things like:
 
-- the name is appropriate (e.g. "safe for work", not typosquatting, and fitting with the [Pkg naming guidelines](https://pkgdocs.julialang.org/v1/creating-packages/#Package-naming-guidelines))
+- the name is appropriate (e.g. "safe for work", not typosquatting, and fitting with the [Pkg naming guidelines][naming-guidelines])
 - the package is functional and non-empty
 - the code is not malicious (e.g. exploiting security vulnerabilities)
 - there is some form of README or documentation to enable users to use the package
@@ -411,7 +411,7 @@ not a curated list of Julia packages. In particular this means that:
 [registrator-web]: https://github.com/JuliaRegistries/Registrator.jl#via-the-web-interface
 [registrator-readme]: https://github.com/JuliaRegistries/Registrator.jl/blob/master/README.md
 [tagbot]: https://github.com/JuliaRegistries/TagBot
-[naming-guidelines]: https://pkgdocs.julialang.org/v1/creating-packages/#Package-naming-rules
+[naming-guidelines]: ./NAMING_GUIDELINES.md
 [automerge-guidelines]: https://juliaregistries.github.io/RegistryCI.jl/stable/guidelines/
 [registryci]: https://github.com/JuliaRegistries/RegistryCI.jl
 [github-rename]: https://help.github.com/en/github/administering-a-repository/renaming-a-repository
