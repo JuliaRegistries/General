@@ -17,15 +17,15 @@ Requires = "1"
 ["0.2"]
 MakieCore = "0.4-0.6"
 
-["0.2 - 0"]
-FileIO = "1"
-LaTeXStrings = "1"
-
 ["0.2 - 0.6"]
 JSON = "0.20-0.21"
 
 ["0.2 - 0.6.1"]
 GeometryBasics = "0.4"
+
+["0.2 - 0.8.0"]
+FileIO = "1"
+LaTeXStrings = "1"
 
 ["0.2.0"]
 DelimitedFiles = "1.7.0-1"
@@ -74,7 +74,7 @@ TimeseriesSurrogates = "2.6.3-2"
 ["0.5.2 - 0.6"]
 DimensionalData = "0.27-0.29"
 
-["0.5.4 - 0"]
+["0.5.4 - 0.8.0"]
 ProgressLogging = "0.1"
 
 ["0.6.2 - 0.6"]
@@ -82,16 +82,32 @@ GeometryBasics = "0.4-0.5"
 MakieCore = "0.8-0.9"
 
 ["0.7 - 0"]
+TimeseriesSurrogates = "2.6.3 - 2"
+julia = "1.10.0 - 1"
+
+["0.7 - 0.8.0"]
 DelimitedFiles = "1.9.0 - 1"
 DimensionalData = "0.27 - 0.29"
 JSON = "0.20 - 0.21"
 Peaks = "0.4 - 0.5"
 TimeseriesMakie = "0.1.1 - 0.2"
-TimeseriesSurrogates = "2.6.3 - 2"
-julia = "1.10.0 - 1"
 
 ["0.8 - 0"]
-InverseFunctions = "0.1.17 - 0.1"
 Normalization = "0.9"
 Statistics = "1.10.0 - 1"
+
+["0.8.0"]
+InverseFunctions = "0.1.17 - 0.1"
 TimeseriesBase = "0.1"
+
+["0.8.1 - 0"]
+ComponentArrays = "0.15.29 - 0.15"
+DimensionalData = "0.30"
+InverseFunctions = "0.1.10 - 0.1"
+LinearAlgebra = "1.10.0 - 1"
+Peaks = "0.4 - 0.6"
+Random = "1.10.0 - 1"
+SparseArrays = "1.10.0 - 1"
+StatsAPI = "1.7.1 - 1"
+StatsBase = "0.34"
+TimeseriesBase = "0.1.4 - 0.2"
