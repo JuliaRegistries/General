@@ -1,8 +1,17 @@
 [0]
+Parameters = "0.12"
+julia = "1.10.0 - 1"
+
+["0 - 0.1"]
 AstroCoords = "0.3"
 LinearAlgebra = "1.10.0 - 1"
-Parameters = "0.12"
 Roots = "2.2.0 - 2"
 SciMLBase = "2.67.0 - 2"
 StaticArraysCore = "1.4.0 - 1"
-julia = "1.10.0 - 1"
+
+["0.2 - 0"]
+AstroCoords = "0.3 - 0.4"
+LinearAlgebra = "1"
+Roots = "2"
+SciMLBase = "2"
+StaticArraysCore = "1"
