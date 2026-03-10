@@ -65,7 +65,7 @@ DataAPI = "1"
 ["2.0.7"]
 GroupedArrays = "0.2"
 
-["2.0.8 - 2"]
+["2.0.8 - 3"]
 GroupedArrays = "0.3"
 
 ["2.1.2 - 2.4"]
@@ -78,5 +78,11 @@ julia = "1.9.0-1"
 julia = "1.6.0-1"
 
 ["2.5 - 2"]
-StatsBase = "0.33 - 0.34"
 julia = "1.9.0 - 1"
+
+["2.5 - 3"]
+StatsBase = "0.33 - 0.34"
+
+[3]
+PrecompileTools = "1"
+julia = "1.10.0 - 1"
