@@ -102,7 +102,7 @@ Here's a checklist.
 ```md
 1. [ ] I have confirmed that the old URL automatically redirects to the new URL in the web browser.
 2. [ ] The PR preserves the trailing `.git` at the end of the URL.
-3. [ ] The Treecheck CI job ran on this PR and is green (indicating that all treehashes are available from the new repo URL).
+3. [ ] The Treecheck CI job ran on this PR and is green.
 ```
 
 ## Appendix: Checking if a repository contains all registered versions of a package
