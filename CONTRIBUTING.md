@@ -91,9 +91,19 @@ You generally should not merge your own registrations or those you are involved 
 * [write] You can merge improvements to the README, these guidelines, or our workflows.
 * [admin] You can give other contributors triage-level access so they can apply labels to PRs, or write-level permissions to merge PRs.
 
-## Expectations for registry maintainers
+## Expectations and tips for registry maintainers
 
 We ask registry maintainers to refrain from merging their own PRs or PRs that they are closely involved in.
+
+### Is there a checklist for reviewing PRs that change the URL of a repo?
+
+Here's a checklist.
+
+```md
+1. [ ] I have confirmed that the old URL automatically redirects to the new URL in the web browser.
+2. [ ] The PR preserves the trailing `.git` at the end of the URL.
+3. [ ] The Treecheck CI job ran on this PR and is green.
+```
 
 ## Appendix: Checking if a repository contains all registered versions of a package
 
