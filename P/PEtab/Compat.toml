@@ -35,17 +35,19 @@ ForwardDiff = "0.10"
 Distributions = "0.21-0.25"
 
 ["1 - 4"]
-CSV = "0.10"
 PreallocationTools = "0.4"
-ReverseDiff = "1"
 Sundials = "4"
-YAML = "0.4"
 julia = "1"
+
+["1 - 5"]
+CSV = "0.10"
+ReverseDiff = "1"
+YAML = "0.4"
 
 ["1.0"]
 DataFrames = "1"
 
-["1.1.1 - 4"]
+["1.1.1 - 5"]
 PrecompileTools = "1"
 
 ["1.2 - 1.3"]
@@ -76,13 +78,13 @@ Catalyst = "13"
 Ipopt = "1"
 Plots = "1"
 
-["2 - 4"]
+["2 - 5"]
 DataFrames = "1"
 
 ["2.0.0"]
 SciMLBase = "1"
 
-["2.0.1 - 4"]
+["2.0.1 - 5"]
 SciMLBase = "2"
 
 ["2.0.2 - 2.5.1"]
@@ -91,7 +93,7 @@ NonlinearSolve = "1-2"
 ["2.1.1 - 2.8"]
 Distributed = "1"
 
-["2.1.1 - 4"]
+["2.1.1 - 5"]
 LinearAlgebra = "1"
 Printf = "1"
 Random = "1"
@@ -142,7 +144,7 @@ SciMLSensitivity = "7"
 ["2.7 - 3.5.0"]
 NonlinearSolve = "3"
 
-["2.7 - 4"]
+["2.7 - 5"]
 QuasiMonteCarlo = "0.3"
 RuntimeGeneratedFunctions = "0.5"
 StatsBase = "0.34"
@@ -178,7 +180,7 @@ Setfield = "1.1.0-1"
 Ipopt = "1"
 PyCall = "1"
 
-["3 - 4"]
+["3 - 5"]
 ComponentArrays = "0.15"
 OrdinaryDiffEqBDF = "1"
 OrdinaryDiffEqRosenbrock = "1"
@@ -188,31 +190,31 @@ StyledStrings = "1"
 ["3.10.3 - 3"]
 SBMLImporter = "3.1.0 - 3"
 
-["3.10.3 - 4"]
+["3.10.3 - 5"]
 LinearSolve = "3.29.0 - 3"
 
 ["3.11 - 4"]
 ModelingToolkit = "9.84.0 - 9"
 
-["3.11.3 - 4"]
+["3.11.3 - 5"]
 ForwardDiff = ["0.10", "1"]
 
 ["3.2 - 3.8.3"]
 ModelingToolkit = "9.40.0-9"
 
-["3.2 - 4"]
+["3.2 - 5"]
 Distributed = "1"
 
 ["3.3 - 3.9"]
 Optimization = "4"
 
-["3.3 - 4"]
+["3.3 - 5"]
 DiffEqCallbacks = "4"
 
 ["3.3.1 - 3.7"]
 SBMLImporter = "2.6.0-2"
 
-["3.5.1 - 4"]
+["3.5.1 - 5"]
 NonlinearSolve = "4"
 
 ["3.5.2 - 3.9"]
@@ -248,14 +250,31 @@ LogDensityProblems = "2.1.0 - 2"
 LogDensityProblemsAD = "1.7.0 - 1"
 Optim = "1.13.0 - 1"
 
-["3.8.6 - 4"]
+["3.8.6 - 5"]
 ArrayInterface = "7.7.0 - 7"
 Setfield = "1.1.0 - 1"
 
-["3.9.4 - 4"]
+["3.9.4 - 5"]
 DiffEqBase = "6.183.0 - 6"
 
 [4]
-Distributions = "0.25"
 SBMLImporter = "3.2.0 - 3"
+
+["4 - 5"]
+Distributions = "0.25"
 SymbolicIndexingInterface = "0.3.46 - 0.3"
+
+[5]
+Catalyst = "16"
+HDF5 = "0.17"
+Ipopt = "1"
+LogDensityProblems = "2.1.0 - 2"
+LogDensityProblemsAD = "1.7.0 - 1"
+MCMCChains = "7"
+ModelingToolkitBase = "1.17.0 - 1"
+OrdinaryDiffEqTsit5 = "1.9.0 - 1"
+PreallocationTools = "1"
+SBMLImporter = "4"
+Sundials = "5"
+Symbolics = "7.15.3 - 7"
+julia = "1.10.0 - 1"
