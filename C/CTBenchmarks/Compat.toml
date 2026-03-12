@@ -9,8 +9,6 @@ JuMP = "1"
 MadNLPGPU = "0.7"
 MadNLPMumps = "0.5"
 NLPModelsIpopt = "0.11"
-OptimalControl = "1"
-OptimalControlProblems = "0.3"
 Pkg = "1"
 Printf = "1"
 Sockets = "1"
@@ -20,8 +18,17 @@ julia = "1.10.0 - 1"
 ["0 - 0.2"]
 JSON = "0.21"
 
+["0 - 0.3"]
+OptimalControl = "1"
+OptimalControlProblems = "0.3"
+
 ["0.3 - 0"]
 CTBase = "0.16"
 DocStringExtensions = "0.9"
 JSON = "1"
 Plots = "1.41.0 - 1"
+
+["0.4 - 0"]
+OptimalControl = "1.1.6"
+OptimalControlProblems = "0.5"
+Statistics = "1"
