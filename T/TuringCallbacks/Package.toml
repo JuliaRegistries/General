@@ -2,3 +2,7 @@ name = "TuringCallbacks"
 uuid = "ea0860ee-d0ef-45ef-82e6-cc37d6be2f9c"
 repo = "https://github.com/TuringLang/Deprecated.git"
 subdir = "TuringCallbacks"
+
+[metadata.deprecated]
+reason = "Callbacks were upstreamed to AbstractMCMC as an extension. See the [AbstractMCMC callbacks documentation](https://turinglang.org/AbstractMCMC.jl/stable/callbacks/)."
+alternative = "AbstractMCMC"
