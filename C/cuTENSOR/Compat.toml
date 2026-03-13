@@ -74,7 +74,13 @@ CUTENSOR_jll = "2.2.0-2"
 
 ["2.3 - 2"]
 CEnum = "0.2 - 0.5"
-CUDA = "5.9"
 CUDA_Runtime_Discovery = ["0.2 - 0.3", "1"]
-CUTENSOR_jll = "2.3.0 - 2"
 julia = "1.10.0 - 1"
+
+["2.3.0"]
+CUDA = "5.9"
+CUTENSOR_jll = "2.3.0 - 2"
+
+["2.3.1 - 2"]
+CUDA = "5.11"
+CUTENSOR_jll = "2.5.0 - 2"
