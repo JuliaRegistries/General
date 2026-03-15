@@ -2,9 +2,15 @@
 ControlSystemsBase = "1"
 Hypatia = "0.9"
 JuMP = "1"
-LinearAlgebra = "1.6.0 - 1"
 MatrixEquations = "2"
 SkewLinearAlgebra = "1"
 Test = "1"
 VectorizationTransformations = "0.1"
+
+["1.0"]
+LinearAlgebra = "1.6.0 - 1"
 julia = "1.6.0 - 1"
+
+["1.1 - 1"]
+LinearAlgebra = "1"
+julia = "1.12.0 - 1"
