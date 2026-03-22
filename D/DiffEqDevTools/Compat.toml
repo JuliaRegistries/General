@@ -91,7 +91,6 @@ Logging = "1.6.0-1"
 
 ["2.40 - 2"]
 RecipesBase = "1"
-RootedTrees = "2"
 
 ["2.40 - 2.44"]
 SciMLBase = "2"
@@ -101,6 +100,9 @@ Distributed = "1.9.0-1"
 LinearAlgebra = "1.9.0-1"
 Logging = "1.9.0-1"
 julia = "1.9.0-1"
+
+["2.40 - 2.49"]
+RootedTrees = "2"
 
 ["2.41 - 2.45"]
 StructArrays = "0.6"
@@ -114,16 +116,24 @@ SciMLBase = "2.52.2-2"
 ["2.46 - 2.48"]
 StructArrays = "0.6-0.7"
 
+["2.49"]
+NLsolve = "4.2.0 - 4"
+
 ["2.49 - 2"]
 DiffEqBase = "6.94.4 - 6"
 Distributed = "1.9.0 - 1"
 LinearAlgebra = "1.9.0 - 1"
 Logging = "1.9.0 - 1"
-NLsolve = "4.2.0 - 4"
 RecursiveArrayTools = "2 - 3"
 SciMLBase = "2.52.2 - 2"
 StructArrays = "0.6 - 0.7"
 julia = "1.9.0 - 1"
+
+["2.50 - 2"]
+CommonSolve = "0.2"
+ExplicitImports = "1.14.0 - 1"
+NLsolve = "4.5.0 - 4"
+RootedTrees = "2.8.0 - 2"
 
 ["2.6 - 2.27"]
 Statistics = "1"
