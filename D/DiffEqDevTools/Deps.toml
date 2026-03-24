@@ -1,12 +1,14 @@
 [2]
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
-NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 
 ["2 - 2.14"]
 DiffEqPDEBase = "34035eb4-37db-58ae-b003-a3202c898701"
+
+["2 - 2.50"]
+NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 
 ["2 - 2.6.0"]
 Juno = "e5e0dc1b-0480-54bc-9374-aad01c23163d"
@@ -37,6 +39,9 @@ StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 ["2.50 - 2"]
 CommonSolve = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
 ExplicitImports = "7d51a73a-1435-4ff3-83d9-f097790105c7"
+
+["2.51 - 2"]
+BracketingNonlinearSolve = "70df07ce-3d50-431d-a3e7-ca6ddb60ac1e"
 
 ["2.7.1 - 2.8"]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"

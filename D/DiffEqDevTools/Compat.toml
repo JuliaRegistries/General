@@ -129,11 +129,16 @@ SciMLBase = "2.52.2 - 2"
 StructArrays = "0.6 - 0.7"
 julia = "1.9.0 - 1"
 
+["2.50"]
+NLsolve = "4.5.0 - 4"
+
 ["2.50 - 2"]
 CommonSolve = "0.2"
 ExplicitImports = "1.14.0 - 1"
-NLsolve = "4.5.0 - 4"
 RootedTrees = "2.8.0 - 2"
+
+["2.51 - 2"]
+BracketingNonlinearSolve = "1"
 
 ["2.6 - 2.27"]
 Statistics = "1"
