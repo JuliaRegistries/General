@@ -2,7 +2,6 @@
 DataFrames = "1.8.0 - 1"
 Distributions = "0.25"
 FileIO = "1.17.0 - 1"
-JLD2 = "0.6"
 LightGBM = "2.2.0 - 2"
 MLJ = "0.22"
 MLJBase = "1.12.0 - 1"
@@ -17,3 +16,9 @@ StableRNGs = "1"
 StaticArrays = "1.9.0 - 1"
 StatsBase = "0.34"
 julia = "1.12.0 - 1"
+
+["1 - 1.0.4"]
+JLD2 = "0.6"
+
+["1.0.5 - 1"]
+JLD2 = "0.4 - 0.6"
