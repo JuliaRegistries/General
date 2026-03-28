@@ -5,7 +5,7 @@ DiffEqSensitivity = "41bf760c-e81c-5289-8e54-58b1f1f8abe2"
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 
-[0-1]
+["0 - 1"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
@@ -17,19 +17,32 @@ DistributionsAD = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
 Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
-PartialFunctions = "570af359-4316-4cb7-8c74-252c00c2016b"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 SciMLSensitivity = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
+
+["1 - 1.1"]
+PartialFunctions = "570af359-4316-4cb7-8c74-252c00c2016b"
+ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 
 ["1.0"]
 Bijectors = "76274a88-744f-5084-9051-94815aaf08c4"
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
 
-["1.1-1"]
+["1.1"]
 FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
-InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+
+["1.1 - 1"]
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+
+["1.2 - 1"]
+Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
+InvertedIndices = "41ab1584-1d38-5bbf-9106-f11c6c58b48f"
+LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
+Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
+ThreadPools = "b189fb0b-2eb5-4ed4-bc0c-d34c51242431"
