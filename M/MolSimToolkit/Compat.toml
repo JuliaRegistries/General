@@ -1,6 +1,3 @@
-[1]
-StatsBase = "0.34"
-
 ["1 - 1.10"]
 CellListMap = "0.8"
 DocStringExtensions = "0.8-0.9"
@@ -29,8 +26,8 @@ PDBTools = "0.14.2-0.15"
 ["1 - 1.9.1"]
 Printf = "1.9.0-1"
 
-["1.11 - 1"]
-DocStringExtensions = "0.9"
+["1 - 2"]
+StatsBase = "0.34"
 
 ["1.11 - 1.12.6"]
 PDBTools = "1.2.0-1"
@@ -44,17 +41,20 @@ EasyFit = "0.6.6-0.6"
 ["1.11 - 1.28"]
 Statistics = "1.9.0-1"
 
+["1.11 - 2"]
+DocStringExtensions = "0.9"
+
 ["1.12.10 - 1.15.0"]
 CellListMap = "0.8.30-0.9"
 
 ["1.12.7 - 1.13"]
 PDBTools = "1.5.1-1"
 
-["1.14 - 1"]
-ProteinSecondaryStructures = "2"
-
 ["1.14 - 1.22.0"]
 PDBTools = "1.8.1-1"
+
+["1.14 - 2"]
+ProteinSecondaryStructures = "2"
 
 ["1.15.1 - 1.19"]
 CellListMap = "0.9"
@@ -63,15 +63,15 @@ TestItems = ["0.1.1-0.1", "1"]
 ["1.17.2 - 1.22.1"]
 AtomsBase = "0.3.4-0.4"
 
-["1.20 - 1"]
-TestItems = "1"
-
 ["1.20 - 1.28"]
 Dates = "1.9.0-1"
 
 ["1.20 - 1.29.0"]
 CellListMap = "0.9.6-0.9"
 EasyFit = "0.6.8-0.6"
+
+["1.20 - 2"]
+TestItems = "1"
 
 ["1.22.1 - 1.25"]
 PDBTools = "1.8.1-2"
@@ -101,7 +101,19 @@ julia = "1.10.0-1"
 ["1.29.1"]
 PDBTools = "2.7.0 - 3"
 
-["1.29.1 - 1"]
+["1.29.1 - 1.29.10"]
+CellListMap = "0.9.6 - 0.9"
+
+["1.29.1 - 1.29.5"]
+MolSimToolkitShared = "1.1.2 - 1"
+
+["1.29.1 - 1.29.9"]
+EasyFit = "0.6.8 - 0.6"
+
+["1.29.1 - 1.30"]
+StaticArrays = "1.6.0 - 1"
+
+["1.29.1 - 2"]
 Chemfiles = "0.10.31 - 0.10"
 ChunkSplitters = "3.1.1 - 3"
 Dates = "1.10.0 - 1"
@@ -116,29 +128,17 @@ Reexport = "1.2.2 - 1"
 Statistics = "1.10.0 - 1"
 julia = "1.10.0 - 1"
 
-["1.29.1 - 1.29.10"]
-CellListMap = "0.9.6 - 0.9"
-
-["1.29.1 - 1.29.5"]
-MolSimToolkitShared = "1.1.2 - 1"
-
-["1.29.1 - 1.29.9"]
-EasyFit = "0.6.8 - 0.6"
-
-["1.29.1 - 1.30"]
-StaticArrays = "1.6.0 - 1"
-
-["1.29.10 - 1"]
+["1.29.10 - 2"]
 EasyFit = ["0.6.8 - 0.6", "0.7.1 - 0.7"]
-
-["1.29.11 - 1"]
-CellListMap = "0.9.11 - 0.9"
 
 ["1.29.11 - 1.29.12"]
 PDBTools = "3.5.5 - 3"
 
 ["1.29.11 - 1.32"]
 MolSimToolkitShared = "1.2.1 - 1"
+
+["1.29.11 - 2"]
+CellListMap = "0.9.11 - 0.9"
 
 ["1.29.13"]
 PDBTools = "3.7.0 - 3"
@@ -155,10 +155,10 @@ MolSimToolkitShared = "1.2.0 - 1"
 ["1.3.4 - 1.4.0"]
 PDBTools = ["0.14.2-0.15", "1"]
 
-["1.30 - 1"]
+["1.30 - 2"]
 OrderedCollections = "1.8.1 - 1"
 
-["1.31 - 1"]
+["1.31 - 2"]
 StaticArrays = "1.9.15 - 1"
 
 ["1.31.1 - 1.32"]
@@ -176,3 +176,7 @@ ProgressMeter = "1.10.0-1"
 
 ["1.9 - 1.29.0"]
 OffsetArrays = "1.13.0-1"
+
+[2]
+MolSimToolkitShared = "1.5.0 - 1"
+PDBTools = "3.21.0 - 3"

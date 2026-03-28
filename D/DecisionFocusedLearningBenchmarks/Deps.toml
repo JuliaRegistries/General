@@ -11,15 +11,17 @@ JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Metalhead = "dbeba491-748d-5e0e-a39e-b530a07fa0cc"
 NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SimpleWeightedGraphs = "47aef6b3-ad0c-573a-a1e2-d07658019622"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
-["0 - 0.1"]
+["0-0.1"]
 InferOpt = "4846b161-c94e-4150-8dac-c7ae193c601f"
 
-["0.2 - 0"]
+["0-0.4"]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
+["0.2-0"]
 ConstrainedShortestPaths = "b3798467-87dc-4d99-943d-35a1bd39e395"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
@@ -27,11 +29,13 @@ SCIP = "82193955-e24f-5292-bf16-6f2c5261a85f"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0.2.3 - 0"]
-Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+["0.2.3-0"]
 LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 
-["0.3 - 0"]
+["0.2.3-0.4"]
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+
+["0.3-0"]
 Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 InferOpt = "4846b161-c94e-4150-8dac-c7ae193c601f"

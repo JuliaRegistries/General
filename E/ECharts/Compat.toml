@@ -40,7 +40,6 @@ WebIO = "0.8.6-0.8"
 
 ["0.3 - 0"]
 ColorBrewer = "0.4"
-JSON = "0.21"
 
 ["0.3 - 0.4"]
 Distributions = "0.21"
@@ -52,17 +51,22 @@ RDatasets = "0.6.2-0.6"
 ["0.3 - 0.6"]
 julia = "1.1.0-1"
 
+["0.3 - 0.7.0"]
+JSON = "0.21"
+
 ["0.4"]
 DataFrames = "0.19"
 StatsBase = "0.32"
 
 ["0.4 - 0"]
-Blink = "0.12"
 Parameters = "0.12"
 
 ["0.4 - 0.5"]
 HTTP = "0.8"
 WebIO = "0.8.11-0.8"
+
+["0.4 - 0.7.0"]
+Blink = "0.12"
 
 ["0.5"]
 DataFrames = "0.21"
@@ -81,11 +85,19 @@ WebIO = "0.8"
 ["0.6 - 0"]
 KernelDensity = "0.6"
 NoveltyColors = "0.5"
+
+["0.6 - 0.7.0"]
 RDatasets = "0.7"
 
 ["0.7 - 0"]
+StatsBase = "0.33 - 0.34"
+julia = "1.1.0 - 1"
+
+["0.7.0"]
 DataFrames = ["0.22", "1"]
 Distributions = "0.24 - 0.25"
 HTTP = ["0.9", "1"]
-StatsBase = "0.33 - 0.34"
-julia = "1.1.0 - 1"
+
+["0.7.1 - 0"]
+JSON = "1"
+Tables = "1"
