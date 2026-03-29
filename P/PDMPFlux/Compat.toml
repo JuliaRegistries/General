@@ -30,7 +30,6 @@ Distributions = "0.25.112 - 0.25"
 ForwardDiff = ["0.10.36 - 0.10", "1"]
 LaTeXStrings = "1.4.0 - 1"
 LinearAlgebra = "1.11.0 - 1"
-Optim = "1.9.4 - 1"
 Plots = "1.40.8 - 1"
 PolyesterForwardDiff = "0.1.2 - 0.1"
 ProgressBars = "1.5.1 - 1"
@@ -48,10 +47,20 @@ Debugger = "0.7.10 - 0.7"
 BenchmarkTools = "1.6.0 - 1"
 Test = "1.11.0 - 1"
 
+["0.4 - 0.4.5"]
+Optim = "1.9.4 - 1"
+
 ["0.4.3 - 0"]
 StaticArrays = "1"
 
-["0.4.5 - 0"]
+["0.4.5"]
 CategoricalArrays = "1.0.2 - 1"
 DataFrames = "1.8.1 - 1"
 JLD2 = "0.6.3 - 0.6"
+
+["0.4.6 - 0"]
+ColorSchemes = "3.31.0 - 3"
+Colors = "0.13.1 - 0.13"
+DifferentiationInterface = "0.7.13 - 0.7"
+Optim = "1.9.4 - 2"
+SpecialFunctions = "2.7.1 - 2"
