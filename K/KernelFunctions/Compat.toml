@@ -15,7 +15,7 @@ IrrationalConstants = "0.1"
 ["0.10.12 - 0.10.65"]
 LogExpFunctions = "0.2.1-0.3"
 
-["0.10.14 - 0"]
+["0.10.14 - 0.10"]
 ChainRulesCore = "1"
 
 ["0.10.27 - 0.10.65"]
@@ -67,15 +67,20 @@ FillArrays = ["0.10 - 0.13", "1"]
 Functors = "0.1 - 0.5"
 IrrationalConstants = "0.1 - 0.2"
 LogExpFunctions = "0.2.1 - 0.3"
-Requires = "1.0.1 - 1"
 SpecialFunctions = ["0.8 - 0.10", "1 - 2"]
 StatsBase = "0.32 - 0.34"
 
-["0.10.67 - 0"]
+["0.10.66 - 0.10"]
+Requires = "1.0.1 - 1"
+
+["0.10.67 - 0.10"]
 julia = "1.6.0 - 1"
 
 ["0.10.9 - 0.10.30"]
 FillArrays = "0.10-0.12"
+
+["0.11 - 0"]
+julia = "1.10.0 - 1"
 
 ["0.2"]
 StatsFuns = "0.8"
@@ -95,7 +100,7 @@ Zygote = "0.4"
 ["0.2.3 - 0.2"]
 Compat = "2.2.0-2"
 
-["0.2.4 - 0"]
+["0.2.4 - 0.10"]
 ZygoteRules = "0.2"
 
 ["0.2.4 - 0.2"]

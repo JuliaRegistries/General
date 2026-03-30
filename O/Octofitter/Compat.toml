@@ -29,10 +29,12 @@ Distributions = "0.25"
 DistributionsAD = "0.6"
 ForwardDiff = "0.10"
 LogDensityProblems = "2"
-MCMCChains = "6"
 Preferences = "1"
 RuntimeGeneratedFunctions = "0.5"
 TOML = "1"
+
+["1 - 8.0.2"]
+MCMCChains = "6"
 
 ["1.0.0"]
 AdvancedHMC = "0.4"
@@ -150,7 +152,6 @@ julia = "1.9.0 - 1"
 
 ["7 - 8"]
 AbstractMCMC = "4 - 5"
-AdvancedHMC = "0.6 - 0.7"
 Bijectors = "0.14 - 0.15"
 FITSIO = "0.16 - 0.17"
 Interpolations = "0.13 - 0.15"
@@ -165,6 +166,9 @@ StatsBase = "0.33 - 0.34"
 Tables = "1.6.0 - 1"
 TypedTables = "1.4.0 - 1"
 
+["7 - 8.0.2"]
+AdvancedHMC = "0.6 - 0.7"
+
 ["7.0.0"]
 DifferentiationInterface = "0.6"
 Optimization = "4"
@@ -177,7 +181,13 @@ Optimization = "4 - 5"
 Arrow = "2.8.1 - 2"
 julia = "1.10.0 - 1"
 
+["8.0.2"]
+OctofitterRadialVelocity = "8"
+
 ["8.0.2 - 8"]
 FiniteDiff = "2"
-OctofitterRadialVelocity = "8"
 PythonCall = "0.9.31 - 0.9"
+
+["8.0.3 - 8"]
+AdvancedHMC = "0.8"
+MCMCChains = "7"

@@ -8,7 +8,7 @@ You can register your package!
 See [Registering a package in General](https://github.com/JuliaRegistries/General#registering-a-package-in-general) in the README for how to do that.
 The "FAQ" section in the README helps answer many more questions, like [do I need to register a package to install it?](https://github.com/JuliaRegistries/General#do-i-need-to-register-a-package-to-install-it), [should I register my package?](https://github.com/JuliaRegistries/General#should-i-register-my-package), and more.
 
-* Please be aware of the [package naming guidelines](https://pkgdocs.julialang.org/v1/creating-packages/#Package-naming-rules)
+* Please be aware of the [package naming guidelines][naming-guidelines]
 * We strongly encourage authors to follow best practices like having documentation (or a descriptive README), tests, and continuous integration.
 
 ## As a Julia community member
@@ -50,7 +50,7 @@ Any comment without `[noblock]` included in it will block AutoMerge from automat
     Since registration is a mechanism to share code with the whole Julia community, such a description is important for the package to be useful.
     While we don't strictly require such documentation, it can help to give a polite and gentle nudge in the PR comments, or show folks how to write documentation and/or what is helpful to include in a README.
     We want to encourage best practices (in an inclusive and friendly way!) even when they are not strict requirements.
-    * Sometimes package names are possibly confusing or don't conform to our [naming guidelines](naming-guidelines), but AutoMerge does not detect this.
+    * Sometimes package names are possibly confusing or don't conform to our [naming guidelines][naming-guidelines], but AutoMerge does not detect this.
     Feel free to comment, describing what you think is confusing or non-compliant about the current name, and any suggestions you have for a more clear name.
 
 ### Other PRs to General
@@ -90,6 +90,20 @@ Additionally, if you have elevated [permissions](permissions) to General, there'
 You generally should not merge your own registrations or those you are involved with (though you can make requests to another maintainer). See also [this FAQ entry](https://github.com/JuliaRegistries/General/#who-can-approve-an-early-merge).
 * [write] You can merge improvements to the README, these guidelines, or our workflows.
 * [admin] You can give other contributors triage-level access so they can apply labels to PRs, or write-level permissions to merge PRs.
+
+## Expectations and tips for registry maintainers
+
+We ask registry maintainers to refrain from merging their own PRs or PRs that they are closely involved in.
+
+### Is there a checklist for reviewing PRs that change the URL of a repo?
+
+Here's a checklist.
+
+```md
+1. [ ] I have confirmed that the old URL automatically redirects to the new URL in the web browser.
+2. [ ] The PR preserves the trailing `.git` at the end of the URL.
+3. [ ] The Treecheck CI job ran on this PR and is green.
+```
 
 ## Appendix: Checking if a repository contains all registered versions of a package
 
@@ -166,6 +180,6 @@ check_package_versions("FastParzenWindows", ".")
 ```
 
 [FAQ]: https://github.com/JuliaRegistries/General#faq]
-[naming-guidelines]: https://pkgdocs.julialang.org/dev/creating-packages/#Package-naming-guidelines-1
+[naming-guidelines]: ./NAMING_GUIDELINES.md
 [permissions]: https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization
 [RegistryCI]: https://github.com/JuliaRegistries/RegistryCI.jl/

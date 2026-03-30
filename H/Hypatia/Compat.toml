@@ -22,11 +22,11 @@ GenericLinearAlgebra = "0.2"
 ["0.1.1 - 0.5"]
 julia = "1.5.0-1"
 
-["0.3 - 0"]
-Requires = "1"
-
 ["0.3 - 0.6"]
 LinearMaps = "2.7.0-3"
+
+["0.3 - 0.9.1"]
+Requires = "1"
 
 ["0.4 - 0.6"]
 IterativeSolvers = "0.8-0.9"
@@ -45,11 +45,13 @@ SpecialFunctions = "1.4.0-2"
 julia = "1.6.0-1"
 
 ["0.7 - 0"]
-GenericLinearAlgebra = "0.3"
 IterativeSolvers = "0.9"
 LinearMaps = "3"
-MathOptInterface = "1"
 SpecialFunctions = "2"
+
+["0.7 - 0.9.1"]
+GenericLinearAlgebra = "0.3"
+MathOptInterface = "1"
 
 ["0.7.1 - 0"]
 DocStringExtensions = "0.9"
@@ -57,3 +59,7 @@ DocStringExtensions = "0.9"
 ["0.9 - 0"]
 LowRankOpt = "0.2"
 julia = "1.10.0 - 1"
+
+["0.9.2 - 0"]
+GenericLinearAlgebra = "0.3 - 0.4"
+MathOptInterface = "1.20.0 - 1"

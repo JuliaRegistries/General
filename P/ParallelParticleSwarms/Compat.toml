@@ -5,10 +5,27 @@ Enzyme = "0.0.0-0.13.34"
 ForwardDiff = "0.10"
 KernelAbstractions = "0.0.0-0.9.29"
 Optimization = "4.1.0-4"
-QuasiMonteCarlo = "0.3"
 Reexport = "1.2.0-1"
 SciMLBase = "2.79.0-2"
 Setfield = "1.1.0-1"
 SimpleNonlinearSolve = "2.2.0-2"
 StaticArrays = "1.9.0-1"
 julia = "1.10.0-1"
+
+["0 - 1"]
+QuasiMonteCarlo = "0.3"
+
+[1]
+Adapt = "4.3.0 - 4"
+DiffEqGPU = "3.9.0 - 3"
+Enzyme = "0.13"
+ForwardDiff = ["0.10", "1.3.0 - 1"]
+KernelAbstractions = "0.9"
+Optimization = ["4.1.0 - 4", "5.2.0 - 5"]
+PrecompileTools = "1"
+Reexport = "1.2.0 - 1"
+SciMLBase = "2.79.0 - 2"
+Setfield = "1.1.0 - 1"
+SimpleNonlinearSolve = "2.2.0 - 2"
+StaticArrays = "1.9.0 - 1"
+julia = "1.10.0 - 1"

@@ -1,11 +1,21 @@
 [0]
-LsqFit = "0.13"
 RecipesBase = "1"
-julia = "1.8.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 SnoopPrecompile = "1"
 
-["0.2-0"]
+["0 - 0.2.0"]
+LsqFit = "0.13"
+julia = "1.8.0-1"
+
+["0.2 - 0"]
 PrecompileTools = "1"
+
+["0.2.0"]
 Zygote = "0.6"
+
+["0.2.1 - 0"]
+LinearAlgebra = "1"
+LsqFit = "0.15"
+Zygote = "0.7"
+julia = "1.8.0 - 1"

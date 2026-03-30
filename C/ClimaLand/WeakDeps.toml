@@ -5,8 +5,10 @@ ClimaParams = "5c42b081-d73a-476f-9059-fd94b934656c"
 cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
 
 ["0.11.2 - 1"]
-CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+
+["0.11.2 - 1.6.0"]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
@@ -16,7 +18,7 @@ CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 ["0.15 - 1"]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 
-["0.15.7 - 1"]
+["0.15.7 - 1.6.0"]
 BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
 
 ["0.17.2 - 0.18.0"]
@@ -33,3 +35,10 @@ DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 
 ["0.9 - 0.10"]
 CLIMAParameters = "6eacf6c3-8458-43b9-ae03-caf5306d3d53"
+
+["1.6.1 - 1"]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
