@@ -71,6 +71,9 @@ SciMLBase = "1.42.3-1"
 ["7.1 - 7.51"]
 DiffEqBase = "6.93.0-6"
 
+["7.100 - 7"]
+FastBroadcast = ["0.3.5 - 0.3", "1"]
+
 ["7.11 - 7.39"]
 SciMLBase = "1.66.0-1"
 
@@ -335,7 +338,6 @@ Adapt = "1 - 4"
 ChainRulesCore = ["0.10.7 - 0.10", "1"]
 DiffEqBase = "6.175.0 - 6"
 DiffEqNoiseProcess = "5.19.0 - 5"
-FastBroadcast = "0.3.5 - 0.3"
 Functors = "0.4 - 0.5"
 GPUArraysCore = "0.1 - 0.2"
 LinearAlgebra = "1.10.0 - 1"
@@ -361,6 +363,9 @@ Mooncake = "0.4.52 - 0.4"
 
 ["7.87 - 7.91"]
 PreallocationTools = "0.4.4 - 0.4"
+
+["7.87 - 7.99"]
+FastBroadcast = "0.3.5 - 0.3"
 
 ["7.88 - 7.96"]
 SciMLBase = "2.103.1 - 2"
