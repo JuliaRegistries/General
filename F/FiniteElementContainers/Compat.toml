@@ -1,18 +1,22 @@
 [0]
 julia = "1"
 
-["0 - 0.2.0"]
+["0-0.2.0"]
 Exodus = "0.7"
 ReferenceFiniteElements = "0.5"
 StaticArrays = "1.6.2-1"
 
-["0 - 0.5"]
+["0-0.5"]
 StructArrays = "0.6"
 
-["0.10.2 - 0"]
+["0.10.2-0"]
 Exodus = "0.14"
 
-["0.2.1 - 0.2"]
+["0.12-0"]
+Krylov = "0.10"
+ReferenceFiniteElements = "0.14"
+
+["0.2.1-0.2"]
 Exodus = "0.9"
 KernelAbstractions = "0.9"
 Parameters = "0.12"
@@ -22,39 +26,41 @@ StaticArrays = "1.6.0-1"
 ["0.3"]
 ReferenceFiniteElements = "0.10"
 
-["0.3 - 0"]
+["0.3-0"]
 DocStringExtensions = "0.9"
 LinearAlgebra = "1"
 SparseArrays = "1"
 StaticArrays = "1"
 Tensors = "1"
 
-["0.4 - 0.5.6"]
+["0.4-0.5.6"]
 ReferenceFiniteElements = "0.11"
 
-["0.4.4 - 0.5"]
+["0.4.4-0.5"]
 Atomix = "0.1"
 
-["0.5.7 - 0.5"]
+["0.5.7-0.5"]
 ComponentArrays = "0.15"
 
-["0.5.7 - 0.7"]
+["0.5.7-0.7"]
 ReferenceFiniteElements = "0.12"
 
-["0.6 - 0"]
+["0.6-0"]
 Atomix = "1"
 KernelAbstractions = "0.9"
-Krylov = "0.9"
 TimerOutputs = "0.5"
 
-["0.8 - 0"]
+["0.6-0.11"]
+Krylov = "0.9"
+
+["0.8-0.11"]
 ReferenceFiniteElements = "0.13"
 
-["0.9 - 0"]
+["0.9-0"]
 ForwardDiff = "1"
 
-["0.9.1 - 0"]
+["0.9.1-0"]
 Adapt = "4"
 
-["0.9.1 - 0.9.4"]
+["0.9.1-0.9.4"]
 MPI = "0.20"
