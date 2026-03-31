@@ -59,8 +59,23 @@ DiffEqNoiseProcess = "3.1-3"
 ["6.10 - 6.11"]
 DiffEqBase = "6"
 
-["6.100 - 6"]
+["6.100"]
 OrdinaryDiffEqCore = "3.21.0 - 3"
+
+["6.101 - 6"]
+OrdinaryDiffEqCore = "3.22.0 - 3"
+OrdinaryDiffEqNonlinearSolve = "1"
+StochasticDiffEqCore = "1"
+StochasticDiffEqHighOrder = "1"
+StochasticDiffEqIIF = "1"
+StochasticDiffEqImplicit = "1"
+StochasticDiffEqLeaping = "1"
+StochasticDiffEqLevyArea = "1"
+StochasticDiffEqLowOrder = "1"
+StochasticDiffEqMilstein = "1"
+StochasticDiffEqROCK = "1"
+StochasticDiffEqRODE = "1"
+StochasticDiffEqWeak = "1"
 
 ["6.11 - 6.19"]
 Parameters = "0.10-0.12"
@@ -95,7 +110,7 @@ RecursiveArrayTools = "2"
 ["6.18"]
 julia = "1.3.0-1"
 
-["6.18 - 6"]
+["6.18 - 6.100"]
 FiniteDiff = "2"
 
 ["6.19 - 6.37"]
@@ -223,7 +238,7 @@ ArrayInterface = "2.4.0-4"
 ["6.44 - 6.60"]
 OrdinaryDiffEq = "6.4.0-6"
 
-["6.45 - 6"]
+["6.45 - 6.100"]
 LevyArea = "1"
 
 ["6.45 - 6.47"]
@@ -316,7 +331,7 @@ SciMLBase = "2.51.0-2"
 ["6.7 - 6.8"]
 SparseDiffTools = "0.3.0-0.9"
 
-["6.70 - 6"]
+["6.70 - 6.100"]
 FastPower = "1"
 
 ["6.71.1 - 6.71"]
@@ -325,7 +340,7 @@ SciMLBase = "2.59.2-2"
 ["6.72"]
 SciMLBase = "2.65.0-2"
 
-["6.72 - 6"]
+["6.72 - 6.100"]
 ADTypes = "1"
 
 ["6.72 - 6.80"]
@@ -364,16 +379,18 @@ OrdinaryDiffEqCore = "1.12.1 - 1"
 SciMLBase = "2.71.0 - 2"
 
 ["6.81 - 6"]
+DiffEqNoiseProcess = "5.13.0 - 5"
+LinearAlgebra = "1.6.0 - 1"
+julia = "1.10.0 - 1"
+
+["6.81 - 6.100"]
 Adapt = "3 - 4"
 ArrayInterface = "6 - 7"
-DiffEqNoiseProcess = "5.13.0 - 5"
 ForwardDiff = ["0.10.3 - 0.10", "1"]
-LinearAlgebra = "1.6.0 - 1"
 Logging = "1.6.0 - 1"
 Random = "1.6.0 - 1"
 RecursiveArrayTools = "2 - 3"
 SparseArrays = "1.6.0 - 1"
-julia = "1.10.0 - 1"
 
 ["6.81 - 6.83"]
 RandomNumbers = "1.5.3 - 1"
@@ -388,8 +405,10 @@ StaticArrays = ["0.11 - 0.12", "1"]
 SciMLOperators = ["0.2.9 - 0.4", "1"]
 
 ["6.82 - 6"]
-DataStructures = "0.18 - 0.19"
 DiffEqBase = "6.187.0 - 6"
+
+["6.82 - 6.100"]
+DataStructures = "0.18 - 0.19"
 
 ["6.82 - 6.86.0"]
 OrdinaryDiffEqCore = "1.32.0 - 1"
@@ -397,13 +416,13 @@ OrdinaryDiffEqCore = "1.32.0 - 1"
 ["6.82 - 6.87"]
 SciMLBase = "2.115.0 - 2"
 
-["6.85 - 6"]
+["6.85 - 6.100"]
 SimpleNonlinearSolve = "2"
 
 ["6.86.1 - 6.90"]
 OrdinaryDiffEqCore = "1.32.0 - 2"
 
-["6.88 - 6"]
+["6.88 - 6.100"]
 DocStringExtensions = "0.9.5 - 0.9"
 JumpProcesses = "9.13.1 - 9"
 MuladdMacro = "0.2.4 - 0.2"
@@ -460,13 +479,13 @@ Parameters = "0.10-0.11"
 ["6.90 - 6.92"]
 OrdinaryDiffEqNonlinearSolve = "1.18.1 - 1"
 
-["6.91 - 6"]
+["6.91 - 6.100"]
 SciMLLogging = "1.8.0 - 1"
 
 ["6.91 - 6.95"]
 OrdinaryDiffEqCore = "3.2.0 - 3"
 
-["6.93 - 6"]
+["6.93 - 6.100"]
 OrdinaryDiffEqDifferentiation = "2"
 OrdinaryDiffEqNonlinearSolve = "1.20.0 - 1"
 SciMLOperators = "1.15.0 - 1"

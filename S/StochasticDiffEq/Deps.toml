@@ -8,18 +8,20 @@ Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 
 ["5 - 6"]
-DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["5 - 6.1"]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["5 - 6.100"]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 MuladdMacro = "46d2c3a1-f734-5fdb-9937-b9b9aeba4221"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-
-["5 - 6.1"]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["5 - 6.17"]
 DiffEqDiffTools = "01453d9d-ee7c-5054-8395-0335cb756afa"
@@ -39,7 +41,7 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 ["5.2.2 - 6.1"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
-["5.4 - 6"]
+["5.4 - 6.100"]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
 ["5.5 - 6.1"]
@@ -48,7 +50,20 @@ Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 ["5.6 - 6.7"]
 DiffEqOperators = "9fdde737-9c7f-55bf-ade8-46b3f136cc48"
 
-["6.18 - 6"]
+["6.101 - 6"]
+StochasticDiffEqCore = "19c5a474-6cd1-4a5f-be79-46dc34e54d7f"
+StochasticDiffEqHighOrder = "0520c28c-50fd-4d16-9c96-902fc80b3bab"
+StochasticDiffEqIIF = "ebf54054-c36b-4494-9aba-657e36df524f"
+StochasticDiffEqImplicit = "5080b986-4c76-4669-b5dc-373a41579d5b"
+StochasticDiffEqLeaping = "aefaaa88-39f2-4e89-b162-d61b7e8cc81b"
+StochasticDiffEqLevyArea = "90dbc90e-856a-4131-af2c-e8c5aa0f35b5"
+StochasticDiffEqLowOrder = "d15fe365-ce7f-450a-828a-7985bd5b681b"
+StochasticDiffEqMilstein = "8c95a807-c8e7-4581-8419-890d001af53e"
+StochasticDiffEqROCK = "db241ea8-0e6b-4abc-8f2d-1adff2294fd9"
+StochasticDiffEqRODE = "49714585-0aa1-4f53-b1e6-a9b8c0d5e03f"
+StochasticDiffEqWeak = "af2a2fcd-1c36-4cbe-a6d0-5afda784a085"
+
+["6.18 - 6.100"]
 FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 
 ["6.20 - 6.85"]
@@ -60,13 +75,13 @@ DiffEqJump = "c894b116-72e5-5b58-be3c-e6d8d4ac2b12"
 ["6.21 - 6.72"]
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 
-["6.33.2 - 6"]
+["6.33.2 - 6.100"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 
-["6.37.2 - 6"]
+["6.37.2 - 6.100"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 
-["6.45 - 6"]
+["6.45 - 6.100"]
 LevyArea = "2d8b4e74-eb68-11e8-0fb9-d5eb67b50637"
 
 ["6.49 - 6"]
@@ -75,32 +90,36 @@ SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 ["6.5 - 6.63"]
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 
-["6.50 - 6"]
+["6.50 - 6.100"]
 JumpProcesses = "ccbc3e58-028d-4f4c-8cd5-9ae44345cda5"
 
-["6.61 - 6"]
+["6.61 - 6.100"]
 SciMLOperators = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
 
 ["6.7 - 6.79"]
 SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
 
-["6.70 - 6"]
+["6.70 - 6.100"]
 FastPower = "a4df4552-cc26-4903-aec0-212e50a0e84b"
 
 ["6.72 - 6"]
-ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 OrdinaryDiffEqCore = "bbf590c4-e513-4bbe-9b18-05decba2e5d8"
 
+["6.72 - 6.100"]
+ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
+
 ["6.73 - 6"]
-OrdinaryDiffEqDifferentiation = "4302a76b-040a-498a-8c04-15b101fed76b"
 OrdinaryDiffEqNonlinearSolve = "127b3ac7-2247-4354-8eb6-78cf4e7c58e8"
 
-["6.8 - 6"]
+["6.73 - 6.100"]
+OrdinaryDiffEqDifferentiation = "4302a76b-040a-498a-8c04-15b101fed76b"
+
+["6.8 - 6.100"]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
-["6.85 - 6"]
+["6.85 - 6.100"]
 SimpleNonlinearSolve = "727e6d20-b764-4bd8-a329-72de5adea6c7"
 
-["6.91 - 6"]
+["6.91 - 6.100"]
 SciMLLogging = "a6db7da4-7206-11f0-1eab-35f2a5dbe1d1"
