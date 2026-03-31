@@ -124,13 +124,13 @@ CodeTracking = "1.0.5 - 3"
 ["0.13.2 - 0.13.18"]
 CodeTracking = "1.0.5 - 2"
 
-["0.13.20 - 0"]
-MPI = "0.20.22 - 0.20"
-
 ["0.13.20 - 0.15.8"]
 Adapt = "4.1.0 - 4"
 DiffEqBase = "6.174.0 - 6"
 SciMLBase = "2.92.0 - 2"
+
+["0.13.20 - 0.16.0"]
+MPI = "0.20.22 - 0.20"
 
 ["0.13.3 - 0"]
 Triangulate = "2.2.0 - 3"
@@ -157,7 +157,6 @@ Preferences = "1.4.3 - 1"
 
 ["0.15.9 - 0"]
 Accessors = "0.1.42 - 0.1"
-Adapt = "4.3.0 - 4"
 DataStructures = "0.19"
 DiffEqBase = "6.194.0 - 6"
 DiffEqCallbacks = "4.9.0 - 4"
@@ -171,8 +170,15 @@ StaticArrayInterface = "1.8.0 - 1"
 StructArrays = "0.7"
 SummationByPartsOperators = "0.5.72 - 0.5"
 
+["0.15.9 - 0.16.0"]
+Adapt = "4.3.0 - 4"
+
 ["0.16 - 0"]
 KernelAbstractions = "0.9.38 - 0.9"
+
+["0.16.1 - 0"]
+Adapt = "4.4.0 - 4"
+MPI = "0.20.23 - 0.20"
 
 ["0.2.2 - 0.3.2"]
 LoopVectorization = "0.8.25-0.8"
