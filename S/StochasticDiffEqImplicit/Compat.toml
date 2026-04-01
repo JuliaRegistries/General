@@ -7,8 +7,6 @@ ForwardDiff = ["0.10", "1"]
 JumpProcesses = "9.13.1 - 9"
 LinearAlgebra = "1.10.0 - 1"
 MuladdMacro = "0.2.4 - 0.2"
-OrdinaryDiffEqCore = "3.22.0 - 3"
-OrdinaryDiffEqDifferentiation = "2"
 OrdinaryDiffEqNonlinearSolve = "1"
 RecursiveArrayTools = "2 - 3"
 Reexport = ["0.2", "1"]
@@ -16,3 +14,11 @@ SciMLBase = "2.146.0 - 2"
 StaticArrays = "1.9.14 - 1"
 StochasticDiffEqCore = "1"
 julia = "1.10.0 - 1"
+
+["1.0"]
+OrdinaryDiffEqCore = "3.22.0 - 3"
+OrdinaryDiffEqDifferentiation = "2"
+
+["1.1 - 1"]
+OrdinaryDiffEqCore = "3.25.0 - 3"
+OrdinaryDiffEqDifferentiation = "2.4.0 - 2"
