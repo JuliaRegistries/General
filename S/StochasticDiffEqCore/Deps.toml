@@ -9,7 +9,6 @@ FastPower = "a4df4552-cc26-4903-aec0-212e50a0e84b"
 FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 JumpProcesses = "ccbc3e58-028d-4f4c-8cd5-9ae44345cda5"
-LevyArea = "2d8b4e74-eb68-11e8-0fb9-d5eb67b50637"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 MuladdMacro = "46d2c3a1-f734-5fdb-9937-b9b9aeba4221"
@@ -23,3 +22,9 @@ SciMLOperators = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
 SimpleNonlinearSolve = "727e6d20-b764-4bd8-a329-72de5adea6c7"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["1.0"]
+LevyArea = "2d8b4e74-eb68-11e8-0fb9-d5eb67b50637"
+
+["1.1 - 1"]
+StochasticDiffEqLevyArea = "90dbc90e-856a-4131-af2c-e8c5aa0f35b5"
