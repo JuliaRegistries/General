@@ -42,7 +42,7 @@ jobs:
           version: ${{ matrix.version }}
           arch: ${{ matrix.arch }}
       - name: Cache artifacts and packages
-        uses: julia-actions/cache@e97f6fc1a6e21c82253c85e269be7340376aa425 # v3.0.1
+        uses: julia-actions/cache@9a93c5fb3e9c1c20b60fc80a478cae53e38618a4 # v3.0.2
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes --project=.ci/ {0}
         id: manifest_version
