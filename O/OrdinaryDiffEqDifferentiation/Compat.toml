@@ -23,11 +23,11 @@ SparseDiffTools = "2"
 ["1 - 1.9.0"]
 ForwardDiff = "0.10"
 
-["1 - 2"]
-FunctionWrappersWrappers = "0.1"
-
 ["1 - 2.4"]
 FastBroadcast = "0.3"
+
+["1 - 2.5"]
+FunctionWrappersWrappers = "0.1"
 
 ["1.0"]
 InteractiveUtils = "1.10.0-1"
@@ -153,3 +153,6 @@ OrdinaryDiffEqCore = "3.25.0 - 3"
 
 ["2.5 - 2"]
 FastBroadcast = "1.3.0 - 1"
+
+["2.6 - 2"]
+FunctionWrappersWrappers = ["0.1", "1"]
