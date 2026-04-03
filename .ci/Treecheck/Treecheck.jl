@@ -191,7 +191,7 @@ function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
                 #
                 # Sourcehut does not seem to support the URL form that ends in `.git`
                 # So we have to skip Sourcehut repos for this check
-                @test endswith(pkg["repo"], ".git")
+                @test endswith(package_git_repo_url, ".git")
             end
         end
     end;
