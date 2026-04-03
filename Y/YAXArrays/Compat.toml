@@ -148,11 +148,13 @@ Interpolations = "0.12 - 0.16"
 IntervalSets = "0.3 - 0.7"
 StatsBase = "0.32 - 0.34"
 WeightedOnlineStats = "0.3 - 0.6"
-YAXArrayBase = "0.7.5 - 0.7"
 julia = "1.10.0 - 1"
 
 ["0.7 - 0.7.1"]
 DiskArrayEngine = "0.2"
+
+["0.7 - 0.7.3"]
+YAXArrayBase = "0.7.5 - 0.7"
 
 ["0.7.0"]
 DiskArrays = ["0.3", "0.4.10 - 0.4"]
@@ -165,3 +167,6 @@ DiskArrayEngine = "0.3"
 
 ["0.7.3 - 0"]
 DiskArrayEngine = "0.3.2 - 0.3"
+
+["0.7.4 - 0"]
+YAXArrayBase = "0.7.9 - 0.7"

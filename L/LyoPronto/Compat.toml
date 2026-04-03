@@ -1,7 +1,6 @@
 [0]
 ADTypes = "1.14.0 - 1"
 Accessors = "0.1"
-CSV = "0.10"
 ColorTypes = "0.11.2 - 0.12"
 ConcreteStructs = "0.2.3 - 0.2"
 ConstructionBase = "1"
@@ -20,8 +19,15 @@ SpecialFunctions = "1 - 2"
 Unitful = "1.20.0 - 1"
 julia = "1.10.0 - 1"
 
+["0 - 0.3"]
+CSV = "0.10"
+
 ["0 - 0.3.1"]
 TransformVariables = "0.8.17 - 0.8"
 
-["0.3.2 - 0"]
+["0.3.2 - 0.3"]
 TransformVariables = "0.8.19 - 0.8"
+
+["0.4 - 0"]
+TransformVariables = "0.8.21 - 0.8"
+TypedTables = "1.4.0 - 1"

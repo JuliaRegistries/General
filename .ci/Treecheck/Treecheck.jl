@@ -68,7 +68,7 @@ function generate_ci_matrix(registrytoml::RegistryToml)
 
     num_changed_packages = length(package_list)
 
-    if num_changed_packages > 10
+    if num_changed_packages > 20
         # This step prevents us from launching too many CI jobs (e.g. a hundred jobs)
 
         msg = "Too many changed packages: $(num_changed_packages)"
