@@ -6,6 +6,7 @@ import LibGit2
 import TOML
 import Tar
 import Test
+import URIs
 
 # Bring some names into scope, just for convenience:
 using Test: @testset, @test
@@ -143,6 +144,10 @@ function verify_archive_tree_hash(tar_gz::AbstractString, expected_hash::String)
     return true
 end
 
+function is_sourcehut_repo(repo_url::AbstractString)
+    return lowercase(URIs.URI(repo_url).host) == "git.sr.ht"
+end
+
 check(package_uuid_str::AbstractString) = check(RegistryToml(), package_uuid_str)
 function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
     package_name = registrytoml.dict["packages"][package_uuid_str]["name"]
@@ -155,6 +160,13 @@ function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
     package_git_repo_url = package_dict["repo"]
     @testset "Treecheck for package: $(package_name)" begin
         @test !isempty(versions_dict)
+        if !is_sourcehut_repo(pkg["repo"])
+            # Sourcehut does not seem to support the URL form that ends in `.git`
+            # So we have to skip Sourcehut repos for this check
+            #
+            # For all non-Sourcehut repo, we require that the repo URL ends in `.git`
+            @test endswith(pkg["repo"], ".git")
+        end
         mktempdir() do tmpdir
             run(`git clone "$(package_git_repo_url)" "$(tmpdir)"`)
             gitrepo_libgit2 = LibGit2.GitRepo(tmpdir)
