@@ -160,13 +160,6 @@ function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
     package_git_repo_url = package_dict["repo"]
     @testset "Treecheck for package: $(package_name)" begin
         @test !isempty(versions_dict)
-        if !is_sourcehut_repo(pkg["repo"])
-            # Sourcehut does not seem to support the URL form that ends in `.git`
-            # So we have to skip Sourcehut repos for this check
-            #
-            # For all non-Sourcehut repo, we require that the repo URL ends in `.git`
-            @test endswith(pkg["repo"], ".git")
-        end
         mktempdir() do tmpdir
             run(`git clone "$(package_git_repo_url)" "$(tmpdir)"`)
             gitrepo_libgit2 = LibGit2.GitRepo(tmpdir)
@@ -189,6 +182,16 @@ function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
                     treehash = v["git-tree-sha1"]
                     @test does_the_archive_roundtrip(tmpdir, treehash)
                 end
+            end
+        end
+
+        @testset "Repo URL must end in .git" begin
+            if !is_sourcehut_repo(pkg["repo"])
+                # For all non-Sourcehut repos, we require that the repo URL ends in `.git`
+                #
+                # Sourcehut does not seem to support the URL form that ends in `.git`
+                # So we have to skip Sourcehut repos for this check
+                @test endswith(pkg["repo"], ".git")
             end
         end
     end;
