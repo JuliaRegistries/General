@@ -186,7 +186,7 @@ function check(registrytoml::RegistryToml, package_uuid_str::AbstractString)
         end
 
         @testset "Repo URL must end in .git" begin
-            if !is_sourcehut_repo(pkg["repo"])
+            if !is_sourcehut_repo(package_git_repo_url)
                 # For all non-Sourcehut repos, we require that the repo URL ends in `.git`
                 #
                 # Sourcehut does not seem to support the URL form that ends in `.git`
