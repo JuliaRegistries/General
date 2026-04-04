@@ -20,9 +20,6 @@ Logging = "1.10.0-1"
 ["0.24.12-0.25.4"]
 GeometryBasics = "0.4-0.5"
 
-["0.24.2-0"]
-Simpson = "1.0.1-1"
-
 ["0.24.2-0.24.10"]
 CUDA = "5"
 Cairo = "1"
@@ -90,6 +87,9 @@ StatsModels = "0.7"
 StatsPlots = "0.15"
 Wavelets = "0.9-0.10"
 XDF = "0.2"
+
+["0.24.2-0.26.3"]
+Simpson = "1.0.1-1"
 
 ["0.24.3-0.25.4"]
 WAV = "1.2.0-1"
@@ -271,7 +271,6 @@ StatsKit = "0.3"
 StatsModels = "0.7"
 StatsPlots = "0.15"
 TimeZones = "1"
-WAV = "1"
 Wavelets = "0.10"
 WaveletsExt = "0.2"
 XDF = "0.2"
@@ -289,6 +288,9 @@ CubicSplines = "0.2"
 CUDA = "5"
 GPUArrays = "11"
 
+["0.25.7-0.26.3"]
+WAV = "1"
+
 ["0.25.8-0"]
 Artifacts = "1.11.0-1"
 Dates = "1.11.0-1"
@@ -303,3 +305,9 @@ Test = "1.11.0-1"
 
 ["0.25.9-0"]
 Dierckx = "0.5.4-0.5"
+
+["0.26.4-0"]
+FilePaths = "0.9"
+KernelDensity = "0.6.11-0.6"
+Trapz = "2.0.3-2"
+WAV = "1.2.0-1"
