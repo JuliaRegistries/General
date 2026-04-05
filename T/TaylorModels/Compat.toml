@@ -122,11 +122,17 @@ Markdown = "1"
 Parameters = "0.12.3 - 0.12"
 Random = "1"
 StaticArrays = "1.9.0 - 1"
-TaylorSeries = "0.20"
 julia = "1.10.0 - 1"
+
+["0.9 - 0.9.1"]
+TaylorSeries = "0.20"
 
 ["0.9.0"]
 TaylorIntegration = "0.17"
 
-["0.9.1 - 0"]
+["0.9.1"]
 TaylorIntegration = "0.17 - 0.18"
+
+["0.9.2 - 0"]
+TaylorIntegration = "0.18"
+TaylorSeries = "0.21"
