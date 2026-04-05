@@ -1,7 +1,6 @@
 [1]
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
-LevyArea = "2d8b4e74-eb68-11e8-0fb9-d5eb67b50637"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MuladdMacro = "46d2c3a1-f734-5fdb-9937-b9b9aeba4221"
 OrdinaryDiffEqCore = "bbf590c4-e513-4bbe-9b18-05decba2e5d8"
@@ -10,3 +9,9 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 StochasticDiffEqCore = "19c5a474-6cd1-4a5f-be79-46dc34e54d7f"
+
+["1.0"]
+LevyArea = "2d8b4e74-eb68-11e8-0fb9-d5eb67b50637"
+
+["1.1 - 1"]
+StochasticDiffEqLevyArea = "90dbc90e-856a-4131-af2c-e8c5aa0f35b5"
