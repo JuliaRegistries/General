@@ -3,7 +3,6 @@ BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
-Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 Folds = "41a02a25-b8f0-4f67-bc48-60067656b558"
 InvertedIndices = "41ab1584-1d38-5bbf-9106-f11c6c58b48f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -22,6 +21,9 @@ NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 ["0 - 0.1.3"]
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 
+["0 - 0.2.0"]
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+
 ["0.1.1 - 0"]
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
 
@@ -33,3 +35,12 @@ Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
+
+["0.2.1 - 0"]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
+Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
+MLDataDevices = "7e8f7934-dd98-4c1a-8fe8-92b47a384d40"
+MLUtils = "f1d291b0-491e-4a28-83b9-f70985020b54"
+Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
