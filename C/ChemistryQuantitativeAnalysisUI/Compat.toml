@@ -1,13 +1,25 @@
 [0]
 Blink = "0.12"
 CSV = "0.10"
+PlotlyJS = "0.18"
+Reexport = "1"
+
+["0 - 0.1"]
 ChemistryQuantitativeAnalysis = "0.8"
 GLM = "1.9.0-1"
 GLMakie = "0.9"
 Gtk4 = "0.6"
 JSON = "0.21.4-0.21"
 JSON3 = "1.14.1-1"
-PlotlyJS = "0.18"
-Reexport = "1"
 TypedTables = "1.4.0-1"
 julia = "1.9.0-1"
+
+["0.2 - 0"]
+ChemistryQuantitativeAnalysis = "0.9"
+GLM = "1.9.0 - 1"
+GLMakie = "0.13.9 - 0.13"
+GridLayoutBase = "0.11.2 - 0.11"
+Gtk4 = "0.6 - 0.7"
+JSON3 = "1.14.0 - 1"
+TypedTables = "1.4.0 - 1"
+julia = "1.9.0 - 1"
