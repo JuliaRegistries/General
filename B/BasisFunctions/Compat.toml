@@ -173,8 +173,15 @@ SpecialFunctions = "1 - 2"
 StaticArrays = "1.4.0 - 1"
 julia = "1.10.0 - 1"
 
-["0.7.6 - 0"]
+["0.7.6"]
 DomainIntegrals = "0.5.3 - 0.5"
 DomainSets = "0.7.18 - 0.7"
-FunctionMaps = "0.1.2 - 0.1"
 GridArrays = "0.2.6 - 0.2"
+
+["0.7.6 - 0"]
+FunctionMaps = "0.1.2 - 0.1"
+
+["0.7.7 - 0"]
+DomainIntegrals = "0.5.4 - 0.5"
+DomainSets = "0.7.18 - 0.8"
+GridArrays = "0.2.6 - 0.3"
