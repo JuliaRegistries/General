@@ -1,57 +1,75 @@
 [0]
-ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
-AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
-IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
-NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
 NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
 Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Shapefile = "8e980c4a-a4fe-5da2-b3a7-4b4b0353a2f4"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0-0.15"]
+["0 - 0.15"]
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 
-["0.10-0.15"]
+["0 - 0.24"]
+ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
+AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
+NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.10 - 0.15"]
 BinDeps = "9e28174c-4ba2-5203-b857-d8d62c4213ee"
 CondaBinDeps = "a9693cdc-2bc8-5703-a9cd-1da358117377"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-["0.10.1-0"]
+["0.10.1 - 0.24"]
 NaNMath = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
 
-["0.11-0.12"]
+["0.11 - 0.12"]
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
-["0.14-0.15"]
+["0.14 - 0.15"]
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 
-["0.14.3-0.23"]
+["0.14.3 - 0.23"]
 GeoStats = "dcc97b0b-8ce5-5539-9008-bb190f959ef6"
 InverseDistanceWeighting = "6a8e3230-34bb-5a86-b9da-9f7447a06da5"
 
-["0.15-0"]
+["0.15 - 0"]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Extremes = "fe3fe864-1b39-11e9-20b8-1f96fa57382d"
 
-["0.16-0.24.0"]
+["0.15 - 0.24"]
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+
+["0.16 - 0.24.0"]
 ClimateBase = "35604d93-0fb8-4872-9436-495b01d137e2"
 
-["0.21-0"]
+["0.21 - 0.24"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 
-["0.21.1-0"]
+["0.21.1 - 0.24"]
 RollingFunctions = "b0e4dd01-7b14-53d8-9b45-175a3e362653"
 
-["0.23-0"]
+["0.23 - 0.24"]
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+
+["0.25 - 0"]
+CFTime = "179af706-886a-5703-950a-314cd64e0468"
+CircularArrays = "7a955b69-7140-5f4e-a0ed-f168c5e2e749"
+DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LombScargle = "fc60dff9-86e7-5f2f-a8a0-edeadbb75bd9"
+LongMemory = "f5f8e4a8-cb56-40ea-a13e-090cc212d358"
+MarSwitching = "b2b8a7f1-da70-4e5f-beaa-e2774ec39c2f"
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
+Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"
+YAXArrays = "c21b50f5-aa40-41ea-b809-c0f5e47bfa5c"
+Zarr = "0a941bbe-ad1d-11e8-39d9-ab76183a1d99"
