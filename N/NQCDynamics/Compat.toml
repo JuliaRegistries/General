@@ -25,7 +25,6 @@ SciMLBase = "1 - 2"
 StaticArrays = "1"
 Statistics = "1"
 StatsBase = "0.33 - 0.34"
-StochasticDiffEq = "6"
 StructArrays = "0.6 - 0.7"
 TimerOutputs = "0.5"
 UnPack = "1"
@@ -44,14 +43,23 @@ NQCDistributions = ["0.1", "1"]
 NQCModels = ["0.10", "1"]
 SciMLOperators = "1"
 
+["1 - 1.0.3"]
+StochasticDiffEq = "6"
+
 ["1.0.2"]
 OrdinaryDiffEq = ["4 - 5", "6.0 - 6.101"]
+
+["1.0.3"]
+OrdinaryDiffEq = "6.103.0 - 6"
 
 ["1.0.3 - 1"]
 NQCBase = "1"
 NQCCalculators = "1.0.10 - 1"
 NQCDistributions = "1"
 NQCModels = "1"
-OrdinaryDiffEq = "6.103.0 - 6"
 OrdinaryDiffEqCore = "1.32.0 - 3"
 SciMLOperators = ["0.3", "1"]
+
+["1.0.4 - 1"]
+OrdinaryDiffEq = "6.103.0"
+StochasticDiffEq = "6.87.0"
