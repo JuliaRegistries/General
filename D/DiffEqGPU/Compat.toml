@@ -119,7 +119,7 @@ KernelAbstractions = "0.2-0.4"
 ["1.9"]
 CUDA = "1-2"
 
-["1.9 - 3"]
+["1.9 - 3.12"]
 ZygoteRules = "0.2"
 
 ["1.9 - 3.3"]
@@ -155,16 +155,24 @@ BracketingNonlinearSolve = "1.1.0 - 1"
 DiffEqBase = "6.205.1 - 6"
 
 ["3.10 - 3"]
-RecursiveArrayTools = "3.37.0 - 3"
-SciMLBase = "2.128.0 - 2"
 SimpleDiffEq = "1.11.0 - 1"
 StaticArrays = "1.9.0 - 1"
+
+["3.10 - 3.12"]
+RecursiveArrayTools = "3.37.0 - 3"
+SciMLBase = "2.128.0 - 2"
 
 ["3.11"]
 BracketingNonlinearSolve = "1.9.1 - 1"
 
 ["3.11 - 3"]
 DiffEqBase = "6.206.0 - 6"
+
+["3.13 - 3"]
+RecursiveArrayTools = "3.37.0 - 4"
+SciMLBase = "2.144.0 - 2"
+SimpleNonlinearSolve = "2"
+ZygoteRules = "0.2.7 - 0.2"
 
 ["3.3 - 3"]
 TOML = "1"

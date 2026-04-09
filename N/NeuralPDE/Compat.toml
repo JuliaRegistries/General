@@ -413,7 +413,6 @@ MonteCarloMeasurements = "1.1.0 - 1"
 Optimisers = "0.3.3 - 0.4"
 Printf = "1.10.0 - 1"
 QuasiMonteCarlo = "0.3.2 - 0.3"
-RecursiveArrayTools = "3.27.0 - 3"
 Reexport = "1.2.0 - 1"
 RuntimeGeneratedFunctions = "0.5.12 - 0.5"
 SciMLBase = "2.56.0 - 2"
@@ -429,6 +428,9 @@ Integrals = "4.5.0 - 4"
 ModelingToolkit = "9.46.0 - 10"
 SymbolicUtils = "3.7.2 - 3"
 Symbolics = "6.14.0 - 6"
+
+["5.19 - 5.23"]
+RecursiveArrayTools = "3.27.0 - 3"
 
 ["5.2 - 5.7"]
 ComponentArrays = "0.13.2-0.13"
@@ -450,6 +452,10 @@ Symbolics = "7.8.0 - 7"
 
 ["5.22 - 5"]
 Integrals = ["4.10.0 - 4", "5.1.0 - 5"]
+
+["5.24 - 5"]
+ModelingToolkitBase = "1"
+RecursiveArrayTools = "3.27.0 - 4"
 
 ["5.4 - 5.11"]
 ArrayInterface = "6-7"
