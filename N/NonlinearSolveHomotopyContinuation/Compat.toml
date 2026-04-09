@@ -43,8 +43,14 @@ NonlinearSolveBase = "1.15.0 - 1"
 
 ["0.1.6 - 0"]
 DifferentiationInterface = "0.7.3 - 0.7"
-SciMLBase = "2.116.0 - 2"
 SymbolicIndexingInterface = "0.3.43 - 0.3"
 
-["0.1.7 - 0"]
+["0.1.6 - 0.1.7"]
+SciMLBase = "2.116.0 - 2"
+
+["0.1.7"]
 NonlinearSolveBase = "2"
+
+["0.1.8 - 0"]
+NonlinearSolveBase = "2.1.0 - 2"
+SciMLBase = "2.153.0 - 3"
