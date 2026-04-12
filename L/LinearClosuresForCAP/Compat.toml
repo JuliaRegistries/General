@@ -1,7 +1,9 @@
 [0]
+julia = "1.11.0 - 1"
+
+["0 - 0.1"]
 AdditiveClosuresForCAP = "0.1"
 LinearAlgebraForCAP = "0.1"
-julia = "1.11.0 - 1"
 
 ["0 - 0.1.3"]
 FinSetsForCAP = "0.1"
@@ -15,5 +17,10 @@ FinSetsForCAP = "0.2"
 ["0.1.5 - 0"]
 FinSetsForCAP = "0.3"
 
-["0.1.6 - 0"]
+["0.1.6 - 0.1"]
 CAP = "0.6.19 - 0.6"
+
+["0.2 - 0"]
+AdditiveClosuresForCAP = "0.2"
+CAP = "0.7"
+LinearAlgebraForCAP = "0.2"
