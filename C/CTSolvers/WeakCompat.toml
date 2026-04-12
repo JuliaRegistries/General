@@ -8,7 +8,6 @@ MadNLPMumps = "0.5"
 NLPModelsKnitro = "0.9"
 
 ["0.4 - 0"]
-CUDA = "5"
 Enzyme = "0.13"
 MadNCL = "0.2"
 MadNLP = "0.9"
@@ -16,5 +15,11 @@ MadNLPGPU = "0.8"
 NLPModelsKnitro = "0.10"
 Zygote = "0.7"
 
+["0.4 - 0.4.13"]
+CUDA = "5"
+
 ["0.4.12 - 0"]
 UnoSolver = "0.2"
+
+["0.4.14 - 0"]
+CUDA = "5 - 6"
