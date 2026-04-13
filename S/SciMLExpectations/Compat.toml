@@ -38,9 +38,14 @@ RecursiveArrayTools = "2 - 3"
 DiffEqBase = "6.178.0 - 6"
 Distributions = "0.23 - 0.25"
 Integrals = "4.6.0 - 4"
-SciMLBase = "2.104.0 - 2"
 Zygote = "0.6 - 0.7"
 julia = "1.10.0 - 1"
 
+["2.3 - 2.4.0"]
+SciMLBase = "2.104.0 - 2"
+
 ["2.4 - 2"]
 RecursiveArrayTools = "3 - 4"
+
+["2.4.1 - 2"]
+SciMLBase = ["2.104.0 - 2", "3.1.0 - 3"]
