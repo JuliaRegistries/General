@@ -10,7 +10,7 @@ StructArrays = "0.6"
 ["0.5.36 - 0.5.79"]
 ForwardDiff = "0.10"
 
-["0.5.51 - 0"]
+["0.5.51 - 0.5.90"]
 BandedMatrices = ["0.17", "1"]
 
 ["0.5.53 - 0.5.69"]
@@ -25,12 +25,19 @@ DiffEqCallbacks = "2-4"
 ["0.5.72 - 0.5.81"]
 StructArrays = "0.6-0.7"
 
-["0.5.80 - 0"]
+["0.5.80 - 0.5.90"]
 ForwardDiff = ["0.10", "1"]
 
-["0.5.82 - 0"]
+["0.5.82 - 0.5.90"]
 DiffEqCallbacks = "2 - 4"
 StructArrays = "0.6 - 0.7"
 
-["0.5.89 - 0"]
+["0.5.89 - 0.5.90"]
 Optim = "1 - 2"
+
+["0.5.91 - 0"]
+BandedMatrices = "1"
+DiffEqCallbacks = "2.35.0 - 4"
+ForwardDiff = ["0.10.19 - 0.10", "1"]
+Optim = "1.7.5 - 2"
+StructArrays = "0.6.17 - 0.7"
