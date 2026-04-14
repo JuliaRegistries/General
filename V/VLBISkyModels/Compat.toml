@@ -109,7 +109,6 @@ DocStringExtensions = "0.6 - 0.9"
 ForwardDiff = ["0.9 - 0.10", "1"]
 LinearAlgebra = "1.8.0 - 1"
 NamedTupleTools = "0.13 - 0.14"
-PolarizedTypes = "0.1.1 - 0.1"
 Printf = "1.8.0 - 1"
 Serialization = "1.8.0 - 1"
 SpecialFunctions = ["0.10", "1 - 2"]
@@ -122,6 +121,9 @@ NFFT = "0.10 - 0.13"
 ["0.6.14 - 0.6.18"]
 ComradeBase = "0.9.3 - 0.9"
 
+["0.6.14 - 0.6.21"]
+PolarizedTypes = "0.1.1 - 0.1"
+
 ["0.6.15 - 0.6.17"]
 DimensionalData = "0.29.19 - 0.29"
 
@@ -129,15 +131,21 @@ DimensionalData = "0.29.19 - 0.29"
 NonuniformFFTs = "0.8"
 
 ["0.6.18 - 0"]
-DimensionalData = ["0.29 - 0.29.24", "0.29.26 - 0.29"]
 NFFT = "0.14"
 NonuniformFFTs = "0.9"
+
+["0.6.18 - 0.6.21"]
+DimensionalData = ["0.29 - 0.29.24", "0.29.26 - 0.29"]
 
 ["0.6.19 - 0.6.20"]
 ComradeBase = "0.9.6 - 0.9"
 
 ["0.6.21 - 0"]
 ComradeBase = "0.9.8 - 0.9"
+
+["0.6.22 - 0"]
+DimensionalData = "0.30"
+PolarizedTypes = "0.1.1 - 0.1.2"
 
 ["0.6.3"]
 DimensionalData = "0.27-0.28"

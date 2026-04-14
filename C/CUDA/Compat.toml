@@ -420,7 +420,6 @@ KernelAbstractions = "0.9.38 - 0.9"
 Random123 = "1.2.0 - 1"
 RandomNumbers = "1.5.3 - 1"
 demumble_jll = "1.3.0 - 1"
-julia = "1.10.0 - 1"
 
 ["5.8.3 - 5.8"]
 AbstractFFTs = ["0.4 - 0.5", "1"]
@@ -438,10 +437,12 @@ GPUToolbox = "0.3"
 ["5.8.3 - 5.9.1"]
 CUDA_Compiler_jll = "0.2"
 
+["5.8.3 - 6"]
+julia = "1.10.0 - 1"
+
 ["5.9 - 5"]
 AbstractFFTs = ["0.5", "1"]
 PrettyTables = "3"
-Reexport = "1"
 
 ["5.9 - 5.9.1"]
 GPUCompiler = "1.1.0 - 1"
@@ -457,6 +458,9 @@ Requires = "1"
 
 ["5.9 - 5.9.6"]
 DataFrames = "1.5.0 - 1"
+
+["5.9 - 6"]
+Reexport = "1"
 
 ["5.9.0"]
 BFloat16s = "0.5"
@@ -485,3 +489,12 @@ CUDA_Compiler_jll = "0.3 - 0.4"
 
 ["5.9.7 - 5"]
 GPUArrays = "11.4.1 - 11"
+
+[6]
+CUDACore = "6.0.0"
+CUDATools = "6.0.0"
+cuBLAS = "6.0.0"
+cuFFT = "6.0.0"
+cuRAND = "6.0.0"
+cuSOLVER = "6.0.0"
+cuSPARSE = "6.0.0"

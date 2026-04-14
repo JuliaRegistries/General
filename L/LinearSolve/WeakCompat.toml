@@ -194,7 +194,6 @@ ForwardDiff = "0.10.38 - 0.10"
 ["3.29 - 3"]
 AMDGPU = "1.2.0 - 2"
 BandedMatrices = "1.8.0 - 1"
-CUDA = "5.5.0 - 5"
 EnzymeCore = "0.8.5 - 0.8"
 FastAlmostBandedMatrices = "0.1.4 - 0.1"
 FastLapackInterface = "2.0.4 - 2"
@@ -210,6 +209,9 @@ RecursiveFactorization = "0.2.23 - 0.2"
 
 ["3.29 - 3.59"]
 CliqueTrees = "1.11.0 - 1"
+
+["3.29 - 3.72"]
+CUDA = "5.5.0 - 5"
 
 ["3.30 - 3"]
 ForwardDiff = ["0.10.38 - 0.10", "1"]
@@ -242,8 +244,10 @@ Mooncake = "0.4 - 0.5"
 AlgebraicMultigrid = "1"
 CliqueTrees = "1.13.1 - 1"
 Ginkgo = "1"
-PETSc = "0.4.6 - 0.4"
 ParU_jll = "1"
+
+["3.60 - 3.72"]
+PETSc = "0.4.6 - 0.4"
 
 ["3.64 - 3"]
 Mooncake = "0.5.15 - 0.5"
@@ -253,3 +257,9 @@ ChainRulesCore = "1.25.1 - 1"
 
 ["3.70 - 3"]
 Elemental = "0.6.1 - 0.6"
+
+["3.73 - 3"]
+CUDA = "5.5.0 - 6"
+PETSc = "0.4.8 - 0.4"
+PartitionedArrays = "0.5"
+SparseMatricesCSR = "0.6"
