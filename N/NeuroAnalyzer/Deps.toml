@@ -42,7 +42,6 @@ ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SavitzkyGolay = "c4bf5708-b6a6-4fbe-bcd0-6850ed671584"
 ScatteredInterpolation = "3f865c0f-6dca-5f4d-999b-29fe1e7e3c92"
-Simpson = "8e55fee6-e67b-4637-994c-810009a3f62d"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 StatsKit = "2cb19f9e-ec4d-5c53-8573-a4542a68d3f0"
 StatsModels = "3eaba693-59b7-5ba5-a881-562e759f1c8d"
@@ -65,6 +64,9 @@ CubicSplines = "9c784101-8907-5a6d-9be6-98f00873c89b"
 ["0-0.26.1"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
+
+["0-0.26.3"]
+Simpson = "8e55fee6-e67b-4637-994c-810009a3f62d"
 
 ["0.24.11-0"]
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
@@ -115,3 +117,8 @@ GR = "28b8d3ca-fb5f-59d9-8090-bfdbd6d07a71"
 
 ["0.25.9-0"]
 Dierckx = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
+
+["0.26.4-0"]
+FilePaths = "8fc22ac5-c921-52a6-82fd-178b2807b824"
+KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
+Trapz = "592b5752-818d-11e9-1e9a-2b8ca4a44cd1"

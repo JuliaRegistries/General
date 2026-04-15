@@ -39,11 +39,11 @@ ArchGDAL = "0.10"
 ["5.13.0"]
 DelimitedFiles = "1.9.0-1"
 
-["5.13.1 - 5"]
-DelimitedFiles = "1"
-
 ["5.13.1 - 5.13"]
 GZip = "0.5.1-0.6"
+
+["5.13.1 - 5.16"]
+DelimitedFiles = "1"
 
 ["5.13.2 - 5.13"]
 AlgebraicMultigrid = "0.5-0.6"
@@ -53,20 +53,31 @@ AlgebraicMultigrid = "0.6"
 SimpleWeightedGraphs = "1.4.0-1"
 julia = "1.6.0-1"
 
-["5.14 - 5"]
+["5.14 - 5.17.0"]
 GZip = "0.6"
 
 ["5.15"]
 julia = "1.10.0-1"
 
-["5.15 - 5"]
+["5.15 - 5.16"]
 AlgebraicMultigrid = "1"
 SimpleWeightedGraphs = "1"
 
-["5.16 - 5"]
+["5.16"]
 Krylov = "0.9"
 PrecompileTools = "1"
+
+["5.16 - 5"]
 julia = "1.11.0 - 1"
+
+["5.17 - 5"]
+AlgebraicMultigrid = "1.2.0 - 1"
+DelimitedFiles = "1.9.0 - 1"
+Krylov = "0.10"
+TimerOutputs = "0.5"
+
+["5.17.1 - 5"]
+GZip = "0.6 - 0.7"
 
 ["5.5.5 - 5.13.0"]
 GZip = "0.5.1-0.5"

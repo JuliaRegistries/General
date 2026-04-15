@@ -292,7 +292,6 @@ DiffResults = "1.0.1 - 1"
 Distributions = "0.25.57 - 0.25"
 DistributionsAD = "0.6.39 - 0.6"
 DocStringExtensions = "0.8 - 0.9"
-DomainSets = "0.5.11 - 0.7"
 DoubleFloats = "1.1.25 - 1"
 ElasticArrays = "1.2.5 - 1"
 EmpiricalDistributions = "0.3.4 - 0.3"
@@ -326,8 +325,14 @@ julia = "1.10.0 - 1"
 ["4 - 4.0.3"]
 AutoDiffOperators = "0.2.1 - 0.2"
 
+["4 - 4.0.8"]
+DomainSets = "0.5.11 - 0.7"
+
 ["4.0.1 - 4"]
 OneTwoMany = "0.1.2 - 0.1"
 
 ["4.0.4 - 4"]
 AutoDiffOperators = "0.3"
+
+["4.0.9 - 4"]
+DomainSets = "0.5.11 - 0.8"
