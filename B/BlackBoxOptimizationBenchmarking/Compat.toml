@@ -10,17 +10,22 @@ NamedDims = "0.2"
 julia = "1"
 
 ["0.2 - 1"]
-Distributions = ["0.2", "0.25"]
 Memoize = "0.4"
+
+["0.2 - 2"]
+Distributions = ["0.2", "0.25"]
 Optim = "1"
 
-[1]
+["1 - 2"]
 RecipesBase = "1"
 
 ["1.0.0"]
 Optimization = "4"
 julia = "1.10.0-1"
 
-["1.0.1 - 1"]
+["1.0.1 - 2"]
 Optimization = "3 - 5"
 julia = "1"
+
+[2]
+StaticArrays = "1"
