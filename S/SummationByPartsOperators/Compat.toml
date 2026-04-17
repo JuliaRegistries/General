@@ -58,10 +58,10 @@ julia = "1.4.0-1"
 ["0.2 - 0.5.81"]
 ArgCheck = "1-2"
 
-["0.4.3 - 0"]
+["0.4.3 - 0.5.90"]
 StaticArrays = "1"
 
-["0.4.4 - 0"]
+["0.4.4 - 0.5.90"]
 Reexport = ["0.2", "1"]
 
 ["0.4.6 - 0.5.29"]
@@ -94,10 +94,10 @@ AutoHashEquals = "0.2"
 ["0.5.26 - 0.5.80"]
 PolynomialBases = "0.4.15-0.4"
 
-["0.5.27 - 0"]
+["0.5.27 - 0.5.90"]
 MuladdMacro = "0.2"
 
-["0.5.29 - 0"]
+["0.5.29 - 0.5.90"]
 StaticArrayInterface = "1"
 
 ["0.5.3"]
@@ -139,17 +139,31 @@ julia = "1.6.0-1"
 PolynomialBases = "0.4.24-0.4"
 
 ["0.5.82 - 0"]
-ArgCheck = "1 - 2"
 AutoHashEquals = ["0.2", "1 - 2"]
 FFTW = "1.8.0 - 1"
-LoopVectorization = "0.12.22 - 0.12"
 PolynomialBases = "0.4.24 - 0.4"
+Unrolled = "0.1.3 - 0.1"
+
+["0.5.82 - 0.5.90"]
+ArgCheck = "1 - 2"
+LoopVectorization = "0.12.22 - 0.12"
 PrecompileTools = "1.0.1 - 1"
 RecursiveArrayTools = "2.11.0 - 3"
 Requires = ["0.5.2 - 0.5", "1"]
 SciMLBase = "1.51.0 - 2"
-Unrolled = "0.1.3 - 0.1"
 julia = "1.6.0 - 1"
 
 ["0.5.9 - 0.5.21"]
 SciMLBase = "1.21.0-1"
+
+["0.5.91 - 0"]
+ArgCheck = "2"
+LoopVectorization = "0.12.171 - 0.12"
+MuladdMacro = "0.2.4 - 0.2"
+PrecompileTools = "1.2.1 - 1"
+RecursiveArrayTools = "3.36.0 - 4"
+Reexport = "1.2.2 - 1"
+SciMLBase = "2.99.0 - 3"
+StaticArrayInterface = "1.5.1 - 1"
+StaticArrays = "1.9.8 - 1"
+julia = "1.10.0 - 1"

@@ -49,7 +49,6 @@ ForwardDiff = ["0.10", "1"]
 Interpolations = "0.14-0.16"
 
 ["0.14.2 - 0"]
-SciMLBase = "2.24.0 - 2"
 SpecialFunctions = "1.5.0 - 2"
 StaticArrays = "1.2.0 - 1"
 
@@ -68,6 +67,9 @@ Interpolations = "0.14 - 0.16"
 ["0.14.2 - 0.19.1"]
 LinearAlgebra = "1.9.0 - 1"
 
+["0.14.2 - 0.20"]
+SciMLBase = "2.24.0 - 2"
+
 ["0.16.2 - 0"]
 Tensors = "1.16.2 - 1"
 
@@ -75,11 +77,13 @@ Tensors = "1.16.2 - 1"
 Meshes = "0.51 - 0.56"
 
 ["0.18 - 0"]
-Meshes = "0.55 - 0.56"
 MuladdMacro = "0.2.4 - 0.2"
 
 ["0.18 - 0.18.5"]
 VelocityDistributionFunctions = "0.2.1 - 0.2"
+
+["0.18 - 0.20"]
+Meshes = "0.55 - 0.56"
 
 ["0.18.1 - 0.18.2"]
 DiffResults = "1.1.0 - 1"
@@ -141,6 +145,10 @@ Meshes = ["0.26-0.28", "0.30-0.31"]
 
 ["0.2.6 - 0.4.0"]
 Meshes = "0.30-0.35"
+
+["0.21 - 0"]
+Meshes = "0.55 - 0.57"
+SciMLBase = ["2.24.0 - 2", "3.1.0 - 3"]
 
 ["0.3"]
 Statistics = "1.9.0-1"
