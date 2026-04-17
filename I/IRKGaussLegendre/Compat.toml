@@ -25,12 +25,18 @@ OrdinaryDiffEq = "5-6"
 julia = "1.6.0-1"
 
 ["0.2.11 - 0"]
-DiffEqBase = "6.100.0 - 6"
 SIMD = "3.5.0 - 3"
 julia = "1.9.0 - 1"
 
+["0.2.11 - 0.2.14"]
+DiffEqBase = "6.100.0 - 6"
+
 ["0.2.14 - 0"]
 SciMLBase = ["2", "3.1.0 - 3"]
+
+["0.2.15 - 0"]
+DiffEqBase = "6.217.0 - 6"
+SciMLLogging = "1.9.1 - 1"
 
 ["0.2.3"]
 SciMLBase = "1.90.0-1"
