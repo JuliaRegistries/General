@@ -14,7 +14,7 @@ GraphPPL = "2.2.0"
 ReactiveMP = "2.2.0"
 Rocket = "1.4.0"
 
-["1.1 - 4"]
+["1.1 - 5"]
 Distributions = "0.25"
 
 ["2 - 2.2"]
@@ -23,14 +23,14 @@ DomainSets = "0.5.2-0.5"
 ["2 - 2.8"]
 Rocket = "1.6.0-1"
 
-["2 - 4"]
-DataStructures = "0.18"
-Optim = "1"
-ProgressMeter = "1"
-
 ["2 - 4.5.0"]
 MacroTools = "0.5.6-0.5"
 TupleTools = "1.2.0-1"
+
+["2 - 5"]
+DataStructures = "0.18"
+Optim = "1"
+ProgressMeter = "1"
 
 ["2.0"]
 GraphPPL = "3"
@@ -171,9 +171,6 @@ GraphPPL = "4.5"
 ["3.9"]
 ReactiveMP = "4.5"
 
-[4]
-GraphPPL = "4.6"
-
 ["4 - 4.5"]
 ExponentialFamily = "2"
 
@@ -187,6 +184,9 @@ Preferences = "1.4.3-1"
 PrettyTables = "2"
 Statistics = "1.10.0-1"
 UUIDs = "1.10.0-1"
+
+["4 - 5"]
+GraphPPL = "4.6"
 
 ["4.0"]
 ReactiveMP = "5.0"
@@ -206,7 +206,10 @@ ReactiveMP = "5.4"
 ["4.5"]
 ReactiveMP = "5.5"
 
-["4.5.1 - 4"]
+["4.5.1 - 4.6.5"]
+JSON = "0.21.4 - 0.21"
+
+["4.5.1 - 5"]
 BayesBase = "1.5.0 - 1"
 Dates = "1.10.0 - 1"
 DomainSets = "0.5.2 - 0.7"
@@ -225,15 +228,17 @@ TupleTools = "1.2.0 - 1"
 UUIDs = "1.10.0 - 1"
 julia = "1.10.0 - 1"
 
-["4.5.1 - 4.6.5"]
-JSON = "0.21.4 - 0.21"
-
 ["4.6 - 4"]
-ExponentialFamily = "2.1.0 - 2"
 ReactiveMP = "5.6"
 
-["4.6.3 - 4"]
+["4.6 - 5"]
+ExponentialFamily = "2.1.0 - 2"
+
+["4.6.3 - 5"]
 SparseArrays = "1.10.0 - 1"
 
-["4.6.6 - 4"]
+["4.6.6 - 5"]
 JSON = ["0.21.4 - 0.21", "1"]
+
+[5]
+ReactiveMP = "6.0"
