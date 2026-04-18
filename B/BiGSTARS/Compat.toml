@@ -1,8 +1,6 @@
 [2]
-ArnoldiMethod = "0.4"
 Arpack = "0.5.3-0.5"
 Dierckx = "0.5.1-0.5"
-FFTW = "1"
 LinearAlgebra = "1.6.0-1"
 LinearMaps = "3.11.3-3"
 Parameters = "0.12.1-0.12"
@@ -10,10 +8,9 @@ SparseMatrixDicts = "0.3"
 StaticArrays = ["0.12", "1"]
 Statistics = "1.6.0-1"
 ToeplitzMatrices = "0.8.4-0.8"
-VectorInterface = "0.5"
 julia = "1.10.0-1"
 
-["2-2.0.5"]
+["2 - 2.0.5"]
 BenchmarkTools = "1.5.0-1"
 DispatchDoctor = "0.4.22-0.4"
 DocumenterTools = "0.1.20-0.1"
@@ -27,12 +24,24 @@ Reexport = ["0.2", "1"]
 SpecialFunctions = "2.5.1-2"
 Tullio = "0.3.6-0.3"
 
-["2-2.0.8"]
+["2 - 2.0.8"]
 KrylovKit = "0.9.5-0.9"
 
-["2.0.4-2.0.5"]
+["2 - 3"]
+ArnoldiMethod = "0.4"
+FFTW = "1"
+VectorInterface = "0.5"
+
+["2.0.4 - 2.0.5"]
 Bibliography = "0.3"
 Trapz = "2.0.3-2"
 
-["2.0.9-2"]
+["2.0.9 - 2"]
 KrylovKit = "0.9.5-0.10"
+
+[3]
+Arpack = "0.5.3 - 0.5"
+KrylovKit = "0.9.5 - 0.10"
+LinearAlgebra = "1.6.0 - 1"
+LinearMaps = "3.11.3 - 3"
+julia = "1.10.0 - 1"
