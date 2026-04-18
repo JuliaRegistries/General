@@ -1,6 +1,5 @@
 [0]
 DocStringExtensions = "0.9.4 - 0.9"
-NonlinearSolve = "4.8.0 - 4"
 OrdinaryDiffEqNonlinearSolve = "1.6.1 - 1"
 Parameters = "0.12"
 SHA = "0.7"
@@ -46,6 +45,9 @@ SciMLBase = "2.82.1 - 2"
 SciMLOperators = ["0.3.13 - 0.3", "1"]
 StatsBase = "0.34"
 WinchModels = "0.3.6 - 0.3"
+
+["0 - 0.7"]
+NonlinearSolve = "4.8.0 - 4"
 
 ["0.1.1 - 0"]
 SteadyStateDiffEq = "2.5.0 - 2"
@@ -99,7 +101,6 @@ julia = "1.10.0 - 1"
 ["0.6 - 0"]
 AtmosphericModels = "0.3.2 - 0.3"
 Dates = "1"
-KiteUtils = "0.11.1 - 0.11"
 Logging = "1"
 ModelingToolkit = "11"
 OrdinaryDiffEqBDF = "1.16.0 - 1"
@@ -110,5 +111,13 @@ TOML = "1"
 VortexStepMethod = "3"
 YAML = "0.4"
 
+["0.6 - 0.7"]
+KiteUtils = "0.11.1 - 0.11"
+
 ["0.7 - 0"]
 julia = "1.11.0 - 1"
+
+["0.8 - 0"]
+KiteUtils = "0.11.6 - 0.11"
+NonlinearSolve = "4.14"
+NonlinearSolveQuasiNewton = "1.12"
