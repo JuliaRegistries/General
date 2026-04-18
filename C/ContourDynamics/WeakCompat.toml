@@ -2,5 +2,13 @@
 CUDA = "5"
 JLD2 = "0.5-0.6"
 Makie = "0.21-0.22"
-OrdinaryDiffEq = "6"
 RecordedArrays = "0.4-0.5"
+
+["0 - 1"]
+OrdinaryDiffEq = "6"
+
+[1]
+CUDA = "5 - 6"
+JLD2 = "0.5 - 0.6"
+Makie = ["0.21 - 0.22", "0.24"]
+RecordedArrays = "0.4 - 0.5"
