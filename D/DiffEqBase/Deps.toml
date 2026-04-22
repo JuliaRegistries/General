@@ -6,9 +6,6 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ["3 - 4.6"]
 FunctionWrappers = "069b7b12-0de2-55c6-9aab-29f3d0a68a2e"
 
-["3 - 6"]
-RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
-
 ["3 - 6.136"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
@@ -20,6 +17,9 @@ IteratorInterfaceExtensions = "82899510-4779-5014-852e-03e436cf321d"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 TableTraits = "3783bdb8-4a98-5b6b-af9a-565f29a5fe9c"
 
+["3 - 7"]
+RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
+
 ["3.13.3 - 3"]
 LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
 SimpleTraits = "699a6c99-e7fa-54fc-8d76-47d257e15c1d"
@@ -30,7 +30,7 @@ NamedTuples = "73a701b4-84e1-5df0-88ff-1968ee2ee8dc"
 ["4 - 5.6"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["4 - 6"]
+["4 - 7"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["4.0"]
@@ -60,7 +60,7 @@ Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 ["5.17 - 6.86"]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 
-["5.5.2 - 6"]
+["5.5.2 - 7"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 
 ["5.6"]
@@ -70,19 +70,19 @@ InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
 RecursiveFactorization = "f2c3362d-daeb-58d1-803e-2bc74f2840b4"
 
-["5.8 - 6"]
-MuladdMacro = "46d2c3a1-f734-5fdb-9937-b9b9aeba4221"
-
 ["5.8 - 6.183"]
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 
-["5.9 - 6"]
+["5.8 - 7"]
+MuladdMacro = "46d2c3a1-f734-5fdb-9937-b9b9aeba4221"
+
+["5.9 - 7"]
 FunctionWrappers = "069b7b12-0de2-55c6-9aab-29f3d0a68a2e"
 
 ["6 - 6.183"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 
-["6.1 - 6"]
+["6.1 - 7"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 ["6.10.1 - 6.136"]
@@ -97,51 +97,48 @@ SimpleNonlinearSolve = "727e6d20-b764-4bd8-a329-72de5adea6c7"
 ["6.110 - 6.161"]
 PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
 
-["6.118 - 6"]
+["6.118 - 7"]
 StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
-
-["6.119 - 6"]
-Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 
 ["6.119 - 6.183"]
 EnumX = "4e289a0a-7415-4d19-859d-a7e5c4648b56"
 
-["6.120 - 6"]
+["6.119 - 7"]
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+
+["6.120 - 7"]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
 
-["6.121 - 6"]
+["6.121 - 7"]
 TruncatedStacktraces = "781d530d-4396-4725-bb49-402e4bee1e77"
 
-["6.125 - 6"]
+["6.125 - 7"]
 SciMLOperators = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
 
-["6.129 - 6"]
+["6.129 - 7"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["6.130.2 - 6.199"]
 EnzymeCore = "f151be2c-9106-41f4-ab19-57ee4f262869"
 
-["6.149 - 6"]
+["6.149 - 7"]
 ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
 FastClosures = "9aa1b823-49e4-5ca5-8b0f-3971ec8bab6a"
 
-["6.155 - 6"]
+["6.155 - 7"]
 SciMLStructures = "53ae85a6-f571-4167-b2af-e1d143709226"
 
-["6.159 - 6"]
+["6.159 - 7"]
 FastPower = "a4df4552-cc26-4903-aec0-212e50a0e84b"
 
-["6.169 - 6"]
+["6.169 - 7"]
 SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
 
-["6.195 - 6"]
+["6.195 - 7"]
 BracketingNonlinearSolve = "70df07ce-3d50-431d-a3e7-ca6ddb60ac1e"
 
 ["6.2.4 - 6.12"]
 DiffEqDiffTools = "01453d9d-ee7c-5054-8395-0335cb756afa"
-
-["6.20 - 6"]
-Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
 ["6.20 - 6.44"]
 ConsoleProgressMonitor = "88cd18e8-d9cc-4ea6-8889-5259c0d15c8b"
@@ -149,7 +146,10 @@ LoggingExtras = "e6f89c97-d47a-5376-807f-9c37f3926c36"
 ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
 TerminalLoggers = "5d786b92-1e48-4d6f-9151-6b4477ca9bed"
 
-["6.217 - 6"]
+["6.20 - 7"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+
+["6.217 - 7"]
 SciMLLogging = "a6db7da4-7206-11f0-1eab-35f2a5dbe1d1"
 
 ["6.23"]
@@ -164,17 +164,17 @@ Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 ["6.49 - 6.107"]
 NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 
-["6.54 - 6"]
+["6.54 - 7"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
 ["6.56 - 6.194"]
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["6.59 - 6"]
+["6.59 - 7"]
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 
-["6.61 - 6"]
+["6.61 - 7"]
 FastBroadcast = "7034ab61-46d4-4ed7-9d0f-46aef9175898"
 
 ["6.71 - 6.136"]
@@ -198,5 +198,5 @@ ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 ["6.95.3 - 6"]
 Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
 
-["6.96 - 6"]
+["6.96 - 7"]
 FunctionWrappersWrappers = "77dc65aa-8811-40c2-897b-53d922fa7daf"

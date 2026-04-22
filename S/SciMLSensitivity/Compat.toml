@@ -80,10 +80,16 @@ FunctionWrappersWrappers = ["0.1", "1"]
 ["7.102 - 7"]
 RecursiveArrayTools = "3.27.2 - 4"
 
+["7.104"]
+OrdinaryDiffEqCore = "3.26.0 - 3"
+
 ["7.104 - 7"]
 FunctionWrappersWrappers = ["0.1", "1.4.0 - 1"]
-OrdinaryDiffEqCore = "3.26.0 - 3"
 SciMLBase = "2.147.0 - 3"
+
+["7.105 - 7"]
+DiffEqBase = "6.175.0 - 7"
+OrdinaryDiffEqCore = "3.26.0 - 4"
 
 ["7.11 - 7.39"]
 SciMLBase = "1.66.0-1"
@@ -347,7 +353,6 @@ ADTypes = "1.9.0 - 1"
 Accessors = "0.1.36 - 0.1"
 Adapt = "1 - 4"
 ChainRulesCore = ["0.10.7 - 0.10", "1"]
-DiffEqBase = "6.175.0 - 6"
 DiffEqNoiseProcess = "5.19.0 - 5"
 Functors = "0.4 - 0.5"
 GPUArraysCore = "0.1 - 0.2"
@@ -369,6 +374,9 @@ julia = "1.10.0 - 1"
 
 ["7.87 - 7.101"]
 RecursiveArrayTools = "3.27.2 - 3"
+
+["7.87 - 7.104"]
+DiffEqBase = "6.175.0 - 6"
 
 ["7.87 - 7.88"]
 Enzyme = "0.13.50 - 0.13"
