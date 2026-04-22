@@ -29,7 +29,6 @@ OrderedCollections = "1"
 REPL = "1"
 Random = "1"
 ReadOnlyDicts = "1"
-RecursiveArrayTools = "3.26.0 - 3"
 Reexport = ["0.2", "1"]
 SciMLPublic = "1"
 SciMLStructures = "1.7.0 - 1"
@@ -64,6 +63,9 @@ PrecompileTools = "1"
 RuntimeGeneratedFunctions = "0.5.9 - 0.5"
 SymbolicUtils = "4.6.0 - 4"
 
+["1 - 1.30"]
+RecursiveArrayTools = "3.26.0 - 3"
+
 ["1 - 1.6.2"]
 Symbolics = "7.1.1 - 7"
 
@@ -85,16 +87,16 @@ SymbolicUtils = "4.18.0 - 4"
 ["1.16 - 1"]
 EnzymeCore = "0.8"
 
-["1.17 - 1"]
-DiffEqBase = "6.210.0 - 6"
-
 ["1.17 - 1.21"]
 SciMLBase = "2.144.0 - 2"
+
+["1.17 - 1.30"]
+DiffEqBase = "6.210.0 - 6"
 
 ["1.19 - 1"]
 JumpProcesses = "9.23.0 - 9"
 
-["1.22 - 1"]
+["1.22 - 1.30"]
 SciMLBase = "2.149.0 - 2"
 
 ["1.23 - 1"]
@@ -112,6 +114,11 @@ FunctionWrappersWrappers = ["0.1", "1"]
 ["1.30 - 1"]
 SymbolicUtils = "4.23.1 - 4"
 Symbolics = "7.18.1 - 7"
+
+["1.31 - 1"]
+DiffEqBase = "6.210.0 - 7"
+RecursiveArrayTools = "3.26.0 - 4"
+SciMLBase = "2.149.0 - 3"
 
 ["1.4 - 1"]
 DataStructures = "0.18 - 0.19"

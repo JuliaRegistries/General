@@ -16,8 +16,14 @@ Exodus = "0.14"
 Krylov = "0.10"
 ReferenceFiniteElements = "0.14"
 
-["0.12.1-0"]
+["0.12.1-0.12"]
 AcceleratedKernels = "0.4.3-0.4"
+
+["0.13-0"]
+AcceleratedKernels = "0.4"
+GPUArrays = "11"
+SparseMatricesCSR = "0.6"
+TOML = "1"
 
 ["0.2.1-0.2"]
 Exodus = "0.9"

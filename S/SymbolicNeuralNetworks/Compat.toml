@@ -1,32 +1,38 @@
 [0]
 RuntimeGeneratedFunctions = "0.5"
 
-["0-0.1"]
+["0 - 0.1"]
 KernelAbstractions = "0.9"
 SafeTestsets = "0.1"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 AbstractNeuralNetworks = "0.1"
 Symbolics = "5"
 
-["0-0.2"]
+["0 - 0.2"]
 julia = "1.6.0-1"
 
 ["0.1.1"]
 AbstractNeuralNetworks = ["0.1", "0.3"]
 
-["0.1.1-0"]
+["0.1.1 - 0.3.3"]
 Symbolics = "5-6"
 
-["0.1.2-0.1"]
+["0.1.2 - 0.1"]
 AbstractNeuralNetworks = ["0.1", "0.3-0.4"]
 
 ["0.2"]
 AbstractNeuralNetworks = "0.3-0.4"
 
-["0.2-0"]
+["0.2 - 0.3.3"]
 Latexify = "0.16.5-0.16"
 
-["0.3-0"]
+["0.3 - 0.3.3"]
 AbstractNeuralNetworks = "0.3-0.6"
 julia = "1.10.0-1"
+
+["0.3.4 - 0"]
+AbstractNeuralNetworks = "0.3 - 0.6"
+Latexify = "0.16"
+Symbolics = "7"
+julia = "1.10.0 - 1"
