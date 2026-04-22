@@ -30,9 +30,6 @@ TruncatedStacktraces = "1.4.0-1"
 ["0.15.18"]
 Adapt = "4.1.0-4"
 
-["0.15.18 - 0"]
-SciMLBase = "2"
-
 ["0.15.18 - 0.15.20"]
 GPUArrays = "10-11"
 Tracker = "0.2.34-0.2"
@@ -42,6 +39,9 @@ Zygote = "0.6.70-0.6"
 Optimisers = "0.3-0.4"
 RecursiveArrayTools = "3.8.0-3"
 ReverseDiff = "1.15.0-1"
+
+["0.15.18 - 0.15.36"]
+SciMLBase = "2"
 
 ["0.15.19 - 0.15.28"]
 KernelAbstractions = "0.9.29-0.9"
@@ -60,10 +60,12 @@ GPUArrays = "10.3.1 - 11"
 KernelAbstractions = "0.9.29 - 0.9"
 Optimisers = "0.3 - 0.4"
 Reactant = "0.2.15 - 0.2"
-RecursiveArrayTools = "3.8.0 - 3"
 ReverseDiff = "1.15.0 - 1"
 Tracker = "0.2.37 - 0.2"
 Zygote = "0.6.70 - 0.7"
+
+["0.15.29 - 0.15.36"]
+RecursiveArrayTools = "3.8.0 - 3"
 
 ["0.15.3 - 0.15.17"]
 SciMLBase = "1-2"
@@ -73,6 +75,10 @@ Mooncake = "0.5"
 
 ["0.15.34 - 0"]
 Mooncake = "0.5.25 - 0.5"
+
+["0.15.37 - 0"]
+RecursiveArrayTools = "3.8.0 - 4"
+SciMLBase = "2 - 3"
 
 ["0.15.6 - 0.15.17"]
 RecursiveArrayTools = "2-3"
