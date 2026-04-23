@@ -331,6 +331,9 @@ CUDA_Runtime_jll = "0.20"
 ["5.11 - 5"]
 CUDA_Runtime_jll = "0.21"
 
+["5.11.2 - 5"]
+CUDA_Runtime_Discovery = "2"
+
 ["5.2"]
 CUDA_Runtime_jll = "0.11"
 
@@ -415,11 +418,13 @@ KernelAbstractions = "0.9.32-0.9"
 ["5.8.3 - 5"]
 CEnum = "0.2 - 0.5"
 CUDA_Driver_jll = "13"
-CUDA_Runtime_Discovery = "1"
 KernelAbstractions = "0.9.38 - 0.9"
 Random123 = "1.2.0 - 1"
 RandomNumbers = "1.5.3 - 1"
 demumble_jll = "1.3.0 - 1"
+
+["5.8.3 - 5.11.1"]
+CUDA_Runtime_Discovery = "1"
 
 ["5.8.3 - 5.8"]
 AbstractFFTs = ["0.4 - 0.5", "1"]

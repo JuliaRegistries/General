@@ -70,7 +70,6 @@ ConcreteStructs = "0.2.3 - 0.2"
 ForwardDiff = ["0.10.38 - 0.10", "1"]
 LineSearch = "0.1.4 - 0.1"
 LinearAlgebra = "1.10.0 - 1"
-RecursiveArrayTools = "3.27.0 - 3"
 Reexport = "1.2.0 - 1"
 SparseArrays = "1.10.0 - 1"
 SparseMatrixColorings = "0.4.13 - 0.4"
@@ -78,6 +77,9 @@ julia = "1.10.0 - 1"
 
 ["1.11 - 2.1"]
 Logging = "1.10.0 - 1"
+
+["1.11 - 2.2"]
+RecursiveArrayTools = "3.27.0 - 3"
 
 ["1.11.0"]
 SparseConnectivityTracer = "0.6.13 - 0.6"
@@ -136,8 +138,15 @@ PreallocationTools = "0.4.24 - 0.4"
 ["2.1"]
 PreallocationTools = ["0.4", "1"]
 
-["2.2 - 2"]
+["2.2"]
 DiffEqBase = "6.213.0 - 6"
+SciMLBase = "2.152.1 - 2"
+
+["2.2 - 2"]
 OptimizationBase = "5.1.0 - 5"
 PreallocationTools = "1.2.0 - 1"
-SciMLBase = "2.152.1 - 2"
+
+["2.3 - 2"]
+DiffEqBase = "6.213.0 - 7"
+RecursiveArrayTools = "3.27.0 - 4"
+SciMLBase = "2.152.1 - 3"
