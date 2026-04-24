@@ -35,7 +35,6 @@ Statistics = "1"
 RecursiveArrayTools = "2 - 3"
 
 ["2.3 - 2"]
-DiffEqBase = "6.178.0 - 6"
 Distributions = "0.23 - 0.25"
 Zygote = "0.6 - 0.7"
 julia = "1.10.0 - 1"
@@ -46,11 +45,19 @@ Integrals = "4.6.0 - 4"
 ["2.3 - 2.4.0"]
 SciMLBase = "2.104.0 - 2"
 
-["2.4 - 2"]
+["2.3 - 2.5"]
+DiffEqBase = "6.178.0 - 6"
+
+["2.4 - 2.5"]
 RecursiveArrayTools = "3 - 4"
 
-["2.4.1 - 2"]
+["2.4.1 - 2.5"]
 SciMLBase = ["2.104.0 - 2", "3.1.0 - 3"]
 
 ["2.5 - 2"]
 Integrals = "5.2.0 - 5"
+
+["2.6 - 2"]
+DiffEqBase = "7"
+RecursiveArrayTools = "4"
+SciMLBase = "3"
