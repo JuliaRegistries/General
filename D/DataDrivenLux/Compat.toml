@@ -1,13 +1,9 @@
 [0]
-ChainRulesCore = "1.15.0-1"
-DataDrivenDiffEq = "1"
 Distributions = "0.25"
 DistributionsAD = "0.6"
 InverseFunctions = "0.1"
-Optim = "1.7.0-1"
-ProgressMeter = "1.7.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 AbstractDifferentiation = "0.4"
 ComponentArrays = "0.13"
 IntervalArithmetic = "0.20"
@@ -18,29 +14,50 @@ Reexport = "1.2.0-1"
 TransformVariables = "0.7"
 julia = "1.6.0-1"
 
-["0-0.2.0"]
+["0 - 0.2.0"]
 ForwardDiff = "0.10"
 
-["0.2-0"]
+["0 - 0.2.2"]
+ChainRulesCore = "1.15.0-1"
+DataDrivenDiffEq = "1"
+Optim = "1.7.0-1"
+ProgressMeter = "1.7.0-1"
+
+["0.2 - 0"]
 AbstractDifferentiation = "0.6"
-CommonSolve = "0.2.4-0.2"
 ComponentArrays = "0.15"
-ConcreteStructs = "0.2.3-0.2"
-DocStringExtensions = "0.9.3-0.9"
-IntervalArithmetic = "0.22"
 Lux = "1"
 LuxCore = "1"
 Setfield = "1"
-StatsBase = "0.34.3-0.34"
 TransformVariables = "0.8"
 WeightInitializers = "1"
-julia = "1.10.0-1"
 
-["0.2-0.2.1"]
+["0.2 - 0.2.1"]
 Optimisers = "0.3"
 
-["0.2.1-0"]
+["0.2 - 0.2.2"]
+CommonSolve = "0.2.4-0.2"
+ConcreteStructs = "0.2.3-0.2"
+DocStringExtensions = "0.9.3-0.9"
+IntervalArithmetic = "0.22"
+StatsBase = "0.34.3-0.34"
+julia = "1.10.0-1"
+
+["0.2.1 - 0"]
 ForwardDiff = ["0.10", "1"]
 
-["0.2.2-0"]
+["0.2.2"]
 Optimisers = "0.3-0.4"
+
+["0.2.3 - 0"]
+ChainRulesCore = "1.15.0 - 1"
+CommonSolve = "0.2.4 - 0.2"
+ConcreteStructs = "0.2.3 - 0.2"
+DataDrivenDiffEq = "1.14.0 - 1"
+DocStringExtensions = "0.9.3 - 0.9"
+IntervalArithmetic = ["0.22 - 0.23", "1"]
+Optim = "1.7.0 - 2"
+Optimisers = "0.3 - 0.4"
+ProgressMeter = "1.7.0 - 1"
+StatsBase = "0.34.3 - 0.34"
+julia = "1.10.0 - 1"
