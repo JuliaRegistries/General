@@ -69,7 +69,7 @@ SciMLBase = "1.89.0-1"
 ["4.16 - 4.24"]
 DiffEqBase = "6.122.0-6"
 
-["4.17 - 5"]
+["4.17 - 6"]
 PrecompileTools = "1"
 
 ["4.18 - 4.19"]
@@ -93,7 +93,7 @@ CEnum = "0.2-0.5"
 ["4.21"]
 SciMLBase = "2"
 
-["4.21 - 5"]
+["4.21 - 6"]
 CEnum = "0.5"
 Reexport = "1"
 
@@ -119,7 +119,11 @@ Reexport = ["0.2", "1"]
 ["4.7 - 4.21"]
 julia = "1.6.0-1"
 
-[5]
+["5 - 5.1"]
+DiffEqBase = "6.190.2 - 6"
+SciMLBase = "2.119.0 - 2"
+
+["5 - 6"]
 Accessors = "0.1.38 - 0.1"
 ArrayInterface = "7.17.1 - 7"
 DataStructures = "0.18 - 0.19"
@@ -132,22 +136,18 @@ Sundials_jll = "7.4.1 - 7"
 SymbolicIndexingInterface = "0.3.35 - 0.3"
 julia = "1.10.0 - 1"
 
-["5 - 5.1"]
-DiffEqBase = "6.190.2 - 6"
-SciMLBase = "2.119.0 - 2"
-
 ["5.0"]
 NonlinearSolveBase = "1.16.0 - 1"
 
-["5.1 - 5"]
+["5.1 - 6"]
 NonlinearSolveBase = "1.16.0 - 2"
 
 ["5.2"]
 DiffEqBase = "6.217.0 - 6"
 
-["5.2 - 5"]
+["5.2 - 6"]
 SciMLBase = "2.119.0 - 3"
 SciMLLogging = "1.9.1 - 1"
 
-["5.3 - 5"]
+["5.3 - 6"]
 DiffEqBase = "6.217.0 - 7"
