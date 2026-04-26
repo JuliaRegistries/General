@@ -169,7 +169,7 @@ OrdinaryDiffEq = "5.46.0-5"
 ["6.27 - 6.80"]
 StaticArrays = ["0.11-0.12", "1"]
 
-["6.28 - 6"]
+["6.28 - 7"]
 Reexport = ["0.2", "1"]
 
 ["6.29"]
@@ -378,11 +378,6 @@ DiffEqBase = "6.154.0 - 6"
 OrdinaryDiffEqCore = "1.12.1 - 1"
 SciMLBase = "2.71.0 - 2"
 
-["6.81 - 6"]
-DiffEqNoiseProcess = "5.13.0 - 5"
-LinearAlgebra = "1.6.0 - 1"
-julia = "1.10.0 - 1"
-
 ["6.81 - 6.100"]
 Adapt = "3 - 4"
 ArrayInterface = "6 - 7"
@@ -403,6 +398,11 @@ StaticArrays = ["0.11 - 0.12", "1"]
 
 ["6.81 - 6.92"]
 SciMLOperators = ["0.2.9 - 0.4", "1"]
+
+["6.81 - 7"]
+DiffEqNoiseProcess = "5.13.0 - 5"
+LinearAlgebra = "1.6.0 - 1"
+julia = "1.10.0 - 1"
 
 ["6.82 - 6"]
 DiffEqBase = "6.187.0 - 6"
@@ -501,3 +501,21 @@ OrdinaryDiffEqCore = "3.18.0 - 3"
 
 ["6.99"]
 OrdinaryDiffEqCore = "3.19.0 - 3"
+
+[7]
+ADTypes = "1.21.0 - 1"
+DiffEqBase = "7"
+OrdinaryDiffEqCore = "4"
+OrdinaryDiffEqNonlinearSolve = "2"
+SciMLBase = "3"
+StochasticDiffEqCore = "2"
+StochasticDiffEqHighOrder = "2"
+StochasticDiffEqIIF = "2"
+StochasticDiffEqImplicit = "2"
+StochasticDiffEqLeaping = "2"
+StochasticDiffEqLevyArea = "2"
+StochasticDiffEqLowOrder = "2"
+StochasticDiffEqMilstein = "2"
+StochasticDiffEqROCK = "2"
+StochasticDiffEqRODE = "2"
+StochasticDiffEqWeak = "2"
