@@ -80,11 +80,16 @@ NonlinearSolveFirstOrder = "2"
 NonlinearSolveBase = "2.14.0 - 2"
 
 ["1.7 - 1"]
-NonlinearSolveBase = "2.15.0 - 2"
 PrecompileTools = "1"
+
+["1.7 - 1.9.0"]
+NonlinearSolveBase = "2.15.0 - 2"
 
 ["1.8 - 1"]
 RecursiveArrayTools = "3.33.0 - 4"
 
 ["1.8.1 - 1"]
 SciMLBase = ["2.90.0 - 2", "3.1.0 - 3"]
+
+["1.9.1 - 1"]
+NonlinearSolveBase = "2.25.0 - 2"
