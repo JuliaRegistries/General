@@ -33,7 +33,7 @@ BenchmarkTools = ["0.4-0.7", "1"]
 ["0.9.6 - 0.9.11"]
 BenchmarkTools = "0.4"
 
-["0.9.6 - 1"]
+["0.9.6 - 1.50"]
 OrderedCollections = "1"
 
 ["0.9.8"]
@@ -53,16 +53,18 @@ JSONSchema = "0.2"
 JSON = "0.21"
 
 [1]
-BenchmarkTools = "1"
 MutableArithmetics = "1"
 
 ["1 - 1.41"]
 julia = "1.6.0-1"
 
+["1 - 1.50"]
+BenchmarkTools = "1"
+
 ["1.11.5 - 1.15.0"]
 SnoopPrecompile = "1"
 
-["1.15.1 - 1"]
+["1.15.1 - 1.50"]
 PrecompileTools = "1"
 
 ["1.20 - 1.41"]
@@ -119,3 +121,7 @@ SparseArrays = "1"
 SpecialFunctions = "1 - 2"
 Test = "1"
 julia = "1.10.0 - 1"
+
+["1.51 - 1"]
+OrderedCollections = "1.1.0 - 1"
+PrecompileTools = "1.0.1 - 1"
