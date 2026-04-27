@@ -3,27 +3,34 @@ Artifacts = "1"
 ChainRulesCore = "1"
 DataInterpolations = "8"
 FastGaussQuadrature = "1"
-FindFirstFunctions = "1"
-Integrals = "4"
 JSON = "1"
 LegendrePolynomials = "0.4"
 LinearAlgebra = "1.10.0 - 1"
-LoopVectorization = "0.12"
-Memoization = "0.2"
 NPZ = "0.4"
 OrdinaryDiffEqTsit5 = "1"
 SciMLSensitivity = "7"
-Tullio = "0.3"
-Zygote = "0.7"
 julia = "1.10.0 - 1"
 
 ["0 - 0.4.1"]
 AbstractCosmologicalEmulators = "0.7"
 
-["0.4.2 - 0"]
+["0 - 0.4.4"]
+FindFirstFunctions = "1"
+Integrals = "4"
+LoopVectorization = "0.12"
+Memoization = "0.2"
+Tullio = "0.3"
+Zygote = "0.7"
+
+["0.4.2 - 0.4.4"]
 ADTypes = "1"
 AbstractCosmologicalEmulators = "0.8"
 DifferentiationInterface = "0.6 - 0.7"
 Lux = "1.24.0 - 1"
 Mooncake = "0.4 - 0.5"
 Random = "1.10.0 - 1"
+
+["0.4.5 - 0"]
+AbstractCosmologicalEmulators = "0.9"
+Integrals = "4 - 5"
+SparseArrays = "1.10.0 - 1"
