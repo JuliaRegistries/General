@@ -352,7 +352,6 @@ Optimisers = "0.3.3-0.3"
 Zygote = "0.6.71-0.6"
 
 ["5.17 - 5"]
-DomainSets = "0.7"
 OptimizationOptimisers = "0.3"
 
 ["5.17 - 5.18"]
@@ -379,6 +378,9 @@ WeightInitializers = "1.0.3-1"
 
 ["5.17 - 5.20"]
 Optimization = "4"
+
+["5.17 - 5.24"]
+DomainSets = "0.7"
 
 ["5.18"]
 Functors = "0.4.12-0.5"
@@ -415,7 +417,6 @@ Printf = "1.10.0 - 1"
 QuasiMonteCarlo = "0.3.2 - 0.3"
 Reexport = "1.2.0 - 1"
 RuntimeGeneratedFunctions = "0.5.12 - 0.5"
-SciMLBase = "2.56.0 - 2"
 Statistics = "1.10.0 - 1"
 SymbolicIndexingInterface = "0.3.31 - 0.3"
 WeightInitializers = "1.0.3 - 1"
@@ -431,6 +432,9 @@ Symbolics = "6.14.0 - 6"
 
 ["5.19 - 5.23"]
 RecursiveArrayTools = "3.27.0 - 3"
+
+["5.19 - 5.24"]
+SciMLBase = "2.56.0 - 2"
 
 ["5.2 - 5.7"]
 ComponentArrays = "0.13.2-0.13"
@@ -456,6 +460,10 @@ Integrals = ["4.10.0 - 4", "5.1.0 - 5"]
 ["5.24 - 5"]
 ModelingToolkitBase = "1"
 RecursiveArrayTools = "3.27.0 - 4"
+
+["5.25 - 5"]
+DomainSets = "0.7 - 0.8"
+SciMLBase = "2.56.0 - 3"
 
 ["5.4 - 5.11"]
 ArrayInterface = "6-7"
