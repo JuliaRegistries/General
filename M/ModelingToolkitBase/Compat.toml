@@ -15,11 +15,9 @@ DomainSets = "0.6 - 0.7"
 EnumX = "1.0.4 - 1"
 ExprTools = "0.1.10 - 0.1"
 FillArrays = "1.13.0 - 1"
-FindFirstFunctions = "1"
 ForwardDiff = ["0.10.3 - 0.10", "1"]
 FunctionWrappers = "1.1.0 - 1"
 Graphs = "1.5.2 - 1"
-ImplicitDiscreteSolve = ["0.1.2 - 0.1", "1"]
 InteractiveUtils = "1"
 Libdl = "1"
 LinearAlgebra = "1"
@@ -65,6 +63,10 @@ SymbolicUtils = "4.6.0 - 4"
 
 ["1 - 1.30"]
 RecursiveArrayTools = "3.26.0 - 3"
+
+["1 - 1.31"]
+FindFirstFunctions = "1"
+ImplicitDiscreteSolve = ["0.1.2 - 0.1", "1"]
 
 ["1 - 1.6.2"]
 Symbolics = "7.1.1 - 7"
@@ -119,6 +121,9 @@ Symbolics = "7.18.1 - 7"
 DiffEqBase = "6.210.0 - 7"
 RecursiveArrayTools = "3.26.0 - 4"
 SciMLBase = "2.149.0 - 3"
+
+["1.32 - 1"]
+ImplicitDiscreteSolve = ["0.1.2 - 0.1", "1 - 2"]
 
 ["1.4 - 1"]
 DataStructures = "0.18 - 0.19"
