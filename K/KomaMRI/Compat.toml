@@ -2,7 +2,6 @@
 AssetRegistry = "0.1"
 Blink = "0.12"
 Interact = "0.10"
-MAT = "0.10"
 Reexport = "1"
 
 ["0 - 0.6.2"]
@@ -38,6 +37,15 @@ JLD2 = "0.4"
 Parameters = "0.12"
 ProgressMeter = "1"
 Scanf = "0.5"
+
+["0 - 0.9"]
+MAT = "0.10"
+
+["0.10 - 0"]
+KomaMRICore = "0.10"
+KomaMRIFiles = "0.10"
+KomaMRIPlots = "0.10"
+MAT = "0.10 - 0.12"
 
 ["0.6.3 - 0.6.6"]
 Suppressor = "0.2"
@@ -81,7 +89,7 @@ FFTW = "1"
 ["0.8 - 0.9.1"]
 julia = "1.9.0-1"
 
-["0.9 - 0"]
+["0.9"]
 KomaMRICore = "0.9"
 KomaMRIFiles = "0.9"
 KomaMRIPlots = "0.9"
