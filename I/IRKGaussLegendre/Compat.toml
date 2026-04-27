@@ -1,6 +1,3 @@
-[0]
-Parameters = "0.12"
-
 ["0 - 0.1.0"]
 Reexport = "0.2"
 
@@ -14,28 +11,35 @@ DiffEqBase = "6.48.0-6"
 ["0 - 0.2.6"]
 RecursiveArrayTools = "2.7.0-2"
 
+["0 - 1"]
+Parameters = "0.12"
+
 ["0.1.1"]
 Reexport = ["0.2", "1"]
-
-["0.1.2 - 0"]
-Reexport = "1"
 
 ["0.1.2 - 0.2.6"]
 OrdinaryDiffEq = "5-6"
 julia = "1.6.0-1"
 
+["0.1.2 - 1"]
+Reexport = "1"
+
 ["0.2.11 - 0"]
-SIMD = "3.5.0 - 3"
 julia = "1.9.0 - 1"
 
 ["0.2.11 - 0.2.14"]
 DiffEqBase = "6.100.0 - 6"
+
+["0.2.11 - 1"]
+SIMD = "3.5.0 - 3"
 
 ["0.2.14 - 0"]
 SciMLBase = ["2", "3.1.0 - 3"]
 
 ["0.2.15 - 0"]
 DiffEqBase = "6.217.0 - 6"
+
+["0.2.15 - 1"]
 SciMLLogging = "1.9.1 - 1"
 
 ["0.2.3"]
@@ -68,3 +72,8 @@ FastBroadcast = "0.3"
 
 ["0.2.9 - 0.2.10"]
 SIMD = "3.5.0-3"
+
+[1]
+DiffEqBase = "7"
+SciMLBase = "3.1.0 - 3"
+julia = "1.10.0 - 1"
