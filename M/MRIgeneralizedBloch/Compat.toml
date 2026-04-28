@@ -20,14 +20,21 @@ LsqFit = "0.13 - 0.15"
 
 ["0.10 - 0"]
 ApproxFun = "0.12 - 0.13"
-DifferentialEquations = "6 - 7"
 Interpolations = "0.14.2 - 0.16"
 LinearAlgebra = "1.6.0 - 1"
 SpecialFunctions = "1 - 2"
 julia = "1.6.0 - 1"
 
+["0.10 - 0.11.0"]
+DifferentialEquations = "6 - 7"
+
 ["0.11 - 0"]
 LsqFit = "0.13 - 0.16"
+
+["0.11.1 - 0"]
+DelayDiffEq = "5 - 6"
+DifferentialEquations = "6 - 8"
+OrdinaryDiffEqHighOrderRK = "1 - 2"
 
 ["0.3 - 0"]
 ExponentialUtilities = "1"
