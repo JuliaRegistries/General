@@ -1,10 +1,12 @@
 [0]
-ForwardDiff = "0.10"
 NLsolve = "4"
 
 ["0 - 0.1.1"]
 InfrastructureSystems = "0.13"
 PowerSystems = "0.23"
+
+["0 - 0.15"]
+ForwardDiff = "0.10"
 
 ["0 - 0.3"]
 julia = "1.2.0-1"
@@ -80,13 +82,24 @@ PowerNetworkMatrices = "0.9"
 ["0.14.2 - 0.14"]
 PowerNetworkMatrices = "0.10"
 
-["0.15 - 0"]
+["0.15"]
 InfrastructureSystems = "2"
 PowerFlows = "0.9"
 PowerNetworkMatrices = "0.12.1 - 0.12"
 PowerSystems = "4"
 PrettyTables = "1 - 2"
+
+["0.15 - 0"]
 julia = "1.6.0 - 1"
+
+["0.16 - 0"]
+DataStructures = "0.19"
+ForwardDiff = "1"
+InfrastructureSystems = "3"
+PowerFlows = "0.16"
+PowerNetworkMatrices = "0.20"
+PowerSystems = "5"
+PrettyTables = "3"
 
 ["0.2"]
 InfrastructureSystems = "0.15"
@@ -124,7 +137,6 @@ SciMLBase = "1.18.0-1"
 PrettyTables = "1"
 
 ["0.8 - 0"]
-DataStructures = "0.18"
 TimerOutputs = "0.5"
 
 ["0.8 - 0.10"]
@@ -132,6 +144,9 @@ InfrastructureSystems = "1.14.0-1"
 
 ["0.8 - 0.10.3"]
 DocStringExtensions = "0.8.6-0.8"
+
+["0.8 - 0.15"]
+DataStructures = "0.18"
 
 ["0.8 - 0.8.1"]
 PowerSystems = "1.14.0-1"
