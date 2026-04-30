@@ -6,8 +6,15 @@ Ipopt = "1"
 JuMP = "1"
 LogExpFunctions = "0.3"
 LsqFit = "0.15"
-Optimization = "3 - 4"
-OptimizationMOI = ["0.1", "0.3.2 - 0.5"]
 PeriodicHiddenMarkovModels = "0.1.5 - 0.1"
 ShiftedArrays = "2"
+
+["2.0"]
+Optimization = "3 - 4"
+OptimizationMOI = ["0.1", "0.3.2 - 0.5"]
 julia = "1"
+
+["2.1 - 2"]
+Optimization = "3 - 5"
+OptimizationMOI = ["0.1", "0.3.2 - 0.5", "1"]
+julia = "1.12.0 - 1"
