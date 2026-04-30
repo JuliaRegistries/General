@@ -1,11 +1,8 @@
 [6]
-CUDACore = "6.0.0"
 CUDA_Compiler_jll = "0.3 - 0.4"
-CUPTI = "6.0.0"
 Crayons = "4"
 GPUCompiler = "1.4.0 - 1"
 LLVM = "9.3.1 - 9"
-NVML = "6.0.0"
 NVTX = "1"
 PrecompileTools = "1"
 Preferences = "1"
@@ -14,3 +11,13 @@ Printf = "1"
 Statistics = "1"
 demumble_jll = "1.3.0 - 1"
 julia = "1.10.0 - 1"
+
+["6.0"]
+CUDACore = "6.0.0"
+CUPTI = "6.0.0"
+NVML = "6.0.0"
+
+["6.1 - 6"]
+CUDACore = "6.1.0"
+CUPTI = "6.1.0"
+NVML = "6.1.0"
