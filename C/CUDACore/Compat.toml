@@ -4,10 +4,8 @@ BFloat16s = "0.5 - 0.6"
 CEnum = "0.2 - 0.5"
 CUDA_Compiler_jll = "0.3 - 0.4"
 CUDA_Driver_jll = "13"
-CUDA_Runtime_Discovery = "1"
 CUDA_Runtime_jll = "0.21"
 ExprTools = "0.1"
-GPUArrays = "11.4.1 - 11"
 GPUCompiler = "1.4.0 - 1"
 GPUToolbox = "1.1.0 - 1"
 KernelAbstractions = "0.9.38 - 0.9"
@@ -25,3 +23,11 @@ Random123 = "1.2.0 - 1"
 RandomNumbers = "1.5.3 - 1"
 StaticArrays = "1.9.8 - 1"
 julia = "1.10.0 - 1"
+
+["6.0"]
+CUDA_Runtime_Discovery = "1"
+GPUArrays = "11.4.1 - 11"
+
+["6.1 - 6"]
+CUDA_Runtime_Discovery = "2"
+GPUArrays = "11.5.0 - 11"
