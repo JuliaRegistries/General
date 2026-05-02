@@ -61,13 +61,20 @@ TaylorSeries = "0.20"
 
 ["0.17.2 - 0"]
 Espresso = "0.6.1 - 0.6"
-RecursiveArrayTools = "2 - 3"
 StaticArrays = ["0.12.5 - 0.12", "1"]
 julia = "1.10.0 - 1"
 
-["0.18.3 - 0"]
+["0.17.2 - 0.18.3"]
+RecursiveArrayTools = "2 - 3"
+
+["0.18.3"]
 DiffEqBase = "6.210.0 - 6"
+
+["0.18.3 - 0"]
 TaylorSeries = "0.21"
+
+["0.18.4 - 0"]
+RecursiveArrayTools = "2 - 4"
 
 ["0.5"]
 DiffEqBase = "5.0.0-6"
