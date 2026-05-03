@@ -50,6 +50,9 @@ OrdinaryDiffEqCore = ["1.23.0 - 1", "3.6.0 - 3"]
 Sundials = ["4.24.0 - 4", "5.1.0 - 5"]
 WinchModels = "0.3.9 - 0.3"
 
+["0.11.10 - 0"]
+AtmosphericModels = "0.3.4 - 0.3"
+
 ["0.11.3 - 0"]
 KiteUtils = "0.11.3 - 0.11"
 
@@ -367,7 +370,6 @@ SciMLOperators = ["0.3.13 - 0.3", "1"]
 SymbolicUtils = "3.25.0 - 3"
 
 ["0.9 - 0"]
-AtmosphericModels = "0.3"
 Dierckx = "0.5.4 - 0.5"
 DiffEqBase = "6.161.0 - 6"
 DocStringExtensions = "0.9.4 - 0.9"
@@ -398,3 +400,6 @@ OrdinaryDiffEqBDF = "1.5.0 - 1"
 OrdinaryDiffEqCore = "1.23.0 - 1"
 Sundials = "4.24.0 - 4"
 WinchModels = "0.3.6 - 0.3"
+
+["0.9 - 0.11.9"]
+AtmosphericModels = "0.3"
