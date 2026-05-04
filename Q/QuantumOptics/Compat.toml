@@ -154,20 +154,29 @@ StochasticDiffEq = "6.76.0 - 6"
 Arpack = "0.5.1 - 0.5.3"
 DiffEqNoiseProcess = "5.23.0 - 5"
 LinearAlgebra = "1.10.0 - 1"
-OrdinaryDiffEqLowOrderRK = "1.2.0 - 1"
 QuantumOpticsBase = "0.5.9 - 0.5"
 Random = "1.10.0 - 1"
 SparseArrays = "1.10.0 - 1"
 WignerSymbols = "1 - 2"
 julia = "1.10.0 - 1"
 
+["1.2.4 - 1.2.5"]
+OrdinaryDiffEqLowOrderRK = "1.2.0 - 1"
+
+["1.2.5"]
+OrdinaryDiffEqCore = "1.26.0 - 4"
+StochasticDiffEq = "6.80.0 - 6"
+
 ["1.2.5 - 1"]
 DiffEqCallbacks = "2.35.0 - 4"
 FFTW = "1.3.0 - 1"
 IterativeSolvers = "0.9.3 - 0.9"
 KrylovKit = "0.8 - 0.10"
-OrdinaryDiffEqCore = "1.26.0 - 4"
 RecursiveArrayTools = ["3.35.0 - 3", "4.2.0 - 4"]
 Reexport = "1.2.2 - 1"
 SciMLBase = "2.114.0 - 3"
-StochasticDiffEq = "6.80.0 - 6"
+
+["1.2.6 - 1"]
+OrdinaryDiffEqCore = "1.26.0 - 5"
+OrdinaryDiffEqLowOrderRK = "1.2.0 - 2"
+StochasticDiffEq = "6.80.0 - 7"
