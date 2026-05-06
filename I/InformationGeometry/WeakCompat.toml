@@ -12,12 +12,14 @@ BoundaryValueDiffEqShooting = "1"
 LibGEOS = "0.6 - 0.9"
 
 ["1.21 - 1"]
-DelayDiffEq = "4 - 5"
 Lux = "1"
 SciMLSensitivity = "6 - 7"
 
 ["1.21 - 1.25.8"]
 StochasticDiffEq = "5 - 6"
+
+["1.21 - 1.29"]
+DelayDiffEq = "4 - 5"
 
 ["1.24"]
 ModelingToolkitBase = "1"
@@ -71,5 +73,12 @@ PEtab = "5"
 
 ["1.29.4 - 1"]
 LsqFit = "0.9 - 0.16"
+
+["1.29.4 - 1.29"]
 StochasticDiffEqCore = "1"
 StochasticDiffEqHighOrder = "1"
+
+["1.30 - 1"]
+DelayDiffEq = "4 - 6"
+StochasticDiffEqCore = "1 - 2"
+StochasticDiffEqHighOrder = "1 - 2"
