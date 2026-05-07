@@ -131,14 +131,14 @@ julia = "1.10.0 - 1"
 ["1.29.10 - 2"]
 EasyFit = ["0.6.8 - 0.6", "0.7.1 - 0.7"]
 
+["1.29.11 - 1"]
+CellListMap = "0.9.11 - 0.9"
+
 ["1.29.11 - 1.29.12"]
 PDBTools = "3.5.5 - 3"
 
 ["1.29.11 - 1.32"]
 MolSimToolkitShared = "1.2.1 - 1"
-
-["1.29.11 - 2"]
-CellListMap = "0.9.11 - 0.9"
 
 ["1.29.13"]
 PDBTools = "3.7.0 - 3"
@@ -179,4 +179,11 @@ OffsetArrays = "1.13.0-1"
 
 [2]
 MolSimToolkitShared = "1.5.0 - 1"
+
+["2.0.0"]
+CellListMap = "0.9.11 - 0.9"
 PDBTools = "3.21.0 - 3"
+
+["2.0.1 - 2"]
+CellListMap = "0.10"
+PDBTools = "3.25.2 - 3"
