@@ -157,9 +157,11 @@ Unitful = "0.12.0-0.18"
 julia = ["0.7.0", "1"]
 
 [1]
-Acquisition = ["0.1.1 - 0.3", "1"]
 LinearAlgebra = "1"
 TrackingLoopFilters = ["0.2", "1"]
+
+["1 - 1.2"]
+Acquisition = ["0.1.1 - 0.3", "1"]
 
 ["1.0"]
 LoopVectorization = "0.8 - 0.12"

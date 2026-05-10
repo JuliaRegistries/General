@@ -283,17 +283,14 @@ QuasiMonteCarlo = "0.3.2-0.3"
 ["5.11"]
 OptimizationOptimisers = "0.1"
 
-["5.11 - 5"]
-Random = "1"
-
 ["5.11 - 5.16"]
 LinearAlgebra = "1"
 
+["5.11 - 6"]
+Random = "1"
+
 ["5.12"]
 DomainSets = "0.6"
-
-["5.12 - 5"]
-Adapt = "4"
 
 ["5.12 - 5.14"]
 AdvancedHMC = "0.6"
@@ -305,6 +302,9 @@ OptimizationOptimisers = "0.2"
 
 ["5.12 - 5.16"]
 DocStringExtensions = "0.9"
+
+["5.12 - 6"]
+Adapt = "4"
 
 ["5.13 - 5.16"]
 DomainSets = "0.6-0.7"
@@ -351,10 +351,6 @@ Functors = "0.4.12-0.4"
 Optimisers = "0.3.3-0.3"
 Zygote = "0.6.71-0.6"
 
-["5.17 - 5"]
-DomainSets = "0.7"
-OptimizationOptimisers = "0.3"
-
 ["5.17 - 5.18"]
 ADTypes = "1.9.0-1"
 ArrayInterface = "7.11.0-7"
@@ -380,6 +376,12 @@ WeightInitializers = "1.0.3-1"
 ["5.17 - 5.20"]
 Optimization = "4"
 
+["5.17 - 5.24"]
+DomainSets = "0.7"
+
+["5.17 - 6"]
+OptimizationOptimisers = "0.3"
+
 ["5.18"]
 Functors = "0.4.12-0.5"
 Optimisers = "0.3.3-0.4"
@@ -394,7 +396,20 @@ AdvancedHMC = "0.6.1-0.7"
 ["5.19"]
 AdvancedHMC = "0.6.1 - 0.7"
 
-["5.19 - 5"]
+["5.19 - 5.20"]
+Cubature = "1.5.0 - 1"
+Integrals = "4.5.0 - 4"
+ModelingToolkit = "9.46.0 - 10"
+SymbolicUtils = "3.7.2 - 3"
+Symbolics = "6.14.0 - 6"
+
+["5.19 - 5.23"]
+RecursiveArrayTools = "3.27.0 - 3"
+
+["5.19 - 5.24"]
+SciMLBase = "2.56.0 - 2"
+
+["5.19 - 6"]
 ADTypes = "1.9.0 - 1"
 ArrayInterface = "7.11.0 - 7"
 ChainRulesCore = "1.24.0 - 1"
@@ -415,22 +430,11 @@ Printf = "1.10.0 - 1"
 QuasiMonteCarlo = "0.3.2 - 0.3"
 Reexport = "1.2.0 - 1"
 RuntimeGeneratedFunctions = "0.5.12 - 0.5"
-SciMLBase = "2.56.0 - 2"
 Statistics = "1.10.0 - 1"
 SymbolicIndexingInterface = "0.3.31 - 0.3"
 WeightInitializers = "1.0.3 - 1"
 Zygote = "0.6.71 - 0.7"
 julia = "1.10.0 - 1"
-
-["5.19 - 5.20"]
-Cubature = "1.5.0 - 1"
-Integrals = "4.5.0 - 4"
-ModelingToolkit = "9.46.0 - 10"
-SymbolicUtils = "3.7.2 - 3"
-Symbolics = "6.14.0 - 6"
-
-["5.19 - 5.23"]
-RecursiveArrayTools = "3.27.0 - 3"
 
 ["5.2 - 5.7"]
 ComponentArrays = "0.13.2-0.13"
@@ -442,7 +446,7 @@ MCMCChains = "7"
 ["5.21"]
 Integrals = "4.10.0 - 4"
 
-["5.21 - 5"]
+["5.21 - 6"]
 Cubature = "1.5.1 - 1"
 ModelingToolkit = "11"
 NeuralOperators = "0.5 - 0.6"
@@ -450,12 +454,16 @@ Optimization = "4 - 5"
 SymbolicUtils = "4.12.0 - 4"
 Symbolics = "7.8.0 - 7"
 
-["5.22 - 5"]
+["5.22 - 6"]
 Integrals = ["4.10.0 - 4", "5.1.0 - 5"]
 
-["5.24 - 5"]
+["5.24 - 6"]
 ModelingToolkitBase = "1"
 RecursiveArrayTools = "3.27.0 - 4"
+
+["5.25 - 6"]
+DomainSets = "0.7 - 0.8"
+SciMLBase = "2.56.0 - 3"
 
 ["5.4 - 5.11"]
 ArrayInterface = "6-7"

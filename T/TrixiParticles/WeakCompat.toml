@@ -4,8 +4,14 @@ OrdinaryDiffEq = "6.91.0-6"
 ["0.3 - 0.4.2"]
 OrdinaryDiffEqCore = "1"
 
-["0.3.2 - 0"]
+["0.3.2 - 0.4"]
 OrdinaryDiffEq = "6.91.0 - 6"
 
-["0.4.3 - 0"]
+["0.4.3 - 0.4"]
 OrdinaryDiffEqCore = "2"
+
+["0.5 - 0"]
+CUDA = "5.9.1 - 5"
+OrdinaryDiffEqCore = "2 - 3"
+OrdinaryDiffEqSymplecticRK = "1.10.0 - 1"
+Static = "0.0.0 - 1.3"

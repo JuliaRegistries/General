@@ -94,16 +94,14 @@ DimensionalData = "0.27-0.29"
 ["0.11.12 - 0.11.13"]
 HypercubeTransform = "0.4.4-0.4"
 
-["0.11.13 - 0"]
+["0.11.13 - 0.11.26"]
 VLBIImagePriors = "0.10"
 
 ["0.11.14 - 0"]
 AbstractMCMC = "3 - 5"
 AstroTime = "0.6 - 0.7"
 DocStringExtensions = "0.8 - 0.9"
-NamedTupleTools = "0.13 - 0.14"
 ParameterHandling = "0.4 - 0.5"
-PrettyTables = "1 - 2"
 SpecialFunctions = ["0.10", "1 - 2"]
 Statistics = "1.8.0 - 1"
 StatsBase = "0.33 - 0.34"
@@ -117,10 +115,14 @@ HypercubeTransform = "0.4.4 - 0.4"
 ["0.11.14 - 0.11.19"]
 IntervalSets = "0.6 - 0.7"
 
-["0.11.16 - 0"]
+["0.11.14 - 0.11.26"]
+NamedTupleTools = "0.13 - 0.14"
+PrettyTables = "1 - 2"
+
+["0.11.16 - 0.11.26"]
 HypercubeTransform = "0.4.11 - 0.4"
 
-["0.11.18 - 0"]
+["0.11.18 - 0.11.26"]
 VLBISkyModels = "0.6.15 - 0.6"
 
 ["0.11.20"]
@@ -138,17 +140,29 @@ TransformVariables = "0.8.19 - 0.8"
 ["0.11.24 - 0"]
 DimensionalData = ["0.29 - 0.29.24", "0.29.26 - 0.30"]
 
+["0.11.25 - 0.11.26"]
+PolarizedTypes = "0.1.0 - 0.1.2"
+
+["0.11.27 - 0"]
+AstroLib = "0.4"
+ComradeBase = "0.9.13 - 0.9"
+HypercubeTransform = "0.4.15 - 0.4"
+PolarizedTypes = "0.1.0 - 0.1.3"
+PrettyTables = "3"
+VLBIImagePriors = "0.10.8 - 0.10"
+VLBISkyModels = "0.6.24 - 0.6"
+
 ["0.11.3 - 0.11.13"]
 StructArrays = "0.5-0.7"
 
 ["0.11.7 - 0"]
 Measurements = "2"
 
-["0.11.8 - 0"]
-ComradeBase = "0.9"
-
 ["0.11.8 - 0.11.19"]
 DimensionalData = "0.29"
+
+["0.11.8 - 0.11.26"]
+ComradeBase = "0.9"
 
 ["0.2"]
 ComradeBase = "0.2"
@@ -347,14 +361,14 @@ Enzyme = "0.11"
 ["0.9"]
 julia = "1.8.0-1"
 
-["0.9 - 0"]
-PolarizedTypes = "0.1"
-
 ["0.9 - 0.11.11"]
 HypercubeTransform = "0.4"
 
 ["0.9 - 0.11.13"]
 Statistics = "1.8.0-1"
+
+["0.9 - 0.11.24"]
+PolarizedTypes = "0.1"
 
 ["0.9.0"]
 ComradeBase = "0.5"

@@ -49,11 +49,13 @@ OhMyThreads = "0.7"
 ["0.12 - 0"]
 LoggingExtras = "1.0"
 Random = "1"
-TensorKitManifolds = "0.7"
 
 ["0.12 - 0.12.5"]
 BlockTensorKit = "0.1.1-0.1"
 TensorKit = "0.13-0.14"
+
+["0.12 - 0.13.10"]
+TensorKitManifolds = "0.7"
 
 ["0.12 - 0.13.3"]
 Compat = ["3.47.0-3", "4.10.0-4"]
@@ -65,11 +67,11 @@ julia = "1.10.0-1"
 ["0.12.3 - 0.13.3"]
 OptimKit = "0.3.1-0.4"
 
-["0.12.6 - 0"]
-TensorOperations = "5"
-
 ["0.12.6 - 0.12"]
 BlockTensorKit = "0.1.4-0.1"
+
+["0.12.6 - 0.13.10"]
+TensorOperations = "5"
 
 ["0.12.6 - 0.13.7"]
 TensorKit = "0.14"
@@ -78,9 +80,16 @@ TensorKit = "0.14"
 BlockTensorKit = "0.1.6-0.1"
 OhMyThreads = "0.7-0.8"
 
-["0.13.10 - 0"]
+["0.13.10"]
 BlockTensorKit = "0.3.8 - 0.3"
 TensorKit = "0.16.3 - 0.16"
+
+["0.13.11 - 0"]
+BlockTensorKit = "0.3.11 - 0.3"
+MatrixAlgebraKit = "0.6.5 - 0.6"
+TensorKit = "0.16.5 - 0.16"
+TensorKitManifolds = "0.7 - 0.8"
+TensorOperations = "5.5.1 - 5"
 
 ["0.13.4"]
 BlockTensorKit = "0.1.6 - 0.1"
@@ -109,7 +118,7 @@ TensorKit = "0.15.1 - 0.15"
 BlockTensorKit = "0.3.4 - 0.3"
 TensorKit = "0.16"
 
-["0.13.9 - 0"]
+["0.13.9 - 0.13.10"]
 MatrixAlgebraKit = "0.6"
 
 ["0.3 - 0.3.1"]

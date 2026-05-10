@@ -7,11 +7,6 @@ Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
 ["5 - 5.8"]
 Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
 
-["5 - 6"]
-DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
-DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-
 ["5 - 6.1"]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
@@ -35,7 +30,12 @@ RandomNumbers = "e6cf234a-135c-5ec9-84dd-332b85af5143"
 ["5 - 6.84"]
 NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
 
-["5.2 - 6"]
+["5 - 7"]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+["5.2 - 7"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["5.2.2 - 6.1"]
@@ -50,7 +50,7 @@ Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 ["5.6 - 6.7"]
 DiffEqOperators = "9fdde737-9c7f-55bf-ade8-46b3f136cc48"
 
-["6.101 - 6"]
+["6.101 - 7"]
 StochasticDiffEqCore = "19c5a474-6cd1-4a5f-be79-46dc34e54d7f"
 StochasticDiffEqHighOrder = "0520c28c-50fd-4d16-9c96-902fc80b3bab"
 StochasticDiffEqIIF = "ebf54054-c36b-4494-9aba-657e36df524f"
@@ -84,7 +84,7 @@ Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 ["6.45 - 6.100"]
 LevyArea = "2d8b4e74-eb68-11e8-0fb9-d5eb67b50637"
 
-["6.49 - 6"]
+["6.49 - 7"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
 ["6.5 - 6.63"]
@@ -102,17 +102,17 @@ SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
 ["6.70 - 6.100"]
 FastPower = "a4df4552-cc26-4903-aec0-212e50a0e84b"
 
-["6.72 - 6"]
-OrdinaryDiffEqCore = "bbf590c4-e513-4bbe-9b18-05decba2e5d8"
-
 ["6.72 - 6.100"]
 ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 
-["6.73 - 6"]
-OrdinaryDiffEqNonlinearSolve = "127b3ac7-2247-4354-8eb6-78cf4e7c58e8"
+["6.72 - 7"]
+OrdinaryDiffEqCore = "bbf590c4-e513-4bbe-9b18-05decba2e5d8"
 
 ["6.73 - 6.100"]
 OrdinaryDiffEqDifferentiation = "4302a76b-040a-498a-8c04-15b101fed76b"
+
+["6.73 - 7"]
+OrdinaryDiffEqNonlinearSolve = "127b3ac7-2247-4354-8eb6-78cf4e7c58e8"
 
 ["6.8 - 6.100"]
 ArrayInterface = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
@@ -123,3 +123,6 @@ SimpleNonlinearSolve = "727e6d20-b764-4bd8-a329-72de5adea6c7"
 
 ["6.91 - 6.100"]
 SciMLLogging = "a6db7da4-7206-11f0-1eab-35f2a5dbe1d1"
+
+[7]
+ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"

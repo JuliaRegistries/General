@@ -39,11 +39,19 @@ HSL_jll = ["4", "2024"]
 ["0.5.1"]
 HSL_jll = ["4", "2024-2025"]
 
+["0.5.2"]
+Quadmath = "0.5.10 - 0.5"
+
 ["0.5.2 - 0"]
 HSL_jll = ["4", "2024 - 2025"]
 Libdl = "1.9.0 - 1"
 LinearAlgebra = "1.9.0 - 1"
 OpenBLAS32_jll = "0.3.9 - 0.3"
-Quadmath = "0.5.10 - 0.5"
 SparseArrays = "1.9.0 - 1"
 julia = "1.9.0 - 1"
+
+["0.5.3 - 0"]
+Quadmath = ["0.5.10 - 0.5", "1.0.1 - 1"]
+
+["0.5.4 - 0"]
+CompilerSupportLibraries_jll = "1.0.5 - 1"

@@ -1,7 +1,6 @@
 [0]
 CSV = "0.10"
 FastPow = "0.1"
-MuladdMacro = "0.2"
 RecipesBase = "1"
 Reexport = "1"
 StaticArrays = "1"
@@ -33,6 +32,9 @@ ForwardDiff = "0.10"
 ["0 - 0.3.1"]
 DataFrames = "1.6.0-1"
 StrideArrays = "0.1"
+
+["0 - 0.4"]
+MuladdMacro = "0.2"
 
 ["0 - 0.4.1"]
 JSON = "0.21"
@@ -129,4 +131,9 @@ PointNeighbors = "0.6.4 - 0.6"
 
 ["0.4.4 - 0"]
 Accessors = "0.1.43 - 0.1"
+
+["0.4.4 - 0.4"]
 PointNeighbors = "0.6.5 - 0.6"
+
+["0.5 - 0"]
+PointNeighbors = "0.6.6 - 0.6"

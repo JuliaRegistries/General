@@ -14,9 +14,15 @@ LinearAlgebra = "1.1.0-*"
 
 ["0.2.2 - 0"]
 DataStructures = "0.18.20 - 0.18"
-ForwardDiff = "0.10.36 - 0.10"
 Interpolations = "0.15.1 - 0.15"
-IterativeSolvers = "0.9.4 - 0.9"
 LinearAlgebra = "1.1.0 - *"
 StaticArrays = "1.9.4 - 1"
+
+["0.2.2 - 0.2"]
+ForwardDiff = "0.10.36 - 0.10"
+IterativeSolvers = "0.9.4 - 0.9"
 julia = "1.8.2 - 1"
+
+["0.3 - 0"]
+ForwardDiff = "0.10"
+julia = "1.9.0 - 1"

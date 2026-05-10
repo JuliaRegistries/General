@@ -23,12 +23,27 @@ NonlinearSolve = "4"
 ["0.1.3"]
 OptimizationBase = "4"
 
-["0.1.3 - 0"]
+["0.1.3 - 0.1.4"]
 SciMLBase = "2.122.1 - 2"
 
 ["0.1.4 - 0"]
-DiffEqBase = "6.190.2 - 6"
 NonlinearSolve = "4.11.0 - 4"
 OptimizationBase = "5"
-OrdinaryDiffEq = "6.102.0 - 6"
 SteadyStateDiffEq = "2.5.0 - 2"
+
+["0.1.4 - 0.1.5"]
+DiffEqBase = "6.190.2 - 6"
+OrdinaryDiffEq = "6.102.0 - 6"
+
+["0.1.5 - 0"]
+SciMLBase = "2.122.1 - 3"
+
+["0.1.6 - 0"]
+ADTypes = "1.18.0 - 1"
+DiffEqBase = "6.190.2 - 7"
+OrdinaryDiffEqLowOrderRK = "1 - 2"
+OrdinaryDiffEqNonlinearSolve = "1 - 2"
+OrdinaryDiffEqRosenbrock = "1 - 2"
+OrdinaryDiffEqStabilizedRK = "1 - 2"
+OrdinaryDiffEqTsit5 = "1.2.0 - 2"
+OrdinaryDiffEqVerner = "1 - 2"

@@ -35,27 +35,42 @@ SpecialFunctions = "2.4.0-2"
 StaticArrays = "1.9.10-1"
 
 [1]
-CSV = "0.10.15 - 0.10"
 ConstructionBase = "1"
 DataFrames = "1.6.0 - 1"
 Dates = "1"
+JSON = ["0.21", "1"]
+LinearAlgebra = "1"
+Logging = "1"
+MultivariatePolynomials = "0.5"
+Printf = "1"
+Random = "1"
+Statistics = "1"
+TOML = "1"
+TimerOutputs = "0.5"
+
+["1.0"]
+CSV = "0.10.15 - 0.10"
 DrWatson = "2.19.1 - 2"
 ForwardDiff = ["0.10.39", "1"]
 HomotopyContinuation = "2.15.0 - 2"
 JLD2 = "0.6.2 - 0.6"
-JSON = ["0.21", "1"]
 JSON3 = "1.14.3 - 1"
-LinearAlgebra = "1"
 LinearSolve = "3.25.0 - 3"
-Logging = "1"
-MultivariatePolynomials = "0.5"
 Optim = "1.13.0 - 2"
 PolyChaos = ["0.2.11 - 0.2", "1"]
-Printf = "1"
-Random = "1"
 StaticArrays = "1.9.0 - 1"
-Statistics = "1"
 StatsBase = "0.34.7 - 0.34"
-TOML = "1"
-TimerOutputs = "0.5"
 julia = "1.10.0 - 1"
+
+["1.1 - 1"]
+CSV = "0.10"
+DrWatson = "2"
+ForwardDiff = ["0.10", "1"]
+JLD2 = "0.6"
+JSON3 = "1.14.0 - 1"
+LinearSolve = "3"
+Optim = "1 - 2"
+PolyChaos = ["0.2", "1"]
+StaticArrays = "1"
+StatsBase = "0.34"
+julia = "1.12.0 - 1"

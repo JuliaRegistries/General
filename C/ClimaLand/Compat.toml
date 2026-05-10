@@ -245,11 +245,11 @@ ClimaDiagnostics = "0.2.13 - 0.3"
 ["1.3 - 1.6.0"]
 Adapt = "4.3.0 - 4"
 
-["1.4 - 1"]
-ClimaCore = "0.14.46 - 0.14"
-
 ["1.4 - 1.6.1"]
 SurfaceFluxes = "0.15"
+
+["1.4 - 1.7"]
+ClimaCore = "0.14.46 - 0.14"
 
 ["1.5 - 1"]
 Insolation = "1.1.0 - 1"
@@ -269,7 +269,7 @@ Thermodynamics = ["0.15.6 - 0.15", "1"]
 ["1.6.2 - 1.6.4"]
 SurfaceFluxes = ["0.15", "1"]
 
-["1.6.3 - 1"]
+["1.6.3 - 1.7"]
 ClimaDiagnostics = "0.3"
 
 ["1.6.4"]
@@ -281,8 +281,16 @@ ClimaUtilities = "0.1.28 - 0.1"
 
 ["1.6.5 - 1"]
 ClimaParams = "1.0.8 - 1"
-ClimaTimeSteppers = "0.8.11 - 0.8"
 RootSolvers = ["0.4.5 - 0.4", "1"]
 StaticArrays = "1.9.8 - 1"
 SurfaceFluxes = "1"
 Thermodynamics = ["0.15.9 - 0.15", "1.0", "1.2"]
+
+["1.6.5 - 1.7"]
+ClimaTimeSteppers = "0.8.11 - 0.8"
+
+["1.8 - 1"]
+ClimaCore = "0.14.50 - 0.14"
+ClimaDiagnostics = "0.3.4 - 0.3"
+ClimaTimeSteppers = "0.8.11 - 0.9"
+NVTX = ["0.3", "1"]

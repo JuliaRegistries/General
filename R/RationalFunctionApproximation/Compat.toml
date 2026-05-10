@@ -13,7 +13,6 @@ ComplexRegions = "0.2-0.3"
 
 ["0.2 - 0"]
 ComplexRegions = "0.3"
-GenericLinearAlgebra = "0.3"
 GenericSchur = "0.5"
 Logging = "1"
 Printf = "1"
@@ -23,5 +22,12 @@ julia = "1"
 ["0.2 - 0.2.4"]
 Peaks = "0.5"
 
+["0.2 - 0.3.3"]
+GenericLinearAlgebra = "0.3"
+
 ["0.2.5"]
 Zygote = "0.7.10 - 0.7"
+
+["0.3.4 - 0"]
+GenericLinearAlgebra = "0.3 - 0.4"
+PrecompileTools = "1"
