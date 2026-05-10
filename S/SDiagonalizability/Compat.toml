@@ -1,6 +1,8 @@
 [0]
-Combinatorics = "1"
 ElasticArrays = "1.2.0 - 1"
+
+["0 - 0.1"]
+Combinatorics = "1"
 Graphs = "1.10.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
 MatrixBandwidth = "0.1 - 0.2"
@@ -10,5 +12,14 @@ julia = "1.10.0 - 1"
 ["0 - 0.1.0"]
 DataStructures = "0.18.15 - 0.18"
 
-["0.1.1 - 0"]
+["0.1.1 - 0.1"]
 DataStructures = "0.18.15 - 0.19"
+
+["0.2 - 0"]
+Combinatorics = "1.1.0 - 1"
+DataStructures = "0.19"
+Graphs = "1.13.0 - 1"
+LinearAlgebra = "1.12.0 - 1"
+MatrixBandwidth = "0.3"
+PrecompileTools = "1.3.0 - 1"
+julia = "1.12.0 - 1"
