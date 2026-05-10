@@ -1,9 +1,7 @@
 [0]
 Dates = "1"
-DimensionalData = "0.29"
 LinearAlgebra = "1"
 NaNStatistics = "0.6"
-Unitful = "1"
 julia = "1.10.0 - 1"
 
 ["0 - 0.1.1"]
@@ -12,7 +10,11 @@ StaticArrays = "1.9.13 - 1"
 ["0 - 0.1.5"]
 VectorizedStatistics = "0.5"
 
-["0.1.1 - 0"]
+["0 - 0.1.6"]
+DimensionalData = "0.29"
+Unitful = "1"
+
+["0.1.1 - 0.1.6"]
 DSP = "0.7 - 0.8"
 DataInterpolations = "7 - 8"
 RollingWindowArrays = "1.0.1 - 1"
@@ -23,5 +25,5 @@ StaticArrays = "1.9.0 - 1"
 ["0.1.4 - 0"]
 Statistics = "1"
 
-["0.1.5 - 0"]
+["0.1.5 - 0.1.6"]
 HybridArrays = "0.4.16 - 0.4"
