@@ -13,10 +13,17 @@ BaseType = "0.2"
 Distributions = "0.25"
 Random = "1"
 SpecialFunctions = "2"
-Unitful = "1"
 
 ["0.1.1 - 0.1"]
 ConstructionBase = "1.6.0 - 1"
 
+["0.1.1 - 0.2.1"]
+Unitful = "1"
+
 ["0.2 - 0"]
 ConstructionBase = "1"
+
+["0.2.2 - 0"]
+MuladdMacro = "0.2"
+OhMyThreads = "0.8"
+StructArrays = "0.7"
