@@ -1,16 +1,23 @@
-[0]
-julia = "1"
-
-["0-0.2"]
+["0 - 0.2"]
 DiffEqBase = "0.0.0-6"
 DualNumbers = "0.0.0-0.6"
 HyperDualNumbers = "0.0.0-4"
 
-["0.3-0"]
+["0 - 0.5"]
+julia = "1"
+
+["0.3 - 0.5"]
 ForwardDiff = "0.10"
 
-["0.3-0.5.0"]
+["0.3 - 0.5.0"]
 DiffEqBase = "6"
 
-["0.5.1-0"]
+["0.5.1 - 0.5"]
 SciMLBase = "1"
+
+["0.6 - 0"]
+ADTypes = "1"
+DifferentiationInterface = "0.7"
+ForwardDiff = "1"
+SciMLBase = "2"
+julia = "1.10.0 - 1"
