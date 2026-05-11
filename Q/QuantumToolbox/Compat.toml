@@ -87,17 +87,21 @@ julia = "1.10.0 - 1"
 SciMLOperators = "0.3 - 0.4"
 
 ["0.34 - 0"]
-SciMLBase = "2.105.0 - 2"
 Statistics = "1"
 
 ["0.34 - 0.38"]
 SciMLOperators = "1.4.0 - 1"
+
+["0.34 - 0.45"]
+SciMLBase = "2.105.0 - 2"
 
 ["0.38 - 0"]
 ProgressMeter = "1.11.0 - 1"
 
 ["0.39 - 0"]
 FillArrays = "1"
+
+["0.39 - 0.45"]
 OrdinaryDiffEqLowOrderRK = "1"
 OrdinaryDiffEqVerner = "1"
 
@@ -110,11 +114,18 @@ SciMLOperators = "1.12.0 - 1"
 ["0.40 - 0.41"]
 OrdinaryDiffEqCore = "1 - 2"
 
-["0.42 - 0"]
+["0.42 - 0.45"]
 OrdinaryDiffEqCore = "1 - 3"
 
-["0.45 - 0"]
+["0.45"]
 StochasticDiffEqHighOrder = "1"
+
+["0.46 - 0"]
+OrdinaryDiffEqCore = "4"
+OrdinaryDiffEqLowOrderRK = "2"
+OrdinaryDiffEqVerner = "2"
+SciMLBase = "3"
+StochasticDiffEqHighOrder = "2"
 
 ["0.6"]
 DiffEqCallbacks = "2.24.0-3"
