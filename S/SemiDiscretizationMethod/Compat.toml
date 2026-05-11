@@ -1,16 +1,29 @@
 [0]
 julia = "1"
 
-["0-0.3.3"]
+["0 - 0.3.3"]
 Arpack = "0.0.0-0.4"
 Lazy = "0.0.0-0.15"
 QuadGK = "0-2"
 Reexport = "0.0.0-0.2"
 StaticArrays = "0.0.0-0.12"
 
-["0.3.4-0"]
+["0.3.4 - 0"]
 Arpack = "0.5"
 Lazy = "0.15"
 QuadGK = "2"
 Reexport = "1"
 StaticArrays = "1"
+
+["0.4.1 - 0"]
+BenchmarkTools = "1.6.0 - 1"
+CSV = "0.10.15 - 0.10"
+DataFrames = "1.7.0 - 1"
+ForwardDiff = "1.3.3 - 1"
+Interpolations = "0.16.2 - 0.16"
+KrylovKit = "0.10"
+LaTeXStrings = "1.4.0 - 1"
+PlotlyJS = "0.18.18 - 0.18"
+Plots = "1.40.11 - 1"
+RecipesBase = "1.3.4 - 1"
+Revise = "3.7.2 - 3"
