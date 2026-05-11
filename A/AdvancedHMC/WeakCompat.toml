@@ -1,11 +1,11 @@
-["0.4.5 - 0"]
-OrdinaryDiffEq = "6"
-
 ["0.4.5 - 0.6.0"]
 CUDA = "3-4"
 
 ["0.4.5 - 0.7"]
 MCMCChains = "5-6"
+
+["0.4.5 - 0.8.3"]
+OrdinaryDiffEq = "6"
 
 ["0.6.1 - 0.8.0"]
 CUDA = "3-5"
@@ -18,5 +18,11 @@ ComponentArrays = "0.15"
 MCMCChains = "5-7"
 
 ["0.8.1 - 0"]
-CUDA = "3 - 5"
 MCMCChains = "5 - 7"
+
+["0.8.1 - 0.8.3"]
+CUDA = "3 - 5"
+
+["0.8.4 - 0"]
+CUDA = "3 - 6"
+OrdinaryDiffEqSymplecticRK = "1 - 2"
