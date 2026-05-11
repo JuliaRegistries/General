@@ -5,7 +5,6 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LuxCore = "bb33d45b-7691-41d6-9220-0943567d0623"
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 NeuralPDE = "315f7962-48a3-4962-8226-d0f33b1235f0"
-OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 QuasiMonteCarlo = "8a4e6c94-4038-4cdc-81c3-7e6ffdb2a71b"
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"
@@ -18,6 +17,9 @@ Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
 ["0 - 0.2.5"]
 EvalMetrics = "251d5f9e-10c1-4699-ba24-e0ad168fa3e4"
 
+["0 - 0.4.2"]
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+
 ["0.2.1 - 0"]
 Boltz = "4544d5e4-abc5-4dea-817f-29e4c205d9c8"
 Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
@@ -27,3 +29,7 @@ MLDataDevices = "7e8f7934-dd98-4c1a-8fe8-92b47a384d40"
 
 ["0.2.5 - 0"]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+
+["0.4.3 - 0"]
+OrdinaryDiffEqRosenbrock = "43230ef6-c299-4910-a778-202eb28ce4ce"
+OrdinaryDiffEqTsit5 = "b1df2697-797e-41e3-8120-5422d3b24e4a"
