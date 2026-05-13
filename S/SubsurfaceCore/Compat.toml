@@ -12,6 +12,9 @@ Turing = "0.37"
 julia = "1.10.0 - 1"
 
 ["0.7.2 - 0"]
+julia = "1.11.0 - 1"
+
+["0.7.2 - 0.8"]
 CairoMakie = "0.15.8 - 0.15"
 DifferentiationInterface = "0.7.12 - 0.7"
 Distributions = "0.25.122 - 0.25"
@@ -19,4 +22,13 @@ Enzyme = "0.13.108 - 0.13"
 Pigeons = "0.4.8 - 0.4"
 Statistics = "1.11.1 - 1"
 Turing = "0.35.4 - 0.35"
-julia = "1.11.0 - 1"
+
+["0.9"]
+CairoMakie = "0.15.9 - 0.15"
+
+["0.9 - 0"]
+Distributions = "0.25.125 - 0.25"
+DynamicPPL = "0.31 - 0.39"
+LinearAlgebra = "1.11.0 - 1"
+MCMCChains = "6 - 7"
+Statistics = "1.11.0 - 1"

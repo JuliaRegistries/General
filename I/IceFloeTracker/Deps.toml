@@ -1,23 +1,9 @@
 [0]
-Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
-DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
-Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
-FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
-Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
-Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
-OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
-Peaks = "18e31ff7-3703-566c-8e60-38913d67486b"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
-TiledIteration = "06e1c1a7-607b-532d-9fad-de7d9aa2abac"
 
 ["0 - 0.1.0"]
 Folds = "41a02a25-b8f0-4f67-bc48-60067656b558"
@@ -54,19 +40,41 @@ ImageSegmentation = "80713f31-8817-5129-9cf8-209ff8fb23e1"
 ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 
+["0 - 1"]
+Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
+Peaks = "18e31ff7-3703-566c-8e60-38913d67486b"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+TiledIteration = "06e1c1a7-607b-532d-9fad-de7d9aa2abac"
+
 ["0.2 - 0"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 ["0.6 - 0.8.2"]
 ImageBinarization = "cbc4b850-ae4b-5111-9e64-df94c024a13d"
 
-["0.7 - 0"]
+["0.7 - 1"]
 ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
 Proj = "c94c279d-25a6-4763-9509-64d165bea63e"
 
-["0.8 - 0"]
+["0.8 - 1"]
 TimeZones = "f269a46b-ccf7-5d73-abea-4c690281aa53"
 
-["0.9 - 0"]
+["0.9 - 1"]
 ImageSegmentation = "80713f31-8817-5129-9cf8-209ff8fb23e1"
 TiffImages = "731e570b-9d59-4bfa-96dc-6df516fadf69"
+
+[1]
+CSVFiles = "5d742f6a-9f54-50ce-8119-2520741973ca"
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+ImageBinarization = "cbc4b850-ae4b-5111-9e64-df94c024a13d"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"

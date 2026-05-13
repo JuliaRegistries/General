@@ -438,9 +438,6 @@ DynamicPPL = "0.28.1-0.28"
 ["0.33.3 - 0.34"]
 DynamicPPL = "0.28.2-0.28"
 
-["0.35 - 0"]
-SciMLBase = "2"
-
 ["0.35 - 0.38.3"]
 julia = "1.10.0-1"
 
@@ -448,6 +445,9 @@ julia = "1.10.0-1"
 ADTypes = "1.9.0-1"
 BangBang = "0.4.2-0.4"
 Libtask = "0.8.8-0.8"
+
+["0.35 - 0.44.2"]
+SciMLBase = "2"
 
 ["0.35.0"]
 DynamicPPL = "0.29"
@@ -522,7 +522,6 @@ Distributions = "0.25.77 - 0.25"
 DocStringExtensions = "0.8 - 0.9"
 EllipticalSliceSampling = ["0.5", "1 - 2"]
 ForwardDiff = ["0.10.3 - 0.10", "1"]
-MCMCChains = "5 - 7"
 OptimizationOptimJL = "0.1 - 0.4"
 SpecialFunctions = ["0.7.2 - 0.10", "1 - 2"]
 Statistics = "1.6.0 - 1"
@@ -550,6 +549,9 @@ AdvancedHMC = ["0.3 - 0.4", "0.5.2 - 0.8"]
 ["0.39.2 - 0.42"]
 Bijectors = "0.14 - 0.15"
 NamedArrays = "0.9 - 0.10"
+
+["0.39.2 - 0.44"]
+MCMCChains = "5 - 7"
 
 ["0.39.4 - 0.39.5"]
 AbstractPPL = "0.11 - 0.12"
@@ -603,7 +605,24 @@ Libtask = "0.9.14 - 0.9"
 AbstractPPL = "0.14"
 Bijectors = "0.15.17 - 0.15"
 DifferentiationInterface = "0.7"
+
+["0.43 - 0.43.2"]
 DynamicPPL = "0.40.6 - 0.40"
+
+["0.43.3 - 0.43.4"]
+DynamicPPL = "0.40.15 - 0.40"
+
+["0.43.5 - 0.43"]
+DynamicPPL = "0.40.20 - 0.40"
+
+["0.44 - 0"]
+DynamicPPL = "0.41.3 - 0.41"
+
+["0.44.3 - 0"]
+SciMLBase = "2 - 3"
+
+["0.45 - 0"]
+FlexiChains = "0.6"
 
 ["0.5.1 - 0.6.14"]
 Bijectors = "0-0.2"

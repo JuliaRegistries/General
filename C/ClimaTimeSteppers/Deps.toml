@@ -1,8 +1,5 @@
 [0]
-DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
-KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0 - 0.2.4"]
@@ -11,11 +8,18 @@ MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
 ["0 - 0.7.15"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
+["0 - 0.8.8"]
+DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+
 ["0.2 - 0.7.33"]
 DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
 
 ["0.2.5 - 0"]
 ClimaComms = "3a4d1b5c-c61d-41fd-a00a-5873ba7a1b0d"
+
+["0.2.5 - 0.8.8"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 
 ["0.2.6 - 0"]

@@ -71,6 +71,38 @@ SciMLBase = "1.42.3-1"
 ["7.1 - 7.51"]
 DiffEqBase = "6.93.0-6"
 
+["7.100 - 7"]
+FastBroadcast = ["0.3.5 - 0.3", "1"]
+
+["7.101 - 7.103"]
+FunctionWrappersWrappers = ["0.1", "1"]
+
+["7.102 - 7"]
+RecursiveArrayTools = "3.27.2 - 4"
+
+["7.104"]
+OrdinaryDiffEqCore = "3.26.0 - 3"
+
+["7.104 - 7"]
+FunctionWrappersWrappers = ["0.1", "1.4.0 - 1"]
+
+["7.104 - 7.106"]
+SciMLBase = "2.147.0 - 3"
+
+["7.105 - 7.106"]
+OrdinaryDiffEqCore = "3.26.0 - 4"
+
+["7.105 - 7.108"]
+DiffEqBase = "6.175.0 - 7"
+
+["7.107 - 7"]
+IntervalSets = "0.7"
+OrdinaryDiffEqCore = "3.26.0 - 5"
+SciMLBase = "3"
+
+["7.109 - 7"]
+DiffEqBase = "7.4.0 - 7"
+
 ["7.11 - 7.39"]
 SciMLBase = "1.66.0-1"
 
@@ -252,7 +284,7 @@ RecursiveArrayTools = "3.18.1-3"
 ["7.59 - 7.75"]
 DiffEqBase = "6.151.1-6"
 
-["7.6 - 7"]
+["7.6 - 7.100"]
 FunctionWrappersWrappers = "0.1"
 
 ["7.6.2 - 7.10"]
@@ -333,9 +365,7 @@ ADTypes = "1.9.0 - 1"
 Accessors = "0.1.36 - 0.1"
 Adapt = "1 - 4"
 ChainRulesCore = ["0.10.7 - 0.10", "1"]
-DiffEqBase = "6.175.0 - 6"
 DiffEqNoiseProcess = "5.19.0 - 5"
-FastBroadcast = "0.3.5 - 0.3"
 Functors = "0.4 - 0.5"
 GPUArraysCore = "0.1 - 0.2"
 LinearAlgebra = "1.10.0 - 1"
@@ -344,7 +374,6 @@ Markdown = "1.10.0 - 1"
 QuadGK = "2.9.1 - 2"
 Random = "1.10.0 - 1"
 RandomNumbers = "1.5.3 - 1"
-RecursiveArrayTools = "3.27.2 - 3"
 ReverseDiff = "1.15.1 - 1"
 SciMLStructures = "1.3.0 - 1"
 StaticArrays = "1.8.0 - 1"
@@ -355,12 +384,21 @@ Tracker = "0.2.30 - 0.2"
 Zygote = "0.6.67 - 0.7"
 julia = "1.10.0 - 1"
 
+["7.87 - 7.101"]
+RecursiveArrayTools = "3.27.2 - 3"
+
+["7.87 - 7.104"]
+DiffEqBase = "6.175.0 - 6"
+
 ["7.87 - 7.88"]
 Enzyme = "0.13.50 - 0.13"
 Mooncake = "0.4.52 - 0.4"
 
 ["7.87 - 7.91"]
 PreallocationTools = "0.4.4 - 0.4"
+
+["7.87 - 7.99"]
+FastBroadcast = "0.3.5 - 0.3"
 
 ["7.88 - 7.96"]
 SciMLBase = "2.103.1 - 2"
@@ -385,10 +423,14 @@ PreallocationTools = ["0.4.4 - 0.4", "1"]
 OrdinaryDiffEqCore = "1 - 3"
 
 ["7.95 - 7"]
-OrdinaryDiffEqCore = "3.4.0 - 3"
 PreallocationTools = "1.1.1 - 1"
+
+["7.95 - 7.103"]
+OrdinaryDiffEqCore = "3.4.0 - 3"
 
 ["7.97 - 7"]
 ConstructionBase = "1.5.0 - 1"
-SciMLBase = "2.147.0 - 2"
 SparseArrays = "1.10.0 - 1"
+
+["7.97 - 7.103"]
+SciMLBase = "2.147.0 - 2"

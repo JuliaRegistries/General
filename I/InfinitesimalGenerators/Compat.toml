@@ -69,10 +69,12 @@ KrylovKit = "0.4-0.8"
 julia = "1.6.0-1"
 
 ["2.4.1 - 2"]
-Arpack = "0.3 - 0.5"
 BlockBandedMatrices = "0.12 - 0.13"
 Distributions = "0.22 - 0.25"
 FillArrays = ["0.8 - 0.13", "1"]
-KrylovKit = "0.4 - 0.10"
 Roots = ["0.8", "1 - 2"]
 julia = "1.6.0 - 1"
+
+["2.4.1 - 2.4"]
+Arpack = "0.3 - 0.5"
+KrylovKit = "0.4 - 0.10"

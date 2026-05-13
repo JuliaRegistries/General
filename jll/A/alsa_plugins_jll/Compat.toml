@@ -3,9 +3,15 @@ FFMPEG_jll = "4"
 JLLWrappers = "1.2.0-1"
 julia = "1"
 
+["1.2.12"]
+FFMPEG_jll = "7.1.0-7"
+
 ["1.2.12-1"]
 Artifacts = ["0.0.0", "1"]
-FFMPEG_jll = "7.1.0-7"
 JLLWrappers = "1.7.0-1"
 Libdl = ["0.0.0", "1"]
 julia = "1.6.0-1"
+
+["1.2.13-1"]
+FFMPEG_jll = "8"
+alsa_jll = "1.2.15-1"

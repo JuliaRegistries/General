@@ -37,6 +37,11 @@ SymRCM = "0.2.1-0.2"
 ["0.1.6 - 0.6.8"]
 SplitApplyCombine = "1.2.2-1"
 
+["0.11.1 - 0"]
+LinearAlgebra = "1.10.0 - 1"
+SparseArrays = "1.10.0 - 1"
+julia = "1.10.0 - 1"
+
 ["0.4 - 0"]
 PackageExtensionCompat = "1"
 
@@ -47,14 +52,18 @@ Random = "1.7.0-1"
 Combinatorics = "1.0.2-1"
 
 ["0.6.8 - 0"]
-SimpleGraphAlgorithms = "0.6"
 SimpleGraphConverter = "0.1"
+
+["0.6.8 - 0.11.0"]
+SimpleGraphAlgorithms = "0.6"
 
 ["0.6.9 - 0"]
 AbstractTrees = "0.3 - 0.4"
 Combinatorics = "1.0.2 - 1"
 Graphs = "1.8.0 - 1"
+SplitApplyCombine = "1.2.2 - 1"
+
+["0.6.9 - 0.11.0"]
 LinearAlgebra = "1.7.0 - 1"
 SparseArrays = "1.7.0 - 1"
-SplitApplyCombine = "1.2.2 - 1"
 julia = "1.7.0 - 1"

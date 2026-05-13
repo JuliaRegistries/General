@@ -74,7 +74,7 @@ Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 ["5.42.1 - 6"]
 FastClosures = "9aa1b823-49e4-5ca5-8b0f-3971ec8bab6a"
 
-["5.52.3 - 6"]
+["5.52.3 - 7"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 
 ["5.56 - 6"]
@@ -89,7 +89,7 @@ PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
 [6]
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 
-["6.102 - 6"]
+["6.102 - 7"]
 CommonSolve = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
 
 ["6.102.0"]
@@ -144,8 +144,10 @@ LineSearches = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["6.52 - 6"]
-ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 SciMLOperators = "c0aeaf25-5076-4817-a8d5-81caf7dfa961"
+
+["6.52 - 7"]
+ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
 
 ["6.53 - 6"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
@@ -153,7 +155,7 @@ InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 ["6.61 - 6"]
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 
-["6.7 - 6"]
+["6.7 - 7"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
 ["6.76 - 6"]
@@ -167,9 +169,6 @@ Static = "aedffcd0-7271-4cad-89d0-dc628f76c6d3"
 
 ["6.88 - 6"]
 OrdinaryDiffEqAdamsBashforthMoulton = "89bda076-bce5-4f1c-845f-551c83cdda9a"
-OrdinaryDiffEqBDF = "6ad6398a-0878-4a85-9266-38940aa047c8"
-OrdinaryDiffEqCore = "bbf590c4-e513-4bbe-9b18-05decba2e5d8"
-OrdinaryDiffEqDefault = "50262376-6c5a-4cf5-baba-aaf4f84d72d7"
 OrdinaryDiffEqDifferentiation = "4302a76b-040a-498a-8c04-15b101fed76b"
 OrdinaryDiffEqExplicitRK = "9286f039-9fbf-40e8-bf65-aa933bdc4db0"
 OrdinaryDiffEqExponentialRK = "e0540318-69ee-4070-8777-9e2de6de23de"
@@ -188,11 +187,16 @@ OrdinaryDiffEqPDIRK = "5dd0a6cf-3d4b-4314-aa06-06d4e299bc89"
 OrdinaryDiffEqPRK = "5b33eab2-c0f1-4480-b2c3-94bc1e80bda1"
 OrdinaryDiffEqQPRK = "04162be5-8125-4266-98ed-640baecc6514"
 OrdinaryDiffEqRKN = "af6ede74-add8-4cfd-b1df-9a4dbb109d7a"
-OrdinaryDiffEqRosenbrock = "43230ef6-c299-4910-a778-202eb28ce4ce"
 OrdinaryDiffEqSDIRK = "2d112036-d095-4a1e-ab9a-08536f3ecdbf"
 OrdinaryDiffEqSSPRK = "669c94d9-1f4b-4b64-b377-1aa079aa2388"
 OrdinaryDiffEqStabilizedIRK = "e3e12d00-db14-5390-b879-ac3dd2ef6296"
 OrdinaryDiffEqStabilizedRK = "358294b1-0aab-51c3-aafe-ad5ab194a2ad"
 OrdinaryDiffEqSymplecticRK = "fa646aed-7ef9-47eb-84c4-9443fc8cbfa8"
+
+["6.88 - 7"]
+OrdinaryDiffEqBDF = "6ad6398a-0878-4a85-9266-38940aa047c8"
+OrdinaryDiffEqCore = "bbf590c4-e513-4bbe-9b18-05decba2e5d8"
+OrdinaryDiffEqDefault = "50262376-6c5a-4cf5-baba-aaf4f84d72d7"
+OrdinaryDiffEqRosenbrock = "43230ef6-c299-4910-a778-202eb28ce4ce"
 OrdinaryDiffEqTsit5 = "b1df2697-797e-41e3-8120-5422d3b24e4a"
 OrdinaryDiffEqVerner = "79d7bb75-1356-48c1-b8c0-6832512096c2"

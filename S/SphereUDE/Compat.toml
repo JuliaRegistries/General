@@ -1,8 +1,6 @@
 [0]
 ComponentArrays = "0.15"
 Distributions = "0.25"
-Statistics = "1"
-Zygote = "0.6"
 
 ["0 - 0.1.1"]
 Lux = "0.5"
@@ -16,22 +14,28 @@ julia = "1.7.0-1"
 PyCall = "1.9.0-1"
 PyPlot = "2.11.0-2"
 
+["0 - 0.2"]
+Statistics = "1"
+Zygote = "0.6"
+
 ["0 - 0.2.0"]
 Infiltrator = "1.2.0-1"
 Revise = "3.1.0-3"
 SciMLSensitivity = "7.20.0-7"
 
-["0.1.1 - 0"]
+["0.1.1 - 0.2"]
 BenchmarkTools = "1"
 
 ["0.1.3 - 0"]
 ChainRules = "1"
 DiffEqFlux = "4"
 FastGaussQuadrature = "1"
-ForwardDiff = "0.10"
 LineSearches = "7"
 Lux = "1"
 Plots = "1"
+
+["0.1.3 - 0.2"]
+ForwardDiff = "0.10"
 PrettyTables = "2"
 
 ["0.1.3 - 0.2.0"]
@@ -42,26 +46,45 @@ OrdinaryDiffEqCore = "1.6.0-1"
 OrdinaryDiffEqTsit5 = "1.1.0-1"
 julia = "1.10.0-1"
 
-["0.1.4 - 0"]
+["0.1.4 - 0.2"]
 CondaPkg = "0.2"
 PythonCall = "0.9"
 
 ["0.2.1 - 0"]
 ColorSchemes = "3"
 DiffEqBase = "6"
-DifferentialEquations = "7"
 FiniteDifferences = "0.12"
-Infiltrator = "1.2.0 - 1"
 MLUtils = "0.4"
 ODE = "2"
+SciMLBase = "2"
+SimpleDiffEq = "1"
+StaticArrays = "1"
+julia = "1.10.0 - 1"
+
+["0.2.1 - 0.2"]
+DifferentialEquations = "7"
+Infiltrator = "1.2.0 - 1"
 Optimization = "3.12.0 - 4"
 OptimizationOptimJL = ["0.1.5 - 0.1", "0.4"]
 OptimizationOptimisers = ["0.1.2 - 0.1", "0.3"]
 OrdinaryDiffEqCore = "1.6.0 - 1"
 OrdinaryDiffEqTsit5 = "1.1.0 - 1"
 Revise = "3.1.0 - 3"
-SciMLBase = "2"
 SciMLSensitivity = "7.20.0 - 7"
-SimpleDiffEq = "1"
-StaticArrays = "1"
-julia = "1.10.0 - 1"
+
+["0.3 - 0"]
+DifferentiationInterface = "0.7"
+ForwardDiff = "1"
+Mooncake = "0.4"
+Optimisers = "0.4"
+Optimization = "5"
+OptimizationOptimJL = "0.4"
+OptimizationOptimisers = "0.3"
+OrdinaryDiffEqCore = "3"
+OrdinaryDiffEqHighOrderRK = "1"
+OrdinaryDiffEqRosenbrock = "1"
+OrdinaryDiffEqTsit5 = "1"
+OrdinaryDiffEqVerner = "1"
+PrettyTables = "3"
+SciMLSensitivity = "7"
+Zygote = "0.7"

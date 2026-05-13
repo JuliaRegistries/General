@@ -19,10 +19,16 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 SCALAPACK_jll = "5d3fc3e8-a677-5550-826f-6cfd58f208da"
 
 ["7.0.1-7"]
-LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
 MPItrampoline_jll = "f1f71cc9-e9ae-5b93-9b94-4fe0e1ad3748"
 MicrosoftMPI_jll = "9237b28f-5490-5468-be7b-bb81f5f5e6cf"
 OpenMPI_jll = "fe0851c0-eecd-5654-98d4-656369965a5c"
 SCALAPACK32_jll = "aabda75e-bfe4-5a37-92e3-ffe54af3c273"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+["7.0.1-7.4.1"]
+LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
+
+["7.4.2-7"]
+MPIABI_jll = "b5ada748-db0f-5fc0-8972-9331c762740c"
+mpif_jll = "9aeb927a-4695-514f-a259-621a69f20ec0"

@@ -1,14 +1,13 @@
-[0]
-DynamicalSystemsBase = "3.4.0-3"
+[0-1]
+NaNMath = "1"
 Reexport = "1.2.0-1"
+Roots = "2"
 julia = "1.9.0-1"
 
-["0 - 1"]
-NaNMath = "1"
+["0-1.1"]
+DynamicalSystemsBase = "3.4.0-3"
 ProcessBasedModelling = "1"
-Roots = "2"
 
-[1]
-DynamicalSystemsBase = "3.4.0 - 3"
-Reexport = "1.2.0 - 1"
-julia = "1.9.0 - 1"
+["1.2-1"]
+DynamicalSystemsBase = "3.5.0-3"
+ProcessBasedModelling = "1.8.0-1"

@@ -6,16 +6,23 @@ ChainRulesTestUtils = "1"
 Clustering = "0.15"
 Combinatorics = "1"
 DiffTests = "0.1"
-ForwardDiff = "0.10"
 IterTools = "1"
 MappedArrays = "0.4"
-PermutationSymmetricTensors = "0.2"
 SpecialFunctions = "2"
 StaticArrays = "1"
-TaylorSeries = "0.18"
 
 ["1 - 1.0.1"]
 julia = "1.10.0-1"
 
+["1 - 1.0.3"]
+ForwardDiff = "0.10"
+PermutationSymmetricTensors = "0.2"
+TaylorSeries = "0.18"
+
 ["1.0.2 - 1"]
 julia = "1.10.0 - 1"
+
+["1.0.4 - 1"]
+ForwardDiff = "1"
+PermutationSymmetricTensors = "0.2.1 - 0.2"
+TaylorSeries = "0.21.5 - 0.21"

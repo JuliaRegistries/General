@@ -1,5 +1,14 @@
-[0-1]
+["0 - 1"]
 AssociatedLegendrePolynomials = "1"
+
+["0 - 1.1.1"]
+DSP = "0.7"
+Dierckx = "0.5.3-0.5"
+
+["0 - 1.1.2"]
+DataInterpolations = "6.1.0-6"
+
+["0 - 1.3"]
 Dates = "1.10.0-1"
 FFTW = "1.8.0-1"
 ForwardDiff = "0.10.36-0.10"
@@ -12,24 +21,34 @@ RecipesBase = "1.3.4-1"
 StaticArrays = "1.9.3-1"
 julia = "1.10.0-1"
 
-["0-1.1.1"]
-DSP = "0.7"
-Dierckx = "0.5.3-0.5"
-
-["0-1.1.2"]
-DataInterpolations = "6.1.0-6"
-
 [1]
 Unitful = "1"
 
-["1.1-1"]
+["1.1 - 1.3"]
 PhysicalConstants = "0.2.3-0.2"
 
-["1.1.2-1"]
+["1.1.2 - 1.3"]
 DSP = "0.7-0.8"
 
-["1.1.3-1"]
+["1.1.3 - 1.3"]
 DataInterpolations = "6.1.0-7"
 
-["1.2-1"]
+["1.2 - 1.3"]
 Logging = "1.10.0-1"
+
+["1.4 - 1"]
+DSP = "0.7 - 0.8"
+DataInterpolations = "6.1.0 - 8"
+Dates = "1.10.0 - 1"
+FFTW = "1.8.0 - 1"
+ForwardDiff = ["0.10.36 - 0.10", "1"]
+LinearAlgebra = "1.10.0 - 1"
+Logging = "1.10.0 - 1"
+OffsetArrays = "1.14.0 - 1"
+PhysicalConstants = "0.2.3 - 0.2"
+PrecompileTools = "1.2.1 - 1"
+Printf = "1.10.0 - 1"
+QuadGK = "2.10.0 - 2"
+RecipesBase = "1.3.4 - 1"
+StaticArrays = "1.9.3 - 1"
+julia = "1.10.0 - 1"

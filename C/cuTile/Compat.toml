@@ -2,6 +2,31 @@
 BFloat16s = "0.6"
 CUDA_Compiler_jll = "0.4"
 CUDA_Tile_jll = "13.1.0 - 13"
+julia = "1.11.0 - 1"
+
+["0 - 0.1.1"]
 CompilerCaching = "0.1.2 - 0.1"
 IRStructurizer = "0.1"
-julia = "1.11.0 - 1"
+
+["0.1.2 - 0.1"]
+IRStructurizer = "0.2"
+
+["0.1.2 - 0.2"]
+CompilerCaching = "0.2"
+
+["0.2"]
+IRStructurizer = "0.5.3 - 0.5"
+
+["0.2 - 0"]
+EnumX = "1"
+GPUArrays = "11"
+
+["0.3 - 0"]
+Adapt = "4.4.0 - 4"
+CUDACore = "6.1.0 - 6"
+CompilerCaching = "0.2.4 - 0.2"
+IRStructurizer = "0.6"
+LMDB_jll = "0.9"
+PrecompileTools = "1"
+REPL = "1"
+Scratch = "1.2.0 - 1"

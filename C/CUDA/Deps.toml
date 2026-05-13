@@ -32,11 +32,13 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0 - 5.9.5"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+
+["0 - 6"]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["2 - 5"]
 BFloat16s = "ab4f0b2a-ad5b-11e8-123f-65d77653426b"
@@ -97,3 +99,12 @@ GPUToolbox = "096a3bc2-3ced-46d0-87f4-dd12716f4bfc"
 
 ["5.8.3 - 5"]
 CUDA_Compiler_jll = "d1e2174e-dfdc-576e-b43e-73b79eb1aca8"
+
+[6]
+CUDACore = "bd0ed864-bdfe-4181-a5ed-ce625a5fdea2"
+CUDATools = "9ec180c6-1c07-47c7-9e6e-ebefa4d1f6d0"
+cuBLAS = "182d3088-87b7-4494-8cad-fc6afaa545bc"
+cuFFT = "533571aa-0936-420e-b4be-9c66f5f626ca"
+cuRAND = "20fd9a0b-12d5-4c2f-a8af-7c34e9e60431"
+cuSOLVER = "887afef0-6a32-4de5-add4-7827692ba8fc"
+cuSPARSE = "b26da814-b3bc-49ef-b0ee-c816305aa060"

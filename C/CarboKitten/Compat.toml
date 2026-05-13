@@ -14,13 +14,15 @@ julia = "1.10.0-1"
 
 ["0.2 - 0"]
 CSV = "0.10"
-CategoricalArrays = "0.10"
 DataFrames = "1"
 ModuleMixins = "0.2"
 ProgressLogging = "0.1"
 
 ["0.2 - 0.4"]
 TerminalLoggers = "0.1.7-0.1"
+
+["0.2 - 0.5"]
+CategoricalArrays = "0.10"
 
 ["0.4"]
 StaticArrays = "1.9.12-1"
@@ -31,3 +33,10 @@ LinearAlgebra = "1.10.0 - 1"
 StaticArrays = "1.9.12 - 1"
 TerminalLoggers = "0.1.7 - 0.1"
 julia = "1.10.0 - 1"
+
+["0.6 - 0"]
+CategoricalArrays = "1.0.2 - 1"
+GLMakie = "0.13.8 - 0.13"
+Interpolations = "0.16.2 - 0.16"
+LoggingExtras = "1.2.0 - 1"
+QuadGK = "2.11.2 - 2"

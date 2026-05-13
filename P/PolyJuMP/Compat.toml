@@ -80,10 +80,12 @@ JuMP = "0.23"
 ["0.6.1 - 0.6"]
 JuMP = ["0.23", "1"]
 
-["0.7 - 0"]
-JuMP = "1"
+["0.7"]
 MultivariateBases = "0.2"
 MultivariateMoments = "0.4"
+
+["0.7 - 0"]
+JuMP = "1"
 MultivariatePolynomials = "0.5"
 SemialgebraicSets = "0.3"
 
@@ -100,7 +102,16 @@ IntervalArithmetic = "0.22"
 DynamicPolynomials = "0.5-0.6"
 
 ["0.7.6 - 0"]
-DataStructures = "0.18 - 0.19"
 DynamicPolynomials = "0.5 - 0.6"
-IntervalArithmetic = ["0.22", "1"]
 julia = "1.6.0 - 1"
+
+["0.7.6 - 0.7"]
+DataStructures = "0.18 - 0.19"
+IntervalArithmetic = ["0.22", "1"]
+
+["0.8 - 0"]
+DataStructures = "0.19"
+IntervalArithmetic = ["0.20 - 0.22", "1"]
+MultivariateBases = "0.3"
+MultivariateMoments = "0.5"
+StarAlgebras = "0.3"

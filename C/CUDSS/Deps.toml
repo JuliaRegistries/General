@@ -1,12 +1,18 @@
 [0]
 CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
-CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 CUDSS_jll = "4889d778-9329-5762-9fec-0578a5d30366"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+["0 - 0.6"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
 ["0.5.1 - 0"]
 GPUToolbox = "096a3bc2-3ced-46d0-87f4-dd12716f4bfc"
 
 ["0.6.6 - 0"]
 CUDA_Runtime_Discovery = "1af6417a-86b4-443c-805f-a4643ffb695f"
+
+["0.7 - 0"]
+CUDACore = "bd0ed864-bdfe-4181-a5ed-ce625a5fdea2"
+cuSPARSE = "b26da814-b3bc-49ef-b0ee-c816305aa060"

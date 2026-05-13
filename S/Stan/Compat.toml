@@ -38,12 +38,12 @@ OrderedCollections = "1.4.1-1"
 ["10.3.1-10.4.4"]
 InferenceObjects = "0.3.4-0.3"
 
-["10.3.2-10"]
-MCMCChains = "5.6.0-6"
-
 ["10.3.2-10.4"]
 PosteriorDB = "0.4"
 StanSample = "7"
+
+["10.3.2-10.8.1"]
+MCMCChains = "5.6.0-6"
 
 ["10.4.1-10"]
 StatsBase = "0.33-0.34"
@@ -56,18 +56,29 @@ DimensionalData = "0.24-0.25"
 InferenceObjects = "0.3"
 
 ["10.5-10"]
-PosteriorDB = "0.4-0.5"
 StanSample = "7-8"
 StanVariational = "4"
 
 ["10.5-10.7.0"]
 DocStringExtensions = "0.8-0.9"
 
+["10.5-10.8.1"]
+PosteriorDB = "0.4-0.5"
+
 ["10.7.1-10"]
-DimensionalData = ["0.24-0.25", "0.27"]
 DocStringExtensions = "0.9"
 InferenceObjects = "0.3-0.4"
 NamedArrays = "0.10"
+
+["10.7.1-10.8.1"]
+DimensionalData = ["0.24-0.25", "0.27"]
+
+["10.8.4-10"]
+DataStructures = "0.18.13-0.19"
+DimensionalData = "0.24-0.30"
+JSON = ["0.21", "1"]
+MCMCChains = "5.6.0-7"
+PosteriorDB = "0.4-0.6"
 
 [3]
 BinDeps = "0.4.3-0.8"
@@ -321,7 +332,6 @@ StanSample = "6"
 ["9.10-10"]
 CompatHelperLocal = "0.1"
 DataFrames = "1.4.0-1"
-DataStructures = "0.18.13-0.18"
 JSON3 = "1.12.0-1"
 StanBase = "4"
 Tables = "1.10.0-1"
@@ -334,6 +344,9 @@ PosteriorDB = "0.3.1-0.3"
 
 ["9.10-10.4"]
 DocStringExtensions = "0.9"
+
+["9.10-10.8.1"]
+DataStructures = "0.18.13-0.18"
 
 ["9.10-9"]
 MCMCChains = "5.5.0-5"
@@ -363,7 +376,7 @@ InferenceObjects = "0.3"
 DimensionalData = "0.23-0.24"
 StanSample = "6.13.9-6"
 
-["9.2-10"]
+["9.2-10.8.1"]
 JSON = "0.21"
 
 ["9.2.1-9.5"]

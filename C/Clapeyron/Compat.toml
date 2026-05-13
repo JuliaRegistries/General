@@ -144,7 +144,6 @@ ForwardDiff = ["0.10.36 - 0.10", "1"]
 LogExpFunctions = "0.3.24 - 0.3"
 OrderedCollections = "1.5.0 - 1"
 PackedVectorsOfVectors = "0.1.2 - 0.1"
-Roots = "2.1.0 - 2"
 Scratch = "1.1.0 - 1"
 StaticArrays = "1.5.9 - 1"
 Tables = "1.8.0 - 1"
@@ -154,13 +153,20 @@ julia = "1.10.0 - 1"
 ["0.6.14 - 0.6.19"]
 BlackBoxOptim = "0.6.2 - 0.6"
 
+["0.6.14 - 0.6.23"]
+Roots = "2.1.0 - 2"
+
 ["0.6.20 - 0"]
 DifferentiationInterface = "0.6 - 0.7"
 Random = "1"
 SpecialFunctions = "2"
 
-["0.6.21 - 0"]
+["0.6.21 - 0.6.23"]
 JSON = "1"
 
 ["0.6.22 - 0"]
 IFTDuals = "0.2"
+
+["0.6.24 - 0"]
+JSON = ["0.21", "1"]
+Roots = "2.1.0 - 3"
