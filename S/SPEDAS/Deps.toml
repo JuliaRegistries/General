@@ -1,13 +1,7 @@
 [0]
-DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
-DimensionfulAngles = "2d4b8d7a-02d9-40f9-9abe-9c695b77de0d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-SignalAnalysis = "df1fea92-c066-49dd-8b36-eace3378ea47"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
-Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 ["0 - 0.1"]
 InverseFunctions = "3587e190-3f89-42d0-90ee-14403ec27112"
@@ -28,6 +22,14 @@ StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 
 ["0 - 0.1.4"]
 TimeseriesTools = "380cddd1-6ef2-46ca-b087-e7151fb095ff"
+
+["0 - 0.2"]
+DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
+DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
+DimensionfulAngles = "2d4b8d7a-02d9-40f9-9abe-9c695b77de0d"
+SignalAnalysis = "df1fea92-c066-49dd-8b36-eace3378ea47"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 ["0 - 0.2.1"]
 Bumper = "8ce10254-0962-460f-a3d8-1f77fea1446e"
@@ -61,11 +63,11 @@ SpaceDataModel = "0b37b92c-f0c5-4a52-bd5c-390dec20857c"
 ["0.1.7"]
 AstroLib = "c7932e45-9af1-51e7-9da9-f004cd3a462b"
 
-["0.1.7 - 0"]
-IRBEM = "d0b46c7b-8a8f-4d20-a1b4-6e9a4a1e4e5f"
-
 ["0.1.7 - 0.1"]
 MakieCore = "20f20a25-4f0e-4fdf-b5d1-57303727442b"
+
+["0.1.7 - 0.2"]
+IRBEM = "d0b46c7b-8a8f-4d20-a1b4-6e9a4a1e4e5f"
 
 ["0.1.7 - 0.2.1"]
 Dictionaries = "85a47980-9c8c-11e8-2b9f-f7ca1fa99fb4"
