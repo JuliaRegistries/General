@@ -32,15 +32,21 @@ julia = "1.8.0 - 1"
 ["0.1.9"]
 SimpleSolvers = "0.6 - 0.7"
 
-["0.2 - 0"]
+["0.2"]
 GeometricBase = "0.14"
-GeometricEquations = "0.21"
 Parameters = "0.12"
-SafeTestsets = "0.1"
 SimpleSolvers = "0.7.5 - 0.8"
+
+["0.2 - 0"]
+GeometricEquations = "0.21"
+SafeTestsets = "0.1"
 
 ["0.2.0"]
 GeometricSolutions = "0.6.1 - 0.6"
 
 ["0.2.1 - 0"]
 GeometricSolutions = "0.6.3 - 0.6"
+
+["0.3 - 0"]
+GeometricBase = "0.14.5 - 0.14"
+SimpleSolvers = "0.8.2 - 0.8"
