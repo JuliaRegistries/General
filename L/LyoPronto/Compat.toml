@@ -8,8 +8,6 @@ DataInterpolations = "7.2.0 - 8"
 DiffEqCallbacks = "3 - 4"
 DocStringExtensions = "0.9"
 LinearAlgebra = "1"
-OrdinaryDiffEqNonlinearSolve = "1"
-OrdinaryDiffEqRosenbrock = "1"
 PrecompileTools = "1"
 RecipesBase = "1"
 Reexport = "1"
@@ -25,9 +23,18 @@ CSV = "0.10"
 ["0 - 0.3.1"]
 TransformVariables = "0.8.17 - 0.8"
 
+["0 - 0.4.0"]
+OrdinaryDiffEqNonlinearSolve = "1"
+OrdinaryDiffEqRosenbrock = "1"
+
 ["0.3.2 - 0.3"]
 TransformVariables = "0.8.19 - 0.8"
 
 ["0.4 - 0"]
 TransformVariables = "0.8.21 - 0.8"
 TypedTables = "1.4.0 - 1"
+
+["0.4.1 - 0"]
+NonlinearSolve = "4.9.0 - 4"
+OrdinaryDiffEqNonlinearSolve = "1 - 2"
+OrdinaryDiffEqRosenbrock = "1 - 2"
