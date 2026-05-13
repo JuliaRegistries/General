@@ -1,7 +1,7 @@
 [0]
 BinDeps = "0.8"
 
-[0-1]
+["0 - 1.0.2"]
 julia = "1"
 
 ["1.0.0"]
@@ -12,6 +12,12 @@ StaticArrays = "0.0.0-0.11"
 BinDeps = "0.8.10-0.8"
 StaticArrays = "0.11"
 
-["1.0.2-1"]
+["1.0.2"]
 BinDeps = "1.0.2-1"
 StaticArrays = "1.0.1-1"
+
+["1.0.3 - 1"]
+Libdl = "1"
+SOFA_jll = "2019.7.22 - 2019"
+StaticArrays = "1.0.1 - 1"
+julia = "1.10.0 - 1"
