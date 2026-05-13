@@ -53,7 +53,6 @@ LinearAlgebra = "1.10.0-1"
 ACSets = ["0.2 - 0.2.21", "0.2.23 - 0.2"]
 Catlab = "0.17.3 - 0.17"
 Colors = "0.12.11 - 0.13"
-DataStructures = "0.18.20 - 0.18"
 LinearAlgebra = "1.10.0 - 1"
 MLStyle = "0.4.17 - 0.4"
 Reexport = "1.2.2 - 1"
@@ -61,3 +60,10 @@ StructEquality = "2.1.0 - 2"
 SymbolicUtils = "3.1.2 - 4"
 Unicode = "1.6.0 - 1"
 julia = "1.6.0 - 1"
+
+["0.2.1 - 0.2.5"]
+DataStructures = "0.18.20 - 0.18"
+
+["0.2.6 - 0"]
+DataStructures = "0.18.20 - 0.19"
+Latexify = "0.16.10 - 0.16"

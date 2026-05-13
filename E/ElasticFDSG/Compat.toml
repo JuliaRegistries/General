@@ -17,6 +17,9 @@ Metal = "1.8.0 - 1"
 oneAPI = "2.2.0 - 2"
 
 ["1.0.2 - 1"]
+julia = "1.11.0 - 1"
+
+["1.0.2 - 1.0.3"]
 Einsum = "0.4.1 - 0.4"
 GPUArrays = "11.2.3 - 11"
 HDF5 = "0.17.2 - 0.17"
@@ -30,4 +33,12 @@ StaticArrays = "1.9.15 - 1"
 Test = "1.11.0 - 1"
 UnPack = "1.0.2 - 1"
 YAML = "0.4.14 - 0.4"
-julia = "1.11.0 - 1"
+
+["1.0.4 - 1"]
+GPUArrays = "11"
+HDF5 = "0.17"
+JLD2 = "0.6"
+KernelAbstractions = "0.9"
+NPZ = "0.4"
+ProgressMeter = "1"
+YAML = "0.4"

@@ -50,8 +50,10 @@ GPUToolbox = "0.3"
 ["0.5.3 - 0.5"]
 CUDA = "5.4.0 - 5.8.2"
 
-["0.6 - 0"]
+["0.6"]
 CUDA = "5.4.0 - 5"
+
+["0.6 - 0"]
 GPUToolbox = ["0.3", "1"]
 
 ["0.6.0"]
@@ -60,5 +62,10 @@ CUDSS_jll = "0.7"
 ["0.6.1 - 0"]
 CUDSS_jll = "0.7.1 - 0.7"
 
-["0.6.6 - 0"]
+["0.6.6 - 0.6"]
 CUDA_Runtime_Discovery = "1"
+
+["0.7 - 0"]
+CUDACore = "6"
+CUDA_Runtime_Discovery = "1 - 2"
+cuSPARSE = "6"
