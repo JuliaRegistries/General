@@ -12,6 +12,12 @@ IntervalSets = "0.7"
 KernelAbstractions = "0.9"
 Oceananigans = "0.100 - 0.106"
 RingGrids = "0.1"
-SpeedyWeatherInternals = "0.1"
 Unitful = "1"
 julia = "1.10.0 - 1"
+
+["0 - 0.1.0"]
+SpeedyWeatherInternals = "0.1"
+
+["0.1.1 - 0"]
+SpeedyWeatherInternals = "0.1 - 0.2"
+Thermodynamics = "1"
