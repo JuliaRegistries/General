@@ -132,9 +132,14 @@ Reexport = "1.2.0 - 1"
 
 [2]
 DiffEqBase = "7"
-OrdinaryDiffEqCore = "4"
 OrdinaryDiffEqDifferentiation = "3"
 OrdinaryDiffEqNonlinearSolve = "2"
 OrdinaryDiffEqSDIRK = "2"
 RecursiveArrayTools = "4"
 SciMLBase = "3"
+
+["2.0"]
+OrdinaryDiffEqCore = "4"
+
+["2.1 - 2"]
+OrdinaryDiffEqCore = "4.1.0 - 4"
