@@ -8,6 +8,8 @@ OrderedCollections = "1"
 PrecompileTools = "1"
 StaticArraysCore = "1"
 TimerOutputs = "0.5"
+
+["2 - 8.4.0"]
 julia = "1"
 
 ["2.0"]
@@ -47,10 +49,19 @@ ThreadSafeDicts = "0.1.6-0.1"
 
 ["7.1.3 - 8"]
 DataInterpolations = "7 - 8"
-Dates = "1.11.0 - 1"
 Memoization = "0.2.2 - 0.2"
 ThreadSafeDicts = "0.1.6 - 0.1"
 
+["7.1.3 - 8.4.0"]
+Dates = "1.11.0 - 1"
+
 ["8.3 - 8"]
-AdaptiveArrayPools = "0.1"
 Preferences = "1"
+
+["8.3 - 8.4.0"]
+AdaptiveArrayPools = "0.1"
+
+["8.4.2 - 8"]
+AdaptiveArrayPools = "0.3"
+Dates = "1"
+julia = "1.11.0 - 1"
