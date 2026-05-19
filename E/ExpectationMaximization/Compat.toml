@@ -1,12 +1,14 @@
 [0]
 ArgCheck = "2"
-julia = "1"
 
 ["0 - 0.1.0"]
 Distributions = "0.25"
 
 ["0 - 0.1.1"]
 StatsFuns = "0.9"
+
+["0 - 0.2"]
+julia = "1"
 
 ["0.1.1 - 0.2.3"]
 Distributions = "0.24-0.25"
@@ -26,3 +28,6 @@ StatsBase = "0.33-0.34"
 ["0.2.4 - 0"]
 Distributions = "0.24 - 0.25"
 StatsBase = "0.33 - 0.34"
+
+["0.3 - 0"]
+julia = "1.12.0 - 1"
