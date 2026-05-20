@@ -2,15 +2,20 @@
 Indexing = "1"
 julia = ["0.7", "1"]
 
-[1]
+["1 - 1.2.3"]
 Indexing = "1.1.0-1"
 julia = "1"
 
 ["1.0"]
 Dictionaries = "0.2"
 
-["1.1-1.2.2"]
+["1.1 - 1.2.2"]
 Dictionaries = "0.3"
 
-["1.2.3-1"]
+["1.2.3"]
 Dictionaries = "0.3-0.4"
+
+["1.2.4 - 1"]
+Dictionaries = "0.3 - 0.4"
+Indexing = "1.1.0 - 1"
+julia = "1.10.0 - 1"
