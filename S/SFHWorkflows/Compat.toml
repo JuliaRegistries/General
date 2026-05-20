@@ -1,6 +1,5 @@
 [1]
 ArgCheck = "2"
-BolometricCorrections = "0.1.5 - 0.1"
 CSV = "0.10"
 CairoMakie = "0.15"
 DataInterpolations = "8"
@@ -14,10 +13,17 @@ PlotUtils = "1"
 Printf = ["0.0.0", "1"]
 StarFormationHistories = "1"
 StatsBase = "0.34"
-StellarTracks = "1"
 TypedTables = "1"
 YAML = "0.4"
 julia = "1.10.0 - 1"
 
+["1.0"]
+BolometricCorrections = "0.1.5 - 0.1"
+StellarTracks = "1"
+
 ["1.0.2 - 1"]
 OrderedCollections = "1"
+
+["1.1 - 1"]
+BolometricCorrections = "0.2"
+StellarTracks = "1.1.0 - 1"
