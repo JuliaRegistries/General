@@ -1,7 +1,9 @@
 ["0.13.13 - 0"]
-DistributionsAD = "0.6"
 LazyArrays = "2"
 ReverseDiff = "1"
+
+["0.13.13 - 0.15"]
+DistributionsAD = "0.6"
 
 ["0.13.13 - 0.15.6"]
 ForwardDiff = "0.10"
@@ -53,3 +55,7 @@ EnzymeCore = "0.8.4 - 0.8"
 
 ["0.15.8 - 0.15.15"]
 Mooncake = "0.4.95 - 0.4"
+
+["0.16 - 0"]
+ChainRulesCore = ["0.10.11 - 0.10", "1"]
+EnzymeCore = "0.8.15 - 0.8"
