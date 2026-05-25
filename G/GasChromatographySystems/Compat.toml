@@ -1,8 +1,6 @@
 [0]
 CSV = "0.10"
 DataFrames = "1"
-DifferentialEquations = "7"
-EzXML = "1"
 GraphIO = "0.7"
 GraphMakie = "0.5"
 GraphRecipes = "0.5"
@@ -12,7 +10,6 @@ Intervals = "1"
 JSServe = "2"
 LsqFit = "0.15"
 NetworkLayout = "0.4"
-OrdinaryDiffEq = "6"
 Plots = "1"
 PlutoUI = "0.7"
 QuadGK = "2"
@@ -39,13 +36,18 @@ Integrals = "3-4"
 Reexport = "1.2.2-1"
 julia = "1.5.3-1"
 
-["0.2.2 - 0"]
-GasChromatographySimulator = "0.5"
+["0 - 0.2.6"]
+DifferentialEquations = "7"
+EzXML = "1"
+OrdinaryDiffEq = "6"
 
 ["0.2.2 - 0.2.5"]
 CairoMakie = "0.11-0.13"
 GLMakie = "0.9-0.11"
 Pluto = "0.19-0.20"
+
+["0.2.2 - 0.2.6"]
+GasChromatographySimulator = "0.5"
 
 ["0.2.3 - 0.2.5"]
 Symbolics = "5-6"
@@ -56,12 +58,29 @@ ForwardDiff = ["0.10", "1"]
 ["0.2.4 - 0.2.5"]
 Interpolations = "0.15-0.16"
 
-["0.2.6 - 0"]
+["0.2.6"]
 CairoMakie = "0.11 - 0.13"
 GLMakie = "0.9 - 0.11"
 Integrals = "3 - 4"
-Interpolations = "0.15 - 0.16"
 Pluto = "0.19 - 0.20"
-Reexport = "1.2.2 - 1"
 Symbolics = "5 - 6"
 julia = "1.5.3 - 1"
+
+["0.2.6 - 0"]
+Interpolations = "0.15 - 0.16"
+Reexport = "1.2.2 - 1"
+
+["0.2.7 - 0"]
+CairoMakie = "0.13"
+DiffEqBase = "6.175"
+EzXML = "1.2.0 - 1"
+GLMakie = "0.11"
+GasChromatographySimulator = "0.6"
+Integrals = "4"
+LinearSolve = "3.15"
+NonlinearSolve = "4.9"
+OrdinaryDiffEq = "6.97"
+Pluto = "0.20"
+SciMLBase = "2.95"
+Symbolics = "6"
+julia = "1.10.0 - 1"
