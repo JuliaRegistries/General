@@ -1,18 +1,27 @@
 [0]
-DataInterpolations = "8"
 LinearAlgebra = "1"
 QuadGK = "2"
-SpecialFunctions = "2"
 julia = "1.10.0 - 1"
 
 ["0 - 0.1"]
 FFTW = "1"
 
+["0 - 0.2.1"]
+DataInterpolations = "8"
+SpecialFunctions = "2"
+
 ["0.2 - 0"]
 ChargedParticles = "0.3.1 - 0.3"
 ProgressMeter = "1"
-Tullio = "0.3"
 Unitful = "1"
+
+["0.2 - 0.2.1"]
+Tullio = "0.3"
 
 ["0.2.1 - 0"]
 Bumper = "0.7"
+
+["0.2.2 - 0"]
+Bessels = "0.2"
+FastInterpolations = "0.4"
+Gamma = "1"
