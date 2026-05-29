@@ -29,8 +29,10 @@ Arpack = "0.5.3-0.5"
 FFTW = "1"
 LinearAlgebra = "1.6.0-1"
 LinearMaps = "3.11.3-3"
-VectorInterface = "0.5"
 julia = "1.10.0-1"
+
+["2-3.0.6"]
+VectorInterface = "0.5"
 
 ["2.0.4-2.0.5"]
 Bibliography = "0.3"
@@ -38,3 +40,7 @@ Trapz = "2.0.3-2"
 
 ["2.0.9-3"]
 KrylovKit = "0.9.5-0.10"
+
+["3.0.7-3"]
+PrecompileTools = "1"
+VectorInterface = "0.5-0.6"
