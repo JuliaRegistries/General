@@ -1,7 +1,11 @@
+[0]
+Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+ScikitLearn = "3646fa90-6ef7-5e7e-9f22-8aca16db6324"
+
 ["0 - 1"]
 AbstractMCMC = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
 AdvancedMH = "5b7e9947-ddc0-4b3f-9b55-0d8042f74170"
-Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 EnsembleKalmanProcesses = "aa8a2aa5-91d8-4396-bcef-d4f2ec43552d"
@@ -10,9 +14,7 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-ScikitLearn = "3646fa90-6ef7-5e7e-9f22-8aca16db6324"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
@@ -32,3 +34,15 @@ ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
 LowRankApprox = "898213cb-b102-5a47-900c-97e73b919f73"
 TSVD = "9449cd9e-2762-5aa3-a617-5413e99d722e"
+
+["1.0"]
+Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+ScikitLearn = "3646fa90-6ef7-5e7e-9f22-8aca16db6324"
+
+["1.1 - 1"]
+CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
+Manifolds = "1cead3c2-87b3-11e9-0ccd-23c62b72b94e"
+Manopt = "0fc0a36d-df90-57f3-8f93-d78a9fc72bb5"
+PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
