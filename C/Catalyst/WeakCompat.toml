@@ -36,5 +36,10 @@ NetworkLayout = "0.4.7 - 0.4"
 StructuralIdentifiability = "0.5.11 - 0.5"
 
 [16]
-BifurcationKit = "0.4.4 - 0.5"
 DynamicPolynomials = "0.6"
+
+["16 - 16.1"]
+BifurcationKit = "0.4.4 - 0.5"
+
+["16.2 - 16"]
+BifurcationKit = ["0.4.4 - 0.5", "0.8"]
