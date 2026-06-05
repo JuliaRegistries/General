@@ -108,7 +108,6 @@ CoordRefSystems = "0.16 - 0.19"
 DataStructures = "0.18 - 0.19"
 DateFormats = "0.1"
 FFTW = "1"
-GR = "0.73"
 HDF5 = "0.17"
 ImageCore = "0.10"
 ImageInTerminal = "0.5"
@@ -119,11 +118,14 @@ MLStyle = "0.4"
 NCDatasets = "0.14"
 NaNStatistics = "0.6"
 Observables = "0.5"
-Rasters = "0.13 - 0.14"
 Revise = "3"
 Tar = "1"
 Unitful = "1"
 Zygote = "0.7"
+
+["0.12.6 - 0.13"]
+GR = "0.73"
+Rasters = "0.13 - 0.14"
 
 ["0.12.6 - 0.13.1"]
 DimensionalData = "0.29"
@@ -138,6 +140,9 @@ Test = "1.10.0 - 1"
 
 ["0.13.2 - 0"]
 DimensionalData = "0.29 - 0.30"
+
+["0.14 - 0"]
+Rasters = "0.13 - 0.15"
 
 ["0.3.6 - 0"]
 Statistics = "1"
