@@ -146,11 +146,17 @@ DocStringExtensions = "0.8 - 0.9"
 Setfield = ["0.7 - 0.8", "1"]
 Statistics = "1.6.0 - 1"
 StatsBase = "0.31 - 0.34"
-StatsFuns = ["0.8 - 0.9", "1"]
 julia = "1.10.0 - 1"
 
 ["0.8.1 - 0.8.2"]
 AbstractMCMC = "5.6.0 - 5"
 
+["0.8.1 - 0.8.4"]
+StatsFuns = ["0.8 - 0.9", "1"]
+
 ["0.8.3 - 0"]
 AbstractMCMC = "5.9.0 - 5"
+
+["0.8.5 - 0"]
+IrrationalConstants = "0.2"
+LogExpFunctions = ["0.3", "1"]

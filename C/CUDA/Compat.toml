@@ -383,7 +383,7 @@ LLVM = "9.1.0-9"
 demumble_jll = "1.3.0-1"
 
 ["5.6 - 5.8.2"]
-GPUCompiler = ["0.24-0.27", "1"]
+GPUCompiler = ["0.24-0.27", "1 - 1.17"]
 
 ["5.6.0"]
 GPUArrays = "11.1.0-11"
@@ -430,7 +430,7 @@ CUDA_Runtime_Discovery = "1"
 AbstractFFTs = ["0.4 - 0.5", "1"]
 BFloat16s = "0.2 - 0.5"
 GPUArrays = "11.2.1 - 11"
-GPUCompiler = ["0.24 - 0.27", "1"]
+GPUCompiler = ["0.24 - 0.27", "1 - 1.17"]
 LLVM = "9.1.0 - 9"
 
 ["5.8.3 - 5.9"]
@@ -450,7 +450,7 @@ AbstractFFTs = ["0.5", "1"]
 PrettyTables = "3"
 
 ["5.9 - 5.9.1"]
-GPUCompiler = "1.1.0 - 1"
+GPUCompiler = "1.1.0 - 1.17"
 
 ["5.9 - 5.9.2"]
 StaticArrays = "1.6.0 - 1"
@@ -478,7 +478,7 @@ GPUToolbox = ["0.3", "1"]
 LLVM = "9.3.1 - 9"
 
 ["5.9.2 - 5"]
-GPUCompiler = "1.4.0 - 1"
+GPUCompiler = "1.4.0 - 1.17"
 
 ["5.9.2 - 5.9.5"]
 CUDA_Compiler_jll = "0.3"
@@ -496,7 +496,7 @@ CUDA_Compiler_jll = "0.3 - 0.4"
 GPUArrays = "11.4.1 - 11"
 
 ["6.0"]
-CUDACore = "6.0.0"
+CUDACore = "6.0.1"
 CUDATools = "6.0.0"
 cuBLAS = "6.0.0"
 cuFFT = "6.0.0"
@@ -505,7 +505,7 @@ cuSOLVER = "6.0.0"
 cuSPARSE = "6.0.0"
 
 ["6.1 - 6"]
-CUDACore = "6.1.0"
+CUDACore = "6.1.1"
 CUDATools = "6.1.0"
 cuBLAS = "6.1.0"
 cuFFT = "6.1.0"

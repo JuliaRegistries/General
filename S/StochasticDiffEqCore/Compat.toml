@@ -2,6 +2,7 @@
 DiffEqBase = "6.187.0 - 6"
 RecursiveArrayTools = "2 - 3"
 SciMLBase = "2.146.0 - 2"
+SciMLLogging = "1.7.1 - 1"
 
 ["1 - 2"]
 ADTypes = "1"
@@ -18,7 +19,6 @@ Logging = "1.10.0 - 1"
 MuladdMacro = "0.2.4 - 0.2"
 Random = ["0.0.0", "1"]
 Reexport = ["0.2", "1"]
-SciMLLogging = "1.7.1 - 1"
 SciMLOperators = "1.15.0 - 1"
 SimpleNonlinearSolve = "2"
 SparseArrays = "1.10.0 - 1"
@@ -39,3 +39,9 @@ OrdinaryDiffEqCore = "4"
 RecursiveArrayTools = "4"
 SciMLBase = "3"
 StochasticDiffEqLevyArea = "2"
+
+["2.0.0"]
+SciMLLogging = "1.7.1 - 1"
+
+["2.0.1 - 2"]
+SciMLLogging = "1.10.1 - 2"

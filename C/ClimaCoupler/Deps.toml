@@ -2,12 +2,14 @@
 ClimaComms = "3a4d1b5c-c61d-41fd-a00a-5873ba7a1b0d"
 ClimaCore = "d414da3d-4745-48bb-8d80-42e94e092884"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 SurfaceFluxes = "49b00bb7-8bd4-4f2b-b78c-51cd0450215f"
 Thermodynamics = "b60c26fb-14c3-4610-9d3e-2d17fe7ff00c"
 
-["0-0.1.1"]
+["0 - 0.1"]
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+
+["0 - 0.1.1"]
 ClimaCoreTempestRemap = "d934ef94-cdd4-4710-83d6-720549644b70"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
@@ -22,9 +24,26 @@ ClimaLand = "08f4d4ce-cf43-44bb-ad95-9d2d5f413532"
 ClimaParams = "5c42b081-d73a-476f-9059-fd94b934656c"
 Insolation = "e98cc03f-d57e-4e3c-b70c-8d51efe9e0d8"
 
-["0.1-0.1.1"]
+["0.1 - 0.1.1"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
-["0.1.2-0"]
+["0.1.2 - 0"]
 ClimaUtilities = "b3f4f4ca-9299-4f7f-bd9b-81e1242a7513"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+
+["0.2 - 0"]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+ClimaAnalysis = "29b5916a-a76c-4e73-9657-3c8fd22e65e6"
+ClimaDiagnostics = "1ecacbb8-0713-4841-9a07-eb5aa8a2d53f"
+ClimaParams = "5c42b081-d73a-476f-9059-fd94b934656c"
+ClimaTimeSteppers = "595c0a79-7f3d-439a-bc5a-b232dc3bde79"
+Insolation = "e98cc03f-d57e-4e3c-b70c-8d51efe9e0d8"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
+NVTX = "5da4648a-3479-48b8-97b9-01cb529c0a1f"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"

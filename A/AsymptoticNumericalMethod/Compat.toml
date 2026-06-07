@@ -1,11 +1,13 @@
 [0]
-ForwardDiff = "0.10"
 RecipesBase = "1"
 
 ["0 - 0.1"]
 BifurcationKit = "0.3"
 Setfield = ["0.5", "0.7-0.8", "1.1.0-1"]
 TaylorIntegration = "0.14"
+
+["0 - 0.2"]
+ForwardDiff = "0.10"
 
 ["0 - 0.2.1"]
 Parameters = "0.12.3-0.12"
@@ -19,7 +21,20 @@ BifurcationKit = "0.4"
 TaylorIntegration = "0.14-0.15"
 
 ["0.2.3 - 0"]
-BifurcationKit = ["0.4.15 - 0.4", "0.5.1 - 0.5"]
 DocStringExtensions = "0.8.2 - 0.9"
-TaylorIntegration = "0.14 - 0.15"
 julia = "1.5.0 - 1"
+
+["0.2.3 - 0.2"]
+BifurcationKit = ["0.4.15 - 0.4", "0.5.1 - 0.5"]
+TaylorIntegration = "0.14 - 0.15"
+
+["0.3 - 0"]
+ForwardDiff = ["0.10 - 0.11", "1"]
+TaylorIntegration = "0.18"
+
+["0.3.0"]
+BifurcationKit = "0.7.2 - 0.7"
+
+["0.3.1 - 0"]
+BifurcationKit = "0.7.2 - 0.8"
+TaylorSeries = "0.22"

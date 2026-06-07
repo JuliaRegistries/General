@@ -1,6 +1,5 @@
 [0]
 AbstractGPs = "99985d1d-32ba-4be9-9821-2ec096f28918"
-Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 LatinHypercubeSampling = "a5e1c1ea-c99a-51d3-a14d-a9a37257b02d"
@@ -10,9 +9,15 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 ["0 - 0.3.2"]
 Turing = "fce5fe82-541a-59a6-adf8-730c64b5f9a0"
 
+["0 - 0.6.0"]
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+
 ["0.3 - 0"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.4 - 0"]
 Bijectors = "76274a88-744f-5084-9051-94815aaf08c4"
 InverseFunctions = "3587e190-3f89-42d0-90ee-14403ec27112"
+
+["0.6.1 - 0"]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"

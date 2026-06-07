@@ -1,12 +1,25 @@
 [0]
-DataFrames = "1.7.0-1"
-HDF5 = "0.16"
-JSON = "0.21"
 JSONSchema = "1"
 JuMP = "1"
 Pkg = "1"
 PseudoBooleanOptimization = "0.2"
-QUBOTools = "0.10"
 SQLite = "1"
 TOML = "1"
+
+["0 - 0.1.0"]
+DataFrames = "1.7.0-1"
+HDF5 = "0.16"
+QUBOTools = "0.10"
 julia = "1.9.0-1"
+
+["0 - 0.1.1"]
+JSON = "0.21"
+
+["0.1.1 - 0"]
+DataFrames = "1.7.0 - 1"
+HDF5 = ["0.16", "0.17.2 - 0.17"]
+QUBOTools = ["0.10", "0.12"]
+julia = "1.10.0 - 1"
+
+["0.1.2 - 0"]
+JSON = ["0.21", "1.6.0 - 1"]

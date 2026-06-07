@@ -246,7 +246,7 @@ REPL = "1"
 Symbolics = "7"
 
 ["11 - 11.2"]
-ModelingToolkitBase = "1"
+ModelingToolkitBase = "1 - 1.41"
 
 ["11 - 11.4"]
 PreallocationTools = "0.4.27 - 0.4"
@@ -266,13 +266,13 @@ ModelingToolkitTearing = "1.0.2 - 1"
 SymbolicUtils = "4.7.1 - 4"
 
 ["11.11"]
-ModelingToolkitBase = "1.14.0 - 1"
+ModelingToolkitBase = "1.14.0 - 1.41"
 
 ["11.12 - 11"]
 ConstructionBase = "1"
 
 ["11.12 - 11.15"]
-ModelingToolkitBase = "1.17.0 - 1"
+ModelingToolkitBase = "1.17.0 - 1.41"
 
 ["11.12 - 11.21"]
 DiffEqBase = "6.210.0 - 6"
@@ -289,49 +289,70 @@ ModelingToolkitTearing = "1.6.1 - 1"
 StateSelection = "1.5.0 - 1"
 
 ["11.16"]
-ModelingToolkitBase = "1.23.0 - 1"
+ModelingToolkitBase = "1.23.0 - 1.41"
 
 ["11.17"]
-ModelingToolkitBase = "1.24.0 - 1"
+ModelingToolkitBase = "1.24.0 - 1.41"
 
 ["11.17 - 11.19"]
 ModelingToolkitTearing = "1.9.0 - 1"
 
 ["11.18"]
-ModelingToolkitBase = "1.26.0 - 1"
+ModelingToolkitBase = "1.26.0 - 1.41"
 
 ["11.19"]
-ModelingToolkitBase = "1.27.0 - 1"
+ModelingToolkitBase = "1.27.0 - 1.41"
 
 ["11.20"]
-ModelingToolkitBase = "1.29.1 - 1"
+ModelingToolkitBase = "1.29.1 - 1.41"
 
 ["11.20 - 11"]
 ModelingToolkitTearing = "1.12.1 - 1"
 StateSelection = "1.9.1 - 1"
 
 ["11.21 - 11.24"]
-ModelingToolkitBase = "1.30.0 - 1"
+ModelingToolkitBase = "1.30.0 - 1.41"
 
 ["11.22 - 11"]
 DiffEqBase = "6.210.0 - 7"
 SciMLBase = "2.144.0 - 3"
 
 ["11.25"]
-ModelingToolkitBase = "1.34.0 - 1"
+ModelingToolkitBase = "1.34.0 - 1.41"
 
-["11.26 - 11"]
-ModelingToolkitBase = "1.35.0 - 1"
+["11.26 - 11.26.5"]
 SymbolicUtils = "4.28.0 - 4"
 
+["11.26.0"]
+ModelingToolkitBase = "1.35.0 - 1.41"
+
+["11.26.1 - 11.26.4"]
+ModelingToolkitBase = "1.36.0 - 1.41"
+
+["11.26.5"]
+ModelingToolkitBase = "1.37.0 - 1.41"
+
+["11.26.6"]
+ModelingToolkitBase = "1.41.0 - 1.41"
+
+["11.26.6 - 11"]
+SymbolicUtils = "4.31.0 - 4"
+
+["11.26.7"]
+ModelingToolkitBase = "1.42.0 - 1"
+
+["11.26.8 - 11"]
+ModelingToolkitBase = "1.42.2 - 1"
+OrderedCollections = "1 - 2"
+
 ["11.3 - 11.4"]
-ModelingToolkitBase = "1.2.0 - 1"
+ModelingToolkitBase = "1.2.0 - 1.41"
 
 ["11.3 - 11.5"]
 ModelingToolkitTearing = "1.1.0 - 1"
 
 ["11.5"]
-ModelingToolkitBase = "1.4.0 - 1"
+ModelingToolkitBase = "1.4.0 - 1.41"
 
 ["11.5 - 11"]
 DataStructures = "0.18 - 0.19"
@@ -348,19 +369,19 @@ SCCNonlinearSolve = "1.8.1 - 1"
 SciMLBase = "2.132.0 - 2"
 
 ["11.6 - 11.7.1"]
-ModelingToolkitBase = "1.5.3 - 1"
+ModelingToolkitBase = "1.5.3 - 1.41"
 
 ["11.6 - 11.9.0"]
 ModelingToolkitTearing = "1.2.1 - 1"
 
 ["11.7.2 - 11.7"]
-ModelingToolkitBase = "1.6.3 - 1"
+ModelingToolkitBase = "1.6.3 - 1.41"
 
 ["11.7.2 - 11.8"]
 SymbolicUtils = "4.11.0 - 4"
 
 ["11.8"]
-ModelingToolkitBase = "1.7.0 - 1"
+ModelingToolkitBase = "1.7.0 - 1.41"
 
 ["11.9 - 11.12"]
 SymbolicCompilerPasses = "0.1"
@@ -369,10 +390,10 @@ SymbolicCompilerPasses = "0.1"
 SymbolicUtils = "4.13.0 - 4"
 
 ["11.9.0"]
-ModelingToolkitBase = "1.8.1 - 1"
+ModelingToolkitBase = "1.8.1 - 1.41"
 
 ["11.9.1 - 11.10"]
-ModelingToolkitBase = "1.12.0 - 1"
+ModelingToolkitBase = "1.12.0 - 1.41"
 
 ["11.9.1 - 11.13"]
 ModelingToolkitTearing = "1.2.5 - 1"
@@ -873,7 +894,7 @@ DiffEqCallbacks = "2.16.0-2"
 ["9.1 - 9.41"]
 DiffEqCallbacks = "2.16.0-3"
 
-["9.12.2 - 11"]
+["9.12.2 - 11.26.7"]
 OrderedCollections = "1"
 
 ["9.16 - 9.19"]

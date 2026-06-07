@@ -22,7 +22,7 @@ julia = "1.6.0-1"
 ["0.4.12"]
 FastTransforms = "0.11-0.14"
 
-["0.4.13 - 0"]
+["0.4.13 - 0.4.25"]
 FFTW = "1"
 
 ["0.4.14 - 0.4.20"]
@@ -60,11 +60,18 @@ FastGaussQuadrature = ["0.4.2-0.5", "1"]
 ["0.4.23 - 0.4.24"]
 FastGaussQuadrature = ["0.4.3-0.5", "1"]
 
+["0.4.25"]
+FastGaussQuadrature = ["0.4.3 - 0.5", "1"]
+julia = "1.6.0 - 1"
+
 ["0.4.25 - 0"]
 AutoHashEquals = ["0.2", "1 - 2"]
-FastGaussQuadrature = ["0.4.3 - 0.5", "1"]
 SpecialFunctions = "1 - 2"
-julia = "1.6.0 - 1"
+
+["0.4.26 - 0"]
+FFTW = "1.4.0 - 1"
+FastGaussQuadrature = ["0.4.4 - 0.5", "1"]
+julia = "1.10.0 - 1"
 
 ["0.4.6"]
 ArgCheck = "1-2"
@@ -72,10 +79,12 @@ FastTransforms = "0.4-0.10"
 
 ["0.4.7 - 0"]
 ArgCheck = "2"
-Requires = "1"
 
 ["0.4.7 - 0.4.10"]
 SpecialFunctions = "1"
+
+["0.4.7 - 0.4.25"]
+Requires = "1"
 
 ["0.4.7 - 0.4.8"]
 FastTransforms = "0.11"

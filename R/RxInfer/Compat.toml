@@ -28,9 +28,11 @@ MacroTools = "0.5.6-0.5"
 TupleTools = "1.2.0-1"
 
 ["2 - 5"]
+ProgressMeter = "1"
+
+["2 - 5.3.3"]
 DataStructures = "0.18"
 Optim = "1"
-ProgressMeter = "1"
 
 ["2.0"]
 GraphPPL = "3"
@@ -185,7 +187,7 @@ PrettyTables = "2"
 Statistics = "1.10.0-1"
 UUIDs = "1.10.0-1"
 
-["4 - 5"]
+["4 - 5.3.2"]
 GraphPPL = "4.6"
 
 ["4.0"]
@@ -248,3 +250,10 @@ Base64 = "1"
 
 ["5.3.1 - 5"]
 ReactiveMP = "6"
+
+["5.3.3 - 5"]
+GraphPPL = "4.7.0 - 4"
+
+["5.3.4 - 5"]
+DataStructures = "0.18 - 0.19"
+Optim = "1 - 2"

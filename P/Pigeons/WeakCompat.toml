@@ -4,14 +4,23 @@ BridgeStan = "2"
 ["0.3 - 0.4.1"]
 DynamicPPL = "0.23-0.24"
 
-["0.4.10 - 0"]
+["0.4.10"]
 AbstractPPL = "0.8.4 - 0.11"
-Bijectors = "0.13 - 0.15"
 DifferentiationInterface = "0.6.48 - 0.6"
 DynamicPPL = ["0.35", "0.38"]
-Enzyme = "0.12 - 0.13"
 JuliaBUGS = "0.8 - 0.9"
+
+["0.4.10 - 0"]
+Bijectors = "0.13 - 0.15"
+Enzyme = "0.12 - 0.13"
 MCMCChains = "6 - 7"
+
+["0.4.11 - 0"]
+AbstractPPL = ["0.8.4 - 0.11", "0.14"]
+DifferentiationInterface = "0.6.48 - 0.7"
+DynamicPPL = "0.40"
+ForwardDiff = ["0.10", "1"]
+JuliaBUGS = "0.13"
 
 ["0.4.2"]
 DynamicPPL = "0.23-0.27"
@@ -20,9 +29,11 @@ DynamicPPL = "0.23-0.27"
 MCMCChains = "6"
 
 ["0.4.3 - 0"]
-ForwardDiff = "0.10"
 HypothesisTests = "0.11"
 ReverseDiff = "1"
+
+["0.4.3 - 0.4.10"]
+ForwardDiff = "0.10"
 
 ["0.4.3 - 0.4.5"]
 DynamicPPL = "0.23-0.28"

@@ -2,10 +2,12 @@
 HYPRE = "b5ffcf37-a2bd-41ab-a3da-4bd9bc8ad771"
 
 ["2 - 3"]
-CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
 KrylovKit = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
 Pardiso = "46dd5b70-b6fb-5a00-ae2d-e8fea33afaf2"
+
+["2 - 3.79"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
 ["2.11 - 2"]
 RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
@@ -83,3 +85,10 @@ SparseMatricesCSR = "a0a7dd2c-ebf4-11e9-1f05-cf50bc540ca1"
 
 ["3.76 - 3"]
 STRUMPACK_jll = "86fbd0b9-476f-557c-b766-62c724b42d8c"
+
+["3.80 - 3"]
+cuSOLVER = "887afef0-6a32-4de5-add4-7827692ba8fc"
+
+["3.83 - 3"]
+MUMPS = "55d2b088-9f4e-11e9-26c0-150b02ea6a46"
+PartitionedSolvers = "11b65f7f-80ac-401b-9ef2-3db765482d62"

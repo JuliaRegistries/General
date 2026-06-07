@@ -117,7 +117,7 @@ DifferentialEquations = "7.7.0-7.12"
 ["0.13.3 - 0.13"]
 DifferentialEquations = "7.7.0-7.13"
 
-["0.14 - 0"]
+["0.14 - 0.15.1"]
 FMIExport = "0.4"
 
 ["0.14.0"]
@@ -127,8 +127,16 @@ FMIImport = "1"
 FMIImport = "1.0.6-1"
 
 ["0.15 - 0"]
-FMIImport = "1.1.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.15.0"]
+FMIImport = "1.1.0 - 1"
+
+["0.15.1 - 0"]
+FMIImport = "1.2.0 - 1"
+
+["0.15.2 - 0"]
+FMIExport = "0.4 - 0.5"
 
 ["0.3.5 - 0.7"]
 SciMLBase = "1.23.1-1"

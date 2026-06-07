@@ -50,16 +50,26 @@ OrdinaryDiffEqCore = "1.21.0 - 2"
 OrdinaryDiffEqCore = "3"
 
 ["0.2.15 - 0"]
-LinearSolve = "3.54.0 - 3"
-SciMLBase = "2.128.0 - 2"
 SymbolicIndexingInterface = "0.3.43 - 0.3"
 
+["0.2.15 - 0.2.17"]
+LinearSolve = "3.54.0 - 3"
+SciMLBase = "2.128.0 - 2"
+
 ["0.2.16 - 0"]
-OrdinaryDiffEqCore = "3.0.1 - 3"
 StaticArrays = "1.9.8 - 1"
 
-["0.2.17 - 0"]
+["0.2.16 - 0.2.17"]
+OrdinaryDiffEqCore = "3.0.1 - 3"
+
+["0.2.17"]
 FastBroadcast = ["0.3.5 - 0.3", "1"]
+
+["0.2.18 - 0"]
+FastBroadcast = "1.3.0 - 1"
+LinearSolve = "3.75.0 - 3"
+OrdinaryDiffEqCore = "4.2.0 - 4"
+SciMLBase = "3.7.0 - 3"
 
 ["0.2.7 - 0"]
 LinearAlgebra = "1"

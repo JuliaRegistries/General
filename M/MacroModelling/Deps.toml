@@ -2,7 +2,6 @@
 AxisKeys = "94b1ba4f-4ee9-5380-92f1-94cde586c3c5"
 BlockTriangularForm = "adeb47b7-70bf-415a-bb24-c358563e873a"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
@@ -11,6 +10,9 @@ RuntimeGeneratedFunctions = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 Subscripts = "2b7f82d5-8785-4f63-971e-f18ddbeb808e"
+
+["0 - 0.1"]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 
 ["0 - 0.1.0"]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
@@ -59,7 +61,7 @@ Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
 OptimizationNLopt = "4e6fcdb7-1186-4e1f-a706-475e75c168bb"
 
-["0.1.13 - 0"]
+["0.1.13 - 0.1"]
 RecursiveFactorization = "f2c3362d-daeb-58d1-803e-2bc74f2840b4"
 
 ["0.1.13 - 0.1.26"]
@@ -127,9 +129,11 @@ Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
 Polyester = "f517fe37-dbe3-4b94-8317-1923a5111588"
 
 ["0.1.38 - 0"]
-DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
 DispatchDoctor = "8d63f2c5-f18a-4cf2-ba9d-b3f60fc568c8"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+
+["0.1.38 - 0.1"]
+DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
 
 ["0.1.4 - 0.1.14"]
 StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
@@ -148,3 +152,6 @@ JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 
 ["0.1.6 - 0.1.37"]
 ImplicitDifferentiation = "57b37032-215b-411a-8a7c-41a003a55207"
+
+["0.2 - 0"]
+FastLapackInterface = "29a986be-02c6-4525-aec4-84b980013641"

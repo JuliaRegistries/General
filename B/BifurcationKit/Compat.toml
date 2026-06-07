@@ -170,7 +170,6 @@ IterativeSolvers = "0.8.4 - 0.9"
 LinearMaps = "2.7.0 - 3"
 Parameters = "0.12.3 - 0.12"
 Reexport = "1.2.2 - 1"
-SciMLBase = "1 - 2"
 StructArrays = ["0.4", "0.6 - 0.7"]
 julia = "1.9.0 - 1"
 
@@ -185,6 +184,9 @@ PreallocationTools = "0.4.1 - 0.4"
 
 ["0.4.17 - 0.5.7"]
 RecursiveArrayTools = "2.3.0 - 3"
+
+["0.4.17 - 0.7.1"]
+SciMLBase = "1 - 2"
 
 ["0.4.4 - 0.4.10"]
 KrylovKit = ["0.7", "0.8.2-0.8"]
@@ -202,5 +204,12 @@ KrylovKit = ["0.7", "0.8.2 - 0.10"]
 ["0.5.6 - 0"]
 PreallocationTools = ["0.4.1 - 0.4", "1"]
 
-["0.5.8 - 0"]
+["0.5.8 - 0.7.1"]
 RecursiveArrayTools = "2.3.0 - 4"
+
+["0.7.2 - 0"]
+RecursiveArrayTools = "4"
+SciMLBase = "3"
+
+["0.8 - 0"]
+BandedMatrices = "1.11.0 - 1"
