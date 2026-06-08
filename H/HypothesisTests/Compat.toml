@@ -51,11 +51,16 @@ Roots = ["0.7 - 0.8", "1 - 2"]
 Distributions = "0.25.90 - 0.25"
 StatsAPI = "1.6.0 - 1"
 StatsBase = "0.27 - 0.34"
-StatsFuns = "1.4.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.11.6 - 0.11.7"]
+StatsFuns = "1.4.0 - 1"
 
 ["0.11.7 - 0"]
 Roots = "3"
+
+["0.11.8 - 0"]
+StatsFuns = "1.4.0 - 2"
 
 ["0.8"]
 Combinatorics = "0.7"
