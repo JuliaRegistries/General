@@ -1,9 +1,14 @@
 ["0.10 - 0"]
 CUDACore = "6"
-CUDSS = "0.7"
 cuBLAS = "6"
 cuSOLVER = "6"
 cuSPARSE = "6"
+
+["0.10.0"]
+CUDSS = "0.7"
+
+["0.10.1 - 0"]
+CUDSS = "0.7 - 0.8"
 
 ["0.7.14 - 0"]
 AMDGPU = "2"
