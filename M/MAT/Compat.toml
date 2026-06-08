@@ -35,8 +35,11 @@ julia = "1.6.0 - 1"
 ["0.11 - 0.11.2"]
 BufferedStreams = ["0.4.1 - 0.4", "1"]
 
-["0.11.3 - 0"]
+["0.11.3 - 0.12.0"]
 OrderedCollections = "1"
+
+["0.12.1 - 0"]
+OrderedCollections = "1 - 2"
 
 ["0.5.1 - 0.6"]
 BufferedStreams = "0.2.0-1"
