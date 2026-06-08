@@ -143,7 +143,6 @@ InteractiveUtils = "1"
 LinearAlgebra = "1"
 MLJModelInterface = "1.10.0 - 1"
 Markdown = "1"
-OrderedCollections = "1.1.0 - 1"
 Pkg = "1"
 PrettyPrinting = "0.3 - 0.4"
 Random = "1"
@@ -154,9 +153,15 @@ julia = "1.10.0 - 1"
 ["0.18 - 0.18.1"]
 CategoricalArrays = "0.9 - 0.10"
 
+["0.18 - 0.18.7"]
+OrderedCollections = "1.1.0 - 1"
+
 ["0.18.2 - 0"]
 CategoricalArrays = "1"
 CategoricalDistributions = "0.2"
+
+["0.18.8 - 0"]
+OrderedCollections = "1.1.0 - 2"
 
 ["0.2 - 0.2.3"]
 MLJBase = "0.2"
