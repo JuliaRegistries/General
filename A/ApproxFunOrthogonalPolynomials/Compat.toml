@@ -443,12 +443,15 @@ Static = ["0.8", "1"]
 ["0.6.59 - 0.6.61"]
 FastTransforms = ["0.12-0.14", "0.15.1-0.17"]
 
-["0.6.62 - 0"]
+["0.6.62"]
 ApproxFunBase = ["0.8.67 - 0.8", "0.9.28 - 0.9"]
+DomainSets = "0.5 - 0.7"
+julia = "1.6.0 - 1"
+
+["0.6.62 - 0"]
 BandedMatrices = ["0.16 - 0.17", "1"]
 BlockArrays = ["0.14 - 0.16", "1"]
 BlockBandedMatrices = "0.10 - 0.13"
-DomainSets = "0.5 - 0.7"
 FastGaussQuadrature = ["0.4 - 0.5", "1"]
 FastTransforms = ["0.12 - 0.14", "0.15.1 - 0.17"]
 FillArrays = ["0.11 - 0.13", "1"]
@@ -457,7 +460,11 @@ IntervalSets = "0.5 - 0.7"
 OddEvenIntegers = "0.1.8 - 0.2"
 Polynomials = "2 - 4"
 SpecialFunctions = ["0.10", "1 - 2"]
-julia = "1.6.0 - 1"
+
+["0.6.64 - 0"]
+ApproxFunBase = "0.9.35 - 0.9"
+DomainSets = "0.5 - 0.8"
+julia = "1.10.0 - 1"
 
 ["0.6.7 - 0.6.8"]
 ApproxFunBase = "0.7.67-0.7"
