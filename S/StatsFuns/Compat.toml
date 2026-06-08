@@ -82,12 +82,20 @@ julia = "1.10.0-1"
 ["1.5.1"]
 Rmath = "0.6.1 - 0.8"
 
+["1.5.1 - 1"]
+LogExpFunctions = "0.3.26 - 0.3"
+
 ["1.5.1 - 2"]
 HypergeometricFunctions = "0.3.10 - 0.3"
 IrrationalConstants = "0.1 - 0.2"
-LogExpFunctions = "0.3.26 - 0.3"
 SpecialFunctions = ["1.8.4 - 1", "2.1.4 - 2"]
 julia = "1.10.0 - 1"
 
 ["1.5.2 - 2"]
 Rmath = "0.9"
+
+["2.0"]
+LogExpFunctions = "0.3.26 - 0.3"
+
+["2.1 - 2"]
+LogExpFunctions = ["0.3.26 - 0.3", "1"]
