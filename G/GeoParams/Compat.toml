@@ -136,9 +136,11 @@ InternedStrings = "0.7"
 ["0.7 - 0.7.3"]
 Static = ["0.7-0.9", "1"]
 
+["0.7.15 - 0"]
+Adapt = "4.4.0 - 4"
+
 ["0.7.4 - 0"]
 ForwardDiff = ["0.10", "1"]
-Interpolations = "0.13 - 0.16"
 LaTeXStrings = "1.2.0 - 1"
 Loess = "0.5 - 0.6"
 MuladdMacro = "0.2.4 - 0.2"
@@ -147,6 +149,9 @@ Setfield = ["0.5.1 - 0.8", "1"]
 Static = ["0.7 - 0.9", "1"]
 StaticArrays = "1.9.1 - 1"
 StatsBase = "0.1 - 0.34"
+
+["0.7.4 - 0.7.14"]
+Interpolations = "0.13 - 0.16"
 
 ["0.7.4 - 0.7.7"]
 julia = "1.7.0 - 1"
