@@ -1,7 +1,6 @@
 [0]
 FFTW = "1"
 Graphs = "1"
-OrderedCollections = "1"
 
 ["0 - 0.1.0"]
 KLU = "0.3"
@@ -14,6 +13,9 @@ Symbolics = "4"
 
 ["0 - 0.2"]
 SnoopPrecompile = "1"
+
+["0 - 0.5.1"]
+OrderedCollections = "1"
 
 ["0.1.1 - 0.3.5"]
 KLU = "0.4"
@@ -66,14 +68,18 @@ SymbolicUtils = "3"
 Symbolics = "6"
 
 ["0.4.19 - 0"]
-KLU = "0.4 - 0.6"
 Touchstone = "0.1"
 julia = "1.10.0 - 1"
 
+["0.4.19 - 0.5.1"]
+KLU = "0.4 - 0.6"
+
 ["0.4.20 - 0"]
-DataStructures = "0.18 - 0.19"
 SymbolicUtils = "4"
 Symbolics = "7"
+
+["0.4.20 - 0.5.1"]
+DataStructures = "0.18 - 0.19"
 
 ["0.4.7"]
 SymbolicUtils = "1.4-2.1.3"
@@ -99,3 +105,7 @@ UUIDs = "1"
 
 ["0.5.1 - 0"]
 FastInterpolations = "0.4"
+
+["0.5.2 - 0"]
+KLU = "0.6"
+OrderedCollections = "1 - 2"
