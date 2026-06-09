@@ -1,6 +1,4 @@
 [0]
-CUDA = "5"
-FixedPointNumbers = "0.8"
 Images = "0.26"
 ProgressMeter = "1"
 StatsBase = "0.34"
@@ -12,6 +10,10 @@ julia = "1.8.0-1"
 CairoMakie = "0.12"
 Colors = "0.12"
 
+["0 - 0.2.3"]
+CUDA = "5"
+FixedPointNumbers = "0.8"
+
 ["0.1.2"]
 Makie = "0.21"
 
@@ -21,10 +23,12 @@ Glob = "1"
 Graphs = "1"
 HistogramThresholding = "0.3"
 ImageFiltering = "0.7"
-JSON = "0.21"
-MetaGraphsNext = "0.7"
 Plots = "1"
 Statistics = "1"
+
+["0.1.2 - 0.2.3"]
+JSON = "0.21"
+MetaGraphsNext = "0.7"
 
 ["0.1.3 - 0.1"]
 CairoMakie = "0.12-0.13"
@@ -32,7 +36,18 @@ Colors = "0.12-0.13"
 Makie = "0.21-0.22"
 
 ["0.2 - 0"]
-CairoMakie = "0.12 - 0.13"
 Colors = "0.12 - 0.13"
-Makie = "0.21 - 0.22"
 julia = "1.8.0 - 1"
+
+["0.2 - 0.2.3"]
+CairoMakie = "0.12 - 0.13"
+Makie = "0.21 - 0.22"
+
+["0.2.4 - 0"]
+CUDA = "6"
+CairoMakie = "0.12 - 0.15"
+FixedPointNumbers = "0.8 - 0.9"
+JSON = ["0.21", "1"]
+Makie = "0.21 - 0.24"
+MetaGraphsNext = "0.7 - 0.8"
+cuFFT = "6"
