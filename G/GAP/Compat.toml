@@ -217,7 +217,6 @@ GAP_pkg_gauss_jll = "202401.110100"
 GAP_pkg_guava_jll = "301.200000"
 GAP_pkg_io_jll = "401.90300"
 GAP_pkg_json_jll = "201.20300"
-GAP_pkg_juliainterface_jll = "0.160000.0"
 GAP_pkg_kbmag_jll = "101.51100"
 GAP_pkg_normalizinterface_jll = "101.40100"
 GAP_pkg_nq_jll = "201.51100"
@@ -230,6 +229,9 @@ GAP_pkg_zeromqinterface_jll = "1.170000"
 ["0.16 - 0.16.2"]
 GAP_pkg_browse_jll = "101.82100"
 
+["0.16 - 0.16.6"]
+GAP_pkg_juliainterface_jll = "0.160000.0"
+
 ["0.16.3 - 0"]
 BinaryWrappers = "0.2"
 GAP_pkg_browse_jll = "101.82100.1 - 101.82100"
@@ -238,8 +240,12 @@ polymake_jll = "400.1500.1 - 400"
 ["0.16.3 - 0.16.5"]
 AbstractAlgebra = ["0.41.11 - 0.41", "0.42.1 - 0.48"]
 
-["0.16.6 - 0"]
+["0.16.6"]
 AbstractAlgebra = ["0.41.11 - 0.41", "0.42.1 - 0.49"]
+
+["0.16.7 - 0"]
+AbstractAlgebra = ["0.41.11 - 0.41", "0.42.1 - 0.50"]
+GAP_pkg_juliainterface_jll = "0.160000.1"
 
 ["0.2 - 0.2.1"]
 GAPTypes = "0.0.0-1"
