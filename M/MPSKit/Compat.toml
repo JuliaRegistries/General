@@ -85,11 +85,19 @@ BlockTensorKit = "0.3.8 - 0.3"
 TensorKit = "0.16.3 - 0.16"
 
 ["0.13.11 - 0"]
-BlockTensorKit = "0.3.11 - 0.3"
 MatrixAlgebraKit = "0.6.5 - 0.6"
-TensorKit = "0.16.5 - 0.16"
 TensorKitManifolds = "0.7 - 0.8"
 TensorOperations = "5.5.1 - 5"
+
+["0.13.11 - 0.13.12"]
+BlockTensorKit = "0.3.11 - 0.3"
+TensorKit = "0.16.5 - 0.16"
+
+["0.13.13 - 0"]
+BlockTensorKit = "0.3.14 - 0.3"
+TensorKit = "0.17"
+TimerOutputs = "0.5.29 - 0.5"
+VectorInterface = "0.2 - 0.6"
 
 ["0.13.4"]
 BlockTensorKit = "0.1.6 - 0.1"
@@ -103,8 +111,10 @@ LinearAlgebra = "1.6.0 - 1"
 OhMyThreads = "0.7 - 0.8"
 OptimKit = "0.3.1 - 0.4"
 RecipesBase = "1.1.0 - 1"
-VectorInterface = "0.2 - 0.5"
 julia = "1.10.0 - 1"
+
+["0.13.4 - 0.13.12"]
+VectorInterface = "0.2 - 0.5"
 
 ["0.13.5 - 0.13.7"]
 BlockTensorKit = "0.2"
