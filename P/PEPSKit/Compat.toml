@@ -80,15 +80,25 @@ Compat = ["3.46.0 - 3", "4.2.0 - 4"]
 DocStringExtensions = "0.9.3 - 0.9"
 KrylovKit = "0.9.5 - 0.10"
 OhMyThreads = "0.7 - 0.8"
-OptimKit = "0.3 - 0.4"
-VectorInterface = "0.4 - 0.5"
 Zygote = "0.6 - 0.7"
 julia = "1.10.0 - 1"
 
 ["0.6.1 - 0.6"]
 TensorKit = "0.14.6 - 0.14"
 
-["0.7 - 0"]
+["0.6.1 - 0.7"]
+OptimKit = "0.3 - 0.4"
+VectorInterface = "0.4 - 0.5"
+
+["0.7"]
 MPSKit = "0.13.7 - 0.13"
 MatrixAlgebraKit = "0.5"
 TensorKit = "0.15"
+
+["0.8 - 0"]
+MPSKit = "0.13.9 - 0.13"
+MatrixAlgebraKit = "0.6.5 - 0.6"
+OptimKit = "0.4"
+TensorKit = "0.16.5 - 0.16"
+TupleTools = "1.6.0 - 1"
+VectorInterface = "0.4 - 0.6"
