@@ -550,7 +550,6 @@ Adapt = "4.4.0 - 4"
 BFloat16s = "0.6.1 - 0.6"
 Crayons = "4.1.1 - 4"
 Downloads = "1.6.0 - 1"
-Enzyme = "0.13.104 - 0.13"
 EnzymeCore = "0.8.14 - 0.8"
 FileWatching = "1.10.0 - 1"
 JSON = "1.4.0 - 1"
@@ -558,7 +557,6 @@ LLVM = "9.4.6 - 9"
 LLVMOpenMP_jll = "18.1.7 - 18"
 Libdl = "1.10.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
-OrderedCollections = "1.1.0 - 1"
 PrecompileTools = "1.2.0 - 1"
 Preferences = "1.4.3 - 1"
 PrettyTables = "3.1.2 - 3"
@@ -582,6 +580,10 @@ GPUCompiler = "1.8.1 - 1.13.1"
 ["0.2.255 - 0.2.263"]
 HTTP = "1.10.15 - 1"
 
+["0.2.255 - 0.2.264"]
+Enzyme = "0.13.104 - 0.13"
+OrderedCollections = "1.1.0 - 1"
+
 ["0.2.256 - 0.2.259"]
 Reactant_jll = "0.0.376"
 
@@ -600,11 +602,17 @@ Reactant_jll = "0.0.377"
 ["0.2.261"]
 Reactant_jll = "0.0.379"
 
-["0.2.262 - 0"]
+["0.2.262 - 0.2.264"]
 Reactant_jll = "0.0.383"
 
-["0.2.263 - 0"]
+["0.2.263 - 0.2.264"]
 GPUCompiler = "1.8.1 - 1"
+
+["0.2.265 - 0"]
+Enzyme = "0.13.115 - 0.13"
+GPUCompiler = "1.17.0 - 1"
+OrderedCollections = "1.1.0 - 2"
+Reactant_jll = "0.0.385"
 
 ["0.2.27 - 0"]
 EnumX = "1"
