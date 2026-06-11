@@ -74,11 +74,11 @@ Genie = "5"
 GenieSession = "1"
 GenieSessionFileSession = "1"
 
-["0.22 - 0"]
-OrderedCollections = "1"
-
 ["0.22 - 0.22.3"]
 Stipple = "0.26"
+
+["0.22 - 1"]
+OrderedCollections = "1"
 
 ["0.22.14 - 0.22.16"]
 Genie = "5.23.7-5"
@@ -96,13 +96,13 @@ SnoopPrecompile = "1"
 ["0.22.4"]
 Stipple = "0.26-0.27"
 
-["0.22.5 - 0"]
-Tables = "1"
-
 ["0.22.5 - 0.22.7"]
 Stipple = "0.27.2-0.27"
 
-["0.22.6 - 0"]
+["0.22.5 - 1"]
+Tables = "1"
+
+["0.22.6 - 1"]
 PrecompileTools = "1"
 
 ["0.22.8"]
@@ -140,10 +140,12 @@ Stipple = "0.30-0.31"
 Stipple = "0.31.21-0.31"
 
 ["0.24.9 - 0"]
-Colors = "0.12 - 0.13"
-Dates = "1.6.0 - 1"
 Genie = "5.25.0 - 5"
 Stipple = "0.31.21 - 0.31"
+
+["0.24.9 - 1"]
+Colors = "0.12 - 0.13"
+Dates = "1.6.0 - 1"
 julia = "1.6.0 - 1"
 
 ["0.3 - 0.4"]
@@ -180,3 +182,6 @@ Stipple = "0.14-0.15"
 
 ["0.9 - 0.24.2"]
 Colors = "0.12"
+
+[1]
+Stipple = ["0.28 - 0.31", "1"]
