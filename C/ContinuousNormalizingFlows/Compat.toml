@@ -85,7 +85,6 @@ SciMLBase = "1-2"
 
 ["0.14.1 - 0"]
 MLJBase = "1"
-SciMLBase = "2"
 
 ["0.14.1 - 0.15"]
 ComponentArrays = "0.15"
@@ -98,6 +97,9 @@ AbstractDifferentiation = "0.6"
 
 ["0.14.1 - 0.26.0"]
 Optimisers = "0.3"
+
+["0.14.1 - 0.30"]
+SciMLBase = "2"
 
 ["0.14.2 - 0"]
 LinearAlgebra = "1"
@@ -212,9 +214,14 @@ WeightInitializers = "1"
 ["0.29.3 - 0.29"]
 ForwardDiff = "1"
 
-["0.30 - 0"]
+["0.30"]
 OrdinaryDiffEqAdamsBashforthMoulton = "1"
 Static = "1"
+
+["0.31 - 0"]
+OrdinaryDiffEqAdamsBashforthMoulton = "2"
+SciMLBase = "3"
+SciMLLogging = "2"
 
 ["0.6 - 0"]
 DataFrames = "1"
