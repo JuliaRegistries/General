@@ -1,4 +1,10 @@
 [0]
-QUBODrivers = "0.5"
 QuantumAnnealing = "0.2"
 julia = "1.10.0 - 1"
+
+["0 - 0.1"]
+QUBODrivers = "0.5"
+
+["0.2 - 0"]
+LinearSolve = "3.82.0 - 3"
+QUBODrivers = "0.6.1 - 0.6"
