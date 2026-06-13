@@ -17,7 +17,7 @@ Optim = "0.20-0.21"
 ["0.2.2 - 5"]
 QuadGK = "2"
 
-["0.3.1 - 5"]
+["0.3.1 - 5.8"]
 ForwardDiff = "0.10"
 
 ["0.3.4 - 0.3"]
@@ -121,11 +121,11 @@ FinanceCore = "1"
 ["3.9 - 4"]
 Reexport = "1.2.0-1"
 
-["4 - 5"]
-FinanceCore = "2"
-
 ["4 - 5.2.0"]
 FinanceModels = "4"
+
+["4 - 5.8"]
+FinanceCore = "2"
 
 ["4.0"]
 Distributions = "0.23-0.25"
@@ -150,12 +150,14 @@ julia = "1.9.0-1"
 Optimization = "4.8.0 - 4"
 
 ["5.1 - 5"]
-OptimizationOptimJL = "0.4.5 - 0.4"
 Reexport = "1.2.0 - 1"
 StatsBase = "0.33 - 0.34"
 julia = "1.10.0 - 1"
 
-["5.2 - 5"]
+["5.1 - 5.8"]
+OptimizationOptimJL = "0.4.5 - 0.4"
+
+["5.2 - 5.8"]
 Optimization = "4.8.0 - 5"
 
 ["5.2.1 - 5.2"]
@@ -175,3 +177,9 @@ FinanceModels = "5.5.1 - 5"
 
 ["5.8 - 5"]
 FinanceModels = "5.5.1 - 6"
+
+["5.9 - 5"]
+Dates = "1"
+FinanceCore = "2 - 3"
+ForwardDiff = ["0.10", "1"]
+Random = "1"
