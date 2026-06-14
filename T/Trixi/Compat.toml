@@ -184,23 +184,37 @@ KernelAbstractions = "0.9.38 - 0.9"
 
 ["0.16.1 - 0"]
 Adapt = "4.4.0 - 4"
+
+["0.16.1 - 0.16.17"]
 MPI = "0.20.23 - 0.20"
 
-["0.16.10 - 0"]
+["0.16.10 - 0.16.17"]
 DiffEqBase = "6.184.0 - 7"
 RecursiveArrayTools = "3.37.0 - 4"
 SciMLBase = "2.128.0 - 3"
 
-["0.16.16 - 0"]
+["0.16.16 - 0.16.17"]
 Atomix = "1.0.1 - 1"
+
+["0.16.18 - 0"]
+Atomix = "1.1.3 - 1"
+DataStructures = "0.19"
+DiffEqBase = "6.215.0 - 7"
+DiffEqCallbacks = "4.9.0 - 4"
+MPI = "0.20.25 - 0.20"
+RecursiveArrayTools = "3.52.0 - 4"
+SciMLBase = "2.154.0 - 3"
+Static = "1.2.0 - 1"
 
 ["0.16.2 - 0"]
 AcceleratedKernels = "0.4.3 - 0.4"
+FillArrays = "1.9.0 - 1"
+StaticArrayInterface = "1.5.1 - 1"
+
+["0.16.2 - 0.16.17"]
 DataStructures = "0.18.15 - 0.19"
 DiffEqCallbacks = "2.35.0 - 4"
-FillArrays = "1.9.0 - 1"
 Static = "1.1.1 - 1"
-StaticArrayInterface = "1.5.1 - 1"
 
 ["0.16.2 - 0.16.9"]
 DiffEqBase = "6.184.0 - 6"
