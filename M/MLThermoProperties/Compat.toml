@@ -2,9 +2,21 @@
 ChemBERTa = "0.1"
 Clapeyron = "0.6.14 - 0.6"
 ConcreteStructs = "0.2.3 - 0.2"
-EntropyScaling = "0.3.6 - 0.3"
 JLD2 = "0.6.3 - 0.6"
 LinearAlgebra = "1.11.0 - 1"
 Lux = "1.16.0 - 1"
 Random = "1.11.0 - 1"
 julia = "1.11.0 - 1"
+
+["0 - 0.1.1"]
+EntropyScaling = "0.3.6 - 0.3"
+
+["0.1.2 - 0"]
+EntropyScaling = "0.4.1 - 0.4"
+GNNGraphs = "1.5.0 - 1"
+GNNlib = "1.2.1 - 1"
+Graphs = "1.14.0 - 1"
+LuxCore = "1.5.3 - 1"
+MolecularGraph = "0.22"
+NNlib = "0.9.34 - 0.9"
+Statistics = "1.11.1 - 1"
