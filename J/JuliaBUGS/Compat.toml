@@ -1,7 +1,9 @@
 [0]
 LogDensityProblems = "2"
-LogExpFunctions = "0.3"
 SpecialFunctions = "2"
+
+["0 - 0.14.0"]
+LogExpFunctions = "0.3"
 
 ["0 - 0.2"]
 AbstractPPL = "0.6"
@@ -35,7 +37,6 @@ JuliaSyntax = "0.4"
 
 ["0.10 - 0"]
 BangBang = "0.4.1 - 0.4"
-Distributions = "0.23.8 - 0.25"
 JuliaSyntax = "1"
 LinearAlgebra = "1.10.0 - 1"
 PDMats = "0.10 - 0.11"
@@ -54,6 +55,9 @@ MetaGraphsNext = "0.6 - 0.7"
 ADTypes = "1.14.0 - 1"
 Bijectors = ["0.13 - 0.14", "0.15.5 - 0.15"]
 
+["0.10 - 0.14.0"]
+Distributions = "0.23.8 - 0.25"
+
 ["0.11.1 - 0"]
 JSON = ["0.21", "1"]
 
@@ -68,8 +72,16 @@ AbstractPPL = "0.14"
 
 ["0.14 - 0"]
 ADTypes = "1.18.0 - 1"
-AbstractPPL = "0.15"
 Bijectors = ["0.13 - 0.14", "0.15.5 - 0.16"]
+
+["0.14.0"]
+AbstractPPL = "0.15"
+
+["0.14.1 - 0"]
+AbstractPPL = "0.15.3 - 0.15"
+Distributions = "0.25.117 - 0.25"
+LogExpFunctions = ["0.3", "1"]
+OrderedCollections = "1 - 2"
 
 ["0.2 - 0.9"]
 PDMats = "0.10-0.11"
@@ -121,6 +133,8 @@ BangBang = "0.4.1-0.4"
 
 ["0.6.2 - 0"]
 Accessors = "0.1"
+
+["0.6.2 - 0.14.0"]
 OrderedCollections = "1"
 
 ["0.6.2 - 0.8"]
