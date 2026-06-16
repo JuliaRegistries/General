@@ -42,14 +42,24 @@ PrettyTables = "3.1.2 - 3"
 ["0.1.7 - 0"]
 ForwardDiff = "1"
 Lux = "1.21.1 - 1"
-MLJ = "0.20 - 0.22"
 julia = "1.10.0 - 1"
+
+["0.1.7 - 0.1"]
+MLJ = "0.20 - 0.22"
 
 ["0.1.8 - 0"]
 DimensionalData = "0.29.24 - 0.30"
 NamedDims = "1.2.3 - 1"
-OrderedCollections = "1.8.1 - 1"
 PrettyTables = ["2.4.0 - 2", "3.1.2 - 3"]
 Static = "1.3.1 - 1"
 Statistics = "1"
 YAML = "0.4.16 - 0.4"
+
+["0.1.8 - 0.1"]
+OrderedCollections = "1.8.1 - 1"
+
+["0.2 - 0"]
+GPUArraysCore = "0.2"
+MLJ = "0.20 - 0.23"
+Optimization = "4 - 5"
+OrderedCollections = "1.8.1 - 2"
