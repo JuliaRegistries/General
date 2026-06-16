@@ -42,11 +42,18 @@ QuantumPropagators = "0.8.1-0.8"
 JLD2 = "0.4-0.5"
 QuantumPropagators = "0.8.2-0.8"
 
-["0.11.2 - 0"]
+["0.11.2 - 0.11.3"]
 IOCapture = "0.2.4 - 0.2"
 JLD2 = "0.4 - 0.6"
 QuantumPropagators = "0.8.2 - 0.8"
 julia = "1.9.0 - 1"
+
+["0.11.4 - 0"]
+FileIO = "1.6.0 - 1"
+IOCapture = ["0.2.4 - 0.2", "1"]
+JLD2 = "0.5 - 0.6"
+QuantumPropagators = "0.9"
+julia = "1.10.0 - 1"
 
 ["0.2"]
 GRAPE = "0.2"
@@ -79,11 +86,11 @@ Krotov = "0.5"
 QuantumControlBase = "0.7"
 QuantumPropagators = "0.3"
 
-["0.6 - 0"]
-FileIO = "1"
-
 ["0.6 - 0.11.0"]
 JLD2 = "0.4"
+
+["0.6 - 0.11.3"]
+FileIO = "1"
 
 ["0.6 - 0.6.1"]
 GRAPE = "0.5.2-0.5"
