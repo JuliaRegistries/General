@@ -4,10 +4,12 @@ LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
-ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
-SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+
+["0 - 0.4"]
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
 ["0.2.1 - 0"]
 TermInterface = "8ea1fca8-c5ef-4a55-8b96-4e9afe9c9a3c"
@@ -24,7 +26,11 @@ Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 ["0.4.1 - 0"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 
-["0.4.3 - 0"]
+["0.4.3 - 0.4"]
 DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.5 - 0"]
+ModelingToolkitBase = "7771a370-6774-4173-bd38-47e70ca0b839"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
