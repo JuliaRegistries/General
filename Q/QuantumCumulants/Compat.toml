@@ -108,8 +108,10 @@ QuantumOpticsBase = "0.4-0.5"
 SymbolicUtils = "3.1.2-3"
 
 ["0.3.3 - 0"]
-Symbolics = "6"
 TermInterface = "2"
+
+["0.3.3 - 0.4"]
+Symbolics = "6"
 
 ["0.3.4 - 0.3.7"]
 SymbolicUtils = "3.6.0-3"
@@ -123,17 +125,28 @@ SecondQuantizedAlgebra = "0.1"
 SymbolicUtils = "3.6-3.24"
 
 ["0.4.1 - 0"]
-Latexify = "0.13 - 0.16"
 LinearAlgebra = "1.10.0 - 1"
-ModelingToolkit = "10"
 OrderedCollections = "1.8.0 - 1"
+julia = "1.10.0 - 1"
+
+["0.4.1 - 0.4"]
+Latexify = "0.13 - 0.16"
+ModelingToolkit = "10"
 QuantumOpticsBase = "0.4 - 0.5"
 SciMLBase = "1 - 2"
 SecondQuantizedAlgebra = "0.4.3 - 0.4"
 SymbolicUtils = "3.6.0 - 3"
-julia = "1.10.0 - 1"
 
-["0.4.3 - 0"]
+["0.4.3 - 0.4"]
 DiffEqNoiseProcess = "5"
 Random = "1.10.0 - 1"
 Test = "1.10.0 - 1"
+
+["0.5 - 0"]
+Latexify = "0.16"
+ModelingToolkitBase = "1.36.0 - 1"
+QuantumOpticsBase = "0.5"
+Reexport = "1"
+SecondQuantizedAlgebra = "0.6.4 - 0.6"
+SymbolicUtils = "4"
+Symbolics = "7.27.0 - 7"

@@ -1,7 +1,5 @@
 [0]
 AbstractTrees = "0.4"
-CategoricalArrays = "0.10"
-CategoricalDistributions = "0.1"
 DataFrames = "1"
 Distributions = "0.25"
 FillArrays = "1"
@@ -42,6 +40,10 @@ ResumableFunctions = "0.6"
 Revise = "3"
 Suppressor = "0.2"
 ThreadsX = "0.1"
+
+["0 - 0.5.2"]
+CategoricalArrays = "0.10"
+CategoricalDistributions = "0.1"
 
 ["0.1.6 - 0.1"]
 StatsBase = "0.33"
@@ -111,3 +113,7 @@ SoleData = "0.16"
 SoleLogics = "0.13"
 SoleModels = "0.10"
 StatsBase = "0.33 - 0.34"
+
+["0.5.3 - 0"]
+CategoricalArrays = ["0.10", "1"]
+CategoricalDistributions = "0.2"
