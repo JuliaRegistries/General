@@ -11,6 +11,9 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 ["0 - 0.3"]
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 
+["0.10 - 0"]
+OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"
+
 ["0.3 - 0.4.5"]
 GalacticOptim = "a75be94c-b780-496d-a8a9-0878b188d577"
 
@@ -23,7 +26,7 @@ ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 ["0.3.3 - 0"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["0.3.6 - 0"]
+["0.3.6 - 0.9"]
 Folds = "41a02a25-b8f0-4f67-bc48-60067656b558"
 Transducers = "28d57a85-8fef-5791-bfe6-a80928e7c999"
 
@@ -44,8 +47,10 @@ SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 GalacticOptimJL = "9d3c5eb1-403b-401b-8c0f-c11105342e6b"
 
 ["0.4.6 - 0"]
-Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
 OptimizationOptimJL = "36348300-93cb-4f02-beb5-3c3902f8871e"
+
+["0.4.6 - 0.9"]
+Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
 
 ["0.7 - 0"]
 LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
