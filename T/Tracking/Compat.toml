@@ -124,7 +124,7 @@ Acquisition = "0.1.1 - 0.1"
 ["0.15.3 - 0.17"]
 GNSSSignals = "0.17.3 - 0.17"
 
-["0.15.3 - 1"]
+["0.15.3 - 2"]
 Accessors = "0.1"
 Dictionaries = "0.4.1 - 0.4"
 DocStringExtensions = "0.6 - 0.9"
@@ -133,6 +133,8 @@ Unitful = ["0.12 - 0.18", "1"]
 
 ["0.15.5 - 1"]
 ConstructionBase = "1.6.0 - 1"
+
+["0.15.5 - 2"]
 julia = "1.10.0 - 1"
 
 ["0.15.6 - 1"]
@@ -158,19 +160,26 @@ julia = ["0.7.0", "1"]
 
 [1]
 LinearAlgebra = "1"
-TrackingLoopFilters = ["0.2", "1"]
 
 ["1 - 1.2"]
 Acquisition = ["0.1.1 - 0.3", "1"]
+
+["1 - 2"]
+TrackingLoopFilters = ["0.2", "1"]
 
 ["1.0"]
 LoopVectorization = "0.8 - 0.12"
 StructArrays = ["0.4", "0.6.5 - 0.7"]
 
-["1.1 - 1"]
+["1.1 - 2"]
 FastSinCos = "1"
 SIMD = "3"
 VectorizationBase = "0.21.72 - 0.21"
 
-["1.2 - 1"]
+["1.2 - 2"]
 Polyester = "0.7.19 - 0.7"
+
+[2]
+BitIntegers = "0.3"
+GNSSSignals = "2.2.2 - 2"
+SpecialFunctions = "1 - 2"
