@@ -28,10 +28,10 @@ TestItemDetection = "1.1.0-1"
 CancellationTokens = "1"
 julia = "1.10.0-1"
 
-["4.7 - 7"]
+["4.7 - 8"]
 AutoHashEquals = "2"
 
-[7]
+["7 - 8"]
 JuliaSyntax = ["0.4", "1"]
 
 ["7.0.0"]
@@ -43,5 +43,22 @@ julia = "1.10.0-1"
 ["7.0.1 - 7"]
 CancellationTokens = "1 - 2"
 Salsa = "2.2.0 - 2"
-TestItemDetection = "1.1.0 - 1"
 julia = "1.10.0 - 1"
+
+["7.0.1 - 8"]
+TestItemDetection = "1.1.0 - 1"
+
+[8]
+CSTParser = "3.3.0 - 3"
+CancellationTokens = "2"
+InteractiveUtils = ["0.0.0", "1"]
+JSONRPC = "3"
+JuliaFormatter = "2"
+LibGit2 = ["0.0.0", "1"]
+REPL = ["0.0.0", "1"]
+Runic = "1"
+SHA = ["0.0.0", "0.7", "1"]
+Salsa = "2.4.0 - 2"
+Scratch = "1.3.0 - 1"
+Sockets = ["0.0.0", "1"]
+julia = "1.11.0 - 1"
