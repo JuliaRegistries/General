@@ -38,10 +38,12 @@ CImGuiPack_jll = "0.7"
 CImGui = "5"
 CImGuiPack_jll = "0.8"
 
+["0.7"]
+julia = "1.6.0 - 1"
+
 ["0.7 - 0"]
 CEnum = "0.4 - 0.5"
 DocStringExtensions = "0.9.3 - 0.9"
-julia = "1.6.0 - 1"
 
 ["0.7 - 0.7.1"]
 CImGui = "6"
@@ -52,6 +54,12 @@ CImGuiPack_jll = "0.9"
 ["0.7.1"]
 CImGuiPack_jll = "0.9 - 0.10"
 
-["0.7.2 - 0"]
+["0.7.2 - 0.7"]
 CImGui = "7"
 CImGuiPack_jll = "0.11"
+
+["0.8 - 0"]
+CImGui = "8"
+CImGuiPack_jll = "0.12.1 - 0.12"
+ConstructionBase = "1"
+julia = "1.10.0 - 1"
