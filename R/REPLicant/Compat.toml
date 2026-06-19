@@ -1,10 +1,18 @@
-[1]
-Sockets = "1"
-
 ["1 - 1.1.0"]
 IOCapture = "0.2"
 julia = "1.10.0-1"
 
+["1 - 2"]
+Sockets = "1"
+
 ["1.1.1 - 1"]
 IOCapture = ["0.2", "1"]
+
+["1.1.1 - 2"]
 julia = "1.10.0 - 1"
+
+[2]
+Dates = "1"
+Logging = "1"
+PrecompileTools = "1"
+Random = "1"
