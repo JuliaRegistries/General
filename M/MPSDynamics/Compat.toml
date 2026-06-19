@@ -1,14 +1,16 @@
 [1]
+ITensorMPS = "0.3"
+ITensors = "0.7"
+Interpolations = ["0.11", "0.15"]
+Jacobi = "0.7"
+
+["1 - 1.2.0"]
 Dates = "1.1.0-1.11"
 DelimitedFiles = "1.1.0-1.9"
 Distributed = "1.1.0-1.11"
 GraphRecipes = "0.4-0.5"
 HDF5 = "0.17.2-0.17"
-ITensorMPS = "0.3"
-ITensors = "0.7"
-Interpolations = ["0.11", "0.15"]
 JLD = "0.13.5-0.13"
-Jacobi = "0.7"
 KrylovKit = "0.8.3-0.8"
 LinearAlgebra = "1.0.0-1.11"
 Logging = "1.5.0-1.11"
@@ -20,3 +22,22 @@ Random = "1.0.0-1.11"
 SpecialFunctions = "2.4.0-2"
 TensorOperations = "4.0.7-4"
 julia = "1.7-1.11"
+
+["1.2.1 - 1"]
+Dates = "1.1.0 - 1.12"
+DelimitedFiles = "1.1.0 - 1.9"
+Distributed = "1.1.0 - 1.12"
+GraphRecipes = "0.4 - 0.5"
+HDF5 = "0.17.2 - 0.17"
+JLD = "0.13.5 - 0.13"
+KrylovKit = "0.8.3 - 0.8"
+LinearAlgebra = "1.0.0 - 1.12"
+Logging = "1.5.0 - 1.12"
+Plots = "1.35.0 - 1.41"
+Preferences = "1.0.0 - 1.4"
+Printf = "1.0.0 - 1.12"
+QuadGK = "2.0.0 - 2.11"
+Random = "1.0.0 - 1.12"
+SpecialFunctions = "2.4.0 - 2"
+TensorOperations = "4.0.7 - 5.3.0"
+julia = "1.7 - 1.12"
