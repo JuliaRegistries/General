@@ -35,8 +35,10 @@ KiteUtils = "0.11.1 - 0.11"
 
 ["0.11 - 0"]
 LinearSolve = "3.59.0 - 3"
-Logging = "1.10.0 - 1"
 NonlinearSolve = "4.11.0 - 4"
+
+["0.11 - 0.11.13"]
+Logging = "1.10.0 - 1"
 
 ["0.11.0"]
 NLSolversBase = "7.10.0 - 7"
@@ -55,6 +57,13 @@ AtmosphericModels = "0.3.4 - 0.3"
 
 ["0.11.11 - 0"]
 KiteUtils = "0.11.8 - 0.11"
+
+["0.11.14 - 0"]
+LinearAlgebra = "1.11.0 - 1"
+Logging = "1.11.0 - 1"
+Pkg = "1.11.0 - 1"
+REPL = "1.11.0 - 1"
+julia = "1.11.0 - 1"
 
 ["0.11.3 - 0.11.10"]
 KiteUtils = "0.11.3 - 0.11"
@@ -376,16 +385,12 @@ SymbolicUtils = "3.25.0 - 3"
 Dierckx = "0.5.4 - 0.5"
 DiffEqBase = "6.161.0 - 6"
 DocStringExtensions = "0.9.4 - 0.9"
-LinearAlgebra = "1.10.0 - 1"
 NLsolve = "4.5.0 - 4"
 OrdinaryDiffEqNonlinearSolve = "1.6.1 - 1"
-Pkg = "1.10.0 - 1"
 PrecompileTools = "1.2.0 - 1"
-REPL = "1.10.0 - 1"
 Reexport = "1.1.0 - 1"
 Rotations = "1.7.0 - 1"
 StaticArrays = "1.9.7 - 1"
-julia = "1.10.0 - 1"
 
 ["0.9 - 0.10"]
 ADTypes = "1.14.0 - 1"
@@ -403,6 +408,12 @@ OrdinaryDiffEqBDF = "1.5.0 - 1"
 OrdinaryDiffEqCore = "1.23.0 - 1"
 Sundials = "4.24.0 - 4"
 WinchModels = "0.3.6 - 0.3"
+
+["0.9 - 0.11.13"]
+LinearAlgebra = "1.10.0 - 1"
+Pkg = "1.10.0 - 1"
+REPL = "1.10.0 - 1"
+julia = "1.10.0 - 1"
 
 ["0.9 - 0.11.9"]
 AtmosphericModels = "0.3"
