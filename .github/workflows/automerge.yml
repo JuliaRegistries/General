@@ -60,7 +60,7 @@ jobs:
       # For debugging purposes, we print this value first
       - name: Print env variable NEED_MERGE_TOKEN
         run: echo "NEED_MERGE_TOKEN=$NEED_MERGE_TOKEN"
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
       - uses: julia-actions/setup-julia@fa02766e078afaaf09b14210362cee14137e6a32 # v3.0.2
         with:
           version: ${{ matrix.version }}
@@ -145,7 +145,7 @@ jobs:
       # For debugging purposes, we print this value first
       - name: Print env variable NEED_MERGE_TOKEN
         run: echo "NEED_MERGE_TOKEN=$NEED_MERGE_TOKEN"
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
       - uses: julia-actions/setup-julia@fa02766e078afaaf09b14210362cee14137e6a32 # v3.0.2
         with:
           version: ${{ matrix.version }}
@@ -208,7 +208,7 @@ jobs:
     environment: stopwatch
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
       - uses: julia-actions/setup-julia@fa02766e078afaaf09b14210362cee14137e6a32 # v3.0.2
         with:
           version: '1.11'
