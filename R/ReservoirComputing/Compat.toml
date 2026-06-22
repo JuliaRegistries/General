@@ -42,7 +42,6 @@ SparseArrays = "1.10.0-1"
 
 ["0.11.4 - 0"]
 LinearAlgebra = "1.10.0 - 1"
-NNlib = "0.9.26 - 0.9"
 Random = "1.10.0 - 1"
 Reexport = "1.2.2 - 1"
 WeightInitializers = "1.0.5 - 1"
@@ -54,14 +53,21 @@ Adapt = "4.1.1 - 4"
 ["0.11.4 - 0.12.11"]
 Compat = "4.16.0 - 4"
 
+["0.11.4 - 0.12.23"]
+NNlib = "0.9.26 - 0.9"
+
 ["0.12 - 0"]
 ArrayInterface = "7.19.0 - 7"
 ConcreteStructs = "0.2.3 - 0.2"
 LuxCore = "1.3.0 - 1"
 Static = "1.2.0 - 1"
 
-["0.12.10 - 0"]
+["0.12.10 - 0.12.23"]
 PrecompileTools = "1"
+
+["0.12.24 - 0"]
+NNlib = "0.9.30 - 0.9"
+PrecompileTools = "1.2.0 - 1"
 
 ["0.6"]
 MLJLinearModels = "0.4-0.5"
