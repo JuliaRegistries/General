@@ -187,7 +187,7 @@ Cassette = "0.3.7-0.3"
 ["1.40 - 1.44.0"]
 DiffEqSensitivity = "6.52.0-6"
 
-["1.40 - 4"]
+["1.40 - 4.6"]
 Reexport = ["0.2", "1"]
 
 ["1.41 - 1.46"]
@@ -225,10 +225,10 @@ Lux = "0.4"
 ["1.5 - 1.26"]
 ReverseDiff = "1.1.0-1"
 
-["1.51 - 4"]
+["1.51 - 4.6"]
 SciMLSensitivity = "7"
 
-["1.52 - 4"]
+["1.52 - 4.6"]
 ChainRulesCore = "1"
 
 ["1.53 - 2"]
@@ -268,7 +268,7 @@ PrecompileTools = "1"
 SciMLBase = "1-2"
 Tracker = "0.2.29-0.2"
 
-["3 - 4"]
+["3 - 4.6"]
 ConcreteStructs = "0.2"
 
 ["3.0"]
@@ -278,7 +278,7 @@ Zygote = "0.5-0.6"
 ["3.1 - 3.5"]
 Zygote = "0.6"
 
-["3.1 - 4"]
+["3.1 - 4.6"]
 Distributions = "0.25"
 
 ["3.2 - 3.5"]
@@ -303,14 +303,11 @@ Boltz = "0.4.2-0.4"
 Lux = "0.5.65-0.5"
 LuxLib = "0.3.50-0.3"
 
-["3.6 - 4"]
-SciMLBase = "2"
-
 ["3.6 - 4.3"]
 ADTypes = "1.5.0-1"
 
-[4]
-LuxCore = "1"
+["3.6 - 4.6"]
+SciMLBase = "2"
 
 ["4 - 4.3"]
 LuxLib = "1.2.0-1"
@@ -320,18 +317,39 @@ Static = "1.1.1-1"
 Boltz = "1"
 Lux = "1"
 
+["4 - 4.6"]
+LuxCore = "1"
+
 ["4.4 - 4"]
-ADTypes = "1.5.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
-LuxLib = "1.2.0 - 1"
 Random = "1.10.0 - 1"
-Setfield = "1.1.1 - 1"
 Static = "1.1.1 - 1"
 julia = "1.10.0 - 1"
 
+["4.4 - 4.6"]
+ADTypes = "1.5.0 - 1"
+LuxLib = "1.2.0 - 1"
+Setfield = "1.1.1 - 1"
+
 ["4.5 - 4"]
 Boltz = "1.7.0 - 1"
+
+["4.5 - 4.6"]
 Lux = "1.22.0 - 1"
 
-["4.6 - 4"]
+["4.6"]
 PrecompileTools = "1"
+
+["4.8 - 4"]
+ADTypes = "1.21.0 - 1"
+ChainRulesCore = "1.25.1 - 1"
+ConcreteStructs = "0.2.3 - 0.2"
+Distributions = "0.25.88 - 0.25"
+Lux = "1.29.0 - 1"
+LuxCore = "1.5.2 - 1"
+LuxLib = "1.12.1 - 1"
+PrecompileTools = "1.2.1 - 1"
+Reexport = "1.2.2 - 1"
+SciMLBase = "3.18.0 - 3"
+SciMLSensitivity = "7.112.0 - 7"
+Setfield = "1.1.2 - 1"
