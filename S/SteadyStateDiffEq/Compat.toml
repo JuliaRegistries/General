@@ -83,8 +83,13 @@ julia = "1.10.0-1"
 ["2.10 - 2"]
 SciMLBase = "2 - 3"
 
-["2.10.1 - 2"]
+["2.10.1 - 2.11.0"]
 DiffEqBase = "6.140.0 - 7"
+
+["2.11.1 - 2"]
+DiffEqBase = "7"
+DiffEqCallbacks = "4.5.0 - 4"
+Reexport = "1.2.2 - 1"
 
 ["2.4.1 - 2.5"]
 DiffEqCallbacks = "3-4"
@@ -96,16 +101,18 @@ NonlinearSolveBase = "1.5.0-1"
 NonlinearSolveBase = "1.5.0 - 1"
 
 ["2.6 - 2"]
-DiffEqCallbacks = "3 - 4"
 julia = "1.10.0 - 1"
 
 ["2.6 - 2.10.0"]
 DiffEqBase = "6.140.0 - 6"
 
+["2.6 - 2.11.0"]
+DiffEqCallbacks = "3 - 4"
+
 ["2.7"]
 NonlinearSolveBase = "2"
 
-["2.7 - 2"]
+["2.7 - 2.11.0"]
 Reexport = "1"
 
 ["2.8 - 2"]
