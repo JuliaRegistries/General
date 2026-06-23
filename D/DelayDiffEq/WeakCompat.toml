@@ -2,8 +2,13 @@
 StochasticDiffEqCore = "1"
 
 ["5.70 - 6"]
-DiffEqNoiseProcess = "5"
 Random = ["0.0.0", "1"]
+
+["5.70 - 6.0.3"]
+DiffEqNoiseProcess = "5"
 
 [6]
 StochasticDiffEqCore = "2"
+
+["6.0.4 - 6"]
+DiffEqNoiseProcess = "5.30.0 - 5"
