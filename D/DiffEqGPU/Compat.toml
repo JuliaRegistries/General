@@ -94,6 +94,8 @@ ArrayInterfaceGPUArrays = "0.1-0.2"
 
 ["1.21 - 3"]
 MuladdMacro = "0.2"
+
+["1.21 - 3.15.0"]
 Parameters = "0.12"
 
 ["1.3"]
@@ -156,11 +158,13 @@ DiffEqBase = "6.205.1 - 6"
 
 ["3.10 - 3"]
 SimpleDiffEq = "1.11.0 - 1"
-StaticArrays = "1.9.0 - 1"
 
 ["3.10 - 3.12"]
 RecursiveArrayTools = "3.37.0 - 3"
 SciMLBase = "2.128.0 - 2"
+
+["3.10 - 3.15.0"]
+StaticArrays = "1.9.0 - 1"
 
 ["3.11"]
 BracketingNonlinearSolve = "1.9.1 - 1"
@@ -180,7 +184,14 @@ ZygoteRules = "0.2.7 - 0.2"
 DiffEqBase = "7"
 ForwardDiff = "1"
 RecursiveArrayTools = "4"
+
+["3.14 - 3.15.0"]
 SciMLBase = "3"
+
+["3.15.1 - 3"]
+Parameters = "0.12 - 0.13"
+SciMLBase = "3.1.0 - 3"
+StaticArrays = "1.9.14 - 1"
 
 ["3.3 - 3"]
 TOML = "1"
