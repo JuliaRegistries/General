@@ -1,3 +1,7 @@
+[0]
+CommonSolve = "0.2"
+Distributions = "0.25"
+
 ["0 - 0.1"]
 Optim = "1.4.0-1"
 
@@ -7,30 +11,24 @@ SciMLBase = "1.19.0-1"
 ["0 - 0.5.1"]
 julia = "1.6.0-1"
 
-["0 - 1"]
-CommonSolve = "0.2"
-Distributions = "0.25"
-
 ["0.2 - 0.4.7"]
 StatsBase = "0.33"
 
 ["0.4.1 - 0.4.8"]
 DistributionsAD = "0.6"
 
-["0.4.10 - 1"]
+["0.4.10 - 0"]
 PDMats = "0.11"
 
 ["0.4.11 - 0"]
 RecursiveArrayTools = "2.25.0-2"
+UnPack = "1"
 
 ["0.4.11 - 0.4.13"]
 DiffEqBase = "6.82.0-6"
 
 ["0.4.11 - 0.4.15"]
 CPUSummary = "0.1.8"
-
-["0.4.11 - 1"]
-UnPack = "1"
 
 ["0.4.14"]
 SciMLBase = "1.38.0-1"
@@ -69,10 +67,26 @@ julia = "1.8.0-1"
 SciMLBase = "1.39.0-2"
 
 [1]
-ChainRulesCore = "1.24.0 - 1"
-DiffEqBase = "6.145.0 - 6"
 LinearAlgebra = "1"
+
+["1.0"]
+ChainRulesCore = "1.24.0 - 1"
+CommonSolve = "0.2"
+DiffEqBase = "6.145.0 - 6"
+Distributions = "0.25"
+PDMats = "0.11"
 PrecompileTools = "1"
 RecursiveArrayTools = "2.34.0 - 2"
 SciMLBase = "1.90.0 - 2"
+UnPack = "1"
 julia = "1.8.0 - 1"
+
+["1.1 - 1"]
+CommonSolve = "0.2.4 - 0.2"
+ConcreteStructs = "0.2.3 - 0.2"
+DiffEqBase = ["6.210.1 - 6", "7.5.0 - 7"]
+PrecompileTools = "1.2.1 - 1"
+SciMLBase = ["2.153.0 - 2", "3.18.0 - 3"]
+StaticArrays = "1.9.8 - 1"
+SymbolicIndexingInterface = "0.3.43 - 0.3"
+julia = "1.10.0 - 1"
