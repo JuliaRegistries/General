@@ -57,7 +57,6 @@ NonlinearSolveBase = "1.4.0 - 1"
 SciMLBase = "2.69.0 - 2"
 
 ["1.6 - 2"]
-ADTypes = "1.9.0 - 1"
 ArrayInterface = "7.16.0 - 7"
 CommonSolve = "0.2.4 - 0.2"
 ConcreteStructs = "0.2.3 - 0.2"
@@ -71,6 +70,9 @@ PrecompileTools = "1.2.0 - 1"
 Setfield = "1.1.1 - 1"
 StaticArraysCore = "1.4.3 - 1"
 julia = "1.10.0 - 1"
+
+["1.6 - 2.1.1"]
+ADTypes = "1.9.0 - 1"
 
 ["1.7 - 2"]
 Reexport = "1.2.2 - 1"
@@ -94,5 +96,9 @@ NonlinearSolveBase = "2.20.0 - 2"
 ["2.1.0"]
 SciMLBase = "2.153.0 - 2"
 
-["2.1.1 - 2"]
+["2.1.1"]
 SciMLBase = "2.153.0 - 3"
+
+["2.1.2 - 2"]
+ADTypes = "1.13.0 - 1"
+SciMLBase = "3.19.0 - 3"
