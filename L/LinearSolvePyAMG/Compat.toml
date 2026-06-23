@@ -2,5 +2,12 @@
 CondaPkg = "0.2"
 LinearSolve = "3"
 PythonCall = "0.9"
-SciMLBase = "2"
 julia = "1.10.0 - 1"
+
+["1.0"]
+SciMLBase = "2"
+
+["1.1 - 1"]
+LinearAlgebra = "1.10.0 - 1"
+SciMLBase = "2.148.0 - 3"
+SparseArrays = "1.10.0 - 1"
