@@ -1,14 +1,25 @@
 [1]
+LinearSolve = "3.46.0 - 3"
 OrdinaryDiffEqCore = "3.30.0 - 3"
+Reexport = "1.2.0 - 1"
 SciMLBase = "2.146.0 - 2"
+SciMLOperators = "1.4.0 - 1"
 
 ["1 - 2"]
 LinearAlgebra = "1.10.0 - 1"
-LinearSolve = "3.46.0 - 3"
-Reexport = "1.2.0 - 1"
-SciMLOperators = "1.4.0 - 1"
 julia = "1.10.0 - 1"
 
 [2]
 OrdinaryDiffEqCore = "4"
+
+["2.0.0"]
+LinearSolve = "3.46.0 - 3"
+Reexport = "1.2.0 - 1"
 SciMLBase = "3"
+SciMLOperators = "1.4.0 - 1"
+
+["2.0.1 - 2"]
+LinearSolve = "3.75.0 - 3"
+Reexport = "1.2.2 - 1"
+SciMLBase = "3.10.0 - 3"
+SciMLOperators = "1.15.0 - 1"
