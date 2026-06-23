@@ -1,24 +1,24 @@
-[0]
-Combinatorics = "1"
-Cumulants = "1"
-DataStructures = "0.18"
-DocStringExtensions = "0.8-0.9"
-TupleTools = "1.2.0-1"
-julia = "1.6.0-1"
-
-["0-0.1"]
+["0 - 0.1"]
 Catalyst = "9-10"
 DiffEqJump = "7-8"
 
-["0-0.2"]
+["0 - 0.2"]
 Distributions = "0.23-0.25"
 Latexify = "0.15.14-0.15"
 ModelingToolkit = "6.5.0-8"
 SymbolicUtils = "0.19"
 Symbolics = "3-4"
 
-["0-0.3.0"]
+["0 - 0.3.0"]
 SciMLBase = "1.8.3-1"
+
+["0 - 0.4.0"]
+Combinatorics = "1"
+Cumulants = "1"
+DataStructures = "0.18"
+DocStringExtensions = "0.8-0.9"
+TupleTools = "1.2.0-1"
+julia = "1.6.0-1"
 
 ["0.2"]
 Catalyst = "11-12"
@@ -29,15 +29,31 @@ ModelingToolkit = "8"
 SymbolicUtils = "1"
 Symbolics = "5"
 
-["0.3-0"]
+["0.3 - 0.4.0"]
 Distributions = "0.25"
 Latexify = "0.15.14-0.16"
 
-["0.3.1-0"]
+["0.3.1 - 0.4.0"]
 SciMLBase = "1.8.3-2"
 
-["0.4-0"]
+["0.4.0"]
 Catalyst = "15"
 ModelingToolkit = "9"
 SymbolicUtils = "3"
 Symbolics = "6"
+
+["0.4.1 - 0"]
+Catalyst = "16.2.0 - 16"
+Combinatorics = "1.0.2 - 1"
+Cumulants = "1.0.6 - 1"
+DataStructures = "0.19.5 - 0.19"
+Distributions = "0.25.127 - 0.25"
+DocStringExtensions = "0.9.5 - 0.9"
+Latexify = "0.16.10 - 0.16"
+ModelingToolkit = "11.26.0 - 11"
+Random = "1"
+SciMLBase = "3.21.0 - 3"
+SymbolicUtils = "4.35.0 - 4"
+Symbolics = "7.28.0 - 7"
+TupleTools = "1.6.0 - 1"
+julia = "1.10.0 - 1"
