@@ -74,10 +74,12 @@ PEtabSelect = "0.1"
 
 [5]
 Lux = "1.24.0 - 1"
-Optim = "2"
 Optimization = "5"
 
-["5.1 - 5"]
+["5 - 5.3"]
+Optim = "2"
+
+["5.1 - 5.3"]
 LikelihoodProfiler = "1.5.0 - 1"
 
 ["5.2 - 5"]
@@ -86,3 +88,7 @@ ModelingToolkitNeuralNets = "2.5.1 - 2"
 ["5.3 - 5"]
 Bijectors = ["0.13", "0.15 - 0.16"]
 Optimisers = "0.4.7 - 0.4"
+
+["5.4 - 5"]
+LikelihoodProfiler = "1.5.2 - 1"
+Optim = "2.2.0 - 2"
