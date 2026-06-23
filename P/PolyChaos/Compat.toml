@@ -25,8 +25,10 @@ QuadGK = "2.1.0-2"
 SpecialFunctions = ["0.7", "0.10"]
 
 ["0.2.2 - 1"]
-AdaptiveRejectionSampling = "0.1"
 GaussQuadrature = "0.5"
+
+["0.2.2 - 1.1.0"]
+AdaptiveRejectionSampling = "0.1"
 
 ["0.2.3"]
 Distributions = "0.23"
@@ -63,6 +65,8 @@ LinearAlgebra = "1"
 QuadGK = "2.4.0 - 2"
 SparseArrays = "1"
 Statistics = "1"
+
+["1 - 1.1.0"]
 julia = "1.6.0 - 1"
 
 ["1.0"]
@@ -72,3 +76,7 @@ SpecialFunctions = ["0.10", "1 - 2"]
 ["1.1 - 1"]
 Distributions = "0.25"
 SpecialFunctions = "1 - 2"
+
+["1.1.1 - 1"]
+AdaptiveRejectionSampling = "0.1 - 0.2"
+julia = "1.10.0 - 1"
