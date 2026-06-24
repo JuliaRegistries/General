@@ -2,7 +2,6 @@
 Adapt = "4.3.0 - 4"
 Combinatorics = "1.0.3 - 1"
 Dictionaries = "0.4"
-EinExprs = "0.6.4 - 0.6"
 GraphRecipes = "0.5.13 - 0.5"
 Graphs = "1.8.0 - 1"
 ITensorMPS = "0.3.17 - 0.3"
@@ -24,5 +23,11 @@ julia = "1.10.0 - 1"
 DataGraphs = "0.2.9 - 0.2"
 ITensorNetworks = "0.14.2 - 0.14"
 
+["0 - 0.3.9"]
+EinExprs = "0.6.4 - 0.6"
+
 ["0.2 - 0"]
 KrylovKit = "0.10.2 - 0.10"
+
+["0.3.10 - 0"]
+OMEinsumContractionOrders = "1.2.0 - 1"
