@@ -2,7 +2,6 @@
 JSONSchema = "1"
 JuMP = "1"
 Pkg = "1"
-PseudoBooleanOptimization = "0.2"
 SQLite = "1"
 TOML = "1"
 
@@ -14,6 +13,9 @@ julia = "1.9.0-1"
 
 ["0 - 0.1.1"]
 JSON = "0.21"
+
+["0 - 0.2.2"]
+PseudoBooleanOptimization = "0.2"
 
 ["0.1.1 - 0"]
 DataFrames = "1.7.0 - 1"
@@ -32,5 +34,9 @@ LazyArtifacts = "1"
 ["0.2 - 0.2.1"]
 QUBOTools = ["0.10", "0.12 - 0.13"]
 
-["0.2.2 - 0"]
+["0.2.2"]
 QUBOTools = ["0.10", "0.12 - 0.14"]
+
+["0.2.3 - 0"]
+PseudoBooleanOptimization = "0.2 - 0.3"
+QUBOTools = ["0.10", "0.12 - 0.15"]
