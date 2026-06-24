@@ -1,13 +1,15 @@
 [0]
 Downloads = "1"
 FileWatching = "1"
-HTTP = "1"
 JSON = "1"
 MIMEs = ["0.1.4 - 0.1", "1"]
 SHA = ["0.7", "1"]
 Sockets = "1"
 TOML = "1"
 UUIDs = "1"
+
+["0 - 0.1"]
+HTTP = "1"
 
 ["0 - 0.1.0"]
 WasmTarget = "0.1.1 - 0.1"
@@ -19,5 +21,11 @@ julia = "1.12"
 WasmTarget = "0.2"
 
 ["0.1.2 - 0"]
-WasmTarget = "0.2 - 0.3"
 julia = "1.12 - 1.13"
+
+["0.1.2 - 0.1"]
+WasmTarget = "0.2 - 0.3"
+
+["0.2 - 0"]
+HTTP = "2.4.0 - 2"
+WasmTarget = "0.3.9 - 0.3"
