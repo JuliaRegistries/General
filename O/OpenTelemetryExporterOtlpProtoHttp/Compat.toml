@@ -1,5 +1,4 @@
 [0]
-HTTP = "1"
 ProtoBuf = "1"
 
 ["0 - 0.1.0"]
@@ -9,6 +8,9 @@ OpenTelemetrySDK = "0.3"
 
 ["0 - 0.1.5"]
 julia = "1.6.0-1"
+
+["0 - 0.1.6"]
+HTTP = "1"
 
 ["0.1.1 - 0.1.5"]
 OpenTelemetryAPI = "0.4-0.5"
@@ -20,3 +22,6 @@ OpenTelemetryAPI = "0.4 - 0.5"
 OpenTelemetryProto = "0.19 - 0.20"
 OpenTelemetrySDK = "0.3 - 0.4"
 julia = "1.6.0 - 1"
+
+["0.1.7 - 0"]
+HTTP = "1 - 2"
