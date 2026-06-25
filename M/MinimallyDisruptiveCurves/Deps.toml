@@ -1,22 +1,31 @@
 [0]
 DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
-FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
-ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
-SteadyStateDiffEq = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
 
 ["0 - 0.1"]
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
 Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
 
+["0 - 0.3"]
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+SteadyStateDiffEq = "9672c7b4-1e72-59bd-8a11-6ac3964bc41f"
+
 ["0.2 - 0"]
 SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
-["0.3 - 0"]
+["0.3"]
 ThreadsX = "ac1d9e8a-700a-412c-b207-f0111f4b6c0d"
 
-["0.3.4 - 0"]
+["0.3.4 - 0.3"]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+
+["0.4 - 0"]
+DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
+PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+SciMLStructures = "53ae85a6-f571-4167-b2af-e1d143709226"
+SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
