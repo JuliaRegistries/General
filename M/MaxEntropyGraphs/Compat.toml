@@ -1,4 +1,4 @@
-["0-0.3"]
+["0 - 0.3"]
 Graphs = "1"
 IndirectArrays = "1"
 LoopVectorization = "0.12"
@@ -6,13 +6,9 @@ NLsolve = "4"
 StatsBase = "0.30"
 julia = "1.6.0-1"
 
-["0.4-0"]
-Combinatorics = "1"
-Distributions = "0.25"
-FiniteDiff = "2"
+["0.4"]
 ForwardDiff = "0.10"
 Graphs = "1.9.0-1"
-MultipleTesting = "0.6"
 NLsolve = "4.5.0-4"
 Optimization = "3.20.0-3"
 OptimizationNLopt = "0.1"
@@ -24,3 +20,27 @@ Revise = "3.5.0-3"
 SimpleWeightedGraphs = "1.4.0-1"
 Zygote = "0.6"
 julia = "1.9.0-1"
+
+["0.4 - 0"]
+Combinatorics = "1"
+Distributions = "0.25"
+FiniteDiff = "2"
+MultipleTesting = "0.6"
+
+["0.5 - 0"]
+ForwardDiff = "1"
+Graphs = "1.9.0 - 1"
+LinearAlgebra = "1"
+Logging = "1"
+NLsolve = "4.5.0 - 4"
+Optimization = "4"
+OptimizationOptimJL = "0.4"
+PrecompileTools = "1.2.0 - 1"
+Preferences = "1.4.0 - 1"
+Printf = "1"
+Random = "1"
+ReverseDiff = "1.15.0 - 1"
+SimpleWeightedGraphs = "1.4.0 - 1"
+SparseArrays = "1"
+Zygote = "0.7"
+julia = "1.10.0 - 1"
