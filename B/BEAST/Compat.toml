@@ -150,6 +150,10 @@ WiltonInts84 = "0.2.5-0.2"
 FastGaussQuadrature = ["0.3-0.5", "1"]
 FillArrays = ["0.11-0.13", "1"]
 
+["2.10 - 2"]
+CompScienceMeshes = "0.11 - 0.12"
+ExtendableSparse = "1.4.0 - 2"
+
 ["2.2 - 2.7.0"]
 LinearMaps = ["3.7-3.9", "3.11.2-3"]
 
@@ -192,7 +196,6 @@ AbstractTrees = "0.4.4 - 0.4"
 BlockArrays = "1"
 CollisionDetection = "0.1.7 - 0.1"
 Compat = "2 - 4"
-ExtendableSparse = "1.4.0 - 1"
 FFTW = ["0.2.3 - 0.2", "1"]
 FastGaussQuadrature = ["0.3 - 0.5", "1"]
 FillArrays = ["0.11 - 0.13", "1"]
@@ -210,6 +213,9 @@ julia = "1.10.0 - 1"
 ["2.7.1 - 2.8"]
 NestedUnitRanges = "0.2.2 - 0.2"
 
+["2.7.1 - 2.9"]
+ExtendableSparse = "1.4.0 - 1"
+
 ["2.7.2 - 2"]
 Krylov = "0.10.1 - 0.10"
 Suppressor = "0.2.8 - 0.2"
@@ -217,8 +223,10 @@ Suppressor = "0.2.8 - 0.2"
 ["2.7.2 - 2.8"]
 CompScienceMeshes = "0.10"
 
-["2.9 - 2"]
+["2.9"]
 CompScienceMeshes = "0.11"
+
+["2.9 - 2"]
 GraphsColoring = "0.2"
 NestedUnitRanges = "0.2.3 - 0.2"
 OhMyThreads = "0.8.3 - 0.8"
