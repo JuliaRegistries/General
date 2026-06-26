@@ -1,5 +1,4 @@
 [0]
-Distributions = "0.25"
 DistributionsAD = "0.6"
 InverseFunctions = "0.1"
 
@@ -22,6 +21,9 @@ ChainRulesCore = "1.15.0-1"
 DataDrivenDiffEq = "1"
 Optim = "1.7.0-1"
 ProgressMeter = "1.7.0-1"
+
+["0 - 0.2.3"]
+Distributions = "0.25"
 
 ["0.2 - 0"]
 AbstractDifferentiation = "0.6"
@@ -49,11 +51,13 @@ ForwardDiff = ["0.10", "1"]
 ["0.2.2"]
 Optimisers = "0.3-0.4"
 
+["0.2.3"]
+DataDrivenDiffEq = "1.14.0 - 1"
+
 ["0.2.3 - 0"]
 ChainRulesCore = "1.15.0 - 1"
 CommonSolve = "0.2.4 - 0.2"
 ConcreteStructs = "0.2.3 - 0.2"
-DataDrivenDiffEq = "1.14.0 - 1"
 DocStringExtensions = "0.9.3 - 0.9"
 IntervalArithmetic = ["0.22 - 0.23", "1"]
 Optim = "1.7.0 - 2"
@@ -61,3 +65,11 @@ Optimisers = "0.3 - 0.4"
 ProgressMeter = "1.7.0 - 1"
 StatsBase = "0.34.3 - 0.34"
 julia = "1.10.0 - 1"
+
+["0.2.4 - 0"]
+DataDrivenDiffEq = "1.15.0 - 1"
+Distributed = "1.10.0 - 1"
+Distributions = "0.25.123 - 0.25"
+LinearAlgebra = "1.10.0 - 1"
+Logging = "1.10.0 - 1"
+Random = "1.10.0 - 1"
