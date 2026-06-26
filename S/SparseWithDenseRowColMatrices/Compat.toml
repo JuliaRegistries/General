@@ -1,8 +1,15 @@
 [0]
 LinearAlgebra = "1"
+SparseArrays = "1"
+julia = "1.10.0 - 1"
+
+["0 - 0.1.0"]
 PrecompileTools = "1"
 PureKLU = "0.1"
-SparseArrays = "1"
 SparseColumnPivotedQR = "0.1"
 SparseMatricesCSR = "0.6"
-julia = "1.10.0 - 1"
+
+["0.1.1 - 0"]
+PrecompileTools = "1.2.0 - 1"
+PureKLU = "1"
+SparseColumnPivotedQR = "2.1.0 - 2"
