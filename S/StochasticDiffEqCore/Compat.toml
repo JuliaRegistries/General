@@ -5,6 +5,16 @@ SciMLBase = "2.146.0 - 2"
 SciMLLogging = "1.7.1 - 1"
 
 ["1 - 2"]
+LinearAlgebra = "1.10.0 - 1"
+Logging = "1.10.0 - 1"
+MuladdMacro = "0.2.4 - 0.2"
+Random = ["0.0.0", "1"]
+SciMLOperators = "1.15.0 - 1"
+SparseArrays = "1.10.0 - 1"
+StaticArrays = "1.9.14 - 1"
+julia = "1.10.0 - 1"
+
+["1 - 2.0.1"]
 ADTypes = "1"
 Adapt = "3 - 4"
 ArrayInterface = "6 - 7"
@@ -14,16 +24,8 @@ FastPower = "1"
 FiniteDiff = "2"
 ForwardDiff = ["0.10.3 - 0.10", "1"]
 JumpProcesses = "9.13.1 - 9"
-LinearAlgebra = "1.10.0 - 1"
-Logging = "1.10.0 - 1"
-MuladdMacro = "0.2.4 - 0.2"
-Random = ["0.0.0", "1"]
 Reexport = ["0.2", "1"]
-SciMLOperators = "1.15.0 - 1"
 SimpleNonlinearSolve = "2"
-SparseArrays = "1.10.0 - 1"
-StaticArrays = "1.9.14 - 1"
-julia = "1.10.0 - 1"
 
 ["1.0"]
 LevyArea = "1"
@@ -36,12 +38,28 @@ StochasticDiffEqLevyArea = "1"
 [2]
 DiffEqBase = "7"
 OrdinaryDiffEqCore = "4"
+StochasticDiffEqLevyArea = "2"
+
+["2 - 2.0.1"]
 RecursiveArrayTools = "4"
 SciMLBase = "3"
-StochasticDiffEqLevyArea = "2"
 
 ["2.0.0"]
 SciMLLogging = "1.7.1 - 1"
 
 ["2.0.1 - 2"]
 SciMLLogging = "1.10.1 - 2"
+
+["2.0.2 - 2"]
+ADTypes = "1.22.0 - 1"
+Adapt = "4.3.0 - 4"
+ArrayInterface = "7.19.0 - 7"
+DiffEqNoiseProcess = "5.30.0 - 5"
+FastPower = "1.1.2 - 1"
+FiniteDiff = "2.27.0 - 2"
+ForwardDiff = ["0.10.39 - 0.10", "1"]
+JumpProcesses = "9.26.0 - 9"
+RecursiveArrayTools = "4.2.0 - 4"
+Reexport = "1.2.2 - 1"
+SciMLBase = "3.10.0 - 3"
+SimpleNonlinearSolve = "2.11.1 - 2"
