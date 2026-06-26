@@ -25,13 +25,18 @@ Catalyst = "14 - 16"
 Downloads = "1"
 ModelingToolkit = ["8 - 9", "11.24.0 - 11"]
 OrdinaryDiffEq = "6 - 7"
-OrdinaryDiffEqRosenbrock = "1 - 2"
 SBML = "1"
 SBMLToolkit = "0.1.32 - 0.1"
 julia = "1.10.0 - 1"
+
+["1 - 1.1.1"]
+OrdinaryDiffEqRosenbrock = "1 - 2"
 
 ["1.0"]
 Sundials = "4"
 
 ["1.1 - 1"]
 Sundials = ["4 - 5", "6.1.0 - 6"]
+
+["1.1.2 - 1"]
+OrdinaryDiffEqRosenbrock = "1.9.0 - 2"
