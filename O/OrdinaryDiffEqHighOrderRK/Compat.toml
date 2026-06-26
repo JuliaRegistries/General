@@ -41,6 +41,8 @@ julia = "1.10.0 - 1"
 SciMLBase = "2"
 
 ["1.4 - 1"]
+MuladdMacro = "0.2"
+Reexport = "1.2.0 - 1"
 Static = "1.2.0 - 1"
 
 ["1.4 - 1.10"]
@@ -50,10 +52,6 @@ RecursiveArrayTools = "3.36.0 - 3"
 ["1.4 - 1.9"]
 DiffEqBase = "6.176.0 - 6"
 SciMLBase = "2.99.0 - 2"
-
-["1.4 - 2"]
-MuladdMacro = "0.2"
-Reexport = "1.2.0 - 1"
 
 ["1.5"]
 OrdinaryDiffEqCore = "1.29.0 - 1"
@@ -67,5 +65,15 @@ OrdinaryDiffEqCore = "3"
 [2]
 DiffEqBase = "7"
 OrdinaryDiffEqCore = "4"
+
+["2.0.0"]
+MuladdMacro = "0.2"
 RecursiveArrayTools = "4"
+Reexport = "1.2.0 - 1"
 SciMLBase = "3"
+
+["2.0.1 - 2"]
+MuladdMacro = "0.2.1 - 0.2"
+RecursiveArrayTools = "4.2.0 - 4"
+Reexport = "1.2.2 - 1"
+SciMLBase = "3.10.0 - 3"
