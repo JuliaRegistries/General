@@ -21,7 +21,7 @@ OrdinaryDiffEqRosenbrock = ["0.0.0", "1"]
 OrdinaryDiffEqTsit5 = ["0.0.0", "1"]
 OrdinaryDiffEqVerner = ["0.0.0", "1"]
 
-["1.11 - 2"]
+["1.11 - 2.2.0"]
 LinearSolve = "3.46.0 - 3"
 
 ["1.12 - 1"]
@@ -67,9 +67,11 @@ DiffEqBase = "6.176.0 - 6"
 SciMLBase = "2.99.0 - 2"
 
 ["1.7 - 2"]
+LinearAlgebra = "1.10.0 - 1"
+
+["1.7 - 2.2.0"]
 ADTypes = "1.16.0 - 1"
 EnumX = "1"
-LinearAlgebra = "1.10.0 - 1"
 PrecompileTools = "1.2.0 - 1"
 Preferences = "1.4.0 - 1"
 Reexport = "1.2.0 - 1"
@@ -93,4 +95,15 @@ OrdinaryDiffEqCore = "4"
 OrdinaryDiffEqRosenbrock = "2"
 OrdinaryDiffEqTsit5 = "2"
 OrdinaryDiffEqVerner = "2"
+
+["2 - 2.2.0"]
 SciMLBase = "3"
+
+["2.2.1 - 2"]
+ADTypes = "1.22.0 - 1"
+EnumX = "1.0.4 - 1"
+LinearSolve = "3.75.0 - 3"
+PrecompileTools = "1.2.1 - 1"
+Preferences = "1.5.0 - 1"
+Reexport = "1.2.2 - 1"
+SciMLBase = "3.10.0 - 3"
