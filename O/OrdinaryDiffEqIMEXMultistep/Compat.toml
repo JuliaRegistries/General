@@ -49,16 +49,16 @@ julia = "1.10.0 - 1"
 ["1.5"]
 SciMLBase = "2"
 
+["1.6 - 1"]
+ADTypes = "1.16.0 - 1"
+Reexport = "1.2.0 - 1"
+
 ["1.6 - 1.11"]
 DiffEqBase = "6.176.0 - 6"
 SciMLBase = "2.99.0 - 2"
 
 ["1.6 - 1.13"]
 FastBroadcast = "0.3"
-
-["1.6 - 2"]
-ADTypes = "1.16.0 - 1"
-Reexport = "1.2.0 - 1"
 
 ["1.7"]
 OrdinaryDiffEqCore = "1.29.0 - 1"
@@ -77,4 +77,13 @@ DiffEqBase = "7"
 OrdinaryDiffEqCore = "4"
 OrdinaryDiffEqDifferentiation = "3"
 OrdinaryDiffEqNonlinearSolve = "2"
+
+["2.0.0"]
+ADTypes = "1.16.0 - 1"
+Reexport = "1.2.0 - 1"
 SciMLBase = "3"
+
+["2.0.1 - 2"]
+ADTypes = "1.22.0 - 1"
+Reexport = "1.2.2 - 1"
+SciMLBase = "3.10.0 - 3"
