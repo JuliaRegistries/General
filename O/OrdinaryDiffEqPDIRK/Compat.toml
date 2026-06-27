@@ -71,7 +71,7 @@ FastBroadcast = "0.3"
 ["1.5 - 1.13"]
 StaticArrays = "1.9.0 - 1"
 
-["1.5 - 2"]
+["1.5 - 2.1.0"]
 ADTypes = "1.16.0 - 1"
 MuladdMacro = "0.2"
 Reexport = "1.2.0 - 1"
@@ -93,4 +93,12 @@ DiffEqBase = "7"
 OrdinaryDiffEqCore = "4"
 OrdinaryDiffEqDifferentiation = "3"
 OrdinaryDiffEqNonlinearSolve = "2"
+
+["2 - 2.1.0"]
 SciMLBase = "3"
+
+["2.1.1 - 2"]
+ADTypes = "1.22.0 - 1"
+MuladdMacro = "0.2.1 - 0.2"
+Reexport = "1.2.2 - 1"
+SciMLBase = "3.10.0 - 3"
