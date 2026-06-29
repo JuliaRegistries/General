@@ -85,13 +85,15 @@ Pkg = "1"
 ["0.11 - 0"]
 Dates = "1"
 Distributed = "1"
-InteractiveUtils = "1"
 LinearAlgebra = "1"
 Logging = "1"
 Printf = "1"
 Random = "1"
 SparseArrays = "1"
 SpecialFunctions = "2"
+
+["0.11 - 0.16"]
+InteractiveUtils = "1"
 StatsFuns = "1"
 
 ["0.12"]
@@ -101,22 +103,17 @@ MLJ = "0.19.2 - 0.20"
 YAXArrays = "0.5 - 0.6"
 
 ["0.12 - 0"]
-BlackBoxOptim = "0.6"
 CoralBlox = "1"
-DataEnvelopmentAnalysis = "0.9.1 - 0.9"
-DimensionalData = ["0.25 - 0.27", "0.29"]
 GDAL_jll = "301.900.0 - 301"
 GeoDataFrames = "0.3 - 0.4"
 Glob = "1.3.1 - 1"
 Graphs = "1.4.0 - 1"
-HypothesisTests = "0.10 - 0.11"
 LERC_jll = "3 - 4"
 NetCDF = "0.11 - 0.12"
 OnlineStats = "1.5.0 - 1"
 PkgVersion = "0.2 - 0.3"
 QuasiMonteCarlo = "0.3.3 - 0.3"
 StatsBase = "0.33 - 0.34"
-Zarr = "0.9"
 
 ["0.12 - 0.13"]
 ArchGDAL = "0.9 - 0.10"
@@ -124,6 +121,13 @@ SIRUS = "1.3.0 - 2"
 
 ["0.12 - 0.15"]
 julia = "1.10.0 - 1"
+
+["0.12 - 0.16"]
+BlackBoxOptim = "0.6"
+DataEnvelopmentAnalysis = "0.9.1 - 0.9"
+DimensionalData = ["0.25 - 0.27", "0.29"]
+HypothesisTests = "0.10 - 0.11"
+Zarr = "0.9"
 
 ["0.13"]
 MLJ = "0.20 - 0.21"
@@ -140,7 +144,7 @@ YAXArrays = "0.5 - 0.7"
 ["0.14"]
 ArchGDAL = "0.10"
 
-["0.14 - 0"]
+["0.14 - 0.16"]
 MLJ = "0.20 - 0.22"
 SIRUS = "1.3.0 - 3"
 
@@ -149,11 +153,20 @@ ADRIAIndicators = "0.1.1 - 0.1"
 
 ["0.15 - 0"]
 ArchGDAL = "0.9 - 0.10"
+
+["0.15 - 0.16"]
 YAXArrays = "0.5 - 0.6"
 
 ["0.16 - 0"]
 ADRIAIndicators = "0.2.1 - 0.2"
 julia = "1.11.0 - 1"
+
+["0.17 - 0"]
+DimensionalData = "0.29 - 0.30"
+OrderedCollections = "1 - 2"
+StatsFuns = "1 - 2"
+YAXArrays = "0.6 - 0.7"
+Zarr = "0.9 - 0.10"
 
 ["0.4.5 - 0.11"]
 ArchGDAL = "0.9-0.10"
@@ -166,7 +179,6 @@ AxisKeys = "0.2"
 
 ["0.6 - 0"]
 Clustering = "0.15"
-OrderedCollections = "1"
 PrecompileTools = "1"
 Reexport = "1"
 SimpleWeightedGraphs = "1"
@@ -179,19 +191,24 @@ Zarr = ["0.7-0.9", "1"]
 ["0.6 - 0.12"]
 JMcDM = "0.7"
 
+["0.6 - 0.16"]
+OrderedCollections = "1"
+
 ["0.6 - 0.7"]
 ImageMagick = "1"
 
-["0.7 - 0"]
+["0.7 - 0.16"]
 JuliennedArrays = "0.4"
 
 ["0.8 - 0"]
-FLoops = "0.2"
 ImageIO = "0.6"
-StableRNGs = "1"
 
 ["0.8 - 0.10"]
 SparseArrayKit = "0.2-0.3"
+
+["0.8 - 0.16"]
+FLoops = "0.2"
+StableRNGs = "1"
 
 ["0.8 - 0.9"]
 MLJ = "0.19.2-0.19"
