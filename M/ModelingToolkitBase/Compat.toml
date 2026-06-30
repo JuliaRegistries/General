@@ -2,7 +2,6 @@
 ADTypes = "1.14.0 - 1"
 AbstractTrees = "0.3 - 0.4"
 ArrayInterface = "6 - 7"
-BipartiteGraphs = "0.1"
 BlockArrays = "1.1.0 - 1"
 Combinatorics = "1"
 CommonSolve = "0.2.4 - 0.2"
@@ -15,13 +14,11 @@ EnumX = "1.0.4 - 1"
 ExprTools = "0.1.10 - 0.1"
 FillArrays = "1.13.0 - 1"
 ForwardDiff = ["0.10.3 - 0.10", "1"]
-FunctionWrappers = "1.1.0 - 1"
 Graphs = "1.5.2 - 1"
 InteractiveUtils = "1"
 Libdl = "1"
 LinearAlgebra = "1"
 NaNMath = ["0.3", "1"]
-OffsetArrays = "1"
 OrderedCollections = "1"
 REPL = "1"
 Random = "1"
@@ -69,6 +66,11 @@ ImplicitDiscreteSolve = ["0.1.2 - 0.1", "1"]
 
 ["1 - 1.42.1"]
 DomainSets = "0.6 - 0.7"
+
+["1 - 1.48"]
+BipartiteGraphs = "0.1"
+FunctionWrappers = "1.1.0 - 1"
+OffsetArrays = "1"
 
 ["1 - 1.6.2"]
 Symbolics = "7.1.1 - 7"
@@ -130,7 +132,7 @@ DiffEqBase = "6.210.0 - 7"
 ["1.31 - 1.42"]
 SciMLBase = "2.149.0 - 3"
 
-["1.32 - 1"]
+["1.32 - 1.48"]
 ImplicitDiscreteSolve = ["0.1.2 - 0.1", "1 - 2"]
 
 ["1.34 - 1"]
@@ -167,6 +169,12 @@ SymbolicUtils = "4.35.2 - 4"
 
 ["1.45.1 - 1"]
 SCCNonlinearSolve = "1.13.0 - 1"
+
+["1.49 - 1"]
+BipartiteGraphs = "0.1.3 - 0.1"
+FunctionWrappers = "1.1.2 - 1"
+ImplicitDiscreteSolve = ["0.1.2 - 0.1", "1", "2.1.2 - 2"]
+OffsetArrays = "1.3.0 - 1"
 
 ["1.6.3 - 1.11"]
 Symbolics = "7.8.0 - 7"
