@@ -1,4 +1,4 @@
-[1]
+["1 - 2"]
 LinearAlgebra = "1"
 NMF = "1"
 TSVD = "0.4"
@@ -13,11 +13,14 @@ GsvdInitialization = "0.1"
 ["1.0.1 - 1"]
 GsvdInitialization = "1"
 
-["1.1 - 1"]
+["1.1 - 2"]
 julia = "1.10.0 - 1"
 
 ["1.1.0"]
 DataStructures = "0.18 - 0.19"
 
-["1.1.1 - 1"]
+["1.1.1 - 2"]
 DataStructures = "0.19"
+
+[2]
+GsvdInitialization = "2"
