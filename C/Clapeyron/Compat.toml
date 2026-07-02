@@ -141,7 +141,6 @@ julia = "1.10.0-1"
 DiffResults = "1.1.0 - 1"
 FillArrays = ["0.12 - 0.13", "1"]
 ForwardDiff = ["0.10.36 - 0.10", "1"]
-OrderedCollections = "1.5.0 - 1"
 PackedVectorsOfVectors = "0.1.2 - 0.1"
 Scratch = "1.1.0 - 1"
 StaticArrays = "1.5.9 - 1"
@@ -157,6 +156,9 @@ Roots = "2.1.0 - 2"
 
 ["0.6.14 - 0.6.24"]
 LogExpFunctions = "0.3.24 - 0.3"
+
+["0.6.14 - 0.6.25"]
+OrderedCollections = "1.5.0 - 1"
 
 ["0.6.20 - 0"]
 DifferentiationInterface = "0.6 - 0.7"
@@ -175,3 +177,7 @@ Roots = "2.1.0 - 3"
 
 ["0.6.25 - 0"]
 LogExpFunctions = ["0.3.24 - 0.3", "1"]
+
+["0.6.26 - 0"]
+OrderedCollections = "1.5.0 - 2"
+SciMLPublic = "1"
