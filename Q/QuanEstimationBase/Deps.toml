@@ -2,7 +2,6 @@
 Convex = "f65535da-76fb-5f13-bab9-19810c17039a"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
@@ -11,7 +10,6 @@ OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 SCS = "c946c3f1-0d1f-5ce8-9dea-7daa1f7e2d13"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
@@ -20,9 +18,16 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Trapz = "592b5752-818d-11e9-1e9a-2b8ca4a44cd1"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
+["0 - 0.1"]
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+
 ["0 - 0.1.0"]
 BoundaryValueDiffEq = "764a87c0-6b3e-53db-9096-fe964310641d"
 
 ["0.1.1 - 0"]
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
 Crayons = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
+
+["0.2 - 0"]
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
