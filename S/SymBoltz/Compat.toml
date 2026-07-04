@@ -39,7 +39,7 @@ MatterPower = "0.5"
 ["0.1.1 - 0.5"]
 SciMLBase = "2.72.2-2"
 
-["0.10.1 - 1"]
+["0.10.1 - 1.5"]
 OrdinaryDiffEqNonlinearSolve = "1.12.0 - 1"
 OrdinaryDiffEqRosenbrock = "1.14.0 - 1"
 OrdinaryDiffEqSDIRK = "1.6.0 - 1"
@@ -112,7 +112,6 @@ QuadGK = "2.11.1 - 2"
 RecipesBase = "1.3.4 - 1"
 RecursiveFactorization = "0.2.23 - 0.2"
 Reexport = "1.2.2 - 1"
-SciMLBase = "2.72.2 - 2"
 SciMLStructures = "1.7.0 - 1"
 Setfield = "1.1.1 - 1"
 SymbolicIndexingInterface = "0.3.38 - 0.3"
@@ -125,6 +124,9 @@ Integrals = "4.5.0 - 4"
 LinearAlgebra = "1.11.0 - 1"
 PreallocationTools = "0.4.25 - 0.4"
 julia = "1.11.0 - 1"
+
+["0.6 - 1.5"]
+SciMLBase = "2.72.2 - 2"
 
 ["0.7 - 0.14.0"]
 LinearSolve = "3.19"
@@ -163,5 +165,16 @@ ModelingToolkitBase = "1.29"
 ["1.4.2 - 1"]
 ModelingToolkitBase = "1"
 
-["1.5 - 1"]
+["1.5"]
 OrdinaryDiffEqDifferentiation = "2.7"
+
+["1.6 - 1"]
+FastChebInterp = "1"
+ModelingToolkitTearing = "1.17"
+OrdinaryDiffEqDifferentiation = "2.7.0 - 3"
+OrdinaryDiffEqNonlinearSolve = "1.12.0 - 2"
+OrdinaryDiffEqRosenbrock = "1.14.0 - 2"
+OrdinaryDiffEqSDIRK = "1.6.0 - 2"
+OrdinaryDiffEqTsit5 = "1.5.0 - 2"
+SciMLBase = "2.72.2 - 3"
+SciMLLogging = "1 - 2"
