@@ -15,11 +15,11 @@ FunctionProperties = "0.1.2-0.1"
 ["1 - 1.7"]
 DifferentiationInterface = "0.6.16-0.6"
 
-["1 - 2"]
-FastClosures = "0.3"
-
 ["1 - 2.22"]
 RecursiveArrayTools = "3"
+
+["1 - 2.31"]
+FastClosures = "0.3"
 
 ["1 - 2.31.1"]
 EnzymeCore = "0.8"
@@ -56,7 +56,6 @@ SymbolicIndexingInterface = "0.3.36 - 0.3"
 ["1.13 - 2"]
 ADTypes = "1.9.0 - 1"
 Adapt = "4.1.0 - 4"
-ArrayInterface = "7.9.0 - 7"
 CommonSolve = "0.2.4 - 0.2"
 Compat = "4.15.0 - 4"
 ConcreteStructs = "0.2.3 - 0.2"
@@ -70,6 +69,9 @@ StaticArraysCore = "1.4.0 - 1"
 TimerOutputs = "0.5.23 - 0.5"
 julia = "1.10.0 - 1"
 
+["1.13 - 2.31"]
+ArrayInterface = "7.9.0 - 7"
+
 ["1.15 - 1.16.0"]
 DifferentiationInterface = "0.7.3 - 0.7"
 
@@ -82,7 +84,7 @@ SymbolicIndexingInterface = "0.3.43 - 0.3"
 ["1.15 - 2.2"]
 SciMLBase = "2.116.0 - 2"
 
-["1.16.1 - 2"]
+["1.16.1 - 2.31"]
 DifferentiationInterface = "0.6.16 - 0.7"
 
 ["1.4 - 1.5"]
@@ -153,6 +155,11 @@ FunctionWrappers = "1.1.2 - 1"
 
 ["2.31.2 - 2"]
 EnzymeCore = "0.8.16 - 0.8"
+
+["2.32 - 2"]
+ArrayInterface = "7.16.0 - 7"
+DifferentiationInterface = "0.7.3 - 0.7"
+FastClosures = "0.3.2 - 0.3"
 
 ["2.6 - 2.25.0"]
 SciMLLogging = "1.7.0 - 1"
