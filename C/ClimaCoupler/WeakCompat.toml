@@ -1,20 +1,30 @@
 ["0.2 - 0"]
 Adapt = "4"
 CairoMakie = "0.15"
-ClimaAtmos = "0.39"
 ClimaCoreMakie = "0.4"
-ClimaLand = "1.8.0 - 1"
-ClimaOcean = "0.9.5 - 0.9"
-ClimaSeaIce = "0.4"
 GeoMakie = "0.7"
 KernelAbstractions = "0.9"
 Makie = "0.24"
-Oceananigans = "0.107"
 Poppler_jll = "24"
 Printf = "1"
+
+["0.2 - 0.2.1"]
+ClimaAtmos = "0.39"
+ClimaLand = "1.8.0 - 1"
+ClimaOcean = "0.9.5 - 0.9"
+ClimaSeaIce = "0.4"
+Oceananigans = "0.107"
 
 ["0.2.0"]
 ConservativeRegridding = "0.2.1 - 0.2"
 
-["0.2.1 - 0"]
+["0.2.1"]
 ConservativeRegridding = "0.2.1 - 0.2.3"
+
+["0.2.2 - 0"]
+ClimaAtmos = "0.41"
+ClimaLand = ["1.9.0", "1.10.1 - 1"]
+ClimaOcean = "0.10"
+ClimaSeaIce = "0.5"
+ConservativeRegridding = "0.2.5 - 0.2"
+Oceananigans = "0.110 - 0.111"
