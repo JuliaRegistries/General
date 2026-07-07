@@ -114,15 +114,17 @@ GeometricEquations = "0.19"
 
 ["0.4.5 - 0"]
 AbstractNeuralNetworks = "0.5 - 0.6"
-HDF5 = "0.16 - 0.17"
 NNlib = "0.8 - 0.9"
 StatsBase = "0.33 - 0.34"
 ZygoteRules = "0.2.7 - 0.2"
-julia = "1.8.0 - 1"
 
 ["0.4.5 - 0.4.6"]
 GeometricSolutions = "0.5"
 Symbolics = "6.22.0 - 6"
+
+["0.4.5 - 0.4.7"]
+HDF5 = "0.16 - 0.17"
+julia = "1.8.0 - 1"
 
 ["0.4.6"]
 GeometricBase = "0.11 - 0.12"
@@ -133,3 +135,6 @@ GeometricBase = "0.14"
 GeometricEquations = "0.21"
 GeometricSolutions = "0.6"
 Symbolics = "7"
+
+["0.4.8 - 0"]
+julia = "1.9.0 - 1"
