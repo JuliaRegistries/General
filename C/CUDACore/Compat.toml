@@ -5,7 +5,6 @@ CEnum = "0.2 - 0.5"
 CUDA_Compiler_jll = "0.3 - 0.4"
 CUDA_Driver_jll = "13"
 ExprTools = "0.1"
-GPUToolbox = "1.1.0 - 1"
 KernelAbstractions = "0.9.38 - 0.9"
 LLVMLoopInfo = "1"
 LazyArtifacts = "1"
@@ -26,6 +25,9 @@ CUDA_Runtime_jll = "0.21"
 GPUCompiler = "1.4.0 - 1.17"
 LLVM = "9.3.1 - 9"
 
+["6 - 6.2.0"]
+GPUToolbox = "1.1.0 - 1"
+
 ["6.0"]
 CUDA_Runtime_Discovery = "1"
 GPUArrays = "11.4.1 - 11"
@@ -42,3 +44,6 @@ GPUArrays = "11.5.4 - 11"
 GPUCompiler = "1.19.0 - 1"
 LLVM = "9.6.0 - 9"
 NVPTX_LLVM_Backend_jll = "22"
+
+["6.2.1 - 6"]
+GPUToolbox = "3"
