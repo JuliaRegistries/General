@@ -1,8 +1,8 @@
-[0]
-julia = "1"
-
 ["0 - 0.1.5"]
 Dierckx = "0.5"
+
+["0 - 0.1.8"]
+julia = "1"
 
 ["0.1.6"]
 Interpolations = "0.14"
@@ -12,3 +12,8 @@ Interpolations = "0.14-0.15"
 
 ["0.1.8 - 0"]
 Interpolations = "0.14 - 0.15"
+
+["0.1.9 - 0"]
+ClimaInterpolations = "0.1.1 - 0.1"
+StaticArrays = "1"
+julia = "1.9.0 - 1"
