@@ -1,10 +1,8 @@
 [0]
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
-Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 PositiveFactorizations = "85a6dd25-e78a-55b7-8502-1745935b8125"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
@@ -15,8 +13,14 @@ ValueShapes = "136a8f8c-c49b-4edb-8b98-f3d64d48be8f"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
+["0 - 0.4"]
+IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+
 ["0.2 - 0"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+
+["0.2 - 0.4"]
 DistributionsAD = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
 
 ["0.2.5 - 0"]
@@ -36,3 +40,8 @@ AffineMaps = "2c83c9a8-abf5-4329-a0d7-deffaf474661"
 DensityInterface = "b429d917-457f-4dbc-8f4c-0cc954292b1d"
 IrrationalConstants = "92d709cd-6900-40b7-9082-c6be49f344b6"
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
+
+["0.5 - 0"]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+PSIS = "ce719bf2-d5d0-4fb9-925d-10a81b42ad04"
+ReactantCore = "a3311ec8-5e00-46d5-b541-4f83e724a433"
