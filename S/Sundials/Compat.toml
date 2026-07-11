@@ -128,7 +128,6 @@ Accessors = "0.1.38 - 0.1"
 ArrayInterface = "7.17.1 - 7"
 Libdl = "1"
 LinearAlgebra = "1"
-LinearSolve = "3.40.0 - 3"
 Logging = "1"
 SparseArrays = "1"
 Sundials_jll = "7.4.1 - 7"
@@ -137,6 +136,9 @@ julia = "1.10.0 - 1"
 
 ["5 - 6.2.1"]
 DataStructures = "0.18 - 0.19"
+
+["5 - 6.4.0"]
+LinearSolve = "3.40.0 - 3"
 
 ["5.0"]
 NonlinearSolveBase = "1.16.0 - 1"
@@ -153,7 +155,7 @@ SciMLLogging = "1.9.1 - 1"
 ["5.2 - 6.3"]
 SciMLBase = "2.119.0 - 3"
 
-["5.3 - 6"]
+["5.3 - 6.4.0"]
 DiffEqBase = "6.217.0 - 7"
 
 ["6.2.1 - 6"]
@@ -164,3 +166,7 @@ DataStructures = "0.19"
 
 ["6.4 - 6"]
 SciMLBase = "3.35.0 - 3"
+
+["6.4.1 - 6"]
+DiffEqBase = "7.4.2 - 7"
+LinearSolve = "3.40.0 - 5"
