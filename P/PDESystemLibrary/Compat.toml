@@ -29,11 +29,20 @@ OrdinaryDiffEq = "6 - 7"
 OrdinaryDiffEqSDIRK = "1.2.0 - 2"
 
 ["0.1.3 - 0"]
-DomainSets = "0.6 - 0.7"
 SciMLBase = ["2.69.0 - 2", "3.1.0 - 3"]
 
-["0.1.4 - 0"]
+["0.1.3 - 0.1.4"]
+DomainSets = "0.6 - 0.7"
+
+["0.1.4"]
 ModelingToolkit = ["9.7.1 - 10", "11.27.0 - 11"]
+
+["0.1.4 - 0"]
 OrdinaryDiffEq = "6.80.0 - 7"
 OrdinaryDiffEqSDIRK = "1.7.0 - 2"
 Random = "1"
+
+["0.1.5 - 0"]
+DomainSets = "0.7.17 - 0.8"
+FunctionMaps = "0.1"
+ModelingToolkit = "11.30.1 - 11"
