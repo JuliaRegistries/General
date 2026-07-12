@@ -45,8 +45,10 @@ SciMLOperators = ["0.3.9 - 0.4", "1"]
 OrdinaryDiffEqCore = "1.1.0 - 1"
 
 ["1.4 - 2"]
-ExponentialUtilities = "1.27.0 - 1"
 julia = "1.10.0 - 1"
+
+["1.4 - 2.1.0"]
+ExponentialUtilities = "1.27.0 - 1"
 
 ["1.5 - 1"]
 Reexport = "1.2.0 - 1"
@@ -87,5 +89,11 @@ SciMLBase = "3.10.0 - 3"
 SciMLOperators = "1.15.0 - 1"
 
 ["2.1 - 2"]
-SciMLBase = "3.30.0 - 3"
 SciMLOperators = "1.23.0 - 1"
+
+["2.1.0"]
+SciMLBase = "3.30.0 - 3"
+
+["2.1.1 - 2"]
+ExponentialUtilities = "1.33.0 - 1"
+SciMLBase = "3.35.1 - 3"
