@@ -10,10 +10,12 @@ ForwardDiff = "0.10"
 Yao = "0.8"
 
 [1]
+julia = "1.10.0 - 1"
+
+["1 - 1.1.2"]
 ChainRulesCore = "1.15.0 - 1"
 Optimisers = "0.2 - 0.4"
 Zygote = "0.6 - 0.8"
-julia = "1.10.0 - 1"
 
 ["1.0.0"]
 SciMLBase = "1 - 2"
@@ -29,3 +31,8 @@ ForwardDiff = ["0.10", "1.4.0 - 1"]
 
 ["1.1.2 - 1"]
 Yao = "0.9.2 - 0.9"
+
+["1.1.3 - 1"]
+ChainRulesCore = "1.20.0 - 1"
+Optimisers = "0.3 - 0.4"
+Zygote = "0.7.11 - 0.8"
