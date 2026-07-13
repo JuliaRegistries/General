@@ -4,14 +4,12 @@ Accessors = "0.1"
 ColorTypes = "0.11.2 - 0.12"
 ConcreteStructs = "0.2.3 - 0.2"
 ConstructionBase = "1"
-DataInterpolations = "7.2.0 - 8"
 DiffEqCallbacks = "3 - 4"
 DocStringExtensions = "0.9"
 LinearAlgebra = "1"
 PrecompileTools = "1"
 RecipesBase = "1"
 Reexport = "1"
-Roots = "2"
 SavitzkyGolay = "0.9.1 - 0.9"
 SpecialFunctions = "1 - 2"
 Unitful = "1.20.0 - 1"
@@ -27,6 +25,10 @@ TransformVariables = "0.8.17 - 0.8"
 OrdinaryDiffEqNonlinearSolve = "1"
 OrdinaryDiffEqRosenbrock = "1"
 
+["0 - 0.4.2"]
+DataInterpolations = "7.2.0 - 8"
+Roots = "2"
+
 ["0.3.2 - 0.3"]
 TransformVariables = "0.8.19 - 0.8"
 
@@ -41,3 +43,7 @@ OrdinaryDiffEqRosenbrock = "1 - 2"
 
 ["0.4.2 - 0"]
 Interpolations = "0.16.2 - 0.16"
+
+["0.4.3 - 0"]
+DataInterpolations = "7.2.0 - 9"
+Roots = "2 - 3"
