@@ -9,9 +9,7 @@ LinearAlgebra = "1.10.0 - 1"
 Logging = "1.10.0 - 1"
 MuladdMacro = "0.2.4 - 0.2"
 Random = ["0.0.0", "1"]
-SciMLOperators = "1.15.0 - 1"
 SparseArrays = "1.10.0 - 1"
-StaticArrays = "1.9.14 - 1"
 julia = "1.10.0 - 1"
 
 ["1 - 2.0.1"]
@@ -26,6 +24,10 @@ ForwardDiff = ["0.10.3 - 0.10", "1"]
 JumpProcesses = "9.13.1 - 9"
 Reexport = ["0.2", "1"]
 SimpleNonlinearSolve = "2"
+
+["1 - 2.0.2"]
+SciMLOperators = "1.15.0 - 1"
+StaticArrays = "1.9.14 - 1"
 
 ["1.0"]
 LevyArea = "1"
@@ -50,6 +52,9 @@ SciMLLogging = "1.7.1 - 1"
 ["2.0.1 - 2"]
 SciMLLogging = "1.10.1 - 2"
 
+["2.0.2"]
+SciMLBase = "3.10.0 - 3"
+
 ["2.0.2 - 2"]
 ADTypes = "1.22.0 - 1"
 Adapt = "4.3.0 - 4"
@@ -61,5 +66,10 @@ ForwardDiff = ["0.10.39 - 0.10", "1"]
 JumpProcesses = "9.26.0 - 9"
 RecursiveArrayTools = "4.2.0 - 4"
 Reexport = "1.2.2 - 1"
-SciMLBase = "3.10.0 - 3"
 SimpleNonlinearSolve = "2.11.1 - 2"
+
+["2.0.3 - 2"]
+CommonSolve = "0.2.6 - 0.2"
+SciMLBase = "3.35.1 - 3"
+SciMLOperators = "1.23.0 - 1"
+StaticArrays = "1.9.18 - 1"
