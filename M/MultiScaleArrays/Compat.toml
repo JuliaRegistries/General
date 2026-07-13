@@ -11,15 +11,11 @@ Statistics = ["0.7", "1"]
 ["1.10.1 - 1.13"]
 SparseDiffTools = "1.6.0-2"
 
-["1.11 - 1"]
+["1.11 - 2"]
 Statistics = "1"
 
 ["1.12 - 1.13"]
 RecursiveArrayTools = "1-3"
-
-["1.14 - 1"]
-FiniteDiff = "2.3.0 - 2"
-julia = "1.10.0 - 1"
 
 ["1.14 - 1.15"]
 OrdinaryDiffEq = "5.33.0 - 6"
@@ -33,6 +29,10 @@ DiffEqBase = "6.5.0 - 6"
 ["1.14 - 1.22"]
 StochasticDiffEq = "6.13.0 - 6"
 
+["1.14 - 2"]
+FiniteDiff = "2.3.0 - 2"
+julia = "1.10.0 - 1"
+
 ["1.15"]
 OrdinaryDiffEqCore = "1"
 
@@ -41,9 +41,6 @@ OrdinaryDiffEqRosenbrock = "1.17.0 - 1"
 
 ["1.16"]
 OrdinaryDiffEqCore = "1.30.0 - 1"
-
-["1.16 - 1"]
-DifferentiationInterface = "0.7.7 - 0.7"
 
 ["1.16 - 1.18"]
 OrdinaryDiffEqDifferentiation = "1.16.0 - 1"
@@ -54,10 +51,13 @@ SciMLBase = "2.116.0 - 2"
 ["1.16 - 1.21"]
 OrdinaryDiffEq = "6"
 
+["1.16 - 2"]
+DifferentiationInterface = "0.7.7 - 0.7"
+
 ["1.17"]
 OrdinaryDiffEqCore = "1.30.0 - 2"
 
-["1.17 - 1"]
+["1.17 - 2"]
 ForwardDiff = ["0.10", "1.3.0 - 1"]
 
 ["1.18 - 1.21"]
@@ -81,7 +81,10 @@ OrdinaryDiffEqCore = ["1.30.0 - 2", "3.1.0 - 4"]
 OrdinaryDiffEqRosenbrock = "1.17.0 - 2"
 StochasticDiffEq = "6.13.0 - 7"
 
-["1.24 - 1"]
+["1.24 - 1.24.1"]
+SciMLBase = "3"
+
+["1.24 - 2"]
 DiffEqBase = "7"
 OrdinaryDiffEq = "7"
 OrdinaryDiffEqCore = "4"
@@ -90,10 +93,7 @@ OrdinaryDiffEqRosenbrock = "2"
 RecursiveArrayTools = "4"
 StochasticDiffEq = "7"
 
-["1.24 - 1.24.1"]
-SciMLBase = "3"
-
-["1.24.2 - 1"]
+["1.24.2 - 2"]
 SciMLBase = "3.28.1 - 3"
 
 ["1.3 - 1.6"]
