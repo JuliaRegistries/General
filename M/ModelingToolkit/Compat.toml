@@ -244,13 +244,15 @@ DifferentiationInterface = "0.6.47 - 0.7"
 [11]
 BlockArrays = "1.9.3 - 1"
 REPL = "1"
-Symbolics = "7"
 
 ["11 - 11.2"]
 ModelingToolkitBase = "1 - 1.41"
 
 ["11 - 11.26"]
 BipartiteGraphs = "0.1.2 - 0.1"
+
+["11 - 11.31"]
+Symbolics = "7"
 
 ["11 - 11.4"]
 PreallocationTools = "0.4.27 - 0.4"
@@ -363,11 +365,13 @@ CommonSolve = "0.2.6 - 0.2"
 ConstructionBase = "1.5.8 - 1"
 DifferentiationInterface = "0.7.13 - 0.7"
 ForwardDiff = "1"
-OffsetArrays = "1.3.0 - 1"
 PreallocationTools = "1.2.0 - 1"
 SimpleNonlinearSolve = "2.10.0 - 2"
 SymbolicIndexingInterface = "0.3.46 - 0.3"
 julia = "1.10.0 - 1"
+
+["11.27 - 11.31"]
+OffsetArrays = "1.3.0 - 1"
 
 ["11.27 - 11.31.0"]
 DiffEqBase = "6.213.0 - 7"
@@ -396,11 +400,11 @@ ModelingToolkitBase = "1.2.0 - 1.41"
 ["11.3 - 11.5"]
 ModelingToolkitTearing = "1.1.0 - 1"
 
-["11.30 - 11"]
+["11.30 - 11.31"]
 ModelingToolkitTearing = "1.17.2 - 1"
 StateSelection = "1.10.1 - 1"
 
-["11.30.1 - 11"]
+["11.30.1 - 11.31"]
 ModelingToolkitBase = "1.50.0 - 1"
 
 ["11.31 - 11"]
@@ -411,6 +415,13 @@ DiffEqBase = "7.4.2 - 7"
 
 ["11.31.2 - 11"]
 SciMLBase = "3.19.0 - 3"
+
+["11.32 - 11"]
+ModelingToolkitBase = "1.52.0 - 1"
+ModelingToolkitTearing = "1.18.0 - 1"
+OffsetArrays = "1.11.0 - 1"
+StateSelection = "1.10.5 - 1"
+Symbolics = "7.31.0 - 7"
 
 ["11.5"]
 ModelingToolkitBase = "1.4.0 - 1.41"
