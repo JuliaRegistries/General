@@ -367,14 +367,19 @@ reusing the exact same source code as a previous release without the major bugâ€
 deploy, and less disruptive way to prevent most users from installing a specific version. If you seek to
 yank a very broken release, you should typically also release a patch release.
 
+First, modifications to julia and/or package bounds should be attempted in a packages Compat.toml file.
+If this is not possible explain the conditions that yank is absolutely required*
+
 There is however, a special category of bugged releases that can not be resolved by having a patch release.
 These also may to be resolved by yanking. That special category is when the compat bounds have been set too
 wide. i.e. say `v2.10.0` was released using a feature not on julia `v1.6` but the compat entry for julia was
 not raised in the release. In this case releasing a `v2.10.1` with the corrected julia compat would not
 solve the issue as on julia v1.6 Pkg would still resolve the broken `v2.10.0`, and as a minor bump, reverting
-the code changes would not be valid in a patch bump. In this case one may either submit a PR to retroactively
-adjust the compat bounds of previous versions (best user-facing results, but slow and error-prone to implement)
-or yank the offending release. See the [SciML collaborative practices for more guidance](https://github.com/SciML/ColPrac?tab=readme-ov-file#accidental-support-for-an-unsupported-dependency).
+the code changes would not be valid in a patch bump. 
+
+In this case it is best to submit a PR to retroactively adjust the compat bounds of previous versions, which has the best user-facing results.
+It may also be possible to yank the offending release, but this has possible negative consequences
+for existing evironments # and other reasons from people who know better than me #. See the [SciML collaborative practices for more guidance](https://github.com/SciML/ColPrac?tab=readme-ov-file#accidental-support-for-an-unsupported-dependency).
 
 If yanking is urgent, open a PR and raise it on the `#pkg-registration` [slack channel](https://julialang.org/slack/)
 
@@ -386,6 +391,14 @@ April, 2024.
 ### My new package registration PR fails one or more AutoMerge checks because of reason [X]. However, the General registry already contains a package PastPackage that does thing [X]. Will registry maintainers consider this PastPackage when they evaluate my new package registration PR?
 
 As a general rule, no. If your package registration does not meet AutoMerge guidelines, then the presence of previous exceptions to those guidelines does not justify an exception for your package, and registry maintainers will not consider past packages to be any kind of precedent that applies to current and future registrations.
+
+## How to modify julia version bounds
+
+When a package was registered for a version of julia it does not in fact work for, bumping a minor version may
+not solve the issue, and yanking is generally avoided. Instead the versions allowed can be modified in Compat.toml
+so that the package will not be available on versions it is does not work on.
+
+*Some more detailed text here from someone who understands it*
 
 ## Registry maintenance
 
