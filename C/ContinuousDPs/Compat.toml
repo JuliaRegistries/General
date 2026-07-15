@@ -3,10 +3,15 @@ BasisMatrices = "0.8"
 FiniteDiff = "2"
 LinearAlgebra = "1"
 Optim = "1 - 2"
-QuantEcon = "0.16 - 0.17"
 Random = "1"
 julia = "1.10.0 - 1"
+
+["0 - 0.2.0"]
+QuantEcon = "0.16 - 0.17"
 
 ["0.2 - 0"]
 NLSolversBase = "7.9.0 - 8"
 SparseArrays = "1"
+
+["0.2.1 - 0"]
+QuantEcon = "0.18"
