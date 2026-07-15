@@ -5,7 +5,6 @@ DataFrames = "1.7.0 - 1"
 Distributions = "0.25"
 EzXML = "1.2.0 - 1"
 HDF5 = "0.17"
-HTTP = "1.10.19 - 1"
 IsURL = "0.2"
 NPZ = "0.4"
 NativeFileDialog = "0.2.1 - 0.2"
@@ -44,6 +43,9 @@ Revise = "3.8.0 - 3"
 ["0 - 0.2.4"]
 FourierAnalysis = "1.2.0 - 1"
 
+["0 - 0.2.8"]
+HTTP = "1.10.19 - 1"
+
 ["0.1.1 - 0"]
 PrecompileSignatures = "3.0.3 - 3"
 
@@ -67,7 +69,7 @@ JSON = "0.21.4 - 0.21"
 PrettyTables = "2.4.0 - 2"
 Statistics = "1.10.0 - 1"
 
-["0.1.3 - 0"]
+["0.1.3 - 0.2.8"]
 julia = "1.10.0 - 1"
 
 ["0.1.4"]
@@ -101,12 +103,14 @@ Documenter = "1.16.1 - 1"
 
 ["0.1.7 - 0"]
 ArtifactUtils = "0.2.4 - 0.2"
-Bonito = "4.1.11 - 4"
 JSON = ["0.21.4 - 0.21", "1"]
 PrettyTables = "2.4.0 - 3"
 
 ["0.1.7 - 0.2.4"]
 DSP = "0.8"
+
+["0.1.7 - 0.2.8"]
+Bonito = "4.1.11 - 4"
 
 ["0.2.5 - 0"]
 DSP = "0.7 - 0.8"
@@ -117,3 +121,9 @@ Artifacts = "1"
 Downloads = "1"
 LinearAlgebra = "1"
 Statistics = "1"
+
+["0.2.9 - 0"]
+Bonito = "4.1.11 - 5"
+Coverage = "1.7.0 - 1"
+HTTP = "1.10.19 - 2"
+julia = "1.12.0 - 1"
