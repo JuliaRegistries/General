@@ -34,15 +34,15 @@ TensorOperations = "3.2.3-3"
 ["0.10 - 0.12"]
 WignerSymbols = "1-2"
 
-["0.11 - 0"]
-Strided = "2"
-
 ["0.11 - 0.11.1"]
 TensorOperations = "4.0.2-4"
 VectorInterface = "0.2"
 
 ["0.11 - 0.12"]
 julia = "1.6.0-1"
+
+["0.11 - 0.17.0"]
+Strided = "2"
 
 ["0.11.2 - 0.11"]
 TensorOperations = "4.0.5-4"
@@ -76,14 +76,13 @@ TensorKitSectors = "0.1"
 ["0.13.2 - 0.14.6"]
 VectorInterface = "0.4-0.5"
 
-["0.14.10 - 0"]
-VectorInterface = "0.4.8 - 0.5"
-
 ["0.14.10 - 0.15.1"]
 TensorKitSectors = "0.1.4 - 0.2"
 
+["0.14.10 - 0.17.0"]
+VectorInterface = "0.4.8 - 0.5"
+
 ["0.14.7 - 0"]
-LRUCache = "1.0.2 - 1"
 julia = "1.10.0 - 1"
 
 ["0.14.7 - 0.14.9"]
@@ -94,6 +93,9 @@ TensorOperations = "5.1.0 - 5"
 
 ["0.14.7 - 0.16.2"]
 TupleTools = "1.1.0 - 1"
+
+["0.14.7 - 0.17.0"]
+LRUCache = "1.0.2 - 1"
 
 ["0.15"]
 MatrixAlgebraKit = "0.5"
@@ -133,8 +135,17 @@ MatrixAlgebraKit = "0.6.5 - 0.6"
 
 ["0.17 - 0"]
 Adapt = "4"
+
+["0.17.0"]
 MatrixAlgebraKit = "0.6.7 - 0.6"
 TensorOperations = "5.5.0 - 5"
+
+["0.17.1 - 0"]
+LRUCache = "1.6.0 - 1"
+MatrixAlgebraKit = "0.6.9 - 0.6"
+Strided = "2.6.1 - 2"
+TensorOperations = "5.5.2 - 5"
+VectorInterface = "0.6"
 
 ["0.2 - 0.12"]
 HalfIntegers = "1"
