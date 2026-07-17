@@ -49,13 +49,13 @@ JuliaInterpreter = "0.9"
 ["0.7 - 0.7.13"]
 julia = "1.6.0-1"
 
-["0.7.12 - 0"]
+["0.7.12 - 0.7"]
 JuliaInterpreter = "0.10"
 
 ["0.7.14"]
 CodeTracking = ["0.5.7 - 0.5", "1 - 2"]
 
-["0.7.14 - 0"]
+["0.7.14 - 0.7"]
 Crayons = "4.1.0 - 4"
 Highlights = "0.4.3 - 0.5"
 julia = "1.6.0 - 1"
@@ -71,3 +71,9 @@ Crayons = "4.1.0-4"
 
 ["0.7.3 - 0.7.13"]
 Highlights = "0.4.3-0.5"
+
+["0.8 - 0"]
+Highlights = "0.6"
+JuliaInterpreter = "0.10 - 0.11"
+julia = "1.10.0 - 1"
+tree_sitter_julia_jll = "0.25"
