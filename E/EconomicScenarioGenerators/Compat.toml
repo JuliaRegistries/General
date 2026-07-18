@@ -1,32 +1,40 @@
-["0-0.1"]
+["0 - 0.1"]
 Requires = "1"
 
-["0-0.3.4"]
+["0 - 0.3.4"]
 LabelledArrays = "1"
 
-["0-0.4"]
+["0 - 0.4"]
 julia = "1.6.0-1"
 
 ["0.2"]
 Yields = "2.2.0-2"
 
-["0.2-0"]
+["0.2 - 0.6"]
 ForwardDiff = "0.10"
 
-["0.3-0.4"]
+["0.3 - 0.4"]
 Yields = "3"
 
-["0.3.2-0.4"]
+["0.3.2 - 0.4"]
 IterTools = "1.4.0-1"
 
-["0.4-0"]
+["0.4 - 0"]
 Copulas = "0.1"
 Distributions = "0.25"
 
 ["0.5"]
 FinanceModels = "4"
 
-["0.5-0"]
-FinanceCore = "2"
+["0.5 - 0"]
 Transducers = "0.4"
+
+["0.5 - 0.6"]
+FinanceCore = "2"
 julia = "1.9.0-1"
+
+["0.7 - 0"]
+FinanceCore = "2 - 3"
+ForwardDiff = ["0.10", "1"]
+Random = "1"
+julia = "1.10.0 - 1"
