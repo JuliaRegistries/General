@@ -2,10 +2,18 @@
 CEnum = "0.4"
 Preferences = "1"
 ScopedValues = "1"
-julia = "1.9.0-1"
 
-["0-0.1"]
+["0 - 0.1"]
 MLIR_jll = "14-16"
 
-["0.2-0"]
+["0 - 0.2"]
+julia = "1.9.0-1"
+
+["0.2"]
 MLIR_jll = "14-21"
+
+["0.3 - 0"]
+MLIR_jll = "14 - 21"
+Random = "1.10.0 - 1"
+StableRNGs = "1.0.4 - 1"
+julia = "1.9.0 - 1"
