@@ -1,13 +1,10 @@
 [1]
 ADTypes = "1.14.0 - 1"
 AbstractTrees = "0.3 - 0.4"
-ArrayInterface = "6 - 7"
 BlockArrays = "1.1.0 - 1"
 Combinatorics = "1"
 CommonSolve = "0.2.4 - 0.2"
-Compat = "3.42.0 - 4"
 ConstructionBase = "1"
-DiffEqCallbacks = "2.16.0 - 4"
 DiffRules = ["0.1", "1"]
 DifferentiationInterface = "0.6.47 - 0.7"
 EnumX = "1.0.4 - 1"
@@ -18,21 +15,16 @@ Graphs = "1.5.2 - 1"
 InteractiveUtils = "1"
 Libdl = "1"
 LinearAlgebra = "1"
-NaNMath = ["0.3", "1"]
 OrderedCollections = "1"
 REPL = "1"
 Random = "1"
 ReadOnlyDicts = "1"
-Reexport = ["0.2", "1"]
 SciMLPublic = "1"
 SciMLStructures = "1.7.0 - 1"
 Serialization = "1"
-Setfield = ["0.7 - 0.8", "1"]
 SparseArrays = "1"
-SpecialFunctions = "1 - 2"
 StaticArrays = "1.9.14 - 1"
 SymbolicIndexingInterface = "0.3.39 - 0.3"
-UnPack = ["0.1", "1"]
 
 ["1 - 1.16"]
 DiffEqBase = "6.189.1 - 6"
@@ -75,6 +67,16 @@ julia = "1.9.0 - 1"
 
 ["1 - 1.51.0"]
 SimpleNonlinearSolve = ["0.1", "1 - 2"]
+
+["1 - 1.54.1"]
+ArrayInterface = "6 - 7"
+Compat = "3.42.0 - 4"
+DiffEqCallbacks = "2.16.0 - 4"
+NaNMath = ["0.3", "1"]
+Reexport = ["0.2", "1"]
+Setfield = ["0.7 - 0.8", "1"]
+SpecialFunctions = "1 - 2"
+UnPack = ["0.1", "1"]
 
 ["1 - 1.6.2"]
 Symbolics = "7.1.1 - 7"
@@ -203,6 +205,16 @@ Symbolics = "7.31.0 - 7"
 
 ["1.54.1 - 1"]
 Symbolics = "7.32.1 - 7"
+
+["1.54.2 - 1"]
+ArrayInterface = "7"
+Compat = "4"
+DiffEqCallbacks = "4"
+NaNMath = "1"
+Reexport = "1"
+Setfield = "1"
+SpecialFunctions = "2"
+UnPack = "1"
 
 ["1.6.3 - 1.11"]
 Symbolics = "7.8.0 - 7"
