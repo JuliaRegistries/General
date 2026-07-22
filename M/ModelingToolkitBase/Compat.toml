@@ -5,7 +5,6 @@ BlockArrays = "1.1.0 - 1"
 Combinatorics = "1"
 CommonSolve = "0.2.4 - 0.2"
 ConstructionBase = "1"
-DiffRules = ["0.1", "1"]
 DifferentiationInterface = "0.6.47 - 0.7"
 EnumX = "1.0.4 - 1"
 ExprTools = "0.1.10 - 0.1"
@@ -67,6 +66,9 @@ julia = "1.9.0 - 1"
 
 ["1 - 1.51.0"]
 SimpleNonlinearSolve = ["0.1", "1 - 2"]
+
+["1 - 1.54"]
+DiffRules = ["0.1", "1"]
 
 ["1 - 1.54.1"]
 ArrayInterface = "6 - 7"
@@ -215,6 +217,9 @@ Reexport = "1"
 Setfield = "1"
 SpecialFunctions = "2"
 UnPack = "1"
+
+["1.55 - 1"]
+DiffRules = "1"
 
 ["1.6.3 - 1.11"]
 Symbolics = "7.8.0 - 7"
