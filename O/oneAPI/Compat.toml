@@ -248,12 +248,14 @@ NEO_jll = "25.35.35096"
 oneAPI_Level_Zero_Loader_jll = "1.24.0 - 1"
 
 ["2.5 - 2"]
-GPUCompiler = "1.6.0 - 1"
 SPIRV_Tools_jll = "2025.4.0 - 2025"
 
 ["2.5 - 2.6"]
 SPIRVIntrinsics = "0.5"
 SPIRV_LLVM_Translator_jll = "21"
+
+["2.5 - 2.7.0"]
+GPUCompiler = "1.6.0 - 1"
 
 ["2.6"]
 NEO_jll = "25.44.36015"
@@ -269,3 +271,7 @@ NEO_jll = "26.18.38308"
 SPIRVIntrinsics = "1"
 SPIRV_LLVM_Backend_jll = "22"
 oneAPI_Level_Zero_Loader_jll = "1.29.0 - 1"
+
+["2.7.1 - 2"]
+GPUCompiler = "2"
+PrecompileTools = "1"
