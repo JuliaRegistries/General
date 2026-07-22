@@ -1,12 +1,19 @@
 [0]
-BSplineKit = "0.17"
-Makie = "0.21"
-MakieCore = "0.8"
 RollingFunctions = "0.8"
 julia = "1"
 
-["0-0.2"]
+["0 - 0.2"]
 PDFIO = "0.1"
 
-["0.3-0"]
+["0 - 0.3"]
+BSplineKit = "0.17"
+Makie = "0.21"
+MakieCore = "0.8"
+
+["0.3"]
 PDFIO = "0.1.14-0.1"
+
+["0.4 - 0"]
+BSplineKit = ["0.17", "0.19"]
+Makie = "0.24"
+PDFIO = "0.1"
