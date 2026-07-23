@@ -184,7 +184,6 @@ LinearSolve = "3.75.0 - 3"
 ADTypes = "1.22.0 - 1"
 DifferentiationInterface = "0.7.18 - 0.7"
 ForwardDiff = "1.3.3 - 1"
-MuladdMacro = "0.2.1 - 0.2"
 PrecompileTools = "1.2.1 - 1"
 Preferences = "1.5.0 - 1"
 RecursiveArrayTools = "4.2.0 - 4"
@@ -194,7 +193,10 @@ Reexport = "1.2.2 - 1"
 OrdinaryDiffEqDifferentiation = "3.2.1 - 3.2.2"
 SciMLBase = "3.10.0 - 3"
 
-["2.3.2 - 2"]
+["2.3.1 - 2.4"]
+MuladdMacro = "0.2.1 - 0.2"
+
+["2.3.2 - 2.4"]
 LinearSolve = "3.75.0 - 4"
 
 ["2.4 - 2"]
@@ -206,3 +208,7 @@ SciMLBase = "3.30.0 - 3"
 
 ["2.4.1 - 2"]
 SciMLBase = "3.35.1 - 3"
+
+["2.6 - 2"]
+LinearSolve = "5.1.0 - 5"
+MuladdMacro = "0.2.4 - 0.2"
