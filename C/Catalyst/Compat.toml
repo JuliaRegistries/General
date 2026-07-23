@@ -188,7 +188,6 @@ DiffEqBase = "6.165.0 - 6"
 SciMLBase = "2.84.0 - 2"
 
 [16]
-JumpProcesses = "9.23.0 - 9"
 SciMLPublic = "1"
 SymbolicIndexingInterface = "0.3"
 SymbolicUtils = "4.9.1 - 4"
@@ -197,9 +196,14 @@ Symbolics = "7.13.0 - 7"
 ["16 - 16.2.1"]
 ModelingToolkitBase = "1.17.0 - 1"
 
+["16 - 16.2.2"]
+JumpProcesses = "9.23.0 - 9"
+
 ["16.2 - 16"]
-DiffEqBase = "6.165.0 - 7"
 SciMLBase = "2.84.0 - 3"
+
+["16.2 - 16.2.2"]
+DiffEqBase = "6.165.0 - 7"
 
 ["16.2.1 - 16"]
 LinearAlgebra = "1.10.0 - 1"
@@ -208,6 +212,10 @@ SparseArrays = "1.10.0 - 1"
 
 ["16.2.2 - 16"]
 ModelingToolkitBase = "1.46.0 - 1"
+
+["16.2.3 - 16"]
+DiffEqBase = ["6.165.0 - 6", "7.4.2 - 7"]
+JumpProcesses = "9.28.0 - 9"
 
 [5]
 Reexport = "0.2"
