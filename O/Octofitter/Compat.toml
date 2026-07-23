@@ -27,7 +27,6 @@ DelimitedFiles = "1"
 DiffResults = "1"
 Distributions = "0.25"
 DistributionsAD = "0.6"
-ForwardDiff = "0.10"
 LogDensityProblems = "2"
 Preferences = "1"
 RuntimeGeneratedFunctions = "0.5"
@@ -35,6 +34,9 @@ TOML = "1"
 
 ["1 - 8.0.2"]
 MCMCChains = "6"
+
+["1 - 8.2.2"]
+ForwardDiff = "0.10"
 
 ["1.0.0"]
 AdvancedHMC = "0.4"
@@ -93,6 +95,8 @@ AbstractMCMC = "4-5"
 
 ["2.5 - 8"]
 HDF5 = "0.17"
+
+["2.5 - 8.2.2"]
 StringDistances = "0.11"
 
 [3]
@@ -154,9 +158,7 @@ julia = "1.9.0 - 1"
 
 ["7 - 8"]
 AbstractMCMC = "4 - 5"
-Bijectors = "0.14 - 0.15"
 FITSIO = "0.16 - 0.17"
-Interpolations = "0.13 - 0.15"
 Latexify = "0.15 - 0.16"
 NamedTupleTools = "0.13 - 0.14"
 OrderedCollections = "1.6.0 - 1"
@@ -170,6 +172,10 @@ TypedTables = "1.4.0 - 1"
 
 ["7 - 8.0.2"]
 AdvancedHMC = "0.6 - 0.7"
+
+["7 - 8.2.2"]
+Bijectors = "0.14 - 0.15"
+Interpolations = "0.13 - 0.15"
 
 ["7.0.0"]
 DifferentiationInterface = "0.6"
@@ -196,3 +202,9 @@ MCMCChains = "7"
 
 ["8.1.5 - 8"]
 PlanetOrbits = "0.11.1 - 0.11"
+
+["8.2.3 - 8"]
+Bijectors = "0.14 - 0.16"
+ForwardDiff = ["0.10", "1"]
+Interpolations = "0.13 - 0.16"
+StringDistances = ["0.11", "1"]

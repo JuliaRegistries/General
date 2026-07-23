@@ -80,8 +80,10 @@ PreallocationTools = "0.4.23 - 0.4"
 ChainRulesCore = "1.24.0 - 1"
 
 ["2.26 - 2"]
-ModelingToolkitBase = "1"
 Symbolics = "7.4.1 - 7"
+
+["2.26 - 2.29.4"]
+ModelingToolkitBase = "1"
 
 ["2.27"]
 DiffEqBase = "6.189.1 - 6"
@@ -98,8 +100,12 @@ DiffEqBase = "6.189.1 - 7"
 ["2.29.3 - 2"]
 DiffEqBase = "6.190.0 - 7"
 
-["2.29.4 - 2"]
+["2.29.4"]
 SymbolicUtils = "4"
+
+["2.29.5 - 2"]
+ModelingToolkitBase = "1.1.0 - 1"
+SymbolicUtils = "4.38.1 - 4"
 
 ["2.3"]
 ModelingToolkit = "8.67.0-8"

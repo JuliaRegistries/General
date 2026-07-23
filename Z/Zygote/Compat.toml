@@ -290,6 +290,9 @@ ChainRulesCore = "1.25.1-1"
 ["0.7 - 0.7.4"]
 ForwardDiff = "0.10"
 
+["0.7.11"]
+IRTools = "0.4.17 - 0.4"
+
 ["0.7.11 - 0"]
 AbstractFFTs = "1.5.0 - 1"
 ChainRules = "1.72.2 - 1"
@@ -298,13 +301,15 @@ DiffRules = "1.15.0 - 1"
 FillArrays = "1"
 ForwardDiff = ["0.10.36 - 0.10", "1"]
 GPUArraysCore = "0.2"
-IRTools = "0.4.17 - 0.4"
 LogExpFunctions = ["0.3.29 - 0.3", "1"]
 MacroTools = "0.5.10 - 0.5"
 NaNMath = "1"
 SpecialFunctions = "2"
 ZygoteRules = "0.2.7 - 0.2"
 julia = "1.10.0 - 1"
+
+["0.7.12 - 0"]
+IRTools = "0.4.19 - 0.4"
 
 ["0.7.3 - 0.7.10"]
 ZygoteRules = "0.2.7-0.2"
