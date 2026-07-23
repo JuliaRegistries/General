@@ -48,16 +48,28 @@ Catalyst = "15"
 DiffEqBase = "6 - 7"
 
 ["0.3.3 - 0"]
-MacroTools = "0.5.5 - 0.5"
-Reexport = "1.2.2 - 1"
 julia = "1.10.0 - 1"
 
-["0.3.4 - 0"]
+["0.3.3 - 0.3"]
+MacroTools = "0.5.5 - 0.5"
+Reexport = "1.2.2 - 1"
+
+["0.3.4 - 0.3"]
 DiffEqBase = "6.165.0 - 7"
 
 ["0.3.5 - 0"]
-Catalyst = ["15", "16.2.0 - 16"]
 SparseArrays = "1"
 
-["0.3.6 - 0"]
+["0.3.5 - 0.3"]
+Catalyst = ["15", "16.2.0 - 16"]
+
+["0.3.6 - 0.3"]
 ModelingToolkit = "9 - 11"
+
+["0.4 - 0"]
+Catalyst = "16.2.0 - 16"
+ModelingToolkitBase = "1.17.0 - 1"
+SciMLBase = "2.144.0 - 3"
+SymbolicIndexingInterface = "0.3.43 - 0.3"
+SymbolicUtils = "4.18.0 - 4"
+Symbolics = "7.13.0 - 7"
