@@ -124,7 +124,6 @@ LinearSolve = "3.75.0 - 3"
 ["2.2.1 - 2"]
 ADTypes = "1.22.0 - 1"
 FastPower = "1.1.2 - 1"
-MuladdMacro = "0.2.1 - 0.2"
 OrdinaryDiffEqCore = "4.4.0 - 4"
 RecursiveArrayTools = "4.2.0 - 4"
 Reexport = "1.2.2 - 1"
@@ -132,7 +131,10 @@ Reexport = "1.2.2 - 1"
 ["2.2.1 - 2.2"]
 SciMLBase = "3.10.0 - 3"
 
-["2.2.2 - 2"]
+["2.2.1 - 2.3"]
+MuladdMacro = "0.2.1 - 0.2"
+
+["2.2.2 - 2.3"]
 LinearSolve = "3.75.0 - 4"
 
 ["2.3 - 2"]
@@ -145,3 +147,7 @@ SciMLOperators = "1.23.0 - 1"
 
 ["2.3.1 - 2"]
 SciMLOperators = "1.24.3 - 1"
+
+["2.4 - 2"]
+LinearSolve = "5.1.0 - 5"
+MuladdMacro = "0.2.4 - 0.2"
