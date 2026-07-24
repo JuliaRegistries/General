@@ -8,7 +8,14 @@ Geodesy = "0ef565a4-170c-5f04-8de2-149903a85f3d"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 TestSetExtensions = "98d24dd4-01ad-11ea-1b02-c9a08f80db04"
 YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+
+["1.0"]
+SparseDiffTools = "47a9eef4-7e08-11e9-0b38-333d64bd3804"
+
+["1.1 - 1"]
+ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
+DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
+SparseMatrixColorings = "0a514795-09f3-496d-8182-132a7b665d35"
