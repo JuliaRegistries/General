@@ -50,17 +50,21 @@ Graphs = "1.11.0 - 1"
 Neighborhood = "0.2.4 - 0.2"
 ProgressMeter = "1.10.0 - 1"
 RecurrenceAnalysis = "2.1.0 - 2"
-StateSpaceSets = "2.4.0 - 2"
 TimeseriesSurrogates = "2.7.0 - 2"
 
 ["4.4.2 - 4.4"]
 julia = "1.10.6 - 1"
+
+["4.4.2 - 4.7.0"]
+StateSpaceSets = "2.4.0 - 2"
 
 ["4.5"]
 ComplexityMeasures = "3.8.0 - 3"
 
 ["4.5 - 4"]
 DSP = "0.7 - 0.8"
+
+["4.5 - 4.7.0"]
 julia = "1.10.10 - 1"
 
 ["4.6"]
@@ -68,3 +72,7 @@ ComplexityMeasures = "3.8 - 3.9"
 
 ["4.7 - 4"]
 ComplexityMeasures = "3.10.0 - 3"
+
+["4.7.1 - 4"]
+StateSpaceSets = "2.5.4 - 2"
+julia = "1.10.11 - 1"
