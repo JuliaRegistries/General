@@ -13,16 +13,27 @@ SteadyStateDiffEq = "2.5.0-2"
 HarmonicBalance = "0.15.1-0.15"
 
 ["0.2.6 - 0"]
-LinearSolve = "3.7.2 - 3"
 NaNMath = "1.1.0 - 1"
-OrdinaryDiffEqTsit5 = "1.1.0 - 1"
 Plots = "1.40.9 - 1"
-SteadyStateDiffEq = "2.5.0 - 2"
 
 ["0.2.6 - 0.3"]
 HarmonicBalance = "0.15.1 - 0.15"
 QuantumCumulants = "0.3.7 - 0.3"
 
-["0.4 - 0"]
+["0.2.6 - 0.4"]
+LinearSolve = "3.7.2 - 3"
+OrdinaryDiffEqTsit5 = "1.1.0 - 1"
+SteadyStateDiffEq = "2.5.0 - 2"
+
+["0.4"]
 HarmonicBalance = "0.16"
 QuantumCumulants = "0.4"
+
+["0.5 - 0"]
+HarmonicBalance = "0.17"
+Latexify = "0.16"
+LinearSolve = "3.75.0 - 3"
+ModelingToolkitBase = "1"
+OrdinaryDiffEqTsit5 = "2"
+QuantumCumulants = "0.7"
+SteadyStateDiffEq = "2.10.0 - 2"
