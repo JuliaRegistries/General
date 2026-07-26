@@ -140,10 +140,12 @@ julia = "1.10.0 - 1"
 ["0.16"]
 HarmonicSteadyState = "0.4"
 
-["0.17 - 0"]
+["0.17"]
 HarmonicSteadyState = "0.5"
-ModelingToolkitBase = "1"
 QuestBase = "0.4.1 - 0.4"
+
+["0.17 - 0"]
+ModelingToolkitBase = "1"
 SymbolicUtils = "4"
 Symbolics = "7"
 
@@ -152,6 +154,10 @@ julia = "1.12.0 - 1"
 
 ["0.17.1 - 0"]
 julia = "1.10.0 - 1"
+
+["0.18 - 0"]
+HarmonicSteadyState = "0.6"
+QuestBase = "0.5"
 
 ["0.5"]
 Symbolics = "4.4.1"
