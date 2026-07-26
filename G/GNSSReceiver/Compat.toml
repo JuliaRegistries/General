@@ -44,6 +44,7 @@ UnicodePlots = "3.3.0 - 3"
 [1]
 GNSSDecoder = "3"
 PositionVelocityTime = "4"
+Tracking = "3"
 
 ["1 - 2"]
 Acquisition = "2"
@@ -54,9 +55,14 @@ LinearAlgebra = "1"
 PipeChannels = "1"
 REPL = "1"
 SignalChannels = "7"
-Tracking = "3"
 julia = "1.12.0 - 1"
 
 [2]
 GNSSDecoder = "3.7.0 - 3"
 PositionVelocityTime = "4.0.1 - 4"
+
+["2.0"]
+Tracking = "3"
+
+["2.1 - 2"]
+Tracking = "4.1.0 - 4"
