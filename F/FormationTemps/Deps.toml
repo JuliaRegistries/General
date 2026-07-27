@@ -1,4 +1,8 @@
 [1]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+
+["1 - 2"]
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
@@ -18,8 +22,12 @@ OpenSSL_jll = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
-PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
 Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[2]
+HDF5_jll = "0234f1f7-429e-5d53-9886-15a909be8d59"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+PythonPlot = "274fc56d-3b97-40fa-a1cd-1b4a50311bf9"
