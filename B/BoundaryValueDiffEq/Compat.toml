@@ -141,23 +141,18 @@ SciMLBase = "2.60.0-2"
 Setfield = "1.1.1-1"
 SparseDiffTools = "2.23.0-2"
 
-["5.13 - 5"]
-BoundaryValueDiffEqAscher = "1"
-BoundaryValueDiffEqMIRKN = "1"
-
 ["5.13 - 5.16.0"]
 ForwardDiff = "0.10.38-0.10"
 
 ["5.13 - 5.18"]
 FastClosures = "0.3.2-0.3"
 
+["5.13 - 5.23.1"]
+BoundaryValueDiffEqAscher = "1"
+BoundaryValueDiffEqMIRKN = "1"
+
 ["5.14"]
 ADTypes = "1"
-
-["5.14 - 5"]
-BoundaryValueDiffEqFIRK = "1"
-BoundaryValueDiffEqMIRK = "1"
-BoundaryValueDiffEqShooting = "1"
 
 ["5.14 - 5.16.0"]
 ArrayInterface = "7.18.0-7"
@@ -166,6 +161,11 @@ SciMLBase = "2.71.0-2"
 
 ["5.14 - 5.19.0"]
 BoundaryValueDiffEqCore = "1"
+
+["5.14 - 5.23.1"]
+BoundaryValueDiffEqFIRK = "1"
+BoundaryValueDiffEqMIRK = "1"
+BoundaryValueDiffEqShooting = "1"
 
 ["5.15"]
 ADTypes = "1.11.0-1"
@@ -200,7 +200,7 @@ BoundaryValueDiffEqCore = "1.12.0 - 1"
 ["5.2 - 5.6"]
 BandedMatrices = "1"
 
-["5.20 - 5"]
+["5.20 - 5.23.1"]
 BoundaryValueDiffEqCore = "2"
 
 ["5.21"]
@@ -218,6 +218,14 @@ SciMLBase = "3"
 ["5.23.1 - 5"]
 SciMLBase = "3.30.0 - 3"
 SciMLLogging = "1.10.1 - 2"
+
+["5.23.2 - 5"]
+BoundaryValueDiffEqAscher = "1.15.2 - 1"
+BoundaryValueDiffEqCore = "2.7.3 - 2"
+BoundaryValueDiffEqFIRK = "1.17.2 - 1"
+BoundaryValueDiffEqMIRK = "1.17.2 - 1"
+BoundaryValueDiffEqMIRKN = "1.16.2 - 1"
+BoundaryValueDiffEqShooting = "1.17.3 - 1"
 
 ["5.3"]
 DiffEqBase = "6.135.0-6"
