@@ -1,6 +1,3 @@
-[0]
-Markdown = "1"
-
 ["0 - 0.1.0"]
 DomainSets = "0.5-0.6"
 Interpolations = "0.14"
@@ -11,6 +8,9 @@ julia = "1.6.0-1"
 
 ["0 - 0.1.2"]
 IfElse = "0.1"
+
+["0 - 0.1.5"]
+Markdown = "1"
 
 ["0.1.1 - 0"]
 Interpolations = "0.14 - 0.16"
@@ -38,11 +38,19 @@ DomainSets = "0.6 - 0.7"
 ModelingToolkit = ["9.7.1 - 10", "11.27.0 - 11"]
 
 ["0.1.4 - 0"]
-OrdinaryDiffEq = "6.80.0 - 7"
 OrdinaryDiffEqSDIRK = "1.7.0 - 2"
+
+["0.1.4 - 0.1.5"]
+OrdinaryDiffEq = "6.80.0 - 7"
 Random = "1"
 
-["0.1.5 - 0"]
+["0.1.5"]
 DomainSets = "0.7.17 - 0.8"
 FunctionMaps = "0.1"
 ModelingToolkit = "11.30.1 - 11"
+
+["0.1.6 - 0"]
+CommonSolve = "0.2"
+IntervalSets = "0.7"
+ModelingToolkitBase = "1"
+Symbolics = "7"
