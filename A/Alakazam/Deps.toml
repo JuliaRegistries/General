@@ -2,13 +2,23 @@
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
-PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 
-["0.1.22 - 0"]
+["0-0.1"]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0.1.22-0"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+
+["0.1.22-0.1"]
 JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 StructTypes = "856f2bd8-1eba-4b0a-8007-ebc267875bd4"
+
+["0.2-0"]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
