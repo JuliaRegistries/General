@@ -27,6 +27,8 @@ MCIntegration = "0.4.2-0.4"
 
 ["4.2 - 5"]
 Arblib = "1"
+
+["4.2 - 5.4.4"]
 FastGaussQuadrature = ["0.5", "1"]
 
 ["4.5 - 4.6.0"]
@@ -41,11 +43,13 @@ Zygote = "0.6.69 - 0.7"
 
 ["4.6.1 - 5"]
 Cuba = "2.2.0 - 2"
-Cubature = "1.5.0 - 1"
 MCIntegration = "0.4.2 - 0.4"
 
 ["4.6.1 - 5.4.1"]
 ChainRulesCore = "1.18.0 - 1"
+
+["4.6.1 - 5.4.4"]
+Cubature = "1.5.0 - 1"
 
 ["4.7 - 4.9.0"]
 Zygote = "0.7.10 - 0.7"
@@ -66,7 +70,7 @@ DifferentiationInterface = "0.6"
 DifferentiationInterface = "0.7"
 Zygote = "0.6.69 - 0.7"
 
-[5]
+["5 - 5.4.4"]
 HAdaptiveIntegration = ["0.2", "1"]
 
 ["5.0"]
@@ -86,3 +90,8 @@ ADTypes = "1.22.0 - 1"
 ChainRulesCore = "1.25.1 - 1"
 DifferentiationInterface = "0.7.16 - 0.7"
 Zygote = "0.7.10 - 0.7"
+
+["5.4.5 - 5"]
+Cubature = "1.5.1 - 1"
+FastGaussQuadrature = "1"
+HAdaptiveIntegration = ["0.2.2 - 0.2", "1"]
