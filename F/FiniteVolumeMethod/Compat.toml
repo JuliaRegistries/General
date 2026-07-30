@@ -73,9 +73,19 @@ PrecompileTools = "1.2.0 - 1"
 SciMLBase = "1 - 2"
 
 ["1.2.1"]
-SciMLBase = ["2", "3.1.0 - 3"]
+SciMLBase = ["2", "3.1.0 - 3.39"]
 
-["1.2.2 - 1"]
+["1.2.2 - 1.2.3"]
+ChunkSplitters = "3.2.0 - 3"
+CommonSolve = "0.2.4 - 0.2"
+DelaunayTriangulation = "1.6.6 - 1"
+LinearAlgebra = "1"
+PreallocationTools = "1.2.0 - 1"
+PrecompileTools = "1.2.1 - 1"
+SciMLBase = "3.1.0 - 3.39"
+SparseArrays = "1"
+
+["1.2.4 - 1"]
 ChunkSplitters = "3.2.0 - 3"
 CommonSolve = "0.2.4 - 0.2"
 DelaunayTriangulation = "1.6.6 - 1"
