@@ -40,12 +40,12 @@ Distances = "0.8"
 ["0.5.1 - 0.6.1"]
 Distances = "0.8-0.9"
 
-["0.6 - 0"]
-DataDeps = "0.7"
-
 ["0.6 - 0.6.1"]
 BSON = "0.2"
 CSV = "0.6-0.7"
+
+["0.6 - 0.6.13"]
+DataDeps = "0.7"
 
 ["0.6 - 0.6.8"]
 NamedDims = "0.2"
@@ -69,6 +69,9 @@ NamedDims = ["0.2 - 0.3", "1"]
 NearestNeighbors = "0.4 - 0.4.22"
 StatsBase = "0.32 - 0.34"
 julia = "1.6.0 - 1"
+
+["0.6.14 - 0"]
+DataDeps = ["0.7", "1"]
 
 ["0.6.2 - 0"]
 TableOperations = ["0.2", "1"]
