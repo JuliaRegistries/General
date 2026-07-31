@@ -7,11 +7,13 @@ MadNLP = "0.8"
 MadNLPMumps = "0.5"
 NLPModelsKnitro = "0.9"
 
+["0.4"]
+MadNLP = "0.9"
+MadNLPGPU = "0.8"
+
 ["0.4 - 0"]
 Enzyme = "0.13"
 MadNCL = "0.2"
-MadNLP = "0.9"
-MadNLPGPU = "0.8"
 NLPModelsKnitro = "0.10"
 Zygote = "0.7"
 
@@ -26,3 +28,15 @@ CUDA = "5 - 6"
 
 ["0.4.15 - 0"]
 UnoSolver = "0.3"
+
+["0.5 - 0"]
+ADNLPModels = "0.8"
+CUDSS = "0.6 - 0.8"
+DiffEqBase = "6 - 7"
+ExaModels = "0.11"
+ForwardDiff = ["0.10", "1"]
+MadNLP = "0.9 - 0.10"
+MadNLPGPU = ["0.8", "0.10"]
+NLPModels = "0.21"
+OrdinaryDiffEqTsit5 = "2"
+SciMLBase = "3"
