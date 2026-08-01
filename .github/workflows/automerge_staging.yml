@@ -57,7 +57,7 @@ jobs:
       - run: rm -rf .ci/AutoMerge/JuliaProject*.toml
       - run: rm -rf .ci/AutoMerge/Project*.toml
       - name: Cache artifacts
-        uses: julia-actions/cache@a45e8fa8be21c18a06b7177052533149e61e9b38 # v3.1.0
+        uses: julia-actions/cache@b7788abd52452d5bc033d69796e110d9906af4ab # v3.2.0
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
@@ -121,7 +121,7 @@ jobs:
       - run: rm -rf .ci/AutoMerge/JuliaProject*.toml
       - run: rm -rf .ci/AutoMerge/Project*.toml
       - name: Cache artifacts
-        uses: julia-actions/cache@a45e8fa8be21c18a06b7177052533149e61e9b38 # v3.1.0
+        uses: julia-actions/cache@b7788abd52452d5bc033d69796e110d9906af4ab # v3.2.0
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
