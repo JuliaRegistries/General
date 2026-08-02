@@ -1,29 +1,40 @@
 [0]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+["0 - 1"]
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
-Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
 ["0.1.2 - 0"]
-FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
+["0.1.2 - 1"]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 HistogramThresholding = "2c695a8d-9458-5d45-9878-1b8a99cf7853"
 ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
 MetaGraphsNext = "fa8bd995-216d-47f1-8a91-f3b68fbeb377"
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.2.2 - 0"]
+["0.2.2 - 1"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.2.4 - 0"]
 cuFFT = "533571aa-0936-420e-b4be-9c66f5f626ca"
+
+[1]
+AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
+ImageMagick = "6218d12a-5da1-5696-b52f-db25d2ecc6d1"
