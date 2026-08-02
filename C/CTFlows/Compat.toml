@@ -1,12 +1,23 @@
 [0]
 DocStringExtensions = "0.9"
-MLStyle = "0.4"
 
 ["0 - 0.4"]
 CTBase = "0.11"
 
+["0 - 0.8"]
+MLStyle = "0.4"
+
 ["0 - 0.8.7"]
 julia = "1.10.0-1"
+
+["0.17 - 0"]
+ADTypes = "1"
+CTBase = "0.29"
+CTModels = "0.16"
+CTSolvers = "0.5"
+CommonSolve = "0.2"
+GPUArraysCore = "0.1 - 0.2"
+RecipesBase = "1"
 
 ["0.5"]
 CTBase = "0.12"
@@ -17,7 +28,7 @@ CTBase = "0.13"
 ["0.7"]
 CTBase = "0.14"
 
-["0.8 - 0"]
+["0.8"]
 MacroTools = "0.5"
 
 ["0.8 - 0.8.1"]
@@ -27,7 +38,7 @@ CTModels = "0.2"
 ["0.8 - 0.8.7"]
 ForwardDiff = "0.10"
 
-["0.8.15 - 0"]
+["0.8.15 - 0.8"]
 CTBase = "0.18"
 
 ["0.8.15 - 0.8.23"]
@@ -39,10 +50,10 @@ CTModels = "0.3"
 ["0.8.2 - 0.8.9"]
 CTBase = "0.16"
 
-["0.8.25 - 0"]
+["0.8.25 - 0.8"]
 CTModels = "0.10"
 
-["0.8.3 - 0"]
+["0.8.3 - 0.8"]
 LinearAlgebra = "1"
 
 ["0.8.4 - 0.8.6"]
@@ -52,5 +63,7 @@ CTModels = "0.5"
 CTModels = "0.6"
 
 ["0.8.8 - 0"]
-ForwardDiff = ["0.10", "1"]
 julia = "1.10.0 - 1"
+
+["0.8.8 - 0.8"]
+ForwardDiff = ["0.10", "1"]
