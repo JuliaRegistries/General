@@ -36,11 +36,11 @@ julia = "1.10.0-1"
 ["1 - 1.9.0"]
 BoundaryValueDiffEqCore = "1"
 
-["1.10 - 1"]
-BoundaryValueDiffEqCore = "2"
-
 ["1.10 - 1.16.0"]
 DifferentiationInterface = "0.7"
+
+["1.10 - 1.16.2"]
+BoundaryValueDiffEqCore = "2"
 
 ["1.11 - 1.16.0"]
 PreallocationTools = ["0.4", "1"]
@@ -63,6 +63,9 @@ PreallocationTools = "1.2.0 - 1"
 
 ["1.16.2 - 1"]
 SciMLBase = "3.30.0 - 3"
+
+["1.16.3 - 1"]
+BoundaryValueDiffEqCore = "2.7.3 - 2"
 
 ["1.2 - 1.5.0"]
 SciMLBase = "2.71.0-2"
@@ -99,7 +102,6 @@ FastClosures = "0.3.2 - 0.3"
 ForwardDiff = ["0.10.38 - 0.10", "1"]
 LinearAlgebra = "1.10.0 - 1"
 Preferences = "1.4.0 - 1"
-Reexport = "1.2.0 - 1"
 Setfield = "1.1.1 - 1"
 julia = "1.10.0 - 1"
 
@@ -115,6 +117,9 @@ BandedMatrices = "1.7.5 - 1"
 FastAlmostBandedMatrices = "0.1.4 - 0.1"
 PrecompileTools = "1.2.0 - 1"
 SparseArrays = "1.10.0 - 1"
+
+["1.8 - 1.16.2"]
+Reexport = "1.2.0 - 1"
 
 ["1.8 - 1.9"]
 DifferentiationInterface = "0.6.42 - 0.7"
