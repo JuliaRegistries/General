@@ -863,14 +863,16 @@ TruncatedStacktraces = "1.2.0 - 1"
 julia = "1.10.0 - 1"
 
 [7]
-OrdinaryDiffEqBDF = "2"
 OrdinaryDiffEqDefault = "2"
-OrdinaryDiffEqRosenbrock = "2"
 OrdinaryDiffEqTsit5 = "2"
 OrdinaryDiffEqVerner = "2"
 
 ["7 - 7.1.1"]
 SciMLBase = "3.0 - 3.39"
+
+["7 - 7.2"]
+OrdinaryDiffEqBDF = "2"
+OrdinaryDiffEqRosenbrock = "2"
 
 ["7.0.0"]
 ADTypes = "1.10.0 - 1"
@@ -899,3 +901,7 @@ SciMLBase = "3.39.0 - 3.39"
 
 ["7.2.1 - 7"]
 SciMLBase = "3.39.0 - 3"
+
+["7.3 - 7"]
+OrdinaryDiffEqBDF = "2.4.1 - 2"
+OrdinaryDiffEqRosenbrock = "2.6.3 - 2"
