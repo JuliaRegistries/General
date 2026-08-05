@@ -75,11 +75,10 @@ Zarr = "0.10"
 ["0.5.8"]
 Reactant = "0.2.235 - 0.2.268"
 
-["0.5.8 - 0"]
+["0.5.8 - 0.6.0"]
 CopernicusClimateDataStore = "0.1"
 
 ["0.5.9 - 0"]
-Breeze = "0.5.3 - 0.7"
 GeoInterface = "1"
 Makie = "0.24"
 NaturalEarth = "0.1"
@@ -87,6 +86,17 @@ NaturalEarth = "0.1"
 ["0.5.9 - 0.5"]
 Reactant = "0.2.270 - 0.2"
 
+["0.5.9 - 0.6.0"]
+Breeze = "0.5.3 - 0.7"
+
 ["0.6 - 0"]
 RRTMGP = "0.21.9 - 0.22"
+
+["0.6.0"]
 Reactant = "0.2.274 - 0.2"
+
+["0.6.1 - 0"]
+Breeze = ["0.5.3 - 0.6", "0.8"]
+CopernicusClimateDataStore = "0.2"
+GDAL = "1.7.0 - 1"
+Reactant = "0.2.278 - 0.2"
