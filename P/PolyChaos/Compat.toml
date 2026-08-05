@@ -24,11 +24,11 @@ FFTW = "1"
 QuadGK = "2.1.0-2"
 SpecialFunctions = ["0.7", "0.10"]
 
-["0.2.2 - 1"]
-GaussQuadrature = "0.5"
-
 ["0.2.2 - 1.1"]
 AdaptiveRejectionSampling = "0.1"
+
+["0.2.2 - 2"]
+GaussQuadrature = "0.5"
 
 ["0.2.3"]
 Distributions = "0.23"
@@ -39,7 +39,7 @@ StaticArrays = "0.12"
 FFTW = "1.2.0-1"
 QuadGK = "2.4.0-2"
 
-["0.2.3 - 1"]
+["0.2.3 - 2"]
 Combinatorics = "1"
 
 ["0.2.4"]
@@ -59,24 +59,29 @@ SpecialFunctions = ["0.10", "1-2"]
 Statistics = "1.6.0-1"
 julia = "1.6.0-1"
 
-[1]
+["1 - 1.1"]
+julia = "1.6.0 - 1"
+
+["1 - 2"]
 FFTW = "1.2.0 - 1"
 LinearAlgebra = "1"
 QuadGK = "2.4.0 - 2"
 SparseArrays = "1"
 Statistics = "1"
 
-["1 - 1.1"]
-julia = "1.6.0 - 1"
-
 ["1.0"]
 Distributions = "0.23 - 0.25"
 SpecialFunctions = ["0.10", "1 - 2"]
 
 ["1.1 - 1"]
-Distributions = "0.25"
 SpecialFunctions = "1 - 2"
 
-["1.2 - 1"]
+["1.1 - 2"]
+Distributions = "0.25"
+
+["1.2 - 2"]
 AdaptiveRejectionSampling = "0.1 - 0.2"
 julia = "1.10.0 - 1"
+
+[2]
+SpecialFunctions = "2"
