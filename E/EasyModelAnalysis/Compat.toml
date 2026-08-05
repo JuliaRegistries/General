@@ -10,10 +10,12 @@ julia = "1.6.0-1"
 Distributions = "0.25"
 GlobalSensitivity = "2"
 Plots = "1"
-Reexport = "1"
 
 ["0 - 1.1.0"]
 DifferentialEquations = "7"
+
+["0 - 1.2.2"]
+Reexport = "1"
 
 ["0.1 - 0.1.10"]
 SciMLBase = "1"
@@ -71,7 +73,13 @@ julia = "1.10.0 - 1"
 AbstractMCMC = "4 - 5"
 Turing = ["0.33 - 0.36", "0.45"]
 
-["1.2.2 - 1"]
+["1.2.2"]
 AbstractMCMC = "5.2.0 - 5"
+
+["1.2.2 - 1"]
 NLopt = "1.1.0 - 1"
 Turing = ["0.33 - 0.36", "0.45 - 0.46"]
+
+["1.2.3 - 1"]
+Integrals = "4 - 5"
+SymbolicUtils = "3 - 4"
