@@ -17,20 +17,20 @@ StrideArraysCore = "0.3-0.5"
 StatsBase = "0.32-0.34"
 julia = "1.8.0-1"
 
-["0.11.1 - 0"]
+["0.11.1 - 0.13.7"]
+Polyester = "0.7"
+
+["0.11.1 - 1"]
 Dates = "1"
 LinearAlgebra = "1"
 Random = "1"
 SparseArrays = "1"
 
-["0.11.1 - 0.13.7"]
-Polyester = "0.7"
-
-["0.11.6 - 0"]
-Statistics = "1"
-
 ["0.11.6 - 0.11.9"]
 PrecompileTools = "1"
+
+["0.11.6 - 1"]
+Statistics = "1"
 
 ["0.12 - 0"]
 StrideArraysCore = "0.5"
@@ -41,15 +41,12 @@ ProgressMeter = "1.10.0-1"
 ["0.12 - 0.13.7"]
 SearchModels = "0.4"
 
-["0.12.3 - 0"]
-ProgressMeter = "1.10.0 - 1"
-StatsBase = "0.32 - 0.34"
-
 ["0.12.3 - 0.12"]
 julia = "1.8.0 - 1"
 
-["0.13 - 0"]
-julia = "1.10.0 - 1"
+["0.12.3 - 1"]
+ProgressMeter = "1.10.0 - 1"
+StatsBase = "0.32 - 0.34"
 
 ["0.13 - 0.13.3"]
 Accessors = "0.1.42 - 0.1"
@@ -58,15 +55,20 @@ JET = "0.9 - 0.10"
 ["0.13 - 0.13.4"]
 JLD2 = "0.5"
 
-["0.13.4 - 0"]
+["0.13 - 1"]
+julia = "1.10.0 - 1"
+
+["0.13.4 - 1"]
 Accessors = "0.1"
 
-["0.13.8 - 0"]
+["0.13.8 - 1"]
 SearchModels = "0.5"
 
 ["0.14 - 0"]
-Distributions = "0.25"
 Polyester = "0.7"
+
+["0.14 - 1"]
+Distributions = "0.25"
 
 ["0.3.20"]
 DataStructures = "0.0.0-0.18"
@@ -77,11 +79,11 @@ StatsBase = ["0.30", "0.32"]
 ["0.3.8 - 0.4.3"]
 JSON = ["0.19", "0.21"]
 
-["0.4 - 0"]
-Distances = "0.10"
-
 ["0.4 - 0.10"]
 StatsBase = ["0.30", "0.32-0.33"]
+
+["0.4 - 1"]
+Distances = "0.10"
 
 ["0.4.4 - 0.4"]
 JSON3 = "1.5.0-1"
@@ -131,3 +133,7 @@ LoopVectorization = "0.12"
 
 ["0.9.9 - 0.10"]
 StrideArraysCore = "0.3-0.4"
+
+[1]
+Hadamard = "1.8.0 - 1"
+SIMD = "3.7.0 - 3"
