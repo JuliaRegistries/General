@@ -1,11 +1,13 @@
 [0]
-BEAST = "2"
 ParallelKMeans = "1.1.0 - 1"
-PlotlyJS = "0.18"
 
 ["0 - 0.1.0"]
 CompScienceMeshes = "0.9"
 NURBS = "0.7"
+
+["0 - 0.3"]
+BEAST = "2"
+PlotlyJS = "0.18"
 
 ["0.1.1 - 0"]
 NURBS = "0.7 - 0.8"
@@ -13,8 +15,13 @@ NURBS = "0.7 - 0.8"
 ["0.1.1 - 0.1"]
 CompScienceMeshes = "0.9 - 0.10"
 
-["0.2 - 0"]
+["0.2 - 0.3"]
 CompScienceMeshes = "0.9 - 0.11"
 
 ["0.3 - 0"]
 Metis = "1.5.0 - 1"
+
+["0.4 - 0"]
+BEAST = "2.9.0 - 2"
+CompScienceMeshes = "0.11 - 0.12"
+PlotlyJS = "0.18.5 - 0.18"
