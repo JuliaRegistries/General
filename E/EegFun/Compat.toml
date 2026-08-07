@@ -1,13 +1,11 @@
 [0]
 BrainVisionDataFormat = "0.1"
 CSV = "0.10"
-CairoMakie = "0.15.8 - 0.15"
 DSP = "0.8.4 - 0.8"
 DataFrames = "1.7.0 - 1"
 Distributions = "0.25.120 - 0.25"
 DocStringExtensions = "0.9.5 - 0.9"
 FFTW = "1"
-GLMakie = "0.13.8 - 0.13"
 LIBSVM = "0.8.1 - 0.8"
 LoggingExtras = "1"
 Makie = "0.24"
@@ -29,6 +27,10 @@ JLD2 = "0.5.15 - 0.5"
 MAT = "0.11.4 - 0.11"
 OrderedCollections = "1.4.0 - 1"
 
+["0 - 0.6"]
+CairoMakie = "0.15.8 - 0.15"
+GLMakie = "0.13.8 - 0.13"
+
 ["0.2"]
 AnovaFun = "0.3"
 
@@ -37,7 +39,6 @@ AnovaFun = "0.4"
 
 ["0.4 - 0"]
 BiosemiDataFormat = "0.2"
-DataDeps = "0.7.14 - 0.7"
 EuropeanDataFormat = "0.1.1 - 0.1"
 ExtensibleDataFormat = "0.1"
 FunctionalImageFormat = "0.1"
@@ -47,8 +48,14 @@ MAT = "0.11.4 - 0.12"
 OrderedCollections = "1.4.0 - 2"
 TOML = "1.0.3 - 1"
 
+["0.4 - 0.6"]
+DataDeps = "0.7.14 - 0.7"
+
 ["0.5 - 0"]
 KernelAbstractions = "0.9.42 - 0.9"
 
 ["0.6 - 0"]
 SpecialFunctions = "2.8.0 - 2"
+
+["0.7 - 0"]
+DataDeps = ["0.7.14 - 0.7", "1"]
