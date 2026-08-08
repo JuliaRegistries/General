@@ -37,6 +37,9 @@ osslsigncode_jll = "2.9.0-2"
 ["0.4"]
 AppBundlerUtils_jll = "0.1.5 - 0.1"
 
+["0.4 - 0"]
+OpenSSL_jll = "3.5.0 - 3"
+
 ["0.4 - 1"]
 Base64 = "1.11.0 - 1"
 CodecZlib = "0.7.8 - 0.7"
@@ -47,7 +50,6 @@ ImageCore = "0.10.5 - 0.10"
 ImageIO = "0.6.9 - 0.6"
 ImageTransformations = "0.10.2 - 0.10"
 Makemsix_jll = "1.7.241 - 1"
-OpenSSL_jll = "3.5.0 - 3"
 Pkg = "1.9.0 - 1"
 PyCall = "1.96.4 - 1"
 Random = "1.11.0 - 1"
@@ -72,3 +74,9 @@ Printf = "1.11.0 - 1"
 [1]
 AppEnv = "0.2.1 - 0.2"
 LibGit2 = "1.11.0 - 1"
+
+["1.0.0"]
+OpenSSL_jll = "3.5.0 - 3"
+
+["1.0.1 - 1"]
+OpenSSL_CLI_jll = "3.5.1 - 3"
