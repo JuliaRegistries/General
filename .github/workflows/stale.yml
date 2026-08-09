@@ -18,3 +18,4 @@ jobs:
         days-before-pr-close: 7
         delete-branch: true
         operations-per-run: 100
+        exempt-pr-labels: stalebot-ignore
