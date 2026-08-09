@@ -1,16 +1,5 @@
 [1]
-Adapt = "4"
 BSON = "0.3"
-ChainRulesCore = "1"
-Distributions = "0.25"
-GPUArraysCore = "0.2"
-ImageCore = "0.10"
-ImageFiltering = "0.7"
-ImageIO = "0.6"
-ImageTransformations = "0.10"
-NearestNeighbors = "0.4"
-NerfUtils = "0.2"
-Quaternions = "0.7"
 
 ["1 - 1.0.1"]
 CImGui = "2"
@@ -29,6 +18,19 @@ StaticArrays = "1.9.0-1"
 VideoIO = "1.1.0-1"
 julia = "1.10.0-1"
 
+["1 - 2"]
+Adapt = "4"
+ChainRulesCore = "1"
+Distributions = "0.25"
+GPUArraysCore = "0.2"
+ImageCore = "0.10"
+ImageFiltering = "0.7"
+ImageIO = "0.6"
+ImageTransformations = "0.10"
+NearestNeighbors = "0.4"
+NerfUtils = "0.2"
+Quaternions = "0.7"
+
 ["1.0"]
 BenchmarkTools = "1"
 NNlib = "0.9"
@@ -44,6 +46,16 @@ KernelAbstractions = "0.9.34-0.9"
 Zygote = "0.7.3"
 
 ["1.0.2 - 1"]
+julia = "1.10.0 - 1"
+
+["1.0.2 - 1.0"]
+Flux = "0.16.2 - 0.16"
+Preferences = "1.4.0 - 1"
+
+["1.0.2 - 1.1"]
+NeuralGraphicsGL = "0.5"
+
+["1.0.2 - 2"]
 CImGui = "6"
 FileIO = "1.16.0 - 1"
 GLFW = "3.4.0 - 3"
@@ -56,18 +68,17 @@ Rotations = "1.7.0 - 1"
 SIMD = "3.6.0 - 3"
 StaticArrays = "1.9.0 - 1"
 VideoIO = "1.1.0 - 1"
-julia = "1.10.0 - 1"
 
-["1.0.2 - 1.0"]
-Flux = "0.16.2 - 0.16"
-Preferences = "1.4.0 - 1"
-
-["1.0.2 - 1.1"]
-NeuralGraphicsGL = "0.5"
-
-["1.1 - 1"]
+["1.1 - 2"]
 Zygote = "0.7"
 
-["1.2 - 1"]
+["1.2 - 2"]
 AcceleratedKernels = "0.4.3 - 0.4"
 NeuralGraphicsGL = "0.5.1 - 0.5"
+
+[2]
+ImPlot = "0.7.1 - 0.7"
+NativeFileDialog = "0.2.1 - 0.2"
+ProgressMeter = "1.11.0 - 1"
+SafeTensors = "1.2.1 - 1"
+julia = "1.12.0 - 1"
