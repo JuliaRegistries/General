@@ -38,10 +38,17 @@ MUMPS_jll = "5.8.1"
 ["1.6 - 1"]
 Libdl = "1.10.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
-MUMPS_jll = "5.8.2"
 OpenBLAS32_jll = "0.3.23 - 0.3"
 SparseArrays = "1.10.0 - 1"
 julia = "1.10.0 - 1"
 
-["1.6.1 - 1"]
+["1.6 - 1.6.1"]
+MUMPS_jll = "5.8.2"
+
+["1.6.1"]
 MUMPS_seq_jll = "500.800"
+
+["1.6.2 - 1"]
+MUMPS_jll = "5.9.1 - 5.9"
+MUMPS_seq_jll = "500.900.100 - 500.900"
+SCALAPACK32_jll = "2.2.3"
