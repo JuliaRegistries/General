@@ -89,7 +89,6 @@ OrdinaryDiffEqVerner = "1.5.0 - 1"
 OrdinaryDiffEqCore = "2"
 
 [2]
-DiffEqBase = "7"
 OrdinaryDiffEqBDF = "2"
 OrdinaryDiffEqRosenbrock = "2"
 OrdinaryDiffEqTsit5 = "2"
@@ -100,6 +99,9 @@ SciMLBase = "3"
 
 ["2 - 2.4.0"]
 OrdinaryDiffEqCore = "4"
+
+["2 - 2.4.3"]
+DiffEqBase = "7"
 
 ["2.2.1"]
 LinearSolve = "3.75.0 - 3"
@@ -127,4 +129,10 @@ LinearSolve = "5.1.0 - 5"
 
 ["2.4.1 - 2"]
 OrdinaryDiffEqCore = "4.11.0 - 4"
+
+["2.4.1 - 2.4.3"]
 SciMLBase = "3.39.0 - 3"
+
+["2.4.4 - 2"]
+DiffEqBase = "7.14.0 - 7"
+SciMLBase = "3.46.0 - 3"
