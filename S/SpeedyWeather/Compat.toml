@@ -74,12 +74,10 @@ julia = "1.10.0 - 1"
 Dates = "1.10.0 - 1"
 
 ["0.17 - 0"]
-Atomix = "1"
 ComponentArrays = "0.15"
 JLD2 = "0.4 - 0.6"
 LowerTriangularArrays = "0.1"
 RingGrids = "0.1"
-SpeedyTransforms = "0.1"
 
 ["0.17 - 0.17.2"]
 ConstructionBase = "1"
@@ -89,6 +87,10 @@ ModelParameters = "0.4"
 ["0.17 - 0.18"]
 DomainSets = "0.7"
 SpeedyWeatherInternals = "0.1"
+
+["0.17 - 0.21"]
+Atomix = "1"
+SpeedyTransforms = "0.1"
 
 ["0.18 - 0.20.1"]
 Enzyme = "0.13"
@@ -102,6 +104,9 @@ StyledStrings = "1"
 ["0.2 - 0.4"]
 UnicodePlots = "2.10.0-3"
 julia = "1.7.0-1"
+
+["0.22 - 0"]
+SpeedyTransforms = "0.2"
 
 ["0.3"]
 CUDAKernels = "0.3"
