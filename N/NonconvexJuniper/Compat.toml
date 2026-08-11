@@ -1,6 +1,5 @@
 [0]
 Reexport = "1"
-Zygote = "0.6"
 julia = "1"
 
 ["0 - 0.2"]
@@ -15,6 +14,9 @@ NonconvexCore = "0.1.3-0.1"
 
 ["0 - 0.3"]
 Parameters = "0.12"
+
+["0 - 0.4.1"]
+Zygote = "0.6"
 
 ["0.2.1"]
 Ipopt = "0.9"
@@ -45,8 +47,16 @@ MathOptInterface = "1"
 NonconvexCore = "1.1.1-1"
 
 ["0.4 - 0"]
-LinearAlgebra = "1.12.0 - 1"
 NonconvexCore = "1.5.0 - 1"
-NonconvexIpopt = "0.5"
 Parameters = "0.12 - 0.13"
+
+["0.4 - 0.4.1"]
+LinearAlgebra = "1.12.0 - 1"
+NonconvexIpopt = "0.5"
 SparseArrays = "1.12.0 - 1"
+
+["0.4.2 - 0"]
+LinearAlgebra = "1"
+NonconvexIpopt = "0.5 - 0.6"
+SparseArrays = "1"
+Zygote = "0.6 - 0.7"
