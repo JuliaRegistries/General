@@ -51,11 +51,11 @@ NCDatasets = "0.13-0.14"
 StatsBase = "0.33.16-0.34"
 julia = "1.10.0-1"
 
-["0.7 - 0"]
+["0.7 - 0.8"]
 Rasters = "0.11"
 Shapefile = ["0.10", "0.12"]
 
-["0.8 - 0"]
+["0.8"]
 ArchGDAL = "0.9 - 0.10"
 CSV = "0.10.4 - 0.10"
 CubicSplines = "0.1.1 - 0.2"
@@ -71,3 +71,18 @@ SmoothingSplines = "0.3.1 - 0.3"
 Statistics = "1.7.0 - 1"
 StatsBase = "0.33.16 - 0.34"
 julia = "1.10.0 - 1"
+
+["0.9 - 0"]
+ArchGDAL = ["0.9 - 0.10", "1"]
+CubicSplines = ["0.1 - 0.2", "1"]
+DataFrames = "1"
+DimensionalData = ["0.27 - 0.30", "1"]
+Distributions = ["0.25", "1"]
+GLM = "1"
+HypothesisTests = ["0.10 - 0.11", "1"]
+NCDatasets = ["0.13 - 0.14", "1"]
+Rasters = ["0.11 - 0.15", "1"]
+Shapefile = ["0.10 - 0.13", "1"]
+SmoothingSplines = ["0.3", "1"]
+StatsBase = ["0.33 - 0.34", "1"]
+julia = "1"
