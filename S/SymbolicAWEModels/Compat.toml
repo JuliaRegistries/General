@@ -1,11 +1,9 @@
 [0]
 DocStringExtensions = "0.9.4 - 0.9"
-OrdinaryDiffEqNonlinearSolve = "1.6.1 - 1"
 Parameters = "0.12"
 SHA = "0.7"
 StaticArrays = "1.9.7 - 1"
 Statistics = "1"
-SymbolicIndexingInterface = "0.3"
 Timers = "0.1.5 - 0.1"
 
 ["0 - 0.1"]
@@ -23,6 +21,10 @@ NLSolversBase = "7.8.3 - 7.8"
 
 ["0 - 0.1.1"]
 VortexStepMethod = "1.2.6 - 1"
+
+["0 - 0.12"]
+OrdinaryDiffEqNonlinearSolve = "1.6.1 - 1"
+SymbolicIndexingInterface = "0.3"
 
 ["0 - 0.2"]
 ADTypes = "1.14.0 - 1"
@@ -49,11 +51,11 @@ WinchModels = "0.3.6 - 0.3"
 ["0 - 0.7"]
 NonlinearSolve = "4.8.0 - 4"
 
-["0.1.1 - 0"]
-SteadyStateDiffEq = "2.5.0 - 2"
-
 ["0.1.1 - 0.1"]
 ModelingToolkit = "10.10"
+
+["0.1.1 - 0.12"]
+SteadyStateDiffEq = "2.5.0 - 2"
 
 ["0.1.1 - 0.5"]
 AtmosphericModels = "0.3"
@@ -64,8 +66,22 @@ VortexStepMethod = "2"
 ["0.10 - 0"]
 DataInterpolations = "8.10.0 - 8"
 
-["0.11.1 - 0"]
+["0.11.1 - 0.12"]
 VortexStepMethod = "3.3.5 - 3"
+
+["0.13 - 0"]
+ADTypes = "1"
+KiteUtils = "0.11.9 - 0.11"
+NonlinearSolve = "4.14.0 - 6"
+NonlinearSolveQuasiNewton = "1.12.0 - 2"
+OrdinaryDiffEqBDF = "1.16.0 - 3"
+OrdinaryDiffEqCore = "3 - 4"
+OrdinaryDiffEqNonlinearSolve = "1.6.0 - 3"
+SteadyStateDiffEq = "2.5.0 - 4"
+SymbolicIndexingInterface = "0.3 - 0.4"
+SymbolicUtils = "4 - 5"
+Symbolics = "7 - 8"
+VortexStepMethod = "4"
 
 ["0.2"]
 Interpolations = "0.15.1 - 0.16"
@@ -109,12 +125,14 @@ AtmosphericModels = "0.3.2 - 0.3"
 Dates = "1"
 Logging = "1"
 ModelingToolkit = "11"
+TOML = "1"
+YAML = "0.4"
+
+["0.6 - 0.12"]
 OrdinaryDiffEqBDF = "1.16.0 - 1"
 OrdinaryDiffEqCore = "3"
 SymbolicUtils = "4"
 Symbolics = "7"
-TOML = "1"
-YAML = "0.4"
 
 ["0.6 - 0.7"]
 KiteUtils = "0.11.1 - 0.11"
@@ -125,7 +143,7 @@ VortexStepMethod = "3"
 ["0.7 - 0"]
 julia = "1.11.0 - 1"
 
-["0.8 - 0"]
+["0.8 - 0.12"]
 KiteUtils = "0.11.6 - 0.11"
 NonlinearSolve = "4.14"
 NonlinearSolveQuasiNewton = "1.12"

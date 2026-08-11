@@ -12,8 +12,16 @@ GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
 ["0.3 - 0"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 CUDACore = "bd0ed864-bdfe-4181-a5ed-ce625a5fdea2"
-LMDB_jll = "6206cf0b-f360-5984-af49-5437264c140e"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+
+["0.3 - 0.3.1"]
+LMDB_jll = "6206cf0b-f360-5984-af49-5437264c140e"
+
+["0.3.2 - 0"]
+GPUToolbox = "096a3bc2-3ced-46d0-87f4-dd12716f4bfc"
+LMDB = "11f193de-5e89-5f17-923a-7d207d56daf9"
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"

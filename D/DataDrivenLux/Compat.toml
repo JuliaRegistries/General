@@ -26,8 +26,6 @@ ProgressMeter = "1.7.0-1"
 Distributions = "0.25"
 
 ["0.2 - 0"]
-AbstractDifferentiation = "0.6"
-ComponentArrays = "0.15"
 Lux = "1"
 LuxCore = "1"
 Setfield = "1"
@@ -45,7 +43,11 @@ IntervalArithmetic = "0.22"
 StatsBase = "0.34.3-0.34"
 julia = "1.10.0-1"
 
-["0.2.1 - 0"]
+["0.2 - 0.2.4"]
+AbstractDifferentiation = "0.6"
+ComponentArrays = "0.15"
+
+["0.2.1 - 0.2.4"]
 ForwardDiff = ["0.10", "1"]
 
 ["0.2.2"]
@@ -56,15 +58,17 @@ DataDrivenDiffEq = "1.14.0 - 1"
 
 ["0.2.3 - 0"]
 ChainRulesCore = "1.15.0 - 1"
-CommonSolve = "0.2.4 - 0.2"
 ConcreteStructs = "0.2.3 - 0.2"
 DocStringExtensions = "0.9.3 - 0.9"
-IntervalArithmetic = ["0.22 - 0.23", "1"]
-Optim = "1.7.0 - 2"
 Optimisers = "0.3 - 0.4"
 ProgressMeter = "1.7.0 - 1"
 StatsBase = "0.34.3 - 0.34"
 julia = "1.10.0 - 1"
+
+["0.2.3 - 0.2.4"]
+CommonSolve = "0.2.4 - 0.2"
+IntervalArithmetic = ["0.22 - 0.23", "1"]
+Optim = "1.7.0 - 2"
 
 ["0.2.4 - 0"]
 DataDrivenDiffEq = "1.15.0 - 1"
@@ -73,3 +77,11 @@ Distributions = "0.25.123 - 0.25"
 LinearAlgebra = "1.10.0 - 1"
 Logging = "1.10.0 - 1"
 Random = "1.10.0 - 1"
+
+["0.2.5 - 0"]
+AbstractDifferentiation = "0.6.2 - 0.6"
+CommonSolve = "0.2.6 - 0.2"
+ComponentArrays = "0.15.40 - 0.15"
+ForwardDiff = ["0.10.39 - 0.10", "1"]
+IntervalArithmetic = ["0.22.10 - 0.23", "1"]
+Optim = "2"

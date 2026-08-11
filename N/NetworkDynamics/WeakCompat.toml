@@ -1,5 +1,4 @@
 ["0.10 - 0"]
-Adapt = "4.0.4 - 4"
 CUDA = "5.5.2 - 5"
 SymbolicUtils = "3.24.0 - 3"
 Symbolics = "6.19.0 - 6"
@@ -7,11 +6,14 @@ Symbolics = "6.19.0 - 6"
 ["0.10 - 0.10.3"]
 ModelingToolkit = "9.67.0 - 9"
 
-["0.10.1 - 0"]
-SparseConnectivityTracer = ["0.6", "1"]
+["0.10 - 1"]
+Adapt = "4.0.4 - 4"
 
 ["0.10.1 - 0.10.12"]
 RuntimeGeneratedFunctions = "0.5.15 - 0.5"
+
+["0.10.1 - 1"]
+SparseConnectivityTracer = ["0.6", "1"]
 
 ["0.10.4 - 0"]
 ModelingToolkit = "10"
@@ -29,7 +31,7 @@ ModelingToolkit = "9.67.0-9"
 ["0.9.16 - 0.9"]
 SymbolicUtils = "3.24.0-3"
 
-["0.9.17 - 0"]
+["0.9.17 - 1"]
 DataFrames = "1"
 
 ["0.9.5"]
@@ -43,3 +45,9 @@ Symbolics = "6.19.0-6"
 
 ["0.9.6 - 0.9.13"]
 ModelingToolkit = "9.61.0-9"
+
+[1]
+CUDA = "5.5.2 - 6"
+ModelingToolkitBase = "1.21.0 - 1"
+SymbolicUtils = "4"
+Symbolics = "7"

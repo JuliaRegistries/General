@@ -1,8 +1,10 @@
 [0]
+Reexport = "1"
+
+["0 - 0.12"]
 AssetRegistry = "0.1"
 Blink = "0.12"
 Interact = "0.10"
-Reexport = "1"
 
 ["0 - 0.6.2"]
 Interpolations = "0.13"
@@ -64,10 +66,22 @@ KomaMRICore = "0.11.4 - 0.11"
 KomaMRIFiles = "0.11"
 KomaMRIPlots = "0.11.1 - 0.11"
 
-["0.12 - 0"]
+["0.12"]
 KomaMRICore = "0.12"
 KomaMRIFiles = "0.11.1 - 0.11"
 KomaMRIPlots = "0.12"
+
+["0.13 - 0"]
+Artifacts = "1"
+Bonito = "4.2.0 - 5"
+Electron = "6.1.1 - 6"
+KomaMRICore = "0.12.1 - 0.12"
+KomaMRIFiles = "0.11.3 - 0.11"
+KomaMRIPlots = "0.13"
+MsgPack = "1.2.1 - 1"
+Observables = "0.5.5 - 0.5"
+PlotlyBase = "0.8.23 - 0.8"
+julia = "1.10.0 - 1"
 
 ["0.6.3 - 0.6.6"]
 Suppressor = "0.2"
@@ -121,4 +135,6 @@ MRIReco = "0.6-0.9"
 
 ["0.9.2 - 0"]
 MRIReco = "0.6 - 0.9"
+
+["0.9.2 - 0.12"]
 julia = "1.9.0 - 1"

@@ -74,7 +74,6 @@ MolecularGraph = "0.16-0.18"
 DataStructures = "0.18.13 - 0.18"
 
 ["0.5.4 - 0"]
-BioStructures = "4.2.0 - 4"
 CSV = "0.10.13 - 0.10"
 LinearAlgebra = "1.10.0 - 1"
 Observables = "0.5.5 - 0.5"
@@ -100,22 +99,35 @@ StructTypes = "1.5.0 - 1"
 CellListMap = "0.8 - 0.9"
 StaticArrays = "1.5.0 - 1"
 
+["0.5.4 - 0.6"]
+BioStructures = "4.2.0 - 4"
+
 ["0.5.5 - 0"]
 DataStructures = "0.18.13 - 0.19"
 
 ["0.5.6 - 0"]
-CellListMap = "0.9.5 - 0.9"
 MetaGraphs = "0.8 - 0.9"
 StaticArrays = "1.9.8 - 1"
+
+["0.5.6 - 0.6"]
+CellListMap = "0.9.5 - 0.9"
+
+["0.6"]
+JSON3 = "1.10.0 - 1"
+StructTypes = "1.10.0 - 1"
 
 ["0.6 - 0"]
 DataFrames = "1.8.0 - 1"
 Dates = "1.10.0 - 1"
 Graphs = "1.12.0 - 1"
-JSON3 = "1.10.0 - 1"
 MolecularGraph = "0.22"
 Optimization = "5.1.0 - 5"
 OptimizationLBFGSB = "1.1.0 - 1"
 PrettyTables = "3"
 Scanf = "0.5.4 - 0.5"
-StructTypes = "1.10.0 - 1"
+
+["0.7 - 0"]
+CellListMap = "0.10"
+Downloads = "1"
+GeometryBasics = "0.5"
+JSON = "1.5.1 - 1"

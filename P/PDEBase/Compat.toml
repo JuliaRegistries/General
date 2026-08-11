@@ -53,12 +53,20 @@ SciMLBase = ["2", "3.1.0 - 3"]
 
 ["0.1.25 - 0"]
 DomainSets = "0.7 - 0.8"
-ModelingToolkit = "11.26.7 - 11"
 PrecompileTools = "1.2.1 - 1"
 SciMLBase = ["2.149.0 - 2", "3.1.0 - 3"]
 SymbolicIndexingInterface = "0.3.43 - 0.3"
 SymbolicUtils = "4.31.0 - 4"
 Symbolics = "7.24.0 - 7"
+
+["0.1.25 - 0.1.30"]
+ModelingToolkit = "11.26.7 - 11"
+
+["0.1.31 - 0"]
+IntervalSets = "0.7"
+ModelingToolkitBase = "1.58.0 - 1"
+SciMLPublic = "1"
+TermInterface = "2"
 
 ["0.1.5 - 0.1.10"]
 SciMLBase = "1.94.0-2"

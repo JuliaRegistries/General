@@ -8,7 +8,7 @@ OffsetArrays = "1"
 ["0 - 1.5"]
 Symbolics = ["0.1", "1-4"]
 
-["0 - 2"]
+["0 - 2.29.2"]
 IfElse = "0.1"
 
 ["0 - 2.3"]
@@ -80,8 +80,10 @@ PreallocationTools = "0.4.23 - 0.4"
 ChainRulesCore = "1.24.0 - 1"
 
 ["2.26 - 2"]
-ModelingToolkitBase = "1"
 Symbolics = "7.4.1 - 7"
+
+["2.26 - 2.29.4"]
+ModelingToolkitBase = "1"
 
 ["2.27"]
 DiffEqBase = "6.189.1 - 6"
@@ -91,7 +93,24 @@ PreallocationTools = ["0.4.27 - 0.4", "1"]
 
 ["2.28 - 2"]
 ChainRulesCore = "1"
+
+["2.28 - 2.29.2"]
 DiffEqBase = "6.189.1 - 7"
+
+["2.29.3 - 2"]
+DiffEqBase = "6.190.0 - 7"
+
+["2.29.4"]
+SymbolicUtils = "4"
+
+["2.29.5"]
+ModelingToolkitBase = "1.1.0 - 1"
+
+["2.29.5 - 2"]
+SymbolicUtils = "4.38.1 - 4"
+
+["2.29.6 - 2"]
+ModelingToolkitBase = "1.49.0 - 1"
 
 ["2.3"]
 ModelingToolkit = "8.67.0-8"

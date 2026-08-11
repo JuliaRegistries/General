@@ -28,10 +28,12 @@ SciMLBase = "2"
 
 ["2.2 - 2"]
 LinearAlgebra = "1"
-Random = "1"
 
 ["2.2 - 2.7"]
 Statistics = "1"
+
+["2.2 - 2.8"]
+Random = "1"
 
 ["2.3"]
 RecursiveArrayTools = "2 - 3"
@@ -68,14 +70,19 @@ RecursiveArrayTools = "4"
 ["2.6 - 2.7"]
 SciMLBase = "3"
 
+["2.8"]
+KernelDensity = "0.6.7 - 0.6"
+Reexport = "1.2.2 - 1"
+
 ["2.8 - 2"]
 DiffEqNoiseProcess = "5.30.0 - 5"
 Distributions = "0.25.88 - 0.25"
 Integrals = "5.4.0 - 5"
-KernelDensity = "0.6.7 - 0.6"
 Parameters = "0.12 - 0.13"
-Reexport = "1.2.2 - 1"
 SciMLBase = "3.1.0 - 3"
 StaticArrays = "1.9.14 - 1"
 Statistics = "1.10.0 - 1"
 Zygote = "0.7.5 - 0.7"
+
+["2.9 - 2"]
+ZygoteRules = "0.2"

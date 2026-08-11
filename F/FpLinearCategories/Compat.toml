@@ -1,7 +1,5 @@
 [0]
-CartesianCategories = "0.3.12 - 0.3"
 MatricesForHomalg = "0.1.5 - 0.1"
-MonoidalCategories = "0.2.12 - 0.2"
 ToolsForCategoricalTowers = "0.1"
 Toposes = "0.1.14 - 0.1"
 julia = "1.11.0 - 1"
@@ -18,10 +16,14 @@ QuotientCategories = "0.1"
 FinSetsForCAP = "0.1.15 - 0.1"
 FpCategories = "0.1"
 
+["0 - 0.2.1"]
+CartesianCategories = "0.3.12 - 0.3"
+MonoidalCategories = "0.2.12 - 0.2"
+
 ["0.1.2"]
 FinSetsForCAP = "0.2"
 
-["0.1.2 - 0"]
+["0.1.2 - 0.2.2"]
 FpCategories = "0.1.2 - 0.1"
 
 ["0.1.3 - 0"]
@@ -39,3 +41,10 @@ CAP = "0.7"
 
 ["0.2.1 - 0"]
 CAP = "0.7 - 0.8"
+
+["0.2.2 - 0"]
+CartesianCategories = "0.3.12 - 0.4"
+MonoidalCategories = "0.2.12 - 0.3"
+
+["0.2.3 - 0"]
+FpCategories = "0.1.13 - 0.1"

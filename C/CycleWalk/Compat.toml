@@ -1,6 +1,8 @@
 [0]
-AtlasIO = "0.1"
 Hungarian = "0.7"
+
+["0-0.1.11"]
+AtlasIO = "0.1"
 
 ["0-0.1.8"]
 Combinatorics = "1.0.3-1"
@@ -15,11 +17,24 @@ SimpleWeightedGraphs = "1.5.0-1"
 ["0-0.1.9"]
 julia = "1.11.0-1"
 
-["0.1.10-0"]
+["0.1.10-0.1.11"]
 julia = "1"
 
-["0.1.11-0"]
+["0.1.11"]
 MetropolizedForestRecom = "0.1.4-0.1"
+
+["0.1.12"]
+AtlasIO = "0.1.1-0.1"
+
+["0.1.12-0"]
+MetropolizedForestRecom = "0.1"
+julia = "1.10.0-1"
+
+["0.1.12-0.1"]
+LinkCutTreesAugmented = "0.1"
+
+["0.1.13-0"]
+AtlasIO = "0.1.2-0.1"
 
 ["0.1.9-0"]
 Combinatorics = "1"
@@ -30,3 +45,15 @@ JSON = "1"
 LinearAlgebra = "1"
 RandomNumbers = "1"
 SimpleWeightedGraphs = "1"
+
+["0.2-0"]
+SparseArrays = "1"
+
+["0.2.0"]
+LinkCutTreesAugmented = "0.1.1-0.1"
+
+["0.2.1-0"]
+LinkCutTreesAugmented = "0.2"
+
+["0.2.3-0"]
+TOML = "1"

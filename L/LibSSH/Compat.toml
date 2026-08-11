@@ -15,10 +15,16 @@ Sockets = "1"
 ["0.3 - 1"]
 Kerberos_krb5_jll = "1"
 
-["0.5 - 1"]
+["0.5 - 0"]
 libssh_jll = "0.11"
 
 [1]
 CEnum = "0.4 - 0.5"
 PrecompileTools = "1"
 julia = "1.11.0 - 1"
+
+["1.0"]
+libssh_jll = "0.11"
+
+["1.1 - 1"]
+libssh_jll = "0.12.1 - 0.12"

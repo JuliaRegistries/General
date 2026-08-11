@@ -70,17 +70,22 @@ NLSolversBase = "d41bc354-129a-5804-8e4c-c37616107c6c"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
+["2 - 3"]
+DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
+NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
+
 ["2 - 4"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
 DistributionsAD = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 EmpiricalDistributions = "0bbb1fad-0f24-45fe-94a4-415852c5cc3b"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 HypothesisTests = "09f84164-cd44-5f33-b23f-e6b0d136a0d5"
-NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
 Sobol = "ed01d8cd-4d21-5b2a-85b4-cc3bdc58bad4"
+
+[3]
+StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 
 ["3 - 4"]
 AffineMaps = "2c83c9a8-abf5-4329-a0d7-deffaf474661"
@@ -98,18 +103,29 @@ MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 MeasureBase = "fa1605e6-acd5-459c-a1e6-7e635759db14"
 StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 
 ["3.1 - 4"]
 Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
 
+["3.2 - 3"]
+DomainSets = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
+
 ["3.2 - 4"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-DomainSets = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
 
 ["3.4 - 4"]
 LazyReports = "e5afb96c-f319-4582-8667-2a6c7d02249d"
 
+["4.0"]
+DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
+DomainSets = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
+NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
+StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
+
 ["4.0.1 - 4"]
 OneTwoMany = "762dc654-8631-413a-a342-372a7419ad9d"
+
+["4.1 - 4"]
+LogarithmicNumbers = "aa2f6b4e-9042-5d33-9679-40d3a6b85899"
+StaticThings = "7e4b4f32-fbf9-4b74-9510-4d15222ac973"

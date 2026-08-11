@@ -2,14 +2,19 @@
 julia = "1.10.0 - 1"
 
 ["0 - 6"]
-DSP = "0.7 - 0.8"
 FixedSizeArrays = "1"
+
+["0 - 7"]
+DSP = "0.7 - 0.8"
 LiveLayoutUnicodePlots = "0.1"
 UnicodePlots = "3"
 Unitful = "1"
 
-["2 - 6"]
+["2 - 7"]
 julia = "1.12.0 - 1"
 
 ["5 - 6"]
 PipeChannels = "0.1.1 - 0.1"
+
+[7]
+PipeChannels = "1.0.1 - 1"

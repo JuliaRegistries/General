@@ -1,4 +1,8 @@
-[25]
+["25-25.5"]
+cupynumeric_jll = "25.5.0"
+legate_jll = "25.5.0"
+
+[25-26]
 Artifacts = ["0.0.0", "1"]
 JLLWrappers = "1.7.0-1"
 LazyArtifacts = ["0.0.0", "1"]
@@ -6,10 +10,6 @@ Libdl = ["0.0.0", "1"]
 TOML = ["0.0.0", "1"]
 julia = "1.10.0-1"
 libcxxwrap_julia_jll = "0.14.3-0.14"
-
-["25-25.5"]
-cupynumeric_jll = "25.5.0"
-legate_jll = "25.5.0"
 
 ["25.10.0"]
 cupynumeric_jll = "25.10.0"
@@ -26,3 +26,7 @@ legate_jll = "25.10.1-25.10"
 ["25.8"]
 cupynumeric_jll = "25.8.0"
 legate_jll = "25.8.0"
+
+[26]
+cupynumeric_jll = "26.6"
+legate_jll = "26.6"

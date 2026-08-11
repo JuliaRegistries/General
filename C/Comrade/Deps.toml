@@ -53,6 +53,9 @@ Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 ReactantCore = "a3311ec8-5e00-46d5-b541-4f83e724a433"
 
+["0.11.33 - 0"]
+ProbabilityTransports = "6cb8f75d-6579-4ae3-8431-bc9b57364f63"
+
 ["0.11.7 - 0"]
 Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
 
@@ -77,11 +80,13 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 ["0.2.2 - 0"]
 AbstractMCMC = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
 DensityInterface = "b429d917-457f-4dbc-8f4c-0cc954292b1d"
-HypercubeTransform = "9ec9aee3-0fd3-44c2-8e61-a50acc66f3c8"
 ParameterHandling = "2412ca09-6db7-441c-8e3a-88d5709968c5"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 TransformVariables = "84d833dd-6860-57f9-a1a7-6da5db126cff"
+
+["0.2.2 - 0.11.32"]
+HypercubeTransform = "9ec9aee3-0fd3-44c2-8e61-a50acc66f3c8"
 
 ["0.2.2 - 0.6"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"

@@ -3,14 +3,12 @@ AnovaFun = "786f6bac-1c88-4ef5-b24a-5b341b5d6c78"
 BiosemiDataFormat = "d1c37e40-cd17-11e8-241b-47481c954d91"
 BrainVisionDataFormat = "a1c37e40-cd17-11e8-241b-47481c954d92"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
-CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
 DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
-GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 LIBSVM = "b1bec4e5-fd48-53fe-b0cb-9723c09d164b"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -30,3 +28,20 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+["0 - 0.6"]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+
+["0.4 - 0"]
+DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
+EuropeanDataFormat = "6e7d3c7c-811f-4696-823f-91ac5a3cab82"
+ExtensibleDataFormat = "2b00c89a-a032-41e6-8f7f-64a330142705"
+FunctionalImageFormat = "81713a14-8c46-4899-bb05-3bedfc9b76e7"
+GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
+
+["0.5 - 0"]
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+
+["0.6 - 0"]
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"

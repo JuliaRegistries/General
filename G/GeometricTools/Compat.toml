@@ -1,17 +1,19 @@
 [2]
-Dierckx = "0.5"
 PyPlot = "2"
-QuadGK = "2"
-Requires = "1"
-Roots = "2"
-Statistics = "1"
-julia = "1"
 
 ["2 - 2.3.2"]
 PyCall = "1.94.0-1"
 
 ["2 - 2.3.4"]
 HDF5 = "0.16"
+
+["2 - 3"]
+Dierckx = "0.5"
+QuadGK = "2"
+Requires = "1"
+Roots = "2"
+Statistics = "1"
+julia = "1"
 
 ["2.2 - 2.3.2"]
 FLOWMath = "0.3"
@@ -29,11 +31,16 @@ OpenSSL_jll = "3"
 FLOWMath = ["0.3", "1"]
 
 ["2.3.3 - 2"]
-Meshes = "0.28 - 0.42"
 PyCall = "1.94.0 - 1"
 
-["2.3.4 - 2"]
+["2.3.3 - 3"]
+Meshes = "0.28 - 0.42"
+
+["2.3.4 - 3"]
 FLOWMath = ["0.3 - 0.4", "1"]
 
-["2.3.5 - 2"]
+["2.3.5 - 3"]
 HDF5 = "0.16 - 0.17"
+
+[3]
+PythonPlot = "1"

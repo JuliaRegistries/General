@@ -3,7 +3,6 @@ BipartiteGraphs = "0.1.3 - 0.1"
 CommonSolve = "0.2"
 DocStringExtensions = "0.7 - 0.9"
 Graphs = "1"
-Moshi = "0.3"
 OffsetArrays = "1"
 OrderedCollections = "1.8.1 - 1"
 Setfield = ["0.7 - 0.8", "1"]
@@ -19,6 +18,9 @@ SciMLBase = "2.108.0 - 2"
 
 ["1 - 1.13.1"]
 SymbolicUtils = "4.3.0 - 4"
+
+["1 - 1.20.1"]
+Moshi = "0.3"
 
 ["1 - 1.3"]
 Symbolics = "7.1.0 - 7"
@@ -48,14 +50,20 @@ Symbolics = "7.20.0 - 7"
 ["1.13.6 - 1.15.0"]
 ModelingToolkitBase = "1.37.0 - 1"
 
-["1.14.2 - 1"]
+["1.14.2 - 1.18.1"]
 StateSelection = "1.10.0 - 1"
 
 ["1.15.1 - 1.15"]
 ModelingToolkitBase = "1.45.0 - 1"
 
-["1.16 - 1"]
+["1.16 - 1.18.3"]
 ModelingToolkitBase = "1.46.0 - 1"
+
+["1.18.2 - 1"]
+StateSelection = "1.11.0 - 1"
+
+["1.18.4 - 1.20.0"]
+ModelingToolkitBase = "1.52.0 - 1"
 
 ["1.2 - 1"]
 LinearAlgebra = "1"
@@ -65,6 +73,15 @@ ModelingToolkitBase = "1.4.0 - 1"
 
 ["1.2 - 1.5"]
 StateSelection = "1.3.0 - 1"
+
+["1.20.1 - 1"]
+ModelingToolkitBase = "1.57.1 - 1"
+
+["1.20.2"]
+Moshi = "0.3.11 - 0.3"
+
+["1.20.3 - 1"]
+Moshi = "0.3.7 - 0.3"
 
 ["1.4 - 1.13.1"]
 Symbolics = "7.15.1 - 7"

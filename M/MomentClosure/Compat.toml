@@ -50,10 +50,22 @@ DataStructures = "0.19.5 - 0.19"
 Distributions = "0.25.127 - 0.25"
 DocStringExtensions = "0.9.5 - 0.9"
 Latexify = "0.16.10 - 0.16"
-ModelingToolkit = "11.26.0 - 11"
 Random = "1"
 SciMLBase = "3.21.0 - 3"
 SymbolicUtils = "4.35.0 - 4"
 Symbolics = "7.28.0 - 7"
-TupleTools = "1.6.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.4.1 - 0.4.4"]
+ModelingToolkit = "11.26.0 - 11"
+TupleTools = "1.6.0 - 1"
+
+["0.4.3 - 0"]
+SymbolicIndexingInterface = "0.3"
+
+["0.4.4 - 0"]
+ModelingToolkitBase = "1"
+
+["0.4.5 - 0"]
+StatsBase = "0.34"
+TermInterface = "2"
