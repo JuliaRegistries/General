@@ -160,9 +160,6 @@ DifferentiationInterface = "0.6.48-0.6"
 OrdinaryDiffEqCore = "1.21.0-1"
 OrdinaryDiffEqDifferentiation = "1.5.0-1"
 
-[2]
-DiffEqBase = "7"
-
 ["2 - 2.2"]
 OrdinaryDiffEqRosenbrockTableaus = "2"
 
@@ -173,6 +170,9 @@ OrdinaryDiffEqCore = "4"
 OrdinaryDiffEqDifferentiation = "3 - 3.2.2"
 RecursiveArrayTools = "4"
 SciMLBase = "3.0 - 3.39"
+
+["2 - 2.6.4"]
+DiffEqBase = "7"
 
 ["2.3 - 2"]
 OrdinaryDiffEqRosenbrockTableaus = "2.1.0 - 2"
@@ -218,7 +218,13 @@ MuladdMacro = "0.2.4 - 0.2"
 ["2.6.1 - 2"]
 ArrayInterface = "7.28.0 - 7"
 OrdinaryDiffEqCore = "4.11.0 - 4"
+
+["2.6.1 - 2.6.4"]
 SciMLBase = "3.39.0 - 3"
 
 ["2.6.3 - 2"]
 OrdinaryDiffEqDifferentiation = "3.3.0 - 3"
+
+["2.6.5 - 2"]
+DiffEqBase = "7.14.0 - 7"
+SciMLBase = "3.46.0 - 3"
