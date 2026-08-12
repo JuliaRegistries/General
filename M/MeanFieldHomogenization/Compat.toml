@@ -11,6 +11,11 @@ Printf = "1"
 QuadGK = "2"
 Random = "1"
 StaticArrays = "1"
-TensND = "0.3"
 Tensors = "1"
 julia = "1.12.0 - 1"
+
+["0 - 0.2"]
+TensND = "0.3"
+
+["0.3 - 0"]
+TensND = "0.3.5 - 0.3"
