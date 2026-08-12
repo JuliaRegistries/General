@@ -66,11 +66,13 @@ Preferences = "1.4.0 - 1"
 Printf = "1.10.0 - 1"
 SciMLJacobianOperators = "0.1.1 - 0.1"
 StaticArraysCore = "1.4.0 - 1"
-TimerOutputs = "0.5.23 - 0.5"
 julia = "1.10.0 - 1"
 
 ["1.13 - 2.31"]
 ArrayInterface = "7.9.0 - 7"
+
+["1.13 - 2.39.0"]
+TimerOutputs = "0.5.23 - 0.5"
 
 ["1.15 - 1.16.0"]
 DifferentiationInterface = "0.7.3 - 0.7"
@@ -125,20 +127,20 @@ LogExpFunctions = "0.3.29 - 0.3"
 ["2.16 - 2"]
 PrecompileTools = "1.2.0 - 1"
 
-["2.20 - 2"]
-FunctionWrappersWrappers = "1"
-
 ["2.20 - 2.22"]
 SciMLBase = "2.153.0 - 2"
 
 ["2.20 - 2.31.0"]
 FunctionWrappers = "1.1.0 - 1"
 
+["2.20 - 2.38"]
+FunctionWrappersWrappers = "1"
+
 ["2.23 - 2"]
 RecursiveArrayTools = "3 - 4"
 
 ["2.23 - 2.30"]
-SciMLBase = "2.153.0 - 3"
+SciMLBase = "2.153.0 - 3.39"
 
 ["2.25.1 - 2"]
 SciMLLogging = "1.10.1 - 2"
@@ -150,7 +152,7 @@ LogExpFunctions = ["0.3.29 - 0.3", "1"]
 SciMLBase = "2.127.0 - 2"
 
 ["2.31 - 2.35"]
-SciMLBase = "3.19.0 - 3"
+SciMLBase = "3.19.0 - 3.39"
 
 ["2.31.1 - 2"]
 FunctionWrappers = "1.1.2 - 1"
@@ -166,8 +168,29 @@ FastClosures = "0.3.2 - 0.3"
 ["2.35 - 2"]
 SciMLOperators = "1.24.0 - 1"
 
-["2.36 - 2"]
-SciMLBase = "3.33.0 - 3"
+["2.36 - 2.37"]
+SciMLBase = "3.33.0 - 3.39"
+
+["2.38 - 2"]
+RespecializeParams = "1"
+
+["2.38.0"]
+SciMLBase = "3.37.0 - 3.39"
+
+["2.38.1 - 2.40"]
+SciMLBase = "3.37.0 - 3"
+
+["2.39 - 2"]
+FunctionWrappersWrappers = "1.9.3 - 1"
+
+["2.39.1 - 2"]
+TimerOutputs = ["0.5.23 - 0.5", "1"]
+
+["2.41 - 2"]
+SciMLBase = "3.43.0 - 3"
+
+["2.42 - 2"]
+EnumX = "1"
 
 ["2.6 - 2.25.0"]
 SciMLLogging = "1.7.0 - 1"

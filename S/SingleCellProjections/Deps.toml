@@ -8,13 +8,11 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Missings = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
 NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 SCTransform = "f56ea72b-d1ea-403e-9c0c-95d94e8a8532"
 SingleCell10x = "eddce310-d14b-4c2d-aa06-cfe9e2f7af98"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-ThreadedSparseArrays = "59d54670-b8ac-4d81-ab7a-bb56233e17ab"
 
 ["0 - 0.2.1"]
 CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
@@ -31,5 +29,20 @@ ThreadPools = "b189fb0b-2eb5-4ed4-bc0c-d34c51242431"
 ["0 - 0.2.3"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 
+["0 - 0.4"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+ThreadedSparseArrays = "59d54670-b8ac-4d81-ab7a-bb56233e17ab"
+
 ["0.2.4 - 0"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["0.5 - 0"]
+ChunkSplitters = "ae650224-84b6-46f8-82ea-d812ca08434e"
+OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"
+ReadOnlyArrays = "988b38a3-91fc-5605-94a2-ee2116b3bd83"
+ReproducibleJobs = "aecc171b-6fa4-4f58-b49a-a8d1f07f0278"
+StableHashTraits = "c5dd0088-6c3f-4803-b00e-f31a60c170fa"
+StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+StyledStrings = "f489334b-da3d-4c2e-b8f0-e476e12c162b"
+TaskLocalValues = "ed4db957-447d-4319-bfb6-7fa9ae7ecf34"

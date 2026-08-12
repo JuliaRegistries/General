@@ -1,26 +1,39 @@
 [0]
-DiffResults = "1"
 FiniteDiff = "2.8.0-2"
 Requires = "1.1.0-1"
 ReverseDiff = "1.9.0-1"
 
-["0-0.2"]
+["0 - 0.2"]
 Ipopt = "0.7"
 Zygote = "0.6"
 julia = "1"
 
-["0-0.3.0"]
+["0 - 0.3.0"]
 SparseDiffTools = "1.13.0-1"
 
-["0-0.3.1"]
+["0 - 0.3.1"]
 ForwardDiff = "0.10"
 
-["0.3-0"]
-Ipopt = "1"
+["0 - 1"]
+DiffResults = "1"
+
+["0.3 - 0"]
 julia = "1.6.0-1"
 
-["0.3.1-0"]
+["0.3 - 1"]
+Ipopt = "1"
+
+["0.3.1 - 0"]
 SparseDiffTools = "1.13.0-2"
 
-["0.3.2-0"]
+["0.3.2 - 1"]
 ForwardDiff = ["0.10", "1"]
+
+[1]
+ADTypes = "1.22.0 - 1"
+DifferentiationInterface = "0.7.20 - 0.7"
+FiniteDiff = "2.8.0 - 2"
+Requires = "1.1.0 - 1"
+ReverseDiff = "1.9.0 - 1"
+SparseMatrixColorings = "0.3 - 0.4"
+julia = "1.10.0 - 1"

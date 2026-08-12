@@ -64,12 +64,14 @@ LazySets = "2.14.0 - 4"
 
 ["0.6.2 - 0"]
 ControllerFormats = "0.1 - 0.2"
-julia = "1.6.0 - 1"
 
 ["0.6.2 - 0.6"]
 CommonSolve = "0.1 - 0.2"
 ReachabilityAnalysis = "0.14.5 - 0.28"
 ReachabilityBase = "0.2.1 - 0.3"
+
+["0.6.2 - 0.7"]
+julia = "1.6.0 - 1"
 
 ["0.6.3 - 0.6"]
 LazySets = "2.14.0 - 5"
@@ -77,9 +79,16 @@ LazySets = "2.14.0 - 5"
 ["0.6.4 - 0.6"]
 TaylorModels = "0.7 - 0.8"
 
-["0.7 - 0"]
-CommonSolve = "0.2"
+["0.7"]
 LazySets = "5 - 6"
 ReachabilityAnalysis = "0.29 - 0.30"
+
+["0.7 - 0"]
+CommonSolve = "0.2"
 ReachabilityBase = "0.3"
 TaylorModels = "0.7 - 0.9"
+
+["0.8 - 0"]
+LazySets = "7"
+ReachabilityAnalysis = "0.32"
+julia = "1.10.0 - 1"

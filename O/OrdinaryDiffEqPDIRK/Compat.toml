@@ -91,22 +91,31 @@ OrdinaryDiffEqCore = "2"
 [2]
 DiffEqBase = "7"
 OrdinaryDiffEqCore = "4"
-OrdinaryDiffEqDifferentiation = "3"
 OrdinaryDiffEqNonlinearSolve = "2"
 
 ["2 - 2.1.0"]
 SciMLBase = "3"
 
+["2 - 2.2.1"]
+OrdinaryDiffEqDifferentiation = "3"
+
 ["2.1.1 - 2"]
 ADTypes = "1.22.0 - 1"
-MuladdMacro = "0.2.1 - 0.2"
 Reexport = "1.2.2 - 1"
 
 ["2.1.1 - 2.1"]
 SciMLBase = "3.10.0 - 3"
 
+["2.1.1 - 2.2.1"]
+MuladdMacro = "0.2.1 - 0.2"
+
 ["2.2.0"]
 SciMLBase = "3.30.0 - 3"
 
-["2.2.1 - 2"]
+["2.2.1"]
 SciMLBase = "3.35.1 - 3"
+
+["2.2.2 - 2"]
+MuladdMacro = "0.2.4 - 0.2"
+OrdinaryDiffEqDifferentiation = "3.3.0 - 3"
+SciMLBase = "3.39.0 - 3"

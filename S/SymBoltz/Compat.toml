@@ -51,7 +51,7 @@ SparseArrays = "1.12.0 - 1"
 ["0.14 - 0"]
 ModelingToolkit = "10.25.0 - 10"
 
-["0.14.1 - 1"]
+["0.14.1 - 1.6.0"]
 LinearSolve = "3.19.0 - 3"
 
 ["0.2.1 - 0.5"]
@@ -67,8 +67,10 @@ PreallocationTools = "0.4.25-0.4"
 SciMLStructures = "1.7.0-1"
 
 ["0.4 - 1"]
-DataInterpolations = "8"
 OhMyThreads = "0.8"
+
+["0.4 - 1.6.0"]
+DataInterpolations = "8"
 
 ["0.5"]
 ChainRulesCore = "1.25.1-1"
@@ -170,7 +172,6 @@ OrdinaryDiffEqDifferentiation = "2.7"
 
 ["1.6 - 1"]
 FastChebInterp = "1"
-ModelingToolkitTearing = "1.17"
 OrdinaryDiffEqDifferentiation = "2.7.0 - 3"
 OrdinaryDiffEqNonlinearSolve = "1.12.0 - 2"
 OrdinaryDiffEqRosenbrock = "1.14.0 - 2"
@@ -178,3 +179,12 @@ OrdinaryDiffEqSDIRK = "1.6.0 - 2"
 OrdinaryDiffEqTsit5 = "1.5.0 - 2"
 SciMLBase = "2.72.2 - 3"
 SciMLLogging = "1 - 2"
+
+["1.6.0"]
+ModelingToolkitTearing = "1.17"
+
+["1.6.1 - 1"]
+DataInterpolations = "8 - 9"
+DiffEqCallbacks = "4.18.3 - 4"
+LinearSolve = "3.83.0 - 5"
+ModelingToolkitTearing = "1.19"
