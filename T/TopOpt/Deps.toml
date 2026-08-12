@@ -13,7 +13,6 @@ Nonconvex = "01bcebdf-4d21-426d-b5c4-6132c1619978"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 Preconditioners = "af69fa37-3177-5a40-98ee-561f696e4fcd"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
-Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
@@ -24,6 +23,9 @@ TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 VTKDataTypes = "10d27dd1-1d0f-5a4c-b178-bd2d0045a217"
 WriteVTK = "64499a7a-5c06-52f2-abe2-ccb03c286192"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["0 - 0.11"]
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 
 ["0 - 0.4"]
 AbstractPlotting = "537997a7-5e4e-5d89-9595-2241ea00577e"
@@ -41,6 +43,11 @@ StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 ["0 - 0.9"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
+["0.12 - 0"]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+
 ["0.5 - 0"]
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 NonconvexMMA = "d3d89cbb-4ecd-4604-818d-8d1ff343e4da"
@@ -50,18 +57,20 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["0.5.1 - 0"]
-Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["0.5.1 - 0.11"]
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 
 ["0.5.2 - 0"]
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
 NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 
-["0.5.3 - 0"]
+["0.5.3 - 0.11"]
 AbstractDifferentiation = "c29ec348-61ec-40c8-8164-b8c60e9d9f3d"
 
-["0.6 - 0"]
+["0.6 - 0.11"]
 JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
 
 ["0.7 - 0"]
