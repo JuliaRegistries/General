@@ -2,18 +2,20 @@
 Einsum = "0.4"
 GeometryTypes = "0.8"
 IterativeSolvers = "0.9"
-JSON = "0.21"
 Reexport = "1"
-Revise = "3"
 StaticArrays = "1"
 TimerOutputs = "0.5"
 VTKDataTypes = "0.1"
-Zygote = "0.6"
 
 ["0 - 0.10"]
 Parameters = "0.12"
 Tensors = "1.4.0-1"
 WriteVTK = "1.9.0-1"
+
+["0 - 0.11"]
+JSON = "0.21"
+Revise = "3"
+Zygote = "0.6"
 
 ["0 - 0.4"]
 CatViews = "1"
@@ -59,12 +61,11 @@ julia = "1.5.0-1"
 ["0.10"]
 julia = "1.9.0-1"
 
-["0.11 - 0"]
+["0.11"]
 AbstractDifferentiation = "0.6"
 Distributions = "0.24 - 0.25"
 Flux = "0.11 - 0.14"
 ForwardDiff = ["0.0.0 - 0.10", "1"]
-GeometryBasics = "0.5"
 NonconvexPercival = "0.1.5 - 0.1"
 NonconvexSemidefinite = "0.1.10 - 0.1"
 Parameters = "0.12 - 0.13"
@@ -72,7 +73,29 @@ Preconditioners = "0.3 - 0.6"
 Setfield = ["0.7 - 0.8", "1"]
 Tensors = "1.4.0 - 1"
 WriteVTK = "1.9.0 - 1"
+
+["0.11 - 0"]
+GeometryBasics = "0.5"
 julia = "1.9.0 - 1"
+
+["0.12 - 0"]
+CairoMakie = "0.14"
+DifferentiationInterface = "0.7"
+Distributions = "0.25"
+Ferrite = "1"
+ForwardDiff = "0.10"
+JSON = "1"
+Nonconvex = "3"
+NonconvexPercival = "0.1.6 - 0.1"
+NonconvexSemidefinite = "0.1"
+Parameters = "0.12"
+Preconditioners = "0.6"
+Preferences = "1"
+Setfield = "1"
+StatsFuns = "1"
+Tensors = "1"
+WriteVTK = "1"
+Zygote = "0.7"
 
 ["0.4.1"]
 Nonconvex = "0.2-0.3"
@@ -86,7 +109,7 @@ Distributions = "0.24-0.25"
 ["0.4.2 - 0.4"]
 Nonconvex = "0.5.2-0.5"
 
-["0.4.3 - 0"]
+["0.4.3 - 0.11"]
 Ferrite = "0.3.0"
 
 ["0.5"]
@@ -114,7 +137,7 @@ MacroTools = "0.5"
 MappedArrays = "0.4"
 NearestNeighbors = "0.4"
 
-["0.5.3 - 0"]
+["0.5.3 - 0.11"]
 StatsFuns = ["0.9", "1"]
 
 ["0.5.3 - 0.5"]
@@ -131,13 +154,15 @@ Flux = "0.11-0.13"
 NonconvexSemidefinite = "0.1.7-0.1"
 
 ["0.6 - 0"]
-JuliaFormatter = "1"
-Nonconvex = "2"
 NonconvexMMA = "1"
 
 ["0.6 - 0.10"]
 GeometryBasics = "0.3-0.4"
 Setfield = ["0.7-0.8", "1"]
+
+["0.6 - 0.11"]
+JuliaFormatter = "1"
+Nonconvex = "2"
 
 ["0.7 - 0"]
 ColorSchemes = "3"
