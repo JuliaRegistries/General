@@ -54,12 +54,14 @@ REPL = "1"
 ["1 - 3"]
 Acquisition = "2"
 Dates = "1"
-GNSSSignals = "3"
 JLD2 = "0.6"
 LinearAlgebra = "1"
 PipeChannels = "1"
 SignalChannels = "7"
 julia = "1.12.0 - 1"
+
+["1 - 3.3.0"]
+GNSSSignals = "3"
 
 ["2 - 3"]
 GNSSDecoder = "3.7.0 - 3"
@@ -82,3 +84,6 @@ Tracking = "5.1.0 - 5"
 
 ["3.3 - 3"]
 Tracking = "6"
+
+["3.3.1 - 3"]
+GNSSSignals = "3.7.0 - 3"
