@@ -16,7 +16,6 @@ Functors = "0.5"
 JLD2 = "0.6.3 - 0.6"
 KernelDensity = "0.6.11 - 0.6"
 Latexify = "0.16.10 - 0.16"
-LikelihoodProfiler = ["0.3.3 - 0.3", "1"]
 LineSearches = "7.6.0 - 7"
 LinearAlgebra = "1.11.0 - 1"
 Logging = "1.11.0 - 1"
@@ -24,7 +23,6 @@ Lux = "1.29.4 - 1"
 MCMCChains = "7.7.0 - 7"
 NormalizingFlows = "0.2"
 Optimisers = "0.4.7 - 0.4"
-Optimization = "5.4.0 - 5"
 OptimizationBBO = "0.4.5 - 0.4"
 OptimizationOptimJL = "0.4.9 - 0.4"
 ProgressMeter = "1.11.0 - 1"
@@ -49,6 +47,10 @@ OrdinaryDiffEq = "6 - 7"
 Parameters = "0.12.3 - 0.13"
 Turing = "0.42.5 - 0.45"
 
+["0 - 0.2.0"]
+LikelihoodProfiler = ["0.3.3 - 0.3", "1"]
+Optimization = "5.4.0 - 5"
+
 ["0.2 - 0"]
 DataInterpolations = "8 - 9"
 DiffEqBase = ["6.199.0 - 6", "7.0.0 - 7.5.5", "7.6.0 - 7"]
@@ -57,3 +59,7 @@ OrdinaryDiffEq = ["6", "7.1.0 - 7"]
 Roots = ["2", "3.0.4 - 3"]
 Symbolics = "7"
 Turing = "0.42.5 - 0.46"
+
+["0.2.1 - 0"]
+LikelihoodProfiler = "1.5.0 - 1"
+Optimization = "5.4.0 - 5.6"
