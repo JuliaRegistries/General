@@ -1,6 +1,4 @@
 [0]
-GameZero = "0.3"
-NativeFileDialog = "0.2"
 PNGFiles = "0.4"
 Scratch = "1"
 
@@ -11,14 +9,29 @@ Random = "1.9.0-1"
 SimpleDirectMediaLayer = "0.4-0.5"
 julia = "1.9.0-1"
 
-["0.2 - 0"]
+["0 - 0.2"]
+GameZero = "0.3"
+NativeFileDialog = "0.2"
+
+["0.2"]
 Colors = "0.12 - 0.13"
+OffsetArrays = "1"
+Quadmath = "0.5"
+SimpleDirectMediaLayer = "0.4 - 0.5"
+
+["0.2 - 0"]
 DelimitedFiles = "1.9.0 - 1"
 FixedSizeArrays = "1"
-OffsetArrays = "1"
 PrecompileTools = "1"
 Printf = "1.10.0 - 1"
-Quadmath = "0.5"
 Random = "1.10.0 - 1"
-SimpleDirectMediaLayer = "0.4 - 0.5"
 julia = "1.10.0 - 1"
+
+["0.3 - 0"]
+BitIntegers = "0.3"
+Colors = "0.13"
+FixedPointNumbers = "0.8 - 0.9"
+GLFW = "3"
+ModernGL = "1"
+Quadmath = "1"
+ZeroOrigin = "0.2"
