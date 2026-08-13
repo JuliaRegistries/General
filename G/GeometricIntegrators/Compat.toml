@@ -98,7 +98,7 @@ GeometricEquations = "0.18"
 ["0.14 - 0.14.8"]
 GeometricBase = "0.10.11-0.10"
 
-["0.14.10 - 0"]
+["0.14.10 - 0.17"]
 Documenter = "1"
 
 ["0.14.11 - 0.15.1"]
@@ -157,8 +157,6 @@ GeometricIntegratorsBase = "0.1.10 - 0.1"
 SimpleSolvers = "0.7"
 
 ["0.16 - 0"]
-GenericLinearAlgebra = "0.2 - 0.4"
-GeometricBase = "0.14"
 GeometricEquations = "0.21"
 LinearAlgebra = "1"
 
@@ -171,18 +169,22 @@ GeometricIntegratorsBase = "0.2"
 ["0.16 - 0.16.3"]
 SimpleSolvers = "0.7 - 0.8"
 
-["0.16.10 - 0"]
+["0.16 - 0.17"]
+GenericLinearAlgebra = "0.2 - 0.4"
+GeometricBase = "0.14"
+
+["0.16.10 - 0.17"]
 SharedArrays = "1"
 Test = "1"
 
 ["0.16.2 - 0.16.6"]
 GeometricSolutions = "0.6.3 - 0.6"
 
-["0.16.3 - 0"]
-Parameters = "0.12 - 0.13"
-
 ["0.16.3 - 0.16.5"]
 GeometricIntegratorsBase = "0.2 - 0.3"
+
+["0.16.3 - 0.17"]
+Parameters = "0.12 - 0.13"
 
 ["0.16.4 - 0.16"]
 SimpleSolvers = "0.9"
@@ -193,12 +195,21 @@ GeometricIntegratorsBase = "0.3 - 0.4"
 ["0.16.7 - 0"]
 GeometricSolutions = "0.6.5 - 0.6"
 
-["0.16.9 - 0"]
+["0.16.9 - 0.17"]
 RungeKutta = "0.5.23 - 0.5"
 
-["0.17 - 0"]
+["0.17"]
 GeometricIntegratorsBase = "0.5.1 - 0.5"
+
+["0.17 - 0"]
 SimpleSolvers = "0.10"
+
+["0.18 - 0"]
+CompactBasisFunctions = "0.3"
+GeometricBase = "0.14.8 - 0.14"
+GeometricIntegratorsBase = "0.5.2 - 0.5"
+QuadratureRules = "0.2"
+RungeKutta = "0.6"
 
 ["0.2"]
 DecFP = "0.4.7-0.4"
@@ -297,7 +308,7 @@ Documenter = "0.23-0.26"
 ["0.6.2 - 0.9.1"]
 GenericLinearAlgebra = "0.2"
 
-["0.7 - 0"]
+["0.7 - 0.17"]
 CompactBasisFunctions = "0.2"
 QuadratureRules = "0.1"
 
