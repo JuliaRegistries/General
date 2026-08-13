@@ -201,15 +201,21 @@ RungeKutta = "0.5.23 - 0.5"
 ["0.17"]
 GeometricIntegratorsBase = "0.5.1 - 0.5"
 
-["0.17 - 0"]
+["0.17 - 0.18.0"]
 SimpleSolvers = "0.10"
 
 ["0.18 - 0"]
 CompactBasisFunctions = "0.3"
 GeometricBase = "0.14.8 - 0.14"
-GeometricIntegratorsBase = "0.5.2 - 0.5"
 QuadratureRules = "0.2"
 RungeKutta = "0.6"
+
+["0.18.0"]
+GeometricIntegratorsBase = "0.5.2 - 0.5"
+
+["0.18.1 - 0"]
+GeometricIntegratorsBase = "0.6"
+SimpleSolvers = "0.11"
 
 ["0.2"]
 DecFP = "0.4.7-0.4"
