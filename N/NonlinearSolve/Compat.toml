@@ -412,7 +412,6 @@ ReTestItems = "1.24.0 - 1"
 ["4.13 - 4"]
 BracketingNonlinearSolve = "1.6.0 - 1"
 ForwardDiff = "1"
-NonlinearSolveQuasiNewton = "1.12.0 - 1"
 NonlinearSolveSpectralMethods = "1.6.0 - 1"
 SimpleNonlinearSolve = "2.10.0 - 2"
 
@@ -428,6 +427,9 @@ SciMLLogging = "1.7.0 - 1"
 
 ["4.13 - 4.20.1"]
 LinearSolve = "3.48.0 - 3"
+
+["4.13 - 4.26.0"]
+NonlinearSolveQuasiNewton = "1.12.0 - 1"
 
 ["4.15.1 - 4.15"]
 NonlinearSolveFirstOrder = "1.12.0 - 1"
@@ -488,8 +490,12 @@ NonlinearSolveBase = "2.41.0 - 2"
 ["4.25 - 4"]
 SciMLBase = "3.43.0 - 3"
 
-["4.26 - 4"]
+["4.26.0"]
 NonlinearSolveBase = "2.42.0 - 2"
+
+["4.26.1 - 4"]
+NonlinearSolveBase = "2.43.0 - 2"
+NonlinearSolveQuasiNewton = "1.15.1 - 1"
 
 ["4.3 - 4.9"]
 NonlinearSolveBase = "1.4.0-1"
