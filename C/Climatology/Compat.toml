@@ -1,5 +1,4 @@
 [0]
-DataDeps = "0.7"
 Dataverse = "0.2"
 Glob = "1"
 Scratch = "1"
@@ -11,6 +10,9 @@ julia = "1.9.0-1"
 
 ["0 - 0.5.16"]
 MeshArrays = "0.3"
+
+["0 - 0.5.19"]
+DataDeps = "0.7"
 
 ["0 - 0.5.6"]
 JLD2 = "0.4"
@@ -29,7 +31,7 @@ julia = "1.9.0 - 1"
 ["0.5.17"]
 MeshArrays = "0.3 - 0.4"
 
-["0.5.18 - 0"]
+["0.5.18 - 0.5.19"]
 MeshArrays = "0.3 - 0.5"
 
 ["0.5.19 - 0"]
@@ -37,6 +39,10 @@ AirSeaFluxes = "0.1"
 GLM = "1"
 Interpolations = "0.16"
 StatsModels = "0.7"
+
+["0.5.20 - 0"]
+DataDeps = ["0.7", "1"]
+MeshArrays = "0.3 - 0.6"
 
 ["0.5.5 - 0"]
 DataFrames = "1"
