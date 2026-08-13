@@ -32,9 +32,6 @@ Boltz = "1.2.0-1"
 ForwardDiff = ["0.10.36-0.10", "1"]
 Lux = "1.2.0-1"
 
-["0.2.2 - 0"]
-QuasiMonteCarlo = "0.3.3 - 0.3"
-
 ["0.2.2 - 0.2"]
 ModelingToolkit = "9.77.0 - 9"
 OrdinaryDiffEq = "6.92.0 - 6"
@@ -56,6 +53,9 @@ Boltz = "1.2.0 - 1"
 
 ["0.2.2 - 0.4.3"]
 julia = "1.11.0 - 1"
+
+["0.2.2 - 0.4.6"]
+QuasiMonteCarlo = "0.3.3 - 0.3"
 
 ["0.2.5 - 0.2"]
 SciMLBase = "2.86.0 - 2"
@@ -97,9 +97,11 @@ DataFrames = "1.8.0 - 1"
 Lux = "1.31.4 - 1"
 LuxCore = "1.5.1 - 1"
 MLDataDevices = "1.17.9 - 1"
-NeuralPDE = "6"
 OrdinaryDiffEqRosenbrock = "2"
 SymbolicIndexingInterface = "0.3.46 - 0.3"
+
+["0.4.3 - 0.4.6"]
+NeuralPDE = "6"
 
 ["0.4.4"]
 SciMLBase = "3.17.0 - 3"
@@ -116,3 +118,8 @@ julia = "1.10.0 - 1"
 
 ["0.4.5 - 0"]
 SciMLBase = "3.24.0 - 3"
+
+["0.4.7 - 0"]
+DifferentiationInterface = "0.7"
+NeuralPDE = "6.2.0 - 6"
+QuasiMonteCarlo = "0.3.9 - 0.3"
