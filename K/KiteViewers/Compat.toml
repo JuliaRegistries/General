@@ -1,6 +1,5 @@
 [0]
 FileIO = "1"
-Parameters = "0.12"
 
 ["0 - 0.1"]
 KiteUtils = "0.3.3-0.3"
@@ -15,6 +14,9 @@ GLMakie = "0.4.7-0.4"
 
 ["0 - 0.4"]
 Rotations = "1.2.0-1"
+
+["0 - 0.5"]
+Parameters = "0.12"
 
 ["0.1.1 - 0.2.4"]
 StaticArrays = "1.4.0-1"
@@ -101,13 +103,19 @@ KiteUtils = "0.6"
 ["0.4.8 - 0.4.14"]
 KiteUtils = "0.6.3-0.6"
 
+["0.5"]
+KiteUtils = "0.11.2 - 0.11"
+
 ["0.5 - 0"]
 GLMakie = "0.11 - 0.13"
 Joysticks = "0.1.2 - 0.1"
-KiteUtils = "0.11.2 - 0.11"
 Pkg = "1.10.0 - 1"
 PrecompileTools = "1.2.0 - 1"
 Rotations = "1.2.0 - 1"
 StructArrays = "0.6.18 - 0.7"
 Timers = "0.1.5 - 0.1"
 julia = "1.10.0 - 1"
+
+["0.6 - 0"]
+KiteUtils = "0.11.13 - 0.12"
+Parameters = "0.12 - 0.13"
