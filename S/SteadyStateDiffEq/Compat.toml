@@ -89,11 +89,17 @@ DiffEqBase = "6.140.0 - 7"
 ["2.11.1 - 2"]
 DiffEqBase = "7"
 DiffEqCallbacks = "4.5.0 - 4"
+
+["2.11.1 - 2.12"]
 Reexport = "1.2.2 - 1"
 
 ["2.12 - 2"]
 ForwardDiff = ["0.10", "1"]
 LinearSolve = "2 - 5"
+
+["2.13 - 2"]
+LinearAlgebra = "1.10.0 - 1"
+NonlinearSolveBase = "2.40.0 - 2"
 
 ["2.4.1 - 2.5"]
 DiffEqCallbacks = "3-4"
@@ -119,5 +125,5 @@ NonlinearSolveBase = "2"
 ["2.7 - 2.11.0"]
 Reexport = "1"
 
-["2.8 - 2"]
+["2.8 - 2.12"]
 NonlinearSolveBase = "2.2.0 - 2"
