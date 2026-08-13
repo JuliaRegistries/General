@@ -61,17 +61,25 @@ CSV = "0.6-0.10"
 ["0.3.12 - 0"]
 julia = "1.10.0 - 1"
 
+["0.3.16 - 0"]
+DataDeps = ["0.7", "1"]
+OrderedCollections = "1 - 2"
+
 ["0.3.2 - 0"]
 Git = "1"
+
+["0.3.2 - 0.3.15"]
 OrderedCollections = "1"
 
 ["0.3.3 - 0.3.8"]
 julia = "1.9.0-1"
 
 ["0.3.6 - 0"]
-DataDeps = "0.7"
 Dataverse = "0.2"
 Glob = "1"
+
+["0.3.6 - 0.3.15"]
+DataDeps = "0.7"
 
 ["0.3.6 - 0.3.8"]
 CFTime = "0.1"
