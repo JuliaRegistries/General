@@ -6,16 +6,22 @@ LogExpFunctions = ["0.3", "1"]
 Random = "1"
 Statistics = "1"
 Test = "1"
-julia = "1.10.0 - 1"
 
 ["0 - 0.1"]
 SpecialFunctions = "2"
 
+["0 - 0.4.1"]
+julia = "1.10.0 - 1"
+
 ["0.2 - 0.3.0"]
 EpiAwareADTools = "0.1"
 
-["0.3.1 - 0"]
+["0.3.1 - 0.4.1"]
 EpiAwareADTools = "0.1.1 - 0.1"
 
 ["0.4 - 0"]
 SpecialFunctions = "2"
+
+["0.4.2 - 0"]
+EpiAwareADTools = "0.2"
+julia = "1.11.0 - 1"
