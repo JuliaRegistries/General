@@ -15,9 +15,9 @@ uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[deps.BitFlags]]
-git-tree-sha1 = "0691e34b3bb8be9307330f88d1a3c3f25466c24d"
+git-tree-sha1 = "bbe1079eecf9c9fbb52765193ad2bae27ae09bc8"
 uuid = "d1d4a3ce-64b1-5f1a-9ba4-7e7e69966f35"
-version = "0.1.9"
+version = "0.1.10"
 
 [[deps.CodecZlib]]
 deps = ["TranscodingStreams", "Zlib_jll"]
@@ -38,9 +38,9 @@ version = "1.0.1+0"
 
 [[deps.ConcurrentUtilities]]
 deps = ["Serialization", "Sockets"]
-git-tree-sha1 = "21d088c496ea22914fe80906eb5bce65755e5ec8"
+git-tree-sha1 = "3c9be947934c38475bafe822c6d61aaed17f0738"
 uuid = "f0e56b4a-5159-44fe-b623-3e5288b988bb"
-version = "2.5.1"
+version = "2.6.0"
 
 [[deps.Dates]]
 deps = ["Printf"]
@@ -68,18 +68,18 @@ uuid = "460bff9d-24e4-43bc-9d9f-a8973cb893f4"
 version = "0.1.11"
 
 [[deps.ExprTools]]
-git-tree-sha1 = "27415f162e6028e81c72b82ef756bf321213b6ec"
+git-tree-sha1 = "d2e49e7efd29719d6f28b891b0e0e159daa9d2b4"
 uuid = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
-version = "0.1.10"
+version = "0.1.11"
 
 [[deps.FileWatching]]
 uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 
 [[deps.GitHub]]
 deps = ["Base64", "Dates", "HTTP", "JSON", "MbedTLS", "Sockets", "SodiumSeal", "URIs"]
-git-tree-sha1 = "ef535d4e8cb96c4fb6753212744ee737fad1bc50"
+git-tree-sha1 = "33de1bc5665494f0a9669fd6027e28180709d874"
 uuid = "bc5e4493-9b4d-5f90-b8aa-2b2bcaad7a26"
-version = "5.12.0"
+version = "5.13.0"
 
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "ConcurrentUtilities", "Dates", "ExceptionUnwrapping", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "PrecompileTools", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
@@ -99,9 +99,9 @@ uuid = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
 [[deps.JLLWrappers]]
 deps = ["Artifacts", "Preferences"]
-git-tree-sha1 = "0533e564aae234aff59ab625543145446d8b6ec2"
+git-tree-sha1 = "7204148362dafe5fe6a273f855b8ccbe4df8173e"
 uuid = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-version = "1.7.1"
+version = "1.8.0"
 
 [[deps.JSON]]
 deps = ["Dates", "Mmap", "Parsers", "Unicode"]
@@ -195,15 +195,15 @@ version = "1.6.1"
 
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
-git-tree-sha1 = "c9cbeda6aceffc52d8a0017e71db27c7a7c0beaf"
+git-tree-sha1 = "d8cce34295c55f47be683580f44791716045b8fe"
 uuid = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
-version = "3.5.5+0"
+version = "3.5.7+0"
 
 [[deps.Parsers]]
 deps = ["Dates", "PrecompileTools", "UUIDs"]
-git-tree-sha1 = "7d2f8f21da5db6a806faf7b9b292296da42b2810"
+git-tree-sha1 = "3de8f5e6e90ebfa8d6d1f86997d6cdcd6a912ff3"
 uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
-version = "2.8.3"
+version = "2.8.7"
 
 [[deps.Pkg]]
 deps = ["Artifacts", "Dates", "Downloads", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "REPL", "Random", "SHA", "Serialization", "TOML", "Tar", "UUIDs", "p7zip_jll"]
@@ -242,9 +242,9 @@ version = "1.3.4"
 
 [[deps.RegistryCI]]
 deps = ["Base64", "Dates", "GitHub", "HTTP", "JSON", "LibGit2", "LicenseCheck", "Pkg", "Printf", "Random", "RegistryTools", "SHA", "StringDistances", "TOML", "Tar", "Test", "TimeZones", "VisualStringDistances"]
-git-tree-sha1 = "22c4c0ab71dcdfee35578f6dec887af3a56fb687"
+git-tree-sha1 = "0b5738e41b612d48e29ff6cd9e6fd1e39a0cf720"
 uuid = "0c95cc5f-2f7e-43fe-82dd-79dbcba86b32"
-version = "10.10.4"
+version = "10.10.5"
 
 [[deps.RegistryTools]]
 deps = ["LibGit2", "Pkg", "SHA", "UUIDs"]
@@ -317,9 +317,9 @@ version = "1.0.0"
 
 [[deps.TZJData]]
 deps = ["Artifacts"]
-git-tree-sha1 = "72df96b3a595b7aab1e101eb07d2a435963a97e2"
+git-tree-sha1 = "d3b30a9f29a898e21fb4bdf280101b7a12e1f39c"
 uuid = "dc5dba14-91b3-4cab-a142-028a31da12f7"
-version = "1.5.0+2025b"
+version = "1.5.1+2025b"
 
 [[deps.Tar]]
 deps = ["ArgTools", "SHA"]
@@ -342,9 +342,9 @@ uuid = "3bb67fe8-82b1-5028-8e26-92a6c54297fa"
 version = "0.11.3"
 
 [[deps.URIs]]
-git-tree-sha1 = "bef26fb046d031353ef97a82e3fdb6afe7f21b1a"
+git-tree-sha1 = "5253f44481f18cd938d4559d5e44fa82198408a6"
 uuid = "5c2747f8-b7ea-4ff2-ba2e-563bfd36b1d4"
-version = "1.6.1"
+version = "1.6.3"
 
 [[deps.UUIDs]]
 deps = ["Random", "SHA"]
