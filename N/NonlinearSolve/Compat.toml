@@ -474,7 +474,7 @@ NonlinearSolveBase = "2.35.0 - 2"
 ["4.22"]
 NonlinearSolveBase = "2.36.0 - 2"
 
-["4.22 - 4"]
+["4.22 - 4.26"]
 LinearSolve = "5.0.1 - 5"
 
 ["4.23"]
@@ -487,15 +487,22 @@ SciMLBase = "3.37.0 - 3"
 ["4.25"]
 NonlinearSolveBase = "2.41.0 - 2"
 
-["4.25 - 4"]
+["4.25 - 4.26"]
 SciMLBase = "3.43.0 - 3"
 
 ["4.26.0"]
 NonlinearSolveBase = "2.42.0 - 2"
 
 ["4.26.1 - 4"]
-NonlinearSolveBase = "2.43.0 - 2"
 NonlinearSolveQuasiNewton = "1.15.1 - 1"
+
+["4.26.1 - 4.26"]
+NonlinearSolveBase = "2.43.0 - 2"
+
+["4.27 - 4"]
+LinearSolve = "5.4.0 - 5"
+NonlinearSolveBase = "2.44.0 - 2"
+SciMLBase = "3.46.0 - 3"
 
 ["4.3 - 4.9"]
 NonlinearSolveBase = "1.4.0-1"
