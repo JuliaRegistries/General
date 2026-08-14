@@ -384,8 +384,10 @@ ForwardDiff = "1"
 GPUArraysCore = "0.1 - 0.2"
 Interpolations = "0.14 - 0.16"
 MPI = "0.20.22 - 0.20"
-TimerOutputs = "0.5.29 - 0.5"
 julia = "1.10.0 - 1"
+
+["0.7.15 - 0.7"]
+TimerOutputs = "0.5.29 - 0.5"
 
 ["0.7.15 - 0.7.16"]
 KrylovKit = "0.8.3 - 0.9"
@@ -442,3 +444,7 @@ KrylovKit = "0.8.3-0.9"
 
 ["0.7.9 - 0.7.11"]
 DifferentiationInterface = "0.6.39-0.6"
+
+["0.8 - 0"]
+LOBPCGEigensolver = "0.1.1 - 0.1"
+TimerOutputs = ["0.5.29 - 0.5", "1"]
