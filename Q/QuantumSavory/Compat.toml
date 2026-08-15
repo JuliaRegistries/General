@@ -37,9 +37,6 @@ QuantumSymbolics = "0.1.1-0.1"
 ConcurrentSim = "1"
 QuantumSymbolics = "0.2"
 
-["0.2 - 0"]
-PrecompileTools = "1"
-
 ["0.2 - 0.3.0"]
 QuantumInterface = "0.3"
 QuantumOpticsBase = "0.4"
@@ -52,6 +49,9 @@ QuantumClifford = "0.8"
 
 ["0.2 - 0.4.1"]
 julia = "1.9.0-1"
+
+["0.2 - 0.7.1"]
+PrecompileTools = "1"
 
 ["0.3 - 0.3.1"]
 ConcurrentSim = "1.1.0-1"
@@ -176,3 +176,6 @@ Gabs = "1.3.8 - 1"
 QuantumClifford = "0.11.6 - 0.11"
 QuantumSymbolics = "0.4.17 - 0.4"
 ResumableFunctions = "1.0.7 - 1"
+
+["0.7.2 - 0"]
+PrecompileTools = "1.2.1 - 1"
