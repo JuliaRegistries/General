@@ -105,5 +105,11 @@ LatticeMatrices = "0.2.1 - 0.2"
 Enzyme = "0.13"
 Gaugefields = "0.7"
 JACC = ["0.6", "1"]
-LatticeMatrices = "0.3.9 - 0.3"
 PreallocatedArrays = ["0.0.1", "0.1"]
+
+["0.6 - 0.6.3"]
+LatticeMatrices = "0.3.9 - 0.3"
+
+["0.6.4 - 0"]
+LatticeMatrices = ["0.3.9 - 0.3", "1"]
+Optimisers = "0.4"
