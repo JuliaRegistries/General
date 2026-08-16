@@ -50,14 +50,14 @@ InvertedFiles = "0.6"
 ["0.15.2 - 0.19.5"]
 JLD2 = "0.4"
 
-["0.17.2 - 0"]
+["0.17.2 - 0.17"]
+Test = "1"
+
+["0.17.2 - 1"]
 LinearAlgebra = "1"
 Random = "1"
 SparseArrays = "1"
 Unicode = "1"
-
-["0.17.2 - 0.17"]
-Test = "1"
 
 ["0.18"]
 InvertedFiles = "0.7"
@@ -70,14 +70,14 @@ Polyester = "0.7"
 ["0.18 - 0.19.5"]
 StatsBase = "0.32-0.34"
 
-["0.19 - 0"]
-ProgressMeter = "1"
-
 ["0.19 - 0.19.5"]
 SimilaritySearch = "0.12"
 
 ["0.19 - 0.19.7"]
 InvertedFiles = "0.8"
+
+["0.19 - 1"]
+ProgressMeter = "1"
 
 ["0.19.0"]
 julia = "1.8.0-1"
@@ -88,21 +88,21 @@ julia = "1.10.0-1"
 ["0.19.6"]
 JLD2 = "0.5"
 
-["0.19.6 - 0"]
-julia = "1.10.0 - 1"
-
 ["0.19.6 - 0.19"]
 StatsBase = "0.32 - 0.34"
 
 ["0.19.6 - 0.19.7"]
 SimilaritySearch = "0.13"
 
-["0.19.8 - 0"]
-Accessors = "0.1"
+["0.19.6 - 1"]
+julia = "1.10.0 - 1"
 
 ["0.19.8 - 0.19"]
 InvertedFiles = "0.8.2 - 0.8"
 SimilaritySearch = "0.13.7 - 0.13"
+
+["0.19.8 - 1"]
+Accessors = "0.1"
 
 ["0.2.14"]
 KernelMethods = "0.1"
@@ -120,6 +120,8 @@ StatsBase = ["0.30", "0.32"]
 ["0.20 - 0"]
 InvertedFiles = "0.9"
 SimilaritySearch = "0.14"
+
+["0.20 - 1"]
 StatsBase = "0.32 - 0.35"
 
 ["0.3 - 0.3.1"]
@@ -194,3 +196,6 @@ CategoricalArrays = "0.8-0.10"
 
 ["0.9.7 - 0.10.0"]
 SimilaritySearch = "0.6"
+
+[1]
+SimilaritySearch = "1.1.0 - 1"
