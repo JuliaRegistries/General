@@ -217,9 +217,11 @@ Moshi = "0.3.6 - 0.3"
 Adapt = "4.3.0 - 4"
 ArrayInterface = "7.19.0 - 7"
 DocStringExtensions = "0.9.5 - 0.9"
-PreallocationTools = ["0.4.31 - 0.4", "1"]
 PrecompileTools = "1.2.1 - 1"
 Preferences = "1.5.0 - 1"
+
+["2.132 - 3.47.0"]
+PreallocationTools = ["0.4.31 - 0.4", "1"]
 
 ["2.138.1 - 3.17"]
 ADTypes = "1"
@@ -341,7 +343,7 @@ SciMLOperators = ["0.4", "1.3.0-1"]
 Random = "1"
 RecursiveArrayTools = "4"
 
-["3.10 - 3"]
+["3.10 - 3.47.0"]
 SciMLLogging = "1.9.0 - 2"
 
 ["3.18 - 3"]
@@ -356,3 +358,7 @@ LoggingExtras = "1"
 
 ["3.46 - 3"]
 SciMLStructures = "1.10.2 - 1"
+
+["3.47.1 - 3"]
+PreallocationTools = "1"
+SciMLLogging = "2"
