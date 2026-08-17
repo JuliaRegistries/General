@@ -9,7 +9,6 @@ ExtendableSparse = "95c220a8-a1cf-11e9-0c77-dbfce5f500b3"
 GeoDataFrames = "62cb38b5-d8d2-4862-a48e-6a340996859f"
 GeoFormatTypes = "68eda718-8dee-11e9-39e7-89f7f65f511f"
 GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
-GeoParquet = "e99870d8-ce00-4fdd-aeee-e09192881159"
 GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
 GeometryOps = "3251bfac-6a57-4b6d-aa61-ac1fef2975ab"
 Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
@@ -45,8 +44,16 @@ Memoization = "6fafb56a-5788-4b4e-91ca-c0cea6611c73"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
+["0 - 0.2"]
+GeoParquet = "e99870d8-ce00-4fdd-aeee-e09192881159"
+
 ["0.1.3 - 0"]
 PrecompileSignatures = "91cefc8d-f054-46dc-8f8c-26e11d7c5411"
 
 ["0.1.6 - 0"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["0.3 - 0"]
+Arrow = "69666777-d1a9-59fb-9406-91d4454c9d45"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
