@@ -3,10 +3,8 @@ Distributions = "0.25"
 ForwardDiff = "1"
 LambertW = "1"
 LogExpFunctions = "0.3"
-QuasiMonteCarlo = "0.3"
 Random = "1.10.0 - 1"
 Reexport = "1"
-Roots = "2"
 SpecialFunctions = "2"
 StatsFuns = "1.5.2 - 1"
 julia = "1.10.0 - 1"
@@ -14,6 +12,15 @@ julia = "1.10.0 - 1"
 ["0 - 0.1.0"]
 Copulas = "0.1.35 - 0.1"
 
+["0 - 0.1.1"]
+QuasiMonteCarlo = "0.3"
+Roots = "2"
+
 ["0.1.1 - 0"]
 Copulas = "0.1.40 - 0.1"
 Optim = "2"
+
+["0.1.2 - 0"]
+QuasiMonteCarlo = "0.3 - 0.4"
+Rmath = "0.9"
+Roots = "2 - 3"
