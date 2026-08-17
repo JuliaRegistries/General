@@ -1,20 +1,38 @@
-[0]
+["0 - 0.1"]
+HDF5 = ["0.15-0.99", "1"]
+
+["0 - 0.2"]
 CompressHashDisplace = "0.1.2-0.1"
 DataFrames = ["0.22", "1"]
 FileIO = "1.6.0-1"
 julia = "1.5.0-1"
 
-["0-0.1"]
-HDF5 = ["0.15-0.99", "1"]
-
-["0-0.2.0"]
+["0 - 0.2.0"]
 CategoricalArrays = "0.9"
 
-["0.2-0"]
+["0.2"]
 HDF5 = ["0.16-0.99", "1"]
 OrderedCollections = "1.6.0-1"
 StructArrays = "0.6.4-0.6"
 
-["0.2.1-0"]
-CategoricalArrays = "0.9-0.10"
+["0.2.1 - 0"]
 PooledArrays = "1"
+
+["0.2.1 - 0.2"]
+CategoricalArrays = "0.9-0.10"
+
+["0.3 - 0"]
+CategoricalArrays = ["0.9 - 0.10", "1"]
+Compat = "4.10.0 - 4"
+DataFrames = "1.5.0 - 1"
+DataStructures = "0.18 - 0.19"
+EllipsisNotation = "1.8.0 - 1"
+FileIO = "1.6.0 - 1"
+FillArrays = "1.13.0 - 1"
+HDF5 = ["0.16 - 0.99", "1"]
+Logging = "1.6.7 - 1"
+OrderedCollections = "1.6.0 - 2"
+Preferences = "1.5.0 - 1"
+StructArrays = "0.6.4 - 0.7"
+Zarr = "0.10"
+julia = "1.5.0 - 1"

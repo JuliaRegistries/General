@@ -1,6 +1,5 @@
 [0]
 CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
-CompressHashDisplace = "33dc01b2-0ff1-4271-8670-ed883dd4b55b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
@@ -9,9 +8,21 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
-["0.2-0"]
+["0 - 0.2"]
+CompressHashDisplace = "33dc01b2-0ff1-4271-8670-ed883dd4b55b"
+
+["0.2 - 0"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 
-["0.2.1-0"]
+["0.2.1 - 0"]
 PooledArrays = "2dfb63ee-cc39-5dd5-95bd-886bf059d720"
+
+["0.3 - 0"]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+EllipsisNotation = "da5c29d0-fa7d-589e-88eb-ea29b0a81949"
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+Zarr = "0a941bbe-ad1d-11e8-39d9-ab76183a1d99"
