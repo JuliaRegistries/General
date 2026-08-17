@@ -14,9 +14,11 @@ EcoBase = "0.0.3-0.1"
 ["0.4.6 - 0.4"]
 EcoBase = "0.0.6-0.1"
 
+["0.5"]
+Requires = "1"
+
 ["0.5 - 0"]
 EcoBase = "0.1"
-Requires = "1"
 
 ["0.5 - 0.5.1"]
 DataFrames = "0.20"
@@ -63,3 +65,6 @@ InteractiveUtils = "1.8.0-1"
 LinearAlgebra = "1.8.0-1"
 Statistics = "1.8.0-1"
 julia = "1.8.0-1"
+
+["0.6 - 0"]
+StringDistances = ["0.11", "1"]
