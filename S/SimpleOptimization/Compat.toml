@@ -1,7 +1,3 @@
-[1]
-Reexport = "1.2.0 - 1"
-julia = "1.10.0 - 1"
-
 ["1 - 1.2.0"]
 SciMLBase = "2.122.1 - 2"
 
@@ -11,10 +7,14 @@ SimpleNonlinearSolve = "1 - 2"
 ["1 - 1.2.2"]
 ADTypes = "1"
 
+["1 - 2"]
+Reexport = "1.2.0 - 1"
+julia = "1.10.0 - 1"
+
 ["1.0"]
 OptimizationBase = "4.0.2 - 4"
 
-["1.1 - 1"]
+["1.1 - 2"]
 OptimizationBase = "5"
 
 ["1.2.1 - 1.3"]
@@ -23,13 +23,18 @@ SciMLBase = "2.122.1 - 3"
 ["1.2.2"]
 SimpleNonlinearSolve = "2"
 
-["1.2.3 - 1"]
+["1.2.3 - 2"]
 ADTypes = "1.18.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
 SimpleNonlinearSolve = "2.12.0 - 2"
 
 ["1.4 - 1"]
-CommonSolve = "0.2.4 - 0.2"
 LineSearch = "0.1.14 - 0.1"
-SciMLBase = "3"
 StaticArrays = "1.9.0 - 1"
+
+["1.4 - 2"]
+CommonSolve = "0.2.4 - 0.2"
+SciMLBase = "3"
+
+[2]
+LineSearch = "0.1.15 - 0.1"
