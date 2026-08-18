@@ -49,10 +49,8 @@ SurfaceFluxes = "0.11-0.12"
 ArgParse = "1"
 ClimaAnalysis = "0.5.21 - 0.5"
 ClimaComms = "0.6.2 - 0.6"
-ClimaCore = "0.14.46 - 0.14"
 ClimaDiagnostics = "0.2.6 - 0.3"
 ClimaParams = "1"
-ClimaTimeSteppers = "0.8.11 - 0.9"
 ClimaUtilities = "0.1.22 - 0.1"
 Insolation = "1.1.0 - 1"
 Interpolations = "0.14 - 0.16"
@@ -64,10 +62,19 @@ Random = "1"
 SparseArrays = "1"
 StaticArrays = "1.9.8 - 1"
 Statistics = "1"
-SurfaceFluxes = ["0.15", "1"]
 Thermodynamics = ["0.15.3 - 0.15", "1"]
 YAML = "0.4"
 julia = "1.10.0 - 1"
 
+["0.2 - 0.2.2"]
+ClimaCore = "0.14.46 - 0.14"
+ClimaTimeSteppers = "0.8.11 - 0.9"
+SurfaceFluxes = ["0.15", "1"]
+
 ["0.2.2 - 0"]
 LazyBroadcast = "1"
+
+["0.2.3 - 0"]
+ClimaCore = ["0.14.46 - 0.14", "0.15.2 - 0.15"]
+ClimaTimeSteppers = "0.8.11 - 0.10"
+SurfaceFluxes = "1.2.0 - 1"
