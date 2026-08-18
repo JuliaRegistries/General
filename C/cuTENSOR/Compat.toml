@@ -87,9 +87,11 @@ CUTENSOR_jll = "2.5.0 - 2"
 
 [6]
 CEnum = "0.2 - 0.5"
-CUTENSOR_jll = "2.5.0 - 2"
 LinearAlgebra = "1"
 julia = "1.10.0 - 1"
+
+["6 - 6.2"]
+CUTENSOR_jll = "2.5.0 - 2"
 
 ["6.0"]
 CUDACore = "6.0.1"
@@ -104,5 +106,9 @@ CUDA_Runtime_Discovery = "2"
 ["6.2.0"]
 CUDACore = "6.2.0"
 
-["6.2.1 - 6"]
+["6.2.1 - 6.2"]
 CUDACore = "6.2.1"
+
+["6.3 - 6"]
+CUDACore = "6.3.0"
+CUTENSOR_jll = "2.7.0 - 2"
