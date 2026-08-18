@@ -103,18 +103,23 @@ Adapt = "4.6.1 - 4"
 Crayons = "4"
 GPUArrays = "11.5.6 - 11"
 GPUToolbox = "3"
-LLVMDowngrader_jll = "0.8"
 ObjectiveC = "6"
 PrettyTables = "3"
 Reexport = "1.2.2 - 1"
 SHA = ["0.7", "1"]
 Statistics = "1"
 
+["1.10 - 1.10.2"]
+LLVMDowngrader_jll = "0.8"
+
 ["1.10.0"]
 GPUCompiler = "1.22.5 - 1"
 
 ["1.10.1 - 1"]
 GPUCompiler = "2.1.0 - 2"
+
+["1.10.3 - 1"]
+LLVMDowngrader_jll = "0.8 - 0.9"
 
 ["1.2"]
 LLVM = "7.2.0-8"
