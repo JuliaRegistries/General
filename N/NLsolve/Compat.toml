@@ -42,5 +42,10 @@ Reexport = ["0.2", "1"]
 ADTypes = "1.11.0 - 1"
 Distances = "0.7 - 0.10"
 LineSearches = "7.6.2 - 7"
-NLSolversBase = "8"
 julia = "1.10.0 - 1"
+
+["5.0.0"]
+NLSolversBase = "8"
+
+["5.0.1 - 5"]
+NLSolversBase = "8.0.1 - 8"
