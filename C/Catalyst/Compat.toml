@@ -199,7 +199,7 @@ ModelingToolkitBase = "1.17.0 - 1"
 ["16 - 16.2.2"]
 JumpProcesses = "9.23.0 - 9"
 
-["16.2 - 16"]
+["16.2"]
 SciMLBase = "2.84.0 - 3"
 
 ["16.2 - 16.2.2"]
@@ -214,8 +214,14 @@ SparseArrays = "1.10.0 - 1"
 ModelingToolkitBase = "1.46.0 - 1"
 
 ["16.2.3 - 16"]
-DiffEqBase = ["6.165.0 - 6", "7.4.2 - 7"]
 JumpProcesses = "9.28.0 - 9"
+
+["16.2.3 - 16.2"]
+DiffEqBase = ["6.165.0 - 6", "7.4.2 - 7"]
+
+["16.3 - 16"]
+DiffEqBase = "7.4.2 - 7"
+SciMLBase = "3"
 
 [5]
 Reexport = "0.2"

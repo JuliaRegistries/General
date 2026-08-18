@@ -62,13 +62,15 @@ ConcreteStructs = "0.2.3 - 0.2"
 DocStringExtensions = "0.9.3 - 0.9"
 Optimisers = "0.3 - 0.4"
 ProgressMeter = "1.7.0 - 1"
-StatsBase = "0.34.3 - 0.34"
 julia = "1.10.0 - 1"
 
 ["0.2.3 - 0.2.4"]
 CommonSolve = "0.2.4 - 0.2"
 IntervalArithmetic = ["0.22 - 0.23", "1"]
 Optim = "1.7.0 - 2"
+
+["0.2.3 - 0.2.6"]
+StatsBase = "0.34.3 - 0.34"
 
 ["0.2.4 - 0"]
 DataDrivenDiffEq = "1.15.0 - 1"
@@ -85,3 +87,9 @@ ComponentArrays = "0.15.40 - 0.15"
 ForwardDiff = ["0.10.39 - 0.10", "1"]
 IntervalArithmetic = ["0.22.10 - 0.23", "1"]
 Optim = "2"
+
+["0.2.7 - 0"]
+ModelingToolkitBase = "1.30.0 - 1"
+SciMLPublic = "1"
+StatsAPI = "1"
+Symbolics = "7.18.1 - 7"
