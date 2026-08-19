@@ -1,7 +1,3 @@
-[0]
-BFloat16s = "0.6"
-julia = "1.11.0 - 1"
-
 ["0 - 0.1.1"]
 CompilerCaching = "0.1.2 - 0.1"
 IRStructurizer = "0.1"
@@ -12,6 +8,10 @@ CUDA_Compiler_jll = "0.4"
 ["0 - 0.3.1"]
 CUDA_Tile_jll = "13.1.0 - 13"
 
+["0 - 1"]
+BFloat16s = "0.6"
+julia = "1.11.0 - 1"
+
 ["0.1.2 - 0.1"]
 IRStructurizer = "0.2"
 
@@ -21,15 +21,9 @@ CompilerCaching = "0.2"
 ["0.2"]
 IRStructurizer = "0.5.3 - 0.5"
 
-["0.2 - 0"]
+["0.2 - 1"]
 EnumX = "1"
 GPUArrays = "11"
-
-["0.3 - 0"]
-Adapt = "4.4.0 - 4"
-PrecompileTools = "1"
-REPL = "1"
-Scratch = "1.2.0 - 1"
 
 ["0.3 - 0.3.1"]
 CUDACore = "6.1.0 - 6.2.0"
@@ -38,13 +32,27 @@ CompilerCaching = "0.2.4 - 0.2"
 IRStructurizer = "0.6"
 LMDB_jll = "0.9"
 
+["0.3 - 1"]
+Adapt = "4.4.0 - 4"
+PrecompileTools = "1"
+REPL = "1"
+Scratch = "1.2.0 - 1"
+
 ["0.3.2 - 0"]
 CUDACore = "6.1.0 - 6"
 CUDA_Compiler_jll = "0.4"
-CUDA_Tile_jll = "13.3.0 - 13"
 CompilerCaching = "0.3.1 - 0.3"
-GPUToolbox = "3"
 IRStructurizer = "0.6.2 - 0.6"
+
+["0.3.2 - 1"]
+CUDA_Tile_jll = "13.3.0 - 13"
+GPUToolbox = "3"
 LMDB = "3"
 Preferences = "1.5.0 - 1"
 SHA = "0.7"
+
+[1]
+CUDACore = "6.3.0 - 6"
+CUDA_Compiler_jll = "0.5"
+CompilerCaching = "0.3.1 - 0.4"
+IRStructurizer = "0.6.3 - 0.6"
