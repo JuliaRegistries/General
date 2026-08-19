@@ -1,6 +1,5 @@
 [0]
 AbstractNeuralNetworks = "60874f82-5ada-4c70-bd1c-fa6be7711c8a"
-BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
 ChainRules = "082447d4-558c-5d27-93f4-14fc19e9eca2"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
@@ -11,11 +10,8 @@ InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
-Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
@@ -31,15 +27,21 @@ Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
 ["0 - 0.3"]
 GeometricIntegrators = "dcce2d33-59f6-5b8d-9047-0defad88ae06"
 
+["0 - 0.4"]
+BandedMatrices = "aae01518-5342-5314-be14-df237901396f"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
 ["0 - 0.4.7"]
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 
-["0.2 - 0"]
-ChainRulesTestUtils = "cdddcdb0-9152-4a09-a978-84456f9df70a"
-SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
-
 ["0.2 - 0.3.0"]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+["0.2 - 0.4"]
+ChainRulesTestUtils = "cdddcdb0-9152-4a09-a978-84456f9df70a"
+SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
 
 ["0.3 - 0"]
 GeometricSolutions = "7843afe4-64f4-4df4-9231-049495c56661"
@@ -53,4 +55,9 @@ UpdateJulia = "770da0de-323d-4d28-9202-0e205c1e0aff"
 ["0.4.2 - 0"]
 SymbolicNeuralNetworks = "aed23131-dcd0-47ca-8090-d21e605652e3"
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+
+["0.4.2 - 0.4"]
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
+
+["0.5 - 0"]
+GeometricOptimizers = "fc236c15-5557-4942-aa65-b650f329279e"
