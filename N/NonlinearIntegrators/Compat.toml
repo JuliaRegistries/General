@@ -5,7 +5,6 @@ ForwardDiff = "1"
 GeometricBase = "0.14.8 - 0.14"
 GeometricEquations = "0.21"
 GeometricIntegratorsBase = "0.6.3 - 0.6"
-GeometricOptimizers = "0.2"
 GeometricSolutions = "0.6"
 LinearAlgebra = "1"
 QuadratureRules = "0.2"
@@ -19,3 +18,9 @@ julia = "1.10.0 - 1"
 
 ["0 - 0.2"]
 Zygote = "0.6 - 0.7"
+
+["0 - 0.3.0"]
+GeometricOptimizers = "0.2"
+
+["0.3.1 - 0"]
+GeometricOptimizers = "0.2 - 0.4"
