@@ -9,7 +9,7 @@ IterativeLearningControl = "0.1"
 ["0 - 0.7"]
 Reexport = "1.2.0-1"
 
-["0 - 1"]
+["0 - 2"]
 TrajectoryIndexingUtils = "0.1"
 
 ["0.1.1 - 0.1"]
@@ -83,7 +83,7 @@ PiccoloQuantumObjects = "0.6"
 ["0.8 - 0.9"]
 QuantumCollocation = "0.8"
 
-["0.8 - 1"]
+["0.8 - 2"]
 Reexport = "1.2.0 - 1"
 julia = "1.10.0 - 1"
 
@@ -92,7 +92,18 @@ NamedTrajectories = "0.6"
 PiccoloPlots = "0.3"
 PiccoloQuantumObjects = "0.7"
 
-[1]
+["1 - 1.1"]
+SciMLBase = "2.134.0 - 2"
+SpecialFunctions = "2.6.0 - 2"
+
+["1 - 1.10"]
+DirectTrajOpt = "0.8"
+
+["1 - 1.12"]
+OrdinaryDiffEqLinear = "1.10.0 - 1"
+OrdinaryDiffEqTsit5 = "1.9.0 - 1"
+
+["1 - 2"]
 DataInterpolations = "8.9.0 - 8"
 Distributions = "0.25"
 ExponentialAction = "0.2"
@@ -108,43 +119,32 @@ SymbolicIndexingInterface = "0.3"
 TestItemRunner = "1.1.0 - 1"
 TestItems = "1"
 
-["1 - 1.1"]
-SciMLBase = "2.134.0 - 2"
-SpecialFunctions = "2.6.0 - 2"
-
-["1 - 1.10"]
-DirectTrajOpt = "0.8"
-
-["1 - 1.12"]
-OrdinaryDiffEqLinear = "1.10.0 - 1"
-OrdinaryDiffEqTsit5 = "1.9.0 - 1"
-
 ["1.11 - 1.17"]
 DirectTrajOpt = "0.8 - 0.9"
 
-["1.13 - 1"]
+["1.13 - 2"]
 OrdinaryDiffEqLinear = "1.10.0 - 2"
 OrdinaryDiffEqTsit5 = "1.9.0 - 2"
 SciMLBase = "2.148.0 - 3"
 
-["1.14 - 1"]
+["1.14 - 2"]
 NamedTrajectories = "0.8 - 0.9"
 
-["1.15 - 1"]
+["1.15 - 2"]
 Libdl = "1.10.0 - 1"
 Printf = "1.10.0 - 1"
 UnicodePlots = "3"
 
-["1.18 - 1"]
+["1.18 - 2"]
 DirectTrajOpt = "0.9.5 - 0.9"
-
-["1.2 - 1"]
-SpecialFunctions = "2.7.0 - 2"
 
 ["1.2 - 1.3.1"]
 SciMLBase = "2.138.0 - 2"
 
-["1.21 - 1"]
+["1.2 - 2"]
+SpecialFunctions = "2.7.0 - 2"
+
+["1.21 - 2"]
 JSON3 = "1"
 Pkg = "1.10.0 - 1"
 SHA = "0.7"
