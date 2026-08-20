@@ -6,7 +6,6 @@ ChainRulesCore = "1.26.1 - 1"
 Flux = "0.16.10 - 0.16"
 JLD2 = "0.6.4 - 0.6"
 Random = "1"
-SEQ2EXPdata = "1.0.8 - 1"
 Statistics = "1"
 StatsBase = "0.34.11 - 0.34"
 Zygote = "0.7.10 - 0.7"
@@ -22,6 +21,9 @@ GlyphEctoplasm = "0.2.3 - 0.2"
 ["0 - 0.0.6"]
 AutoComputationalGraphTuning = "0.1.2 - 0.1"
 
+["0 - 0.1.7"]
+SEQ2EXPdata = "1.0.8 - 1"
+
 ["0.0.2 - 0.0.6"]
 BanzhafInference = "0.0.3"
 
@@ -31,11 +33,11 @@ GlyphEctoplasm = "0.2.9 - 0.2"
 ["0.0.6 - 0.1.4"]
 GlyphEctoplasm = "0.3"
 
-["0.0.7 - 0"]
-AutoComputationalGraphTuning = "0.1.3 - 0.1"
-
 ["0.0.7 - 0.0"]
 BanzhafInference = "0.0.5"
+
+["0.0.7 - 0.1.7"]
+AutoComputationalGraphTuning = "0.1.3 - 0.1"
 
 ["0.1.0"]
 BanzhafInference = "0.0.6"
@@ -43,8 +45,13 @@ BanzhafInference = "0.0.6"
 ["0.1.1"]
 BanzhafInference = "0.0.7"
 
-["0.1.2 - 0"]
+["0.1.2 - 0.1.7"]
 BanzhafInference = "0.0.8"
 
 ["0.1.5 - 0"]
 GlyphEctoplasm = "0.4"
+
+["0.1.8 - 0"]
+AutoComputationalGraphTuning = "0.1.5 - 0.1"
+BanzhafInference = "0.0.9"
+SEQ2EXPdata = "1.1.0 - 1"
