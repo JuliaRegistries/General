@@ -9,7 +9,7 @@ julia = "1.9.0-1"
 CImGui = "2"
 CImGuiPack_jll = "0.3"
 
-["0 - 1"]
+["0 - 2"]
 Test = "1"
 
 ["0.1.1"]
@@ -37,13 +37,13 @@ CImGuiPack_jll = "0.7.1-0.7"
 CImGui = "2-5"
 CImGuiPack_jll = "0.7.1-0.8"
 
-[1]
+["1 - 1.0.2"]
+CImGui = "6"
+
+["1 - 2"]
 CEnum = "0.5"
 DocStringExtensions = "0.9.3 - 0.9"
 ScopedValues = "1.2.1 - 1"
-
-["1 - 1.0.2"]
-CImGui = "6"
 
 ["1.0"]
 julia = "1.9.0 - 1"
@@ -61,4 +61,10 @@ CImGuiPack_jll = "0.11"
 ["1.1 - 1"]
 CImGui = "8"
 CImGuiPack_jll = "0.12.2 - 0.12"
+
+["1.1 - 2"]
 julia = "1.10.0 - 1"
+
+[2]
+CImGui = "9"
+CImGuiPack_jll = "0.13"
