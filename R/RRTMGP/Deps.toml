@@ -27,11 +27,11 @@ Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Profile = "9abbd945-dff8-562f-b5e8-e1ebf5ef1b79"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.11 - 0"]
-Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
-
 ["0.11 - 0.12"]
 CLIMAParameters = "6eacf6c3-8458-43b9-ae03-caf5306d3d53"
+
+["0.11 - 1"]
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 ["0.13 - 0.17"]
 ClimaParams = "5c42b081-d73a-476f-9059-fd94b934656c"
@@ -42,9 +42,6 @@ CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 ["0.2"]
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
 
-["0.2 - 0"]
-Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-
 ["0.2 - 0.13.2"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
@@ -54,14 +51,17 @@ GaussQuadrature = "d54b0c1a-921d-58e0-8e36-89d8069c0969"
 ["0.2 - 0.3"]
 CLIMAParameters = "6eacf6c3-8458-43b9-ae03-caf5306d3d53"
 
-["0.22 - 0"]
+["0.2 - 1"]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+
+["0.22 - 1"]
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 
-["0.23 - 0"]
+["0.23 - 1"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
-["0.5 - 0"]
+["0.5 - 1"]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
-["0.9 - 0"]
+["0.9 - 1"]
 ClimaComms = "3a4d1b5c-c61d-41fd-a00a-5873ba7a1b0d"
