@@ -21,14 +21,20 @@ Optimization = "3.21.0-3"
 Optimization = "4"
 
 ["0.3.1 - 0"]
-Reexport = "1.2.0 - 1"
 julia = "1.10.0 - 1"
+
+["0.3.1 - 0.3.10"]
+Reexport = "1.2.0 - 1"
 
 ["0.3.1 - 0.3.2"]
 Optimization = "4.4.0 - 4"
 
-["0.3.10 - 0"]
+["0.3.10"]
 SciMLLogging = "1.10.1 - 2"
+
+["0.3.11 - 0"]
+SciMLBase = "3"
+SciMLLogging = "2"
 
 ["0.3.3"]
 OptimizationBase = "3"
@@ -44,5 +50,5 @@ SciMLBase = "2.122.1 - 2"
 Metaheuristics = "3.3.0 - 3"
 OptimizationBase = "5"
 
-["0.3.6 - 0"]
+["0.3.6 - 0.3.10"]
 SciMLBase = "2.122.1 - 3"
