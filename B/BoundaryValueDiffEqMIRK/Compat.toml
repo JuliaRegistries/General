@@ -117,6 +117,9 @@ SciMLBase = "3.30.0 - 3"
 ["1.17.3 - 1"]
 BoundaryValueDiffEqCore = "2.7.3 - 2"
 
+["1.17.5 - 1"]
+FastAlmostBandedMatrices = "0.1.10 - 0.1"
+
 ["1.4 - 1.10.0"]
 BoundaryValueDiffEqCore = "1"
 
@@ -151,7 +154,6 @@ ADTypes = "1.14.0 - 1"
 ArrayInterface = "7.18.0 - 7"
 BandedMatrices = "1.7.5 - 1"
 ConcreteStructs = "0.2.3 - 0.2"
-FastAlmostBandedMatrices = "0.1.4 - 0.1"
 FastClosures = "0.3.2 - 0.3"
 ForwardDiff = ["0.10.38 - 0.10", "1"]
 LinearAlgebra = "1.10.0 - 1"
@@ -172,3 +174,6 @@ RecursiveArrayTools = "3.27.0 - 3"
 
 ["1.9 - 1.17.3"]
 Reexport = "1.2.0 - 1"
+
+["1.9 - 1.17.4"]
+FastAlmostBandedMatrices = "0.1.4 - 0.1"
