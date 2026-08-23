@@ -88,7 +88,7 @@ ModelingToolkitBase = "1"
 ["2.27"]
 DiffEqBase = "6.189.1 - 6"
 
-["2.27 - 2"]
+["2.27 - 2.29.6"]
 PreallocationTools = ["0.4.27 - 0.4", "1"]
 
 ["2.28 - 2"]
@@ -97,7 +97,7 @@ ChainRulesCore = "1"
 ["2.28 - 2.29.2"]
 DiffEqBase = "6.189.1 - 7"
 
-["2.29.3 - 2"]
+["2.29.3 - 2.29.6"]
 DiffEqBase = "6.190.0 - 7"
 
 ["2.29.4"]
@@ -111,6 +111,11 @@ SymbolicUtils = "4.38.1 - 4"
 
 ["2.29.6 - 2"]
 ModelingToolkitBase = "1.49.0 - 1"
+
+["2.29.7 - 2"]
+DiffEqBase = "7"
+PreallocationTools = "1.0.1 - 1"
+PrecompileTools = "1.2.1 - 1"
 
 ["2.3"]
 ModelingToolkit = "8.67.0-8"
