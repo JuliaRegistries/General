@@ -69,7 +69,7 @@ SciMLBase = "1.89.0-1"
 ["4.16 - 4.24"]
 DiffEqBase = "6.122.0-6"
 
-["4.17 - 6"]
+["4.17 - 6.5"]
 PrecompileTools = "1"
 
 ["4.18 - 4.19"]
@@ -145,7 +145,7 @@ LinearSolve = "3.40.0 - 3"
 ["5.0"]
 NonlinearSolveBase = "1.16.0 - 1"
 
-["5.1 - 6"]
+["5.1 - 6.5"]
 NonlinearSolveBase = "1.16.0 - 2"
 
 ["5.2"]
@@ -160,7 +160,7 @@ SciMLBase = "2.119.0 - 3.39"
 ["5.3 - 6.4.0"]
 DiffEqBase = "6.217.0 - 7"
 
-["6.2.1 - 6"]
+["6.2.1 - 6.5"]
 SciMLLogging = "1.10.1 - 2"
 
 ["6.2.2 - 6"]
@@ -171,8 +171,16 @@ SciMLBase = "3.35.0 - 3.39"
 
 ["6.4.1 - 6"]
 DiffEqBase = "7.4.2 - 7"
+
+["6.4.1 - 6.5"]
 LinearSolve = "3.40.0 - 5"
 
 ["6.5 - 6"]
 SciMLBase = "3.40.0 - 3"
 SciMLOperators = "1"
+
+["6.6 - 6"]
+LinearSolve = "5"
+NonlinearSolveBase = "2"
+PrecompileTools = "1.2.1 - 1"
+SciMLLogging = "2"
