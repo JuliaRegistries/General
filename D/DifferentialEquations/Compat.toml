@@ -304,6 +304,11 @@ BoundaryValueDiffEq = "2.11.0-3"
 ["7.9.1 - 7.10"]
 BoundaryValueDiffEq = "4"
 
-[8]
+["8.0"]
 OrdinaryDiffEq = "6.53.0 - 7"
 SciMLBase = "2.51.0 - 3"
+
+["8.1 - 8"]
+OrdinaryDiffEq = "7"
+PrecompileTools = "1"
+SciMLBase = "3"
