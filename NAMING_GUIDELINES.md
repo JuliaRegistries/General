@@ -40,6 +40,7 @@ Since the `General` registry belongs to the entire community, people may have op
 
 7. <a id="rule-avoid-close-names" href="#rule-avoid-close-names">§</a> Avoid giving a package a name that is too close to an existing package's name.
      * `Websocket` is too close to `WebSockets` and can be confusing to users. Rather, use a new name such as `ConcurrentWebsockets` that is descriptive of what distinguishes the package.
+     * `QuasiMC` indicates an identical scope to `QuasiMonteCarlo`. Choose a name that is descriptive of what distinguishes the new package, or use a ["less systematic name"](#rule-less-systematic). Or, contribute to the existing package.
 
 8. <a id="rule-avoid-unrelated-project-names" href="#rule-avoid-unrelated-project-names">§</a> Avoid using a distinctive name that is already in use in a well-known, unrelated project.
      * Don't use the names `Tkinter.jl`, `TkinterGUI.jl`, etc., for a package that is unrelated to the popular `tkinter` Python package, even if it provides bindings to Tcl/Tk. A package name of `Tkinter.jl` would only be appropriate if the package used Python's library to accomplish its work or was spearheaded by the same community of developers.
