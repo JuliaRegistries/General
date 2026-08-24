@@ -1,5 +1,4 @@
 [0]
-AbstractNeuralNetworks = "0.6.4 - 0.6"
 CompactBasisFunctions = "0.3"
 ForwardDiff = "1"
 GeometricBase = "0.14.8 - 0.14"
@@ -12,15 +11,23 @@ Random = "1"
 SimpleSolvers = "0.12.1 - 0.12"
 StaticArrays = "1"
 Statistics = "1"
-SymbolicNeuralNetworks = "0.5"
 Symbolics = "7"
 julia = "1.10.0 - 1"
 
 ["0 - 0.2"]
 Zygote = "0.6 - 0.7"
 
+["0 - 0.3"]
+AbstractNeuralNetworks = "0.6.4 - 0.6"
+SymbolicNeuralNetworks = "0.5"
+
 ["0 - 0.3.0"]
 GeometricOptimizers = "0.2"
 
 ["0.3.1 - 0"]
 GeometricOptimizers = "0.2 - 0.4"
+
+["0.4 - 0"]
+AbstractNeuralNetworks = "0.7"
+NeuralNetworkParameters = "0.1"
+SymbolicNeuralNetworks = "0.6"
