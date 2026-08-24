@@ -223,16 +223,18 @@ GAP_pkg_zeromqinterface_jll = "1.170000"
 
 ["0.16 - 0"]
 GAP_pkg_ace_jll = "501.70000"
-GAP_pkg_cohomolo_jll = "101.61200"
-GAP_pkg_kbmag_jll = "101.51100"
 GAP_pkg_nq_jll = "201.51100"
-GAP_pkg_simpcomp_jll = "201.11400"
 
 ["0.16 - 0.16.2"]
 GAP_pkg_browse_jll = "101.82100"
 
 ["0.16 - 0.16.6"]
 GAP_pkg_juliainterface_jll = "0.160000.0"
+
+["0.16 - 0.17.4"]
+GAP_pkg_cohomolo_jll = "101.61200"
+GAP_pkg_kbmag_jll = "101.51100"
+GAP_pkg_simpcomp_jll = "201.11400"
 
 ["0.16.3 - 0"]
 BinaryWrappers = "0.2"
@@ -254,9 +256,17 @@ AbstractAlgebra = ["0.41.11 - 0.41", "0.42.1 - 0.50"]
 GAP_pkg_juliainterface_jll = "0.160000.1"
 
 ["0.17 - 0"]
+GAP_pkg_anupq_jll = "301.30300"
+GAP_pkg_fplsa_jll = "101.20800"
+GAP_pkg_guava_jll = "301.210000"
+
+["0.17 - 0.17.3"]
+GAP_pkg_browse_jll = "101.82200"
+GAP_pkg_juliainterface_jll = "0.170000.0"
+
+["0.17 - 0.17.4"]
 GAP_jll = "400.1600"
 GAP_lib_jll = "400.1600"
-GAP_pkg_anupq_jll = "301.30300"
 GAP_pkg_caratinterface_jll = "201.30900"
 GAP_pkg_cddinterface_jll = "202600.30200"
 GAP_pkg_crypting_jll = "1.100600.1 - 1.100600"
@@ -268,9 +278,7 @@ GAP_pkg_digraphs_jll = "101.140000"
 GAP_pkg_edim_jll = "101.30800.1 - 101.30800"
 GAP_pkg_ferret_jll = "101.1600"
 GAP_pkg_float_jll = "101.1000"
-GAP_pkg_fplsa_jll = "101.20800"
 GAP_pkg_gauss_jll = "202500.120100"
-GAP_pkg_guava_jll = "301.210000"
 GAP_pkg_io_jll = "401.90300.1 - 401.90300"
 GAP_pkg_json_jll = "201.40000"
 GAP_pkg_normalizinterface_jll = "101.50100"
@@ -279,13 +287,38 @@ GAP_pkg_profiling_jll = "201.60200.1 - 201.60200"
 GAP_pkg_semigroups_jll = "501.60300"
 GAP_pkg_zeromqinterface_jll = "1.180000"
 
-["0.17 - 0.17.3"]
-GAP_pkg_browse_jll = "101.82200"
-GAP_pkg_juliainterface_jll = "0.170000.0"
+["0.17.4"]
+GAP_pkg_browse_jll = "101.82300"
 
 ["0.17.4 - 0"]
-GAP_pkg_browse_jll = "101.82300"
 GAP_pkg_juliainterface_jll = "0.170400.0"
+
+["0.17.5 - 0"]
+GAP_jll = "400.1600.100 - 400.1600"
+GAP_lib_jll = "400.1600.100 - 400.1600"
+GAP_pkg_browse_jll = "101.82300.1 - 101.82300"
+GAP_pkg_caratinterface_jll = "201.31100"
+GAP_pkg_cddinterface_jll = "202600.30200.1 - 202600.30200"
+GAP_pkg_cohomolo_jll = "101.70000"
+GAP_pkg_crypting_jll = "1.100700"
+GAP_pkg_curlinterface_jll = "201.40400"
+GAP_pkg_cvec_jll = "201.80500.1 - 201.80500"
+GAP_pkg_datastructures_jll = "1.40300"
+GAP_pkg_deepthought_jll = "101.1000"
+GAP_pkg_digraphs_jll = "101.150000"
+GAP_pkg_edim_jll = "101.30800.2 - 101.30800"
+GAP_pkg_ferret_jll = "101.1600.1 - 101.1600"
+GAP_pkg_float_jll = "101.1000.1 - 101.1000"
+GAP_pkg_gauss_jll = "202600.70100"
+GAP_pkg_io_jll = "401.100000"
+GAP_pkg_json_jll = "201.40000.1 - 201.40000"
+GAP_pkg_kbmag_jll = "101.60000"
+GAP_pkg_normalizinterface_jll = "101.50100.1 - 101.50100"
+GAP_pkg_orb_jll = "501.10000.1 - 501.10000"
+GAP_pkg_profiling_jll = "201.60300"
+GAP_pkg_semigroups_jll = "501.60300.1 - 501.60300"
+GAP_pkg_simpcomp_jll = "201.11500"
+GAP_pkg_zeromqinterface_jll = "1.180000.1 - 1.180000"
 
 ["0.2 - 0.2.1"]
 GAPTypes = "0.0.0-1"
