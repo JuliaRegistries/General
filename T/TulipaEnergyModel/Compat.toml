@@ -56,6 +56,10 @@ ParametricOptInterface = ["0.12.1 - 0.12", "0.14 - 0.15"]
 ["0.22 - 0"]
 OrderedCollections = "1 - 2"
 
+["0.23 - 0"]
+Dates = "1"
+TimerOutputs = ["0.5", "1.1.0 - 1"]
+
 ["0.4 - 0.20"]
 SparseArrays = "1"
 
@@ -68,6 +72,8 @@ MetaGraphsNext = "0.6-0.7"
 ["0.5.2 - 0"]
 MathOptInterface = "1"
 TOML = "1"
+
+["0.5.2 - 0.22"]
 TimerOutputs = "0.5"
 
 ["0.5.2 - 0.6.1"]
