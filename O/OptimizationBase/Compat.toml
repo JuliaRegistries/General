@@ -84,11 +84,13 @@ ADTypes = "1.9.0 - 1"
 ["2.9 - 5"]
 ArrayInterface = "7.6.0 - 7"
 LinearAlgebra = "1.9.0 - 1"
-SparseConnectivityTracer = ["0.6", "1"]
 julia = "1.10.0 - 1"
 
 ["2.9 - 5.2"]
 Reexport = "1.2.0 - 1"
+
+["2.9 - 5.5.0"]
+SparseConnectivityTracer = ["0.6", "1"]
 
 ["4.0"]
 DifferentiationInterface = "0.7"
@@ -134,3 +136,6 @@ ADTypes = "1.18.0 - 1"
 PrecompileTools = "1.2.1 - 1"
 SciMLBase = "3"
 SciMLLogging = "2"
+
+["5.5.1 - 5"]
+SparseConnectivityTracer = "1"
