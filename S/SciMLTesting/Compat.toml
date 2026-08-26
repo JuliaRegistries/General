@@ -4,7 +4,7 @@ julia = "1.10.0 - 1"
 ["1 - 2"]
 TOML = "1.0.3 - 1"
 
-["1.1.1 - 2"]
+["1.1.1 - 2.12"]
 SafeTestsets = ["0.1", "1"]
 
 ["1.5 - 2"]
@@ -13,3 +13,6 @@ ExplicitImports = "1"
 
 ["2.12 - 2"]
 PrecompileTools = "1.2.0 - 1"
+
+["2.13 - 2"]
+SafeTestsets = "0.1"
