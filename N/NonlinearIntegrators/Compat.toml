@@ -11,7 +11,6 @@ Random = "1"
 StaticArrays = "1"
 Statistics = "1"
 Symbolics = "7"
-julia = "1.10.0 - 1"
 
 ["0 - 0.2"]
 Zygote = "0.6 - 0.7"
@@ -26,6 +25,9 @@ GeometricOptimizers = "0.2"
 ["0 - 0.4.0"]
 SimpleSolvers = "0.12.1 - 0.12"
 
+["0 - 0.4.1"]
+julia = "1.10.0 - 1"
+
 ["0.3.1 - 0.4.0"]
 GeometricOptimizers = "0.2 - 0.4"
 
@@ -34,9 +36,16 @@ AbstractNeuralNetworks = "0.7"
 NeuralNetworkParameters = "0.1"
 SymbolicNeuralNetworks = "0.6"
 
-["0.4.1 - 0"]
-AbstractNeuralNetworks = "0.7.1 - 0.7"
+["0.4.1"]
 GeometricOptimizers = "0.5"
 NeuralNetworkParameters = "0.2.1 - 0.2"
+
+["0.4.1 - 0"]
+AbstractNeuralNetworks = "0.7.1 - 0.7"
 SimpleSolvers = "0.12.1 - 0.13"
 SymbolicNeuralNetworks = "0.7"
+
+["0.4.2 - 0"]
+GeometricOptimizers = "0.6"
+NeuralNetworkParameters = "0.2.2 - 0.2"
+julia = "1.11.0 - 1"
