@@ -24,14 +24,18 @@ OptimizationBase = "4"
 ["1.2.1 - 1.2"]
 OptimizationBase = "4.0.2 - 4"
 
-["1.3 - 2"]
-OptimizationBase = "5"
-
 ["1.3 - 2.0.1"]
 Reexport = "1.2.0 - 1"
 
-["1.3.1 - 2"]
+["1.3 - 2.1.0"]
+OptimizationBase = "5"
+
+["1.3.1 - 2.1.0"]
 SciMLBase = "2.122.1 - 3"
 
 ["2.0.2 - 2"]
 Reexport = "1.2.2 - 1"
+
+["2.1.1 - 2"]
+OptimizationBase = "5.5.0 - 5"
+SciMLBase = "3"
