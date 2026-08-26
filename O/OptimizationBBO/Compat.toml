@@ -22,8 +22,13 @@ Optimization = "3.21.0-3"
 ["0.4 - 0.4.1"]
 Optimization = "4"
 
-["0.4.11 - 0"]
+["0.4.11"]
 SciMLLogging = "1.10.1 - 2"
+
+["0.4.12 - 0"]
+OptimizationBase = "5.5.0 - 5"
+SciMLBase = "3"
+SciMLLogging = "2"
 
 ["0.4.2"]
 Optimization = "4.4.0 - 4"
@@ -48,8 +53,8 @@ OptimizationBase = "4.0.2 - 4"
 ["0.4.5 - 0"]
 BlackBoxOptim = "0.6.3 - 0.6"
 
-["0.4.6 - 0"]
+["0.4.6 - 0.4.11"]
 OptimizationBase = "5"
 
-["0.4.7 - 0"]
+["0.4.7 - 0.4.11"]
 SciMLBase = "2.122.1 - 3"
