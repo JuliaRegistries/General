@@ -150,12 +150,14 @@ Lux = "0.5.56-0.5"
 SteadyStateDiffEq = "2.3.2-2"
 
 ["2.3 - 2"]
-Lux = "1"
 LuxCore = "1"
 
 ["2.3 - 2.4"]
 SciMLSensitivity = "7.43.0-7"
 Static = "1.1.1-1"
+
+["2.3 - 2.7.5"]
+Lux = "1"
 
 ["2.4"]
 NonlinearSolveBase = "1.5.0-1"
@@ -163,9 +165,7 @@ NonlinearSolveBase = "1.5.0-1"
 ["2.5 - 2"]
 CommonSolve = "0.2"
 NNlib = "0.9"
-NonlinearSolveBase = "1.5.0 - 2"
 Random = "1.10.0 - 1"
-SciMLSensitivity = "7.43.0 - 7"
 Static = "1"
 julia = "1.10.0 - 1"
 
@@ -175,11 +175,24 @@ DiffEqBase = "6.119.0 - 6"
 PrecompileTools = "1"
 SteadyStateDiffEq = "2.3.0 - 2"
 
-["2.7 - 2"]
+["2.5 - 2.7.5"]
+NonlinearSolveBase = "1.5.0 - 2"
+SciMLSensitivity = "7.43.0 - 7"
+
+["2.7 - 2.7.5"]
 SciMLBase = ["2", "3.3.0 - 3"]
 
 ["2.7.1 - 2"]
 ADTypes = "1.14.0 - 1"
-DiffEqBase = "6.176.0 - 7"
 PrecompileTools = "1.2.1 - 1"
 SteadyStateDiffEq = "2.5.0 - 2"
+
+["2.7.1 - 2.7.5"]
+DiffEqBase = "6.176.0 - 7"
+
+["2.7.6 - 2"]
+DiffEqBase = "7"
+Lux = "1.16.0 - 1"
+NonlinearSolveBase = "2"
+SciMLBase = "3.3.0 - 3"
+SciMLSensitivity = "7.105.0 - 7"
