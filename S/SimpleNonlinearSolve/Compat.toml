@@ -176,11 +176,11 @@ NonlinearSolveBase = "1.1.0-1"
 ["2.1 - 2.5"]
 NonlinearSolveBase = "1.4.0-1"
 
-["2.10 - 2"]
-BracketingNonlinearSolve = "1.6.0 - 1"
-
 ["2.10 - 2.11.0"]
 NonlinearSolveBase = "2.2.0 - 2"
+
+["2.10 - 2.14.0"]
+BracketingNonlinearSolve = "1.6.0 - 1"
 
 ["2.11.1 - 2.12.0"]
 SciMLBase = "2.153.0 - 3"
@@ -198,14 +198,20 @@ ADTypes = "1.13.0 - 1"
 SciMLBase = "3.19.0 - 3"
 
 ["2.13 - 2"]
-SciMLLogging = "1.10.1 - 2"
 Setfield = "1.1.2 - 1"
+
+["2.13 - 2.14.0"]
+SciMLLogging = "1.10.1 - 2"
 
 ["2.13.1 - 2"]
 SciMLBase = "3.33.0 - 3"
 
 ["2.14 - 2"]
 NonlinearSolveBase = "2.41.0 - 2"
+
+["2.14.1 - 2"]
+BracketingNonlinearSolve = "1.12.6 - 1"
+SciMLLogging = "2"
 
 ["2.2.1 - 2.5"]
 ForwardDiff = ["0.10.36-0.10", "1"]
