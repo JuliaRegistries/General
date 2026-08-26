@@ -119,7 +119,6 @@ FunctionChains = "0.2"
 ["0.2.16 - 0"]
 Adapt = "2 - 4"
 ArgCheck = "1 - 2"
-ArraysOfArrays = "0.5 - 0.6"
 DSP = "0.6.2 - 0.8"
 DocStringExtensions = "0.8 - 0.9"
 FFTW = "1.2.0 - 1"
@@ -138,9 +137,15 @@ Unitful = "1.6.0 - 1"
 Requires = "1.1.3 - 1"
 julia = "1.6.0 - 1"
 
+["0.2.16 - 0.2.18"]
+ArraysOfArrays = "0.5 - 0.6"
+
 ["0.2.18 - 0"]
 HeterogeneousComputing = "0.2.5 - 0.2"
 julia = "1.10.0 - 1"
+
+["0.2.19 - 0"]
+ArraysOfArrays = ["0.5 - 0.6", "1"]
 
 ["0.2.4 - 0.2.8"]
 LinearAlgebra = "1"
