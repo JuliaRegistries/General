@@ -13,11 +13,16 @@ julia = "1.10.0-1"
 ["0.17 - 0"]
 ADTypes = "1"
 CTBase = "0.29"
-CTModels = "0.16"
 CTSolvers = "0.5"
 CommonSolve = "0.2"
 GPUArraysCore = "0.1 - 0.2"
 RecipesBase = "1"
+
+["0.17.0"]
+CTModels = "0.16"
+
+["0.17.2 - 0"]
+CTModels = "0.18"
 
 ["0.5"]
 CTBase = "0.12"
