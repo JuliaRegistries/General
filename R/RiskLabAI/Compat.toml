@@ -7,18 +7,30 @@ julia = "1.7.2-1"
 Clustering = "0.15"
 Combinatorics = "1"
 DataFrames = "1"
-Dates = "1"
 DecisionTree = "0.12"
 Distributions = "0.25"
 HypothesisTests = "0.11"
-LinearAlgebra = "1"
 Lux = "1.31.4 - 1"
 Optimisers = "0.4.7 - 0.4"
-Random = "1"
-Statistics = "1"
 TimeSeries = "0.20 - 0.24"
 Zygote = "0.7.11 - 0.7"
 julia = "1.10.0 - 1"
 
+["0.6 - 1"]
+Dates = "1"
+LinearAlgebra = "1"
+Random = "1"
+Statistics = "1"
+
 ["0.6.2 - 0"]
 SpecialFunctions = "2"
+
+[1]
+Clustering = "0.15.8 - 0.15"
+Combinatorics = "1.1.0 - 1"
+DataFrames = "1.8.0 - 1"
+DecisionTree = "0.12.4 - 0.12"
+Distributions = "0.25.128 - 0.25"
+HypothesisTests = "0.11.8 - 0.11"
+SpecialFunctions = "2.8.0 - 2"
+julia = ["1.10.12 - 1.10", "1.12.7 - 1.12"]
