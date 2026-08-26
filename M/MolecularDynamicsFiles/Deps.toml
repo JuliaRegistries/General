@@ -1,12 +1,22 @@
 [0]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0-0.2.2"]
+GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
 
 ["0.2-0"]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 EnumX = "4e289a0a-7415-4d19-859d-a7e5c4648b56"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.2.3-0"]
+Chemfiles = "46823bd8-5fb3-5f92-9aa0-96921f3dd015"
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+InlineStrings = "842dd82b-1e85-43dc-bf29-5d0ee9dffc48"
+Mmap = "a63ad114-7e13-5084-954f-fe012c677804"
+StringViews = "354b36f9-a18e-4713-926e-db85100087ba"
+TranscodingStreams = "3bb67fe8-82b1-5028-8e26-92a6c54297fa"
