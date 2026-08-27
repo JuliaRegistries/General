@@ -1,21 +1,13 @@
 [0]
-DataFrames = "1.6.0-1"
 Distributions = "0.25"
 HDF5 = "0.17"
-JLD2 = "0.4"
-JSON = "0.21"
-Lux = "0.5"
-Optimisers = "0.3"
-Printf = "1"
 Random = "1"
 Statistics = "1"
-TFRecord = "0.4.2-0.4"
-Zygote = "0.6"
 
-["0-0.1"]
+["0 - 0.1"]
 GraphNetCore = "0.1"
 
-["0-0.3"]
+["0 - 0.3"]
 CUDA = "4.4.1-4"
 ChainRulesCore = "1.16.0-1.18"
 DifferentialEquations = "7.11.0-7"
@@ -26,16 +18,26 @@ SciMLSensitivity = "7.45-7.47"
 cuDNN = "1.1.1-1"
 julia = "1.9.0-1"
 
-["0-0.4.0"]
+["0 - 0.4"]
+DataFrames = "1.6.0-1"
+JLD2 = "0.4"
+JSON = "0.21"
+Lux = "0.5"
+Optimisers = "0.3"
+Printf = "1"
+TFRecord = "0.4.2-0.4"
+Zygote = "0.6"
+
+["0 - 0.4.0"]
 Optimization = "3.18.0-3"
 
-["0.2-0"]
+["0.2 - 0"]
 Wandb = "0.5"
 
-["0.2-0.3"]
+["0.2 - 0.3"]
 GraphNetCore = "0.2"
 
-["0.4-0"]
+["0.4"]
 CUDA = "5"
 ChainRulesCore = "1.16.0-1"
 GraphNetCore = "0.3"
@@ -49,5 +51,23 @@ julia = "1.10.0-1"
 ["0.4.0"]
 DifferentialEquations = "7.11-7"
 
-["0.4.1-0"]
+["0.4.1 - 0.4"]
 OrdinaryDiffEq = "6.85-6"
+
+["0.5 - 0"]
+CUDA = "6.2.2 - 6.2"
+ChainRulesCore = "1.26.1 - 1"
+GraphNetCore = "0.5"
+JLD2 = "0.6"
+JSON = "1.7.0 - 1"
+Lux = "1.31 - 1"
+MLUtils = "0.4.13 - 0.4"
+Optimisers = "0.4"
+OrdinaryDiffEq = "7.7 - 7"
+ProgressMeter = "1.11 - 1"
+SciMLBase = "3.49 - 3"
+SciMLSensitivity = "7.118 - 7"
+Setfield = "1.1.2 - 1"
+Zygote = "0.7"
+cuDNN = "6.2.2 - 6.2"
+julia = "1.11.0 - 1"

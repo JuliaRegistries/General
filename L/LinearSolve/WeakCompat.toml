@@ -201,7 +201,6 @@ CliqueTrees = "1.11.0 - 1"
 CUDA = "5.5.0 - 5"
 
 ["3.29 - 5"]
-AMDGPU = "1.2.0 - 2"
 BandedMatrices = "1.8.0 - 1"
 EnzymeCore = "0.8.5 - 0.8"
 FastAlmostBandedMatrices = "0.1.4 - 0.1"
@@ -212,10 +211,13 @@ KernelAbstractions = "0.9.30 - 0.9"
 Metal = "1.4.0 - 1"
 Pardiso = "1"
 
+["3.29 - 5.13.1"]
+AMDGPU = "1.2.0 - 2"
+
 ["3.29 - 5.6"]
 Sparspak = "0.3.9 - 0.3"
 
-["3.30 - 5"]
+["3.30 - 5.13.1"]
 ForwardDiff = ["0.10.38 - 0.10", "1"]
 
 ["3.4 - 3.12.0"]
@@ -300,7 +302,7 @@ PureUMFPACK = "0.1"
 ["3.86.1 - 5"]
 SuperLUDIST = "1"
 
-["4 - 5"]
+["4 - 5.13.1"]
 AlgebraicMultigrid = ["0.5", "1 - 2"]
 
 ["4.3 - 5"]
@@ -310,6 +312,21 @@ JacobiDavidson = "0.1"
 
 ["5.10 - 5"]
 ConjugateGradients = "0.1"
+
+["5.13 - 5"]
+AMGX = "0.2"
+
+["5.13 - 5.13.1"]
+CUDA = "5 - 6"
+
+["5.13.1 - 5"]
+Reactant = "0.2.230 - 0.2"
+
+["5.13.2 - 5"]
+AMDGPU = "2"
+AlgebraicMultigrid = "2"
+CUDA = "6"
+ForwardDiff = "1"
 
 ["5.3 - 5.6"]
 TriangularSolve = "0.2"

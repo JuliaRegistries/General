@@ -55,10 +55,18 @@ Symbolics = "6.43.0 - 6"
 ModelingToolkitBase = "1.6.2 - 1"
 Symbolics = "7"
 
-["2.5.2 - 2"]
+["2.5.2 - 2.7"]
 ModelingToolkitBase = "1.31.0 - 1"
 Symbolics = "7.8.0 - 7"
 
+["2.7"]
+SymbolicUtils = "4"
+
 ["2.7 - 2"]
 SciMLPublic = "1"
-SymbolicUtils = "4"
+
+["2.8 - 2"]
+ModelingToolkitBase = "1.66.0 - 1"
+PrecompileTools = "1.2.1 - 1"
+SymbolicUtils = "4.37.0 - 4"
+Symbolics = "7.32.1 - 7"

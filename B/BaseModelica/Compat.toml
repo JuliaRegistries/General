@@ -14,6 +14,11 @@ ParserCombinator = "2"
 ["1.1 - 1.2"]
 ModelingToolkit = "9"
 
+["1.10 - 1"]
+PrecompileTools = "1.2.1 - 1"
+SciMLBase = "3"
+SymbolicUtils = "4"
+
 ["1.2 - 1"]
 MLStyle = "0.4.17 - 0.4"
 julia = "1.10.0 - 1"
@@ -41,8 +46,10 @@ ModelingToolkitBase = "1.34.0 - 1"
 Symbolics = "5 - 7"
 
 ["1.9.2 - 1"]
-SciMLBase = "2 - 3"
 SymbolicIndexingInterface = "0.3"
+
+["1.9.2 - 1.9"]
+SciMLBase = "2 - 3"
 SymbolicUtils = "3 - 4"
 
 ["1.9.3 - 1"]

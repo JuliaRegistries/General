@@ -17,8 +17,10 @@ StaticArrays = "1.9.14 - 1"
 
 [2]
 DiffEqBase = "7"
-OrdinaryDiffEqCore = "4"
 StochasticDiffEqCore = "2"
+
+["2 - 2.0.4"]
+OrdinaryDiffEqCore = "4"
 
 ["2.0.0"]
 DiffEqNoiseProcess = "5.13.0 - 5"
@@ -42,3 +44,6 @@ StaticArrays = "1.9.18 - 1"
 
 ["2.0.3 - 2"]
 SciMLBase = "3.39.0 - 3"
+
+["2.0.5 - 2"]
+OrdinaryDiffEqCore = "4.15.1 - 4"

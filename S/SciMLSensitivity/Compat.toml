@@ -133,7 +133,6 @@ DiffEqCallbacks = "4.18.0 - 4"
 ADTypes = "1.22.0 - 1"
 Accessors = "0.1.44 - 0.1"
 Adapt = "4.6.1 - 4"
-ArrayInterface = "7.25.0 - 7"
 ChainRulesCore = "1.26.1 - 1"
 ConstructionBase = "1.6.0 - 1"
 DiffEqNoiseProcess = "5.32.0 - 5"
@@ -145,7 +144,6 @@ Functors = "0.5.2 - 0.5"
 GPUArraysCore = "0.2"
 IntervalSets = "0.7.14 - 0.7"
 NonlinearSolveBase = "2.31.0 - 2"
-OrdinaryDiffEqCore = "4.3.0 - 5"
 PreallocationTools = "1.2.0 - 1"
 QuadGK = "2.11.3 - 2"
 RandomNumbers = "1.6.0 - 1"
@@ -153,7 +151,6 @@ RecursiveArrayTools = "4.3.1 - 4"
 Reexport = "1.2.2 - 1"
 ReverseDiff = "1.17.0 - 1"
 SciMLJacobianOperators = "0.1.13 - 0.1"
-SciMLLogging = "2"
 SciMLStructures = "1.10.0 - 1"
 StaticArrays = "1.9.18 - 1"
 StaticArraysCore = "1.4.4 - 1"
@@ -170,20 +167,42 @@ LinearSolve = "3.86.0 - 3"
 Distributions = "0.25.127 - 0.25"
 SciMLBase = "3.21.0 - 3.39"
 
+["7.112.2 - 7.118.0"]
+ArrayInterface = "7.25.0 - 7"
+OrdinaryDiffEqCore = "4.3.0 - 5"
+
+["7.112.2 - 7.119.0"]
+SciMLLogging = "2"
+
 ["7.114 - 7"]
 Enzyme = "0.13.174 - 0.13"
-FunctionProperties = ["0.1.4 - 0.1", "1.1.0 - 1"]
 
 ["7.114 - 7.116.0"]
 LinearSolve = ["3.86.0 - 3", "4.2.0 - 4"]
 
-["7.116.1 - 7"]
+["7.114 - 7.118.0"]
+FunctionProperties = ["0.1.4 - 0.1", "1.1.0 - 1"]
+
+["7.116.1 - 7.118.0"]
 LinearSolve = ["3.86.0 - 3", "4.2.0 - 5"]
 
 ["7.117 - 7"]
 Distributions = "0.25.126 - 0.25"
-SciMLBase = "3.40.0 - 3"
 SciMLOperators = "1"
+
+["7.117 - 7.119.0"]
+SciMLBase = "3.40.0 - 3"
+
+["7.118.1 - 7"]
+ArrayInterface = "7.29.0 - 7"
+FunctionProperties = "1.1.0 - 1"
+LinearSolve = "5.4.0 - 5"
+OrdinaryDiffEqCore = "4.3.0 - 4"
+PrecompileTools = "1.2.0 - 1"
+
+["7.119.1 - 7"]
+SciMLBase = "3.47.0 - 3"
+SciMLLogging = "2.1.0 - 2"
 
 ["7.14 - 7.28"]
 Enzyme = "0.10.14-0.10"

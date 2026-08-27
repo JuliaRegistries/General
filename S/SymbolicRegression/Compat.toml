@@ -42,7 +42,7 @@ SymbolicUtils = ["0.19", "1.0.5-1"]
 ["0.17"]
 DynamicExpressions = "0.6"
 
-["0.17.1 - 1"]
+["0.17.1 - 2"]
 PrecompileTools = "1"
 
 ["0.18"]
@@ -127,7 +127,7 @@ TOML = "1"
 ["0.24.1 - 0.24.4"]
 MLJModelInterface = "1.5-1.9"
 
-["0.24.1 - 1"]
+["0.24.1 - 2"]
 Dates = "1"
 
 ["0.24.5 - 0"]
@@ -147,13 +147,13 @@ julia = "1.5.0-1"
 ["0.5 - 0.8.5"]
 FromFile = "0.1"
 
-["0.5 - 1"]
+["0.5 - 2"]
 Reexport = "1"
 
 ["0.5.13 - 0.22.2"]
 Optim = ["0.19", "1.1.0-1"]
 
-["0.5.13 - 1"]
+["0.5.13 - 2"]
 LineSearches = "7"
 
 ["0.6 - 0.9.2"]
@@ -186,16 +186,6 @@ SymbolicUtils = "0.19"
 ["0.9.3 - 0.17"]
 LossFunctions = "0.6-0.8"
 
-[1]
-Distributed = ["0.0.0", "1"]
-DynamicQuantities = "1"
-Logging = "1"
-Pkg = ["0.0.0", "1"]
-Printf = ["0.0.0", "1"]
-Random = ["0.0.0", "1"]
-StyledStrings = "1"
-TOML = ["0.0.0", "1"]
-
 ["1 - 1.11"]
 ADTypes = "1.4.0-1"
 Compat = "4.16.0-4"
@@ -211,6 +201,16 @@ DifferentiationInterface = "0.5-0.6"
 
 ["1 - 1.9.0"]
 ProgressMeter = "1.10.0-1"
+
+["1 - 2"]
+Distributed = ["0.0.0", "1"]
+DynamicQuantities = "1"
+Logging = "1"
+Pkg = ["0.0.0", "1"]
+Printf = ["0.0.0", "1"]
+Random = ["0.0.0", "1"]
+StyledStrings = "1"
+TOML = ["0.0.0", "1"]
 
 ["1.0"]
 LossFunctions = "0.10-0.11"
@@ -238,6 +238,13 @@ DifferentiationInterface = "0.6.39-0.7"
 Optim = "1.8-1.13"
 
 ["1.12 - 1"]
+ProgressMeter = "1.10.0 - 1.10.2"
+
+["1.12 - 1.13.1"]
+DynamicExpressions = "1.10.1 - 1.10"
+Optim = "1.8 - 1.13"
+
+["1.12 - 2"]
 ADTypes = "1.4.0 - 1"
 Compat = "4.16.0 - 4"
 ConstructionBase = ["1.0.0 - 1.5.6", "1.5.8 - 1"]
@@ -245,14 +252,9 @@ DifferentiationInterface = "0.6.39 - 0.7"
 DispatchDoctor = "0.4.17 - 0.4"
 LossFunctions = ["0.10 - 0.11", "1"]
 MacroTools = "0.4 - 0.5"
-ProgressMeter = "1.10.0 - 1.10.2"
 SpecialFunctions = ["0.10.1 - 0.10", "1 - 2"]
 StatsBase = "0.33 - 0.34"
 julia = "1.10.0 - 1"
-
-["1.12 - 1.13.1"]
-DynamicExpressions = "1.10.1 - 1.10"
-Optim = "1.8 - 1.13"
 
 ["1.12.0"]
 MLJModelInterface = "1.5 - 1.11"
@@ -296,3 +298,15 @@ ProgressMeter = "1.10.0-1.10.2"
 
 ["1.9.2 - 1.11.2"]
 Optim = "1.8-1.12"
+
+[2]
+DynamicDiff = "0.3"
+DynamicExpressions = "2.10"
+InverseFunctions = "0.1.17 - 0.1"
+LinearAlgebra = "1"
+MLJModelInterface = "1.5 - 1.12"
+NLSolversBase = "7 - 8"
+Optim = ["1.8 - 1.13", "2.2"]
+Preferences = "1"
+ProgressMeter = ["1.10.0 - 1.10.2", "1.10.4", "1.11.0"]
+Statistics = ["0.0.0", "1"]

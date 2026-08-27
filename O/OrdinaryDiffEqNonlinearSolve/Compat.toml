@@ -261,6 +261,8 @@ SciMLOperators = "1.24.4 - 1"
 ArrayInterface = "7.28.0 - 7"
 DiffEqBase = "7.10.0 - 7"
 LinearSolve = "5.2.0 - 5"
+
+["2.6 - 2.8"]
 OrdinaryDiffEqCore = "4.12.0 - 4"
 OrdinaryDiffEqDifferentiation = "3.6.0 - 3"
 
@@ -279,8 +281,15 @@ SciMLPublic = "1"
 ["2.7 - 2"]
 CommonSolve = "0.2.6 - 0.2"
 
+["2.8"]
+NonlinearSolveBase = "2.41.0 - 2"
+
 ["2.8 - 2"]
 NonlinearSolve = "4.25.0 - 4"
-NonlinearSolveBase = "2.41.0 - 2"
 SciMLBase = "3.43.0 - 3"
 SciMLPublic = "1.1.0 - 1"
+
+["2.9 - 2"]
+NonlinearSolveBase = "2.45.0 - 2"
+OrdinaryDiffEqCore = "4.13.0 - 4"
+OrdinaryDiffEqDifferentiation = "3.9.0 - 3"

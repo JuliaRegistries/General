@@ -506,19 +506,21 @@ OrdinaryDiffEqCore = "3.19.0 - 3"
 
 [7]
 DiffEqBase = "7"
-OrdinaryDiffEqCore = "4"
 OrdinaryDiffEqNonlinearSolve = "2"
 StochasticDiffEqCore = "2"
 StochasticDiffEqHighOrder = "2"
 StochasticDiffEqIIF = "2"
 StochasticDiffEqImplicit = "2"
 StochasticDiffEqLeaping = "2"
-StochasticDiffEqLevyArea = "2"
-StochasticDiffEqLowOrder = "2"
 StochasticDiffEqMilstein = "2"
 StochasticDiffEqROCK = "2"
 StochasticDiffEqRODE = "2"
 StochasticDiffEqWeak = "2"
+
+["7 - 7.1.4"]
+OrdinaryDiffEqCore = "4"
+StochasticDiffEqLevyArea = "2"
+StochasticDiffEqLowOrder = "2"
 
 ["7.0"]
 ADTypes = "1.21.0 - 1"
@@ -539,3 +541,8 @@ SciMLBase = "3.35.1 - 3.39"
 
 ["7.1.3 - 7"]
 SciMLBase = "3.39.0 - 3"
+
+["7.1.5 - 7"]
+OrdinaryDiffEqCore = "4.15.1 - 4"
+StochasticDiffEqLevyArea = "2.1.1 - 2"
+StochasticDiffEqLowOrder = "2.0.5 - 2"

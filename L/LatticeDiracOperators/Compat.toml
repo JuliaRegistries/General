@@ -62,6 +62,8 @@ Gaugefields = "0.5 - 0.6"
 ["0.4.15 - 1"]
 JLD2 = "0.4 - 0.5"
 SparseArrays = "1 - 2"
+
+["0.4.15 - 1.1.0"]
 Wilsonloop = "0.1.5 - 0.1"
 
 ["0.5 - 0.5.10"]
@@ -89,11 +91,11 @@ LatticeMatrices = "0.1.11 - 0.1"
 ["0.5.7"]
 LatticeMatrices = "0.1.12 - 0.1"
 
+["0.5.7 - 0"]
+MPI = "0.20"
+
 ["0.5.7 - 0.5.10"]
 Gaugefields = "0.6.11 - 0.6"
-
-["0.5.7 - 1"]
-MPI = "0.20"
 
 ["0.5.8"]
 LatticeMatrices = "0.1.15 - 0.1"
@@ -116,6 +118,19 @@ PreallocatedArrays = ["0.0.1", "0.1"]
 LatticeMatrices = ["0.3.9 - 0.3", "1"]
 Optimisers = "0.4"
 
-[1]
-Gaugefields = "1"
+["1.0"]
 LatticeMatrices = "1.1.2 - 1"
+MPI = "0.20"
+
+["1.0.0"]
+Gaugefields = "1"
+
+["1.0.1 - 1.0"]
+Gaugefields = "1.0.5 - 1"
+
+["1.1 - 1"]
+Gaugefields = "1.1.0 - 1"
+LatticeMatrices = "1.2.0 - 1"
+
+["1.1.1 - 1"]
+Wilsonloop = ["0.1.5 - 0.1", "1"]

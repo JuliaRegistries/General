@@ -2,15 +2,39 @@
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-[0-1]
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+["0 - 1"]
 SpinGlassEngine = "0563570f-ea1b-4080-8a64-041ac6565a4e"
 SpinGlassNetworks = "b7f6bd3e-55dc-4da6-96a9-ef9dbec6ac19"
 SpinGlassTensors = "7584fc6a-5a23-4eeb-8277-827aab0146ea"
 
+["0 - 2"]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
 [1]
 SpinGlassExhaustive = "a894d7c4-7f54-4100-9d77-d00d924adeb3"
 
-["1.5-1"]
+["1.5 - 1"]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 DocumenterTools = "35a29f4d-8980-5a13-9543-d66fff28ecb8"
+
+[2]
+Bits = "1654ce90-6ed3-553a-957f-9452c3a40996"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+LabelledGraphs = "605abd48-4d17-4660-b914-d4df33194460"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LowRankApprox = "898213cb-b102-5a47-900c-97e73b919f73"
+MKL = "33e6dc65-8f57-5167-99aa-e5a354878fb2"
+MetaGraphs = "626554b9-1ddb-594c-aa3c-2596fe9399a5"
+NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+TSVD = "9449cd9e-2762-5aa3-a617-5413e99d722e"
+TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
+cuTENSOR = "011b41b2-24ef-40a8-b3eb-fa098493e9e1"

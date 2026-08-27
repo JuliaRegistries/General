@@ -93,11 +93,11 @@ DiffEqCallbacks = "4.5.0 - 4"
 ["2.11.1 - 2.12"]
 Reexport = "1.2.2 - 1"
 
-["2.12 - 2"]
-ForwardDiff = ["0.10", "1"]
-
 ["2.12 - 2.13"]
 LinearSolve = "2 - 5"
+
+["2.12 - 2.15"]
+ForwardDiff = ["0.10", "1"]
 
 ["2.13 - 2"]
 LinearAlgebra = "1.10.0 - 1"
@@ -105,8 +105,17 @@ NonlinearSolveBase = "2.40.0 - 2"
 
 ["2.14 - 2"]
 LinearSolve = "5.1.0 - 5"
-SciMLBase = "3"
 SciMLPublic = "1"
+
+["2.14 - 2.15"]
+SciMLBase = "3"
+
+["2.15 - 2"]
+PrecompileTools = "1.2.1 - 1"
+
+["2.16 - 2"]
+ForwardDiff = "1"
+SciMLBase = "3.6.0 - 3"
 
 ["2.4.1 - 2.5"]
 DiffEqCallbacks = "3-4"

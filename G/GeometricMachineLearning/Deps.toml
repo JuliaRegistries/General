@@ -1,6 +1,5 @@
 [0]
 AbstractNeuralNetworks = "60874f82-5ada-4c70-bd1c-fa6be7711c8a"
-ChainRules = "082447d4-558c-5d27-93f4-14fc19e9eca2"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
@@ -36,6 +35,9 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 ["0 - 0.4.7"]
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 
+["0 - 0.5"]
+ChainRules = "082447d4-558c-5d27-93f4-14fc19e9eca2"
+
 ["0.2 - 0.3.0"]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 
@@ -46,11 +48,11 @@ SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
 ["0.3 - 0"]
 GeometricSolutions = "7843afe4-64f4-4df4-9231-049495c56661"
 
-["0.3.1 - 0"]
-LazyArrays = "5078a376-72f3-5289-bfd5-ec5146d43c02"
-
 ["0.3.1 - 0.4.6"]
 UpdateJulia = "770da0de-323d-4d28-9202-0e205c1e0aff"
+
+["0.3.1 - 0.5"]
+LazyArrays = "5078a376-72f3-5289-bfd5-ec5146d43c02"
 
 ["0.4.2 - 0"]
 SymbolicNeuralNetworks = "aed23131-dcd0-47ca-8090-d21e605652e3"
@@ -61,3 +63,6 @@ ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 
 ["0.5 - 0"]
 GeometricOptimizers = "fc236c15-5557-4942-aa65-b650f329279e"
+
+["0.6 - 0"]
+NeuralNetworkParameters = "67f4d93a-60e9-472b-8cdd-1ccf6005724a"
