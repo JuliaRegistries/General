@@ -81,15 +81,25 @@ Logging = "1.10.0 - 1"
 Random = "1.10.0 - 1"
 
 ["0.2.5 - 0"]
-AbstractDifferentiation = "0.6.2 - 0.6"
 CommonSolve = "0.2.6 - 0.2"
 ComponentArrays = "0.15.40 - 0.15"
 ForwardDiff = ["0.10.39 - 0.10", "1"]
-IntervalArithmetic = ["0.22.10 - 0.23", "1"]
 Optim = "2"
 
+["0.2.5 - 0.2"]
+AbstractDifferentiation = "0.6.2 - 0.6"
+IntervalArithmetic = ["0.22.10 - 0.23", "1"]
+
 ["0.2.7 - 0"]
-ModelingToolkitBase = "1.30.0 - 1"
 SciMLPublic = "1"
 StatsAPI = "1"
+
+["0.2.7 - 0.2"]
+ModelingToolkitBase = "1.30.0 - 1"
 Symbolics = "7.18.1 - 7"
+
+["0.3 - 0"]
+DifferentiationInterface = "0.6 - 0.7"
+IntervalArithmetic = "1.0.11 - 1"
+ModelingToolkitBase = "1.50.0 - 1"
+Symbolics = "7.37.0 - 7"
