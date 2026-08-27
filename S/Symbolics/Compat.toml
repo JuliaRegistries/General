@@ -200,11 +200,13 @@ julia = "1.10.0-1"
 ["5.15 - 7"]
 DocStringExtensions = "0.9"
 NaNMath = "1"
-Reexport = "1"
 Setfield = "1"
 
 ["5.15 - 7.36"]
 ArrayInterface = "7"
+
+["5.15 - 7.37"]
+Reexport = "1"
 
 ["5.16"]
 Groebner = "0.5-0.6"
@@ -425,6 +427,12 @@ PrecompileTools = "1.2.1 - 1"
 SciMLPublic = "1.2.0 - 1"
 StaticArraysCore = "1.4.3 - 1"
 SymbolicLimits = "1.1.0 - 1"
+
+["7.38 - 7"]
+Libdl = "1"
+LinearAlgebra = "1"
+Markdown = "1"
+SparseArrays = "1"
 
 ["7.6 - 7.36"]
 SymbolicLimits = ["0.2.2 - 0.2", "1.1.0 - 1"]
