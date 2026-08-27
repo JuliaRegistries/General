@@ -38,25 +38,27 @@ SciMLBase = ["2.77.0 - 2", "3.1.0 - 3"]
 OrdinaryDiffEqCore = ["1.19.0 - 2", "3.1.0 - 3"]
 OrdinaryDiffEqLowOrderRK = "1.7.0 - 1"
 
-["0.3.1 - 0"]
-OrdinaryDiffEqLowOrderRK = "1.7.0 - 2"
-RecursiveArrayTools = "3.39.0 - 4"
-
 ["0.3.1 - 0.3"]
 DiffEqBase = "6.165.1 - 7"
 
 ["0.3.1 - 0.3.2"]
 OrdinaryDiffEqCore = ["1.19.0 - 2", "3.1.0 - 4"]
 
+["0.3.1 - 0.4.1"]
+OrdinaryDiffEqLowOrderRK = "1.7.0 - 2"
+RecursiveArrayTools = "3.39.0 - 4"
+
 ["0.3.3 - 0"]
 BinaryHeaps = "1"
+
+["0.3.3 - 0.4.1"]
 OrdinaryDiffEqCore = "4.4.0 - 4"
 
 ["0.3.4 - 0"]
 PrecompileTools = "1.1.0 - 1"
 SymbolicIndexingInterface = "0.3.36 - 0.3"
 
-["0.3.6 - 0"]
+["0.3.6 - 0.4.1"]
 TimerOutputs = ["0.5.28 - 0.5", "1"]
 
 ["0.4 - 0"]
@@ -65,3 +67,9 @@ DiffEqBase = "7.5.0 - 7"
 ["0.4.1 - 0"]
 SciMLBase = "3.36.0 - 3"
 SciMLLogging = "2"
+
+["0.4.2 - 0"]
+OrdinaryDiffEqCore = "4.14.3 - 4"
+OrdinaryDiffEqLowOrderRK = "2"
+RecursiveArrayTools = "4"
+TimerOutputs = "1"
