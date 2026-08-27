@@ -7,7 +7,6 @@ DifferentiationInterface = "0.6.47 - 0.7"
 EnumX = "1.0.4 - 1"
 ExprTools = "0.1.10 - 0.1"
 FillArrays = "1.13.0 - 1"
-ForwardDiff = ["0.10.3 - 0.10", "1"]
 Graphs = "1.5.2 - 1"
 InteractiveUtils = "1"
 Libdl = "1"
@@ -86,6 +85,9 @@ Symbolics = "7.1.1 - 7"
 ADTypes = "1.14.0 - 1"
 AbstractTrees = "0.3 - 0.4"
 SciMLStructures = "1.7.0 - 1"
+
+["1 - 1.68.0"]
+ForwardDiff = ["0.10.3 - 0.10", "1"]
 
 ["1 - 1.7"]
 PreallocationTools = "0.4.27 - 0.4"
@@ -235,7 +237,7 @@ UnPack = "1"
 ["1.55 - 1"]
 DiffRules = "1"
 
-["1.57 - 1"]
+["1.57 - 1.68.0"]
 OrderedCollections = "1 - 2"
 
 ["1.57.1 - 1.58.1"]
@@ -273,6 +275,10 @@ SciMLBase = "3.48.0 - 3"
 SciMLStructures = "1.10.2 - 1"
 StaticArraysCore = "1.4.0 - 1"
 TermInterface = "2"
+
+["1.68.1 - 1"]
+ForwardDiff = "1"
+OrderedCollections = "2"
 
 ["1.8 - 1.65"]
 PreallocationTools = ["0.4.27 - 0.4", "1"]
