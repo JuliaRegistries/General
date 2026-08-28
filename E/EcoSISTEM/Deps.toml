@@ -1,6 +1,5 @@
 [0]
 ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
-AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 Calculus = "49dc2e85-a5d0-5ad3-a950-438e2897f1b9"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -9,7 +8,6 @@ Diversity = "d3d5718d-52de-57ab-b67a-eca7fd6175a4"
 EcoBase = "a58aae7d-b440-5a11-b283-399458f99aac"
 Feather = "becb17da-46f6-5d3c-ad1b-1c5fe96bc73c"
 HCubature = "19dc6840-f33b-545b-b366-655c7e3ffd49"
-IndexedTables = "6deec6e2-d858-57c5-ab9b-e6ca5bd20e43"
 LibGit2 = "76f85450-5226-5b5a-8eaa-529ad045b433"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
@@ -17,10 +15,8 @@ Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
 Measures = "442fdcdd-2543-5da2-b0f3-8c86c306513e"
 Missings = "e1d29d7a-bbdc-5cf2-9ac0-f12de2c33e28"
-NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
 OnlineStats = "a15396b6-48d5-5d58-9928-6d29437db91e"
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
-Phylo = "aea672f4-3940-5932-aa44-993d1c3ff149"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
@@ -50,17 +46,23 @@ RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 ["0 - 0.2"]
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 
+["0 - 0.4"]
+AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
+IndexedTables = "6deec6e2-d858-57c5-ab9b-e6ca5bd20e43"
+NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
+Phylo = "aea672f4-3940-5932-aa44-993d1c3ff149"
+
 ["0.1.3"]
 SimpleSDMLayers = "2c645270-77db-11e9-22c3-0f302a89c64c"
 
 ["0.1.3 - 0"]
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 
-["0.1.4 - 0"]
-RasterDataSources = "3cb90ccd-e1b6-4867-9617-4276c8b2ca36"
-
 ["0.1.4 - 0.1"]
 Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
+
+["0.1.4 - 0.4"]
+RasterDataSources = "3cb90ccd-e1b6-4867-9617-4276c8b2ca36"
 
 ["0.2 - 0"]
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
@@ -73,3 +75,18 @@ p7zip_jll = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 
 ["0.4 - 0"]
 Hwloc = "0e44f5e4-bd66-52a0-8798-143a42290a1d"
+
+["0.5 - 0"]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DimensionalData = "0703355e-b756-11e9-17c0-8b28908087d0"
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+Extents = "411431e0-e8b7-467b-b5e0-f676ba4f2910"
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
+NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
+Proj = "c94c279d-25a6-4763-9509-64d165bea63e"
+Rasters = "a3a2b9e3-a471-40c9-b274-f788e487c689"
+Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+SimpleTraits = "699a6c99-e7fa-54fc-8d76-47d257e15c1d"
