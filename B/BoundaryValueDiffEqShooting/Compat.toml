@@ -109,6 +109,8 @@ PreallocationTools = "1.2.0 - 1"
 
 ["1.17.2 - 1"]
 SciMLBase = "3.30.0 - 3"
+
+["1.17.2 - 1.18.0"]
 SciMLLogging = "1.10.1 - 2"
 
 ["1.17.4 - 1.17"]
@@ -117,6 +119,10 @@ BoundaryValueDiffEqCore = "2.7.3 - 2"
 ["1.18 - 1"]
 BoundaryValueDiffEqCore = "2.8.1 - 2"
 OrdinaryDiffEqTsit5 = "2"
+
+["1.18.1 - 1"]
+ForwardDiff = "1"
+SciMLLogging = "2"
 
 ["1.4 - 1.6.0"]
 SciMLBase = "2.71.0-2"
@@ -152,7 +158,6 @@ ADTypes = "1.14.0 - 1"
 ArrayInterface = "7.18.0 - 7"
 ConcreteStructs = "0.2.3 - 0.2"
 FastClosures = "0.3.2 - 0.3"
-ForwardDiff = ["0.10.38 - 0.10", "1"]
 LinearAlgebra = "1.10.0 - 1"
 PrecompileTools = "1.2.0 - 1"
 Setfield = "1.1.1 - 1"
@@ -170,3 +175,6 @@ RecursiveArrayTools = "3.27.0 - 3"
 
 ["1.9 - 1.17.3"]
 Reexport = "1.2.0 - 1"
+
+["1.9 - 1.18.0"]
+ForwardDiff = ["0.10.38 - 0.10", "1"]
