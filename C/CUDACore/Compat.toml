@@ -53,6 +53,11 @@ NVPTX_LLVM_Backend_jll = "22"
 GPUToolbox = "3"
 
 ["6.3 - 6"]
-CUDA_Compiler_jll = "0.5"
 CUDA_Runtime_jll = "0.24"
 GPUCompiler = "2.1.0 - 2"
+
+["6.3.0"]
+CUDA_Compiler_jll = "0.5"
+
+["6.3.1 - 6"]
+CUDA_Compiler_jll = "0.6"
