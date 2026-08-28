@@ -40,8 +40,16 @@ CUPTI = "6.2.2"
 NVML = "6.2.2"
 
 ["6.3 - 6"]
+GPUCompiler = "2"
+
+["6.3.0"]
 CUDACore = "6.3.0"
 CUDA_Compiler_jll = "0.5"
 CUPTI = "6.3.0"
-GPUCompiler = "2"
 NVML = "6.3.0"
+
+["6.3.1 - 6"]
+CUDACore = "6.3.1"
+CUDA_Compiler_jll = "0.6"
+CUPTI = "6.3.1"
+NVML = "6.3.1"
