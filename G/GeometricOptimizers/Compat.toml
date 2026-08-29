@@ -29,13 +29,19 @@ julia = "1.10.0 - 1"
 LinearAlgebra = "1"
 Random = "1"
 
-["0.4.3 - 0"]
+["0.4.3 - 0.6"]
 SimpleSolvers = "0.12 - 0.13"
 
 ["0.5"]
 NeuralNetworkParameters = "0.2"
 
+["0.6"]
+NeuralNetworkParameters = "0.2.4 - 0.2"
+
 ["0.6 - 0"]
 GeometricBase = "0.14.9 - 0.14"
-NeuralNetworkParameters = "0.2.4 - 0.2"
 julia = "1.11.0 - 1"
+
+["0.7 - 0"]
+NeuralNetworkParameters = "0.3"
+SimpleSolvers = "0.13.2 - 0.13"
