@@ -1,5 +1,4 @@
 [0]
-ArraysOfArrays = "0.6"
 Lazy = "0.15"
 StaticArrays = "1"
 
@@ -13,6 +12,9 @@ DocStringExtensions = "0.9"
 Distributions = "0.25"
 Setfield = ["0.8", "1"]
 julia = "1.8.0-1"
+
+["0 - 0.7.3"]
+ArraysOfArrays = "0.6"
 
 ["0.2 - 0.3.0"]
 PsychometricsBazaarBase = "0.3"
@@ -71,6 +73,10 @@ ConstructionBase = "1.5.8-1"
 FillArrays = "1.13.0-1"
 PsychometricsBazaarBase = "0.8.3-0.8"
 
+["0.7.3"]
+PsychometricsBazaarBase = "0.8.6 - 0.8"
+julia = "1.11.0 - 1"
+
 ["0.7.3 - 0"]
 BSplines = "0.3.3 - 0.3"
 ConstructionBase = "1.5.8 - 1"
@@ -79,7 +85,11 @@ FillArrays = "1.13.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
 LogExpFunctions = "0.3.28 - 0.3"
 PrecompileTools = "1.2.1 - 1"
-PsychometricsBazaarBase = "0.8.6 - 0.8"
 Random = "1.10.0 - 1"
 SpelledOut = "1.2.4 - 1"
-julia = "1.11.0 - 1"
+
+["0.7.4 - 0"]
+ArraysOfArrays = ["0.6", "1"]
+IntervalSets = "0.7.14 - 0.7"
+PsychometricsBazaarBase = "0.8.9 - 0.8"
+julia = "1.12.0 - 1"
