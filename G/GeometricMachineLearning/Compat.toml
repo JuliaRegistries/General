@@ -156,8 +156,10 @@ TimerOutputs = ["0.5", "1"]
 ["0.5 - 0.6.0"]
 julia = "1.10.0 - 1"
 
-["0.6 - 0"]
+["0.6"]
 AbstractNeuralNetworks = "0.7"
+
+["0.6 - 0"]
 ForwardDiff = "1"
 Zygote = "0.7"
 
@@ -167,7 +169,15 @@ NeuralNetworkParameters = "0.1"
 SymbolicNeuralNetworks = "0.6"
 
 ["0.6.1 - 0"]
+julia = "1.11.0 - 1"
+
+["0.6.1 - 0.6"]
 GeometricOptimizers = "0.6"
 NeuralNetworkParameters = "0.2.2 - 0.2"
 SymbolicNeuralNetworks = "0.7"
-julia = "1.11.0 - 1"
+
+["0.7 - 0"]
+AbstractNeuralNetworks = "0.8"
+GeometricOptimizers = "0.7"
+NeuralNetworkParameters = "0.3"
+SymbolicNeuralNetworks = "0.8"
