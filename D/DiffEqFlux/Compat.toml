@@ -320,25 +320,25 @@ Lux = "1"
 ["4 - 4.7"]
 LuxCore = "1"
 
-["4.10 - 4"]
+["4.10 - 5"]
 ADTypes = "1.22.0 - 1"
-
-["4.4 - 4"]
-LinearAlgebra = "1.10.0 - 1"
-Random = "1.10.0 - 1"
-Static = "1.1.1 - 1"
-julia = "1.10.0 - 1"
 
 ["4.4 - 4.7"]
 ADTypes = "1.5.0 - 1"
 LuxLib = "1.2.0 - 1"
 Setfield = "1.1.1 - 1"
 
-["4.5 - 4"]
-Boltz = "1.7.0 - 1"
+["4.4 - 5"]
+LinearAlgebra = "1.10.0 - 1"
+Random = "1.10.0 - 1"
+Static = "1.1.1 - 1"
+julia = "1.10.0 - 1"
 
 ["4.5 - 4.7"]
 Lux = "1.22.0 - 1"
+
+["4.5 - 5"]
+Boltz = "1.7.0 - 1"
 
 ["4.6 - 4.7"]
 PrecompileTools = "1"
@@ -351,21 +351,26 @@ SciMLSensitivity = "7.102.0 - 7"
 Reexport = "1.2.2 - 1"
 
 ["4.8 - 4"]
+SciMLBase = "3.18.0 - 3"
+
+["4.8 - 4.9"]
+ADTypes = "1.21.0 - 1"
+
+["4.8 - 5"]
 ChainRulesCore = "1.25.1 - 1"
 ConcreteStructs = "0.2.3 - 0.2"
 Lux = "1.29.0 - 1"
 LuxCore = "1.5.2 - 1"
 LuxLib = "1.12.1 - 1"
 PrecompileTools = "1.2.1 - 1"
-SciMLBase = "3.18.0 - 3"
 SciMLSensitivity = "7.112.0 - 7"
 Setfield = "1.1.2 - 1"
-
-["4.8 - 4.9"]
-ADTypes = "1.21.0 - 1"
 
 ["4.8.0"]
 Distributions = "0.25.88 - 0.25"
 
-["4.8.1 - 4"]
+["4.8.1 - 5"]
 Distributions = "0.25.88 - 0.25.126"
+
+[5]
+SciMLBase = "3.47.0 - 3"
