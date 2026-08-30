@@ -60,7 +60,6 @@ SciMLBase = "2.69.0 - 2"
 ArrayInterface = "7.16.0 - 7"
 CommonSolve = "0.2.4 - 0.2"
 ConcreteStructs = "0.2.3 - 0.2"
-ForwardDiff = ["0.10.36 - 0.10", "1"]
 LineSearch = "0.1.4 - 0.1"
 LinearAlgebra = "1.10.0 - 1"
 MaybeInplace = "0.1.4 - 0.1"
@@ -77,6 +76,9 @@ Setfield = "1.1.1 - 1"
 
 ["1.6 - 2.2.3"]
 FiniteDiff = "2.24.0 - 2"
+
+["1.6 - 2.4"]
+ForwardDiff = ["0.10.36 - 0.10", "1"]
 
 ["1.7 - 2"]
 Reexport = "1.2.2 - 1"
@@ -152,3 +154,6 @@ SciMLLogging = "2"
 
 ["2.4.1 - 2"]
 SciMLJacobianOperators = "0.1.18 - 0.1"
+
+["2.5 - 2"]
+ForwardDiff = "1"
