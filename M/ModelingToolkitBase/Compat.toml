@@ -3,7 +3,6 @@ BlockArrays = "1.1.0 - 1"
 Combinatorics = "1"
 CommonSolve = "0.2.4 - 0.2"
 ConstructionBase = "1"
-DifferentiationInterface = "0.6.47 - 0.7"
 EnumX = "1.0.4 - 1"
 ExprTools = "0.1.10 - 0.1"
 FillArrays = "1.13.0 - 1"
@@ -88,6 +87,9 @@ SciMLStructures = "1.7.0 - 1"
 
 ["1 - 1.68.0"]
 ForwardDiff = ["0.10.3 - 0.10", "1"]
+
+["1 - 1.68.1"]
+DifferentiationInterface = "0.6.47 - 0.7"
 
 ["1 - 1.7"]
 PreallocationTools = "0.4.27 - 0.4"
@@ -223,7 +225,7 @@ Symbolics = "7.31.0 - 7"
 ["1.52 - 1.68.0"]
 SymbolicUtils = "4.35.3 - 4.45"
 
-["1.54.1 - 1"]
+["1.54.1 - 1.68.1"]
 Symbolics = "7.32.1 - 7"
 
 ["1.54.2 - 1"]
@@ -278,9 +280,17 @@ SciMLStructures = "1.10.2 - 1"
 StaticArraysCore = "1.4.0 - 1"
 TermInterface = "2"
 
+["1.68.1"]
+OrderedCollections = "2"
+
 ["1.68.1 - 1"]
 ForwardDiff = "1"
-OrderedCollections = "2"
+
+["1.68.2 - 1"]
+DifferentiationInterface = "0.7.19 - 0.7"
+OrderedCollections = "1.8.0 - 2"
+SymbolicUtils = "4.35.3 - 4"
+Symbolics = "7.37.0 - 7"
 
 ["1.8 - 1.65"]
 PreallocationTools = ["0.4.27 - 0.4", "1"]
