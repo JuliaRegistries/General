@@ -1,7 +1,7 @@
 [0]
 julia = ["0.7", "1"]
 
-["0-0.5.0"]
+["0 - 0.5.0"]
 Arrow = "0.1.1-0.2"
 DataValues = "0.4.1-0.4"
 FeatherLib = "0.1.0-0.2"
@@ -12,7 +12,7 @@ TableShowUtils = "0.1.0-0.2"
 TableTraits = "0.3-1"
 TableTraitsUtils = "0.2-1"
 
-["0.5.1-0"]
+["0.5.1 - 0"]
 Arrow = "0.2.1-0.2"
 DataValues = "0.4.4-0.4"
 FeatherLib = "0.1.1-0.2"
@@ -22,8 +22,19 @@ IteratorInterfaceExtensions = "0.1.1-1"
 TableShowUtils = "0.1.1-0.2"
 TableTraitsUtils = "0.2.1-1"
 
-["0.5.1-0.5"]
+["0.5.1 - 0.5"]
 TableTraits = "0.3.1-1"
 
-["0.6-0"]
+["0.6 - 0"]
 TableTraits = "0.4-1"
+
+[1]
+DataValues = ["0.4.4 - 0.5", "1"]
+FeatherLib = "1"
+FileIO = "1"
+IterableTables = ["0.8.3 - 0.11", "1"]
+IteratorInterfaceExtensions = ["0.1.1 - 0.1", "1"]
+TableShowUtils = ["0.1.1 - 0.3", "1"]
+TableTraits = ["0.4", "1"]
+TableTraitsUtils = ["0.2.1 - 0.4", "1"]
+julia = "1.10.0 - 1"
