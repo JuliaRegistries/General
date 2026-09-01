@@ -1,5 +1,7 @@
 [1]
 CEnum = "0.5"
+
+["1.0"]
 julia = "1.6.0-1"
 
 ["1.0.0"]
@@ -12,7 +14,7 @@ LibAwsMqtt = "1.0.0"
 LibAwsSdkutils = "1.0.0"
 aws_c_iot_jll = "0.1.21"
 
-["1.0.1-1"]
+["1.0.1 - 1"]
 LibAwsCal = "1"
 LibAwsCommon = "1"
 LibAwsCompression = "1"
@@ -20,4 +22,10 @@ LibAwsHTTP = "1"
 LibAwsIO = "1"
 LibAwsMqtt = "1"
 LibAwsSdkutils = "1"
+
+["1.0.1 - 1.0"]
 aws_c_iot_jll = "0.2.1"
+
+["1.1 - 1"]
+aws_c_iot_jll = "1.0.0"
+julia = "1.6.0 - 1"
