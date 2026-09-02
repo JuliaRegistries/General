@@ -1,11 +1,11 @@
-[0]
-julia = "1.6.0-1"
-
 ["0-0.15"]
 JLLWrappers = "1.4.0-1"
 
 ["0-0.15.1"]
 LazyArtifacts = "1"
+
+["0-0.24.2"]
+julia = "1.6.0-1"
 
 ["0.10-0.11"]
 CUDA_Driver_jll = "0.7"
@@ -57,8 +57,13 @@ CUDA_Driver_jll = "13.3.1"
 ["0.24-0.24.1"]
 CUDA_Compiler_jll = "0.5"
 
-["0.24.2-0"]
+["0.24.2"]
 CUDA_Compiler_jll = "0.6"
+
+["0.24.3-0"]
+CUDA_Compiler_jll = "0.6.1-0.6"
+CUDA_Driver_jll = "13.3.4-13"
+julia = "1.10.0-1"
 
 ["0.3"]
 CUDA_Driver_jll = "0.2-0.3"
