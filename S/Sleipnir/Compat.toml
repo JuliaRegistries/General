@@ -14,7 +14,6 @@ JLD2 = "0.4"
 
 ["0.10 - 0"]
 CSV = "0.10.15 - 0.10"
-julia = "1.10.0 - 1"
 
 ["0.10 - 0.10.3"]
 CoordRefSystems = "0.16 - 0.17"
@@ -34,6 +33,9 @@ NCDatasets = "0.14.6 - 0.14"
 ["0.10 - 0.12.4"]
 Infiltrator = "1.8.0 - 1"
 Rasters = "0.13 - 0.14"
+
+["0.10 - 0.16"]
+julia = "1.10.0 - 1"
 
 ["0.10.4 - 0.11"]
 CoordRefSystems = "0.16 - 0.18"
@@ -98,10 +100,8 @@ Zygote = "0.7.10 - 0.7"
 JET = "0.9 - 0.10"
 
 ["0.12.6 - 0"]
-BenchmarkTools = "1"
 CFTime = "0.2.1 - 0.2"
 CairoMakie = "0.15"
-CodecZlib = "0.7"
 ComponentArrays = "0.15"
 Contour = "0.6"
 CoordRefSystems = "0.16 - 0.19"
@@ -118,8 +118,6 @@ MLStyle = "0.4"
 NCDatasets = "0.14"
 NaNStatistics = "0.6"
 Observables = "0.5"
-Revise = "3"
-Tar = "1"
 Unitful = "1"
 Zygote = "0.7"
 
@@ -130,15 +128,21 @@ Rasters = "0.13 - 0.14"
 ["0.12.6 - 0.13.1"]
 DimensionalData = "0.29"
 
-["0.12.7 - 0"]
+["0.12.6 - 0.16"]
+BenchmarkTools = "1"
+CodecZlib = "0.7"
+Revise = "3"
+Tar = "1"
+
+["0.12.7 - 0.15"]
+JET = "0.9 - 0.11"
+
+["0.12.7 - 0.16"]
 Dates = "1.10.0 - 1"
 Distributed = "1.10.0 - 1"
 Pkg = "1.10.0 - 1"
 Printf = "1.10.0 - 1"
 Test = "1.10.0 - 1"
-
-["0.12.7 - 0.15"]
-JET = "0.9 - 0.11"
 
 ["0.13.2 - 0"]
 DimensionalData = "0.29 - 0.30"
@@ -149,9 +153,19 @@ Rasters = "0.13 - 0.15"
 ["0.14.1 - 0"]
 Rasters = "0.15"
 
-["0.16 - 0"]
+["0.16"]
 JET = "0.9 - 0.12"
+
+["0.16 - 0"]
 Missings = "1.2.0 - 1"
+
+["0.17 - 0"]
+DataFrames = "1.8.0 - 1"
+Dates = "1.11.0 - 1"
+Distributed = "1.11.0 - 1"
+Pkg = "1.11.0 - 1"
+Printf = "1.11.0 - 1"
+julia = "1.11.0 - 1"
 
 ["0.3.6 - 0"]
 Statistics = "1"
@@ -159,11 +173,11 @@ Statistics = "1"
 ["0.3.6 - 0.6"]
 CairoMakie = "0.11"
 
-["0.4 - 0"]
-Downloads = "1"
-
 ["0.4 - 0.12.4"]
 HDF5 = "0.17"
+
+["0.4 - 0.16"]
+Downloads = "1"
 
 ["0.7"]
 CairoMakie = "0.12.18-0.12"
