@@ -16,9 +16,6 @@ julia = "1.8.0-1"
 ["0.1.6 - 0.1.8"]
 DelimitedFiles = "1.8.0-1"
 
-["0.1.9 - 0"]
-PlotlyJS = "0.18"
-
 ["0.1.9 - 0.1"]
 SupplyChainModeling = "0.1.2-0.1"
 
@@ -26,6 +23,9 @@ SupplyChainModeling = "0.1.2-0.1"
 Dates = "1.8.0-1"
 HiGHS = "1.7.0-1"
 JuMP = "1.16.0-1"
+
+["0.1.9 - 0.4"]
+PlotlyJS = "0.18"
 
 ["0.2 - 0.3"]
 SupplyChainModeling = "0.2"
@@ -37,12 +37,14 @@ StatsBase = "0.34"
 DataFrames = "1.6.0-1"
 Plots = "1.40.0-1"
 
+["0.4"]
+Plots = "1.40.0 - 1"
+
 ["0.4 - 0"]
 DataFrames = "1.6.0 - 1"
 Dates = "1.10.0 - 1"
 HiGHS = "1.7.0 - 1"
 JuMP = "1.16.0 - 1"
-Plots = "1.40.0 - 1"
 Statistics = "1.10.0 - 1"
 SupplyChainModeling = "0.2 - 0.4"
 julia = "1.10.0 - 1"
