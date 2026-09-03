@@ -220,10 +220,8 @@ CubedSphere = "0.2 - 0.3"
 ForwardDiff = ["0.10.15 - 0.10", "1"]
 GaussQuadrature = "0.5.8 - 0.5"
 HDF5 = "0.16.16 - 0.17"
-IntervalSets = "0.5 - 0.7"
 KrylovKit = "0.6 - 0.8"
 MultiBroadcastFusion = "0.3.1 - 0.4"
-PkgVersion = "0.1 - 0.3"
 UnrolledUtilities = "0.1.9 - 0.1"
 julia = "1.10.0 - 1"
 
@@ -233,6 +231,10 @@ RootSolvers = "0.3 - 0.4"
 
 ["0.14.35 - 0.14.41"]
 StaticArrays = "1.6.0 - 1"
+
+["0.14.35 - 0.15"]
+IntervalSets = "0.5 - 0.7"
+PkgVersion = "0.1 - 0.3"
 
 ["0.14.35 - 0.15.1"]
 ClimaComms = "0.6.2 - 0.6"
@@ -267,6 +269,10 @@ KrylovKit = "0.6-0.7"
 ["0.15.2 - 0"]
 ClimaComms = "0.6.4 - 0.6"
 RootSolvers = ["0.3.4 - 0.4", "1"]
+
+["0.16 - 0"]
+IntervalSets = "0.7.2 - 0.7"
+PkgVersion = "0.1.1 - 0.3"
 
 ["0.4 - 0.10.47"]
 DiffEqBase = "6.75.0-6"
