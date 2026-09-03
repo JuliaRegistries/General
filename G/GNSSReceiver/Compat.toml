@@ -55,7 +55,6 @@ REPL = "1"
 GNSSSignals = "3"
 
 ["1 - 4"]
-Acquisition = "2"
 Dates = "1"
 JLD2 = "0.6"
 LinearAlgebra = "1"
@@ -63,10 +62,13 @@ PipeChannels = "1"
 SignalChannels = "7"
 julia = "1.12.0 - 1"
 
+["1 - 4.4"]
+Acquisition = "2"
+
 ["2 - 3"]
 PositionVelocityTime = "4.0.1 - 4"
 
-["2 - 4"]
+["2 - 4.4"]
 GNSSDecoder = "3.7.0 - 3"
 
 ["2.0"]
@@ -87,12 +89,14 @@ Tracking = "5.1.0 - 5"
 ["3.3 - 3"]
 Tracking = "6"
 
-["3.3.1 - 4"]
+["3.3.1 - 4.4"]
 GNSSSignals = "3.7.0 - 3"
 
 [4]
 Geodesy = "1.1.0 - 1"
 KalmanFilters = "0.1.6 - 0.1"
+
+["4 - 4.4"]
 PositionVelocityTime = "5.0.3 - 5"
 
 ["4.0"]
@@ -101,8 +105,15 @@ Tracking = "6"
 ["4.1"]
 Tracking = "7"
 
-["4.2 - 4"]
+["4.2 - 4.4"]
 Tracking = "8"
 
 ["4.4 - 4"]
 PrecompileTools = "1.2.0 - 1"
+
+["4.5 - 4"]
+Acquisition = "2.6.4 - 2"
+GNSSDecoder = "3.14.0 - 3"
+GNSSSignals = "4"
+PositionVelocityTime = "5.3.0 - 5"
+Tracking = "8.1.0 - 8"
