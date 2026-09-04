@@ -8,9 +8,11 @@ numav_julia_jll = "0.1.0"
 CxxWrap = "0.17.5 - 0.17"
 Test = "1.10.0 - 1"
 
+["0.2"]
+numav_julia_jll = "0.2.0"
+
 ["0.2 - 0"]
 Interpolations = "0.16"
-numav_julia_jll = "0.2.0"
 
 ["0.2 - 0.2.3"]
 DelimitedFiles = "1.9.0 - 1"
@@ -20,4 +22,13 @@ CxxWrap = "0.17"
 DelimitedFiles = "1"
 GLMakie = "0.13"
 HDF5 = "0.17"
+
+["0.2.4 - 0.2"]
 Statistics = "1"
+
+["0.3 - 0"]
+Bijections = "0.2"
+ExternalDocstrings = "0.1"
+ProgressMeter = "1.11.0 - 1"
+StaticArrays = "1.9.0 - 1"
+numav_julia_jll = "0.3.0"
