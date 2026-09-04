@@ -6,15 +6,15 @@ RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 
-["0-0.1"]
+["0 - 0.1"]
 LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0.1.1-0.1"]
+["0.1.1 - 0.1"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
-["0.3-0"]
+["0.3 - 0"]
 IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random123 = "74087812-796a-5b5d-8853-05524746bad3"
@@ -22,7 +22,7 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 ValueShapes = "136a8f8c-c49b-4edb-8b98-f3d64d48be8f"
 
-["0.3-0.4"]
+["0.3 - 0.4"]
 ArraysOfArrays = "65a8f2f4-9b39-5baf-92e2-a9cc46fdf018"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
@@ -31,9 +31,13 @@ Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 TypedTables = "9d95f2ec-7b3d-5a63-8d20-e2491e220bb9"
 
-["0.5-0"]
+["0.5 - 0"]
 DensityInterface = "b429d917-457f-4dbc-8f4c-0cc954292b1d"
 EmpiricalDistributions = "0bbb1fad-0f24-45fe-94a4-415852c5cc3b"
 NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 StaticUnivariatePolynomials = "6f584044-cad5-5b68-a429-1e244a824f76"
+
+["0.5.13 - 0"]
+ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
