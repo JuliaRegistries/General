@@ -11,12 +11,14 @@ Parsers = ["0.1-0.3", "1"]
 Parsers = "1-2"
 
 [1]
-Parsers = "1 - 2"
 PrecompileTools = "1"
-julia = "1.9.0 - 1"
 
 ["1 - 1.5.0"]
 StructUtils = "2.3.0 - 2"
+
+["1 - 1.7"]
+Parsers = "1 - 2"
+julia = "1.9.0 - 1"
 
 ["1.5.1 - 1.6"]
 StructUtils = "2.8.0 - 2"
@@ -26,3 +28,7 @@ StructUtils = "2.8.3 - 2"
 
 ["1.7.1 - 1"]
 StructUtils = "2.8.4 - 2"
+
+["1.8 - 1"]
+Parsers = "2.8.8 - 3"
+julia = "1.10.0 - 1"
