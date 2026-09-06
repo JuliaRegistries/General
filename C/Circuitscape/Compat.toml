@@ -67,14 +67,16 @@ SimpleWeightedGraphs = "1"
 Krylov = "0.9"
 PrecompileTools = "1"
 
-["5.16 - 5"]
+["5.16 - 6"]
 julia = "1.11.0 - 1"
 
 ["5.17 - 5"]
 AlgebraicMultigrid = "1.2.0 - 1"
+TimerOutputs = "0.5"
+
+["5.17 - 6"]
 DelimitedFiles = "1.9.0 - 1"
 Krylov = "0.10"
-TimerOutputs = "0.5"
 
 ["5.17.1 - 5"]
 GZip = "0.6 - 0.7"
@@ -130,3 +132,8 @@ Pardiso = "0.5.3-0.5"
 
 ["5.9 - 5"]
 Graphs = "1"
+
+[6]
+AlgebraicMultigrid = "2"
+GZip = "0.7"
+TimerOutputs = "1"
