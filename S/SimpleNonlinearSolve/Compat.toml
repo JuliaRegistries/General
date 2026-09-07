@@ -213,6 +213,9 @@ NonlinearSolveBase = "2.41.0 - 2"
 BracketingNonlinearSolve = "1.12.6 - 1"
 SciMLLogging = "2"
 
+["2.14.2 - 2"]
+ForwardDiff = "1"
+
 ["2.2.1 - 2.5"]
 ForwardDiff = ["0.10.36-0.10", "1"]
 
@@ -228,7 +231,6 @@ CommonSolve = "0.2.4 - 0.2"
 ConcreteStructs = "0.2.3 - 0.2"
 FastClosures = "0.3.2 - 0.3"
 FiniteDiff = "2.24.0 - 2"
-ForwardDiff = ["0.10.36 - 0.10", "1"]
 LinearAlgebra = "1.10.0 - 1"
 MaybeInplace = "0.1.4 - 0.1"
 PrecompileTools = "1.2.0 - 1"
@@ -243,6 +245,9 @@ Setfield = "1.1.1 - 1"
 
 ["2.6 - 2.12.0"]
 ADTypes = "1.2.0 - 1"
+
+["2.6 - 2.14.1"]
+ForwardDiff = ["0.10.36 - 0.10", "1"]
 
 ["2.6 - 2.7"]
 DifferentiationInterface = "0.6.16 - 0.7"
