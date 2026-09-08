@@ -7,7 +7,15 @@ LaTeXStrings = "1.4.0 - 1"
 LsqFit = "0.15"
 Optimization = "4"
 OptimizationOptimJL = "0.4"
-QuadGK = "2"
 SpecialFunctions = "2"
 StatsAPI = "1"
 julia = "1.10.0 - 1"
+
+["0 - 0.1"]
+QuadGK = "2"
+
+["0.2 - 0"]
+FiniteDiff = "2"
+OptimizationNLopt = "0.3.4 - 0.3"
+PrecompileTools = "1"
+QuadGK = "2.9.0 - 2"
