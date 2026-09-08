@@ -1,9 +1,19 @@
 [0]
-GraphRecipes = "0.5"
 Graphs = "1"
+julia = "1.10.0 - 1"
+
+["0 - 0.1"]
+GraphRecipes = "0.5"
 ModelingToolkit = "10"
 MultiScaleTreeGraph = "0.14"
 PlantGraphs = ["0.0.2", "0.1"]
 RecipesBase = "1.3.0 - 1"
 SciMLBase = "2.125.0 - 2"
-julia = "1.10.0 - 1"
+
+["0.2 - 0"]
+ModelingToolkit = "11"
+MultiScaleTreeGraph = "0.14 - 0.15"
+NetworkLayout = "0.4"
+PlantGraphs = "0.1"
+RecipesBase = "1"
+SciMLBase = "2 - 3"
