@@ -199,7 +199,6 @@ MetaProgTools = "1"
 ProgressMeter = "1"
 ReusableFunctions = "1"
 RobustPmap = "1"
-SVR = "1"
 
 ["1 - 1.0.6"]
 JLD2 = "0.2-0.3"
@@ -234,6 +233,9 @@ DocumenterMarkdown = "0.2-0.3"
 
 ["1 - 1.5.3"]
 AffineInvariantMCMC = "1"
+
+["1 - 1.6"]
+SVR = "1"
 
 ["1 - 1.6.4"]
 Colors = "0.12-0.13"
@@ -311,7 +313,7 @@ DelimitedFiles = "1.7.0-1"
 Statistics = "1.7.0-1"
 julia = "1.7.0-1"
 
-["1.3.1 - 1"]
+["1.3.1 - 1.6"]
 Cairo = "1"
 
 ["1.3.1 - 1.6.4"]
@@ -385,13 +387,15 @@ SharedArrays = "1"
 Sockets = "1"
 SparseArrays = "1"
 Statistics = "1"
-Test = "1"
 
 ["1.5.3 - 1.5.19"]
 Mmap = "1"
 
 ["1.5.3 - 1.5.4"]
 LsqFit = "0.15"
+
+["1.5.3 - 1.6"]
+Test = "1"
 
 ["1.5.3 - 1.6.4"]
 Documenter = ["0.25-0.27", "1"]
@@ -420,8 +424,6 @@ CSV = ["0.10 - 0.11", "1"]
 Colors = "0.12 - 0.13"
 Compose = "0.8 - 0.9"
 Distributions = "0.23 - 0.25"
-Documenter = ["0.25 - 0.27", "1"]
-Fontconfig = "0.4 - 0.5"
 Images = "0.25 - 0.26"
 JLD = ["0.10 - 0.14", "1"]
 LightXML = ["0.9 - 0.10", "1"]
@@ -430,9 +432,13 @@ Measures = "0.3.1 - 0.4"
 NMF = ["0.4 - 0.5", "1"]
 OrderedCollections = "1.5.0 - 1"
 StatsBase = ["0.33 - 0.35", "1"]
+YAML = "0.4.2 - 0.5"
+
+["1.6.5 - 1.6"]
+Documenter = ["0.25 - 0.27", "1"]
+Fontconfig = "0.4 - 0.5"
 Suppressor = "0.2 - 0.3"
 XLSX = ["0.7 - 0.10", "1"]
-YAML = "0.4.2 - 0.5"
 julia = "1.11.0 - 1"
 
 ["1.6.6 - 1"]
@@ -441,3 +447,11 @@ JSON = ["0.21 - 0.22", "1"]
 
 ["1.6.7 - 1"]
 Proj = "1"
+
+["1.7 - 1"]
+Documenter = "1"
+ImageMagick = "1"
+LibGit2 = "1"
+SVR = "1.5"
+XLSX = ["0.7 - 0.12", "1"]
+julia = "1.12.0 - 1"
