@@ -16,9 +16,6 @@ Tables = "0.0.0-0.2"
 Tables = "0.0.0-1"
 julia = ["0.7.0", "1"]
 
-[1]
-Tables = "1"
-
 ["1 - 1.0.1"]
 DecFP = "0.4"
 Parsers = "0.3"
@@ -30,6 +27,9 @@ DBInterface = "2"
 BinaryProvider = "0.5"
 MariaDB_Connector_C_jll = "3"
 julia = "1"
+
+["1 - 2"]
+Tables = "1"
 
 ["1.0.2 - 1.1.0"]
 DecFP = "0.4.9-0.4"
@@ -59,13 +59,26 @@ MariaDB_Connector_C_jll = "3.1.12-3"
 julia = "1.6.0 - 1"
 
 ["1.5 - 1"]
-DBInterface = "2.5.0 - 2"
 DecFP = ["0.4.9 - 0.4", "1"]
 MariaDB_Connector_C_jll = "3.1.12 - 3"
 Parsers = ["0.3", "1 - 2"]
 
-["1.5.1 - 1"]
+["1.5 - 2"]
+DBInterface = "2.5.0 - 2"
+
+["1.5.1 - 2"]
 OpenSSL_jll = "3"
 
-["1.6 - 1"]
+["1.6 - 2"]
 julia = "1.10.0 - 1"
+
+[2]
+DataDecimals = "1"
+DataStrings = "1.1.0 - 1"
+Dates = "1"
+Durations = "1.2.0 - 1"
+Parsers = "3"
+PrecompileTools = "1"
+Random = "1"
+Reseau = "1.4.1 - 1"
+SHA = ["0.7", "1"]
