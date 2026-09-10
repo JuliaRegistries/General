@@ -1,14 +1,19 @@
 [0]
 HDF5 = "0.16 - 0.17"
 Krylov = "0.9 - 0.10"
-LinearSolve = "3"
 Polyester = "0.7"
 
 ["0 - 0.2"]
 DiffEqBase = "6 - 7"
+
+["0 - 0.5"]
+LinearSolve = "3"
 
 ["0.3"]
 DiffEqBase = "6"
 
 ["0.4 - 0"]
 DiffEqBase = "6 - 7"
+
+["0.6 - 0"]
+LinearSolve = "5"
