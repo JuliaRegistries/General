@@ -301,7 +301,6 @@ Optim = "1.8-1.12"
 
 [2]
 DynamicDiff = "0.3"
-DynamicExpressions = "2.10"
 InverseFunctions = "0.1.17 - 0.1"
 LinearAlgebra = "1"
 MLJModelInterface = "1.5 - 1.12"
@@ -310,3 +309,9 @@ Optim = ["1.8 - 1.13", "2.2"]
 Preferences = "1"
 ProgressMeter = ["1.10.0 - 1.10.2", "1.10.4", "1.11.0"]
 Statistics = ["0.0.0", "1"]
+
+["2 - 2.4.0"]
+DynamicExpressions = "2.10"
+
+["2.4.1 - 2"]
+DynamicExpressions = "2.11"
