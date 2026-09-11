@@ -1,11 +1,11 @@
-[0]
-TimeZones = "1"
-
 ["0 - 0.1.0"]
 julia = "1"
 
 ["0 - 0.2"]
 OpenPolicyAgent_jll = "0.55"
+
+["0 - 0.4"]
+TimeZones = "1"
 
 ["0 - 0.4.0"]
 OpenAPI = "0.1"
@@ -20,7 +20,16 @@ OpenPolicyAgent_jll = "0.61"
 ["0.3.3 - 0.3"]
 OpenPolicyAgent_jll = "0.69"
 
-["0.4.1 - 0"]
+["0.4.1 - 0.4"]
 Dates = "1.6.0 - 1"
 OpenAPI = "0.1 - 0.2"
 julia = "1.6.0 - 1"
+
+["0.5 - 0"]
+Base64 = "1.10.0 - 1"
+Dates = "1.10.0 - 1"
+HTTP = "2"
+JSON = "1.7.0 - 1"
+OpenAPI = "1.1.1 - 1"
+UUIDs = "1.10.0 - 1"
+julia = "1.10.0 - 1"
