@@ -6,16 +6,23 @@ Plots = "1"
 ["0 - 0.1.0"]
 julia = "1.6.0 - 1"
 
-["0.1.1 - 0"]
+["0.1.1 - 0.5"]
 julia = "1.10.0 - 1"
 
 ["0.3 - 0"]
 CairoMakie = "0.14"
 GLMakie = "0.12"
 GeoInterface = "1.6.1 - 1"
-LinearSolve = "3"
 Proj = "1.9.0 - 1"
 Shapefile = "0.13.3 - 0.13"
 
+["0.3 - 0.5"]
+LinearSolve = "3"
+
 ["0.4.2 - 0"]
 ArchGDAL = "0.10.11 - 0.10"
+
+["0.6 - 0"]
+DelimitedFiles = "1.9.1 - 1"
+LinearSolve = ["3", "5.12.0 - 5"]
+julia = "1.12.0 - 1"
