@@ -1,5 +1,4 @@
 [0]
-DataVault = "0.7"
 Dates = "1.11.0 - 1"
 Distributed = "1.11.0 - 1"
 JLD2 = "0.6"
@@ -12,3 +11,9 @@ SHA = "0.7"
 SlurmClusterManager = ["0.1", "1"]
 TOML = "1"
 julia = "1.11.0 - 1"
+
+["0 - 0.6.0"]
+DataVault = "0.7"
+
+["0.6.1 - 0"]
+DataVault = "0.7 - 0.8"
