@@ -1,7 +1,6 @@
 [0]
 DocStringExtensions = "0.9.4 - 0.9"
 Parameters = "0.12"
-SHA = "0.7"
 StaticArrays = "1.9.7 - 1"
 Statistics = "1"
 Timers = "0.1.5 - 0.1"
@@ -25,6 +24,9 @@ VortexStepMethod = "1.2.6 - 1"
 ["0 - 0.12"]
 OrdinaryDiffEqNonlinearSolve = "1.6.1 - 1"
 SymbolicIndexingInterface = "0.3"
+
+["0 - 0.17"]
+SHA = "0.7"
 
 ["0 - 0.2"]
 ADTypes = "1.14.0 - 1"
@@ -63,7 +65,7 @@ AtmosphericModels = "0.3"
 ["0.1.2 - 0.5"]
 VortexStepMethod = "2"
 
-["0.10 - 0"]
+["0.10 - 0.16"]
 DataInterpolations = "8.10.0 - 8"
 
 ["0.11.1 - 0.12"]
@@ -81,11 +83,13 @@ OrdinaryDiffEqCore = "3 - 4"
 OrdinaryDiffEqNonlinearSolve = "1.6.0 - 3"
 SteadyStateDiffEq = "2.5.0 - 4"
 SymbolicIndexingInterface = "0.3 - 0.4"
-SymbolicUtils = "4 - 5"
 Symbolics = "7 - 8"
 
 ["0.13 - 0.14"]
 VortexStepMethod = "4"
+
+["0.13 - 0.16"]
+SymbolicUtils = "4 - 5"
 
 ["0.14"]
 KiteUtils = "0.12"
@@ -96,10 +100,21 @@ SparseArrays = "1"
 
 ["0.15 - 0"]
 KiteUtils = "0.12.2 - 0.12"
+
+["0.15 - 0.16"]
 VortexStepMethod = "4.1.1 - 4"
 
-["0.15.1 - 0"]
+["0.15.1 - 0.16"]
 LinearSolve = "2 - 4"
+
+["0.17 - 0"]
+DataInterpolations = "8.10.0 - 10"
+LinearSolve = "2 - 5"
+SymbolicUtils = "4.46.3 - 5"
+VortexStepMethod = "5.1.0 - 5"
+
+["0.18 - 0"]
+SHA = ["0.7", "1"]
 
 ["0.2"]
 Interpolations = "0.15.1 - 0.16"

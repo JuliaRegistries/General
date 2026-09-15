@@ -25,6 +25,9 @@ DiffEqNoiseProcess = "5"
 Parameters = "0.13"
 PrecompileTools = "1.2.1 - 1"
 
+["2.11.1 - 2"]
+Integrals = "5.5.1 - 5"
+
 ["2.2"]
 Integrals = "4.4.0-4"
 RecursiveArrayTools = "2-3"
@@ -81,11 +84,13 @@ Reexport = "1.2.2 - 1"
 ["2.8 - 2"]
 DiffEqNoiseProcess = "5.30.0 - 5"
 Distributions = "0.25.88 - 0.25"
-Integrals = "5.4.0 - 5"
 SciMLBase = "3.1.0 - 3"
 StaticArrays = "1.9.14 - 1"
 Statistics = "1.10.0 - 1"
 Zygote = "0.7.5 - 0.7"
+
+["2.8 - 2.11.0"]
+Integrals = "5.4.0 - 5"
 
 ["2.8 - 2.9"]
 Parameters = "0.12 - 0.13"
