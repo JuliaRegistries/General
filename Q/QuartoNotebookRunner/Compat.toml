@@ -1,7 +1,6 @@
 [0]
 Compat = "4"
 IterTools = "1"
-JSON3 = "1"
 PrecompileTools = "1"
 TOML = "1"
 YAML = "0.4"
@@ -25,6 +24,9 @@ REPL = "1.6.0-1"
 Random = "1.6.0-1"
 Sockets = "1.6.0-1"
 julia = "1.6.0-1"
+
+["0 - 0.18.3"]
+JSON3 = "1"
 
 ["0 - 0.8.0"]
 PNGFiles = "0.4"
@@ -84,6 +86,9 @@ CommonMark = "0.8 - 0.9"
 CommonMark = ["0.8 - 0.10", "1"]
 IOCapture = ["0.2", "1"]
 Scratch = "1"
+
+["0.18.4 - 0"]
+JSON = ["0.21", "1"]
 
 ["0.7.1 - 0"]
 SHA = ["0.7", "1"]
