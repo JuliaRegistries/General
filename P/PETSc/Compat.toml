@@ -21,7 +21,6 @@ PETSc_jll = "3.22.0-3"
 Libdl = "1.10.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
 OffsetArrays = "1"
-PETSc_jll = "3.22.0 - 3"
 Pkg = "1.10.0 - 1"
 SparseArrays = "1.10.0 - 1"
 Statistics = "1.10.0 - 1"
@@ -31,11 +30,17 @@ julia = "1.10.0 - 1"
 ["0.4 - 0.4.1"]
 SparseDiffTools = "2"
 
+["0.4 - 0.4.11"]
+PETSc_jll = "3.22.0 - 3"
+
 ["0.4.0"]
 ForwardDiff = "0.10"
 
 ["0.4.1 - 0"]
 ForwardDiff = ["0.10", "1"]
+
+["0.4.12 - 0"]
+PETSc_jll = "3.22"
 
 ["0.4.9 - 0"]
 Preferences = "1"
