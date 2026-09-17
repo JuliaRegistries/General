@@ -369,7 +369,6 @@ DifferentiationInterface = "0.7.13 - 0.7"
 ForwardDiff = "1"
 PreallocationTools = "1.2.0 - 1"
 SimpleNonlinearSolve = "2.10.0 - 2"
-SymbolicIndexingInterface = "0.3.46 - 0.3"
 julia = "1.10.0 - 1"
 
 ["11.27 - 11.31"]
@@ -380,6 +379,9 @@ DiffEqBase = "6.213.0 - 7"
 
 ["11.27 - 11.31.1"]
 SciMLBase = "3"
+
+["11.27 - 11.43"]
+SymbolicIndexingInterface = "0.3.46 - 0.3"
 
 ["11.28 - 11.28.2"]
 ModelingToolkitBase = "1.44.0 - 1"
@@ -461,13 +463,15 @@ TermInterface = "2"
 ModelingToolkitBase = "1.63.0 - 1"
 
 ["11.39.1 - 11"]
-DiffEqBase = "7.14.0 - 7"
 DocStringExtensions = "0.9"
-SciMLBase = "3.46.0 - 3"
 SciMLStructures = "1.10.2 - 1"
 
 ["11.39.1 - 11.41"]
 ModelingToolkitBase = "1.64.0 - 1"
+
+["11.39.1 - 11.43"]
+DiffEqBase = "7.14.0 - 7"
+SciMLBase = "3.46.0 - 3"
 
 ["11.41 - 11"]
 OrderedCollections = "1.8.0 - 2"
@@ -481,8 +485,14 @@ ModelingToolkitBase = "1.69.0 - 1"
 ["11.42.1 - 11"]
 Symbolics = "7.39.2 - 7"
 
-["11.43 - 11"]
+["11.43"]
 ModelingToolkitBase = "1.70.0 - 1"
+
+["11.44 - 11"]
+DiffEqBase = "7.18.1 - 7"
+ModelingToolkitBase = "1.74.0 - 1"
+SciMLBase = "3.55.0 - 3"
+SymbolicIndexingInterface = "0.3.47 - 0.3"
 
 ["11.5"]
 ModelingToolkitBase = "1.4.0 - 1.41"
