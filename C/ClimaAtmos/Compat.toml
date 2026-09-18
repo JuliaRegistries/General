@@ -425,7 +425,6 @@ UnrolledUtilities = "0.1.6 - 0.1"
 
 ["0.30.3 - 0"]
 NCDatasets = "0.14.2 - 0.14"
-julia = "1.9.0 - 1"
 
 ["0.30.3 - 0.31"]
 ClimaDiagnostics = "0.2.12 - 0.2"
@@ -447,6 +446,9 @@ Interpolations = "0.15.1 - 0.16"
 
 ["0.30.3 - 0.40"]
 AtmosphericProfilesLibrary = "0.1.7 - 0.1"
+
+["0.30.3 - 0.42.10"]
+julia = "1.9.0 - 1"
 
 ["0.30.4 - 0"]
 UnrolledUtilities = "0.1.9 - 0.1"
@@ -669,7 +671,7 @@ ClimaParams = "1.1.0 - 1"
 ["0.41 - 0"]
 AtmosphericProfilesLibrary = "0.1.8 - 0.1"
 
-["0.41.2 - 0"]
+["0.41.2 - 0.42.10"]
 ClimaTimeSteppers = "0.10.4 - 0.10"
 
 ["0.41.2 - 0.42.2"]
@@ -686,6 +688,12 @@ RRTMGP = "0.22.2 - 0.22"
 
 ["0.42.1 - 0"]
 Interpolations = "0.15.1 - 0.16"
+
+["0.42.11 - 0"]
+ClimaCore = ["0.16", "1"]
+ClimaTimeSteppers = ["0.10.4 - 0.10", "1"]
+CloudMicrophysics = "0.39 - 0.40"
+julia = "1.10.0 - 1"
 
 ["0.42.2 - 0.42.3"]
 ClimaCore = "0.14.55 - 0.14"
@@ -713,10 +721,12 @@ RRTMGP = "0.23"
 RRTMGP = "1"
 
 ["0.42.9 - 0"]
-ClimaCore = "0.16"
 ClimaDiagnostics = "0.3.9 - 0.3"
 ClimaParams = "1.1.6 - 1"
 ClimaUtilities = "0.1.32 - 0.1"
+
+["0.42.9 - 0.42.10"]
+ClimaCore = "0.16"
 CloudMicrophysics = "0.39"
 
 ["0.5 - 0.9"]
