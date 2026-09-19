@@ -101,12 +101,17 @@ julia = "1.10.0-1"
 MPI = "0.20"
 MPIPreferences = "0.1"
 
-["0.4.13 - 0"]
+["0.4.13 - 0.4.15"]
 LaMEM_jll = "2.2.0 - 2"
 MPICH_jll = "4.2 - 4.2.3"
 
-["0.4.15 - 0"]
+["0.4.15"]
 GeophysicalModelGenerator = "0.7.20 - 0.7"
+
+["0.4.16 - 0"]
+GeophysicalModelGenerator = "0.7.21 - 0.7"
+LaMEM_jll = "2.2.1 - 2"
+MPICH_jll = "4.3 - 5"
 
 ["0.4.3 - 0.4.7"]
 Interpolations = "0.10-0.15"
