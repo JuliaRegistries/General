@@ -630,7 +630,6 @@ FileWatching = "1.10.0 - 1"
 GPUCompiler = "1.17.0 - 1"
 JSON = "1.4.0 - 1"
 LLVM = "9.4.6 - 9"
-LLVMOpenMP_jll = ["18.1.7 - 18", "22.1.0 - 22"]
 Libdl = "1.10.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
 OrderedCollections = "1.1.0 - 2"
@@ -651,6 +650,9 @@ StyledStrings = "1.0.3 - 1"
 UUIDs = "1.10.0 - 1"
 julia = "1.10.0 - 1"
 
+["0.2.277 - 0.2.285"]
+LLVMOpenMP_jll = ["18.1.7 - 18", "22.1.0 - 22"]
+
 ["0.2.278"]
 Reactant_jll = "0.0.401"
 
@@ -663,8 +665,12 @@ Reactant_jll = "0.0.405"
 ["0.2.281 - 0.2.282"]
 Reactant_jll = "0.0.406"
 
-["0.2.283 - 0"]
+["0.2.283 - 0.2.285"]
 Reactant_jll = "0.0.407"
+
+["0.2.286 - 0"]
+LLVMOpenMP_jll = ["18.1.7 - 18", "22.1.0 - 22", "23.1.0 - 23"]
+Reactant_jll = "0.0.408"
 
 ["0.2.30"]
 Reactant_jll = "0.0.69"
