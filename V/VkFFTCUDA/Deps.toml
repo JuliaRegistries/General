@@ -1,4 +1,11 @@
 [0]
-AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+
+["0 - 0.2"]
+AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["0.3 - 0"]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+VkFFT = "65dc4606-9ae3-4b78-8734-204937373618"
+VkFFT_CUDA_jll = "c6c0cc47-23fd-51ca-b60c-6f984e788db9"
