@@ -1,7 +1,5 @@
 [0]
 BandedMatrices = "1"
-CompactBasisFunctions = "0.3"
-ContinuumArrays = "0.18 - 0.20"
 DomainSets = "0.8"
 FFTW = "1"
 GeometricBase = "0.14.8 - 0.14"
@@ -10,3 +8,11 @@ QuadratureRules = "0.2"
 Random = "1"
 SparseArrays = "1"
 julia = "1.10.0 - 1"
+
+["0 - 0.2"]
+CompactBasisFunctions = "0.3"
+ContinuumArrays = "0.18 - 0.20"
+
+["0.3 - 0"]
+CompactBasisFunctions = "0.3 - 0.4"
+ContinuumArrays = "0.18 - 0.21"
