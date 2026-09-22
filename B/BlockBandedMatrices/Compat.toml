@@ -116,11 +116,13 @@ LinearAlgebra = "1.6.0-1"
 SparseArrays = "1.6.0-1"
 
 ["0.13 - 0"]
-BandedMatrices = "1"
 BlockArrays = "1"
 
 ["0.13 - 0.13.4"]
 MatrixFactorizations = "1-3"
+
+["0.13 - 0.13.5"]
+BandedMatrices = "1"
 
 ["0.13.3 - 0"]
 LinearAlgebra = "1"
@@ -131,6 +133,9 @@ julia = "1.10.0-1"
 ["0.13.5 - 0"]
 MatrixFactorizations = "1 - 3"
 julia = "1.10.0 - 1"
+
+["0.13.6 - 0"]
+BandedMatrices = "1.13.0 - 1"
 
 ["0.3 - 0.3.2"]
 BandedMatrices = "0.7.2-0.7"
