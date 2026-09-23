@@ -3,3 +3,9 @@ CSV = "0.8"
 DataFrames = "0.22"
 FTPClient = "1.2.0-1"
 julia = "1"
+
+[1]
+CSV = ["0.10", "1"]
+DataFrames = "1"
+Tables = "1"
+julia = "1.10.0 - 1"
