@@ -2,6 +2,8 @@
 Bzip2_jll = "1.0.8-1"
 JLLWrappers = "1.2.0-1"
 OpenSSL_jll = "3.0.10-3"
+
+[7-8]
 julia = "1.6.0-1"
 
 ["7.3-7"]
@@ -11,3 +13,15 @@ Libdl = "1"
 ["7.3.2-7"]
 Blosc2_jll = "201.1500.0-201"
 Blosc_jll = "1.21.1-1"
+
+[8]
+Artifacts = ["0.0.0", "1"]
+Blosc2_jll = "301.300.300-301"
+Blosc_jll = "1.21.7-1"
+Bzip2_jll = "1.0.9-1"
+JLLWrappers = "1.7.0-1"
+Libdl = ["0.0.0", "1"]
+Lz4_jll = "1.10.1-1"
+OpenSSL_jll = "3.5.0-3"
+Zstd_jll = "1.5.7-1"
+yaml_cpp_jll = "0.9"
