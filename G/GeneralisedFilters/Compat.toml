@@ -1,9 +1,5 @@
 [0]
-AbstractMCMC = "5"
-CUDA = "5"
 Distributions = "0.25"
-LogExpFunctions = "0.3"
-NNlib = "0.9"
 
 ["0 - 0.2"]
 AcceleratedKernels = "0.3"
@@ -18,23 +14,45 @@ julia = "1.10.0-1"
 ["0 - 0.3.0"]
 SSMProblems = "0.5"
 
+["0 - 0.4"]
+AbstractMCMC = "5"
+CUDA = "5"
+LogExpFunctions = "0.3"
+NNlib = "0.9"
+
 ["0.3"]
 Statistics = "1.11.1 - 1"
 
 ["0.3 - 0"]
-AcceleratedKernels = "0.3 - 0.4"
 DataStructures = "0.18.20 - 0.19"
-OffsetArrays = "1.14.1 - 1"
 StatsBase = "0.34.3 - 0.34"
+
+["0.3 - 0.4"]
+AcceleratedKernels = "0.3 - 0.4"
+OffsetArrays = "1.14.1 - 1"
 julia = "1.10.0 - 1"
 
 ["0.3.0"]
 StaticArrays = "1.9.13 - 1"
 
-["0.3.1 - 0"]
+["0.3.1 - 0.4"]
 PDMats = "0.11.35 - 0.11"
 SSMProblems = "0.6"
 StaticArrays = "1.9.14 - 1"
 
 ["0.4 - 0"]
 Statistics = "1"
+
+["0.5 - 0"]
+ADTypes = "1.21.0 - 1"
+AbstractMCMC = "5.16.0 - 5"
+AcceleratedKernels = "0.4.3 - 0.4"
+DifferentiationInterface = "0.7"
+LinearAlgebra = "1"
+LogDensityProblems = "2.2.0 - 2"
+LogExpFunctions = ["0.3", "1"]
+MCMCChains = "7.7.0 - 7"
+Random = "1"
+SSMProblems = "0.7"
+StaticArrays = "1.9.17 - 1"
+julia = "1.12.7 - 1"
