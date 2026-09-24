@@ -2,10 +2,12 @@
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
 
 ["5 - 5.1.1"]
 Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+
+["5 - 5.13"]
+MbedTLS = "739be429-bea8-5141-9913-cc70e7f3736d"
 
 ["5.0.1 - 5"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -15,6 +17,10 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 ["5.1 - 5"]
 Sockets = "6462fe0b-24de-5631-8697-dd941f90decc"
+
+["5.14 - 5"]
+OpenSSL_jll = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
+SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 
 ["5.3 - 5"]
 SodiumSeal = "2133526b-2bfb-4018-ac12-889fb3908a75"
