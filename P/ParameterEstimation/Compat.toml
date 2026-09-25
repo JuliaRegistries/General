@@ -1,9 +1,6 @@
 [0]
-DifferentialEquations = "7"
 HomotopyContinuation = "2"
-OrderedCollections = "1"
 ProgressMeter = "1"
-TestSetExtensions = "2"
 
 ["0 - 0.1"]
 Symbolics = "4"
@@ -18,6 +15,11 @@ julia = "1"
 
 ["0 - 0.3"]
 ModelingToolkit = "8"
+
+["0 - 0.4.4"]
+DifferentialEquations = "7"
+OrderedCollections = "1"
+TestSetExtensions = "2"
 
 ["0.2"]
 BenchmarkTools = "1"
@@ -35,10 +37,7 @@ julia = "1.9.0-1"
 
 ["0.3 - 0"]
 BaryRational = "1"
-ForwardDiff = "0.10"
 PrecompileTools = "1"
-Suppressor = "0.2"
-TaylorDiff = "0.2"
 
 ["0.3 - 0.4.1"]
 ArbNumerics = "1"
@@ -46,6 +45,11 @@ ArbNumerics = "1"
 ["0.3 - 0.4.3"]
 LinearSolve = "2"
 TaylorSeries = "0.12-0.30"
+
+["0.3 - 0.4.4"]
+ForwardDiff = "0.10"
+Suppressor = "0.2"
+TaylorDiff = "0.2"
 
 ["0.4 - 0.4.3"]
 ModelingToolkit = "9"
@@ -68,11 +72,26 @@ Nemo = "0.40-0.48"
 SIAN = "1.6.0-1"
 Symbolics = "4-6"
 
-["0.4.4 - 0"]
+["0.4.4"]
 Groebner = "0.9"
 LinearSolve = "3"
-ModelingToolkit = "10"
 Nemo = "0.40 - 0.52"
-SIAN = "1.7.0 - 1"
 TaylorSeries = "0.12 - 0.30"
 Test = "1.10.0 - 1"
+
+["0.4.4 - 0"]
+ModelingToolkit = "10"
+SIAN = "1.7.0 - 1"
+
+["0.4.5 - 0"]
+DifferentialEquations = "7 - 8"
+ForwardDiff = ["0.10", "1"]
+Groebner = "0.9 - 0.10"
+LinearAlgebra = "1"
+LinearSolve = "3 - 5"
+Logging = "1"
+Nemo = "0.40 - 0.56"
+OrderedCollections = "1 - 2"
+Printf = "1"
+TaylorDiff = "0.3"
+TaylorSeries = "0.12 - 0.22"
