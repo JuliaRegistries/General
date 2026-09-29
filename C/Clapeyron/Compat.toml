@@ -60,9 +60,6 @@ CSV = "0.9-0.10"
 ["0.3.1 - 0.5.6"]
 ThermoState = "0.5"
 
-["0.3.10 - 0"]
-CSV = "0.10"
-
 ["0.3.10 - 0.4.8"]
 Roots = "2.0.4-2"
 
@@ -71,6 +68,9 @@ DiffResults = "1.1.0-1"
 StaticArrays = "1.5.9-1"
 Tables = "1.8.0-1"
 Unitful = "1.12.0-1"
+
+["0.3.10 - 0.6.28"]
+CSV = "0.10"
 
 ["0.3.11 - 0.6.13"]
 BlackBoxOptim = "0.6.2-0.6"
@@ -116,11 +116,13 @@ LogExpFunctions = "0.3.24-0.3"
 JSON3 = "1"
 
 ["0.5.11 - 0"]
-NLSolvers = "0.5"
 StableTasks = "0.1"
 
 ["0.5.11 - 0.6.13"]
 Roots = "2.1.0-2"
+
+["0.5.11 - 0.6.28"]
+NLSolvers = "0.5"
 
 ["0.5.4 - 0.6.13"]
 OrderedCollections = "1.5.0-1"
@@ -181,3 +183,7 @@ LogExpFunctions = ["0.3.24 - 0.3", "1"]
 ["0.6.26 - 0"]
 OrderedCollections = "1.5.0 - 2"
 SciMLPublic = "1"
+
+["0.6.29 - 0"]
+CSV = ["0.10", "1"]
+NLSolvers = "0.5 - 0.6"

@@ -89,9 +89,9 @@ version = "1.7.0"
 
 [[deps.ExceptionUnwrapping]]
 deps = ["Test"]
-git-tree-sha1 = "d36f682e590a83d63d1c7dbd287573764682d12a"
+git-tree-sha1 = "4e468f521e1f9f86891cb07186de5df90360a666"
 uuid = "460bff9d-24e4-43bc-9d9f-a8973cb893f4"
-version = "0.1.11"
+version = "0.1.12"
 
 [[deps.ExprTools]]
 git-tree-sha1 = "d2e49e7efd29719d6f28b891b0e0e159daa9d2b4"
@@ -103,10 +103,10 @@ uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 version = "1.11.0"
 
 [[deps.GitHub]]
-deps = ["Base64", "Dates", "HTTP", "JSON", "MbedTLS", "Sockets", "SodiumSeal", "URIs"]
-git-tree-sha1 = "33de1bc5665494f0a9669fd6027e28180709d874"
+deps = ["Base64", "Dates", "HTTP", "JSON", "OpenSSL_jll", "SHA", "Sockets", "SodiumSeal", "URIs"]
+git-tree-sha1 = "810caa22175697373225e9ee64d8b7dc8f2a40b9"
 uuid = "bc5e4493-9b4d-5f90-b8aa-2b2bcaad7a26"
-version = "5.13.0"
+version = "5.14.0"
 
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "ConcurrentUtilities", "Dates", "ExceptionUnwrapping", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "PrecompileTools", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
@@ -338,9 +338,9 @@ version = "0.1.1"
 
 [[deps.StaticArrays]]
 deps = ["LinearAlgebra", "PrecompileTools", "Random", "StaticArraysCore"]
-git-tree-sha1 = "e206cf4850fd7ac4255ffd2b98922f563e18ac53"
+git-tree-sha1 = "39e70e0ab5d7f89833a62ab7c79df15d4fc417c1"
 uuid = "90137ffa-7385-5640-81b9-e52037218182"
-version = "1.9.20"
+version = "1.9.22"
 
     [deps.StaticArrays.extensions]
     StaticArraysChainRulesCoreExt = "ChainRulesCore"
@@ -390,9 +390,9 @@ version = "1.0.3"
 
 [[deps.TZJData]]
 deps = ["Artifacts"]
-git-tree-sha1 = "1ce1f307e71046701e278bad521986cb22c0d1a7"
+git-tree-sha1 = "56f43b7dd5424c926a5bfd053591e2bc3cb9e143"
 uuid = "dc5dba14-91b3-4cab-a142-028a31da12f7"
-version = "1.7.0+2026a"
+version = "1.10.0+2026d"
 
 [[deps.Tar]]
 deps = ["ArgTools", "SHA"]
