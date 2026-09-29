@@ -1,10 +1,8 @@
 [1]
 CSV = "0.10.16 - 0.10"
 CodecZlib = "0.7.8 - 0.7"
-ConcurrentCollections = "0.1.1 - 0.1"
 DataFrames = "1.8.2 - 1"
 DataFramesMeta = "0.15.6 - 0.15"
-DataStructures = "0.19.6 - 0.19"
 DocStringExtensions = "0.9.5 - 0.9"
 FunctionalCollections = "0.5"
 HTTP = "1.11.0 - 1"
@@ -27,4 +25,12 @@ TimeFrames = "0.2"
 URIs = "1.6.1 - 1"
 WebSockets = "1.6.0 - 1"
 Zarr = "0.10.1 - 0.10"
+
+["1.0.0"]
+ConcurrentCollections = "0.1.1 - 0.1"
+DataStructures = "0.19.6 - 0.19"
 julia = "1.12.0 - 1"
+
+["1.0.1 - 1"]
+DataStructures = ["0.18.22 - 0.18", "0.19.6 - 0.19"]
+julia = "1.12 - 1"
