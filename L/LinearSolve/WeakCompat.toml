@@ -281,8 +281,10 @@ STRUMPACK_jll = "8"
 CUDSS = "0.6.3 - 0.7"
 
 ["3.80 - 5"]
-CUDSS = "0.7"
 cuSOLVER = "6"
+
+["3.80 - 5.18.1"]
+CUDSS = "0.7"
 
 ["3.83 - 5"]
 MUMPS = "1.4.0 - 1"
@@ -338,6 +340,9 @@ SLATE_jll = "2025"
 
 ["5.17 - 5"]
 SpecializingFactorizations = "0.1.5 - 0.1"
+
+["5.18.2 - 5"]
+CUDSS = "0.7 - 0.8"
 
 ["5.3 - 5.6"]
 TriangularSolve = "0.2"
