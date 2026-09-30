@@ -1,0 +1,62 @@
+name: AutoMerge (Stopwatch)
+
+on:
+  pull_request:
+    # PR events provide frequent polling opportunities to maintain ~8 minute merge cadence
+    # Without PR events, stopwatch would only check every 4 hours (cron schedule)
+    # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request
+    types: [opened, reopened, labeled, synchronize]
+  schedule:
+    # Fallback polling in case PR activity is low
+    # Runs every 4 hours to ensure stopwatch checks happen even without PRs
+    - cron:  '0 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+env:
+    JULIA_PKG_USE_CLI_GIT: true
+
+# PR activity provides polling opportunities; the merge workflow also has a cron fallback.
+# The stopwatch queries only the merge workflow's runs on master and dispatches it
+# immediately when no previous run exists (the first run after deployment).
+jobs:
+  AutoMerge-stopwatch:
+    # Run on all events except fork PRs
+    # PR events from non-forks provide polling, schedule/dispatch provide fallback
+    if: github.event_name != 'pull_request' || github.repository == github.event.pull_request.head.repo.full_name
+    timeout-minutes: 20
+    environment: stopwatch
+    runs-on: ubuntu-latest
+    steps:
+      # Run orchestration code from master, including on PR-triggered polls.
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          ref: master
+      - uses: julia-actions/setup-julia@fa02766e078afaaf09b14210362cee14137e6a32 # v3.0.2
+        with:
+          version: '1.11'
+      - name: Cache artifacts
+        uses: julia-actions/cache@a7bed9df697e5d7309d68afe7542a87621a8b6c8 # v3.3.0
+      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
+        shell: julia --color=yes --project=.ci/ {0}
+        id: manifest_version
+      - run: rm -rf .ci/Manifest.toml
+      - run: mv .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
+      - run: rm -rf .ci/Manifest-*.toml
+      - run: chmod 400 .ci/Project.toml
+      - run: chmod 400 .ci/Manifest.toml
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
+        env:
+          JULIA_PKG_SERVER: ""
+      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
+      - run: .ci/instantiate.sh .ci/
+      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
+      - name: Run stopwatch check
+        # Before this migration is deployed, the target workflow is absent on master.
+        if: hashFiles('.github/workflows/automerge_merge.yml') != ''
+        run: julia --project=.ci/ .ci/stopwatch.jl
+        env:
+          AUTOMERGE_MERGE_TOKEN: ${{ secrets.TAGBOT_TOKEN }}

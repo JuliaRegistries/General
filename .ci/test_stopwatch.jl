@@ -14,7 +14,7 @@ include("stopwatch.jl")
     requested_events = String[]
     get_json = function (received_api, endpoint; auth, params)
         @test received_api === api
-        @test endpoint == "/repos/JuliaRegistries/General/actions/workflows/automerge.yml/runs"
+        @test endpoint == "/repos/JuliaRegistries/General/actions/workflows/automerge_merge.yml/runs"
         @test params["branch"] == "master"
         @test params["per_page"] == "1"
         event = get(params, "event", "pull_request")
