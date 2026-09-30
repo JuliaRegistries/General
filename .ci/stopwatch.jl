@@ -3,11 +3,11 @@ import GitHub
 import HTTP
 import TimeZones
 
-function most_recent_automerge(
+function _most_recent(
     registry::GitHub.Repo;
     api::GitHub.GitHubAPI,
     auth::GitHub.Authorization,
-    workflow_file_name::AbstractString = "automerge.yml",
+    workflow_file_name::AbstractString,
     get_json = GitHub.gh_get_json,
 )
     # Scope the query to this workflow so other workflow dispatches cannot reset
@@ -16,14 +16,34 @@ function most_recent_automerge(
     params = Dict("branch" => "master", "per_page" => "1")
     json = get_json(api, endpoint; auth = auth, params = params)
     workflow_runs = json["workflow_runs"]
-    isempty(workflow_runs) && throw(ErrorException("I could not figure out when the most recent job was"))
+    isempty(workflow_runs) && return nothing
     workflow_run = first(workflow_runs)
     created_at = TimeZones.ZonedDateTime(
         workflow_run["created_at"],
         "yyyy-mm-ddTHH:MM:SSzzzz",
     )
-    @info "Most recent AutoMerge merge run" created_at
+    @info "# BEGIN information about the `workflow_run`"
+    @info "" created_at
+    for (key, value) in workflow_run
+        @info "" key value
+    end
+    @info "# END information about the `workflow_run`"
     return created_at
+end
+
+function most_recent_automerge(
+    registry::GitHub.Repo;
+    api::GitHub.GitHubAPI,
+    auth::GitHub.Authorization,
+    get_json = GitHub.gh_get_json,
+)
+    return _most_recent(
+        registry;
+        api = api,
+        auth = auth,
+        workflow_file_name = "automerge.yml",
+        get_json = get_json,
+    )
 end
 
 function time_since_last_automerge(
@@ -32,6 +52,7 @@ function time_since_last_automerge(
     auth::GitHub.Authorization,
 )
     last_automerge = most_recent_automerge(registry; api = api, auth = auth)
+    isnothing(last_automerge) && return nothing
     now = TimeZones.now(TimeZones.localzone())
     return now - last_automerge
 end
@@ -61,8 +82,12 @@ function trigger_new_automerge_if_necessary()
     auth = GitHub.OAuth2(ENV["AUTOMERGE_TAGBOT_TOKEN"])
     registry = GitHub.Repo("JuliaRegistries/General")
     t = time_since_last_automerge(registry; api, auth)
-    @info "Time since last AutoMerge" t _canonicalize(t)
-    if t >= Dates.Minute(8)
+    if isnothing(t)
+        @info "No previous AutoMerge run; starting the first run"
+    else
+        @info "Time since last AutoMerge" t _canonicalize(t)
+    end
+    if isnothing(t) || t >= Dates.Minute(8)
         @info "Attempting to trigger a new AutoMerge workflow dispatch job..."
         trigger_new_workflow_dispatch(
             registry;

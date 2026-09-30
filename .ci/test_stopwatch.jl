@@ -14,7 +14,7 @@ include("stopwatch.jl")
     @test most_recent_automerge(registry; api, auth, get_json) ==
         TimeZones.ZonedDateTime(2026, 9, 30, 10, TimeZones.tz"UTC")
 
-    # Keep the existing empty-history behavior until the migration handles bootstrap.
+    # No run history is a normal first-run condition.
     empty_runs = (args...; kwargs...) -> Dict("workflow_runs" => [])
-    @test_throws ErrorException most_recent_automerge(registry; api, auth, get_json = empty_runs)
+    @test isnothing(most_recent_automerge(registry; api, auth, get_json = empty_runs))
 end
