@@ -46,6 +46,19 @@ the job.
 
 ## Staging and production
 
+General keeps two Julia environments, each with its own `Project.toml` and
+version-specific `Manifest-v*.toml` files:
+
+- `.ci/` supplies RegistryCI for `registry-consistency-ci.yml` and
+  `registry-consistency-ci-cron.yml`, which call `RegistryCI.test()` on Julia
+  1.3–1.13. It also supplies the stopwatch's dependencies.
+- `.ci/AutoMerge/` supplies AutoMerge and its RegistryCI dependency for production
+  registration checks, merging, and TagBot on Julia 1.12–1.13.
+
+These environments resolve dependencies independently. Updating RegistryCI in
+one does not update the other. **Update Manifests** updates both environments;
+their compat bounds determine which releases it can select.
+
 - `automerge_staging.yml` installs standalone AutoMerge from the `AutoMerge/`
   subdirectory of RegistryCI's `master`, resolves fresh dependencies, and runs
   read-only PR checks. It does not publish approvals, comments, or merges.
