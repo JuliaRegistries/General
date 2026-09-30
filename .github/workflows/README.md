@@ -7,19 +7,24 @@ scheduled workflows use the configuration already merged into `master`.
 ## Registration flow
 
 1. Registrator opens or updates a registration PR in General.
-2. AutoMerge checks the package, posts its decision and explanation, and reruns
-   when a relevant override label is added. Fork PRs do not run these checks.
-3. Scheduled or manually dispatched merge runs check the approval for the current
-   commit, waiting period, and blocking comments before merging.
-4. `TagBotTriggers.yml` uses the merged-PR event to notify the package repository's
+2. `automerge_check.yml` calls `AutoMerge.check_pr()` to check the package and post
+   its decision and explanation. A separate label job reruns checks when a relevant
+   override label is added. Fork PRs do not run these checks.
+   `registry-consistency-ci.yml` separately checks registry structure and metadata;
+   `automerge_staging.yml` runs read-only checks against AutoMerge's `master`.
+3. `automerge_stopwatch.yml` polls on PR activity and dispatches
+   `automerge_merge.yml` when at least eight minutes have passed since its latest
+   scheduled or manually dispatched run. It starts the first run if history is empty.
+4. `automerge_merge.yml` calls `AutoMerge.merge_prs()` on scheduled or manually
+   dispatched runs on `master`. It checks the approval for the current commit,
+   waiting period, and blocking comments before merging.
+5. `TagBotTriggers.yml` uses the merged-PR event to notify the package repository's
    TagBot. A scheduled run provides a fallback, including for manually merged PRs.
 
-The stopwatch (`../../.ci/stopwatch.jl`) checks the latest scheduled or manually
-dispatched AutoMerge run. PR activity provides polling opportunities: after
-eight minutes it dispatches another run on `master`. With little PR activity,
-the four-hour merge schedule is the fallback; eight minutes is not a guaranteed
-interval. The stopwatch uses the `stopwatch` environment, whose approval rules
-can delay polling.
+The stopwatch runs [`../../.ci/stopwatch.jl`](../../.ci/stopwatch.jl) from `master`.
+With little PR activity, the four-hour merge schedule is the fallback; eight
+minutes is not a guaranteed interval. The stopwatch uses the `stopwatch`
+environment, whose approval rules can delay polling.
 
 ## Staging and production
 
@@ -27,11 +32,8 @@ can delay polling.
   subdirectory of RegistryCI's `master`, resolves fresh dependencies, and runs
   read-only PR checks. It does not publish approvals, comments, or merges.
   Inspect its logs to compare proposed behavior with production.
-- Production uses checked-in version-specific manifests. Currently,
-  `automerge.yml` calls `RegistryCI.AutoMerge.run()` from the `.ci` environment.
-- The [standalone AutoMerge migration](https://github.com/JuliaRegistries/General/pull/170048)
-  replaces that workflow with `automerge_check.yml`, `automerge_merge.yml`, and
-  `automerge_stopwatch.yml`, and moves AutoMerge/TagBot to `.ci/AutoMerge`.
+- Production checking, merging, and TagBot use standalone AutoMerge from
+  `.ci/AutoMerge`, with checked-in version-specific manifests.
   Check jobs run package code without the merge token; merge jobs receive that
   token and do not install or load proposed packages.
 
