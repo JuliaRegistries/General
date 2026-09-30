@@ -8,12 +8,13 @@ function _most_recent(
     api::GitHub.GitHubAPI,
     auth::GitHub.Authorization,
     workflow_file_name::AbstractString,
+    event::AbstractString,
     get_json = GitHub.gh_get_json,
 )
     # Scope the query to this workflow so other workflow dispatches cannot reset
     # the clock or push the last merge run out of the first API page.
     endpoint = "/repos/$(registry.full_name)/actions/workflows/$(workflow_file_name)/runs"
-    params = Dict("branch" => "master", "per_page" => "1")
+    params = Dict("branch" => "master", "event" => event, "per_page" => "1")
     json = get_json(api, endpoint; auth = auth, params = params)
     workflow_runs = json["workflow_runs"]
     isempty(workflow_runs) && return nothing
@@ -37,13 +38,21 @@ function most_recent_automerge(
     auth::GitHub.Authorization,
     get_json = GitHub.gh_get_json,
 )
-    return _most_recent(
-        registry;
-        api = api,
-        auth = auth,
-        workflow_file_name = "automerge.yml",
-        get_json = get_json,
-    )
+    latest = nothing
+    for event in ("workflow_dispatch", "schedule")
+        run_time = _most_recent(
+            registry;
+            api = api,
+            auth = auth,
+            workflow_file_name = "automerge.yml",
+            event = event,
+            get_json = get_json,
+        )
+        if !isnothing(run_time) && (isnothing(latest) || run_time > latest)
+            latest = run_time
+        end
+    end
+    return latest
 end
 
 function time_since_last_automerge(
