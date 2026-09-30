@@ -62,9 +62,13 @@ the job.
    standalone AutoMerge registrations use `subdir=AutoMerge`.
 2. Observe staging for about a day. Each run installs AutoMerge from RegistryCI's
    `master`, so confirm which revision each run tested if new commits were merged.
-3. Update production's project and regenerate every manifest used by its jobs.
-   A Git source pins the selected revision; a registered dependency is locked
-   by the manifest. Keep `update_manifests.yml`'s Julia matrix in sync.
+3. Run the **Update Manifests** action (`update_manifests.yml`) on `master`.
+   It updates dependencies in `.ci/` and `.ci/AutoMerge/` for each Julia version
+   in its matrices and opens or updates a PR with the resulting manifests.
+   Review that PR and confirm it selects the intended AutoMerge release.
+   If the release is outside the project's compat bounds, update those bounds
+   on `master` before running the action. Keep the action's Julia matrices in
+   sync with the versions used by the other workflows.
 4. Merge the PR updating General's workflows or dependencies, then verify checking
    on a registration PR, a merge run on `master`, stopwatch dispatch, and a TagBot
    notification. Workflow
