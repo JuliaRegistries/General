@@ -75,13 +75,21 @@ their compat bounds determine which releases it can select.
    standalone AutoMerge registrations use `subdir=AutoMerge`.
 2. Observe staging for about a day. Each run installs AutoMerge from RegistryCI's
    `master`, so confirm which revision each run tested if new commits were merged.
-3. Run the **Update Manifests** action (`update_manifests.yml`) on `master`.
+3. If the release is outside the relevant project's compat bounds, merge a PR
+   updating those bounds first. Then run **Update Manifests** (`update_manifests.yml`)
+   on `master`, either from the Actions page or with:
+
+   ```sh
+   gh api --method POST \
+     repos/JuliaRegistries/General/actions/workflows/update_manifests.yml/dispatches \
+     -f ref=master
+   ```
+
    It updates dependencies in `.ci/` and `.ci/AutoMerge/` for each Julia version
    in its matrices and opens or updates a PR with the resulting manifests.
-   Review that PR and confirm it selects the intended AutoMerge release.
-   If the release is outside the project's compat bounds, update those bounds
-   on `master` before running the action. Keep the action's Julia matrices in
-   sync with the versions used by the other workflows.
+   Review that PR and confirm it selects the intended RegistryCI or AutoMerge
+   release. Keep the action's Julia matrices in sync with the versions used by
+   the other workflows.
 4. Merge the PR updating General's workflows or dependencies, then verify checking
    on a registration PR, a merge run on `master`, stopwatch dispatch, and a TagBot
    notification. Workflow
