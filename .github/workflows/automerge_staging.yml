@@ -8,12 +8,20 @@ on:
   pull_request:
     # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request
     types: [opened, reopened, labeled, synchronize]
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
 
 # Make sure that the `GITHUB_TOKEN` only has read-only permissions
 # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#permissions
 permissions: read-all
 
-# We have two jobs:
+env:
+  JULIA_PKG_USE_CLI_GIT: true
+
+# PR checks use the same pinned project and manifests as the production migration.
+# Every staging entrypoint uses read_only=true and a read-only GITHUB_TOKEN.
+# We have three jobs:
 # 1. AutoMerge_staging-regular:
 #    This includes all PR runs except PR labels.
 # 2. AutoMerge_staging-label:
@@ -23,14 +31,15 @@ permissions: read-all
 #    AutoMerge job with a "skipped" AutoMerge job, thus making it very difficult for PR authors
 #    to view the CI logs (which they need to do if they e.g. want to figure out why `import MyPackageName`
 #    failed during the AutoMerge run.)
+# 3. AutoMerge_staging-merge: scheduled/manual read-only merge rehearsal.
 jobs:
   AutoMerge_staging-regular:
     # Run if:
-    # - not from a PR event
-    # - or it is from a PR event AND it is not from a fork AND we are not triggered by a label
+    # - a PR event from this repository
+    # - and we are not triggered by a label
     # Note: since the label contains a colon, we need to use a workaround like https://github.com/actions/runner/issues/1019#issuecomment-810482716
     # for the syntax to parse correctly.
-    if: "${{ github.event_name != 'pull_request' || (github.repository == github.event.pull_request.head.repo.full_name && (github.event.action != 'labeled')) }}"
+    if: "${{ github.event_name == 'pull_request' && github.repository == github.event.pull_request.head.repo.full_name && github.event.action != 'labeled' }}"
     timeout-minutes: 60
     runs-on: ${{ matrix.os }}
     concurrency:
@@ -41,7 +50,7 @@ jobs:
     strategy:
       matrix:
         version:
-          - '1.12'
+          - '1.13'
         os:
           - ubuntu-latest
         arch:
@@ -51,28 +60,16 @@ jobs:
       - uses: julia-actions/setup-julia@fa02766e078afaaf09b14210362cee14137e6a32 # v3.0.2
         with:
           version: ${{ matrix.version }}
-      # No Project/Manifest for staging run
-      - run: rm -rf .ci/AutoMerge/JuliaManifest*.toml
-      - run: rm -rf .ci/AutoMerge/Manifest*.toml
-      - run: rm -rf .ci/AutoMerge/JuliaProject*.toml
-      - run: rm -rf .ci/AutoMerge/Project*.toml
+      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
+        shell: julia --color=yes --project=.ci/AutoMerge/ {0}
+        id: manifest_version
+      - run: rm -f .ci/AutoMerge/Manifest.toml
+      - run: mv .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/AutoMerge/Manifest.toml
+      - run: rm -f .ci/AutoMerge/Manifest-v*.toml
+      - run: chmod 400 .ci/AutoMerge/Project.toml .ci/AutoMerge/Manifest.toml
       - name: Cache artifacts
         uses: julia-actions/cache@a7bed9df697e5d7309d68afe7542a87621a8b6c8 # v3.3.0
-      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
-        env:
-          JULIA_PKG_SERVER: ""
-      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
       - run: .ci/instantiate.sh .ci/AutoMerge/
-      - run: |
-          import Pkg
-          name = "AutoMerge"
-          uuid = "c5732277-7834-41e3-8e1f-5f375898cfe1"
-          rev = "master"
-          subdir = "AutoMerge"
-          url = "https://github.com/JuliaRegistries/RegistryCI.jl"
-          Pkg.add(; name, uuid, rev, subdir, url)
-        shell: julia --color=yes --project=.ci/AutoMerge/ {0}
-      - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.update()'
       - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.precompile()'
       - name: AutoMerge.check_pr
         env:
@@ -82,8 +79,7 @@ jobs:
           using AutoMerge
 
           config = AutoMerge.general_registry_config()
-          registry_config =
-          AutoMerge.RegistryConfiguration(config.registry_config; read_only=true)
+          registry_config = AutoMerge.RegistryConfiguration(config.registry_config; read_only=true)
           AutoMerge.check_pr(registry_config, config.check_pr_config)
         shell: julia --color=yes --project=.ci/AutoMerge/ {0}
   AutoMerge_staging-label:
@@ -115,28 +111,16 @@ jobs:
       - uses: julia-actions/setup-julia@fa02766e078afaaf09b14210362cee14137e6a32 # v3.0.2
         with:
           version: ${{ matrix.version }}
-      # No Project/Manifest for staging run
-      - run: rm -rf .ci/AutoMerge/JuliaManifest*.toml
-      - run: rm -rf .ci/AutoMerge/Manifest*.toml
-      - run: rm -rf .ci/AutoMerge/JuliaProject*.toml
-      - run: rm -rf .ci/AutoMerge/Project*.toml
+      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
+        shell: julia --color=yes --project=.ci/AutoMerge/ {0}
+        id: manifest_version
+      - run: rm -f .ci/AutoMerge/Manifest.toml
+      - run: mv .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/AutoMerge/Manifest.toml
+      - run: rm -f .ci/AutoMerge/Manifest-v*.toml
+      - run: chmod 400 .ci/AutoMerge/Project.toml .ci/AutoMerge/Manifest.toml
       - name: Cache artifacts
         uses: julia-actions/cache@a7bed9df697e5d7309d68afe7542a87621a8b6c8 # v3.3.0
-      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
-        env:
-          JULIA_PKG_SERVER: ""
-      - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
       - run: .ci/instantiate.sh .ci/AutoMerge/
-      - run: |
-          import Pkg
-          name = "AutoMerge"
-          uuid = "c5732277-7834-41e3-8e1f-5f375898cfe1"
-          rev = "master"
-          subdir = "AutoMerge"
-          url = "https://github.com/JuliaRegistries/RegistryCI.jl"
-          Pkg.add(; name, uuid, rev, subdir, url)
-        shell: julia --color=yes --project=.ci/AutoMerge/ {0}
-      - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.update()'
       - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.precompile()'
       - name: AutoMerge.check_pr
         env:
@@ -146,7 +130,39 @@ jobs:
           using AutoMerge
 
           config = AutoMerge.general_registry_config()
-          registry_config =
-          AutoMerge.RegistryConfiguration(config.registry_config; read_only=true)
+          registry_config = AutoMerge.RegistryConfiguration(config.registry_config; read_only=true)
           AutoMerge.check_pr(registry_config, config.check_pr_config)
+        shell: julia --color=yes --project=.ci/AutoMerge/ {0}
+  AutoMerge_staging-merge:
+    if: github.ref == 'refs/heads/master' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    concurrency:
+      group: automerge-staging-merge
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - uses: julia-actions/setup-julia@fa02766e078afaaf09b14210362cee14137e6a32 # v3.0.2
+        with:
+          version: '1.13'
+      - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
+        shell: julia --color=yes --project=.ci/AutoMerge/ {0}
+        id: manifest_version
+      - run: rm -f .ci/AutoMerge/Manifest.toml
+      - run: mv .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/AutoMerge/Manifest.toml
+      - run: rm -f .ci/AutoMerge/Manifest-v*.toml
+      - run: chmod 400 .ci/AutoMerge/Project.toml .ci/AutoMerge/Manifest.toml
+      - name: Cache artifacts
+        uses: julia-actions/cache@a7bed9df697e5d7309d68afe7542a87621a8b6c8 # v3.3.0
+      - run: .ci/instantiate.sh .ci/AutoMerge/
+      - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.precompile()'
+      - name: AutoMerge.merge_prs (read only)
+        env:
+          AUTOMERGE_MERGE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JULIA_DEBUG: RegistryCI,AutoMerge
+        run: |
+          using AutoMerge
+          config = AutoMerge.general_registry_config()
+          registry_config = AutoMerge.RegistryConfiguration(config.registry_config; read_only=true)
+          AutoMerge.merge_prs(registry_config, config.merge_prs_config)
         shell: julia --color=yes --project=.ci/AutoMerge/ {0}

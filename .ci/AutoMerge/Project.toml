@@ -1,5 +1,9 @@
 [deps]
 AutoMerge = "c5732277-7834-41e3-8e1f-5f375898cfe1"
 
+[compat]
+AutoMerge = "=1.1.0"
+
+# Pin the release candidate so staging and production exercise identical code.
 [sources]
-AutoMerge = {rev = "master", subdir = "AutoMerge", url = "https://github.com/JuliaRegistries/RegistryCI.jl"}
+AutoMerge = {rev = "43059992e9efb137bd86dbd66475e95c22337a9a", subdir = "AutoMerge", url = "https://github.com/JuliaRegistries/RegistryCI.jl"}
