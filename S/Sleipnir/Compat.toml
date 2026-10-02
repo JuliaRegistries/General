@@ -12,9 +12,6 @@ julia = "1.7.0-1"
 ["0 - 0.7"]
 JLD2 = "0.4"
 
-["0.10 - 0"]
-CSV = "0.10.15 - 0.10"
-
 ["0.10 - 0.10.3"]
 CoordRefSystems = "0.16 - 0.17"
 
@@ -36,6 +33,9 @@ Rasters = "0.13 - 0.14"
 
 ["0.10 - 0.16"]
 julia = "1.10.0 - 1"
+
+["0.10 - 0.17"]
+CSV = "0.10.15 - 0.10"
 
 ["0.10.4 - 0.11"]
 CoordRefSystems = "0.16 - 0.18"
@@ -104,7 +104,6 @@ CFTime = "0.2.1 - 0.2"
 CairoMakie = "0.15"
 ComponentArrays = "0.15"
 Contour = "0.6"
-CoordRefSystems = "0.16 - 0.19"
 DataStructures = "0.18 - 0.19"
 DateFormats = "0.1"
 FFTW = "1"
@@ -133,6 +132,9 @@ BenchmarkTools = "1"
 CodecZlib = "0.7"
 Revise = "3"
 Tar = "1"
+
+["0.12.6 - 0.17"]
+CoordRefSystems = "0.16 - 0.19"
 
 ["0.12.7 - 0.15"]
 JET = "0.9 - 0.11"
@@ -166,6 +168,10 @@ Distributed = "1.11.0 - 1"
 Pkg = "1.11.0 - 1"
 Printf = "1.11.0 - 1"
 julia = "1.11.0 - 1"
+
+["0.18 - 0"]
+CSV = ["0.10", "1"]
+CoordRefSystems = "0.16 - 0.21"
 
 ["0.3.6 - 0"]
 Statistics = "1"
