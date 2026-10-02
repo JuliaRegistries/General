@@ -367,8 +367,8 @@ reusing the exact same source code as a previous release without the major bugâ€
 deploy, and less disruptive way to prevent most users from installing a specific version. If you seek to
 yank a very broken release, you should typically also release a patch release.
 
-First, modifications to julia and/or package bounds should be attempted in a packages Compat.toml file.
-If this is not possible explain the conditions that yank is absolutely required*
+First, modifications to julia and/or package bounds should be attempted in a package's Compat.toml file.
+If this is not possible, explain the conditions that yank is absolutely required.
 
 There is however, a special category of bugged releases that can not be resolved by having a patch release.
 These also may to be resolved by yanking. That special category is when the compat bounds have been set too
@@ -379,7 +379,7 @@ the code changes would not be valid in a patch bump.
 
 In this case it is best to submit a PR to retroactively adjust the compat bounds of previous versions, which has the best user-facing results.
 It may also be possible to yank the offending release, but this has possible negative consequences
-for existing evironments # and other reasons from people who know better than me #. See the [SciML collaborative practices for more guidance](https://github.com/SciML/ColPrac?tab=readme-ov-file#accidental-support-for-an-unsupported-dependency).
+for existing environments # and other reasons from people who know better than me #. See the [SciML collaborative practices for more guidance](https://github.com/SciML/ColPrac?tab=readme-ov-file#accidental-support-for-an-unsupported-dependency).
 
 If yanking is urgent, open a PR and raise it on the `#pkg-registration` [slack channel](https://julialang.org/slack/)
 
