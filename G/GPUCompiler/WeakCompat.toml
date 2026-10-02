@@ -10,6 +10,9 @@ LLVMDowngrader_jll = "0.8"
 ["1.23 - 2.6"]
 AMDGPU_LLVM_Backend_jll = "22"
 
+["2.10 - 2"]
+LLVMDowngrader_jll = "0.11 - 0.12"
+
 ["2.2"]
 LLVMDowngrader_jll = "0.8.3 - 0.9"
 
@@ -28,5 +31,7 @@ NVPTX_LLVM_Backend_jll = "23"
 SPIRV_LLVM_Backend_jll = "23"
 
 ["2.8 - 2"]
-LLVMDowngrader_jll = "0.11"
 SPIRV_LLVM_Translator_jll = "23"
+
+["2.8 - 2.9"]
+LLVMDowngrader_jll = "0.11"
