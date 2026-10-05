@@ -10,9 +10,11 @@ MLStyle = "0.4"
 ["0 - 0.8.7"]
 julia = "1.10.0-1"
 
+["0.17"]
+CTBase = "0.29"
+
 ["0.17 - 0"]
 ADTypes = "1"
-CTBase = "0.29"
 CTSolvers = "0.5"
 CommonSolve = "0.2"
 GPUArraysCore = "0.1 - 0.2"
@@ -21,8 +23,12 @@ RecipesBase = "1"
 ["0.17.0"]
 CTModels = "0.16"
 
-["0.17.2 - 0"]
+["0.17.2 - 0.17"]
 CTModels = "0.18"
+
+["0.18 - 0"]
+CTBase = "0.30"
+CTModels = "0.19"
 
 ["0.5"]
 CTBase = "0.12"
