@@ -2,7 +2,6 @@
 DataFrames = "1"
 Dates = "1"
 FileIO = "1"
-Interpolations = "0.16.3 - 0.16"
 JLD2 = ["0.6", "1"]
 LinearAlgebra = "1"
 Polyester = ["0.7", "1"]
@@ -12,3 +11,9 @@ SHA = ["0.7", "1"]
 StaticArrays = "1"
 StatsBase = ["0.34", "1"]
 julia = "1.10.0 - 1"
+
+["0 - 0.1"]
+Interpolations = "0.16.3 - 0.16"
+
+["0.2 - 0"]
+Interpolations = "0.16"
