@@ -18,6 +18,12 @@ Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
 ChainRules = "082447d4-558c-5d27-93f4-14fc19e9eca2"
 Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
 Mooncake = "da2b9cff-9c12-43a0-ae48-6db2b0edb7d6"
-StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+["3.1 - 4.4"]
+StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
+
+["4.5 - 4"]
+DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
+ReverseDiff = "37e2e3b7-166d-5795-8a7a-e32c996b4267"

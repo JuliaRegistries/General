@@ -7,7 +7,7 @@ ForwardDiff = "0.10"
 ["1.3.2 - 2"]
 GenericLinearAlgebra = "0.3.11-0.3"
 
-["1.4 - 4"]
+["1.4 - 4.4"]
 ChainRulesCore = "1"
 
 ["1.5 - 1.5.1"]
@@ -46,9 +46,11 @@ Mooncake = "0.4.161 - 0.4"
 ["3.1 - 4"]
 ChainRules = "1.72.6 - 1"
 Enzyme = "0.13.82 - 0.13"
+Zygote = "0.7.10 - 0.7"
+
+["3.1 - 4.4"]
 FastDifferentiation = "0.3.15 - 0.4"
 StaticArraysCore = "1.4.3 - 1"
-Zygote = "0.7.10 - 0.7"
 ZygoteRules = "0.2.7 - 0.2"
 
 [4]
@@ -57,3 +59,9 @@ Symbolics = ["0.1", "1 - 7"]
 
 ["4 - 4.4.0"]
 GenericLinearAlgebra = "0.3.11 - 0.4"
+
+["4.5 - 4"]
+ChainRulesCore = "1.15.0 - 1"
+DifferentiationInterface = "0.7"
+FastDifferentiation = "0.4"
+ReverseDiff = "1.15.0 - 1"
