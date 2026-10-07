@@ -23,13 +23,19 @@ HTTP = "2"
 ["0.11 - 0"]
 Preferences = "1.5.2 - 1"
 ZarrBlosc = "0.11"
-ZarrCore = "0.11"
 ZarrGCS = "0.11"
-ZarrHTTP = "0.11"
 ZarrS3 = "0.11"
 ZarrZip = "0.11"
 ZarrZlib = "0.11"
 ZarrZstd = "0.11"
+
+["0.11.0"]
+ZarrCore = "0.11"
+ZarrHTTP = "0.11"
+
+["0.11.1 - 0"]
+ZarrCore = "0.11.1 - 0.11"
+ZarrHTTP = "0.11.1 - 0.11"
 
 ["0.3.0"]
 FillArrays = "0.0.0-0.8"
