@@ -191,8 +191,13 @@ WhereTheWaterFlows = "0.10-0.11"
 NCDatasets = "0.14"
 
 ["0.8 - 0"]
-GeoParams = "0.2 - 0.8"
 LinearAlgebra = "1"
 Printf = "1"
 WhereTheWaterFlows = ["0.10 - 0.11", "0.13"]
 julia = "1.10.0 - 1"
+
+["0.8.0"]
+GeoParams = "0.2 - 0.8"
+
+["0.8.1 - 0"]
+GeoParams = "0.2 - 0.9"
