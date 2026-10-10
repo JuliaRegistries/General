@@ -6,11 +6,11 @@ julia = "1.8.0-1"
 Documenter = "0.27"
 OrderedCollections = "1.6.0-1"
 StableRNGs = "1"
+StatsBase = "0.33"
 
 ["0 - 2"]
 Distributions = "0.25"
 NamedTupleTools = "0.14"
-StatsBase = "0.33"
 
 ["1.0"]
 Statistics = "1.8.0-1"
@@ -32,5 +32,12 @@ UnicodePlots = "3.6.0-3"
 Documenter = "1.14.0 - 1"
 OrderedCollections = "1.8.0 - 1"
 Revise = "3.6.0 - 3"
-UnicodePlots = "3.6.0 - 3"
 julia = "1.9.0 - 1"
+
+["2.0"]
+StatsBase = "0.33"
+UnicodePlots = "3.6.0 - 3"
+
+["2.1 - 2"]
+StatsBase = "0.34"
+UnicodePlots = "3"

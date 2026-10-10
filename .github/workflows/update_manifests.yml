@@ -35,7 +35,8 @@ jobs:
           - '1.10'
           - '1.11'
           - '1.12'
-          # - '1.13' # Uncomment this once Julia 1.13 is released
+          - '1.13'
+          # - '1.14' # Uncomment this once Julia 1.14 is released
           # - 'nightly' # TODO: uncomment this line
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
@@ -44,7 +45,7 @@ jobs:
           version: ${{ matrix.version }}
           arch: x64
       - name: Cache artifacts
-        uses: julia-actions/cache@a45e8fa8be21c18a06b7177052533149e61e9b38 # v3.1.0
+        uses: julia-actions/cache@a7bed9df697e5d7309d68afe7542a87621a8b6c8 # v3.3.0
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes {0}
         id: manifest_version
@@ -87,6 +88,7 @@ jobs:
       matrix:
         version:
           - '1.12'
+          - '1.13'
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
       - uses: julia-actions/setup-julia@fa02766e078afaaf09b14210362cee14137e6a32 # v3.0.2
@@ -94,7 +96,7 @@ jobs:
           version: ${{ matrix.version }}
           arch: x64
       - name: Cache artifacts
-        uses: julia-actions/cache@a45e8fa8be21c18a06b7177052533149e61e9b38 # v3.1.0
+        uses: julia-actions/cache@a7bed9df697e5d7309d68afe7542a87621a8b6c8 # v3.3.0
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
         shell: julia --color=yes {0}
         id: manifest_version

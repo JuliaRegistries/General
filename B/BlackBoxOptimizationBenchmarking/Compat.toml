@@ -11,10 +11,10 @@ julia = "1"
 
 ["0.2 - 1"]
 Memoize = "0.4"
+Optim = "1"
 
 ["0.2 - 2"]
 Distributions = ["0.2", "0.25"]
-Optim = "1"
 
 ["1 - 2"]
 RecipesBase = "1"
@@ -23,9 +23,19 @@ RecipesBase = "1"
 Optimization = "4"
 julia = "1.10.0-1"
 
+["1.0.1 - 1"]
+julia = "1"
+
 ["1.0.1 - 2"]
 Optimization = "3 - 5"
-julia = "1"
 
 [2]
 StaticArrays = "1"
+
+["2.0"]
+Optim = "1"
+julia = "1"
+
+["2.1 - 2"]
+Optim = "1 - 2"
+julia = "1.10.0 - 1"

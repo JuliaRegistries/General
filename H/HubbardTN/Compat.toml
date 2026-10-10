@@ -1,21 +1,30 @@
 [0]
 JLD2 = "0.6"
 KrylovKit = "0.10"
-MPSKit = "0.13"
-MPSKitModels = "0.4"
 julia = "1.10.0 - 1"
 
 ["0 - 0.3"]
 TensorKit = "0.14 - 0.16"
 
+["0 - 0.5"]
+MPSKit = "0.13"
+MPSKitModels = "0.4"
+
 ["0.4 - 0.5.2"]
 TensorKit = "0.15.3 - 0.16"
 
-["0.5 - 0"]
+["0.5"]
 TensorKitTensors = "0.2.3 - 0.2"
 
 ["0.5 - 0.5.1"]
 Revise = "3"
 
-["0.5.3 - 0"]
+["0.5.3 - 0.5"]
 TensorKit = "0.15.3 - 0.16.3"
+
+["0.6 - 0"]
+BlockTensorKit = "0.3.1 - 0.3"
+MPSKit = "0.14"
+MatrixAlgebraKit = "0.6"
+TensorKit = "0.17"
+TensorKitTensors = "0.2 - 0.3"

@@ -10,11 +10,11 @@ UnixTimes = "1.7.2 - 1"
 Dictionaries = "0.4"
 StaticStrings = "0.2.6 - 0.2"
 
-["0.1.1 - 0"]
-LibDeflate = "0.4.3 - 0.4"
-
 ["0.1.1 - 0.1.9"]
 CodecZlib = "0.7"
+
+["0.1.1 - 0.4.0"]
+LibDeflate = "0.4.3 - 0.4"
 
 ["0.1.2 - 0"]
 DiskArrays = "0.4"
@@ -24,3 +24,9 @@ ResumableFunctions = "1"
 
 ["0.1.5 - 0"]
 PrecompileTools = "1"
+
+["0.3 - 0"]
+Durations = "1.4.0 - 1"
+
+["0.4.1 - 0"]
+LibDeflate = ["0.4.3 - 0.4", "1"]

@@ -1,12 +1,24 @@
 [0]
-Arpack = "0.5"
 FFTW = "1"
-HDF5 = "0.17"
+QuanticsGrids = "0.7"
+QuanticsTCI = "0.7"
+
+["0 - 0.1"]
+Arpack = "0.5"
 ITensorMPS = "0.2"
 ITensors = "0.6"
 NDTensors = "0.3"
 Quantics = "0.3"
-QuanticsGrids = "0.7"
-QuanticsTCI = "0.7"
 TensorCrossInterpolation = "0.9"
 julia = "1.9.0 - 1"
+
+["0 - 0.1.0"]
+HDF5 = "0.17"
+
+["0.2 - 0"]
+ITensorMPS = "0.3.16 - 0.3.44"
+ITensors = "0.9"
+NDTensors = "0.4"
+Quantics = "0.4"
+TensorCrossInterpolation = "0.9.18 - 0.9"
+julia = "1.10.0 - 1"

@@ -313,14 +313,11 @@ Distances = "0.8 - 0.11"
 DistributedArrays = "0.6 - 0.7"
 Distributions = "0.23 - 0.25"
 Geodesy = ["0.5 - 0.6", "1"]
-Images = "0.25 - 0.26"
 Interpolations = ["0.14 - 0.16", "1"]
 Ipopt = ["0.6 - 0.9", "1"]
 JLD = ["0.10 - 0.14", "1"]
 JuMP = ["0.21 - 0.23", "1"]
-Mads = "1.6.0 - 2"
 Measures = "0.3 - 0.4"
-Missings = "1 - 2"
 MultivariateStats = "0.8 - 0.11"
 NLopt = ["0.6 - 0.7", "1"]
 NMF = ["0.4 - 0.6", "1"]
@@ -330,6 +327,11 @@ PlotlyJS = "0.14 - 0.18"
 StatsBase = ["0.32 - 0.34", "1"]
 Suppressor = "0.2 - 0.3"
 VegaLite = "2 - 3"
+
+["1.4.15 - 1.4"]
+Images = "0.25 - 0.26"
+Mads = "1.6.0 - 2"
+Missings = "1 - 2"
 julia = "1.11.0 - 1"
 
 ["1.4.16 - 1"]
@@ -352,3 +354,7 @@ NearestNeighbors = "0.4-0.5"
 
 ["1.4.9 - 1.4.14"]
 Missings = "1-2"
+
+["1.5 - 1"]
+Mads = "1.7"
+julia = "1.12.0 - 1"

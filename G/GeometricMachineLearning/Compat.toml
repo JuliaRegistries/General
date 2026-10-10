@@ -1,6 +1,5 @@
 [0]
 ChainRulesCore = "1"
-Distances = "0.10"
 KernelAbstractions = "0.9"
 ProgressMeter = "1"
 
@@ -33,6 +32,9 @@ julia = "1.8.0-1"
 ["0 - 0.5"]
 ChainRules = "1"
 Zygote = "0.6"
+
+["0 - 0.7"]
+Distances = "0.10"
 
 ["0.2"]
 CUDA = "4-5"
@@ -176,8 +178,16 @@ GeometricOptimizers = "0.6"
 NeuralNetworkParameters = "0.2.2 - 0.2"
 SymbolicNeuralNetworks = "0.7"
 
+["0.7"]
+GeometricOptimizers = "0.7"
+
 ["0.7 - 0"]
 AbstractNeuralNetworks = "0.8"
-GeometricOptimizers = "0.7"
 NeuralNetworkParameters = "0.3"
 SymbolicNeuralNetworks = "0.8"
+
+["0.8 - 0"]
+GeometricOptimizers = "0.8"
+InteractiveUtils = "1"
+LinearAlgebra = "1"
+Random = "1"

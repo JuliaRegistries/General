@@ -113,6 +113,10 @@ FFMPEG_jll = "4.1.0-4"
 ["1.1.1 - 1.1"]
 ColorTypes = "0.9-0.12"
 
+["1.10 - 1"]
+Dates = "1.10.0 - 1"
+FFMPEG_jll = "8 - 9"
+
 ["1.2"]
 FFMPEG = "0.4.3 - 0.4"
 FFMPEG_jll = "6.1.0 - 6"
@@ -134,8 +138,10 @@ FFMPEG_jll = "7.1.1 - 7"
 FFMPEG = "0.4.4 - 0.4"
 
 ["1.4 - 1"]
-FFMPEG_jll = "8"
 julia = "1.10.0 - 1"
+
+["1.4 - 1.9"]
+FFMPEG_jll = "8"
 
 ["1.9 - 1"]
 LinearAlgebra = "1"

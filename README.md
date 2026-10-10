@@ -36,7 +36,8 @@ New packages and new versions of packages are added to the General registry by p
 against this GitHub repository. It is ***highly recommended*** that you use
 [Registrator.jl][registrator] to automate this process. Registrator can either be used as a
 [GitHub App][registrator-app] or through a [web interface][registrator-web], as described in
-the [Registrator README][registrator-readme].
+the [Registrator README][registrator-readme]. For packages hosted on GitHub.com or GitLab.com,
+the use of Registrator is required.
 
 When Registrator is triggered a pull request is opened against this repository. Pull
 requests that meet certain guidelines are merged automatically, see

@@ -119,9 +119,6 @@ GeometricEquations = "0.18.2-0.18"
 ["0.14.9"]
 Documenter = ["0.25 - 0.27", "1"]
 
-["0.14.9 - 0"]
-julia = "1.10.0 - 1"
-
 ["0.14.9 - 0.14"]
 GeometricBase = "0.11"
 GeometricEquations = "0.19"
@@ -129,6 +126,9 @@ GeometricEquations = "0.19"
 ["0.14.9 - 0.15"]
 GenericLinearAlgebra = "0.2 - 0.3"
 GeometricSolutions = "0.5"
+
+["0.14.9 - 0.18.5"]
+julia = "1.10.0 - 1"
 
 ["0.15"]
 GeometricBase = "0.12"
@@ -157,7 +157,6 @@ GeometricIntegratorsBase = "0.1.10 - 0.1"
 SimpleSolvers = "0.7"
 
 ["0.16 - 0"]
-GeometricEquations = "0.21"
 LinearAlgebra = "1"
 
 ["0.16 - 0.16.1"]
@@ -172,6 +171,9 @@ SimpleSolvers = "0.7 - 0.8"
 ["0.16 - 0.17"]
 GenericLinearAlgebra = "0.2 - 0.4"
 GeometricBase = "0.14"
+
+["0.16 - 0.18.5"]
+GeometricEquations = "0.21"
 
 ["0.16.10 - 0.17"]
 SharedArrays = "1"
@@ -192,7 +194,7 @@ SimpleSolvers = "0.9"
 ["0.16.6 - 0.16"]
 GeometricIntegratorsBase = "0.3 - 0.4"
 
-["0.16.7 - 0"]
+["0.16.7 - 0.18.5"]
 GeometricSolutions = "0.6.5 - 0.6"
 
 ["0.16.9 - 0.17"]
@@ -204,8 +206,10 @@ GeometricIntegratorsBase = "0.5.1 - 0.5"
 ["0.17 - 0.18.0"]
 SimpleSolvers = "0.10"
 
-["0.18 - 0"]
+["0.18 - 0.18.4"]
 CompactBasisFunctions = "0.3"
+
+["0.18 - 0.18.5"]
 GeometricBase = "0.14.8 - 0.14"
 QuadratureRules = "0.2"
 RungeKutta = "0.6"
@@ -217,14 +221,29 @@ GeometricIntegratorsBase = "0.5.2 - 0.5"
 GeometricIntegratorsBase = "0.6"
 SimpleSolvers = "0.11"
 
-["0.18.2 - 0"]
-GeometricIntegratorsBase = "0.6.3 - 0.6"
-
 ["0.18.2 - 0.18.3"]
 SimpleSolvers = "0.12.1 - 0.12"
 
-["0.18.4 - 0"]
+["0.18.2 - 0.18.5"]
+GeometricIntegratorsBase = "0.6.3 - 0.6"
+
+["0.18.4"]
 SimpleSolvers = "0.12.1 - 0.13"
+
+["0.18.5"]
+CompactBasisFunctions = "0.3 - 0.4"
+SimpleSolvers = "0.12.1 - 0.14"
+
+["0.18.6 - 0"]
+CompactBasisFunctions = "0.4.2 - 0.4"
+GeometricBase = "0.15"
+GeometricEquations = "0.21.5 - 0.21"
+GeometricIntegratorsBase = "0.6.9 - 0.6"
+GeometricSolutions = "0.6.6 - 0.6"
+QuadratureRules = "0.2.2 - 0.2"
+RungeKutta = "0.6.4 - 0.6"
+SimpleSolvers = "0.14.1 - 0.14"
+julia = "1.11.0 - 1"
 
 ["0.2"]
 DecFP = "0.4.7-0.4"

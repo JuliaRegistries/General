@@ -11,7 +11,10 @@ SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 ["0 - 0.3"]
 NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
 
-["0 - 1"]
+["0 - 1.6"]
+GraphRecipes = "bd48cda9-67a9-57be-86fa-5b3c104eda73"
+
+["0 - 2"]
 Bessels = "0e736298-9ec6-45e8-9647-e4fc86a2fe38"
 CommonSolve = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
 DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
@@ -30,62 +33,62 @@ TwoFAST = "0dd23c3e-f403-11e8-3e11-4dddf690af97"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 UnitfulAstro = "6112ee07-acf9-5e0f-b108-d242c714bf9f"
 
-["0 - 1.6"]
-GraphRecipes = "bd48cda9-67a9-57be-86fa-5b3c104eda73"
-
-["0.10.1 - 1"]
+["0.10.1 - 2"]
 OrdinaryDiffEqNonlinearSolve = "127b3ac7-2247-4354-8eb6-78cf4e7c58e8"
 OrdinaryDiffEqRosenbrock = "43230ef6-c299-4910-a778-202eb28ce4ce"
 OrdinaryDiffEqSDIRK = "2d112036-d095-4a1e-ab9a-08536f3ecdbf"
 OrdinaryDiffEqTsit5 = "b1df2697-797e-41e3-8120-5422d3b24e4a"
 
-["0.13 - 1"]
+["0.13 - 2"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["0.2.1 - 0.8.1"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
-["0.3 - 1"]
+["0.3 - 2"]
 SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
-
-["0.4 - 1"]
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
-SciMLStructures = "53ae85a6-f571-4167-b2af-e1d143709226"
 
 ["0.4 - 1.6"]
 Integrals = "de52edbc-65ea-441a-8357-d3a637375a31"
 
-["0.5 - 1"]
+["0.4 - 2"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+PreallocationTools = "d236fae5-4411-538c-8e31-a6e3d9e00b46"
+SciMLStructures = "53ae85a6-f571-4167-b2af-e1d143709226"
+
+["0.5 - 2"]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 ForwardDiffChainRules = "c9556dd2-1aed-4cfe-8560-1557cf593001"
 RecursiveFactorization = "f2c3362d-daeb-58d1-803e-2bc74f2840b4"
 
-["0.6 - 1"]
+["0.6 - 2"]
 NumericalIntegration = "e7bfaba1-d571-5449-8927-abc22e82249b"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
-["0.7 - 1"]
+["0.7 - 2"]
 LinearSolve = "7ed4a6bd-45f5-4d41-b270-4a48e9bafcae"
 
-["0.9 - 1"]
+["0.9 - 2"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
-[1]
+["1 - 2"]
 ModelingToolkitBase = "7771a370-6774-4173-bd38-47e70ca0b839"
 SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
 
-["1.0.1 - 1"]
+["1.0.1 - 2"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
-["1.5 - 1"]
+["1.5 - 2"]
 OrdinaryDiffEqDifferentiation = "4302a76b-040a-498a-8c04-15b101fed76b"
 
-["1.6 - 1"]
+["1.6 - 2"]
 FastChebInterp = "cf66c380-9a80-432c-aff8-4f9c79c0bdde"
 ModelingToolkitTearing = "6bb917b9-1269-42b9-9f7c-b0dca72083ab"
 SciMLLogging = "a6db7da4-7206-11f0-1eab-35f2a5dbe1d1"
 
-["1.6.1 - 1"]
+["1.6.1 - 2"]
 DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
+
+[2]
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"

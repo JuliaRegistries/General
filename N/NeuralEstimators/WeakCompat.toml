@@ -12,22 +12,24 @@ Metal = "1"
 ["0.1.2"]
 AlgebraOfGraphics = "0.8-0.9"
 
-["0.1.2 - 0"]
-cuDNN = "1"
-
 ["0.1.2 - 0.1.3"]
 CairoMakie = "0.12-0.13"
+
+["0.1.2 - 0.2"]
+cuDNN = "1"
 
 ["0.1.3"]
 AlgebraOfGraphics = "0.8-0.10"
 
 ["0.1.4 - 0"]
-CUDA = "4 - 5"
 ColorSchemes = "2 - 3"
 
 ["0.1.4 - 0.1"]
 AlgebraOfGraphics = "0.8 - 0.12"
 CairoMakie = "0.12 - 0.15"
+
+["0.1.4 - 0.2"]
+CUDA = "4 - 5"
 
 ["0.2 - 0"]
 GraphNeuralNetworks = "1"
@@ -36,6 +38,16 @@ Plots = "1.41.0 - 1"
 
 ["0.2.1 - 0"]
 Flux = "0.16.8 - 0.16"
-Lux = "1"
 LuxCore = "1.5.0 - 1"
 Reactant = "0.2"
+
+["0.2.1 - 0.2"]
+Lux = "1"
+
+["0.3 - 0"]
+AdvancedHMC = "0.8"
+CUDA = "4 - 6"
+FFTW = "1"
+ForwardDiff = "1"
+LogDensityProblems = "2"
+Lux = "1.31.0 - 1"

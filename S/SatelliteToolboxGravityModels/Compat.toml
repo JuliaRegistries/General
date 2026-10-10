@@ -8,6 +8,8 @@ SatelliteToolboxBase = "0.2"
 
 ["0 - 1"]
 Crayons = "4"
+
+["0 - 2"]
 Downloads = "1"
 Scratch = "1"
 StaticArrays = "1"
@@ -32,10 +34,16 @@ SatelliteToolboxTransformations = "1"
 julia = "1.10.0-1"
 
 ["1.1 - 1"]
-Dates = "1.10.0 - 1"
 ReferenceFrameRotations = "3.1.0 - 3"
 SatelliteToolboxLegendre = "1.1.0 - 1"
+
+["1.1 - 2"]
+Dates = "1.10.0 - 1"
 julia = "1.10.0 - 1"
 
 ["1.2 - 1"]
 SatelliteToolboxBase = "1.1.0 - 1"
+
+[2]
+SatelliteToolboxBase = "2"
+SatelliteToolboxLegendre = "1.2.0 - 1"

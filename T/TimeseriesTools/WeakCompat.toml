@@ -10,11 +10,11 @@ TimeseriesSurrogates = "2.6.3-2"
 ["0.3"]
 Makie = "0.20"
 
-["0.3 - 0"]
-ContinuousWavelets = "1"
-
 ["0.3 - 0.6"]
 CUDA = "3-5"
+
+["0.3 - 0.8"]
+ContinuousWavelets = "1"
 
 ["0.4 - 0"]
 Autocorrelations = "0.1"
@@ -50,12 +50,24 @@ Makie = "0.21-0.22"
 DataInterpolations = "7-8"
 
 ["0.7 - 0"]
-CUDA = "3 - 5"
 DSP = "0.6 - 0.8"
 DataInterpolations = "7 - 8"
 
+["0.7 - 0.8"]
+CUDA = "3 - 5"
+
 ["0.8.1 - 0"]
 Bootstrap = "2"
+
+["0.8.1 - 0.8"]
 Mmap = "1.10.0 - 1"
 Optim = "1.10.0 - 2"
 TimeseriesMakie = "0.2"
+
+["0.9 - 0"]
+CUDA = "3 - 6"
+ContinuousWavelets = "1.2.2 - 1"
+DataInterpolationsND = "0.1"
+Distributions = "0.25"
+ForwardDiff = "1"
+Optim = "2"

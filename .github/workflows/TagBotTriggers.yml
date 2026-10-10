@@ -6,6 +6,9 @@ on:
   schedule:
     - cron: 0 */4 * * *
   workflow_dispatch:
+permissions:
+  contents: read
+
 jobs:
   trigger:
     timeout-minutes: 30
@@ -13,23 +16,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - uses: julia-actions/setup-julia@fa02766e078afaaf09b14210362cee14137e6a32 # v3.0.2
+        with:
+          version: '1.13'
       - name: Cache artifacts
-        uses: julia-actions/cache@a45e8fa8be21c18a06b7177052533149e61e9b38 # v3.1.0
+        uses: julia-actions/cache@a7bed9df697e5d7309d68afe7542a87621a8b6c8 # v3.3.0
       - run: write(ENV["GITHUB_OUTPUT"], "manifest_version=$(VERSION.major).$(VERSION.minor)")
-        shell: julia --color=yes --project=.ci/ {0}
+        shell: julia --color=yes --project=.ci/AutoMerge/ {0}
         id: manifest_version
-      - run: echo "The manifest is .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml"
-      - run: rm -rf .ci/Manifest.toml
-      - run: mv .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/Manifest.toml
-      - run: rm -rf .ci/Manifest-*.toml
-      - run: chmod 400 .ci/Project.toml
-      - run: chmod 400 .ci/Manifest.toml
+      - run: echo "The manifest is .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml"
+      - run: rm -rf .ci/AutoMerge/Manifest.toml
+      - run: mv .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml .ci/AutoMerge/Manifest.toml
+      - run: rm -rf .ci/AutoMerge/Manifest-*.toml
+      - run: chmod 400 .ci/AutoMerge/Project.toml
+      - run: chmod 400 .ci/AutoMerge/Manifest.toml
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.add("General")'
         env:
           JULIA_PKG_SERVER: ""
       - run: julia --color=yes -e 'import Pkg; Pkg.Registry.update()'
-      - run: .ci/instantiate.sh .ci/
-      - run: julia --color=yes --project=.ci/ -e 'import Pkg; Pkg.precompile()'
-      - run: julia --color=yes --project=.ci/ -e 'using RegistryCI.TagBot; TagBot.main()'
+      - run: .ci/instantiate.sh .ci/AutoMerge/
+      - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.precompile()'
+      - run: julia --color=yes --project=.ci/AutoMerge/ -e 'using AutoMerge.TagBot; TagBot.main()'
         env:
           GITHUB_TOKEN: ${{ secrets.TAGBOT_TOKEN }}

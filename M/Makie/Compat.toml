@@ -449,12 +449,12 @@ MakieCore = "0.8.6"
 ["0.22"]
 GeometryBasics = "0.5"
 
-["0.22 - 0"]
-ShaderAbstractions = "0.5"
-
 ["0.22 - 0.22.1"]
 MakieCore = "0.9.0"
 PNGFiles = "0.4.3-0.4"
+
+["0.22 - 0.24.14"]
+ShaderAbstractions = "0.5"
 
 ["0.22.2"]
 MakieCore = "0.9.1"
@@ -529,6 +529,10 @@ ComputePipeline = "0.1.8 - 0.1"
 ["0.24.12 - 0"]
 StatsFuns = ["0.9", "1 - 2"]
 
+["0.24.15 - 0"]
+FFMPEG_jll = ["4", "6 - 9"]
+ShaderAbstractions = "0.5.1 - 0.5"
+
 ["0.24.5 - 0"]
 Interpolations = ["0.14", "0.15.1 - 0.16"]
 
@@ -541,7 +545,7 @@ FilePaths = "0.8 - 0.9"
 ["0.24.8"]
 ComputePipeline = "0.1.6 - 0.1"
 
-["0.24.8 - 0"]
+["0.24.8 - 0.24.14"]
 FFMPEG_jll = ["4", "6 - 8"]
 
 ["0.24.9 - 0.24.10"]

@@ -1,6 +1,5 @@
 [6]
 Crayons = "4"
-LLVM = "9.3.1 - 9"
 NVTX = "1"
 PrecompileTools = "1"
 Preferences = "1"
@@ -13,6 +12,9 @@ julia = "1.10.0 - 1"
 ["6 - 6.2"]
 CUDA_Compiler_jll = "0.3 - 0.4"
 GPUCompiler = "1.4.0 - 1"
+
+["6 - 6.4.1"]
+LLVM = "9.3.1 - 9"
 
 ["6.0"]
 CUDACore = "6.0.1"
@@ -49,7 +51,25 @@ CUPTI = "6.3.0"
 NVML = "6.3.0"
 
 ["6.3.1 - 6"]
-CUDACore = "6.3.1"
 CUDA_Compiler_jll = "0.6"
+
+["6.3.1 - 6.3"]
+CUDACore = "6.3.1"
 CUPTI = "6.3.1"
 NVML = "6.3.1"
+
+["6.4.0"]
+CUDACore = "6.4.0"
+CUPTI = "6.4.0"
+NVML = "6.4.0"
+
+["6.4.1"]
+CUDACore = "6.4.1"
+CUPTI = "6.4.1"
+NVML = "6.4.1"
+
+["6.4.2 - 6"]
+CUDACore = "6.4.2"
+CUPTI = "6.4.2"
+LLVM = "10"
+NVML = "6.4.2"

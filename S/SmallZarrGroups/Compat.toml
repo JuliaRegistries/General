@@ -1,7 +1,6 @@
 [0]
 AbstractTrees = "0.4"
 ArgCheck = "2"
-JSON3 = "1"
 
 ["0 - 0.6"]
 StaticArraysCore = "1"
@@ -15,6 +14,9 @@ CodecBzip2 = "0.7"
 
 ["0 - 0.6.5"]
 TranscodingStreams = "0.9"
+
+["0 - 0.8"]
+JSON3 = "1"
 
 ["0 - 0.8.3"]
 julia = "1.8.0-1"
@@ -57,6 +59,8 @@ ZipArchives = "1"
 Base64 = "1.8.0 - 1"
 DataStructures = "0.18 - 0.19"
 StructArrays = "0.6 - 0.7"
+
+["0.8.10 - 0.8"]
 julia = "1.11.0 - 1"
 
 ["0.8.11"]
@@ -64,10 +68,17 @@ ChunkCodecCore = "0.5 - 0.6"
 ChunkCodecLibBlosc = "0.2 - 0.3"
 ChunkCodecLibZlib = "0.2 - 0.3"
 
+["0.8.12"]
+ChunkCodecLibBlosc = "0.3"
+
 ["0.8.12 - 0"]
 ChunkCodecCore = "1"
-ChunkCodecLibBlosc = "0.3"
+
+["0.8.12 - 0.8"]
 ChunkCodecLibZlib = "1"
+
+["0.8.13 - 0.8"]
+ChunkCodecLibBlosc = "1"
 
 ["0.8.4 - 0.8.7"]
 julia = "1.9.0-1"
@@ -93,3 +104,9 @@ julia = "1.11.0-1"
 ChunkCodecCore = "0.5"
 ChunkCodecLibBlosc = "0.2"
 ChunkCodecLibZlib = "0.2"
+
+["0.9 - 0"]
+ChunkCodecLibZstd = "1"
+JSON = "1"
+PrecompileTools = "1"
+julia = "1.12.0 - 1"

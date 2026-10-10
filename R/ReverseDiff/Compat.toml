@@ -8,12 +8,11 @@ StaticArrays = "0.8.3-0.12"
 Statistics = ["0.7", "1"]
 julia = ["0.7", "1"]
 
-["0 - 1"]
+["0 - 1.17"]
 FunctionWrappers = "1"
 
 [1]
 DiffResults = "1"
-julia = "1"
 
 ["1 - 1.10"]
 DiffRules = ["0.1", "1"]
@@ -26,6 +25,9 @@ ForwardDiff = "0.10"
 
 ["1 - 1.15.1"]
 Statistics = "1"
+
+["1 - 1.17"]
+julia = "1"
 
 ["1 - 1.4.4"]
 StaticArrays = "0.10-0.12"
@@ -48,10 +50,10 @@ DiffRules = "1.4.0-1"
 ["1.12 - 1.16.1"]
 SpecialFunctions = ["0.8-0.10", "1-2"]
 
-["1.14 - 1"]
+["1.14 - 1.17"]
 NaNMath = ["0.3", "1"]
 
-["1.16 - 1"]
+["1.16 - 1.17"]
 ForwardDiff = ["0.10", "1"]
 LinearAlgebra = ["0.0.0", "1"]
 Random = ["0.0.0", "1"]
@@ -59,13 +61,27 @@ Statistics = ["0.0.0", "1"]
 
 ["1.16.2 - 1"]
 DiffRules = "1.4.0 - 1"
+
+["1.16.2 - 1.17"]
 SpecialFunctions = ["0.8 - 0.10", "1 - 2"]
 StaticArrays = ["0.10 - 0.12", "1"]
 
-["1.17 - 1"]
+["1.17"]
 LogExpFunctions = ["0.3", "1"]
 
-["1.2 - 1"]
+["1.18 - 1"]
+ForwardDiff = "1"
+FunctionWrappers = "1.1.2 - 1"
+LinearAlgebra = "1"
+LogExpFunctions = "1"
+MacroTools = "0.5.16 - 0.5"
+NaNMath = "1"
+Random = "1"
+SpecialFunctions = "2"
+StaticArrays = "1.6.4 - 1"
+julia = "1.10.0 - 1"
+
+["1.2 - 1.17"]
 MacroTools = "0.5"
 
 ["1.4.5 - 1.11"]

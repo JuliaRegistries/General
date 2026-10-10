@@ -176,8 +176,10 @@ Dates = "1"
 LazyArtifacts = "1"
 Pkg = "1"
 PrecompileTools = "1"
-SHA = "0.7"
 TOML = "1"
+
+["7.0.7 - 8.1"]
+SHA = "0.7"
 
 ["7.0.8"]
 Pluto = "0.20.18"
@@ -192,3 +194,6 @@ tectonic_jll = "0.9 - 0.15"
 ["8.1 - 8"]
 Pluto = "1.0"
 tectonic_jll = "0.9 - 0.16"
+
+["8.2 - 8"]
+SHA = ["0.7", "1"]

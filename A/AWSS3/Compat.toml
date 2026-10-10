@@ -36,7 +36,6 @@ Base64 = "1"
 Compat = "3.29.0 - 4"
 Dates = "1"
 FilePathsBase = "0.9.11 - 0.9"
-MbedTLS = ["0.6 - 0.7", "1"]
 Mocking = "0.7 - 0.8"
 OrderedCollections = "1 - 2"
 Retry = "0.3 - 0.4"
@@ -45,8 +44,14 @@ UUIDs = "1"
 XMLDict = "0.3 - 0.4"
 julia = "1.6.0 - 1"
 
+["0.11.5 - 0.11.6"]
+MbedTLS = ["0.6 - 0.7", "1"]
+
 ["0.11.6 - 0"]
 HTTP = "1 - 2"
+
+["0.11.7 - 0"]
+SHA = ["0.7", "1"]
 
 ["0.5"]
 AWSCore = "0.5.0-0.6"

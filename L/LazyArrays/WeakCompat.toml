@@ -3,10 +3,19 @@ StaticArrays = "1"
 
 [2]
 BlockArrays = "1"
+
+["2 - 2.13"]
 BlockBandedMatrices = "0.13"
 
 ["2 - 2.6.1"]
 BandedMatrices = "1.6.2-1"
 
-["2.6.2 - 2"]
+["2.14 - 2.14.1"]
+BlockBandedMatrices = "0.13.7 - 0.13"
+
+["2.14.2 - 2"]
+BandedMatrices = "1.13.1 - 1"
+BlockBandedMatrices = "0.13.8 - 0.13"
+
+["2.6.2 - 2.14.1"]
 BandedMatrices = "1.6.2 - 1"

@@ -1,6 +1,5 @@
 [0]
 Distributions = "0.25"
-OrderedCollections = "1"
 ProgressBars = "1"
 QuadGK = "2"
 Sobol = "1"
@@ -16,6 +15,9 @@ Interpolations = "0.14"
 
 ["0 - 0.7.0"]
 julia = "1.6.0-1"
+
+["0 - 0.8"]
+OrderedCollections = "1"
 
 ["0.2 - 0"]
 ChainRulesCore = "1"
@@ -56,3 +58,6 @@ ForwardDiff = ["0.10", "1"]
 Interpolations = ["0.14 - 0.16", "1.6.0 - 1"]
 LsqFit = "0.15 - 0.16"
 Roots = "2 - 3"
+
+["0.9 - 0"]
+OrderedCollections = "1 - 2"

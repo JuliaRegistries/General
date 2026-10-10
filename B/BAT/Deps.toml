@@ -12,7 +12,7 @@ UnsafeArrays = "c4a57d5a-5b31-53a6-b365-19f8c011fbd6"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 
-["0 - 4"]
+["0 - 5"]
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
 ArraysOfArrays = "65a8f2f4-9b39-5baf-92e2-a9cc46fdf018"
 Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
@@ -38,28 +38,28 @@ TypedTables = "9d95f2ec-7b3d-5a63-8d20-e2491e220bb9"
 ["0.1.1 - 0.3"]
 Cuba = "8a292aeb-7a57-582c-b821-06e4c11590b1"
 
-["0.2 - 4"]
+["0.2 - 5"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 ["0.3 - 3.2"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
-["0.3 - 4"]
+["0.3 - 5"]
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 
 ["0.4 - 2"]
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 
-["0.4 - 4"]
+["0.4 - 5"]
 KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
 PositiveFactorizations = "85a6dd25-e78a-55b7-8502-1745935b8125"
 ValueShapes = "136a8f8c-c49b-4edb-8b98-f3d64d48be8f"
 
-["0.5 - 4"]
+["0.5 - 5"]
 Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 
-["1 - 4"]
+["1 - 5"]
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 
 [2]
@@ -74,7 +74,7 @@ SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
 NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
 
-["2 - 4"]
+["2 - 5"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DistributionsAD = "ced4e74d-a319-5a8a-b0ac-84af2272839c"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
@@ -87,7 +87,7 @@ Sobol = "ed01d8cd-4d21-5b2a-85b4-cc3bdc58bad4"
 [3]
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 
-["3 - 4"]
+["3 - 5"]
 AffineMaps = "2c83c9a8-abf5-4329-a0d7-deffaf474661"
 AutoDiffOperators = "6e1301d5-4f4d-4fb5-9679-7191e22f0e0e"
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
@@ -105,16 +105,16 @@ StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 ZygoteRules = "700de1a5-db45-46bc-99cf-38207098b444"
 
-["3.1 - 4"]
+["3.1 - 5"]
 Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
 
 ["3.2 - 3"]
 DomainSets = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
 
-["3.2 - 4"]
+["3.2 - 5"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 
-["3.4 - 4"]
+["3.4 - 5"]
 LazyReports = "e5afb96c-f319-4582-8667-2a6c7d02249d"
 
 ["4.0"]
@@ -123,9 +123,14 @@ DomainSets = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
 NamedArrays = "86f7a689-2022-50b4-a561-43c23ac3c673"
 StatsFuns = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
 
-["4.0.1 - 4"]
+["4.0.1 - 5"]
 OneTwoMany = "762dc654-8631-413a-a342-372a7419ad9d"
 
-["4.1 - 4"]
+["4.1 - 5"]
 LogarithmicNumbers = "aa2f6b4e-9042-5d33-9679-40d3a6b85899"
 StaticThings = "7e4b4f32-fbf9-4b74-9510-4d15222ac973"
+
+[5]
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+MatrixShapedOperators = "bac048d7-ba5f-40bb-941d-86aed15d6a0e"
+ScopedSettings = "6ffd3f19-5aa5-475d-9277-f0318686a530"

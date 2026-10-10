@@ -138,7 +138,6 @@ GDAL_jll = "300.900.0 - 301.901.0"
 ["0.7.15 - 0"]
 Colors = "0.9 - 0.13"
 DelimitedFiles = "1"
-GeoParams = "0.2 - 0.7"
 GeometryBasics = "0.1 - 0.5"
 ImageIO = "0.1 - 0.6"
 Interpolations = "0.14 - 0.16"
@@ -148,6 +147,9 @@ NearestNeighbors = "0.2 - 0.4"
 Parameters = "0.9 - 0.12"
 SpecialFunctions = "1 - 2"
 Statistics = "1"
+
+["0.7.15 - 0.7"]
+GeoParams = "0.2 - 0.7"
 WhereTheWaterFlows = "0.10 - 0.11"
 julia = "1.9.0 - 1"
 
@@ -160,7 +162,7 @@ MeshIO = "0.1 - 0.5"
 ["0.7.16 - 0.7.20"]
 GDAL_jll = "300 - 304"
 
-["0.7.17 - 0"]
+["0.7.17 - 0.7.21"]
 ParallelTestRunner = "2"
 
 ["0.7.18 - 0"]
@@ -171,6 +173,10 @@ GeoParams = "0.2-0.6"
 
 ["0.7.21 - 0"]
 MeshIO = "0.5"
+
+["0.7.23 - 0"]
+OpenJpeg_jll = "2.5.0 - 2"
+Scratch = "1"
 
 ["0.7.5 - 0.7.7"]
 GDAL_jll = "300.900.0-301.900.0"
@@ -183,3 +189,15 @@ WhereTheWaterFlows = "0.10-0.11"
 
 ["0.7.8 - 0.7.17"]
 NCDatasets = "0.14"
+
+["0.8 - 0"]
+LinearAlgebra = "1"
+Printf = "1"
+WhereTheWaterFlows = ["0.10 - 0.11", "0.13"]
+julia = "1.10.0 - 1"
+
+["0.8.0"]
+GeoParams = "0.2 - 0.8"
+
+["0.8.1 - 0"]
+GeoParams = "0.2 - 0.9"

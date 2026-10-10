@@ -1,17 +1,25 @@
 [0]
 Associations = "4"
-DAGMakie = "0.1"
 DataFrames = "1"
 GraphPPL = "4.6.0 - 4"
 OrdinaryDiffEq = "6 - 7"
 RxInfer = "4 - 5"
 
+["0 - 0.4.6"]
+DAGMakie = "0.1"
+
 ["0.3.13 - 0"]
-DataInterpolations = "6 - 9"
 SciMLSensitivity = "7"
+
+["0.3.13 - 0.4.6"]
+DataInterpolations = "6 - 9"
 
 ["0.4.2 - 0"]
 ComponentArrays = "0.15"
 Lux = "1"
 Optimization = "4 - 5"
 OptimizationOptimisers = "0.3"
+
+["0.4.7 - 0"]
+DAGMakie = "0.1.11 - 0.1"
+DataInterpolations = "6 - 10"

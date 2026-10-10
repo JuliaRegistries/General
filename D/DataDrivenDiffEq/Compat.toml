@@ -227,7 +227,6 @@ DataInterpolations = "8.5.0 - 9"
 ModelingToolkitBase = "1"
 
 ["1.15.5 - 1"]
-DataInterpolations = "9"
 DiffEqBase = "7"
 DocStringExtensions = "0.9"
 MLUtils = "0.4"
@@ -237,13 +236,21 @@ PrecompileTools = "1.2.1 - 1"
 SciMLBase = "3"
 SciMLPublic = "1"
 StatsBase = "0.34"
-Symbolics = "7.18.1 - 7"
 
 ["1.15.5 - 1.15"]
 StatsAPI = "1"
 
+["1.15.5 - 1.16.0"]
+DataInterpolations = "9"
+Symbolics = "7.18.1 - 7"
+
 ["1.16 - 1"]
 StatsAPI = "1.1.0 - 1"
+
+["1.16.1 - 1"]
+CurveFit = "1.8.1 - 1"
+DataInterpolations = "9.2.0 - 10"
+Symbolics = "7.37.0 - 7"
 
 ["1.2 - 1.3.0"]
 DataInterpolations = "4"

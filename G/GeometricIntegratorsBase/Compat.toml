@@ -14,11 +14,11 @@ GeometricSolutions = "0.5"
 SimpleSolvers = "0.5"
 julia = "1.6.0 - 1"
 
-["0.1.10 - 0"]
-julia = "1.10.0 - 1"
-
 ["0.1.10 - 0.1"]
 SimpleSolvers = "0.7.5 - 0.7"
+
+["0.1.10 - 0.6.8"]
+julia = "1.10.0 - 1"
 
 ["0.1.4 - 0.1"]
 GeometricSolutions = "0.5.3 - 0.5"
@@ -38,16 +38,18 @@ Parameters = "0.12"
 SimpleSolvers = "0.7.5 - 0.8"
 
 ["0.2 - 0"]
-GeometricEquations = "0.21"
 SafeTestsets = "0.1"
+
+["0.2 - 0.6.8"]
+GeometricEquations = "0.21"
 
 ["0.2.0"]
 GeometricSolutions = "0.6.1 - 0.6"
 
-["0.2.1 - 0"]
+["0.2.1 - 0.6.8"]
 GeometricSolutions = "0.6.3 - 0.6"
 
-["0.3 - 0"]
+["0.3 - 0.6.8"]
 GeometricBase = "0.14.5 - 0.14"
 
 ["0.3.0"]
@@ -65,5 +67,15 @@ SimpleSolvers = "0.11"
 ["0.6.3"]
 SimpleSolvers = "0.12.1 - 0.12"
 
-["0.6.4 - 0"]
+["0.6.4 - 0.6.7"]
 SimpleSolvers = "0.12.1 - 0.13"
+
+["0.6.8"]
+SimpleSolvers = "0.12.1 - 0.14"
+
+["0.6.9 - 0"]
+GeometricBase = "0.15"
+GeometricEquations = "0.21.5 - 0.21"
+GeometricSolutions = "0.6.6 - 0.6"
+SimpleSolvers = "0.14.1 - 0.14"
+julia = "1.11.0 - 1"

@@ -1,13 +1,10 @@
 [0]
 AbstractMCMC = "80f14c24-f653-4e6a-9b94-39d6b0f70001"
 AcceleratedKernels = "6a4ca0a5-0e36-4168-a932-d9be78d558f1"
-CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
-NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
-OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SSMProblems = "26aad666-b158-4e64-9d35-0e672562fa48"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
@@ -17,5 +14,16 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 ["0 - 0.2"]
 GaussianDistributions = "43dcc890-d446-5863-8d1a-14597580bb8d"
 
-["0.3.1 - 0"]
+["0 - 0.4"]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
+OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
+
+["0.3.1 - 0.4"]
 PDMats = "90014a1f-27ba-587c-ab20-58faa44d9150"
+
+["0.5 - 0"]
+ADTypes = "47edcb42-4c32-4615-8424-f2b9edc5f35b"
+DifferentiationInterface = "a0c0ee7d-e4b9-4e03-894e-1c5f64a51d63"
+LogDensityProblems = "6fdf6af0-433a-55f7-b3ed-c6c6e0b8df7c"
+MCMCChains = "c7f686f2-ff18-58e9-bc7b-31028e88f75d"

@@ -1,4 +1,11 @@
-[0]
+["0 - 0.2"]
 AbstractFFTs = "1.5.0-1"
 CUDA = "5.2.0-5"
 julia = "1.10.0-1"
+
+["0.3 - 0"]
+CUDA = "5 - 6"
+Reexport = "1"
+VkFFT = "0.1"
+VkFFT_CUDA_jll = "0.1"
+julia = "1.10.0 - 1"
