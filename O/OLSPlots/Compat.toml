@@ -1,9 +1,17 @@
 [0]
-CairoMakie = "0.13"
-DataFrames = "1.7.0 - 1"
 Distributions = "0.25"
-Documenter = "1.11.0 - 1"
 GLM = "1.9.0 - 1"
 Loess = "0.6"
+
+["0 - 0.1"]
+CairoMakie = "0.13"
+DataFrames = "1.7.0 - 1"
+Documenter = "1.11.0 - 1"
 StatsBase = "0.34"
 julia = "1.6.0 - 1"
+
+["0.2 - 0"]
+CairoMakie = "0.13 - 0.15"
+LinearAlgebra = "1"
+Statistics = "1"
+julia = "1.10.0 - 1"
