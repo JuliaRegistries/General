@@ -113,6 +113,8 @@ Symbolics = "6 - 7"
 
 ["1.1 - 1"]
 SymbolicUtils = "4.10.0 - 4"
+
+["1.1 - 1.4.1"]
 Symbolics = "7"
 
 ["1.2"]
@@ -140,8 +142,15 @@ ADTypes = "1.18.0 - 1"
 OptimizationBase = "5"
 SciMLLogging = "1.10.1 - 2"
 
+["1.4.1"]
+OptimizationBase = "5.5.0 - 5"
+SciMLLogging = "2"
+
 ["1.4.1 - 1"]
 ModelingToolkitBase = "1.52.0 - 1"
-OptimizationBase = "5.5.0 - 5"
 SciMLBase = "3"
-SciMLLogging = "2"
+
+["1.4.2 - 1"]
+OptimizationBase = "5.8.0 - 5"
+SciMLLogging = "2.1.0 - 2"
+Symbolics = "7.37.0 - 7"
