@@ -101,8 +101,10 @@ YAML = "0.4.9 - 0.4"
 DiscretePIDs = ["0.1.5 - 0.1", "1"]
 NLSolversBase = "7.10.0 - 8"
 StaticArrays = "1.9.7 - 1"
-WinchControllers = "0.5.4 - 0.5"
 WinchModels = "0.3.9 - 0.3"
+
+["0.2.19 - 0.2"]
+WinchControllers = "0.5.4 - 0.5"
 
 ["0.2.19 - 0.2.20"]
 KiteUtils = "0.11.4 - 0.11"
@@ -113,7 +115,7 @@ julia = "1.11.0 - 1"
 ["0.2.2"]
 KiteUtils = "0.6.5-0.6"
 
-["0.2.21 - 0"]
+["0.2.21 - 0.2"]
 KiteUtils = "0.11.7 - 0.11"
 
 ["0.2.3"]
@@ -145,3 +147,7 @@ KiteUtils = "0.7"
 
 ["0.2.8 - 0.2.18"]
 WinchModels = "0.3"
+
+["0.3 - 0"]
+KiteUtils = "0.11.7 - 0.13"
+WinchControllers = "0.5.4 - 0.6"
