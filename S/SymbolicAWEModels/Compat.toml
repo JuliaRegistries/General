@@ -118,10 +118,12 @@ VortexStepMethod = "5.1.0 - 5"
 ["0.18 - 0"]
 SHA = ["0.7", "1"]
 
-["0.19 - 0"]
-AtmosphericModels = "0.3.11 - 0.3"
+["0.19"]
 KiteUtils = "0.13"
 VortexStepMethod = "6"
+
+["0.19 - 0"]
+AtmosphericModels = "0.3.11 - 0.3"
 julia = "1.12.0 - 1"
 
 ["0.2"]
@@ -141,6 +143,11 @@ UnPack = "1.0.2 - 1"
 ["0.2 - 0.5"]
 REPL = "1"
 julia = "1"
+
+["0.20 - 0"]
+JSON = "1"
+KiteUtils = "0.13.1 - 0.13"
+VortexStepMethod = "6.1.0 - 6"
 
 ["0.3"]
 ModelingToolkit = "10.14"
