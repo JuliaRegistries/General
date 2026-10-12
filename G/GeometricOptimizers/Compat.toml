@@ -1,5 +1,4 @@
 [0]
-LazyArrays = "2"
 Printf = "1"
 
 ["0 - 0.1"]
@@ -11,9 +10,8 @@ julia = "1"
 ["0 - 0.5"]
 GeometricBase = "0.14"
 
-["0.2 - 0"]
-ChainRulesCore = "1"
-KernelAbstractions = "0.9"
+["0 - 0.8"]
+LazyArrays = "2"
 
 ["0.2 - 0.4"]
 ForwardDiff = "1"
@@ -24,6 +22,10 @@ SimpleSolvers = "0.12"
 
 ["0.2 - 0.5"]
 julia = "1.10.0 - 1"
+
+["0.2 - 0.8"]
+ChainRulesCore = "1"
+KernelAbstractions = "0.9"
 
 ["0.2.1 - 0"]
 LinearAlgebra = "1"
@@ -38,15 +40,23 @@ NeuralNetworkParameters = "0.2"
 ["0.6"]
 NeuralNetworkParameters = "0.2.4 - 0.2"
 
-["0.6 - 0"]
+["0.6 - 0.8"]
 GeometricBase = "0.14.9 - 0.14"
 julia = "1.11.0 - 1"
 
 ["0.7"]
 SimpleSolvers = "0.13.2 - 0.13"
 
-["0.7 - 0"]
+["0.7 - 0.8"]
 NeuralNetworkParameters = "0.3"
 
-["0.8 - 0"]
+["0.8"]
 SimpleSolvers = "0.13.2 - 0.14"
+
+["0.9 - 0"]
+ChainRulesCore = "1.25.1 - 1"
+GeometricBase = "0.15"
+KernelAbstractions = "0.9.38 - 0.9"
+NeuralNetworkParameters = "0.5"
+SimpleSolvers = "0.14.2 - 0.14"
+julia = "1.12.0 - 1"
