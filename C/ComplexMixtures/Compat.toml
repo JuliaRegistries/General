@@ -30,7 +30,7 @@ julia = "1"
 ["0.1.5 - 0.4.3"]
 PDBTools = "0.5-1.0"
 
-["0.4.10 - 2"]
+["0.4.10 - 3"]
 StableRNGs = "1"
 
 ["0.4.14 - 0.5.8"]
@@ -187,13 +187,13 @@ StaticArrays = "1.6.0-1"
 ["2.1.8 - 2.1.12"]
 StaticArrays = "1.4.0-1"
 
-["2.11.4 - 2"]
-TestItems = "1"
-
 ["2.11.4 - 2.14.1"]
 CellListMap = "0.9.7-0.9"
 MolSimToolkitShared = "1.1.2-1"
 PrecompileTools = "1.2.1-1"
+
+["2.11.4 - 3"]
+TestItems = "1"
 
 ["2.13 - 2.14.1"]
 LinearAlgebra = "1.10.0-1"
@@ -202,19 +202,6 @@ Printf = "1.10.0-1"
 Random = "1.10.0-1"
 Statistics = "1.10.0-1"
 julia = "1.10.0-1"
-
-["2.14.2 - 2"]
-Chemfiles = "0.10.3 - 0.10"
-ChunkSplitters = "3.1.0 - 3"
-DocStringExtensions = "0.9.1 - 0.9"
-LinearAlgebra = "1.10.0 - 1"
-PrecompileTools = "1.2.1 - 1"
-Printf = "1.10.0 - 1"
-ProgressMeter = "1.10.1 - 1"
-Random = "1.10.0 - 1"
-RandomNumbers = "1.5.0 - 1"
-Statistics = "1.10.0 - 1"
-julia = "1.10.0 - 1"
 
 ["2.14.2 - 2.14"]
 StaticArrays = "1.6.0 - 1"
@@ -232,10 +219,23 @@ CellListMap = "0.9.7 - 0.9"
 JSON3 = "1.11.1 - 1"
 StructTypes = "1.10.0 - 1"
 
-["2.14.3 - 2"]
+["2.14.2 - 3"]
+Chemfiles = "0.10.3 - 0.10"
+ChunkSplitters = "3.1.0 - 3"
+DocStringExtensions = "0.9.1 - 0.9"
+LinearAlgebra = "1.10.0 - 1"
+PrecompileTools = "1.2.1 - 1"
+Printf = "1.10.0 - 1"
+ProgressMeter = "1.10.1 - 1"
+Random = "1.10.0 - 1"
+RandomNumbers = "1.5.0 - 1"
+Statistics = "1.10.0 - 1"
+julia = "1.10.0 - 1"
+
+["2.14.3 - 3"]
 FortranFiles = "0.6.2 - 0.6"
 
-["2.15 - 2"]
+["2.15 - 3"]
 StaticArrays = "1.9.0 - 1"
 
 ["2.15.1 - 2.17.0"]
@@ -244,19 +244,19 @@ PDBTools = "3"
 ["2.17 - 2.18.1"]
 MolSimToolkitShared = "1.5.1 - 1"
 
-["2.17.1 - 2"]
-CellListMap = "0.10.1 - 0.10"
-
 ["2.17.1 - 2.18.1"]
 PDBTools = "3.25.2 - 3"
 
-["2.18.2 - 2"]
-MolSimToolkitShared = "1.6.0 - 1"
+["2.17.1 - 3"]
+CellListMap = "0.10.1 - 0.10"
 
 ["2.18.2 - 2.18"]
 PDBTools = "3.33.2 - 3"
 
-["2.19 - 2"]
+["2.18.2 - 3"]
+MolSimToolkitShared = "1.6.0 - 1"
+
+["2.19 - 3"]
 JSON = "1.6.1 - 1"
 PDBTools = "3.41.0 - 3"
 
