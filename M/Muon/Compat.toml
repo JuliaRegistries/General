@@ -30,9 +30,21 @@ EllipsisNotation = "1.8.0 - 1"
 FileIO = "1.6.0 - 1"
 FillArrays = "1.13.0 - 1"
 HDF5 = ["0.16 - 0.99", "1"]
-Logging = "1.6.7 - 1"
 OrderedCollections = "1.6.0 - 2"
 Preferences = "1.5.0 - 1"
 StructArrays = "0.6.4 - 0.7"
+
+["0.3.0"]
+Logging = "1.6.7 - 1"
 Zarr = "0.10"
 julia = "1.5.0 - 1"
+
+["0.3.1 - 0"]
+LinearAlgebra = ["0.0.0", "1.5.0 - 1"]
+Logging = ["0.0.0", "1.5.0 - 1"]
+Pkg = ["0.0.0", "1.5.0 - 1"]
+Random = ["0.0.0", "1.5.0 - 1"]
+SparseArrays = ["0.0.0", "1.5.0 - 1"]
+Zarr = "0.11"
+ZarrCore = "0.11"
+julia = "1.10.0 - 1"
