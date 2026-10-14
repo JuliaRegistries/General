@@ -44,7 +44,7 @@ julia = "1.6.0-1"
 ["0.4.1 - 0.5.3"]
 ModelingToolkit = "9"
 
-["0.4.1 - 1"]
+["0.4.1 - 1.4"]
 SciMLStructures = "1"
 
 ["0.4.3 - 0.5.4"]
@@ -147,10 +147,15 @@ OptimizationBase = "5.5.0 - 5"
 SciMLLogging = "2"
 
 ["1.4.1 - 1"]
-ModelingToolkitBase = "1.52.0 - 1"
 SciMLBase = "3"
+
+["1.4.1 - 1.4"]
+ModelingToolkitBase = "1.52.0 - 1"
 
 ["1.4.2 - 1"]
 OptimizationBase = "5.8.0 - 5"
 SciMLLogging = "2.1.0 - 2"
 Symbolics = "7.37.0 - 7"
+
+["1.5 - 1"]
+ModelingToolkitBase = "1.77.0 - 1"
