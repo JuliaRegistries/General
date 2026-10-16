@@ -30,9 +30,11 @@ SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 GDAL_jll = "a7073274-a066-55f0-b90d-d619367d196c"
 GMT_jll = "b68b8c3f-ed99-5bef-9675-4739d9426b26"
-Ghostscript_jll = "61579ee1-b43e-5ca0-a5da-69d92c66a64b"
 PROJ_jll = "58948b4f-47e0-5654-a9ad-f609743f8632"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+
+["1 - 1.43"]
+Ghostscript_jll = "61579ee1-b43e-5ca0-a5da-69d92c66a64b"
 
 ["1.19 - 1"]
 LASzip_jll = "8372b9c3-1e34-5cc3-bfab-1a98e101de11"
@@ -45,6 +47,9 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 ["1.29 - 1"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+
+["1.44 - 1"]
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 ["1.7 - 1"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
