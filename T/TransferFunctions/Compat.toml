@@ -1,28 +1,43 @@
 [0]
 FFTW = "1"
-FillArrays = "1"
-LazyGrids = "0.4-0.5"
 OffsetArrays = "1"
 Reexport = "1"
-SimpleTraits = "0.9"
 SpecialFunctions = "2"
 Unitful = "1"
 
-["0-0.3"]
+["0 - 0.3"]
 Interpolations = "0.14"
 julia = "1.6.0-1"
 
-["0.4-0"]
+["0 - 0.7"]
+FillArrays = "1"
+LazyGrids = "0.4-0.5"
+SimpleTraits = "0.9"
+
+["0.4 - 0.7"]
 ImageFiltering = "0.7"
 Interpolations = "0.14-0.15"
 Roots = "2"
 julia = "1.8.0-1"
 
-["0.5-0"]
+["0.5 - 0"]
 IntervalSets = "0.7"
 
 ["0.6"]
 ColorTypes = "0.12"
 
-["0.7-0"]
+["0.7"]
 ColorTypes = "0.7-0.12"
+
+["0.8 - 0"]
+ComponentArrays = "0.15.29 - 0.15"
+Distributions = "0.25.120 - 0.25"
+DomainSets = "0.7.16 - 0.8"
+FFTViews = "0.3.2 - 0.3"
+InterfaceFunctions = "0.2.4 - 0.2"
+LinearAlgebra = "1"
+Roots = "2 - 3"
+Rotations = "1.7.1 - 1"
+StaticArraysCore = "1.4.3 - 1"
+Statistics = "1"
+julia = "1.11.0 - 1"
