@@ -1,8 +1,6 @@
 [1]
-BinaryBuilderAuditor = "0.2"
 BinaryBuilderGitUtils = "0.2"
 BinaryBuilderPlatformExtensions = "0.2"
-BinaryBuilderProducts = "0.2"
 BinaryBuilderSources = "0.2"
 BinaryBuilderToolchains = "0.3"
 Git = "1.5.0 - 1"
@@ -29,6 +27,10 @@ TreeArchival = "0.2"
 gh_cli_jll = "2.63.2 - 2"
 julia = "1.12.0 - 1"
 
+["1 - 1.1"]
+BinaryBuilderAuditor = "0.2"
+BinaryBuilderProducts = "0.2"
+
 ["1.0"]
 JLLGenerator = "0.4"
 LazyJLLWrappers = "1.1.0 - 1"
@@ -54,3 +56,7 @@ SHA = "0.7"
 
 ["1.1.1 - 1"]
 SHA = ["0.7", "1"]
+
+["1.2 - 1"]
+BinaryBuilderAuditor = "0.3"
+BinaryBuilderProducts = "0.3"
