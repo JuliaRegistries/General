@@ -61,7 +61,7 @@ julia = "1.6.0-1"
 ["1.8 - 1.9"]
 SciMLBase = "1.34.0-1"
 
-[2]
+["2 - 2.18.0"]
 ConcreteStructs = "0.2"
 
 ["2 - 2.5"]
@@ -86,12 +86,12 @@ SciMLBase = "2 - 3"
 ["2.10.1 - 2.11.0"]
 DiffEqBase = "6.140.0 - 7"
 
-["2.11.1 - 2"]
-DiffEqBase = "7"
-DiffEqCallbacks = "4.5.0 - 4"
-
 ["2.11.1 - 2.12"]
 Reexport = "1.2.2 - 1"
+
+["2.11.1 - 2.18.0"]
+DiffEqBase = "7"
+DiffEqCallbacks = "4.5.0 - 4"
 
 ["2.12 - 2.13"]
 LinearSolve = "2 - 5"
@@ -104,11 +104,13 @@ LinearAlgebra = "1.10.0 - 1"
 NonlinearSolveBase = "2.40.0 - 2"
 
 ["2.14 - 2"]
-LinearSolve = "5.1.0 - 5"
 SciMLPublic = "1"
 
 ["2.14 - 2.15"]
 SciMLBase = "3"
+
+["2.14 - 2.18.0"]
+LinearSolve = "5.1.0 - 5"
 
 ["2.15 - 2"]
 PrecompileTools = "1.2.1 - 1"
@@ -116,12 +118,22 @@ PrecompileTools = "1.2.1 - 1"
 ["2.16"]
 SciMLBase = "3.6.0 - 3"
 
-["2.16 - 2"]
+["2.16 - 2.18.0"]
 ForwardDiff = "1"
 
 ["2.17 - 2"]
 SciMLBase = "3.55.0 - 3"
+
+["2.17 - 2.18.0"]
 SymbolicIndexingInterface = "0.3"
+
+["2.18.1 - 2"]
+ConcreteStructs = "0.2.3 - 0.2"
+DiffEqBase = "7.15.0 - 7"
+DiffEqCallbacks = "4.16.0 - 4"
+ForwardDiff = "1.0.1 - 1"
+LinearSolve = "5.4.0 - 5"
+SymbolicIndexingInterface = "0.3.43 - 0.3"
 
 ["2.4.1 - 2.5"]
 DiffEqCallbacks = "3-4"
