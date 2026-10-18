@@ -88,7 +88,6 @@ julia = "1.10.0 - 1"
 
 ["0.2.18 - 0"]
 JLD2 = "0.5.11 - 0.5"
-NLsolve = "4.5.0 - 4"
 Observables = "0.3 - 0.5"
 Pkg = "1.10.0 - 1"
 Printf = "1.10.0 - 1"
@@ -96,6 +95,9 @@ Reexport = "1.2.2 - 1"
 Rotations = "1.7.1 - 1"
 StructTypes = "1.10.0 - 1"
 YAML = "0.4.9 - 0.4"
+
+["0.2.18 - 0.3"]
+NLsolve = "4.5.0 - 4"
 
 ["0.2.19 - 0"]
 DiscretePIDs = ["0.1.5 - 0.1", "1"]
@@ -148,6 +150,12 @@ KiteUtils = "0.7"
 ["0.2.8 - 0.2.18"]
 WinchModels = "0.3"
 
+["0.3"]
+WinchControllers = "0.5.4 - 0.6"
+
 ["0.3 - 0"]
 KiteUtils = "0.11.7 - 0.13"
-WinchControllers = "0.5.4 - 0.6"
+
+["0.4 - 0"]
+NLsolve = "4.5.0 - 5"
+WinchControllers = "0.6.5 - 0.6"
