@@ -14,7 +14,7 @@ julia = "1.6.7-1"
 ["0 - 0.6.7"]
 RewriteTools = "0.1"
 
-["0 - 1"]
+["0 - 2"]
 Requires = "1"
 
 ["0.2 - 1.2.9"]
@@ -24,11 +24,11 @@ SyntaxInterface = "0.2.1-0.2"
 ["0.5 - 1.2.9"]
 DataStructures = "0.18"
 
-["0.5.3 - 1"]
-PrecompileTools = "1"
-
 ["0.5.3 - 1.2.9"]
 JSON = "0.21"
+
+["0.5.3 - 2"]
+PrecompileTools = "1"
 
 ["0.6 - 0.6.20"]
 CIndices = "0.3"
@@ -36,18 +36,18 @@ CIndices = "0.3"
 ["0.6 - 1.2.9"]
 AbstractTrees = "0.3.4-0.4"
 
-["0.6.21 - 1"]
+["0.6.21 - 2"]
 Distributions = "0.25"
 
 ["0.6.26 - 0.6.30"]
 RewriteTools = "0.2.1-0.2"
 
-["0.6.26 - 1"]
-TOML = "1"
-
 ["0.6.26 - 1.2.9"]
 Preferences = "1.4.3-1"
 UUIDs = "1.4.0-1"
+
+["0.6.26 - 2"]
+TOML = "1"
 
 ["0.6.31 - 1.2.9"]
 RewriteTools = "0.2.4-0.2"
@@ -75,11 +75,16 @@ UnsafeAtomics = "0.2.1-0.2"
 UnsafeAtomics = "0.2.1-0.3"
 
 ["1.2.10 - 1"]
-AbstractTrees = "0.3.4 - 0.4"
 AutoHashEquals = "2.2.0 - 2"
+IterTools = "1.10.0 - 1"
+
+["1.2.10 - 1.7"]
+UnsafeAtomics = "0.2.1 - 0.3"
+
+["1.2.10 - 2"]
+AbstractTrees = "0.3.4 - 0.4"
 Compat = "3.29.0 - 4"
 DataStructures = "0.18 - 0.19"
-IterTools = "1.10.0 - 1"
 JSON = "1.2.0 - 1"
 Preferences = "1.4.3 - 1"
 RewriteTools = "0.2.4 - 0.2"
@@ -87,14 +92,11 @@ SyntaxInterface = "0.2.1 - 0.2"
 UUIDs = "1.4.0 - 1"
 julia = "1.10.0 - 1"
 
-["1.2.10 - 1.7"]
-UnsafeAtomics = "0.2.1 - 0.3"
-
 ["1.2.7 - 1.2.8"]
 OpenSSL_jll = "3.0.16-3.0"
 
-["1.3 - 1"]
+["1.3 - 2"]
 AcceleratedKernels = "0.4.3 - 0.4"
 
-["1.8 - 1"]
+["1.8 - 2"]
 UnsafeAtomics = "0.2.1 - 0.4"
