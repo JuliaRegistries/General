@@ -32,13 +32,13 @@ LinearAlgebra = "1.8-1"
 Printf = "1.8-1"
 SparseArrays = "1.8-1"
 
-["0.1.7 - 0"]
-TimerOutputs = "0.5"
-
 ["0.1.7 - 0.1"]
 LuxurySparse = "0.7"
 QuantumLattices = "0.9.14-0.9"
 julia = "1.8-1.10"
+
+["0.1.7 - 0.3"]
+TimerOutputs = "0.5"
 
 ["0.2"]
 QuantumLattices = "0.13.3 - 0.13"
@@ -52,11 +52,13 @@ LuxurySparse = "0.8"
 Printf = "1.9 - 1"
 SparseArrays = "1.10 - 1"
 
+["0.3"]
+julia = "1.10 - 1.12"
+
 ["0.3 - 0"]
 DataStructures = "0.18 - 0.19"
 HalfIntegers = "1.6 - 1"
 Random = "1.10 - 1"
-julia = "1.10 - 1.12"
 
 ["0.3.0"]
 QuantumLattices = "0.14.2 - 0.14"
@@ -73,5 +75,11 @@ QuantumLattices = "0.14.7 - 0.14"
 ["0.3.5 - 0.3.6"]
 QuantumLattices = "0.15"
 
-["0.3.7 - 0"]
+["0.3.7 - 0.3"]
 QuantumLattices = "0.15.4 - 0.15"
+
+["0.4 - 0"]
+QuantumLattices = "0.16"
+Serialization = "1.10 - 1"
+TimerOutputs = ["0.5", "1"]
+julia = "1.10 - 1.13"
