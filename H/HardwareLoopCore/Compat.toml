@@ -1,6 +1,8 @@
 [1]
-GNSSSignals = "4"
 HardwareLoopProtocol = "1"
+
+["1 - 2"]
+GNSSSignals = "4"
 StaticArrays = "1"
 TrackingLoopFilters = "1"
 Unitful = "1"
@@ -12,5 +14,8 @@ TrackingLoops = "1 - 3"
 ["1.1"]
 TrackingLoops = "4"
 
-["1.2 - 1"]
+["1.2 - 2"]
 TrackingLoops = "5"
+
+[2]
+HardwareLoopProtocol = "3"
