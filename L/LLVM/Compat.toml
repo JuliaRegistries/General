@@ -37,8 +37,13 @@ LLVMExtra_jll = "0.0.51"
 ["10.1.1 - 10.2.0"]
 LLVMExtra_jll = "0.0.52"
 
-["10.2.1 - 10"]
+["10.2.1 - 10.2"]
 LLVMExtra_jll = "0.0.53"
+
+["10.3 - 10"]
+CEnum = ["0.5", "1"]
+LLVMExtra_jll = "0.0.55"
+ScopedValues = "1"
 
 ["4 - 6.1"]
 julia = "1.6.0-1"
@@ -162,12 +167,14 @@ LLVMExtra_jll = "0.0.36"
 LLVMExtra_jll = "0.0.37"
 
 ["9.4.2 - 10"]
-CEnum = "0.2 - 0.5"
 Libdl = "1.8.0 - 1"
 Preferences = "1.4.0 - 1"
 Printf = "1.8.0 - 1"
 Unicode = "1.8.0 - 1"
 julia = "1.10.0 - 1"
+
+["9.4.2 - 10.2"]
+CEnum = "0.2 - 0.5"
 
 ["9.4.4 - 9.4"]
 LLVMExtra_jll = "0.0.38"
