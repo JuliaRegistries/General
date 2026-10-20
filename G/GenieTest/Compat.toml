@@ -6,19 +6,30 @@ Stipple = "0.31.46 - 0.31"
 
 ["0 - 1"]
 Dates = "1.6.0 - 1"
-Reexport = "1.2.2 - 1"
-Test = "1.6.0 - 1"
-TestItemRunner = "1.1.4 - 1"
 UUIDs = "1.6.0 - 1"
 julia = "1.6.0 - 1"
 
+["0 - 2"]
+Reexport = "1.2.2 - 1"
+Test = "1.6.0 - 1"
+TestItemRunner = "1.1.4 - 1"
+
 [1]
 Genie = "5.35.3 - 6"
-HTTP = "1 - 2"
 Stipple = ["0.31.46 - 0.31", "1"]
+
+["1 - 2"]
+HTTP = "1 - 2"
 
 ["1.0.0"]
 Electron = "5 - 6"
 
-["1.0.1 - 1"]
+["1.0.1 - 2"]
 Electron = "5 - 7"
+
+[2]
+Genie = "6"
+JSON = "1"
+Stipple = "1"
+UUIDs = "1.10.0 - 1"
+julia = "1.10.0 - 1"

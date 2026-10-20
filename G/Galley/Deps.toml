@@ -2,10 +2,25 @@
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
 AutoHashEquals = "15f4f7f2-30c1-5605-9d31-71845cf9641f"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
-Finch = "9177782c-1635-4eb9-9bfb-d9dfa25e6bce"
 IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 RewriteTools = "5969e224-3634-4c61-9f66-721b69e98b8a"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 SyntaxInterface = "b33eeca9-aacb-4496-a840-e75f1646a4fb"
+
+["0 - 0.1"]
+Finch = "9177782c-1635-4eb9-9bfb-d9dfa25e6bce"
 TermInterface = "8ea1fca8-c5ef-4a55-8b96-4e9afe9c9a3c"
+
+["0.2 - 0"]
+AcceleratedKernels = "6a4ca0a5-0e36-4168-a932-d9be78d558f1"
+Compat = "34da2185-b29b-5c13-b0c7-acf172513d20"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+UnsafeAtomics = "013be700-e6cd-48c3-b4a1-df204f14c38f"
