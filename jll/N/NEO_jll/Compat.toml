@@ -3,7 +3,7 @@ gmmlib_jll = "19.4.1"
 libigc_jll = "1.0.3586"
 oneAPI_Level_Zero_jll = "0.91.10"
 
-[20-26]
+["20-26.18"]
 julia = "1.6.0-1"
 
 ["20.15"]
@@ -188,9 +188,11 @@ gmmlib_jll = "22.8.1"
 [25-26]
 Artifacts = ["0.0.0", "1"]
 JLLWrappers = "1.7.0-1"
-LazyArtifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
 TOML = ["0.0.0", "1"]
+
+["25-26.18"]
+LazyArtifacts = ["0.0.0", "1"]
 
 ["25.31"]
 libigc_jll = "2.16.0"
@@ -204,5 +206,12 @@ libigc_jll = "2.22.2"
 
 [26]
 gmmlib_jll = "22.10.0"
+
+["26-26.18"]
 libigc_jll = "2.34.4"
 oneAPI_Level_Zero_Headers_jll = "1.16.0"
+
+["26.35-26"]
+julia = "1.10.0-1"
+libigc_jll = "2.41.5"
+oneAPI_Level_Zero_Headers_jll = "1.17.0"

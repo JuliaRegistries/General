@@ -11,7 +11,6 @@ StatsFuns = "1"
 Distributions = "0.25"
 FastCholesky = "1"
 HypergeometricFunctions = "0.3"
-LogExpFunctions = "0.3"
 PositiveFactorizations = "0.2"
 SpecialFunctions = "2"
 StaticArrays = "1"
@@ -27,6 +26,9 @@ julia = "1.9.0-1"
 
 ["1 - 2.0.6"]
 LoopVectorization = "0.12"
+
+["1 - 2.7.0"]
+LogExpFunctions = "0.3"
 
 ["1.0"]
 BlockArrays = "0.16"
@@ -92,3 +94,6 @@ StatsFuns = ["0.9", "1 - 2"]
 ["2.7 - 2"]
 DomainSets = "0.5.2 - 0.8"
 julia = "1.10.0 - 1"
+
+["2.7.1 - 2"]
+LogExpFunctions = ["0.3", "1"]

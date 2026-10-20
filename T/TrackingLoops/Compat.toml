@@ -11,14 +11,27 @@ StaticArrays = "1"
 Unitful = "1"
 julia = "1.10.0 - 1"
 
+["2 - 4"]
+GNSSDecoder = "5.0.2 - 5"
+
 ["2 - 5"]
 Dates = "1"
 Dictionaries = "0.4"
-GNSSDecoder = "5.0.2 - 5"
 Geodesy = "1"
 KalmanFilters = "2"
 LinearAlgebra = "1"
+
+["2 - 5.1.0"]
 PositionVelocityTime = "6.1.0 - 6"
 
 [5]
 TrackingLoopFilters = "1.1.0 - 1"
+
+["5.0.0"]
+GNSSDecoder = "5.0.2 - 5"
+
+["5.0.1 - 5"]
+GNSSDecoder = "5.0.3 - 5"
+
+["5.1.1 - 5"]
+PositionVelocityTime = "7"
