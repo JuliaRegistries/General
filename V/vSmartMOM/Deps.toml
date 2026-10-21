@@ -1,7 +1,11 @@
 [0]
 CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
 
-[0-1]
+["0 - 1"]
+InstrumentOperator = "9e589c1b-9e01-4e00-831a-aa39ce86e3ef"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+
+["0 - 2"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
@@ -10,10 +14,8 @@ Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
-InstrumentOperator = "9e589c1b-9e01-4e00-831a-aa39ce86e3ef"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
-JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
@@ -33,15 +35,27 @@ YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 CUDAKernels = "72cfdca4-0801-4ab0-bf6a-d52aa10adc57"
 NetCDF_jll = "7243133f-43d8-5620-bbf4-c2c921802cf3"
 
-["1.0.2-1"]
+["1.0.2 - 1"]
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
+WignerSymbols = "9f57e263-0b3d-5e2e-b1be-24f2bb48858b"
+
+["1.0.2 - 2"]
 CanopyOptics = "a18e34a6-5dbe-4f38-a44b-e5141852e7a7"
 LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
 NaNMath = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
-OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
-UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 UnitfulEquivalences = "da9c4bc3-91c8-4f02-8a40-6b990d2a7e0c"
-WignerSymbols = "9f57e263-0b3d-5e2e-b1be-24f2bb48858b"
+
+[2]
+AtmosphericAbsorption = "e0e35e18-ffce-4906-90bd-929a5e163038"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
+Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
