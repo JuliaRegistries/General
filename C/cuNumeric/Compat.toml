@@ -5,7 +5,6 @@ OpenBLAS32_jll = "0.3"
 Pkg = "1"
 Preferences = "1"
 Random = "1"
-StatsBase = "0.34"
 julia = "1.10.0 - 1"
 
 ["0 - 0.1"]
@@ -16,6 +15,9 @@ LegatePreferences = "0.1.6 - 0.1"
 cunumeric_jl_wrapper_jll = "25.10.3 - 25"
 cupynumeric_jll = "25.10.3 - 25"
 
+["0 - 0.3.0"]
+StatsBase = "0.34"
+
 ["0.3 - 0"]
 AbstractFFTs = "1.5.0 - 1"
 CNPreferences = "0.1.4 - 0.1"
@@ -24,8 +26,16 @@ CUDATools = "6.4.0 - 6"
 CxxWrap = "0.17.5 - 0.17"
 ExpressionExplorer = "1.1.4 - 1"
 KernelAbstractions = "0.9.41 - 0.9"
-Legate = "0.2.4 - 0.2"
 LegatePreferences = "0.1.7 - 0.1"
 StaticArrays = "1"
-cunumeric_jl_wrapper_jll = "26.6.5 - 26"
 cupynumeric_jll = "26.6.1 - 26"
+
+["0.3.0"]
+Legate = "0.2.4 - 0.2"
+cunumeric_jl_wrapper_jll = "26.6.5 - 26"
+
+["0.3.1 - 0"]
+Legate = "0.3"
+PrecompileTools = "1.2.0 - 1"
+Statistics = "1"
+cunumeric_jl_wrapper_jll = "26.6.6 - 26"
