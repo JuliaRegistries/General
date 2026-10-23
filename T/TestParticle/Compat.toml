@@ -72,11 +72,11 @@ SciMLBase = "2.24.0 - 2"
 ["0.14.2 - 0.23.0"]
 SpecialFunctions = "1.5.0 - 2"
 
-["0.16.2 - 0"]
-Tensors = "1.16.2 - 1"
-
 ["0.16.2 - 0.17"]
 Meshes = "0.51 - 0.56"
+
+["0.16.2 - 0.24"]
+Tensors = "1.16.2 - 1"
 
 ["0.18 - 0"]
 MuladdMacro = "0.2.4 - 0.2"
@@ -99,12 +99,12 @@ KernelAbstractions = "0.9"
 ["0.18.5 - 0"]
 DiffResults = "1"
 
-["0.19 - 0"]
-PhysicalConstants = "0.2.4 - 0.2"
-Unitful = "1.28.0 - 1"
-
 ["0.19 - 0.23.1"]
 julia = "1.10.0 - 1"
+
+["0.19 - 0.24"]
+PhysicalConstants = "0.2.4 - 0.2"
+Unitful = "1.28.0 - 1"
 
 ["0.19.1 - 0"]
 ForwardDiff = "1"
@@ -113,8 +113,10 @@ ForwardDiff = "1"
 Interpolations = "0.15 - 0.16"
 
 ["0.19.2 - 0"]
-Distributed = "1"
 LinearAlgebra = "1"
+
+["0.19.2 - 0.24"]
+Distributed = "1"
 
 ["0.19.3 - 0.23.0"]
 FastInterpolations = "0.4.1 - 0.4"
@@ -169,13 +171,13 @@ FastInterpolations = "0.4.11 - 0.4"
 ["0.23.2 - 0"]
 julia = "1.11.0 - 1"
 
-["0.24 - 0"]
+["0.24"]
 BorisPushers = "0.1"
 
 ["0.24.2 - 0"]
 FastInterpolations = "0.4.15 - 0.4"
 
-["0.24.3 - 0"]
+["0.24.3 - 0.24"]
 KernelAbstractions = "0.9 - 0.10"
 
 ["0.3"]
