@@ -3,7 +3,6 @@ Adapt = "4"
 ConstructionBase = "1"
 DataStructures = "0.19"
 Dates = "1"
-DocStringExtensions = "0.9.5 - 0.9"
 Flatten = "0.4"
 FreezeCurves = "0.9"
 Interpolations = "0.16"
@@ -23,6 +22,9 @@ DomainSets = "0.7"
 
 ["0 - 0.1.7"]
 RingGrids = "0.1"
+
+["0 - 0.1.8"]
+DocStringExtensions = "0.9.5 - 0.9"
 
 ["0.1.1"]
 SpeedyWeatherInternals = "0.1 - 0.2"
@@ -62,7 +64,13 @@ SpeedyWeatherInternals = "0.2.2 - 0.2"
 ["0.1.7"]
 Oceananigans = "0.110.15 - 0.111"
 
-["0.1.8 - 0"]
+["0.1.8"]
 Oceananigans = "0.113.5 - 0.113"
+
+["0.1.8 - 0"]
 RingGrids = ["0.1", "1"]
 SpeedyWeatherInternals = ["0.2.2 - 0.2", "1"]
+
+["0.1.9 - 0"]
+DocStringExtensions = "0.9.5 - 0.10"
+Oceananigans = "0.113.5 - 0.114"
