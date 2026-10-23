@@ -136,5 +136,11 @@ GNSSDecoder = "5"
 
 [6]
 PositionVelocityTime = "7"
-Tracking = "11.1.0 - 11"
 TrackingLoops = "6"
+
+["6.0"]
+Tracking = "11.1.0 - 11"
+
+["6.1 - 6"]
+RINEXParser = "4.1.0 - 4"
+Tracking = "11.2.0 - 11"
