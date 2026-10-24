@@ -4,7 +4,6 @@ Tectonic = "0.8"
 julia = "1.10.0-1"
 
 ["1 - 2"]
-CSV = "0.10"
 Dates = ["0.0.0", "1"]
 LibGit2 = ["0.0.0", "1"]
 Logging = ["0.0.0", "1"]
@@ -14,6 +13,9 @@ Printf = ["0.0.0", "1"]
 Suppressor = "0.2"
 YAML = "0.4"
 ZipFile = "0.10"
+
+["1 - 2.11"]
+CSV = "0.10"
 
 ["1 - 2.7"]
 ArgCheck = "2.3.0-2"
@@ -64,7 +66,12 @@ DuckDB_jll = ["0.10", "1.0"]
 ["2.10 - 2"]
 julia = "1.12.0 - 1"
 
-["2.3 - 2"]
+["2.12 - 2"]
+CSV = ["0.10", "1"]
+OrderedCollections = "1.6.0 - 2"
+SHA = ["0.7", "1"]
+
+["2.3 - 2.11"]
 SHA = "0.7"
 
 ["2.6 - 2.7"]
@@ -86,13 +93,15 @@ HiGHS = "1.9.0 - 1"
 JuMP = "1.22.0 - 1"
 MacroTools = "0.5.13 - 0.5"
 MultiObjectiveAlgorithms = "1.3.0 - 1"
-OrderedCollections = "1.6.0 - 1"
 Pkg = "1.10.0 - 1"
 PrecompileTools = "1.2.0 - 1"
 Preferences = "1.4.3 - 1"
 ProgressMeter = "1.10.0 - 1"
 RelocatableFolders = "1.0.1 - 1"
 RuntimeGeneratedFunctions = "0.5.13 - 0.5"
+
+["2.8 - 2.11"]
+OrderedCollections = "1.6.0 - 1"
 
 ["2.8 - 2.9"]
 julia = "1.11.0 - 1"
