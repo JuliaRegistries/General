@@ -8,14 +8,19 @@ Integrals = "5"
 Lux = "1"
 NonlinearSolve = "4"
 Optimisers = "0.4"
-SymPy = "2"
 Zygote = "0.7"
 
 ["0 - 0.15"]
 DECUHR = "0.2"
 
+["0 - 0.18"]
+SymPy = "2"
+
 ["0.16 - 0"]
 DECUHR = "0.3"
+
+["0.19 - 0"]
+SymPyPythonCall = "0.5"
 
 ["0.4 - 0"]
 Symbolics = "6 - 7"
