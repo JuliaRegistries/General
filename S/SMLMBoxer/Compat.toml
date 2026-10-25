@@ -8,18 +8,26 @@ julia = "1.9.0-1"
 SMLMData = "0.6"
 julia = "1.9.0 - 1"
 
-["0.2 - 0"]
-KernelAbstractions = "0.9"
-NNlib = "0.9"
-
 ["0.2 - 0.3.0"]
 CUDA = "4 - 5"
 cuDNN = "1.4.6 - 1"
+
+["0.2 - 0.3.1"]
+KernelAbstractions = "0.9"
+NNlib = "0.9"
 
 ["0.3 - 0"]
 SMLMData = "0.7"
 julia = "1.10.0 - 1"
 
-["0.3.1 - 0"]
+["0.3.1"]
 CUDA = "4 - 6"
+
+["0.3.1 - 0"]
 cuDNN = ["1.4.6 - 1", "6"]
+
+["0.3.2 - 0"]
+CUDA = "5.9.0 - 6"
+KernelAbstractions = "0.9.38 - 0.9"
+NNlib = "0.9.25 - 0.9"
+Statistics = "1"
