@@ -20,6 +20,9 @@ jobs:
     # note: `[merge approved]` here is NOT case-sensitive, see https://docs.github.com/en/actions/learn-github-actions/expressions#contains
     if: ${{ github.event.issue.pull_request && github.event.issue.user.type != 'Bot' && contains(github.event.comment.body, '[merge approved]') }}
     steps:
+      - uses: julia-actions/setup-julia@fa02766e078afaaf09b14210362cee14137e6a32 # v3.0.2
+        with:
+          version: '1'
       - name: Verify package author
         id: verify-author
         env:
