@@ -1,7 +1,5 @@
 [6]
 Adapt = "4.4.0 - 4"
-CEnum = "0.2 - 0.5"
-KernelAbstractions = "0.9.38 - 0.9"
 LinearAlgebra = "1"
 SparseArrays = "1"
 julia = "1.10.0 - 1"
@@ -14,6 +12,10 @@ GPUToolbox = ["0.3", "1"]
 
 ["6 - 6.3"]
 GPUArrays = "11.4.1 - 11"
+
+["6 - 6.4"]
+CEnum = "0.2 - 0.5"
+KernelAbstractions = "0.9.38 - 0.9"
 
 ["6.0"]
 CUDACore = "6.0.1"
@@ -49,9 +51,11 @@ CUDACore = "6.3.0"
 ["6.3.1 - 6.3"]
 CUDACore = "6.3.1"
 
+["6.4"]
+GPUArrays = "11.5.14 - 11"
+
 ["6.4 - 6"]
 CUDA_Runtime_jll = "0.25"
-GPUArrays = "11.5.14 - 11"
 
 ["6.4.0"]
 CUDACore = "6.4.0"
@@ -59,5 +63,11 @@ CUDACore = "6.4.0"
 ["6.4.1"]
 CUDACore = "6.4.1"
 
-["6.4.2 - 6"]
+["6.4.2 - 6.4"]
 CUDACore = "6.4.2"
+
+["6.5 - 6"]
+CEnum = ["0.5", "1"]
+CUDACore = "6.5.0"
+GPUArrays = "12.1.0 - 12"
+KernelInterface = "0.4"
