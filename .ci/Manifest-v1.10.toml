@@ -75,9 +75,9 @@ version = "5.14.0"
 
 [[deps.HTTP]]
 deps = ["Base64", "CodecZlib", "ConcurrentUtilities", "Dates", "ExceptionUnwrapping", "Logging", "LoggingExtras", "MbedTLS", "NetworkOptions", "OpenSSL", "PrecompileTools", "Random", "SimpleBufferStream", "Sockets", "URIs", "UUIDs"]
-git-tree-sha1 = "51059d23c8bb67911a2e6fd5130229113735fc7e"
+git-tree-sha1 = "49a7885f0e1c0ecabd51b25f2fd14f26357777e0"
 uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
-version = "1.11.0"
+version = "1.11.1"
 
 [[deps.InlineStrings]]
 git-tree-sha1 = "06b65886c7577a3784d616e29f1302c2e36e389d"
@@ -104,9 +104,9 @@ version = "1.8.0"
 
 [[deps.JSON]]
 deps = ["Dates", "Logging", "Parsers", "PrecompileTools", "StructUtils", "UUIDs", "Unicode"]
-git-tree-sha1 = "9939eb6f799a963b3392ac4a1d49d3fc0646eb80"
+git-tree-sha1 = "ef46833ad806dc03d95dbe86db3d113965c461cd"
 uuid = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-version = "1.11.0"
+version = "1.12.2"
 
     [deps.JSON.extensions]
     JSONArrowExt = ["ArrowTypes"]
@@ -156,9 +156,9 @@ uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 
 [[deps.MbedTLS]]
 deps = ["Dates", "MbedTLS_jll", "MozillaCACerts_jll", "NetworkOptions", "Random", "Sockets"]
-git-tree-sha1 = "8785729fa736197687541f7053f6d8ab7fc44f92"
+git-tree-sha1 = "0e4b139a1f0f0b8c054fcdfd3be5f610cfb8c787"
 uuid = "739be429-bea8-5141-9913-cc70e7f3736d"
-version = "1.1.10"
+version = "1.2.0"
 
 [[deps.MbedTLS_jll]]
 deps = ["Artifacts", "Libdl"]
@@ -181,9 +181,9 @@ version = "1.2.0"
 
 [[deps.OpenSSL]]
 deps = ["BitFlags", "Dates", "MozillaCACerts_jll", "NetworkOptions", "OpenSSL_jll", "Sockets"]
-git-tree-sha1 = "5caab1056e0734b87f62ae3a3b520d47d3e994e8"
+git-tree-sha1 = "f1cffefcdc73bbf17875e7c1cb062ecb000c1552"
 uuid = "4d8831e6-92b7-49fb-bdf8-b643e874388c"
-version = "1.7.0"
+version = "1.7.1"
 
 [[deps.OpenSSL_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
@@ -267,9 +267,9 @@ version = "0.1.1"
 
 [[deps.StructUtils]]
 deps = ["Dates", "UUIDs"]
-git-tree-sha1 = "ad435e30854ed0f50f4b7f67edd71664afecc5d8"
+git-tree-sha1 = "044ed182312a8ad0f28437f048f3e1eae9093a80"
 uuid = "ec057cc2-7a8d-4b58-b3b3-92acb9f63b42"
-version = "2.10.0"
+version = "2.11.1"
 
     [deps.StructUtils.extensions]
     StructUtilsDataFramesExt = ["DataFrames"]
@@ -324,9 +324,9 @@ version = "0.11.3"
 
 [[deps.URIs]]
 deps = ["Serialization"]
-git-tree-sha1 = "0392e5e3c5327b90a487b0ff3e818c4aecd3660b"
+git-tree-sha1 = "50eda8011f098869a76da69a524ff59e0298711a"
 uuid = "5c2747f8-b7ea-4ff2-ba2e-563bfd36b1d4"
-version = "1.7.1"
+version = "1.7.2"
 
 [[deps.UUIDs]]
 deps = ["Random", "SHA"]
