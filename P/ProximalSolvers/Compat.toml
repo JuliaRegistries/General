@@ -1,6 +1,13 @@
 [0]
 LinearAlgebra = "1"
 Printf = "1"
-ProximalBase = "0.5"
 SparseArrays = "1"
 julia = "1.10.0 - 1"
+
+["0 - 0.1"]
+ProximalBase = "0.5"
+
+["0.2 - 0"]
+PrecompileTools = "1"
+ProximalBase = "0.5.3 - 0.5"
+Random = "1"
