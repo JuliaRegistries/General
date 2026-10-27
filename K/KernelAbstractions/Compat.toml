@@ -37,10 +37,12 @@ SPIRV_Tools_jll = ["2024.4.0 - 2024", "2025.1.0 - 2025"]
 StaticArraysCore = "1"
 UnsafeAtomics = "0.4"
 julia = "1.10.0 - 1"
-pocl_standalone_jll = "7.2.2 - 7"
 
 ["0.10 - 0.10.1"]
 GPUCompiler = "2.13.0 - 2"
+
+["0.10 - 0.10.2"]
+pocl_standalone_jll = "7.2.2 - 7"
 
 ["0.10.0"]
 GPUToolbox = "3.3.3 - 3"
@@ -50,6 +52,9 @@ GPUToolbox = "3.4.1 - 3"
 
 ["0.10.2 - 0"]
 GPUCompiler = "2.18.0 - 2"
+
+["0.10.3 - 0"]
+pocl_standalone_jll = "7.2.3 - 7"
 
 ["0.2.1 - 0.2.3"]
 CUDAnative = "2.10.0-3"

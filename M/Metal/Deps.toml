@@ -21,11 +21,13 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 ["0.3 - 1"]
-KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 ObjectiveC = "e86c9b32-1129-44ac-8ea0-90d5bb39ded9"
 
 ["0.3 - 1.10.0"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.3 - 1.11"]
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 
 ["0.4 - 1"]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
@@ -58,8 +60,12 @@ PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["1.11 - 1"]
+["1.11"]
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+
+["1.12 - 1"]
+KernelInterface = "4ee993da-d684-4d17-a7dd-4e58e78d92bf"
+UnsafeAtomics = "013be700-e6cd-48c3-b4a1-df204f14c38f"
 
 ["1.2 - 1"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
