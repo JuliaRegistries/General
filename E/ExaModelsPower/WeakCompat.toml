@@ -9,9 +9,14 @@ CUDACore = "6"
 
 ["0.4.2 - 0"]
 AMDGPU = "2"
-KernelAbstractions = "0.9"
 Metal = "1.9.0 - 1"
 oneAPI = "2"
 
+["0.4.2 - 0.4.4"]
+KernelAbstractions = "0.9"
+
 ["0.4.3 - 0"]
 CUDA = "6"
+
+["0.4.5 - 0"]
+KernelAbstractions = "0.9 - 0.10"
