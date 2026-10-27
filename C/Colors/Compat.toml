@@ -33,15 +33,23 @@ Reexport = ["0.2", "1"]
 ColorTypes = "0.10-0.11"
 
 ["0.13 - 0"]
-FixedPointNumbers = "0.8"
 Reexport = "1"
 
 ["0.13 - 0.13.1"]
 ColorTypes = "0.11.5-0.12"
 
+["0.13 - 0.13.3"]
+FixedPointNumbers = "0.8"
+
 ["0.13.2 - 0"]
-ColorTypes = "0.11.5 - 0.12"
 LinearAlgebra = ["0.0.0", "1"]
+
+["0.13.2 - 0.13.3"]
+ColorTypes = "0.11.5 - 0.12"
+
+["0.13.4 - 0"]
+ColorTypes = "0.12.5 - 0.12"
+FixedPointNumbers = "0.8 - 0.9"
 
 ["0.9.3 - 0.9.5"]
 ColorTypes = "0.7.4-0.7"
