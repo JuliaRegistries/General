@@ -12,8 +12,6 @@ julia = "1.8.0-1"
 
 ["0.1.1 - 0"]
 ForwardDiff = ["0.10", "1"]
-GeometricEquations = "0.21"
-GeometricSolutions = "0.6"
 LazyArrays = "1 - 2"
 Optim = "2"
 
@@ -21,21 +19,29 @@ Optim = "2"
 HDF5 = "0.16 - 0.17"
 julia = "1.8.0 - 1"
 
+["0.1.1 - 0.3"]
+GeometricEquations = "0.21"
+GeometricSolutions = "0.6"
+
 ["0.2"]
 AbstractNeuralNetworks = "0.6"
 Random = "1.10.0 - 1"
 julia = "1.10.0 - 1"
 
 ["0.2 - 0"]
-ChainRulesCore = "1.26.0 - 1"
-GeometricBase = "0.14.6 - 0.15"
 HDF5 = "0.16.11 - 0.17"
 KernelAbstractions = "0.9"
 LinearAlgebra = "1"
 
-["0.3 - 0"]
+["0.2 - 0.3"]
+ChainRulesCore = "1.26.0 - 1"
+GeometricBase = "0.14.6 - 0.15"
+
+["0.3"]
 AbstractNeuralNetworks = "0.8"
 NeuralNetworkParameters = "0.3"
+
+["0.3 - 0"]
 Random = "1.11.0 - 1"
 
 ["0.3.0"]
@@ -43,3 +49,10 @@ julia = "1.11.0 - 1"
 
 ["0.3.1 - 0"]
 julia = "1.12.0 - 1"
+
+["0.4 - 0"]
+AbstractNeuralNetworks = "0.9.1 - 0.9"
+GeometricBase = "0.15"
+GeometricEquations = "0.21.5 - 0.21"
+GeometricSolutions = "0.6.6 - 0.6"
+NeuralNetworkParameters = "0.5"
