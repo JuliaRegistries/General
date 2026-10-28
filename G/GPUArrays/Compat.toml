@@ -77,7 +77,7 @@ KernelAbstractions = "0.9.28 - 0.10"
 ["11.3 - 12"]
 SparseArrays = "1"
 
-["11.5.15 - 12"]
+["11.5.15 - 12.1"]
 GPUArraysCore = "0.2.1"
 
 ["11.5.16 - 12"]
@@ -87,9 +87,15 @@ LLVM = "3.9.0 - 10"
 Adapt = "4.6.1 - 4"
 
 [12]
-AcceleratedKernels = "0.5"
 Adapt = "4.7.3 - 4"
 KernelAbstractions = "0.9.43 - 0.10"
+
+["12 - 12.1"]
+AcceleratedKernels = "0.5"
+
+["12.2 - 12"]
+AcceleratedKernels = "0.5.8 - 0.5"
+GPUArraysCore = "0.2.2"
 
 ["2.0.0"]
 AbstractFFTs = "0.4"
