@@ -1,5 +1,6 @@
 [0]
 DocStringExtensions = "0.8"
+SuperLU_DIST_jll = "8"
 julia = "1.7.0-1"
 
 ["0 - 0.1"]
@@ -10,18 +11,30 @@ SuperLUBase = "0.1"
 CIndices = "0.3"
 MPI = "0.20"
 MatrixMarket = "0.5"
-SuperLU_DIST_jll = "8"
 
 ["0.2"]
 SparseBase = "0.2.2-0.2"
 SuperLUBase = "0.1.1-0.1"
 
+["0.3 - 0"]
+SuperLUBase = "0.3"
+
 ["0.3 - 1"]
 Preferences = "1"
 SparseBase = "0.4"
-SuperLUBase = "0.3"
 
 [1]
-DocStringExtensions = "0.8 - 0.9"
 OpenBLAS32_jll = "0.3"
+
+["1.0"]
+DocStringExtensions = "0.8 - 0.9"
+SuperLUBase = "0.3"
+SuperLU_DIST_jll = "8"
 julia = "1.10.0 - 1"
+
+["1.1 - 1"]
+DocStringExtensions = "0.9 - 0.10"
+Libdl = "1"
+LinearAlgebra = "1"
+SuperLU_DIST_jll = "9.3.1 - 9"
+julia = "1.11.0 - 1"
