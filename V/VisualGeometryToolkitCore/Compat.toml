@@ -4,9 +4,7 @@ Adapt = "4.7.0 - 4"
 Colors = "0.13.3 - 0.13"
 CoordinateTransformations = "0.6.4 - 0.6"
 Distributions = "0.25.131 - 0.25"
-FastLevenbergMarquardt = "0.1"
 FixedPointNumbers = "0.8.6 - 0.8"
-FlexUnits = "0.6.11 - 0.6"
 ForwardDiff = "1.4.0 - 1"
 GeometryBasics = "0.5.13 - 0.5"
 ImageCore = "0.10.5 - 0.10"
@@ -25,3 +23,12 @@ Statistics = "1"
 StructArrays = "0.7.4 - 0.7"
 TOML = "1"
 julia = "1.12.0 - 1"
+
+["0 - 0.1"]
+FastLevenbergMarquardt = "0.1"
+FlexUnits = "0.6.11 - 0.6"
+
+["0.2 - 0"]
+BSplineKit = "0.19"
+FlexUnits = "0.6.16 - 0.6"
+NLLSsolver = "5.3.0 - 5"
