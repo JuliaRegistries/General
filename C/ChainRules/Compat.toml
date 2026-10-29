@@ -205,7 +205,6 @@ StructArrays = "0.6.11-0.7"
 
 ["1.72.6 - 1"]
 Adapt = "3.4.0 - 4"
-ChainRulesCore = "1.25.0 - 1"
 GPUArraysCore = "0.1 - 0.2"
 IrrationalConstants = "0.1.1 - 0.2"
 StructArrays = "0.6.11 - 0.7"
@@ -216,8 +215,14 @@ julia = "1.6.0 - 1"
 ["1.72.6 - 1.74.1"]
 Compat = ["3.46.0 - 3", "4.2.0 - 4"]
 
+["1.72.6 - 1.74.6"]
+ChainRulesCore = "1.25.0 - 1"
+
 ["1.74 - 1"]
 julia = "1.10.0 - 1"
+
+["1.74.7 - 1"]
+ChainRulesCore = "1.26.7 - 1"
 
 ["1.8.1 - 1.11.5"]
 Compat = "3.33.0-3"
