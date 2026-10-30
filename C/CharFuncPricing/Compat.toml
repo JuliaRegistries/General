@@ -14,11 +14,9 @@ DoubleExponentialFormulas = "0.1"
 Optim = "1"
 
 ["0.4 - 0"]
-BenchmarkTools = "1"
 FFTW = "1"
 FastGaussQuadrature = "1"
 StatsBase = "0.34"
-TestEnv = "1"
 
 ["0.4 - 0.7"]
 Roots = "1-2"
@@ -29,13 +27,19 @@ ForwardDiff = "0.10"
 Nemo = ["0.27", "0.30"]
 TaylorSeries = "0.15"
 
+["0.4 - 0.9"]
+BenchmarkTools = "1"
+TestEnv = "1"
+
 ["0.6 - 0.7"]
 Revise = "3.7.2-3"
 
 ["0.8 - 0"]
 AbstractFFTs = "1.5.0 - 1"
-Revise = "3.7.2 - 3"
 SpecialFunctions = "1 - 2"
+
+["0.8 - 0.9"]
+Revise = "3.7.2 - 3"
 
 ["0.8.0"]
 NFFT = "0.13.7 - 0.13"
