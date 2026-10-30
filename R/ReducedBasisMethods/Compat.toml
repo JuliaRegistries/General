@@ -22,15 +22,24 @@ Statistics = "1"
 ["0.2 - 0"]
 LinearAlgebra = "1"
 MultiIndexArrays = "0.1.2 - 0.1"
-ReducedComplexityModeling = "0.1.1 - 0.1"
 
 ["0.2 - 0.2.2"]
 HDF5 = "0.16 - 0.17"
 julia = "1.11.0 - 1"
 
-["0.2.1 - 0"]
+["0.2 - 0.3"]
+ReducedComplexityModeling = "0.1.1 - 0.1"
+
+["0.2.1 - 0.3"]
 GeometricEquations = "0.21"
 
 ["0.2.3 - 0"]
-HDF5 = "0.16.15 - 0.17"
 julia = "1.12.0 - 1"
+
+["0.2.3 - 0.3"]
+HDF5 = "0.16.15 - 0.17"
+
+["0.4 - 0"]
+GeometricEquations = "0.21.5 - 0.21"
+HDF5 = "0.17"
+ReducedComplexityModeling = "0.5"
