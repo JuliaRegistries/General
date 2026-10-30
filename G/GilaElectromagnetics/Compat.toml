@@ -1,4 +1,4 @@
-[1]
+["1.0"]
 AbstractFFTs = "1.3.0-1"
 CUDA = "5"
 Cubature = "1.3.0-1"
@@ -7,3 +7,21 @@ FastGaussQuadrature = "1"
 LinearAlgebra = "1.9.0-1"
 ThreadsX = "0.1.8-0.1"
 julia = "1.9.0-1"
+
+["1.1 - 1"]
+AbstractFFTs = "1.3.0 - 1"
+Adapt = "4"
+DoubleFloats = "1.11.2 - 1"
+FFTW = "1.8.0 - 1"
+KernelAbstractions = "0.9.34 - 0.9"
+QuadGK = "2.11.3 - 2"
+Scratch = "1.3.0 - 1"
+Serialization = "1.11.0 - 1"
+SpecialFunctions = "2.9.0 - 2"
+StaticArrays = "1.9.0 - 1"
+TestEnv = "1.103.7 - 1"
+VkFFT = "0.1.1 - 0.1"
+VkFFT_CUDA_jll = "0.1"
+VkFFT_Metal_jll = "0.1"
+VkFFT_OpenCL_jll = "0.1"
+julia = "1.11.0 - 1"

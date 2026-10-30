@@ -1,7 +1,6 @@
 [0]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0 - 0.2"]
 CUDAapi = "3895d2a7-ec45-59b8-82bb-cfc6a382f9b3"
@@ -14,6 +13,25 @@ Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 ["0 - 0.7"]
 Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
 
+["0 - 0.9"]
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.10 - 0"]
+GPUCompiler = "61eb1bfa-7361-4325-ad38-22787b887f55"
+GPUToolbox = "096a3bc2-3ced-46d0-87f4-dd12716f4bfc"
+KernelInterface = "4ee993da-d684-4d17-a7dd-4e58e78d92bf"
+LLVM = "929cbde3-209d-540e-8aea-75f648917ca0"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Random123 = "74087812-796a-5b5d-8853-05524746bad3"
+RandomNumbers = "e6cf234a-135c-5ec9-84dd-332b85af5143"
+SPIRVIntrinsics = "71d1d633-e7e8-4a92-83a1-de8814b09ba8"
+SPIRV_LLVM_Backend_jll = "4376b9bf-cff8-51b6-bb48-39421dff0d0c"
+SPIRV_Tools_jll = "6ac6d60f-d740-5983-97d7-a4482c0689f4"
+StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
+UnsafeAtomics = "013be700-e6cd-48c3-b4a1-df204f14c38f"
+pocl_standalone_jll = "54f56a70-6062-5590-a942-1226658f6c83"
+
 ["0.2.5 - 0.7"]
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
@@ -23,13 +41,13 @@ LLVM = "929cbde3-209d-540e-8aea-75f648917ca0"
 ["0.3 - 0.5"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 
-["0.4.2 - 0"]
+["0.4.2 - 0.9"]
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
-["0.4.4 - 0"]
+["0.4.4 - 0.9"]
 UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
-["0.8 - 0"]
+["0.8 - 0.9"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
@@ -45,11 +63,11 @@ UnsafeAtomics = "013be700-e6cd-48c3-b4a1-df204f14c38f"
 ["0.9 - 0.9.2"]
 SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
 
-["0.9.19 - 0"]
+["0.9.19 - 0.9"]
 EnzymeCore = "f151be2c-9106-41f4-ab19-57ee4f262869"
 
 ["0.9.3 - 0"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
-["0.9.7 - 0"]
+["0.9.7 - 0.9"]
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"

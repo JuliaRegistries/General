@@ -7,46 +7,52 @@ function _most_recent(
     registry::GitHub.Repo;
     api::GitHub.GitHubAPI,
     auth::GitHub.Authorization,
+    workflow_file_name::AbstractString,
     event::AbstractString,
-    workflow_name::AbstractString,
+    get_json = GitHub.gh_get_json,
 )
-    endpoint = "/repos/$(registry.full_name)/actions/runs"
-    params = Dict("event" => event)
-    json = GitHub.gh_get_json(api, endpoint; auth = auth, params = params)
+    # Scope the query to this workflow so other workflow dispatches cannot reset
+    # the clock or push the last merge run out of the first API page.
+    endpoint = "/repos/$(registry.full_name)/actions/workflows/$(workflow_file_name)/runs"
+    params = Dict("branch" => "master", "event" => event, "per_page" => "1")
+    json = get_json(api, endpoint; auth = auth, params = params)
     workflow_runs = json["workflow_runs"]
-    for workflow_run in workflow_runs
-        if workflow_run["name"] == workflow_name
-            if workflow_run["event"] == event
-                created_at = TimeZones.ZonedDateTime(
-                    workflow_runs[1]["created_at"],
-                    "yyyy-mm-ddTHH:MM:SSzzzz",
-                )
-                @info "# BEGIN information about the `workflow_run`"
-                @info "" created_at
-                for (key, value) in workflow_run
-                    @info "" key value
-                end
-                @info "# END information about the `workflow_run`"
-                return created_at
-            end
-        end
+    isempty(workflow_runs) && return nothing
+    workflow_run = first(workflow_runs)
+    created_at = TimeZones.ZonedDateTime(
+        workflow_run["created_at"],
+        "yyyy-mm-ddTHH:MM:SSzzzz",
+    )
+    @info "# BEGIN information about the `workflow_run`"
+    @info "" created_at
+    for (key, value) in workflow_run
+        @info "" key value
     end
-    throw(ErrorException("I could not figure out when the most recent job was"))
+    @info "# END information about the `workflow_run`"
+    return created_at
 end
 
 function most_recent_automerge(
     registry::GitHub.Repo;
     api::GitHub.GitHubAPI,
     auth::GitHub.Authorization,
+    get_json = GitHub.gh_get_json,
 )
-    workflow_dispatch = _most_recent(
-        registry;
-        api = api,
-        auth = auth,
-        event = "workflow_dispatch",
-        workflow_name = "AutoMerge",
-    )
-    return workflow_dispatch
+    latest = nothing
+    for event in ("workflow_dispatch", "schedule")
+        run_time = _most_recent(
+            registry;
+            api = api,
+            auth = auth,
+            workflow_file_name = "automerge_merge.yml",
+            event = event,
+            get_json = get_json,
+        )
+        if !isnothing(run_time) && (isnothing(latest) || run_time > latest)
+            latest = run_time
+        end
+    end
+    return latest
 end
 
 function time_since_last_automerge(
@@ -55,6 +61,7 @@ function time_since_last_automerge(
     auth::GitHub.Authorization,
 )
     last_automerge = most_recent_automerge(registry; api = api, auth = auth)
+    isnothing(last_automerge) && return nothing
     now = TimeZones.now(TimeZones.localzone())
     return now - last_automerge
 end
@@ -81,21 +88,27 @@ end
 
 function trigger_new_automerge_if_necessary()
     api = GitHub.DEFAULT_API
-    auth = GitHub.OAuth2(ENV["AUTOMERGE_TAGBOT_TOKEN"])
+    auth = GitHub.OAuth2(ENV["AUTOMERGE_MERGE_TOKEN"])
     registry = GitHub.Repo("JuliaRegistries/General")
     t = time_since_last_automerge(registry; api, auth)
-    @info "Time since last AutoMerge" t _canonicalize(t)
-    if t >= Dates.Minute(8)
+    if isnothing(t)
+        @info "No previous AutoMerge run; starting the first run"
+    else
+        @info "Time since last AutoMerge" t _canonicalize(t)
+    end
+    if isnothing(t) || t >= Dates.Minute(8)
         @info "Attempting to trigger a new AutoMerge workflow dispatch job..."
         trigger_new_workflow_dispatch(
             registry;
             api,
             auth,
-            workflow_file_name = "automerge.yml",
+            workflow_file_name = "automerge_merge.yml",
         )
         @info "Triggered a new AutoMerge workflow dispatch job"
     end
     return nothing
 end
 
-trigger_new_automerge_if_necessary()
+if abspath(PROGRAM_FILE) == @__FILE__
+    trigger_new_automerge_if_necessary()
+end

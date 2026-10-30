@@ -1,7 +1,5 @@
 [0]
-IterTools = "1"
 LineSearches = "7"
-PeriodicTable = "1"
 
 ["0 - 0.1"]
 SpecialFunctions = "0.10"
@@ -62,6 +60,10 @@ OrderedCollections = "1"
 
 ["0 - 0.7.13"]
 ForwardDiff = "0.10"
+
+["0 - 0.8.0"]
+IterTools = "1"
+PeriodicTable = "1"
 
 ["0.1.1"]
 Libxc = "0.1-0.2"
@@ -417,7 +419,7 @@ PseudoPotentialIO = "0.3.1 - 0.3"
 ["0.7.22 - 0"]
 PseudoPotentialData = "0.2.4 - 0.3"
 
-["0.7.24 - 0"]
+["0.7.24 - 0.8.0"]
 DftFunctionals = "0.3.2 - 0.3"
 Libxc = "0.3.24 - 0.3"
 
@@ -445,6 +447,12 @@ KrylovKit = "0.8.3-0.9"
 ["0.7.9 - 0.7.11"]
 DifferentiationInterface = "0.6.39-0.6"
 
-["0.8 - 0"]
+["0.8.0"]
 LOBPCGEigensolver = "0.1.1 - 0.1"
 TimerOutputs = ["0.5.29 - 0.5", "1"]
+
+["0.8.1 - 0"]
+DftFunctionals = "0.3.3 - 0.3"
+LOBPCGEigensolver = "0.1.3 - 0.1"
+Libxc = "0.3.27 - 0.3"
+TimerOutputs = "0.5.29 - 0.5"

@@ -217,7 +217,6 @@ SciMLBase = "3.19.0 - 3"
 DiffEqBase = "7.4.2 - 7"
 
 ["1.52 - 1"]
-JumpProcesses = "9.28.0 - 9"
 OffsetArrays = "1.11.0 - 1"
 julia = "1.10.0 - 1"
 
@@ -226,6 +225,9 @@ Symbolics = "7.31.0 - 7"
 
 ["1.52 - 1.68.0"]
 SymbolicUtils = "4.35.3 - 4.45"
+
+["1.52 - 1.77"]
+JumpProcesses = "9.28.0 - 9"
 
 ["1.54.1 - 1.68.1"]
 Symbolics = "7.32.1 - 7"
@@ -321,8 +323,17 @@ SymbolicIndexingInterface = "0.3.47 - 0.3"
 ["1.74 - 1"]
 SciMLBase = "3.55.0 - 3"
 
-["1.77.1 - 1"]
+["1.77.1 - 1.77.4"]
 Symbolics = "7.41.1 - 7"
+
+["1.77.5 - 1"]
+Symbolics = "7.45.0 - 7"
+
+["1.78 - 1"]
+JumpProcesses = "10"
+
+["1.79 - 1"]
+SciMLLogging = "2"
 
 ["1.8 - 1.65"]
 PreallocationTools = ["0.4.27 - 0.4", "1"]

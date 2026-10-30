@@ -1,19 +1,29 @@
 ["0 - 2"]
 FastTransforms = "057dd010-8810-581a-b7be-e3fc3b93f78c"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
-Quaternionic = "0756cd96-85bf-4b6f-a009-b5012ea7a443"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0 - 3"]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Quaternionic = "0756cd96-85bf-4b6f-a009-b5012ea7a443"
 
 [2]
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
 DoubleFloats = "497a8b3b-efae-58df-a0af-a86822472b78"
-FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 Hwloc = "0e44f5e4-bd66-52a0-8798-143a42290a1d"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
+["2 - 3"]
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["2.2.6 - 2"]
 TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
+
+[3]
+FixedSizeArrays = "3821ddf9-e5b5-40d5-8e25-6813ab96b5e2"
+GenericFFT = "a8297547-1b15-4a5a-a998-a2ac5f1cef28"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"

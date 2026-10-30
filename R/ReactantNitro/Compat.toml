@@ -2,7 +2,6 @@
 Enzyme = "0.13"
 Functors = "0.5"
 JLD2 = "0.5 - 0.6"
-JSON3 = "1"
 Lux = "1"
 Optimisers = "0.4.8 - 0.4"
 PrecompileTools = "1"
@@ -13,3 +12,23 @@ Reactant = "0.2.264 - 0.2"
 Statistics = "1"
 Tables = "1"
 julia = "1.12.0 - 1"
+
+["0 - 0.1.5"]
+JSON3 = "1"
+
+["0.1.5 - 0"]
+SHA = ["0.7", "1"]
+
+["0.1.6 - 0"]
+JSON = "1"
+
+["0.1.7 - 0"]
+Preferences = "1"
+
+["0.2.1 - 0"]
+Dates = "1"
+LinearAlgebra = "1"
+Logging = "1"
+Printf = "1"
+Random = "1"
+UUIDs = "1"

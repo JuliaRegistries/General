@@ -154,11 +154,19 @@ MathOptInterface = "1.51.1 - 1"
 MultivariateBases = "0.3.4 - 0.3"
 MultivariateMoments = "0.5"
 MultivariatePolynomials = "0.5.19 - 0.5"
-PolyJuMP = "0.8"
 Reexport = "1"
 StarAlgebras = "0.3"
 SymbolicWedderburn = "0.5"
 julia = "1.10.0 - 1"
 
+["0.8 - 0.8.1"]
+PolyJuMP = "0.8"
+
 ["0.8.1 - 0"]
 JuMP = "1.31.0 - 1"
+
+["0.8.2 - 0"]
+LinearAlgebra = "1.10.0 - 1"
+PolyJuMP = "0.8.2 - 0.8"
+Random = "1.10.0 - 1"
+SparseArrays = "1.10.0 - 1"

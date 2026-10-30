@@ -1,23 +1,14 @@
 [1]
 BenchmarkTools = "1"
 ColorSchemes = "3.29.0 - 3"
-Dates = "1.11.0 - 1"
 Documenter = "1.8.0 - 1"
-DrWatson = "2"
-Graphs = "1.12.0 - 1"
 IterTools = "1.10.0 - 1"
-LoopVectorization = "0.12"
 Parameters = "0.12"
-ProgressBars = "1"
 Requires = ["0.5", "1"]
 Revise = "3"
 SGtSNEpi = "0.4"
-SpecialFunctions = "2.5.0 - 2"
 StaticArrays = "1"
-Statistics = "1"
-ThreadTools = "0.2"
 TimerOutputs = "0.5"
-UnPack = "1"
 
 ["1 - 1.5.0"]
 DSP = "0.8.2 - 0.8"
@@ -36,32 +27,46 @@ RollingFunctions = "0.8"
 ["1 - 1.7.1"]
 MetaGraphs = "0.8"
 
-["1.5.11 - 1"]
-JLD2 = "0.5 - 0.6"
+["1 - 2"]
+Dates = "1.11.0 - 1"
+DrWatson = "2"
+Graphs = "1.12.0 - 1"
+LoopVectorization = "0.12"
+ProgressBars = "1"
+SpecialFunctions = "2.5.0 - 2"
+Statistics = "1"
+ThreadTools = "0.2"
+UnPack = "1"
 
 ["1.5.11 - 1.6.2"]
 Interpolations = "0.15 - 0.16"
 
-["1.5.4 - 1"]
-DSP = "0.8"
-Distributions = "0.25"
-StatsBase = "0.34"
+["1.5.11 - 2"]
+JLD2 = "0.5 - 0.6"
 
 ["1.5.4 - 1.5.10"]
 Interpolations = "0.15"
 JLD2 = "0.5"
 
+["1.5.4 - 2"]
+DSP = "0.8"
+Distributions = "0.25"
+StatsBase = "0.34"
+
 ["1.5.8 - 1"]
 Roots = "2.2.10 - 2"
 
-["1.6.3 - 1"]
+["1.6.3 - 2"]
 Interpolations = "0.16.2 - 0.16"
 
-["1.7 - 1"]
+["1.7 - 2"]
 julia = "1.12.0 - 1"
 
-["1.7.2 - 1"]
+["1.7.2 - 2"]
 MetaGraphs = "0.8 - 0.9"
 
-["1.8 - 1"]
+["1.8 - 2"]
 Logging = "1.11.0 - 1"
+
+[2]
+Polyester = "0.7"

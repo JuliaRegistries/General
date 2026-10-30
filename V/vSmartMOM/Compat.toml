@@ -14,8 +14,7 @@ Polynomials = "2"
 StatsBase = "0.33"
 julia = "1.6.0-1"
 
-[0-1]
-DiffResults = "1"
+["0 - 1"]
 Distributions = "0.23-0.25"
 InstrumentOperator = "0.1"
 JLD2 = "0.1-0.4"
@@ -23,8 +22,11 @@ JSON = "0.21"
 NetCDF = "0.10-0.11"
 Parameters = "0.12"
 ProgressMeter = "1.3.0-1"
-SpecialFunctions = "2"
 StaticArrays = "1.2.0-1"
+
+["0 - 2"]
+DiffResults = "1"
+SpecialFunctions = "2"
 TimerOutputs = "0.5"
 YAML = "0.4"
 
@@ -46,8 +48,7 @@ NNlib = "0.8"
 Polynomials = "2"
 StatsBase = "0.33"
 
-["1.0.2-1"]
-DelimitedFiles = "1"
+["1.0.2 - 1"]
 DocStringExtensions = "0.8-0.9"
 FastGaussQuadrature = "0.4-0.5"
 ForwardDiff = "0.10"
@@ -56,25 +57,61 @@ KernelAbstractions = "0.8-0.9"
 LogExpFunctions = "0.3"
 NCDatasets = "0.11-0.12"
 NNlib = "0.8-0.9"
-NaNMath = "1"
-OffsetArrays = "1"
 OrderedCollections = "1"
 Polynomials = "2-3"
-QuadGK = "2"
 StatsBase = "0.33-0.34"
-UnPack = "1"
 UnicodePlots = "3"
 Unitful = "1"
-UnitfulEquivalences = "0.2"
 WignerSymbols = "2"
 
-["1.0.2-1.0"]
+["1.0.2 - 1.0"]
 CUDA = "4-5"
 CanopyOptics = "0.1"
 DataInterpolations = "3.6.0-4"
 
-["1.1-1"]
+["1.0.2 - 2"]
+DelimitedFiles = "1"
+NaNMath = "1"
+OffsetArrays = "1"
+QuadGK = "2"
+UnPack = "1"
+UnitfulEquivalences = "0.2"
+
+["1.1 - 1"]
 CUDA = "5.5.0-5"
 CanopyOptics = "0.1.4-0.1"
 DataInterpolations = "4"
 julia = "1.9.0-1"
+
+[2]
+AtmosphericAbsorption = "0.1.2"
+CUDA = "5.5.0 - 6"
+CanopyOptics = "0.2"
+DataInterpolations = "8"
+Dates = "1"
+Distributions = "0.25"
+DocStringExtensions = "0.9"
+Downloads = "1"
+FastGaussQuadrature = ["0.5", "1"]
+ForwardDiff = ["0.10", "1"]
+Interpolations = "0.16"
+JLD2 = "0.6"
+KernelAbstractions = "0.9"
+LinearAlgebra = "1"
+LogExpFunctions = ["0.3", "1"]
+NCDatasets = "0.14"
+NNlib = "0.9"
+NetCDF = "0.12"
+Parameters = "0.12 - 0.13"
+Pkg = "1"
+Polynomials = "3 - 4"
+Printf = "1"
+ProgressMeter = "1.3.0 - 1"
+SHA = ["0.7", "1"]
+Scratch = "1"
+StaticArrays = "1"
+Statistics = "1"
+StatsBase = "0.34"
+TOML = "1"
+Unitful = "1.28.0 - 1"
+julia = "1.10.0 - 1"

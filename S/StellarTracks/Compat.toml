@@ -1,6 +1,5 @@
 [1]
 ArgCheck = "1 - 2"
-CSV = "0.10"
 CodecZlib = "0.7"
 DelimitedFiles = ["0.0.0", "1"]
 Interpolations = "0.15 - 0.16"
@@ -19,6 +18,9 @@ JLD2 = "0.5"
 DataDeps = "0.7"
 DataInterpolations = "8"
 
+["1 - 1.1.1"]
+CSV = "0.10"
+
 ["1.0.0"]
 BolometricCorrections = "0.1"
 
@@ -28,9 +30,23 @@ BolometricCorrections = "0.1.4 - 0.1"
 ["1.0.2 - 1"]
 JLD2 = "0.5 - 0.6"
 
-["1.1 - 1"]
+["1.1"]
 BolometricCorrections = "0.2"
+
+["1.1.1"]
+DataInterpolations = "8 - 9"
 
 ["1.1.1 - 1"]
 DataDeps = ["0.7", "1"]
-DataInterpolations = "8 - 9"
+
+["1.1.2 - 1"]
+CSV = ["0.10", "1"]
+DataInterpolations = "8.6.0 - 10"
+
+["1.1.2 - 1.1"]
+SentinelArrays = "1"
+
+["1.2 - 1"]
+BolometricCorrections = "0.2.3 - 0.2"
+LazyArtifacts = ["0.0.0", "1"]
+PrecompileTools = "1"

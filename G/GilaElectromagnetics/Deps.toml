@@ -1,8 +1,25 @@
 [1]
 AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["1.0"]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 Cubature = "667455a9-e2ce-5579-9412-b964f529a492"
-FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 ThreadsX = "ac1d9e8a-700a-412c-b207-f0111f4b6c0d"
+
+["1.1 - 1"]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+DoubleFloats = "497a8b3b-efae-58df-a0af-a86822472b78"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+TestEnv = "1e6cf692-eddd-4d53-88a5-2d735e33781b"
+VkFFT = "65dc4606-9ae3-4b78-8734-204937373618"
+VkFFT_CUDA_jll = "c6c0cc47-23fd-51ca-b60c-6f984e788db9"
+VkFFT_Metal_jll = "042e462d-e49b-5371-a6d8-d140e9b49131"
+VkFFT_OpenCL_jll = "4b94af74-5903-5048-b3a4-075b7d965b91"

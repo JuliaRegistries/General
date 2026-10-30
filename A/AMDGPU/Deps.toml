@@ -21,7 +21,7 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 HIP_jll = "2696aab5-0948-5276-aa9a-2a86a37016b8"
 ROCmDeviceLibs_jll = "873c0968-716b-5aa7-bb8d-d1e2e2aeff2d"
 
-["0.2.10 - 2"]
+["0.2.10 - 2.8"]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 ["0.2.16 - 2"]
@@ -72,7 +72,7 @@ TimespanLogging = "a526e669-04d3-4846-9525-c66122c55f63"
 ["0.4.9 - 1.1"]
 UnsafeAtomicsLLVM = "d80eeb9a-aca5-4d75-85e5-170c8b632249"
 
-["0.4.9 - 2"]
+["0.4.9 - 2.8"]
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 
 ["0.5.3 - 2"]
@@ -82,7 +82,7 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 HIP_jll = "2696aab5-0948-5276-aa9a-2a86a37016b8"
 hsa_rocr_jll = "dd59ff1a-a01a-568d-8b29-0669330f116a"
 
-["0.7 - 2"]
+["0.7 - 2.8"]
 ROCmDeviceLibs_jll = "873c0968-716b-5aa7-bb8d-d1e2e2aeff2d"
 
 ["0.8.1 - 2"]
@@ -92,12 +92,14 @@ RandomNumbers = "e6cf234a-135c-5ec9-84dd-332b85af5143"
 
 ["0.8.9 - 2"]
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
+
+["0.8.9 - 2.8"]
 StaticArraysCore = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
 
 ["1 - 2"]
 UnsafeAtomics = "013be700-e6cd-48c3-b4a1-df204f14c38f"
 
-["1.0.5 - 2"]
+["1.0.5 - 2.8"]
 AcceleratedKernels = "6a4ca0a5-0e36-4168-a932-d9be78d558f1"
 
 ["1.2.4 - 2"]
@@ -111,3 +113,8 @@ PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 
 ["2.7.1 - 2"]
 AMDGPU_LLVM_Backend_jll = "cc5c0156-bd05-5a77-8a68-bb0aafb29019"
+
+["2.9 - 2"]
+KernelInterface = "4ee993da-d684-4d17-a7dd-4e58e78d92bf"
+LLVMDowngrader_jll = "f52de702-fb25-5922-94ba-81dd59b07444"
+Scratch = "6c6a2e73-6563-6170-7368-637461726353"

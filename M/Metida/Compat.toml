@@ -11,12 +11,12 @@ StatsModels = "0.6"
 ["0 - 0.9"]
 Tables = "1"
 
-["0.1.1 - 0"]
-ForwardDiff = "0.10"
-
 ["0.1.1 - 0.1.4"]
 BlockArrays = "0.10-0.12"
 BlockDiagonals = "0.1"
+
+["0.1.1 - 0.17.2"]
+ForwardDiff = "0.10"
 
 ["0.1.1 - 0.7.0"]
 Optim = ["0.19-0.22", "1"]
@@ -90,12 +90,16 @@ StatsBase = "0.30 - 0.34"
 LinearAlgebra = ["0.0.0", "1"]
 Random = ["0.0.0", "1"]
 
+["0.17.3 - 0"]
+ForwardDiff = ["0.10", "1"]
+julia = "1.8.0 - 1"
+
 ["0.7.1 - 0"]
 Optim = "1"
-
-["0.9.1 - 0"]
-julia = "1"
 
 ["0.9.1 - 0.12"]
 CategoricalArrays = "0.8-0.10"
 Distributions = "0.20-0.25"
+
+["0.9.1 - 0.17.2"]
+julia = "1"

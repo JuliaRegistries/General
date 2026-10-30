@@ -1,0 +1,27 @@
+name: AutoMerge stopwatch tests
+
+on:
+  pull_request:
+    paths:
+      - '.ci/stopwatch.jl'
+      - '.ci/test_stopwatch.jl'
+      - '.ci/Project.toml'
+      - '.ci/Manifest-v1.13.toml'
+      - '.github/workflows/stopwatch_tests.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - uses: julia-actions/setup-julia@fa02766e078afaaf09b14210362cee14137e6a32 # v3.0.2
+        with:
+          version: '1.13'
+      - uses: julia-actions/cache@a7bed9df697e5d7309d68afe7542a87621a8b6c8 # v3.3.0
+      - run: .ci/instantiate.sh .ci/
+      - run: julia --color=yes --project=.ci/ .ci/test_stopwatch.jl

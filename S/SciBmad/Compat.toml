@@ -128,7 +128,6 @@ PrettyTables = "3.4.0-3"
 
 ["0.5.1 - 0"]
 BatchSolve = "0.1.2 - 0.1"
-Beamlines = "0.10.2 - 0.10"
 DataFrames = "1.8.2 - 1"
 DifferentiationInterface = "0.7.4 - 0.7"
 FundamentalFrequencies = "0.1.2 - 0.1"
@@ -140,11 +139,20 @@ Reexport = "1.2.2 - 1"
 StaticArrays = "1.9.14 - 1"
 julia = "1.10.0 - 1"
 
+["0.5.1 - 0.5"]
+Beamlines = "0.10.2 - 0.10"
+
 ["0.5.1 - 0.5.2"]
 BeamTracking = "0.8.1 - 0.8"
 NonlinearNormalForm = "0.5.2 - 0.5"
 
 ["0.5.3 - 0"]
-BeamTracking = "0.8.3 - 0.8"
 NonlinearNormalForm = "0.5.3 - 0.5"
 TPSAInterface = "0.3.1 - 0.3"
+
+["0.5.3 - 0.5"]
+BeamTracking = "0.8.3 - 0.8"
+
+["0.6 - 0"]
+BeamTracking = "0.8.7 - 0.8"
+Beamlines = "0.11"

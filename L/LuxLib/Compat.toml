@@ -183,14 +183,14 @@ julia = "1.9.0-1"
 ["1 - 1.3.7"]
 LuxCore = "1"
 
-["1.11.1 - 1"]
-ArrayInterface = "7.17.1 - 7"
-
 ["1.11.1 - 1.12"]
 EnzymeCore = "0.8.13 - 0.8"
 
 ["1.11.1 - 1.15.2"]
 KernelAbstractions = "0.9.30 - 0.9"
+
+["1.11.1 - 1.15.9"]
+ArrayInterface = "7.17.1 - 7"
 
 ["1.12.1 - 1"]
 SciMLPublic = "1"
@@ -214,14 +214,23 @@ NNlib = "0.9.27 - 0.9"
 LuxCore = "1.5.0 - 1"
 
 ["1.15.1 - 1"]
-MLDataDevices = "1.17.1 - 1"
 UUIDs = "1.10.0 - 1"
+
+["1.15.1 - 1.15.9"]
+MLDataDevices = "1.17.1 - 1"
+
+["1.15.10 - 1"]
+ArrayInterface = "7.24.0 - 7"
+KernelAbstractions = "0.9.39 - 0.10"
+MLDataDevices = "1.17.10 - 1"
 
 ["1.15.3 - 1"]
 DispatchDoctor = "0.4.28 - 0.4"
 EnzymeCore = "0.8.16 - 0.8"
-KernelAbstractions = "0.9.39 - 0.9"
 Static = "1.1.1 - 1"
+
+["1.15.3 - 1.15.9"]
+KernelAbstractions = "0.9.39 - 0.9"
 
 ["1.15.4 - 1"]
 NNlib = "0.9.33 - 0.9"

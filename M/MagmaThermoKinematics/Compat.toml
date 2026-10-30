@@ -1,5 +1,4 @@
 [0]
-MAT = "0.10"
 Parameters = "0.12"
 Plots = "1"
 Reexport = "1"
@@ -22,6 +21,9 @@ JLD2 = "0.4"
 StaticArrays = "1.4.0-1"
 StructArrays = "0.6"
 WriteVTK = "1.14.0-1"
+
+["0 - 0.6"]
+MAT = "0.10"
 
 ["0.4.1"]
 GeoParams = "0.3.8-0.3"
@@ -46,17 +48,28 @@ ParallelStencil = "0.8-0.10"
 ["0.5 - 0.5.1"]
 GeophysicalModelGenerator = "0.3-0.5"
 
-["0.5.2 - 0"]
+["0.5.2 - 0.6"]
 GeophysicalModelGenerator = "0.7"
+
+["0.6"]
+GeoParams = "0.5 - 0.7"
+JLD2 = "0.4 - 0.5"
+ParallelStencil = "0.8 - 0.14"
 
 ["0.6 - 0"]
 CUDA = "4 - 5"
 CairoMakie = "0.8 - 0.20"
-GeoParams = "0.5 - 0.7"
 Interpolations = "0.13 - 0.16"
-JLD2 = "0.4 - 0.5"
-ParallelStencil = "0.8 - 0.14"
 StaticArrays = "1"
 StructArrays = "0.6 - 0.7"
 WriteVTK = "1"
 julia = "1.10.0 - 1"
+
+["0.7 - 0"]
+GeoParams = "0.5 - 0.9"
+GeophysicalModelGenerator = "0.7 - 0.8"
+InjectSills = "0.3"
+JLD2 = "0.4 - 0.6"
+MAT = "0.10 - 0.11"
+ParallelStencil = "0.15"
+SpecialFunctions = "2.7.2 - 2"

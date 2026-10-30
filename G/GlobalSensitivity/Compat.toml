@@ -72,7 +72,13 @@ DifferentiationInterface = "0.7"
 
 ["2.12.7 - 2"]
 PrecompileTools = "1.2.1 - 1"
+
+["2.12.7 - 2.12.8"]
 QuasiMonteCarlo = "0.3 - 0.4"
+
+["2.12.9 - 2"]
+Copulas = ["0.1.22 - 0.1", "1"]
+QuasiMonteCarlo = "0.4.3 - 0.4"
 
 ["2.2 - 2"]
 Combinatorics = "1"
@@ -115,7 +121,6 @@ StatsBase = "0.33.7-0.34"
 
 ["2.8 - 2"]
 ComplexityMeasures = "3.6.0 - 3"
-Copulas = "0.1.22 - 0.1"
 Distributions = "0.25.87 - 0.25"
 KernelDensity = "0.6.4 - 0.6"
 julia = "1.10.0 - 1"
@@ -133,6 +138,9 @@ StatsBase = "0.33.7 - 0.34"
 
 ["2.8 - 2.12.6"]
 QuasiMonteCarlo = "0.2.3 - 0.3"
+
+["2.8 - 2.12.8"]
+Copulas = "0.1.22 - 0.1"
 
 ["2.8 - 2.9"]
 LinearAlgebra = ["0.0.0", "1"]

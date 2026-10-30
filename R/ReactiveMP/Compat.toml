@@ -30,8 +30,10 @@ ForwardDiff = "0.10"
 Optim = "1"
 
 ["1 - 6"]
-MacroTools = "0.5"
 PositiveFactorizations = "0.2"
+
+["1 - 7"]
+MacroTools = "0.5"
 
 ["1.0.0"]
 Distributions = "0.24"
@@ -81,7 +83,7 @@ Rocket = "1.6.0-1"
 ["3 - 5.6.4"]
 Requires = "1"
 
-["3 - 6"]
+["3 - 7"]
 TinyHugeNumbers = "1"
 
 ["3.11 - 5.5.0"]
@@ -176,9 +178,7 @@ StaticArrays = "1.9.0 - 1"
 Unrolled = "0.1.3 - 0.1"
 
 ["5.5.1 - 6"]
-BayesBase = "1.5.0 - 1"
 DiffResults = "1.1.0 - 1"
-Distributions = "0.24 - 0.25"
 DomainIntegrals = "0.3.2 - 0.5"
 DomainSets = "0.5.2 - 0.7"
 FastCholesky = "1.3.0 - 1"
@@ -188,9 +188,13 @@ LinearAlgebra = "1.9.0 - 1"
 MatrixCorrectionTools = "1.2.0 - 1"
 PolyaGammaHybridSamplers = "1.2.6 - 1"
 Random = "1.9.0 - 1"
-Rocket = "1.8.0 - 1"
 SpecialFunctions = "2.3.0 - 2"
 StatsFuns = "1.3.0 - 1"
+
+["5.5.1 - 7"]
+BayesBase = "1.5.0 - 1"
+Distributions = "0.24 - 0.25"
+Rocket = "1.8.0 - 1"
 TupleTools = "1.2.0 - 1"
 julia = "1.10.0 - 1"
 
@@ -203,8 +207,14 @@ ForwardDiff = ["0.10", "1"]
 ["5.6.5 - 6"]
 Optim = "1 - 2"
 
-[6]
+["6 - 7"]
 UUIDs = "1"
 
 ["6.3 - 6"]
 ExponentialFamily = "2.5.0 - 2"
+
+[7]
+Compat = "4.10.0 - 4"
+LinearAlgebra = "1.10.0 - 1"
+MessagePassingRulesBase = "1"
+Random = "1.10.0 - 1"
