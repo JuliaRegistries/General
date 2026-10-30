@@ -1,12 +1,12 @@
-[0]
-Evolutionary = "0.11"
-
 ["0 - 0.1.1"]
 Optimization = "3"
 
 ["0 - 0.4.1"]
 Reexport = "1.2.0-1"
 julia = "1"
+
+["0 - 0.4.15"]
+Evolutionary = "0.11"
 
 ["0.1.2"]
 Optimization = "3.9.0-3"
@@ -23,6 +23,9 @@ Optimization = "4"
 ["0.4.14 - 0"]
 OptimizationBase = "5.5.0 - 5"
 SciMLBase = "3"
+
+["0.4.16 - 0"]
+Evolutionary = ["0.11", "0.12.0 - 0.12.1", "0.12.3 - 0.12"]
 
 ["0.4.2"]
 Optimization = "4.4.0 - 4"
