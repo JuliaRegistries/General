@@ -4,7 +4,7 @@ ChainRulesCore = "0.5-0.6"
 ["0 - 0.2.0"]
 FiniteDifferences = "0.7-0.9"
 
-["0 - 1"]
+["0 - 1.13.1"]
 julia = "1"
 
 ["0.2.0"]
@@ -64,11 +64,19 @@ ChainRulesCore = "1"
 ["1.12 - 1.13.0"]
 Suppressor = "0.2.6-0.2"
 
+["1.13.1"]
+Compat = "3 - 4"
+
 ["1.13.1 - 1"]
 ChainRulesCore = "1.11.2 - 1"
-Compat = "3 - 4"
 FiniteDifferences = "0.12.12 - 0.12"
 Suppressor = "0.2.6 - 0.2"
+
+["1.13.2 - 1"]
+LinearAlgebra = "1"
+Random = "1"
+Test = "1"
+julia = "1.10.0 - 1"
 
 ["1.3.0"]
 ChainRulesCore = "1.2.0-1"
