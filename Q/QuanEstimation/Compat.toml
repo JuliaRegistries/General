@@ -73,16 +73,23 @@ NVMagnetometer = "0.2"
 QuanEstimationBase = "0.2"
 
 ["0.3 - 0"]
+PythonCall = "0.9.34 - 0.9"
+julia = "1.11.0 - 1"
+
+["0.3 - 0.4"]
 ChainRulesCore = "1.26.1 - 1"
 Coverage = "1.8.1 - 1"
 JSON = "1.6.0 - 1"
-PythonCall = "0.9.34 - 0.9"
 QuadGK = "2.11.2 - 2"
 StableRNGs = "1.0.4 - 1"
 Suppressor = "0.2.8 - 0.2"
 Trapz = "2.0.3 - 2"
-julia = "1.11.0 - 1"
 
-["0.4 - 0"]
+["0.4"]
 NVMagnetometer = "0.3"
 QuanEstimationBase = "0.3"
+
+["0.5 - 0"]
+NVMagnetometer = "0.4"
+PrecompileTools = "1"
+QuanEstimationBase = "0.4"
