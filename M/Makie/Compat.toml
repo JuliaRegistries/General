@@ -491,7 +491,6 @@ ColorTypes = "0.8 - 0.12"
 Colors = "0.9 - 0.13"
 Contour = "0.5 - 0.6"
 Distributions = "0.17 - 0.25"
-DocStringExtensions = "0.8 - 0.9"
 FileIO = "1.6.0 - 1"
 FixedPointNumbers = "0.6 - 0.8"
 Format = "1.3.0 - 1"
@@ -517,13 +516,16 @@ julia = "1.10.0 - 1"
 ["0.24.1 - 0.24.10"]
 Showoff = ["0.3", "1.0.2 - 1"]
 
+["0.24.1 - 0.24.16"]
+DocStringExtensions = "0.8 - 0.9"
+
 ["0.24.1 - 0.24.4"]
 Interpolations = ["0.14", "0.15.1 - 0.15"]
 
 ["0.24.1 - 0.24.7"]
 ComputePipeline = "0.1.1 - 0.1"
 
-["0.24.11 - 0"]
+["0.24.11 - 0.24.16"]
 ComputePipeline = "0.1.8 - 0.1"
 
 ["0.24.12 - 0"]
@@ -535,6 +537,10 @@ ShaderAbstractions = "0.5.1 - 0.5"
 
 ["0.24.16 - 0"]
 FastInterpolations = "0.4.16 - 0.4"
+
+["0.24.17 - 0"]
+ComputePipeline = "0.1.9 - 0.1"
+DocStringExtensions = "0.8 - 0.10"
 
 ["0.24.5 - 0"]
 Interpolations = ["0.14", "0.15.1 - 0.16"]
