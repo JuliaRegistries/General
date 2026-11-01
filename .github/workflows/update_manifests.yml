@@ -82,7 +82,7 @@ jobs:
         shell: julia --color=yes {0}
       - run: mv .ci/Manifest.toml .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml
       - run: git status
-      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: manifest_file_for_${{ steps.manifest_version.outputs.manifest_version }}
           path: .ci/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml
@@ -124,7 +124,7 @@ jobs:
       - run: julia --color=yes --project=.ci/AutoMerge/ -e 'import Pkg; Pkg.update()'
       - run: mv .ci/AutoMerge/Manifest.toml .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml
       - run: git status
-      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: automerge_manifest_file_for_${{ steps.manifest_version.outputs.manifest_version }}
           path: .ci/AutoMerge/Manifest-v${{ steps.manifest_version.outputs.manifest_version }}.toml
