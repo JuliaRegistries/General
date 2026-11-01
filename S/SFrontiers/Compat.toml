@@ -34,6 +34,9 @@ StatsFuns = "1.1-1.5"
 julia = "1.9.0-1"
 
 [1]
+PrettyTables = "2 - 3"
+
+["1 - 2"]
 ADTypes = "1"
 DataFrames = "1"
 Distributions = "0.25"
@@ -42,7 +45,6 @@ ForwardDiff = ["0.10", "1"]
 HaltonSequences = "0.2 - 0.3"
 Optim = "1 - 2"
 OrderedCollections = "1"
-PrettyTables = "2 - 3"
 QuadGK = "2"
 SpecialFunctions = "2"
 StatsFuns = "1"
@@ -50,11 +52,14 @@ StatsFuns = "1"
 ["1.0"]
 julia = "1.9.0 - 1"
 
-["1.1 - 1"]
+["1.1 - 2"]
 julia = "1.10.0 - 1"
 
-["1.2 - 1"]
+["1.2 - 2"]
 Measures = "0.3"
 RecipesBase = "1"
 StatsAPI = "1"
 StatsBase = "0.33 - 0.34"
+
+[2]
+PrettyTables = "3"
