@@ -114,7 +114,7 @@ rocRAND_jll = "4.2.0-4"
 ["0.3 - 0.4.8"]
 LLVM = "4.6.0-4"
 
-["0.3 - 2"]
+["0.3 - 2.10"]
 ExprTools = "0.1"
 
 ["0.3.5 - 0.3"]
@@ -419,6 +419,10 @@ GPUArrays = "11.3.1 - 11"
 ["2.10 - 2"]
 GPUCompiler = "2.18.0 - 2"
 
+["2.11 - 2"]
+GPUToolbox = "3.5.0 - 3"
+KernelAbstractions = "0.10"
+
 ["2.2 - 2"]
 BFloat16s = "0.6"
 
@@ -460,7 +464,6 @@ AMDGPU_LLVM_Backend_jll = "23"
 Atomix = "1.5.0 - 1"
 CEnum = ["0.5", "1"]
 GPUArrays = "12.1.0 - 12"
-GPUToolbox = "3.3.1 - 3"
 KernelInterface = "0.4"
 LLVM = "10"
 LLVMDowngrader_jll = "0.12"
@@ -471,3 +474,6 @@ Random = "1"
 Scratch = "1"
 SparseArrays = "1"
 UnsafeAtomics = "0.4"
+
+["2.9 - 2.10"]
+GPUToolbox = "3.3.1 - 3"
