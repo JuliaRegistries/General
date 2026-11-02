@@ -6,8 +6,6 @@ DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
-Interact = "c601a237-2ae4-5e1e-952c-7a85b0c7eef1"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
@@ -22,6 +20,10 @@ TimeZones = "f269a46b-ccf7-5d73-abea-4c690281aa53"
 TypedTables = "9d95f2ec-7b3d-5a63-8d20-e2491e220bb9"
 UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+["0 - 0.3"]
+Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
+Interact = "c601a237-2ae4-5e1e-952c-7a85b0c7eef1"
 
 ["0 - 0.3.14"]
 Optim = "429524aa-4258-5aef-a3af-852621145aeb"
@@ -60,3 +62,8 @@ JuliaSyntaxHighlighting = "ac6e5ff7-fb65-4e79-a425-ec3bc9c03011"
 
 ["0.3.54 - 0"]
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+
+["0.4 - 0"]
+Bonito = "824d6782-a2ef-11e9-3a09-e5662e0c26f8"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
