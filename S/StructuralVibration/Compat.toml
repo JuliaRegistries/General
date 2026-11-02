@@ -21,14 +21,16 @@ DSP = "0.8"
 [1]
 FFTW = "1.8.0 - 1"
 FastGaussQuadrature = "1.0.2 - 1"
-LinearAlgebra = "1.11.0 - 1"
 Polynomials = "4.1.0 - 4"
 ProgressMeter = "1.10.2 - 1"
-Random = "1.11.0 - 1"
 SkipNan = "0.2"
 SpecialFunctions = "2.5.0 - 2"
-Statistics = "1.11.1 - 1"
 julia = "1.10.0 - 1"
+
+["1 - 1.10.2"]
+LinearAlgebra = "1.11.0 - 1"
+Random = "1.11.0 - 1"
+Statistics = "1.11.1 - 1"
 
 ["1 - 1.8"]
 Interpolations = "0.15.1 - 0.15"
@@ -40,6 +42,11 @@ ToeplitzMatrices = "0.8.5 - 0.8"
 
 ["1.1.2 - 1"]
 ToeplitzMatrices = "0.8.5 - 0.8"
+
+["1.10.3 - 1"]
+LinearAlgebra = "1.10.0 - 1"
+Random = "1.10.0 - 1"
+Statistics = "1.10.0 - 1"
 
 ["1.2 - 1.6.0"]
 DispatchDoctor = "0.4.26 - 0.4"
