@@ -1,10 +1,19 @@
 ["0 - 1"]
+Optimization = "5"
+
+["0 - 2"]
 ComponentArrays = "0.15"
 Makie = "0.24"
-Optimization = "5"
 
 ["0.0.4 - 0.0.6"]
 ModelingToolkit = "11"
 
-["0.0.7 - 1"]
+["0.0.7 - 2"]
 ModelingToolkit = "11.22.0 - 11"
+
+[2]
+DifferentiationInterface = "0.7"
+OptimizationBase = "5.5.3 - 5"
+RuntimeGeneratedFunctions = "0.5.15 - 0.5"
+SparseMatrixColorings = "0.4"
+Zygote = "0.7.13 - 0.7"
