@@ -1,8 +1,6 @@
 [0]
-Catalyst = "16"
 ComponentArrays = "0.15"
 DiffEqCallbacks = "4"
-DomainSets = "0.7"
 Extents = "0.1"
 ForwardDiff = "1"
 GeoInterface = "1"
@@ -21,9 +19,18 @@ Polyester = "0.7"
 ["0 - 0.5"]
 SciMLBase = "2"
 
-["0.3 - 0"]
+["0 - 0.6"]
+Catalyst = "16"
+DomainSets = "0.7"
+
+["0.3 - 0.6"]
 EarthSciIO = "0.1.4 - 0.1"
 
 ["0.6 - 0"]
 ModelingToolkitBase = "1 - 1.42"
 SciMLBase = "2 - 3"
+
+["0.7 - 0"]
+Catalyst = "16 - 17"
+DomainSets = "0.7 - 0.8"
+EarthSciIO = "0.1.4 - 0.2"

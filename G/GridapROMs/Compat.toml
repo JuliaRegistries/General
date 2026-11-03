@@ -1,9 +1,11 @@
 [0]
 BlockArrays = "1"
 HaltonSequences = "0.2"
-LowRankApprox = "0.5.5 - 0.5"
 PartitionedArrays = "0.3"
 UnPack = "1"
+
+["0 - 0.1"]
+LowRankApprox = "0.5.5 - 0.5"
 
 ["0 - 0.1.0"]
 ArraysOfArrays = "0.6.5 - 0.6"
@@ -24,7 +26,6 @@ StatsBase = "0.34.4 - 0.34"
 julia = "1.11.0 - 1"
 
 ["0.1.1 - 0"]
-ArraysOfArrays = "0.6"
 Clustering = "0.15"
 DataStructures = "0.19"
 Distributions = "0.25"
@@ -33,11 +34,14 @@ FillArrays = "1"
 ForwardDiff = "1"
 GridapDistributed = "0.4"
 GridapEmbedded = "0.9"
-GridapPETSc = "0.5"
 MPI = "0.20.23 - 0.20"
 SparseMatricesCSR = "0.6"
 StaticArrays = "1"
 StatsBase = "0.34"
+
+["0.1.1 - 0.1"]
+ArraysOfArrays = "0.6"
+GridapPETSc = "0.5"
 julia = "1.9.0 - 1"
 
 ["0.1.1 - 0.1.2"]
@@ -57,9 +61,14 @@ Gridap = "0.20"
 GridapSolvers = "0.7"
 MiniQhull = "0.4"
 
-["0.1.4 - 0"]
+["0.1.4 - 0.1"]
 RadialBasisFunctions = "0.5"
 
-["0.1.5 - 0"]
+["0.1.5 - 0.1"]
 GridapGmsh = "0.7.4 - 0.7"
 Plots = "1.41.6 - 1"
+
+["0.2 - 0"]
+ArraysOfArrays = ["0.6", "1"]
+RadialBasisFunctions = "0.7"
+julia = "1.10.0 - 1"
