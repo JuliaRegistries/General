@@ -1,7 +1,5 @@
 [1]
 BinaryBuilderPlatformExtensions = "0.2"
-BinaryBuilderSources = "0.2"
-BinaryBuilderToolchains = "0.3"
 Git = "1.5.0 - 1"
 HistoricalStdlibVersions = "2"
 Infiltrator = "1.9.2 - 1"
@@ -33,6 +31,10 @@ BinaryBuilderProducts = "0.2"
 BinaryBuilderGitUtils = "0.2"
 TimerOutputs = "0.5.29 - 0.5"
 
+["1 - 1.2.1"]
+BinaryBuilderSources = "0.2"
+BinaryBuilderToolchains = "0.3"
+
 ["1.0"]
 JLLGenerator = "0.4"
 LazyJLLWrappers = "1.1.0 - 1"
@@ -43,6 +45,8 @@ ObjectFile = "0.4.4 - 0.4"
 
 ["1.0.1 - 1"]
 KeywordArgumentExtraction = "1.2.0 - 1"
+
+["1.0.1 - 1.2.1"]
 ObjectFile = "0.4.4 - 0.5"
 
 ["1.1 - 1"]
@@ -66,3 +70,8 @@ BinaryBuilderProducts = "0.3"
 ["1.2.1 - 1"]
 BinaryBuilderGitUtils = "0.3"
 TimerOutputs = "0.5"
+
+["1.2.2 - 1"]
+BinaryBuilderSources = "0.2.5 - 0.2"
+BinaryBuilderToolchains = "0.3.4 - 0.3"
+ObjectFile = "0.6"
