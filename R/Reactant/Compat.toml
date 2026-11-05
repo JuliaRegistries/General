@@ -627,7 +627,6 @@ Downloads = "1.6.0 - 1"
 Enzyme = "0.13.115 - 0.13"
 EnzymeCore = "0.8.14 - 0.8"
 FileWatching = "1.10.0 - 1"
-GPUCompiler = "1.17.0 - 1"
 JSON = "1.4.0 - 1"
 LLVM = "9.4.6 - 9"
 Libdl = "1.10.0 - 1"
@@ -654,6 +653,9 @@ LLVMOpenMP_jll = ["18.1.7 - 18", "22.1.0 - 22"]
 
 ["0.2.277 - 0.2.288"]
 ReactantCore = "0.1.20 - 0.1"
+
+["0.2.277 - 0.2.305"]
+GPUCompiler = "1.17.0 - 1"
 
 ["0.2.278"]
 Reactant_jll = "0.0.401"
@@ -736,10 +738,16 @@ Reactant_jll = "0.0.436"
 ["0.2.304"]
 Reactant_jll = "0.0.438"
 
+["0.2.305"]
+Reactant_jll = "0.0.441"
+
 ["0.2.305 - 0"]
 CEnum = ["0.5", "1"]
 CRC32c = "1.10.0 - 1"
-Reactant_jll = "0.0.441"
+
+["0.2.306 - 0"]
+GPUCompiler = ["1.17.0 - 1", "2.9 - 2.10"]
+Reactant_jll = "0.0.442"
 
 ["0.2.31"]
 Reactant_jll = "0.0.70"
