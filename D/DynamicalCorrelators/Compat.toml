@@ -13,12 +13,12 @@ julia = "1.9-1.11"
 MPSKit = "0.11"
 QuantumLattices = "0.9"
 
-["0.1.2 - 0"]
-MPSKitModels = "0.4"
-
 ["0.1.2 - 0.1.6"]
 MPSKit = "0.12.1-0.12"
 QuantumLattices = "0.11"
+
+["0.1.2 - 0.14"]
+MPSKitModels = "0.4"
 
 ["0.1.2 - 0.3"]
 TensorKit = "0.14.3-0.14"
@@ -40,14 +40,23 @@ BlockTensorKit = "0.3.13 - 0.3"
 QuantumLattices = "0.11 - 0.15"
 TensorKit = "0.16 - 0.17"
 
+["0.14"]
+MPSKit = "0.13.13 - 0.13"
+QuantumLattices = "0.15.4 - 0.15"
+TensorKit = "0.17.1 - 0.17"
+
 ["0.14 - 0"]
 BlockTensorKit = "0.3.16 - 0.3"
-MPSKit = "0.13.13 - 0.13"
 MatrixAlgebraKit = "0.6"
-QuantumLattices = "0.15.4 - 0.15"
 SerializedElementArrays = "0.1"
-TensorKit = "0.17.1 - 0.17"
 TimerOutputs = ["0.5.29 - 0.5", "1"]
+
+["0.15 - 0"]
+MPSKit = "0.14"
+MPSKitModels = "0.4.8 - 0.4"
+QuantumLattices = "0.16"
+TensorKit = "0.17"
+VectorInterface = "0.6"
 
 ["0.3.2 - 0.4.0"]
 MPSKit = "0.13.3-0.13"
