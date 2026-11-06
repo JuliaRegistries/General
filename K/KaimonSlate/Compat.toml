@@ -1,4 +1,11 @@
-[1]
+["1 - 1.1"]
+SlateExtensionsBase = "0.9"
+Tachikoma = "2.3.6 - 2"
+
+["1 - 1.4"]
+SHA = "0.7"
+
+["1 - 2"]
 Base64 = "1.11.0 - 1"
 CodecZlib = "0.7.8 - 0.7"
 CodecZstd = "0.8"
@@ -24,14 +31,7 @@ Tar = "1.10.0 - 1"
 Typst_jll = "0.14"
 julia = "1.12.0 - 1"
 
-["1 - 1.1"]
-SlateExtensionsBase = "0.9"
-Tachikoma = "2.3.6 - 2"
-
-["1 - 1.4"]
-SHA = "0.7"
-
-["1.1 - 1"]
+["1.1 - 2"]
 Libdl = "1.11.0 - 1"
 
 ["1.10 - 1"]
@@ -49,20 +49,28 @@ SlateExtensionsBase = "0.10.2 - 0.10"
 ["1.4.4 - 1.6"]
 SlateExtensionsBase = "0.10.4 - 0.10"
 
-["1.5 - 1"]
-SHA = ["0.7", "1"]
-
 ["1.5 - 1.8.3"]
 Tachikoma = "2.6.1 - 2"
 
-["1.7 - 1"]
-Observables = "0.5.5 - 0.5"
+["1.5 - 2"]
+SHA = ["0.7", "1"]
 
 ["1.7 - 1.8"]
 SlateExtensionsBase = "0.10.5 - 0.10"
 
-["1.8.4 - 1"]
+["1.7 - 2"]
+Observables = "0.5.5 - 0.5"
+
+["1.8.4 - 2"]
 Tachikoma = "2.6.2 - 2"
 
 ["1.9"]
 SlateExtensionsBase = "0.10.6 - 0.10"
+
+[2]
+BetterFileWatching = "1"
+CancellationTokens = "2.3.0 - 2"
+LibSSH2_jll = "1.11.3 - 1"
+Random = "1.11.0 - 1"
+SlateExtensionsBase = "0.11.2 - 0.11"
+ripgrep_jll = "13"
