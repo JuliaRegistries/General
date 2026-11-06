@@ -1,7 +1,6 @@
 [0]
 Dates = "1"
 LinearAlgebra = "1"
-NaNStatistics = "0.6"
 julia = "1.10.0 - 1"
 
 ["0 - 0.1"]
@@ -13,6 +12,9 @@ StaticArrays = "1.9.13 - 1"
 
 ["0 - 0.1.5"]
 VectorizedStatistics = "0.5"
+
+["0 - 0.4.0"]
+NaNStatistics = "0.6"
 
 ["0.1.1 - 0.1"]
 DSP = "0.7 - 0.8"
@@ -27,3 +29,6 @@ Statistics = "1"
 
 ["0.1.5 - 0.1"]
 HybridArrays = "0.4.16 - 0.4"
+
+["0.4.1 - 0"]
+NaNStatistics = ["0.6", "1"]
