@@ -10,10 +10,17 @@ StaticArrays = "1.9.0 - 1"
 Statistics = "1"
 julia = "1.12.0 - 1"
 
-["0 - 0.1"]
+["0 - 0.1.1"]
 VisualGeometryToolkitCore = "0.2"
 VisualGeometryToolkitEstimation = "0.2"
 VisualGeometryToolkitFeatures = "0.2"
+
+["0.1.2 - 0"]
+VisualGeometryToolkitFeatures = "0.4"
+
+["0.1.2 - 0.1"]
+VisualGeometryToolkitCore = "0.4"
+VisualGeometryToolkitEstimation = "0.4"
 
 ["0.2 - 0"]
 Adapt = "4"
@@ -23,4 +30,3 @@ KernelAbstractions = "0.9.34 - 0.9"
 SparseArrays = "1"
 VisualGeometryToolkitCore = "0.5"
 VisualGeometryToolkitEstimation = "0.6"
-VisualGeometryToolkitFeatures = "0.4"
