@@ -33,5 +33,11 @@ ChunkCodecLibBlosc = "0.2 - 0.3"
 CodecXz = "0.7.4 - 0.7"
 
 ["2.0.2 - 2"]
-ChunkCodecLibBlosc = "0.2 - 0.4"
 ChunkCodecLibLzma = "1"
+
+["2.0.2 - 2.0"]
+ChunkCodecLibBlosc = "0.2 - 0.4"
+
+["2.1 - 2"]
+ChunkCodecLibBlosc = ["0.2 - 0.4", "1"]
+Dates = "1"

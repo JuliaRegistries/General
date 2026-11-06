@@ -1,18 +1,25 @@
 [1]
 DataFrames = "1.6.0 - 1"
 Dates = "1.10.0 - 1"
-ForwardDiff = ["0.10", "1"]
 GLM = "1.9.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
-MixedModels = "4.35.0 - 4"
 StandardizedPredictors = "1"
 Statistics = "1.10.0 - 1"
-StatsModels = "0.7"
 Tables = "1.10.0 - 1"
 julia = "1.10.0 - 1"
+
+["1 - 1.4"]
+ForwardDiff = ["0.10", "1"]
+MixedModels = "4.35.0 - 4"
+StatsModels = "0.7"
 
 ["1 - 1.4.0"]
 CategoricalArrays = "0.10"
 
-["1.4.1 - 1"]
+["1.4.1 - 1.4"]
 CategoricalArrays = ["0.10", "1"]
+
+["1.5 - 1"]
+CategoricalArrays = "1.0.1 - 1"
+ForwardDiff = "1"
+StatsModels = "0.7.9 - 0.7"

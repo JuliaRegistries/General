@@ -13,7 +13,7 @@ SymbolicIndexingInterface = "0.3"
 ["0 - 0.0.8"]
 Symbolics = "7"
 
-["0 - 1"]
+["0 - 2"]
 ForwardDiff = "1.3.0 - 1"
 LinearAlgebra = "1"
 LuxCore = "1.4.0 - 1"
@@ -32,7 +32,7 @@ SciMLBase = "2 - 3"
 Corleone = "0.0.5"
 SciMLBase = "2.141.0 - 3"
 
-["0.0.6 - 1"]
+["0.0.6 - 2"]
 DocStringExtensions = "0.9.3 - 0.9"
 Reexport = "1.2.2 - 1"
 SymbolicIndexingInterface = "0.3.43 - 0.3"
@@ -40,14 +40,19 @@ SymbolicIndexingInterface = "0.3.43 - 0.3"
 ["0.0.8"]
 Corleone = "0.0.6"
 
-["0.0.8 - 1"]
+["0.0.8 - 2"]
 SciMLBase = "3"
 
 ["0.0.9 - 0"]
 Corleone = "0.0.6 - 0.0.7"
 
-["0.0.9 - 1"]
+["0.0.9 - 2"]
 Symbolics = "7.37.0 - 7"
 
 [1]
 Corleone = ["0.0.6 - 0.0.8", "1"]
+
+[2]
+ADTypes = "1"
+ChainRulesCore = "1.25.1 - 1"
+Corleone = "2"

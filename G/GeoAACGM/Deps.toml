@@ -2,7 +2,6 @@
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
-SphericalHarmonics = "c489a379-e885-57ff-9236-bd896d33c250"
 
 ["0 - 0.1.1"]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
@@ -14,7 +13,10 @@ Dictionaries = "85a47980-9c8c-11e8-2b9f-f7ca1fa99fb4"
 LazyArrays = "5078a376-72f3-5289-bfd5-ec5146d43c02"
 Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
 
-["0.1.1 - 0"]
+["0 - 0.1.7"]
+SphericalHarmonics = "c489a379-e885-57ff-9236-bd896d33c250"
+
+["0.1.1 - 0.1.7"]
 FixedSizeArrays = "3821ddf9-e5b5-40d5-8e25-6813ab96b5e2"
 
 ["0.1.2 - 0.1.4"]
@@ -25,4 +27,9 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 ["0.1.5 - 0"]
 GeoCotrans = "4624b3bc-fe35-44f8-bfa8-722ff9c0e307"
+
+["0.1.5 - 0.1.7"]
 SpaceDataModel = "0b37b92c-f0c5-4a52-bd5c-390dec20857c"
+
+["0.1.8 - 0"]
+TimeseriesUtilities = "31d49243-0742-49c1-b8d2-db113b74581e"

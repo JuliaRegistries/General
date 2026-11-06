@@ -6,6 +6,8 @@ CUDA = "3 - 5"
 
 ["0.18 - 0"]
 Atomix = "1"
+
+["0.18 - 0.19"]
 KernelAbstractions = "0.9"
 
 ["0.18.6 - 0"]
@@ -15,3 +17,7 @@ CUDA = "5 - 6"
 AMDGPU = "2.7.3 - 2"
 GPUArraysCore = "0.2"
 Metal = "1.10.3 - 1"
+
+["0.20 - 0"]
+KernelAbstractions = "0.9 - 0.10"
+Makie = "0.24"

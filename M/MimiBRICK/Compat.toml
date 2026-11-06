@@ -1,4 +1,12 @@
-[1]
+["1 - 1.0.1"]
+CSV = "0.9-0.10"
+Distributions = "0.23-0.25"
+Mimi = "1.2.0-1"
+NetCDF = "0.11"
+SpecialFunctions = "1-2"
+julia = "1.6.0-1"
+
+["1 - 2"]
 CSVFiles = "1"
 DataFrames = "1"
 KernelDensity = "0.6"
@@ -7,14 +15,6 @@ Missings = "1"
 Plots = "1"
 Query = "1"
 RobustAdaptiveMetropolisSampler = "1"
-
-["1 - 1.0.1"]
-CSV = "0.9-0.10"
-Distributions = "0.23-0.25"
-Mimi = "1.2.0-1"
-NetCDF = "0.11"
-SpecialFunctions = "1-2"
-julia = "1.6.0-1"
 
 ["1.0.0"]
 Interpolations = "0.13"
@@ -27,11 +27,14 @@ Interpolations = "0.13-0.15"
 MCMCDiagnostics = "0.3-0.4"
 StatsBase = "0.33-0.34"
 
-["1.0.1 - 1"]
+["1.0.1 - 2"]
 Documenter = ["0.27", "1"]
 Statistics = "1"
 
 ["1.0.2 - 1"]
+julia = "1.6.0 - 1"
+
+["1.0.2 - 2"]
 CSV = ["0.9 - 0.10", "1"]
 Distributions = "0.23 - 0.25"
 Interpolations = "0.13 - 0.16"
@@ -40,4 +43,12 @@ Mimi = "1.2.0 - 1"
 NetCDF = "0.11 - 0.12"
 SpecialFunctions = "1 - 2"
 StatsBase = "0.33 - 0.34"
-julia = "1.6.0 - 1"
+
+[2]
+Dates = "1.10.0 - 1"
+FileIO = "1"
+LinearAlgebra = "1.10.0 - 1"
+Random = "1.10.0 - 1"
+XLSX = "0.12 - 0.13"
+ZipFile = "0.10"
+julia = "1.10.0 - 1"

@@ -1,7 +1,7 @@
 ["0 - 0.10"]
 julia = "1"
 
-["0.11 - 0"]
+["0.11 - 1"]
 julia = "1.8.0 - 1"
 
 ["0.18 - 0.28.0"]
@@ -24,8 +24,10 @@ SparseArrays = "1.0.0 - 1.13.0"
 Artifacts = "1"
 
 ["0.28.1 - 0"]
-LinearAlgebra = "1.0 - 1.13"
 NearestNeighbors = "0.4"
+
+["0.28.1 - 1"]
+LinearAlgebra = "1.0 - 1.13"
 SparseArrays = "1.0 - 1.14"
 
 ["0.6 - 0.28.0"]

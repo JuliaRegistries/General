@@ -1,7 +1,6 @@
 [0]
 ImageFiltering = "0.7"
 OffsetArrays = "1"
-SparseDiffTools = "2"
 
 ["0 - 0.1.0"]
 HDF5 = "0.16-0.17"
@@ -19,12 +18,14 @@ OrdinaryDiffEq = "6"
 ["0 - 0.1.2"]
 FLoops = "0.2"
 
+["0 - 0.1.3"]
+SparseDiffTools = "2"
+
 ["0.1.1 - 0"]
 Distributed = "1"
 HDF5 = "0.16 - 0.17"
 Interpolations = "0.14 - 0.16"
 LinearAlgebra = "1"
-LinearSolve = "1.23.0 - 3"
 ProgressMeter = "1.9.0 - 1"
 Random = "1"
 SharedArrays = "1"
@@ -33,8 +34,15 @@ SpecialFunctions = "2.3.0 - 2"
 StaticArrays = "1.9.0 - 1"
 julia = "1.10.0 - 1"
 
-["0.1.2 - 0"]
+["0.1.1 - 0.1.3"]
+LinearSolve = "1.23.0 - 3"
+
+["0.1.2 - 0.1.3"]
 OrdinaryDiffEq = "6.101.0 - 6"
 
 ["0.1.3 - 0"]
 OhMyThreads = "0.8"
+
+["0.1.4 - 0"]
+LinearSolve = "5.18.0 - 5"
+OrdinaryDiffEq = "6.101.0 - 7"

@@ -1,7 +1,5 @@
 [0]
 Bessels = "0.2"
-Distances = "0.10"
-NearestNeighbors = "0.4"
 Setfield = "1"
 
 ["0 - 0.1.0"]
@@ -15,6 +13,10 @@ Statistics = "1.9.0-1"
 Tables = "1.6.0-1"
 Unitful = "1.11.0-1"
 julia = "1.9.0-1"
+
+["0 - 0.16"]
+Distances = "0.10"
+NearestNeighbors = "0.4"
 
 ["0 - 0.2.4"]
 GeoTables = "1.7.0-1"
@@ -87,8 +89,11 @@ Optim = "2.2.1 - 2"
 ["0.16.5"]
 Meshes = "0.58"
 
-["0.16.6 - 0"]
+["0.16.6 - 0.16"]
 Meshes = "0.59"
+
+["0.17 - 0"]
+Meshes = "0.60"
 
 ["0.2.2 - 0.2.4"]
 Meshes = "0.41"

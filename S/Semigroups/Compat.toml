@@ -1,11 +1,19 @@
 [0]
-AbstractAlgebra = ["0.43", "0.48"]
 CxxWrap = "0.17"
-julia = "1.9.0 - 1"
-libsemigroups_jll = "3.5.5"
 
 ["0 - 0.1.0"]
 libsemigroups_julia_jll = "0.0.1"
 
-["0.1.1 - 0"]
+["0 - 0.1.2"]
+AbstractAlgebra = ["0.43", "0.48"]
+julia = "1.9.0 - 1"
+libsemigroups_jll = "3.5.5"
+
+["0.1.1 - 0.1.2"]
 libsemigroups_julia_jll = "0.1.1 - 0.1"
+
+["0.1.3 - 0"]
+AbstractAlgebra = ["0.43", "0.48 - 0.50"]
+julia = "1.10.0 - 1"
+libsemigroups_jll = "3.6.1"
+libsemigroups_julia_jll = "0.1.2 - 0.1"

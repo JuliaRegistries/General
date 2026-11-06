@@ -86,7 +86,7 @@ Combinatorics = "1.0.2-1"
 RuntimeGeneratedFunctions = "0.5.12-0.5"
 julia = "1.10.0-1"
 
-["14 - 16"]
+["14 - 17"]
 Setfield = "1"
 
 ["14.2"]
@@ -132,7 +132,7 @@ Reexport = ["0.2", "1"]
 ["15.0.1 - 15"]
 DynamicPolynomials = "0.6"
 
-["15.0.1 - 16"]
+["15.0.1 - 17"]
 DynamicQuantities = "1"
 EnumX = "1"
 Reexport = "1"
@@ -172,7 +172,11 @@ SymbolicUtils = "3.20.0 - 3"
 Symbolics = "6.31.1 - 6"
 Unitful = "1.12.4 - 1"
 
-["15.0.9 - 16"]
+["15.0.9 - 16.1"]
+DiffEqBase = "6.165.0 - 6"
+SciMLBase = "2.84.0 - 2"
+
+["15.0.9 - 17"]
 Combinatorics = "1.0.2 - 1"
 DataStructures = "0.18 - 0.19"
 DocStringExtensions = "0.8 - 0.9"
@@ -183,21 +187,17 @@ MacroTools = "0.5.5 - 0.5"
 RuntimeGeneratedFunctions = "0.5.12 - 0.5"
 julia = "1.10.0 - 1"
 
-["15.0.9 - 16.1"]
-DiffEqBase = "6.165.0 - 6"
-SciMLBase = "2.84.0 - 2"
-
-[16]
-SciMLPublic = "1"
-SymbolicIndexingInterface = "0.3"
-SymbolicUtils = "4.9.1 - 4"
-Symbolics = "7.13.0 - 7"
-
 ["16 - 16.2.1"]
 ModelingToolkitBase = "1.17.0 - 1"
 
 ["16 - 16.2.2"]
 JumpProcesses = "9.23.0 - 9"
+
+["16 - 17"]
+SciMLPublic = "1"
+SymbolicIndexingInterface = "0.3"
+SymbolicUtils = "4.9.1 - 4"
+Symbolics = "7.13.0 - 7"
 
 ["16.2"]
 SciMLBase = "2.84.0 - 3"
@@ -205,7 +205,7 @@ SciMLBase = "2.84.0 - 3"
 ["16.2 - 16.2.2"]
 DiffEqBase = "6.165.0 - 7"
 
-["16.2.1 - 16"]
+["16.2.1 - 17"]
 LinearAlgebra = "1.10.0 - 1"
 Parameters = "0.12 - 0.13"
 SparseArrays = "1.10.0 - 1"
@@ -219,9 +219,13 @@ JumpProcesses = "9.28.0 - 9"
 ["16.2.3 - 16.2"]
 DiffEqBase = ["6.165.0 - 6", "7.4.2 - 7"]
 
-["16.3 - 16"]
+["16.3 - 17"]
 DiffEqBase = "7.4.2 - 7"
 SciMLBase = "3"
+
+[17]
+JumpProcesses = "10"
+ModelingToolkitBase = "1.78.0 - 1"
 
 [5]
 Reexport = "0.2"

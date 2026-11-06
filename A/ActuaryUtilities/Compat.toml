@@ -149,9 +149,6 @@ julia = "1.9.0-1"
 ["5.1"]
 Optimization = "4.8.0 - 4"
 
-["5.1 - 5"]
-julia = "1.10.0 - 1"
-
 ["5.1 - 5.11"]
 Reexport = "1.2.0 - 1"
 StatsBase = "0.33 - 0.34"
@@ -159,12 +156,17 @@ StatsBase = "0.33 - 0.34"
 ["5.1 - 5.8"]
 OptimizationOptimJL = "0.4.5 - 0.4"
 
+["5.1 - 6"]
+julia = "1.10.0 - 1"
+
 ["5.11 - 5"]
 Statistics = "1"
 
 ["5.12 - 5"]
-Distributions = "0.25.120 - 0.25"
 FinanceCore = "2.3.0 - 3"
+
+["5.12 - 6"]
+Distributions = "0.25.120 - 0.25"
 ForwardDiff = "1"
 PrecompileTools = "1.2.0 - 1"
 QuadGK = "2.10.0 - 2"
@@ -192,10 +194,16 @@ FinanceModels = "5.5.1 - 5"
 ["5.8 - 5"]
 FinanceModels = "5.5.1 - 6"
 
-["5.9 - 5"]
-Dates = "1"
-Random = "1"
-
 ["5.9 - 5.11"]
 FinanceCore = "2 - 3"
 ForwardDiff = ["0.10", "1"]
+
+["5.9 - 6"]
+Dates = "1"
+Random = "1"
+
+[6]
+ConstructionBase = "1.5.1 - 1"
+DiffResults = "1.1.0 - 1"
+FinanceCore = "3"
+FinanceModels = "7"

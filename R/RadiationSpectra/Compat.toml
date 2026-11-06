@@ -75,7 +75,6 @@ SpecialFunctions = ["0.10", "1"]
 ValueShapes = "0.7-0.8"
 
 ["0.5 - 0"]
-DensityInterface = "0.4"
 Distributions = "0.25"
 EmpiricalDistributions = "0.3"
 StaticArrays = "1"
@@ -83,6 +82,9 @@ StaticUnivariatePolynomials = "0.6"
 
 ["0.5 - 0.5.1"]
 ValueShapes = "0.9"
+
+["0.5 - 0.5.13"]
+DensityInterface = "0.4"
 
 ["0.5 - 0.5.2"]
 NamedTupleTools = "0.13"
@@ -115,6 +117,9 @@ SpecialFunctions = "1 - 2"
 StatsBase = "0.33 - 0.34"
 ValueShapes = "0.9 - 0.11"
 julia = "1.10.0 - 1"
+
+["0.5.14 - 0"]
+DensityInterface = ["0.4", "1"]
 
 ["0.5.2 - 0.5.8"]
 ValueShapes = "0.9-0.10"

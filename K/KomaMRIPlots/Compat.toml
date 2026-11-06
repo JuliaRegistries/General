@@ -27,15 +27,24 @@ KomaMRIBase = "0.11 - 0.12"
 ["0.12"]
 KomaMRIBase = "0.13"
 
-["0.13 - 0"]
+["0.13"]
 PlotlyBase = "0.8.23 - 0.8"
+
+["0.13 - 0"]
 PlotlyKaleido = "2.3.1 - 2"
 
 ["0.13.0"]
 KomaMRIBase = "0.13.3 - 0.13"
 
-["0.13.1 - 0"]
+["0.13.1 - 0.13"]
 KomaMRIBase = "0.13.3 - 0.14"
+
+["0.14 - 0"]
+Artifacts = "1"
+Bonito = "4.2.0 - 5"
+KomaMRIBase = "0.15.1 - 0.15"
+PlotlyBase = ["0.8.23 - 0.8", "0.10"]
+julia = "1.10.0 - 1"
 
 ["0.7.7 - 0.7"]
 PackageExtensionCompat = "1"
@@ -65,6 +74,8 @@ QMRIColors = "1"
 
 ["0.9.3 - 0"]
 Interpolations = "0.13 - 0.16"
+
+["0.9.3 - 0.13"]
 julia = "1.9.0 - 1"
 
 ["0.9.5 - 0.9"]

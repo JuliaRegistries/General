@@ -12,8 +12,22 @@ Documenter = "1"
 StaticArrays = "1.9"
 julia = "1.6.0-1"
 
-["2.1 - 2"]
+["2.1"]
 Distributions = "0.25.120 - 0.25"
 Random = "1.11.0 - 1"
-StaticArrays = "1.9.0 - 1"
 julia = "1.6.0 - 1"
+
+["2.1 - 2"]
+StaticArrays = "1.9.0 - 1"
+
+["2.2 - 2"]
+BasicCompGeometry = "0.5.1 - 0.5"
+CPUSummary = "0.2.7 - 0.2"
+CSV = "0.10.15 - 0.10"
+CpuId = "0.3.1 - 0.3"
+DataFrames = "1.8.1 - 1"
+Hwloc = "3.3.0 - 3"
+PrettyTables = "3.1.2 - 3"
+Printf = "1"
+TimerOutputs = "0.5.29 - 0.5"
+julia = "1.10.0 - 1"

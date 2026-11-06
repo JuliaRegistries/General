@@ -38,6 +38,13 @@ jobs:
           - x64
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - name: Allow executable stack with Julia v1.9
+        if: ${{ matrix.version == '1.9' }}
+        run: |
+          # New versions of glibc don't allow executable stack, Julia v1.9 comes
+          # with a build of openlibm which uses that.  Ref:
+          # <https://github.com/JuliaLang/julia/issues/57250#issuecomment-2834911167>.
+          echo "GLIBC_TUNABLES=glibc.rtld.execstack=2" | tee -a "${GITHUB_ENV}"
       - uses: julia-actions/setup-julia@fa02766e078afaaf09b14210362cee14137e6a32 # v3.0.2
         with:
           version: ${{ matrix.version }}

@@ -1,14 +1,14 @@
 [0]
 Crayons = "4"
-DataStructures = "0.18"
-Gadfly = "1"
-Highlights = "0.5"
-Interact = "0.10"
 MacroTools = "0.5"
 PolynomialRoots = "1"
 QuadGK = "2"
 TimeZones = "1"
 TypedTables = "1"
+
+["0 - 0.3"]
+Gadfly = "1"
+Interact = "0.10"
 
 ["0 - 0.3.12"]
 UnicodePlots = "1"
@@ -46,11 +46,17 @@ SymPy = "1"
 ["0 - 0.3.51"]
 julia = "1.6.0-1"
 
+["0 - 0.3.52"]
+Highlights = "0.5"
+
 ["0 - 0.3.7"]
 ProgressMeter = "1"
 
 ["0 - 0.3.8"]
 BlackBoxOptim = "0.5"
+
+["0 - 0.4.0"]
+DataStructures = "0.18"
 
 ["0.3.13 - 0.3.14"]
 UnicodePlots = "1-2"
@@ -73,7 +79,7 @@ CSV = "0.8-0.10"
 ["0.3.20 - 0.3.23"]
 UnicodePlots = "2.10.0-2"
 
-["0.3.21 - 0"]
+["0.3.21 - 0.3.52"]
 Graphviz_jll = "2"
 
 ["0.3.24 - 0"]
@@ -99,11 +105,11 @@ Distributions = "0.23-0.24"
 ["0.3.41 - 0.3.51"]
 StatsBase = "0.33-0.34"
 
-["0.3.45 - 0"]
-SymPy = "2"
-
 ["0.3.45 - 0.3.51"]
 Interpolations = "0.14-0.15"
+
+["0.3.45 - 0.3.53"]
+SymPy = "2"
 
 ["0.3.47 - 0.3.50"]
 JuliaInterpreter = "0.9"
@@ -114,16 +120,40 @@ PrecompileTools = "1"
 ["0.3.51"]
 JuliaInterpreter = "0.9-0.10"
 
-["0.3.52 - 0"]
-BlackBoxOptim = "0.5 - 0.6"
+["0.3.52"]
 CSV = "0.8 - 0.10"
-Distributions = "0.23 - 0.25"
 Interpolations = "0.14 - 0.15"
 JuliaInterpreter = "0.9 - 0.10"
-ProgressMeter = "1.6.0 - 1"
-StatsBase = "0.33 - 0.34"
-Unitful = "1.7.0 - 1"
 julia = "1.6.0 - 1"
+
+["0.3.52 - 0"]
+ProgressMeter = "1.6.0 - 1"
+Unitful = "1.7.0 - 1"
+
+["0.3.52 - 0.3.53"]
+BlackBoxOptim = "0.5 - 0.6"
+Distributions = "0.23 - 0.25"
+StatsBase = "0.33 - 0.34"
+
+["0.3.53"]
+Graphviz_jll = ["2", "15.1.0 - 15"]
+Interpolations = "0.14 - 0.16"
+JuliaInterpreter = "0.9 - 0.12"
+
+["0.3.53 - 0"]
+CSV = "1.1.0 - 1"
+julia = "1.13.0 - 1"
+
+["0.3.54 - 0"]
+BlackBoxOptim = "0.6"
+Distributions = "0.25"
+Graphviz_jll = "15.1.0 - 15"
+Interpolations = "0.16"
+JuliaInterpreter = "0.12"
+StatsBase = "0.34"
+
+["0.3.54 - 0.4.0"]
+Symbolics = "6.58.0 - 6"
 
 ["0.3.8 - 0.3.51"]
 Distributions = "0.23-0.25"
@@ -131,3 +161,15 @@ ProgressMeter = "1.6.0-1"
 
 ["0.3.9 - 0.3.51"]
 BlackBoxOptim = "0.5-0.6"
+
+["0.4 - 0"]
+Bonito = "5.2.0 - 5"
+CairoMakie = "0.15.16 - 0.15"
+Makie = "0.24.16 - 0.24"
+
+["0.4.1 - 0"]
+DataAPI = "1"
+DataStructures = "0.18 - 0.19"
+HTTP = "2"
+JSON = "1"
+Symbolics = "7"

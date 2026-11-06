@@ -16,8 +16,14 @@ MathOptInterface = "1.45.0 - 1"
 
 ["0.4.27 - 0"]
 CUDA = "6"
-GPUArrays = "11.5.0 - 11"
 cuSPARSE = "6"
+
+["0.4.27 - 0.4.28"]
+GPUArrays = "11.5.0 - 11"
+
+["0.4.29 - 0"]
+AMDGPU = "2.2.0 - 2"
+GPUArrays = "11.5.0 - 12"
 
 ["0.4.7"]
 Colors = "0.12.11-0.12"

@@ -116,15 +116,17 @@ StaticArrays = "1.6.0 - 1"
 ["1.29.1 - 2"]
 Chemfiles = "0.10.31 - 0.10"
 ChunkSplitters = "3.1.1 - 3"
-Dates = "1.10.0 - 1"
 DelimitedFiles = "1.9.0 - 1"
 LaTeXStrings = "1.3.0 - 1"
-LinearAlgebra = "1.10.0 - 1"
 MDLovoFit_jll = "20.1.0 - 20"
 OffsetArrays = "1.13.0 - 1"
-Printf = "1.10.0 - 1"
 ProgressMeter = "1.10.0 - 1"
 Reexport = "1.2.2 - 1"
+
+["1.29.1 - 2.7"]
+Dates = "1.10.0 - 1"
+LinearAlgebra = "1.10.0 - 1"
+Printf = "1.10.0 - 1"
 Statistics = "1.10.0 - 1"
 julia = "1.10.0 - 1"
 
@@ -177,16 +179,26 @@ ProgressMeter = "1.10.0-1"
 ["1.9 - 1.29.0"]
 OffsetArrays = "1.13.0-1"
 
-[2]
+["2 - 2.7"]
 MolSimToolkitShared = "1.5.0 - 1"
 
 ["2.0.0"]
 CellListMap = "0.9.11 - 0.9"
 PDBTools = "3.21.0 - 3"
 
-["2.0.1 - 2"]
+["2.0.1 - 2.7"]
 CellListMap = "0.10"
 PDBTools = "3.25.2 - 3"
 
 ["2.2.2 - 2"]
 EasyFit = "1"
+
+["2.8 - 2"]
+CellListMap = "0.10.7 - 0.10"
+Dates = "1.11.0 - 1"
+LinearAlgebra = "1.11.0 - 1"
+PDBTools = "4"
+PDBToolsBase = "1"
+Printf = "1.11.0 - 1"
+Statistics = "1.11.0 - 1"
+julia = "1.11.0 - 1"

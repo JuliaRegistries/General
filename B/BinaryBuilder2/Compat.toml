@@ -1,10 +1,5 @@
 [1]
-BinaryBuilderAuditor = "0.2"
-BinaryBuilderGitUtils = "0.2"
 BinaryBuilderPlatformExtensions = "0.2"
-BinaryBuilderProducts = "0.2"
-BinaryBuilderSources = "0.2"
-BinaryBuilderToolchains = "0.3"
 Git = "1.5.0 - 1"
 HistoricalStdlibVersions = "2"
 Infiltrator = "1.9.2 - 1"
@@ -24,10 +19,21 @@ Sandbox = "2.1.1 - 2"
 Scratch = "1.3.0 - 1"
 ScratchSpaceGarbageCollector = "0.1.1 - 0.1"
 StructEquality = "2.1.0 - 2"
-TimerOutputs = "0.5.29 - 0.5"
 TreeArchival = "0.2"
 gh_cli_jll = "2.63.2 - 2"
 julia = "1.12.0 - 1"
+
+["1 - 1.1"]
+BinaryBuilderAuditor = "0.2"
+BinaryBuilderProducts = "0.2"
+
+["1 - 1.2.0"]
+BinaryBuilderGitUtils = "0.2"
+TimerOutputs = "0.5.29 - 0.5"
+
+["1 - 1.2.1"]
+BinaryBuilderSources = "0.2"
+BinaryBuilderToolchains = "0.3"
 
 ["1.0"]
 JLLGenerator = "0.4"
@@ -39,6 +45,8 @@ ObjectFile = "0.4.4 - 0.4"
 
 ["1.0.1 - 1"]
 KeywordArgumentExtraction = "1.2.0 - 1"
+
+["1.0.1 - 1.2.1"]
 ObjectFile = "0.4.4 - 0.5"
 
 ["1.1 - 1"]
@@ -54,3 +62,24 @@ SHA = "0.7"
 
 ["1.1.1 - 1"]
 SHA = ["0.7", "1"]
+
+["1.2"]
+BinaryBuilderAuditor = "0.3"
+
+["1.2 - 1"]
+BinaryBuilderProducts = "0.3"
+
+["1.2.1 - 1"]
+BinaryBuilderGitUtils = "0.3"
+TimerOutputs = "0.5"
+
+["1.2.2 - 1"]
+BinaryBuilderToolchains = "0.3.4 - 0.3"
+ObjectFile = "0.6"
+
+["1.2.2 - 1.2"]
+BinaryBuilderSources = "0.2.5 - 0.2"
+
+["1.3 - 1"]
+BinaryBuilderAuditor = "0.3.1 - 0.3"
+BinaryBuilderSources = "0.2.6 - 0.2"

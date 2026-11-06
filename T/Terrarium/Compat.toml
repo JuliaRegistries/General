@@ -3,13 +3,11 @@ Adapt = "4"
 ConstructionBase = "1"
 DataStructures = "0.19"
 Dates = "1"
-DocStringExtensions = "0.9.5 - 0.9"
 Flatten = "0.4"
 FreezeCurves = "0.9"
 Interpolations = "0.16"
 IntervalSets = "0.7"
 KernelAbstractions = "0.9"
-RingGrids = "0.1"
 Unitful = "1"
 julia = "1.10.0 - 1"
 
@@ -22,11 +20,21 @@ Oceananigans = "0.100 - 0.106"
 ["0 - 0.1.2"]
 DomainSets = "0.7"
 
+["0 - 0.1.7"]
+RingGrids = "0.1"
+
+["0 - 0.1.8"]
+DocStringExtensions = "0.9.5 - 0.9"
+
 ["0.1.1"]
 SpeedyWeatherInternals = "0.1 - 0.2"
 
 ["0.1.1 - 0"]
 Thermodynamics = "1"
+
+["0.1.10 - 0"]
+Oceananigans = "0.113.5 - 0.116"
+SpeedyWeatherInternals = "1.0.1 - 1"
 
 ["0.1.2 - 0"]
 ModelParameters = "0.4"
@@ -54,8 +62,23 @@ ProgressMeter = "1.11.0 - 1"
 ["0.1.6"]
 Oceananigans = "0.110.15 - 0.110"
 
-["0.1.6 - 0"]
+["0.1.6 - 0.1.7"]
 SpeedyWeatherInternals = "0.2.2 - 0.2"
 
-["0.1.7 - 0"]
+["0.1.7"]
 Oceananigans = "0.110.15 - 0.111"
+
+["0.1.8"]
+Oceananigans = "0.113.5 - 0.113"
+
+["0.1.8 - 0"]
+RingGrids = ["0.1", "1"]
+
+["0.1.8 - 0.1.9"]
+SpeedyWeatherInternals = ["0.2.2 - 0.2", "1"]
+
+["0.1.9"]
+Oceananigans = "0.113.5 - 0.114"
+
+["0.1.9 - 0"]
+DocStringExtensions = "0.9.5 - 0.10"

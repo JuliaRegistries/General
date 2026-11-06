@@ -53,17 +53,17 @@ FinanceCore = "2.1.0 - 2"
 Dates = "1.6.0 - 1"
 StaticArrays = "1.6.0 - 1"
 
-["4.13.1 - 6"]
-julia = "1.10.0 - 1"
-
 ["4.13.1 - 6.4"]
 PrecompileTools = "1.1.0 - 1"
 Reexport = "1.2.0 - 1"
 
+["4.13.1 - 7"]
+julia = "1.10.0 - 1"
+
 ["4.14"]
 OptimizationNLopt = "0.3.2 - 0.3"
 
-["4.14 - 6"]
+["4.14 - 7"]
 DifferentiationInterface = "0.7.4 - 0.7"
 
 ["4.15 - 6"]
@@ -79,7 +79,7 @@ AccessibleModels = "0.1"
 AbstractTrees = "0.4.5 - 0.4"
 FinanceCore = "2.3.0 - 2"
 
-["4.17 - 6"]
+["4.17 - 7"]
 Random = "1"
 
 ["4.3 - 4.13.0"]
@@ -104,7 +104,7 @@ julia = "1.10.0-1"
 ["4.8 - 4.9"]
 DataInterpolations = "4.7.1-4"
 
-["4.8 - 6"]
+["4.8 - 7"]
 LinearAlgebra = "1"
 
 ["6.0"]
@@ -127,12 +127,22 @@ DataInterpolations = "9"
 
 ["6.5 - 6"]
 AccessibleModels = "0.1.11 - 0.1"
+Optimization = "4.4.0 - 4"
+
+["6.5 - 7"]
 Accessors = "0.1.42 - 0.1"
 DataInterpolations = "9.2.0 - 10"
 IntervalSets = "0.7.11 - 0.7"
-Optimization = "4.4.0 - 4"
 PrecompileTools = "1.2.0 - 1"
 Reexport = "1.2.2 - 1"
 Roots = "2.0.2 - 3"
 SpecialFunctions = "2.4.0 - 2"
 Transducers = "0.4.81 - 0.4"
+
+[7]
+AccessibleModels = "0.1.14 - 0.1"
+Compat = "4.15.0 - 4"
+FinanceCore = "3"
+ForwardDiff = "1"
+Optimization = "5"
+OptimizationOptimJL = "0.4.6 - 0.4"

@@ -12,8 +12,13 @@ julia = "1"
 julia = "1.6.0-1"
 
 ["0.4.10 - 0"]
-LogExpFunctions = ["0.3.14 - 0.3", "1"]
 PrecompileTools = "1.2.0 - 1"
+
+["0.4.10 - 0.4.13"]
+LogExpFunctions = ["0.3.14 - 0.3", "1"]
+
+["0.4.14 - 0"]
+LogExpFunctions = "1"
 
 ["0.4.5 - 0"]
 Random = "1.10.0 - 1"

@@ -1,7 +1,5 @@
 [0]
-DocStringExtensions = "0.9"
 MatrixMarket = "0.5"
-SparseArrays = "1"
 UnPack = "1"
 unzip_jll = "6"
 
@@ -12,6 +10,10 @@ ZipArchives = "1"
 Compat = "3.31.1-4"
 DataDeps = "0.7.13-0.7"
 julia = "1.6.0-1"
+
+["0 - 0.3.6"]
+DocStringExtensions = "0.9"
+SparseArrays = "1"
 
 ["0.3 - 0"]
 ZipArchives = "2"
@@ -27,13 +29,24 @@ Tar = "1.9.0-1"
 
 ["0.3.4 - 0"]
 Compat = "3.31.1 - 4"
-DelimitedFiles = "1"
 MAT = "0.11 - 0.12"
-Tar = "1.9.0 - 1"
 julia = "1.6.0 - 1"
 
 ["0.3.4 - 0.3.5"]
 DataDeps = "0.7.13 - 0.7"
 
+["0.3.4 - 0.3.6"]
+DelimitedFiles = "1"
+Tar = "1.9.0 - 1"
+
 ["0.3.6 - 0"]
 DataDeps = ["0.7.13 - 0.7", "1"]
+
+["0.3.7 - 0"]
+DelimitedFiles = ["0.0.0", "1"]
+DocStringExtensions = "0.9 - 0.10"
+InteractiveUtils = ["0.0.0", "1.6.0 - 1"]
+LinearAlgebra = ["0.0.0", "1.6.0 - 1"]
+Mmap = ["0.0.0", "1.6.0 - 1"]
+SparseArrays = ["0.0.0", "1"]
+Tar = ["0.0.0", "1.9.0 - 1"]

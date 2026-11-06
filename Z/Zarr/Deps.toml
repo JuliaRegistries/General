@@ -1,4 +1,4 @@
-[0]
+["0 - 0.10"]
 Blosc = "a74b3585-a348-5f62-a45c-50e91977d574"
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
@@ -11,35 +11,46 @@ AWSSDK = "0d499d91-6ae5-5d63-9313-12987b87d5ad"
 ["0 - 0.5.1"]
 AWSS3 = "1c724243-ef5b-51ab-93f4-b0a88ac62a95"
 
-["0.10 - 0"]
+["0.10"]
 CRC32c = "8bf52ea8-c179-5cab-976a-9e18b702a9bc"
 
-["0.10.1 - 0"]
+["0.10.1 - 0.10"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
-["0.3 - 0"]
+["0.11 - 0"]
+Preferences = "21216c6a-2e73-6563-6e65-726566657250"
+ZarrBlosc = "5717d1f5-dd42-40cd-8e77-00dfad1079f5"
+ZarrCore = "77f5b75c-4c08-499f-ba13-550b0a0af171"
+ZarrGCS = "b0c5ce8f-018f-417d-9deb-9816b6363039"
+ZarrHTTP = "904a97b2-8abf-4ac8-b211-6540db5c2c8c"
+ZarrS3 = "3ac672aa-0e94-41ce-be0d-2f83c20261dd"
+ZarrZip = "54bcf1c8-e61d-4e4f-b375-463581846cca"
+ZarrZlib = "5ee7c756-6ac8-46ad-a53f-994846513443"
+ZarrZstd = "1a1ab68b-db27-4b87-8dee-6752e2bcfa1e"
+
+["0.3 - 0.10"]
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 
 ["0.3 - 0.5.1"]
 FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 
-["0.4 - 0"]
+["0.4 - 0.10"]
 DiskArrays = "3c3547ce-8d99-4f5e-a174-61eb10b00ae3"
 
 ["0.4.1 - 0.9.4"]
 CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
 
-["0.4.2 - 0"]
+["0.4.2 - 0.10"]
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 
 ["0.6 - 0.7"]
 AWS = "fbe9abb3-538b-5e4e-ba9e-bc94f4f92ebc"
 
-["0.6.1 - 0"]
+["0.6.1 - 0.10"]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
-["0.7 - 0"]
+["0.7 - 0.10"]
 URIs = "5c2747f8-b7ea-4ff2-ba2e-563bfd36b1d4"
 
 ["0.7 - 0.9.4"]
@@ -51,10 +62,10 @@ AWSS3 = "1c724243-ef5b-51ab-93f4-b0a88ac62a95"
 ["0.9 - 0.10.1"]
 OpenSSL = "4d8831e6-92b7-49fb-bdf8-b643e874388c"
 
-["0.9.3 - 0"]
+["0.9.3 - 0.10"]
 ZipArchives = "49080126-0e18-4c2a-b176-c102e4b3760c"
 
-["0.9.5 - 0"]
+["0.9.5 - 0.10"]
 ChunkCodecCore = "0b6fb165-00bc-4d37-ab8b-79f91016dbe1"
 ChunkCodecLibZlib = "4c0bbee4-addc-4d73-81a0-b6caacae83c8"
 ChunkCodecLibZstd = "55437552-ac27-4d47-9aa3-63184e8fd398"

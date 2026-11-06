@@ -68,9 +68,14 @@ julia = "1.10.0 - 1"
 
 [5]
 ANSIColoredPrinters = "0.0.1"
-CommonMark = "1"
 HTTP = "2.4.0 - 2"
 OrderedCollections = "1.8.1 - 2"
 PrecompileTools = "1"
 Scratch = "1"
 julia = "1.11.0 - 1"
+
+["5 - 5.2"]
+CommonMark = "1"
+
+["5.3 - 5"]
+CommonMark = "1.0.4 - 1"
