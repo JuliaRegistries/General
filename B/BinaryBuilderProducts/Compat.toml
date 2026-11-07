@@ -4,13 +4,21 @@ JLLGenerator = "0.3"
 julia = "1.6.0-1"
 
 ["0.2 - 0"]
-BinaryBuilderSources = "0.2"
 julia = "1.9.0 - 1"
+
+["0.2 - 0.3.0"]
+BinaryBuilderSources = "0.2"
 
 ["0.2.0"]
 JLLGenerator = "0.4"
 KeywordArgumentExtraction = "1"
 
 ["0.2.1 - 0"]
-JLLGenerator = "0.5"
 KeywordArgumentExtraction = "1.2.0 - 1"
+
+["0.2.1 - 0.3.0"]
+JLLGenerator = "0.5"
+
+["0.3.1 - 0"]
+BinaryBuilderSources = "0.3"
+JLLGenerator = "0.5.3 - 0.5"
