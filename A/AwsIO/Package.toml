@@ -1,3 +1,7 @@
 name = "AwsIO"
 uuid = "4047365c-aa37-44ec-b1fa-4c0d5495ccf1"
 repo = "https://github.com/JuliaServices/AwsIO.jl.git"
+
+[metadata.deprecated]
+reason = "This package is unmaintained. Use Reseau.jl for sockets and TLS, or LibAwsIO.jl for direct aws-c-io bindings."
+alternative = "Reseau"
