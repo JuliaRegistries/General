@@ -139,12 +139,12 @@ Thermodynamics = "0.12.14 - 0.12"
 ["0.26.1 - 0"]
 StaticArrays = "1.9.0 - 1"
 
-["0.26.2 - 0"]
-RootSolvers = ["0.3 - 0.4", "1"]
-
 ["0.26.2 - 0.26"]
 ClimaParams = "0.10.35 - 0.11"
 Thermodynamics = "0.12.14 - 0.13"
+
+["0.26.2 - 0.47"]
+RootSolvers = ["0.3 - 0.4", "1"]
 
 ["0.27 - 0"]
 UnrolledUtilities = "0.1"
@@ -224,11 +224,17 @@ ClimaParams = "1.3.3 - 1"
 ["0.46 - 0"]
 ForwardDiff = "1"
 
-["0.47 - 0"]
+["0.47"]
 ClimaParams = "1.3.4 - 1"
+
+["0.47 - 0"]
 DocStringExtensions = "0.8 - 0.10"
 InteractiveUtils = ["0.0.0", "1"]
 LazyArtifacts = ["0.0.0", "1"]
+
+["0.48 - 0"]
+ClimaParams = "1.3.6 - 1"
+RootSolvers = "1.1.0 - 1"
 
 ["0.5.1 - 0.5"]
 CLIMAParameters = "0.2-0.6"

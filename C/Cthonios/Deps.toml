@@ -1,7 +1,6 @@
 [0]
 ConstitutiveModels = "fc6ee7eb-129a-416f-804b-d7271ece6a3a"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
-Exodus = "f57ae99e-f805-4780-bdca-96e224be1e5a"
 FiniteElementContainers = "d08262e4-672f-4e7f-a976-f2cea5767631"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
@@ -28,6 +27,9 @@ StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 ["0-0.2"]
 ComponentArrays = "b0b7db55-cfe3-40fc-9ded-d10e2dbeff66"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
+
+["0-0.3"]
+Exodus = "f57ae99e-f805-4780-bdca-96e224be1e5a"
 
 ["0-0.3.1"]
 ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
@@ -70,11 +72,16 @@ Enzyme = "7da242da-08ed-463a-9acd-ee780be4f1d9"
 ["0.2.2-0.2"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
+["0.3"]
+NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
+
 ["0.3-0"]
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 Krylov = "ba0b0d4f-ebba-5204-a429-3ac8c609bfb7"
-NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 
 ["0.3.1-0"]
 Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
+
+["0.4-0"]
+LimitedLDLFactorizations = "f5a24dde-3ab7-510b-b81b-6a72c6098d3b"

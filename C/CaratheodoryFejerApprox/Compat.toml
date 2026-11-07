@@ -2,12 +2,9 @@
 AbstractFFTs = "1"
 ApproxFun = "0.13"
 Arpack = "0.5"
-GenericFFT = "0.1"
-GenericLinearAlgebra = "0.3"
 LinearAlgebra = "1"
 Polynomials = "4"
 PrecompileTools = "1"
-Roots = "2"
 Setfield = "1"
 ToeplitzMatrices = "0.8"
 
@@ -17,9 +14,23 @@ DoubleFloats = "1.3.0-1"
 FFTW = "1.7.0-1"
 julia = "1.9.0-1"
 
+["0 - 0.1.1"]
+GenericFFT = "0.1"
+GenericLinearAlgebra = "0.3"
+Roots = "2"
+
+["0.1.1"]
+DocStringExtensions = "0.9"
+julia = "1.9.0 - 1"
+
 ["0.1.1 - 0"]
 ArnoldiMethod = "0.4"
-DocStringExtensions = "0.9"
 DoubleFloats = "1.3.0 - 1"
 FFTW = "1.7.0 - 1"
-julia = "1.9.0 - 1"
+
+["0.1.2 - 0"]
+DocStringExtensions = "0.9 - 0.10"
+GenericFFT = "0.1.0 - 0.1.6"
+GenericLinearAlgebra = "0.3 - 0.4"
+Roots = "2 - 3"
+julia = "1.10.0 - 1"

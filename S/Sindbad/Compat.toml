@@ -3,7 +3,6 @@ AxisKeys = "0.2"
 CSV = "0.10"
 ComponentArrays = "0.15"
 ConstructionBase = "1"
-ErrorMetrics = "0.1"
 FillArrays = "1"
 Infiltrator = "1"
 JLD2 = "0.6"
@@ -33,6 +32,9 @@ Zarr = "0.9"
 ["0 - 0.3"]
 TimeSamplers = "0.1"
 
+["0 - 0.5.0"]
+ErrorMetrics = "0.1"
+
 ["0.2"]
 DimensionalData = ["0.3", "0.29"]
 SindbadTEM = "0.1.1 - 0.1"
@@ -47,6 +49,18 @@ SindbadTEM = "0.1.3 - 0.1"
 DimensionalData = "0.29 - 0.30"
 Zarr = "0.9 - 0.10"
 
-["0.4 - 0"]
+["0.4"]
 SindbadTEM = "0.2"
+
+["0.4 - 0"]
 TimeSamplers = "0.2"
+
+["0.5 - 0"]
+Interpolations = "0.15 - 0.16"
+
+["0.5.0"]
+SindbadTEM = "0.3"
+
+["0.5.1 - 0"]
+ErrorMetrics = "0.1.1 - 0.1"
+SindbadTEM = "0.3.1 - 0.3"

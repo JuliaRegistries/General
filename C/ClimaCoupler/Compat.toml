@@ -45,13 +45,15 @@ ClimaUtilities = "0.1.14-0.1"
 StaticArrays = "1.5.0-1"
 SurfaceFluxes = "0.11-0.12"
 
+["0.2"]
+ClimaAnalysis = "0.5.21 - 0.5"
+ClimaDiagnostics = "0.2.6 - 0.3"
+ClimaUtilities = "0.1.22 - 0.1"
+
 ["0.2 - 0"]
 ArgParse = "1"
-ClimaAnalysis = "0.5.21 - 0.5"
 ClimaComms = "0.6.2 - 0.6"
-ClimaDiagnostics = "0.2.6 - 0.3"
 ClimaParams = "1"
-ClimaUtilities = "0.1.22 - 0.1"
 Insolation = "1.1.0 - 1"
 Interpolations = "0.14 - 0.16"
 JLD2 = "0.5 - 0.6"
@@ -75,6 +77,16 @@ SurfaceFluxes = ["0.15", "1"]
 LazyBroadcast = "1"
 
 ["0.2.3 - 0"]
+SurfaceFluxes = "1.2.0 - 1"
+
+["0.2.3 - 0.2"]
 ClimaCore = ["0.14.46 - 0.14", "0.15.2 - 0.15"]
 ClimaTimeSteppers = "0.8.11 - 0.10"
-SurfaceFluxes = "1.2.0 - 1"
+
+["0.3 - 0"]
+ClimaAnalysis = "0.5.24 - 0.5"
+ClimaCore = ["0.16", "1"]
+ClimaDiagnostics = "0.3.9 - 0.4"
+ClimaInitialConditions = "0.1"
+ClimaTimeSteppers = ["0.8.11 - 0.10", "1"]
+ClimaUtilities = "0.1.32 - 0.1"

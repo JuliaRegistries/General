@@ -7,14 +7,12 @@ ExponentialUtilities = "1"
 GeometryBasics = "0.3 - 0.5"
 IntervalBoxes = "0.2 - 0.3"
 IntervalConstraintProgramming = "0.14 - 0.15"
-IntervalMatrices = "0.8 - 0.12"
 Ipopt = "1"
 Javis = "0.9"
 Makie = "0.17 - 0.24"
 MathOptInterface = "1"
 MiniQhull = "0.1 - 0.4"
 Optim = ["0.15 - 0.22", "1 - 2"]
-Polyhedra = "0.6 - 0.8"
 RangeEnclosures = "0.3"
 RecipesBase = ["0.6 - 0.8", "1"]
 SCS = "1 - 2"
@@ -26,9 +24,18 @@ SymbolicUtils = ["0.12 - 0.20", "1 - 4"]
 Symbolics = ["1 - 5.30", "6.1 - 7"]
 WriteVTK = "1"
 
+["7 - 7.1"]
+IntervalMatrices = "0.8 - 0.12"
+Polyhedra = "0.6 - 0.8"
+
 ["7.0"]
 TaylorModels = "0.9 - 0.10"
 
 ["7.1 - 7"]
 TaylorModels = "0.11 - 0.12"
 TaylorSeries = "0.22.2 - 0.22"
+
+["7.2 - 7"]
+IntervalMatrices = "0.13"
+Polyhedra = "0.6 - 0.9"
+SumOfSquares = "0.6 - 0.8"

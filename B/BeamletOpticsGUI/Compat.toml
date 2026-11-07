@@ -5,11 +5,17 @@ InteractiveUtils = "1"
 LinearAlgebra = "1"
 Makie = "0.24"
 PrecompileTools = "1"
-Trapz = "2"
 julia = "1.12.0 - 1"
 
 ["0 - 0.1"]
 BeamletOptics = "0.13.11 - 0.13"
 
-["0.2 - 0"]
+["0 - 0.2"]
+Trapz = "2"
+
+["0.2"]
 BeamletOptics = "0.13.12 - 0.13"
+
+["0.3 - 0"]
+BeamletOptics = "0.14"
+Preferences = "1"

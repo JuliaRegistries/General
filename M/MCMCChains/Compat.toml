@@ -114,12 +114,12 @@ AbstractFFTs = "0.5"
 ["4 - 5.3"]
 Compat = "2.2.0-3"
 
-["4 - 7"]
-TableTraits = ["0.4", "1"]
-Tables = "1"
-
 ["4 - 7.1"]
 IteratorInterfaceExtensions = ["0.1.1-0.1", "1"]
+
+["4 - 8"]
+TableTraits = ["0.4", "1"]
+Tables = "1"
 
 ["4.0"]
 Requires = ["0.5", "1"]
@@ -130,7 +130,7 @@ AbstractMCMC = ["0.4-0.5", "1"]
 ["4.0.1 - 4.7.4"]
 AbstractMCMC = ["0.4-0.5", "1-2"]
 
-["4.0.1 - 7"]
+["4.0.1 - 8"]
 NaturalSort = "1"
 
 ["4.11 - 7.1"]
@@ -205,7 +205,7 @@ julia = "1.6.0-1"
 ["5.6 - 6.0.4"]
 Statistics = "1.6.0-1"
 
-["6 - 7"]
+["6 - 8"]
 MCMCDiagnosticTools = "0.3"
 
 ["6.0.2 - 7.1"]
@@ -214,7 +214,7 @@ StatsBase = "0.33.2-0.34"
 ["6.0.4 - 7.1"]
 AbstractMCMC = ["0.4-0.5", "1-5"]
 
-["6.0.5 - 7"]
+["6.0.5 - 8"]
 Dates = ["0.0.0", "1"]
 LinearAlgebra = ["0.0.0", "1"]
 Random = ["0.0.0", "1"]
@@ -224,7 +224,15 @@ Statistics = ["0.0.0", "1"]
 DataAPI = "1.16.0-1"
 julia = "1.6.3-1"
 
-["7.2 - 7"]
+["7.2 - 7.5"]
+PrettyTables = ["0.9 - 0.12", "1 - 2"]
+julia = "1.6.3 - 1"
+
+["7.2 - 7.7"]
+OrderedCollections = "1.4.0 - 1"
+StatsFuns = ["0.8 - 0.9", "1"]
+
+["7.2 - 8"]
 AbstractMCMC = ["0.4 - 0.5", "1 - 5"]
 AxisArrays = "0.4.4 - 0.4"
 DataAPI = "1.16.0 - 1"
@@ -235,23 +243,15 @@ MLJModelInterface = ["0.3.5 - 0.4", "1"]
 RecipesBase = ["0.7 - 0.8", "1"]
 StatsBase = "0.33.2 - 0.34"
 
-["7.2 - 7.5"]
-PrettyTables = ["0.9 - 0.12", "1 - 2"]
-julia = "1.6.3 - 1"
-
-["7.2 - 7.7"]
-OrderedCollections = "1.4.0 - 1"
-StatsFuns = ["0.8 - 0.9", "1"]
-
 ["7.6"]
 PrettyTables = ["0.9 - 0.12", "1 - 3"]
 
-["7.6 - 7"]
+["7.6 - 8"]
 julia = "1.10.0 - 1"
 
-["7.7 - 7"]
+["7.7 - 8"]
 PrettyTables = "3"
 
-["7.8 - 7"]
+["7.8 - 8"]
 OrderedCollections = "1.4.0 - 2"
 StatsFuns = ["0.8 - 0.9", "1 - 2"]

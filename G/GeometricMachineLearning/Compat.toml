@@ -138,7 +138,7 @@ julia = "1.8.0 - 1"
 GeometricBase = "0.11 - 0.12"
 GeometricEquations = "0.20"
 
-["0.4.7 - 0"]
+["0.4.7 - 0.8"]
 GeometricBase = "0.14"
 GeometricEquations = "0.21"
 GeometricSolutions = "0.6"
@@ -152,11 +152,11 @@ AbstractNeuralNetworks = "0.6.4 - 0.6"
 GeometricOptimizers = "0.4"
 SymbolicNeuralNetworks = "0.5"
 
-["0.5 - 0"]
-TimerOutputs = ["0.5", "1"]
-
 ["0.5 - 0.6.0"]
 julia = "1.10.0 - 1"
+
+["0.5 - 0.8"]
+TimerOutputs = ["0.5", "1"]
 
 ["0.6"]
 AbstractNeuralNetworks = "0.7"
@@ -170,24 +170,36 @@ GeometricOptimizers = "0.4.1 - 0.4"
 NeuralNetworkParameters = "0.1"
 SymbolicNeuralNetworks = "0.6"
 
-["0.6.1 - 0"]
-julia = "1.11.0 - 1"
-
 ["0.6.1 - 0.6"]
 GeometricOptimizers = "0.6"
 NeuralNetworkParameters = "0.2.2 - 0.2"
 SymbolicNeuralNetworks = "0.7"
 
+["0.6.1 - 0.8"]
+julia = "1.11.0 - 1"
+
 ["0.7"]
 GeometricOptimizers = "0.7"
 
-["0.7 - 0"]
+["0.7 - 0.8"]
 AbstractNeuralNetworks = "0.8"
 NeuralNetworkParameters = "0.3"
 SymbolicNeuralNetworks = "0.8"
 
-["0.8 - 0"]
+["0.8"]
 GeometricOptimizers = "0.8"
 InteractiveUtils = "1"
+
+["0.8 - 0"]
 LinearAlgebra = "1"
 Random = "1"
+
+["0.9 - 0"]
+AbstractNeuralNetworks = "0.9.2 - 0.9"
+DiffResults = "1.1.0 - 1"
+GeometricBase = "0.15"
+GeometricEquations = "0.21.5 - 0.21"
+GeometricOptimizers = "0.9.2 - 0.9"
+NeuralNetworkParameters = "0.5"
+ReducedComplexityModeling = "0.5"
+julia = "1.12.0 - 1"
