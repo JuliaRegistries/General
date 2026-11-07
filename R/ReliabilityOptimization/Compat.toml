@@ -1,7 +1,6 @@
 [0]
 ChainRulesCore = "1"
 Distributions = "0.25"
-ImplicitDifferentiation = "0.2"
 Reexport = "1"
 UnPack = "1"
 
@@ -15,15 +14,25 @@ NonconvexIpopt = "0.4"
 Zygote = "0.6"
 julia = "1"
 
+["0 - 0.4.0"]
+ImplicitDifferentiation = "0.2"
+
 ["0.2 - 0"]
 FiniteDifferences = "0.12"
 StaticArraysCore = "1"
 
 ["0.4 - 0"]
 LinearAlgebra = "1"
-NonconvexIpopt = ["0.4", "0.6"]
 NonconvexUtils = "1"
 SparseArrays = "1"
 Statistics = "1"
 Zygote = "0.6 - 0.7"
 julia = "1.10.0 - 1"
+
+["0.4.0"]
+NonconvexIpopt = ["0.4", "0.6"]
+
+["0.4.1 - 0"]
+ADTypes = "1"
+ImplicitDifferentiation = ["0.2", "0.9"]
+NonconvexIpopt = ["0.4", "0.6 - 0.7"]
