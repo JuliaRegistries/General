@@ -10,8 +10,10 @@ DocStringExtensions = "0.6-0.8"
 Unitful = ["0.12-0.18", "1"]
 
 ["0 - 2"]
-FFTW = "1"
 RecipesBase = "1"
+
+["0 - 2.9.1"]
+FFTW = "1"
 
 ["0.0.3 - 0.1.0"]
 GNSSSignals = "0.15-0.16"
@@ -85,3 +87,6 @@ GNSSSignals = "3 - 4"
 
 ["2.7 - 2"]
 PrecompileTools = "1.2.0 - 1"
+
+["2.9.2 - 2"]
+FFTL = "0.1"
