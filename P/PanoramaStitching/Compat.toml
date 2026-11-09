@@ -2,7 +2,6 @@
 DataStructures = "0.19"
 Graphs = "1.12.0 - 1"
 LinearAlgebra = "1"
-NLLSsolver = "5.3.0 - 5"
 Rotations = "1.7.0 - 1"
 Static = "1"
 StaticArrays = "1.9.0 - 1"
@@ -16,6 +15,9 @@ VisualGeometryToolkitFeatures = "0.2"
 
 ["0 - 0.2.1"]
 Random = "1"
+
+["0 - 0.4"]
+NLLSsolver = "5.3.0 - 5"
 
 ["0.1.2 - 0.1"]
 VisualGeometryToolkitCore = "0.4"
@@ -53,7 +55,13 @@ VisualGeometryToolkitCore = "0.5.6 - 0.5"
 ForwardDiff = "1.4.0 - 1"
 PrecompileTools = "1.3.0 - 1"
 
-["0.4 - 0"]
+["0.4"]
 VisualGeometryToolkitCore = "0.6"
 VisualGeometryToolkitEstimation = "0.6.1 - 0.6"
 VisualGeometryToolkitFeatures = "0.5"
+
+["0.5 - 0"]
+NLLSsolver = "5.3.2 - 5"
+VisualGeometryToolkitCore = "0.7"
+VisualGeometryToolkitEstimation = "0.7"
+VisualGeometryToolkitFeatures = "0.6"
