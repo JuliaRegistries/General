@@ -41,18 +41,27 @@ NonconvexIpopt = "0.5"
 
 ["0.1.6 - 0"]
 AbstractGPs = "0.3 - 0.5"
-NonconvexCore = "1.5.0 - 1"
 Parameters = "0.12 - 0.13"
+
+["0.1.6 - 0.1"]
+NonconvexCore = "1.5.0 - 1"
 
 ["0.1.6 - 0.1.8"]
 IntervalArithmetic = "0.17 - 0.20"
 
 ["0.1.7 - 0"]
 LinearAlgebra = "1"
-NonconvexIpopt = "0.5 - 0.6"
 julia = "1.10.0 - 1"
+
+["0.1.7 - 0.1"]
+NonconvexIpopt = "0.5 - 0.6"
 
 ["0.1.9 - 0"]
 ForwardDiff = "0.10"
 IntervalArithmetic = ["0.17 - 0.23", "1"]
 Statistics = "1"
+
+["0.2 - 0"]
+NonconvexCore = "2"
+NonconvexIpopt = "0.5 - 0.8"
+SpecialFunctions = ["0.10", "1 - 2"]
