@@ -1,6 +1,4 @@
 [0]
-CausalDynamics = "0.4"
-CausalTargeted = "0.3"
 DataFrames = "1"
 Distributions = "0.25"
 GLM = "1.9.0 - 1"
@@ -12,3 +10,11 @@ StableRNGs = "1"
 Statistics = "1"
 StatsBase = "0.34"
 julia = "1.12.0 - 1"
+
+["0 - 0.1"]
+CausalDynamics = "0.4"
+CausalTargeted = "0.3"
+
+["0.2 - 0"]
+CausalDynamics = "0.5"
+CausalTargeted = "0.4"
