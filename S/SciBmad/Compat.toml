@@ -95,7 +95,6 @@ NonlinearNormalForm = "0.4.6-0.4"
 
 ["0.4 - 0"]
 ADTypes = "1"
-KernelAbstractions = "0.9"
 Statistics = "1"
 
 ["0.4 - 0.4.1"]
@@ -107,6 +106,9 @@ Beamlines = "0.9.2-0.9"
 BatchSolve = "0.1.2-0.1"
 FundamentalFrequencies = "0.1.2-0.1"
 
+["0.4 - 0.6"]
+KernelAbstractions = "0.9"
+
 ["0.4.2 - 0.4"]
 AtomicAndPhysicalConstants = "0.9-0.10"
 BeamTracking = "0.7.1-0.7"
@@ -115,7 +117,7 @@ Beamlines = "0.9.4-0.9"
 ["0.4.2 - 0.5.0"]
 GTPSA = "1.5.6-1"
 
-["0.5 - 0"]
+["0.5 - 0.6"]
 AtomicAndPhysicalConstants = "0.11"
 
 ["0.5.0"]
@@ -147,12 +149,21 @@ BeamTracking = "0.8.1 - 0.8"
 NonlinearNormalForm = "0.5.2 - 0.5"
 
 ["0.5.3 - 0"]
-NonlinearNormalForm = "0.5.3 - 0.5"
 TPSAInterface = "0.3.1 - 0.3"
 
 ["0.5.3 - 0.5"]
 BeamTracking = "0.8.3 - 0.8"
 
-["0.6 - 0"]
+["0.5.3 - 0.6"]
+NonlinearNormalForm = "0.5.3 - 0.5"
+
+["0.6"]
 BeamTracking = "0.8.7 - 0.8"
 Beamlines = "0.11"
+
+["0.7 - 0"]
+AtomicAndPhysicalConstants = "0.12"
+BeamTracking = "0.9.2 - 0.9"
+Beamlines = "0.12.1 - 0.12"
+KernelAbstractions = "0.9 - 0.10"
+NonlinearNormalForm = "0.5.4 - 0.5"
