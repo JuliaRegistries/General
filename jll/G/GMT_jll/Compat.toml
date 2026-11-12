@@ -36,15 +36,32 @@ JLLWrappers = "1.7.0-1"
 Libdl = ["0.0.0", "1"]
 
 ["6.5.4-6"]
-NetCDF_jll = "401.900.300-401"
 PROJ_jll = "902.600.0-902"
 
 ["6.5.4-6.6.0"]
 GDAL_jll = "303.1100.0-303"
 
+["6.5.4-6.7.2"]
+NetCDF_jll = "401.900.300-401"
+
 ["6.6.1-6"]
-GDAL_jll = "304.1200.0-304"
 LibCURL_jll = "7.73.0-8"
 
-["6.7.2-6"]
+["6.6.1-6.7.2"]
+GDAL_jll = "304.1200.0-304"
+
+["6.7.2"]
 julia = "1.7.0-1"
+
+["6.7.3-6"]
+CompilerSupportLibraries_jll = "1.0.5-1"
+FFTW_jll = "3.3.11-3"
+GDAL_jll = "305.1300.301-305"
+Ghostscript_jll = "9.55.1-9"
+Glib_jll = "2.84.0-2"
+LAPACK32_jll = "3.12.0-3"
+LLVMOpenMP_jll = "19.1.7-23"
+NetCDF_jll = "401.1000.101-401"
+OpenBLAS32_jll = "0.3.29-0.3"
+PCRE_jll = "8.45.1-8"
+julia = "1.10.0-1"
