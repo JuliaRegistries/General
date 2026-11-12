@@ -63,9 +63,14 @@ ADNLPModels = "0.7"
 ADNLPModels = "0.7 - 0.8"
 
 ["0.3 - 0"]
-NLPModels = "0.21"
 NonconvexCore = "2"
+
+["0.3 - 0.3.2"]
+NLPModels = "0.21"
 
 ["0.3.1 - 0"]
 ForwardDiff = ["0.10", "1"]
 Zygote = "0.6 - 0.7"
+
+["0.3.3 - 0"]
+NLPModels = "0.21 - 0.22"
