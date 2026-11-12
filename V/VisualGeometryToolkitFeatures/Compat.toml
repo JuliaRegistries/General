@@ -6,7 +6,6 @@ FixedPointNumbers = "0.8.6 - 0.8"
 ImageCore = "0.10.5 - 0.10"
 KernelAbstractions = "0.9.45 - 0.9"
 LinearAlgebra = "1"
-ONNXRunTime = "2"
 PrecompileTools = "1.3.0 - 1"
 Scratch = "1.2.0 - 1"
 StaticArrays = "1.9.0 - 1"
@@ -20,6 +19,9 @@ VisualGeometryToolkitCore = "0.1"
 
 ["0 - 0.5"]
 SHA = ["0.7", "1"]
+
+["0 - 0.6"]
+ONNXRunTime = "2"
 
 ["0.2"]
 VisualGeometryToolkitCore = "0.2"
@@ -45,5 +47,15 @@ VisualGeometryToolkitCore = "0.6"
 ["0.6.0"]
 VisualGeometryToolkitCore = "0.7"
 
-["0.6.1 - 0"]
+["0.6.1 - 0.6"]
 VisualGeometryToolkitCore = "0.8"
+
+["0.7 - 0"]
+Adapt = "4.8.0 - 4"
+Artifacts = "1"
+Libdl = "1"
+ONNXRunTime = "2.1"
+Pkg = "1"
+Tar = "1"
+VisualGeometryToolkitCore = "0.9"
+p7zip_jll = "17"
