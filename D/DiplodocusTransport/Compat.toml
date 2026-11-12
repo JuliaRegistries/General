@@ -1,6 +1,4 @@
 [0]
-Bessels = "0.2"
-LinearAlgebra = "1.10.0 - 1"
 Statistics = "1"
 
 ["0 - 0.0.1"]
@@ -16,6 +14,10 @@ julia = "1.11.0 - 1"
 ProgressMeter = "1.10.2 - 1"
 Revise = "3.8.0 - 3"
 
+["0 - 1"]
+Bessels = "0.2"
+LinearAlgebra = "1.10.0 - 1"
+
 ["0.0.2 - 0.0"]
 DiplodocusCollisions = "0.0.2"
 
@@ -27,14 +29,14 @@ DiplodocusCollisions = "0.1.1 - 0.1"
 JLD2 = "0.6.2 - 0.6"
 julia = "1.11.6 - 1"
 
-["0.1.3 - 0"]
-julia = "1.12.0 - 1"
-
 ["0.1.3 - 0.1"]
 DiplodocusCollisions = "0.1"
 JLD2 = "0.6"
 ProgressMeter = "1.11.0 - 1"
 Revise = "3.12.0 - 3"
+
+["0.1.3 - 1"]
+julia = "1.12.0 - 1"
 
 ["0.2 - 0"]
 BenchmarkTools = "1.6.3 - 1"
@@ -42,7 +44,22 @@ CUDA = "5.9.0 - 5"
 DiplodocusCollisions = "0.2"
 JLD2 = "0.6.2 - 0.6"
 MKL = "0.9.1 - 0.9"
+Revise = "3.8.0 - 3"
+
+["0.2 - 1"]
 MKLSparse = "3"
 ProgressMeter = "1.10.0 - 1"
-Revise = "3.8.0 - 3"
 SparseArrays = "1.12.0 - 1"
+
+[1]
+CUDA = "6.4.0 - 6"
+DiplodocusCollisions = "1"
+ExponentialUtilities = "1.37.0 - 1"
+ForwardDiff = "1.3.0 - 1"
+HCubature = "1.8.0 - 1"
+JLD2 = "0.6"
+MKL = "0.9"
+Preferences = "1.5.0 - 1"
+StaticArrays = "1.9.0 - 1"
+Statistics = "1.11.0 - 1"
+Zarr = "0.11"
