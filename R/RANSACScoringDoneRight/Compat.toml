@@ -5,7 +5,6 @@ LogExpFunctions = "1"
 QuadGK = "2.11.0 - 2"
 SpecialFunctions = "2.9.0 - 2"
 StaticArrays = "1.9.0 - 1"
-Statistics = "1"
 
 ["0 - 0.1"]
 VisualGeometryToolkitCore = "0.1.2 - 0.1"
@@ -14,6 +13,9 @@ VisualGeometryToolkitCore = "0.1.2 - 0.1"
 Distributions = "0.25.131 - 0.25"
 GPUArrays = "11.5.0 - 11"
 Random = "1"
+
+["0 - 0.7"]
+Statistics = "1"
 
 ["0 - 0.7.1"]
 julia = "1.12.0 - 1"
@@ -36,14 +38,19 @@ VisualGeometryToolkitCore = "0.7"
 ["0.6"]
 VisualGeometryToolkitCore = "0.8"
 
-["0.7 - 0"]
+["0.7"]
 VisualGeometryToolkitCore = "0.9"
 
 ["0.7.0"]
 VisualGeometryToolkitEstimation = "0.9"
 
-["0.7.1 - 0"]
+["0.7.1 - 0.7"]
 VisualGeometryToolkitEstimation = "0.10"
 
 ["0.7.2 - 0"]
 julia = "1.13.0 - 1"
+
+["0.8 - 0"]
+Statistics = "1.11.0 - 1"
+VisualGeometryToolkitCore = "0.10"
+VisualGeometryToolkitEstimation = "0.11"
