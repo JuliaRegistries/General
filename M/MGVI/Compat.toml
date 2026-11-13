@@ -102,10 +102,12 @@ SparseArrays = "1"
 
 ["0.4 - 0"]
 AffineMaps = "0.3"
-DensityInterface = "0.4"
 
 ["0.4 - 0.4.2"]
 IrrationalConstants = "0.2.2-0.2"
+
+["0.4 - 0.6.0"]
+DensityInterface = "0.4"
 
 ["0.4.0"]
 LinearSolve = "2"
@@ -155,3 +157,6 @@ AutoDiffOperators = "0.4"
 ChainRulesCore = "1"
 LinearSolve = "3.27.0 - 5"
 MatrixShapedOperators = "0.1"
+
+["0.6.1 - 0"]
+DensityInterface = ["0.4", "1"]
