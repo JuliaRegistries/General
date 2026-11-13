@@ -124,7 +124,7 @@ MultiComponentFlash = "1.1.15-1"
 ["0.2.27"]
 Jutul = "0.2.35-0.2"
 
-["0.2.27 - 0"]
+["0.2.27 - 0.4.0"]
 TestItems = "1"
 
 ["0.2.28"]
@@ -204,12 +204,9 @@ GeoEnergyIO = "1.1.23-1"
 Jutul = "0.4.2-0.4"
 
 ["0.2.46 - 0"]
-DataStructures = "0.18.13 - 0.18"
 DelimitedFiles = "1.6.0 - 1"
 DocStringExtensions = "0.9.3 - 0.9"
-Krylov = "0.9.1 - 0.9"
 MAT = "0.10.3 - 0.10"
-OrderedCollections = "1.6.2 - 1"
 Polyester = ["0.6.11 - 0.6", "0.7.3 - 0.7"]
 Polynomials = "3 - 4"
 PrecompileTools = "1.0.1 - 1"
@@ -234,6 +231,11 @@ Tullio = "0.3.4 - 0.3"
 ["0.2.46 - 0.3.7"]
 AlgebraicMultigrid = "0.5.1 - 0.6"
 LoopVectorization = "0.12.115 - 0.12"
+
+["0.2.46 - 0.4.0"]
+DataStructures = "0.18.13 - 0.18"
+Krylov = "0.9.1 - 0.9"
+OrderedCollections = "1.6.2 - 1"
 
 ["0.2.7"]
 Jutul = "0.2.10-0.2"
@@ -296,8 +298,18 @@ PrettyTables = "3"
 
 ["0.4 - 0"]
 Adapt = "4"
+julia = "1.10.0 - 1"
+
+["0.4.0"]
 ForwardDiff = ["0.1.30 - 0.1", "1"]
 GeoEnergyIO = "1.2.0 - 1"
 Jutul = "0.5.2 - 0.5"
 MultiComponentFlash = "2.0.2 - 2"
-julia = "1.10.0 - 1"
+
+["0.4.1 - 0"]
+ForwardDiff = ["0.10.30 - 0.10", "1"]
+GeoEnergyIO = "1.2.4 - 1"
+Jutul = "0.5.9 - 0.5"
+Krylov = "0.10"
+MultiComponentFlash = "2.1.1 - 2"
+OrderedCollections = "1.6.2 - 2"
