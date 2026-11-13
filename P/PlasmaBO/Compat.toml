@@ -10,7 +10,7 @@ FFTW = "1"
 DataInterpolations = "8"
 SpecialFunctions = "2"
 
-["0.2 - 0"]
+["0.2"]
 ChargedParticles = "0.3.1 - 0.3"
 ProgressMeter = "1"
 Unitful = "1"
@@ -23,5 +23,14 @@ Bumper = "0.7"
 
 ["0.2.2 - 0"]
 Bessels = "0.2"
-FastInterpolations = "0.4"
 Gamma = "1"
+
+["0.2.2 - 0.2"]
+FastInterpolations = "0.4"
+
+["0.3 - 0"]
+PlasmaDispersionBase = "0.1"
+PlasmaPopulations = "0.1"
+PrecompileTools = "1"
+Reexport = "1"
+Statistics = "1"
