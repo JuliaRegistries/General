@@ -75,13 +75,13 @@ SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
 
 [4]
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 
 ["4 - 5"]
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
 ModelingToolkitStandardLibrary = "16a59e39-deab-5bd0-87e4-056b12336739"
-NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SymbolicIndexingInterface = "2efcf032-c050-4f8e-a9bb-153293bab1f5"
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
@@ -95,3 +95,9 @@ SparseMatrixColorings = "0a514795-09f3-496d-8182-132a7b665d35"
 ModelingToolkitBase = "7771a370-6774-4173-bd38-47e70ca0b839"
 NaNMath = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
 SciCompDSL = "91a8cdf1-4ca6-467b-a780-87fda3fff15e"
+
+["5.0"]
+NonlinearSolve = "8913a72c-1f9b-4ce2-8d82-65094dcecaec"
+
+["5.1 - 5"]
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
