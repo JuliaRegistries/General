@@ -135,8 +135,10 @@ Graphs = "1"
 
 [6]
 AlgebraicMultigrid = "2"
-GZip = "0.7"
 TimerOutputs = "1"
+
+["6 - 6.1"]
+GZip = "0.7"
 
 ["6.0"]
 julia = "1.11.0 - 1"
@@ -147,3 +149,7 @@ LinearAlgebra = "1"
 Logging = "1"
 SparseArrays = "1"
 julia = "1.12.0 - 1"
+
+["6.2 - 6"]
+GZip = "0.8"
+IniFile = "0.6"
