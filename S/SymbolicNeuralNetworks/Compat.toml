@@ -1,6 +1,3 @@
-[0]
-RuntimeGeneratedFunctions = "0.5"
-
 ["0 - 0.1"]
 KernelAbstractions = "0.9"
 SafeTestsets = "0.1"
@@ -12,6 +9,9 @@ Symbolics = "5"
 ["0 - 0.2"]
 julia = "1.6.0-1"
 
+["0 - 0.9"]
+RuntimeGeneratedFunctions = "0.5"
+
 ["0.1.1"]
 AbstractNeuralNetworks = ["0.1", "0.3"]
 
@@ -20,6 +20,12 @@ Symbolics = "5-6"
 
 ["0.1.2 - 0.1"]
 AbstractNeuralNetworks = ["0.1", "0.3-0.4"]
+
+["0.10 - 0"]
+AbstractNeuralNetworks = "0.10"
+RuntimeGeneratedFunctions = "0.5.12 - 0.5"
+SymbolicUtils = "4.4.0 - 4"
+Symbolics = "7.0.2 - 7"
 
 ["0.2"]
 AbstractNeuralNetworks = "0.3-0.4"
@@ -33,7 +39,6 @@ julia = "1.10.0-1"
 
 ["0.3.4 - 0"]
 Latexify = "0.16"
-Symbolics = "7"
 
 ["0.3.4 - 0.4"]
 AbstractNeuralNetworks = "0.3 - 0.6"
@@ -41,7 +46,10 @@ AbstractNeuralNetworks = "0.3 - 0.6"
 ["0.3.4 - 0.7.0"]
 julia = "1.10.0 - 1"
 
-["0.3.7 - 0"]
+["0.3.4 - 0.9"]
+Symbolics = "7"
+
+["0.3.7 - 0.9"]
 SymbolicUtils = "4"
 
 ["0.5"]
@@ -67,8 +75,10 @@ julia = "1.11.0 - 1"
 AbstractNeuralNetworks = "0.8"
 NeuralNetworkParameters = "0.3"
 
-["0.9 - 0"]
+["0.9"]
 AbstractNeuralNetworks = "0.9.1 - 0.9"
+
+["0.9 - 0"]
 LinearAlgebra = "1"
 NeuralNetworkParameters = "0.5"
 

@@ -3,7 +3,6 @@ LinearAlgebra = "1"
 Printf = "1"
 Random = "1"
 SparseArrays = "1"
-Sparspak = "0.3"
 
 ["0 - 0.1"]
 CompactBasisFunctions = "0.3 - 0.4"
@@ -14,6 +13,9 @@ SimpleSplines = "0.3"
 
 ["0 - 0.2"]
 StaticArrays = "1"
+
+["0 - 0.3"]
+Sparspak = "0.3"
 
 ["0 - 0.3.0"]
 julia = "1.11.0 - 1"
@@ -40,3 +42,6 @@ julia = "1.12.0 - 1"
 
 ["0.3.2 - 0"]
 SimpleSplines = "0.3.1 - 0.4"
+
+["0.4 - 0"]
+Sparspak = "0.3.10 - 0.3"
