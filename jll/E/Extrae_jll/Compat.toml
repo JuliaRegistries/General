@@ -1,6 +1,6 @@
-[4]
-julia = "1.6.0-1"
+["4-4.2.0"]
 XML2_jll = "2.12.0-2.13"
+julia = "1.6.0-1"
 
 ["4.0"]
 Binutils_jll = "2.39"
@@ -8,8 +8,10 @@ JLLWrappers = "1.2.0-1"
 PAPI_jll = "7.0"
 
 ["4.1-4"]
-Artifacts = "1"
 Binutils_jll = "2.41"
+
+["4.1-4.2.0"]
+Artifacts = "1"
 JLLWrappers = "1.4.0-1"
 LazyArtifacts = "1"
 Libdl = "1"
@@ -18,4 +20,22 @@ TOML = "1"
 
 ["4.2-4"]
 MPIPreferences = "0.1"
+
+["4.2.0"]
 MPItrampoline_jll = "5.0.1-5"
+
+["4.2.1-4"]
+Artifacts = ["0.0.0", "1"]
+CUDA_Runtime_jll = "0.26.1-0"
+JLLWrappers = "1.7.0-1"
+LazyArtifacts = ["0.0.0", "1"]
+Libdl = ["0.0.0", "1"]
+MPIABI_jll = "1"
+MPICH_jll = "5.0.3-5"
+MPItrampoline_jll = "5.5.7-5"
+MicrosoftMPI_jll = "10.1.5-10"
+OpenMPI_jll = ["4.1.11-4", "5.0.14-5"]
+PAPI_jll = "7.1.1-7.1"
+TOML = ["0.0.0", "1"]
+XML2_jll = "2.13.6-2.13"
+julia = "1.10.0-1"
