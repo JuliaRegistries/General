@@ -13,7 +13,7 @@ Metal_LLVM_Tools_jll = "0.3"
 ["0 - 0.5.0"]
 GPUArrays = "8.4.0-8"
 
-["0 - 1"]
+["0 - 1.12.0"]
 ExprTools = "0.1"
 
 ["0 - 1.2"]
@@ -140,13 +140,20 @@ LLVMDowngrader_jll = "0.11"
 ["1.12 - 1"]
 CEnum = ["0.5", "1"]
 GPUArrays = "12.1.0 - 12"
-GPUCompiler = "2.18.0 - 2"
-GPUToolbox = "3.4.0 - 3"
 KernelInterface = "0.4"
 LLVM = "10.4.0 - 10"
 LLVMDowngrader_jll = "0.11 - 0.12"
 ObjectiveC = "7.1.0 - 7"
 UnsafeAtomics = "0.4"
+
+["1.12.0"]
+GPUCompiler = "2.18.0 - 2"
+GPUToolbox = "3.4.0 - 3"
+
+["1.12.1 - 1"]
+GPUCompiler = "2.23.1 - 2"
+GPUToolbox = "3.6.0 - 3"
+KernelAbstractions = "0.10"
 
 ["1.2"]
 LLVM = "7.2.0-8"
