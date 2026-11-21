@@ -7,11 +7,13 @@ ShiftedArrays = "2"
 LsqFit = "0.15"
 
 ["2 - 3"]
-ArgCheck = "2"
 Copulas = "0.1"
-Distributions = "0.25"
 LogExpFunctions = "0.3"
 PeriodicHiddenMarkovModels = "0.1.5 - 0.1"
+
+["2 - 4"]
+ArgCheck = "2"
+Distributions = "0.25"
 
 ["2.0"]
 Optimization = "3 - 4"
@@ -22,19 +24,31 @@ julia = "1"
 Optimization = "3 - 5"
 OptimizationMOI = ["0.1", "0.3.2 - 0.5", "1"]
 
-["2.1 - 3"]
+["2.1 - 4"]
 julia = "1.12.0 - 1"
 
 ["2.1.1 - 2"]
 LsqFit = "0.15 - 0.16"
 OptimizationOptimJL = "0.4"
 
-["2.1.1 - 3"]
+["2.1.1 - 4"]
 MvNormalCDF = "0.3.2 - 0.3"
 SpecialFunctions = "2"
 
 ["2.1.2 - 3"]
 SciMLBase = "2 - 3"
 
-[3]
+["3 - 4"]
 ExpectationMaximization = "0.3.5 - 0.3"
+
+[4]
+ADTypes = "1"
+ComponentArrays = "0.15"
+Copulas = ["0.1", "1"]
+HiddenMarkovModels = "0.7"
+LinkFunctions = "0.1"
+LogExpFunctions = ["0.3", "1"]
+PeriodicHiddenMarkovModels = "0.4"
+Random = "1.11.0 - 1"
+SciMLBase = "3"
+StatsAPI = "1.8.0 - 1"
