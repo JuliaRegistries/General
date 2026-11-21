@@ -2,10 +2,12 @@
 LinearAlgebra = "1"
 NNlib = "0.9"
 SparseArrays = "1"
-cuDNN = "1"
 
 ["1 - 1.0.1"]
 julia = "1.9.0-1"
+
+["1.0"]
+cuDNN = "1"
 
 ["1.0.0"]
 Adapt = "4"
@@ -26,6 +28,16 @@ MLUtils = "0.4"
 
 ["1.0.2 - 1"]
 Adapt = "4 - 5"
+
+["1.0.2 - 1.0"]
 CUDA = "5.4.0 - 5"
 Zygote = "0.6"
 julia = "1.9.0 - 1"
+
+["1.1 - 1"]
+CUDA = "5 - 6"
+GPUArrays = "11"
+KernelAbstractions = "0.9"
+Zygote = "0.7"
+cuDNN = ["1", "6"]
+julia = "1.11.0 - 1"
