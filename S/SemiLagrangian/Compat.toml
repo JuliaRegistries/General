@@ -1,15 +1,22 @@
 [0]
-DoubleFloats = "1"
 FFTW = "1"
+
+["0 - 0.1"]
+DoubleFloats = "1"
 julia = "1.6.0-1"
 
-["0-0.1.0"]
+["0 - 0.1.0"]
 MPI = "0.19"
 Polynomials = "2"
 
-["0.1.1-0"]
+["0.1.1 - 0.1"]
 Polynomials = "2-3"
 Requires = "1"
 
-["0.1.2-0"]
+["0.1.2 - 0"]
 DocStringExtensions = "0.9"
+
+["0.3 - 0"]
+FastInterpolations = "0.4.1 - 0.4"
+LinearAlgebra = "1"
+julia = "1.10.0 - 1"
