@@ -416,7 +416,7 @@ GPUToolbox = ["0.1 - 0.3", "1"]
 ["2.1.3 - 2.8"]
 GPUArrays = "11.3.1 - 11"
 
-["2.10 - 2"]
+["2.10 - 2.12"]
 GPUCompiler = "2.18.0 - 2"
 
 ["2.11"]
@@ -425,10 +425,16 @@ GPUToolbox = "3.5.0 - 3"
 ["2.11 - 2"]
 KernelAbstractions = "0.10"
 
+["2.12"]
+ROCm_Runtime = "10.1"
+
 ["2.12 - 2"]
 GPUToolbox = "3.6.0 - 3"
-ROCm_Runtime = "10.1"
 ROCm_Runtime_Discovery = "0.1"
+
+["2.13 - 2"]
+GPUCompiler = "2.23.0 - 2"
+ROCm_Runtime = "10.2"
 
 ["2.2 - 2"]
 BFloat16s = "0.6"
