@@ -86,8 +86,10 @@ Zygote = "0.6 - 0.7"
 ["1.6 - 2"]
 ChainRulesCore = ["0.10", "1"]
 DifferentiableFlatten = "0.1 - 0.2"
-Random = "1"
 julia = "1.10.0 - 1"
+
+["1.6 - 2.2"]
+Random = "1"
 
 ["1.6.2 - 2"]
 OrderedCollections = "1.4.0 - 2"
@@ -102,3 +104,6 @@ SparseMatrixColorings = "0.4"
 ["2.1 - 2"]
 LinearAlgebra = "1"
 SparseArrays = "1"
+
+["2.3 - 2"]
+TransformVariables = "0.8"
