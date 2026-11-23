@@ -129,7 +129,6 @@ OrderedCollections = "1.8.2-1"
 PrettyTables = "3.4.0-3"
 
 ["0.5.1 - 0"]
-BatchSolve = "0.1.2 - 0.1"
 DataFrames = "1.8.2 - 1"
 DifferentiationInterface = "0.7.4 - 0.7"
 FundamentalFrequencies = "0.1.2 - 0.1"
@@ -148,6 +147,9 @@ Beamlines = "0.10.2 - 0.10"
 BeamTracking = "0.8.1 - 0.8"
 NonlinearNormalForm = "0.5.2 - 0.5"
 
+["0.5.1 - 0.7"]
+BatchSolve = "0.1.2 - 0.1"
+
 ["0.5.3 - 0"]
 TPSAInterface = "0.3.1 - 0.3"
 
@@ -161,9 +163,17 @@ NonlinearNormalForm = "0.5.3 - 0.5"
 BeamTracking = "0.8.7 - 0.8"
 Beamlines = "0.11"
 
-["0.7 - 0"]
-AtomicAndPhysicalConstants = "0.12"
+["0.7"]
 BeamTracking = "0.9.2 - 0.9"
 Beamlines = "0.12.1 - 0.12"
-KernelAbstractions = "0.9 - 0.10"
 NonlinearNormalForm = "0.5.4 - 0.5"
+
+["0.7 - 0"]
+AtomicAndPhysicalConstants = "0.12"
+KernelAbstractions = "0.9 - 0.10"
+
+["0.8 - 0"]
+BatchSolve = "0.1.8 - 0.1"
+BeamTracking = "0.10.3 - 0.10"
+Beamlines = "0.14.1 - 0.14"
+NonlinearNormalForm = "0.5.5 - 0.5"
