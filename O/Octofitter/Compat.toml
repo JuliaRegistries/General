@@ -229,8 +229,10 @@ DataDeps = ["0.7", "1"]
 
 [9]
 HostCPUFeatures = "0.1"
-PlanetOrbits = "1"
 julia = "1.11.0 - 1"
+
+["9.0"]
+PlanetOrbits = "1"
 
 ["9.0.0"]
 HTTP = "1"
@@ -239,3 +241,6 @@ OrderedCollections = "1.6.0 - 1"
 ["9.0.1 - 9"]
 HTTP = "1 - 2"
 OrderedCollections = "1.6.0 - 2"
+
+["9.1 - 9"]
+PlanetOrbits = "1.1.0 - 1"
