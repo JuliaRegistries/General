@@ -8,6 +8,10 @@ Since the `General` registry belongs to the entire community, people may have op
      * It's okay for package names to contain `DNA` if you're talking about the DNA, which has a universally agreed-upon definition.
      * It's more difficult to justify package names containing the acronym `CI` for instance, which may mean continuous integration, confidence interval, etc.
      * If there is a risk of confusion, it may be best to disambiguate an acronym with additional words, such as a lab group or field.
+     * Follow existing commonly used prefixes or suffixes to disambiguate acronyms, e.g.:
+       - Suffixes `Files`, `Format`, `Data`, `Writer`, `Reader`, `Parser`, for file format I/O packages, e.g., `PNGFiles.jl`, not `PNG.jl`
+       - Suffix `Client` for protocol or database clients, e.g., `SMTPClient.jl`, not `SMTP.jl`
+       - Suffixes like `Solver`, `Models`, `Optimizer` for optimization methods: `ADNLPModels.jl`, not `ADNLP.jl`
      * If your acronym is unambiguous, easily searchable, and/or unlikely to be confused across domains, a good justification is often enough for approval.
 
 2. <a id="rule-avoid-julia" href="#rule-avoid-julia">§</a> Avoid using `Julia` in your package name or prefixing it with `Ju`.
@@ -22,21 +26,20 @@ Since the `General` registry belongs to the entire community, people may have op
 
 4. <a id="rule-clarity" href="#rule-clarity">§</a> Err on the side of clarity, even if clarity seems long-winded to you.
      * `RandomMatrices` is a less ambiguous name than `RndMat` or `RMT`, even though the latter are shorter.
-     * Generally, package names should be at least 5 characters long, not including the `.jl` extension.
+     * Generally, package names should be at least 5 characters long, not including the `.jl` extension. Three-letter package names are not suitable.
 
 5. <a id="rule-less-systematic" href="#rule-less-systematic">§</a> A less systematic name may suit a package that implements one of several possible approaches to its domain.
      * Julia does not have a single comprehensive plotting package. Instead, `Gadfly`, `PyPlot`, `Winston`, and other packages each implement a unique approach based on a particular design philosophy.
      * In contrast, `SortingAlgorithms` provides a consistent interface to use many well-established sorting algorithms.
+     * Pronounceable acronyms (backronyms) are usually fine, and may count as "less systematic names", e.g., `ADRIA.jl` ("Adaptive Dynamic Reef Intervention Algorithms").
 
-6. <a id="rule-wrappers" href="#rule-wrappers">§</a> Packages that wrap external libraries or programs can be named after those libraries or programs. However, as of February 2026, we now request that these packages indicate in their package name (in some way) that they are wrapping an external library or program. For example, consider a hypothetical package that wraps a library or program named `ABC`. Possible names for the Julia package might include:
-     * `ABCWrapper`
-     * `ABCInterface`
-     * `ExternalABC`
-     * `ABCLibrary`
-     * `LibABC`
+6. <a id="rule-wrappers" href="#rule-wrappers">§</a> Packages that wrap external libraries or programs can be named after those libraries or programs, as long as the package name complies with the other naming guidelines.
 
-7. <a id="rule-avoid-close-names" href="#rule-avoid-close-names">§</a> Avoid naming a package closely to an existing package.
-     * `Websocket` is too close to `WebSockets` and can be confusing to users. Rather use a new name such as `ConcurrentWebsockets` that is descriptive of what distinguishes the package.
+    * `CPLEX.jl` and `PETSc.jl` wrap the `CPLEX` and `PETSc` library, respectively, which can be identified easily in a web search.
+    * `MATLAB.jl` provides an interface to call the `MATLAB` engine from within Julia.
+
+7. <a id="rule-avoid-close-names" href="#rule-avoid-close-names">§</a> Avoid giving a package a name that is too close to an existing package's name.
+     * `Websocket` is too close to `WebSockets` and can be confusing to users. Rather, use a new name such as `ConcurrentWebsockets` that is descriptive of what distinguishes the package.
 
 8. <a id="rule-avoid-unrelated-project-names" href="#rule-avoid-unrelated-project-names">§</a> Avoid using a distinctive name that is already in use in a well-known, unrelated project.
      * Don't use the names `Tkinter.jl`, `TkinterGUI.jl`, etc., for a package that is unrelated to the popular `tkinter` Python package, even if it provides bindings to Tcl/Tk. A package name of `Tkinter.jl` would only be appropriate if the package used Python's library to accomplish its work or was spearheaded by the same community of developers.
@@ -44,8 +47,8 @@ Since the `General` registry belongs to the entire community, people may have op
      * It's okay to name a package `OpenSSL.jl` if it provides an interface to the OpenSSL library, even without explicit affiliation with the creators of the OpenSSL (provided there's no copyright or trademark infringement, etc.)
 
 9. <a id="rule-stylistic-conventions" href="#rule-stylistic-conventions">§</a> Packages should follow the [Stylistic Conventions](https://docs.julialang.org/en/v1/manual/variables/#Stylistic-Conventions).
-     * The package name should begin with a capital letter, and word separation is shown with upper camel case.
-     * Only ASCII characters are allowed in a package name.
+     * The package name must begin with a capital letter, and word separation is shown with upper camel case.
+     * Only ASCII characters are allowed in a package name. More specifically, for non-JLL packages (see below), package names must match the regular expression `[A-Z][A-Za-z0-9]{3,}`.
      * Packages that provide the functionality of a project from another language should use the Julia convention.
      * Packages that [provide pre-built libraries and executables](https://docs.binarybuilder.org/stable/jll/) can keep their original name, but should get `_jll` as a suffix. For example, `pandoc_jll` wraps pandoc. However, note that the generation and release of most JLL packages is handled by the [Yggdrasil](https://github.com/JuliaPackaging/Yggdrasil) system.
 
