@@ -123,12 +123,14 @@ Distances = "0.10"
 ["4 - 5"]
 PlanetOrbits = "0.10"
 
+["4 - 8"]
+HTTP = "1"
+
 ["4 - 8.2.4"]
 Pathfinder = "0.9"
 
 ["4 - 9"]
 CSV = "0.10"
-HTTP = "1"
 
 [5]
 Bijectors = "0.14"
@@ -162,6 +164,9 @@ OptimizationBBO = "0.4"
 LinearSolve = "2 - 3"
 julia = "1.9.0 - 1"
 
+["7 - 8"]
+OrderedCollections = "1.6.0 - 1"
+
 ["7 - 8.0.2"]
 AdvancedHMC = "0.6 - 0.7"
 
@@ -174,7 +179,6 @@ AbstractMCMC = "4 - 5"
 FITSIO = "0.16 - 0.17"
 Latexify = "0.15 - 0.16"
 NamedTupleTools = "0.13 - 0.14"
-OrderedCollections = "1.6.0 - 1"
 PrecompileTools = "1.1.2 - 1"
 Reexport = "1.2.0 - 1"
 SPICE = "0.2.4 - 0.2"
@@ -227,3 +231,11 @@ DataDeps = ["0.7", "1"]
 HostCPUFeatures = "0.1"
 PlanetOrbits = "1"
 julia = "1.11.0 - 1"
+
+["9.0.0"]
+HTTP = "1"
+OrderedCollections = "1.6.0 - 1"
+
+["9.0.1 - 9"]
+HTTP = "1 - 2"
+OrderedCollections = "1.6.0 - 2"
