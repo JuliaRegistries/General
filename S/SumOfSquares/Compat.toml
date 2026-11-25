@@ -109,14 +109,14 @@ ComplexOptInterface = "0.1"
 MathOptInterface = "1"
 PolyJuMP = "0.6"
 
-["0.6 - 0"]
-MutableArithmetics = "1"
-
 ["0.6 - 0.6.1"]
 JuMP = "0.23"
 
 ["0.6 - 0.7.4"]
 julia = "1.6.0-1"
+
+["0.6 - 0.8"]
+MutableArithmetics = "1"
 
 ["0.6.1 - 0.7.4"]
 SymbolicWedderburn = "0.3"
@@ -130,12 +130,12 @@ MultivariateMoments = "0.4"
 MultivariatePolynomials = "0.5"
 PolyJuMP = "0.7"
 
-["0.7 - 0"]
-SemialgebraicSets = "0.3"
-
 ["0.7 - 0.7.4"]
 JuMP = "1.10.0-1"
 MathOptInterface = "1.13.0-1"
+
+["0.7 - 0.8"]
+SemialgebraicSets = "0.3"
 
 ["0.7.5 - 0.7"]
 DataStructures = "0.18 - 0.19"
@@ -146,17 +146,19 @@ julia = "1.6.0 - 1"
 ["0.7.5 - 0.8.0"]
 JuMP = "1.10.0 - 1"
 
+["0.8"]
+MultivariateBases = "0.3.4 - 0.3"
+MultivariateMoments = "0.5"
+MultivariatePolynomials = "0.5.19 - 0.5"
+StarAlgebras = "0.3"
+SymbolicWedderburn = "0.5"
+
 ["0.8 - 0"]
 CliqueTrees = "1"
 DataStructures = "0.19"
 LowRankOpt = "0.2"
 MathOptInterface = "1.51.1 - 1"
-MultivariateBases = "0.3.4 - 0.3"
-MultivariateMoments = "0.5"
-MultivariatePolynomials = "0.5.19 - 0.5"
 Reexport = "1"
-StarAlgebras = "0.3"
-SymbolicWedderburn = "0.5"
 julia = "1.10.0 - 1"
 
 ["0.8 - 0.8.1"]
@@ -167,6 +169,18 @@ JuMP = "1.31.0 - 1"
 
 ["0.8.2 - 0"]
 LinearAlgebra = "1.10.0 - 1"
-PolyJuMP = "0.8.2 - 0.8"
 Random = "1.10.0 - 1"
 SparseArrays = "1.10.0 - 1"
+
+["0.8.2 - 0.8"]
+PolyJuMP = "0.8.2 - 0.8"
+
+["0.9 - 0"]
+MultivariateBases = "0.5"
+MultivariateMoments = "0.5.2 - 0.5"
+MultivariatePolynomials = "0.6.4 - 0.6"
+MutableArithmetics = "1.9.4 - 1"
+PolyJuMP = "0.9"
+SemialgebraicSets = "0.3.8 - 0.3"
+StarAlgebras = "0.4.5 - 0.4"
+SymbolicWedderburn = "0.5.1 - 0.5"
