@@ -1,11 +1,13 @@
+[0]
+DocStringExtensions = "0.9.5 - 0.9"
+GPUArrays = "11.2.3 - 11"
+
 ["0 - 0.1.3"]
 SpeedyWeatherInternals = "0.1"
 
 ["0 - 1"]
 Adapt = "4.3.0 - 4"
-DocStringExtensions = "0.9.5 - 0.9"
 FastGaussQuadrature = "1.0.2 - 1"
-GPUArrays = "11.2.3 - 11"
 KernelAbstractions = "0.9.38 - 0.9"
 LinearAlgebra = "1.10.0 - 1"
 Printf = "1.10.0 - 1"
@@ -25,4 +27,19 @@ StyledStrings = "1"
 
 [1]
 Random = "1.10.0 - 1"
+
+["1.0.0"]
+DocStringExtensions = "0.9.5 - 0.9"
+GPUArrays = "11.2.3 - 11"
 SpeedyWeatherInternals = "1"
+
+["1.0.1"]
+DocStringExtensions = "0.10"
+SpeedyWeatherInternals = "1.0.2 - 1"
+
+["1.0.1 - 1"]
+GPUArrays = ["11.2.3 - 11", "12.1.0 - 12"]
+
+["1.0.2 - 1"]
+DocStringExtensions = "0.9 - 0.10"
+SpeedyWeatherInternals = "1.0.3 - 1"

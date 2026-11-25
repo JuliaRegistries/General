@@ -12,7 +12,7 @@ julia = "1.10.0-1"
 ["0 - 0.14.7"]
 NLPModels = "0.21"
 
-["0 - 1"]
+["0 - 2"]
 DocStringExtensions = "0.9"
 
 ["0.11"]
@@ -61,7 +61,7 @@ SparseArrays = "1.10.0 - 1"
 CTModels = "0.6"
 MKL = "0.9"
 
-["0.15 - 1"]
+["0.15 - 2"]
 julia = "1.10.0 - 1"
 
 ["0.16 - 0.16.2"]
@@ -72,17 +72,26 @@ NLPModels = "0.21"
 SolverCore = "0.3.8 - 0.3"
 
 [1]
-ADNLPModels = "0.8"
 CTSolvers = "0.4"
 ExaModels = "0.9"
-SolverCore = "0.3"
-SparseArrays = "1"
 
 ["1 - 1.0.9"]
 CTModels = "0.9"
 
+["1 - 2"]
+ADNLPModels = "0.8"
+SolverCore = "0.3"
+SparseArrays = "1"
+
 ["1.0.10 - 1"]
 CTModels = "0.10"
 
-["1.0.6 - 1"]
+["1.0.6 - 2"]
 SparseConnectivityTracer = "1.2.1 - 1"
+
+[2]
+CTBase = "0.30"
+CTModels = "0.21.1 - 0.21"
+CTParser = "0.9.6 - 0.9"
+CTSolvers = "0.7"
+ExaModels = "0.12"

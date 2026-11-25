@@ -2,7 +2,6 @@
 CSV = "0.10"
 DataFrames = "1"
 GraphIO = "0.7"
-GraphMakie = "0.5"
 GraphRecipes = "0.5"
 Graphs = "1"
 HypertextLiteral = "0.9"
@@ -41,6 +40,9 @@ DifferentialEquations = "7"
 EzXML = "1"
 OrdinaryDiffEq = "6"
 
+["0 - 0.2.7"]
+GraphMakie = "0.5"
+
 ["0.2.2 - 0.2.5"]
 CairoMakie = "0.11-0.13"
 GLMakie = "0.9-0.11"
@@ -70,17 +72,32 @@ julia = "1.5.3 - 1"
 Interpolations = "0.15 - 0.16"
 Reexport = "1.2.2 - 1"
 
-["0.2.7 - 0"]
+["0.2.7"]
 CairoMakie = "0.13"
 DiffEqBase = "6.175"
-EzXML = "1.2.0 - 1"
 GLMakie = "0.11"
 GasChromatographySimulator = "0.6"
-Integrals = "4"
 LinearSolve = "3.15"
 NonlinearSolve = "4.9"
 OrdinaryDiffEq = "6.97"
 Pluto = "0.20"
 SciMLBase = "2.95"
 Symbolics = "6"
+
+["0.2.7 - 0"]
+EzXML = "1.2.0 - 1"
+Integrals = "4"
 julia = "1.10.0 - 1"
+
+["0.2.8 - 0"]
+CairoMakie = ["0.13", "0.15"]
+DiffEqBase = "6"
+GLMakie = ["0.11", "0.13"]
+GasChromatographySimulator = "0.6.2 - 0.6"
+GraphMakie = "0.5 - 0.6"
+LinearSolve = "3"
+NonlinearSolve = "4"
+OrdinaryDiffEq = "6"
+Pluto = ["0.20", "1"]
+SciMLBase = "2"
+Symbolics = "6 - 7"

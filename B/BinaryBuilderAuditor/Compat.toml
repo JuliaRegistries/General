@@ -12,11 +12,13 @@ julia = "1.9.0 - 1"
 
 ["0.2 - 0"]
 BinaryBuilderPlatformExtensions = "0.2"
-BinaryBuilderToolchains = "0.3"
 Pkg = "1.9.0 - 1"
 
 ["0.2 - 0.3.1"]
 BinaryBuilderSources = "0.2"
+
+["0.2 - 0.4.1"]
+BinaryBuilderToolchains = "0.3"
 
 ["0.2.0"]
 JLLGenerator = "0.4"
@@ -33,10 +35,31 @@ julia = "1.12.0 - 1"
 ["0.3 - 0.3.1"]
 BinaryBuilderProducts = "0.3"
 
-["0.3.1 - 0"]
+["0.3.1 - 0.3"]
 ObjectFile = "0.6"
 
 ["0.3.2 - 0"]
-BinaryBuilderProducts = "0.3.1 - 0.3"
 BinaryBuilderSources = "0.3"
+
+["0.3.2 - 0.4.3"]
+BinaryBuilderProducts = "0.3.1 - 0.3"
 JLLGenerator = "0.5.3 - 0.5"
+
+["0.4 - 0"]
+ObjectFile = "0.6.2 - 0.6"
+
+["0.4.2 - 0"]
+BinaryBuilderToolchains = "0.4"
+
+["0.4.4"]
+BinaryBuilderProducts = "0.3.3 - 0.3"
+
+["0.4.4 - 0.4.5"]
+JLLGenerator = "0.5.6 - 0.5"
+
+["0.4.5"]
+BinaryBuilderProducts = "0.3.4 - 0.3"
+
+["0.4.6 - 0"]
+BinaryBuilderProducts = "0.4"
+JLLGenerator = "0.6"

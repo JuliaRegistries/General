@@ -131,7 +131,7 @@ KernelFunctions = "0.10.65 - 0.10"
 ["1.3.2 - 1"]
 Compat = "4"
 
-["1.3.3 - 1"]
+["1.3.3 - 1.3.5"]
 SatelliteToolboxGeomagneticField = "1.0"
 
 ["1.3.4 - 1"]
@@ -139,8 +139,14 @@ CSV = ["0.10", "1"]
 ForwardDiff = ["0.10", "1"]
 Interpolations = "0.15 - 0.16"
 KernelFunctions = "0.10.65 - 0.11"
-MAT = "0.10 - 0.12"
 NLSolversBase = "7 - 8"
 Optim = "1 - 2"
 Parameters = "0.12 - 0.13"
 Pluto = ["0.20", "1"]
+
+["1.3.4 - 1.3.5"]
+MAT = "0.10 - 0.12"
+
+["1.3.6 - 1"]
+MAT = "0.10 - 0.13"
+SatelliteToolboxGeomagneticField = "1 - 2"

@@ -43,10 +43,12 @@ cuTENSOR = "6"
 
 ["5.6.1 - 5"]
 CUDACore = "6"
-JLArrays = "0.3"
 
 ["5.6.1 - 5.6"]
 Enzyme = "0.13.146 - 0.13"
+
+["5.6.1 - 5.8.2"]
+JLArrays = "0.3"
 
 ["5.6.2 - 5"]
 AMDGPU = "2"
@@ -55,5 +57,11 @@ AMDGPU = "2"
 Enzyme = "0.13.183 - 0.13"
 
 ["5.8 - 5"]
-GPUArrays = "11"
 TBLIS = "0.3"
+
+["5.8 - 5.8.2"]
+GPUArrays = "11"
+
+["5.8.3 - 5"]
+GPUArrays = "11 - 12"
+JLArrays = "0.3 - 0.4"

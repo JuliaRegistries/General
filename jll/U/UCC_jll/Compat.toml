@@ -4,11 +4,17 @@ JLLWrappers = "1.7.0-1"
 LazyArtifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
 TOML = ["0.0.0", "1"]
-UCX_jll = "1.20"
 julia = "1.10.0-1"
 
 ["1-1.6"]
 NCCL_jll = "2.27.7"
 
+["1-1.8.0"]
+UCX_jll = "1.20"
+
 ["1.8-1"]
 NCCL_jll = "2.28.9"
+
+["1.8.1-1"]
+CUDA_Runtime_jll = "0.26.1-0"
+UCX_jll = "1.20.1-1.20"

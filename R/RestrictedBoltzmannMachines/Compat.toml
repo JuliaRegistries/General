@@ -130,6 +130,8 @@ ChainRulesCore = "1.21.1 - 1"
 
 ["4 - 7"]
 Adapt = "4.1.1 - 4"
+
+["4 - 8"]
 EllipsisNotation = "1.8.0 - 1"
 FillArrays = "1.9.0 - 1"
 SpecialFunctions = "2.3.1 - 2"
@@ -140,23 +142,28 @@ julia = "1.12.0 - 1"
 ["5.4 - 5"]
 julia = "1.10.0 - 1"
 
-["5.4 - 7"]
+["5.4 - 8"]
 LogExpFunctions = ["0.3.26 - 0.3", "1"]
 
-["5.8.1 - 7"]
+["5.8.1 - 8"]
 ChainRulesCore = "1.25.2 - 1"
 
 ["6 - 6.1"]
 julia = "1.11.0 - 1"
 
-["6 - 7"]
+["6 - 8"]
 LinearAlgebra = "1.11.0 - 1"
 Optimisers = "0.4"
 Random = "1.11.0 - 1"
 Statistics = "1.11.0 - 1"
 
-["6.2 - 7"]
+["6.2 - 8"]
 julia = "1.12.0 - 1"
 
 [7]
 MLUtils = "0.4.13 - 0.4"
+
+[8]
+Adapt = "4.7.0 - 4"
+LogStatFunctions = "2.2.0 - 2"
+StatsBase = "0.34"

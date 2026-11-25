@@ -53,10 +53,17 @@ LatticeDiracOperators = "0.3-0.4"
 RSCG = "0.1"
 
 [1]
+julia = "1.11.0 - 1"
+
+["1 - 1.0.1"]
 Gaugefields = "1.0.3 - 1"
 LatticeDiracOperators = "1"
 LatticeMatrices = "1.1.2 - 1"
-julia = "1.11.0 - 1"
 
 ["1.0.1 - 1"]
 JACC = ["0.6", "1"]
+
+["1.0.2 - 1"]
+Gaugefields = "1.1.12 - 1"
+LatticeDiracOperators = "1.1.5 - 1"
+LatticeMatrices = "1.2.11 - 1"

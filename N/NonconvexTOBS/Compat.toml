@@ -1,10 +1,12 @@
 [0]
-NonconvexCore = "1"
 Reexport = "1"
 
 ["0 - 0.1.0"]
 Cbc = "1"
 JuMP = "1"
+
+["0 - 0.2"]
+NonconvexCore = "1"
 
 ["0 - 0.2.0"]
 Parameters = "0.12"
@@ -23,3 +25,7 @@ HiGHS = "1"
 JuMP = "1.1.0 - 1"
 Parameters = "0.12 - 0.13"
 julia = "1.10.0 - 1"
+
+["0.3 - 0"]
+NonconvexCore = "2"
+SparseArrays = "1"

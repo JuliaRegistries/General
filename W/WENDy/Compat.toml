@@ -29,12 +29,29 @@ julia = "1.8.0 - 1"
 
 ["1.0.4 - 1"]
 AdaptiveRegularization = "0.1.1 - 0.1"
-Arpack = "0.5.4 - 0.5"
 Distributions = "0.25.125 - 0.25"
 FFTW = "1.8.1 - 1.8"
 ForwardDiff = "0.10.39 - 0.10"
-ImageFiltering = "0.7.12 - 0.7"
 JSOSolvers = "0.13.2 - 0.13"
-ManualNLPModels = "0.2"
 NLSolversBase = "7.10.0 - 7"
+
+["1.0.4 - 2"]
+Arpack = "0.5.4 - 0.5"
+ImageFiltering = "0.7.12 - 0.7"
+ManualNLPModels = "0.2"
 Tullio = "0.3.9 - 0.3"
+
+[2]
+AdaptiveRegularization = "0.2"
+Distributions = "0.25.120 - 0.25"
+FFTW = "1.8.0 - 1"
+ForwardDiff = "1"
+FunctionWrappers = "1.1.0 - 1"
+JSOSolvers = "0.14"
+LinearAlgebra = "1"
+Logging = "1"
+NonlinearSolve = "4"
+Optim = "2"
+Statistics = "1"
+Symbolics = "7"
+julia = "1.11.0 - 1"

@@ -1,7 +1,6 @@
 [0]
 Atomix = "a9b6321e-bd34-4604-b9c9-b65b8de01458"
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
-Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
@@ -20,8 +19,30 @@ StructUtils = "ec057cc2-7a8d-4b58-b3b3-92acb9f63b42"
 ["0 - 0.5"]
 SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 
+["0 - 0.9.9"]
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+
 ["0.2 - 0"]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 FlexUnits = "76e01b6b-c995-4ce6-8559-91e72a3d4e95"
 ImageMorphology = "787d08f9-d448-5407-9aad-5290dd7ab264"
 PNGFiles = "f57f5aa1-a3ce-4bc8-8ab9-96f992907883"
+
+["0.7"]
+Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
+
+["0.7 - 0"]
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Tar = "a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e"
+p7zip_jll = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
+
+["0.8 - 0"]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0.8 - 0.9.1"]
+DelaunayTriangulation = "927a84f5-c5f4-47a5-9785-b46e178433df"
+
+["0.9 - 0"]
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"

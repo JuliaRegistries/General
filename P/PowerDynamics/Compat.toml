@@ -149,6 +149,7 @@ Setfield = "1"
 SteadyStateDiffEq = "1-2"
 
 [4]
+NonlinearSolve = "4"
 OrderedCollections = "1.6.3 - 1"
 SciMLBase = "2.48.1 - 2"
 SymbolicIndexingInterface = "0.3.28 - 0.3"
@@ -163,7 +164,6 @@ Graphs = "1.9.0 - 1"
 LinearAlgebra = "1.10.0 - 1"
 MacroTools = "0.5.16 - 0.5"
 ModelingToolkitStandardLibrary = "2.11.0 - 2"
-NonlinearSolve = "4"
 Reexport = "1.2.2 - 1"
 Setfield = "1.1.1 - 1"
 StaticArrays = "1.9.7 - 1"
@@ -196,9 +196,16 @@ SparseMatrixColorings = "0.4.23 - 0.4"
 [5]
 ModelingToolkitBase = "1.21.0 - 1"
 NaNMath = "1"
-NetworkDynamics = "1.1.0 - 1"
 OrderedCollections = "1.6.3 - 2"
 SciCompDSL = "1"
 SciMLBase = "3"
 SymbolicIndexingInterface = "0.3.36 - 0.3"
 Symbolics = "7"
+
+["5.0"]
+NetworkDynamics = "1.1.0 - 1"
+NonlinearSolve = "4"
+
+["5.1 - 5"]
+NetworkDynamics = "1.4.0 - 1"
+PrecompileTools = "1.2.1 - 1"

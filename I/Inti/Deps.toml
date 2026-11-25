@@ -6,12 +6,14 @@ LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
 NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 Scratch = "6c6a2e73-6563-6170-7368-637461726353"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+["0 - 0.2"]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 ["0.1.2 - 0"]
 Bessels = "0e736298-9ec6-45e8-9647-e4fc86a2fe38"
@@ -23,3 +25,6 @@ Richardson = "708f8203-808e-40c0-ba2d-98a6953ed40d"
 
 ["0.2.1 - 0"]
 OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+
+["0.4 - 0"]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"

@@ -10,9 +10,15 @@ libcxxwrap_julia_jll = "0.13"
 Artifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
 
+["4.13"]
+julia = "1.10-1.14"
+
 ["4.13-4"]
 JLLWrappers = "1.7.0-1"
 OpenBLAS32_jll = "0.3.24-0.3"
 Qt6Base_jll = "6.10.2-6.10"
-julia = "1.10-1.14"
 libcxxwrap_julia_jll = "0.14.7-0.14"
+
+["4.14-4"]
+Libglvnd_jll = "1.7.0-1"
+julia = "1.10-1.13"

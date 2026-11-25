@@ -57,7 +57,6 @@ Images = "0.26"
 
 ["0.2.10 - 0"]
 AxisArrays = "0.4"
-Colors = "0.12"
 FFTW = "1"
 FixedPointNumbers = "0.8"
 NIfTI = "0.6"
@@ -73,19 +72,32 @@ Roots = "1-2"
 Unitful = "1.2.0-1"
 julia = "1.6.0-1"
 
+["0.2.10 - 0.2.13"]
+Colors = "0.12"
+
 ["0.2.11 - 0.2.12"]
 ColorVectorSpace = "0.9-0.10"
 Images = "0.24-0.26"
 
-["0.2.13 - 0"]
+["0.2.13"]
 ColorVectorSpace = "0.9 - 0.10"
+Roots = "1 - 2"
+julia = "1.6.0 - 1"
+
+["0.2.13 - 0"]
 ImageMagick = "1.3.0 - 1"
 Images = "0.24 - 0.26"
 Interpolations = "0.14 - 0.16"
-Roots = "1 - 2"
 TestImages = "1.3.1 - 1"
 Unitful = "1.2.0 - 1"
-julia = "1.6.0 - 1"
+
+["0.2.14 - 0"]
+ColorVectorSpace = "0.9 - 0.11"
+Colors = "0.12 - 0.13"
+ImageMagick_jll = "7.1.2002 - 7"
+Roots = "1 - 3"
+Statistics = "1"
+julia = "1.10.0 - 1"
 
 ["0.2.2"]
 Images = "0.22"

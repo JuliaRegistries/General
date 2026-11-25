@@ -53,9 +53,14 @@ ZMQ = "1.2.0 - 1"
 ["0.6 - 0"]
 julia = "1.6.0 - 1"
 
+["0.7"]
+UHDBindings = "0.6"
+
 ["0.7 - 0"]
 BladeRFHardwareDriver_jll = "2.4.0 - 2"
 Libdl = "1.6.0 - 1"
 Printf = "1.6.0 - 1"
 Sockets = "1.6.0 - 1"
-UHDBindings = "0.6"
+
+["0.8 - 0"]
+UHDBindings = "0.6 - 0.7"

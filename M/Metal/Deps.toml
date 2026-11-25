@@ -10,12 +10,14 @@ cmt_jll = "65323cdd-17ec-5719-9643-72016a7f97e3"
 ["0 - 1"]
 Adapt = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
 CEnum = "fa961155-64e5-5f13-b03f-caf6b980ea82"
-ExprTools = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
 GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
 GPUCompiler = "61eb1bfa-7361-4325-ad38-22787b887f55"
 LLVM = "929cbde3-209d-540e-8aea-75f648917ca0"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+["0 - 1.12.0"]
+ExprTools = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
 
 ["0 - 1.2"]
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
@@ -66,6 +68,9 @@ Scratch = "6c6a2e73-6563-6170-7368-637461726353"
 ["1.12 - 1"]
 KernelInterface = "4ee993da-d684-4d17-a7dd-4e58e78d92bf"
 UnsafeAtomics = "013be700-e6cd-48c3-b4a1-df204f14c38f"
+
+["1.12.1 - 1"]
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 
 ["1.2 - 1"]
 PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"

@@ -1,6 +1,11 @@
 [1]
-ForwardDiff = "0.10"
 Plots = "1"
+
+["1 - 1.1"]
+ForwardDiff = "0.10"
 
 ["1 - 1.1.1"]
 GR = "0.70"
+
+["1.2 - 1"]
+ForwardDiff = ["0.10", "1"]

@@ -102,10 +102,12 @@ SparseArrays = "1"
 
 ["0.4 - 0"]
 AffineMaps = "0.3"
-DensityInterface = "0.4"
 
 ["0.4 - 0.4.2"]
 IrrationalConstants = "0.2.2-0.2"
+
+["0.4 - 0.6.0"]
+DensityInterface = "0.4"
 
 ["0.4.0"]
 LinearSolve = "2"
@@ -118,7 +120,6 @@ Distributions = "0.25.65-0.25"
 
 ["0.4.3 - 0"]
 Distributions = "0.25.65 - 0.25"
-DocStringExtensions = "0.8 - 0.9"
 FillArrays = "1.1.1 - 1"
 IrrationalConstants = "0.2.2 - 0.2"
 PDMats = "0.11.5 - 0.11"
@@ -136,6 +137,9 @@ Optim = "1.12.0 - 1"
 ["0.4.3 - 0.5"]
 ChainRulesCore = ["0.9.44 - 0.10", "1"]
 LinearSolve = "2 - 3"
+
+["0.4.3 - 0.6.1"]
+DocStringExtensions = "0.8 - 0.9"
 
 ["0.4.6 - 0.4"]
 Optim = "1.12.0 - 2"
@@ -155,3 +159,9 @@ AutoDiffOperators = "0.4"
 ChainRulesCore = "1"
 LinearSolve = "3.27.0 - 5"
 MatrixShapedOperators = "0.1"
+
+["0.6.1 - 0"]
+DensityInterface = ["0.4", "1"]
+
+["0.6.2 - 0"]
+DocStringExtensions = "0.8 - 0.10"

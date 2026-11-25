@@ -1,17 +1,33 @@
 [1]
+OptimalBids = "1.3"
+
+["1 - 2"]
 Distributions = "0.25"
 JuMP = "1"
-MathOptInterface = "1.1.0-1"
-OptimalBids = "1.3"
 PDMats = "0.11"
 ProgressMeter = "1"
 Reexport = "1.2"
+
+["1.0"]
+MathOptInterface = "1.1.0-1"
 julia = "1.6.0-1"
 
 ["1.0.0"]
 MarketData = "0.13"
 Statistics = "1.6.0-1"
 
-["1.0.1-1"]
+["1.0.1 - 1.0"]
 MarketData = "0.15"
+
+["1.0.1 - 2"]
 Statistics = "1"
+
+["1.1 - 1"]
+MarketData = "0.15 - 0.16"
+
+["1.1 - 2"]
+LinearAlgebra = "1"
+MathOptInterface = "1.1.0 - 1"
+Random = "1"
+UUIDs = "1"
+julia = "1.10.0 - 1"

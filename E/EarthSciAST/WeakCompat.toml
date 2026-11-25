@@ -1,14 +1,18 @@
 [0]
-ComponentArrays = "0.15"
 DiffEqCallbacks = "4"
-Extents = "0.1"
 ForwardDiff = "1"
-GeoInterface = "1"
-GeometryOps = "0.1"
 ModelingToolkit = "11"
 Reactant = "0.2"
-SortTileRecursiveTree = "0.1"
 Symbolics = "7"
+
+["0 - 0.10"]
+Extents = "0.1"
+GeoInterface = "1"
+GeometryOps = "0.1"
+SortTileRecursiveTree = "0.1"
+
+["0 - 0.14"]
+ComponentArrays = "0.15"
 
 ["0 - 0.2"]
 EarthSciIO = "0.1"
@@ -23,6 +27,9 @@ SciMLBase = "2"
 Catalyst = "16"
 DomainSets = "0.7"
 
+["0.12 - 0"]
+EarthSciIO = "0.4"
+
 ["0.3 - 0.6"]
 EarthSciIO = "0.1.4 - 0.1"
 
@@ -32,11 +39,15 @@ SciMLBase = "2 - 3"
 
 ["0.7 - 0"]
 Catalyst = "16 - 17"
+
+["0.7 - 0.14"]
 DomainSets = "0.7 - 0.8"
 
 ["0.7 - 0.8"]
 EarthSciIO = "0.1.4 - 0.2"
 
 ["0.9 - 0"]
-EarthSciIO = "0.3"
 OrdinaryDiffEqTsit5 = "1 - 2"
+
+["0.9 - 0.11"]
+EarthSciIO = "0.3"

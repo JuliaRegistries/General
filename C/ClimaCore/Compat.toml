@@ -108,6 +108,8 @@ ClimaComms = "0.5.6-0.5"
 InteractiveUtils = "1"
 LinearAlgebra = "1"
 SparseArrays = "1"
+
+["0.10.56 - 1.0.8"]
 Statistics = "1"
 
 ["0.10.6 - 0.14.19"]
@@ -239,10 +241,12 @@ Adapt = "3.2.0 - 4"
 CubedSphere = "0.2 - 0.3"
 ForwardDiff = ["0.10.15 - 0.10", "1"]
 GaussQuadrature = "0.5.8 - 0.5"
-HDF5 = "0.16.16 - 0.17"
 KrylovKit = "0.6 - 0.8"
-MultiBroadcastFusion = "0.3.1 - 0.4"
 julia = "1.10.0 - 1"
+
+["0.14.35 - 1.0.8"]
+HDF5 = "0.16.16 - 0.17"
+MultiBroadcastFusion = "0.3.1 - 0.4"
 
 ["0.14.38 - 0.15.1"]
 RootSolvers = ["0.3 - 0.4", "1"]
@@ -259,7 +263,7 @@ StaticArrays = "1.9.8 - 1"
 ["0.14.49 - 1"]
 ClimaInterpolations = "0.1.1 - 0.1"
 
-["0.14.51 - 1"]
+["0.14.51 - 1.0.8"]
 LLVM = "9"
 
 ["0.14.54 - 1"]
@@ -314,7 +318,7 @@ Static = "0.4-0.6"
 ["0.9 - 0.10.5"]
 IntervalSets = "0.5-0.6"
 
-[1]
+["1 - 1.0.8"]
 UnrolledUtilities = "0.1.11 - 0.1"
 
 ["1.0.2 - 1"]
@@ -322,3 +326,10 @@ ClimaComms = "0.6.12 - 0.6"
 
 ["1.0.8 - 1"]
 RootSolvers = ["0.4.6 - 0.4", "1"]
+
+["1.0.9 - 1"]
+HDF5 = "0.17"
+LLVM = "9.4.0 - 10"
+MultiBroadcastFusion = "0.3.5 - 0.4"
+Statistics = ["1.10", "1.11.1 - 1"]
+UnrolledUtilities = "0.1.13 - 0.1"

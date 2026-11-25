@@ -1,4 +1,4 @@
-[0]
+["0 - 0.2"]
 Compat = "1-2"
 CutPruners = "0.1.0-0.2"
 JuMP = "0.18"
@@ -8,3 +8,14 @@ StochOptInterface = "0.0.0-0.0.1"
 StructJuMP = "0.1.0-0.2"
 TimerOutputs = "0.0.0-0.5"
 julia = "0.6-1"
+
+["0.3 - 0"]
+CutPruners = "0.3"
+Graphs = "1"
+JuMP = "1"
+LinearAlgebra = "1.10.0 - 1"
+SparseArrays = "1.10.0 - 1"
+StochOptInterface = "0.2"
+StructJuMP = "0.3"
+TimerOutputs = "1"
+julia = "1.10.0 - 1"
