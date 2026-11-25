@@ -4,12 +4,14 @@ ConstructionBase = "1"
 DataStructures = "0.19"
 Dates = "1"
 Flatten = "0.4"
-FreezeCurves = "0.9"
 Interpolations = "0.16"
 IntervalSets = "0.7"
 KernelAbstractions = "0.9"
 Unitful = "1"
 julia = "1.10.0 - 1"
+
+["0 - 0.1"]
+FreezeCurves = "0.9"
 
 ["0 - 0.1.0"]
 SpeedyWeatherInternals = "0.1"
@@ -33,8 +35,10 @@ SpeedyWeatherInternals = "0.1 - 0.2"
 Thermodynamics = "1"
 
 ["0.1.10 - 0"]
-Oceananigans = "0.113.5 - 0.116"
 SpeedyWeatherInternals = "1.0.1 - 1"
+
+["0.1.10 - 0.1"]
+Oceananigans = "0.113.5 - 0.116"
 
 ["0.1.2 - 0"]
 ModelParameters = "0.4"
@@ -71,7 +75,7 @@ Oceananigans = "0.110.15 - 0.111"
 ["0.1.8"]
 Oceananigans = "0.113.5 - 0.113"
 
-["0.1.8 - 0"]
+["0.1.8 - 0.1"]
 RingGrids = ["0.1", "1"]
 
 ["0.1.8 - 0.1.9"]
@@ -82,3 +86,8 @@ Oceananigans = "0.113.5 - 0.114"
 
 ["0.1.9 - 0"]
 DocStringExtensions = "0.9.5 - 0.10"
+
+["0.2 - 0"]
+FreezeCurves = "0.9.10 - 0.9"
+Oceananigans = "0.113.5 - 0.118"
+RingGrids = "1.0.2 - 1"
