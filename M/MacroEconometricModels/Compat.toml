@@ -65,20 +65,29 @@ Random = "1"
 
 ["0.6.5 - 1"]
 PrecompileTools = "1"
-SHA = "0.7"
 ScopedValues = "1"
+
+["0.6.5 - 1.1.0"]
+SHA = "0.7"
 
 ["0.6.6 - 1"]
 Printf = "1"
 
 ["0.7 - 1"]
-Ipopt = "1"
 JuMP = "1"
 Logging = "1"
 Tables = "1"
+
+["0.7 - 1.1.0"]
+Ipopt = "1"
 
 ["0.7.2 - 1"]
 SpecialFunctions = "2"
 
 ["0.9.3 - 1"]
 JLD2 = "0.4 - 0.6"
+
+["1.1.1 - 1"]
+MadNLP = "0.8"
+NLPModels = "0.21"
+SHA = ["0.7", "1"]
