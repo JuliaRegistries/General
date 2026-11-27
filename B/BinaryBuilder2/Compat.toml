@@ -14,7 +14,6 @@ PrecompileTools = "1.2.1 - 1"
 Preferences = "1.5.0 - 1"
 Reexport = "1.2.2 - 1"
 RegistryTools = "2.2.3 - 2"
-Sandbox = "2.1.1 - 2"
 Scratch = "1.3.0 - 1"
 ScratchSpaceGarbageCollector = "0.1.1 - 0.1"
 StructEquality = "2.1.0 - 2"
@@ -36,6 +35,9 @@ BinaryBuilderToolchains = "0.3"
 
 ["1 - 1.3.0"]
 BinaryBuilderPlatformExtensions = "0.2"
+
+["1 - 1.4.4"]
+Sandbox = "2.1.1 - 2"
 
 ["1.0"]
 JLLGenerator = "0.4"
@@ -122,9 +124,15 @@ BinaryBuilderAuditor = "0.4.5 - 0.4"
 BinaryBuilderProducts = "0.3.4 - 0.3"
 BinaryBuilderSources = "0.3.4 - 0.3"
 
+["1.4.4"]
+BinaryBuilderToolchains = "0.5"
+
 ["1.4.4 - 1"]
 BinaryBuilderAuditor = "0.4.6 - 0.4"
 BinaryBuilderProducts = "0.4"
 BinaryBuilderSources = "0.3.6 - 0.3"
-BinaryBuilderToolchains = "0.5"
 JLLGenerator = "0.6"
+
+["1.4.5 - 1"]
+BinaryBuilderToolchains = "0.5.1 - 0.5"
+Sandbox = "2.3.0 - 2"
