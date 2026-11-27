@@ -4,7 +4,6 @@ Expat_jll = "2.7.1-2"
 FreeType2_jll = "2.13.4-2"
 JLLWrappers = "1.7.0-1"
 JpegTurbo_jll = "3.1.2-3"
-LazyArtifacts = ["0.0.0", "1"]
 Libdl = ["0.0.0", "1"]
 Libtiff_jll = "4.7.1-4"
 Lz4_jll = "1.10.1-1"
@@ -17,7 +16,6 @@ XML2_jll = "2.13.6-2.13"
 XZ_jll = "5.8.1-5"
 Zlib_jll = "1.2.12-1"
 exprtk_jll = "0.0.3"
-julia = "1.6.0-1"
 libharu_jll = "2.4.5-2"
 libpng_jll = "1.6.50-1"
 nlohmann_json_jll = "3.12.0-3"
@@ -33,6 +31,10 @@ NetCDF_jll = "401.900.300-401"
 MPItrampoline_jll = "5.5.3-5"
 OpenMPI_jll = ["4.1.8-4", "5.0.7-5"]
 
+["9-9.7.1"]
+LazyArtifacts = ["0.0.0", "1"]
+julia = "1.6.0-1"
+
 ["9.6-9.6.1"]
 HDF5_jll = "2.1.1-2.1"
 MPICH_jll = "4.3.0-5"
@@ -45,7 +47,7 @@ NetCDF_jll = "401.1000.0-401"
 ["9.6.2"]
 HDF5_jll = "2.1.2-2.1"
 
-["9.6.2-9"]
+["9.6.2-9.7.1"]
 MPICH_jll = "5.0.1-5"
 MPItrampoline_jll = "5.5.6-5"
 OpenMPI_jll = ["4.1.9-4", "5.0.11-5"]
@@ -61,3 +63,10 @@ HDF5_jll = "2.2.1-2"
 ["9.7-9"]
 FFMPEG_nogpl_jll = "9"
 HDF5_jll = "2.2.2-2"
+
+["9.7.2-9"]
+MPICH_jll = "5.0.3-5"
+MPItrampoline_jll = "5.5.7-5"
+MicrosoftMPI_jll = "10.1.5-10"
+OpenMPI_jll = ["4.1.11-4", "5.0.14-5"]
+julia = "1.10.0-1"
