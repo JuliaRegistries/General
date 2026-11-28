@@ -52,14 +52,19 @@ julia = "1.9.0 - 1"
 FileIO = "1.6.0 - 1"
 IOCapture = ["0.2.4 - 0.2", "1"]
 JLD2 = "0.5 - 0.6"
-QuantumPropagators = "0.9"
 julia = "1.10.0 - 1"
+
+["0.11.4 - 0.11"]
+QuantumPropagators = "0.9"
 
 ["0.11.5 - 0"]
 Pkg = "1"
 Random = "1"
 SparseArrays = "1"
 UUIDs = "1"
+
+["0.12 - 0"]
+QuantumPropagators = "0.10"
 
 ["0.2"]
 GRAPE = "0.2"
