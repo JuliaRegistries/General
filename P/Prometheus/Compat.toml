@@ -1,6 +1,5 @@
 [1]
 CodecZlib = "0.7"
-SimpleBufferStream = "1"
 
 ["1 - 1.1"]
 Sockets = "1.6.0-1"
@@ -8,6 +7,9 @@ Sockets = "1.6.0-1"
 ["1 - 1.4"]
 HTTP = "1"
 julia = "1.6.0-1"
+
+["1 - 1.6"]
+SimpleBufferStream = "1"
 
 ["1.5"]
 julia = "1.6.0 - 1"
@@ -17,3 +19,6 @@ HTTP = ["1", "2.5.1 - 2"]
 
 ["1.6 - 1"]
 julia = "1.10.0 - 1"
+
+["1.7 - 1"]
+TranscodingStreams = "0.10.5 - 0.11"
