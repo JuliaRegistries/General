@@ -1,8 +1,18 @@
 [0]
-Conda = "1.7.0-1"
 DefaultApplication = "1"
 JSON = "0.21"
 MacroTools = "0.5"
+
+["0 - 0.3"]
+Conda = "1.7.0-1"
 ProgressMeter = "1.7.0-1"
 PyCall = "1.93.0-1"
 julia = "1.6.0-1"
+
+["0.4 - 0"]
+Conda = "1.7.0 - 1"
+Preferences = "1.4.3 - 1"
+ProgressMeter = "1.7.0 - 1"
+PromptingTools = "0.77"
+PyCall = "1.93.0 - 1"
+julia = "1.11 - 1.12"
